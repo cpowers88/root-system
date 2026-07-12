@@ -1,0 +1,59 @@
+---
+type: phase
+status: active
+tags: [phase, now]
+---
+
+# Phase 0 — Current Position & Baseline
+
+**Window**: July 2026
+**One-line purpose**: Know exactly where the start line is, and ship the first proof project.
+
+## Purpose
+Establish a written, honest baseline of skills, assets, and gaps — and finish the
+KSU Academic Tracker before D2L opens (~July 25). A roadmap from an unknown starting
+point is fiction.
+
+## Why It Matters to the North Star
+Every later phase measures progress against this baseline. The tracker is also the
+live fix for the #1 skill gap (SQL) and the walking-into-CSE-1321-loaded advantage.
+
+## Skills Needed
+- Python fundamentals (CS50P pace) — active
+- SQL/SQLite basics — trained by the tracker build
+- Honest self-assessment — the monthly weak-link question
+
+## Skills NOT Needed Yet
+- Flask, APIs, automation platforms — Phase 3+ picks them up
+- Sales/outreach skills — Phase 4
+- Anything on the "parked" lists in NORTH_STAR.md
+
+## Best Sources
+| Source | Tier | Location | What it proves |
+|---|---|---|---|
+| SKILL_GAP_ANALYSIS.md | internal-spine | `01-NORTH_STAR\` | The gap priority order |
+| KSU_Academic_Tracker_Brief.md | internal-spine | `02-LIBRARY\.PROJECTS\KSU_Academic_Tracker\` | Scope + data model of the proof project |
+| CS50P (Harvard) | 1 | online | Python path |
+
+## Tools to Learn
+sqlite3, argparse, datetime (all inside the tracker build)
+
+## Business Capability Unlocked
+None yet — that's honest. This phase buys the *foundation* every capability sits on.
+
+## Proof Projects
+- [[ksu-academic-tracker]] — ships this month
+
+## Exit Criteria
+- [ ] [[current-position]] written and reviewed by Chris ✓ (July 6)
+- [ ] Castle live with maps, phases 0–2, source map ✓ (July 6)
+- [ ] Tracker: all four tables + `--week`, `--today`, `--tests`, `--course`, `--overdue` working
+- [ ] Real syllabus data entered when D2L opens (~July 25)
+- [ ] August 1 monthly review updates the weak links
+
+## Risks and Distractions
+- Building the castle instead of the tracker (planning-as-avoidance — named risk)
+- Expanding tracker scope beyond the brief (two functions only; no dashboard)
+
+## Next Action
+Next tracker session: finish the remaining queries per the brief's Session 2/3 plan.

@@ -1,0 +1,88 @@
+---
+type: stage
+stage_number: 04
+status: ready
+priority: current
+source_spine: "Think Python Ch.3 + Ch.6"
+support_sources: ["Automate the Boring Stuff Ch.4", "Python Crash Course Ch.8", "Python Workout Ch.7"]
+---
+
+# Stage 04 — Functions, Parameters, and Return Values
+
+## Purpose
+
+Learn to package reusable logic into functions, pass data in with parameters, and get results back out with return values.
+
+## Why This Stage Comes Now
+
+Stages 1-3 gave Chris the raw tools (values, decisions, loops) but every program so far has been one long, flat script. Functions are the first real organizing tool — packaging logic so it can be named, reused, and combined. Every later stage (data structures, program design, OOP) assumes functions are second nature.
+
+## Prerequisites
+
+Stage 3 — `for`/`while` loops, counters, accumulators.
+
+## Concepts To Learn
+
+- [[concepts/defining-and-calling-functions]]
+- [[concepts/parameters-and-arguments]]
+- [[concepts/return-values]]
+
+## Vocabulary To Add
+
+- [[glossary/function]]
+- [[glossary/def]]
+- [[glossary/call]]
+- [[glossary/parameter]]
+- [[glossary/argument]]
+- [[glossary/scope]]
+- [[glossary/return-value]]
+- [[glossary/fruitful-void-function]]
+
+Full flashcard batch: [[flashcards/stage-04-functions]]
+
+## Required Code Patterns
+
+- [[code-patterns/function-with-parameter]]
+- [[code-patterns/function-with-return-value]]
+
+## Drills
+
+- [[drills/stage-04-function-writing]]
+- Extra practice: Python Workout Ch.7 (Functions) exercises.
+
+## Mini-Project
+
+- [[mini-projects/stage-04-function-toolbox]]
+
+## Common Errors Reference
+
+- [[errors/stage-04-common-errors]]
+
+## Read Next
+
+1. Think Python Ch.3 — "Function Calls," "Math Functions," "Composition," "Adding New Functions," "Definitions and Uses," "Flow of Execution," "Parameters and Arguments," "Variables and Parameters Are Local," "Stack Diagrams," "Fruitful Functions and Void Functions," "Why Functions?"
+2. Think Python Ch.6 — "Return Values," "Incremental Development," "Composition," "Boolean Functions." **Skip** "More Recursion," "Leap of Faith," "One More Example," "Checking Types" — those lean into recursion (Stage 8) and type-checking depth not needed yet.
+3. Automate the Boring Stuff Ch.4 (Functions) — parallel reinforcement.
+4. Python Crash Course Ch.8 (Functions) — extra worked examples and exercises; **skip** "Passing an Arbitrary Number of Arguments," "Mixing Positional and Arbitrary Arguments," "Using Arbitrary Keyword Arguments," and "Storing Your Functions in Modules" for now — those are parked (see below).
+
+## Mastery Checklist
+
+- [ ] Define function, parameter, argument, scope, return value, and fruitful/void function in plain English.
+- [ ] Recognize each of these in a short piece of code.
+- [ ] Write a function with a parameter and a return value from memory, without notes.
+- [ ] Explain the difference between a parameter and an argument out loud.
+- [ ] Explain why a local variable doesn't exist outside its function.
+- [ ] Debug at least one of the four error types in [[errors/stage-04-common-errors]] without help.
+- [ ] Complete [[drills/stage-04-function-writing]].
+- [ ] Complete [[mini-projects/stage-04-function-toolbox]] and explain the solution out loud.
+
+## Stage Mastery Target
+
+Can write a function with a parameter and a return value from memory, and explain when to use `return` versus `print()` inside a function.
+
+## Parked Until Later
+
+- Default parameter values, keyword arguments, `*args`/`**kwargs` — Stage 8-10, as needed.
+- Recursion (a function calling itself) — Stage 8.
+- Storing functions in separate modules/files — Stage 9 (Automation Bridge), once there's a real reason to split files.
+- Decorators — well beyond this vault's current scope.

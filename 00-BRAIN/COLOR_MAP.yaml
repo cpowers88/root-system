@@ -1,0 +1,88 @@
+# COLOR_MAP.yaml — canonical color registry for the .ROOT Obsidian graph
+# Authority: this file. START_HERE.md "The Color Language" is the human-readable
+# mirror; .obsidian/graph.json is generated output.
+# Edit this file to add/change colors. Then run: 00-BRAIN/scripts/build_graph_colors.py
+# Do not hand-edit .obsidian/graph.json colorGroups — it will be overwritten.
+#
+# Hex choices approved by Chris July 8, 2026 (doctrine updated same day —
+# supersedes the July 7 table wording in START_HERE.md, which was updated to match):
+# CASTLE keeps its live light brown, the Watchtower keeps its live blue-violet,
+# 00-SCHOOL keeps the former school magenta, and PYTHON takes light purple #9B59B6 —
+# Chris judged this the most visually separating set for human eyes (it also
+# empties the crowded yellow/amber warm band: Amber, Gold, Orange now have room).
+# Two drifted values were corrected against doctrine: PHYSICS blue→cyan,
+# AI_AUTOMATION hot-pink→rose. No two groups differ by hue alone — lightness
+# also separates near neighbors (colorblind consideration).
+
+version: 1
+updated: 2026-07-11
+
+groups:
+  - name: "CASTLE"
+    path: "00-BRAIN/CASTLE"
+    color_hex: "#B68258"   # Light brown (live value kept — Chris, July 8) — must precede 00-BRAIN so the subfolder wins
+  - name: "00-BRAIN"
+    path: "00-BRAIN"
+    exclude_subpaths: ["00-BRAIN/CASTLE"]   # CASTLE has its own color, don't double-count
+    color_hex: "#E74C3C"   # Red (live value kept)
+  - name: "01-NORTH_STAR"
+    path: "01-NORTH_STAR"
+    color_hex: "#F39C12"   # Amber (live #F39512 normalized)
+  - name: "Watchtower"
+    path: "...projectSuccess"
+    color_hex: "#3C25E9"   # Blue-violet (live value kept — Chris, July 8)
+  - name: "02-LIBRARY"
+    path: "02-LIBRARY"
+    exclude_subpaths: ["02-LIBRARY/00-SCHOOL"]   # school file home has its own color
+    color_hex: "#E67E22"   # Orange (live value kept)
+  - name: "WIKI-BUSINESS"
+    path: "03-WIKIS/BUSINESS"
+    color_hex: "#2ECC71"   # Green (live value kept)
+  - name: "WIKI-PYTHON"
+    path: "03-WIKIS/PYTHON"
+    color_hex: "#A96BC2"   # Light purple (Chris brightened from #9B59B6 in Obsidian, July 8)
+  - name: "WIKI-EDUCATION"
+    path: "03-WIKIS/EDUCATION"
+    color_hex: "#DAA520"   # Gold (live goldenrod kept — darker than Yellow/Amber)
+  - name: "WIKI-PHYSICS"
+    path: "03-WIKIS/PHYSICS"
+    color_hex: "#00CED1"   # Cyan (was drifted blue #0052D6)
+  - name: "WIKI-TECHNOLOGY"
+    path: "03-WIKIS/TECHNOLOGY"
+    color_hex: "#6366F1"   # Indigo (live value kept — violet-leaning, distinct from Blue)
+  - name: "WIKI-AI_AUTOMATION_SYSTEMS"
+    path: "03-WIKIS/AI_AUTOMATION_SYSTEMS"
+    color_hex: "#F4A7B9"   # Rose (was hot-pink #EC4688 — collided with Watchtower Magenta)
+  - name: "WIKI-SYSTEMS"
+    path: "03-WIKIS/SYSTEMS"
+    color_hex: "#A0785A"   # Tan (live leather-brown kept — distinct from Gold)
+  - name: "00-SCHOOL"
+    path: "02-LIBRARY/00-SCHOOL"
+    color_hex: "#A314AD"   # Magenta-purple (former school-section color, kept after July 11 relocation)
+  - name: "05-BUSINESS"
+    path: "05-BUSINESS"
+    color_hex: "#1F8B4C"   # Dark green (live value kept — clearly darker than Green)
+  - name: "NOW"
+    path: "NOW.md"
+    is_file: true
+    color_hex: "#FFFFFF"   # White (live value kept)
+
+excluded_from_graph:
+  - "99-ARCHIVE"
+  - "77-INBOX"
+  - "88-JOURNAL"
+  - "00-BRAIN/Session_Logs"
+  - "Clippings"
+
+# ---------------------------------------------------------------------------
+# EXTENSION PROCEDURE — when a new top-level section or wiki hub is created:
+#   1. Add ONE entry to `groups:` above with a distinct color_hex.
+#   2. Run 00-BRAIN/scripts/build_graph_colors.py
+#   3. Open Obsidian graph view, confirm the new color shows.
+#   4. Manually update the human-readable table in START_HERE.md to match
+#      (the script never touches prose files — that edit stays human/deliberate,
+#      per WHERE_IT_GOES governance).
+# That's the whole loop. Folders that should NOT appear in the graph go in
+# `excluded_from_graph:` instead. The drift check in the build script flags any
+# folder that is in neither list.
+# ---------------------------------------------------------------------------

@@ -1,0 +1,462 @@
+---
+tags: [reference]
+---
+
+# Castle Log — Append Only
+
+## 2026-07-12 (evening) — ROOT_OPERATING_MANUAL.md execution brief (V2) executed
+
+- Executed `00-BRAIN\Session_Logs\ROOT_USER_OPERATING_INSTRUCTIONS_EXECUTION_BRIEF_V2_2026-07-12.md` (approved-for-execution, Claude Code as execution owner). `START_HERE.md` read-verified unchanged before and after (SHA-256 hash identical); left as the map, no edits.
+- **Created** `.ROOT\ROOT_OPERATING_MANUAL.md` — the new master human instruction file, all 10 required sections (operating loop, question router, per-realm operating table, AI-request pattern, knowledge-to-value pipeline, drift-prevention loop, human stop rules, closing-the-loop checklist, instruction directory). Points to `START_HERE.md` for the map and `WHERE_IT_GOES.md` for placement; copies neither.
+- **Updated** `CASTLE\HOW_TO_USE.md` — added an "Every Operation Identifies" checklist (why now / proof required / realm / next action / return path) and made explicit that CASTLE orients and sequences, never performs domain work.
+- **Normalized all seven wiki `HOW_TO_USE.md` files** (SYSTEMS, PYTHON, EDUCATION, PHYSICS, BUSINESS, TECHNOLOGY, AI_AUTOMATION_SYSTEMS) to the shared nine-section skeleton (question owned, start here, standard work loop, proof, outputs, boundaries, how the hub learns from use, close, current state), each with its brief-specified domain loop. Same pass corrected the interface drift the July 11 knowledge-system audit had flagged:
+  - SYSTEMS: page count corrected (stale "41 pages" → live count, 78).
+  - EDUCATION + AI_AUTOMATION_SYSTEMS: "empty scaffold" wording replaced with a live-status phrasing (both are still correctly inactive — the fact didn't change, the stale-sounding label did).
+  - PYTHON: `wiki/index.md` title corrected from "Education Wiki Index" to "Python Wiki Index."
+  - BUSINESS: named `wiki/ai-integration-company/index.md` as the single canonical current-frontier entry (`start-here.md` stays timeline-gated to the ~Sep 2026 First Contact phase).
+  - TECHNOLOGY: named `TECHNOLOGY_LIBRARY_STRATEGY.md`'s Current State section as the canonical current-frontier entry (this hub has no in-vault `current-position.md`).
+- **Updated** `05-BUSINESS\06-Capability Library\README.md` — added the idea → proof → reusable asset → client instance → deployment feedback pipeline, named inbound sources, the test requirement before an asset can leave `draft`, and outbound destinations including feedback back into the originating wiki/method file. APQC naming and maturity levels preserved unchanged.
+- **Related truth corrections** (all three, as scoped):
+  1. Root `AGENTS.md`: fixed its Lane pointer from a nonexistent `00-BRAIN\AGENTS.md` to the live `00-BRAIN\CODEX.md`, and dropped the inaccurate "Section 1/Section 2" phrasing (CODEX.md has no such split).
+  2. `CASTLE\OPERATIONS.md` § What the Castle Is: removed the copied "top .01% output from a two-member team" line (canonical wording is "top 1%," and the specific figure doesn't belong duplicated here) — now points to `NORTH_STAR.md` instead of restating it.
+  3. `CASTLE\wiki\current-position.md`: Physics line reconciled to the domain wiki's own position — **Stage 3 of 18, Vectors** — with the Stage 1–2 mastery-checklist caveat preserved. Previously read a stale "Stage 1" figure.
+- **Validation, all 10 checks run:** `START_HERE.md` hash identical before/after · exactly one live `ROOT_OPERATING_MANUAL.md` · manual points to `START_HERE.md` + `WHERE_IT_GOES.md` correctly · all seven wiki guides carry all nine skeleton headers (63/63 confirmed) · CASTLE and PHYSICS both report Stage 3/Vectors · stale-string grep clean across every live target actually in scope (remaining hits are either append-only log history or the audit/brief documents themselves, both correctly left alone) · `validate_boot_chain.py` PASS (29 boot files, 999 pages) · `wiki_lint.py --strict` PASS (0 blockers, 0 review debt, 714 expected — unchanged baseline) · `frontmatter_audit.py` shows zero new findings from any touched file (600 total, all pre-existing PYTHON stage-tag debt) · no scoped-out file changed (no new folders, no wiki merges, raw/archives/88-JOURNAL untouched, no Capability Library asset created in this pass).
+- **One flagged, deliberately out-of-scope item:** `03-WIKIS\SYSTEMS\CLAUDE.md` still states "41 pages" in three places (a governance/intake-protocol file, not named in the brief's scope, which was limited to `HOW_TO_USE.md`). Real count is 78. Left untouched pending a Chris decision on whether to extend a future brief to wiki `CLAUDE.md` files.
+- Next action: Chris reviews the new manual; Codex validates per the brief's Execution Owner note. If SYSTEMS\CLAUDE.md's page count is worth fixing, that's a small follow-up brief, not urgent.
+
+## 2026-07-12 (afternoon) — First Sunday weekly since go-live + Capability Library's first real asset
+
+- **Capability Library activated** (Chris-directed, 05-BUSINESS session before this castle session): built `APQC_13_1_WORKFLOW_OBSERVATION_MAP.md`, the folder's first real asset, from `OBSERVATION_METHODOLOGY.md` per the library's own `FIRST_RUN_CHECKLIST.md`. Index row added (maturity: draft). Cross-referenced into [[field-observation]]'s Source Support table. A desk-simulation dry run of Practice Rep 1 was proposed, then Chris deferred it — real Rep 1 remains the open next action, not yet run.
+- **Ran the first Sunday weekly since launch** (NOW.md named today as the first weekly to consume the DAILY files). Consumed `DAILY_2026-07-12.md` + the day's two launch reports, then ran the standing sweep duties (OPERATIONS.md § Wiki Sweep, § Weekly Inbox Routing Checklist, HAT_OPERATOR_PLAYBOOKS.md Watchtower Sweep):
+  - **7-hub wiki sweep**: clean, no drift. SYSTEMS + TECHNOLOGY's own logs fully account for the "33 stale FORGE-era links neutralized" already on record from the day's launch hardening — internally consistent, nothing hidden. PYTHON/EDUCATION/PHYSICS/BUSINESS/AI_AUTOMATION_SYSTEMS all current with their own last real work (July 9–11).
+  - **Watchtower radar**: quiet, not stale — 2 entries total, both dated July 6 (6 days old; nothing yet eligible for ⏸/🗑 prune, no 🔥 hot signal for the castle gate). Consistent with pre-outreach phase — no client conversations yet to generate real signals.
+  - **77-INBOX**: empty apart from `desktop.ini`/`Clippings` stubs. Nothing to route.
+  - **Flags 57, 51, 16** checked against live source files, not just the flag table: all three confirmed still correctly OPEN, no status change needed. #57 — `fall-2026-course-briefs.md` still explicitly flags ENGR 1000 as the Fall 2025 edition; still waiting on KSU to post the real Fall 2026 syllabus. #51 — calendar-based, not file-checkable from here; unchanged. #16 — grepped PHYSICS wiki; the 44 cross-product/torque hits are all pre-built Stage 10–12 cruise-prep content, not new activity. Chris's real current position is still Stage 3 (Vectors) per the log; cross product is deferred to Stage 11. "Approaching" framing stays accurate, still not urgent.
+  - `NORTH_STAR.md` confirmed fresh (header still reads "Last updated: July 11, 2026 — slim pass").
+- **Roadmap impact: none.** No new SYSTEM_FLAGS raised, no phase/skill status changed beyond the field-observation cross-reference above.
+- NOW.md already carries the Capability Library update (added same session, before this log entry).
+- Next action: normal output reps resume (PYTHON/PHYSICS, SQL segment, VSM scheduling); castle quiet until next weekly, a flag trigger, or Chris redirects. Real Practice Rep 1 (Capability Library validation) is the one open loop from today.
+
+## 2026-07-12 — Launch hardening triad closed
+
+- Link/index hygiene: PASS — classified lint reports 0 blockers, 0 review debt, 714 expected items; 33 stale migrated links repaired as plain text.
+- Deterministic safety: PASS — least-privilege Claude settings, private/raw tool+sandbox boundaries, Manual default, auto/bypass disabled, boot-validator enforcement.
+- Agent/eval maturity: PASS at supervised baseline — five-rule gate installed and five acceptance cases passed; multi-agent remains eval-justified only.
+- Next action: return to normal supervised output work; use-case-specific evals are required before any workflow gains autonomy.
+
+
+## 2026-07-12 — Final `.ROOT` launch optimization audit completed
+
+- Completed semantic review of OpenAI core Chunks 01–04 and 08 and applied the findings to a live-tree audit.
+- Final report: `00-BRAIN\Session_Logs\FINAL_ROOT_LAUNCH_OPTIMIZATION_REPORT_2026-07-12.md`.
+- Verdict: GO for supervised use; autonomous mutation remains conditional on least-privilege `.claude` permission hardening and deterministic private/raw denies.
+- Boot chain PASS; wiki lint unchanged from July 11 baseline (759 classified-backlog findings); raw remained untouched and `88-JOURNAL` was not read.
+- Next action: Chris approves or rejects the exact `.claude` hardening brief; Claude Code executes only after approval.
+
+## 2026-07-12 — OpenAI Platform/ChatGPT/Codex pack chunked
+
+- Inventoried 95 Markdown captures (1,009,215 bytes) without touching raw; registered [[openai-platform-docs-pack-2026-07]] and routed the corpus into ten thematic chunks.
+- Found one byte-identical Agents SDK duplicate pair; left it untouched under raw immutability.
+- Inventory, provenance, hash analysis, and routing are complete; semantic synthesis remains queued and no doctrine/roadmap claim was promoted.
+- Next action: review Chunks 01–04 and 08, then feed validated findings into the final `.ROOT` launch audit.
+
+## 2026-07-09 (night) — 🟢 GO-LIVE: Chris gave the launch decision
+
+- After the day's three arcs (report system → wiki-OS optimization →
+  seven-hub audit + full backlog clearance), Chris reviewed and said GO:
+  "system is ready to launch and test till school starts and see what
+  happens."
+- **Test window: July 10 → Aug 24 (semester start).** Operating mode:
+  output reps (PYTHON/PHYSICS + tracker daily use), DAILY blocks at every
+  task switch, weekly/monthly cadence as scheduled, system layer in
+  maintenance mode — friction becomes flags, no new architecture unless
+  something breaks in real use.
+- NOW.md flipped to LIVE status. The castle's job in the window: run the
+  weekly sweeps, consume the DAILY files, keep NOW.md honest, and measure
+  at Aug 24 what the test window actually produced.
+- Next action: quiet until Sunday's weekly (first DAILY-file consumer;
+  flag 55 → CLOSED table, flag 56 decision).
+
+## 2026-07-09 (late evening) — Castle consumes the hub-by-hub citation sweep (Chris-directed)
+
+- Chris directed a citation/sort audit of all seven wiki hubs (run under the
+  Operator hat immediately before this castle session), then a castle session to
+  consume it. The sweep was effectively an **early full-depth run of the monthly
+  lint** (OPERATIONS.md Wiki Sweep, deep tier) — three weeks ahead of the Aug 1
+  schedule, on Chris's call.
+- **What moved in the hubs (sweep summary, castle lens):** every hub's raw/ is
+  now honestly accounted for — the "fully processed" claims two hubs carried were
+  corrected in their logs. Ingested: Zapier workflow-tools landscape page +
+  WTI 2025 annual completion (AI_AUTOMATION_SYSTEMS), EDGAR/Procore updates
+  (BUSINESS), Fall course briefs incl. three different per-course AI policies
+  (EDUCATION), PM4Py extensions + APQC PCF page (SYSTEMS). Fixed: stale
+  citations, PHYSICS index Folders section (Stage-1-era counts → live counts),
+  PYTHON source-map's stale Chapter-10 gap note. TECHNOLOGY and PHYSICS raw/
+  clean apart from queued items.
+- **Flags opened (castle's sweep duty): 55** (MEDIUM — big-source backlog:
+  171-pp O'Reilly book in AIAS, 532-pp BPMN spec in SYSTEMS, 423-pp AI Index
+  2026 in TECHNOLOGY + its lane decision; Chris decides at the Jul 12 weekly),
+  **56** (LOW — two byte-identical duplicate raw files, Chris manual call),
+  **57** (MEDIUM — ENGR syllabus is the Fall 2025 edition, reverify its AI
+  prohibition when the 2026 version posts; TCOM table has recycled Spring dates).
+- **Roadmap impact: none.** Nothing found changes phases, skills, or the
+  go-live verdict. The sweep *strengthens* Phase 2 sources (APQC PCF = audit
+  process-inventory scaffolding; WTI 2025 full report = client-conversation
+  case studies) — noted here, pages stay in their hubs per the
+  reference-never-absorb rule.
+- NOW.md refreshed (late-addition block + Jul 12 weekly row now carries the
+  flag-55 decisions).
+- Next action: unchanged — Chris's 5-min go-live check → GO → July 10 output
+  reps; castle quiet until Sunday's weekly (which now also owns the flag-55
+  decisions).
+
+## 2026-07-09 (evening) — Wiki OS optimization + castle-lens review (Chris-directed)
+
+- Chris directed a second system pass: read the LLM-wiki raw batch (4 sources, all
+  in full) + all 7 wiki CLAUDE.mds side by side. Approved and applied same session:
+  **Wiki Shared Layer** in AI_Agent.md (one copy of the 5 rule-blocks that were
+  duplicated across all seven wikis + new lint / update-over-create /
+  contradiction-flag / recency rules from the sources); 7 CLAUDE.mds → pointer +
+  unique rules; **BUSINESS CLAUDE.md slimmed** ~920→~180 lines (drifted mission
+  quote removed — flag-38 pattern; old file archived); **AI-lane closure** (new
+  AI/LLM/agent research → AI_AUTOMATION_SYSTEMS; TECHNOLOGY `ai-and-llm/` closed;
+  `02-LIBRARY\08-AI-AUTOMATION` = artifact home, not intake). Recorded in
+  WHERE_IT_GOES.md; APPROVED & APPLIED proposal filed in AI_AUTOMATION_SYSTEMS —
+  its second completed research → proposal → promotion loop.
+- **OPERATIONS.md updated (Chris-approved):** monthly lint tier added under Wiki
+  Sweep (weekly sweep = light, monthly lint = deep, both → SYSTEM_FLAGS); stale
+  "review cadence below" pointer fixed to AI_Agent.md.
+- **Castle-lens .ROOT report delivered:** no HIGH flags. Watch item: PYTHON/PHYSICS
+  logs quiet ~2 weeks (expected — tracker took the slot; becomes real drift if
+  still quiet at Sunday's weekly). Make.com landscape rep (Educator hat, today) now
+  logged in TECHNOLOGY; all 7 wiki logs carry today's operating-file change.
+- NOW.md refreshed (evening close — go-live pending Chris's 5-min check).
+- Next action: Chris says GO → July 10 output reps (PYTHON/PHYSICS), castle quiet
+  until Sunday's weekly (first consumer of DAILY files).
+
+## 2026-07-09 — Report system built + go-live sweep (Chris-directed, go-live is July 10)
+
+- Chris named the gap from NOW.md's priority: no task-level reporting, no daily
+  consolidation. Approved design (3 decisions): DAILY files flat in Session_Logs,
+  block per task switch + session close, tiered sweep + scripted link check.
+- **Report system SHIPPED:** `Session_Logs\DAILY_TEMPLATE.md` (4-line task block +
+  Day Summary spec) + first live file `DAILY_2026-07-09.md`. Wired into:
+  AI_Agent.md (report-as-you-go rule, close step 5, review-cadence row, evolution
+  loop now reads task blocks → Day Summary → weeklies), OPERATIONS.md session close
+  (castle backstops the previous day's Day Summary during the morning NOW.md refresh
+  — Chris approval given in-session), WHERE_IT_GOES.md (naming row), vault_map.md,
+  START_HERE.md (human loop). The evolution chain now has a daily rung under the
+  weekly — this was the "better report system = better evolution system" ask.
+- **Go-live sweep (tiered):** boot chain + operating files hand-checked; fixed real
+  drift: CHRIS_CORE.md ×2 (hat still named "CLAUDE.md" — retired July 6),
+  WATCHTOWER.md (gate path still `01-NORTH_STAR\.AI_CASTLE\...`), NORTH_STAR.md
+  ("brain, castle, forge, wikis" — FORGE retired). Grep for retired names/paths/dates
+  across all live files: clean (hits only in archives + historical logs, correct).
+- **Link scan re-run (1,156 files, 4,432 wikilinks):** no regression vs
+  LINK_INTEGRITY_2026-07-08.md — same harmless categories (planned pages, clipper
+  author links, template placeholders). Nothing load-bearing broken. Verdict: the
+  system is go-live ready.
+- Next action: Chris confirms the DAILY format feels right, then **July 10 go-live —
+  sessions shift to PYTHON/PHYSICS output reps.** Castle-side, nothing due until the
+  Sunday weekly (first one that consumes DAILY files) and ~July 25 D2L data entry.
+
+## 2026-07-08 — Tracker V1 reconciliation + flag pass + system review (Chris-directed)
+
+- Chris directed a castle session: absorb the new session-log reports (HANDOFF_0708_ATLAS
+  catch-up report, HANDOFF_0708_CLAUDE color-system/go-live session, HANDOFF_0707_CLAUDE
+  calendar reconciliation), deal with open flags, refresh stale NOW.md, review the system.
+- **Tracker truth corrected castle-wide: KSU Academic Tracker V1 SHIPPED** (all briefed
+  commands plus `--courses` and three `--add-*` commands, tested). Proof-project page
+  updated: DoD checkboxes marked, status-log row added, V2 explicitly parked. Remaining
+  proof = D2L data entry ~July 25 + daily use through the semester. It is no longer a
+  build project — NOW.md, which still ordered "build the remaining queries," rewritten.
+- **File-safety fix:** the brief existed as two live copies (Atlas's report flagged the
+  path inconsistency). Verified on the live tree: Chris's July 8 update lives in
+  `Project-KSU_Academic_Tracker\`; the July 7 copy sitting beside `tracker.py` in
+  `KSU_Academic_Tracker\` was stale → archived as
+  `99-ARCHIVE\ARCHIVED_2026-07-08_KSU_Academic_Tracker_Brief.md`. One-project-two-folders
+  remains (structural, Chris's call) → SYSTEM_FLAGS #53 (LOW).
+- **Flag pass:** #45 CLOSED (name-based path verification is the working mechanism;
+  IDs were declared optional July 6 and nothing has needed them). #51 stays OPEN
+  (semester CASTLE-tag extension; ~7 weeks runway — window noted on NOW.md as ~Aug 10–22).
+  #16 stays OPEN but marked **approaching** — Chris is on Vectors (Serway Ch 3), so Atlas
+  should anchor the right-hand rule in the next physics session touching vector products.
+  #53 opened (above).
+- **System review verdict (Operator):** agree with the Atlas report's read. `.ROOT` has
+  crossed from being built to being used — boot chain 35/35, colors generated not
+  hand-kept, frontmatter complete, links swept, maturity self-assessment baselined
+  (Level 1 solid / Level 2 emerging). The binding constraint is now **verification
+  capacity, not output capacity**: the system can generate more proposals and file
+  changes than Chris can safely inspect. Direction set: no new architecture unless
+  something breaks; AI_AUTOMATION_SYSTEMS researches/proposes, castle reviews, Chris
+  decides — and output reps (CS50P, SQL maintenance, Make.com rep, VSM) outrank all
+  castle polish. Revisit maturity + verification risk at the quarterly review.
+- NOW.md fully refreshed (July 8; countdowns recomputed; four stale system notes
+  collapsed into one current note; Chris quick-items surfaced: Obsidian acceptance
+  test + optional folder merge).
+- Next action: **CS50P PS2 loops** — the day returns to output. Castle-side, nothing
+  is due until the weekly review (file the two 77-INBOX reports) and ~July 25 D2L
+  data entry.
+
+## 2026-07-07 — Calendar reconciliation: OPERATIONS.md rule 8 verified against live calendar
+
+- Chris asked the castle to work with the new calendar he built. Investigated via Google
+  Calendar MCP (newly available this session): found two calendars — the detailed
+  day-template ("North Star Calendar", block-by-block schedule: Sleep/CSE/PROJECT/FLOAT/Ben
+  Care/etc., built July 7 evening) and the primary `chrispowers88@gmail.com` calendar, which
+  carries "CASTLE"-labeled overlay events on top of specific North Star Calendar block times —
+  this is the actual mechanism OPERATIONS.md rule 8 refers to as "Open time labeled CASTLE."
+- Verified the numbers: ~24h15m/week of CASTLE-tagged blocks (weekday 9:15-11:00 +
+  12:30-14:00, Sat 10:30-12:30 + 13:30-15:30, Sun 14:30-16:30 + 17:00-19:00) plus 10h/week of
+  untagged weekday FLOAT (14:00-16:00) — matches OPERATIONS.md's "~26h dedicated + ~10h float,
+  26-30h ceiling" closely. **Rule 8's numbers are confirmed accurate, not drift** — but its
+  wording (just "the Google Calendar") doesn't name the two-calendar overlay mechanism, so any
+  future session would have to rediscover it from scratch the way this session did.
+- Found a real gap: CASTLE tags stop after **Aug 22-23, 2026** — nothing tagged CASTLE from
+  the Fall semester start onward, and the semester-week template itself (checked Aug 24 – Sep
+  2) has only class-meeting blocks, no study/FLOAT/project time built yet. Logged as
+  SYSTEM_FLAGS #51 (LOW — 7 weeks of runway, not urgent, but Phase 1 needs it before classes
+  start).
+- Found a date conflict while checking the semester boundary: the calendar's first actual
+  class meetings (PHYS 2211, CSE▬Lecture) land on **Monday Aug 24**, one day before the
+  "Aug 25" cited in NOW.md, AI_Agent.md, phase-map.md, and north-star-roadmap.md. Logged as
+  SYSTEM_FLAGS #52 (MEDIUM — needs Chris to confirm against the real syllabus; cascades into
+  four files if wrong).
+- Did not edit OPERATIONS.md itself (Chris approval required per its own rule) — proposed
+  wording sits with Chris this session.
+- **Update (same session, Chris returned):** Chris fixed the calendar himself — CASTLE
+  labels now live directly on the North Star Calendar's blocks (no more primary-calendar
+  overlay), same ~24h15m/week confirmed capacity, cleaner single-calendar mechanism.
+  OPERATIONS.md rule 8 rewritten to match and applied (Chris's approval given in-session).
+  Chris also confirmed **Aug 24 is the real first day of class** — corrected across 13
+  live files, 17 references (NOW.md incl. its days-out count, AI_Agent.md, CHRIS_CORE.md,
+  NORTH_STAR.md x3, PHYSICS/HOW_TO_USE.md, KSU_Academic_Tracker_Brief.md, HAT_ENGR1000.md
+  x2, HAT_ECON.md, HAT_PYTHON.md (shifted its CS50P→CSE1321 cutover to Aug 23/24),
+  north-star-roadmap.md x2, current-position.md, ksu-academic-tracker.md, phase-1 page x2).
+  SYSTEM_FLAGS #52 closed. #51 stays open (narrower now — only the semester CASTLE-tag
+  extension remains, mechanism-clarity part is done).
+- Next action: before Aug 24, extend CASTLE tagging and build a semester study/tech-block
+  template on the North Star Calendar (SYSTEM_FLAGS #51) — currently only class-meeting
+  times exist for the semester window.
+
+## 2026-07-07 — Wiki Sweep: FORGE retirement absorbed into castle context
+
+- Ran the Wiki Sweep skill (OPERATIONS.md) for the first time since the July 7 wiki
+  unification: read all 7 hub logs (SYSTEMS, BUSINESS, PYTHON, PHYSICS, TECHNOLOGY,
+  EDUCATION, AI_AUTOMATION_SYSTEMS).
+- Confirmed FORGE is fully retired (two-phase migration, same day, executed via
+  `03-WIKIS\CLAUDE.md`'s own brief — outside normal castle session flow, hence this
+  catch-up entry): 70 pages → new **SYSTEMS** hub (clean lift); 135 pages → **BUSINESS**
+  (absorbed into 7 new + several strengthened pages, real intake not a copy); 44
+  inventory pages → **PYTHON**/source-summaries (curriculum untouched, closed-intake
+  rule honored — 22 duplicate pages archived instead of migrated); 68 applied-reference
+  pages → **TECHNOLOGY** (new `wiki/` subfolder structure built same pass, fixing a
+  July 7 unification inconsistency). **PHYSICS** untouched (self-contained, 18-stage
+  pre-cruise build already complete). **EDUCATION** and **AI_AUTOMATION_SYSTEMS**
+  remain correctly-empty scaffolds awaiting activation — not drift, by design.
+- Checked castle's own maps for staleness: `north-star-roadmap.md`, `current-position.md`,
+  `skill-map.md`, `source-map.md`, and `adding-a-profit-skill.md` already carry correct
+  7-hub references (repointed during the migration's governance pass). No drift found.
+- Carrying (not castle's to fix, Drive UI only): SYSTEM_FLAGS #48 and #50, both LOW,
+  both empty-folder-husk manual deletes.
+- Checked the carried-over "next action" (phase-5/6 pages + sql/field-observation skill
+  pages) against phase-map.md's own rule — planned phase pages build only "within two
+  quarters, or when a decision needs them." Phase 5 (Mar 2027) is ~8 months out: not
+  yet in window, so phase-5/6 pages stay unbuilt (depth before sprawl, correctly).
+  SQL and field-observation, by contrast, are both already "building" per
+  [[skill-map]] and qualify for their first skill pages now.
+- Next action: Chris to confirm — build the SQL + field-observation skill pages now
+  (the actually-justified next step), or redirect.
+
+## 2026-07-07 — First two skill pages built: sql, field-observation
+
+- Chris confirmed the sweep's recommendation. Built `wiki/skills/sql.md` and
+  `wiki/skills/field-observation.md` using `templates/skill-template.md`, both
+  currently "building" status per [[skill-map]] and legitimately justified now
+  (skill pages activate when the skill goes active — not before).
+- `sql.md`: phase chain 0 → 1 → 3, sourced to Practical SQL (PYTHON source-summaries),
+  Luke Barousse (Tier 3), CSE 1321, proof = [[ksu-academic-tracker]].
+- `field-observation.md`: Phase 2, sourced to `lean-methodology.md`'s VSM field method,
+  `smb-ai-audit-method.md`, `consulting-methodology.md`, OBSERVATION_METHODOLOGY.md.
+  No dedicated proof-project page exists yet — evidence lives directly in
+  `05-BUSINESS\02-Field Notes\` (1 rep logged June 5; skill-map's proof bar is 2 reps).
+- Updated `index.md` (new Skills section, refreshed date header).
+- Next action: second field-observation rep (ideally a non-construction process, to
+  test whether the method generalizes) pairs naturally with Phase 2's first practice
+  VSM. No castle file work required to unblock that — it's a Chris-does-the-rep action.
+
+## 2026-07-06 — Initial build
+- Reconnaissance of the full Drive completed; report at `../RECON_REPORT_2026-07-06.md`
+  *(archived 2026-07-11 → `99-ARCHIVE\ARCHIVED_2026-07-11_RECON_REPORT_2026-07-06.md` per the prelive review)*
+- Chris approved: build scope (skeleton + templates + 10 pages) and governance
+  decision (`00-BRAIN` keeps governing; castle points to it via `OPERATIONS.md`)
+- Created: folder skeleton, 7 templates, OPERATIONS.md, raw/README.md,
+  wiki core maps (README, index, log, north-star-roadmap, current-position,
+  phase-map, skill-map, source-map), phases 0–2, proof project page
+  (ksu-academic-tracker), decision rule (adding-a-profit-skill)
+- Next action: Chris reviews the castle in Obsidian; next session fills
+  phase-3 and phase-4 pages and starts skill pages for SQL and observation-method
+
+## 2026-07-06 — Alignment interview + adjustments
+- Chris confirmed: North Star pace stays; digital assets = ALL classes (retainer
+  systems, templates/playbooks, standalone tools, content/audience) plus anything
+  new that passes the gate; FULL OPERATOR autonomy inside the castle; morning
+  command center usage
+- Added: `NOW.md` (castle root) — the daily morning page, refreshed every session
+- Updated: OPERATIONS.md (autonomy level + NOW.md in session close),
+  north-star-roadmap.md (Digital Asset Classes table), README/index pointers
+- Next action: targeted parse pass (AI_Agent.md, business-plan wiki key pages,
+  audit templates, FORGE index) → then phase-3/phase-4 pages with real citations
+
+## 2026-07-06 — Targeted parse + phases 3–4
+- Parsed at Chris's direction: 03-WIKIS\BUSINESS_PLAN (index, most-profitable-pathways,
+  service-offer-ladder, smb-ai-audit-method, retainer-model — key numbers now cited
+  in source-map), 03-WIKIS\EDUCATION (current-position, learning-path — Python truly at
+  Stage 1/10), 03-WIKIS\PHYSICS (current-position — Stage 1/18), AI_Agent.md (file-safety,
+  hats, danger weeks, 88-JOURNAL boundary — all confirmed firsthand)
+- Updated: current-position.md (real education-wiki positions), source-map.md
+  (parsed rows with verified claims)
+- Created: phase-3 and phase-4 pages, fully cited; index + phase-map linked
+- Still unparsed, queued for their phases: pricing-models.md, sales-system.md
+  (Phase 4 opening task), 05-BUSINESS audit template contents, market-map.md
+- FLAG for Chris: `00-BRAIN` files don't yet mention `CASTLE` — vault_map.md /
+  WHERE_IT_GOES.md have no pointer to the castle. Adding one requires editing files
+  outside the castle = needs Chris's approval.
+- Next action: Chris decides on the 00-BRAIN pointer; castle-side next build is
+  phase-5/6 pages + first two skill pages (sql, field-observation)
+
+## 2026-07-06 — System unification + .ROOT migration (Fable 5 session)
+- Morning pass: root router + START_HERE created; universal color language wired
+  into all vault graphs (keyed to existing priority/stage/phase tags); castle pages
+  tagged now/next/reference; HOW_TO_USE.md created for castle + all four wikis;
+  .AI_OS maps registered the realms; FORGE/local-wiki duplicate flagged (flag 42)
+- Afternoon: Chris designed `.ROOT` single-container structure; approved refined
+  blueprint. FULL MIGRATION executed same day: castle now lives at
+  `.ROOT\00-BRAIN\CASTLE\`; wikis at `.ROOT\03-WIKIS\{FORGE, BUSINESS_PLAN,
+  EDUCATION, PHYSICS}`; governance at `.ROOT\00-BRAIN\`; money system at
+  `.ROOT\05-BUSINESS\`. 76+ files link-rewritten; OPERATIONS.md boot order auto-updated
+- New organ: `...projectSuccess` WATCHTOWER (trend radar) — signals route through
+  [[adding-a-profit-skill]], never act directly
+- Resolved: the July 6 flag about .AI_OS lacking castle pointers (maps now register it)
+- SKELETON FROZEN per Chris + AI agreement — content grows, structure doesn't
+- Next action: tomorrow is a TRACKER session (Session 2/3 queries) — no system work.
+  Open flags for Chris: 42 (local wiki copy), 43 (KSU_FALL_2026 confirm), 45 (folder IDs)
+
+## 2026-07-06 — The True Star (evening session)
+- C:-drive rescue: 85 unique wiki pages imported into FORGE (Think Python, DevOps,
+  TOC/The Goal, scalability, entrepreneurship, Co-Intelligence, Django); CS50P +
+  OneNote copied to 04-SCHOOL. Chris sweeps raw/ then deletes the C: folder.
+- NORTH_STAR.md FULL REWRITE from Chris's interview: identity = top 1% AI, Technology
+  & Business integrator + application developer (systems-engineering educated);
+  targets = FLOORS with quarterly-only Ratchet; engine = all four asset classes +
+  the Standing Engine Question; team = Chris + AI, maximally leveraged.
+  First client unified to March 2027. Old star archived.
+- Propagated everywhere a mission copy lives (AI_OS_CORE, templates, castle README
+  + roadmap, FORGE, WIKI_OPERATING_INSTRUCTIONS, BUSINESS_PLAN). Zero drift.
+- Flags: 42 resolved (awaiting Chris raw-sweep + delete), 43/44/46 closed,
+  45 downgraded (paths verified; IDs optional). Carrying: 16, W5.
+- Next action: TRACKER SESSION (queries) — the star is set; go earn it.
+  Castle-side queue: FORGE re-rank of imported pages; phase-5/6 pages; sql +
+  field-observation skill pages.
+
+## 2026-07-06 — Pass-2 system alignment (night session)
+- Castle RELOCATED: 01-NORTH_STAR\.AI_CASTLE → **00-BRAIN\CASTLE** (it's a wiki;
+  Chris's call). NOW.md moved to **.ROOT\NOW.md** — first thing Chris sees; the
+  castle still owns and refreshes it every session.
+- Governance renamed model-agnostic: OS = 00-BRAIN\AI_Agent.md (was AI_OS_CORE.md);
+  hats = 00-BRAIN\HATS\ (HAT_OPERATOR "Claude", HAT_EDUCATOR "Atlas", 5 subject hats).
+- Castle CLAUDE.md is now a thin auto-load pointer; the original recon/build prompt
+  (stale, conflicting) archived to 99-ARCHIVE.
+- New skills wired: Watchtower Sweep, Ratchet Review (quarterly only), Asset Harvest
+  (Operator); Stage Advance (Educator); Graph Color Maintenance (shared).
+- Boot chain verified: router → AI_Agent.md → CHRIS_CORE → hat → OPERATIONS.md.
+- Next action: TRACKER SESSION. The system is aligned; stop polishing, start earning.
+
+## 2026-07-06 — Tag + graph overhaul (late session)
+- Castle FINAL home: 00-BRAIN\CASTLE (Chris moved it himself; all system refs repointed)
+- System-wide Tag Standard live (WHERE_IT_GOES.md): type + one timeline tag + topics
+  on every file — 107 non-wiki files tagged this pass
+- Two graph views: master .ROOT = MAP (section colors, archives filtered out);
+  each wiki = FRONTIER (timeline ramp). Castle = purple in the map view.
+- Next action: unchanged — TRACKER SESSION. The map is drawn; walk the path.
+
+## 2026-07-10 — Launch-night reconciliation (post-split review execution)
+- north-star-roadmap.md: "The Four Tracks" → "The Three Tracks" per NORTH_STAR.md's
+  July 10 ruling (Heather/JV track retired; annotated, not silently overwritten).
+- Castle HOW_TO_USE.md: retired frontier color language → MAP block + tag filters;
+  education routing now names Claude Chat (primary educator under the lane split).
+- Castle CODEX.md status → live. NOW.md refreshed for launch day (owned here).
+- New maintenance tooling the castle's sweeps can call: 00-BRAIN\scripts\wiki_lint.py
+  (weekly sweep's deep tier, first scheduled run Aug 1 — backlog pre-counted in
+  SYSTEM_FLAGS 59–60).
+- Next action: LAUNCH. Output pace — tracker, PYTHON/PHYSICS reps, DAILY blocks.
+
+## 2026-07-11 (evening) — First castle source ingest: Claude Code docs pack + system self-review (Chris-directed)
+
+- Chris directed a special castle wiki run on `raw\books\CLAUDE_FILES\` (Anthropic's
+  Claude Code docs, 22 md + 1 PDF) to answer: "are our .md too specific — at what
+  point is too much?"
+- **Ingested:** first `source-summaries/` page created —
+  [[claude-code-docs-pack-2026-07]] (Tier 1, support role), registered in
+  [[source-map]] under a new "External — Summarized" section; index.md updated.
+  Honest coverage note on the page: core 5 docs read in full, 5 in part, integration
+  docs inventoried, enterprise PDF unparsed (queued).
+- **Review delivered:** `00-BRAIN\Session_Logs\CLAUDE_DOCS_SYSTEM_REVIEW_2026-07-11.md`.
+  Verdict: specificity is NOT the problem (the docs endorse it); the budget is
+  always-loaded volume (<~200 lines/file, prune test: "would removing this cause
+  mistakes?"). .ROOT's router → pointers → on-demand files architecture matches the
+  docs' prescribed pattern; the real bloat was **history creep in always-read files**.
+- **Quick wins executed (Chris plan-approved):** SYSTEM_FLAGS.md closed-table
+  (83 rows) archived → live file 4,171→819 words (flag 62, raised+closed today);
+  NOW.md's four system-note blocks compressed to a pointer list (1,013→668 words).
+- **Flags opened:** 63 (LOW — `EXPLORE_THE_.CLAUDE_DIRECTORY.md` is a byte-identical
+  duplicate of `HOW_CLAUDE_CODE_WORKS.md` in castle raw/; Chris's manual call),
+  64 (MEDIUM — PYTHON 565-line / PHYSICS 295-line CLAUDE.mds over the always-load
+  budget; slim on the BUSINESS pattern after Chris approves).
+- **Recommendations left with Chris:** flag 64; permission-deny hardening of the
+  88-JOURNAL/raw\ boundaries (`.claude` change — needs approval); "give every brief
+  a runnable acceptance check" habit. Roadmap/phases untouched — maintenance-layer
+  review only.
+- Next action: Sunday's weekly review consumes this + decides flag 64; output reps
+  continue (PYTHON/PHYSICS, SQL segment, VSM rep scheduling).
+
+## 2026-07-11 (night) — Slim pass executed system-wide (Chris plan-approved)
+
+- Chris approved the full follow-through on the evening's Claude-docs review:
+  slim ALL over-weight instruction files, including NORTH_STAR.md to ~300.
+- Executed (Claude Code): 10 files rewritten, 2,567→1,383 lines (−46%);
+  6 on-demand receiver files created; 11 archives. NORTH_STAR 557→310 with
+  all doctrine retained (wedges stated once, live state → NOW/castle, prep →
+  Goals & Milestones). Flag 64 closed same day it was opened.
+- Verification: boot chain PASS (29 files, 1,046 pages); wiki lint identical
+  to the July 11 baseline (no new dead links); content-preservation greps
+  clean; archives verified. Full table:
+  `00-BRAIN\Session_Logs\SLIM_PASS_2026-07-11.md`.
+- Castle-lens note: every always-loaded file in .ROOT is now inside the
+  <200-line doctrine budget. The system layer returns to maintenance mode —
+  friction becomes flags, output reps resume.
+- Next action: Sunday's weekly consumes the two July 11 reports; flag 63
+  (duplicate raw file) is Chris's manual call; permission-deny hardening
+  for 88-JOURNAL/raw\ awaits Chris's OK.
+
+## 2026-07-12 (Codex validation correction pass, Claude Code)
+
+- Executed the correction brief from `00-BRAIN\Session_Logs\ROOT_OPERATING_INSTRUCTIONS_VALIDATION_2026-07-12.md`
+  (Codex verdict: CHANGES REQUESTED on the prior day's operating-instructions execution pass).
+- Fixed two P1 semantic contradictions: AI_AUTOMATION_SYSTEMS `HOW_TO_USE.md` falsely
+  described the hub as empty (it has 14 research pages + 2 promoted proposals); Capability
+  Library `README.md` and `ROOT_OPERATING_MANUAL.md` said proof must precede folder entry,
+  contradicting the live `idea`/`draft` maturity ladder in `CAPABILITY_LIBRARY_INDEX.md` and
+  `FIRST_RUN_CHECKLIST.md`. Pipeline reworded to: idea -> draft asset -> internal test/proof
+  -> client-ready asset -> client instance -> deployment feedback; proof now gates advancement
+  past `draft`, not entry.
+- Fixed two P2 findings: removed three stale "41 pages" exact-count claims from SYSTEMS
+  `CLAUDE.md` (live count is 78; replaced with durable non-exact wording); corrected CASTLE
+  `HOW_TO_USE.md` Last Updated metadata from July 6 to July 12 (operating-contract normalization).
+- Files changed: `03-WIKIS\AI_AUTOMATION_SYSTEMS\HOW_TO_USE.md`, `05-BUSINESS-Capability
+  Library\README.md`, `ROOT_OPERATING_MANUAL.md`, `03-WIKIS\SYSTEMS\CLAUDE.md`,
+  `00-BRAIN\CASTLE\HOW_TO_USE.md`; this log; AI_AUTOMATION_SYSTEMS `wiki\log.md`; DAILY.
+- Result: shipped, pending re-run of boot validation / strict wiki lint / frontmatter audit
+  and a short Codex revalidation per the report's Single Next Action.
+- Next action: run the four validation passes named in the report's Correction Brief step 6,
+  then return the result to Codex for revalidation.

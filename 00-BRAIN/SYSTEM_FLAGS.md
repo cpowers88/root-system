@@ -1,0 +1,54 @@
+---
+type: flags
+tags: [now, governance]
+---
+
+# SYSTEM_FLAGS.md — Open Improvement Flags
+### Location: 00-BRAIN\ | Check at every session start.
+### Last updated: July 12, 2026 (launch hardening flags 65–67 raised and closed)
+
+---
+
+## The Rule
+
+Every system improvement flag lands here the moment it is raised — in a session, a handoff, a weekly, anywhere.
+
+**Timing by priority:**
+- **HIGH** — fix in the session that raised it. Do not close the session with an open HIGH flag.
+- **MEDIUM** — fix at the next weekly review.
+- **LOW** — fix at the next monthly review.
+
+A flag leaves this file only when the fix is verified in the target file. "I'll remember" is not a status.
+
+If the same flag is re-raised after being closed, it comes back as HIGH.
+
+**History rule (added July 11, 2026):** this file holds OPEN flags plus the current week's closes only. Older closed flags move to `99-ARCHIVE\` at the weekly review (current archive: `ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`, June 8 – July 11). This file is read at every session start — history in it is a per-session context tax.
+
+---
+
+## OPEN FLAGS
+
+| # | Flag | Raised | Priority | Target | Status |
+|---|---|---|---|---|---|
+| 57 | **EDUCATION syllabus data-quality gaps** (recorded on `fall-2026-course-briefs.md`): the ENGR 1000 syllabus in raw/ is the **Fall 2025 edition** — its policies (including the total AI prohibition) must be reverified against the real Fall 2026 syllabus when KSU posts it; TCOM 2010's schedule table carries recycled January/Spring dates inside a Fall 2026 header (weekly rhythm probably right, printed dates wrong — trust D2L); TCOM's assignment-weights table is cut off in the source scan — pull the real table from D2L in week 1. | July 9 | MEDIUM | Update `03-WIKIS\EDUCATION\wiki\fall-2026-course-briefs.md` when Fall 2026 ENGR syllabus + D2L are available; hard ceiling Aug 24 | OPEN |
+| 51 | Castle's "calendar-encoded capacity" (OPERATIONS.md rule 8) verified against the live calendar. Chris simplified the mechanism same-day: blocks are now labeled **"CASTLE"** directly on the "North Star Calendar" (no more two-calendar overlay). Numbers confirmed: ~24h15m/wk CASTLE-tagged + 10h/wk weekday FLOAT ≈ OPERATIONS.md's "~26h dedicated + ~10h float" — mechanism now clean and simple. Remaining gap: CASTLE-tagged blocks stop after **Aug 22-23, 2026** — nothing is tagged CASTLE from Fall semester start onward, and the semester-week calendar template (checked Aug 24 – Sep 2, re-checked after Chris's fix) still has only class-meeting blocks, no FLOAT/CASTLE/study time. Phase 1 needs a semester study/tech-practice block built and CASTLE-tagged before classes start. | July 7 | LOW | Extend CASTLE tagging + build semester weekly template before Aug 24 (~7 weeks out; not yet in the "within 2 weeks" action window) | OPEN — labeling mechanism fixed same day; semester-gap piece still open |
+| 16 | Spin rule / right-hand rule needs physical anchor from Atlas. Covers: cross product, torque, angular velocity, and future magnetic field direction. Curl fingers in direction of rotation, thumb points to vector. Must be anchored before these topics appear in PHYS 2211. | June 9 | LOW | Atlas / Physics sessions | OPEN — **approaching**: Chris is now working Vectors (Serway Ch 3) per castle current-position (July 8); cross product is next door. Atlas should anchor it in the next physics session that touches vector products. |
+
+---
+
+## CLOSED THIS WEEK
+
+| # | Flag | Raised | Closed | Fix |
+|---|---|---|---|---|
+| 67 | Agent/eval maturity lacked a concrete gate | July 12 | July 12 | Added `AGENT.md § Agent Evaluation Gate`: single-agent first; five representative cases; full action-trace review; human approval for consequential actions; DAILY evidence and regression rollback. Five-case supervised baseline passed. |
+| 66 | `.claude/settings.local.json` held a stale broad allowlist with no deterministic private/raw deny layer | July 12 | July 12 | Archived original; replaced atomically with Manual-mode least privilege. Auto/bypass disabled; `88-JOURNAL` tool+sandbox read/write denies; eight raw roots write-denied; boot validator now verifies the controls. |
+| 65 | Wiki lint reported 759 equal-severity findings, hiding real link/index hygiene | July 12 | July 12 | Enhanced existing `wiki_lint.py` with blocker/review/expected classes and strict mode; neutralized 33 stale FORGE-era links. Final: 0 blockers, 0 review debt, 714 expected items. |
+| 62 | SYSTEM_FLAGS.md itself was ~90% closed-flag history (~4,200 words re-read every session start) — flagged by the July 11 Claude-docs review as the system's biggest always-on context tax | July 11 | July 11 | Closed-flags table (83 rows, June 8 – July 11) archived to `99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`; history rule added above; live file now OPEN + current-week closes only (~4,200 → ~1,600 words). Chris pre-approved via plan (review + quick wins). |
+| 64 | PYTHON (565) and PHYSICS (295) hub CLAUDE.mds exceeded the ~200-line always-load budget | July 11 | July 11 | Chris approved the full slim pass same evening. PYTHON 565→145 (new `wiki/authoring-standards.md` + `wiki/protocols.md`; baseline merged into `current-position.md`); PHYSICS 295→130 (new `wiki/authoring-standards.md`; tag fixed now→reference). Same pass also slimmed NORTH_STAR 557→310, WHERE_IT_GOES 279→195, vault_map 159→114 (+ new LOCAL_MACHINE_MAP.md), HAT_OPERATOR 173→92 + HAT_EDUCATOR 205→136 (+ two PLAYBOOKS files), ATLAS 66→31, CODEX 130→96, START_HERE bug fix. All originals archived. Full report: `Session_Logs\SLIM_PASS_2026-07-11.md`. |
+| 63 | Duplicate raw file in `CASTLE\raw\books\CLAUDE_FILES\`: `EXPLORE_THE_.CLAUDE_DIRECTORY.md` was byte-identical (MD5 match) to `HOW_CLAUDE_CODE_WORKS.md` — mis-saved download | July 11 | July 11 | Chris removed the duplicate manually same night; absence verified against the live tree (only `HOW_CLAUDE_CODE_WORKS.md` remains). Optional leftover: the real ".claude directory" docs page was never captured — re-download into the same folder if wanted. |
+
+**All older closed flags (June 8 – July 11, 83 rows):** `99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`
+
+---
+*Maintained by: Claude + Chris | Reviewed: every session start (HIGH), weekly (MEDIUM), monthly (LOW)*
+*Last updated: July 12, 2026*
