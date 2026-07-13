@@ -11,7 +11,11 @@ loaded this session.
 
 ## Steps
 
-1. **DAILY block** — append a 4-line block to today's
+1. **DAILY block** — before writing it, ask explicitly: *is there anything
+   this session had to figure out, get wrong once, or decide by judgment
+   call that the next session (or Chris) would otherwise have to re-derive
+   from scratch?* If yes, name it even if it doesn't fit neatly into "what
+   was done." Then append a 4-line block to today's
    `00-BRAIN\Session_Logs\DAILY_YYYY-MM-DD.md` (create from
    `DAILY_TEMPLATE.md` if missing). Format per template: time/role —
    what was done, files touched, next action.

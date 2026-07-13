@@ -17,6 +17,8 @@ Specify the standard quality-control architecture for every AI-assisted workflow
 ## Key Idea
 AI output is a **component with a known, nonzero failure rate**. Engineering around an unreliable component is a solved discipline — validation, redundancy, monitoring, escalation — and applying it to AI workflows is what separates you from every hobbyist automator. The gate is not friction; the gate is the product. A client isn't buying "AI does your quotes"; they're buying "quotes go out 10× faster *and nothing wrong ever reaches a customer*."
 
+**Shadow AI is already inside most prospects before you arrive (added 2026-07-12, CES-WP-26-25 pp.19-21):** Census microdata on 117,000 firms found **36% of firms where employees use AI show no formal firm-level adoption policy at all** — bottom-up, ungoverned AI use invisible to ownership (vs. 19% with formal adoption but no actual worker use — the opposite failure, adopted-on-paper-only). Practical implication for Step 1–2 of the [[smb-ai-audit-method|audit]]: don't ask "do you use AI" and take a "no" at face value — ask what individual employees already do with ChatGPT/Copilot/etc. on their own, because in over a third of shops the honest owner answer and the actual-use answer are two different things. That gap is itself a risk-gate finding: **ungoverned employee AI use with no validation, logging, or escalation path is the single most common quality-control failure mode you'll find on day one**, not a hypothetical to design against.
+
 ## The Standard Gate Types
 
 ### 1. Validation gates (deterministic, automatic)
@@ -48,6 +50,15 @@ Every gate above is, mechanically, a checklist — and most fail the same way ge
 - **Test it with the actual people who'll use it before trusting it.** A gate checklist designed on paper and never dry-run with the real approver fails the same way Gawande's own first surgical checklist did: ambiguous wording, wrong timing, an annoyed team. Revise after a real trial run, not before.
 
 This also gives a diagnostic for *why* a gate is failing: is the reviewer missing knowledge (**ignorance** — needs training), or do they know what to check and skip it anyway under time pressure or excitement about closing the queue (**ineptitude** — needs a shorter, better-designed checklist, not more training)? Most gate failures in a mature system are ineptitude, not ignorance — throwing more training at a rubber-stamping problem doesn't fix it.
+
+## Diagnosing a Failed Engagement: The Gap Model (added 2026-07-12, *Principles of Marketing* Ch.12, pp.514-517)
+When a client relationship sours — not a single AI output failure but the whole engagement feeling wrong — this five-gap model names *where* the breakdown actually happened, which fix applies:
+1. **Discovery gap:** what the client actually needs vs. what Chris understood during the audit. Fix: better discovery questioning (the [[negotiation-toolkit|Negotiation Toolkit]]'s Calibrated Questions), not more engineering.
+2. **Scoping gap:** the correct understanding vs. what actually got written into the SOW. Fix: [[fulfillment-system|scoping discipline]], not blame on either side.
+3. **Delivery gap:** the written spec vs. what was actually built. This is the one the gate architecture above targets directly.
+4. **Promise gap:** what was delivered vs. what sales promised during the close. Fix: the "never oversell" discipline in [[sales-system|Sales System]] — this gap is a sales-conversation failure, not a delivery failure, even though it surfaces as client anger at delivery.
+5. **Perception gap:** what was actually delivered vs. what the client *perceives* they got — sometimes the work is right and the client experience of it (communication cadence, how results were framed) is what's actually broken.
+Practical use: in a post-mortem or a cooling client relationship, name which gap it is before reaching for a fix — engineering a better gate (#3) does nothing for a #1 or #4 failure, and misdiagnosing which gap failed is itself a common way remediation attempts fail twice.
 
 ## Gate Placement by Risk
 Calibrate gates to blast radius, not to anxiety:

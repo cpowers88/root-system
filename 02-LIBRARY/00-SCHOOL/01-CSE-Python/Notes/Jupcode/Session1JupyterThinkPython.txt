@@ -1,0 +1,21 @@
+# Strings
+
+In addition to numbers, Python can also represent sequences of letters, which are called **strings** because the letters are strung together like beads on a necklace. To write a string, we can put a sequence of letters inside straight quotation marks.
+- Joining two strings together with '+' is refered to as **concatenation**
+- '*' also works with strings; it makes multiple copies of a string and concatenates them.	- 'Spam, ' * 4  , will return 4 x "Spam, "
+- The other arithmetic operators don't work with stings.
+- Python provides a function called 'len' that computes the length of a string.  EX: len('Spam')	- 'len' will only count letters in between the quotes
+
+# Values and types
+
+- so far we have seen three types of values:	- '2' is an integer,	- '42.0' is a floating-point number, and	- '/'hello'/' is a string
+
+A kind of value is called a **type**. Every vale has a type-- or we sometimes say it "belongs to" a type. Python provides a function called 'type' that tells you the type of any value. The type of an integer is 'int'
+-the type of a floating-point number is 'float'. EX: type(42.0)
+-and the type of a string is 'str'.  EX: ('Hello, World!')
+- The types 'int', 'float', and 'str' can be used as functions. For example, 'int' can take a floating-point number and convert it to an integer (always rounding down). 
+- if you have a string that contains digits, you can use 'int' or 'float' to convert it to a value.
+- Python interperets '1,000,000' as a comma-separated sequence of integers. More on that later. For now '1_000_000' is the correct input.
+
+
+"C:\Users\chris\.00-PROJECTS-v2.0"

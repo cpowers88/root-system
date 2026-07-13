@@ -16,17 +16,18 @@ Chris should always be able to open this page and know what to read, practice, a
 ## Current Position
 
 **Generated through**: Stage 10 — Application Thinking
-**Current study stage**: Stage 1 — Python Atoms
+**Current study stage**: Stage 2 — Decisions
 **Stage 0 status**: Satisfied
-**Next action**: Open `wiki/stages/stage-01-python-atoms.md`
+**Stage 1 status**: Satisfied (2026-07-13) — worked independently with Codex 2026-07-12, verified in session (explained type-conversion reasoning, correctly predicted/confirmed a `TypeError`, explained `+`-concatenation vs. f-strings). Evidence: `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\`.
+**Next action**: Open `wiki/stages/stage-02-decisions-and-boolean-logic.md`
 
-The curriculum is fully generated through Stage 10, but that describes what exists in the vault, not where Chris is. Chris has only satisfied Stage 0 so far. **Do not read "generated through Stage 10" as an instruction to start at Stage 10.**
+The curriculum is fully generated through Stage 10, but that describes what exists in the vault, not where Chris is. Chris has satisfied Stage 0 and Stage 1. **Do not read "generated through Stage 10" as an instruction to start at Stage 10.**
 
-**Current Concept:** values, expressions, variables, assignment, strings, numbers, `print()`, `input()`, type conversion (Stage 1)
-**Next Reading:** `wiki/stages/stage-01-python-atoms.md` and its linked concept pages
-**Next Drill:** `wiki/drills/stage-01-input-and-conversion.md`
-**Vocabulary Due:** value, variable, assignment, expression, string, integer, float, type conversion, comment, concatenation
-**Blocked By:** nothing — Stage 1's packet is complete and ready
+**Current Concept:** comparisons, Boolean logic, `if`/`elif`/`else` (Stage 2)
+**Next Reading:** `wiki/stages/stage-02-decisions-and-boolean-logic.md` and its linked concept pages
+**Next Drill:** `wiki/drills/stage-02-decision-rules.md`
+**Vocabulary Due:** condition, boolean, comparison operator, and/or/not, if/elif/else, branch, truthy/falsy
+**Blocked By:** nothing — Stage 2's packet is complete and ready
 **Parked Advanced Material:** see `wiki/parking-lot.md` (consolidated 2026-06-24)
 
 ---

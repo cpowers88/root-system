@@ -1,0 +1,27 @@
+Python Basics
+
+**Basic Commands**
+
+*Arithmetic*
+
+30 + 12            (addition)
+
+43 - 2         (subtraction)
+" * " (multiplication)         " / " (division)-floatingpoint-  
+" // " (interger division)    " ** " exponents
+
+with these we can write PEMDAS expresions ex: 12 + 5 * 8   ---->add first (12 + 5) * 8
+
+*Arithmetic functions*
+
+there are math functions inside python 
+
+    round(42.4)------>will round any floating number to the nearest interger
+
+    abs(42)------>absolute value 
+
+This action is referred to as a call, we are calling the function, a function call.
+
+ERROR on code platform but this is knowledge here.
+
+The error is a SyntaxError: invalid syntax. It occurs because when you call a function in Python, you need to use parentheses around the arguments. In the code abs 42, the parentheses are missing, so Python doesn't recognize it as a valid function call. The correct way to call the abs

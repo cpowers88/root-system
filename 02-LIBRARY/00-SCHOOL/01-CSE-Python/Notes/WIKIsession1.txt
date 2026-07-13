@@ -1,0 +1,4 @@
+# Notes
+
+**Skeleton for what is the variable, expression, value, type.**
+ > The variable is ____. The expression is ____. The expression produces the value ____, whose type is ____.

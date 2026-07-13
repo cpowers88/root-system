@@ -1,0 +1,15 @@
+Displacement equation	Δx = xf - xi.
+Average velocity equation	vavg = Δx / Δt.
+Acceleration equation	a = Δv / Δt.
+Density equation	ρ = m / V.
+Vector x-component formula when angle is from horizontal	Ax = A cos(θ).
+Vector y-component formula when angle is from horizontal	Ay = A sin(θ).
+Magnitude from components	A = √(x² + y²).
+Reference angle from components	θ = tan⁻¹(|y| / |x|).
+Pythagorean theorem	a² + b² = c².
+Cosine ratio	cos(θ) = adjacent / hypotenuse.
+Sine ratio	sin(θ) = opposite / hypotenuse.
+Tangent ratio	tan(θ) = opposite / adjacent.
+Quadrant II standard angle	180° - reference angle.
+Quadrant III standard angle	180° + reference angle.
+Quadrant IV standard angle	360° - reference angle.

@@ -46,7 +46,7 @@ ORIENT -> ROUTE -> WORK -> PROVE/PACKAGE -> CLOSE
 | Where does business strategy or a blank master live? | `03-WIKIS\BUSINESS` |
 | Where does a filled business/client artifact live? | `05-BUSINESS` |
 | Where does a reusable capability asset live? | `05-BUSINESS\06-Capability Library` |
-| Where does an unsorted capture go? | `77-INBOX` |
+| Where does an unsorted capture go? | `77-INBOX` — capture filter and routing steps: `CASTLE\OPERATIONS.md` § Weekly Inbox Routing Checklist |
 | Where does private reflection go? | `88-JOURNAL`; AI never reads it |
 
 ---

@@ -1,0 +1,51 @@
+# Python CS50 
+
+## Vocabulary
+- **Function** is like a power tool. You pull the trigger and the tool performs a specific job.	'print()'. 
+- **String** A string is like a label written on a box. The computer treats it as words, not as a number. **String** is text.	'\"Chris\"'
+- **Argument** the material you feed into a tool, information given to a function. In 'print(\"Hello\"), hello is the argument
+- **Variable** is a labeled bucket on a jobsite, and stores information for programs, 'name = \"Chris\"' simply a labeled storage bucket.
+	<python
+	name = "Chris"
+	
+	print(name)
+>
+here 	- 'name' = variable
+	- '\"Chris\"' = the string
+	- 'print()' = the function
+	- 'name' inside 'print(name)' = the argument
+- **Input** is information a worker gives to the foreman, or **input** is information supplied by the user. 'name = input("What's your name?")'
+
+# Methods
+- **pattern** 'new_variable = old_variable.method(argument1, argument2)' for three dot problem 'modified_text = text.replace(" ", "...")'
+- **method** is a tool attached to a specific kind of thing here '.replace()'
+- 'text' = old bucket
+- 'modified_text' = new bucket
+- '/" /", "/".../"' = what to find, what to put there instead
+
+## CONDITIONAL
+- A **conditional** is code that lets the program make a decision.
+- A conditional is an "if this, then that" rule. 
+- A conditional is like a jobsite rule: "if the board is cracked, replace it."
+	'if board == "cracked":
+		print("Replace it")'
+
+## Boolean
+- A **Boolean** is a true/false anser.
+- In code a Boolean is like an inspection box, 'board cracked? Yes / No
+- 'x < y' produces a Boolean answer: either 'true' or 'false'
+
+## Comparison Operator
+- a **comparison operator** compares two values.
+- A comparison operator asks a question
+- A comparison operator is like measuring two boards and asking, "Which on is longer?"
+	- <
+	- >
+	- == (equal to)
+	- != (not equal to)
+	- <=
+	- >=
+- **notice '==' is used for equal to as '=' is used to show some value in the code is used as another
+
+
+

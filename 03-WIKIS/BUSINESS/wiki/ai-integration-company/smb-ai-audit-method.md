@@ -11,6 +11,12 @@ tags:
 
 > The paid diagnostic that opens every client relationship: how to run it, what to deliver, and how it converts into projects. This is the core operating page of the business.
 
+## At a Glance
+- **Core claim:** the audit is a paid sales process disguised as consulting (and real consulting disguised as a sales process) — it must produce a real work-redesign diagnosis whether or not a project follows.
+- **When to use it:** before and during every client audit engagement — Step 1 scoping through Step 6 delivery.
+- **Decision/action it supports:** what to charge, what to interview for, how to classify findings, and how to price the follow-on project.
+- **Key risk:** running it free, or running it as a sales pitch instead of real diagnostic work — both kill conversion and credibility (see Risks / Failure Modes).
+
 ## Purpose
 Document the repeatable method for auditing an SMB's operations — so every audit produces the same quality of diagnosis, the same deliverable, and the same conversion opportunity, regardless of who runs it.
 
@@ -20,6 +26,16 @@ The audit is a **paid sales process disguised as consulting — and real consult
 The audit's deeper product is a **work redesign**: it doesn't just find automatable tasks, it classifies every piece of work through the [[human-agent-operating-model|Human-Agent Operating Model]] and shows the owner what their business looks like when AI does first-pass production and their people manage the system ([[progressive-operating-thesis|Progressive Operating Thesis]]).
 
 Charging for it is non-negotiable: free audits attract non-buyers, get ignored, and position you as a salesperson instead of an engineer.
+
+### Who You're Actually Auditing (added 2026-07-12, CES-WP-26-25 pp.24-27)
+The Census Bureau's latent-class analysis of 117,000 firms (Nov 2025–Jan 2026) sorts AI-using businesses into five archetypes — useful for calibrating expectations before Step 1, since most prospects are NOT the blank slate they think they are:
+- **Minimalist Adopters (37% of AI users)** — low-intensity use scattered thinly across functions. The modal prospect.
+- **Marketing Specialists (31%)** — AI concentrated in sales/marketing only, everything else untouched.
+- **Institutional-Administrative Integrators (15%)** — back-office/admin functions only.
+- **Technical Strategists (12%)** — deeper but narrow technical use.
+- **Comprehensive Adopters (only 4%)** — genuinely broad, cross-functional use.
+
+**57% of all AI-using firms use it in 3 or fewer of 15 business functions.** The practical read: almost every prospect has already dabbled somewhere (usually marketing or admin) and calls themselves "not an AI user" — the audit's job in Step 1–2 isn't discovering whether they use AI, it's discovering *which thin slice* they're already in and mapping the other 12+ functions that are still fully manual. Set the framing early: "you're not starting from zero, you're a Minimalist/Marketing-Specialist adopter — we're mapping where the other 80% of the business still is."
 
 ## The Method (6 Steps, 1–2 Weeks)
 
@@ -42,6 +58,8 @@ Whenever possible, run this as a group conversation — owner, office staff, and
 **Walk it twice, on paper.** This is [[lean-methodology|Value Stream Mapping]]'s field method: walk the physical flow once with no data collection — just observe how work and information actually move, where things pile up. Walk it a second time collecting real numbers by hand (time per step, batch size, how often work sits waiting) — never from a printout or a system report. Map it with pencil and paper, in the work area itself, not from a desk.
 
 **Construction-specific: check the Procore (or equivalent) instance before the interviews.** Procore is the dominant construction-management platform, and a contractor's instance is a pre-built data source for this whole step: RFIs, submittals, change orders, daily logs (labor hours, weather, equipment, deliveries), budgets and commitments, timecards, inspections, punch lists, photos, and correspondence — with 90+ API endpoints and a reporting/analytics layer on top. Three audit uses: (1) **real volumes and timestamps** for the Step 4 waste math (how long RFIs actually sit, change-order turnaround, log completion rates) instead of interview estimates; (2) **the double-entry finding** — the classic construction waste pattern is data typed into Procore *and* QuickBooks *and* a spreadsheet, and the instance proves it; (3) **the unused-data finding** — most contractors capture far more in daily logs and financials than anyone ever reports on, which is a ready-made [[data-and-dashboard-pathway|dashboard]] recommendation. Per the BTOS numbers in [[market-map|Market Map]], even AI-adopting contractors have near-zero AI in quality management and supply chain — the functions this data already covers. Free platform training: learn.procore.com (see [[skill-roadmap|Skill Roadmap]], Layer 1). A fourth audit use: the **App Marketplace integration check** — Procore's partner marketplace spans accounting/ERP sync, embedded Power BI, document migration, takeoff/estimating, SMS field-data bots, 3D site capture, time & attendance, tool tracking, jobsite cameras, and iPaaS connectors (Boomi). Asking "which of these does your stack already integrate, and which gaps are you re-typing across by hand?" turns the marketplace category list into a ready-made double-entry checklist (source: Procore integration roundup clipping, `raw\`, intake July 2026).
+
+**Construction-specific: the bid-closing interview (added 2026-07-12, residential estimating textbook, `raw/`).** For a GC or custom builder, the highest-waste moment is often bid closing, not day-to-day operations — worth its own line of questioning: in the final hours before a bid deadline, subtrade prices traditionally arrive by phone/fax/email under time pressure; larger bids need several people just to answer phones and log incoming numbers; each phone-in price gets hand-transcribed onto a paper "bid form" (trade, bidder, price, tax treatment, conditions, time received) before being rolled into the summary bid. NAHB has named "inaccurate/inefficient estimating procedure" as home-building's #1 financial-control problem. Ask directly: *"Walk me through your last bid closing — how many subtrade prices came in by phone or text in the final two hours, and who transcribes those by hand onto the summary?"* Sanity-check the specific channel (phone/fax/text/email) with the client since this varies by shop in 2026, but the underlying pattern — time-pressured manual transcription feeding a bid summary — is the automation target regardless of medium.
 
 ### Step 3 — Task Inventory (Days 4–6)
 Classify every recurring task from the flow map into six buckets — this classification *is* the future-state design:

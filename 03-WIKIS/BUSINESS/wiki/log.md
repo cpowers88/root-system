@@ -5,6 +5,40 @@ tags: [log, business]
 
 # Wiki Log
 
+## 2026-07-12 — Full `raw/` intake: 24 unprocessed sources (7 background research forks + direct data pulls)
+
+Chris asked for the "chunk raw intake of the new files in raw." Cross-referenced all 39 files in `raw/` against this log; ~13 were already absorbed in prior sessions (McKinsey survey, BTOS clipping + AI supplement, EDGAR clips, Procore clips, WTI report, Entrepreneurship textbook → `venture-fundamentals.md`). Confirmed scope with Chris on how to handle three full-length textbooks (marketing, 2 estimating) plus the 18.6MB WEF report before starting — Chris chose full intake on everything. Processed the remaining 24 sources: small clippings and xlsx data pulled directly; the five large-PDF sources delegated to parallel research forks (read-only, no file writes) to keep raw PDF content out of the main session's context — synthesis and all page edits done directly afterward so parallel forks never collided on the same file.
+
+### What Was Added
+No new pages — every source strengthened an existing page (§7A step 2: update over create held for all 24 sources).
+
+### What Was Updated (9 pages)
+- **`market-map.md`** — heaviest update: (1) small-firm AI-adoption-curve nuance and a job-loss objection line from two Census Research Matters clippings; (2) BTOS methodology credibility detail (1.2M businesses, 6 panels, MSA-level sort, Oct–Nov 2025 shutdown data gap) from `BTOS - About/Methodology.md`; (3) a new "Current Business-Conditions Snapshot" table — live BTOS core (non-AI) index pull via a Python/openpyxl script against the 9 xlsx workbooks, showing Georgia/Atlanta running softer than national/construction on performance, revenue, and demand as of period 202613 (ref. 2026-06-01–14); (4) a measurement-caveat on the 1.4%→9.2% construction AI-adoption figure (CES-WP-24-16 vs. CES-WP-26-25: the Nov 2025 core-question wording changed, so it's a level-shift, not a clean multiplier); (5) the "AI not applicable" objection dropping from 80.9% (2024) to 65% (2026) — the education-led sale window is closing, not permanent; (6) the objection-handling section rewritten around CES-WP-26-25's hard employment-impact numbers (66% augmentation-only, employment change hits only 5% of firms, capital substitution 3x more common) replacing a thin/JS-blocked source citation.
+- **`smb-ai-audit-method.md`** — new "Who You're Actually Auditing" subsection (CES-WP-26-25's five-archetype latent-class analysis: 57% of AI-using firms touch ≤3 of 15 functions; most prospects are "Minimalist Adopters," not non-users); new "bid-closing interview" subsection in Step 2 (from the residential estimating textbook — phone/fax-era manual bid-transcription workflow as a concrete discovery-question template for GC/builder clients).
+- **`quality-control-and-risk-gates.md`** — shadow-AI finding (CES-WP-26-25: 36% of firms with real employee AI use have no formal adoption policy — ungoverned use is the most common day-one audit finding, not a hypothetical); new "Gap Model" subsection (*Principles of Marketing* Ch.12 — five named failure gaps: discovery/scoping/delivery/promise/perception — for diagnosing a soured engagement).
+- **`progressive-operating-thesis.md`** — the redesign *mechanism*, not just correlation (CES-WP-26-25 regressions: functional breadth and investment predict performance; narrow worker-task-only use does not).
+- **`agent-manager-job-design.md`** — WEF Future of Jobs 2025's task-shift data (82% of the 2025→2030 shift is pure automation, 19% augmentation) with industry variance (Insurance/Telecom automation-heavy vs. Healthcare/Government augmentation-heavy) for calibrating which of the five roles to emphasize per client industry.
+- **`human-role-redesign.md`** — WEF's named fastest-declining roles (Administrative Assistants/Executive Secretaries the largest absolute decline; also Data Entry Clerks, Bank Tellers) as concrete, citable third-party evidence for the Producer→Reviewer→Improver case study.
+- **`skill-roadmap.md`** — WEF Core Skills 2025 ranking corroborating the existing Layer 1/2 priority order (systems thinking, resource management, quality control all named core skills; AI & big data ranks only 11th in current importance despite being the fastest-*growing* skill) plus the reskilling-participation trend (50% vs. 41% in 2023).
+- **`risks-and-failure-modes.md`** — one-line corroboration on risk #10 (Adoption failure): WEF names organizational resistance to change as employers' #2 transformation barrier globally (46%).
+- **`sales-system.md`** — new "Who You're Actually Selling To" subsection (*Principles of Marketing* Ch.7's B2B buying-center roles — initiator/influencer/gatekeeper/decider — for prospects toward the upper end of the target range where an office/ops manager sits between Chris and the owner); one-line addition on consulting as a "credence" purchase (Ch.12) explaining why proof content and referrals carry outsized weight for this business model.
+
+### What Was Parked
+- **`HowAIcanbenefitabusinessatbanksandinsurace.pdf`** — 2020-vintage RPA/ML vendor brochure (Danske Bank, BNP Paribas, ING, etc.), pre-GenAI and enterprise-carrier-scale — wrong vintage and wrong audience (carriers, not the small local insurance *agencies* on the expansion map).
+- **`state-of-ai-2026.pdf`** — confirmed duplicate: this is Deloitte's "State of AI in the Enterprise" (Jan 2026, n=3,235), already processed in the July 8 batch and cited in `market-map.md`. No action.
+- **`howtobuildyourcareerinAI.pdf`** (Andrew Ng) — a personal ML-engineer job-search guide; actively conflicts with `skill-roadmap.md`'s deliberate layer-2 de-prioritization of deep ML/math. Parked.
+- **`NewCodeofEstimating.pdf`** — UK commercial/PFI tendering code (bills of quantities, CDM regs, bid-rigging) for large contractors — wrong market segment for the current $2M–$15M US residential/light-commercial entry hypothesis. Revisit only if Chris moves into larger commercial contracting.
+- **`Census Bureau's 2023 Annual Business Survey...md`** and **`Large Firms With at Least 20 Employees Biggest AI Users.md`** — both are JS-blocked scrapes (cookie-banner shell only, no body content). Their frontmatter `description` fields were usable and got cited (job-impact headline in `market-map.md`; the "AI use growing Dec 2025–May 2026" line was already cited pre-session). Full body content unavailable until re-captured.
+- **`BTOS - Data.md`** and **`URR.xlsx`/`AI26_URR.xlsx`** — not narrative content (a 275K-token scraped HTML dashboard dump, and data-quality/response-rate meta-files respectively). Noted as available data sources, not mined further — low marginal value relative to the Index Estimates pull already done.
+
+### Missing Data Needed From Chris
+- Re-capture the two JS-blocked Census clippings (2023 ABS tech-adoption story, May 2026 "Large Firms" story) with a scraper that renders JS, if the full body detail (which industries, what magnitude) is needed for a specific proposal.
+- Sanity-check the bid-closing interview questions (`smb-ai-audit-method.md` Step 2) with an actual contractor — the source textbook is from 2011 and assumes phone/fax bid intake; confirm the channel specifics still match 2026 shop practice even though the underlying manual-transcription pattern is still credible per the BTOS near-zero-adoption evidence.
+- Decide whether `NewCodeofEstimating.pdf` and the banks/insurance PDF should be archived out of `raw/` or left in place as-is (raw/ is immutable by default — no action taken without Chris's instruction).
+
+### Recommended Next Action
+None urgent — this batch is evidence/credibility layering onto an already-built page set, not a new capability. The CES-WP-26-25 findings (customer archetypes, shadow AI, redesign mechanism) are the strongest single addition in this batch and are worth a specific read-through before the next audit engagement or proposal, since they replace softer claims with hard Census microdata across four pages.
+
 ## 2026-07-09 (late) — AI Index 2026 evidence folded into market-map
 
 - Part of the flag-55(c) multi-hub ingest (Chris-directed): the Stanford

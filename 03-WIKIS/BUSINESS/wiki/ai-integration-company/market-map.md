@@ -41,6 +41,33 @@ What's underneath the headline, and how each fact sells:
 
 Refresh cadence: BTOS core AI questions release biweekly; the AI Supplement updates annually. Re-pull before building any pitch deck so the numbers are current.
 
+**Measurement caveat (added 2026-07-12, CES-WP-26-25 p.6):** the Nov 2025 core-question wording changed from "AI in producing goods/services" to "AI in any business function" — a discrete level-shift, not pure adoption growth. CES-WP-24-16 (Mar 2024) found construction at just **1.4% current / 2.2% future use** under the old wording — the lowest of any sector. Don't present 1.4%→9.2% as a 6.5x adoption jump in a pitch; the honest framing is "construction was already the lowest-adopting sector under the old measure, and remains lowest under the new one" — the *rank*, not the raw multiplier, is the durable fact.
+
+**The objection is already eroding (added 2026-07-12, CES-WP-26-25 p.17 vs CES-WP-24-16 p.36-37):** "AI not applicable to my business" among non-adopters dropped from **80.9% (2024 supplement) to 65% (2026 supplement)**. The education-led sale is real but the window is closing — this is a reason to move now, not a reason the pitch stops working.
+
+### Small Firms Aren't as Far Behind as the Adoption Gap Implies (added 2026-07-12)
+A Census Research Matters brief (Dec 2024, BTOS trend regressions Sept 2023–Aug 2024) complicates the "small firms lag" framing — worth having in the back pocket for objection handling, not the headline pitch:
+- The **smallest size class (1–4 employees) has the second-highest current AI use rate of any firm-size bracket** (4.6% → 5.8% over the period), behind only the 250+ employee class. The mid-size classes (5–99 employees) — where most $2M–$15M contractor clients actually sit — trail at 3–4%.
+- Rate of *increase* still favors large firms (250+: +0.11pp/2wk vs. smallest: +0.05pp/2wk) — at current trend, ~6 years to 25% adoption for large firms, ~15 years for the smallest. So current-use parity is real but the growth curve isn't; this is a now-vs-later distinction, not a myth-buster.
+- Use: "you're not the last to the table — the tiniest firms in the country already show real AI curiosity; mid-size is the group actually sitting still" reframes the sales conversation away from shame and toward FOMO.
+
+### Objection Handling: Adoption Doesn't Cost Jobs (strengthened 2026-07-12, CES-WP-26-25 pp.28-31)
+The Census Bureau's own microdata (117,000 firms, Nov 2025–Jan 2026, the most rigorous BTOS AI paper to date) gives a hard number to replace the earlier thin citation: among firms where AI changes tasks at all, **66% do augmentation only** (no substitution), and **employment change from AI hits just 5% of firms overall (2.3% report an increase, 2.0% a decrease)** — while **capital substitution (16% of firms) is more than 3x as common as any AI-driven employment effect**. Separately, the 2023 Annual Business Survey (Census, Sept 2025 story) reports adoption of new technology had no impact on worker numbers or skill level in most cases (full article body unfetched — a JS-blocked scrape, headline claim only). Together: **"AI will replace my crew" is empirically the least likely outcome of adoption** — a direct, well-sourced counter for discovery-call objection handling.
+
+### Current Business-Conditions Snapshot: Georgia Runs Cooler Than the Nation (added 2026-07-12 — volatile, re-pull before use)
+Pulled from BTOS core (non-AI) indicator workbooks (`raw/`: National, State, Sector, Top 25 MSA — diffusion indexes, 50 = no change, above/below = net improving/worsening). **Reference period 2026-06-01–06-14 (period 202613, published 2026-07-02) — biweekly, stale after ~2 weeks:**
+
+| Index (50 = no change) | National | Construction (NAICS 23) | Georgia | Atlanta MSA |
+|---|---|---|---|---|
+| Current performance | 54.0 | 55.5 | 52.4 | 52.3 |
+| Revenues | 43.0 | 44.1 | 39.0 | 38.9 |
+| Demand | 44.8 | 45.6 | 41.3 | 39.9 |
+| Input prices | 71.0 | 73.9 | 70.2 | 70.7 |
+
+Reading it: every geography and sector here is running a revenue/demand index well under 50 (more businesses reporting declines than gains) with input-price pressure pinned near 70–74 — real, current margin squeeze, not a hypothetical. **Georgia and Atlanta specifically are running softer than the national and construction-sector numbers on performance, revenue, and demand** — the local market is under more pressure than the country as a whole right now, which argues for urgency in a cost/efficiency-focused pitch ("your competitors are also getting squeezed on cost this quarter — this is exactly when an efficiency audit pays for itself") rather than a "growth tool" framing. Construction nationally is actually running slightly *above* the all-sector average on current performance and revenue — don't lead a construction pitch with "your industry is struggling," lead with the AI-adoption gap (above) instead; the conditions gap is a Georgia/Atlanta story, not a construction story.
+
+Refresh before any pitch — this table is two weeks old the day it's read. Re-pull via the BTOS downloads page (same workbooks, "Index Estimates" sheet, latest period column).
+
 ## Market Timing: The Surveys Say the Gap Is Real and Downstream
 The two big 2025/2026 enterprise AI surveys (McKinsey Nov 2025, n=1,993; Deloitte Jan 2026, n=3,235 — intake July 2026, `raw/`) are enterprise-skewed, but their size gradient is the SMB story:
 - **Adoption falls off with company size.** McKinsey: nearly half of $5B+ revenue companies have reached the AI scaling phase vs. **29% of companies under $100M** — and the survey barely reaches true SMBs at all. The capability that big firms buy with internal AI teams simply doesn't exist below them.
@@ -54,6 +81,8 @@ Use these as third-party proof points in outreach and proposals — "McKinsey fo
 ## Free Market-Research Data Sources
 Free, current, citable data for sizing verticals, timing pitches, and building demo dashboards (both intake July 2026, `raw/`):
 - **Census Bureau BTOS** (census.gov/programs-surveys/btos.html) — biweekly Business Trends and Outlook Survey of ~1.2M businesses; data by NAICS sector *and subsector*, state, top-25 metros, and employment size class. Tracks **AI-use rates by sector over time** (Census reported AI use growing Dec 2025–May 2026 across firm sizes; back in 2023 only 3.8% of businesses used AI in production). Use it to quantify "here's where construction firms in Georgia actually are on AI" in a pitch or audit report.
+  - **Methodology credibility, if a prospect or client pushes back on the numbers** (About/Methodology pages, intake 2026-07-12): ~1.2M businesses split into 6 biweekly panels (~200K/panel), each business reporting once every 12 weeks; 24-question survey, voluntary; sampling strata are sector × state, sorted by MSA within strata for metro-level precision. New sample drawn annually (current: Sample Year 4, July 2025–July 2026). Known gap: no data for Oct 6–Nov 16, 2025 (federal shutdown) — a structural hole, not a methodology flaw, if a data point from that window looks missing.
+  - The live KPI dashboard (`census.gov/hfp/btos/data`) publishes current-vs-future indexes (performance, revenue, employment, hours, input prices) biweekly — same demo-dashboard-building use case as the EDGAR data below, refreshed every two weeks instead of quarterly.
 - **SEC EDGAR APIs** (data.sec.gov — free, no API key) — JSON APIs for all public-company filings and XBRL financial-statement data, plus nightly bulk downloads. SMB clients don't file with the SEC, but public players in a client's vertical (national builders, roll-ups, suppliers) give **industry benchmark economics** for audit context — and it's free real-world data for building demo dashboards without touching client data. Implementation reference now in `raw/` (intake July 2026): the official EDGAR Business Office API overview PDF (22 pp., Dec 2025), the API Development Toolkit, token-management, and versioning clips — enough to build the demo-dashboard pull without further research.
 
 ## Target Customer Profile

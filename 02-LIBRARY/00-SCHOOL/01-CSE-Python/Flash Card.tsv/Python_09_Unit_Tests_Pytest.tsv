@@ -1,0 +1,21 @@
+Front	Back
+What is a unit test?	Code that checks whether a small piece of your program works correctly.
+Why write tests?	To verify your code automatically and catch bugs early.
+What is assert?	A statement that checks a condition and fails if the condition is False.
+What does pytest do?	Runs test functions and reports which tests pass or fail.
+What should a pytest test file usually be named?	test_filename.py
+What should a pytest test function usually be named?	A name starting with test_, like test_square().
+I want to test square(2) equals 4. What assert do I write?	assert square(2) == 4
+I want to test a function raises an error. What pytest tool can I use?	pytest.raises
+What is a test case?	One specific input/output check.
+What is a corner case in testing?	A special input likely to expose bugs.
+Why test zero?	Zero often behaves differently in math or logic.
+Why test negative numbers?	Negative inputs can expose hidden assumptions.
+Why test empty strings?	They expose logic that assumes something exists.
+Why put logic in functions when testing?	Functions can be called directly from tests.
+Why is print-based testing weaker?	You must inspect output manually.
+What does automated testing do better than manual print checks?	It reruns checks consistently and reports failures.
+What is regression testing?	Testing that old behavior still works after changes.
+What is an expected output?	The result the program should produce for a given input.
+What is an actual output?	The result the program really produced.
+What does a failing test tell you?	The program behavior does not match the expected behavior.

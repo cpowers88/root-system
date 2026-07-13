@@ -1,0 +1,21 @@
+Front	Back
+What is File I/O?	A program reading from files or writing to files.
+Why use files?	To keep data after the program ends.
+What does open() do?	Opens a file so the program can read from it or write to it.
+What does 'r' mode mean in open()?	Read mode.
+What does 'w' mode mean in open()?	Write mode; it overwrites the file.
+What does 'a' mode mean in open()?	Append mode; it adds to the end of the file.
+What does file.write(text) do?	Writes text into an opened file.
+What does file.close() do?	Closes the opened file.
+Why use with open(...) as file?	It automatically closes the file when the block ends.
+I want to write one name to names.txt. What pattern do I use?	with open('names.txt', 'w') as file: file.write(name)
+I want to append one name to names.txt. What mode do I use?	'a'
+I want to read every line in a file. What pattern do I use?	for line in file:
+What does .rstrip() do?	Removes whitespace from the right side of a string, often the newline at the end.
+What is a newline character?	\n, the character that moves text to the next line.
+What is CSV?	Comma-separated values; a text format for table-like data.
+What does csv.reader do?	Reads CSV rows as lists.
+What does csv.DictReader do?	Reads CSV rows as dictionaries using headers as keys.
+What does csv.writer do?	Writes rows to a CSV file.
+What does csv.DictWriter do?	Writes dictionaries to a CSV file using field names.
+What is a binary file?	A file stored as bytes instead of plain text.

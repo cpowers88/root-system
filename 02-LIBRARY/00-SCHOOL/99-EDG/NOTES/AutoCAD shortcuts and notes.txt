@@ -1,0 +1,26 @@
+# AutoCAD shortcuts and notes
+
+---
+
+| Alias | Full command |
+| ----- | ------------ |
+| `L`   | LINE         |
+| `C`   | CIRCLE       |
+| `REC` | RECTANGLE    |
+| `M`   | MOVE         |
+| `CO`  | COPY         |
+| `O`   | OFFSET       |
+| `TR`  | TRIM         |
+| `RO`  | ROTATE       |
+| `SC`  | SCALE        |
+| `MI`  | MIRROR       |
+| `F`   | FILLET       |
+| `CHA` | CHAMFER      |
+| `XL`  | XLINE        |
+| `LA`  | LAYER        |
+| `D`   | DIMSTYLE     |
+| `DIM` | DIMENSION    |
+
+---
+
+**'ALIASEDIT' is where you will find the whole list inside AutoCAD**

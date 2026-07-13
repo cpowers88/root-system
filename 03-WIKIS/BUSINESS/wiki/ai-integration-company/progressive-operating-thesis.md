@@ -40,6 +40,8 @@ Two large enterprise surveys (intake July 2026, `raw/`) independently validate t
 
 The practical read: the market's biggest documented failure mode is *buying AI without redesigning work* — which is precisely the service this company sells. When enterprises with dedicated AI teams stall here, SMBs cannot bridge it alone.
 
+**The mechanism, not just the correlation (added 2026-07-12, CES-WP-26-25 pp.32-35):** Census's firm-level regressions isolate *why* redesign matters, not just that it correlates with success — functional breadth (using AI across more business functions) and operational investment both predict better firm performance, while **narrow, worker-task-only AI use (the "let employees use ChatGPT" pattern with no process change) shows no significant association with performance at all**. That's the citable mechanism behind "redesign, don't just deploy": breadth and investment move the needle; scattered individual tool use doesn't, even when it's genuinely happening. Reframes a client's existing informal AI use (see [[quality-control-and-risk-gates|shadow AI]]) not as progress to build on but as exactly the pattern that produces zero measured benefit until it's redesigned into the operating loop.
+
 ## The Business Design Rule
 Never design around "cool AI tools." Design around business throughput. Every recommendation in an audit, proposal, or build must answer five questions:
 

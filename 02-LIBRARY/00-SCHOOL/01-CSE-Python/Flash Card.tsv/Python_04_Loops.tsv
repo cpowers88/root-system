@@ -1,0 +1,28 @@
+Front	Back
+What is a loop?	Code that repeats.
+What does while do?	Repeats code while a condition remains True.
+What does for do?	Repeats code once for each item in a sequence.
+What does in do in a for loop?	Takes one item at a time from a sequence.
+What does for char in s mean?	Go through each character in the string s, one at a time.
+What is char in for char in s?	A temporary variable holding the current character.
+What does for i in range(3) do?	Runs the loop with i as 0, then 1, then 2.
+What does range(3) produce for a loop?	0, 1, 2.
+What is iteration?	One pass through a loop.
+What does i += 1 mean?	Increase i by 1.
+What does i -= 1 mean?	Decrease i by 1.
+What is an infinite loop?	A loop that never stops because its stopping condition never becomes False.
+How do you stop a terminal program stuck in an infinite loop?	Press Ctrl+C.
+What does break do?	Stops the loop early.
+What does continue do?	Skips the rest of the current iteration and moves to the next one.
+What is a flag variable?	A variable used to remember whether something has happened.
+What is a common flag variable in plates.py?	number_started = False.
+What should happen when the first digit is found in plates.py?	Set number_started = True.
+What should happen if number_started is True and a letter appears?	return False
+What does a loop over a string inspect?	Each character one at a time.
+What does a loop over a list inspect?	Each list item one at a time.
+What is the loop pattern for checking every character?	for char in s:
+What is the loop pattern for repeating exactly 3 times?	for _ in range(3):
+What does _ mean in for _ in range(3)?	A throwaway variable when the loop value is not needed.
+What is a counter variable?	A variable that tracks how many times something has happened.
+What is an accumulator variable?	A variable that builds up a total or result over time.
+Why do programmers prefer loops over repeated code?	Loops remove duplication and make code easier to change.

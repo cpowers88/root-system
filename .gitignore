@@ -1,0 +1,58 @@
+# .ROOT version-control policy: Git tracks operating documents and source;
+# Google Drive backs up the full local vault, including binary/reference material.
+
+# Never version private material or immutable/raw source collections.
+88-JOURNAL/
+**/raw/
+02-LIBRARY/.raw ARCHIVE/
+77-INBOX/
+99-ARCHIVE/
+
+# Local application state, caches, and generated/transient content.
+.obsidian/
+.tmp.drivedownload/
+.tmp.driveupload/
+tmp/
+Clippings/
+desktop.ini
+Thumbs.db
+
+# Keep the project Codex policy, but not local Codex state or credentials.
+.codex/*
+!.codex/config.toml
+**/auth.json
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependency/build artifacts.
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+
+# Large binary/reference material belongs in the Drive backup, not Git history.
+*.pdf
+*.docx
+*.xlsx
+*.xls
+*.xlsm
+*.pptx
+*.zip
+*.7z
+*.db
+*.sqlite
+*.sqlite3
+*.h5p
+*.one
+*.onetoc2
+*.mp3
+*.mp4
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.gif
+.DS_Store
+**/.idea/

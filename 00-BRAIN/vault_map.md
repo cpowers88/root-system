@@ -6,7 +6,7 @@ tags: [reference, governance]
 # vault_map.md — Powers System Map (.ROOT)
 ### Navigation file. Two levels deep ON PURPOSE — see Map Rule below.
 ### Last updated: July 11, 2026 (slim pass: local-machine tree → LOCAL_MACHINE_MAP.md, dated stamps removed; prior version: 99-ARCHIVE\ARCHIVED_2026-07-11_vault_map.md)
-### System: Drive (truth) + Obsidian (capture/graph) + GitHub (code). Everything lives in .ROOT.
+### System: local C: workspace (truth) + Obsidian (capture/graph) + GitHub (code). G: is cloud backup only. Everything lives in .ROOT.
 
 ---
 
@@ -22,13 +22,13 @@ file list older than the current session.
 
 ---
 
-## G:\My Drive
+## G:\My Drive — Backup Only
 
 ```
-G:\My Drive\
-├── CLAUDE.md        ← AI router (auto-loads) — which .ROOT section does this session belong to?
-├── .ROOT\           ← THE SYSTEM (mapped below)
-└── 88-JOURNAL\      ← private — no AI reads this folder. Ever.
+G:\My Drive\.ROOT\  ← retained legacy recovery snapshot only; never an AI boot target or working tree.
+
+**Live cloud backup:** Google Drive → **Computers → this PC → .ROOT**, synchronized
+from `C:\Users\chris\.ROOT` by Drive for desktop.
 ```
 
 ## .ROOT — Verified Map
@@ -93,9 +93,9 @@ G:\My Drive\
 ```
 
 **Tooling dotfolders at `.ROOT` root (not content, not in the map):** `.obsidian` — vault
-config + generated graph.json; `.claude` / `.agents` — AI tool settings. `.git` is not
-present at `.ROOT` and should not be recreated in Drive. Do not flag the present tooling
-folders as strays.
+config + generated graph.json; `.claude` / `.agents` — AI tool settings; `.codex` — project
+Codex settings. A `.git` directory may be provisioned by local tooling, but this vault is
+not itself a Git repository. Do not flag these tooling folders as strays.
 
 **Boundaries:** the castle references, never absorbs. Each wiki refines its own
 domain, never governs the system; wikis are folders inside the one `.ROOT` vault,

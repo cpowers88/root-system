@@ -37,4 +37,4 @@ After a session: log which pages were used and how in `wiki/log.md`; update a pa
 78 pages of system-dynamics and factory-physics reference live in `wiki/`, moved intact from FORGE's `wiki/systems/` folder on July 7, 2026 (four source books: Sterman's *Business Dynamics*, *Factory Physics*, MRP/inventory theory, and operations-research fundamentals feeding ISYE 2600). No ISYE 2600 coursework has activated yet (gate course is Spring 2027) — the wiki is reference-ready, not yet in active use.
 
 ## Last Updated
-July 12, 2026 — normalized to the shared seven-wiki skeleton; page count corrected to the live figure (it had drifted from the original FORGE-migration count). Color language: `G:\My Drive\.ROOT\START_HERE.md`.
+July 13, 2026 — local-root cutover: canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.

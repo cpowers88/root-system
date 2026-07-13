@@ -16,10 +16,11 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
 ## Chris's Actual Study Progress (where Chris is)
 
 - **Stage 0 — satisfied.** Chris meets every Stage 0 setup/orientation item already (see Learner Baseline below).
-- **Current study stage: Stage 1 — Python Atoms.** This is where Chris should be working, in `wiki/stages/stage-01-python-atoms.md`.
-- **Stages 2-10 are generated but not yet mastered.** Their packets exist and are ready, but Chris has not worked through or demonstrated mastery of any of them yet. Do not treat their existence as progress.
+- **Stage 1 — satisfied (2026-07-13).** Chris worked Stage 1 independently with Codex on 2026-07-12 (files: `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\{starter_prompt,variables,expressions,types}.py`) — real code, not generated-and-untouched. Verified in this session, not assumed from the code alone: explained why `int()`/`float()` conversions were needed before use, correctly predicted then confirmed a `TypeError` from `age + 5` on an unconverted string, and correctly reasoned through `+`-concatenation vs. f-string mechanics after one correction. `starter_prompt.py` satisfies the About Me mini-project spec (input, conversion, calculation, formatted output). `variables.py` also demonstrated early reassignment/accumulator patterns (Stage 3 territory) with no issues.
+- **Current study stage: Stage 2 — Decisions and Boolean Logic.** `wiki/stages/stage-02-decisions-and-boolean-logic.md`.
+- **Stages 3-10 are generated but not yet mastered.** Their packets exist and are ready, but Chris has not worked through or demonstrated mastery of any of them yet. Do not treat their existence as progress.
 
-**This page must never be read as "Chris should start at Stage 10."** The only stage Chris has actually completed is Stage 0. His next action is Stage 1.
+**This page must never be read as "Chris should start at Stage 10."** Stages 0-1 are complete. His next action is Stage 2.
 
 ## Current Learner Baseline
 
@@ -109,4 +110,4 @@ Eight sources total (two syllabi + six books) are now mapped across all 11 stage
 
 ## Current Next Action
 
-Chris's next action is **Stage 1**: open `wiki/stages/stage-01-python-atoms.md` and begin there. All 11 stages (0-10) have complete generated packets waiting, but that is a content-readiness fact, not a study-progress fact — Chris has not yet started Stage 1. As Chris completes each stage's mastery checklist, update this section to reflect his real progress. Only after Chris finishes Stage 10 should "what's next" (deeper practice, a business-applications bridge toward `03-WIKIS\BUSINESS` / `03-WIKIS\TECHNOLOGY`, or new advanced material) be discussed — do not generate further stages speculatively before then.
+Chris's next action is **Stage 2**: open `wiki/stages/stage-02-decisions-and-boolean-logic.md` and begin there. All 11 stages (0-10) have complete generated packets waiting, but that is a content-readiness fact, not a study-progress fact — Chris has completed Stage 1 only. As Chris completes each stage's mastery checklist, update this section to reflect his real progress. Only after Chris finishes Stage 10 should "what's next" (deeper practice, a business-applications bridge toward `03-WIKIS\BUSINESS` / `03-WIKIS\TECHNOLOGY`, or new advanced material) be discussed — do not generate further stages speculatively before then.

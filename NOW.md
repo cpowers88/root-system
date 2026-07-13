@@ -3,17 +3,25 @@ type: dashboard
 tags: [now]
 ---
 
-# NOW — Sunday, July 12, 2026 (final launch audit complete — live test window)
+# NOW — Monday, July 13, 2026 (launch audit closed — normal system use starts today)
 ### Open this every morning. One screen. Maintained by the AI every session.
 
 ## ☀️ The Single Priority
 
-**🟢 LIVE TEST WINDOW. North Star + instruction sync complete:** the cleaned
-North Star is live, approved Gemini ideas were cherry-picked, and the school
-folder system has been flattened into `02-LIBRARY\00-SCHOOL`. The old top-level
-school folder and extra KSU shell are gone. Instruction/pointer/system files were reconciled,
-graph colors regenerated, boot-chain validation passed, and flags 61 + 55 are
-closed. Output pace resumes; new architecture waits for real friction. Flags 59, 60, and 56 are closed; the capability library shipped its first real asset July 12 (`APQC_13_1_WORKFLOW_OBSERVATION_MAP.md`, draft maturity) — next action is running Practice Rep 1 to bump it to tested internally.
+**🟢 RUN THE SYSTEM. Architecture is frozen; output reps are the job now.** July 12's
+launch audit, hardening, and a full day of approved-proposal execution are closed out
+(backstop Day Summary written into `DAILY_2026-07-12.md` this morning — last night's
+session ended without one). **C:\Users\chris\.ROOT is now the canonical local working
+tree; G: is cloud backup only.** Flag 71 tracks verification of that backup sync; it
+does not block school work. The
+capability library shipped its first real asset July 12 (`APQC_13_1_WORKFLOW_OBSERVATION_MAP.md`,
+draft maturity) — Practice Rep 1 is still open, not yet run.
+
+**Today's start — school lane:** `03-WIKIS\PYTHON` and `03-WIKIS\PHYSICS` are Track 1
+execution (`CASTLE\OPERATIONS.md`). Python is the clearer starting point: Stage 0 is
+satisfied but **Stage 1 — Python Atoms** (`wiki/stages/stage-01-python-atoms.md`) has
+never been started, per the wiki's own `current-position.md`. Physics Stage 3 (Vectors)
+is also ready and mid-stream if that's the better fit for today's energy.
 **Tracker truth: V1 SHIPPED.** All commands work (`--week`, `--courses`, `--tests`,
 `--today`, `--course X`, `--overdue`, `--add-test/-assignment/-reading`). It is no
 longer a build project. Next tracker action: **enter real D2L/syllabus data ~July 25.**
@@ -28,7 +36,7 @@ autonomy still requires use-case eval evidence. Full record:
 ## 🔨 Active Proof Project
 
 **[[ksu-academic-tracker]]** — V1 shipped and tested (July 8).
-Remaining proof: real syllabus data at D2L open (~Jul 25, 14 days out), then
+Remaining proof: real syllabus data at D2L open (~Jul 25, 12 days out), then
 daily morning use through the semester. SQL reps continue as maintenance +
 Luke Barousse segments, not feature expansion.
 
@@ -47,18 +55,20 @@ Luke Barousse segments, not feature expansion.
 
 - [x] ~~5-min go-live check~~ — **DONE July 9: Chris said GO.** The system is
   live; test window runs to Aug 24
+- [x] ~~Identify/configure and verify the cloud-backup mechanism~~ **DONE July 13:**
+  `C:\Users\chris\.ROOT` syncs through Drive for desktop under **Computers → this PC → .ROOT**.
+  G: remains a legacy snapshot, never an AI boot target or working tree.
 
 ## 📅 Coming Up
 
 | Date | What | Days out |
 |---|---|---|
-| Sat Jul 11 | North Star merge + instruction sync + school relocation completed | 0 |
 | ~~Sun Jul 12~~ | ~~First weekly review that consumes DAILY files~~ **DONE same day: swept clean** — 7-hub wiki sweep, Watchtower radar, 77-INBOX all clear; flags 57, 51, 16 re-checked against live files, all three confirmed still correctly OPEN, no new drift | 0 |
-| ~Jul 25 | D2L opens — enter real syllabus data into the tracker | 14 |
-| Aug 1 | Monthly review — weak-link question + [[current-position]] update + wiki lint/tag maintenance from the July 11 live reports | 21 |
+| ~Jul 25 | D2L opens — enter real syllabus data into the tracker | 12 |
+| Aug 1 | Monthly review — weak-link question + [[current-position]] update + wiki lint/tag maintenance from the July 11 live reports | 19 |
 | ~Aug 10–22 | Extend CASTLE calendar tags + semester study-block template (SYSTEM_FLAGS #51) | — |
-| Aug 24 | **KSU Fall semester begins — show up loaded** | 44 |
-| Oct 5 – Nov 11 | Danger weeks — school only, castle goes quiet | 86 |
+| Aug 24 | **KSU Fall semester begins — show up loaded** | 42 |
+| Oct 5 – Nov 11 | Danger weeks — school only, castle goes quiet | 84 |
 
 ## 🧭 Bearing
 
@@ -66,10 +76,13 @@ Phase 0 — Current Position & Baseline ([[phase-map]]).
 North Star check: *is today's work closer to October 8, 2031 than yesterday's?*
 Output reps = yes. More system architecture = no.
 
-**System close — July 12:** launch work is consolidated. Live evidence is now the
-four DAILY files, `HANDOFF_0712_CODEX.md`, and
-`FINAL_ROOT_LAUNCH_OPTIMIZATION_REPORT_2026-07-12.md`; completed one-off reports
-were moved to `99-ARCHIVE`. Boot chain PASS; architecture frozen; supervised use GO.
+**System close — July 12 (backstopped July 13):** launch work plus a full day of
+proposal execution is consolidated. Live evidence is the DAILY files,
+`HANDOFF_0712_CODEX.md`, `FINAL_ROOT_LAUNCH_OPTIMIZATION_REPORT_2026-07-12.md`, and
+`ROOT_OPERATING_MANUAL.md` (new master human instruction file, built + validated
+July 12); completed one-off reports were moved to `99-ARCHIVE`. Boot chain PASS;
+architecture frozen; supervised use GO. **July 13: normal reps resume** — school lane
+(Python/Physics) first, per Track order.
 
 ---
 *Stale check: if the date at the top isn't recent, tell the AI to update NOW.md.*

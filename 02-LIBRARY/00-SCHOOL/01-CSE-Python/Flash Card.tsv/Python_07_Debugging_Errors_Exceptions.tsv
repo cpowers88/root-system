@@ -1,0 +1,21 @@
+Front	Back
+What is an exception?	A problem that arises while the program is running.
+What is a syntax error?	An error caused by code that breaks Python grammar.
+What is a runtime error?	An error that happens while the program is running.
+What is a ValueError?	An error often caused when a value cannot be converted or used as expected.
+What is a NameError?	An error caused when Python sees a name that has not been defined.
+What is an IndexError?	An error caused by trying to access an index that does not exist.
+What is a TypeError?	An error caused by using a value in a way its type does not support.
+What does try do?	Marks code that might raise an exception.
+What does except do?	Runs code to handle a specific exception.
+What does else do with try/except?	Runs only if the try block did not raise an exception.
+What does pass do?	Does nothing; used as a placeholder.
+What is defensive programming?	Writing code that anticipates bad input or possible failure.
+I want to handle bad integer input. What pattern do I use?	try: x = int(input(...)) except ValueError: ...
+I want to keep asking until input is valid. What structure do I use?	A loop with try/except and return or break when valid.
+Why should except usually name a specific error?	So the program does not hide unrelated bugs.
+What does traceback mean?	The error report showing where the program failed.
+What should I read first in an error message?	The error type and the line number.
+What is the debugging first move?	Read the exact error, then go to the line it names.
+What is a corner case?	An unusual input that may reveal a bug.
+What is an edge case?	A boundary input near the limit of what the program allows.

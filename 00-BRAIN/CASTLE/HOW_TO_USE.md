@@ -58,4 +58,4 @@ AI sessions have FULL OPERATOR autonomy here (per `OPERATIONS.md`): maps, status
 - *Month end*: AI updates current-position + moves timeline tags forward in the school wikis (tag-filtered, one shared graph — see WHERE_IT_GOES.md Tag Standard).
 
 ## Last Updated
-July 12, 2026 — operating-contract normalization (aligned to the shared instruction skeleton and `ROOT_OPERATING_MANUAL.md`); created July 6, 2026 during system unification. Color language: `G:\My Drive\.ROOT\START_HERE.md`.
+July 13, 2026 — local-root cutover: canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.

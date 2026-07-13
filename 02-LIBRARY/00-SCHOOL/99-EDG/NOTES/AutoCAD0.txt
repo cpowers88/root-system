@@ -1,0 +1,11 @@
+# AutoCAD Download Night 6/5/2026
+
+## First terms
+- **LINE** draw straight lines
+- **CIRCLE** draw circles
+- **ARC** draw arcs
+- **TRIM** cut lines at intersections
+- **EXTEND** stretch lines to meet other lines
+- **OFFSET** copy a line parallel at a set distance
+- **MIRROR** flip objects across an axis
+- **ARRAY**

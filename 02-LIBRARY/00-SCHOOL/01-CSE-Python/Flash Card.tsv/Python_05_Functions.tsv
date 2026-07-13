@@ -1,0 +1,25 @@
+Front	Back
+What does def do?	Defines a function.
+What is a function definition?	The code that creates a function.
+What is a function call?	The code that runs a function.
+What does return do?	Sends a value back from a function and exits that function.
+What is main()?	A function often used to control the main program flow.
+What is is_valid(s)?	A function that checks whether s passes validation rules.
+What is s in is_valid(s)?	A parameter representing the value being checked.
+What does if is_valid(plate): mean?	If the function returns True, run the Valid branch.
+What happens when a function returns False?	The function stops and gives False back to where it was called.
+What happens when a function returns True?	The function stops and gives True back to where it was called.
+Why use a helper function like is_valid()?	To separate checking logic from input/output logic.
+What is a fruitful function?	A function that returns a value.
+What is a void function?	A function that performs an action but does not return a useful value.
+What is local scope?	The area inside a function where its variables exist.
+What does it mean that variables inside functions are local?	They usually cannot be used outside that function.
+What is composition?	Combining function calls so the result of one is used by another.
+What is a Boolean function?	A function that returns True or False.
+Why are Boolean functions useful for validators?	They clearly answer yes/no questions.
+What does early return mean?	Returning as soon as the function knows the answer.
+Why are early returns useful?	They stop checking once a failure is found.
+What is function abstraction?	Hiding details inside a function so main code is cleaner.
+What is a parameter list?	The names inside parentheses in a function definition.
+What is an argument list?	The values inside parentheses in a function call.
+What is the difference between parameter and argument?	A parameter is the receiving name in the definition; an argument is the value passed in the call.
