@@ -1,0 +1,77 @@
+# Python Definitions
+
+- **Function** a reusable block of code that executes only when called.
+- **arguments** the actual values or objects you pass to a function when you call it.
+- **side effects** any observable change that a function makes to the program's state or environment beyond returning a value.
+- **bugs** an unexpected defect or flaw in code that leads to incorrect or unintended behavior.
+- **return values** the data a function sends to the point where it was called.
+- **variables** a symbolic name that acts as a reference or pointer to an object (like a number or a string) stored in computer memory.
+- **commments** non-executable lines used to explain code, clarify logi, or temporarily disable sections of a program. 
+- **pseudocode** an informal, high-level description of a computer program or algorithm intended for human reading rather than machine execution.
+- **str** refers to the built-in *string data type*, which is used to represent and manipulate textual data.
+- [Python Documents 3.*](https://docs.python.org/3/)
+- [Functions](docs.python.org/3/library/functions.html)
+- [Print function](docs.python.org/3/library/functions.html#print)
+- [String methods](docs.python.org/3/library/stdtypes.html#string-methods)
+- **int** a built-in data type (the integer class) or a built-in function used for type conversion.
+- **interactive mode** a way of using the Python interpreter where code is executed line-by-line with immediate feedback. Often referred to as **REPL** (Read-Eval-Print-Loop)
+- **float** a data type used to represent real numbers that contain a decimal point or are expressed in scientific notation.
+- [round function](docs.python.org/3/library/functions.html#round)
+- **round(number[, ndigits])** a built=in Python tool used to round a numeric value to a specific precision.
+
+---
+
+## Syntax
+
+- ```round(number, ndigits)```
+
+## Parameters
+
+- ```number``` (required):the numeric value(integer or float) you want to round.
+- ```ndigits``` (optional): The number of decimal places to round to.
+	- Positive integer: Rounds to the specified number of decimal places.
+	- Zero or ```none``` : rounds to the nearest whole integer
+	- Negative integer: Rounds to the left of the decimal point (eg., -1 rounds to the nearest 10, -2 to the nearest 100).
+
+## Return Value
+
+- If ```ndigits``` is omitted or ```none```, it returns an integer.
+- If ```ndigits``` is provided, it typically returns a **float** (or the same type as the input number).
+
+## Key Rounding Rule: "Round to Even"
+
+Python uses a strategy called **Bankers Rounding** (round half to even). If a number is exactly halfway between two integers, it rounds to the **nearest even** number.
+- ```round(0.5)``` results in 0.
+- ```round(1.5)``` results in 2.
+- ```round(2.5)``` results in 2.
+
+## Floating-Point Behavior
+
+Because most decimal fractions cannot be represented exactly in binary, some results may seem "wrong". For example, ```round(2.675, 2)``` might return ```2.67``` instead of ```2.68``` because the internal representation of ```2.675``` is slightly less than the actual value.
+
+---
+
+- **float** the data type used to represent decimal numbers and the built-in function used to create or convert those numbers.
+- **def** the keyword used to define a function.
+
+---
+
+- **scope** the textual region of a program where a name (like a variable, function, or class) is visible and can be accessed directly without a prefix.
+	-Python follows the **LEGB** rule to resolve names, searching through four nested levels of scope in a specific order:
+
+## The 4 Scopes (LEGB Rule)
+
+1. **Local (L)**: Names defined inside the current function or lambda expression.
+2. **Enclosing (E)**: Names in the local scope of any enclosing functions (relevant for nested functions or closures).
+3. **Global (G)**: Names defined at the top level of a module or script file.
+4. **Built-in (B)**: Special keywords and functions pre-loaded by Python (e.g., ```print```, ```len```,```range```).
+
+## Key Concepts
+
+-Namespaces: The actual implementation of scope, where Python stores names and their associated objects in a dictionary.
+- Access vs. Modification: By default, you can read variables from outer scopes but cannot modify them. To change a global variable inside a function, you must use the ```global``` keyword; for an enclosing scope variable, use ```nonlocal```.
+- Lifetime: A variable's lifetime is tied to its scope. For example, local variables are typically destroyed when the function finishes execution.
+- Block Scope: Unlike languages like C++ or Java, Python does not have  lock scope for ```if``` statements or ```for``` loops. Variables defined inside these blocks remain accessible outside them within the same function or module.
+
+---
+- **return**

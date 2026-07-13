@@ -7,7 +7,7 @@ status: live
 
 # CODEX.md — CASTLE Codex Pointer
 
-Primary Codex behavior lives in `G:\My Drive\.ROOT\00-BRAIN\CODEX.md`.
+Primary Codex behavior lives in `C:\Users\chris\.ROOT\00-BRAIN\CODEX.md`.
 AGENT.md governs all file safety and system rules.
 
 ## CASTLE Scope

@@ -13,8 +13,8 @@ tags: [reference, governance]
 
 Any AI session working in `CASTLE` loads, in this order:
 
-1. `G:\My Drive\.ROOT\00-BRAIN\AGENT.md` — universal OS: shared rules, file safety, session close
-2. `G:\My Drive\.ROOT\00-BRAIN\CLAUDE.md` — lane file (optional HATS\ mode if useful)
+1. `C:\Users\chris\.ROOT\00-BRAIN\AGENT.md` — universal OS: shared rules, file safety, session close
+2. `C:\Users\chris\.ROOT\00-BRAIN\CLAUDE.md` — lane file (optional HATS\ mode if useful)
 3. `wiki/index.md` — what exists in the castle
 4. Last 3 entries of `wiki/log.md` — what happened recently
 5. `wiki/north-star-roadmap.md` — the current pathway state
@@ -112,12 +112,13 @@ in `AGENT.md` before landing in `00-BRAIN` governance files.
 Run this alongside the weekly CASTLE sweep for `.ROOT\77-INBOX` and any approved capture folder.
 
 1. Scan the inbox for raw clippings, quick notes, unsorted ideas, and observations.
-2. Route only files with clear homes under `WHERE_IT_GOES.md`.
-3. Leave ambiguous files in place and add a `SYSTEM_FLAGS.md` entry instead of guessing.
-4. Confirm raw school material stays in the school/course system and is not converted into a business asset unless Chris explicitly asks for the conversion.
-5. Confirm reusable client-facing assets include APQC process, asset type, business use case, technical tags, maturity, source/context, and next action.
-6. Confirm `05-BUSINESS\06-Capability Library` holds only reusable client-facing assets, not wiki notes or general reference.
-7. Confirm no fake client-retainer folders were created before a real client, named prospect, or approved sandbox exercise.
+2. Capture filter: keep only what is useful, surprising, or tied to an open question — otherwise let it pass. Anti-hoarding heuristic for personal clippings only; consequential/technical/legal/audit sources still get full-source capture in wiki `raw/` regardless of this filter.
+3. Route only files with clear homes under `WHERE_IT_GOES.md`.
+4. Leave ambiguous files in place and add a `SYSTEM_FLAGS.md` entry instead of guessing.
+5. Confirm raw school material stays in the school/course system and is not converted into a business asset unless Chris explicitly asks for the conversion.
+6. Confirm reusable client-facing assets include APQC process, asset type, business use case, technical tags, maturity, source/context, and next action.
+7. Confirm `05-BUSINESS\06-Capability Library` holds only reusable client-facing assets, not wiki notes or general reference.
+8. Confirm no fake client-retainer folders were created before a real client, named prospect, or approved sandbox exercise.
 
 ## Session Close
 
@@ -133,4 +134,4 @@ Before ending any session that changed files:
 - Update `wiki/index.md` if pages were added/renamed
 - Append to `wiki/log.md`: date, what changed, next action
 - State the single next action for the following session
-
+- For project or meaningful learning sessions, use the full handoff (`AGENT.md § Report Chain and Handoff Ritual`) instead of just the next action — DAILY blocks stay concise regardless.

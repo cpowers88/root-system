@@ -1,0 +1,15 @@
+Why is if len(s) < 2 or > 6 incorrect?	Python needs the full comparison on both sides: if len(s) < 2 or len(s) > 6:
+Correct pattern for checking length between 2 and 6	if len(s) < 2 or len(s) > 6:
+Why is .startswith(s) wrong by itself?	A method needs an object before the dot, like s.startswith("A").
+Why is startswith not the best tool for “first two characters must be letters”?	Because startswith checks specific text, not whether characters are letters.
+How do I check whether the first character is a letter?	s[0].isalpha()
+How do I check whether the second character is a letter?	s[1].isalpha()
+How do I reject a plate if either of the first two characters is not a letter?	if not s[0].isalpha() or not s[1].isalpha(): return False
+Why is .split("") wrong for checking characters?	split cuts a string apart; it does not test whether characters are letters or numbers.
+What checks whether a whole string is letters and numbers only?	s.isalnum()
+Why can validator gates use separate if statements instead of elif?	Because return False exits the function immediately.
+Why is else not required at the end of a validator?	If every failed rule already returned False, the final line can be return True.
+What does return do inside a function?	It sends a value back and exits the function immediately.
+What does “method needs an object before the dot” mean?	Write object.method(), like s.isalpha(), not .isalpha().
+What is the plate validator pattern?	Check each rule. If any rule fails, return False. If no rules fail, return True.
+What is the fix when hard stuck on syntax?	Stop coding, name the action, then choose the Python tool for that action.

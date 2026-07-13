@@ -70,6 +70,7 @@ This business rarely dies from competition or technology; it dies from **self-in
 **Pattern:** the system works; the staff don't use it; renewal dies quietly.
 **Signal:** usage/adoption metrics falling after handoff; no named internal owner on the client side.
 **Countermeasure:** owner mandate secured pre-project ([[crm-and-sales-ops-pathway|CRM pathway]] delivery notes); training and 30-day check-in built into every handoff; adoption reported to the owner.
+**Third-party corroboration (added 2026-07-12):** WEF's Future of Jobs Report 2025 names organizational resistance to change as employers' #2-cited transformation barrier (46%) globally, second only to skills gaps and ahead of regulatory concerns (39%) — this isn't a Chris-specific risk, it's the documented #2 reason AI initiatives fail industry-wide.
 
 ## Tier 3 — Technical & External Risks
 

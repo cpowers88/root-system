@@ -460,3 +460,24 @@ tags: [reference]
   and a short Codex revalidation per the report's Single Next Action.
 - Next action: run the four validation passes named in the report's Correction Brief step 6,
   then return the result to Codex for revalidation.
+
+## 2026-07-12 (CASTLE review pass on AI_AUTOMATION_SYSTEMS proposals, Claude Code wearing the CASTLE hat)
+
+- Chris asked CASTLE to review the 7 proposals AI_AUTOMATION_SYSTEMS drafted from the docs-pack ingest +
+  full-system instruction audit. Ran the standard five-point discipline (why now/proof required/realm/next
+  action/return path) against each; verdicts split: 3 fast-tracked as-drafted, 1 fast-tracked with a
+  dedup fix, 1 partially applied (the half touching CASTLE's own OPERATIONS.md correctly held back — CASTLE
+  cannot self-approve its own operating-rule edits per its own stated rule), 1 needs a compact-rewrite pass,
+  1 deferred to Codex (undesigned, would be the first hook in `.ROOT`).
+- Notable: one of the seven proposals was CASTLE catching its own rule violation — `OPERATIONS.md` says
+  CASTLE is not the landscape-research layer, but CASTLE did exactly that research in place this morning
+  (both docs packs ingested directly in `CASTLEawooks\`). The low-risk half of the fix (a
+  `WHERE_IT_GOES.md` raw-intake rule) is now live; the boundary-reinforcement half of `OPERATIONS.md` itself
+  stays pending Chris's direct call, correctly, per CASTLE's own change-approval rule.
+- Files changed: `00-BRAIN\AGENT.md`, `00-BRAIN\CLAUDE.md`, `00-BRAIN\WHERE_IT_GOES.md`, four skill-file
+  copies (2 edited, 2 new), four `AI_AUTOMATION_SYSTEMS\wiki\proposals\` status updates. Full detail:
+  `AI_AUTOMATION_SYSTEMS\wiki\log.md` (session 18).
+- Result: shipped for the fast-tracked four; three items remain open (eval-gate rewrite, OPERATIONS.md
+  triage-latitude call, session-close hook design).
+- Next action: draft the compact eval-gate wording; Chris decides OPERATIONS.md triage latitude; Codex picks
+  up the hook design in its next audit pass.

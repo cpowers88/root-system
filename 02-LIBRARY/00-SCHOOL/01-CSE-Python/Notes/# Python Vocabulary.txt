@@ -1,0 +1,50 @@
+# Python Vocabulary
+
+## Short definitions
+
+- **function** a tool that performs a specific task.
+- **string** is text
+- **variable** label used to store and retrieve a value.
+	- **Value** is the thing stored inside the bucket. The information stored inside a variable.
+	- **'='** is the assignment operator, it stores the value to the variable
+- **Argument** information supplied to a function.
+- **Input** information provided by the user to the program.
+- **Output** information produced by the program.
+- **Method** is a tool attached to a specific kind of thing.
+- **Def** is a way to def a function for specific program.
+- **Integer** a whole number
+- **Expression** piece of code that produces a value
+- **Operator** symbol that performs an operation, like multiplication
+- **formatted string** 'f' means this is a formatted string
+- **Return** is value sent out of function
+- **Conditional** code that makes a decision.
+	**basic conditional ladder**
+	- **if** conditional statement for program.
+	- **elif** "else if", if previous statement is false go check something else.
+	- **else** block that runs if all earlier conditions were false. the fallback
+	- **or** checks whether at least one condition is true
+	- **and** both conditions must be true
+- **Boolean** - a 'true' or 'false' answer.
+- **Comparision operator** compares two values
+	- **'=='** equal to
+	- **'!='** not equal to
+- **Modulo** gives the remainder after division. '%' 
+- **Remainder** what is left over after dividing evenly.
+- **Parity** whether a number is even or odd.
+	- *parity rule* \\\python
+			if number % 2 == 0:
+				print("even")
+			else:
+				print("odd")
+			\\\
+
+- **match** starts a decision structure based on one value.
+- **case** one possible match inside that structure.
+- **case _:** is the default case - fallback shelf when nothing else matches.
+- **Normalization** makes '"Forty Two"' and '"forty two"' easier to treat the same
+- **.strip()** removes extra spaces from the front and back
+- **.lower()** makes the text lowercase
+- **.startswith()** checks the first few letters of a label
+- **.endswith()** checks the last few letters of a label
+- **.split()** breaks a string into smaller pieces
+

@@ -1,0 +1,64 @@
+# Programming as a way of thinking
+
+The first goal of this book is to teach you how to program in Python.
+But learning to program means learning a new way to think, so the second goal of this book is to help you think like a computer scientist.
+This way of thinking combines some of the best features of mathematics, engineering, and natural science.
+Like mathematicians, computer scientists use formal languages to denote ideas -- specifically computations.
+Like engineers, they design things, assembling components into systems and evaluating trade-offs among alternatives.
+Like scientists, they observe the behavior of complex systems, form hypotheses, and test predictions.
+
+We will start with the most basic elements of programming and work our way up.
+In this chapter, we'll see how Python represents numbers, letters, and words.
+And you'll learn to perform arithmetic operations.
+
+You will also start to learn the vocabulary of programming, including terms like operator, expression, value, and type.
+This vocabulary is important -- you will need it to understand the rest of the book, to communicate with other programmers, and to use and understand virtual assistants.
+
+## Arithmetic operators
+
+An **arithmetic operator** is a symbol that represents an arithmetic computation. For example, the plus sign, `+`, performs addition.
+
+30 + 12
+
+The minus sign, `-`, is the operator that performs subtraction.
+
+43 - 1
+
+The asterisk, `*`,  performs multiplication.
+
+6 * 7
+
+And the forward slash, `/`, performs division:
+
+84 / 2
+
+Notice that the result of the division is `42.0` rather than `42`. That's because there are two types of numbers in Python: 
+
+* **integers**, which represent numbers with no fractional or decimal part, and 
+
+* **floating-point numbers**, which represent integers and numbers with a decimal point.
+
+If you add, subtract, or multiply two integers, the result is an integer.
+But if you divide two integers, the result is a floating-point number.
+Python provides another operator, `//`, that performs **integer division**.
+The result of integer division is always an integer.
+
+84 // 2
+
+Integer division is also called "floor division" because it always rounds down (toward the "floor"). 
+
+85 // 2
+
+Finally, the operator `**` performs exponentiation; that is, it raises a
+number to a power:
+
+7 ** 2
+
+In some other languages, the caret, `^`, is used for exponentiation, but in Python
+it is a bitwise operator called XOR.
+If you are not familiar with bitwise operators, the result might be unexpected:
+
+7 ^ 2
+
+I won't cover bitwise operators in this book, but you can read about
+them at <http://wiki.python.org/moin/BitwiseOperators>.

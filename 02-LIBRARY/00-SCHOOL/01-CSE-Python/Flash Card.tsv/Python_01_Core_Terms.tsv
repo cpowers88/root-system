@@ -1,0 +1,37 @@
+Front	Back
+What is a program?	A set of instructions a computer can execute.
+What is code?	Text written in a programming language that tells the computer what to do.
+What is Python?	A programming language that an interpreter can run.
+What is the Python interpreter?	The program that reads Python code and runs it.
+What is a terminal?	A command-line place where you can run commands like python hello.py.
+What is VS Code?	A text editor used to write code, browse files, and run terminal commands.
+What is a function?	A reusable tool/action that performs a specific task.
+What is a function call?	Using a function by writing its name followed by parentheses.
+What is an argument?	A value passed into a function call.
+What is a parameter?	A variable name inside a function definition that receives an argument.
+What is a variable?	A label that stores a value.
+What is a value?	Actual data used by a program, such as 5 or 'Chris'.
+What is a type?	The category of a value, such as string, int, float, or bool.
+What is a string?	Text data inside quotes.
+What is an integer?	A whole number.
+What is a float?	A number with a decimal point.
+What is a Boolean?	A True or False value.
+What is an expression?	Code that produces a value.
+What is a statement?	A line of code that performs an action.
+What is syntax?	The exact grammar Python requires.
+What is a bug?	A mistake or problem in code.
+What is debugging?	Finding and fixing errors in code.
+What is input?	Information the user gives the program.
+What is output?	Information the program gives back.
+What does print() do?	Displays output on the screen.
+What does input() do?	Asks the user for text and returns that text as a string.
+What does len() do?	Counts how many items are in something, such as characters in a string.
+What does int() do?	Converts a value into an integer when possible.
+What does float() do?	Converts a value into a decimal number when possible.
+What does str() do?	Converts a value into a string.
+What is a comment?	Text in code ignored by Python, used to explain intent.
+What symbol starts a comment in Python?	#
+What is pseudocode?	Plain-English planning written before real code.
+What is readability?	How easy code is for humans to read and understand.
+What is indentation?	Spaces at the start of a line that show what code belongs inside a block.
+Why does indentation matter in Python?	Python uses indentation to decide which lines belong inside if statements, loops, and functions.

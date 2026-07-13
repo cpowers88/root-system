@@ -5,12 +5,13 @@ tags: [reference]
 
 # LOCAL_MACHINE_MAP.md — Local Machine Inventory (reference snapshot)
 ### Moved out of vault_map.md July 11, 2026 (slim pass). Environment inventory, not vault governance — load only when local-machine placement matters.
-### Snapshot verified June 14, 2026 (WizTree scan) — recheck against the live tree before relying on file-level detail.
+### Local-root cutover: July 13, 2026. Recheck against the live tree before relying on file-level detail.
 
 ```
-C:\ (NVMe 954GB — Windows + apps only)
+C:\ (NVMe 954GB — Windows, apps, and the live .ROOT workspace)
 ├── Program Files\   ← installed apps including AutoCAD 2027
-├── Users\chris\     ← Windows user profile only — do not store work here
+├── Users\chris\
+│   └── .ROOT\        ← canonical working tree; all AI sessions and Obsidian use this copy
 └── Windows\
 
 D:\ (SATA SSD 1.8TB — storage only)
@@ -22,8 +23,10 @@ D:\ (SATA SSD 1.8TB — storage only)
 └── ARCHIVE\         ← cold storage
 ```
 
-G: = Google Drive stream (no local mirror of the system).
+Google Drive backup: `C:\Users\chris\.ROOT` is synced by Drive for desktop under
+**Computers → this PC → .ROOT**. `G:\My Drive\.ROOT` is a retained legacy recovery
+snapshot only; neither cloud location is a working tree or AI boot target.
 
 Standing rules that involve the local machine:
-- Real code (anything with a repo, venv, or node_modules) lives at `D:\DEV` + GitHub, never Drive (WHERE_IT_GOES.md § Format Rules).
-- `C:\Users\chris\` holds no system content — past local mirrors there were duplicates and were deleted.
+- Real code (anything with a repo, venv, or node_modules) lives at `D:\DEV` + GitHub, never in the vault or its cloud backup (WHERE_IT_GOES.md § Format Rules).
+- `C:\Users\chris\.ROOT\` is the sole exception to the normal no-work-in-profile rule; it is the live vault, not a mirror.

@@ -10,7 +10,7 @@ tags: [reference, school]
 General KSU coursework support for subjects without their own wiki — TCOM, ECON, ENGR today. Python/CS lives in `03-WIKIS\PYTHON`; Physics lives in `03-WIKIS\PHYSICS`.
 
 ## Start Here
-`wiki/index.md`, once a course activates and gets its own `current-position.md`. Until then, this section is the start — there is nothing deeper to open yet.
+`wiki/current-position.md` for the live per-course status, then `wiki/index.md` for the page inventory.
 
 ## Standard Work Loop
 ```text
@@ -33,7 +33,7 @@ A course activates this wiki the first time Chris brings it real material; from 
 Once a course is active: update that course's `current-position.md`, append `wiki/log.md`, state the next study action.
 
 ## Current State
-No course has activated material here yet as of July 12, 2026 — by design, not drift. TCOM, ECON, and ENGR are the candidates once Fall 2026 coursework needs staged support (semester starts Aug 24).
+Fall 2026 course-support scaffold is live for TCOM 2010, ECON 1000, and ENGR 1000 — see `wiki/current-position.md`. Two pages exist (`fall-2026-course-briefs.md`, `ai-programs-us-2026.md`); D2L-sourced material replaces the recycled/prior-syllabus brief once the semester opens Aug 24.
 
 ## Last Updated
-July 12, 2026 — normalized to the shared seven-wiki skeleton; reworded the current-state line so it reads as a live status, not a stale label. Color language: `G:\My Drive\.ROOT\START_HERE.md`.
+July 13, 2026 — local-root cutover: canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.

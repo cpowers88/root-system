@@ -1,0 +1,31 @@
+Front	Back
+What is a conditional?	Code that lets a program choose a path based on True or False conditions.
+What does if do?	Runs code only if its condition is True.
+What does elif mean?	Else if; checks another condition only if earlier conditions failed.
+What does else do?	Runs as the fallback when no earlier if or elif condition was True.
+Is else a loop exit?	No. else is a fallback branch in a decision structure.
+What is a condition?	An expression that evaluates to True or False.
+What does == mean?	Checks whether two values are equal.
+What does = mean?	Assigns the value on the right into the variable on the left.
+What does != mean?	Checks whether two values are not equal.
+What does < mean?	Less than.
+What does > mean?	Greater than.
+What does <= mean?	Less than or equal to.
+What does >= mean?	Greater than or equal to.
+What does and mean?	Both conditions must be True.
+What does or mean?	At least one condition must be True.
+What does not mean?	Reverses True to False or False to True.
+What is control flow?	The order and path Python follows while running code.
+What is a Boolean expression?	An expression that evaluates to True or False.
+What is chained conditional logic?	An if / elif / else structure with multiple possible paths.
+What is nested conditional logic?	A conditional placed inside another conditional.
+What does return False usually mean in a validator?	This input failed a rule.
+What does return True usually mean in a validator?	This input passed all rules.
+Why can validator gates use repeated if statements?	Because return False exits the function immediately when a rule fails.
+What is the correct pattern for length outside 2 to 6?	if len(s) < 2 or len(s) > 6:
+How do I reject if first two characters are not letters?	if not s[0].isalpha() or not s[1].isalpha(): return False
+What is modulo?	The % operator; it gives the remainder after division.
+How do I check if n is even?	if n % 2 == 0:
+How do I check if n is odd?	if n % 2 != 0:
+What does match do?	Compares one value against multiple cases.
+When should I prefer if/elif over match early on?	When practicing basic condition logic or checking ranges/Boolean expressions.

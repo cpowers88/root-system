@@ -1,0 +1,21 @@
+Front	Back
+What is a library?	Reusable code written by you or others that you can use in a program.
+What is a module?	A Python file or package containing reusable functions, classes, or values.
+What does import do?	Loads a module so you can use its tools.
+What does from module import name do?	Loads one specific name from a module.
+What is the difference between import random and from random import choice?	import random requires random.choice(); from random import choice lets you write choice().
+I want to randomly choose one item from a list. What function can I use?	random.choice(seq)
+I want a random integer between a and b. What function can I use?	random.randint(a, b)
+I want to shuffle a list in place. What function can I use?	random.shuffle(x)
+What does 'in place' mean?	The object itself is changed instead of returning a new object.
+Does random.shuffle return a new list?	No. It changes the original list in place.
+What is a package?	A collection of modules.
+What is pip?	A tool for installing Python packages.
+What is an API in simple terms?	A way for one program to request or use data/services from another system.
+What is sys.argv?	A list of command-line arguments passed to a Python program.
+What is a command-line argument?	Extra information typed after a command when running a program.
+What does slice mean in Python?	Taking part of a sequence using index range.
+What is statistics.mean(values)?	A function that returns the average of numeric values.
+Why use libraries?	To reuse tested tools instead of rebuilding everything from scratch.
+What is the risk of importing more than needed?	It can make code less clear and sometimes heavier than necessary.
+What is a namespace?	A container of names that helps avoid naming conflicts.

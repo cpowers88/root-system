@@ -42,4 +42,4 @@ Log the rep in `wiki/log.md`; update `TECHNOLOGY_LIBRARY_STRATEGY.md`'s Current 
 - "What's new in [category] since I last checked?" → this wiki's landscape pages once reps accumulate them
 
 ## Last Updated
-July 12, 2026 — normalized to the shared seven-wiki skeleton; named `TECHNOLOGY_LIBRARY_STRATEGY.md`'s Current State section as the single canonical current-frontier entry. Color language: `G:\My Drive\.ROOT\START_HERE.md`.
+July 13, 2026 — local-root cutover: canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.

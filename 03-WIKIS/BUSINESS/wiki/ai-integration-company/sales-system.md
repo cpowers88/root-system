@@ -28,6 +28,16 @@ Faster lead response · less owner dependency · fewer missed tasks · cleaner C
 
 ## Why It Matters
 Delivery skill without a sales system is a hobby. Most technical founders fail here — not because selling is hard, but because they do it sporadically, apologetically, and without a script. A system (fixed channels, fixed cadence, fixed conversation structure) removes the daily decision of *whether* to sell. See [[risks-and-failure-modes|Risks & Failure Modes]] — inconsistent pipeline is failure mode #1.
+- **Consulting is a "credence" purchase** (Ch.12, *Principles of Marketing*, intake 2026-07-12): unlike a product, a client can't fully judge the quality of an audit or build even after buying it — they have to trust the seller going in. This is *why* [[case-study-template|proof content]] and warm referrals carry outsized weight in the channel list below, more than for a business selling something inspectable before purchase.
+
+## Who You're Actually Selling To (added 2026-07-12, *Principles of Marketing* Ch.7, pp.330-333)
+The Sales Conversation below assumes a single owner-buyer. That holds for the smaller end of [[market-map|Market Map]]'s range, but toward the upper end (up to 200 employees) a real "buying center" often exists — up to ~4 distinct roles that rarely show up on an org chart:
+- **Initiator** — the person who first raises "we have a problem here" (often not the owner — an office manager or ops lead).
+- **Influencer/evaluator** — sets the criteria the audit gets judged against.
+- **Gatekeeper** — controls Chris's access to the owner (often the same office manager).
+- **Decider / purchaser** — signs and pays; usually still the owner at this size, but not always.
+
+C-level buyers specifically screen vendors for: ability to marshal resources on the client's behalf, demonstrated understanding of the buyer's actual business goals (not just the technology), responsiveness, and willingness to be held accountable. Practical read: in a discovery call at a larger prospect, ask directly "who else should be in this conversation?" before assuming the person on the phone is the sole decision-maker — missing the gatekeeper or influencer is a common reason a well-run discovery call still doesn't close.
 
 ## Channels (In Priority Order)
 

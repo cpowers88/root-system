@@ -1,0 +1,69 @@
+# Longer Vocabulary Python
+
+## Section 1 — Conditionals
+
+- **Conditional**: code that lets a program make a decision.
+  - Plain English: “If this is true, do this. Otherwise, do something else.”
+  - Construction anchor: If the board is cracked, replace it. Otherwise, use it.
+  - Example:
+    ```python
+    if x < y:
+        print("x is less than y")
+    ```
+
+- **Boolean**: a value that is either `True` or `False`.
+  - Plain English: a yes/no answer inside Python.
+  - Construction anchor: an inspection checkbox — pass/fail, yes/no, true/false.
+  - Example:
+    ```python
+    x < y
+    ```
+    This comparison produces a Boolean: either `True` or `False`.
+
+- **Comparison operator**: a symbol that compares two values.
+  - Plain English: it asks a question about how two values relate.
+  - Construction anchor: measuring two boards and asking, “Are they equal?” or “Is this one longer?”
+  - Examples:
+    ```python
+    <
+    >
+    <=
+    >=
+    ==
+    !=
+    ```
+
+- **Assignment operator**: the single equals sign `=`, used to store a value in a variable.
+  - Plain English: “Put this value into this bucket.”
+  - Construction anchor: labeling a bucket and putting material inside it.
+  - Example:
+    ```python
+    x = 5
+    ```
+
+- **Equality operator**: the double equals sign `==`, used to compare whether two values are equal.
+  - Plain English: “Are these two things the same?”
+  - Construction anchor: checking whether two boards are the same length.
+  - Example:
+    ```python
+    x == y
+    ```
+
+- **Indentation**: the spaces at the beginning of a line that show which code belongs inside a block.
+  - Plain English: indentation tells Python what is inside the `if`.
+  - Construction anchor: everything indented is inside the framed room; unindented code is outside the room.
+  - Example:
+    ```python
+    if x < y:
+        print("x is less than y")
+    ```
+
+- **Code block**: a group of lines that belong together under a statement like `if`, `else`, or a function.
+  - Plain English: the code block is the work that happens if the condition is true.
+  - Construction anchor: a framed room inside the house; everything inside that room belongs together.
+  - Example:
+    ```python
+    if x < y:
+        print("x is less than y")
+    ```
+    The indented `print()` line is the code block.

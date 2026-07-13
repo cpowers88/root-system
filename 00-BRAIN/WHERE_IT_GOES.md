@@ -13,7 +13,7 @@ tags: [reference, governance]
 ## Realm Check First
 
 This file governs placement **inside .ROOT**. If the content belongs to another
-realm entirely, route it there first — realm-level routing authority is `G:\My Drive\CLAUDE.md`:
+realm entirely, route it there first — the live workspace entry is `C:\Users\chris\.ROOT\CLAUDE.md`:
 
 ```
 Roadmap, phase, skill sequencing, proof-project status? → CASTLE\
@@ -131,6 +131,13 @@ once in `00-BRAIN\AGENT.md § Wiki Shared Layer`.
 TECHNOLOGY's `ai-and-llm/` subfolder is closed inherited reference.
 `02-LIBRARY\08-AI-AUTOMATION` is an artifact/reference home, not a wiki
 intake lane.
+
+**Raw-intake rule:** if source material lands in `00-BRAIN\CASTLE\raw\`
+that matches a `03-WIKIS` hub's charter (e.g., AI/LLM/agent docs), relocate
+it to that hub's own `raw/` before processing — do not ingest it in place.
+CASTLE's `raw\` is a triage/staging point, not a permanent intake lane;
+CASTLE orients and sequences, it does not do a wiki's primary research
+(`00-BRAIN\CASTLE\OPERATIONS.md`).
 
 When wiki knowledge becomes a client-facing or system artifact, the artifact
 lives in the normal Second Brain location:

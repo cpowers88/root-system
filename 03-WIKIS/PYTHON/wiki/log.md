@@ -833,3 +833,28 @@ None new.
 
 ### Next action
 Unchanged: Stage 1 (Python atoms) output rep per current-position.md.
+
+## 2026-07-13 — Stage 1 verified complete; advanced to Stage 2
+
+### Work completed
+- Chris worked Stage 1 independently with Codex on 2026-07-12, outside this vault's own generated packet — real code in `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\` (`starter_prompt.py`, `variables.py`, `expressions.py`, `types.py`). This session verified it rather than assuming code-that-runs equals mastery: Chris explained why `int()`/`float()` conversions were needed before use, correctly predicted then confirmed a live `TypeError` from `age + 5` on an unconverted string (read and explained the traceback), and correctly reasoned through `+`-string-concatenation vs. f-string mechanics after one correction.
+- `starter_prompt.py` satisfies the Stage 1 About Me mini-project spec (input, conversion, calculation, formatted output). `variables.py` also showed early reassignment/accumulator-pattern exposure (Stage 3 territory) with no confusion.
+- Stage 1 marked satisfied. Advanced current study stage to Stage 2 (Decisions and Boolean Logic).
+
+### Pages created/updated
+`current-position.md`, `learning-path.md`, `index.md` (all three: Stage 1 marked satisfied with evidence, current stage moved to Stage 2). This log.
+
+### Vocabulary added
+None new — Stage 1 vocabulary confirmed via explain-back, not re-taught.
+
+### Drills or projects added
+None new this session; Stage 1's existing mini-project was satisfied by Chris's own independent work.
+
+### Progress evidence
+First real study-progress movement past Stage 0 since the vault's creation (2026-06-24). Verified via targeted explain-back and a live error-reading check, not assumed from working code alone.
+
+### Parked material
+None new.
+
+### Next action
+Begin Stage 2 (Decisions and Boolean Logic) teaching session per `wiki/stages/stage-02-decisions-and-boolean-logic.md`.

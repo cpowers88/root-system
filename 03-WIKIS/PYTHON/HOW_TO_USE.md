@@ -47,4 +47,4 @@ Two tracked lanes, both early: CS50P through PS2 (loops), and this wiki's staged
 - *Pre-semester*: "Which stages map to CSE 1321 module 3?" → targeted review list.
 
 ## Last Updated
-July 12, 2026 — normalized to the shared seven-wiki skeleton. Color language: `G:\My Drive\.ROOT\START_HERE.md`.
+July 13, 2026 — local-root cutover: canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.

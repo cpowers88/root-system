@@ -1,0 +1,56 @@
+Front	Back
+I want to show text on the screen. What tool do I use?	print()
+I want to ask the user for text. What tool do I use?	input()
+I want to store a value for later. What tool do I use?	A variable.
+I want to assign a value to a variable. What operator do I use?	=
+I want to compare whether two values are equal. What operator do I use?	==
+I want to check whether two values are not equal. What operator do I use?	!=
+I want to turn text input into an integer. What pattern do I use?	int(input(...))
+I want to turn text into a decimal number. What tool do I use?	float(...)
+I want to count the characters in a string. What tool do I use?	len(s)
+I want to check if something is too short. What pattern do I use?	if len(s) < minimum:
+I want to check if something is too long. What pattern do I use?	if len(s) > maximum:
+I want to check if something is outside a length range. What pattern do I use?	if len(s) < minimum or len(s) > maximum:
+I want to look at the first character of a string. What syntax do I use?	s[0]
+I want to look at the second character of a string. What syntax do I use?	s[1]
+I want to look at the last character of a string. What syntax do I use?	s[-1]
+I want to get the first two characters of a string. What syntax do I use?	s[:2]
+I want everything after the first two characters. What syntax do I use?	s[2:]
+I want to check if a character is a letter. What method do I use?	.isalpha()
+I want to check if a character is a digit. What method do I use?	.isdigit()
+I want to check if a whole string is only letters and numbers. What method do I use?	.isalnum()
+I want to check if a string starts with specific text. What method do I use?	.startswith()
+I want to check if a string ends with specific text. What method do I use?	.endswith()
+I want to remove spaces from the outside of user input. What method do I use?	.strip()
+I want to convert text to lowercase. What method do I use?	.lower()
+I want to convert text to uppercase. What method do I use?	.upper()
+I want to split a string at a colon. What syntax do I use?	s.split(':')
+I want to check whether text contains a character. What operator do I use?	in
+I want to check whether text does not contain a character. What operator do I use?	not in
+I want to make a decision in code. What keyword do I use?	if
+I want to check another condition after the first one fails. What keyword do I use?	elif
+I want a fallback when no condition is true. What keyword do I use?	else
+I want both conditions to be true. What operator do I use?	and
+I want at least one condition to be true. What operator do I use?	or
+I want to reverse True and False. What operator do I use?	not
+I want to repeat code while a condition remains true. What loop do I use?	while
+I want to repeat code once for each item in a sequence. What loop do I use?	for
+I want to go through every character in a string. What pattern do I use?	for char in s:
+I want to go through numbers 0, 1, 2. What pattern do I use?	for i in range(3):
+I want to stop a loop early. What keyword do I use?	break
+I want to skip to the next loop cycle. What keyword do I use?	continue
+I want to remember whether something has happened. What do I use?	A flag variable.
+I want to remember that numbers have started. What variable could I use?	number_started = False
+I want to reject an invalid input immediately. What syntax do I use?	return False
+I want to accept input only after all checks pass. What syntax do I use?	return True
+I want to define my own reusable tool. What keyword do I use?	def
+I want to send a value back from a function. What keyword do I use?	return
+I want to format a value inside a string. What syntax do I use?	f'hello, {name}'
+I want to add one to a counter. What shortcut can I use?	i += 1
+I want to subtract one from a counter. What shortcut can I use?	i -= 1
+I want to test if a number is even. What pattern do I use?	if n % 2 == 0:
+I want the remainder after division. What operator do I use?	%
+I want to create an empty list. What syntax do I use?	items = []
+I want to add one item to a list. What method do I use?	items.append(value)
+I want to sort values without changing the original list. What function do I use?	sorted(items)
+I want to sort a list in place. What method do I use?	items.sort()

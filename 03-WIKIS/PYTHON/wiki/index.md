@@ -18,11 +18,11 @@ tags: [now, programming]
 
 ## Stage Pages
 
-Generated curriculum exists through Stage 10, but Chris's current study stage is Stage 1.
+Generated curriculum exists through Stage 10, but Chris's current study stage is Stage 2.
 
 - [[stages/stage-00-setup-and-orientation]] — satisfied
-- [[stages/stage-01-python-atoms]] ← start here (current study stage)
-- [[stages/stage-02-decisions-and-boolean-logic]]
+- [[stages/stage-01-python-atoms]] — satisfied 2026-07-13
+- [[stages/stage-02-decisions-and-boolean-logic]] ← start here (current study stage)
 - [[stages/stage-03-loops-and-repetition]]
 - [[stages/stage-04-functions-parameters-return]]
 - [[stages/stage-05-data-shapes]]

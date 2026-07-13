@@ -58,14 +58,29 @@ Act on clear operational requests: read the necessary source material, apply fil
 5. Maps are claims, not truth. When exact file truth matters, check the live tree.
 6. WHERE_IT_GOES.md is placement and naming authority. Do not copy its tables elsewhere.
 7. SYSTEM_FLAGS.md is mandatory for system, Drive, file-write, and review sessions.
-8. Private boundary: `G:\My Drive\88-JOURNAL\` is never read by AI.
+8. Private boundary: `.ROOT\88-JOURNAL\` is never read by AI. It is protected by path-independent tool and sandbox denies; its G: copy is backup only.
 9. Raw boundary: every `raw\` folder is immutable unless Chris explicitly instructs otherwise.
 10. Archive, do not delete. Nothing gets deleted from the system; it gets archived.
 
 System files include AGENT.md, CLAUDE.md, CODEX.md, ATLAS.md, CHRIS_CORE.md, CHRIS.md, `HATS\`, vault_map.md, WHERE_IT_GOES.md, SYSTEM_FLAGS.md, NORTH_STAR.md, templates, section operating files, and project instructions.
 
+Editing a system file mid-session does not take effect for that session — it was already loaded at launch and stays cached until `/clear`, `/compact`, or a restart. A session that both edits a system file and needs to verify the new behavior in the same sitting should `/clear` or start fresh rather than trusting its own live state.
+
 ## Wikis and CASTLE Boundary
 `03-WIKIS\` holds SYSTEMS, PYTHON, EDUCATION, PHYSICS, BUSINESS, TECHNOLOGY, and AI_AUTOMATION_SYSTEMS. CASTLE lives at `00-BRAIN\CASTLE\` and owns `.ROOT\NOW.md`. Each wiki governs content inside itself. AGENT.md governs shared behavior everywhere. Hat files live under `00-BRAIN\HATS\`.
+
+## Extension Trigger Table
+When deciding whether a repeated pattern earns a new skill, hook, or tool, match the symptom, not a vague sense that "this should be reusable":
+
+| Trigger | Add |
+|---|---|
+| Claude gets a convention or command wrong twice | CLAUDE.md / lane-file entry |
+| You keep typing the same prompt to start a task | User-invocable skill |
+| You paste the same multi-step playbook a third time | Skill |
+| You keep copying data from somewhere Claude can't see | MCP server |
+| A side task floods your conversation with output you won't need again | Subagent |
+| You want something to happen every time, no exceptions | Hook |
+| A second repo needs the same setup | Plugin |
 
 ## Wiki Shared Layer
 1. Raw is immutable.
@@ -80,7 +95,7 @@ System files include AGENT.md, CLAUDE.md, CODEX.md, ATLAS.md, CHRIS_CORE.md, CHR
 
 ## Agent Evaluation Gate
 1. Start with one agent or a deterministic workflow. Add agents only when representative evals show a specific single-agent failure.
-2. Before a recurring or consequential workflow runs unsupervised, test at least five cases: typical, edge, adversarial/injection, permission-boundary, and failure/recovery.
+2. Before a recurring or consequential workflow runs unsupervised, test typical, edge, and failure/recovery cases as the floor for any workflow — then add cases matching what's actually new: tool-selection/data-precision once tools are involved, handoff-accuracy once multiple agents are involved, adversarial/permission-boundary once anything sensitive is touched.
 3. Review the full action trace: model decisions, tool selection, arguments, outputs, approvals, handoffs, and final result. A polished final answer cannot hide a bad trace.
 4. Consequential actions remain human-approved: deletion/archive batches, external messages or publication, money, credentials, private data, calendar commitments, and governance changes.
 5. Record pass/fail evidence in the DAILY block. Regressions stop autonomy and return the workflow to supervised use.
@@ -91,6 +106,8 @@ CSE 1321 and ENGR 1000 prohibit AI on submitted coursework unless course policy 
 ## Report Chain and Handoff Ritual
 Every meaningful session appends to today's `00-BRAIN\Session_Logs\DAILY_YYYY-MM-DD.md`. Create from `DAILY_TEMPLATE.md` if needed. Append only. Day end sequence: DAILY blocks → Day Summary → one handoff per AI/lane used that day. Mid-day handoff fires when Chris says `have to run` or another AI continues same-day work.
 
+Every handoff (not the concise DAILY block — the handoff itself) states four things: **current state**, **open question or blocker**, **next exact action**, and **details likely to be forgotten** (fragile context — a workaround, an odd file state, a half-decided judgment call — that won't survive to next session unless written down now). This is the canonical definition; lane files reference it rather than restating it.
+
 ## Review Cadence
 Daily task reports feed handoffs. Handoffs and dailies feed Sunday weeklies. Four weeklies feed monthly reviews. Quarterlies update the Ratchet. Logs record experience; they do not create permanent rules. Stable repeated lessons promote through reviews; HIGH flags never wait.
 
@@ -98,7 +115,7 @@ Daily task reports feed handoffs. Handoffs and dailies feed Sunday weeklies. Fou
 When Chris asks, or rough language needs converting for a professor, client, or official contact: give the raw version, a professional-direct version, and a one-line tone note. Direct, clear, receivable — no fake corporate polish. Any engine may run this.
 
 ## Graph Color Maintenance
-Categorical graph colors live in `.obsidian\graph.json`, generated from `00-BRAIN\COLOR_MAP.yaml`. Sequential priority uses tag and path filters in graph search. Never hand-edit graph colorGroups. Change `COLOR_MAP.yaml`, then run `00-BRAIN\scripts\build_graph_colors.py`.
+Rarely needed — see the `graph-colors` skill (`.claude\skills\graph-colors\`) rather than editing `.obsidian\graph.json` directly.
 
 ## Danger Weeks Protocol
 October 5 through November 11, 2026 is school only. No business strategy, new project planning, system expansion, CASTLE expansion, or watchtower expansion. Allowed: school schedule, assignment triage, professor communication, class file organization, subject teaching, and practice.

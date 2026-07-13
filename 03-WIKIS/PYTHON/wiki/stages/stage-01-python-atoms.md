@@ -9,6 +9,12 @@ support_sources: ["Automate the Boring Stuff Ch.1", "Python Crash Course Ch.2", 
 
 # Stage 01 — Python Atoms
 
+## At a Glance
+- **Core claim:** every later stage (decisions, loops, functions, data structures) is built entirely out of values, variables, strings, numbers, `print()`/`input()`, and type conversion — this is the load-bearing stage.
+- **When to use it:** this is Chris's current active study stage (per `wiki/current-position.md`) — open this page to see what to read, practice, and drill next.
+- **Decision/action it supports:** whether to move to Stage 2 — gated by the Mastery Checklist below, not by content existing.
+- **Key risk:** treating a generated packet as mastery. Stages 2-10 already have full packets built but are NOT yet studied — don't skip ahead because the content exists.
+
 ## Purpose
 
 Learn the smallest building blocks of a Python program: values, expressions, variables, assignment, strings, numbers, `print()`, `input()`, and type conversion.

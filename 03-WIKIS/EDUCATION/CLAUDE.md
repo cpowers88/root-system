@@ -44,7 +44,7 @@ raw/          # syllabi, course policies, reference material — immutable
 wiki/
   index.md
   log.md
-  current-position.md   # per-course status once a course activates here
+  current-position.md   # live per-course status (TCOM/ECON/ENGR, Fall 2026)
 ```
 
 Build out `concepts/`, `glossary/`, `flashcards/`, `drills/` per course only when

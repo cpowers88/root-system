@@ -5,6 +5,23 @@ tags: [log]
 
 # AI_AUTOMATION_SYSTEMS Wiki — Log
 
+## 2026-07-12 (session 15) — Building a Second Brain promoted from 77-INBOX + report recommendations implemented
+
+Chris asked for the `BUILDING_A_SECOND_BRAIN_ROOT_STRUCTURE_REPORT_2026-07-12.md` findings turned into an approvable plan, then approved it. Verdict: the book validates `.ROOT`'s existing CODE/PARA-equivalent architecture — no structural rebuild. Implemented, in order:
+
+- **Pass 0 (prerequisite):** verified all four corrections from `ROOT_OPERATING_INSTRUCTIONS_VALIDATION_2026-07-12.md` were already resolved by an earlier same-day session; re-ran `validate_boot_chain.py` (PASS), `wiki_lint.py` (0 blockers), `frontmatter_audit.py` (baseline-consistent) to confirm the fix actually holds rather than trusting the log entry alone.
+- **Pass 1:** capture-quality filter added to `CASTLE\OPERATIONS.md`'s Weekly Inbox Routing Checklist; the Hemingway Bridge merged into the existing Handoff Ritual (canonical definition now in `AGENT.md`, `CLAUDE.md` trimmed to a pointer — avoided creating a second overlapping handoff structure); a `SKILL: Project Kickoff` added to `HAT_OPERATOR_PLAYBOOKS.md` paired with the existing `SKILL: Asset Harvest`, expanded to `SKILL: Project Completion & Asset Harvest`.
+- **Pass 2:** piloted "At a Glance" blocks on exactly 3 high-use pages (not vault-wide): PYTHON `stage-01-python-atoms.md`, PHYSICS `stage-3-vectors.md`, BUSINESS `smb-ai-audit-method.md`.
+- **Pass 3 (this wiki):** moved `77-INBOX\buildingasecondbrain.pdf` → `raw\Building-a-Second-Brain-Tiago-Forte-2022.pdf` (raw, now immutable); wrote `wiki\building-a-second-brain-root-application.md` summarizing the verdict and pointing to the full report rather than duplicating it; updated `index.md` (Status line + Pages list).
+
+Declined per the report's own §7: PARA rename, new tag scheme, vault-wide Progressive Summarization, "Mode: DIVERGE/CONVERGE," a "favorite problems" list.
+
+One unrelated drift noticed during Pass 0 verification, out of scope here: `03-WIKIS\EDUCATION\wiki\learning-how-to-learn-principles.md` is missing from that hub's index (orphan page) — flagged for the EDUCATION hub's own next touch or the monthly lint pass, not fixed opportunistically.
+
+Files changed: `AGENT.md`, `CLAUDE.md`, `CASTLE\OPERATIONS.md`, `HAT_OPERATOR_PLAYBOOKS.md`, `ROOT_OPERATING_MANUAL.md`; the 3 pilot pages; this wiki's `raw\` (new file) and `index.md`; this log; today's DAILY.
+
+Next: evaluate the 3-page At a Glance pilot's retrieval/maintenance cost at the next weekly review before expanding further.
+
 ## 2026-07-09 (session 12) — Stanford AI Index 2026 ingested multi-hub (flag 55c closed)
 
 ### Work completed
@@ -544,3 +561,291 @@ here yet" while raw/ already held 6+ processed source packs plus this new one).
 
 ### Next action
 Chris decides whether any of the five flagged items becomes a real `wiki/proposals/` entry.
+
+## 2026-07-12 (session 14) — OpenAI Platform/ChatGPT/Codex docs pack ingested in chunk format (moved from CASTLE)
+
+### Work completed
+Chris relocated the OpenAI Platform/ChatGPT/Codex docs pack (95 files) from `00-BRAIN\CASTLEawooks\OPEN_AI-CHATGPT_CODEX_FILES\`
+to its correct home, `raw\OPEN_AI-CHATGPT_CODEX_FILES\` in this wiki, and directed the same chunked full-read ingest
+as the same-day Claude Code pack. CASTLE's prior pass (`00-BRAIN\CASTLE\wiki\source-summaries\openai-platform-docs-pack-2026-07.md`)
+had only deep-read Chunks 01-04 and 08 of its own 10-chunk routing (~60 of 95 files at real depth); the
+remaining ~35 were inventory-only. Ran six parallel research forks against a fresh thematic grouping, then
+a seventh closing fork to route a coverage gap the fifth fork surfaced mid-ingest.
+
+### Pages created/updated (13 new, 4 edited)
+New: openai-responses-api-state-and-streaming.md, openai-sdks-cli-and-agent-builder.md,
+openai-model-lineup-and-selection.md, openai-multimodal-generation.md, openai-tools-and-function-calling.md,
+openai-agents-sdk-and-orchestration.md, openai-mcp-and-chatgpt-apps.md, openai-gpt-actions.md,
+openai-prompting-and-reasoning-models.md, openai-evals-and-red-teaming.md,
+openai-fine-tuning-and-legacy-assistants.md, openai-responses-multi-agent.md, openai-webhooks-and-compaction.md.
+Edited (fold-ins from the closing fork's gap-fill): openai-tools-and-function-calling.md (Agent Skills, Shell
+tool, Retrieval/vector stores), openai-evals-and-red-teaming.md (grader mechanics in depth),
+openai-mcp-and-chatgpt-apps.md (ChatKit session-security addendum), openai-agents-sdk-and-orchestration.md
+(cross-link to the new Multi-agent page). index.md (8th research batch, 13 new page entries, raw/ status
+updated). raw/README.md blocked by the hard `raw/**` deny rule, same as the Claude Code ingest — cannot be
+corrected by any session, only Chris directly.
+
+### Two raw-file defects found (flag only, not fixed — raw/ immutable)
+- **Title-collision defect (new class)**: 12 files (`OpenAI API.md` through `OpenAI API 9.md`,
+  `OpenAI AP15I (1)/(2).md`) all inherited the literal page `<title>` "OpenAI API" from the doc site during
+  capture — real topic identity only recoverable by opening each file and reading its source URL. Triaged by
+  SHA-256: none are duplicates, all 12 are genuinely distinct content. All 12 now routed (2 via the models
+  page, 10 via the closing fork). Different failure mode than the already-flagged byte-identical
+  Agents-SDK-duplicate (SYSTEM_FLAGS #63-adjacent) — worth its own flag if Chris wants a SYSTEM_FLAGS entry.
+- **Second mislabeled file**: `Node reference  OpenAI API.md` actual content is the Agent Builder node
+  catalog, not a Node.js SDK reference — same defect class as `CLI_USE.md` in the Claude Code pack.
+- Confirmed (not just repeated from CASTLE's note): `Agents SDK  OpenAI API 1.md` is byte-identical to
+  `Agents SDK  OpenAI API.md` (SHA-256 0ddb73d5...92db1), independently re-hashed.
+
+### Two hard dates surfaced that CASTLE's inventory-level pass missed
+- OpenAI Evals platform: read-only October 31, 2026; fully shut down November 30, 2026 (same date as Agent
+  Builder and Prompt objects deprecation).
+- Assistants API: hard shutdown **August 26, 2026**. Fine-tuning platform already closed to new users.
+
+### Findings flagged for Chris (none drafted as proposals)
+- Cross-vendor pattern convergence (now recurring across both packs): `tool_search`/Programmatic Tool Calling
+  = independent reinventions of MCP progressive discovery/code mode; consequential-action gating confirmed
+  three times (Claude permission modes, MCP `require_approval`, GPT Actions `x-openai-isConsequential`);
+  prompts-as-versioned-files validated a second time (Prompt objects deprecation); the index+detail-file
+  memory shape now confirmed a third time (Claude auto memory, `.ROOT` memory/, OpenAI Sandbox Agents).
+- OpenAI Agents SDK has genuine orchestration primitives (handoffs, resumable-approval state machine) that
+  Claude Code's subagent model lacks — confirmed real, also confirmed not needed by `.ROOT`'s own fork
+  pattern (which only ever needs agents-as-tools, never full handoff).
+- Responses API Multi-agent (model-initiated, built-in) is directly relevant landscape research given
+  `.ROOT`'s own heavy parallel-fork usage — this very ingest used 7 forks.
+- Compaction: OpenAI's mechanism is an opaque encrypted item; Claude Code's `/compact` is a human-readable
+  re-injected summary — worth knowing which engine a session is running on before relying on mid-session
+  context recovery.
+- Secure MCP Tunnel has no documented Anthropic equivalent — a real ecosystem-maturity gap worth the
+  Category 10 agent-vetting screen knowing.
+- `.ROOT` already runs two of OpenAI's three evaluator types unnamed (wiki_lint/frontmatter_audit as metric
+  graders, Codex validation passes as LLM-as-judge) but has no persistent regression dataset of known-good/bad
+  governance states — structural gap, not urgent.
+- Red-teaming `.ROOT`'s own permission hardening (deliberately probing the 88-JOURNAL/raw/ deny rules) is a
+  concrete, cheap exercise nobody's run yet.
+
+### Next action
+Chris decides whether any flagged item (from this session or the same-day Claude Code ingest) becomes a real
+`wiki/proposals/` entry, and whether the title-collision defect warrants a SYSTEM_FLAGS entry.
+
+## 2026-07-12 (session 15) — Four proposals drafted from the docs-pack ingest findings + two SYSTEM_FLAGS raised
+
+### Work completed
+Chris directed writing up the flagged-but-parked findings from sessions 13-14 (the Claude Code and OpenAI
+docs pack ingests). Sorted the ~20 flagged items into three buckets: genuine governance-change candidates
+(drafted as formal proposals below), informational raw-file defects (raised as SYSTEM_FLAGS, not proposals —
+they are not governance changes, just tracked findings), and open questions not yet proposal-shaped (auto
+memory vs. `.ROOT`'s memory/ system, the security-guidance plugin — both explicitly left parked per the
+ingesting forks' own judgment, no action taken).
+
+### Proposals drafted (all PENDING CHRIS / CASTLE REVIEW — none applied)
+1. `proposals/2026-07-12_governance-drift-detection.md` — standing staleness check (script/weekly-sweep/
+   red-team options), direct response to the same-day Codex validation incident plus REVIEW.md and OpenAI
+   evals cross-vendor confirmation of the same failure class.
+2. `proposals/2026-07-12_mid-session-governance-edit-discipline.md` — one-paragraph AGENT.md addition on the
+   confirmed mid-session CLAUDE.md-edit-doesn't-apply-until-/clear mechanic.
+3. `proposals/2026-07-12_session-close-capture-prompt.md` — small session-close skill addition, modeled on
+   Claude Code's own `capture-what-to-remember` prompt-library card.
+4. `proposals/2026-07-12_mcp-vetting-screen-secure-tunnel-gap.md` — one bullet added to the already-approved
+   Category 10 vetting screen for the Secure MCP Tunnel / private-network-MCP gap.
+
+### SYSTEM_FLAGS raised (informational, LOW priority — not proposals)
+- Flag 68: raw-file naming defects (12-file title collision in the OpenAI pack + two mislabeled files —
+  `CLI_USE.md` and `Node reference  OpenAI API.md`). All four already correctly routed in wiki pages.
+- Flag 69: `Agents SDK  OpenAI API 1.md` confirmed byte-identical to `Agents SDK  OpenAI API.md` — same
+  defect class as closed flag #63.
+
+### Files changed
+Four new proposal files (above); `index.md` (Proposals section, four new PENDING entries);
+`00-BRAIN\SYSTEM_FLAGS.md` (flags 68-69 added to OPEN FLAGS, header timestamp updated) — this is the flag
+tracker's own designed intake mechanism, not a governance rewrite; this log.
+
+### Next action
+Chris/CASTLE review the four proposals; promotion into their target files (`AGENT.md`,
+`session-close/SKILL.md`, `TECHNOLOGY_LIBRARY_STRATEGY.md`, or a wiki_lint.py change) happens only after
+approval, same lane sequence as the two already-promoted proposals in this wiki.
+
+## 2026-07-12 (session 16) — Full-system instruction-file audit against the docs-pack ingest
+
+### Work completed
+Chris directed a full audit of every human/AI instruction file across `.ROOT` (46 files: AGENT.md, all
+lane files, CASTLE governance, all 9 HATS, all 7 wiki CLAUDE.md/HOW_TO_USE.md pairs, all skill files) against
+two baselines: the deep knowledge from today's 18-page Claude Code + OpenAI docs-pack ingest, and what CASTLE
+itself concluded from the same raw material this morning (its two source-summaries + what it applied into
+`FINAL_ROOT_LAUNCH_OPTIMIZATION_REPORT_2026-07-12.md`). Ran five parallel audit forks by cluster.
+
+### Result: most of the system holds up clean
+All 9 HATS, 5 of 6 remaining wiki hubs, all CASTLE pointer files, two of three skill files, and the majority
+of the universal-OS files (ATLAS.md, CHRIS_CORE.md, CHRIS.md, root pointers, START_HERE.md) showed no
+contradictions. `ROOT_OPERATING_MANUAL.md` (built this morning from CASTLE's synthesis) independently
+converges with the new prompt-library six-pattern checklist — good validation, no change needed.
+
+### Direct fix applied (same failure class already fixed twice today)
+EDUCATION `HOW_TO_USE.md` + `CLAUDE.md` — Start Here and Current State falsely said no course had
+activated, contradicting the hub's own `current-position.md` (three live courses: TCOM 2010, ECON 1000,
+ENGR 1000) and `index.md` (2 real pages). Third instance of the identical stale-current-state pattern found
+today (after AI_AUTOMATION_SYSTEMS and Capability Library) — corrected directly, same as those two.
+
+### Four new proposals drafted (PENDING REVIEW, none applied)
+1. `2026-07-12_extension-trigger-table.md` — adds the Claude Code docs' symptom-to-tool-type decision table
+   to AGENT.md/CLAUDE.md, replacing judgment-only guidance for when a pattern earns a skill/hook/subagent/etc.
+2. `2026-07-12_eval-gate-complexity-scaling.md` — AGENT.md's fixed five-test-case Agent Evaluation Gate (from
+   CASTLE's shallow morning read) doesn't match the deeper finding that verification needs grow with
+   architecture complexity; proposes scaling test cases to what's actually being changed.
+3. `2026-07-12_castle-research-boundary-and-raw-placement.md` — **the audit's headline finding.** CASTLE's own
+   OPERATIONS.md says it is not the landscape-research/self-evolution layer, but it did exactly that research
+   in place this morning (both docs packs ingested directly in `CASTLEawooks\`, source-summaries
+   written, claims applied into the launch report) — AI_AUTOMATION_SYSTEMS's exact charter. This is also the
+   root cause of why both packs needed same-day relocation. Proposes a `WHERE_IT_GOES.md` raw-intake rule.
+4. `2026-07-12_session-close-high-flag-hook.md` — the session-close skill's "HIGH flag must be fixed before
+   closing" rule is prose, not an enforced hook, per the now-confirmed "guardrails belong in hooks" principle.
+
+### Minor item flagged, not proposed
+`atlas-brief` skill: the `.claude` copy says "Claude" generates the brief, the `.agents` copy says "Codex" —
+everything else identical. Likely intentional per-engine parameterization, but fragile (a human has to
+remember to hand-edit one word in two places). Needs a yes/no from Chris, not a full proposal.
+
+### Files changed
+`03-WIKISDUCATION\HOW_TO_USE.md`, `CLAUDE.md`; four new proposal files; `index.md` (8 proposals now
+listed, all PENDING); this log.
+
+### Next action
+Chris reviews the 8 pending proposals (4 from the docs-pack findings, 4 from this audit) and confirms the
+atlas-brief parameterization question.
+
+## 2026-07-12 (session 17) — MCP vetting-screen proposal approved and applied
+
+### Work completed
+Chris approved `proposals/2026-07-12_mcp-vetting-screen-secure-tunnel-gap.md` with a wording revision pass:
+folded into `TECHNOLOGY_LIBRARY_STRATEGY.md` Category 10's existing "Check for:" list (matching the
+document's actual flowing-prose style, not the bold-header format the draft used) and genericized away from
+naming a single vendor product — the same ingest that found Secure MCP Tunnel also found Agent Builder and
+Prompt objects both sunsetting November 30, 2026, so a durable checklist shouldn't hard-pin a product name
+that may not exist next quarter. Applied clause: check whether the vendor has any no-inbound-port
+private-network bridge at all when the target system isn't internet-reachable; reverify specific offerings
+against current docs rather than assuming from memory.
+
+### Files changed
+`02-LIBRARY 8-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` (Category 10 + Last Updated footer);
+`proposals/2026-07-12_mcp-vetting-screen-secure-tunnel-gap.md` (status APPROVED & APPLIED); `index.md`; this log.
+
+### Result
+Shipped. Third proposal from this wiki to complete the full research -> proposal -> review -> promotion loop
+(after the July 8 vetting screen itself and the July 9 wiki-shared-layer cleanup).
+
+### Next action
+Seven proposals remain PENDING REVIEW (governance-drift-detection, mid-session-governance-edit-discipline,
+session-close-capture-prompt, extension-trigger-table, eval-gate-complexity-scaling,
+castle-research-boundary-and-raw-placement, session-close-high-flag-hook).
+
+## 2026-07-12 (session 18) — CASTLE review pass: 4 of 7 proposals applied, 1 partial
+
+### Work completed
+Chris asked CASTLE to put its hat on and review the 7 pending proposals from sessions 16-17. Ran the
+standard five-point castle discipline (why now / proof required / realm / next action / return path)
+against each. Verdict: 3 approved as-drafted, 1 approved with a dedup fix, 1 partially applied (touches
+CASTLE's own OPERATIONS.md, which CASTLE cannot self-approve), 1 needs a compact-rewrite pass before it
+can ship, 1 deferred to Codex (would be the first hook in the system, undesigned).
+
+Mid-review, Chris asked a design question: should HATS content move into real Claude Code Skills instead
+of plain `.md` files, given skills load on-demand? Verified live: Claude Code and claude.ai do NOT share
+skills (confirmed via platform.claude.com docs — "Custom Skills do not sync across surfaces"); Codex CLI
+and ChatGPT don't either (ChatGPT only gets skills via plugins, doesn't scan `.agents/skills/`). This
+settled the question: cross-engine content (HATS, AGENT.md) correctly stays plain-file since Claude Chat
+and ATLAS can't read either skills folder at all; the three (now four) existing skills are correctly
+scoped to Claude-Code/Codex-CLI-only rituals.
+
+### Applied
+1. **Mid-session governance-edit discipline** — one paragraph added to `AGENT.md` § File Safety.
+2. **Session-close capture prompt** — added to both `.claude` and `.agents` copies of `session-close/SKILL.md`
+   (confirmed byte-identical mirror is correct here, unlike `atlas-brief`'s deliberate per-engine split).
+3. **Extension trigger table** — added to `AGENT.md` as its own section; `CLAUDE.md` points to it instead of
+   duplicating. Applying this surfaced a related trim: `AGENT.md`'s Graph Color Maintenance section (2
+   lines, rarely-needed procedure) demoted into a new `graph-colors` skill, mirrored in both skills folders
+   — a live example of the table's own logic applied to `AGENT.md` itself. Chris confirmed via a quick
+   question before this specific trim.
+4. **CASTLE research-boundary + raw placement (half)** — the `WHERE_IT_GOES.md` raw-intake rule is live:
+   source material landing in `CASTLEaw\` matching a wiki's charter must be relocated before processing,
+   not ingested in place. The `OPERATIONS.md` boundary-reinforcement half stays PENDING — CASTLE's own rule
+   says `OPERATIONS.md` edits need Chris directly, even under CASTLE's own review.
+
+### Still open
+- **Eval-gate complexity scaling** — approved in principle, needs a compact-rewrite pass (the whole point of
+  the existing Agent Evaluation Gate was staying short) before the exact text ships.
+- **CASTLE OPERATIONS.md boundary language** — needs Chris's explicit call on how much raw-triage latitude
+  CASTLE keeps.
+- **Session-close HIGH-flag hook** — deferred to Codex; would be the first hook in `.ROOT`, undesigned.
+
+### Files changed
+`00-BRAIN\AGENT.md` (3 edits); `00-BRAIN\CLAUDE.md` (1 pointer edit); `00-BRAIN\WHERE_IT_GOES.md`;
+`.claude\skills\session-close\SKILL.md`, `.agents\skills\session-close\SKILL.md`;
+`.claude\skills\graph-colors\SKILL.md` (new), `.agents\skills\graph-colors\SKILL.md` (new); four proposal
+files (status updates); `index.md`; this log.
+
+### Next action
+Draft the compact eval-gate rewrite for Chris's review; get Chris's call on OPERATIONS.md triage latitude;
+hand the session-close hook to Codex's next audit pass.
+
+## 2026-07-12 (session 19) — CASTLE research-boundary proposal fully resolved
+
+### Work completed
+Closed out the last open half of `2026-07-12_castle-research-boundary-and-raw-placement.md`. Chris considered
+a loosening of the `WHERE_IT_GOES.md` raw-intake rule (let CASTLE read/reference raw material in place,
+only relocate once fully absorbed) and explicitly declined it — the stricter original wording (relocate
+before processing, no in-place ingest) stays exactly as applied earlier today. No `OPERATIONS.md` edit was
+made; the `WHERE_IT_GOES.md` rule alone fully closes the gap.
+
+Established a standing practice alongside this: raw-file retirement (removing a source once its derived
+`.md` content has fully absorbed it) is a judgment call Claude flags when noticed, not an automated rule —
+except the Claude Code and OpenAI/Codex documentation packs, a standing exception that never retires
+regardless of derived-page completeness (re-consulted directly, not just summarized once).
+
+Checked `00-BRAIN\CASTLEaw\` as of this session: empty of content (both docs packs already relocated
+to `AI_AUTOMATION_SYSTEMSaw\` earlier today, folder skeleton + README.md only) — nothing currently
+retirement-eligible.
+
+### Files changed
+`2026-07-12_castle-research-boundary-and-raw-placement.md` (status -> APPROVED & APPLIED, both halves);
+`index.md`; this log.
+
+### Result
+All 8 proposals from sessions 13-18 now resolved: 6 fully applied, 1 (eval-gate complexity scaling) has
+drafted compact wording awaiting Chris's go-ahead, 1 (session-close HIGH-flag hook) deferred to Codex as
+undesigned.
+
+## 2026-07-12 (session 20) — Eval-gate complexity-scaling proposal applied
+
+### Work completed
+Chris approved the drafted compact rewrite. Applied to `AGENT.md` § Agent Evaluation Gate, rule 2: replaced
+the fixed fifteen-word "at least five cases" list with a scaled version — typical/edge/failure-recovery stay
+the floor for any workflow, and tool-selection/data-precision, handoff-accuracy, and
+adversarial/permission-boundary cases now trigger on what the workflow actually introduces (tools, multiple
+agents, sensitive actions) rather than being demanded uniformly regardless of complexity. Rule count and
+section structure unchanged; kept to one sentence, matching the original's compactness.
+
+This closes out the eval-gate proposal, the last of the 8 proposals from today with an open action. Final
+tally: 7 fully applied (MCP vetting screen, mid-session governance-edit discipline, session-close capture
+prompt, extension trigger table + graph-colors demotion, CASTLE research-boundary/raw-placement,
+eval-gate complexity scaling), 1 deferred to Codex (session-close HIGH-flag hook, undesigned).
+
+### Files changed
+`AGENT.md`; the proposal file (status -> APPROVED & APPLIED); `AI_AUTOMATION_SYSTEMS\wiki\index.md`; this log.
+
+### Next action
+Session-close HIGH-flag hook remains parked for a future Codex audit pass — would be the first hook in
+`.ROOT`. Nothing else currently open from today's proposal batch.
+
+## 2026-07-13 — Local-root path sweep
+
+### Work completed
+Corrected the live infrastructure claim in `openai-webhooks-and-compaction.md`:
+`.ROOT` is now a local C: vault cloud-backed by Google Drive, not a local Google
+Drive working tree. This was part of the full local-root path sweep after Chris
+made `C:\Users\chris\.ROOT` canonical.
+
+### Files changed
+`openai-webhooks-and-compaction.md`; `index.md`; this log.
+
+### Next action
+Continue the normal research cadence; path governance is now owned by the C:
+canonical-workspace rule in `00-BRAIN`.

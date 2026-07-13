@@ -36,4 +36,4 @@ Log new research or proposals in `wiki/log.md`; state whether a proposal is read
 Operational research hub. Multiple research batches ingested across AI/agent-pattern landscape and self-evolution research on `.ROOT` itself, with two full research → proposal → review → promotion loops completed. Use `wiki/index.md` for the live page/proposal inventory and `wiki/log.md` for recent session activity — don't rely on exact counts here, they drift.
 
 ## Last Updated
-July 12, 2026 — corrected Current State and Start Here, which falsely described the hub as empty; now points to the live index/log instead of a stale summary. Color language: `G:\My Drive\.ROOT\START_HERE.md`.
+July 13, 2026 — local-root cutover: canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.

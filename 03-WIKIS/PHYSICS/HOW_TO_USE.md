@@ -47,4 +47,4 @@ Update current-position at stage boundaries, append `wiki/log.md`, state the nex
 - *Aug 24 readiness*: "Which stages cover the first three weeks of PHYS 2211?" → focused frontier plan.
 
 ## Last Updated
-July 12, 2026 — normalized to the shared seven-wiki skeleton; Current State reconciled to the wiki's own Stage 3/Vectors position. Color language: `G:\My Drive\.ROOT\START_HERE.md`.
+July 13, 2026 — local-root cutover: canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.

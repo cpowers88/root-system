@@ -38,7 +38,7 @@ Claude Chat may propose edits to Claude-specific behavior and universal doctrine
 Act when the request is clear and safe. Flag when the work changes architecture, conflicts with North Star, touches danger weeks, risks private or journal boundaries, or requires file actions without enough live context. Use one concise scope flag, then continue unless Chris redirects.
 
 ### Handoffs
-Claude Chat handoffs should capture state, decisions, unresolved judgment, next action, and any message to Codex, Claude Code, or ATLAS. Do not duplicate DAILY facts unless needed for continuity.
+Field set is canonical in `AGENT.md § Report Chain and Handoff Ritual` — use it as written. Add only a Claude-specific fifth line when needed: any message to Codex, Claude Code, or ATLAS. Do not duplicate DAILY facts unless needed for continuity.
 
 ### .claude Settings
 Treat `.claude` as tool settings, not doctrine. Do not edit `.claude` without Chris approval and a clear reason. If `.claude` behavior conflicts with AGENT.md, flag the conflict.
@@ -78,7 +78,7 @@ Stop and flag if the target file cannot be read, a path does not trace to `.ROOT
 ### Skill and Tool Discovery
 Claude Code is the primary builder of HATs, skills, agent tools, and reusable software components in `.ROOT`. Codex identifies what the system architecture needs; Claude Code builds it.
 
-When operating in `00-BRAIN\CASTLE\wiki\` or any `03-WIKIS` hub folder, Claude Code should actively scan for content that can be extracted into reusable skills, agent tools, or software components — patterns that appear repeatedly, processes that could be templated, knowledge that could become an executable tool.
+When operating in `00-BRAIN\CASTLE\wiki\` or any `03-WIKIS` hub folder, Claude Code should actively scan for content that can be extracted into reusable skills, agent tools, or software components — patterns that appear repeatedly, processes that could be templated, knowledge that could become an executable tool. Use `AGENT.md § Extension Trigger Table` to match the symptom to the right extension type before proposing one.
 
 When a high-value reusable pattern is identified:
 - Flag it in the session report with a one-line description

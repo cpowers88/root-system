@@ -1,0 +1,21 @@
+Front	Back
+What is the basic validator pattern?	Check each rule. If any rule fails, return False. If all pass, return True.
+What is an early return?	Returning from a function as soon as the answer is known.
+Why are early returns useful in validators?	They stop the function immediately when a rule fails.
+What is the plates.py strategy?	Treat each plate rule as a gate.
+What is Gate 1 in plates.py?	Length must be between 2 and 6 characters.
+What is Gate 2 in plates.py?	The first two characters must be letters.
+What is Gate 3 in plates.py?	All characters must be letters or numbers.
+What is Gate 4 in plates.py?	If numbers appear, the first number cannot be 0 and letters cannot appear after numbers start.
+What does 'once numbers start, letters cannot appear after' require?	A loop that remembers when a number has started.
+What variable can remember that numbers have started?	number_started.
+What should number_started start as?	False.
+When should number_started become True?	When the loop finds the first digit.
+What should happen if number_started is True and a letter appears?	return False.
+What should happen if the first number is 0?	return False.
+What is the CS50 input-cleaning pattern?	input(...).strip()
+What is the CS50 lowercase-normalizing pattern?	input(...).strip().lower()
+What is the CS50 main/helper pattern?	main() handles input/output; helper functions handle logic.
+What is the CS50 testable-function pattern?	Put logic in a function that returns a value.
+What is the CS50 loop-through-string pattern?	for char in s:
+What is the CS50 repeat-n-times pattern?	for _ in range(n):

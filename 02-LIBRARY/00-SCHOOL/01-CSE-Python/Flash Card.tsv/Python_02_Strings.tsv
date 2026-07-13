@@ -1,0 +1,32 @@
+Front	Back
+What is a string?	Text data inside quotes.
+What does .strip() do?	Removes whitespace from the beginning and end of a string.
+What does .lower() do?	Returns a lowercase version of a string.
+What does .upper() do?	Returns an uppercase version of a string.
+What does .title() do?	Returns a title-cased version of a string.
+What does .capitalize() do?	Returns a string with the first character capitalized.
+What does .split(':') do?	Splits a string wherever it finds a colon.
+What does .replace(old, new) do?	Returns a string where old text is replaced with new text.
+What does .isalpha() check?	Returns True if all characters are letters and there is at least one character.
+What does .isdigit() check?	Returns True if all characters are digits and there is at least one character.
+What does .isalnum() check?	Returns True if all characters are letters or digits and there is at least one character.
+What does .startswith(text) check?	Returns True if a string begins with text.
+What does .endswith(text) check?	Returns True if a string ends with text.
+What does s[0] mean?	The first character in the string s.
+What does s[1] mean?	The second character in the string s.
+What does s[-1] mean?	The last character in the string s.
+What is indexing?	Using a position number to access one item inside a sequence.
+What number does Python indexing start at?	0.
+What does s[:2] mean?	The first two characters of s.
+What does s[2:] mean?	Everything in s starting at index 2.
+What is a slice?	A piece of a sequence selected by index range.
+Are strings mutable?	No. Strings are immutable; string methods return new strings.
+What does immutable mean?	Cannot be changed in place.
+What does 'A' in s check?	Whether the string s contains the character or substring 'A'.
+What does 'A' not in s check?	Whether the string s does not contain 'A'.
+What does for char in s do?	Loops through each character in the string one at a time.
+What is char in for char in s?	A temporary variable holding the current character.
+How do I check if the first character of s is a letter?	s[0].isalpha()
+How do I check if the second character of s is a letter?	s[1].isalpha()
+How do I check if the current loop character is a digit?	char.isdigit()
+How do I check if a whole plate has only letters and numbers?	s.isalnum()

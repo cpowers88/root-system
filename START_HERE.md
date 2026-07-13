@@ -30,7 +30,7 @@ The castle maintains it; if the date is stale, tell the AI.
 | 📥 `77-INBOX` | Dump quick captures. Cleared every weekly review. |
 | 🗄️ `99-ARCHIVE` | Find anything retired. Nothing is ever deleted. |
 
-Private and outside the system: `88-JOURNAL` (Drive root — no AI ever reads it).
+Private inside the live vault: `88-JOURNAL` — no AI ever reads it.
 
 ---
 
@@ -39,8 +39,8 @@ Private and outside the system: `88-JOURNAL` (Drive root — no AI ever reads it
 Every agent, every model, same path — this is wired, not hoped for:
 
 ```
-G:\My Drive\CLAUDE.md (router, auto-loads)
-  → .ROOT\00-BRAIN\AGENT.md    (universal OS: star, school status, file safety, when to stop)
+C:\Users\chris\.ROOT\CLAUDE.md (router, auto-loads)
+  → C:\Users\chris\.ROOT\00-BRAIN\AGENT.md    (universal OS: star, school status, file safety, when to stop)
   → lane file: CLAUDE.md / CODEX.md / ATLAS.md   (engine behavior)
   → CHRIS_CORE.md                 (who you are, how you work)
   → optional HATS\ mode           (Operator / Educator / subject hat, if useful)
@@ -131,4 +131,4 @@ makes sure the target never stops moving. **October 8, 2031 — floor, not finis
 6. Targets move at quarterlies, by the ratchet — not by impulse.
 
 ---
-*AI entry: `G:\My Drive\CLAUDE.md` -> `00-BRAIN\AGENT.md` -> lane file (CLAUDE.md / CODEX.md) -> CHRIS_CORE.md. The star: `01-NORTH_STAR\NORTH_STAR.md`.*
+*AI entry: `C:\Users\chris\.ROOT\CLAUDE.md` -> `00-BRAIN\AGENT.md` -> lane file (CLAUDE.md / CODEX.md) -> CHRIS_CORE.md. The star: `01-NORTH_STAR\NORTH_STAR.md`. G: is cloud backup only.*

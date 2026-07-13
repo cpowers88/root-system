@@ -47,4 +47,4 @@ Pre-First-Contact. Track 1 (school) and Track 2 (Python/SQL, tracker) are the co
 - *Post-audit*: audit-report-template filled → case-study-template started → retainer-model consulted for the upsell.
 
 ## Last Updated
-July 12, 2026 — normalized to the shared seven-wiki skeleton; named `index.md` as the single canonical current-frontier entry (previously offered `start-here.md` or `index.md` ambiguously). Color language: `G:\My Drive\.ROOT\START_HERE.md`.
+July 13, 2026 — local-root cutover: canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.

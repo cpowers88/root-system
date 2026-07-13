@@ -88,13 +88,30 @@ Trigger: quarterly review ONLY (or Chris explicitly calls it).
 Rules: floors ratchet UP only. Never mid-cycle. "The goal evolved"
 outside a quarterly is scope creep wearing a costume — flag it.
 
-## SKILL: Asset Harvest
+## SKILL: Project Kickoff
+Trigger: any build, project, or engagement starting — including personal
+builds (tracker, POL) and CASTLE proof projects.
+1. Define the outcome and success criteria in one sentence.
+2. Name the owner realm and deadline.
+3. Search archives, wikis, and templates for a reusable packet before writing
+   anything new — update-over-create applies to project setup too.
+4. Capture current thinking, open questions, and likely failure modes.
+5. Name the smallest provable slice — not the whole project.
+Rule: a kickoff that skips the reuse search is how the vault ends up with two
+half-built versions of the same thing.
+
+## SKILL: Project Completion & Asset Harvest
 Trigger: any build, project, or engagement reaching done — including
 personal builds (tracker, POL).
-Ask: what reusable asset did this produce?
-- Template / playbook → BUSINESS wiki (blank master) or 05-BUSINESS
-- Tool / code pattern → note in project docs + castle proof-project page
-- Case study / proof → 05-BUSINESS\03-Case Studies (when client-based)
-- Lesson worth keeping → handoff → weekly review promotion path
-Rule: no engagement ends without the harvest question being asked.
-That's step 9 of the service model — the portfolio step.
+1. Confirm the outcome against the kickoff's success criteria, with evidence.
+2. Ask the harvest question: what reusable asset did this produce?
+   - Template / playbook → BUSINESS wiki (blank master) or 05-BUSINESS
+   - Tool / code pattern → note in project docs + castle proof-project page
+   - Case study / proof → 05-BUSINESS\03-Case Studies (when client-based)
+   - Lesson worth keeping → handoff → weekly review promotion path
+3. Update proof-project or Capability Library maturity when the evidence
+   warrants it — draft to tested-internally needs a named test, not a vibe.
+4. Archive inactive project material — archive, don't delete.
+5. Record the next horizon and the single next action.
+Rule: no engagement ends without the harvest question being asked. That's
+step 9 of the service model — the portfolio step.

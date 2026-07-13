@@ -1,0 +1,59 @@
+What is a vector?	A quantity with magnitude and direction.
+What is magnitude?	The size or amount of a vector.
+What is direction?	The way the vector points.
+Is “15 m/s” a complete vector?	No. It gives magnitude but not direction.
+Is “15 m/s to the right” a vector?	Yes. 15 m/s is the magnitude and right is the direction.
+What is a component?	One directional piece of a vector.
+What does the x-component describe?	How much of the vector points left or right.
+What does the y-component describe?	How much of the vector points up or down.
+What is the vector in the right triangle?	The hypotenuse.
+What are the components in the right triangle?	The legs.
+What is the x-component if the angle is measured from horizontal?	The adjacent side.
+What is the y-component if the angle is measured from horizontal?	The opposite side.
+If an angle is measured from horizontal, what formula gives the x-component?	Ax = A cos(θ).
+If an angle is measured from horizontal, what formula gives the y-component?	Ay = A sin(θ).
+Why does x use cosine when the angle is measured from horizontal?	Because x is adjacent to the angle.
+Why does y use sine when the angle is measured from horizontal?	Because y is opposite the angle.
+What is the lock phrase for components?	Components are the legs of the triangle hidden inside the vector.
+Below 45° above horizontal, which component is bigger?	The x-component.
+At 45° above horizontal, what happens to the components?	The x and y components are equal.
+Above 45° above horizontal, which component is bigger?	The y-component.
+What does a 10° vector above horizontal look like?	Mostly horizontal: big x and small y.
+What does an 80° vector above horizontal look like?	Mostly vertical: small x and big y.
+Components of 10 m at 30° above horizontal	x = 8.66 m, y = 5 m.
+Components of 20 m at 60° above horizontal	x = 10 m, y = 10√3 m ≈ 17.3 m.
+Components of 30 m at 45° above horizontal	x = 15√2 m, y = 15√2 m.
+Components of 50 m at 37° above horizontal	x ≈ 40 m, y ≈ 30 m.
+Components of 40 m at 53° above horizontal	x ≈ 24 m, y ≈ 32 m.
+Components of 30 m at 70° above horizontal	x ≈ 10.3 m, y ≈ 28.2 m.
+What does positive x mean?	Right.
+What does negative x mean?	Left.
+What does positive y mean?	Up.
+What does negative y mean?	Down.
+What does the x-axis describe?	Left and right direction.
+What does the y-axis describe?	Up and down direction.
+Quadrant I signs	+x, +y: right and up.
+Quadrant II signs	-x, +y: left and up.
+Quadrant III signs	-x, -y: left and down.
+Quadrant IV signs	+x, -y: right and down.
+What does x = -8 m mean?	8 m left.
+What does y = +6 m mean?	6 m up.
+What does x = +9 m, y = -12 m mean physically?	9 m right and 12 m down.
+What does x = -8 m, y = -6 m mean physically?	8 m left and 6 m down.
+How do you find magnitude from x and y components?	Use the Pythagorean theorem.
+What is the magnitude formula from components?	A = √(x² + y²).
+Do negative signs change vector magnitude?	No. Magnitude is always positive.
+Magnitude of x = -8 m, y = +6 m	10 m.
+Magnitude of x = +12 m, y = +5 m	13 m.
+Magnitude of x = +9 m, y = -12 m	15 m.
+What trig function finds direction angle from components?	Tangent.
+What is the direction angle setup from components?	tan(θ) = y / x.
+What is the reference angle formula from components?	θ = tan⁻¹(|y| / |x|).
+What do signs tell you when finding direction?	The quadrant.
+Why should you not trust the calculator angle blindly?	The calculator may not give the physics direction or quadrant in the format needed.
+Quadrant I standard angle rule	Standard angle = reference angle.
+Quadrant II standard angle rule	Standard angle = 180° - reference angle.
+Quadrant III standard angle rule	Standard angle = 180° + reference angle.
+Quadrant IV standard angle rule	Standard angle = 360° - reference angle, or use a negative angle.
+Direction of x = -12 m, y = +5 m	13 m, 22.62° above the negative x-axis, or 157.38°.
+Direction of x = +9 m, y = -12 m	15 m, 53.13° below the positive x-axis, or 306.87°, or -53.13°.

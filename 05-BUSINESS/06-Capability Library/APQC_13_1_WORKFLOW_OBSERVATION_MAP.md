@@ -59,7 +59,7 @@ A structured field method in three phases:
 
 ## 6. Implementation Notes
 
-Zero software required to run the visit itself — notebook, phone camera (with permission), and the checklist. The write-up path is Markdown files in Drive: fieldnotes template → hand-sketched or Google-Drawings process map → `ONE_PAGE_FINDINGS_FORMAT.md`. No API, no paid tool, no build lead time — this asset is usable on the very first free practice rep and on the first paid engagement without waiting on anything else in the capability library.
+Zero software required to run the visit itself — notebook, phone camera (with permission), and the checklist. The write-up path is Markdown files in the local `.ROOT` workspace (cloud-backed by Google Drive): fieldnotes template → hand-sketched or Google-Drawings process map → `ONE_PAGE_FINDINGS_FORMAT.md`. No API, no paid tool, no build lead time — this asset is usable on the very first free practice rep and on the first paid engagement without waiting on anything else in the capability library.
 
 ## 7. Validation
 

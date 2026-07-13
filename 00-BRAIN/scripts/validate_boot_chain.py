@@ -25,11 +25,9 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parents[2]
-DRIVE = ROOT.parent
 
 BOOT_FILES = [
-    DRIVE / "CLAUDE.md",
-    ROOT / "START_HERE.md", ROOT / "NOW.md", ROOT / "CODEX.md",
+    ROOT / "CLAUDE.md", ROOT / "START_HERE.md", ROOT / "NOW.md", ROOT / "CODEX.md",
     ROOT / "00-BRAIN" / "AGENT.md", ROOT / "00-BRAIN" / "CLAUDE.md",
     ROOT / "00-BRAIN" / "CODEX.md", ROOT / "00-BRAIN" / "ATLAS.md",
     ROOT / "00-BRAIN" / "CHRIS_CORE.md", ROOT / "00-BRAIN" / "WHERE_IT_GOES.md",
@@ -108,7 +106,7 @@ def main() -> int:
 
     agent_text = (ROOT / "00-BRAIN" / "AGENT.md").read_text(
         encoding="utf-8", errors="replace")
-    for marker in ("## Agent Evaluation Gate", "typical, edge, adversarial/injection",
+    for marker in ("## Agent Evaluation Gate", "typical, edge, and failure/recovery",
                    "Review the full action trace"):
         if marker not in agent_text:
             failures.append(f"AGENT.md missing evaluation control: {marker}")

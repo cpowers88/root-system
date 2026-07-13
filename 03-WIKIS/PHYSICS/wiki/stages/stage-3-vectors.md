@@ -5,6 +5,12 @@ status: draft
 
 # Unit/Stage 3 — Vectors (Ch 3)
 
+## At a Glance
+- **Core claim:** vectors/components/unit vectors are the mathematical toolkit every later chapter depends on — this stage is prerequisite math, not a standalone topic.
+- **When to use it:** this is Chris's current active study stage (per `NOW.md` and `current-position.md`), lecture-aligned to Ch 3, Sep 2, 2026.
+- **Decision/action it supports:** whether to move to Stage 4 — gated by "Do Not Move On Until" below, not by reading the page once.
+- **Key risk:** the dot product previews here but isn't required until Stage 7, and the cross product until Stage 11 — don't chase either ahead of schedule (see Parked for Later).
+
 ## Goal
 
 Handle 2D and 3D physical quantities correctly using coordinate systems, vector components, and unit vectors — the mathematical toolkit every later chapter depends on. (The dot product previews here but isn't required until Stage 7 — see Parked for Later.)
