@@ -42,11 +42,13 @@ tags: [baseline, now]
   with additional landscape pages added July 13.
 - **Business assets already built:** 51-page business-model wiki, delivery template
   library (audit report, proposal, SOW, outreach), pricing worksheet, field-notes
-  method with one real construction observation logged (June 5). APQC-indexed
+  method with one June 5 construction-domain hypothesis note and one July 14
+  contractor desk simulation. Neither is a live workflow observation. APQC-indexed
   capability-library structure is being added under `05-BUSINESS` for reusable
   client-facing assets.
-- **Clients:** zero. The March 2027 first-client target remains North Star doctrine
-  pending its approved amendment; it is not the near-term answer to the funding gap.
+- **Clients:** zero. After the approved July 14 North Star amendment, March 2027
+  remains the first consulting-client target; it is not the near-term answer to the
+  funding gap.
   Revenue Lab's five-lane evidence scan is complete. Lane A's internal scanner proof
   now covers 36 desk-based topics with a deduplicated cross-market top 100; it remains
   a compounding research lane, not survival-income proof. B2's one external proof

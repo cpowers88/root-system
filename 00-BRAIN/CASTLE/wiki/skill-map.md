@@ -46,7 +46,7 @@ This does not replace the status table above — it's the output format when Chr
 
 | Skill | Status Jul 2026 | Phase | Proof |
 |---|---|---|---|
-| Field observation & process documentation | building (1 real rep) | 2 | 2 tested observation sessions |
+| Field observation & process documentation | building (desk simulation; 0 live reps) | 2 | 2 tested live observation sessions |
 | Value Stream Mapping | not-started | 2 | 2 drawn VSMs |
 | Waste identification (7 wastes, TOC) | building (BUSINESS wiki ingested) | 2 | Mock audit report |
 | Waste quantification (time/cost math) | not-started | 3 | Findings with numbers in mock report |

@@ -3,7 +3,7 @@ tags: [reference]
 ---
 
 # Index — Every Page in the Castle
-### Updated: July 14, 2026 (funding constraint and Revenue Lab response reconciled)
+### Updated: July 14, 2026 (CASTLE system review reconciled)
 
 ## Castle Root Files
 - `.ROOT\NOW.md` — the morning page (castle-owned, lives at the .ROOT root)
@@ -36,7 +36,7 @@ tags: [reference]
 
 ## Skills (built: 2 of 8 categories started)
 - [[sql]] — Technical; building; proof: [[ksu-academic-tracker]]
-- [[field-observation]] — Diagnostic; building; proof: 1 rep logged, 2nd needed
+- [[field-observation]] — Diagnostic; building; desk simulation logged, first live rep needed
 
 ## Source Summaries
 - [[claude-code-docs-pack-2026-07]] — Anthropic's Claude Code docs (Tier 1); instruction-file

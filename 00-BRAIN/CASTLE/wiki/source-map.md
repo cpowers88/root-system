@@ -28,8 +28,8 @@ tags: [sources, reference]
 | Audit templates (3) | `05-BUSINESS\01-Audit Templates\` | support | The working audit artifacts | 2, 5 |
 | Delivery templates (11) | `03-WIKIS\BUSINESS\...\templates\` | support | Proposal, SOW, outreach, retainer reporting | 4–6 |
 | Field notes + template | `05-BUSINESS\02-Field Notes\` | support | Observation practice record | 2 |
+| Revenue Lab lane scorecard + evidence pages | `03-WIKIS\REVENUE_LAB\wiki\` | support | July 14 continuity-income lane comparison, bounded proof status, and authorization limits | 0–1, continuity |
 | `03-WIKIS\PYTHON` + `03-WIKIS\PHYSICS` wikis — **positions reconciled 2026-07-13** | root | support | Staged Track 1 paths with mastery gates. Real positions: Python Stage 2/10 (Stage 1 verified July 13), Physics Stage 3/18. `03-WIKIS\PYTHON` Stages 9–10 (automation bridge: CSV/JSON/reports/SQLite/CLI) directly pre-train castle Phase 3 skills | 1, 3 |
-| AI_Agent.md — **parsed 2026-07-06** | `.ROOT\00-BRAIN\` | spine | Verified rules castle sessions must obey: act-first, file-safety (read-before-write, archive-never-duplicate, WHERE_IT_GOES.md is placement authority), one hat per session, 88-JOURNAL never read, danger-weeks protocol, handoff conventions | all | (superseded July 10, 2026 by AGENT.md — rules carried forward)
 | Pre-semester learning recs (June 20) | `01-NORTH_STAR\Goals & Milestones\` | support | Summer sequencing | 0–1 |
 | Weekly/monthly reviews | `01-NORTH_STAR\Weekly Reviews\` | support | Evidence trail for current-position | 0 |
 

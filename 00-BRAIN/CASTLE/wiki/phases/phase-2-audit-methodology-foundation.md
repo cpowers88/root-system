@@ -48,8 +48,8 @@ Paper + camera + field-notes template first. Looker Studio for showing findings
 
 ## Proof Projects
 - One practice VSM on a real or known process (July–Sep) → evidence page
-- Field-notes reps on accessible real workflows (construction access exists —
-  one already logged June 5)
+- Field-notes reps on accessible real workflows (construction-domain hypotheses and
+  a desk simulation exist; the first live observation is still open)
 - One mock audit report end-to-end using the real templates, on a business Chris knows
 
 ## Exit Criteria
@@ -66,4 +66,5 @@ Paper + camera + field-notes template first. Looker Studio for showing findings
   commitments require it; AI warns once and Chris decides the scope
 
 ## Next Action
-Schedule the first practice VSM on a known process before the semester starts.
+Schedule the first live workflow observation before the semester starts, then turn
+that same evidence into the first practice VSM.

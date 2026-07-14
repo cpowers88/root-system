@@ -3,7 +3,7 @@ type: dashboard
 tags: [now]
 ---
 
-# NOW — Tuesday, July 14, 2026 (Revenue Lab scan + Lane A scanner proof complete)
+# NOW — Tuesday, July 14, 2026 (CASTLE system review complete)
 ### Open this every morning. One screen. Maintained by the AI every session.
 
 ## ☀️ Today's Cockpit
@@ -13,7 +13,7 @@ tags: [now]
 | Start here | Continue the active Physics Stage 3 vectors work; if that session is closed, finish the Python Stage 2 close-out |
 | Fixed school commitment | Maintain pre-semester Physics/Python readiness for Aug 24 |
 | Technology growth | YT scanner proof is complete for today; the next rep is human classification of the saved top 100 |
-| Business / system | Unified-AI operating-model update implemented, validated, logged, and closed |
+| Business / system | CASTLE review PASS: update landed; proof/status drift and Capability Library wording reconciled |
 | Soft boundary | Close after validation and reporting; return to school work rather than opening another architecture pass |
 
 **🚨 NEW CONSTRAINT (July 14): a major cut in school funding means Chris needs
@@ -92,7 +92,7 @@ Luke Barousse segments, not feature expansion.
   verdict: controlled prototype layer for SMB automation, not the .ROOT brain;
   logged in the TECHNOLOGY wiki)
 - [ ] SQL off-day segment (Luke Barousse, 20 min)
-- [ ] Schedule the first practice VSM on a known process (Phase 2 next-action; 2nd field-observation rep)
+- [ ] Schedule the first live workflow observation, then map it as the first practice VSM
 - [x] ~~Queued: content-channel research page~~ **SUPERSEDED July 14** — absorbed
   into `03-WIKIS\REVENUE_LAB\` as Lane A of the revenue lane scan (the funding cut
   turned this from a someday-research page into part of the active survival scan).
@@ -111,11 +111,11 @@ Luke Barousse segments, not feature expansion.
 |---|---|---|
 | ~~Sun Jul 12~~ | ~~First weekly review that consumes DAILY files~~ **DONE same day: swept clean** — 7-hub wiki sweep, Watchtower radar, 77-INBOX all clear; flags 57, 51, 16 re-checked against live files, all three confirmed still correctly OPEN, no new drift | 0 |
 | ~Aug 14 | Lane A prediction check + human review of combined top 100 | 31 |
-| ~Jul 25 | D2L opens — enter real syllabus data into the tracker | 12 |
-| Aug 1 | Monthly review — weak-link question + [[current-position]] update + wiki lint/tag maintenance from the July 11 live reports | 19 |
+| ~Jul 25 | D2L opens — enter real syllabus data into the tracker | 11 |
+| Aug 1 | Monthly review — weak-link question + [[current-position]] update + wiki lint/tag maintenance from the July 11 live reports | 18 |
 | ~Aug 10–22 | Extend CASTLE calendar tags + semester study-block template (SYSTEM_FLAGS #51) | — |
-| Aug 24 | **KSU Fall semester begins — show up loaded** | 42 |
-| Oct 5 – Nov 11 | High-load school window — protect fixed commitments; optional work gets one tradeoff warning, not a hard stop | 84 |
+| Aug 24 | **KSU Fall semester begins — show up loaded** | 41 |
+| Oct 5 – Nov 11 | High-load school window — protect fixed commitments; optional work gets one tradeoff warning, not a hard stop | 83 |
 
 ## 🧭 Bearing
 

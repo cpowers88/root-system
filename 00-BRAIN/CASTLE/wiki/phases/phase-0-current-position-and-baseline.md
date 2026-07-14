@@ -10,9 +10,9 @@ tags: [phase, now]
 **One-line purpose**: Know exactly where the start line is, and ship the first proof project.
 
 ## Purpose
-Establish a written, honest baseline of skills, assets, and gaps — and finish the
-KSU Academic Tracker before D2L opens (~July 25). A roadmap from an unknown starting
-point is fiction.
+Establish a written, honest baseline of skills, assets, and gaps — and move the
+shipped KSU Academic Tracker from synthetic tests to real D2L/syllabus data when it
+opens (~July 25). A roadmap from an unknown starting point is fiction.
 
 ## Why It Matters to the North Star
 Every later phase measures progress against this baseline. The tracker is also the
@@ -47,7 +47,7 @@ None yet — that's honest. This phase buys the *foundation* every capability si
 ## Exit Criteria
 - [ ] [[current-position]] written and reviewed by Chris ✓ (July 6)
 - [ ] Castle live with maps, phases 0–2, source map ✓ (July 6)
-- [ ] Tracker: all four tables + `--week`, `--today`, `--tests`, `--course`, `--overdue` working
+- [x] Tracker: all four tables + `--week`, `--today`, `--tests`, `--course`, `--overdue` working (V1 shipped July 8)
 - [ ] Real syllabus data entered when D2L opens (~July 25)
 - [ ] August 1 monthly review updates the weak links
 
@@ -56,4 +56,5 @@ None yet — that's honest. This phase buys the *foundation* every capability si
 - Expanding tracker scope beyond the brief (two functions only; no dashboard)
 
 ## Next Action
-Next tracker session: finish the remaining queries per the brief's Session 2/3 plan.
+Around July 25, enter real D2L/syllabus data and run the shipped command set against
+it. Until then, SQL work is maintenance and focused practice—not tracker expansion.

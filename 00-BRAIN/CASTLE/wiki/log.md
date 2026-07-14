@@ -709,3 +709,22 @@ gate before any permanent content/revenue workspace or publishing commitment.
   review debt, diff check PASS, and no private/raw changes.
 - Next action: resume the paused Physics Stage 3 vector-addition problem; test
   the new operating model through normal use before another architecture pass.
+
+## 2026-07-14 (evening) — CASTLE system review completed (Codex, Chris-directed)
+
+- **Verdict: PASS.** The unified operating-model update landed and the
+  system is structurally healthy; the active risk is truth maintenance, not missing
+  architecture.
+- Corrected material proof drift: the June 5 construction note is domain knowledge,
+  and July 14 is a Chris-accepted desk simulation. Neither is a live observation.
+  CASTLE now records zero live field-observation reps without reversing Chris's
+  explicit Practice Rep 1 closure.
+- Corrected Phase 0: tracker V1 shipped July 8; the next proof is real D2L/syllabus
+  data around July 25, not unfinished queries.
+- Clarified the continuity-income exception: Lane A private research does not activate
+  the Phase 8+ public content/audience asset class or authorize publishing.
+- With Chris's explicit approval, the MEDIUM Capability Library mismatch was corrected:
+  desk simulation completed/live validation unrun, with maturity kept at draft. Full report:
+  `00-BRAIN\Session_Logs\CASTLE_SYSTEM_REVIEW_2026-07-14.md`.
+- Next action: resume the paused Physics
+  Stage 3 vector-addition problem. No new architecture pass is warranted.

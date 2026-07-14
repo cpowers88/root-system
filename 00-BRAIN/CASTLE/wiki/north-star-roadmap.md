@@ -4,7 +4,7 @@ tags: [north-star, roadmap, reference]
 ---
 
 # North Star Roadmap — The Master Pathway
-### Controlling source: `.ROOT\01-NORTH_STAR\NORTH_STAR.md` | Updated: July 11, 2026
+### Controlling source: `.ROOT\01-NORTH_STAR\NORTH_STAR.md` | Updated: July 14, 2026
 
 ## The Destination
 
@@ -36,6 +36,12 @@ Sequencing rule: retainer systems fund and validate everything else. No asset cl
 jumps its phase without a validated demand signal — "do not productize until
 validated" (NORTH_STAR.md).
 
+The July 14 continuity-income response is a bounded evidence exception, not a phase
+override. Revenue Lab may research and privately test a lane because keeping Chris
+enrolled serves the school spine. Lane A does not activate a public content/audience
+asset: no channel, publishing, monetization, affiliate, or paid-tool action is
+authorized without a later gate and Chris's explicit approval.
+
 ## The Three Tracks (fixed priority — from NORTH_STAR.md)
 
 1. **School (the spine)** — BS Industrial & Systems Engineering, KSU. Aug 24, 2026 →
@@ -64,13 +70,19 @@ Full detail per phase: [[phase-map]] → `phases/` pages.
 
 ## What Matters RIGHT NOW (July 2026)
 
-1. **[[ksu-academic-tracker]]** — the active proof project (~July 25 deadline).
-   It IS the SQL practice — the #1 skill gap per [[current-position]].
-2. **CS50P** — Python depth, PS2 onward.
-3. **Physics + TCOM prep** — show up loaded on August 24.
-4. One 30-min technology-landscape rep weekly (first: Make.com, Looker Studio).
-5. One practice Value Stream Map on a real process before the semester.
-6. Quietly collect real-estate workflow observations through Heather's warm network when available; no outreach campaign before the First Contact phase.
+1. **Physics + Python preparation** — protect August 24 school readiness; resume the
+   paused Physics Stage 3 vector-addition problem first.
+2. **[[ksu-academic-tracker]]** — V1 is shipped. Enter real D2L/syllabus data around
+   July 25 and use it daily; keep SQL practice focused rather than expanding scope.
+3. **Financial continuity evidence** — maintain Lane A's private scanner proof and
+   human-classify its combined top 100 when scheduled. Run B2's one external proof
+   conversation only after Chris explicitly approves it.
+4. One 30-min technology-landscape rep weekly; approved Revenue Lab technical proof
+   may replace this block rather than add another one.
+5. One live workflow observation, then convert that evidence into the first practice
+   Value Stream Map before the semester.
+6. Quietly collect real-estate workflow observations through Heather's warm network
+   when available; no outreach campaign before the First Contact phase.
 
 **High-load school window: Oct 5 – Nov 11, 2026. Protect fixed commitments;
 AI warns once before optional expansion, then follows Chris's direction.**
