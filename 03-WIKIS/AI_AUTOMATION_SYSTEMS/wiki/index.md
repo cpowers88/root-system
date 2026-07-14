@@ -77,10 +77,11 @@ themselves — twenty pages total, plus a new pending proposal. See `log.md`.
   the vetting screen and the failure-evidence counterweight to the
   capability sources.
 - [The LLM-Wiki Pattern and Its Second-Brain Implementations](llm-wiki-pattern-and-second-brain-tools.md)
-  — Karpathy's pattern + three implementations compared against `.ROOT`
-  practice; what was adopted into the Wiki Shared Layer (lint,
-  update-over-create, contradiction flags, recency markers) and what was
-  rejected (hot cache, self-rewriting scheduled agents).
+  — Karpathy's pattern + implementations compared against `.ROOT` practice;
+  July 14 clipping audit adds source-priority criteria, temporal/variant/true-
+  contradiction classification, a primary-source research queue, and current
+  evidence against “compiled wiki always replaces RAG.” Hot cache and
+  self-rewriting scheduled agents remain rejected.
 - [Workflow Automation Tools — 2026 Landscape Snapshot](workflow-automation-tools-landscape.md)
   — Zapier-blog category map (10 tools, pricing as of 2026-06) with a
   provenance warning (Make.com omitted by its rival); the
@@ -268,4 +269,4 @@ themselves — twenty pages total, plus a new pending proposal. See `log.md`.
   `check_at` follow-up.
 
 ---
-*Last updated: July 13, 2026 (CASTLE approved the belief/proposal pilot and weekly staleness spot-check)*
+*Last updated: July 14, 2026 (Second Brain clipping audit + bounded evidence updates)*

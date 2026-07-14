@@ -22,10 +22,21 @@ Phase progression is tag-filtered: `tag:#phase-1` foundation → `tag:#phase-2` 
 A template gets used with a real prospect/client, not just read. Every page has a **Practical Actions** and **Revenue Connection** section — proof is the artifact that came out of using them, not the plan itself.
 
 ## Outputs and Where They Go
-Ask: "Instantiate [template] for [prospect]" → the filled output goes to `.ROOT\05-BUSINESS` (proposals, pricing worksheets, case studies), never staying here. New blank templates get built here only when a phase page calls for them. This wiki keeps the blank master; `05-BUSINESS` keeps the used copy.
+Ask: "Instantiate [template] for [prospect]" → the filled output goes to the
+authorized client workspace outside `.ROOT`, never staying in the wiki. New
+blank templates get built here only when a phase page calls for them. This wiki
+keeps the blank master; `05-BUSINESS` may keep only sanitized reusable learning,
+approved case studies, and non-sensitive metadata.
 
 ## Boundaries
-This wiki designs the business — it does not track projects (CASTLE), store client files (`05-BUSINESS`), or teach skills (`03-WIKIS\PYTHON`). New pathway ideas pass the castle's `adding-a-profit-skill` gate first. Re-reading plans is not progress; the plans exist so you can stop planning.
+This wiki designs the business — it does not track projects (CASTLE), store
+active client files (separate authorized client workspace outside `.ROOT`), or
+teach skills (`03-WIKIS\PYTHON`). New pathway ideas pass the castle's
+`adding-a-profit-skill` gate first. Re-reading plans is not progress; the plans
+exist so you can stop planning.
+
+Active client-specific/private work stays in a separate client workspace or
+repository outside `.ROOT`; only sanitized reusable learning returns here.
 
 ## How the Hub Learns From Use
 Update pages when reality disagrees with them — a real call, a real price objection, a real delivery. Keep the phase tag as the FIRST tag; if a page's timing changes, move its tag (`CLAUDE.md § Phase Tags`).
@@ -43,8 +54,8 @@ Pre-First-Contact. Track 1 (school) and Track 2 (Python/SQL, tracker) are the co
 - "Which phase-2 pages have I never executed?"
 
 ## Examples
-- *First outreach week*: market-map → pick niche → outreach-scripts instantiated → track in `05-BUSINESS`.
-- *Post-audit*: audit-report-template filled → case-study-template started → retainer-model consulted for the upsell.
+- *First outreach week*: market-map → pick niche → outreach-scripts instantiated → track active prospect details in the separate client workspace.
+- *Post-audit*: audit-report-template filled in the client workspace → approved sanitized case-study version harvested to `05-BUSINESS` → retainer-model consulted for the upsell.
 
 ## Last Updated
-July 13, 2026 — local-root cutover: canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.
+July 14, 2026 — client-workspace privacy reconciliation. Canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.

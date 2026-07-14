@@ -13,9 +13,11 @@ tags: [now, business]
 
 Business research, market direction, offer design, audit method, pricing,
 sales, and fulfillment — the strategy and blank-master layer for Chris's AI
-integration and operational improvement company. Thinking happens here
-before it becomes a client artifact; filled/used client artifacts land in
-`.ROOT\05-BUSINESS` per `WHERE_IT_GOES.md`.
+integration and operational improvement company. Thinking and blank masters
+happen here. Active client-specific/private work lives in a separate client
+workspace or repository outside `.ROOT`; only sanitized lessons, reusable
+methods/assets, approved case studies, and non-sensitive metadata return per
+`WHERE_IT_GOES.md`.
 
 The controlling question:
 
@@ -62,8 +64,9 @@ speed, quality, or management visibility — flag it low priority.
 
 ## System Boundary
 
-- Filled/used client artifacts → `05-BUSINESS`. Blank masters and strategy
-  live here.
+- Active client-specific/private work → separate client workspace or repository
+  outside `.ROOT`. Blank masters and strategy live here; sanitized reusable
+  learning may return to `05-BUSINESS`.
 - `03-WIKIS\SYSTEMS` feeds audit methodology (system dynamics, factory
   physics); `03-WIKIS\TECHNOLOGY` feeds the tool landscape;
   `03-WIKIS\AI_AUTOMATION_SYSTEMS` feeds AI/agent patterns. This wiki is
@@ -187,4 +190,3 @@ repeatable systems.
 
 This wiki exists to produce offers, methods, and client-ready thinking —
 strategy that ends in action, not more strategy.
-

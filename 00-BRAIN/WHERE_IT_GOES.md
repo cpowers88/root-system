@@ -5,7 +5,7 @@ tags: [reference, governance]
 
 # WHERE_IT_GOES.md — File Placement + Naming Authority
 ### THE single source for where files go and what they are called. No other file carries these rules.
-### Last updated: July 11, 2026 (slim pass: folder narrative collapsed to one-liners — deep structure is vault_map.md's job; prior version: 99-ARCHIVE\ARCHIVED_2026-07-11_WHERE_IT_GOES.md)
+### Last updated: July 14, 2026 (intake/client-boundary reconciliation; prior version: 99-ARCHIVE\ARCHIVED_2026-07-11_WHERE_IT_GOES.md)
 ### Rule: One file, one home. If it fits two places, pick the more permanent one.
 
 ---
@@ -30,7 +30,9 @@ Everything else (life, school files, projects, artifacts, reviews) → .ROOT, tr
 ```
 
 There is no single knowledge-refinery hub — each wiki runs its own intake.
-Filled/used client artifacts always land in .ROOT (05-BUSINESS), not in the wikis.
+Active client-specific or private work lives in a separate client workspace or
+repository outside `.ROOT`. Only sanitized lessons, reusable methods/assets,
+approved case studies, and non-sensitive metadata return to `.ROOT`.
 
 ---
 
@@ -42,8 +44,9 @@ Five-year plan, skill gaps, weekly/monthly review? → 01-NORTH_STAR\
 Tied to a specific KSU course? → 02-LIBRARY\00-SCHOOL\[course]\
 Has a deliverable, build, or launch goal? → 02-LIBRARY\.PROJECTS\[NAME]\
 Reusable reference (book, concept, cheat sheet)? → 02-LIBRARY\[domain]\
-Reusable client-facing capability asset? → 05-BUSINESS\06-Capability Library\
-Clients, offers, pricing, proposals, field observations? → 05-BUSINESS\
+Reusable client-facing capability asset or blank master? → 05-BUSINESS\06-Capability Library\ (or matching 05-BUSINESS folder)
+Sanitized field lesson, approved case study, pricing model, or reusable proposal/SOW pattern? → 05-BUSINESS\
+Active client-specific/private artifact or engagement workspace? → separate client workspace/repository outside `.ROOT`
 Manual file dropped from outside `.ROOT`? → 77-INBOX\ (clear weekly)
 Automatic Obsidian web clipping? → Clippings\ at the `.ROOT` root (clear weekly)
 Personal reflection or private processing? → 88-JOURNAL\ (AIs do not read)
@@ -113,10 +116,12 @@ One copy, zero drift.
 - **02-LIBRARY\** — reusable knowledge by numbered domain (00-SCHOOL,
   01-PHYSICS … 10-HEALTH, 99-MISC). PDFs for books, `.md` for notes. NOT
   here: project files.
-- **05-BUSINESS\** — the money system: 01-Audit Templates, 02-Field Notes,
-  03-Case Studies, 04-Pricing Models, 05-Proposals & SOWs, 06-Capability
-  Library (reusable client-facing assets indexed by APQC process). NOT here:
-  business reference books (→ 02-LIBRARY\05-BUSINESS).
+- **05-BUSINESS\** — the reusable and sanitized money system: 01-Audit
+  Templates, 02-Field Notes, 03-Case Studies, 04-Pricing Models, 05-Proposals
+  & SOWs, 06-Capability Library (reusable client-facing assets indexed by APQC
+  process). NOT here: active client-specific/private work (→ separate client
+  workspace/repository outside `.ROOT`) or business reference books
+  (→ 02-LIBRARY\05-BUSINESS).
 - **77-INBOX\** — manual external-file landing zone; nothing lives here past one weekly review.
 - **Clippings\** — automatic Obsidian clipping intake at the `.ROOT` root; nothing lives here past one weekly review.
 - **88-JOURNAL\** — private; no AI reads this folder.
@@ -148,7 +153,8 @@ CASTLE orients and sequences, it does not do a wiki's primary research
 
 When wiki knowledge becomes a client-facing or system artifact, the artifact
 lives in the normal Second Brain location:
-- audit method or business artifact → `05-BUSINESS`
+- reusable/sanitized audit method or business artifact → `05-BUSINESS`
+- active client-specific/private work → separate client workspace/repository outside `.ROOT`
 - active build artifact → `02-LIBRARY\.PROJECTS`
 - stable reference material → `02-LIBRARY`
 - system decision or handoff → `00-BRAIN\Session_Logs`
@@ -206,4 +212,4 @@ tagging scheme — extend this one.
 - `.txt` — quick captures in 88-JOURNAL only; convert to `.md` when permanent
 
 ---
-*Last updated: July 11, 2026 (slim pass) | Location: 00-BRAIN\WHERE_IT_GOES.md*
+*Last updated: July 14, 2026 (intake/client reconciliation) | Location: 00-BRAIN\WHERE_IT_GOES.md*

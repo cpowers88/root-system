@@ -237,3 +237,13 @@ tags: [log]
   outcome recorded.
 - Next action is unchanged: B2 external proof only with Chris approval; Lane A
   resumes with human classification, not more scanning.
+
+## 2026-07-14 — Vendor RPM clipping classified without changing Lane A
+
+- Routed the OutlierKit “19 Most Profitable YouTube Niches 2026” clipping to
+  this hub's immutable `raw/` because it is relevant to the active scanner.
+- Classified it as Tier 3 market-claim input: undisclosed dashboard evidence
+  plus a direct product-sales conflict. It may suggest scanner categories but
+  does not verify RPM or alter the evidence-only scorecard.
+- Next: classify the scanner's combined top 100 from reproducible public API
+  output; do not substitute vendor niche rankings for that evidence.

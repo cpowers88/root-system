@@ -426,3 +426,14 @@ four lines above it). No content pages added or removed.
   milestone. No offer, client, or business phase was opened.
 - Next action: normal business cadence; continuity-income tests remain in
   REVENUE_LAB and consulting assets remain here.
+
+## 2026-07-14 — Client-workspace privacy boundary reconciled
+
+- Updated the Business hub OS, human guide, and index to match the approved
+  privacy boundary: active client-specific/private work lives in a separate
+  authorized client workspace or repository outside `.ROOT`.
+- `.ROOT` keeps blank masters, sanitized lessons, reusable methods/assets,
+  approved case studies, and non-sensitive metadata only.
+- Next: before the First Contact phase opens, create no client workspace. When
+  real client work begins, define that external boundary in the engagement's
+  own instructions and agreement.

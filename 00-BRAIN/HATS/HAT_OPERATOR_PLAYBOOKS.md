@@ -106,9 +106,9 @@ Trigger: any build, project, or engagement reaching done — including
 personal builds (tracker, POL).
 1. Confirm the outcome against the kickoff's success criteria, with evidence.
 2. Ask the harvest question: what reusable asset did this produce?
-   - Template / playbook → BUSINESS wiki (blank master) or 05-BUSINESS
+   - Template / playbook → BUSINESS wiki (blank master) or reusable/sanitized 05-BUSINESS asset
    - Tool / code pattern → note in project docs + castle proof-project page
-   - Case study / proof → 05-BUSINESS\03-Case Studies (when client-based)
+   - Case study / proof → separate client workspace while client-specific; approved sanitized version → 05-BUSINESS\03-Case Studies
    - Lesson worth keeping → handoff → weekly review promotion path
 3. Update proof-project or Capability Library maturity when the evidence
    warrants it — draft to tested-internally needs a named test, not a vibe.

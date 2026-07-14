@@ -343,3 +343,12 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
 - Updated the section operating contract to refer to surface capability profiles
   rather than task lanes. No technology research page, boundary, or queue changed.
 - Next action remains the normal technology-landscape rep cadence.
+
+## 2026-07-14 — Google OAuth reference routed from Clippings
+
+- Moved the official Google “Using OAuth 2.0 to Access Google APIs” clipping
+  into this hub's immutable `raw/` as an applied technical reference.
+- No derived page was created: the current Second Brain review did not require
+  OAuth implementation, and source ingestion is not proof of use.
+- Next: ingest or cite it only when an authorized Google API project needs an
+  OAuth flow decision; credentials and secrets never enter the vault.

@@ -7,7 +7,7 @@ tags: [reference, governance]
 
 **Date:** July 14, 2026  
 **Authority:** Chris-approved execution of the July 14 `.ROOT` update plan  
-**Result:** implemented and validated
+**Result:** implemented, reconciled, and validated
 
 ## Outcome
 
@@ -44,7 +44,8 @@ constraints on Chris.
   mirror validation/synchronization for `.agents\skills\` and
   `.claude\skills\`.
 - Added `CASTLE\wiki\opportunity-queue.md` with evidence, test, proof, and asset
-  gates; kept internal system friction in `SYSTEM_FLAGS.md`.
+  gates; seeded it with the live B2 proof conversation and Lane A scanner;
+  kept internal system friction in `SYSTEM_FLAGS.md`.
 - Added a separate capability proof ladder to `skill-map.md` and strengthened
   weekly/monthly review templates around output, proof, time saved, revenue,
   and learning-to-application movement.
@@ -54,22 +55,59 @@ constraints on Chris.
   obsolete manual clipping path, and exact pre-change governance snapshots.
   Root `Clippings\` remains the sole active automatic capture path.
 
+## Reconciliation and Clipping Review
+
+The post-implementation audit found semantic contradictions the original
+validator did not catch. The July 14 reconciliation patch corrected them across
+the top-level maps, universal/surface instructions, Business hub, Revenue guide,
+Operator playbook, and Capability Library:
+
+- `77-INBOX\` is manual external-file intake; root `Clippings\` is automatic
+  Obsidian intake.
+- Active client-specific/private work lives in a separate authorized client
+  workspace or repository outside `.ROOT`; only sanitized lessons, reusable
+  methods/assets, approved case studies, and non-sensitive metadata return.
+- Consequential work requires an independent challenger/validator by default;
+  deterministic checks plus disclosure are the bounded fallback when a second
+  surface is unavailable.
+- The opportunity queue now contains the two live evidence-backed items instead
+  of an empty table.
+
+The new Clippings batch was source-classified before promotion. Two AI-system
+articles were preserved in `AI_AUTOMATION_SYSTEMS\raw`, the OutlierKit RPM article
+was routed to `REVENUE_LAB\raw` as Tier 3 market-claim input, and Google's OAuth
+page was routed to `TECHNOLOGY\raw`. Four promotional/search captures were
+preserved in `99-ARCHIVE\ARCHIVED_2026-07-14_CLIPPINGS_SECOND_BRAIN_REVIEW`.
+Only two system mechanics earned promotion: source prioritization and
+temporal-update/context-variant/true-contradiction classification. Autonomous
+heartbeats, self-repair, and promotional revenue claims did not.
+
 ## Validation Evidence
 
 - `sync_shared_skills.py --check`: PASS — 4 canonical skills, 2 mirrors, hashes
   identical.
-- `validate_boot_chain.py`: PASS — 30 boot files and 1,104 live pages scanned;
-  no stale governance references.
-- `wiki_lint.py --strict`: PASS — 9 hubs, 0 blockers, 0 review debt.
+- `validate_boot_chain.py`: PASS — 30 boot files and 1,098 live pages scanned;
+  no stale governance references or high-impact semantic-contract drift.
+- `wiki_lint.py --strict`: PASS — 9 hubs, 1,149 vault pages, 0 blockers, 0
+  review debt; 716 classified expected items.
+- `python -m py_compile 00-BRAIN\scripts\validate_boot_chain.py`: PASS.
 - `git diff --check`: PASS.
-- Protected-path status scan: no `88-JOURNAL` or `raw\` changes.
-- Frontmatter audit: 1,141 files checked; 638 existing review findings. The new
+- Protected-path check: no `88-JOURNAL` changes. Four raw source files were moved
+  intact under Chris's explicit authorization for this clipping review; no
+  existing raw source was edited.
+- Frontmatter audit: 1,137 files checked; 626 existing review findings. The new
   skill schema is intentionally excluded because skill frontmatter follows the
   Codex `name`/`description` contract rather than vault `type`/timeline tags.
 
 The bundled skill quick-validator could not run because PyYAML is not installed.
 No dependency was added; the repository's deterministic validator checks folder
 names, required metadata, and exact normalized content parity instead.
+
+No independent second-model review was available during the reconciliation.
+The bounded fallback was the expanded semantic validator, strict wiki lint,
+source/routing verification, full live-term sweeps, Python compilation, and diff
+inspection; Chris may still send the final report to ATLAS for an independent
+challenge.
 
 ## Checkpoints
 

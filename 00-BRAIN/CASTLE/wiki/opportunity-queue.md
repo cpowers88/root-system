@@ -39,6 +39,8 @@ it independently becomes a commercial or strategic opportunity.
 
 | ID | Captured | Type | Signal | Evidence | Status | Priority | Owner realm | Next test/action | Review date | Result / asset |
 |---|---|---|---|---|---|---|---|---|---|---|
+| OPP-20260714-01 | 2026-07-14 | learning-to-application | Contractors may pay for remote estimating/change-order support, but Chris-specific demand is untested. | [[../../../03-WIKIS/REVENUE_LAB/wiki/revenue-lane-scorecard#B2 — Direct-network estimating / change-order support]] | worth testing | urgent | `03-WIKIS\BUSINESS` + `REVENUE_LAB` evidence | After Chris approves the external conversation, replay one change order with the contractor friend and record whether he would pay; one conversation only. | 2026-07-21 | — |
+| OPP-20260714-02 | 2026-07-14 | learning-to-application | A YouTube public-data outlier scanner compounds Python/SQL/API skill while testing whether a viable content niche exists. | [[../../../03-WIKIS/REVENUE_LAB/wiki/yt-outlier-scanner-first-findings-2026-07-14]] | active build/offer | high | `03-WIKIS\REVENUE_LAB` | Human-classify the combined top 100, then produce the format-separated niche shortlist; no channel, posting, or monetization action. | 2026-07-28 | First internal scanner evidence linked; income/RPM still unverified. |
 
 ## Status Gates
 

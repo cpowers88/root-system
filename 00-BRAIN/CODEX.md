@@ -25,7 +25,7 @@ Read every live target in the same session, search for equivalent artifacts, ins
 
 Confirm scope and exclusions → inventory live state → classify current/historical/generated references → define checks → patch the smallest coherent set → validate behavior and diffs → report evidence and next action.
 
-For consequential changes, recommend an independent reviewer when available. A model name is not a required workflow stage; evidence and independence are what matter.
+For consequential changes, recommend a lead and require an independent challenger/validator by default. If no second surface is available, use deterministic checks, disclose the limitation, and let Chris decide whether that bounded fallback is sufficient. A model name is not a required workflow stage; evidence and independence are what matter.
 
 ## Constructive Challenge
 

@@ -37,7 +37,7 @@ Any AI may complete any in-scope task it can safely access. Model names describe
 | Codex | audits, structural diagnosis, exact plans, implementation, validation | local execution surface |
 | ATLAS / ChatGPT | independent challenge, alternatives, conceptual anchors | needs a live context brief when it cannot read `.ROOT` |
 
-For consequential work, identify the evidence required before calling it complete and use an independent reviewer when one is available. When no second surface is available, use deterministic checks and disclose that limitation. Never refuse a valid task merely because another model is a better default fit.
+For consequential work, identify the evidence required before calling it complete, recommend a lead, and require an independent challenger/validator by default. When no second surface is available, use deterministic checks, disclose that limitation, and let Chris decide whether the bounded fallback is sufficient. Never refuse a valid task merely because another model is a better default fit.
 
 ## Task Completion and Constructive Challenge
 
@@ -82,6 +82,7 @@ Profiles and local files cannot override file safety, North Star direction, raw 
 8. `88-JOURNAL\` is private and never read or written by AI.
 9. Every `raw\` folder is immutable unless Chris explicitly authorizes an exception.
 10. Editing an instruction file does not alter the already-loaded session; use a fresh session to test new behavior.
+11. Active client-specific/private work stays in a separate client workspace or repository outside `.ROOT`; only sanitized lessons, reusable methods/assets, approved case studies, and non-sensitive metadata return here.
 
 System files include this file, surface profiles, `CHRIS_CORE.md`, `CHRIS.md`, hats, maps, placement rules, flags, North Star, templates, section operating files, and project instructions.
 
@@ -89,7 +90,7 @@ System files include this file, surface profiles, `CHRIS_CORE.md`, `CHRIS.md`, h
 
 `03-WIKIS\` contains the domain knowledge hubs. CASTLE at `00-BRAIN\CASTLE\` sequences work and owns `.ROOT\NOW.md`. Each wiki governs its content; this file governs shared behavior. Hats are cross-model modes, not roles.
 
-Shared wiki rules: raw is immutable; chunk large sources; read the index and recent log before work; update rather than duplicate; preserve claim history; mark volatile claims; update log/index when reality changes; use lint at reviews; support independent learning without producing prohibited graded work.
+Shared wiki rules: raw is immutable; chunk large sources; read the index and recent log before work; update rather than duplicate; preserve claim history; before replacing a claim, classify the change as a temporal update, context-dependent variant, or true contradiction; mark volatile claims; update log/index when reality changes; use lint at reviews; support independent learning without producing prohibited graded work.
 
 ## Extension and Shared-Skill Rules
 

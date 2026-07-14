@@ -29,7 +29,9 @@ A research page is not proof. A ranked scorecard is not proof.
 ## Outputs and Where They Go
 Lane research and scorecards → pages here. A lane ready to build → CASTLE
 profit gate, then a proof project tracked here with real numbers. Money
-system artifacts (pricing, invoices, client-facing files) → `05-BUSINESS`.
+system artifacts (reusable pricing patterns and sanitized client-facing
+assets) → `05-BUSINESS`; active client-specific pricing, invoices, and files →
+the authorized client workspace outside `.ROOT`.
 Skills the lane demands → the owning skill wiki, cross-referenced.
 
 ## Boundaries
@@ -51,9 +53,10 @@ the single next action and, for any lane in motion, its current evidence
 status.
 
 ## Current State
-Hub created July 14, 2026 in response to the school-funding cut. First
-deliverable in progress: the ranked all-lanes evidence scan
-(`wiki/revenue-lane-scan-brief.md`). No lane is approved for build yet.
+Hub created July 14, 2026 in response to the school-funding cut. The all-lanes
+scan is complete. Lane A's research scanner is approved and has first internal
+findings; no channel, posting, outreach, or monetization action is approved.
+B2 remains one external proof conversation requiring Chris's approval.
 
 ## Last Updated
-July 14, 2026 — hub created. Canonical workspace is `C:\Users\chris\.ROOT`.
+July 14, 2026 — scan/scanner state and client-workspace boundary reconciled. Canonical workspace is `C:\Users\chris\.ROOT`.

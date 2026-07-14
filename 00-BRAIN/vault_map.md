@@ -5,7 +5,7 @@ tags: [reference, governance]
 
 # vault_map.md — Powers System Map (.ROOT)
 ### Navigation file. Two levels deep ON PURPOSE — see Map Rule below.
-### Last updated: July 11, 2026 (slim pass: local-machine tree → LOCAL_MACHINE_MAP.md, dated stamps removed; prior version: 99-ARCHIVE\ARCHIVED_2026-07-11_vault_map.md)
+### Last updated: July 14, 2026 (intake/client-boundary reconciliation; prior version: 99-ARCHIVE\ARCHIVED_2026-07-11_vault_map.md)
 ### System: local C: workspace (truth) + Obsidian (capture/graph) + GitHub (code). G: is cloud backup only. Everything lives in .ROOT.
 
 ---
@@ -74,7 +74,7 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── .raw ARCHIVE\      ← general raw source material
 │   └── 01-PHYSICS … 10-HEALTH, 99-MISC  ← reference domains
 │
-├── 03-WIKIS\  ← seven knowledge hubs — folders inside the single .ROOT vault
+├── 03-WIKIS\  ← eight knowledge hubs — folders inside the single .ROOT vault
 │   ├── SYSTEMS\           ← system dynamics + ISYE spine (Sterman, Factory Physics, queuing)
 │   ├── PYTHON\            ← Python/CS engine: stages 0–10
 │   ├── EDUCATION\         ← general KSU support: TCOM, ECON, ENGR
@@ -82,14 +82,16 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── BUSINESS\          ← business research, offers, pricing, audit method, delivery templates
 │   ├── TECHNOLOGY\        ← tech landscape + applied technical reference;
 │   │                         spine: 02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md
-│   └── AI_AUTOMATION_SYSTEMS\ ← AI/agent research + .ROOT self-evolution proposals
+│   ├── AI_AUTOMATION_SYSTEMS\ ← AI/agent research + .ROOT self-evolution proposals
+│   └── REVENUE_LAB\       ← digital revenue-lane evidence, scoring, and bounded tests
 │
-├── 05-BUSINESS\  ← the money system
+├── 05-BUSINESS\  ← reusable and sanitized money-system assets; no active client-private workspace
 │   ├── 01-Audit Templates\ · 02-Field Notes\ · 03-Case Studies\
 │   ├── 04-Pricing Models\ · 05-Proposals & SOWs\
 │   └── 06-Capability Library\ ← APQC-indexed reusable client-facing assets
 │
-├── 77-INBOX\    ← capture landing zone — clear every weekly review (Clippings\ inside)
+├── 77-INBOX\    ← manual external-file intake — clear every weekly review
+├── Clippings\   ← automatic Obsidian web-clipping intake — clear every weekly review
 └── 99-ARCHIVE\  ← nothing gets deleted, it gets archived
 ```
 
@@ -104,6 +106,10 @@ each with its own section operating context. Watchtower signals act only through
 castle's adding-a-profit-skill gate. Placement authority: `WHERE_IT_GOES.md`.
 Local machine (C:/D:) inventory: `LOCAL_MACHINE_MAP.md`.
 
+Active client-specific/private work lives in a separate client workspace or
+repository outside `.ROOT`; only sanitized lessons, reusable methods/assets,
+approved case studies, and non-sensitive metadata return here.
+
 ---
 
 ## Folder Verification — by NAME, not ID
@@ -112,4 +118,4 @@ Standing mechanism: before any write, confirm the parent chain traces to `.ROOT`
 by NAME against the live tree. Folder IDs are retired — do not use them.
 
 ---
-*Last updated: July 11, 2026 (slim pass) | Next review: weekly*
+*Last updated: July 14, 2026 (intake/client reconciliation) | Next review: weekly*

@@ -4,7 +4,7 @@ tags: [reference]
 ---
 
 # START HERE — The Whole System on One Screen
-### For Chris Powers, aka theinternet. Updated July 11, 2026 (North Star + school relocation sync). If anything here confuses you, that's a bug — tell the AI.
+### For Chris Powers, aka theinternet. Updated July 14, 2026 (unified-team reconciliation). If anything here confuses you, that's a bug — tell the AI.
 
 ---
 
@@ -22,12 +22,13 @@ The castle maintains it; if the date is stale, tell the AI.
 |---|---|
 | 📄 `NOW.md` | **Start your day.** One screen, one priority. |
 | 🗼 `...projectSuccess` | **Watch the horizon.** The radar (trends, industry moves, opportunities). Swept weekly; feeds the castle gate. |
-| 🧠 `00-BRAIN` | See/change how the AI operates. `AGENT.md` is the universal OS every engine boots from; lane files (`CLAUDE.md` / `CODEX.md` / `ATLAS.md`) define engine behavior; `HATS\` holds the roles; 🏰 `CASTLE` (the command center — phases, skills, proof projects) lives here too, plus maps, flags, session logs. |
+| 🧠 `00-BRAIN` | See/change how the AI operates. `AGENT.md` is the universal OS every engine boots from; surface profiles (`CLAUDE.md` / `CODEX.md` / `ATLAS.md`) describe strengths and access; `HATS\` holds optional modes; 🏰 `CASTLE` (the command center — phases, skills, proof projects) lives here too, plus maps, flags, session logs. |
 | ⭐ `01-NORTH_STAR` | Read the star. `NORTH_STAR.md` (the controlling document — identity, ratchet, engine, tracks), skill gaps, weekly/monthly reviews. |
 | 📚 `02-LIBRARY` | Grab reference by domain. Also `.PROJECTS` (build docs), `00-SCHOOL` (course files), and `.raw ARCHIVE` (sources). |
-| ⚒️ `03-WIKIS` | Work the seven knowledge hubs: `SYSTEMS` (system dynamics + ISYE spine) · `PYTHON` (Python/CS stages) · `EDUCATION` (general KSU support — TCOM/ECON/ENGR) · `PHYSICS` (physics stages) · `BUSINESS` (offers, pricing, audit method, market research) · `TECHNOLOGY` (tech-adoption roadmap + applied technical reference) · `AI_AUTOMATION_SYSTEMS` (AI/agent research + `.ROOT` self-evolution proposals). Each has a `HOW_TO_USE.md` inside. |
-| 💼 `05-BUSINESS` | The money system: audit templates, field notes, case studies, pricing, proposals. Real client artifacts land here. |
-| 📥 `77-INBOX` | Dump quick captures. Cleared every weekly review. |
+| ⚒️ `03-WIKIS` | Work the eight knowledge hubs: `SYSTEMS` (system dynamics + ISYE spine) · `PYTHON` (Python/CS stages) · `EDUCATION` (general KSU support — TCOM/ECON/ENGR) · `PHYSICS` (physics stages) · `BUSINESS` (offers, pricing, audit method, market research) · `TECHNOLOGY` (tech-adoption roadmap + applied technical reference) · `AI_AUTOMATION_SYSTEMS` (AI/agent research + `.ROOT` self-evolution proposals) · `REVENUE_LAB` (digital revenue evidence and tests). Each has a `HOW_TO_USE.md` inside. |
+| 💼 `05-BUSINESS` | The money system: reusable templates, pricing, sanitized field lessons/case studies, and capability assets. Active client-specific work stays in a separate client workspace outside `.ROOT`. |
+| 📥 `77-INBOX` | Manual files dropped from outside `.ROOT`. Cleared every weekly review. |
+| ✂️ `Clippings` | Automatic Obsidian web-clipping intake at the vault root. Cleared every weekly review. |
 | 🗄️ `99-ARCHIVE` | Find anything retired. Nothing is ever deleted. |
 
 Private inside the live vault: `88-JOURNAL` — no AI ever reads it.
@@ -41,7 +42,7 @@ Every agent, every model, same path — this is wired, not hoped for:
 ```
 C:\Users\chris\.ROOT\CLAUDE.md (router, auto-loads)
   → C:\Users\chris\.ROOT\00-BRAIN\AGENT.md    (universal OS: star, school status, file safety, when to stop)
-  → lane file: CLAUDE.md / CODEX.md / ATLAS.md   (engine behavior)
+  → surface profile: CLAUDE.md / CODEX.md / ATLAS.md   (strengths + access notes)
   → CHRIS_CORE.md                 (who you are, how you work)
   → optional HATS\ mode           (Operator / Educator / subject hat, if useful)
   → the section's own operating file
@@ -107,7 +108,7 @@ Daily rep   → tracker / SQL / course work
 Every task  → AI appends a 4-line block to the day's report (00-BRAIN\Session_Logs\DAILY_…)
 Night       → Day Summary consolidates the blocks, then each AI used today writes its handoff (1–2/day)
 Sources     → feed books/docs directly to the relevant 03-WIKIS hub — each refines its own domain
-Business    → refined knowledge → BUSINESS templates → 05-BUSINESS client assets
+Business    → refined knowledge → BUSINESS templates → reusable/sanitized 05-BUSINESS assets
 Horizon     → weekly Watchtower sweep — signals route through the castle gate
 Sunday      → weekly review + Engine Question (01-NORTH_STAR\Weekly Reviews)
 Monthly     → weak-link check + every wiki's timeline tags move forward
@@ -123,7 +124,7 @@ makes sure the target never stops moving. **October 8, 2031 — floor, not finis
 
 ## Rules of the Realm (human version)
 
-1. One file, one home. Not sure? → `77-INBOX`; the weekly review files it.
+1. One file, one home. Manual unknowns → `77-INBOX`; automatic web clips → root `Clippings`; the weekly review files both.
 2. Nothing gets deleted — it gets archived.
 3. `88-JOURNAL` is yours alone.
 4. Oct 5 – Nov 11, 2026 is a high-load school window. AI warns once if optional work threatens fixed commitments, recommends the smallest safe scope, then follows Chris's decision.

@@ -12,6 +12,8 @@ hats, hub operating files). Encodes the unified-team governance checks:
      "shifts the color groups")
   4. No active exclusive-model or absolute danger-week doctrine remains
   5. Canonical shared skills match both product discovery mirrors
+  6. High-impact semantic contracts remain reconciled across human maps,
+     placement rules, the universal OS, and the opportunity queue
 
 Read-only. Exit 0 = PASS, 1 = FAIL.
 Usage (from .ROOT):  python 00-BRAIN/scripts/validate_boot_chain.py
@@ -69,9 +71,63 @@ CHECKS = [
 def main() -> int:
     failures = []
 
+    def read(rel: str) -> str:
+        return (ROOT / rel).read_text(encoding="utf-8", errors="replace")
+
+    def require(rel: str, pattern: str, why: str) -> None:
+        if not re.search(pattern, read(rel), re.I | re.M | re.S):
+            failures.append(f"{rel} missing semantic contract: {why}")
+
+    def forbid(rel: str, pattern: str, why: str) -> None:
+        if re.search(pattern, read(rel), re.I | re.M | re.S):
+            failures.append(f"{rel} contains stale semantic claim: {why}")
+
     for f in BOOT_FILES:
         if not f.exists():
             failures.append(f"MISSING boot file: {f}")
+
+    # Cross-file semantic contracts that simple stale-word scans cannot catch.
+    for rel in ("START_HERE.md", "00-BRAIN/vault_map.md",
+                "ROOT_OPERATING_MANUAL.md"):
+        require(rel, r"77-INBOX.{0,100}manual|manual.{0,100}77-INBOX",
+                "77-INBOX is the manual external-file intake")
+        require(rel, r"Clippings.{0,120}automatic|automatic.{0,120}Clippings",
+                "root Clippings is automatic Obsidian intake")
+    forbid("00-BRAIN/vault_map.md", r"77-INBOX[^\n]*Clippings\\ inside",
+           "Clippings nested inside 77-INBOX")
+    forbid("START_HERE.md", r"Real client artifacts land here",
+           "active client artifacts stored in 05-BUSINESS")
+    forbid("ROOT_OPERATING_MANUAL.md", r"filled business/client artifact",
+           "active client artifacts stored in 05-BUSINESS")
+    for rel in ("00-BRAIN/AGENT.md", "00-BRAIN/WHERE_IT_GOES.md",
+                "ROOT_OPERATING_MANUAL.md", "03-WIKIS/BUSINESS/CLAUDE.md",
+                "03-WIKIS/BUSINESS/HOW_TO_USE.md",
+                "05-BUSINESS/06-Capability Library/README.md"):
+        require(rel, r"client-specific.{0,140}(separate client workspace|outside `?\.ROOT`?)",
+                "active client-specific work stays outside .ROOT")
+    for rel in ("00-BRAIN/AGENT.md", "00-BRAIN/CODEX.md",
+                "00-BRAIN/CLAUDE.md", "ROOT_OPERATING_MANUAL.md"):
+        require(rel, r"independent challenger/validator",
+                "consequential work has an independent challenge default")
+    forbid("START_HERE.md", r"lane files?.{0,100}HATS.{0,30}roles",
+           "retired surface-lane and HATS-role terminology")
+    forbid("03-WIKIS/BUSINESS/CLAUDE.md",
+           r"filled/used client artifacts.{0,80}05-BUSINESS",
+           "active client instances routed into .ROOT/05-BUSINESS")
+    forbid("03-WIKIS/BUSINESS/HOW_TO_USE.md",
+           r"filled output goes to `?\.ROOT\\05-BUSINESS",
+           "active client instances routed into .ROOT/05-BUSINESS")
+    forbid("03-WIKIS/BUSINESS/wiki/index.md",
+           r"Filled client artifacts live in `?\.ROOT\\05-BUSINESS",
+           "active client instances routed into .ROOT/05-BUSINESS")
+    forbid("05-BUSINESS/06-Capability Library/README.md",
+           r"client instance.{0,180}matching `?05-BUSINESS",
+           "active client instances routed into .ROOT/05-BUSINESS")
+    require("00-BRAIN/AGENT.md",
+            r"temporal update.{0,100}context-dependent variant.{0,100}true contradiction",
+            "wiki claim changes are classified before replacement")
+    require("00-BRAIN/CASTLE/wiki/opportunity-queue.md", r"\| OPP-\d{8}-\d{2} \|",
+            "the live opportunity queue contains at least one evidence-backed item")
 
     # Deterministic safety baseline: Claude project settings must parse and
     # preserve the private/raw boundaries defined by AGENT.md.

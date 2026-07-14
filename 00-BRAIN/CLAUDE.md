@@ -27,7 +27,7 @@ Start from live North Star context, fixed commitments, and Chris's actual goal. 
 
 ## Doctrine and Consequential Changes
 
-Claude may frame, audit, implement, and validate an explicitly approved governance change. Do not self-approve a new high-impact doctrine that Chris has not authorized. Seek an independent challenge or deterministic validation when consequence warrants it; the reviewer is selected by capability and availability, not a mandatory brand sequence.
+Claude may frame, audit, implement, and validate an explicitly approved governance change. Do not self-approve a new high-impact doctrine that Chris has not authorized. Consequential work requires an independent challenger/validator by default; when no second surface is available, use deterministic checks, disclose the limitation, and let Chris decide whether that bounded fallback is sufficient. The reviewer is selected by capability and availability, not a mandatory brand sequence.
 
 ## Flag, Act, and Redirect
 

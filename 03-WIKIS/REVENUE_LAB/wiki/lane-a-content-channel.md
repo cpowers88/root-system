@@ -140,3 +140,14 @@ platform-transparent source before it can affect the scorecard.
 - [YouTube Data API — Quota Calculator](https://developers.google.com/youtube/v3/determine_quota_cost)
 - [YouTube Data API — videos.list](https://developers.google.com/youtube/v3/docs/videos/list)
 - [YouTube Data API — playlistItems.list](https://developers.google.com/youtube/v3/docs/playlistItems/list)
+
+### July 14 Market-Claim Clipping — Input, Not Proof
+
+`raw/19 Most Profitable YouTube Niches 2026 (Real RPM Data).md` is an
+OutlierKit vendor article that claims niche RPM/CPM ranges and describes an
+outlier-detection method. It does not expose the underlying creator dashboards
+or a reproducible dataset, and it sells the named analysis tool. Preserve it as
+a Tier 3 market hypothesis/source lead only: it may suggest categories for the
+scanner, but it does not change the scorecard, validate RPM, or justify a
+channel decision. Any useful claim must be reproduced from public API data or
+verified against a traceable primary source.

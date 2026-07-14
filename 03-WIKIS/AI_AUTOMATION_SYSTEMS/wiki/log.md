@@ -974,3 +974,18 @@ canonical-workspace rule in `00-BRAIN`.
   repeated evidence.
 - Next: validate the unified operating model in normal use and review friction
   at the next weekly/monthly cadence.
+
+## 2026-07-14 — Clippings triaged; two bounded knowledge-maintenance deltas applied
+
+- Reviewed the July 14 Second Brain/AI-OS clipping batch. Promoted only source
+  prioritization and the temporal-update/context-variant/true-contradiction
+  distinction; the larger raw/wiki/index/log architecture was already live.
+- Preserved the two useful source articles in this hub's immutable `raw/` and
+  archived the promotional duplicates/search capture as reference/noise.
+- Added a primary-source research queue and corrected “wiki replaces RAG” into
+  an evidence-based tradeoff using three 2026 research papers. Nightly
+  heartbeats, autonomous repair, and marketing/revenue claims remain rejected.
+- Applied Chris-authorized governance reconciliation in the universal OS and
+  human maps; expanded `validate_boot_chain.py` with semantic contract checks.
+- Next: normal use first. Inspect one queued primary mechanism only when a
+  concrete failure or review question gives it a job.
