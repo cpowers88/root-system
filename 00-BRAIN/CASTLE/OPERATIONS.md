@@ -90,6 +90,8 @@ on top of its roadmap role:
 
 - **Weekly sweep** (alongside the existing Watchtower sweep): read each wiki's
   `log.md` and summarize what moved.
+- **Staleness spot-check:** rotate one active guide or dashboard; compare its
+  stated current state against the live source it names, and flag any mismatch.
 - Maintain `00-BRAIN\vault_map.md` and `.ROOT\.obsidian\graph.json`'s color groups
   so the map stays an accurate, readable picture of the whole tree.
 - Flag drift into `SYSTEM_FLAGS.md`: a wiki's `index.md` going stale, a wiki
