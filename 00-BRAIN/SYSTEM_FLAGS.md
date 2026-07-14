@@ -5,7 +5,7 @@ tags: [now, governance]
 
 # SYSTEM_FLAGS.md — Open Improvement Flags
 ### Location: 00-BRAIN\ | Check at every session start.
-### Last updated: July 14, 2026 (flag 73 raised — funding cut / NORTH_STAR amendment)
+### Last updated: July 14, 2026 (flag 73 closed; unified operating-model update validated)
 
 ---
 
@@ -30,7 +30,6 @@ If the same flag is re-raised after being closed, it comes back as HIGH.
 
 | # | Flag | Raised | Priority | Target | Status |
 |---|---|---|---|---|---|
-| 73 | **NORTH_STAR.md needs a Chris-approved amendment for the July 14 funding cut.** Chris disclosed a major cut in school funding: additional income is required to continue studies past the Fall 2026 semester. This is recorded in `NOW.md` and `DAILY_2026-07-14.md`, and drove the Chris-approved creation of `03-WIKIS\REVENUE_LAB\`. But NORTH_STAR.md still reads as if income first arrives with the March 2027 first client — its constraints/known-risks and financial-timeline language no longer match the controlling financial fact. Amendment needs Chris's approved wording (doctrine change, lane sequence applies). | July 14 | MEDIUM | `01-NORTH_STAR\NORTH_STAR.md` — amend income timeline/constraints once the revenue lane scan (~July 21) gives the amendment real content; hard ceiling: next weekly review | OPEN |
 | 57 | **EDUCATION syllabus data-quality gaps** (recorded on `fall-2026-course-briefs.md`): the ENGR 1000 syllabus in raw/ is the **Fall 2025 edition** — its policies (including the total AI prohibition) must be reverified against the real Fall 2026 syllabus when KSU posts it; TCOM 2010's schedule table carries recycled January/Spring dates inside a Fall 2026 header (weekly rhythm probably right, printed dates wrong — trust D2L); TCOM's assignment-weights table is cut off in the source scan — pull the real table from D2L in week 1. | July 9 | MEDIUM | Update `03-WIKIS\EDUCATION\wiki\fall-2026-course-briefs.md` when Fall 2026 ENGR syllabus + D2L are available; hard ceiling Aug 24 | OPEN |
 | 51 | Castle's "calendar-encoded capacity" (OPERATIONS.md rule 8) verified against the live calendar. Chris simplified the mechanism same-day: blocks are now labeled **"CASTLE"** directly on the "North Star Calendar" (no more two-calendar overlay). Numbers confirmed: ~24h15m/wk CASTLE-tagged + 10h/wk weekday FLOAT ≈ OPERATIONS.md's "~26h dedicated + ~10h float" — mechanism now clean and simple. Remaining gap: CASTLE-tagged blocks stop after **Aug 22-23, 2026** — nothing is tagged CASTLE from Fall semester start onward, and the semester-week calendar template (checked Aug 24 – Sep 2, re-checked after Chris's fix) still has only class-meeting blocks, no FLOAT/CASTLE/study time. Phase 1 needs a semester study/tech-practice block built and CASTLE-tagged before classes start. | July 7 | LOW | Extend CASTLE tagging + build semester weekly template before Aug 24 (~7 weeks out; not yet in the "within 2 weeks" action window) | OPEN — labeling mechanism fixed same day; semester-gap piece still open |
 | 16 | Spin rule / right-hand rule needs physical anchor from Atlas. Covers: cross product, torque, angular velocity, and future magnetic field direction. Curl fingers in direction of rotation, thumb points to vector. Must be anchored before these topics appear in PHYS 2211. | June 9 | LOW | Atlas / Physics sessions | OPEN — **approaching**: Chris is now working Vectors (Serway Ch 3) per castle current-position (July 8); cross product is next door. Atlas should anchor it in the next physics session that touches vector products. |
@@ -43,6 +42,7 @@ If the same flag is re-raised after being closed, it comes back as HIGH.
 
 | # | Flag | Raised | Closed | Fix |
 |---|---|---|---|---|
+| 73 | NORTH_STAR income timeline did not reflect the July 14 school-funding cut | July 14 | July 14 | Added the continuity-income constraint, a before-Spring-2027 revenue milestone, and a funding-continuity risk. March 2027 is now explicitly the first consulting-client target, not the first-dollar target; Revenue Lab remains the evidence-first test surface. |
 | 72 | `frontmatter_audit.py` omitted `88-JOURNAL` from its exclusion set, so a read-only metadata audit could traverse the private journal boundary | July 13 | July 13 | Added `88-JOURNAL` to the script's excluded path components; rerun must confirm the audit no longer reports or traverses journal paths. No journal content was surfaced in the audit output. |
 | 70 | Codex CLI native Windows sandbox was missing its setup helper and the Drive workspace could not complete ACL setup | July 12 | July 13 | Reinstall restored the helper; Chris established `C:\Users\chris\.ROOT` as the canonical local workspace, and this unelevated session is operating there. Drive ACL compatibility is no longer a working-tree blocker. `approval_policy = "on-request"` and network denial remain intentional safeguards. |
 | 71 | C: local-root cutover needed a verified cloud backup without restoring G: as a working tree | July 13 | July 13 | Chris confirmed Drive for desktop is syncing exactly `C:\Users\chris\.ROOT` under **Computers → this PC → .ROOT** and the live folder/files display green sync marks. `G:\My Drive\.ROOT` remains a legacy recovery snapshot only. |
@@ -57,4 +57,4 @@ If the same flag is re-raised after being closed, it comes back as HIGH.
 
 ---
 *Maintained by: Claude + Chris | Reviewed: every session start (HIGH), weekly (MEDIUM), monthly (LOW)*
-*Last updated: July 13, 2026*
+*Last updated: July 14, 2026*

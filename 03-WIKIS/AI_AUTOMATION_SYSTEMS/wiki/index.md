@@ -196,9 +196,10 @@ themselves — twenty pages total, plus a new pending proposal. See `log.md`.
   opaque encrypted item, Claude's is a human-readable re-injected summary.
 - [Building a Second Brain — Applied to `.ROOT`](building-a-second-brain-root-application.md)
   — full-book self-evolution audit (Tiago Forte, CODE/PARA); verdict:
-  validates the architecture, no PARA rebuild; four narrow operating
+  validates the architecture, no PARA rebuild; five narrow operating
   upgrades adopted (capture filter, Hemingway Bridge merged into the
-  Handoff Ritual, kickoff/completion checklist, 3-page At a Glance pilot).
+  Handoff Ritual, kickoff/completion checklist, 3-page At a Glance pilot,
+  and July 14 DIVERGE/CONVERGE modes governing AI behavior rather than Chris).
 - [Self-Improving Agent Architectures: GBrain, loopany, and the Closed-Loop Pattern](self-improving-agent-architectures-gbrain-loopany-closed-loop.md)
   — full architectural ingest (CASTLE-routed from `Clippings\`): GBrain's
   entity-brain (hybrid search, self-wiring graph, agent-authored schema

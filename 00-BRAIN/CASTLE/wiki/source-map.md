@@ -13,7 +13,7 @@ tags: [sources, reference]
 |---|---|---|---|---|
 | NORTH_STAR.md | `01-NORTH_STAR\` | spine | The entire destination, tracks, dates, milestones | all |
 | SKILL_GAP_ANALYSIS.md | `01-NORTH_STAR\` | spine | Gap priority order; monthly weak-link method | 0–1 |
-| AGENT.md + lane files (CLAUDE.md / CODEX.md / ATLAS.md) | `.ROOT\00-BRAIN\` | spine | How AI sessions behave; file safety; roles | all |
+| AGENT.md + capability profiles (CLAUDE.md / CODEX.md / ATLAS.md) | `.ROOT\00-BRAIN\` | spine | Shared AI behavior, file safety, strengths, and access limits | all |
 | TECHNOLOGY_LIBRARY_STRATEGY.md | `02-LIBRARY\08-AI-AUTOMATION\` | spine | 12 tool categories; Recommendation Ladder | 2–7 |
 | KSU_Academic_Tracker_Brief.md | `02-LIBRARY\.PROJECTS\KSU_Academic_Tracker\` | spine | Proof-project scope | 0 |
 

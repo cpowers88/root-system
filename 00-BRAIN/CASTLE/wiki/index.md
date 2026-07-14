@@ -7,7 +7,7 @@ tags: [reference]
 
 ## Castle Root Files
 - `.ROOT\NOW.md` — the morning page (castle-owned, lives at the .ROOT root)
-- `OPERATIONS.md` — how AI sessions run the castle (boot: AGENT.md → lane file → here)
+- `OPERATIONS.md` — how AI sessions run the castle (boot: AGENT.md → surface profile → here)
 - `HOW_TO_USE.md` — how Chris extracts direction from the castle
 - `CLAUDE.md` — thin auto-load pointer only (no rules; original build prompt archived)
 
@@ -18,6 +18,7 @@ tags: [reference]
 - [[phase-map]] — 11 phases with dates and exit criteria
 - [[skill-map]] — eight skill categories, sequenced, tied to phases and proof
 - [[source-map]] — registered sources with tiers and claims supported
+- [[opportunity-queue]] — commercial and learning-to-application signals from evidence to test and harvest
 - [[log]] — append-only session record
 
 ## Phases (built: 0–4 · planned: 5–10)
@@ -48,11 +49,12 @@ tags: [reference]
 
 ## Planned (do not create until an existing stub is finished)
 - project-map · service-map · evidence-map · technology-stack-map · market-map ·
-  glossary · parking-lot · remaining phase pages · remaining skill pages per [[skill-map]]
+  glossary · remaining phase pages · remaining skill pages per [[skill-map]]
 
 ## Current Command-Center State
 
-- School remains first. The July 14 funding constraint requires a bounded,
-  evidence-first scan in `03-WIKIS\REVENUE_LAB`, not an un-gated business build.
-- Next action: Scan Session 1 — freelance estimating and tutoring, producing named
-  Tier 1–2 evidence and real numbers for the scorecard due about July 21.
+- Fixed school commitments remain protected. The five-lane Revenue Lab scan and
+  ranked scorecard are complete; March 2027 remains the first consulting-client
+  target, while continuity income is required before Spring 2027 enrollment.
+- Next Revenue Lab action: maintain Lane A's internal proof and run B2's external
+  proof conversation only after Chris explicitly approves it.

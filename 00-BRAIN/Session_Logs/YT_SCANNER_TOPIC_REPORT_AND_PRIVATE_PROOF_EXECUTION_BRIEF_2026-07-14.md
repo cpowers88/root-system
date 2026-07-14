@@ -8,6 +8,23 @@ execution-owner: Claude Code
 
 # YT Scanner Topic Report + Private Proof — Execution Brief
 
+## Chris Amendment — July 14, 2026
+
+The live topic-report research depth is now **up to 100 rows by default**, not
+ten. A smaller `--top N` remains available for presentation. The full ranked set
+supports pattern discovery; deep human review should still concentrate on the
+strongest and most relevant subset. This amendment supersedes the original
+top-ten defaults below.
+
+### Cross-topic correction
+
+Chris clarified that 100 rows must represent the combined relevant market, not
+100 rows from only `Claude Code tutorial`. The primary research view is now the
+offline, deduplicated `market-report` across the documented desk-based topic
+universe. Exact-keyword `topic-report` remains a drilldown. Raw API candidates
+remain auditable, while the default market view applies a transparent first-pass
+title relevance gate; full-content human review is still required.
+
 ## Objective
 
 Advance the Chris-approved practical AI/software tutorial path through two
@@ -28,7 +45,7 @@ monetization, affiliate links, outreach, paid tools, or child-directed content.
 - **Phase:** Foundation / active Revenue Lab Lane A validation, July–August 2026.
 - **Service unlocked:** evidence-based technical education that can later support
   owned distribution and the advisor-builder service path.
-- **Proof project:** generate an exact top-ten topic report, then make one private
+- **Proof project:** generate an exact top-100 topic report, then make one private
   scanner walkthrough and record total added production minutes.
 - **Displacement:** the weekly scan replaces the existing 30-minute technology-
   landscape rep; the private proof replaces one Python/SQL/communication rep and
@@ -69,15 +86,15 @@ monetization, affiliate links, outreach, paid tools, or child-directed content.
 Target interface:
 
 ```text
-python scanner.py topic-report "Claude Code tutorial" --top 10 --rank views
-python scanner.py topic-report "Claude Code tutorial" --top 10 --rank breakout
-python scanner.py topic-report "Claude Code tutorial" --top 10 --rank velocity
+python scanner.py topic-report "Claude Code tutorial" --top 100 --rank views
+python scanner.py topic-report "Claude Code tutorial" --top 100 --rank breakout
+python scanner.py topic-report "Claude Code tutorial" --top 100 --rank velocity
 ```
 
 Options:
 
 - `keyword` — exact stored discovery keyword.
-- `--top N` — default 10.
+- `--top N` — default 100.
 - `--rank views|breakout|velocity` — default `views`.
 - `--format all|long|short` — default `all`.
 
@@ -178,8 +195,8 @@ options based on the actual proof and mark them `internal only`.
    - velocity unavailable with one snapshot;
    - velocity correct with two snapshots at least 24 hours apart.
 2. Existing commands still work: `discover`, `add-channel`, `harvest`, `report`.
-3. `topic-report "Claude Code tutorial" --top 10 --rank views` reproduces the
-   stored top-ten ordering led by `What is Claude Code?` without network access.
+3. `topic-report "Claude Code tutorial" --top 100 --rank views` ranks up to 100
+   stored rows, led by `What is Claude Code?`, without network access.
 4. `topic-report ... --rank velocity` prints `n/a` until a qualifying second
    snapshot exists.
 5. A bounded live discovery run prints separate Search and other-read counters.

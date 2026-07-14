@@ -24,7 +24,7 @@ created: 2026-07-12
 ORIENT -> ROUTE -> WORK -> PROVE/PACKAGE -> CLOSE
 ```
 
-1. **Orient:** open `NOW.md`; confirm the one priority and active track.
+1. **Orient:** open `NOW.md`; confirm the starting action, fixed commitments, soft time boundary, and whether the work is diverging or converging.
 2. **Route:** choose one owner realm.
 3. **Work:** open that realm's local guide and canonical current page.
 4. **Prove/package:** record learning or use evidence; a Capability Library asset may be packaged at `draft` maturity, but proof is required before it advances past `draft`.
@@ -41,6 +41,7 @@ ORIENT -> ROUTE -> WORK -> PROVE/PACKAGE -> CLOSE
 | What controls the mission? | `01-NORTH_STAR` |
 | Where does this file go? | `00-BRAIN\WHERE_IT_GOES.md` |
 | What should I learn or retrieve? | Matching `03-WIKIS` hub |
+| What opportunity deserves testing next? | `00-BRAIN\CASTLE\wiki\opportunity-queue.md` |
 | Where are official course files? | `02-LIBRARY\00-SCHOOL` |
 | Where does an active build live? | `02-LIBRARY\.PROJECTS` plus local/GitHub code |
 | Where does business strategy or a blank master live? | `03-WIKIS\BUSINESS` |
@@ -55,7 +56,7 @@ ORIENT -> ROUTE -> WORK -> PROVE/PACKAGE -> CLOSE
 
 | Realm | Question Owned | Canonical First File | Standard Work Loop | Proof Standard | Output Destination | Deeper Instruction |
 |---|---|---|---|---|---|---|
-| `NOW.md` | What matters today? | `.ROOT\NOW.md` | Open it, read the single priority, do the one next action | The priority was acted on and status reflects reality | Updates to `NOW.md` itself | Castle owns and refreshes it every session |
+| `NOW.md` | What matters today? | `.ROOT\NOW.md` | Read the start action, school commitment, technology rep, business/system item, and soft time boundary | Work began from a clear start and status reflects reality | Updates to `NOW.md` itself | Castle owns and refreshes it every session |
 | CASTLE | What phase or skill comes next? | `00-BRAIN\CASTLE\wiki\current-position.md` | Orient (index + log + roadmap) → identify the phase/skill gap → point to the realm that does the work → log the sequencing decision | A phase/skill page names exit criteria, and the actual work happened in its home realm, not here | Updated maps, phase/skill pages, `wiki/log.md`, `NOW.md` refresh | `00-BRAIN\CASTLE\HOW_TO_USE.md` |
 | `01-NORTH_STAR` | What controls the mission? | `01-NORTH_STAR\NORTH_STAR.md` | Read before any track-priority or ratchet decision; never paraphrase from memory | A decision reconciles to the mission — it doesn't drift from it | Read-only in normal use; changes only via the quarterly Ratchet Review | `01-NORTH_STAR\README.md` |
 | `WHERE_IT_GOES.md` | Where does this file go? | `00-BRAIN\WHERE_IT_GOES.md` | Check its Decision Tree before creating any file | The file lands at the named path on the first try | N/A — this file is the placement authority itself | None deeper; this file is the authority |
@@ -71,6 +72,16 @@ ORIENT -> ROUTE -> WORK -> PROVE/PACKAGE -> CLOSE
 ---
 
 ## 5. How to Work With AI-Operated Folders
+
+`.ROOT` uses one AI team. Any AI may complete any in-scope task it can safely
+access. Claude, Codex, and ATLAS profiles describe strengths and tool limits,
+not exclusive jobs. A material alternative or conflict is stated once with a
+recommendation; unless a true safety/authority boundary applies, AI then follows
+Chris's direction.
+
+Use **DIVERGE** when gathering evidence or exploring options and **CONVERGE**
+when choosing, building, validating, or finishing. The modes control AI intake
+and tangent behavior, not Chris's authority to redirect.
 
 Standard request pattern for consequential or multi-file work:
 
@@ -101,7 +112,7 @@ For wikis, the AI must:
 ## 6. Knowledge-to-Value Pipeline
 
 ```text
-raw source -> domain wiki -> CASTLE relevance decision -> real work
+raw source -> domain wiki / field evidence -> CASTLE opportunity decision -> real work
            -> draft capability asset -> internal test/proof -> client-ready asset -> client use
            -> field evidence updates the asset and wiki
 ```
@@ -116,31 +127,33 @@ Rules:
 
 ---
 
-## 7. How `.ROOT` Evolves Without Drifting
+## 7. How `.ROOT` Evolves From Evidence and Direction
 
 ```text
-friction -> log -> repeated evidence -> review -> approved improvement -> validation
+AI-observed friction -> log -> repeated evidence -> proposal -> approval -> validation
+Chris-directed change -> impact review -> approval -> implementation -> validation
 ```
 
-- One-time friction stays in a DAILY or local log.
+- One-time AI-observed friction stays in a DAILY or local log.
 - Repeated lessons promote at weekly/monthly review.
 - HIGH safety or truth conflicts enter `SYSTEM_FLAGS.md` immediately.
 - `AI_AUTOMATION_SYSTEMS` researches and proposes system improvements.
 - CASTLE/review cadence evaluates timing and impact.
-- Chris approves governance and structural changes.
+- Chris may directly authorize a change without waiting for repeated evidence;
+  the impact review and validation still apply.
 - The skeleton stays frozen; improve content and interfaces inside it.
 
 ---
 
 ## 8. Human Stop Rules
 
-Stop and request an audit when:
+Stop and request a decision or audit when:
 
 - Two files claim ownership of the same truth.
 - Current-position conflicts with actual progress.
 - A guide's current-state claim is visibly stale.
 - Placement cannot be decided in under one minute.
-- Work would touch raw, private data, governance, or structure.
+- Work would touch raw or private data, or governance/structure lacks Chris approval.
 - Maintenance is displacing School, active Tech proof, or current business execution.
 
 ---
@@ -163,11 +176,11 @@ The minimum close, every session that changes anything:
 - `ROOT_OPERATING_MANUAL.md` — this file, the human master manual.
 - `00-BRAIN\WHERE_IT_GOES.md` — placement and naming.
 - `00-BRAIN\AGENT.md` — the AI operating system.
-- `00-BRAIN\CLAUDE.md` / `CODEX.md` / `ATLAS.md` — AI lane files.
+- `00-BRAIN\CLAUDE.md` / `CODEX.md` / `ATLAS.md` — AI capability profiles.
 - `00-BRAIN\CASTLE\HOW_TO_USE.md` — command-center use.
 - `03-WIKIS\SYSTEMS\HOW_TO_USE.md`, `PYTHON\HOW_TO_USE.md`, `EDUCATION\HOW_TO_USE.md`, `PHYSICS\HOW_TO_USE.md`, `BUSINESS\HOW_TO_USE.md`, `TECHNOLOGY\HOW_TO_USE.md`, `AI_AUTOMATION_SYSTEMS\HOW_TO_USE.md` — one per hub, same skeleton.
 - `05-BUSINESS\06-Capability Library\README.md` and `FIRST_RUN_CHECKLIST.md` — reusable asset operation.
 
 ---
-*Master human instruction file. Map: `START_HERE.md`. Placement: `WHERE_IT_GOES.md`. AI governance: `AGENT.md` + lane files — read separately, never copied here.*
+*Master human instruction file. Map: `START_HERE.md`. Placement: `WHERE_IT_GOES.md`. AI governance: `AGENT.md` + capability profiles — read separately, never copied here.*
 *Created: July 12, 2026.*

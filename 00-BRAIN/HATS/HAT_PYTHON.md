@@ -5,8 +5,8 @@ tags: [reference, governance, school, programming]
 
 # HAT_PYTHON.md — Python Subject Hat
 ### Subject: CSE 1321 Programming Problem Solving I + CS50P prep
-### Load order: AGENT.md → lane file → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → 03-WIKIS\PYTHON\wiki\current-position.md → latest Python handoff.
-### Last updated: July 10, 2026 — lane-split rewrite: the PYTHON wiki is now the learning spine; this hat carries course facts + session hooks only.
+### Load order: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → 03-WIKIS\PYTHON\wiki\current-position.md → latest Python handoff.
+### Last updated: July 14, 2026 — unified-team terminology; PYTHON remains the learning spine.
 
 ---
 

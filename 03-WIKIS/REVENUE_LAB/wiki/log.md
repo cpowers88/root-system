@@ -212,3 +212,28 @@ tags: [log]
 - Still HOLD: public channel/account, publishing, monetization, affiliates, paid tools,
   and kids content. Next action: Claude Code executes the approved brief and returns
   validation evidence before any public call.
+
+## 2026-07-14 — Cross-topic scanner proof closed for the day (Codex)
+
+- Completed the scanner upgrade: append-only snapshots, offline exact-topic and
+  deduplicated cross-topic reports, separate June 2026 quota counters, and expanded
+  synthetic tests. The primary report is now the combined market; Claude Code is one
+  drilldown topic.
+- Completed 36/36 defined desk-based topic scans. Stored pool: 2,615 deduplicated raw
+  candidates; 2,113 after the reversible title-relevance gate removes 502 obvious
+  mismatches. Combined top 100 is 50 long-form/50 Shorts; rank 100 has 891,117 views.
+- Judgment preserved: strict title relevance is a first-pass candidate filter, not proof
+  that the full video is relevant, reproducible, profitable, or worth producing.
+- Next action: at the next Lane A review, human-classify the combined top 100 for actual
+  content substance and production fit. No more scanner work is needed today.
+
+## 2026-07-14 — Revenue Lab aligned to unified governance
+
+- Fixed school commitments and academic-integrity boundaries remain hard; the
+  October 5–November 11 high-load window now calls for one tradeoff warning and
+  reduced scope, not a model-enforced shutdown.
+- Evidence continues to govern AI-initiated build recommendations. Chris may
+  authorize a direct test after an explicit impact review, with the override and
+  outcome recorded.
+- Next action is unchanged: B2 external proof only with Chris approval; Lane A
+  resumes with human classification, not more scanning.

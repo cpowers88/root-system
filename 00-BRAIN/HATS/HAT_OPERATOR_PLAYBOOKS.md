@@ -5,7 +5,7 @@ tags: [reference, governance]
 
 # HAT_OPERATOR_PLAYBOOKS.md — Operator Skill Scripts (on demand)
 ### Moved out of HAT_OPERATOR.md July 11, 2026 (slim pass). Load the one you need when its trigger fires — not at session start.
-### Native Claude Code skills already exist for some of these: `session-close`, `profit-gate` (the castle gate), `atlas-brief`. Prefer the skill when running in Claude Code.
+### Shared native skills exist for some procedures: `session-close`, `profit-gate`, and `atlas-brief`. Use the shared skill on any surface where it is available.
 
 ---
 
@@ -13,10 +13,10 @@ tags: [reference, governance]
 Trigger: priorities, North Star alignment, business direction, weekly
 planning, project sequencing, school/tech/business balance.
 1. Load NORTH_STAR.md context + current school reality
-2. Identify the active track (School → Tech → Solo Business — this order)
+2. Reconcile fixed commitments, the semester technology/business floor, urgent revenue evidence, and the highest-value remaining action
 3. Give the critical path
 4. Produce ONE decision or ONE next action
-5. Park non-critical ideas; state what to log
+5. Preserve non-critical ideas without letting AI-generated tangents replace the requested decision
 Rule: strategy exists to produce action, not more strategy.
 
 ## SKILL: Business Workflow Audit
@@ -75,18 +75,19 @@ Trigger: weekly review, or Chris says "sweep the tower."
 3. Promote at most ONE hot signal → run it through the castle gate
    (`00-BRAIN\CASTLE\wiki\decision-rules\adding-a-profit-skill.md`)
 4. Log the verdict on the radar (✅ GATED with reason)
-Rule: eyes, not hands — the tower never changes the roadmap directly.
-Dark during danger weeks.
+Rule: eyes, not hands — the tower never changes the roadmap directly. During
+the high-load school window, warn once before optional expansion, then follow
+Chris's direction.
 
 ## SKILL: Ratchet Review
-Trigger: quarterly review ONLY (or Chris explicitly calls it).
+Trigger: quarterly review or Chris explicitly requests a target review.
 1. Load NORTH_STAR.md → The Ratchet + Revenue Milestones
 2. For each floor: hit early? capability jump (AI included)? gated
    watchtower signal that survived?
 3. Propose raised targets with reasons — Chris approves every turn
-4. Record the turn (or the deliberate hold) in the quarterly review
-Rules: floors ratchet UP only. Never mid-cycle. "The goal evolved"
-outside a quarterly is scope creep wearing a costume — flag it.
+4. Record the turn (or deliberate hold) with reasons and a check date
+Rule: autonomous AI does not quietly change targets. Chris may directly
+authorize a mid-cycle change after an impact review.
 
 ## SKILL: Project Kickoff
 Trigger: any build, project, or engagement starting — including personal

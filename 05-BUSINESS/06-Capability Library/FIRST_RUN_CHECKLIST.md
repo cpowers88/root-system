@@ -32,4 +32,4 @@ Use this when turning a repeated method, checklist, script, query, or workflow m
 
 ## First Asset Candidate
 
-Best first candidate: a workflow observation map derived from `05-BUSINESS\01-Audit Templates\OBSERVATION_METHODOLOGY.md`. It is reusable, zero-software-first, and directly supports the March 2027 first paid conversation path.
+Best first candidate: a workflow observation map derived from `05-BUSINESS\01-Audit Templates\OBSERVATION_METHODOLOGY.md`. It is reusable, zero-software-first, and directly supports the March 2027 first paid consulting conversation path.

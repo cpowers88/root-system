@@ -2,22 +2,23 @@
 """validate_boot_chain.py — post-edit governance validation.
 
 Run after any edit to governance files (00-BRAIN, router, START_HERE,
-hats, hub operating files). Encodes the POST_SPLIT_REVIEW_2026-07-10
-validation checks:
+hats, hub operating files). Encodes the unified-team governance checks:
 
-  1. Boot files exist: router, AGENT.md, lane files, CHRIS_CORE, hats,
+  1. Boot files exist: router, AGENT.md, capability profiles, CHRIS_CORE, hats,
      CASTLE pointers/OPERATIONS, all seven hub CLAUDE.mds
   2. No active file loads the retired OS (AI_Agent.md / AI_OS_CORE.md
      as an instruction — the marked pointer + retired-name lines are exempt)
   3. No dead governance references (AGENT.md "Shared Skills";
      "shifts the color groups")
-  4. Track count consistent (no "four tracks" in live governance)
+  4. No active exclusive-model or absolute danger-week doctrine remains
+  5. Canonical shared skills match both product discovery mirrors
 
 Read-only. Exit 0 = PASS, 1 = FAIL.
 Usage (from .ROOT):  python 00-BRAIN/scripts/validate_boot_chain.py
 """
 
 import re
+import subprocess
 import sys
 import json
 from pathlib import Path
@@ -54,8 +55,14 @@ CHECKS = [
      "dead 'AGENT.md (Shared Skills)' reference"),
     (re.compile(r"shifts? the color groups", re.I),
      "retired graph color-shift instruction"),
-    (re.compile(r"[Ff]our[- ][Tt]racks?\b"),
-     "four-track language (doctrine is three tracks, July 10, 2026)"),
+    (re.compile(r"Claude Code (is|as) the (exclusive|primary) builder", re.I),
+     "exclusive/primary Claude Code builder doctrine"),
+    (re.compile(r"Codex identifies and briefs.{0,40}Claude Code builds", re.I),
+     "mandatory Codex-to-Claude build chain"),
+    (re.compile(r"danger weeks.{0,60}school only", re.I),
+     "absolute danger-week prohibition"),
+    (re.compile(r"wrong lane", re.I),
+     "wrong-lane refusal language"),
 ]
 
 
@@ -111,6 +118,26 @@ def main() -> int:
                    "Review the full action trace"):
         if marker not in agent_text:
             failures.append(f"AGENT.md missing evaluation control: {marker}")
+
+    skill_check = ROOT / "00-BRAIN" / "scripts" / "sync_shared_skills.py"
+    try:
+        result = subprocess.run(
+            [sys.executable, str(skill_check), "--check"],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=30,
+            check=False,
+        )
+        if result.returncode:
+            failures.append(
+                "shared skill validation failed: "
+                + (result.stdout + result.stderr).strip().replace("\n", " | ")
+            )
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        failures.append(f"shared skill validation could not run: {exc}")
 
     # log.md files and dated proposals/reports are history — logs record
     # experience (AGENT.md); they keep pre-split wording by design.

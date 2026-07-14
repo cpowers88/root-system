@@ -416,3 +416,13 @@ updated to three-track order), `CLAUDE.md` (retired phase color-ramp
 parenthetical removed — tag filters are the progression view), `README.md`
 (phase table's Color column removed; it contradicted the tag-filter doctrine
 four lines above it). No content pages added or removed.
+
+## 2026-07-14 — Unified-team terminology and high-load policy reconciled
+
+- Updated `first-90-days.md` to name March 2027 as the first consulting-client
+  target and replace the school-only danger-week rule with fixed-commitment
+  protection plus Chris's final direction.
+- Updated the capability-library first-run wording to match the consulting
+  milestone. No offer, client, or business phase was opened.
+- Next action: normal business cadence; continuity-income tests remain in
+  REVENUE_LAB and consulting assets remain here.

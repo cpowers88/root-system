@@ -961,3 +961,10 @@ the first review using the calibration log.
 Import `Python_Stages_01-03_Active.tsv` into Anki as `Python::Active::Stages 1-3`.
 At the next flashcard session, add Stage 4 Functions as preview, then resume the
 Stage 2 decision-rules drill.
+
+## 2026-07-14 — Operating contract made model-neutral
+
+- Replaced model-exclusive teaching wording with a shared AI contract. In
+  CONVERGE mode, AI now flags an advanced tangent once and may offer to park it;
+  Chris can explicitly redirect the task without a hard stop.
+- Next action is unchanged: Stage 2 decision-rules drill after the Anki import.

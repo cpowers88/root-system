@@ -24,11 +24,14 @@ top videos for a topic and identify reachable small-channel breakouts.
    standard library, local SQLite storage, and the default free YouTube Data
    API quota. State that public view data measures attention, not revenue.
 3. **One command (2:00–3:30):** Run
-   `python scanner.py topic-report "Claude Code tutorial" --top 10 --rank views`.
-   Explain that `topic-report` is offline and does not load the API key.
-4. **Exact result (3:30–5:30):** Show the stored top-ten output led by
-   “What is Claude Code?” Point out the full title, channel, publish date,
-   format, current views, subscribers, and views/subscriber.
+   `python scanner.py market-report --top 100 --rank views`. Explain that it is
+   offline, does not load the API key, combines the defined market topics, and
+   deduplicates the same video across searches.
+4. **Exact result (3:30–5:30):** Show the combined market header and leading
+   rows. Explain that Claude Code is one topic inside the market, not the entire
+   report. Point out the title, channel, publish date, format, views,
+   views/subscriber, category, and matched topics. Do not scroll through all 100
+   on camera.
 5. **What the metrics mean (5:30–8:30):** Compare total views with `breakout`
    ranking. Explain that velocity requires two real snapshots at least 24 hours
    apart and remains `n/a` until then.

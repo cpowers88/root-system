@@ -27,10 +27,12 @@ Known learning requirements:
 
 **Stage 3 — Vectors (Ch 3).** Packet complete, including the coordinate-systems gap fixed 2026-07-07. Syllabus lecture date: W Sep 2, 2026. Stages 1 and 2 assumed cleared (all 18 stage packets were built ahead of a July cruise); confirm Stage 1–2 mastery checklists before treating them as done if it's been a while since they were last drilled.
 
+First live teaching session ran 2026-07-14 (log entry same date). Chris correctly worked, in real time: coordinate conversion (with a self-caught degree/radian error), scalar-vs-vector classification (with an independent correct generalization about distance→displacement), vector decomposition, and vector reconstruction. Vector addition by components was started but not finished — Chris had to leave mid-problem. One correct rep each is not the same as the mastery checklist's "without notes" bar; treat all four skills as **in progress**, not done.
+
 ## First 7-Day Priority
 
-1. [[../concepts/coordinate-systems]] first — Cartesian vs. polar, then the drill. This is the section (3.1) that was missing until this session; it's real Ch3 content and comes before vector components in the textbook's own order.
-2. [[../concepts/scalar-vs-vector]] and [[../concepts/vector-components]] — decompose, then reconstruct, then add vectors by components.
+1. **Resume vector addition by components** — the paused problem (two forces, 40 N at 0° and 30 N at 90°; have Chris explain why the resultant isn't 70 N before computing it). This is the one core Stage 3 skill not yet attempted.
+2. Run one more independent, no-notes pass over all four skills — coordinate conversion, scalar/vector ID, decomposition, reconstruction, and (once solved) addition — before treating any mastery checklist item as checked.
 3. Pass the Stage 3 mastery checklist ([[../stages/stage-3-vectors]]) before moving to Stage 4. The dot product pages exist but are **not** required for this — they're Stage 7 preview material, parked deliberately.
 4. Full D2L lecture-date calendar for Ch 6 onward is still pending — get exact exam and lecture dates when available.
 

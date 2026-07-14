@@ -27,8 +27,9 @@ A new profit skill enters the [[skill-map]] only if ALL five pass:
 5. **Proof test**: a concrete proof project can be stated in one sentence. If the
    proof can't be named, the skill isn't ready to be learned.
 
-**Timing override**: during danger weeks and heavy semesters, the answer is
-automatically "parked" — evaluate after.
+**Timing advisory**: during the high-load school window or a heavy semester,
+name the school commitment and displacement cost, recommend park/scope-down when
+appropriate, then follow Chris's decision.
 
 ## Why This Rule Exists
 

@@ -47,8 +47,8 @@ and the message to the other AI.
 ## Day Summary — YYYY-MM-DD
 - Moved: [what actually advanced today, 1-3 lines]
 - Blocked: [anything still stuck, or "nothing"]
-- Drift check: [did today's work point at the North Star? one honest line]
-- Tomorrow: [the single priority — this line seeds NOW.md]
+- Integrity check: [did AI/system behavior support the requested outcome and live direction?]
+- Tomorrow: [starting action + fixed commitment + soft review point — seeds NOW.md]
 - Feeds weekly: [anything the Sunday review must see, or "routine"]
 ```
 

@@ -334,6 +334,48 @@ Append-only session record.
 ### Next action for Chris
 - Unchanged: Stage 3 Vectors output rep.
 
+## 2026-07-14 — Stage 3 (Vectors) first live teaching session, paused mid-problem
+
+### Objective
+- Run the first live teaching pass on Stage 3 (Vectors) per this wiki's protocol
+  (situation → model → quantities → equation → units → problem type → worked
+  example → drill), with Chris solving live problems rather than only reading
+  the packet.
+
+### Sources touched
+- `wiki/stages/stage-3-vectors.md`, `wiki/concepts/coordinate-systems.md`,
+  `scalar-vs-vector.md`, `vector-components.md`, `wiki/common-errors/stage-3-vectors.md`
+  (read as teaching source; not modified).
+
+### Concepts/equations/problem types added
+- None new. This was a teaching rep on existing packet content, not authoring.
+
+### What Chris demonstrated live
+- **Coordinate systems:** correctly converted Cartesian (−30, 40) m to polar
+  (50 m, 126.87°); self-caught a degree/radian mode mixup on the first pass.
+- **Scalar vs. vector:** correctly classified 4 examples; independently
+  generalized that adding a direction converts a scalar (distance) into a
+  vector (displacement) — one nuance correction given on tension's direction
+  being along-the-rope, not assumed-downward.
+- **Vector decomposition:** correctly computed Fx = 65.53 N, Fy = 45.89 N from
+  80 N at 35°; initially dropped units (newton vs. joule confusion), corrected
+  after discussion.
+- **Vector reconstruction:** correctly found A = 13 m, θ = 157.38° from
+  Ax = −12 m, Ay = 5 m, including the quadrant correction.
+- **Vector addition by components:** introduced (40 N at 0° + 30 N at 90°) but
+  not completed — Chris had to leave mid-problem.
+
+### Parked material
+- None new.
+
+### Next action for Chris
+- Resume the paused addition problem (40 N at 0°, 30 N at 90° — explain why
+  70 N is wrong before computing the resultant by components).
+- After that, one more independent pass over all four skills (conversion,
+  scalar/vector ID, decomposition, reconstruction, addition) without notes,
+  then check off the Stage 3 mastery checklist in
+  `wiki/stages/stage-3-vectors.md` before moving to Stage 4.
+
 ## 2026-07-14 — Focused Physics Anki deck reset (Codex + Chris)
 
 ### Objective
@@ -363,3 +405,10 @@ Append-only session record.
 ### Next action for Chris
 - Rename the old mixed Physics deck to `Physics::Archive::Pre-2026-07-14`, import
   the focused deck as `Physics::Active::Stages 1-3`, and begin a baseline review.
+
+## 2026-07-14 — Operating contract made model-neutral
+
+- Changed the hub teaching contract from Claude-exclusive wording to “any AI
+  teaching physics.” No lesson, stage, mastery, or learner-state content changed.
+- Next action remains the paused Stage 3 vector-addition problem already recorded
+  above and in the session handoff.

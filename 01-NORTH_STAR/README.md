@@ -71,7 +71,7 @@ First session after the 1st of each month. 15–20 minutes.
    cleared (Tag Standard — WHERE_IT_GOES.md; graph colors are
    per-section and never hand-edited).
 6. **Update core files if promotion is earned.** CHRIS.md,
-   AGENT.md, lane files + hats, vault_map, WHERE_IT_GOES — only for lessons
+   AGENT.md, capability profiles + hats, vault_map, WHERE_IT_GOES — only for lessons
    that repeated. Weeklies flag; monthlies fix.
 7. **Set next month's three priorities.** Maximum three. Ranked.
 8. **North Star check.** One sentence: closer to October 8, 2031
@@ -92,4 +92,3 @@ down, never mid-cycle. Output: `QUARTERLY_Q#_YEAR.md` → this folder.
 ---
 *This folder is truth. Keep it clean. Keep it current.*
 *Next monthly review: August 1, 2026 | Next quarterly: end of September 2026*
-

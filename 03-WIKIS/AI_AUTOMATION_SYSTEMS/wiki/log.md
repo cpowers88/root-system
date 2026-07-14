@@ -961,3 +961,16 @@ canonical-workspace rule in `00-BRAIN`.
 - Updated this index and both proposal outcomes.
 - Next: run the new practices in normal review cadence; do not add automation
   unless repeated evidence demonstrates the manual checks are insufficient.
+
+## 2026-07-14 — Unified-team and Second Brain follow-up applied
+
+- Re-read the complete *Building a Second Brain* extraction and successfully
+  inspected all eight supplied visuals, closing the July 12 viewer limitation.
+- Updated the application page: DIVERGE/CONVERGE is now a lightweight AI work
+  mode after Chris directly removed hard drift control over himself. It does
+  not constrain Chris or justify a PARA rebuild.
+- Applied the approved system-evolution distinction: Chris-directed change may
+  proceed after impact review and approval; AI-initiated proposals still need
+  repeated evidence.
+- Next: validate the unified operating model in normal use and review friction
+  at the next weekly/monthly cadence.

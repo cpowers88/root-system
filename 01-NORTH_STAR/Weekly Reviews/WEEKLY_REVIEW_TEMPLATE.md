@@ -4,136 +4,83 @@ tags: [reference]
 ---
 
 # WEEKLY REVIEW — [START DATE] to [END DATE]
-#template #AI 
-## Location: 00-BRAIN/Session_Logs/ or 01-NORTH_STAR/Weekly Reviews/
-## Rule: Every Sunday. Under 90 minutes. This is the most important 
-## session of the week.
+### Every Sunday · target under 90 minutes · use live NORTH_STAR.md rather than copying its doctrine here
 
----
+## Week at a Glance
 
-## THE MISSION
-Canonical mission: NORTH_STAR.md — top 1% AI, Technology & Business integrator and
-application developer (systems-engineering educated) by October 8, 2031. $500K–$1M is
-the FLOOR (quarterly ratchet). Chris + AI, maximally leveraged. Audit, redesign, build,
-integrate, train, retain, harvest the asset. Do not paste other mission wordings here —
-one source, zero drift. Every weekly review asks the Engine Question (NORTH_STAR.md →
-Core Systems Questions #4).
-
----
-
-## WEEK AT A GLANCE
 Dates covered:
-Sessions logged this week:
-Commit streak status:
+Sessions logged:
+Fixed commitments due/completed:
+Technology/business hours protected (semester target: 5–10 when feasible):
 
----
+## Function Scorecard
 
-## TRACK SCORECARD
-(Hit = did what was planned / Partial = something happened / Miss = nothing)
-
-| Track | Score | One sentence honest assessment |
+| Function | Hit / Partial / Miss | Evidence and honest assessment |
 |---|---|---|
-| School / Learning | Hit / Partial / Miss | |
-| Tech / Python / Build | Hit / Partial / Miss | |
-| Business | Hit / Partial / Miss | |
-| System | Hit / Partial / Miss | |
-| Communication development | Hit / Partial / Miss | |
+| School commitments | | |
+| Technology / builds | | |
+| Business / opportunities | | |
+| System support | | |
+| Communication development | | |
 
----
+## What Shipped
 
-## WHAT ACTUALLY SHIPPED THIS WEEK
-(evidence only — no spin)
--
--
 -
 
-## WHAT DIDN'T HAPPEN AND WHY
-(be honest — avoidance, drift, life, or legitimate blocker)
+## What Did Not Happen and Why
+
+Distinguish a legitimate constraint, deliberate reprioritization, unclear next
+action, AI/task failure, and avoidance without treating every change as drift.
+
 -
--
 
----
+## Task and System Integrity
 
-## DRIFT REPORT
-(this is where drift gets named — patterns spotted across the week,
-not individual sessions — connect to behavior not just tasks)
+Where AI or the system pulled work away from the requested outcome:
 
-What pulled Chris off course this week:
+Stale/contradictory state discovered:
 
-What pulled sessions off course:
+Tradeoff Chris deliberately chose:
 
 Pattern worth watching:
 
----
+## Opportunity and Proof Movement
 
-## COMMUNICATION DEVELOPMENT
-(one weekly observation on how Chris communicated across sessions —
-written, verbal, structured, direct — trajectory toward natural 
-professional clarity)
+Opportunities captured / tested / closed:
 
-This week:
+Capabilities moved up the proof ladder:
 
-Compared to last week:
+Assets harvested:
 
-One thing to work on next week:
+Market, usage, time-saved, or revenue evidence:
 
----
+## System and AI Review
 
-## SYSTEM REVIEW
-(look across all handoffs — what's improving, what's still broken)
+What reduced friction:
 
-What the system did well:
+What added friction:
 
-What the system did poorly:
+What an AI should do differently:
 
-Open flags to address:
+Open flags or files requiring attention:
 
-Files that need updating:
+## Next Week
 
----
+Starting action:
 
-## CHRIS REVIEW
-(honest — not a report card, a growth document)
+Fixed school commitments:
 
-Strengths shown this week:
+Technology rep:
 
-Patterns that need breaking:
+Business/system item:
 
-Energy and focus trend:
+Soft time boundary or review point:
 
----
+## North Star Check
 
-## AI REVIEW
-(Claude and Atlas — did we improve the system or just maintain it)
-
-Claude:
-
-Atlas:
-
-One thing either AI should do differently next week:
+Are current actions producing capability, useful output, market evidence, time
+savings, or revenue—and what is the next link in that chain?
 
 ---
-
-## NEXT WEEK — THREE PRIORITIES ONLY
-(ranked, specific, connected to the mission)
-1.
-2.
-3.
-
-## NORTH STAR CHECK
-(one honest sentence — are we closer to October 8, 2031 than we were 
-last Sunday?)
->
-
----
-
-## PARKING LOT — CARRIED FORWARD
-(everything from this week's handoffs that didn't get actioned)
--
--
-
----
-
-*Weekly review written by: [CLAUDE / ATLAS / CHRIS]*
-*Next weekly review: [date]*
-*Most important thing next week in one sentence:*
+*Written by: [CHRIS / AI SURFACE]*
+*Next review: [date]*

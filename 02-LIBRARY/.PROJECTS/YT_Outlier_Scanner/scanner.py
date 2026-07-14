@@ -16,6 +16,8 @@ general default bucket of 10,000 units/day.
 Usage:
   python scanner.py discover [--keywords "a,b,c"] [--days 180]
   python scanner.py topic-report "Claude Code tutorial" --rank views
+  python scanner.py discover --market [--days 180]
+  python scanner.py market-report --top 100 --rank views
   python scanner.py add-channel @SomeHandle --niche trades
   python scanner.py add-channel UCxxxxxxxxxxxxxxxxxxxxxx --niche family
   python scanner.py harvest [--max-videos 200]
@@ -70,6 +72,135 @@ DEFAULT_DISCOVER_KEYWORDS = [
     ("large family vlog",       "lifestyle est. $2-5 RPM"),
 ]
 SMALL_CHANNEL_SUBS = 200_000  # 'reachable' ceiling for breakout ranking
+TOPIC_REPORT_DEFAULT = 100
+
+# Defined desk-based research universe. This is broad enough to compare the
+# paths Chris can produce from current learning/work, while excluding unrelated
+# entertainment, physical-product access, and child-directed content.
+MARKET_TOPIC_GROUPS = {
+    "practical_ai": (
+        "AI automation tutorial",
+        "AI tools for beginners",
+        "AI tools for business",
+        "ChatGPT tutorial",
+        "Claude Code tutorial",
+        "Codex tutorial",
+        "Claude Code workflow",
+        "ChatGPT automation tutorial",
+        "AI coding tools",
+        "best AI tools",
+        "AI tools review",
+        "ChatGPT vs Claude",
+    ),
+    "software_tutorials": (
+        "excel tutorial",
+        "learn to code",
+        "notion templates",
+        "VS Code tutorial",
+        "Python tutorial",
+        "GitHub tutorial",
+        "Canva tutorial",
+        "Google Workspace tutorial",
+        "Microsoft 365 tutorial",
+        "Power Automate tutorial",
+        "Zapier tutorial",
+        "n8n tutorial",
+        "Obsidian tutorial",
+    ),
+    "software_reviews": (
+        "productivity apps review",
+        "best note taking apps",
+        "CRM software review",
+    ),
+    "small_business_ai": (
+        "AI for small business",
+        "ChatGPT for small business",
+        "small business automation",
+        "AI CRM small business",
+    ),
+    "family_technology": (
+        "Google Family Link tutorial",
+        "screen time app for parents",
+        "parental control apps review",
+        "family calendar app tutorial",
+    ),
+}
+
+# Conservative title checks for ambiguous searches. The strict market report
+# applies these rules; --relevance raw preserves every API result for audit.
+TOPIC_TITLE_TERMS = {
+    "AI automation tutorial": (
+        "ai", "automation", "workflow", "agent", "n8n", "zapier",
+    ),
+    "AI tools for beginners": ("ai", "chatgpt", "claude", "gemini"),
+    "AI tools for business": ("ai", "chatgpt", "claude", "automation"),
+    "AI coding tools": (
+        "ai", "coding", "programming", "cursor", "copilot", "claude",
+        "codex",
+    ),
+    "best AI tools": ("ai", "chatgpt", "claude", "gemini"),
+    "AI tools review": ("ai", "chatgpt", "claude", "gemini"),
+    "VS Code tutorial": ("vs code", "vscode", "visual studio code"),
+    "Google Workspace tutorial": (
+        "google workspace", "gmail", "google drive", "google docs",
+        "google sheets", "google slides", "google calendar",
+    ),
+    "Microsoft 365 tutorial": (
+        "microsoft 365", "office 365", "m365", "microsoft office",
+        "excel", "word", "powerpoint", "outlook", "teams", "onedrive",
+        "sharepoint",
+    ),
+    "Power Automate tutorial": ("power automate", "power platform"),
+    "Obsidian tutorial": (
+        "obsidian md", "obsidian app", "obsidian notes", "obsidian note",
+        "obsidian vault", "obsidian plugin", "obsidian canvas",
+        "obsidian tutorial", "obsidian setup", "obsidian workflow",
+    ),
+    "learn to code": (
+        "code", "coding", "programming", "developer", "python",
+        "javascript",
+    ),
+    "notion templates": ("notion",),
+    "productivity apps review": (
+        "productivity", "task manager", "calendar app", "note taking",
+        "notion", "todo",
+    ),
+    "best note taking apps": (
+        "note taking", "notes app", "notion", "obsidian", "onenote",
+        "evernote", "notebook",
+    ),
+    "CRM software review": (
+        "crm", "customer relationship", "salesforce", "hubspot", "zoho",
+        "gohighlevel",
+    ),
+    "Google Family Link tutorial": (
+        "family link", "parental control", "screen time",
+    ),
+    "screen time app for parents": (
+        "screen time", "parental control", "parents", "family",
+    ),
+    "parental control apps review": (
+        "parental control", "parents", "family", "screen time",
+    ),
+    "family calendar app tutorial": (
+        "family calendar", "calendar app", "digital calendar",
+    ),
+}
+
+TOPIC_TITLE_EXCLUDES = {
+    "Codex tutorial": ("call of duty", "warhammer", "minecraft"),
+    "Python tutorial": ("python snake", "reptile"),
+    "Obsidian tutorial": (
+        "minecraft", "obsidian trap", "obi trap", "pvp", "nether",
+        "dagger", "knife", "blade", "sword",
+    ),
+}
+
+TITLE_TERM_STOPWORDS = {
+    "tutorial", "best", "review", "for", "beginners", "small",
+    "business", "apps", "app", "software", "tools", "tool", "vs",
+    "workflow", "templates",
+}
 
 
 # ---------------------------------------------------------------- utilities
@@ -402,6 +533,131 @@ def _rank_topic_rows(rows, rank):
     return sorted(rows, key=sort_key, reverse=True)
 
 
+def _market_keywords(category="all"):
+    if category == "all":
+        return [
+            keyword
+            for keywords in MARKET_TOPIC_GROUPS.values()
+            for keyword in keywords
+        ]
+    return list(MARKET_TOPIC_GROUPS[category])
+
+
+def _normalized_text(value):
+    return " ".join(re.findall(r"[a-z0-9]+", value.lower()))
+
+
+def _contains_title_term(normalized_title, term):
+    normalized_term = _normalized_text(term)
+    if " " in normalized_term:
+        return normalized_term in normalized_title
+    return normalized_term in normalized_title.split()
+
+
+def _topic_title_relevant(keyword, title):
+    normalized_title = _normalized_text(title)
+    excludes = TOPIC_TITLE_EXCLUDES.get(keyword, ())
+    if any(_contains_title_term(normalized_title, term) for term in excludes):
+        return False
+    terms = TOPIC_TITLE_TERMS.get(keyword)
+    if terms is None:
+        terms = tuple(
+            token for token in _normalized_text(keyword).split()
+            if token not in TITLE_TERM_STOPWORDS and len(token) >= 2
+        )
+    return any(_contains_title_term(normalized_title, term) for term in terms)
+
+
+def _market_report_rows(
+    conn, category="all", format_filter="all", relevance="strict"
+):
+    """Return deduplicated videos across the defined market topic universe."""
+    keywords = _market_keywords(category)
+    placeholders = ",".join("?" for _ in keywords)
+    query = (
+        "SELECT video_id, keyword, video_title, channel_title, published_at, "
+        "is_short, views, subscriber_count FROM discoveries "
+        f"WHERE keyword IN ({placeholders})"
+    )
+    params = list(keywords)
+    if format_filter != "all":
+        query += " AND is_short=?"
+        params.append(1 if format_filter == "short" else 0)
+
+    category_by_keyword = {
+        keyword: group
+        for group, group_keywords in MARKET_TOPIC_GROUPS.items()
+        for keyword in group_keywords
+    }
+    videos = {}
+    for result in conn.execute(query, params):
+        (video_id, keyword, title, channel, published_at, is_short, views,
+         subscribers) = result
+        if relevance == "strict" and not _topic_title_relevant(keyword, title):
+            continue
+        row = videos.get(video_id)
+        if row is None:
+            row = {
+                "video_id": video_id,
+                "title": title,
+                "channel": channel,
+                "published_at": published_at,
+                "format": "short" if is_short else "long",
+                "views": views,
+                "subscribers": None,
+                "views_per_sub": None,
+                "velocity": None,
+                "topics": set(),
+                "categories": set(),
+            }
+            videos[video_id] = row
+        if views >= row["views"]:
+            row.update({
+                "title": title,
+                "channel": channel,
+                "published_at": published_at,
+                "format": "short" if is_short else "long",
+                "views": views,
+                "subscribers": (
+                    None if subscribers is None or subscribers < 0
+                    else subscribers
+                ),
+            })
+        row["topics"].add(keyword)
+        row["categories"].add(category_by_keyword[keyword])
+
+    snapshot_query = (
+        "SELECT video_id, observed_at, MAX(views) "
+        "FROM discovery_snapshots "
+        f"WHERE keyword IN ({placeholders}) "
+        "GROUP BY video_id, observed_at ORDER BY observed_at"
+    )
+    observations = {}
+    for video_id, observed_at, views in conn.execute(snapshot_query, keywords):
+        if video_id in videos:
+            observations.setdefault(video_id, []).append((observed_at, views))
+
+    for video_id, row in videos.items():
+        subscribers = row["subscribers"]
+        row["views_per_sub"] = (
+            row["views"] / subscribers if subscribers else None
+        )
+        snapshots = observations.get(video_id, [])
+        if len(snapshots) >= 2:
+            earliest_at, earliest_views = snapshots[0]
+            latest_at, latest_views = snapshots[-1]
+            elapsed_days = (
+                _parse_utc(latest_at) - _parse_utc(earliest_at)
+            ).total_seconds() / 86_400
+            if elapsed_days >= 1:
+                row["velocity"] = (
+                    latest_views - earliest_views
+                ) / elapsed_days
+        row["topics"] = sorted(row["topics"])
+        row["categories"] = sorted(row["categories"])
+    return list(videos.values())
+
+
 def cmd_topic_report(args) -> None:
     """Rank one exact stored topic without loading a key or using a network."""
     conn = db()
@@ -448,13 +704,71 @@ def cmd_topic_report(args) -> None:
         )
 
 
+def cmd_market_report(args) -> None:
+    """Rank the deduplicated relevant market without using the network."""
+    conn = db()
+    expected = _market_keywords(args.category)
+    stored = {
+        row[0] for row in conn.execute(
+            "SELECT DISTINCT keyword FROM discoveries"
+        )
+    }
+    present = [keyword for keyword in expected if keyword in stored]
+    missing = [keyword for keyword in expected if keyword not in stored]
+    rows = _market_report_rows(
+        conn, args.category, args.format, args.relevance
+    )
+    conn.close()
+    total_unique = len(rows)
+    rows = _rank_topic_rows(rows, args.rank)[:args.top]
+
+    print(
+        f"MARKET REPORT — category: {args.category} | rank: {args.rank} | "
+        f"format: {args.format} | relevance: {args.relevance}"
+    )
+    print(
+        f"coverage: {len(present)}/{len(expected)} defined topics stored | "
+        f"{total_unique} unique videos available | {len(rows)} shown"
+    )
+    if missing:
+        print("missing topic scans: " + ", ".join(missing))
+    if not rows:
+        print("No stored videos match this market selection.")
+        return
+    print(
+        "rank | exact video title | channel | publish date | format | "
+        "current views | subscribers | views/subscriber | measured views/day "
+        "| categories | matched topics"
+    )
+    for index, row in enumerate(rows, 1):
+        subscribers = ("n/a" if row["subscribers"] is None
+                       else f'{row["subscribers"]:,}')
+        breakout = ("n/a" if row["views_per_sub"] is None
+                    else f'{row["views_per_sub"]:.2f}x')
+        velocity = ("n/a" if row["velocity"] is None
+                    else f'{row["velocity"]:,.1f}')
+        publish_date = (row["published_at"] or "n/a")[:10]
+        print(
+            f'{index} | {row["title"]} | {row["channel"]} | '
+            f'{publish_date} | {row["format"]} | {row["views"]:,} | '
+            f'{subscribers} | {breakout} | {velocity} | '
+            f'{",".join(row["categories"])} | {",".join(row["topics"])}'
+        )
+
+
 def cmd_discover(args) -> None:
     """Wide-net scan: per keyword, pull recent top-viewed + relevant videos,
     join with channel subscriber counts, and rank views/subscriber breakouts
     from small channels. Nominates niches; does NOT add channels."""
     from datetime import timedelta
     key = load_api_key()
-    if args.keywords:
+    if args.market:
+        keywords = [
+            (keyword, f"{category} market topic")
+            for category, group_keywords in MARKET_TOPIC_GROUPS.items()
+            for keyword in group_keywords
+        ]
+    elif args.keywords:
         keywords = [(k.strip(), "RPM n/a (custom keyword)")
                     for k in args.keywords.split(",") if k.strip()]
     else:
@@ -600,6 +914,18 @@ def cmd_selftest(_args) -> None:
         ("t3", "test topic", "UCtest", "TestChannel", -1,
          "Hidden subscribers", "2026-01-03T00:00:00Z", 45, 1, 1500,
          None, "2026-01-03 00:00:00Z"),
+        ("m1", "Claude Code tutorial", "UCmarket", "MarketChannel", 100,
+         "Claude Code and ChatGPT shared AI video",
+         "2026-01-01T00:00:00Z", 600, 0, 3000,
+         30.0, "2026-01-01 00:00:00Z"),
+        ("m1", "ChatGPT tutorial", "UCmarket", "MarketChannel", 100,
+         "Claude Code and ChatGPT shared AI video",
+         "2026-01-01T00:00:00Z", 600, 0, 3200,
+         32.0, "2026-01-03 00:00:00Z"),
+        ("m2", "excel tutorial", "UCmarket2", "SoftwareChannel", 1000,
+         "Excel spreadsheet tutorial", "2026-01-02T00:00:00Z", 600, 0,
+         5000,
+         5.0, "2026-01-03 00:00:00Z"),
     ]
     conn.executemany(
         "INSERT INTO discoveries VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
@@ -608,6 +934,15 @@ def cmd_selftest(_args) -> None:
     conn.execute(
         "INSERT INTO discovery_snapshots VALUES (?,?,?,?,?)",
         ("t1", "test topic", "2026-01-01 00:00:00Z", 1000, 100),
+    )
+    conn.executemany(
+        "INSERT INTO discovery_snapshots VALUES (?,?,?,?,?)",
+        [
+            ("m1", "Claude Code tutorial", "2026-01-01 00:00:00Z",
+             3000, 100),
+            ("m1", "ChatGPT tutorial", "2026-01-03 00:00:00Z",
+             3200, 100),
+        ],
     )
     conn.commit()
 
@@ -644,11 +979,26 @@ def cmd_selftest(_args) -> None:
     assert _rank_topic_rows(topic_rows, "velocity")[0]["video_id"] == "t1", (
         "velocity ranking"
     )
+
+    market_rows = _market_report_rows(conn)
+    assert len(market_rows) == 2, "market deduplicates videos across topics"
+    shared = next(row for row in market_rows if row["video_id"] == "m1")
+    assert shared["topics"] == ["ChatGPT tutorial", "Claude Code tutorial"], (
+        "market preserves matched topics"
+    )
+    assert shared["categories"] == ["practical_ai"], "market category"
+    assert abs(shared["velocity"] - 100.0) < 0.01, "market velocity"
+    assert _rank_topic_rows(market_rows, "views")[0]["video_id"] == "m2", (
+        "market views ranking"
+    )
+    assert _rank_topic_rows(market_rows, "breakout")[0]["video_id"] == "m1", (
+        "market breakout ranking"
+    )
     conn.close()
     test_db.unlink()
-    print("SELFTEST PASS — schema, format separation, topic lookup, views/"
-          "breakout ranking, snapshot velocity, outlier math, and duration "
-          "parsing all correct.")
+    print("SELFTEST PASS — schema, format separation, exact-topic and "
+          "deduplicated-market ranking, snapshot velocity, outlier math, "
+          "and duration parsing all correct.")
 
 
 # ---------------------------------------------------------------- main
@@ -662,8 +1012,16 @@ def main() -> None:
 
     d = sub.add_parser("discover",
                        help="wide-net niche scan; nominates niches/channels")
-    d.add_argument("--keywords",
-                   help="comma-separated keyword list (default: built-in 12)")
+    discover_scope = d.add_mutually_exclusive_group()
+    discover_scope.add_argument(
+        "--keywords",
+        help="comma-separated keyword list (default: built-in 12)",
+    )
+    discover_scope.add_argument(
+        "--market",
+        action="store_true",
+        help="scan all defined desk-based market topics",
+    )
     d.add_argument("--days", type=int, default=180,
                    help="only videos published in the last N days (default 180)")
     d.add_argument("--top", type=int, default=25,
@@ -677,13 +1035,37 @@ def main() -> None:
         help="offline ranking for one exact stored discovery keyword",
     )
     t.add_argument("keyword", help="exact stored discovery keyword")
-    t.add_argument("--top", type=int, default=10,
-                   help="number of rows to show (default 10)")
+    t.add_argument("--top", type=int, default=TOPIC_REPORT_DEFAULT,
+                   help="number of rows to show (default 100)")
     t.add_argument("--rank", choices=("views", "breakout", "velocity"),
                    default="views", help="ranking metric (default views)")
     t.add_argument("--format", choices=("all", "long", "short"),
                    default="all", help="format filter (default all)")
     t.set_defaults(fn=cmd_topic_report)
+
+    m = sub.add_parser(
+        "market-report",
+        help="offline deduplicated ranking across relevant desk-based topics",
+    )
+    m.add_argument("--top", type=int, default=TOPIC_REPORT_DEFAULT,
+                   help="number of rows to show (default 100)")
+    m.add_argument("--rank", choices=("views", "breakout", "velocity"),
+                   default="views", help="ranking metric (default views)")
+    m.add_argument("--format", choices=("all", "long", "short"),
+                   default="all", help="format filter (default all)")
+    m.add_argument(
+        "--category",
+        choices=("all",) + tuple(MARKET_TOPIC_GROUPS),
+        default="all",
+        help="limit to one defined market category (default all)",
+    )
+    m.add_argument(
+        "--relevance",
+        choices=("strict", "raw"),
+        default="strict",
+        help="title relevance gate or unfiltered API results (default strict)",
+    )
+    m.set_defaults(fn=cmd_market_report)
 
     a = sub.add_parser("add-channel", help="register a channel to scan")
     a.add_argument("channel", help="@handle or UC... channel id")

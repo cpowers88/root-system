@@ -12,7 +12,7 @@ A phase is DONE when its exit criteria check, not when its window closes.
 | # | Phase | Window | Exit criterion (headline) | Page |
 |---|---|---|---|---|
 | 0 | Current Position & Baseline | Jul 2026 | Baseline written; castle live; tracker shipped | [[phase-0-current-position-and-baseline]] |
-| 1 | School + Core Technical Foundation | Aug 2026 – May 2027 | Fall passed strong; Python+SQL working daily tools; danger weeks respected | [[phase-1-school-core-technical-foundation]] |
+| 1 | School + Core Technical Foundation | Aug 2026 – May 2027 | Fall passed strong; Python+SQL working daily tools; high-load tradeoffs managed deliberately | [[phase-1-school-core-technical-foundation]] |
 | 2 | Audit Methodology Foundation | Sep 2026 – Feb 2027 | Observation method + VSM practiced on real processes; one-page findings format ready | [[phase-2-audit-methodology-foundation]] |
 | 3 | Data & Workflow Systems Foundation | Nov 2026 – Mar 2027 | Messy export → SQL → analysis → visual report, end-to-end, demonstrated | [[phase-3-data-and-workflow-systems-foundation]] |
 | 4 | First Offer Readiness | Feb – Mar 2027 | Offer + script + price + report template assembled; conversations booked | [[phase-4-first-offer-readiness]] |
@@ -27,7 +27,8 @@ A phase is DONE when its exit criteria check, not when its window closes.
 
 | Milestone | Target |
 |---|---|
-| First paid conversation | March 2027 |
+| Continuity income | Before Spring 2027 enrollment — evidence-first Revenue Lab tests |
+| First paid consulting conversation | March 2027 |
 | First paid audit report | H1 2027 |
 | First retainer client | Dec 2027 |
 | 3 retainer clients | end 2028 |
@@ -40,7 +41,8 @@ A phase is DONE when its exit criteria check, not when its window closes.
 
 - School is the spine; pace model: light semesters = ship projects, medium = one
   topic, heavy = maintenance only.
-- Danger weeks each fall (2026: Oct 5 – Nov 11) — school only.
+- High-load school window each fall (2026: Oct 5 – Nov 11): protect fixed
+  commitments, warn once before optional expansion, then follow Chris's direction.
 - Do not productize until validated: self → one real client → many.
 - Two sessions stuck in a row = scope DOWN.
 

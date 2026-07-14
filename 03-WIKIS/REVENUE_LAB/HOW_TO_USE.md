@@ -35,8 +35,9 @@ Skills the lane demands → the owning skill wiki, cross-referenced.
 ## Boundaries
 Never publishes, posts, or reaches out without Chris's explicit approval.
 Doesn't duplicate BUSINESS (audit company), TECHNOLOGY (tech landscape), or
-AI_AUTOMATION_SYSTEMS (AI research). School and academic-integrity boundaries
-absolute; every lane must survive danger weeks at maintenance level.
+AI_AUTOMATION_SYSTEMS (AI research). Fixed school commitments and
+academic-integrity boundaries remain absolute; each opportunity must tolerate
+reduced capacity during the October 5 – November 11 high-load window.
 
 ## How the Hub Learns From Use
 Every operated lane feeds its real numbers back into its evidence page —

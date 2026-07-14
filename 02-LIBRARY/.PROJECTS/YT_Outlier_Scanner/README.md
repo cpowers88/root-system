@@ -21,6 +21,12 @@ The wide-net `discover` command also stores recent topic results. The offline
 `topic-report` command ranks one exact stored keyword by total views,
 views/subscriber (`breakout`), or measured snapshot velocity.
 
+The broader `market-report` command combines the defined desk-based research
+universe, deduplicates videos returned by multiple searches, preserves their
+matched topics/categories, and ranks the overall pool. Its default `strict`
+mode applies transparent title checks to obvious search noise; use
+`--relevance raw` to audit every stored API candidate.
+
 ## One-Time Setup (Chris, ~5 minutes)
 
 1. Go to https://console.cloud.google.com/ (sign in with your normal Google
@@ -50,9 +56,14 @@ private and never show it in recordings, screenshots, output, or commits.
 
 ```
 python scanner.py discover --keywords "Claude Code tutorial" --days 180
-python scanner.py topic-report "Claude Code tutorial" --top 10 --rank views
-python scanner.py topic-report "Claude Code tutorial" --top 10 --rank breakout
-python scanner.py topic-report "Claude Code tutorial" --top 10 --rank velocity
+python scanner.py discover --market --days 180
+python scanner.py market-report --top 100 --rank views
+python scanner.py market-report --top 100 --rank breakout --format long
+python scanner.py market-report --category software_tutorials
+python scanner.py market-report --relevance raw --top 20
+python scanner.py topic-report "Claude Code tutorial" --rank views
+python scanner.py topic-report "Claude Code tutorial" --rank breakout
+python scanner.py topic-report "Claude Code tutorial" --rank velocity
 python scanner.py topic-report "Claude Code tutorial" --format long
 python scanner.py add-channel @SomeHandle --niche trades
 python scanner.py harvest                 # pulls uploads + stats for all channels
@@ -66,8 +77,17 @@ by niche, before the first harvest.
 
 ### Offline and network boundaries
 
-- `topic-report`, `report`, and `selftest` are local-only. They do not load the
-  API key and do not make network requests.
+- `market-report`, `topic-report`, `report`, and `selftest` are local-only. They
+  do not load the API key and do not make network requests.
+- The market universe currently has 36 documented topics across practical AI,
+  software tutorials, software/app reviews, small-business AI, and adult-facing
+  family technology. `discover --market` uses two Search calls per topic, or 72
+  of the separate 100-call daily default.
+- `market-report` returns up to 100 deduplicated rows by default. The same video
+  can preserve multiple matched topics without appearing multiple times.
+- `topic-report` returns up to 100 rows by default. Use `--top N` for a smaller
+  review slice. If fewer than 100 rows are stored, it returns everything
+  available without padding or invented data.
 - `discover`, `add-channel`, and `harvest` call the YouTube Data API and require
   the locally stored key.
 - Every successful `discover` refresh updates the latest `discoveries` row and
@@ -90,6 +110,10 @@ by niche, before the first harvest.
   compare videos of similar age when reading the report.
 - **Search is a sample, not a census.** Relevance results can be noisy and need
   human classification before any content decision.
+- **Strict relevance is a first pass, not truth.** It checks stored titles for
+  topic-specific terms and removes known ambiguous matches (for example,
+  Minecraft obsidian results). It cannot verify the full video's substance.
+  `--relevance raw` keeps the unfiltered candidate pool auditable.
 - **Review-only charter:** findings support an internal proof and later CASTLE
   review. They do not authorize an account, publishing, monetization, affiliate
   links, outreach, paid tools, or child-directed content.

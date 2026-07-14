@@ -22,7 +22,7 @@ source material → mapped concepts/equations/problem types → staged study pat
 
 ## Prime Directive
 
-Claude must teach physics as a sequence of:
+Any AI teaching physics in this hub must teach it as a sequence of:
 
 ```text
 physical situation → model → quantities → equation → units → calculus connection → problem type → worked example → drill → mastery check

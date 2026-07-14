@@ -115,7 +115,7 @@ Quarterly   → THE RATCHET — floors that fell early get raised
 ```
 
 School is the spine; course files live at `02-LIBRARY\00-SCHOOL`, while the matching wikis run the study path. The castle keeps the order. The wikis compound
-the knowledge, each in its own lane. The business wiki turns it into offers. 05-BUSINESS
+the knowledge, each in its own domain. The business wiki turns it into offers. 05-BUSINESS
 turns offers into money. The watchtower keeps you ahead. The ratchet
 makes sure the target never stops moving. **October 8, 2031 — floor, not finish line.**
 
@@ -126,9 +126,9 @@ makes sure the target never stops moving. **October 8, 2031 — floor, not finis
 1. One file, one home. Not sure? → `77-INBOX`; the weekly review files it.
 2. Nothing gets deleted — it gets archived.
 3. `88-JOURNAL` is yours alone.
-4. Oct 5 – Nov 11, 2026: school only. The system goes quiet on purpose.
+4. Oct 5 – Nov 11, 2026 is a high-load school window. AI warns once if optional work threatens fixed commitments, recommends the smallest safe scope, then follows Chris's decision.
 5. The skeleton is frozen. Content grows inside sections — we don't re-root.
-6. Targets move at quarterlies, by the ratchet — not by impulse.
+6. Targets normally move at quarterlies. Chris may authorize a mid-cycle change after an impact review; AI does not move targets autonomously.
 
 ---
-*AI entry: `C:\Users\chris\.ROOT\CLAUDE.md` -> `00-BRAIN\AGENT.md` -> lane file (CLAUDE.md / CODEX.md) -> CHRIS_CORE.md. The star: `01-NORTH_STAR\NORTH_STAR.md`. G: is cloud backup only.*
+*AI entry: `C:\Users\chris\.ROOT\CLAUDE.md` or `AGENTS.md` -> `00-BRAIN\AGENT.md` -> surface profile (`CLAUDE.md` / `CODEX.md` / `ATLAS.md`) -> CHRIS_CORE.md. The star: `01-NORTH_STAR\NORTH_STAR.md`. G: is cloud backup only.*

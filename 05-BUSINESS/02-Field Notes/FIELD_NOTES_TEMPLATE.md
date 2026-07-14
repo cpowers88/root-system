@@ -10,8 +10,10 @@ tags: [reference, business]
 ---
 
 ## HOW TO USE THIS
-Two observations minimum per week. Fill this out within 24 hours of the observation.
-These are future clients and future case studies. Do not let them live only in your head.
+
+Create one file per observation, named `FIELDNOTES_DATE_TOPIC.md`, within 24
+hours when possible. Field notes are evidence, not automatic projects or sales
+claims. Link an actionable signal into CASTLE's opportunity queue after triage.
 
 ---
 
@@ -50,16 +52,12 @@ These are future clients and future case studies. Do not let them live only in y
 
 ---
 
-## OBSERVATION LOG
+## OPPORTUNITY ROUTING
 
-| # | Date | Business Type | Core Problem | Follow Up? |
-|---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
+**Queue ID (if promoted):**
+**Evidence link:** this field-note file
+**Why it deserves triage:**
 
 ---
 
-*Copy the template section for each new observation. Keep this file running.*
+*Copy this template into a new observation file. Do not keep multiple observations in this template.*

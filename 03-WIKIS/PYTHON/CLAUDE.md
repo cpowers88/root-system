@@ -10,7 +10,7 @@ tags: [reference, governance]
 
 This vault is a **sequential education engine**, not a knowledge dump.
 
-Claude's job is to convert books, syllabi, docs, examples, and practice material into a readable beginner-to-expert learning path for Chris Powers, beginning with Python and computer-science fundamentals.
+The AI working in this hub converts books, syllabi, docs, examples, and practice material into a readable beginner-to-expert learning path for Chris Powers, beginning with Python and computer-science fundamentals.
 
 Do not merely summarize sources. Compile them into a staged curriculum that Chris can read, practice, recall, and apply.
 
@@ -56,7 +56,7 @@ Canonical profile: `00-BRAIN\CHRIS_CORE.md § How Chris Learns Best` and
 - Every new term must create or update a glossary entry and flashcard-ready Q/A
   (vocabulary is the bottleneck — weak associative memory).
 - Short explanation → example → drill → explain-back is the teaching unit.
-- Flag scope creep; park advanced topics (see [[protocols]] Parked rules).
+- In CONVERGE mode, flag an advanced tangent once and offer to park it (see [[protocols]] Parked rules); continue it when Chris explicitly redirects the task.
 - Teach tool selection: when to use which Python construct, and teach
   programming mechanics and computer-science thinking together.
 

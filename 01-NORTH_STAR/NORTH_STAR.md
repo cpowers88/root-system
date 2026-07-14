@@ -3,12 +3,12 @@ type: star
 tags: [reference, north-star]
 ---
 # The Compass
-.Root exists to stay adaptable — to keep changing shape as I learn and as opportunity moves - with on real job: find ways to make money by solving real problems, and build something big from what works. Once that's actually running use it to help more than just me. The business plan below is just my best first guess at how, I may be wrong, if so the system doesn't, it finds the next best one.
+.ROOT exists to stay adaptable — to keep changing shape as I learn and as opportunity moves — with one real job: find ways to make money by solving real problems, and build something big from what works. Once that's actually running, use it to help more than just me. The business plan below is my best first guess at how. If that guess is wrong, the system adapts and finds the next best path.
 
 # NORTH_STAR.md — Chris Powers
 #AI #system
 ### The Plan | Read Every Session | THE controlling document — nothing overrides it
-### Last updated: July 11, 2026 — slim pass (Chris-approved): deduplicated, compressed, live state moved to NOW.md/castle, prep to Goals & Milestones. All doctrine retained. Prior versions in 99-ARCHIVE (ARCHIVED_2026-07-11_NORTH_STAR_prev-slim.md = full pre-slim text).
+### Last updated: July 14, 2026 — unified AI-team governance, calendar-bound priority, and funding-continuity amendment. Prior versions and the pre-slim source remain in `99-ARCHIVE`.
 
 ---
 
@@ -35,13 +35,18 @@ leverage lets a two-member team out-produce firms ten times the size.
 
 **North Star date:** October 8, 2031 — my 50th birthday.
 **Revenue floor:** $500K–$1M annual. *A floor, not a ceiling — see The Ratchet.*
-**First client:** March 2027. **Team at the star:** Chris + AI, maximally leveraged.
+**First consulting client:** March 2027. **Team at the star:** Chris + AI, maximally leveraged.
+
+**Continuity-income constraint:** additional income is required before Spring 2027
+enrollment. Near-term income tests are governed by `03-WIKIS\REVENUE_LAB` and
+the castle profit gate. March 2027 remains the first consulting-client target,
+not the first-dollar target.
 
 **Entry wedges (dual, parallel — stated once here, referenced everywhere else):**
 - *Immediate — Real Estate via Heather's network.* Full-time realtor with warm
   access to agents, lawyers, brokers, investors, developers. Warm intros replace
   cold outreach; fragmented, data-heavy, audit-ripe industry. Fastest path to
-  first paid conversation.
+  first paid consulting conversation.
 - *Parallel — Construction domain credibility.* I know the culture, language,
   and field workflows; $2M–$15M contractors carry huge normalized
   inefficiencies invisible to owners. I can walk a job site and be taken seriously.
@@ -224,7 +229,8 @@ real-estate audit template).
 
 | Milestone | Target date |
 |---|---|
-| First paid conversation | March 2027 |
+| Continuity income | Before Spring 2027 enrollment — evidence-first Revenue Lab tests |
+| First paid consulting conversation | March 2027 |
 | First paid audit report | H1 2027 |
 | First retainer client | By December 2027 |
 | 3 retainer clients | End of 2028 |
@@ -259,9 +265,9 @@ Canonical priority order and plan:
 - Two sessions stuck in a row means scope down, not up.
 - Do not productize until validated: yourself → one real client → many.
 - Log the session before closing when continuity matters.
-- School is the non-negotiable. Everything else adjusts around it.
-- Danger Weeks: October 5 – November 11, 2026 — school only.
-- The ratchet turns at quarterlies only. Mid-cycle "the goal changed" is scope creep wearing a costume.
+- Fixed school deadlines and commitments are non-negotiable; remaining capacity follows the highest-value path, with a 5–10 hour semester technology/business floor whenever feasible.
+- High-load school window: October 5 – November 11, 2026. AI warns once when optional work threatens school commitments, recommends the smallest safe scope, then follows Chris's direction.
+- The ratchet normally turns at quarterlies. Chris may directly authorize a mid-cycle change after an impact review; AI may not change targets autonomously.
 - The .ROOT skeleton is frozen (July 6, 2026). Content grows; structure doesn't get rebuilt.
 - **Sell the Hole, Not the Drill.** Clients buy recaptured time and stopped profit leaks; code is just the delivery mechanism.
 - **Fact Over Theory.** Never build an automation until the manual process is thoroughly mapped. Assumptions kill audits.
@@ -269,7 +275,7 @@ Canonical priority order and plan:
 
 ## Core Systems Questions (every weekly review)
 
-1. Did school come first this week? If not, why not?
+1. Were fixed school commitments met, and was the technology/business floor protected when feasible?
 2. Did every tech skill touch a real use case?
 3. Did I move the business arc forward at all?
 4. **The Engine Question** (see The Engine).
@@ -280,8 +286,9 @@ Canonical priority order and plan:
 
 ## Known Risks
 
-- **Scope creep:** idea generation is highest-tier. Defenses: track order, no-orphan-skills, castle gate, quarterly-only ratchet.
-- **Ratchet abuse:** "the goal evolved" never justifies abandoning a deliverable mid-cycle.
+- **Funding continuity:** additional income is required before Spring 2027 enrollment. Revenue Lab tests near-term paths without confusing first-dollar proof with the March 2027 consulting-client milestone.
+- **AI task drift:** idea generation is highest-tier. Defenses: DIVERGE/CONVERGE modes, no-orphan-skills, the castle gate, and explicit tradeoff decisions—not control over Chris.
+- **Unexamined target changes:** AI never changes a target autonomously. Chris may authorize a mid-cycle change after an impact review.
 - **Avoidance disguised as planning:** if the system was rebuilt twice in a week, ask what the week actually produced. (July 6, 2026: rebuilt twice in one day — skeleton froze same day. The next rebuild request gets this line quoted back.)
 - **Time compression:** family of nine + full-time school — the system reduces friction or it goes (see Protect the Core).
 - **Market narrowing:** the wedges are *access*, not identity. The methodology stays industry-agnostic.
@@ -308,5 +315,5 @@ Are we closer to October 8, 2031 than we were last week — and is the star
 itself still pointed at the most profitable true north we know of?
 
 ---
-*Last updated: July 11, 2026 — slim pass (dedup + compression + pointers; no doctrine changed). Content basis: the July 11 TEST_GEMINI surgical merge.*
+*Last updated: July 14, 2026 — Chris-approved unified-team, priority, and funding-continuity update.*
 *Next update: quarterly review (first ratchet check), or sooner if the semester plan changes*

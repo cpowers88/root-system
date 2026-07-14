@@ -682,3 +682,30 @@ gate before any permanent content/revenue workspace or publishing commitment.
   `00-BRAIN\Session_Logs\YT_SCANNER_TOPIC_REPORT_AND_PRIVATE_PROOF_EXECUTION_BRIEF_2026-07-14.md`.
 - Skill-page candidate only: `technical-tutorial-production`; do not create until the
   private proof fits the time cap and Chris approves recurring use.
+
+## 2026-07-14 (afternoon) — Lane A scanner internal proof closed for today (Codex)
+
+- Completed the approved scanner build and broadened the primary research view from one
+  Claude Code topic to a 36-topic, deduplicated desk-based market report.
+- Evidence state: 2,615 raw unique candidates; 2,113 after a reversible title-relevance
+  gate; combined top 100 split 50 long-form/50 Shorts, with rank 100 at 891,117 views.
+- This remains attention evidence, not income proof. Full-video human classification is
+  the next Lane A action; public channel/account, posting, monetization, affiliates,
+  paid tools, and kids content remain HOLD.
+- No more Lane A work today. The next task may return to the school-first queue.
+
+## 2026-07-14 — Unified AI operating model implemented (Codex, Chris-approved)
+
+- Reconciled CASTLE to the universal one-team model: surface profiles describe
+  strengths, not exclusive authority; DIVERGE/CONVERGE control AI work flow,
+  not Chris; the high-load school window now uses one warning plus a scoped
+  recommendation rather than a hard stop.
+- Added [[opportunity-queue]], separated the capability proof ladder from asset
+  maturity, strengthened weekly/monthly value reviews, and made direct
+  Chris-approved evolution distinct from AI-initiated evidence gating.
+- Closed funding flag 73: continuity income is required before Spring 2027;
+  March 2027 remains the first consulting-client target.
+- Validation: boot chain PASS, shared skills PASS, strict wiki lint 0 blockers / 0
+  review debt, diff check PASS, and no private/raw changes.
+- Next action: resume the paused Physics Stage 3 vector-addition problem; test
+  the new operating model through normal use before another architecture pass.

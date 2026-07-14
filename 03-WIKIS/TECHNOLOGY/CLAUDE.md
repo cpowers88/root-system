@@ -23,7 +23,7 @@ The controlling question:
 operational spine — the 12-category possibility map (need/waste signals per
 category, the Recommendation Ladder, the selling model). It stays in place at
 `02-LIBRARY` (July 7, 2026 decision: it's load-bearing in ~10 live files
-including `NORTH_STAR.md`, `AGENT.md`, and the lane files' session boot
+including `NORTH_STAR.md`, `AGENT.md`, and the surface profiles' session boot
 order — moving it risked breaking the boot chain for no real gain). This wiki
 links to it and builds landscape research around it; it does not duplicate or
 fork its content.
@@ -109,4 +109,3 @@ This wiki watches the landscape so Chris doesn't have to relearn it cold on
 every audit. It stays vendor-neutral and ties every category studied back to
 a client service, skill gap, or audit scenario — same no-orphan-knowledge rule
 `TECHNOLOGY_LIBRARY_STRATEGY.md` already uses.
-

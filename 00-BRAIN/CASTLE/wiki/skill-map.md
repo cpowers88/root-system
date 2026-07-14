@@ -14,6 +14,14 @@ Every skill gets a status: **not-started → building → working → proven**.
 names its phase and its proof. Individual `skills/` pages get created when a skill
 goes active — not before.
 
+Capability depth uses a separate proof ladder:
+
+`explain → guided build → independent build → integration → real workflow → client outcome → reusable asset`
+
+Record the highest evidenced rung needed for the skill's real use. This ladder
+tracks Chris's capability; Capability Library maturity tracks the reusable asset.
+Do not merge the two dimensions.
+
 The business-plan wiki's four layers map onto the eight categories like this:
 Layer 1 Diagnostic → *Diagnostic*; Layer 2 Build → *Technical + AI Integration +
 Business Technology*; Layer 3 Commercial → *Commercial + Delivery*; Layer 4
@@ -103,7 +111,7 @@ This does not replace the status table above — it's the output format when Chr
 | Skill | Status | Phase | Proof |
 |---|---|---|---|
 | Communication (habitual professional clarity) | building — every interaction is a rep | all | Habitual by graduation (NORTH_STAR core goal) |
-| Time management under load (pace model) | building | 1 | Danger weeks honored; no zero-commit days |
+| Time management under load (pace model) | building | 1 | Fixed commitments met; high-load tradeoffs deliberate; no zero-commit days |
 | Delegation & playbook writing | later | 9 | First hire productive from playbooks |
 
 ## The Rule

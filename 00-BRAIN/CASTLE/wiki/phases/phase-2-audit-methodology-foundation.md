@@ -62,7 +62,8 @@ Paper + camera + field-notes template first. Looker Studio for showing findings
 ## Risks and Distractions
 - Reading more methodology instead of practicing it (BUSINESS wiki has enough already)
 - Building software for imagined clients before any audit proves the need
-- Danger weeks pause this phase entirely — resume mid-November
+- During the high-load school window, reduce or pause this phase when fixed
+  commitments require it; AI warns once and Chris decides the scope
 
 ## Next Action
 Schedule the first practice VSM on a known process before the semester starts.

@@ -44,13 +44,15 @@ Has a deliverable, build, or launch goal? → 02-LIBRARY\.PROJECTS\[NAME]\
 Reusable reference (book, concept, cheat sheet)? → 02-LIBRARY\[domain]\
 Reusable client-facing capability asset? → 05-BUSINESS\06-Capability Library\
 Clients, offers, pricing, proposals, field observations? → 05-BUSINESS\
-Web clipping or unsorted quick capture? → 77-INBOX\ (root level — clear weekly)
+Manual file dropped from outside `.ROOT`? → 77-INBOX\ (clear weekly)
+Automatic Obsidian web clipping? → Clippings\ at the `.ROOT` root (clear weekly)
 Personal reflection or private processing? → 88-JOURNAL\ (AIs do not read)
 Old, inactive, deprecated but worth keeping? → 99-ARCHIVE\ (nothing gets deleted)
 ```
 
-`77-INBOX\Clippings\` receives Obsidian clipper output automatically — review weekly,
-move keepers to their permanent home.
+Root `Clippings\` receives Obsidian clipper output automatically. `77-INBOX\`
+receives manual file drops. Review both weekly and move keepers to one permanent
+home; neither is a storage destination.
 
 ---
 
@@ -70,6 +72,7 @@ move keepers to their permanent home.
 | Library folders | `##-DOMAIN` numbered, caps | `06-AUTOCAD` |
 | Course notes | `##-TopicName.md` | `02-Kinematics.md` |
 | Archived versions | `ARCHIVED_YYYY-MM-DD_filename.md` | `ARCHIVED_2026-07-11_ATLAS.md` |
+| Shared canonical skills | `00-BRAIN\SKILLS\skill-name\SKILL.md` | `00-BRAIN\SKILLS\session-close\SKILL.md` |
 
 **Handoff date format is MMDD numeric — not month name.**
 Use `HANDOFF_0615_CLAUDE.md` not `HANDOFF_JUNE15_CLAUDE.md`.
@@ -82,14 +85,16 @@ One copy, zero drift.
 
 ## The Folders — one line each (structure detail: vault_map.md)
 
-- **00-BRAIN\** — AI instructions and coordination: AGENT.md (OS), lane files
-  (CLAUDE/CODEX/ATLAS), CHRIS_CORE/CHRIS, vault_map, this file, SYSTEM_FLAGS,
+- **00-BRAIN\** — AI instructions and coordination: AGENT.md (OS), capability
+  profiles (CLAUDE/CODEX/ATLAS), CHRIS_CORE/CHRIS, vault_map, this file, SYSTEM_FLAGS,
   COLOR_MAP.yaml (edit it, then run `scripts\build_graph_colors.py` — never
   hand-edit graph.json). Subfolders: `HATS\` (optional modes — short, active
   prompts), `CASTLE\` (command-center wiki; owns `.ROOT\NOW.md`),
   `Session_Logs\` (current handoffs + DAILYs + reports; `Report Archive\`
   inside), `scripts\` (build_graph_colors.py, wiki_lint.py,
-  frontmatter_audit.py, validate_boot_chain.py). `.md` only. NOT here: course
+  frontmatter_audit.py, validate_boot_chain.py, sync_shared_skills.py), plus
+  `SKILLS\` as the canonical source for shared native skills. `.md` only except
+  approved scripts. NOT here: course
   notes, project files, personal writing.
 - **01-NORTH_STAR\** — NORTH_STAR.md, README.md, SKILL_GAP_ANALYSIS.md,
   `Weekly Reviews\`, `Goals & Milestones\`. NOT here: session logs, course
@@ -112,7 +117,8 @@ One copy, zero drift.
   03-Case Studies, 04-Pricing Models, 05-Proposals & SOWs, 06-Capability
   Library (reusable client-facing assets indexed by APQC process). NOT here:
   business reference books (→ 02-LIBRARY\05-BUSINESS).
-- **77-INBOX\** — landing zone; nothing lives here past one weekly review.
+- **77-INBOX\** — manual external-file landing zone; nothing lives here past one weekly review.
+- **Clippings\** — automatic Obsidian clipping intake at the `.ROOT` root; nothing lives here past one weekly review.
 - **88-JOURNAL\** — private; no AI reads this folder.
 - **99-ARCHIVE\** — the safety net; nothing gets deleted, it gets archived
   as `ARCHIVED_DATE_filename.md`. Verify parent chains by NAME against the

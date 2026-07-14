@@ -337,3 +337,9 @@ This wiki's pages are unchanged — its `ai-and-llm/` lane stays closed.
 None here. This wiki's raw/ is now fully accounted for (NIST duplicate
 flagged for Chris's manual call under flag 56). Weekly rep carry-over
 unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
+
+## 2026-07-14 — Boot terminology reconciled
+
+- Updated the section operating contract to refer to surface capability profiles
+  rather than task lanes. No technology research page, boundary, or queue changed.
+- Next action remains the normal technology-landscape rep cadence.

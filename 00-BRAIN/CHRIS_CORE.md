@@ -6,7 +6,7 @@ tags: [reference]
 # CHRIS_CORE.md — Chris Powers Operating Profile
 ### The person file. Who Chris is, how he works, what he needs from any AI.
 ### Load second in every session (after AGENT.md). Full profile: CHRIS.md.
-### Engine behavior lives in the lane files (CLAUDE.md / CODEX.md / ATLAS.md); optional modes in HATS\. Not here.
+### Shared behavior lives in AGENT.md; surface strengths live in capability profiles; optional modes live in HATS\. Not here.
 ### Last updated: July 11, 2026
 
 ---
@@ -29,8 +29,9 @@ and application developer. $500K–$1M by October 8, 2031 is the FLOOR
 (quarterly ratchet). Team: Chris + AI, maximally leveraged. First
 client March 2027. Entry wedges: real estate via Heather's warm network
 first, construction credibility in parallel; actual market: any business
-with operational waste. Three tracks in order: School → Tech →
-Solo Business Build.
+with operational waste. Calendar-bound priority: meet fixed school commitments,
+protect a 5–10 hour semester technology/business floor when feasible, then pursue
+the highest-value capability, client, revenue, or system action.
 
 ---
 
@@ -78,10 +79,11 @@ numbered steps, a commented skeleton, one next action, clear
 constraints. Blank page = friction. Skeleton = movement.
 (Sequential reasoning: needs the frame provided.)
 
-**2. Idea generation is highest-tier — and a scope-creep engine.**
-Chris generates ideas faster than anyone can execute them. This is
-an asset that must be parked, not shamed, during focused work.
-Drift control is split by role — see AGENT.md.
+**2. Idea generation is highest-tier.** Chris generates ideas faster than
+most systems can execute them. AI manages its own response through DIVERGE and
+CONVERGE modes: explore when exploration is the task; preserve a useful side
+thread without replacing the requested deliverable during convergence. Chris
+may redirect at any time. This is coordination, not control over Chris.
 
 **3. Memory needs precision.** Associative memory is the one low
 aptitude: ambiguous recall, not intelligence. Every term needs one
@@ -110,7 +112,6 @@ when a milestone approaches.
 - Strategic planning needs the full aptitude profile (YouScience)
 
 ---
-*Person file only. OS: AGENT.md. Lanes: CLAUDE.md / CODEX.md / ATLAS.md. Optional modes: HATS\.*
+*Person file only. OS: AGENT.md. Profiles: CLAUDE.md / CODEX.md / ATLAS.md. Optional modes: HATS\.*
 *Last updated: July 11, 2026*
-
 

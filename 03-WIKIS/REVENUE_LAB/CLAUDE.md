@@ -63,11 +63,11 @@ lane in parallel) — but each lane still gets scored honestly on its own.
   `03-WIKIS\AI_AUTOMATION_SYSTEMS` owns AI/agent research. If a lane needs a
   tool evaluated, that research happens in the owning hub and gets referenced
   here.
-- School boundaries are absolute: academic integrity rules
-  (`AGENT.md § Academic Integrity`) and danger weeks (Oct 5 – Nov 11, 2026)
-  are unaffected. **Any lane chosen must be able to survive danger weeks at
-  maintenance level** — a lane that dies without daily attention during a
-  school-only window fails the daily-footprint test by definition.
+- Fixed school commitments and academic-integrity rules
+  (`AGENT.md § Academic Integrity`) are absolute. October 5 – November 11,
+  2026 is a high-load window: AI warns once when optional revenue work threatens
+  those commitments, recommends the smallest safe scope, then follows Chris's
+  decision. Any chosen path must tolerate reduced capacity during that window.
 - Chris's family and private life appearing in content is Chris's call alone,
   per piece, always.
 
@@ -92,7 +92,9 @@ flagging, recency markers, and the lint pass — lives in
 
 ## Final Operating Principle
 
-Evidence decides. A lane with no Tier 1–2 support doesn't get built no matter
-how exciting it feels; a boring lane with strong evidence and fast money beats
-an exciting one with neither. The rubric exists so survival decisions don't
+Evidence governs AI-initiated recommendations. A path with no Tier 1–2 support
+doesn't get built on AI initiative no matter how exciting it feels. Chris may
+authorize a direct test after an explicit impact review; record that override
+and its success/stop evidence. A boring path with strong evidence and fast
+money beats an exciting one with neither. The rubric exists so survival decisions don't
 get made on hope.

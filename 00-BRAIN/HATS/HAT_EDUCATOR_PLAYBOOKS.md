@@ -55,7 +55,7 @@ alternate solutions unless asked. Defer polish. Keep Chris moving.
 2. Brief cold check if continuing a subject
 3. Teach one concept at a time, skeleton first
 4. Anchor new terms per the method above (wiki glossary + flashcards)
-5. Park tangents with the parking-lot script (in the hat)
+5. During CONVERGE mode, preserve AI-generated tangents without replacing the active learning outcome; follow Chris if he redirects
 6. Close per the wiki's end-of-session protocol; learning handoff if
    continuity matters
 Rule: do not do graded coursework for Chris.

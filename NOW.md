@@ -3,17 +3,25 @@ type: dashboard
 tags: [now]
 ---
 
-# NOW — Tuesday, July 14, 2026 (FUNDING CUT DISCLOSED — Revenue Lab hub opened)
+# NOW — Tuesday, July 14, 2026 (Revenue Lab scan + Lane A scanner proof complete)
 ### Open this every morning. One screen. Maintained by the AI every session.
 
-## ☀️ The Single Priority
+## ☀️ Today's Cockpit
+
+| View | Current |
+|---|---|
+| Start here | Continue the active Physics Stage 3 vectors work; if that session is closed, finish the Python Stage 2 close-out |
+| Fixed school commitment | Maintain pre-semester Physics/Python readiness for Aug 24 |
+| Technology growth | YT scanner proof is complete for today; the next rep is human classification of the saved top 100 |
+| Business / system | Unified-AI operating-model update implemented, validated, logged, and closed |
+| Soft boundary | Close after validation and reporting; return to school work rather than opening another architecture pass |
 
 **🚨 NEW CONSTRAINT (July 14): a major cut in school funding means Chris needs
 additional income to continue studies past the Fall 2026 semester.** This is now
 the system's controlling financial fact. It changed the profit-gate math: income
-that keeps Chris enrolled directly serves the school spine. NORTH_STAR.md is
-flagged for a Chris-approved amendment (SYSTEM_FLAGS #73) — its income timeline
-(first client March 2027) no longer matches reality's deadline.
+that keeps Chris enrolled directly serves the school spine. NORTH_STAR.md now
+records continuity income before Spring 2027 enrollment separately from the
+March 2027 first consulting-client target (SYSTEM_FLAGS #73 closed July 14).
 
 **The response, built AND completed today: `03-WIKIS\REVENUE_LAB\` (new hub,
 Chris-approved) — the full 5-lane evidence scan ran in one day**, with Codex
@@ -29,11 +37,12 @@ demonetizes mass-produced content).
 1. **B2 proof conversation** — one neutral change-order replay with a contractor
    friend, asking whether they would pay for remote estimate/change-order support.
    Chris must approve the external message/conversation; no offer or pricing yet.
-2. **Lane A research build — APPROVED** — Claude Code may build the
-   format-separated YouTube outlier scanner using Python/SQLite once Chris supplies
-   the API credential through a safe local secret mechanism. No channel, posting,
-   or monetization decision until the data is in; the key never enters vault files,
-   logs, reports, or Git.
+2. **Lane A internal research proof — COMPLETE for today.** The free local
+   Python/SQLite scanner now covers 36 defined desk-based topics and produces a
+   deduplicated combined top 100. Stored evidence: 2,615 raw unique candidates;
+   2,113 after a reversible title-relevance gate. Next Lane A action is human
+   classification of the top 100, not more scanning today. This is attention
+   evidence, not survival-income proof or authorization to publish.
 
 Research never publishes or creates accounts; Chris approves all consequential
 actions. Prediction checks logged for ~Aug 14.
@@ -51,7 +60,7 @@ July 13 (Vision layer above the existing Strategy content, kept short and in Chr
 language — full reasoning trail in
 `HANDOFF_0713_CLAUDECHAT_NORTHSTAR_VISION_RESOLUTION.md`).
 
-**Today's start — school lane:** `03-WIKIS\PYTHON` and `03-WIKIS\PHYSICS` are Track 1
+**Today's start — school work:** `03-WIKIS\PYTHON` and `03-WIKIS\PHYSICS` are Track 1
 execution (`CASTLE\OPERATIONS.md`). Python is at **Stage 2 — Decisions and Boolean
 Logic**: Stage 1 is verified complete, and the open next step is the Stage 2
 choose-your-path mini-project. Physics Stage 3 (Vectors) is also ready and mid-stream
@@ -101,12 +110,12 @@ Luke Barousse segments, not feature expansion.
 | Date | What | Days out |
 |---|---|---|
 | ~~Sun Jul 12~~ | ~~First weekly review that consumes DAILY files~~ **DONE same day: swept clean** — 7-hub wiki sweep, Watchtower radar, 77-INBOX all clear; flags 57, 51, 16 re-checked against live files, all three confirmed still correctly OPEN, no new drift | 0 |
-| ~Aug 13 | Content/social wiki research page target (30-day window, see This Week's Reps) | 31 |
+| ~Aug 14 | Lane A prediction check + human review of combined top 100 | 31 |
 | ~Jul 25 | D2L opens — enter real syllabus data into the tracker | 12 |
 | Aug 1 | Monthly review — weak-link question + [[current-position]] update + wiki lint/tag maintenance from the July 11 live reports | 19 |
 | ~Aug 10–22 | Extend CASTLE calendar tags + semester study-block template (SYSTEM_FLAGS #51) | — |
 | Aug 24 | **KSU Fall semester begins — show up loaded** | 42 |
-| Oct 5 – Nov 11 | Danger weeks — school only, castle goes quiet | 84 |
+| Oct 5 – Nov 11 | High-load school window — protect fixed commitments; optional work gets one tradeoff warning, not a hard stop | 84 |
 
 ## 🧭 Bearing
 
@@ -119,7 +128,7 @@ proposal execution is consolidated. Live evidence is the DAILY files,
 `HANDOFF_0712_CODEX.md`, `FINAL_ROOT_LAUNCH_OPTIMIZATION_REPORT_2026-07-12.md`, and
 `ROOT_OPERATING_MANUAL.md` (new master human instruction file, built + validated
 July 12); completed one-off reports were moved to `99-ARCHIVE`. Boot chain PASS;
-architecture frozen; supervised use GO. **July 13: normal reps resume** — school lane
+architecture frozen; supervised use GO. **July 13: normal reps resume** — school work
 (Python/Physics) first, per Track order.
 
 ---

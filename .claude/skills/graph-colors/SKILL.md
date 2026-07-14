@@ -1,16 +1,12 @@
 ---
 name: graph-colors
-description: Update the Obsidian graph's categorical colors after adding or changing a tag/path filter. Use when Chris asks to change graph colors, add a new color group, or after a new top-level tag/section needs its own graph color.
+description: Update the Obsidian graph's categorical colors after a tag or path filter changes. Use when Chris asks to change graph colors, add a color group, or give a new section its own graph color.
 ---
 
-# Graph Color Maintenance
+# Maintain Graph Colors
 
-Categorical graph colors live in `.obsidian\graph.json`, generated from
-`00-BRAIN\COLOR_MAP.yaml`. Sequential priority uses tag and path filters in
-graph search.
-
-## Steps
-
-1. Never hand-edit `.obsidian\graph.json`'s `colorGroups` directly.
-2. Edit `00-BRAIN\COLOR_MAP.yaml` instead.
-3. Run `00-BRAIN\scripts\build_graph_colors.py` to regenerate `graph.json`.
+1. Never hand-edit `.obsidian\graph.json` color groups.
+2. Edit `00-BRAIN\COLOR_MAP.yaml`.
+3. Run `python 00-BRAIN\scripts\build_graph_colors.py`.
+4. Confirm the generated graph configuration contains the intended filter and
+   that the boot validator still passes.

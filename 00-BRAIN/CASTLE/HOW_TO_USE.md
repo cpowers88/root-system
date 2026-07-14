@@ -26,7 +26,7 @@ Good castle questions (ask any AI session, or just read the pages):
 - "Why am I learning X right now?" → the phase page that names X
 - "Should I chase this new profit idea?" → run it through `wiki/decision-rules/adding-a-profit-skill.md`
 
-Bad castle questions (belong elsewhere): "teach me SQL" (→ 03-WIKIS\PYTHON with Claude Chat, the primary educator), "what should I charge" (→ 03-WIKIS\BUSINESS), "where does this file go" (→ WHERE_IT_GOES.md).
+Questions routed elsewhere: "teach me SQL" (→ 03-WIKIS\PYTHON with any AI in Educator mode), "what should I charge" (→ 03-WIKIS\BUSINESS), "where does this file go" (→ WHERE_IT_GOES.md). Routing names the knowledge home, not the only capable model.
 
 ## How To Retrieve Knowledge
 Graph view: the castle is the 🟤 light-brown block on the `.ROOT` MAP (colors: START_HERE.md). For "what's next," filter by tag — `path:"00-BRAIN/CASTLE" tag:#now`, then `#next` — the timeline ramp lives in tags, not colors. Or start at `wiki/index.md` — every page is listed.
@@ -40,10 +40,11 @@ The castle itself outputs only: updated maps, phase pages, skill pages, decision
 ## How To Update Existing Files
 AI sessions have FULL OPERATOR autonomy here (per `OPERATIONS.md`): maps, statuses, logs update without asking. Structural changes, new phases, and OPERATIONS.md edits need Chris. Every session that changes files updates `wiki/index.md` + `wiki/log.md` and refreshes `NOW.md`.
 
-## How To Prevent Scope Creep
+## How To Protect Task Integrity
 - New shiny skill/opportunity → through the [[adding-a-profit-skill]] gate, never straight to a page.
 - Depth before sprawl: no new pages while a stub exists in the same area.
-- Danger weeks (Oct 5 – Nov 11, 2026): castle goes quiet. Logging only.
+- High-load school window (Oct 5 – Nov 11): warn once before optional expansion,
+  recommend the smallest safe scope, then follow Chris's direction.
 
 ## Common Commands / Prompts
 - "Refresh NOW.md" — after any working session
@@ -53,7 +54,7 @@ AI sessions have FULL OPERATOR autonomy here (per `OPERATIONS.md`): maps, status
 - "Monthly review: weak-link question + current-position update"
 
 ## Examples
-- *Morning*: open `NOW.md`, do the single priority, done.
+- *Morning*: open `NOW.md`, take the start action, and use the soft boundary to reassess rather than forcing a hard stop.
 - *Idea strikes*: "Should I learn n8n?" → gate page → verdict logged → back to work.
 - *Month end*: AI updates current-position + moves timeline tags forward in the school wikis (tag-filtered, one shared graph — see WHERE_IT_GOES.md Tag Standard).
 

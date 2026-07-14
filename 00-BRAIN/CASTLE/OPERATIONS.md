@@ -14,7 +14,7 @@ tags: [reference, governance]
 Any AI session working in `CASTLE` loads, in this order:
 
 1. `C:\Users\chris\.ROOT\00-BRAIN\AGENT.md` — universal OS: shared rules, file safety, session close
-2. `C:\Users\chris\.ROOT\00-BRAIN\CLAUDE.md` — lane file (optional HATS\ mode if useful)
+2. The active surface profile in `C:\Users\chris\.ROOT\00-BRAIN\` (optional HATS\ mode if useful)
 3. `wiki/index.md` — what exists in the castle
 4. Last 3 entries of `wiki/log.md` — what happened recently
 5. `wiki/north-star-roadmap.md` — the current pathway state
@@ -67,8 +67,9 @@ opening a new phase, changes to OPERATIONS.md itself, and ANY file outside
 5. **Depth before sprawl.** Do not open a new phase/skill/project page while an
    existing one in the same area is a stub. Update `index.md` and `log.md` every
    session that changes files.
-6. **Danger weeks (Oct 5 – Nov 11, 2026): school only.** Castle sessions during
-   that window are limited to logging and Track 1 support. No new planning.
+6. **High-load school window (Oct 5 – Nov 11, 2026): advisory protection.**
+   Warn once when optional CASTLE work threatens a fixed school commitment,
+   recommend the smallest safe scope, then follow Chris's direction.
 7. **Chris decides what's permanent.** The castle proposes; Chris approves
    promotions to `.ROOT` and any structural change.
 8. **Calendar-encoded capacity.** Castle's schedulable pool = blocks labeled "CASTLE"
@@ -106,14 +107,16 @@ on top of its roadmap role:
 patterns, and proposes `.ROOT` self-improvements; the castle reviews,
 maintains, and keeps things legible. The castle does not do that wiki's
 primary research — same eyes-not-hands split already used for the Watchtower.
-Stable, repeated proposals from that wiki pass through the review cadence
-in `AGENT.md` before landing in `00-BRAIN` governance files.
+AI-initiated proposals from that wiki pass through the evidence and review
+cadence in `AGENT.md`. A Chris-directed change may proceed after impact review
+and approval without waiting for repeated-friction evidence.
 
 ## Weekly Inbox Routing Checklist
 
-Run this alongside the weekly CASTLE sweep for `.ROOT\77-INBOX` and any approved capture folder.
+Run this alongside the weekly CASTLE sweep for manual intake in `.ROOT\77-INBOX`
+and automatic Obsidian intake in `.ROOT\Clippings`.
 
-1. Scan the inbox for raw clippings, quick notes, unsorted ideas, and observations.
+1. Scan both intake paths. Nothing lives permanently in either one.
 2. Capture filter: keep only what is useful, surprising, or tied to an open question — otherwise let it pass. Anti-hoarding heuristic for personal clippings only; consequential/technical/legal/audit sources still get full-source capture in wiki `raw/` regardless of this filter.
 3. Route only files with clear homes under `WHERE_IT_GOES.md`.
 4. Leave ambiguous files in place and add a `SYSTEM_FLAGS.md` entry instead of guessing.
@@ -122,10 +125,21 @@ Run this alongside the weekly CASTLE sweep for `.ROOT\77-INBOX` and any approved
 7. Confirm `05-BUSINESS\06-Capability Library` holds only reusable client-facing assets, not wiki notes or general reference.
 8. Confirm no fake client-retainer folders were created before a real client, named prospect, or approved sandbox exercise.
 
+## Opportunity Routing
+
+After evidence reaches its permanent home, add only actionable commercial or
+learning-to-application signals to `wiki/opportunity-queue.md`. General signals
+enter as `captured`; named client leads enter as urgent `triaged` items. Every
+row needs an evidence link, owner realm, and next test/action before work begins.
+Internal system friction stays in `SYSTEM_FLAGS.md` unless it independently
+earns a commercial opportunity entry.
+
 ## Session Close
 
 Before ending any session that changed files:
-- **Refresh `.ROOT\NOW.md`** — date, today's priority, project status, countdowns.
+- **Refresh `.ROOT\NOW.md`** — date, starting action, fixed school item,
+  technology rep, business/system item, soft time boundary, project status,
+  and countdowns.
   NOW.md sits at the .ROOT root so it's the first thing Chris sees; the castle
   owns and maintains it. A stale NOW.md is a broken castle.
 - **Append task blocks to today's `00-BRAIN\Session_Logs\DAILY_YYYY-MM-DD.md`**

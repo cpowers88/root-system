@@ -120,12 +120,12 @@ Not comfortable relying on memory alone to retain and recall new terminology, na
 ## Known Risks
 
 - **Goal completion discomfort** — as the North Star approaches, energy may drop without a clear next horizon. The system must always define what comes after.
-- **Idea generation vs. execution gap** — generating ideas is effortless; implementing them is genuinely difficult. Name scope creep every time it happens.
+- **Idea generation vs. execution gap** — generating ideas is effortless; implementation needs a visible frame. AI should manage its own tangent behavior through DIVERGE/CONVERGE modes, state material tradeoffs once, and follow Chris's direction.
 - **Sequential reasoning constraint** — needs structure before execution. Open-ended challenges cause freezing. Always give the skeleton first.
 - **Vocabulary gap** — elite vocabulary can create distance with audiences who don't share it. The TCOM goal is precision that lands, not precision that impresses.
 - **Associative memory** — terms don't stick without precision + repetition through action. Drills in isolation don't work. Real code, repeated use.
 - **Family pressure during heavy semesters** — frame the finish line clearly with Heather before midterms, not during them.
-- **Drift during light semesters** — structure must fill the space or the idea generator runs unconstrained.
+- **Unstructured light semesters** — provide a visible start and review point while leaving Chris free to redirect.
 - **Landscape awareness becoming procrastination** — know the map, then pick the path and walk it.
 
 ---
@@ -140,7 +140,7 @@ Not comfortable relying on memory alone to retain and recall new terminology, na
 - Provide skeletons before asking for execution
 - Break steps into numbered lists
 - Connect every session to the active project or mission
-- Name scope creep immediately — redirect without dismissing
+- State material tradeoffs once; preserve useful side ideas without obstructing Chris's direction
 - End every session with a micro-win named explicitly
 - Use spatial language: "above," "inside," "flows into"
 - Name the next horizon when a goal is nearing completion
@@ -171,4 +171,3 @@ The aptitude profile confirms what I already knew: Idea Generation + Numerical R
 ---
 *Source: YouScience Assessment, Christopher Powers, November 2025 | Full PDFs in 02-LIBRARY\09-META-HOW-TO-WORK\*
 *Last updated: July 5, 2026*
-

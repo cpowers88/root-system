@@ -98,3 +98,10 @@ tags: [log]
 - Index updated with the new page entry.
 - Next: update current-position when D2L opens (~July 25), at the Aug 1
   monthly, and at the Aug 24 semester start.
+
+## 2026-07-14 — Index integrity correction
+
+- Added the existing `learning-how-to-learn-principles.md` page to the
+  exhaustive index, resolving the one EDUCATION index omission/orphan pair
+  found by strict wiki lint. No learning content or Physics work changed.
+- Next: normal pre-semester cadence; update current-position when D2L opens.

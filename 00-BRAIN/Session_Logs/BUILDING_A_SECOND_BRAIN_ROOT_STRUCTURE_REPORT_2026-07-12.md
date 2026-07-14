@@ -498,3 +498,24 @@ The top-one-percent move is therefore not to copy Building a Second Brain. It is
 ## Single Next Action
 
 Approve or revise the three Pass-2 enhancements—capture filter, Hemingway Bridge, and project kickoff/completion harvest—before any live instruction edits or source movement.
+
+## July 14 Follow-Up — Visual Review and New Governance Application
+
+The extracted source in `.ROOT\tmp\pdfs\building-second-brain\` was reviewed
+again in complete chapter chunks, including all eight supplied page visuals.
+The images successfully confirmed the text-layer interpretation of CODE, PARA,
+progressive summarization, distillation, divergence/convergence, and weekly/
+monthly review checklists. This closes the July 12 viewer limitation; it does
+not change the report's no-PARA-rebuild verdict.
+
+One application changed after Chris supplied new direct requirements. The
+earlier pass declined a formal divergence/convergence ritual because existing
+scope controls appeared sufficient. Chris has now explicitly removed hard
+drift control over himself and asked AI to stay on task without refusing valid
+redirects. `.ROOT` therefore adopts DIVERGE/CONVERGE as lightweight **AI work
+modes**: divergence permits exploration; convergence controls AI-generated
+intake and tangents while finishing. The modes do not restrict Chris.
+
+The visual and full-source follow-up also supports one shared operating system
+across tools with native discovery surfaces, which informed the canonical
+`00-BRAIN\SKILLS\` source plus generated Claude/Codex mirrors.

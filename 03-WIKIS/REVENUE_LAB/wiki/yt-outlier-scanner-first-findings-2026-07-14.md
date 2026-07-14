@@ -18,6 +18,24 @@ landscape rep, and prepare one private 8–12 minute tutorial proof from the liv
 scanner build. Public channel creation, posting, monetization, affiliates, paid
 tools, and kids content remain outside authorization.
 
+**Research-depth and scope amendment:** Chris increased the default depth to
+**up to 100**, then clarified that the primary 100 must come from the combined
+relevant market—not only `Claude Code tutorial`. Exact-topic reports are now
+drilldowns beneath the cross-topic market report.
+
+The defined market contains 36 searches across practical AI, software tutorials,
+software/app reviews, small-business AI, and adult-facing family technology.
+The completed scan produced 2,615 deduplicated raw candidates. A transparent
+title relevance gate removed 502 obvious mismatches, leaving 2,113 candidates
+for review. The overall top 100 by views contains 50 long-form videos and 50
+Shorts; rank 100 has 891,117 views. Category matches within those 100 are:
+practical AI 81, software tutorials 21, small-business AI 9, software reviews 2,
+and family technology 2. Counts overlap when one video matches multiple topics.
+
+Strict relevance is not final classification. It catches known ambiguity such
+as Minecraft results for `Obsidian tutorial`, but full-content review is still
+required before calling a candidate reproducible or worth making.
+
 Execution brief:
 `00-BRAIN\Session_Logs\YT_SCANNER_TOPIC_REPORT_AND_PRIVATE_PROOF_EXECUTION_BRIEF_2026-07-14.md`
 
@@ -42,11 +60,13 @@ Discovery searches covered videos published in the last 180 days. Each search
 returns recent, relevant public YouTube results; it is a sample, not the entire
 market. Results were read on July 14, 2026 and view counts will continue to change.
 
-The scanner uses two different signals:
+The scanner uses three different signals:
 
 1. **Total views** — evidence that a subject is attracting attention.
 2. **Views per subscriber** — evidence that a specific video broke out beyond
    its channel's ordinary reach. It is a discovery signal, not proof of income.
+3. **Measured view velocity** — change in views between real observations at
+   least 24 hours apart. It remains `n/a` until that evidence exists.
 
 ## Scan A — Desk-Based Software Tutorials
 
@@ -75,7 +95,7 @@ doing; it does not support copying titles or generic AI filler.
 | AI automation tutorial | 92 | 385,875 | 2,660,185 | 34% |
 | AI tools for beginners | 90 | 383,150 | 10,108,075 | 21% |
 
-### Exact Top Ten — `Claude Code tutorial` by Total Views
+### Leading-Ten Excerpt — `Claude Code tutorial` From the 100-Row Set
 
 | # | Views | Channel | Published | Video title |
 |---:|---:|---|---|---|
@@ -150,7 +170,8 @@ family-systems angle only; it does **not** support a child-directed channel.
    ChatGPT/Codex, Google Workspace/Gemini, Python, and selected automation tools.
 2. When a relevant feature/change lands, run a 30- to 90-day discovery scan using
    that exact feature phrase.
-3. Compare the top ten by total views with the top ten by views/subscriber.
+3. Rank up to 100 by total views and views/subscriber, then deeply review the
+   strongest and most relevant subset.
 4. Make an original tutorial only when Chris has used the feature on a live project
    or real workflow that week.
 5. Preserve periodic view snapshots before adding a future `views-per-day` ranking;
@@ -161,9 +182,9 @@ family-systems angle only; it does **not** support a child-directed channel.
 - YouTube search relevance is imperfect; every query needs manual classification.
 - Public views are attention signals, not revenue, demand, or repeatability.
 - Search samples favor recently indexed/popular videos; they are not a full census.
-- The current scanner stores exact discovery rows but needs a topic-ranking output
-  for the top ten by total views, views/subscriber, publish date, and—after
-  snapshots—views/day without a manual database query.
+- The scanner stores exact discovery rows and now ranks up to 100 by total views,
+  views/subscriber, publish date, and—after qualifying repeat snapshots—measured
+  views/day without a manual database query.
 - Scanner quota output is an operational guardrail; Google Cloud Console remains
   the source of truth for quota usage.
 

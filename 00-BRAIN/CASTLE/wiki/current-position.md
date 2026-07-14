@@ -14,11 +14,11 @@ tags: [baseline, now]
   ISYE 2600 in Spring 2027.
 - **Financial continuity:** a major school-funding cut disclosed July 14 means
   additional income is required to continue beyond Fall 2026. The active response is
-  the evidence-first `03-WIKIS\REVENUE_LAB` scan: freelance estimating and tutoring
-  first, then the remaining lanes, with a ranked scorecard due about July 21. No lane
-  is approved for build, publishing, outreach, or accounts until the CASTLE profit
-  gate is re-run. `NORTH_STAR.md` needs a Chris-approved income-timeline amendment
-  (SYSTEM_FLAGS #73); this page records the live constraint without preempting it.
+  the evidence-first `03-WIKIS\REVENUE_LAB` scan. The five-lane scan and ranked
+  scorecard are complete. Lane A has internal scanner proof; B2's external proof
+  conversation remains gated on Chris's explicit approval. `NORTH_STAR.md` now
+  distinguishes the before-Spring-2027 continuity-income need from the March 2027
+  first consulting-client target (SYSTEM_FLAGS #73 closed July 14).
 - **Python:** tracked two ways, both early: CS50P through PS2 (loops), and the
   `03-WIKIS\PYTHON` wiki's staged path at **Stage 2 of 10 — Decisions and Boolean
   Logic**. Stage 1 was satisfied July 13 through independent code plus explain-back
@@ -47,8 +47,10 @@ tags: [baseline, now]
   client-facing assets.
 - **Clients:** zero. The March 2027 first-client target remains North Star doctrine
   pending its approved amendment; it is not the near-term answer to the funding gap.
-  Revenue Lab is researching a bounded survival-income lane that can keep school
-  viable while preserving the school-first sequence.
+  Revenue Lab's five-lane evidence scan is complete. Lane A's internal scanner proof
+  now covers 36 desk-based topics with a deduplicated cross-market top 100; it remains
+  a compounding research lane, not survival-income proof. B2's one external proof
+  conversation remains separately gated on Chris's explicit approval.
 
 ## Weak Links (priority order, from SKILL_GAP_ANALYSIS July 5)
 
@@ -64,7 +66,7 @@ tags: [baseline, now]
 
 - Two entry wedges: Heather's warm local real-estate network for immediate access, plus construction domain knowledge and cultural credibility for parallel access
 - Aptitude profile matched to the work (idea generation, numerical, spatial, extroverted)
-- A working AI operating system (00-BRAIN) and a two-member team: Chris + Claude
+- A working AI operating system (00-BRAIN) and a unified team: Chris + AI, with model capability profiles rather than file or task lanes
 - ~230 pages of digested methodology across `03-WIKIS\BUSINESS` and `03-WIKIS\SYSTEMS` — lean, consulting, factory physics (inherited from FORGE's July 7, 2026 retirement)
 - Family constraint discipline: systems must reduce friction, or they get deleted
 

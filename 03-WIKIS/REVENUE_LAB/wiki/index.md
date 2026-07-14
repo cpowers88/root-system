@@ -3,7 +3,7 @@ tags: [reference]
 ---
 
 # Index — Revenue Lab Wiki
-### Updated: July 14, 2026 (ALL 3 scan sessions complete — scorecard live)
+### Updated: July 14, 2026 (scanner internal proof complete for today)
 
 ## Hub Files
 - `CLAUDE.md` — hub OS: purpose, ranking rubric, boundaries, division of labor
@@ -14,8 +14,9 @@ tags: [reference]
   B2 and Lane A research conditionally pass; Chris controls the two external
   approvals. START HERE.**
 - **[[yt-outlier-scanner-first-findings-2026-07-14]] — first live scanner
-  evidence: practical AI/software path approved for an internal scanner upgrade,
-  one-month validation, and one private proof; no public channel decision.**
+  evidence plus the completed 36-topic cross-market expansion: 2,615 raw unique
+  candidates, 2,113 strict candidates, and a deduplicated combined top 100.
+  Next Lane A action is human classification; no public channel decision.**
 - [[revenue-lane-scan-brief]] — the scan's design: five lanes, evidence bar,
   scoring method (completed in one day, July 14)
 

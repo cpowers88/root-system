@@ -24,7 +24,7 @@ Optimization → waste elimination. Name the real-world analog in every assignme
 - Python (CSE 1321 + CS50P continuation) — Technical
 - SQL daily reps (tracker in live use all semester) — Technical
 - Technical writing (TCOM — this IS client-report training) — Delivery/Professional
-- Time management under load: pace model + danger weeks — Professional
+- Time management under load: pace model + high-load tradeoff management — Professional
 
 ## Skills NOT Needed Yet
 - Flask, n8n, Retool — Phase 3/7
@@ -50,7 +50,7 @@ Technical credibility floor: can talk data, code, and engineering method without
 
 ## Exit Criteria
 - [ ] Fall 2026 completed, Bs acceptable / As preferred, no course failed
-- [ ] Danger weeks (Oct 5 – Nov 11) honored: zero business/new-project activity
+- [ ] High-load window (Oct 5 – Nov 11) managed without missed school commitments; optional work was deliberately scoped
 - [ ] Tracker used through the whole semester (not abandoned by week 4)
 - [ ] POL shipping weekly summary reports by spring
 - [ ] ISYE 2600 entered with winter-break prep done
@@ -58,7 +58,7 @@ Technical credibility floor: can talk data, code, and engineering method without
 ## Risks and Distractions
 - New project ideas during the semester (highest-tier idea generation = named risk;
   route ALL of them through [[adding-a-profit-skill]] → parking lot)
-- Business planning during danger weeks
+- Optional work displacing fixed school commitments during the high-load window
 - Tech pace exceeding the semester pace model (medium semester = one topic at a time)
 
 ## Next Action

@@ -42,9 +42,9 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── WATCHTOWER.md      ← operating rules: what to track, weekly sweep, castle-gate routing
 │   └── radar.md           ← the live signal board
 │
-├── 00-BRAIN\  ← governance + command — load AGENT.md first, then the relevant lane file
+├── 00-BRAIN\  ← governance + command — load AGENT.md first, then the relevant capability profile
 │   ├── AGENT.md           ← universal OS — load FIRST, every session, any engine
-│   ├── CLAUDE.md / CODEX.md / ATLAS.md  ← engine lane files
+│   ├── CLAUDE.md / CODEX.md / ATLAS.md  ← surface capability profiles
 │   ├── CHRIS_CORE.md      ← the person file (default load, second)
 │   ├── CHRIS.md           ← full profile (monthly review / calibration only)
 │   ├── vault_map.md       ← this file
@@ -53,10 +53,11 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── COLOR_MAP.yaml     ← machine-canon graph colors (edit it, run scripts\build_graph_colors.py)
 │   ├── LOCAL_MACHINE_MAP.md ← C:/D: inventory (reference snapshot)
 │   ├── HATS\              ← optional behavior modes (OPERATOR, EDUCATOR, subject hats + playbooks)
+│   ├── SKILLS\            ← canonical shared skills; product discovery mirrors are generated
 │   ├── CASTLE\            ← command center: OPERATIONS.md + wiki\ (phases, skills,
 │   │                         proof-projects, decision-rules, maps); owns .ROOT\NOW.md
 │   ├── scripts\           ← maintenance scripts (build_graph_colors.py, wiki_lint.py,
-│   │                         frontmatter_audit.py, validate_boot_chain.py)
+│   │                         frontmatter_audit.py, validate_boot_chain.py, sync_shared_skills.py)
 │   └── Session_Logs\      ← current handoffs + DAILY_YYYY-MM-DD.md + reports
 │                             (Report Archive\ inside)
 │
@@ -99,7 +100,7 @@ not itself a Git repository. Do not flag these tooling folders as strays.
 
 **Boundaries:** the castle references, never absorbs. Each wiki refines its own
 domain, never governs the system; wikis are folders inside the one `.ROOT` vault,
-each with its own `CLAUDE.md` scope. Watchtower signals act only through the
+each with its own section operating context. Watchtower signals act only through the
 castle's adding-a-profit-skill gate. Placement authority: `WHERE_IT_GOES.md`.
 Local machine (C:/D:) inventory: `LOCAL_MACHINE_MAP.md`.
 

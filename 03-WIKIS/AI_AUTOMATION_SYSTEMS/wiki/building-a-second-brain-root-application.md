@@ -63,14 +63,18 @@ adoption was narrow operating upgrades, not a PARA rename.
    stage-3-vectors.md`, `03-WIKIS\BUSINESS\wiki\ai-integration-company\
    smb-ai-audit-method.md`. Evaluate retrieval/maintenance cost at the next
    weekly review before expanding to more pages.
+5. **DIVERGE / CONVERGE AI work modes** — adopted July 14 after Chris directly
+   removed hard drift control over himself. DIVERGE permits exploration;
+   CONVERGE limits AI-generated intake and tangents while finishing. The modes
+   govern AI behavior and never prevent Chris from redirecting.
 
 ## What was explicitly declined
 
 No PARA rename, no new tag scheme, no vault-wide Progressive Summarization,
-no "Mode: DIVERGE/CONVERGE" ritual, no "favorite problems" list — `.ROOT`
-already has stronger equivalents (North Star, CASTLE gaps, monthly weak-link
-question) and the skeleton stays frozen. Full reasoning in the source report
-§7 "What Not to Adopt."
+and no "favorite problems" subsystem. The July 12 decision against a formal
+DIVERGE/CONVERGE ritual was superseded July 14 by Chris's direct governance
+request; the adopted version is a lightweight AI behavior mode, not added
+ceremony or user control. The skeleton stays frozen.
 
 ## Links to Related Pages
 

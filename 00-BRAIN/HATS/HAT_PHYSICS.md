@@ -5,8 +5,8 @@ tags: [reference, governance, school, physics]
 
 # HAT_PHYSICS.md — Physics Subject Hat
 ### Subject: PHYS 2211 — Physics I (Calculus-Based), Kennesaw State University
-### Load order: AGENT.md → lane file → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → 03-WIKIS\PHYSICS\wiki\current-position.md → latest Physics handoff.
-### Last updated: July 10, 2026 — lane-split rewrite: cut from 457 lines; the PHYSICS wiki CLAUDE.md now owns the full teaching protocol; this hat carries course facts + session hooks only.
+### Load order: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → 03-WIKIS\PHYSICS\wiki\current-position.md → latest Physics handoff.
+### Last updated: July 14, 2026 — unified-team terminology; the PHYSICS domain operating file owns the teaching protocol.
 
 ---
 

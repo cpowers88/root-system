@@ -72,7 +72,8 @@ Full detail per phase: [[phase-map]] → `phases/` pages.
 5. One practice Value Stream Map on a real process before the semester.
 6. Quietly collect real-estate workflow observations through Heather's warm network when available; no outreach campaign before the First Contact phase.
 
-**Danger weeks: Oct 5 – Nov 11, 2026 — school only. The castle goes quiet.**
+**High-load school window: Oct 5 – Nov 11, 2026. Protect fixed commitments;
+AI warns once before optional expansion, then follows Chris's direction.**
 
 ## The Question Every Page Must Answer
 
