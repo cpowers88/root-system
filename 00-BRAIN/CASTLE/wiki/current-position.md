@@ -13,9 +13,10 @@ tags: [baseline, now]
   13 hours: ECON 1000, ENGR 1000, PHYS 2211, CSE 1321+L, TCOM 2010. Gate course
   ISYE 2600 in Spring 2027.
 - **Python:** tracked two ways, both early: CS50P through PS2 (loops), and the
-  `03-WIKIS\PYTHON` wiki's staged path at **Stage 1 of 10** (Python Atoms) — all 11 stage
-  packets are generated, but generated ≠ studied. Confident: files, print, strings.
-  Not yet: function parameters/returns, dictionaries, reading tracebacks.
+  `03-WIKIS\PYTHON` wiki's staged path at **Stage 2 of 10 — Decisions and Boolean
+  Logic**. Stage 1 was satisfied July 13 through independent code plus explain-back
+  and traceback reasoning; all 11 stage packets are generated, but generated ≠
+  studied. Current work is the Stage 2 mini-project.
 - **Physics:** `03-WIKIS\PHYSICS` wiki's own `current-position.md` records the active
   unit as **Stage 3 of 18 — Vectors** (Serway Ch 3), packet complete. Stages 1–2 are
   assumed cleared from the July stage-packet build-ahead — confirm their mastery
@@ -30,8 +31,9 @@ tags: [baseline, now]
   template exists in `05-BUSINESS\01-Audit Templates\` but is unproven.
 - **Data visualization:** can find problems, can't show them yet. Looker Studio: zero reps.
 - **Technology landscape:** structure exists (TECHNOLOGY_LIBRARY_STRATEGY.md — 12
-  categories + Recommendation Ladder); weekly reps not yet started.
-- **Business assets already built:** ~45-page business-model wiki, delivery template
+  categories + Recommendation Ladder); first weekly rep (Make.com) logged July 9,
+  with additional landscape pages added July 13.
+- **Business assets already built:** 51-page business-model wiki, delivery template
   library (audit report, proposal, SOW, outreach), pricing worksheet, field-notes
   method with one real construction observation logged (June 5). APQC-indexed
   capability-library structure is being added under `05-BUSINESS` for reusable

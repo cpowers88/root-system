@@ -490,3 +490,111 @@ tags: [reference]
   exercise was approved.
 - Next: use the check at the next weekly sweep and assess whether the manual
   control catches meaningful drift before considering automation.
+
+## 2026-07-13 — CASTLE wiki protocol reconciliation
+
+- Ran the CASTLE boot sequence and checked the command center against its live
+  owning sources. The raw folder contains only its immutable README; there is no
+  pending CASTLE raw intake.
+- Reconciled stale position/count claims: Python is Stage 2 (Stage 1 verified July
+  13), Physics is Stage 3, the Make.com landscape rep is complete, and the live
+  SYSTEMS / TECHNOLOGY / BUSINESS page counts are 98 / 107 / 51 respectively.
+- Refreshed `NOW.md` so its school-lane instruction names the actual open Python
+  work: the Stage 2 choose-your-path mini-project. No phase opened, no roadmap
+  doctrine changed, and the standing priority remains Practice Rep 1.
+
+### Next action
+Complete Practice Rep 1: run the workflow-observation method on one accessible
+real process, then log its evidence in the owning business/capability files and DAILY.
+
+## 2026-07-13 — Revenue-brand opportunity gate (Codex)
+
+- Chris raised a content-led revenue-brand hypothesis: use real learning, builds,
+  audits, and system progress as possible YouTube/TikTok/social proof while
+  researching which niche and format can create value.
+- Gate result: **HOLD**. It belongs conceptually to the North Star content-and-
+  audience asset class and can name a research brief as proof, but it has no
+  Tier 1–2 market evidence, no defined current service/proof project, and no
+  protected time budget. Starting it now would displace the overdue Practice
+  Rep 1.
+- Operating judgment recorded: route AI work by needed capability rather than
+  fixed Claude-versus-Codex walls. Content, if later approved, documents real
+  proof work; it does not become an influencer-first parallel project.
+
+### Unlock condition
+
+Complete Practice Rep 1, then time-box a source-backed niche/platform scan that
+produces three evidence-linked candidates, one proof-project sentence, and an
+explicit displacement. Re-run the gate before creating a permanent revenue wiki
+or content cadence.
+
+## 2026-07-14 (late morning) — Practice Rep 1 closed by Chris's explicit call (Claude Code)
+
+- Chris directed closing Practice Rep 1 using `observation_one.md` (contractor desk-
+  simulation) as the recorded evidence, explicitly flagging intent to revisit with a
+  real live observation soon. Logged as Chris's judgment call, not a silent upgrade —
+  [[field-observation]]'s proof bar (2 tested observation sessions) and the Capability
+  Library asset's "draft" maturity were deliberately left unchanged.
+- `NOW.md` Single Priority rewritten: Rep 1 closed-for-now, no new single blocking
+  priority set. Today's real reps stand on their own merit (contractor gate HOLD,
+  Python Stage 2 mini-project + Anki rebuild, ongoing Anki review).
+- Next: no blocking action; revisit a live observation opportunistically.
+
+## 2026-07-14 — Contractor change-order and pricing-platform hypothesis gate (Codex)
+
+- **Idea:** a residential-contractor mobile app that captures a field photo and
+  generates a change order, linked to a desktop CRM/intake system and eventually
+  a nationwide, location-adjusted estimating knowledge base.
+- **No-orphan test:** **PASS** — it could eventually serve the existing construction
+  wedge and the audit → build → retainer → productize engine.
+- **Source test:** **FAIL / unknown** — the current case is Chris's domain experience;
+  no Tier 1–2 evidence has yet established demand, viable data access/licensing, or
+  income fit for a national pricing product.
+- **Phase test:** **FAIL** — a national pricing/CRM product belongs in later
+  productization phases, beyond the two-quarter window; it is not a Phase 0 build.
+- **Displacement test:** **FAIL** — building or scoping it now would displace the
+  overdue real workflow-observation rep and current School/Tech proof.
+- **Proof test:** **PARTIAL** — the narrow proof is clear (replay one real change
+  order with a contractor); the full product's proof is not yet bounded.
+
+### Verdict: HOLD
+
+Do not create a product wiki, feature list, or application now. The next permitted
+move is one neutral discovery conversation: replay the contractor's last real
+unknown-condition/change-order event from discovery through payment. Confirm whether
+photo → scope → price → customer approval → billing evidence would prevent a repeated
+loss. Re-run the gate only after that field evidence and a source-backed market/data
+scan name a bounded proof project and explicit displacement.
+
+## 2026-07-14 — Social-content audience and revenue-system hypothesis gate (Codex)
+
+- **Idea:** create a separate, parallel revenue-ideas/research wiki; study high-view
+  social content; and build one or more channels toward an audience large enough to
+  fund the wider business through attention, supplemental income, leads, and future
+  collaborations.
+- **No-orphan test:** **PARTIAL** — content and audience are a named North Star asset
+  class, but this version has no defined current service, proof project, or audience
+  problem it would support.
+- **Source test:** **FAIL / unknown** — no Tier 1–2 evidence has been collected on
+  the proposed audience, platform economics, repeatable format, attribution, or a
+  lawful and ethical way to learn from comparable content. A target of one million
+  followers or views is an aspiration, not market evidence.
+- **Phase test:** **FAIL** — operating an audience-growth/revenue engine is not a
+  near-term School/Tech proof rep. It is a later operating lane, while a small
+  evidence scan can remain queued inside the existing BUSINESS wiki.
+- **Displacement test:** **FAIL** — no protected time budget or explicit trade-off
+  was named. A separate wiki, posting system, or analytics workflow would compete
+  directly with Python and Physics progress.
+- **Proof test:** **FAIL** — “reach one million” is not a bounded proof. The first
+  possible proof is a short, source-backed research brief naming three audience-
+  problem candidates, a viable value/revenue mechanism, and one real project that
+  could be documented.
+
+### Verdict: HOLD
+
+Do not create a separate wiki, channel, posting cadence, content-copy workflow, or
+follower/view KPI system now. Keep this as one bounded future research item in the
+existing `03-WIKIS\BUSINESS` lane. Unlock it only after Chris sets a protected,
+explicitly displaced research block and the scan uses Tier 1–2 sources to produce the
+three candidates, one proof-project sentence, and one honest revenue path. Re-run the
+gate before any permanent content/revenue workspace or publishing commitment.

@@ -86,3 +86,6 @@ The narrative closes with Third Way fault injection. Project Narwhal/Chaos Monke
 - [[devops-origins-and-myths]] - the Resource Guide's explanation of where DevOps came from and what it does not mean.
 - [[devops-reading-map]] - the appendix's recommended reading list for the bodies of knowledge behind the Three Ways.
 - think-python-interface-conditionals-recursion - the turtle case study's development plan (small working version → encapsulate → generalize → refactor only once the problem is understood) is the same small-batch, iterate-on-a-working-system discipline, applied to a single function instead of a release pipeline.
+- [[conways-law-and-organizational-design]] - the First Way's flow goal, unpacked as an organizational-design (not just process) problem, via *The DevOps Handbook*.
+- [[production-telemetry-and-monitoring-architecture]] - the Second/Third Way's "telemetry visible to everyone" practice, unpacked mechanically.
+- [[just-culture-and-blameless-postmortems]] - the Third Way's learning-from-failure principle, via the Handbook's blameless-post-mortem mechanics rather than this page's Chaos Monkey narrative treatment.

@@ -30,6 +30,10 @@ The curriculum is fully generated through Stage 10, but that describes what exis
 **Blocked By:** nothing — Stage 2's packet is complete and ready
 **Parked Advanced Material:** see `wiki/parking-lot.md` (consolidated 2026-06-24)
 
+**Intake note (2026-07-13):** Four late raw-source files were classified. They
+add future support/reference options only; the active Stage 2 reading, drill, and
+mini-project remain unchanged.
+
 ---
 
 ## Source Roster (finalized 2026-06-24)

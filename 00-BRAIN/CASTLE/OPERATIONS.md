@@ -84,8 +84,8 @@ opening a new phase, changes to OPERATIONS.md itself, and ANY file outside
 
 ## Wiki Sweep — Seven Hubs (added July 7, 2026 wiki unification; FORGE retired same day, replaced by SYSTEMS)
 
-`03-WIKIS` holds seven hubs: SYSTEMS, PYTHON, EDUCATION, PHYSICS, BUSINESS,
-TECHNOLOGY, AI_AUTOMATION_SYSTEMS. The castle's standing job
+`03-WIKIS` holds eight hubs: SYSTEMS, PYTHON, EDUCATION, PHYSICS, BUSINESS,
+TECHNOLOGY, AI_AUTOMATION_SYSTEMS, REVENUE_LAB (added July 14, 2026). The castle's standing job
 on top of its roadmap role:
 
 - **Weekly sweep** (alongside the existing Watchtower sweep): read each wiki's

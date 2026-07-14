@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Classified monthly wiki lint for the seven hubs plus CASTLE.
+"""Classified monthly wiki lint for the eight hubs plus CASTLE.
 
 Default mode reports findings without failing. --strict exits 1 only for
 blockers: missing frontmatter or an index that links to a nonexistent page.
@@ -18,7 +18,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parents[2]
 HUB_NAMES = (
     "AI_AUTOMATION_SYSTEMS", "BUSINESS", "EDUCATION", "PHYSICS",
-    "PYTHON", "SYSTEMS", "TECHNOLOGY",
+    "PYTHON", "REVENUE_LAB", "SYSTEMS", "TECHNOLOGY",
 )
 HUBS = [ROOT / "03-WIKIS" / h for h in HUB_NAMES] + [
     ROOT / "00-BRAIN" / "CASTLE"

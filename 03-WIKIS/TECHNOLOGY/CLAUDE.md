@@ -63,17 +63,26 @@ wiki/
   index.md
   log.md
   current-position.md   # once landscape tracking is active
-  web-frameworks/        # applied reference: Flask, Django
-  distributed-systems/   # applied reference: scalability, caching, consistency, messaging
-  devops/                 # applied reference: Phoenix Project, Three Ways, IT ops, deployment, security
-  ai-and-llm/             # applied reference: LLM fundamentals, alignment, co-intelligence
-  data-science-ml/        # applied reference: CRISP-DM, data mining, trees/linear models
+  web-frameworks/        # applied reference: Flask, Django, lightweight frameworks, task queues, hosting
+  distributed-systems/   # applied reference: scalability, caching, consistency, messaging, storage engines, transactions
+  devops/                 # applied reference: Phoenix Project, DevOps Handbook, IT ops, deployment, security
+  ai-and-llm/             # applied reference: LLM fundamentals, alignment, co-intelligence (closed lane, see System Boundary)
+  data-science-ml/        # applied reference: CRISP-DM, data mining, trees/linear models, inferential statistics
+  database-sql/           # applied reference: SQL fundamentals through window functions (added 2026-07-13)
+  software-craft/         # applied reference: Clean Code, The Clean Coder, The Pragmatic Programmer (added 2026-07-13)
+  security/               # applied reference: API security, OWASP API Top 10 (added 2026-07-13)
+  software-engineering/   # applied reference: Agile/Scrum, requirements, testing (added 2026-07-13)
+  (landscape-research pages live at wiki/ root, not in a subfolder — first
+  batch added 2026-07-13; see index.md)
 ```
 
-The five applied-reference subfolders above were built July 7, 2026 for the
-FORGE-inherited content. Build further category subfolders under `wiki/` only
-as new landscape research actually accumulates per category — do not
-pre-build all 12 landscape categories empty.
+The five original applied-reference subfolders were built July 7, 2026 for the
+FORGE-inherited content; four more (`database-sql/`, `software-craft/`,
+`security/`, `software-engineering/`) were built July 13, 2026 for that day's
+raw/ audit-and-ingest batch, same justification (content arrived in clear
+clusters, not built speculatively). Build further category subfolders under
+`wiki/` only as new landscape research or applied-reference material actually
+accumulates per category — do not pre-build empty categories.
 
 ## Shared Wiki Rules
 

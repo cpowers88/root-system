@@ -3,25 +3,49 @@ type: dashboard
 tags: [now]
 ---
 
-# NOW — Monday, July 13, 2026 (launch audit closed — normal system use starts today)
+# NOW — Tuesday, July 14, 2026 (FUNDING CUT DISCLOSED — Revenue Lab hub opened)
 ### Open this every morning. One screen. Maintained by the AI every session.
 
 ## ☀️ The Single Priority
 
-**🟢 RUN THE SYSTEM. Architecture is frozen; output reps are the job now.** July 12's
-launch audit, hardening, and a full day of approved-proposal execution are closed out
-(backstop Day Summary written into `DAILY_2026-07-12.md` this morning — last night's
-session ended without one). **C:\Users\chris\.ROOT is now the canonical local working
-tree; G: is cloud backup only.** Flag 71 tracks verification of that backup sync; it
-does not block school work. The
-capability library shipped its first real asset July 12 (`APQC_13_1_WORKFLOW_OBSERVATION_MAP.md`,
-draft maturity) — Practice Rep 1 is still open, not yet run.
+**🚨 NEW CONSTRAINT (July 14): a major cut in school funding means Chris needs
+additional income to continue studies past the Fall 2026 semester.** This is now
+the system's controlling financial fact. It changed the profit-gate math: income
+that keeps Chris enrolled directly serves the school spine. NORTH_STAR.md is
+flagged for a Chris-approved amendment (SYSTEM_FLAGS #73) — its income timeline
+(first client March 2027) no longer matches reality's deadline.
+
+**The response, built today: `03-WIKIS\REVENUE_LAB\` — a new dedicated hub
+(Chris-approved structural change).** Evidence first, build second. The active
+deliverable is the **revenue lane scan** (`wiki\revenue-lane-scan-brief.md`):
+five lanes (content channel, freelance estimating, tutoring, digital products,
+AI-assisted content), each scored on time-to-first-dollar, daily-footprint fit,
+skill overlap, compounding, and variance — three sessions, done by ~July 21.
+Output: a ranked scorecard + a portfolio recommendation (one survival lane +
+one compounding lane) that goes to the CASTLE gate for the build decision.
+
+**Next scan session: Session 1 — Lanes B (freelance estimating) + C (tutoring),
+the fast-money lanes.** Research never publishes or creates accounts; Chris
+approves all consequential actions.
+
+**Also today (already done):** Practice Rep 1 closed by Chris's explicit call
+(desk-sim `observation_one.md` as evidence, live rep to revisit); contractor
+CRM/pricing product gated HOLD; Python Stage 2 mini-project verified + Anki
+decks rebuilt (Stage 2 close-out still open: decision-rules drill, debug
+exercise, explain-back).
+
+**Context (not today's action):** July 12's launch audit, hardening, and a full day of
+approved-proposal execution are closed out. **C:\Users\chris\.ROOT is now the canonical
+local working tree; G: is cloud backup only.** `NORTH_STAR.md` gained a Compass section
+July 13 (Vision layer above the existing Strategy content, kept short and in Chris's own
+language — full reasoning trail in
+`HANDOFF_0713_CLAUDECHAT_NORTHSTAR_VISION_RESOLUTION.md`).
 
 **Today's start — school lane:** `03-WIKIS\PYTHON` and `03-WIKIS\PHYSICS` are Track 1
-execution (`CASTLE\OPERATIONS.md`). Python is the clearer starting point: Stage 0 is
-satisfied but **Stage 1 — Python Atoms** (`wiki/stages/stage-01-python-atoms.md`) has
-never been started, per the wiki's own `current-position.md`. Physics Stage 3 (Vectors)
-is also ready and mid-stream if that's the better fit for today's energy.
+execution (`CASTLE\OPERATIONS.md`). Python is at **Stage 2 — Decisions and Boolean
+Logic**: Stage 1 is verified complete, and the open next step is the Stage 2
+choose-your-path mini-project. Physics Stage 3 (Vectors) is also ready and mid-stream
+if that's the better fit for today's energy.
 **Tracker truth: V1 SHIPPED.** All commands work (`--week`, `--courses`, `--tests`,
 `--today`, `--course X`, `--overdue`, `--add-test/-assignment/-reading`). It is no
 longer a build project. Next tracker action: **enter real D2L/syllabus data ~July 25.**
@@ -50,6 +74,9 @@ Luke Barousse segments, not feature expansion.
   logged in the TECHNOLOGY wiki)
 - [ ] SQL off-day segment (Luke Barousse, 20 min)
 - [ ] Schedule the first practice VSM on a known process (Phase 2 next-action; 2nd field-observation rep)
+- [x] ~~Queued: content-channel research page~~ **SUPERSEDED July 14** — absorbed
+  into `03-WIKIS\REVENUE_LAB\` as Lane A of the revenue lane scan (the funding cut
+  turned this from a someday-research page into part of the active survival scan).
 
 ## ✅ Chris's Quick Items (minutes each)
 
@@ -64,6 +91,7 @@ Luke Barousse segments, not feature expansion.
 | Date | What | Days out |
 |---|---|---|
 | ~~Sun Jul 12~~ | ~~First weekly review that consumes DAILY files~~ **DONE same day: swept clean** — 7-hub wiki sweep, Watchtower radar, 77-INBOX all clear; flags 57, 51, 16 re-checked against live files, all three confirmed still correctly OPEN, no new drift | 0 |
+| ~Aug 13 | Content/social wiki research page target (30-day window, see This Week's Reps) | 31 |
 | ~Jul 25 | D2L opens — enter real syllabus data into the tracker | 12 |
 | Aug 1 | Monthly review — weak-link question + [[current-position]] update + wiki lint/tag maintenance from the July 11 live reports | 19 |
 | ~Aug 10–22 | Extend CASTLE calendar tags + semester study-block template (SYSTEM_FLAGS #51) | — |

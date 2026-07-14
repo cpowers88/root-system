@@ -5,6 +5,29 @@ tags: [log, business]
 
 # Wiki Log
 
+## 2026-07-13 — Template-library navigation repair
+
+### What Changed
+- Repaired six links that treated `template-library.md` as a sibling of the
+  company pages even though it lives in `ai-integration-company/templates/`.
+
+### What Was Added
+None.
+
+### What Was Updated
+- `wiki/ai-integration-company/index.md` (2 links)
+- `wiki/ai-integration-company/smb-ai-audit-method.md` (1 link)
+- `wiki/ai-integration-company/start-here.md` (3 links)
+
+### What Was Parked
+None.
+
+### Missing Data Needed From Chris
+None.
+
+### Recommended Next Action
+None. The BUSINESS page catalog now resolves its template-library navigation.
+
 ## 2026-07-12 — Full `raw/` intake: 24 unprocessed sources (7 background research forks + direct data pulls)
 
 Chris asked for the "chunk raw intake of the new files in raw." Cross-referenced all 39 files in `raw/` against this log; ~13 were already absorbed in prior sessions (McKinsey survey, BTOS clipping + AI supplement, EDGAR clips, Procore clips, WTI report, Entrepreneurship textbook → `venture-fundamentals.md`). Confirmed scope with Chris on how to handle three full-length textbooks (marketing, 2 estimating) plus the 18.6MB WEF report before starting — Chris chose full intake on everything. Processed the remaining 24 sources: small clippings and xlsx data pulled directly; the five large-PDF sources delegated to parallel research forks (read-only, no file writes) to keep raw PDF content out of the main session's context — synthesis and all page edits done directly afterward so parallel forks never collided on the same file.

@@ -122,7 +122,7 @@ Present live, never just email it. Walk the owner from headline waste number to 
 - It is the most defensible thing you do: anyone can buy automation tools; almost nobody can walk into a business and find the money. See [[north-star-alignment|North Star Alignment]].
 
 ## Practical Actions
-- Build the three templates once: intake questionnaire, interview guide, report skeleton ([[template-library|templates]] has ready versions). Add the task-inventory classification column and redesign fields to the report skeleton.
+- Build the three templates once: intake questionnaire, interview guide, report skeleton ([[templates/template-library|templates]] has ready versions). Add the task-inventory classification column and redesign fields to the report skeleton.
 - Rehearse the waste-math on your own workflows or a friend's business before the first paid audit.
 - Track conversion: audits delivered → Phase 1 projects sold. Target 50–70%. Below 40% means the findings aren't quantified sharply enough or the roadmap isn't prioritized by payback.
 

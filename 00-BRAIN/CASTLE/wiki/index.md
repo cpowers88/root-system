@@ -3,7 +3,7 @@ tags: [reference]
 ---
 
 # Index — Every Page in the Castle
-### Updated: July 12, 2026 (OpenAI docs pack chunked)
+### Updated: July 13, 2026 (wiki protocol reconciliation)
 
 ## Castle Root Files
 - `.ROOT\NOW.md` — the morning page (castle-owned, lives at the .ROOT root)

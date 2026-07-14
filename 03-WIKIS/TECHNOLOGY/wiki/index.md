@@ -12,10 +12,16 @@ tags: [now, technology]
 68 pages migrated from FORGE's `wiki\technology\` on July 7, 2026, split by subject
 from FORGE's original 135-page technology folder (the other 67 — Python/data-analysis
 fundamentals — went to `03-WIKIS\PYTHON` instead; see that wiki's `source-map.md`).
-Organized into five category subfolders. No landscape-research pages (the wiki's
-original stated purpose) have been added yet — see `log.md`.
+**2026-07-13: full raw/ audit and ingest (107 pages total).** 39 new pages across
+9 books + 4 landscape clippings, following a raw/ audit that found 3 confirmed
+duplicates (documented, not re-ingested), 3 misplaced Python-fundamentals books
+(rerouted to `03-WIKIS\PYTHON`), and 1 book judged too introductory to warrant a
+dedicated ingest (see `log.md`). Four new category subfolders added
+(`database-sql/`, `software-craft/`, `security/`, `software-engineering/`) plus
+the wiki's first-ever landscape-research pages (4, at wiki root) — the original
+stated purpose this wiki carried as an open "next action" since July 7.
 
-## Web Frameworks (`web-frameworks/`, 13 pages)
+## Web Frameworks (`web-frameworks/`, 16 pages)
 
 - [[web-frameworks/flask-web-development|Flask Web Development]] — source summary and navigation hub
 - [[web-frameworks/flask-basic-application-structure|Flask: Basic Application Structure]]
@@ -29,8 +35,11 @@ original stated purpose) have been added yet — see `log.md`.
 - [[web-frameworks/django-fundamentals|Django Fundamentals (Models, Views, Templates, Admin)]]
 - [[web-frameworks/django-auth-and-forms|Django Forms, Authentication & Data Ownership]]
 - [[web-frameworks/django-deployment|Styling and Deploying a Django App]]
+- [[web-frameworks/lightweight-python-web-frameworks-beyond-flask-django|Lightweight Python Web Frameworks Beyond Flask/Django]] — Bottle, Pyramid, TurboGears, Falcon (source: *Full Stack Python*)
+- [[web-frameworks/task-queues-for-background-jobs|Task Queues for Background Jobs]] — Celery, RQ, Dramatiq (source: *Full Stack Python*)
+- [[web-frameworks/web-app-hosting-and-deployment-options|Web App Hosting and Deployment Options]] — VPS/PaaS/WSGI/containers/serverless decision map (source: *Full Stack Python*)
 
-## Distributed Systems (`distributed-systems/`, 16 pages)
+## Distributed Systems (`distributed-systems/`, 19 pages)
 
 - [[distributed-systems/foundations-of-scalable-systems|Foundations of Scalable Systems (Ian Gorton)]]
 - [[distributed-systems/scalability-fundamentals|Scalability Fundamentals]]
@@ -48,8 +57,11 @@ original stated purpose) have been added yet — see `log.md`.
 - [[distributed-systems/scalable-event-driven-processing|Scalable Event-Driven Processing (Apache Kafka)]]
 - [[distributed-systems/stream-processing-systems|Stream Processing Systems (Apache Flink)]]
 - [[distributed-systems/serverless-processing|Serverless Processing Systems]]
+- [[distributed-systems/storage-engines-btrees-and-lsm-trees|Storage Engines: B-Trees and LSM-Trees]] — source: Kleppmann, *Designing Data-Intensive Applications*
+- [[distributed-systems/transaction-isolation-levels-and-concurrency-control|Transaction Isolation Levels and Concurrency Control]] — read committed, snapshot isolation/MVCC, write skew (source: Kleppmann)
+- [[distributed-systems/serializability-2pl-and-serializable-snapshot-isolation|Serializability: 2PL and Serializable Snapshot Isolation]] — source: Kleppmann
 
-## DevOps & IT Operations (`devops/`, 15 pages)
+## DevOps & IT Operations (`devops/`, 19 pages)
 
 - [[devops/the-phoenix-project|The Phoenix Project (Gene Kim, Kevin Behr & George Spafford)]]
 - [[devops/the-three-ways-devops|The Three Ways (DevOps)]]
@@ -66,6 +78,10 @@ original stated purpose) have been added yet — see `log.md`.
 - [[devops/security-work-and-business-outcomes|Security Work and Business Outcomes]]
 - [[devops/web-application-security-basics|Web Application Security Basics: SQL Injection and CSRF]]
 - [[devops/final-tips-for-success|Final Tips for Success: Automation, Observability, Deployment, Data Lakes]]
+- [[devops/conways-law-and-organizational-design|Conway's Law and Organizational Design]] — source: *The DevOps Handbook*
+- [[devops/production-telemetry-and-monitoring-architecture|Production Telemetry and Monitoring Architecture]] — the 3-layer monitoring architecture; source: *The DevOps Handbook*
+- [[devops/just-culture-and-blameless-postmortems|Just Culture and Blameless Postmortems]] — source: *The DevOps Handbook*
+- [[devops/integrating-security-into-the-deployment-pipeline|Integrating Security into the Deployment Pipeline]] — source: *The DevOps Handbook*
 
 ## AI & LLM Concepts (`ai-and-llm/`, 11 pages)
 
@@ -80,7 +96,7 @@ original stated purpose) have been added yet — see `log.md`.
 - [[ai-and-llm/ai-future-scenarios|AI Future Scenarios]]
 - [[ai-and-llm/ai-developer-tools-landscape-2026|AI Developer Tools Landscape (2026)]]
 
-## Applied Data Science / ML (`data-science-ml/`, 15 pages)
+## Applied Data Science / ML (`data-science-ml/`, 18 pages)
 
 - [[data-science-ml/data-driven-decision-making-and-data-science-definition|Data-Driven Decision-Making: What It Actually Buys You, and Why "Big Data" Isn't "Data Science"]]
 - [[data-science-ml/crisp-dm-process-and-data-leakage|The CRISP-DM Process: Why Data Mining Is R&D, Not Software Engineering]]
@@ -97,3 +113,51 @@ original stated purpose) have been added yet — see `log.md`.
 - [[data-science-ml/data-asset-strategy-signet-bank-capital-one-case|Data as a Strategic Asset: Signet Bank → Capital One]]
 - [[data-science-ml/business-experimentation-and-project-unicorn|Business Experimentation and Project Unicorn]]
 - [[data-science-ml/date-driven-launch-failure|Date-Driven Launches and the Cost of Cutting Testing/Ops Readiness]]
+- [[data-science-ml/estimates-of-location-and-variability|Estimates of Location and Variability]] — mean/median/trimmed mean, variance/MAD/IQR (source: *Practical Statistics for Data Scientists*)
+- [[data-science-ml/statistical-distributions-normal-long-tailed-t-and-binomial|Statistical Distributions: Normal, Long-Tailed, t, and Binomial]] — source: *Practical Statistics for Data Scientists*
+- [[data-science-ml/ab-testing-hypothesis-tests-and-p-values|A/B Testing, Hypothesis Tests, and P-Values]] — the ASA's 2016 p-value misinterpretation caution; source: *Practical Statistics for Data Scientists*
+
+## Database & SQL (`database-sql/`, 11 pages, new 2026-07-13)
+
+- [[database-sql/practical-sql|Practical SQL — Source Summary and Navigation Hub]]
+- [[database-sql/sql-select-where-and-filtering|SQL: SELECT, WHERE, and Filtering]]
+- [[database-sql/sql-data-types|SQL: Data Types]]
+- [[database-sql/sql-importing-and-basic-math|SQL: Importing Data and Basic Math]]
+- [[database-sql/sql-joining-tables-and-relationships|SQL: Joining Tables and Relationships]]
+- [[database-sql/sql-table-design-constraints-and-indexes|SQL: Table Design, Constraints, and Indexes]]
+- [[database-sql/sql-grouping-and-aggregate-functions|SQL: Grouping and Aggregate Functions]]
+- [[database-sql/sql-inspecting-and-modifying-data|SQL: Inspecting and Modifying Data]]
+- [[database-sql/sql-window-functions-and-ranking|SQL: Window Functions and Ranking]]
+- [[database-sql/sql-advanced-query-techniques|SQL: Advanced Query Techniques]]
+- [[database-sql/sql-views-functions-and-triggers|SQL: Views, Functions, and Triggers]]
+
+## Software Craft (`software-craft/`, 4 pages, new 2026-07-13)
+
+- [[software-craft/clean-code-naming-functions-and-comments|Clean Code: Naming, Functions, and Comments]] — source: Robert C. Martin, *Clean Code*
+- [[software-craft/clean-code-error-handling-testing-and-smells-checklist|Clean Code: Error Handling, Testing, and the Smells Checklist]] — source: *Clean Code*
+- [[software-craft/the-clean-coder-professionalism-and-saying-no|The Clean Coder: Professionalism and Saying No]] — source: Martin, *The Clean Coder*
+- [[software-craft/pragmatic-programmer-core-principles|Pragmatic Programmer Core Principles]] — DRY, broken windows, orthogonality, tracer bullets; source: Hunt & Thomas, *The Pragmatic Programmer*
+
+## Security (`security/`, 3 pages, new 2026-07-13)
+
+- [[security/hacking-apis-source-summary|Hacking APIs — Source Summary and Navigation Hub]] — source: Corey Ball, *Hacking APIs*
+- [[security/api-vulnerability-classes-owasp-top-10|API Vulnerability Classes: The OWASP API Security Top 10]] — reframed as audit checks, not attack techniques
+- [[security/api-security-testing-engagement-scoping-and-checklist|API Security Testing: Engagement Scoping and Checklist]]
+
+## Software Engineering (`software-engineering/`, 4 pages, new 2026-07-13)
+
+- [[software-engineering/agile-software-engineering-and-scrum|Agile Software Engineering and Scrum]] — source: Ian Sommerville, *Engineering Software Products*
+- [[software-engineering/personas-scenarios-and-user-stories|Personas, Scenarios, and User Stories]] — source: Sommerville
+- [[software-engineering/reliable-programming-techniques|Reliable Programming Techniques]] — complexity, patterns, refactoring, defensive validation; source: Sommerville
+- [[software-engineering/software-testing-levels-and-techniques|Software Testing Levels and Techniques]] — source: Sommerville
+
+## Landscape Research (wiki root, 4 pages, new 2026-07-13)
+
+This wiki's first landscape-research pages — the original stated purpose
+(tool/category watching, tied to `TECHNOLOGY_LIBRARY_STRATEGY.md`'s 12
+categories) carried as an open "next action" since July 7, 2026.
+
+- [[looker-studio-free-bi-dashboards|Looker Studio (Data Studio) — Free BI Dashboards]] — Category 3
+- [[vs-code-data-tooling-data-wrangler-and-edit-csv|VS Code Data Tooling: Data Wrangler, Edit CSV, and the Titanic Tutorial]] — Category 5
+- [[spreadjs-embeddable-excel-import-export|SpreadJS — Embeddable Excel Import/Export for Custom Web Tools]] — Category 9/12, landscape-only
+- [[ai-coding-tools-for-python-2025-landscape|AI Coding Tools for Python — 9-Tool Landscape Comparison (mid-2025)]] — Category 10

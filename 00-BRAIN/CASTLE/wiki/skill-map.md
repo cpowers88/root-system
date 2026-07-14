@@ -76,7 +76,7 @@ This does not replace the status table above — it's the output format when Chr
 
 | Skill | Status | Phase | Proof |
 |---|---|---|---|
-| Technology landscape (12 categories) — gap #1.5 | structure done, reps not started | 1–2 | Weekly 30-min reps logged; can name category+ladder rung for any problem |
+| Technology landscape (12 categories) — gap #1.5 | building — Make.com rep logged July 9; additional landscape pages added July 13 | 1–2 | Weekly 30-min reps logged; can name category+ladder rung for any problem |
 | Recommendation Ladder fluency | building | 2–4 | Recommendations in mock + real audit reports |
 | Automation platforms (Make.com, n8n) | not-started | 3/7 | One working automation for own business ops |
 | Industry platforms (Procore, Buildertrend, Jobber...) | later | 4+ | Named correctly in client conversations |

@@ -2,6 +2,8 @@
 type: star
 tags: [reference, north-star]
 ---
+# The Compass
+.Root exists to stay adaptable — to keep changing shape as I learn and as opportunity moves - with on real job: find ways to make money by solving real problems, and build something big from what works. Once that's actually running use it to help more than just me. The business plan below is just my best first guess at how, I may be wrong, if so the system doesn't, it finds the next best one.
 
 # NORTH_STAR.md — Chris Powers
 #AI #system

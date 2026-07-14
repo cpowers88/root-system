@@ -7,6 +7,24 @@ tags: [log, programming]
 
 Append every meaningful ingest, path update, teaching session, or structure change here.
 
+## 2026-07-13 — Two misplaced books rerouted in from TECHNOLOGY raw/
+
+`python-crash-course.pdf` and `PythonforProgramers.pdf` were sitting in
+`03-WIKIS\TECHNOLOGY\raw\` (routed there from `77-INBOX` in error) — moved
+to `raw\books\` here per this wiki's own System Boundary (Python
+fundamentals belong here, not TECHNOLOGY). **Raw source only — not
+ingested into the curriculum this session.** Chris is mid-Stage 2 (the
+`choose-your-path-adventure` mini-project, per today's DAILY); per this
+wiki's own Page Creation Rule, no concept pages get built ahead of the
+current stage. `python-crash-course.pdf` specifically fulfills a
+`[[python-crash-course]]` dead wikilink TECHNOLOGY's 2026-07-09 citation
+audit already flagged as a future PYTHON-wiki target — noted here for
+whenever Chris's stage reaches material this book would actually serve.
+
+Files changed: `raw\books\python-crash-course.pdf`, `raw\books\PythonforProgramers.pdf` (new); this log.
+
+Next: no action required now — available for a future stage's source map.
+
 ## 2026-06-24 — Initial structure created
 
 ### Work completed
@@ -858,3 +876,88 @@ None new.
 
 ### Next action
 Begin Stage 2 (Decisions and Boolean Logic) teaching session per `wiki/stages/stage-02-decisions-and-boolean-logic.md`.
+
+## 2026-07-13 — Late raw-source intake: chunked classification
+
+### Work completed
+- Audited the late/new raw candidates against the existing source map before
+  extraction. Four files required classification: *Programming Logic and Design
+  Comprehensive*, *Python for Programmers*, a second *Python Crash Course* third-
+  edition file, and a Finxter about page.
+- Assessed the two large books in logical chapter clusters, not as one monolithic
+  pass. Farrell is language-neutral design/process support for Stage 7; Deitel is
+  an optional Stage 8-10 data/application reference. Neither changes the active
+  spine or beginner sequence.
+- Confirmed the second Crash Course file has a different SHA-256 but is the same
+  third edition already mapped from `raw/books/PythonCrashCourse.pdf`; raw remains
+  immutable, so it was documented rather than removed or re-ingested. Screened the
+  Finxter page as marketing/source-discovery material with no pathway role.
+
+### Pages created/updated
+`source-map.md`, `learning-path.md`, and this log. No new learning pages created.
+
+### Vocabulary added
+None — source classification, not a teaching session.
+
+### Drills or projects added
+None — current Stage 2 material already supplies these.
+
+### Progress evidence
+n/a — the active study stage remains Stage 2. The intake found no gap that should
+interrupt it.
+
+### Parked material
+Farrell's language-specific/advanced chapters and Deitel's data, AI, cloud, and
+vendor-specific case studies remain behind their existing Stage 7-10 prerequisites.
+
+### Next action
+Resume the Stage 2 mini-project: `wiki/mini-projects/stage-02-choose-your-path-adventure.md`.
+
+## 2026-07-14 — Stage 2–3 Anki vocabulary set verified (Codex + Chris)
+
+### Work completed
+- Located the existing importable Anki TSV decks in
+  `02-LIBRARY\00-SCHOOL\01-CSE-Python\Flash Card.tsv\`: `Python_03_Conditionals.tsv`
+  (Stage 2) and `Python_04_Loops.tsv` (Stage 3 preparation).
+- Preserved those existing decks rather than creating a duplicate. Added the two
+  Stage 2 vocabulary cards absent from the conditional deck: **branch** and
+  **truthy/falsy**. The loops deck already covers all Stage 3 vocabulary.
+
+### Progress evidence
+The two decks are now complete, tab-separated, Basic-note Anki import sources.
+Chris's next action is to import both into Anki and start review; Stage 3 cards
+are preparation only and do not advance the study stage.
+
+### Next action
+Import `Python_03_Conditionals.tsv` and `Python_04_Loops.tsv` into Anki, then
+review the Stage 2 cards before the decision-rules drill.
+
+## 2026-07-14 — Adaptive flashcard rotation started (Codex + Chris)
+
+### Work completed
+- Established an active-plus-preview rotation: Stage 2 conditionals are active;
+  Stage 3 loops are vocabulary preview only.
+- Created the seven-day calibration log in the existing Anki TSV folder. Known
+  terms are suspended in Anki rather than deleted from the source bank;
+  `print()` is the first locked baseline term by Chris's own accurate explain-back.
+- Defined the advance procedure: when Stage 3 closes, import Stage 4 Functions
+  as preview during that same flashcard session.
+
+### Next action
+Import the Stage 2 and Stage 3 TSV decks into Anki, suspend `print()`, and run
+the first review using the calibration log.
+
+## 2026-07-14 — Active Stage 1–3 deck reset (Codex + Chris)
+
+### Work completed
+- Replaced the planned separate Stage 2 active / Stage 3 preview import with one
+  29-card Stage 1–3 working deck at Chris's request. It draws only from the
+  official stage flashcard batches, excludes the locked `print()` card, and
+  removes the duplicate `=` / `==` card.
+- Preserved every older TSV as the source bank. The old mixed Anki deck is to be
+  renamed `Python::Archive::Pre-2026-07-14`, not deleted.
+
+### Next action
+Import `Python_Stages_01-03_Active.tsv` into Anki as `Python::Active::Stages 1-3`.
+At the next flashcard session, add Stage 4 Functions as preview, then resume the
+Stage 2 decision-rules drill.

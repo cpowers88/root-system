@@ -1,7 +1,7 @@
 ---
 type: reference
 tags: [reference, ai-automation]
-source: raw/LLM_WIKI_PATTERN_karpathy.md + raw/LLM WIKI.md + raw/Obsidian AI Second Brain Open-Source.md + raw/Second brain obsidian.md (each read in full, 2026-07-09)
+source: raw/LLM_WIKI_PATTERN_karpathy.md + raw/LLM WIKI.md + raw/Obsidian AI Second Brain Open-Source.md + raw/Second brain obsidian.md (each read in full, 2026-07-09); raw/GBrain - Garry Tan's Opinionated Agent Brain.md + raw/loopany CLAUDE.md.md + raw/loopany INSTALL_FOR_AGENTS.md.md + raw/loopany part 1-4.md + raw/How to build proactive agents and self-improving companies.md (each read in full, 2026-07-13; full architectural depth moved to [[self-improving-agent-architectures-gbrain-loopany-closed-loop]])
 ---
 
 # The LLM-Wiki Pattern and Its Second-Brain Implementations
@@ -81,6 +81,35 @@ cross-CLI toolkit) converged on the same raw/wiki/schema/index/log shape
 ([[shift-to-agentic-ai-codex]]) that persistent procedural context is
 where agent value concentrates.
 
+## 2026-07-13 Update: Two Newer Sibling Implementations (GBrain, loopany)
+
+**Sources (all in `raw/`, each read in full, July 13, 2026):** `GBrain -
+Garry Tan's Opinionated Agent Brain.md` (Garry Tan/YC, garrytan/gbrain),
+`loopany CLAUDE.md.md` + `loopany INSTALL_FOR_AGENTS.md.md` + `loopany part
+1-4.md` (superdesigndev/loopany), `How to build proactive agents and
+self-improving companies.md` (AI Jason video transcript), plus one live
+GitHub fetch beyond the clippings (`loopany-reflect/SKILL.md`, not itself
+captured in raw/). Full architectural ingest — GBrain's schema packs/hybrid
+search/Minions queue/eval framework, loopany's full artifact/kind/domain
+model and the confirmed reflect-loop mechanics (pattern thresholds,
+evidence-chain verification, accept/reject flow), and the AI Jason video's
+closed-loop-operations framing — now lives in its own page rather than
+here, to keep this page focused on pattern history:
+[[self-improving-agent-architectures-gbrain-loopany-closed-loop]].
+
+**Headline verdicts, in short:** GBrain's **"dream cycle"** (cron-driven
+overnight autonomous rewrite) is the same feature class already evaluated
+and rejected on 2026-07-09 (obsidian-second-brain's "nightly reconcile/
+synthesize/heal loop" — violates eyes-not-hands, see
+[[root-maturity-self-assessment]]); not re-litigated, verdict stands.
+loopany's **belief/skill-proposal split** (a `reflect` skill that separates
+a generalized `learning` from the specific `skill-proposal` behavior
+change, human accept/reject, rejected reasons logged, accepted ones get a
+`check_at` follow-up) is genuinely novel and stays inside the eyes-not-hands
+boundary — proposal comparing it against `SYSTEM_FLAGS.md`'s current
+mechanism: [[../proposals/2026-07-13_belief-proposal-split-for-system-flags]].
+
 Related: [[root-maturity-self-assessment]], [[2025-ai-agent-index]],
-[[work-trend-index-2024-2026]].
+[[work-trend-index-2024-2026]],
+[[self-improving-agent-architectures-gbrain-loopany-closed-loop]].
 

@@ -19,7 +19,9 @@ proposals approved and promoted. **raw/ fully processed as of July 12, 2026
 wiki's intake lane) now read in full and routed into eighteen pages total.
 **One later same-day addition (session 15):** *Building a Second Brain*
 promoted from `77-INBOX` as a self-evolution source — nineteen pages total.
-See `log.md`.
+**Session 16 (same day):** CASTLE-routed `Clippings\` review (GBrain,
+loopany) fully ingested with one live GitHub fetch beyond the clippings
+themselves — twenty pages total, plus a new pending proposal. See `log.md`.
 
 ## Pages
 
@@ -197,6 +199,16 @@ See `log.md`.
   validates the architecture, no PARA rebuild; four narrow operating
   upgrades adopted (capture filter, Hemingway Bridge merged into the
   Handoff Ritual, kickoff/completion checklist, 3-page At a Glance pilot).
+- [Self-Improving Agent Architectures: GBrain, loopany, and the Closed-Loop Pattern](self-improving-agent-architectures-gbrain-loopany-closed-loop.md)
+  — full architectural ingest (CASTLE-routed from `Clippings\`): GBrain's
+  entity-brain (hybrid search, self-wiring graph, agent-authored schema
+  packs, Minions job queue, eval framework, the already-rejected "dream
+  cycle"); loopany's action-and-outcome ledger (artifact/kind/domain model,
+  the belief/skill-proposal self-evolution loop with confirmed pattern
+  thresholds and evidence-chain verification — one detail fetched live from
+  GitHub beyond the clippings); the AI Jason video's closed-loop-operations
+  framing. Third independent convergence on `.ROOT`'s own raw/wiki/schema
+  shape.
 
 ## Proposals
 
@@ -212,12 +224,9 @@ See `log.md`.
   `ai-and-llm/` intake lane, slim-rewrote BUSINESS CLAUDE.md. Second
   completed research → proposal → promotion loop.
 - [Governance Drift Detection — A Standing Staleness Check](proposals/2026-07-12_governance-drift-detection.md)
-  — **PENDING REVIEW.** Proposes a standing check (script, weekly-sweep
-  item, or one-time red-team exercise — options, not a mandate) so a stale
-  governance claim is caught before it propagates, not just when an audit
-  happens to catch it. Direct response to the same-day Codex validation
-  incident, plus a REVIEW.md mechanic and an OpenAI evals anti-pattern
-  independently naming the same failure class.
+  — **APPROVED & APPLIED July 13 (Option B only).** CASTLE's weekly sweep
+  now rotates one current-state-versus-source spot-check; no lint expansion
+  or red-team exercise was approved.
 - [Mid-Session Governance-Edit Discipline](proposals/2026-07-12_mid-session-governance-edit-discipline.md)
   — **APPROVED & APPLIED July 12, 2026.** Added to `AGENT.md` § File
   Safety: editing a system file mid-session doesn't take effect until
@@ -251,6 +260,11 @@ See `log.md`.
   — **PENDING REVIEW.** The session-close skill's HIGH-flag rule is
   advisory prose, not an enforced hook — proposes converting it per the
   now-confirmed "guardrails belong in hooks" principle.
+- [Separate "Belief" from "Behavior Change" in the Flag/Review Mechanism](proposals/2026-07-13_belief-proposal-split-for-system-flags.md)
+  — **APPROVED & APPLIED July 13 (pilot).** A generalizable lesson enters
+  `00-BRAIN\SYSTEM_LEARNINGS.md` only after two unrelated flags/incidents
+  establish it; behavior changes remain proposal-gated and require a
+  `check_at` follow-up.
 
 ---
-*Last updated: July 13, 2026 (local-root path sweep; C: canonical, Google Drive backup only)*
+*Last updated: July 13, 2026 (CASTLE approved the belief/proposal pilot and weekly staleness spot-check)*
