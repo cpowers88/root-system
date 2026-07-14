@@ -25,6 +25,7 @@ Tech-adoption landscape / skill-roadmap research /       → 03-WIKIS\TECHNOLOGY
   systems, DevOps, data science)?
 System dynamics / ISYE-prep content?                      → 03-WIKIS\SYSTEMS\
 AI/agent research, .ROOT self-evolution proposals?       → 03-WIKIS\AI_AUTOMATION_SYSTEMS\
+Digital revenue-stream research, lane evidence/scoring?  → 03-WIKIS\REVENUE_LAB\
 Everything else (life, school files, projects, artifacts, reviews) → .ROOT, tree below
 ```
 
@@ -121,7 +122,7 @@ One copy, zero drift.
 
 ## Wiki Intake Boundary
 
-Each of the seven `03-WIKIS` hubs handles its own source intake per its own
+Each of the eight `03-WIKIS` hubs handles its own source intake per its own
 `CLAUDE.md` (raw/ folder, ingest protocol, page format) — route new source
 material by subject using the Realm Check table above. Shared wiki rules
 (raw immutability, chunking, session minimums, lint, ingest discipline) live

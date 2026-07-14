@@ -58,10 +58,20 @@ carries only this wiki's own rules.
 
 Raw note: the PDFs that originally sourced the inherited FORGE corpus (Sterman's
 *Business Dynamics*, *Strategic Modeling and Business Dynamics*, *Factory Physics*,
-*Introduction to Operations Research*, *Supply Chain Science*) lived in FORGE's
-`raw/` and were archived to `99-ARCHIVE` at FORGE's retirement, not copied here
-— the pages in `wiki/` are already a full-fidelity extraction per FORGE's
-ingest protocol.
+*Supply Chain Science*) lived in FORGE's `raw/` and were archived to `99-ARCHIVE`
+at FORGE's retirement, not copied here — the pages in `wiki/` are already a
+full-fidelity extraction per FORGE's ingest protocol, confirmed by direct
+cross-check against each book's actual table of contents/principles (2026-07-13).
+
+**Correction (2026-07-13):** *Introduction to Operations Research* (Hillier &
+Lieberman) was previously listed in this note alongside the other four titles,
+but was never actually extracted — its LP/Simplex/Duality/Sensitivity/
+Transportation content (Ch. 3–9) had zero overlap with the inherited pages
+until the deterministic-OR core was ingested this session (see `wiki/log.md`
+2026-07-13 and the "Linear Programming" index section). Lesson: this note's
+claims are a starting assumption to verify against the actual wiki content,
+not a substitute for checking — a stale/unverified "already covered" claim
+here would otherwise cause the same gap to persist silently.
 
 ## Final Operating Principle
 

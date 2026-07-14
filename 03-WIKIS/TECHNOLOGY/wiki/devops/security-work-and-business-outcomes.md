@@ -66,4 +66,5 @@ For a digital audit/integration practice, this is the warning label on complianc
 - [[it-work-centers-and-kanban]] - visible queues, routings, and checklists give security a practical place to attach controls without flooding the organization with undifferentiated work.
 - [[it-risk-and-business-value-chains]] - the business-measure mapping that lets John distinguish essential controls from wasteful audit work.
 - [[deployment-pipeline-and-continuous-delivery]] - the pipeline is where John's team embeds security tests so assurance scales with deployment speed.
+- [[integrating-security-into-the-deployment-pipeline]] - the DevOps Handbook's more technical, build-integrated version of this same idea (Twitter's Brakeman case study, software supply chain risk) — this page's narrative version, that page's mechanics.
 - [[resilience-engineering-and-chaos-testing]] - Evil Chaos Monkey is the security extension of resilience engineering.

@@ -36,3 +36,4 @@ This is not a priority reading queue. It is a dependency map: when a Phoenix con
 - [[the-three-ways-devops]] - each Way has a reading lineage here: flow/TOC/CD, feedback/CD/Visible Ops, learning/Toyota Kata/resilience practice.
 - [[it-work-centers-and-kanban]] - kanban and WIP-control references deepen the operational mechanics.
 - [[deployment-pipeline-and-continuous-delivery]] - Continuous Delivery is the formal technical reference behind Unicorn's pipeline work.
+- [[conways-law-and-organizational-design]], [[production-telemetry-and-monitoring-architecture]], [[just-culture-and-blameless-postmortems]], [[integrating-security-into-the-deployment-pipeline]] - *The DevOps Handbook* (Kim/Humble/Debois/Willis), the same authors' prescriptive companion to *The Phoenix Project* — this reading map's own missing entry, added 2026-07-13.

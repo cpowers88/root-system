@@ -67,7 +67,7 @@ System files include AGENT.md, CLAUDE.md, CODEX.md, ATLAS.md, CHRIS_CORE.md, CHR
 Editing a system file mid-session does not take effect for that session — it was already loaded at launch and stays cached until `/clear`, `/compact`, or a restart. A session that both edits a system file and needs to verify the new behavior in the same sitting should `/clear` or start fresh rather than trusting its own live state.
 
 ## Wikis and CASTLE Boundary
-`03-WIKIS\` holds SYSTEMS, PYTHON, EDUCATION, PHYSICS, BUSINESS, TECHNOLOGY, and AI_AUTOMATION_SYSTEMS. CASTLE lives at `00-BRAIN\CASTLE\` and owns `.ROOT\NOW.md`. Each wiki governs content inside itself. AGENT.md governs shared behavior everywhere. Hat files live under `00-BRAIN\HATS\`.
+`03-WIKIS\` holds SYSTEMS, PYTHON, EDUCATION, PHYSICS, BUSINESS, TECHNOLOGY, AI_AUTOMATION_SYSTEMS, and REVENUE_LAB (added July 14, 2026, Chris-approved). CASTLE lives at `00-BRAIN\CASTLE\` and owns `.ROOT\NOW.md`. Each wiki governs content inside itself. AGENT.md governs shared behavior everywhere. Hat files live under `00-BRAIN\HATS\`.
 
 ## Extension Trigger Table
 When deciding whether a repeated pattern earns a new skill, hook, or tool, match the symptom, not a vague sense that "this should be reusable":

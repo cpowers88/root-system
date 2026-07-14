@@ -39,3 +39,4 @@ Wes initially wants such testing limited to scheduled windows, but Bill argues t
 - [[deployment-pipeline-and-continuous-delivery]] - frequent deployability and reproducible environments make controlled fault injection survivable.
 - [[it-work-centers-and-kanban]] - preventive work and improvement cycles need visible capacity, WIP limits, and work lanes to avoid being crowded out.
 - [[final-tips-for-success]] - the scalable-systems source also links DevOps automation and observability to resilient operations.
+- [[just-culture-and-blameless-postmortems]] - the other half of the Third Way's learning practice: this page is planned/practiced failure (chaos engineering), that page is the organizational-learning mechanism for *unplanned* failures.

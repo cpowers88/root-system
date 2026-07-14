@@ -1,0 +1,30 @@
+Front	Back
+What is a value?	A single piece of data Python can work with, such as a number, text, or True/False.
+What is an expression?	A combination of values and operators that Python evaluates to one value.
+What is a variable?	A name that points to a value and can later be reassigned.
+What is the difference between = and ==?	= assigns a value to a variable. == compares two values and gives True or False.
+What is a string?	Text in Python: characters inside matching single or double quotes.
+What is string concatenation?	Joining strings together, usually with +, to make one longer string.
+What is an integer?	A whole number with no decimal point; Python's int type.
+What is a float?	A number with a decimal point; Python's float type.
+What type does input() always return?	A string, even when the user typed something that looks like a number.
+Why convert input() before doing math?	Because input() returns a string. Use int() or float() to turn numeric text into a number.
+When use int() instead of float()?	Use int() for a whole number such as an age. Use float() when decimals are possible, such as a price or measurement.
+What does a comment do in Python?	Nothing to the program. Python ignores text after #; it is a note for a human reader.
+What is a condition?	An expression that evaluates to True or False and decides whether a branch runs.
+What is a Boolean value?	A value that is either True or False; Python's bool type.
+What is the difference between and and or?	and needs both conditions to be True. or needs at least one condition to be True.
+How many branches run in one if/elif/else chain pass?	Exactly one. Once a condition is True, Python skips the remaining branches.
+What is a branch?	One possible indented block of code that runs when its condition is selected.
+Is 0 truthy or falsy? Is "0" truthy or falsy?	0 is falsy. "0" is truthy because it is a non-empty string.
+When use elif instead of separate if statements?	Use elif when choices are mutually exclusive and only one branch should run.
+Why include else in a decision chain?	It catches cases not handled above, so unexpected input does not silently do nothing.
+What is a loop?	A block of code that repeats, either a fixed number of times or until a condition changes.
+What is an iterable?	Something Python can loop over item by item, such as a string or range().
+When choose a for loop over a while loop?	Use for when you know the sequence or count. Use while when repetition continues until a condition changes.
+What does range(5) produce?	0, 1, 2, 3, 4: five numbers, stopping before 5.
+What must happen for a while loop to stop?	Something in the loop must eventually change the condition to False.
+What is the difference between break and continue?	break exits the loop entirely. continue skips the rest of the current iteration and begins the next one.
+What is the difference between a counter and an accumulator?	A counter tracks how many times something happened. An accumulator builds a combined value such as a sum.
+Where initialize a counter or accumulator?	Before the loop. Initializing it inside resets it on every iteration.
+What commonly causes an accidental infinite loop?	Forgetting to update the value that the while condition depends on.

@@ -5,7 +5,7 @@ tags: [reference, systems]
 
 # SYSTEMS Wiki — Index
 
-74 pages. 40 moved intact from `FORGE\wiki\systems\` on July 7, 2026 (FORGE
+98 pages (verified count, 2026-07-13). 40 moved intact from `FORGE\wiki\systems\` on July 7, 2026 (FORGE
 retirement); 30 more moved the same day from FORGE's `wiki\business\` — Sterman
 *Business Dynamics* case studies and Factory Physics/JIT/lean/MRP/ERP history pages
 that were filed under FORGE's business/ folder but are subject/factory-physics or
@@ -119,3 +119,40 @@ directly into this wiki rather than inherited from FORGE.
 - [[mrp-problems-nervousness-and-yield-losses]] — MRP's core problems
 - [[capacity-planning-and-shop-floor-control]] — RCCP, CRP, dispatching, I/O control
 - [[kanban-mechanics-and-pull-system-variants]] — two-card/one-card kanban, base stock equivalence
+
+## Linear Programming (Deterministic Operations Research)
+
+- [[linear-programming-formulation-and-graphical-solution]] — Wyndor Glass Co., standard form, CPF solutions, the four assumptions
+- [[simplex-method-mechanics]] — geometric intuition, tabular form, tie-breaking/degeneracy, the Big M method
+- [[duality-theory-and-economic-interpretation]] — the dual problem, shadow prices, complementary slackness
+- [[sensitivity-analysis-and-postoptimality]] — allowable ranges, the 100% rule, reading a solver's sensitivity report
+- [[transportation-and-assignment-problems]] — special-structure LPs, the transportation simplex method, the assignment problem
+
+## Probabilistic Operations Research
+
+- [[decision-analysis-and-utility-theory]] — decision criteria, Bayes' theorem, EVPI/EVE, decision trees, utility functions
+- [[queueing-theory-birth-death-process-and-mms-models]] — the birth-and-death process, balance equations, exact M/M/1 and M/M/s results
+- [[discrete-event-simulation-and-random-variate-generation]] — when to simulate, inverse transformation and acceptance-rejection methods
+- [[game-theory-two-person-zero-sum-games]] — dominated strategies, minimax/maximin, saddle points, mixed strategies
+- [[markov-chains-and-markov-decision-processes]] — the Markovian property, steady-state probabilities, optimal policies via LP
+
+## Combinatorial and Network Optimization
+
+- [[network-optimization-models]] — shortest path, minimum spanning tree, maximum flow, minimum cost flow
+- [[integer-programming-and-branch-and-bound]] — binary formulation patterns, the branch-and-bound algorithm
+- [[transshipment-problem]] — routing through intermediate transfer points, reformulated as a transportation problem
+- [[dynamic-programming-and-the-principle-of-optimality]] — stages, states, backward recursion, the Markovian property
+- [[nonlinear-programming-and-kkt-conditions]] — when LP's assumptions break, the Karush-Kuhn-Tucker conditions
+- [[metaheuristics-tabu-search-simulated-annealing-genetic-algorithms]] — escaping local optima for problems too large for exact methods
+
+## Inventory, Reliability, and Forecasting
+
+- [[multiechelon-inventory-and-revenue-management]] — supply-chain-wide inventory coordination, dynamic capacity pricing
+- [[reliability-theory-series-parallel-and-k-out-of-n-systems]] — series/parallel/k-out-of-n systems, minimal paths and cuts
+- [[forecasting-time-series-and-exponential-smoothing]] — constant-level forecasting methods, seasonal adjustment
+
+## Project Management and OR Practice
+
+- [[project-management-with-pert-cpm]] — critical path, slack, uncertain durations, time-cost trade-offs
+- [[the-art-of-spreadsheet-modeling]] — Plan-Build-Test-Analyze, changing cells vs. output cells
+- [[queueing-system-design-decisions]] — balancing service cost against waiting cost

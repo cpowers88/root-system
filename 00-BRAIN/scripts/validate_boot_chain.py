@@ -39,7 +39,7 @@ BOOT_FILES = [
      ("OPERATOR", "EDUCATOR", "PYTHON", "PHYSICS", "TCOM", "ECON", "ENGR1000")
 ] + [ROOT / "03-WIKIS" / h / "CLAUDE.md" for h in
      ("AI_AUTOMATION_SYSTEMS", "BUSINESS", "EDUCATION", "PHYSICS",
-      "PYTHON", "SYSTEMS", "TECHNOLOGY")]
+      "PYTHON", "REVENUE_LAB", "SYSTEMS", "TECHNOLOGY")]
 
 EXCLUDED = {"99-ARCHIVE", "raw", ".git", ".obsidian", "Report Archive",
             "Session_Logs", "88-JOURNAL", ".claude", ".agents"}
@@ -94,7 +94,8 @@ def main() -> int:
             "./00-BRAIN/CASTLE/raw",
             *{f"./03-WIKIS/{hub}/raw" for hub in (
                 "PYTHON", "PHYSICS", "BUSINESS", "EDUCATION",
-                "TECHNOLOGY", "AI_AUTOMATION_SYSTEMS", "SYSTEMS")},
+                "TECHNOLOGY", "AI_AUTOMATION_SYSTEMS", "SYSTEMS",
+                "REVENUE_LAB")},
         }
         missing_raw = sorted(required_raw - set(filesystem.get("denyWrite", [])))
         if missing_raw:

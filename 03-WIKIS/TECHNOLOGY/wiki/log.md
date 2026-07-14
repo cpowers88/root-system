@@ -5,6 +5,156 @@ tags: [log]
 
 # TECHNOLOGY Wiki — Log
 
+## 2026-07-13 — Full raw/ audit: duplicates documented, misplaced files rerouted, book/clipping ingest begun
+
+Chris asked to get this wiki's raw/ folder "sorted and ingested" after 8
+new PDFs landed here today (6 routed from `77-INBOX`, 2 moved in from
+SYSTEMS raw/ as misplaced). Audited every file against the existing 68
+FORGE-inherited pages and the AI Index/NIST entries already logged
+2026-07-09, rather than assuming the log's "fully accounted for" note
+still held for the newly-arrived files.
+
+**Confirmed duplicates — already fully extracted, no re-ingest, files
+left in place per raw/ immutability:**
+- `DataScienceforBusiness.pdf` — cited source (Provost & Fawcett, O'Reilly
+  2013) for the `data-science-ml/` pages; confirmed via
+  `data-driven-decision-making-and-data-science-definition.md`'s own
+  source line (last updated 2026-06-22).
+- `FlaskWebDevelopment.pdf` — cited source (Grinberg, 2nd ed.) for all 9
+  `web-frameworks/flask-*` pages (last updated 2026-06-21).
+- `Foundations of Scalable Systems.pdf` — confirmed via `pdftotext` cover
+  page (Ian Gorton, O'Reilly) against `distributed-systems/foundations-of-scalable-systems.md`,
+  which already cites the same author/title.
+
+**Misplaced — rerouted, not ingested here:**
+- `python-crash-course.pdf`, `PythonforProgramers.pdf` — this wiki's own
+  `CLAUDE.md` System Boundary routes Python/data-analysis fundamentals to
+  `03-WIKIS\PYTHON`. Moved to `03-WIKIS\PYTHON\raw\books\`. Notably,
+  `python-crash-course.pdf` fulfills a `[[python-crash-course]]` dead
+  wikilink this wiki's own 2026-07-09 citation audit already flagged as a
+  "future PYTHON-wiki target" — see that wiki's log for the ingest.
+
+**Genuinely new, confirmed via grep against all existing pages (zero
+matches for title/author) — queued for chunked ingest, in progress:**
+`PracticalSQL.pdf` (fulfills an existing dead `[[practical-sql]]` link
+already referenced from `flask-web-development.md`), `DEvOpsHandbook.pdf`
+(confirmed distinct from *The Phoenix Project* — not in
+`devops-reading-map.md`'s own bibliography), `designingDataIntensiveApplications.pdf`,
+`Clean-Code-Collection.pdf`, `The-Pragmatic-Programmer.pdf`,
+`Hacking APIs.pdf`, `Foundations_of_Information_Systems.pdf`,
+`EngineeringSoftwareProducts.pdf`, `Programming Logic and Design Comprehensive.pdf`,
+`fullStackPython.pdf`, `PracticalStatisticsforDataScientists.pdf`.
+
+**Also queued: 6 landscape-research web clippings** (Data Wrangler, Data
+Studio documentation, Excel Import and Export, "From IDE to deployment: 9
+AI tools for Python", Data Science in VS Code tutorial, and `co.md` — an
+Edit CSV VS Code extension page, misnamed by the clipper) — this wiki's
+first-ever landscape reps, the open "Next action" every log entry since
+July 7 has carried forward.
+
+Files changed: this log (audit record); further entries below as each
+ingest batch completes.
+
+## 2026-07-13 (continued) — Full ingest complete: 39 new pages, 4 new subfolders, 9 books, 4 landscape clippings
+
+Chris said "let's get it sorted and ingested" — full go-ahead on the audit
+findings above. Ran the 6 landscape clippings directly (fast, low-risk),
+then forked the 7 book-ingest jobs out in parallel (subagent_type: fork,
+each inheriting this session's full context) so the heavy `pdftotext`
+extraction didn't clutter the coordinating session. Each fork was scoped
+to specific file(s), an explicit prohibition on touching `index.md`/
+`log.md`/`CLAUDE.md`/`raw/README.md` (to avoid concurrent-write conflicts
+across 7 simultaneous jobs), and instructed to check for overlap with
+existing pages before writing anything new. Verified all 39 reported pages
+actually exist on disk (`ls` sweep of every subfolder) before integrating
+results — trust but verify.
+
+**Landscape research (4 pages, wiki root — this wiki's first-ever, closing
+the "next action" every log entry has carried since July 7):**
+[[looker-studio-free-bi-dashboards]] (closes Category 3's explicit
+Looker-Studio gap), [[vs-code-data-tooling-data-wrangler-and-edit-csv]],
+[[spreadjs-embeddable-excel-import-export]] (landscape-only, no build
+target), [[ai-coding-tools-for-python-2025-landscape]].
+
+**`database-sql/` (new subfolder, 11 pages)** — *Practical SQL* (DeBarros).
+Scope changed mid-ingest in a way worth recording: the fork grepped for
+existing `[[sql-*]]` forward-references before writing and found 5 dead
+links already sitting in `flask-databases-with-sqlalchemy.md`,
+`flask-rest-apis.md`, and two `data-science-ml/` pages, anticipating
+specific page names. It renamed its planned pages to match those exactly
+(splitting one planned page into two in two cases) rather than creating
+near-duplicate names — page count came in higher than the original 6-9
+scope estimate because of this, all justified. [[practical-sql]] itself
+now resolves the original dead link from the Flask ingest.
+
+**`devops/` (+4 pages, 5 existing pages cross-linked)** — *The DevOps
+Handbook* (Kim/Debois/Humble/Willis), confirmed distinct from *The Phoenix
+Project* (narrative vs. mechanism, same authors). New: Conway's Law,
+production telemetry architecture, blameless postmortems, security-in-
+pipeline. Existing Phoenix-Project-derived pages got one-line backlinks
+each rather than content rewrites.
+
+**`distributed-systems/` (+3 pages)** — Kleppmann, *Designing
+Data-Intensive Applications*. Storage engines (B-trees/LSM-trees) and the
+full transaction-isolation/concurrency-control story were genuinely
+uncovered gaps (zero prior pages on either). Deliberately skipped:
+data models, replication, partitioning (already covered via the Gorton
+book), OLAP/encoding/batch-stream unification (lower priority, noted not
+forgotten).
+
+**`software-craft/` (new subfolder, 4 pages)** — *Clean Code* + *The Clean
+Coder* (confirmed bundled in one PDF) + *The Pragmatic Programmer* (20th
+Anniversary Ed.). Scoped to high-signal principles (naming, functions,
+testing, DRY, broken windows, orthogonality, tracer bullets, professional
+conduct) rather than chapter-by-chapter coverage — these are principle
+books, not reference manuals.
+
+**`security/` (new subfolder, 3 pages)** — Corey Ball, *Hacking APIs*,
+scoped strictly to defensive/audit use (OWASP API Top 10 reframed as audit
+checks, engagement scoping/checklist). Offensive tradecraft chapters
+(recon, fuzzing, exploitation walkthroughs, breach case studies)
+deliberately excluded as out of scope for an audit-business lens.
+
+**`software-engineering/` (new subfolder, 4 pages) — assess-first
+triage of 3 books, not blind extraction:**
+- *Foundations of Information Systems* (OpenStax) — **skipped**: confirmed
+  via TOC read as an intro college MIS survey course, shallower than
+  existing coverage across multiple subfolders.
+- *Engineering Software Products* (Sommerville) — **selectively ingested**:
+  Agile/Scrum, requirements narratives (personas/scenarios/user stories),
+  reliable programming, and testing were genuine gaps; architecture/cloud/
+  microservices/security/DevOps chapters overlap `distributed-systems/`
+  and `devops/` and were left alone.
+- *Programming Logic and Design Comprehensive* (Farrell) — **flagged as
+  misplaced, not ingested here**: language-agnostic intro-programming
+  content belongs with the two Python books already rerouted this session.
+  Moved to `03-WIKIS\PYTHON\raw\books\` (third misplaced-file move today).
+
+**`web-frameworks/` (+3 pages) and `data-science-ml/` (+3 pages)** — *Full
+Stack Python* (lightweight frameworks beyond Flask/Django, task queues,
+hosting/deployment — checked against existing Flask/Django coverage first,
+confirmed genuinely broader) and *Practical Statistics for Data Scientists*
+(location/variability estimates, distributions, hypothesis testing/p-values
+— checked against the existing *Data Science for Business*-sourced pages,
+confirmed complementary: that source is data-mining/ML-focused, this one
+is classical inferential statistics).
+
+**Final state**: 68 → 107 pages. `wiki_lint.py` and `validate_boot_chain.py`
+re-run clean after integration (see below). `CLAUDE.md` folder structure
+updated to document the 4 new subfolders.
+
+Files changed: 39 new page files across `database-sql/`, `software-craft/`,
+`security/`, `software-engineering/`, `devops/`, `distributed-systems/`,
+`web-frameworks/`, `data-science-ml/`, and wiki root; 5 existing `devops/`
+pages + 4 existing pages with dead SQL links (cross-links/link-resolution
+only, no content rewrites); `index.md` (full rewrite); `CLAUDE.md` (folder
+structure); this log; `Programming Logic and Design Comprehensive.pdf`
+moved to `03-WIKIS\PYTHON\raw\books\`.
+
+Next: none required — the raw/ backlog identified in this session's audit
+is now fully processed (ingested, documented-duplicate, or rerouted). Normal
+weekly-rep cadence resumes per `TECHNOLOGY_LIBRARY_STRATEGY.md`.
+
 ## 2026-07-12 — Classified link hygiene closure
 
 - Removed broken wikilink syntax from 15 inherited FORGE-era cross-hub references across TECHNOLOGY pages; terms and explanatory prose remain intact.

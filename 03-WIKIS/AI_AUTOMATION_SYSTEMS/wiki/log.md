@@ -5,6 +5,103 @@ tags: [log]
 
 # AI_AUTOMATION_SYSTEMS Wiki — Log
 
+## 2026-07-13 (session 16) — CASTLE review of `Clippings\`: GBrain + loopany routed, belief/proposal-split proposal drafted
+
+Chris pointed at a root-level `C:\Users\chris\.ROOT\Clippings\` folder (8
+web clips on GBrain, loopany, and a related "self-improving companies"
+video transcript) and asked for a CASTLE-lens review: is anyone else
+building something like `.ROOT`, and is there anything worth adopting.
+Checked for duplicate research first — `llm-wiki-pattern-and-second-brain-tools.md`
+already covered this exact question on 2026-07-09 for three sibling tools,
+including an explicit rejection of autonomous nightly rewrite loops. Did
+not re-litigate; updated that page instead of creating a new one.
+
+**Findings:** GBrain (Garry Tan/YC) is a database-backed, more elaborate
+descendant of the same raw/wiki/schema pattern, but its headline feature —
+a cron-driven "dream cycle" that autonomously rewrites the knowledge base
+overnight — is the same feature class already evaluated and rejected on
+2026-07-09 (violates eyes-not-hands; see
+[[root-maturity-self-assessment]]). Not re-opened. loopany is a different
+shape (action/outcome ledger, not a knowledge wiki) with one genuinely new
+piece: a `reflect` skill that splits self-evolution into a `learning`
+artifact (a belief, with evidence) and a separate `skill-proposal` artifact
+(the matching behavior change) — human accepts/rejects, rejected reasons
+logged so they don't resurface, accepted ones get a `check_at` follow-up.
+This stays inside the eyes-not-hands boundary rather than violating it.
+
+**Action taken, per Chris's choice ("Route to AI_AUTOMATION_SYSTEMS raw/,
+draft a proposal"):**
+1. Moved all 8 clippings into this wiki's `raw/` (renamed for clarity;
+   `Clippings\` now empty).
+2. Updated `llm-wiki-pattern-and-second-brain-tools.md` with a new
+   "2026-07-13 Update" section covering both tools and the verdict above.
+3. Drafted `proposals/2026-07-13_belief-proposal-split-for-system-flags.md`
+   — adapts loopany's belief/proposal split as an *optional* addition to
+   `SYSTEM_FLAGS.md` for flags that generalize into a reusable lesson,
+   scoped as a lightweight convention (no new tooling/database), not a
+   port of loopany's full artifact machinery. Pending Chris/CASTLE review.
+
+**Noted, not yet actioned:** the root-level `Clippings\` folder is likely a
+misconfigured Obsidian-clipper intake target — `WHERE_IT_GOES.md` names
+`77-INBOX\Clippings\` as the correct landing zone. Flagging for Chris to
+either fix the clipper's save path or confirm the root-level folder is
+intentional; not fixed unilaterally since it may be a deliberate setting.
+
+Files changed: `raw/` (8 new files), `wiki/llm-wiki-pattern-and-second-brain-tools.md`,
+`wiki/proposals/2026-07-13_belief-proposal-split-for-system-flags.md` (new),
+`index.md`, this log.
+
+Next: Chris/CASTLE review of the belief/proposal-split proposal; separately,
+resolve the `Clippings\` vs `77-INBOX\Clippings\` intake-path question.
+
+## 2026-07-13 (session 16, continued) — Full ingest pass on the 8 raw/ clippings, chunked, with one live web fetch
+
+Chris asked for the formal ingest process to run on today's raw/ intake
+specifically (not just the lighter comparison-page update above), chunked
+where needed, with explicit permission to visit linked websites if the
+clippings themselves were incomplete. Read all 8 sources in full (5 not yet
+fully read in the prior pass: the GBrain README, the AI Jason video
+transcript, loopany's `CLAUDE.md`, `INSTALL_FOR_AGENTS.md`, and root
+`README.md`; `loopany part 3/4` — ONBOARDING.md and the resolver SKILL.md —
+were already read in full in the prior pass). Found the raw/ material,
+while thorough, didn't include the actual `loopany-reflect/SKILL.md` — the
+resolver in raw/ points to it, but only its README-level CLAUDE.md summary
+was captured, not the skill file itself, and that skill is the direct
+source basis for the drafted proposal. Fetched it live via `gh api
+repos/superdesigndev/loopany/contents/skills/loopany-reflect/SKILL.md`
+rather than working from the summary alone — confirmed concrete mechanics
+not visible in the clippings: pattern thresholds (≥3 tasks same class, ≥2
+contradicting an existing belief, ≥3 dismissals over ≥2 weeks before a
+belief is written), an evidence-chain verify step (`loopany trace
+--direction backward`) before a proposal is actionable, and the accept flow
+committing the target file and the proposal artifact together in one git
+commit.
+
+Synthesized a new dedicated page rather than further expanding the
+comparison page — the GBrain/loopany material is substantial enough
+(schema packs, hybrid search, Minions job queue, eval framework, the full
+artifact/kind/domain model) to warrant its own file per this wiki's own
+per-source-cluster convention, keeping `llm-wiki-pattern-and-second-brain-tools.md`
+as the pattern-history/verdict hub rather than letting it absorb full
+architectural depth. Also folded in the AI Jason video's closed-loop-
+operations framing (open-loop vs. closed-loop, the five-component loop,
+factual-vs-procedural memory split, the Airbnb SEO and ads-optimization
+case studies) as the third source in the same page, since it's the general
+pattern both tools implement rather than a fourth standalone concept.
+Strengthened the drafted proposal with the now-confirmed threshold/
+verify-step mechanics (not available when it was first drafted from the
+README-level summary).
+
+Files changed: `wiki/self-improving-agent-architectures-gbrain-loopany-closed-loop.md`
+(new); `wiki/llm-wiki-pattern-and-second-brain-tools.md` (2026-07-13 update
+section trimmed to a pointer, frontmatter `source:` line updated with the
+live-fetch citation); `wiki/proposals/2026-07-13_belief-proposal-split-for-system-flags.md`
+(Proposed Change and Source Basis strengthened with confirmed mechanics);
+`index.md` (new page listed, Status line updated to twenty pages); this log.
+
+Next: Chris/CASTLE review of the proposal, now grounded in confirmed
+(not summarized) loopany mechanics.
+
 ## 2026-07-12 (session 15) — Building a Second Brain promoted from 77-INBOX + report recommendations implemented
 
 Chris asked for the `BUILDING_A_SECOND_BRAIN_ROOT_STRUCTURE_REPORT_2026-07-12.md` findings turned into an approvable plan, then approved it. Verdict: the book validates `.ROOT`'s existing CODE/PARA-equivalent architecture — no structural rebuild. Implemented, in order:
@@ -849,3 +946,18 @@ made `C:\Users\chris\.ROOT` canonical.
 ### Next action
 Continue the normal research cadence; path governance is now owned by the C:
 canonical-workspace rule in `00-BRAIN`.
+
+## 2026-07-13 — CASTLE review: two bounded self-evolution proposals promoted
+
+- Chris approved the belief/proposal split as a lightweight pilot: no
+  `SYSTEM_FLAGS.md` rewrite and no retrofits. A generalized lesson now needs
+  two unrelated supporting flags/incidents, evidence citations, a `check_at`,
+  and any behavior change remains proposal-gated in
+  `00-BRAIN\SYSTEM_LEARNINGS.md`.
+- Chris approved governance-drift detection **Option B only**: CASTLE's
+  weekly sweep rotates one stated-current-state check against its live source.
+  Script expansion and red-team work remain deferred because the evidence is
+  not yet strong enough to justify more infrastructure.
+- Updated this index and both proposal outcomes.
+- Next: run the new practices in normal review cadence; do not add automation
+  unless repeated evidence demonstrates the manual checks are insufficient.

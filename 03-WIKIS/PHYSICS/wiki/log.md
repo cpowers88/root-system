@@ -333,3 +333,33 @@ Append-only session record.
 
 ### Next action for Chris
 - Unchanged: Stage 3 Vectors output rep.
+
+## 2026-07-14 — Focused Physics Anki deck reset (Codex + Chris)
+
+### Objective
+- Convert the existing broad Physics flashcard stacks into a stage-aligned active
+  deck that supports the Stage 3 Vectors frontier without cramming later physics.
+
+### Sources touched
+- `wiki/flashcards/stage-1-physics-and-measurement.md`
+- `wiki/flashcards/stage-2-motion-in-one-dimension.md`
+- `wiki/flashcards/stage-3-vectors.md`
+- `wiki/flashcards/stage-4-motion-in-two-dimensions.md` (preview boundary only)
+
+### Files created/updated
+- New: `02-LIBRARY\00-SCHOOL\02-Physics I\Flash Cards\Physics_Stages_01-03_Active.tsv`
+  (35-card Anki import deck), `README_IMPORT_INSTRUCTIONS.md`, and
+  `ADAPTIVE_REVIEW_LOG.md`.
+- Updated: `wiki/index.md` and this log.
+
+### Concepts/equations/problem types added
+- None. This is a retrieval-layer reset using existing vetted stage cards; dot and
+  cross products remain excluded because they are parked beyond the Stage 3 frontier.
+
+### Parked material
+- Stage 4 and later decks remain out of the active queue. Stage 4 is the next
+  preview only; no later-stage cram deck is authorized.
+
+### Next action for Chris
+- Rename the old mixed Physics deck to `Physics::Archive::Pre-2026-07-14`, import
+  the focused deck as `Physics::Active::Stages 1-3`, and begin a baseline review.

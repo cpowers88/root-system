@@ -13,7 +13,7 @@ tags:
 This page describes what to do once Track 3 (this wiki) is actively running. Per NORTH_STAR.md's Business Arc, that clock starts at the **First Contact phase (~Sep 2026)**, with first client targeted for **March 2027** — not on whatever day you're reading this. Track 1 (school, non-negotiable) and Track 2 (Python/SQL, KSU Tracker, POL) come first, per the [[north-star-alignment|three-track order]]. If the calendar hasn't reached First Contact yet, the two decisions below are worth making now (they're cheap and reversible), but hold the outreach/LLC-filing/pipeline steps until the gate opens — right now, the correct daily work is school prep and the Track 2 builds.
 
 ## Purpose
-Every plan dies in the gap between "I understand it" and "I started it." This page closes that gap: it tells you what to do **once the timeline gate above is open**, forces the two decisions that block everything else, and points you at the ready-made [[template-library|templates]] so nothing has to be built from scratch.
+Every plan dies in the gap between "I understand it" and "I started it." This page closes that gap: it tells you what to do **once the timeline gate above is open**, forces the two decisions that block everything else, and points you at the ready-made [[templates/template-library|templates]] so nothing has to be built from scratch.
 
 ## The Two Decisions That Block Everything Else
 
@@ -66,7 +66,7 @@ Then start the [[first-30-days|First 30 Days]] plan proper.
 
 ## Rules for Using This Wiki Without Drowning In It
 - **Read pages when their step arrives, not before.** You need [[three-year-plan|Three-Year Plan]] in month 10, not week 1.
-- **Templates over comprehension.** When a page says "create X," check [[template-library|templates/]] first — most X's already exist there.
+- **Templates over comprehension.** When a page says "create X," check [[templates/template-library|templates/]] first — most X's already exist there.
 - **When stuck, default to outreach.** Almost every stall in the first 6 months is solved by more conversations, not more preparation. See [[risks-and-failure-modes|Risks & Failure Modes]] #15.
 - **Friday review, 20 minutes:** fill in the [[weekly-scorecard|weekly scorecard]]. What you measure weekly is what actually happens.
 
@@ -82,5 +82,5 @@ The first dollar of revenue is downstream of exactly three things on this page: 
 ## Related Pages
 - [[first-30-days|First 30 Days]] — the next step after this page
 - [[business-setup|Business Setup]] — the legal/financial foundation
-- [[template-library|Templates]] — the working documents
+- [[templates/template-library|Templates]] — the working documents
 - [[financial-model|Financial Model]] — the money math behind the targets

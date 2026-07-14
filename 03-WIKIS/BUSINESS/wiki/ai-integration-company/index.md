@@ -21,7 +21,7 @@ What it actually sells is the **redesign of work**: AI inserted at the task laye
 
 ## How to Use This Wiki
 
-0. **Ready to act today?** Go straight to [[start-here|Start Here]] — the two blocking decisions and your first week, with links to ready-made [[template-library|templates]].
+0. **Ready to act today?** Go straight to [[start-here|Start Here]] — the two blocking decisions and your first week, with links to ready-made [[templates/template-library|templates]].
 1. **New here?** Read [[north-star-alignment|North Star Alignment]], then [[progressive-operating-thesis|Progressive Operating Thesis]], then [[most-profitable-pathways|Most Profitable Pathways]], then [[first-30-days|First 30 Days]].
 2. **Ready to sell?** Read [[service-offer-ladder|Service Offer Ladder]], [[pricing-models|Pricing Models]], and [[sales-system|Sales System]].
 3. **Delivering work?** Read [[smb-ai-audit-method|SMB AI Audit Method]], [[fulfillment-system|Fulfillment System]], and the pathway page for the service you sold.
@@ -102,7 +102,7 @@ Every page separates **Beginner** actions (you, solo, learning), **Intermediate*
 | [[start-here|Start Here]] | The two blocking decisions + your literal first week |
 | [[business-setup|Business Setup]] | LLC, banking, insurance, contracts, taxes — tiered by when needed |
 | [[financial-model|Financial Model]] | Unit economics, LTV, funnel math, break-even, the monthly model |
-| [[template-library|Templates]] | 10 ready-to-use working documents: audit kit, scripts, SOW, checklists, scorecard |
+| [[templates/template-library|Templates]] | 10 ready-to-use working documents: audit kit, scripts, SOW, checklists, scorecard |
 | [[venture-fundamentals|Venture Fundamentals]] | General venture-building reference: feasibility testing, business model design, legal structure, financing, IP, growth strategy (migrated from FORGE, July 7, 2026) |
 
 ## 8. Risk Control

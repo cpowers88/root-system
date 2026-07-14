@@ -350,6 +350,32 @@ this vault's Stage 1-8 curriculum (Think Python chapters, plus additional Python
 Crash Course/general-mechanics pages covering the same ground) — see
 `99-ARCHIVE\ARCHIVED_2026-07-07_FORGE_technology_python_duplicates\`.
 
+## Late Raw Intake — classified 2026-07-13
+
+Four files arrived or were routed into `raw/` after the earlier intake close. They
+were assessed in bounded table-of-contents/section chunks rather than treated as a
+new reason to regenerate the curriculum. The active Stage 2 path does not change.
+
+| Source | Location | Status | Role | Placement decision |
+|---|---|---|---|---|
+| *Programming Logic and Design Comprehensive*, 6th ed. (Joyce Farrell, 2011) | `raw/books/Programming Logic and Design Comprehensive.pdf` | classified (chapter-level) | support / reference | Language-neutral pseudocode, flowcharts, decisions, loops, files, modularization, and test/design process are useful support for Stage 7. Its Java-style syntax, GUI, threading, UML, and relational-database chapters are not Python teaching material; use only after the corresponding Python foundations exist. |
+| *Python for Programmers* (Paul & Harvey Deitel, 2019) | `raw/books/PythonforProgramers.pdf` | classified (four logical chunks: Ch. 1-5 fundamentals; 6-9 structures/files; 10 OOP; 11-16 data/AI/big-data case studies) | advanced / reference | A broad, code-heavy IPython/Jupyter and data-science reference. It overlaps the current spine for fundamentals and the parked Python-for-Data-Analysis/Practical-SQL strands for pandas, NumPy, files, visualization, and ML. Keep as optional Stage 8-10 reference; do not make it a second spine. Its vendor/cloud examples are historically volatile and require current documentation when used. |
+| *Python Crash Course*, 3rd ed. (Eric Matthes) — second file | `raw/books/python-crash-course.pdf` | duplicate edition, classified | duplicate reference | It is a separate binary file (SHA-256 differs) but identifies itself as the same third edition already mapped from `raw/books/PythonCrashCourse.pdf`. The extracted table of contents and exercises cover the same beginner sequence. Raw is immutable, so retain both files; do not ingest the edition twice. |
+| "About Finxter - Be on the Right Side of Change" | `raw/About Finxter - Be on the Right Side of Change.md` | screened; no pathway role | excluded marketing/source-discovery note | This is a platform marketing/about page, not teaching material. It makes time-sensitive service, course, and community claims but provides no extractable Python curriculum. Keep immutable raw; do not use it as a learning source. |
+
+### Chunking Record
+
+- **Farrell:** Ch. 1-5 (program-development cycle through loops), Ch. 6-9
+  (arrays/files/modularization), Ch. 10-12 (OOP/GUI/threading), and Ch. 13-14
+  (UML/databases) were kept as separate assessment chunks. Only the
+  language-neutral planning material earns a future pathway role.
+- **Deitel:** Ch. 1-5, Ch. 6-9, Ch. 10, and Ch. 11-16 were assessed as four
+  dependency-aware chunks. The book itself places its data/AI cases after Python
+  fundamentals; that agrees with this vault's existing Stage 8-10 parking rules.
+- **No concept, glossary, flashcard, drill, or project pages were generated.**
+  The sources add no current-stage gap and the intake protocol requires Chris's
+  approval before large-scale generation.
+
 ## Required Next Update
 
 - Stages 9-10 now have a source (Automate the Boring Stuff, see above) — no longer blocked.

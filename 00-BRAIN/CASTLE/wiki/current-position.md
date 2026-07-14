@@ -12,10 +12,18 @@ tags: [baseline, now]
 - **School:** 41 of 121 credits entering KSU Fall 2026 (starts Aug 24). Six courses,
   13 hours: ECON 1000, ENGR 1000, PHYS 2211, CSE 1321+L, TCOM 2010. Gate course
   ISYE 2600 in Spring 2027.
+- **Financial continuity:** a major school-funding cut disclosed July 14 means
+  additional income is required to continue beyond Fall 2026. The active response is
+  the evidence-first `03-WIKIS\REVENUE_LAB` scan: freelance estimating and tutoring
+  first, then the remaining lanes, with a ranked scorecard due about July 21. No lane
+  is approved for build, publishing, outreach, or accounts until the CASTLE profit
+  gate is re-run. `NORTH_STAR.md` needs a Chris-approved income-timeline amendment
+  (SYSTEM_FLAGS #73); this page records the live constraint without preempting it.
 - **Python:** tracked two ways, both early: CS50P through PS2 (loops), and the
-  `03-WIKIS\PYTHON` wiki's staged path at **Stage 1 of 10** (Python Atoms) — all 11 stage
-  packets are generated, but generated ≠ studied. Confident: files, print, strings.
-  Not yet: function parameters/returns, dictionaries, reading tracebacks.
+  `03-WIKIS\PYTHON` wiki's staged path at **Stage 2 of 10 — Decisions and Boolean
+  Logic**. Stage 1 was satisfied July 13 through independent code plus explain-back
+  and traceback reasoning; all 11 stage packets are generated, but generated ≠
+  studied. Current work is the Stage 2 mini-project.
 - **Physics:** `03-WIKIS\PHYSICS` wiki's own `current-position.md` records the active
   unit as **Stage 3 of 18 — Vectors** (Serway Ch 3), packet complete. Stages 1–2 are
   assumed cleared from the July stage-packet build-ahead — confirm their mastery
@@ -30,13 +38,17 @@ tags: [baseline, now]
   template exists in `05-BUSINESS\01-Audit Templates\` but is unproven.
 - **Data visualization:** can find problems, can't show them yet. Looker Studio: zero reps.
 - **Technology landscape:** structure exists (TECHNOLOGY_LIBRARY_STRATEGY.md — 12
-  categories + Recommendation Ladder); weekly reps not yet started.
-- **Business assets already built:** ~45-page business-model wiki, delivery template
+  categories + Recommendation Ladder); first weekly rep (Make.com) logged July 9,
+  with additional landscape pages added July 13.
+- **Business assets already built:** 51-page business-model wiki, delivery template
   library (audit report, proposal, SOW, outreach), pricing worksheet, field-notes
   method with one real construction observation logged (June 5). APQC-indexed
   capability-library structure is being added under `05-BUSINESS` for reusable
   client-facing assets.
-- **Clients:** zero. By design — first client target is March 2027.
+- **Clients:** zero. The March 2027 first-client target remains North Star doctrine
+  pending its approved amendment; it is not the near-term answer to the funding gap.
+  Revenue Lab is researching a bounded survival-income lane that can keep school
+  viable while preserving the school-first sequence.
 
 ## Weak Links (priority order, from SKILL_GAP_ANALYSIS July 5)
 

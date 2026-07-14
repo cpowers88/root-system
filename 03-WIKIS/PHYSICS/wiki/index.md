@@ -37,6 +37,8 @@ PHYS 2211 — Principles of Physics I, Kennesaw State University, Fall 2026.
 
 **Stage 3 — Vectors (Ch 3).** See [[stages/stage-3-vectors]]. (All 18 stage packets exist in draft from the July cruise-prep build; Stage 3 is Chris's current working focus as of 2026-07-07.)
 
+**Active recall deck:** `02-LIBRARY\00-SCHOOL\02-Physics I\Flash Cards\Physics_Stages_01-03_Active.tsv` — 35 cards for Stages 1–3 only; Stage 4 remains preview-only.
+
 ## Folders
 
 Live counts as of 2026-07-09 (all 18 stage packets generated in the July

@@ -41,3 +41,4 @@ The author is explicit that this chapter — and the book as a whole — covers 
 - [[scalable-event-driven-processing]] / [[stream-processing-systems]] — data lakes are the natural long-term home for event logs and stream outputs once they age out of "hot" relevance.
 - [[theory-of-constraints]] / [[theory-of-constraints#The Five Focusing Steps|TOC Step 5 — Repeat, beware inertia]] — the book's closing framing ("there's always a next thing to address") is the same continuous-improvement cycle as the Five Focusing Steps; scalability work never has a final, finished state.
 - [[foundations-of-scalable-systems]] — source tracker; this closes out the book.
+- [[production-telemetry-and-monitoring-architecture]] — the concrete three-layer monitoring architecture and an adoption case study (Etsy) behind this page's higher-level observability claim.

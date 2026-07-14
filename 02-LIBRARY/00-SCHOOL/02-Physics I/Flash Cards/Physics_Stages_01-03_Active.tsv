@@ -1,0 +1,36 @@
+Front	Back
+What are the three fundamental quantities of mechanics and their SI units?	Length: meter (m). Mass: kilogram (kg). Time: second (s).
+What is the particle model, and when is it valid?	Treat an object as a point with mass but no size. Use it when size and internal processes do not affect the motion being analyzed.
+What does dimensional analysis check, and what can it not check?	It checks that both sides of an equation have matching dimensions. It cannot determine a dimensionless numerical constant such as 1/2.
+What is the safe unit-conversion method?	Multiply by conversion factors arranged so unwanted units cancel and the wanted unit remains.
+What controls significant figures in multiplication or division?	The measurement with the fewest significant figures controls the answer.
+What controls precision in addition or subtraction?	The measurement with the fewest decimal places controls the answer.
+What is density? Give its equation and SI unit.	Density is mass per volume: ρ = m/V. SI unit: kg/m³.
+Why is mass not the same as weight?	Mass is an object's amount of matter and is measured in kg. Weight is a force due to gravity and depends on location.
+What are the dimensions of speed and acceleration?	Speed has dimensions L/T. Acceleration has dimensions L/T².
+What does the symbol ~ mean in a physics estimate?	It means “is on the order of”: an approximate power-of-ten estimate.
+What is displacement, and how is it different from distance?	Displacement is net position change, Δx = xf − x0; it is a vector and can be negative or zero. Distance is total path length and is a positive scalar.
+What is average velocity? Give its equation and unit.	Average velocity is displacement divided by elapsed time: vavg = Δx/Δt. Unit: m/s.
+What is instantaneous velocity in calculus and on an x-t graph?	v = dx/dt: the slope of the position-versus-time graph at one point.
+What is instantaneous acceleration in calculus and on a v-t graph?	a = dv/dt = d²x/dt²: the slope of the velocity-versus-time graph at one point.
+What does the area under a v-t graph represent?	Displacement in meters.
+What does the slope of an x-t graph represent?	Velocity in m/s.
+What is the condition for using constant-acceleration kinematic equations?	Acceleration must be constant, or zero, throughout the time interval.
+How do you choose a kinematic equation?	List known and unknown quantities, then choose the equation containing the desired unknown and known values while omitting the unused quantity.
+What is g near Earth, and what direction does it point?	g = 9.80 m/s² downward. If up is positive, acceleration is −9.80 m/s².
+At the highest point of a ball thrown upward, what are velocity and acceleration?	Velocity is momentarily 0; acceleration is still downward at −9.80 m/s².
+If an object moves in +x with negative acceleration, is it speeding up or slowing down?	Slowing down, because acceleration points opposite the velocity.
+How do you solve when two objects moving in one dimension meet?	Write a position equation for each object, set the positions equal, and solve for time.
+What is a scalar? What is a vector?	A scalar has magnitude only. A vector has magnitude and direction.
+How do you convert polar coordinates (r, θ) to Cartesian components?	x = r cos θ and y = r sin θ.
+How do you convert Cartesian components (x, y) to polar form, and what must you check?	r = √(x² + y²), θ = tan⁻¹(y/x). Always sketch or check signs to choose the correct quadrant.
+Given a vector A at angle θ from +x, what are its components?	Ax = A cos θ and Ay = A sin θ.
+Given Ax and Ay, how do you find vector magnitude and direction?	Magnitude A = √(Ax² + Ay²). Direction θ = tan⁻¹(Ay/Ax); use the signs and a sketch to choose the quadrant.
+What do î, ĵ, and k̂ represent?	Unit vectors in the positive x, y, and z directions. Each has magnitude 1 and no units.
+How do you add A = Axî + Ayĵ and B = Bxî + Byĵ?	Add matching components: R = (Ax + Bx)î + (Ay + By)ĵ.
+Why can’t you normally add vector magnitudes to find a resultant?	Vectors have direction. Add components instead; adding magnitudes works only when vectors point in exactly the same direction.
+What do component signs tell you?	The vector's quadrant and physical direction: +x right, −x left, +y up, −y down.
+What is the lock phrase for vector components?	Components are the legs of the triangle hidden inside the vector.
+At 10° above horizontal, which component is larger? At 80°?	At 10°, x is larger; at 80°, y is larger. The component near the angle's adjacent side is larger.
+For R = 4î + 2ĵ, what are magnitude and direction?	Magnitude √20 ≈ 4.47. Direction tan⁻¹(2/4) ≈ 26.6° above +x.
+What is one essential vector-direction check after using inverse tangent?	Check the quadrant against a sketch; the calculator's angle alone may not express the physical direction correctly.

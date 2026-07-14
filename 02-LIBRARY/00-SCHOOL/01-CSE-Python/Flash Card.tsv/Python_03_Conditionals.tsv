@@ -29,3 +29,5 @@ How do I check if n is even?	if n % 2 == 0:
 How do I check if n is odd?	if n % 2 != 0:
 What does match do?	Compares one value against multiple cases.
 When should I prefer if/elif over match early on?	When practicing basic condition logic or checking ranges/Boolean expressions.
+What is a branch in an if/elif/else chain?	One possible indented block of code that runs when its condition is selected.
+What do truthy and falsy mean?	In a condition, Python treats some non-Boolean values as True or False. Empty values such as 0 and "" are falsy; non-empty values are usually truthy.
