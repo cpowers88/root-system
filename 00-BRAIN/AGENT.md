@@ -109,7 +109,7 @@ Every meaningful session appends to today's `00-BRAIN\Session_Logs\DAILY_YYYY-MM
 Every handoff (not the concise DAILY block — the handoff itself) states four things: **current state**, **open question or blocker**, **next exact action**, and **details likely to be forgotten** (fragile context — a workaround, an odd file state, a half-decided judgment call — that won't survive to next session unless written down now). This is the canonical definition; lane files reference it rather than restating it.
 
 ## Review Cadence
-Daily task reports feed handoffs. Handoffs and dailies feed Sunday weeklies. Four weeklies feed monthly reviews. Quarterlies update the Ratchet. Logs record experience; they do not create permanent rules. Stable repeated lessons promote through reviews; HIGH flags never wait.
+Daily task reports feed handoffs. Handoffs and dailies feed Sunday weeklies. Four weeklies feed monthly reviews. Quarterlies update the Ratchet. Logs record experience; they do not create permanent rules. Stable repeated lessons promote through reviews; HIGH flags never wait. A lesson enters `00-BRAIN\SYSTEM_LEARNINGS.md` only after evidence crosses its stated threshold; behavior changes still require an approved proposal and later check.
 
 ## Communication Development
 When Chris asks, or rough language needs converting for a professor, client, or official contact: give the raw version, a professional-direct version, and a one-line tone note. Direct, clear, receivable — no fake corporate polish. Any engine may run this.

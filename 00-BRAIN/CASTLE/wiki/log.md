@@ -481,3 +481,12 @@ tags: [reference]
   triage-latitude call, session-close hook design).
 - Next action: draft the compact eval-gate wording; Chris decides OPERATIONS.md triage latitude; Codex picks
   up the hook design in its next audit pass.
+
+## 2026-07-13 — Weekly staleness spot-check added
+
+- Chris approved Option B of AI_AUTOMATION_SYSTEMS' governance-drift proposal.
+- CASTLE's weekly sweep now rotates one active guide/dashboard check against
+  its named live source and flags mismatches; no new script or red-team
+  exercise was approved.
+- Next: use the check at the next weekly sweep and assess whether the manual
+  control catches meaningful drift before considering automation.

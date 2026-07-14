@@ -5,7 +5,7 @@ tags: [log, ai-automation, governance]
 
 # Proposal: Governance Drift Detection — A Standing Staleness Check
 
-**Status: PENDING CHRIS / CASTLE REVIEW**
+**Status: APPROVED & APPLIED July 13, 2026 — Option B only**
 
 ## Friction / Drift Observed
 
@@ -83,6 +83,14 @@ governance-adjacent file outside this wiki's own authority to edit; needs
 Codex or Chris to design and Claude Code to execute, same lane sequence as
 any other `00-BRAIN` change). Option C is a one-time read-only exercise
 against already-existing deny rules — no file changes, pure verification.
+
+## Outcome
+
+Chris approved Option B only. `00-BRAIN\CASTLE\OPERATIONS.md` now requires a
+rotating weekly comparison of one active guide or dashboard against the live
+source it names. Option A (new or expanded lint automation) and Option C
+(red-team exercise) remain unapproved: one caught incident does not yet
+justify added infrastructure.
 
 ## Source Basis
 
