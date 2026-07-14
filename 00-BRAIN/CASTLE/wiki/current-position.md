@@ -12,6 +12,13 @@ tags: [baseline, now]
 - **School:** 41 of 121 credits entering KSU Fall 2026 (starts Aug 24). Six courses,
   13 hours: ECON 1000, ENGR 1000, PHYS 2211, CSE 1321+L, TCOM 2010. Gate course
   ISYE 2600 in Spring 2027.
+- **Financial continuity:** a major school-funding cut disclosed July 14 means
+  additional income is required to continue beyond Fall 2026. The active response is
+  the evidence-first `03-WIKIS\REVENUE_LAB` scan: freelance estimating and tutoring
+  first, then the remaining lanes, with a ranked scorecard due about July 21. No lane
+  is approved for build, publishing, outreach, or accounts until the CASTLE profit
+  gate is re-run. `NORTH_STAR.md` needs a Chris-approved income-timeline amendment
+  (SYSTEM_FLAGS #73); this page records the live constraint without preempting it.
 - **Python:** tracked two ways, both early: CS50P through PS2 (loops), and the
   `03-WIKIS\PYTHON` wiki's staged path at **Stage 2 of 10 — Decisions and Boolean
   Logic**. Stage 1 was satisfied July 13 through independent code plus explain-back
@@ -38,7 +45,10 @@ tags: [baseline, now]
   method with one real construction observation logged (June 5). APQC-indexed
   capability-library structure is being added under `05-BUSINESS` for reusable
   client-facing assets.
-- **Clients:** zero. By design — first client target is March 2027.
+- **Clients:** zero. The March 2027 first-client target remains North Star doctrine
+  pending its approved amendment; it is not the near-term answer to the funding gap.
+  Revenue Lab is researching a bounded survival-income lane that can keep school
+  viable while preserving the school-first sequence.
 
 ## Weak Links (priority order, from SKILL_GAP_ANALYSIS July 5)
 

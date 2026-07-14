@@ -81,3 +81,22 @@ protect a favorite.
   scorecard exists and the gate has been re-run on the recommendation.
 - Wrong estimates get recorded and kept when reality reports back —
   the rubric learns from misses.
+
+## Adjacent Hypotheses — Brainstorm Queue (not lanes; no action authorized)
+
+These are prompts for a later evidence scan, **not** projects, offers, accounts,
+or outreach.
+
+| Hypothesis | Why it could fit | What must be proved before it becomes a lane |
+|---|---|---|
+| **F. Bid-risk / change-order clarity review** | Sells construction judgment — scope gaps, unknowns, client-approval language — rather than commodity takeoff. | A named buyer, legal/insurance boundary, repeatable deliverable, and willingness-to-pay evidence. |
+| **G. Contractor numbers rescue** | A bounded estimate → change-order → invoice cleanup may solve a real operational gap without promising a CRM or software product. | Willingness to pay, a fixed scope/time ceiling, and whether it belongs in the BUSINESS service path instead. |
+| **H. Paid expert-research calls** | Construction experience may qualify Chris for occasional paid industry interviews with near-zero production overhead. | Reputable platform terms and evidence that construction operators receive invitations. Never a dependable survival lane. |
+| **I. Evidence-backed micro-workshop** | A narrow session such as reading a remodel quote could package expertise into a reusable asset without claiming college-STEM authority. | Specific buyer problem, ethical/credential boundary, attendance demand, and danger-weeks maintenance plan. |
+
+### Pattern Worth Testing
+
+The useful contrast is **commodity labor vs. judgment packaging**. Pure takeoffs
+and generic tutoring compete on volume and price. Chris's possible edge is a
+small, bounded decision aid based on construction judgment. That is a hypothesis
+only; it must clear the same evidence and CASTLE gate as every other lane.

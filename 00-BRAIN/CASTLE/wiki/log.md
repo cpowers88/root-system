@@ -598,3 +598,87 @@ existing `03-WIKIS\BUSINESS` lane. Unlock it only after Chris sets a protected,
 explicitly displaced research block and the scan uses Tier 1–2 sources to produce the
 three candidates, one proof-project sentence, and one honest revenue path. Re-run the
 gate before any permanent content/revenue workspace or publishing commitment.
+
+## 2026-07-14 (midday) — FUNDING CUT DISCLOSED — Revenue Lab hub created; the two HOLDs superseded by Chris with a new material fact (Claude Code)
+
+- **The changed fact:** Chris disclosed a major cut in school funding — additional
+  income is required to continue studies past the Fall 2026 semester. This is now
+  the controlling financial fact, recorded in `NOW.md`, `DAILY_2026-07-14.md`, and
+  flag 73 (NORTH_STAR.md amendment pending Chris-approved wording).
+- **Why this supersedes today's two HOLD verdicts without contradicting them:**
+  both gates (09:41 contractor product; 11:41 social-content system) were run
+  before the funding cut was disclosed. The fact changes the gate inputs — income
+  that keeps Chris enrolled directly serves the school spine (no-orphan now passes),
+  and "this semester" is current-phase by definition (phase now passes). Chris, the
+  gate's owner, made the call with the new fact. The source test still stands open —
+  which is exactly what the new hub exists to close, evidence before build.
+- **Created (Chris-approved structural change):** `03-WIKIS\REVENUE_LAB\` — eighth
+  wiki hub. Charter: evidence-first digital revenue research; off-the-named-path
+  research allowed by charter; five-part ranking rubric (time-to-first-dollar,
+  daily-footprint fit, skill overlap, compounding, variance); research never
+  publishes/posts/creates accounts; builds still pass this gate. First deliverable:
+  `wiki\revenue-lane-scan-brief.md` — 5 lanes (content channel, freelance
+  estimating, tutoring, digital products, AI-assisted content), Tier 1–2 evidence
+  bar, 3-session time-box (~July 21), output = ranked scorecard + portfolio
+  recommendation returned HERE for the build-decision gate re-run.
+- **Build-side discipline preserved from both HOLDs:** no channel, no cadence, no
+  accounts, no product drafting, no KPI system until the scorecard exists and the
+  gate re-run passes. The 11:41 entry's demand for "three candidates, one
+  proof-project sentence, one honest revenue path" is structurally embedded in the
+  scan brief's evidence bar and outputs.
+- **Registrations:** AGENT.md hub list, WHERE_IT_GOES.md realm check,
+  OPERATIONS.md § Wiki Sweep (seven→eight hubs), wiki_lint.py, validate_boot_chain.py,
+  .claude settings raw write-deny. Validation: boot chain PASS (30 boot files,
+  1,086 pages); wiki lint 0 blockers (same 2 pre-existing review items).
+- Next action: Scan Session 1 — Lanes B (freelance estimating) + C (tutoring),
+  the fast-money lanes, with named Tier 1–2 sources and real numbers.
+
+## 2026-07-14 (afternoon) — CASTLE position reconciled to the funding constraint (Codex, Chris-directed)
+
+- Reconciled the command-center pages to the approved Revenue Lab decision. The
+  funding cut is now named in [[current-position]] as the live constraint; the
+  response is correctly bounded to the evidence-first scan, with no lane yet approved
+  to build, publish, create accounts, conduct outreach, or spend money.
+- Preserved the doctrine boundary: the March 2027 first-client target remains the
+  existing NORTH_STAR position until Chris approves its amendment (SYSTEM_FLAGS #73).
+  It is no longer represented as the near-term answer to the funding gap.
+- Refreshed [[index]]'s current state and next action; corrected OPERATIONS.md's
+  stale "Seven Hubs" heading to "Eight Hubs." No phase, skill, project, or revenue
+  lane was opened by this reconciliation.
+- Next action: Scan Session 1 — freelance estimating and tutoring, producing named
+  Tier 1–2 evidence and real numbers for the Revenue Lab scorecard.
+
+## 2026-07-14 (afternoon) — Revenue Lab scorecard gate re-run (Codex, Chris-directed)
+
+- Re-ran [[adding-a-profit-skill]] on the completed Revenue Lab portfolio.
+  **B2 (direct-network estimating/change-order support) conditionally passes** for
+  one proof conversation only: it serves the school-continuity constraint and
+  construction wedge, is source-supported as a paid category, is current-phase,
+  displaces no new block, and has a concrete proof question. Chris must approve the
+  external message/conversation; no offer, price, or engagement is authorized.
+- **Lane A's YouTube data scan conditionally passes** as a bounded Track 2
+  Python/SQL/API proof only. It requires Chris's explicit approval to create/enable
+  the API key. No channel, post, affiliate action, or monetization work is approved.
+- D stays HOLD; C is fallback only; E is closed. The parked brainstorm hypotheses
+  do not enter the roadmap.
+- Next action: Chris chooses whether to authorize either independent proof action.
+
+## 2026-07-14 (afternoon) — Practical AI tutorial path internal-proof gate (Codex, Chris-approved)
+
+- **No-orphan: PASS.** Direct Track 2 Python/API/AI work, active Revenue Lab Lane A,
+  communication practice, and potential owned distribution for the advisor-builder path.
+- **Source: PASS, bounded.** First-party platform/API mechanics plus the live public-data
+  scan establish an attention opportunity; they do not establish income for Chris.
+- **Phase: PASS.** Foundation-phase internal validation during the active funding response.
+- **Displacement: PASS.** Weekly topic scans replace the existing 30-minute technology-
+  landscape rep; one private proof replaces one Python/SQL/communication rep and is
+  capped at 90 added minutes.
+- **Proof: PASS.** Produce an exact scanner topic report and one private 8–12 minute
+  walkthrough of the live scanner, then record production time and usefulness.
+- **Verdict: CONDITIONAL PASS — internal proof only.** Chris approved the practical
+  AI/software tutorial path with AI-for-business as the companion angle. Public account,
+  channel, posting, monetization, affiliate, paid-tool, and kids-content actions remain
+  HOLD pending proof review. Execution brief:
+  `00-BRAIN\Session_Logs\YT_SCANNER_TOPIC_REPORT_AND_PRIVATE_PROOF_EXECUTION_BRIEF_2026-07-14.md`.
+- Skill-page candidate only: `technical-tutorial-production`; do not create until the
+  private proof fits the time cap and Chris approves recurring use.

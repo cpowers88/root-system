@@ -15,18 +15,28 @@ that keeps Chris enrolled directly serves the school spine. NORTH_STAR.md is
 flagged for a Chris-approved amendment (SYSTEM_FLAGS #73) — its income timeline
 (first client March 2027) no longer matches reality's deadline.
 
-**The response, built today: `03-WIKIS\REVENUE_LAB\` — a new dedicated hub
-(Chris-approved structural change).** Evidence first, build second. The active
-deliverable is the **revenue lane scan** (`wiki\revenue-lane-scan-brief.md`):
-five lanes (content channel, freelance estimating, tutoring, digital products,
-AI-assisted content), each scored on time-to-first-dollar, daily-footprint fit,
-skill overlap, compounding, and variance — three sessions, done by ~July 21.
-Output: a ranked scorecard + a portfolio recommendation (one survival lane +
-one compounding lane) that goes to the CASTLE gate for the build decision.
+**The response, built AND completed today: `03-WIKIS\REVENUE_LAB\` (new hub,
+Chris-approved) — the full 5-lane evidence scan ran in one day**, with Codex
+independently auditing every scored page. **CASTLE's gate re-run is complete:**
+`03-WIKIS\REVENUE_LAB\wiki\revenue-lane-scorecard.md`.
 
-**Next scan session: Session 1 — Lanes B (freelance estimating) + C (tutoring),
-the fast-money lanes.** Research never publishes or creates accounts; Chris
-approves all consequential actions.
+**Final evidence-only ranking:** A content channel 14/25 (compounding only,
+never survival) > B freelance estimating 13 = D digital products 13 > C
+tutoring 10 > E faceless/AI content 9 (**closed** — platform policy
+demonetizes mass-produced content).
+
+**Gate result — two independent, conditional passes (Chris decides each):**
+1. **B2 proof conversation** — one neutral change-order replay with a contractor
+   friend, asking whether they would pay for remote estimate/change-order support.
+   Chris must approve the external message/conversation; no offer or pricing yet.
+2. **Lane A research build — APPROVED** — Claude Code may build the
+   format-separated YouTube outlier scanner using Python/SQLite once Chris supplies
+   the API credential through a safe local secret mechanism. No channel, posting,
+   or monetization decision until the data is in; the key never enters vault files,
+   logs, reports, or Git.
+
+Research never publishes or creates accounts; Chris approves all consequential
+actions. Prediction checks logged for ~Aug 14.
 
 **Also today (already done):** Practice Rep 1 closed by Chris's explicit call
 (desk-sim `observation_one.md` as evidence, live rep to revisit); contractor

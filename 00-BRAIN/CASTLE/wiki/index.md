@@ -3,7 +3,7 @@ tags: [reference]
 ---
 
 # Index — Every Page in the Castle
-### Updated: July 13, 2026 (wiki protocol reconciliation)
+### Updated: July 14, 2026 (funding constraint and Revenue Lab response reconciled)
 
 ## Castle Root Files
 - `.ROOT\NOW.md` — the morning page (castle-owned, lives at the .ROOT root)
@@ -49,3 +49,10 @@ tags: [reference]
 ## Planned (do not create until an existing stub is finished)
 - project-map · service-map · evidence-map · technology-stack-map · market-map ·
   glossary · parking-lot · remaining phase pages · remaining skill pages per [[skill-map]]
+
+## Current Command-Center State
+
+- School remains first. The July 14 funding constraint requires a bounded,
+  evidence-first scan in `03-WIKIS\REVENUE_LAB`, not an un-gated business build.
+- Next action: Scan Session 1 — freelance estimating and tutoring, producing named
+  Tier 1–2 evidence and real numbers for the scorecard due about July 21.
