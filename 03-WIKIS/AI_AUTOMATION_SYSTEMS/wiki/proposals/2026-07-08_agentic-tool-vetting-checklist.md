@@ -1,6 +1,6 @@
 ---
 type: proposal
-tags: [ai-automation, proposal, approved]
+tags: [ai-automation, proposal, approved, reference]
 status: APPROVED & APPLIED 2026-07-08
 ---
 

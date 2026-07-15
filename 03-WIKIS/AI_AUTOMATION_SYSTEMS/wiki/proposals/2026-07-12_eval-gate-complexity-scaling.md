@@ -1,6 +1,6 @@
 ---
 type: proposal
-tags: [ai-automation, proposal, governance, verification]
+tags: [ai-automation, proposal, governance, verification, reference]
 ---
 
 # Proposal: Scale the Agent Evaluation Gate with Architecture Complexity

@@ -1,6 +1,6 @@
 ---
 type: proposal
-tags: [ai-automation, proposal, governance]
+tags: [ai-automation, proposal, governance, reference]
 ---
 
 # Proposal: Wiki Shared Layer + AI-Lane Cleanup

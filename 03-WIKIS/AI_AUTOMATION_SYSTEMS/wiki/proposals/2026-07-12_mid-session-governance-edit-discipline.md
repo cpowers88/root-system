@@ -1,6 +1,6 @@
 ---
 type: proposal
-tags: [ai-automation, proposal, governance]
+tags: [ai-automation, proposal, governance, reference]
 ---
 
 # Proposal: Mid-Session Governance-Edit Discipline

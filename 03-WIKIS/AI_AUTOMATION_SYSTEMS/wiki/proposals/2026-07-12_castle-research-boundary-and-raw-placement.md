@@ -1,6 +1,6 @@
 ---
 type: proposal
-tags: [ai-automation, proposal, governance, castle]
+tags: [ai-automation, proposal, governance, castle, reference]
 ---
 
 # Proposal: Enforce CASTLE's Research Boundary + Add a `raw/` Placement Rule
