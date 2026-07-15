@@ -118,5 +118,7 @@ This does not replace the status table above — it's the output format when Chr
 
 ## The Rule
 
-New skill idea → [[adding-a-profit-skill]] → passes = gets a row here with phase +
-proof → fails = [[parking-lot]] *(page created when first needed)*.
+New skill idea → search [[skill-map]] and [[opportunity-queue]] →
+[[adding-a-profit-skill]] → passes = gets a row here with phase + proof → fails =
+no skill-map row; if evidence-backed and worth retaining, keep or add one
+[[opportunity-queue]] row with status `parked`; otherwise create nothing.

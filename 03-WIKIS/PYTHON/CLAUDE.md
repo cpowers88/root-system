@@ -75,6 +75,7 @@ can do — so the vault maintains both `wiki/stages/` (the sequential path) and
 
 ## Folder Structure
 
+- `HOW_TO_USE.md` — root operating guide and routing table for this hub
 - `raw/` — immutable sources: `syllabi/`, `books/`, `docs/`, `examples/`
 - `templates/` — one skeleton per artifact type (concept, code-pattern, drill,
   flashcard, glossary-entry, mini-project, source-summary, stage,

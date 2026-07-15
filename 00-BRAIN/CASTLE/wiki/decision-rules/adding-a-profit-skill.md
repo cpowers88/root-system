@@ -14,6 +14,10 @@ side hustle, or digital-asset concept — from Chris, an AI session, or any sour
 
 ## The Rule
 
+Before applying the gate or creating anything, search both [[skill-map]] and
+[[opportunity-queue]] for the idea or an equivalent signal. Update an existing row
+instead of creating a duplicate.
+
 A new profit skill enters the [[skill-map]] only if ALL five pass:
 
 1. **No-orphan test** (NORTH_STAR.md): it directly serves school, a defined service
@@ -24,7 +28,9 @@ A new profit skill enters the [[skill-map]] only if ALL five pass:
    position. Tier 4 hype (Reddit threads, YouTube income claims, X posts) can
    trigger the question but can never pass this test by itself.
 3. **Phase test**: it names the phase it belongs to. If that phase is more than
-   two quarters away → `parked-advanced/`, not the skill map.
+   two quarters away, it does not enter the skill map. If it has permanent evidence
+   and is worth retaining, keep or add one [[opportunity-queue]] row with status
+   `parked`; otherwise create no page.
 4. **Displacement test**: name what it displaces. Time is fixed (full-time school,
    family of nine). If nothing can be displaced, it waits.
 5. **Proof test**: a concrete proof project can be stated in one sentence. If the

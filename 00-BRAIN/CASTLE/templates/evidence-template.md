@@ -34,4 +34,6 @@ What exists that anyone could inspect (file, repo, report, deployed tool, delive
 Self-use counts. Client use counts more. Paid use counts most.
 
 ## Gap Revealed
-What the work showed still isn't strong enough, and where that goes ([[skill-map]] or [[parking-lot]]).
+What the work showed still isn't strong enough, and where that goes: [[skill-map]]
+when it becomes an active capability, [[opportunity-queue]] with status `parked`
+when it is evidence-backed and worth retaining, or no new page otherwise.

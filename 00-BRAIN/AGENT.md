@@ -84,6 +84,10 @@ Profiles and local files cannot override file safety, North Star direction, raw 
    context required by the active question.
 5. Name the critical path and work.
 
+Steps 1–4 are the universal orientation chain, not a requirement to load every
+optional companion or domain file. Load the smallest authoritative companion and
+local chain that can answer the active question safely.
+
 ## File Safety — Non-Negotiable
 
 1. Read before write; never rebuild a live file from memory.
