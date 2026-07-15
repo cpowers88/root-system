@@ -1,6 +1,8 @@
 ---
 type: project
-tags: [now, business, revenue, programming]
+timeline: now
+status: active
+tags: [business, revenue, programming]
 ---
 
 # YT Outlier Scanner — Lane A Research Tool
@@ -75,8 +77,8 @@ python scanner.py report --niche trades --top 30
 python scanner.py selftest                # offline logic check (no key needed)
 ```
 
-Seed channel candidates live in `channels_seed.md` — pick them WITH Chris,
-by niche, before the first harvest.
+Seed channel candidates live in [channels_seed.md](channels_seed.md) — confirm them
+WITH Chris, by niche, before the next harvest.
 
 ### Offline and network boundaries
 
@@ -107,8 +109,9 @@ by niche, before the first harvest.
 - **Shorts heuristic:** duration ≤ 180s. Imperfect (some long-form is short);
   good enough for research ranking, not for publication claims.
 - **Views ≠ revenue.** RPM varies by niche and is Tier 2 data at best (see
-  `lane-a-content-channel.md`). This tool ranks attention patterns; the
-  revenue question stays with the REVENUE_LAB scorecard.
+  [lane-a-content-channel.md](../../../03-WIKIS/REVENUE_LAB/wiki/lane-a-content-channel.md)).
+  This tool ranks attention patterns; the revenue question stays with the
+  REVENUE_LAB scorecard.
 - **Recency bias:** a 2-week-old video hasn't finished accumulating views;
   compare videos of similar age when reading the report.
 - **Search is a sample, not a census.** Relevance results can be noisy and need
@@ -128,5 +131,5 @@ by niche, before the first harvest.
 - `discovery_snapshots` — append-only observations inside `scanner.db`
 - `C:\Users\chris\.root-secrets\YT_Outlier_Scanner.env` — external API key file;
   intentionally outside this vault and project
-- `channels_seed.md` — niche/channel working list
-- `PRIVATE_PROOF_OUTLINE.md` — internal 8–12 minute walkthrough plan
+- [channels_seed.md](channels_seed.md) — niche/channel working list
+- [PRIVATE_PROOF_OUTLINE.md](PRIVATE_PROOF_OUTLINE.md) — internal 8–12 minute walkthrough plan

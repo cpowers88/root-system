@@ -1,9 +1,11 @@
 ---
 type: note
-tags: [now, business, revenue]
+timeline: next
+status: awaiting-review
+tags: [business, revenue]
 ---
 
-# Channel Seed List — pick with Chris before first harvest
+# Channel Seed List — confirm with Chris before the next harvest
 ### Niche labels drive the report. 5–10 channels per niche gives a usable
 ### breakout-rate comparison. Mix sizes: a few large, several mid, a few small —
 ### small-channel breakouts are the most informative signal for a newcomer.

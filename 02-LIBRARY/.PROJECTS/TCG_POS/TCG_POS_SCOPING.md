@@ -1,10 +1,11 @@
 ---
 type: project
-tags: [parked, project]
+timeline: parked
+status: paused
+tags: [project]
 ---
 
 # TCG POS SYSTEM — Scoping Document
-#TCG #projects 
 ## Status: PAUSED — no qualifying commitment by the June 23 gate
 ### Last reviewed: July 15, 2026
 

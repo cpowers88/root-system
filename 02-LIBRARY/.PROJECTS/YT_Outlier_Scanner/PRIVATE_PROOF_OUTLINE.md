@@ -1,5 +1,6 @@
 ---
 type: private-proof-outline
+timeline: next
 status: internal-only
 tags: [revenue, youtube, scanner, tutorial]
 created: 2026-07-14
@@ -48,7 +49,7 @@ top videos for a topic and identify reachable small-channel breakouts.
 - Exact topic-report output, including views and breakout metrics.
 - SQLite file location: `YT_Outlier_Scanner\scanner.db` (do not open the external secret file).
 - Review artifact:
-  `03-WIKIS\REVENUE_LAB\wiki\yt-outlier-scanner-first-findings-2026-07-14.md`.
+  [yt-outlier-scanner-first-findings-2026-07-14.md](../../../03-WIKIS/REVENUE_LAB/wiki/yt-outlier-scanner-first-findings-2026-07-14.md).
 
 ## Privacy Checklist
 
