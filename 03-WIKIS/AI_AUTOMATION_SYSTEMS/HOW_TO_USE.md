@@ -6,6 +6,12 @@ tags: [reference, ai-automation]
 # HOW TO USE — 03-WIKIS\AI_AUTOMATION_SYSTEMS
 ### This wiki answers: *what AI/automation pattern is worth knowing, and does `.ROOT` itself need to change to use it well?*
 
+## Hub Contract
+
+- **Hub type:** research-retrieval engine — AI/agent landscape research plus `.ROOT` self-evolution proposals; also a SENSE evidence home for the Watchtower and the proposal source for the loop's EVOLVE stage.
+- **Current truth:** `wiki\index.md`
+- **Loop & return:** runs the RESEARCH and STRUCTURE stages (and feeds EVOLVE) of the System Loop; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+
 ## Question Owned
 AI tooling and agent-pattern research, plus self-evolution research on `.ROOT` itself. Researches and proposes only — never unilaterally rewrites governance files.
 

@@ -6,6 +6,12 @@ tags: [reference, business, revenue]
 # HOW TO USE — 03-WIKIS\REVENUE_LAB
 ### This wiki answers: *what digital revenue lane, backed by evidence, fits Chris's daily life and produces income soonest?*
 
+## Hub Contract
+
+- **Hub type:** application-decision engine — evidence-first revenue-lane scoring and operation.
+- **Current truth:** `wiki\index.md`
+- **Loop & return:** runs the PROVE and MEASURED OUTCOME stages of the System Loop through scored lane tests; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+
 ## Question Owned
 Evidence-first research, scoring, and operation of digital revenue streams that
 fund Chris's studies. Off-the-named-path research is allowed here by charter —

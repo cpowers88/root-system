@@ -6,6 +6,12 @@ tags: [reference, technology]
 # HOW TO USE — 03-WIKIS\TECHNOLOGY
 ### This wiki answers: *what tools exist, what category do they solve, and is now the time to learn or recommend one?*
 
+## Hub Contract
+
+- **Hub type:** research-retrieval engine — landscape research plus applied technical reference; also a SENSE evidence home for the Watchtower.
+- **Current truth:** `02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md § Current State` (landscape frontier of record); applied lookups start at `wiki\index.md`.
+- **Loop & return:** runs the RESEARCH and STRUCTURE stages of the System Loop; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+
 ## Question Owned
 Two layers as of July 7, 2026: landscape research/tech-adoption roadmap (the original purpose — not AI/agent-specific, that's the sibling `AI_AUTOMATION_SYSTEMS` wiki), plus applied technical reference (web frameworks, distributed systems, DevOps, AI/LLM concepts, applied data science) inherited from FORGE's retirement the same day.
 

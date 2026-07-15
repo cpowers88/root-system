@@ -6,6 +6,12 @@ tags: [reference, physics]
 # HOW TO USE — 03-WIKIS\PHYSICS
 ### This vault answers: *what physics situation is this, what model applies, and what should I practice next?*
 
+## Hub Contract
+
+- **Hub type:** learning engine — staged path, mastery gates, proof before advance.
+- **Current truth:** `wiki\current-position.md`
+- **Loop & return:** runs the TEACH stage (and its own `raw\`→`wiki\` STRUCTURE intake) of the System Loop; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+
 ## Question Owned
 The staged physics path (1–18) from situation → model → equation → problem type → drill, building PHYS 2211 readiness and long-term engineering competence.
 

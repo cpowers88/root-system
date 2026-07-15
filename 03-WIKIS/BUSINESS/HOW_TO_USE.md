@@ -6,6 +6,12 @@ tags: [reference, business]
 # HOW TO USE — 03-WIKIS\BUSINESS
 ### This wiki answers: *what do I sell, to whom, for how much, and how do I deliver it?*
 
+## Hub Contract
+
+- **Hub type:** application-decision engine — strategy, offers, and blank masters that end in bounded real-world action.
+- **Current truth:** `wiki\ai-integration-company\index.md` (active-vehicle truth lives in `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`).
+- **Loop & return:** runs the BUILD and PROVE stages of the System Loop through bounded tests; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+
 ## Question Owned
 Turn the business plan into client-ready moves: offers, pricing, scripts, audit method, and delivery templates — without endlessly re-planning the business.
 

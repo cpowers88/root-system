@@ -6,6 +6,12 @@ tags: [reference, programming]
 # HOW TO USE — 03-WIKIS\PYTHON
 ### This vault answers: *what should I read, memorize, practice, and build next in Python/CS?*
 
+## Hub Contract
+
+- **Hub type:** learning engine — staged path, mastery gates, proof before advance.
+- **Current truth:** `wiki\current-position.md`
+- **Loop & return:** runs the TEACH stage (and its own `raw\`→`wiki\` STRUCTURE intake) of the System Loop; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+
 ## Question Owned
 What to study, drill, and build next on the Python/CS staged path (Stage 0–10), with zero curriculum-shopping.
 

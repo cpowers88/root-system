@@ -6,6 +6,12 @@ tags: [reference, school]
 # HOW TO USE — 03-WIKIS\EDUCATION
 ### This wiki answers: *what does this course require, and what should I study for it?*
 
+## Hub Contract
+
+- **Hub type:** learning engine — per-course study support, activated on demand.
+- **Current truth:** `wiki\current-position.md`
+- **Loop & return:** runs the TEACH stage (and its own `raw\`→`wiki\` STRUCTURE intake) of the System Loop; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+
 ## Question Owned
 General KSU coursework support for subjects without their own wiki — TCOM, ECON, ENGR today. Python/CS lives in `03-WIKIS\PYTHON`; Physics lives in `03-WIKIS\PHYSICS`.
 

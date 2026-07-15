@@ -6,6 +6,12 @@ tags: [reference, systems]
 # HOW TO USE — 03-WIKIS\SYSTEMS
 ### This wiki answers: *what system-dynamics or ISYE concept is worth knowing, and what audit or coursework does it strengthen?*
 
+## Hub Contract
+
+- **Hub type:** research-retrieval engine — reference corpus with tag/index retrieval; staged learning activates with ISYE 2600.
+- **Current truth:** `wiki\index.md`
+- **Loop & return:** runs the RESEARCH and STRUCTURE stages of the System Loop; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+
 ## Question Owned
 System dynamics, factory physics, queuing theory, MRP/inventory theory, and the ISYE 2600 spine — feedback structures, stock-and-flow models, bottleneck/variability analysis, and their audit applications.
 
