@@ -151,10 +151,12 @@ row needs an evidence link, owner realm, and next test/action before work begins
 Internal system friction stays in `SYSTEM_FLAGS.md` unless it independently
 earns a commercial opportunity entry.
 
-For a Watchtower promotion, return a proof packet after the bounded test: radar row,
-CASTLE verdict, test performed, measured outcome, affected `CURRENT_STRATEGY`
-assumption/milestone, and next review. Only the outcome—not the signal itself—may
-justify a strategy or quarterly Ratchet change.
+For a Watchtower promotion, return a proof packet after the bounded test — an
+instance of the uniform Return Packet in
+`01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md § Return Packet` — with:
+radar row, CASTLE verdict, test performed, measured outcome, affected
+`CURRENT_STRATEGY` assumption/milestone, and next review. Only the outcome—not the
+signal itself—may justify a strategy or quarterly Ratchet change.
 
 ## Session Close
 

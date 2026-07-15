@@ -7,7 +7,7 @@ status: live
 
 # `.ROOT` Capability Contract
 ### What the AI OS must be able to do in service of the North Star
-### Last updated: July 14, 2026
+### Last updated: July 15, 2026 (canonical System Loop + uniform Return Packet installed)
 
 ## Authority and Loading Rule
 
@@ -27,6 +27,56 @@ capability and assets. “Self-improving” means the system detects friction an
 proposes or performs authorized improvements, validates the result, and preserves a
 traceable history. It does not mean autonomous mission changes or unreviewed
 governance rewrites.
+
+## The Canonical Loop
+
+The whole system cycle has one name: **the System Loop**. (The quarterly
+**North Star Ratchet** is a different mechanism — the evidence-gated strategy
+review. The loop's EVOLVE stage feeds it; it does not replace it.)
+
+```text
+SENSE -> RESEARCH -> TEACH -> STRUCTURE -> DECIDE -> BUILD -> PROVE
+  ^                                                        |
+  |                                                        v
+EVOLVE <- REVIEW <- LEARN <- MEASURED OUTCOME <- DEPLOY / USE
+```
+
+Human governance surrounds the loop: Chris sets intent, approves consequential
+action and governance change, judges quality, and may redirect the system at any
+point.
+
+> **`.ROOT` is Chris's human-governed, self-improving AI operating partner. It
+> continuously senses change, researches and teaches what matters next, turns
+> verified knowledge into structured wikis and usable capability, directs and
+> helps execute real work, learns from measured outcomes, maintains its own
+> memory and operating rules through evidence and approval, and works beside
+> Chris as business partner, systems engineer, builder, and strategist — always
+> evolving toward the most valuable true north Chris can presently see.**
+
+One owner per stage:
+
+| Stage | Owner |
+|---|---|
+| SENSE | `...projectSuccess` Watchtower; evidence homes in TECHNOLOGY / AI_AUTOMATION_SYSTEMS |
+| RESEARCH | the owning `03-WIKIS` hub |
+| TEACH | PYTHON / PHYSICS / EDUCATION staged paths; other hubs when applied |
+| STRUCTURE | each hub's `raw\` → `wiki\` intake |
+| DECIDE | CASTLE — maps, profit gate, opportunity queue, `NOW.md` |
+| BUILD | `02-LIBRARY\.PROJECTS`, school work, the external client workspace, `05-BUSINESS` |
+| PROVE | drills, proof projects, capability ladder, Revenue Lab evidence, client outcomes |
+| DEPLOY / USE | real school, client, and revenue work |
+| MEASURED OUTCOME | evidence recorded in the owning realm |
+| LEARN | DAILY → reviews; wiki logs; `SYSTEM_FLAGS.md`; `SYSTEM_LEARNINGS.md` |
+| REVIEW | the review cadence (daily → weekly → monthly → quarterly) |
+| EVOLVE | Capability 8's ratchet: AIAS proposals → Chris gate → validation → `check_at` outcome |
+
+**Validation, everywhere in this loop, means the same three things:** deterministic
+checks pass, the fix is verified in the target file, and the named `check_at`/review
+date records the observed outcome. Other files may abbreviate this; they may not
+redefine it.
+
+Every stage returns its result through the Return Packet below. CASTLE, the hubs,
+and the Watchtower point here; no other file may define a competing loop.
 
 ## Required Capabilities
 
@@ -149,9 +199,23 @@ and a discoverable return path. A proposal that was never tested is not evolutio
 Do not load every companion defensively. Load the smallest authoritative chain that
 can answer the question safely.
 
-## Return Contract
+## Return Packet
 
-Every meaningful operation returns the result to its owner:
+Every meaningful proof or operation returns the same five fields to its owner.
+This is the single packet standard in `.ROOT`; every other packet (CASTLE's
+"Every Operation Identifies," the Watchtower proof packet, the per-operation
+rows below) is an instance of it:
+
+1. **Outcome** — what actually happened, stated plainly.
+2. **Evidence link** — the artifact real use produced.
+3. **Capability/status movement** — which current-position, map, index, or status
+   row moved (or explicitly none).
+4. **Reusable-asset candidate** — yes/no; if yes, where it would live
+   (`05-BUSINESS\06-Capability Library` unless `WHERE_IT_GOES.md` says otherwise).
+5. **System-learning candidate** — yes/no; if yes, the `SYSTEM_FLAGS.md` or
+   `SYSTEM_LEARNINGS.md` nomination.
+
+Per-operation detail:
 
 | Operation | Required return |
 |---|---|

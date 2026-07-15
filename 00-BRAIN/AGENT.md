@@ -134,6 +134,8 @@ Canonical `.ROOT` skills live under `00-BRAIN\SKILLS\`. `.agents\skills\` and `.
 
 One-time noise stays in the DAILY/local log. Generalized lessons enter `SYSTEM_LEARNINGS.md` only after their evidence threshold. Internal system friction stays in `SYSTEM_FLAGS.md`; it is not a commercial opportunity unless it independently earns that classification.
 
+The canonical System Loop and the uniform five-field Return Packet are defined once, in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`; CASTLE, the hubs, and the Watchtower point there and no file may define a competing loop or packet.
+
 ## Agent Evaluation Gate
 
 1. Start with one agent or deterministic workflow; add complexity only for a demonstrated failure.

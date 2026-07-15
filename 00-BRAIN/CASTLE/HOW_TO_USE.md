@@ -27,7 +27,10 @@ Any castle session that touches a phase, skill, flag, or roadmap decision states
 4. **Next action** — one exact next step, in that realm.
 5. **Return path for proof/status** — how the result gets back into the castle (a
    `00-BRAIN\CASTLE\wiki\log.md` entry, owning index/current-position update, or
-   `.ROOT\NOW.md` refresh).
+   `.ROOT\NOW.md` refresh). The field standard for what any meaningful proof
+   returns is the uniform Return Packet in
+   `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md § Return Packet`;
+   this checklist is an instance of it.
 
 ## How To Ask This Wiki Questions
 Good castle questions (ask any AI session, or just read the pages):
