@@ -617,7 +617,7 @@ None — hub description now matches live index.md/log.md.
 ## 2026-07-12 (session 13) — Claude Code docs pack ingested in chunk format (moved from CASTLE)
 
 ### Work completed
-Chris relocated the Claude Code official docs pack from `00-BRAIN\CASTLEawooks\CLAUDE_FILES\`
+Chris relocated the Claude Code official docs pack from `00-BRAIN\CASTLE\raw\books\CLAUDE_FILES\`
 to its correct home, `raw\CLAUDE_FILES\` in this wiki, and directed a proper chunked ingest so
 nothing from the earlier partial CASTLE-era pass (which only fully read 5 of 20 files) got missed.
 Ran three parallel research forks, each reading its assigned files in full and writing new wiki
@@ -662,7 +662,7 @@ Chris decides whether any of the five flagged items becomes a real `wiki/proposa
 ## 2026-07-12 (session 14) — OpenAI Platform/ChatGPT/Codex docs pack ingested in chunk format (moved from CASTLE)
 
 ### Work completed
-Chris relocated the OpenAI Platform/ChatGPT/Codex docs pack (95 files) from `00-BRAIN\CASTLEawooks\OPEN_AI-CHATGPT_CODEX_FILES\`
+Chris relocated the OpenAI Platform/ChatGPT/Codex docs pack (95 files) from `00-BRAIN\CASTLE\raw\books\OPEN_AI-CHATGPT_CODEX_FILES\`
 to its correct home, `raw\OPEN_AI-CHATGPT_CODEX_FILES\` in this wiki, and directed the same chunked full-read ingest
 as the same-day Claude Code pack. CASTLE's prior pass (`00-BRAIN\CASTLE\wiki\source-summaries\openai-platform-docs-pack-2026-07.md`)
 had only deep-read Chunks 01-04 and 08 of its own 10-chunk routing (~60 of 95 files at real depth); the
@@ -791,7 +791,7 @@ today (after AI_AUTOMATION_SYSTEMS and Capability Library) — corrected directl
    architecture complexity; proposes scaling test cases to what's actually being changed.
 3. `2026-07-12_castle-research-boundary-and-raw-placement.md` — **the audit's headline finding.** CASTLE's own
    OPERATIONS.md says it is not the landscape-research/self-evolution layer, but it did exactly that research
-   in place this morning (both docs packs ingested directly in `CASTLEawooks\`, source-summaries
+   in place this morning (both docs packs ingested directly in `CASTLE\raw\books\`, source-summaries
    written, claims applied into the launch report) — AI_AUTOMATION_SYSTEMS's exact charter. This is also the
    root cause of why both packs needed same-day relocation. Proposes a `WHERE_IT_GOES.md` raw-intake rule.
 4. `2026-07-12_session-close-high-flag-hook.md` — the session-close skill's "HIGH flag must be fixed before
@@ -803,7 +803,7 @@ everything else identical. Likely intentional per-engine parameterization, but f
 remember to hand-edit one word in two places). Needs a yes/no from Chris, not a full proposal.
 
 ### Files changed
-`03-WIKISDUCATION\HOW_TO_USE.md`, `CLAUDE.md`; four new proposal files; `index.md` (8 proposals now
+`03-WIKIS\EDUCATION\HOW_TO_USE.md`, `CLAUDE.md`; four new proposal files; `index.md` (8 proposals now
 listed, all PENDING); this log.
 
 ### Next action
@@ -823,7 +823,7 @@ private-network bridge at all when the target system isn't internet-reachable; r
 against current docs rather than assuming from memory.
 
 ### Files changed
-`02-LIBRARY 8-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` (Category 10 + Last Updated footer);
+`02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` (Category 10 + Last Updated footer);
 `proposals/2026-07-12_mcp-vetting-screen-secure-tunnel-gap.md` (status APPROVED & APPLIED); `index.md`; this log.
 
 ### Result
@@ -862,7 +862,7 @@ scoped to Claude-Code/Codex-CLI-only rituals.
    — a live example of the table's own logic applied to `AGENT.md` itself. Chris confirmed via a quick
    question before this specific trim.
 4. **CASTLE research-boundary + raw placement (half)** — the `WHERE_IT_GOES.md` raw-intake rule is live:
-   source material landing in `CASTLEaw\` matching a wiki's charter must be relocated before processing,
+   source material landing in `CASTLE\raw\` matching a wiki's charter must be relocated before processing,
    not ingested in place. The `OPERATIONS.md` boundary-reinforcement half stays PENDING — CASTLE's own rule
    says `OPERATIONS.md` edits need Chris directly, even under CASTLE's own review.
 
@@ -897,8 +897,8 @@ Established a standing practice alongside this: raw-file retirement (removing a 
 except the Claude Code and OpenAI/Codex documentation packs, a standing exception that never retires
 regardless of derived-page completeness (re-consulted directly, not just summarized once).
 
-Checked `00-BRAIN\CASTLEaw\` as of this session: empty of content (both docs packs already relocated
-to `AI_AUTOMATION_SYSTEMSaw\` earlier today, folder skeleton + README.md only) — nothing currently
+Checked `00-BRAIN\CASTLE\raw\` as of this session: empty of content (both docs packs already relocated
+to `AI_AUTOMATION_SYSTEMS\raw\` earlier today, folder skeleton + README.md only) — nothing currently
 retirement-eligible.
 
 ### Files changed

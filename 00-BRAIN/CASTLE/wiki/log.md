@@ -478,7 +478,7 @@ tags: [reference]
 - Fixed two P2 findings: removed three stale "41 pages" exact-count claims from SYSTEMS
   `CLAUDE.md` (live count is 78; replaced with durable non-exact wording); corrected CASTLE
   `HOW_TO_USE.md` Last Updated metadata from July 6 to July 12 (operating-contract normalization).
-- Files changed: `03-WIKIS\AI_AUTOMATION_SYSTEMS\HOW_TO_USE.md`, `05-BUSINESS-Capability
+- Files changed: `03-WIKIS\AI_AUTOMATION_SYSTEMS\HOW_TO_USE.md`, `05-BUSINESS\06-Capability
   Library\README.md`, `ROOT_OPERATING_MANUAL.md`, `03-WIKIS\SYSTEMS\CLAUDE.md`,
   `00-BRAIN\CASTLE\HOW_TO_USE.md`; this log; AI_AUTOMATION_SYSTEMS `wiki\log.md`; DAILY.
 - Result: shipped, pending re-run of boot validation / strict wiki lint / frontmatter audit
@@ -496,7 +496,7 @@ tags: [reference]
   1 deferred to Codex (undesigned, would be the first hook in `.ROOT`).
 - Notable: one of the seven proposals was CASTLE catching its own rule violation — `OPERATIONS.md` says
   CASTLE is not the landscape-research layer, but CASTLE did exactly that research in place this morning
-  (both docs packs ingested directly in `CASTLEawooks\`). The low-risk half of the fix (a
+  (both docs packs ingested directly in `CASTLE\raw\books\`). The low-risk half of the fix (a
   `WHERE_IT_GOES.md` raw-intake rule) is now live; the boundary-reinforcement half of `OPERATIONS.md` itself
   stays pending Chris's direct call, correctly, per CASTLE's own change-approval rule.
 - Files changed: `00-BRAIN\AGENT.md`, `00-BRAIN\CLAUDE.md`, `00-BRAIN\WHERE_IT_GOES.md`, four skill-file
