@@ -368,3 +368,9 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
 - Corrected HOW_TO to use the exact Technology Library Strategy, update, close, and
   question paths while keeping the Watchtower evidence boundary intact.
 - Cross-reference validation found no active dead link in the user guide.
+
+## 2026-07-15 — Completed-migration tense corrected
+
+- Corrected the section operating file from “FORGE is retiring” to the completed
+  July 7 retirement. No migration, inventory, routing, or research state changed.
+- Next: normal weekly landscape rep; historical FORGE provenance remains truthful.

@@ -8,15 +8,19 @@ tags: [now]
 
 ## Start Here
 
-1. Resume Physics Stage 3 vectors: solve and explain the 40 N east + 30 N north
-   problem without treating the resultant as 70 N.
+1. Physics Stage 3 vectors: the 40 N east + 30 N north addition problem is solved
+   (2026-07-15, log entry same date) — Chris explained why it isn't 70 N and got
+   R = 50 N at 36.87°, self-correcting an angle error. Next: one harder rep with
+   non-axis-aligned vectors, then a full no-notes pass over all four Stage 3
+   skills before checking the mastery checklist.
 2. If that proof is closed, finish and explain the Python Stage 2 choose-your-path
    mini-project independently.
 
-**Morning system review (July 15, Operator hat):** boot chain PASS (30 files/1096
-pages), strict wiki lint clean (0 blockers/0 review debt), frontmatter audit shows
-only pre-existing known tag debt. SYSTEM_FLAGS #75 (post-migration residual drift)
-is closed. No HIGH flags open. System verified stable.
+**System review (July 15):** root health is `PASS WITH DEBT`: boot/governance pass;
+wiki navigation has 0 blockers, 4 review findings, and 773 expected unresolved
+items; frontmatter has 620 reviewed baseline findings with 0 new debt. SYSTEM_FLAGS
+#75 was re-raised and closed after Phase 3 semantic-interface validation. No HIGH
+flag is open. Do not translate `PASS WITH DEBT` to “clean.”
 
 **Fall CASTLE calendar built (SYSTEM_FLAGS #51 closed):** North Star Calendar now
 carries Chris's corrected real Ben Care hours (Sun 7-10am/6-8pm, Mon-Fri 7-9am/5-8pm,

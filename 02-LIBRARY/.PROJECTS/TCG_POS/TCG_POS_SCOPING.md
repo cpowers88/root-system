@@ -5,15 +5,16 @@ tags: [parked, project]
 
 # TCG POS SYSTEM — Scoping Document
 #TCG #projects 
-## Status: PENDING COMMITMENT | Do Not Build Until This Is Complete
-### Last updated: May 23, 2026
+## Status: PAUSED — no qualifying commitment by the June 23 gate
+### Last reviewed: July 15, 2026
 
 ---
 
 ## THE OPPORTUNITY
 A contact has indicated they could get 100 TCG (trading card game) retail stores to sign up if the system is "done right."
 
-**This is an opportunity, not a commitment.**
+**This was an opportunity hypothesis, not a commitment. No qualifying commitment
+was recorded by the June 23 decision deadline, so it is paused.**
 
 Do not write a single line of TCG code until the scoping conversation has produced written answers to every question below.
 
@@ -84,8 +85,10 @@ The absolute minimum feature set to get first paying customers:
 - Feature list is too large for solo development
 - Price point doesn't make business sense
 
-**Decision deadline:** End of Month 1 (June 23, 2026)
-If no commitment by then, TCG POS is formally paused until further notice.
+**Decision outcome:** The June 23, 2026 deadline passed with no recorded qualifying
+commitment. TCG POS is paused. Reactivate only if a real contact supplies the named
+store access, willingness-to-pay evidence, bounded MVP, and written beta/referral
+commitment required by the GO criteria above.
 
 ---
 
@@ -116,5 +119,6 @@ Key question: why would a store choose your product over BinderPOS?
 
 ---
 
-*Part of Chris Powers Second Brain | Notion: Projects database | Drive: 01_ACTIVE_PROJECTS/TCG_POS*
-*Do not move to active build until GO decision is documented here.*
+*Historical scoping record in `.ROOT`; not an active project or external
+commitment. Do not move to active build until new evidence satisfies the GO gate
+and Chris explicitly approves reactivation.*

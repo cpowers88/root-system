@@ -36,7 +36,7 @@ fork its content.
   second, newer layer is **applied technical reference** ("how do I actually
   use it") — 68 pages inherited from FORGE's retirement covering web
   frameworks (Flask/Django), distributed systems, DevOps, AI/LLM concepts, and
-  applied data science/ML. FORGE is retiring; this wiki absorbed its
+  applied data science/ML. FORGE retired July 7; this wiki absorbed its
   non-Python applied-technique content rather than that knowledge having
   nowhere to live. (The Python/data-analysis half of FORGE's technology
   content went to `03-WIKIS\PYTHON` instead — see that wiki's `source-map.md`.)

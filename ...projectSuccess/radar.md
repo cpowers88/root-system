@@ -11,8 +11,10 @@ here. Newest first. Link to evidence; do not copy the research into this board.
 
 | Date | Signal | Evidence home / source tier | Affects | Consequence or bounded test | Status | Next review | CASTLE gate / outcome |
 |---|---|---|---|---|---|---|---|
-| 2026-07-06 | Reported Claude Fable 5 / Mythos-class availability needs primary-source verification | source URL from legacy row; verification required before promotion | AI capability and delivery-stack assumptions | Verify the product/capability claim in `AI_AUTOMATION_SYSTEMS`; compare only if real and materially different | ⏸ COOLING | next weekly sweep | Not gate-ready; legacy row retained without treating its claim as fact |
-| 2026-07-06 | Watchtower established | `WATCHTOWER.md` (internal system event; seed row) | external-signal operating loop | Confirm the two-file loop works during the first weekly sweep | ✅ GATED | first weekly sweep | Operating contract installed; not a market signal |
+
+*(No qualifying live signals. The July 6 product rumor has no verified evidence
+home and is not promoted; research belongs in AI_AUTOMATION_SYSTEMS if it resumes.
+The internal Watchtower seed event remains system history, not an external signal.)*
 
 ## Parked Gate Verdicts
 
