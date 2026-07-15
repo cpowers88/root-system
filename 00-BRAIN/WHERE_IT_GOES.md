@@ -97,8 +97,9 @@ One copy, zero drift.
   hand-edit graph.json). Subfolders: `HATS\` (optional modes — short, active
   prompts), `CASTLE\` (command-center wiki; owns `.ROOT\NOW.md`),
   `Session_Logs\` (current handoffs + DAILYs + reports; `Report Archive\`
-  inside), `scripts\` (build_graph_colors.py, wiki_lint.py,
-  frontmatter_audit.py, validate_boot_chain.py, sync_shared_skills.py), plus
+  inside), `scripts\` (build_graph_colors.py, frontmatter_audit.py,
+  metadata_migration_plan.py, root_health.py, sync_shared_skills.py,
+  validate_boot_chain.py, wiki_lint.py), plus
   `SKILLS\` as the canonical source for shared native skills. `.md` only except
   approved scripts. NOT here: course
   notes, project files, personal writing.

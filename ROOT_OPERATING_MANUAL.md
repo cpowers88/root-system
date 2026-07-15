@@ -32,6 +32,44 @@ ORIENT -> ROUTE -> WORK -> PROVE/PACKAGE -> CLOSE
 4. **Prove/package:** record learning or use evidence; a Capability Library asset may be packaged at `draft` maturity, but proof is required before it advances past `draft`.
 5. **Close:** record movement and the next exact action; update status only when reality changed.
 
+### Shared Skill Quick Reference
+
+Ask naturally or name the skill. Canonical definitions live in
+`00-BRAIN\SKILLS\`; `.agents\skills\` and `.claude\skills\` are generated
+discovery mirrors and are never edited by hand.
+
+| When you want to... | Shared skill | What it returns |
+|---|---|---|
+| close, wrap up, switch AI, or leave | `session-close` | DAILY/log updates, cockpit check, handoff decision, and next action |
+| check `.ROOT` health or validate a system checkpoint | `root-health` | one honest health result with blockers and reviewed debt separated |
+| decide whether to learn, build, buy, test, or pursue an idea | `profit-gate` | PASS, HOLD, or REJECT through CASTLE's live decision rule |
+| prepare an independent ATLAS/ChatGPT challenge | `atlas-brief` | one paste-ready context brief from live `.ROOT` state |
+| change an Obsidian graph color or add a color group | `graph-colors` | updated generated graph configuration from `COLOR_MAP.yaml` |
+
+### Safe Diagnostic Commands
+
+Run these from `.ROOT`. They are read-only in the forms shown:
+
+| Check | Command |
+|---|---|
+| Complete reviewed health gate | `python 00-BRAIN\scripts\root_health.py` |
+| Boot and governance paths | `python 00-BRAIN\scripts\validate_boot_chain.py` |
+| Wiki blockers and review debt | `python 00-BRAIN\scripts\wiki_lint.py --strict --fail-on-review` |
+| Frontmatter against the reviewed baseline | `python 00-BRAIN\scripts\frontmatter_audit.py --baseline 00-BRAIN\scripts\frontmatter_baseline.json` |
+| Shared-skill mirror equality | `python 00-BRAIN\scripts\sync_shared_skills.py --check` |
+| Metadata-plan determinism and zero target writes | `python 00-BRAIN\scripts\metadata_migration_plan.py --self-test` |
+
+These maintenance forms write generated artifacts:
+
+| Maintenance action | Command | What it writes | Use only when... |
+|---|---|---|---|
+| rebuild graph colors | `python 00-BRAIN\scripts\build_graph_colors.py` | `.obsidian\graph.json` | `COLOR_MAP.yaml` has an approved edit |
+| synchronize shared skills | `python 00-BRAIN\scripts\sync_shared_skills.py --sync` | `.agents\skills\` and `.claude\skills\` mirrors | a canonical skill changed and was validated |
+| save a metadata dry-run report | `python 00-BRAIN\scripts\metadata_migration_plan.py --output ...` | one approved report under `00-BRAIN\Session_Logs` | a named review task requires the artifact |
+
+A frontmatter baseline refresh is a separate reviewed decision, not a routine
+command.
+
 ---
 
 ## 3. Question Router
