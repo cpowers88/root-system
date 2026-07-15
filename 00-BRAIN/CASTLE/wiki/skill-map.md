@@ -1,6 +1,8 @@
 ---
 type: map
-tags: [skills, roadmap, reference]
+timeline: reference
+reference_priority: core
+tags: [skills, roadmap]
 ---
 
 # Skill Map — Eight Categories, One Sequence

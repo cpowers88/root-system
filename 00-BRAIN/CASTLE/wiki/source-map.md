@@ -1,6 +1,8 @@
 ---
 type: map
-tags: [sources, reference]
+timeline: reference
+reference_priority: core
+tags: [sources]
 ---
 
 # Source Map — What Proves What

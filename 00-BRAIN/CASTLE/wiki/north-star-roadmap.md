@@ -1,6 +1,8 @@
 ---
 type: map
-tags: [north-star, roadmap, reference]
+timeline: reference
+reference_priority: core
+tags: [north-star, roadmap]
 ---
 
 # North Star Roadmap — The Master Pathway

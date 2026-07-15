@@ -1,7 +1,9 @@
 ---
 type: decision-rule
+timeline: reference
+reference_priority: supporting
 status: active
-tags: [decision-rule, scope-control, reference]
+tags: [decision-rule, scope-control]
 ---
 
 # Decision Rule: Adding a Profit Skill

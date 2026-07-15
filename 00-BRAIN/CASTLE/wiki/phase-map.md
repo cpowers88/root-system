@@ -1,6 +1,8 @@
 ---
 type: map
-tags: [phases, roadmap, reference]
+timeline: reference
+reference_priority: core
+tags: [phases, roadmap]
 ---
 
 # Phase Map — Now to October 8, 2031
