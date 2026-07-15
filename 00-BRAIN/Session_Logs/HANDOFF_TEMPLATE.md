@@ -1,9 +1,11 @@
 ---
 type: template
-tags: [reference]
+timeline: reference
+tags: []
 ---
 
 # HANDOFF — [DATE] — [CLAUDE / CODEX / CLAUDE CODE / ATLAS]
+## Copy rule: change `type` to `handoff` and `timeline` to `log`; add topic tags only if useful.
 ## Location: 00-BRAIN/Session_Logs/
 ## Rule (updated July 9, 2026 — Chris's call): the handoff is the day's LAST act.
 ## After the Day Summary lands in the DAILY file, each AI/hat used that day writes

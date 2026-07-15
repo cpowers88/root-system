@@ -1,9 +1,11 @@
 ---
 type: template
-tags: [reference]
+timeline: reference
+tags: []
 ---
 
 # WEEKLY REVIEW — [START DATE] to [END DATE]
+### Copy rule: use `type: review`; set `timeline: now` while open and `timeline: log` when closed.
 ### Every Sunday · target under 90 minutes · use live NORTH_STAR.md rather than copying its doctrine here
 
 ## Week at a Glance

@@ -81,9 +81,10 @@ not mastered ahead.
 Trigger: Chris clears a stage in the PYTHON or PHYSICS wiki (or a
 course milestone in EDUCATION).
 1. Update that wiki's `current-position.md`
-2. Move the stage/timeline tags forward (Tag Standard —
-   WHERE_IT_GOES.md): the `#now` filter must show the new frontier.
-   Tags move; graph colors never do.
+2. Update `stage` to the cleared/static position and `timeline` to the new
+   action frontier (Metadata Standard — WHERE_IT_GOES.md). The
+   `[timeline:now]` filter must show what Chris should touch now. These
+   properties move independently; topic tags and graph colors do not.
 3. Append the wiki's `log.md`; note the advance in the learning
    handoff — castle current-position picks it up at the next monthly
-Rule: the tag filter is the study plan — a stale frontier misleads Chris.
+Rule: the timeline filter is the study plan — a stale frontier misleads Chris.

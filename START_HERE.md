@@ -76,29 +76,31 @@ Exact hex values are machine-canon in `00-BRAIN\COLOR_MAP.yaml` (edit that
 file, then run `00-BRAIN\scripts\build_graph_colors.py` — never hand-edit
 `graph.json`). Palette approved by Chris July 8, 2026.
 
-### 🎯 Finding "what's next" — tag filters, not a second graph
+### 🎯 Finding "what's next" — property filters, not a second graph
 
 Sequential ("what do I touch next") navigation now happens by filtering the
-single graph's search box by tag, instead of opening a separate colored
+single graph's search box by property, instead of opening a separate colored
 graph per wiki:
 
-| Filter | Tags | Means |
+| Filter | Property | Means |
 |---|---|---|
-| `tag:#now` | `priority/now` · current stages · `phase-1` | **Do / learn / use this now** |
-| `tag:#next` | `priority/next` · next stages · `phase-2` | **Next up** — on deck |
-| `tag:#later` | `priority/later` · later stages · `phase-3` | **Later** — waiting its turn |
-| `tag:#parked` | parked-advanced · `phase-4` | **Parked** — deliberately not now |
-| — | `phase-5` | **Horizon** — years out |
-| `tag:#reference` | `phase-all` · glossaries, templates | **Always-on reference** |
+| `[timeline:now]` | `timeline: now` | **Do / learn / use this now** |
+| `[timeline:next]` | `timeline: next` | **Next up** — on deck |
+| `[timeline:later]` | `timeline: later` | **Later** — waiting its turn |
+| `[timeline:parked]` | `timeline: parked` | **Parked** — deliberately inactive |
+| `[timeline:reference]` | `timeline: reference` | **Use when needed** |
+| `[timeline:log]` | `timeline: log` | **History** — not an action queue |
 
 Combine with a path filter to stay inside one wiki, e.g.
-`path:"03-WIKIS/PYTHON" tag:#now`. Clear a stage → the AI moves the timeline
-tag forward → your live edge moves with you, same idea as before, just
-filtered instead of separately colored.
+`path:"03-WIKIS/PYTHON" [timeline:now]`. Static position is separate:
+`[stage:2]` or `[stage:phase-1]`. Artifact condition uses `[status:active]`;
+reference usefulness uses `[reference_priority:core]`. Topic discovery still
+uses tags, such as `tag:#business`.
 
-**Under the hood:** every file carries `type:` + one timeline tag + topic
-tags (the full standard lives in `00-BRAIN\WHERE_IT_GOES.md → Tag
-Standard`). Filter any view by tag: `tag:#now`, `tag:#business`, `tag:#school`.
+**Under the hood:** every new or updated file carries `type:` + one `timeline:`
+property + topic tags. Optional `stage:`, `status:`, and `reference_priority:`
+properties answer different questions. The full transition standard lives in
+`00-BRAIN\WHERE_IT_GOES.md → Metadata Standard`.
 
 ---
 
@@ -113,7 +115,7 @@ Sources     → feed books/docs directly to the relevant 03-WIKIS hub — each r
 Business    → refined knowledge → BUSINESS templates → reusable/sanitized 05-BUSINESS assets
 Horizon     → evidence home → qualifying Watchtower signal → castle gate → bounded test
 Sunday      → weekly review + Engine Question (01-NORTH_STAR\Weekly Reviews)
-Monthly     → weak-link check + every wiki's timeline tags move forward
+Monthly     → weak-link check + each wiki's timeline/stage properties are reviewed
 Quarterly   → THE RATCHET — outcomes review the vehicle; earned floors get raised
 ```
 

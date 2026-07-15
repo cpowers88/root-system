@@ -169,7 +169,7 @@ lives in the normal Second Brain location:
 
 ---
 
-## Tag Standard — One Copy, Defined Here
+## Metadata Standard — One Copy, Defined Here
 
 Every `.md` in `.ROOT` carries frontmatter:
 
@@ -178,14 +178,26 @@ Every `.md` in `.ROOT` carries frontmatter:
 type: <what it is>      # os · hat · map · star · ops · guide · pointer · flags · template ·
                         # log · report · plan · tracker · project · note · reference · raw ·
                         # dashboard · board · strategy · worksheet (+ wiki-specific types)
-tags: [<timeline>, <topics...>]
+timeline: <current action>      # now · next · later · parked · reference · log
+stage: <static position>        # optional: 2 · phase-1 · foundation
+status: <artifact condition>    # optional: active · ready · draft · paused · complete
+reference_priority: <utility>   # optional: core · supporting · lookup
+tags: [<topics...>]
 ---
 ```
 
-**Timeline tag — exactly one per file** (the sequential axis):
-`now` · `next` · `later` · `parked` · `reference` — wikis may use their
-native equivalents (`priority/now`, `stage-NN`, `phase-N`), same ramp.
-Files that only record history use `log` instead of a timeline tag.
+**Timeline — exactly one property per file** (the action axis): `now` means
+touch it now; `next` means on deck; `later` means intentionally deferred;
+`parked` means inactive pending a decision or trigger; `reference` means use
+when needed; `log` means historical record. Timeline answers only **when to
+act**. A curriculum stage, roadmap phase, artifact status, or reference
+priority cannot substitute for it.
+
+**Independent optional properties:** `stage` records a stable curriculum or
+roadmap position; `status` records the artifact's condition or workflow state;
+`reference_priority` records usefulness as `core`, `supporting`, or `lookup`.
+Values for `stage` and `status` may follow a realm's documented vocabulary, but
+must be explicit non-empty scalars. Do not infer them from a filename.
 
 **Topic tags — zero or more** (the categorical axis): `governance`,
 `north-star`, `watchtower`, `school`, `business`, `programming`,
@@ -193,17 +205,25 @@ Files that only record history use `log` instead of a timeline tag.
 `client`, `meta-learning`, `raw`, `cs50p`, `econ` — extend sparingly;
 a topic tag must group 3+ files or it's noise.
 
+**Transition rule:** legacy control tags (`now`, `priority/now`, `stage-NN`,
+`phase-N`, and similar) remain audit-compatible until Phase 5 migrates their
+realm. New or edited frontmatter uses properties. Once `timeline:` is present,
+no legacy control tag may remain in `tags`; dual encoding is an error.
+
 **Graph view (one vault):** one `.obsidian/graph.json` at `.ROOT` root.
 Categorical (the MAP): one color per section + one per `03-WIKIS` hub;
 archives, Report Archive, and 77-INBOX filtered out. Sequential ("what's
-next"): filter the graph's search by timeline tag (`#now` → `#next` →
-`#later` → `#parked` → `#reference`), optionally with
-`path:"03-WIKIS/[hub]"`. Human-facing color table: `START_HERE.md`.
+next"): search by property (`[timeline:now]` → `[timeline:next]` →
+`[timeline:later]` → `[timeline:parked]` → `[timeline:reference]`), optionally
+with `path:"03-WIKIS/[hub]"`. Query static position with `[stage:2]`, artifact
+condition with `[status:active]`, reference usefulness with
+`[reference_priority:core]`, and topics with `tag:#business`. Human-facing
+color table: `START_HERE.md`.
 Maintenance: Graph Color Maintenance skill in `AGENT.md`.
 
-Rules: new file → frontmatter required at creation. Timeline tags move
-(now→reference etc.) at reviews or stage advances. Never invent a second
-tagging scheme — extend this one.
+Rules: new file → frontmatter required at creation. Timeline changes only when
+the action horizon changes; stage/status/reference priority change on their own
+evidence. Never invent a second metadata scheme — extend this one.
 
 ---
 
@@ -220,4 +240,4 @@ tagging scheme — extend this one.
 - `.txt` — quick captures in 88-JOURNAL only; convert to `.md` when permanent
 
 ---
-*Last updated: July 14, 2026 (intake/client reconciliation) | Location: 00-BRAIN\WHERE_IT_GOES.md*
+*Last updated: July 15, 2026 (metadata model pilot) | Location: 00-BRAIN\WHERE_IT_GOES.md*

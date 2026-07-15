@@ -1,6 +1,8 @@
 ---
 type: project
-tags: [parked, project]
+timeline: parked
+status: paused
+tags: [project]
 ---
 
 # ListingOS / Listing Packet — Parked Local-Repository Pointer

@@ -1,6 +1,8 @@
 ---
 type: project
-tags: [now, project]
+timeline: now
+status: ready
+tags: [project]
 ---
 
 # KSU Academic Tracker — Project Brief

@@ -1,6 +1,8 @@
 ---
 type: flags
-tags: [now, governance]
+timeline: now
+status: active
+tags: [governance]
 ---
 
 # SYSTEM_FLAGS.md — Open Improvement Flags

@@ -1,6 +1,7 @@
 ---
 type: strategy
-tags: [now, north-star, business]
+timeline: now
+tags: [north-star, business]
 status: active-hypothesis
 ---
 
@@ -155,4 +156,3 @@ Continue normal school and technical preparation while completing the next real
 workflow-observation proof and the explicitly approved Revenue Lab tests. Do not
 open a new business lane without evidence, displacement, a bounded test, and CASTLE
 review.
-

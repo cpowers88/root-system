@@ -1,9 +1,11 @@
 ---
 type: template
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # DAILY — YYYY-MM-DD
+### Copy rule: change `type` to `log` and `timeline` to `log`; retain topic tags only.
 ### One file per day: `DAILY_YYYY-MM-DD.md` → `00-BRAIN\Session_Logs\`
 ### Every session appends. Never rewrite earlier blocks — append only, like the castle log.
 ### Why it exists: task-level truth feeds the Day Summary → weekly review → evolution loop. A day with work but no DAILY file is a broken report chain.

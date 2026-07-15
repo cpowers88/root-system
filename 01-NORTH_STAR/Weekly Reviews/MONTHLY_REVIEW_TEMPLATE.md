@@ -1,10 +1,12 @@
 ---
 type: template
-tags: [reference, review]
+timeline: reference
+tags: [review]
 created: 2026-07-14
 ---
 
 # MONTHLY REVIEW — [MONTH YEAR]
+### Copy rule: use `type: review`; set `timeline: now` while open and `timeline: log` when closed.
 
 ## Outcome Metrics
 

@@ -1,6 +1,8 @@
 ---
 type: dashboard
-tags: [now]
+timeline: now
+status: active
+tags: []
 ---
 
 # NOW — Wednesday, July 15, 2026

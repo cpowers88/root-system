@@ -1,6 +1,8 @@
 ---
 type: map
-tags: [baseline, now]
+timeline: now
+status: active
+tags: [baseline]
 ---
 
 # Current Position — July 2026

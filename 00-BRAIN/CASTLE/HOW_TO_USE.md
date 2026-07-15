@@ -41,7 +41,7 @@ Good castle questions (ask any AI session, or just read the pages):
 Questions routed elsewhere: "teach me SQL" (→ 03-WIKIS\PYTHON with any AI in Educator mode), "what should I charge" (→ 03-WIKIS\BUSINESS), "where does this file go" (→ WHERE_IT_GOES.md). Routing names the knowledge home, not the only capable model.
 
 ## How To Retrieve Knowledge
-Graph view: the castle is the 🟤 light-brown block on the `.ROOT` MAP (colors: START_HERE.md). For "what's next," filter by tag — `path:"00-BRAIN/CASTLE" tag:#now`, then `#next` — the timeline ramp lives in tags, not colors. Or start at `wiki/index.md` — every page is listed.
+Graph view: the castle is the 🟤 light-brown block on the `.ROOT` MAP (colors: START_HERE.md). For "what's next," filter by property — `path:"00-BRAIN/CASTLE" [timeline:now]`, then `[timeline:next]`. Static stage and artifact status are separate properties; graph colors never carry the action ramp. Or start at `wiki/index.md` — every page is listed.
 
 ## How To Turn Notes Into Action
 Every phase page ends with a **next action** and **exit criteria**. The rule: read the phase page → do the next action in the realm where it lives → log the rep. If a castle page doesn't tell you what to do next, that page is broken — flag it.
@@ -71,7 +71,7 @@ AI sessions have FULL OPERATOR autonomy here (per `OPERATIONS.md`): maps, status
 ## Examples
 - *Morning*: open `NOW.md`, take the start action, and use the soft boundary to reassess rather than forcing a hard stop.
 - *Idea strikes*: "Should I learn n8n?" → gate page → verdict logged → back to work.
-- *Month end*: AI updates current-position + moves timeline tags forward in the school wikis (tag-filtered, one shared graph — see WHERE_IT_GOES.md Tag Standard).
+- *Month end*: AI updates current-position, then reviews `timeline`, `stage`, and `status` independently in the school wikis (property-filtered, one shared graph — see WHERE_IT_GOES.md Metadata Standard).
 
 ## Last Updated
-July 14, 2026 — North Star loading and live return paths reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.
+July 15, 2026 — metadata property queries reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.

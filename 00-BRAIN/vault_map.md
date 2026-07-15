@@ -50,7 +50,7 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── CHRIS_CORE.md      ← the person file (default load, second)
 │   ├── CHRIS.md           ← full profile (monthly review / calibration only)
 │   ├── vault_map.md       ← this file
-│   ├── WHERE_IT_GOES.md   ← file placement + naming authority (+ Tag Standard)
+│   ├── WHERE_IT_GOES.md   ← file placement + naming authority (+ Metadata Standard)
 │   ├── SYSTEM_FLAGS.md    ← open improvement flags — check at session start
 │   ├── COLOR_MAP.yaml     ← machine-canon graph colors (edit it, run scripts\build_graph_colors.py)
 │   ├── LOCAL_MACHINE_MAP.md ← C:/D: inventory (reference snapshot)
