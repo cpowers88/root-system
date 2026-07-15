@@ -26,7 +26,7 @@ live fix for the #1 skill gap (SQL) and the walking-into-CSE-1321-loaded advanta
 ## Skills NOT Needed Yet
 - Flask, APIs, automation platforms — Phase 3+ picks them up
 - Sales/outreach skills — Phase 4
-- Anything on the "parked" lists in NORTH_STAR.md
+- Any parked skill or idea that has not passed the active CASTLE gate
 
 ## Best Sources
 | Source | Tier | Location | What it proves |

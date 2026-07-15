@@ -4,8 +4,8 @@ tags: [skills, roadmap, reference]
 ---
 
 # Skill Map — Eight Categories, One Sequence
-### Reconciles NORTH_STAR.md Track 2, SKILL_GAP_ANALYSIS.md, and 03-WIKIS\BUSINESS's
-### four-layer skill roadmap. Where they differ, NORTH_STAR.md wins.
+### Reconciles NORTH_STAR.md's permanent capability base, CURRENT_STRATEGY.md's active
+### vehicle, SKILL_GAP_ANALYSIS.md, and domain evidence. NORTH_STAR wins conflicts.
 
 ## How to Read This
 
@@ -66,7 +66,7 @@ This does not replace the status table above — it's the output format when Chr
 | Skill | Status | Phase | Proof |
 |---|---|---|---|
 | Python | building (CS50P PS2) | 0–1 | [[ksu-academic-tracker]] shipped; CSE 1321 strong |
-| SQL/SQLite — **#1 gap** | building (tracker) | 0–1 | Tracker queries + POL reports |
+| SQL/SQLite — **#1 gap** | building (tracker) | 0–1 | Tracker queries on verified real course data; later approved data proof |
 | Git/GitHub discipline | building | 1 | Every build in a repo with real history |
 | REST APIs | not-started | 3 | Pull real data from one external system |
 | Flask | not-started | 3/7 | One simple client-facing tool |
@@ -94,7 +94,7 @@ This does not replace the status table above — it's the output format when Chr
 | Skill | Status | Phase | Proof |
 |---|---|---|---|
 | Technical writing / one-page findings | building (TCOM Fall 2026) | 1–2 | Findings format iterated from feedback |
-| Report generation (Python/Markdown/PDF) | not-started | 3 | POL weekly reports; audit report pipeline |
+| Report generation (Python/Markdown/PDF) | not-started | 3 | A current approved reporting vehicle; audit report pipeline |
 | Training clients / documentation | later | 6–7 | First retainer onboarding |
 
 ## 7. Commercial

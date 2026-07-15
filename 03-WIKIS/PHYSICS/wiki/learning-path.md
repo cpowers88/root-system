@@ -11,14 +11,18 @@ This is the master study route for PHYS 2211 — Principles of Physics I. It tel
 
 ## Path Status
 
-Active. Stage 1 packet generated. Stage 1 is the current unit — see [[current-position]].
+All 18 stage packets are generated, but generated content is not studied content.
+Chris's active unit is **Stage 3 — Vectors**; the live learner truth, current
+evidence, and next exact action remain in [[current-position]]. Stages 1–2 are
+provisionally cleared from the July build-ahead and must be confirmed against their
+mastery checklists if they have gone undrilled for a while.
 
 ## Stage Sequence
 
 ```text
-Stage 1  -> Ch 1  Physics and Measurement              [PACKET GENERATED]
+Stage 1  -> Ch 1  Physics and Measurement              [PROVISIONALLY CLEARED]
 Stage 2  -> Ch 2  Motion in One Dimension
-Stage 3  -> Ch 3  Vectors
+Stage 3  -> Ch 3  Vectors                              [ACTIVE]
 Stage 4  -> Ch 4  Motion in Two Dimensions (Projectile Motion)
 Stage 5  -> Ch 5  The Laws of Motion (Newton's Laws, Free Body Diagrams)
 Stage 6  -> Ch 6  Circular Motion and Other Applications of Newton's Laws
@@ -42,7 +46,10 @@ Ch 10–12 and Ch 14 confirmed in scope by Chris (2026-06-25). All stages now ac
 
 Each stage packet includes: goal, syllabus alignment, textbook alignment, prerequisite physics, prerequisite math, core concepts, vocabulary, equations, variables and units, diagrams, calculus connections, problem types, worked examples, drills, common errors, mastery checklist, do-not-move-on-until criteria, and parked material.
 
-Packets are generated **one stage at a time**, not in advance, per [[../CLAUDE.md]] — "do not overbuild."
+The packets were generated ahead during the July cruise-prep build. That is a
+content-readiness fact, not evidence of mastery. Study and verification still move
+one stage at a time; check the next stage against source when Chris is one stage away
+from it, per [[current-position]].
 
 ---
 
@@ -80,7 +87,7 @@ Packets are generated **one stage at a time**, not in advance, per [[../CLAUDE.m
 
 **Problem types introduced:** Constant-velocity problems; constant-acceleration problems; free-fall problems; graphical motion analysis (x-t, v-t, a-t graphs).
 
-**Not generated yet** — will be built when Chris reaches this stage.
+**Packet status:** Generated; provisionally cleared, subject to a mastery re-check.
 
 ---
 
@@ -94,7 +101,8 @@ Packets are generated **one stage at a time**, not in advance, per [[../CLAUDE.m
 
 **Core concepts:** Vector vs. scalar, coordinate systems, vector addition/subtraction, components, unit vectors, dot product (preview).
 
-Not generated yet.
+**Packet status:** Generated and active. Resume vector addition by components, then
+complete a no-notes pass and the Stage 3 mastery checklist before Stage 4.
 
 ---
 
@@ -108,7 +116,7 @@ Not generated yet.
 
 **Core concepts:** Position/velocity/acceleration vectors, projectile motion, uniform circular motion, tangential/radial acceleration, relative velocity.
 
-Not generated yet.
+**Packet status:** Generated and source-verified; not yet studied.
 
 ---
 
@@ -122,7 +130,7 @@ Not generated yet.
 
 **Core concepts:** Force, inertia, mass vs. weight, Newton's 1st/2nd/3rd laws, free body diagrams, friction.
 
-Not generated yet.
+**Packet status:** Generated and source-verified; not yet studied.
 
 ---
 
@@ -133,7 +141,7 @@ Not generated yet.
 **Prerequisite physics:** Stage 5.
 **Core concepts:** Uniform circular motion forces, nonuniform circular motion, accelerated reference frames, resistive forces.
 
-Not generated yet.
+**Packet status:** Generated; not yet studied or re-verified in the current pass.
 
 ---
 
@@ -146,7 +154,7 @@ Not generated yet.
 
 **Core concepts:** Work by constant/varying force, kinetic energy, work-energy theorem, potential energy, conservative vs. nonconservative forces.
 
-Not generated yet.
+**Packet status:** Generated; not yet studied or re-verified in the current pass.
 
 ---
 
@@ -157,7 +165,7 @@ Not generated yet.
 **Prerequisite physics:** Stage 7.
 **Core concepts:** Isolated/nonisolated system models, mechanical energy conservation, energy loss to friction, power.
 
-Not generated yet.
+**Packet status:** Generated; not yet studied or re-verified in the current pass.
 
 ---
 
@@ -168,7 +176,7 @@ Not generated yet.
 **Prerequisite physics:** Stages 5, 7–8.
 **Core concepts:** Linear momentum, impulse, isolated-system momentum conservation, 1D and 2D collisions, center of mass.
 
-Not generated yet.
+**Packet status:** Generated; not yet studied or re-verified in the current pass.
 
 ---
 
@@ -185,7 +193,7 @@ Not generated yet.
 
 **Problem types introduced:** Angular kinematics problems; torque and Newton's 2nd law for rotation; rotational energy problems; rolling-without-slipping problems.
 
-Not generated yet.
+**Packet status:** Generated; not yet studied or re-verified in the current pass.
 
 ---
 
@@ -200,7 +208,7 @@ Not generated yet.
 
 **Problem types introduced:** Angular momentum conservation problems (spinning objects changing shape); gyroscope/precession problems.
 
-Not generated yet.
+**Packet status:** Generated; not yet studied or re-verified in the current pass.
 
 ---
 
@@ -213,7 +221,7 @@ Not generated yet.
 
 **Problem types introduced:** Equilibrium problems (ladders, beams, trusses); stress-strain material problems.
 
-Not generated yet.
+**Packet status:** Generated; not yet studied or re-verified in the current pass.
 
 ---
 
@@ -227,7 +235,7 @@ Not generated yet.
 
 **Core concepts:** Newton's law of universal gravitation, gravitational field, Kepler's laws, gravitational potential energy, orbital energetics.
 
-Not generated yet.
+**Packet status:** Generated; not yet studied or re-verified in the current pass.
 
 ---
 
@@ -242,7 +250,7 @@ Not generated yet.
 
 **Problem types introduced:** Pressure/depth problems; buoyancy problems; pipe-flow problems using continuity and Bernoulli.
 
-Not generated yet.
+**Packet status:** Generated; not yet studied or re-verified in the current pass.
 
 ---
 
@@ -256,7 +264,7 @@ Not generated yet.
 
 **Core concepts:** SHM model, spring-mass system, energy of the oscillator, SHM vs. uniform circular motion, pendulums, damped/forced oscillations.
 
-Not generated yet.
+**Packet status:** Generated; not yet studied or re-verified in the current pass.
 
 ---
 
@@ -268,7 +276,7 @@ Not generated yet.
 **Prerequisite physics:** Stage 15 (oscillation as the source of a wave).
 **Core concepts:** Wave model, wave speed on a string, energy transfer, the linear wave equation, sound waves, Doppler effect.
 
-Not generated yet.
+**Packet status:** Generated; not yet studied or re-verified in the current pass.
 
 ---
 
@@ -279,7 +287,7 @@ Not generated yet.
 **Prerequisite physics:** Stage 16.
 **Core concepts:** Superposition, standing waves, boundary conditions, resonance, standing waves in air columns, beats.
 
-Not generated yet.
+**Packet status:** Generated; not yet studied or re-verified in the current pass.
 
 ---
 
@@ -291,4 +299,4 @@ Not generated yet.
 **Prerequisite physics:** All of Stages 1–13 (this chapter directly challenges Newtonian assumptions built in those stages).
 **Core concepts:** Galilean relativity, Michelson-Morley experiment, Einstein's postulates, time dilation, length contraction, simultaneity, Lorentz transformations, relativistic momentum and energy.
 
-Not generated yet.
+**Packet status:** Generated; not yet studied or re-verified in the current pass.

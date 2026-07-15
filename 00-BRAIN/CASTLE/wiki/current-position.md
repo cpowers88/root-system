@@ -4,7 +4,7 @@ tags: [baseline, now]
 ---
 
 # Current Position — July 2026
-### Sources: NORTH_STAR.md, SKILL_GAP_ANALYSIS.md (July 5 review), KSU_Academic_Tracker_Brief.md
+### Sources: NORTH_STAR.md, CURRENT_STRATEGY.md, live domain current-position pages, SKILL_GAP_ANALYSIS.md, KSU_Academic_Tracker_Brief.md
 ### Review cadence: monthly, first session after the 1st
 
 ## Where Chris Is
@@ -23,7 +23,8 @@ tags: [baseline, now]
   `03-WIKIS\PYTHON` wiki's staged path at **Stage 2 of 10 — Decisions and Boolean
   Logic**. Stage 1 was satisfied July 13 through independent code plus explain-back
   and traceback reasoning; all 11 stage packets are generated, but generated ≠
-  studied. Current work is the Stage 2 mini-project.
+  studied. Current work is the Stage 2 choose-your-path mini-project; the generated
+  spec exists, but no completed independent artifact is recorded yet.
 - **Physics:** `03-WIKIS\PHYSICS` wiki's own `current-position.md` records the active
   unit as **Stage 3 of 18 — Vectors** (Serway Ch 3), packet complete. Stages 1–2 are
   assumed cleared from the July stage-packet build-ahead — confirm their mastery
@@ -69,7 +70,9 @@ tags: [baseline, now]
 - Two entry wedges: Heather's warm local real-estate network for immediate access, plus construction domain knowledge and cultural credibility for parallel access
 - Aptitude profile matched to the work (idea generation, numerical, spatial, extroverted)
 - A working AI operating system (00-BRAIN) and a unified team: Chris + AI, with model capability profiles rather than file or task lanes
-- ~230 pages of digested methodology across `03-WIKIS\BUSINESS` and `03-WIKIS\SYSTEMS` — lean, consulting, factory physics (inherited from FORGE's July 7, 2026 retirement)
+- Substantial digested methodology across `03-WIKIS\BUSINESS` and
+  `03-WIKIS\SYSTEMS` — lean, consulting, and factory physics; each index owns its
+  live inventory
 - Family constraint discipline: systems must reduce friction, or they get deleted
 
 ## The Monthly Weak-Link Question

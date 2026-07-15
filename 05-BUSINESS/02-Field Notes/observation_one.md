@@ -1,3 +1,8 @@
+---
+type: log
+tags: [log, business]
+---
+
 # OBSERVATION ONE
 
 July 14, 2026

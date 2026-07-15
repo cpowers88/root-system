@@ -24,6 +24,6 @@ Use these pages when Chris asks "could code do X?" — find the matching capabil
 
 ## Page Rules
 
-- Every page follows `templates/tool-capability-template.md`.
+- Every page follows `03-WIKIS\PYTHON\templates\tool-capability-template.md`.
 - Beginner version only on the page; advanced versions are named and parked to [[parking-lot]].
 - New capability pages are allowed at beginner level (per the Page Creation Rule) when a real "can code do X?" question comes up — not speculatively.

@@ -15,7 +15,7 @@
 # also separates near neighbors (colorblind consideration).
 
 version: 1
-updated: 2026-07-11
+updated: 2026-07-14
 
 groups:
   - name: "CASTLE"
@@ -56,6 +56,9 @@ groups:
   - name: "WIKI-SYSTEMS"
     path: "03-WIKIS/SYSTEMS"
     color_hex: "#A0785A"   # Tan (live leather-brown kept — distinct from Gold)
+  - name: "WIKI-REVENUE_LAB"
+    path: "03-WIKIS/REVENUE_LAB"
+    color_hex: "#16A085"   # Teal — distinct from BUSINESS green and 05-BUSINESS dark green
   - name: "00-SCHOOL"
     path: "02-LIBRARY/00-SCHOOL"
     color_hex: "#A314AD"   # Magenta-purple (former school-section color, kept after July 11 relocation)
@@ -68,6 +71,14 @@ groups:
     color_hex: "#FFFFFF"   # White (live value kept)
 
 excluded_from_graph:
+  - ".agents"
+  - ".claude"
+  - ".codex"
+  - ".git"
+  - ".obsidian"
+  - ".tmp.drivedownload"
+  - ".tmp.driveupload"
+  - ".trash"
   - "99-ARCHIVE"
   - "77-INBOX"
   - "88-JOURNAL"

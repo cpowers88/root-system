@@ -12,7 +12,8 @@ tags: [reference, governance]
 ## SKILL: Strategy Session
 Trigger: priorities, North Star alignment, business direction, weekly
 planning, project sequencing, school/tech/business balance.
-1. Load NORTH_STAR.md context + current school reality
+1. Load NORTH_STAR.md + current school reality; add CURRENT_STRATEGY.md only for a
+   business/market/offer/revenue decision
 2. Reconcile fixed commitments, the semester technology/business floor, urgent revenue evidence, and the highest-value remaining action
 3. Give the critical path
 4. Produce ONE decision or ONE next action
@@ -71,21 +72,24 @@ Rule: file safety can block work. Scope commentary cannot.
 ## SKILL: Watchtower Sweep
 Trigger: weekly review, or Chris says "sweep the tower."
 1. Open `...projectSuccess\radar.md`
-2. Prune dead signals (⏸ 60+ days → 🗑), verify tiers on new entries
+2. Reject rows missing a new external change, material consequence, evidence home,
+   or review trigger; prune dead signals and verify tiers
 3. Promote at most ONE hot signal → run it through the castle gate
    (`00-BRAIN\CASTLE\wiki\decision-rules\adding-a-profit-skill.md`)
-4. Log the verdict on the radar (✅ GATED with reason)
+4. Log the verdict and bounded test; after execution, return the measured outcome
+   and affected CURRENT_STRATEGY assumption/milestone
 Rule: eyes, not hands — the tower never changes the roadmap directly. During
 the high-load school window, warn once before optional expansion, then follow
 Chris's direction.
 
 ## SKILL: Ratchet Review
 Trigger: quarterly review or Chris explicitly requests a target review.
-1. Load NORTH_STAR.md → The Ratchet + Revenue Milestones
-2. For each floor: hit early? capability jump (AI included)? gated
-   watchtower signal that survived?
-3. Propose raised targets with reasons — Chris approves every turn
-4. Record the turn (or deliberate hold) with reasons and a check date
+1. Load NORTH_STAR.md → The Ratchet, plus CURRENT_STRATEGY.md assumptions/milestones
+   and only material Watchtower rows with completed tests
+2. Separate the fixed destination from the vehicle; compare measured outcomes to
+   the active assumptions and floors
+3. Propose keep/refine/replace decisions and any earned higher floor — Chris approves
+4. Record the decision, evidence, displacement, and next check date
 Rule: autonomous AI does not quietly change targets. Chris may directly
 authorize a mid-cycle change after an impact review.
 

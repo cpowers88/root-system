@@ -186,6 +186,15 @@ certainty, no vague motivational language. Chris earns the outcome through
 skill, implementation, client results, operational discipline, and
 repeatable systems.
 
+## Strategy and Watchtower Boundary
+
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` owns the active vehicle,
+assumptions, offer, wedges, and milestones. This wiki owns deeper business research
+and methods. Verified external market change reaches `...projectSuccess\radar.md`
+only when it materially affects an active assumption/choice and includes an evidence
+page plus review trigger. Our own conversations and delivery results are test
+outcomes and return through CASTLE to CURRENT_STRATEGY, not through Watchtower.
+
 ## Final Operating Principle
 
 This wiki exists to produce offers, methods, and client-ready thinking —

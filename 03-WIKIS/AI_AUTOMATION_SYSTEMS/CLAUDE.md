@@ -85,6 +85,14 @@ the status quo, and its risk/blast radius. Proposals are drafts — they become
 real only when Chris (or the castle's review cadence) approves them into the
 target file.
 
+## Watchtower Handoff
+
+External AI/agent changes stay researched here and reach
+`...projectSuccess\radar.md` only when verified and material. Internal `.ROOT`
+friction follows the proposal/SYSTEM_FLAGS path instead. Every promoted signal must
+name its evidence page, affected strategy assumption/system choice, consequence or
+bounded test, and review trigger.
+
 ## Final Operating Principle
 
 Research and propose, never unilaterally govern. This wiki's value is noticing

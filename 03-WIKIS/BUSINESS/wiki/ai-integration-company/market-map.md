@@ -19,7 +19,10 @@ The money is not in "companies that want AI." It is in **SMBs with expensive man
 Most AI freelancers chase startups and tech companies (crowded, price-sensitive, opinionated). The underserved buyer is the trades contractor, clinic group, distributor, law office, or manufacturer whose operations run on spreadsheets, email, and memory. They have real budgets, real waste, and almost no credible local suppliers of this service.
 
 ## Entry Wedges: Real Estate First, Construction Parallel
-This is a decision, not a menu. Per NORTH_STAR.md, the immediate access wedge is **real estate through Heather's warm local network** — agents, lawyers, brokers, investors, and developers already connected by trust. The parallel credibility wedge is **construction and field productivity for $2M–$15M contractors**, where Chris already understands the culture, field workflows, and normalized inefficiencies.
+This page is a research map, not strategy authority. `CURRENT_STRATEGY.md` currently
+names real estate through Heather's warm network and construction credibility as
+access wedges while leaving the market open to stronger evidence. Use this page to
+test those assumptions, not to turn a wedge into identity.
 
 These are access strategies, not identity limits. Real estate gets first attention because it solves the first-conversation problem locally. Construction remains live because the domain credibility is real and the technology-adoption gap is large. The other verticals below stay on this page as the **expansion map** once the method is proven. Don't let them dilute focus before then — one warm wedge plus one credibility wedge beats seven explored markets.
 

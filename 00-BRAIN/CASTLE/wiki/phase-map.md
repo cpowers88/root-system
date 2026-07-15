@@ -4,7 +4,7 @@ tags: [phases, roadmap, reference]
 ---
 
 # Phase Map — Now to October 8, 2031
-### Dates reconcile the castle brief with NORTH_STAR.md's business arc. NORTH_STAR wins ties.
+### Dates reconcile CASTLE with NORTH_STAR.md (destination) and CURRENT_STRATEGY.md (active vehicle/milestones). NORTH_STAR wins conflicts.
 
 Phases overlap on purpose — school runs continuously underneath everything.
 A phase is DONE when its exit criteria check, not when its window closes.
@@ -23,7 +23,7 @@ A phase is DONE when its exit criteria check, not when its window closes.
 | 9 | Leverage & Scale | 2030 – mid 2031 | $250K+; concurrent retainers + asset income; still Chris + AI (human hire only if truly irreplaceable) | *planned* |
 | 10 | North Star Operating Company | Oct 8, 2031 | $500K–$1M annual FLOOR (ratchet may have moved it); multi-industry client base | *planned* |
 
-## Revenue Milestones (from NORTH_STAR.md — the castle tracks, never invents; all FLOORS)
+## Current Strategy Milestones (from CURRENT_STRATEGY.md — CASTLE tracks, never invents)
 
 | Milestone | Target |
 |---|---|

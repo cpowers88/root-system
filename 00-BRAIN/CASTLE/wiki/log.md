@@ -728,3 +728,38 @@ gate before any permanent content/revenue workspace or publishing commitment.
   `00-BRAIN\Session_Logs\CASTLE_SYSTEM_REVIEW_2026-07-14.md`.
 - Next action: resume the paused Physics
   Stage 3 vector-addition problem. No new architecture pass is warranted.
+
+## 2026-07-14 — North Star progressive-loading migration installed
+
+- Preserved Chris's exact draft and replaced copied strategy doctrine with a compact
+  durable North Star plus `CURRENT_STRATEGY.md`, a live-wiki-driven pre-semester plan,
+  and `System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+- Connected evidence home → Watchtower → CASTLE gate/bounded test → measured outcome
+  → CURRENT_STRATEGY assumption/milestone → quarterly Ratchet.
+- Reconciled CASTLE boot, roadmap, phase/source/skill maps, decision gate, profiles,
+  human maps, and contributing wiki contracts. Closed SYSTEM_FLAGS #74.
+- Corrected Physics to Stage 3 and retained Python Stage 2's mini-project as unproven
+  until a completed independent artifact exists.
+- Next: resume the paused Physics vector-addition problem; do not open another system
+  pass unless validation exposes a real blocker.
+
+### Validation
+
+- Boot chain: PASS — 30 boot files, 1,100 live pages, no stale governance references.
+- Strict wiki lint: PASS — 9 hubs, 0 blockers, 0 review debt.
+- Shared skills: PASS — 4 canonical skills, 2 mirrors.
+- Diff hygiene and semantic routing smoke checks: PASS.
+- Frontmatter audit remains advisory; its only missing-frontmatter live file is the
+  pre-existing `05-BUSINESS\02-Field Notes\observation_one.md`, outside this migration.
+
+## 2026-07-14 — Post-migration navigation cross-reference passed
+
+- Reconciled the root vault map, START_HERE, operating manual, CASTLE user router,
+  and affected hub guides/READMEs with the new North Star/current-strategy split.
+- Added REVENUE_LAB to the canonical graph-color registry and regenerated the
+  Obsidian graph configuration; all live top-level folders are now classified or
+  explicitly excluded.
+- Strict wiki lint reports 0 blockers and 0 unresolved dead links. Retired names
+  remain in append-only logs only as historical evidence, not live instructions.
+- Next: return to Physics Stage 3; do not reopen architecture work without a real
+  navigation or operating failure.

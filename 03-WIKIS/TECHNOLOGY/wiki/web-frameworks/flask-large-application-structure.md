@@ -111,7 +111,7 @@ Basic unit tests use Python's standard `unittest` package: a `TestCase` subclass
 | North Star relevance | 4 | The scaffold that makes a Flask tool maintainable and handoff-able on a retainer rather than thrown away after a demo. |
 | Current usefulness | 4 | Ready to use as the starting template the moment a real client tool build begins. |
 | KSU support | 1 | Not connected to ISYE coursework. |
-| Tech-stack relevance | 5 | Flask is explicitly in the Top 12 stack. |
+| Tech-stack relevance | 5 | Flask is in the technology possibility map; large-app structure waits for real scale. |
 | Business audit value | 3 | Indirect — a structural/maintainability concern rather than a direct audit technique. |
 | Data/workflow value | 2 | Project structure, not a data-handling technique itself. |
 | Reading urgency | 2 | Low urgency until a multi-file Flask build is actually starting. |

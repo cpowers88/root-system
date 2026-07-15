@@ -412,3 +412,19 @@ Append-only session record.
   teaching physics.” No lesson, stage, mastery, or learner-state content changed.
 - Next action remains the paused Stage 3 vector-addition problem already recorded
   above and in the session handoff.
+
+## 2026-07-14 — Learning-path truth reconciled to live Stage 3
+
+- Replaced the stale Stage 1 path status with the live Stage 3 Vectors frontier.
+- Marked all 18 packets as generated without calling them mastered; Stages 4–5 are
+  source-verified but unstudied, and later stages await sequential re-verification.
+- Fixed two broken relative stage links in `current-position.md`.
+- Next: resume 40 N at 0° + 30 N at 90°, explain why the resultant is not 70 N,
+  then complete a no-notes Stage 3 pass.
+
+## 2026-07-14 — Human guide and prep-plan route verified
+
+- Updated HOW_TO to point to the pre-semester plan and the live learner-state
+  authority, including the exact paused Stage 3 action and provisional status of
+  generated-but-unmastered packets.
+- Cross-reference validation found no active dead link; the next action is unchanged.

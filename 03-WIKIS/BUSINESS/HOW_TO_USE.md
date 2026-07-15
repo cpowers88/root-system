@@ -10,7 +10,10 @@ tags: [reference, business]
 Turn the business plan into client-ready moves: offers, pricing, scripts, audit method, and delivery templates — without endlessly re-planning the business.
 
 ## Start Here
-**Canonical current-frontier entry: `wiki/ai-integration-company/index.md`.** `start-here.md` exists but is timeline-gated — it activates once Track 3's First Contact phase opens (~Sep 2026, per `NORTH_STAR.md`'s Business Arc); until then, `index.md` is the real entry point.
+**Canonical research/frontier entry: `wiki/ai-integration-company/index.md`.** Load
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` first when the question is
+about the active vehicle, offer, market wedge, or milestone. This wiki supplies the
+deeper method and evidence; it does not own the strategic commitment.
 
 ## Standard Work Loop
 ```text
@@ -31,12 +34,18 @@ approved case studies, and non-sensitive metadata.
 ## Boundaries
 This wiki designs the business — it does not track projects (CASTLE), store
 active client files (separate authorized client workspace outside `.ROOT`), or
-teach skills (`03-WIKIS\PYTHON`). New pathway ideas pass the castle's
-`adding-a-profit-skill` gate first. Re-reading plans is not progress; the plans
+teach skills (`03-WIKIS\PYTHON`). New pathway ideas pass
+`00-BRAIN\CASTLE\wiki\decision-rules\adding-a-profit-skill.md` first. Re-reading plans is not progress; the plans
 exist so you can stop planning.
 
 Active client-specific/private work stays in a separate client workspace or
 repository outside `.ROOT`; only sanitized reusable learning returns here.
+
+A verified market or competitor change promotes to `...projectSuccess\radar.md`
+only when the evidence stays here, it materially affects an active strategy
+assumption/offer/market choice, and a review trigger is named. Field feedback from
+our own test goes directly to the relevant strategy assumption and CASTLE proof; it
+is an outcome, not an external signal.
 
 ## How the Hub Learns From Use
 Update pages when reality disagrees with them — a real call, a real price objection, a real delivery. Keep the phase tag as the FIRST tag; if a page's timing changes, move its tag (`CLAUDE.md § Phase Tags`).
@@ -45,7 +54,10 @@ Update pages when reality disagrees with them — a real call, a real price obje
 Log the field result (call, objection, delivery outcome) against the page it corrects. Move phase tags when timing genuinely changed. Note which phase-2 pages remain unexecuted.
 
 ## Current State
-Pre-First-Contact. Track 1 (school) and Track 2 (Python/SQL, tracker) are the correct daily work; the two cheap, reversible decisions on `start-here.md` (vertical pick, entity groundwork) are worth making now, but outreach/pipeline steps hold until the gate opens (~Sep 2026).
+Pre-First-Contact. School and the live Python/Physics frontiers remain the daily
+spine. Current business work is bounded evidence: practice the observation method,
+collect real workflow evidence when access exists, and do not open outreach or a new
+lane without the CURRENT_STRATEGY/CASTLE gate.
 
 ## Common Commands / Prompts
 - "Draft outreach for [niche] using the outreach script + market-map"
@@ -58,4 +70,4 @@ Pre-First-Contact. Track 1 (school) and Track 2 (Python/SQL, tracker) are the co
 - *Post-audit*: audit-report-template filled in the client workspace → approved sanitized case-study version harvested to `05-BUSINESS` → retainer-model consulted for the upsell.
 
 ## Last Updated
-July 14, 2026 — client-workspace privacy reconciliation. Canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.
+July 14, 2026 — current-strategy authority, live gate path, and Watchtower handoff reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.

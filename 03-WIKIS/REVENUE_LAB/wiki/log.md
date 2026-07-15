@@ -247,3 +247,19 @@ tags: [log]
   does not verify RPM or alter the evidence-only scorecard.
 - Next: classify the scanner's combined top 100 from reproducible public API
   output; do not substitute vendor niche rankings for that evidence.
+
+## 2026-07-14 — Continuity-income evidence return connected to current strategy
+
+- Updated the hub contracts so adjacent income tests may remain open without
+  redefining Chris's identity.
+- Results return through CASTLE to CURRENT_STRATEGY's continuity-income milestone;
+  only a verified material external platform/market change belongs on Watchtower.
+- Next remains human classification of the reproducible combined top 100; research
+  is not income proof.
+
+## 2026-07-14 — Live route and graph visibility verified
+
+- Corrected the HOW_TO routes to CURRENT_STRATEGY and this hub's index.
+- Added REVENUE_LAB to `COLOR_MAP.yaml` and regenerated the Obsidian graph through
+  the canonical graph-color build. The graph now includes the hub as a teal group,
+  with no unclassified top-level drift.

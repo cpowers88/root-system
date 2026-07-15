@@ -10,7 +10,7 @@ tags: [phase, now]
 **One-line purpose**: Pass the first KSU year strong while Python and SQL become working daily tools.
 
 ## Purpose
-Track 1 is the spine. Fall 2026: ECON 1000, ENGR 1000, PHYS 2211, CSE 1321+L,
+School is the fixed spine. Fall 2026: ECON 1000, ENGR 1000, PHYS 2211, CSE 1321+L,
 TCOM 2010 (13 hrs). Spring 2027 includes the gate course ISYE 2600 Probability &
 Statistics (prep starts winter break). Tech skills advance only at the pace the
 semester allows.
@@ -22,7 +22,7 @@ Optimization → waste elimination. Name the real-world analog in every assignme
 
 ## Skills Needed
 - Python (CSE 1321 + CS50P continuation) — Technical
-- SQL daily reps (tracker in live use all semester) — Technical
+- SQL practice through real tracker use and bounded supporting reps — Technical
 - Technical writing (TCOM — this IS client-report training) — Delivery/Professional
 - Time management under load: pace model + high-load tradeoff management — Professional
 
@@ -34,7 +34,7 @@ Optimization → waste elimination. Name the real-world analog in every assignme
 | Source | Tier | Location | What it proves |
 |---|---|---|---|
 | Course syllabi + D2L | 1 | `02-LIBRARY\00-SCHOOL\` | The actual workload |
-| `03-WIKIS\PYTHON` wiki | internal | `03-WIKIS\PYTHON\` | Python learning path (Track 1 execution) |
+| `03-WIKIS\PYTHON` wiki | internal | `03-WIKIS\PYTHON\` | Staged Python learning path serving school readiness |
 | `03-WIKIS\PHYSICS` wiki | internal | `03-WIKIS\PHYSICS\` | Physics stages |
 | thinkpython / Python Crash Course | 1 | `03-WIKIS\PYTHON\raw\books\` | Course-aligned depth |
 
@@ -46,13 +46,14 @@ Technical credibility floor: can talk data, code, and engineering method without
 
 ## Proof Projects
 - [[ksu-academic-tracker]] — in daily use = ongoing proof
-- POL (Powers Operating Ledger) — resumes as tracker allows; primary Track 2 build
+- POL (Powers Operating Ledger) — parked; reactivate only if a weak-link review
+  selects it as the smallest useful proof vehicle
 
 ## Exit Criteria
 - [ ] Fall 2026 completed, Bs acceptable / As preferred, no course failed
 - [ ] High-load window (Oct 5 – Nov 11) managed without missed school commitments; optional work was deliberately scoped
 - [ ] Tracker used through the whole semester (not abandoned by week 4)
-- [ ] POL shipping weekly summary reports by spring
+- [ ] Real SQL/data proof recorded through the tracker or another explicitly approved vehicle
 - [ ] ISYE 2600 entered with winter-break prep done
 
 ## Risks and Distractions

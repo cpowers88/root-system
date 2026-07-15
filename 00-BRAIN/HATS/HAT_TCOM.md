@@ -70,7 +70,8 @@ shell, file-naming reference card.
 ## Connect to the North Star
 
 After each assignment, one sentence connecting the document type to
-Track 3 business writing — audit reports, client proposals, SOWs. This
+the permanent communication/business capability base — audit reports, client
+proposals, SOWs. This
 is writing Chris will actually sell. Do NOT reference ListingOS or
 FMLS material.
 

@@ -10,7 +10,11 @@ tags:
 > Foundation month: core skills, the audit offer built, internal systems live, and outreach started. Nothing fancy — everything real.
 
 ## Timeline Gate — Read This First
-"First 30 days" means the first 30 days of **active client acquisition**, which per NORTH_STAR.md's Business Arc begins in the First Contact phase (~Sep 2026) and targets a first client by **March 2027** — not the 30 days after reading this page. Through August 2026 the Foundation phase is school prep + Python/SQL (KSU Tracker, then POL); NORTH_STAR.md is explicit that this phase has **no clients**. If you're reading this before the gate opens, use it as the plan and pull forward only what's genuinely free of a client relationship: reading this wiki's strategy pages, drafting the practice audit on a friend's or family business, and sharpening the audit method — not cold outreach or LLC filing yet ([[business-setup|Business Setup]] Tier 1 timing follows the same gate).
+"First 30 days" means the first 30 days of **authorized active client acquisition**,
+not the 30 days after reading this page. `CURRENT_STRATEGY.md` owns the first-client
+milestone; CASTLE/NOW opens execution. Before then, pull forward only bounded method
+practice or real workflow observation that does not require outreach, filing,
+purchasing, or a new commitment.
 
 ## Purpose
 Give the first month of active acquisition an exact agenda, so momentum comes from a checklist instead of motivation, and so day 30 ends with an offer in the market rather than a pile of research.

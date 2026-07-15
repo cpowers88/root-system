@@ -15,17 +15,22 @@ Any AI session working in `CASTLE` loads, in this order:
 
 1. `C:\Users\chris\.ROOT\00-BRAIN\AGENT.md` — universal OS: shared rules, file safety, session close
 2. The active surface profile in `C:\Users\chris\.ROOT\00-BRAIN\` (optional HATS\ mode if useful)
-3. `wiki/index.md` — what exists in the castle
-4. Last 3 entries of `wiki/log.md` — what happened recently
-5. `wiki/north-star-roadmap.md` — the current pathway state
+3. `C:\Users\chris\.ROOT\01-NORTH_STAR\NORTH_STAR.md` — durable direction
+4. Load `CURRENT_STRATEGY.md` only for a business/market/offer/revenue/Ratchet
+   question, and Watchtower only for an external-signal question
+5. `wiki/index.md` — what exists in the castle
+6. Last 3 entries of `wiki/log.md` — what happened recently
+7. `wiki/north-star-roadmap.md` — the current pathway state
 
 Then state in one sentence what the session will do.
 
 ## What the Castle Is
 
 The **command center**: the master pathway from Chris's current position to the
-North Star (October 8, 2031 — canonical target and identity: `01-NORTH_STAR\NORTH_STAR.md`,
-not restated here). It answers, at all times:
+North Star (October 8, 2031 — canonical direction:
+`01-NORTH_STAR\NORTH_STAR.md`; current business vehicle:
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`, neither restated here). It
+answers, at all times:
 
 > What skill comes next, in what order, why does it matter,
 > what source proves it, and what project proves Chris can use it?
@@ -35,11 +40,13 @@ not restated here). It answers, at all times:
 - Not the behavioral OS — that is `00-BRAIN`. Do not duplicate governance here.
 - Not the knowledge refinery — each `03-WIKIS` hub runs its own deep source ingests per its own `CLAUDE.md` (FORGE, the prior single refinery, retired July 7, 2026).
 - Not the business-model wiki — that is `03-WIKIS\BUSINESS`. The castle links to it.
-- Not a course wiki — `03-WIKIS\PYTHON` and `03-WIKIS\PHYSICS` own Track 1 execution;
+- Not a course wiki — `03-WIKIS\PYTHON` and `03-WIKIS\PHYSICS` own their staged learning execution;
   `03-WIKIS\EDUCATION` owns general KSU support (TCOM/ECON/ENGR).
 - Not the landscape-research or self-evolution layer — `03-WIKIS\TECHNOLOGY` and
   `03-WIKIS\AI_AUTOMATION_SYSTEMS` research and propose; the castle reviews and
   maintains (see Wiki Sweep below).
+- Not the external-signal board — `...projectSuccess` observes and routes material
+  change; CASTLE gates any resulting work.
 - Not a journal, project tracker, or file dump.
 
 The castle REFERENCES the other systems. It never absorbs them.
@@ -111,6 +118,11 @@ AI-initiated proposals from that wiki pass through the evidence and review
 cadence in `AGENT.md`. A Chris-directed change may proceed after impact review
 and approval without waiting for repeated-friction evidence.
 
+The same boundary applies to `...projectSuccess`: contributing wikis preserve the
+source and analysis; the radar holds only a material signal. A hot row must name its
+evidence home, affected strategy assumption or system choice, consequence/test, and
+review trigger before CASTLE gates it.
+
 ## Weekly Inbox Routing Checklist
 
 Run this alongside the weekly CASTLE sweep for manual intake in `.ROOT\77-INBOX`
@@ -133,6 +145,11 @@ enter as `captured`; named client leads enter as urgent `triaged` items. Every
 row needs an evidence link, owner realm, and next test/action before work begins.
 Internal system friction stays in `SYSTEM_FLAGS.md` unless it independently
 earns a commercial opportunity entry.
+
+For a Watchtower promotion, return a proof packet after the bounded test: radar row,
+CASTLE verdict, test performed, measured outcome, affected `CURRENT_STRATEGY`
+assumption/milestone, and next review. Only the outcome—not the signal itself—may
+justify a strategy or quarterly Ratchet change.
 
 ## Session Close
 

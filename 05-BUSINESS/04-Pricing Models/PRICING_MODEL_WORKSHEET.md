@@ -79,7 +79,7 @@ keeps the relationship legible (TECHNOLOGY_LIBRARY_STRATEGY.md —
 
 **Review trigger:** revisit this worksheet after every practice audit
 and finalize v2 before the first real conversation (Sep 2026–Feb 2027
-window per the Business Arc).
+window under the current strategy's first-contact sequencing).
 
 ---
 *Skeleton by Claude July 5, 2026. Placeholders ⚠ are frames, not recommendations — the market and the proof phase set the real numbers.*

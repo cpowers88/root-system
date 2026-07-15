@@ -15,7 +15,19 @@ status: live
 
 ## Direction and Priority Policy
 
-Canonical direction lives in `01-NORTH_STAR\NORTH_STAR.md`. Read it; do not replace it with a remembered paraphrase.
+Canonical direction lives in `01-NORTH_STAR\NORTH_STAR.md`. Read it in every
+session; do not replace it with a remembered paraphrase. It is intentionally short.
+Load its companions only when the active question requires them:
+
+| Active question | Additional file |
+|---|---|
+| business vehicle, market, offer, revenue path, strategic skill, or Ratchet | `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` |
+| pre-semester school sequencing through August 24, 2026 | `01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md` plus the owning course wiki current-position |
+| external change, trend, threat, or opportunity | `...projectSuccess\WATCHTOWER.md` and `radar.md`, then the owning evidence home |
+| system architecture, self-evolution, instruction design, or OS capability audit | `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` |
+
+Companions add current detail but cannot override the North Star. CASTLE owns
+sequencing and proof status; domain wikis own research and learner truth.
 
 Priority is calendar-bound and value-aware:
 
@@ -67,7 +79,8 @@ Profiles and local files cannot override file safety, North Star direction, raw 
 1. Read this file and the relevant surface profile.
 2. Read `CHRIS_CORE.md` unless already loaded for a narrow continuation.
 3. Check `SYSTEM_FLAGS.md` for the active task.
-4. Load the minimum local context needed.
+4. Read `01-NORTH_STAR\NORTH_STAR.md`, then load only the companion and local
+   context required by the active question.
 5. Name the critical path and work.
 
 ## File Safety — Non-Negotiable
@@ -89,6 +102,11 @@ System files include this file, surface profiles, `CHRIS_CORE.md`, `CHRIS.md`, h
 ## Wikis and CASTLE
 
 `03-WIKIS\` contains the domain knowledge hubs. CASTLE at `00-BRAIN\CASTLE\` sequences work and owns `.ROOT\NOW.md`. Each wiki governs its content; this file governs shared behavior. Hats are cross-model modes, not roles.
+
+`...projectSuccess\` is the two-file Watchtower. A material external signal must
+name its evidence home, affected assumption/choice, consequence or test, and review
+trigger. It may reach strategy only through CASTLE review, a bounded test, measured
+outcome, and the North Star Ratchet. The Watchtower has eyes, not hands.
 
 Shared wiki rules: raw is immutable; chunk large sources; read the index and recent log before work; update rather than duplicate; preserve claim history; before replacing a claim, classify the change as a temporal update, context-dependent variant, or true contradiction; mark volatile claims; update log/index when reality changes; use lint at reviews; support independent learning without producing prohibited graded work.
 

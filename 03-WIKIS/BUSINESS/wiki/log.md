@@ -437,3 +437,24 @@ four lines above it). No content pages added or removed.
 - Next: before the First Contact phase opens, create no client workspace. When
   real client work begins, define that external boundary in the engagement's
   own instructions and agreement.
+
+## 2026-07-14 — Business wiki separated from durable identity
+
+- Replaced the copied North Star constitution with a routing bridge: NORTH_STAR owns
+  durable direction, CURRENT_STRATEGY owns the active vehicle, this wiki owns methods
+  and evidence, and CASTLE/NOW owns sequencing.
+- Reconciled index/start pages, current wedges/first offer pointers, skill roadmap,
+  and time-horizon pages so old June business-arc wording no longer overrides live
+  strategy or school frontiers.
+- Added the Watchtower boundary: external market change may route outward; our own
+  field results return directly through CASTLE to a strategy assumption/milestone.
+- Next: practice the observation method when real access exists; do not activate a
+  sales checklist merely by opening a roadmap page.
+
+## 2026-07-14 — User router and live-path audit
+
+- Replaced the stale copied README architecture with a short router to the current
+  strategy, HOW_TO, index, and North Star alignment bridge. Clarified that roadmap
+  pages are scenarios until CASTLE activates a bounded test.
+- Corrected the CASTLE decision-rule path in HOW_TO. Strict wiki lint reports no
+  unresolved dead links.

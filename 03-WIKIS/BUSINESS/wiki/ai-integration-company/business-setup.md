@@ -15,7 +15,9 @@ List the real-world setup steps (entity, banking, insurance, contracts, taxes) t
 ## Key Idea
 Setup is **tiered, not front-loaded**. A minimal tier before the first client, a protection tier before real money, an employer tier before the first hire. Doing tier 3 in week 1 is procrastination; skipping tier 2 at $10K/month is gambling. (Nothing here is legal or tax advice — confirm specifics for your state with a professional; the point of this page is knowing what to ask them.)
 
-**Date anchor:** "First paid client" is targeted for March 2027 per NORTH_STAR.md — Tier 1 activates as that date approaches, not today. Doing Tier 1 in Summer 2026 is the same procrastination risk this page warns against, just earlier.
+**Date anchor:** CURRENT_STRATEGY targets the first paid consulting conversation for
+March 2027. Tier 1 activates only when CASTLE/NOW and real activity justify it, not
+because this page was opened.
 
 ## Tier 1 — Before the First Paid Client (Week 1–2, ~$500–$1,000)
 - [ ] **LLC filed** in your home state (online filing; most states $50–$500). Single-member is fine to start

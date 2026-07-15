@@ -12,6 +12,10 @@ General KSU coursework support for subjects without their own wiki — TCOM, ECO
 ## Start Here
 `wiki/current-position.md` for the live per-course status, then `wiki/index.md` for the page inventory.
 
+Before August 24, also load
+`01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md`. Official D2L/current
+syllabi override the plan and this wiki; update both when verified facts change.
+
 ## Standard Work Loop
 ```text
 course brief/current position -> weekly need -> study support -> evidence
@@ -33,7 +37,11 @@ A course activates this wiki the first time Chris brings it real material; from 
 Once a course is active: update that course's `current-position.md`, append `wiki/log.md`, state the next study action.
 
 ## Current State
-Fall 2026 course-support scaffold is live for TCOM 2010, ECON 1000, and ENGR 1000 — see `wiki/current-position.md`. Two pages exist (`fall-2026-course-briefs.md`, `ai-programs-us-2026.md`); D2L-sourced material replaces the recycled/prior-syllabus brief once the semester opens Aug 24.
+Fall 2026 support is live for TCOM 2010, ECON 1000, and ENGR 1000. Start at
+`wiki/current-position.md`; `wiki/index.md` lists the four live pages. Update from
+verified D2L/current syllabi around July 25 and before August 24. Do not carry forward
+recycled TCOM dates, incomplete weights, or the Fall 2025 ENGR policy as confirmed
+Fall 2026 fact.
 
 ## Last Updated
-July 13, 2026 — local-root cutover: canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.
+July 14, 2026 — pre-semester authority, page inventory, and D2L timing reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.

@@ -68,7 +68,7 @@ A **shell context processor** (`@app.shell_context_processor`) registers a funct
 | North Star relevance | 5 | Persistence is required for any client tool that needs to remember data over time, not just a one-off form. |
 | Current usefulness | 4 | The ready-to-use persistence layer for a first real client tool. |
 | KSU support | 2 | ORM modeling overlaps loosely with relational-database fundamentals but isn't a dedicated ISYE topic. |
-| Tech-stack relevance | 5 | Flask and SQL/SQLite are both explicitly in the Top 12 stack. |
+| Tech-stack relevance | 5 | Flask and SQL/SQLite are both in the possibility map; timing follows live need and prerequisites. |
 | Business audit value | 4 | Enables tracking client data (job records, intake submissions) over time for ongoing audit/retainer work. |
 | Data/workflow value | 5 | The core persistence mechanism for any data-collecting client tool. |
 | Reading urgency | 3 | Becomes urgent the moment a client tool needs to store more than one form submission. |

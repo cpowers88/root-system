@@ -5,7 +5,7 @@ tags: [now, governance]
 
 # SYSTEM_FLAGS.md — Open Improvement Flags
 ### Location: 00-BRAIN\ | Check at every session start.
-### Last updated: July 14, 2026 (flag 73 closed; unified operating-model update validated)
+### Last updated: July 15, 2026 (post-migration residual audit complete)
 
 ---
 
@@ -42,6 +42,8 @@ If the same flag is re-raised after being closed, it comes back as HIGH.
 
 | # | Flag | Raised | Closed | Fix |
 |---|---|---|---|---|
+| 75 | Residual semantic-interface drift re-raised the class closed under #74: live technology pointers still named retired North Star Track 2, the monthly skill tracker described already-completed work as not started, and post-migration dead/duplicate placeholders remained live | July 15 | July 15 | Treated HIGH under the re-raise rule. Reconciled TechStackPriority, Technology Library Strategy, SKILL_GAP_ANALYSIS, and Revenue Lab wording to the permanent-capability/current-strategy model; added missing field-note metadata; archived one superseded plan, two exact duplicate mislabeled notes, and three zero-byte placeholders after inbound-reference and hash checks. Re-ran boot, strict wiki lint, frontmatter, shared-skill, duplicate, empty-file, and stale-interface checks. |
+| 74 | Semantic interface drift across PYTHON, TECHNOLOGY, CASTLE source/count ownership, and Watchtower placement | July 14 | July 14 | Reconciled PYTHON to Stage 2; TECHNOLOGY to its live 107-page/four-landscape inventory with index ownership; removed non-decision-useful CASTLE scale claims and central-source-registration wording; added `...projectSuccess` to placement authority; installed the evidence-home → Watchtower → CASTLE test → outcome → CURRENT_STRATEGY Ratchet contract. |
 | 73 | NORTH_STAR income timeline did not reflect the July 14 school-funding cut | July 14 | July 14 | Added the continuity-income constraint, a before-Spring-2027 revenue milestone, and a funding-continuity risk. March 2027 is now explicitly the first consulting-client target, not the first-dollar target; Revenue Lab remains the evidence-first test surface. |
 | 72 | `frontmatter_audit.py` omitted `88-JOURNAL` from its exclusion set, so a read-only metadata audit could traverse the private journal boundary | July 13 | July 13 | Added `88-JOURNAL` to the script's excluded path components; rerun must confirm the audit no longer reports or traverses journal paths. No journal content was surfaced in the audit output. |
 | 70 | Codex CLI native Windows sandbox was missing its setup helper and the Drive workspace could not complete ACL setup | July 12 | July 13 | Reinstall restored the helper; Chris established `C:\Users\chris\.ROOT` as the canonical local workspace, and this unelevated session is operating there. Drive ACL compatibility is no longer a working-tree blocker. `approval_policy = "on-request"` and network denial remain intentional safeguards. |
@@ -57,4 +59,4 @@ If the same flag is re-raised after being closed, it comes back as HIGH.
 
 ---
 *Maintained by: Claude + Chris | Reviewed: every session start (HIGH), weekly (MEDIUM), monthly (LOW)*
-*Last updated: July 14, 2026*
+*Last updated: July 15, 2026*

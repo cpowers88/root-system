@@ -5,7 +5,7 @@ tags: [reference]
 
 # CHRIS.md — Chris Powers
 ### Full profile — load per AGENT.md (monthly review, profile update, behavior calibration only). Default load is CHRIS_CORE.md.
-### Last updated: July 5, 2026
+### Last updated: July 14, 2026
 ### Read alongside: NORTH_STAR.md (mission + tracks), AGENT.md (session protocols)
 
 ---
@@ -18,7 +18,11 @@ tags: [reference]
 **Education:** GED (1998). Chatt Tech 2024–2026 (3.73 GPA, 2 certs). Transferring to KSU Fall 2026 — BS Industrial & Systems Engineering, Systems Concentration. Target graduation: Fall 2029.
 **GitHub:** cpowers88
 
-**North Star:** October 8, 2031. Top 1% AI, Technology & Business integrator and application developer. $500K–$1M annually as the FLOOR (quarterly ratchet). Canonical mission and three tracks: NORTH_STAR.md — one source, zero drift.
+**North Star:** October 8, 2031. Become an elite AI, technology, business, and
+systems integrator—an Advisor-Builder—while completing the KSU BS in Industrial &
+Systems Engineering and reaching a $500K–$1M annual floor. Durable direction lives
+only in `01-NORTH_STAR\NORTH_STAR.md`; the evidence-replaceable business vehicle
+lives in `Goals & Milestones\CURRENT_STRATEGY.md`.
 
 ---
 

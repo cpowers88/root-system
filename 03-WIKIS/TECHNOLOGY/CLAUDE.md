@@ -103,6 +103,13 @@ monthly review alongside `SKILL_GAP_ANALYSIS.md`. Landscape study is
 preparation, not production — if it displaces audit or build work two weeks
 running, rebalance.
 
+## Watchtower Handoff
+
+Keep full technology evidence here. Promote only a verified new external change
+with a material consequence to `...projectSuccess\radar.md`, and include the
+evidence page, affected active strategy assumption/system choice, consequence or
+bounded test, and review trigger. The radar never replaces this wiki's research.
+
 ## Final Operating Principle
 
 This wiki watches the landscape so Chris doesn't have to relearn it cold on

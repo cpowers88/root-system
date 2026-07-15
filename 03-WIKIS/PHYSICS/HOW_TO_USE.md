@@ -12,6 +12,10 @@ The staged physics path (1–18) from situation → model → equation → probl
 ## Start Here
 `wiki/current-position.md` for where Chris is right now; `wiki/learning-path.md` for the staged path.
 
+Before August 24, coordinate the next proof with
+`01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md`; this hub's
+`wiki/current-position.md` remains learner-truth authority.
+
 ## Standard Work Loop
 ```text
 situation -> model -> equation/units -> example -> drill -> mastery
@@ -34,7 +38,11 @@ After a session: log drills, add errors to `wiki/common-errors/`, update `curren
 Update current-position at stage boundaries, append `wiki/log.md`, state the next exact study action.
 
 ## Current State
-**Stage 3 — Vectors (Ch 3)** is the active unit; packet complete including the coordinate-systems gap fixed 2026-07-07. Stages 1–2 are assumed cleared from the July stage-packet build-ahead — confirm their mastery checklists before treating them as done if it's been a while since they were last drilled. Stages 4–5 pre-verified against source and ready when reached; stages 6–18 not yet re-verified (see `wiki/parking-lot.md`).
+**Stage 3 — Vectors (Ch 3)** is active. Resume vector addition by components with
+40 N at 0° plus 30 N at 90°, then run a no-notes pass and mastery checklist. Stages
+1–2 are provisionally cleared; generated content is not mastery. Stages 4–5 are
+source-verified but unstudied; Stages 6–18 await sequential re-verification (see
+`wiki/parking-lot.md`).
 
 ## Common Commands / Prompts
 - "Stage-[N] session — pick up from current-position"
@@ -47,4 +55,4 @@ Update current-position at stage boundaries, append `wiki/log.md`, state the nex
 - *Aug 24 readiness*: "Which stages cover the first three weeks of PHYS 2211?" → focused frontier plan.
 
 ## Last Updated
-July 13, 2026 — local-root cutover: canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.
+July 14, 2026 — live Stage 3 action and pre-semester authority reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.

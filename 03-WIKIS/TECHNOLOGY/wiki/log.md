@@ -352,3 +352,19 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
   OAuth implementation, and source ingestion is not proof of use.
 - Next: ingest or cite it only when an authorized Google API project needs an
   OAuth flow decision; credentials and secrets never enter the vault.
+
+## 2026-07-14 — Guide truth and Watchtower handoff reconciled
+
+- Corrected the human guide from the stale 68-page/no-landscape state to the July 13
+  inventory (107 pages plus four landscape pages), while assigning live-count truth
+  to `wiki/index.md`.
+- Added the material-signal contract: evidence remains here; only a verified external
+  change with an affected assumption/choice, consequence/test, and review trigger
+  reaches `...projectSuccess\radar.md`.
+- Next: normal weekly landscape rep; promote nothing merely because it is new.
+
+## 2026-07-14 — Human guide path audit
+
+- Corrected HOW_TO to use the exact Technology Library Strategy, update, close, and
+  question paths while keeping the Watchtower evidence boundary intact.
+- Cross-reference validation found no active dead link in the user guide.

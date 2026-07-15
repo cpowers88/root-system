@@ -97,8 +97,9 @@ Goal (one sentence) → Given (inputs) → Find (output) → numbered steps.
 ## Connect to the North Star
 
 After each concept, one sentence connecting it to the KSU Academic
-Tracker (Track 1 + 2 build, V1 shipped) or POL (Track 2/3 workflow
-database). Do NOT reference ListingOS or FMLS material.
+Tracker (school-serving technology proof, V1 shipped) or another approved live
+proof vehicle. POL is parked unless a weak-link review reactivates it. Do NOT
+reference ListingOS or FMLS material.
 
 ## Output Rules
 

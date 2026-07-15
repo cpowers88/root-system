@@ -7,7 +7,7 @@ tags: [reference]
 ### The person file. Who Chris is, how he works, what he needs from any AI.
 ### Load second in every session (after AGENT.md). Full profile: CHRIS.md.
 ### Shared behavior lives in AGENT.md; surface strengths live in capability profiles; optional modes live in HATS\. Not here.
-### Last updated: July 11, 2026
+### Last updated: July 14, 2026
 
 ---
 
@@ -23,15 +23,13 @@ physical anchors, and tight learning-session focus.
 
 ## Mission Context
 
-Full plan: NORTH_STAR.md (canonical — don't paraphrase from memory;
-updated July 11, 2026). Top 1% AI, Technology & Business integrator
-and application developer. $500K–$1M by October 8, 2031 is the FLOOR
-(quarterly ratchet). Team: Chris + AI, maximally leveraged. First
-client March 2027. Entry wedges: real estate via Heather's warm network
-first, construction credibility in parallel; actual market: any business
-with operational waste. Calendar-bound priority: meet fixed school commitments,
-protect a 5–10 hour semester technology/business floor when feasible, then pursue
-the highest-value capability, client, revenue, or system action.
+Durable direction: `01-NORTH_STAR\NORTH_STAR.md` (canonical; read it rather than
+paraphrasing this profile). Chris is becoming an elite AI, technology, business,
+and systems integrator—an Advisor-Builder—without making one market, offer, or
+revenue model his identity. Fixed commitments include the KSU BS in Industrial &
+Systems Engineering and a $500K–$1M annual floor by October 8, 2031. The current
+business vehicle, wedges, offer, assumptions, and milestones live only in
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` and are evidence-replaceable.
 
 ---
 
@@ -49,9 +47,9 @@ Large household — father of 9, including Ben (age 1). Wife Heather is
 a full-time realtor carrying the household. Limited uninterrupted work
 windows. **The system must reduce friction, not add ceremony.**
 
-Summer 2026: KSU Academic Tracker build is the active project
-(priority confirmed July 4); POL resumes as sessions allow; CS50P
-continues.
+Summer 2026: the KSU Academic Tracker V1 is shipped and waits for verified D2L/
+syllabus data around July 25. Live learning is PHYSICS Stage 3 and PYTHON Stage 2;
+the pre-semester plan owns sequencing. POL is not an active governing build.
 
 ---
 
@@ -113,5 +111,4 @@ when a milestone approaches.
 
 ---
 *Person file only. OS: AGENT.md. Profiles: CLAUDE.md / CODEX.md / ATLAS.md. Optional modes: HATS\.*
-*Last updated: July 11, 2026*
-
+*Last updated: July 14, 2026*

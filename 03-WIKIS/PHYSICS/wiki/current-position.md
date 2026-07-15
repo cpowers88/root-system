@@ -33,12 +33,12 @@ First live teaching session ran 2026-07-14 (log entry same date). Chris correctl
 
 1. **Resume vector addition by components** — the paused problem (two forces, 40 N at 0° and 30 N at 90°; have Chris explain why the resultant isn't 70 N before computing it). This is the one core Stage 3 skill not yet attempted.
 2. Run one more independent, no-notes pass over all four skills — coordinate conversion, scalar/vector ID, decomposition, reconstruction, and (once solved) addition — before treating any mastery checklist item as checked.
-3. Pass the Stage 3 mastery checklist ([[../stages/stage-3-vectors]]) before moving to Stage 4. The dot product pages exist but are **not** required for this — they're Stage 7 preview material, parked deliberately.
+3. Pass the Stage 3 mastery checklist ([[stages/stage-3-vectors]]) before moving to Stage 4. The dot product pages exist but are **not** required for this — they're Stage 7 preview material, parked deliberately.
 4. Full D2L lecture-date calendar for Ch 6 onward is still pending — get exact exam and lecture dates when available.
 
 ## Ahead-Check: Stages 4–5 (verified 2026-07-07, so Chris isn't held up after Stage 3)
 
-- **Stage 4 (Motion in Two Dimensions, Ch 4)** — had a real gap: Section 4.5 (tangential + radial acceleration, for circular motion where speed also changes) was missing and had been miscited as Stage 10 material. Fixed — see [[../stages/stage-4-motion-in-two-dimensions]]. Ready to work when Chris gets there.
+- **Stage 4 (Motion in Two Dimensions, Ch 4)** — had a real gap: Section 4.5 (tangential + radial acceleration, for circular motion where speed also changes) was missing and had been miscited as Stage 10 material. Fixed — see [[stages/stage-4-motion-in-two-dimensions]]. Ready to work when Chris gets there.
 - **Stage 5 (The Laws of Motion, Ch 5)** — checked against the textbook's actual section list (5.1–5.8); all eight sections are represented in the existing concept pages. No changes needed. Ready as-is.
 - **Stages 6–18** — not yet re-verified against source this session. See [[parking-lot]] for the standing flag; check each stage the same way (extract the relevant textbook PDF pages, compare section-by-section) when Chris is one stage out from reaching it.
 

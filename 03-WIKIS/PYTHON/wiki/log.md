@@ -968,3 +968,20 @@ Stage 2 decision-rules drill.
   CONVERGE mode, AI now flags an advanced tangent once and may offer to park it;
   Chris can explicitly redirect the task without a hard stop.
 - Next action is unchanged: Stage 2 decision-rules drill after the Anki import.
+
+## 2026-07-14 — Human guide reconciled to the canonical Stage 2 frontier
+
+- Updated `HOW_TO_USE.md` from stale Stage 1 language to Stage 2 Decisions and
+  Boolean Logic; generated packets remain explicitly separate from study proof.
+- Reconciled CASTLE/NOW: the choose-your-path mini-project has no recorded completed
+  artifact, so it remains the open Stage 2 proof.
+- Next: complete the mini-project independently, explain the branch logic, and update
+  the mastery checklist only from evidence.
+
+## 2026-07-14 — User routers and template links repaired
+
+- Replaced the stale README curriculum summary with a concise route to HOW_TO,
+  current-position, learning-path, and the local AI contract. Connected the hub to
+  the pre-semester plan and kept the tracker conditional on real D2L data.
+- Corrected three subfolder README links to the live Python templates directory and
+  removed model-exclusive learning ownership. Strict wiki lint is clean.

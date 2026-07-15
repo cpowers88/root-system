@@ -12,7 +12,10 @@ tags:
 ## Purpose
 Define the transformation from "Chris with clients" to "a company with a method," including the hiring sequence, productization work, and the metrics that mark the transition.
 
-**Date anchor:** Years 2–3 of this plan land roughly 2028–2029 per NORTH_STAR.md's Business Arc — Year 2 ("tool building") overlaps the later semesters, Year 3 ("productization") overlaps December 2029 graduation. Hiring and team-building decisions should be sanity-checked against school load, not just revenue.
+**Date anchor:** Under the current vehicle, Years 2–3 would land roughly 2028–2029.
+Treat that as a scenario, not North Star doctrine; reconcile it to
+`CURRENT_STRATEGY.md`, CASTLE outcomes, graduation reality, and school capacity before
+using it.
 
 ## Key Idea
 The three-year project is **replacing yourself in delivery without losing the quality bar** — converting personal skill into organizational capability. The mechanism is the playbook-first hire: nothing is delegated until it's documented, and everything documented gets delegated. By month 36 the owner's job is architecture, key relationships, sales leadership, and the P&L — not building automations at midnight.

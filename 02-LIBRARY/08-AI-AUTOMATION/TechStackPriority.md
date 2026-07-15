@@ -5,9 +5,11 @@ tags: [reference]
 
 # TechStackPriority.md — pointer only
 
-The stack order lives in ONE place: `01-NORTH_STAR\NORTH_STAR.md` → Track 2
-(Python → SQL/SQLite → REST APIs → Make.com → … → industry platforms).
-The full possibility map and Recommendation Ladder:
+The permanent technology direction lives in
+`01-NORTH_STAR\NORTH_STAR.md` → **Permanent capability base** and
+**Technology — the fuel**. The current weak link and next practice live in
+`01-NORTH_STAR\SKILL_GAP_ANALYSIS.md`; the operational possibility map,
+Recommendation Ladder, and current technology frontier live in
 `TECHNOLOGY_LIBRARY_STRATEGY.md` (this folder).
 
 This file used to carry its own copy of the stack order — retired July 6, 2026

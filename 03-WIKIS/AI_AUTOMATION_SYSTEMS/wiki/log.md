@@ -989,3 +989,20 @@ canonical-workspace rule in `00-BRAIN`.
   human maps; expanded `validate_boot_chain.py` with semantic contract checks.
 - Next: normal use first. Inspect one queued primary mechanism only when a
   concrete failure or review question gives it a job.
+
+## 2026-07-14 — North Star system-capability return contract installed
+
+- Added the cross-model `.ROOT` capability contract under
+  `01-NORTH_STAR\System Contracts\`, covering teaching, research, engineering,
+  maintenance, business partnership, strategy, self-evolution, proof, and return.
+- Updated this hub's guide/operating contract so external AI change may feed
+  Watchtower only after evidence and materiality; internal friction remains a
+  proposal/SYSTEM_FLAGS path.
+- Next: use the contract in normal sessions and repair only observed failures.
+
+## 2026-07-14 — Human guide path audit
+
+- Rechecked the hub's user guide against the live boot and capability-contract
+  paths. Added the exact conditional route to `ROOT_CAPABILITY_CONTRACT.md` and
+  retained AGENT.md as the universal authority.
+- Strict wiki lint and boot validation pass; no active dead link remains.

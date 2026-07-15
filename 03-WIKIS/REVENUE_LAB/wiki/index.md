@@ -23,7 +23,7 @@ tags: [reference]
 ## Lane Evidence Pages
 - [[lane-a-content-channel]] — **14/25 after Codex evidence audit**; API
   research is feasible, but channel-income timing/RPM remain assumptions.
-  Wrong survival lane; potential Track 2-compounding experiment (Session 2)
+  Wrong survival lane; potential capability-compounding experiment (Session 2)
 - [[lane-b-freelance-estimating]] — **13/25** after Codex evidence audit;
   paid market verified, Chris's rates/timing untested; cheapest first test
   in the scan (Session 1 + audit)

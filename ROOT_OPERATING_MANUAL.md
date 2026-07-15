@@ -39,6 +39,10 @@ ORIENT -> ROUTE -> WORK -> PROVE/PACKAGE -> CLOSE
 | What matters today? | `.ROOT\NOW.md` |
 | What phase or skill comes next? | `00-BRAIN\CASTLE` |
 | What controls the mission? | `01-NORTH_STAR` |
+| What business vehicle are we testing? | `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` |
+| What must happen before August 24? | `01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md` plus live PYTHON/PHYSICS/EDUCATION current-position pages |
+| What materially changed outside `.ROOT`? | `...projectSuccess\WATCHTOWER.md` and `radar.md` |
+| What must the AI OS be capable of? | `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` |
 | Where does this file go? | `00-BRAIN\WHERE_IT_GOES.md` |
 | What should I learn or retrieve? | Matching `03-WIKIS` hub |
 | What opportunity deserves testing next? | `00-BRAIN\CASTLE\wiki\opportunity-queue.md` |
@@ -60,12 +64,14 @@ ORIENT -> ROUTE -> WORK -> PROVE/PACKAGE -> CLOSE
 |---|---|---|---|---|---|---|
 | `NOW.md` | What matters today? | `.ROOT\NOW.md` | Read the start action, school commitment, technology rep, business/system item, and soft time boundary | Work began from a clear start and status reflects reality | Updates to `NOW.md` itself | Castle owns and refreshes it every session |
 | CASTLE | What phase or skill comes next? | `00-BRAIN\CASTLE\wiki\current-position.md` | Orient (index + log + roadmap) → identify the phase/skill gap → point to the realm that does the work → log the sequencing decision | A phase/skill page names exit criteria, and the actual work happened in its home realm, not here | Updated maps, phase/skill pages, `wiki/log.md`, `NOW.md` refresh | `00-BRAIN\CASTLE\HOW_TO_USE.md` |
-| `01-NORTH_STAR` | What controls the mission? | `01-NORTH_STAR\NORTH_STAR.md` | Read before any track-priority or ratchet decision; never paraphrase from memory | A decision reconciles to the mission — it doesn't drift from it | Read-only in normal use; changes only via the quarterly Ratchet Review | `01-NORTH_STAR\README.md` |
+| `01-NORTH_STAR` | What controls the mission and current strategic vehicle? | `01-NORTH_STAR\NORTH_STAR.md` | Load the star; add `CURRENT_STRATEGY.md`, the pre-semester plan, or reviews only when their question is active | The fixed direction is preserved and the vehicle changes only through evidence | Reviews and approved star/strategy updates; Chris may authorize a mid-cycle impact-reviewed change | `01-NORTH_STAR\README.md` |
+| North Star system contract | What must `.ROOT` be able to do and return? | `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` | Load for architecture/evolution audits; apply the named capability, proof, and return contract without copying AGENT governance | A fresh session can find owners, evidence, authority, and next action | Approved system changes return to their owning files/logs | `00-BRAIN\AGENT.md` remains behavioral authority |
+| `...projectSuccess` | What external change could materially affect us? | `...projectSuccess\WATCHTOWER.md` | Verify in the owning evidence home → add a qualifying radar row → sweep → CASTLE gate/test | A row names evidence, affected assumption/choice, consequence/test, and review trigger; action follows measured proof | Exactly `WATCHTOWER.md` and `radar.md`; decisions return to CASTLE/current strategy | `...projectSuccess\WATCHTOWER.md` |
 | `WHERE_IT_GOES.md` | Where does this file go? | `00-BRAIN\WHERE_IT_GOES.md` | Check its Decision Tree before creating any file | The file lands at the named path on the first try | N/A — this file is the placement authority itself | None deeper; this file is the authority |
 | Matching `03-WIKIS` hub | What should I learn or retrieve? | that hub's `wiki/current-position.md` (or `index.md` where no staged path exists) | current position → concept/stage → practice/drill → proof, per that hub's own loop | A drill, mini-project, or applied use proves the concept — a generated page alone does not | Study aids stay in-vault; skills proven get logged against the matching CASTLE skill page | that hub's own `HOW_TO_USE.md` |
 | `02-LIBRARY\00-SCHOOL` | Where are official course files? | the course's own folder | Pull syllabus/D2L material as-is; AI help stays within that course's stated AI policy | Submitted coursework is Chris's own work | Stays in the course folder | course briefs (EDUCATION wiki links out for study support) |
 | `02-LIBRARY\.PROJECTS` | Where does an active build live? | the project's own `Docs\` folder | Build locally/GitHub; only small single-file scripts may live here | The build runs and does what its `Docs\` say | Code stays local + GitHub; status shows in `NOW.md` and CASTLE | the project's own `Docs\` folder |
-| `03-WIKIS\BUSINESS` | Where does business strategy or a blank master live? | `wiki\ai-integration-company\index.md` (`start-here.md` activates once the First Contact gate opens, ~Sep 2026) | phase-tagged page → practical action → instantiate a template | A template gets used with a real prospect or client — re-reading the plan is not progress | Blank masters stay here; active client-specific copies go to the separate client workspace; sanitized reusable learning may return to `05-BUSINESS` | `03-WIKIS\BUSINESS\HOW_TO_USE.md` |
+| `03-WIKIS\BUSINESS` | Where do business methods, research, and blank masters live? | `03-WIKIS\BUSINESS\wiki\ai-integration-company\index.md` after `CURRENT_STRATEGY.md` when the question concerns the active vehicle | strategy assumption → method/evidence → bounded action → field result | A real conversation, observation, delivery, or use corrects the method; re-reading a plan is not proof | Blank masters stay here; active client-specific copies go to the separate client workspace; sanitized reusable learning may return to `05-BUSINESS` | `03-WIKIS\BUSINESS\HOW_TO_USE.md` |
 | Separate client workspace/repository | Where does active client-specific/private work live? | the client-authorized workspace outside `.ROOT` | instantiate approved masters → execute the engagement → retain client data only in that boundary | Real engagement evidence exists and client confidentiality is preserved | Remains outside `.ROOT`; only sanitized lessons, reusable methods/assets, approved case studies, and non-sensitive metadata return | client-specific instructions and agreement |
 | `05-BUSINESS` | Where does a reusable or sanitized business artifact live? | the matching subfolder (Audit Templates, Field Notes, Case Studies, Pricing Models, Proposals & SOWs) | create reusable masters or sanitize approved field learning before capture | The artifact contains no active client-private content and its maturity/evidence is honest | Stays in its subfolder; generalized results may update the BUSINESS wiki | none deeper — this folder is reusable/sanitized business operations |
 | `05-BUSINESS\06-Capability Library` | Where does a reusable capability asset live? | `CAPABILITY_LIBRARY_INDEX.md` | idea → draft asset (`APQC_[process]_[name].md`) → index row → named test → tested internally → client-ready | Maturity is stated honestly: idea / draft / tested internally / client-ready / deployed; proof gates advancement past `draft`, not entry | The index row plus the asset file itself | `README.md` and `FIRST_RUN_CHECKLIST.md` |
@@ -121,7 +127,8 @@ For wikis, the AI must:
 ## 6. Knowledge-to-Value Pipeline
 
 ```text
-raw source -> domain wiki / field evidence -> CASTLE opportunity decision -> real work
+raw source -> domain wiki / field evidence -> Watchtower when external + material
+           -> CASTLE opportunity decision -> bounded real work
            -> draft capability asset -> internal test/proof -> client-ready asset -> client use
            -> field evidence updates the asset and wiki
 ```
@@ -131,6 +138,7 @@ Rules:
 - Source ingestion is not mastery.
 - A generated page is not proof.
 - CASTLE sequences; it does not absorb or teach.
+- Watchtower observes and routes; it never changes strategy or opens work itself.
 - A capability asset must be reusable, owner-understandable, APQC-mapped, testable, and indexed; it may be indexed at `draft` maturity, but proof is required before it advances past `draft`.
 - Active client-specific/private content stays in its separate client workspace;
   only sanitized lessons, reusable methods/assets, approved case studies, and
@@ -143,6 +151,7 @@ Rules:
 ```text
 AI-observed friction -> log -> repeated evidence -> proposal -> approval -> validation
 Chris-directed change -> impact review -> approval -> implementation -> validation
+External change -> evidence home -> Watchtower -> CASTLE test -> outcome -> Ratchet
 ```
 
 - One-time AI-observed friction stays in a DAILY or local log.
@@ -189,7 +198,9 @@ The minimum close, every session that changes anything:
 - `00-BRAIN\AGENT.md` — the AI operating system.
 - `00-BRAIN\CLAUDE.md` / `CODEX.md` / `ATLAS.md` — AI capability profiles.
 - `00-BRAIN\CASTLE\HOW_TO_USE.md` — command-center use.
-- `03-WIKIS\SYSTEMS\HOW_TO_USE.md`, `PYTHON\HOW_TO_USE.md`, `EDUCATION\HOW_TO_USE.md`, `PHYSICS\HOW_TO_USE.md`, `BUSINESS\HOW_TO_USE.md`, `TECHNOLOGY\HOW_TO_USE.md`, `AI_AUTOMATION_SYSTEMS\HOW_TO_USE.md` — one per hub, same skeleton.
+- `...projectSuccess\WATCHTOWER.md` — material external-signal routing.
+- `01-NORTH_STAR\README.md` — star companion loading and review contract.
+- `03-WIKIS\SYSTEMS\HOW_TO_USE.md`, `03-WIKIS\PYTHON\HOW_TO_USE.md`, `03-WIKIS\EDUCATION\HOW_TO_USE.md`, `03-WIKIS\PHYSICS\HOW_TO_USE.md`, `03-WIKIS\BUSINESS\HOW_TO_USE.md`, `03-WIKIS\TECHNOLOGY\HOW_TO_USE.md`, `03-WIKIS\AI_AUTOMATION_SYSTEMS\HOW_TO_USE.md`, `03-WIKIS\REVENUE_LAB\HOW_TO_USE.md` — one per hub, same skeleton.
 - `05-BUSINESS\06-Capability Library\README.md` and `FIRST_RUN_CHECKLIST.md` — reusable asset operation.
 
 ---

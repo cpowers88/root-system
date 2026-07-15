@@ -9,11 +9,13 @@ tags: [reference, business, revenue]
 ## Question Owned
 Evidence-first research, scoring, and operation of digital revenue streams that
 fund Chris's studies. Off-the-named-path research is allowed here by charter —
-this is the one hub where "not on the audit-company roadmap" is not a
-disqualifier. Builds still pass the CASTLE profit gate.
+this is the one hub where "not in the current Advisor-Builder vehicle" is not a
+disqualifier. Builds still pass the CASTLE profit gate, and evidence returns to the
+continuity-income milestone in
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`.
 
 ## Start Here
-`wiki/index.md` — live inventory of lanes and evidence pages; `wiki/log.md`
+`03-WIKIS\REVENUE_LAB\wiki\index.md` — live inventory of lanes and evidence pages; `wiki/log.md`
 for recent session activity; `CLAUDE.md` for the ranking rubric and boundaries.
 
 ## Standard Work Loop
@@ -41,6 +43,11 @@ AI_AUTOMATION_SYSTEMS (AI research). Fixed school commitments and
 academic-integrity boundaries remain absolute; each opportunity must tolerate
 reduced capacity during the October 5 – November 11 high-load window.
 
+A real external platform/market change may enter Watchtower only after its evidence
+lives here and it meets the materiality threshold. Lane research, rubric movement,
+and our own test outcomes remain in Revenue Lab/CASTLE; do not duplicate them on the
+radar merely because they are commercially interesting.
+
 ## How the Hub Learns From Use
 Every operated lane feeds its real numbers back into its evidence page —
 predicted vs. actual time-to-first-dollar, hours spent, revenue. Wrong
@@ -59,4 +66,4 @@ findings; no channel, posting, outreach, or monetization action is approved.
 B2 remains one external proof conversation requiring Chris's approval.
 
 ## Last Updated
-July 14, 2026 — scan/scanner state and client-workspace boundary reconciled. Canonical workspace is `C:\Users\chris\.ROOT`.
+July 14, 2026 — strategy return, index path, and client-workspace boundary reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.

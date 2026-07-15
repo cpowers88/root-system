@@ -5,7 +5,7 @@ tags: [reference, governance]
 
 # vault_map.md — Powers System Map (.ROOT)
 ### Navigation file. Two levels deep ON PURPOSE — see Map Rule below.
-### Last updated: July 14, 2026 (intake/client-boundary reconciliation; prior version: 99-ARCHIVE\ARCHIVED_2026-07-11_vault_map.md)
+### Last updated: July 14, 2026 (North Star/link audit + Revenue Lab graph-map reconciliation)
 ### System: local C: workspace (truth) + Obsidian (capture/graph) + GitHub (code). G: is cloud backup only. Everything lives in .ROOT.
 
 ---
@@ -35,12 +35,14 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 
 ```
 .ROOT\
+├── AGENTS.md / CLAUDE.md  ← Codex/Claude root boot pointers; rules remain in 00-BRAIN
 ├── START_HERE.md          ← human map + canonical color language
+├── ROOT_OPERATING_MANUAL.md ← human operating and proof guide
 ├── NOW.md                 ← Chris's morning page — maintained by the CASTLE
 │
-├── ...projectSuccess\     ← WATCHTOWER — trends, signals, opportunity radar
-│   ├── WATCHTOWER.md      ← operating rules: what to track, weekly sweep, castle-gate routing
-│   └── radar.md           ← the live signal board
+├── ...projectSuccess\     ← WATCHTOWER — material external-change router; eyes, not hands
+│   ├── WATCHTOWER.md      ← promotion threshold + evidence-to-test contract
+│   └── radar.md           ← lean signal board; never a research library or project queue
 │
 ├── 00-BRAIN\  ← governance + command — load AGENT.md first, then the relevant capability profile
 │   ├── AGENT.md           ← universal OS — load FIRST, every session, any engine
@@ -64,8 +66,9 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 ├── 01-NORTH_STAR\  ← the star
 │   ├── NORTH_STAR.md      ← THE controlling document — nothing overrides it
 │   ├── README.md / SKILL_GAP_ANALYSIS.md
+│   ├── System Contracts\  ← ROOT_CAPABILITY_CONTRACT.md; loaded for OS design/evolution audits
 │   ├── Weekly Reviews\    ← weeklies + monthlies + template
-│   └── Goals & Milestones\
+│   └── Goals & Milestones\ ← CURRENT_STRATEGY.md + time-bounded prep/milestone evidence
 │
 ├── 02-LIBRARY\  ← reusable knowledge, projects, and school file home
 │   ├── 00-SCHOOL\         ← course files: 01-CSE-Python, 02-Physics I, 03-TCOM,
@@ -97,13 +100,16 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 
 **Tooling dotfolders at `.ROOT` root (not content, not in the map):** `.obsidian` — vault
 config + generated graph.json; `.claude` / `.agents` — AI tool settings; `.codex` — project
-Codex settings. A `.git` directory may be provisioned by local tooling, but this vault is
-not itself a Git repository. Do not flag these tooling folders as strays.
+Codex settings; `.git` — the live repository metadata. Do not flag these tooling
+folders as content strays or route ordinary notes into them. `.tmp.drivedownload`,
+`.tmp.driveupload`, and `.trash` are Drive/Obsidian transient tooling paths and are
+excluded from the graph; they are not content realms.
 
 **Boundaries:** the castle references, never absorbs. Each wiki refines its own
 domain, never governs the system; wikis are folders inside the one `.ROOT` vault,
-each with its own section operating context. Watchtower signals act only through the
-castle's adding-a-profit-skill gate. Placement authority: `WHERE_IT_GOES.md`.
+each with its own section operating context. Watchtower signals retain evidence in
+their owning wiki and act only through CASTLE gating, a bounded test, and measured
+outcome. Placement authority: `WHERE_IT_GOES.md`.
 Local machine (C:/D:) inventory: `LOCAL_MACHINE_MAP.md`.
 
 Active client-specific/private work lives in a separate client workspace or
@@ -118,4 +124,4 @@ Standing mechanism: before any write, confirm the parent chain traces to `.ROOT`
 by NAME against the live tree. Folder IDs are retired — do not use them.
 
 ---
-*Last updated: July 14, 2026 (intake/client reconciliation) | Next review: weekly*
+*Last updated: July 14, 2026 (live-link and graph-map reconciliation) | Next review: weekly*

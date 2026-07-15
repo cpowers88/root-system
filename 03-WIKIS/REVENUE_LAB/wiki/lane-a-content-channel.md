@@ -64,7 +64,7 @@ legal data project on public data:
    That separates "big channel" from "this specific video broke out" — the
    replicable signal Chris is after.
 3. **Store in SQLite, analyze in Python** — the same stack as the KSU tracker.
-   This is Track 2 skill work (APIs, SQL, data analysis) even if the channel
+   This is permanent-capability work (APIs, SQL, data analysis) even if the channel
    verdict is "not yet." The no-orphan test passes twice.
 4. Output: a niche shortlist where outlier-rate is high AND Chris has real
    material (construction knowledge, build-in-public .ROOT/ISYE story,
@@ -128,10 +128,10 @@ platform-transparent source before it can affect the scorecard.
 |---|---:|---|
 | Time-to-first-dollar | **1** | high thresholds are verified; time to reach them is unknown |
 | Daily-footprint fit | **2** | document-existing-work is promising, but editing/consistency cost is untested |
-| Skill overlap | **5** | API, Python, SQL, and analysis are direct Track 2 work |
+| Skill overlap | **5** | API, Python, SQL, and analysis directly strengthen the permanent capability base |
 | Compounding | **5** | an audience can become durable owned distribution if it gains traction |
 | Variance | **1** | thresholds and no personal performance data make this highly uncertain |
-| **Total** | **14/25** | a Track 2-compounding experiment, never survival income |
+| **Total** | **14/25** | a capability-compounding experiment, never survival income |
 
 ### Sources Checked
 

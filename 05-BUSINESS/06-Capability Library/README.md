@@ -24,14 +24,17 @@ reusable idea -> draft asset -> internal test/proof -> client-ready asset
 
 - **Reusable idea:** a repeated method, checklist, script, query, or workflow map noticed in a wiki (`03-WIKIS\BUSINESS`, `03-WIKIS\SYSTEMS`, or any hub), a field note, an audit template, or a live project.
 - **Draft asset:** the idea gets packaged here as `APQC_[process-area]_[asset-name].md` via `APQC_ASSET_TEMPLATE.md`, indexed in `CAPABILITY_LIBRARY_INDEX.md` at maturity `draft`, with a named next-action test — see Entry Rule below. Structured and indexed does not mean proven; maturity is stated honestly.
-- **Internal test/proof:** the draft gets a named test — a practice audit, a tracker/POL internal run, or real field observation (see `FIRST_RUN_CHECKLIST.md` § Close the Loop) — before it can advance past `draft` to `tested internally`.
+- **Internal test/proof:** the draft gets a named test — a practice audit, an approved internal workflow run, or real field observation (see `FIRST_RUN_CHECKLIST.md` § Close the Loop) — before it can advance past `draft` to `tested internally`.
 - **Client-ready asset:** once proven internally, the asset is clear enough to show or use with a prospect/client (maturity `client-ready`).
 - **Client instance:** when an asset gets used with a real prospect or client, the filled/applied copy lives in the authorized client workspace or repository outside `.ROOT` — never inside this folder or another `.ROOT` subfolder. This folder keeps the reusable master; the external client boundary keeps the instance.
 - **Deployment feedback:** sanitized, non-sensitive learning from the client instance (what worked, what broke, what needed changing) may update the asset's maturity and content here and, when relevant, the originating wiki or `05-BUSINESS\01-Audit Templates\` method. The loop closes at the reusable source without importing client-private data.
 
 **Inbound sources:** wiki pages (BUSINESS, SYSTEMS, or any hub with a reusable pattern), `05-BUSINESS\01-Audit Templates\`, sanitized `05-BUSINESS\02-Field Notes\`, live project builds, and approved sanitized field/client observations.
 
-**Test requirement:** every asset needs a named test before it can move past `draft` — a practice audit, a tracker/POL internal run, or real field observation (see `FIRST_RUN_CHECKLIST.md` § Close the Loop). No asset skips straight to `client-ready` without one. The named test is required to advance maturity, not to enter the folder — see Entry Rule below.
+**Test requirement:** every asset needs a named test before it can move past `draft`
+— a practice audit, an approved internal workflow run, or real field observation
+(see `FIRST_RUN_CHECKLIST.md` § Close the Loop). No asset skips straight to
+`client-ready` without one.
 
 **Outbound destinations:** separate authorized client workspaces for active client instances; `05-BUSINESS` subfolders for practice/sanitized artifacts; the originating wiki or method file when sanitized deployment feedback corrects the source.
 
@@ -74,4 +77,5 @@ APQC_12_2_VENDOR_TOOL_DECISION_CHECKLIST.md
 
 ## First-Run Standard
 
-A first-run asset does not need to be perfect. It needs to be specific, APQC-indexed, testable, and tied to the North Star service path.
+A first-run asset does not need to be perfect. It needs to be specific,
+APQC-indexed, testable, and tied to a real capability or active strategy assumption.

@@ -3,35 +3,22 @@ type: guide
 tags: [reference, programming]
 ---
 
-# Python Wiki
+# PYTHON Wiki — User Router
 
-This is the Python Wiki OS for Chris Powers's Python and computer-science learning path.
-
-It is built to convert books, syllabi, docs, examples, and practice sources into a staged learning system.
-
-## Primary Goal
-
-Teach Chris to read, write, execute, debug, and design Python programs while learning to think like a computer scientist.
-
-## Important Boundary
-
-This vault is for independent learning and preparation. If a school syllabus prohibits AI assistance, do not use this vault to solve graded assignments. Use it to learn the underlying concepts with original examples.
+This hub turns source material and practice into a staged Python/CS learning path.
+Generated packets are content readiness, not learner progress.
 
 ## Start Here
 
-1. Read `CLAUDE.md`.
-2. Read `wiki/current-position.md`.
-3. Read `wiki/learning-path.md`.
-4. Ingest syllabi first.
-5. Ingest books with the Multi-Source Intake Protocol.
-6. Build the 8-week path before generating large concept pages.
+1. `03-WIKIS\PYTHON\HOW_TO_USE.md` — human guide.
+2. `03-WIKIS\PYTHON\wiki\current-position.md` — Chris's live frontier.
+3. `03-WIKIS\PYTHON\wiki\learning-path.md` — sequence.
+4. `03-WIKIS\PYTHON\CLAUDE.md` — local operating contract for any AI.
 
-## Folder Roles
+Current frontier: Stage 2 — Decisions and Boolean Logic. The open proof is the
+choose-your-path mini-project plus explain-back/mastery check. The tracker is a
+real-use vehicle when verified D2L data arrives, not a replacement for the stage
+path.
 
-- `raw/` — immutable source files.
-- `templates/` — page templates Claude must follow.
-- `wiki/` — generated learning wiki.
-- `wiki/learning-path.md` — command center.
-- `wiki/source-map.md` — source inventory and book ranking.
-- `wiki/glossary/` — flashcard-ready vocabulary support.
-- `wiki/stages/` — sequential curriculum.
+`raw\` is immutable. Course-submitted work follows the live course AI policy and
+the academic-integrity boundary in `00-BRAIN\AGENT.md`.

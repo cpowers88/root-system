@@ -26,6 +26,7 @@ Tech-adoption landscape / skill-roadmap research /       → 03-WIKIS\TECHNOLOGY
 System dynamics / ISYE-prep content?                      → 03-WIKIS\SYSTEMS\
 AI/agent research, .ROOT self-evolution proposals?       → 03-WIKIS\AI_AUTOMATION_SYSTEMS\
 Digital revenue-stream research, lane evidence/scoring?  → 03-WIKIS\REVENUE_LAB\
+Verified external change with a material consequence?    → owning wiki evidence first, then ...projectSuccess\radar.md
 Everything else (life, school files, projects, artifacts, reviews) → .ROOT, tree below
 ```
 
@@ -40,7 +41,8 @@ approved case studies, and non-sensitive metadata return to `.ROOT`.
 
 ```
 AI instruction, session log, system flag, or map? → 00-BRAIN\
-Five-year plan, skill gaps, weekly/monthly review? → 01-NORTH_STAR\
+Durable direction, current strategy, skill gaps, prep plan, or strategic review? → 01-NORTH_STAR\
+Material external signal already supported in its evidence home? → ...projectSuccess\radar.md
 Tied to a specific KSU course? → 02-LIBRARY\00-SCHOOL\[course]\
 Has a deliverable, build, or launch goal? → 02-LIBRARY\.PROJECTS\[NAME]\
 Reusable reference (book, concept, cheat sheet)? → 02-LIBRARY\[domain]\
@@ -99,9 +101,15 @@ One copy, zero drift.
   `SKILLS\` as the canonical source for shared native skills. `.md` only except
   approved scripts. NOT here: course
   notes, project files, personal writing.
-- **01-NORTH_STAR\** — NORTH_STAR.md, README.md, SKILL_GAP_ANALYSIS.md,
-  `Weekly Reviews\`, `Goals & Milestones\`. NOT here: session logs, course
-  notes, project files.
+- **01-NORTH_STAR\** — durable direction in NORTH_STAR.md; progressive-loading
+  router in README.md; SKILL_GAP_ANALYSIS.md; `Weekly Reviews\`; and
+  `Goals & Milestones\` for CURRENT_STRATEGY.md, time-bounded prep plans, and
+  milestone evidence; `System Contracts\` for North-Star-derived OS capability and
+  return contracts. NOT here: generic AI governance, domain research, live projects,
+  or session logs.
+- **...projectSuccess\** — exactly two Watchtower files: operating contract in
+  WATCHTOWER.md and material external-signal routing in radar.md. Evidence remains
+  in the owning wiki; projects and strategy decisions never live here.
 - **02-LIBRARY\00-SCHOOL\** — course-file home, one folder per course
   (01-CSE-Python, 02-Physics I, 03-TCOM, 04-ECON, 05-ENGR, 99-EDG deferred);
   no extra KSU shell. `FallKSU.xlsx` + `OneNote\` live directly here.

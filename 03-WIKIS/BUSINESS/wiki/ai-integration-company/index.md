@@ -9,13 +9,20 @@ tags:
 
 > The operating plan for building an AI integration and operational improvement company for SMBs — from first client to a firm with serious enterprise value.
 
-**North Star:** Become a top 1% AI, Technology, and Business integrator and application developer, backed by a systems-engineering education — who designs, builds, sells, and maintains digital assets for businesses, engineering each one to its most efficient and profitable version. Full text: `.ROOT\01-NORTH_STAR\NORTH_STAR.md`; the wiki restatement is [[north-star-alignment|North Star Alignment]].
+**Authority:** durable direction lives in `.ROOT\01-NORTH_STAR\NORTH_STAR.md`;
+the active Advisor-Builder vehicle, offer, wedges, assumptions, and milestones live
+in `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`.
+[[north-star-alignment|North Star Alignment]] is a routing bridge, not a copied
+constitution.
 
 This is not an "AI gimmicks" business. It is a **diagnose → fix → maintain → harvest** business: find waste in an SMB, automate and integrate the workflows that remove it, stay on retainer to keep the systems running and improving, and pull a reusable asset out of every engagement.
 
 What it actually sells is the **redesign of work**: AI inserted at the task layer doing first-pass repeatable production, humans moved up to judgment, exceptions, and system improvement — the [[progressive-operating-thesis|Progressive Operating Thesis]] that shapes every page here.
 
-**Where this sits and when it activates:** this wiki is Track 3 of three, running behind school (non-negotiable) and core tech skills — see [[north-star-alignment|North Star Alignment]] for the full order. Entry wedges are **real estate via Heather's warm network first** and **construction/domain credibility in parallel** ([[market-map|Market Map]]), not an open vertical list. Per the Business Arc: foundation now through Aug 2026 is school + Python/SQL, no clients; first real conversations start ~Sep 2026; **first client is targeted for March 2027.** Read the roadmap pages below for the plan — execute their outreach/sales steps on that clock, not before.
+**Where this sits:** this wiki supplies business methods and evidence to the current
+strategy. School is the fixed spine; live technical learning follows its owning
+wikis. CASTLE/NOW decides when a business action is active. Roadmap pages are
+reference plans until the current strategy and CASTLE phase call for them.
 
 ---
 

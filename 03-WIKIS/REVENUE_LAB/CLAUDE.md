@@ -90,6 +90,15 @@ chunking, session start/close minimums, update-over-create, contradiction
 flagging, recency markers, and the lint pass — lives in
 `00-BRAIN\AGENT.md § Wiki Shared Layer`. One copy, zero drift.
 
+## Strategy and Watchtower Return
+
+Revenue Lab may test an adjacent continuity-income vehicle without redefining
+Chris's identity. Results return to CASTLE and the continuity-income milestone in
+`CURRENT_STRATEGY.md`. A verified external platform/market change reaches
+Watchtower only when it is material and names its evidence page, affected
+assumption/choice, consequence/test, and review trigger. Lane scans and our own test
+results remain here.
+
 ## Final Operating Principle
 
 Evidence governs AI-initiated recommendations. A path with no Tier 1–2 support

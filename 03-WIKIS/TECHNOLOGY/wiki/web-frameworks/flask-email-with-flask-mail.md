@@ -73,7 +73,7 @@ def send_email(to, subject, template, **kwargs):
 | North Star relevance | 2 | Useful but secondary — most client tools don't need automated email on day one. |
 | Current usefulness | 2 | Becomes relevant only once a specific client tool needs notifications. |
 | KSU support | 1 | Not connected to ISYE coursework. |
-| Tech-stack relevance | 4 | Flask is in the Top 12 stack; this is a secondary extension of it. |
+| Tech-stack relevance | 4 | Flask is in the possibility map; email is a secondary, need-driven extension. |
 | Business audit value | 2 | Indirect — a notification convenience, not an audit technique itself. |
 | Data/workflow value | 2 | Notification mechanism, not a core data-handling technique. |
 | Reading urgency | 1 | Low — defer until a client tool actually needs it. |

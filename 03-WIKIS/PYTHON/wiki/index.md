@@ -47,4 +47,4 @@ Generated curriculum exists through Stage 10, but Chris's current study stage is
 
 ## Update Rule
 
-Claude must update this index whenever new pages are created or renamed.
+Any AI working in this hub must update this index whenever pages are created or renamed.

@@ -4,36 +4,84 @@ tags: [reference, watchtower]
 ---
 
 # WATCHTOWER — Operating File
-### ...projectSuccess — the eyes of the system. Created July 6, 2026 (Chris's design).
+### `...projectSuccess` — the eyes of the system; exactly two files by design
+### Last updated: July 14, 2026 — connected to the North Star evidence ratchet
 
 ## Purpose
-Keep Chris ahead of the game: track where AI, technology, and the target markets are moving — specifically around the tools, skills, and services the system already uses — so the North Star goal keeps evolving *ahead* of trends instead of chasing them.
+
+Keep Chris ahead of material changes in AI, technology, markets, and the tools or
+industries `.ROOT` already depends on. The Watchtower turns external change into
+reviewable evidence without letting trends silently redirect the system.
 
 ## Scope
-**Belongs here:** industry signals (AI capability jumps, tool pricing/model changes, SMB software shifts, market moves in construction/field-services), competitor patterns, new opportunity classes, threats to the current stack or business model.
-**Does not belong here:** tutorials (→ 03-WIKIS), source deep-dives (→ the relevant 03-WIKIS hub — BUSINESS, SYSTEMS, TECHNOLOGY, etc., per WHERE_IT_GOES.md's Realm Check), project work (→ 02-LIBRARY\.PROJECTS), random ideas with no signal behind them (→ 77-INBOX).
 
-## How It Works — Signal Pipeline
+**Belongs here:** a verified external change that could materially affect an active
+strategy assumption, skill/stack choice, market wedge, offer, risk, or opportunity.
 
+**Does not belong here:** tutorials or source notes (owning `03-WIKIS` hub), project
+work (`02-LIBRARY\.PROJECTS`), ordinary ideas (`77-INBOX`), internal system friction
+(`SYSTEM_FLAGS.md`), or a strategy decision (`CURRENT_STRATEGY.md` / CASTLE).
+
+The contributing evidence homes are normally `TECHNOLOGY`,
+`AI_AUTOMATION_SYSTEMS`, `BUSINESS`, and `REVENUE_LAB`. Those hubs research and
+preserve the source; the Watchtower carries only the material signal and its route.
+
+## Promotion Threshold
+
+A note becomes a Watchtower signal only when all four are present:
+
+1. **New external change** — not a timeless fact or an unverified rumor.
+2. **Material consequence** — it could change an active assumption, stack, market,
+   offer, risk, or bounded test.
+3. **Evidence home** — the source and deeper analysis live in the owning wiki or
+   other permanent evidence home.
+4. **Review trigger** — a date, event, threshold, or explicit question tells the
+   system when to reconsider it.
+
+If one is missing, keep researching in the owning wiki; do not pad the radar.
+
+## Signal-to-Strategy Contract
+
+```text
+owning evidence home -> radar row -> weekly Watchtower sweep
+                     -> CASTLE opportunity/profit gate when material
+                     -> bounded test -> measured outcome
+                     -> CURRENT_STRATEGY assumption/milestone update
+                     -> quarterly Ratchet decision
 ```
-See something → log it on radar.md (one line: date, signal, why it matters, source, tier)
-Weekly sweep  → one 30-min pass: prune dead signals, promote hot ones
-Hot signal    → route through the castle gate (adding-a-profit-skill) — NEVER act directly
-Verdict       → gate says yes: it enters the roadmap · gate says no: parked here with the reason
-```
 
-**The iron rule:** the Watchtower has eyes, not hands. It never changes the roadmap, opens projects, or adds skills by itself. Every action passes through `00-BRAIN\CASTLE\wiki\decision-rules\adding-a-profit-skill.md`. This is what keeps "staying ahead of trends" from becoming "chasing shiny objects."
+**The iron rule:** the Watchtower has eyes, not hands. It may observe, verify,
+compare, and propose promotion. It may not open a project, add a skill, alter a
+milestone, rewrite strategy, or change the North Star. Hot commercial/skill signals
+pass through `00-BRAIN\CASTLE\wiki\decision-rules\adding-a-profit-skill.md` and the
+appropriate CASTLE queue before work begins. Chris owns the verdict.
+
+## Radar Row Contract
+
+Every live row records: date; signal; evidence home/source tier; affected strategy
+assumption or system choice; material consequence or test; status; next review; and
+CASTLE gate/outcome. `radar.md` is a routing board, not a second research library.
 
 ## Source Discipline
-Same tiers as the castle: Tier 1–2 sources (official docs, standards, reputable reports) can justify a gate run. Tier 4 (Reddit, YouTube hype, thin blogs) can only put a question on the radar — it must be verified by a stronger source before the gate sees it.
+
+Tier 1–2 sources (official documentation, standards, primary data, reputable
+reports) may support a gate run. Tier 4 discovery sources may raise a question only;
+verify them with stronger evidence before marking a signal hot.
 
 ## Cadence
-- **Weekly** (with the Sunday review): 30-minute sweep — this is the "Horizon" rep in START_HERE's loop.
-- **Monthly**: prune anything that's been ⏸ WATCHING for 60+ days with no development.
-- **Danger weeks (Oct 5 – Nov 11, 2026):** the tower goes dark. Signals wait.
 
-## AI Role Here
-Any AI session may append signals to `radar.md` (with source + tier) and may run the weekly sweep when asked. AI proposes promotions; the gate + Chris decide. Do not create additional files here without approval — the tower is two files by design.
+- **Weekly:** one 30-minute sweep with the Sunday review; verify, cool, promote, or
+  prune rows and set the next review.
+- **Monthly:** prune rows that have remained watching for 60+ days without a material
+  development or useful scheduled trigger.
+- **Quarterly:** bring only completed tests and material unresolved signals into the
+  Ratchet Review; novelty alone does not earn a strategy change.
+- **Danger weeks (Oct 5–Nov 11, 2026):** the tower goes dark; signals wait unless a
+  real safety, school, client, or continuity risk requires Chris's attention.
 
-## Last Updated
-July 6, 2026 — created during the .ROOT migration.
+## AI Role and File Boundary
+
+Any AI may append a qualifying, sourced row or perform the scheduled sweep. AI must
+name what the signal could affect and the next review; it must not overstate an
+unverified consequence. Do not create more files in this folder without Chris's
+approval. The Watchtower remains `WATCHTOWER.md` + `radar.md`.

@@ -105,3 +105,10 @@ tags: [log]
   exhaustive index, resolving the one EDUCATION index omission/orphan pair
   found by strict wiki lint. No learning content or Physics work changed.
 - Next: normal pre-semester cadence; update current-position when D2L opens.
+
+## 2026-07-14 — Human guide reconciled to live school authority
+
+- Connected HOW_TO to the pre-semester plan and official-source precedence.
+  Removed stale certainty around recycled course dates, incomplete weights, and
+  an older ENGR policy while keeping the D2L update trigger explicit.
+- Cross-reference validation found no active dead link in the guide.

@@ -242,3 +242,11 @@ subset first). Prior carry-over unchanged: hands-on PM4Py trial.
 - SYSTEMS wiki now at 70 pages total.
 - Next action: continue the real intake pass on FORGE's remaining `wiki\business\`
   content (~105 pages) into BUSINESS wiki per its §7A protocol.
+
+## 2026-07-14 — Human guide reconciled after migration
+
+- Updated HOW_TO to route business applications through CURRENT_STRATEGY only when
+  relevant, treat inherited North Star wording as a hypothesis rather than doctrine,
+  and use the exact field-observation skill path.
+- Live guide/map scans and strict wiki lint found no active dead link. Older FORGE
+  references above remain append-only migration history, not current instructions.
