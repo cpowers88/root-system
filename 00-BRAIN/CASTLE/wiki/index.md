@@ -1,5 +1,8 @@
 ---
-tags: [reference]
+type: map
+timeline: reference
+reference_priority: core
+tags: []
 ---
 
 # Index — Every Page in the Castle

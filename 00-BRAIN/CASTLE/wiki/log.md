@@ -1,5 +1,7 @@
 ---
-tags: [reference]
+type: log
+timeline: log
+tags: []
 ---
 
 # Castle Log — Append Only
@@ -822,3 +824,16 @@ gate before any permanent content/revenue workspace or publishing commitment.
 - Next: obtain Chris’s final approval for the exact Phase 5D checkpoint, commit it
   without Claude’s concurrent DAILY/PHYSICS files, then open the next bounded
   Phase 5 chunk.
+
+## 2026-07-15 — CASTLE special-role metadata closure ready (Codex, Chris-directed)
+
+- Classified the CASTLE index as a core reference map and the append-only CASTLE
+  log as historical evidence; removed their final two legacy control tags.
+- Verified `current-position.md` already expresses its live role correctly and
+  left its metadata and body unchanged.
+- Retrieval now resolves to six core reference pages, three supporting reference
+  pages, eight current pages, and one CASTLE history page.
+- The two named missing-type findings are resolved; the remaining reviewed
+  metadata debt is 618, with no baseline refresh or unrelated migration.
+- Next: Chris reviews this exact three-file Phase 5E checkpoint before commit and
+  selection of the next bounded metadata realm.
