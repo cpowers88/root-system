@@ -1,6 +1,8 @@
 ---
 type: guide
-tags: [reference, governance]
+timeline: reference
+reference_priority: core
+tags: [governance]
 created: 2026-07-12
 ---
 

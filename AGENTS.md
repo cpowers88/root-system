@@ -1,6 +1,7 @@
 ---
 type: pointer
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # AGENTS.md — Root Codex Auto-Load Pointer

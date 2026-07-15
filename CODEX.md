@@ -1,6 +1,7 @@
 ---
 type: pointer
-tags: [reference, governance, codex]
+timeline: reference
+tags: [governance, codex]
 ---
 
 # CODEX.md — Root Codex Auto-Load Pointer

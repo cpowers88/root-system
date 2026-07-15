@@ -1,6 +1,7 @@
 ---
 type: pointer
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # CLAUDE.md — Root Claude Auto-Load Pointer
