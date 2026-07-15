@@ -72,3 +72,11 @@ The four-source LLM-wiki batch ingested this session — see
 [[llm-wiki-pattern-and-second-brain-tools]] for what was adopted vs.
 rejected (rejected: hot cache, scheduled self-rewriting agents,
 contradiction auto-resolution).
+
+## Post-Change Check (added 2026-07-15, check_at discipline)
+
+- **Expected behavior:** the shared wiki rules live in exactly one place (`AGENT.md § Wiki Shared Layer`); hub operating files stay slim and point to it instead of re-copying rules.
+- **Evidence for improvement or regression:** boot-chain and wiki-lint passes with no duplicated shared-rule text; hub CLAUDE.md files still pointing, not copying. Regression = a hub re-copies or contradicts the shared layer.
+- **check_at:** 2026-07-24 (fires on every wiki session; roughly ten real sessions will have run by then)
+- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
+- **Verdict:** (keep / modify / revert — blank until the check date)

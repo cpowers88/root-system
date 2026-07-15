@@ -97,9 +97,15 @@ carries only this wiki's own rules.
 
 Every proposal in `wiki/proposals/` must state: the friction or drift observed,
 the specific file(s) it would touch, the proposed change, why it's better than
-the status quo, and its risk/blast radius. Proposals are drafts — they become
-real only when Chris (or the castle's review cadence) approves them into the
-target file.
+the status quo, and its risk/blast radius — plus a **Post-Change Check**:
+expected behavior after the change, evidence that would show improvement **or
+regression**, and a `check_at` date tied to real usage (not calendar
+convenience). At the check date, record the observed **Outcome** with an
+evidence link and a **keep / modify / revert Verdict**. An applied proposal
+with no recorded outcome is not yet proven (added 2026-07-15; all previously
+approved proposals were retrofitted the same day). Proposals are drafts — they
+become real only when Chris (or the castle's review cadence) approves them into
+the target file.
 
 ## Watchtower Handoff
 

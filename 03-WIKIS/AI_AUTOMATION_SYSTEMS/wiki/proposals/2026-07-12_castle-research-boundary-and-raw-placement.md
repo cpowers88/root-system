@@ -85,3 +85,11 @@ should keep for genuinely time-sensitive material.
 (existing routing rule, missing raw-intake layer), `00-BRAIN\vault_map.md`
 (CASTLE structure, missing `raw\`), and this session's own two-pack
 mis-placement incident as the live evidence.
+
+## Post-Change Check (added 2026-07-15, check_at discipline)
+
+- **Expected behavior:** every new source lands in its owning wiki's `raw/` before processing; no repeat of the two-pack mis-placement incident.
+- **Evidence for improvement or regression:** intake entries in wiki logs showing first-try correct raw placement since 2026-07-12. Regression = any new mis-placement flag or in-place ingest outside the owning wiki.
+- **check_at:** 2026-08-01 (monthly weak-link review; several real intakes will have occurred)
+- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
+- **Verdict:** (keep / modify / revert — blank until the check date)

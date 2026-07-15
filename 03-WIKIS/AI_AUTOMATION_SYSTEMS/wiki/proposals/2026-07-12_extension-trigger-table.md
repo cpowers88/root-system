@@ -64,3 +64,11 @@ seven rows.
 
 [[claude-code-workflows-and-sessions]] — "The extension trigger table"
 section.
+
+## Post-Change Check (added 2026-07-15, check_at discipline)
+
+- **Expected behavior:** repeated symptoms route to the smallest matching extension per the AGENT.md trigger table, instead of ad-hoc skill/hook creation or the same friction recurring with no extension at all.
+- **Evidence for improvement or regression:** any extension created after 2026-07-12 names its trigger-table row; recurring symptoms in DAILY/flags map to a considered row. Regression = an extension with no table match, or a symptom repeating three-plus times with no extension decision.
+- **check_at:** 2026-08-24 (enough post-change extension decisions and semester-start friction will have accumulated)
+- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
+- **Verdict:** (keep / modify / revert — blank until the check date)

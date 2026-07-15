@@ -62,3 +62,11 @@ content.
 ## Source Basis
 
 [[openai-mcp-and-chatgpt-apps]] — Secure MCP Tunnel section.
+
+## Post-Change Check (added 2026-07-15, check_at discipline)
+
+- **Expected behavior:** every MCP connector vetting includes the tunnel/exposure check folded into the "Check for:" list; no connector is adopted with an unexamined exposure path.
+- **Evidence for improvement or regression:** vetting notes for any connector adopted after 2026-07-12 show the exposure check. Regression = a connector in use with no tunnel/exposure line in its vetting record.
+- **check_at:** 2026-11-30 (this proposal's own inline revisit date, kept as the honest horizon — MCP adoption is not expected sooner)
+- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
+- **Verdict:** (keep / modify / revert — blank until the check date)

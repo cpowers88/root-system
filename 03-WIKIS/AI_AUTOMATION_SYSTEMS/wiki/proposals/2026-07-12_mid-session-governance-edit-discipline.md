@@ -58,3 +58,11 @@ files affected.
 [[claude-code-context-and-instruction-economics]] — "Prompt caching — the
 mechanics the prior pass missed" section, sourced exactly to
 `PROMPT_CACHING.md`.
+
+## Post-Change Check (added 2026-07-15, check_at discipline)
+
+- **Expected behavior:** system/governance files are edited only with explicit approval, never silently mid-task; mid-session improvement ideas get recorded separately instead of applied on the spot.
+- **Evidence for improvement or regression:** the July 15 remediation-and-design sprint is the richest test window — every governance edit (Codex phases, Claude chunks) should carry an explicit Chris approval in the DAILY. Regression = any governance diff with no matching approval record.
+- **check_at:** 2026-07-29 (immediately after the sprint's governance-heavy window closes)
+- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
+- **Verdict:** (keep / modify / revert — blank until the check date)

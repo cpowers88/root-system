@@ -103,6 +103,11 @@ on top of its roadmap role:
 
 - **Weekly sweep** (alongside the existing Watchtower sweep): read each wiki's
   `log.md` and summarize what moved.
+- **check_at review** (added July 15, 2026): scan
+  `03-WIKIS\AI_AUTOMATION_SYSTEMS\wiki\proposals\` and `SYSTEM_LEARNINGS.md` for
+  entries whose `check_at` date has arrived; record the observed Outcome with an
+  evidence link and a keep/modify/revert Verdict in the entry itself. An applied
+  change with no recorded outcome is not yet proven.
 - **Staleness spot-check:** rotate one active guide or dashboard; compare its
   stated current state against the live source it names, and flag any mismatch.
 - Maintain `00-BRAIN\vault_map.md` and `.ROOT\.obsidian\graph.json`'s color groups

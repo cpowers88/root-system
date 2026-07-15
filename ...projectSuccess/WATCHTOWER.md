@@ -62,8 +62,10 @@ and the appropriate CASTLE queue before work begins. Chris owns the verdict.
 
 Every live row records: date; signal; evidence home/source tier; affected strategy
 assumption or system choice; material consequence or test; status; next review; and
-CASTLE gate/outcome. [radar.md](radar.md) is a routing board, not a second research
-library.
+CASTLE gate/outcome. A gated signal's returned proof follows the uniform Return
+Packet in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md § Return
+Packet` (via the Watchtower proof packet in `CASTLE\OPERATIONS.md`).
+[radar.md](radar.md) is a routing board, not a second research library.
 
 ## Source Discipline
 

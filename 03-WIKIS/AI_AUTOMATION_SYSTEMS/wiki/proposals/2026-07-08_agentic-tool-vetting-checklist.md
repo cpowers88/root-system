@@ -90,3 +90,11 @@ compressed audit-usable style):
   the checklist criteria (system card, sandboxing, stop controls, gates,
   disclosure) are structural rather than vendor-specific, so they should
   age slowly. Vendor examples can be dropped if they date.
+
+## Post-Change Check (added 2026-07-15, check_at discipline)
+
+- **Expected behavior:** every new agentic tool considered for `.ROOT` gets the vetting screen applied before adoption; no tool enters use without a recorded system-card/sandboxing/stop-control review.
+- **Evidence for improvement or regression:** DAILY/wiki-log entries for tool vettings citing the checklist. Regression = any tool adopted after 2026-07-08 with no vetting record.
+- **check_at:** 2026-08-24 (first new-tool vetting event or the fall-semester toolset review, whichever comes first)
+- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
+- **Verdict:** (keep / modify / revert — blank until the check date)
