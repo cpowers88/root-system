@@ -6,6 +6,35 @@ tags: []
 
 # Castle Log — Append Only
 
+## 2026-07-15 (evening) — Prove-the-loop staging (Chunk 4 of the approved system-design lane)
+
+- The design gaps from the July 14 direction review are closed as of tonight
+  (canonical System Loop + Return Packet in the capability contract; hub-type
+  blocks in all eight `HOW_TO_USE.md`; Post-Change Checks on every approved
+  system change). What remains is Pass C: proof through real use, by August 24.
+- **Two system changes to run through real check_at verdicts** (chosen because
+  both fire on every real session, so evidence accumulates without extra work):
+  1. `2026-07-12_session-close-capture-prompt` — check 2026-07-25 (~10 closes).
+  2. `2026-07-09_wiki-shared-layer-and-lane-cleanup` — check 2026-07-24.
+  The weekly sweep's new check_at bullet (OPERATIONS.md) carries these dates.
+- **Three candidate real-work loops to close end-to-end** (research/learning →
+  use → measured outcome → changed artifact or belief):
+  1. **School:** Physics Stage 3 — harder non-axis-aligned vector rep → no-notes
+     pass over all four skills → mastery checklist verdict in
+     `03-WIKIS\PHYSICS\wiki\current-position.md`. (Python Stage 2 mini-project is
+     the alternate if Physics closes early.)
+  2. **School-ops build:** KSU Academic Tracker — verified D2L data ~July 25 →
+     real course-tracking use → measured outcome recorded against
+     `wiki\proof-projects\ksu-academic-tracker.md`.
+  3. **Sensing-to-strategy:** the first genuine external signal that clears the
+     Watchtower promotion threshold → radar's first real row → CASTLE gate →
+     bounded test → measured outcome. Not manufactured; if no qualifying signal
+     appears by Aug 24, that is recorded honestly.
+- **Standing rule for this window:** outcomes are only writable with a linked
+  artifact produced by actual use. An honest shortfall at the August 24 review
+  beats a manufactured proof. System work is now maintenance-only; school,
+  delivery, and income evidence own the calendar.
+
 ## 2026-07-15 (morning) — Stability review + Fall CASTLE calendar built (SYSTEM_FLAGS #51 closed)
 
 - Ran the morning system review Chris requested (Operator hat): boot chain PASS,
