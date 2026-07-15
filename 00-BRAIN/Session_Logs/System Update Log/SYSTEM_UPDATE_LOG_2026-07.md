@@ -23,6 +23,7 @@ created: 2026-07-15
 
 | Date | Commit | Owner | What changed | Evidence / report |
 |---|---|---|---|---|
+| 07-15 | `06a68e3` | Claude | U3: Phase 7 execution brief written for Codex; this ledger + `Closed Flags\` ledger installed (13 rows migrated; SYSTEM_FLAGS now OPEN-only with write-at-close rule); WHERE_IT_GOES/vault_map/OPERATIONS wired to both | `ROOT_REMEDIATION_PHASE_7_FINAL_ACCEPTANCE_BRIEF_2026-07-15.md`; DAILY 07-15 night block |
 | 07-15 | `4b9b201` | Claude | U2 hygiene: `Report Archive\` created + 15 completed reports moved; 10 inert stubs archived; 8 pre-standard archive names normalized; Co-Intelligence duplicate archived (hash-verified); hub archetype standard added to WHERE_IT_GOES; root CODEX.md deduplicated to a stub | DAILY 07-15 U2 block |
 | 07-15 | `596e25e` | Claude | U1 LIBRARY clarity: reference domains renamed to `REF-<NAME>`; 5 empty scaffolds archived; first `02-LIBRARY\README.md` + `05-BUSINESS\README.md`; 114 path references swept incl. frontmatter baseline; START_HERE truth fixes | DAILY 07-15 U1 block |
 | 07-15 | `2bff839` | Chris | Landed pending working-tree changes (incl. make.com_notes frontmatter completion — resolved ~90 baseline findings — and PHYSICS school-lane updates) | git commit |
