@@ -1,9 +1,10 @@
 ---
 type: reference
-tags: [reference, programming]
+timeline: reference
+tags: [programming]
 ---
 
-#python #syntax #coding 
+# Python Standard Library Links
 
 
 
@@ -150,6 +151,5 @@ tags: [reference, programming]
 
 
 &#x09;
-
 
 

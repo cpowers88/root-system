@@ -1,13 +1,10 @@
 ---
 type: reference
-tags: [reference, programming]
+timeline: reference
+tags: [programming]
 ---
 
 # Useful Python Functions INDEX
-#syntax
-#school #coding
-
-
 ## Functions
 
 - mkdir         ---->Makes directories

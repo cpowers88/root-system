@@ -1,11 +1,14 @@
 ---
+type: clipping
+timeline: parked
+status: awaiting-review
 title: "Thank You for Subscribing! - Be on the Right Side of Change"
 source: "https://blog.finxter.com/thank-you-for-subscribing/"
 author:
 published: 2018-09-14
 created: 2026-07-10
 description:
-tags:
+tags: [programming]
 ---
 ## Welcome! Be on the Right Side of Change
 
