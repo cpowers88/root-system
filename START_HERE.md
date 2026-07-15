@@ -24,7 +24,7 @@ The castle maintains it; if the date is stale, tell the AI.
 |---|---|
 | 📄 `NOW.md` | **Start your day.** One screen, one priority. |
 | 📘 [ROOT_OPERATING_MANUAL.md](ROOT_OPERATING_MANUAL.md) | **Learn how to operate.** Use the proof loops, ownership rules, and closeout pattern after this map. |
-| 🗼 `...projectSuccess` | **Watch material external change.** Evidence stays in its wiki; qualifying signals enter the two-file radar, then CASTLE gates any test. |
+| 🗼 [WATCHTOWER.md](...projectSuccess/WATCHTOWER.md) | **Watch material external change.** Evidence stays in its wiki; qualifying signals enter the two-file radar, then CASTLE gates any test. |
 | 🧠 `00-BRAIN` | See/change how the AI operates. `AGENT.md` is the universal OS every engine boots from; surface profiles (`CLAUDE.md` / `CODEX.md` / `ATLAS.md`) describe strengths and access; `HATS\` holds optional modes; 🏰 `CASTLE` (the command center — phases, skills, proof projects) lives here too, plus maps, flags, session logs. |
 | ⭐ `01-NORTH_STAR` | **Read the durable star.** Load `CURRENT_STRATEGY.md` only for the active business vehicle, and the prep plan only for pre-semester sequencing. |
 | 📚 `02-LIBRARY` | Grab reference by domain. Also `.PROJECTS` (build docs), `00-SCHOOL` (course files), and `.raw ARCHIVE` (sources). |

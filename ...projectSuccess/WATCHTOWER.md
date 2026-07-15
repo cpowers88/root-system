@@ -1,6 +1,7 @@
 ---
 type: ops
-tags: [reference, watchtower]
+timeline: reference
+tags: [watchtower]
 ---
 
 # WATCHTOWER — Operating File
@@ -53,14 +54,16 @@ owning evidence home -> radar row -> weekly Watchtower sweep
 **The iron rule:** the Watchtower has eyes, not hands. It may observe, verify,
 compare, and propose promotion. It may not open a project, add a skill, alter a
 milestone, rewrite strategy, or change the North Star. Hot commercial/skill signals
-pass through `00-BRAIN\CASTLE\wiki\decision-rules\adding-a-profit-skill.md` and the
-appropriate CASTLE queue before work begins. Chris owns the verdict.
+pass through
+[adding-a-profit-skill.md](../00-BRAIN/CASTLE/wiki/decision-rules/adding-a-profit-skill.md)
+and the appropriate CASTLE queue before work begins. Chris owns the verdict.
 
 ## Radar Row Contract
 
 Every live row records: date; signal; evidence home/source tier; affected strategy
 assumption or system choice; material consequence or test; status; next review; and
-CASTLE gate/outcome. `radar.md` is a routing board, not a second research library.
+CASTLE gate/outcome. [radar.md](radar.md) is a routing board, not a second research
+library.
 
 ## Source Discipline
 

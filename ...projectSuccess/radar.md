@@ -1,13 +1,15 @@
 ---
 type: board
-tags: [now, watchtower]
+timeline: now
+tags: [watchtower]
 ---
 
 # RADAR — Live Signal Board
 ### 🔥 HOT · 👁 WATCHING · ⏸ COOLING · ✅ GATED/TESTING · 🧪 OUTCOME · 🗑 PRUNED
 
-Only rows that pass the four-part promotion threshold in `WATCHTOWER.md` belong
-here. Newest first. Link to evidence; do not copy the research into this board.
+Only rows that pass the four-part promotion threshold in
+[WATCHTOWER.md](WATCHTOWER.md) belong here. Newest first. Link to evidence; do not
+copy the research into this board.
 
 | Date | Signal | Evidence home / source tier | Affects | Consequence or bounded test | Status | Next review | CASTLE gate / outcome |
 |---|---|---|---|---|---|---|---|
