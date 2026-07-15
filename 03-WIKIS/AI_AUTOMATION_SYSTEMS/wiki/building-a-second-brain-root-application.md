@@ -13,7 +13,7 @@ Express; PARA: Projects/Areas/Resources/Archives). Read in full for a
 live in the full report — this page summarizes the verdict and points there
 rather than duplicating it.
 
-Full report: `00-BRAIN\Session_Logs\BUILDING_A_SECOND_BRAIN_ROOT_STRUCTURE_REPORT_2026-07-12.md`.
+Full report: `00-BRAIN\Session_Logs\Report Archive\BUILDING_A_SECOND_BRAIN_ROOT_STRUCTURE_REPORT_2026-07-12.md`.
 
 ## One-paragraph summary
 
@@ -83,6 +83,6 @@ of `.ROOT` in this wiki — that one assesses capability maturity directly;
 this one assesses the *knowledge-management* architecture against an
 external framework. Read together for the fullest self-evolution picture.
 
-Source report: `00-BRAIN\Session_Logs\BUILDING_A_SECOND_BRAIN_ROOT_STRUCTURE_REPORT_2026-07-12.md`.
+Source report: `00-BRAIN\Session_Logs\Report Archive\BUILDING_A_SECOND_BRAIN_ROOT_STRUCTURE_REPORT_2026-07-12.md`.
 Validation dependency this work was gated behind:
-`00-BRAIN\Session_Logs\ROOT_OPERATING_INSTRUCTIONS_VALIDATION_2026-07-12.md`.
+`00-BRAIN\Session_Logs\Report Archive\ROOT_OPERATING_INSTRUCTIONS_VALIDATION_2026-07-12.md`.

@@ -4,12 +4,14 @@ timeline: reference
 tags: [governance, codex]
 ---
 
-# CODEX.md — Root Codex Auto-Load Pointer
+# CODEX.md — Root Codex Auto-Load Pointer (stub)
 
-You are Codex in .ROOT. This file exists at the vault root so Codex sessions boot correctly. The rules live elsewhere:
+This file and `AGENTS.md` are the same boot pointer; `AGENTS.md` is canonical
+(it is the filename Codex tooling auto-discovers). Follow `AGENTS.md` at this
+vault root — do not maintain rules or boot steps here, so the two can never
+drift.
 
-1. Boot: `C:\Users\chris\.ROOT\00-BRAIN\AGENT.md` (universal OS — always first)
-2. Profile: `C:\Users\chris\.ROOT\00-BRAIN\CODEX.md` (Codex capability and execution-discipline notes)
-3. Then: `00-BRAIN\CHRIS_CORE.md`, `00-BRAIN\SYSTEM_FLAGS.md`, optional `00-BRAIN\HATS\` mode, and the section operating file for the work at hand
-
-During the July 10, 2026 lane split this file rotated as the pass-prompt slot; those prompts are archived in `99-ARCHIVE\` (ARCHIVED_2026-07-10_CODEX_pass3/4/5_prompt.md). Do not add rules to this file.
+History: during the July 10, 2026 lane split this slot rotated as the
+pass-prompt slot; those prompts are archived in `99-ARCHIVE\`
+(ARCHIVED_2026-07-10_CODEX_pass3/4/5_prompt.md). Deduplicated to a stub
+July 15, 2026.

@@ -149,6 +149,17 @@ material by subject using the Realm Check table above. Shared wiki rules
 (raw immutability, chunking, session minimums, lint, ingest discipline) live
 once in `00-BRAIN\AGENT.md § Wiki Shared Layer`.
 
+**Hub archetype standard (what files a session may assume exist):** every hub
+carries `CLAUDE.md`, `HOW_TO_USE.md` (with its Hub Contract block),
+`wiki\index.md`, and `wiki\log.md` — nothing else is universal. **Learning
+engines** (PYTHON, PHYSICS, EDUCATION) additionally own `wiki\current-position.md`
+as learner truth, and at full build-out a `learning-path`, `parking-lot`,
+`templates\`, and stage machinery (EDUCATION grows these on demand).
+**Research-retrieval and application-decision hubs** own no current-position
+file — their `wiki\index.md` is the retrieval layer, and their Hub Contract
+names the current-truth file. Do not retrofit learning scaffolding onto a
+research hub or expect index-only navigation from a learning hub.
+
 **Lane rules:** new AI/LLM/agent research routes to `AI_AUTOMATION_SYSTEMS` —
 TECHNOLOGY's `ai-and-llm/` subfolder is closed inherited reference.
 `02-LIBRARY\REF-AI-AUTOMATION` is an artifact/reference home, not a wiki
