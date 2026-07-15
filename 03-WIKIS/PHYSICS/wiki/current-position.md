@@ -29,10 +29,12 @@ Known learning requirements:
 
 First live teaching session ran 2026-07-14 (log entry same date). Chris correctly worked, in real time: coordinate conversion (with a self-caught degree/radian error), scalar-vs-vector classification (with an independent correct generalization about distance→displacement), vector decomposition, and vector reconstruction. Vector addition by components was started but not finished — Chris had to leave mid-problem. One correct rep each is not the same as the mastery checklist's "without notes" bar; treat all four skills as **in progress**, not done.
 
+Session resumed 2026-07-15 (log entry same date): Chris solved the paused addition problem (40 N at 0° + 30 N at 90°) independently — correct components, correct sum, correct magnitude (50 N), and self-corrected an initial angle error to land on the right answer (36.87°) without being told. This closes the one skill that had zero reps, but it was the easiest case (both vectors already axis-aligned, no real decomposition required) — not yet the no-notes pass the mastery checklist requires.
+
 ## First 7-Day Priority
 
-1. **Resume vector addition by components** — the paused problem (two forces, 40 N at 0° and 30 N at 90°; have Chris explain why the resultant isn't 70 N before computing it). This is the one core Stage 3 skill not yet attempted.
-2. Run one more independent, no-notes pass over all four skills — coordinate conversion, scalar/vector ID, decomposition, reconstruction, and (once solved) addition — before treating any mastery checklist item as checked.
+1. **Do one harder addition rep** — two vectors at non-axis angles, so both actually get decomposed (not the axis-aligned shortcut from 2026-07-15).
+2. Run one full independent, no-notes pass over all four skills — coordinate conversion, scalar/vector ID, decomposition, reconstruction, and addition — before treating any mastery checklist item as checked.
 3. Pass the Stage 3 mastery checklist ([[stages/stage-3-vectors]]) before moving to Stage 4. The dot product pages exist but are **not** required for this — they're Stage 7 preview material, parked deliberately.
 4. Full D2L lecture-date calendar for Ch 6 onward is still pending — get exact exam and lecture dates when available.
 

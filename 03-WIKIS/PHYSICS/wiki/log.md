@@ -428,3 +428,36 @@ Append-only session record.
   authority, including the exact paused Stage 3 action and provisional status of
   generated-but-unmastered packets.
 - Cross-reference validation found no active dead link; the next action is unchanged.
+
+## 2026-07-15 — Stage 3 vector-addition problem resumed and solved
+
+### Objective
+- Resume the paused 2026-07-14 problem (40 N at 0° + 30 N at 90°) live with Chris,
+  per this wiki's teach-then-verify method.
+
+### Sources touched
+- `wiki/stages/stage-3-vectors.md`, `wiki/common-errors/stage-3-vectors.md` (read
+  as teaching source; not modified).
+
+### What Chris demonstrated live
+- Explained why the resultant isn't 40+30=70 N (vector addition depends on
+  direction, not just magnitude) after a vocabulary correction.
+- Built components from the cos/sin formula: Ax=40, Ay=0, Bx=0, By=30.
+- Added components correctly (Rx=40, Ry=30) and computed R=50 N independently.
+- Made an angle error (53.13°, the complement of the correct answer) then
+  self-corrected to 36.87° from the +x axis, correctly diagnosing that he'd
+  measured off the wrong leg of the triangle — without being told.
+
+### Concepts/equations/problem types added
+- None new. Teaching rep on existing packet content (vector addition by
+  components), the one Stage 3 skill previously flagged as not yet attempted.
+
+### Parked material
+- None new.
+
+### Next action for Chris
+- This was the easiest case (both vectors axis-aligned, no real decomposition
+  needed). Do one more rep with two vectors at non-axis angles, so both actually
+  get decomposed, then complete the required no-notes pass over all four Stage 3
+  skills (conversion, scalar/vector ID, decomposition, reconstruction, addition)
+  before checking off the mastery checklist in `wiki/stages/stage-3-vectors.md`.
