@@ -1,7 +1,9 @@
 ---
 type: phase
+timeline: next
+stage: phase-3
 status: planned
-tags: [phase, next]
+tags: [phase]
 ---
 
 # Phase 3 — Data & Workflow Systems Foundation

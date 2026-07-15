@@ -1,6 +1,7 @@
 ---
 type: map
-tags: [now, business, opportunities]
+timeline: now
+tags: [business, opportunities]
 created: 2026-07-14
 status: live
 ---

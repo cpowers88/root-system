@@ -1,7 +1,9 @@
 ---
 type: proof-project
+timeline: now
+stage: phase-0
 status: active
-tags: [proof-project, now, school, technology]
+tags: [proof-project, school, technology]
 ---
 
 # KSU Academic Tracker

@@ -1,13 +1,17 @@
 ---
 type: phase
+timeline: now
+stage: phase-1
 status: planned
-tags: [phase, now]
+tags: [phase]
 ---
 
 # Phase 1 — School + Core Technical Foundation
 
 **Window**: August 24, 2026 – May 2027 (Fall + Spring semesters)
 **One-line purpose**: Pass the first KSU year strong while Python and SQL become working daily tools.
+
+> **Metadata note:** preparation is current (`timeline: now`); the formal phase remains `status: planned` until its August 24 window opens.
 
 ## Purpose
 School is the fixed spine. Fall 2026: ECON 1000, ENGR 1000, PHYS 2211, CSE 1321+L,

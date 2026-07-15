@@ -1,13 +1,17 @@
 ---
 type: phase
+timeline: now
+stage: phase-2
 status: planned
-tags: [phase, next]
+tags: [phase]
 ---
 
 # Phase 2 — Audit Methodology Foundation
 
 **Window**: September 2026 – February 2027 (runs alongside Phase 1, at semester pace)
 **One-line purpose**: Turn audit instinct into a documented, repeatable, sellable method.
+
+> **Metadata note:** the first live observation is current (`timeline: now`); the formal phase remains `status: planned` until its September window opens.
 
 ## Purpose
 Build and rehearse the observation → map → findings pipeline so that by February 2027

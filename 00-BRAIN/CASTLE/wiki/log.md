@@ -806,3 +806,19 @@ gate before any permanent content/revenue workspace or publishing commitment.
 - Next: follow the latest `NOW.md` owner state: close the bounded Fall CASTLE-calendar
   task now listed first, then return to Physics Stage 3. Do not expand this audit into
   another architecture pass.
+
+## 2026-07-15 — Metadata v2 Phase 5A–5D checkpoint prepared (Codex, Chris-directed)
+
+- Phase 5A migrated authority surfaces; Phase 5B clarified CASTLE creation
+  templates; Phase 5C separated the reference/navigation layer from action timing.
+- Phase 5D migrated nine CASTLE action pages from legacy control tags to explicit
+  timeline metadata: seven now, one next, and one later. Seven static phase
+  associations use `stage`; multi-phase SQL remains unforced.
+- The CASTLE router now exposes the complete current-page search while preserving
+  `.ROOT\NOW.md` as the system-wide daily authority. Phase 0 also reflects the
+  tracker’s July 8 shipment and its two already-completed baseline criteria.
+- `NOW.md` was checked against its live owner state; this metadata correction did
+  not change daily priority, so no cockpit rewrite was needed.
+- Next: obtain Chris’s final approval for the exact Phase 5D checkpoint, commit it
+  without Claude’s concurrent DAILY/PHYSICS files, then open the next bounded
+  Phase 5 chunk.

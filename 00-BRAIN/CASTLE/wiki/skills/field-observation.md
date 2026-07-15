@@ -1,8 +1,10 @@
 ---
 type: skill
+timeline: now
+stage: phase-2
 category: diagnostic
 status: building
-tags: [skill, next]
+tags: [skill]
 ---
 
 # Field Observation & Process Documentation

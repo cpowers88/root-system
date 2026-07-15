@@ -1,7 +1,9 @@
 ---
 type: phase
+timeline: now
+stage: phase-0
 status: active
-tags: [phase, now]
+tags: [phase]
 ---
 
 # Phase 0 — Current Position & Baseline
@@ -42,11 +44,11 @@ sqlite3, argparse, datetime (all inside the tracker build)
 None yet — that's honest. This phase buys the *foundation* every capability sits on.
 
 ## Proof Projects
-- [[ksu-academic-tracker]] — ships this month
+- [[ksu-academic-tracker]] — V1 shipped July 8; real-data use remains the proof
 
 ## Exit Criteria
-- [ ] [[current-position]] written and reviewed by Chris ✓ (July 6)
-- [ ] Castle live with maps, phases 0–2, source map ✓ (July 6)
+- [x] [[current-position]] written and reviewed by Chris (July 6)
+- [x] Castle live with maps, phases 0–2, source map (July 6)
 - [x] Tracker: all four tables + `--week`, `--today`, `--tests`, `--course`, `--overdue` working (V1 shipped July 8)
 - [ ] Real syllabus data entered when D2L opens (~July 25)
 - [ ] August 1 monthly review updates the weak links

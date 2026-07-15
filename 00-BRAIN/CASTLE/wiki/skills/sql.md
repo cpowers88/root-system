@@ -1,8 +1,9 @@
 ---
 type: skill
+timeline: now
 category: technical
 status: building
-tags: [skill, now]
+tags: [skill]
 ---
 
 # SQL / SQLite

@@ -33,12 +33,12 @@ does not restate or override them.
 
 - Normal CASTLE navigation: `path:"00-BRAIN/CASTLE/wiki" [timeline:reference] [reference_priority:core]`
 - Focused rules and evidence: `path:"00-BRAIN/CASTLE/wiki" [timeline:reference] [reference_priority:supporting]`
-- Current work: open `.ROOT\NOW.md`. CASTLE action pages are still in metadata
-  transition, so `[timeline:now]` is not yet a complete current-work search.
+- Current CASTLE pages: `path:"00-BRAIN/CASTLE/wiki" [timeline:now]`
+- Complete system-wide daily priority: open `.ROOT\NOW.md`.
 
 `reference_priority` selects the reference layer and retrieval utility; it never
-means “work on this now.” `timeline` controls action horizon in migrated metadata,
-while `NOW.md` remains the complete current-work authority during the transition.
+means “work on this now.” `timeline` controls action horizon; `NOW.md` remains the
+complete system-wide daily authority.
 
 Full AI operating contract: `00-BRAIN\CASTLE\OPERATIONS.md`. Any AI may maintain
 CASTLE within that contract; Chris owns consequential decisions.

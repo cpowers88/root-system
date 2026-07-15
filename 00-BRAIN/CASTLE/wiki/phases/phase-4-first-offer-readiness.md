@@ -1,7 +1,9 @@
 ---
 type: phase
+timeline: later
+stage: phase-4
 status: planned
-tags: [phase, next]
+tags: [phase]
 ---
 
 # Phase 4 — First Offer Readiness
