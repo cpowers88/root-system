@@ -65,14 +65,30 @@ Ask:
 - Did the edit repair the cause or merely one observed instance?
 - Did wording become clearer without creating another authority copy?
 
-Apply only improvements with a measurable quality gain. The target is roughly
-1–5%, not additional scope. Re-run every affected acceptance test.
+Before editing, write a compact improvement contract:
+
+1. **Quality dimension:** choose one primary dimension—false-pass resistance,
+   completeness, command clarity, rollback safety, or maintenance cost.
+2. **Baseline:** name a count, test case, human step, ambiguity, uncovered state,
+   output size, or other observable starting measure.
+3. **Target:** aim for a 3–10% improvement in that dimension.
+4. **Bounded change:** repair one cause inside the phase's owned paths.
+5. **Measured result:** record the same measure after the change and run every
+   affected acceptance test.
+6. **Stop decision:** keep the change only when the gain is real and no protected
+   scope or previously passing check regresses.
+
+The percentage is a design target, not a quota. Do not manufacture files, tests,
+or scope to reach it. Binary correctness and newly discovered safety failures may
+justify a gain above 10%; explain the exception. A measured gain below 3% is kept
+only when it closes a concrete correctness gap or materially reduces future risk.
 
 ### Loop 2 — optional final refinement
 
-Run only when Chris requests it or Loop 1 exposes a new failure class. Focus on one
-of: completeness, false-pass resistance, command clarity, or rollback safety. Do
-not use Loop 2 to begin the next phase.
+Run only when Chris requests it or Loop 1 exposes a new failure class. Write a new
+improvement contract; do not reuse Loop 1's percentage or claim cumulative gains
+without measuring them. Focus on one of the named quality dimensions and do not
+use Loop 2 to begin the next phase.
 
 ### Human-review stop
 
@@ -81,6 +97,8 @@ Report:
 - files changed and excluded;
 - baseline → final measurements;
 - what each refinement loop improved;
+- each loop's baseline, target, measured result, and any justified target-range
+  exception;
 - validators passed, known debt, and tests still requiring a person;
 - exact uncommitted diff/commit boundary;
 - the next phase, without starting it.

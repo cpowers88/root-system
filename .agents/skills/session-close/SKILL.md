@@ -5,7 +5,8 @@ description: Run `.ROOT` session close, including the DAILY append, wiki/CASTLE 
 
 # Close a `.ROOT` Session
 
-1. Read the close rules in `AGENT.md` and `CASTLE\OPERATIONS.md`.
+1. Read the close rules in `00-BRAIN\AGENT.md` and
+   `00-BRAIN\CASTLE\OPERATIONS.md`.
 2. Append a concise block to today's DAILY: outcome, evidence/files, decision or
    fragile detail, and next exact action. Create from the template if absent.
 3. If a wiki changed, append its log and update index/current-position only when
@@ -16,6 +17,10 @@ description: Run `.ROOT` session close, including the DAILY append, wiki/CASTLE 
 5. Backstop a missing prior-day Day Summary when required.
 6. Write a four-field handoff only for meaningful day end, same-day AI switch,
    or “have to run.”
-7. State the outcome and next exact action.
+7. After governance, system-script, settings, metadata-policy, or shared-skill
+   changes, run `python 00-BRAIN\scripts\root_health.py`. Stop on `BLOCKER` and
+   report reviewed debt without calling it clean. Ordinary learning sessions do
+   not require this system-wide gate.
+8. State the outcome and next exact action.
 
 DAILY files are append-only. Resolve or explicitly hand off every HIGH flag.

@@ -9,10 +9,15 @@ Checks every live .md in .ROOT against WHERE_IT_GOES.md § Tag Standard:
     (or `log` for history files; wikis may use native equivalents:
     priority/*, stage-*, phase-*)
 
-Read-only: prints a Markdown report to stdout.
-Usage (from .ROOT):  python 00-BRAIN/scripts/frontmatter_audit.py
+Default mode reports without failing. `--strict` requires zero debt. `--baseline`
+fails only for finding identities not present in a reviewed baseline. `--json`
+provides machine-readable output; `--write-baseline` intentionally refreshes the
+reviewed baseline artifact.
 """
 
+import argparse
+from datetime import date
+import json
 import re
 import sys
 from pathlib import Path
@@ -49,7 +54,7 @@ def tags_from(fm: str):
     return tags
 
 
-def main() -> int:
+def audit():
     missing_fm, missing_type, timeline_bad = [], [], []
     checked = 0
 
@@ -69,6 +74,36 @@ def main() -> int:
         if len(tl) != 1:
             timeline_bad.append((str(rel), tl or ["<none>"]))
 
+    findings = []
+    findings.extend({"kind": "missing_frontmatter", "path": path, "detail": ""}
+                    for path in missing_fm)
+    findings.extend({"kind": "missing_type", "path": path, "detail": ""}
+                    for path in missing_type)
+    findings.extend({"kind": "timeline", "path": path, "detail": ", ".join(tags)}
+                    for path, tags in timeline_bad)
+    for finding in findings:
+        finding["id"] = "|".join(
+            (finding["kind"], finding["path"], finding["detail"]))
+    return {
+        "checked": checked,
+        "missing_frontmatter": missing_fm,
+        "missing_type": missing_type,
+        "timeline_bad": timeline_bad,
+        "findings": findings,
+        "total": len(findings),
+    }
+
+
+def resolve_path(path: Path) -> Path:
+    return path if path.is_absolute() else ROOT / path
+
+
+def print_report(result, comparison=None):
+    missing_fm = result["missing_frontmatter"]
+    missing_type = result["missing_type"]
+    timeline_bad = result["timeline_bad"]
+    checked = result["checked"]
+
     print("# FRONTMATTER / TAG AUDIT")
     print(f"\nFiles checked: {checked}\n")
     print(f"## Missing frontmatter ({len(missing_fm)})")
@@ -86,9 +121,118 @@ def main() -> int:
         print(f"- `{f}` — has: {', '.join(tl)}")
     if not timeline_bad:
         print("- none")
-    total = len(missing_fm) + len(missing_type) + len(timeline_bad)
+    total = result["total"]
     print(f"\n**Total findings: {total}** — "
           f"{'CLEAN' if total == 0 else 'fix at reviews per Tag Standard'}")
+    if comparison is not None:
+        print("\n## Reviewed baseline comparison")
+        print(f"- reviewed baseline debt: {comparison['baseline_total']}")
+        print(f"- unchanged baseline debt: {comparison['unchanged_total']}")
+        print(f"- new debt: {len(comparison['new'])}")
+        print(f"- resolved since baseline: {len(comparison['resolved'])}")
+        status = "REGRESSION" if comparison["new"] else "BASELINE MATCH"
+        print(f"- status: **{status}**")
+        for finding_id in comparison["new"][:40]:
+            print(f"  - NEW `{finding_id}`")
+        if len(comparison["new"]) > 40:
+            print(f"  - ... {len(comparison['new']) - 40} more new finding(s)")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--strict", action="store_true",
+                        help="exit 1 when any finding exists")
+    parser.add_argument("--json", action="store_true",
+                        help="emit machine-readable results")
+    parser.add_argument("--baseline", type=Path,
+                        help="fail only for finding identities absent from baseline")
+    parser.add_argument("--write-baseline", type=Path,
+                        help="write the current reviewed finding identities")
+    parser.add_argument("--self-test", action="store_true",
+                        help="prove identity comparison catches equal-count substitution")
+    args = parser.parse_args()
+    if args.self_test:
+        baseline_ids = {"missing_type|old.md|", "timeline|same.md|<none>"}
+        current_ids = {"missing_type|new.md|", "timeline|same.md|<none>"}
+        new = current_ids - baseline_ids
+        resolved = baseline_ids - current_ids
+        passed = (
+            len(current_ids) == len(baseline_ids)
+            and new == {"missing_type|new.md|"}
+            and resolved == {"missing_type|old.md|"}
+        )
+        print("# FRONTMATTER BASELINE SELF-TEST - " + ("PASS" if passed else "FAIL"))
+        print("- equal total counts still expose one new and one resolved identity")
+        return 0 if passed else 1
+    if args.strict and args.baseline:
+        parser.error("choose --strict or --baseline")
+    if args.write_baseline and (args.strict or args.baseline):
+        parser.error("--write-baseline cannot be combined with --strict or --baseline")
+
+    result = audit()
+    current_ids = {finding["id"] for finding in result["findings"]}
+    comparison = None
+
+    if args.write_baseline:
+        baseline_path = resolve_path(args.write_baseline)
+        baseline = {
+            "schema_version": 1,
+            "reviewed_date": date.today().isoformat(),
+            "finding_count": result["total"],
+            "finding_ids": sorted(current_ids),
+        }
+        baseline_path.write_text(
+            json.dumps(baseline, indent=2) + "\n", encoding="utf-8", newline="\n")
+
+    if args.baseline:
+        baseline_path = resolve_path(args.baseline)
+        try:
+            baseline = json.loads(baseline_path.read_text(encoding="utf-8"))
+            baseline_ids = set(baseline["finding_ids"])
+        except FileNotFoundError:
+            print(f"MISSING frontmatter baseline: {baseline_path}", file=sys.stderr)
+            return 1
+        except (json.JSONDecodeError, KeyError, TypeError) as exc:
+            print(f"INVALID frontmatter baseline: {exc}", file=sys.stderr)
+            return 1
+        comparison = {
+            "baseline_total": len(baseline_ids),
+            "unchanged_total": len(current_ids & baseline_ids),
+            "new": sorted(current_ids - baseline_ids),
+            "resolved": sorted(baseline_ids - current_ids),
+        }
+
+    machine = {
+        "status": (
+            "REGRESSION" if comparison and comparison["new"] else
+            "CLEAN" if result["total"] == 0 else "BASELINE_DEBT"
+        ),
+        "mode": (
+            "write-baseline" if args.write_baseline else
+            "baseline" if args.baseline else
+            "strict" if args.strict else "report"
+        ),
+        "files_checked": result["checked"],
+        "counts": {
+            "missing_frontmatter": len(result["missing_frontmatter"]),
+            "missing_type": len(result["missing_type"]),
+            "timeline": len(result["timeline_bad"]),
+            "total": result["total"],
+        },
+        "comparison": comparison,
+        "findings": result["findings"],
+    }
+    if args.json:
+        print(json.dumps(machine, indent=2))
+    else:
+        print_report(result, comparison)
+        if args.write_baseline:
+            print(f"\nBaseline written: {resolve_path(args.write_baseline)}")
+
+    if args.strict and result["total"]:
+        return 1
+    if comparison and comparison["new"]:
+        return 1
     return 0
 
 

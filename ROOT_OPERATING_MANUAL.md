@@ -243,6 +243,20 @@ The minimum close, every session that changes anything:
 - What is the next exact action?
 - Does `NOW.md` actually need refreshing?
 
+After governance, system-script, settings, metadata-policy, or shared-skill work,
+run the canonical read-only health gate from `.ROOT`:
+
+```text
+python 00-BRAIN\scripts\root_health.py
+```
+
+`BLOCKER` stops the checkpoint. `PASS WITH DEBT` means the named checks found no
+new blocker while reviewed debt remains; it is not “clean.” `PASS` means only the
+listed scopes passed. Use `--strict` for a zero-debt acceptance gate and `--json`
+for machine-readable output. The command explicitly lists what it does not
+evaluate, including semantic freshness, project truth, review cadence, and source
+ownership. Ordinary learning sessions do not need this system-wide check.
+
 ---
 
 ## 11. Instruction Directory
