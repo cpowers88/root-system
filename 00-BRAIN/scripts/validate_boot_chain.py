@@ -168,6 +168,39 @@ def main() -> int:
     except json.JSONDecodeError as exc:
         failures.append(f"INVALID .claude/settings.local.json: {exc}")
 
+    # Nested-settings shadow guard: Claude Code loads settings from the launch
+    # directory's .claude with no parent fallback, so any nested settings file
+    # below the root can silently change permission behavior. These files are
+    # gitignored and therefore invisible to repository review. Make them visible
+    # here: only the root settings file may carry `allow` rules; every nested
+    # settings file must keep allow empty and preserve the launch-independent
+    # privacy/destructive denies.
+    NESTED_REQUIRED_DENY = {
+        "Read(**/88-JOURNAL/**)", "Edit(**/88-JOURNAL/**)",
+        "Write(**/88-JOURNAL/**)", "Edit(**/raw/**)", "Write(**/raw/**)",
+        "Bash(rm *)",
+    }
+    settings_skip = {"99-ARCHIVE", ".git", "Report Archive"}
+    for sp in sorted(ROOT.rglob(".claude/settings*.json")):
+        if sp == settings_path:
+            continue
+        if settings_skip.intersection(sp.relative_to(ROOT).parts):
+            continue
+        rel = sp.relative_to(ROOT)
+        try:
+            nested = json.loads(sp.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            failures.append(f"INVALID nested settings {rel}: {exc}")
+            continue
+        nperms = nested.get("permissions", {})
+        if nperms.get("allow"):
+            failures.append(
+                f"nested settings {rel} carries {len(nperms['allow'])} allow "
+                f"rule(s); only root .claude may grant permissions")
+        nmissing = sorted(NESTED_REQUIRED_DENY - set(nperms.get("deny", [])))
+        if nmissing:
+            failures.append(
+                f"nested settings {rel} missing launch-independent denies: {nmissing}")
     agent_text = (ROOT / "00-BRAIN" / "AGENT.md").read_text(
         encoding="utf-8", errors="replace")
     for marker in ("## Agent Evaluation Gate", "typical, edge, and failure/recovery",
