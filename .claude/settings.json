@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "deny": [
+      "Read(/88-JOURNAL/**)",
+      "Edit(/88-JOURNAL/**)",
+      "Write(/88-JOURNAL/**)",
+      "Edit(/**/raw/**)",
+      "Write(/**/raw/**)",
+      "Bash(rm *)",
+      "Bash(rmdir *)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(Clear-Content *)"
+    ],
+    "ask": [
+      "Edit",
+      "Write",
+      "Bash(*)",
+      "PowerShell(*)",
+      "mcp__*"
+    ],
+    "defaultMode": "default",
+    "disableBypassPermissionsMode": "disable",
+    "disableAutoMode": "disable"
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": false,
+    "network": {
+      "allowedDomains": [
+        "code.claude.com",
+        "docs.anthropic.com"
+      ]
+    },
+    "filesystem": {
+      "denyWrite": [
+        "./88-JOURNAL",
+        "./00-BRAIN/CASTLE/raw",
+        "./03-WIKIS/PYTHON/raw",
+        "./03-WIKIS/PHYSICS/raw",
+        "./03-WIKIS/BUSINESS/raw",
+        "./03-WIKIS/EDUCATION/raw",
+        "./03-WIKIS/TECHNOLOGY/raw",
+        "./03-WIKIS/AI_AUTOMATION_SYSTEMS/raw",
+        "./03-WIKIS/SYSTEMS/raw",
+        "./03-WIKIS/REVENUE_LAB/raw"
+      ],
+      "denyRead": [
+        "./88-JOURNAL"
+      ]
+    }
+  }
+}

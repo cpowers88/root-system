@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "autoUpdatesChannel": "latest",
+  "theme": "dark",
+  "inputNeededNotifEnabled": true,
+  "agentPushNotifEnabled": true,
+  "permissions": {
+    "deny": [
+      "Read(~/.ROOT/88-JOURNAL/**)",
+      "Edit(~/.ROOT/88-JOURNAL/**)",
+      "Write(~/.ROOT/88-JOURNAL/**)",
+      "Edit(~/.ROOT/**/raw/**)",
+      "Write(~/.ROOT/**/raw/**)",
+      "Bash(rm *)",
+      "Bash(rmdir *)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(Clear-Content *)"
+    ],
+    "defaultMode": "default",
+    "disableBypassPermissionsMode": "disable",
+    "disableAutoMode": "disable"
+  }
+}

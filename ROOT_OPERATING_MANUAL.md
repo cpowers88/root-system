@@ -81,7 +81,62 @@ ORIENT -> ROUTE -> WORK -> PROVE/PACKAGE -> CLOSE
 
 ---
 
-## 5. How to Work With AI-Operated Folders
+## 5. Starting Claude Code Safely
+
+Start Claude Code from `C:\Users\chris\.ROOT` for normal `.ROOT` work. This keeps
+the project policy, root instructions, status, and file references on one known
+base. Starting from a subfolder is no longer required and must not be supported by
+copying `.claude\settings*.json` into individual wikis.
+
+The safety layers are intentionally separated:
+
+- `C:\Users\chris\.claude\settings.json` carries the user-level journal/raw and
+  destructive-command denies that follow Claude if the launch folder changes.
+- `.ROOT\.claude\settings.json` is the tracked, reviewable project policy.
+- `.ROOT\.claude\settings.local.json` holds machine-specific allow candidates
+  only; it cannot weaken the two safety layers above.
+
+These controls protect **places and consequential actions**, not model roles.
+Claude retains the same in-scope task authority as Codex: it may orient and route,
+read raw evidence, research, teach, create and edit non-protected files, build and
+test scripts or software, operate CASTLE and the wikis, design and synchronize
+skills, audit or implement approved governance, use web/MCP tools, and validate or
+checkpoint work. The practical boundaries are:
+
+- no AI reads or writes `88-JOURNAL`;
+- raw evidence may be read but never modified without an explicit approved
+  exception;
+- shell deletion, directory removal, `git reset --hard`, and `git clean` are
+  blocked because `.ROOT` archives history instead of deleting it;
+- edits, shell commands, PowerShell, and MCP calls remain available through human
+  permission prompts; an `ask` rule is a gate, not a denial;
+- academic, external-action, credential, client/privacy, and governance approval
+  stops come from `AGENT.md` and apply equally to every model.
+
+Launch with the ordinary `claude` command. Do not add `--tools`,
+`--disallowedTools`, `--setting-sources`, `--safe-mode`, or `--bare` during normal
+`.ROOT` work; those are intentional troubleshooting/session overrides and can hide
+normal capabilities or configuration sources.
+
+After any settings edit, open a **fresh** Claude session and run `/status`, then
+`/permissions`. Confirm both the user and project sources are listed and that
+journal/raw/destructive rules appear as denies. Run `claude doctor` if Claude
+reports an invalid settings file.
+
+Claude's file-tool deny rules are the enforced Claude-tool boundary on native
+Windows. Its operating-system sandbox is available on macOS, Linux, and WSL2—not
+native Windows—so the checked-in sandbox block is defense in depth for a supported
+environment and must not be described as Windows OS enforcement. Arbitrary Python
+or Node subprocesses are not constrained by Claude's file-tool path rules; they
+remain approval-gated and governed by the same raw/private prohibition.
+
+References: [Claude Code settings](https://code.claude.com/docs/en/settings),
+[permissions](https://code.claude.com/docs/en/permissions), and
+[sandboxing](https://code.claude.com/docs/en/sandboxing).
+
+---
+
+## 6. How to Work With AI-Operated Folders
 
 `.ROOT` uses one AI team. Any AI may complete any in-scope task it can safely
 access. Claude, Codex, and ATLAS profiles describe strengths and tool limits,
@@ -124,7 +179,7 @@ For wikis, the AI must:
 
 ---
 
-## 6. Knowledge-to-Value Pipeline
+## 7. Knowledge-to-Value Pipeline
 
 ```text
 raw source -> domain wiki / field evidence -> Watchtower when external + material
@@ -146,7 +201,7 @@ Rules:
 
 ---
 
-## 7. How `.ROOT` Evolves From Evidence and Direction
+## 8. How `.ROOT` Evolves From Evidence and Direction
 
 ```text
 AI-observed friction -> log -> repeated evidence -> proposal -> approval -> validation
@@ -165,7 +220,7 @@ External change -> evidence home -> Watchtower -> CASTLE test -> outcome -> Ratc
 
 ---
 
-## 8. Human Stop Rules
+## 9. Human Stop Rules
 
 Stop and request a decision or audit when:
 
@@ -178,7 +233,7 @@ Stop and request a decision or audit when:
 
 ---
 
-## 9. Closing the Loop
+## 10. Closing the Loop
 
 The minimum close, every session that changes anything:
 
@@ -190,7 +245,7 @@ The minimum close, every session that changes anything:
 
 ---
 
-## 10. Instruction Directory
+## 11. Instruction Directory
 
 - `START_HERE.md` — the map.
 - `ROOT_OPERATING_MANUAL.md` — this file, the human master manual.

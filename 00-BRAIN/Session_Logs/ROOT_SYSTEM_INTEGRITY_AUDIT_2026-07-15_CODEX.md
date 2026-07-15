@@ -472,3 +472,21 @@ Claude/Codex edits to the same files. The best sequence is:
 The first exact action is **not another broad rewrite**. It is to finish the current
 Claude session, refresh NOW, and then fix the launch-directory settings shadow before
 trusting further audit automation.
+
+## Implementation verification note — July 15, 2026
+
+Phase 1 rechecked this report's settings diagnosis against Claude Code 2.1.210 and
+the current official documentation. The docs support the reported settings scopes,
+deny → ask → allow precedence, and source-relative file-rule paths, but they do not
+support the report's stronger wording that project settings use the current working
+directory with “no parent-directory fallback.” Treat that causal statement as
+unproven rather than as current documentation.
+
+The correction does not change the remediation decision: user-scope `~/.ROOT/...`
+denies provide the launch-independent boundary; one tracked root project file owns
+`.ROOT` policy; and nested settings copies are prohibited because they create hidden,
+ignored configuration drift. A second correction is also material: Claude's
+operating-system sandbox is not available on native Windows. File-tool permission
+denies remain enforced by Claude Code, but arbitrary subprocess file access is not
+OS-sandboxed there. Fresh-session `/status` and `/permissions` checks remain the
+required human behavior test.

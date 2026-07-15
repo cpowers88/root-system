@@ -14,6 +14,8 @@ hats, hub operating files). Encodes the unified-team governance checks:
   5. Canonical shared skills match both product discovery mirrors
   6. High-impact semantic contracts remain reconciled across human maps,
      placement rules, the universal OS, and the opportunity queue
+  7. Claude safety policy exists at user + project scope, local settings cannot
+     override it, and no nested settings shadow exists
 
 Read-only. Exit 0 = PASS, 1 = FAIL.
 Usage (from .ROOT):  python 00-BRAIN/scripts/validate_boot_chain.py
@@ -129,30 +131,92 @@ def main() -> int:
     require("00-BRAIN/CASTLE/wiki/opportunity-queue.md", r"\| OPP-\d{8}-\d{2} \|",
             "the live opportunity queue contains at least one evidence-backed item")
 
-    # Deterministic safety baseline: Claude project settings must parse and
-    # preserve the private/raw boundaries defined by AGENT.md.
-    settings_path = ROOT / ".claude" / "settings.local.json"
-    try:
-        settings = json.loads(settings_path.read_text(encoding="utf-8"))
+    # Claude safety is split deliberately:
+    #   user scope   = launch-independent, non-negotiable deny/mode baseline
+    #   project scope = reviewable .ROOT policy, asks, and sandbox defense in depth
+    #   local scope  = machine-specific allow candidates only; no safety overrides
+    project_settings_path = ROOT / ".claude" / "settings.json"
+    local_settings_path = ROOT / ".claude" / "settings.local.json"
+    user_template_path = ROOT / ".claude" / "user-settings-policy.template.json"
+    user_settings_path = Path.home() / ".claude" / "settings.json"
+
+    def load_json(path: Path, label: str):
+        try:
+            return json.loads(path.read_text(encoding="utf-8"))
+        except FileNotFoundError:
+            failures.append(f"MISSING {label}: {path}")
+        except json.JSONDecodeError as exc:
+            failures.append(f"INVALID {label}: {exc}")
+        return None
+
+    project_settings = load_json(project_settings_path, "Claude project settings")
+    local_settings = load_json(local_settings_path, "Claude local settings")
+    user_template = load_json(user_template_path, "Claude user-policy template")
+    user_settings = load_json(user_settings_path, "deployed Claude user settings")
+
+    destructive_deny = {
+        "Bash(rm *)", "Bash(rmdir *)", "Bash(git reset --hard*)",
+        "Bash(git clean *)", "PowerShell(Remove-Item *)",
+        "PowerShell(Clear-Content *)",
+    }
+    project_required_deny = destructive_deny | {
+        "Read(/88-JOURNAL/**)", "Edit(/88-JOURNAL/**)",
+        "Write(/88-JOURNAL/**)", "Edit(/**/raw/**)",
+        "Write(/**/raw/**)",
+    }
+    user_required_deny = destructive_deny | {
+        "Read(~/.ROOT/88-JOURNAL/**)",
+        "Edit(~/.ROOT/88-JOURNAL/**)",
+        "Write(~/.ROOT/88-JOURNAL/**)",
+        "Edit(~/.ROOT/**/raw/**)",
+        "Write(~/.ROOT/**/raw/**)",
+    }
+    required_modes = {
+        "defaultMode": "default",
+        "disableBypassPermissionsMode": "disable",
+        "disableAutoMode": "disable",
+    }
+
+    def validate_permissions(settings, label: str, required_deny: set[str]) -> None:
+        if settings is None:
+            return
         permissions = settings.get("permissions", {})
-        deny = set(permissions.get("deny", []))
-        required_deny = {
-            "Read(/88-JOURNAL/**)", "Edit(/88-JOURNAL/**)",
-            "Write(/88-JOURNAL/**)", "Edit(/**/raw/**)",
-            "Write(/**/raw/**)",
-        }
-        missing_deny = sorted(required_deny - deny)
-        if missing_deny:
-            failures.append(f"Claude settings missing deny rules: {missing_deny}")
-        if permissions.get("defaultMode") != "default":
-            failures.append("Claude default permission mode must be 'default'")
-        if permissions.get("disableBypassPermissionsMode") != "disable":
-            failures.append("Claude bypassPermissions mode is not disabled")
-        if permissions.get("disableAutoMode") != "disable":
-            failures.append("Claude auto mode is not disabled during supervised launch")
-        filesystem = settings.get("sandbox", {}).get("filesystem", {})
+        actual_deny = set(permissions.get("deny", []))
+        missing = sorted(required_deny - actual_deny)
+        if missing:
+            failures.append(f"{label} missing deny rules: {missing}")
+        unexpected = sorted(actual_deny - required_deny)
+        if unexpected:
+            failures.append(
+                f"{label} has unreviewed capability-restricting deny rules: "
+                f"{unexpected}")
+        for key, expected in required_modes.items():
+            if permissions.get(key) != expected:
+                failures.append(
+                    f"{label} permissions.{key} must be {expected!r}")
+
+    validate_permissions(project_settings, "Claude project settings",
+                         project_required_deny)
+    validate_permissions(user_template, "Claude user-policy template",
+                         user_required_deny)
+    validate_permissions(user_settings, "deployed Claude user settings",
+                         user_required_deny)
+
+    if project_settings is not None:
+        permissions = project_settings.get("permissions", {})
+        required_ask = {"Edit", "Write", "Bash(*)", "PowerShell(*)", "mcp__*"}
+        actual_ask = set(permissions.get("ask", []))
+        missing_ask = sorted(required_ask - actual_ask)
+        if missing_ask:
+            failures.append(f"Claude project settings missing ask rules: {missing_ask}")
+        unexpected_ask = sorted(actual_ask - required_ask)
+        if unexpected_ask:
+            failures.append(
+                f"Claude project settings has unreviewed prompt-friction rules: "
+                f"{unexpected_ask}")
+        filesystem = project_settings.get("sandbox", {}).get("filesystem", {})
         if "./88-JOURNAL" not in filesystem.get("denyRead", []):
-            failures.append("Sandbox does not deny reads from 88-JOURNAL")
+            failures.append("Claude project sandbox does not deny 88-JOURNAL reads")
         required_raw = {
             "./00-BRAIN/CASTLE/raw",
             *{f"./03-WIKIS/{hub}/raw" for hub in (
@@ -162,45 +226,33 @@ def main() -> int:
         }
         missing_raw = sorted(required_raw - set(filesystem.get("denyWrite", [])))
         if missing_raw:
-            failures.append(f"Sandbox missing raw write-deny paths: {missing_raw}")
-    except FileNotFoundError:
-        failures.append("MISSING .claude/settings.local.json safety configuration")
-    except json.JSONDecodeError as exc:
-        failures.append(f"INVALID .claude/settings.local.json: {exc}")
+            failures.append(
+                f"Claude project sandbox missing raw write-deny paths: {missing_raw}")
 
-    # Nested-settings shadow guard: Claude Code loads settings from the launch
-    # directory's .claude with no parent fallback, so any nested settings file
-    # below the root can silently change permission behavior. These files are
-    # gitignored and therefore invisible to repository review. Make them visible
-    # here: only the root settings file may carry `allow` rules; every nested
-    # settings file must keep allow empty and preserve the launch-independent
-    # privacy/destructive denies.
-    NESTED_REQUIRED_DENY = {
-        "Read(**/88-JOURNAL/**)", "Edit(**/88-JOURNAL/**)",
-        "Write(**/88-JOURNAL/**)", "Edit(**/raw/**)", "Write(**/raw/**)",
-        "Bash(rm *)",
-    }
+    if local_settings is not None:
+        unexpected_top = sorted(set(local_settings) - {"$schema", "permissions"})
+        if unexpected_top:
+            failures.append(
+                f"Claude local settings has policy keys outside its role: {unexpected_top}")
+        local_permissions = local_settings.get("permissions", {})
+        unexpected_permissions = sorted(set(local_permissions) - {"allow"})
+        if unexpected_permissions:
+            failures.append(
+                "Claude local settings may contain only machine-specific allow "
+                f"rules; found: {unexpected_permissions}")
+
+    # Root-only configuration: any settings file in a nested .claude directory is
+    # a blocker. This guard checks ignored files too, so repository status cannot
+    # hide a reintroduced shadow.
+    allowed_settings = {project_settings_path, local_settings_path}
     settings_skip = {"99-ARCHIVE", ".git", "Report Archive"}
     for sp in sorted(ROOT.rglob(".claude/settings*.json")):
-        if sp == settings_path:
+        if sp in allowed_settings:
             continue
         if settings_skip.intersection(sp.relative_to(ROOT).parts):
             continue
-        rel = sp.relative_to(ROOT)
-        try:
-            nested = json.loads(sp.read_text(encoding="utf-8"))
-        except json.JSONDecodeError as exc:
-            failures.append(f"INVALID nested settings {rel}: {exc}")
-            continue
-        nperms = nested.get("permissions", {})
-        if nperms.get("allow"):
-            failures.append(
-                f"nested settings {rel} carries {len(nperms['allow'])} allow "
-                f"rule(s); only root .claude may grant permissions")
-        nmissing = sorted(NESTED_REQUIRED_DENY - set(nperms.get("deny", [])))
-        if nmissing:
-            failures.append(
-                f"nested settings {rel} missing launch-independent denies: {nmissing}")
+        failures.append(
+            f"nested Claude settings shadow is prohibited: {sp.relative_to(ROOT)}")
     agent_text = (ROOT / "00-BRAIN" / "AGENT.md").read_text(
         encoding="utf-8", errors="replace")
     for marker in ("## Agent Evaluation Gate", "typical, edge, and failure/recovery",
