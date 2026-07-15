@@ -96,8 +96,11 @@ One copy, zero drift.
   COLOR_MAP.yaml (edit it, then run `scripts\build_graph_colors.py` — never
   hand-edit graph.json). Subfolders: `HATS\` (optional modes — short, active
   prompts), `CASTLE\` (command-center wiki; owns `.ROOT\NOW.md`),
-  `Session_Logs\` (current handoffs + DAILYs + reports; `Report Archive\`
-  inside), `scripts\` (build_graph_colors.py, frontmatter_audit.py,
+  `Session_Logs\` (current handoffs + DAILYs + reports; three ledgers inside:
+  `Report Archive\` for completed reports, `System Update Log\` for the
+  monthly one-row-per-system-commit ledger, and `Closed Flags\` for the
+  monthly closed-flag ledger — SYSTEM_FLAGS.md holds OPEN flags only),
+  `scripts\` (build_graph_colors.py, frontmatter_audit.py,
   metadata_migration_plan.py, root_health.py, sync_shared_skills.py,
   validate_boot_chain.py, wiki_lint.py), plus
   `SKILLS\` as the canonical source for shared native skills. `.md` only except
@@ -123,8 +126,9 @@ One copy, zero drift.
   scripts allowed per Format Rules). Live project list and status:
   `.ROOT\NOW.md` + `00-BRAIN\CASTLE\wiki\`. NOT here: reference material,
   business templates.
-- **02-LIBRARY\** — reusable knowledge by numbered domain (00-SCHOOL,
-  01-PHYSICS … 10-HEALTH, 99-MISC). PDFs for books, `.md` for notes. NOT
+- **02-LIBRARY\** — reusable knowledge by reference domain (00-SCHOOL plus the
+  `REF-<NAME>` piles — renamed July 15, 2026; see `02-LIBRARY\README.md`).
+  PDFs for books, `.md` for notes. NOT
   here: project files.
 - **05-BUSINESS\** — the reusable and sanitized money system: 01-Audit
   Templates, 02-Field Notes, 03-Case Studies, 04-Pricing Models, 05-Proposals

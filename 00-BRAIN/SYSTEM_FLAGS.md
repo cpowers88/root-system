@@ -24,7 +24,12 @@ A flag leaves this file only when the fix is verified in the target file. "I'll 
 
 If the same flag is re-raised after being closed, it comes back as HIGH.
 
-**History rule (added July 11, 2026):** this file holds OPEN flags plus the current week's closes only. Older closed flags move to `99-ARCHIVE\` at the weekly review (current archive: `ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`, June 8 – July 11). This file is read at every session start — history in it is a per-session context tax.
+**History rule (updated July 15, 2026):** this file holds OPEN flags only. When
+a flag closes, its row moves in the same session to the monthly ledger at
+`00-BRAIN\Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md` — no weekly
+migration step to forget. Pre-ledger history (June 8 – July 11, 83 rows):
+`99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`. This file is
+read at every session start — history in it is a per-session context tax.
 
 ---
 
@@ -39,25 +44,13 @@ If the same flag is re-raised after being closed, it comes back as HIGH.
 
 ---
 
-## CLOSED THIS WEEK
+## CLOSED FLAGS
 
-| # | Flag | Raised | Closed | Fix |
-|---|---|---|---|---|
-| 75 | Semantic-interface drift re-raised after the first July 15 close: retired tracker paths/models, duplicate and expired project authority, Watchtower rows below threshold, a missed weekly outcome layer, completed FORGE migration written in future tense, and a stale cockpit assurance snapshot. | July 15 | July 15 | Re-opened HIGH under the re-raise rule. Reconciled the tracker to verified course paths and a single July 25 real-use action; preserved the six-file ListingOS history in `99-ARCHIVE` with SHA-256 evidence and retained one verified parked pointer; recorded TCG POS as paused; emptied the below-threshold radar; wrote one evidence-bounded recovery weekly; corrected/logged FORGE tense; and updated only the released `NOW.md` system paragraph while preserving Claude's school work. Exact stale-string/path/radar checks, archive/local-repo existence, root health, and both Git whitespace states passed. Root health remains `PASS WITH DEBT` (0 blockers, 4 wiki review, 620 reviewed metadata, 0 new)—not clean. |
-| 51 | Castle's "calendar-encoded capacity" (OPERATIONS.md rule 8) had no CASTLE/FLOAT tagging from Fall semester start onward — semester week template had only class-meeting blocks. | July 7 | July 15 | Corrected Chris's real Ben Care hours on the North Star Calendar (Sun 7-10am/6-8pm, Mon-Fri 7-9am/5-8pm, Sat 7am-2pm — replacing stale Thu/Fri-only evening + Sat/Sun 3hr-block pattern) and built the full Launch Pad → CASTLE → Flash Card → Lunch → CASTLE/FLOAT → Session Close rotation into every remaining open window, Aug 24–Dec 15, 2026 (57 calendar operations: 2 deletes, 2 updates, 53 creates, all on the North Star Calendar). New confirmed capacity: ~29h45m/wk CASTLE + ~36h55m/wk FLOAT — the July 7 baseline (~24-26h/~10h) is superseded; OPERATIONS.md rule 8 updated. Three Ben-Care/class overlaps (Tue/Thu ECON 8-8:55am; Mon/Wed CSE Lecture tail; Tue CSE Lab) left visible and unresolved, pending Chris's childcare conversation with Heather (~2 weeks from July 15). |
-| 74 | Semantic interface drift across PYTHON, TECHNOLOGY, CASTLE source/count ownership, and Watchtower placement | July 14 | July 14 | Reconciled PYTHON to Stage 2; TECHNOLOGY to its live 107-page/four-landscape inventory with index ownership; removed non-decision-useful CASTLE scale claims and central-source-registration wording; added `...projectSuccess` to placement authority; installed the evidence-home → Watchtower → CASTLE test → outcome → CURRENT_STRATEGY Ratchet contract. |
-| 73 | NORTH_STAR income timeline did not reflect the July 14 school-funding cut | July 14 | July 14 | Added the continuity-income constraint, a before-Spring-2027 revenue milestone, and a funding-continuity risk. March 2027 is now explicitly the first consulting-client target, not the first-dollar target; Revenue Lab remains the evidence-first test surface. |
-| 72 | `frontmatter_audit.py` omitted `88-JOURNAL` from its exclusion set, so a read-only metadata audit could traverse the private journal boundary | July 13 | July 13 | Added `88-JOURNAL` to the script's excluded path components; rerun must confirm the audit no longer reports or traverses journal paths. No journal content was surfaced in the audit output. |
-| 70 | Codex CLI native Windows sandbox was missing its setup helper and the Drive workspace could not complete ACL setup | July 12 | July 13 | Reinstall restored the helper; Chris established `C:\Users\chris\.ROOT` as the canonical local workspace, and this unelevated session is operating there. Drive ACL compatibility is no longer a working-tree blocker. `approval_policy = "on-request"` and network denial remain intentional safeguards. |
-| 71 | C: local-root cutover needed a verified cloud backup without restoring G: as a working tree | July 13 | July 13 | Chris confirmed Drive for desktop is syncing exactly `C:\Users\chris\.ROOT` under **Computers → this PC → .ROOT** and the live folder/files display green sync marks. `G:\My Drive\.ROOT` remains a legacy recovery snapshot only. |
-| 67 | Agent/eval maturity lacked a concrete gate | July 12 | July 12 | Added `AGENT.md § Agent Evaluation Gate`: single-agent first; five representative cases; full action-trace review; human approval for consequential actions; DAILY evidence and regression rollback. Five-case supervised baseline passed. |
-| 66 | `.claude/settings.local.json` held a stale broad allowlist with no deterministic private/raw deny layer | July 12 | July 12 | Archived original; replaced atomically with Manual-mode least privilege. Auto/bypass disabled; `88-JOURNAL` tool+sandbox read/write denies; eight raw roots write-denied; boot validator now verifies the controls. |
-| 65 | Wiki lint reported 759 equal-severity findings, hiding real link/index hygiene | July 12 | July 12 | Enhanced existing `wiki_lint.py` with blocker/review/expected classes and strict mode; neutralized 33 stale FORGE-era links. Final: 0 blockers, 0 review debt, 714 expected items. |
-| 62 | SYSTEM_FLAGS.md itself was ~90% closed-flag history (~4,200 words re-read every session start) — flagged by the July 11 Claude-docs review as the system's biggest always-on context tax | July 11 | July 11 | Closed-flags table (83 rows, June 8 – July 11) archived to `99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`; history rule added above; live file now OPEN + current-week closes only (~4,200 → ~1,600 words). Chris pre-approved via plan (review + quick wins). |
-| 64 | PYTHON (565) and PHYSICS (295) hub CLAUDE.mds exceeded the ~200-line always-load budget | July 11 | July 11 | Chris approved the full slim pass same evening. PYTHON 565→145 (new `wiki/authoring-standards.md` + `wiki/protocols.md`; baseline merged into `current-position.md`); PHYSICS 295→130 (new `wiki/authoring-standards.md`; tag fixed now→reference). Same pass also slimmed NORTH_STAR 557→310, WHERE_IT_GOES 279→195, vault_map 159→114 (+ new LOCAL_MACHINE_MAP.md), HAT_OPERATOR 173→92 + HAT_EDUCATOR 205→136 (+ two PLAYBOOKS files), ATLAS 66→31, CODEX 130→96, START_HERE bug fix. All originals archived. Full report: `Session_Logs\SLIM_PASS_2026-07-11.md`. |
-| 63 | Duplicate raw file in `CASTLE\raw\books\CLAUDE_FILES\`: `EXPLORE_THE_.CLAUDE_DIRECTORY.md` was byte-identical (MD5 match) to `HOW_CLAUDE_CODE_WORKS.md` — mis-saved download | July 11 | July 11 | Chris removed the duplicate manually same night; absence verified against the live tree (only `HOW_CLAUDE_CODE_WORKS.md` remains). Optional leftover: the real ".claude directory" docs page was never captured — re-download into the same folder if wanted. |
-
-**All older closed flags (June 8 – July 11, 83 rows):** `99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`
+Closed flags live in the monthly ledger:
+`00-BRAIN\Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md` (current month:
+`CLOSED_FLAGS_2026-07.md`, 13 rows migrated July 15). Pre-ledger history
+(June 8 – July 11, 83 rows):
+`99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`.
 
 ---
 *Maintained by: Claude + Chris | Reviewed: every session start (HIGH), weekly (MEDIUM), monthly (LOW)*

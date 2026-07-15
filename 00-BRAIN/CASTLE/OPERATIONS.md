@@ -108,6 +108,11 @@ on top of its roadmap role:
   entries whose `check_at` date has arrived; record the observed Outcome with an
   evidence link and a keep/modify/revert Verdict in the entry itself. An applied
   change with no recorded outcome is not yet proven.
+- **Ledger completeness** (added July 15, 2026): confirm every system-change
+  commit since the last sweep has its row in
+  `Session_Logs\System Update Log\SYSTEM_UPDATE_LOG_YYYY-MM.md`, and every
+  flag closed since the last sweep has its row in
+  `Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md`.
 - **Staleness spot-check:** rotate one active guide or dashboard; compare its
   stated current state against the live source it names, and flag any mismatch.
 - Maintain `00-BRAIN\vault_map.md` and `.ROOT\.obsidian\graph.json`'s color groups
