@@ -5,7 +5,7 @@ tags: [now, ai-automation]
 
 # TECHNOLOGY_LIBRARY_STRATEGY.md — The AI & Software Possibility Map
 #AI #system #business
-### Location: 02-LIBRARY\08-AI-AUTOMATION\ | Referenced by: TechStackPriority.md and the TECHNOLOGY wiki
+### Location: 02-LIBRARY\REF-AI-AUTOMATION\ | Referenced by: TechStackPriority.md and the TECHNOLOGY wiki
 ### Created: July 5, 2026 | Review: monthly (with SKILL_GAP_ANALYSIS.md)
 
 ---

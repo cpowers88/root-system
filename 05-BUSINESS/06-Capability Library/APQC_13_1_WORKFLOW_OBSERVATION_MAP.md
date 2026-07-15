@@ -46,7 +46,7 @@ A structured field method in three phases:
 |---|---|---|---|
 | Notebook + phone | Chris, physical | Required | No laptop on the first walk |
 | Guessed core workflows (intake → work → get paid) | Pre-visit prep / public info | Required | Corrected on-site, not before |
-| Tool-category fluency | `02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` (12 categories) | Required | So Chris can name what he's looking at in real time |
+| Tool-category fluency | `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` (12 categories) | Required | So Chris can name what he's looking at in real time |
 | One real job/order/customer to trace | Chosen on-site, day-of | Required | Must be a live, in-progress instance, not a description of one |
 
 ## 5. Outputs

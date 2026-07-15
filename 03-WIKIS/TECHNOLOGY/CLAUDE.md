@@ -19,7 +19,7 @@ The controlling question:
 
 ## Spine Reference
 
-`02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` is this wiki's
+`02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` is this wiki's
 operational spine — the 12-category possibility map (need/waste signals per
 category, the Recommendation Ladder, the selling model). It stays in place at
 `02-LIBRARY` (July 7, 2026 decision: it's load-bearing in ~10 live files
@@ -51,7 +51,7 @@ fork its content.
   **Lane closure (July 9, 2026):** this wiki's `ai-and-llm/` subfolder is
   inherited applied reference, closed to new intake — new AI/LLM/agent
   research routes to `03-WIKIS\AI_AUTOMATION_SYSTEMS`. And
-  `02-LIBRARY\08-AI-AUTOMATION` is an artifact/reference home (the spine,
+  `02-LIBRARY\REF-AI-AUTOMATION` is an artifact/reference home (the spine,
   prompt libraries, promoted syntheses, capture folders Chris places there),
   not an intake lane.
 

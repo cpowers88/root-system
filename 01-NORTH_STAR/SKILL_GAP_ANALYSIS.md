@@ -37,7 +37,7 @@ Fix: use and debug the tracker on real course data; use a bounded SQL lesson onl
 when it supports that frontier and does not displace Physics/Python mastery.
 
 **1.5 Technology landscape breadth — first rep complete, breadth still early**
-The possibility map now exists (02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md — 12 categories, need/waste signals, Recommendation Ladder). The gap is now reps, not structure.
+The possibility map now exists (02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md — 12 categories, need/waste signals, Recommendation Ladder). The gap is now reps, not structure.
 The first Make.com landscape rep was completed July 9; Looker Studio remains zero-rep.
 Fix: one 30-minute landscape rep weekly when school is on track. Next: build one
 small Looker Studio dashboard from a Sheet and explain when it is the cheapest fit.

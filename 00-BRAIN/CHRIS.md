@@ -29,7 +29,7 @@ lives in `Goals & Milestones\CURRENT_STRATEGY.md`.
 
 ## YouScience Aptitude Profile
 ### Source: YouScience Assessment, November 2025
-### Full PDFs: 02-LIBRARY\09-META-HOW-TO-WORK\
+### Full PDFs: 02-LIBRARY\REF-META-HOW-TO-WORK\
 
 **One-sentence summary:**
 High-horsepower idea engine with elite spatial and numerical reasoning, masterful vocabulary, and an extroverted future-focused style — whose primary constraint is weak associative memory requiring precision, repetition through action, and external structure to execute sequentially.
@@ -174,5 +174,5 @@ I am not starting from zero. I am formalizing what I already am.
 The aptitude profile confirms what I already knew: Idea Generation + Numerical Reasoning + Spatial Visualization + Investigative/Enterprising interests = someone built to design systems, see what others miss, and sell the solution. The degree makes it credible. The business makes it real.
 
 ---
-*Source: YouScience Assessment, Christopher Powers, November 2025 | Full PDFs in 02-LIBRARY\09-META-HOW-TO-WORK\*
+*Source: YouScience Assessment, Christopher Powers, November 2025 | Full PDFs in 02-LIBRARY\REF-META-HOW-TO-WORK\*
 *Last updated: July 5, 2026*

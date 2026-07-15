@@ -18,7 +18,7 @@ tags: [sources]
 | WATCHTOWER.md + radar.md | `...projectSuccess\` | signal router | Material external-change promotion and CASTLE test route; not strategy authority | all |
 | SKILL_GAP_ANALYSIS.md | `01-NORTH_STAR\` | spine | Gap priority order; monthly weak-link method | 0–1 |
 | AGENT.md + capability profiles (CLAUDE.md / CODEX.md / ATLAS.md) | `.ROOT\00-BRAIN\` | spine | Shared AI behavior, file safety, strengths, and access limits | all |
-| TECHNOLOGY_LIBRARY_STRATEGY.md | `02-LIBRARY\08-AI-AUTOMATION\` | spine | 12 tool categories; Recommendation Ladder | 2–7 |
+| TECHNOLOGY_LIBRARY_STRATEGY.md | `02-LIBRARY\REF-AI-AUTOMATION\` | spine | 12 tool categories; Recommendation Ladder | 2–7 |
 | KSU_Academic_Tracker_Brief.md | `02-LIBRARY\.PROJECTS\KSU_Academic_Tracker\` | spine | Proof-project scope | 0 |
 
 ## Internal — Support
@@ -58,7 +58,7 @@ tags: [sources]
 
 - `99-ARCHIVE\ARCHIVED_2026-07-07_FORGE_raw\` — 29 books, Tier 1–2, already digested into the BUSINESS/SYSTEMS/PYTHON/TECHNOLOGY pages above (FORGE itself retired July 7, 2026; raw sources archived, not deleted)
 - `02-LIBRARY\` PDFs — reference library; route through the relevant 03-WIKIS hub if deep ingest needed (see WHERE_IT_GOES.md's Realm Check)
-- Stock Market Books (`02-LIBRARY\99-MISC\`) — outside North Star; stays parked
+- Stock Market Books (`02-LIBRARY\REF-MISC\`) — outside North Star; stays parked
 
 ## Registration Rule
 

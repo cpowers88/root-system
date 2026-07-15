@@ -71,7 +71,7 @@ you through it."
   ("job sheet," "punch list"), never systems-engineering terms.
   VSM, TOC, and "feedback loop" stay in your notebook.
 - **The free fix leads.** Recommendation Ladder order
-  ([TECHNOLOGY_LIBRARY_STRATEGY.md](../../02-LIBRARY/08-AI-AUTOMATION/TECHNOLOGY_LIBRARY_STRATEGY.md)):
+  ([TECHNOLOGY_LIBRARY_STRATEGY.md](../../02-LIBRARY/REF-AI-AUTOMATION/TECHNOLOGY_LIBRARY_STRATEGY.md)):
   if the first fix in every one-pager is
   "eliminate/simplify — costs nothing," you are the vendor-neutral
   advisor, not another software salesman.

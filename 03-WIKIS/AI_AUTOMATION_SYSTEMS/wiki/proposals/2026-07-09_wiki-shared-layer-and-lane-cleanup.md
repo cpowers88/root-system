@@ -19,7 +19,7 @@ rewrite) and the changes were executed the same session, go-live eve.
    all — a gap the duplication pattern created.
 2. **Lane overlap in AI/automation** — three homes: TECHNOLOGY's
    `ai-and-llm/` applied-reference subfolder sat inside
-   AI_AUTOMATION_SYSTEMS's charter; `02-LIBRARY\08-AI-AUTOMATION` was
+   AI_AUTOMATION_SYSTEMS's charter; `02-LIBRARY\REF-AI-AUTOMATION` was
    receiving raw capture material (Make.com notes) with no stated intake
    status.
 3. **BUSINESS CLAUDE.md was a ~920-line build prompt**, not an operating
@@ -45,7 +45,7 @@ rewrite) and the changes were executed the same session, go-live eve.
 - `03-WIKIS\TECHNOLOGY\CLAUDE.md` + `03-WIKIS\AI_AUTOMATION_SYSTEMS\CLAUDE.md`
   + `00-BRAIN\WHERE_IT_GOES.md` — lane closure: new AI/LLM/agent research →
   AI_AUTOMATION_SYSTEMS; TECHNOLOGY's `ai-and-llm/` closed inherited
-  reference; 02-LIBRARY\08-AI-AUTOMATION declared an artifact/reference
+  reference; 02-LIBRARY\REF-AI-AUTOMATION declared an artifact/reference
   home, not an intake lane.
 
 ## Why Better Than Status Quo

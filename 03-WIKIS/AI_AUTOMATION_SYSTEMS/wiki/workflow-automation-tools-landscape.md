@@ -61,7 +61,7 @@ to a client.
   agents product. The article's "safely with AI" positioning is marketing;
   the vetting screen is the check.
 - **Make rep context:** Atlas's July 9 landscape rep
-  (`02-LIBRARY\08-AI-AUTOMATION\make.com_notes\make-com-landscape-rep.md`)
+  (`02-LIBRARY\REF-AI-AUTOMATION\make.com_notes\make-com-landscape-rep.md`)
   concluded Make = controlled workflow/prototype layer for bounded SMB
   automation. This article maps the competitive field around that verdict —
   and its silence on Make is itself evidence of the Zapier–Make rivalry.

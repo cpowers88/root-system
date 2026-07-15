@@ -66,7 +66,7 @@ Concretely:
   (Python, SQL, APIs, automation tooling already in active use — inherited
   from FORGE's retirement, July 7, 2026) — this wiki is landscape research
   and system-improvement proposals, not applied technique.
-- `02-LIBRARY\08-AI-AUTOMATION\` holds existing prompt libraries and
+- `02-LIBRARY\REF-AI-AUTOMATION\` holds existing prompt libraries and
   Obsidian-automation notes (`LLM_WIKI_PATTERN_karpathy.md`,
   `PROMPTS for AIchat\`, etc.) — this wiki may draw on that material as a
   source but nothing there was moved; it stays a `02-LIBRARY` reference

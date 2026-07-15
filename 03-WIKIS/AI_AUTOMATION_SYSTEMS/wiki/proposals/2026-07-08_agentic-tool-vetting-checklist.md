@@ -16,7 +16,7 @@ research → proposal → Chris review → promotion into a core file.
 
 ## Friction observed
 
-`02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`, Category 10,
+`02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`, Category 10,
 names agent workflows as the "newest, highest risk/reward" AI capability —
 but the file contains no criteria for judging that risk. The Recommendation
 Ladder prices tools by cost; nothing prices them by agentic risk. This gap
@@ -39,7 +39,7 @@ market will not self-disclose; the buyer needs a checklist.
 
 ## File it would touch
 
-`02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` — one additive
+`02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` — one additive
 subsection under Category 10 (AI & Intelligent Automation). No other file
 changes.
 

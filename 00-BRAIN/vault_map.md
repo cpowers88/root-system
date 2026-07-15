@@ -59,8 +59,9 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── SKILLS\            ← canonical shared skills; product discovery mirrors are generated
 │   ├── CASTLE\            ← command center: OPERATIONS.md + wiki\ (phases, skills,
 │   │                         proof-projects, decision-rules, maps); owns .ROOT\NOW.md
-│   ├── scripts\           ← maintenance scripts (build_graph_colors.py, wiki_lint.py,
-│   │                         frontmatter_audit.py, validate_boot_chain.py, sync_shared_skills.py)
+│   ├── scripts\           ← maintenance scripts — canonical inventory lives in
+│   │                         WHERE_IT_GOES.md (7 as of July 15, 2026, incl.
+│   │                         root_health.py and metadata_migration_plan.py)
 │   └── Session_Logs\      ← current handoffs + DAILY_YYYY-MM-DD.md + reports
 │                             (Report Archive\ inside)
 │
@@ -76,7 +77,10 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   │                         04-ECON, 05-ENGR, 99-EDG, OneNote, FallKSU.xlsx
 │   ├── .PROJECTS\         ← build/project docs (plain NAME; code lives on GitHub)
 │   ├── .raw ARCHIVE\      ← general raw source material
-│   └── 01-PHYSICS … 10-HEALTH, 99-MISC  ← reference domains
+│   └── REF-MATH … REF-MISC  ← reference domains (renamed July 15, 2026:
+│                              REF- marks "reference pile, not a wiki or the
+│                              money system"; empty domains archived; see
+│                              02-LIBRARY\README.md)
 │
 ├── 03-WIKIS\  ← eight knowledge hubs — folders inside the single .ROOT vault
 │   ├── SYSTEMS\           ← system dynamics + ISYE spine (Sterman, Factory Physics, queuing)
@@ -85,7 +89,7 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── PHYSICS\           ← physics engine: stages 1–18
 │   ├── BUSINESS\          ← business research, offers, pricing, audit method, delivery templates
 │   ├── TECHNOLOGY\        ← tech landscape + applied technical reference;
-│   │                         spine: 02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md
+│   │                         spine: 02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md
 │   ├── AI_AUTOMATION_SYSTEMS\ ← AI/agent research + .ROOT self-evolution proposals
 │   └── REVENUE_LAB\       ← digital revenue-lane evidence, scoring, and bounded tests
 │

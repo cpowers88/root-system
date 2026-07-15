@@ -9,21 +9,21 @@ tags: [reference, technology]
 ## Hub Contract
 
 - **Hub type:** research-retrieval engine — landscape research plus applied technical reference; also a SENSE evidence home for the Watchtower.
-- **Current truth:** `02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md § Current State` (landscape frontier of record); applied lookups start at `wiki\index.md`.
+- **Current truth:** `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md § Current State` (landscape frontier of record); applied lookups start at `wiki\index.md`.
 - **Loop & return:** runs the RESEARCH and STRUCTURE stages of the System Loop; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
 
 ## Question Owned
 Two layers as of July 7, 2026: landscape research/tech-adoption roadmap (the original purpose — not AI/agent-specific, that's the sibling `AI_AUTOMATION_SYSTEMS` wiki), plus applied technical reference (web frameworks, distributed systems, DevOps, AI/LLM concepts, applied data science) inherited from FORGE's retirement the same day.
 
 ## Start Here
-**Canonical current-frontier entry: `02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`'s Current State section.** This wiki has no in-vault `current-position.md` — the 12-category possibility map's Current State section is the frontier of record. For applied-reference lookups, start at `wiki\index.md` instead.
+**Canonical current-frontier entry: `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`'s Current State section.** This wiki has no in-vault `current-position.md` — the 12-category possibility map's Current State section is the frontier of record. For applied-reference lookups, start at `wiki\index.md` instead.
 
 ## Standard Work Loop
 ```text
 declare "landscape decision" or "applied retrieval" -> answer -> application/decision evidence
 ```
 A **landscape decision** asks "should Chris learn or recommend this" and resolves via
-`02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`'s Recommendation
+`02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`'s Recommendation
 Ladder. An **applied retrieval** asks "how does this actually work" and resolves via
 the subfolders under `03-WIKIS\TECHNOLOGY\wiki\`.
 
@@ -33,7 +33,7 @@ A landscape rep that becomes a recommendation pattern actually used in a real (o
 ## Outputs and Where They Go
 Landscape rep → page here. If it becomes a recommendation pattern used in real
 work, update the Current State in
-`02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`; do not duplicate it.
+`02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`; do not duplicate it.
 
 ## Boundaries
 No orphan knowledge — every category studied connects to school, a client service,
@@ -61,7 +61,7 @@ Weekly landscape reps have begun. Applied-reference pages remain retrieval mater
 not a curriculum.
 
 ## How To Ask This Wiki Questions
-- "What does the 12-category map say about [category]?" → `02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`
+- "What does the 12-category map say about [category]?" → `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`
 - "How does [Flask/distributed systems/DevOps concept] actually work?" → `wiki\index.md`, applied-reference subfolders
 - "What's new in [category] since I last checked?" → this wiki's landscape pages once reps accumulate them
 

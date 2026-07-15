@@ -5,7 +5,7 @@ tags: [now, technology]
 
 # TECHNOLOGY Wiki — Index
 
-### Scope: tech-skill and tech-adoption roadmap, plus (as of July 7, 2026) an applied-reference layer inherited from FORGE's retirement — deep technical material on web frameworks, distributed systems, DevOps, AI/LLM concepts, and applied data science. Spine reference: `02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`.
+### Scope: tech-skill and tech-adoption roadmap, plus (as of July 7, 2026) an applied-reference layer inherited from FORGE's retirement — deep technical material on web frameworks, distributed systems, DevOps, AI/LLM concepts, and applied data science. Spine reference: `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`.
 
 ## Status
 

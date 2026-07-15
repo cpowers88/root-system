@@ -131,7 +131,7 @@ One copy, zero drift.
   & SOWs, 06-Capability Library (reusable client-facing assets indexed by APQC
   process). NOT here: active client-specific/private work (→ separate client
   workspace/repository outside `.ROOT`) or business reference books
-  (→ 02-LIBRARY\05-BUSINESS).
+  (→ 02-LIBRARY\REF-BUSINESS).
 - **77-INBOX\** — manual external-file landing zone; nothing lives here past one weekly review.
 - **Clippings\** — automatic Obsidian clipping intake at the `.ROOT` root; nothing lives here past one weekly review.
 - **88-JOURNAL\** — private; no AI reads this folder.
@@ -151,7 +151,7 @@ once in `00-BRAIN\AGENT.md § Wiki Shared Layer`.
 
 **Lane rules:** new AI/LLM/agent research routes to `AI_AUTOMATION_SYSTEMS` —
 TECHNOLOGY's `ai-and-llm/` subfolder is closed inherited reference.
-`02-LIBRARY\08-AI-AUTOMATION` is an artifact/reference home, not a wiki
+`02-LIBRARY\REF-AI-AUTOMATION` is an artifact/reference home, not a wiki
 intake lane.
 
 **Raw-intake rule:** if source material lands in `00-BRAIN\CASTLE\raw\`

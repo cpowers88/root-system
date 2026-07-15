@@ -19,7 +19,7 @@ from memory."
 
 ## Friction / Drift Observed
 
-`02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` Category 10
+`02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` Category 10
 already carries an approved agent-tool vetting screen (itself the first
 proposal this wiki ever got promoted, July 8, 2026). It currently prices
 risk by form factor (chat-with-tools → enterprise agent builder →
@@ -39,7 +39,7 @@ vendor, and the existing vetting screen has no line item for it.
 
 ## Files Touched
 
-`02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` — Category 10,
+`02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` — Category 10,
 one additional bullet under the existing vetting screen, e.g.:
 
 > **Private-network reachability**: if the target system isn't
