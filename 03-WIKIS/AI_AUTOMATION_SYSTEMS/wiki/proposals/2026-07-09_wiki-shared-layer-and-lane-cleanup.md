@@ -31,7 +31,8 @@ rewrite) and the changes were executed the same session, go-live eve.
 
 ## Files Touched
 
-- `00-BRAIN\AI_Agent.md` — new § Wiki Shared Layer (9 rules: raw
+- `99-ARCHIVE\ARCHIVED_2026-07-10_AI_Agent.md` — historical file that received
+  the new § Wiki Shared Layer before the July 10 lane split (9 rules: raw
   immutability, chunking, session start/close minimums, update-over-create,
   contradiction flagging, recency markers, lint pass, academic integrity).
 - All 7 wiki CLAUDE.mds — duplicated blocks replaced with a pointer;

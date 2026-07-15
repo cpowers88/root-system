@@ -82,13 +82,17 @@ opening a new phase, changes to OPERATIONS.md itself, and ANY file outside
 8. **Calendar-encoded capacity.** Castle's schedulable pool = blocks labeled "CASTLE"
    on the **North Star Calendar** (Google Calendar, separate from the primary account
    calendar). Fill CASTLE blocks with whatever the active phase/project needs, no
-   separate improvised blocks. Confirmed capacity (verified July 7, 2026): ~24-26
-   hours/week of CASTLE-tagged blocks, plus up to ~10 hours/week of float time that
-   may absorb overflow but is not guaranteed. Float is not dedicated time — never
-   schedule against it directly. CASTLE tags currently run only through Aug 22, 2026 —
-   extend into the Fall semester template before classes start or this capacity line
-   goes stale (tracked: SYSTEM_FLAGS #51). Clean ceiling:
-   26–30 hours/week.
+   separate improvised blocks. Confirmed capacity (rebuilt July 15, 2026 against the
+   Fall semester template and Chris's real Ben Care hours — Sun 7-10am/6-8pm, Mon-Fri
+   7-9am/5-8pm, Sat 7am-2pm): **~29h45m/week of CASTLE-tagged blocks, plus ~36h55m/week
+   of FLOAT** (FLOAT absorbs either project overflow or family tasks — not guaranteed
+   work time). CASTLE/FLOAT run Aug 24 through Dec 15, 2026 (semester bound); renew or
+   rebuild for Spring once that template exists. The July 7 baseline of ~24-26h
+   CASTLE / ~10h FLOAT is superseded — that figure predated the corrected Ben Care
+   schedule and undercounted real family-duty hours. Known open item: Mon-Fri Ben
+   Care hours overlap three class blocks (Tue/Thu ECON 8-8:55am; Mon/Wed CSE Lecture
+   tail 5-5:30pm; Tue CSE Lab 5:45-7:35pm) — unresolved pending Chris's childcare
+   conversation with Heather (~2 weeks out from July 15).
 
 ## Wiki Sweep — Eight Hubs (added July 7, 2026 wiki unification; FORGE retired same day, replaced by SYSTEMS; Revenue Lab added July 14)
 

@@ -46,14 +46,14 @@ top videos for a topic and identify reachable small-channel breakouts.
 
 - Clean terminal working directory showing the single `topic-report` command.
 - Exact topic-report output, including views and breakout metrics.
-- SQLite file location: `YT_Outlier_Scanner\scanner.db` (do not open `.env`).
+- SQLite file location: `YT_Outlier_Scanner\scanner.db` (do not open the external secret file).
 - Review artifact:
   `03-WIKIS\REVENUE_LAB\wiki\yt-outlier-scanner-first-findings-2026-07-14.md`.
 
 ## Privacy Checklist
 
 - [ ] Use a clean terminal working directory and clear command history first.
-- [ ] Keep `.env` out of the file explorer, terminal, editor tabs, and recording.
+- [ ] Keep `C:\Users\chris\.root-secrets\YT_Outlier_Scanner.env` out of the file explorer, terminal, editor tabs, and recording.
 - [ ] Never display, read aloud, paste, or record the API key.
 - [ ] Show no private vault content beyond the approved report artifact.
 - [ ] Show no family information or protected academic/submission material.

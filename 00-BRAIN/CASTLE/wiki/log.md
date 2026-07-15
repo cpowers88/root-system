@@ -4,6 +4,31 @@ tags: [reference]
 
 # Castle Log — Append Only
 
+## 2026-07-15 (morning) — Stability review + Fall CASTLE calendar built (SYSTEM_FLAGS #51 closed)
+
+- Ran the morning system review Chris requested (Operator hat): boot chain PASS,
+  strict wiki lint PASS (0 blockers/0 review debt), frontmatter audit clean of new
+  findings (621 pre-existing known tag debt). No HIGH flags open. Also caught a
+  concurrent commit (`478bb35 "hey"`) landing mid-review — confirmed by Chris as his
+  own action, not a runaway process.
+- Built the Fall semester CASTLE/FLOAT calendar (SYSTEM_FLAGS #51), working from
+  Chris's real Ben Care hours (Sun 7-10am/6-8pm, Mon-Fri 7-9am/5-8pm, Sat 7am-2pm),
+  which replaced a stale, incomplete pattern (Thu/Fri evening only, 3hr weekend
+  blocks). Filled every remaining open window with the existing Launch Pad → CASTLE
+  → Flash Card → Lunch + Break → CASTLE/FLOAT → Session Close rotation. 57 total
+  calendar operations on the North Star Calendar, all confirmed, recurring weekly
+  Aug 24 → Dec 15, 2026.
+- New confirmed capacity: ~29h45m/wk CASTLE + ~36h55m/wk FLOAT — supersedes the July 7
+  baseline (~24-26h/~10h), which undercounted Chris's actual family-duty hours.
+  `OPERATIONS.md` rule 8 rewritten to match.
+- Left three Ben-Care/class overlaps visible and unresolved rather than guessing a
+  fix (Tue/Thu ECON 8-8:55am; Mon/Wed CSE Lecture tail 5-5:30pm; Tue CSE Lab
+  5:45-7:35pm) — Chris is resolving the real Mon-Fri childcare plan with Heather in
+  ~2 weeks; this build is explicitly provisional pending that.
+- Next: once the real childcare plan lands, rebuild the Ben Care blocks (not patch)
+  and re-check the three flagged overlaps. Then return to Physics Stage 3
+  (vector-addition problem, paused July 14).
+
 ## 2026-07-12 (evening) — ROOT_OPERATING_MANUAL.md execution brief (V2) executed
 
 - Executed `00-BRAIN\Session_Logs\ROOT_USER_OPERATING_INSTRUCTIONS_EXECUTION_BRIEF_V2_2026-07-12.md` (approved-for-execution, Claude Code as execution owner). `START_HERE.md` read-verified unchanged before and after (SHA-256 hash identical); left as the map, no edits.
@@ -763,3 +788,21 @@ gate before any permanent content/revenue workspace or publishing commitment.
   remain in append-only logs only as historical evidence, not live instructions.
 - Next: return to Physics Stage 3; do not reopen architecture work without a real
   navigation or operating failure.
+
+## 2026-07-15 — Post-migration integrity and usability audit passed
+
+- Reconciled residual retired-track language and stale technology/skill/project proof
+  claims to the permanent-capability/current-strategy model; POL remains parked unless
+  a future weak-link review explicitly reactivates it.
+- Archived verified superseded, duplicate, zero-byte, header-only, and empty-project
+  artifacts without deleting history. Live duplicate groups and unexplained zero-byte
+  files are now zero.
+- Replaced the stale 126-line history-heavy cockpit with a compact owner-routed
+  `NOW.md`; preserved the exact prior cockpit in archive.
+- Removed the scanner credential from the synced vault without displaying it, taught
+  the scanner to use the external secret location, and passed its offline selftest.
+- Validation: boot PASS; strict wiki lint 0 blockers/0 review debt; shared skills PASS;
+  0 unresolved direct root Markdown paths; 0 retired active-interface hits.
+- Next: follow the latest `NOW.md` owner state: close the bounded Fall CASTLE-calendar
+  task now listed first, then return to Physics Stage 3. Do not expand this audit into
+  another architecture pass.

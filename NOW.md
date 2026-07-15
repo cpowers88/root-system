@@ -13,6 +13,20 @@ tags: [now]
 2. If that proof is closed, finish and explain the Python Stage 2 choose-your-path
    mini-project independently.
 
+**Morning system review (July 15, Operator hat):** boot chain PASS (30 files/1096
+pages), strict wiki lint clean (0 blockers/0 review debt), frontmatter audit shows
+only pre-existing known tag debt. SYSTEM_FLAGS #75 (post-migration residual drift)
+is closed. No HIGH flags open. System verified stable.
+
+**Fall CASTLE calendar built (SYSTEM_FLAGS #51 closed):** North Star Calendar now
+carries Chris's corrected real Ben Care hours (Sun 7-10am/6-8pm, Mon-Fri 7-9am/5-8pm,
+Sat 7am-2pm) plus the full Launch Pad → CASTLE → Flash Card → Lunch + Break →
+CASTLE/FLOAT → Session Close rotation in every remaining open window, Aug 24 → Dec 15.
+New capacity: ~29h45m/wk CASTLE + ~36h55m/wk FLOAT. **Provisional and known-incomplete:**
+three Ben-Care/class overlaps (Tue/Thu ECON 8-8:55am; Mon/Wed CSE Lecture tail;
+Tue CSE Lab) sit visibly unresolved pending Chris's childcare conversation with
+Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settled.
+
 ## Current Picture
 
 | Area | Live truth | Next proof |

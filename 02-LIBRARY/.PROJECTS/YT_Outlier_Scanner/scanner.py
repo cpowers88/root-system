@@ -28,8 +28,8 @@ Discover = wide-net niche scan: recent winners per keyword + views/subscriber
 breakouts from small channels. It nominates niches and channel candidates;
 adding a channel for deep harvest stays a human (Chris) decision.
 
-Setup: put YOUTUBE_API_KEY=<key> in a .env file next to this script
-(gitignored), or set the YOUTUBE_API_KEY environment variable.
+Setup: set the YOUTUBE_API_KEY environment variable or store it in
+~/.root-secrets/YT_Outlier_Scanner.env (outside the .ROOT vault).
 """
 
 import argparse
@@ -46,6 +46,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+SECRET_FILE = Path.home() / ".root-secrets" / "YT_Outlier_Scanner.env"
 DB_PATH = HERE / "scanner.db"
 API_BASE = "https://www.googleapis.com/youtube/v3"
 SHORT_MAX_SECONDS = 180  # heuristic; Shorts may be up to 3 minutes
@@ -207,18 +208,16 @@ TITLE_TERM_STOPWORDS = {
 
 def load_api_key() -> str:
     key = os.environ.get("YOUTUBE_API_KEY", "").strip()
-    if not key:
-        env_file = HERE / ".env"
-        if env_file.exists():
-            for line in env_file.read_text(encoding="utf-8").splitlines():
-                line = line.strip()
-                if line.startswith("YOUTUBE_API_KEY="):
-                    key = line.split("=", 1)[1].strip().strip('"').strip("'")
-                    break
+    if not key and SECRET_FILE.exists():
+        for line in SECRET_FILE.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line.startswith("YOUTUBE_API_KEY="):
+                key = line.split("=", 1)[1].strip().strip('"').strip("'")
+                break
     if not key:
         sys.exit(
-            "No API key found. Put YOUTUBE_API_KEY=<key> in "
-            f"{HERE / '.env'} or set the YOUTUBE_API_KEY environment variable."
+            "No API key found. Set YOUTUBE_API_KEY or put "
+            f"YOUTUBE_API_KEY=<key> in {SECRET_FILE}."
         )
     return key
 

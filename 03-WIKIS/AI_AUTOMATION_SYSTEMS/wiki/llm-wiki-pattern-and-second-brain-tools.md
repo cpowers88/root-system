@@ -35,7 +35,8 @@ blocks + handoffs outperform claude-obsidian's ~500-token `hot.md` cache).
 
 ## What Was Adopted (July 9, 2026 — see proposal)
 
-Promoted into `00-BRAIN\AI_Agent.md § Wiki Shared Layer` (now AGENT.md — lane split, July 10, 2026), rules 5–8:
+Promoted into `00-BRAIN\AGENT.md § Wiki Shared Layer` (originally added before the
+July 10 lane split), rules 5–8:
 
 - **Prefer updating over creating** (generalized from BUSINESS §7A) —
   the anti-append discipline obsidian-second-brain identifies as the thing

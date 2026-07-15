@@ -6,7 +6,11 @@ tags: [parked, project]
 # ListingOS / FMLS Packet Automation — Project Status
 #FMLS 
 
-## Active Project | Chris Powers Second Brain
+## Parked Project | Reference Snapshot
+
+> **Current vault status — July 15, 2026:** parked. The May 25 operating model
+> below is historical project state, not current `.ROOT` authority. Resume only
+> through a fresh CASTLE/current-strategy gate and reconcile external locations first.
 
 ### Last Synchronized: 2026-05-25 | Aligned with: GitHub listing-packet-clean1 @ c5c940b
 

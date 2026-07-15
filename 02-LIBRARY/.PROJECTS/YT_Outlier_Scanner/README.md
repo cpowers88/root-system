@@ -37,11 +37,13 @@ mode applies transparent title checks to obvious search noise; use
 3. **APIs & Services → Credentials → + Create Credentials → API key.**
    Copy the key. (Optional hardening: click the key → "Restrict key" →
    API restrictions → YouTube Data API v3 only.)
-4. In this folder, create a file named `.env` containing exactly one line:
+4. Outside the `.ROOT` vault, create
+   `C:\Users\chris\.root-secrets\YT_Outlier_Scanner.env` containing exactly one line:
    ```
    YOUTUBE_API_KEY=paste-your-key-here
    ```
-   `.env` is already gitignored vault-wide — the key can never be committed.
+   The scanner loads this external file automatically. Never place the key inside
+   `.ROOT`, even in a gitignored file.
 
 **Cost: $0 under the default YouTube Data API quota.** No paid tool or billing
 change is part of this project. Under Google's June 2026 granular model,
@@ -49,8 +51,9 @@ change is part of this project. Under Google's June 2026 granular model,
 costing one unit in that bucket. Other read requests use the general default
 10,000-unit/day bucket. Google Cloud Console remains the usage source of truth.
 
-The API key is already configured locally for the verified scanner. Keep `.env`
-private and never show it in recordings, screenshots, output, or commits.
+The API key is already configured locally for the verified scanner. Keep the
+external secret file private and never show it in recordings, screenshots, output,
+the vault, or commits.
 
 ## Usage
 
@@ -123,6 +126,7 @@ by niche, before the first harvest.
 - `scanner.py` — single-file stdlib-only tool (no venv, no dependencies)
 - `scanner.db` — SQLite data (generated; gitignored)
 - `discovery_snapshots` — append-only observations inside `scanner.db`
-- `.env` — API key (Chris-created; gitignored)
+- `C:\Users\chris\.root-secrets\YT_Outlier_Scanner.env` — external API key file;
+  intentionally outside this vault and project
 - `channels_seed.md` — niche/channel working list
 - `PRIVATE_PROOF_OUTLINE.md` — internal 8–12 minute walkthrough plan

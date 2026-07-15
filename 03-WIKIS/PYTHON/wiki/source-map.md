@@ -341,8 +341,8 @@ material above — not yet built into the curriculum.
 
 ## Note on This Batch's Origin (2026-07-07)
 
-These 44 pages arrived as part of FORGE's retirement (`03-WIKIS\CLAUDE.md` execution
-brief), not a fresh Chris-initiated intake — FORGE had already ingested them from the
+These 44 pages arrived under the now-retired 03-WIKIS-level FORGE execution brief,
+not a fresh Chris-initiated intake — FORGE had already ingested them from the
 two books above (plus two Python Crash Course chapters) months ago under its own
 ingest protocol. A parallel batch of 22 pages from the same FORGE folder was
 **archived, not migrated**, because they duplicated content already fully built into

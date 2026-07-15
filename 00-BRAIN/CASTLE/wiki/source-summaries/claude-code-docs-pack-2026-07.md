@@ -45,6 +45,9 @@ Read in full: Best_Practices, STORE_INSTRUCTIONS_AND_MEMORIES, EXPLORE_CLAUDE_CO
 
 ## Applied
 
-This ingest drove the July 11, 2026 system self-review: `00-BRAIN\Session_Logs\CLAUDE_DOCS_SYSTEM_REVIEW_2026-07-11.md` (verdict: architecture sound, history-creep in always-read files was the real bloat; SYSTEM_FLAGS closed-table archived same session).
+This ingest drove the July 11, 2026 system self-review:
+`99-ARCHIVE\ARCHIVED_2026-07-12_SESSION_LOG_CLAUDE_DOCS_SYSTEM_REVIEW_2026-07-11.md`
+(verdict: architecture sound, history-creep in always-read files was the real bloat;
+SYSTEM_FLAGS closed-table archived the same session).
 
 ## Entered in [[source-map]]: yes
