@@ -108,7 +108,7 @@ a generalized `learning` from the specific `skill-proposal` behavior
 change, human accept/reject, rejected reasons logged, accepted ones get a
 `check_at` follow-up) is genuinely novel and stays inside the eyes-not-hands
 boundary — proposal comparing it against `SYSTEM_FLAGS.md`'s current
-mechanism: [[../proposals/2026-07-13_belief-proposal-split-for-system-flags]].
+mechanism: [[proposals/2026-07-13_belief-proposal-split-for-system-flags]].
 
 ## 2026-07-14 Clipping Review: What Earned Promotion
 

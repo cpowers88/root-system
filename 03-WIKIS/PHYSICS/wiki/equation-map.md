@@ -26,7 +26,7 @@ Chapter 1 is mostly conceptual rather than equation-heavy — units, conversions
 | Rx = Ax+Bx, Ry = Ay+By | Add vectors by adding components separately | A, B = vectors being added; R = resultant | same unit as inputs | Vectors already in component form | Adding two or more vectors | Trying to add magnitudes directly | Vector addition | [[../equations/vector-addition-by-components]] |
 | A⃗·B⃗ = AB cos θ = AxBx+AyBy (preview — see note) | Collapses two vectors into one scalar number (how much they align) | A, B = magnitudes; θ = angle between them | product of the two vectors' units | — | Not required until Stage 7 (work) | — | — | [[../equations/dot-product]] |
 
-**Note on the dot product row above:** kept in Stage 3 for reference since the page already exists, but the textbook (and this map) treat it as **Stage 7 material** — see the Parked for Later section of [[../stages/stage-3-vectors]].
+**Note on the dot product row above:** kept in Stage 3 for reference since the page already exists, but the textbook (and this map) treat it as **Stage 7 material** — see the Parked for Later section of [[stages/stage-3-vectors]].
 
 ## Stage 4 — Motion in Two Dimensions (Ch 4)
 

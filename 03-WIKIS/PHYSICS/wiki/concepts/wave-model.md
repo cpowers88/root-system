@@ -60,4 +60,5 @@ Thinking the medium moves along with the wave. Watch a leaf floating on water wh
 
 ## Practice Next
 
-Read [[sinusoidal-wave]] to get the mathematical description. Then practice reading wave functions.
+When Stage 16 becomes active, use [[../stages/stage-16-wave-motion]] for the
+planned mathematical description and wave-function practice.
