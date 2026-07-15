@@ -1,6 +1,6 @@
 ---
 type: map
-tags: [now, ai-automation]
+tags: [reference, ai-automation]
 ---
 
 # AI_AUTOMATION_SYSTEMS Wiki — Index

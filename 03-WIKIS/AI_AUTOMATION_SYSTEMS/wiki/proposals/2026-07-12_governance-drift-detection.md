@@ -1,6 +1,6 @@
 ---
-type: report
-tags: [log, ai-automation, governance]
+type: proposal
+tags: [ai-automation, proposal, governance]
 ---
 
 # Proposal: Governance Drift Detection — A Standing Staleness Check

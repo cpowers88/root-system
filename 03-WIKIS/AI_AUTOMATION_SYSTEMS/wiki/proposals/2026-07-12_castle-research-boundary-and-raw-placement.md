@@ -1,6 +1,6 @@
 ---
-type: report
-tags: [log, ai-automation, governance, castle]
+type: proposal
+tags: [ai-automation, proposal, governance, castle]
 ---
 
 # Proposal: Enforce CASTLE's Research Boundary + Add a `raw/` Placement Rule

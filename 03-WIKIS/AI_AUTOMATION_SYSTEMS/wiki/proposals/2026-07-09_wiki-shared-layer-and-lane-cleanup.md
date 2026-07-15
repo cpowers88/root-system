@@ -1,6 +1,6 @@
 ---
-type: report
-tags: [log, ai-automation, governance]
+type: proposal
+tags: [ai-automation, proposal, governance]
 ---
 
 # Proposal: Wiki Shared Layer + AI-Lane Cleanup

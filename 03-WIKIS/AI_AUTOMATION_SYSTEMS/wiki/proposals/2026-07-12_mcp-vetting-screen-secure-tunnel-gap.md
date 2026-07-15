@@ -1,6 +1,6 @@
 ---
-type: report
-tags: [log, ai-automation, mcp, technology-landscape]
+type: proposal
+tags: [ai-automation, proposal, mcp, technology-landscape]
 ---
 
 # Proposal: Add the Private-Network MCP Gap to the Category 10 Vetting Screen

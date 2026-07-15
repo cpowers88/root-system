@@ -1,6 +1,6 @@
 ---
-type: report
-tags: [log, ai-automation, governance, verification]
+type: proposal
+tags: [ai-automation, proposal, governance, verification]
 ---
 
 # Proposal: Scale the Agent Evaluation Gate with Architecture Complexity

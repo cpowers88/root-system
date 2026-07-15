@@ -1,6 +1,6 @@
 ---
-type: report
-tags: [log, ai-automation, workflow]
+type: proposal
+tags: [ai-automation, proposal, workflow]
 ---
 
 # Proposal: Explicit "What Should Be Captured" Step in Session-Close

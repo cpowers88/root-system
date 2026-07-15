@@ -1,6 +1,8 @@
 ---
 type: os
-tags: [now, ai-automation]
+tags: [reference, ai-automation]
+created: 2026-07-08
+status: live
 ---
 
 # CLAUDE.md — AI & Automation Systems Wiki OS
@@ -20,6 +22,20 @@ The controlling question:
 
 > What AI/automation pattern is worth knowing, and does `.ROOT` itself need to
 > change to use it well?
+
+Both jobs serve the same direction. The Technology track needs a practitioner
+who knows what AI/automation patterns are worth building into real work. The
+Advisor-Builder business needs someone who can enter an unfamiliar operation,
+identify where AI creates measurable value, and implement the right system.
+This wiki is where that knowledge accumulates before it becomes client-facing
+capability — and where `.ROOT` improves through its own use.
+
+## Current State
+
+`wiki/index.md` — live inventory of every research page and proposal, with
+status markers. `wiki/log.md` — recent session activity and intake summary.
+Open these two before starting any research session; do not estimate coverage
+from page names or file counts here — they drift.
 
 ## Division of Labor — Read This First
 

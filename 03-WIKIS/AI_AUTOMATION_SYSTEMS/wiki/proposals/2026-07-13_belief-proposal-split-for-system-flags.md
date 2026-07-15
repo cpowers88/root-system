@@ -1,6 +1,6 @@
 ---
-type: report
-tags: [log, ai-automation, governance]
+type: proposal
+tags: [ai-automation, proposal, governance]
 ---
 
 # Proposal: Separate "Belief" from "Behavior Change" in the Flag/Review Mechanism
