@@ -1,6 +1,7 @@
 ---
 type: hat
-tags: [reference, governance, school]
+timeline: reference
+tags: [governance, school]
 ---
 
 # HAT_ENGR1000.md — Engineering Intro Subject Hat

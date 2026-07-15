@@ -1,6 +1,7 @@
 ---
 type: instruction
-tags: [reference, governance, atlas]
+timeline: reference
+tags: [governance, atlas]
 created: 2026-07-10
 status: live
 ---

@@ -1,6 +1,7 @@
 ---
 type: hat
-tags: [reference, governance, school, programming]
+timeline: reference
+tags: [governance, school, programming]
 ---
 
 # HAT_PYTHON.md — Python Subject Hat

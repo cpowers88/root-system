@@ -1,6 +1,7 @@
 ---
 type: pointer
-tags: [reference]
+timeline: reference
+tags: []
 ---
 
 # CLAUDE.md — CASTLE Claude Auto-Load Pointer

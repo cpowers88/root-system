@@ -1,6 +1,7 @@
 ---
 type: instruction
-tags: [reference, governance, codex]
+timeline: reference
+tags: [governance, codex]
 created: 2026-07-10
 status: live
 ---

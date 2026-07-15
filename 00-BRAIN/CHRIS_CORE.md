@@ -1,6 +1,7 @@
 ---
 type: person
-tags: [reference]
+timeline: reference
+tags: []
 ---
 
 # CHRIS_CORE.md — Chris Powers Operating Profile

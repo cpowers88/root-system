@@ -1,6 +1,7 @@
 ---
 type: hat
-tags: [reference, governance, school, physics]
+timeline: reference
+tags: [governance, school, physics]
 ---
 
 # HAT_PHYSICS.md — Physics Subject Hat
@@ -74,4 +75,5 @@ problem-solving method was introduced, terms were locked that need
 reps, or Chris stops mid-work. Not for quick concept checks. Update
 `current-position.md` at stage boundaries and `wiki/log.md` per the
 wiki's close protocol (stage advance = Educator's Stage Advance skill:
-tags move, colors never do).
+update `stage` and `timeline` independently; topic tags and graph colors do not
+move).

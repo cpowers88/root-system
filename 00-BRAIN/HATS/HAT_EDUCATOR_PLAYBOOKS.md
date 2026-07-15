@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # HAT_EDUCATOR_PLAYBOOKS.md — Educator Methods & Skill Scripts (on demand)

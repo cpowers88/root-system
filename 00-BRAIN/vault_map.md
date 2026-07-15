@@ -1,6 +1,7 @@
 ---
 type: map
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # vault_map.md — Powers System Map (.ROOT)

@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # HAT_OPERATOR_PLAYBOOKS.md — Operator Skill Scripts (on demand)

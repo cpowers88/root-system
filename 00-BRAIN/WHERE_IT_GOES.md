@@ -1,6 +1,7 @@
 ---
 type: map
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # WHERE_IT_GOES.md — File Placement + Naming Authority

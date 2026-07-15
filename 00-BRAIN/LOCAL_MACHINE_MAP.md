@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [reference]
+timeline: reference
+tags: []
 ---
 
 # LOCAL_MACHINE_MAP.md — Local Machine Inventory (reference snapshot)

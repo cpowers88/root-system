@@ -1,6 +1,7 @@
 ---
 type: ops
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # OPERATIONS.md — How AI Sessions Run the Castle

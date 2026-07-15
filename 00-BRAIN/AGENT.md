@@ -1,6 +1,7 @@
 ---
 type: os
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 created: 2026-07-10
 status: live
 ---

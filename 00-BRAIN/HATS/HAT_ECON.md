@@ -1,6 +1,7 @@
 ---
 type: hat
-tags: [reference, governance, school]
+timeline: reference
+tags: [governance, school]
 ---
 
 # HAT_ECON.md — Economics Subject Hat

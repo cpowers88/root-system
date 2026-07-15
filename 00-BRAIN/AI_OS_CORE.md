@@ -1,6 +1,7 @@
 ---
 type: pointer
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # AI_OS_CORE.md — RETIRED NAME (pointer only)

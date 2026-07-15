@@ -1,6 +1,7 @@
 ---
 type: hat
-tags: [reference, governance, school]
+timeline: reference
+tags: [governance, school]
 ---
 
 # HAT_TCOM.md — Technical Writing Subject Hat

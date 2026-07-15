@@ -1,6 +1,7 @@
 ---
 type: hat
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # HAT_OPERATOR.md — Operator Mode
