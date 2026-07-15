@@ -1,6 +1,8 @@
 ---
 type: review
-tags: [log, weekly]
+timeline: now
+status: awaiting-review
+tags: [weekly]
 created: 2026-07-15
 ---
 

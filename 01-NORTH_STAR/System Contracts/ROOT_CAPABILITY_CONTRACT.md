@@ -1,6 +1,7 @@
 ---
 type: contract
-tags: [reference, north-star, governance, ai-os]
+timeline: reference
+tags: [north-star, governance, ai-os]
 status: live
 ---
 

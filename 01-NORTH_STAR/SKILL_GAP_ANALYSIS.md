@@ -1,6 +1,7 @@
 ---
 type: tracker
-tags: [now, north-star]
+timeline: now
+tags: [north-star]
 ---
 
 # SKILL_GAP_ANALYSIS.md — Chris Powers

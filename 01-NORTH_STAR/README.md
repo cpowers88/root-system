@@ -1,6 +1,7 @@
 ---
 type: map
-tags: [reference, north-star]
+timeline: reference
+tags: [north-star]
 ---
 
 # 01-NORTH_STAR — Direction Router

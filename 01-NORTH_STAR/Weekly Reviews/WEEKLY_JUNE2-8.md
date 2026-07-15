@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log]
+timeline: log
+tags: []
 ---
 
 # WEEKLY REPORT — JUNE 2–8, 2026

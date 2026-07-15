@@ -1,6 +1,7 @@
 ---
 type: plan
-tags: [now, school]
+timeline: now
+tags: [school]
 status: active
 ---
 

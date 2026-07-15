@@ -1,6 +1,7 @@
 ---
 type: star
-tags: [reference, north-star]
+timeline: reference
+tags: [north-star]
 ---
 
 # NORTH_STAR.md — Chris Powers
