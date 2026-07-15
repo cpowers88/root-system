@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Delete the scenario input or output fields
 slug: delete-the-scenario-input-or-output-fields
 docTags: 

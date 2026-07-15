@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Iterator
 slug: iterator
 description: Split arrays into individual bundles using iterators to process each item separately

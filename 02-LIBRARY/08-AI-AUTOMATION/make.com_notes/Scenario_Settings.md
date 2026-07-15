@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Scenario settings
 slug: scenario-settings
 description: Define how your scenario executes and behaves if an error occurs

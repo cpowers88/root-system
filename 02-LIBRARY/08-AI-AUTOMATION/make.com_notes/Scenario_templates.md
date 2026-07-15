@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Scenario templates
 slug: scenario-templates
 description: Find out how to create scenarios from public or team templates

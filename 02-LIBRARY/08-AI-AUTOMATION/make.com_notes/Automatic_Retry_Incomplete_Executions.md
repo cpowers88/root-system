@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Automatic retry of incomplete executions
 slug: automatic-retry-of-incomplete-executions
 docTags: 

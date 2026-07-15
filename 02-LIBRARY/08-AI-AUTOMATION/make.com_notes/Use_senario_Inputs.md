@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Use scenario inputs
 slug: use-scenario-inputs
 docTags: 

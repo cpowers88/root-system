@@ -8,7 +8,7 @@ tags: [priority/next, status/wiki-only, subject/ai-tooling, start]
 
 **Summary**: A categorized map of the AI developer tooling ecosystem as of 2026 — coding agents, AI-native IDEs, code generators, productivity tools, full-stack AI, testing tools, and open-source agents — plus the known failure modes of relying on them.
 
-**Sources**: raw/Top AI Tools for Developers in 2026 Best GenAI Coding Tools.md
+**Source**: `02-LIBRARY\.raw ARCHIVE\Top AI Tools for Developers in 2026 Best GenAI Coding Tools.md` (legacy source holding; disposition recorded in the Phase 6D source-routing report)
 
 **Last updated**: 2026-06-18
 

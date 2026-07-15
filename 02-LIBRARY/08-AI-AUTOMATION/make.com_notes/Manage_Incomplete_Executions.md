@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Manage incomplete executions
 slug: manage-incomplete-executions
 docTags: 

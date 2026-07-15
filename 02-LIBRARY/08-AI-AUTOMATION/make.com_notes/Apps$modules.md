@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Apps & modules
 slug: apps-and-modules
 description: Explore different types of apps, modules, and learn the fundamentals of webhooks

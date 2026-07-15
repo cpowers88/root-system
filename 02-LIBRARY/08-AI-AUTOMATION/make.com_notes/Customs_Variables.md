@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Custom variables
 slug: custom-variables
 docTags: 

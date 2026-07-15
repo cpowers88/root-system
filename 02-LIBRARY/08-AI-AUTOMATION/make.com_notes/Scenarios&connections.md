@@ -1,6 +1,8 @@
 ---
 type: reference
-tags: [reference, ai-automation, make]
+timeline: reference
+status: source-capture
+tags: [ai-automation, make]
 ---
 
 **---**

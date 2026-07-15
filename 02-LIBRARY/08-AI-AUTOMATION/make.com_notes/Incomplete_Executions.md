@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Incomplete executions
 slug: incomplete-executions
 description: Store failed scenario runs and resolve them automatically or manually to prevent data loss

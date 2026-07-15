@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Mapping
 slug: mapping
 description: Discover how to map items between modules to move your data from one app to another

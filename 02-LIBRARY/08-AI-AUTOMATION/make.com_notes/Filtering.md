@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Filtering
 slug: filtering
 description: Manage data flow between modules with filters and operators, and copy them

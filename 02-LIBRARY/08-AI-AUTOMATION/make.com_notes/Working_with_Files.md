@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Working with files
 slug: working-with-files
 description: Learn how Make handles files and how to map file names and actual content

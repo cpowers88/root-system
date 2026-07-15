@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Use scenario outputs
 slug: use-scenario-outputs
 docTags: 

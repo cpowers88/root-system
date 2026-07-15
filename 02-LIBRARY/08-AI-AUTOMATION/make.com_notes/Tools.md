@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Tools
 slug: tools
 description: Get familiar with the essential tools for transforming data

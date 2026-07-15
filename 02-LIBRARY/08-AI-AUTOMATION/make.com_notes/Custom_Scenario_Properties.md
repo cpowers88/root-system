@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Custom scenario properties
 slug: custom-scenario-properties
 description: Add custom properties to organize, sort, and filter your scenarios in a table view

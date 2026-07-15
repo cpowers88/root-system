@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Make AI Agents app
 slug: make-ai-agents-app
 description: Explore Make AI Agents app modules and settings to use AI agents in scenarios

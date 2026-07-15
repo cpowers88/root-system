@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Keyboard shortcuts
 slug: keyboard-shortcuts
 description: Discover the keyboard shortcuts available in Make to save time when editing scenarios

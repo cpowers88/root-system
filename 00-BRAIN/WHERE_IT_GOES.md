@@ -161,6 +161,12 @@ CASTLE's `raw\` is a triage/staging point, not a permanent intake lane;
 CASTLE orients and sequences, it does not do a wiki's primary research
 (`00-BRAIN\CASTLE\OPERATIONS.md`).
 
+`02-LIBRARY\.raw ARCHIVE\` is a closed legacy source holding area, not an
+intake lane. Add nothing new there. Because its name carries the raw boundary,
+do not move, rename, delete, or edit its contents without Chris's explicit raw
+exception. The hash-backed disposition of its 12 retained files is recorded in
+`00-BRAIN\Session_Logs\ROOT_REMEDIATION_PHASE_6D_SOURCE_ROUTING_DISPOSITION_2026-07-15.md`.
+
 When wiki knowledge becomes a client-facing or system artifact, the artifact
 lives in the normal Second Brain location:
 - reusable/sanitized audit method or business artifact → `05-BUSINESS`

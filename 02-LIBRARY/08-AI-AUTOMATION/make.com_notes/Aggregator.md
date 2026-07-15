@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Aggregator
 slug: aggregator
 description: Use aggregators to merge multiple data bundles into one and group the results

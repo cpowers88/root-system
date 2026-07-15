@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Item data types
 slug: item-data-types
 description: Learn about data types, collections, and arrays, and see how Make validates and converts data

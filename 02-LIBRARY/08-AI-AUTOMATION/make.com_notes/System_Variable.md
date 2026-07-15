@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: System variables
 slug: system-variables
 docTags: 

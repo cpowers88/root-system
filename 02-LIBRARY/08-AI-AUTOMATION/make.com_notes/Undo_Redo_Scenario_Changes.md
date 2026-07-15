@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Undo and redo scenario changes
 slug: undo-and-redo-scenario-changes
 docTags: 

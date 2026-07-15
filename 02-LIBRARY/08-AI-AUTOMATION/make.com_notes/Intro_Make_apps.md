@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Introduction to Make apps
 slug: introduction-to-make-apps
 description: Learn about verified, community, and custom apps, and see which are available on your plan

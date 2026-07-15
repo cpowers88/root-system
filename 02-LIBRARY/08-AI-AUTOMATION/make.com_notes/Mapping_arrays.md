@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Mapping arrays
 slug: mapping-arrays
 description: Understand how to map elements of simple and complex arrays to pass specific data

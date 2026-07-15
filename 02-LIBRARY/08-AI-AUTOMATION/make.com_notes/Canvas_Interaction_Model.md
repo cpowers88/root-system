@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Canvas interaction model
 slug: canvas-interaction-model
 docTags: 

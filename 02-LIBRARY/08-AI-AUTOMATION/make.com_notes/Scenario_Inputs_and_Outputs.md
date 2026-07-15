@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Scenario inputs and outputs
 slug: scenario-inputs-and-outputs
 description: Set the data passed to the scenario you call, and the information it returns

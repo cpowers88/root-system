@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Edit the structure of a scenario input or output
 slug: edit-the-structure-of-a-scenario-input-or-output
 docTags: 

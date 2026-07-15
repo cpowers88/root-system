@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Create the structure of scenario inputs or outputs
 slug: create-the-structure-of-scenario-inputs-or-outputs
 docTags: 

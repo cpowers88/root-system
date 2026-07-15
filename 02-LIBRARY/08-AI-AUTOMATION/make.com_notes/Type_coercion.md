@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Type coercion
 slug: type-coercion
 description: Explore how Make handles data mismatches and when it can automatically convert it into a different type

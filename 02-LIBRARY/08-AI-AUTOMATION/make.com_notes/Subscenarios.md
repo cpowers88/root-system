@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Subscenarios
 slug: subscenarios
 description: Build scenario chains to run complex workflows in sequence and transfer data

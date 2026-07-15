@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Scenario variables
 slug: scenario-variables
 docTags: 

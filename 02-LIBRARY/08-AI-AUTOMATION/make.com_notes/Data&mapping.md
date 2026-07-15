@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Data & mapping
 slug: data-and-mapping
 description: Understand how to work with data and send it between modules

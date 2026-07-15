@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Credits
 slug: credits
 description: Understand how credits work in Make, how different features consume them, and how to monitor your usage

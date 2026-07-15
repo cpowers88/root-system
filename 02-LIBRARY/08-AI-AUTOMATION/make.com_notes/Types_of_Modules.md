@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Types of modules
 slug: types-of-modules
 description: Discover different module types and learn how to use them to build your scenarios

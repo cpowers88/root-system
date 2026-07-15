@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Scenario execution, cycles, and phases
 slug: scenario-execution-cycles-and-phases
 description: Explore the cycles and phases of scenario execution to manage data processing

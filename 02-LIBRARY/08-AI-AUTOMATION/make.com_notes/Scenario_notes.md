@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Scenario notes
 slug: scenario-notes
 description: Add notes to modules and routes to document your logic and keep track of important details

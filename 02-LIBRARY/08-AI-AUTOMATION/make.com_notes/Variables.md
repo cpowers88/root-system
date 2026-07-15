@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Variables
 slug: variables
 description: Understand types of variables and how to set them to store and reuse data in scenarios

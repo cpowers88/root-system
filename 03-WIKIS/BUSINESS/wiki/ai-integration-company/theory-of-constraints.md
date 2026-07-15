@@ -7,7 +7,8 @@ tags:
 
 # Theory of Constraints (TOC)
 
-> Source: Goldratt & Cox, *The Goal* (3rd Revised Edition, 2004). Migrated from FORGE
+> Source: Goldratt & Cox, *The Goal* (3rd Revised Edition, 2004); retained source
+> file: `02-LIBRARY\.raw ARCHIVE\The Goal, GOLDRATT.pdf`. Migrated from FORGE
 > July 7, 2026 — this page consolidates FORGE's `theory-of-constraints.md` and
 > `the-goal-goldratt.md`. The applied version of this framework (the Five Focusing
 > Steps run against a client engagement) lives in

@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Incremental variables
 slug: incremental-variables
 docTags: 

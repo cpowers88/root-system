@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Router
 slug: router
 description: Branch a scenario into multiple routes to process data differently based on specific conditions

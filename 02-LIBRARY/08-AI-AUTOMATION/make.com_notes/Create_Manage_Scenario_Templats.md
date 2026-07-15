@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Create and manage scenario templates
 slug: create-and-manage-scenario-templates
 description: Learn how to use, create, and share scenario templates to streamline automation creation

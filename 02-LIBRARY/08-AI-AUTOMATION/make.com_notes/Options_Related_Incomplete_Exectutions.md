@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Options related to incomplete executions
 slug: options-related-to-incomplete-executions
 docTags: 

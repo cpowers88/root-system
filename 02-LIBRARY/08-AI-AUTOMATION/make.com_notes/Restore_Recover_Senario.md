@@ -1,4 +1,7 @@
 ---
+type: reference
+timeline: reference
+status: source-capture
 title: Restore and recover scenario
 slug: restore-and-recover-scenario
 description: Restore previous versions of your scenarios and recover unsaved changes when needed
