@@ -1,10 +1,11 @@
 ---
 type: template
-tags: [next, business, audit]
+timeline: now
+status: draft
+tags: [business, audit]
 ---
 
 # OBSERVATION_METHODOLOGY.md — How to Watch a Business Work
-#audit #business #methodology
 ### The repeatable observation method — NORTH_STAR.md "built before March 2027" deliverable #1
 ### Status: SKELETON v1 (July 5, 2026) — refine after every practice run
 ### Companion files: TECHNOLOGY_AUDIT_REPORT_TEMPLATE.md (the output), ONE_PAGE_FINDINGS_FORMAT.md (the owner version)

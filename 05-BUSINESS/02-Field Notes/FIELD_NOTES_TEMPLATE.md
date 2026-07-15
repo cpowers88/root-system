@@ -6,7 +6,6 @@ tags: [business]
 
 # FIELD NOTES TEMPLATE
 Copy rule: use `type: field-note` and `timeline: log`; retain `business` as a topic tag.
-#log #template 
 ## Business Observation Log | Chris Powers
 
 ---

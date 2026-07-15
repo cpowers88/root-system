@@ -1,10 +1,11 @@
 ---
 type: worksheet
-tags: [next, business, pricing]
+timeline: later
+status: draft
+tags: [business, pricing]
 ---
 
 # PRICING_MODEL_WORKSHEET.md — Pricing Skeleton
-#business #pricing
 ### vault_map.md trigger: "define after July 4" — this is the skeleton to define against
 ### Status: SKELETON v1 (July 5, 2026) — ⚠ every number here is a placeholder for Chris to set.
 ### Nothing in this file is a commitment. It exists so pricing decisions happen against a frame, not a blank page.

@@ -1,6 +1,8 @@
 ---
 type: asset
-tags: [reference, business, apqc, client]
+timeline: now
+status: draft
+tags: [business, apqc, client]
 ---
 
 # APQC_13_1_WORKFLOW_OBSERVATION_MAP.md

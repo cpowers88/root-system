@@ -1,6 +1,7 @@
 ---
 type: guide
-tags: [next, business, apqc, client]
+timeline: reference
+tags: [business, apqc, client]
 ---
 
 # FIRST_RUN_CHECKLIST.md — Capability Asset Capture
@@ -30,6 +31,9 @@ Use this when turning a repeated method, checklist, script, query, or workflow m
 - [ ] Decide the test: practice audit, tracker/POL internal run, or real field observation.
 - [ ] Set maturity honestly.
 
-## First Asset Candidate
+## Established First Asset Pattern
 
-Best first candidate: a workflow observation map derived from `05-BUSINESS\01-Audit Templates\OBSERVATION_METHODOLOGY.md`. It is reusable, zero-software-first, and directly supports the March 2027 first paid consulting conversation path.
+The first implemented pattern is the workflow observation map derived from
+`05-BUSINESS\01-Audit Templates\OBSERVATION_METHODOLOGY.md`. Use it as the model for
+future asset captures: it is reusable, zero-software-first, and directly supports
+the March 2027 first paid consulting conversation path.

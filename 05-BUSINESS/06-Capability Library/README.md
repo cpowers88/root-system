@@ -1,6 +1,8 @@
 ---
 type: guide
-tags: [reference, business, apqc, client]
+timeline: reference
+reference_priority: core
+tags: [business, apqc, client]
 ---
 
 # 06-Capability Library — APQC-Indexed Client Asset System

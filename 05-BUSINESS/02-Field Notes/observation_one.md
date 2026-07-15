@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log, business]
+timeline: log
+tags: [business]
 ---
 
 # OBSERVATION ONE

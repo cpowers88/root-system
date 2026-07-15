@@ -1,10 +1,11 @@
 ---
 type: template
-tags: [next, business, audit]
+timeline: now
+status: draft
+tags: [business, audit]
 ---
 
 # ONE_PAGE_FINDINGS_FORMAT.md — The Owner-Facing One-Pager
-#audit #business #template
 ### NORTH_STAR.md "built before March 2027" deliverable: "a one-page findings format a business owner can act on"
 ### Status: SKELETON v1 (July 5, 2026) — test on practice audits, refine
 ### Rule: ONE page. If it doesn't fit, it isn't ready.
@@ -69,8 +70,9 @@ you through it."
 - **Their words, not yours.** Use the vocabulary you heard on-site
   ("job sheet," "punch list"), never systems-engineering terms.
   VSM, TOC, and "feedback loop" stay in your notebook.
-- **The free fix leads.** Recommendation Ladder order (TECHNOLOGY_
-  LIBRARY_STRATEGY.md): if the first fix in every one-pager is
+- **The free fix leads.** Recommendation Ladder order
+  ([TECHNOLOGY_LIBRARY_STRATEGY.md](../../02-LIBRARY/08-AI-AUTOMATION/TECHNOLOGY_LIBRARY_STRATEGY.md)):
+  if the first fix in every one-pager is
   "eliminate/simplify — costs nothing," you are the vendor-neutral
   advisor, not another software salesman.
 - **No tool names on the one-pager** unless they already own the tool.
