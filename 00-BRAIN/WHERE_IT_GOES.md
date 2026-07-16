@@ -69,6 +69,7 @@ home; neither is a storage destination.
 | Session handoffs | `HANDOFF_MMDD_WHO.md` | `HANDOFF_0615_CLAUDE.md` |
 | Daily task reports | `DAILY_YYYY-MM-DD.md` (one per day, append-only; template: `Session_Logs\DAILY_TEMPLATE.md`) | `DAILY_2026-07-09.md` |
 | Session reports | `SESSION_REPORT_DATES_WHO.md` | `SESSION_REPORT_JUNE8-9_CLAUDE.md` |
+| System-update packets | `Session_Logs\System Update Log\YYYY-MM-DD_TOPIC\` with required `SESSION_INDEX.md` | `2026-07-15_ROOT_REMEDIATION\` |
 | Weekly reviews | `WEEKLY_STARTDAY-ENDDAY.md` | `WEEKLY_JUNE2-8.md` |
 | Monthly reviews | `MONTHLY_MONTH_YEAR.md` | `MONTHLY_JUNE_2026.md` |
 | Quarterly audits | `QUARTERLY_Q#_YEAR.md` | `QUARTERLY_Q3_2026.md` |
@@ -96,10 +97,12 @@ One copy, zero drift.
   COLOR_MAP.yaml (edit it, then run `scripts\build_graph_colors.py` — never
   hand-edit graph.json). Subfolders: `HATS\` (optional modes — short, active
   prompts), `CASTLE\` (command-center wiki; owns `.ROOT\NOW.md`),
-  `Session_Logs\` (current handoffs + DAILYs + reports; three ledgers inside:
-  `Report Archive\` for completed reports, `System Update Log\` for the
-  monthly one-row-per-system-commit ledger, and `Closed Flags\` for the
-  monthly closed-flag ledger — SYSTEM_FLAGS.md holds OPEN flags only),
+  `Session_Logs\` (DAILYs, templates, and active reports; local operating guide:
+  `Session_Logs\README.md`; three evidence homes inside: `Report Archive\` for
+  completed standalone reports/handoffs, `System Update Log\` for the monthly
+  one-row-per-system-commit ledger plus dated multi-commit evidence packets,
+  and `Closed Flags\` for the monthly closed-flag ledger — SYSTEM_FLAGS.md
+  holds OPEN flags only),
   `scripts\` (build_graph_colors.py, frontmatter_audit.py,
   metadata_migration_plan.py, root_health.py, sync_shared_skills.py,
   validate_boot_chain.py, wiki_lint.py), plus
@@ -180,7 +183,7 @@ CASTLE orients and sequences, it does not do a wiki's primary research
 intake lane. Add nothing new there. Because its name carries the raw boundary,
 do not move, rename, delete, or edit its contents without Chris's explicit raw
 exception. The hash-backed disposition of its 12 retained files is recorded in
-`00-BRAIN\Session_Logs\ROOT_REMEDIATION_PHASE_6D_SOURCE_ROUTING_DISPOSITION_2026-07-15.md`.
+`00-BRAIN\Session_Logs\System Update Log\2026-07-15_ROOT_REMEDIATION\ROOT_REMEDIATION_PHASE_6D_SOURCE_ROUTING_DISPOSITION_2026-07-15.md`.
 
 When wiki knowledge becomes a client-facing or system artifact, the artifact
 lives in the normal Second Brain location:

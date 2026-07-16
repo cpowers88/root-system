@@ -62,9 +62,10 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── scripts\           ← maintenance scripts — canonical inventory lives in
 │   │                         WHERE_IT_GOES.md (7 as of July 15, 2026, incl.
 │   │                         root_health.py and metadata_migration_plan.py)
-│   └── Session_Logs\      ← current handoffs + DAILY_YYYY-MM-DD.md + reports;
-│                             ledgers inside: Report Archive\, System Update Log\,
-│                             Closed Flags\ (monthly files)
+│   └── Session_Logs\      ← README + DAILYs/templates + active reports;
+│                             Report Archive\ = completed standalone reports;
+│                             System Update Log\ = monthly ledger + dated evidence packets;
+│                             Closed Flags\ = monthly closed-flag ledgers
 │
 ├── 01-NORTH_STAR\  ← the star
 │   ├── NORTH_STAR.md      ← THE controlling document — nothing overrides it

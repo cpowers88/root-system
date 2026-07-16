@@ -116,7 +116,10 @@ on top of its roadmap role:
   commit since the last sweep has its row in
   `Session_Logs\System Update Log\SYSTEM_UPDATE_LOG_YYYY-MM.md`, and every
   flag closed since the last sweep has its row in
-  `Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md`.
+  `Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md`. For a newly completed
+  consequential multi-commit system program, also confirm its dated
+  `System Update Log\YYYY-MM-DD_TOPIC\SESSION_INDEX.md` packet exists and
+  names the final verdict, artifact inventory, accepted debt, and rechecks.
 - **Staleness spot-check:** rotate one active guide or dashboard; compare its
   stated current state against the live source it names, and flag any mismatch.
 - Maintain `00-BRAIN\vault_map.md` and `.ROOT\.obsidian\graph.json`'s color groups

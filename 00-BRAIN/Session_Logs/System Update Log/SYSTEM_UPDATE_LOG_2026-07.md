@@ -18,6 +18,8 @@ created: 2026-07-15
   log here — that's what wiki logs and DAILYs are for.
 - Columns: date · commit · owner · what changed · evidence/report.
 - Nothing is ever rewritten here — corrections get a new row.
+- A consequential multi-commit program's detailed evidence lives in one dated
+  packet subfolder; its `SESSION_INDEX.md` is the canonical retrieval route.
 
 ## July 2026
 
@@ -56,5 +58,5 @@ created: 2026-07-15
 | 07-15 | `1a5060d` | Codex | Checkpoint 2: neutralized nested `.claude` settings shadow + validator guard | DAILY 07-15 checkpoint block |
 
 **Completed:** Phase 7 final acceptance committed as `f900e49`; the system is
-in Pass C operation. Acceptance report:
-`..\ROOT_REMEDIATION_PHASE_7_FINAL_ACCEPTANCE_2026-07-15.md`.
+in Pass C operation. Evidence packet:
+`2026-07-15_ROOT_REMEDIATION\SESSION_INDEX.md`.
