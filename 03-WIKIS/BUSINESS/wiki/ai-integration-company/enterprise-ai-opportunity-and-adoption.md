@@ -73,6 +73,30 @@ Assess seven layers before recommending a build:
 - Treat enterprise examples as possibility evidence only. They do not prove ROI,
   feasibility, legality, or customer fit in a specific SMB.
 
+## Construction Wedge: 2026 Field-Test Evidence
+
+The Associated General Contractors of America's 2026 outlook adds current,
+industry-specific evidence without proving demand for Chris's offer. In its survey,
+61% of respondents said their firms use AI or plan to increase investment, up from
+44% in the prior year's survey. Reported use was concentrated in office and
+administrative functions (45%), estimating (23%), design or preconstruction (20%),
+and recruitment, training, or other HR functions (16%). The same outlook reports
+strong labor pressure: 82% had difficulty filling hourly craft roles and 80% had
+difficulty filling salaried openings.
+
+This sharpens the construction observation rather than authorizing a technology
+pitch. Ask what is already being used, where information is re-entered, which
+exceptions still require manual recovery, who verifies AI-assisted work, and whether
+the tool changed cycle time, error rate, labor capacity, or only software spend.
+Separate firms that already use AI from firms that merely plan to invest; the survey
+combines those states.
+
+**Bounded test:** during the first approved construction workflow observation, test
+one office/admin, estimating, or preconstruction workflow against the reported
+adoption pattern. Record actual tools, handoffs, review gates, rework, and economic
+consequence. One observed workflow can challenge or strengthen the relevance of the
+industry signal; it cannot validate the national percentages.
+
 ## Practical Actions
 
 - Add the opportunity-pattern table to audit preparation; use it after mapping
@@ -153,6 +177,20 @@ reviewed chapter-by-chapter.
 | 124-158 | Ch. 6: Industry use cases | Cross-checked against Dossier patterns; no duplicate catalog |
 | 159-193 | Ch. 7: Becoming AI fueled | Ingested into transformation sequence |
 | 194-221 | Notes, sources, and index | Retained as provenance; no standalone wiki content |
+
+### AGC 2026 Construction Hiring and Business Outlook
+
+Source: `raw/AGC_2026_Construction_Hiring_and_Business_Outlook_Remarks.pdf`
+(5 physical PDF pages), Associated General Contractors of America, 2026. The full
+remarks were reviewed; the operating delta is concentrated on physical pages 3-4.
+The source is current market evidence and remains volatile rather than a permanent
+adoption baseline.
+
+| PDF range | Source chunk | Disposition |
+|---|---|---|
+| 1-2 | Demand, financing, tariffs, workforce pressure | Used only to contextualize operating constraints |
+| 3-4 | Labor difficulty and AI adoption/use areas | Ingested into construction field-test questions |
+| 5 | Policy close and speaker transition | Retained as provenance; no separate method content |
 
 ## Related Pages
 

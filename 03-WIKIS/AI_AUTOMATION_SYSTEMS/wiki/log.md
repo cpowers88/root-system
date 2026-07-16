@@ -1100,3 +1100,272 @@ cluster. Route `TLS.pdf` only with Chris's explicit raw-placement authorization.
   *Mastering Claude AI* for current-tool verification, then *The Alignment
   Problem*; treat the 2016 deep-learning textbook as prerequisite reference, not
   an active reading assignment.
+
+## 2026-07-16 — The Alignment Problem, Part I coordinated chunk ingest
+
+Chris requested another raw-versus-wiki audit followed by chunk ingestion. The
+existing ledger was accurate: the hub was fully accounted but retained four
+material compilation backlogs plus three deliberate lookup/prerequisite sources.
+Selected Brian Christian's *The Alignment Problem* first because it supplies
+durable failure mechanics for the hub's safety, evaluation, and governance work;
+the product-specific *Mastering Claude AI* guide requires separate verification
+against current official documentation.
+
+Reviewed the Introduction and all of Part I, “Prophecy,” as one coordinated
+block. The concepts warrant three retrieval pages because they answer distinct
+operating questions:
+
+| Complete chunk | Physical PDF pages | Disposition |
+|---|---|---|
+| Introduction | 13-25 | Framing distributed across all three pages |
+| Chapter 1, Representation | 26-66 | [[training-data-representation-and-feedback-risk]] |
+| Chapter 2, Fairness | 67-104 | [[algorithmic-fairness-metrics-ground-truth-and-intervention]] |
+| Chapter 3, Transparency | 105-149 | [[interpretable-models-and-human-oversight]] |
+
+Visually verified the Introduction and all three chapter openings, plus the Part
+I-to-Part II boundary at physical pp. 149-150. The Prologue (pp. 9-12) was not
+included in this pass. Part II begins with Chapter 4 on physical p. 150.
+
+### Distinct contribution and overlap decision
+
+- Existing [[nist-ai-rmf]] names fairness, transparency, explainability, and
+  lifecycle governance; these pages add the underlying failure mechanics and
+  audit tests rather than restating the framework.
+- Chapter 1 adds representation lineage, sampling-versus-world bias,
+  intersectional performance, partial-debiasing risk, and deployment feedback.
+- Chapter 2 adds redundant encodings, incompatible fairness criteria, label
+  lineage, prediction-versus-intervention, and self-confirming policy loops.
+- Chapter 3 adds treatment confounding, interpretable-model baselines, saliency/
+  visualization/multitask/concept diagnostics, and empirical user testing of
+  explanations.
+
+The source ledger now marks the book partially compiled. Remaining named backlog:
+Part II, Chapters 4-6 (physical pp. 150-261); Part III, Chapters 7-9 (pp.
+262-380); Conclusion (pp. 381-403). Notes, bibliography, and index begin at p.
+404 and are reference/back matter rather than standalone synthesis targets.
+
+Next: continue with Part II as one coordinated reinforcement/reward-learning
+block when this intake session resumes.
+
+## 2026-07-16 — The Alignment Problem full-main-text intake completed
+
+Continued the coordinated intake without forcing one wiki page per chapter. Read
+all remaining argument in complete chapter-boundary chunks and consolidated it
+into five retrieval jobs:
+
+| Complete chunk | Physical PDF pages | Durable retrieval |
+|---|---:|---|
+| Chapter 4, Reinforcement | 150-187 | [[reinforcement-learning-reward-prediction-and-credit]] |
+| Chapters 5-6, Shaping + Curiosity | 188-261 | [[reward-shaping-curiosity-and-safe-exploration]] |
+| Chapter 7, Imitation | 262-306 | [[imitation-learning-recovery-and-amplification]] |
+| Chapter 8, Inference | 307-338 | [[preference-inference-feedback-and-human-ai-cooperation]] |
+| Chapter 9, Uncertainty + Conclusion | 339-403 | [[uncertainty-corrigibility-and-impact-limits]] |
+
+Also reviewed the previously omitted Prologue (pp. 9-12). Its McCulloch-Pitts
+history contributes the book's opening example of a useful formal simplification
+being mistaken for a complete account; it is consolidated into the final
+uncertainty/formal-model page rather than given a thin standalone page.
+
+Visually verified the Prologue start/end; Chapters 4-9 openings; Conclusion start
+and end; Acknowledgments at p. 404; and Notes at p. 409. This closes the entire
+main text through physical p. 403. Acknowledgments, notes, bibliography, and index
+are explicitly classified as reference back matter, not silently omitted content.
+
+### Consolidation rationale
+
+- Chapter 4 answers how reward prediction and credit assignment work.
+- Chapters 5-6 are one operating problem: supplying learnable gradients before
+  the external goal is reachable without creating a new exploitable objective.
+- Chapter 7 answers how demonstrations fail under learner-created distribution
+  shift and how recovery/amplification change the loop.
+- Chapter 8 answers how a system infers what humans want from behavior, feedback,
+  and cooperation rather than merely copying an act.
+- Chapter 9 and the Conclusion answer when the system should doubt, slow, abstain,
+  defer, remain interruptible, and preserve options—and why every formal model in
+  the earlier chapters remains incomplete.
+
+The ledger now marks *The Alignment Problem* **Compiled; full main text**. This
+closes one of the hub's four material book backlogs without changing the status of
+*Empire of AI*, *If Anyone Builds It, Everyone Dies*, or the verification backlog
+for *Mastering Claude AI*.
+
+## 2026-07-16 — Empire of AI Part I coordinated chunk intake
+
+Continued the large-source queue with Karen Hao's 575-page investigative book
+*Empire of AI*. Mapped the complete book before extraction: Author's Note and
+Prologue; four numbered parts containing eighteen chapters; Epilogue; then
+acknowledgments, notes, index, and author reference matter.
+
+Read the Author's Note, full Prologue, and all of Part I in complete physical-page
+chunks. The material is too dense for one generic summary but does not warrant a
+page per narrative chapter, so it was consolidated into three operating questions:
+
+| Complete chunk | Physical PDF pages | Durable retrieval |
+|---|---:|---|
+| Author's Note + Prologue | 8-29 | Source posture and 2023 governance stress test in [[openai-governance-mission-capital-and-control]] |
+| Chapter 1, Divine Right | 30-51 | Founder power/network history consolidated into the governance page |
+| Chapter 2, A Civilizing Mission | 52-77 | Founding commitments, nonprofit/LP transition, Microsoft dependency in the governance page |
+| Chapter 3, Nerve Center | 78-91 | AGI inevitability, secrecy, and mission-versus-operation evidence in the governance page |
+| Chapter 4, Dreams of Modernity | 92-118 | [[ai-research-paradigm-concentration-and-commercial-selection]] |
+| Chapter 5, Scale of Ambition | 119-138 | [[scaling-doctrine-compute-data-and-hidden-labor]] |
+| Part II divider | 139 | Visually verified; Chapter 6 begins p. 140 |
+
+Visually verified the Author's Note and Prologue openings, all five chapter
+openings, the Part II divider, and the Chapter 6 boundary. The author reports more
+than 300 interviews with roughly 260 people and extensive documentary sourcing;
+OpenAI and Sam Altman did not cooperate. All three pages therefore distinguish
+documented/source claims, disputed narrative and motives, author framing, and
+facts that require current primary-source verification.
+
+### Distinct contribution and overlap decision
+
+- Existing OpenAI documentation pages explain current products and technical
+  mechanics. The new governance page asks who could actually enforce a mission
+  when capital, equity, cloud infrastructure, and executive loyalty carried
+  practical veto power.
+- Existing alignment pages explain model-level failures. The paradigm page adds
+  the institutional selection mechanism by which corporate funding, compute, and
+  jobs narrow which technical alternatives can be seriously tested.
+- Existing enterprise and eval pages say to verify before scaling. The scaling
+  page exposes the full input chain—chips, cloud, energy, data provenance,
+  moderation, and preference labor—that must enter that decision.
+
+The ledger now marks *Empire of AI* partially compiled through Part I. Next
+coherent block is Part II, Chapters 6-9 (physical pp. 140-217), covering OpenAI's
+commercial ascent, research control, productization, and crisis-driven deployment.
+
+## 2026-07-16 — Empire of AI Part II coordinated chunk intake
+
+Continued directly through all of Part II as four complete chapter chunks. The
+78-page block was consolidated by retrieval job rather than converted
+into four narrative chapter summaries:
+
+| Complete chunk | Physical PDF pages | Durable retrieval |
+|---|---:|---|
+| Chapter 6, Ascension | 140-155 | [[frontier-lab-commercialization-safety-and-organizational-power]] |
+| Chapter 7, Science in Captivity | 156-171 | [[corporate-ai-research-control-transparency-and-accountability]] |
+| Chapter 8, Dawn of Commerce | 172-184 | Product/research flywheel and early trust-and-safety evidence in [[generative-ai-productization-content-safety-and-hidden-labor]] |
+| Chapter 9, Disaster Capitalism | 185-216 | Moderation, RLHF, outsourcing, and crisis-labor evidence in the same productization page |
+| Part III divider | 217 | Visually verified; Chapter 10 begins p. 218 |
+
+Visually verified all four chapter openings, the Part III divider, and the Chapter
+10 boundary. The raw PDF was not modified.
+
+### Consolidation rationale
+
+- Chapter 6 is the organizational mechanism: commercial commitments, compute,
+  competitive threat, and practical decision authority determine whether safety
+  objections can change a release.
+- Chapter 7 is a distinct accountability mechanism: when frontier resources and
+  employment concentrate inside firms, the same institution can control both the
+  technology and publication of critical research about it.
+- Chapters 8-9 form one product operating system: deployment creates data and
+  revenue, exposes abuse, and drives moderation/RLHF demand through an outsourced
+  human supply chain. Separating the product from its labor would hide the causal
+  relationship the source is documenting.
+
+All pages retain investigative-source posture, distinguish reported or disputed
+claims, and mark vendor, wage, governance, and current-company facts for live
+primary-source verification.
+
+The ledger now marks *Empire of AI* partially compiled through Parts I-II. The
+next coherent block is Part III, Chapters 10-13 (physical pp. 218-325), beginning
+with Chapter 10, “Gods and Demons.”
+
+## 2026-07-16 — Empire of AI Part III coordinated chunk intake
+
+Completed Part III as five full chapter chunks. Live extraction and visual review
+corrected the previous queue note: Part III contains Chapters 10-14, not Chapters
+10-13. It runs through physical p. 324; p. 325 is the Part IV divider.
+
+| Complete chunk | Physical PDF pages | Durable retrieval |
+|---|---:|---|
+| Chapter 10, Gods and Demons | 218-245 | [[ai-safety-ideologies-risk-language-and-release-gates]] |
+| Chapter 11, Apex | 246-259 | [[chatgpt-launch-interface-risk-and-organizational-scaling]] |
+| Chapter 12, Plundered Earth | 260-287 | [[ai-compute-infrastructure-energy-water-and-community-governance]] |
+| Chapter 13, The Two Prophets | 288-310 | Policy agenda-setting and internal oversight in [[ai-policy-agenda-setting-frontier-thresholds-and-oversight-information]] |
+| Chapter 14, Deliverance | 311-324 | Institutional/personal boundary and narrative-control evidence in the same policy/oversight page |
+| Part IV divider | 325 | Visually verified; Chapter 15 begins p. 326 |
+
+Visually verified all five chapter openings, the Part IV divider, and the Chapter
+15 boundary. The raw PDF was not modified.
+
+### Consolidation rationale
+
+- Chapter 10 supplies a cross-functional release-governance model: ideological
+  polarization, distinct meanings of safety, input-versus-output controls,
+  evaluation contamination, and observability requirements.
+- Chapter 11 is the interface and organizational mechanism: a nominal research
+  preview became a mass product, then consumed the compute, monitoring,
+  engineering, hiring, and partnership capacity required to govern it.
+- Chapter 12 is a complete physical-infrastructure system spanning minerals,
+  land, power, water, data centers, communities, and cross-border accountability.
+- Chapters 13-14 share an information-power mechanism. External agenda-setting
+  defines what regulators see; internal executive reporting defines what the board
+  sees. The sensitive personal allegations in Chapter 14 were not adjudicated or
+  reproduced as findings; only the institutional boundary issue was retained.
+
+The ledger now marks *Empire of AI* partially compiled through Parts I-III. Part
+IV begins with Chapter 15, “The Gambit,” on physical p. 326.
+
+## 2026-07-16 — Empire of AI Part IV coordinated chunk intake
+
+Completed all of Part IV as four full chapter chunks. The numbered part runs from
+Chapter 15 on physical p. 326 through Chapter 18 on p. 386. The Epilogue begins
+separately on p. 387 and remains the final argument-bearing backlog.
+
+| Complete chunk | Physical PDF pages | Durable retrieval |
+|---|---:|---|
+| Chapter 15, The Gambit | 326-342 | Oversight information flow and escalation in [[board-oversight-crisis-information-and-coalition-power]] |
+| Chapter 16, Cloak-and-Dagger | 343-357 | Board action, counter-coalition, succession, and investigation failure in the same governance page |
+| Chapter 17, Reckoning | 358-378 | [[ai-safety-capacity-whistleblowing-and-organizational-trust]] |
+| Chapter 18, A Formula for Empire | 379-386 | [[mission-elasticity-centralization-and-ai-empire-pattern]] |
+| Epilogue boundary | 387 | Visually verified; “How the Empire Falls” begins here |
+
+Visually verified all four chapter openings, the final page of Chapter 18, and the
+Epilogue boundary. The raw PDF was not modified.
+
+### Consolidation rationale
+
+- Chapters 15-16 are one governance incident: information fragmentation and
+  informal escalation produced a removal decision that formal authority could
+  execute but an unprepared succession coalition could not sustain.
+- Chapter 17 is an independent organizational-control problem: safety evaluation
+  lacked reliable time and leverage while equity-linked silence, leadership
+  departures, and rapid public assurances weakened internal and external trust.
+- Chapter 18 is the author's synthesis. Its “empire” argument is retained as an
+  interpretive diagnostic - mission elasticity and centralization - rather than
+  promoted as a neutral fact.
+
+The ledger now marks *Empire of AI* partially compiled through Parts I-IV. Only
+the Epilogue (physical pp. 387-398) remains as argument-bearing text; later
+acknowledgments and notes are reference back matter.
+
+## 2026-07-16 — Empire of AI Epilogue and full-book intake closure
+
+Completed the final argument-bearing chunk, the Epilogue “How the Empire Falls”
+(physical pp. 387-398), in [[community-governed-ai-data-sovereignty-and-power-redistribution]].
+The Epilogue opening, final page, and Acknowledgments opening on p. 399 were
+visually verified. The raw PDF was not modified.
+
+### Consolidation rationale
+
+The twelve-page Epilogue is one causal synthesis rather than a set of detachable
+case summaries. Te Hiku's te reo Maori project establishes consent, reciprocity,
+continuing data stewardship, local infrastructure, and task-specific modeling as
+an alternative operating system. DAIR, the Data Workers' Inquiry, worker
+organizing, and cross-border community resistance then show how independent
+knowledge and collective capacity can be built. The final section joins those
+examples into Hao's three reinforcing axes of power: knowledge, resources, and
+influence.
+
+The retrieval page preserves that chain and adds a practical power-redistribution
+gate. It explicitly classifies the Epilogue as normative synthesis supported by
+reported cases, not comparative proof that any organizational label guarantees
+good governance. Historical performance, organization, labor, language-support,
+and policy claims remain subject to current verification.
+
+The ledger now marks *Empire of AI* fully compiled through all argument-bearing
+text (physical pp. 8-398) in fourteen retrieval pages. Acknowledgments begin on
+p. 399 and notes on p. 403; they and the remaining bibliography/index are
+reference back matter rather than an ingestion backlog.

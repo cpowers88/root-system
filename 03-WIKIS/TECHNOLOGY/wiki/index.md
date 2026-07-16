@@ -13,7 +13,9 @@ tags: [technology]
 68 pages migrated from FORGE's `wiki\technology\` on July 7, 2026, split by subject
 from FORGE's original 135-page technology folder (the other 67 — Python/data-analysis
 fundamentals — went to `03-WIKIS\PYTHON` instead; see that wiki's `source-map.md`).
-**2026-07-13: full raw/ audit and ingest (107 pages at completion; 106 current).**
+**2026-07-13: full raw/ audit and ingest (107 pages at completion).** After the
+July 15 routing correction and July 16 chunk ingestion, the live inventory is
+**117 content/reference pages** (excluding this index and `log.md`).
 The audit produced 39 new pages across 9 books + 4 landscape clippings. The
 July 15 structure review moved the post-closure AI-coding landscape into
 `03-WIKIS\AI_AUTOMATION_SYSTEMS`, its canonical intake lane. The audit found 3 confirmed
@@ -26,9 +28,11 @@ stated purpose this wiki carried as an open "next action" since July 7.
 The 28-file raw collection (~669 MiB) is fully accounted, not uniformly compiled:
 five Stanford AI Index files are covered cross-hub, the prior PDFs were compiled
 or explicitly classified, and earlier web clips have derived or lookup coverage.
-The July 16 intake added *Learning Domain-Driven Design* and *The Elements of User
-Experience* as need-driven applied references plus a 2016 data-mining adoption deck
-as historical context; none is marked compiled.
+The July 16 intake added and chunk-compiled *Learning Domain-Driven Design* and
+*The Elements of User Experience*, plus a historical data-mining adoption deck.
+Every physical raw file now has a row-level disposition in
+[[raw-source-coverage-and-intake-status|Raw-Source Coverage and Intake Status]];
+compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 
 ## Web Frameworks (`web-frameworks/`, 15 pages)
 
@@ -125,6 +129,7 @@ as historical context; none is marked compiled.
 - [[data-science-ml/estimates-of-location-and-variability|Estimates of Location and Variability]] — mean/median/trimmed mean, variance/MAD/IQR (source: *Practical Statistics for Data Scientists*)
 - [[data-science-ml/statistical-distributions-normal-long-tailed-t-and-binomial|Statistical Distributions: Normal, Long-Tailed, t, and Binomial]] — source: *Practical Statistics for Data Scientists*
 - [[data-science-ml/ab-testing-hypothesis-tests-and-p-values|A/B Testing, Hypothesis Tests, and P-Values]] — the ASA's 2016 p-value misinterpretation caution; source: *Practical Statistics for Data Scientists*
+- [[data-science-ml/data-mining-adoption-chasm-and-productization|Data Mining Adoption Chasm and Productization]] — historical Quest/Intelligent Miner case: services evidence, integration, standards, and productization
 
 ## Database & SQL (`database-sql/`, 11 pages, new 2026-07-13)
 
@@ -153,12 +158,24 @@ as historical context; none is marked compiled.
 - [[security/api-vulnerability-classes-owasp-top-10|API Vulnerability Classes: The OWASP API Security Top 10]] — reframed as audit checks, not attack techniques
 - [[security/api-security-testing-engagement-scoping-and-checklist|API Security Testing: Engagement Scoping and Checklist]]
 
-## Software Engineering (`software-engineering/`, 4 pages, new 2026-07-13)
+## Software Engineering (`software-engineering/`, 9 pages)
 
 - [[software-engineering/agile-software-engineering-and-scrum|Agile Software Engineering and Scrum]] — source: Ian Sommerville, *Engineering Software Products*
 - [[software-engineering/personas-scenarios-and-user-stories|Personas, Scenarios, and User Stories]] — source: Sommerville
 - [[software-engineering/reliable-programming-techniques|Reliable Programming Techniques]] — complexity, patterns, refactoring, defensive validation; source: Sommerville
 - [[software-engineering/software-testing-levels-and-techniques|Software Testing Levels and Techniques]] — source: Sommerville
+- [[software-engineering/learning-domain-driven-design|Learning Domain-Driven Design — Source Summary and Navigation Hub]]
+- [[software-engineering/domain-driven-strategic-design-and-bounded-contexts|DDD Strategic Design and Bounded Contexts]]
+- [[software-engineering/domain-driven-business-logic-and-architecture-patterns|DDD Business Logic and Architecture Patterns]]
+- [[software-engineering/domain-driven-integration-and-reliable-messaging|DDD Integration and Reliable Messaging]]
+- [[software-engineering/domain-driven-evolution-eventstorming-and-distributed-boundaries|DDD Evolution, EventStorming, and Distributed Boundaries]]
+
+## User Experience (`user-experience/`, 4 pages, new 2026-07-16)
+
+- [[user-experience/elements-of-user-experience|The Elements of User Experience — Source Summary and Navigation Hub]]
+- [[user-experience/user-experience-five-plane-decision-model|User Experience Five-Plane Decision Model]]
+- [[user-experience/user-experience-strategy-scope-and-requirements|UX Strategy, Scope, and Requirements]]
+- [[user-experience/user-experience-structure-skeleton-surface-and-validation|UX Structure, Skeleton, Surface, and Validation]]
 
 ## Landscape Research (wiki root, 3 pages, new 2026-07-13)
 

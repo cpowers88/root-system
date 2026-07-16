@@ -570,3 +570,25 @@ four lines above it). No content pages added or removed.
 - Complete the short pre-session test block, then use Steps 1-11 during the local
   real-estate observation. Do not read every optional branch unless the observed
   workflow makes it relevant.
+
+## 2026-07-16 — AGC construction outlook routed through Watchtower
+
+### What changed
+
+- Preserved the official five-page AGC 2026 Construction Hiring and Business
+  Outlook remarks in `raw/` and reviewed the complete source, including rendered
+  verification of the workforce and AI-adoption pages.
+- Updated `enterprise-ai-opportunity-and-adoption.md` with current construction
+  evidence: 61% of respondents use AI or plan more investment, with reported use
+  concentrated in office/admin, estimating, preconstruction/design, and HR.
+- Converted the source into a bounded field-test question for the already-planned
+  construction observation. It does not prove willingness to pay or authorize a
+  new offer, tool, outreach campaign, or project.
+- Routed the material external change to `...projectSuccess/radar.md` as WATCHING;
+  the source and analysis remain in this owning evidence home.
+
+### Recommended next action
+
+- During the first approved construction observation, test one actual office/admin,
+  estimating, or preconstruction workflow and record whether AI use created value,
+  integration friction, new review work, or no meaningful change.

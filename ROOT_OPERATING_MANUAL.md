@@ -206,6 +206,20 @@ Proof or acceptance check:
 
 Chris does not need to fill every field in casual use — the pattern exists for consequential or multi-file work, not every question.
 
+### Visual folder identity
+
+Windows Explorer folder skins are generated and repaired through
+`00-BRAIN\scripts\folder_icons.ps1`. Major realms use distinct Tabler symbols
+and colors; repeated roles such as notes, templates, code, stages, and logs reuse
+one identity. The full operating guide, protected-folder exclusions, preview,
+backup location, and repair commands are in `00-BRAIN\FOLDER_ICON_SYSTEM.md`.
+
+Do not repair icons manually one folder at a time. Run:
+
+```powershell
+pwsh -File 00-BRAIN\scripts\folder_icons.ps1 -Mode Apply -RefreshExplorer
+```
+
 For wikis, the AI must:
 
 1. Load the governing OS and local wiki instructions.

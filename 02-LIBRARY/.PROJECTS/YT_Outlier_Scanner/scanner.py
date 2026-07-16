@@ -18,6 +18,7 @@ Usage:
   python scanner.py topic-report "Claude Code tutorial" --rank views
   python scanner.py discover --market [--days 180]
   python scanner.py market-report --top 100 --rank views
+  python scanner.py market-worksheet --output TOP_100_CLASSIFICATION_WORKSHEET.md
   python scanner.py add-channel @SomeHandle --niche trades
   python scanner.py add-channel UCxxxxxxxxxxxxxxxxxxxxxx --niche family
   python scanner.py harvest [--max-videos 200]
@@ -755,6 +756,149 @@ def cmd_market_report(args) -> None:
         )
 
 
+def _markdown_cell(value):
+    """Escape generated evidence for one Markdown table cell."""
+    if value is None:
+        return "n/a"
+    return str(value).replace("|", "\\|").replace("\r", " ").replace("\n", " ")
+
+
+def _write_market_review_worksheet(path, rows, metadata):
+    """Write mechanical evidence plus blank, human-only review fields."""
+    lines = [
+        "---",
+        "type: worksheet",
+        "timeline: now",
+        "status: awaiting-human-review",
+        "tags: [business, revenue, youtube, research]",
+        "---",
+        "",
+        f'# YouTube Market Top {len(rows)} - Human Classification Worksheet',
+        "",
+        "## Review Boundary",
+        "",
+        "This worksheet contains scanner-produced evidence only. The evidence table",
+        "is ranked and deduplicated by the scanner; its categories and matched topics",
+        "are search provenance, not human classification. All judgment fields in the",
+        "classification table are intentionally blank.",
+        "",
+        "Do not infer revenue, demand, repeatability, or channel fit from views alone.",
+        "This worksheet does not authorize publishing, account creation, outreach,",
+        "monetization, title copying, or a channel decision.",
+        "",
+        "## Generation Record",
+        "",
+        f'- Database: `{_markdown_cell(metadata["database"])}`',
+        f'- Ranking: `{_markdown_cell(metadata["rank"])}`',
+        f'- Format: `{_markdown_cell(metadata["format"])}`',
+        f'- Relevance gate: `{_markdown_cell(metadata["relevance"])}`',
+        f'- Topic coverage: `{metadata["present_topics"]}/{metadata["expected_topics"]}`',
+        f'- Deduplicated candidates before top-N: `{metadata["total_unique"]}`',
+        f'- Rows exported: `{len(rows)}`',
+        f'- Latest stored observation: `{_markdown_cell(metadata["latest_observation"])}`',
+        "",
+        "## Human Review Instructions",
+        "",
+        "1. Review each row in rank order. Use the YouTube link only when the title",
+        "   and provenance are insufficient to judge the actual subject.",
+        "2. Fill only the Human Classification table. Use `Y`, `N`, or `?` for",
+        "   Relevant; keep every other label in your own words.",
+        "3. Record the observed content pattern and problem/promise, not a proposed",
+        "   title or copied creative treatment.",
+        "4. Real-Use Evidence asks whether Chris has genuine work or experience that",
+        "   could support an original treatment. It is not a publishing decision.",
+        f'5. Complete all {len(rows)} rows before producing a format-separated shortlist.',
+        "",
+        "## Mechanical Evidence - Do Not Relabel Here",
+        "",
+        "| ID | Rank | Exact Video Title | Channel | Published | Format | Views | Subscribers | Views/Sub | Measured Views/Day | Search Categories | Matched Search Topics | Source |",
+        "|---|---:|---|---|---|---|---:|---:|---:|---:|---|---|---|",
+    ]
+    for index, row in enumerate(rows, 1):
+        review_id = f"YT-{index:03d}"
+        subscribers = "n/a" if row["subscribers"] is None else str(row["subscribers"])
+        breakout = "n/a" if row["views_per_sub"] is None else f'{row["views_per_sub"]:.2f}x'
+        velocity = "n/a" if row["velocity"] is None else f'{row["velocity"]:.1f}'
+        publish_date = (row["published_at"] or "n/a")[:10]
+        url = f'https://www.youtube.com/watch?v={row["video_id"]}'
+        cells = [
+            review_id,
+            index,
+            row["title"],
+            row["channel"],
+            publish_date,
+            row["format"],
+            row["views"],
+            subscribers,
+            breakout,
+            velocity,
+            ", ".join(row["categories"]),
+            ", ".join(row["topics"]),
+            f"[Open]({url})",
+        ]
+        lines.append("| " + " | ".join(_markdown_cell(cell) for cell in cells) + " |")
+
+    lines.extend([
+        "",
+        "## Human Classification - Fill This Table",
+        "",
+        "| ID | Relevant? (Y/N/?) | Actual Topic / Niche | Observed Content Pattern | Problem / Promise | Real-Use Evidence | Notes |",
+        "|---|---|---|---|---|---|---|",
+    ])
+    for index in range(1, len(rows) + 1):
+        lines.append(f"| YT-{index:03d} |  |  |  |  |  |  |")
+
+    lines.extend([
+        "",
+        "## Completion Gate",
+        "",
+        f'- [ ] All {len(rows)} rows classified by Chris.',
+        "- [ ] Ambiguous rows marked `?` rather than guessed.",
+        "- [ ] Shorts and long-form remain distinguishable in the next analysis.",
+        "- [ ] No revenue, niche, channel, or publishing conclusion recorded yet.",
+        "- [ ] Completed worksheet returned to Revenue Lab for mechanical synthesis.",
+        "",
+    ])
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(lines), encoding="utf-8")
+
+
+def cmd_market_worksheet(args) -> None:
+    """Export a no-label human review worksheet from the market ranking."""
+    conn = db()
+    expected = _market_keywords(args.category)
+    stored = {
+        row[0] for row in conn.execute(
+            "SELECT DISTINCT keyword FROM discoveries"
+        )
+    }
+    present = [keyword for keyword in expected if keyword in stored]
+    rows = _market_report_rows(
+        conn, args.category, args.format, args.relevance
+    )
+    total_unique = len(rows)
+    latest_observation = conn.execute(
+        "SELECT MAX(observed_at) FROM discovery_snapshots"
+    ).fetchone()[0]
+    conn.close()
+    rows = _rank_topic_rows(rows, args.rank)[:args.top]
+    output = Path(args.output)
+    if not output.is_absolute():
+        output = HERE / output
+    metadata = {
+        "database": DB_PATH.name,
+        "rank": args.rank,
+        "format": args.format,
+        "relevance": args.relevance,
+        "present_topics": len(present),
+        "expected_topics": len(expected),
+        "total_unique": total_unique,
+        "latest_observation": latest_observation or "n/a",
+    }
+    _write_market_review_worksheet(output, rows, metadata)
+    print(f"WROTE {len(rows)} no-label rows: {output}")
+
+
 def cmd_discover(args) -> None:
     """Wide-net scan: per keyword, pull recent top-viewed + relevant videos,
     join with channel subscriber counts, and rank views/subscriber breakouts
@@ -993,11 +1137,31 @@ def cmd_selftest(_args) -> None:
     assert _rank_topic_rows(market_rows, "breakout")[0]["video_id"] == "m1", (
         "market breakout ranking"
     )
+    assert _markdown_cell("one|two\nthree") == "one\\|two three", (
+        "Markdown cell escaping"
+    )
+    test_worksheet = HERE / "selftest-worksheet.md"
+    _write_market_review_worksheet(test_worksheet, market_rows, {
+        "database": test_db.name,
+        "rank": "views",
+        "format": "all",
+        "relevance": "strict",
+        "present_topics": 3,
+        "expected_topics": 36,
+        "total_unique": len(market_rows),
+        "latest_observation": "2026-01-03 00:00:00Z",
+    })
+    worksheet_text = test_worksheet.read_text(encoding="utf-8")
+    assert worksheet_text.count("| YT-001 |") == 2, "worksheet linked IDs"
+    assert "| YT-002 |  |  |  |  |  |  |" in worksheet_text, (
+        "worksheet classifications remain blank"
+    )
+    test_worksheet.unlink()
     conn.close()
     test_db.unlink()
     print("SELFTEST PASS — schema, format separation, exact-topic and "
-          "deduplicated-market ranking, snapshot velocity, outlier math, "
-          "and duration parsing all correct.")
+          "deduplicated-market ranking, snapshot velocity, worksheet export, "
+          "outlier math, and duration parsing all correct.")
 
 
 # ---------------------------------------------------------------- main
@@ -1065,6 +1229,32 @@ def main() -> None:
         help="title relevance gate or unfiltered API results (default strict)",
     )
     m.set_defaults(fn=cmd_market_report)
+
+    w = sub.add_parser(
+        "market-worksheet",
+        help="export a no-label human classification worksheet",
+    )
+    w.add_argument("--output", default="TOP_100_CLASSIFICATION_WORKSHEET.md",
+                   help="Markdown output path (default in project folder)")
+    w.add_argument("--top", type=int, default=TOPIC_REPORT_DEFAULT,
+                   help="number of rows to export (default 100)")
+    w.add_argument("--rank", choices=("views", "breakout", "velocity"),
+                   default="views", help="ranking metric (default views)")
+    w.add_argument("--format", choices=("all", "long", "short"),
+                   default="all", help="format filter (default all)")
+    w.add_argument(
+        "--category",
+        choices=("all",) + tuple(MARKET_TOPIC_GROUPS),
+        default="all",
+        help="limit to one defined market category (default all)",
+    )
+    w.add_argument(
+        "--relevance",
+        choices=("strict", "raw"),
+        default="strict",
+        help="title relevance gate or unfiltered API results (default strict)",
+    )
+    w.set_defaults(fn=cmd_market_worksheet)
 
     a = sub.add_parser("add-channel", help="register a channel to scan")
     a.add_argument("channel", help="@handle or UC... channel id")

@@ -3,7 +3,7 @@ tags: [reference]
 ---
 
 # Index — Revenue Lab Wiki
-### Updated: July 14, 2026 (scanner internal proof complete for today)
+### Updated: July 16, 2026 (proof-led content decision recorded)
 
 ## Hub Files
 - `CLAUDE.md` — hub OS: purpose, ranking rubric, boundaries, division of labor
@@ -16,7 +16,12 @@ tags: [reference]
 - **[[yt-outlier-scanner-first-findings-2026-07-14]] — first live scanner
   evidence plus the completed 36-topic cross-market expansion: 2,615 raw unique
   candidates, 2,113 strict candidates, and a deduplicated combined top 100.
-  Next Lane A action is human classification; no public channel decision.**
+  The [no-label top-100 worksheet](../../../02-LIBRARY/.PROJECTS/YT_Outlier_Scanner/TOP_100_CLASSIFICATION_WORKSHEET.md)
+  now includes a recording-fit pre-screen; the human table remains blank.**
+- **[[proof-led-content-strategy-decision-2026-07-16]] — strategic business
+  decision: conditional GO for one private proof capped at 90 added minutes;
+  estimated public pilot load is 1.1-1.5 hours/week only if separately approved.
+  Lane A remains compounding R&D, not the survival-income lane.**
 - [[revenue-lane-scan-brief]] — the scan's design: five lanes, evidence bar,
   scoring method (completed in one day, July 14)
 

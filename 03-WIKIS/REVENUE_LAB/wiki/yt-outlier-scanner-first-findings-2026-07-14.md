@@ -37,7 +37,7 @@ as Minecraft results for `Obsidian tutorial`, but full-content review is still
 required before calling a candidate reproducible or worth making.
 
 Execution brief:
-`00-BRAIN\Session_Logs\YT_SCANNER_TOPIC_REPORT_AND_PRIVATE_PROOF_EXECUTION_BRIEF_2026-07-14.md`
+`00-BRAIN\Session_Logs\Report Archive\YT_SCANNER_TOPIC_REPORT_AND_PRIVATE_PROOF_EXECUTION_BRIEF_2026-07-14.md`
 
 ## Decision This Report Supports
 
@@ -187,6 +187,28 @@ family-systems angle only; it does **not** support a child-directed channel.
   views/day without a manual database query.
 - Scanner quota output is an operational guardrail; Google Cloud Console remains
   the source of truth for quota usage.
+
+## Human Classification Packet
+
+The canonical
+[top-100 classification worksheet](../../../02-LIBRARY/.PROJECTS/YT_Outlier_Scanner/TOP_100_CLASSIFICATION_WORKSHEET.md)
+is generated from `market-report`'s same views-ranked, all-format, strict-relevance
+market universe. It contains 100 deduplicated mechanical-evidence rows and a second
+table with 100 blank human-only classification rows. Scanner categories and matched
+topics are search provenance, not niche or relevance judgments.
+
+On July 16, an explicitly non-human AI pre-screen was added without changing the
+blank classification table. It used titles and search provenance only to test one
+operating question: could Chris make an original video by recording work already
+happening with little additional production? The advisory screen returned 16 `Y`,
+38 `?`, and 46 `N` rows and converted the strongest patterns into seven original
+recording angles. It is triage, not watched-video evidence or market validation.
+
+Chris may review the 16 `Y` rows first and run one private proof without completing
+the full classification. All 100 human rows still require Chris's observed labels
+before any market-wide or format-separated conclusion is produced. AI must not fill
+those cells, reinterpret `?`, or turn this review into a channel, publishing,
+revenue, or title decision.
 
 ## Approved Internal Next Phase
 

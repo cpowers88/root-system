@@ -409,3 +409,43 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
 - Source placement only. Intake order is domain-driven design first when a real
   software model needs it, UX second when an interface is under test, and the
   2016 data-mining deck as historical adoption context.
+
+## 2026-07-16 — Raw folder closed after chunk ingestion
+
+### What changed
+
+- Re-audited all 28 physical files in `raw/` against the July 13-15 source
+  history and current wiki pages. Added `raw-source-coverage-and-intake-status.md`
+  so compiled, selective, derived, cross-hub, reference-only, and excluded
+  sources are visible at row level.
+- Chunk-reviewed all 446 pages of *Learning Domain-Driven Design* in six physical
+  ranges. Created a source-navigation hub and four applied pages covering
+  strategic design/bounded contexts, business-logic/architecture selection,
+  reliable integration, and evolution/EventStorming/distributed boundaries.
+  Reconciled the PDF's nonstandard tagged text layer, which emits Chapter 2 out
+  of physical order, through rendered boundary checks rather than dropping or
+  double-counting it.
+- Chunk-reviewed all 191 pages of *The Elements of User Experience* in eight
+  ranges. Created a source hub and three applied pages covering the five-plane
+  decision model, strategy/scope, and structure/skeleton/surface/validation.
+- Reviewed the 35-page *Data Mining: Crossing the Chasm* deck in three ranges.
+  Preserved its service-to-product and adoption mechanics as historical context;
+  did not promote its XML-era tooling claims as current landscape guidance.
+- Updated the Technology index. The new DDD and UX references remain
+  `priority/later` retrieval assets and do not displace the live SQL, Looker
+  Studio, API-depth, or ROI-practice gaps in the Technology Library Strategy.
+
+### Source disposition
+
+- All 28 physical raw files are now accounted. The official Google OAuth clip
+  remains reference-only until an authorized Google API build requires current
+  flow selection; `Foundations_of_Information_Systems.pdf` remains explicitly
+  excluded as an introductory overlap. AI sources remain cross-hub under the
+  July 9 lane closure.
+
+### Recommended next action
+
+- No intake action. Pull the new DDD pages during a real domain/model boundary
+  decision and the UX pages during an interface test. Continue the normal live
+  frontier from `TECHNOLOGY_LIBRARY_STRATEGY.md` rather than turning the applied
+  library into a reading queue.

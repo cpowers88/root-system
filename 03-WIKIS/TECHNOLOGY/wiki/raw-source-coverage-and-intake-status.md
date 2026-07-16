@@ -1,0 +1,82 @@
+---
+type: reference
+timeline: reference
+tags: [technology, governance, source-coverage]
+---
+
+# TECHNOLOGY Raw-Source Coverage and Intake Status
+
+> Disposition ledger for every physical file in `03-WIKIS/TECHNOLOGY/raw`.
+> "Accounted" means the file has a truthful disposition; it does not mean every
+> source was converted into a dedicated Technology page.
+
+## Status Vocabulary
+
+- **Compiled:** durable Technology retrieval pages cover the useful source material.
+- **Selective:** genuine deltas were ingested and documented overlap was not duplicated.
+- **Derived:** a clipping produced a landscape/reference page.
+- **Cross-hub:** the source remains here but its canonical synthesis is in another wiki.
+- **Reference-only:** retained for a future triggered lookup; no current page gap justified ingestion.
+- **Excluded:** reviewed and intentionally not ingested because stronger coverage exists or the source is too shallow.
+
+## Physical File Ledger (28/28)
+
+| # | Raw file | Status | Durable coverage or reason |
+|---:|---|---|---|
+| 1 | `ai_index_report_2026.pdf` | Cross-hub | `AI_AUTOMATION_SYSTEMS/wiki/ai-index-2026.md`; business and education deltas routed to their owning hubs |
+| 2 | `ai_index_report_2026_1-100.pdf` | Cross-hub | Pre-split working copy of the same AI Index source; no duplicate ingest |
+| 3 | `ai_index_report_2026_101-200.pdf` | Cross-hub | Pre-split working copy of the same AI Index source; no duplicate ingest |
+| 4 | `ai_index_report_2026_201-300.pdf` | Cross-hub | Pre-split working copy of the same AI Index source; no duplicate ingest |
+| 5 | `ai_index_report_2026_301-423.pdf` | Cross-hub | Pre-split working copy of the same AI Index source; no duplicate ingest |
+| 6 | `Clean-Code-Collection.pdf` | Selective | `software-craft/clean-code-*` and `the-clean-coder-professionalism-and-saying-no.md`; high-signal principles retained |
+| 7 | `co.md` | Derived | Edit CSV marketplace clipping incorporated into `vs-code-data-tooling-data-wrangler-and-edit-csv.md` |
+| 8 | `Data Science in VS Code tutorial.md` | Derived | `vs-code-data-tooling-data-wrangler-and-edit-csv.md` |
+| 9 | `Data Studio documentation.md` | Derived | `looker-studio-free-bi-dashboards.md` |
+| 10 | `Data Wrangler - Visual Studio Marketplace.md` | Derived | `vs-code-data-tooling-data-wrangler-and-edit-csv.md` |
+| 11 | `DataMiningCrossingtheChasm.pdf` | Compiled, historical | `data-science-ml/data-mining-adoption-chasm-and-productization.md`; all 35 pages dispositioned in three chunks |
+| 12 | `DataScienceforBusiness.pdf` | Selective | Thirteen `data-science-ml/` concept pages; model mechanics and business-use deltas retained |
+| 13 | `designingDataIntensiveApplications.pdf` | Selective | Storage engines, transaction isolation, and serializability pages; overlap with scalable-systems material not duplicated |
+| 14 | `DEvOpsHandbook.pdf` | Selective | Conway's Law, telemetry, just culture, and deployment-pipeline security pages |
+| 15 | `EngineeringSoftwareProducts.pdf` | Selective | Four `software-engineering/` pages covering agile, requirements narratives, reliability, and testing |
+| 16 | `Excel Import and Export  JavaScript Spreadsheet.md` | Derived | `spreadjs-embeddable-excel-import-export.md` |
+| 17 | `FlaskWebDevelopment.pdf` | Compiled | Flask source hub plus application structure, templates, forms, database, auth, email, large-app, REST, and security pages |
+| 18 | `Foundations of Scalable Systems.pdf` | Compiled | Distributed-systems source hub and concept set covering services, concurrency, messaging, databases, consistency, processing, and serverless |
+| 19 | `Foundations_of_Information_Systems.pdf` | Excluded | Introductory MIS survey overlaps stronger applied pages; July 13 review found no dedicated gap |
+| 20 | `From IDE to deployment 9 Best AI tools for Python.md` | Cross-hub | `AI_AUTOMATION_SYSTEMS/wiki/ai-coding-tools-for-python-2025-landscape.md` under the closed AI intake lane rule |
+| 21 | `fullStackPython.pdf` | Selective | Lightweight frameworks, task queues, hosting/deployment, and web-security deltas |
+| 22 | `Hacking APIs.pdf` | Compiled | Security source hub, OWASP vulnerability classes, and defensive engagement checklist |
+| 23 | `LearningDomainDrivenDesign.pdf` | Compiled | `software-engineering/learning-domain-driven-design.md` plus four applied retrieval pages; all 446 pages dispositioned in six chunks |
+| 24 | `PracticalSQL.pdf` | Compiled | `database-sql/practical-sql.md` source hub plus ten SQL reference pages |
+| 25 | `PracticalStatisticsforDataScientists.pdf` | Selective | Location/variability, distributions, and A/B testing pages; remaining material overlapped stronger data-science coverage |
+| 26 | `The-Pragmatic-Programmer;Journeyman-Master.pdf` | Selective | `software-craft/pragmatic-programmer-core-principles.md` |
+| 27 | `UserExperience.pdf` | Compiled | `user-experience/elements-of-user-experience.md` plus three applied pages; all 191 pages dispositioned in eight chunks |
+| 28 | `Using OAuth 2.0 to Access Google APIs    Authorization.md` | Reference-only | Official Google overview retained for a triggered Google API authorization decision; volatile implementation details must be reverified at use time |
+
+## Source-Family Summary
+
+| Disposition | Physical files | Meaning |
+|---|---:|---|
+| Compiled | 7 | Full useful source coverage with explicit navigation/ledger |
+| Selective | 8 | Useful deltas ingested; overlap or low-value material explicitly omitted |
+| Derived | 5 | Web clipping converted into a landscape/reference page |
+| Cross-hub | 6 | Canonical synthesis exists in the owning sibling wiki |
+| Reference-only | 1 | Parked until a concrete OAuth implementation decision |
+| Excluded | 1 | Introductory source adds no durable gap |
+
+The disposition counts total 28 and match the numbered ledger: **28/28 physical
+files accounted**. Source-family counts differ because the five AI Index files
+represent one report plus four pre-split working copies; the row-level ledger is
+the authoritative physical-folder closure check.
+
+## Reopen Triggers
+
+- Reopen OAuth only for an authorized Google API build; verify current official documentation first.
+- Reopen excluded or selectively ingested books only when a named build question is not answered by the current pages.
+- Route new AI/LLM/agent research to `AI_AUTOMATION_SYSTEMS`, not the closed `ai-and-llm/` intake folder here.
+- Do not study distributed systems or DDD tactical patterns merely because the references exist; pull them when a real design decision requires them.
+
+## Validation Record
+
+- July 13, 2026: prior raw collection audited and selectively compiled/routed.
+- July 15, 2026: structure, navigation, and raw accounting rechecked.
+- July 16, 2026: three new sources chunk-reviewed and compiled; ledger expanded to all 28 physical files.

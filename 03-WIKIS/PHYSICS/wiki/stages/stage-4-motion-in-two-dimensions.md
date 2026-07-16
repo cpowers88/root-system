@@ -1,6 +1,9 @@
 ---
 type: stage
-status: draft
+timeline: now
+stage: 4
+status: active
+tags: [physics, math]
 ---
 
 # Unit/Stage 4 — Motion in Two Dimensions / Projectile Motion

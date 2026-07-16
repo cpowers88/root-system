@@ -21,6 +21,19 @@ durable wiki coverage. The July 16 book intake added five explicitly classified
 reference/backlog sources; `TLS.pdf` remains identified as a misplaced
 systems-improvement source. See
 [[raw-source-coverage]] and `log.md`; “accounted” does not mean “compiled.”
+*The Alignment Problem* main text is now fully compiled in eight retrieval pages:
+Prologue, Introduction, Parts I-III, and Conclusion are covered through physical
+p. 403. Acknowledgments, notes, bibliography, and index remain reference back
+matter rather than unprocessed argument.
+*Empire of AI* is now fully compiled through its argument-bearing text (Author's
+Note, Prologue, Chapters 1-18, and Epilogue; physical pp. 8-398) in fourteen
+retrieval pages covering governance,
+research concentration, scaling inputs, commercial power, research control,
+productization labor, risk ideologies, interface-driven adoption, physical compute
+infrastructure, policy agenda-setting, board-coalition power, protected dissent,
+mission elasticity, community-controlled alternatives, data sovereignty, and
+power redistribution. Acknowledgments and notes are classified as reference back
+matter rather than unprocessed argument.
 
 ## Pages
 
@@ -64,6 +77,80 @@ systems-improvement source. See
   — GOVERN/MAP/MEASURE/MANAGE, seven trustworthiness characteristics;
   formalizes the verification-gap finding and supplies citable audit
   vocabulary for client work; `.ROOT` mapped onto the four functions.
+- [Training-Data Representation and Feedback Risk](training-data-representation-and-feedback-risk.md)
+  — the full representation chain from population through deployment; sampling
+  bias versus world bias, disaggregated performance, partial-debiasing limits,
+  and the feedback risk when a descriptive model becomes an intervention.
+- [Algorithmic Fairness: Metrics, Ground Truth, and Intervention](algorithmic-fairness-metrics-ground-truth-and-intervention.md)
+  — why fairness through blindness fails; calibration/error-rate incompatibility,
+  label lineage, prediction-versus-intervention, and a complete applied review
+  sequence for consequential models.
+- [Interpretable Models and Human Oversight](interpretable-models-and-human-oversight.md)
+  — accuracy-versus-safety, treatment confounding, interpretable baselines,
+  complementary explanation methods, user-tested explanations, and a high-impact
+  deployment gate.
+- [Reinforcement Learning: Reward, Prediction, and Credit](reinforcement-learning-reward-prediction-and-credit.md)
+  — actor/critic and temporal-difference mechanics, reward-prediction error,
+  credit assignment, and the distinction between optimizing a signal and choosing
+  the right objective.
+- [Reward Shaping, Curiosity, and Safe Exploration](reward-shaping-curiosity-and-safe-exploration.md)
+  — curricula, potential-based shaping, reward loopholes, novelty/surprise/
+  information-gain signals, noisy-TV failure, and a bounded-exploration gate.
+- [Imitation Learning, Recovery, and Amplification](imitation-learning-recovery-and-amplification.md)
+  — demonstration benefits, cascading distribution shift, DAgger recovery data,
+  capability-aware imitation, self-imitation, and iterated amplification limits.
+- [Preference Inference, Feedback, and Human-AI Cooperation](preference-inference-feedback-and-human-ai-cooperation.md)
+  — inverse reinforcement learning, comparison-based reward models, cooperative
+  inference, legible action, continuing feedback, and behavior-versus-endorsement.
+- [Uncertainty, Corrigibility, and Impact Limits](uncertainty-corrigibility-and-impact-limits.md)
+  — open-category and out-of-distribution failure, uncertainty-triggered
+  abstention, option-preserving impact measures, off-switch incentives, inverse
+  reward design, and the book's formal-model warning.
+- [OpenAI Governance: Mission, Capital, and Control](openai-governance-mission-capital-and-control.md)
+  — the founding governance contradiction, compute-driven capital dependency,
+  practical versus formal authority, and the November 2023 board crisis as an
+  institutional stress test.
+- [AI Research Paradigms, Concentration, and Commercial Selection](ai-research-paradigm-concentration-and-commercial-selection.md)
+  — why deep learning's dominance reflects real technical performance plus its
+  fit with platform data, compute, commercialization, and talent economics; a
+  portfolio gate for preserving alternatives.
+- [Scaling Doctrine: Compute, Data, and Hidden Labor](scaling-doctrine-compute-data-and-hidden-labor.md)
+  — scaling laws as capital strategy; the coupled GPU/cloud/data/labor supply
+  chain; provenance erosion, output filtering, and a full scaling review gate.
+- [Frontier-Lab Commercialization, Safety, and Organizational Power](frontier-lab-commercialization-safety-and-organizational-power.md)
+  — the deployment-resource flywheel, unequal authority among research/safety/
+  startup functions, competition as a release shortcut, and the Anthropic split.
+- [Corporate AI Research Control, Transparency, and Accountability](corporate-ai-research-control-transparency-and-accountability.md)
+  — resource concentration, the “Stochastic Parrots” dispute, corporate research
+  censorship, train-test integrity, and a gate for independent accountability.
+- [Generative-AI Productization, Content Safety, and Hidden Labor](generative-ai-productization-content-safety-and-hidden-labor.md)
+  — APIs and products as research flywheels; ad hoc trust and safety; Codex/
+  Copilot data governance; moderation, RLHF, and the crisis-labor supply chain.
+- [AI-Safety Ideologies, Risk Language, and Release Gates](ai-safety-ideologies-risk-language-and-release-gates.md)
+  — shared premises beneath Doomer/Boomer polarization; distinct meanings of
+  safety; DALL-E/GPT-4 data and evaluation risks; an enforceable release gate.
+- [ChatGPT Launch, Interface Risk, and Organizational Scaling](chatgpt-launch-interface-risk-and-organizational-scaling.md)
+  — how interface and distribution changed effective capability; viral-load
+  failure, safety-capacity loss, organizational shock, and Microsoft dependence.
+- [AI Compute Infrastructure, Energy, Water, and Community Governance](ai-compute-infrastructure-energy-water-and-community-governance.md)
+  — the physical AI stack, rebound effects, megacampus planning, uneven resource
+  burdens, community audit, and infrastructure approval gates.
+- [AI Policy Agenda-Setting, Frontier Thresholds, and Oversight Information](ai-policy-agenda-setting-frontier-thresholds-and-oversight-information.md)
+  — frontier-risk agenda-setting, compute-threshold limits, open/closed tradeoffs,
+  expertise concentration, and the information requirements of mission oversight.
+- [Board Oversight Crisis, Information, and Coalition Power](board-oversight-crisis-information-and-coalition-power.md)
+  — fragmented management information, informal escalation, disclosure failure,
+  coalition power, succession readiness, and investigation scope.
+- [AI-Safety Capacity, Whistleblowing, and Organizational Trust](ai-safety-capacity-whistleblowing-and-organizational-trust.md)
+  — evaluation time and authority, iterative-deployment pressure, likeness risk,
+  safety-team erosion, equity-linked silence, and documentary candor.
+- [Mission Elasticity, Centralization, and the AI-Empire Pattern](mission-elasticity-centralization-and-ai-empire-pattern.md)
+  — how a vague grand mission centralizes talent, resources, and interpretation;
+  corporate-structure leverage, scaling path dependence, and mission versioning.
+- [Community-Governed AI, Data Sovereignty, and Power Redistribution](community-governed-ai-data-sovereignty-and-power-redistribution.md)
+  — consent and continuing data stewardship, task-specific community-controlled
+  AI, distributed research and worker knowledge, and a three-axis gate for
+  redistributing knowledge, resources, and influence.
 - [MCP Client Primitives in Depth + Build Notes](mcp-client-primitives-and-build-notes.md)
   — second-pass extraction: trust semantics of elicitation/roots/sampling
   (**roots are advisory, not security**), the stdio never-log-to-stdout
@@ -289,4 +376,4 @@ systems-improvement source. See
   `check_at` follow-up.
 
 ---
-*Last updated: July 15, 2026 (proposal/check-at retrofit + pointer-state maintenance)*
+*Last updated: July 16, 2026 (The Alignment Problem full-main-text intake)*

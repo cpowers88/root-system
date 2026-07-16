@@ -33,26 +33,23 @@ must be verified in D2L; see [[source-map#Syllabus Data-Quality Gate]].
 
 ## Active Unit
 
-**Stage 3 — Vectors (Ch 3).** Packet complete, including the coordinate-systems gap fixed 2026-07-07. Syllabus lecture date: W Sep 2, 2026. Stages 1 and 2 assumed cleared (all 18 stage packets were built ahead of a July cruise); confirm Stage 1–2 mastery checklists before treating them as done if it's been a while since they were last drilled.
+**Stage 4 — Motion in Two Dimensions (Ch 4).** Active as of 2026-07-16. Syllabus lecture dates: F Sep 4 and W Sep 9, 2026. Packet already source-verified 2026-07-07 (Section 4.5 tangential/radial acceleration gap fixed) — ready to work from a clean start, no prerequisite gaps.
 
-First live teaching session ran 2026-07-14 (log entry same date). Chris correctly worked, in real time: coordinate conversion (with a self-caught degree/radian error), scalar-vs-vector classification (with an independent correct generalization about distance→displacement), vector decomposition, and vector reconstruction. Vector addition by components was started but not finished — Chris had to leave mid-problem. One correct rep each is not the same as the mastery checklist's "without notes" bar; treat all four skills as **in progress**, not done.
-
-Session resumed 2026-07-15 (log entry same date): Chris solved the paused addition problem (40 N at 0° + 30 N at 90°) independently — correct components, correct sum, correct magnitude (50 N), and self-corrected an initial angle error to land on the right answer (36.87°) without being told. This closes the one skill that had zero reps, but it was the easiest case (both vectors already axis-aligned, no real decomposition required) — not yet the no-notes pass the mastery checklist requires.
+**Stage 3 — Vectors (Ch 3): CLOSED 2026-07-16.** Full mastery checklist passed cold, no notes, in one session — coordinate conversion, scalar/vector ID (two examples each), decomposition, reconstruction, non-axis-angle addition, and unit-vector explanation. See [[stages/stage-3-vectors]] for the closed checklist with each cold-check result, and `wiki/log.md` 2026-07-16 for the full record. Stages 1 and 2 remain assumed-cleared from the July cruise pre-build; confirm their mastery checklists before treating them as done if it's been a while since they were last drilled.
 
 ## First 7-Day Priority
 
-1. **Do one harder addition rep** — two vectors at non-axis angles, so both actually get decomposed (not the axis-aligned shortcut from 2026-07-15).
-2. Run one full independent, no-notes pass over all four skills — coordinate conversion, scalar/vector ID, decomposition, reconstruction, and addition — before treating any mastery checklist item as checked.
-3. Pass the Stage 3 mastery checklist ([[stages/stage-3-vectors]]) before moving to Stage 4. The dot product pages exist but are **not** required for this — they're Stage 7 preview material, parked deliberately.
-4. Full D2L lecture-date calendar for Ch 6 onward is still pending — get exact exam and lecture dates when available.
+1. Begin Stage 4: coordinate conversion → decomposition → reconstruction → addition are all prerequisite-solid, so start directly with projectile motion (independence of x/y motion) rather than re-drilling Stage 3.
+2. Work the real Chapter 3 textbook problem set ([[drills/stage-3-textbook-problems]]) as a durability check on Stage 3 while Stage 4 begins — flag reflection-worthy ones live.
+3. Full D2L lecture-date calendar for Ch 6 onward is still pending — get exact exam and lecture dates when available.
 
 Math support is now stage-gated in [[math-readiness-path]]. It starts with the
 active non-axis vector rep, then reactivates derivative/integral meaning before
 Stage 4 instead of running a detached calculus review.
 
-## Ahead-Check: Stages 4–5 (verified 2026-07-07, so Chris isn't held up after Stage 3)
+## Ahead-Check: Stage 5 (verified 2026-07-07, so Chris isn't held up after Stage 4)
 
-- **Stage 4 (Motion in Two Dimensions, Ch 4)** — had a real gap: Section 4.5 (tangential + radial acceleration, for circular motion where speed also changes) was missing and had been miscited as Stage 10 material. Fixed — see [[stages/stage-4-motion-in-two-dimensions]]. Ready to work when Chris gets there.
+- **Stage 4 (Motion in Two Dimensions, Ch 4)** is now the active unit (see above) — no longer an ahead-check. Its one real gap (Section 4.5, tangential + radial acceleration, previously miscited as Stage 10 material) was already fixed 2026-07-07 — see [[stages/stage-4-motion-in-two-dimensions]].
 - **Stage 5 (The Laws of Motion, Ch 5)** — checked against the textbook's actual section list (5.1–5.8); all eight sections are represented in the existing concept pages. No changes needed. Ready as-is.
 - **Stages 6–18** — textbook tables of contents were screened 2026-07-15 and the
   readiness/gap classification is now in [[learning-path#Semester Pathway Control Table]].

@@ -403,6 +403,49 @@ Append-only session record.
 - Stage 4 and later decks remain out of the active queue. Stage 4 is the next
   preview only; no later-stage cram deck is authorized.
 
+## 2026-07-16 — Full stage-separated Anki package built (Claude Code, CASTLE hat)
+
+### Objective
+- Chris deleted the old Anki decks (they had grown unstructured and too far
+  ahead of his actual position) and asked for a complete rebuild: the whole
+  thing under one `Physics` deck in Anki, separated by stage, so he can open
+  only the subdeck he actually needs instead of facing everything at once.
+
+### What changed
+- Wrote `02-LIBRARY\00-SCHOOL\02-Physics I\Flash Cards\Physics_All_Stages.apkg`
+  via a one-off `genanki` script (`build_physics_anki.py`, run from the
+  scratchpad, not added to the vault). It parses all 18
+  `wiki/flashcards/stage-N-*.md` files directly — no content re-authored — and
+  emits one Anki package containing 18 subdecks (`Physics::Stage 01 - ...`
+  through `Physics::Stage 18 - ...`), 223 cards total. Stage 3's two dot/
+  cross-product preview cards carry a `preview` tag.
+- Rewrote `README_IMPORT_INSTRUCTIONS.md` to point at the new package (single
+  `File → Import`, no manual note-type/separator setup) and marked the July 14
+  active TSV and the pre-7/14 mixed decks as superseded-but-preserved.
+- Added a superseded note to `ADAPTIVE_REVIEW_LOG.md`'s rotation table.
+- Updated this wiki's `index.md` Active Stage block to Stage 4 (Stage 3 closed
+  earlier today) and pointed its recall-deck line at the new package.
+
+### Why this shape
+- One package instead of 18 separate TSV imports — Chris only performs one
+  `File → Import` action, and Anki builds the `Physics::` hierarchy itself from
+  the deck names.
+- Generated straight from the existing wiki flashcard pages rather than
+  rewritten, so the Anki deck and the wiki source cannot drift apart silently —
+  regenerating the script after a flashcards/ edit reproduces the package.
+
+### Not done
+- Did not delete or archive the July 14 TSV or the pre-7/14 mixed decks;
+  AGENT.md file-safety preserves superseded artifacts rather than removing them.
+- Did not touch `wiki/flashcards/*.md` content itself — this session only reads
+  that source; any card wording fix belongs in those files, then a package
+  rebuild.
+
+### Next
+- Import `Physics_All_Stages.apkg`, rename/archive any leftover pre-7/14 mixed
+  deck in Anki, and study only the `Stage 04` subdeck (plus Stage 01–03 for
+  spaced review) going forward.
+
 ### Next action for Chris
 - Rename the old mixed Physics deck to `Physics::Archive::Pre-2026-07-14`, import
   the focused deck as `Physics::Active::Stages 1-3`, and begin a baseline review.
@@ -544,3 +587,52 @@ Append-only session record.
 - The learning path is closed structurally. Supply the live D2L calendar and current
   grading/exam details when available; until then, treat only the chapter sequence
   as authoritative and all week/date assignments after Chapter 5 as provisional.
+
+## 2026-07-16 — Non-axis vector-addition rep solved; real textbook problem set added
+
+### Objective
+- Complete the harder non-axis-angle vector-addition rep flagged 2026-07-15, then
+  build a real-textbook problem set (not generated numbers) for Stage 3, per
+  Chris's request to work actual Serway end-of-chapter problems going forward and
+  flag specific ones for the full reflection/teaching treatment.
+
+### Sources touched
+- `raw/textbook/Physics book-0001-0100.pdf` — extracted via `pdftotext -layout`
+  to pull the real Chapter 3 "Problems" section (problems 1–32, pp. 63–66) rather
+  than generating new numbers.
+
+### What Chris demonstrated live
+- A⃗ = 25 N at 40°, B⃗ = 15 N at 120° (both from +x). Correctly computed
+  Ax=19.15, Ay=16.07, Bx=−7.5, By=12.99, Rx=11.65, Ry=29.06, R=31.31 N,
+  θ=68.15°, and correctly reasoned the quadrant (both Rx, Ry positive → no
+  adjustment). This is the first rep where both vectors actually required
+  decomposition (no axis-aligned shortcut). The "ladder against a wall"
+  physical anchor (Ax = ground reach, Ay = wall height) is what made the
+  cos/sin-to-component mapping click.
+- Correctly reasoned through tip-to-tail addition geometrically: placing B's
+  tail at A's tip (Ax, Ay) and following B out lands at (Rx, Ry) — independently
+  connected the graphical and component methods.
+
+### Files created/updated
+- `wiki/drills/vector-addition-drill.md` — added Part E with today's problem and
+  full worked solution.
+- **New:** `wiki/drills/stage-3-textbook-problems.md` — real Serway Ch 3
+  end-of-chapter problems (1–32, transcribed from raw PDF via pdftotext, with
+  OCR-uncertain figure-dependent ones flagged), organized by section, with a
+  blank Reflection? column for Chris to flag live in session.
+- `wiki/stages/stage-3-vectors.md` — linked the new textbook problem set under
+  Drills.
+
+### Concepts/equations/problem types added
+- None new — this closes out the addition skill's harder case and adds a
+  retrieval resource; no new concept.
+
+### Parked material
+- Problems 15, 16, 20, 22, 23, 28–30, 32 (figure-heavy) not transcribed — pull
+  the specific figure from the raw PDF if one is wanted later.
+
+### Next action for Chris
+- Full no-notes pass over all four Stage 3 skills (coordinate conversion,
+  scalar/vector ID, decomposition, reconstruction, addition) before checking the
+  mastery checklist in `wiki/stages/stage-3-vectors.md`. Then start working the
+  new textbook problem set, flagging reflection-worthy ones as they come up.

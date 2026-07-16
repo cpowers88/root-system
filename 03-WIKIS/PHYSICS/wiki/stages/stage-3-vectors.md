@@ -2,7 +2,7 @@
 type: stage
 timeline: now
 stage: 3
-status: active
+status: closed
 tags: [physics, math]
 ---
 
@@ -113,23 +113,24 @@ None new in this stage. This chapter uses trigonometry, not calculus. Calculus r
 - [[../drills/polar-cartesian-conversion-drill]]
 - [[../drills/vector-components-drill]]
 - [[../drills/vector-addition-drill]]
+- [[../drills/stage-3-textbook-problems]] — real Serway Ch 3 end-of-chapter problems, worked as Stage 3 progresses
 
 ## Common Errors
 
 See [[../common-errors/stage-3-vectors]].
 
-## Mastery Checklist
+## Mastery Checklist — CLOSED 2026-07-16
 
-- [ ] Convert a point between Cartesian (x, y) and polar (r, θ) form in both directions, checking the quadrant every time
-- [ ] State the difference between a scalar and a vector, and give two examples of each
-- [ ] Decompose any vector into x and y components using Ax = A cos θ and Ay = A sin θ (with θ from +x axis)
-- [ ] Reconstruct magnitude and direction from components using A = √(Ax²+Ay²) and θ = tan⁻¹(Ay/Ax), checking quadrant on a sketch
-- [ ] Add two vectors by adding their components separately, then find the resultant's magnitude and direction
-- [ ] Explain what î, ĵ, k̂ mean and why their magnitude is 1
+- [x] Convert a point between Cartesian (x, y) and polar (r, θ) form in both directions, checking the quadrant every time — cold-checked 2026-07-16: (−6.00, 8.00) m → r=10, θ=126.87°, correct quadrant.
+- [x] State the difference between a scalar and a vector, and give two examples of each — cold-checked 2026-07-16: speed/temperature (scalar), velocity/force (vector), correct reasoning after two self-corrected misfires (work and density initially misclassified as vectors, corrected in session).
+- [x] Decompose any vector into x and y components using Ax = A cos θ and Ay = A sin θ (with θ from +x axis) — cold-checked 2026-07-16: 45 N at 200° → (−42.29, −15.39), correct Quadrant III signs.
+- [x] Reconstruct magnitude and direction from components using A = √(Ax²+Ay²) and θ = tan⁻¹(Ay/Ax), checking quadrant on a sketch — cold-checked 2026-07-16: Ax=−9.0, Ay=12.0 → R=15, θ=126.87°, correct Quadrant II.
+- [x] Add two vectors by adding their components separately, then find the resultant's magnitude and direction — closed 2026-07-16 with the first non-axis-angle rep (25 N at 40° + 15 N at 120° → 31.31 N at 68.15°, both vectors actually decomposed — see [[../drills/vector-addition-drill]] Part E).
+- [x] Explain what î, ĵ, k̂ mean and why their magnitude is 1 — cold-checked 2026-07-16 after two guided corrections (unit-circle-triangle misconception, then a vague addition-only answer): Chris landed on the correct explanation independently — î/ĵ/k̂ are fixed-length-1 direction markers so the coefficient in front carries 100% of magnitude and the hat carries 100% of direction, which is exactly what lets components be added axis-by-axis without mixing.
 
 ## Do Not Move On Until
 
-Chris can convert between Cartesian and polar coordinates, decompose a vector at any angle, and add two vectors by components — all without looking at notes — and can explain the difference between a scalar result and a vector result.
+**Satisfied 2026-07-16.** Chris converted Cartesian/polar, decomposed and reconstructed a vector, added two non-axis vectors, and explained scalar-vs-vector and unit vectors — all cold, no notes, in one continuous session. See `wiki/log.md` 2026-07-16 entry for the full cold-check record. Stage 4 (Motion in Two Dimensions) is now active — see `current-position.md`.
 
 ## Parked for Later
 

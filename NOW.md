@@ -5,18 +5,21 @@ status: active
 tags: []
 ---
 
-# NOW — Wednesday, July 15, 2026
+# NOW — Thursday, July 16, 2026
 ### Open this every morning. Start here, do the proof, then close clean.
 
 ## Start Here
 
-1. Physics Stage 3 vectors: the 40 N east + 30 N north addition problem is solved
-   (2026-07-15, log entry same date) — Chris explained why it isn't 70 N and got
-   R = 50 N at 36.87°, self-correcting an angle error. Next: one harder rep with
-   non-axis-aligned vectors, then a full no-notes pass over all four Stage 3
-   skills before checking the mastery checklist.
-2. If that proof is closed, finish and explain the Python Stage 2 choose-your-path
-   mini-project independently.
+1. **Physics Stage 3 (Vectors) is CLOSED (2026-07-16)** — full mastery checklist
+   passed cold, no notes: coordinate conversion, scalar/vector ID, decomposition,
+   reconstruction, non-axis-angle addition, and unit-vector explanation. See
+   `03-WIKIS\PHYSICS\wiki\current-position.md` and `wiki\log.md` 2026-07-16.
+   **Stage 4 (Motion in Two Dimensions) is now active** — start with projectile
+   motion. A real-textbook Stage 3 problem set (`wiki\drills\stage-3-textbook-problems.md`)
+   is available for off-screen durability reps.
+2. Finish Python Stage 2 verification: independently
+   correct `S2P3.py` so every score below 70 produces `F`, then explain from memory
+   why `Story.py` uses `elif` for exclusive paths and `or` for the bridge choices.
 
 **System acceptance (July 15):** Phase 7 is accepted-with-debt after Codex gates,
 Loop 1, Claude's fresh-session challenge, and Chris's final verdict. Root health is
@@ -38,18 +41,19 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 
 | Area | Live truth | Next proof |
 |---|---|---|
-| School | Aug 24 readiness is fixed; Physics Stage 3 and Python Stage 2 are active | Close the next mastery gate in the owning wiki |
+| School | Aug 24 readiness is fixed; Physics Stage 3 closed 2026-07-16, Stage 4 active; Python Stage 2 active | Close the next mastery gate in the owning wiki |
 | Tracker / SQL | V1 shipped; real course data is not available yet | Enter verified D2L/syllabus data around July 25 and test the real workflow |
 | Technology | Make.com first landscape rep complete; scanner exercised Python/SQLite/API | Looker Studio is the next zero-rep gap when the weekly block is available |
 | Business | Advisor-Builder is the current hypothesis; desk-sim observation captured | One approved live workflow observation, then an actual-state map/VSM |
-| Continuity income | Additional income is needed before Spring 2027 enrollment | B2 conversation requires Chris's approval; Lane A's next internal step is human classification of the saved top 100 |
+| Continuity income | Additional income is needed before Spring 2027 enrollment | B2 conversation requires Chris's approval; Lane A has a 16-item recording-fit screen and one private proof capped at 90 added minutes |
 | `.ROOT` | Phase 7 accepted-with-debt; Pass C real-use window is active | Record July 24–26 `check_at` outcomes; reopen architecture only for observed friction or new evidence |
 
 ## This Week
 
-- [ ] Physics Stage 3 proof
+- [x] Physics Stage 3 proof — CLOSED 2026-07-16
+- [ ] Physics Stage 4 first live rep (projectile motion)
 - [ ] Python Stage 2 proof
-- [ ] Human-classify the Revenue Lab combined top 100 when scheduled
+- [ ] Record one private Revenue Lab proof during work already happening; review it before any public action
 - [ ] One live workflow observation/VSM only with the needed approval and access
 - [ ] One small Looker Studio dashboard rep if school remains on track
 
