@@ -23,6 +23,7 @@ created: 2026-07-15
 
 | Date | Commit | Owner | What changed | Evidence / report |
 |---|---|---|---|---|
+| 07-15 | `f900e49` | Codex | Phase 7 final acceptance: deterministic gates + Loop 1, bounded System Loop/check_at repairs, Claude Chunk 5 approve-recommend, Chris accept-with-debt verdict, and transition from remediation to Pass C operation | `ROOT_REMEDIATION_PHASE_7_FINAL_ACCEPTANCE_2026-07-15.md`; DAILY 07-15 final acceptance block |
 | 07-15 | `06a68e3` | Claude | U3: Phase 7 execution brief written for Codex; this ledger + `Closed Flags\` ledger installed (13 rows migrated; SYSTEM_FLAGS now OPEN-only with write-at-close rule); WHERE_IT_GOES/vault_map/OPERATIONS wired to both | `ROOT_REMEDIATION_PHASE_7_FINAL_ACCEPTANCE_BRIEF_2026-07-15.md`; DAILY 07-15 night block |
 | 07-15 | `4b9b201` | Claude | U2 hygiene: `Report Archive\` created + 15 completed reports moved; 10 inert stubs archived; 8 pre-standard archive names normalized; Co-Intelligence duplicate archived (hash-verified); hub archetype standard added to WHERE_IT_GOES; root CODEX.md deduplicated to a stub | DAILY 07-15 U2 block |
 | 07-15 | `596e25e` | Claude | U1 LIBRARY clarity: reference domains renamed to `REF-<NAME>`; 5 empty scaffolds archived; first `02-LIBRARY\README.md` + `05-BUSINESS\README.md`; 114 path references swept incl. frontmatter baseline; START_HERE truth fixes | DAILY 07-15 U1 block |
@@ -54,5 +55,6 @@ created: 2026-07-15
 | 07-15 | `af8e3ba` | Codex | Phase 0: remediation baseline + the phase-loop protocol both lanes now share | `ROOT_REMEDIATION_PHASE_LOOP_2026-07-15.md` |
 | 07-15 | `1a5060d` | Codex | Checkpoint 2: neutralized nested `.claude` settings shadow + validator guard | DAILY 07-15 checkpoint block |
 
-**Pending (not yet run):** Phase 7 final acceptance — brief at
-`..\ROOT_REMEDIATION_PHASE_7_FINAL_ACCEPTANCE_BRIEF_2026-07-15.md`.
+**Completed:** Phase 7 final acceptance committed as `f900e49`; the system is
+in Pass C operation. Acceptance report:
+`..\ROOT_REMEDIATION_PHASE_7_FINAL_ACCEPTANCE_2026-07-15.md`.
