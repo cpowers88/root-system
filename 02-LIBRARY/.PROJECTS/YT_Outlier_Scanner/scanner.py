@@ -19,6 +19,7 @@ Usage:
   python scanner.py discover --market [--days 180]
   python scanner.py market-report --top 100 --rank views
   python scanner.py market-worksheet --output TOP_100_CLASSIFICATION_WORKSHEET.md
+  python scanner.py market-export --output LOOKER_STUDIO_MARKET_DATA.csv
   python scanner.py add-channel @SomeHandle --niche trades
   python scanner.py add-channel UCxxxxxxxxxxxxxxxxxxxxxx --niche family
   python scanner.py harvest [--max-videos 200]
@@ -34,6 +35,7 @@ Setup: set the YOUTUBE_API_KEY environment variable or store it in
 """
 
 import argparse
+import csv
 import json
 import os
 import re
@@ -763,6 +765,135 @@ def _markdown_cell(value):
     return str(value).replace("|", "\\|").replace("\r", " ").replace("\n", " ")
 
 
+def _spreadsheet_text(value):
+    """Keep untrusted titles from becoming formulas in Sheets or Excel."""
+    text = "" if value is None else str(value)
+    if text.startswith(("=", "+", "-", "@")):
+        return "'" + text
+    return text
+
+
+MARKET_EXPORT_FIELDS = (
+    "rank", "video_id", "video_url", "title", "channel",
+    "published_date", "format", "views", "subscribers",
+    "views_per_subscriber", "measured_views_per_day",
+    "search_categories", "matched_search_topics", "category_count",
+    "topic_count", "ranking_metric", "relevance_gate",
+    "latest_observation_utc",
+)
+
+
+def _write_market_csv(path, rows, metadata):
+    """Write typed, visualization-ready market evidence for BI tools."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=MARKET_EXPORT_FIELDS)
+        writer.writeheader()
+        for index, row in enumerate(rows, 1):
+            writer.writerow({
+                "rank": index,
+                "video_id": row["video_id"],
+                "video_url": (
+                    f'https://www.youtube.com/watch?v={row["video_id"]}'
+                ),
+                "title": _spreadsheet_text(row["title"]),
+                "channel": _spreadsheet_text(row["channel"]),
+                "published_date": (row["published_at"] or "")[:10],
+                "format": row["format"],
+                "views": row["views"],
+                "subscribers": (
+                    "" if row["subscribers"] is None else row["subscribers"]
+                ),
+                "views_per_subscriber": (
+                    "" if row["views_per_sub"] is None
+                    else f'{row["views_per_sub"]:.6f}'
+                ),
+                "measured_views_per_day": (
+                    "" if row["velocity"] is None
+                    else f'{row["velocity"]:.6f}'
+                ),
+                "search_categories": " | ".join(row["categories"]),
+                "matched_search_topics": " | ".join(row["topics"]),
+                "category_count": len(row["categories"]),
+                "topic_count": len(row["topics"]),
+                "ranking_metric": metadata["rank"],
+                "relevance_gate": metadata["relevance"],
+                "latest_observation_utc": metadata["latest_observation"],
+            })
+
+
+def _write_market_field_dictionary(path, csv_name, metadata, row_count):
+    """Document field types, provenance, and a bounded first dashboard rep."""
+    lines = [
+        "---",
+        "type: reference",
+        "timeline: now",
+        "status: ready-for-local-rep",
+        "tags: [technology, business-intelligence, looker-studio, youtube]",
+        "---",
+        "",
+        "# Looker Studio Market Export - Field Dictionary",
+        "",
+        f"**Dataset**: `{csv_name}` ({row_count} deduplicated rows)",
+        "",
+        "**Boundary**: Mechanical scanner evidence only. Search categories and",
+        "matched topics record query provenance; they are not human relevance,",
+        "niche, revenue, demand, or publishing judgments.",
+        "",
+        "## Generation Record",
+        "",
+        f'- Database: `{metadata["database"]}`',
+        f'- Ranking: `{metadata["rank"]}`',
+        f'- Format: `{metadata["format"]}`',
+        f'- Category filter: `{metadata["category"]}`',
+        f'- Relevance gate: `{metadata["relevance"]}`',
+        f'- Topic coverage: `{metadata["present_topics"]}/{metadata["expected_topics"]}`',
+        f'- Deduplicated candidates before top-N: `{metadata["total_unique"]}`',
+        f'- Latest stored observation: `{metadata["latest_observation"]}`',
+        "",
+        "## Fields",
+        "",
+        "| Field | Looker Type | Meaning / caution |",
+        "|---|---|---|",
+        "| `rank` | Number | Position under the selected export ranking. |",
+        "| `video_id` | Text | Stable YouTube identifier; use as the row key. |",
+        "| `video_url` | URL | Direct source link. |",
+        "| `title` | Text | Exact stored title; spreadsheet-formula prefixes are neutralized. |",
+        "| `channel` | Text | Exact stored channel title. |",
+        "| `published_date` | Date | ISO `YYYY-MM-DD`; confirm Looker recognizes it as Date. |",
+        "| `format` | Text | `long` or heuristic `short` (duration at most 180 seconds). |",
+        "| `views` | Number | Latest stored view count, not revenue or demand. |",
+        "| `subscribers` | Number | Latest public channel count; blank when hidden/unavailable. |",
+        "| `views_per_subscriber` | Decimal | Views divided by subscribers; blank when unavailable. |",
+        "| `measured_views_per_day` | Decimal | Snapshot velocity; blank until observations span 24 hours. |",
+        "| `search_categories` | Text | Pipe-separated search provenance, not classification. |",
+        "| `matched_search_topics` | Text | Pipe-separated exact queries returning the video. |",
+        "| `category_count` | Number | Number of market categories returning the video. |",
+        "| `topic_count` | Number | Number of exact queries returning the video. |",
+        "| `ranking_metric` | Text | Export control: `views`, `breakout`, or `velocity`. |",
+        "| `relevance_gate` | Text | `strict` title screen or unfiltered `raw`. |",
+        "| `latest_observation_utc` | Date & Time | Freshness marker for stored evidence. |",
+        "",
+        "## First Bounded Dashboard Rep",
+        "",
+        "1. Import the CSV into a private Google Sheet; do not publish it.",
+        "2. Connect that Sheet to a private Looker Studio report.",
+        "3. Confirm the field types above before building charts.",
+        "4. Add one scorecard for row count, one bar chart for views by search",
+        "   category, and one table with title, format, views, views/subscriber,",
+        "   topic count, and source URL.",
+        "5. Add a format filter and a published-date control.",
+        "6. Record what the dashboard makes easier to notice than the worksheet.",
+        "",
+        "Do not infer income, market demand, or a channel decision from this rep.",
+        "Its proof target is basic data connection, field typing, filtering, and",
+        "clear presentation of already-collected evidence.",
+        "",
+    ]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(lines), encoding="utf-8")
+
+
 def _write_market_review_worksheet(path, rows, metadata):
     """Write mechanical evidence plus blank, human-only review fields."""
     lines = [
@@ -897,6 +1028,51 @@ def cmd_market_worksheet(args) -> None:
     }
     _write_market_review_worksheet(output, rows, metadata)
     print(f"WROTE {len(rows)} no-label rows: {output}")
+
+
+def cmd_market_export(args) -> None:
+    """Export BI-ready CSV plus its field dictionary without using a network."""
+    conn = db()
+    expected = _market_keywords(args.category)
+    stored = {
+        row[0] for row in conn.execute(
+            "SELECT DISTINCT keyword FROM discoveries"
+        )
+    }
+    present = [keyword for keyword in expected if keyword in stored]
+    rows = _market_report_rows(
+        conn, args.category, args.format, args.relevance
+    )
+    total_unique = len(rows)
+    latest_observation = conn.execute(
+        "SELECT MAX(observed_at) FROM discovery_snapshots"
+    ).fetchone()[0]
+    conn.close()
+    rows = _rank_topic_rows(rows, args.rank)[:args.top]
+
+    output = Path(args.output)
+    if not output.is_absolute():
+        output = HERE / output
+    dictionary = Path(args.dictionary)
+    if not dictionary.is_absolute():
+        dictionary = HERE / dictionary
+    metadata = {
+        "database": DB_PATH.name,
+        "rank": args.rank,
+        "format": args.format,
+        "category": args.category,
+        "relevance": args.relevance,
+        "present_topics": len(present),
+        "expected_topics": len(expected),
+        "total_unique": total_unique,
+        "latest_observation": latest_observation or "n/a",
+    }
+    _write_market_csv(output, rows, metadata)
+    _write_market_field_dictionary(
+        dictionary, output.name, metadata, len(rows)
+    )
+    print(f"WROTE {len(rows)} BI-ready rows: {output}")
+    print(f"WROTE field dictionary: {dictionary}")
 
 
 def cmd_discover(args) -> None:
@@ -1140,6 +1316,9 @@ def cmd_selftest(_args) -> None:
     assert _markdown_cell("one|two\nthree") == "one\\|two three", (
         "Markdown cell escaping"
     )
+    assert _spreadsheet_text("=SUM(A1:A2)").startswith("'="), (
+        "spreadsheet formula neutralization"
+    )
     test_worksheet = HERE / "selftest-worksheet.md"
     _write_market_review_worksheet(test_worksheet, market_rows, {
         "database": test_db.name,
@@ -1157,11 +1336,42 @@ def cmd_selftest(_args) -> None:
         "worksheet classifications remain blank"
     )
     test_worksheet.unlink()
+    test_csv = HERE / "selftest-market.csv"
+    test_dictionary = HERE / "selftest-market-fields.md"
+    export_metadata = {
+        "database": test_db.name,
+        "rank": "views",
+        "format": "all",
+        "category": "all",
+        "relevance": "strict",
+        "present_topics": 3,
+        "expected_topics": 36,
+        "total_unique": len(market_rows),
+        "latest_observation": "2026-01-03 00:00:00Z",
+    }
+    ranked_market = _rank_topic_rows(market_rows, "views")
+    _write_market_csv(test_csv, ranked_market, export_metadata)
+    _write_market_field_dictionary(
+        test_dictionary, test_csv.name, export_metadata, len(ranked_market)
+    )
+    with test_csv.open(encoding="utf-8-sig", newline="") as handle:
+        exported = list(csv.DictReader(handle))
+    assert len(exported) == 2, "market CSV row count"
+    assert list(exported[0]) == list(MARKET_EXPORT_FIELDS), (
+        "market CSV stable field order"
+    )
+    assert exported[0]["video_id"] == "m2", "market CSV preserves ranking"
+    assert exported[1]["topic_count"] == "2", "market CSV topic count"
+    assert "Looker Type" in test_dictionary.read_text(encoding="utf-8"), (
+        "field dictionary written"
+    )
+    test_csv.unlink()
+    test_dictionary.unlink()
     conn.close()
     test_db.unlink()
     print("SELFTEST PASS — schema, format separation, exact-topic and "
-          "deduplicated-market ranking, snapshot velocity, worksheet export, "
-          "outlier math, and duration parsing all correct.")
+          "deduplicated-market ranking, snapshot velocity, worksheet and BI "
+          "exports, outlier math, and duration parsing all correct.")
 
 
 # ---------------------------------------------------------------- main
@@ -1255,6 +1465,34 @@ def main() -> None:
         help="title relevance gate or unfiltered API results (default strict)",
     )
     w.set_defaults(fn=cmd_market_worksheet)
+
+    e = sub.add_parser(
+        "market-export",
+        help="export offline BI-ready CSV plus a field dictionary",
+    )
+    e.add_argument("--output", default="LOOKER_STUDIO_MARKET_DATA.csv",
+                   help="CSV output path (default in project folder)")
+    e.add_argument("--dictionary", default="LOOKER_STUDIO_FIELD_DICTIONARY.md",
+                   help="field dictionary path (default in project folder)")
+    e.add_argument("--top", type=int, default=TOPIC_REPORT_DEFAULT,
+                   help="number of rows to export (default 100)")
+    e.add_argument("--rank", choices=("views", "breakout", "velocity"),
+                   default="views", help="ranking metric (default views)")
+    e.add_argument("--format", choices=("all", "long", "short"),
+                   default="all", help="format filter (default all)")
+    e.add_argument(
+        "--category",
+        choices=("all",) + tuple(MARKET_TOPIC_GROUPS),
+        default="all",
+        help="limit to one defined market category (default all)",
+    )
+    e.add_argument(
+        "--relevance",
+        choices=("strict", "raw"),
+        default="strict",
+        help="title relevance gate or unfiltered API results (default strict)",
+    )
+    e.set_defaults(fn=cmd_market_export)
 
     a = sub.add_parser("add-channel", help="register a channel to scan")
     a.add_argument("channel", help="@handle or UC... channel id")

@@ -93,6 +93,12 @@ flagging, recency markers, and the lint pass — lives in
 `00-BRAIN\AGENT.md § Wiki Shared Layer`. One copy, zero drift. This file
 carries only this wiki's own rules.
 
+New or edited pages use metadata v2 properties rather than legacy control
+tags. Applied-reference pages normally use `timeline: reference` and
+`status: wiki-only`; keep `tags` categorical (for example,
+`domain/technology`, `source-role/primary`, and subject tags). Never put
+`priority/*` or `status/*` control values in `tags` once `timeline:` exists.
+
 Session note: when the session concerns a specific category, also read
 `TECHNOLOGY_LIBRARY_STRATEGY.md` at start.
 

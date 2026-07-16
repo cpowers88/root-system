@@ -2,7 +2,8 @@
 domain: technology
 type: source-summary
 timeline: reference
-tags: [priority/later, status/wiki-only, domain/technology, source-role/primary, use-case/tech-stack, subject/ddd, subject/software-engineering]
+status: wiki-only
+tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/ddd, subject/software-engineering]
 ---
 
 # Learning Domain-Driven Design - Source Summary and Navigation Hub
@@ -54,4 +55,3 @@ are known. Prefer the simplest pattern that implements the actual rules.
 - [[reliable-programming-techniques|Reliable Programming Techniques]]
 - [[../distributed-systems/microservices|Microservices]]
 - [[../distributed-systems/asynchronous-messaging|Asynchronous Messaging]]
-

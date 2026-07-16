@@ -17,9 +17,9 @@ tags: []
    **Stage 4 (Motion in Two Dimensions) is now active** — start with projectile
    motion. A real-textbook Stage 3 problem set (`wiki\drills\stage-3-textbook-problems.md`)
    is available for off-screen durability reps.
-2. Finish Python Stage 2 verification: independently
-   correct `S2P3.py` so every score below 70 produces `F`, then explain from memory
-   why `Story.py` uses `elif` for exclusive paths and `or` for the bridge choices.
+2. **Python Stage 2 is CLOSED (2026-07-16)** — explain-back and `S2P3.py` fix both
+   verified. See `03-WIKIS\PYTHON\wiki\current-position.md` and `wiki\log.md`
+   2026-07-16. **Stage 3 (Loops) is now active** — start there next session.
 
 **System acceptance (July 15):** Phase 7 is accepted-with-debt after Codex gates,
 Loop 1, Claude's fresh-session challenge, and Chris's final verdict. Root health is
@@ -41,7 +41,7 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 
 | Area | Live truth | Next proof |
 |---|---|---|
-| School | Aug 24 readiness is fixed; Physics Stage 3 closed 2026-07-16, Stage 4 active; Python Stage 2 active | Close the next mastery gate in the owning wiki |
+| School | Aug 24 readiness is fixed; Physics Stage 3 closed 2026-07-16, Stage 4 active; Python Stage 2 closed 2026-07-16, Stage 3 active | Close the next mastery gate in the owning wiki |
 | Tracker / SQL | V1 shipped; real course data is not available yet | Enter verified D2L/syllabus data around July 25 and test the real workflow |
 | Technology | Make.com first landscape rep complete; scanner exercised Python/SQLite/API | Looker Studio is the next zero-rep gap when the weekly block is available |
 | Business | Advisor-Builder is the current hypothesis; desk-sim observation captured | One approved live workflow observation, then an actual-state map/VSM |
@@ -52,7 +52,8 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 
 - [x] Physics Stage 3 proof — CLOSED 2026-07-16
 - [ ] Physics Stage 4 first live rep (projectile motion)
-- [ ] Python Stage 2 proof
+- [x] Python Stage 2 proof — CLOSED 2026-07-16
+- [ ] Python Stage 3 first live rep (loops)
 - [ ] Record one private Revenue Lab proof during work already happening; review it before any public action
 - [ ] One live workflow observation/VSM only with the needed approval and access
 - [ ] One small Looker Studio dashboard rep if school remains on track

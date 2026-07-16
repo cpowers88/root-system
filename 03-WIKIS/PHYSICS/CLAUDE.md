@@ -1,6 +1,7 @@
 ---
 type: os
-tags: [reference, physics, school]
+timeline: reference
+tags: [physics, school]
 ---
 
 # CLAUDE.md — Physics Education Vault Operating System

@@ -449,3 +449,38 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
   decision and the UX pages during an interface test. Continue the normal live
   frontier from `TECHNOLOGY_LIBRARY_STRATEGY.md` rather than turning the applied
   library into a reading queue.
+
+## 2026-07-16 - Looker Studio zero-rep data bridge prepared
+
+- Added an offline `market-export` command to the existing YT Outlier Scanner.
+  It reuses the scanner's exact market deduplication, relevance, format, category,
+  and ranking logic to create a refreshable BI-ready CSV rather than a one-off
+  hand-built dataset.
+- Added a field dictionary with Looker types, evidence limitations, freshness
+  provenance, and a six-step private first-dashboard rep. Search categories and
+  topics remain query provenance, not AI or human market labels.
+- Preserved the current boundary: this is prepared input, not proof of Looker
+  Studio skill, demand, revenue, channel fit, or publication readiness. The live
+  rep still requires Chris to privately connect and build the report.
+- No network call, API-key load, account creation, or publishing action was used.
+  The scanner selftest now covers stable CSV fields, ranking, topic counts, field
+  dictionary generation, and spreadsheet-formula neutralization.
+
+## 2026-07-16 - Real-world dataset opportunity map and pilot selected
+
+- Ranked eight official construction, labor, procurement, housing, and risk data
+  sources against goal relevance, decision actionability, local granularity,
+  freshness, access ease, and repeatability.
+- Selected the first autonomous pilot: an Atlanta-area construction opportunity
+  baseline combining Census Building Permits Survey project-flow data with BLS
+  QCEW construction-business capacity. Atlanta permit records are the next layer
+  only if the county baseline produces a sharper project-level question.
+- Created
+  `outputs/real_world_dataset_opportunity_map_2026-07-16/advisor_builder_dataset_opportunity_map.xlsx`
+  with a formula-driven inventory, scoring definitions, phased work plan, and
+  explicit stop/continue gates.
+- Preserved the evidence boundary: public datasets can narrow a county, contractor
+  segment, and observation question, but cannot replace the approved human
+  conversation that tests pain and willingness to pay.
+- No outreach, account creation, API-key action, Python-school edit, DAILY/NOW
+  update, or CASTLE current-position change was made for this work.

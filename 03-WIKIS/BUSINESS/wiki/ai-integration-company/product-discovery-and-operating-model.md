@@ -1,8 +1,8 @@
 ---
 type: reference
 timeline: reference
+stage: phase-3
 tags:
-  - phase-3
   - product
   - discovery
   - transformation

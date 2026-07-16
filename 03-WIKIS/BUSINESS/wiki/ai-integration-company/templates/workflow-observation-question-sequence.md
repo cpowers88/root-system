@@ -1,8 +1,8 @@
 ---
 type: template
 timeline: now
+stage: phase-2
 tags:
-  - phase-2
   - template
   - discovery
   - evidence
@@ -482,4 +482,3 @@ Next proof, owner, and date:
 - [[../first-workflow-observation-field-plan|First Workflow Observation Field Plan]]
 - [[audit-interview-guide|Audit Interview Guide]]
 - [[audit-report-template|Audit Report Template]]
-

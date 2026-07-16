@@ -2,7 +2,8 @@
 domain: technology
 type: concept
 timeline: reference
-tags: [priority/later, status/wiki-only, domain/technology, source-role/primary, use-case/tech-stack, subject/ddd, subject/eventstorming, subject/microservices]
+status: wiki-only
+tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/ddd, subject/eventstorming, subject/microservices]
 ---
 
 # Domain-Driven Evolution, EventStorming, and Distributed Boundaries
@@ -97,4 +98,3 @@ index at 381-446 were reviewed and closed in
 - [[domain-driven-integration-and-reliable-messaging|Integration and Reliable Messaging]]
 - [[../distributed-systems/microservices|Microservices]]
 - [[../devops/conways-law-and-organizational-design|Conway's Law and Organizational Design]]
-

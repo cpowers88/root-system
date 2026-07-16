@@ -1,8 +1,8 @@
 ---
 type: reference
 timeline: reference
+stage: phase-2
 tags:
-  - phase-2
   - sales
   - audit
   - evidence
@@ -164,4 +164,3 @@ Source: `raw/theMomTest.pdf` (134 PDF pages), reviewed in complete named chunks.
 - [[templates/audit-interview-guide|Audit Interview Guide]]
 - [[consulting-methodology|Consulting Methodology]]
 - [[market-map|Market Map]]
-

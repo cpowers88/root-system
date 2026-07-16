@@ -1,8 +1,8 @@
 ---
 type: reference
 timeline: reference
+stage: phase-3
 tags:
-  - phase-3
   - operations
   - leadership
   - decision-making
@@ -196,4 +196,3 @@ retained as operational countermeasures.
 - [[fulfillment-system|Fulfillment System]]
 - [[risks-and-failure-modes|Risks and Failure Modes]]
 - [[quality-control-and-risk-gates|Quality Control and Risk Gates]]
-

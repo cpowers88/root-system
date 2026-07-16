@@ -2,7 +2,8 @@
 domain: technology
 type: concept
 timeline: reference
-tags: [priority/later, status/wiki-only, domain/technology, source-role/primary, use-case/tech-stack, subject/ddd, subject/integration, subject/messaging]
+status: wiki-only
+tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/ddd, subject/integration, subject/messaging]
 ---
 
 # Domain-Driven Integration and Reliable Messaging
@@ -98,4 +99,3 @@ Primary source: `raw/LearningDomainDrivenDesign.pdf`, PDF pages 181-203
 - [[../distributed-systems/asynchronous-messaging|Asynchronous Messaging]]
 - [[../distributed-systems/scalable-event-driven-processing|Scalable Event-Driven Processing]]
 - [[../devops/production-telemetry-and-monitoring-architecture|Production Telemetry and Monitoring]]
-

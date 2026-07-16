@@ -114,9 +114,9 @@ practical use, which page it updates (or why it needs a new one), what's
 missing from Chris to finish it. Discard anything that fails the Business
 Design Rule bar.
 
-**Step 4 — File and tag.** New pages follow the Page Template and get
-exactly one phase tag. Updated pages keep their tag unless the timing
-genuinely changed.
+**Step 4 — File and classify.** New pages follow the Page Template and get
+exactly one `stage:` property. `timeline:` records when to act and changes
+independently; `stage:` records the page's stable business-build position.
 
 **Step 5 — Update navigation.** Update
 `wiki/ai-integration-company/index.md` and `wiki/log.md`; print the changed
@@ -139,6 +139,13 @@ full source content into a page.
 ## Page Template
 
 ```markdown
+---
+type: reference
+timeline: reference
+stage: phase-1
+tags: [business]
+---
+
 # Page Title
 
 ## Purpose
@@ -156,10 +163,9 @@ full source content into a page.
 
 Every page links related pages with `[[wikilinks]]`.
 
-## Phase Tags (graph convention)
+## Phase Property (graph convention)
 
-Every wiki page carries exactly one phase tag as the FIRST tag in its
-frontmatter:
+Every wiki page carries exactly one `stage:` value in its frontmatter:
 
 - `phase-1` — Foundation (weeks 0–4): start-here, first-30-days, thesis +
   operating model, skill-roadmap, tool-stack, most-profitable-pathways
@@ -175,8 +181,9 @@ frontmatter:
 - `phase-all` — Always-on reference: index, README,
   risks-and-failure-modes, what-not-to-do
 
-If a page's execution timing changes, move its tag. Isolate a phase in the
-single `.ROOT` graph with `path:"03-WIKIS/BUSINESS" tag:#phase-1` — the
+Change `stage:` only when the page's stable business-build position changes;
+change `timeline:` when its action horizon changes. Isolate a phase in the
+single `.ROOT` graph with `path:"03-WIKIS/BUSINESS" [stage:phase-1]` — the
 filtered view is the progression map; the graph colors this wiki as one block.
 
 ## Tone and Standard

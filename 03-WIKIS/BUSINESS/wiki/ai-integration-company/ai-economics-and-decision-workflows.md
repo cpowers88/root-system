@@ -1,8 +1,8 @@
 ---
 type: reference
 timeline: reference
+stage: phase-1
 tags:
-  - phase-1
   - ai-economics
   - workflow-design
   - audit
@@ -134,4 +134,3 @@ decision/workflow chunks.
 - [[human-agent-operating-model|Human-Agent Operating Model]]
 - [[quality-control-and-risk-gates|Quality Control & Risk Gates]]
 - [[theory-of-constraints|Theory of Constraints]]
-

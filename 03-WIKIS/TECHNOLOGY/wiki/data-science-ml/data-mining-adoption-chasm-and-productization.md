@@ -1,8 +1,9 @@
 ---
 domain: technology
 type: reference
-timeline: historical
-tags: [priority/later, status/wiki-only, domain/technology, source-role/primary, use-case/tech-stack, subject/data-mining, subject/adoption, subject/productization]
+timeline: reference
+status: wiki-only
+tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/data-mining, subject/adoption, subject/productization]
 ---
 
 # Data Mining Adoption Chasm and Productization
@@ -92,4 +93,3 @@ What service evidence justifies productization?
 - [[crisp-dm-process-and-data-leakage|CRISP-DM Process and Data Leakage]]
 - [[data-driven-decision-making-and-data-science-definition|Data-Driven Decision-Making]]
 - [[business-experimentation-and-project-unicorn|Business Experimentation and Project Unicorn]]
-

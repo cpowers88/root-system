@@ -113,7 +113,7 @@ name its evidence home, affected assumption/choice, consequence or test, and rev
 trigger. It may reach strategy only through CASTLE review, a bounded test, measured
 outcome, and the North Star Ratchet. The Watchtower has eyes, not hands.
 
-Shared wiki rules: raw is immutable; chunk large sources; read the index and recent log before work; update rather than duplicate; preserve claim history; before replacing a claim, classify the change as a temporal update, context-dependent variant, or true contradiction; mark volatile claims; update log/index when reality changes; use lint at reviews; support independent learning without producing prohibited graded work.
+Shared wiki rules: raw is immutable; chunk large sources; read the index and recent log before work; update rather than duplicate; preserve claim history; before replacing a claim, classify the change as a temporal update, context-dependent variant, or true contradiction; mark volatile claims; update log/index when reality changes; use lint at reviews; after creating or editing wiki frontmatter, run `python 00-BRAIN\scripts\frontmatter_audit.py --baseline 00-BRAIN\scripts\frontmatter_baseline.json` and resolve every new finding before close; support independent learning without producing prohibited graded work.
 
 ## Extension and Shared-Skill Rules
 

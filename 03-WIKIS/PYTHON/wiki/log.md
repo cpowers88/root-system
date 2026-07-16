@@ -7,6 +7,25 @@ tags: [log, programming]
 
 Append every meaningful ingest, path update, teaching session, or structure change here.
 
+## 2026-07-16 — Stage 2 verification gate CLOSED
+
+Both open Stage 2 gates closed in this session:
+1. **Cold explain-back (`Story.py`)** — Chris explained `elif` correctly
+   (chains off the same `if` gate so only one branch fires; contrasted
+   correctly against stacked independent `if` statements) and `or`
+   correctly after one round of tightening (spikes/snakes are two valid
+   inputs mapped to one shared outcome, not an "and/or" blend).
+2. **Independent code fix (`S2P3.py`)** — Chris removed the stray `D` band
+   (60-69) and changed `"fail"` to `"F"` so the `else` now catches
+   everything below 70 as `F`, matching the drill spec. Verified correct.
+
+Stage 2 mastery checklist is satisfied. Chris is clear to advance to
+Stage 3 (Loops) next session.
+
+Files changed: `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-02-python_wiki\S2P3.py` (Chris's own edit, not AI-written); this log; `current-position.md`.
+
+Next: open Stage 3 (`wiki/stages/stage-03-*.md`) and begin loops.
+
 ## 2026-07-13 — Two misplaced books rerouted in from TECHNOLOGY raw/
 
 `python-crash-course.pdf` and `PythonforProgramers.pdf` were sitting in

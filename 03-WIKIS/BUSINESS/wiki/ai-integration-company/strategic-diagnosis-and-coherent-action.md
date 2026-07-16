@@ -1,8 +1,8 @@
 ---
 type: reference
 timeline: reference
+stage: phase-1
 tags:
-  - phase-1
   - strategy
   - decision-making
 ---
@@ -122,4 +122,3 @@ part-level chunks.
 - [[smb-ai-audit-method|SMB AI Audit Method]]
 - [[most-profitable-pathways|Most Profitable Pathways]]
 - [[what-not-to-do|What NOT To Do]]
-

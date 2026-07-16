@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [reference, physics, governance]
+timeline: reference
+tags: [physics, governance]
 ---
 
 # Authoring Standards & Protocols — Physics Wiki
@@ -38,6 +39,11 @@ Parks material that is valid but not needed yet.
 ---
 
 ## Page Types
+
+Every new page starts with metadata v2 frontmatter containing at least
+`type:`, exactly one `timeline:` value, and categorical `tags:` where useful.
+Use independent `stage:` and `status:` properties when needed; never encode
+those controls as tags.
 
 ### Concept Page
 Use for physical ideas: displacement, velocity, acceleration, force, energy, momentum, fields, waves, etc.

@@ -1,8 +1,8 @@
 ---
 type: reference
 timeline: reference
+stage: phase-1
 tags:
-  - phase-1
   - market-research
   - ai-adoption
   - audit

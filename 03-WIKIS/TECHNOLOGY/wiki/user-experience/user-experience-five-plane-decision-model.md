@@ -2,7 +2,8 @@
 domain: technology
 type: concept
 timeline: reference
-tags: [priority/later, status/wiki-only, domain/technology, source-role/primary, use-case/tech-stack, subject/ux, subject/product-design]
+status: wiki-only
+tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/ux, subject/product-design]
 ---
 
 # User Experience Five-Plane Decision Model
@@ -74,4 +75,3 @@ with application guidance at 171-191. See
 
 - [[user-experience-strategy-scope-and-requirements|Strategy, Scope, and Requirements]]
 - [[user-experience-structure-skeleton-surface-and-validation|Structure, Skeleton, Surface, and Validation]]
-

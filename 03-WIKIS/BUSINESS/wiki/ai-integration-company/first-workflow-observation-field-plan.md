@@ -1,8 +1,8 @@
 ---
 type: method
 timeline: now
+stage: phase-2
 tags:
-  - phase-2
   - discovery
   - audit
   - evidence

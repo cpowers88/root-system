@@ -2,7 +2,8 @@
 domain: technology
 type: concept
 timeline: reference
-tags: [priority/later, status/wiki-only, domain/technology, source-role/primary, use-case/tech-stack, subject/ux, subject/requirements]
+status: wiki-only
+tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/ux, subject/requirements]
 ---
 
 # User Experience Strategy, Scope, and Requirements
@@ -86,4 +87,3 @@ Front-matter context and the remaining chapters are closed in
 - [[user-experience-five-plane-decision-model|Five-Plane Decision Model]]
 - [[../software-engineering/personas-scenarios-and-user-stories|Personas, Scenarios, and User Stories]]
 - [[../software-engineering/software-testing-levels-and-techniques|Software Testing Levels and Techniques]]
-

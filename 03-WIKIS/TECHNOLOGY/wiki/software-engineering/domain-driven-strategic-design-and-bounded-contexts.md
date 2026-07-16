@@ -2,7 +2,8 @@
 domain: technology
 type: concept
 timeline: reference
-tags: [priority/later, status/wiki-only, domain/technology, source-role/primary, use-case/tech-stack, subject/ddd, subject/domain-modeling]
+status: wiki-only
+tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/ddd, subject/domain-modeling]
 ---
 
 # Domain-Driven Strategic Design and Bounded Contexts
@@ -115,4 +116,3 @@ boundary checks. See [[learning-domain-driven-design|source hub]] for complete
 - [[learning-domain-driven-design|Learning DDD Source Hub]]
 - [[personas-scenarios-and-user-stories|Personas, Scenarios, and User Stories]]
 - [[../distributed-systems/microservices|Microservices]]
-

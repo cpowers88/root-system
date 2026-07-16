@@ -2,7 +2,8 @@
 domain: technology
 type: source-summary
 timeline: reference
-tags: [priority/later, status/wiki-only, domain/technology, source-role/primary, use-case/tech-stack, subject/ux, subject/product-design]
+status: wiki-only
+tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/ux, subject/product-design]
 ---
 
 # The Elements of User Experience - Source Summary and Navigation Hub
@@ -48,4 +49,3 @@ structure remains unverified.
 - [[../software-engineering/personas-scenarios-and-user-stories|Personas, Scenarios, and User Stories]]
 - [[../software-engineering/agile-software-engineering-and-scrum|Agile Software Engineering and Scrum]]
 - [[../software-engineering/software-testing-levels-and-techniques|Software Testing Levels and Techniques]]
-
