@@ -9,6 +9,13 @@ tags:
 
 For Days 2–4 of the [[smb-ai-audit-method|audit]]. Two versions below: owner and frontline staff. Record (with permission) or take timestamped notes. The golden rule: **what people say they do and what they do always differ** — so every claimed process gets one "show me" request.
 
+Evidence discipline: use [[customer-discovery-and-evidence|Customer Discovery
+and Evidence]]. Ask about specific past events, current workarounds, frequency,
+cost, prior spend, and who owns the next decision. Compliments, hypotheticals,
+generic claims, and feature ideas are not findings until anchored to behavior.
+Every interview should include one question whose answer could disprove the
+current diagnosis.
+
 ---
 
 ## Owner / GM Interview (45–60 min)
@@ -41,6 +48,8 @@ For Days 2–4 of the [[smb-ai-audit-method|audit]]. Two versions below: owner a
 ### Close (3 min)
 - "What should I have asked that I didn't?"
 - Confirm staff interview list and the live observation session.
+- Ask for one advancement commitment: named introduction, live observation,
+  sample non-sensitive data, or decision-maker participation.
 
 ---
 
@@ -73,5 +82,7 @@ For Days 2–4 of the [[smb-ai-audit-method|audit]]. Two versions below: owner a
 
 ## After Each Interview (10 min, immediately)
 - [ ] Log each repetitive task: **task / minutes per instance / instances per period / who / systems touched / failure modes**
+- [ ] Separate facts and observed behavior from compliments, hypotheticals, and ideas
+- [ ] Record the next commitment and owner; "keep me posted" is not advancement
 - [ ] Flag discrepancies vs. what the owner or intake said
 - [ ] Update the running waste table ([[smb-ai-audit-method|audit method Step 3]]) while numbers are fresh

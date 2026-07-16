@@ -19,6 +19,7 @@ Ready-to-use working documents. Copy each into your own docs system, customize f
 ## Auditing
 | Template | Use when |
 |---|---|
+| [[workflow-observation-question-sequence|Workflow Observation Question Sequence]] | First live workflow proof; exact question order, evidence gates, and post-session scoring |
 | [[audit-intake-questionnaire|Audit Intake Questionnaire]] | Sent on audit signing, before day 1 |
 | [[audit-interview-guide|Audit Interview Guide]] | Owner and staff interviews, days 2–4 |
 | [[audit-report-template|Audit Report Template]] | The deliverable, days 10–14 |

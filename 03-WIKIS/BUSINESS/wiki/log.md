@@ -458,3 +458,115 @@ four lines above it). No content pages added or removed.
   pages are scenarios until CASTLE activates a bounded test.
 - Corrected the CASTLE decision-rule path in HOW_TO. Strict wiki lint reports no
   unresolved dead links.
+
+## 2026-07-16 — Book and source intake routed from `77-INBOX`
+
+- Added 19 unique raw sources covering enterprise AI adoption/use cases, product
+  discovery and management, strategy, leadership, economics, and judgment.
+- Highest-value intake queue for the active Advisor-Builder strategy: *The Mom
+  Test* -> *The AI Dossier* -> *All-In on AI* -> *Good Strategy/Bad Strategy* ->
+  *Inspired* / *Transformed*. The entrepreneur book list and Silver Space AI/ML
+  PDF/PPTX package are low-priority discovery/marketing sources and may be parked.
+- This is source placement only. No book is marked covered or ingested.
+
+## 2026-07-16 — New BUSINESS book batch chunk-ingested and fully dispositioned
+
+### What changed
+
+- Processed all 19 July 16 source files. Thirteen useful sources were ingested
+  through complete named PDF ranges into six reusable method pages; six sources
+  were explicitly parked or excluded. Large books were never treated as one-pass
+  summaries, and each new page carries its own chunk ledger.
+- Created `customer-discovery-and-evidence.md` from *The Mom Test* and wired its
+  behavior/commitment standard into the sales system and audit interview guide.
+- Created `enterprise-ai-opportunity-and-adoption.md` from all six industry
+  sections/86 use cases in *The AI Dossier* plus all seven chapters of *All-In on
+  AI*. Enterprise examples were normalized into durable workflow patterns and an
+  adoption-readiness diagnostic rather than copied as a catalog.
+- Created `strategic-diagnosis-and-coherent-action.md` from all three parts of
+  *Good Strategy/Bad Strategy*.
+- Created `product-discovery-and-operating-model.md` from all five parts of
+  *Inspired* and all eleven parts of *Transformed*, then extended it with bounded
+  dispositions for *The Innovator's Dilemma* and the 854-page *Cracking the PM
+  Career*. Career/job-search chapters were excluded from the company method.
+- Created `ai-economics-and-decision-workflows.md` from *Prediction Machines*.
+  The audit can now separate prediction from judgment, action, outcome, and
+  feedback before recommending AI.
+- Created `company-operating-system-and-founder-judgment.md` from *The Great CEO
+  Within*, *The Hard Thing About Hard Things*, the business-relevant portions of
+  *The 80/20 Principle*, and the complete *Psychology of Human Misjudgment*
+  speech. The page is phase-3 reference, not permission to install bureaucracy.
+
+### What was parked or excluded
+
+- `book list.pdf`: source-discovery list with hype-heavy rankings; no independent
+  evidence or operating method. Parked as a catalog only.
+- `AI and ML Red.pdf` + `AI and ML text.pptx`: the same Silver Space marketing
+  package in rendered/editable formats. It makes unsupported absolute-accuracy
+  and near-total-autonomy claims that conflict with the wiki's gate discipline;
+  parked, not promoted.
+- `Matery byRobertGreene.pdf`: personal mastery/apprenticeship narrative; useful
+  general reading but no current BUSINESS page gap. Parked.
+- `SenecaLettersfromaStoic-SelectedLetters.pdf`: philosophy/personal resilience,
+  not a business operating source. Excluded from wiki ingestion.
+- `theundercovereconomist.pdf`: broad economics examples; no direct gap beyond
+  the stronger AI economics, pricing, and market pages already present. Parked.
+
+### Missing data needed from Chris
+
+- None for source ingestion. Field evidence is still missing: real workflow
+  conversations, observed process costs, advancement commitments, and a used
+  audit artifact. Reading does not satisfy strategy assumptions S-01 through S-03.
+
+### Recommended next action
+
+- Use `customer-discovery-and-evidence.md` to prepare one warm-network workflow
+  conversation. Capture the last concrete problem event, current workaround,
+  quantified consequence, decision owner, and one advancement commitment; let
+  the result update the active strategy through CASTLE.
+
+## 2026-07-16 — First workflow observation converted into a field protocol
+
+### What changed
+
+- Added `first-workflow-observation-field-plan.md`, a field-ready protocol for
+  selecting one bounded workflow, requesting access, conducting a 45-60 minute
+  observation, labeling evidence, quantifying friction conservatively, writing
+  a 2-4 page report, and securing one advancement commitment.
+- Compared the three available access paths without storing candidate identities
+  or private operational details. Recommended a local real-estate workflow as
+  the first method rehearsal, a small Boston-area construction business as the
+  first serious commercial-discovery test, and the harder-to-schedule medium
+  construction company as later validation.
+- Added explicit privacy boundaries, calculation rules, quality gates, stop
+  conditions, and strategy evidence routing for S-01 through S-03.
+
+### Missing evidence
+
+- The actual workflow has not yet been selected or observed. Candidate scores
+  are provisional until participant role, artifact access, recency, volume, and
+  scheduling are confirmed.
+
+### Recommended next action
+
+- Ask the local real-estate participant to identify one recurring workflow with
+  a safe, completed example from the last 30 days. Schedule a 45-60 minute live
+  observation and use the new field plan without pitching a solution.
+
+## 2026-07-16 — Workflow observation question sequence added
+
+### What changed
+
+- Added `templates/workflow-observation-question-sequence.md`, a fill-in live
+  worksheet ordered by evidence value: recent event, observed workflow, repeated
+  friction, magnitude, consequence, motivation, authority, disconfirmation, and
+  advancement.
+- Added explicit gates for when to narrow, measure, park, or reject a workflow,
+  plus optional real-estate and construction question branches.
+- Linked the worksheet from the template library and first-observation field plan.
+
+### Recommended next action
+
+- Complete the short pre-session test block, then use Steps 1-11 during the local
+  real-estate observation. Do not read every optional branch unless the observed
+  workflow makes it relevant.

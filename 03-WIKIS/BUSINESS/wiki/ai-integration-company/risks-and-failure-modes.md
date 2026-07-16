@@ -127,6 +127,7 @@ Risk management here isn't defensive overhead — every countermeasure is a marg
 Half this catalog is structurally prevented by the human-agent layer: [[quality-control-and-risk-gates|gates]] prevent #4 and #11, [[human-role-redesign|role redesign]] prevents #9 and #10, and the [[agent-manager-job-design|auditor role]] catches drift before it becomes an incident. The thesis isn't just strategy — it's the risk-control architecture.
 
 ## Related Pages
+- [[company-operating-system-and-founder-judgment|Company Operating System and Founder Judgment]] — decision, resilience, metric, and bias countermeasures as the firm grows
 - [[what-not-to-do|What NOT To Do]] — the strategic complement to this operational list
 - [[quality-control-and-risk-gates|Quality Control & Risk Gates]] — the engineering countermeasures
 - [[sales-system|Sales System]] — countermeasure to the #1 killer

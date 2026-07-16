@@ -401,3 +401,11 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
   Technology landscape findings plus the two stale control-header findings.
 - Next: keep the physical structure. Do not add category scaffolding without
   evidence; run the next landscape rep from the live Technology Library Strategy.
+
+## 2026-07-16 — Applied-reference intake routed from `77-INBOX`
+
+- Added three unique raw sources: *Data Mining: Crossing the Chasm*, *Learning
+  Domain-Driven Design*, and *The Elements of User Experience*.
+- Source placement only. Intake order is domain-driven design first when a real
+  software model needs it, UX second when an interface is under test, and the
+  2016 data-mining deck as historical adoption context.

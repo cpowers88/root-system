@@ -160,6 +160,8 @@ The strong-fit verticals share one trait: **human middleware doing repeatable co
 - **Ignoring the walk-away tells:** the no-budget, no-discipline client costs more than the revenue they bring — see [[risks-and-failure-modes|bad-fit clients]].
 
 ## Related Pages
+- [[customer-discovery-and-evidence|Customer Discovery and Evidence]] — tests market claims through behavior and commitment
+- [[enterprise-ai-opportunity-and-adoption|Enterprise AI Opportunity and Adoption]] — reusable workflow patterns behind industry-specific examples
 - [[most-profitable-pathways|Most Profitable Pathways]] — ranking the services this market buys
 - [[sales-system|Sales System]] — converting this map into meetings
 - [[smb-ai-audit-method|SMB AI Audit Method]] — the entry product for every segment

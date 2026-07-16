@@ -90,6 +90,8 @@ Years 2–3 apply the [[progressive-operating-thesis|thesis]] to your own firm: 
 The phase-specific catalog is in the body above (hiring ahead of playbooks, founder bottleneck, growth outrunning the retainer base, premature overhead). The meta-risk: **treating delegation as loss of quality control instead of building the [[quality-control-and-risk-gates|gate system]] that maintains it** — the same review-gate engineering you sell clients is how your own team ships safely.
 
 ## Related Pages
+- [[product-discovery-and-operating-model|Product Discovery and Operating Model]] — the evidence and operating gate for productized delivery or standalone applications
+- [[company-operating-system-and-founder-judgment|Company Operating System and Founder Judgment]] — minimum management system and decision discipline for the team phase
 - [[one-year-plan|One-Year Plan]] — the foundation this builds on
 - [[ten-year-scale-plan|Ten-Year Scale Plan]] — where the firm goes next
 - [[fulfillment-system|Fulfillment System]] — the playbooks that make hiring work

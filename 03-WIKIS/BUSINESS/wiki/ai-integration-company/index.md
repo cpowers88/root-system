@@ -44,6 +44,9 @@ Every page separates **Beginner** actions (you, solo, learning), **Intermediate*
 |---|---|
 | [[north-star-alignment|North Star Alignment]] | What business are we actually building, and why this one? |
 | [[market-map|Market Map]] | Who buys this, what do they buy, and where is the money? |
+| [[strategic-diagnosis-and-coherent-action|Strategic Diagnosis and Coherent Action]] | How to turn a hard challenge into a diagnosis, guiding policy, and coordinated actions |
+| [[enterprise-ai-opportunity-and-adoption|Enterprise AI Opportunity and Adoption]] | Which cross-industry AI patterns create value, and what makes adoption real? |
+| [[ai-economics-and-decision-workflows|AI Economics and Decision Workflows]] | When better prediction changes a decision, workflow, or business model enough to create value |
 | [[most-profitable-pathways|Most Profitable Pathways]] | Ranked comparison of the eight service pathways |
 | [[service-offer-ladder|Service Offer Ladder]] | How offers stack from $1.5K audit to $5K+/mo retainer |
 
@@ -80,6 +83,8 @@ Every page separates **Beginner** actions (you, solo, learning), **Intermediate*
 |---|---|
 | [[pricing-models|Pricing Models]] | How to price audits, projects, and retainers |
 | [[sales-system|Sales System]] | How to find, qualify, and close SMB clients |
+| [[customer-discovery-and-evidence|Customer Discovery and Evidence]] | How to learn from real behavior and commitments without manufacturing validation |
+| [[first-workflow-observation-field-plan|First Workflow Observation Field Plan]] | Exactly how to select, observe, quantify, report, and advance the first real workflow session |
 | [[negotiation-toolkit|Negotiation Toolkit]] | Discovery, objection-handling, and fee-negotiation technique (migrated from FORGE, July 7, 2026) |
 | [[fulfillment-system|Fulfillment System]] | How work gets delivered reliably and profitably |
 | [[case-study-template|Case Study Template]] | How to turn every project into a sales asset |
@@ -91,6 +96,7 @@ Every page separates **Beginner** actions (you, solo, learning), **Intermediate*
 | [[skill-roadmap|Skill Roadmap]] | What to learn, in what order |
 | [[tool-stack|Tool Stack]] | Software and platforms to standardize on |
 | [[claude-code-leverage|Claude Code Leverage]] | Agentic delivery + the new offers it unlocks (2026 market research) |
+| [[product-discovery-and-operating-model|Product Discovery and Operating Model]] | How services-proven patterns become products without speculative building |
 
 ## 6. Roadmaps
 
@@ -109,6 +115,7 @@ Every page separates **Beginner** actions (you, solo, learning), **Intermediate*
 | [[start-here|Start Here]] | The two blocking decisions + your literal first week |
 | [[business-setup|Business Setup]] | LLC, banking, insurance, contracts, taxes — tiered by when needed |
 | [[financial-model|Financial Model]] | Unit economics, LTV, funnel math, break-even, the monthly model |
+| [[company-operating-system-and-founder-judgment|Company Operating System and Founder Judgment]] | Minimum management, decision, resilience, and bias controls as the firm grows |
 | [[templates/template-library|Templates]] | 10 ready-to-use working documents: audit kit, scripts, SOW, checklists, scorecard |
 | [[venture-fundamentals|Venture Fundamentals]] | General venture-building reference: feasibility testing, business model design, legal structure, financing, IP, growth strategy (migrated from FORGE, July 7, 2026) |
 

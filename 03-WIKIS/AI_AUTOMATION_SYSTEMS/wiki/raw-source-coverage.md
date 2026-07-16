@@ -11,7 +11,8 @@ is retrievable in wiki/report form), **lookup/reference** (accounted for but not
 compiled), **duplicate**, and **misrouted**. A raw file existing on disk or
 having been opened once is not, by itself, evidence of ingestion.
 
-Coverage audit: **2026-07-15** — 176 raw files, approximately 111 MB.
+Coverage audit: **2026-07-16** — 179 raw files, approximately 180 MiB (live
+recount after book intake).
 
 ## Large PDF and book sources
 
@@ -27,6 +28,11 @@ Coverage audit: **2026-07-15** — 176 raw files, approximately 111 MB.
 | `CLAUDE_FILES/Anthropic-enterprise-ebook-digital.pdf` (35 pp.) | Compiled in five chunks on 2026-07-15; former parser block closed | [[enterprise-ai-adoption-and-production-roadmap]] |
 | `empireofAIDreamsandNightmares.pdf` (575 pp.) | **Chunk backlog; not compiled** | Narrative investigative book. Relevant to AI power, labor, data, and supply-chain ethics, but lower current operating priority than primary/empirical sources. Requires a dedicated chapter-cluster ingest before any claim of coverage. |
 | `ifAnyoneBuildsitEveryoneDies.pdf` (207 pp.) | **Chunk backlog; not compiled** | Advocacy argument for AI-extinction risk, not an empirical operating manual. Preserve as a challenge source; ingest by part/chapter only when the safety thesis has a concrete review job. |
+| `ArchitectsofIntelligence.pdf` | Lookup/reference; not compiled | Historical expert-interview source. Use for dated viewpoints, not current capability claims. |
+| `ArtificialIntelligenceAGuideforThinkingHumans.pdf` | Lookup/reference; not compiled | General conceptual challenge source; process only against a specific learning or strategy question. |
+| `DeepLearningTextbook.pdf` (800 pp.) | Prerequisite reference; not compiled | Foundational 2016 technical text. Keep behind active math/ML prerequisites; not an active reading assignment. |
+| `mastering claude.pdf` (401 pp.) | **Verification backlog; not compiled** | 2025 product-specific guide. Verify volatile Claude features against current official documentation before promoting claims. |
+| `TheAlignmentProblem.pdf` | **Chunk backlog; not compiled** | Alignment history and evidence source; ingest by named chapter ranges when a safety/governance question activates it. |
 | `TLS.pdf` (3 pp.) | **Misrouted; not an AIAS source** | APICS article on combining Theory of Constraints, Lean, and Six Sigma. Belongs in SYSTEMS if Chris authorizes a raw-source move/copy; raw remains untouched here. |
 
 ## Markdown source groups
@@ -51,6 +57,6 @@ document packs must be processed in named page/file chunks. A synthesis page may
 remain the retrieval surface, but its `source:` line or log entry must preserve
 the chunk ranges and coverage limit.
 
-The hub is therefore **fully accounted as of 2026-07-15, not fully compiled**.
-The only intentional compilation backlog is the two named books; `TLS.pdf` is a
-placement decision, not an ingestion omission.
+The hub is therefore **fully accounted as of 2026-07-16, not fully compiled**.
+The named book/reference rows above are intentional queues or lookup sources;
+`TLS.pdf` is a placement decision, not an ingestion omission.

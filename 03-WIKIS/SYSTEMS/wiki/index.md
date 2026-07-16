@@ -5,7 +5,7 @@ tags: [reference, systems]
 
 # SYSTEMS Wiki — Index
 
-112 pages (verified count, 2026-07-15). The prior 98-page corpus combines the
+126 pages (verified count, 2026-07-16). The prior 98-page corpus combines the
 FORGE migration with direct July 8-13 ingests. Four human-centered-design pages
 were added July 15 from Norman's *The Design of Everyday Things*. Two modeling-
 practice pages were then added from complete chapter chunks of Sterman's
@@ -23,6 +23,10 @@ priority/status/domain/source-role/use-case/subject tracks) — see `CLAUDE.md` 
 `HOW_TO_USE.md` for the legacy/new metadata boundary. 4 more added July 8, 2026 from new
 sources dropped in `raw/` (process mining + VSM cluster) — the first pages ingested
 directly into this wiki rather than inherited from FORGE.
+
+## Source Coverage & Intake Governance
+
+- [[raw-source-coverage-and-intake-status]] — disposition ledger for every substantive file in `raw/`, including named coverage, cross-wiki ownership, exclusions, and activation triggers for the three parked sources
 
 ## Stocks, Flows & Causal Loop Diagrams
 
@@ -49,6 +53,9 @@ directly into this wiki rather than inherited from FORGE.
 
 - [[stock-management-structure-and-amplification]] — the generic stock management structure, why supply chains amplify
 - [[manufacturing-supply-chain-model]] — full staged supply chain model, amplification and lag
+- [[supply-chain-inventory-placement-and-bullwhip-control]] — policies by inventory purpose, WIP waiting cause, spare-parts demand, and multiechelon bullwhip
+- [[supply-chain-risk-pooling-and-crisis-readiness]] — layered risk protection, variability pooling, contingency resources, and organizational crisis readiness
+- [[supply-chain-coordination-contracts-and-information]] — multiechelon incentives, risk-sharing contracts, information discipline, and structural redesign
 - [[labor-supply-chain-and-overtime-stabilization]] — hiring delays cause oscillation; overtime as a fix
 - [[business-cycle-origin-and-is-it-dead]] — the business cycle as damped oscillation
 - [[commodity-cycles-and-the-generic-market-model]] — why commodity markets don't self-correct
@@ -71,6 +78,21 @@ directly into this wiki rather than inherited from FORGE.
 - [[vut-equation-and-parallel-machines]] — Kingman's equation, variability pooling
 - [[blocking-and-finite-buffer-queues]] — the M/M/1/b model
 - [[variability-pooling-and-chapter-8-conclusions]] — pooling across batch/safety-stock/queue contexts
+- [[variability-buffering-batching-and-diagnostic-laws]] — Chapter 9's three-buffer law, process/transfer batching, lead-time reliability, and diagnostic sequence
+- [[buffer-strategy-flexibility-and-position]] — strategy-linked buffer mix, flexible buffers, bottleneck-adjacent positioning, and lean as minimum total buffering cost
+
+## Production Control, People & Quality
+
+- [[push-pull-conwip-and-postponement]] — WIP-cap definition of pull, CONWIP comparisons, and inventory/order-interface placement
+- [[human-laws-incentives-authority-and-change]] — self-interest, individuality, burnout, planning truth, and responsibility/authority alignment
+- [[quality-variability-spc-and-supplier-reliability]] — SPC and Six Sigma boundaries, rework flow effects, defect-detection delay, and supplier reliability
+
+## Planning, Control & Scheduling
+
+- [[hierarchical-pull-planning-and-shop-floor-control]] — closed-loop planning hierarchy, configurable CONWIP shop-floor control, and statistical throughput feedback
+- [[production-scheduling-and-aggregate-workforce-planning]] — feasible scheduling, pull execution, product-mix optimization, and robust workforce planning
+- [[capacity-strategy-line-design-and-unbalancing]] — strategic capacity buffer, dual throughput/cycle-time gate, customer-backward design, and deliberate line unbalancing
+- [[factory-physics-implementation-synthesis-and-team-focus]] — systems ends, Pareto team focus, model refutation, and the complete implementation parable
 
 ## Factory Physics — Manufacturing History & Methodology
 
@@ -149,6 +171,7 @@ directly into this wiki rather than inherited from FORGE.
 - [[mrp-problems-nervousness-and-yield-losses]] — MRP's core problems
 - [[capacity-planning-and-shop-floor-control]] — RCCP, CRP, dispatching, I/O control
 - [[kanban-mechanics-and-pull-system-variants]] — two-card/one-card kanban, base stock equivalence
+- [[multi-item-inventory-policy-and-service-allocation]] — portfolio service allocation and why uniform days-of-supply policies waste inventory
 
 ## Linear Programming (Deterministic Operations Research)
 

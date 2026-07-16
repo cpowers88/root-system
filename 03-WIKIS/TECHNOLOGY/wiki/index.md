@@ -23,10 +23,12 @@ dedicated ingest (see `log.md`). Four new category subfolders added
 (`database-sql/`, `software-craft/`, `security/`, `software-engineering/`) plus
 the wiki's first-ever landscape-research pages (3 remain at wiki root) — the original
 stated purpose this wiki carried as an open "next action" since July 7.
-The 25-file raw collection (~688 MB) is fully accounted, not uniformly compiled:
-five Stanford AI Index files are covered cross-hub, the remaining 13 PDFs were
-compiled or explicitly classified, six earlier web clips have derived coverage,
-and the July 14 Google OAuth clip remains lookup-only until a real project needs it.
+The 28-file raw collection (~669 MiB) is fully accounted, not uniformly compiled:
+five Stanford AI Index files are covered cross-hub, the prior PDFs were compiled
+or explicitly classified, and earlier web clips have derived or lookup coverage.
+The July 16 intake added *Learning Domain-Driven Design* and *The Elements of User
+Experience* as need-driven applied references plus a 2016 data-mining adoption deck
+as historical context; none is marked compiled.
 
 ## Web Frameworks (`web-frameworks/`, 15 pages)
 

@@ -60,20 +60,20 @@ flagging, recency markers, and the lint pass — lives in
 `00-BRAIN\AGENT.md § Wiki Shared Layer`. One copy, zero drift. This file
 carries only this wiki's own rules.
 
-**Raw/source status (corrected 2026-07-15):** the large source books are present
-in `raw/`. Do not infer complete coverage from inherited pages, source mentions,
-or a prior summary-level comparison. Coverage is established source by source and,
-for large texts, chapter by chapter in `wiki/log.md`.
+**Raw/source status (corrected 2026-07-16):** every substantive file currently in
+`raw/` now has an explicit disposition in
+`wiki/raw-source-coverage-and-intake-status.md`. The corrected gap queues for
+*Business Dynamics*, *Factory Physics*, and *Supply Chain Science* are closed.
+Three sources are intentionally parked behind activation triggers rather than
+treated as active reading backlog: *Algorithms to Live By*, the image-heavy
+*Learning to See* workbook, and the short TOC/lean/Six Sigma comparison article.
 
-The July 15 source audit disproved the July 13 "full-fidelity" claim for
-*Business Dynamics*, *Factory Physics*, and *Supply Chain Science*. Chapters 9-16
-and 21 of *Business Dynamics* and Chapter 2 of *Introduction to Operations
-Research* were subsequently ingested as complete chunks. The identified
-*Business Dynamics* gap queue is now closed; additional source queues remain and
-are recorded in the log. A large source is complete only when every chapter or defined
-section has an explicit disposition: ingested, covered by a named page, deferred
-with a reason, or intentionally excluded with a reason. Presence in `raw/` is not
-coverage, and a synthesis page is not evidence that every source chunk was reviewed.
+The July 15 audit remains the governing lesson: do not infer complete coverage
+from inherited pages, source mentions, or summary-level similarity. A large source
+is complete only when every chapter or defined section has an explicit disposition:
+ingested, covered by a named page, deferred with a reason, or intentionally excluded
+with a reason. Presence in `raw/` is not coverage, and a synthesis page is not
+evidence that every source chunk was reviewed.
 
 ## Final Operating Principle
 

@@ -1090,3 +1090,13 @@ cluster. Route `TLS.pdf` only with Chris's explicit raw-placement authorization.
 - This is a routing correction, not a new ingestion claim and not a change to
   the 176-file AIAS raw ledger. Treat the mid-2025 vendor comparison as a
   historical category map and verify current offerings before recommendation.
+
+## 2026-07-16 — Book intake routed from `77-INBOX`
+
+- Added five unique raw sources: *Architects of Intelligence*, *Artificial
+  Intelligence: A Guide for Thinking Humans*, *Deep Learning*, *Mastering Claude
+  AI*, and *The Alignment Problem*.
+- This is source placement only, not an ingestion or coverage claim. Prioritize
+  *Mastering Claude AI* for current-tool verification, then *The Alignment
+  Problem*; treat the 2016 deep-learning textbook as prerequisite reference, not
+  an active reading assignment.

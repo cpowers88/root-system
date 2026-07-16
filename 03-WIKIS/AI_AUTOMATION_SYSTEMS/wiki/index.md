@@ -15,16 +15,17 @@ Agent Index, MCP and NIST, the Work Trend Index and incident evidence,
 LLM-wiki/self-improving architectures, two software/knowledge-system books, and
 the Claude/OpenAI official-document packs. **The July 15 source audit replaced
 the inaccurate blanket “raw/ fully processed” claim with a source-level coverage
-ledger.** All 176 raw files are now accounted for. Five overlooked research
-papers and the formerly blocked 35-page Anthropic enterprise guide have durable
-wiki coverage. Two large books remain an explicit chunk backlog, and `TLS.pdf`
-is identified as a misplaced systems-improvement source. See
+ledger.** A July 16 live recount accounts for all 179 raw files. Five overlooked
+research papers and the formerly blocked 35-page Anthropic enterprise guide have
+durable wiki coverage. The July 16 book intake added five explicitly classified
+reference/backlog sources; `TLS.pdf` remains identified as a misplaced
+systems-improvement source. See
 [[raw-source-coverage]] and `log.md`; “accounted” does not mean “compiled.”
 
 ## Pages
 
 - [Raw-Source Coverage](raw-source-coverage.md)
-  — authoritative ingestion ledger for all 176 raw files; distinguishes
+  — authoritative ingestion ledger for all 179 raw files; distinguishes
   compiled, lookup/reference, duplicate, misrouted, and chunk-backlog status.
   Replaces the old all-or-nothing “fully processed” claim.
 
