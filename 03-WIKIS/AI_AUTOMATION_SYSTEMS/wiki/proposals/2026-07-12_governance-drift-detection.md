@@ -92,6 +92,18 @@ source it names. Option A (new or expanded lint automation) and Option C
 (red-team exercise) remain unapproved: one caught incident does not yet
 justify added infrastructure.
 
+## Post-Change Check (added 2026-07-15, check_at discipline)
+
+- **Expected behavior:** the rotating CASTLE weekly spot-check catches or
+  explicitly clears one stale current-state claim without adding new tooling.
+- **Evidence:** a weekly-review or DAILY entry linking the guide/dashboard to
+  the live source checked; regression means the sweep is skipped or a sampled
+  stale claim survives it.
+- **check_at:** 2026-07-26 (after a full weekly-sweep opportunity)
+- **Outcome:** (blank until the check date — record what actually happened,
+  with an evidence link)
+- **Verdict:** (keep / modify / revert — blank until the check date)
+
 ## Source Basis
 
 [[claude-code-permissions-security-and-review]] (`REVIEW.md`

@@ -36,6 +36,10 @@ answers, at all times:
 > What skill comes next, in what order, why does it matter,
 > what source proves it, and what project proves Chris can use it?
 
+CASTLE owns DECIDE within the canonical System Loop defined only in
+`01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md § The Canonical
+Loop`; the local flows below are instances of that loop, not competing cycles.
+
 ## What the Castle Is Not
 
 - Not the behavioral OS — that is `00-BRAIN`. Do not duplicate governance here.

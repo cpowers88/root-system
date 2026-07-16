@@ -18,11 +18,12 @@ tags: []
 2. If that proof is closed, finish and explain the Python Stage 2 choose-your-path
    mini-project independently.
 
-**System review (July 15):** root health is `PASS WITH DEBT`: boot/governance pass;
-wiki navigation has 0 blockers, 4 review findings, and 773 expected unresolved
-items; frontmatter has 620 reviewed baseline findings with 0 new debt. SYSTEM_FLAGS
-#75 was re-raised and closed after Phase 3 semantic-interface validation. No HIGH
-flag is open. Do not translate `PASS WITH DEBT` to “clean.”
+**System acceptance (July 15):** Phase 7 is accepted-with-debt after Codex gates,
+Loop 1, Claude's fresh-session challenge, and Chris's final verdict. Root health is
+`PASS WITH DEBT`: boot/governance pass; wiki navigation has 0 blockers, 0 review
+findings, and 773 expected items; frontmatter has 529 reviewed baseline findings
+with 0 new debt. No HIGH flag is open. Architecture remediation is over; use the
+system and record real outcomes. Do not translate `PASS WITH DEBT` to “clean.”
 
 **Fall CASTLE calendar built (SYSTEM_FLAGS #51 closed):** North Star Calendar now
 carries Chris's corrected real Ben Care hours (Sun 7-10am/6-8pm, Mon-Fri 7-9am/5-8pm,
@@ -42,7 +43,7 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 | Technology | Make.com first landscape rep complete; scanner exercised Python/SQLite/API | Looker Studio is the next zero-rep gap when the weekly block is available |
 | Business | Advisor-Builder is the current hypothesis; desk-sim observation captured | One approved live workflow observation, then an actual-state map/VSM |
 | Continuity income | Additional income is needed before Spring 2027 enrollment | B2 conversation requires Chris's approval; Lane A's next internal step is human classification of the saved top 100 |
-| `.ROOT` | North Star migration and post-change integrity audit pass | Use the system; reopen architecture only for observed friction or new evidence |
+| `.ROOT` | Phase 7 accepted-with-debt; Pass C real-use window is active | Record July 24–26 `check_at` outcomes; reopen architecture only for observed friction or new evidence |
 
 ## This Week
 
@@ -56,6 +57,9 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 
 | Date | Trigger |
 |---|---|
+| July 24 | Wiki shared-layer real-use `check_at` verdict |
+| July 25 | Session-close capture `check_at`; D2L/tracker real-data window begins |
+| July 26 | Governance-drift weekly-sweep `check_at` verdict |
 | ~July 25 | D2L opens; verify course facts and load the tracker |
 | August 1 | Monthly weak-link review; re-rank `SKILL_GAP_ANALYSIS.md` |
 | ~August 14 | Revenue Lane A prediction check and top-100 review |

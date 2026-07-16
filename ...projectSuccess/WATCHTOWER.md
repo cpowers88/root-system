@@ -14,6 +14,11 @@ Keep Chris ahead of material changes in AI, technology, markets, and the tools o
 industries `.ROOT` already depends on. The Watchtower turns external change into
 reviewable evidence without letting trends silently redirect the system.
 
+The Watchtower owns SENSE within the canonical System Loop defined only in
+`01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md § The Canonical
+Loop`; the Signal-to-Strategy Contract below is a routed subflow, not a competing
+system cycle.
+
 ## Scope
 
 **Belongs here:** a verified external change that could materially affect an active

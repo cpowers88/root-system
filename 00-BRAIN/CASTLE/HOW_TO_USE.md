@@ -18,6 +18,10 @@ revenue, market, offer, or Ratchet question; load Watchtower only for a material
 external-signal question. CASTLE owns sequence and proof status, not the direction or
 domain evidence it references.
 
+CASTLE owns DECIDE within the canonical System Loop defined only in
+`01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md § The Canonical
+Loop`; it does not define a second system cycle.
+
 ## Every Operation Identifies
 Any castle session that touches a phase, skill, flag, or roadmap decision states these five things — in the session, not necessarily as five separate lines:
 

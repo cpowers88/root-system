@@ -1006,3 +1006,17 @@ canonical-workspace rule in `00-BRAIN`.
   paths. Added the exact conditional route to `ROOT_CAPABILITY_CONTRACT.md` and
   retained AGENT.md as the universal authority.
 - Strict wiki lint and boot validation pass; no active dead link remains.
+
+## 2026-07-15 — Phase 7 check_at registry repair
+
+- Phase 7 C5 found two approved proposals with implementation outcomes but no
+  dated Post-Change Check: governance-drift detection and the belief/proposal
+  split pilot. Added the required expected behavior, evidence/regression test,
+  `check_at`, blank Outcome, and blank Verdict fields; no proposal verdict or
+  implementation claim changed.
+- Checks are scheduled for 2026-07-26 (after a full CASTLE weekly-sweep
+  opportunity) and 2026-08-24 (after enough real-use/review cycles for the
+  learning pilot). The pending session-close HIGH-flag hook remains pending
+  Chris/CASTLE review and was not changed.
+- Next: record linked real-use evidence at each check date; keep, modify, or
+  revert only from the observed outcome.
