@@ -5,15 +5,22 @@ tags: [reference, systems]
 
 # SYSTEMS Wiki — Index
 
-98 pages (verified count, 2026-07-13). 40 moved intact from `FORGE\wiki\systems\` on July 7, 2026 (FORGE
+112 pages (verified count, 2026-07-15). The prior 98-page corpus combines the
+FORGE migration with direct July 8-13 ingests. Four human-centered-design pages
+were added July 15 from Norman's *The Design of Everyday Things*. Two modeling-
+practice pages were then added from complete chapter chunks of Sterman's
+*Business Dynamics* and Hillier and Lieberman's *Introduction to Operations
+Research*. Eight additional pages complete the identified *Business Dynamics*
+Chapter 9-16 gap as independent, fully dispositioned chunks. Of the migrated
+corpus, 40 pages moved intact from `FORGE\wiki\systems\` on July 7, 2026 (FORGE
 retirement); 30 more moved the same day from FORGE's `wiki\business\` — Sterman
 *Business Dynamics* case studies and Factory Physics/JIT/lean/MRP/ERP history pages
 that were filed under FORGE's business/ folder but are subject/factory-physics or
 subject/system-dynamics content, confirmed via frontmatter before the move (`domain:`
-retagged from `business` to `systems` on arrival; content otherwise unchanged). Every
-page keeps its original frontmatter tag tracks (`type`, and the full
+retagged from `business` to `systems` on arrival; content otherwise unchanged). Migrated
+pages keep their original frontmatter tag tracks (`type`, and the full
 priority/status/domain/source-role/use-case/subject tracks) — see `CLAUDE.md` and
-`HOW_TO_USE.md` for how the tagging system works. 4 more added July 8, 2026 from new
+`HOW_TO_USE.md` for the legacy/new metadata boundary. 4 more added July 8, 2026 from new
 sources dropped in `raw/` (process mining + VSM cluster) — the first pages ingested
 directly into this wiki rather than inherited from FORGE.
 
@@ -34,6 +41,8 @@ directly into this wiki rather than inherited from FORGE.
 - [[fundamental-modes-growth-goal-seeking-oscillation]] — the three fundamental modes and their generating structures
 - [[s-shaped-growth-overshoot-collapse-and-chaos]] — limits, overshoot/collapse, Easter Island, chaos
 - [[multiple-loop-systems-and-loop-dominance]] — why linear models can't produce S-shaped growth
+- [[epidemics-innovation-diffusion-and-product-growth]] — logistic/SIR/Bass structures, tipping points, herd immunity, abandonment, and replacement
+- [[path-dependence-positive-feedback-and-standards]] — early contingency, Polya process, lock-in, corporate growth loops, and standards strategy
 - [[descriptive-vs-prescriptive-models-and-conjecture-refutation]] — modeling philosophy
 
 ## Supply Chains, Business Cycles & Markets
@@ -98,6 +107,27 @@ directly into this wiki rather than inherited from FORGE.
 - [[aggregation-and-challenging-the-clouds]] — two real stock-flow case studies
 - [[modeling-process-and-client-ethics]] — managers as designers, the modeler's ethical line
 - [[time-horizon-and-endogenous-explanation]] — scoping a diagnosis correctly, model boundary
+
+## Model Testing, Decision Practice & Implementation
+
+- [[model-validation-and-testing-practice]] — fitness for purpose, documentation, replication, the complete model-test battery, and BUILD/PROVE/DEPLOY gate
+- [[operations-research-study-lifecycle]] — problem definition through maintained implementation, including user testing and continuing feedback
+
+## Dynamic Model Formulation & Human Decision Behavior
+
+- [[material-information-and-pipeline-delays]] — conserved vs. informational delays, pipeline/first/higher-order structures, estimation, and delay register
+- [[coflows-aging-chains-and-attribute-dynamics]] — cohorts, population inertia, mentoring, learning, and attributes embedded in stocks
+- [[modeling-decision-rules-and-rate-formulations]] — Baker Criterion, five formulation fundamentals, reusable rate patterns, and decision-rule interview
+- [[nonlinear-relationships-and-table-functions]] — nine-step lookup-function method, schedule pressure, evidence, elicitation, and sensitivity
+- [[bounded-rationality-intended-rationality-and-local-policy]] — heuristics, attention, satisficing, local rationality, and partial-model tests
+- [[forecasting-expectations-and-fudge-factors]] — TREND structure, turning-point error, anchoring, add factors, and forecast lineage
+
+## Human-Centered Design & Human Error
+
+- [[design-of-everyday-things-source-map]] — source summary, complete chapter-chunk coverage, and retrieval router for Norman's 2002 edition
+- [[human-centered-design-conceptual-models-and-action-cycle]] — affordances, system image, seven-stage action cycle, knowledge in the head/world, mappings and constraints
+- [[designing-for-human-error-and-recovery]] — slips vs. mistakes, error patterns, forcing functions, reversibility, and incident-audit questions
+- [[user-centered-system-design-principles-and-tradeoffs]] — the seven principles, feature/automation tradeoffs, standardization, and applied review sequence
 
 ## Process Mining & Value Stream Analysis
 

@@ -30,8 +30,9 @@ here when the two disagree.
 ```text
 current position -> stage -> concept -> drill -> mini-project -> proof
 ```
-Nothing is "learned" until a drill or mini-project proves it. The current Stage 2
-proof is `wiki\mini-projects\stage-02-choose-your-path-adventure.md`. The shipped KSU
+Nothing is "learned" until a drill or mini-project proves it and Chris can explain
+the choices from memory. Stage 2 code evidence now exists; the open gate is the
+drill correction plus cold explain-back recorded in `wiki\current-position.md`. The shipped KSU
 Academic Tracker remains a real-use application vehicle when verified course data
 arrives around July 25; it is not the current curriculum frontier.
 
@@ -39,7 +40,11 @@ arrives around July 25; it is not the current curriculum frontier.
 A completed drill, a working mini-project, or real use in the tracker build — not a generated concept page. Generated content is not studied content.
 
 ## Outputs and Where They Go
-Study outputs stay in-vault (drills, flashcards, error notes in `wiki/errors/`). Course-submitted work never comes from here — see the Academic Integrity Boundary in `CLAUDE.md`. Skills proven here get logged against the matching castle skill page, not duplicated there.
+Study outputs stay in-vault (drills, flashcards, error notes in `wiki/errors/`).
+Course-submitted work never comes from here. CSE 1321/1321L explicitly prohibit
+AI-assisted submitted work; see `wiki\syllabus-alignment.md` and the Academic
+Integrity Boundary in `CLAUDE.md`. Skills proven here get logged against the
+matching castle skill page, not duplicated there.
 
 ## Boundaries
 No stage-skipping; no "just curious" advanced extraction (park it in

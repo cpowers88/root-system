@@ -1,6 +1,9 @@
 ---
 type: stage
+timeline: later
+stage: 7
 status: draft
+tags: [physics, math]
 ---
 
 # Stage 7 — Energy of a System (Ch 7)
@@ -15,7 +18,9 @@ Ch 07 in Serway & Jewett 10th ed. Follows Ch 6 (Circular Motion) in the course s
 
 ## Textbook Alignment
 
-Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., Chapter 7, sections 7.1–7.8.
+Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., Chapter 7,
+sections 7.1–7.9. Section 7.9, Energy Diagrams and Equilibrium of a System, is
+required source coverage; the energy/potential diagrams below are its entry point.
 
 ## Prerequisite Physics
 
@@ -127,6 +132,7 @@ See [[../common-errors/stage-7-energy-of-a-system]].
 - [ ] Compute Ug = mgy and state what reference point means
 - [ ] Distinguish conservative from nonconservative forces with a real-world example for each
 - [ ] Use F_x = −dU/dx to find force direction from a potential energy function (conceptual level)
+- [ ] Read a potential-energy diagram and identify stable equilibrium, unstable equilibrium, turning points, and allowed motion
 - [ ] Draw an energy bar chart for a before/after problem
 - [ ] Solve a multi-step problem using the work-energy theorem without confusing W and K
 

@@ -8,7 +8,7 @@ tags: []
 ### The person file. Who Chris is, how he works, what he needs from any AI.
 ### Load second in every session (after AGENT.md). Full profile: CHRIS.md.
 ### Shared behavior lives in AGENT.md; surface strengths live in capability profiles; optional modes live in HATS\. Not here.
-### Last updated: July 14, 2026
+### Last updated: July 15, 2026
 
 ---
 
@@ -108,8 +108,9 @@ when a milestone approaches.
 - The user profile is being updated
 - System behavior is being redesigned
 - Personal constraints are central to the answer
-- Strategic planning needs the full aptitude profile (YouScience)
+- Strategic planning needs the full aptitude profile (YouScience) — load
+  `CHRIS.md`; the source PDFs are provenance, not routine boot files
 
 ---
 *Person file only. OS: AGENT.md. Profiles: CLAUDE.md / CODEX.md / ATLAS.md. Optional modes: HATS\.*
-*Last updated: July 14, 2026*
+*Last updated: July 15, 2026*

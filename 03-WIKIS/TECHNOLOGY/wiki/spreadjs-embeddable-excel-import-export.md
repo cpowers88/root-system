@@ -1,5 +1,6 @@
 ---
 type: research
+timeline: reference
 tags: [technology, landscape, category-9, category-12, javascript]
 source: raw/Excel Import and Export  JavaScript Spreadsheet.md (Mescius SpreadJS docs, captured 2026-06-13)
 ---

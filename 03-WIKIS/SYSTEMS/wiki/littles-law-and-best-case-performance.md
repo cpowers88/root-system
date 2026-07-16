@@ -61,6 +61,9 @@ Penny Fab One (the four-station, 2-hour-per-station balanced line from [[factory
 
 ## Connects to
 
+- [[material-information-and-pipeline-delays]] — applies Little's Law inside
+  conserved delay structures and distinguishes pipeline, first-order, and
+  higher-order residence-time assumptions.
 - [[factory-dynamics-definitions-bottleneck-rate-and-critical-wip]] — the bottleneck rate, raw process time, and critical WIP (W0) concepts this page's best-case simulation directly builds on and quantitatively confirms.
 - [[descriptive-vs-prescriptive-models-and-conjecture-refutation]] — the tautology/conjecture-and-refutation framing this page directly applies to Little's Law, exactly as previewed there.
 - [[factory-physics-formal-model-buffers-and-variability]] — the explicit statement that the clean WIP-optimum disappears under real variability is the direct quantitative confirmation of that page's "variability is the root cause of all buffering" thesis.

@@ -1,5 +1,6 @@
 ---
 type: research
+timeline: reference
 tags: [technology, landscape, category-5, data-science-ml, vs-code]
 source: raw/Data Wrangler - Visual Studio Marketplace.md (Microsoft, captured 2026-06-13); raw/co.md (Edit CSV extension, VS Marketplace, captured 2026-06-13, misnamed by the clipper — actual title "Edit CSV - Visual Studio Marketplace"); raw/Data Science in VS Code tutorial.md (Microsoft Learn, captured 2026-06-14)
 ---

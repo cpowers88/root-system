@@ -985,3 +985,63 @@ Stage 2 decision-rules drill.
   the pre-semester plan and kept the tracker conditional on real D2L data.
 - Corrected three subfolder README links to the live Python templates directory and
   removed model-exclusive learning ownership. Strict wiki lint is clean.
+
+## 2026-07-15 — Official syllabus and full-path systems review (Codex)
+
+### Work completed
+
+- Visually reviewed all 31 pages of the official CSE 1321 and CSE 1321L PDFs.
+  Corrected the earlier schedule-only extraction: both courses explicitly prohibit
+  AI-assisted submitted work; Think Python is the recommended no-cost text; grading,
+  assessment, Gradescope, LockDown Browser, and tutoring controls are now recorded.
+- Added `syllabus-alignment.md` as the authoritative topic/outcome/policy bridge.
+  Raw syllabus Markdown remains immutable and is correctly labeled a topic-only
+  quick extract.
+- Kept the 0-10 stage architecture stable. Threaded a tiny decomposition habit into
+  Stages 1-2, added the missing standard-library bridge after Stage 4 functions,
+  added the Stage 5 array/list terminology bridge, and corrected Stage 8 wording so
+  recursion and Big O are enrichment rather than claimed syllabus mandates.
+- Corrected the prerequisite chain (functions now precede lists, matching the live
+  path) and repaired stale source-map statements, including the resolved ATBS
+  Chapter 10 gap and obsolete source-count control.
+
+### Pages created/updated
+
+- Created the syllabus map plus a compact Stage 4 concept, code pattern, drill,
+  flashcard batch, and two glossary entries; added one Stage 5 array glossary entry.
+- Updated the hub contract/router, current position, learning path, source map,
+  prerequisite map, indexes, and affected stage pages.
+
+### Vocabulary added
+
+- import statement, standard library, array (course terminology bridge).
+
+### Drills or projects added
+
+- Added `stage-04-library-basics.md` for `math`/`random` import and function-call
+  practice. No graded-work solutions were created.
+
+### Progress evidence
+
+- Verified that `Story.py` runs through multiple branches and meets the Stage 2
+  mini-project's code acceptance points. Stage 2 is **not** advanced: its cold
+  explain-back is unrecorded, and `S2P3.py` rule 3 currently gives 60-69 a `D`
+  despite the drill specifying `F` for every score below 70.
+
+### Parked material
+
+- Java remains a lab-only post-Python bridge. NumPy arrays, packages/`pip`, and
+  deeper library work stay behind their existing prerequisites.
+
+### Next action
+
+Chris independently corrects rule 3 in `S2P3.py`, then explains the `elif` and `or`
+choices in `Story.py` from memory before Stage 2 can close.
+
+### Validation
+
+- Strict wiki lint: PASS (9 hubs, 1,178 pages, 0 blockers, 0 review debt).
+- Canonical root health: PASS WITH DEBT (520 reviewed frontmatter findings, 0 new).
+- Both staged and unstaged whitespace checks pass; live Markdown text integrity
+  passes. Separate PHYSICS and prior hub changes were preserved and excluded from
+  this review's edit claims.

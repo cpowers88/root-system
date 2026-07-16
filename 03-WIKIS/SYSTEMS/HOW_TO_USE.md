@@ -17,7 +17,12 @@ tags: [systems]
 System dynamics, factory physics, queuing theory, MRP/inventory theory, and the ISYE 2600 spine — feedback structures, stock-and-flow models, bottleneck/variability analysis, and their audit applications.
 
 ## Start Here
-`wiki/index.md` for the full page list. Every page carries FORGE-era frontmatter — search by `subject/...` tag (e.g. `subject/queuing-theory`, `subject/factory-physics`) or `use-case/audit` for pages with direct client-diagnosis application. Every page's `Ranking` table's `Overall priority` line (NOW / NEXT / LATER / PARKED) says what to read next.
+`wiki/index.md` for the full page list. Inherited pages retain FORGE-era
+frontmatter, so search them by `subject/...` tag (for example,
+`subject/queuing-theory` or `subject/factory-physics`) and `use-case/audit`.
+New pages use the canonical `timeline`/`status`/`reference_priority` properties
+and plain topic tags. A page's properties and any `Ranking` table say how and
+when it should be used; the index remains the complete retrieval map.
 
 For school preparation, load the relevant official course context. For a business
 application, also load `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` so a

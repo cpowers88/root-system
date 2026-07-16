@@ -32,8 +32,11 @@ The controlling question:
   their FORGE origin and those tags remain accurate here.
 - Existing pages carry FORGE's original frontmatter (`domain: systems`, `type`,
   and the full `priority/status/domain/source-role/use-case/subject` tag tracks) —
-  this is a clean lift, not a re-tag. Keep using that tagging system for new pages
-  in this wiki so the inherited FORGE corpus stays consistent with anything added later.
+  this is a clean lift, not a re-tag, and that legacy metadata remains readable.
+  **New pages use the canonical property schema in `WHERE_IT_GOES.md`** (`type`,
+  one `timeline`, optional `status`/`reference_priority`, and topic tags). Do not
+  copy legacy `priority/*` or `status/*` control tags onto a page that has
+  `timeline:`; dual encoding is a metadata error.
 
 ## Folder Structure
 
@@ -57,22 +60,20 @@ flagging, recency markers, and the lint pass — lives in
 `00-BRAIN\AGENT.md § Wiki Shared Layer`. One copy, zero drift. This file
 carries only this wiki's own rules.
 
-Raw note: the PDFs that originally sourced the inherited FORGE corpus (Sterman's
-*Business Dynamics*, *Strategic Modeling and Business Dynamics*, *Factory Physics*,
-*Supply Chain Science*) lived in FORGE's `raw/` and were archived to `99-ARCHIVE`
-at FORGE's retirement, not copied here — the pages in `wiki/` are already a
-full-fidelity extraction per FORGE's ingest protocol, confirmed by direct
-cross-check against each book's actual table of contents/principles (2026-07-13).
+**Raw/source status (corrected 2026-07-15):** the large source books are present
+in `raw/`. Do not infer complete coverage from inherited pages, source mentions,
+or a prior summary-level comparison. Coverage is established source by source and,
+for large texts, chapter by chapter in `wiki/log.md`.
 
-**Correction (2026-07-13):** *Introduction to Operations Research* (Hillier &
-Lieberman) was previously listed in this note alongside the other four titles,
-but was never actually extracted — its LP/Simplex/Duality/Sensitivity/
-Transportation content (Ch. 3–9) had zero overlap with the inherited pages
-until the deterministic-OR core was ingested this session (see `wiki/log.md`
-2026-07-13 and the "Linear Programming" index section). Lesson: this note's
-claims are a starting assumption to verify against the actual wiki content,
-not a substitute for checking — a stale/unverified "already covered" claim
-here would otherwise cause the same gap to persist silently.
+The July 15 source audit disproved the July 13 "full-fidelity" claim for
+*Business Dynamics*, *Factory Physics*, and *Supply Chain Science*. Chapters 9-16
+and 21 of *Business Dynamics* and Chapter 2 of *Introduction to Operations
+Research* were subsequently ingested as complete chunks. The identified
+*Business Dynamics* gap queue is now closed; additional source queues remain and
+are recorded in the log. A large source is complete only when every chapter or defined
+section has an explicit disposition: ingested, covered by a named page, deferred
+with a reason, or intentionally excluded with a reason. Presence in `raw/` is not
+coverage, and a synthesis page is not evidence that every source chunk was reviewed.
 
 ## Final Operating Principle
 

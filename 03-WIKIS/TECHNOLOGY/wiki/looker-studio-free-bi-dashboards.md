@@ -1,5 +1,6 @@
 ---
 type: research
+timeline: reference
 tags: [technology, landscape, category-3, business-intelligence]
 source: raw/Data Studio documentation.md (Google Cloud docs, captured 2026-06-13)
 ---

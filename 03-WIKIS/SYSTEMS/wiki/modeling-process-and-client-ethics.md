@@ -38,6 +38,10 @@ The five canonical steps (Table 3-1 in the source): (1) **Problem Articulation**
 
 ## Connects to
 
+- [[model-validation-and-testing-practice]] — extends the five-step modeling cycle
+  into a complete, reproducible test battery and prospective outcome assessment.
+- [[operations-research-study-lifecycle]] — carries problem definition and joint
+  inquiry through maintained application, operating ownership, and implementation.
 - [[barriers-to-learning-and-virtual-worlds]] — the iterative model/real-world cycle described here is the practical, project-level implementation of that chapter's single-loop/double-loop learning and virtual-world concepts.
 - [[dupont-maintenance-game-and-twelve-principles]] — Sterman's twelve principles (especially #6, joint inquiry not advocacy; #7, avoid black-box modeling) are the direct operational consequences of this page's client-identification and ethics discussion.
 - understanding-resistance-faces-and-underlying-concerns — the "speak truth to power, even if it costs the engagement" stance parallels Block's insistence (Flawless Consulting) that authentic consulting requires being willing to say things the client doesn't want to hear.

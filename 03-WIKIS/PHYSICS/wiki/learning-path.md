@@ -1,13 +1,16 @@
 ---
 type: map
-tags: [now, physics]
+timeline: now
+status: active
+reference_priority: core
+tags: [physics, school]
 ---
 
 # Physics Learning Path
 
 ## Purpose
 
-This is the master study route for PHYS 2211 — Principles of Physics I. It tells Chris what to study next, in order. Built from `syllabus.pdf` and `raw/textbook/physic.pdf` (Serway & Jewett, 10th ed.).
+This is the master study route for PHYS 2211 — Principles of Physics I. It tells Chris what to study next, in order. Built from `raw/syllabus/syllabus.pdf` and the split Serway & Jewett 10th-edition files registered in [[source-map]].
 
 ## Path Status
 
@@ -41,6 +44,48 @@ Stage 18 -> Ch 38 Relativity (capstone)
 ```
 
 Ch 10–12 and Ch 14 confirmed in scope by Chris (2026-06-25). All stages now active in sequence.
+
+## Semester Pathway Control Table
+
+This table is the structural path. [[current-position]] remains the authority for
+what Chris has actually demonstrated. “TOC screened” means the packet was compared
+with the textbook chapter outline; it does not mean every supporting page exists or
+the material has been mastered.
+
+| Stage | Packet | Source/readiness state | Math gate | Real-life anchor |
+|---|---|---|---|---|
+| 1 | [[stages/stage-1-physics-and-measurement]] | built; mastery refresh if stale | units, algebra, estimation | measurements and material quantities |
+| 2 | [[stages/stage-2-motion-in-one-dimension]] | built; section citation corrected to 2.1-2.9; mastery refresh if stale | slope, derivative, graph area | driving, braking, elevators |
+| 3 | [[stages/stage-3-vectors]] | source-verified; **active** | trig, inverse trig, quadrants | navigation and cable forces |
+| 4 | [[stages/stage-4-motion-in-two-dimensions]] | source-verified; **next** | components, quadratics | thrown objects and water trajectories |
+| 5 | [[stages/stage-5-laws-of-motion]] | source-verified; ready | simultaneous equations, incline trig | loads, ramps, connected equipment |
+| 6 | [[stages/stage-6-circular-motion]] | TOC screened; section 6.3 accelerated frames needs packet expansion before activation | radians and circular geometry | vehicle turns and rotating rides |
+| 7 | [[stages/stage-7-energy-of-a-system]] | TOC screened; section 7.9 restored to alignment | dot product and force-distance integral | pushing, lifting, springs |
+| 8 | [[stages/stage-8-conservation-of-energy]] | TOC screened; packet covers 8.1-8.5 at overview level | algebra and rates | braking loss and roller-coaster energy |
+| 9 | [[stages/stage-9-linear-momentum]] | TOC screened; sections 9.7-9.9 need an include/park decision | vectors, simultaneous equations, force-time area | collisions and recoil |
+| 10 | [[stages/stage-10-rotation]] | TOC screened; core coverage present, supporting links unfinished | radians, torque trig, integration | wheels, flywheels, breaker bars |
+| 11 | [[stages/stage-11-angular-momentum]] | TOC screened; gyroscope/precession scope needs D2L confirmation | cross product, right-hand rule, derivatives | spinning tools and rotating bodies |
+| 12 | [[stages/stage-12-static-equilibrium]] | TOC screened; chapter sections represented | force/torque systems | beams, ladders, structures |
+| 13 | [[stages/stage-13-universal-gravitation]] | TOC screened; chapter topics represented, supporting links unfinished | inverse-square scaling | satellites and orbital systems |
+| 14 | [[stages/stage-14-fluid-mechanics]] | TOC screened; 14.3 and 14.7-14.8 need an include/park decision | density, area, volume, algebra | hydraulics, buoyancy, pipe flow |
+| 15 | [[stages/stage-15-oscillatory-motion]] | TOC screened; 15.6-15.7 intentionally parked pending course scope | sinusoids, second derivatives, small angles | suspension and pendulums |
+| 16 | [[stages/stage-16-wave-motion]] | TOC screened; overview covers 16.1-16.9, supporting links unfinished | sinusoids, logs, partial-derivative recognition | strings, sound, moving sources |
+| 17 | [[stages/stage-17-superposition]] | TOC screened; alignment corrected through beats in 17.7; 17.8 parked | phase and trig identities | instruments, pipes, resonance |
+| 18 | [[stages/stage-18-relativity]] | TOC screened; special relativity 38.1-38.8 represented; 38.9 parked | ratios, roots, limiting behavior | GPS timing and particle lifetime |
+
+The just-in-time math route and current three-rep bridge live in
+[[math-readiness-path]]. Packet expansion follows the unresolved decisions above;
+generated pages do not become mastery claims.
+
+## Syllabus-Wide Mastery Standard
+
+The syllabus outcomes apply to every activated stage, not only to the first five
+chapters printed in its partial calendar. Each stage rep must include a physical
+interpretation, an appropriate pictorial/graphical/model representation, a symbolic
+setup, a numerical solution with units, and a real-life reasonableness check. Use
+vectors or calculus when the situation requires them, and explain what changes when
+one input changes. The complete page-by-page disposition is in
+[[syllabus-coverage-ledger]].
 
 ## Required Unit Format
 
@@ -77,7 +122,8 @@ from it, per [[current-position]].
 
 **Goal:** Describe straight-line motion precisely using position, velocity, and acceleration, and connect each to its calculus definition.
 
-**Syllabus alignment:** Ch 02, lectures W/F Aug 26.
+**Syllabus alignment:** Ch 02 begins W Aug 26. The syllabus also prints “F Aug 26,”
+which is a day/date conflict; D2L must confirm the second meeting (likely F Aug 28).
 **Prerequisite physics:** Stage 1 (units, dimensional analysis).
 **Prerequisite math:** Derivatives of polynomials, basic integration, slope of a line/curve.
 
@@ -141,7 +187,8 @@ complete a no-notes pass and the Stage 3 mastery checklist before Stage 4.
 **Prerequisite physics:** Stage 5.
 **Core concepts:** Uniform circular motion forces, nonuniform circular motion, accelerated reference frames, resistive forces.
 
-**Packet status:** Generated; not yet studied or re-verified in the current pass.
+**Packet status:** Generated; TOC screened. Section 6.3 (motion in accelerated
+frames) is not represented strongly enough and must be expanded before activation.
 
 ---
 
@@ -154,7 +201,8 @@ complete a no-notes pass and the Stage 3 mastery checklist before Stage 4.
 
 **Core concepts:** Work by constant/varying force, kinetic energy, work-energy theorem, potential energy, conservative vs. nonconservative forces.
 
-**Packet status:** Generated; not yet studied or re-verified in the current pass.
+**Packet status:** Generated; TOC screened. Textbook alignment includes sections
+7.1-7.9 after the 2026-07-15 correction.
 
 ---
 
@@ -165,7 +213,8 @@ complete a no-notes pass and the Stage 3 mastery checklist before Stage 4.
 **Prerequisite physics:** Stage 7.
 **Core concepts:** Isolated/nonisolated system models, mechanical energy conservation, energy loss to friction, power.
 
-**Packet status:** Generated; not yet studied or re-verified in the current pass.
+**Packet status:** Generated; TOC screened. Core 8.1-8.5 coverage is present at the
+overview level.
 
 ---
 
@@ -176,7 +225,9 @@ complete a no-notes pass and the Stage 3 mastery checklist before Stage 4.
 **Prerequisite physics:** Stages 5, 7–8.
 **Core concepts:** Linear momentum, impulse, isolated-system momentum conservation, 1D and 2D collisions, center of mass.
 
-**Packet status:** Generated; not yet studied or re-verified in the current pass.
+**Packet status:** Generated; TOC screened. Sections 9.7-9.9 (many-particle systems,
+deformable systems, rocket propulsion) need an explicit include/park decision from
+verified course scope.
 
 ---
 

@@ -19,15 +19,17 @@ Chris should always be able to open this page and know what to read, practice, a
 **Current study stage**: Stage 2 — Decisions
 **Stage 0 status**: Satisfied
 **Stage 1 status**: Satisfied (2026-07-13) — worked independently with Codex 2026-07-12, verified in session (explained type-conversion reasoning, correctly predicted/confirmed a `TypeError`, explained `+`-concatenation vs. f-strings). Evidence: `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\`.
-**Next action**: Open `wiki/stages/stage-02-decisions-and-boolean-logic.md`
+**Next action**: Finish the Stage 2 verification gate: correct rule 3 in `S2P3.py`
+to match the drill (all scores below 70 are `F`), then complete a cold explain-back
+of `Story.py`'s `elif` and `or` choices.
 
 The curriculum is fully generated through Stage 10, but that describes what exists in the vault, not where Chris is. Chris has satisfied Stage 0 and Stage 1. **Do not read "generated through Stage 10" as an instruction to start at Stage 10.**
 
 **Current Concept:** comparisons, Boolean logic, `if`/`elif`/`else` (Stage 2)
-**Next Reading:** `wiki/stages/stage-02-decisions-and-boolean-logic.md` and its linked concept pages
-**Next Drill:** `wiki/drills/stage-02-decision-rules.md`
+**Next Reading:** Re-read only rule 3 in `wiki/drills/stage-02-decision-rules.md`
+**Next Drill:** Correct the existing rule 3 independently, then do the Stage 2 explain-back
 **Vocabulary Due:** condition, boolean, comparison operator, and/or/not, if/elif/else, branch, truthy/falsy
-**Blocked By:** nothing — Stage 2's packet is complete and ready
+**Blocked By:** one drill/spec mismatch and the unrecorded cold explain-back; code evidence exists
 **Parked Advanced Material:** see `wiki/parking-lot.md` (consolidated 2026-06-24)
 
 **Intake note (2026-07-13):** Four late raw-source files were classified. They
@@ -46,7 +48,7 @@ Full per-book detail lives in `wiki/source-map.md`. This is the quick per-stage 
 | 1 | Think Python Ch.1-2 (+ `input()` from Ch.5) | ATBS Ch.1, PCC Ch.2, Python Workout Ch.2-3 | Invent Ch.1-2, 4 |
 | 2 | Think Python Ch.5 (non-recursive) | ATBS Ch.2, PCC Ch.5 | Invent Ch.3, 5 |
 | 3 | Think Python Ch.7 (+ for-loop from Ch.8) | ATBS Ch.3, PCC Ch.4 & 7 | Invent Ch.3 (extend) |
-| 4 | Think Python Ch.3 + Ch.6 | ATBS Ch.4, PCC Ch.8, Python Workout Ch.7 | — |
+| 4 | Think Python Ch.3 + Ch.6 | ATBS Ch.4, PCC Ch.8, Python Workout Ch.7, Python docs Modules opening | Function toolbox + standard-library bridge |
 | 5 | Think Python Ch.8, 10, 11, 12 | ATBS Ch.6-8, PCC Ch.3-4 & 6, Python Workout Ch.4-5 | Invent Ch.8-14 |
 | 6 | Think Python Ch.14, Ch.20 | ATBS Ch.5 & 10, PCC Ch.10, Python Workout Ch.6 | Invent Ch.6 |
 | 7 | Think Python Ch.4, 9, 13 (case studies) | Invent Ch.7 (flowcharts); Think Like a Programmer (strategy only, no C++ code) | Invent Ch.7 |
@@ -121,15 +123,16 @@ Full per-book detail lives in `wiki/source-map.md`. This is the quick per-stage 
 
 **Status: packet generated 2026-06-24.** See `wiki/stages/stage-04-functions-parameters-return.md` for the full packet.
 
-- **Purpose:** `def`, calls, parameters, arguments, return values, scope basics.
+- **Purpose:** `def`, calls, parameters, arguments, return values, scope basics,
+  then a short standard-library import/use bridge in the same order as both syllabi.
 - **Prerequisites:** Stage 3.
 - **Sources:** Think Python Ch.3 (Function Calls, Composition, Parameters/Arguments, Stack Diagrams, Fruitful vs. Void) + Ch.6 (Return Values, Boolean Functions); ATBS Ch.4; PCC Ch.8; Python Workout Ch.7.
 - **Vocabulary:** function, `def`, call, parameter, argument, return value, scope, local variable, fruitful/void function.
-- **Required code patterns:** `function-with-parameter`, `function-with-return-value`.
-- **Drill:** Python Workout Ch.7 exercises; write 3 small functions from a plain-English spec.
+- **Required code patterns:** `function-with-parameter`, `function-with-return-value`, `import-and-call-standard-library`.
+- **Drill:** Python Workout Ch.7 exercises; write 3 small functions from a plain-English spec; then complete `stage-04-library-basics`.
 - **Mini-project:** a small "toolbox" program combining 3-4 functions that call each other.
 - **Common mistakes:** confusing parameter names with argument values; forgetting `return` (expecting `print()` inside a function to hand back a value); scope confusion (changing a local variable doesn't change anything outside the function).
-- **Do not move on until:** Chris can write a function with parameters and a return value from memory, and explain the difference between a parameter and an argument out loud.
+- **Do not move on until:** Chris can write a function with parameters and a return value from memory, explain parameter vs. argument, and import/call one standard-library function while explaining import vs. installation.
 - **Parked:** default/keyword arguments depth, `*args`/`**kwargs`, decorators.
 
 ---
@@ -188,7 +191,9 @@ Full per-book detail lives in `wiki/source-map.md`. This is the quick per-stage 
 
 **Status: packet generated 2026-06-24.** See `wiki/stages/stage-08-think-python-readiness.md` for the full packet.
 
-- **Purpose:** recursion, basic OOP (classes/objects), Big O intuition, sorting/searching, as required by the syllabus.
+- **Purpose:** basic OOP and sorting/searching as required by the syllabus, with
+  recursion and Big O intuition as useful CS/spine enrichment rather than explicit
+  Fall 2026 syllabus mandates.
 - **Prerequisites:** Stage 7.
 - **Sources:** Think Python Ch.5 recursion sections, Ch.15-18 (Classes/Objects/Methods/Inheritance), Ch.21 (Analysis of Algorithms); PCC Ch.9 (Classes); Grokking Algorithms Ch.1-5 (intro, selection sort, recursion, quicksort, hash tables); Data Structures & Algorithms Ch.1-9 (Big O, sorting, hash tables, stacks/queues — code language unconfirmed, treat as concept reference); Python Workout Ch.10 (Objects); Invent Ch.15-16 (Reversegam + AI); ATBS Ch.9 (Regex, lighter-weight addition).
 - **Vocabulary:** recursion, base case, class, object, attribute, method, instance, Big O, sorting, searching, hash table.

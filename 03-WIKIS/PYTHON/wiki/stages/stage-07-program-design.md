@@ -17,6 +17,10 @@ Learn to plan before coding: decomposition, pseudocode, flowcharts, incremental 
 
 Stages 1-6 gave Chris every syntax tool he needs for genuinely useful programs — but every mini-project so far has been small enough to hold in his head at once. Real problems (and the mini-projects from here on) are bigger than that. This stage is the one explicitly about *not* writing code as the first step.
 
+The official lecture introduces decomposition, algorithms, and abstraction in its
+first week. The path therefore uses a tiny plan-before-code habit in earlier
+stages; Stage 7 is where that habit becomes a full, independently tested skill.
+
 ## Prerequisites
 
 Stage 6 — files, exceptions, debugging process.
@@ -69,6 +73,8 @@ None new this stage — Stage 7 is a process skill applied across every pattern 
 - [ ] Draw a simple flowchart for a problem with 2-3 decision points.
 - [ ] Build a program incrementally, confirming each added piece before moving to the next.
 - [ ] Write test cases *before* coding, and check the finished program against them.
+- [ ] State the program's inputs, expected outputs, assumptions, and one failure
+  mode before coding; explain how correctness prevents unsafe or misleading output.
 - [ ] Complete [[drills/stage-07-decompose-a-problem]].
 - [ ] Complete [[mini-projects/stage-07-plan-and-build]] and explain the solution out loud, including one place where the plan was tested by reality.
 

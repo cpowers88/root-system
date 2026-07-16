@@ -1,6 +1,7 @@
 ---
 type: map
-tags: [reference, programming]
+timeline: reference
+tags: [programming]
 ---
 
 # Prerequisite Map
@@ -28,10 +29,11 @@ run a file
   → Boolean logic
   → if / elif / else
   → loops
-  → lists
   → functions
   → parameters / arguments
   → return values
+  → standard-library import/use
+  → lists / tuples
   → dictionaries
   → files
   → errors / tracebacks
@@ -56,6 +58,7 @@ run a file
 | Reuse code | function |
 | Send information into a function | parameter / argument |
 | Get information back from a function | return value |
+| Reuse a capability that ships with Python | standard-library module + `import` |
 | Store many ordered things | list |
 | Store labeled things | dictionary |
 | Save/load outside the program | files |
@@ -67,8 +70,8 @@ run a file
 
 | Topic | Required Before Unlock | Vault Stage |
 |---|---|---|
-| pandas | lists, dictionaries, files, functions | parked beyond Stage 10 |
-| NumPy | lists, numbers, loops, functions | parked beyond Stage 10 |
+| pandas | lists, dictionaries, files, functions | Stage 10+ optional data-analysis strand |
+| NumPy | lists, numbers, loops, functions | Stage 10+ optional data-analysis strand |
 | APIs | dictionaries, JSON, functions, errors | Stage 10+ (intro only) |
 | Flask/FastAPI | functions, dictionaries, files, HTTP basics | parked beyond Stage 10 |
 | SQL / SQLite | data shapes, tables, filtering, joins intro | Stage 10 |

@@ -5,6 +5,96 @@ tags: [log, systems]
 
 # Wiki Log
 
+## 2026-07-15 — Business Dynamics Chapters 9-16: eight-chunk gap closure
+
+Completed the chapter-level disposition pass requested after the validation-spine
+ingest. The source boundaries were verified from the table of contents, extracted as
+eight independent text chunks, and visually checked at every chapter opening and
+summary boundary. The physical-page offset is +25 throughout this range.
+
+### Complete chunk dispositions
+
+| Chapter | Printed / physical pages | Disposition |
+|---|---|---|
+| 9. S-Shaped Growth: Epidemics, Innovation Diffusion, and the Growth of New Products | 295-347 / 320-372 | [[epidemics-innovation-diffusion-and-product-growth]] |
+| 10. Path Dependence and Positive Feedback | 349-406 / 374-431 | [[path-dependence-positive-feedback-and-standards]] |
+| 11. Delays | 409-467 / 434-492 | [[material-information-and-pipeline-delays]] |
+| 12. Coflows and Aging Chains | 469-511 / 494-536 | [[coflows-aging-chains-and-attribute-dynamics]] |
+| 13. Modeling Decision Making | 513-550 / 538-575 | [[modeling-decision-rules-and-rate-formulations]] |
+| 14. Formulating Nonlinear Relationships | 551-595 / 576-620 | [[nonlinear-relationships-and-table-functions]] |
+| 15. Modeling Human Behavior: Bounded Rationality or Rational Expectations? | 597-629 / 622-654 | [[bounded-rationality-intended-rationality-and-local-policy]] |
+| 16. Forecasts and Fudge Factors: Modeling Expectation Formation | 631-660 / 656-685 | [[forecasting-expectations-and-fudge-factors]] |
+
+### Overlap decisions
+
+- Chapter 9 extends the existing Chapter 4 page
+  [[s-shaped-growth-overshoot-collapse-and-chaos]] with logistic/Richards/Gompertz/
+  Weibull models, SI/SIR thresholds, Bass diffusion, abandonment, and replacement;
+  it is not duplicate coverage.
+- Chapter 15 extends the Chapter 1 page
+  [[barriers-to-learning-and-virtual-worlds]] with organizational coping mechanisms,
+  intended rationality, partial-model tests, and the high-tech growth-firm case.
+- Chapter 16 is distinct from the Hillier/Lieberman page
+  [[forecasting-time-series-and-exponential-smoothing]]: it models how expectations
+  form and why professional forecasts lag turning points and receive undocumented
+  overrides.
+- Chapters 11-14 had only scattered forward references in inherited pages; none had
+  a complete chapter-level synthesis.
+
+This closes the identified *Business Dynamics* Chapter 9-16 gap queue. Combined
+with the prior complete Chapter 21 chunk, the false July 13 "already covered"
+assumption has now been replaced by explicit source ranges and named pages.
+
+### Next source queue
+
+1. *Factory Physics*, Chapters 9-19.
+2. *Supply Chain Science*, Chapters 5-9.
+3. Image-based *Learning to See* visual chunks.
+4. Lean Manufacturing bridge material, *The Logical Thinking Process*, and the
+   Theory of Constraints clipping.
+
+## 2026-07-15 — Validation spine: source-coverage correction + two complete chapter chunks
+
+The raw-vs-wiki audit showed that the July 13 statement that several large books
+were "already fully covered" was not supported by chapter-level dispositions.
+That historical entry remains below as an audit trail, but its completeness claim
+is superseded by this entry and by the corrected source rule in `CLAUDE.md`.
+
+### Chunk ingestion completed
+
+- **BusinessDynamics.pdf, Chapter 21**, "Truth and Beauty: Validation and Model
+  Testing" (printed pp. 845-891; physical PDF pp. 870-916): reviewed as one
+  complete chapter chunk, including validation/verification limits, evidence and
+  documentation, replicability, protective vs. reflective modeling, all twelve
+  named model tests, implementation assessment, and the chapter summary.
+  Synthesized as [[model-validation-and-testing-practice]].
+- **IntroductiontoOpersationsResearch.pdf, Chapter 2**, "Overview of the
+  Operations Research Modeling Approach" (printed pp. 10-24; physical PDF
+  pp. 41-55): reviewed as one complete chapter chunk, including problem/data
+  definition, formulation, solution, testing, ongoing application, implementation,
+  and conclusions. Synthesized as [[operations-research-study-lifecycle]].
+
+These pages form a validation spine for later intake: define the purpose and whole
+system, preserve source lineage, make assumptions explicit, seek disconfirmation,
+require reproducibility, involve future users, and carry recommendations through
+implementation and continuing review.
+
+### Corrected remaining queue
+
+- *Business Dynamics*: Chapters 9-16 remain to receive chapter-level dispositions;
+  Chapter 21 is now covered by the page above.
+- *Factory Physics*: Chapters 9-19 remain to receive chapter-level dispositions.
+- *Supply Chain Science*: Chapters 5-9 remain to receive chapter-level
+  dispositions; prior principle-level similarity is not full-source coverage.
+- *Learning to See*: image-based source requires visual chunk review; the existing
+  VSM synthesis does not by itself establish full coverage.
+- The Lean Manufacturing bridge material, *The Logical Thinking Process*, and the
+  Theory of Constraints clipping still require explicit source-to-page disposition.
+
+**Gate going forward:** no large raw source is "complete" until every chapter or
+defined section is logged as ingested, covered by a named page, deferred with a
+reason, or intentionally excluded with a reason.
+
 ## 2026-07-13 (final) — Chunks 4–5: closing out the full IntroductiontoOpersationsResearch.pdf ingest (Ch. 11, 13, 14, 18.5/18.8, 19, 21, 22, 23.1, 25, 26.2, 27, 29)
 
 Chris asked to finish the entire remaining queue rather than stop after chunk 3. Worked through it systematically rather than attempting a single blind pass across ~536 remaining pages:
@@ -250,3 +340,30 @@ subset first). Prior carry-over unchanged: hands-on PM4Py trial.
   and use the exact field-observation skill path.
 - Live guide/map scans and strict wiki lint found no active dead link. Older FORGE
   references above remain append-only migration history, not current instructions.
+
+## 2026-07-15 — The Design of Everyday Things routed and chunk-ingested
+
+- Reviewed the 270-page PDF that had been stored beside Chris's personal aptitude
+  reports. Identified it as Don Norman's original *The Design of Everyday Things*
+  with the 2002 preface: general human-factors/system-design research, not a
+  personal learning-profile source.
+- Routed it once into immutable SYSTEMS raw as
+  `The-Design-of-Everyday-Things-Norman-2002.pdf`; no duplicate copy existed.
+- Ingested all seven chapters through named ranges: preface + Chapters 1-4 into
+  the conceptual-model/action-cycle page; Chapter 5 into the human-error/recovery
+  page; Chapters 6-7 into the principles/tradeoffs page; and a source map that
+  records full coverage and honest limits. This is conceptual coverage, not a
+  claim that every anecdote, illustration, note, or citation was transcribed.
+- Added four indexed pages, bringing SYSTEMS from 98 to 102 pages. The new cluster
+  connects human-centered design to audit work, system reliability, explicit
+  controls, reversible automation, and `.ROOT`'s external-memory design.
+- Validation exposed a stale local instruction telling new pages to copy FORGE-era
+  control tags. Corrected `CLAUDE.md` and `HOW_TO_USE.md`: inherited pages retain
+  their legacy taxonomy, while new pages use canonical timeline/status/reference
+  properties without dual-encoded `priority/*` or `status/*` tags.
+- Final validation passed: 102/102 pages indexed; strict wiki lint reports
+  0 blockers and 0 review debt; the metadata comparison reports 0 new findings;
+  canonical `.ROOT` health is PASS WITH DEBT; Markdown integrity and whitespace
+  checks pass.
+- Next: use the error/recovery checklist on a real workflow or interface. Reading
+  is not proof; do not create more design pages until application exposes a gap.

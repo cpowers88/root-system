@@ -1,9 +1,9 @@
 ---
 type: glossary-entry
-stage: 09
-status: draft
+stage: 04
+status: ready
 aliases: []
-related_terms: ["package", "pip"]
+related_terms: ["import-statement", "standard-library", "package", "pip"]
 ---
 
 # Module
@@ -40,6 +40,8 @@ A single toolbox someone already built and labeled, ready to open and use.
 ## Related Terms
 
 - [[glossary/package]]
+- [[glossary/import-statement]]
+- [[glossary/standard-library]]
 
 ## Flashcard Q/A
 

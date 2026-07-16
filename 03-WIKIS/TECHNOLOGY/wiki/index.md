@@ -1,6 +1,7 @@
 ---
 type: map
-tags: [now, technology]
+timeline: reference
+tags: [technology]
 ---
 
 # TECHNOLOGY Wiki — Index
@@ -12,16 +13,22 @@ tags: [now, technology]
 68 pages migrated from FORGE's `wiki\technology\` on July 7, 2026, split by subject
 from FORGE's original 135-page technology folder (the other 67 — Python/data-analysis
 fundamentals — went to `03-WIKIS\PYTHON` instead; see that wiki's `source-map.md`).
-**2026-07-13: full raw/ audit and ingest (107 pages total).** 39 new pages across
-9 books + 4 landscape clippings, following a raw/ audit that found 3 confirmed
+**2026-07-13: full raw/ audit and ingest (107 pages at completion; 106 current).**
+The audit produced 39 new pages across 9 books + 4 landscape clippings. The
+July 15 structure review moved the post-closure AI-coding landscape into
+`03-WIKIS\AI_AUTOMATION_SYSTEMS`, its canonical intake lane. The audit found 3 confirmed
 duplicates (documented, not re-ingested), 3 misplaced Python-fundamentals books
 (rerouted to `03-WIKIS\PYTHON`), and 1 book judged too introductory to warrant a
 dedicated ingest (see `log.md`). Four new category subfolders added
 (`database-sql/`, `software-craft/`, `security/`, `software-engineering/`) plus
-the wiki's first-ever landscape-research pages (4, at wiki root) — the original
+the wiki's first-ever landscape-research pages (3 remain at wiki root) — the original
 stated purpose this wiki carried as an open "next action" since July 7.
+The 25-file raw collection (~688 MB) is fully accounted, not uniformly compiled:
+five Stanford AI Index files are covered cross-hub, the remaining 13 PDFs were
+compiled or explicitly classified, six earlier web clips have derived coverage,
+and the July 14 Google OAuth clip remains lookup-only until a real project needs it.
 
-## Web Frameworks (`web-frameworks/`, 16 pages)
+## Web Frameworks (`web-frameworks/`, 15 pages)
 
 - [[web-frameworks/flask-web-development|Flask Web Development]] — source summary and navigation hub
 - [[web-frameworks/flask-basic-application-structure|Flask: Basic Application Structure]]
@@ -83,7 +90,7 @@ stated purpose this wiki carried as an open "next action" since July 7.
 - [[devops/just-culture-and-blameless-postmortems|Just Culture and Blameless Postmortems]] — source: *The DevOps Handbook*
 - [[devops/integrating-security-into-the-deployment-pipeline|Integrating Security into the Deployment Pipeline]] — source: *The DevOps Handbook*
 
-## AI & LLM Concepts (`ai-and-llm/`, 11 pages)
+## AI & LLM Concepts (`ai-and-llm/`, 10 pages)
 
 - [[ai-and-llm/llm-fundamentals|LLM Fundamentals: Pretraining, Fine-Tuning, and Emergence]]
 - [[ai-and-llm/ai-alignment-and-ethics|AI Alignment and Ethics]]
@@ -151,7 +158,7 @@ stated purpose this wiki carried as an open "next action" since July 7.
 - [[software-engineering/reliable-programming-techniques|Reliable Programming Techniques]] — complexity, patterns, refactoring, defensive validation; source: Sommerville
 - [[software-engineering/software-testing-levels-and-techniques|Software Testing Levels and Techniques]] — source: Sommerville
 
-## Landscape Research (wiki root, 4 pages, new 2026-07-13)
+## Landscape Research (wiki root, 3 pages, new 2026-07-13)
 
 This wiki's first landscape-research pages — the original stated purpose
 (tool/category watching, tied to `TECHNOLOGY_LIBRARY_STRATEGY.md`'s 12
@@ -160,4 +167,3 @@ categories) carried as an open "next action" since July 7, 2026.
 - [[looker-studio-free-bi-dashboards|Looker Studio (Data Studio) — Free BI Dashboards]] — Category 3
 - [[vs-code-data-tooling-data-wrangler-and-edit-csv|VS Code Data Tooling: Data Wrangler, Edit CSV, and the Titanic Tutorial]] — Category 5
 - [[spreadjs-embeddable-excel-import-export|SpreadJS — Embeddable Excel Import/Export for Custom Web Tools]] — Category 9/12, landscape-only
-- [[ai-coding-tools-for-python-2025-landscape|AI Coding Tools for Python — 9-Tool Landscape Comparison (mid-2025)]] — Category 10

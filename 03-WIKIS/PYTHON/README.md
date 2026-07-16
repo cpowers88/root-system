@@ -15,10 +15,11 @@ Generated packets are content readiness, not learner progress.
 3. `03-WIKIS\PYTHON\wiki\learning-path.md` — sequence.
 4. `03-WIKIS\PYTHON\CLAUDE.md` — local operating contract for any AI.
 
-Current frontier: Stage 2 — Decisions and Boolean Logic. The open proof is the
-choose-your-path mini-project plus explain-back/mastery check. The tracker is a
+Current frontier: Stage 2 — Decisions and Boolean Logic. Code evidence exists; the
+open proof is the drill correction plus explain-back/mastery check. The tracker is a
 real-use vehicle when verified D2L data arrives, not a replacement for the stage
 path.
 
-`raw\` is immutable. Course-submitted work follows the live course AI policy and
-the academic-integrity boundary in `00-BRAIN\AGENT.md`.
+`raw\` is immutable. CSE 1321/1321L explicitly prohibit AI-assisted submitted
+work; the full local control is `wiki\syllabus-alignment.md` plus the
+academic-integrity boundary in `00-BRAIN\AGENT.md`.

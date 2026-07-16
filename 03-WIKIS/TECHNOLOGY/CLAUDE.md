@@ -1,6 +1,7 @@
 ---
 type: os
-tags: [now, ai-automation, technology]
+timeline: reference
+tags: [governance, technology]
 ---
 
 # CLAUDE.md — Technology Wiki OS

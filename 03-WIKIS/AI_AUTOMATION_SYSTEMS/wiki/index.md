@@ -92,6 +92,11 @@ is identified as a misplaced systems-improvement source. See
   automation-first vs. built-in-automation split as an audit lever
   ("turn on what the client already pays for"); cross-checked against
   the vetting page's harder findings on Zapier/n8n/HubSpot.
+- [AI Coding Tools for Python — 9-Tool Landscape Comparison (mid-2025)](ai-coding-tools-for-python-2025-landscape.md)
+  — vendor-biased but useful category map covering nine coding assistants;
+  routed here from Technology because all post-closure AI/LLM/agent research
+  belongs in this hub. The immutable source remains in Technology raw, where
+  it was captured before the lane closed; verify current offerings before use.
 - [Generative AI for Software Development (Pereira, O'Reilly 2025)](generative-ai-for-software-development-pereira.md)
   — 171-pp. book distilled: SDLC-wide tool map with a reusable two-stage
   evaluation method; the Levels-vs-Shopify adoption contrast (the three

@@ -64,6 +64,9 @@ The structure-to-behavior heuristic from [[fundamental-modes-growth-goal-seeking
 
 ## Connects to
 
+- [[epidemics-innovation-diffusion-and-product-growth]] — Chapter 9 develops the
+  logistic/SIR/Bass mechanisms, tipping thresholds, abandonment, and replacement
+  processes behind specific S-shaped growth cases.
 - [[fundamental-modes-growth-goal-seeking-oscillation]] — the companion page on the three basic modes that combine nonlinearly to produce every pattern covered on this page.
 - [[time-horizon-and-endogenous-explanation]] — the carrying-capacity-as-endogenous discussion directly extends that page's "expand the boundary when there's a real feedback to the candidate exogenous variable" rule.
 - [[barriers-to-learning-and-virtual-worlds]] — "randomness is a measure of our ignorance, not a feature of reality" is the precise epistemic resolution of that chapter's limited-information barrier (1.3.2).

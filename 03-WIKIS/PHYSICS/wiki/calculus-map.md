@@ -1,6 +1,8 @@
 ---
 type: map
-tags: [reference, physics]
+timeline: reference
+reference_priority: core
+tags: [physics, math]
 ---
 
 # Calculus Map
@@ -8,6 +10,10 @@ tags: [reference, physics]
 ## Purpose
 
 Explain calculus only as it appears in physics.
+
+For the stage-gated practice sequence, physical anchors, and current three-rep
+bridge, use [[math-readiness-path]]. This map answers *where calculus appears*;
+that path answers *what to practice next*.
 
 ## Stage 1 — Physics and Measurement (Ch 1)
 

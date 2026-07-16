@@ -6,7 +6,7 @@ tags: []
 
 # CHRIS.md — Chris Powers
 ### Full profile — load per AGENT.md (monthly review, profile update, behavior calibration only). Default load is CHRIS_CORE.md.
-### Last updated: July 14, 2026
+### Last updated: July 15, 2026
 ### Read alongside: NORTH_STAR.md (mission + tracks), AGENT.md (session protocols)
 
 ---
@@ -30,6 +30,18 @@ lives in `Goals & Milestones\CURRENT_STRATEGY.md`.
 ## YouScience Aptitude Profile
 ### Source: YouScience Assessment, November 2025
 ### Full PDFs: 02-LIBRARY\REF-META-HOW-TO-WORK\
+### Coverage verified: July 15, 2026
+
+This page is the AI-ready ingest of the three personal reports. It contains all
+12 assessed dimensions: four Personal Approach dimensions, six Core Drivers,
+and two Amplifiers, plus the three interest areas and their operating
+implications. Load this page instead of repeatedly parsing the PDFs.
+
+| Source file | Role | Ingestion disposition |
+|---|---|---|
+| `Christopher_Aptitude_Results.pdf` | 35-page primary assessment | Fully represented here at the aptitude/implication level; authoritative source for detailed wording |
+| `Christopher_Aptitude_Discussion.pdf` | 6-page discussion and recommendation guide | Its work/interview language is represented here; consult the PDF only when drafting a recommendation, résumé, or application |
+| `Christopher_One_Page_Summary.pdf` | 1-page visual overview | Redundant quick summary; retained as source provenance, not a runtime knowledge layer |
 
 **One-sentence summary:**
 High-horsepower idea engine with elite spatial and numerical reasoning, masterful vocabulary, and an extroverted future-focused style — whose primary constraint is weak associative memory requiring precision, repetition through action, and external structure to execute sequentially.
@@ -175,4 +187,4 @@ The aptitude profile confirms what I already knew: Idea Generation + Numerical R
 
 ---
 *Source: YouScience Assessment, Christopher Powers, November 2025 | Full PDFs in 02-LIBRARY\REF-META-HOW-TO-WORK\*
-*Last updated: July 5, 2026*
+*Last updated: July 15, 2026*

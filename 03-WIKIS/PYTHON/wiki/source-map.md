@@ -1,6 +1,7 @@
 ---
 type: map
-tags: [reference, programming]
+timeline: reference
+tags: [programming]
 ---
 
 # Source Map
@@ -13,9 +14,13 @@ Do not deep-ingest many books until this map exists.
 
 ---
 
-## Status: Intake Finalized (2026-06-24)
+## Status: Active Roster Mapped; Later Intake Classified
 
-Source intake is closed for now. Eight sources (two syllabi + six books) are mapped across all 11 stages. **For the quick per-stage spine/support/mini-project table, see `wiki/learning-path.md` → "Source Roster."** This page holds the full per-book detail and reasoning. Do not add more sources without a specific reason (a real gap found during generation, not "let's see what else exists").
+Source intake is closed for now. The active spine/support roster is mapped across
+all 11 stages, later arrivals are classified below, and official Python docs are
+lookup references. Do not use the former "two syllabi + six books" count as a
+control total. **For the quick per-stage table, see `wiki/learning-path.md` →
+"Source Roster."** Do not add more sources without a specific learning gap.
 
 ---
 
@@ -23,21 +28,33 @@ Source intake is closed for now. Eight sources (two syllabi + six books) are map
 
 | Source | Location | Type | Status | Role | Difficulty | Current Use | Notes |
 |---|---|---|---|---|---|---|---|
-| CSE lab syllabus | `raw/syllabi/CSE_lab_syllabus.md` | syllabus | ingested | school-policy | n/a | topic order + schedule alignment | schedule-only file; no textbook, no grading breakdown, no AI policy text present |
-| CSE lecture syllabus | `raw/syllabi/CSE_lecture_syllabus.md` | syllabus | ingested | school-policy | n/a | topic order + schedule alignment | schedule-only file; no textbook, no grading breakdown, no AI policy text present |
+| CSE 1321L official syllabus | `02-LIBRARY/00-SCHOOL/01-CSE-Python/CSEL_Syllabus.pdf` | syllabus | visually verified 2026-07-15 | school-policy | n/a | policy, outcomes, grading, tools, topic order | AI prohibited; 13 labs + 7 assignments; Gradescope; lab calendar dates conflict with Fall title |
+| CSE 1321 official syllabus | `02-LIBRARY/00-SCHOOL/01-CSE-Python/CSE_Syllabus.pdf` | syllabus | visually verified 2026-07-15 | school-policy | n/a | policy, outcomes, grading, tools, topic order | AI prohibited; Think Python recommended; 10 quizzes + 3 exams |
+| Syllabus topic-table extracts | `raw/SYLLABI/CSE_{lecture,lab}_syllabus.md` | derivative extract | retained | quick-reference | n/a | topic order only | not a full syllabus ingest; omits policy, outcomes, grading, tools, and materials |
 | Think Python, 2nd Ed. (Allen Downey) | `raw/books/thinkpython.pdf` | book | ingested (TOC-level) | spine | beginner-friendly | active spine for Stages 1-8 | course textbook Chris added 2026-06-24; subtitle "How to Think Like a Computer Scientist" is the literal source of the vault's CS-thinking framing |
 
-### Syllabus Extraction Notes (2026-06-24)
+### Syllabus Extraction Notes (official PDFs verified 2026-07-15)
 
-- **AI policy:** Not stated in either file. Chris confirmed AI assistance is allowed for this course. Course is **not** marked `ai-restricted`, but the vault's standing rule still applies — stop and ask before doing graded work for him.
-- **Required books/tools:** None listed in either syllabus file. Chris will add the official textbook to `raw/books/` later. Treated as **pending** in the evaluation matrix below until added.
-- **Grading categories:** Not present in either file (no weights, exam dates, or rubric info available yet).
+- **AI policy:** Both official PDFs explicitly prohibit generative-AI-assisted
+  submitted work. CSE 1321 and 1321L are `ai-restricted`; private concept study is
+  allowed, submitted work is Chris's alone.
+- **Book/tools:** *Think Python* is the recommended no-cost text. Lecture exams use
+  Respondus LockDown Browser plus webcam/microphone/internet; lab work uses
+  Gradescope.
+- **Grading:** lecture fall/spring = quiz average, Test 1, Test 2, final at 25%
+  each. Lab = assignments 40%, lab exercises 10%, midterm 20%, final 30%.
 - **Lecture topic order (15 weeks):** decomposition/algorithms/abstraction → data types/operators/Boolean/assignment → selection (2 wks) → iteration/loops (2 wks) → functions/parameters/arguments (2 wks) → Python libraries → tuples/lists → dictionaries + searching/sorting → OOP (2 wks) → TBD → review.
 - **Lab topic order (13 weeks):** intro/IDE+Gradescope → I/O and variables → data types/operators/expressions → selection → repetition (2 wks) → functions → Python libraries → tuples/lists → dictionaries + searching/sorting → OOP (2 wks) → intro to Java.
 - **Lab/lecture relationship:** Lab runs roughly in lockstep with lecture, one topic per week, with lab trailing slightly (e.g., lecture spends 2 weeks each on selection/iteration/functions; lab compresses repetition into 2 weeks but functions into 1). Lab is the only place Java appears (final week) — flagged as out of scope for this Python-track vault unless Chris asks to bridge it later.
 - **Topics Chris must master before class begins:** everything through functions/parameters/arguments — i.e., vault Stages 1–4 (atoms, decisions, loops, functions). This lines up with Weeks 1–4 of the existing 8-Week Python Foundation Plan draft in `learning-path.md`.
-- **Topics that arrive early in the course but are later in the vault's stage order:** Python Libraries (lecture wk 9 / lab wk 8) arrives before tuples/lists/dictionaries in both syllabi, ahead of vault Stage 5. Flagged — vault will still teach data shapes first since libraries depend on fluency with data shapes to be useful, but Chris should expect "Python Libraries" lecture content to look unfamiliar until Stage 5 is done.
+- **Python Libraries gap repaired:** a small standard-library import/use bridge now
+  closes Stage 4, matching both calendars. Third-party packages and `pip` remain in
+  Stage 9 because dependency management is a later skill.
 - **OOP** appears in both syllabi (weeks 11–13ish) — matches vault's parked placement at Stage 8 ("objects... as required by syllabus"). No prerequisite gap.
+- **Schedule warning:** the lab PDF title says Fall 2026, but its calendar uses
+  January-May dates and spring break. Topic order is usable; live dates require D2L
+  or a corrected instructor schedule.
+- Full control page: [[syllabus-alignment]].
 
 ---
 
@@ -85,7 +102,7 @@ Book chapter order does not match vault Stage order (book teaches basic function
 ## Spine Selection
 
 **Active spine:** Think Python, 2nd Ed. (Allen Downey) — for Stages 1-8  
-**Reason:** official course textbook; chapter topics match both syllabi closely; subtitle matches the vault's CS-thinking framing  
+**Reason:** recommended no-cost course text; chapter topics match both syllabi closely; subtitle matches the vault's CS-thinking framing
 **Support sources:** none yet  
 **Practice sources:** Think Python end-of-chapter exercises (Stages 1-8 only)  
 **Parked advanced sources:** none added yet (see `wiki/parking-lot.md` for topic-level parking)
@@ -115,7 +132,7 @@ Chris provided this book pre-split into chapter files. Originally dropped loose 
 | 7 | Dictionaries and Structuring Data | Stage 5 | support/practice |
 | 8 | Strings and Text Editing | Stage 5 | support/practice |
 | 9 | Text Pattern Matching with Regular Expressions | Stage 8 | support (regex is intermediate; introduce once core fluency is solid) |
-| **10** | **MISSING from provided files** | — | gap — ask Chris if he wants it added |
+| 10 | Reading and Writing Files | Stage 6 | support/practice |
 | 11 | Organizing Files | Stage 9 | **spine** (automation bridge) |
 | 12 | Designing and Deploying Command Line Programs | Stage 10 | **spine** (application thinking) |
 | 13 | Web Scraping | Stage 10 | spine, requires internet/HTML basics — not yet in parking-lot, added below |
@@ -206,7 +223,7 @@ Chris provided this book pre-split into chapter files. Originally dropped loose 
 
 `raw/books/DataStructuresandAlgorithms.pdf`. TOC-level ingest only. **Code language not yet confirmed** — TOC was read, not the code samples. Treat as a concept/Big-O reference until language is verified; don't assume it's Python-ready code for Chris.
 
-**Role:** support for Stage 8, complementing Grokking Algorithms with more rigor on Big O notation (Ch.3-7) plus structures Grokking Algorithms doesn't cover early on: stacks/queues (Ch.9), linked lists (Ch.14), binary search trees (Ch.15+). Chapters on dynamic programming and deep recursion overlap with Grokking Algorithms — use whichever explanation clicks better for Chris. Same syllabus-scope caveat as Grokking Algorithms: only sorting/searching/hash-tables/recursion are required by the syllabus; the rest is enrichment.
+**Role:** support for Stage 8, complementing Grokking Algorithms with more rigor on Big O notation (Ch.3-7) plus structures Grokking Algorithms doesn't cover early on: stacks/queues (Ch.9), linked lists (Ch.14), binary search trees (Ch.15+). Chapters on dynamic programming and deep recursion overlap with Grokking Algorithms — use whichever explanation clicks better for Chris. Syllabus-scope caveat: searching/sorting and OOP are explicit requirements; recursion and Big O are useful enrichment, and the remaining structures are optional.
 
 ---
 
@@ -380,7 +397,9 @@ new reason to regenerate the curriculum. The active Stage 2 path does not change
 
 - Stages 9-10 now have a source (Automate the Boring Stuff, see above) — no longer blocked.
 - Chapter 10 of Automate the Boring Stuff has been added — gap resolved (2026-06-24).
-- No further syllabus extraction needed — both files are schedule-only and have been fully ingested.
+- Official PDFs have now been visually verified; use [[syllabus-alignment]] for
+  policies, outcomes, grading, tools, and the lab-date anomaly. The raw Markdown
+  files remain topic-only quick extracts.
 - **New (2026-07-07):** Python for Data Analysis and Practical SQL are inventoried as
   candidate Stage 9-10 spines for a "data analysis" and "SQL fundamentals" strand.
   Building them into actual concept/glossary/drill/flashcard pages needs Chris's

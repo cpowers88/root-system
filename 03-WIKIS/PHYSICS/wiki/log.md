@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log]
+timeline: log
+tags: [physics]
 ---
 
 # Physics Education Log
@@ -461,3 +462,85 @@ Append-only session record.
   get decomposed, then complete the required no-notes pass over all four Stage 3
   skills (conversion, scalar/vector ID, decomposition, reconstruction, addition)
   before checking off the mastery checklist in `wiki/stages/stage-3-vectors.md`.
+
+## 2026-07-15 — Semester pathway and source-quality unification
+
+### Objective
+- Reconcile the full Physics wiki with the updated `.ROOT` context, finish the
+  visible Stage 1–18 route, and create a stage-gated trigonometry/calculus refresh
+  path grounded in real physical situations.
+
+### Sources touched
+- `raw/syllabus/syllabus.pdf` (visual review of the 19-page scan; no raw edits).
+- All split Serway textbook PDFs and appendix PDFs (TOC/source screen; no raw edits).
+- `02-LIBRARY/REF-META-HOW-TO-WORK/Christopher_Aptitude_Results.pdf` (visual and
+  text review used only to choose learning sequence and retrieval supports).
+- Official OpenStax, MIT OpenCourseWare, and PhET pages registered in
+  `wiki/source-map.md` as optional support for diagnosed gaps.
+
+### Structure completed
+- Added `wiki/math-readiness-path.md`: physical sketch → exact math move → guided
+  repetition → no-notes transfer → verbal explanation → later cold check.
+- Added a complete Stage 1–18 semester control table to `wiki/learning-path.md`
+  with math gates, real-life anchors, source status, and packet routes.
+- Backfilled Stage 2 and Stages 6–18 into the concept, equation, and problem-type
+  maps; fixed their root-map link paths.
+- Corrected textbook alignment for Stage 2 (through 2.9), Stage 7 (through 7.9),
+  and Stage 17 (17.1–17.7 active; 17.8 parked).
+- Updated the hub, current-position, calculus map, source map, parking lot, and
+  human guide. No learner mastery checkbox was changed.
+
+### Source-quality findings
+- The syllabus PDF is reliable for course identity, outcomes, grading categories,
+  and AI policy, but not yet reliable for operations: its calendar ends at Ch 5;
+  it includes a January access deadline, an impossible day/date pairing, a recycled
+  holiday label, and conflicting exam-drop wording. Live D2L/Owl Express must
+  settle those items.
+- Textbook screens identified content/scope gates at Stage 6 section 6.3, Stage 9
+  sections 9.7–9.9, Stage 11 precession, Stage 14 sections 14.3 and 14.7–14.8,
+  and Stage 15 sections 15.6–15.7. These are parked until the live course scope is
+  known; later supporting pages remain just-in-time work.
+- The Serway appendices already supply the baseline algebra, trigonometry,
+  derivatives, and integrals, so a second downloadable math textbook is not needed.
+
+### Next action for Chris
+- Resume Stage 3 with two non-axis vectors so both vectors require decomposition,
+  then complete the full no-notes Stage 3 pass. Use the Stage 2 calculus bridge
+  next: read slope and area from one position/velocity graph before applying a
+  kinematic formula.
+
+## 2026-07-15 — Full syllabus and learning-profile closure audit
+
+### Objective
+- Confirm that every syllabus page and every named physics outcome has a visible
+  destination before closing the Physics folder; review the two additional
+  YouScience files supplied by Chris.
+
+### Sources touched
+- All 19 pages of `raw/syllabus/syllabus.pdf`, visually inspected.
+- `Christopher_Aptitude_Discussion.pdf` (6 pages), visually inspected and text
+  checked.
+- `Christopher_Aptitude_Results.pdf` (35 pages), previously visually/text reviewed
+  during this session and reconfirmed as an input.
+- `Christopher_One_Page_Summary.pdf` (1 page), visually inspected and text checked.
+
+### Changes and findings
+- Added `wiki/syllabus-coverage-ledger.md`, routing every PDF page to a stage,
+  course operations, institutional governance, or student support.
+- Applied the syllabus learning outcomes across all stages through a shared mastery
+  standard: interpret, represent/model, solve symbolically and numerically, use
+  vectors/calculus as needed, check units/reasonableness, and connect to real life.
+- Confirmed that every named physics topic in the syllabus is represented in the
+  Stage 1-18 sequence. The printed calendar itself still stops at Stage 5/September
+  16, so later weeks cannot be assigned official dates without D2L.
+- Added the late-homework contradiction to the data-quality gate: page 4 describes
+  a 10% daily penalty, while page 7 says work is unavailable after answers release.
+- Expanded the math-learning method with strengths from all three profile files:
+  numerical pattern finding, spatial/tangible models, thinking aloud, alternate
+  approaches followed by a stable process, visible future target, and one next
+  action at a time.
+
+### Next action for Chris
+- The learning path is closed structurally. Supply the live D2L calendar and current
+  grading/exam details when available; until then, treat only the chapter sequence
+  as authoritative and all week/date assignments after Chapter 5 as provisional.

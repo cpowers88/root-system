@@ -1,7 +1,8 @@
 ---
 type: research
+timeline: reference
 tags: [technology, landscape, category-10, ai-and-llm, python]
-source: raw/From IDE to deployment 9 Best AI tools for Python.md (Pieces.app blog, published 2025-06-09, captured 2026-06-13)
+source: 03-WIKIS/TECHNOLOGY/raw/From IDE to deployment 9 Best AI tools for Python.md (Pieces.app blog, published 2025-06-09, captured 2026-06-13)
 ---
 
 # AI Coding Tools for Python — 9-Tool Landscape Comparison (mid-2025)
@@ -10,8 +11,8 @@ source: raw/From IDE to deployment 9 Best AI tools for Python.md (Pieces.app blo
 tools specifically through a Python-development lens, from a vendor blog
 (Pieces.app — one of the 9 tools reviewed, so read its own entry and
 ranking claims with that bias in mind; the other 8 comparisons are
-independently useful). **Provenance note, same caution as the Zapier
-workflow-automation rep in `AI_AUTOMATION_SYSTEMS`**: a tool comparing
+independently useful). **Provenance note, same caution as this hub's
+[[workflow-automation-tools-landscape|Zapier workflow-automation rep]]**: a tool comparing
 itself against competitors is marketing, not a neutral ranking — useful as
 a category map regardless.
 
@@ -51,14 +52,14 @@ rule.
 
 ## Connects to
 
-[[ai-and-llm/ai-developer-tools-landscape-2026]] — this wiki's existing
-FORGE-inherited AI dev-tools page; worth a follow-up pass to check for
+[AI Developer Tools Landscape (2026)](../../TECHNOLOGY/wiki/ai-and-llm/ai-developer-tools-landscape-2026.md)
+— Technology's closed, FORGE-inherited AI dev-tools reference; worth a follow-up pass to check for
 overlap/updates rather than treating this as the sole source going
 forward.
 
 ## North Star Connection
 
-`TECHNOLOGY_LIBRARY_STRATEGY.md` Category 10 (AI & Intelligent
+`02-LIBRARY/REF-AI-AUTOMATION/TECHNOLOGY_LIBRARY_STRATEGY.md` Category 10 (AI & Intelligent
 Automation) — direct tool-selection input for Chris's own Python
 development workflow and for any future audit recommendation involving a
 client's dev team.

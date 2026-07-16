@@ -5,7 +5,7 @@ tags: [reference, programming]
 
 # Glossary Index
 
-All 80 vocabulary entries, alphabetical. Every entry has a plain-English definition, physical-world anchor, and flashcard Q/A.
+All 83 vocabulary entries, alphabetical. Every entry has a plain-English definition, physical-world anchor, and flashcard Q/A.
 
 Review workflow: pick the current stage's terms from the stage page, read the entry, then drill the flashcard in `wiki/flashcards/`.
 
@@ -18,6 +18,7 @@ Review workflow: pick the current stage's terms from the stage page, read the en
 - [[api]] — API
 - [[argument-parsing]] — Argument Parsing
 - [[argument]] — Argument
+- [[array]] — Array
 - [[assignment]] — Assignment
 - [[attribute]] — Attribute
 - [[automation-script]] — Automation Script
@@ -72,6 +73,7 @@ Review workflow: pick the current stage's terms from the stage page, read the en
 ## I
 
 - [[if-elif-else]] — `if` / `elif` / `else`
+- [[import-statement]] — Import Statement
 - [[incremental-development]] — Incremental Development
 - [[infinite-loop]] — Infinite Loop
 - [[input]] — `input()`
@@ -124,6 +126,7 @@ Review workflow: pick the current stage's terms from the stage page, read the en
 - [[set]] — Set
 - [[slice]] — Slice
 - [[sorting]] — Sorting
+- [[standard-library]] — Standard Library
 - [[string]] — String
 - [[syntax-runtime-semantic-error]] — Syntax / Runtime / Semantic Error
 

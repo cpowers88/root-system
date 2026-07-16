@@ -1,6 +1,7 @@
 ---
 type: os
-tags: [reference, governance]
+timeline: reference
+tags: [governance, programming]
 ---
 
 # CLAUDE.md — Python Wiki OS
@@ -41,6 +42,12 @@ This wiki's expanded session/intake protocols live in [[protocols]] and
 supersede the shared minimums when running full sessions.
 
 The goal is to prepare Chris's brain, not submit work for him.
+
+**Live course restriction:** CSE 1321 and CSE 1321L explicitly prohibit
+AI-assisted submitted work. Treat both as `ai-restricted`; private concept study
+and ungraded practice are allowed, but never draft, solve, rewrite, or debug
+submitted coursework. See [[syllabus-alignment]] for the verified PDF evidence and
+course controls.
 
 ## Learner Position
 
@@ -83,7 +90,8 @@ can do — so the vault maintains both `wiki/stages/` (the sequential path) and
 - `wiki/` — core files: `index.md`, `log.md`, `current-position.md`,
   `learning-path.md` (the command center: current stage, next concept/reading/
   drill, vocabulary due, parked items — update after every meaningful session),
-  `source-map.md`, `prerequisite-map.md`, `parking-lot.md`, plus subfolders:
+  `source-map.md`, `syllabus-alignment.md`, `prerequisite-map.md`,
+  `parking-lot.md`, plus subfolders:
   `stages/ concepts/ code-patterns/ drills/ flashcards/ glossary/
   mini-projects/ source-summaries/ tool-capability-library/ parked-advanced/
   errors/`

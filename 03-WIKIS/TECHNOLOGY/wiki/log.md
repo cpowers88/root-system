@@ -374,3 +374,30 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
 - Corrected the section operating file from “FORGE is retiring” to the completed
   July 7 retirement. No migration, inventory, routing, or research state changed.
 - Next: normal weekly landscape rep; historical FORGE provenance remains truthful.
+
+## 2026-07-15 — Structure, routing, and source-accounting review
+
+- Audited the complete hub: 103 applied-reference pages across nine subject
+  folders, four root landscape pages at review start, and 25 immutable raw
+  files (~688 MB). Every content page was indexed; strict wiki lint found no
+  broken navigation or duplicate Markdown content.
+- Rechecked the latest pushed Technology delta (`a3ead14`): it changed only
+  `HOW_TO_USE.md`. No raw source is newer than the already-classified July 14
+  OAuth clipping, so no large-file re-ingest or new chunk intake was warranted.
+- Corrected two historical index labels: Web Frameworks is 15 pages, not 16;
+  inherited AI & LLM Concepts is 10 pages, not 11. No content was missing.
+- Moved the July 13 AI-coding landscape page to `AI_AUTOMATION_SYSTEMS`, the
+  intake owner established when Technology's AI lane closed July 9. Its raw
+  source remains here unchanged because it predates the closure.
+- Added the missing `timeline: reference` field to all four landscape pages.
+  Three now remain here; the routed AI page carries the same metadata in AIAS.
+- Recorded raw truth in the index: all 25 files are accounted, but lookup-only,
+  intentionally skipped, and cross-hub sources are not mislabeled as compiled.
+- Normalized the Technology operating file and index to the current timeline
+  schema, and removed the stale `ai-automation` tag from the closed intake lane.
+- Validation passed: 106/106 Technology content pages are indexed; strict wiki
+  lint reports 0 blockers and 0 review debt; the canonical health gate reports
+  PASS WITH DEBT with 0 new metadata debt. This review resolved all four
+  Technology landscape findings plus the two stale control-header findings.
+- Next: keep the physical structure. Do not add category scaffolding without
+  evidence; run the next landscape rep from the live Technology Library Strategy.

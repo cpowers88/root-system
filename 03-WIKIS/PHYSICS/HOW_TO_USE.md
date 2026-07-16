@@ -19,6 +19,9 @@ The staged physics path (1–18) from situation → model → equation → probl
 ## Start Here
 `wiki/current-position.md` for where Chris is right now; `wiki/learning-path.md` for the staged path.
 
+Use `wiki/math-readiness-path.md` for just-in-time algebra, trigonometry, and
+calculus refreshers tied to the live physical situation.
+
 Before August 24, coordinate the next proof with
 `01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md`; this hub's
 `wiki/current-position.md` remains learner-truth authority.

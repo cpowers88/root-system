@@ -1,6 +1,9 @@
 ---
 type: stage
+timeline: reference
+stage: 13
 status: draft
+tags: [physics, math]
 ---
 
 # Stage 13 — Universal Gravitation
@@ -33,8 +36,9 @@ Before starting this stage, you must be comfortable with:
 
 - [[stage-5-laws-of-motion]] — Newton's second and third laws, free-body diagrams
 - [[stage-6-circular-motion]] — centripetal acceleration a_c = v^2/r, centripetal force
-- [[stage-7-energy-of-a-system]] — kinetic energy, potential energy, conservation of energy
-- [[stage-9-linear-momentum]] — angular momentum (needed for Kepler's 2nd law)
+- [[stage-7-energy-of-a-system]] and [[stage-8-conservation-of-energy]] — kinetic
+  energy, potential energy, and energy conservation
+- [[stage-11-angular-momentum]] — angular momentum (needed for Kepler's 2nd law)
 
 ---
 
@@ -51,7 +55,7 @@ Before starting this stage, you must be comfortable with:
 | orbital period T | Time for one complete orbit |
 | semi-major axis a | Half the longest diameter of an ellipse; equals r for circular orbits |
 | bound orbit | Orbit with total mechanical energy E < 0; the object cannot escape |
-| geosynchronous orbit | Circular orbit with T = 24 h; satellite stays above same point on Earth |
+| geosynchronous orbit | Orbit whose period matches Earth's rotation; only a circular, equatorial, prograde **geostationary** orbit stays above one point |
 
 ---
 

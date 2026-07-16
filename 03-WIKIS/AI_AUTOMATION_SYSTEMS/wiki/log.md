@@ -1078,3 +1078,15 @@ Do not reopen the operational source audit. If either remaining book earns a
 concrete safety, labor, supply-chain, or governance question, ingest it by
 part/chapter clusters and update the coverage ledger after each completed
 cluster. Route `TLS.pdf` only with Chris's explicit raw-placement authorization.
+
+## 2026-07-15 — Post-closure AI landscape received from Technology
+
+- Received `ai-coding-tools-for-python-2025-landscape.md` from Technology after
+  a structure review found it had been derived July 13, four days after that
+  hub's AI/LLM/agent intake lane closed.
+- Updated provenance and cross-hub navigation. The immutable source remains at
+  `03-WIKIS/TECHNOLOGY/raw/From IDE to deployment 9 Best AI tools for Python.md`
+  because it was captured before the lane closure; no raw file was moved.
+- This is a routing correction, not a new ingestion claim and not a change to
+  the 176-file AIAS raw ledger. Treat the mid-2025 vendor comparison as a
+  historical category map and verify current offerings before recommendation.

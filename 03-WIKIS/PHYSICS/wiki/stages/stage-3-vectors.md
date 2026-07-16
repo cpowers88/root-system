@@ -1,6 +1,9 @@
 ---
 type: stage
-status: draft
+timeline: now
+stage: 3
+status: active
+tags: [physics, math]
 ---
 
 # Unit/Stage 3 — Vectors (Ch 3)
