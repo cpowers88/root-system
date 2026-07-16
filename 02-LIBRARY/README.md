@@ -27,7 +27,7 @@ the output realm packages them.
 |---|---|
 | `00-SCHOOL\` | Official course files per course (syllabi, notes, OneNote, D2L pulls) — the only LIBRARY folder with its own placement rules in `WHERE_IT_GOES.md` |
 | `.PROJECTS\` | Active build docs and small scripts; real code lives on GitHub/local repos |
-| `.raw ARCHIVE\` | General raw source dump (books, clipped articles) not owned by a wiki |
+| `.raw ARCHIVE\` | Closed legacy source holding; no new intake and no content changes without Chris's explicit raw exception |
 | `REF-MATH\` | Math textbooks (Strang, OpenStax calculus/precalc/stats) |
 | `REF-PROGRAMMING\` | Programming reference not owned by the PYTHON wiki (syntax notes, Automate the Boring Stuff) |
 | `REF-BUSINESS\` | Raw business reference clippings |
@@ -49,3 +49,5 @@ the output realm packages them.
 4. Naming history: the numbered domains (`01-PHYSICS` … `99-MISC`) became
    `REF-<NAME>` on July 15, 2026, so no LIBRARY folder shadows a wiki hub or
    the root money system. Historical logs keep the old paths.
+5. `.raw ARCHIVE\` is retained only for legacy source provenance. New source
+   intake routes to the owning wiki's immutable `raw\` folder.

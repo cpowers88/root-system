@@ -6,7 +6,7 @@ tags: [governance]
 
 # vault_map.md — Powers System Map (.ROOT)
 ### Navigation file. Two levels deep ON PURPOSE — see Map Rule below.
-### Last updated: July 14, 2026 (North Star/link audit + Revenue Lab graph-map reconciliation)
+### Last updated: July 15, 2026 (post-remediation interface review)
 ### System: local C: workspace (truth) + Obsidian (capture/graph) + GitHub (code). G: is cloud backup only. Everything lives in .ROOT.
 
 ---
@@ -78,7 +78,7 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── 00-SCHOOL\         ← course files: 01-CSE-Python, 02-Physics I, 03-TCOM,
 │   │                         04-ECON, 05-ENGR, 99-EDG, OneNote, FallKSU.xlsx
 │   ├── .PROJECTS\         ← build/project docs (plain NAME; code lives on GitHub)
-│   ├── .raw ARCHIVE\      ← general raw source material
+│   ├── .raw ARCHIVE\      ← closed legacy source holding; add nothing new
 │   └── REF-MATH … REF-MISC  ← reference domains (renamed July 15, 2026:
 │                              REF- marks "reference pile, not a wiki or the
 │                              money system"; empty domains archived; see
@@ -131,4 +131,4 @@ Standing mechanism: before any write, confirm the parent chain traces to `.ROOT`
 by NAME against the live tree. Folder IDs are retired — do not use them.
 
 ---
-*Last updated: July 14, 2026 (live-link and graph-map reconciliation) | Next review: weekly*
+*Last updated: July 15, 2026 (post-remediation interface review) | Next review: weekly*

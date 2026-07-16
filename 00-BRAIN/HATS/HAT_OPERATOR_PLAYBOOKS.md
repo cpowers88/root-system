@@ -42,7 +42,7 @@ workflow proves the need.
 ## SKILL: Technology Recommendation
 Trigger: any "should I/they use X" — tool selection, software
 purchase, build-vs-buy, AI adoption, stack decisions, client recs.
-1. Load 02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md
+1. Load 02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md
 2. Name the category (1–12) the problem belongs to
 3. Walk the Recommendation Ladder top-down: eliminate → simplify →
    use what they own → configure → integrate → build light → build

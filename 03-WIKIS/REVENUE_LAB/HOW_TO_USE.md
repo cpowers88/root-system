@@ -1,6 +1,7 @@
 ---
 type: guide
-tags: [reference, business, revenue]
+timeline: reference
+tags: [business, revenue]
 ---
 
 # HOW TO USE — 03-WIKIS\REVENUE_LAB
@@ -66,10 +67,10 @@ the single next action and, for any lane in motion, its current evidence
 status.
 
 ## Current State
-Hub created July 14, 2026 in response to the school-funding cut. The all-lanes
-scan is complete. Lane A's research scanner is approved and has first internal
-findings; no channel, posting, outreach, or monetization action is approved.
-B2 remains one external proof conversation requiring Chris's approval.
+Live lane status, approvals, and next tests exist only in `wiki\index.md`; recent
+operation history lives in `wiki\log.md`; the continuity-income milestone lives in
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`. Do not copy lane state into
+this guide.
 
 ## Last Updated
-July 14, 2026 — strategy return, index path, and client-workspace boundary reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.
+July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.

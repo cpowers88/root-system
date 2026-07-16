@@ -1020,3 +1020,61 @@ canonical-workspace rule in `00-BRAIN`.
   Chris/CASTLE review and was not changed.
 - Next: record linked real-use evidence at each check date; keep, modify, or
   revert only from the observed outcome.
+
+## 2026-07-15 — Raw-source coverage audit and overlooked-source ingest
+
+### Work completed
+
+Chris requested a complete ingestion check with large sources handled in chunks.
+Reconciled the live 176-file, ~111 MB `raw/` tree against page `source:` fields,
+the complete hub log, and the index. The index's prior “raw/ fully processed”
+claim was false: five research PDFs had no ingestion record, the 35-page
+Anthropic enterprise guide was still explicitly blocked, and two large books
+had never been given a coverage decision.
+
+- Recovered `CLAUDE_FILES/Anthropic-enterprise-ebook-digital.pdf` with the now-
+  available PDF text tool and reviewed all 35 pages in five chunks. Created
+  `enterprise-ai-adoption-and-production-roadmap.md`; replaced the obsolete
+  “unparsed” section in the integration-surface page.
+- Compiled `2311.10751v2.pdf`, `2510.25423v2.pdf`, and `2606.26118v1.pdf` into
+  `agentic-automation-architecture-reliability-and-economic-evidence.md`,
+  preserving each paper as a named chunk and separating proof-of-concept,
+  empirical developer, and economic-benchmark evidence.
+- Extended `oecd-ai-incidents-monitor.md` with `2604.21412v3.pdf` and
+  `2604.23183v2.pdf`: raw counts now explicitly require reporting/exposure
+  adjustment; SORT questions, trajectory classes, principled abstention, and
+  escalation blind spots are recorded as a supporting extension.
+- Created `raw-source-coverage.md`, the source-level ledger. *Empire of AI*
+  (575 pp.) and *If Anyone Builds It, Everyone Dies* (207 pp.) are visible
+  chunk backlogs, not falsely summarized. `TLS.pdf` is classified as a
+  misplaced TOC/Lean/Six Sigma source for SYSTEMS; raw remained untouched.
+  *Building a Second Brain* is confirmed covered by the existing full
+  chapter-level report and application page.
+- Corrected `index.md`: the hub is fully accounted, not fully compiled. Added a
+  standing rule that books, mixed packs, and sources above roughly 40 pages
+  preserve named chunk ranges in page/log provenance.
+
+### Claim-change classification
+
+- **Correction:** “raw/ fully processed” → all sources accounted, two named
+  books remain a chunk backlog, one file is misrouted.
+- **Supporting extension:** AIM is useful for incident lookup, but incident
+  counts alone are not evidence of changing per-exposure risk.
+- **Supporting extension:** reliable agentic automation depends on explicit
+  workflow/data contracts, observability, evaluation, and human escalation.
+
+### Files created/updated
+
+Created: `raw-source-coverage.md`,
+`enterprise-ai-adoption-and-production-roadmap.md`,
+`agentic-automation-architecture-reliability-and-economic-evidence.md`.
+Updated: `index.md`, `oecd-ai-incidents-monitor.md`,
+`claude-code-integration-surface-and-platform.md`, this log. No raw file moved,
+renamed, or edited.
+
+### Next action
+
+Do not reopen the operational source audit. If either remaining book earns a
+concrete safety, labor, supply-chain, or governance question, ingest it by
+part/chapter clusters and update the coverage ledger after each completed
+cluster. Route `TLS.pdf` only with Chris's explicit raw-placement authorization.

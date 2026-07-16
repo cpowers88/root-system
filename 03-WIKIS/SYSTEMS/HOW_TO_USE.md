@@ -1,6 +1,7 @@
 ---
 type: guide
-tags: [reference, systems]
+timeline: reference
+tags: [systems]
 ---
 
 # HOW TO USE — 03-WIKIS\SYSTEMS
@@ -51,11 +52,10 @@ New ISYE coursework or system-dynamics sources follow the existing pages' shape 
 After a session: log which pages were used and how in `wiki/log.md`; update a page's `Ranking`/priority line only if its timing genuinely changed; update `wiki/index.md` only if a page was added.
 
 ## Current State
-Reference-ready collection covering system dynamics, factory physics, queuing,
-process mining, VSM/BPMN/APQC, and operations research. `wiki/index.md` owns the live
-inventory; `wiki/log.md` preserves migration/ingest counts and history. No ISYE 2600
-coursework has activated yet (gate course: Spring 2027), so this is retrieval and
-preparation material, not an active reading queue.
+Live corpus inventory and retrieval routes exist only in `wiki\index.md`; recent use
+and ingest history live in `wiki\log.md`. A `wiki\current-position.md` file will be
+created only if staged ISYE learning activates. Do not copy counts or course state
+into this guide.
 
 ## Last Updated
-July 14, 2026 — live owner paths and North Star/current-strategy boundary reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.
+July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.

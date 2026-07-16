@@ -1,6 +1,7 @@
 ---
 type: guide
-tags: [reference, physics]
+timeline: reference
+tags: [physics]
 ---
 
 # HOW TO USE — 03-WIKIS\PHYSICS
@@ -44,11 +45,9 @@ After a session: log drills, add errors to `wiki/common-errors/`, update `curren
 Update current-position at stage boundaries, append `wiki/log.md`, state the next exact study action.
 
 ## Current State
-**Stage 3 — Vectors (Ch 3)** is active. Resume vector addition by components with
-40 N at 0° plus 30 N at 90°, then run a no-notes pass and mastery checklist. Stages
-1–2 are provisionally cleared; generated content is not mastery. Stages 4–5 are
-source-verified but unstudied; Stages 6–18 await sequential re-verification (see
-`wiki/parking-lot.md`).
+The live stage, performance evidence, and next exact rep exist only in
+`wiki\current-position.md`; `wiki\learning-path.md` is the durable stage map. Do not
+copy rep-specific state into this guide.
 
 ## Common Commands / Prompts
 - "Stage-[N] session — pick up from current-position"
@@ -61,4 +60,4 @@ source-verified but unstudied; Stages 6–18 await sequential re-verification (s
 - *Aug 24 readiness*: "Which stages cover the first three weeks of PHYS 2211?" → focused frontier plan.
 
 ## Last Updated
-July 14, 2026 — live Stage 3 action and pre-semester authority reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.
+July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.

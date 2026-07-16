@@ -1,6 +1,7 @@
 ---
 type: guide
-tags: [reference, school]
+timeline: reference
+tags: [school]
 ---
 
 # HOW TO USE — 03-WIKIS\EDUCATION
@@ -43,11 +44,11 @@ A course activates this wiki the first time Chris brings it real material; from 
 Once a course is active: update that course's `current-position.md`, append `wiki/log.md`, state the next study action.
 
 ## Current State
-Fall 2026 support is live for TCOM 2010, ECON 1000, and ENGR 1000. Start at
-`wiki/current-position.md`; `wiki/index.md` lists the four live pages. Update from
-verified D2L/current syllabi around July 25 and before August 24. Do not carry forward
-recycled TCOM dates, incomplete weights, or the Fall 2025 ENGR policy as confirmed
-Fall 2026 fact.
+Live per-course status and verification gaps exist only in
+`wiki\current-position.md`; `wiki\index.md` owns the page inventory. Time-bounded
+pre-semester sequencing lives in
+`01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md`. Do not copy course
+state into this guide.
 
 ## Last Updated
-July 14, 2026 — pre-semester authority, page inventory, and D2L timing reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.
+July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.

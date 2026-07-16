@@ -1,6 +1,7 @@
 ---
 type: guide
-tags: [reference, technology]
+timeline: reference
+tags: [technology]
 ---
 
 # HOW TO USE — 03-WIKIS\TECHNOLOGY
@@ -55,10 +56,10 @@ Log the rep in `wiki/log.md`; update the Technology Library Strategy only if a
 recommendation pattern actually got used.
 
 ## Current State
-The July 13 inventory recorded **107 Technology pages** plus **4 landscape pages**;
-`wiki\index.md` owns the live inventory and should be trusted over copied counts.
-Weekly landscape reps have begun. Applied-reference pages remain retrieval material,
-not a curriculum.
+The landscape frontier exists only in
+`02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md § Current State`;
+`wiki\index.md` owns the applied reference inventory. Do not copy counts or frontier
+state into this guide.
 
 ## How To Ask This Wiki Questions
 - "What does the 12-category map say about [category]?" → `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`
@@ -66,4 +67,4 @@ not a curriculum.
 - "What's new in [category] since I last checked?" → this wiki's landscape pages once reps accumulate them
 
 ## Last Updated
-July 14, 2026 — exact spine paths, inventory, and Watchtower handoff reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.
+July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.

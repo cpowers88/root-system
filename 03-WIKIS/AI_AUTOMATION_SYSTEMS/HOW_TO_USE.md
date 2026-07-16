@@ -1,6 +1,7 @@
 ---
 type: guide
-tags: [reference, ai-automation]
+timeline: reference
+tags: [ai-automation]
 ---
 
 # HOW TO USE — 03-WIKIS\AI_AUTOMATION_SYSTEMS
@@ -50,7 +51,9 @@ Stable, repeated findings hand off to the existing review cadence (handoff → w
 Log new research or proposals in `wiki/log.md`; state whether a proposal is ready to hand to the castle's review cadence.
 
 ## Current State
-Operational research hub. Multiple research batches ingested across AI/agent-pattern landscape and self-evolution research on `.ROOT` itself, with two full research → proposal → review → promotion loops completed. Use `wiki/index.md` for the live page/proposal inventory and `wiki/log.md` for recent session activity — don't rely on exact counts here, they drift.
+Live inventory and proposal status exist only in `wiki/index.md`; recent activity and
+intake history live in `wiki/log.md`. Do not copy batch counts or proposal status
+into this guide.
 
 ## Last Updated
-July 14, 2026 — OS capability-contract and Watchtower handoff paths reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.
+July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.

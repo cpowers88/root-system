@@ -1,6 +1,7 @@
 ---
 type: os
-tags: [reference, systems]
+timeline: reference
+tags: [systems]
 ---
 
 # CLAUDE.md — Systems Wiki OS
@@ -41,7 +42,7 @@ raw/          # source PDFs (Sterman Business Dynamics, Factory Physics, etc.) �
 wiki/
   index.md
   log.md
-  current-position.md   # once ISYE 2600 prep is active
+  current-position.md   # future file; create only once ISYE 2600 prep is active
 ```
 
 The inherited FORGE corpus plus any later direct ingests sit flat in `wiki/`
@@ -78,4 +79,3 @@ here would otherwise cause the same gap to persist silently.
 This wiki activates ISYE-track content on demand and stays audit-usable throughout —
 every page should be able to answer "how does this help diagnose or improve a client's
 operation," not just "what does the textbook say."
-

@@ -32,7 +32,8 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parents[2]
 
 BOOT_FILES = [
-    ROOT / "CLAUDE.md", ROOT / "START_HERE.md", ROOT / "NOW.md", ROOT / "CODEX.md",
+    ROOT / "AGENTS.md", ROOT / "CLAUDE.md", ROOT / "START_HERE.md",
+    ROOT / "NOW.md", ROOT / "CODEX.md",
     ROOT / "00-BRAIN" / "AGENT.md", ROOT / "00-BRAIN" / "CLAUDE.md",
     ROOT / "00-BRAIN" / "CODEX.md", ROOT / "00-BRAIN" / "ATLAS.md",
     ROOT / "00-BRAIN" / "CHRIS_CORE.md", ROOT / "00-BRAIN" / "WHERE_IT_GOES.md",
@@ -89,6 +90,16 @@ def main() -> int:
             failures.append(f"MISSING boot file: {f}")
 
     # Cross-file semantic contracts that simple stale-word scans cannot catch.
+    require("AGENTS.md", r"00-BRAIN\\AGENT\.md",
+            "Codex root pointer routes to the universal OS")
+    require("AGENTS.md", r"00-BRAIN\\CODEX\.md",
+            "Codex root pointer routes to the Codex profile")
+    require("CLAUDE.md", r"00-BRAIN\\AGENT\.md",
+            "Claude root pointer routes to the universal OS")
+    require("CLAUDE.md", r"00-BRAIN\\CLAUDE\.md",
+            "Claude root pointer routes to the Claude profile")
+    require("CODEX.md", r"AGENTS\.md.{0,120}canonical",
+            "legacy Codex pointer defers to canonical AGENTS.md")
     for rel in ("START_HERE.md", "00-BRAIN/vault_map.md",
                 "ROOT_OPERATING_MANUAL.md"):
         require(rel, r"77-INBOX.{0,100}manual|manual.{0,100}77-INBOX",

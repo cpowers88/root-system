@@ -1,7 +1,7 @@
 ---
 type: research
 tags: [ai-automation, claude-code, integrations, ci-cd, platform-landscape]
-source: raw/CLAUDE_FILES/ (Anthropic Claude Code official docs, moved from CASTLE July 12, 2026) — CLI_USE.md, VSCODE_CLAUDE.md, JETBRAIN.md, GITHUB_ACTIONS.md, GITHUB_ENTERPRISE_SERVER.md, GITLAB_CI-CD.md, CLAUDE_CODE_IN_SLACK.md, OVERVIEW-Platform-and-Intergrations.md, "Working at the frontier" (Thomson Reuters case study), Anthropic-enterprise-ebook-digital.pdf (unparsed)
+source: raw/CLAUDE_FILES/ (Anthropic Claude Code official docs, moved from CASTLE July 12, 2026) — CLI_USE.md, VSCODE_CLAUDE.md, JETBRAIN.md, GITHUB_ACTIONS.md, GITHUB_ENTERPRISE_SERVER.md, GITLAB_CI-CD.md, CLAUDE_CODE_IN_SLACK.md, OVERVIEW-Platform-and-Intergrations.md, "Working at the frontier" (Thomson Reuters case study); the formerly unparsed Anthropic enterprise ebook was recovered separately on 2026-07-15 — see [[enterprise-ai-adoption-and-production-roadmap]]
 ---
 
 # Claude Code Integration Surface — CI/CD, IDE, Slack, and Platform Landscape
@@ -163,14 +163,14 @@ reusable in Chris's own `05-BUSINESS` audit/client conversations:
   customer talking about the vendor's own product — treat as a persuasion
   device, not a finding.
 
-## Unparsed: Anthropic-enterprise-ebook-digital.pdf
+## Enterprise ebook block closed (2026-07-15)
 
-**Attempted, could not render.** This environment's PDF reader
-(`pdftoppm`/poppler) is not installed, so the file could not be opened at
-all in this session — not a judgment call that it's low-value, a hard
-technical block. Still queued, as it was in the original CASTLE
-source-summary. If a future session has PDF rendering available, revisit;
-otherwise this stays an open item, not a closed one.
+`Anthropic-enterprise-ebook-digital.pdf` is now fully processed. `pdftotext`
+became available and the 35-page guide was reviewed in five chunks. Its
+durable adoption, pilot, evaluation, rollout, and LLMOps material now lives in
+[[enterprise-ai-adoption-and-production-roadmap]]. Product-generation details
+and vendor customer claims remain clearly tiered there rather than folded into
+this platform inventory.
 
 ## Why this matters for this wiki / `.ROOT`
 

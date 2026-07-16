@@ -1,6 +1,7 @@
 ---
 type: map
-tags: [reference, ai-automation]
+timeline: reference
+tags: [ai-automation]
 ---
 
 # AI_AUTOMATION_SYSTEMS Wiki — Index
@@ -9,21 +10,23 @@ tags: [reference, ai-automation]
 
 ## Status
 
-Operational as of July 8, 2026. Eight research batches ingested (agentic-AI
-papers; AI Agent Index detail data; MCP docs + NIST AI RMF; WTI series +
-OECD AIM; LLM-wiki pattern batch; Pereira O'Reilly book; Claude Code official
-docs pack; OpenAI Platform/ChatGPT/Codex docs pack), two self-evolution
-proposals approved and promoted. **raw/ fully processed as of July 12, 2026
-(session 14)** — both `CLAUDE_FILES/` and `OPEN_AI-CHATGPT_CODEX_FILES/`
-(moved here from `00-BRAIN\CASTLE\raw\books\`, correctly relocated to this
-wiki's intake lane) now read in full and routed into eighteen pages total.
-**One later same-day addition (session 15):** *Building a Second Brain*
-promoted from `77-INBOX` as a self-evolution source — nineteen pages total.
-**Session 16 (same day):** CASTLE-routed `Clippings\` review (GBrain,
-loopany) fully ingested with one live GitHub fetch beyond the clippings
-themselves — twenty pages total, plus a new pending proposal. See `log.md`.
+Operational as of July 8, 2026. Core batches cover agentic-AI evidence, the AI
+Agent Index, MCP and NIST, the Work Trend Index and incident evidence,
+LLM-wiki/self-improving architectures, two software/knowledge-system books, and
+the Claude/OpenAI official-document packs. **The July 15 source audit replaced
+the inaccurate blanket “raw/ fully processed” claim with a source-level coverage
+ledger.** All 176 raw files are now accounted for. Five overlooked research
+papers and the formerly blocked 35-page Anthropic enterprise guide have durable
+wiki coverage. Two large books remain an explicit chunk backlog, and `TLS.pdf`
+is identified as a misplaced systems-improvement source. See
+[[raw-source-coverage]] and `log.md`; “accounted” does not mean “compiled.”
 
 ## Pages
+
+- [Raw-Source Coverage](raw-source-coverage.md)
+  — authoritative ingestion ledger for all 176 raw files; distinguishes
+  compiled, lookup/reference, duplicate, misrouted, and chunk-backlog status.
+  Replaces the old all-or-nothing “fully processed” claim.
 
 - [Agentic AI in Industry: Adoption Level and Deployment Barriers](agentic-ai-industry-adoption-barriers.md)
   — interview study; the capability-deployment **verification gap**; six-level
@@ -74,8 +77,9 @@ themselves — twenty pages total, plus a new pending proposal. See `log.md`.
 - [OECD AI Incidents Monitor (AIM)](oecd-ai-incidents-monitor.md)
   — live catalog of ~16,300 AI incidents/hazards, filterable by harm type,
   business function, and autonomy level; the incident-history lookup for
-  the vetting screen and the failure-evidence counterweight to the
-  capability sources.
+  the vetting screen and the failure-evidence counterweight to capability
+  sources. Two 2026 papers add SORT questions, exposure-adjusted trajectories,
+  principled abstention, and escalation blind-spot tests.
 - [The LLM-Wiki Pattern and Its Second-Brain Implementations](llm-wiki-pattern-and-second-brain-tools.md)
   — Karpathy's pattern + implementations compared against `.ROOT` practice;
   July 14 clipping audit adds source-priority criteria, temporal/variant/true-
@@ -134,8 +138,13 @@ themselves — twenty pages total, plus a new pending proposal. See `log.md`.
   integrations (GitHub Actions, GHES, GitLab CI/CD, Slack→Claude Tag,
   computer use) with **no current `.ROOT` use case**, honestly recorded as
   such; plus the Thomson Reuters case study (fifth independent
-  confirmation of the verification-capacity finding) and the still-unparsed
-  enterprise ebook PDF (hard technical block, poppler unavailable).
+  confirmation of the verification-capacity finding). The former enterprise-
+  ebook parser block is closed and routed to the dedicated roadmap page.
+- [Enterprise AI Adoption and Production Roadmap](enterprise-ai-adoption-and-production-roadmap.md)
+  — full 35-page Anthropic guide processed in five chunks; durable sequence
+  from bounded use-case selection and graduation criteria through evals,
+  progressive rollout, production feedback, and LLMOps. Vendor claims and
+  dated model recommendations are explicitly tiered.
 - [OpenAI Responses API — State, Streaming, and Context Mechanics](openai-responses-api-state-and-streaming.md)
   — three state-management approaches, two extra transports (SSE, WebSocket
   for tool-heavy loops), background mode, structured-outputs constraints,
@@ -211,6 +220,11 @@ themselves — twenty pages total, plus a new pending proposal. See `log.md`.
   GitHub beyond the clippings); the AI Jason video's closed-loop-operations
   framing. Third independent convergence on `.ROOT`'s own raw/wiki/schema
   shape.
+- [Agentic Automation: Architecture, Reliability, and Economic Evidence](agentic-automation-architecture-reliability-and-economic-evidence.md)
+  — three-paper synthesis: ProAgent's explicit workflow/data-contract design;
+  empirical developer evidence that orchestration, memory, contracts, and
+  runtime reliability are the hard problems; and occupation-grounded evidence
+  that high-level workflow completion can hide granular tool/grounding errors.
 
 ## Proposals
 
@@ -269,4 +283,4 @@ themselves — twenty pages total, plus a new pending proposal. See `log.md`.
   `check_at` follow-up.
 
 ---
-*Last updated: July 14, 2026 (Second Brain clipping audit + bounded evidence updates)*
+*Last updated: July 15, 2026 (proposal/check-at retrofit + pointer-state maintenance)*

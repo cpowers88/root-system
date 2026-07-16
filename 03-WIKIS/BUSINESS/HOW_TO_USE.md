@@ -1,6 +1,7 @@
 ---
 type: guide
-tags: [reference, business]
+timeline: reference
+tags: [business]
 ---
 
 # HOW TO USE — 03-WIKIS\BUSINESS
@@ -60,10 +61,10 @@ Update pages when reality disagrees with them — a real call, a real price obje
 Log the field result (call, objection, delivery outcome) against the page it corrects. Move phase tags when timing genuinely changed. Note which phase-2 pages remain unexecuted.
 
 ## Current State
-Pre-First-Contact. School and the live Python/Physics frontiers remain the daily
-spine. Current business work is bounded evidence: practice the observation method,
-collect real workflow evidence when access exists, and do not open outreach or a new
-lane without the CURRENT_STRATEGY/CASTLE gate.
+Live method and offer inventory exists only in
+`wiki\ai-integration-company\index.md`; the active vehicle and milestones live in
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`; immediate sequencing lives
+in `NOW.md` and CASTLE. Do not copy phase or frontier status into this guide.
 
 ## Common Commands / Prompts
 - "Draft outreach for [niche] using the outreach script + market-map"
@@ -76,4 +77,4 @@ lane without the CURRENT_STRATEGY/CASTLE gate.
 - *Post-audit*: audit-report-template filled in the client workspace → approved sanitized case-study version harvested to `05-BUSINESS` → retainer-model consulted for the upsell.
 
 ## Last Updated
-July 14, 2026 — current-strategy authority, live gate path, and Watchtower handoff reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.
+July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.
