@@ -15,7 +15,7 @@ from FORGE's original 135-page technology folder (the other 67 — Python/data-a
 fundamentals — went to `03-WIKIS\PYTHON` instead; see that wiki's `source-map.md`).
 **2026-07-13: full raw/ audit and ingest (107 pages at completion).** After the
 July 15 routing correction and July 16 chunk ingestion, the live inventory is
-**117 content/reference pages** (excluding this index and `log.md`).
+**127 content/reference pages** (excluding this index and `log.md`).
 The audit produced 39 new pages across 9 books + 4 landscape clippings. The
 July 15 structure review moved the post-closure AI-coding landscape into
 `03-WIKIS\AI_AUTOMATION_SYSTEMS`, its canonical intake lane. The audit found 3 confirmed
@@ -25,9 +25,15 @@ dedicated ingest (see `log.md`). Four new category subfolders added
 (`database-sql/`, `software-craft/`, `security/`, `software-engineering/`) plus
 the wiki's first-ever landscape-research pages (3 remain at wiki root) — the original
 stated purpose this wiki carried as an open "next action" since July 7.
-The 28-file raw collection (~669 MiB) is fully accounted, not uniformly compiled:
+The 30-file raw collection (~726.5 MiB) is fully accounted, not uniformly compiled:
 five Stanford AI Index files are covered cross-hub, the prior PDFs were compiled
 or explicitly classified, and earlier web clips have derived or lookup coverage.
+The two newest additions, *Intelligent Instrumentation: Principles and Applications*
+and the ApressOpen *Rethinking the Internet of Things*, are chunk-compiled in the
+`instrumentation-iot/` category. Their durable measurement, intelligent-sensor,
+edge-control, gateway, and publish/subscribe logic is retrieval-ready; 2011-2013
+components, AI recipes, protocols, forecasts, and standards claims still require
+current primary-source verification before operational use.
 The July 16 intake added and chunk-compiled *Learning Domain-Driven Design* and
 *The Elements of User Experience*, plus a historical data-mining adoption deck.
 Every physical raw file now has a row-level disposition in
@@ -176,6 +182,19 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 - [[user-experience/user-experience-five-plane-decision-model|User Experience Five-Plane Decision Model]]
 - [[user-experience/user-experience-strategy-scope-and-requirements|UX Strategy, Scope, and Requirements]]
 - [[user-experience/user-experience-structure-skeleton-surface-and-validation|UX Structure, Skeleton, Surface, and Validation]]
+
+## Instrumentation & IoT (`instrumentation-iot/`, 10 pages, new 2026-07-16)
+
+- [[instrumentation-iot/intelligent-instrumentation|Intelligent Instrumentation - Source Summary and Navigation Hub]]
+- [[instrumentation-iot/measurement-quality-and-sensor-dynamics|Measurement Quality and Sensor Dynamics]]
+- [[instrumentation-iot/intelligent-sensor-architectures-and-validation|Intelligent Sensor Architectures and Validation]]
+- [[instrumentation-iot/sensor-linearization-calibration-and-compensation|Sensor Linearization, Calibration, and Compensation]]
+- [[instrumentation-iot/ai-assisted-sensing-and-prognostic-instrumentation|AI-Assisted Sensing and Prognostic Instrumentation]]
+- [[instrumentation-iot/intelligent-sensor-standards-and-network-boundaries|Intelligent Sensor Standards and Network Boundaries]]
+- [[instrumentation-iot/rethinking-the-internet-of-things|Rethinking the Internet of Things - Source Summary and Navigation Hub]]
+- [[instrumentation-iot/iot-edge-autonomy-local-control-and-trust|IoT Edge Autonomy, Local Control, and Trust]]
+- [[instrumentation-iot/iot-three-tier-publish-subscribe-architecture|IoT Three-Tier Publish/Subscribe Architecture]]
+- [[instrumentation-iot/iot-data-reduction-adoption-and-current-use-filter|IoT Data Reduction, Adoption, and Current-Use Filter]]
 
 ## Landscape Research (wiki root, 3 pages, new 2026-07-13)
 

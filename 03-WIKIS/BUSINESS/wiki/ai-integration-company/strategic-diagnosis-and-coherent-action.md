@@ -120,5 +120,6 @@ part-level chunks.
 - [[north-star-alignment|North Star Alignment]]
 - [[theory-of-constraints|Theory of Constraints]]
 - [[smb-ai-audit-method|SMB AI Audit Method]]
+- [[creative-problem-solving-and-facilitation-toolkit|Creative Problem Solving and Facilitation Toolkit]]
 - [[most-profitable-pathways|Most Profitable Pathways]]
 - [[what-not-to-do|What NOT To Do]]

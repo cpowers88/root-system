@@ -7,7 +7,7 @@ tags: [north-star]
 # SKILL_GAP_ANALYSIS.md — Chris Powers
 #AI #system 
 ### Location: .ROOT/01-NORTH_STAR/
-### Last updated: July 15, 2026 (factual reconciliation; July ranking unchanged) | Review: Monthly (first session after 1st of month)
+### Last updated: July 16, 2026 (factual reconciliation; July ranking unchanged) | Review: Monthly (first session after 1st of month)
 
 ---
 
@@ -36,11 +36,13 @@ is loaded into the tracker around July 25.
 Fix: use and debug the tracker on real course data; use a bounded SQL lesson only
 when it supports that frontier and does not displace Physics/Python mastery.
 
-**1.5 Technology landscape breadth — first rep complete, breadth still early**
+**1.5 Technology landscape breadth — two first reps complete, integration still early**
 The possibility map now exists (02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md — 12 categories, need/waste signals, Recommendation Ladder). The gap is now reps, not structure.
-The first Make.com landscape rep was completed July 9; Looker Studio remains zero-rep.
-Fix: one 30-minute landscape rep weekly when school is on track. Next: build one
-small Looker Studio dashboard from a Sheet and explain when it is the cheapest fit.
+The first Make.com landscape rep was completed July 9 and the first private Data
+Studio dashboard rep was completed and visually verified July 16.
+Fix: one 30-minute landscape rep weekly when school is on track. Next: build
+integration depth and ROI judgment through the Advanced Application Capability
+Trace in `TECHNOLOGY_LIBRARY_STRATEGY.md`, not another broad reading queue.
 
 **2. Structured business analysis — instinct without framework**
 The instinct is there, TOC material is ingested, and one desk-sim observation is
@@ -48,15 +50,17 @@ captured. The documented method still lacks live workflow proof.
 Fix: run one approved real observation and turn it into an actual-state map or VSM;
 record where state, feedback, time, money, or trust leaks.
 
-**3. Data visualization — can find problems, can't show them yet**
-Findings without visuals don't sell. A foreman or business owner needs to see the waste, not just hear about it.
-Fix: Google Looker Studio (free). Connect it to a Google Sheet and build one real dashboard.
+**3. Data visualization — first rep complete, decision communication unproven**
+The private scanner dashboard closed the zero-rep gap. Findings still need to be
+shown around a real decision, defensible calculation, and audience.
+Fix: use the next justified dashboard to communicate cost, variance, or flow from
+a real workflow; do not build a decorative second dashboard.
 
-**4. Python depth — Stage 2 decisions and Boolean logic active**
-Stage 1 is independently verified. The Stage 2 choose-your-path mini-project and
-explain-back remain unproven.
-Fix: follow the PYTHON wiki's current-position and close Stage 2 independently before
-advancing.
+**4. Python depth — Stage 2 closed; Stage 3 loops active**
+Stages 1-2 are independently verified. Stage 3's first live rep is paused during
+`break`/`continue`; accumulator initialization and indentation need a light recheck.
+Fix: follow the PYTHON wiki's current-position and close each stage through an
+independent build/explain/debug gate before advancing.
 
 ---
 
@@ -129,11 +133,12 @@ The audit itself is the first product. Software comes after the audit confirms w
 - [ ] Bookmark: iSixSigma.com, ASQ.org, ConstructionDive.com, AGC.org
 - [ ] First live workflow observation and actual-state map/VSM (July priority #3)
 - [x] First 30-min landscape rep — Make.com (July 9)
-- [ ] Next landscape proof — one small Looker Studio dashboard from a Sheet
-- [ ] Finish and explain the PYTHON Stage 2 mini-project independently
+- [x] First Data Studio dashboard from a Sheet — completed and verified July 16
+- [ ] Follow the Advanced Application Capability Trace without opening parallel projects
+- [ ] Finish PYTHON Stage 3: break/continue, tracing, guessing game, mastery gate
 - [ ] Keep POL parked unless a later weak-link review explicitly reactivates it
 - [ ] Review this file at next monthly review — update weak links
 
 ---
-*Captured: June 5, 2026 | Last reviewed: July 5, 2026 (July monthly review); facts reconciled July 15 without re-ranking*
+*Captured: June 5, 2026 | Last reviewed: July 5, 2026 (July monthly review); facts reconciled July 16 without re-ranking*
 *Next review: August 1, 2026 (monthly weak-link check)*

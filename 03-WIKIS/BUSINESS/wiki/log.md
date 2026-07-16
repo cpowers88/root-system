@@ -592,3 +592,77 @@ four lines above it). No content pages added or removed.
 - During the first approved construction observation, test one actual office/admin,
   estimating, or preconstruction workflow and record whether AI use created value,
   integration friction, new review work, or no meaningful change.
+
+## 2026-07-16 — Real-estate ecosystem entry ideas ranked
+
+### What changed
+
+- Researched the operating boundaries around a Mark Spain-affiliated agent,
+  independent brokers, Georgia closing attorneys, and residential flippers.
+- Updated `market-map.md` with a four-candidate entry ranking. Rejected generic
+  agent CRM and broker-compliance software as first builds because brokerage
+  control and established transaction platforms make them poor individual-agent
+  wedges.
+- Passed a **Flip Margin Leak Audit + Cost-to-Complete Cockpit** into a bounded
+  Phase 2 test: one completed flip, one margin-variance analysis, and one Sheet;
+  no platform or automation unless the investor asks to repeat it on a live deal.
+- Held the broader **Closing Exception Autopsy / Deal Friction Radar** until one
+  safe, redacted delayed transaction proves repeated missing-item chasing,
+  measurable consequence, and a reachable process/budget owner.
+- Preserved Mark Spain, NAR, ATTOM, Georgia regulatory, and Clio source roles in
+  the CASTLE source map before allowing the research to affect the opportunity
+  queue.
+
+### Recommended next action
+
+- With Chris's explicit approval, Heather asks one residential flip investor for
+  a 60-minute replay of a completed project. Ask for the original underwriting
+  and actual cost categories, not live credentials or documents for `.ROOT`.
+
+## 2026-07-16 — Creative problem-solving handbook routed from `77-INBOX`
+
+- Moved and clearly named James M. Higgins's 1994 *101 Creative Problem Solving
+  Techniques: The Handbook of New Ideas for Business* in this hub's immutable
+  `raw/`.
+- Visually verified the title, copyright page, contents, and source purpose. It is
+  a facilitation toolbox spanning problem recognition, assumption testing,
+  individual and group ideation, alternative selection, implementation, and
+  control.
+- Source placement only. Reopen selectively when a real audit workshop,
+  facilitation session, or stuck problem needs additional techniques; do not
+  chunk-ingest 101 methods merely because the catalog exists.
+
+## 2026-07-16 — Creative problem-solving handbook selectively chunk-ingested
+
+### What changed
+
+- Reconciled the 68-file `raw/` inventory against prior intake records. The AGC
+  outlook and the 19-source July book batch were already covered; Higgins's
+  *101 Creative Problem Solving Techniques* was the only outstanding source.
+- Reviewed and dispositioned all 241 physical PDF pages in 11 named chunks,
+  including visual checks at the major method boundaries.
+- Added `creative-problem-solving-and-facilitation-toolkit.md`: an evidence-gated
+  eight-step problem-solving loop, compact technique chooser, bounded workshop
+  protocol, human-agent boundary, and complete source ledger.
+- Linked the method into consulting, the SMB AI audit, strategic diagnosis,
+  product discovery, and the Business operating index.
+
+### What was parked
+
+- The 101 exercise instructions, repeated historical company anecdotes, and
+  technique-by-technique catalog remain immutable in `raw/` for triggered
+  retrieval. They were not reproduced as wiki pages.
+- The book's 1994 cases do not count as current market evidence or proof that a
+  technique works in a present client setting.
+
+### Missing data needed from Chris
+
+- None for source intake. The method has not yet been used in a real workshop;
+  effectiveness and fit remain unproven until a named, observed problem actually
+  requires facilitated option generation or selection.
+
+### Recommended next action
+
+- Keep the toolkit dormant until an audit or workflow observation reaches a
+  specific stuck decision. Then use the smallest applicable technique and ship
+  a decision record plus a bounded test, not a brainstorming transcript.

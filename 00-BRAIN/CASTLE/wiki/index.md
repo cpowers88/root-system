@@ -6,7 +6,7 @@ tags: []
 ---
 
 # Index — Every Page in the Castle
-### Updated: July 14, 2026 (CASTLE system review reconciled)
+### Updated: July 16, 2026 (mid-afternoon system check; current state refreshed)
 
 ## Castle Root Files
 - `.ROOT\NOW.md` — the morning page (castle-owned, lives at the .ROOT root)
@@ -56,8 +56,14 @@ tags: []
 
 ## Current Command-Center State
 
-- Fixed school commitments remain protected. The five-lane Revenue Lab scan and
-  ranked scorecard are complete; March 2027 remains the first consulting-client
-  target, while continuity income is required before Spring 2027 enrollment.
-- Next Revenue Lab action: maintain Lane A's internal proof and run B2's external
-  proof conversation only after Chris explicitly approves it.
+- Fixed school commitments remain protected and moved today: Physics Stage 3 and
+  Python Stage 2 both closed July 16; Stage 4 (Physics) and Stage 3 (Python, first
+  rep mid-drill) are the active learner units.
+- March 2027 remains the first consulting-client target, while continuity income
+  is required before Spring 2027 enrollment. Lane A now has a top-100
+  human-classification worksheet awaiting Chris's labels and a conditional GO for
+  one private scanner walkthrough (≤90 added minutes). B2's external conversation
+  still requires Chris's explicit approval.
+- The July 16 profit gate selected the Flip Margin Leak replay ([[opportunity-queue]]
+  OPP-20260716-01) as the first real-estate service proof; the closing-exception
+  concept is HOLD (OPP-20260716-02).

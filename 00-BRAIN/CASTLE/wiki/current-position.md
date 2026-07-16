@@ -21,28 +21,31 @@ tags: [baseline]
   conversation remains gated on Chris's explicit approval. `NORTH_STAR.md` now
   distinguishes the before-Spring-2027 continuity-income need from the March 2027
   first consulting-client target (SYSTEM_FLAGS #73 closed July 14).
-- **Python:** tracked two ways, both early: CS50P through PS2 (loops), and the
-  `03-WIKIS\PYTHON` wiki's staged path at **Stage 2 of 10 — Decisions and Boolean
-  Logic**. Stage 1 was satisfied July 13 through independent code plus explain-back
-  and traceback reasoning; all 11 stage packets are generated, but generated ≠
-  studied. Current work is the Stage 2 choose-your-path mini-project; the generated
-  spec exists, but no completed independent artifact is recorded yet.
+- **Python:** tracked two ways: CS50P through PS2 (loops), and the
+  `03-WIKIS\PYTHON` wiki's staged path at **Stage 3 of 10 — Loops** (active since
+  July 16). Stage 1 was satisfied July 13; **Stage 2 was closed July 16** through
+  the cold `Story.py` explain-back plus Chris's own independent `S2P3.py`
+  correction. Stage 3's first live rep ran July 16 (for/while, range, accumulator)
+  and paused mid `break`/`continue` drill — the stage is open, not closed.
 - **Physics:** `03-WIKIS\PHYSICS` wiki's own `current-position.md` records the active
-  unit as **Stage 3 of 18 — Vectors** (Serway Ch 3), packet complete. Stages 1–2 are
-  assumed cleared from the July stage-packet build-ahead — confirm their mastery
-  checklists before treating them as done if it's been a while since they were last
-  drilled. (Reconciled July 12, 2026 — this line previously lagged the domain wiki
-  at a stale "Stage 1" reading.)
+  unit as **Stage 4 of 18 — Motion in Two Dimensions** (packet source-verified
+  July 7). **Stage 3 (Vectors) was closed July 16** with the full mastery checklist
+  passed cold, no notes; a real-textbook Serway Ch 3 problem set exists for
+  durability reps. (Reconciled July 16, 2026 — this line previously lagged the
+  domain wiki.)
 - **SQL:** #1 skill gap (July monthly review) — now with a live vehicle: the
   [[ksu-academic-tracker]] build (real schema, real queries, ~July 25 deadline).
 - **Audit methodology:** instinct without framework. "The Goal"/TOC already ingested
   into `03-WIKIS\BUSINESS\wiki\ai-integration-company\theory-of-constraints.md`. VSM not
   yet practiced on a real process. Observation methodology
   template exists in `05-BUSINESS\01-Audit Templates\` but is unproven.
-- **Data visualization:** can find problems, can't show them yet. Looker Studio: zero reps.
+- **Data visualization:** first private Data Studio dashboard rep completed and
+  verified July 16. The remaining gap is showing a real operational decision,
+  calculation, and ROI clearly enough for another person to act.
 - **Technology landscape:** structure exists (TECHNOLOGY_LIBRARY_STRATEGY.md — 12
-  categories + Recommendation Ladder); first weekly rep (Make.com) logged July 9,
-  with additional landscape pages added July 13.
+  categories + Recommendation Ladder); first Make.com and Data Studio reps are
+  complete. The new Advanced Application Capability Trace identifies integration,
+  production operation, and governed-AI proof as later rungs rather than reading queues.
 - **Business assets already built:** 51-page business-model wiki, delivery template
   library (audit report, proposal, SOW, outreach), pricing worksheet, field-notes
   method with one June 5 construction-domain hypothesis note and one July 14
@@ -62,10 +65,10 @@ tags: [baseline]
 | # | Gap | The fix in motion |
 |---|---|---|
 | 1 | SQL | Tracker sessions daily; Luke Barousse segments on off days (20 min) |
-| 1.5 | Tech landscape breadth | One 30-min rep weekly — first: Make.com, Looker Studio |
+| 1.5 | Tech landscape breadth | Make.com + Data Studio first reps done; next close integration/ROI proof through the application trace |
 | 2 | Structured business analysis | Read core frameworks; practice VSM on known workflows |
-| 3 | Data visualization | One real Looker Studio dashboard from a Google Sheet |
-| 4 | Python depth | Stay on CS50P; tie every PS to a real use |
+| 3 | Data visualization | Use the next justified dashboard for a real decision and defensible calculation |
+| 4 | Python depth | Stage 3 loops active; close each stage by independent build/explain/debug proof |
 
 ## Assets Chris Has That Most Beginners Don't
 

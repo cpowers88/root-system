@@ -186,6 +186,45 @@ signals money is about to be wasted, and representative tools by tier.
 
 ---
 
+## Advanced Application Capability Trace
+
+The library already contains enough theory to describe advanced systems. The
+missing bridge is a verified sequence of programs that proves Chris can combine
+the pieces into a reliable application. Complete these in order of dependency,
+but use the smallest live project that exercises the rung.
+
+| Rung | Program to complete | Proof that closes the rung | Current state |
+|---:|---|---|---|
+| 1 | **Python foundation:** PYTHON Stages 3-8 (loops through algorithms/problem solving) | Independently build, debug, and explain each stage project | Stage 3 active; later packets exist but are not mastered |
+| 2 | **Data and automation:** PYTHON Stages 9-10 plus practical SQL | A useful CLI/automation tool backed by a designed SQLite schema, joins, aggregation, transactions, and tests | Tracker/scanner provide live vehicles; SQL reliability remains the July weak link |
+| 3 | **Decision interface:** Data Studio/Sheets, then Python visualization when justified | A refreshed dashboard that answers a named decision and shows calculation provenance | First private Data Studio rep completed July 16; decision/ROI communication still needs a real use case |
+| 4 | **Integration:** one low-code flow, then one Python API/webhook integration | Move data safely between two systems with authentication, idempotency, error handling, retries, and a human-visible failure path | Make.com landscape rep and one public-API scanner rep complete; end-to-end integration proof open |
+| 5 | **Production application:** Flask + SQLAlchemy + REST + authentication + tests | A small multi-user application with a real schema, permissions, validation, tests, and an operator handoff | Reference material exists; no complete production-style application proof |
+| 6 | **Deployment and operations:** hosting, configuration, CI/CD, security, observability, backup/recovery | Deploy the rung-5 app, observe it, recover one induced failure, and complete a defensive review | Knowledge exists in TECHNOLOGY; integrated proof open |
+| 7 | **Governed AI application:** structured model output inside a measured workflow | A bounded AI feature with an evaluation set, human approval gate, privacy boundary, cost/latency record, monitoring, and rollback | Safety/eval knowledge is deep; application proof open |
+| 8 | **Industrial advanced application:** optimization, IoT, digital twin, simulation, or predictive maintenance | Use only when a measured industrial problem and suitable data justify it; compare against a simpler baseline | Reference shelf growing; not an active prerequisite or project |
+
+### Completion rule
+
+A rung closes only when the program has (1) a working artifact, (2) an independent
+explain-back, (3) a tested failure or edge case, and (4) a short operating handoff.
+Reading, generated curriculum, copied tutorials, and AI-written code do not close a
+rung. Rungs 7-8 may be explored conceptually, but a claim of advanced application
+capability requires the production disciplines in Rungs 4-6.
+
+### Best current vehicle
+
+Do not launch eight projects. Continue the existing chain:
+
+`Python Stage 3 -> scanner/tracker SQL -> decision dashboard -> one API/webhook
+integration -> one small Flask application -> deploy and operate it -> add one
+evaluated AI feature only if the workflow needs it.`
+
+The eventual client-facing build should come from a verified observation. Until
+then, the tracker and scanner are safe internal practice vehicles.
+
+---
+
 ## Maintaining the Map — Cadence
 
 - **Weekly (30 min max):** one landscape rep — study one category, one tool,
@@ -213,11 +252,13 @@ construction-domain knowledge are available for audit work.
 **Live gaps (in priority order):**
 1. SQL remains the July monthly weak link; the next meaningful proof is using the
    tracker with verified real course data, not expanding V2 speculatively.
-2. Category 3 (Looker Studio) still needs its first hands-on dashboard rep. Category
-   4 (Make.com) has one landscape rep but not yet a reused recommendation pattern.
-3. API use is no longer zero, but integration depth and vendor-neutral selection
-   judgment remain early.
-4. ROI math practice remains open; no real recommendation has yet been costed.
+2. Category 3's first private Data Studio dashboard rep was completed July 16.
+   The remaining gap is turning a real decision and defensible calculation into a
+   visual another person can use.
+3. API use is no longer zero, but end-to-end integration depth, failure handling,
+   authentication, and vendor-neutral selection judgment remain early.
+4. Production application operation and ROI math remain open: no complete app has
+   yet been deployed/recovered, and no real recommendation has been costed.
 
 **Sequencing rule:** prerequisites and the monthly weak-link review guide the next
 rep, but there is no permanent tool-by-tool lock. Prefer the smallest real project
@@ -225,4 +266,4 @@ or decision that exercises the live gap without displacing school or verified wo
 
 ---
 *One file, one map. Wiki refines; this file operationalizes; audits sell it.*
-*Last updated: July 15, 2026 (post-North-Star factual reconciliation; July 5 weak-link ranking preserved until the August monthly review) | Next review: August 1, 2026*
+*Last updated: July 16, 2026 (advanced-application trace and factual reconciliation; July 5 weak-link ranking preserved until the August monthly review) | Next review: August 1, 2026*

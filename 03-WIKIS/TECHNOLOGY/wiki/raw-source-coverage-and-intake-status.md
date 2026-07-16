@@ -19,7 +19,7 @@ tags: [technology, governance, source-coverage]
 - **Reference-only:** retained for a future triggered lookup; no current page gap justified ingestion.
 - **Excluded:** reviewed and intentionally not ingested because stronger coverage exists or the source is too shallow.
 
-## Physical File Ledger (28/28)
+## Physical File Ledger (33/33)
 
 | # | Raw file | Status | Durable coverage or reason |
 |---:|---|---|---|
@@ -51,19 +51,24 @@ tags: [technology, governance, source-coverage]
 | 26 | `The-Pragmatic-Programmer;Journeyman-Master.pdf` | Selective | `software-craft/pragmatic-programmer-core-principles.md` |
 | 27 | `UserExperience.pdf` | Compiled | `user-experience/elements-of-user-experience.md` plus three applied pages; all 191 pages dispositioned in eight chunks |
 | 28 | `Using OAuth 2.0 to Access Google APIs    Authorization.md` | Reference-only | Official Google overview retained for a triggered Google API authorization decision; volatile implementation details must be reverified at use time |
+| 29 | `Intelligent Instrumentation - Principles and Applications - Manabendra Bhuyan.pdf` | Selective, historical | `instrumentation-iot/intelligent-instrumentation.md` plus five applied pages; all 548 physical pages dispositioned in eleven chunks, with durable measurement/sensor logic compiled and equations, circuits, components, and old protocol implementations retained for lookup |
+| 30 | `Rethinking the Internet of Things - Francis daCosta.pdf` | Compiled, historical | `instrumentation-iot/rethinking-the-internet-of-things.md` plus three applied pages; all 185 physical pages dispositioned in eleven chunks, with the proposed Chirp protocol and 2013 predictions explicitly bounded as historical |
+| 31 | `Next-Generation Industrial Engineering - AI Smart Manufacturing and Sustainable IE (2026).pdf` | Reference-only | Open-access eight-chapter collection spanning smart-industry safety, digital twins, manufacturing AI/ML, robotics, and predictive analytics; retrieve only for a named industrial application question and verify strong claims against primary evidence |
+| 32 | `Intelligent Automation AI Systems and Digital Engineering in Oil Gas Chemical Industries - Volume 3 (2026).pdf` | Reference-only | Open-access mixed collection of 17 oil/gas/chemical, automation, anomaly-detection, energy, and environmental applications; broad case discovery, not a coherent implementation curriculum |
+| 33 | `Swarm Intelligence - Ant and Particle Swarm Optimization.pdf` | Reference-only, historical | Open-access 27-chapter ACO/PSO collection (2007 content, 2019 PDF); advanced optimization lookup behind algorithms, statistics, and a real objective-function/data need |
 
 ## Source-Family Summary
 
 | Disposition | Physical files | Meaning |
 |---|---:|---|
-| Compiled | 7 | Full useful source coverage with explicit navigation/ledger |
-| Selective | 8 | Useful deltas ingested; overlap or low-value material explicitly omitted |
+| Compiled | 8 | Full useful source coverage with explicit navigation/ledger |
+| Selective | 9 | Useful deltas ingested; overlap, derivations, or low-value material explicitly omitted |
 | Derived | 5 | Web clipping converted into a landscape/reference page |
 | Cross-hub | 6 | Canonical synthesis exists in the owning sibling wiki |
-| Reference-only | 1 | Parked until a concrete OAuth implementation decision |
+| Reference-only | 4 | OAuth plus three advanced industrial/optimization collections parked behind concrete build or decision triggers |
 | Excluded | 1 | Introductory source adds no durable gap |
 
-The disposition counts total 28 and match the numbered ledger: **28/28 physical
+The disposition counts total 33 and match the numbered ledger: **33/33 physical
 files accounted**. Source-family counts differ because the five AI Index files
 represent one report plus four pre-split working copies; the row-level ledger is
 the authoritative physical-folder closure check.
@@ -80,3 +85,7 @@ the authoritative physical-folder closure check.
 - July 13, 2026: prior raw collection audited and selectively compiled/routed.
 - July 15, 2026: structure, navigation, and raw accounting rechecked.
 - July 16, 2026: three new sources chunk-reviewed and compiled; ledger expanded to all 28 physical files.
+- July 16, 2026: one advanced instrumentation textbook routed from `77-INBOX` as reference-only; ledger expanded to all 29 physical files.
+- July 16, 2026: one ApressOpen IoT architecture book routed from `77-INBOX` as historical reference-only; ledger expanded to all 30 physical files.
+- July 16, 2026: the two newest sources were reopened at Chris's direction and chunk-compiled into `instrumentation-iot/`; all 733 combined physical pages now have explicit dispositions.
+- July 16, 2026: three unique open-access industrial/optimization collections routed from `77-INBOX` as reference-only; ledger expanded to 33/33 without opening a new study queue.

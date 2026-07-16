@@ -866,3 +866,72 @@ gate before any permanent content/revenue workspace or publishing commitment.
   metadata debt is 618, with no baseline refresh or unrelated migration.
 - Next: Chris reviews this exact three-file Phase 5E checkpoint before commit and
   selection of the next bounded metadata realm.
+
+## 2026-07-16 — Profit gate: real-estate ecosystem entry concepts
+
+- Ran the live adding-a-profit-skill gate against the easiest warm-network
+  workflows rather than treating a “groundbreaking platform” as evidence.
+- **PASS — Flip Margin Leak Audit + Cost-to-Complete Cockpit.** No-orphan:
+  serves the current real-estate/construction Advisor-Builder wedge. Source:
+  ATTOM's 2025 flip-return data (including nationally leading flip rates in Cobb
+  and Clayton counties) plus the existing BUSINESS evidence home. Phase:
+  Phase 2 observation/service proof. Displacement: replaces the generic public-
+  data baseline and speculative intake-platform build. Proof: one completed flip
+  replay identifies a material underwriting-to-actual variance and earns a
+  request to monitor the next deal. Logged as `OPP-20260716-01`, worth testing.
+- **HOLD — Closing Exception Autopsy / Deal Friction Radar.** No-orphan and phase
+  pass; regulated responsibility and existing platforms are documented, but the
+  specific unsolved local exception, buyer, and lawful data path remain unknown.
+  Unlock condition: one redacted delayed or failed transaction proves repeated
+  chasing, measurable consequence, and a reachable owner. Logged as
+  `OPP-20260716-02`, researching; no platform build.
+- High-load warning applied once: school remains fixed. The first approved proof
+  is capped at one 60-minute conversation and one Sheet, displacing other business
+  exploration rather than Python or Physics work.
+
+## 2026-07-16 (14:30) — Mid-afternoon system check and cockpit reconciliation (Claude Code, CASTLE hat)
+
+- Reviewed the full day against the command center: Physics Stage 3 and Python
+  Stage 2 both closed today; Python Stage 3 first rep is paused mid
+  `break`/`continue` drill; the real-estate profit gate produced OPP-20260716-01
+  (PASS, worth testing) and -02 (HOLD); Lane A gained a top-100 human
+  classification worksheet and a conditional-GO private proof; the metadata
+  regression was repaired to `PASS_WITH_DEBT` with a Sunday July 19 recurrence
+  review.
+- Corrected drift, no structure opened: refreshed `NOW.md` (Start Here now leads
+  with the paused Python drill; Business/Continuity/`.ROOT` rows updated; July
+  19/21/23 triggers added; Anki import listed as the 5-minute human task);
+  updated [[current-position]] and [[source-map]] learner positions to Python
+  Stage 3/10 and Physics Stage 4/18; refreshed [[index]]'s current state.
+  Opportunity queue and source registrations from the morning gate were already
+  correct — verified, not duplicated.
+- Float-time verdict: (1) 5-min Anki import, (2) resume the paused Python Stage 3
+  drill — smallest open loop on the school spine, (3) then either the Lane A
+  worksheet labels or the private scanner proof; Looker Studio only if school
+  stays on track. No new architecture work is warranted.
+- Next action: resume Python Stage 3 at the range(1,21) multiples-of-7
+  `break`/`continue` drill.
+
+## 2026-07-16 (15:10) — Chris-directed rebalance: pre-semester is the heavy tech-stack window
+
+- Chris corrected the 14:30 float-time verdict: today already carried 3–4 hours
+  of school work and two stage closures, it is summer break, and syllabi don't
+  arrive until ~July 25. School-first ordering applies to fixed deadlines, which
+  don't exist yet. The pre-semester plan's own priority 5 permits wider
+  capability work whenever the live school proofs are on track — today they are
+  closed, not just on track.
+- New operating rhythm until Aug 24 (recorded in `NOW.md` Start Here #3): one
+  school proof block per day (Python/Physics stage reps, mornings as today),
+  then heavy tech-stack blocks with remaining capacity — daily SQL against the
+  scanner's live SQLite DB (real data now; switch to the tracker at the ~July 25
+  D2L turn), Looker Studio dashboard reps starting with scanner data via a
+  Google Sheet, the weekly landscape rep, and scanner build features that double
+  as Lane A evidence.
+- Looker Studio moved from "if school remains on track" to a committed This Week
+  item: it kills the #3 weak-link zero-rep gap, counts as the landscape rep, and
+  rehearses the cost-cockpit deliverable the flip-margin proof (OPP-20260716-01)
+  will need.
+- No doctrine change: AGENT.md priorities, the pre-semester plan, and approval
+  gates are untouched. This is daily-sequencing texture, which NOW/CASTLE owns.
+- Next action: Stack Rep #1 — export the scanner top-100 to a Google Sheet and
+  build the first Looker Studio dashboard.

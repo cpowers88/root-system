@@ -484,3 +484,86 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
   conversation that tests pain and willingness to pay.
 - No outreach, account creation, API-key action, Python-school edit, DAILY/NOW
   update, or CASTLE current-position change was made for this work.
+
+## 2026-07-16 - Intelligent instrumentation source routed from `77-INBOX`
+
+- Moved and clearly named Manabendra Bhuyan's 547-page *Intelligent
+  Instrumentation: Principles and Applications* in this hub's immutable `raw/`.
+- Visually verified the title, CRC Press copyright page, contents, and opening
+  chapter. The source covers sensors/transducers, performance and uncertainty,
+  system dynamics, intelligent sensors, calibration/compensation, ANN-based
+  sensing, and sensor standards/protocols.
+- Classified it reference-only. It is an advanced undergraduate/graduate
+  engineering source with instrumentation prerequisites, so it does not displace
+  the current SQL, Looker Studio, API-depth, or ROI-practice frontier.
+- Next: retrieve it only for a real instrumentation, controls, industrial-sensing,
+  or measurement-system decision.
+
+## 2026-07-16 - ApressOpen IoT architecture book routed from `77-INBOX`
+
+- Moved and clearly named Francis daCosta's 185-page *Rethinking the Internet of
+  Things: A Scalable Approach to Connecting Everything* in this hub's immutable
+  `raw/`.
+- Verified the title, contents, opening argument, and the publisher's embedded
+  ApressOpen license. The license permits complete electronic copying, use, and
+  distribution without modification for noncommercial purposes, so this source
+  does not carry the provenance problem found in user-uploaded commercial PDFs.
+- Classified it reference-only and historical. Its durable value is in edge
+  autonomy, local control loops, terse machine messages, publish/subscribe, and
+  layered IoT architecture; its 2013 protocol, scale, cost, and standards claims
+  require current primary-source verification.
+- Next: retrieve it only when a real IoT or edge-architecture decision needs a
+  historical alternative to current protocol assumptions.
+
+## 2026-07-16 - Instrumentation and IoT sources chunk-compiled
+
+### What changed
+
+- Reopened the two newest raw sources at Chris's direction and created the
+  evidence-backed `instrumentation-iot/` applied-reference category.
+- Dispositioned all 548 physical pages of *Intelligent Instrumentation* in eleven
+  chunks. Added a source hub and five retrieval pages covering measurement quality
+  and dynamics, intelligent/soft/adaptive/self-validating sensor architectures,
+  linearization/calibration/compensation, AI-assisted sensing/prognostics, and
+  standards/network boundaries.
+- Dispositioned all 185 physical pages of *Rethinking the Internet of Things* in
+  eleven chunks. Added a source hub and three retrieval pages covering edge autonomy
+  and local control, the three-tier publish/subscribe model, and data reduction and
+  adoption.
+- Preserved raw immutability. Equations, circuit derivations, component surveys, and
+  historical packet/protocol implementations remain in the PDFs rather than being
+  copied into the wiki.
+
+### Evidence boundary
+
+- The instrumentation source remains **selective, historical**: durable metrology and
+  architecture logic is compiled, while 2011 components, ANN/fuzzy recipes, protocol
+  versions, and safety-critical implementation details require current specialist and
+  primary-source verification.
+- The IoT source is **compiled, historical**: its placement-of-complexity questions are
+  durable, but Chirp is a proposed architecture rather than an adopted standard, and
+  its IPv6, security, scale, cost, and ecosystem claims are not promoted as current.
+- This intake adds retrieval capacity; it does not displace the live SQL, Looker
+  Studio, API-depth, or ROI-practice frontier in the Technology Library Strategy.
+
+## 2026-07-16 - Advanced industrial/optimization books routed and application trace added
+
+- Verified title, contents, licensing, page count, and unique SHA-256 identity for
+  three new open-access PDFs from `77-INBOX` and moved them into immutable `raw/`
+  under searchable names.
+- Classified *Next-Generation Industrial Engineering* (122 pp.), *Intelligent
+  Automation...Volume 3* (301 pp.), and *Swarm Intelligence* (552 pp.) as
+  reference-only. They add industrial use-case and optimization lookup capacity,
+  but they do not supply the current Python/SQL/integration prerequisites or prove
+  the broad performance claims in their contributed chapters.
+- Added the authoritative eight-rung Advanced Application Capability Trace to
+  `TECHNOLOGY_LIBRARY_STRATEGY.md`: Python -> SQL/automation -> decision interface
+  -> integration -> production app -> deployment/operations -> governed AI ->
+  triggered industrial methods. Each rung requires an artifact, explain-back,
+  failure test, and operating handoff.
+- Reconciled the completed private Data Studio rep in the strategy, North Star
+  skill-gap tracker, and CASTLE current position. July's ranking remains unchanged:
+  SQL reliability is still the immediate weak link.
+- Next: resume Python Stage 3, then use tracker/scanner SQL as the next application
+  rung. Do not begin swarm, quantum, digital-twin, or predictive-maintenance study
+  without a measured problem and prerequisite need.

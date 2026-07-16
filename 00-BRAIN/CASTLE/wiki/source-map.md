@@ -33,7 +33,7 @@ tags: [sources]
 | Delivery templates (11) | `03-WIKIS\BUSINESS\...\templates\` | support | Proposal, SOW, outreach, retainer reporting | 4–6 |
 | Field notes + template | `05-BUSINESS\02-Field Notes\` | support | Observation practice record | 2 |
 | Revenue Lab lane scorecard + evidence pages | `03-WIKIS\REVENUE_LAB\wiki\` | support | July 14 continuity-income lane comparison, bounded proof status, and authorization limits | 0–1, continuity |
-| `03-WIKIS\PYTHON` + `03-WIKIS\PHYSICS` wikis — **positions reconciled 2026-07-14** | root | support | Staged school-readiness paths with mastery gates. Real positions: Python Stage 2/10 (Stage 1 verified July 13), Physics Stage 3/18. `03-WIKIS\PYTHON` Stages 9–10 (automation bridge: CSV/JSON/reports/SQLite/CLI) directly pre-train castle Phase 3 skills | 1, 3 |
+| `03-WIKIS\PYTHON` + `03-WIKIS\PHYSICS` wikis — **positions reconciled 2026-07-16** | root | support | Staged school-readiness paths with mastery gates. Real positions: Python Stage 3/10 active (Stages 1–2 verified July 13/16), Physics Stage 4/18 active (Stage 3 closed July 16). `03-WIKIS\PYTHON` Stages 9–10 (automation bridge: CSV/JSON/reports/SQLite/CLI) directly pre-train castle Phase 3 skills | 1, 3 |
 | Active pre-semester plan | `01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md` | support | Coordinates summer sequencing from live PYTHON, PHYSICS, and EDUCATION truth | 0–1 |
 | Weekly/monthly reviews | `01-NORTH_STAR\Weekly Reviews\` | support | Evidence trail for current-position | 0 |
 
@@ -53,6 +53,11 @@ tags: [sources]
 | ConstructionDive / AGC.org tech sections | 2–3 | market-signal | Contractor tech-adoption reality | 2, 4 |
 | Luke Barousse SQL course | 3 | support | SQL reps between tracker sessions | 0–1 |
 | MIT OCW Operations Management | 1 | support | Break-time depth aligned to coursework | 1, 7 |
+| Mark Spain Real Estate public operating/careers pages (2024–2026) | 1 for the company's own stated operating model | market-specific support | The brokerage supplies ISA lead generation/scheduling, concierge/marketing support, and agent technology; an affiliated agent is an access point and workflow observer, not the assumed buyer of a duplicate CRM/platform | 2 |
+| NAR 2025 REALTORS Technology Survey | 2 | market-signal | Brokerage-provided technology is common; generic agent technology is crowded, and agent-level authority must be separated from brokerage authority | 2–4 |
+| ATTOM 2025 Year-End U.S. Home Flipping Report (released 2026-03-19) | 2 | market-signal | Flipper gross ROI and gross profit compressed in 2025, raising the value of disciplined acquisition, rehab, holding-cost, and cost-to-complete controls | 2–4 |
+| State Bar of Georgia FAO 23-1 + GREC Rule 520-1-.10 guidance | 1 | constraint | Georgia lawyers retain responsibility for the closing process; brokers have transaction-record and audit obligations. Automation must preserve attorney/broker control and traceability. | 2–5 |
+| Clio 2025 Legal Trends for Solo and Small Law Firms | 2 | market-signal | Small-law-firm intake and administrative throughput are plausible value pools, but vendor-reported correlations require local workflow validation before an offer or build | 2–4 |
 
 ## Parked Source Pools
 

@@ -63,6 +63,7 @@ Every page separates **Beginner** actions (you, solo, learning), **Intermediate*
 | [[lean-methodology|Lean Methodology]] | VSM field method, seven wastes, the "monument" diagnostic, and the five-year Action Plan retainer template (migrated from FORGE, July 7, 2026) |
 | [[owner-dependency-diagnostic|Owner-Dependency Diagnostic]] | E-Myth root-cause, growth-stage, and target-state diagnostics — the backbone of the discovery interview and report structure (migrated from FORGE, July 7, 2026) |
 | [[consulting-methodology|Consulting Methodology]] | Flawless Consulting's contracting, discovery, resistance, feedback, and implementation mechanics — the engagement layer underneath every client conversation (migrated from FORGE, July 7, 2026) |
+| [[creative-problem-solving-and-facilitation-toolkit|Creative Problem Solving and Facilitation Toolkit]] | How to move an evidence-backed stuck problem through reframing, alternatives, choice, and a bounded implementation test |
 
 ## 3. Service Pathways
 

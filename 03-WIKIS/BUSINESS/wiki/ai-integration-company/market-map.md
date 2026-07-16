@@ -110,6 +110,37 @@ Free, current, citable data for sizing verticals, timing pitches, and building d
 - *Strong fit:* repeated admin work, messy handoffs, slow follow-up, heavy owner dependency, poor CRM discipline, staff doing copy/paste work, revenue visibly lost to delay or disorganization
 - *Walk away:* wants magic AI with no process discipline, refuses to document operations, can't define success, wants risky automation with no review gates ([[quality-control-and-risk-gates|Quality Control & Risk Gates]]), or has no budget
 
+### Real-Estate Ecosystem Entry Ranking — 2026-07-16
+
+Heather's network improves access, but access and buying authority are different.
+Mark Spain Real Estate publicly describes an operating model in which its ISA team
+generates and schedules leads while concierge/marketing teams and brokerage-provided
+technology support agents. That makes generic lead capture, CRM replacement, and
+transaction-platform work a weak first pitch to an affiliated agent: the agent may
+feel friction without controlling the system, data, vendor, or budget.
+
+The first-conversation ranking is therefore:
+
+| Rank | Candidate | Economic reason | Smallest honest proof | Verdict |
+|---:|---|---|---|---|
+| 1 | **Flip Margin Leak Audit + Cost-to-Complete Cockpit** | ATTOM reports 2025 typical flip gross profit fell to $65,981 and gross ROI to 25.5%, the lowest since 2008; that gross measure excludes rehab and other expenses. Cobb (19.6%) and Clayton (19.5%) were the two highest-flip-rate U.S. counties in ATTOM's qualifying 2025 county set, making this both economically pressured and locally reachable | Replay one completed flip from original underwriting through actual costs; identify the largest explainable variance and build one human-reviewed Sheet before any automation | **PASS — worth testing** |
+| 2 | **Closing Exception Autopsy → Deal Friction Radar** | Agents, attorneys, lenders, brokers, and clients create cross-party waits; Georgia attorneys must control closings and brokers retain auditable transaction records, so exception visibility may have value | Reconstruct one recent delayed or failed transaction using a safe, redacted timeline; prove repeated missing-item chasing, a controllable owner, and a measurable consequence | **HOLD — conversation only until local proof** |
+| 3 | **Referral-to-Consult Intake Relay for a small law firm** | Clio's 2025 vendor dataset associates digital intake tools with stronger lead and revenue outcomes in solo/small firms | Follow one recent referral from introduction to booked/declined consultation and measure response, missing information, and conversion | **HOLD — crowded category and sensitive data** |
+| 4 | Broker compliance automation or generic agent CRM | Compliance matters, but established transaction platforms already automate templates, tasking, audit trails, and review; brokerage authority is required | None before a broker names a specific unsolved exception | **REJECT as a first build** |
+
+**Recommended offer shape:** do not start with an intake platform. Start with a
+fixed-scope forensic service: one completed flip, its original deal assumptions,
+actual invoices/changes/holding costs, and a one-page margin-variance finding. The
+software opportunity is earned only if the investor wants the same visibility on
+the next live project. This combines the real-estate access wedge, construction
+cost fluency, workflow observation, and the Looker/Sheet dashboard proof without
+requiring brokerage integration.
+
+**Boundary:** no live client documents, MLS data, legal conclusions, automated wire
+instructions, or company-confidential Mark Spain data enter `.ROOT`. Closing/legal
+automation must remain administrative and human-reviewed; the attorney controls the
+closing and the broker controls brokerage compliance.
+
 ## What They Actually Pay For
 Ranked by willingness to pay (maps to the [[most-profitable-pathways|pathway pages]]):
 

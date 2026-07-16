@@ -1369,3 +1369,16 @@ The ledger now marks *Empire of AI* fully compiled through all argument-bearing
 text (physical pp. 8-398) in fourteen retrieval pages. Acknowledgments begin on
 p. 399 and notes on p. 403; they and the remaining bibliography/index are
 reference back matter rather than an ingestion backlog.
+
+## 2026-07-16 — AI-pedagogy collection routed as lookup reference
+
+- Verified the title, ten-chapter contents, CC BY 4.0 license, 157-page extent,
+  and unique SHA-256 identity of *Emerging Pedagogies: AI, Territory, and
+  Situated Knowledges* before moving it from `77-INBOX` into immutable `raw/`.
+- Classified it lookup/reference rather than a compilation queue. It adds
+  perspectives on algorithmic literacy, epistemic inequality, ethical teaching,
+  design thinking, and critical thinking, but does not close the live gap between
+  existing AI knowledge and a production application.
+- Next: retrieve it only for a named AI-literacy, educational-governance, or
+  situated-human-impact question; do not let it displace Python, SQL, integration,
+  or real workflow proof.

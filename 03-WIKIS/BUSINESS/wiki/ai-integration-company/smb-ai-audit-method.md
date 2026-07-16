@@ -155,6 +155,7 @@ The audit is where the [[progressive-operating-thesis|thesis]] first touches a c
 - [[theory-of-constraints|Theory of Constraints]] — the full framework (throughput/inventory/operational-expense measurements, cost-world vs. throughput-world, the asymmetry rule) behind the constraint-first diagnosis logic above
 - [[owner-dependency-diagnostic|Owner-Dependency Diagnostic]] — the *why is this business stuck* complement: root-cause, growth-stage, and target-state diagnostics to run alongside this method
 - [[consulting-methodology|Consulting Methodology]] — the contracting, discovery-interview, and feedback-meeting mechanics behind Steps 1, 2, and 6
+- [[creative-problem-solving-and-facilitation-toolkit|Creative Problem Solving and Facilitation Toolkit]] — use only after findings are evidenced, when stakeholders need a structured route from diagnosis to options and a test
 - [[negotiation-toolkit|Negotiation Toolkit]] — discovery-interview technique (Step 2) and reading real buy-in in the findings presentation (Step 6)
 - [[service-offer-ladder|Service Offer Ladder]] — where the audit sits in the stack
 - [[human-agent-operating-model|Human-Agent Operating Model]] — the classification engine of Step 3

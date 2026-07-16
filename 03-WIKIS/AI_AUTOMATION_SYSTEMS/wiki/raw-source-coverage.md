@@ -11,7 +11,7 @@ is retrievable in wiki/report form), **lookup/reference** (accounted for but not
 compiled), **duplicate**, and **misrouted**. A raw file existing on disk or
 having been opened once is not, by itself, evidence of ingestion.
 
-Coverage audit: **2026-07-16** — 179 raw files, approximately 180 MiB (live
+Coverage audit: **2026-07-16** — 180 raw files, approximately 184.6 MiB (live
 recount after book intake).
 
 ## Large PDF and book sources
@@ -33,6 +33,7 @@ recount after book intake).
 | `DeepLearningTextbook.pdf` (800 pp.) | Prerequisite reference; not compiled | Foundational 2016 technical text. Keep behind active math/ML prerequisites; not an active reading assignment. |
 | `mastering claude.pdf` (401 pp.) | **Verification backlog; not compiled** | 2025 product-specific guide. Verify volatile Claude features against current official documentation before promoting claims. |
 | `TheAlignmentProblem.pdf` (617 physical pp.; main text ends p. 403) | **Compiled; full main text** | Prologue (pp. 9-12), Introduction and Parts I-III (pp. 13-380), and Conclusion (pp. 381-403) reviewed in named chunks. Retrieval: [[training-data-representation-and-feedback-risk]], [[algorithmic-fairness-metrics-ground-truth-and-intervention]], [[interpretable-models-and-human-oversight]], [[reinforcement-learning-reward-prediction-and-credit]], [[reward-shaping-curiosity-and-safe-exploration]], [[imitation-learning-recovery-and-amplification]], [[preference-inference-feedback-and-human-ai-cooperation]], and [[uncertainty-corrigibility-and-impact-limits]]. Acknowledgments (from p. 404), notes (from p. 409), bibliography, and index are reference back matter, not uncompiled argument. |
+| `Emerging Pedagogies - AI Territory and Situated Knowledges (2025).pdf` (157 pp.) | Lookup/reference; not compiled | Open-access ten-chapter collection on algorithmic literacy, epistemic inequality, ethical generative-AI teaching, design thinking, and critical thinking. Relevant to human/education consequences, but it does not fill the current production-application gap; retrieve for a specific AI-literacy, education, or governance question. |
 | `TLS.pdf` (3 pp.) | **Misrouted; not an AIAS source** | APICS article on combining Theory of Constraints, Lean, and Six Sigma. Belongs in SYSTEMS if Chris authorizes a raw-source move/copy; raw remains untouched here. |
 
 ## Markdown source groups

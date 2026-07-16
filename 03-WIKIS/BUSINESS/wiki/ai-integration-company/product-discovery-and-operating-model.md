@@ -217,6 +217,7 @@ capabilities were ingested.
 
 - [[customer-discovery-and-evidence|Customer Discovery and Evidence]]
 - [[strategic-diagnosis-and-coherent-action|Strategic Diagnosis and Coherent Action]]
+- [[creative-problem-solving-and-facilitation-toolkit|Creative Problem Solving and Facilitation Toolkit]]
 - [[three-year-plan|Three-Year Plan]]
 - [[most-profitable-pathways|Most Profitable Pathways]]
 - [[what-not-to-do|What NOT To Do]]

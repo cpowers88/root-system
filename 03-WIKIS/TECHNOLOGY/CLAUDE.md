@@ -73,6 +73,7 @@ wiki/
   software-craft/         # applied reference: Clean Code, The Clean Coder, The Pragmatic Programmer (added 2026-07-13)
   security/               # applied reference: API security, OWASP API Top 10 (added 2026-07-13)
   software-engineering/   # applied reference: Agile/Scrum, requirements, testing (added 2026-07-13)
+  instrumentation-iot/    # applied reference: measurement trust, intelligent sensors, edge/IoT architecture (added 2026-07-16)
   (landscape-research pages live at wiki/ root, not in a subfolder — first
   batch added 2026-07-13; see index.md)
 ```
@@ -84,6 +85,8 @@ raw/ audit-and-ingest batch, same justification (content arrived in clear
 clusters, not built speculatively). Build further category subfolders under
 `wiki/` only as new landscape research or applied-reference material actually
 accumulates per category — do not pre-build empty categories.
+The `instrumentation-iot/` category was added July 16 only after two
+complementary sources were chunk-compiled into ten durable retrieval pages.
 
 ## Shared Wiki Rules
 
