@@ -15,7 +15,7 @@ from FORGE's original 135-page technology folder (the other 67 — Python/data-a
 fundamentals — went to `03-WIKIS\PYTHON` instead; see that wiki's `source-map.md`).
 **2026-07-13: full raw/ audit and ingest (107 pages at completion).** After the
 July 15 routing correction and July 16 chunk ingestion, the live inventory is
-**127 content/reference pages** (excluding this index and `log.md`).
+**129 content/reference pages** (excluding this index and `log.md`).
 The audit produced 39 new pages across 9 books + 4 landscape clippings. The
 July 15 structure review moved the post-closure AI-coding landscape into
 `03-WIKIS\AI_AUTOMATION_SYSTEMS`, its canonical intake lane. The audit found 3 confirmed
@@ -196,12 +196,14 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 - [[instrumentation-iot/iot-three-tier-publish-subscribe-architecture|IoT Three-Tier Publish/Subscribe Architecture]]
 - [[instrumentation-iot/iot-data-reduction-adoption-and-current-use-filter|IoT Data Reduction, Adoption, and Current-Use Filter]]
 
-## Landscape Research (wiki root, 3 pages, new 2026-07-13)
+## Landscape Research (wiki root, 5 pages, first batch 2026-07-13)
 
-This wiki's first landscape-research pages — the original stated purpose
+This wiki's landscape-research pages — the original stated purpose
 (tool/category watching, tied to `TECHNOLOGY_LIBRARY_STRATEGY.md`'s 12
 categories) carried as an open "next action" since July 7, 2026.
 
 - [[looker-studio-free-bi-dashboards|Looker Studio (Data Studio) — Free BI Dashboards]] — Category 3
 - [[vs-code-data-tooling-data-wrangler-and-edit-csv|VS Code Data Tooling: Data Wrangler, Edit CSV, and the Titanic Tutorial]] — Category 5
 - [[spreadjs-embeddable-excel-import-export|SpreadJS — Embeddable Excel Import/Export for Custom Web Tools]] — Category 9/12, landscape-only
+- [[api-integration-layer-2026-landscape|API & Integration Layer — 2026 Landscape]] — Category 9 (new 2026-07-16): Zapier/Make/n8n tiering, AI agents as integration consumers, MCP standardization and security, rung-4 custom-glue proof standard
+- [[goal-aligned-technology-gap-audit-2026-07-16|Goal-Aligned Technology Gap Audit — July 16, 2026]] — knowledge-vs-proof audit across the eight-rung application trace; Now/Near/Future gaps, minimum production standard, and selected scanner reliability proof path

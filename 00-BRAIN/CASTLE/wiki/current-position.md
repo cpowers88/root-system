@@ -45,7 +45,10 @@ tags: [baseline]
 - **Technology landscape:** structure exists (TECHNOLOGY_LIBRARY_STRATEGY.md — 12
   categories + Recommendation Ladder); first Make.com and Data Studio reps are
   complete. The new Advanced Application Capability Trace identifies integration,
-  production operation, and governed-AI proof as later rungs rather than reading queues.
+  production operation, and governed-AI proof as later rungs rather than reading
+  queues. A July 16 goal-aligned gap audit selected the existing scanner's SQL and
+  reliability boundary as the first integrated proof; Kubernetes, microservices,
+  multi-agent systems, and industrial methods remain behind measured triggers.
 - **Business assets already built:** 51-page business-model wiki, delivery template
   library (audit report, proposal, SOW, outreach), pricing worksheet, field-notes
   method with one June 5 construction-domain hypothesis note and one July 14

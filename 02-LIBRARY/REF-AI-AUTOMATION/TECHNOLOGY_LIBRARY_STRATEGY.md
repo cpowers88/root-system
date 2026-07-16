@@ -223,6 +223,14 @@ evaluated AI feature only if the workflow needs it.`
 The eventual client-facing build should come from a verified observation. Until
 then, the tracker and scanner are safe internal practice vehicles.
 
+**July 16 gap-audit decision:** the selected first technical build is a bounded
+Scanner Reliability and Operations Console sequence: scanner SQL evidence pack ->
+pytest extraction -> retry/error policy and durable run ledger -> CI -> a read-only
+Flask operations view only if it improves real review or recovery. It does not close
+the multi-user application rung unless a genuine second-user role and permission
+boundary emerge. See
+`03-WIKIS\TECHNOLOGY\wiki\goal-aligned-technology-gap-audit-2026-07-16.md`.
+
 ---
 
 ## Maintaining the Map — Cadence

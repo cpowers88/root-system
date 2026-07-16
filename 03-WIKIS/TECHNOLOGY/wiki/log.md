@@ -546,6 +546,41 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
 - This intake adds retrieval capacity; it does not displace the live SQL, Looker
   Studio, API-depth, or ROI-practice frontier in the Technology Library Strategy.
 
+## 2026-07-16 - Category 9 extensive landscape rep: API & Integration Layer 2026
+
+- Chris-directed extensive weekly rep. Picked Category 9 (API & Integration
+  Layer) from the strategy's own live-gap list: it is declared core build
+  territory, rung 4 of the capability trace is the next open integration
+  proof, and its only prior landscape page (SpreadJS) is narrow. Confirmed
+  no duplication with the July 9 Make.com rep (tool-anatomy scope) before
+  writing.
+- Created [[api-integration-layer-2026-landscape]] at wiki root from
+  2026-07-16 web research: Zapier/Make/n8n price-and-control tiering
+  (per-task vs per-operation vs per-execution/self-hosted), the 2025-26
+  shift to AI agents as integration consumers, MCP standardization
+  (verified against the official MCP blog: the 2026-07-28 spec is a release
+  candidate locked May 21, final expected July 28 — one secondary source
+  falsely reported it as already published), MCP/agent security failure
+  modes (tool poisoning, OWASP LLM Top 10 #1) as concrete additions to the
+  spine's agent-vetting screen, and the webhook-reliability consensus
+  (idempotency, ack-then-queue, HMAC, backoff + dead letter) captured as
+  the definition-of-done for the rung-4 custom-glue proof.
+- Evidence discipline: valuations, adoption percentages, and pricing are
+  marked volatile/reported with a capture date; vendor-adjacent numbers
+  flagged as directional. No tool adoption, build, account, or spend was
+  triggered. Watchtower: the MCP-standardization/agent-integration shift is
+  a promotion candidate for `radar.md` (affected assumption: what the
+  INTEGRATE rung contains; natural review trigger: July 28 spec
+  finalization) — left for Chris/CASTLE review rather than self-promoted.
+  **Update, same day:** Chris approved the promotion; the signal is now a
+  👁 WATCHING row in `...projectSuccess\radar.md` (next review 2026-07-28
+  spec finalization or first agent-integration recommendation, whichever
+  first; no adoption or build without the CASTLE gate).
+- Index updated (Landscape Research section now 4 pages). Frontmatter audit
+  re-run post-edit against the reviewed baseline: **BASELINE MATCH, 0 new
+  debt** (519 unchanged baseline findings; the new page is clean).
+- Next: normal weekly cadence resumes; watch MCP spec finalization July 28.
+
 ## 2026-07-16 - Advanced industrial/optimization books routed and application trace added
 
 - Verified title, contents, licensing, page count, and unique SHA-256 identity for
@@ -567,3 +602,22 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
 - Next: resume Python Stage 3, then use tracker/scanner SQL as the next application
   rung. Do not begin swarm, quantum, digital-twin, or predictive-maintenance study
   without a measured problem and prerequisite need.
+
+## 2026-07-16 - Goal-aligned technology gap audit
+
+- Audited the live North Star, Advisor-Builder strategy, July weak links, eight-rung
+  application trace, Technology/Python/AIAS retrieval coverage, and the scanner and
+  tracker artifacts.
+- Created [[goal-aligned-technology-gap-audit-2026-07-16]] with a Now/Near/Future
+  capability map and a minimum production application standard verified against
+  current official Flask, SQLAlchemy/Alembic, GitHub Actions, SQLite, Docker,
+  OpenTelemetry, and OpenAI documentation.
+- Finding: the library is not short on advanced theory. The decisive gap is
+  integrated operating proof—migrations, tests, CI, production serving, secrets,
+  observability, backup/restore, rollback, and economics in one small system.
+- Selected first bounded build: scanner SQL evidence pack, then pytest extraction,
+  API retry/error policy and a durable run ledger, CI, and only then a read-only
+  Flask operations view if actual review/recovery benefits. Python Stage 3 remains
+  the immediate prerequisite; no new parallel project was opened.
+- Parked Kubernetes, microservices, vector/RAG infrastructure, multi-agent systems,
+  paid hosting, and industrial advanced methods behind explicit measured triggers.

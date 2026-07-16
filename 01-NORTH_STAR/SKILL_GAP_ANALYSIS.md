@@ -42,7 +42,9 @@ The first Make.com landscape rep was completed July 9 and the first private Data
 Studio dashboard rep was completed and visually verified July 16.
 Fix: one 30-minute landscape rep weekly when school is on track. Next: build
 integration depth and ROI judgment through the Advanced Application Capability
-Trace in `TECHNOLOGY_LIBRARY_STRATEGY.md`, not another broad reading queue.
+Trace in `TECHNOLOGY_LIBRARY_STRATEGY.md`, not another broad reading queue. The
+July 16 goal-aligned audit selected the scanner's SQL/reliability boundary as the
+first integrated proof and parked premature platform complexity.
 
 **2. Structured business analysis — instinct without framework**
 The instinct is there, TOC material is ingested, and one desk-sim observation is

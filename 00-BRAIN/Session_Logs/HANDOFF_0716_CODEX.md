@@ -36,6 +36,11 @@ tags: [school, technology, business, system-review]
 - Next stack proof is a short SQL rep against the scanner's live SQLite database.
   Switch the practice vehicle to the academic tracker when verified D2L data
   arrives around July 25. Dashboard iteration #2 is optional.
+- A goal-aligned technology gap audit is now live in the TECHNOLOGY wiki. It found
+  strong knowledge coverage but no integrated production-operations proof. The
+  selected bounded chain is scanner SQL evidence -> pytest extraction -> retry/error
+  policy and durable run ledger -> CI -> a read-only Flask operations view only if
+  actual use earns it. Deployment, restore, and governed AI remain later gates.
 
 ### Business and Revenue
 
