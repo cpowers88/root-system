@@ -12,7 +12,8 @@ created: 2026-07-15
 
 - **Authority:** Chris-directed system remediation and final acceptance.
 - **Commit boundary:** remediation commits `af8e3ba` through acceptance commit
-  `f900e49`; ledger bookkeeping follows in `ebc6cff` and `178afa5`.
+  `f900e49`; acceptance ledger bookkeeping follows in `ebc6cff` and `178afa5`;
+  this evidence packet and its operating routes were installed in `29e02e1`.
 - **Verdict:** **ACCEPT-WITH-DEBT**.
 - **Accepted debt:** 529 reviewed metadata findings, four open SYSTEM_FLAGS,
   one pending AIAS hook proposal, and five nonblocking maintenance findings.
