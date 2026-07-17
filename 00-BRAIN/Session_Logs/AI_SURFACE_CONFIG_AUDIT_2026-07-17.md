@@ -270,7 +270,7 @@ authority for re-verifying Findings C1–C4.
 | 3 | Fix deny-path syntax in `.ROOT\.claude\settings.json` after verifying resolution via `/permissions` | Claude | 15 min | HIGH — the checked-in file is the one future machines inherit | Verify, then approval |
 | 4 | Clean user `settings.local.json` (drop 4 junk grep entries; confirm/narrow `git *`, `python *`) | Claude | 5 min | MED | Chris approval |
 | 5 | Prune Codex trust levels to live directories | Codex | 5 min | MED | Chris approval |
-| 6 | Delete/archive `G:\My Drive\.claude\`; archive `settings.pre-phase1` backup; sync template | Both | 10 min | MED (confusion removal) | Chris approval (deletion) |
+| 6 | ~~Delete/archive `G:\My Drive\.claude\`~~ **DONE July 17** — moved to `99-ARCHIVE\ARCHIVED_2026-07-17_GDRIVE_claude_settings\`. Remaining: archive `settings.pre-phase1` backup; sync template | Both | 5 min | MED (confusion removal) | Chris approval |
 | 7 | Capture official Codex config docs into raw → wiki ingest → `codex-app-configuration.md` | Wiki | Chris: 20 min capture; AI: one ingest session | HIGH long-term — converts §4 from model-knowledge to evidence | Chris supplies raw |
 | 8 | Proposal: read-only attribute on raw\ folders (mechanical immutability for all surfaces) | System | Proposal + script | MED-HIGH | Normal proposal path |
 | 9 | Confirm/extend skill-mirror discovery for Codex | Codex | 30 min | MED | After #2, #7 |
@@ -289,7 +289,7 @@ file would create a second, unversioned instruction source).
 
 1. Approve the global `~/.codex/AGENTS.md` draft wording (or edit it)?
 2. Keep `Bash(git *)` broad, or narrow to exclude `git push` (making pushes prompt-only)?
-3. G: stray `.claude` — delete outright, or copy into `99-ARCHIVE` first?
+3. ~~G: stray `.claude` — delete outright, or copy into `99-ARCHIVE` first?~~ **Resolved July 17:** Chris said remove it; moved to `99-ARCHIVE\ARCHIVED_2026-07-17_GDRIVE_claude_settings\`.
 4. Willing to capture the Codex config doc set into raw so the Codex side gets the same
    evidence footing as the Claude side?
 5. Interest in the raw read-only-attribute proposal (#8), or is instruction-level
