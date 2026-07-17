@@ -60,3 +60,23 @@ Colors and Tabler glyph names live in `Get-IconDefinitions` near the top of the
 script. Change one definition, run `-Mode Build`, then run `-Mode Apply
 -RefreshExplorer`. If Explorer holds an old thumbnail after a redesign, increment
 the asset version folder in the script before rebuilding.
+
+## Depth-Based Section Accent (added July 17, 2026)
+
+Within each top-level section, color now varies by depth so subsystem folders
+stand out from the section root and from each other's contents:
+
+- **Depth 1 (the section root itself, e.g. `00-BRAIN`, `01-NORTH_STAR`):** the
+  section's base color.
+- **Depth 2 (direct children, e.g. `00-BRAIN\CASTLE`, `00-BRAIN\HATS`,
+  `00-BRAIN\scripts`, `00-BRAIN\Session_Logs`, `00-BRAIN\SKILLS`):** a lighter
+  accent tint of the same section color, computed automatically
+  (`Get-TintedHex`, 35% toward white) — no second palette to maintain by hand.
+- **Depth 3 and deeper (everything inside a depth-2 folder):** reverts to the
+  plain section base color, since it already contrasts against its depth-2
+  parent's accent tint.
+
+This rule applies uniformly to every top-level section, not just `00-BRAIN`.
+Logic lives in `Get-PathDepth`, `Get-TintedHex`, and `Get-SectionAccentColors`
+in `folder_icons.ps1`. Rebuild with `-Mode All -RefreshExplorer` after any
+change to `Get-SectionColors` — the accent shade is derived from it.

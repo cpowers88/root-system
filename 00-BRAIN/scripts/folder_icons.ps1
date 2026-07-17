@@ -100,12 +100,46 @@ function Get-SectionSlug {
     return (($Key -replace '[^A-Za-z0-9]', '')).ToLowerInvariant()
 }
 
+function Get-PathDepth {
+    # '00-BRAIN' = 1 (section root). '00-BRAIN\CASTLE' = 2 (direct child).
+    # '00-BRAIN\CASTLE\wiki' = 3+ (everything deeper).
+    param([string]$RelativePath)
+    return (($RelativePath.Trim('\')) -split '\\').Count
+}
+
+function Get-TintedHex {
+    # Lightens a hex color toward white by $Amount (0-1). Used to derive each
+    # section's accent shade from its own base color without hand-picking a
+    # second palette.
+    param([string]$Hex, [double]$Amount)
+    $r = [Convert]::ToInt32($Hex.Substring(1, 2), 16)
+    $g = [Convert]::ToInt32($Hex.Substring(3, 2), 16)
+    $b = [Convert]::ToInt32($Hex.Substring(5, 2), 16)
+    $r = [int]($r + ($Amount * (255 - $r)))
+    $g = [int]($g + ($Amount * (255 - $g)))
+    $b = [int]($b + ($Amount * (255 - $b)))
+    return ('#{0:X2}{1:X2}{2:X2}' -f $r, $g, $b)
+}
+
+# Direct children of a section root (depth 2) get a lighter tint of that
+# section's color so they visually pop from both the section root and from
+# neighboring sections. Everything deeper (depth 3+) reverts to the plain
+# section color, since it will already contrast against its depth-2 parent.
+function Get-SectionAccentColors {
+    $accents = @{}
+    foreach ($kv in (Get-SectionColors).GetEnumerator()) {
+        $accents[$kv.Key] = Get-TintedHex -Hex $kv.Value -Amount 0.35
+    }
+    return $accents
+}
+
 function Get-SectionIconPath {
     param([string]$Type, [string]$RelativePath)
     $key = Get-SectionKeyForPath -RelativePath $RelativePath
     $colors = Get-SectionColors
     if (-not $colors.ContainsKey($key)) { return Join-Path $IcoRoot "$Type.ico" }
-    return Join-Path $SectionIcoRoot "$Type--$(Get-SectionSlug -Key $key).ico"
+    $variant = if ((Get-PathDepth -RelativePath $RelativePath) -eq 2) { 'accent' } else { 'base' }
+    return Join-Path $SectionIcoRoot "$Type--$(Get-SectionSlug -Key $key)--$variant.ico"
 }
 
 function Ensure-SectionIcon {
@@ -129,7 +163,8 @@ function Ensure-SectionIcon {
     }
 
     $sectionKey = Get-SectionKeyForPath -RelativePath $RelativePath
-    $background = [System.Drawing.ColorTranslator]::FromHtml((Get-SectionColors)[$sectionKey])
+    $colorMap = if ((Get-PathDepth -RelativePath $RelativePath) -eq 2) { Get-SectionAccentColors } else { Get-SectionColors }
+    $background = [System.Drawing.ColorTranslator]::FromHtml($colorMap[$sectionKey])
     $source = [System.Drawing.Image]::FromFile($sourcePath)
     $frames = @()
     foreach ($size in @(16, 24, 32, 48, 64, 128, 256)) {
