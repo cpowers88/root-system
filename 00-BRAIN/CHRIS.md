@@ -6,7 +6,7 @@ tags: []
 
 # CHRIS.md — Chris Powers
 ### Full profile — load per AGENT.md (monthly review, profile update, behavior calibration only). Default load is CHRIS_CORE.md.
-### Last updated: July 15, 2026
+### Last updated: July 17, 2026
 ### Read alongside: NORTH_STAR.md (mission + tracks), AGENT.md (session protocols)
 
 ---
@@ -18,6 +18,28 @@ tags: []
 **Family:** Partner Heather (full-time realtor, carries the household). Father of 9, including 1-year-old Ben.
 **Education:** GED (1998). Chatt Tech 2024–2026 (3.73 GPA, 2 certs). Transferring to KSU Fall 2026 — BS Industrial & Systems Engineering, Systems Concentration. Target graduation: Fall 2029.
 **GitHub:** cpowers88
+
+---
+
+## Professional Background — Construction
+
+Title was lead carpenter; the actual job was broader. Over many years, ran
+carpentry crews across residential and commercial projects of varying scale,
+including full-lifecycle multi-unit brownstone condo conversions (3-family,
+5-story) from demolition through turnover. Read architectural and engineering
+plans directly, sat in project meetings with architects, engineers, and
+ownership, and was regularly the person catching what the plans got wrong.
+Did much of this while actively using heroin, and kept the work because it
+was good enough that replacing him wasn't a real option. Has since quit drugs.
+
+*AI implication: This is real full-cycle project management, cost/scope
+judgment, and blueprint literacy across residential and commercial builds,
+under high stakes — not a hypothetical fit. When framing the Advisor-Builder
+pitch to construction, real estate, or renovation clients, this is lived
+credibility, and Heather's real estate network (agents, brokers, lawyers,
+buyers/sellers) is a warm channel into that exact world.*
+
+---
 
 **North Star:** October 8, 2031. Become an elite AI, technology, business, and
 systems integrator—an Advisor-Builder—while completing the KSU BS in Industrial &
@@ -187,4 +209,4 @@ The aptitude profile confirms what I already knew: Idea Generation + Numerical R
 
 ---
 *Source: YouScience Assessment, Christopher Powers, November 2025 | Full PDFs in 02-LIBRARY\REF-META-HOW-TO-WORK\*
-*Last updated: July 15, 2026*
+*Last updated: July 17, 2026*

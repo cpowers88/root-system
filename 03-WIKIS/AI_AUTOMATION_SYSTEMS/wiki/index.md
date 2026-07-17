@@ -34,6 +34,14 @@ infrastructure, policy agenda-setting, board-coalition power, protected dissent,
 mission elasticity, community-controlled alternatives, data sovereignty, and
 power redistribution. Acknowledgments and notes are classified as reference back
 matter rather than unprocessed argument.
+*Mastering Claude AI* (Dickey) was fully compiled July 17, closing the
+verification backlog: main text in one retrieval page carrying a
+volatile-claims table; its glossary/appendices/index are reference back
+matter. *The Business Case for AI* (Ganesan) was Chris-reclassified from
+lookup/reference and fully compiled the same day as the Advisor-Builder
+client-engagement playbook. Remaining compilation queue: *If Anyone Builds
+It, Everyone Dies* (chunk backlog, gated on a concrete review job); the
+other five July 16 volumes remain deliberately lookup/reference.
 
 ## Pages
 
@@ -318,6 +326,24 @@ matter rather than unprocessed argument.
   empirical developer evidence that orchestration, memory, contracts, and
   runtime reliability are the hard problems; and occupation-grounded evidence
   that high-level workflow completion can hide granular tool/grounding errors.
+- [Mastering Claude AI (Dickey, Apress 2025) — Consumer-Surface Practice and Client-Training Frameworks](mastering-claude-ai-dickey-consumer-guide.md)
+  — 401-pp. consumer claude.ai guide fully compiled with a volatile-claims
+  verification table (facts self-anchored Aug 2025); primary value is the
+  Advisor-Builder client-training arc (layperson concept scaffolding,
+  per-domain 4-step frameworks, week-by-week adoption checklists,
+  professional risk/compliance layer); sixth consumer-scale restatement of
+  the verification-capacity verdict; persona outcomes are explicit
+  composites, not evidence.
+- [The Business Case for AI (Ganesan, 2022) — The Leader's AI-Adoption Playbook](business-case-for-ai-ganesan-leader-playbook.md)
+  — 294-pp. pre-genAI leader's guide fully compiled: the anti-hype
+  AI-vs-simple-software-automation screen, IDA analytics wedge, B-CIDS
+  readiness pillars + Jumpstart approach, the **HI-AI Discovery Framework**
+  (PAI starting points → framing with ROAI baselines → expert verification →
+  I2R2 scoring), build-or-buy with a 2026 foundation-model recalibration
+  note, and the three-pillar success model (model/business/user) — the
+  seventh verification-capacity restatement and the closest thing in the hub
+  to an Advisor-Builder client-engagement operating manual. Era warning:
+  frameworks durable, 2022 feasibility/cost answers are not.
 
 ## Proposals
 
@@ -376,4 +402,4 @@ matter rather than unprocessed argument.
   `check_at` follow-up.
 
 ---
-*Last updated: July 16, 2026 (The Alignment Problem full-main-text intake)*
+*Last updated: July 17, 2026 (Mastering Claude AI + The Business Case for AI full-main-text intakes)*

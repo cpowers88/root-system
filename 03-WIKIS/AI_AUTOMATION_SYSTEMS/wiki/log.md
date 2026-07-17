@@ -5,6 +5,94 @@ tags: [log]
 
 # AI_AUTOMATION_SYSTEMS Wiki — Log
 
+## 2026-07-17 (continued) — The Business Case for AI reclassified and fully compiled
+
+After the Mastering Claude intake closed, Chris asked about the July 16
+night-sort books; clarified they were accounted-as-lookup, not compiled, and
+Chris chose to reclassify **The Business Case for AI** (Ganesan, © 2022,
+294 pp.) for compilation — the one with direct Advisor-Builder value. The
+other six volumes keep their deliberate lookup/reference status.
+
+Read the full book in five pdftotext extraction blocks on part boundaries:
+
+| Complete chunk | Physical pp. | Content |
+|---|---:|---|
+| Front matter + Intro + Ch1–2 start | 1–30 | Disconnect thesis, benefit classes |
+| Part 1 (ch2–4) + Part 2 start | 31–95 | Business AI subfields, five tips, five myths |
+| Part 2 (ch5–6) + Part 3 (ch7–8) | 96–165 | Process/decision use cases, IDA vs SDA, ML life cycle, B-CIDS |
+| Ch9–11 + ch12–13 (in file tail) | 166–235 | Jumpstart, opportunity discovery, PAI identification/framing, expert verify, I2R2, build/buy |
+| Ch13 rest + ch14 + Conclusion + back matter | 236–294 | Consultant/hire economics, three-pillar success model, references |
+
+Synthesized as ONE retrieval page,
+`business-case-for-ai-ganesan-leader-playbook.md`, organized by retrieval
+job: the AI-vs-simple-software-automation anti-hype screen; the IDA
+analytics wedge; the leader's ML-life-cycle view; B-CIDS readiness +
+Jumpstart; the **HI-AI Discovery Framework** (PAI starting points A/B/C +
+gate questions → framing with ROAI baselines → three-depth expert
+verification → I2R2 scoring, ≥4 = pursue); build-or-buy with an explicit
+2026 foundation-model recalibration note (the book is pre-genAI — frameworks
+durable, feasibility/cost answers must be re-derived); and the three-pillar
+success model (DevPerform/ProdPerform, ROAI vs baseline with
+diminishing-returns warning, user success + non-model factors). Logged as
+the seventh independent verification-capacity restatement, and noted the
+convergence: Anthropic's enterprise roadmap (already compiled) is the 2025
+genAI edition of the same adoption sequence. Cross-hub note: BUSINESS's
+`smb-ai-audit-method` is the applied home — candidate cross-link at that
+hub's next touch, not edited from here.
+
+Ledger row → Compiled (reclassification recorded); index Status/Pages/footer
+updated. Compilation queue now: *If Anyone Builds It, Everyone Dies* only.
+
+Files changed: `wiki/business-case-for-ai-ganesan-leader-playbook.md` (new),
+`raw-source-coverage.md` (row update), `index.md` (Status + Pages + footer),
+this log. No raw file touched.
+
+## 2026-07-17 — Mastering Claude AI full-main-text intake (verification backlog closed)
+
+Chris opened a chunk-intake session on this hub's remaining queue. Pre-intake
+verification confirmed three ways that `mastering claude.pdf` had no prior
+ingestion (ledger row "not compiled," no wiki citation, no log entry), and a
+raw/ rescan confirmed the "5 new books" Chris expected were the July 16
+21:05–21:09 night-sort volumes — already ledger'd lookup/reference; raw/
+unchanged at 187 files.
+
+Read the full book (Dickey, Apress © 2025, 401 physical pp.) in six
+`pdftotext` extraction blocks on part boundaries:
+
+| Complete chunk | Physical pp. | Content |
+|---|---:|---|
+| Front matter + TOC + Preface | 1–45 | Author posture, evergreen design, Ch1 start |
+| Part I, ch. 1–4 | 46–94 | Fundamentals, capabilities/limits, prompting |
+| Part II, ch. 5–7 | 95–150 | Writing, research, coding |
+| Part II–III, ch. 8–11 start | 151–215 | Creative, data analysis, advanced prompting |
+| Part III–IV, ch. 11–15 | 216–291 | Special features, integration, business/education/creative |
+| Parts V–VI + back matter | 286–401 | Troubleshooting, ethics, staying current, power user, future; Glossary/Appendices A–C/Index verified reference back matter |
+
+Synthesized as ONE retrieval page,
+`mastering-claude-ai-dickey-consumer-guide.md` — the book is a single
+coherent teaching arc for the claude.ai consumer surface, not a multi-topic
+pack. The page's two jobs: (1) the volatile-claims verification table
+(book facts self-anchored "August 2025"; cutoff/context/extended-thinking/
+projects-context/file-limit/calculation claims all flagged, several already
+superseded by claude.ai memory + analysis tool); (2) the Advisor-Builder
+client-training payload — layperson concept scaffolding, per-domain 4-step
+frameworks, week-by-week adoption checklists, the ch. 13/17 professional
+risk/compliance layer, and the 3–6-month competency expectation-setting.
+Recorded as the sixth independent restatement of the verification-capacity
+verdict, and noted the author's independently invented incremental-PDF
+handoff system as convergent with `.ROOT`'s handoff ritual.
+
+Ledger updated: `mastering claude.pdf` → **Compiled; full main text**.
+Index Status + Pages updated. Remaining compilation queue: *If Anyone
+Builds It, Everyone Dies* only (gated on a concrete review job).
+
+Files changed: `wiki/mastering-claude-ai-dickey-consumer-guide.md` (new),
+`raw-source-coverage.md` (row update), `index.md` (Status + Pages + footer),
+this log. No raw file touched.
+
+Next: frontmatter audit + lint pass (this session); the queue's only open
+book is gated — normal research cadence resumes.
+
 ## 2026-07-13 (session 16) — CASTLE review of `Clippings\`: GBrain + loopany routed, belief/proposal-split proposal drafted
 
 Chris pointed at a root-level `C:\Users\chris\.ROOT\Clippings\` folder (8

@@ -64,7 +64,7 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 - [x] Python Stage 2 proof — CLOSED 2026-07-16
 - [x] Python Stage 3 first live rep — started 2026-07-16, paused mid `break`/`continue` drill
 - [ ] Python Stage 3: finish break/continue → tracing → guessing game → mastery checklist
-- [ ] Import `Physics_All_Stages.apkg` into Anki; study Stage 04 subdeck
+- [x] Import `Physics_All_Stages.apkg` into Anki; study Stage 04 subdeck
 - [ ] Record one private Revenue Lab proof during work already happening (conditional GO, ≤90 added min); review it before any public action
 - [ ] Fill the Lane A top-100 human-classification worksheet (Y/N/? in Chris's own words)
 - [ ] One live workflow observation/VSM only with the needed approval and access — first candidate is the flip-margin replay (OPP-20260716-01)

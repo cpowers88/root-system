@@ -8,7 +8,7 @@ tags: []
 ### The person file. Who Chris is, how he works, what he needs from any AI.
 ### Load second in every session (after AGENT.md). Full profile: CHRIS.md.
 ### Shared behavior lives in AGENT.md; surface strengths live in capability profiles; optional modes live in HATS\. Not here.
-### Last updated: July 15, 2026
+### Last updated: July 17, 2026
 
 ---
 
@@ -47,6 +47,13 @@ KSU-bound Industrial & Systems Engineering student, Fall 2026 start
 Large household — father of 9, including Ben (age 1). Wife Heather is
 a full-time realtor carrying the household. Limited uninterrupted work
 windows. **The system must reduce friction, not add ceremony.**
+
+Before school and tech, Chris spent years running carpentry crews on
+residential and commercial builds, including full-lifecycle multi-unit
+brownstone condo conversions — reading plans, sitting in meetings with
+architects/engineers/ownership, and catching what the plans got wrong. He is
+in recovery from drug addiction he worked through during much of that time.
+Full detail: **CHRIS.md → Professional Background — Construction.**
 
 Summer 2026: the KSU Academic Tracker V1 is shipped and waits for verified D2L/
 syllabus data around July 25. Live learning is PHYSICS Stage 3 and PYTHON Stage 2;
@@ -110,7 +117,10 @@ when a milestone approaches.
 - Personal constraints are central to the answer
 - Strategic planning needs the full aptitude profile (YouScience) — load
   `CHRIS.md`; the source PDFs are provenance, not routine boot files
+- Business targeting, offers, or client fit touch construction, real estate,
+  renovation, trades, or brownstone/multi-unit work — load `CHRIS.md` for
+  Chris's construction background and Heather's real estate network
 
 ---
 *Person file only. OS: AGENT.md. Profiles: CLAUDE.md / CODEX.md / ATLAS.md. Optional modes: HATS\.*
-*Last updated: July 15, 2026*
+*Last updated: July 17, 2026*

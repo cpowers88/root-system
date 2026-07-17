@@ -637,3 +637,25 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
   proof, not more reading.
 - Next: unchanged — Python Stage 3, then scanner SQL evidence. Retrieve these
   volumes only on a named trigger.
+
+## 2026-07-17 — Selective ingest: Experimental Design for Data Science and Engineering
+
+- Chunk-read and selectively compiled the Joseph DOE text (CRC 2026, 246 pp.,
+  CC BY-NC-ND; routed into raw/ the prior night) into three `data-science-ml/`
+  pages: the source hub, [[data-science-ml/space-filling-screening-and-sequential-designs|the DOE decision map]]
+  (model-based → space-filling logic, minimax/maximin/LHD/MaxPro, Sobol/Morris/
+  MOFAT screening, ALC/ALM + expected-improvement Bayesian optimization,
+  fractional-factorial aliasing/resolution/aberration essentials), and
+  [[data-science-ml/data-splitting-twinning-and-subsampling|Part IV applied]]
+  (support-points subsampling, SPlit, twinning/multiplets, supercompress,
+  FIRST factor selection with the dependent-inputs caveat, TwinGP).
+- Scope discipline: Ch 2 GP mathematics, minimum-energy/QMC depth, mixture and
+  multi-level designs, and Ch 9 calibration stay as triggered lookup — the
+  ledger row is now Selective with the coverage pointer. Ledger 38/38 intact;
+  index at 132 content pages.
+- Rationale for compiling despite the gap-audit reading boundary: Chris-directed
+  intake session (2026-07-17); the compiled material targets ISYE coursework and
+  the live scanner/tracker data work (splits, subsampling, factor selection)
+  rather than opening a general reading queue.
+- Text extracted via pypdf (no poppler on this machine); figures/equations not
+  rendered — equation-dependent claims flagged for PDF re-check at use time.

@@ -15,7 +15,9 @@ from FORGE's original 135-page technology folder (the other 67 — Python/data-a
 fundamentals — went to `03-WIKIS\PYTHON` instead; see that wiki's `source-map.md`).
 **2026-07-13: full raw/ audit and ingest (107 pages at completion).** After the
 July 15 routing correction and July 16 chunk ingestion, the live inventory is
-**129 content/reference pages** (excluding this index and `log.md`).
+**132 content/reference pages** (excluding this index and `log.md`; +3 on
+2026-07-17 from the *Experimental Design for Data Science and Engineering*
+selective ingest).
 The audit produced 39 new pages across 9 books + 4 landscape clippings. The
 July 15 structure review moved the post-closure AI-coding landscape into
 `03-WIKIS\AI_AUTOMATION_SYSTEMS`, its canonical intake lane. The audit found 3 confirmed
@@ -115,7 +117,7 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 - [[ai-and-llm/ai-future-scenarios|AI Future Scenarios]]
 - [[ai-and-llm/ai-developer-tools-landscape-2026|AI Developer Tools Landscape (2026)]]
 
-## Applied Data Science / ML (`data-science-ml/`, 18 pages)
+## Applied Data Science / ML (`data-science-ml/`, 21 pages)
 
 - [[data-science-ml/data-driven-decision-making-and-data-science-definition|Data-Driven Decision-Making: What It Actually Buys You, and Why "Big Data" Isn't "Data Science"]]
 - [[data-science-ml/crisp-dm-process-and-data-leakage|The CRISP-DM Process: Why Data Mining Is R&D, Not Software Engineering]]
@@ -136,6 +138,9 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 - [[data-science-ml/statistical-distributions-normal-long-tailed-t-and-binomial|Statistical Distributions: Normal, Long-Tailed, t, and Binomial]] — source: *Practical Statistics for Data Scientists*
 - [[data-science-ml/ab-testing-hypothesis-tests-and-p-values|A/B Testing, Hypothesis Tests, and P-Values]] — the ASA's 2016 p-value misinterpretation caution; source: *Practical Statistics for Data Scientists*
 - [[data-science-ml/data-mining-adoption-chasm-and-productization|Data Mining Adoption Chasm and Productization]] — historical Quest/Intelligent Miner case: services evidence, integration, standards, and productization
+- [[data-science-ml/experimental-design-for-data-science-and-engineering|Experimental Design for Data Science and Engineering — Source Summary and Navigation Hub]] — Joseph (CRC 2026, CC BY-NC-ND); GP-first DOE from physical experiments to data science (new 2026-07-17)
+- [[data-science-ml/space-filling-screening-and-sequential-designs|Space-Filling, Screening, and Sequential Designs — the DOE Decision Map]] — objective → design family; minimax/maximin/LHD/MaxPro, Sobol/Morris/MOFAT screening, Bayesian optimization/EI, fractional-factorial essentials
+- [[data-science-ml/data-splitting-twinning-and-subsampling|Data Splitting, Twinning, and Subsampling]] — DOE applied to data already in hand: SPlit, twinning, supercompress, FIRST factor selection, TwinGP
 
 ## Database & SQL (`database-sql/`, 11 pages, new 2026-07-13)
 
