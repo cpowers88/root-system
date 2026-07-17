@@ -6,6 +6,91 @@ tags: []
 
 # Castle Log — Append Only
 
+## 2026-07-17 (evening) — MCP Bootcamp: profit gate, Claude review, Chris confirmation, plan locked
+
+- **Gate sequence:** Codex ran the pre-D2L technology boot-camp profit gate
+  (PASS, bounded), corrected an initial scanner/MCP conflation same evening
+  (revised PASS: local Python MCP server as integration capstone, not the
+  scanner), then prepared `ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`
+  as a standalone Claude edit/review packet.
+- **Claude's independent review** (Operator hat) approved with one required
+  correction and four bounded modifications, grounded in `radar.md`'s own MCP
+  row, `CURRENT_STRATEGY.md`, `PRE-SEMESTER_PREP_PLAN.md`, PYTHON/PHYSICS
+  `current-position.md`, and a live fetch of the official MCP RC blog post
+  (confirmed July 28 final-publication date; surfaced an unflagged detail —
+  the RC deprecates Roots/Sampling/Logging as protocol capabilities and
+  removes the init handshake/session entirely, folded into Day 1 baseline
+  work). Critical correction: the radar row's own gate condition read
+  "after July 28... CASTLE decides," but the gate fired July 17 — defensible
+  in substance (sprint stays inside durable pre-finalization fundamentals),
+  but `radar.md` itself needed its own status update, which the original
+  file list missed.
+- **Chris confirmed go, then clarified scope** in the same exchange: "simulation
+  intake off my memory" meant using the real, already-documented
+  `05-BUSINESS\02-Field Notes\observation_one.md` construction-workflow
+  observation — not new weekend fieldwork (family capacity doesn't support
+  it). Also stated Python fundamentals don't need dedicated days ("good with
+  it for now... if it gets advanced I can ask"), and set a binding rule for
+  the whole sprint: **no AI produces a finished artifact he didn't
+  type/decide/explain-back live** — a couple of sentences on any new term,
+  live, not batched afterward. This generalizes beyond this one sprint and is
+  worth carrying into future build sessions generally, not just MCP week.
+- **Plan finalized:** proof vehicle is `observation_one.md`'s real content
+  structured into a small SQLite fixture (2-3 tables), not synthetic, not
+  the scanner; MCP-specific build capped at ≤3 hours across two sessions
+  (Tue Jul 21, Thu Jul 23); named project home created at
+  `02-LIBRARY\.PROJECTS\MCP_Bootcamp\` (local git only for now — GitHub
+  remote deferred until continuation is earned); dated Jul 17–26 sequence
+  with every build day marked live-paired; July 25 acceptance test defined;
+  July 26 D2L transition confirmed as a hard, non-flexing boundary.
+- **Records updated same session:** `NOW.md` (Start Here, Current Picture,
+  This Week, Upcoming, Boundaries, pointer list — date header also corrected
+  from stale Thursday to Friday), `radar.md`'s MCP row (status →
+  GATED/TESTING, outcome recorded), this log entry, and
+  `DAILY_2026-07-17.md`.
+- **Outcome pending:** July 25 acceptance test. Review packet
+  (`00-BRAIN\Session_Logs\ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`)
+  is the authoritative live plan; this log entry summarizes, does not
+  duplicate it.
+
+## 2026-07-17 (late evening) — MCP Bootcamp revised: Codex's eight-lens format restored
+
+- Chris asked for one more honest look at Codex's original draft
+  (`claudereadcodexplan.md`), checked against `NORTH_STAR.md` and Chris's
+  YouScience aptitude profile rather than style. Verdict: the original
+  eight-lens, one-continuous-case, accumulating-blueprint structure fits
+  Chris's Extrovert/Generalist/Future-Focuser/3D-Visualizer/Process-Supporter
+  profile better than the locked plan's single narrow MCP-build track. The
+  locked plan's discipline was not wrong and does not change: real
+  field-note data, MCP scoped as a ≤3 hr capstone inside one lens, mandatory
+  live-pairing Working Method, July 26 hard boundary, Displacement/Stop
+  Rules — all unchanged.
+- Fused day-by-day sequence now runs Systems Audit → Strategic Logic → Data
+  Engineering → Automation → AI Infrastructure → Cybersecurity/Governance →
+  Product/Value → Integration, one lens per day, each mapped to the
+  Advisor-Builder loop (Observe → Diagnose → Engineer → Deploy → Train and
+  Retain → Harvest). Standard Artifact Contracts (Evidence, Workflow step,
+  System, Finding, Recommendation, Automation event, AI evaluation, Control)
+  restored from Codex's original draft as the reusable fields across all
+  eight days.
+- **New stipulation (Chris):** do not design the sprint to make `.ROOT`
+  inspect/upgrade itself to adopt this teaching format mid-sprint — that
+  would add meta-scope North Star already warns against ("planning can
+  imitate progress"). Instead, a separate development-notes track
+  (`02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\learning-format-notes.md`) logs
+  how well the fast-paced multi-lens format itself works, independent of
+  the content harvest. Whether it becomes a standing `.ROOT` skill is a
+  Day-8-or-later evidence-gated proposal under `AGENT.md`'s AI-initiated
+  system-evolution path, not a decision made now.
+- Records updated same pass: the review packet (second revision section),
+  `NOW.md`, this log, `DAILY_2026-07-17.md`, and the project README
+  pointer. `claudereadcodexplan.md` archived to `99-ARCHIVE\` — its content
+  is now fully incorporated in the review packet; the loose root copy is no
+  longer live anything.
+- Outcome pending: same July 25 acceptance test, now delivered inside the
+  Day 8 Integration/owner-presentation lens instead of as a standalone
+  checklist.
+
 ## 2026-07-15 (evening) — Prove-the-loop staging (Chunk 4 of the approved system-design lane)
 
 - The design gaps from the July 14 direction review are closed as of tonight
@@ -935,3 +1020,45 @@ gate before any permanent content/revenue workspace or publishing commitment.
   gates are untouched. This is daily-sequencing texture, which NOW/CASTLE owns.
 - Next action: Stack Rep #1 — export the scanner top-100 to a Google Sheet and
   build the first Looker Studio dashboard.
+
+## 2026-07-17 — Profit gate: pre-D2L technology boot camp (Codex + Chris)
+
+- **PASS — bounded application boot camp.** This is not a new skill or opportunity
+  row; it formalizes the heavy-tech-stack window already authorized in `NOW.md`
+  and follows the existing Advanced Application Capability Trace.
+- Gate: no-orphan **pass** (Phases 0–2; Python/SQL/integration capability and the
+  Advisor-Builder recommendation map); source **pass** (live North Star, Technology
+  Library Strategy, July 16 gap audit, and pre-semester plan); phase **pass**;
+  displacement **pass** (broad reading, new architecture, unrelated app tours,
+  decorative dashboard iteration, and speculative opportunity work); proof
+  **pass** (one independently explainable scanner reliability chain with SQL
+  evidence, extracted tests, bounded failure handling/run history, CI, and an
+  operator handoff, scoped to what the sprint window actually earns).
+- School floor remains one focused proof block daily: finish Python Stage 3 first,
+  keep Physics Stage 4 moving, and do not spend the July 25 D2L/course-data turn.
+- Application breadth is allowed only as a short daily map rep tied to a named
+  business need and Recommendation Ladder decision; installed/opened tools and
+  reading do not count as proof.
+- Window corrected by Chris: remainder of Friday July 17 plus eight full working
+  days, July 18–25. Sunday July 26 is the hard transition to D2L document intake
+  and the first real school-prep week.
+- Next: Chris and Codex approve the exact stack, blocks, and success/stop conditions;
+  then refresh `NOW.md` only after the sprint shape is confirmed.
+
+### 2026-07-17 clarification — MCP signal restored to the stack decision
+
+- Chris correctly challenged the scanner-centered framing. The July 16 Category 9
+  landscape rep had promoted MCP to the Watchtower with a July 28/spec-finalization
+  review and a possible bounded local rep; a separate same-day gap audit selected
+  scanner reliability for the ordinary application sequence. Codex had conflated
+  those two decisions when drafting the boot-camp stack.
+- Revised gate: **PASS, bounded** for MCP as the boot-camp integration capstone.
+  Phase/no-orphan/source/proof pass; it replaces the YouTube/API/dashboard focus and
+  broad app touring. Build only a local, read-only Python MCP server on stdio, test
+  it with the official Inspector and one host, and record input validation, errors,
+  permissions, and tool traces. Existing scanner data may supply one harmless query,
+  but no new YouTube research, API harvesting, content decision, or dashboard work
+  belongs to this sprint.
+- Breaking-change boundary: do not commit to remote deployment, production auth,
+  MCP Apps, or the release-candidate-specific architecture before the July 28 final
+  specification. Exact stack still awaits Chris approval before `NOW.md` changes.

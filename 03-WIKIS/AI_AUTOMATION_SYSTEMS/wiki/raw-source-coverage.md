@@ -11,9 +11,10 @@ is retrievable in wiki/report form), **lookup/reference** (accounted for but not
 compiled), **duplicate**, and **misrouted**. A raw file existing on disk or
 having been opened once is not, by itself, evidence of ingestion.
 
-Coverage audit: **2026-07-16 (night)** — 187 raw files, approximately 342.9 MiB
-(live recount after the conference-volume intake below; prior recount that
-morning was 180 files / 184.6 MiB).
+Coverage audit: **2026-07-17** — 193 raw files, approximately 343.1 MiB
+(live recount after the July 17 Codex-config capture: five Codex app-config
+docs + one Claude Code video transcript sorted in from `Clippings\`. Prior
+recount 2026-07-16 night: 187 files / 342.9 MiB).
 
 ## Large PDF and book sources
 
@@ -35,7 +36,7 @@ morning was 180 files / 184.6 MiB).
 | `mastering claude.pdf` (401 pp.) | **Compiled; full main text (2026-07-17)** | Dickey, Apress © 2025 (PDF Nov 2025; facts self-anchored "as of August 2025"). Main text phys pp. 1–369 read in six chunk blocks; Glossary/Appendices A–C/Index (pp. 370–401) classified reference back matter. Retrieval: [[mastering-claude-ai-dickey-consumer-guide]], which carries the volatile-claims verification table — product mechanics must still be re-verified against current docs at each use. |
 | `TheAlignmentProblem.pdf` (617 physical pp.; main text ends p. 403) | **Compiled; full main text** | Prologue (pp. 9-12), Introduction and Parts I-III (pp. 13-380), and Conclusion (pp. 381-403) reviewed in named chunks. Retrieval: [[training-data-representation-and-feedback-risk]], [[algorithmic-fairness-metrics-ground-truth-and-intervention]], [[interpretable-models-and-human-oversight]], [[reinforcement-learning-reward-prediction-and-credit]], [[reward-shaping-curiosity-and-safe-exploration]], [[imitation-learning-recovery-and-amplification]], [[preference-inference-feedback-and-human-ai-cooperation]], and [[uncertainty-corrigibility-and-impact-limits]]. Acknowledgments (from p. 404), notes (from p. 409), bibliography, and index are reference back matter, not uncompiled argument. |
 | `Emerging Pedagogies - AI Territory and Situated Knowledges (2025).pdf` (157 pp.) | Lookup/reference; not compiled | Open-access ten-chapter collection on algorithmic literacy, epistemic inequality, ethical generative-AI teaching, design thinking, and critical thinking. Relevant to human/education consequences, but it does not fill the current production-application gap; retrieve for a specific AI-literacy, education, or governance question. |
-| `TLS.pdf` (3 pp.) | **Misrouted; not an AIAS source** | APICS article on combining Theory of Constraints, Lean, and Six Sigma. Belongs in SYSTEMS if Chris authorizes a raw-source move/copy; raw remains untouched here. |
+| `TLS.pdf` (3 pp.) | **Resolved — moved to SYSTEMS (verified 2026-07-17)** | APICS article on combining Theory of Constraints, Lean, and Six Sigma. Now lives at `03-WIKIS\SYSTEMS\raw\TLS.pdf`; the placement question this row used to carry is closed. |
 | `Explainable Artificial Intelligence - xAI 2025 Proceedings Part 2 (CCIS 2577).pdf` (451 pp.) | Lookup/reference; not compiled | xAI 2025 World Conference proceedings, Part 2 (routed from 77-INBOX 2026-07-16; renamed from ambiguous `...Intelligence2.pdf` before entering raw). Retrieve when an explainability/interpretability question has a concrete job — client trust, model debugging, or oversight design — not as a reading queue. |
 | `Explainable Artificial Intelligence - xAI 2025 Proceedings Part 4 (CCIS 2579).pdf` (435 pp.) | Lookup/reference; not compiled | Same xAI 2025 proceedings family, Part 4 (renamed from `...Intelligence4.pdf`). SHA-256 verified distinct from Part 2 — a real series split, not a mis-save. Same triggered-retrieval rule. |
 | `Digital Humanism.pdf` (LNCS 16319, DIGHUM 2025, 556 pp.) | Lookup/reference; not compiled | Interdisciplinary AI-and-society conference volume. Overlaps existing compiled society/governance coverage (Empire of AI, Alignment Problem pages) — retrieve for a named human-impact or governance question; do not double-compile the overlap. |
@@ -52,6 +53,8 @@ morning was 180 files / 184.6 MiB).
 | LLM-wiki / GBrain / loopany / AI-OS clippings | Compiled into [[llm-wiki-pattern-and-second-brain-tools]] and [[self-improving-agent-architectures-gbrain-loopany-closed-loop]]. |
 | OpenAI Platform/ChatGPT/Codex pack | Compiled thematically into thirteen pages; one byte-identical Agents SDK duplicate and title-collision defects remain documented, not double-counted. |
 | Claude Code official-doc pack | Compiled thematically into five original pages plus the enterprise-roadmap page added in this audit. |
+| Codex app-configuration doc pack (5 files: Config basics, Configuration Reference, Advanced Configuration, Agent approvals & security, Developer commands — captured 2026-07-17) | Compiled same day, all five read in full, into [[codex-app-configuration-and-security]]. First vendor-grounded coverage of the local Codex agent's config surface (the older OpenAI pack covers the platform APIs, not this). |
+| `CLAUDE_FILES/Claude Code Just Changed YouTube Forever!.md` | Lookup/reference; not compiled. Creator-video transcript (Danny Why, May 2026) on driving AI video generation (Higgsfield) from Claude Code; promotional framing. Retrieve only if an AI-video or content-automation question gets a concrete job. |
 | Workflow-automation and OECD AIM clippings | Compiled into [[workflow-automation-tools-landscape]] and [[oecd-ai-incidents-monitor]]. |
 | `Conversation.md` | Accounted reference, not research: a user/Gemini planning transcript whose durable decisions are superseded by `01-NORTH_STAR/NORTH_STAR.md` and `01-NORTH_STAR/System Contracts/ROOT_CAPABILITY_CONTRACT.md`. |
 | `llm-wiki-karpathy-2026-07.md` | Duplicate capture of the Karpathy LLM-wiki pattern; read once, not double-summarized. |
@@ -65,6 +68,8 @@ document packs must be processed in named page/file chunks. A synthesis page may
 remain the retrieval surface, but its `source:` line or log entry must preserve
 the chunk ranges and coverage limit.
 
-The hub is therefore **fully accounted as of 2026-07-16, not fully compiled**.
+The hub is therefore **fully accounted as of 2026-07-17, not fully compiled**.
 The named book/reference rows above are intentional queues or lookup sources;
-`TLS.pdf` is a placement decision, not an ingestion omission.
+the former `TLS.pdf` placement question is resolved (moved to SYSTEMS raw,
+July 17). A July 17 flatten-and-restore of the two vendor doc packs was
+verified lossless: all 193 files re-homed to their ledgered paths.

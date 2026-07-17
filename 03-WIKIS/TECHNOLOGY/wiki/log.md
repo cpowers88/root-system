@@ -659,3 +659,26 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
   rather than opening a general reading queue.
 - Text extracted via pypdf (no poppler on this machine); figures/equations not
   rendered — equation-dependent claims flagged for PDF re-check at use time.
+
+## 2026-07-17 — Pre-D2L boot-camp raw/source readiness audit (Codex, Chris-directed)
+
+- Reconciled immutable `raw/` against the physical-file ledger: 39 real content
+  files exist, 38 were listed. The only unregistered source was today's official
+  Microsoft `Install Hyper-V in Windows and Windows Server.md` clipping.
+- Registered Hyper-V as **Reference-only**. It is not required for the local MCP
+  stdio proof and does not prove an AI sandbox. Enabling it would be a separate
+  machine-level decision because it requires admin/restart and may affect other
+  hypervisors.
+- Corrected stale ledger/index counts: the row table is now 39/39; disposition
+  totals are Compiled 8, Selective 10, Derived 5, Cross-hub 6, Reference-only 9,
+  Excluded 1. `desktop.ini` remains excluded as folder metadata.
+- Boot-camp readiness verdict: **no new raw ingest is needed.** The smallest useful
+  packet is already retrieval-ready: SQL/constraints/transactions; testing and
+  defensive validation; API security; integration/retry/idempotency; and, from
+  `AI_AUTOMATION_SYSTEMS`, MCP architecture, build/debug notes, and the MCP threat
+  catalog. Python mechanics remain owned by the PYTHON staged path.
+- Do not reopen Flask, OAuth, distributed systems, industrial/IoT, quantum,
+  virtualization, or large source books as reading queues. Pull one page only when
+  the live build hits its named boundary.
+- Next: Claude uses the source packet in the independent boot-camp review; execution
+  still waits for the final approved stack and proof vehicle.

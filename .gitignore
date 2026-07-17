@@ -33,6 +33,10 @@ Thumbs.db
 venv/
 node_modules/
 
+# Project folders that are their own independent local git repo, not part
+# of the vault's history (see the project's own Docs\README.md for why).
+02-LIBRARY/.PROJECTS/MCP_Bootcamp/
+
 # Large binary/reference material belongs in the Drive backup, not Git history.
 *.pdf
 *.docx

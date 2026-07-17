@@ -5,6 +5,51 @@ tags: [log]
 
 # AI_AUTOMATION_SYSTEMS Wiki — Log
 
+## 2026-07-17 (evening) — Codex app-configuration doc pack: captured, sorted, compiled
+
+Context: the July 17 AI-surface config audit
+(`00-BRAIN\Session_Logs\AI_SURFACE_CONFIG_AUDIT_2026-07-17.md`) found this hub
+had zero coverage of the Codex app's own configuration surface (the OpenAI pack
+is platform-API docs). Chris captured five official pages from
+learn.chatgpt.com into `Clippings\`; Claude sorted them into
+`raw\OPEN_AI-CHATGPT_CODEX_FILES\` (Chris-authorized raw placement), plus one
+Claude Code video transcript → `raw\CLAUDE_FILES\` (lookup, not compiled) and
+a Hyper-V doc → TECHNOLOGY raw. One OAPEN metadata clipping remains in
+Clippings, home undecided.
+
+All five docs read in full (~204 KB total: Config basics 9K, Configuration
+Reference 62K, Advanced Configuration 37K, Agent approvals & security 27K,
+Developer commands 67K) and synthesized as ONE retrieval page,
+`codex-app-configuration-and-security.md`. Key yields:
+
+- **Audit Finding C2 resolved by evidence**: project `.codex\config.toml`
+  loads for trusted projects (closest-wins, root→cwd); `.ROOT` is trusted, so
+  its workspace-write / on-request / network-off policy is live config.
+- **New human-in-the-loop tension flag**: `~/.codex/config.toml` sets
+  `approvals_reviewer = "auto_review"` — a guardian agent, not Chris, reviews
+  Codex approval prompts. Tension with AGENT.md's consequential-actions rule;
+  Chris decision needed (audit report amended).
+- **Three deterministic guard mechanisms newly documented**: named permission
+  profiles (beta; per-path/glob read/write/deny — the mechanical raw/journal
+  guard path), execpolicy `.rules` (allow/prompt/forbid command prefixes),
+  and lifecycle hooks (PreToolUse etc., trust-gated).
+- `.git/`/`.codex/`/`.agents/` are vendor-protected read-only inside
+  workspace-write — cross-vendor confirmation of the protected-agent-config
+  pattern already documented on the Claude side.
+- Windows: docs recommend `[windows] sandbox = "elevated"`
+  (`/setup-default-sandbox`); `.ROOT`'s machine currently runs `unelevated`.
+- `/import` migrates Claude Code config/skills into Codex — cheap first move
+  for skills-mirror parity.
+
+Follow-up captures queued (not yet in raw): the dedicated Permissions, Hooks,
+Rules, AGENTS.md, and Sandboxing pages linked from this batch — needed before
+implementing the permission-profile or hooks recommendations.
+
+Files changed: `wiki/codex-app-configuration-and-security.md` (new),
+`raw-source-coverage.md` (recount 193 files; two new rows), `index.md`
+(Pages + footer), this log. Raw files placed at Chris's direction; none
+modified. Audit report in Session_Logs amended same session.
+
 ## 2026-07-17 (continued) — The Business Case for AI reclassified and fully compiled
 
 After the Mastering Claude intake closed, Chris asked about the July 16

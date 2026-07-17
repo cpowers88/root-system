@@ -334,6 +334,14 @@ other five July 16 volumes remain deliberately lookup/reference.
   professional risk/compliance layer); sixth consumer-scale restatement of
   the verification-capacity verdict; persona outcomes are explicit
   composites, not evidence.
+- [Codex App — Configuration Layers, Sandboxing, Approvals, and Command Surface](codex-app-configuration-and-security.md)
+  — first vendor-grounded coverage of the local Codex agent's config surface
+  (5 official docs captured + compiled July 17): six-level config precedence
+  with the **trust gate** on project `.codex/` layers; sandbox/approval
+  two-layer model incl. protected read-only `.git`/`.codex`/`.agents`;
+  three newly documented deterministic guards (permission profiles,
+  execpolicy rules, hooks); the `approvals_reviewer = "auto_review"`
+  human-in-the-loop tension flag; resolved audit Finding C2 same-day.
 - [The Business Case for AI (Ganesan, 2022) — The Leader's AI-Adoption Playbook](business-case-for-ai-ganesan-leader-playbook.md)
   — 294-pp. pre-genAI leader's guide fully compiled: the anti-hype
   AI-vs-simple-software-automation screen, IDA analytics wedge, B-CIDS
@@ -402,4 +410,4 @@ other five July 16 volumes remain deliberately lookup/reference.
   `check_at` follow-up.
 
 ---
-*Last updated: July 17, 2026 (Mastering Claude AI + The Business Case for AI full-main-text intakes)*
+*Last updated: July 17, 2026 (Mastering Claude AI + The Business Case for AI full-main-text intakes; Codex app-configuration doc pack captured and compiled — raw now 193 files)*

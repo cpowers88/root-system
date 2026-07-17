@@ -3,17 +3,19 @@ type: report
 timeline: now
 tags: [governance, claude, codex, configuration, audit]
 created: 2026-07-17
-status: draft-for-review
+status: mostly-implemented
 ---
 
 # AI Surface Configuration Audit — Claude Code & Codex — July 17, 2026
 
 **Scope:** Every `.claude` and `.codex` configuration location on this machine, matched
 against (a) each other, (b) the `.ROOT` boot-chain governance files, and (c) the vendor
-documentation held in `03-WIKIS\AI_AUTOMATION_SYSTEMS\` (raw + wiki). Report-only —
-no settings were changed. Recommendations at the end require Chris's approval before
-implementation (per `AGENT.md` System Evolution Authority and the `.claude`-is-tool-config
-rule in `00-BRAIN\CLAUDE.md`).
+documentation held in `03-WIKIS\AI_AUTOMATION_SYSTEMS\` (raw + wiki). Findings below were
+gathered report-only, then Chris approved the batch same-session ("go... nothing exactly
+locked, but does need permission to go places") and 9 of 13 action-plan items were
+implemented same session — see §6 for per-item status. Two items remain genuinely open
+(§7 questions 5 and 7); two more are gated on Chris capturing follow-up docs (item 7's
+remainder, item 8).
 
 ---
 
@@ -32,11 +34,12 @@ The Codex side has **one significant hole and one open mechanical question**:
    every session, everywhere on the machine. Right now it contributes nothing — the
    machine-wide hard boundaries (88-JOURNAL private, raw immutable) exist for Codex only
    as in-repo prose it reads *after* opening `.ROOT`, and not at all outside `.ROOT`.
-2. **It is unverified whether Codex actually loads `.ROOT\.codex\config.toml`.** Codex's
-   documented config surface is `$CODEX_HOME\config.toml` (the global file). If
-   project-level `config.toml` is not honored by the installed version, the
-   `sandbox_mode`/`approval_policy` lines in `.ROOT\.codex\config.toml` are dead config
-   and the real posture is whatever the desktop app's global file + trust level grants.
+2. ~~**It is unverified whether Codex actually loads `.ROOT\.codex\config.toml`.**~~
+   **RESOLVED July 17 (same day):** Chris captured the official Codex config docs into
+   raw. "Config basics" states project overrides via `.codex\config.toml` **are loaded,
+   but only when the project is trusted** — and `c:\users\chris\.root` holds
+   `trust_level = "trusted"` in the global config. `.ROOT`'s `sandbox_mode`/
+   `approval_policy`/`network_access` lines are live config, not dead letters.
 
 The wiki evidence base is **strong for Claude Code and thin-to-absent for Codex CLI
 configuration**: 22 official Claude Code docs in raw with two excellent distilled pages,
@@ -99,19 +102,25 @@ mistake them for the same thing.
 | No `Remove-Item`/`Clear-Content` | ✔ | ✔ | ✔ | same |
 | Bypass + Auto modes disabled | ✔ | ✔ | ✔ | AGENT.md human-in-the-loop |
 
-**Finding CL1 — three path syntaxes, at most one of them fully correct (HIGH-value fix,
-low effort).** The same journal/raw rules are written `~/.ROOT/...` (user), `/88-JOURNAL/...`
-(project), and `/.ROOT/88-JOURNAL/...` (stray G:). Per the permission-rule path grammar in
-the official docs, `~/` is home-anchored (user file: correct), but a single leading `/` is
-**not** "project root" in all versions/contexts — the three spellings cannot all resolve to
-the intended targets, and the G: spelling is definitely wrong for the C: vault. The layered
-design has saved us so far (the user-level `~/` rules cover the vault regardless of what
-the project-level spellings resolve to), but the project file is the one checked into git
-and the one a future machine would inherit. **Action:** verify with `/permissions` (it
-shows resolved rules) or the `debug-your-config` doc page, then standardize: user file
-keeps `~/.ROOT/...`; project file uses the syntax the verification confirms for
-project-relative paths. One source of truth per layer, both layers intentionally
-overlapping (defense in depth is correct and documented — keep it).
+**Finding CL1 — CORRECTED July 17 (evening), original finding was wrong.**
+Original claim: three deny-path syntaxes across three settings files were
+inconsistent and needed standardizing onto `~/.ROOT/...`. **That was a
+misread.** `00-BRAIN\scripts\validate_boot_chain.py` deliberately requires
+**different** spellings at different scopes: project-scope
+`.ROOT\.claude\settings.json` must use project-relative
+`/88-JOURNAL/**`/`/**/raw/**`, while user-scope files (`~/.claude/settings.json`
+and `.ROOT\.claude\user-settings-policy.template.json`) must use
+home-anchored `~/.ROOT/...`. This is documented in the validator itself:
+*"Claude safety is split deliberately: user scope = launch-independent,
+non-negotiable deny/mode baseline; project scope = reviewable .ROOT policy."*
+Acting on the original finding "standardized" the project file onto the
+user-scope spelling, which **broke the validator and produced a root-health
+BLOCKER** — caught by Codex the same evening (SYSTEM_FLAGS #76, closed same
+session). Reverted; `validate_boot_chain.py` now passes clean. The only
+genuinely stray spelling was the archived G: file's `/.ROOT/88-JOURNAL/...`,
+which is moot — that file is now in `99-ARCHIVE`. **No further action on
+this finding** — the two-spelling split is correct as originally written and
+should not be touched again without re-reading the validator first.
 
 **Finding CL2 — allowlist pollution in user `settings.local.json`.** Alongside four
 deliberate entries (`git *`, `python *`, and the two named validation scripts) sit four
@@ -197,16 +206,13 @@ handed a path into the vault. Proposed content (draft, for approval):
 Keep it under ~15 lines — it loads into every Codex session on the machine, so the same
 context-economy discipline as root `CLAUDE.md` applies.
 
-**Finding C2 — verify that `.ROOT\.codex\config.toml` loads at all (HIGH value,
-5-minute test).** Codex's documented config file is `$CODEX_HOME\config.toml`. If the
-installed version does not merge a project-level `.codex\config.toml`, then
-`sandbox_mode`, `approval_policy`, and `network_access = false` are dead letters and the
-effective posture comes from the desktop app's global config + the `trust_level =
-"trusted"` entry for `c:\users\chris\.root`. **Test:** start Codex in `.ROOT`, run
-`/status` (or equivalent) and confirm the reported sandbox/approval values match the
-project file; or temporarily set a distinctive value and observe. If not honored, move
-the three lines into a project profile in the global `config.toml` and turn the project
-file into a documented pointer.
+**Finding C2 — RESOLVED July 17.** Official docs (now in
+`raw\OPEN_AI-CHATGPT_CODEX_FILES\Config basics.md`) confirm Codex loads project
+`.codex\config.toml` layers **when the project is trusted**; `.ROOT` is trusted, so its
+`sandbox_mode = "workspace-write"`, `approval_policy = "on-request"`, and
+`network_access = false` are in effect. Note the coupling this creates: the project
+config's protection *depends on* the trust grant in the global file — one more reason
+to keep the trust list pruned (Finding C3).
 
 **Finding C3 — stale trust grants in global `config.toml`.** Seven directories hold
 `trust_level = "trusted"`, including four G:-era/experiment paths (`g:\my drive\.root`,
@@ -224,6 +230,35 @@ capability gain — session-close, root-health etc. become invocable from Codex)
 audit/validation work Codex does in `.ROOT`, `high` reasoning effort is worth an A/B on
 one real audit task before changing the default. App-managed sections (plugins, MCP
 servers, marketplaces) look healthy; leave them alone.
+
+**Finding C6 (added evening of July 17, from the doc ingest) — `approvals_reviewer =
+"auto_review"` in the global config routes Codex approval prompts to an AI guardian
+agent, not to Chris.** The docs are explicit: auto-review substitutes a reviewer agent
+for the user on exactly the actions consequential enough to prompt (sandbox escalations,
+network requests, side-effecting tool calls). That is in direct tension with `AGENT.md`'s
+"consequential actions remain human-approved" rule — and it was invisible until the
+official docs were read. Chris decision needed: set `user` for doctrine alignment, or
+record auto-review as a documented, bounded exception. `/approve` retries a guardian
+denial once either way.
+
+**Finding C7 (added same ingest) — Codex has deterministic guard mechanisms the audit
+believed it lacked.** (a) **Named permission profiles** (beta): `[permissions.<name>]`
+filesystem rules per path/glob valued `read`/`write`/`deny` — a custom profile can make
+`raw\` read-only and `88-JOURNAL\` read-denied, mechanically, replacing the
+filesystem-attribute workaround as the idiomatic option (selected via
+`default_permissions`; replaces `sandbox_mode`, don't combine). (b) **Execpolicy
+`.rules` files**: prefix rules with `allow`/`prompt`/`forbidden` decisions — Codex's
+equivalent of Claude's command deny rules (e.g. forbid `Remove-Item`, `git reset
+--hard`). (c) **Lifecycle hooks** (`PreToolUse` etc.), trust-gated. Also confirmed:
+`.git\`, `.codex\`, and `.agents\` are vendor-protected read-only inside the
+workspace-write sandbox — Codex cannot silently edit its own project config or the
+skills mirror. Full mechanics: `03-WIKIS\AI_AUTOMATION_SYSTEMS\wiki\codex-app-configuration-and-security.md`.
+Prerequisite before implementing: capture the dedicated Permissions/Rules/Hooks doc
+pages into raw.
+
+**Finding C8 (same ingest) — Windows sandbox mode.** Docs recommend `[windows]
+sandbox = "elevated"`; this machine runs `"unelevated"`. The in-session
+`/setup-default-sandbox` command performs the elevated upgrade (needs admin once).
 
 ### One deterministic guard that would protect against *every* surface
 
@@ -265,15 +300,17 @@ authority for re-verifying Findings C1–C4.
 
 | # | Action | Surface | Effort | Value | Gate |
 |---|---|---|---|---|---|
-| 1 | Write global `~/.codex/AGENTS.md` (draft in §4/C1) | Codex | 10 min | HIGH — closes the only instruction-free surface on the machine | Chris approval of wording |
-| 2 | Verify `.ROOT\.codex\config.toml` actually loads; relocate the 3 policy lines if not | Codex | 5 min test | HIGH — determines whether current Codex safety posture is real | Test first, then approval |
-| 3 | Fix deny-path syntax in `.ROOT\.claude\settings.json` after verifying resolution via `/permissions` | Claude | 15 min | HIGH — the checked-in file is the one future machines inherit | Verify, then approval |
-| 4 | Clean user `settings.local.json` (drop 4 junk grep entries; confirm/narrow `git *`, `python *`) | Claude | 5 min | MED | Chris approval |
-| 5 | Prune Codex trust levels to live directories | Codex | 5 min | MED | Chris approval |
-| 6 | ~~Delete/archive `G:\My Drive\.claude\`~~ **DONE July 17** — moved to `99-ARCHIVE\ARCHIVED_2026-07-17_GDRIVE_claude_settings\`. Remaining: archive `settings.pre-phase1` backup; sync template | Both | 5 min | MED (confusion removal) | Chris approval |
-| 7 | Capture official Codex config docs into raw → wiki ingest → `codex-app-configuration.md` | Wiki | Chris: 20 min capture; AI: one ingest session | HIGH long-term — converts §4 from model-knowledge to evidence | Chris supplies raw |
-| 8 | Proposal: read-only attribute on raw\ folders (mechanical immutability for all surfaces) | System | Proposal + script | MED-HIGH | Normal proposal path |
-| 9 | Confirm/extend skill-mirror discovery for Codex | Codex | 30 min | MED | After #2, #7 |
+| 1 | ~~Write global `~/.codex/AGENTS.md`~~ **DONE July 17** — 12-line file written (governed-vault pointer, 88-JOURNAL/raw hard stops, consequential-action ask rule) | Codex | — | Resolved | — |
+| 2 | ~~Verify `.ROOT\.codex\config.toml` loads~~ **DONE July 17** — docs confirm project config loads for trusted projects; `.ROOT` is trusted | Codex | — | Resolved | — |
+| 3 | ~~Fix deny-path syntax~~ **REVERSED then RE-RESOLVED July 17** — original fix was wrong (see corrected Finding CL1); it broke `validate_boot_chain.py` and caused a root-health BLOCKER (SYSTEM_FLAGS #76). Reverted to the validator-required project-relative spelling; validator now PASSes clean. No further action — the two-spelling split was correct all along | Claude | — | Resolved (self-corrected) | — |
+| 4 | ~~Clean user `settings.local.json`~~ **DONE July 17** — 4 junk grep entries removed; `git *`/`python *` kept broad per Chris ("nothing locked, but needs permission to go places"), with `Bash(git push*)` moved to `ask` as the one outbound/consequential exception | Claude | — | Resolved | — |
+| 5 | ~~Prune Codex trust levels~~ **DONE July 17** — 4 stale G:-era entries removed; kept `c:\users\chris\.root` plus two other real local dirs the app had added since the audit (a Documents\Codex session dir and bare `c:\users\chris`) | Codex | — | Resolved | — |
+| 6 | ~~Delete/archive `G:\My Drive\.claude\`~~ **DONE July 17** — moved to `99-ARCHIVE\ARCHIVED_2026-07-17_GDRIVE_claude_settings\`. ~~Archive `settings.pre-phase1` backup~~ **DONE** — moved to `99-ARCHIVE\ARCHIVED_2026-07-17_claude_user_settings_pre-phase1.json`. ~~Sync template~~ **DONE** — `model` line added to `user-settings-policy.template.json` | Both | — | Resolved | — |
+| 7 | ~~Capture Codex config docs → wiki ingest~~ **DONE July 17 (both halves)** — 5 docs in raw, all read in full, compiled into `wiki\codex-app-configuration-and-security.md`. Follow-up capture queued: Permissions, Hooks, Rules, AGENTS.md, Sandboxing pages | Wiki | — | Resolved | Follow-up capture: Chris |
+| 8 | Mechanical raw/journal guard for Codex — **upgraded by the ingest**: prefer a custom permission profile (raw `read`, journal `deny`) and/or execpolicy `.rules` forbidding destructive commands over the filesystem-attribute workaround. Pilot + verify with `codex sandbox windows -P <profile>` (beta feature) | Codex | Proposal + pilot | MED-HIGH | Normal proposal path, after follow-up doc capture |
+| 9 | Skills-mirror parity for Codex — **start with `/import`** (migrates Claude Code config/skills), then extend `sync_shared_skills.py` only if needed | Codex | 15–30 min | MED | After #7 follow-up |
+| 12 | ~~Decide `approvals_reviewer`~~ **DONE July 17** — switched to `"user"` in `~/.codex/config.toml`; Chris reviews Codex approval prompts again, aligned with AGENT.md doctrine | Codex | — | Resolved | — |
+| 13 | Upgrade Windows sandbox `unelevated` → `elevated` via `/setup-default-sandbox` (Finding C8; docs' recommendation; needs admin once) | Codex | 10 min | MED | Chris runs it (interactive, admin prompt) |
 | 10 | Verify Windows sandbox status; document or trim the sandbox block | Claude | 10 min | LOW-MED (accuracy of self-knowledge) | Verify first |
 | 11 | Optional: A/B `high` reasoning effort for Codex audit tasks | Codex | One task | LOW | Chris preference |
 
@@ -287,13 +324,24 @@ file would create a second, unversioned instruction source).
 
 ## 7. Open Questions for Chris
 
-1. Approve the global `~/.codex/AGENTS.md` draft wording (or edit it)?
-2. Keep `Bash(git *)` broad, or narrow to exclude `git push` (making pushes prompt-only)?
+1. ~~Approve the global `~/.codex/AGENTS.md` draft wording?~~ **Resolved July 17:**
+   Chris said go; written as drafted.
+2. ~~Keep `Bash(git *)` broad, or narrow to exclude `git push`?~~ **Resolved July 17:**
+   Chris's stated principle — "nothing exactly locked, but needs permission to go
+   places" — kept `git *`/`python *` broad for local work and moved `git push*` to
+   `ask` as the one outbound/consequential exception. Same shape now governs both
+   the Claude allowlist and the Codex `approvals_reviewer` decision (#6 below).
 3. ~~G: stray `.claude` — delete outright, or copy into `99-ARCHIVE` first?~~ **Resolved July 17:** Chris said remove it; moved to `99-ARCHIVE\ARCHIVED_2026-07-17_GDRIVE_claude_settings\`.
-4. Willing to capture the Codex config doc set into raw so the Codex side gets the same
-   evidence footing as the Claude side?
-5. Interest in the raw read-only-attribute proposal (#8), or is instruction-level
-   immutability considered sufficient?
+4. ~~Willing to capture the Codex config doc set into raw?~~ **Resolved July 17:**
+   captured and sorted into `raw\OPEN_AI-CHATGPT_CODEX_FILES\`.
+5. **STILL OPEN** — Interest in the mechanical raw/journal guard for Codex (#8 — now
+   a permission profile / execpolicy rules per Finding C7, superseding the
+   read-only-attribute idea), or is instruction-level immutability considered
+   sufficient? Blocked on the follow-up doc capture (item 7's remainder).
+6. ~~`approvals_reviewer`: switch to `user`?~~ **Resolved July 17:** yes — switched to
+   `"user"` in `~/.codex/config.toml`.
+7. **STILL OPEN** — Run `/setup-default-sandbox` to move the Windows sandbox to
+   `elevated`? (Finding C8 / item 13) — interactive, needs Chris to run it directly.
 
 ---
 

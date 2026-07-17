@@ -18,6 +18,12 @@ created: 2026-07-15
 - Older history: flags #1–#83-era (June 8 – July 11, 83 rows) remain in
   `99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`.
 
+## Closed — July 2026 (week of July 17)
+
+| # | Flag | Raised | Closed | Fix |
+|---|---|---|---|---|
+| 76 | Claude project deny-path contract contradicted the boot validator after the July 17 AI-surface audit. `validate_boot_chain.py` deliberately requires project-scope `.claude\settings.json` to use project-relative deny rules (`/88-JOURNAL/**`, `/**/raw/**`) while user-scope files use `~/.ROOT/...` — a split by design (project scope = reviewable `.ROOT` policy; user scope = launch-independent baseline), not drift. The earlier same-day audit misread the two spellings as an inconsistency and "standardized" the project file onto the user-scope spelling, which broke the validator's required project-scope check. | July 17 | July 17 | Reverted `.ROOT\.claude\settings.json`'s five journal/raw deny rules back to the project-relative `/88-JOURNAL/**` / `/**/raw/**` form the validator requires; `user-settings-policy.template.json` was already correct (only its `model` line had changed, unrelated). Reran `validate_boot_chain.py`: **PASS — boot chain clean, no stale governance references** (31 boot files, 1199 live pages). `AI_SURFACE_CONFIG_AUDIT_2026-07-17.md` Finding CL1 and action item 3 corrected in place to record the split as intentional rather than a defect. |
+
 ## Closed — July 2026 (week of July 11–15)
 
 | # | Flag | Raised | Closed | Fix |

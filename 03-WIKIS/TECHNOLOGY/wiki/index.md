@@ -27,7 +27,7 @@ dedicated ingest (see `log.md`). Four new category subfolders added
 (`database-sql/`, `software-craft/`, `security/`, `software-engineering/`) plus
 the wiki's first-ever landscape-research pages (3 remain at wiki root) — the original
 stated purpose this wiki carried as an open "next action" since July 7.
-The 30-file raw collection (~726.5 MiB) is fully accounted, not uniformly compiled:
+The 39-file raw content collection is fully accounted, not uniformly compiled:
 five Stanford AI Index files are covered cross-hub, the prior PDFs were compiled
 or explicitly classified, and earlier web clips have derived or lookup coverage.
 The two newest additions, *Intelligent Instrumentation: Principles and Applications*

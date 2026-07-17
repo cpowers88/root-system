@@ -7,7 +7,7 @@ tags: [governance]
 
 # SYSTEM_FLAGS.md — Open Improvement Flags
 ### Location: 00-BRAIN\ | Check at every session start.
-### Last updated: July 15, 2026 (post-migration residual audit complete)
+### Last updated: July 17, 2026 (Claude project-policy validator contradiction logged)
 
 ---
 
@@ -54,4 +54,4 @@ Closed flags live in the monthly ledger:
 
 ---
 *Maintained by: Claude + Chris | Reviewed: every session start (HIGH), weekly (MEDIUM), monthly (LOW)*
-*Last updated: July 15, 2026*
+*Last updated: July 17, 2026*

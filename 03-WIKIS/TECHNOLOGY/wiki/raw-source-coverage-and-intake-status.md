@@ -19,7 +19,7 @@ tags: [technology, governance, source-coverage]
 - **Reference-only:** retained for a future triggered lookup; no current page gap justified ingestion.
 - **Excluded:** reviewed and intentionally not ingested because stronger coverage exists or the source is too shallow.
 
-## Physical File Ledger (38/38)
+## Physical File Ledger (39/39)
 
 | # | Raw file | Status | Durable coverage or reason |
 |---:|---|---|---|
@@ -61,22 +61,22 @@ tags: [technology, governance, source-coverage]
 | 36 | `Global Internet of Things and Edge Computing Summit.pdf` | Reference-only | GIECS 2025 proceedings (CCIS 2719, 247 pp.); IoT/edge case lookup for the `instrumentation-iot/` category; broad discovery, not curriculum |
 | 37 | `Proceedings of Tenth International Congress on Information and Communication Technology.pdf` | Reference-only | ICICT 2025 London proceedings (LNNS 1440, 257 pp.); mixed ICT congress volume for triggered case lookup only |
 | 38 | `Quantum Computing from Hopfield Nets.pdf` | Reference-only, parked | 306-page textbook with Python examples (Bauckhage/Sifa); quantum study is explicitly parked behind a measured problem and prerequisites per the 2026-07-16 goal-aligned gap audit — do not begin without that trigger |
+| 39 | `Install Hyper-V in Windows and Windows Server.md` | Reference-only | Official Microsoft installation/requirements clipping routed 2026-07-17. Retrieve only for an explicit Windows VM or isolation need; it does not establish that Hyper-V is required for the MCP boot camp or prove an AI-tool sandbox. Enabling Hyper-V is a machine-level change requiring separate review because it needs administrator access/restart and may conflict with other hypervisors. |
 
 ## Source-Family Summary
 
 | Disposition | Physical files | Meaning |
 |---|---:|---|
 | Compiled | 8 | Full useful source coverage with explicit navigation/ledger |
-| Selective | 9 | Useful deltas ingested; overlap, derivations, or low-value material explicitly omitted |
+| Selective | 10 | Useful deltas ingested; overlap, derivations, or low-value material explicitly omitted |
 | Derived | 5 | Web clipping converted into a landscape/reference page |
 | Cross-hub | 6 | Canonical synthesis exists in the owning sibling wiki |
-| Reference-only | 4 | OAuth plus three advanced industrial/optimization collections parked behind concrete build or decision triggers |
+| Reference-only | 9 | Triggered lookup sources for OAuth, virtualization, business systems, IoT/ICT cases, industrial/optimization methods, and quantum computing |
 | Excluded | 1 | Introductory source adds no durable gap |
 
-The disposition counts total 33 and match the numbered ledger: **33/33 physical
-files accounted**. Source-family counts differ because the five AI Index files
-represent one report plus four pre-split working copies; the row-level ledger is
-the authoritative physical-folder closure check.
+The disposition counts total 39 and match the numbered ledger: **39/39 physical
+content files accounted**. `desktop.ini` is folder metadata and is intentionally
+excluded from the source ledger.
 
 ## Reopen Triggers
 
@@ -94,3 +94,4 @@ the authoritative physical-folder closure check.
 - July 16, 2026: one ApressOpen IoT architecture book routed from `77-INBOX` as historical reference-only; ledger expanded to all 30 physical files.
 - July 16, 2026: the two newest sources were reopened at Chris's direction and chunk-compiled into `instrumentation-iot/`; all 733 combined physical pages now have explicit dispositions.
 - July 16, 2026: three unique open-access industrial/optimization collections routed from `77-INBOX` as reference-only; ledger expanded to 33/33 without opening a new study queue.
+- July 17, 2026: reconciled the full physical folder after the later five-book intake and DOE selective ingest; registered the new official Hyper-V clipping as reference-only. Ledger and disposition totals now correctly report 39/39.
