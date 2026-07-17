@@ -71,6 +71,79 @@ function Get-IconDefinitions {
     )
 }
 
+$SectionIcoRoot = Join-Path $AssetRoot 'ico-sections'
+
+# Color follows the top-level section so everything inside one section shares
+# one color; each section contrasts with the others. Glyph still follows type.
+function Get-SectionColors {
+    @{
+        '00-BRAIN'          = '#0E7490'  # cyan
+        '01-NORTH_STAR'     = '#B45309'  # gold
+        '02-LIBRARY'        = '#15803D'  # green
+        '03-WIKIS'          = '#1D4ED8'  # blue
+        '05-BUSINESS'       = '#C2410C'  # orange
+        '77-INBOX'          = '#BE123C'  # rose
+        '99-ARCHIVE'        = '#475569'  # slate
+        '...projectSuccess' = '#6D28D9'  # violet
+        'Clippings'         = '#A21CAF'  # magenta
+        'outputs'           = '#0F172A'  # near-black
+    }
+}
+
+function Get-SectionKeyForPath {
+    param([string]$RelativePath)
+    return ($RelativePath -split '\\')[0]
+}
+
+function Get-SectionSlug {
+    param([string]$Key)
+    return (($Key -replace '[^A-Za-z0-9]', '')).ToLowerInvariant()
+}
+
+function Get-SectionIconPath {
+    param([string]$Type, [string]$RelativePath)
+    $key = Get-SectionKeyForPath -RelativePath $RelativePath
+    $colors = Get-SectionColors
+    if (-not $colors.ContainsKey($key)) { return Join-Path $IcoRoot "$Type.ico" }
+    return Join-Path $SectionIcoRoot "$Type--$(Get-SectionSlug -Key $key).ico"
+}
+
+function Ensure-SectionIcon {
+    param([string]$Type, [string]$RelativePath)
+
+    $iconPath = Get-SectionIconPath -Type $Type -RelativePath $RelativePath
+    if (Test-Path -LiteralPath $iconPath) { return $iconPath }
+    if ($iconPath.StartsWith($IcoRoot + [System.IO.Path]::DirectorySeparatorChar, [System.StringComparison]::OrdinalIgnoreCase)) {
+        if (-not (Test-Path -LiteralPath $iconPath)) { throw "Missing icon: $iconPath" }
+        return $iconPath
+    }
+
+    Add-Type -AssemblyName System.Drawing
+    [System.IO.Directory]::CreateDirectory($SectionIcoRoot) | Out-Null
+
+    $definition = Get-IconDefinitions | Where-Object { $_.Key -eq $Type } | Select-Object -First 1
+    if (-not $definition) { throw "Unknown icon type: $Type" }
+    $sourcePath = Join-Path $SourceRoot "$($definition.Glyph).png"
+    if (-not (Test-Path -LiteralPath $sourcePath)) {
+        Invoke-WebRequest -Uri "$PackageBaseUrl/icons/outline/$($definition.Glyph).png" -OutFile $sourcePath -UseBasicParsing
+    }
+
+    $sectionKey = Get-SectionKeyForPath -RelativePath $RelativePath
+    $background = [System.Drawing.ColorTranslator]::FromHtml((Get-SectionColors)[$sectionKey])
+    $source = [System.Drawing.Image]::FromFile($sourcePath)
+    $frames = @()
+    foreach ($size in @(16, 24, 32, 48, 64, 128, 256)) {
+        $frames += [pscustomobject]@{
+            Size = $size
+            Bitmap = New-TileBitmap -Glyph $source -Size $size -Background $background -Foreground ([System.Drawing.Color]::White)
+        }
+    }
+    Convert-BitmapsToIco -Frames $frames -OutputPath $iconPath
+    foreach ($frame in $frames) { $frame.Bitmap.Dispose() }
+    $source.Dispose()
+    return $iconPath
+}
+
 function New-RoundedPath {
     param([System.Drawing.RectangleF]$Rectangle, [single]$Radius)
 
@@ -468,11 +541,10 @@ function Apply-FolderIcons {
     $applied = 0
     foreach ($item in $inventory) {
         if ($item.Exclusion) { continue }
-        $iconPath = Join-Path $IcoRoot "$($item.Type).ico"
-        if (-not (Test-Path -LiteralPath $iconPath)) { throw "Missing icon: $iconPath" }
         if ($DryRun) {
-            Write-Host "DRY RUN $($item.RelativePath) -> $($item.Type)"
+            Write-Host "DRY RUN $($item.RelativePath) -> $($item.Type) ($(Get-SectionKeyForPath -RelativePath $item.RelativePath))"
         } else {
+            $iconPath = Ensure-SectionIcon -Type $item.Type -RelativePath $item.RelativePath
             $iniPath = Join-Path $item.FullPath 'desktop.ini'
             if (Test-Path -LiteralPath $iniPath) {
                 $backupPath = Join-Path $backupRoot (Join-Path $item.RelativePath 'desktop.ini')
@@ -501,7 +573,7 @@ function Audit-FolderIcons {
             [pscustomobject]@{ Path = $item.RelativePath; Type = ''; Status = 'SKIPPED'; Detail = $item.Exclusion }
             continue
         }
-        $expected = Join-Path $IcoRoot "$($item.Type).ico"
+        $expected = Get-SectionIconPath -Type $item.Type -RelativePath $item.RelativePath
         $iniPath = Join-Path $item.FullPath 'desktop.ini'
         $content = Read-DesktopIni -Path $iniPath
         $configured = $content -match ('(?im)^IconResource=' + [regex]::Escape($expected) + ',0\s*$')

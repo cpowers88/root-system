@@ -1382,3 +1382,21 @@ reference back matter rather than an ingestion backlog.
 - Next: retrieve it only for a named AI-literacy, educational-governance, or
   situated-human-impact question; do not let it displace Python, SQL, integration,
   or real workflow proof.
+
+## 2026-07-16 — Night inbox sort: six AI volumes routed as lookup reference
+
+- Routed six PDFs from `77-INBOX` into immutable `raw/` after title,
+  page-extent, and SHA-256 verification: xAI 2025 World Conference proceedings
+  Parts 2 and 4 (renamed from ambiguous `...Intelligence2/4.pdf` before entering
+  raw — both verified distinct, a real series split), Digital Humanism (DIGHUM
+  2025), Let's Talk AI (LNCS 15000), Philosophy of Science for Machine Learning
+  (Synthese 527), and The Business Case for AI (Ganesan 2022).
+- All six classified lookup/reference in [[raw-source-coverage]]; none opens a
+  compilation queue. Ledger recount: 187 raw files, ~342.9 MiB.
+- Duplicate caught at the gate: the inbox copy of *The 2025 AI Agent Index* is
+  byte-identical (SHA-256) to `raw/3805689.3806728.pdf`, already compiled as
+  [[2025-ai-agent-index]]. It was **not** moved into raw; it remains in
+  `77-INBOX` pending Chris's deletion call — same defect class as closed flag
+  #63 and open flag #69.
+- Next: retrieval only on named explainability, governance, adoption, or
+  epistemology questions; Python/SQL/application proof stays first.

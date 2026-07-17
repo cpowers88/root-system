@@ -621,3 +621,19 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
   the immediate prerequisite; no new parallel project was opened.
 - Parked Kubernetes, microservices, vector/RAG infrastructure, multi-agent systems,
   paid hosting, and industrial advanced methods behind explicit measured triggers.
+
+## 2026-07-16 — Night inbox sort: five reference volumes routed into raw/
+
+- Routed five PDFs from `77-INBOX` into `raw/` after title, page-extent, and
+  SHA-256 uniqueness verification (no duplicates against any existing raw file):
+  Business Information Systems 2nd Ed. (545 pp.), Experimental Design for Data
+  Science and Engineering (246 pp.), GIECS 2025 IoT/edge proceedings (CCIS 2719),
+  ICICT 2025 London proceedings (LNNS 1440), and Quantum Computing from Hopfield
+  Nets (306 pp.).
+- All five entered the ledger as **Reference-only** (rows 34–38 in
+  [[raw-source-coverage-and-intake-status]]); the quantum text is additionally
+  marked parked per the 2026-07-16 goal-aligned gap audit boundary. No
+  compilation queue was opened — the decisive gap remains integrated operating
+  proof, not more reading.
+- Next: unchanged — Python Stage 3, then scanner SQL evidence. Retrieve these
+  volumes only on a named trigger.

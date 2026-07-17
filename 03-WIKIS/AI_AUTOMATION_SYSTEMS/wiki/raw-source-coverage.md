@@ -11,8 +11,9 @@ is retrievable in wiki/report form), **lookup/reference** (accounted for but not
 compiled), **duplicate**, and **misrouted**. A raw file existing on disk or
 having been opened once is not, by itself, evidence of ingestion.
 
-Coverage audit: **2026-07-16** — 180 raw files, approximately 184.6 MiB (live
-recount after book intake).
+Coverage audit: **2026-07-16 (night)** — 187 raw files, approximately 342.9 MiB
+(live recount after the conference-volume intake below; prior recount that
+morning was 180 files / 184.6 MiB).
 
 ## Large PDF and book sources
 
@@ -35,6 +36,12 @@ recount after book intake).
 | `TheAlignmentProblem.pdf` (617 physical pp.; main text ends p. 403) | **Compiled; full main text** | Prologue (pp. 9-12), Introduction and Parts I-III (pp. 13-380), and Conclusion (pp. 381-403) reviewed in named chunks. Retrieval: [[training-data-representation-and-feedback-risk]], [[algorithmic-fairness-metrics-ground-truth-and-intervention]], [[interpretable-models-and-human-oversight]], [[reinforcement-learning-reward-prediction-and-credit]], [[reward-shaping-curiosity-and-safe-exploration]], [[imitation-learning-recovery-and-amplification]], [[preference-inference-feedback-and-human-ai-cooperation]], and [[uncertainty-corrigibility-and-impact-limits]]. Acknowledgments (from p. 404), notes (from p. 409), bibliography, and index are reference back matter, not uncompiled argument. |
 | `Emerging Pedagogies - AI Territory and Situated Knowledges (2025).pdf` (157 pp.) | Lookup/reference; not compiled | Open-access ten-chapter collection on algorithmic literacy, epistemic inequality, ethical generative-AI teaching, design thinking, and critical thinking. Relevant to human/education consequences, but it does not fill the current production-application gap; retrieve for a specific AI-literacy, education, or governance question. |
 | `TLS.pdf` (3 pp.) | **Misrouted; not an AIAS source** | APICS article on combining Theory of Constraints, Lean, and Six Sigma. Belongs in SYSTEMS if Chris authorizes a raw-source move/copy; raw remains untouched here. |
+| `Explainable Artificial Intelligence - xAI 2025 Proceedings Part 2 (CCIS 2577).pdf` (451 pp.) | Lookup/reference; not compiled | xAI 2025 World Conference proceedings, Part 2 (routed from 77-INBOX 2026-07-16; renamed from ambiguous `...Intelligence2.pdf` before entering raw). Retrieve when an explainability/interpretability question has a concrete job — client trust, model debugging, or oversight design — not as a reading queue. |
+| `Explainable Artificial Intelligence - xAI 2025 Proceedings Part 4 (CCIS 2579).pdf` (435 pp.) | Lookup/reference; not compiled | Same xAI 2025 proceedings family, Part 4 (renamed from `...Intelligence4.pdf`). SHA-256 verified distinct from Part 2 — a real series split, not a mis-save. Same triggered-retrieval rule. |
+| `Digital Humanism.pdf` (LNCS 16319, DIGHUM 2025, 556 pp.) | Lookup/reference; not compiled | Interdisciplinary AI-and-society conference volume. Overlaps existing compiled society/governance coverage (Empire of AI, Alignment Problem pages) — retrieve for a named human-impact or governance question; do not double-compile the overlap. |
+| `Let's Talk AI.pdf` (LNCS 15000, 331 pp.) | Lookup/reference; not compiled | State-of-the-art interdisciplinary survey volume ("Interdisciplinarity Is a Must"). Challenge/perspective source, not an operating manual. |
+| `Philosophy of Science for Machine Learning.pdf` (Synthese Library 527, 517 pp.) | Prerequisite/challenge reference; not compiled | Epistemology and methodology of ML. Sits behind an active conceptual need; do not let it displace Python/SQL/application proof. |
+| `The Business Case for AI.pdf` (Ganesan 2022, 294 pp.) | Lookup/reference; not compiled | Practical AI-adoption guide for business leaders — candidate support for Advisor-Builder client framing and the enterprise-adoption pages. 2022 content: verify any tool or capability claim against current sources before reuse. |
 
 ## Markdown source groups
 

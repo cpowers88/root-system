@@ -19,7 +19,7 @@ tags: [technology, governance, source-coverage]
 - **Reference-only:** retained for a future triggered lookup; no current page gap justified ingestion.
 - **Excluded:** reviewed and intentionally not ingested because stronger coverage exists or the source is too shallow.
 
-## Physical File Ledger (33/33)
+## Physical File Ledger (38/38)
 
 | # | Raw file | Status | Durable coverage or reason |
 |---:|---|---|---|
@@ -56,6 +56,11 @@ tags: [technology, governance, source-coverage]
 | 31 | `Next-Generation Industrial Engineering - AI Smart Manufacturing and Sustainable IE (2026).pdf` | Reference-only | Open-access eight-chapter collection spanning smart-industry safety, digital twins, manufacturing AI/ML, robotics, and predictive analytics; retrieve only for a named industrial application question and verify strong claims against primary evidence |
 | 32 | `Intelligent Automation AI Systems and Digital Engineering in Oil Gas Chemical Industries - Volume 3 (2026).pdf` | Reference-only | Open-access mixed collection of 17 oil/gas/chemical, automation, anomaly-detection, energy, and environmental applications; broad case discovery, not a coherent implementation curriculum |
 | 33 | `Swarm Intelligence - Ant and Particle Swarm Optimization.pdf` | Reference-only, historical | Open-access 27-chapter ACO/PSO collection (2007 content, 2019 PDF); advanced optimization lookup behind algorithms, statistics, and a real objective-function/data need |
+| 34 | `Business Information Systems 2nd Ed. Textbook.pdf` | Reference-only | 545-page MIS textbook (routed from 77-INBOX 2026-07-16); same source family as the excluded `Foundations_of_Information_Systems.pdf` — review against existing applied pages before any ingest; selective at most |
+| 35 | `Experimental Design for Data Science and Engineering.pdf` | Reference-only | 246-page design-of-experiments text; retrieve when a real experiment/measurement-design job exists (ISYE coursework or a data-science-ml application), not as reading queue |
+| 36 | `Global Internet of Things and Edge Computing Summit.pdf` | Reference-only | GIECS 2025 proceedings (CCIS 2719, 247 pp.); IoT/edge case lookup for the `instrumentation-iot/` category; broad discovery, not curriculum |
+| 37 | `Proceedings of Tenth International Congress on Information and Communication Technology.pdf` | Reference-only | ICICT 2025 London proceedings (LNNS 1440, 257 pp.); mixed ICT congress volume for triggered case lookup only |
+| 38 | `Quantum Computing from Hopfield Nets.pdf` | Reference-only, parked | 306-page textbook with Python examples (Bauckhage/Sifa); quantum study is explicitly parked behind a measured problem and prerequisites per the 2026-07-16 goal-aligned gap audit — do not begin without that trigger |
 
 ## Source-Family Summary
 
