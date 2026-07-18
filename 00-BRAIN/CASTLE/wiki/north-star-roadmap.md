@@ -6,7 +6,7 @@ tags: [north-star, roadmap]
 ---
 
 # North Star Roadmap — The Master Pathway
-### Direction: `.ROOT\01-NORTH_STAR\NORTH_STAR.md` | Vehicle/milestones: `Goals & Milestones\CURRENT_STRATEGY.md` | Updated: July 14, 2026
+### Direction: `.ROOT\01-NORTH_STAR\NORTH_STAR.md` | Vehicle/milestones: `Goals & Milestones\CURRENT_STRATEGY.md` | Updated: July 17, 2026
 
 ## The Destination
 
@@ -73,18 +73,24 @@ Full detail per phase: [[phase-map]] → `phases/` pages.
 
 ## What Matters RIGHT NOW (July 2026)
 
-1. **Physics + Python preparation** — protect August 24 school readiness; resume the
-   paused Physics Stage 3 vector-addition problem first.
-2. **[[ksu-academic-tracker]]** — V1 is shipped. Enter real D2L/syllabus data around
+1. **Physics + Python preparation** — protect August 24 school readiness. Physics
+   Stage 4 (Motion in Two Dimensions) is active (Stage 3 closed 7/16); Python
+   Stage 3 (Loops) is mid-drill (Stage 2 closed 7/16). The daily school-proof
+   block runs first, every day, sprint or not.
+2. **MCP Bootcamp, July 18–25** — eight-lens Advisor-Builder sprint over the real
+   `observation_one.md` case; MCP is the ≤3 hr capstone, not the subject. Live
+   plan and binding rules: `.ROOT\NOW.md` → the July 17 review packet. July 26 is
+   the hard D2L transition, no carryover.
+3. **[[ksu-academic-tracker]]** — V1 is shipped. Enter real D2L/syllabus data around
    July 25 and use it daily; keep SQL practice focused rather than expanding scope.
-3. **Financial continuity evidence** — maintain Lane A's private scanner proof and
+4. **Financial continuity evidence** — maintain Lane A's private scanner proof and
    human-classify its combined top 100 when scheduled. Run B2's one external proof
    conversation only after Chris explicitly approves it.
-4. One 30-min technology-landscape rep weekly; approved Revenue Lab technical proof
+5. One 30-min technology-landscape rep weekly; approved Revenue Lab technical proof
    may replace this block rather than add another one.
-5. One live workflow observation, then convert that evidence into the first practice
+6. One live workflow observation, then convert that evidence into the first practice
    Value Stream Map before the semester.
-6. Quietly collect real-estate workflow observations through Heather's warm network
+7. Quietly collect real-estate workflow observations through Heather's warm network
    when available; no outreach campaign before the First Contact phase.
 
 **High-load school window: Oct 5 – Nov 11, 2026. Protect fixed commitments;

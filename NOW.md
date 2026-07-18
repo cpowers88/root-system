@@ -5,7 +5,7 @@ status: active
 tags: []
 ---
 
-# NOW — Friday, July 17, 2026
+# NOW — Saturday, July 18, 2026
 ### Open this every morning. Start here, do the proof, then close clean.
 
 ## Start Here
