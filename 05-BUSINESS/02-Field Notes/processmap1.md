@@ -1,3 +1,9 @@
+---
+type: note
+timeline: log
+tags: [business, audit]
+---
+
 # Process Map of Workflow Observation 1
 
 ## Step 1 - First Contact

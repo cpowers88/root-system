@@ -1,3 +1,9 @@
+---
+type: note
+timeline: parked
+tags: [business]
+---
+
  Below is the full opportunity inventory for the construction workflow you mapped. This is everything a human, process improvement,
   software, automation, data, or AI system could potentially help with. It is not a recommendation to build everything.
 

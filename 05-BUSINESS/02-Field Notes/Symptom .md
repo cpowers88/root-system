@@ -1,3 +1,9 @@
+---
+type: note
+timeline: log
+tags: [business, audit]
+---
+
 Symptom — the visible surface effect, not the cause. Like a stain on the ceiling: it's real, but it's not the leak.
 → Your answer, with a line pointing to which part of the note/map shows it.
 Waste — effort, time, or motion spent that produces no value and would vanish in a well-run version of this business. Like re-measuring a wall because the first note got lost.

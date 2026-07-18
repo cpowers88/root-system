@@ -1,3 +1,10 @@
+---
+type: note
+timeline: log
+status: draft
+tags: [business, audit]
+---
+
   ## Trace 1: Original price and scope
 
   The object is:
