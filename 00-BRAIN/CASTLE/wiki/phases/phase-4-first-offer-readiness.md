@@ -1,7 +1,9 @@
 ---
 type: phase
+timeline: later
+stage: phase-4
 status: planned
-tags: [phase, next]
+tags: [phase]
 ---
 
 # Phase 4 — First Offer Readiness
@@ -16,7 +18,8 @@ a **scoped project** to a believer, a **retainer** to a client with working syst
 (source: service-offer-ladder.md).
 
 ## Why It Matters to the North Star
-First client is March 2027 (NORTH_STAR.md). The audit is "a paid sales process
+The current strategy targets the first paid consulting conversation for March 2027
+(`CURRENT_STRATEGY.md`). The audit is "a paid sales process
 disguised as consulting — and real consulting disguised as a sales process": the
 client pays to have waste quantified, and the report's last page is the next sale's
 first page (source: smb-ai-audit-method.md). Charging is non-negotiable — free

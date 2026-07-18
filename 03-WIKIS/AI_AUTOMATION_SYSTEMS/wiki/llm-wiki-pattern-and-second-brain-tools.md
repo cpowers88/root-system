@@ -1,7 +1,7 @@
 ---
 type: reference
 tags: [reference, ai-automation]
-source: raw/LLM_WIKI_PATTERN_karpathy.md + raw/LLM WIKI.md + raw/Obsidian AI Second Brain Open-Source.md + raw/Second brain obsidian.md (each read in full, 2026-07-09); raw/GBrain - Garry Tan's Opinionated Agent Brain.md + raw/loopany CLAUDE.md.md + raw/loopany INSTALL_FOR_AGENTS.md.md + raw/loopany part 1-4.md + raw/How to build proactive agents and self-improving companies.md (each read in full, 2026-07-13; full architectural depth moved to [[self-improving-agent-architectures-gbrain-loopany-closed-loop]])
+source: raw/LLM_WIKI_PATTERN_karpathy.md + raw/LLM WIKI.md + raw/Obsidian AI Second Brain Open-Source.md + raw/Second brain obsidian.md (each read in full, 2026-07-09); raw/GBrain - Garry Tan's Opinionated Agent Brain.md + raw/loopany CLAUDE.md.md + raw/loopany INSTALL_FOR_AGENTS.md.md + raw/loopany part 1-4.md + raw/How to build proactive agents and self-improving companies.md (each read in full, 2026-07-13; full architectural depth moved to [[self-improving-agent-architectures-gbrain-loopany-closed-loop]]); raw/Agentic Operating System File Structure A Practical Folder Layout.md + raw/Build Karpathy’s Self-Updating AI Knowledge Base in Just 90 Minutes.md (read in full and source-classified, 2026-07-14)
 ---
 
 # The LLM-Wiki Pattern and Its Second-Brain Implementations
@@ -35,7 +35,8 @@ blocks + handoffs outperform claude-obsidian's ~500-token `hot.md` cache).
 
 ## What Was Adopted (July 9, 2026 — see proposal)
 
-Promoted into `00-BRAIN\AI_Agent.md § Wiki Shared Layer` (now AGENT.md — lane split, July 10, 2026), rules 5–8:
+Promoted into `00-BRAIN\AGENT.md § Wiki Shared Layer` (originally added before the
+July 10 lane split), rules 5–8:
 
 - **Prefer updating over creating** (generalized from BUSINESS §7A) —
   the anti-append discipline obsidian-second-brain identifies as the thing
@@ -107,9 +108,61 @@ a generalized `learning` from the specific `skill-proposal` behavior
 change, human accept/reject, rejected reasons logged, accepted ones get a
 `check_at` follow-up) is genuinely novel and stays inside the eyes-not-hands
 boundary — proposal comparing it against `SYSTEM_FLAGS.md`'s current
-mechanism: [[../proposals/2026-07-13_belief-proposal-split-for-system-flags]].
+mechanism: [[proposals/2026-07-13_belief-proposal-split-for-system-flags]].
+
+## 2026-07-14 Clipping Review: What Earned Promotion
+
+Two clippings supplied useful operating mechanics after their vendor/promotional
+claims were separated from the ideas. MindStudio's folder-layout article
+reinforced thin global rules, split process from context, and versioned writable
+learnings. The Karpathy implementation article supplied two useful maintenance
+prompts. `.ROOT` already had the larger architecture, so no new folder layer,
+agent, heartbeat, or schema was added.
+
+The promoted deltas are deliberately small:
+
+1. **Prioritize sources before ingest.** Rank candidates by authority,
+   information density, cross-reference potential, currency, and dependency
+   order; flag whether each source is actually ready to ingest. Marketing pages
+   can suggest leads but cannot establish a governance or revenue claim.
+2. **Classify change before overwriting.** A newer statement may be a temporal
+   update, a context-dependent variant, or a true contradiction. Preserve the
+   older source/history, keep legitimate variants, and flag only true conflicts.
+   Cross-source synthesis waits for repeated independent evidence.
+
+This review also corrected an overbroad reading of “wiki instead of RAG.” The
+current primary research shows a tradeoff, not a universal replacement:
+
+- [WiCER (2026)](https://arxiv.org/abs/2605.07068) reports severe information
+  loss from blind compilation and materially better results after diagnostic
+  evaluation/refinement. This supports `.ROOT`'s validation gate and rejects
+  unattended “compile and trust.”
+- [Retrieval as Reasoning (2026)](https://arxiv.org/abs/2605.25480) reports
+  gains from a compiled bidirectional wiki plus tool-based traversal and an
+  error book. The evaluation/error-log idea is worth studying; autonomous
+  self-repair is not approved here.
+- [A preregistered RAG-vs-wiki comparison (2026)](https://arxiv.org/abs/2605.18490)
+  found different strengths and substantially higher query-token cost for the
+  tested wiki workflow. Architecture should follow the question and evidence.
+
+### Research queue — primary/inspectable first
+
+1. [Karpathy's original LLM-wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f3)
+   — re-check the baseline pattern against later interpretations.
+2. [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) — inspect source
+   lineage, review-queue, immutable-raw, and read-only MCP defaults before
+   borrowing any mechanism.
+3. WiCER's released benchmark/code — test whether a small diagnostic probe set
+   catches meaningful information loss in one `.ROOT` hub before considering
+   tooling.
+4. Retrieval as Reasoning's error-book design — compare with `SYSTEM_FLAGS.md`
+   and wiki logs; do not duplicate unless a concrete gap appears.
+5. *The Living Wiki* paper — read from a stable primary copy when accessible;
+   it remains a lead, not evidence, until then.
+
+Archived search-result pages and promotional duplicates remain provenance for
+these leads. They do not count as independent confirmation.
 
 Related: [[root-maturity-self-assessment]], [[2025-ai-agent-index]],
 [[work-trend-index-2024-2026]],
 [[self-improving-agent-architectures-gbrain-loopany-closed-loop]].
-

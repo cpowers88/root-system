@@ -148,7 +148,7 @@ wants it? distinct lifecycle stage? about HOW not WHAT?) before it's a
 
 This is the one piece genuinely novel relative to everything `.ROOT`
 already evaluated on 2026-07-09, and the basis for
-[[../proposals/2026-07-13_belief-proposal-split-for-system-flags]]. The
+[[proposals/2026-07-13_belief-proposal-split-for-system-flags]]. The
 raw clippings captured the *what* (CLAUDE.md's "Self-Evolution Loop"
 section); the actual `skills/loopany-reflect/SKILL.md` — referenced by the
 resolver in raw/ but not itself captured — was fetched live from GitHub to
@@ -259,5 +259,5 @@ deliberately.
 
 Related: [[llm-wiki-pattern-and-second-brain-tools]],
 [[root-maturity-self-assessment]],
-[[../proposals/2026-07-13_belief-proposal-split-for-system-flags]],
+[[proposals/2026-07-13_belief-proposal-split-for-system-flags]],
 [[openai-evals-and-red-teaming]].

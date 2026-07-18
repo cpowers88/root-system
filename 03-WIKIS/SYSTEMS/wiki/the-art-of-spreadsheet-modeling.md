@@ -42,6 +42,12 @@ Doing a small hand-calculated example before building the full spreadsheet serve
 
 ## Connects to
 
+- [[operations-research-study-lifecycle]] — places Plan-Build-Test-Analyze inside
+  the full study path from problem definition and data through implementation and
+  ongoing maintenance.
+- [[model-validation-and-testing-practice]] — supplies the wider proof gate:
+  reproducibility, boundary/structure tests, extreme conditions, sensitivity, and
+  prospective assessment.
 - [[linear-programming-formulation-and-graphical-solution]] — the Plan stage's three defining questions (decisions, constraints, objective) are the same ones any LP formulation starts from.
 - Every other page in this OR ingest — this chapter's craft applies to building a working spreadsheet implementation of any of the mathematical models already covered (LP, inventory, forecasting, decision analysis, etc.).
 

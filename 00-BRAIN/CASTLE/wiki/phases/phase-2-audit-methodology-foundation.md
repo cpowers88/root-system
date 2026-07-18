@@ -1,13 +1,17 @@
 ---
 type: phase
+timeline: now
+stage: phase-2
 status: planned
-tags: [phase, next]
+tags: [phase]
 ---
 
 # Phase 2 — Audit Methodology Foundation
 
 **Window**: September 2026 – February 2027 (runs alongside Phase 1, at semester pace)
 **One-line purpose**: Turn audit instinct into a documented, repeatable, sellable method.
+
+> **Metadata note:** the first live observation is current (`timeline: now`); the formal phase remains `status: planned` until its September window opens.
 
 ## Purpose
 Build and rehearse the observation → map → findings pipeline so that by February 2027
@@ -48,8 +52,8 @@ Paper + camera + field-notes template first. Looker Studio for showing findings
 
 ## Proof Projects
 - One practice VSM on a real or known process (July–Sep) → evidence page
-- Field-notes reps on accessible real workflows (construction access exists —
-  one already logged June 5)
+- Field-notes reps on accessible real workflows (construction-domain hypotheses and
+  a desk simulation exist; the first live observation is still open)
 - One mock audit report end-to-end using the real templates, on a business Chris knows
 
 ## Exit Criteria
@@ -62,7 +66,9 @@ Paper + camera + field-notes template first. Looker Studio for showing findings
 ## Risks and Distractions
 - Reading more methodology instead of practicing it (BUSINESS wiki has enough already)
 - Building software for imagined clients before any audit proves the need
-- Danger weeks pause this phase entirely — resume mid-November
+- During the high-load school window, reduce or pause this phase when fixed
+  commitments require it; AI warns once and Chris decides the scope
 
 ## Next Action
-Schedule the first practice VSM on a known process before the semester starts.
+Schedule the first live workflow observation before the semester starts, then turn
+that same evidence into the first practice VSM.

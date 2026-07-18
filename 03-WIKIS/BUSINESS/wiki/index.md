@@ -14,7 +14,9 @@ the domain-specific pages.
 This wiki turns refined business, audit, pricing, sales, fulfillment, and
 human-agent operating-model thinking into methods Chris can eventually use
 with real clients. Blank strategy and master templates live here. Filled
-client artifacts live in `.ROOT\05-BUSINESS`.
+client-specific/private artifacts live in a separate authorized client
+workspace outside `.ROOT`; only sanitized reusable learning returns to
+`05-BUSINESS`.
 
 ## Start Here
 

@@ -1,6 +1,6 @@
 ---
-type: report
-tags: [log, ai-automation, governance, verification]
+type: proposal
+tags: [ai-automation, proposal, governance, verification, reference]
 ---
 
 # Proposal: Scale the Agent Evaluation Gate with Architecture Complexity
@@ -66,3 +66,11 @@ the rewritten rule should stay as compact as possible).
 finding" section (architecture-complexity-to-nondeterminism-category
 mapping). `00-BRAIN\SYSTEM_FLAGS.md` closed flag #67 (the rule this proposal
 would revise).
+
+## Post-Change Check (added 2026-07-15, check_at discipline)
+
+- **Expected behavior:** new agent workflows get testing proportional to their complexity per `AGENT.md § Agent Evaluation Gate` rule 2; no consequential workflow enters recurring use untested.
+- **Evidence for improvement or regression:** an eval record exists for the next new workflow (scanner/tracker automation are the likely candidates). Regression = a workflow incident that the scaled test tiers would have caught, or a consequential workflow with no eval record.
+- **check_at:** 2026-08-24 (next new agent workflow is expected with the fall setup window)
+- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
+- **Verdict:** (keep / modify / revert — blank until the check date)

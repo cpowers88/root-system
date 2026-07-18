@@ -66,6 +66,10 @@ Full flashcard batch: [[flashcards/stage-01-python-atoms]]
 - [[mini-projects/stage-01-about-me-program]]
 - Alternative/extra: Invent Your Own Computer Games Ch.1-2 (Interactive Shell, Writing Programs) and Ch.4 (A Joke-Telling Program) for more reps at this level.
 
+Before coding any mini-project, write three short lines: **input**, **process**,
+**output**. This is the early decomposition habit from the course's first lecture;
+full pseudocode and flowchart mastery comes in Stage 7.
+
 ## Common Errors Reference
 
 - [[errors/stage-01-common-errors]]
@@ -86,6 +90,8 @@ Full flashcard batch: [[flashcards/stage-01-python-atoms]]
 - [ ] Debug at least one of the four error types in [[errors/stage-01-common-errors]] without help.
 - [ ] Complete [[drills/stage-01-input-and-conversion]].
 - [ ] Complete [[mini-projects/stage-01-about-me-program]] and explain the solution out loud.
+- [ ] State the mini-project's input, process, and output before coding, and include
+  one useful comment that explains why a non-obvious line exists.
 
 ## Stage Mastery Target
 

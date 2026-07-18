@@ -5,7 +5,9 @@ tags: [reference, programming]
 
 # source-summaries
 
-Source summary pages live here. Summaries must classify the source role, difficulty, and pathway placement (see `templates/source-summary-template.md`).
+Source summary pages live here. Summaries must classify the source role, difficulty,
+and pathway placement (see
+`03-WIKIS\PYTHON\templates\source-summary-template.md`).
 
 ## What's in this folder
 
@@ -33,4 +35,5 @@ The 44 pages below arrived pre-ingested via FORGE's retirement (2026-07-07) and 
 ## Rules
 
 - Do not build these into concept/glossary/drill/flashcard pages without Chris's explicit go-ahead.
-- New source summaries for future intakes follow `templates/source-summary-template.md` and get indexed here.
+- New source summaries for future intakes follow
+  `03-WIKIS\PYTHON\templates\source-summary-template.md` and get indexed here.

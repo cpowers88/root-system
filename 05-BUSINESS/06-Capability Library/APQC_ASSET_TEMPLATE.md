@@ -1,11 +1,15 @@
 ---
 type: template
-tags: [reference, business, apqc, client]
+timeline: reference
+reference_priority: supporting
+tags: [business, apqc, client]
 ---
 
 # APQC_ASSET_TEMPLATE.md
 
 Copy this file for every reusable client-facing capability asset. Do not fill this template directly.
+On the copy, set `type` to the asset type and review `timeline`, `status`, and
+`reference_priority`; keep `tags` topic-only.
 
 ## Metadata
 

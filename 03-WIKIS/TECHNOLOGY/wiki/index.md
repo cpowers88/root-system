@@ -1,27 +1,48 @@
 ---
 type: map
-tags: [now, technology]
+timeline: reference
+tags: [technology]
 ---
 
 # TECHNOLOGY Wiki — Index
 
-### Scope: tech-skill and tech-adoption roadmap, plus (as of July 7, 2026) an applied-reference layer inherited from FORGE's retirement — deep technical material on web frameworks, distributed systems, DevOps, AI/LLM concepts, and applied data science. Spine reference: `02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`.
+### Scope: tech-skill and tech-adoption roadmap, plus (as of July 7, 2026) an applied-reference layer inherited from FORGE's retirement — deep technical material on web frameworks, distributed systems, DevOps, AI/LLM concepts, and applied data science. Spine reference: `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`.
 
 ## Status
 
 68 pages migrated from FORGE's `wiki\technology\` on July 7, 2026, split by subject
 from FORGE's original 135-page technology folder (the other 67 — Python/data-analysis
 fundamentals — went to `03-WIKIS\PYTHON` instead; see that wiki's `source-map.md`).
-**2026-07-13: full raw/ audit and ingest (107 pages total).** 39 new pages across
-9 books + 4 landscape clippings, following a raw/ audit that found 3 confirmed
+**2026-07-13: full raw/ audit and ingest (107 pages at completion).** After the
+July 15 routing correction and July 16 chunk ingestion, the live inventory is
+**132 content/reference pages** (excluding this index and `log.md`; +3 on
+2026-07-17 from the *Experimental Design for Data Science and Engineering*
+selective ingest).
+The audit produced 39 new pages across 9 books + 4 landscape clippings. The
+July 15 structure review moved the post-closure AI-coding landscape into
+`03-WIKIS\AI_AUTOMATION_SYSTEMS`, its canonical intake lane. The audit found 3 confirmed
 duplicates (documented, not re-ingested), 3 misplaced Python-fundamentals books
 (rerouted to `03-WIKIS\PYTHON`), and 1 book judged too introductory to warrant a
 dedicated ingest (see `log.md`). Four new category subfolders added
 (`database-sql/`, `software-craft/`, `security/`, `software-engineering/`) plus
-the wiki's first-ever landscape-research pages (4, at wiki root) — the original
+the wiki's first-ever landscape-research pages (3 remain at wiki root) — the original
 stated purpose this wiki carried as an open "next action" since July 7.
+The 39-file raw content collection is fully accounted, not uniformly compiled:
+five Stanford AI Index files are covered cross-hub, the prior PDFs were compiled
+or explicitly classified, and earlier web clips have derived or lookup coverage.
+The two newest additions, *Intelligent Instrumentation: Principles and Applications*
+and the ApressOpen *Rethinking the Internet of Things*, are chunk-compiled in the
+`instrumentation-iot/` category. Their durable measurement, intelligent-sensor,
+edge-control, gateway, and publish/subscribe logic is retrieval-ready; 2011-2013
+components, AI recipes, protocols, forecasts, and standards claims still require
+current primary-source verification before operational use.
+The July 16 intake added and chunk-compiled *Learning Domain-Driven Design* and
+*The Elements of User Experience*, plus a historical data-mining adoption deck.
+Every physical raw file now has a row-level disposition in
+[[raw-source-coverage-and-intake-status|Raw-Source Coverage and Intake Status]];
+compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 
-## Web Frameworks (`web-frameworks/`, 16 pages)
+## Web Frameworks (`web-frameworks/`, 15 pages)
 
 - [[web-frameworks/flask-web-development|Flask Web Development]] — source summary and navigation hub
 - [[web-frameworks/flask-basic-application-structure|Flask: Basic Application Structure]]
@@ -83,7 +104,7 @@ stated purpose this wiki carried as an open "next action" since July 7.
 - [[devops/just-culture-and-blameless-postmortems|Just Culture and Blameless Postmortems]] — source: *The DevOps Handbook*
 - [[devops/integrating-security-into-the-deployment-pipeline|Integrating Security into the Deployment Pipeline]] — source: *The DevOps Handbook*
 
-## AI & LLM Concepts (`ai-and-llm/`, 11 pages)
+## AI & LLM Concepts (`ai-and-llm/`, 10 pages)
 
 - [[ai-and-llm/llm-fundamentals|LLM Fundamentals: Pretraining, Fine-Tuning, and Emergence]]
 - [[ai-and-llm/ai-alignment-and-ethics|AI Alignment and Ethics]]
@@ -96,7 +117,7 @@ stated purpose this wiki carried as an open "next action" since July 7.
 - [[ai-and-llm/ai-future-scenarios|AI Future Scenarios]]
 - [[ai-and-llm/ai-developer-tools-landscape-2026|AI Developer Tools Landscape (2026)]]
 
-## Applied Data Science / ML (`data-science-ml/`, 18 pages)
+## Applied Data Science / ML (`data-science-ml/`, 21 pages)
 
 - [[data-science-ml/data-driven-decision-making-and-data-science-definition|Data-Driven Decision-Making: What It Actually Buys You, and Why "Big Data" Isn't "Data Science"]]
 - [[data-science-ml/crisp-dm-process-and-data-leakage|The CRISP-DM Process: Why Data Mining Is R&D, Not Software Engineering]]
@@ -116,6 +137,10 @@ stated purpose this wiki carried as an open "next action" since July 7.
 - [[data-science-ml/estimates-of-location-and-variability|Estimates of Location and Variability]] — mean/median/trimmed mean, variance/MAD/IQR (source: *Practical Statistics for Data Scientists*)
 - [[data-science-ml/statistical-distributions-normal-long-tailed-t-and-binomial|Statistical Distributions: Normal, Long-Tailed, t, and Binomial]] — source: *Practical Statistics for Data Scientists*
 - [[data-science-ml/ab-testing-hypothesis-tests-and-p-values|A/B Testing, Hypothesis Tests, and P-Values]] — the ASA's 2016 p-value misinterpretation caution; source: *Practical Statistics for Data Scientists*
+- [[data-science-ml/data-mining-adoption-chasm-and-productization|Data Mining Adoption Chasm and Productization]] — historical Quest/Intelligent Miner case: services evidence, integration, standards, and productization
+- [[data-science-ml/experimental-design-for-data-science-and-engineering|Experimental Design for Data Science and Engineering — Source Summary and Navigation Hub]] — Joseph (CRC 2026, CC BY-NC-ND); GP-first DOE from physical experiments to data science (new 2026-07-17)
+- [[data-science-ml/space-filling-screening-and-sequential-designs|Space-Filling, Screening, and Sequential Designs — the DOE Decision Map]] — objective → design family; minimax/maximin/LHD/MaxPro, Sobol/Morris/MOFAT screening, Bayesian optimization/EI, fractional-factorial essentials
+- [[data-science-ml/data-splitting-twinning-and-subsampling|Data Splitting, Twinning, and Subsampling]] — DOE applied to data already in hand: SPlit, twinning, supercompress, FIRST factor selection, TwinGP
 
 ## Database & SQL (`database-sql/`, 11 pages, new 2026-07-13)
 
@@ -144,20 +169,46 @@ stated purpose this wiki carried as an open "next action" since July 7.
 - [[security/api-vulnerability-classes-owasp-top-10|API Vulnerability Classes: The OWASP API Security Top 10]] — reframed as audit checks, not attack techniques
 - [[security/api-security-testing-engagement-scoping-and-checklist|API Security Testing: Engagement Scoping and Checklist]]
 
-## Software Engineering (`software-engineering/`, 4 pages, new 2026-07-13)
+## Software Engineering (`software-engineering/`, 9 pages)
 
 - [[software-engineering/agile-software-engineering-and-scrum|Agile Software Engineering and Scrum]] — source: Ian Sommerville, *Engineering Software Products*
 - [[software-engineering/personas-scenarios-and-user-stories|Personas, Scenarios, and User Stories]] — source: Sommerville
 - [[software-engineering/reliable-programming-techniques|Reliable Programming Techniques]] — complexity, patterns, refactoring, defensive validation; source: Sommerville
 - [[software-engineering/software-testing-levels-and-techniques|Software Testing Levels and Techniques]] — source: Sommerville
+- [[software-engineering/learning-domain-driven-design|Learning Domain-Driven Design — Source Summary and Navigation Hub]]
+- [[software-engineering/domain-driven-strategic-design-and-bounded-contexts|DDD Strategic Design and Bounded Contexts]]
+- [[software-engineering/domain-driven-business-logic-and-architecture-patterns|DDD Business Logic and Architecture Patterns]]
+- [[software-engineering/domain-driven-integration-and-reliable-messaging|DDD Integration and Reliable Messaging]]
+- [[software-engineering/domain-driven-evolution-eventstorming-and-distributed-boundaries|DDD Evolution, EventStorming, and Distributed Boundaries]]
 
-## Landscape Research (wiki root, 4 pages, new 2026-07-13)
+## User Experience (`user-experience/`, 4 pages, new 2026-07-16)
 
-This wiki's first landscape-research pages — the original stated purpose
+- [[user-experience/elements-of-user-experience|The Elements of User Experience — Source Summary and Navigation Hub]]
+- [[user-experience/user-experience-five-plane-decision-model|User Experience Five-Plane Decision Model]]
+- [[user-experience/user-experience-strategy-scope-and-requirements|UX Strategy, Scope, and Requirements]]
+- [[user-experience/user-experience-structure-skeleton-surface-and-validation|UX Structure, Skeleton, Surface, and Validation]]
+
+## Instrumentation & IoT (`instrumentation-iot/`, 10 pages, new 2026-07-16)
+
+- [[instrumentation-iot/intelligent-instrumentation|Intelligent Instrumentation - Source Summary and Navigation Hub]]
+- [[instrumentation-iot/measurement-quality-and-sensor-dynamics|Measurement Quality and Sensor Dynamics]]
+- [[instrumentation-iot/intelligent-sensor-architectures-and-validation|Intelligent Sensor Architectures and Validation]]
+- [[instrumentation-iot/sensor-linearization-calibration-and-compensation|Sensor Linearization, Calibration, and Compensation]]
+- [[instrumentation-iot/ai-assisted-sensing-and-prognostic-instrumentation|AI-Assisted Sensing and Prognostic Instrumentation]]
+- [[instrumentation-iot/intelligent-sensor-standards-and-network-boundaries|Intelligent Sensor Standards and Network Boundaries]]
+- [[instrumentation-iot/rethinking-the-internet-of-things|Rethinking the Internet of Things - Source Summary and Navigation Hub]]
+- [[instrumentation-iot/iot-edge-autonomy-local-control-and-trust|IoT Edge Autonomy, Local Control, and Trust]]
+- [[instrumentation-iot/iot-three-tier-publish-subscribe-architecture|IoT Three-Tier Publish/Subscribe Architecture]]
+- [[instrumentation-iot/iot-data-reduction-adoption-and-current-use-filter|IoT Data Reduction, Adoption, and Current-Use Filter]]
+
+## Landscape Research (wiki root, 5 pages, first batch 2026-07-13)
+
+This wiki's landscape-research pages — the original stated purpose
 (tool/category watching, tied to `TECHNOLOGY_LIBRARY_STRATEGY.md`'s 12
 categories) carried as an open "next action" since July 7, 2026.
 
 - [[looker-studio-free-bi-dashboards|Looker Studio (Data Studio) — Free BI Dashboards]] — Category 3
 - [[vs-code-data-tooling-data-wrangler-and-edit-csv|VS Code Data Tooling: Data Wrangler, Edit CSV, and the Titanic Tutorial]] — Category 5
 - [[spreadjs-embeddable-excel-import-export|SpreadJS — Embeddable Excel Import/Export for Custom Web Tools]] — Category 9/12, landscape-only
-- [[ai-coding-tools-for-python-2025-landscape|AI Coding Tools for Python — 9-Tool Landscape Comparison (mid-2025)]] — Category 10
+- [[api-integration-layer-2026-landscape|API & Integration Layer — 2026 Landscape]] — Category 9 (new 2026-07-16): Zapier/Make/n8n tiering, AI agents as integration consumers, MCP standardization and security, rung-4 custom-glue proof standard
+- [[goal-aligned-technology-gap-audit-2026-07-16|Goal-Aligned Technology Gap Audit — July 16, 2026]] — knowledge-vs-proof audit across the eight-rung application trace; Now/Near/Future gaps, minimum production standard, and selected scanner reliability proof path

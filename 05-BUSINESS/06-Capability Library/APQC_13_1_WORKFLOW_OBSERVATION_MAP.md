@@ -1,6 +1,8 @@
 ---
 type: asset
-tags: [reference, business, apqc, client]
+timeline: now
+status: draft
+tags: [business, apqc, client]
 ---
 
 # APQC_13_1_WORKFLOW_OBSERVATION_MAP.md
@@ -17,7 +19,7 @@ tags: [reference, business, apqc, client]
 **Maturity:** draft
 **Source or Origin:** `05-BUSINESS\01-Audit Templates\OBSERVATION_METHODOLOGY.md` (SKELETON v1, July 5, 2026)
 **Owner:** Chris Powers
-**Last Reviewed:** July 12, 2026
+**Last Reviewed:** July 14, 2026
 **Index Row Added:** yes
 
 ---
@@ -44,7 +46,7 @@ A structured field method in three phases:
 |---|---|---|---|
 | Notebook + phone | Chris, physical | Required | No laptop on the first walk |
 | Guessed core workflows (intake → work → get paid) | Pre-visit prep / public info | Required | Corrected on-site, not before |
-| Tool-category fluency | `02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` (12 categories) | Required | So Chris can name what he's looking at in real time |
+| Tool-category fluency | `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` (12 categories) | Required | So Chris can name what he's looking at in real time |
 | One real job/order/customer to trace | Chosen on-site, day-of | Required | Must be a live, in-progress instance, not a description of one |
 
 ## 5. Outputs
@@ -63,15 +65,28 @@ Zero software required to run the visit itself — notebook, phone camera (with 
 
 ## 7. Validation
 
-Test is Practice Rep 1, per the method's own cadence (`OBSERVATION_METHODOLOGY.md` § Practice Cadence): one observation on a free-access business — a known jobsite, Heather's brokerage front office (observation only, not client or JV work), or an accessible retail counter. Success = a completed fieldnotes file, one process map, and a real one-pager, all produced within 4 hours of the visit, using the method exactly as written. Not yet run as of July 12, 2026.
+Chris explicitly closed Practice Rep 1 on July 14 using
+`05-BUSINESS\02-Field Notes\observation_one.md` as a contractor desk simulation. It
+tested the reasoning frame and produced concrete workflow hypotheses, but it did not
+observe a live, in-progress job or exercise the full on-site output chain. Therefore
+this asset remains **draft**, and live validation is still unrun.
+
+The live validation test is one observation on a free-access business — a known
+jobsite, Heather's brokerage front office (observation only, not client or JV work),
+or an accessible retail counter. Success = a completed fieldnotes file, one process
+map, and a real one-pager, all produced within 4 hours of the visit, using the method
+exactly as written.
 
 ## 8. Packaging Notes
 
 Before this is shown to or used with an actual prospect:
-1. Run at least Rep 1 so the method is tested, not just designed.
+1. Run at least one live validation rep so the on-site method is tested, not just simulated.
 2. Confirm `ONE_PAGE_FINDINGS_FORMAT.md` and `TECHNOLOGY_AUDIT_REPORT_TEMPLATE.md` still match this method's output shape.
 3. Keep enforcing the built-in privacy rule: roles only, never names, in anything that leaves the notebook.
 
 ## 9. Next Action
 
-Schedule and run Practice Rep 1 before the Aug 24 semester start / danger-weeks ceiling. Block the 30-min prep + visit + same-day write-up as one calendar unit, then log the result and bump maturity to "tested internally" in `CAPABILITY_LIBRARY_INDEX.md`.
+Schedule and run the first live validation rep before the Aug 24 semester start /
+danger-weeks ceiling. Block the 30-min prep + visit + same-day write-up as one
+calendar unit, then log the result and bump maturity to "tested internally" in
+`CAPABILITY_LIBRARY_INDEX.md` only if the full live output chain is completed.

@@ -40,6 +40,8 @@ The more realistic version of the model adds a genuine delay between ordering an
 
 ## Connects to
 
+- [[modeling-decision-rules-and-rate-formulations]] — derives the reusable
+  normal-rate-plus-adjustment structure and its formulation safeguards.
 - [[first-order-systems-growth-decay-and-doubling-time]] — the basic stock-adjustment-toward-a-goal structure here is the direct extension of that page's explicit-goal negative feedback system, now embedded inside a richer ordering decision rule.
 - [[littles-law-and-best-case-performance]] — the supply line's required size (acquisition lag × desired throughput) is a direct application of Little's Law to the ordering/acquisition context.
 - [[barriers-to-learning-and-virtual-worlds]] — the anchoring-and-adjustment ordering heuristic is explicitly grounded in the bounded-rationality literature (Simon, Cyert and March) already covered there.

@@ -1,11 +1,12 @@
 ---
 type: person
-tags: [reference]
+timeline: reference
+tags: []
 ---
 
 # CHRIS.md — Chris Powers
 ### Full profile — load per AGENT.md (monthly review, profile update, behavior calibration only). Default load is CHRIS_CORE.md.
-### Last updated: July 5, 2026
+### Last updated: July 17, 2026
 ### Read alongside: NORTH_STAR.md (mission + tracks), AGENT.md (session protocols)
 
 ---
@@ -18,13 +19,51 @@ tags: [reference]
 **Education:** GED (1998). Chatt Tech 2024–2026 (3.73 GPA, 2 certs). Transferring to KSU Fall 2026 — BS Industrial & Systems Engineering, Systems Concentration. Target graduation: Fall 2029.
 **GitHub:** cpowers88
 
-**North Star:** October 8, 2031. Top 1% AI, Technology & Business integrator and application developer. $500K–$1M annually as the FLOOR (quarterly ratchet). Canonical mission and three tracks: NORTH_STAR.md — one source, zero drift.
+---
+
+## Professional Background — Construction
+
+Title was lead carpenter; the actual job was broader. Over many years, ran
+carpentry crews across residential and commercial projects of varying scale,
+including full-lifecycle multi-unit brownstone condo conversions (3-family,
+5-story) from demolition through turnover. Read architectural and engineering
+plans directly, sat in project meetings with architects, engineers, and
+ownership, and was regularly the person catching what the plans got wrong.
+Did much of this while actively using heroin, and kept the work because it
+was good enough that replacing him wasn't a real option. Has since quit drugs.
+
+*AI implication: This is real full-cycle project management, cost/scope
+judgment, and blueprint literacy across residential and commercial builds,
+under high stakes — not a hypothetical fit. When framing the Advisor-Builder
+pitch to construction, real estate, or renovation clients, this is lived
+credibility, and Heather's real estate network (agents, brokers, lawyers,
+buyers/sellers) is a warm channel into that exact world.*
+
+---
+
+**North Star:** October 8, 2031. Become an elite AI, technology, business, and
+systems integrator—an Advisor-Builder—while completing the KSU BS in Industrial &
+Systems Engineering and reaching a $500K–$1M annual floor. Durable direction lives
+only in `01-NORTH_STAR\NORTH_STAR.md`; the evidence-replaceable business vehicle
+lives in `Goals & Milestones\CURRENT_STRATEGY.md`.
 
 ---
 
 ## YouScience Aptitude Profile
 ### Source: YouScience Assessment, November 2025
-### Full PDFs: 02-LIBRARY\09-META-HOW-TO-WORK\
+### Full PDFs: 02-LIBRARY\REF-META-HOW-TO-WORK\
+### Coverage verified: July 15, 2026
+
+This page is the AI-ready ingest of the three personal reports. It contains all
+12 assessed dimensions: four Personal Approach dimensions, six Core Drivers,
+and two Amplifiers, plus the three interest areas and their operating
+implications. Load this page instead of repeatedly parsing the PDFs.
+
+| Source file | Role | Ingestion disposition |
+|---|---|---|
+| `Christopher_Aptitude_Results.pdf` | 35-page primary assessment | Fully represented here at the aptitude/implication level; authoritative source for detailed wording |
+| `Christopher_Aptitude_Discussion.pdf` | 6-page discussion and recommendation guide | Its work/interview language is represented here; consult the PDF only when drafting a recommendation, résumé, or application |
+| `Christopher_One_Page_Summary.pdf` | 1-page visual overview | Redundant quick summary; retained as source provenance, not a runtime knowledge layer |
 
 **One-sentence summary:**
 High-horsepower idea engine with elite spatial and numerical reasoning, masterful vocabulary, and an extroverted future-focused style — whose primary constraint is weak associative memory requiring precision, repetition through action, and external structure to execute sequentially.
@@ -120,12 +159,12 @@ Not comfortable relying on memory alone to retain and recall new terminology, na
 ## Known Risks
 
 - **Goal completion discomfort** — as the North Star approaches, energy may drop without a clear next horizon. The system must always define what comes after.
-- **Idea generation vs. execution gap** — generating ideas is effortless; implementing them is genuinely difficult. Name scope creep every time it happens.
+- **Idea generation vs. execution gap** — generating ideas is effortless; implementation needs a visible frame. AI should manage its own tangent behavior through DIVERGE/CONVERGE modes, state material tradeoffs once, and follow Chris's direction.
 - **Sequential reasoning constraint** — needs structure before execution. Open-ended challenges cause freezing. Always give the skeleton first.
 - **Vocabulary gap** — elite vocabulary can create distance with audiences who don't share it. The TCOM goal is precision that lands, not precision that impresses.
 - **Associative memory** — terms don't stick without precision + repetition through action. Drills in isolation don't work. Real code, repeated use.
 - **Family pressure during heavy semesters** — frame the finish line clearly with Heather before midterms, not during them.
-- **Drift during light semesters** — structure must fill the space or the idea generator runs unconstrained.
+- **Unstructured light semesters** — provide a visible start and review point while leaving Chris free to redirect.
 - **Landscape awareness becoming procrastination** — know the map, then pick the path and walk it.
 
 ---
@@ -140,7 +179,7 @@ Not comfortable relying on memory alone to retain and recall new terminology, na
 - Provide skeletons before asking for execution
 - Break steps into numbered lists
 - Connect every session to the active project or mission
-- Name scope creep immediately — redirect without dismissing
+- State material tradeoffs once; preserve useful side ideas without obstructing Chris's direction
 - End every session with a micro-win named explicitly
 - Use spatial language: "above," "inside," "flows into"
 - Name the next horizon when a goal is nearing completion
@@ -169,6 +208,5 @@ I am not starting from zero. I am formalizing what I already am.
 The aptitude profile confirms what I already knew: Idea Generation + Numerical Reasoning + Spatial Visualization + Investigative/Enterprising interests = someone built to design systems, see what others miss, and sell the solution. The degree makes it credible. The business makes it real.
 
 ---
-*Source: YouScience Assessment, Christopher Powers, November 2025 | Full PDFs in 02-LIBRARY\09-META-HOW-TO-WORK\*
-*Last updated: July 5, 2026*
-
+*Source: YouScience Assessment, Christopher Powers, November 2025 | Full PDFs in 02-LIBRARY\REF-META-HOW-TO-WORK\*
+*Last updated: July 17, 2026*

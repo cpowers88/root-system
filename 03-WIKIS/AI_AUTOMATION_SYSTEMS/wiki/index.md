@@ -1,6 +1,7 @@
 ---
 type: map
-tags: [now, ai-automation]
+timeline: reference
+tags: [ai-automation]
 ---
 
 # AI_AUTOMATION_SYSTEMS Wiki — Index
@@ -9,21 +10,52 @@ tags: [now, ai-automation]
 
 ## Status
 
-Operational as of July 8, 2026. Eight research batches ingested (agentic-AI
-papers; AI Agent Index detail data; MCP docs + NIST AI RMF; WTI series +
-OECD AIM; LLM-wiki pattern batch; Pereira O'Reilly book; Claude Code official
-docs pack; OpenAI Platform/ChatGPT/Codex docs pack), two self-evolution
-proposals approved and promoted. **raw/ fully processed as of July 12, 2026
-(session 14)** — both `CLAUDE_FILES/` and `OPEN_AI-CHATGPT_CODEX_FILES/`
-(moved here from `00-BRAIN\CASTLE\raw\books\`, correctly relocated to this
-wiki's intake lane) now read in full and routed into eighteen pages total.
-**One later same-day addition (session 15):** *Building a Second Brain*
-promoted from `77-INBOX` as a self-evolution source — nineteen pages total.
-**Session 16 (same day):** CASTLE-routed `Clippings\` review (GBrain,
-loopany) fully ingested with one live GitHub fetch beyond the clippings
-themselves — twenty pages total, plus a new pending proposal. See `log.md`.
+Operational as of July 8, 2026. Core batches cover agentic-AI evidence, the AI
+Agent Index, MCP and NIST, the Work Trend Index and incident evidence,
+LLM-wiki/self-improving architectures, two software/knowledge-system books, and
+the Claude/OpenAI official-document packs. **The July 15 source audit replaced
+the inaccurate blanket “raw/ fully processed” claim with a source-level coverage
+ledger.** A July 16 live recount accounts for all 179 raw files. Five overlooked
+research papers and the formerly blocked 35-page Anthropic enterprise guide have
+durable wiki coverage. The July 16 book intake added five explicitly classified
+reference/backlog sources; `TLS.pdf` remains identified as a misplaced
+systems-improvement source. See
+[[raw-source-coverage]] and `log.md`; “accounted” does not mean “compiled.”
+*The Alignment Problem* main text is now fully compiled in eight retrieval pages:
+Prologue, Introduction, Parts I-III, and Conclusion are covered through physical
+p. 403. Acknowledgments, notes, bibliography, and index remain reference back
+matter rather than unprocessed argument.
+*Empire of AI* is now fully compiled through its argument-bearing text (Author's
+Note, Prologue, Chapters 1-18, and Epilogue; physical pp. 8-398) in fourteen
+retrieval pages covering governance,
+research concentration, scaling inputs, commercial power, research control,
+productization labor, risk ideologies, interface-driven adoption, physical compute
+infrastructure, policy agenda-setting, board-coalition power, protected dissent,
+mission elasticity, community-controlled alternatives, data sovereignty, and
+power redistribution. Acknowledgments and notes are classified as reference back
+matter rather than unprocessed argument.
+*Mastering Claude AI* (Dickey) was fully compiled July 17, closing the
+verification backlog: main text in one retrieval page carrying a
+volatile-claims table; its glossary/appendices/index are reference back
+matter. *The Business Case for AI* (Ganesan) was Chris-reclassified from
+lookup/reference and fully compiled the same day as the Advisor-Builder
+client-engagement playbook. *AI in Business and Economics* (Lausberg &
+Vogelsang, De Gruyter, open access) was dropped July 17 and fully compiled
+July 17-18, all 17 chapters read in full — a 17-paper EPEAI conference
+proceedings volume, not a monograph; five chapters carry direct
+Advisor-Builder tie-back, and three chapters (Ch.2, Ch.5, Ch.14) independently
+converge on the same TOE adoption-barrier framework, the clearest
+within-source convergence this hub has logged. Remaining compilation
+queue: *If Anyone Builds It, Everyone Dies* (chunk backlog, gated on a
+concrete review job); the other five July 16 volumes remain deliberately
+lookup/reference.
 
 ## Pages
+
+- [Raw-Source Coverage](raw-source-coverage.md)
+  — authoritative ingestion ledger for all 179 raw files; distinguishes
+  compiled, lookup/reference, duplicate, misrouted, and chunk-backlog status.
+  Replaces the old all-or-nothing “fully processed” claim.
 
 - [Agentic AI in Industry: Adoption Level and Deployment Barriers](agentic-ai-industry-adoption-barriers.md)
   — interview study; the capability-deployment **verification gap**; six-level
@@ -60,6 +92,80 @@ themselves — twenty pages total, plus a new pending proposal. See `log.md`.
   — GOVERN/MAP/MEASURE/MANAGE, seven trustworthiness characteristics;
   formalizes the verification-gap finding and supplies citable audit
   vocabulary for client work; `.ROOT` mapped onto the four functions.
+- [Training-Data Representation and Feedback Risk](training-data-representation-and-feedback-risk.md)
+  — the full representation chain from population through deployment; sampling
+  bias versus world bias, disaggregated performance, partial-debiasing limits,
+  and the feedback risk when a descriptive model becomes an intervention.
+- [Algorithmic Fairness: Metrics, Ground Truth, and Intervention](algorithmic-fairness-metrics-ground-truth-and-intervention.md)
+  — why fairness through blindness fails; calibration/error-rate incompatibility,
+  label lineage, prediction-versus-intervention, and a complete applied review
+  sequence for consequential models.
+- [Interpretable Models and Human Oversight](interpretable-models-and-human-oversight.md)
+  — accuracy-versus-safety, treatment confounding, interpretable baselines,
+  complementary explanation methods, user-tested explanations, and a high-impact
+  deployment gate.
+- [Reinforcement Learning: Reward, Prediction, and Credit](reinforcement-learning-reward-prediction-and-credit.md)
+  — actor/critic and temporal-difference mechanics, reward-prediction error,
+  credit assignment, and the distinction between optimizing a signal and choosing
+  the right objective.
+- [Reward Shaping, Curiosity, and Safe Exploration](reward-shaping-curiosity-and-safe-exploration.md)
+  — curricula, potential-based shaping, reward loopholes, novelty/surprise/
+  information-gain signals, noisy-TV failure, and a bounded-exploration gate.
+- [Imitation Learning, Recovery, and Amplification](imitation-learning-recovery-and-amplification.md)
+  — demonstration benefits, cascading distribution shift, DAgger recovery data,
+  capability-aware imitation, self-imitation, and iterated amplification limits.
+- [Preference Inference, Feedback, and Human-AI Cooperation](preference-inference-feedback-and-human-ai-cooperation.md)
+  — inverse reinforcement learning, comparison-based reward models, cooperative
+  inference, legible action, continuing feedback, and behavior-versus-endorsement.
+- [Uncertainty, Corrigibility, and Impact Limits](uncertainty-corrigibility-and-impact-limits.md)
+  — open-category and out-of-distribution failure, uncertainty-triggered
+  abstention, option-preserving impact measures, off-switch incentives, inverse
+  reward design, and the book's formal-model warning.
+- [OpenAI Governance: Mission, Capital, and Control](openai-governance-mission-capital-and-control.md)
+  — the founding governance contradiction, compute-driven capital dependency,
+  practical versus formal authority, and the November 2023 board crisis as an
+  institutional stress test.
+- [AI Research Paradigms, Concentration, and Commercial Selection](ai-research-paradigm-concentration-and-commercial-selection.md)
+  — why deep learning's dominance reflects real technical performance plus its
+  fit with platform data, compute, commercialization, and talent economics; a
+  portfolio gate for preserving alternatives.
+- [Scaling Doctrine: Compute, Data, and Hidden Labor](scaling-doctrine-compute-data-and-hidden-labor.md)
+  — scaling laws as capital strategy; the coupled GPU/cloud/data/labor supply
+  chain; provenance erosion, output filtering, and a full scaling review gate.
+- [Frontier-Lab Commercialization, Safety, and Organizational Power](frontier-lab-commercialization-safety-and-organizational-power.md)
+  — the deployment-resource flywheel, unequal authority among research/safety/
+  startup functions, competition as a release shortcut, and the Anthropic split.
+- [Corporate AI Research Control, Transparency, and Accountability](corporate-ai-research-control-transparency-and-accountability.md)
+  — resource concentration, the “Stochastic Parrots” dispute, corporate research
+  censorship, train-test integrity, and a gate for independent accountability.
+- [Generative-AI Productization, Content Safety, and Hidden Labor](generative-ai-productization-content-safety-and-hidden-labor.md)
+  — APIs and products as research flywheels; ad hoc trust and safety; Codex/
+  Copilot data governance; moderation, RLHF, and the crisis-labor supply chain.
+- [AI-Safety Ideologies, Risk Language, and Release Gates](ai-safety-ideologies-risk-language-and-release-gates.md)
+  — shared premises beneath Doomer/Boomer polarization; distinct meanings of
+  safety; DALL-E/GPT-4 data and evaluation risks; an enforceable release gate.
+- [ChatGPT Launch, Interface Risk, and Organizational Scaling](chatgpt-launch-interface-risk-and-organizational-scaling.md)
+  — how interface and distribution changed effective capability; viral-load
+  failure, safety-capacity loss, organizational shock, and Microsoft dependence.
+- [AI Compute Infrastructure, Energy, Water, and Community Governance](ai-compute-infrastructure-energy-water-and-community-governance.md)
+  — the physical AI stack, rebound effects, megacampus planning, uneven resource
+  burdens, community audit, and infrastructure approval gates.
+- [AI Policy Agenda-Setting, Frontier Thresholds, and Oversight Information](ai-policy-agenda-setting-frontier-thresholds-and-oversight-information.md)
+  — frontier-risk agenda-setting, compute-threshold limits, open/closed tradeoffs,
+  expertise concentration, and the information requirements of mission oversight.
+- [Board Oversight Crisis, Information, and Coalition Power](board-oversight-crisis-information-and-coalition-power.md)
+  — fragmented management information, informal escalation, disclosure failure,
+  coalition power, succession readiness, and investigation scope.
+- [AI-Safety Capacity, Whistleblowing, and Organizational Trust](ai-safety-capacity-whistleblowing-and-organizational-trust.md)
+  — evaluation time and authority, iterative-deployment pressure, likeness risk,
+  safety-team erosion, equity-linked silence, and documentary candor.
+- [Mission Elasticity, Centralization, and the AI-Empire Pattern](mission-elasticity-centralization-and-ai-empire-pattern.md)
+  — how a vague grand mission centralizes talent, resources, and interpretation;
+  corporate-structure leverage, scaling path dependence, and mission versioning.
+- [Community-Governed AI, Data Sovereignty, and Power Redistribution](community-governed-ai-data-sovereignty-and-power-redistribution.md)
+  — consent and continuing data stewardship, task-specific community-controlled
+  AI, distributed research and worker knowledge, and a three-axis gate for
+  redistributing knowledge, resources, and influence.
 - [MCP Client Primitives in Depth + Build Notes](mcp-client-primitives-and-build-notes.md)
   — second-pass extraction: trust semantics of elicitation/roots/sampling
   (**roots are advisory, not security**), the stdio never-log-to-stdout
@@ -74,19 +180,26 @@ themselves — twenty pages total, plus a new pending proposal. See `log.md`.
 - [OECD AI Incidents Monitor (AIM)](oecd-ai-incidents-monitor.md)
   — live catalog of ~16,300 AI incidents/hazards, filterable by harm type,
   business function, and autonomy level; the incident-history lookup for
-  the vetting screen and the failure-evidence counterweight to the
-  capability sources.
+  the vetting screen and the failure-evidence counterweight to capability
+  sources. Two 2026 papers add SORT questions, exposure-adjusted trajectories,
+  principled abstention, and escalation blind-spot tests.
 - [The LLM-Wiki Pattern and Its Second-Brain Implementations](llm-wiki-pattern-and-second-brain-tools.md)
-  — Karpathy's pattern + three implementations compared against `.ROOT`
-  practice; what was adopted into the Wiki Shared Layer (lint,
-  update-over-create, contradiction flags, recency markers) and what was
-  rejected (hot cache, self-rewriting scheduled agents).
+  — Karpathy's pattern + implementations compared against `.ROOT` practice;
+  July 14 clipping audit adds source-priority criteria, temporal/variant/true-
+  contradiction classification, a primary-source research queue, and current
+  evidence against “compiled wiki always replaces RAG.” Hot cache and
+  self-rewriting scheduled agents remain rejected.
 - [Workflow Automation Tools — 2026 Landscape Snapshot](workflow-automation-tools-landscape.md)
   — Zapier-blog category map (10 tools, pricing as of 2026-06) with a
   provenance warning (Make.com omitted by its rival); the
   automation-first vs. built-in-automation split as an audit lever
   ("turn on what the client already pays for"); cross-checked against
   the vetting page's harder findings on Zapier/n8n/HubSpot.
+- [AI Coding Tools for Python — 9-Tool Landscape Comparison (mid-2025)](ai-coding-tools-for-python-2025-landscape.md)
+  — vendor-biased but useful category map covering nine coding assistants;
+  routed here from Technology because all post-closure AI/LLM/agent research
+  belongs in this hub. The immutable source remains in Technology raw, where
+  it was captured before the lane closed; verify current offerings before use.
 - [Generative AI for Software Development (Pereira, O'Reilly 2025)](generative-ai-for-software-development-pereira.md)
   — 171-pp. book distilled: SDLC-wide tool map with a reusable two-stage
   evaluation method; the Levels-vs-Shopify adoption contrast (the three
@@ -133,8 +246,13 @@ themselves — twenty pages total, plus a new pending proposal. See `log.md`.
   integrations (GitHub Actions, GHES, GitLab CI/CD, Slack→Claude Tag,
   computer use) with **no current `.ROOT` use case**, honestly recorded as
   such; plus the Thomson Reuters case study (fifth independent
-  confirmation of the verification-capacity finding) and the still-unparsed
-  enterprise ebook PDF (hard technical block, poppler unavailable).
+  confirmation of the verification-capacity finding). The former enterprise-
+  ebook parser block is closed and routed to the dedicated roadmap page.
+- [Enterprise AI Adoption and Production Roadmap](enterprise-ai-adoption-and-production-roadmap.md)
+  — full 35-page Anthropic guide processed in five chunks; durable sequence
+  from bounded use-case selection and graduation criteria through evals,
+  progressive rollout, production feedback, and LLMOps. Vendor claims and
+  dated model recommendations are explicitly tiered.
 - [OpenAI Responses API — State, Streaming, and Context Mechanics](openai-responses-api-state-and-streaming.md)
   — three state-management approaches, two extra transports (SSE, WebSocket
   for tool-heavy loops), background mode, structured-outputs constraints,
@@ -196,9 +314,10 @@ themselves — twenty pages total, plus a new pending proposal. See `log.md`.
   opaque encrypted item, Claude's is a human-readable re-injected summary.
 - [Building a Second Brain — Applied to `.ROOT`](building-a-second-brain-root-application.md)
   — full-book self-evolution audit (Tiago Forte, CODE/PARA); verdict:
-  validates the architecture, no PARA rebuild; four narrow operating
+  validates the architecture, no PARA rebuild; five narrow operating
   upgrades adopted (capture filter, Hemingway Bridge merged into the
-  Handoff Ritual, kickoff/completion checklist, 3-page At a Glance pilot).
+  Handoff Ritual, kickoff/completion checklist, 3-page At a Glance pilot,
+  and July 14 DIVERGE/CONVERGE modes governing AI behavior rather than Chris).
 - [Self-Improving Agent Architectures: GBrain, loopany, and the Closed-Loop Pattern](self-improving-agent-architectures-gbrain-loopany-closed-loop.md)
   — full architectural ingest (CASTLE-routed from `Clippings\`): GBrain's
   entity-brain (hybrid search, self-wiring graph, agent-authored schema
@@ -209,6 +328,51 @@ themselves — twenty pages total, plus a new pending proposal. See `log.md`.
   GitHub beyond the clippings); the AI Jason video's closed-loop-operations
   framing. Third independent convergence on `.ROOT`'s own raw/wiki/schema
   shape.
+- [Agentic Automation: Architecture, Reliability, and Economic Evidence](agentic-automation-architecture-reliability-and-economic-evidence.md)
+  — three-paper synthesis: ProAgent's explicit workflow/data-contract design;
+  empirical developer evidence that orchestration, memory, contracts, and
+  runtime reliability are the hard problems; and occupation-grounded evidence
+  that high-level workflow completion can hide granular tool/grounding errors.
+- [Mastering Claude AI (Dickey, Apress 2025) — Consumer-Surface Practice and Client-Training Frameworks](mastering-claude-ai-dickey-consumer-guide.md)
+  — 401-pp. consumer claude.ai guide fully compiled with a volatile-claims
+  verification table (facts self-anchored Aug 2025); primary value is the
+  Advisor-Builder client-training arc (layperson concept scaffolding,
+  per-domain 4-step frameworks, week-by-week adoption checklists,
+  professional risk/compliance layer); sixth consumer-scale restatement of
+  the verification-capacity verdict; persona outcomes are explicit
+  composites, not evidence.
+- [Codex App — Configuration Layers, Sandboxing, Approvals, and Command Surface](codex-app-configuration-and-security.md)
+  — first vendor-grounded coverage of the local Codex agent's config surface
+  (5 official docs captured + compiled July 17): six-level config precedence
+  with the **trust gate** on project `.codex/` layers; sandbox/approval
+  two-layer model incl. protected read-only `.git`/`.codex`/`.agents`;
+  three newly documented deterministic guards (permission profiles,
+  execpolicy rules, hooks); the `approvals_reviewer = "auto_review"`
+  human-in-the-loop tension flag; resolved audit Finding C2 same-day.
+- [The Business Case for AI (Ganesan, 2022) — The Leader's AI-Adoption Playbook](business-case-for-ai-ganesan-leader-playbook.md)
+  — 294-pp. pre-genAI leader's guide fully compiled: the anti-hype
+  AI-vs-simple-software-automation screen, IDA analytics wedge, B-CIDS
+  readiness pillars + Jumpstart approach, the **HI-AI Discovery Framework**
+  (PAI starting points → framing with ROAI baselines → expert verification →
+  I2R2 scoring), build-or-buy with a 2026 foundation-model recalibration
+  note, and the three-pillar success model (model/business/user) — the
+  seventh verification-capacity restatement and the closest thing in the hub
+  to an Advisor-Builder client-engagement operating manual. Era warning:
+  frameworks durable, 2022 feasibility/cost answers are not.
+- [AI in Business and Economics (Lausberg & Vogelsang, De Gruyter 2024) — EPEAI Conference Proceedings](ai-in-business-and-economics-epeai-proceedings.md)
+  — 17-paper open-access proceedings volume across 7 Parts, fully compiled.
+  Five chapters carry direct Advisor-Builder tie-back: the **KI-AGIL** agile
+  SME-AI process model (a second field-tested low-threshold framework beside
+  the Business Case for AI playbook), a TOE-categorized barrier list for
+  management reporting (eighth verification-capacity restatement), RPA's
+  role-shift-not-displacement evidence for accountants, a participatory
+  HTO requirements-gathering methodology, and an LDA persona-derivation
+  technique with an honestly-reported robustness caveat. Also: a
+  transformer-vs-CNN document-classification data point, three deep-learning
+  forecasting case studies (DeepAR, MLP, DNN each beating a named simpler
+  baseline), and an AI-maturity ladder for data storytelling that catches
+  Tableau/Power BI's story features as rule-based NLG, not LLM-based, as of
+  the source data.
 
 ## Proposals
 
@@ -267,4 +431,4 @@ themselves — twenty pages total, plus a new pending proposal. See `log.md`.
   `check_at` follow-up.
 
 ---
-*Last updated: July 13, 2026 (CASTLE approved the belief/proposal pilot and weekly staleness spot-check)*
+*Last updated: July 18, 2026 (AI in Business and Economics — EPEAI proceedings — full-main-text intake; raw now 194 files)*

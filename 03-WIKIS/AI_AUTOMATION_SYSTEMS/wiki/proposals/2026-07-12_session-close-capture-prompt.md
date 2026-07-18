@@ -1,6 +1,6 @@
 ---
-type: report
-tags: [log, ai-automation, workflow]
+type: proposal
+tags: [ai-automation, proposal, workflow, reference]
 ---
 
 # Proposal: Explicit "What Should Be Captured" Step in Session-Close
@@ -56,3 +56,11 @@ other file, no change to when session-close triggers.
 
 [[claude-code-prompt-library-patterns]] — "Candidate `.ROOT` mappings"
 section, `capture-what-to-remember` card.
+
+## Post-Change Check (added 2026-07-15, check_at discipline)
+
+- **Expected behavior:** session closes surface a "details likely to be forgotten" capture, and DAILY blocks actually carry those lines instead of losing session-local knowledge.
+- **Evidence for improvement or regression:** the share of meaningful DAILY blocks since 2026-07-12 carrying a capture line (the July 15 physics block is an existing positive example). Regression = meaningful closes with no capture and later re-derivation of the lost detail.
+- **check_at:** 2026-07-25 (roughly ten real session closes will have run)
+- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
+- **Verdict:** (keep / modify / revert — blank until the check date)

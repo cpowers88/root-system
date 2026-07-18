@@ -1,7 +1,9 @@
 ---
 type: phase
+timeline: now
+stage: phase-0
 status: active
-tags: [phase, now]
+tags: [phase]
 ---
 
 # Phase 0 — Current Position & Baseline
@@ -10,9 +12,9 @@ tags: [phase, now]
 **One-line purpose**: Know exactly where the start line is, and ship the first proof project.
 
 ## Purpose
-Establish a written, honest baseline of skills, assets, and gaps — and finish the
-KSU Academic Tracker before D2L opens (~July 25). A roadmap from an unknown starting
-point is fiction.
+Establish a written, honest baseline of skills, assets, and gaps — and move the
+shipped KSU Academic Tracker from synthetic tests to real D2L/syllabus data when it
+opens (~July 25). A roadmap from an unknown starting point is fiction.
 
 ## Why It Matters to the North Star
 Every later phase measures progress against this baseline. The tracker is also the
@@ -26,7 +28,7 @@ live fix for the #1 skill gap (SQL) and the walking-into-CSE-1321-loaded advanta
 ## Skills NOT Needed Yet
 - Flask, APIs, automation platforms — Phase 3+ picks them up
 - Sales/outreach skills — Phase 4
-- Anything on the "parked" lists in NORTH_STAR.md
+- Any parked skill or idea that has not passed the active CASTLE gate
 
 ## Best Sources
 | Source | Tier | Location | What it proves |
@@ -42,12 +44,12 @@ sqlite3, argparse, datetime (all inside the tracker build)
 None yet — that's honest. This phase buys the *foundation* every capability sits on.
 
 ## Proof Projects
-- [[ksu-academic-tracker]] — ships this month
+- [[ksu-academic-tracker]] — V1 shipped July 8; real-data use remains the proof
 
 ## Exit Criteria
-- [ ] [[current-position]] written and reviewed by Chris ✓ (July 6)
-- [ ] Castle live with maps, phases 0–2, source map ✓ (July 6)
-- [ ] Tracker: all four tables + `--week`, `--today`, `--tests`, `--course`, `--overdue` working
+- [x] [[current-position]] written and reviewed by Chris (July 6)
+- [x] Castle live with maps, phases 0–2, source map (July 6)
+- [x] Tracker: all four tables + `--week`, `--today`, `--tests`, `--course`, `--overdue` working (V1 shipped July 8)
 - [ ] Real syllabus data entered when D2L opens (~July 25)
 - [ ] August 1 monthly review updates the weak links
 
@@ -56,4 +58,5 @@ None yet — that's honest. This phase buys the *foundation* every capability si
 - Expanding tracker scope beyond the brief (two functions only; no dashboard)
 
 ## Next Action
-Next tracker session: finish the remaining queries per the brief's Session 2/3 plan.
+Around July 25, enter real D2L/syllabus data and run the shipped command set against
+it. Until then, SQL work is maintenance and focused practice—not tracker expansion.

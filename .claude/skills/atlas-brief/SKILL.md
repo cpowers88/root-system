@@ -1,32 +1,21 @@
 ---
 name: atlas-brief
-description: Generate a paste-ready ATLAS/ChatGPT context brief from the live system state (NOW.md + latest DAILY + the decision at hand). Use when Chris wants ATLAS to pressure-test a decision, architecture change, or Codex brief.
+description: Generate a paste-ready ATLAS/ChatGPT context brief from live `.ROOT` state. Use when Chris wants an independent challenge, alternative framing, conceptual review, or pressure-test from a surface that cannot directly read the vault.
 ---
 
-# ATLAS Brief Generator
+# Generate an ATLAS Brief
 
-ATLAS cannot read `.ROOT`. Claude generates the paste-in brief from
-the template in `00-BRAIN\ATLAS.md § Part 2` — never from memory.
+1. Read `00-BRAIN\ATLAS.md`, `NOW.md`, `01-NORTH_STAR\NORTH_STAR.md`,
+   `00-BRAIN\CHRIS_CORE.md`, and the decision or artifact under review.
+2. Include `.ROOT` identity, current direction, relevant Chris context, current
+   state, the unified-team model, actual access limits, evidence, constraints,
+   the exact question, and the acceptance condition.
+3. Ask for the strongest concern, hidden risk, what is sound, recommended
+   change or approval condition, and a plain-language mental model.
+4. Output one fenced code block ready to paste, plus only a one-line reminder.
+5. Record generation in today's DAILY when the session is meaningful.
 
-## Steps
-
-1. Read `00-BRAIN\ATLAS.md` (role definition + the exact template).
-2. Fill the bracketed fields from live sources:
-   - **Current phase** → `.ROOT\NOW.md` (priority, countdowns) +
-     `00-BRAIN\CASTLE\wiki\current-position.md` (phase/baseline)
-   - **Current system state** → today's
-     `00-BRAIN\Session_Logs\DAILY_YYYY-MM-DD.md` + the specific
-     decision/change Chris wants challenged (ask one question if the
-     decision itself is unclear — that field cannot be guessed)
-3. Keep every fixed section of the template verbatim (identity, North
-   Star, four-engine split, "your job is to challenge, not confirm").
-4. Output the finished brief in ONE fenced code block, ready to paste
-   into ChatGPT. Nothing else around it except a one-line reminder.
-5. Log one DAILY line: "ATLAS brief generated for [topic]."
-
-## After the ATLAS session
-
-When Chris pastes ATLAS's answer back: significant findings → DAILY
-block; architecture-level findings → SYSTEM_FLAGS.md entry or a
-reviewed doctrine proposal (per ATLAS.md Part 1). ATLAS output always
-feeds back through Claude — it never edits the vault.
+When the answer returns, route significant findings into the active session's
+DAILY block. Route architecture findings into a reviewed proposal or
+`SYSTEM_FLAGS.md`. Feed the answer through whichever AI/session is active; do
+not require a specific model handoff.

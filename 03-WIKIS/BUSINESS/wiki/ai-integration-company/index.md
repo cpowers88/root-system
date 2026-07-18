@@ -9,13 +9,20 @@ tags:
 
 > The operating plan for building an AI integration and operational improvement company for SMBs — from first client to a firm with serious enterprise value.
 
-**North Star:** Become a top 1% AI, Technology, and Business integrator and application developer, backed by a systems-engineering education — who designs, builds, sells, and maintains digital assets for businesses, engineering each one to its most efficient and profitable version. Full text: `.ROOT\01-NORTH_STAR\NORTH_STAR.md`; the wiki restatement is [[north-star-alignment|North Star Alignment]].
+**Authority:** durable direction lives in `.ROOT\01-NORTH_STAR\NORTH_STAR.md`;
+the active Advisor-Builder vehicle, offer, wedges, assumptions, and milestones live
+in `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`.
+[[north-star-alignment|North Star Alignment]] is a routing bridge, not a copied
+constitution.
 
 This is not an "AI gimmicks" business. It is a **diagnose → fix → maintain → harvest** business: find waste in an SMB, automate and integrate the workflows that remove it, stay on retainer to keep the systems running and improving, and pull a reusable asset out of every engagement.
 
 What it actually sells is the **redesign of work**: AI inserted at the task layer doing first-pass repeatable production, humans moved up to judgment, exceptions, and system improvement — the [[progressive-operating-thesis|Progressive Operating Thesis]] that shapes every page here.
 
-**Where this sits and when it activates:** this wiki is Track 3 of three, running behind school (non-negotiable) and core tech skills — see [[north-star-alignment|North Star Alignment]] for the full order. Entry wedges are **real estate via Heather's warm network first** and **construction/domain credibility in parallel** ([[market-map|Market Map]]), not an open vertical list. Per the Business Arc: foundation now through Aug 2026 is school + Python/SQL, no clients; first real conversations start ~Sep 2026; **first client is targeted for March 2027.** Read the roadmap pages below for the plan — execute their outreach/sales steps on that clock, not before.
+**Where this sits:** this wiki supplies business methods and evidence to the current
+strategy. School is the fixed spine; live technical learning follows its owning
+wikis. CASTLE/NOW decides when a business action is active. Roadmap pages are
+reference plans until the current strategy and CASTLE phase call for them.
 
 ---
 
@@ -37,6 +44,9 @@ Every page separates **Beginner** actions (you, solo, learning), **Intermediate*
 |---|---|
 | [[north-star-alignment|North Star Alignment]] | What business are we actually building, and why this one? |
 | [[market-map|Market Map]] | Who buys this, what do they buy, and where is the money? |
+| [[strategic-diagnosis-and-coherent-action|Strategic Diagnosis and Coherent Action]] | How to turn a hard challenge into a diagnosis, guiding policy, and coordinated actions |
+| [[enterprise-ai-opportunity-and-adoption|Enterprise AI Opportunity and Adoption]] | Which cross-industry AI patterns create value, and what makes adoption real? |
+| [[ai-economics-and-decision-workflows|AI Economics and Decision Workflows]] | When better prediction changes a decision, workflow, or business model enough to create value |
 | [[most-profitable-pathways|Most Profitable Pathways]] | Ranked comparison of the eight service pathways |
 | [[service-offer-ladder|Service Offer Ladder]] | How offers stack from $1.5K audit to $5K+/mo retainer |
 
@@ -53,6 +63,7 @@ Every page separates **Beginner** actions (you, solo, learning), **Intermediate*
 | [[lean-methodology|Lean Methodology]] | VSM field method, seven wastes, the "monument" diagnostic, and the five-year Action Plan retainer template (migrated from FORGE, July 7, 2026) |
 | [[owner-dependency-diagnostic|Owner-Dependency Diagnostic]] | E-Myth root-cause, growth-stage, and target-state diagnostics — the backbone of the discovery interview and report structure (migrated from FORGE, July 7, 2026) |
 | [[consulting-methodology|Consulting Methodology]] | Flawless Consulting's contracting, discovery, resistance, feedback, and implementation mechanics — the engagement layer underneath every client conversation (migrated from FORGE, July 7, 2026) |
+| [[creative-problem-solving-and-facilitation-toolkit|Creative Problem Solving and Facilitation Toolkit]] | How to move an evidence-backed stuck problem through reframing, alternatives, choice, and a bounded implementation test |
 
 ## 3. Service Pathways
 
@@ -73,6 +84,8 @@ Every page separates **Beginner** actions (you, solo, learning), **Intermediate*
 |---|---|
 | [[pricing-models|Pricing Models]] | How to price audits, projects, and retainers |
 | [[sales-system|Sales System]] | How to find, qualify, and close SMB clients |
+| [[customer-discovery-and-evidence|Customer Discovery and Evidence]] | How to learn from real behavior and commitments without manufacturing validation |
+| [[first-workflow-observation-field-plan|First Workflow Observation Field Plan]] | Exactly how to select, observe, quantify, report, and advance the first real workflow session |
 | [[negotiation-toolkit|Negotiation Toolkit]] | Discovery, objection-handling, and fee-negotiation technique (migrated from FORGE, July 7, 2026) |
 | [[fulfillment-system|Fulfillment System]] | How work gets delivered reliably and profitably |
 | [[case-study-template|Case Study Template]] | How to turn every project into a sales asset |
@@ -84,6 +97,7 @@ Every page separates **Beginner** actions (you, solo, learning), **Intermediate*
 | [[skill-roadmap|Skill Roadmap]] | What to learn, in what order |
 | [[tool-stack|Tool Stack]] | Software and platforms to standardize on |
 | [[claude-code-leverage|Claude Code Leverage]] | Agentic delivery + the new offers it unlocks (2026 market research) |
+| [[product-discovery-and-operating-model|Product Discovery and Operating Model]] | How services-proven patterns become products without speculative building |
 
 ## 6. Roadmaps
 
@@ -102,6 +116,7 @@ Every page separates **Beginner** actions (you, solo, learning), **Intermediate*
 | [[start-here|Start Here]] | The two blocking decisions + your literal first week |
 | [[business-setup|Business Setup]] | LLC, banking, insurance, contracts, taxes — tiered by when needed |
 | [[financial-model|Financial Model]] | Unit economics, LTV, funnel math, break-even, the monthly model |
+| [[company-operating-system-and-founder-judgment|Company Operating System and Founder Judgment]] | Minimum management, decision, resilience, and bias controls as the firm grows |
 | [[templates/template-library|Templates]] | 10 ready-to-use working documents: audit kit, scripts, SOW, checklists, scorecard |
 | [[venture-fundamentals|Venture Fundamentals]] | General venture-building reference: feasibility testing, business model design, legal structure, financing, IP, growth strategy (migrated from FORGE, July 7, 2026) |
 

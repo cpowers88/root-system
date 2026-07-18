@@ -72,7 +72,7 @@ Flask deliberately omits database access, form validation, user authentication, 
 | North Star relevance | 4 | The literal skeleton of any lightweight client-facing tool the audit business will build. |
 | Current usefulness | 3 | Foundational — useful once a real Flask build starts, not standalone. |
 | KSU support | 1 | Not connected to ISYE coursework. |
-| Tech-stack relevance | 5 | Flask is explicitly in the Top 12 stack. |
+| Tech-stack relevance | 5 | Flask is in the technology possibility map; timing follows a real web-tool need. |
 | Business audit value | 3 | Indirect — enables future client tools rather than a direct audit technique itself. |
 | Data/workflow value | 2 | Structural/foundational rather than a data-handling technique. |
 | Reading urgency | 2 | Low urgency until an actual Flask build is scheduled. |

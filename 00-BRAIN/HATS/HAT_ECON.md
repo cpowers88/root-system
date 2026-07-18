@@ -1,12 +1,13 @@
 ---
 type: hat
-tags: [reference, governance, school]
+timeline: reference
+tags: [governance, school]
 ---
 
 # HAT_ECON.md — Economics Subject Hat
 ### Subject: ECON 1000 — Contemporary Economic Issues
-### Load order: AGENT.md → lane file → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → 03-WIKIS\EDUCATION (when active) → latest ECON handoff.
-### Last updated: July 10, 2026 — lane-split rewrite: EDUCATION wiki is the study-support home; strategy unchanged (grade protection, not depth).
+### Load order: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → 03-WIKIS\EDUCATION (when active) → latest ECON handoff.
+### Last updated: July 14, 2026 — unified-team terminology; EDUCATION remains the study-support home.
 
 ---
 

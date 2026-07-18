@@ -1,12 +1,14 @@
 ---
 type: project
-tags: [now, project]
+timeline: now
+status: ready
+tags: [project]
 ---
 
 # KSU Academic Tracker — Project Brief
 ### Python + SQLite + Markdown
 ### Build target: July 5–24, 2026 (before D2L access opens ~July 25)
-### Last updated: July 9, 2026 — go-live audit cleanup
+### Last updated: July 15, 2026 — live-path and purpose reconciliation
 
 ---
 
@@ -149,11 +151,12 @@ Returns anything past due date still marked pending.
 
 ## Markdown Connection
 
-Every notes_file field stores a relative path:
+Every `notes_file` field stores a path relative to `.ROOT`, under the official
+course-file home:
 
-  04-SCHOOL\01-KSU/PHYS2211/notes/CH1_motion.md
-  04-SCHOOL\01-KSU/CSE1321/notes/loops_practice.md
-  04-SCHOOL\01-KSU/TCOM2010/assignments/memo_draft.md
+  02-LIBRARY\00-SCHOOL\02-Physics I\Notes\01-Chapter 1 Measurements.md
+  02-LIBRARY\00-SCHOOL\01-CSE-Python\Notes\CS50P\Lecture 1.md
+  02-LIBRARY\00-SCHOOL\04-ECON\Econ 1000syllabi.md
 
 The program displays the path when it shows that item.
 You open the file in Obsidian. The program does not read
@@ -210,18 +213,20 @@ Chris approved small project code living inside `.ROOT` for this tracker-class w
 
 ## Connection to North Star
 
-This is a Track 2 project that serves Track 1.
+This is a small school-support proof project that also exercises permanent Python,
+SQL, CLI, date-logic, and structured-data capability. Its value is measured by
+whether it reduces semester friction with verified course data—not by assigning it
+to a retired track or treating it as a product roadmap.
 
-Every concept used here — SQLite, Python CLI, date logic,
-structured data — maps directly to the POL audit database
-that resumes after the tracker is stable enough to stop consuming the build slot.
-
-The tracker is practice. POL is the product.
-The skills compound.
+POL remains parked. The tracker does not automatically reactivate POL or any other
+build; a later weak-link/current-strategy review must explicitly justify that work.
+The capability compounds even when the projects remain separate.
 
 ---
 
 Owner: Chris Powers
 Build start: July 5, 2026
 Status: V1 shipped — awaiting real D2L/syllabus data
-Next action: enter real D2L/syllabus data around July 25, 2026, then use the tracker every morning during the semester
+Only active next action: around July 25, enter the verified D2L/syllabus data that
+is actually available and test the real workflow. Add no V2 feature unless that use
+exposes the need.

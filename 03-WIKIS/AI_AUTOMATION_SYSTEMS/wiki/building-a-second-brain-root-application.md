@@ -13,7 +13,7 @@ Express; PARA: Projects/Areas/Resources/Archives). Read in full for a
 live in the full report — this page summarizes the verdict and points there
 rather than duplicating it.
 
-Full report: `00-BRAIN\Session_Logs\BUILDING_A_SECOND_BRAIN_ROOT_STRUCTURE_REPORT_2026-07-12.md`.
+Full report: `00-BRAIN\Session_Logs\Report Archive\BUILDING_A_SECOND_BRAIN_ROOT_STRUCTURE_REPORT_2026-07-12.md`.
 
 ## One-paragraph summary
 
@@ -63,14 +63,18 @@ adoption was narrow operating upgrades, not a PARA rename.
    stage-3-vectors.md`, `03-WIKIS\BUSINESS\wiki\ai-integration-company\
    smb-ai-audit-method.md`. Evaluate retrieval/maintenance cost at the next
    weekly review before expanding to more pages.
+5. **DIVERGE / CONVERGE AI work modes** — adopted July 14 after Chris directly
+   removed hard drift control over himself. DIVERGE permits exploration;
+   CONVERGE limits AI-generated intake and tangents while finishing. The modes
+   govern AI behavior and never prevent Chris from redirecting.
 
 ## What was explicitly declined
 
 No PARA rename, no new tag scheme, no vault-wide Progressive Summarization,
-no "Mode: DIVERGE/CONVERGE" ritual, no "favorite problems" list — `.ROOT`
-already has stronger equivalents (North Star, CASTLE gaps, monthly weak-link
-question) and the skeleton stays frozen. Full reasoning in the source report
-§7 "What Not to Adopt."
+and no "favorite problems" subsystem. The July 12 decision against a formal
+DIVERGE/CONVERGE ritual was superseded July 14 by Chris's direct governance
+request; the adopted version is a lightweight AI behavior mode, not added
+ceremony or user control. The skeleton stays frozen.
 
 ## Links to Related Pages
 
@@ -79,6 +83,6 @@ of `.ROOT` in this wiki — that one assesses capability maturity directly;
 this one assesses the *knowledge-management* architecture against an
 external framework. Read together for the fullest self-evolution picture.
 
-Source report: `00-BRAIN\Session_Logs\BUILDING_A_SECOND_BRAIN_ROOT_STRUCTURE_REPORT_2026-07-12.md`.
+Source report: `00-BRAIN\Session_Logs\Report Archive\BUILDING_A_SECOND_BRAIN_ROOT_STRUCTURE_REPORT_2026-07-12.md`.
 Validation dependency this work was gated behind:
-`00-BRAIN\Session_Logs\ROOT_OPERATING_INSTRUCTIONS_VALIDATION_2026-07-12.md`.
+`00-BRAIN\Session_Logs\Report Archive\ROOT_OPERATING_INSTRUCTIONS_VALIDATION_2026-07-12.md`.

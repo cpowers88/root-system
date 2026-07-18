@@ -1,10 +1,10 @@
 ---
 type: log
-tags: [log, business]
+timeline: log
+tags: [business]
 ---
 
 # FIELD NOTES — June 5, 2026
- #Start #log 
 ## Subject: Construction Industry — Operational Inefficiency as Business Opportunity
 ## Signal type: Build + Sell
 ## Source: Personal domain knowledge + strategic conversation with Claude

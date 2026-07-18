@@ -21,6 +21,9 @@ Operating rules: this folder's `CLAUDE.md`. Raw sources live in `raw/` (immutabl
 - [current-position.md](current-position.md) — Progress anchor for EDUCATION (required
   by NORTH_STAR monthly review + HAT_EDUCATOR). Pre-semester state until Aug 24;
   update when D2L opens (~July 25), at the Aug 1 monthly, and at semester start.
+- [[learning-how-to-learn-principles]] — Practical
+  secondary-source guidance on encoding, retrieval, application, prioritization,
+  and attention; numerical/neuroscience claims remain explicitly unverified.
 
 ## Raw sources
 

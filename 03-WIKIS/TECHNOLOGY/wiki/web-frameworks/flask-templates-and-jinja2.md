@@ -76,7 +76,7 @@ Server-side code should work exclusively in UTC; users expect to see times in th
 | North Star relevance | 4 | Determines whether a client tool looks professional enough to support a retainer sales pitch. |
 | Current usefulness | 3 | Foundational — useful once a real Flask UI build starts. |
 | KSU support | 1 | Not connected to ISYE coursework. |
-| Tech-stack relevance | 5 | Flask is explicitly in the Top 12 stack. |
+| Tech-stack relevance | 5 | Flask is in the technology possibility map; timing follows a real web-tool need. |
 | Business audit value | 3 | Indirect — improves the polish of a deliverable rather than the analysis itself. |
 | Data/workflow value | 2 | Presentation-layer, not a data-handling technique. |
 | Reading urgency | 2 | Low urgency until an actual client-facing UI build is scheduled. |

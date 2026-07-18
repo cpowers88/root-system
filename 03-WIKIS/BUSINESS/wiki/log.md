@@ -416,3 +416,253 @@ updated to three-track order), `CLAUDE.md` (retired phase color-ramp
 parenthetical removed — tag filters are the progression view), `README.md`
 (phase table's Color column removed; it contradicted the tag-filter doctrine
 four lines above it). No content pages added or removed.
+
+## 2026-07-14 — Unified-team terminology and high-load policy reconciled
+
+- Updated `first-90-days.md` to name March 2027 as the first consulting-client
+  target and replace the school-only danger-week rule with fixed-commitment
+  protection plus Chris's final direction.
+- Updated the capability-library first-run wording to match the consulting
+  milestone. No offer, client, or business phase was opened.
+- Next action: normal business cadence; continuity-income tests remain in
+  REVENUE_LAB and consulting assets remain here.
+
+## 2026-07-14 — Client-workspace privacy boundary reconciled
+
+- Updated the Business hub OS, human guide, and index to match the approved
+  privacy boundary: active client-specific/private work lives in a separate
+  authorized client workspace or repository outside `.ROOT`.
+- `.ROOT` keeps blank masters, sanitized lessons, reusable methods/assets,
+  approved case studies, and non-sensitive metadata only.
+- Next: before the First Contact phase opens, create no client workspace. When
+  real client work begins, define that external boundary in the engagement's
+  own instructions and agreement.
+
+## 2026-07-14 — Business wiki separated from durable identity
+
+- Replaced the copied North Star constitution with a routing bridge: NORTH_STAR owns
+  durable direction, CURRENT_STRATEGY owns the active vehicle, this wiki owns methods
+  and evidence, and CASTLE/NOW owns sequencing.
+- Reconciled index/start pages, current wedges/first offer pointers, skill roadmap,
+  and time-horizon pages so old June business-arc wording no longer overrides live
+  strategy or school frontiers.
+- Added the Watchtower boundary: external market change may route outward; our own
+  field results return directly through CASTLE to a strategy assumption/milestone.
+- Next: practice the observation method when real access exists; do not activate a
+  sales checklist merely by opening a roadmap page.
+
+## 2026-07-14 — User router and live-path audit
+
+- Replaced the stale copied README architecture with a short router to the current
+  strategy, HOW_TO, index, and North Star alignment bridge. Clarified that roadmap
+  pages are scenarios until CASTLE activates a bounded test.
+- Corrected the CASTLE decision-rule path in HOW_TO. Strict wiki lint reports no
+  unresolved dead links.
+
+## 2026-07-16 — Book and source intake routed from `77-INBOX`
+
+- Added 19 unique raw sources covering enterprise AI adoption/use cases, product
+  discovery and management, strategy, leadership, economics, and judgment.
+- Highest-value intake queue for the active Advisor-Builder strategy: *The Mom
+  Test* -> *The AI Dossier* -> *All-In on AI* -> *Good Strategy/Bad Strategy* ->
+  *Inspired* / *Transformed*. The entrepreneur book list and Silver Space AI/ML
+  PDF/PPTX package are low-priority discovery/marketing sources and may be parked.
+- This is source placement only. No book is marked covered or ingested.
+
+## 2026-07-16 — New BUSINESS book batch chunk-ingested and fully dispositioned
+
+### What changed
+
+- Processed all 19 July 16 source files. Thirteen useful sources were ingested
+  through complete named PDF ranges into six reusable method pages; six sources
+  were explicitly parked or excluded. Large books were never treated as one-pass
+  summaries, and each new page carries its own chunk ledger.
+- Created `customer-discovery-and-evidence.md` from *The Mom Test* and wired its
+  behavior/commitment standard into the sales system and audit interview guide.
+- Created `enterprise-ai-opportunity-and-adoption.md` from all six industry
+  sections/86 use cases in *The AI Dossier* plus all seven chapters of *All-In on
+  AI*. Enterprise examples were normalized into durable workflow patterns and an
+  adoption-readiness diagnostic rather than copied as a catalog.
+- Created `strategic-diagnosis-and-coherent-action.md` from all three parts of
+  *Good Strategy/Bad Strategy*.
+- Created `product-discovery-and-operating-model.md` from all five parts of
+  *Inspired* and all eleven parts of *Transformed*, then extended it with bounded
+  dispositions for *The Innovator's Dilemma* and the 854-page *Cracking the PM
+  Career*. Career/job-search chapters were excluded from the company method.
+- Created `ai-economics-and-decision-workflows.md` from *Prediction Machines*.
+  The audit can now separate prediction from judgment, action, outcome, and
+  feedback before recommending AI.
+- Created `company-operating-system-and-founder-judgment.md` from *The Great CEO
+  Within*, *The Hard Thing About Hard Things*, the business-relevant portions of
+  *The 80/20 Principle*, and the complete *Psychology of Human Misjudgment*
+  speech. The page is phase-3 reference, not permission to install bureaucracy.
+
+### What was parked or excluded
+
+- `book list.pdf`: source-discovery list with hype-heavy rankings; no independent
+  evidence or operating method. Parked as a catalog only.
+- `AI and ML Red.pdf` + `AI and ML text.pptx`: the same Silver Space marketing
+  package in rendered/editable formats. It makes unsupported absolute-accuracy
+  and near-total-autonomy claims that conflict with the wiki's gate discipline;
+  parked, not promoted.
+- `Matery byRobertGreene.pdf`: personal mastery/apprenticeship narrative; useful
+  general reading but no current BUSINESS page gap. Parked.
+- `SenecaLettersfromaStoic-SelectedLetters.pdf`: philosophy/personal resilience,
+  not a business operating source. Excluded from wiki ingestion.
+- `theundercovereconomist.pdf`: broad economics examples; no direct gap beyond
+  the stronger AI economics, pricing, and market pages already present. Parked.
+
+### Missing data needed from Chris
+
+- None for source ingestion. Field evidence is still missing: real workflow
+  conversations, observed process costs, advancement commitments, and a used
+  audit artifact. Reading does not satisfy strategy assumptions S-01 through S-03.
+
+### Recommended next action
+
+- Use `customer-discovery-and-evidence.md` to prepare one warm-network workflow
+  conversation. Capture the last concrete problem event, current workaround,
+  quantified consequence, decision owner, and one advancement commitment; let
+  the result update the active strategy through CASTLE.
+
+## 2026-07-16 — First workflow observation converted into a field protocol
+
+### What changed
+
+- Added `first-workflow-observation-field-plan.md`, a field-ready protocol for
+  selecting one bounded workflow, requesting access, conducting a 45-60 minute
+  observation, labeling evidence, quantifying friction conservatively, writing
+  a 2-4 page report, and securing one advancement commitment.
+- Compared the three available access paths without storing candidate identities
+  or private operational details. Recommended a local real-estate workflow as
+  the first method rehearsal, a small Boston-area construction business as the
+  first serious commercial-discovery test, and the harder-to-schedule medium
+  construction company as later validation.
+- Added explicit privacy boundaries, calculation rules, quality gates, stop
+  conditions, and strategy evidence routing for S-01 through S-03.
+
+### Missing evidence
+
+- The actual workflow has not yet been selected or observed. Candidate scores
+  are provisional until participant role, artifact access, recency, volume, and
+  scheduling are confirmed.
+
+### Recommended next action
+
+- Ask the local real-estate participant to identify one recurring workflow with
+  a safe, completed example from the last 30 days. Schedule a 45-60 minute live
+  observation and use the new field plan without pitching a solution.
+
+## 2026-07-16 — Workflow observation question sequence added
+
+### What changed
+
+- Added `templates/workflow-observation-question-sequence.md`, a fill-in live
+  worksheet ordered by evidence value: recent event, observed workflow, repeated
+  friction, magnitude, consequence, motivation, authority, disconfirmation, and
+  advancement.
+- Added explicit gates for when to narrow, measure, park, or reject a workflow,
+  plus optional real-estate and construction question branches.
+- Linked the worksheet from the template library and first-observation field plan.
+
+### Recommended next action
+
+- Complete the short pre-session test block, then use Steps 1-11 during the local
+  real-estate observation. Do not read every optional branch unless the observed
+  workflow makes it relevant.
+
+## 2026-07-16 — AGC construction outlook routed through Watchtower
+
+### What changed
+
+- Preserved the official five-page AGC 2026 Construction Hiring and Business
+  Outlook remarks in `raw/` and reviewed the complete source, including rendered
+  verification of the workforce and AI-adoption pages.
+- Updated `enterprise-ai-opportunity-and-adoption.md` with current construction
+  evidence: 61% of respondents use AI or plan more investment, with reported use
+  concentrated in office/admin, estimating, preconstruction/design, and HR.
+- Converted the source into a bounded field-test question for the already-planned
+  construction observation. It does not prove willingness to pay or authorize a
+  new offer, tool, outreach campaign, or project.
+- Routed the material external change to `...projectSuccess/radar.md` as WATCHING;
+  the source and analysis remain in this owning evidence home.
+
+### Recommended next action
+
+- During the first approved construction observation, test one actual office/admin,
+  estimating, or preconstruction workflow and record whether AI use created value,
+  integration friction, new review work, or no meaningful change.
+
+## 2026-07-16 — Real-estate ecosystem entry ideas ranked
+
+### What changed
+
+- Researched the operating boundaries around a Mark Spain-affiliated agent,
+  independent brokers, Georgia closing attorneys, and residential flippers.
+- Updated `market-map.md` with a four-candidate entry ranking. Rejected generic
+  agent CRM and broker-compliance software as first builds because brokerage
+  control and established transaction platforms make them poor individual-agent
+  wedges.
+- Passed a **Flip Margin Leak Audit + Cost-to-Complete Cockpit** into a bounded
+  Phase 2 test: one completed flip, one margin-variance analysis, and one Sheet;
+  no platform or automation unless the investor asks to repeat it on a live deal.
+- Held the broader **Closing Exception Autopsy / Deal Friction Radar** until one
+  safe, redacted delayed transaction proves repeated missing-item chasing,
+  measurable consequence, and a reachable process/budget owner.
+- Preserved Mark Spain, NAR, ATTOM, Georgia regulatory, and Clio source roles in
+  the CASTLE source map before allowing the research to affect the opportunity
+  queue.
+
+### Recommended next action
+
+- With Chris's explicit approval, Heather asks one residential flip investor for
+  a 60-minute replay of a completed project. Ask for the original underwriting
+  and actual cost categories, not live credentials or documents for `.ROOT`.
+
+## 2026-07-16 — Creative problem-solving handbook routed from `77-INBOX`
+
+- Moved and clearly named James M. Higgins's 1994 *101 Creative Problem Solving
+  Techniques: The Handbook of New Ideas for Business* in this hub's immutable
+  `raw/`.
+- Visually verified the title, copyright page, contents, and source purpose. It is
+  a facilitation toolbox spanning problem recognition, assumption testing,
+  individual and group ideation, alternative selection, implementation, and
+  control.
+- Source placement only. Reopen selectively when a real audit workshop,
+  facilitation session, or stuck problem needs additional techniques; do not
+  chunk-ingest 101 methods merely because the catalog exists.
+
+## 2026-07-16 — Creative problem-solving handbook selectively chunk-ingested
+
+### What changed
+
+- Reconciled the 68-file `raw/` inventory against prior intake records. The AGC
+  outlook and the 19-source July book batch were already covered; Higgins's
+  *101 Creative Problem Solving Techniques* was the only outstanding source.
+- Reviewed and dispositioned all 241 physical PDF pages in 11 named chunks,
+  including visual checks at the major method boundaries.
+- Added `creative-problem-solving-and-facilitation-toolkit.md`: an evidence-gated
+  eight-step problem-solving loop, compact technique chooser, bounded workshop
+  protocol, human-agent boundary, and complete source ledger.
+- Linked the method into consulting, the SMB AI audit, strategic diagnosis,
+  product discovery, and the Business operating index.
+
+### What was parked
+
+- The 101 exercise instructions, repeated historical company anecdotes, and
+  technique-by-technique catalog remain immutable in `raw/` for triggered
+  retrieval. They were not reproduced as wiki pages.
+- The book's 1994 cases do not count as current market evidence or proof that a
+  technique works in a present client setting.
+
+### Missing data needed from Chris
+
+- None for source intake. The method has not yet been used in a real workshop;
+  effectiveness and fit remain unproven until a named, observed problem actually
+  requires facilitated option generation or selection.
+
+### Recommended next action
+
+- Keep the toolkit dormant until an audit or workflow observation reaches a
+  specific stuck decision. Then use the smallest applicable technique and ship
+  a decision record plus a bounded test, not a brainstorming transcript.

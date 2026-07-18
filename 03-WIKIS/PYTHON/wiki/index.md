@@ -1,6 +1,7 @@
 ---
 type: map
-tags: [now, programming]
+timeline: now
+tags: [programming]
 ---
 
 # Python Wiki Index
@@ -10,6 +11,7 @@ tags: [now, programming]
 - [[current-position]] — current learner baseline, restrictions, and progress evidence.
 - [[learning-path]] — active staged path and next reading/drill.
 - [[source-map]] — inventory and ranking of all sources.
+- [[syllabus-alignment]] — official CSE 1321/1321L outcomes, restrictions, assessments, and topic-to-stage coverage.
 - [[prerequisite-map]] — concept dependency map.
 - [[parking-lot]] — advanced or off-scope material parked for later.
 - [[log]] — append-only session history.
@@ -22,7 +24,7 @@ Generated curriculum exists through Stage 10, but Chris's current study stage is
 
 - [[stages/stage-00-setup-and-orientation]] — satisfied
 - [[stages/stage-01-python-atoms]] — satisfied 2026-07-13
-- [[stages/stage-02-decisions-and-boolean-logic]] ← start here (current study stage)
+- [[stages/stage-02-decisions-and-boolean-logic]] ← current verification gate
 - [[stages/stage-03-loops-and-repetition]]
 - [[stages/stage-04-functions-parameters-return]]
 - [[stages/stage-05-data-shapes]]
@@ -47,4 +49,4 @@ Generated curriculum exists through Stage 10, but Chris's current study stage is
 
 ## Update Rule
 
-Claude must update this index whenever new pages are created or renamed.
+Any AI working in this hub must update this index whenever pages are created or renamed.

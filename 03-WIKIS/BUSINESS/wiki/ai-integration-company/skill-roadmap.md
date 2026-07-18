@@ -22,8 +22,10 @@ Skills are learned **just ahead of the offer that needs them**, and every skill 
 
 An engineering background gives a head start on layer 2 — which is exactly why the real risk is over-investing there and starving layers 1 and 3. The market pays for diagnosis and outcomes; the build is table stakes.
 
-## ISYE Coursework Feeds This Roadmap (Track 1 → Track 3)
-Per NORTH_STAR.md, every ISYE course is a practice client engagement, not just a credit — school (Track 1) is non-negotiable and primary, and it directly builds layer-1 and layer-2 capability here:
+## ISYE Coursework Feeds Business Capability
+The KSU ISYE degree is a fixed North Star commitment and capability spine. Connect
+course concepts to real operational analogs when academic-integrity rules allow;
+coursework is not automatically a client engagement:
 - Probability & Statistics (ISYE 2600, Spring 2027 — the gate course) → data-driven audit findings
 - System Dynamics → workflow redesign
 - Simulation → modeling client processes before rebuilding them
@@ -36,7 +38,11 @@ Per NORTH_STAR.md, every ISYE course is a practice client engagement, not just a
 Name the real-world audit/build analog when doing the assignment — that's what makes the degree a credential clients respect instead of a delay.
 
 ## Application Development Is Part of the Skill Stack, Not a Side Quest
-NORTH_STAR.md elevated this July 6, 2026: the layer-2 skill ladder bends toward shipping real applications, not just automations — KSU Academic Tracker → Powers Operating Ledger (POL) → client tools → productized software (the fourth [[north-star-alignment|Engine asset class]]). Every build practices the full arc: design, build, test, document, deliver, maintain. Current sequencing priority (Summer 2026): Python + SQL through the Tracker and POL builds, both training the highest-priority skill gap (SQL) on real Track 1/Track 2 needs before any client exists.
+Application development remains part of the permanent capability base, but the live
+sequence comes from the PYTHON wiki, pre-semester plan, CASTLE, and actual projects.
+As of July 14, the Academic Tracker is shipped and awaits real course data around
+July 25; POL is not the governing next build. Every active build should practice the
+full arc: design, build, test, document, deliver, and maintain.
 
 ### Third-Party Validation of This Layer Order (added 2026-07-12, WEF Future of Jobs Report 2025)
 The WEF's Core Skills 2025 ranking (1,000+ employers, 22 industries, 55 economies) independently ranks systems thinking (42%), resource management/operations (41%), and quality control (35%) as named, employer-cited core skills — corroborating that Layers 1 and 2 below aren't invented categories. Notably, **AI & big data ranks only 11th in current core-skill importance (45%)** despite being separately named the #1 fastest-*growing* skill — third-party confirmation of this roadmap's "diagnosis over AI-tool-fetish" ordering: the tool skill is rising fast but isn't yet what employers rank most essential, process/systems literacy still leads. Separately, the same report finds skill instability easing (39% of workers' skills expected to change by 2030, down from 44% in 2023 and 57% in 2020) while reskilling participation rises (50% of workers vs. 41% in 2023) — continuous learning is trending from novelty toward baseline expectation, which is worth a line in a proposal when pitching training as a standard delivery component, not an add-on.

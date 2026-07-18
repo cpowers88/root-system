@@ -1,11 +1,13 @@
 ---
 type: flags
-tags: [now, governance]
+timeline: now
+status: active
+tags: [governance]
 ---
 
 # SYSTEM_FLAGS.md — Open Improvement Flags
 ### Location: 00-BRAIN\ | Check at every session start.
-### Last updated: July 14, 2026 (flag 73 raised — funding cut / NORTH_STAR amendment)
+### Last updated: July 17, 2026 (flag #77 — inbox sort pending decisions logged)
 
 ---
 
@@ -22,7 +24,12 @@ A flag leaves this file only when the fix is verified in the target file. "I'll 
 
 If the same flag is re-raised after being closed, it comes back as HIGH.
 
-**History rule (added July 11, 2026):** this file holds OPEN flags plus the current week's closes only. Older closed flags move to `99-ARCHIVE\` at the weekly review (current archive: `ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`, June 8 – July 11). This file is read at every session start — history in it is a per-session context tax.
+**History rule (updated July 15, 2026):** this file holds OPEN flags only. When
+a flag closes, its row moves in the same session to the monthly ledger at
+`00-BRAIN\Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md` — no weekly
+migration step to forget. Pre-ledger history (June 8 – July 11, 83 rows):
+`99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`. This file is
+read at every session start — history in it is a per-session context tax.
 
 ---
 
@@ -30,31 +37,22 @@ If the same flag is re-raised after being closed, it comes back as HIGH.
 
 | # | Flag | Raised | Priority | Target | Status |
 |---|---|---|---|---|---|
-| 73 | **NORTH_STAR.md needs a Chris-approved amendment for the July 14 funding cut.** Chris disclosed a major cut in school funding: additional income is required to continue studies past the Fall 2026 semester. This is recorded in `NOW.md` and `DAILY_2026-07-14.md`, and drove the Chris-approved creation of `03-WIKIS\REVENUE_LAB\`. But NORTH_STAR.md still reads as if income first arrives with the March 2027 first client — its constraints/known-risks and financial-timeline language no longer match the controlling financial fact. Amendment needs Chris's approved wording (doctrine change, lane sequence applies). | July 14 | MEDIUM | `01-NORTH_STAR\NORTH_STAR.md` — amend income timeline/constraints once the revenue lane scan (~July 21) gives the amendment real content; hard ceiling: next weekly review | OPEN |
 | 57 | **EDUCATION syllabus data-quality gaps** (recorded on `fall-2026-course-briefs.md`): the ENGR 1000 syllabus in raw/ is the **Fall 2025 edition** — its policies (including the total AI prohibition) must be reverified against the real Fall 2026 syllabus when KSU posts it; TCOM 2010's schedule table carries recycled January/Spring dates inside a Fall 2026 header (weekly rhythm probably right, printed dates wrong — trust D2L); TCOM's assignment-weights table is cut off in the source scan — pull the real table from D2L in week 1. | July 9 | MEDIUM | Update `03-WIKIS\EDUCATION\wiki\fall-2026-course-briefs.md` when Fall 2026 ENGR syllabus + D2L are available; hard ceiling Aug 24 | OPEN |
-| 51 | Castle's "calendar-encoded capacity" (OPERATIONS.md rule 8) verified against the live calendar. Chris simplified the mechanism same-day: blocks are now labeled **"CASTLE"** directly on the "North Star Calendar" (no more two-calendar overlay). Numbers confirmed: ~24h15m/wk CASTLE-tagged + 10h/wk weekday FLOAT ≈ OPERATIONS.md's "~26h dedicated + ~10h float" — mechanism now clean and simple. Remaining gap: CASTLE-tagged blocks stop after **Aug 22-23, 2026** — nothing is tagged CASTLE from Fall semester start onward, and the semester-week calendar template (checked Aug 24 – Sep 2, re-checked after Chris's fix) still has only class-meeting blocks, no FLOAT/CASTLE/study time. Phase 1 needs a semester study/tech-practice block built and CASTLE-tagged before classes start. | July 7 | LOW | Extend CASTLE tagging + build semester weekly template before Aug 24 (~7 weeks out; not yet in the "within 2 weeks" action window) | OPEN — labeling mechanism fixed same day; semester-gap piece still open |
 | 16 | Spin rule / right-hand rule needs physical anchor from Atlas. Covers: cross product, torque, angular velocity, and future magnetic field direction. Curl fingers in direction of rotation, thumb points to vector. Must be anchored before these topics appear in PHYS 2211. | June 9 | LOW | Atlas / Physics sessions | OPEN — **approaching**: Chris is now working Vectors (Serway Ch 3) per castle current-position (July 8); cross product is next door. Atlas should anchor it in the next physics session that touches vector products. |
 | 68 | Raw-file naming defects found during the July 12 Claude Code + OpenAI docs pack ingest (`03-WIKIS\AI_AUTOMATION_SYSTEMS\raw\`): (a) 12 files in `OPEN_AI-CHATGPT_CODEX_FILES\` (`OpenAI API.md`–`OpenAI API 9.md`, `OpenAI AP15I (1)/(2).md`) share a collided literal page title from capture — SHA-256 confirmed none are duplicates, all 12 genuinely distinct, all now routed into wiki pages, but raw filenames stay generic/unsearchable; (b) `CLI_USE.md` (Claude pack) and `Node reference  OpenAI API.md` (OpenAI pack) are mislabeled — actual content is computer use and the Agent Builder node catalog, not CLI usage or a Node SDK reference. All four already correctly routed in wiki pages despite misleading raw filenames. | July 12 | LOW | Informational only — raw/ is immutable; no fix needed unless Chris wants to rename for future searchability | OPEN |
 | 69 | `Agents SDK  OpenAI API 1.md` in `03-WIKIS\AI_AUTOMATION_SYSTEMS\raw\OPEN_AI-CHATGPT_CODEX_FILES\` is byte-identical (SHA-256 `0ddb73d5...92db1`) to `Agents SDK  OpenAI API.md` — same defect class as closed flag #63 (mis-saved duplicate). Content read once, not double-summarized. | July 12 | LOW | Chris's call whether to remove the duplicate; both remain in raw pending decision | OPEN |
+| 77 | `77-INBOX` sort (July 17 evening): two named PDFs moved and confirmed as new material — `Process Mining Handbook.pdf` → `03-WIKIS\SYSTEMS\raw\` (deepens existing BPMN/XES/PM4Py lane; ties to MCP Bootcamp Day 1 Systems Audit) and `AI in Business and Economics.pdf` → `03-WIKIS\AI_AUTOMATION_SYSTEMS\raw\` (ties to Day 7 Product & Value). Neither has a ledger row or synthesis page yet — full/selective ingestion deliberately deferred (780 combined pages, late session, standing "don't reopen large source books as a reading queue" discipline). Four other inbox PDFs are confirmed duplicates of already-compiled sources (`Entrepreneurship.pdf`, `The Goal, GOLDRATT.pdf`, `Foundations of Scalable Systems.pdf`, `Hacking APIs.pdf`) sitting untouched in `77-INBOX` pending Chris's delete-or-leave call. `TheLeanStartup,RIES.pdf` is genuinely new/uncovered (no home decision made). `Programming Logic and Design Comprehensive.pdf` is parked, not ingested — matches Chris's own stated read on Python fundamentals ("good for now, will ask if it gets advanced"), no live build boundary needs it. | July 17 | LOW | `77-INBOX` (4 duplicates) / `03-WIKIS\SYSTEMS\raw\` + `03-WIKIS\AI_AUTOMATION_SYSTEMS\raw\` (2 unregistered new sources) | OPEN |
 
 ---
 
-## CLOSED THIS WEEK
+## CLOSED FLAGS
 
-| # | Flag | Raised | Closed | Fix |
-|---|---|---|---|---|
-| 72 | `frontmatter_audit.py` omitted `88-JOURNAL` from its exclusion set, so a read-only metadata audit could traverse the private journal boundary | July 13 | July 13 | Added `88-JOURNAL` to the script's excluded path components; rerun must confirm the audit no longer reports or traverses journal paths. No journal content was surfaced in the audit output. |
-| 70 | Codex CLI native Windows sandbox was missing its setup helper and the Drive workspace could not complete ACL setup | July 12 | July 13 | Reinstall restored the helper; Chris established `C:\Users\chris\.ROOT` as the canonical local workspace, and this unelevated session is operating there. Drive ACL compatibility is no longer a working-tree blocker. `approval_policy = "on-request"` and network denial remain intentional safeguards. |
-| 71 | C: local-root cutover needed a verified cloud backup without restoring G: as a working tree | July 13 | July 13 | Chris confirmed Drive for desktop is syncing exactly `C:\Users\chris\.ROOT` under **Computers → this PC → .ROOT** and the live folder/files display green sync marks. `G:\My Drive\.ROOT` remains a legacy recovery snapshot only. |
-| 67 | Agent/eval maturity lacked a concrete gate | July 12 | July 12 | Added `AGENT.md § Agent Evaluation Gate`: single-agent first; five representative cases; full action-trace review; human approval for consequential actions; DAILY evidence and regression rollback. Five-case supervised baseline passed. |
-| 66 | `.claude/settings.local.json` held a stale broad allowlist with no deterministic private/raw deny layer | July 12 | July 12 | Archived original; replaced atomically with Manual-mode least privilege. Auto/bypass disabled; `88-JOURNAL` tool+sandbox read/write denies; eight raw roots write-denied; boot validator now verifies the controls. |
-| 65 | Wiki lint reported 759 equal-severity findings, hiding real link/index hygiene | July 12 | July 12 | Enhanced existing `wiki_lint.py` with blocker/review/expected classes and strict mode; neutralized 33 stale FORGE-era links. Final: 0 blockers, 0 review debt, 714 expected items. |
-| 62 | SYSTEM_FLAGS.md itself was ~90% closed-flag history (~4,200 words re-read every session start) — flagged by the July 11 Claude-docs review as the system's biggest always-on context tax | July 11 | July 11 | Closed-flags table (83 rows, June 8 – July 11) archived to `99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`; history rule added above; live file now OPEN + current-week closes only (~4,200 → ~1,600 words). Chris pre-approved via plan (review + quick wins). |
-| 64 | PYTHON (565) and PHYSICS (295) hub CLAUDE.mds exceeded the ~200-line always-load budget | July 11 | July 11 | Chris approved the full slim pass same evening. PYTHON 565→145 (new `wiki/authoring-standards.md` + `wiki/protocols.md`; baseline merged into `current-position.md`); PHYSICS 295→130 (new `wiki/authoring-standards.md`; tag fixed now→reference). Same pass also slimmed NORTH_STAR 557→310, WHERE_IT_GOES 279→195, vault_map 159→114 (+ new LOCAL_MACHINE_MAP.md), HAT_OPERATOR 173→92 + HAT_EDUCATOR 205→136 (+ two PLAYBOOKS files), ATLAS 66→31, CODEX 130→96, START_HERE bug fix. All originals archived. Full report: `Session_Logs\SLIM_PASS_2026-07-11.md`. |
-| 63 | Duplicate raw file in `CASTLE\raw\books\CLAUDE_FILES\`: `EXPLORE_THE_.CLAUDE_DIRECTORY.md` was byte-identical (MD5 match) to `HOW_CLAUDE_CODE_WORKS.md` — mis-saved download | July 11 | July 11 | Chris removed the duplicate manually same night; absence verified against the live tree (only `HOW_CLAUDE_CODE_WORKS.md` remains). Optional leftover: the real ".claude directory" docs page was never captured — re-download into the same folder if wanted. |
-
-**All older closed flags (June 8 – July 11, 83 rows):** `99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`
+Closed flags live in the monthly ledger:
+`00-BRAIN\Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md` (current month:
+`CLOSED_FLAGS_2026-07.md`, 13 rows migrated July 15). Pre-ledger history
+(June 8 – July 11, 83 rows):
+`99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`.
 
 ---
 *Maintained by: Claude + Chris | Reviewed: every session start (HIGH), weekly (MEDIUM), monthly (LOW)*
-*Last updated: July 13, 2026*
+*Last updated: July 17, 2026*

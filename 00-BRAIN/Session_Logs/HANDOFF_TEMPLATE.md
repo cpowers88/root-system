@@ -1,9 +1,11 @@
 ---
 type: template
-tags: [reference]
+timeline: reference
+tags: []
 ---
 
 # HANDOFF — [DATE] — [CLAUDE / CODEX / CLAUDE CODE / ATLAS]
+## Copy rule: change `type` to `handoff` and `timeline` to `log`; add topic tags only if useful.
 ## Location: 00-BRAIN/Session_Logs/
 ## Rule (updated July 9, 2026 — Chris's call): the handoff is the day's LAST act.
 ## After the Day Summary lands in the DAILY file, each AI/hat used that day writes
@@ -110,10 +112,10 @@ The factual record lives in the DAILY file — do not repeat it here.
 (honest, specific, no vague praise — this drives the system forward)
 
 **Chris:**
-(engagement, drift, execution, communication clarity, energy — name it exactly)
+(engagement, execution, deliberate tradeoffs, communication clarity, energy — describe without turning this into control)
 
-**Claude / Atlas:**
-(stayed in lane, flagged scope creep, taught correctly, wrote to wrong folder — name it)
+**AI surfaces used:**
+(completed the requested outcome, surfaced risks constructively, taught correctly, used the right files/tools — name it)
 
 **Communication check:**
 (one specific observation on how Chris communicated this session — 

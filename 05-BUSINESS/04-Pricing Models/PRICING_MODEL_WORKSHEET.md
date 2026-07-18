@@ -1,10 +1,11 @@
 ---
 type: worksheet
-tags: [next, business, pricing]
+timeline: later
+status: draft
+tags: [business, pricing]
 ---
 
 # PRICING_MODEL_WORKSHEET.md — Pricing Skeleton
-#business #pricing
 ### vault_map.md trigger: "define after July 4" — this is the skeleton to define against
 ### Status: SKELETON v1 (July 5, 2026) — ⚠ every number here is a placeholder for Chris to set.
 ### Nothing in this file is a commitment. It exists so pricing decisions happen against a frame, not a blank page.
@@ -79,7 +80,7 @@ keeps the relationship legible (TECHNOLOGY_LIBRARY_STRATEGY.md —
 
 **Review trigger:** revisit this worksheet after every practice audit
 and finalize v2 before the first real conversation (Sep 2026–Feb 2027
-window per the Business Arc).
+window under the current strategy's first-contact sequencing).
 
 ---
 *Skeleton by Claude July 5, 2026. Placeholders ⚠ are frames, not recommendations — the market and the proof phase set the real numbers.*

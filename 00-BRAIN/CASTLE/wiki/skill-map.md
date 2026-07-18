@@ -1,11 +1,13 @@
 ---
 type: map
-tags: [skills, roadmap, reference]
+timeline: reference
+reference_priority: core
+tags: [skills, roadmap]
 ---
 
 # Skill Map — Eight Categories, One Sequence
-### Reconciles NORTH_STAR.md Track 2, SKILL_GAP_ANALYSIS.md, and 03-WIKIS\BUSINESS's
-### four-layer skill roadmap. Where they differ, NORTH_STAR.md wins.
+### Reconciles NORTH_STAR.md's permanent capability base, CURRENT_STRATEGY.md's active
+### vehicle, SKILL_GAP_ANALYSIS.md, and domain evidence. NORTH_STAR wins conflicts.
 
 ## How to Read This
 
@@ -13,6 +15,14 @@ Every skill gets a status: **not-started → building → working → proven**.
 "Proven" requires an evidence artifact, not a feeling. No orphan skills: each row
 names its phase and its proof. Individual `skills/` pages get created when a skill
 goes active — not before.
+
+Capability depth uses a separate proof ladder:
+
+`explain → guided build → independent build → integration → real workflow → client outcome → reusable asset`
+
+Record the highest evidenced rung needed for the skill's real use. This ladder
+tracks Chris's capability; Capability Library maturity tracks the reusable asset.
+Do not merge the two dimensions.
 
 The business-plan wiki's four layers map onto the eight categories like this:
 Layer 1 Diagnostic → *Diagnostic*; Layer 2 Build → *Technical + AI Integration +
@@ -38,7 +48,7 @@ This does not replace the status table above — it's the output format when Chr
 
 | Skill | Status Jul 2026 | Phase | Proof |
 |---|---|---|---|
-| Field observation & process documentation | building (1 real rep) | 2 | 2 tested observation sessions |
+| Field observation & process documentation | building (desk simulation; 0 live reps) | 2 | 2 tested live observation sessions |
 | Value Stream Mapping | not-started | 2 | 2 drawn VSMs |
 | Waste identification (7 wastes, TOC) | building (BUSINESS wiki ingested) | 2 | Mock audit report |
 | Waste quantification (time/cost math) | not-started | 3 | Findings with numbers in mock report |
@@ -58,7 +68,7 @@ This does not replace the status table above — it's the output format when Chr
 | Skill | Status | Phase | Proof |
 |---|---|---|---|
 | Python | building (CS50P PS2) | 0–1 | [[ksu-academic-tracker]] shipped; CSE 1321 strong |
-| SQL/SQLite — **#1 gap** | building (tracker) | 0–1 | Tracker queries + POL reports |
+| SQL/SQLite — **#1 gap** | building (tracker) | 0–1 | Tracker queries on verified real course data; later approved data proof |
 | Git/GitHub discipline | building | 1 | Every build in a repo with real history |
 | REST APIs | not-started | 3 | Pull real data from one external system |
 | Flask | not-started | 3/7 | One simple client-facing tool |
@@ -86,7 +96,7 @@ This does not replace the status table above — it's the output format when Chr
 | Skill | Status | Phase | Proof |
 |---|---|---|---|
 | Technical writing / one-page findings | building (TCOM Fall 2026) | 1–2 | Findings format iterated from feedback |
-| Report generation (Python/Markdown/PDF) | not-started | 3 | POL weekly reports; audit report pipeline |
+| Report generation (Python/Markdown/PDF) | not-started | 3 | A current approved reporting vehicle; audit report pipeline |
 | Training clients / documentation | later | 6–7 | First retainer onboarding |
 
 ## 7. Commercial
@@ -103,10 +113,12 @@ This does not replace the status table above — it's the output format when Chr
 | Skill | Status | Phase | Proof |
 |---|---|---|---|
 | Communication (habitual professional clarity) | building — every interaction is a rep | all | Habitual by graduation (NORTH_STAR core goal) |
-| Time management under load (pace model) | building | 1 | Danger weeks honored; no zero-commit days |
+| Time management under load (pace model) | building | 1 | Fixed commitments met; high-load tradeoffs deliberate; no zero-commit days |
 | Delegation & playbook writing | later | 9 | First hire productive from playbooks |
 
 ## The Rule
 
-New skill idea → [[adding-a-profit-skill]] → passes = gets a row here with phase +
-proof → fails = [[parking-lot]] *(page created when first needed)*.
+New skill idea → search [[skill-map]] and [[opportunity-queue]] →
+[[adding-a-profit-skill]] → passes = gets a row here with phase + proof → fails =
+no skill-map row; if evidence-backed and worth retaining, keep or add one
+[[opportunity-queue]] row with status `parked`; otherwise create nothing.

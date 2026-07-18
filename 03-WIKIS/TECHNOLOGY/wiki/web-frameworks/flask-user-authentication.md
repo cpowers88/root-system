@@ -95,7 +95,7 @@ Briefly noted as natural extensions using the same toolkit, with implementations
 | North Star relevance | 4 | Required the moment a client tool needs to distinguish "client view" from "Chris/admin view." |
 | Current usefulness | 3 | Ready to reuse, but only relevant once a tool needs more than one access level. |
 | KSU support | 1 | Not connected to ISYE coursework. |
-| Tech-stack relevance | 5 | Flask is explicitly in the Top 12 stack. |
+| Tech-stack relevance | 5 | Flask is in the technology possibility map; timing follows a real authenticated-app need. |
 | Business audit value | 3 | Indirect — enables access control for a client deliverable rather than an audit technique itself. |
 | Data/workflow value | 2 | Access-control mechanism, not a data-handling technique. |
 | Reading urgency | 2 | Low urgency until a multi-user client tool is actually scoped. |

@@ -1,11 +1,30 @@
 ---
-type: source-summary
-tier: 1 | 2 | 3 | 4
-source-role: spine | support | reference | case-study | market-signal | parked-advanced
-tags: [source, reference]
+type: template
+timeline: reference
+status: active
+template_for: source-summary
+tags: [source]
 ---
 
 # Source Title
+
+> **Use:** copy and rename this file and title. Replace the copy's entire
+> frontmatter with this block, choose one value from each `<...>` list and remove
+> the brackets, add optional topics inside `tags`, then delete this instruction
+> and example block. `tier` is reliability, `source-role` is roadmap function,
+> and `reference_priority` is utility; choose each independently. Source summaries
+> default to `timeline: reference` because they are used when needed.
+
+```yaml
+---
+type: source-summary
+timeline: reference
+reference_priority: <core | supporting | lookup>
+tier: <1 | 2 | 3 | 4>
+source-role: <spine | support | reference | case-study | market-signal | parked-advanced>
+tags: [source]
+---
+```
 
 **Author / Organization**:
 **Source type**: book | official docs | standard | report | article | video | internal file

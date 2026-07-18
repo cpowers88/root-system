@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log]
+timeline: log
+tags: [physics]
 ---
 
 # Physics Education Log
@@ -334,6 +335,48 @@ Append-only session record.
 ### Next action for Chris
 - Unchanged: Stage 3 Vectors output rep.
 
+## 2026-07-14 — Stage 3 (Vectors) first live teaching session, paused mid-problem
+
+### Objective
+- Run the first live teaching pass on Stage 3 (Vectors) per this wiki's protocol
+  (situation → model → quantities → equation → units → problem type → worked
+  example → drill), with Chris solving live problems rather than only reading
+  the packet.
+
+### Sources touched
+- `wiki/stages/stage-3-vectors.md`, `wiki/concepts/coordinate-systems.md`,
+  `scalar-vs-vector.md`, `vector-components.md`, `wiki/common-errors/stage-3-vectors.md`
+  (read as teaching source; not modified).
+
+### Concepts/equations/problem types added
+- None new. This was a teaching rep on existing packet content, not authoring.
+
+### What Chris demonstrated live
+- **Coordinate systems:** correctly converted Cartesian (−30, 40) m to polar
+  (50 m, 126.87°); self-caught a degree/radian mode mixup on the first pass.
+- **Scalar vs. vector:** correctly classified 4 examples; independently
+  generalized that adding a direction converts a scalar (distance) into a
+  vector (displacement) — one nuance correction given on tension's direction
+  being along-the-rope, not assumed-downward.
+- **Vector decomposition:** correctly computed Fx = 65.53 N, Fy = 45.89 N from
+  80 N at 35°; initially dropped units (newton vs. joule confusion), corrected
+  after discussion.
+- **Vector reconstruction:** correctly found A = 13 m, θ = 157.38° from
+  Ax = −12 m, Ay = 5 m, including the quadrant correction.
+- **Vector addition by components:** introduced (40 N at 0° + 30 N at 90°) but
+  not completed — Chris had to leave mid-problem.
+
+### Parked material
+- None new.
+
+### Next action for Chris
+- Resume the paused addition problem (40 N at 0°, 30 N at 90° — explain why
+  70 N is wrong before computing the resultant by components).
+- After that, one more independent pass over all four skills (conversion,
+  scalar/vector ID, decomposition, reconstruction, addition) without notes,
+  then check off the Stage 3 mastery checklist in
+  `wiki/stages/stage-3-vectors.md` before moving to Stage 4.
+
 ## 2026-07-14 — Focused Physics Anki deck reset (Codex + Chris)
 
 ### Objective
@@ -360,6 +403,236 @@ Append-only session record.
 - Stage 4 and later decks remain out of the active queue. Stage 4 is the next
   preview only; no later-stage cram deck is authorized.
 
+## 2026-07-16 — Full stage-separated Anki package built (Claude Code, CASTLE hat)
+
+### Objective
+- Chris deleted the old Anki decks (they had grown unstructured and too far
+  ahead of his actual position) and asked for a complete rebuild: the whole
+  thing under one `Physics` deck in Anki, separated by stage, so he can open
+  only the subdeck he actually needs instead of facing everything at once.
+
+### What changed
+- Wrote `02-LIBRARY\00-SCHOOL\02-Physics I\Flash Cards\Physics_All_Stages.apkg`
+  via a one-off `genanki` script (`build_physics_anki.py`, run from the
+  scratchpad, not added to the vault). It parses all 18
+  `wiki/flashcards/stage-N-*.md` files directly — no content re-authored — and
+  emits one Anki package containing 18 subdecks (`Physics::Stage 01 - ...`
+  through `Physics::Stage 18 - ...`), 223 cards total. Stage 3's two dot/
+  cross-product preview cards carry a `preview` tag.
+- Rewrote `README_IMPORT_INSTRUCTIONS.md` to point at the new package (single
+  `File → Import`, no manual note-type/separator setup) and marked the July 14
+  active TSV and the pre-7/14 mixed decks as superseded-but-preserved.
+- Added a superseded note to `ADAPTIVE_REVIEW_LOG.md`'s rotation table.
+- Updated this wiki's `index.md` Active Stage block to Stage 4 (Stage 3 closed
+  earlier today) and pointed its recall-deck line at the new package.
+
+### Why this shape
+- One package instead of 18 separate TSV imports — Chris only performs one
+  `File → Import` action, and Anki builds the `Physics::` hierarchy itself from
+  the deck names.
+- Generated straight from the existing wiki flashcard pages rather than
+  rewritten, so the Anki deck and the wiki source cannot drift apart silently —
+  regenerating the script after a flashcards/ edit reproduces the package.
+
+### Not done
+- Did not delete or archive the July 14 TSV or the pre-7/14 mixed decks;
+  AGENT.md file-safety preserves superseded artifacts rather than removing them.
+- Did not touch `wiki/flashcards/*.md` content itself — this session only reads
+  that source; any card wording fix belongs in those files, then a package
+  rebuild.
+
+### Next
+- Import `Physics_All_Stages.apkg`, rename/archive any leftover pre-7/14 mixed
+  deck in Anki, and study only the `Stage 04` subdeck (plus Stage 01–03 for
+  spaced review) going forward.
+
 ### Next action for Chris
 - Rename the old mixed Physics deck to `Physics::Archive::Pre-2026-07-14`, import
   the focused deck as `Physics::Active::Stages 1-3`, and begin a baseline review.
+
+## 2026-07-14 — Operating contract made model-neutral
+
+- Changed the hub teaching contract from Claude-exclusive wording to “any AI
+  teaching physics.” No lesson, stage, mastery, or learner-state content changed.
+- Next action remains the paused Stage 3 vector-addition problem already recorded
+  above and in the session handoff.
+
+## 2026-07-14 — Learning-path truth reconciled to live Stage 3
+
+- Replaced the stale Stage 1 path status with the live Stage 3 Vectors frontier.
+- Marked all 18 packets as generated without calling them mastered; Stages 4–5 are
+  source-verified but unstudied, and later stages await sequential re-verification.
+- Fixed two broken relative stage links in `current-position.md`.
+- Next: resume 40 N at 0° + 30 N at 90°, explain why the resultant is not 70 N,
+  then complete a no-notes Stage 3 pass.
+
+## 2026-07-14 — Human guide and prep-plan route verified
+
+- Updated HOW_TO to point to the pre-semester plan and the live learner-state
+  authority, including the exact paused Stage 3 action and provisional status of
+  generated-but-unmastered packets.
+- Cross-reference validation found no active dead link; the next action is unchanged.
+
+## 2026-07-15 — Stage 3 vector-addition problem resumed and solved
+
+### Objective
+- Resume the paused 2026-07-14 problem (40 N at 0° + 30 N at 90°) live with Chris,
+  per this wiki's teach-then-verify method.
+
+### Sources touched
+- `wiki/stages/stage-3-vectors.md`, `wiki/common-errors/stage-3-vectors.md` (read
+  as teaching source; not modified).
+
+### What Chris demonstrated live
+- Explained why the resultant isn't 40+30=70 N (vector addition depends on
+  direction, not just magnitude) after a vocabulary correction.
+- Built components from the cos/sin formula: Ax=40, Ay=0, Bx=0, By=30.
+- Added components correctly (Rx=40, Ry=30) and computed R=50 N independently.
+- Made an angle error (53.13°, the complement of the correct answer) then
+  self-corrected to 36.87° from the +x axis, correctly diagnosing that he'd
+  measured off the wrong leg of the triangle — without being told.
+
+### Concepts/equations/problem types added
+- None new. Teaching rep on existing packet content (vector addition by
+  components), the one Stage 3 skill previously flagged as not yet attempted.
+
+### Parked material
+- None new.
+
+### Next action for Chris
+- This was the easiest case (both vectors axis-aligned, no real decomposition
+  needed). Do one more rep with two vectors at non-axis angles, so both actually
+  get decomposed, then complete the required no-notes pass over all four Stage 3
+  skills (conversion, scalar/vector ID, decomposition, reconstruction, addition)
+  before checking off the mastery checklist in `wiki/stages/stage-3-vectors.md`.
+
+## 2026-07-15 — Semester pathway and source-quality unification
+
+### Objective
+- Reconcile the full Physics wiki with the updated `.ROOT` context, finish the
+  visible Stage 1–18 route, and create a stage-gated trigonometry/calculus refresh
+  path grounded in real physical situations.
+
+### Sources touched
+- `raw/syllabus/syllabus.pdf` (visual review of the 19-page scan; no raw edits).
+- All split Serway textbook PDFs and appendix PDFs (TOC/source screen; no raw edits).
+- `02-LIBRARY/REF-META-HOW-TO-WORK/Christopher_Aptitude_Results.pdf` (visual and
+  text review used only to choose learning sequence and retrieval supports).
+- Official OpenStax, MIT OpenCourseWare, and PhET pages registered in
+  `wiki/source-map.md` as optional support for diagnosed gaps.
+
+### Structure completed
+- Added `wiki/math-readiness-path.md`: physical sketch → exact math move → guided
+  repetition → no-notes transfer → verbal explanation → later cold check.
+- Added a complete Stage 1–18 semester control table to `wiki/learning-path.md`
+  with math gates, real-life anchors, source status, and packet routes.
+- Backfilled Stage 2 and Stages 6–18 into the concept, equation, and problem-type
+  maps; fixed their root-map link paths.
+- Corrected textbook alignment for Stage 2 (through 2.9), Stage 7 (through 7.9),
+  and Stage 17 (17.1–17.7 active; 17.8 parked).
+- Updated the hub, current-position, calculus map, source map, parking lot, and
+  human guide. No learner mastery checkbox was changed.
+
+### Source-quality findings
+- The syllabus PDF is reliable for course identity, outcomes, grading categories,
+  and AI policy, but not yet reliable for operations: its calendar ends at Ch 5;
+  it includes a January access deadline, an impossible day/date pairing, a recycled
+  holiday label, and conflicting exam-drop wording. Live D2L/Owl Express must
+  settle those items.
+- Textbook screens identified content/scope gates at Stage 6 section 6.3, Stage 9
+  sections 9.7–9.9, Stage 11 precession, Stage 14 sections 14.3 and 14.7–14.8,
+  and Stage 15 sections 15.6–15.7. These are parked until the live course scope is
+  known; later supporting pages remain just-in-time work.
+- The Serway appendices already supply the baseline algebra, trigonometry,
+  derivatives, and integrals, so a second downloadable math textbook is not needed.
+
+### Next action for Chris
+- Resume Stage 3 with two non-axis vectors so both vectors require decomposition,
+  then complete the full no-notes Stage 3 pass. Use the Stage 2 calculus bridge
+  next: read slope and area from one position/velocity graph before applying a
+  kinematic formula.
+
+## 2026-07-15 — Full syllabus and learning-profile closure audit
+
+### Objective
+- Confirm that every syllabus page and every named physics outcome has a visible
+  destination before closing the Physics folder; review the two additional
+  YouScience files supplied by Chris.
+
+### Sources touched
+- All 19 pages of `raw/syllabus/syllabus.pdf`, visually inspected.
+- `Christopher_Aptitude_Discussion.pdf` (6 pages), visually inspected and text
+  checked.
+- `Christopher_Aptitude_Results.pdf` (35 pages), previously visually/text reviewed
+  during this session and reconfirmed as an input.
+- `Christopher_One_Page_Summary.pdf` (1 page), visually inspected and text checked.
+
+### Changes and findings
+- Added `wiki/syllabus-coverage-ledger.md`, routing every PDF page to a stage,
+  course operations, institutional governance, or student support.
+- Applied the syllabus learning outcomes across all stages through a shared mastery
+  standard: interpret, represent/model, solve symbolically and numerically, use
+  vectors/calculus as needed, check units/reasonableness, and connect to real life.
+- Confirmed that every named physics topic in the syllabus is represented in the
+  Stage 1-18 sequence. The printed calendar itself still stops at Stage 5/September
+  16, so later weeks cannot be assigned official dates without D2L.
+- Added the late-homework contradiction to the data-quality gate: page 4 describes
+  a 10% daily penalty, while page 7 says work is unavailable after answers release.
+- Expanded the math-learning method with strengths from all three profile files:
+  numerical pattern finding, spatial/tangible models, thinking aloud, alternate
+  approaches followed by a stable process, visible future target, and one next
+  action at a time.
+
+### Next action for Chris
+- The learning path is closed structurally. Supply the live D2L calendar and current
+  grading/exam details when available; until then, treat only the chapter sequence
+  as authoritative and all week/date assignments after Chapter 5 as provisional.
+
+## 2026-07-16 — Non-axis vector-addition rep solved; real textbook problem set added
+
+### Objective
+- Complete the harder non-axis-angle vector-addition rep flagged 2026-07-15, then
+  build a real-textbook problem set (not generated numbers) for Stage 3, per
+  Chris's request to work actual Serway end-of-chapter problems going forward and
+  flag specific ones for the full reflection/teaching treatment.
+
+### Sources touched
+- `raw/textbook/Physics book-0001-0100.pdf` — extracted via `pdftotext -layout`
+  to pull the real Chapter 3 "Problems" section (problems 1–32, pp. 63–66) rather
+  than generating new numbers.
+
+### What Chris demonstrated live
+- A⃗ = 25 N at 40°, B⃗ = 15 N at 120° (both from +x). Correctly computed
+  Ax=19.15, Ay=16.07, Bx=−7.5, By=12.99, Rx=11.65, Ry=29.06, R=31.31 N,
+  θ=68.15°, and correctly reasoned the quadrant (both Rx, Ry positive → no
+  adjustment). This is the first rep where both vectors actually required
+  decomposition (no axis-aligned shortcut). The "ladder against a wall"
+  physical anchor (Ax = ground reach, Ay = wall height) is what made the
+  cos/sin-to-component mapping click.
+- Correctly reasoned through tip-to-tail addition geometrically: placing B's
+  tail at A's tip (Ax, Ay) and following B out lands at (Rx, Ry) — independently
+  connected the graphical and component methods.
+
+### Files created/updated
+- `wiki/drills/vector-addition-drill.md` — added Part E with today's problem and
+  full worked solution.
+- **New:** `wiki/drills/stage-3-textbook-problems.md` — real Serway Ch 3
+  end-of-chapter problems (1–32, transcribed from raw PDF via pdftotext, with
+  OCR-uncertain figure-dependent ones flagged), organized by section, with a
+  blank Reflection? column for Chris to flag live in session.
+- `wiki/stages/stage-3-vectors.md` — linked the new textbook problem set under
+  Drills.
+
+### Concepts/equations/problem types added
+- None new — this closes out the addition skill's harder case and adds a
+  retrieval resource; no new concept.
+
+### Parked material
+- Problems 15, 16, 20, 22, 23, 28–30, 32 (figure-heavy) not transcribed — pull
+  the specific figure from the raw PDF if one is wanted later.
+
+### Next action for Chris
+- Full no-notes pass over all four Stage 3 skills (coordinate conversion,
+  scalar/vector ID, decomposition, reconstruction, addition) before checking the
+  mastery checklist in `wiki/stages/stage-3-vectors.md`. Then start working the
+  new textbook problem set, flagging reflection-worthy ones as they come up.

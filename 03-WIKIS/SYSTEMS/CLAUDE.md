@@ -1,6 +1,7 @@
 ---
 type: os
-tags: [reference, systems]
+timeline: reference
+tags: [systems]
 ---
 
 # CLAUDE.md — Systems Wiki OS
@@ -31,8 +32,11 @@ The controlling question:
   their FORGE origin and those tags remain accurate here.
 - Existing pages carry FORGE's original frontmatter (`domain: systems`, `type`,
   and the full `priority/status/domain/source-role/use-case/subject` tag tracks) —
-  this is a clean lift, not a re-tag. Keep using that tagging system for new pages
-  in this wiki so the inherited FORGE corpus stays consistent with anything added later.
+  this is a clean lift, not a re-tag, and that legacy metadata remains readable.
+  **New pages use the canonical property schema in `WHERE_IT_GOES.md`** (`type`,
+  one `timeline`, optional `status`/`reference_priority`, and topic tags). Do not
+  copy legacy `priority/*` or `status/*` control tags onto a page that has
+  `timeline:`; dual encoding is a metadata error.
 
 ## Folder Structure
 
@@ -41,7 +45,7 @@ raw/          # source PDFs (Sterman Business Dynamics, Factory Physics, etc.) �
 wiki/
   index.md
   log.md
-  current-position.md   # once ISYE 2600 prep is active
+  current-position.md   # future file; create only once ISYE 2600 prep is active
 ```
 
 The inherited FORGE corpus plus any later direct ingests sit flat in `wiki/`
@@ -56,26 +60,25 @@ flagging, recency markers, and the lint pass — lives in
 `00-BRAIN\AGENT.md § Wiki Shared Layer`. One copy, zero drift. This file
 carries only this wiki's own rules.
 
-Raw note: the PDFs that originally sourced the inherited FORGE corpus (Sterman's
-*Business Dynamics*, *Strategic Modeling and Business Dynamics*, *Factory Physics*,
-*Supply Chain Science*) lived in FORGE's `raw/` and were archived to `99-ARCHIVE`
-at FORGE's retirement, not copied here — the pages in `wiki/` are already a
-full-fidelity extraction per FORGE's ingest protocol, confirmed by direct
-cross-check against each book's actual table of contents/principles (2026-07-13).
+**Raw/source status (verified 2026-07-18):** every substantive file currently in
+`raw/` now has an explicit disposition in
+`wiki/raw-source-coverage-and-intake-status.md`. The corrected gap queues for
+*Business Dynamics*, *Factory Physics*, and *Supply Chain Science* are closed.
+The July 17 *Process Mining Handbook* intake is selectively closed through a
+complete 17-chapter disposition map and eight full applied chapter chunks.
+Three sources are intentionally parked behind activation triggers rather than
+treated as active reading backlog: *Algorithms to Live By*, the image-heavy
+*Learning to See* workbook, and the short TOC/lean/Six Sigma comparison article.
 
-**Correction (2026-07-13):** *Introduction to Operations Research* (Hillier &
-Lieberman) was previously listed in this note alongside the other four titles,
-but was never actually extracted — its LP/Simplex/Duality/Sensitivity/
-Transportation content (Ch. 3–9) had zero overlap with the inherited pages
-until the deterministic-OR core was ingested this session (see `wiki/log.md`
-2026-07-13 and the "Linear Programming" index section). Lesson: this note's
-claims are a starting assumption to verify against the actual wiki content,
-not a substitute for checking — a stale/unverified "already covered" claim
-here would otherwise cause the same gap to persist silently.
+The July 15 audit remains the governing lesson: do not infer complete coverage
+from inherited pages, source mentions, or summary-level similarity. A large source
+is complete only when every chapter or defined section has an explicit disposition:
+ingested, covered by a named page, deferred with a reason, or intentionally excluded
+with a reason. Presence in `raw/` is not coverage, and a synthesis page is not
+evidence that every source chunk was reviewed.
 
 ## Final Operating Principle
 
 This wiki activates ISYE-track content on demand and stays audit-usable throughout —
 every page should be able to answer "how does this help diagnose or improve a client's
 operation," not just "what does the textbook say."
-

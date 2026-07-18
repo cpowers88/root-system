@@ -5,17 +5,30 @@ tags: [reference, systems]
 
 # SYSTEMS Wiki — Index
 
-98 pages (verified count, 2026-07-13). 40 moved intact from `FORGE\wiki\systems\` on July 7, 2026 (FORGE
+131 pages (verified count, 2026-07-18). The prior 98-page corpus combines the
+FORGE migration with direct July 8-13 ingests. Four human-centered-design pages
+were added July 15 from Norman's *The Design of Everyday Things*. Two modeling-
+practice pages were then added from complete chapter chunks of Sterman's
+*Business Dynamics* and Hillier and Lieberman's *Introduction to Operations
+Research*. Eight additional pages complete the identified *Business Dynamics*
+Chapter 9-16 gap as independent, fully dispositioned chunks. Of the migrated
+corpus, 40 pages moved intact from `FORGE\wiki\systems\` on July 7, 2026 (FORGE
 retirement); 30 more moved the same day from FORGE's `wiki\business\` — Sterman
 *Business Dynamics* case studies and Factory Physics/JIT/lean/MRP/ERP history pages
 that were filed under FORGE's business/ folder but are subject/factory-physics or
 subject/system-dynamics content, confirmed via frontmatter before the move (`domain:`
-retagged from `business` to `systems` on arrival; content otherwise unchanged). Every
-page keeps its original frontmatter tag tracks (`type`, and the full
+retagged from `business` to `systems` on arrival; content otherwise unchanged). Migrated
+pages keep their original frontmatter tag tracks (`type`, and the full
 priority/status/domain/source-role/use-case/subject tracks) — see `CLAUDE.md` and
-`HOW_TO_USE.md` for how the tagging system works. 4 more added July 8, 2026 from new
+`HOW_TO_USE.md` for the legacy/new metadata boundary. 4 more added July 8, 2026 from new
 sources dropped in `raw/` (process mining + VSM cluster) — the first pages ingested
-directly into this wiki rather than inherited from FORGE.
+directly into this wiki rather than inherited from FORGE. Five pages added July 18
+map and selectively ingest the 503-page *Process Mining Handbook*: eight complete
+chapters consolidated into four retrieval jobs plus a 17-chapter source router.
+
+## Source Coverage & Intake Governance
+
+- [[raw-source-coverage-and-intake-status]] — disposition ledger for every substantive file in `raw/`, including named coverage, cross-wiki ownership, exclusions, and activation triggers for the three parked sources
 
 ## Stocks, Flows & Causal Loop Diagrams
 
@@ -34,12 +47,17 @@ directly into this wiki rather than inherited from FORGE.
 - [[fundamental-modes-growth-goal-seeking-oscillation]] — the three fundamental modes and their generating structures
 - [[s-shaped-growth-overshoot-collapse-and-chaos]] — limits, overshoot/collapse, Easter Island, chaos
 - [[multiple-loop-systems-and-loop-dominance]] — why linear models can't produce S-shaped growth
+- [[epidemics-innovation-diffusion-and-product-growth]] — logistic/SIR/Bass structures, tipping points, herd immunity, abandonment, and replacement
+- [[path-dependence-positive-feedback-and-standards]] — early contingency, Polya process, lock-in, corporate growth loops, and standards strategy
 - [[descriptive-vs-prescriptive-models-and-conjecture-refutation]] — modeling philosophy
 
 ## Supply Chains, Business Cycles & Markets
 
 - [[stock-management-structure-and-amplification]] — the generic stock management structure, why supply chains amplify
 - [[manufacturing-supply-chain-model]] — full staged supply chain model, amplification and lag
+- [[supply-chain-inventory-placement-and-bullwhip-control]] — policies by inventory purpose, WIP waiting cause, spare-parts demand, and multiechelon bullwhip
+- [[supply-chain-risk-pooling-and-crisis-readiness]] — layered risk protection, variability pooling, contingency resources, and organizational crisis readiness
+- [[supply-chain-coordination-contracts-and-information]] — multiechelon incentives, risk-sharing contracts, information discipline, and structural redesign
 - [[labor-supply-chain-and-overtime-stabilization]] — hiring delays cause oscillation; overtime as a fix
 - [[business-cycle-origin-and-is-it-dead]] — the business cycle as damped oscillation
 - [[commodity-cycles-and-the-generic-market-model]] — why commodity markets don't self-correct
@@ -62,6 +80,21 @@ directly into this wiki rather than inherited from FORGE.
 - [[vut-equation-and-parallel-machines]] — Kingman's equation, variability pooling
 - [[blocking-and-finite-buffer-queues]] — the M/M/1/b model
 - [[variability-pooling-and-chapter-8-conclusions]] — pooling across batch/safety-stock/queue contexts
+- [[variability-buffering-batching-and-diagnostic-laws]] — Chapter 9's three-buffer law, process/transfer batching, lead-time reliability, and diagnostic sequence
+- [[buffer-strategy-flexibility-and-position]] — strategy-linked buffer mix, flexible buffers, bottleneck-adjacent positioning, and lean as minimum total buffering cost
+
+## Production Control, People & Quality
+
+- [[push-pull-conwip-and-postponement]] — WIP-cap definition of pull, CONWIP comparisons, and inventory/order-interface placement
+- [[human-laws-incentives-authority-and-change]] — self-interest, individuality, burnout, planning truth, and responsibility/authority alignment
+- [[quality-variability-spc-and-supplier-reliability]] — SPC and Six Sigma boundaries, rework flow effects, defect-detection delay, and supplier reliability
+
+## Planning, Control & Scheduling
+
+- [[hierarchical-pull-planning-and-shop-floor-control]] — closed-loop planning hierarchy, configurable CONWIP shop-floor control, and statistical throughput feedback
+- [[production-scheduling-and-aggregate-workforce-planning]] — feasible scheduling, pull execution, product-mix optimization, and robust workforce planning
+- [[capacity-strategy-line-design-and-unbalancing]] — strategic capacity buffer, dual throughput/cycle-time gate, customer-backward design, and deliberate line unbalancing
+- [[factory-physics-implementation-synthesis-and-team-focus]] — systems ends, Pareto team focus, model refutation, and the complete implementation parable
 
 ## Factory Physics — Manufacturing History & Methodology
 
@@ -99,6 +132,27 @@ directly into this wiki rather than inherited from FORGE.
 - [[modeling-process-and-client-ethics]] — managers as designers, the modeler's ethical line
 - [[time-horizon-and-endogenous-explanation]] — scoping a diagnosis correctly, model boundary
 
+## Model Testing, Decision Practice & Implementation
+
+- [[model-validation-and-testing-practice]] — fitness for purpose, documentation, replication, the complete model-test battery, and BUILD/PROVE/DEPLOY gate
+- [[operations-research-study-lifecycle]] — problem definition through maintained implementation, including user testing and continuing feedback
+
+## Dynamic Model Formulation & Human Decision Behavior
+
+- [[material-information-and-pipeline-delays]] — conserved vs. informational delays, pipeline/first/higher-order structures, estimation, and delay register
+- [[coflows-aging-chains-and-attribute-dynamics]] — cohorts, population inertia, mentoring, learning, and attributes embedded in stocks
+- [[modeling-decision-rules-and-rate-formulations]] — Baker Criterion, five formulation fundamentals, reusable rate patterns, and decision-rule interview
+- [[nonlinear-relationships-and-table-functions]] — nine-step lookup-function method, schedule pressure, evidence, elicitation, and sensitivity
+- [[bounded-rationality-intended-rationality-and-local-policy]] — heuristics, attention, satisficing, local rationality, and partial-model tests
+- [[forecasting-expectations-and-fudge-factors]] — TREND structure, turning-point error, anchoring, add factors, and forecast lineage
+
+## Human-Centered Design & Human Error
+
+- [[design-of-everyday-things-source-map]] — source summary, complete chapter-chunk coverage, and retrieval router for Norman's 2002 edition
+- [[human-centered-design-conceptual-models-and-action-cycle]] — affordances, system image, seven-stage action cycle, knowledge in the head/world, mappings and constraints
+- [[designing-for-human-error-and-recovery]] — slips vs. mistakes, error patterns, forcing functions, reversibility, and incident-audit questions
+- [[user-centered-system-design-principles-and-tradeoffs]] — the seven principles, feature/automation tradeoffs, standardization, and applied review sequence
+
 ## Process Mining & Value Stream Analysis
 
 - [[process-mining-manifesto-principles-and-challenges]] — the founding IEEE manifesto: discovery/conformance/enhancement, event-log maturity ladder, six principles, eleven challenges
@@ -107,6 +161,11 @@ directly into this wiki rather than inherited from FORGE.
 - [[value-stream-mapping-method-and-lean-guidelines]] — current/future-state mapping, map anatomy, the seven lean flow guidelines
 - [[apqc-process-classification-framework]] — the 13-category process taxonomy: inventory/benchmarking/content layer that precedes mapping and mining; audit completeness check
 - [[bpmn-2-0-specification]] — the OMG process-notation standard distilled: three sub-models, the working palette (typed tasks, event matrix, five gateways), token semantics and their traps, compensation model; the 80/20 audit subset named; PCF names → BPMN specifies → VSM measures
+- [[process-mining-handbook-source-map]] — complete 17-chapter disposition for the 503-page handbook; routes eight fully read chapters into four retrieval pages and classifies the remaining technical/domain chapters by activation trigger
+- [[process-mining-engagement-and-value-realization]] — four-angle scoping, three-stage event-log engineering, 13 implementation practices, and the transparency-to-action value loop
+- [[conformance-checking-and-kpi-driven-process-improvement]] — rules/replay/alignments, log-versus-model trust, deviation triage, multi-perspective enhancement, and KPI-gated model repair
+- [[responsible-process-mining-fact-gate]] — Fairness, Accuracy, Confidentiality, and Transparency review before event data, models, predictions, or actions are used consequentially
+- [[process-mining-audit-and-automation-opportunity]] — process mining across the audit cycle, evidence lineage, task-mining distinction, and frequency/determinism/safe-handoff gate for RPA candidates
 
 ## Inventory, MRP & Kanban
 
@@ -119,6 +178,7 @@ directly into this wiki rather than inherited from FORGE.
 - [[mrp-problems-nervousness-and-yield-losses]] — MRP's core problems
 - [[capacity-planning-and-shop-floor-control]] — RCCP, CRP, dispatching, I/O control
 - [[kanban-mechanics-and-pull-system-variants]] — two-card/one-card kanban, base stock equivalence
+- [[multi-item-inventory-policy-and-service-allocation]] — portfolio service allocation and why uniform days-of-supply policies waste inventory
 
 ## Linear Programming (Deterministic Operations Research)
 

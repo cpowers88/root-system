@@ -1,16 +1,30 @@
 ---
 type: guide
-tags: [reference, physics]
+timeline: reference
+tags: [physics]
 ---
 
 # HOW TO USE — 03-WIKIS\PHYSICS
 ### This vault answers: *what physics situation is this, what model applies, and what should I practice next?*
+
+## Hub Contract
+
+- **Hub type:** learning engine — staged path, mastery gates, proof before advance.
+- **Current truth:** `wiki\current-position.md`
+- **Loop & return:** runs the TEACH stage (and its own `raw\`→`wiki\` STRUCTURE intake) of the System Loop; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
 
 ## Question Owned
 The staged physics path (1–18) from situation → model → equation → problem type → drill, building PHYS 2211 readiness and long-term engineering competence.
 
 ## Start Here
 `wiki/current-position.md` for where Chris is right now; `wiki/learning-path.md` for the staged path.
+
+Use `wiki/math-readiness-path.md` for just-in-time algebra, trigonometry, and
+calculus refreshers tied to the live physical situation.
+
+Before August 24, coordinate the next proof with
+`01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md`; this hub's
+`wiki/current-position.md` remains learner-truth authority.
 
 ## Standard Work Loop
 ```text
@@ -34,7 +48,9 @@ After a session: log drills, add errors to `wiki/common-errors/`, update `curren
 Update current-position at stage boundaries, append `wiki/log.md`, state the next exact study action.
 
 ## Current State
-**Stage 3 — Vectors (Ch 3)** is the active unit; packet complete including the coordinate-systems gap fixed 2026-07-07. Stages 1–2 are assumed cleared from the July stage-packet build-ahead — confirm their mastery checklists before treating them as done if it's been a while since they were last drilled. Stages 4–5 pre-verified against source and ready when reached; stages 6–18 not yet re-verified (see `wiki/parking-lot.md`).
+The live stage, performance evidence, and next exact rep exist only in
+`wiki\current-position.md`; `wiki\learning-path.md` is the durable stage map. Do not
+copy rep-specific state into this guide.
 
 ## Common Commands / Prompts
 - "Stage-[N] session — pick up from current-position"
@@ -47,4 +63,4 @@ Update current-position at stage boundaries, append `wiki/log.md`, state the nex
 - *Aug 24 readiness*: "Which stages cover the first three weeks of PHYS 2211?" → focused frontier plan.
 
 ## Last Updated
-July 13, 2026 — local-root cutover: canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.
+July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.

@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [reference, governance, ai-automation]
+timeline: reference
+tags: [governance, ai-automation]
 ---
 
 # SYSTEM_LEARNINGS — Durable Evidence-Based Lessons

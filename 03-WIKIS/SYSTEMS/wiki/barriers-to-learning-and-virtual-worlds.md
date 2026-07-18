@@ -92,6 +92,9 @@ System dynamics is offered as a powerful but non-exclusive method — overcoming
 
 ## Connects to
 
+- [[bounded-rationality-intended-rationality-and-local-policy]] — extends the
+  learning barriers into organizational routines, attention allocation, satisficing,
+  intended rationality, and partial-model testing.
 - [[policy-resistance-and-feedback-thinking]] — the companion page covering 1.1-1.2 (policy resistance, feedback loop types, single/double-loop learning); this page covers *why* those feedback loops are so hard to learn from in practice.
 - understanding-resistance-faces-and-underlying-concerns and dealing-with-resistance-three-steps — Block's resistance-handling methodology is the direct practitioner answer to 1.3.8 (defensive routines and groupthink).
 - management-by-abdication and fatal-assumption-and-technician-takeover — the fundamental attribution error (1.3.5) is the formal cognitive-science name for the same person-vs-system diagnostic confusion the E-Myth material warns against.

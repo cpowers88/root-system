@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log]
+timeline: log
+tags: []
 ---
 
 # MONTHLY REVIEW — JUNE 2026

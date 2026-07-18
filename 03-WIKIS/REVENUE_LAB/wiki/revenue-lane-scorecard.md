@@ -11,7 +11,7 @@ tags: [now, business, revenue]
 
 | Rank | Lane | Score | One-line verdict |
 |---|---|---|---|
-| 1 | **A — Content channel, data-driven** | **14/25** | Wrong survival lane; a Track 2 compounding experiment with income timing/RPM still unverified |
+| 1 | **A — Content channel, data-driven** | **14/25** | Wrong survival lane; a technology-capability compounding experiment with income timing/RPM still unverified |
 | 2 | **B — Freelance estimating** (B2 direct-network variant) | **13/25** | Paid market verified; Chris's rates/timing unverified — but the first test costs one conversation he already owes |
 | 3 | D — Digital products | 13/25 | Distribution solved and cheap; demand unverified; sequence behind B (product spec) and A (traffic) |
 | 4 | C — Tutoring | 10/25 | Platform mechanics verified; semimonthly pay, appointment footprint collides with family/semester; fallback only |
@@ -33,7 +33,7 @@ not determine the recommendation.
    Zero new displacement; two purposes served.
 3. **A is the only lane that builds an owned compounding asset** — and its
    research phase (the data scan) is free, legal, needs no channel, no
-   account, no posting, and doubles as Track 2 Python/SQL/API reps.
+   account, no posting, and doubles as permanent-capability Python/SQL/API reps.
 4. **D and E resolve into sequencing decisions**, not open questions: D waits
    for B's product spec and A's traffic; E dissolves into A's production
    method.
@@ -90,7 +90,7 @@ must explicitly approve the external conversation/message before it occurs.
 |---|---|---|
 | No-orphan | PASS | The data project is direct Python/SQL/API practice and may compound into owned distribution. |
 | Source | PASS, limited | Platform/API mechanics are verified; channel income remains unproven. |
-| Phase | PASS | Research is a bounded Track 2 proof, not a channel launch. |
+| Phase | PASS | Research is a bounded technology-capability proof, not a channel launch. |
 | Displacement | PASS | It replaces only the existing SQL off-day segment. |
 | Proof | PASS | Produce a format-separated niche shortlist from public API data within two weeks of key approval. |
 

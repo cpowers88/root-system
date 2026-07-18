@@ -79,6 +79,7 @@ This page *is* the connection — every other page's "Human-Agent Management Con
 - **Replacing people anyway:** if a client insists on headcount cuts with no role redesign, knowledge walks out the door and the systems decay — see [[risks-and-failure-modes|Risks & Failure Modes]] and [[what-not-to-do|What NOT To Do]].
 
 ## Related Pages
+- [[enterprise-ai-opportunity-and-adoption|Enterprise AI Opportunity and Adoption]] — cross-industry evidence that deployment value requires workflow, ownership, data, and gates
 - [[human-agent-operating-model|Human-Agent Operating Model]] — the work-classification framework
 - [[agent-manager-job-design|Agent Manager Job Design]] — the new roles the thesis creates
 - [[human-role-redesign|Human Role Redesign]] — moving client staff into those roles

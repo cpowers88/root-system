@@ -212,3 +212,100 @@ tags: [log]
 - Still HOLD: public channel/account, publishing, monetization, affiliates, paid tools,
   and kids content. Next action: Claude Code executes the approved brief and returns
   validation evidence before any public call.
+
+## 2026-07-14 — Cross-topic scanner proof closed for the day (Codex)
+
+- Completed the scanner upgrade: append-only snapshots, offline exact-topic and
+  deduplicated cross-topic reports, separate June 2026 quota counters, and expanded
+  synthetic tests. The primary report is now the combined market; Claude Code is one
+  drilldown topic.
+- Completed 36/36 defined desk-based topic scans. Stored pool: 2,615 deduplicated raw
+  candidates; 2,113 after the reversible title-relevance gate removes 502 obvious
+  mismatches. Combined top 100 is 50 long-form/50 Shorts; rank 100 has 891,117 views.
+- Judgment preserved: strict title relevance is a first-pass candidate filter, not proof
+  that the full video is relevant, reproducible, profitable, or worth producing.
+- Next action: at the next Lane A review, human-classify the combined top 100 for actual
+  content substance and production fit. No more scanner work is needed today.
+
+## 2026-07-14 — Revenue Lab aligned to unified governance
+
+- Fixed school commitments and academic-integrity boundaries remain hard; the
+  October 5–November 11 high-load window now calls for one tradeoff warning and
+  reduced scope, not a model-enforced shutdown.
+- Evidence continues to govern AI-initiated build recommendations. Chris may
+  authorize a direct test after an explicit impact review, with the override and
+  outcome recorded.
+- Next action is unchanged: B2 external proof only with Chris approval; Lane A
+  resumes with human classification, not more scanning.
+
+## 2026-07-14 — Vendor RPM clipping classified without changing Lane A
+
+- Routed the OutlierKit “19 Most Profitable YouTube Niches 2026” clipping to
+  this hub's immutable `raw/` because it is relevant to the active scanner.
+- Classified it as Tier 3 market-claim input: undisclosed dashboard evidence
+  plus a direct product-sales conflict. It may suggest scanner categories but
+  does not verify RPM or alter the evidence-only scorecard.
+- Next: classify the scanner's combined top 100 from reproducible public API
+  output; do not substitute vendor niche rankings for that evidence.
+
+## 2026-07-14 — Continuity-income evidence return connected to current strategy
+
+- Updated the hub contracts so adjacent income tests may remain open without
+  redefining Chris's identity.
+- Results return through CASTLE to CURRENT_STRATEGY's continuity-income milestone;
+  only a verified material external platform/market change belongs on Watchtower.
+- Next remains human classification of the reproducible combined top 100; research
+  is not income proof.
+
+## 2026-07-14 — Live route and graph visibility verified
+
+- Corrected the HOW_TO routes to CURRENT_STRATEGY and this hub's index.
+- Added REVENUE_LAB to `COLOR_MAP.yaml` and regenerated the Obsidian graph through
+  the canonical graph-color build. The graph now includes the hub as a teal group,
+  with no unclassified top-level drift.
+
+## 2026-07-16 — No-label combined top-100 classification worksheet prepared
+
+- Loaded the Revenue Lab operating contract and used the scanner's canonical
+  `market-report` logic: views-ranked, all formats, strict relevance, 36/36 stored
+  topics, 2,113 deduplicated candidates before the top-100 cutoff.
+- Added the offline `market-worksheet` command to generate a reproducible Markdown
+  review artifact from the same deduplication and ranking functions. The command
+  does not load the API key or call the network.
+- Created `02-LIBRARY/.PROJECTS/YT_Outlier_Scanner/TOP_100_CLASSIFICATION_WORKSHEET.md`
+  with 100 mechanical-evidence rows, 100 source URLs, and 100 blank human-only
+  classification rows. No relevance, niche, content-pattern, real-use-fit, or
+  strategy labels were assigned by AI.
+- Validation: Python compile passed; scanner selftest now covers worksheet export;
+  row/blank/URL counts each reconcile to 100; leading rows match `market-report`.
+- Next action: Chris fills the Human Classification table using `Y`, `N`, or `?`
+  plus his own observed labels. After all rows are reviewed, AI may mechanically
+  produce the format-separated shortlist without inventing or completing labels.
+
+## 2026-07-16 — Top-100 AI recording-fit pre-screen added
+
+- Preserved the worksheet's 100 blank human-only rows and added a separate,
+  explicitly advisory AI screen based only on titles and search provenance.
+- Applied the low-load test Chris authorized: prefer original videos that can be
+  captured during `.ROOT`, school, business, or coding work already underway.
+- Result: 16 strong recording-fit rows, 38 quick-check rows, and 46 off-path or
+  production-heavy rows. All 100 IDs occur exactly once in the advisory screen.
+- Converted the strong patterns into seven original recording angles; the first is
+  a private capture of one real scanner feature from request through verification.
+- Boundary: one private proof, maximum 90 added minutes, then review usefulness,
+  privacy, and repeatability. No publishing, channel, or revenue claim is approved.
+- The complete human classification remains necessary before market-wide synthesis.
+
+## 2026-07-16 - Proof-led content strategic decision completed
+
+- Reconciled the scanner's market evidence, the official YouTube thresholds, the
+  Advisor-Builder strategy, school/family constraints, and the current Revenue Lab
+  scorecard in `[[proof-led-content-strategy-decision-2026-07-16]]`.
+- Verdict: conditional GO for one private scanner proof, not a channel launch and
+  not a survival-income forecast. B2/direct service remains the first-dollar track.
+- Planning load: 65-90 added minutes for the private proof. If later authorized,
+  a three-video/six-week public pilot is estimated at 1.1-1.5 added hours per week.
+- The production model is harvest-only: real required work first, then a sanitized
+  explanation. Generic news, broad roundups, full courses, and daily posting are out.
+- Continue only through measured gates for time, privacy, pathway displacement,
+  audience response, reuse, and qualified business signals.

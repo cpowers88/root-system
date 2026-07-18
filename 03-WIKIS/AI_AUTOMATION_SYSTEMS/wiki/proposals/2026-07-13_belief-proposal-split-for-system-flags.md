@@ -1,6 +1,6 @@
 ---
-type: report
-tags: [log, ai-automation, governance]
+type: proposal
+tags: [ai-automation, proposal, governance, reference]
 ---
 
 # Proposal: Separate "Belief" from "Behavior Change" in the Flag/Review Mechanism
@@ -72,6 +72,20 @@ lesson only after two unrelated flags/incidents establish the pattern. Each
 entry must cite its evidence, name a `check_at` date, and link any approved
 behavior-change proposal. No existing flag was retrofitted; the first entry
 waits for the next qualifying pattern.
+
+## Post-Change Check (added 2026-07-15, check_at discipline)
+
+- **Expected behavior:** the next genuinely repeated pattern is promoted to
+  `SYSTEM_LEARNINGS.md` with evidence, an owner, and a check date, while
+  one-time noise remains in its ordinary flag or log.
+- **Evidence:** the first qualifying learning entry, or the August review's
+  explicit finding that no pattern qualified; regression means premature
+  promotion, missing evidence, or an ownerless follow-up.
+- **check_at:** 2026-08-24 (enough real-use and review cycles for the pilot to
+  receive a fair trigger)
+- **Outcome:** (blank until the check date — record what actually happened,
+  with an evidence link)
+- **Verdict:** (keep / modify / revert — blank until the check date)
 
 ## Source Basis
 

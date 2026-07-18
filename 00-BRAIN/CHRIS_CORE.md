@@ -1,13 +1,14 @@
 ---
 type: person
-tags: [reference]
+timeline: reference
+tags: []
 ---
 
 # CHRIS_CORE.md — Chris Powers Operating Profile
 ### The person file. Who Chris is, how he works, what he needs from any AI.
 ### Load second in every session (after AGENT.md). Full profile: CHRIS.md.
-### Engine behavior lives in the lane files (CLAUDE.md / CODEX.md / ATLAS.md); optional modes in HATS\. Not here.
-### Last updated: July 11, 2026
+### Shared behavior lives in AGENT.md; surface strengths live in capability profiles; optional modes live in HATS\. Not here.
+### Last updated: July 17, 2026
 
 ---
 
@@ -23,14 +24,13 @@ physical anchors, and tight learning-session focus.
 
 ## Mission Context
 
-Full plan: NORTH_STAR.md (canonical — don't paraphrase from memory;
-updated July 11, 2026). Top 1% AI, Technology & Business integrator
-and application developer. $500K–$1M by October 8, 2031 is the FLOOR
-(quarterly ratchet). Team: Chris + AI, maximally leveraged. First
-client March 2027. Entry wedges: real estate via Heather's warm network
-first, construction credibility in parallel; actual market: any business
-with operational waste. Three tracks in order: School → Tech →
-Solo Business Build.
+Durable direction: `01-NORTH_STAR\NORTH_STAR.md` (canonical; read it rather than
+paraphrasing this profile). Chris is becoming an elite AI, technology, business,
+and systems integrator—an Advisor-Builder—without making one market, offer, or
+revenue model his identity. Fixed commitments include the KSU BS in Industrial &
+Systems Engineering and a $500K–$1M annual floor by October 8, 2031. The current
+business vehicle, wedges, offer, assumptions, and milestones live only in
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` and are evidence-replaceable.
 
 ---
 
@@ -48,9 +48,16 @@ Large household — father of 9, including Ben (age 1). Wife Heather is
 a full-time realtor carrying the household. Limited uninterrupted work
 windows. **The system must reduce friction, not add ceremony.**
 
-Summer 2026: KSU Academic Tracker build is the active project
-(priority confirmed July 4); POL resumes as sessions allow; CS50P
-continues.
+Before school and tech, Chris spent years running carpentry crews on
+residential and commercial builds, including full-lifecycle multi-unit
+brownstone condo conversions — reading plans, sitting in meetings with
+architects/engineers/ownership, and catching what the plans got wrong. He is
+in recovery from drug addiction he worked through during much of that time.
+Full detail: **CHRIS.md → Professional Background — Construction.**
+
+Summer 2026: the KSU Academic Tracker V1 is shipped and waits for verified D2L/
+syllabus data around July 25. Live learning is PHYSICS Stage 3 and PYTHON Stage 2;
+the pre-semester plan owns sequencing. POL is not an active governing build.
 
 ---
 
@@ -78,10 +85,11 @@ numbered steps, a commented skeleton, one next action, clear
 constraints. Blank page = friction. Skeleton = movement.
 (Sequential reasoning: needs the frame provided.)
 
-**2. Idea generation is highest-tier — and a scope-creep engine.**
-Chris generates ideas faster than anyone can execute them. This is
-an asset that must be parked, not shamed, during focused work.
-Drift control is split by role — see AGENT.md.
+**2. Idea generation is highest-tier.** Chris generates ideas faster than
+most systems can execute them. AI manages its own response through DIVERGE and
+CONVERGE modes: explore when exploration is the task; preserve a useful side
+thread without replacing the requested deliverable during convergence. Chris
+may redirect at any time. This is coordination, not control over Chris.
 
 **3. Memory needs precision.** Associative memory is the one low
 aptitude: ambiguous recall, not intelligence. Every term needs one
@@ -107,10 +115,12 @@ when a milestone approaches.
 - The user profile is being updated
 - System behavior is being redesigned
 - Personal constraints are central to the answer
-- Strategic planning needs the full aptitude profile (YouScience)
+- Strategic planning needs the full aptitude profile (YouScience) — load
+  `CHRIS.md`; the source PDFs are provenance, not routine boot files
+- Business targeting, offers, or client fit touch construction, real estate,
+  renovation, trades, or brownstone/multi-unit work — load `CHRIS.md` for
+  Chris's construction background and Heather's real estate network
 
 ---
-*Person file only. OS: AGENT.md. Lanes: CLAUDE.md / CODEX.md / ATLAS.md. Optional modes: HATS\.*
-*Last updated: July 11, 2026*
-
-
+*Person file only. OS: AGENT.md. Profiles: CLAUDE.md / CODEX.md / ATLAS.md. Optional modes: HATS\.*
+*Last updated: July 17, 2026*

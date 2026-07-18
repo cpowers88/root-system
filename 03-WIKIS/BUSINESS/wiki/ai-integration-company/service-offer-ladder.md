@@ -26,7 +26,10 @@ The front door. 1–2 weeks. Process mapping, waste quantification, prioritized 
 - **Client risk:** trivial. **Your goal:** demonstrate diagnostic skill and produce a roadmap they want executed.
 - Deliverable doubles as the proposal for Rung 2.
 
-> **Engagement #1 is narrower than this rung.** Per NORTH_STAR.md, the literal first client engagement is an **observation session and a written report — nothing else. No software, no retainer pitch, no bundled Rung-2 proposal, no ongoing commitment.** The retainer/next-project conversation happens after the report earns it on its own, in a separate follow-up — not inside the first deliverable. Rung 1 as described above (roadmap + ROI + doubling as a Rung-2 proposal) is what the audit product grows into once credibility and repeat delivery exist, not what engagement #1 needs to be.
+> **The current first-offer hypothesis is narrower than this rung.** Per
+> `CURRENT_STRATEGY.md`, begin with an observation session and concise written audit;
+> the report must earn any implementation or retainer conversation. This ladder is
+> an option set for later evidence, not permission to bundle unproven scope.
 
 ### Rung 2 — Quick-Win Implementation ($3,000–$10,000, 2–4 weeks)
 The top 1–3 items from the audit roadmap — highest ROI, lowest complexity. Usually [[workflow-automation-pathway|workflow automation]] or [[crm-and-sales-ops-pathway|CRM fixes]]. Where processes are too messy to automate directly, this rung is **workflow redesign + SOP buildout** — converting undocumented human work into step-based, documented workflows. That's a legitimate paid deliverable in its own right, and it's the foundation every later automation stands on.

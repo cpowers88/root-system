@@ -36,8 +36,8 @@ tags: [now, business, revenue]
 
 Lane A note — the synergy that makes it special: the "systematic virality
 analysis" is itself a real Python + SQL + API data project. Even if the channel
-verdict is "not yet," the research doubles as Track 2 skill reps (the no-orphan
-test passes twice). The YouTube Data API is free at research scale.
+verdict is "not yet," the research doubles as permanent-capability Python/SQL/API
+reps (the no-orphan test passes twice). The YouTube Data API is free at research scale.
 
 ## Evidence Bar (per lane, before scoring)
 

@@ -1,12 +1,13 @@
 ---
 type: hat
-tags: [reference, governance, school]
+timeline: reference
+tags: [governance, school]
 ---
 
 # HAT_ENGR1000.md — Engineering Intro Subject Hat
 ### Subject: ENGR 1000 — Introduction to Engineering (online async)
-### Load order: AGENT.md → lane file → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → latest ENGR handoff.
-### Last updated: July 10, 2026 — lane-split rewrite: calendar-protection course; EDUCATION wiki holds the course brief.
+### Load order: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → latest ENGR handoff.
+### Last updated: July 14, 2026 — unified-team terminology; EDUCATION holds the course brief.
 
 ---
 

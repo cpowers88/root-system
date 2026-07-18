@@ -5,6 +5,16 @@ tags: [later, programming]
 
 # Flashcard Batch: Stage 5 — Data Shapes
 
+## Card: Array terminology bridge
+
+**Front:** In this beginner Python path, what should I usually use when course material says "array"?
+
+**Back:** A Python list, unless the material explicitly introduces a specialized array library such as NumPy.
+
+**Tags:** python, stage-05, arrays, decision-rule
+
+---
+
 ## Card: Index
 
 **Front:** What index does the first item in a sequence have?

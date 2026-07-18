@@ -1,6 +1,9 @@
 ---
 type: stage
+timeline: reference
+stage: 2
 status: draft
+tags: [physics, math]
 ---
 
 # Stage 2 — Motion in One Dimension (Ch 2)
@@ -11,11 +14,15 @@ Describe straight-line motion precisely using position, velocity, and accelerati
 
 ## Syllabus Alignment
 
-Ch 02, lectures W/F Aug 26, 2026.
+Ch 02 is the next listed topic after Ch 01. The printed `W/F Aug 26, 2026`
+entry is internally inconsistent because August 26, 2026 is a Wednesday; use the
+live D2L calendar before treating the Friday date as settled.
 
 ## Textbook Alignment
 
-Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., Chapter 2 (pp. 21–55), sections 2.1–2.8.
+Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., Chapter 2
+(pp. 21–45), sections 2.1–2.9. Section 2.9 derives the kinematic equations from
+calculus and is part of the chapter, not an optional appendix.
 
 ## Prerequisite Physics
 

@@ -1,6 +1,8 @@
 ---
 type: map
-tags: [reference, business, apqc, client]
+timeline: reference
+reference_priority: core
+tags: [business, apqc, client]
 ---
 
 # Capability Library Index
@@ -9,8 +11,8 @@ tags: [reference, business, apqc, client]
 
 | Asset | Primary APQC Process | Type | Maturity | Business Use Case | Source | Next Action |
 |---|---|---|---|---|---|---|
-| `APQC_ASSET_TEMPLATE.md` | N/A | template | ready | Standardize reusable client-facing assets | July 11 North Star / Gemini merge | Copy for first real asset |
-| `APQC_13_1_WORKFLOW_OBSERVATION_MAP.md` | 13.1 Manage Business Processes | SOP | draft | First on-site diagnostic to find where a business loses time/money, before any tool recommendation | `05-BUSINESS\01-Audit Templates\OBSERVATION_METHODOLOGY.md` (v1, July 5) | Run Practice Rep 1 (before Aug 24); bump to "tested internally" |
+| `APQC_ASSET_TEMPLATE.md` | N/A | template | ready | Standardize reusable client-facing assets | July 11 North Star / Gemini merge | Copy only for the next approved reusable asset |
+| `APQC_13_1_WORKFLOW_OBSERVATION_MAP.md` | 13.1 Manage Business Processes | SOP | draft | First on-site diagnostic to find where a business loses time/money, before any tool recommendation | `05-BUSINESS\01-Audit Templates\OBSERVATION_METHODOLOGY.md` (v1, July 5) | Desk simulation accepted July 14; run first live validation rep before Aug 24, then reassess maturity |
 
 ## Maturity Definitions
 

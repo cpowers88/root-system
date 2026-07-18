@@ -1,27 +1,29 @@
 ---
 type: map
-tags: [north-star, roadmap, reference]
+timeline: reference
+reference_priority: core
+tags: [north-star, roadmap]
 ---
 
 # North Star Roadmap — The Master Pathway
-### Controlling source: `.ROOT\01-NORTH_STAR\NORTH_STAR.md` | Updated: July 11, 2026
+### Direction: `.ROOT\01-NORTH_STAR\NORTH_STAR.md` | Vehicle/milestones: `Goals & Milestones\CURRENT_STRATEGY.md` | Updated: July 17, 2026
 
 ## The Destination
 
-**October 8, 2031** — Chris's 50th birthday. A fully operational AI-first integration
-and application company: $500K–$1M annual revenue as the FLOOR (quarterly ratchet —
-NORTH_STAR.md → The Ratchet), retainer clients across industries, all four digital-asset
-classes producing (retainer systems, APQC-indexed templates/playbooks, standalone
-software, content/audience). Team: **Chris + AI, maximally leveraged** — human hires
-only when truly irreplaceable. First client: **March 2027**.
+**October 8, 2031** — Chris's 50th birthday. Complete the KSU BS in Industrial &
+Systems Engineering and reach a $500K–$1M annual floor through compounding capability,
+useful systems, and proven value. Chris remains the accountable human; AI supplies
+leverage. The destination is fixed. The Advisor-Builder company is the leading
+vehicle being tested, not an identity lock.
 
-The engine: walk into a business → observe the real work → map it → find the waste →
+The current vehicle: walk into a business → observe the real work → map it → find the waste →
 redesign around the human+AI operating model → recommend or build technology → integrate
 → train → **maintain on retainer** → **harvest the asset**.
-The audit is the first product. The retainer is the profit. The assets are the scale.
-The Engine Question keeps the whole thing pointed at the most profitable true north.
+The observation-based audit is the first offer being tested. Retained improvement
+work is the leading revenue-engine hypothesis. Assets are the compounding path. Full
+assumptions, proof milestones, and replacement rules live in CURRENT_STRATEGY.md.
 
-## Digital Asset Classes (confirmed by Chris, July 6, 2026)
+## Current Compounding Asset Paths
 
 All four classes are in scope — plus any new class that passes [[adding-a-profit-skill]]:
 
@@ -32,21 +34,28 @@ All four classes are in scope — plus any new class that passes [[adding-a-prof
 | Standalone software / tools | Small owned tools or SaaS-style products | 8+ (only after client work proves demand) |
 | Content & audience | Newsletter/video/courses feeding leads to everything else | 8+ (case studies come first) |
 
-Sequencing rule: retainer systems fund and validate everything else. No asset class
-jumps its phase without a validated demand signal — "do not productize until
-validated" (NORTH_STAR.md).
+Sequencing rule: real use validates productization. The current strategy prioritizes
+retainer systems, but measured evidence may reorder the paths through the Ratchet.
 
-## The Three Tracks (fixed priority — from NORTH_STAR.md)
+The July 14 continuity-income response is a bounded evidence exception, not a phase
+override. Revenue Lab may research and privately test a lane because keeping Chris
+enrolled serves the school spine. Lane A does not activate a public content/audience
+asset: no channel, publishing, monetization, affiliate, or paid-tool action is
+authorized without a later gate and Chris's explicit approval.
+
+## The Three Coordinated Tracks
 
 1. **School (the spine)** — BS Industrial & Systems Engineering, KSU. Aug 24, 2026 →
    Dec 2029. Non-negotiable. Every ISYE course becomes a sellable service.
-2. **Tech (the fuel)** — Python → SQL → REST APIs → Make.com → Git depth → Looker
-   Studio → Flask → Airtable → n8n → Retool → LLM/AI APIs → industry platforms.
-   No orphan skills: every skill serves school, a service, or a live project.
-3. **Solo business (the engine)** — audit → implement → maintain → productize.
+2. **Technology (the fuel)** — build software/data, AI leverage, automation, and
+   technology judgment through the smallest real proof at the live weak link. The
+   Technology Strategy maps possibilities; it is not a permanently locked tool order.
+3. **Business and value creation (the engine)** — test valuable problems and turn
+   proven work into income and reusable assets.
 
-(The former Track 4 — Heather/Joint Venture product lane — remains retired.
-Heather's real-estate network is now an access wedge for Track 3, not a separate track.)
+(The former Heather/Joint Venture product lane remains retired. Heather's real-estate
+network is an access wedge for the current Advisor-Builder strategy, not a permanent
+lane or identity.)
 
 ## The Pathway at a Glance
 
@@ -64,15 +73,28 @@ Full detail per phase: [[phase-map]] → `phases/` pages.
 
 ## What Matters RIGHT NOW (July 2026)
 
-1. **[[ksu-academic-tracker]]** — the active proof project (~July 25 deadline).
-   It IS the SQL practice — the #1 skill gap per [[current-position]].
-2. **CS50P** — Python depth, PS2 onward.
-3. **Physics + TCOM prep** — show up loaded on August 24.
-4. One 30-min technology-landscape rep weekly (first: Make.com, Looker Studio).
-5. One practice Value Stream Map on a real process before the semester.
-6. Quietly collect real-estate workflow observations through Heather's warm network when available; no outreach campaign before the First Contact phase.
+1. **Physics + Python preparation** — protect August 24 school readiness. Physics
+   Stage 4 (Motion in Two Dimensions) is active (Stage 3 closed 7/16); Python
+   Stage 3 (Loops) is mid-drill (Stage 2 closed 7/16). The daily school-proof
+   block runs first, every day, sprint or not.
+2. **MCP Bootcamp, July 18–25** — eight-lens Advisor-Builder sprint over the real
+   `observation_one.md` case; MCP is the ≤3 hr capstone, not the subject. Live
+   plan and binding rules: `.ROOT\NOW.md` → the July 17 review packet. July 26 is
+   the hard D2L transition, no carryover.
+3. **[[ksu-academic-tracker]]** — V1 is shipped. Enter real D2L/syllabus data around
+   July 25 and use it daily; keep SQL practice focused rather than expanding scope.
+4. **Financial continuity evidence** — maintain Lane A's private scanner proof and
+   human-classify its combined top 100 when scheduled. Run B2's one external proof
+   conversation only after Chris explicitly approves it.
+5. One 30-min technology-landscape rep weekly; approved Revenue Lab technical proof
+   may replace this block rather than add another one.
+6. One live workflow observation, then convert that evidence into the first practice
+   Value Stream Map before the semester.
+7. Quietly collect real-estate workflow observations through Heather's warm network
+   when available; no outreach campaign before the First Contact phase.
 
-**Danger weeks: Oct 5 – Nov 11, 2026 — school only. The castle goes quiet.**
+**High-load school window: Oct 5 – Nov 11, 2026. Protect fixed commitments;
+AI warns once before optional expansion, then follows Chris's direction.**
 
 ## The Question Every Page Must Answer
 
@@ -83,12 +105,17 @@ Full detail per phase: [[phase-map]] → `phases/` pages.
 
 - [[adding-a-profit-skill]] gates every new shiny opportunity
 - [[source-map]] gates every claim — Tier 4 sources never steer
-- NORTH_STAR.md "Known Risks": scope creep, planning-as-avoidance, time compression,
-  market narrowing, wiki-as-time-sink. If castle maintenance exceeds skill-building
-  or audit reps in any week: rebalance immediately.
+- NORTH_STAR.md guardrails: fact over theory, validate before productizing, planning
+  cannot replace proof, and time is the constraint. If castle maintenance exceeds
+  learning, delivery, or evidence-producing reps: rebalance immediately.
 
 ## Related Systems (referenced, never duplicated)
 - `.ROOT\00-BRAIN\` — how AI sessions behave
-- `03-WIKIS\BUSINESS\` — business model, pricing, offer ladder, delivery templates, plus the deep lean/consulting/negotiation knowledge base (~230 pages, inherited from FORGE's July 7, 2026 retirement)
+- `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` — active vehicle,
+  assumptions, milestones, and evidence rules
+- `...projectSuccess\` — material external signals; eyes, not hands
+- `03-WIKIS\BUSINESS\` — business research, pricing, offer options, delivery
+  templates, and the deep lean/consulting/negotiation knowledge base; its index owns
+  the live inventory
 - `03-WIKIS\SYSTEMS\` — factory physics, queuing, system dynamics (also inherited from FORGE)
-- `03-WIKIS\PYTHON\` / `03-WIKIS\PHYSICS\` — Track 1 course execution
+- `03-WIKIS\PYTHON\` / `03-WIKIS\PHYSICS\` — staged school-readiness execution

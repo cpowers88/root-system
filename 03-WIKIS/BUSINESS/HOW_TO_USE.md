@@ -1,16 +1,26 @@
 ---
 type: guide
-tags: [reference, business]
+timeline: reference
+tags: [business]
 ---
 
 # HOW TO USE — 03-WIKIS\BUSINESS
 ### This wiki answers: *what do I sell, to whom, for how much, and how do I deliver it?*
 
+## Hub Contract
+
+- **Hub type:** application-decision engine — strategy, offers, and blank masters that end in bounded real-world action.
+- **Current truth:** `wiki\ai-integration-company\index.md` (active-vehicle truth lives in `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`).
+- **Loop & return:** runs the BUILD and PROVE stages of the System Loop through bounded tests; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+
 ## Question Owned
 Turn the business plan into client-ready moves: offers, pricing, scripts, audit method, and delivery templates — without endlessly re-planning the business.
 
 ## Start Here
-**Canonical current-frontier entry: `wiki/ai-integration-company/index.md`.** `start-here.md` exists but is timeline-gated — it activates once Track 3's First Contact phase opens (~Sep 2026, per `NORTH_STAR.md`'s Business Arc); until then, `index.md` is the real entry point.
+**Canonical research/frontier entry: `wiki/ai-integration-company/index.md`.** Load
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` first when the question is
+about the active vehicle, offer, market wedge, or milestone. This wiki supplies the
+deeper method and evidence; it does not own the strategic commitment.
 
 ## Standard Work Loop
 ```text
@@ -22,10 +32,27 @@ Phase progression is tag-filtered: `tag:#phase-1` foundation → `tag:#phase-2` 
 A template gets used with a real prospect/client, not just read. Every page has a **Practical Actions** and **Revenue Connection** section — proof is the artifact that came out of using them, not the plan itself.
 
 ## Outputs and Where They Go
-Ask: "Instantiate [template] for [prospect]" → the filled output goes to `.ROOT\05-BUSINESS` (proposals, pricing worksheets, case studies), never staying here. New blank templates get built here only when a phase page calls for them. This wiki keeps the blank master; `05-BUSINESS` keeps the used copy.
+Ask: "Instantiate [template] for [prospect]" → the filled output goes to the
+authorized client workspace outside `.ROOT`, never staying in the wiki. New
+blank templates get built here only when a phase page calls for them. This wiki
+keeps the blank master; `05-BUSINESS` may keep only sanitized reusable learning,
+approved case studies, and non-sensitive metadata.
 
 ## Boundaries
-This wiki designs the business — it does not track projects (CASTLE), store client files (`05-BUSINESS`), or teach skills (`03-WIKIS\PYTHON`). New pathway ideas pass the castle's `adding-a-profit-skill` gate first. Re-reading plans is not progress; the plans exist so you can stop planning.
+This wiki designs the business — it does not track projects (CASTLE), store
+active client files (separate authorized client workspace outside `.ROOT`), or
+teach skills (`03-WIKIS\PYTHON`). New pathway ideas pass
+`00-BRAIN\CASTLE\wiki\decision-rules\adding-a-profit-skill.md` first. Re-reading plans is not progress; the plans
+exist so you can stop planning.
+
+Active client-specific/private work stays in a separate client workspace or
+repository outside `.ROOT`; only sanitized reusable learning returns here.
+
+A verified market or competitor change promotes to `...projectSuccess\radar.md`
+only when the evidence stays here, it materially affects an active strategy
+assumption/offer/market choice, and a review trigger is named. Field feedback from
+our own test goes directly to the relevant strategy assumption and CASTLE proof; it
+is an outcome, not an external signal.
 
 ## How the Hub Learns From Use
 Update pages when reality disagrees with them — a real call, a real price objection, a real delivery. Keep the phase tag as the FIRST tag; if a page's timing changes, move its tag (`CLAUDE.md § Phase Tags`).
@@ -34,7 +61,10 @@ Update pages when reality disagrees with them — a real call, a real price obje
 Log the field result (call, objection, delivery outcome) against the page it corrects. Move phase tags when timing genuinely changed. Note which phase-2 pages remain unexecuted.
 
 ## Current State
-Pre-First-Contact. Track 1 (school) and Track 2 (Python/SQL, tracker) are the correct daily work; the two cheap, reversible decisions on `start-here.md` (vertical pick, entity groundwork) are worth making now, but outreach/pipeline steps hold until the gate opens (~Sep 2026).
+Live method and offer inventory exists only in
+`wiki\ai-integration-company\index.md`; the active vehicle and milestones live in
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`; immediate sequencing lives
+in `NOW.md` and CASTLE. Do not copy phase or frontier status into this guide.
 
 ## Common Commands / Prompts
 - "Draft outreach for [niche] using the outreach script + market-map"
@@ -43,8 +73,8 @@ Pre-First-Contact. Track 1 (school) and Track 2 (Python/SQL, tracker) are the co
 - "Which phase-2 pages have I never executed?"
 
 ## Examples
-- *First outreach week*: market-map → pick niche → outreach-scripts instantiated → track in `05-BUSINESS`.
-- *Post-audit*: audit-report-template filled → case-study-template started → retainer-model consulted for the upsell.
+- *First outreach week*: market-map → pick niche → outreach-scripts instantiated → track active prospect details in the separate client workspace.
+- *Post-audit*: audit-report-template filled in the client workspace → approved sanitized case-study version harvested to `05-BUSINESS` → retainer-model consulted for the upsell.
 
 ## Last Updated
-July 13, 2026 — local-root cutover: canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only. Color language: `C:\Users\chris\.ROOT\START_HERE.md`.
+July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.

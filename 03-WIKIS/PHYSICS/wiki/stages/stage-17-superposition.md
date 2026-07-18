@@ -1,6 +1,9 @@
 ---
 type: stage
+timeline: later
+stage: 17
 status: draft
+tags: [physics, math]
 ---
 
 # Stage 17 — Superposition and Standing Waves
@@ -14,7 +17,7 @@ Understand how two waves combine algebraically, produce constructive and destruc
 ## Syllabus Alignment
 
 - Topic: Superposition and Standing Waves
-- Chapter: Serway & Jewett, 10th ed., Ch 17, sections 17.1–17.6
+- Chapter: Serway & Jewett, 10th ed., Ch 17, sections 17.1–17.7
 - Lectures: correspond to the "Waves" topic block (follow Stage 16)
 - Exam relevance: standing wave harmonics and beats are standard multiple-choice and free-response problems
 
@@ -24,13 +27,14 @@ Understand how two waves combine algebraically, produce constructive and destruc
 
 | Section | Topic |
 |---------|-------|
-| 17.1 | Superposition and interference of sinusoidal waves |
+| 17.1 | Waves in interference |
 | 17.2 | Standing waves |
-| 17.3 | Standing waves in a string fixed at both ends |
-| 17.4 | Resonance |
-| 17.5 | Standing sound waves and normal modes of air columns |
-| 17.6 | Beats: interference in time |
-| 17.7 | (Park — nonsinusoidal wave patterns, Fourier series) |
+| 17.3 | Boundary effects: reflection and transmission |
+| 17.4 | Waves under boundary conditions |
+| 17.5 | Resonance |
+| 17.6 | Standing waves in air columns |
+| 17.7 | Beats: interference in time |
+| 17.8 | Parked: nonsinusoidal waveforms and Fourier series |
 
 ---
 
@@ -378,7 +382,7 @@ Before moving on, Chris must be able to:
 
 | Topic | Source | Why Parked | Unlock Condition |
 |-------|--------|-----------|------------------|
-| Fourier series | Serway §17.7 | Requires integration — beyond PHYS 2211 scope | After multivariable calculus |
+| Fourier series and nonsinusoidal waveforms | Serway §17.8 | Requires integration beyond the packet's assessed core | After the course scope is confirmed or during later mathematics |
 | Normal mode analysis for 2D systems | Advanced mechanics | Requires linear algebra | After linear algebra |
 | Resonance with damping (driven oscillator) | Serway Ch 15 extension | Requires differential equations | After ODEs course |
 | Chladni patterns (2D standing waves) | Demonstration physics | Conceptually interesting but not examined | Any time for fun |

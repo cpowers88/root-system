@@ -41,6 +41,7 @@ Stage 4 — functions, parameters, return values, scope.
 - [[glossary/tuple]]
 - [[glossary/set]]
 - [[glossary/nested-structure]]
+- [[glossary/array]] — course terminology bridge; Python lists are the beginner structure here
 
 Full flashcard batch: [[flashcards/stage-05-data-shapes]]
 
@@ -79,6 +80,8 @@ Full flashcard batch: [[flashcards/stage-05-data-shapes]]
 - [ ] Given a new plain-English data scenario, correctly choose list vs. dictionary vs. tuple, and explain why.
 - [ ] Write a list-indexing/slicing example and a dictionary-lookup example from memory, without notes.
 - [ ] Explain aliasing and why `list_b = list_a` doesn't copy a list.
+- [ ] Explain why a Python `list` is not the same object as a NumPy array, and why
+  this course path uses lists before any array library.
 - [ ] Debug at least one of the four error types in [[errors/stage-05-common-errors]] without help.
 - [ ] Complete [[drills/stage-05-data-structure-practice]].
 - [ ] Complete [[mini-projects/stage-05-caesar-cipher]] and explain the solution out loud.
@@ -94,3 +97,4 @@ Can choose the correct data structure (list, dictionary, or tuple) for a new pro
 - List comprehensions — Stage 10.
 - `Counter`, `defaultdict`, and other specialized collection types — Stage 10, parked per `wiki/parking-lot.md`.
 - Searching/sorting algorithms on these structures — Stage 8.
+- NumPy arrays — parked until lists, loops, functions, and numeric work are solid.

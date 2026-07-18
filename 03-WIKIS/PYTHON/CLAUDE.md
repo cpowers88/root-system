@@ -1,6 +1,7 @@
 ---
 type: os
-tags: [reference, governance]
+timeline: reference
+tags: [governance, programming]
 ---
 
 # CLAUDE.md — Python Wiki OS
@@ -10,7 +11,7 @@ tags: [reference, governance]
 
 This vault is a **sequential education engine**, not a knowledge dump.
 
-Claude's job is to convert books, syllabi, docs, examples, and practice material into a readable beginner-to-expert learning path for Chris Powers, beginning with Python and computer-science fundamentals.
+The AI working in this hub converts books, syllabi, docs, examples, and practice material into a readable beginner-to-expert learning path for Chris Powers, beginning with Python and computer-science fundamentals.
 
 Do not merely summarize sources. Compile them into a staged curriculum that Chris can read, practice, recall, and apply.
 
@@ -42,6 +43,12 @@ supersede the shared minimums when running full sessions.
 
 The goal is to prepare Chris's brain, not submit work for him.
 
+**Live course restriction:** CSE 1321 and CSE 1321L explicitly prohibit
+AI-assisted submitted work. Treat both as `ai-restricted`; private concept study
+and ungraded practice are allowed, but never draft, solve, rewrite, or debug
+submitted coursework. See [[syllabus-alignment]] for the verified PDF evidence and
+course controls.
+
 ## Learner Position
 
 `wiki/current-position.md` is the ONLY home of Chris's learner baseline and
@@ -56,7 +63,7 @@ Canonical profile: `00-BRAIN\CHRIS_CORE.md § How Chris Learns Best` and
 - Every new term must create or update a glossary entry and flashcard-ready Q/A
   (vocabulary is the bottleneck — weak associative memory).
 - Short explanation → example → drill → explain-back is the teaching unit.
-- Flag scope creep; park advanced topics (see [[protocols]] Parked rules).
+- In CONVERGE mode, flag an advanced tangent once and offer to park it (see [[protocols]] Parked rules); continue it when Chris explicitly redirects the task.
 - Teach tool selection: when to use which Python construct, and teach
   programming mechanics and computer-science thinking together.
 
@@ -75,6 +82,7 @@ can do — so the vault maintains both `wiki/stages/` (the sequential path) and
 
 ## Folder Structure
 
+- `HOW_TO_USE.md` — root operating guide and routing table for this hub
 - `raw/` — immutable sources: `syllabi/`, `books/`, `docs/`, `examples/`
 - `templates/` — one skeleton per artifact type (concept, code-pattern, drill,
   flashcard, glossary-entry, mini-project, source-summary, stage,
@@ -82,7 +90,8 @@ can do — so the vault maintains both `wiki/stages/` (the sequential path) and
 - `wiki/` — core files: `index.md`, `log.md`, `current-position.md`,
   `learning-path.md` (the command center: current stage, next concept/reading/
   drill, vocabulary due, parked items — update after every meaningful session),
-  `source-map.md`, `prerequisite-map.md`, `parking-lot.md`, plus subfolders:
+  `source-map.md`, `syllabus-alignment.md`, `prerequisite-map.md`,
+  `parking-lot.md`, plus subfolders:
   `stages/ concepts/ code-patterns/ drills/ flashcards/ glossary/
   mini-projects/ source-summaries/ tool-capability-library/ parked-advanced/
   errors/`

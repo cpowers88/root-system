@@ -1,6 +1,9 @@
 ---
 type: map
-tags: [now, physics, school]
+timeline: now
+status: active
+reference_priority: core
+tags: [physics, school]
 ---
 
 # Physics Education Wiki Index
@@ -24,10 +27,12 @@ PHYS 2211 — Principles of Physics I, Kennesaw State University, Fall 2026.
 
 - [[learning-path]] — staged study route
 - [[source-map]] — source roles and alignment
+- [[syllabus-coverage-ledger]] — all 19 syllabus pages routed to stages or governance
 - [[current-position]] — Chris baseline and active stage
 - [[concept-map]] — concept dependency map
 - [[equation-map]] — equations, variables, units, assumptions
 - [[calculus-map]] — calculus connections inside physics
+- [[math-readiness-path]] — just-in-time algebra, trig, and calculus refresh route
 - [[problem-type-map]] — problem recognition and solving patterns
 - [[units-and-dimensions]] — units, conversions, dimensional analysis
 - [[parking-lot]] — useful but parked material
@@ -35,9 +40,22 @@ PHYS 2211 — Principles of Physics I, Kennesaw State University, Fall 2026.
 
 ## Active Stage
 
-**Stage 3 — Vectors (Ch 3).** See [[stages/stage-3-vectors]]. (All 18 stage packets exist in draft from the July cruise-prep build; Stage 3 is Chris's current working focus as of 2026-07-07.)
+**Stage 4 — Motion in Two Dimensions (Ch 4).** Stage 3 (Vectors) closed
+2026-07-16 — full mastery checklist passed cold, no notes. See
+[[stages/stage-4-motion-in-two-dimensions]] and [[current-position]]. All 18 stage
+packets exist, but [[learning-path]] now distinguishes source-verified packets,
+TOC-screened packets, known expansion gaps, and mastery evidence.
 
-**Active recall deck:** `02-LIBRARY\00-SCHOOL\02-Physics I\Flash Cards\Physics_Stages_01-03_Active.tsv` — 35 cards for Stages 1–3 only; Stage 4 remains preview-only.
+**Next exact rep:** begin Stage 4 with projectile motion (independence of x/y
+motion); the real Ch 3 textbook problem set ([[drills/stage-3-textbook-problems]])
+runs alongside as a Stage 3 durability check. The supporting trig/calculus
+sequence is in [[math-readiness-path]].
+
+**Recall decks:** `02-LIBRARY\00-SCHOOL\02-Physics I\Flash Cards\Physics_All_Stages.apkg`
+— one Anki package, `Physics` parent deck with a subdeck per stage (all 18,
+223 cards total, generated from this wiki's own `flashcards/` pages). Study only
+the subdeck for the active stage; see the Flash Cards folder's
+`README_IMPORT_INSTRUCTIONS.md` for import steps and the superseded prior decks.
 
 ## Folders
 
@@ -55,7 +73,7 @@ cruise-prep build; **generated ≠ studied** — actual progress lives in
 - `glossary/` — 46 vocabulary pages
 - `flashcards/` — 18 flashcard decks
 - `diagrams/` — none yet
-- `common-errors/` — 18 beginner-trap pages (one per stage except Stage 3)
+- `common-errors/` — 18 beginner-trap pages (one per stage)
 - `parked-advanced/` — none yet (see [[parking-lot]] for parked chapters)
 - `appendix/` — 8 reference pages from Serway & Jewett appendices (built 2026-06-25)
 
@@ -63,4 +81,7 @@ Navigation is stage-first: each stage packet links its stage's concepts,
 equations, drills, and checks. This index lists maps and the active stage,
 not every page. Packet pages reference some drill/problem-type/equation
 pages that are not yet generated — those are planned-page links, tracked by
-the monthly lint pass, and get created as stages activate.
+the monthly lint pass, and get created or consolidated as stages activate.
+The 2026-07-15 source screen found no live broken link, but later-stage planned
+links remain intentionally incomplete; [[learning-path]] records which gaps are
+content decisions versus missing supporting pages.

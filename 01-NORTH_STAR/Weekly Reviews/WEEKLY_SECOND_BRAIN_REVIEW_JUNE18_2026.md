@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log]
+timeline: log
+tags: []
 ---
 
 # WEEKLY SECOND BRAIN REVIEW - JUNE 18, 2026
@@ -258,4 +259,3 @@ The correct architecture is:
 - `WHERE_IT_GOES.md` controls placement and naming.
 - External wiki/intake gathers and processes knowledge.
 - Claude/Atlas remain separate role files under a shared operating layer.
-

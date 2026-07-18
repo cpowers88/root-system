@@ -1,13 +1,16 @@
 ---
-tags: [reference]
+type: map
+timeline: reference
+reference_priority: core
+tags: []
 ---
 
 # Index — Every Page in the Castle
-### Updated: July 14, 2026 (funding constraint and Revenue Lab response reconciled)
+### Updated: July 16, 2026 (mid-afternoon system check; current state refreshed)
 
 ## Castle Root Files
 - `.ROOT\NOW.md` — the morning page (castle-owned, lives at the .ROOT root)
-- `OPERATIONS.md` — how AI sessions run the castle (boot: AGENT.md → lane file → here)
+- `OPERATIONS.md` — how AI sessions run the castle (boot: AGENT.md → surface profile → here)
 - `HOW_TO_USE.md` — how Chris extracts direction from the castle
 - `CLAUDE.md` — thin auto-load pointer only (no rules; original build prompt archived)
 
@@ -18,6 +21,7 @@ tags: [reference]
 - [[phase-map]] — 11 phases with dates and exit criteria
 - [[skill-map]] — eight skill categories, sequenced, tied to phases and proof
 - [[source-map]] — registered sources with tiers and claims supported
+- [[opportunity-queue]] — commercial and learning-to-application signals from evidence to test and harvest
 - [[log]] — append-only session record
 
 ## Phases (built: 0–4 · planned: 5–10)
@@ -35,7 +39,7 @@ tags: [reference]
 
 ## Skills (built: 2 of 8 categories started)
 - [[sql]] — Technical; building; proof: [[ksu-academic-tracker]]
-- [[field-observation]] — Diagnostic; building; proof: 1 rep logged, 2nd needed
+- [[field-observation]] — Diagnostic; building; desk simulation logged, first live rep needed
 
 ## Source Summaries
 - [[claude-code-docs-pack-2026-07]] — Anthropic's Claude Code docs (Tier 1); instruction-file
@@ -48,11 +52,18 @@ tags: [reference]
 
 ## Planned (do not create until an existing stub is finished)
 - project-map · service-map · evidence-map · technology-stack-map · market-map ·
-  glossary · parking-lot · remaining phase pages · remaining skill pages per [[skill-map]]
+  glossary · remaining phase pages · remaining skill pages per [[skill-map]]
 
 ## Current Command-Center State
 
-- School remains first. The July 14 funding constraint requires a bounded,
-  evidence-first scan in `03-WIKIS\REVENUE_LAB`, not an un-gated business build.
-- Next action: Scan Session 1 — freelance estimating and tutoring, producing named
-  Tier 1–2 evidence and real numbers for the scorecard due about July 21.
+- Fixed school commitments remain protected and moved today: Physics Stage 3 and
+  Python Stage 2 both closed July 16; Stage 4 (Physics) and Stage 3 (Python, first
+  rep mid-drill) are the active learner units.
+- March 2027 remains the first consulting-client target, while continuity income
+  is required before Spring 2027 enrollment. Lane A now has a top-100
+  human-classification worksheet awaiting Chris's labels and a conditional GO for
+  one private scanner walkthrough (≤90 added minutes). B2's external conversation
+  still requires Chris's explicit approval.
+- The July 16 profit gate selected the Flip Margin Leak replay ([[opportunity-queue]]
+  OPP-20260716-01) as the first real-estate service proof; the closing-exception
+  concept is HOLD (OPP-20260716-02).

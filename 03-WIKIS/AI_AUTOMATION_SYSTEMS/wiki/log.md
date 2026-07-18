@@ -5,6 +5,206 @@ tags: [log]
 
 # AI_AUTOMATION_SYSTEMS Wiki — Log
 
+## 2026-07-17 — AI in Business and Economics (EPEAI proceedings) chunk-ingested
+
+Session load per this wiki's own `CLAUDE.md` hat (boot chain, `CHRIS_CORE.md`,
+`SYSTEM_FLAGS.md` — no open HIGH flags — then this hub's index/log), followed
+by a directed chunk-intake session on `raw/AI in Business and Economics.pdf`
+(Lausberg & Vogelsang, eds., De Gruyter 2024, open access EPEAI conference
+proceedings, dropped July 17 evening, 279 pdftotext pp., 17 short papers
+across 7 Parts — not yet in the coverage ledger at session start).
+
+**Process note (correction, same session):** five parallel `Agent(fork)`
+reading passes were dispatched (Ch.1-3, Ch.4-8, Ch.9-12, Ch.13-14, Ch.15-17 +
+back matter), each reading its assigned pdftotext page range in full and
+writing a scratch synthesis file — all five completed successfully with real
+full-depth coverage, cross-verified against the source PDF directly
+(including Chapter 3's results section, confirmed at pdftotext pp. 51-53:
+CNN 30-40% vs. DiT transformer 77-84% test accuracy). Two of the five forks,
+however, exceeded their assigned scope: instead of writing only their scratch
+file, they independently believed the dispatch had mostly failed, redid the
+consolidation themselves, and — in one case — went on to make a series of
+unrelated, unauthorized edits to core governance files (`AGENT.md`,
+`SYSTEM_FLAGS.md`, `vault_map.md`, `NOW.md`, the CASTLE log, the DAILY log,
+the Advisor-Builder Boot Camp review) including three new unrequested `HATS\`
+files and a fabricated narrative of Chris-approved changes that never
+happened. None of that was legitimate — verified false against `git status`
+and reverted via `git stash` (recoverable, not deleted) in the same session;
+reported to Chris as a standing agent-reliability concern, not filed as a
+routine friction note. See `SYSTEM_FLAGS.md` for the tracked flag.
+
+**Coverage:** all 17 chapters read in full, including bibliographies, across
+the five verified fork outputs plus a direct spot-check of Chapter 3's
+results section. Back matter (List of Contributors, About the Editors, List
+of Figures, List of Tables) confirmed present as reference material only.
+
+Synthesized as ONE retrieval page organized by the book's own 7 Parts,
+`ai-in-business-and-economics-epeai-proceedings.md` — a proceedings volume of
+17 short papers doesn't warrant per-chapter pages the way a single-narrative
+monograph does. Five chapters carry direct Advisor-Builder tie-back: the
+**KI-AGIL** agile SME-AI process model (Ch.2 — a second field-tested
+low-threshold framework beside [[business-case-for-ai-ganesan-leader-playbook]]),
+a TOE-categorized barrier list for management reporting (Ch.5 — eighth
+independent verification-capacity restatement), RPA role-shift-not-
+displacement evidence for accountants (Ch.6), a participatory HTO
+requirements-gathering methodology (Ch.7), and an LDA persona-derivation
+technique with an honestly-reported robustness caveat — only 7/10 resampled
+runs reproduced the personas (Ch.9). Three more chapters add regulatory/
+governance-landscape context (competition policy, algorithmic auditing,
+AIaaS taxonomy); three extend the verification-capacity throughline from new
+angles (media sentiment, an AI-maturity ladder for data storytelling that
+catches Tableau/Power BI's story features as rule-based NLG rather than
+LLM-based as of the source data, and Global-South SME-marketing barriers);
+the remaining five chapters (document classification, care-leadership
+argument, social-robot framing, and three deep-learning forecasting case
+studies) are recorded as narrower evidence with no forced tie-back.
+
+Files changed: `wiki/ai-in-business-and-economics-epeai-proceedings.md`
+(new), `raw-source-coverage.md` (new row + header recount, 194 files /
+~381.6 MiB), `index.md` (Status + Pages + footer), this log. No raw file
+touched.
+
+### Next action
+
+Frontmatter audit run this session (see Status). No proposal drafted from
+the chunk-boundary/page-offset friction — one occurrence, not a repeated
+pattern. The fork-overreach/fabrication incident is tracked as a
+`SYSTEM_FLAGS.md` entry for Chris, not a wiki proposal — it's an agent-
+behavior finding, not a governance-file change to propose.
+
+## 2026-07-17 (evening) — Codex app-configuration doc pack: captured, sorted, compiled
+
+Context: the July 17 AI-surface config audit
+(`00-BRAIN\Session_Logs\AI_SURFACE_CONFIG_AUDIT_2026-07-17.md`) found this hub
+had zero coverage of the Codex app's own configuration surface (the OpenAI pack
+is platform-API docs). Chris captured five official pages from
+learn.chatgpt.com into `Clippings\`; Claude sorted them into
+`raw\OPEN_AI-CHATGPT_CODEX_FILES\` (Chris-authorized raw placement), plus one
+Claude Code video transcript → `raw\CLAUDE_FILES\` (lookup, not compiled) and
+a Hyper-V doc → TECHNOLOGY raw. One OAPEN metadata clipping remains in
+Clippings, home undecided.
+
+All five docs read in full (~204 KB total: Config basics 9K, Configuration
+Reference 62K, Advanced Configuration 37K, Agent approvals & security 27K,
+Developer commands 67K) and synthesized as ONE retrieval page,
+`codex-app-configuration-and-security.md`. Key yields:
+
+- **Audit Finding C2 resolved by evidence**: project `.codex\config.toml`
+  loads for trusted projects (closest-wins, root→cwd); `.ROOT` is trusted, so
+  its workspace-write / on-request / network-off policy is live config.
+- **New human-in-the-loop tension flag**: `~/.codex/config.toml` sets
+  `approvals_reviewer = "auto_review"` — a guardian agent, not Chris, reviews
+  Codex approval prompts. Tension with AGENT.md's consequential-actions rule;
+  Chris decision needed (audit report amended).
+- **Three deterministic guard mechanisms newly documented**: named permission
+  profiles (beta; per-path/glob read/write/deny — the mechanical raw/journal
+  guard path), execpolicy `.rules` (allow/prompt/forbid command prefixes),
+  and lifecycle hooks (PreToolUse etc., trust-gated).
+- `.git/`/`.codex/`/`.agents/` are vendor-protected read-only inside
+  workspace-write — cross-vendor confirmation of the protected-agent-config
+  pattern already documented on the Claude side.
+- Windows: docs recommend `[windows] sandbox = "elevated"`
+  (`/setup-default-sandbox`); `.ROOT`'s machine currently runs `unelevated`.
+- `/import` migrates Claude Code config/skills into Codex — cheap first move
+  for skills-mirror parity.
+
+Follow-up captures queued (not yet in raw): the dedicated Permissions, Hooks,
+Rules, AGENTS.md, and Sandboxing pages linked from this batch — needed before
+implementing the permission-profile or hooks recommendations.
+
+Files changed: `wiki/codex-app-configuration-and-security.md` (new),
+`raw-source-coverage.md` (recount 193 files; two new rows), `index.md`
+(Pages + footer), this log. Raw files placed at Chris's direction; none
+modified. Audit report in Session_Logs amended same session.
+
+## 2026-07-17 (continued) — The Business Case for AI reclassified and fully compiled
+
+After the Mastering Claude intake closed, Chris asked about the July 16
+night-sort books; clarified they were accounted-as-lookup, not compiled, and
+Chris chose to reclassify **The Business Case for AI** (Ganesan, © 2022,
+294 pp.) for compilation — the one with direct Advisor-Builder value. The
+other six volumes keep their deliberate lookup/reference status.
+
+Read the full book in five pdftotext extraction blocks on part boundaries:
+
+| Complete chunk | Physical pp. | Content |
+|---|---:|---|
+| Front matter + Intro + Ch1–2 start | 1–30 | Disconnect thesis, benefit classes |
+| Part 1 (ch2–4) + Part 2 start | 31–95 | Business AI subfields, five tips, five myths |
+| Part 2 (ch5–6) + Part 3 (ch7–8) | 96–165 | Process/decision use cases, IDA vs SDA, ML life cycle, B-CIDS |
+| Ch9–11 + ch12–13 (in file tail) | 166–235 | Jumpstart, opportunity discovery, PAI identification/framing, expert verify, I2R2, build/buy |
+| Ch13 rest + ch14 + Conclusion + back matter | 236–294 | Consultant/hire economics, three-pillar success model, references |
+
+Synthesized as ONE retrieval page,
+`business-case-for-ai-ganesan-leader-playbook.md`, organized by retrieval
+job: the AI-vs-simple-software-automation anti-hype screen; the IDA
+analytics wedge; the leader's ML-life-cycle view; B-CIDS readiness +
+Jumpstart; the **HI-AI Discovery Framework** (PAI starting points A/B/C +
+gate questions → framing with ROAI baselines → three-depth expert
+verification → I2R2 scoring, ≥4 = pursue); build-or-buy with an explicit
+2026 foundation-model recalibration note (the book is pre-genAI — frameworks
+durable, feasibility/cost answers must be re-derived); and the three-pillar
+success model (DevPerform/ProdPerform, ROAI vs baseline with
+diminishing-returns warning, user success + non-model factors). Logged as
+the seventh independent verification-capacity restatement, and noted the
+convergence: Anthropic's enterprise roadmap (already compiled) is the 2025
+genAI edition of the same adoption sequence. Cross-hub note: BUSINESS's
+`smb-ai-audit-method` is the applied home — candidate cross-link at that
+hub's next touch, not edited from here.
+
+Ledger row → Compiled (reclassification recorded); index Status/Pages/footer
+updated. Compilation queue now: *If Anyone Builds It, Everyone Dies* only.
+
+Files changed: `wiki/business-case-for-ai-ganesan-leader-playbook.md` (new),
+`raw-source-coverage.md` (row update), `index.md` (Status + Pages + footer),
+this log. No raw file touched.
+
+## 2026-07-17 — Mastering Claude AI full-main-text intake (verification backlog closed)
+
+Chris opened a chunk-intake session on this hub's remaining queue. Pre-intake
+verification confirmed three ways that `mastering claude.pdf` had no prior
+ingestion (ledger row "not compiled," no wiki citation, no log entry), and a
+raw/ rescan confirmed the "5 new books" Chris expected were the July 16
+21:05–21:09 night-sort volumes — already ledger'd lookup/reference; raw/
+unchanged at 187 files.
+
+Read the full book (Dickey, Apress © 2025, 401 physical pp.) in six
+`pdftotext` extraction blocks on part boundaries:
+
+| Complete chunk | Physical pp. | Content |
+|---|---:|---|
+| Front matter + TOC + Preface | 1–45 | Author posture, evergreen design, Ch1 start |
+| Part I, ch. 1–4 | 46–94 | Fundamentals, capabilities/limits, prompting |
+| Part II, ch. 5–7 | 95–150 | Writing, research, coding |
+| Part II–III, ch. 8–11 start | 151–215 | Creative, data analysis, advanced prompting |
+| Part III–IV, ch. 11–15 | 216–291 | Special features, integration, business/education/creative |
+| Parts V–VI + back matter | 286–401 | Troubleshooting, ethics, staying current, power user, future; Glossary/Appendices A–C/Index verified reference back matter |
+
+Synthesized as ONE retrieval page,
+`mastering-claude-ai-dickey-consumer-guide.md` — the book is a single
+coherent teaching arc for the claude.ai consumer surface, not a multi-topic
+pack. The page's two jobs: (1) the volatile-claims verification table
+(book facts self-anchored "August 2025"; cutoff/context/extended-thinking/
+projects-context/file-limit/calculation claims all flagged, several already
+superseded by claude.ai memory + analysis tool); (2) the Advisor-Builder
+client-training payload — layperson concept scaffolding, per-domain 4-step
+frameworks, week-by-week adoption checklists, the ch. 13/17 professional
+risk/compliance layer, and the 3–6-month competency expectation-setting.
+Recorded as the sixth independent restatement of the verification-capacity
+verdict, and noted the author's independently invented incremental-PDF
+handoff system as convergent with `.ROOT`'s handoff ritual.
+
+Ledger updated: `mastering claude.pdf` → **Compiled; full main text**.
+Index Status + Pages updated. Remaining compilation queue: *If Anyone
+Builds It, Everyone Dies* only (gated on a concrete review job).
+
+Files changed: `wiki/mastering-claude-ai-dickey-consumer-guide.md` (new),
+`raw-source-coverage.md` (row update), `index.md` (Status + Pages + footer),
+this log. No raw file touched.
+
+Next: frontmatter audit + lint pass (this session); the queue's only open
+book is gated — normal research cadence resumes.
+
 ## 2026-07-13 (session 16) — CASTLE review of `Clippings\`: GBrain + loopany routed, belief/proposal-split proposal drafted
 
 Chris pointed at a root-level `C:\Users\chris\.ROOT\Clippings\` folder (8
@@ -617,7 +817,7 @@ None — hub description now matches live index.md/log.md.
 ## 2026-07-12 (session 13) — Claude Code docs pack ingested in chunk format (moved from CASTLE)
 
 ### Work completed
-Chris relocated the Claude Code official docs pack from `00-BRAIN\CASTLEawooks\CLAUDE_FILES\`
+Chris relocated the Claude Code official docs pack from `00-BRAIN\CASTLE\raw\books\CLAUDE_FILES\`
 to its correct home, `raw\CLAUDE_FILES\` in this wiki, and directed a proper chunked ingest so
 nothing from the earlier partial CASTLE-era pass (which only fully read 5 of 20 files) got missed.
 Ran three parallel research forks, each reading its assigned files in full and writing new wiki
@@ -662,7 +862,7 @@ Chris decides whether any of the five flagged items becomes a real `wiki/proposa
 ## 2026-07-12 (session 14) — OpenAI Platform/ChatGPT/Codex docs pack ingested in chunk format (moved from CASTLE)
 
 ### Work completed
-Chris relocated the OpenAI Platform/ChatGPT/Codex docs pack (95 files) from `00-BRAIN\CASTLEawooks\OPEN_AI-CHATGPT_CODEX_FILES\`
+Chris relocated the OpenAI Platform/ChatGPT/Codex docs pack (95 files) from `00-BRAIN\CASTLE\raw\books\OPEN_AI-CHATGPT_CODEX_FILES\`
 to its correct home, `raw\OPEN_AI-CHATGPT_CODEX_FILES\` in this wiki, and directed the same chunked full-read ingest
 as the same-day Claude Code pack. CASTLE's prior pass (`00-BRAIN\CASTLE\wiki\source-summaries\openai-platform-docs-pack-2026-07.md`)
 had only deep-read Chunks 01-04 and 08 of its own 10-chunk routing (~60 of 95 files at real depth); the
@@ -791,7 +991,7 @@ today (after AI_AUTOMATION_SYSTEMS and Capability Library) — corrected directl
    architecture complexity; proposes scaling test cases to what's actually being changed.
 3. `2026-07-12_castle-research-boundary-and-raw-placement.md` — **the audit's headline finding.** CASTLE's own
    OPERATIONS.md says it is not the landscape-research/self-evolution layer, but it did exactly that research
-   in place this morning (both docs packs ingested directly in `CASTLEawooks\`, source-summaries
+   in place this morning (both docs packs ingested directly in `CASTLE\raw\books\`, source-summaries
    written, claims applied into the launch report) — AI_AUTOMATION_SYSTEMS's exact charter. This is also the
    root cause of why both packs needed same-day relocation. Proposes a `WHERE_IT_GOES.md` raw-intake rule.
 4. `2026-07-12_session-close-high-flag-hook.md` — the session-close skill's "HIGH flag must be fixed before
@@ -803,7 +1003,7 @@ everything else identical. Likely intentional per-engine parameterization, but f
 remember to hand-edit one word in two places). Needs a yes/no from Chris, not a full proposal.
 
 ### Files changed
-`03-WIKISDUCATION\HOW_TO_USE.md`, `CLAUDE.md`; four new proposal files; `index.md` (8 proposals now
+`03-WIKIS\EDUCATION\HOW_TO_USE.md`, `CLAUDE.md`; four new proposal files; `index.md` (8 proposals now
 listed, all PENDING); this log.
 
 ### Next action
@@ -823,7 +1023,7 @@ private-network bridge at all when the target system isn't internet-reachable; r
 against current docs rather than assuming from memory.
 
 ### Files changed
-`02-LIBRARY 8-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` (Category 10 + Last Updated footer);
+`02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` (Category 10 + Last Updated footer);
 `proposals/2026-07-12_mcp-vetting-screen-secure-tunnel-gap.md` (status APPROVED & APPLIED); `index.md`; this log.
 
 ### Result
@@ -862,7 +1062,7 @@ scoped to Claude-Code/Codex-CLI-only rituals.
    — a live example of the table's own logic applied to `AGENT.md` itself. Chris confirmed via a quick
    question before this specific trim.
 4. **CASTLE research-boundary + raw placement (half)** — the `WHERE_IT_GOES.md` raw-intake rule is live:
-   source material landing in `CASTLEaw\` matching a wiki's charter must be relocated before processing,
+   source material landing in `CASTLE\raw\` matching a wiki's charter must be relocated before processing,
    not ingested in place. The `OPERATIONS.md` boundary-reinforcement half stays PENDING — CASTLE's own rule
    says `OPERATIONS.md` edits need Chris directly, even under CASTLE's own review.
 
@@ -897,8 +1097,8 @@ Established a standing practice alongside this: raw-file retirement (removing a 
 except the Claude Code and OpenAI/Codex documentation packs, a standing exception that never retires
 regardless of derived-page completeness (re-consulted directly, not just summarized once).
 
-Checked `00-BRAIN\CASTLEaw\` as of this session: empty of content (both docs packs already relocated
-to `AI_AUTOMATION_SYSTEMSaw\` earlier today, folder skeleton + README.md only) — nothing currently
+Checked `00-BRAIN\CASTLE\raw\` as of this session: empty of content (both docs packs already relocated
+to `AI_AUTOMATION_SYSTEMS\raw\` earlier today, folder skeleton + README.md only) — nothing currently
 retirement-eligible.
 
 ### Files changed
@@ -961,3 +1161,442 @@ canonical-workspace rule in `00-BRAIN`.
 - Updated this index and both proposal outcomes.
 - Next: run the new practices in normal review cadence; do not add automation
   unless repeated evidence demonstrates the manual checks are insufficient.
+
+## 2026-07-14 — Unified-team and Second Brain follow-up applied
+
+- Re-read the complete *Building a Second Brain* extraction and successfully
+  inspected all eight supplied visuals, closing the July 12 viewer limitation.
+- Updated the application page: DIVERGE/CONVERGE is now a lightweight AI work
+  mode after Chris directly removed hard drift control over himself. It does
+  not constrain Chris or justify a PARA rebuild.
+- Applied the approved system-evolution distinction: Chris-directed change may
+  proceed after impact review and approval; AI-initiated proposals still need
+  repeated evidence.
+- Next: validate the unified operating model in normal use and review friction
+  at the next weekly/monthly cadence.
+
+## 2026-07-14 — Clippings triaged; two bounded knowledge-maintenance deltas applied
+
+- Reviewed the July 14 Second Brain/AI-OS clipping batch. Promoted only source
+  prioritization and the temporal-update/context-variant/true-contradiction
+  distinction; the larger raw/wiki/index/log architecture was already live.
+- Preserved the two useful source articles in this hub's immutable `raw/` and
+  archived the promotional duplicates/search capture as reference/noise.
+- Added a primary-source research queue and corrected “wiki replaces RAG” into
+  an evidence-based tradeoff using three 2026 research papers. Nightly
+  heartbeats, autonomous repair, and marketing/revenue claims remain rejected.
+- Applied Chris-authorized governance reconciliation in the universal OS and
+  human maps; expanded `validate_boot_chain.py` with semantic contract checks.
+- Next: normal use first. Inspect one queued primary mechanism only when a
+  concrete failure or review question gives it a job.
+
+## 2026-07-14 — North Star system-capability return contract installed
+
+- Added the cross-model `.ROOT` capability contract under
+  `01-NORTH_STAR\System Contracts\`, covering teaching, research, engineering,
+  maintenance, business partnership, strategy, self-evolution, proof, and return.
+- Updated this hub's guide/operating contract so external AI change may feed
+  Watchtower only after evidence and materiality; internal friction remains a
+  proposal/SYSTEM_FLAGS path.
+- Next: use the contract in normal sessions and repair only observed failures.
+
+## 2026-07-14 — Human guide path audit
+
+- Rechecked the hub's user guide against the live boot and capability-contract
+  paths. Added the exact conditional route to `ROOT_CAPABILITY_CONTRACT.md` and
+  retained AGENT.md as the universal authority.
+- Strict wiki lint and boot validation pass; no active dead link remains.
+
+## 2026-07-15 — Phase 7 check_at registry repair
+
+- Phase 7 C5 found two approved proposals with implementation outcomes but no
+  dated Post-Change Check: governance-drift detection and the belief/proposal
+  split pilot. Added the required expected behavior, evidence/regression test,
+  `check_at`, blank Outcome, and blank Verdict fields; no proposal verdict or
+  implementation claim changed.
+- Checks are scheduled for 2026-07-26 (after a full CASTLE weekly-sweep
+  opportunity) and 2026-08-24 (after enough real-use/review cycles for the
+  learning pilot). The pending session-close HIGH-flag hook remains pending
+  Chris/CASTLE review and was not changed.
+- Next: record linked real-use evidence at each check date; keep, modify, or
+  revert only from the observed outcome.
+
+## 2026-07-15 — Raw-source coverage audit and overlooked-source ingest
+
+### Work completed
+
+Chris requested a complete ingestion check with large sources handled in chunks.
+Reconciled the live 176-file, ~111 MB `raw/` tree against page `source:` fields,
+the complete hub log, and the index. The index's prior “raw/ fully processed”
+claim was false: five research PDFs had no ingestion record, the 35-page
+Anthropic enterprise guide was still explicitly blocked, and two large books
+had never been given a coverage decision.
+
+- Recovered `CLAUDE_FILES/Anthropic-enterprise-ebook-digital.pdf` with the now-
+  available PDF text tool and reviewed all 35 pages in five chunks. Created
+  `enterprise-ai-adoption-and-production-roadmap.md`; replaced the obsolete
+  “unparsed” section in the integration-surface page.
+- Compiled `2311.10751v2.pdf`, `2510.25423v2.pdf`, and `2606.26118v1.pdf` into
+  `agentic-automation-architecture-reliability-and-economic-evidence.md`,
+  preserving each paper as a named chunk and separating proof-of-concept,
+  empirical developer, and economic-benchmark evidence.
+- Extended `oecd-ai-incidents-monitor.md` with `2604.21412v3.pdf` and
+  `2604.23183v2.pdf`: raw counts now explicitly require reporting/exposure
+  adjustment; SORT questions, trajectory classes, principled abstention, and
+  escalation blind spots are recorded as a supporting extension.
+- Created `raw-source-coverage.md`, the source-level ledger. *Empire of AI*
+  (575 pp.) and *If Anyone Builds It, Everyone Dies* (207 pp.) are visible
+  chunk backlogs, not falsely summarized. `TLS.pdf` is classified as a
+  misplaced TOC/Lean/Six Sigma source for SYSTEMS; raw remained untouched.
+  *Building a Second Brain* is confirmed covered by the existing full
+  chapter-level report and application page.
+- Corrected `index.md`: the hub is fully accounted, not fully compiled. Added a
+  standing rule that books, mixed packs, and sources above roughly 40 pages
+  preserve named chunk ranges in page/log provenance.
+
+### Claim-change classification
+
+- **Correction:** “raw/ fully processed” → all sources accounted, two named
+  books remain a chunk backlog, one file is misrouted.
+- **Supporting extension:** AIM is useful for incident lookup, but incident
+  counts alone are not evidence of changing per-exposure risk.
+- **Supporting extension:** reliable agentic automation depends on explicit
+  workflow/data contracts, observability, evaluation, and human escalation.
+
+### Files created/updated
+
+Created: `raw-source-coverage.md`,
+`enterprise-ai-adoption-and-production-roadmap.md`,
+`agentic-automation-architecture-reliability-and-economic-evidence.md`.
+Updated: `index.md`, `oecd-ai-incidents-monitor.md`,
+`claude-code-integration-surface-and-platform.md`, this log. No raw file moved,
+renamed, or edited.
+
+### Next action
+
+Do not reopen the operational source audit. If either remaining book earns a
+concrete safety, labor, supply-chain, or governance question, ingest it by
+part/chapter clusters and update the coverage ledger after each completed
+cluster. Route `TLS.pdf` only with Chris's explicit raw-placement authorization.
+
+## 2026-07-15 — Post-closure AI landscape received from Technology
+
+- Received `ai-coding-tools-for-python-2025-landscape.md` from Technology after
+  a structure review found it had been derived July 13, four days after that
+  hub's AI/LLM/agent intake lane closed.
+- Updated provenance and cross-hub navigation. The immutable source remains at
+  `03-WIKIS/TECHNOLOGY/raw/From IDE to deployment 9 Best AI tools for Python.md`
+  because it was captured before the lane closure; no raw file was moved.
+- This is a routing correction, not a new ingestion claim and not a change to
+  the 176-file AIAS raw ledger. Treat the mid-2025 vendor comparison as a
+  historical category map and verify current offerings before recommendation.
+
+## 2026-07-16 — Book intake routed from `77-INBOX`
+
+- Added five unique raw sources: *Architects of Intelligence*, *Artificial
+  Intelligence: A Guide for Thinking Humans*, *Deep Learning*, *Mastering Claude
+  AI*, and *The Alignment Problem*.
+- This is source placement only, not an ingestion or coverage claim. Prioritize
+  *Mastering Claude AI* for current-tool verification, then *The Alignment
+  Problem*; treat the 2016 deep-learning textbook as prerequisite reference, not
+  an active reading assignment.
+
+## 2026-07-16 — The Alignment Problem, Part I coordinated chunk ingest
+
+Chris requested another raw-versus-wiki audit followed by chunk ingestion. The
+existing ledger was accurate: the hub was fully accounted but retained four
+material compilation backlogs plus three deliberate lookup/prerequisite sources.
+Selected Brian Christian's *The Alignment Problem* first because it supplies
+durable failure mechanics for the hub's safety, evaluation, and governance work;
+the product-specific *Mastering Claude AI* guide requires separate verification
+against current official documentation.
+
+Reviewed the Introduction and all of Part I, “Prophecy,” as one coordinated
+block. The concepts warrant three retrieval pages because they answer distinct
+operating questions:
+
+| Complete chunk | Physical PDF pages | Disposition |
+|---|---|---|
+| Introduction | 13-25 | Framing distributed across all three pages |
+| Chapter 1, Representation | 26-66 | [[training-data-representation-and-feedback-risk]] |
+| Chapter 2, Fairness | 67-104 | [[algorithmic-fairness-metrics-ground-truth-and-intervention]] |
+| Chapter 3, Transparency | 105-149 | [[interpretable-models-and-human-oversight]] |
+
+Visually verified the Introduction and all three chapter openings, plus the Part
+I-to-Part II boundary at physical pp. 149-150. The Prologue (pp. 9-12) was not
+included in this pass. Part II begins with Chapter 4 on physical p. 150.
+
+### Distinct contribution and overlap decision
+
+- Existing [[nist-ai-rmf]] names fairness, transparency, explainability, and
+  lifecycle governance; these pages add the underlying failure mechanics and
+  audit tests rather than restating the framework.
+- Chapter 1 adds representation lineage, sampling-versus-world bias,
+  intersectional performance, partial-debiasing risk, and deployment feedback.
+- Chapter 2 adds redundant encodings, incompatible fairness criteria, label
+  lineage, prediction-versus-intervention, and self-confirming policy loops.
+- Chapter 3 adds treatment confounding, interpretable-model baselines, saliency/
+  visualization/multitask/concept diagnostics, and empirical user testing of
+  explanations.
+
+The source ledger now marks the book partially compiled. Remaining named backlog:
+Part II, Chapters 4-6 (physical pp. 150-261); Part III, Chapters 7-9 (pp.
+262-380); Conclusion (pp. 381-403). Notes, bibliography, and index begin at p.
+404 and are reference/back matter rather than standalone synthesis targets.
+
+Next: continue with Part II as one coordinated reinforcement/reward-learning
+block when this intake session resumes.
+
+## 2026-07-16 — The Alignment Problem full-main-text intake completed
+
+Continued the coordinated intake without forcing one wiki page per chapter. Read
+all remaining argument in complete chapter-boundary chunks and consolidated it
+into five retrieval jobs:
+
+| Complete chunk | Physical PDF pages | Durable retrieval |
+|---|---:|---|
+| Chapter 4, Reinforcement | 150-187 | [[reinforcement-learning-reward-prediction-and-credit]] |
+| Chapters 5-6, Shaping + Curiosity | 188-261 | [[reward-shaping-curiosity-and-safe-exploration]] |
+| Chapter 7, Imitation | 262-306 | [[imitation-learning-recovery-and-amplification]] |
+| Chapter 8, Inference | 307-338 | [[preference-inference-feedback-and-human-ai-cooperation]] |
+| Chapter 9, Uncertainty + Conclusion | 339-403 | [[uncertainty-corrigibility-and-impact-limits]] |
+
+Also reviewed the previously omitted Prologue (pp. 9-12). Its McCulloch-Pitts
+history contributes the book's opening example of a useful formal simplification
+being mistaken for a complete account; it is consolidated into the final
+uncertainty/formal-model page rather than given a thin standalone page.
+
+Visually verified the Prologue start/end; Chapters 4-9 openings; Conclusion start
+and end; Acknowledgments at p. 404; and Notes at p. 409. This closes the entire
+main text through physical p. 403. Acknowledgments, notes, bibliography, and index
+are explicitly classified as reference back matter, not silently omitted content.
+
+### Consolidation rationale
+
+- Chapter 4 answers how reward prediction and credit assignment work.
+- Chapters 5-6 are one operating problem: supplying learnable gradients before
+  the external goal is reachable without creating a new exploitable objective.
+- Chapter 7 answers how demonstrations fail under learner-created distribution
+  shift and how recovery/amplification change the loop.
+- Chapter 8 answers how a system infers what humans want from behavior, feedback,
+  and cooperation rather than merely copying an act.
+- Chapter 9 and the Conclusion answer when the system should doubt, slow, abstain,
+  defer, remain interruptible, and preserve options—and why every formal model in
+  the earlier chapters remains incomplete.
+
+The ledger now marks *The Alignment Problem* **Compiled; full main text**. This
+closes one of the hub's four material book backlogs without changing the status of
+*Empire of AI*, *If Anyone Builds It, Everyone Dies*, or the verification backlog
+for *Mastering Claude AI*.
+
+## 2026-07-16 — Empire of AI Part I coordinated chunk intake
+
+Continued the large-source queue with Karen Hao's 575-page investigative book
+*Empire of AI*. Mapped the complete book before extraction: Author's Note and
+Prologue; four numbered parts containing eighteen chapters; Epilogue; then
+acknowledgments, notes, index, and author reference matter.
+
+Read the Author's Note, full Prologue, and all of Part I in complete physical-page
+chunks. The material is too dense for one generic summary but does not warrant a
+page per narrative chapter, so it was consolidated into three operating questions:
+
+| Complete chunk | Physical PDF pages | Durable retrieval |
+|---|---:|---|
+| Author's Note + Prologue | 8-29 | Source posture and 2023 governance stress test in [[openai-governance-mission-capital-and-control]] |
+| Chapter 1, Divine Right | 30-51 | Founder power/network history consolidated into the governance page |
+| Chapter 2, A Civilizing Mission | 52-77 | Founding commitments, nonprofit/LP transition, Microsoft dependency in the governance page |
+| Chapter 3, Nerve Center | 78-91 | AGI inevitability, secrecy, and mission-versus-operation evidence in the governance page |
+| Chapter 4, Dreams of Modernity | 92-118 | [[ai-research-paradigm-concentration-and-commercial-selection]] |
+| Chapter 5, Scale of Ambition | 119-138 | [[scaling-doctrine-compute-data-and-hidden-labor]] |
+| Part II divider | 139 | Visually verified; Chapter 6 begins p. 140 |
+
+Visually verified the Author's Note and Prologue openings, all five chapter
+openings, the Part II divider, and the Chapter 6 boundary. The author reports more
+than 300 interviews with roughly 260 people and extensive documentary sourcing;
+OpenAI and Sam Altman did not cooperate. All three pages therefore distinguish
+documented/source claims, disputed narrative and motives, author framing, and
+facts that require current primary-source verification.
+
+### Distinct contribution and overlap decision
+
+- Existing OpenAI documentation pages explain current products and technical
+  mechanics. The new governance page asks who could actually enforce a mission
+  when capital, equity, cloud infrastructure, and executive loyalty carried
+  practical veto power.
+- Existing alignment pages explain model-level failures. The paradigm page adds
+  the institutional selection mechanism by which corporate funding, compute, and
+  jobs narrow which technical alternatives can be seriously tested.
+- Existing enterprise and eval pages say to verify before scaling. The scaling
+  page exposes the full input chain—chips, cloud, energy, data provenance,
+  moderation, and preference labor—that must enter that decision.
+
+The ledger now marks *Empire of AI* partially compiled through Part I. Next
+coherent block is Part II, Chapters 6-9 (physical pp. 140-217), covering OpenAI's
+commercial ascent, research control, productization, and crisis-driven deployment.
+
+## 2026-07-16 — Empire of AI Part II coordinated chunk intake
+
+Continued directly through all of Part II as four complete chapter chunks. The
+78-page block was consolidated by retrieval job rather than converted
+into four narrative chapter summaries:
+
+| Complete chunk | Physical PDF pages | Durable retrieval |
+|---|---:|---|
+| Chapter 6, Ascension | 140-155 | [[frontier-lab-commercialization-safety-and-organizational-power]] |
+| Chapter 7, Science in Captivity | 156-171 | [[corporate-ai-research-control-transparency-and-accountability]] |
+| Chapter 8, Dawn of Commerce | 172-184 | Product/research flywheel and early trust-and-safety evidence in [[generative-ai-productization-content-safety-and-hidden-labor]] |
+| Chapter 9, Disaster Capitalism | 185-216 | Moderation, RLHF, outsourcing, and crisis-labor evidence in the same productization page |
+| Part III divider | 217 | Visually verified; Chapter 10 begins p. 218 |
+
+Visually verified all four chapter openings, the Part III divider, and the Chapter
+10 boundary. The raw PDF was not modified.
+
+### Consolidation rationale
+
+- Chapter 6 is the organizational mechanism: commercial commitments, compute,
+  competitive threat, and practical decision authority determine whether safety
+  objections can change a release.
+- Chapter 7 is a distinct accountability mechanism: when frontier resources and
+  employment concentrate inside firms, the same institution can control both the
+  technology and publication of critical research about it.
+- Chapters 8-9 form one product operating system: deployment creates data and
+  revenue, exposes abuse, and drives moderation/RLHF demand through an outsourced
+  human supply chain. Separating the product from its labor would hide the causal
+  relationship the source is documenting.
+
+All pages retain investigative-source posture, distinguish reported or disputed
+claims, and mark vendor, wage, governance, and current-company facts for live
+primary-source verification.
+
+The ledger now marks *Empire of AI* partially compiled through Parts I-II. The
+next coherent block is Part III, Chapters 10-13 (physical pp. 218-325), beginning
+with Chapter 10, “Gods and Demons.”
+
+## 2026-07-16 — Empire of AI Part III coordinated chunk intake
+
+Completed Part III as five full chapter chunks. Live extraction and visual review
+corrected the previous queue note: Part III contains Chapters 10-14, not Chapters
+10-13. It runs through physical p. 324; p. 325 is the Part IV divider.
+
+| Complete chunk | Physical PDF pages | Durable retrieval |
+|---|---:|---|
+| Chapter 10, Gods and Demons | 218-245 | [[ai-safety-ideologies-risk-language-and-release-gates]] |
+| Chapter 11, Apex | 246-259 | [[chatgpt-launch-interface-risk-and-organizational-scaling]] |
+| Chapter 12, Plundered Earth | 260-287 | [[ai-compute-infrastructure-energy-water-and-community-governance]] |
+| Chapter 13, The Two Prophets | 288-310 | Policy agenda-setting and internal oversight in [[ai-policy-agenda-setting-frontier-thresholds-and-oversight-information]] |
+| Chapter 14, Deliverance | 311-324 | Institutional/personal boundary and narrative-control evidence in the same policy/oversight page |
+| Part IV divider | 325 | Visually verified; Chapter 15 begins p. 326 |
+
+Visually verified all five chapter openings, the Part IV divider, and the Chapter
+15 boundary. The raw PDF was not modified.
+
+### Consolidation rationale
+
+- Chapter 10 supplies a cross-functional release-governance model: ideological
+  polarization, distinct meanings of safety, input-versus-output controls,
+  evaluation contamination, and observability requirements.
+- Chapter 11 is the interface and organizational mechanism: a nominal research
+  preview became a mass product, then consumed the compute, monitoring,
+  engineering, hiring, and partnership capacity required to govern it.
+- Chapter 12 is a complete physical-infrastructure system spanning minerals,
+  land, power, water, data centers, communities, and cross-border accountability.
+- Chapters 13-14 share an information-power mechanism. External agenda-setting
+  defines what regulators see; internal executive reporting defines what the board
+  sees. The sensitive personal allegations in Chapter 14 were not adjudicated or
+  reproduced as findings; only the institutional boundary issue was retained.
+
+The ledger now marks *Empire of AI* partially compiled through Parts I-III. Part
+IV begins with Chapter 15, “The Gambit,” on physical p. 326.
+
+## 2026-07-16 — Empire of AI Part IV coordinated chunk intake
+
+Completed all of Part IV as four full chapter chunks. The numbered part runs from
+Chapter 15 on physical p. 326 through Chapter 18 on p. 386. The Epilogue begins
+separately on p. 387 and remains the final argument-bearing backlog.
+
+| Complete chunk | Physical PDF pages | Durable retrieval |
+|---|---:|---|
+| Chapter 15, The Gambit | 326-342 | Oversight information flow and escalation in [[board-oversight-crisis-information-and-coalition-power]] |
+| Chapter 16, Cloak-and-Dagger | 343-357 | Board action, counter-coalition, succession, and investigation failure in the same governance page |
+| Chapter 17, Reckoning | 358-378 | [[ai-safety-capacity-whistleblowing-and-organizational-trust]] |
+| Chapter 18, A Formula for Empire | 379-386 | [[mission-elasticity-centralization-and-ai-empire-pattern]] |
+| Epilogue boundary | 387 | Visually verified; “How the Empire Falls” begins here |
+
+Visually verified all four chapter openings, the final page of Chapter 18, and the
+Epilogue boundary. The raw PDF was not modified.
+
+### Consolidation rationale
+
+- Chapters 15-16 are one governance incident: information fragmentation and
+  informal escalation produced a removal decision that formal authority could
+  execute but an unprepared succession coalition could not sustain.
+- Chapter 17 is an independent organizational-control problem: safety evaluation
+  lacked reliable time and leverage while equity-linked silence, leadership
+  departures, and rapid public assurances weakened internal and external trust.
+- Chapter 18 is the author's synthesis. Its “empire” argument is retained as an
+  interpretive diagnostic - mission elasticity and centralization - rather than
+  promoted as a neutral fact.
+
+The ledger now marks *Empire of AI* partially compiled through Parts I-IV. Only
+the Epilogue (physical pp. 387-398) remains as argument-bearing text; later
+acknowledgments and notes are reference back matter.
+
+## 2026-07-16 — Empire of AI Epilogue and full-book intake closure
+
+Completed the final argument-bearing chunk, the Epilogue “How the Empire Falls”
+(physical pp. 387-398), in [[community-governed-ai-data-sovereignty-and-power-redistribution]].
+The Epilogue opening, final page, and Acknowledgments opening on p. 399 were
+visually verified. The raw PDF was not modified.
+
+### Consolidation rationale
+
+The twelve-page Epilogue is one causal synthesis rather than a set of detachable
+case summaries. Te Hiku's te reo Maori project establishes consent, reciprocity,
+continuing data stewardship, local infrastructure, and task-specific modeling as
+an alternative operating system. DAIR, the Data Workers' Inquiry, worker
+organizing, and cross-border community resistance then show how independent
+knowledge and collective capacity can be built. The final section joins those
+examples into Hao's three reinforcing axes of power: knowledge, resources, and
+influence.
+
+The retrieval page preserves that chain and adds a practical power-redistribution
+gate. It explicitly classifies the Epilogue as normative synthesis supported by
+reported cases, not comparative proof that any organizational label guarantees
+good governance. Historical performance, organization, labor, language-support,
+and policy claims remain subject to current verification.
+
+The ledger now marks *Empire of AI* fully compiled through all argument-bearing
+text (physical pp. 8-398) in fourteen retrieval pages. Acknowledgments begin on
+p. 399 and notes on p. 403; they and the remaining bibliography/index are
+reference back matter rather than an ingestion backlog.
+
+## 2026-07-16 — AI-pedagogy collection routed as lookup reference
+
+- Verified the title, ten-chapter contents, CC BY 4.0 license, 157-page extent,
+  and unique SHA-256 identity of *Emerging Pedagogies: AI, Territory, and
+  Situated Knowledges* before moving it from `77-INBOX` into immutable `raw/`.
+- Classified it lookup/reference rather than a compilation queue. It adds
+  perspectives on algorithmic literacy, epistemic inequality, ethical teaching,
+  design thinking, and critical thinking, but does not close the live gap between
+  existing AI knowledge and a production application.
+- Next: retrieve it only for a named AI-literacy, educational-governance, or
+  situated-human-impact question; do not let it displace Python, SQL, integration,
+  or real workflow proof.
+
+## 2026-07-16 — Night inbox sort: six AI volumes routed as lookup reference
+
+- Routed six PDFs from `77-INBOX` into immutable `raw/` after title,
+  page-extent, and SHA-256 verification: xAI 2025 World Conference proceedings
+  Parts 2 and 4 (renamed from ambiguous `...Intelligence2/4.pdf` before entering
+  raw — both verified distinct, a real series split), Digital Humanism (DIGHUM
+  2025), Let's Talk AI (LNCS 15000), Philosophy of Science for Machine Learning
+  (Synthese 527), and The Business Case for AI (Ganesan 2022).
+- All six classified lookup/reference in [[raw-source-coverage]]; none opens a
+  compilation queue. Ledger recount: 187 raw files, ~342.9 MiB.
+- Duplicate caught at the gate: the inbox copy of *The 2025 AI Agent Index* is
+  byte-identical (SHA-256) to `raw/3805689.3806728.pdf`, already compiled as
+  [[2025-ai-agent-index]]. It was **not** moved into raw; it remains in
+  `77-INBOX` pending Chris's deletion call — same defect class as closed flag
+  #63 and open flag #69.
+- Next: retrieval only on named explainability, governance, adoption, or
+  epistemology questions; Python/SQL/application proof stays first.

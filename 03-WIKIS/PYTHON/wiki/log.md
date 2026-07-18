@@ -7,6 +7,25 @@ tags: [log, programming]
 
 Append every meaningful ingest, path update, teaching session, or structure change here.
 
+## 2026-07-16 — Stage 2 verification gate CLOSED
+
+Both open Stage 2 gates closed in this session:
+1. **Cold explain-back (`Story.py`)** — Chris explained `elif` correctly
+   (chains off the same `if` gate so only one branch fires; contrasted
+   correctly against stacked independent `if` statements) and `or`
+   correctly after one round of tightening (spikes/snakes are two valid
+   inputs mapped to one shared outcome, not an "and/or" blend).
+2. **Independent code fix (`S2P3.py`)** — Chris removed the stray `D` band
+   (60-69) and changed `"fail"` to `"F"` so the `else` now catches
+   everything below 70 as `F`, matching the drill spec. Verified correct.
+
+Stage 2 mastery checklist is satisfied. Chris is clear to advance to
+Stage 3 (Loops) next session.
+
+Files changed: `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-02-python_wiki\S2P3.py` (Chris's own edit, not AI-written); this log; `current-position.md`.
+
+Next: open Stage 3 (`wiki/stages/stage-03-*.md`) and begin loops.
+
 ## 2026-07-13 — Two misplaced books rerouted in from TECHNOLOGY raw/
 
 `python-crash-course.pdf` and `PythonforProgramers.pdf` were sitting in
@@ -961,3 +980,87 @@ the first review using the calibration log.
 Import `Python_Stages_01-03_Active.tsv` into Anki as `Python::Active::Stages 1-3`.
 At the next flashcard session, add Stage 4 Functions as preview, then resume the
 Stage 2 decision-rules drill.
+
+## 2026-07-14 — Operating contract made model-neutral
+
+- Replaced model-exclusive teaching wording with a shared AI contract. In
+  CONVERGE mode, AI now flags an advanced tangent once and may offer to park it;
+  Chris can explicitly redirect the task without a hard stop.
+- Next action is unchanged: Stage 2 decision-rules drill after the Anki import.
+
+## 2026-07-14 — Human guide reconciled to the canonical Stage 2 frontier
+
+- Updated `HOW_TO_USE.md` from stale Stage 1 language to Stage 2 Decisions and
+  Boolean Logic; generated packets remain explicitly separate from study proof.
+- Reconciled CASTLE/NOW: the choose-your-path mini-project has no recorded completed
+  artifact, so it remains the open Stage 2 proof.
+- Next: complete the mini-project independently, explain the branch logic, and update
+  the mastery checklist only from evidence.
+
+## 2026-07-14 — User routers and template links repaired
+
+- Replaced the stale README curriculum summary with a concise route to HOW_TO,
+  current-position, learning-path, and the local AI contract. Connected the hub to
+  the pre-semester plan and kept the tracker conditional on real D2L data.
+- Corrected three subfolder README links to the live Python templates directory and
+  removed model-exclusive learning ownership. Strict wiki lint is clean.
+
+## 2026-07-15 — Official syllabus and full-path systems review (Codex)
+
+### Work completed
+
+- Visually reviewed all 31 pages of the official CSE 1321 and CSE 1321L PDFs.
+  Corrected the earlier schedule-only extraction: both courses explicitly prohibit
+  AI-assisted submitted work; Think Python is the recommended no-cost text; grading,
+  assessment, Gradescope, LockDown Browser, and tutoring controls are now recorded.
+- Added `syllabus-alignment.md` as the authoritative topic/outcome/policy bridge.
+  Raw syllabus Markdown remains immutable and is correctly labeled a topic-only
+  quick extract.
+- Kept the 0-10 stage architecture stable. Threaded a tiny decomposition habit into
+  Stages 1-2, added the missing standard-library bridge after Stage 4 functions,
+  added the Stage 5 array/list terminology bridge, and corrected Stage 8 wording so
+  recursion and Big O are enrichment rather than claimed syllabus mandates.
+- Corrected the prerequisite chain (functions now precede lists, matching the live
+  path) and repaired stale source-map statements, including the resolved ATBS
+  Chapter 10 gap and obsolete source-count control.
+
+### Pages created/updated
+
+- Created the syllabus map plus a compact Stage 4 concept, code pattern, drill,
+  flashcard batch, and two glossary entries; added one Stage 5 array glossary entry.
+- Updated the hub contract/router, current position, learning path, source map,
+  prerequisite map, indexes, and affected stage pages.
+
+### Vocabulary added
+
+- import statement, standard library, array (course terminology bridge).
+
+### Drills or projects added
+
+- Added `stage-04-library-basics.md` for `math`/`random` import and function-call
+  practice. No graded-work solutions were created.
+
+### Progress evidence
+
+- Verified that `Story.py` runs through multiple branches and meets the Stage 2
+  mini-project's code acceptance points. Stage 2 is **not** advanced: its cold
+  explain-back is unrecorded, and `S2P3.py` rule 3 currently gives 60-69 a `D`
+  despite the drill specifying `F` for every score below 70.
+
+### Parked material
+
+- Java remains a lab-only post-Python bridge. NumPy arrays, packages/`pip`, and
+  deeper library work stay behind their existing prerequisites.
+
+### Next action
+
+Chris independently corrects rule 3 in `S2P3.py`, then explains the `elif` and `or`
+choices in `Story.py` from memory before Stage 2 can close.
+
+### Validation
+
+- Strict wiki lint: PASS (9 hubs, 1,178 pages, 0 blockers, 0 review debt).
+- Canonical root health: PASS WITH DEBT (520 reviewed frontmatter findings, 0 new).
+- Both staged and unstaged whitespace checks pass; live Markdown text integrity
+  passes. Separate PHYSICS and prior hub changes were preserved and excluded from
+  this review's edit claims.

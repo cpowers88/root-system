@@ -10,7 +10,11 @@ tags:
 > The bridge from reading this wiki to acting on it: your first week, your vertical decision, and the exact order to do things in.
 
 ## Timeline Gate — Read This First
-This page describes what to do once Track 3 (this wiki) is actively running. Per NORTH_STAR.md's Business Arc, that clock starts at the **First Contact phase (~Sep 2026)**, with first client targeted for **March 2027** — not on whatever day you're reading this. Track 1 (school, non-negotiable) and Track 2 (Python/SQL, KSU Tracker, POL) come first, per the [[north-star-alignment|three-track order]]. If the calendar hasn't reached First Contact yet, the two decisions below are worth making now (they're cheap and reversible), but hold the outreach/LLC-filing/pipeline steps until the gate opens — right now, the correct daily work is school prep and the Track 2 builds.
+This page activates only when `CURRENT_STRATEGY.md`, CASTLE, and NOW call for active
+client acquisition. It is not a start-on-read checklist. As of July 14, 2026, live
+Physics/Python preparation, the July 25 tracker data turn, and approved bounded
+continuity/business evidence come first. Outreach, filing, purchases, or pipeline
+work still require their normal gate and Chris's approval.
 
 ## Purpose
 Every plan dies in the gap between "I understand it" and "I started it." This page closes that gap: it tells you what to do **once the timeline gate above is open**, forces the two decisions that block everything else, and points you at the ready-made [[templates/template-library|templates]] so nothing has to be built from scratch.

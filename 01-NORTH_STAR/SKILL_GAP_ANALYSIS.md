@@ -1,12 +1,13 @@
 ---
 type: tracker
-tags: [now, north-star]
+timeline: now
+tags: [north-star]
 ---
 
 # SKILL_GAP_ANALYSIS.md — Chris Powers
 #AI #system 
 ### Location: .ROOT/01-NORTH_STAR/
-### Last updated: July 5, 2026 (July monthly review) | Review: Monthly (first session after 1st of month)
+### Last updated: July 16, 2026 (factual reconciliation; July ranking unchanged) | Review: Monthly (first session after 1st of month)
 
 ---
 
@@ -23,25 +24,45 @@ Answer changes every month. Review it. Act on it. One gap at a time.
 ## Current Weak Links — July 2026
 (Priority order — reassessed at July 5 monthly review)
 
-**1. SQL — still the biggest gap, now with a live vehicle**
-Everything worth building eventually touches a database. Unchanged from June — no SQL reps happened (cruise + system month). What changed: the KSU Academic Tracker build (active now) IS the SQL practice — real schema, real queries, real deadline (~July 25 D2L prep).
-Fix: one tracker session or one Luke Barousse segment daily, 20 min minimum.
+**July 15 reconciliation:** the ranking below remains the July 5 monthly decision.
+Only factual progress and next actions were corrected after the North Star migration;
+the next re-ranking is August 1.
 
-**1.5 Technology landscape breadth — structural fix in place, reps not started**
-The possibility map now exists (02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md — 12 categories, need/waste signals, Recommendation Ladder). The gap is now reps, not structure.
-Fix: one 30-minute landscape rep weekly. First two: Make.com, Looker Studio (both zero-reps categories).
+**1. SQL — still the biggest gap, now with a live vehicle**
+The Academic Tracker V1 shipped on Python/SQLite, and the Revenue Lab scanner added
+a bounded SQLite/API rep. The gap is no longer "no reps"; it is using SQL reliably
+with real data. The next meaningful proof arrives when verified D2L/syllabus data
+is loaded into the tracker around July 25.
+Fix: use and debug the tracker on real course data; use a bounded SQL lesson only
+when it supports that frontier and does not displace Physics/Python mastery.
+
+**1.5 Technology landscape breadth — two first reps complete, integration still early**
+The possibility map now exists (02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md — 12 categories, need/waste signals, Recommendation Ladder). The gap is now reps, not structure.
+The first Make.com landscape rep was completed July 9 and the first private Data
+Studio dashboard rep was completed and visually verified July 16.
+Fix: one 30-minute landscape rep weekly when school is on track. Next: build
+integration depth and ROI judgment through the Advanced Application Capability
+Trace in `TECHNOLOGY_LIBRARY_STRATEGY.md`, not another broad reading queue. The
+July 16 goal-aligned audit selected the scanner's SQL/reliability boundary as the
+first integrated proof and parked premature platform complexity.
 
 **2. Structured business analysis — instinct without framework**
-The instinct is there. The documented, repeatable methodology is not. Right now auditing happens by feel. Learning formal process mapping frameworks turns natural instinct into a sellable product.
-Fix: Read the resources below. Practice on real workflows you already know.
+The instinct is there, TOC material is ingested, and one desk-sim observation is
+captured. The documented method still lacks live workflow proof.
+Fix: run one approved real observation and turn it into an actual-state map or VSM;
+record where state, feedback, time, money, or trust leaks.
 
-**3. Data visualization — can find problems, can't show them yet**
-Findings without visuals don't sell. A foreman or business owner needs to see the waste, not just hear about it.
-Fix: Google Looker Studio (free). Connect it to a Google Sheet and build one real dashboard.
+**3. Data visualization — first rep complete, decision communication unproven**
+The private scanner dashboard closed the zero-rep gap. Findings still need to be
+shown around a real decision, defensible calculation, and audience.
+Fix: use the next justified dashboard to communicate cost, variance, or flow from
+a real workflow; do not build a decorative second dashboard.
 
-**4. Python depth — PS2 Loops in progress**
-CS50P is the right path. PS1 complete, PS2 Loops active. Still a gap relative to 18-month goals but closing daily.
-Fix: Stay on CS50P. Connect every problem set to a real use case.
+**4. Python depth — Stage 2 closed; Stage 3 loops active**
+Stages 1-2 are independently verified. Stage 3's first live rep is paused during
+`break`/`continue`; accumulator initialization and indentation need a light recheck.
+Fix: follow the PYTHON wiki's current-position and close each stage through an
+independent build/explain/debug gate before advancing.
 
 ---
 
@@ -55,7 +76,8 @@ Trains: Python + SQL + data storage + report generation
 Output: Something you actually use every day
 Size: Stays small, stays completable
 
-**Status: Parked until July 5 post-cruise. Resumes immediately after.**
+**Status: Parked.** It is not a current commitment; revive it only if a future
+weak-link review finds it is the smallest useful proof vehicle.
 Active repo: `pol` on cpowers88 GitHub.
 
 ---
@@ -107,15 +129,18 @@ The audit itself is the first product. Software comes after the audit confirms w
 ---
 
 ## Next Actions
-- [ ] KSU Academic Tracker build — daily sessions, this is the SQL practice
-- [ ] Luke Barousse SQL segments on days the tracker doesn't run — 20 min
+- [ ] Load verified D2L/syllabus data into the shipped Academic Tracker around July 25; test the real workflow
+- [ ] Use a bounded SQL segment only when it directly supports the tracker/live SQL gap
 - [x] "The Goal" — ingested into the wiki June 2026 (TOC pages live, feeding audit methodology)
 - [ ] Bookmark: iSixSigma.com, ASQ.org, ConstructionDive.com, AGC.org
-- [ ] First practice VSM on a known process (July priority #3)
-- [ ] Weekly 30-min landscape rep — first two: Make.com, Looker Studio
-- [ ] POL resumes as tracker sessions allow
+- [ ] First live workflow observation and actual-state map/VSM (July priority #3)
+- [x] First 30-min landscape rep — Make.com (July 9)
+- [x] First Data Studio dashboard from a Sheet — completed and verified July 16
+- [ ] Follow the Advanced Application Capability Trace without opening parallel projects
+- [ ] Finish PYTHON Stage 3: break/continue, tracing, guessing game, mastery gate
+- [ ] Keep POL parked unless a later weak-link review explicitly reactivates it
 - [ ] Review this file at next monthly review — update weak links
 
 ---
-*Captured: June 5, 2026 | Last reviewed: July 5, 2026 (July monthly review)*
+*Captured: June 5, 2026 | Last reviewed: July 5, 2026 (July monthly review); facts reconciled July 16 without re-ranking*
 *Next review: August 1, 2026 (monthly weak-link check)*

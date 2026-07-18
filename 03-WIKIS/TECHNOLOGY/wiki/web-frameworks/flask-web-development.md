@@ -43,7 +43,7 @@ Flask is explicitly named in the Source Filter as the high-priority web framewor
 | North Star relevance | 4 | The complete toolkit for the first lightweight client-facing tool the audit business will need |
 | Current usefulness | 3 | Ready to use, but no current project calls for a Flask app yet |
 | KSU support | 1 | Not coursework-related |
-| Tech-stack relevance | 5 | Flask is one of the Top 12 stack items |
+| Tech-stack relevance | 5 | Flask is in the technology possibility map; timing follows a real web-tool need |
 | Business audit value | 3 | Useful once a client tool needs a data-entry form, dashboard, or portal |
 | Data/workflow value | 3 | Pairs with the SQL/pandas stack for any client-facing data tool |
 | Reading urgency | 2 | Scoped ingest is closed; nothing further to read in this source |

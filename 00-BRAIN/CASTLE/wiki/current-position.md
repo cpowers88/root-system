@@ -1,10 +1,12 @@
 ---
 type: map
-tags: [baseline, now]
+timeline: now
+status: active
+tags: [baseline]
 ---
 
 # Current Position — July 2026
-### Sources: NORTH_STAR.md, SKILL_GAP_ANALYSIS.md (July 5 review), KSU_Academic_Tracker_Brief.md
+### Sources: NORTH_STAR.md, CURRENT_STRATEGY.md, live domain current-position pages, SKILL_GAP_ANALYSIS.md, KSU_Academic_Tracker_Brief.md
 ### Review cadence: monthly, first session after the 1st
 
 ## Where Chris Is
@@ -14,58 +16,71 @@ tags: [baseline, now]
   ISYE 2600 in Spring 2027.
 - **Financial continuity:** a major school-funding cut disclosed July 14 means
   additional income is required to continue beyond Fall 2026. The active response is
-  the evidence-first `03-WIKIS\REVENUE_LAB` scan: freelance estimating and tutoring
-  first, then the remaining lanes, with a ranked scorecard due about July 21. No lane
-  is approved for build, publishing, outreach, or accounts until the CASTLE profit
-  gate is re-run. `NORTH_STAR.md` needs a Chris-approved income-timeline amendment
-  (SYSTEM_FLAGS #73); this page records the live constraint without preempting it.
-- **Python:** tracked two ways, both early: CS50P through PS2 (loops), and the
-  `03-WIKIS\PYTHON` wiki's staged path at **Stage 2 of 10 — Decisions and Boolean
-  Logic**. Stage 1 was satisfied July 13 through independent code plus explain-back
-  and traceback reasoning; all 11 stage packets are generated, but generated ≠
-  studied. Current work is the Stage 2 mini-project.
+  the evidence-first `03-WIKIS\REVENUE_LAB` scan. The five-lane scan and ranked
+  scorecard are complete. Lane A has internal scanner proof; B2's external proof
+  conversation remains gated on Chris's explicit approval. `NORTH_STAR.md` now
+  distinguishes the before-Spring-2027 continuity-income need from the March 2027
+  first consulting-client target (SYSTEM_FLAGS #73 closed July 14).
+- **Python:** tracked two ways: CS50P through PS2 (loops), and the
+  `03-WIKIS\PYTHON` wiki's staged path at **Stage 3 of 10 — Loops** (active since
+  July 16). Stage 1 was satisfied July 13; **Stage 2 was closed July 16** through
+  the cold `Story.py` explain-back plus Chris's own independent `S2P3.py`
+  correction. Stage 3's first live rep ran July 16 (for/while, range, accumulator)
+  and paused mid `break`/`continue` drill — the stage is open, not closed.
 - **Physics:** `03-WIKIS\PHYSICS` wiki's own `current-position.md` records the active
-  unit as **Stage 3 of 18 — Vectors** (Serway Ch 3), packet complete. Stages 1–2 are
-  assumed cleared from the July stage-packet build-ahead — confirm their mastery
-  checklists before treating them as done if it's been a while since they were last
-  drilled. (Reconciled July 12, 2026 — this line previously lagged the domain wiki
-  at a stale "Stage 1" reading.)
+  unit as **Stage 4 of 18 — Motion in Two Dimensions** (packet source-verified
+  July 7). **Stage 3 (Vectors) was closed July 16** with the full mastery checklist
+  passed cold, no notes; a real-textbook Serway Ch 3 problem set exists for
+  durability reps. (Reconciled July 16, 2026 — this line previously lagged the
+  domain wiki.)
 - **SQL:** #1 skill gap (July monthly review) — now with a live vehicle: the
   [[ksu-academic-tracker]] build (real schema, real queries, ~July 25 deadline).
 - **Audit methodology:** instinct without framework. "The Goal"/TOC already ingested
   into `03-WIKIS\BUSINESS\wiki\ai-integration-company\theory-of-constraints.md`. VSM not
   yet practiced on a real process. Observation methodology
   template exists in `05-BUSINESS\01-Audit Templates\` but is unproven.
-- **Data visualization:** can find problems, can't show them yet. Looker Studio: zero reps.
+- **Data visualization:** first private Data Studio dashboard rep completed and
+  verified July 16. The remaining gap is showing a real operational decision,
+  calculation, and ROI clearly enough for another person to act.
 - **Technology landscape:** structure exists (TECHNOLOGY_LIBRARY_STRATEGY.md — 12
-  categories + Recommendation Ladder); first weekly rep (Make.com) logged July 9,
-  with additional landscape pages added July 13.
+  categories + Recommendation Ladder); first Make.com and Data Studio reps are
+  complete. The new Advanced Application Capability Trace identifies integration,
+  production operation, and governed-AI proof as later rungs rather than reading
+  queues. A July 16 goal-aligned gap audit selected the existing scanner's SQL and
+  reliability boundary as the first integrated proof; Kubernetes, microservices,
+  multi-agent systems, and industrial methods remain behind measured triggers.
 - **Business assets already built:** 51-page business-model wiki, delivery template
   library (audit report, proposal, SOW, outreach), pricing worksheet, field-notes
-  method with one real construction observation logged (June 5). APQC-indexed
+  method with one June 5 construction-domain hypothesis note and one July 14
+  contractor desk simulation. Neither is a live workflow observation. APQC-indexed
   capability-library structure is being added under `05-BUSINESS` for reusable
   client-facing assets.
-- **Clients:** zero. The March 2027 first-client target remains North Star doctrine
-  pending its approved amendment; it is not the near-term answer to the funding gap.
-  Revenue Lab is researching a bounded survival-income lane that can keep school
-  viable while preserving the school-first sequence.
+- **Clients:** zero. After the approved July 14 North Star amendment, March 2027
+  remains the first consulting-client target; it is not the near-term answer to the
+  funding gap.
+  Revenue Lab's five-lane evidence scan is complete. Lane A's internal scanner proof
+  now covers 36 desk-based topics with a deduplicated cross-market top 100; it remains
+  a compounding research lane, not survival-income proof. B2's one external proof
+  conversation remains separately gated on Chris's explicit approval.
 
 ## Weak Links (priority order, from SKILL_GAP_ANALYSIS July 5)
 
 | # | Gap | The fix in motion |
 |---|---|---|
 | 1 | SQL | Tracker sessions daily; Luke Barousse segments on off days (20 min) |
-| 1.5 | Tech landscape breadth | One 30-min rep weekly — first: Make.com, Looker Studio |
+| 1.5 | Tech landscape breadth | Make.com + Data Studio first reps done; next close integration/ROI proof through the application trace |
 | 2 | Structured business analysis | Read core frameworks; practice VSM on known workflows |
-| 3 | Data visualization | One real Looker Studio dashboard from a Google Sheet |
-| 4 | Python depth | Stay on CS50P; tie every PS to a real use |
+| 3 | Data visualization | Use the next justified dashboard for a real decision and defensible calculation |
+| 4 | Python depth | Stage 3 loops active; close each stage by independent build/explain/debug proof |
 
 ## Assets Chris Has That Most Beginners Don't
 
 - Two entry wedges: Heather's warm local real-estate network for immediate access, plus construction domain knowledge and cultural credibility for parallel access
 - Aptitude profile matched to the work (idea generation, numerical, spatial, extroverted)
-- A working AI operating system (00-BRAIN) and a two-member team: Chris + Claude
-- ~230 pages of digested methodology across `03-WIKIS\BUSINESS` and `03-WIKIS\SYSTEMS` — lean, consulting, factory physics (inherited from FORGE's July 7, 2026 retirement)
+- A working AI operating system (00-BRAIN) and a unified team: Chris + AI, with model capability profiles rather than file or task lanes
+- Substantial digested methodology across `03-WIKIS\BUSINESS` and
+  `03-WIKIS\SYSTEMS` — lean, consulting, and factory physics; each index owns its
+  live inventory
 - Family constraint discipline: systems must reduce friction, or they get deleted
 
 ## The Monthly Weak-Link Question

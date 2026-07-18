@@ -1,10 +1,10 @@
 ---
 type: template
-tags: [next, business, audit]
+timeline: next
+tags: [business, audit]
 ---
 
 # TECHNOLOGY & OPERATIONS AUDIT REPORT
-#audit #business #template 
 ## [Client Business Name] | Prepared by Chris Powers
 ### Date: [DATE] | Version: [1.0]
 

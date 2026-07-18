@@ -1,9 +1,11 @@
 ---
 type: template
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # DAILY — YYYY-MM-DD
+### Copy rule: change `type` to `log` and `timeline` to `log`; retain topic tags only.
 ### One file per day: `DAILY_YYYY-MM-DD.md` → `00-BRAIN\Session_Logs\`
 ### Every session appends. Never rewrite earlier blocks — append only, like the castle log.
 ### Why it exists: task-level truth feeds the Day Summary → weekly review → evolution loop. A day with work but no DAILY file is a broken report chain.
@@ -47,8 +49,8 @@ and the message to the other AI.
 ## Day Summary — YYYY-MM-DD
 - Moved: [what actually advanced today, 1-3 lines]
 - Blocked: [anything still stuck, or "nothing"]
-- Drift check: [did today's work point at the North Star? one honest line]
-- Tomorrow: [the single priority — this line seeds NOW.md]
+- Integrity check: [did AI/system behavior support the requested outcome and live direction?]
+- Tomorrow: [starting action + fixed commitment + soft review point — seeds NOW.md]
 - Feeds weekly: [anything the Sunday review must see, or "routine"]
 ```
 

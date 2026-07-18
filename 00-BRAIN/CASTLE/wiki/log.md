@@ -1,8 +1,175 @@
 ---
-tags: [reference]
+type: log
+timeline: log
+tags: []
 ---
 
 # Castle Log — Append Only
+
+## 2026-07-17 (evening) — MCP Bootcamp: profit gate, Claude review, Chris confirmation, plan locked
+
+- **Gate sequence:** Codex ran the pre-D2L technology boot-camp profit gate
+  (PASS, bounded), corrected an initial scanner/MCP conflation same evening
+  (revised PASS: local Python MCP server as integration capstone, not the
+  scanner), then prepared `ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`
+  as a standalone Claude edit/review packet.
+- **Claude's independent review** (Operator hat) approved with one required
+  correction and four bounded modifications, grounded in `radar.md`'s own MCP
+  row, `CURRENT_STRATEGY.md`, `PRE-SEMESTER_PREP_PLAN.md`, PYTHON/PHYSICS
+  `current-position.md`, and a live fetch of the official MCP RC blog post
+  (confirmed July 28 final-publication date; surfaced an unflagged detail —
+  the RC deprecates Roots/Sampling/Logging as protocol capabilities and
+  removes the init handshake/session entirely, folded into Day 1 baseline
+  work). Critical correction: the radar row's own gate condition read
+  "after July 28... CASTLE decides," but the gate fired July 17 — defensible
+  in substance (sprint stays inside durable pre-finalization fundamentals),
+  but `radar.md` itself needed its own status update, which the original
+  file list missed.
+- **Chris confirmed go, then clarified scope** in the same exchange: "simulation
+  intake off my memory" meant using the real, already-documented
+  `05-BUSINESS\02-Field Notes\observation_one.md` construction-workflow
+  observation — not new weekend fieldwork (family capacity doesn't support
+  it). Also stated Python fundamentals don't need dedicated days ("good with
+  it for now... if it gets advanced I can ask"), and set a binding rule for
+  the whole sprint: **no AI produces a finished artifact he didn't
+  type/decide/explain-back live** — a couple of sentences on any new term,
+  live, not batched afterward. This generalizes beyond this one sprint and is
+  worth carrying into future build sessions generally, not just MCP week.
+- **Plan finalized:** proof vehicle is `observation_one.md`'s real content
+  structured into a small SQLite fixture (2-3 tables), not synthetic, not
+  the scanner; MCP-specific build capped at ≤3 hours across two sessions
+  (Tue Jul 21, Thu Jul 23); named project home created at
+  `02-LIBRARY\.PROJECTS\MCP_Bootcamp\` (local git only for now — GitHub
+  remote deferred until continuation is earned); dated Jul 17–26 sequence
+  with every build day marked live-paired; July 25 acceptance test defined;
+  July 26 D2L transition confirmed as a hard, non-flexing boundary.
+- **Records updated same session:** `NOW.md` (Start Here, Current Picture,
+  This Week, Upcoming, Boundaries, pointer list — date header also corrected
+  from stale Thursday to Friday), `radar.md`'s MCP row (status →
+  GATED/TESTING, outcome recorded), this log entry, and
+  `DAILY_2026-07-17.md`.
+- **Outcome pending:** July 25 acceptance test. Review packet
+  (`00-BRAIN\Session_Logs\ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`)
+  is the authoritative live plan; this log entry summarizes, does not
+  duplicate it.
+
+## 2026-07-17 (late evening) — MCP Bootcamp revised: Codex's eight-lens format restored
+
+- Chris asked for one more honest look at Codex's original draft
+  (`claudereadcodexplan.md`), checked against `NORTH_STAR.md` and Chris's
+  YouScience aptitude profile rather than style. Verdict: the original
+  eight-lens, one-continuous-case, accumulating-blueprint structure fits
+  Chris's Extrovert/Generalist/Future-Focuser/3D-Visualizer/Process-Supporter
+  profile better than the locked plan's single narrow MCP-build track. The
+  locked plan's discipline was not wrong and does not change: real
+  field-note data, MCP scoped as a ≤3 hr capstone inside one lens, mandatory
+  live-pairing Working Method, July 26 hard boundary, Displacement/Stop
+  Rules — all unchanged.
+- Fused day-by-day sequence now runs Systems Audit → Strategic Logic → Data
+  Engineering → Automation → AI Infrastructure → Cybersecurity/Governance →
+  Product/Value → Integration, one lens per day, each mapped to the
+  Advisor-Builder loop (Observe → Diagnose → Engineer → Deploy → Train and
+  Retain → Harvest). Standard Artifact Contracts (Evidence, Workflow step,
+  System, Finding, Recommendation, Automation event, AI evaluation, Control)
+  restored from Codex's original draft as the reusable fields across all
+  eight days.
+- **New stipulation (Chris):** do not design the sprint to make `.ROOT`
+  inspect/upgrade itself to adopt this teaching format mid-sprint — that
+  would add meta-scope North Star already warns against ("planning can
+  imitate progress"). Instead, a separate development-notes track
+  (`02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\learning-format-notes.md`) logs
+  how well the fast-paced multi-lens format itself works, independent of
+  the content harvest. Whether it becomes a standing `.ROOT` skill is a
+  Day-8-or-later evidence-gated proposal under `AGENT.md`'s AI-initiated
+  system-evolution path, not a decision made now.
+- Records updated same pass: the review packet (second revision section),
+  `NOW.md`, this log, `DAILY_2026-07-17.md`, and the project README
+  pointer. `claudereadcodexplan.md` archived to `99-ARCHIVE\` — its content
+  is now fully incorporated in the review packet; the loose root copy is no
+  longer live anything.
+- Outcome pending: same July 25 acceptance test, now delivered inside the
+  Day 8 Integration/owner-presentation lens instead of as a standalone
+  checklist.
+
+## 2026-07-17 (session close) — Git rescue + 77-INBOX weekly-style sweep
+
+- Diagnosed a GitHub Desktop "won't let me commit" report as a `git stash`
+  (auto-triggered on a branch action) plus a genuine second cause — a nested
+  `git init` inside `02-LIBRARY\.PROJECTS\MCP_Bootcamp\` that GitHub Desktop
+  flags and blocks staging for. Stash popped clean (zero loss, verified
+  before restoring), nested repo now excluded via root `.gitignore` (its own
+  history untouched). `PHYSICS\.git` — a second, inert nested repo — flagged
+  but not touched.
+- Ran the `77-INBOX` routing checklist (`OPERATIONS.md § Weekly Inbox
+  Routing Checklist`) against all 8 PDFs sitting there. Routed Chris's two
+  named files to their confirmed hub homes (`Process Mining Handbook.pdf` →
+  SYSTEMS raw/, `AI in Business and Economics.pdf` → AI_AUTOMATION_SYSTEMS
+  raw/) via three parallel research checks rather than guessing — both tie
+  directly to this week's MCP Bootcamp lenses (Systems Audit / Product &
+  Value). Four PDFs confirmed as exact duplicates of already-compiled
+  sources, left in place. One title (`Lean Startup`) confirmed genuinely new
+  with no coverage anywhere. One (`Programming Logic and Design`) parked,
+  matching Chris's own stated Python-fundamentals position. Per the routing
+  checklist rule 4 ("leave ambiguous files in place and flag instead of
+  guessing"), logged all open dispositions as `SYSTEM_FLAGS.md` #77 (LOW)
+  rather than deciding unilaterally.
+- Root health: `PASS WITH DEBT`, 0 new debt, checked twice this block. No
+  HIGH flag open. Next: Sat Jul 18 opens the boot camp's first live-paired
+  session per `NOW.md`; flag #77 waits on Chris, no forced timeline.
+
+## 2026-07-15 (evening) — Prove-the-loop staging (Chunk 4 of the approved system-design lane)
+
+- The design gaps from the July 14 direction review are closed as of tonight
+  (canonical System Loop + Return Packet in the capability contract; hub-type
+  blocks in all eight `HOW_TO_USE.md`; Post-Change Checks on every approved
+  system change). What remains is Pass C: proof through real use, by August 24.
+- **Two system changes to run through real check_at verdicts** (chosen because
+  both fire on every real session, so evidence accumulates without extra work):
+  1. `2026-07-12_session-close-capture-prompt` — check 2026-07-25 (~10 closes).
+  2. `2026-07-09_wiki-shared-layer-and-lane-cleanup` — check 2026-07-24.
+  The weekly sweep's new check_at bullet (OPERATIONS.md) carries these dates.
+- **Three candidate real-work loops to close end-to-end** (research/learning →
+  use → measured outcome → changed artifact or belief):
+  1. **School:** Physics Stage 3 — harder non-axis-aligned vector rep → no-notes
+     pass over all four skills → mastery checklist verdict in
+     `03-WIKIS\PHYSICS\wiki\current-position.md`. (Python Stage 2 mini-project is
+     the alternate if Physics closes early.)
+  2. **School-ops build:** KSU Academic Tracker — verified D2L data ~July 25 →
+     real course-tracking use → measured outcome recorded against
+     `wiki\proof-projects\ksu-academic-tracker.md`.
+  3. **Sensing-to-strategy:** the first genuine external signal that clears the
+     Watchtower promotion threshold → radar's first real row → CASTLE gate →
+     bounded test → measured outcome. Not manufactured; if no qualifying signal
+     appears by Aug 24, that is recorded honestly.
+- **Standing rule for this window:** outcomes are only writable with a linked
+  artifact produced by actual use. An honest shortfall at the August 24 review
+  beats a manufactured proof. System work is now maintenance-only; school,
+  delivery, and income evidence own the calendar.
+
+## 2026-07-15 (morning) — Stability review + Fall CASTLE calendar built (SYSTEM_FLAGS #51 closed)
+
+- Ran the morning system review Chris requested (Operator hat): boot chain PASS,
+  strict wiki lint PASS (0 blockers/0 review debt), frontmatter audit clean of new
+  findings (621 pre-existing known tag debt). No HIGH flags open. Also caught a
+  concurrent commit (`478bb35 "hey"`) landing mid-review — confirmed by Chris as his
+  own action, not a runaway process.
+- Built the Fall semester CASTLE/FLOAT calendar (SYSTEM_FLAGS #51), working from
+  Chris's real Ben Care hours (Sun 7-10am/6-8pm, Mon-Fri 7-9am/5-8pm, Sat 7am-2pm),
+  which replaced a stale, incomplete pattern (Thu/Fri evening only, 3hr weekend
+  blocks). Filled every remaining open window with the existing Launch Pad → CASTLE
+  → Flash Card → Lunch + Break → CASTLE/FLOAT → Session Close rotation. 57 total
+  calendar operations on the North Star Calendar, all confirmed, recurring weekly
+  Aug 24 → Dec 15, 2026.
+- New confirmed capacity: ~29h45m/wk CASTLE + ~36h55m/wk FLOAT — supersedes the July 7
+  baseline (~24-26h/~10h), which undercounted Chris's actual family-duty hours.
+  `OPERATIONS.md` rule 8 rewritten to match.
+- Left three Ben-Care/class overlaps visible and unresolved rather than guessing a
+  fix (Tue/Thu ECON 8-8:55am; Mon/Wed CSE Lecture tail 5-5:30pm; Tue CSE Lab
+  5:45-7:35pm) — Chris is resolving the real Mon-Fri childcare plan with Heather in
+  ~2 weeks; this build is explicitly provisional pending that.
+- Next: once the real childcare plan lands, rebuild the Ben Care blocks (not patch)
+  and re-check the three flagged overlaps. Then return to Physics Stage 3
+  (vector-addition problem, paused July 14).
 
 ## 2026-07-12 (evening) — ROOT_OPERATING_MANUAL.md execution brief (V2) executed
 
@@ -453,7 +620,7 @@ tags: [reference]
 - Fixed two P2 findings: removed three stale "41 pages" exact-count claims from SYSTEMS
   `CLAUDE.md` (live count is 78; replaced with durable non-exact wording); corrected CASTLE
   `HOW_TO_USE.md` Last Updated metadata from July 6 to July 12 (operating-contract normalization).
-- Files changed: `03-WIKIS\AI_AUTOMATION_SYSTEMS\HOW_TO_USE.md`, `05-BUSINESS-Capability
+- Files changed: `03-WIKIS\AI_AUTOMATION_SYSTEMS\HOW_TO_USE.md`, `05-BUSINESS\06-Capability
   Library\README.md`, `ROOT_OPERATING_MANUAL.md`, `03-WIKIS\SYSTEMS\CLAUDE.md`,
   `00-BRAIN\CASTLE\HOW_TO_USE.md`; this log; AI_AUTOMATION_SYSTEMS `wiki\log.md`; DAILY.
 - Result: shipped, pending re-run of boot validation / strict wiki lint / frontmatter audit
@@ -471,7 +638,7 @@ tags: [reference]
   1 deferred to Codex (undesigned, would be the first hook in `.ROOT`).
 - Notable: one of the seven proposals was CASTLE catching its own rule violation — `OPERATIONS.md` says
   CASTLE is not the landscape-research layer, but CASTLE did exactly that research in place this morning
-  (both docs packs ingested directly in `CASTLEawooks\`). The low-risk half of the fix (a
+  (both docs packs ingested directly in `CASTLE\raw\books\`). The low-risk half of the fix (a
   `WHERE_IT_GOES.md` raw-intake rule) is now live; the boundary-reinforcement half of `OPERATIONS.md` itself
   stays pending Chris's direct call, correctly, per CASTLE's own change-approval rule.
 - Files changed: `00-BRAIN\AGENT.md`, `00-BRAIN\CLAUDE.md`, `00-BRAIN\WHERE_IT_GOES.md`, four skill-file
@@ -682,3 +849,276 @@ gate before any permanent content/revenue workspace or publishing commitment.
   `00-BRAIN\Session_Logs\YT_SCANNER_TOPIC_REPORT_AND_PRIVATE_PROOF_EXECUTION_BRIEF_2026-07-14.md`.
 - Skill-page candidate only: `technical-tutorial-production`; do not create until the
   private proof fits the time cap and Chris approves recurring use.
+
+## 2026-07-14 (afternoon) — Lane A scanner internal proof closed for today (Codex)
+
+- Completed the approved scanner build and broadened the primary research view from one
+  Claude Code topic to a 36-topic, deduplicated desk-based market report.
+- Evidence state: 2,615 raw unique candidates; 2,113 after a reversible title-relevance
+  gate; combined top 100 split 50 long-form/50 Shorts, with rank 100 at 891,117 views.
+- This remains attention evidence, not income proof. Full-video human classification is
+  the next Lane A action; public channel/account, posting, monetization, affiliates,
+  paid tools, and kids content remain HOLD.
+- No more Lane A work today. The next task may return to the school-first queue.
+
+## 2026-07-14 — Unified AI operating model implemented (Codex, Chris-approved)
+
+- Reconciled CASTLE to the universal one-team model: surface profiles describe
+  strengths, not exclusive authority; DIVERGE/CONVERGE control AI work flow,
+  not Chris; the high-load school window now uses one warning plus a scoped
+  recommendation rather than a hard stop.
+- Added [[opportunity-queue]], separated the capability proof ladder from asset
+  maturity, strengthened weekly/monthly value reviews, and made direct
+  Chris-approved evolution distinct from AI-initiated evidence gating.
+- Closed funding flag 73: continuity income is required before Spring 2027;
+  March 2027 remains the first consulting-client target.
+- Validation: boot chain PASS, shared skills PASS, strict wiki lint 0 blockers / 0
+  review debt, diff check PASS, and no private/raw changes.
+- Next action: resume the paused Physics Stage 3 vector-addition problem; test
+  the new operating model through normal use before another architecture pass.
+
+## 2026-07-14 (evening) — CASTLE system review completed (Codex, Chris-directed)
+
+- **Verdict: PASS.** The unified operating-model update landed and the
+  system is structurally healthy; the active risk is truth maintenance, not missing
+  architecture.
+- Corrected material proof drift: the June 5 construction note is domain knowledge,
+  and July 14 is a Chris-accepted desk simulation. Neither is a live observation.
+  CASTLE now records zero live field-observation reps without reversing Chris's
+  explicit Practice Rep 1 closure.
+- Corrected Phase 0: tracker V1 shipped July 8; the next proof is real D2L/syllabus
+  data around July 25, not unfinished queries.
+- Clarified the continuity-income exception: Lane A private research does not activate
+  the Phase 8+ public content/audience asset class or authorize publishing.
+- With Chris's explicit approval, the MEDIUM Capability Library mismatch was corrected:
+  desk simulation completed/live validation unrun, with maturity kept at draft. Full report:
+  `00-BRAIN\Session_Logs\CASTLE_SYSTEM_REVIEW_2026-07-14.md`.
+- Next action: resume the paused Physics
+  Stage 3 vector-addition problem. No new architecture pass is warranted.
+
+## 2026-07-14 — North Star progressive-loading migration installed
+
+- Preserved Chris's exact draft and replaced copied strategy doctrine with a compact
+  durable North Star plus `CURRENT_STRATEGY.md`, a live-wiki-driven pre-semester plan,
+  and `System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+- Connected evidence home → Watchtower → CASTLE gate/bounded test → measured outcome
+  → CURRENT_STRATEGY assumption/milestone → quarterly Ratchet.
+- Reconciled CASTLE boot, roadmap, phase/source/skill maps, decision gate, profiles,
+  human maps, and contributing wiki contracts. Closed SYSTEM_FLAGS #74.
+- Corrected Physics to Stage 3 and retained Python Stage 2's mini-project as unproven
+  until a completed independent artifact exists.
+- Next: resume the paused Physics vector-addition problem; do not open another system
+  pass unless validation exposes a real blocker.
+
+### Validation
+
+- Boot chain: PASS — 30 boot files, 1,100 live pages, no stale governance references.
+- Strict wiki lint: PASS — 9 hubs, 0 blockers, 0 review debt.
+- Shared skills: PASS — 4 canonical skills, 2 mirrors.
+- Diff hygiene and semantic routing smoke checks: PASS.
+- Frontmatter audit remains advisory; its only missing-frontmatter live file is the
+  pre-existing `05-BUSINESS\02-Field Notes\observation_one.md`, outside this migration.
+
+## 2026-07-14 — Post-migration navigation cross-reference passed
+
+- Reconciled the root vault map, START_HERE, operating manual, CASTLE user router,
+  and affected hub guides/READMEs with the new North Star/current-strategy split.
+- Added REVENUE_LAB to the canonical graph-color registry and regenerated the
+  Obsidian graph configuration; all live top-level folders are now classified or
+  explicitly excluded.
+- Strict wiki lint reports 0 blockers and 0 unresolved dead links. Retired names
+  remain in append-only logs only as historical evidence, not live instructions.
+- Next: return to Physics Stage 3; do not reopen architecture work without a real
+  navigation or operating failure.
+
+## 2026-07-15 — Post-migration integrity and usability audit passed
+
+- Reconciled residual retired-track language and stale technology/skill/project proof
+  claims to the permanent-capability/current-strategy model; POL remains parked unless
+  a future weak-link review explicitly reactivates it.
+- Archived verified superseded, duplicate, zero-byte, header-only, and empty-project
+  artifacts without deleting history. Live duplicate groups and unexplained zero-byte
+  files are now zero.
+- Replaced the stale 126-line history-heavy cockpit with a compact owner-routed
+  `NOW.md`; preserved the exact prior cockpit in archive.
+- Removed the scanner credential from the synced vault without displaying it, taught
+  the scanner to use the external secret location, and passed its offline selftest.
+- Validation: boot PASS; strict wiki lint 0 blockers/0 review debt; shared skills PASS;
+  0 unresolved direct root Markdown paths; 0 retired active-interface hits.
+- Next: follow the latest `NOW.md` owner state: close the bounded Fall CASTLE-calendar
+  task now listed first, then return to Physics Stage 3. Do not expand this audit into
+  another architecture pass.
+
+## 2026-07-15 — Metadata v2 Phase 5A–5D checkpoint prepared (Codex, Chris-directed)
+
+- Phase 5A migrated authority surfaces; Phase 5B clarified CASTLE creation
+  templates; Phase 5C separated the reference/navigation layer from action timing.
+- Phase 5D migrated nine CASTLE action pages from legacy control tags to explicit
+  timeline metadata: seven now, one next, and one later. Seven static phase
+  associations use `stage`; multi-phase SQL remains unforced.
+- The CASTLE router now exposes the complete current-page search while preserving
+  `.ROOT\NOW.md` as the system-wide daily authority. Phase 0 also reflects the
+  tracker’s July 8 shipment and its two already-completed baseline criteria.
+- `NOW.md` was checked against its live owner state; this metadata correction did
+  not change daily priority, so no cockpit rewrite was needed.
+- Next: obtain Chris’s final approval for the exact Phase 5D checkpoint, commit it
+  without Claude’s concurrent DAILY/PHYSICS files, then open the next bounded
+  Phase 5 chunk.
+
+## 2026-07-15 — CASTLE special-role metadata closure ready (Codex, Chris-directed)
+
+- Classified the CASTLE index as a core reference map and the append-only CASTLE
+  log as historical evidence; removed their final two legacy control tags.
+- Verified `current-position.md` already expresses its live role correctly and
+  left its metadata and body unchanged.
+- Retrieval now resolves to six core reference pages, three supporting reference
+  pages, eight current pages, and one CASTLE history page.
+- The two named missing-type findings are resolved; the remaining reviewed
+  metadata debt is 618, with no baseline refresh or unrelated migration.
+- Next: Chris reviews this exact three-file Phase 5E checkpoint before commit and
+  selection of the next bounded metadata realm.
+
+## 2026-07-16 — Profit gate: real-estate ecosystem entry concepts
+
+- Ran the live adding-a-profit-skill gate against the easiest warm-network
+  workflows rather than treating a “groundbreaking platform” as evidence.
+- **PASS — Flip Margin Leak Audit + Cost-to-Complete Cockpit.** No-orphan:
+  serves the current real-estate/construction Advisor-Builder wedge. Source:
+  ATTOM's 2025 flip-return data (including nationally leading flip rates in Cobb
+  and Clayton counties) plus the existing BUSINESS evidence home. Phase:
+  Phase 2 observation/service proof. Displacement: replaces the generic public-
+  data baseline and speculative intake-platform build. Proof: one completed flip
+  replay identifies a material underwriting-to-actual variance and earns a
+  request to monitor the next deal. Logged as `OPP-20260716-01`, worth testing.
+- **HOLD — Closing Exception Autopsy / Deal Friction Radar.** No-orphan and phase
+  pass; regulated responsibility and existing platforms are documented, but the
+  specific unsolved local exception, buyer, and lawful data path remain unknown.
+  Unlock condition: one redacted delayed or failed transaction proves repeated
+  chasing, measurable consequence, and a reachable owner. Logged as
+  `OPP-20260716-02`, researching; no platform build.
+- High-load warning applied once: school remains fixed. The first approved proof
+  is capped at one 60-minute conversation and one Sheet, displacing other business
+  exploration rather than Python or Physics work.
+
+## 2026-07-16 (14:30) — Mid-afternoon system check and cockpit reconciliation (Claude Code, CASTLE hat)
+
+- Reviewed the full day against the command center: Physics Stage 3 and Python
+  Stage 2 both closed today; Python Stage 3 first rep is paused mid
+  `break`/`continue` drill; the real-estate profit gate produced OPP-20260716-01
+  (PASS, worth testing) and -02 (HOLD); Lane A gained a top-100 human
+  classification worksheet and a conditional-GO private proof; the metadata
+  regression was repaired to `PASS_WITH_DEBT` with a Sunday July 19 recurrence
+  review.
+- Corrected drift, no structure opened: refreshed `NOW.md` (Start Here now leads
+  with the paused Python drill; Business/Continuity/`.ROOT` rows updated; July
+  19/21/23 triggers added; Anki import listed as the 5-minute human task);
+  updated [[current-position]] and [[source-map]] learner positions to Python
+  Stage 3/10 and Physics Stage 4/18; refreshed [[index]]'s current state.
+  Opportunity queue and source registrations from the morning gate were already
+  correct — verified, not duplicated.
+- Float-time verdict: (1) 5-min Anki import, (2) resume the paused Python Stage 3
+  drill — smallest open loop on the school spine, (3) then either the Lane A
+  worksheet labels or the private scanner proof; Looker Studio only if school
+  stays on track. No new architecture work is warranted.
+- Next action: resume Python Stage 3 at the range(1,21) multiples-of-7
+  `break`/`continue` drill.
+
+## 2026-07-16 (15:10) — Chris-directed rebalance: pre-semester is the heavy tech-stack window
+
+- Chris corrected the 14:30 float-time verdict: today already carried 3–4 hours
+  of school work and two stage closures, it is summer break, and syllabi don't
+  arrive until ~July 25. School-first ordering applies to fixed deadlines, which
+  don't exist yet. The pre-semester plan's own priority 5 permits wider
+  capability work whenever the live school proofs are on track — today they are
+  closed, not just on track.
+- New operating rhythm until Aug 24 (recorded in `NOW.md` Start Here #3): one
+  school proof block per day (Python/Physics stage reps, mornings as today),
+  then heavy tech-stack blocks with remaining capacity — daily SQL against the
+  scanner's live SQLite DB (real data now; switch to the tracker at the ~July 25
+  D2L turn), Looker Studio dashboard reps starting with scanner data via a
+  Google Sheet, the weekly landscape rep, and scanner build features that double
+  as Lane A evidence.
+- Looker Studio moved from "if school remains on track" to a committed This Week
+  item: it kills the #3 weak-link zero-rep gap, counts as the landscape rep, and
+  rehearses the cost-cockpit deliverable the flip-margin proof (OPP-20260716-01)
+  will need.
+- No doctrine change: AGENT.md priorities, the pre-semester plan, and approval
+  gates are untouched. This is daily-sequencing texture, which NOW/CASTLE owns.
+- Next action: Stack Rep #1 — export the scanner top-100 to a Google Sheet and
+  build the first Looker Studio dashboard.
+
+## 2026-07-17 — Profit gate: pre-D2L technology boot camp (Codex + Chris)
+
+- **PASS — bounded application boot camp.** This is not a new skill or opportunity
+  row; it formalizes the heavy-tech-stack window already authorized in `NOW.md`
+  and follows the existing Advanced Application Capability Trace.
+- Gate: no-orphan **pass** (Phases 0–2; Python/SQL/integration capability and the
+  Advisor-Builder recommendation map); source **pass** (live North Star, Technology
+  Library Strategy, July 16 gap audit, and pre-semester plan); phase **pass**;
+  displacement **pass** (broad reading, new architecture, unrelated app tours,
+  decorative dashboard iteration, and speculative opportunity work); proof
+  **pass** (one independently explainable scanner reliability chain with SQL
+  evidence, extracted tests, bounded failure handling/run history, CI, and an
+  operator handoff, scoped to what the sprint window actually earns).
+- School floor remains one focused proof block daily: finish Python Stage 3 first,
+  keep Physics Stage 4 moving, and do not spend the July 25 D2L/course-data turn.
+- Application breadth is allowed only as a short daily map rep tied to a named
+  business need and Recommendation Ladder decision; installed/opened tools and
+  reading do not count as proof.
+- Window corrected by Chris: remainder of Friday July 17 plus eight full working
+  days, July 18–25. Sunday July 26 is the hard transition to D2L document intake
+  and the first real school-prep week.
+- Next: Chris and Codex approve the exact stack, blocks, and success/stop conditions;
+  then refresh `NOW.md` only after the sprint shape is confirmed.
+
+### 2026-07-17 clarification — MCP signal restored to the stack decision
+
+- Chris correctly challenged the scanner-centered framing. The July 16 Category 9
+  landscape rep had promoted MCP to the Watchtower with a July 28/spec-finalization
+  review and a possible bounded local rep; a separate same-day gap audit selected
+  scanner reliability for the ordinary application sequence. Codex had conflated
+  those two decisions when drafting the boot-camp stack.
+- Revised gate: **PASS, bounded** for MCP as the boot-camp integration capstone.
+  Phase/no-orphan/source/proof pass; it replaces the YouTube/API/dashboard focus and
+  broad app touring. Build only a local, read-only Python MCP server on stdio, test
+  it with the official Inspector and one host, and record input validation, errors,
+  permissions, and tool traces. Existing scanner data may supply one harmless query,
+  but no new YouTube research, API harvesting, content decision, or dashboard work
+  belongs to this sprint.
+- Breaking-change boundary: do not commit to remote deployment, production auth,
+  MCP Apps, or the release-candidate-specific architecture before the July 28 final
+  specification. Exact stack still awaits Chris approval before `NOW.md` changes.
+
+## 2026-07-17 (night) — MCP Bootcamp final engineering review: four tightenings + workbench thread (Claude + Chris)
+
+- Chris requested a final pre-launch review under the Technology Engineer hat
+  (Engineering Playbooks: Technical Review procedure). Claude verified the
+  plan's physical dependencies directly before the verdict:
+  `observation_one.md` exists with table-ready Amendment answers; the
+  `MCP_Bootcamp\` scaffold is real (git init, requirements, Docs,
+  format-notes log).
+- **Verdict: plan sound. Chris approved with four tightenings adopted:**
+  (1) SDK install = mechanical prep before Wed 7/22, version/spec-side
+  confirmation = first 5 live minutes of Wed 7/22; (2) 2.5–3.5 focused
+  hrs/lens after the school block, the daily gate — not the artifact list —
+  defines "done"; (3) the master blueprint accumulates 10–15 min at each
+  day's close, Day 8 integrates and presents only; (4) fixture rows carry a
+  `source` label (reconstructed-from-experience vs. measured) so Day 3's
+  provenance gate holds on its own fixture.
+- **Workbench fluency thread added (Chris-approved):** the review surfaced
+  that the plan assumed but never taught the workbench trio (terminal +
+  Git/GitHub + VS Code) — the exact layer Chris named as shaky. A daily
+  ~20–30 min named workbench rep, practiced on that day's real artifact,
+  replaces the awareness-mapping slot (app-network mapping shrinks to a few
+  rows on Days 3–4). Rep sequence: VS Code workspace → staging/diffs →
+  Python-in-VS-Code/venvs → branching → debugger → push/PR → Actions CI →
+  tags/README. Thu 7/23's PR rep needs Chris's one-line GitHub-remote
+  approval that day; works locally without it. If a day runs long, the
+  workbench rep flexes first — the lens gate and school block never do.
+- Recorded technology-priority frame for school + business: workbench trio →
+  Python → SQL/SQLite → testing/CI → APIs/MCP.
+- Unchanged: schedule, lens sequence, proof vehicle, MCP ≤3 hr cap, Working
+  Method, acceptance test, honest floor, July 26 hard boundary. Records
+  updated this pass: review packet (Fourth Revision), `NOW.md`, this log,
+  `DAILY_2026-07-17.md`.
+- Outcome pending: July 25 acceptance test, unchanged.

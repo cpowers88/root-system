@@ -337,3 +337,348 @@ This wiki's pages are unchanged — its `ai-and-llm/` lane stays closed.
 None here. This wiki's raw/ is now fully accounted for (NIST duplicate
 flagged for Chris's manual call under flag 56). Weekly rep carry-over
 unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
+
+## 2026-07-14 — Boot terminology reconciled
+
+- Updated the section operating contract to refer to surface capability profiles
+  rather than task lanes. No technology research page, boundary, or queue changed.
+- Next action remains the normal technology-landscape rep cadence.
+
+## 2026-07-14 — Google OAuth reference routed from Clippings
+
+- Moved the official Google “Using OAuth 2.0 to Access Google APIs” clipping
+  into this hub's immutable `raw/` as an applied technical reference.
+- No derived page was created: the current Second Brain review did not require
+  OAuth implementation, and source ingestion is not proof of use.
+- Next: ingest or cite it only when an authorized Google API project needs an
+  OAuth flow decision; credentials and secrets never enter the vault.
+
+## 2026-07-14 — Guide truth and Watchtower handoff reconciled
+
+- Corrected the human guide from the stale 68-page/no-landscape state to the July 13
+  inventory (107 pages plus four landscape pages), while assigning live-count truth
+  to `wiki/index.md`.
+- Added the material-signal contract: evidence remains here; only a verified external
+  change with an affected assumption/choice, consequence/test, and review trigger
+  reaches `...projectSuccess\radar.md`.
+- Next: normal weekly landscape rep; promote nothing merely because it is new.
+
+## 2026-07-14 — Human guide path audit
+
+- Corrected HOW_TO to use the exact Technology Library Strategy, update, close, and
+  question paths while keeping the Watchtower evidence boundary intact.
+- Cross-reference validation found no active dead link in the user guide.
+
+## 2026-07-15 — Completed-migration tense corrected
+
+- Corrected the section operating file from “FORGE is retiring” to the completed
+  July 7 retirement. No migration, inventory, routing, or research state changed.
+- Next: normal weekly landscape rep; historical FORGE provenance remains truthful.
+
+## 2026-07-15 — Structure, routing, and source-accounting review
+
+- Audited the complete hub: 103 applied-reference pages across nine subject
+  folders, four root landscape pages at review start, and 25 immutable raw
+  files (~688 MB). Every content page was indexed; strict wiki lint found no
+  broken navigation or duplicate Markdown content.
+- Rechecked the latest pushed Technology delta (`a3ead14`): it changed only
+  `HOW_TO_USE.md`. No raw source is newer than the already-classified July 14
+  OAuth clipping, so no large-file re-ingest or new chunk intake was warranted.
+- Corrected two historical index labels: Web Frameworks is 15 pages, not 16;
+  inherited AI & LLM Concepts is 10 pages, not 11. No content was missing.
+- Moved the July 13 AI-coding landscape page to `AI_AUTOMATION_SYSTEMS`, the
+  intake owner established when Technology's AI lane closed July 9. Its raw
+  source remains here unchanged because it predates the closure.
+- Added the missing `timeline: reference` field to all four landscape pages.
+  Three now remain here; the routed AI page carries the same metadata in AIAS.
+- Recorded raw truth in the index: all 25 files are accounted, but lookup-only,
+  intentionally skipped, and cross-hub sources are not mislabeled as compiled.
+- Normalized the Technology operating file and index to the current timeline
+  schema, and removed the stale `ai-automation` tag from the closed intake lane.
+- Validation passed: 106/106 Technology content pages are indexed; strict wiki
+  lint reports 0 blockers and 0 review debt; the canonical health gate reports
+  PASS WITH DEBT with 0 new metadata debt. This review resolved all four
+  Technology landscape findings plus the two stale control-header findings.
+- Next: keep the physical structure. Do not add category scaffolding without
+  evidence; run the next landscape rep from the live Technology Library Strategy.
+
+## 2026-07-16 — Applied-reference intake routed from `77-INBOX`
+
+- Added three unique raw sources: *Data Mining: Crossing the Chasm*, *Learning
+  Domain-Driven Design*, and *The Elements of User Experience*.
+- Source placement only. Intake order is domain-driven design first when a real
+  software model needs it, UX second when an interface is under test, and the
+  2016 data-mining deck as historical adoption context.
+
+## 2026-07-16 — Raw folder closed after chunk ingestion
+
+### What changed
+
+- Re-audited all 28 physical files in `raw/` against the July 13-15 source
+  history and current wiki pages. Added `raw-source-coverage-and-intake-status.md`
+  so compiled, selective, derived, cross-hub, reference-only, and excluded
+  sources are visible at row level.
+- Chunk-reviewed all 446 pages of *Learning Domain-Driven Design* in six physical
+  ranges. Created a source-navigation hub and four applied pages covering
+  strategic design/bounded contexts, business-logic/architecture selection,
+  reliable integration, and evolution/EventStorming/distributed boundaries.
+  Reconciled the PDF's nonstandard tagged text layer, which emits Chapter 2 out
+  of physical order, through rendered boundary checks rather than dropping or
+  double-counting it.
+- Chunk-reviewed all 191 pages of *The Elements of User Experience* in eight
+  ranges. Created a source hub and three applied pages covering the five-plane
+  decision model, strategy/scope, and structure/skeleton/surface/validation.
+- Reviewed the 35-page *Data Mining: Crossing the Chasm* deck in three ranges.
+  Preserved its service-to-product and adoption mechanics as historical context;
+  did not promote its XML-era tooling claims as current landscape guidance.
+- Updated the Technology index. The new DDD and UX references remain
+  `priority/later` retrieval assets and do not displace the live SQL, Looker
+  Studio, API-depth, or ROI-practice gaps in the Technology Library Strategy.
+
+### Source disposition
+
+- All 28 physical raw files are now accounted. The official Google OAuth clip
+  remains reference-only until an authorized Google API build requires current
+  flow selection; `Foundations_of_Information_Systems.pdf` remains explicitly
+  excluded as an introductory overlap. AI sources remain cross-hub under the
+  July 9 lane closure.
+
+### Recommended next action
+
+- No intake action. Pull the new DDD pages during a real domain/model boundary
+  decision and the UX pages during an interface test. Continue the normal live
+  frontier from `TECHNOLOGY_LIBRARY_STRATEGY.md` rather than turning the applied
+  library into a reading queue.
+
+## 2026-07-16 - Looker Studio zero-rep data bridge prepared
+
+- Added an offline `market-export` command to the existing YT Outlier Scanner.
+  It reuses the scanner's exact market deduplication, relevance, format, category,
+  and ranking logic to create a refreshable BI-ready CSV rather than a one-off
+  hand-built dataset.
+- Added a field dictionary with Looker types, evidence limitations, freshness
+  provenance, and a six-step private first-dashboard rep. Search categories and
+  topics remain query provenance, not AI or human market labels.
+- Preserved the current boundary: this is prepared input, not proof of Looker
+  Studio skill, demand, revenue, channel fit, or publication readiness. The live
+  rep still requires Chris to privately connect and build the report.
+- No network call, API-key load, account creation, or publishing action was used.
+  The scanner selftest now covers stable CSV fields, ranking, topic counts, field
+  dictionary generation, and spreadsheet-formula neutralization.
+
+## 2026-07-16 - Real-world dataset opportunity map and pilot selected
+
+- Ranked eight official construction, labor, procurement, housing, and risk data
+  sources against goal relevance, decision actionability, local granularity,
+  freshness, access ease, and repeatability.
+- Selected the first autonomous pilot: an Atlanta-area construction opportunity
+  baseline combining Census Building Permits Survey project-flow data with BLS
+  QCEW construction-business capacity. Atlanta permit records are the next layer
+  only if the county baseline produces a sharper project-level question.
+- Created
+  `outputs/real_world_dataset_opportunity_map_2026-07-16/advisor_builder_dataset_opportunity_map.xlsx`
+  with a formula-driven inventory, scoring definitions, phased work plan, and
+  explicit stop/continue gates.
+- Preserved the evidence boundary: public datasets can narrow a county, contractor
+  segment, and observation question, but cannot replace the approved human
+  conversation that tests pain and willingness to pay.
+- No outreach, account creation, API-key action, Python-school edit, DAILY/NOW
+  update, or CASTLE current-position change was made for this work.
+
+## 2026-07-16 - Intelligent instrumentation source routed from `77-INBOX`
+
+- Moved and clearly named Manabendra Bhuyan's 547-page *Intelligent
+  Instrumentation: Principles and Applications* in this hub's immutable `raw/`.
+- Visually verified the title, CRC Press copyright page, contents, and opening
+  chapter. The source covers sensors/transducers, performance and uncertainty,
+  system dynamics, intelligent sensors, calibration/compensation, ANN-based
+  sensing, and sensor standards/protocols.
+- Classified it reference-only. It is an advanced undergraduate/graduate
+  engineering source with instrumentation prerequisites, so it does not displace
+  the current SQL, Looker Studio, API-depth, or ROI-practice frontier.
+- Next: retrieve it only for a real instrumentation, controls, industrial-sensing,
+  or measurement-system decision.
+
+## 2026-07-16 - ApressOpen IoT architecture book routed from `77-INBOX`
+
+- Moved and clearly named Francis daCosta's 185-page *Rethinking the Internet of
+  Things: A Scalable Approach to Connecting Everything* in this hub's immutable
+  `raw/`.
+- Verified the title, contents, opening argument, and the publisher's embedded
+  ApressOpen license. The license permits complete electronic copying, use, and
+  distribution without modification for noncommercial purposes, so this source
+  does not carry the provenance problem found in user-uploaded commercial PDFs.
+- Classified it reference-only and historical. Its durable value is in edge
+  autonomy, local control loops, terse machine messages, publish/subscribe, and
+  layered IoT architecture; its 2013 protocol, scale, cost, and standards claims
+  require current primary-source verification.
+- Next: retrieve it only when a real IoT or edge-architecture decision needs a
+  historical alternative to current protocol assumptions.
+
+## 2026-07-16 - Instrumentation and IoT sources chunk-compiled
+
+### What changed
+
+- Reopened the two newest raw sources at Chris's direction and created the
+  evidence-backed `instrumentation-iot/` applied-reference category.
+- Dispositioned all 548 physical pages of *Intelligent Instrumentation* in eleven
+  chunks. Added a source hub and five retrieval pages covering measurement quality
+  and dynamics, intelligent/soft/adaptive/self-validating sensor architectures,
+  linearization/calibration/compensation, AI-assisted sensing/prognostics, and
+  standards/network boundaries.
+- Dispositioned all 185 physical pages of *Rethinking the Internet of Things* in
+  eleven chunks. Added a source hub and three retrieval pages covering edge autonomy
+  and local control, the three-tier publish/subscribe model, and data reduction and
+  adoption.
+- Preserved raw immutability. Equations, circuit derivations, component surveys, and
+  historical packet/protocol implementations remain in the PDFs rather than being
+  copied into the wiki.
+
+### Evidence boundary
+
+- The instrumentation source remains **selective, historical**: durable metrology and
+  architecture logic is compiled, while 2011 components, ANN/fuzzy recipes, protocol
+  versions, and safety-critical implementation details require current specialist and
+  primary-source verification.
+- The IoT source is **compiled, historical**: its placement-of-complexity questions are
+  durable, but Chirp is a proposed architecture rather than an adopted standard, and
+  its IPv6, security, scale, cost, and ecosystem claims are not promoted as current.
+- This intake adds retrieval capacity; it does not displace the live SQL, Looker
+  Studio, API-depth, or ROI-practice frontier in the Technology Library Strategy.
+
+## 2026-07-16 - Category 9 extensive landscape rep: API & Integration Layer 2026
+
+- Chris-directed extensive weekly rep. Picked Category 9 (API & Integration
+  Layer) from the strategy's own live-gap list: it is declared core build
+  territory, rung 4 of the capability trace is the next open integration
+  proof, and its only prior landscape page (SpreadJS) is narrow. Confirmed
+  no duplication with the July 9 Make.com rep (tool-anatomy scope) before
+  writing.
+- Created [[api-integration-layer-2026-landscape]] at wiki root from
+  2026-07-16 web research: Zapier/Make/n8n price-and-control tiering
+  (per-task vs per-operation vs per-execution/self-hosted), the 2025-26
+  shift to AI agents as integration consumers, MCP standardization
+  (verified against the official MCP blog: the 2026-07-28 spec is a release
+  candidate locked May 21, final expected July 28 — one secondary source
+  falsely reported it as already published), MCP/agent security failure
+  modes (tool poisoning, OWASP LLM Top 10 #1) as concrete additions to the
+  spine's agent-vetting screen, and the webhook-reliability consensus
+  (idempotency, ack-then-queue, HMAC, backoff + dead letter) captured as
+  the definition-of-done for the rung-4 custom-glue proof.
+- Evidence discipline: valuations, adoption percentages, and pricing are
+  marked volatile/reported with a capture date; vendor-adjacent numbers
+  flagged as directional. No tool adoption, build, account, or spend was
+  triggered. Watchtower: the MCP-standardization/agent-integration shift is
+  a promotion candidate for `radar.md` (affected assumption: what the
+  INTEGRATE rung contains; natural review trigger: July 28 spec
+  finalization) — left for Chris/CASTLE review rather than self-promoted.
+  **Update, same day:** Chris approved the promotion; the signal is now a
+  👁 WATCHING row in `...projectSuccess\radar.md` (next review 2026-07-28
+  spec finalization or first agent-integration recommendation, whichever
+  first; no adoption or build without the CASTLE gate).
+- Index updated (Landscape Research section now 4 pages). Frontmatter audit
+  re-run post-edit against the reviewed baseline: **BASELINE MATCH, 0 new
+  debt** (519 unchanged baseline findings; the new page is clean).
+- Next: normal weekly cadence resumes; watch MCP spec finalization July 28.
+
+## 2026-07-16 - Advanced industrial/optimization books routed and application trace added
+
+- Verified title, contents, licensing, page count, and unique SHA-256 identity for
+  three new open-access PDFs from `77-INBOX` and moved them into immutable `raw/`
+  under searchable names.
+- Classified *Next-Generation Industrial Engineering* (122 pp.), *Intelligent
+  Automation...Volume 3* (301 pp.), and *Swarm Intelligence* (552 pp.) as
+  reference-only. They add industrial use-case and optimization lookup capacity,
+  but they do not supply the current Python/SQL/integration prerequisites or prove
+  the broad performance claims in their contributed chapters.
+- Added the authoritative eight-rung Advanced Application Capability Trace to
+  `TECHNOLOGY_LIBRARY_STRATEGY.md`: Python -> SQL/automation -> decision interface
+  -> integration -> production app -> deployment/operations -> governed AI ->
+  triggered industrial methods. Each rung requires an artifact, explain-back,
+  failure test, and operating handoff.
+- Reconciled the completed private Data Studio rep in the strategy, North Star
+  skill-gap tracker, and CASTLE current position. July's ranking remains unchanged:
+  SQL reliability is still the immediate weak link.
+- Next: resume Python Stage 3, then use tracker/scanner SQL as the next application
+  rung. Do not begin swarm, quantum, digital-twin, or predictive-maintenance study
+  without a measured problem and prerequisite need.
+
+## 2026-07-16 - Goal-aligned technology gap audit
+
+- Audited the live North Star, Advisor-Builder strategy, July weak links, eight-rung
+  application trace, Technology/Python/AIAS retrieval coverage, and the scanner and
+  tracker artifacts.
+- Created [[goal-aligned-technology-gap-audit-2026-07-16]] with a Now/Near/Future
+  capability map and a minimum production application standard verified against
+  current official Flask, SQLAlchemy/Alembic, GitHub Actions, SQLite, Docker,
+  OpenTelemetry, and OpenAI documentation.
+- Finding: the library is not short on advanced theory. The decisive gap is
+  integrated operating proof—migrations, tests, CI, production serving, secrets,
+  observability, backup/restore, rollback, and economics in one small system.
+- Selected first bounded build: scanner SQL evidence pack, then pytest extraction,
+  API retry/error policy and a durable run ledger, CI, and only then a read-only
+  Flask operations view if actual review/recovery benefits. Python Stage 3 remains
+  the immediate prerequisite; no new parallel project was opened.
+- Parked Kubernetes, microservices, vector/RAG infrastructure, multi-agent systems,
+  paid hosting, and industrial advanced methods behind explicit measured triggers.
+
+## 2026-07-16 — Night inbox sort: five reference volumes routed into raw/
+
+- Routed five PDFs from `77-INBOX` into `raw/` after title, page-extent, and
+  SHA-256 uniqueness verification (no duplicates against any existing raw file):
+  Business Information Systems 2nd Ed. (545 pp.), Experimental Design for Data
+  Science and Engineering (246 pp.), GIECS 2025 IoT/edge proceedings (CCIS 2719),
+  ICICT 2025 London proceedings (LNNS 1440), and Quantum Computing from Hopfield
+  Nets (306 pp.).
+- All five entered the ledger as **Reference-only** (rows 34–38 in
+  [[raw-source-coverage-and-intake-status]]); the quantum text is additionally
+  marked parked per the 2026-07-16 goal-aligned gap audit boundary. No
+  compilation queue was opened — the decisive gap remains integrated operating
+  proof, not more reading.
+- Next: unchanged — Python Stage 3, then scanner SQL evidence. Retrieve these
+  volumes only on a named trigger.
+
+## 2026-07-17 — Selective ingest: Experimental Design for Data Science and Engineering
+
+- Chunk-read and selectively compiled the Joseph DOE text (CRC 2026, 246 pp.,
+  CC BY-NC-ND; routed into raw/ the prior night) into three `data-science-ml/`
+  pages: the source hub, [[data-science-ml/space-filling-screening-and-sequential-designs|the DOE decision map]]
+  (model-based → space-filling logic, minimax/maximin/LHD/MaxPro, Sobol/Morris/
+  MOFAT screening, ALC/ALM + expected-improvement Bayesian optimization,
+  fractional-factorial aliasing/resolution/aberration essentials), and
+  [[data-science-ml/data-splitting-twinning-and-subsampling|Part IV applied]]
+  (support-points subsampling, SPlit, twinning/multiplets, supercompress,
+  FIRST factor selection with the dependent-inputs caveat, TwinGP).
+- Scope discipline: Ch 2 GP mathematics, minimum-energy/QMC depth, mixture and
+  multi-level designs, and Ch 9 calibration stay as triggered lookup — the
+  ledger row is now Selective with the coverage pointer. Ledger 38/38 intact;
+  index at 132 content pages.
+- Rationale for compiling despite the gap-audit reading boundary: Chris-directed
+  intake session (2026-07-17); the compiled material targets ISYE coursework and
+  the live scanner/tracker data work (splits, subsampling, factor selection)
+  rather than opening a general reading queue.
+- Text extracted via pypdf (no poppler on this machine); figures/equations not
+  rendered — equation-dependent claims flagged for PDF re-check at use time.
+
+## 2026-07-17 — Pre-D2L boot-camp raw/source readiness audit (Codex, Chris-directed)
+
+- Reconciled immutable `raw/` against the physical-file ledger: 39 real content
+  files exist, 38 were listed. The only unregistered source was today's official
+  Microsoft `Install Hyper-V in Windows and Windows Server.md` clipping.
+- Registered Hyper-V as **Reference-only**. It is not required for the local MCP
+  stdio proof and does not prove an AI sandbox. Enabling it would be a separate
+  machine-level decision because it requires admin/restart and may affect other
+  hypervisors.
+- Corrected stale ledger/index counts: the row table is now 39/39; disposition
+  totals are Compiled 8, Selective 10, Derived 5, Cross-hub 6, Reference-only 9,
+  Excluded 1. `desktop.ini` remains excluded as folder metadata.
+- Boot-camp readiness verdict: **no new raw ingest is needed.** The smallest useful
+  packet is already retrieval-ready: SQL/constraints/transactions; testing and
+  defensive validation; API security; integration/retry/idempotency; and, from
+  `AI_AUTOMATION_SYSTEMS`, MCP architecture, build/debug notes, and the MCP threat
+  catalog. Python mechanics remain owned by the PYTHON staged path.
+- Do not reopen Flask, OAuth, distributed systems, industrial/IoT, quantum,
+  virtualization, or large source books as reading queues. Pull one page only when
+  the live build hits its named boundary.
+- Next: Claude uses the source packet in the independent boot-camp review; execution
+  still waits for the final approved stack and proof vehicle.

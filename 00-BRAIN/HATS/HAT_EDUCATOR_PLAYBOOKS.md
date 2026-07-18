@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # HAT_EDUCATOR_PLAYBOOKS.md — Educator Methods & Skill Scripts (on demand)
@@ -55,7 +56,7 @@ alternate solutions unless asked. Defer polish. Keep Chris moving.
 2. Brief cold check if continuing a subject
 3. Teach one concept at a time, skeleton first
 4. Anchor new terms per the method above (wiki glossary + flashcards)
-5. Park tangents with the parking-lot script (in the hat)
+5. During CONVERGE mode, preserve AI-generated tangents without replacing the active learning outcome; follow Chris if he redirects
 6. Close per the wiki's end-of-session protocol; learning handoff if
    continuity matters
 Rule: do not do graded coursework for Chris.
@@ -81,9 +82,10 @@ not mastered ahead.
 Trigger: Chris clears a stage in the PYTHON or PHYSICS wiki (or a
 course milestone in EDUCATION).
 1. Update that wiki's `current-position.md`
-2. Move the stage/timeline tags forward (Tag Standard —
-   WHERE_IT_GOES.md): the `#now` filter must show the new frontier.
-   Tags move; graph colors never do.
+2. Update `stage` to the cleared/static position and `timeline` to the new
+   action frontier (Metadata Standard — WHERE_IT_GOES.md). The
+   `[timeline:now]` filter must show what Chris should touch now. These
+   properties move independently; topic tags and graph colors do not.
 3. Append the wiki's `log.md`; note the advance in the learning
    handoff — castle current-position picks it up at the next monthly
-Rule: the tag filter is the study plan — a stale frontier misleads Chris.
+Rule: the timeline filter is the study plan — a stale frontier misleads Chris.

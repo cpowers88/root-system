@@ -53,6 +53,12 @@ Problem 6: F⃗ = 4.0î + 5.0ĵ N; |F⃗| = √(16+25) = 6.4 N; θ = tan⁻¹(5/
 Problem 8: Yes — if A⃗ and B⃗ are equal in magnitude and exactly opposite in direction (antiparallel), A⃗ + B⃗ = 0.
 Problem 9: Maximum = 8 (parallel, same direction); minimum = 2 (antiparallel, opposite direction).
 
+**Part E — Non-axis angles (first correctly worked rep, 2026-07-16)**
+
+10. A⃗ = 25 N at 40° above +x; B⃗ = 15 N at 120° above +x. Find R⃗ = A⃗ + B⃗ (magnitude and direction).
+
+Worked live: Ax = 25cos40° = 19.15, Ay = 25sin40° = 16.07; Bx = 15cos120° = −7.5, By = 15sin120° = 12.99; Rx = 11.65, Ry = 29.06; R = √(11.65²+29.06²) = 31.31 N; θ = tan⁻¹(29.06/11.65) = 68.15° (Rx, Ry both positive → Quadrant I, no adjustment needed). This is the case that forces real decomposition of both vectors — the ladder-against-the-wall anchor (Ax = ground reach, Ay = wall height) is what made it click.
+
 ## Mastery Signal
 
 Chris can set up and solve a three-vector addition problem from scratch in under three minutes, including finding the resultant magnitude and direction, without errors.

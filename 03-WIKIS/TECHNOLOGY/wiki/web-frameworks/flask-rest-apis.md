@@ -85,7 +85,7 @@ For large collections, `Model.query.paginate(page, per_page=N, error_out=False)`
 | North Star relevance | 3 | Relevant once a client tool needs to expose data to another system or automation pipeline (Make.com/n8n). |
 | Current usefulness | 2 | Secondary — not needed until a real machine-to-machine integration is required. |
 | KSU support | 1 | Not connected to ISYE coursework. |
-| Tech-stack relevance | 5 | Flask and REST APIs are both explicitly in the Top 12 stack. |
+| Tech-stack relevance | 5 | Flask and REST APIs are both in the possibility map; timing follows live need and prerequisites. |
 | Business audit value | 2 | Indirect — an integration mechanism rather than a direct audit technique. |
 | Data/workflow value | 4 | Token-based REST auth is the standard pattern for any automation pipeline pulling client data. |
 | Reading urgency | 2 | Low urgency until a client tool needs external data access. |

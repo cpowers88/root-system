@@ -84,7 +84,7 @@ Leaving a POST request as the last thing the browser sent is bad practice — re
 | North Star relevance | 5 | Forms are the entry point for any client data-capture tool — crew logging, intake questionnaires. |
 | Current usefulness | 4 | Directly reusable recipe, ready as-is for a first client tool. |
 | KSU support | 1 | Not connected to ISYE coursework. |
-| Tech-stack relevance | 5 | Flask is explicitly in the Top 12 stack. |
+| Tech-stack relevance | 5 | Flask is in the technology possibility map; timing follows a real web-tool need. |
 | Business audit value | 4 | Forms are how field data gets captured for an audit in the first place. |
 | Data/workflow value | 4 | The entry point of any data workflow built on a client-facing tool. |
 | Reading urgency | 3 | Becomes urgent as soon as a data-capture tool is scoped for a client. |

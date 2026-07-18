@@ -1,22 +1,24 @@
 ---
 type: reference
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # HAT_OPERATOR_PLAYBOOKS.md — Operator Skill Scripts (on demand)
 ### Moved out of HAT_OPERATOR.md July 11, 2026 (slim pass). Load the one you need when its trigger fires — not at session start.
-### Native Claude Code skills already exist for some of these: `session-close`, `profit-gate` (the castle gate), `atlas-brief`. Prefer the skill when running in Claude Code.
+### Shared native skills exist for some procedures: `session-close`, `profit-gate`, and `atlas-brief`. Use the shared skill on any surface where it is available.
 
 ---
 
 ## SKILL: Strategy Session
 Trigger: priorities, North Star alignment, business direction, weekly
 planning, project sequencing, school/tech/business balance.
-1. Load NORTH_STAR.md context + current school reality
-2. Identify the active track (School → Tech → Solo Business — this order)
+1. Load NORTH_STAR.md + current school reality; add CURRENT_STRATEGY.md only for a
+   business/market/offer/revenue decision
+2. Reconcile fixed commitments, the semester technology/business floor, urgent revenue evidence, and the highest-value remaining action
 3. Give the critical path
 4. Produce ONE decision or ONE next action
-5. Park non-critical ideas; state what to log
+5. Preserve non-critical ideas without letting AI-generated tangents replace the requested decision
 Rule: strategy exists to produce action, not more strategy.
 
 ## SKILL: Business Workflow Audit
@@ -40,7 +42,7 @@ workflow proves the need.
 ## SKILL: Technology Recommendation
 Trigger: any "should I/they use X" — tool selection, software
 purchase, build-vs-buy, AI adoption, stack decisions, client recs.
-1. Load 02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md
+1. Load 02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md
 2. Name the category (1–12) the problem belongs to
 3. Walk the Recommendation Ladder top-down: eliminate → simplify →
    use what they own → configure → integrate → build light → build
@@ -71,22 +73,26 @@ Rule: file safety can block work. Scope commentary cannot.
 ## SKILL: Watchtower Sweep
 Trigger: weekly review, or Chris says "sweep the tower."
 1. Open `...projectSuccess\radar.md`
-2. Prune dead signals (⏸ 60+ days → 🗑), verify tiers on new entries
+2. Reject rows missing a new external change, material consequence, evidence home,
+   or review trigger; prune dead signals and verify tiers
 3. Promote at most ONE hot signal → run it through the castle gate
    (`00-BRAIN\CASTLE\wiki\decision-rules\adding-a-profit-skill.md`)
-4. Log the verdict on the radar (✅ GATED with reason)
-Rule: eyes, not hands — the tower never changes the roadmap directly.
-Dark during danger weeks.
+4. Log the verdict and bounded test; after execution, return the measured outcome
+   and affected CURRENT_STRATEGY assumption/milestone
+Rule: eyes, not hands — the tower never changes the roadmap directly. During
+the high-load school window, warn once before optional expansion, then follow
+Chris's direction.
 
 ## SKILL: Ratchet Review
-Trigger: quarterly review ONLY (or Chris explicitly calls it).
-1. Load NORTH_STAR.md → The Ratchet + Revenue Milestones
-2. For each floor: hit early? capability jump (AI included)? gated
-   watchtower signal that survived?
-3. Propose raised targets with reasons — Chris approves every turn
-4. Record the turn (or the deliberate hold) in the quarterly review
-Rules: floors ratchet UP only. Never mid-cycle. "The goal evolved"
-outside a quarterly is scope creep wearing a costume — flag it.
+Trigger: quarterly review or Chris explicitly requests a target review.
+1. Load NORTH_STAR.md → The Ratchet, plus CURRENT_STRATEGY.md assumptions/milestones
+   and only material Watchtower rows with completed tests
+2. Separate the fixed destination from the vehicle; compare measured outcomes to
+   the active assumptions and floors
+3. Propose keep/refine/replace decisions and any earned higher floor — Chris approves
+4. Record the decision, evidence, displacement, and next check date
+Rule: autonomous AI does not quietly change targets. Chris may directly
+authorize a mid-cycle change after an impact review.
 
 ## SKILL: Project Kickoff
 Trigger: any build, project, or engagement starting — including personal
@@ -105,9 +111,9 @@ Trigger: any build, project, or engagement reaching done — including
 personal builds (tracker, POL).
 1. Confirm the outcome against the kickoff's success criteria, with evidence.
 2. Ask the harvest question: what reusable asset did this produce?
-   - Template / playbook → BUSINESS wiki (blank master) or 05-BUSINESS
+   - Template / playbook → BUSINESS wiki (blank master) or reusable/sanitized 05-BUSINESS asset
    - Tool / code pattern → note in project docs + castle proof-project page
-   - Case study / proof → 05-BUSINESS\03-Case Studies (when client-based)
+   - Case study / proof → separate client workspace while client-specific; approved sanitized version → 05-BUSINESS\03-Case Studies
    - Lesson worth keeping → handoff → weekly review promotion path
 3. Update proof-project or Capability Library maturity when the evidence
    warrants it — draft to tested-internally needs a named test, not a vibe.

@@ -11,7 +11,10 @@ tags:
 ## Purpose
 Define what the end of year 1 looks like and the quarter-by-quarter path there, so the year is spent deepening one working model instead of chasing three new ones.
 
-**Date anchor:** "Year 1" is relative to first client, not to today — per NORTH_STAR.md's Business Arc, this year runs roughly March 2027–Feb 2028, overlapping Chris's second and third semesters at KSU. School stays Track 1; this plan fits around it, not the other way around.
+**Date anchor:** "Year 1" is relative to the first client, not today. The current
+strategy targets a first paid consulting conversation for March 2027; review the
+actual start in `CURRENT_STRATEGY.md`/CASTLE before using these dates. School remains
+the fixed spine, so this plan fits capacity rather than claiming it.
 
 ## Key Idea
 Year 1 is the **repetition year**. The model was proven in the [[first-90-days|first 90 days]]; the remaining nine months multiply it: more audits, faster delivery through templates, higher prices justified by case studies, and a deliberate push of every client toward the [[retainer-model|retainer]]. The strategic temptation to resist all year: new offers, new markets, new tools. The leverage is in the boring loop, run harder.

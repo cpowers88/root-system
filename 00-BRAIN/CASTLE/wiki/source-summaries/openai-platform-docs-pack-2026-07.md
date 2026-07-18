@@ -1,8 +1,10 @@
 ---
 type: source-summary
+timeline: reference
+reference_priority: supporting
 tier: 1
 source-role: support
-tags: [source, reference, ai-tooling]
+tags: [source, ai-tooling]
 ---
 
 # OpenAI Platform, ChatGPT, and Codex Docs Pack (July 2026)

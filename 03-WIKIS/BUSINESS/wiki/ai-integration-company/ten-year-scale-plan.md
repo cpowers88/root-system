@@ -13,7 +13,10 @@ tags:
 ## Purpose
 Describe how the firm built in the [[three-year-plan|Three-Year Plan]] compounds into serious enterprise value, without venture-scale fantasy: every route here is an extension of the same diagnose–build–maintain engine, funded by its own margins.
 
-**Date anchor:** "Years 4–10" run roughly 2030–2036 per NORTH_STAR.md — past graduation (Dec 2029) and past the October 8, 2031 North Star date itself. The $500K–$1M revenue floor is targeted *by* Oct 2031, inside this page's Years 4–6 band; everything past that point is the ratchet already having turned at least once.
+**Date anchor:** Under the current vehicle, "Years 4–10" would run roughly
+2030–2036. October 8, 2031 and the $500K–$1M annual floor remain fixed North Star
+commitments; everything else on this page is a scenario that must be reconciled to
+CURRENT_STRATEGY and Ratchet evidence.
 
 ## Key Idea
 Enterprise value in this business comes from four properties, in rough order of weight: **contracted recurring revenue, growth without the founder, client retention, and proprietary method/IP**. The ten-year plan is simply maximizing those four properties at increasing scale. There are three realistic routes — services scale-up, platform hybrid, and roll-up/acquisition — and they share the same foundation, so the route decision can be made late (year 5–6) with real data.

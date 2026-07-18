@@ -1,6 +1,6 @@
 ---
-type: report
-tags: [log, ai-automation, governance]
+type: proposal
+tags: [ai-automation, proposal, governance, reference]
 ---
 
 # Proposal: Wiki Shared Layer + AI-Lane Cleanup
@@ -19,7 +19,7 @@ rewrite) and the changes were executed the same session, go-live eve.
    all — a gap the duplication pattern created.
 2. **Lane overlap in AI/automation** — three homes: TECHNOLOGY's
    `ai-and-llm/` applied-reference subfolder sat inside
-   AI_AUTOMATION_SYSTEMS's charter; `02-LIBRARY\08-AI-AUTOMATION` was
+   AI_AUTOMATION_SYSTEMS's charter; `02-LIBRARY\REF-AI-AUTOMATION` was
    receiving raw capture material (Make.com notes) with no stated intake
    status.
 3. **BUSINESS CLAUDE.md was a ~920-line build prompt**, not an operating
@@ -31,7 +31,8 @@ rewrite) and the changes were executed the same session, go-live eve.
 
 ## Files Touched
 
-- `00-BRAIN\AI_Agent.md` — new § Wiki Shared Layer (9 rules: raw
+- `99-ARCHIVE\ARCHIVED_2026-07-10_AI_Agent.md` — historical file that received
+  the new § Wiki Shared Layer before the July 10 lane split (9 rules: raw
   immutability, chunking, session start/close minimums, update-over-create,
   contradiction flagging, recency markers, lint pass, academic integrity).
 - All 7 wiki CLAUDE.mds — duplicated blocks replaced with a pointer;
@@ -44,7 +45,7 @@ rewrite) and the changes were executed the same session, go-live eve.
 - `03-WIKIS\TECHNOLOGY\CLAUDE.md` + `03-WIKIS\AI_AUTOMATION_SYSTEMS\CLAUDE.md`
   + `00-BRAIN\WHERE_IT_GOES.md` — lane closure: new AI/LLM/agent research →
   AI_AUTOMATION_SYSTEMS; TECHNOLOGY's `ai-and-llm/` closed inherited
-  reference; 02-LIBRARY\08-AI-AUTOMATION declared an artifact/reference
+  reference; 02-LIBRARY\REF-AI-AUTOMATION declared an artifact/reference
   home, not an intake lane.
 
 ## Why Better Than Status Quo
@@ -71,3 +72,11 @@ The four-source LLM-wiki batch ingested this session — see
 [[llm-wiki-pattern-and-second-brain-tools]] for what was adopted vs.
 rejected (rejected: hot cache, scheduled self-rewriting agents,
 contradiction auto-resolution).
+
+## Post-Change Check (added 2026-07-15, check_at discipline)
+
+- **Expected behavior:** the shared wiki rules live in exactly one place (`AGENT.md § Wiki Shared Layer`); hub operating files stay slim and point to it instead of re-copying rules.
+- **Evidence for improvement or regression:** boot-chain and wiki-lint passes with no duplicated shared-rule text; hub CLAUDE.md files still pointing, not copying. Regression = a hub re-copies or contradicts the shared layer.
+- **check_at:** 2026-07-24 (fires on every wiki session; roughly ten real sessions will have run by then)
+- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
+- **Verdict:** (keep / modify / revert — blank until the check date)

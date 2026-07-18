@@ -10,7 +10,10 @@ tags:
 > Proof quarter: first paid audits, first implementation projects, first retainer, first case studies.
 
 ## Timeline Gate — Read This First
-Same clock as [[first-30-days|First 30 Days]]: this quarter runs after the First Contact phase opens (~Sep 2026 onward), targeting the [[north-star-alignment|first client by March 2027]] and first retainer by December 2027 per NORTH_STAR.md. Nothing here overrides school (Track 1, non-negotiable) or the Danger Weeks (Oct 5–Nov 11, school only).
+Same clock as [[first-30-days|First 30 Days]]: this quarter begins only after
+CASTLE/NOW opens authorized client acquisition. `CURRENT_STRATEGY.md` owns the live
+milestones. Nothing here overrides fixed school commitments or the October 5–November
+11 high-load protection.
 
 ## Purpose
 Define the 90-day targets and the month-2/month-3 agenda that follows [[first-30-days|First 30 Days]], so the quarter ends with a functioning micro-business — paying clients, documented results, and a repeatable weekly rhythm.

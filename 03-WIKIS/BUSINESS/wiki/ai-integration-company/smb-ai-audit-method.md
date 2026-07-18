@@ -148,9 +148,14 @@ The audit is where the [[progressive-operating-thesis|thesis]] first touches a c
 - **Scope sprawl:** auditing the whole company at beginner speed burns 60 hours. Hold the signed scope.
 
 ## Related Pages
+- [[customer-discovery-and-evidence|Customer Discovery and Evidence]] — protects discovery from compliments, hypotheticals, and solution-leading questions
+- [[enterprise-ai-opportunity-and-adoption|Enterprise AI Opportunity and Adoption]] — cross-industry opportunity patterns and readiness diagnostic
+- [[ai-economics-and-decision-workflows|AI Economics and Decision Workflows]] — decomposes prediction, judgment, action, outcome, and feedback before automation
+- [[strategic-diagnosis-and-coherent-action|Strategic Diagnosis and Coherent Action]] — converts the symptom list into a decisive diagnosis and coherent roadmap
 - [[theory-of-constraints|Theory of Constraints]] — the full framework (throughput/inventory/operational-expense measurements, cost-world vs. throughput-world, the asymmetry rule) behind the constraint-first diagnosis logic above
 - [[owner-dependency-diagnostic|Owner-Dependency Diagnostic]] — the *why is this business stuck* complement: root-cause, growth-stage, and target-state diagnostics to run alongside this method
 - [[consulting-methodology|Consulting Methodology]] — the contracting, discovery-interview, and feedback-meeting mechanics behind Steps 1, 2, and 6
+- [[creative-problem-solving-and-facilitation-toolkit|Creative Problem Solving and Facilitation Toolkit]] — use only after findings are evidenced, when stakeholders need a structured route from diagnosis to options and a test
 - [[negotiation-toolkit|Negotiation Toolkit]] — discovery-interview technique (Step 2) and reading real buy-in in the findings presentation (Step 6)
 - [[service-offer-ladder|Service Offer Ladder]] — where the audit sits in the stack
 - [[human-agent-operating-model|Human-Agent Operating Model]] — the classification engine of Step 3

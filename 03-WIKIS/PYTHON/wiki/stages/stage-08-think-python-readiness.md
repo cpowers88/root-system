@@ -11,11 +11,16 @@ support_sources: ["Python Crash Course Ch.9", "Grokking Algorithms Ch.1-5", "Dat
 
 ## Purpose
 
-Learn recursion, basic OOP (classes, objects, attributes, methods), and Big O intuition through sorting/searching/hash tables — the CS-thinking content both syllabi require around weeks 9-13.
+Learn basic OOP and searching/sorting at the depth both syllabi require, supported
+by Big O intuition. Recursion remains useful Think Python/CS enrichment, but it is
+not explicitly named in the official Fall 2026 syllabi.
 
 ## Why This Stage Comes Now
 
-Stages 1-7 gave Chris every mechanical and design tool needed to write real programs. Stage 8 is the bridge into "computer science thinking" proper — the same recursion, OOP, and algorithm topics that give this vault's spine book (Think Python) its subtitle, and that the course syllabi name directly (OOP, searching and sorting algorithms).
+Stages 1-7 gave Chris every mechanical and design tool needed to write real
+programs. Stage 8 is the bridge into deeper computer-science thinking. The course
+syllabi directly name OOP and searching/sorting; recursion and formal growth-rate
+language are support material selected from the spine and algorithm books.
 
 ## Prerequisites
 

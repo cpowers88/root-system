@@ -1,5 +1,6 @@
 ---
 type: research
+timeline: reference
 tags: [technology, landscape, category-3, business-intelligence]
 source: raw/Data Studio documentation.md (Google Cloud docs, captured 2026-06-13)
 ---
@@ -56,3 +57,33 @@ first recommendation in any BI-gap audit finding, same Recommendation
 Ladder logic already applied to workflow-automation tooling
 ([[workflow-automation-tools-landscape|via AI_AUTOMATION_SYSTEMS]]) and
 Category 4 in the Make.com rep.
+
+## Local Rep Bridge - 2026-07-16
+
+The YT Outlier Scanner now has an offline `market-export` command that writes a
+typed CSV and field dictionary from its existing deduplicated market evidence:
+
+- `02-LIBRARY/.PROJECTS/YT_Outlier_Scanner/LOOKER_STUDIO_MARKET_DATA.csv`
+- `02-LIBRARY/.PROJECTS/YT_Outlier_Scanner/LOOKER_STUDIO_FIELD_DICTIONARY.md`
+
+This is a prepared input, not a completed Looker Studio rep. The first bounded
+live proof is to load the CSV into a private Sheet, connect it to a private report,
+confirm field types, and build one scorecard, one category chart, one evidence
+table, and basic format/date controls. No account creation, publication, revenue
+inference, or channel decision is authorized by the export.
+
+## Real-World Dataset Decision Pattern - 2026-07-16
+
+The next dashboard rep should be driven by a real decision rather than by the
+availability of data. A ranked source review selected an Atlanta-area construction
+opportunity baseline: Census Building Permits Survey data supplies residential
+project-flow signals, and BLS QCEW supplies county-level construction-business
+capacity. Atlanta's permit tracker is the earned project-detail layer, not the
+starting point.
+
+The working artifact is
+`outputs/real_world_dataset_opportunity_map_2026-07-16/advisor_builder_dataset_opportunity_map.xlsx`.
+It records the scoring model, eight official sources, a five-phase pilot, and the
+stop rule: if the result produces no sharper target or question than “construction
+is active,” park it. Public data can improve targeting; it does not prove customer
+pain or willingness to pay.

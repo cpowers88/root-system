@@ -51,6 +51,9 @@ When a genuinely predictive relationship exists between the series being forecas
 
 ## Connects to
 
+- [[forecasting-expectations-and-fudge-factors]] — complements the statistical
+  methods here with a behavioral model of expectation formation, turning-point lag,
+  anchoring, and manual forecast overrides.
 - [[decision-analysis-and-utility-theory]] — forecasting outputs (point estimates plus uncertainty) are the natural input to a decision-analysis payoff table or EVPI/EVE calculation.
 - [[discrete-event-simulation-and-random-variate-generation]] — a fitted time-series/regression model is a natural source of the random-variate distributions a simulation would draw from.
 - [[multiechelon-inventory-and-revenue-management]] — inventory and revenue-management models throughout this wiki assume a known demand distribution; forecasting is how that distribution's parameters actually get estimated from real data in practice.

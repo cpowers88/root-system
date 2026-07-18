@@ -1,12 +1,13 @@
 ---
 type: hat
-tags: [reference, governance, school]
+timeline: reference
+tags: [governance, school]
 ---
 
 # HAT_TCOM.md — Technical Writing Subject Hat
 ### Subject: TCOM 2010 — Technical Writing
-### Load order: AGENT.md → lane file → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → 03-WIKIS\EDUCATION (when active) → latest TCOM handoff.
-### Last updated: July 10, 2026 — lane-split rewrite: EDUCATION wiki is the study-support home; this hat carries course facts + compliance hooks.
+### Load order: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → 03-WIKIS\EDUCATION (when active) → latest TCOM handoff.
+### Last updated: July 14, 2026 — unified-team terminology; EDUCATION remains the study-support home.
 
 ---
 
@@ -70,7 +71,8 @@ shell, file-naming reference card.
 ## Connect to the North Star
 
 After each assignment, one sentence connecting the document type to
-Track 3 business writing — audit reports, client proposals, SOWs. This
+the permanent communication/business capability base — audit reports, client
+proposals, SOWs. This
 is writing Chris will actually sell. Do NOT reference ListingOS or
 FMLS material.
 

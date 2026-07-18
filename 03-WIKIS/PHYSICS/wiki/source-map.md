@@ -1,6 +1,8 @@
 ---
 type: map
-tags: [reference, physics]
+timeline: reference
+reference_priority: core
+tags: [physics, school]
 ---
 
 # Source Map
@@ -28,7 +30,7 @@ This file tracks every source and what role it plays.
 
 | Source | Role | Difficulty | Best unit/stage use | Do not use yet | Notes |
 |---|---|---:|---|---|---|
-| `raw/syllabus/syllabus.pdf` | spine (policy/schedule) | n/a | Topic order, deadlines, AI policy | — | Calendar in PDF only lists through Ch.5 (Sep 16, 2026). Ch 6–12 and Ch 14 confirmed in scope by Chris (2026-06-25). Full lecture-date calendar still pending from D2L for Ch 6+. |
+| `raw/syllabus/syllabus.pdf` | spine (policy; provisional schedule) | n/a | Course outcomes, grading categories, AI policy, early topic order | — | All 19 pages visually reviewed 2026-07-15 and accounted in [[syllabus-coverage-ledger]]. Calendar only lists through Ch.5 and contains recycled/conflicting details; see the data-quality gate below. Use D2L for dates, deadlines, and exam/drop mechanics. |
 | `raw/textbook/Physics book-0001-0100.pdf` | spine | Calculus-based, college intro | Stages 1–5 | — | Serway & Jewett, 10th ed. Covers PDF pp. 1–100; Chapter 1 begins at PDF page 32. Ch 1 (Physics and Measurement), Ch 2 (Motion in One Dimension), Ch 3 (Vectors, Secs. 3.1–3.4 only), Ch 4 (Motion in Two Dimensions), Ch 5 (partial, Laws of Motion). Added to this table 2026-07-07 — was present in `raw/` and already used to build Stages 1–3 but had never been logged here. |
 | `raw/textbook/Physics book-0101-0200.pdf` | spine | Calculus-based, college intro | Stages 5–7 | — | Serway & Jewett, 10th ed. Split file covering textbook pp. 71–170. Ch 5 (partial), Ch 6 (pp. 127–149), Ch 7 (pp. 150–170). |
 | `raw/textbook/Physics book-0201-0300.pdf` | spine | Calculus-based, college intro | Stages 7–10 | — | Textbook pp. 171–270. Ch 7 (cont.), Ch 8, Ch 9, Ch 10 (partial). |
@@ -38,9 +40,55 @@ This file tracks every source and what role it plays.
 | `raw/textbook/Physics book-1201-1300-part-2.pdf` | equation-reference | n/a | All stages | — | Appendix A (Tables A.1–A.2, pp. A-1 to A-3) + Appendix B pp. A-4 to A-12: scientific notation, algebra (exponents, quadratic, linear, simultaneous equations, logarithms), geometry (areas/volumes/curves), trigonometry (definitions, identities, laws of cosines/sines). |
 | `raw/textbook/Physics book-1301-1370.pdf` | equation-reference | n/a | All stages | — | Appendix B pp. A-13 to A-21: series expansions, small-angle approximations, differential calculus (Table B.4 derivatives, chain/product/quotient/sum rules), integral calculus (Table B.5 indefinite integrals, Table B.6 definite integrals, integration by parts), propagation of uncertainty (B.8). Appendix C (Periodic Table, A-22 to A-23). Appendix D (SI units, A-24). Answers to odd-numbered problems (A-25 onward). |
 
+## Syllabus Data-Quality Gate
+
+The PDF is clearly labeled Fall 2026 and its AI policy is usable, but several
+operational details conflict internally or with the 2026 calendar:
+
+| Finding | Evidence in the PDF | Handling rule |
+|---|---|---|
+| Day One Access deadline is stale | page 2 prints an opt-out deadline of January 16 | verify the Fall deadline in Owl Express/email; do not calendar this date |
+| second Ch 2 meeting has an impossible day/date pair | page 7 prints “F Aug 26”; August 26, 2026 is Wednesday | verify D2L; likely Friday August 28, but do not treat that inference as official |
+| holiday label is recycled | page 7 labels Monday August 31 “Martin Luther King, Jr. Day,” while Monday September 7 is the no-class date | use the official KSU/D2L calendar |
+| late-homework rules conflict | page 4 says late WebAssign work receives a 10% deduction per calendar day; page 7 says work is no longer accepted after answer keys release | verify the live WebAssign/D2L rule before relying on either statement |
+| exam-drop language conflicts | page 5 refers to four unit exams; page 7 says three unit exams and the lowest unit-exam score drops; the final is also described as mandatory | verify exam count, weights, and drop rule in D2L before entering the tracker |
+| later calendar is absent | schedule stops at Ch 5 on September 16 | retrieve Ch 6 onward lecture, quiz, and exam dates from D2L |
+
+The permitted/prohibited AI language on page 8 is internally clear and remains the
+binding study boundary recorded above.
+
+See [[syllabus-coverage-ledger]] for all stable course operations, institutional
+policy dispositions, support resources, and the syllabus-outcome-to-stage crosswalk.
+
+## Vetted Supplemental Sources
+
+These sources fill explanation, visualization, and math-refresh roles. They do not
+replace Serway or override the course syllabus.
+
+| Source | Role | Best use | Intake rule |
+|---|---|---|---|
+| [OpenStax University Physics Volume 1](https://openstax.org/books/university-physics-volume-1/pages/preface) | support | alternate explanations for mechanics, fluids, oscillations, and waves | retrieve the matching chapter only after a stage diagnostic shows a gap |
+| [OpenStax Precalculus 2e](https://openstax.org/books/precalculus-2e/pages/preface) | calculus-support / trig-support | Chapters 5-8 for unit circle, right-triangle trig, identities, and vectors | use just in time through [[math-readiness-path]] |
+| [MIT OCW 8.01SC derivatives in mechanics](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-1-kinematics/1-6-derivatives/) | calculus-support | derivative as a physical rate in Stage 2/4 motion | use when slope/rate meaning is the demonstrated gap |
+| [MIT OCW 18.01SC Single Variable Calculus](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/) | calculus-support | derivatives, integrals, differential equations, and series by topic | use only the unit required by the live physics stage |
+| [PhET Vector Addition](https://phet.colorado.edu/en/simulations/vector-addition) | visual-support | Stage 3 components, polar/Cartesian views, and resultants | active now after a paper rep, not instead of one |
+| [PhET Projectile Motion](https://phet.colorado.edu/en/simulations/projectile-motion) | visual-support | Stage 4 component motion and trajectories | unlock after Stage 3 mastery |
+| [PhET Energy Skate Park](https://phet.colorado.edu/en/simulations/energy-skate-park) | visual-support | Stages 7-8 energy transfer and friction | unlock at Stage 7 |
+| [PhET Collision Lab](https://phet.colorado.edu/en/simulations/collision-lab) | visual-support | Stage 9 momentum and collision comparison | unlock at Stage 9 |
+| [PhET Balancing Act](https://phet.colorado.edu/en/simulations/balancing-act) | visual-support | Stages 10-12 torque, lever arms, and equilibrium | unlock at Stage 10 |
+| [PhET Gravity and Orbits](https://phet.colorado.edu/en/simulations/gravity-and-orbits) | visual-support | Stage 13 inverse-square gravity and orbital motion | unlock at Stage 13 |
+| [PhET Masses and Springs](https://phet.colorado.edu/en/simulations/masses-and-springs) | visual-support | Stage 15 SHM, energy, period, and parameters | unlock at Stage 15 |
+| [PhET Waves Intro](https://phet.colorado.edu/en/simulations/waves-intro) | visual-support | Stages 16-17 wave properties and physical medium behavior | unlock at Stage 16 |
+
+No new downloadable math source is currently required: the Serway appendices already
+contain the core algebra, trigonometry, derivative, and integral reference. External
+material should answer a diagnosed difficulty, not create a second parallel course.
+
 ## Textbook Chapter Map (Serway & Jewett, 10th ed.)
 
-PDF page = physical PDF page number in `raw/textbook/physic.pdf` (Chapter 1 begins at PDF page 32).
+PDF page = physical page within the matching split file in `raw/textbook/`
+(`Physics book-0001-0100.pdf` through `Physics book-0501-0600.pdf`; Chapter 1
+begins on physical page 32 of the first file).
 
 | Ch | Title | In PHYS 2211 scope? | Role | Notes |
 |---|---|---|---|---|

@@ -1,10 +1,11 @@
 ---
 type: template
-tags: [next, business, audit]
+timeline: now
+status: draft
+tags: [business, audit]
 ---
 
 # OBSERVATION_METHODOLOGY.md — How to Watch a Business Work
-#audit #business #methodology
 ### The repeatable observation method — NORTH_STAR.md "built before March 2027" deliverable #1
 ### Status: SKELETON v1 (July 5, 2026) — refine after every practice run
 ### Companion files: TECHNOLOGY_AUDIT_REPORT_TEMPLATE.md (the output), ONE_PAGE_FINDINGS_FORMAT.md (the owner version)
@@ -94,8 +95,9 @@ What breaks if I delete this? (person, tool, or step — what's load-bearing?)
   can sit near. Full method, real notes, real one-pager nobody sees.
 - **Reps 2+ (semester breaks):** one per break minimum. Each rep ends
   by improving THIS file — what did you wish you'd watched for?
-- A Value Stream Map (Learning to See is in 02-LIBRARY\04-SYSTEMS-
-  ENGINEERING) replaces the simple process map by rep 3.
+- A Value Stream Map replaces the simple process map by rep 3 (source:
+  *Learning to See*, Rother & Shook — `03-WIKIS\SYSTEMS\raw\`; method page:
+  `03-WIKIS\SYSTEMS\wiki\value-stream-mapping-method-and-lean-guidelines.md`).
 
 ---
 *This file is the product. Every practice rep makes it sharper. v1 = untested skeleton.*

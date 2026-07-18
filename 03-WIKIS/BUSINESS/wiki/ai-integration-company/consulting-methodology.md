@@ -232,3 +232,4 @@ system, human-run or AI-assisted, that the client's own team can operate after y
 - [[smb-ai-audit-method]] — the discovery-interview and findings-presentation content this methodology structures
 - [[owner-dependency-diagnostic]] — the E-Myth diagnostic content this methodology delivers
 - [[negotiation-toolkit]] — a complementary, more tactical toolkit for the same conversations
+- [[creative-problem-solving-and-facilitation-toolkit]] — an optional workshop layer after contracting and discovery when stakeholders need to generate or choose a response

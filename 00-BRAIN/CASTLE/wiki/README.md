@@ -1,47 +1,44 @@
 ---
-tags: [reference]
+type: guide
+timeline: reference
+reference_priority: core
+tags: []
 ---
 
-# The AI Castle — Start Here
+# CASTLE Wiki — User Router
 
-**Every morning: open `.ROOT\NOW.md`. One screen, today's priority, done. The castle owns and refreshes it.**
+Every morning, open `.ROOT\NOW.md`.
 
-**If you opened this cold, read exactly two pages:**
-1. [[north-star-roadmap]] — where this is going and what matters right now
-2. [[current-position]] — where Chris is today
+If you enter CASTLE cold, read:
 
-Everything else is depth behind those two.
+1. [[north-star-roadmap]] — the durable pathway and sequencing context.
+2. [[current-position]] — live baseline and proof state.
+3. `00-BRAIN\CASTLE\HOW_TO_USE.md` — how to operate the command center.
 
-## What This Wiki Is
-
-The master pathway from today to **October 8, 2031**: top 1% AI, Technology & Business
-integrator and application developer, $500K–$1M annual as the FLOOR (quarterly ratchet),
-profiting from all four digital-asset classes plus audit/implementation/retainer services.
-Team: Chris + AI, maximally leveraged. Built and maintained by Claude Code with Chris as
-the only human operator.
-
-## How It's Organized
+CASTLE answers what comes next, why, and what proves it. Durable direction lives in
+`01-NORTH_STAR\NORTH_STAR.md`; the current business vehicle lives in
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`. CASTLE references both and
+does not restate or override them.
 
 | Page | Answers |
 |---|---|
-| [[north-star-roadmap]] | The whole pathway on one screen |
-| [[current-position]] | Where Chris is right now (updated monthly) |
-| [[phase-map]] | The 11 phases, dates, exit criteria |
-| [[skill-map]] | Every skill, sequenced, tied to proof |
-| [[source-map]] | Which source proves which claim, at what tier |
-| `phases/` | One page per phase, full detail |
-| `skills/` | One page per skill |
-| `proof-projects/` | One page per demonstration project |
-| `service-capabilities/` | One page per sellable service |
-| `decision-rules/` | The gates that protect the path |
-| `source-summaries/` | Digested sources |
-| `parked-advanced/` | Good ideas whose time hasn't come |
-| [[log]] | Append-only session record |
+| [[phase-map]] | phase windows and exit criteria |
+| [[skill-map]] | sequenced capabilities tied to proof |
+| [[source-map]] | roadmap-relevant evidence sources |
+| `phases\` / `skills\` / `proof-projects\` | detailed execution maps |
+| `decision-rules\` | gates that protect focus |
+| [[log]] | append-only history |
 
-## House Rules (full version: `../OPERATIONS.md`)
+## Find the Right Layer
 
-- NORTH_STAR.md in `.ROOT\01-NORTH_STAR\` controls. This wiki serves it.
-- No orphan skills. No Tier-4-driven decisions. No new pages while stubs exist.
-- Chris decides what becomes permanent.
+- Normal CASTLE navigation: `path:"00-BRAIN/CASTLE/wiki" [timeline:reference] [reference_priority:core]`
+- Focused rules and evidence: `path:"00-BRAIN/CASTLE/wiki" [timeline:reference] [reference_priority:supporting]`
+- Current CASTLE pages: `path:"00-BRAIN/CASTLE/wiki" [timeline:now]`
+- Complete system-wide daily priority: open `.ROOT\NOW.md`.
 
-*Protect the path. This folder should make it impossible to wonder what matters next.*
+`reference_priority` selects the reference layer and retrieval utility; it never
+means “work on this now.” `timeline` controls action horizon; `NOW.md` remains the
+complete system-wide daily authority.
+
+Full AI operating contract: `00-BRAIN\CASTLE\OPERATIONS.md`. Any AI may maintain
+CASTLE within that contract; Chris owns consequential decisions.

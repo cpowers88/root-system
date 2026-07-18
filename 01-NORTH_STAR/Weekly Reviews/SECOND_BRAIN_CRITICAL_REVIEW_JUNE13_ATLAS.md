@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log]
+timeline: log
+tags: []
 ---
 
 # Critical Review — Second Brain System Audit

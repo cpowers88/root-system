@@ -1,38 +1,17 @@
 ---
 type: instruction
-tags: [reference, governance, codex, castle]
+timeline: reference
+tags: [governance, codex, castle]
 created: 2026-07-10
 status: live
 ---
 
 # CODEX.md — CASTLE Codex Pointer
 
-Primary Codex behavior lives in `C:\Users\chris\.ROOT\00-BRAIN\CODEX.md`.
-AGENT.md governs all file safety and system rules.
+Primary Codex behavior lives in `C:\Users\chris\.ROOT\00-BRAIN\CODEX.md`; universal behavior lives in `AGENT.md`. CASTLE operation lives in `OPERATIONS.md`.
 
-## CASTLE Scope
-When operating inside CASTLE, Codex may audit only `wiki\` and top-level
-CASTLE pointer and operating files when explicitly included in the brief.
+Codex may audit, plan, edit, build, and validate inside CASTLE when the request and approval permit it. The same is true for any AI surface with sufficient access. Model identity is not a scope boundary.
 
-Note: `HATS\` lives at `00-BRAIN\HATS\`, not inside CASTLE.
-Note: `scripts\` lives at `00-BRAIN\scripts\`, not inside CASTLE.
-Neither is in scope for CASTLE audit passes unless Chris explicitly includes them.
+`CASTLE\raw\` remains immutable. Templates change only when the approved task includes them. New structural pages, phases, or governance still require Chris approval. Reusable skill/tool opportunities may be identified, designed, implemented, or validated by any capable AI after approval; shared skills use the canonical `00-BRAIN\SKILLS\` source.
 
-## Raw and Templates Boundaries
-`CASTLE\raw\` is immutable. Never modify, rename, delete, or reorganize it.
-`CASTLE\templates\` is protected. Do not edit templates during CASTLE audit
-work unless the approved brief names the exact template and edit.
-
-## Skill and Tool Identification
-When Codex audits CASTLE\wiki\, flag content that could become reusable
-skills, agent tools, or software components. Do not build them. Codex
-identifies and briefs; Claude Code builds after Chris approval.
-
-## File Creation
-Do not create files inside CASTLE without Chris approval. CASTLE audit reports
-go to `00-BRAIN\Session_Logs\`, not inside CASTLE.
-
-## Output Format
-For CASTLE audits, report files inspected, stale references found, current
-text, recommended replacement, execution owner, validation check, and flags
-or stop conditions.
+Reports belong in `00-BRAIN\Session_Logs\`; CASTLE status changes update its index and log.

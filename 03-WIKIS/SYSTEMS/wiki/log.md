@@ -5,6 +5,366 @@ tags: [log, systems]
 
 # Wiki Log
 
+## 2026-07-18 - Process Mining Handbook mapped and selectively chunk-ingested
+
+Chris directed a complete parts/chapter map and chunk ingestion of the material
+relevant to SYSTEMS and Advisor-Builder work from `raw/Process Mining
+Handbook.pdf` (van der Aalst and Carmona, eds., Springer LNBIP 448, 2022,
+503 physical PDF pages, CC BY 4.0). The file had been added July 17 after the
+July 16 raw-folder closure, so it was the 27th substantive raw source and had no
+ledger row or prior synthesis.
+
+Visually verified the two-page table of contents and the openings of the major
+applied chapters. Mapped all 17 chapters and the author index in
+[[process-mining-handbook-source-map]]. The map gives every chapter one of three
+explicit dispositions: fully read and synthesized; covered by an existing SYSTEMS
+retrieval page; or triggered technical/domain reference with a named activation
+condition.
+
+### Complete chunks read this session
+
+| Chapter | Printed / physical PDF pages | Durable retrieval |
+|---|---:|---|
+| 5. Conformance Checking: Foundations, Milestones and Challenges | 155-190 / 162-197 | [[conformance-checking-and-kpi-driven-process-improvement]] |
+| 7. Practitioner Adoption, Event Log Engineering and Data Challenges | 212-240 / 218-246 | [[process-mining-engagement-and-value-realization]] |
+| 8. Foundations of Process Enhancement | 243-273 / 248-278 | [[conformance-checking-and-kpi-driven-process-improvement]] |
+| 12. Responsible Process Mining | 373-401 / 377-405 | [[responsible-process-mining-fact-gate]] |
+| 13. From Process Discovery to Process Execution | 405-415 / 407-417 | [[process-mining-engagement-and-value-realization]] |
+| 15. Process Mining for Financial Auditing | 445-467 / 447-469 | [[process-mining-audit-and-automation-opportunity]] |
+| 16. Robotic Process Mining | 468-491 / 470-493 | [[process-mining-audit-and-automation-opportunity]] |
+| 17. Scaling Process Mining to Turn Insights into Actions | 495-502 / 495-502 | [[process-mining-engagement-and-value-realization]] |
+
+This is 191 physical pages at full-chapter depth, consolidated by operating job
+rather than converted into eight repetitive summaries. The other nine chapters
+remain deliberately retrievable: Chapters 1, 2, and 6 substantially overlap the
+existing Manifesto/PM4Py/XES pages; Chapters 3-4 are advanced discovery and
+declarative-model reference; Chapters 9-11 activate for object-centric,
+predictive, or streaming work; Chapter 14 is healthcare-specific.
+
+The material adds four real capabilities: a 13-point event-log engineering
+discipline; trust-aware conformance and KPI-gated model repair; a process-specific
+FACT responsibility gate; and an audit-to-task-mining/RPA opportunity pipeline
+that requires frequency, determinism, evidence lineage, testing, and safe human
+handoff.
+
+Updated [[raw-source-coverage-and-intake-status]] to 27 substantive sources and
+the index to 131 pages. No raw file was modified. The conceptual intake is closed;
+the earlier practical proof gap remains: run a small `CSV -> discovered model ->
+conformance report` PM4Py exercise when a suitable real or sanitized event log is
+available.
+
+## 2026-07-16 — Raw-source folder disposition and intake closure
+
+Audited every substantive file currently in `raw/` after closing the corrected
+*Supply Chain Science* queue. Created [[raw-source-coverage-and-intake-status]] as
+the durable source-of-truth ledger rather than leaving status scattered across
+historical log entries.
+
+The audit records 26 substantive raw files as one of four states: closed through
+named SYSTEMS coverage, covered in the owning BUSINESS wiki, intentionally excluded
+from synthesis, or parked behind a concrete activation trigger. `desktop.ini` is
+explicitly excluded as operating-system metadata.
+
+The only parked sources are:
+
+- *Algorithms to Live By*, pending a concrete stopping/scheduling/sorting/caching/
+  exploration decision;
+- the image-heavy *Learning to See* workbook, pending a real VSM deliverable that
+  requires visual workbook-specific review; and
+- `TLS.pdf`, pending a real TOC-versus-lean-versus-Six-Sigma method-selection need.
+
+This is a folder closure, not a claim that parked sources were ingested. They are
+not an active reading queue and should reopen only when their named trigger fires.
+SYSTEMS now has 126 indexed content/reference pages.
+
+## 2026-07-16 — Supply Chain Science Chapters 5-9 coordinated intake complete
+
+Completed the corrected *Supply Chain Science* gap queue as five chapter chunks in
+one coordinated pass. Four new retrieval pages were created based on distinct
+operating questions. Chapter 6 was explicitly dispositioned to the existing
+push/pull page because its complete contents corroborate the already-ingested
+Factory Physics treatment and do not justify a duplicate page.
+
+| Chapter | Printed / physical main-content pages | Disposition |
+|---|---|---|
+| 5. Buffering | 80-92 / 94-106 | [[buffer-strategy-flexibility-and-position]] |
+| 6. Push/Pull | 95-110 / 109-124 | Covered by [[push-pull-conwip-and-postponement]] and [[hierarchical-pull-planning-and-shop-floor-control]]; corroborating source added to the former |
+| 7. Inventory | 114-142 / 128-156 | Single-item mechanics covered by existing EOQ/base-stock/`(Q,r)` pages; multi-item delta captured in [[multi-item-inventory-policy-and-service-allocation]] |
+| 8. Risk | 145-176 / 159-190 | [[supply-chain-risk-pooling-and-crisis-readiness]] |
+| 9. Coordination | 179-215 / 193-229 | [[supply-chain-coordination-contracts-and-information]] |
+
+Questions for Thought were identified and excluded: Chapter 5 printed pp. 93-94 /
+physical pp. 107-108; Chapter 6 pp. 111-113 / 125-127; Chapter 7 pp. 143-144 /
+157-158; Chapter 8 pp. 177-178 / 191-192; and Chapter 9 pp. 215-217 / 229-231.
+Chapter 9's main text and questions share printed p. 215 / physical p. 229; the
+boundary was visually confirmed and only the main-text portion was synthesized.
+All five openings and all five content-to-practice transitions were visually
+verified.
+
+### Overlap decisions
+
+- Chapter 5 extends the Factory Physics buffer law with the strategy-to-buffer link,
+  flexible-buffer principle, bottleneck-adjacent position principle, and a lean
+  definition based on minimum total buffering cost.
+- Chapter 6's precise WIP-cap definition, CONWIP comparisons, and implementation
+  continuum are already fully represented in the Chapter 10 pull page and Chapters
+  13-14 shop-floor-control page. It is logged as named corroborating coverage.
+- Chapter 7's EOQ, base-stock, periodic-review, and continuous-review mechanics are
+  already covered. Its distinct contribution is multi-item service allocation and
+  the quantified failure of uniform days-of-supply rules.
+- Chapter 8 extends existing variability-pooling coverage into rare-event risk,
+  contingency planning, crisis management, and organizational preparedness.
+- Chapter 9 extends existing bullwhip and inventory-location coverage with double
+  marginalization, risk-sharing contracts, information accuracy/use, and network
+  restructuring.
+
+This closes the identified *Supply Chain Science* Chapters 5-9 gap queue. Together
+with the previously covered Chapters 0-4 foundations, all book chapters now have a
+named page or covered-by disposition.
+
+## 2026-07-16 — Factory Physics Chapters 17-19 final coordinated cluster
+
+Completed the final *Factory Physics* block as a single intake pass. Three pages
+were warranted by retrieval purpose: Chapter 17 owns inventory placement and
+supply-chain coordination, Chapter 18 owns strategic capacity and line design, and
+Chapter 19 owns implementation synthesis. Chapter 19 was checked against the
+existing Chapter 6 four-step-method page and retained because it contributes a
+different full implementation parable, team-focusing method, and closing synthesis.
+
+| Chapter | Printed / physical main-content pages | Disposition |
+|---|---|---|
+| 17. Supply Chain Management | 603-645 / 1942-2053 | [[supply-chain-inventory-placement-and-bullwhip-control]] |
+| 18. Capacity Management | 649-665 / 2063-2106 | [[capacity-strategy-line-design-and-unbalancing]] |
+| 19. Synthesis—Pulling It All Together | 671-694 / 2123-2189 | [[factory-physics-implementation-synthesis-and-team-focus]] |
+
+Chapter 17 discussion/questions/problems (printed pp. 646-648 / physical pp.
+2054-2062) and Chapter 18 Appendix 18A/questions/problems (printed pp. 666-670 /
+physical pp. 2107-2122) were identified and excluded as practice material. Chapter
+19 has no practice set; the standard-normal table, references, and index beginning
+at physical p. 2190 were identified as back matter and excluded. Visual checks
+confirmed every chapter opening, every main-content conclusion/final-section
+boundary, and the Chapter 19-to-back-matter transition.
+
+### Overlap decisions
+
+- Chapter 17 uses existing EOQ, base-stock, `(Q,r)`, buffer, and postponement pages
+  as model foundations. Its new contribution is the integrated policy by inventory
+  type, WIP waiting cause, spare-parts demand type, and multiechelon bullwhip.
+- Chapter 18 uses existing queueing, bottleneck, and aggregate-planning mechanics.
+  Its new contribution is the throughput-plus-cycle-time feasibility gate,
+  customer-backward facility design, improvement heuristic, and deliberate
+  unbalancing rule for flow lines.
+- Chapter 19 does not duplicate Chapter 6's four-step improvement methodology. It
+  adds means-ends implementation discipline, Pareto team focus, the Texas Tool and
+  Die diagnostic sequence, model correction from WIP evidence, and the closing
+  process/systems synthesis.
+
+### Source closure
+
+The July 15 handoff queue for *Factory Physics* Chapters 9-19 is now fully closed.
+Every main-content chapter in that range has a named retrieval-page disposition;
+appendices, questions, exercises, problems, and back matter have explicit exclusion
+records. The coordinated passes produced nine pages from eleven chapters because
+Chapters 13-14 and 15-16 were consolidated by operating question.
+
+## 2026-07-16 — Factory Physics Chapters 13-16 coordinated cluster
+
+Completed Chapters 13-16 as one planning-and-control intake block. The material was
+consolidated into two retrieval pages rather than four chapter pages: Chapters
+13-14 jointly define the closed-loop planning hierarchy and its shop-floor-control
+layer, while Chapters 15-16 jointly connect feasible scheduling and pull execution
+to aggregate product-mix and workforce decisions.
+
+| Chapter | Printed / physical main-content pages | Disposition |
+|---|---|---|
+| 13. A Pull Planning Framework | 435-473 / 1291-1411 | [[hierarchical-pull-planning-and-shop-floor-control]] |
+| 14. Shop Floor Control | 483-511 / 1452-1526 | [[hierarchical-pull-planning-and-shop-floor-control]] |
+| 15. Production Scheduling | 516-550 / 1539-1650 | [[production-scheduling-and-aggregate-workforce-planning]] |
+| 16. Aggregate and Workforce Planning | 553-590 / 1668-1893 | [[production-scheduling-and-aggregate-workforce-planning]] |
+
+Appendices and practice material were identified and excluded: Chapter 13 printed
+pp. 474-482 / physical pp. 1412-1451; Chapter 14 printed pp. 512-515 / physical
+pp. 1527-1538; Chapter 15 printed pp. 550-552 / physical pp. 1651-1667; and Chapter
+16 printed pp. 591-602 / physical pp. 1894-1941. Visual checks confirmed all four
+chapter openings and all four main-content conclusion boundaries in the reflowed
+PDF.
+
+### Overlap decisions
+
+- Existing forecasting pages retain method mechanics; Chapter 13 contributes the
+  forecast's place in a coordinated, feedback-driven production hierarchy.
+- Existing Chapter 3 and Chapter 10 pages retain RCCP/CRP, dispatch-rule, and base
+  push/pull mechanics. Chapters 13-14 add pull-specific hierarchy design, CONWIP
+  configuration rules, statistical throughput control, and capacity feedback.
+- Existing linear-programming pages retain solver mechanics and sensitivity
+  analysis. Chapters 15-16 add the operating architecture: diagnose WIP versus
+  capacity infeasibility, schedule constraints rather than every machine, execute
+  through pull, and use simple iterative LP models for product mix and labor policy.
+- Existing cost-accounting coverage retains the detailed absorbed-cost product-mix
+  example; the new synthesis preserves its role inside aggregate planning.
+
+The remaining *Factory Physics* queue is now the final coordinated block, Chapters
+17-19: supply chain management, capacity strategy, and implementation synthesis.
+
+## 2026-07-16 — Factory Physics Chapters 10-12 coordinated cluster
+
+Following Chris's direction not to default to one chapter per intake step, scanned
+Chapters 10-19 first and grouped the remaining source into three coherent blocks.
+Completed the first block, Chapters 10-12, in one pass. The chapters remain separate
+retrieval pages because they answer distinct operating questions, not because the
+intake was chapter-by-chapter.
+
+| Chapter | Printed / physical content pages | Disposition |
+|---|---|---|
+| 10. Push and Pull Production Systems | 356-381 / 1104-1170 | [[push-pull-conwip-and-postponement]] |
+| 11. The Human Element in Operations Management | 384-397 / 1176-1203 | [[human-laws-incentives-authority-and-change]] |
+| 12. Total Quality Manufacturing | 399-428 / 1210-1281 | [[quality-variability-spc-and-supplier-reliability]] |
+
+Study/discussion questions and problems at each chapter's end were identified and
+excluded as practice material. Visual boundary checks confirmed the Chapter 10 and
+11 openings, the Chapter 11 conclusion-to-discussion transition, the Chapter 12
+opening, and the Chapter 12-to-Part III transition.
+
+### Overlap decisions
+
+- Chapter 10 extends existing Chapter 4 kanban mechanics with the formal WIP-cap
+  definition of pull, CONWIP comparative laws, floating-bottleneck behavior, and
+  inventory/order-interface placement.
+- Chapter 11 is distinct from the Chapter 1 human-relations history: it supplies
+  current operating laws for incentives, human variation, champions, burnout,
+  planning truth, and authority.
+- Chapter 12 extends the existing JIT/TQM and Chapter 8 rework material with SPC
+  stability-versus-capability, Six Sigma's proper boundary, line-level rework/scrap
+  effects, detection delay, and supplier/assembly reliability.
+
+The next coordinated block is Chapters 13-16: pull planning, shop-floor control,
+production scheduling, and aggregate/workforce planning. The remaining final block
+is Chapters 17-19: supply chain, capacity management, and implementation synthesis.
+
+## 2026-07-16 — Factory Physics Chapter 9 complete chunk
+
+Resumed the large-source queue at the exact July 15 handoff point. Verified
+Chapter 9, "The Corrupting Influence of Variability," against the source table of
+contents, extracted the full chapter-content range, and visually checked the
+chapter opening and the conclusion/study-question boundary. Because the ebook PDF
+is reflowed, printed pp. 306-349 occupy physical PDF pp. 971-1086; study questions,
+intuition-building exercises, and problems continue through printed p. 352 and
+were identified but excluded from synthesis.
+
+### Complete chunk disposition
+
+| Chapter / sections | Printed / physical pages | Disposition |
+|---|---|---|
+| 9.1-9.8, The Corrupting Influence of Variability | 306-349 / 971-1086 | [[variability-buffering-batching-and-diagnostic-laws]] |
+| Study questions, exercises, problems | 349-352 / 1086-1105 | Intentionally excluded as practice material, not source claims |
+
+### Overlap decisions
+
+- Chapter 7 already owns best/worst/practical-worst-case behavior, Little's Law,
+  and internal benchmarks; Chapter 8 already owns CV, effective process-time
+  variability, VUT, finite-buffer queues, and pooling. Those derivations were not
+  duplicated.
+- Chapter 9's genuinely new contribution is the integrated operating framework:
+  strategically good versus bad variability; inventory/capacity/time buffering;
+  planned capacity slack; process versus transfer batches; cycle-time
+  decomposition; lead-time service based on mean and spread; and diagnosis that
+  traces visible congestion back to upstream variability.
+- The HAL and SteadyEye cases were retained as applied diagnostic evidence rather
+  than split into separate case pages.
+
+The Factory Physics remaining chapter queue is now Chapters 10-19. Chapter 10,
+"Push and Pull Production Systems," is next.
+
+## 2026-07-15 — Business Dynamics Chapters 9-16: eight-chunk gap closure
+
+Completed the chapter-level disposition pass requested after the validation-spine
+ingest. The source boundaries were verified from the table of contents, extracted as
+eight independent text chunks, and visually checked at every chapter opening and
+summary boundary. The physical-page offset is +25 throughout this range.
+
+### Complete chunk dispositions
+
+| Chapter | Printed / physical pages | Disposition |
+|---|---|---|
+| 9. S-Shaped Growth: Epidemics, Innovation Diffusion, and the Growth of New Products | 295-347 / 320-372 | [[epidemics-innovation-diffusion-and-product-growth]] |
+| 10. Path Dependence and Positive Feedback | 349-406 / 374-431 | [[path-dependence-positive-feedback-and-standards]] |
+| 11. Delays | 409-467 / 434-492 | [[material-information-and-pipeline-delays]] |
+| 12. Coflows and Aging Chains | 469-511 / 494-536 | [[coflows-aging-chains-and-attribute-dynamics]] |
+| 13. Modeling Decision Making | 513-550 / 538-575 | [[modeling-decision-rules-and-rate-formulations]] |
+| 14. Formulating Nonlinear Relationships | 551-595 / 576-620 | [[nonlinear-relationships-and-table-functions]] |
+| 15. Modeling Human Behavior: Bounded Rationality or Rational Expectations? | 597-629 / 622-654 | [[bounded-rationality-intended-rationality-and-local-policy]] |
+| 16. Forecasts and Fudge Factors: Modeling Expectation Formation | 631-660 / 656-685 | [[forecasting-expectations-and-fudge-factors]] |
+
+### Overlap decisions
+
+- Chapter 9 extends the existing Chapter 4 page
+  [[s-shaped-growth-overshoot-collapse-and-chaos]] with logistic/Richards/Gompertz/
+  Weibull models, SI/SIR thresholds, Bass diffusion, abandonment, and replacement;
+  it is not duplicate coverage.
+- Chapter 15 extends the Chapter 1 page
+  [[barriers-to-learning-and-virtual-worlds]] with organizational coping mechanisms,
+  intended rationality, partial-model tests, and the high-tech growth-firm case.
+- Chapter 16 is distinct from the Hillier/Lieberman page
+  [[forecasting-time-series-and-exponential-smoothing]]: it models how expectations
+  form and why professional forecasts lag turning points and receive undocumented
+  overrides.
+- Chapters 11-14 had only scattered forward references in inherited pages; none had
+  a complete chapter-level synthesis.
+
+This closes the identified *Business Dynamics* Chapter 9-16 gap queue. Combined
+with the prior complete Chapter 21 chunk, the false July 13 "already covered"
+assumption has now been replaced by explicit source ranges and named pages.
+
+### Next source queue
+
+1. *Factory Physics*, Chapters 9-19.
+2. *Supply Chain Science*, Chapters 5-9.
+3. Image-based *Learning to See* visual chunks.
+4. Lean Manufacturing bridge material, *The Logical Thinking Process*, and the
+   Theory of Constraints clipping.
+
+## 2026-07-15 — Validation spine: source-coverage correction + two complete chapter chunks
+
+The raw-vs-wiki audit showed that the July 13 statement that several large books
+were "already fully covered" was not supported by chapter-level dispositions.
+That historical entry remains below as an audit trail, but its completeness claim
+is superseded by this entry and by the corrected source rule in `CLAUDE.md`.
+
+### Chunk ingestion completed
+
+- **BusinessDynamics.pdf, Chapter 21**, "Truth and Beauty: Validation and Model
+  Testing" (printed pp. 845-891; physical PDF pp. 870-916): reviewed as one
+  complete chapter chunk, including validation/verification limits, evidence and
+  documentation, replicability, protective vs. reflective modeling, all twelve
+  named model tests, implementation assessment, and the chapter summary.
+  Synthesized as [[model-validation-and-testing-practice]].
+- **IntroductiontoOpersationsResearch.pdf, Chapter 2**, "Overview of the
+  Operations Research Modeling Approach" (printed pp. 10-24; physical PDF
+  pp. 41-55): reviewed as one complete chapter chunk, including problem/data
+  definition, formulation, solution, testing, ongoing application, implementation,
+  and conclusions. Synthesized as [[operations-research-study-lifecycle]].
+
+These pages form a validation spine for later intake: define the purpose and whole
+system, preserve source lineage, make assumptions explicit, seek disconfirmation,
+require reproducibility, involve future users, and carry recommendations through
+implementation and continuing review.
+
+### Corrected remaining queue
+
+- *Business Dynamics*: Chapters 9-16 remain to receive chapter-level dispositions;
+  Chapter 21 is now covered by the page above.
+- *Factory Physics*: Chapters 9-19 remain to receive chapter-level dispositions.
+- *Supply Chain Science*: Chapters 5-9 remain to receive chapter-level
+  dispositions; prior principle-level similarity is not full-source coverage.
+- *Learning to See*: image-based source requires visual chunk review; the existing
+  VSM synthesis does not by itself establish full coverage.
+- The Lean Manufacturing bridge material, *The Logical Thinking Process*, and the
+  Theory of Constraints clipping still require explicit source-to-page disposition.
+
+**Gate going forward:** no large raw source is "complete" until every chapter or
+defined section is logged as ingested, covered by a named page, deferred with a
+reason, or intentionally excluded with a reason.
+
 ## 2026-07-13 (final) — Chunks 4–5: closing out the full IntroductiontoOpersationsResearch.pdf ingest (Ch. 11, 13, 14, 18.5/18.8, 19, 21, 22, 23.1, 25, 26.2, 27, 29)
 
 Chris asked to finish the entire remaining queue rather than stop after chunk 3. Worked through it systematically rather than attempting a single blind pass across ~536 remaining pages:
@@ -242,3 +602,44 @@ subset first). Prior carry-over unchanged: hands-on PM4Py trial.
 - SYSTEMS wiki now at 70 pages total.
 - Next action: continue the real intake pass on FORGE's remaining `wiki\business\`
   content (~105 pages) into BUSINESS wiki per its §7A protocol.
+
+## 2026-07-14 — Human guide reconciled after migration
+
+- Updated HOW_TO to route business applications through CURRENT_STRATEGY only when
+  relevant, treat inherited North Star wording as a hypothesis rather than doctrine,
+  and use the exact field-observation skill path.
+- Live guide/map scans and strict wiki lint found no active dead link. Older FORGE
+  references above remain append-only migration history, not current instructions.
+
+## 2026-07-15 — The Design of Everyday Things routed and chunk-ingested
+
+- Reviewed the 270-page PDF that had been stored beside Chris's personal aptitude
+  reports. Identified it as Don Norman's original *The Design of Everyday Things*
+  with the 2002 preface: general human-factors/system-design research, not a
+  personal learning-profile source.
+- Routed it once into immutable SYSTEMS raw as
+  `The-Design-of-Everyday-Things-Norman-2002.pdf`; no duplicate copy existed.
+- Ingested all seven chapters through named ranges: preface + Chapters 1-4 into
+  the conceptual-model/action-cycle page; Chapter 5 into the human-error/recovery
+  page; Chapters 6-7 into the principles/tradeoffs page; and a source map that
+  records full coverage and honest limits. This is conceptual coverage, not a
+  claim that every anecdote, illustration, note, or citation was transcribed.
+- Added four indexed pages, bringing SYSTEMS from 98 to 102 pages. The new cluster
+  connects human-centered design to audit work, system reliability, explicit
+  controls, reversible automation, and `.ROOT`'s external-memory design.
+- Validation exposed a stale local instruction telling new pages to copy FORGE-era
+  control tags. Corrected `CLAUDE.md` and `HOW_TO_USE.md`: inherited pages retain
+  their legacy taxonomy, while new pages use canonical timeline/status/reference
+  properties without dual-encoded `priority/*` or `status/*` tags.
+- Final validation passed: 102/102 pages indexed; strict wiki lint reports
+  0 blockers and 0 review debt; the metadata comparison reports 0 new findings;
+  canonical `.ROOT` health is PASS WITH DEBT; Markdown integrity and whitespace
+  checks pass.
+- Next: use the error/recovery checklist on a real workflow or interface. Reading
+  is not proof; do not create more design pages until application exposes a gap.
+
+## 2026-07-16 — Book intake routed from `77-INBOX`
+
+- Added *Algorithms to Live By* to raw as a decision/scheduling/queuing source.
+- Source placement only; keep behind the existing source-coverage queue and use
+  it when a concrete scheduling, stopping, sorting, or exploration problem opens.

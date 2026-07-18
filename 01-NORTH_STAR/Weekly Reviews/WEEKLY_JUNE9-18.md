@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log]
+timeline: log
+tags: []
 ---
 
 # WEEKLY REVIEW — June 9 to June 18, 2026

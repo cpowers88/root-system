@@ -13,9 +13,11 @@ tags: [now, business]
 
 Business research, market direction, offer design, audit method, pricing,
 sales, and fulfillment — the strategy and blank-master layer for Chris's AI
-integration and operational improvement company. Thinking happens here
-before it becomes a client artifact; filled/used client artifacts land in
-`.ROOT\05-BUSINESS` per `WHERE_IT_GOES.md`.
+integration and operational improvement company. Thinking and blank masters
+happen here. Active client-specific/private work lives in a separate client
+workspace or repository outside `.ROOT`; only sanitized lessons, reusable
+methods/assets, approved case studies, and non-sensitive metadata return per
+`WHERE_IT_GOES.md`.
 
 The controlling question:
 
@@ -62,8 +64,9 @@ speed, quality, or management visibility — flag it low priority.
 
 ## System Boundary
 
-- Filled/used client artifacts → `05-BUSINESS`. Blank masters and strategy
-  live here.
+- Active client-specific/private work → separate client workspace or repository
+  outside `.ROOT`. Blank masters and strategy live here; sanitized reusable
+  learning may return to `05-BUSINESS`.
 - `03-WIKIS\SYSTEMS` feeds audit methodology (system dynamics, factory
   physics); `03-WIKIS\TECHNOLOGY` feeds the tool landscape;
   `03-WIKIS\AI_AUTOMATION_SYSTEMS` feeds AI/agent patterns. This wiki is
@@ -111,9 +114,9 @@ practical use, which page it updates (or why it needs a new one), what's
 missing from Chris to finish it. Discard anything that fails the Business
 Design Rule bar.
 
-**Step 4 — File and tag.** New pages follow the Page Template and get
-exactly one phase tag. Updated pages keep their tag unless the timing
-genuinely changed.
+**Step 4 — File and classify.** New pages follow the Page Template and get
+exactly one `stage:` property. `timeline:` records when to act and changes
+independently; `stage:` records the page's stable business-build position.
 
 **Step 5 — Update navigation.** Update
 `wiki/ai-integration-company/index.md` and `wiki/log.md`; print the changed
@@ -136,6 +139,13 @@ full source content into a page.
 ## Page Template
 
 ```markdown
+---
+type: reference
+timeline: reference
+stage: phase-1
+tags: [business]
+---
+
 # Page Title
 
 ## Purpose
@@ -153,10 +163,9 @@ full source content into a page.
 
 Every page links related pages with `[[wikilinks]]`.
 
-## Phase Tags (graph convention)
+## Phase Property (graph convention)
 
-Every wiki page carries exactly one phase tag as the FIRST tag in its
-frontmatter:
+Every wiki page carries exactly one `stage:` value in its frontmatter:
 
 - `phase-1` — Foundation (weeks 0–4): start-here, first-30-days, thesis +
   operating model, skill-roadmap, tool-stack, most-profitable-pathways
@@ -172,8 +181,9 @@ frontmatter:
 - `phase-all` — Always-on reference: index, README,
   risks-and-failure-modes, what-not-to-do
 
-If a page's execution timing changes, move its tag. Isolate a phase in the
-single `.ROOT` graph with `path:"03-WIKIS/BUSINESS" tag:#phase-1` — the
+Change `stage:` only when the page's stable business-build position changes;
+change `timeline:` when its action horizon changes. Isolate a phase in the
+single `.ROOT` graph with `path:"03-WIKIS/BUSINESS" [stage:phase-1]` — the
 filtered view is the progression map; the graph colors this wiki as one block.
 
 ## Tone and Standard
@@ -183,8 +193,16 @@ certainty, no vague motivational language. Chris earns the outcome through
 skill, implementation, client results, operational discipline, and
 repeatable systems.
 
+## Strategy and Watchtower Boundary
+
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` owns the active vehicle,
+assumptions, offer, wedges, and milestones. This wiki owns deeper business research
+and methods. Verified external market change reaches `...projectSuccess\radar.md`
+only when it materially affects an active assumption/choice and includes an evidence
+page plus review trigger. Our own conversations and delivery results are test
+outcomes and return through CASTLE to CURRENT_STRATEGY, not through Watchtower.
+
 ## Final Operating Principle
 
 This wiki exists to produce offers, methods, and client-ready thinking —
 strategy that ends in action, not more strategy.
-

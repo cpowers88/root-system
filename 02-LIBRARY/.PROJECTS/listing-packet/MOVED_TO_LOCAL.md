@@ -1,51 +1,48 @@
 ---
 type: project
-tags: [parked, project]
+timeline: parked
+status: paused
+tags: [project]
 ---
 
-# Project-listing-packet — Moved to Local Disk
-### Moved: July 4, 2026
+# ListingOS / Listing Packet — Parked Local-Repository Pointer
 
----
+### Last verified: July 15, 2026
 
-The active code for this project (git repo, source, tests, docs, samples,
-templates, data, and outputs) has moved to:
+The code repository, tests, templates, and outputs live outside `.ROOT` at:
 
-```
+```text
 D:\DEV\active\Project-listing-packet\
 ```
 
-GitHub remote: `github.com/cpowers88/listing-packet-clean1` (branch
-`native-acroform-filler` as of the move).
+The local path exists as of the verification date. GitHub remote:
+`cpowers88/listing-packet-clean1`. This pointer does not claim the branch, commit,
+test state, or working-tree state is current; inspect the repository before any
+reactivation.
 
-## Why it moved
+## Status
 
-The project's `.git` repo and Python virtual environments (`.venv`,
-`.venv311`) were living directly in this Drive folder. That violates
-`WHERE_IT_GOES.md`'s own rule (`.py`/`.js`/`.sql` — local PC + GitHub
-only, never Drive) and put a git working tree and ~thousands of venv
-package files on a Drive-streaming mount — slow to sync, and it was not
-listed as a current project in `vault_map.md` or `NORTH_STAR.md`.
+**PARKED.** Resume only through a fresh CASTLE/current-strategy gate and a verified
+repository review. Notion and the historical vault snapshot do not own current
+operational status.
 
-`.venv` and `.venv311` (plus `__pycache__`, `.pytest_cache`) were deleted
-outright rather than moved — they're fully reinstallable from
-`requirements.txt` and carried no unique content.
+## Preserved history
 
-## What's still here
+The complete May–June `.ROOT` snapshot—including known-state, repair, requirements,
+and workflow documents—was preserved intact at:
 
-One file Drive would not let move cleanly — a native Google Doc pointer,
-not a real local file:
-
-```
-outputs/mvp_test_finalcheck/Powers_FinalPaper.gdoc
+```text
+99-ARCHIVE\PROJECTS\FMLS_ListingOS_PAUSED\
 ```
 
-Left in place since `.gdoc` files only resolve through Drive anyway.
+The former Drive shell contains only Windows metadata folders; no `.gdoc` or unique
+project output remains there. This file is the single live `.ROOT` pointer for the
+parked project.
 
-## Note on uncommitted changes
+## Reactivation check
 
-At the time of the move, the working tree had 3 uncommitted deletions
-(`docs/keyedinformapping.pdf`, `fixtures/markedfields.pdf`,
-`templates/ResidentialDataInput_MASTER_ORIGINAL.pdf`). These carried over
-to the local copy unchanged — nothing was committed or discarded during
-the move.
+1. Verify the local repository and remote state.
+2. Reconcile any uncommitted changes and current tests without relying on the
+   archived May snapshot.
+3. Name the real user, bounded proof, time cost, and current-strategy reason.
+4. Obtain Chris's approval before reopening build work.

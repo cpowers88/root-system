@@ -57,6 +57,11 @@ Works only when specific: name their process, not your technology. *"Most HVAC c
 Case studies ([[case-study-template|template]]), before/after posts, short teardown videos of common broken workflows. Purpose: making the other four channels convert better, not going viral.
 
 ## The Sales Conversation (Audit Close)
+Use [[customer-discovery-and-evidence|Customer Discovery and Evidence]] during
+the learning portion: stay on specific past workflows, current workarounds,
+consequences, prior spend, and decision ownership until the problem is clear.
+Do not convert polite enthusiasm into pipeline evidence; require advancement.
+
 1. **Discovery (15–20 min):** how work flows through the business, where things pile up, what's most annoying, what it's costing them (get *their* estimate first).
 2. **Mirror:** replay their pains in their own words, sharper than they said them. This is where credibility is won.
 3. **Bridge:** "These are exactly the leaks my audit quantifies. In two weeks you get every problem priced in dollars and a prioritized fix-list — whether or not you ever hire me to fix them."
@@ -97,6 +102,7 @@ The [[progressive-operating-thesis|thesis]] is a sales weapon: "your people move
 - **Sporadic, apologetic selling** — a system (fixed channels, cadence, script) removes the daily decision of whether to sell; see [[risks-and-failure-modes|Risks & Failure Modes]] #15.
 
 ## Related Pages
+- [[customer-discovery-and-evidence|Customer Discovery and Evidence]] — behavior, commitment, and advancement standards for prospect conversations
 - [[smb-ai-audit-method|SMB AI Audit Method]] — the product this system sells
 - [[negotiation-toolkit|Negotiation Toolkit]] — the discovery, objection-handling, and fee-negotiation tools used throughout the sales conversation
 - [[market-map|Market Map]] — who to aim it at

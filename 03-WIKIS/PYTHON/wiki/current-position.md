@@ -1,6 +1,7 @@
 ---
 type: tracker
-tags: [now, programming]
+timeline: now
+tags: [programming]
 ---
 
 # Current Position
@@ -17,10 +18,17 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
 
 - **Stage 0 — satisfied.** Chris meets every Stage 0 setup/orientation item already (see Learner Baseline below).
 - **Stage 1 — satisfied (2026-07-13).** Chris worked Stage 1 independently with Codex on 2026-07-12 (files: `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\{starter_prompt,variables,expressions,types}.py`) — real code, not generated-and-untouched. Verified in this session, not assumed from the code alone: explained why `int()`/`float()` conversions were needed before use, correctly predicted then confirmed a `TypeError` from `age + 5` on an unconverted string, and correctly reasoned through `+`-concatenation vs. f-string mechanics after one correction. `starter_prompt.py` satisfies the About Me mini-project spec (input, conversion, calculation, formatted output). `variables.py` also demonstrated early reassignment/accumulator patterns (Stage 3 territory) with no issues.
-- **Current study stage: Stage 2 — Decisions and Boolean Logic.** `wiki/stages/stage-02-decisions-and-boolean-logic.md`.
+- **Stage 2 — satisfied (2026-07-16).** `S2P1.py`, `S2P2.py`, `S2P3.py`, and
+  `Story.py` exist under `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-02-python_wiki\`.
+  Cold explain-back completed: Chris correctly explained why `Story.py` uses
+  `elif` for mutually exclusive tunnel/bridge paths and `or` for the two
+  equivalent bridge choices (spikes/snakes). `S2P3.py`'s grading rule was
+  independently corrected (removed the stray `D` band, `else` now prints `F`
+  for anything below 70) and verified. See `wiki/log.md` 2026-07-16.
+- **Current study stage: Stage 3 — Loops.** `wiki/stages/stage-03-*.md`.
 - **Stages 3-10 are generated but not yet mastered.** Their packets exist and are ready, but Chris has not worked through or demonstrated mastery of any of them yet. Do not treat their existence as progress.
 
-**This page must never be read as "Chris should start at Stage 10."** Stages 0-1 are complete. His next action is Stage 2.
+**This page must never be read as "Chris should start at Stage 10."** Stages 0-2 are complete. His next action is to open Stage 3 and begin loops.
 
 ## Current Learner Baseline
 
@@ -76,15 +84,24 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
 
 ## Academic Integrity Notes
 
-- Syllabi do not state an explicit AI policy. Chris confirmed AI assistance is allowed for this course (not `ai-restricted`).
-- Standing vault rule still applies: stop and ask before drafting/solving anything that may be graded.
+- **CSE 1321 and CSE 1321L are `ai-restricted`.** Both official Fall 2026 PDFs
+  explicitly prohibit submitted content created or assisted by generative AI.
+- AI may support private concept learning and ungraded practice. It must not draft,
+  solve, rewrite, or debug submitted course work. Stop and ask whenever graded status
+  is unclear. See [[syllabus-alignment]].
 
-## School Alignment (from syllabi, ingested 2026-06-24)
+## School Alignment (official PDFs verified 2026-07-15)
 
 - Course schedule covers ~13-15 weeks: decomposition/abstraction → data types/operators/Boolean → selection → iteration/loops → functions/parameters/arguments → Python libraries → tuples/lists → dictionaries/searching/sorting → OOP → (lab only) intro to Java.
 - Topics Chris must master before class begins: vault Stages 1-4 (atoms, decisions, loops, functions) — matches Weeks 1-4 of the existing 8-Week Python Foundation Plan.
-- No required textbook found in either syllabus file. Chris will add the official course textbook to `raw/books/` later.
-- No grading-category breakdown available yet.
+- *Think Python* is the recommended, no-cost course text and is already the Stage
+  1-8 spine.
+- Lecture: 10 quizzes and 3 exams; fall/spring weighting is 25% each for quiz
+  average, Test 1, Test 2, and final. Lab: 13 labs and 7 assignments; weighting is
+  40% assignments, 10% labs, 20% midterm, 30% final.
+- The path now includes a small standard-library bridge at the end of Stage 4 so
+  "Python Libraries" is learned in syllabus order before Stage 5 data shapes.
+- Full outcome, policy, assessment, and schedule-anomaly details: [[syllabus-alignment]].
 
 ## Spine Source
 
@@ -104,10 +121,16 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
 
 **Python Workout, 2nd Ed. (Reuven M. Lerner)** — added 2026-06-24 as a drill bank (200 short exercises) spanning Stages 1, 4, 5, 6, 8, 9-10. Directly serves the vault's Drill Rule.
 
-### Source Intake Checkpoint (2026-06-24) — Closed
+### Source Intake Checkpoint — Classified and Controlled
 
-Eight sources total (two syllabi + six books) are now mapped across all 11 stages (0-10). Intake is closed per Chris's `first_generation.md` instruction. The full staged path lives in `wiki/learning-path.md`; per-book reasoning lives on this page and in `wiki/source-map.md`.
+The active spine and support roster is mapped across all 11 stages (0-10), and
+later arrivals are classified in `wiki/source-map.md`. Do not use the old
+"two syllabi + six books" count as a control total; the hub now contains additional
+classified books, official documentation, and parked data/SQL strands. Intake stays
+closed unless a specific learning gap justifies reopening it.
 
 ## Current Next Action
 
-Chris's next action is **Stage 2**: open `wiki/stages/stage-02-decisions-and-boolean-logic.md` and begin there. All 11 stages (0-10) have complete generated packets waiting, but that is a content-readiness fact, not a study-progress fact — Chris has completed Stage 1 only. As Chris completes each stage's mastery checklist, update this section to reflect his real progress. Only after Chris finishes Stage 10 should "what's next" (deeper practice, a business-applications bridge toward `03-WIKIS\BUSINESS` / `03-WIKIS\TECHNOLOGY`, or new advanced material) be discussed — do not generate further stages speculatively before then.
+Stage 2 is closed. Chris's next action is to **open Stage 3 (Loops)**:
+`wiki/stages/stage-03-*.md`. All later packets remain content readiness, not
+study progress until worked and verified the same way Stage 2 was.

@@ -1,7 +1,9 @@
 ---
 type: proof-project
+timeline: now
+stage: phase-0
 status: active
-tags: [proof-project, track-1, track-2, now]
+tags: [proof-project, school, technology]
 ---
 
 # KSU Academic Tracker
@@ -15,7 +17,8 @@ tags: [proof-project, track-1, track-2, now]
 - SQL/SQLite — the **#1 skill gap**: 4-table schema (courses, assignments, tests, readings), foreign keys, real queries
 - Python CLI craft: sqlite3, argparse, datetime date-math, clean terminal output
 - Scope discipline: two functions only, no dashboard, no web UI — per the brief
-- The compounding pattern: tracker is practice, POL is the product, same concepts
+- The compounding pattern: real tracker use strengthens reusable Python/SQL patterns;
+  a later approved proof vehicle may reuse them without becoming a current commitment
 
 ## Definition of Done (from the brief)
 - [x] Four tables created; courses entered
@@ -25,9 +28,9 @@ tags: [proof-project, track-1, track-2, now]
 - [ ] In daily morning use by August 24
 
 ## North Star Connection
-Track 2 project serving Track 1 directly. Walking into CSE 1321 having built this
-means every classroom concept lands on prior context. Daily use through the semester
-is the ongoing proof — an abandoned tracker proves the opposite.
+Technology proof serving the fixed school spine directly. Walking into CSE 1321
+having built this means every classroom concept lands on prior context. Daily use
+through the semester is the ongoing proof — an abandoned tracker proves the opposite.
 
 ## Status Log
 | Date | What happened | Next action |

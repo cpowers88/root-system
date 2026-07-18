@@ -52,6 +52,10 @@ Full flashcard batch: [[flashcards/stage-02-decisions]]
 - [[mini-projects/stage-02-choose-your-path-adventure]]
 - Alternative/extra: Invent Your Own Computer Games Ch.3 (Guess the Number — note: the book's version uses a loop; for Stage 2, cap it at one guess and treat the multi-guess version as a Stage 3 stretch goal) and Ch.5 (Dragon Realm, the direct inspiration for this stage's mini-project).
 
+Before coding, list the possible inputs and the branch/output each input should
+produce. This keeps the course's decomposition habit active without pulling the
+full Stage 7 design packet forward.
+
 ## Common Errors Reference
 
 - [[errors/stage-02-common-errors]]

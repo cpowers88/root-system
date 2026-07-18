@@ -1,6 +1,7 @@
 ---
 type: os
-tags: [now, ai-automation, technology]
+timeline: reference
+tags: [governance, technology]
 ---
 
 # CLAUDE.md — Technology Wiki OS
@@ -19,11 +20,11 @@ The controlling question:
 
 ## Spine Reference
 
-`02-LIBRARY\08-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` is this wiki's
+`02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` is this wiki's
 operational spine — the 12-category possibility map (need/waste signals per
 category, the Recommendation Ladder, the selling model). It stays in place at
 `02-LIBRARY` (July 7, 2026 decision: it's load-bearing in ~10 live files
-including `NORTH_STAR.md`, `AGENT.md`, and the lane files' session boot
+including `NORTH_STAR.md`, `AGENT.md`, and the surface profiles' session boot
 order — moving it risked breaking the boot chain for no real gain). This wiki
 links to it and builds landscape research around it; it does not duplicate or
 fork its content.
@@ -36,7 +37,7 @@ fork its content.
   second, newer layer is **applied technical reference** ("how do I actually
   use it") — 68 pages inherited from FORGE's retirement covering web
   frameworks (Flask/Django), distributed systems, DevOps, AI/LLM concepts, and
-  applied data science/ML. FORGE is retiring; this wiki absorbed its
+  applied data science/ML. FORGE retired July 7; this wiki absorbed its
   non-Python applied-technique content rather than that knowledge having
   nowhere to live. (The Python/data-analysis half of FORGE's technology
   content went to `03-WIKIS\PYTHON` instead — see that wiki's `source-map.md`.)
@@ -51,7 +52,7 @@ fork its content.
   **Lane closure (July 9, 2026):** this wiki's `ai-and-llm/` subfolder is
   inherited applied reference, closed to new intake — new AI/LLM/agent
   research routes to `03-WIKIS\AI_AUTOMATION_SYSTEMS`. And
-  `02-LIBRARY\08-AI-AUTOMATION` is an artifact/reference home (the spine,
+  `02-LIBRARY\REF-AI-AUTOMATION` is an artifact/reference home (the spine,
   prompt libraries, promoted syntheses, capture folders Chris places there),
   not an intake lane.
 
@@ -72,6 +73,7 @@ wiki/
   software-craft/         # applied reference: Clean Code, The Clean Coder, The Pragmatic Programmer (added 2026-07-13)
   security/               # applied reference: API security, OWASP API Top 10 (added 2026-07-13)
   software-engineering/   # applied reference: Agile/Scrum, requirements, testing (added 2026-07-13)
+  instrumentation-iot/    # applied reference: measurement trust, intelligent sensors, edge/IoT architecture (added 2026-07-16)
   (landscape-research pages live at wiki/ root, not in a subfolder — first
   batch added 2026-07-13; see index.md)
 ```
@@ -83,6 +85,8 @@ raw/ audit-and-ingest batch, same justification (content arrived in clear
 clusters, not built speculatively). Build further category subfolders under
 `wiki/` only as new landscape research or applied-reference material actually
 accumulates per category — do not pre-build empty categories.
+The `instrumentation-iot/` category was added July 16 only after two
+complementary sources were chunk-compiled into ten durable retrieval pages.
 
 ## Shared Wiki Rules
 
@@ -91,6 +95,12 @@ chunking, session start/close minimums, update-over-create, contradiction
 flagging, recency markers, and the lint pass — lives in
 `00-BRAIN\AGENT.md § Wiki Shared Layer`. One copy, zero drift. This file
 carries only this wiki's own rules.
+
+New or edited pages use metadata v2 properties rather than legacy control
+tags. Applied-reference pages normally use `timeline: reference` and
+`status: wiki-only`; keep `tags` categorical (for example,
+`domain/technology`, `source-role/primary`, and subject tags). Never put
+`priority/*` or `status/*` control values in `tags` once `timeline:` exists.
 
 Session note: when the session concerns a specific category, also read
 `TECHNOLOGY_LIBRARY_STRATEGY.md` at start.
@@ -103,10 +113,16 @@ monthly review alongside `SKILL_GAP_ANALYSIS.md`. Landscape study is
 preparation, not production — if it displaces audit or build work two weeks
 running, rebalance.
 
+## Watchtower Handoff
+
+Keep full technology evidence here. Promote only a verified new external change
+with a material consequence to `...projectSuccess\radar.md`, and include the
+evidence page, affected active strategy assumption/system choice, consequence or
+bounded test, and review trigger. The radar never replaces this wiki's research.
+
 ## Final Operating Principle
 
 This wiki watches the landscape so Chris doesn't have to relearn it cold on
 every audit. It stays vendor-neutral and ties every category studied back to
 a client service, skill gap, or audit scenario — same no-orphan-knowledge rule
 `TECHNOLOGY_LIBRARY_STRATEGY.md` already uses.
-

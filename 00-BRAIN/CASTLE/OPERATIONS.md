@@ -1,6 +1,7 @@
 ---
 type: ops
-tags: [reference, governance]
+timeline: reference
+tags: [governance]
 ---
 
 # OPERATIONS.md — How AI Sessions Run the Castle
@@ -14,32 +15,43 @@ tags: [reference, governance]
 Any AI session working in `CASTLE` loads, in this order:
 
 1. `C:\Users\chris\.ROOT\00-BRAIN\AGENT.md` — universal OS: shared rules, file safety, session close
-2. `C:\Users\chris\.ROOT\00-BRAIN\CLAUDE.md` — lane file (optional HATS\ mode if useful)
-3. `wiki/index.md` — what exists in the castle
-4. Last 3 entries of `wiki/log.md` — what happened recently
-5. `wiki/north-star-roadmap.md` — the current pathway state
+2. The active surface profile in `C:\Users\chris\.ROOT\00-BRAIN\` (optional HATS\ mode if useful)
+3. `C:\Users\chris\.ROOT\01-NORTH_STAR\NORTH_STAR.md` — durable direction
+4. Load `CURRENT_STRATEGY.md` only for a business/market/offer/revenue/Ratchet
+   question, and Watchtower only for an external-signal question
+5. `wiki/index.md` — what exists in the castle
+6. Last 3 entries of `wiki/log.md` — what happened recently
+7. `wiki/north-star-roadmap.md` — the current pathway state
 
 Then state in one sentence what the session will do.
 
 ## What the Castle Is
 
 The **command center**: the master pathway from Chris's current position to the
-North Star (October 8, 2031 — canonical target and identity: `01-NORTH_STAR\NORTH_STAR.md`,
-not restated here). It answers, at all times:
+North Star (October 8, 2031 — canonical direction:
+`01-NORTH_STAR\NORTH_STAR.md`; current business vehicle:
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`, neither restated here). It
+answers, at all times:
 
 > What skill comes next, in what order, why does it matter,
 > what source proves it, and what project proves Chris can use it?
+
+CASTLE owns DECIDE within the canonical System Loop defined only in
+`01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md § The Canonical
+Loop`; the local flows below are instances of that loop, not competing cycles.
 
 ## What the Castle Is Not
 
 - Not the behavioral OS — that is `00-BRAIN`. Do not duplicate governance here.
 - Not the knowledge refinery — each `03-WIKIS` hub runs its own deep source ingests per its own `CLAUDE.md` (FORGE, the prior single refinery, retired July 7, 2026).
 - Not the business-model wiki — that is `03-WIKIS\BUSINESS`. The castle links to it.
-- Not a course wiki — `03-WIKIS\PYTHON` and `03-WIKIS\PHYSICS` own Track 1 execution;
+- Not a course wiki — `03-WIKIS\PYTHON` and `03-WIKIS\PHYSICS` own their staged learning execution;
   `03-WIKIS\EDUCATION` owns general KSU support (TCOM/ECON/ENGR).
 - Not the landscape-research or self-evolution layer — `03-WIKIS\TECHNOLOGY` and
   `03-WIKIS\AI_AUTOMATION_SYSTEMS` research and propose; the castle reviews and
   maintains (see Wiki Sweep below).
+- Not the external-signal board — `...projectSuccess` observes and routes material
+  change; CASTLE gates any resulting work.
 - Not a journal, project tracker, or file dump.
 
 The castle REFERENCES the other systems. It never absorbs them.
@@ -67,20 +79,25 @@ opening a new phase, changes to OPERATIONS.md itself, and ANY file outside
 5. **Depth before sprawl.** Do not open a new phase/skill/project page while an
    existing one in the same area is a stub. Update `index.md` and `log.md` every
    session that changes files.
-6. **Danger weeks (Oct 5 – Nov 11, 2026): school only.** Castle sessions during
-   that window are limited to logging and Track 1 support. No new planning.
+6. **High-load school window (Oct 5 – Nov 11, 2026): advisory protection.**
+   Warn once when optional CASTLE work threatens a fixed school commitment,
+   recommend the smallest safe scope, then follow Chris's direction.
 7. **Chris decides what's permanent.** The castle proposes; Chris approves
    promotions to `.ROOT` and any structural change.
 8. **Calendar-encoded capacity.** Castle's schedulable pool = blocks labeled "CASTLE"
    on the **North Star Calendar** (Google Calendar, separate from the primary account
    calendar). Fill CASTLE blocks with whatever the active phase/project needs, no
-   separate improvised blocks. Confirmed capacity (verified July 7, 2026): ~24-26
-   hours/week of CASTLE-tagged blocks, plus up to ~10 hours/week of float time that
-   may absorb overflow but is not guaranteed. Float is not dedicated time — never
-   schedule against it directly. CASTLE tags currently run only through Aug 22, 2026 —
-   extend into the Fall semester template before classes start or this capacity line
-   goes stale (tracked: SYSTEM_FLAGS #51). Clean ceiling:
-   26–30 hours/week.
+   separate improvised blocks. Confirmed capacity (rebuilt July 15, 2026 against the
+   Fall semester template and Chris's real Ben Care hours — Sun 7-10am/6-8pm, Mon-Fri
+   7-9am/5-8pm, Sat 7am-2pm): **~29h45m/week of CASTLE-tagged blocks, plus ~36h55m/week
+   of FLOAT** (FLOAT absorbs either project overflow or family tasks — not guaranteed
+   work time). CASTLE/FLOAT run Aug 24 through Dec 15, 2026 (semester bound); renew or
+   rebuild for Spring once that template exists. The July 7 baseline of ~24-26h
+   CASTLE / ~10h FLOAT is superseded — that figure predated the corrected Ben Care
+   schedule and undercounted real family-duty hours. Known open item: Mon-Fri Ben
+   Care hours overlap three class blocks (Tue/Thu ECON 8-8:55am; Mon/Wed CSE Lecture
+   tail 5-5:30pm; Tue CSE Lab 5:45-7:35pm) — unresolved pending Chris's childcare
+   conversation with Heather (~2 weeks out from July 15).
 
 ## Wiki Sweep — Eight Hubs (added July 7, 2026 wiki unification; FORGE retired same day, replaced by SYSTEMS; Revenue Lab added July 14)
 
@@ -90,6 +107,19 @@ on top of its roadmap role:
 
 - **Weekly sweep** (alongside the existing Watchtower sweep): read each wiki's
   `log.md` and summarize what moved.
+- **check_at review** (added July 15, 2026): scan
+  `03-WIKIS\AI_AUTOMATION_SYSTEMS\wiki\proposals\` and `SYSTEM_LEARNINGS.md` for
+  entries whose `check_at` date has arrived; record the observed Outcome with an
+  evidence link and a keep/modify/revert Verdict in the entry itself. An applied
+  change with no recorded outcome is not yet proven.
+- **Ledger completeness** (added July 15, 2026): confirm every system-change
+  commit since the last sweep has its row in
+  `Session_Logs\System Update Log\SYSTEM_UPDATE_LOG_YYYY-MM.md`, and every
+  flag closed since the last sweep has its row in
+  `Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md`. For a newly completed
+  consequential multi-commit system program, also confirm its dated
+  `System Update Log\YYYY-MM-DD_TOPIC\SESSION_INDEX.md` packet exists and
+  names the final verdict, artifact inventory, accepted debt, and rechecks.
 - **Staleness spot-check:** rotate one active guide or dashboard; compare its
   stated current state against the live source it names, and flag any mismatch.
 - Maintain `00-BRAIN\vault_map.md` and `.ROOT\.obsidian\graph.json`'s color groups
@@ -106,14 +136,21 @@ on top of its roadmap role:
 patterns, and proposes `.ROOT` self-improvements; the castle reviews,
 maintains, and keeps things legible. The castle does not do that wiki's
 primary research — same eyes-not-hands split already used for the Watchtower.
-Stable, repeated proposals from that wiki pass through the review cadence
-in `AGENT.md` before landing in `00-BRAIN` governance files.
+AI-initiated proposals from that wiki pass through the evidence and review
+cadence in `AGENT.md`. A Chris-directed change may proceed after impact review
+and approval without waiting for repeated-friction evidence.
+
+The same boundary applies to `...projectSuccess`: contributing wikis preserve the
+source and analysis; the radar holds only a material signal. A hot row must name its
+evidence home, affected strategy assumption or system choice, consequence/test, and
+review trigger before CASTLE gates it.
 
 ## Weekly Inbox Routing Checklist
 
-Run this alongside the weekly CASTLE sweep for `.ROOT\77-INBOX` and any approved capture folder.
+Run this alongside the weekly CASTLE sweep for manual intake in `.ROOT\77-INBOX`
+and automatic Obsidian intake in `.ROOT\Clippings`.
 
-1. Scan the inbox for raw clippings, quick notes, unsorted ideas, and observations.
+1. Scan both intake paths. Nothing lives permanently in either one.
 2. Capture filter: keep only what is useful, surprising, or tied to an open question — otherwise let it pass. Anti-hoarding heuristic for personal clippings only; consequential/technical/legal/audit sources still get full-source capture in wiki `raw/` regardless of this filter.
 3. Route only files with clear homes under `WHERE_IT_GOES.md`.
 4. Leave ambiguous files in place and add a `SYSTEM_FLAGS.md` entry instead of guessing.
@@ -122,10 +159,28 @@ Run this alongside the weekly CASTLE sweep for `.ROOT\77-INBOX` and any approved
 7. Confirm `05-BUSINESS\06-Capability Library` holds only reusable client-facing assets, not wiki notes or general reference.
 8. Confirm no fake client-retainer folders were created before a real client, named prospect, or approved sandbox exercise.
 
+## Opportunity Routing
+
+After evidence reaches its permanent home, add only actionable commercial or
+learning-to-application signals to `wiki/opportunity-queue.md`. General signals
+enter as `captured`; named client leads enter as urgent `triaged` items. Every
+row needs an evidence link, owner realm, and next test/action before work begins.
+Internal system friction stays in `SYSTEM_FLAGS.md` unless it independently
+earns a commercial opportunity entry.
+
+For a Watchtower promotion, return a proof packet after the bounded test — an
+instance of the uniform Return Packet in
+`01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md § Return Packet` — with:
+radar row, CASTLE verdict, test performed, measured outcome, affected
+`CURRENT_STRATEGY` assumption/milestone, and next review. Only the outcome—not the
+signal itself—may justify a strategy or quarterly Ratchet change.
+
 ## Session Close
 
 Before ending any session that changed files:
-- **Refresh `.ROOT\NOW.md`** — date, today's priority, project status, countdowns.
+- **Refresh `.ROOT\NOW.md`** — date, starting action, fixed school item,
+  technology rep, business/system item, soft time boundary, project status,
+  and countdowns.
   NOW.md sits at the .ROOT root so it's the first thing Chris sees; the castle
   owns and maintains it. A stale NOW.md is a broken castle.
 - **Append task blocks to today's `00-BRAIN\Session_Logs\DAILY_YYYY-MM-DD.md`**

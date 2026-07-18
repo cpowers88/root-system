@@ -1,20 +1,24 @@
 ---
 type: map
-tags: [sources, reference]
+timeline: reference
+reference_priority: core
+tags: [sources]
 ---
 
 # Source Map — What Proves What
 ### Rule: Tier 1–2 sources determine the roadmap. Tier 3 informs. Tier 4 may only raise questions.
-### Seeded July 6, 2026 with internal sources. External sources register here before use.
+### Seeded July 6, 2026 with internal sources. Domain hubs own their evidence; only roadmap-relevant sources register here.
 
 ## Internal — Spine (roadmap claims trace here)
 
 | Source | Location | Role | Claim supported | Phase |
 |---|---|---|---|---|
-| NORTH_STAR.md | `01-NORTH_STAR\` | spine | The entire destination, tracks, dates, milestones | all |
+| NORTH_STAR.md | `01-NORTH_STAR\` | spine | Durable destination, fixed commitments, tracks, guardrails, and evidence ratchet | all |
+| CURRENT_STRATEGY.md | `01-NORTH_STAR\Goals & Milestones\` | active hypothesis | Current vehicle, assumptions, offer, wedges, proof milestones, and replacement rules | 0–10 |
+| WATCHTOWER.md + radar.md | `...projectSuccess\` | signal router | Material external-change promotion and CASTLE test route; not strategy authority | all |
 | SKILL_GAP_ANALYSIS.md | `01-NORTH_STAR\` | spine | Gap priority order; monthly weak-link method | 0–1 |
-| AGENT.md + lane files (CLAUDE.md / CODEX.md / ATLAS.md) | `.ROOT\00-BRAIN\` | spine | How AI sessions behave; file safety; roles | all |
-| TECHNOLOGY_LIBRARY_STRATEGY.md | `02-LIBRARY\08-AI-AUTOMATION\` | spine | 12 tool categories; Recommendation Ladder | 2–7 |
+| AGENT.md + capability profiles (CLAUDE.md / CODEX.md / ATLAS.md) | `.ROOT\00-BRAIN\` | spine | Shared AI behavior, file safety, strengths, and access limits | all |
+| TECHNOLOGY_LIBRARY_STRATEGY.md | `02-LIBRARY\REF-AI-AUTOMATION\` | spine | 12 tool categories; Recommendation Ladder | 2–7 |
 | KSU_Academic_Tracker_Brief.md | `02-LIBRARY\.PROJECTS\KSU_Academic_Tracker\` | spine | Proof-project scope | 0 |
 
 ## Internal — Support
@@ -23,14 +27,14 @@ tags: [sources, reference]
 |---|---|---|---|---|
 | BUSINESS wiki lean/TOC/consulting/negotiation pages (7 consolidated pages, migrated from FORGE July 7, 2026) | `03-WIKIS\BUSINESS\wiki\ai-integration-company\` | support | Lean, VSM, TOC, consulting method, negotiation, profit-first | 2–6 |
 | SYSTEMS wiki (98 pages, verified July 13, 2026) | `03-WIKIS\SYSTEMS\wiki\` | support | Factory physics, queueing, system dynamics | 2–3, 7 |
-| TECHNOLOGY + PYTHON applied-reference pages (107 Technology pages + Python source-summary strand, verified July 13, 2026) | `03-WIKIS\TECHNOLOGY\wiki\` (Flask, distributed systems, DevOps, data science) + `03-WIKIS\PYTHON\wiki\source-summaries\` (pandas/SQL, inventoried not yet curriculum-built) | support | Python, SQL, pandas, Flask, data science | 1, 3, 7 |
-| 03-WIKIS\BUSINESS (51 pages, verified July 13, 2026) | `03-WIKIS\BUSINESS\wiki\ai-integration-company\` | support | Verified: 5-rung offer ladder ($1.5K audit → $5–15K/mo partner); pathway ranking matrix (audit #1 entry, workflow automation workhorse, assistants LAST); 5-step audit method with waste-math formula and 50–70% conversion target; 3-tier retainer model (70%+ margin target, monitoring backbone before client #3) | 4–10 |
+| TECHNOLOGY + PYTHON applied-reference collections (live inventories owned by their indexes) | `03-WIKIS\TECHNOLOGY\wiki\` (Flask, distributed systems, DevOps, data science) + `03-WIKIS\PYTHON\wiki\source-summaries\` (pandas/SQL, inventoried not yet curriculum-built) | support | Python, SQL, pandas, Flask, data science | 1, 3, 7 |
+| 03-WIKIS\BUSINESS (live inventory owned by its index) | `03-WIKIS\BUSINESS\wiki\ai-integration-company\` | support | Offer ladder, pathway comparison, audit method, waste math, and retainer patterns; treat pricing/conversion claims as hypotheses until field evidence verifies them | 4–10 |
 | Audit templates (3) | `05-BUSINESS\01-Audit Templates\` | support | The working audit artifacts | 2, 5 |
 | Delivery templates (11) | `03-WIKIS\BUSINESS\...\templates\` | support | Proposal, SOW, outreach, retainer reporting | 4–6 |
 | Field notes + template | `05-BUSINESS\02-Field Notes\` | support | Observation practice record | 2 |
-| `03-WIKIS\PYTHON` + `03-WIKIS\PHYSICS` wikis — **positions reconciled 2026-07-13** | root | support | Staged Track 1 paths with mastery gates. Real positions: Python Stage 2/10 (Stage 1 verified July 13), Physics Stage 3/18. `03-WIKIS\PYTHON` Stages 9–10 (automation bridge: CSV/JSON/reports/SQLite/CLI) directly pre-train castle Phase 3 skills | 1, 3 |
-| AI_Agent.md — **parsed 2026-07-06** | `.ROOT\00-BRAIN\` | spine | Verified rules castle sessions must obey: act-first, file-safety (read-before-write, archive-never-duplicate, WHERE_IT_GOES.md is placement authority), one hat per session, 88-JOURNAL never read, danger-weeks protocol, handoff conventions | all | (superseded July 10, 2026 by AGENT.md — rules carried forward)
-| Pre-semester learning recs (June 20) | `01-NORTH_STAR\Goals & Milestones\` | support | Summer sequencing | 0–1 |
+| Revenue Lab lane scorecard + evidence pages | `03-WIKIS\REVENUE_LAB\wiki\` | support | July 14 continuity-income lane comparison, bounded proof status, and authorization limits | 0–1, continuity |
+| `03-WIKIS\PYTHON` + `03-WIKIS\PHYSICS` wikis — **positions reconciled 2026-07-16** | root | support | Staged school-readiness paths with mastery gates. Real positions: Python Stage 3/10 active (Stages 1–2 verified July 13/16), Physics Stage 4/18 active (Stage 3 closed July 16). `03-WIKIS\PYTHON` Stages 9–10 (automation bridge: CSV/JSON/reports/SQLite/CLI) directly pre-train castle Phase 3 skills | 1, 3 |
+| Active pre-semester plan | `01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md` | support | Coordinates summer sequencing from live PYTHON, PHYSICS, and EDUCATION truth | 0–1 |
 | Weekly/monthly reviews | `01-NORTH_STAR\Weekly Reviews\` | support | Evidence trail for current-position | 0 |
 
 ## External — Summarized
@@ -49,12 +53,17 @@ tags: [sources, reference]
 | ConstructionDive / AGC.org tech sections | 2–3 | market-signal | Contractor tech-adoption reality | 2, 4 |
 | Luke Barousse SQL course | 3 | support | SQL reps between tracker sessions | 0–1 |
 | MIT OCW Operations Management | 1 | support | Break-time depth aligned to coursework | 1, 7 |
+| Mark Spain Real Estate public operating/careers pages (2024–2026) | 1 for the company's own stated operating model | market-specific support | The brokerage supplies ISA lead generation/scheduling, concierge/marketing support, and agent technology; an affiliated agent is an access point and workflow observer, not the assumed buyer of a duplicate CRM/platform | 2 |
+| NAR 2025 REALTORS Technology Survey | 2 | market-signal | Brokerage-provided technology is common; generic agent technology is crowded, and agent-level authority must be separated from brokerage authority | 2–4 |
+| ATTOM 2025 Year-End U.S. Home Flipping Report (released 2026-03-19) | 2 | market-signal | Flipper gross ROI and gross profit compressed in 2025, raising the value of disciplined acquisition, rehab, holding-cost, and cost-to-complete controls | 2–4 |
+| State Bar of Georgia FAO 23-1 + GREC Rule 520-1-.10 guidance | 1 | constraint | Georgia lawyers retain responsibility for the closing process; brokers have transaction-record and audit obligations. Automation must preserve attorney/broker control and traceability. | 2–5 |
+| Clio 2025 Legal Trends for Solo and Small Law Firms | 2 | market-signal | Small-law-firm intake and administrative throughput are plausible value pools, but vendor-reported correlations require local workflow validation before an offer or build | 2–4 |
 
 ## Parked Source Pools
 
 - `99-ARCHIVE\ARCHIVED_2026-07-07_FORGE_raw\` — 29 books, Tier 1–2, already digested into the BUSINESS/SYSTEMS/PYTHON/TECHNOLOGY pages above (FORGE itself retired July 7, 2026; raw sources archived, not deleted)
 - `02-LIBRARY\` PDFs — reference library; route through the relevant 03-WIKIS hub if deep ingest needed (see WHERE_IT_GOES.md's Realm Check)
-- Stock Market Books (`02-LIBRARY\99-MISC\`) — outside North Star; stays parked
+- Stock Market Books (`02-LIBRARY\REF-MISC\`) — outside North Star; stays parked
 
 ## Registration Rule
 

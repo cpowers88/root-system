@@ -115,6 +115,7 @@ Several exclusions are the [[progressive-operating-thesis|thesis]] stated negati
 The page *is* the failure-mode list — but it has one of its own: **the list only works when read at the moment of temptation.** Excitement disproportionate to strategic fit is the tell; that's the moment to open this page, not after the quarter is spent.
 
 ## Related Pages
+- [[product-discovery-and-operating-model|Product Discovery and Operating Model]] — the six-part evidence gate that prevents speculative product building
 - [[north-star-alignment|North Star Alignment]] — the filter behind every exclusion
 - [[risks-and-failure-modes|Risks & Failure Modes]] — what happens when these rules break
 - [[most-profitable-pathways|Most Profitable Pathways]] — what to do instead
