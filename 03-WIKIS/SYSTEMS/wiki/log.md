@@ -5,6 +5,54 @@ tags: [log, systems]
 
 # Wiki Log
 
+## 2026-07-18 - Process Mining Handbook mapped and selectively chunk-ingested
+
+Chris directed a complete parts/chapter map and chunk ingestion of the material
+relevant to SYSTEMS and Advisor-Builder work from `raw/Process Mining
+Handbook.pdf` (van der Aalst and Carmona, eds., Springer LNBIP 448, 2022,
+503 physical PDF pages, CC BY 4.0). The file had been added July 17 after the
+July 16 raw-folder closure, so it was the 27th substantive raw source and had no
+ledger row or prior synthesis.
+
+Visually verified the two-page table of contents and the openings of the major
+applied chapters. Mapped all 17 chapters and the author index in
+[[process-mining-handbook-source-map]]. The map gives every chapter one of three
+explicit dispositions: fully read and synthesized; covered by an existing SYSTEMS
+retrieval page; or triggered technical/domain reference with a named activation
+condition.
+
+### Complete chunks read this session
+
+| Chapter | Printed / physical PDF pages | Durable retrieval |
+|---|---:|---|
+| 5. Conformance Checking: Foundations, Milestones and Challenges | 155-190 / 162-197 | [[conformance-checking-and-kpi-driven-process-improvement]] |
+| 7. Practitioner Adoption, Event Log Engineering and Data Challenges | 212-240 / 218-246 | [[process-mining-engagement-and-value-realization]] |
+| 8. Foundations of Process Enhancement | 243-273 / 248-278 | [[conformance-checking-and-kpi-driven-process-improvement]] |
+| 12. Responsible Process Mining | 373-401 / 377-405 | [[responsible-process-mining-fact-gate]] |
+| 13. From Process Discovery to Process Execution | 405-415 / 407-417 | [[process-mining-engagement-and-value-realization]] |
+| 15. Process Mining for Financial Auditing | 445-467 / 447-469 | [[process-mining-audit-and-automation-opportunity]] |
+| 16. Robotic Process Mining | 468-491 / 470-493 | [[process-mining-audit-and-automation-opportunity]] |
+| 17. Scaling Process Mining to Turn Insights into Actions | 495-502 / 495-502 | [[process-mining-engagement-and-value-realization]] |
+
+This is 191 physical pages at full-chapter depth, consolidated by operating job
+rather than converted into eight repetitive summaries. The other nine chapters
+remain deliberately retrievable: Chapters 1, 2, and 6 substantially overlap the
+existing Manifesto/PM4Py/XES pages; Chapters 3-4 are advanced discovery and
+declarative-model reference; Chapters 9-11 activate for object-centric,
+predictive, or streaming work; Chapter 14 is healthcare-specific.
+
+The material adds four real capabilities: a 13-point event-log engineering
+discipline; trust-aware conformance and KPI-gated model repair; a process-specific
+FACT responsibility gate; and an audit-to-task-mining/RPA opportunity pipeline
+that requires frequency, determinism, evidence lineage, testing, and safe human
+handoff.
+
+Updated [[raw-source-coverage-and-intake-status]] to 27 substantive sources and
+the index to 131 pages. No raw file was modified. The conceptual intake is closed;
+the earlier practical proof gap remains: run a small `CSV -> discovered model ->
+conformance report` PM4Py exercise when a suitable real or sanitized event log is
+available.
+
 ## 2026-07-16 — Raw-source folder disposition and intake closure
 
 Audited every substantive file currently in `raw/` after closing the corrected

@@ -5,7 +5,7 @@ tags: [reference, systems]
 
 # SYSTEMS Wiki — Index
 
-126 pages (verified count, 2026-07-16). The prior 98-page corpus combines the
+131 pages (verified count, 2026-07-18). The prior 98-page corpus combines the
 FORGE migration with direct July 8-13 ingests. Four human-centered-design pages
 were added July 15 from Norman's *The Design of Everyday Things*. Two modeling-
 practice pages were then added from complete chapter chunks of Sterman's
@@ -22,7 +22,9 @@ pages keep their original frontmatter tag tracks (`type`, and the full
 priority/status/domain/source-role/use-case/subject tracks) — see `CLAUDE.md` and
 `HOW_TO_USE.md` for the legacy/new metadata boundary. 4 more added July 8, 2026 from new
 sources dropped in `raw/` (process mining + VSM cluster) — the first pages ingested
-directly into this wiki rather than inherited from FORGE.
+directly into this wiki rather than inherited from FORGE. Five pages added July 18
+map and selectively ingest the 503-page *Process Mining Handbook*: eight complete
+chapters consolidated into four retrieval jobs plus a 17-chapter source router.
 
 ## Source Coverage & Intake Governance
 
@@ -159,6 +161,11 @@ directly into this wiki rather than inherited from FORGE.
 - [[value-stream-mapping-method-and-lean-guidelines]] — current/future-state mapping, map anatomy, the seven lean flow guidelines
 - [[apqc-process-classification-framework]] — the 13-category process taxonomy: inventory/benchmarking/content layer that precedes mapping and mining; audit completeness check
 - [[bpmn-2-0-specification]] — the OMG process-notation standard distilled: three sub-models, the working palette (typed tasks, event matrix, five gateways), token semantics and their traps, compensation model; the 80/20 audit subset named; PCF names → BPMN specifies → VSM measures
+- [[process-mining-handbook-source-map]] — complete 17-chapter disposition for the 503-page handbook; routes eight fully read chapters into four retrieval pages and classifies the remaining technical/domain chapters by activation trigger
+- [[process-mining-engagement-and-value-realization]] — four-angle scoping, three-stage event-log engineering, 13 implementation practices, and the transparency-to-action value loop
+- [[conformance-checking-and-kpi-driven-process-improvement]] — rules/replay/alignments, log-versus-model trust, deviation triage, multi-perspective enhancement, and KPI-gated model repair
+- [[responsible-process-mining-fact-gate]] — Fairness, Accuracy, Confidentiality, and Transparency review before event data, models, predictions, or actions are used consequentially
+- [[process-mining-audit-and-automation-opportunity]] — process mining across the audit cycle, evidence lineage, task-mining distinction, and frequency/determinism/safe-handoff gate for RPA candidates
 
 ## Inventory, MRP & Kanban
 

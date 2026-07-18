@@ -14,7 +14,8 @@ coverage, intentionally excluded, covered in the owning BUSINESS wiki, or parked
 behind a concrete activation trigger. Presence in `raw/` alone never means that a
 source was reviewed.
 
-**Last audited**: 2026-07-16
+**Last audited**: 2026-07-18 - 27 substantive raw files; the July 17 Process
+Mining Handbook intake is now dispositioned.
 
 ## Closed in SYSTEMS
 
@@ -26,6 +27,7 @@ source was reviewed.
 | `About XES - IEEE Task Force on Process Mining.md` | Represented in [[xes-standard-for-event-logs]]. |
 | `IEEE XES Standard - IEEE Task Force on Process Mining.md` | Represented in [[xes-standard-for-event-logs]]. |
 | `IEEE-Process-Mining-Manifesto-2011.pdf` | Represented in [[process-mining-manifesto-principles-and-challenges]]. |
+| `Process Mining Handbook.pdf` (503 physical pp.) | Selectively compiled at full-chapter depth on 2026-07-18. Chapters 5, 7, 8, 12, 13, 15, 16, and 17 were read in full and consolidated into [[conformance-checking-and-kpi-driven-process-improvement]], [[process-mining-engagement-and-value-realization]], [[responsible-process-mining-fact-gate]], and [[process-mining-audit-and-automation-opportunity]]. Every other chapter has a named existing-coverage or triggered-reference disposition in [[process-mining-handbook-source-map]]. |
 | `BPMN_1-133.pdf`, `BPMN_134-266.pdf`, `BPMN_267-399.pdf`, and `BPMN_400-532.pdf` | Four immutable chunks of one specification; modeling core ingested and formal machinery classified for lookup in [[bpmn-2-0-specification]]. Detailed range disposition is in [[log]]. |
 | `BusinessDynamics.pdf` | Closed at conceptual retrieval depth. Inherited chapter coverage plus the corrected Chapter 9-16 and Chapter 21 dispositions are recorded in [[log]] and routed across the system-dynamics and Sterman case-study sections of [[index]]. |
 | `factoryPhysics.pdf` | Closed at conceptual retrieval depth. Earlier chapter coverage plus the corrected Chapter 9-19 dispositions are recorded in [[log]] and routed across the Factory Physics, variability, control, and supply-chain sections of [[index]]. |

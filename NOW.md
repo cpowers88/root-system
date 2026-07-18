@@ -34,7 +34,13 @@ tags: []
    `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\learning-format-notes.md` —
    kept apart from the content harvest and not a designed goal of the
    sprint; whether it becomes a standing `.ROOT` teaching format is a
-   Day-8-or-later evidence question. **Final engineering review passed
+   Day-8-or-later evidence question. **Day 1 (Systems Audit) is IN
+   PROGRESS — started Sat July 18 morning:** swimlane + systems inventory +
+   data-flow map from `observation_one.md`, live-paired with Codex; daily
+   gate = symptom vs waste vs root-cause hypothesis vs constraint. This
+   week Physics Stage 4 pauses (not boot-camp foundation); the short Python
+   Stage 3 drill stays, folded in where Python first appears (Python is #2
+   in the sprint's own foundation ranking). **Final engineering review passed
    (Jul 17 night, Technology Engineer hat) — four tightenings adopted:**
    SDK version/spec-side check is the first 5 live minutes of Wed 7/22
    (install is mechanical prep before); 2.5–3.5 focused hrs per lens and
@@ -101,7 +107,7 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 - [ ] One live workflow observation/VSM only with the needed approval and access — first candidate is the flip-margin replay (OPP-20260716-01)
 - [x] **Data Studio dashboard #1** — completed and verified in View mode 2026-07-16 from the scanner CSV via a private Google Sheet; includes scorecard, category bar chart, 100-row table, format filter, and date control
 - [ ] Daily SQL reps against the scanner SQLite DB (real data now); switch vehicle to the tracker when D2L data lands ~July 25
-- [ ] **MCP Bootcamp — Sat Jul 18, Systems Audit:** swimlane + systems inventory + data-flow map from `observation_one.md`
+- [ ] **MCP Bootcamp — Sat Jul 18, Systems Audit:** swimlane + systems inventory + data-flow map from `observation_one.md` — **IN PROGRESS** (started morning 7/18)
 - [ ] **MCP Bootcamp — Sun Jul 19, Strategic Logic:** fill the field note's own blank `OBSERVATION LOG` table; problem statement + Recommendation Ladder test against S-01/S-02
 - [ ] **MCP Bootcamp — Mon Jul 20, Data Engineering:** structure `jobs`/`friction_log` SQLite tables; secondary labeled BLS WPUIP2311001 ETL exercise
 - [ ] **MCP Bootcamp — Tue Jul 21, Automation & Operations:** design the 1 resource + 2 read-only tool contracts (no SDK yet)

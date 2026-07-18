@@ -60,10 +60,12 @@ flagging, recency markers, and the lint pass — lives in
 `00-BRAIN\AGENT.md § Wiki Shared Layer`. One copy, zero drift. This file
 carries only this wiki's own rules.
 
-**Raw/source status (corrected 2026-07-16):** every substantive file currently in
+**Raw/source status (verified 2026-07-18):** every substantive file currently in
 `raw/` now has an explicit disposition in
 `wiki/raw-source-coverage-and-intake-status.md`. The corrected gap queues for
 *Business Dynamics*, *Factory Physics*, and *Supply Chain Science* are closed.
+The July 17 *Process Mining Handbook* intake is selectively closed through a
+complete 17-chapter disposition map and eight full applied chapter chunks.
 Three sources are intentionally parked behind activation triggers rather than
 treated as active reading backlog: *Algorithms to Live By*, the image-heavy
 *Learning to See* workbook, and the short TOC/lean/Six Sigma comparison article.
