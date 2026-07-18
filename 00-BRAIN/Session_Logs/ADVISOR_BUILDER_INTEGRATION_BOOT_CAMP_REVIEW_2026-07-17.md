@@ -647,3 +647,50 @@ incorporated above; the loose root copy was never filed per
 *Prepared by Codex for Claude edit and independent review — July 17, 2026.*
 *Claude independent review appended same day — Operator hat, per Chris's request.*
 *Second revision (Codex-lens fusion + format-notes stipulation) appended same evening, per Chris's direction.*
+
+## Third Revision — July 17, 2026: OAPEN evidence role added
+
+OAPEN is approved as a **targeted scholarly evidence source**, not as the
+boot camp curriculum and not as a current-market technology scanner. Use it
+only when an engineering lens needs credible background, a durable method, or
+a relevant implementation case. Each use begins with a specific workflow
+question and is capped at **20–30 minutes**; it does not add reading hours or
+displace the live-paired build.
+
+Capture each useful example as a compact **Who–What–How application card**:
+actor or industry; workflow/task; prior friction; technology category; data
+and integrations; human role; controls; measurable value; source/date; and
+transferability. Claims about what businesses are implementing *currently*
+must be supplemented with recent primary evidence such as official company
+implementation reports, engineering documentation, annual reports, or current
+industry/government adoption research.
+
+The OAPEN/DOAB/Thoth metadata pipeline described in the captured OAPEN material
+is the first worked comparison case. It demonstrates fragmented-workflow
+diagnosis, metadata standards, Python processing, APIs/SWORD integration,
+automated validation and error routing, auditability, and throughput/value
+measurement. Classify it honestly as **data engineering + standards + API
+integration + workflow automation**. It is not primarily an AI implementation,
+and it must not be relabeled as one to make the boot camp appear more AI-heavy.
+
+The case may be referenced across the eight lenses, but only after Chris maps
+and explains the corresponding part of the primary `observation_one.md` case.
+It is a comparison and transfer exercise, never a replacement proof vehicle.
+
+**Who–What–How application-card contract:**
+
+| Field | Required capture |
+|---|---|
+| Who | Business, industry, team, or role |
+| What | Task or workflow being changed |
+| Before | Friction, delay, risk, waste, or cost |
+| Technology | AI, automation, API, database, process mining, SaaS, or other category |
+| How | Inputs, outputs, transformations, and system connections |
+| Human role | Review, judgment, exception handling, and approval retained |
+| Controls | Validation, security, logging, governance, and recovery |
+| Value | Measured outcome or explicitly unproven expected benefit |
+| Evidence | Source, publication date, evidence type, and freshness limit |
+| Transfer | Where the pattern may apply and what must be revalidated |
+
+This addition changes the boot camp's evidence discipline, not its schedule,
+proof vehicle, acceptance test, or July 26 hard boundary.
