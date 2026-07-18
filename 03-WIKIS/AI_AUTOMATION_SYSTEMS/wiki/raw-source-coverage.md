@@ -11,9 +11,11 @@ is retrievable in wiki/report form), **lookup/reference** (accounted for but not
 compiled), **duplicate**, and **misrouted**. A raw file existing on disk or
 having been opened once is not, by itself, evidence of ingestion.
 
-Coverage audit: **2026-07-17** — 193 raw files, approximately 343.1 MiB
-(live recount after the July 17 Codex-config capture: five Codex app-config
-docs + one Claude Code video transcript sorted in from `Clippings\`. Prior
+Coverage audit: **2026-07-18** — 194 raw files, approximately 381.6 MiB
+(live recount after `AI in Business and Economics.pdf`, 38.4 MiB, dropped
+2026-07-17 evening and compiled 2026-07-18. Prior recount 2026-07-17: 193
+files / 343.1 MiB, after the Codex-config capture: five Codex app-config docs
++ one Claude Code video transcript sorted in from `Clippings\`. Earlier
 recount 2026-07-16 night: 187 files / 342.9 MiB).
 
 ## Large PDF and book sources
@@ -43,6 +45,7 @@ recount 2026-07-16 night: 187 files / 342.9 MiB).
 | `Let's Talk AI.pdf` (LNCS 15000, 331 pp.) | Lookup/reference; not compiled | State-of-the-art interdisciplinary survey volume ("Interdisciplinarity Is a Must"). Challenge/perspective source, not an operating manual. |
 | `Philosophy of Science for Machine Learning.pdf` (Synthese Library 527, 517 pp.) | Prerequisite/challenge reference; not compiled | Epistemology and methodology of ML. Sits behind an active conceptual need; do not let it displace Python/SQL/application proof. |
 | `The Business Case for AI.pdf` (Ganesan 2022, 294 pp.) | **Compiled; full main text (2026-07-17)** | Chris-directed reclassification from lookup/reference. Intro + Parts 1–5 + Conclusion (phys pp. 1–~277) read in five chunk blocks; author/references back matter (to p. 294) inspected. Retrieval: [[business-case-for-ai-ganesan-leader-playbook]] — pre-genAI (2022) era warning carried on the page; frameworks durable, feasibility/cost answers must be re-derived with 2026 inputs. |
+| `AI in Business and Economics.pdf` (Lausberg & Vogelsang, eds., De Gruyter 2024, 279 pdftotext pp. / physical i-xi + 1-267 + back matter) | **Compiled; full main text, all 17 chapters (2026-07-17/18)** | EPEAI conference proceedings, 17 short papers across 7 Parts. All 17 chapters read in full including bibliographies (an initial parallel-fork pass left Ch.3-11 and Ch.14-17 at abstract+method+conclusion depth only; a same-session completion pass closed the gap — see log for the fork-coordination gaps this surfaced, including a full Ch.8 body and all of Ch.14 that fell between two chunk boundaries). List of Contributors/About the Editors/List of Figures/List of Tables confirmed present as reference back matter. Retrieval: [[ai-in-business-and-economics-epeai-proceedings]] — organized by Part with a per-chapter relevance call (5 chapters carry direct Advisor-Builder tie-back, 3 add governance/regulatory context, 3 extend the verification-capacity throughline via a within-book TOE-framework triple-convergence — Ch.2, Ch.5, Ch.14 — plus media sentiment and an AI-storytelling maturity ladder, and the remaining chapters have no forced tie-back and are recorded as narrow evidence). |
 
 ## Markdown source groups
 
@@ -68,7 +71,7 @@ document packs must be processed in named page/file chunks. A synthesis page may
 remain the retrieval surface, but its `source:` line or log entry must preserve
 the chunk ranges and coverage limit.
 
-The hub is therefore **fully accounted as of 2026-07-17, not fully compiled**.
+The hub is therefore **fully accounted as of 2026-07-18, not fully compiled**.
 The named book/reference rows above are intentional queues or lookup sources;
 the former `TLS.pdf` placement question is resolved (moved to SYSTEMS raw,
 July 17). A July 17 flatten-and-restore of the two vendor doc packs was

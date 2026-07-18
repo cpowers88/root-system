@@ -55,7 +55,7 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── SYSTEM_FLAGS.md    ← open improvement flags — check at session start
 │   ├── COLOR_MAP.yaml     ← machine-canon graph colors (edit it, run scripts\build_graph_colors.py)
 │   ├── LOCAL_MACHINE_MAP.md ← C:/D: inventory (reference snapshot)
-│   ├── HATS\              ← optional behavior modes (OPERATOR, EDUCATOR, subject hats + playbooks)
+│   ├── HATS\              ← optional behavior modes (OPERATOR, EDUCATOR, TECHNOLOGY ENGINEER, SOFTWARE ENGINEER, subject hats + playbooks)
 │   ├── SKILLS\            ← canonical shared skills; product discovery mirrors are generated
 │   ├── CASTLE\            ← command center: OPERATIONS.md + wiki\ (phases, skills,
 │   │                         proof-projects, decision-rules, maps); owns .ROOT\NOW.md

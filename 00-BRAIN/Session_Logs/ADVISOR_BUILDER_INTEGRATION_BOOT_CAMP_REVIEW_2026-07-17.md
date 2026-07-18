@@ -694,3 +694,68 @@ It is a comparison and transfer exercise, never a replacement proof vehicle.
 
 This addition changes the boot camp's evidence discipline, not its schedule,
 proof vehicle, acceptance test, or July 26 hard boundary.
+
+## Fourth Revision — July 17, 2026 (night): final engineering review, four tightenings, workbench fluency thread
+
+Chris requested a final pre-launch review under the Technology Engineer hat
+with the Engineering Playbooks' Technical Review procedure, and raised the
+underlying question the plan had left implicit: **where do the tool
+foundations — VS Code, Git/GitHub beyond basics, the "why does this work"
+layer — actually get learned?** Claude verified the plan's physical
+dependencies directly (`observation_one.md` exists and its Amendment answers
+are table-ready; the `MCP_Bootcamp\` scaffold is real: git init,
+requirements, Docs, format-notes log all present) before the verdict.
+
+**Verdict: plan sound; approved by Chris with the following adopted.**
+
+### Four tightenings (guardrails on existing promises, no structural change)
+
+1. **SDK check re-anchored.** The fused table had dropped the first
+   revision's Day-1 "confirm SDK version + spec side" item. Now: `pip
+   install` of the MCP SDK happens as mechanical prep before Wed 7/22
+   (allowed under the Working Method's infrastructure exception); the
+   installed-version and spec-transition-side confirmation is the **first
+   five live minutes of Wed 7/22**, before any server code.
+2. **Daily time budget.** Target **2.5–3.5 focused hours per lens** after
+   the protected school block. The **daily gate question — not the artifact
+   list — defines "done."** Artifacts flex down under time pressure; the
+   gate and the school block never do.
+3. **The master blueprint accumulates daily.** Each day ends with 10–15
+   minutes adding that lens's layer to the blueprint using the Standard
+   Artifact Contracts. Day 8 only integrates and presents — it does not
+   start assembly.
+4. **Fixture provenance labels.** `observation_one.md` is one rich
+   observation of an industry pattern, not a measured job log, so `jobs`/
+   `friction_log` rows are representative reconstructions from Chris's
+   experience. Every row carries a `source` field marking it
+   **reconstructed-from-experience vs. measured** — otherwise Day 3's own
+   provenance gate fails on its own fixture and the harvested schema
+   template inherits an honesty gap.
+
+### Workbench fluency thread (new, Chris-approved)
+
+The durable technology ranking for Chris's school + business mix, recorded
+as the foundation frame: **(1) workbench trio — terminal + Git/GitHub +
+VS Code; (2) Python; (3) SQL/SQLite; (4) testing + CI; (5) APIs/MCP.** The
+plan already taught 2–5; the workbench trio was assumed, not taught. Fix:
+a daily **~20–30 min named workbench rep, practiced on that day's real
+artifact** — never a free-roam tour. This **replaces the awareness-mapping
+≤20 min/day slot**; app-network mapping shrinks to a few table rows on
+Days 3–4 where it is naturally relevant. If a day runs long, the workbench
+rep is what flexes — the lens gate and school block never do.
+
+| Day | Workbench rep (on that day's artifact) |
+|---|---|
+| Sat 7/18 | VS Code as a workspace: open the project folder, settings UI vs `settings.json`, Markdown preview, command palette |
+| Sun 7/19 | Git beyond commit: what staging is, reading a diff before committing, commit messages that tell the story |
+| Mon 7/20 | Running/debugging Python in VS Code: integrated terminal, virtual environments (the why), a SQLite viewer extension |
+| Tue 7/21 | Branching: create a branch, do the day's work on it, merge it |
+| Wed 7/22 | The real debugger: breakpoints, stepping, watching variables on the server code |
+| Thu 7/23 | GitHub advanced 1: push the repo, open a PR against yourself, review your own diff *(needs Chris's one-line GitHub-remote approval that day — the rep works locally without it)* |
+| Fri 7/24 | GitHub advanced 2: minimal GitHub Actions workflow running the pytest suite on push |
+| Sat 7/25 | Releases/tags + a README that makes the repo legible to a stranger |
+
+By July 26 the exact toolchain KSU coursework sits on (VS Code, Git,
+terminal, Python, tests) has been practiced daily on real work. Unchanged:
+schedule, lens sequence, proof vehicle, MCP ≤3 hr cap, Working Method,
+acceptance test, honest floor, and the July 26 hard boundary.

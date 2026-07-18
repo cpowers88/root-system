@@ -34,7 +34,18 @@ tags: []
    `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\learning-format-notes.md` —
    kept apart from the content harvest and not a designed goal of the
    sprint; whether it becomes a standing `.ROOT` teaching format is a
-   Day-8-or-later evidence question.
+   Day-8-or-later evidence question. **Final engineering review passed
+   (Jul 17 night, Technology Engineer hat) — four tightenings adopted:**
+   SDK version/spec-side check is the first 5 live minutes of Wed 7/22
+   (install is mechanical prep before); 2.5–3.5 focused hrs per lens and
+   the daily gate — not the artifact list — defines "done"; the master
+   blueprint accumulates 10–15 min at each day's close (Day 8 integrates,
+   doesn't assemble); fixture rows carry a `source` label
+   (reconstructed-from-experience vs. measured). **Plus a daily
+   workbench-fluency rep (~20–30 min):** one named VS Code/Git/GitHub
+   skill practiced on that day's real artifact — replaces the
+   awareness-mapping slot; flexes first if the day runs long. Full rep
+   table: review file, Fourth Revision.
 2. **Python Stage 3 (Loops) first rep is MID-DRILL — resume here.** Session paused
    at 14:25 on the `break`/`continue` drill: range(1,21) loop that stops on the
    first multiple of 7. Then loop tracing → guessing-game mini-project → full
@@ -99,6 +110,8 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 - [ ] **MCP Bootcamp — Fri Jul 24, Product & Value:** MVT framing, conservative ROI vs S-01/S-02, pilot stop-criteria, 30/60/90 roadmap, cold explain-back rehearsal
 - [ ] **MCP Bootcamp — Sat Jul 25, Integration:** assemble master blueprint, simulated owner presentation, acceptance test + harvest write-up (exact bar in the review file)
 - [ ] Keep `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\learning-format-notes.md` current each day — separate from the content harvest
+- [ ] Daily workbench rep (~20–30 min, inside the day's real work): 7/18 VS Code workspace/settings → 7/19 staging/diffs/commit messages → 7/20 Python in VS Code + venvs → 7/21 branching → 7/22 debugger → 7/23 push/PR (needs GitHub-remote OK) → 7/24 GitHub Actions CI → 7/25 tags/README
+- [ ] Close each sprint day with 10–15 min adding that lens's layer to the master blueprint (Standard Artifact Contracts) — Day 8 integrates, doesn't assemble
 
 ## Upcoming
 

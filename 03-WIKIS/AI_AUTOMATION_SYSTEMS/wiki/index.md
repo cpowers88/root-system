@@ -39,9 +39,16 @@ verification backlog: main text in one retrieval page carrying a
 volatile-claims table; its glossary/appendices/index are reference back
 matter. *The Business Case for AI* (Ganesan) was Chris-reclassified from
 lookup/reference and fully compiled the same day as the Advisor-Builder
-client-engagement playbook. Remaining compilation queue: *If Anyone Builds
-It, Everyone Dies* (chunk backlog, gated on a concrete review job); the
-other five July 16 volumes remain deliberately lookup/reference.
+client-engagement playbook. *AI in Business and Economics* (Lausberg &
+Vogelsang, De Gruyter, open access) was dropped July 17 and fully compiled
+July 17-18, all 17 chapters read in full — a 17-paper EPEAI conference
+proceedings volume, not a monograph; five chapters carry direct
+Advisor-Builder tie-back, and three chapters (Ch.2, Ch.5, Ch.14) independently
+converge on the same TOE adoption-barrier framework, the clearest
+within-source convergence this hub has logged. Remaining compilation
+queue: *If Anyone Builds It, Everyone Dies* (chunk backlog, gated on a
+concrete review job); the other five July 16 volumes remain deliberately
+lookup/reference.
 
 ## Pages
 
@@ -352,6 +359,20 @@ other five July 16 volumes remain deliberately lookup/reference.
   seventh verification-capacity restatement and the closest thing in the hub
   to an Advisor-Builder client-engagement operating manual. Era warning:
   frameworks durable, 2022 feasibility/cost answers are not.
+- [AI in Business and Economics (Lausberg & Vogelsang, De Gruyter 2024) — EPEAI Conference Proceedings](ai-in-business-and-economics-epeai-proceedings.md)
+  — 17-paper open-access proceedings volume across 7 Parts, fully compiled.
+  Five chapters carry direct Advisor-Builder tie-back: the **KI-AGIL** agile
+  SME-AI process model (a second field-tested low-threshold framework beside
+  the Business Case for AI playbook), a TOE-categorized barrier list for
+  management reporting (eighth verification-capacity restatement), RPA's
+  role-shift-not-displacement evidence for accountants, a participatory
+  HTO requirements-gathering methodology, and an LDA persona-derivation
+  technique with an honestly-reported robustness caveat. Also: a
+  transformer-vs-CNN document-classification data point, three deep-learning
+  forecasting case studies (DeepAR, MLP, DNN each beating a named simpler
+  baseline), and an AI-maturity ladder for data storytelling that catches
+  Tableau/Power BI's story features as rule-based NLG, not LLM-based, as of
+  the source data.
 
 ## Proposals
 
@@ -410,4 +431,4 @@ other five July 16 volumes remain deliberately lookup/reference.
   `check_at` follow-up.
 
 ---
-*Last updated: July 17, 2026 (Mastering Claude AI + The Business Case for AI full-main-text intakes; Codex app-configuration doc pack captured and compiled — raw now 193 files)*
+*Last updated: July 18, 2026 (AI in Business and Economics — EPEAI proceedings — full-main-text intake; raw now 194 files)*

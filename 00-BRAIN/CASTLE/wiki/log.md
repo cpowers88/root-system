@@ -91,6 +91,32 @@ tags: []
   Day 8 Integration/owner-presentation lens instead of as a standalone
   checklist.
 
+## 2026-07-17 (session close) — Git rescue + 77-INBOX weekly-style sweep
+
+- Diagnosed a GitHub Desktop "won't let me commit" report as a `git stash`
+  (auto-triggered on a branch action) plus a genuine second cause — a nested
+  `git init` inside `02-LIBRARY\.PROJECTS\MCP_Bootcamp\` that GitHub Desktop
+  flags and blocks staging for. Stash popped clean (zero loss, verified
+  before restoring), nested repo now excluded via root `.gitignore` (its own
+  history untouched). `PHYSICS\.git` — a second, inert nested repo — flagged
+  but not touched.
+- Ran the `77-INBOX` routing checklist (`OPERATIONS.md § Weekly Inbox
+  Routing Checklist`) against all 8 PDFs sitting there. Routed Chris's two
+  named files to their confirmed hub homes (`Process Mining Handbook.pdf` →
+  SYSTEMS raw/, `AI in Business and Economics.pdf` → AI_AUTOMATION_SYSTEMS
+  raw/) via three parallel research checks rather than guessing — both tie
+  directly to this week's MCP Bootcamp lenses (Systems Audit / Product &
+  Value). Four PDFs confirmed as exact duplicates of already-compiled
+  sources, left in place. One title (`Lean Startup`) confirmed genuinely new
+  with no coverage anywhere. One (`Programming Logic and Design`) parked,
+  matching Chris's own stated Python-fundamentals position. Per the routing
+  checklist rule 4 ("leave ambiguous files in place and flag instead of
+  guessing"), logged all open dispositions as `SYSTEM_FLAGS.md` #77 (LOW)
+  rather than deciding unilaterally.
+- Root health: `PASS WITH DEBT`, 0 new debt, checked twice this block. No
+  HIGH flag open. Next: Sat Jul 18 opens the boot camp's first live-paired
+  session per `NOW.md`; flag #77 waits on Chris, no forced timeline.
+
 ## 2026-07-15 (evening) — Prove-the-loop staging (Chunk 4 of the approved system-design lane)
 
 - The design gaps from the July 14 direction review are closed as of tonight
@@ -1062,3 +1088,37 @@ gate before any permanent content/revenue workspace or publishing commitment.
 - Breaking-change boundary: do not commit to remote deployment, production auth,
   MCP Apps, or the release-candidate-specific architecture before the July 28 final
   specification. Exact stack still awaits Chris approval before `NOW.md` changes.
+
+## 2026-07-17 (night) — MCP Bootcamp final engineering review: four tightenings + workbench thread (Claude + Chris)
+
+- Chris requested a final pre-launch review under the Technology Engineer hat
+  (Engineering Playbooks: Technical Review procedure). Claude verified the
+  plan's physical dependencies directly before the verdict:
+  `observation_one.md` exists with table-ready Amendment answers; the
+  `MCP_Bootcamp\` scaffold is real (git init, requirements, Docs,
+  format-notes log).
+- **Verdict: plan sound. Chris approved with four tightenings adopted:**
+  (1) SDK install = mechanical prep before Wed 7/22, version/spec-side
+  confirmation = first 5 live minutes of Wed 7/22; (2) 2.5–3.5 focused
+  hrs/lens after the school block, the daily gate — not the artifact list —
+  defines "done"; (3) the master blueprint accumulates 10–15 min at each
+  day's close, Day 8 integrates and presents only; (4) fixture rows carry a
+  `source` label (reconstructed-from-experience vs. measured) so Day 3's
+  provenance gate holds on its own fixture.
+- **Workbench fluency thread added (Chris-approved):** the review surfaced
+  that the plan assumed but never taught the workbench trio (terminal +
+  Git/GitHub + VS Code) — the exact layer Chris named as shaky. A daily
+  ~20–30 min named workbench rep, practiced on that day's real artifact,
+  replaces the awareness-mapping slot (app-network mapping shrinks to a few
+  rows on Days 3–4). Rep sequence: VS Code workspace → staging/diffs →
+  Python-in-VS-Code/venvs → branching → debugger → push/PR → Actions CI →
+  tags/README. Thu 7/23's PR rep needs Chris's one-line GitHub-remote
+  approval that day; works locally without it. If a day runs long, the
+  workbench rep flexes first — the lens gate and school block never do.
+- Recorded technology-priority frame for school + business: workbench trio →
+  Python → SQL/SQLite → testing/CI → APIs/MCP.
+- Unchanged: schedule, lens sequence, proof vehicle, MCP ≤3 hr cap, Working
+  Method, acceptance test, honest floor, July 26 hard boundary. Records
+  updated this pass: review packet (Fourth Revision), `NOW.md`, this log,
+  `DAILY_2026-07-17.md`.
+- Outcome pending: July 25 acceptance test, unchanged.

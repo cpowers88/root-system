@@ -106,7 +106,7 @@ System files include this file, surface profiles, `CHRIS_CORE.md`, `CHRIS.md`, h
 
 ## Wikis and CASTLE
 
-`03-WIKIS\` contains the domain knowledge hubs. CASTLE at `00-BRAIN\CASTLE\` sequences work and owns `.ROOT\NOW.md`. Each wiki governs its content; this file governs shared behavior. Hats are cross-model modes, not roles.
+`03-WIKIS\` contains the domain knowledge hubs. CASTLE at `00-BRAIN\CASTLE\` sequences work and owns `.ROOT\NOW.md`. Each wiki governs its content; this file governs shared behavior. Hats are cross-model modes, not roles. Core optional modes are Operator, Educator, Technology Engineer, and Software Engineer; subject hats add local teaching constraints.
 
 `...projectSuccess\` is the two-file Watchtower. A material external signal must
 name its evidence home, affected assumption/choice, consequence or test, and review
