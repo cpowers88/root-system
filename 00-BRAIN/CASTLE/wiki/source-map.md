@@ -5,68 +5,65 @@ reference_priority: core
 tags: [sources]
 ---
 
-# Source Map — What Proves What
-### Rule: Tier 1–2 sources determine the roadmap. Tier 3 informs. Tier 4 may only raise questions.
-### Seeded July 6, 2026 with internal sources. Domain hubs own their evidence; only roadmap-relevant sources register here.
+# Source Map — Roadmap-Shaping Evidence
 
-## Internal — Spine (roadmap claims trace here)
+### Updated: July 19, 2026 — one registration gate; owner truth stays with owners
 
-| Source | Location | Role | Claim supported | Phase |
-|---|---|---|---|---|
-| NORTH_STAR.md | `01-NORTH_STAR\` | spine | Durable destination, fixed commitments, tracks, guardrails, and evidence ratchet | all |
-| CURRENT_STRATEGY.md | `01-NORTH_STAR\Goals & Milestones\` | active hypothesis | Current vehicle, assumptions, offer, wedges, proof milestones, and replacement rules | 0–10 |
-| WATCHTOWER.md + radar.md | `...projectSuccess\` | signal router | Material external-change promotion and CASTLE test route; not strategy authority | all |
-| SKILL_GAP_ANALYSIS.md | `01-NORTH_STAR\` | spine | Gap priority order; monthly weak-link method | 0–1 |
-| AGENT.md + capability profiles (CLAUDE.md / CODEX.md / ATLAS.md) | `.ROOT\00-BRAIN\` | spine | Shared AI behavior, file safety, strengths, and access limits | all |
-| TECHNOLOGY_LIBRARY_STRATEGY.md | `02-LIBRARY\REF-AI-AUTOMATION\` | spine | 12 tool categories; Recommendation Ladder | 2–7 |
-| KSU_Academic_Tracker_Brief.md | `02-LIBRARY\.PROJECTS\KSU_Academic_Tracker\` | spine | Proof-project scope | 0 |
+## Purpose
 
-## Internal — Support
+This map registers evidence only when it materially shapes a roadmap choice, strategy assumption, constraint, or gate. It is not a catalog of every source in .ROOT.
 
-| Source | Location | Role | Claim supported | Phase |
-|---|---|---|---|---|
-| BUSINESS wiki lean/TOC/consulting/negotiation pages (7 consolidated pages, migrated from FORGE July 7, 2026) | `03-WIKIS\BUSINESS\wiki\ai-integration-company\` | support | Lean, VSM, TOC, consulting method, negotiation, profit-first | 2–6 |
-| SYSTEMS wiki (98 pages, verified July 13, 2026) | `03-WIKIS\SYSTEMS\wiki\` | support | Factory physics, queueing, system dynamics | 2–3, 7 |
-| TECHNOLOGY + PYTHON applied-reference collections (live inventories owned by their indexes) | `03-WIKIS\TECHNOLOGY\wiki\` (Flask, distributed systems, DevOps, data science) + `03-WIKIS\PYTHON\wiki\source-summaries\` (pandas/SQL, inventoried not yet curriculum-built) | support | Python, SQL, pandas, Flask, data science | 1, 3, 7 |
-| 03-WIKIS\BUSINESS (live inventory owned by its index) | `03-WIKIS\BUSINESS\wiki\ai-integration-company\` | support | Offer ladder, pathway comparison, audit method, waste math, and retainer patterns; treat pricing/conversion claims as hypotheses until field evidence verifies them | 4–10 |
-| Audit templates (3) | `05-BUSINESS\01-Audit Templates\` | support | The working audit artifacts | 2, 5 |
-| Delivery templates (11) | `03-WIKIS\BUSINESS\...\templates\` | support | Proposal, SOW, outreach, retainer reporting | 4–6 |
-| Field notes + template | `05-BUSINESS\02-Field Notes\` | support | Observation practice record | 2 |
-| Revenue Lab lane scorecard + evidence pages | `03-WIKIS\REVENUE_LAB\wiki\` | support | July 14 continuity-income lane comparison, bounded proof status, and authorization limits | 0–1, continuity |
-| `03-WIKIS\PYTHON` + `03-WIKIS\PHYSICS` wikis — **positions reconciled 2026-07-16** | root | support | Staged school-readiness paths with mastery gates. Real positions: Python Stage 3/10 active (Stages 1–2 verified July 13/16), Physics Stage 4/18 active (Stage 3 closed July 16). `03-WIKIS\PYTHON` Stages 9–10 (automation bridge: CSV/JSON/reports/SQLite/CLI) directly pre-train castle Phase 3 skills | 1, 3 |
-| Active pre-semester plan | `01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md` | support | Coordinates summer sequencing from live PYTHON, PHYSICS, and EDUCATION truth | 0–1 |
-| Weekly/monthly reviews | `01-NORTH_STAR\Weekly Reviews\` | support | Evidence trail for current-position | 0 |
+Prefer primary and authoritative evidence for consequential claims. Lower-confidence sources may raise questions or suggest tests; no source silently overrides the North Star, owner truth, measured outcomes, or Chris's decision.
 
-## External — Summarized
+## Authority Spine — Pointers, Not Evidence
 
-| Source | Tier | Role | Claim supported | Phase |
-|---|---|---|---|---|
-| Claude Code official docs pack (Anthropic, 22 files + 1 PDF) — **ingested 2026-07-11**, summary: [[claude-code-docs-pack-2026-07]] | 1 | support | Context-window economics of instruction files (<200-line always-on budget, prune test, on-demand loading, hooks for hard lines); agentic workflow patterns (verify-first, plan mode, subagent research, fan-out). Drove the July 11 system self-review. PDF ebook unparsed (queued). | 0–3, system maintenance |
-| OpenAI Platform, ChatGPT, and Codex docs pack (95 Markdown captures) — **core chunks reviewed 2026-07-12**, summary: [[openai-platform-docs-pack-2026-07]] | 1 | support | Responses-first design; schema-constrained tools; least privilege; human approvals; traces/evals before multi-agent scale | 1, 3, 7; technology landscape |
+| Authority or owner | Location | What it controls |
+|---|---|---|
+| NORTH_STAR.md | 01-NORTH_STAR\ | Durable direction, fixed commitments, capability base, and Ratchet |
+| CURRENT_STRATEGY.md | 01-NORTH_STAR\Goals & Milestones\ | Current business hypothesis, assumptions, milestones, and replacement rules |
+| WATCHTOWER.md + radar.md | ...projectSuccess\ | Material external-signal routing; not strategy authority |
+| SKILL_GAP_ANALYSIS.md | 01-NORTH_STAR\ | Monthly weak-link decision |
+| AGENT.md + surface profiles | 00-BRAIN\ | AI behavior, safety, capability notes, and access boundaries |
+| TECHNOLOGY_LIBRARY_STRATEGY.md | 02-LIBRARY\REF-AI-AUTOMATION\ | Technology possibility map and Recommendation Ladder |
+| KSU_Academic_Tracker_Brief.md | 02-LIBRARY\.PROJECTS\KSU_Academic_Tracker\ | Tracker proof-project scope |
 
-## External — Registered, Not Yet Summarized
+## Internal Evidence Supporting Phase Claims
 
-| Source | Tier | Role | Claim supported | Phase |
-|---|---|---|---|---|
-| CS50P (Harvard) | 1 | spine | Python learning path | 0–1 |
-| iSixSigma.com / ASQ.org | 2 | support | Process-improvement vocabulary + checklists | 2 |
-| ConstructionDive / AGC.org tech sections | 2–3 | market-signal | Contractor tech-adoption reality | 2, 4 |
-| Luke Barousse SQL course | 3 | support | SQL reps between tracker sessions | 0–1 |
-| MIT OCW Operations Management | 1 | support | Break-time depth aligned to coursework | 1, 7 |
-| Mark Spain Real Estate public operating/careers pages (2024–2026) | 1 for the company's own stated operating model | market-specific support | The brokerage supplies ISA lead generation/scheduling, concierge/marketing support, and agent technology; an affiliated agent is an access point and workflow observer, not the assumed buyer of a duplicate CRM/platform | 2 |
-| NAR 2025 REALTORS Technology Survey | 2 | market-signal | Brokerage-provided technology is common; generic agent technology is crowded, and agent-level authority must be separated from brokerage authority | 2–4 |
-| ATTOM 2025 Year-End U.S. Home Flipping Report (released 2026-03-19) | 2 | market-signal | Flipper gross ROI and gross profit compressed in 2025, raising the value of disciplined acquisition, rehab, holding-cost, and cost-to-complete controls | 2–4 |
-| State Bar of Georgia FAO 23-1 + GREC Rule 520-1-.10 guidance | 1 | constraint | Georgia lawyers retain responsibility for the closing process; brokers have transaction-record and audit obligations. Automation must preserve attorney/broker control and traceability. | 2–5 |
-| Clio 2025 Legal Trends for Solo and Small Law Firms | 2 | market-signal | Small-law-firm intake and administrative throughput are plausible value pools, but vendor-reported correlations require local workflow validation before an offer or build | 2–4 |
+| Evidence owner | Claim supported | Phase or gate |
+|---|---|---|
+| BUSINESS wiki methodology pages | Lean, VSM, TOC, consulting, negotiation, and audit-method options | 2–6 |
+| SYSTEMS wiki | Flow, queueing, constraints, and system-dynamics support | 2–3, 7 |
+| TECHNOLOGY and PYTHON applied-reference indexes | Software, data, integration, and operating reference when a live problem requires it | 1, 3, 7 |
+| 05-BUSINESS audit templates | Working audit artifacts; existence is not field proof | 2, 5 |
+| BUSINESS delivery templates | Proposal, SOW, outreach, and reporting options; existence is not delivery proof | 4–6 |
+| 05-BUSINESS field notes | Observation-practice evidence | 2 |
+| REVENUE_LAB scorecard and evidence pages | Continuity-income tests, proof status, and authorization limits | 0–1, continuity |
+| PYTHON and PHYSICS learning paths | Staged school-readiness paths with mastery gates; positions live in each owner's current-position file | 0–1 |
+| Ellucian Degree Works Dashboard — July 19, 2026 snapshot | 41 completed degree-applicable credits, 13 Fall 2026 registered credits, 54 completed-or-in-progress credits applied, and a minimum 67 additional credits needed | school spine |
+| PRE-SEMESTER_PREP_PLAN.md | Summer-to-semester coordination | 0–1 |
+| Weekly and monthly North Star reviews | Evidence trail used during monthly and Ratchet reconciliation | all |
+
+## Registered External Evidence
+
+| Source | Confidence / role | Roadmap effect |
+|---|---|---|
+| Claude Code official docs pack — [[claude-code-docs-pack-2026-07]] | Tier 1, system support | Shaped instruction-budget and agentic-workflow decisions |
+| OpenAI Platform, ChatGPT, and Codex docs pack — [[openai-platform-docs-pack-2026-07]] | Tier 1, system and technology support | Shaped tool, approval, trace, and evaluation requirements |
+| CS50P | Tier 1, learning spine | Supports the active Python foundation path |
+| Mark Spain Real Estate public operating and careers pages | Tier 1 for its stated model | Shaped the access-wedge and buyer-authority assumptions |
+| NAR 2025 REALTORS Technology Survey | Tier 2, market signal | Shaped the duplicate-platform and authority gate |
+| ATTOM 2025 Year-End U.S. Home Flipping Report | Tier 2, market signal | Shaped the flip-margin proof opportunity |
+| State Bar of Georgia FAO 23-1 + GREC Rule 520-1-.10 | Tier 1, constraint | Requires attorney/broker control and traceability in relevant automation |
+| Clio 2025 Legal Trends for Solo and Small Law Firms | Tier 2, market signal | Supports a bounded small-law workflow hypothesis pending local validation |
 
 ## Parked Source Pools
 
-- `99-ARCHIVE\ARCHIVED_2026-07-07_FORGE_raw\` — 29 books, Tier 1–2, already digested into the BUSINESS/SYSTEMS/PYTHON/TECHNOLOGY pages above (FORGE itself retired July 7, 2026; raw sources archived, not deleted)
-- `02-LIBRARY\` PDFs — reference library; route through the relevant 03-WIKIS hub if deep ingest needed (see WHERE_IT_GOES.md's Realm Check)
-- Stock Market Books (`02-LIBRARY\REF-MISC\`) — outside North Star; stays parked
+- 99-ARCHIVE\ARCHIVED_2026-07-07_FORGE_raw\ — archived source evidence already routed into domain owners.
+- 02-LIBRARY\ PDFs — reference material; route through the relevant domain hub when deep ingest is needed.
+- 02-LIBRARY\REF-MISC\ stock-market books — outside the active North Star path; parked.
 
-## Registration Rule
+## Registration Gate
 
-New external source → one row here (title, tier, role, claim, phase) BEFORE it
-influences any page. Big sources also get a `source-summaries/` page via the
-template. No row, no influence.
+Register evidence here only when it materially changes or supports a roadmap choice, strategy assumption, constraint, or gate. Record the owner, claim affected, confidence or tier when useful, and review trigger. All other sources remain in their domain evidence home and may inform domain work without a CASTLE row.
+
+Material external change follows: evidence owner → Watchtower → CASTLE gate → bounded test → measured outcome.

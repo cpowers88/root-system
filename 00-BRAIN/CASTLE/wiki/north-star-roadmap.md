@@ -6,116 +6,85 @@ tags: [north-star, roadmap]
 ---
 
 # North Star Roadmap — The Master Pathway
-### Direction: `.ROOT\01-NORTH_STAR\NORTH_STAR.md` | Vehicle/milestones: `Goals & Milestones\CURRENT_STRATEGY.md` | Updated: July 17, 2026
+
+### Direction: .ROOT\01-NORTH_STAR\NORTH_STAR.md | Vehicle and milestones: 01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md
+### Updated: July 19, 2026 — durable pathway and owner-pointer reconciliation
 
 ## The Destination
 
-**October 8, 2031** — Chris's 50th birthday. Complete the KSU BS in Industrial &
-Systems Engineering and reach a $500K–$1M annual floor through compounding capability,
-useful systems, and proven value. Chris remains the accountable human; AI supplies
-leverage. The destination is fixed. The Advisor-Builder company is the leading
-vehicle being tested, not an identity lock.
+**October 8, 2031** — Chris's 50th birthday. Complete the KSU BS in Industrial & Systems Engineering and reach a $500K–$1M annual floor through compounding capability, useful systems, proven value, income, and lasting assets.
 
-The current vehicle: walk into a business → observe the real work → map it → find the waste →
-redesign around the human+AI operating model → recommend or build technology → integrate
-→ train → **maintain on retainer** → **harvest the asset**.
-The observation-based audit is the first offer being tested. Retained improvement
-work is the leading revenue-engine hypothesis. Assets are the compounding path. Full
-assumptions, proof milestones, and replacement rules live in CURRENT_STRATEGY.md.
+The destination and date are fixed. The Advisor-Builder company is the leading vehicle being tested, not an identity lock. Chris remains the accountable human; AI supplies leverage.
+
+## Current Vehicle Under Test
+
+The current strategy is to observe real work, diagnose consequential friction, engineer the smallest sound people/process/data/technology response, implement only what the evidence justifies, support adoption and operation, and harvest reusable learning or assets.
+
+The observation-based audit, retained improvement work, access wedges, prices, milestones, and replacement rules are hypotheses owned by CURRENT_STRATEGY.md. This roadmap reflects that vehicle; it does not make it permanent.
 
 ## Current Compounding Asset Paths
 
-All four classes are in scope — plus any new class that passes [[adding-a-profit-skill]]:
+| Asset class | Current strategy hypothesis |
+|---|---|
+| Maintained client systems | Recurring value from workflows, integrations, dashboards, automations, or tools that continue to earn their operating cost |
+| Reusable methods and playbooks | Audit kits, process maps, SOP patterns, report formats, training assets, and delivery methods |
+| Standalone applications | Products considered only after internal or client use proves demand |
+| Proof-led content and audience | Evidence-backed learning and outcomes that create trust; never a posting machine without proof |
 
-| Asset class | What it is | Earliest phase |
-|---|---|---|
-| Client systems on retainer | Automations, dashboards, tools built for clients; recurring maintenance revenue | 6–7 (the core engine) |
-| Productized templates & playbooks | Audit kits, SOP libraries, report templates, workflow maps — indexed by APQC PCF so assets retrieve by business function | 8 |
-| Standalone software / tools | Small owned tools or SaaS-style products | 8+ (only after client work proves demand) |
-| Content & audience | Newsletter/video/courses feeding leads to everything else | 8+ (case studies come first) |
+Real use validates productization. Measured evidence may reorder or replace these paths through the Ratchet.
 
-Sequencing rule: real use validates productization. The current strategy prioritizes
-retainer systems, but measured evidence may reorder the paths through the Ratchet.
-
-The July 14 continuity-income response is a bounded evidence exception, not a phase
-override. Revenue Lab may research and privately test a lane because keeping Chris
-enrolled serves the school spine. Lane A does not activate a public content/audience
-asset: no channel, publishing, monetization, affiliate, or paid-tool action is
-authorized without a later gate and Chris's explicit approval.
+The continuity-income response is a bounded evidence exception serving the school spine, not a permanent phase or asset-path override. Public action, spending, outreach, or publication remains behind the appropriate gate and Chris's approval.
 
 ## The Three Coordinated Tracks
 
-1. **School (the spine)** — BS Industrial & Systems Engineering, KSU. Aug 24, 2026 →
-   Dec 2029. Non-negotiable. Every ISYE course becomes a sellable service.
-2. **Technology (the fuel)** — build software/data, AI leverage, automation, and
-   technology judgment through the smallest real proof at the live weak link. The
-   Technology Strategy maps possibilities; it is not a permanently locked tool order.
-3. **Business and value creation (the engine)** — test valuable problems and turn
-   proven work into income and reusable assets.
+1. **School — the spine.** Complete the KSU BS in Industrial & Systems Engineering. Review each course for transferable capability, real application, and possible economic value; no course is required to become a service.
+2. **Technology — the fuel.** Build practical judgment across workflows, applications, data, automation, AI, integration, security, operations, and the changing technology landscape through real use.
+3. **Business and value creation — the engine.** Solve valuable problems, create income, and compound proven work into reusable assets.
 
-(The former Heather/Joint Venture product lane remains retired. Heather's real-estate
-network is an access wedge for the current Advisor-Builder strategy, not a permanent
-lane or identity.)
+The current real-estate and construction wedges provide access; neither is a permanent market or identity boundary.
 
-## The Pathway at a Glance
+## Current Strategy Pathway at a Glance
 
-```
-2026 H2   Phase 0-2   Baseline · Fall semester · audit methodology reps
-2027 H1   Phase 3-5   Data workflows · offer assembled · FIRST CLIENT (Mar)
-2027 H2   Phase 6     First retainer signed (by Dec 2027)
-2028      Phase 7     Client builds: Flask/APIs/automation · 3 retainers
-2029      Phase 8     Graduation (Dec) · $100K run rate · productized assets
-2030-31   Phase 9     First hire · $250K+ · concurrent retainers
-Oct 2031  Phase 10    $500K-$1M operating company
-```
+These are tests under the strategy now in force, not permanent tool or market commitments.
 
-Full detail per phase: [[phase-map]] → `phases/` pages.
+    2026 H2   Phase 0–2   Baseline · Fall semester · workflow observation and audit-method reps
+    2027 H1   Phase 3–5   Data/workflow capability · offer test · first paid-market evidence
+    2027 H2   Phase 6     First retained-improvement test under the current strategy
+    2028      Phase 7     Repeatable workflow-system delivery and integration evidence under the strategy then in force
+    2029      Phase 8     Graduation · repeatable value engine · reusable asset evidence
+    2030–31   Phase 9     Leverage and scale through the best evidenced vehicle
+    Oct 2031  Phase 10    $500K–$1M annual floor reached or ratcheted higher
 
-## What Matters RIGHT NOW (July 2026)
+Full phase detail: [[phase-map]] and its live phase pages. Business milestones and assumptions remain in CURRENT_STRATEGY.md.
 
-1. **Physics + Python preparation** — protect August 24 school readiness. Physics
-   Stage 4 (Motion in Two Dimensions) is active (Stage 3 closed 7/16); Python
-   Stage 3 (Loops) is mid-drill (Stage 2 closed 7/16). The daily school-proof
-   block runs first, every day, sprint or not.
-2. **MCP Bootcamp, July 18–25** — eight-lens Advisor-Builder sprint over the real
-   `observation_one.md` case; MCP is the ≤3 hr capstone, not the subject. Live
-   plan and binding rules: `.ROOT\NOW.md` → the July 17 review packet. July 26 is
-   the hard D2L transition, no carryover.
-3. **[[ksu-academic-tracker]]** — V1 is shipped. Enter real D2L/syllabus data around
-   July 25 and use it daily; keep SQL practice focused rather than expanding scope.
-4. **Financial continuity evidence** — maintain Lane A's private scanner proof and
-   human-classify its combined top 100 when scheduled. Run B2's one external proof
-   conversation only after Chris explicitly approves it.
-5. One 30-min technology-landscape rep weekly; approved Revenue Lab technical proof
-   may replace this block rather than add another one.
-6. One live workflow observation, then convert that evidence into the first practice
-   Value Stream Map before the semester.
-7. Quietly collect real-estate workflow observations through Heather's warm network
-   when available; no outreach campaign before the First Contact phase.
+## Standing Priority Frame
 
-**High-load school window: Oct 5 – Nov 11, 2026. Protect fixed commitments;
-AI warns once before optional expansion, then follows Chris's direction.**
+1. Protect fixed school deadlines and commitments.
+2. Build practical workflow, technology, data, automation, AI, integration, security, and operating capability through real use.
+3. Prefer work that produces verified capability, useful systems, measurable value, income evidence, or reusable assets.
+4. Treat markets, offers, vendors, tools, and revenue models as replaceable strategies.
 
-## The Question Every Page Must Answer
+Current action lives in .ROOT\NOW.md. Monthly baseline and proof state live in [[current-position]]. Business milestones and assumptions live in 01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md.
 
-> What skill, in what order, why does it matter, what source proves it,
-> and what project proves Chris can use it?
+This frame inherits the North Star priority hierarchy; it adds no authority and changes only when NORTH_STAR.md changes.
+
+## Governing Question
+
+> What is the highest-value next action; who owns it; what proof closes it; and where does the result return?
 
 ## Guardrails
 
-- [[adding-a-profit-skill]] gates every new shiny opportunity
-- [[source-map]] gates every claim — Tier 4 sources never steer
-- NORTH_STAR.md guardrails: fact over theory, validate before productizing, planning
-  cannot replace proof, and time is the constraint. If castle maintenance exceeds
-  learning, delivery, or evidence-producing reps: rebalance immediately.
+- [[adding-a-profit-skill]] gates new profit or opportunity proposals.
+- [[source-map]] registers evidence that materially shapes a roadmap choice, strategy assumption, constraint, or gate; domain evidence remains with its owner.
+- Fact outranks theory; validate before productizing; planning cannot replace proof.
+- Capacity is real. If CASTLE maintenance displaces learning, delivery, or evidence-producing work, reduce the maintenance scope.
 
-## Related Systems (referenced, never duplicated)
-- `.ROOT\00-BRAIN\` — how AI sessions behave
-- `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` — active vehicle,
-  assumptions, milestones, and evidence rules
-- `...projectSuccess\` — material external signals; eyes, not hands
-- `03-WIKIS\BUSINESS\` — business research, pricing, offer options, delivery
-  templates, and the deep lean/consulting/negotiation knowledge base; its index owns
-  the live inventory
-- `03-WIKIS\SYSTEMS\` — factory physics, queuing, system dynamics (also inherited from FORGE)
-- `03-WIKIS\PYTHON\` / `03-WIKIS\PHYSICS\` — staged school-readiness execution
+## Related Owners
+
+- 00-BRAIN\ — AI governance, human-working profile, and system coordination
+- 01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md — active business vehicle, assumptions, milestones, and evidence rules
+- ...projectSuccess\ — material external signals; eyes, not hands
+- 03-WIKIS\BUSINESS\ — business research, offer options, pricing, and delivery knowledge
+- 03-WIKIS\SYSTEMS\ — systems, flow, queueing, and industrial reasoning
+- 03-WIKIS\TECHNOLOGY\ — technology landscape and applied technical reference
+- 03-WIKIS\PYTHON\ and 03-WIKIS\PHYSICS\ — staged learner truth and school preparation

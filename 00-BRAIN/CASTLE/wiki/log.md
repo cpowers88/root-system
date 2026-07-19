@@ -1291,3 +1291,58 @@ other named scopes pass. Slice A0 is clear.
 - Next exact action: review and commit the bounded A1 diff, then prepare Slice A2
   core-map wording for Chris's approval. Recheck the entrance paraphrase and
   retired-phrase scan at the July 26 governance sweep.
+
+## 2026-07-19 (night) — A1 verified closed; A2 review returned: MODIFY then proceed (Claude Code)
+
+- Slice A1 verified as committed (`18d8f0c`): mods applied, scoped grep clean,
+  predecessors archived (99-ARCHIVE is git-ignored by design — on-disk only).
+  A1 closed; July 26 sweep re-check stands.
+- Slice A2 challenge: KEEP the four-file scope, MODIFY four things — Standing
+  Priority Frame gets a North Star anchor; the active-capability register gets
+  a single-home rule (active rows in the register only, category tables go
+  horizon + "→ register") to avoid double-homed statuses; agentic delivery
+  stays `working` while waste-ID goes horizon and time-management leaves the
+  capability list (consistent evidence calibration); source-map rows
+  dispositioned (keep gate-shaping externals, route four domain-only rows to
+  their hubs).
+- Verified: opportunity-queue clean of scheduling/authority language — no
+  controlling core-map conflict outside the A2 four. SKILL_GAP_ANALYSIS stays
+  out of A2; its rewording queues for the Aug 1 monthly review.
+- Full report + implementation order:
+  `00-BRAIN\Session_Logs\CASTLE_SLICE_A2_CLAUDE_REVIEW_2026-07-19.md`.
+- Next exact action: Chris approves the modified A2 wording in one line; any
+  surface implements steps 1–9 (~60–75 min, single commit).
+
+## 2026-07-19 (night) — Slice A2 installed; next phase reframed as B0/B1 (Codex)
+
+- Chris approved A2 with Claude's modifications. Updated the roadmap, source
+  map, skill map, and current position; preserved exact predecessors under
+  `99-ARCHIVE\`.
+- Validation: four archive/preimage comparisons returned zero differences;
+  the scoped retired-language scan is clean; active capability status has one
+  home; frontmatter matches the reviewed baseline with zero new findings.
+- The post-A2 CASTLE run found the two North Star companions should be
+  reconciled before phase/template strategy consumers. Proposed B0 is
+  `CURRENT_STRATEGY.md` plus a slim `PRE-SEMESTER_PREP_PLAN.md`; B1 retains the
+  CASTLE phase/template language work.
+- Strategic cadence reviews remain in North Star. Two system-only audits are
+  proposed for a later, explicitly approved archive move to Brain; nothing was
+  moved in this pass.
+- Review packet:
+  `CASTLE_NEXT_PHASE_B0_B1_AND_REVIEW_HOME_PROPOSAL_2026-07-19.md`.
+- Next exact action: Claude challenges the packet; Chris approves final B0
+  wording before either companion is archived or edited.
+
+## 2026-07-19 (night) — Degree Works baseline reconciled (Codex)
+
+- Routed the sanitized July 19 Degree Works snapshot from Clippings to the
+  program-wide school-file home at
+  `02-LIBRARY\00-SCHOOL\Ellucian Degree Works Dashboard.md`.
+- Resolved the apparent credit conflict: 41 completed degree-applicable plus 13
+  registered Fall credits equals 54 completed-or-in-progress credits applied;
+  the 121-credit degree therefore shows a minimum 67 additional credits needed.
+- CASTLE current position and source map now name the source and distinguish
+  completed from registered/applied totals. The existing six-course, 13-credit
+  Fall schedule matched Degree Works.
+- Revised the B0/B1 review packet with the verified baseline and an explicit
+  credit-language acceptance test. No B0 companion was edited.

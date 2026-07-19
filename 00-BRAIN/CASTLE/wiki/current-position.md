@@ -5,89 +5,71 @@ status: active
 tags: [baseline]
 ---
 
-# Current Position — July 2026
-### Sources: NORTH_STAR.md, CURRENT_STRATEGY.md, live domain current-position pages, SKILL_GAP_ANALYSIS.md, KSU_Academic_Tracker_Brief.md
-### Review cadence: monthly, first session after the 1st
+# Current Position — July 2026 Monthly Baseline
 
-## Where Chris Is
+### Reconciled: July 19, 2026
+### Sources: NORTH_STAR.md, CURRENT_STRATEGY.md, owner current-position files, SKILL_GAP_ANALYSIS.md, and active proof owners
+### Cadence: monthly; current actions and temporary pauses live in .ROOT\NOW.md
 
-- **School:** 41 of 121 credits entering KSU Fall 2026 (starts Aug 24). Six courses,
-  13 hours: ECON 1000, ENGR 1000, PHYS 2211, CSE 1321+L, TCOM 2010. Gate course
-  ISYE 2600 in Spring 2027.
-- **Financial continuity:** a major school-funding cut disclosed July 14 means
-  additional income is required to continue beyond Fall 2026. The active response is
-  the evidence-first `03-WIKIS\REVENUE_LAB` scan. The five-lane scan and ranked
-  scorecard are complete. Lane A has internal scanner proof; B2's external proof
-  conversation remains gated on Chris's explicit approval. `NORTH_STAR.md` now
-  distinguishes the before-Spring-2027 continuity-income need from the March 2027
-  first consulting-client target (SYSTEM_FLAGS #73 closed July 14).
-- **Python:** tracked two ways: CS50P through PS2 (loops), and the
-  `03-WIKIS\PYTHON` wiki's staged path at **Stage 3 of 10 — Loops** (active since
-  July 16). Stage 1 was satisfied July 13; **Stage 2 was closed July 16** through
-  the cold `Story.py` explain-back plus Chris's own independent `S2P3.py`
-  correction. Stage 3's first live rep ran July 16 (for/while, range, accumulator)
-  and paused mid `break`/`continue` drill — the stage is open, not closed.
-- **Physics:** `03-WIKIS\PHYSICS` wiki's own `current-position.md` records the active
-  unit as **Stage 4 of 18 — Motion in Two Dimensions** (packet source-verified
-  July 7). **Stage 3 (Vectors) was closed July 16** with the full mastery checklist
-  passed cold, no notes; a real-textbook Serway Ch 3 problem set exists for
-  durability reps. (Reconciled July 16, 2026 — this line previously lagged the
-  domain wiki.)
-- **SQL:** #1 skill gap (July monthly review) — now with a live vehicle: the
-  [[ksu-academic-tracker]] build (real schema, real queries, ~July 25 deadline).
-- **Audit methodology:** instinct without framework. "The Goal"/TOC already ingested
-  into `03-WIKIS\BUSINESS\wiki\ai-integration-company\theory-of-constraints.md`. VSM not
-  yet practiced on a real process. Observation methodology
-  template exists in `05-BUSINESS\01-Audit Templates\` but is unproven.
-- **Data visualization:** first private Data Studio dashboard rep completed and
-  verified July 16. The remaining gap is showing a real operational decision,
-  calculation, and ROI clearly enough for another person to act.
-- **Technology landscape:** structure exists (TECHNOLOGY_LIBRARY_STRATEGY.md — 12
-  categories + Recommendation Ladder); first Make.com and Data Studio reps are
-  complete. The new Advanced Application Capability Trace identifies integration,
-  production operation, and governed-AI proof as later rungs rather than reading
-  queues. A July 16 goal-aligned gap audit selected the existing scanner's SQL and
-  reliability boundary as the first integrated proof; Kubernetes, microservices,
-  multi-agent systems, and industrial methods remain behind measured triggers.
-- **Business assets already built:** 51-page business-model wiki, delivery template
-  library (audit report, proposal, SOW, outreach), pricing worksheet, field-notes
-  method with one June 5 construction-domain hypothesis note and one July 14
-  contractor desk simulation. Neither is a live workflow observation. APQC-indexed
-  capability-library structure is being added under `05-BUSINESS` for reusable
-  client-facing assets.
-- **Clients:** zero. After the approved July 14 North Star amendment, March 2027
-  remains the first consulting-client target; it is not the near-term answer to the
-  funding gap.
-  Revenue Lab's five-lane evidence scan is complete. Lane A's internal scanner proof
-  now covers 36 desk-based topics with a deduplicated cross-market top 100; it remains
-  a compounding research lane, not survival-income proof. B2's one external proof
-  conversation remains separately gated on Chris's explicit approval.
+## Fixed Baseline and Material Constraints
 
-## Weak Links (priority order, from SKILL_GAP_ANALYSIS July 5)
+- **Destination:** October 8, 2031 remains the hard measurement date; the KSU BS in Industrial & Systems Engineering and $500K–$1M annual floor remain fixed.
+- **School:** Degree Works (audited July 19) records 41 completed degree-applicable credits plus 13 registered Fall 2026 credits: 54 completed-or-in-progress credits applied toward the 121-credit degree, with a minimum of 67 additional credits needed. Fall classes begin August 24. Fixed deadlines and academic-integrity rules constrain the field.
+- **Business:** Advisor-Builder is the active strategy hypothesis, not identity. Clients: zero.
+- **Financial continuity:** additional income before Spring 2027 enrollment is a material constraint. REVENUE_LAB owns lane evidence and approvals.
+- **Human governance:** Chris owns direction, timing, capacity, consequential decisions, and final quality.
 
-| # | Gap | The fix in motion |
-|---|---|---|
-| 1 | SQL | Tracker sessions daily; Luke Barousse segments on off days (20 min) |
-| 1.5 | Tech landscape breadth | Make.com + Data Studio first reps done; next close integration/ROI proof through the application trace |
-| 2 | Structured business analysis | Read core frameworks; practice VSM on known workflows |
-| 3 | Data visualization | Use the next justified dashboard for a real decision and defensible calculation |
-| 4 | Python depth | Stage 3 loops active; close each stage by independent build/explain/debug proof |
+## Capability and Proof Frontier
 
-## Assets Chris Has That Most Beginners Don't
+| Capability or track | CASTLE state | Proof frontier | Owner truth |
+|---|---|---|---|
+| Physics | Stage 4 is the next active unit | Begin owner-defined Motion in Two Dimensions work when resumed | PHYSICS wiki current-position |
+| Python | building — Stage 3 | Independent build, explain-back, and debug gate for loops | PYTHON wiki current-position |
+| SQL/SQLite | building — July weak link | Use verified real tracker data and produce correct schema/query results in the workflow | [[ksu-academic-tracker]] + PYTHON/technology owners |
+| Data visualization | building — first rep verified | A justified visual another person can trace and use for a decision | Technology Strategy + live proof vehicle |
+| Field observation | building | First approved live observation; two tested live sessions move it to working | BUSINESS method + 05-BUSINESS\02-Field Notes |
+| Systems and flow thinking | building | Apply a flow or constraint model so it improves a real decision or finding | SYSTEMS wiki + coursework |
+| Technology landscape | building | Problem-led category and Recommendation Ladder rep with constraints and rejection logic | Technology Strategy + TECHNOLOGY wiki |
+| Recommendation Ladder | building | Evidence-based keep, simplify, buy, integrate, or build decision | Technology Strategy |
+| Git/GitHub discipline | building | Understandable repository history and successful recovery or review | active repositories |
+| Agentic delivery | working | Measure one assisted delivery end-to-end; time/quality evidence plus Chris explain-back moves it toward proven | approved projects + AI system |
+| Technical writing and communication | building | Audience-specific finding or handoff that supports a decision or operation | TCOM/EDUCATION + real artifacts |
+| Advisor-Builder strategy | active hypothesis | Live workflow observation, qualified conversations, willingness to pay, and measured outcomes | CURRENT_STRATEGY.md + BUSINESS evidence |
+| Financial continuity | material constraint | Only approved evidence tests; no copied lane mechanics here | REVENUE_LAB + NOW.md |
 
-- Two entry wedges: Heather's warm local real-estate network for immediate access, plus construction domain knowledge and cultural credibility for parallel access
-- Aptitude profile matched to the work (idea generation, numerical, spatial, extroverted)
-- A working AI operating system (00-BRAIN) and a unified team: Chris + AI, with model capability profiles rather than file or task lanes
-- Substantial digested methodology across `03-WIKIS\BUSINESS` and
-  `03-WIKIS\SYSTEMS` — lean, consulting, and factory physics; each index owns its
-  live inventory
-- Family constraint discipline: systems must reduce friction, or they get deleted
+Temporary sprint pauses and exact drill positions do not change these monthly states.
 
-## The Monthly Weak-Link Question
+## July Weak Links
 
-> "What single skill gap is most likely to block the next 90 days —
-> and what is the smallest daily practice that closes it?"
+The July ranking remains owned by 01-NORTH_STAR\SKILL_GAP_ANALYSIS.md:
 
-**July 2026 answer: SQL, closed by daily tracker sessions.**
+1. SQL reliability with real data.
+2. Technology landscape and integration depth.
+3. Structured business analysis through live workflow evidence.
+4. Decision-facing data visualization.
+5. Python depth through the owner-defined staged path.
 
-Next update: August 2026 monthly review → also update [[phase-map]] progress.
+The August 1 review may reorder these. CASTLE does not copy the practice schedule.
+
+## Durable Advantages
+
+- Construction workflow experience and credibility.
+- Warm access through Heather's network without treating one market as identity.
+- Strong spatial, numerical, verbal, and systems reasoning.
+- A human-governed AI operating system and working agentic-delivery practice.
+- Domain knowledge across BUSINESS, SYSTEMS, TECHNOLOGY, PYTHON, and PHYSICS.
+- A shipped tracker and other bounded internal proof vehicles.
+- A commitment to real use, explain-back, evidence, and maintainable systems.
+
+## Owner Pointers
+
+- Current action and temporary pauses: .ROOT\NOW.md
+- School learner truth: 03-WIKIS\PYTHON\wiki\current-position.md and 03-WIKIS\PHYSICS\wiki\current-position.md
+- Degree and registration evidence: 02-LIBRARY\00-SCHOOL\Ellucian Degree Works Dashboard.md
+- Monthly weak-link decision: 01-NORTH_STAR\SKILL_GAP_ANALYSIS.md
+- Technology frontier: 02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md
+- Business strategy: 01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md
+- Revenue evidence: 03-WIKIS\REVENUE_LAB\wiki\
+- Capability states and next proof: [[skill-map]]
+
+Next monthly reconciliation: August 1, 2026.
