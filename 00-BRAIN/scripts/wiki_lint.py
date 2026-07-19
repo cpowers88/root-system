@@ -14,7 +14,7 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore
 
 ROOT = Path(__file__).resolve().parents[2]
 HUB_NAMES = (
@@ -60,7 +60,7 @@ def visible_text(text: str) -> str:
 
 
 def links(text: str):
-    return WIKILINK.findall(visible_text(text))
+    return WIKILINK.findall(visible_text(text))  # type: ignore
 
 
 def stem(target: str) -> str:

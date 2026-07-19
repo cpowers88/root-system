@@ -5,143 +5,82 @@ status: active
 tags: []
 ---
 
-# NOW — Sunday, July 19, 2026
+# NOW — Sunday, July 19, 2026 (evening)
 ### Open this every morning. Start here, do the proof, then close clean.
 
 ## Start Here
 
-**DECIDED July 19 — unified information-system remodel executed at the
-interface layer.** Chris preserved a full D-drive snapshot, then authorized the
-remodel. Installed: `01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md`
-(the one translation of the System Loop, five moves, pipeline, and cadence,
-plus the seven-line trace). Re-pointed: Capability Contract, Operating Manual
-(§2, §7, §11), START_HERE. Physical structure, metadata, ownership, and the
-System Loop are **unchanged**; the eight-gate program, planes-as-structure, and
-new metadata fields remain rejected/deferred per the three Gate 0 records
-(Codex proposal, ATLAS independent review, Claude synthesis — all in
-`00-BRAIN\Session_Logs\`). Remaining follow-through: run the seven-line trace
-on the contractor case at a Bootcamp Day 2/3 close (60–90 min cap) to prove the
-contract on live work. **Bootcamp Day 2 below remains today's executable task.**
+**Gate 0 remodel installed and health-confirmed (July 19).** The one
+translation contract for the System Loop, five moves, pipeline, and cadence
+is live at `01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md`.
+Physical structure and the System Loop are unchanged. Full detail archived:
+`00-BRAIN\Session_Logs\NOW_ARCHIVE_2026-07-19.md`.
 
-1. **MCP Bootcamp is confirmed and live, July 18–25 — revised to Codex's
-   original eight-lens format, fused with the locked discipline.** One
-   continuous construction case runs through eight engineering lenses
-   (Systems Audit → Strategic Logic → Data Engineering → Automation →
-   AI Infrastructure → Cybersecurity/Governance → Product/Value →
-   Integration), one per day, each mapped to the Advisor-Builder loop
-   (Observe → Diagnose → Engineer → Deploy → Train and Retain → Harvest).
-   Full plan: `00-BRAIN\Session_Logs\ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`
-   (see "Second Revision"). Project home: `02-LIBRARY\.PROJECTS\MCP_Bootcamp\`.
-   **Binding rule: every session is live-paired** — no AI produces a finished
-   artifact Chris didn't type/decide/explain-back live. Proof vehicle is
-   `05-BUSINESS\02-Field Notes\observation_one.md` structured into SQLite,
-   not the scanner and not invented data (BLS series WPUIP2311001 is a
-   separate, secondary, clearly-labeled external-data exercise on Day 3
-   only). MCP itself is scoped as the Automation/AI lens's capstone, capped
-   at ≤3 hours (Wed 7/22) — a lens within the week, not the subject of the
-   week. **Day 1 Systems Audit closed July 18:** swimlane, systems inventory,
-   data-flow map, daily gate, workbench rep, and the first master-blueprint layer
-   are complete from the field note. Hard boundary:
-   **July 26 is D2L intake, no exceptions** — the sprint cuts scope before
-   it cuts that date. **New this session:** a separate development-notes
-   track logs how well the fast-paced multi-lens *format* itself works —
-   `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\learning-format-notes.md` —
-   kept apart from the content harvest and not a designed goal of the
-   sprint; whether it becomes a standing `.ROOT` teaching format is a
-   Day-8-or-later evidence question. **Next live session: TODAY (Sun July 19),
-   Strategic Logic:** fill `observation_one.md`'s own blank observation-log
-   table, write the bounded problem statement, and test a tempting technology
-   against S-01/S-02 and the Recommendation Ladder. Day 1's closed gate separated
-   symptom, waste, root-cause hypothesis, and constraint. This
-   week Physics Stage 4 pauses (not boot-camp foundation); the short Python
-   Stage 3 drill stays, folded in where Python first appears (Python is #2
-   in the sprint's own foundation ranking). **Final engineering review passed
-   (Jul 17 night, Technology Engineer hat) — four tightenings adopted:**
-   SDK version/spec-side check is the first 5 live minutes of Wed 7/22
-   (install is mechanical prep before); 2.5–3.5 focused hrs per lens and
-   the daily gate — not the artifact list — defines "done"; the master
-   blueprint accumulates 10–15 min at each day's close (Day 8 integrates,
-   doesn't assemble); fixture rows carry a `source` label
-   (reconstructed-from-experience vs. measured). **Plus a daily
-   workbench-fluency rep (~20–30 min):** one named VS Code/Git/GitHub
-   skill practiced on that day's real artifact — replaces the
-   awareness-mapping slot; flexes first if the day runs long. Full rep
-   table: review file, Fourth Revision.
-2. **Python Stage 3 (Loops) first rep is MID-DRILL — resume here.** Session paused
-   at 14:25 on the `break`/`continue` drill: range(1,21) loop that stops on the
+1. **MCP Bootcamp is live, July 18–25.** One continuous construction case
+   (`05-BUSINESS\02-Field Notes\observation_one.md`) runs through eight
+   engineering lenses, one per day. Full plan:
+   `00-BRAIN\Session_Logs\ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`.
+   Project home: `02-LIBRARY\.PROJECTS\MCP_Bootcamp\`. **Binding rule: every
+   session is live-paired** — no AI produces a finished artifact Chris didn't
+   type/decide/explain-back live. MCP itself is scoped as the Automation/AI
+   lens's capstone, capped at ≤3 hours (Wed 7/22) — a lens within the week,
+   not the subject of the week. **Hard boundary: July 26 is D2L intake, no
+   exceptions** — the sprint cuts scope before it cuts that date. **Days 1–2
+   closed** (detail archived). **Next live session: Monday 7/20, Data
+   Engineering** — structure `jobs`/`friction_log` into SQLite from
+   `observation_one.md`; secondary labeled BLS WPUIP2311001 ETL exercise;
+   plus live-paired V2 normalization of
+   `05-BUSINESS\03-Case Studies\238220_tech_intake.csv`. Daily workbench rep
+   (~20–30 min) for 7/20: Python in VS Code + venvs. Master-blueprint layer
+   (`02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\MASTER_BLUEPRINT.md`) gets its
+   Day 3 layer at close (10–15 min). Keep
+   `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\learning-format-notes.md` current.
+2. **Python Stage 3 (Loops) first rep is MID-DRILL — resume here.** Paused at
+   14:25 on the `break`/`continue` drill: range(1,21) loop that stops on the
    first multiple of 7. Then loop tracing → guessing-game mini-project → full
    mastery checklist. Accumulator pattern needed four attempts — re-check it
-   lightly before calling it durable. Stage 2 closed 2026-07-16 (explain-back +
-   `S2P3.py` fix verified). **This stays the protected daily school-proof block
-   — first thing, every day, sprint or not.**
-3. **Physics Stage 4 (Motion in Two Dimensions) is active** — start with
-   projectile motion (independence of x/y). Stage 3 (Vectors) closed 2026-07-16,
-   full checklist cold, no notes. Real-textbook Stage 3 problems
-   (`wiki\drills\stage-3-textbook-problems.md`) are ready for off-screen
-   durability reps. **Stage 4 is paused for the sprint week** (per the
-   July 18 boot-camp-week reading); the new 13-module
-   `wiki\physics-math-crash-course.md` (shipped July 18) is ready with a
-   Stage 4 cold projectile entry point for the next scheduled physics rep. **5-min human task:** import the new
-   `Physics_All_Stages.apkg` into Anki (18 stage subdecks) and archive any
-   leftover pre-7/14 mixed deck; then study the Stage 04 subdeck.
+   lightly before calling it durable. **This stays the protected daily
+   school-proof block — first thing, every day, sprint or not.**
+3. **Physics Stage 4 (Motion in Two Dimensions) is paused for the sprint
+   week.** Entry point ready when it resumes: projectile motion, via
+   `03-WIKIS\PHYSICS\wiki\physics-math-crash-course.md` (Stage 4 module).
 
-**System acceptance (July 15):** Phase 7 is accepted-with-debt after Codex gates,
-Loop 1, Claude's fresh-session challenge, and Chris's final verdict. Root health is
-`PASS WITH DEBT`: boot/governance pass; wiki navigation has 0 blockers, 0 review
-findings, and 743 expected items; frontmatter has 519 reviewed baseline findings
-with 0 new debt. No HIGH flag is open. Architecture remediation is over; use the
-system and record real outcomes. Do not translate `PASS WITH DEBT` to “clean.”
-
-**Fall CASTLE calendar built (SYSTEM_FLAGS #51 closed):** North Star Calendar now
-carries Chris's corrected real Ben Care hours (Sun 7-10am/6-8pm, Mon-Fri 7-9am/5-8pm,
-Sat 7am-2pm) plus the full Launch Pad → CASTLE → Flash Card → Lunch + Break →
-CASTLE/FLOAT → Session Close rotation in every remaining open window, Aug 24 → Dec 15.
-New capacity: ~29h45m/wk CASTLE + ~36h55m/wk FLOAT. **Provisional and known-incomplete:**
-three Ben-Care/class overlaps (Tue/Thu ECON 8-8:55am; Mon/Wed CSE Lecture tail;
-Tue CSE Lab) sit visibly unresolved pending Chris's childcare conversation with
-Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settled.
+Root health at last check (July 19 evening): **PASS WITH DEBT** — boot/
+governance pass; wiki nav 0 blockers/0 review; frontmatter 519 reviewed
+baseline findings, 0 new. No HIGH flag open.
 
 ## Current Picture
 
 | Area | Live truth | Next proof |
 |---|---|---|
-| School | Aug 24 readiness is fixed; Physics Stage 4 active (Stage 3 closed 7/16); Python Stage 3 active, first rep mid-drill (Stage 2 closed 7/16) | Finish the paused `break`/`continue` drill, then the Stage 3 mastery path; Physics projectile-motion first rep |
+| School | Aug 24 readiness is fixed; Physics Stage 4 paused for sprint week; Python Stage 3 active, first rep mid-drill | Finish the paused `break`/`continue` drill, then the Stage 3 mastery path |
 | Tracker / SQL | V1 shipped; real course data is not available yet | Enter verified D2L/syllabus data around July 25 and test the real workflow |
-| Technology | MCP Bootcamp Day 1 Systems Audit closed July 18; eight-lens format continues over the real `observation_one.md` case; MCP itself remains the ≤3 hr Automation/AI-lens capstone, not the whole week; workflow-to-stack research report and draft evidence template now exist | Sun Jul 19 live session: Strategic Logic — observation log + bounded problem statement + Recommendation Ladder test against S-01/S-02 |
+| Technology | MCP Bootcamp Days 1–2 closed over the real `observation_one.md` case; MCP itself remains the ≤3 hr Automation/AI-lens capstone, not the whole week | Mon Jul 20 live session: Data Engineering — SQLite structuring + BLS ETL exercise |
 | Business | Advisor-Builder is the current hypothesis; July 16 profit gate chose the first service proof: Flip Margin Leak replay (OPP-20260716-01, worth testing); closing-exception autopsy is HOLD (OPP-20260716-02) | With Chris's approval, one 60-min completed-flip replay with a warm-network flipper; one Sheet max |
 | Continuity income | Additional income is needed before Spring 2027 enrollment | B2 conversation still requires Chris's approval; Lane A: Chris hand-fills the top-100 classification worksheet, and one private scanner walkthrough has conditional GO (≤90 added min, then park-or-proceed review) |
-| `.ROOT` | Phase 7 accepted-with-debt; Pass C real-use window is active; July 16 metadata regression repaired; **July 18: second regression (4 new-file frontmatter findings) fixed same-day + session-close prevention amendment shipped (check 7/26); git estate clean, `main` current (`902e7d9`); **July 19 ~7:45am recurrence review PASSED** — `root_health.py` PASS WITH DEBT (519, **0 new**, 101 resolved), wiki nav 0 blockers/0 review, new-page frontmatter spot-check clean | July 24–26 `check_at` outcomes (wiki shared-layer 7/24, session-close capture 7/25, governance sweep + close-gate prevention 7/26) |
+| `.ROOT` | Gate 0 remodel installed and health-confirmed; git estate clean, pushed to `main` | July 24–26 `check_at` outcomes (wiki shared-layer 7/24, session-close capture 7/25, governance sweep + close-gate prevention 7/26) |
 
 ## This Week
 
-- [x] Physics Stage 3 proof — CLOSED 2026-07-16
-- [ ] Physics Stage 4 first live rep (projectile motion)
-- [x] Python Stage 2 proof — CLOSED 2026-07-16
-- [x] Python Stage 3 first live rep — started 2026-07-16, paused mid `break`/`continue` drill
+- [ ] Physics Stage 4 first live rep (projectile motion) — resumes after sprint week
 - [ ] Python Stage 3: finish break/continue → tracing → guessing game → mastery checklist
-- [x] Import `Physics_All_Stages.apkg` into Anki; study Stage 04 subdeck
 - [ ] Record one private Revenue Lab proof during work already happening (conditional GO, ≤90 added min); review it before any public action
 - [ ] Fill the Lane A top-100 human-classification worksheet (Y/N/? in Chris's own words)
 - [ ] One live workflow observation/VSM only with the needed approval and access — first candidate is the flip-margin replay (OPP-20260716-01)
-- [x] **Data Studio dashboard #1** — completed and verified in View mode 2026-07-16 from the scanner CSV via a private Google Sheet; includes scorecard, category bar chart, 100-row table, format filter, and date control
 - [ ] Daily SQL reps against the scanner SQLite DB (real data now); switch vehicle to the tracker when D2L data lands ~July 25
-- [x] **MCP Bootcamp — Sat Jul 18, Systems Audit:** swimlane + systems inventory + data-flow map from `observation_one.md` — **CLOSED 7/18**
-- [ ] **MCP Bootcamp — Sun Jul 19, Strategic Logic:** fill the field note's own blank `OBSERVATION LOG` table; problem statement + Recommendation Ladder test against S-01/S-02
-- [ ] **MCP Bootcamp — Mon Jul 20, Data Engineering:** structure `jobs`/`friction_log` SQLite tables; secondary labeled BLS WPUIP2311001 ETL exercise; **plus (accepted 7/18):** live-paired V2 normalization of `05-BUSINESS\03-Case Studies\238220_tech_intake.csv` per the accepted research report's field contract
+- [ ] **MCP Bootcamp — Mon Jul 20, Data Engineering:** structure `jobs`/`friction_log` SQLite tables; secondary labeled BLS WPUIP2311001 ETL exercise; plus live-paired V2 normalization of `238220_tech_intake.csv`
 - [ ] **MCP Bootcamp — Tue Jul 21, Automation & Operations:** design the 1 resource + 2 read-only tool contracts (no SDK yet)
 - [ ] **MCP Bootcamp — Wed Jul 22, AI Infrastructure:** MCP SDK wiring, stdio, stderr logging, full pytest coverage, Inspector — ≤3 hr MCP budget starts here
 - [ ] **MCP Bootcamp — Thu Jul 23, Cybersecurity & Governance:** one host connection, threat model, access-control matrix, operator/security handoff
-- [ ] **MCP Bootcamp — Fri Jul 24, Product & Value:** MVT framing, conservative ROI vs S-01/S-02, pilot stop-criteria, 30/60/90 roadmap, cold explain-back rehearsal; **plus (accepted 7/18):** complete the workflow-stack evidence template on the change-order-to-cash pattern
+- [ ] **MCP Bootcamp — Fri Jul 24, Product & Value:** MVT framing, conservative ROI vs S-01/S-02, pilot stop-criteria, 30/60/90 roadmap, cold explain-back rehearsal; plus complete the workflow-stack evidence template on the change-order-to-cash pattern
 - [ ] **MCP Bootcamp — Sat Jul 25, Integration:** assemble master blueprint, simulated owner presentation, acceptance test + harvest write-up (exact bar in the review file)
-- [ ] Keep `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\learning-format-notes.md` current each day — separate from the content harvest
-- [ ] Daily workbench rep (~20–30 min, inside the day's real work): 7/18 VS Code workspace/settings → 7/19 staging/diffs/commit messages → 7/20 Python in VS Code + venvs → 7/21 branching → 7/22 debugger → 7/23 push/PR (needs GitHub-remote OK) → 7/24 GitHub Actions CI → 7/25 tags/README
-- [ ] Close each sprint day with 10–15 min adding that lens's layer to the master blueprint (Standard Artifact Contracts) — Day 8 integrates, doesn't assemble
+- [ ] Daily workbench rep (~20–30 min): 7/20 Python in VS Code + venvs → 7/21 branching → 7/22 debugger → 7/23 push/PR (needs GitHub-remote OK) → 7/24 GitHub Actions CI → 7/25 tags/README
+- [ ] Close each sprint day with 10–15 min adding that lens's layer to the master blueprint — Day 8 integrates, doesn't assemble
 
 ## Upcoming
 
 | Date | Trigger |
 |---|---|
-| July 19 (Sun) | **TODAY** — MCP Bootcamp Day 2 — Strategic Logic (live): fill observation log + problem statement. Metadata-regression recurrence review DONE at session load (~7:45am): PASS WITH DEBT, `comparison.new: []` satisfied |
 | July 20 (Mon) | MCP Bootcamp Day 3 — Data Engineering (live): SQLite fixture + secondary BLS ETL exercise |
 | July 21 | MCP Bootcamp Day 4 — Automation & Operations (live): tool/resource contract design. Also: OPP-20260714-01 (B2 conversation) review date |
 | July 22 (Wed) | MCP Bootcamp Day 5 — AI Infrastructure (live): MCP SDK build, tests, Inspector — ≤3 hr budget |
@@ -153,6 +92,11 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 | ~August 14 | Revenue Lane A prediction check and top-100 review |
 | August 24 | Fall semester begins |
 | October 5–November 11 | High-load school window; protect fixed commitments |
+
+**Still unresolved (Fall CASTLE calendar):** three Ben-Care/class overlaps
+(Tue/Thu ECON 8-8:55am; Mon/Wed CSE Lecture tail; Tue CSE Lab) pending
+Chris's childcare conversation with Heather — rebuild, don't patch, once
+that's settled. Detail: `00-BRAIN\Session_Logs\NOW_ARCHIVE_2026-07-19.md`.
 
 ## Boundaries
 
@@ -176,6 +120,7 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 - Revenue evidence: `03-WIKIS\REVENUE_LAB\wiki\revenue-lane-scorecard.md`
 - Sequence/proof status: `00-BRAIN\CASTLE\wiki\current-position.md`
 - MCP Bootcamp live plan: `00-BRAIN\Session_Logs\ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`
+- Finished/paused context removed today: `00-BRAIN\Session_Logs\NOW_ARCHIVE_2026-07-19.md`
 
 ---
 *If the date or any live truth is stale, update this page from the owning file; do

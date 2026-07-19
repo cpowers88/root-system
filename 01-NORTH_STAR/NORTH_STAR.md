@@ -17,12 +17,7 @@ to help more people over time.
 
 ## The Mission — What I'm Becoming
 
-Become an elite AI, technology, business, and systems integrator—an
-Advisor-Builder: someone who can enter an unfamiliar situation, find the real
-problem, learn what's missing, engineer the right solution, and create measurable
-value. The permanent foundation is systems thinking, AI leverage, technical skill,
-and business judgment. Markets, offers, and revenue models are strategies to test
-— not identity.
+Become an elite AI, technology, business, and systems integrator—an Advisor-Builder who can enter an unfamiliar operation, understand the real workflow, identify costly friction, and integrate the right combination of people, process, data, software, automation, and AI to create measurable value and compounding assets. Technical breadth and depth serve judgment; markets, offers, vendors, tools, and revenue models remain strategies to test—not identity.
 
 ## `.ROOT`'s Job — What the AI OS Must Be Capable Of
 

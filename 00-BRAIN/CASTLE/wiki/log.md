@@ -1161,3 +1161,26 @@ gate before any permanent content/revenue workspace or publishing commitment.
   `439de9f` covers Chris's `292ae06`.
 - Next exact action unchanged: Sun 7/19 recurrence review, then Day 2 Strategic
   Logic.
+
+## 2026-07-19 — OPERATIONS contract made concise and Chris-owned (Codex)
+
+- Chris approved the bounded rewrite after reviewing the proposed language.
+- Replaced the 197-line local contract with a 107-line contract that preserves
+  authority, sequencing, evidence, review, routing, and close rules without
+  duplicating procedures.
+- Removed calendar-assigned capacity, copied family hours, blanket FULL OPERATOR
+  language, every-source registration, and direct-service requirements for every
+  skill. Added Chris-declared capacity, complete technology-stack outcomes,
+  replaceable tools/markets, owner truth, and routine-maintenance authority.
+- Previous contract archived at
+  `99-ARCHIVE\ARCHIVED_2026-07-19_CASTLE_OPERATIONS_PRE_CAPACITY_REWRITE.md`.
+- Known dependent drift: `CASTLE\HOW_TO_USE.md` still repeats FULL OPERATOR and
+  unconditional `NOW.md` refresh language; synchronize it in the next approved
+  contract-and-router pass.
+- Next exact action: validate the new contract, then present the bounded
+  `HOW_TO_USE.md` synchronization for Chris's approval.
+
+Validation: canonical root health **PASS WITH DEBT** — 0 new metadata debt, both
+whitespace checks pass, and boot/governance, wiki navigation, shared skills, and
+Markdown integrity all pass. Known `HOW_TO_USE.md` semantic drift is outside the
+gate's evaluated scopes and remains the next explicit repair.

@@ -106,7 +106,7 @@ def build_plan():
 def report_path(path: Path) -> Path:
     resolved = (path if path.is_absolute() else audit.ROOT / path).resolve()
     if (
-        resolved.parent != REPORT_DIR
+        resolved.parent != REPORT_DIR  # type: ignore
         or resolved.suffix.lower() != ".json"
         or not resolved.name.startswith("ROOT_METADATA_MIGRATION_DRY_RUN_")
     ):
