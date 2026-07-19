@@ -1184,3 +1184,47 @@ Validation: canonical root health **PASS WITH DEBT** — 0 new metadata debt, bo
 whitespace checks pass, and boot/governance, wiki navigation, shared skills, and
 Markdown integrity all pass. Known `HOW_TO_USE.md` semantic drift is outside the
 gate's evaluated scopes and remains the next explicit repair.
+
+## 2026-07-19 — First new-contract CASTLE run packaged for Claude review (Codex)
+
+- Completed the read-only reconciliation across CASTLE instructions, core maps,
+  phases 0–4, active skills/proof, opportunity/profit gate, templates, and the live
+  North Star.
+- Created
+  `00-BRAIN\Session_Logs\FIRST_CASTLE_RUN_RECONCILIATION_AND_NORTH_STAR_REVIEW_2026-07-19_CODEX.md`
+  as the shared challenge packet: keep/must-sync/strategy-label/defer findings,
+  North Star refinements, three bounded slices, acceptance tests, and required
+  Claude return.
+- No dependent CASTLE map, phase, template, North Star, or `NOW.md` edit was made
+  by Codex. Claude is asked to review live state and challenge before implementation.
+- Next exact action: Claude returns per-slice KEEP/MODIFY/REJECT evidence; Chris
+  approves the final scope before Slice A.
+
+Validation: canonical root health **PASS WITH DEBT** with 0 new metadata debt,
+0 wiki blockers/review findings, both whitespace checks passing, and 1,308-file
+Markdown integrity clean.
+
+## 2026-07-19 (late evening) — Claude independent challenge returned; two-surface agreement reached (Claude Code)
+
+- Completed the review the Codex packet requested: full boot chain, then every
+  cited live file read before any verdict. All seven Direct Contract Conflicts
+  **CONFIRMED** with line citations (HOW_TO_USE FULL OPERATOR + every-session
+  update mandate; README "complete daily authority" ×2; index stale second
+  dashboard; roadmap course→service + dated RIGHT-NOW drift; source-map
+  self-contradicting registration rules + stale counts; skill-map calendar
+  blocks, "no zero-commit days", Data Studio status contradiction;
+  current-position volatile detail).
+- **Overall verdict: KEEP with modifications.** Slice A KEEP (split A0 North
+  Star exact-wording approval; HOW_TO_USE becomes a thin router). Slice B KEEP
+  (one standing hypothesis sentence in phase-map; keep the no-$0-audit floor as
+  an override-able rule). Slice C **DEFER to July 26** sweep. Engine question:
+  Codex version + "or get ahead of it" restored. New precondition: commit the
+  worktree before any slice edit.
+- Full report:
+  `00-BRAIN\Session_Logs\CASTLE_RECONCILIATION_CLAUDE_CHALLENGE_AND_IMPLEMENTATION_PLAN_2026-07-19.md`
+  (verification tables, per-slice evidence, acceptance tests 11–15,
+  slice-by-slice implementation plan with time boxes and validation commands).
+- No CASTLE map, phase, template, North Star, or `NOW.md` edit made. Both
+  surfaces now agree on scope; implementation is fully specified and blocked
+  only on Chris's one-line approval.
+- Next exact action: Chris approves scope → Step 0 commit → Slice A0.
