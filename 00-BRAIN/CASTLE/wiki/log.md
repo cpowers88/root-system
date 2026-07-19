@@ -1251,3 +1251,43 @@ Resolution: Chris approved archiving `CodexNSedit.md`; moved intact to
 `99-ARCHIVE\ARCHIVED_2026-07-19_CodexNSedit.md`. Canonical health returned to
 **PASS WITH DEBT** — 519 reviewed baseline findings, 0 new, 101 resolved; all
 other named scopes pass. Slice A0 is clear.
+
+## 2026-07-19 (late evening) — Slice A1 review returned: MODIFY then proceed (Claude Code)
+
+- Independent review of the Codex A1 entrance-file proposal completed against
+  live files. All four replacements structurally approved; three modifications
+  required before implementation: replace HOW_TO_USE's dead retrieval searches
+  with working property queries; add the technology-landscape and
+  WHERE_IT_GOES routes to the router table; rescope the validation grep to
+  exclude append-only `wiki\log.md` (six verified historical hits would
+  false-fail it).
+- Verified: all 30 proposed index entries resolve; `CLAUDE.md` frontmatter
+  already `type: pointer`; Planned-section removal safe (phase-map +
+  OPERATIONS Rule 5 cover discovery and the creation guard).
+- Full report + 9-step implementation procedure:
+  `00-BRAIN\Session_Logs\CASTLE_SLICE_A1_CLAUDE_REVIEW_2026-07-19.md`.
+- No A1 target, map, or `NOW.md` edit made in this pass.
+- Next exact action: Chris approves the modified A1 wording in one line; any
+  surface then executes the procedure (~30–40 min), single pure commit,
+  July 26 sweep re-checks.
+
+## 2026-07-19 (late evening) — Slice A1 entrances installed after two-surface review (Codex)
+
+- Chris approved Claude's Mods 1–2, Codex's corrected validation, and the
+  four-file archive batch.
+- Replaced `HOW_TO_USE.md` with a thin question router, replaced
+  `wiki\README.md` with a current-action interface router, repaired the local
+  `CLAUDE.md` boot pointer, and rebuilt `wiki\index.md` as a verified discovery
+  inventory rather than a second dashboard.
+- Claude's modifications are live: working Obsidian property searches plus
+  direct routes to the Technology Library Strategy and `WHERE_IT_GOES.md`.
+- Preserved all four predecessors under `99-ARCHIVE\ARCHIVED_2026-07-19_CASTLE_*`;
+  line comparison against the committed preimages returned zero differences.
+- Validation before close: zero retired-contract phrase hits outside append-only
+  `wiki\log.md`; all 16 explicit external/template paths checked; the index has
+  33 live entries; frontmatter audit matches the reviewed baseline with zero new
+  debt. Canonical root health is **PASS WITH DEBT**: zero blockers, zero new
+  metadata debt, zero wiki-navigation findings, and clean Markdown integrity.
+- Next exact action: review and commit the bounded A1 diff, then prepare Slice A2
+  core-map wording for Chris's approval. Recheck the entrance paraphrase and
+  retired-phrase scan at the July 26 governance sweep.

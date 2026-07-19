@@ -5,65 +5,68 @@ reference_priority: core
 tags: []
 ---
 
-# Index — Every Page in the Castle
-### Updated: July 16, 2026 (mid-afternoon system check; current state refreshed)
+# Index — Every Live Page in CASTLE
 
-## Castle Root Files
-- `.ROOT\NOW.md` — the morning page (castle-owned, lives at the .ROOT root)
-- `OPERATIONS.md` — how AI sessions run the castle (boot: AGENT.md → surface profile → here)
-- `HOW_TO_USE.md` — how Chris extracts direction from the castle
-- `CLAUDE.md` — thin auto-load pointer only (no rules; original build prompt archived)
+### Updated: July 19, 2026 — Slice A1 contract-consumer synchronization
 
-## Core Maps
-- [[README]] — start here; how the wiki works
-- [[north-star-roadmap]] — the master pathway on one screen
-- [[current-position]] — baseline as of July 2026
-- [[phase-map]] — 11 phases with dates and exit criteria
-- [[skill-map]] — eight skill categories, sequenced, tied to phases and proof
-- [[source-map]] — registered sources with tiers and claims supported
-- [[opportunity-queue]] — commercial and learning-to-application signals from evidence to test and harvest
-- [[log]] — append-only session record
+This is a discovery index, not a second current-state dashboard. Live action belongs to `.ROOT\NOW.md`; baseline and proof state belong to [[current-position]] and the owning domain systems.
 
-## Phases (built: 0–4 · planned: 5–10)
-- [[phase-0-current-position-and-baseline]] — July 2026
-- [[phase-1-school-core-technical-foundation]] — Aug 2026 – May 2027
-- [[phase-2-audit-methodology-foundation]] — Sep 2026 – Feb 2027
-- [[phase-3-data-and-workflow-systems-foundation]] — Nov 2026 – Mar 2027
-- [[phase-4-first-offer-readiness]] — Feb – Mar 2027
-- *Planned:* phase-5 first client · phase-6 first retainer · phase-7 repeatable
-  implementation · phase-8 productized services · phase-9 team & scale ·
-  phase-10 operating company
+## CASTLE Root Files
+
+- `OPERATIONS.md` — local operating contract; complete the universal `AGENT.md` orientation chain first
+- `HOW_TO_USE.md` — user question and navigation router
+- `CLAUDE.md` — Claude auto-load pointer
+- `CODEX.md` — Codex cross-surface pointer
+
+## External Direction and Action Interfaces
+
+- `.ROOT\NOW.md` — current-action interface
+- `01-NORTH_STAR\NORTH_STAR.md` — durable direction
+- `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` — current business strategy under test
+
+## Wiki Entrance and Core Maps
+
+- [[README]] — wiki entry router
+- [[north-star-roadmap]] — long-range sequence
+- [[current-position]] — monthly baseline and proof state
+- [[phase-map]] — phase structure and exit logic
+- [[skill-map]] — capability and proof structure
+- [[source-map]] — roadmap-shaping evidence
+- [[opportunity-queue]] — opportunities moving from evidence to test or harvest
+- [[log]] — append-only CASTLE history
+
+## Phase Pages
+
+- [[phase-0-current-position-and-baseline]]
+- [[phase-1-school-core-technical-foundation]]
+- [[phase-2-audit-methodology-foundation]]
+- [[phase-3-data-and-workflow-systems-foundation]]
+- [[phase-4-first-offer-readiness]]
 
 ## Proof Projects
-- [[ksu-academic-tracker]] — V1 shipped July 8; real D2L data ~July 25, then daily use = the proof
 
-## Skills (built: 2 of 8 categories started)
-- [[sql]] — Technical; building; proof: [[ksu-academic-tracker]]
-- [[field-observation]] — Diagnostic; building; desk simulation logged, first live rep needed
+- [[ksu-academic-tracker]] — school-serving Python and SQLite proof project
+
+## Skill Pages
+
+- [[sql]]
+- [[field-observation]]
 
 ## Source Summaries
-- [[claude-code-docs-pack-2026-07]] — Anthropic's Claude Code docs (Tier 1); instruction-file
-  budgets + agentic workflow patterns; drove the July 11 system self-review
-- [[openai-platform-docs-pack-2026-07]] — OpenAI official docs (Tier 1; 95 files),
-  routed into ten retrieval chunks; semantic synthesis queued
+
+- [[claude-code-docs-pack-2026-07]]
+- [[openai-platform-docs-pack-2026-07]]
 
 ## Decision Rules
-- [[adding-a-profit-skill]] — the gate for new "highly profitable skill" ideas
 
-## Planned (do not create until an existing stub is finished)
-- project-map · service-map · evidence-map · technology-stack-map · market-map ·
-  glossary · remaining phase pages · remaining skill pages per [[skill-map]]
+- [[adding-a-profit-skill]] — gate for new profit-skill and opportunity ideas
 
-## Current Command-Center State
+## Templates
 
-- Fixed school commitments remain protected and moved today: Physics Stage 3 and
-  Python Stage 2 both closed July 16; Stage 4 (Physics) and Stage 3 (Python, first
-  rep mid-drill) are the active learner units.
-- March 2027 remains the first consulting-client target, while continuity income
-  is required before Spring 2027 enrollment. Lane A now has a top-100
-  human-classification worksheet awaiting Chris's labels and a conditional GO for
-  one private scanner walkthrough (≤90 added minutes). B2's external conversation
-  still requires Chris's explicit approval.
-- The July 16 profit gate selected the Flip Margin Leak replay ([[opportunity-queue]]
-  OPP-20260716-01) as the first real-estate service proof; the closing-exception
-  concept is HOLD (OPP-20260716-02).
+- `..\templates\decision-rule-template.md`
+- `..\templates\evidence-template.md`
+- `..\templates\phase-template.md`
+- `..\templates\project-template.md`
+- `..\templates\service-capability-template.md`
+- `..\templates\skill-template.md`
+- `..\templates\source-summary-template.md`
