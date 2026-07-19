@@ -1228,3 +1228,26 @@ Markdown integrity clean.
   surfaces now agree on scope; implementation is fully specified and blocked
   only on Chris's one-line approval.
 - Next exact action: Chris approves scope → Step 0 commit → Slice A0.
+
+## 2026-07-19 — Slice A0 North Star approved and installed (Codex)
+
+- Chris replaced near-term continuity-income primacy with aligned capability:
+  learn how real workflows, business applications, data, automation, AI, and
+  integrations fit together; understand what organizations use and why; prove
+  technology combinations that improve work. Unrelated revenue no longer outranks
+  this capability without Chris's explicit bounded exception.
+- October 8, 2031 is now an immovable measurement deadline in both the fixed
+  destination and Ratchet; strategies and vehicles remain evidence-replaceable.
+- Installed the concise 134-line North Star and archived its predecessor at
+  `99-ARCHIVE\ARCHIVED_2026-07-19_NORTH_STAR_PRE_MISSION_CAPACITY_ALIGNMENT.md`.
+- Boot, governance, wiki navigation, whitespace, shared skills, and Markdown
+  integrity pass. Canonical health remains BLOCKER only because the pre-existing
+  user-owned root scratch file `CodexNSedit.md` lacks valid frontmatter; Codex left
+  it untouched.
+- Next exact action: Chris decides whether to archive or repair `CodexNSedit.md`;
+  after a clean gate, proceed to approved Slice A1.
+
+Resolution: Chris approved archiving `CodexNSedit.md`; moved intact to
+`99-ARCHIVE\ARCHIVED_2026-07-19_CodexNSedit.md`. Canonical health returned to
+**PASS WITH DEBT** — 519 reviewed baseline findings, 0 new, 101 resolved; all
+other named scopes pass. Slice A0 is clear.
