@@ -26,6 +26,11 @@ created: 2026-07-12
 ORIENT -> ROUTE -> WORK -> PROVE/PACKAGE -> CLOSE
 ```
 
+These five moves are the **task protocol** — how one work session runs inside
+the canonical System Loop. How the loop, these moves, the pipeline in §7, and
+the cadence all fit one system:
+`01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md`.
+
 1. **Orient:** open `NOW.md`; confirm the starting action, fixed commitments, soft time boundary, and whether the work is diverging or converging.
 2. **Route:** choose one owner realm.
 3. **Work:** open that realm's local guide and canonical current page.
@@ -235,6 +240,10 @@ For wikis, the AI must:
 
 ## 7. Knowledge-to-Value Pipeline
 
+This pipeline is the **business application** of the shared information flow
+(`ROOT_INFORMATION_FLOW_CONTRACT.md`) — the same eight states applied to
+turning knowledge into assets:
+
 ```text
 raw source -> domain wiki / field evidence -> Watchtower when external + material
            -> CASTLE opportunity decision -> bounded real work
@@ -318,6 +327,7 @@ ownership. Ordinary learning sessions do not need this system-wide check.
 - `START_HERE.md` — the map.
 - `ROOT_OPERATING_MANUAL.md` — this file, the human master manual.
 - `00-BRAIN\WHERE_IT_GOES.md` — placement and naming.
+- `01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md` — how the four system views translate into one information flow; the seven-line trace.
 - `00-BRAIN\AGENT.md` — the AI operating system.
 - `00-BRAIN\CLAUDE.md` / `CODEX.md` / `ATLAS.md` — AI capability profiles.
 - `00-BRAIN\CASTLE\HOW_TO_USE.md` — command-center use.

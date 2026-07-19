@@ -109,6 +109,11 @@ properties answer different questions. The full transition standard lives in
 
 ## The Loop That Compounds
 
+This is the **operating cadence** — when the system looks at itself. How one
+item moves through the system at any moment (and how this cadence, the System
+Loop, the five moves, and the business pipeline are one system):
+`01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md`.
+
 ```
 Morning     → castle refreshes NOW.md from yesterday's DAILY + handoffs — one priority, do it
 Daily rep   → tracker / SQL / course work

@@ -10,6 +10,19 @@ tags: []
 
 ## Start Here
 
+**DECIDED July 19 — unified information-system remodel executed at the
+interface layer.** Chris preserved a full D-drive snapshot, then authorized the
+remodel. Installed: `01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md`
+(the one translation of the System Loop, five moves, pipeline, and cadence,
+plus the seven-line trace). Re-pointed: Capability Contract, Operating Manual
+(§2, §7, §11), START_HERE. Physical structure, metadata, ownership, and the
+System Loop are **unchanged**; the eight-gate program, planes-as-structure, and
+new metadata fields remain rejected/deferred per the three Gate 0 records
+(Codex proposal, ATLAS independent review, Claude synthesis — all in
+`00-BRAIN\Session_Logs\`). Remaining follow-through: run the seven-line trace
+on the contractor case at a Bootcamp Day 2/3 close (60–90 min cap) to prove the
+contract on live work. **Bootcamp Day 2 below remains today's executable task.**
+
 1. **MCP Bootcamp is confirmed and live, July 18–25 — revised to Codex's
    original eight-lens format, fused with the locked discipline.** One
    continuous construction case runs through eight engineering lenses
