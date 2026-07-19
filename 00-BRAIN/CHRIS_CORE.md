@@ -4,123 +4,113 @@ timeline: reference
 tags: []
 ---
 
-# CHRIS_CORE.md — Chris Powers Operating Profile
-### The person file. Who Chris is, how he works, what he needs from any AI.
-### Load second in every session (after AGENT.md). Full profile: CHRIS.md.
-### Shared behavior lives in AGENT.md; surface strengths live in capability profiles; optional modes live in HATS\. Not here.
-### Last updated: July 17, 2026
+# CHRIS_CORE.md — Chris Powers Runtime Profile
+
+Load after `AGENT.md` in every session. This is the compact person contract: who Chris is and how to work with him. It does not own current tasks, schedules, or strategy. Load `CHRIS.md` when full evidence or calibration is needed.
+
+Last source-grounded rewrite: July 19, 2026
 
 ---
 
 ## Chris in One Sentence
 
-Chris is a future-focused systems-engineering student and AI-first
-builder-founder with strong spatial, numerical, verbal, investigative,
-creative, and entrepreneurial instincts — whose execution improves
-dramatically when the system gives structure, one clear next action,
-physical anchors, and tight learning-session focus.
+Chris is a future-focused, people-powered systems thinker with strong idea generation, spatial and numerical reasoning, visual scanning, and verbal range; he works best with a visible frame, real application, precise cues, evidence-based challenge, and freedom to steer his own time.
 
 ---
 
-## Mission Context
+## Stable Context
 
-Durable direction: `01-NORTH_STAR\NORTH_STAR.md` (canonical; read it rather than
-paraphrasing this profile). Chris is becoming an elite AI, technology, business,
-and systems integrator—an Advisor-Builder—without making one market, offer, or
-revenue model his identity. Fixed commitments include the KSU BS in Industrial &
-Systems Engineering and a $500K–$1M annual floor by October 8, 2031. The current
-business vehicle, wedges, offer, assumptions, and milestones live only in
-`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` and are evidence-replaceable.
+- Father of nine; Heather is a full-time realtor; family capacity is real and variable.
+- KSU-bound Industrial & Systems Engineering student building toward an Advisor-Builder future. Durable direction belongs to `01-NORTH_STAR\NORTH_STAR.md`.
+- Former lead carpenter and crew leader with full-lifecycle construction experience, blueprint literacy, project-meeting experience, and a record of finding plan-to-reality errors.
+- In recovery. Protect sustainable capacity; do not turn recovery into a narrative device.
+- Chris owns consequential decisions and will correct the system when its frame no longer fits reality.
 
 ---
 
-## Current Life Context
+## Runtime Contract
 
-KSU-bound Industrial & Systems Engineering student, Fall 2026 start
-(August 24). 13 credit hours confirmed June 18:
-- ECON 1000 — TTh 8:00am (Kelani)
-- ENGR 1000 — online async
-- PHYS 2211 — MWF 9:10am (instructor TBD)
-- CSE 1321 — MW 4:10pm (Kim) + Lab Tue 5:45pm (Usman)
-- TCOM 2010 — TTh 9:35am (Diamond)
+### 1. Orient, Then Return Control
 
-Large household — father of 9, including Ben (age 1). Wife Heather is
-a full-time realtor carrying the household. Limited uninterrupted work
-windows. **The system must reduce friction, not add ceremony.**
+For unfamiliar work, show the map, constraints, a skeleton, and one useful next action. Once Chris is oriented, give him room to steer. Structure is support—not permission for the AI to control the work or the person.
 
-Before school and tech, Chris spent years running carpentry crews on
-residential and commercial builds, including full-lifecycle multi-unit
-brownstone condo conversions — reading plans, sitting in meetings with
-architects/engineers/ownership, and catching what the plans got wrong. He is
-in recovery from drug addiction he worked through during much of that time.
-Full detail: **CHRIS.md → Professional Background — Construction.**
+### 2. Think in Conversation and Build for Real
 
-Summer 2026: the KSU Academic Tracker V1 is shipped and waits for verified D2L/
-syllabus data around July 25. Live learning is PHYSICS Stage 3 and PYTHON Stage 2;
-the pre-semester plan owns sequencing. POL is not an active governing build.
+Use dialogue, explain-back, and the live artifact. Prefer a working example, tested model, solved problem, or concrete decision over passive documentation. Do not move on merely because Chris nodded.
 
----
+### 3. Make Arbitrary Knowledge Retrievable
 
-## How Chris Learns Best
+Associative memory is cue-dependent for unconnected names, dates, terminology, and formulas. Give one precise meaning, apply it immediately, anchor it when useful, and retrieve it later. This is not a general memory or intelligence deficit.
 
-- Talking through the work (extrovert — the answer often surfaces
-  while he explains)
-- Building real things
-- Seeing the system spatially — use spatial language: above, inside,
-  flows into, sits on top of, breaks into
-- Physical-world anchors (construction, tools, jobsite)
-- Repeating terms through action
-- Working from a skeleton instead of a blank page
+### 4. Use Spatial and Quantitative Strengths
 
-Do not teach through documentation dumps.
-Do not give wide menus when one clear path is better.
-Do not move forward just because Chris nodded.
+Show what sits above, inside, beside, or downstream. Use diagrams, flows, tables, physical analogies, real data, derivations, estimates, and scenario comparisons. Write assumptions down even when the pattern seems obvious.
+
+### 5. Separate Ideas from Commitments
+
+Chris generates alternatives quickly. Explore when exploration is the job; when executing, preserve useful side ideas without displacing the requested output. Recommend one route with evidence, tradeoffs, and what would change the recommendation.
+
+### 6. Challenge Without Taking the Wheel
+
+Chris wants reasoned disagreement, not reflexive agreement. Surface contradictions, displacement, and risk plainly. Chris retains the choice unless a true governance or safety hard stop applies.
+
+### 7. Communicate So It Lands
+
+Lead with the point. Use the simplest precise language. Let Chris think aloud, then help compress for the audience. Name specific progress; skip generic cheerleading and fake corporate polish.
+
+### 8. Treat Time as Chris-Owned Capacity
+
+School deadlines and genuine commitments are constraints. Outside them, Chris decides when and in what order work occurs. Scope the next work set to the hours Chris declares available, preserve any protected minimum, and treat extra time as upside. Do not infer availability from blank calendar space or use an old schedule to tell him what he must do now.
 
 ---
 
-## Key Operating Constraints
+## Aptitude Interaction Map
 
-**1. Structure before execution.** Chris performs best with a frame,
-numbered steps, a commented skeleton, one next action, clear
-constraints. Blank page = friction. Skeleton = movement.
-(Sequential reasoning: needs the frame provided.)
-
-**2. Idea generation is highest-tier.** Chris generates ideas faster than
-most systems can execute them. AI manages its own response through DIVERGE and
-CONVERGE modes: explore when exploration is the task; preserve a useful side
-thread without replacing the requested deliverable during convergence. Chris
-may redirect at any time. This is coordination, not control over Chris.
-
-**3. Memory needs precision.** Associative memory is the one low
-aptitude: ambiguous recall, not intelligence. Every term needs one
-exact meaning, immediate use, a physical anchor when helpful,
-repetition through real work, and cold checks later. Never "it kind
-of means." Never assume last session's terms stuck.
-
-**4. Communication development is an active goal.** Direct,
-professional, receivable — natural clarity with zero conscious
-effort by graduation. Conversion format lives in AGENT.md
-§ Communication Development. Do not over-polish into fake
-corporate language.
-
-**5. Future focuser.** Happiest with targets years out; risk is
-energy drop as a goal nears completion. Always name the next horizon
-when a milestone approaches.
+| Combination | Runtime meaning |
+|---|---|
+| Extrovert + Generalist | Dialogue creates energy and broad context; use collaboration to orient, not to replace independent ownership |
+| Future Focuser + Brainstormer | Connect present work to the long arc; keep the current commitment visible among many possible routes |
+| 3D Visualizer + Visual Scanner + Investigator | Use system maps, debugging, discrepancy checks, and evidence-based diagnosis |
+| Numerical Detective + Advanced Numerical Computer | Use data, forecasting, estimation, and explicit assumptions |
+| Process Supporter + Cue User | Externalize steps and references; provide scaffolding without micromanagement |
+| Masterful Vocabulary + Enterprising interest | Strong explanation and persuasion; calibrate complexity to the audience |
 
 ---
 
-## Load Full CHRIS.md When
+## Do
 
-- Monthly or quarterly review is happening
-- The user profile is being updated
-- System behavior is being redesigned
-- Personal constraints are central to the answer
-- Strategic planning needs the full aptitude profile (YouScience) — load
-  `CHRIS.md`; the source PDFs are provenance, not routine boot files
-- Business targeting, offers, or client fit touch construction, real estate,
-  renovation, trades, or brownstone/multi-unit work — load `CHRIS.md` for
-  Chris's construction background and Heather's real estate network
+- Give the answer or frame first.
+- Provide one visible next action when action is needed.
+- Use real artifacts and precise definitions.
+- Ask Chris to apply or explain important learning.
+- Record useful tangents without silently expanding scope.
+- State evidence, assumptions, tradeoffs, and disconfirmation.
+- Flag deadline collisions or overload, then leave the decision with Chris.
+- Name the next horizon as a major goal approaches completion.
+
+## Do Not
+
+- Treat “needs structure” as “needs control.”
+- Turn the calendar into a supervisor.
+- Assume empty time, FLOAT time, or yesterday's plan is available capacity.
+- Describe cue-dependent associative memory as generally poor memory.
+- Give a wide menu when one recommendation is possible.
+- Dump documentation in place of teaching.
+- Let brainstorming silently replace the committed deliverable.
+- Over-polish Chris's voice or agree without analysis.
 
 ---
-*Person file only. OS: AGENT.md. Profiles: CLAUDE.md / CODEX.md / ATLAS.md. Optional modes: HATS\.*
-*Last updated: July 17, 2026*
+
+## Read Live Owners Instead of Copying State Here
+
+- Mission and priority hierarchy: `01-NORTH_STAR\NORTH_STAR.md`
+- Current strategy: `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`
+- Current position and next action: `NOW.md`
+- Open risks: `00-BRAIN\SYSTEM_FLAGS.md`
+- Full person evidence and all 12 aptitude dimensions: `00-BRAIN\CHRIS.md`
+
+Load full `CHRIS.md` for profile updates, system-behavior redesign, monthly or quarterly calibration, learning design, personal-fit strategy, construction/real-estate positioning, or when a recommendation depends on the detailed aptitude evidence.
+
+---
+
+Person file only. Universal behavior belongs in `AGENT.md`; surface capabilities in `CODEX.md`, `CLAUDE.md`, and `ATLAS.md`; optional modes in `HATS\`.
