@@ -26,18 +26,20 @@ tags: []
    separate, secondary, clearly-labeled external-data exercise on Day 3
    only). MCP itself is scoped as the Automation/AI lens's capstone, capped
    at ≤3 hours (Wed 7/22) — a lens within the week, not the subject of the
-   week. First live session: **Sat July 18, Systems Audit lens** (swimlane +
-   systems inventory + data-flow map from the field note). Hard boundary:
+   week. **Day 1 Systems Audit closed July 18:** swimlane, systems inventory,
+   data-flow map, daily gate, workbench rep, and the first master-blueprint layer
+   are complete from the field note. Hard boundary:
    **July 26 is D2L intake, no exceptions** — the sprint cuts scope before
    it cuts that date. **New this session:** a separate development-notes
    track logs how well the fast-paced multi-lens *format* itself works —
    `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\learning-format-notes.md` —
    kept apart from the content harvest and not a designed goal of the
    sprint; whether it becomes a standing `.ROOT` teaching format is a
-   Day-8-or-later evidence question. **Day 1 (Systems Audit) is IN
-   PROGRESS — started Sat July 18 morning:** swimlane + systems inventory +
-   data-flow map from `observation_one.md`, live-paired with Codex; daily
-   gate = symptom vs waste vs root-cause hypothesis vs constraint. This
+   Day-8-or-later evidence question. **Next live session: Sun July 19,
+   Strategic Logic:** fill `observation_one.md`'s own blank observation-log
+   table, write the bounded problem statement, and test a tempting technology
+   against S-01/S-02 and the Recommendation Ladder. Day 1's closed gate separated
+   symptom, waste, root-cause hypothesis, and constraint. This
    week Physics Stage 4 pauses (not boot-camp foundation); the short Python
    Stage 3 drill stays, folded in where Python first appears (Python is #2
    in the sprint's own foundation ranking). **Final engineering review passed
@@ -89,10 +91,10 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 |---|---|---|
 | School | Aug 24 readiness is fixed; Physics Stage 4 active (Stage 3 closed 7/16); Python Stage 3 active, first rep mid-drill (Stage 2 closed 7/16) | Finish the paused `break`/`continue` drill, then the Stage 3 mastery path; Physics projectile-motion first rep |
 | Tracker / SQL | V1 shipped; real course data is not available yet | Enter verified D2L/syllabus data around July 25 and test the real workflow |
-| Technology | MCP Bootcamp confirmed July 18–25, eight-lens format (Systems Audit → Strategic Logic → Data Engineering → Automation → AI → Security → Product/Value → Integration) over the real `observation_one.md` case; MCP itself is the ≤3 hr Automation/AI-lens capstone, not the whole week; Make.com landscape rep and private Data Studio dashboard #1 are complete | Sat Jul 18 live session: Systems Audit lens — swimlane/systems-inventory/data-flow map from `observation_one.md` |
+| Technology | MCP Bootcamp Day 1 Systems Audit closed July 18; eight-lens format continues over the real `observation_one.md` case; MCP itself remains the ≤3 hr Automation/AI-lens capstone, not the whole week; workflow-to-stack research report and draft evidence template now exist | Sun Jul 19 live session: Strategic Logic — observation log + bounded problem statement + Recommendation Ladder test against S-01/S-02 |
 | Business | Advisor-Builder is the current hypothesis; July 16 profit gate chose the first service proof: Flip Margin Leak replay (OPP-20260716-01, worth testing); closing-exception autopsy is HOLD (OPP-20260716-02) | With Chris's approval, one 60-min completed-flip replay with a warm-network flipper; one Sheet max |
 | Continuity income | Additional income is needed before Spring 2027 enrollment | B2 conversation still requires Chris's approval; Lane A: Chris hand-fills the top-100 classification worksheet, and one private scanner walkthrough has conditional GO (≤90 added min, then park-or-proceed review) |
-| `.ROOT` | Phase 7 accepted-with-debt; Pass C real-use window is active; July 16 metadata regression repaired, health back to `PASS_WITH_DEBT` | Sunday July 19 recurrence review (wiki close gate + `comparison.new: []`), then July 24–26 `check_at` outcomes |
+| `.ROOT` | Phase 7 accepted-with-debt; Pass C real-use window is active; July 16 metadata regression repaired; **July 18: second regression (4 new-file frontmatter findings) fixed same-day + session-close prevention amendment shipped (check 7/26); git estate clean, `main` current (`c7e3a55`)** | Sunday July 19 recurrence review (wiki close gate + `comparison.new: []`), then July 24–26 `check_at` outcomes |
 
 ## This Week
 
@@ -107,13 +109,13 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 - [ ] One live workflow observation/VSM only with the needed approval and access — first candidate is the flip-margin replay (OPP-20260716-01)
 - [x] **Data Studio dashboard #1** — completed and verified in View mode 2026-07-16 from the scanner CSV via a private Google Sheet; includes scorecard, category bar chart, 100-row table, format filter, and date control
 - [ ] Daily SQL reps against the scanner SQLite DB (real data now); switch vehicle to the tracker when D2L data lands ~July 25
-- [ ] **MCP Bootcamp — Sat Jul 18, Systems Audit:** swimlane + systems inventory + data-flow map from `observation_one.md` — **IN PROGRESS** (started morning 7/18)
+- [x] **MCP Bootcamp — Sat Jul 18, Systems Audit:** swimlane + systems inventory + data-flow map from `observation_one.md` — **CLOSED 7/18**
 - [ ] **MCP Bootcamp — Sun Jul 19, Strategic Logic:** fill the field note's own blank `OBSERVATION LOG` table; problem statement + Recommendation Ladder test against S-01/S-02
-- [ ] **MCP Bootcamp — Mon Jul 20, Data Engineering:** structure `jobs`/`friction_log` SQLite tables; secondary labeled BLS WPUIP2311001 ETL exercise
+- [ ] **MCP Bootcamp — Mon Jul 20, Data Engineering:** structure `jobs`/`friction_log` SQLite tables; secondary labeled BLS WPUIP2311001 ETL exercise; **plus (accepted 7/18):** live-paired V2 normalization of `05-BUSINESS\03-Case Studies\238220_tech_intake.csv` per the accepted research report's field contract
 - [ ] **MCP Bootcamp — Tue Jul 21, Automation & Operations:** design the 1 resource + 2 read-only tool contracts (no SDK yet)
 - [ ] **MCP Bootcamp — Wed Jul 22, AI Infrastructure:** MCP SDK wiring, stdio, stderr logging, full pytest coverage, Inspector — ≤3 hr MCP budget starts here
 - [ ] **MCP Bootcamp — Thu Jul 23, Cybersecurity & Governance:** one host connection, threat model, access-control matrix, operator/security handoff
-- [ ] **MCP Bootcamp — Fri Jul 24, Product & Value:** MVT framing, conservative ROI vs S-01/S-02, pilot stop-criteria, 30/60/90 roadmap, cold explain-back rehearsal
+- [ ] **MCP Bootcamp — Fri Jul 24, Product & Value:** MVT framing, conservative ROI vs S-01/S-02, pilot stop-criteria, 30/60/90 roadmap, cold explain-back rehearsal; **plus (accepted 7/18):** complete the workflow-stack evidence template on the change-order-to-cash pattern
 - [ ] **MCP Bootcamp — Sat Jul 25, Integration:** assemble master blueprint, simulated owner presentation, acceptance test + harvest write-up (exact bar in the review file)
 - [ ] Keep `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\learning-format-notes.md` current each day — separate from the content harvest
 - [ ] Daily workbench rep (~20–30 min, inside the day's real work): 7/18 VS Code workspace/settings → 7/19 staging/diffs/commit messages → 7/20 Python in VS Code + venvs → 7/21 branching → 7/22 debugger → 7/23 push/PR (needs GitHub-remote OK) → 7/24 GitHub Actions CI → 7/25 tags/README

@@ -1122,3 +1122,42 @@ gate before any permanent content/revenue workspace or publishing commitment.
   updated this pass: review packet (Fourth Revision), `NOW.md`, this log,
   `DAILY_2026-07-17.md`.
 - Outcome pending: July 25 acceptance test, unchanged.
+
+## 2026-07-18 (night) — Day 1 closed; workflow-to-stack evidence layer captured (Codex)
+
+- Reconciled `NOW.md` from Day 1 Systems Audit in-progress to closed after the live
+  DAILY evidence confirmed the swimlane, systems inventory, data-flow map, daily
+  gate, workbench rep, and first master-blueprint layer were complete.
+- Captured the business/technology research outcome without opening a new lane:
+  active workflow-to-stack report, reusable draft evidence template, and reviewed
+  NAICS 238220 intake amendment. Vendor claims remain hypothesis evidence rather
+  than proof of client-specific outcomes.
+- No strategy assumption, business phase, opportunity status, or Boot Camp schedule
+  changed. Next exact action remains Sun July 19 Day 2 Strategic Logic: fill the
+  observation log and test the bounded problem against the Recommendation Ladder
+  and S-01/S-02.
+- Operational debt carried: stale `.git\index.lock` plus mixed uncommitted worktree;
+  no git write or history change was attempted.
+
+## 2026-07-18 (late night) — Research report accepted with sequencing; git estate cleared; regression prevention shipped (Claude + Chris)
+
+- **Chris accepted** the workflow-to-stack research report after Claude's
+  independent review (verdict: accept; one sequencing challenge adopted).
+  Sequencing written into the report's Acceptance section: 238220 intake V2
+  normalization → Bootcamp Day 3 (Mon 7/20, live-paired); completed
+  change-order-to-cash template → Day 7 (Fri 7/24). No parallel track beside
+  the sprint; source ledger and database decision wait on named triggers.
+- The 238220 intake grew 17 → 39 rows (20 named companies) via sourced pulls
+  from the report's own recommended sources; claim-type labels intact; patterns
+  already visible (claims ladder by firm size matches the report's maturity
+  lanes; AI-voice booking band 50–95%; Lane B missed-invoice mechanism confirmed
+  cross-vertical).
+- The git debt named in the prior entry is **resolved**: Chris cleared the stale
+  lock and committed/pushed the worktree; Claude merged the branch into `main`
+  (`c7e3a55`) and pushed — `main` current for the first time since July 14.
+- System: second frontmatter regression in 3 days (4 Day 1 field-note files)
+  fixed same-day; canonical `session-close` skill amended (new-`.md` sessions
+  run the health gate before close); check July 26 weekly sweep. Ledger row
+  `439de9f` covers Chris's `292ae06`.
+- Next exact action unchanged: Sun 7/19 recurrence review, then Day 2 Strategic
+  Logic.
