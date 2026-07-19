@@ -5,7 +5,7 @@ status: active
 tags: []
 ---
 
-# NOW — Saturday, July 18, 2026
+# NOW — Sunday, July 19, 2026
 ### Open this every morning. Start here, do the proof, then close clean.
 
 ## Start Here
@@ -35,7 +35,7 @@ tags: []
    `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\learning-format-notes.md` —
    kept apart from the content harvest and not a designed goal of the
    sprint; whether it becomes a standing `.ROOT` teaching format is a
-   Day-8-or-later evidence question. **Next live session: Sun July 19,
+   Day-8-or-later evidence question. **Next live session: TODAY (Sun July 19),
    Strategic Logic:** fill `observation_one.md`'s own blank observation-log
    table, write the bounded problem statement, and test a tempting technology
    against S-01/S-02 and the Recommendation Ladder. Day 1's closed gate separated
@@ -65,7 +65,10 @@ tags: []
    projectile motion (independence of x/y). Stage 3 (Vectors) closed 2026-07-16,
    full checklist cold, no notes. Real-textbook Stage 3 problems
    (`wiki\drills\stage-3-textbook-problems.md`) are ready for off-screen
-   durability reps. **5-min human task:** import the new
+   durability reps. **Stage 4 is paused for the sprint week** (per the
+   July 18 boot-camp-week reading); the new 13-module
+   `wiki\physics-math-crash-course.md` (shipped July 18) is ready with a
+   Stage 4 cold projectile entry point for the next scheduled physics rep. **5-min human task:** import the new
    `Physics_All_Stages.apkg` into Anki (18 stage subdecks) and archive any
    leftover pre-7/14 mixed deck; then study the Stage 04 subdeck.
 
@@ -94,7 +97,7 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 | Technology | MCP Bootcamp Day 1 Systems Audit closed July 18; eight-lens format continues over the real `observation_one.md` case; MCP itself remains the ≤3 hr Automation/AI-lens capstone, not the whole week; workflow-to-stack research report and draft evidence template now exist | Sun Jul 19 live session: Strategic Logic — observation log + bounded problem statement + Recommendation Ladder test against S-01/S-02 |
 | Business | Advisor-Builder is the current hypothesis; July 16 profit gate chose the first service proof: Flip Margin Leak replay (OPP-20260716-01, worth testing); closing-exception autopsy is HOLD (OPP-20260716-02) | With Chris's approval, one 60-min completed-flip replay with a warm-network flipper; one Sheet max |
 | Continuity income | Additional income is needed before Spring 2027 enrollment | B2 conversation still requires Chris's approval; Lane A: Chris hand-fills the top-100 classification worksheet, and one private scanner walkthrough has conditional GO (≤90 added min, then park-or-proceed review) |
-| `.ROOT` | Phase 7 accepted-with-debt; Pass C real-use window is active; July 16 metadata regression repaired; **July 18: second regression (4 new-file frontmatter findings) fixed same-day + session-close prevention amendment shipped (check 7/26); git estate clean, `main` current (`c7e3a55`)** | Sunday July 19 recurrence review (wiki close gate + `comparison.new: []`), then July 24–26 `check_at` outcomes |
+| `.ROOT` | Phase 7 accepted-with-debt; Pass C real-use window is active; July 16 metadata regression repaired; **July 18: second regression (4 new-file frontmatter findings) fixed same-day + session-close prevention amendment shipped (check 7/26); git estate clean, `main` current (`902e7d9`); **July 19 ~7:45am recurrence review PASSED** — `root_health.py` PASS WITH DEBT (519, **0 new**, 101 resolved), wiki nav 0 blockers/0 review, new-page frontmatter spot-check clean | July 24–26 `check_at` outcomes (wiki shared-layer 7/24, session-close capture 7/25, governance sweep + close-gate prevention 7/26) |
 
 ## This Week
 
@@ -125,8 +128,7 @@ Heather (~2 weeks out from July 15) — rebuild, don't patch, once that's settle
 
 | Date | Trigger |
 |---|---|
-| July 18 (Sat) | MCP Bootcamp Day 1 — Systems Audit (live): swimlane/systems-inventory/data-flow map |
-| July 19 (Sun) | MCP Bootcamp Day 2 — Strategic Logic (live): fill observation log + problem statement. Also: metadata-regression recurrence review, rerun wiki close gate + `root_health.py`, require `comparison.new: []`, spot-check one new page per touched wiki (see DAILY 2026-07-16) |
+| July 19 (Sun) | **TODAY** — MCP Bootcamp Day 2 — Strategic Logic (live): fill observation log + problem statement. Metadata-regression recurrence review DONE at session load (~7:45am): PASS WITH DEBT, `comparison.new: []` satisfied |
 | July 20 (Mon) | MCP Bootcamp Day 3 — Data Engineering (live): SQLite fixture + secondary BLS ETL exercise |
 | July 21 | MCP Bootcamp Day 4 — Automation & Operations (live): tool/resource contract design. Also: OPP-20260714-01 (B2 conversation) review date |
 | July 22 (Wed) | MCP Bootcamp Day 5 — AI Infrastructure (live): MCP SDK build, tests, Inspector — ≤3 hr budget |
