@@ -44,3 +44,30 @@ assumptions S-01/S-02.
 *Next session priority:* Boot Camp Day 2 Strategic Logic.
 
 *Close check:* DAILY Day Summary, NOW reconciliation, and CASTLE log are complete.
+
+## Late Physics Addendum
+
+### Current State
+
+The Physics WIKI now includes `wiki\physics-math-crash-course.md`: a complete
+13-module review of the math used across all 18 stages, built from the live wiki
+and a read-only screen of `D:\SCHOOL\Chatt Tech Files\math`. The math-readiness
+path now correctly treats Stage 4 as active and links the new guide.
+
+### Open Question / Blocker
+
+No blocker. The guide is a ready learning asset, not mastery evidence; its value
+must be tested through Chris's first cold projectile rep.
+
+### Next Exact Action
+
+Work the Stage 4 cold projectile transfer rep in the crash course. Review only
+the first math module exposed as non-automatic, then retry with changed numbers.
+
+### Details Likely to Be Forgotten
+
+- The archive's algebra, geometry, trig, derivative, integral, and calculus-
+  application sheets were useful; most Calc II convergence machinery, Laplace/
+  hyperbolic material, complex numbers, and statistics were deliberately parked.
+- No external math file or Physics `raw\` source was copied, edited, or deleted.
+- The guide includes a transfer-check answer key; attempt each rep before opening it.

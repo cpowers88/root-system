@@ -33,6 +33,7 @@ PHYS 2211 — Principles of Physics I, Kennesaw State University, Fall 2026.
 - [[equation-map]] — equations, variables, units, assumptions
 - [[calculus-map]] — calculus connections inside physics
 - [[math-readiness-path]] — just-in-time algebra, trig, and calculus refresh route
+- [[physics-math-crash-course]] — full PHYS 2211 math review, worked bridges, checks, and scope filter
 - [[problem-type-map]] — problem recognition and solving patterns
 - [[units-and-dimensions]] — units, conversions, dimensional analysis
 - [[parking-lot]] — useful but parked material

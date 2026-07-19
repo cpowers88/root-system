@@ -84,6 +84,17 @@ No new downloadable math source is currently required: the Serway appendices alr
 contain the core algebra, trigonometry, derivative, and integral reference. External
 material should answer a diagnosed difficulty, not create a second parallel course.
 
+## External Personal Math Archive — Screened Support
+
+Chris's existing archive at `D:\SCHOOL\Chatt Tech Files\math` was read-only
+screened on 2026-07-18 to build [[physics-math-crash-course]]. Nothing was copied
+into this hub or changed at the source. Algebra, geometry, unit-circle/trig,
+derivative, integral, and calculus-application sheets were used as support. Most
+Calc II convergence machinery, Laplace/hyperbolic material, complex numbers, and
+the statistics folder were parked because they do not support the current 18-stage
+mechanics path. The crash course contains the file-level relevance table and the
+rule for retrieving a parked topic only when a real stage or lab requires it.
+
 ## Textbook Chapter Map (Serway & Jewett, 10th ed.)
 
 PDF page = physical page within the matching split file in `raw/textbook/`

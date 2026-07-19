@@ -21,6 +21,8 @@ Use the textbook appendix for lookup:
 - [[appendix/math-calculus]]
 
 Use [[calculus-map]] to see where each calculus idea enters the course.
+Use [[physics-math-crash-course]] for the complete explanations, worked bridges,
+transfer checks, and the relevance screen of Chris's external math archive.
 
 ## Learning Profile Inputs
 
@@ -65,8 +67,8 @@ Rules:
 |---|---|---|---|
 | 1 | scientific notation, units, proportional reasoning, algebra | estimating material, converting tool dimensions, checking whether a result can physically fit | convert units and reject a dimensionally impossible equation |
 | 2 | slope, polynomial derivatives, area under a graph, basic antiderivatives | a vehicle's position, speedometer reading, braking acceleration, accumulated distance | move both directions through `x(t) -> v(t) -> a(t)` and explain a `v-t` area |
-| 3 (active) | degrees/radians, right-triangle trig, inverse trig, quadrants, Pythagorean theorem | navigation, roof pitch, cable tension, two crews pulling an object | solve a two-vector non-axis addition problem and check the quadrant without notes |
-| 4 | component functions, quadratics, derivatives applied separately to x and y | a thrown tool, water from a hose, a vehicle changing direction | build x/y equations from a sketch and explain why horizontal and vertical motion share time |
+| 3 (closed; durability checks continue) | degrees/radians, right-triangle trig, inverse trig, quadrants, Pythagorean theorem | navigation, roof pitch, cable tension, two crews pulling an object | solve a two-vector non-axis addition problem and check the quadrant without notes |
+| 4 (active) | component functions, quadratics, derivatives applied separately to x and y | a thrown tool, water from a hose, a vehicle changing direction | build x/y equations from a sketch and explain why horizontal and vertical motion share time |
 | 5-6 | simultaneous equations, incline trig, radians, circular geometry | ramp forces, connected loads, a car on a curve, a rotating ride | draw the free-body diagram, resolve forces, and solve without inventing a “centripetal force” |
 | 7-8 | dot product, definite-integral area, derivative of potential energy | pushing a cart at an angle, compressing a spring, braking with friction | identify the force component that does work and interpret an `F-x` area |
 | 9 | signed/vector components, simultaneous equations, force-time area | vehicle collisions, recoil, catching or stopping an object | choose a system and conserve momentum independently in 1D and 2D |
@@ -75,17 +77,16 @@ Rules:
 | 15-17 | sine/cosine graphs, phase, derivatives of trig functions, small-angle approximation, logarithms for decibels, one trig sum identity | suspension spring, pendulum, guitar string, pipe resonance, sound level | connect graph shape to motion/wave behavior and explain what phase changes physically |
 | 18 | ratios, square roots, limiting behavior, small-parameter approximations | GPS timing, particle lifetime, why everyday speeds look Newtonian | estimate whether relativity matters before using the Lorentz factor |
 
-## Current Three-Rep Math Bridge
+## Current Three-Rep Math Bridge — Stage 4
 
-1. **Now - Stage 3 transfer:** add two non-axis vectors. Decompose both, add
-   components, reconstruct magnitude and direction, and check the quadrant on the
-   sketch.
-2. **After the Stage 3 no-notes pass:** take one position function and recover
-   velocity and acceleration; then reverse the direction using an area-under-the-
-   curve explanation. This reactivates the Stage 2 calculus bridge before Stage 4.
-3. **Before Stage 4:** solve one projectile setup by building the horizontal and
-   vertical models from a physical sketch. Do not memorize a projectile formula
-   until the two component models make sense.
+1. **Now — projectile setup:** work the cold transfer rep in
+   [[physics-math-crash-course#Stage 4 Immediate Bridge — Projectile Motion]].
+   Draw the trajectory and build separate x/y equation lanes before substituting.
+2. **Repair only the first observed gap:** use the matching crash-course module —
+   components, quadratics, or derivatives — then return immediately to the same
+   projectile rep with changed numbers.
+3. **Close the bridge:** explain aloud why x and y share time but not acceleration,
+   and use units plus the landing-velocity direction to check the answer.
 
 ## Support Sources
 

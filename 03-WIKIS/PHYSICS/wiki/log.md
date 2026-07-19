@@ -636,3 +636,35 @@ Append-only session record.
   scalar/vector ID, decomposition, reconstruction, addition) before checking the
   mastery checklist in `wiki/stages/stage-3-vectors.md`. Then start working the
   new textbook problem set, flagging reflection-worthy ones as they come up.
+
+## 2026-07-18 — Full Physics Math Crash Course
+
+### Objective
+- Build one complete, stage-mapped review of all math used by the Physics WIKI.
+
+### Sources touched
+- Read-only screen of `D:\SCHOOL\Chatt Tech Files\math` (algebra, geometry,
+  trig/unit-circle, derivative, integral, calculus-application, Calc II, and
+  statistics materials).
+- Existing Physics WIKI equation, calculus, units, appendix, learning-path, and
+  Stage 4 pages.
+
+### Files created/updated
+- Created `wiki/physics-math-crash-course.md`.
+- Updated `wiki/index.md`, `wiki/math-readiness-path.md`, and `wiki/source-map.md`.
+
+### Concepts/equations/problem types added
+- Unified scientific notation, units, algebra, proportions, graphs, trig,
+  vectors, dot/cross products, systems, quadratics, derivatives, integrals,
+  rotation, fluids, oscillations, waves, relativity, uncertainty, and lab graphing
+  into one physics-first guide with transfer checks.
+- Added a Stage 4 projectile bridge and corrected the readiness path from stale
+  Stage 3 wording to the active Stage 4 frontier.
+
+### Parked material
+- Most Calc II convergence/integration machinery, Laplace and hyperbolic
+  functions, complex-number work, and statistics beyond lab uncertainty/graphs.
+
+### Next action for Chris
+- Work the crash course's Stage 4 cold projectile transfer rep on paper; review
+  only the first module exposed as non-automatic, then retry with changed numbers.
