@@ -8,16 +8,15 @@ one plain timeline tag becomes the same `timeline:` property and is removed from
 """
 
 import argparse
-from collections import Counter
 import hashlib
 import json
-from pathlib import Path
 import sys
+from collections import Counter
+from pathlib import Path
 
 import frontmatter_audit as audit
 
-sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-REPORT_DIR = (audit.ROOT / "00-BRAIN" / "Session_Logs").resolve()
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore
 
 
 def finding_reason(kind: str) -> str:
@@ -39,8 +38,7 @@ def build_plan():
         rel = path.relative_to(audit.ROOT)
         if audit.EXCLUDED.intersection(rel.parts):
             continue
-        fm = audit.parse_frontmatter(
-            path.read_text(encoding="utf-8", errors="replace"))
+        fm = audit.parse_frontmatter(path.read_text(encoding="utf-8", errors="replace"))
         if fm is None or audit.property_from(fm, "timeline") is not None:
             continue
         tags = audit.tags_from(fm)
@@ -59,22 +57,30 @@ def build_plan():
 
         # Safe means the conversion can finish without leaving or creating a
         # second control interpretation. Mixed controls stay manual.
-        if (len(controls) == 1 and controls[0] in audit.TIMELINE
-                and str(rel) not in finding_paths):
-            safe.append({
-                "path": str(rel),
-                "set": {"timeline": controls[0]},
-                "remove_tags": [controls[0]],
-                "preserve_topic_tags": [tag for tag in tags if tag != controls[0]],
-            })
+        if (
+            len(controls) == 1
+            and controls[0] in audit.TIMELINE
+            and str(rel) not in finding_paths
+        ):
+            safe.append(
+                {
+                    "path": str(rel),
+                    "set": {"timeline": controls[0]},
+                    "remove_tags": [controls[0]],
+                    "preserve_topic_tags": [tag for tag in tags if tag != controls[0]],
+                }
+            )
 
-    finding_plan = [{
-        "finding_id": finding["id"],
-        "path": finding["path"],
-        "kind": finding["kind"],
-        "disposition": "manual_review",
-        "reason": finding_reason(finding["kind"]),
-    } for finding in result["findings"]]
+    finding_plan = [
+        {
+            "finding_id": finding["id"],
+            "path": finding["path"],
+            "kind": finding["kind"],
+            "disposition": "manual_review",
+            "reason": finding_reason(finding["kind"]),
+        }
+        for finding in result["findings"]
+    ]
 
     plan = {
         "schema_version": 1,
@@ -99,32 +105,38 @@ def build_plan():
 
 def report_path(path: Path) -> Path:
     resolved = (path if path.is_absolute() else audit.ROOT / path).resolve()
-    if (resolved.parent != REPORT_DIR or resolved.suffix.lower() != ".json"
-            or not resolved.name.startswith("ROOT_METADATA_MIGRATION_DRY_RUN_")):
+    if (
+        resolved.parent != REPORT_DIR
+        or resolved.suffix.lower() != ".json"
+        or not resolved.name.startswith("ROOT_METADATA_MIGRATION_DRY_RUN_")
+    ):
         raise ValueError(
             "report must be a ROOT_METADATA_MIGRATION_DRY_RUN_*.json file "
-            "directly under 00-BRAIN/Session_Logs")
+            "directly under 00-BRAIN/Session_Logs"
+        )
     return resolved
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--output", type=Path,
-                        help="write the dry-run report (never a migration target)")
-    parser.add_argument("--self-test", action="store_true",
-                        help="prove determinism and complete finding coverage")
+    parser.add_argument(
+        "--output",
+        type=Path,
+        help="write the dry-run report (never a migration target)",
+    )
+    parser.add_argument(
+        "--self-test",
+        action="store_true",
+        help="prove determinism and complete finding coverage",
+    )
     args = parser.parse_args()
 
     first = build_plan()
     if args.self_test:
         second = build_plan()
         summary = first["summary"]
-        covered = {
-            item["finding_id"] for item in first["finding_plan"]
-        }
-        current = {
-            item["id"] for item in audit.audit()["findings"]
-        }
+        covered = {item["finding_id"] for item in first["finding_plan"]}
+        current = {item["id"] for item in audit.audit()["findings"]}
         passed = (
             first == second
             and covered == current
@@ -137,8 +149,9 @@ def main() -> int:
         except ValueError:
             target_guard = True
         passed = passed and target_guard
-        print("# METADATA MIGRATION DRY-RUN SELF-TEST - " +
-              ("PASS" if passed else "FAIL"))
+        print(
+            "# METADATA MIGRATION DRY-RUN SELF-TEST - " + ("PASS" if passed else "FAIL")
+        )
         print(f"- deterministic plan hash: {first['plan_sha256']}")
         print(f"- finding identities covered: {len(covered)}/{len(current)}")
         print("- target files written: 0")
