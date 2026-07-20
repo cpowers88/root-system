@@ -1,95 +1,113 @@
 ---
 type: template
 timeline: reference
-tags: []
+tags: [review, north-star]
 ---
 
 # WEEKLY REVIEW — [START DATE] to [END DATE]
-### Copy rule: use `type: review`; set `timeline: now` while open and `timeline: log` when closed.
-### Close each Sunday · target under 90 minutes · use live owners instead of copying their state
+### Strategic outcome review · close Sunday · target under 90 minutes
 
-If cadence slips, write one evidence-bounded recovery review in the next session;
-do not fabricate separate missed reviews. A recorded review closes with
-`timeline: log` and `status: complete`. Use `awaiting-review` only when a specific
-Chris decision remains, and name that decision in the body.
+Copy rule: use `type: review` and `timeline: now` while open. Close with
+`timeline: log` and `status: complete`. Use `awaiting-review` only when a named
+Chris decision remains. If cadence slips, write one evidence-bounded recovery
+review in the next session; do not fabricate separate missed reviews.
 
-## Week at a Glance
+This review converts DAILY and owner evidence into decisions. It is not a second
+dashboard, a copied current-position page, or a substitute for real proof. Read
+live owners and link to them instead of copying their changing state.
+
+## Evidence Boundary
 
 Dates covered:
 Sessions logged:
 Fixed commitments due/completed:
-Technology/business hours protected (semester target: 5–10 when feasible):
+Chris-declared capacity or material family/recovery constraint:
+Technology/business time protected (semester target: 5–10 hours when feasible):
+Unknowns that must not be inferred:
 
-## Function Scorecard
+## Outcome at a Glance
+
+Most important outcome:
+
+What did not happen and why:
+
+Name the cause honestly: legitimate constraint, deliberate reprioritization,
+unclear next action, AI/task failure, or avoidance. Do not label every change as
+drift.
+
+Material decision or tradeoff Chris made:
+
+## North Star Scorecard
 
 | Function | Hit / Partial / Miss | Evidence and honest assessment |
 |---|---|---|
 | School commitments | | |
-| Technology / builds | | |
-| Business / opportunities | | |
-| System support | | |
-| Communication development | | |
+| Technology / integration proof | | |
+| Business / value creation | | |
+| Capacity / sustainability | | |
+| System / AI support | | |
 
-## What Shipped
+## Return Packet Summary
 
--
+Use the canonical five-field Return Packet in
+`01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`; do not redefine it.
+Record only material movement.
 
-## What Did Not Happen and Why
+Outcome:
 
-Distinguish a legitimate constraint, deliberate reprioritization, unclear next
-action, AI/task failure, and avoidance without treating every change as drift.
+Evidence links:
 
--
+Capability/status movement (or explicitly none):
 
-## Task and System Integrity
+Reusable-asset candidate and owner (yes/no):
 
-Where AI or the system pulled work away from the requested outcome:
+System-learning candidate and owner (yes/no):
 
-Stale/contradictory state discovered:
+Market, usage, time-saved, revenue, or other value evidence:
 
-Tradeoff Chris deliberately chose:
+## Integrity and Signal Check
+
+Where AI or system work displaced the requested outcome:
+
+Stale, contradictory, or duplicated owner truth found:
+
+What reduced friction versus added ceremony:
+
+Watchtower sweep: state “no material signal” or name the evidence owner,
+affected assumption/choice, consequence or bounded test, and review trigger.
 
 Pattern worth watching:
 
-## Opportunity and Proof Movement
+## Completion Sweep
 
-Opportunities captured / tested / closed:
+Point to live owners; do not copy their tables.
 
-Capabilities moved up the proof ladder:
+- Due `SYSTEM_FLAGS.md` items resolved or retained with owner and trigger:
+- `77-INBOX` and `Clippings` routed or explicitly blocked:
+- Due `check_at` and opportunity-review outcomes recorded:
+- System-update ledger, closed-flag ledger, and packet indexes reconciled:
+- Open decision, manual action, or file still requiring attention:
 
-Assets harvested:
-
-Market, usage, time-saved, or revenue evidence:
-
-## System and AI Review
-
-What reduced friction:
-
-What added friction:
-
-What an AI should do differently:
-
-Open flags or files requiring attention:
-
-Completion sweep (point to live owners; do not duplicate their tables): due flags,
-`77-INBOX` / `Clippings`, due `check_at` outcomes, and report-ledger/packet integrity.
-
-## Next Week
+## Next Week — At Most Three Priorities
 
 Starting action:
 
-Fixed school commitments:
+Fixed commitments and hard transition:
 
-Technology rep:
+1. School / capability proof:
+2. Technology or business/value proof:
+3. System item only if it removes material friction:
 
-Business/system item:
+Chris-declared capacity boundary or review point:
 
-Soft time boundary or review point:
+## Engine Question and North Star Check
 
-## North Star Check
+What valuable problem is most worth solving next, and what must be learned,
+proved, built, or integrated to solve it exceptionally well and convert the
+result into income or a compounding asset?
 
-Are current actions producing capability, useful output, market evidence, time
-savings, or revenue—and what is the next link in that chain?
+Are we closer to family freedom, rare capability, and durable economic value
+than last week—and what is the next evidence-producing link?
 
 ---
 *Written by: [CHRIS / AI SURFACE]*

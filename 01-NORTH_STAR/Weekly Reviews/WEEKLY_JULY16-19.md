@@ -8,153 +8,136 @@ created: 2026-07-20
 
 # WEEKLY REVIEW — July 16 to July 19, 2026
 
-## Week at a Glance
+## Evidence Boundary
 
 Dates covered: July 16–19, 2026  
 Sessions logged: all four dates have DAILY evidence; July 16's earlier record is
 preserved in Report Archive and its continuation remains in the DAILY.  
-Fixed commitments due/completed: no Fall course deadline was due. Degree Works
-evidence was reconciled; the August 24 readiness and July 26 D2L transition remain
-fixed.  
-Technology/business hours protected: not reliably recorded; no total is inferred.
+Fixed commitments: no Fall deadline was due. August 24 readiness and the July 26
+D2L transition remain fixed.
+Chris-declared capacity or material constraint: Physics was deliberately paused
+for the bounded sprint; no broader capacity total is inferred.
+Technology/business time protected: not reliably recorded.
+Unknowns: exact hours, unrecorded manual machine actions, and external outcomes.
 
-## Function Scorecard
+## Outcome at a Glance
+
+Most important outcome: MCP Bootcamp Days 1–2 closed live-paired over the real
+construction case, while the July 19 reconciliation installed one information-flow
+view and aligned the North Star and CASTLE through B1.
+
+What did not happen and why: Python Stage 3 remained mid-drill; Physics Stage 4 was
+deliberately paused; no live observation, buyer proof, client, or revenue result
+occurred. Authorized system work displaced part of the Python proof, while external
+action remained approval-gated.
+
+Material decision or tradeoff: Chris chose to future-proof the information system
+and broaden the Advisor-Builder capability stack without moving the July 26 D2L
+boundary or turning tools, offers, markets, and prices into permanent identity.
+
+## North Star Scorecard
 
 | Function | Hit / Partial / Miss | Evidence and honest assessment |
 |---|---|---|
-| School commitments | **Partial** | Python Stage 3 advanced but remains mid-drill at `break`/`continue`; Physics Stage 4 was deliberately paused for the bounded sprint. Degree Works and the pre-semester plan were reconciled to verified registration evidence. |
-| Technology / builds | **Hit** | MCP Bootcamp Days 1–2 closed live-paired; the construction workflow gained a swimlane, systems inventory, data-flow trace, falsifiable diagnosis, strategy gate, and two master-blueprint layers. Git `main` was recovered and synchronized. |
-| Business / opportunities | **Partial** | The change-order-to-cash case and workflow-to-stack evidence method became stronger internal proof. No live observation, qualified buyer conversation, willingness-to-pay result, client, or revenue was produced. |
-| System support | **Hit, with displacement** | `.ROOT` gained one Information Flow Contract and completed CASTLE Slices A0–B1 with independent challenge and repeated health checks. The work reduced authority drift but consumed a large share of July 19. |
-| Communication development | **Partial** | Live explain-back, problem framing, recommendation logic, and technical artifact writing occurred inside Bootcamp. No separate audience-tested communication rep was recorded. |
+| School commitments | **Partial** | Python Stage 3 advanced but remains at `break`/`continue`; Physics Stage 4 was intentionally paused. Degree Works and the pre-semester plan were reconciled to verified registration evidence. |
+| Technology / integration proof | **Hit** | Bootcamp Days 1–2 produced the swimlane, systems inventory, data-flow trace, falsifiable diagnosis, strategy gate, and two blueprint layers. Git `main` was recovered and synchronized. |
+| Business / value creation | **Partial** | The change-order-to-cash case became stronger internal proof. No live observation, willingness-to-pay evidence, client, measured value, or revenue was produced. |
+| Capacity / sustainability | **Partial / not fully evidenced** | Physics was deliberately paused and the July 26 boundary protected, but exact hours were not recorded and the long July 19 system session displaced the next school rep. |
+| System / AI support | **Hit, with displacement** | One Information Flow Contract and CASTLE A0–B1 alignment reduced authority drift with independent challenge and deterministic checks; the work consumed a large share of July 19. |
 
-## What Shipped
+## Return Packet Summary
 
-- MCP Bootcamp Days 1–2: Systems Audit and Strategic Logic, completed under the
-  live-paired working rule.
-- A reusable workflow-to-technology-stack evidence template, a 39-row NAICS
-  238220 technology intake, and the first two master-blueprint layers.
-- Git recovery and `main` synchronization without history rewrite or data loss.
-- The unified information-state view, revised North Star, reconciled person
-  contract, and CASTLE entrance/core-map/strategy/phase/template alignment through
-  Slice B1.
-- Verified Degree Works evidence: 41 completed degree-applicable credits, 13 Fall
-  credits in progress, and at least 67 additional credits needed for the 121-credit
-  degree.
-- Repeated canonical health results of **PASS WITH DEBT**: zero blockers, zero new
-  metadata debt, and 519 reviewed baseline findings retained honestly.
+Outcome: Bootcamp Systems Audit and Strategic Logic closed; Degree Works truth,
+workflow-stack evidence, Git state, North Star, person contract, and CASTLE
+consumers were reconciled.
 
-## What Did Not Happen and Why
+Evidence links: the four DAILY files; the Bootcamp plan and artifacts; the July 19
+reconciliation packet; Degree Works; and commit `490e8ab` for the completed B1
+consumer batch.
 
-- Python Stage 3 and Physics Stage 4 did not close. Physics was deliberately paused
-  for the sprint; system redesign displaced part of the protected Python proof.
-- No live workflow observation, external buyer proof, or revenue result occurred.
-  External action remained approval-gated, and the work stayed at internal proof.
-- The D-drive backup script and depth-accent folder-icon rebuild were written but
-  not recorded as manually tested. They remain unverified, not complete.
-- Four classified intake items remain under
-  `77-INBOX\READY_FOR_CHRIS_RAW_PLACEMENT\`; AI cannot place them into immutable
-  `raw\`. Root `Clippings\` is clear except for `desktop.ini`.
-- The July 5–15 recovery review still carries `status: awaiting-review`; this
-  review does not silently claim Chris accepted that earlier assessment.
+Capability/status movement: systems audit, workflow/data tracing, problem framing,
+recommendation logic, Git recovery, technical communication, evidence grading, and
+cross-surface validation moved. Python loops, SQL with workflow data, and live
+observation remain active proof gaps.
 
-## Task and System Integrity
+Reusable-asset candidates: yes — Systems Audit artifacts, Strategic Logic layer,
+master blueprint, workflow-stack evidence template, NAICS 238220 intake,
+Information Flow Contract, and reconciled CASTLE templates. Their owners remain the
+Bootcamp project, Capability Library/business evidence homes, North Star contracts,
+and CASTLE.
 
-Where AI or the system pulled work away from the requested outcome: July 19 became
-an extended architecture and CASTLE reconciliation session after Chris changed the
-controlling discretionary priority. The work was authorized and validated, but it
-displaced the next Python rep and delayed the weekly close itself.
+System-learning candidates: yes — keep one owner per truth, use Chris-owned
+capacity language, record manual actions as unverified until checked, and stop
+system work when its next gain is smaller than displaced proof. Open issues remain
+in `SYSTEM_FLAGS.md`; no separate competing lesson or loop was created.
 
-Stale/contradictory state discovered: the North Star, CASTLE entrances and maps,
-strategy companions, phases, templates, and proof language did not share one clear
-owner model. The accepted July 19 packet reconciled A0–B1. Two smaller instruction
-defects remained in the prep plan: ambiguous course count and an AI-assigned reading
-of the daily school floor.
+Market, usage, time-saved, revenue, or other value evidence: internal-use and clean
+validation evidence only. No market, client, measured time-saved, or revenue proof.
 
-Tradeoff Chris deliberately chose: future-proof the information system and align
-CASTLE to the broader Advisor-Builder mission while preserving the July 26 D2L
-boundary and the existing Bootcamp case.
+## Integrity and Signal Check
 
-Pattern worth watching: independent challenge materially improved the revisions,
-but serial proposal/review/implementation loops can become the work. The accepted
-stop condition is to return to live proof after the bounded cockpit and wording
-cleanup; Slice C waits for the July 26 trigger.
+AI/system displacement: July 19's authorized reconciliation delayed the Python rep
+and the weekly close. The bounded wording/cockpit cleanup is now complete; Slice C
+waits for July 26.
 
-## Opportunity and Proof Movement
+Stale or duplicated truth: pre-B1 owner, phase, tool, service, and capacity language
+was reconciled. The prep-plan course count, weekly contract, and stale `NOW.md`
+commit action were corrected July 20.
 
-Opportunities captured / tested / closed: the contractor change-order problem
-advanced from remembered pain to a structured, falsifiable internal case. The
-flip-margin replay remains the first approved candidate for live workflow proof;
-no external test fired during this period.
+Friction versus ceremony: thin routers, indexed evidence, and deterministic checks
+reduced restart and authority friction. Serial proposal/review/implementation loops
+added ceremony and can become the work.
 
-Capabilities moved up the proof ladder: systems audit, workflow/data tracing,
-problem definition, recommendation logic, Git recovery, technical evidence
-grading, and cross-surface system validation. Python loops, SQL with real workflow
-data, and live observation remain active proof gaps.
+Watchtower sweep: no new material external signal. The existing MCP signal is in
+its approved bounded test; the AGC adoption signal remains WATCHING and still
+requires real observation evidence.
 
-Assets harvested: Systems Audit artifacts, Strategic Logic layer, master blueprint,
-workflow-stack evidence template, NAICS 238220 intake, Information Flow Contract,
-and reconciled CASTLE maps/templates.
+Pattern worth watching: independent challenge improved quality, but architecture
+work must now yield to learning, integration proof, and field evidence.
 
-Market, usage, time-saved, or revenue evidence: no market or revenue evidence. The
-Bootcamp artifacts have internal-use evidence only; the system changes have clean
-validation evidence but no measured time-saved outcome yet.
+## Completion Sweep
 
-## System and AI Review
+- Due flags: #57 retained until official Fall sources arrive; new #78 tracks the
+  unverified replacement backup. LOW flags #16, #68–69, and #77 remain trigger- or
+  Chris-decision-bound.
+- Intake: four classified files remain in
+  `77-INBOX\READY_FOR_CHRIS_RAW_PLACEMENT\`; AI cannot place them in immutable
+  `raw\`. `Clippings\` is clear except for `desktop.ini`.
+- Due outcomes: July 24–26 `check_at` results and opportunity review dates were not
+  yet due in this coverage period.
+- Evidence integrity: July 19 commit rows and packet index were reconciled July 20;
+  Claude's B1 validation audit is filed in that packet.
+- Open attention: Chris must approve and verify any D-drive mirror run; the July
+  5–15 recovery review remains `awaiting-review`; folder-icon execution is not
+  recorded as verified. Remaining July 19 packet debt is the two CASTLE skill pages
+  plus the reviewed 519-item metadata baseline.
 
-What reduced friction: one owner per truth, thin CASTLE routers, Chris-owned
-capacity language, evidence-calibrated templates, one indexed system-update packet,
-and deterministic health/metadata checks.
+## Next Week — At Most Three Priorities
 
-What added friction: long serial review chains, proposals left with historical
-`awaiting-review` wording after their program was accepted, unverified manual
-machine actions, and a weekly template that did not explicitly close its due-item
-and intake sweep.
+Starting action: finish the Python `break`/`continue` rep if open; otherwise define
+the Day 3 SQLite `jobs` / `friction_log` contract live with provenance.
 
-What an AI should do differently: start from the live owner, use the smallest
-coherent edit, distinguish generated/internal proof from real-use proof, record
-manual actions as unverified until checked, and stop system work when the next gain
-is smaller than the displaced learning or field rep.
+Fixed commitment: July 26 D2L/syllabus intake comes first; Bootcamp and Slice C do
+not carry across that boundary.
 
-Open flags or files requiring attention:
+1. Close the current Python school proof and record the honest frontier.
+2. Complete the bounded Bootcamp through SQL, integration, acceptance, and harvest;
+   pursue live workflow evidence only with required approval.
+3. Record the July 24–26 keep/modify/revert outcomes; perform Slice C only after the
+   D2L-first sweep and only within its existing authority gates.
 
-- Flag #57 remains open because the Fall 2026 ENGR syllabus and final D2L data are
-  not available; review again when official sources land, with an August 24 ceiling.
-- Flag #78 now tracks the unverified replacement backup; its mirror script requires
-  Chris's approval and a checked D: target before any run or schedule is trusted.
-- Flag #77 now truthfully points to the four files awaiting Chris's raw-placement
-  decision. Flags #16 and #68–69 remain LOW and trigger-bound.
-- Confirm the D-drive backup and folder-icon commands actually ran before calling
-  either machine change complete.
-- July 19's accepted packet retains bounded follow-up debt: July 20 cockpit truth,
-  prep-plan wording, the two CASTLE skill pages, and the reviewed metadata baseline.
+Capacity boundary: Chris owns timing. Sunday, July 26 is the weekly close,
+D2L transition, and governance-drift review point.
 
-## Next Week
+## Engine Question and North Star Check
 
-Starting action: finish the Python Stage 3 `break`/`continue` rep if still open;
-otherwise define the Day 3 SQLite `jobs` / `friction_log` contract live with
-provenance.
+The most valuable next problem is turning the internally structured construction
+workflow case into verified technical and real-use evidence without losing school
+readiness. Finish the school/SQL rep, complete the bounded integration proof, and
+obtain one approved workflow observation before expanding architecture or strategy.
 
-Fixed school commitments: begin verified D2L/syllabus intake on July 26; do not let
-the sprint or Slice C carry across that boundary.
-
-Technology rep: complete the bounded Bootcamp through its acceptance/harvest gate,
-including SQL against the real case and the named July 24–26 `check_at` verdicts.
-
-Business/system item: pursue live workflow proof only with required approval;
-otherwise keep the case internal. Finish the bounded cockpit/instruction cleanup,
-then stop broad system editing until the July 26 trigger.
-
-Soft time boundary or review point: Sunday, July 26 — weekly close, D2L transition,
-governance-drift verdict, and explicit keep/modify/revert outcomes for due checks.
-
-## North Star Check
-
-The period strengthened the Advisor-Builder capability stack and made `.ROOT` more
-coherent, but it still produced no market, client, time-saved, or revenue evidence.
-The next link is real use: finish the school/SQL rep, complete the Bootcamp on the
-live case, and obtain one approved workflow observation before expanding the system
-or strategy again.
+The week strengthened rare capability and system coherence, but not market, client,
+time-saved, or revenue evidence. The next evidence-producing link is real use.
 
 ---
 *Written by: Codex from live DAILY, owner, Git, flag, and packet evidence.*  

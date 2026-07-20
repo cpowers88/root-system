@@ -50,15 +50,22 @@ The fixed October 8, 2031 measurement date, degree commitment, economic floor,
 and Spring 2027 funding constraint remain explicit while the Advisor-Builder
 vehicle, offers, tools, prices, and commercial milestones remain testable.
 
-Accepted follow-up debt:
+Resolved July 20 follow-up:
 
-1. refresh the July 20 cockpit date/status/next-action truth without performing
-   the deferred Slice C restructure;
-2. reconcile the pre-semester plan's course-count wording and ensure any daily
-   school floor is explicitly Chris-declared rather than AI-assigned;
-3. synchronize the two existing CASTLE skill pages with the generalized skill
+- refreshed the cockpit date, B1 status, health date, and Chris-owned school-block
+  wording without performing the deferred Slice C restructure;
+- reconciled the pre-semester plan's course count and Chris-declared school-floor
+  wording;
+- rewrote the weekly-review template in place around the three tracks,
+  capacity/sustainability, canonical Return Packet, Watchtower/Engine Question,
+  and one completion sweep, then aligned the completed July 16–19 review as the
+  first live instance.
+
+Remaining accepted debt:
+
+1. synchronize the two existing CASTLE skill pages with the generalized skill
    template during the next bounded semantic sweep;
-4. retain the reviewed metadata baseline debt honestly: 519 findings, 0 new,
+2. retain the reviewed metadata baseline debt honestly: 519 findings, 0 new,
    101 resolved at program acceptance.
 
 ## Artifact Inventory
@@ -84,6 +91,8 @@ Accepted follow-up debt:
 - `CASTLE_B0_B1_CLAUDE_REVIEW_2026-07-19.md`
 - `CASTLE_B0_1_CLOSURE_AND_B1_IMPLEMENTATION_PROPOSAL_2026-07-19.md`
 - `CASTLE_B1_INDEPENDENT_REVIEW_2026-07-19_CLAUDE.md`
+- `CASTLE_B1_REWORDING_AUDIT_2026-07-20_CLAUDE.md` — accepted post-commit
+  validation and bounded cockpit finding
 
 The July 19 DAILY remains at the Session Logs root by rule and records the
 chronological task blocks. Historical paths inside DAILY and the append-only
@@ -91,7 +100,8 @@ CASTLE log are not rewritten; this index is the canonical retrieval route.
 
 ## Recheck Dates and Triggers
 
-- **July 20:** bounded cockpit truth refresh and return to real-use proof.
+- **July 20:** cockpit, prep-plan, and weekly-review contract alignment completed;
+  return to real-use proof.
 - **July 24:** wiki shared-layer real-use verdict.
 - **July 25:** session-close capture verdict and Bootcamp acceptance/harvest.
 - **July 26:** D2L intake first; then Gate C, CASTLE Slice C decision, governance

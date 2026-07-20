@@ -1,7 +1,7 @@
 ---
 type: report
-timeline: now
-status: active
+timeline: log
+status: complete
 tags: [castle, governance, north-star, slice-b1, audit]
 ---
 
@@ -17,6 +17,9 @@ reviewed, find any file that still carries un-reworded language, and check
 that the phase map, phases, templates, and profit gate still cross-reference
 each other correctly after the edit. No CASTLE target was changed during this
 pass.
+
+Accepted and filed July 20, 2026 in the canonical July 19 system-update packet.
+Its bounded `NOW.md` finding was resolved in the same follow-up pass.
 
 ## Verification Performed
 

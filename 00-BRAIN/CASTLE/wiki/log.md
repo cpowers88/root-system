@@ -1495,3 +1495,23 @@ other named scopes pass. Slice A0 is clear.
   routine maintenance under `OPERATIONS.md`'s standing authority whenever
   `NOW.md` is next touched; otherwise proceed to the open Python rep or the
   live Day 3 SQLite contract.
+
+## 2026-07-20 — Weekly contract and cockpit aligned to the reconciled system (Codex)
+
+- **Outcome:** kept the weekly-review template in its North Star owner and
+  rewrote it around School, Technology, Business/Value, Chris-owned capacity,
+  System/AI support, the canonical Return Packet, Watchtower/Engine Question,
+  and one compact completion sweep; aligned the completed July 16–19 review as
+  the first live instance of that contract.
+- **Cockpit truth:** refreshed `NOW.md` to July 20, replaced the completed B1
+  commit action with real-use proof, and removed the AI-assigned “first thing,
+  every day” school timing while preserving Python as the current school proof.
+- **Evidence home:** accepted Claude's completed B1 rewording audit, changed it
+  to `timeline: log` / `status: complete`, and filed it in the July 19
+  reconciliation packet; the packet index now distinguishes resolved follow-up
+  from the two remaining accepted debts.
+- **Decision:** no folder move and no Slice C work. Weekly reviews remain in
+  `01-NORTH_STAR\Weekly Reviews`; DAILYs supply evidence and CASTLE consumes only
+  material decisions/status movement.
+- **Next exact action:** return to the open Python proof or the live Day 3 SQLite
+  contract; D2L remains first on July 26.
