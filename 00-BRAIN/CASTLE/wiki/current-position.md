@@ -38,6 +38,7 @@ tags: [baseline]
 | Financial continuity | material constraint | Only approved evidence tests; no copied lane mechanics here | REVENUE_LAB + NOW.md |
 
 Temporary sprint pauses and exact drill positions do not change these monthly states.
+If states diverge mid-month, [[skill-map]]'s register is live truth; this table is the monthly snapshot.
 
 ## July Weak Links
 

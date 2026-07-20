@@ -25,14 +25,25 @@ duplicate their live boards.
 
 Operate as an **Advisor-Builder** where business reality meets technical execution.
 Enter an organization, observe the work as it actually happens, identify the
-operational friction and money it costs, redesign the workflow around people and
-AI, recommend or build only the right technology, train the people involved,
+operational friction and money it costs, redesign the workflow around the right
+combination of people, process, data, software, automation, and AI, recommend or
+build only what the mapped problem justifies, train the people involved,
 maintain what works, and harvest reusable assets from the engagement.
 
 The methodology is industry-agnostic. The current entry markets are access wedges,
 not identity constraints.
 
-## The Execution Loop
+The current strategy tests one claim: that understanding how real work moves
+across people, process, data, software, automation, AI, and integration — and
+proving combinations that measurably improve the workflow — can convert into
+paid engagements and compounding assets. Offers, industries, prices, and revenue
+vehicles remain evidence-replaceable hypotheses.
+
+## Advisor-Builder Delivery Pattern
+
+This is the delivery method inside one engagement. The canonical System Loop is
+defined once in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` and
+is not redefined here.
 
 1. **Observe** the real workflow, not the official story.
 2. **Diagnose** friction, waste, missing feedback, bad data flow, and economic cost.
@@ -152,7 +163,9 @@ silently rewrite the strategy or North Star.
 
 ## Next Strategy Proof
 
-Continue normal school and technical preparation while completing the next real
-workflow-observation proof and the explicitly approved Revenue Lab tests. Do not
-open a new business lane without evidence, displacement, a bounded test, and CASTLE
-review.
+Continue school and workflow-stack capability first: complete the next real
+workflow-observation proof and the authorized technology/integration reps.
+Explicitly approved Revenue Lab tests run as bounded evidence experiments;
+unrelated revenue work does not outrank capability building without Chris's
+bounded exception (North Star, Near-Term Priority). Do not open a new business
+lane without evidence, displacement, a bounded test, and CASTLE review.

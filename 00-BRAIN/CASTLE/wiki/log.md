@@ -1346,3 +1346,38 @@ other named scopes pass. Slice A0 is clear.
   Fall schedule matched Degree Works.
 - Revised the B0/B1 review packet with the verified baseline and an explicit
   credit-language acceptance test. No B0 companion was edited.
+
+## 2026-07-19 (late night) — A2 verified closed; B0/B1 review returned with one North Star decision open (Claude Code)
+
+- Slice A2 (`09ad613`) verified: single-home register live with "→ register"
+  markers, calibrated states, anchored priority frame, source dispositions,
+  clean greps, Degree Works evidence registered. A0→A1→A2 complete — every
+  CASTLE entrance and core map now matches the July 19 contract.
+- B0/B1 + review-home challenge: KEEP sequence, MODIFY contents. CURRENT_STRATEGY
+  edit reduced (S-05 stays falsifiable; prices already labeled; capability-first
+  proof reweighting now doctrine-required); prep-plan rewrite approved with
+  owner-relative gates; B1 gets corrected phase filenames plus
+  `adding-a-profit-skill.md`; review-home split confirmed, R1 folded into the
+  July 26 sweep.
+- **Open decision (Chris):** the installed North Star no longer names the
+  Spring-2027 income need that CURRENT_STRATEGY, current-position, and NOW.md
+  still carry. Option A: restore the fact in one sentence (recommended).
+  Option B: retire it and update the consumers. B0 implementation waits.
+- Full report: `00-BRAIN\Session_Logs\CASTLE_B0_B1_CLAUDE_REVIEW_2026-07-19.md`.
+- Next exact action: Chris decides A/B and approves B0 wording; implement B0,
+  then B1 before July 26.
+
+## 2026-07-19 (late night) — Slice B0 implemented, pending Chris diff review (Claude Code)
+
+- Installed the reviewed B0 wording: North Star Option A funding-fact restore;
+  CURRENT_STRATEGY thesis/anchor/delivery-pattern/proof-reweight edits (S-05
+  and pricing untouched by design); PRE-SEMESTER_PREP_PLAN slim rewrite with
+  owner-relative gates and zero copied learner state; source-summary-template
+  tier line aligned to the A2 source-map rule; current-position register
+  tiebreak line. Both B0 predecessors archived to 99-ARCHIVE.
+- Validation: frontmatter BASELINE MATCH (0 new); root health PASS WITH DEBT,
+  0 new debt. Left uncommitted for Chris's review by his direction.
+- Next exact action: Chris reviews the diff and commits, or strikes the
+  Option A sentence to choose Option B (consumer updates instead). Then B1
+  (phase pages with verified filenames + adding-a-profit-skill + remaining
+  templates) before July 26.
