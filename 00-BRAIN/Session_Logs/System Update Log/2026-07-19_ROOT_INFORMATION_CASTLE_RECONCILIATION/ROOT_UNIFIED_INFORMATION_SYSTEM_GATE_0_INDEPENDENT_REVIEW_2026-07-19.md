@@ -1,6 +1,6 @@
 ---
 type: report
-timeline: now
+timeline: log
 status: active
 tags: [governance, ai-automation, technology, business, audit]
 ---
@@ -295,4 +295,3 @@ interface, not a different physical system. The best option is therefore
 **interface-first, evidence-gated simplification**. If the flow model cannot make
 the existing system easier to operate without adding a second vocabulary, reject
 it.
-

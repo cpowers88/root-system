@@ -14,7 +14,7 @@ tags: []
 translation contract for the System Loop, five moves, pipeline, and cadence
 is live at `01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md`.
 Physical structure and the System Loop are unchanged. Full detail archived:
-`00-BRAIN\Session_Logs\NOW_ARCHIVE_2026-07-19.md`.
+`00-BRAIN\Session_Logs\System Update Log\2026-07-19_ROOT_INFORMATION_CASTLE_RECONCILIATION\NOW_ARCHIVE_2026-07-19.md`.
 
 1. **MCP Bootcamp is live, July 18–25.** One continuous construction case
    (`05-BUSINESS\02-Field Notes\observation_one.md`) runs through eight
@@ -96,7 +96,7 @@ baseline findings, 0 new. No HIGH flag open.
 **Still unresolved (Fall CASTLE calendar):** three Ben-Care/class overlaps
 (Tue/Thu ECON 8-8:55am; Mon/Wed CSE Lecture tail; Tue CSE Lab) pending
 Chris's childcare conversation with Heather — rebuild, don't patch, once
-that's settled. Detail: `00-BRAIN\Session_Logs\NOW_ARCHIVE_2026-07-19.md`.
+that's settled. Detail: `00-BRAIN\Session_Logs\System Update Log\2026-07-19_ROOT_INFORMATION_CASTLE_RECONCILIATION\NOW_ARCHIVE_2026-07-19.md`.
 
 ## Boundaries
 
@@ -120,7 +120,7 @@ that's settled. Detail: `00-BRAIN\Session_Logs\NOW_ARCHIVE_2026-07-19.md`.
 - Revenue evidence: `03-WIKIS\REVENUE_LAB\wiki\revenue-lane-scorecard.md`
 - Sequence/proof status: `00-BRAIN\CASTLE\wiki\current-position.md`
 - MCP Bootcamp live plan: `00-BRAIN\Session_Logs\ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`
-- Finished/paused context removed today: `00-BRAIN\Session_Logs\NOW_ARCHIVE_2026-07-19.md`
+- Finished/paused context removed today: `00-BRAIN\Session_Logs\System Update Log\2026-07-19_ROOT_INFORMATION_CASTLE_RECONCILIATION\NOW_ARCHIVE_2026-07-19.md`
 
 ---
 *If the date or any live truth is stale, update this page from the owning file; do

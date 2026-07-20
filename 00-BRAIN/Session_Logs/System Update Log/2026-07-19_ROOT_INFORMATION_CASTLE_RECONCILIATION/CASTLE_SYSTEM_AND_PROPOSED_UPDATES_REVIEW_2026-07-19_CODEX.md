@@ -1,6 +1,6 @@
 ---
 type: report
-timeline: now
+timeline: log
 status: proposed
 tags: [castle, system-review, governance, ai-os, audit]
 ---

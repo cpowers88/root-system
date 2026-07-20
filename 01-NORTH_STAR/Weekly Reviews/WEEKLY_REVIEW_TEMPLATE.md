@@ -6,7 +6,12 @@ tags: []
 
 # WEEKLY REVIEW — [START DATE] to [END DATE]
 ### Copy rule: use `type: review`; set `timeline: now` while open and `timeline: log` when closed.
-### Every Sunday · target under 90 minutes · use live NORTH_STAR.md rather than copying its doctrine here
+### Close each Sunday · target under 90 minutes · use live owners instead of copying their state
+
+If cadence slips, write one evidence-bounded recovery review in the next session;
+do not fabricate separate missed reviews. A recorded review closes with
+`timeline: log` and `status: complete`. Use `awaiting-review` only when a specific
+Chris decision remains, and name that decision in the body.
 
 ## Week at a Glance
 
@@ -65,6 +70,9 @@ What added friction:
 What an AI should do differently:
 
 Open flags or files requiring attention:
+
+Completion sweep (point to live owners; do not duplicate their tables): due flags,
+`77-INBOX` / `Clippings`, due `check_at` outcomes, and report-ledger/packet integrity.
 
 ## Next Week
 

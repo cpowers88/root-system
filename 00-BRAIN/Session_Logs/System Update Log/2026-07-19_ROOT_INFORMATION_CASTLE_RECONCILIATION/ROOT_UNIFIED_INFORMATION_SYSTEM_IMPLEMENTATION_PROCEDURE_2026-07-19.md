@@ -1,6 +1,6 @@
 ---
 type: plan
-timeline: next
+timeline: log
 status: draft
 tags: [governance, ai-automation, technology, business, audit]
 ---

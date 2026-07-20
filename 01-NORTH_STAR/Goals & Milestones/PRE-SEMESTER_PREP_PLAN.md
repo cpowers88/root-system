@@ -36,10 +36,10 @@ at the live frontier beats an artificial chapter or problem-set count.
 ## Capacity Boundary
 
 Chris declares available capacity; this plan sizes work to it, and Chris owns
-timing outside fixed commitments. One school-proof block per day remains the
-protected floor; the North Star's technology/business floor runs when school
-preparation is on track. Food, movement, family transitions, sleep, and
-recovery are capacity constraints, not failures in the plan.
+timing outside fixed commitments. When Chris declares a school-proof block for
+the day, this plan protects it; the North Star's technology/business floor runs
+when school preparation is on track. Food, movement, family transitions, sleep,
+and recovery are capacity constraints, not failures in the plan.
 
 ## Readiness Gates
 
@@ -62,7 +62,8 @@ recovery are capacity constraints, not failures in the plan.
 ### Course setup
 
 - [ ] Verify the official roster; remove all dropped-course assumptions.
-- [ ] Verify TCOM, ECON, ENGR, CSE 1321/1321L, and PHYS 2211 dates, weights,
+- [ ] Verify all six registered course components — TCOM, ECON, ENGR, CSE 1321,
+  CSE 1321L, and PHYS 2211 — including dates, weights,
   platforms, instructor details, and academic-integrity/AI rules from current
   official sources; trust D2L over recycled scans (open flag #57).
 - [ ] Put fixed deadlines into the authoritative calendar/tracker once, then
@@ -76,7 +77,7 @@ recovery are capacity constraints, not failures in the plan.
   positions recorded honestly.
 - [ ] Academic Tracker populated with verified real course data and used
   successfully.
-- [ ] All five courses' requirements and AI policies verified.
+- [ ] All six registered course components' requirements and AI policies verified.
 - [ ] First-week fixed commitments visible in the calendar/tracker and
   reflected in `NOW.md`.
 - [ ] One concise readiness review records what is proven, in progress, and

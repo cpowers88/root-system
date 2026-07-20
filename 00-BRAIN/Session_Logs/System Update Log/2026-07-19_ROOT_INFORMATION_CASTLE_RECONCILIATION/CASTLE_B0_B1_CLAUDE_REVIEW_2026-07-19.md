@@ -1,6 +1,6 @@
 ---
 type: report
-timeline: now
+timeline: log
 status: proposed
 tags: [castle, north-star, governance, claude-review, slice-b0]
 ---

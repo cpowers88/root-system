@@ -1,6 +1,6 @@
 ---
 type: report
-timeline: now
+timeline: log
 status: implemented
 tags: [castle, governance, north-star, slice-b1]
 ---

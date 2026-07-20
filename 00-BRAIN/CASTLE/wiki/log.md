@@ -1447,3 +1447,51 @@ other named scopes pass. Slice A0 is clear.
 - **Status movement:** report only; no B1 target changed.
 - **Next exact action:** Chris sends the Group 6/8 exact wording to Codex for
   incorporation; then the packet's own acceptance tests gate implementation.
+
+## 2026-07-20 — Immediate next-step ruling after B1 checkpoint (Codex)
+
+- Verified the B0.1+B1 batch is committed and pushed on clean `main` at
+  `490e8ab`; the next phase is real-use proof, not another broad system edit.
+- Issued
+  `CASTLE_IMMEDIATE_NEXT_STEP_AND_PROCESS_SEQUENCE_REPORT_2026-07-20.md`:
+  protect the smallest Python school proof, run Bootcamp Day 3's provenance-safe
+  SQLite fixture, and return evidence to owners.
+- Clarified that Unified Information System Gate C and CASTLE Slice C are
+  separate July 26 decisions. D2L intake comes first; R1 still requires Chris's
+  explicit move/archive approval.
+- Found bounded cockpit truth debt: `NOW.md` and CASTLE `current-position.md`
+  still point to review/commit B1. No cockpit file was edited in this
+  report-only pass.
+- Next exact action: Chris approves the bounded cockpit truth refresh; then the
+  open Python loop rep or, if already complete, the live Day 3 SQLite contract.
+
+## 2026-07-20 — B1 rewording completion and system-flow audit (Claude, Technology Engineer + Operator hats)
+
+- Independent, report-only audit of the committed B0.1+B1 batch (`490e8ab`).
+  Read every B1 target live against the packet's required wording and the two
+  Group 6/Group 8 modifications from the July 19 independent review: phase
+  map, all five phase pages, `adding-a-profit-skill.md`, and all four
+  templates carry the required wording exactly. Re-ran both of the
+  independent review's own acceptance checks (no CASTLE phase page
+  hard-codes a tool as a requirement; the two-quarter phase-distance rule
+  string survives unchanged) — both pass.
+- Repo-wide grep confirmed zero live occurrences of the two retired phrases
+  ("multi-industry client base"; "credible North Star value path" outside
+  this log's own historical record). Skill map, opportunity queue, and
+  `skills\sql.md` already use post-B1 vocabulary; no drift found. Index-vs-
+  filesystem scan of `00-BRAIN\CASTLE\` found no orphaned or broken page
+  links. Re-ran canonical health independently: **PASS WITH DEBT**, 0
+  blockers, 519 reviewed frontmatter debt/0 new/101 resolved — matches this
+  morning's figures.
+- **Finding:** `.ROOT\NOW.md` is the only file still carrying un-reworded,
+  pre-commit language — header dated July 19 and its `.ROOT` row still says
+  to review/commit the B0.1+B1 batch that is already pushed. Corrected the
+  record on one point: `current-position.md` does **not** carry stale
+  review/commit language as this morning's report stated; that claim is
+  superseded.
+- Evidence: `00-BRAIN\Session_Logs\CASTLE_B1_REWORDING_AUDIT_2026-07-20_CLAUDE.md`.
+- Status movement: report only; no CASTLE target changed.
+- Next exact action: fold the two-line `NOW.md` date/status refresh in as
+  routine maintenance under `OPERATIONS.md`'s standing authority whenever
+  `NOW.md` is next touched; otherwise proceed to the open Python rep or the
+  live Day 3 SQLite contract.

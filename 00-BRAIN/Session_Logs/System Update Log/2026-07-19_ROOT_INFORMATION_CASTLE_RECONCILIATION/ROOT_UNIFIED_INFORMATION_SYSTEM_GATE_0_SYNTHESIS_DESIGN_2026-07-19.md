@@ -1,6 +1,6 @@
 ---
 type: report
-timeline: now
+timeline: log
 status: active
 tags: [governance, ai-automation, technology, business, audit]
 ---

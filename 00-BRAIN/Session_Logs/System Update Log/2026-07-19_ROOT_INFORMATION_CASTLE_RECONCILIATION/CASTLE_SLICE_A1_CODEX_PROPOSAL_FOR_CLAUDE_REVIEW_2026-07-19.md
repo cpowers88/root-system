@@ -1,6 +1,6 @@
 ---
 type: report
-timeline: now
+timeline: log
 status: awaiting-review
 tags: [castle, governance, codex, claude-review]
 ---
