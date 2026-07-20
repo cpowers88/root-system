@@ -36,7 +36,9 @@ Skills demonstrated, each linked: [[skill-page]]
 - [ ] Checkable outcomes only
 
 ## North Star Connection
-Track (School / Tech / Business) and the service capability this feeds.
+Name the track and the value path this proof serves: academic, technical,
+operational, employability, commercial, or reusable asset. Link a service
+capability only when the project genuinely feeds one.
 
 ## Status Log
 | Date | What happened | Next action |

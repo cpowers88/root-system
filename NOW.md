@@ -58,7 +58,7 @@ baseline findings, 0 new. No HIGH flag open.
 | Technology | MCP Bootcamp Days 1–2 closed over the real `observation_one.md` case; MCP itself remains the ≤3 hr Automation/AI-lens capstone, not the whole week | Mon Jul 20 live session: Data Engineering — SQLite structuring + BLS ETL exercise |
 | Business | Advisor-Builder is the current hypothesis; July 16 profit gate chose the first service proof: Flip Margin Leak replay (OPP-20260716-01, worth testing); closing-exception autopsy is HOLD (OPP-20260716-02) | With Chris's approval, one 60-min completed-flip replay with a warm-network flipper; one Sheet max |
 | Continuity income | Additional income is needed before Spring 2027 enrollment | B2 conversation still requires Chris's approval; Lane A: Chris hand-fills the top-100 classification worksheet, and one private scanner walkthrough has conditional GO (≤90 added min, then park-or-proceed review) |
-| `.ROOT` | Slices A0–A2 committed; B0 implemented and **uncommitted, awaiting Chris's diff review** — North Star funding-fact restore (Option A), CURRENT_STRATEGY reconciliation, prep-plan slim rewrite, two one-line fixes | Chris reviews `git diff` and commits B0 (or strikes Option A for Option B); then B1 (phases/templates/profit-gate) lands before July 26. Slice C + R1 fold into the July 26 sweep with the `check_at` outcomes |
+| `.ROOT` | Slices A0–A2 and B0 committed; B0.1 and B1 installed after independent review; phase, template, and profit-gate consumers now match the capability-first contract | Review and commit the bounded B0.1+B1 batch, then stop broad system editing and return to real proof. Slice C + R1 remain folded into the July 26 sweep with the `check_at` outcomes |
 
 ## This Week
 

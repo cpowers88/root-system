@@ -31,7 +31,10 @@ What exists that anyone could inspect (file, repo, report, deployed tool, delive
 ## What It Demonstrates
 
 ## Witnessed / Used By
-Self-use counts. Client use counts more. Paid use counts most.
+Match evidence strength to the claim. Independent performance may be strongest
+for mastery; real operational use for usefulness and reliability; another person's
+decision or adoption for delivery value; willingness to pay or paid use for a
+commercial claim. Do not use one universal hierarchy for different claims.
 
 ## Gap Revealed
 What the work showed still isn't strong enough, and where that goes: [[skill-map]]

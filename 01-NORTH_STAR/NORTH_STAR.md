@@ -38,6 +38,9 @@ reviewed outcomes. I make the final decisions; AI may challenge, execute, valida
 - **Near-term capability:** learn how real workflows, business applications, data, automation, AI, and integrations fit together;
   understand what organizations use and why; prove the ability to combine technology that improves work. Aligned income may
   follow, but unrelated revenue does not outrank this capability unless Chris explicitly chooses a bounded exception.
+- **Near-term funding constraint:** the July 2026 funding change requires additional income before Spring 2027 enrollment.
+  Aligned income is preferred; REVENUE_LAB owns the evidence, and this constraint does not make unrelated revenue outrank
+  capability building without Chris's explicit decision.
 - **Permanent capability base:** systems thinking and workflow diagnosis; AI, software, data, and automation; technology-stack
   integration, security, operational reliability, communication, and business judgment.
 - **Human governance:** Chris owns direction, timing, relationships, accountability, consequential decisions, and final quality. AI supplies leverage.

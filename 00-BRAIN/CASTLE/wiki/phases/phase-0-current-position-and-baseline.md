@@ -26,7 +26,7 @@ live fix for the #1 skill gap (SQL) and the walking-into-CSE-1321-loaded advanta
 - Honest self-assessment — the monthly weak-link question
 
 ## Skills NOT Needed Yet
-- Flask, APIs, automation platforms — Phase 3+ picks them up
+- Web applications, APIs, and automation platforms — wait for a verified need
 - Sales/outreach skills — Phase 4
 - Any parked skill or idea that has not passed the active CASTLE gate
 
@@ -37,10 +37,10 @@ live fix for the #1 skill gap (SQL) and the walking-into-CSE-1321-loaded advanta
 | KSU_Academic_Tracker_Brief.md | internal-spine | `02-LIBRARY\.PROJECTS\KSU_Academic_Tracker\` | Scope + data model of the proof project |
 | CS50P (Harvard) | 1 | online | Python path |
 
-## Tools to Learn
+## Tools or Methods in the Current Proof
 sqlite3, argparse, datetime (all inside the tracker build)
 
-## Business Capability Unlocked
+## Capability and Value Enabled
 None yet — that's honest. This phase buys the *foundation* every capability sits on.
 
 ## Proof Projects

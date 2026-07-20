@@ -9,19 +9,20 @@ tags: [phase]
 # Phase 2 — Audit Methodology Foundation
 
 **Window**: September 2026 – February 2027 (runs alongside Phase 1, at semester pace)
-**One-line purpose**: Turn audit instinct into a documented, repeatable, sellable method.
+**One-line purpose**: Turn diagnostic instinct into a documented, repeatable method that can support the current offer hypothesis and other real decisions.
 
 > **Metadata note:** the first live observation is current (`timeline: now`); the formal phase remains `status: planned` until its September window opens.
 
 ## Purpose
-Build and rehearse the observation → map → findings pipeline so that by February 2027
-Chris can walk into a contractor's operation with a method, not a vibe. The audit is
-the first product; it needs no software — eyes, a clipboard, and a report.
+Build and rehearse the observation → map → findings pipeline so Chris can enter an
+accessible operation with a method, not a vibe. The observation audit is the
+current first-offer hypothesis; the underlying diagnostic capability transfers to
+other workflows and decisions.
 
 ## Why It Matters to the North Star
-Phase 5 (first client, March 2027) sells exactly one thing: an observation session
-plus a written audit report. This phase builds that thing. Diagnosis is what the
-market pays for; the build is table stakes.
+The current strategy tests an observation session plus a concise audit report as
+the first offer. This phase builds the transferable ability to find consequential
+friction, explain its effect, and recommend the smallest justified response.
 
 ## Skills Needed
 - Field observation & process documentation — Diagnostic
@@ -43,12 +44,14 @@ market pays for; the build is table stakes.
 | smb-ai-audit-method.md + templates/ | internal | `03-WIKIS\BUSINESS\` | The end-to-end audit + sales frame |
 | iSixSigma, ASQ.org | 2 | web (bookmark) | Vocabulary clients' ops managers know |
 
-## Tools to Learn
-Paper + camera + field-notes template first. Looker Studio for showing findings
-(gap #3: findings without visuals don't sell).
+## Tools, Methods, or Platforms Under Test
+Field notes and direct process evidence first. Choose a visual, table, calculation,
+demonstration, or concise explanation according to what makes the decision clearer;
+select any reporting platform through the Recommendation Ladder.
 
-## Business Capability Unlocked
-**The first sellable service**: observation session + written audit report.
+## Capability and Value Enabled
+Repeatable workflow diagnosis and decision-useful findings. Under the current
+strategy, the first commercial test is an observation session plus audit report.
 
 ## Proof Projects
 - One practice VSM on a real or known process (July–Sep) → evidence page
@@ -70,5 +73,5 @@ Paper + camera + field-notes template first. Looker Studio for showing findings
   commitments require it; AI warns once and Chris decides the scope
 
 ## Next Action
-Schedule the first live workflow observation before the semester starts, then turn
-that same evidence into the first practice VSM.
+The next approved live observation is sequenced through `.ROOT\NOW.md` within
+Chris-declared capacity; reuse that evidence for the first practice VSM when valid.

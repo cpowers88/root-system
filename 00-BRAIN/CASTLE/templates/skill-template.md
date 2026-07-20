@@ -33,9 +33,11 @@ tags: [skill]
 
 ## Why It Matters
 
-## What Business Problem It Solves
+## What Problem It Solves
 
-## What Service It Unlocks
+## Outcome or Value It Enables
+Name the academic, technical, operational, employability, commercial, or
+asset-producing value path. Do not invent a service connection when none exists.
 
 ## Source Support
 | Source | Tier | Location |

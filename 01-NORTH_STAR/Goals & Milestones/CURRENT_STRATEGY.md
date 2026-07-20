@@ -7,7 +7,7 @@ status: active-hypothesis
 
 # Current Strategy — Advisor-Builder
 ### The serious business bet being tested; not Chris's permanent identity
-### Last updated: July 14, 2026
+### Last updated: July 19, 2026 — mission-stack and capability-first reconciliation
 
 ## Authority and Loading Rule
 

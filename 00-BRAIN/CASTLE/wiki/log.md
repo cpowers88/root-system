@@ -1381,3 +1381,69 @@ other named scopes pass. Slice A0 is clear.
   Option A sentence to choose Option B (consumer updates instead). Then B1
   (phase pages with verified filenames + adding-a-profit-skill + remaining
   templates) before July 26.
+
+## 2026-07-19 (late night) — B0.1 truth correction and B1 proposal (Codex)
+
+- Fresh CASTLE review found that commit `8b83fc8` installed the B0 companion
+  edits but did not modify `NORTH_STAR.md`, despite the preceding log claiming
+  the Option A funding sentence was installed. `NOW.md` also still called the
+  already-pushed B0 commit uncommitted.
+- Chris clarified that he had erased the funding sentence and explicitly
+  authorized its restoration. North Star now holds capability-first priority
+  and the Spring 2027 funding constraint without letting unrelated revenue
+  outrank capability automatically.
+- Preserved the exact pre-change North Star at
+  `99-ARCHIVE\ARCHIVED_2026-07-19_NORTH_STAR_PRE_FUNDING_FACT_RESTORE.md`;
+  SHA-256 matched before editing. Corrected the stale `NOW.md` status and the
+  strategy file's update date.
+- Created `CASTLE_B0_1_CLOSURE_AND_B1_IMPLEMENTATION_PROPOSAL_2026-07-19.md`.
+  B1 is restricted to existing phase, template, and profit-gate consumers; no
+  B1 target changed.
+- Next exact action: independent review returns exact B1 modifications; Chris
+  approves wording before the archive/edit batch.
+
+## 2026-07-19 (late night) — Slice B1 installed after independent review (Codex)
+
+- Chris approved implementation from
+  `CASTLE_B1_INDEPENDENT_REVIEW_2026-07-19_CLAUDE.md`. Adopted Claude's two
+  required changes: the paid-floor exception remains a named profit-gate
+  exception, and the no-orphan test gains specific value paths without a broad
+  North Star catch-all. The exact two-quarter parking rule remains explicit.
+- Updated phase map, Phases 0–4, `adding-a-profit-skill.md`, and the phase,
+  skill, project, and evidence templates. Strategy milestones now have one
+  owner; general capabilities no longer require a service; tools and formats
+  follow the live problem unless an approved proof fixed them.
+- Preserved all eleven approved predecessors under
+  `99-ARCHIVE\ARCHIVED_2026-07-19_CASTLE_B1_*`; each archive SHA-256 matched its
+  live source before editing.
+- Scoped scan: zero retired B1 phrases. Phase 0 retains only tracker-selected
+  tool specifics; Phase 3 names other tools as candidates or sources, not
+  permanent requirements. No page, phase, skill, or revenue lane was created.
+  Canonical health is **PASS WITH DEBT**: zero blockers, zero wiki-review
+  findings, 519 reviewed metadata findings, 0 new, 101 resolved, and clean
+  staged/unstaged whitespace plus Markdown integrity.
+- Next exact action: review and commit the bounded B0.1+B1 batch, then stop broad
+  system editing. Recheck semantic drift with Slice C + R1 on July 26.
+
+## 2026-07-19 (evening) — B1 independent review returned (Claude, Technology Engineer + Operator hats)
+
+- **Outcome:** verified every quoted claim in the B0.1/B1 packet against live
+  files (North Star funding restore, archive SHA path, CURRENT_STRATEGY date,
+  and every B1 target file's actual wording — all accurate). Returned
+  KEEP/MODIFY/REJECT for all eight B1 change groups in the packet's own
+  requested format.
+- **Verdict:** approve with two required wording changes. Group 6 (Phase 4)
+  as drafted would have silently loosened the existing "never $0" paid-floor
+  doctrine — tied the exception to the profit-gate's existing "When to Break
+  It" mechanism instead. Group 8 (profit gate) as drafted adds an
+  open-ended "credible North Star value path" clause that defeats the
+  no-orphan test's own stated mechanical purpose — replaced with a bounded
+  list plus an explicit two-quarter-rule preservation check. Groups 1–5 and 7
+  confirmed sound, no changes.
+- **Evidence:**
+  `00-BRAIN\Session_Logs\CASTLE_B1_INDEPENDENT_REVIEW_2026-07-19_CLAUDE.md`
+  (full per-group review, exact replacement wording for Groups 6 and 8, two
+  added validation checks).
+- **Status movement:** report only; no B1 target changed.
+- **Next exact action:** Chris sends the Group 6/8 exact wording to Codex for
+  incorporation; then the packet's own acceptance tests gate implementation.
