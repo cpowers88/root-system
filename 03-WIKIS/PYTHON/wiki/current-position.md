@@ -26,9 +26,14 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
   independently corrected (removed the stray `D` band, `else` now prints `F`
   for anything below 70) and verified. See `wiki/log.md` 2026-07-16.
 - **Current study stage: Stage 3 — Loops.** `wiki/stages/stage-03-*.md`.
+- **Exact learner frontier:** the first Stage 3 rep is mid-drill at
+  `break`/`continue`. Resume with the `range(1, 21)` loop that stops at the
+  first multiple of 7. The accumulator pattern previously needed four attempts,
+  so retrieve it once without rebuilding the whole lesson. Then continue to loop
+  tracing, the guessing-game mini-project, and the Stage 3 mastery checklist.
 - **Stages 3-10 are generated but not yet mastered.** Their packets exist and are ready, but Chris has not worked through or demonstrated mastery of any of them yet. Do not treat their existence as progress.
 
-**This page must never be read as "Chris should start at Stage 10."** Stages 0-2 are complete. His next action is to open Stage 3 and begin loops.
+**This page must never be read as "Chris should start at Stage 10."** Stages 0-2 are complete. Resume at the exact Stage 3 frontier above.
 
 ## Current Learner Baseline
 

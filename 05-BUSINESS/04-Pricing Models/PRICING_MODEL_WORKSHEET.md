@@ -7,27 +7,31 @@ tags: [business, pricing]
 
 # PRICING_MODEL_WORKSHEET.md — Pricing Skeleton
 ### vault_map.md trigger: "define after July 4" — this is the skeleton to define against
-### Status: SKELETON v1 (July 5, 2026) — ⚠ every number here is a placeholder for Chris to set.
+### Status: SKELETON v2 (July 21, 2026) — ⚠ every number and engagement shape here is a hypothesis for Chris to test and set.
 ### Nothing in this file is a commitment. It exists so pricing decisions happen against a frame, not a blank page.
 
 ---
 
-## The Pricing Logic (fixed — this part isn't a placeholder)
+## Pricing Decision Principles
 
-1. **Price the outcome, not the hours.** The one-pager already states
-   what the waste costs per month. The fee anchors against that number.
-2. **The audit is priced to be an easy yes.** It exists to prove value
-   and earn the retainer — not to maximize first-engagement revenue.
-3. **The retainer is where the business lives.** NORTH_STAR.md math:
-   5 retainer clients × $1,500/mo ≈ $90K/yr by mid-2029. The audit
-   funnel feeds that.
-4. **Never price against your own free fix.** The one-pager gives away
-   the eliminate/simplify wins. The paid work is the mapping, the
-   integration, the build, and the maintenance.
+These principles guide a real pricing decision; they are not universal rules.
+`CURRENT_STRATEGY.md`, field evidence, buyer response, delivery economics, and
+Chris's approval govern the actual offer.
+
+1. **Anchor to defensible value when it can be measured.** Use conservative outcome,
+   cost, and payback reasoning; do not invent precision where evidence is weak.
+2. **The observation audit is the current first-offer hypothesis.** Its scope and
+   price must test whether the report itself creates recognized value; it does not
+   exist merely to force an implementation or retainer funnel.
+3. **Implementation and retained support are possible outcomes.** They are offered
+   only when findings, ownership, maintenance need, and delivery economics justify
+   them. "No implementation" and "use or simplify what exists" are valid outcomes.
+4. **Price the justified work.** Hourly, fixed-fee, outcome-linked, or retained
+   structures are choices to test against scope/risk—not permanent doctrine.
 
 ---
 
-## Tier 1 — The Observation Audit (the first offer)
+## Scenario 1 — Observation Audit (current first-offer hypothesis)
 
 What they get: on-site observation, process map, friction inventory
 with $ estimates, one-pager + full written report.
@@ -42,11 +46,11 @@ Anchor sentence for the sales conversation:
 "If I can't find at least [3–5× the fee] in annual waste, the report
 is free." ⚠ — decide whether to use a guarantee at all.
 
-## Tier 2 — Fix Implementation (project work)
+## Scenario 2 — Justified Implementation (project work)
 
-Scoped from report findings: configure/integrate/build-light rungs.
-Fixed-price per project, quoted from the report — never hourly
-(hourly punishes your own speed).
+Scoped only from report findings that survive the Recommendation Ladder. Fixed-price
+is one candidate when scope and risk are bounded; another structure may be more honest
+when uncertainty is high.
 
 | Variable | Placeholder | Chris decides |
 |---|---|---|
@@ -54,17 +58,16 @@ Fixed-price per project, quoted from the report — never hourly
 | Build-light (script, dashboard, Airtable/Flask tool) | $1,500–5,000 | ⚠ |
 | Rule | Quote ≤ ⅓ of the annual waste it removes | ⚠ |
 
-## Tier 3 — The Retainer (the real product)
+## Scenario 3 — Retained Support (only when earned)
 
-What they get: systems maintained, dashboards current, new waste
-flagged quarterly, priority response. A standing quarterly mini-audit
-keeps the relationship legible (TECHNOLOGY_LIBRARY_STRATEGY.md —
-"maintenance of the ladder").
+Possible value: systems maintained, dashboards current, recurring failures reviewed,
+and priority response. Scope, cadence, and continuation depend on a demonstrated
+maintenance need and measurable usefulness.
 
 | Variable | Placeholder | Chris decides |
 |---|---|---|
 | Entry retainer | $500–750/mo | ⚠ |
-| Standard (NORTH_STAR anchor) | $1,500/mo | per plan |
+| Standard scenario (current strategy milestone test) | $1,500/mo | ⚠ |
 | Included hours/month cap | 5–8 | ⚠ |
 | Review cadence | quarterly mini-audit | ⚠ |
 
@@ -78,10 +81,10 @@ keeps the relationship legible (TECHNOLOGY_LIBRARY_STRATEGY.md —
 3. Construction pricing vs. general SMB pricing — same card or adjusted?
 4. When Tier 2 work is big enough to pause the retainer vs. bill both.
 
-**Review trigger:** revisit this worksheet after every practice audit
-and finalize v2 before the first real conversation (Sep 2026–Feb 2027
-window under the current strategy's first-contact sequencing).
+**Review trigger:** revisit after a practice/live audit creates pricing evidence,
+before a qualified pricing conversation, or when `CURRENT_STRATEGY.md` changes. Do
+not finalize numbers merely because a calendar window arrives.
 
 ---
-*Skeleton by Claude July 5, 2026. Placeholders ⚠ are frames, not recommendations — the market and the proof phase set the real numbers.*
-*Last updated: July 5, 2026*
+*Skeleton by Claude July 5, 2026. Placeholders ⚠ are scenarios, not recommendations — evidence and Chris's approval set the real numbers.*
+*Last updated: July 21, 2026 — W1 capability-first and evidence-gated pricing reconciliation*

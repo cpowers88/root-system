@@ -33,11 +33,12 @@ What breaks if I delete this?
 Friction patterns: waiting, rework, double entry, tribal knowledge,
 manual handoffs, spreadsheet-as-database, text/email as system of
 record, missing feedback loop.
-Output: process map → friction inventory → quick wins → tool
-recommendations → automation opportunities → retainer proposal.
+Output: process evidence → friction and consequence → smallest justified
+recommendation → next decision.
 Method file: 05-BUSINESS\01-Audit Templates\OBSERVATION_METHODOLOGY.md.
-Rule: the audit is the first product. Software comes after the
-workflow proves the need.
+Rule: under the current strategy, a concise observation audit is the first-offer
+hypothesis. Implementation or retained support must be earned by evidence; "change
+nothing" or "simplify what exists" may be the correct outcome.
 
 ## SKILL: Technology Recommendation
 Trigger: any "should I/they use X" — tool selection, software

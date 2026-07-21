@@ -10,11 +10,12 @@ tags: [skill]
 # Field Observation & Process Documentation
 
 **One-line definition**: Watching real work happen — not asking about it — and capturing
-what's slow, broken, manual, repeated, or missing in a form that becomes an audit finding.
+what's slow, broken, manual, repeated, or missing as evidence another person can
+trace and use.
 **Phase**: [[phase-2-audit-methodology-foundation]]
 **Minimum useful level**: Can walk a process twice (per the VSM field method), take
 structured field notes without leading the subject, and produce a friction inventory a
-business owner recognizes as accurate.
+workflow owner or practitioner recognizes as accurate.
 
 ## What This Skill Is
 The observation half of the audit method — distinct from interviewing. Walk the actual
@@ -24,21 +25,27 @@ systems questions (`00-BRAIN\HATS\HAT_OPERATOR.md`): where does state live, wher
 feedback live, what breaks if I delete this.
 
 ## Why It Matters
-The audit is the first product ([[north-star-roadmap]]) and observation is its raw
-material — a report built from a conversation instead of a walk-through reads as
-guesswork to an owner who lives the process daily. This is the diagnostic skill the
-market actually pays for, per BUSINESS wiki's warning against over-investing in build
-skills instead.
+Observation separates the workflow as imagined from the workflow as performed. It
+supports engineering study, operational diagnosis, employability, and reusable
+method-building. Under the current Advisor-Builder strategy, it is also the evidence
+base for the observation-audit first-offer hypothesis; whether that offer earns paid
+implementation or retained support remains a market test, not a property of the skill.
 
-## What Business Problem It Solves
-Owners and staff describe their process as it's supposed to work, not as it actually
-runs — workarounds, manual patches, and dropped steps stay invisible until someone
-watches. Observation surfaces the gap between the documented process and the real one.
+## What Problem It Solves
+People often describe a process as it is supposed to work, not as it actually runs.
+Workarounds, manual patches, and dropped steps stay invisible until someone watches.
+Observation surfaces the gap between the documented process and the real one.
 
-## What Service It Unlocks
-The Business Flow Map and Task Inventory steps of `smb-ai-audit-method.md`
-(`03-WIKIS\BUSINESS\wiki\ai-integration-company\`) — the foundation every later audit
-step (waste diagnosis, revenue-leakage analysis, priority scoring) builds on.
+## Outcome or Value It Enables
+- **Academic/engineering:** actual-state process maps, VSM practice, and evidence for
+  systems or flow analysis.
+- **Operational:** recognized friction, failure points, handoffs, and missing feedback
+  before a solution is selected.
+- **Employability:** credible workflow-discovery and process-documentation evidence.
+- **Commercial hypothesis:** Business Flow Map and Task Inventory inputs for the
+  current observation-audit offer and any later evidence-justified work.
+- **Reusable asset:** tested field-note, observation, and workflow-map methods that
+  improve with real reps.
 
 ## Source Support
 | Source | Tier | Location |

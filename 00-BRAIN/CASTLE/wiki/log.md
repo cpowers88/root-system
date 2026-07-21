@@ -1563,3 +1563,58 @@ other named scopes pass. Slice A0 is clear.
 - **Status:** recommendation only. No sprint owner or schedule changed; Chris's
   approval is required before the content pivot is recorded in `NOW.md` or the live
   boot-camp plan.
+
+## 2026-07-21 — W0 immediate truth corrections implemented (Codex)
+
+- Chris approved Slice W0 from the July 20 full-Markdown audit. Reconciled the
+  Python learner owner and active learning-path consumer to the Stage 3 mid-drill
+  frontier; removed copied stale state and fixed-time language from the Python
+  guide.
+- Corrected the tracker from five courses to six registered components across five
+  subject areas and changed its proof from compulsory morning use to correct,
+  continued real-workflow use with friction evidence.
+- Updated Technology Strategy from Stage 2 to Stage 3 and broadened its decision/value
+  language beyond a mandatory audit/retainer funnel while preserving the current
+  commercial hypothesis.
+- Replaced Phase 0's false "None yet" statement with precise shipped tracker
+  capability and explicit unproven boundaries.
+- No new capability, market, revenue, or mastery claim was created. Validation and
+  W0 acceptance checks follow before closure.
+- **Validation status:** W0-specific stale-wording and whitespace checks pass after
+  correcting one additional Stage 2 pointer in the active Python index. The
+  canonical health checkpoint is not closed: the user-created temporary root file
+  `CODEXAnswer.md` adds one missing-frontmatter finding. Codex did not read or
+  modify that file. Re-run health after Chris/Claude dispositions the temporary
+  handoff file.
+
+## 2026-07-21 — W1 capability-first consumer sync implemented (Codex)
+
+- Chris approved Slice W1 from the July 20 full-Markdown audit. Reframed the field
+  observation and SQL skill pages around the problems they solve and the academic,
+  technical, operational, employability, commercial-hypothesis, and reusable-asset
+  outcomes they enable.
+- Replaced the Operator workflow-audit script's deterministic automation/retainer
+  funnel with process evidence, consequence, smallest justified recommendation,
+  and next decision.
+- Reconciled the pricing, observation, and full-report templates to current strategy:
+  prices/offers/cadence remain hypotheses; evidence-preservation replaces clock
+  compliance; no implementation, eliminate/simplify, and use-existing are first-class
+  outcomes; implementation or retained support must be earned.
+- No market demand, client readiness, revenue, or capability advancement was inferred.
+  Deterministic acceptance and health checks follow before closure.
+
+## 2026-07-21 — W0 and W1 validation closure (Codex)
+
+- **W0 closed:** after Chris removed the temporary handoff file, canonical health
+  returned PASS WITH DEBT with 0 blockers, 519 reviewed baseline findings, 0 new,
+  and 101 resolved. Targeted active-owner contradiction and whitespace checks pass.
+- **W1 closed:** targeted scan found zero retired funnel/cadence phrases in the six
+  active consumers. Field observation and SQL retain academic, technical,
+  operational, employability, commercial-hypothesis, and reusable-asset paths. The
+  Operator/templates retain the first-offer and retained-support hypotheses while
+  making no implementation, eliminate/simplify, and use-existing valid outcomes.
+- Frontmatter audit is BASELINE MATCH; canonical health is PASS WITH DEBT with 0
+  blockers and 0 new metadata findings; wiki navigation, shared skills, staged and
+  unstaged whitespace, and live Markdown integrity pass.
+- Scope remains W0/W1 only. W2 waits for its time/decision gates; W3 remains a
+  separate deterministic BUSINESS metadata cohort.

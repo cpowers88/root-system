@@ -1057,6 +1057,27 @@ Stage 2 decision-rules drill.
 Chris independently corrects rule 3 in `S2P3.py`, then explains the `elif` and `or`
 choices in `Story.py` from memory before Stage 2 can close.
 
+## 2026-07-21 — W0 learner-owner truth correction (Codex)
+
+### Work completed
+- Reconciled `current-position.md` to the live Stage 3 mid-drill frontier already
+  recorded in `NOW.md`: resume `break`/`continue`, lightly retrieve the accumulator
+  pattern, then continue through tracing, the guessing-game build, and mastery gate.
+- Removed copied learner-status prose and the fixed 45-minute example from
+  `HOW_TO_USE.md`; the guide now points to the owner and uses a capacity-sized rep.
+- Corrected the volatile Current Position block in `learning-path.md` so it no
+  longer contradicts the sole learner-truth owner; the durable stage map was not
+  changed.
+- Corrected the active `index.md` router from Stage 2 to Stage 3 after the W0
+  semantic acceptance scan found the final stale current-stage pointer.
+
+### Progress evidence
+No new mastery was inferred. This pass records already-demonstrated Stage 2 closure
+and the already-recorded Stage 3 frontier; Stage 3 remains open.
+
+### Next action
+Resume the exact Stage 3 mid-drill frontier in `current-position.md`.
+
 ### Validation
 
 - Strict wiki lint: PASS (9 hubs, 1,178 pages, 0 blockers, 0 review debt).

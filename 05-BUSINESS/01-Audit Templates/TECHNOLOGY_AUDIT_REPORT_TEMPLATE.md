@@ -10,7 +10,9 @@ tags: [business, audit]
 
 ---
 
-> **NOTE FOR PRACTICE:** Fill this out for a business you know well — a contractor, restaurant, retail store. Be brutally honest. Nobody will see this except you. The goal is to practice the genre of writing and the habit of thinking like an auditor. Write one per month starting Month 3.
+> **USE NOTE:** Complete this only when an approved real or sandbox workflow
+> justifies a full report. Practice on safe, non-private evidence. The goal is a
+> decision another person can trace—not compliance with a monthly writing quota.
 
 ---
 
@@ -107,7 +109,9 @@ tags: [business, audit]
 
 ### Priority 1 — [Quick Win, High Impact]
 **The problem:**
-**The solution:**
+**Recommendation Ladder rung:** [eliminate / simplify / use existing / configure / integrate / build]
+**The smallest justified response:**
+**Why a larger response was rejected:**
 **Estimated cost:** $[X] one-time / $[X]/month
 **Estimated ROI:** [X hours saved per week × $Y per hour = $Z per year]
 **Implementation time:** [X days/weeks]
@@ -132,22 +136,24 @@ tags: [business, audit]
 
 ---
 
-## 5. PROPOSED ENGAGEMENT
+## 5. NEXT DECISION / ENGAGEMENT OPTIONS
 
-### Option A — Audit Only
-**Deliverable:** This report + 1-hour debrief call
-**Price:** $[X]
-**Timeline:** Already delivered
+Complete only the paths justified by the findings. Delete unused placeholders in the
+client-ready copy; do not present a prefilled upsell ladder.
 
-### Option B — Audit + Implementation (Priority 1 only)
-**Deliverable:** Report + build and deploy the Priority 1 solution
-**Price:** $[X] one-time
-**Timeline:** [X weeks]
+- [ ] **No implementation recommended:** [why the current state is acceptable or
+      evidence is insufficient]
+- [ ] **Eliminate or simplify:** [step/process to remove or reduce]
+- [ ] **Use or configure what already exists:** [tool/process and owner]
+- [ ] **Bounded implementation:** [smallest scope, owner, price hypothesis, success
+      measure, stop condition]
+- [ ] **Training or handoff:** [who must operate the change and what proof they need]
+- [ ] **Retained support:** [demonstrated recurring need, scope, cadence, continuation
+      measure, and why project/handoff support is insufficient]
 
-### Option C — Audit + Implementation + Monthly Operations
-**Deliverable:** Report + build all priorities + monthly retainer to operate and maintain
-**Price:** $[X] setup + $[X]/month
-**Timeline:** [X weeks to implement, ongoing]
+**Recommended next decision:**
+
+**Evidence still required before commitment:**
 
 ---
 

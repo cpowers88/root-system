@@ -31,10 +31,10 @@ here when the two disagree.
 current position -> stage -> concept -> drill -> mini-project -> proof
 ```
 Nothing is "learned" until a drill or mini-project proves it and Chris can explain
-the choices from memory. Stage 2 code evidence now exists; the open gate is the
-drill correction plus cold explain-back recorded in `wiki\current-position.md`. The shipped KSU
-Academic Tracker remains a real-use application vehicle when verified course data
-arrives around July 25; it is not the current curriculum frontier.
+the choices from memory. The live stage, exact learner frontier, and open proof gate
+exist only in `wiki\current-position.md`; do not copy them into this guide. The
+shipped KSU Academic Tracker remains a real-use application vehicle when verified
+course data arrives around July 25; it is not the curriculum frontier.
 
 ## What Counts as Proof
 A completed drill, a working mini-project, or real use in the tracker build — not a generated concept page. Generated content is not studied content.
@@ -72,8 +72,11 @@ copy learner state into this guide.
 - "Stage cleared — advance current-position from the recorded proof"
 
 ## Examples
-- *Daily rep*: current-position → one concept + its drill → error log if stuck → done in 45 min.
+- *Capacity-sized rep*: owner frontier → one explain/drill/build unit → error
+  evidence if needed → stop at Chris's declared boundary.
 - *Pre-semester*: "Which stages map to CSE 1321 module 3?" → targeted review list.
 
 ## Last Updated
-July 15, 2026 — volatile state and legacy-tag routing reduced to owner pointers. Canonical workspace is `C:\Users\chris\.ROOT`; G: is backup only.
+July 21, 2026 — copied learner state and fixed-time example removed; exact progress
+remains in the live owner. Canonical workspace is `C:\Users\chris\.ROOT`; G: is
+backup only.

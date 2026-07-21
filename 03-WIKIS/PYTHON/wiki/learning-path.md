@@ -16,20 +16,20 @@ Chris should always be able to open this page and know what to read, practice, a
 ## Current Position
 
 **Generated through**: Stage 10 — Application Thinking
-**Current study stage**: Stage 2 — Decisions
+**Current study stage**: Stage 3 — Repetition
 **Stage 0 status**: Satisfied
 **Stage 1 status**: Satisfied (2026-07-13) — worked independently with Codex 2026-07-12, verified in session (explained type-conversion reasoning, correctly predicted/confirmed a `TypeError`, explained `+`-concatenation vs. f-strings). Evidence: `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\`.
-**Next action**: Finish the Stage 2 verification gate: correct rule 3 in `S2P3.py`
-to match the drill (all scores below 70 are `F`), then complete a cold explain-back
-of `Story.py`'s `elif` and `or` choices.
+**Stage 2 status**: Satisfied (2026-07-16) — correction and cold explain-back
+verified; evidence and exact proof history live in `wiki/current-position.md`.
+**Next action**: Resume the exact Stage 3 mid-drill frontier recorded in
+`wiki/current-position.md`; do not maintain a second drill-position copy here.
 
-The curriculum is fully generated through Stage 10, but that describes what exists in the vault, not where Chris is. Chris has satisfied Stage 0 and Stage 1. **Do not read "generated through Stage 10" as an instruction to start at Stage 10.**
+The curriculum is fully generated through Stage 10, but that describes what exists in the vault, not where Chris is. Chris has satisfied Stages 0-2. **Do not read "generated through Stage 10" as an instruction to start at Stage 10.**
 
-**Current Concept:** comparisons, Boolean logic, `if`/`elif`/`else` (Stage 2)
-**Next Reading:** Re-read only rule 3 in `wiki/drills/stage-02-decision-rules.md`
-**Next Drill:** Correct the existing rule 3 independently, then do the Stage 2 explain-back
-**Vocabulary Due:** condition, boolean, comparison operator, and/or/not, if/elif/else, branch, truthy/falsy
-**Blocked By:** one drill/spec mismatch and the unrecorded cold explain-back; code evidence exists
+**Current Concept:** `for`, `while`, `range()`, counters, accumulators,
+`break`, `continue`, and loop tracing (Stage 3)
+**Next Reading / Drill / Vocabulary / Blocker:** follow `wiki/current-position.md`,
+the sole owner of live learner truth.
 **Parked Advanced Material:** see `wiki/parking-lot.md` (consolidated 2026-06-24)
 
 **Intake note (2026-07-13):** Four late raw-source files were classified. They

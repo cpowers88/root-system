@@ -15,25 +15,28 @@ tags: [now, ai-automation]
 The permanent technology-capability goal, stated plainly:
 
 > Know the full possibility space of AI and software well enough to walk
-> into any business and name exactly what it needs — and what it does
-> NOT need — so no dollar is wasted on the wrong tool.
+> into an unfamiliar workflow, understand what it needs — and what it does
+> NOT need — and choose the smallest sound people/process/data/technology
+> response without wasting time, money, or attention.
 
-That knowledge is the product in three forms:
-- **Identify** — the audit finds the real problem and the right category of fix
-- **Sell** — vendor-neutral advice a business owner can trust and act on
-- **Make** — build only what the market genuinely doesn't already sell cheap
+That knowledge creates value in three forms:
+- **Identify** — diagnose the real problem and the right category of response
+- **Decide** — make vendor-neutral choices another person can understand and use
+- **Build or integrate** — implement only what the evidence justifies and simpler
+  options do not already solve
 
 This file is the working map. The wiki refines raw knowledge; this file
-holds the operational version Chris uses in audits, recommendations,
-and skill planning. One page per concept lives in the wiki; the
-compressed, sellable version lives here.
+holds the operational version Chris uses in school, internal projects, workflow
+analysis, recommendations, and skill planning. One page per concept lives in the
+wiki; the compressed decision version lives here.
 
 ---
 
 ## The One Question Every Tool Must Answer
 
-> Can this help a business reduce waste, improve workflow, clarify data,
-> automate manual work, improve decisions, or increase profit?
+> Can this help a real workflow reduce waste, clarify data, improve reliability,
+> automate justified work, improve decisions, strengthen capability, or create
+> measurable value?
 
 If the answer is no — or the answer is yes but a cheaper layer below it
 already does the job — the recommendation is no.
@@ -170,19 +173,19 @@ signals money is about to be wasted, and representative tools by tier.
 
 ---
 
-## Selling the Map — How Knowledge Becomes Revenue
+## Turning the Map Into Decisions and Value
 
-1. **The audit is the first product.** The map makes audit findings specific:
-   not "you have communication problems" but "your job status lives in
-   texts (category 6) and your foreman re-types it daily (category 4)."
-2. **Vendor neutrality is the moat.** Software salesmen sell their product.
-   Chris sells the ladder — including "don't buy anything." That is why
-   the second call happens.
-3. **Every recommendation ships with numbers:** cost, hours saved per week,
-   payback period. A rec without ROI math is an opinion, not a deliverable.
-4. **The retainer is maintenance of the ladder:** tools drift, processes
-   grow back, new waste appears. The map makes the ongoing relationship
-   legible to the client.
+1. **Start with the real decision.** The map turns vague tool interest into a
+   specific diagnosis, such as job status trapped in texts (category 6) and
+   retyped into another system (category 4).
+2. **Vendor neutrality protects the outcome.** The Recommendation Ladder includes
+   eliminate, simplify, and use what already exists—not only buying or building.
+3. **Use evidence appropriate to the decision.** Commercial recommendations need
+   conservative cost, benefit, and payback reasoning; school, technical, internal,
+   operational, and employability uses need their own traceable proof.
+4. **Implementation or retained support must be earned.** Under the current
+   strategy, an observation-based audit is the first-offer hypothesis. Continued
+   work follows only when the findings and measured outcome justify it.
 
 ---
 
@@ -235,27 +238,28 @@ boundary emerge. See
 
 ## Maintaining the Map — Cadence
 
-- **Weekly (30 min max):** one landscape rep — study one category, one tool,
-  or one real business use case. Feed notes to the wiki or straight here.
+- **Capacity-sized rep:** study one category, tool, or real use case selected by a
+  live gap or decision. Feed durable evidence to the owning wiki or this map.
   Source: Clippings, wiki `priority/now` pages, ConstructionDive tech section.
 - **Monthly:** review this file alongside SKILL_GAP_ANALYSIS.md. Reprioritize
   categories against the permanent capability base, current strategy, and live proof.
-- **No orphan knowledge:** every category studied must connect to school,
-  a client service, POL/tracker, or an audit scenario — same rule as skills.
+- **No orphan knowledge:** every category studied must connect to a fixed
+  commitment, active capability gap, live workflow/project, degree-linked
+  employability need, or current strategy assumption.
 - **Guard:** landscape study is preparation, not production. If map work
-  displaces audit-methodology work or build sessions two weeks running,
-  rebalance (this is the "landscape awareness becoming procrastination"
-  risk from CHRIS.md, and the wiki-as-time-sink risk from NORTH_STAR.md).
+  displaces learning, a real build, delivery, or value evidence, return to the
+  real output.
 
 ---
 
-## Current State — July 15, 2026
+## Current State — July 21, 2026
 
-**Demonstrated movement:** Python Stage 1 is verified and Stage 2 is active. The
-Academic Tracker V1 shipped on Python/SQLite and now waits for real course data around
-July 25. Revenue Lab's bounded scanner exercised Python, SQLite, and a public API.
-The first Make.com landscape rep was completed July 9. The Goal/TOC material and
-construction-domain knowledge are available for audit work.
+**Demonstrated movement:** Python Stages 0-2 are satisfied; Stage 3 is active and
+mid-drill at `break`/`continue`. The Academic Tracker V1 shipped on Python/SQLite
+and now waits for verified course data around July 25. Revenue Lab's bounded scanner
+exercised Python, SQLite, and a public API. The first Make.com landscape rep was
+completed July 9. Goal/TOC material and construction-domain knowledge are available
+for workflow analysis.
 
 **Live gaps (in priority order):**
 1. SQL remains the July monthly weak link; the next meaningful proof is using the
@@ -273,5 +277,5 @@ rep, but there is no permanent tool-by-tool lock. Prefer the smallest real proje
 or decision that exercises the live gap without displacing school or verified work.
 
 ---
-*One file, one map. Wiki refines; this file operationalizes; audits sell it.*
-*Last updated: July 16, 2026 (advanced-application trace and factual reconciliation; July 5 weak-link ranking preserved until the August monthly review) | Next review: August 1, 2026*
+*One file, one map. Wiki refines; this file operationalizes; real use turns it into decisions and value.*
+*Last updated: July 21, 2026 (W0 current-state and capability-first value reconciliation; July 5 weak-link ranking preserved until the August monthly review) | Next review: August 1, 2026*
