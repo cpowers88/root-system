@@ -1515,3 +1515,51 @@ other named scopes pass. Slice A0 is clear.
   material decisions/status movement.
 - **Next exact action:** return to the open Python proof or the live Day 3 SQLite
   contract; D2L remains first on July 26.
+
+## 2026-07-21 — Profit gate: replace the live sprint with book-led system/learning optimization (Codex)
+
+- **Verdict: HOLD on full replacement.** The proposal passes the no-orphan test
+  because it serves the active MCP Bootcamp learning-format experiment, July
+  technology/integration gaps, and the Advisor-Builder operating-model thesis.
+  The HBS source basis supports digitized operating models built around data,
+  analytics, AI, software infrastructure, feedback, and redesigned roles.
+- **Gate:** source/economic evidence is incomplete for the stronger claim that a
+  standalone system-optimization week will produce more income than the live
+  integration proof; phase passes (active now); displacement is explicit (Bootcamp
+  Days 4-8 and their integration acceptance test); the original replacement proof
+  is underspecified. No new skill-map or opportunity-queue row was created.
+- **Scoped route that passes:** keep the existing boot camp as the real test vehicle
+  and use one governing question through Saturday: how do data, algorithms/rules,
+  software, people, controls, and feedback form an operating model that learns?
+  Proof is one cold explain-back plus a traced improvement loop on the existing
+  workflow case, with learning-format evidence captured in the already-live notes.
+- **Displacement/stop rule:** cut lower-value artifact breadth and optional enrichment,
+  not the live build, Python proof, or July 26 D2L boundary. The full replacement
+  unlocks only if the current experiment is formally stopped after evidence shows
+  it cannot answer the operating-model question or Chris explicitly authorizes a
+  bounded override with a new proof and stop condition.
+- **Next exact action:** Chris decides on the scoped reframe; if approved, Day 4
+  starts by mapping the six operating-model elements onto `observation_one.md`
+  before defining tool contracts.
+
+## 2026-07-21 — Correction to learning-pivot interpretation (Codex)
+
+- Chris clarified that the proposal is not a book-summary or book-led operating-model
+  study. The actual problem is repeated friction in his live learning workflow:
+  fixed pacing can be too slow, depth is sometimes insufficient, and completing the
+  requested sequence can become motion without enough independent learning proof.
+- **Revised recommendation:** pivot the remaining boot-camp content scope to diagnose
+  and optimize Chris's actual learning workflow, while preserving the live-paired
+  method, real learning material as the test vehicle, and the July 26 D2L boundary.
+  This is not another abstract `.ROOT` redesign: every proposed rule must change a
+  real learning rep and earn continuation through observed retrieval, application,
+  error recovery, or transfer.
+- **Proposed decision question:** Given Chris's demonstrated learning behavior in
+  live sessions, how should `.ROOT` dynamically choose pace, depth, representation,
+  scaffolding, retrieval, application, and feedback so he reaches independent
+  transfer as quickly as practical without mistaking recognition, compliance, or
+  artifact completion for mastery—and what evidence by July 26 would prove the
+  structure is better?
+- **Status:** recommendation only. No sprint owner or schedule changed; Chris's
+  approval is required before the content pivot is recorded in `NOW.md` or the live
+  boot-camp plan.
