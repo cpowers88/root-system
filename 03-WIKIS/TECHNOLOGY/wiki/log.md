@@ -5,6 +5,28 @@ tags: [log]
 
 # TECHNOLOGY Wiki — Log
 
+## 2026-07-21 — New page: Python's `sqlite3` module, from MCP Bootcamp Day 3 practice
+
+Chris built a real SQLite fixture live (`friction_categories` + `businesses`
+tables, six real rows from `observation_one.md`'s OBSERVATION LOG) during
+MCP Bootcamp Day 3 (Data Engineering). The existing `database-sql/` folder
+(11 pages, Practical SQL ingest) covers SQL syntax against PostgreSQL but had
+no page on the Python-to-database layer itself — checked via grep for
+`executemany`/`cursor.execute`/`sqlite3.connect`, zero hits. Added
+[[database-sql/sql-python-sqlite3-integration]] to fill that gap: connect/
+cursor, `CREATE TABLE IF NOT EXISTS` (idempotent re-runs), parameterized `?`
+inserts and why they matter (injection safety, not just convenience),
+`executemany()` and its non-idempotency caveat, commit/close, and reading
+data back with `fetchall()`. Cross-links to the existing
+[[database-sql/sql-table-design-constraints-and-indexes]] page rather than
+re-explaining `PRIMARY KEY`/`FOREIGN KEY` from scratch. The project-specific
+build (the actual categorize-vs-merge decision, the six real rows) stays
+with the MCP_Bootcamp project's own `MASTER_BLUEPRINT.md`, not duplicated
+here — this page is reusable Python+SQLite reference only.
+
+Files: new `wiki\database-sql\sql-python-sqlite3-integration.md`;
+`wiki\index.md` (page count 11→12); this log.
+
 ## 2026-07-13 — Full raw/ audit: duplicates documented, misplaced files rerouted, book/clipping ingest begun
 
 Chris asked to get this wiki's raw/ folder "sorted and ingested" after 8

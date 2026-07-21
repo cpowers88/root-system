@@ -8,17 +8,18 @@ tags: [programming, governance, education]
 
 ## Purpose
 
-This page is the authoritative bridge between the official Fall 2026 course PDFs
-and the staged Python path. The Markdown files in `raw\SYLLABI\` are useful
+This page is the authoritative bridge between the official Fall 2026 course
+syllabi and the staged Python path. The Markdown files in `raw\SYLLABI\` are useful
 topic-table extracts, but they omit policies, learning outcomes, assessment
 structure, tools, and required/recommended materials.
 
-Official sources reviewed visually on 2026-07-15:
+Official sources reviewed visually as PDFs on 2026-07-15 and replaced in the
+active school library by direct Simple Syllabus Markdown captures on 2026-07-21:
 
-- `02-LIBRARY\00-SCHOOL\01-CSE-Python\CSE_Syllabus.pdf` — CSE 1321 lecture,
-  Fall 2026, 15 pages.
-- `02-LIBRARY\00-SCHOOL\01-CSE-Python\CSEL_Syllabus.pdf` — CSE 1321L lab,
-  Fall 2026 title page, 16 pages.
+- `02-LIBRARY\00-SCHOOL\01-CSE-Python\CSE 1321 BF (81262) Fall 2026 Syllabus.md`
+  — CSE 1321 lecture, Chris's registered section.
+- `02-LIBRARY\00-SCHOOL\01-CSE-Python\CSE 1321L 04 (86703) Fall 2026 Syllabus.md`
+  — CSE 1321L lab, Chris's registered section.
 
 ## Non-Negotiable Academic-Integrity Boundary
 
@@ -27,7 +28,7 @@ course must be Chris's own; content created or assisted by a generative-AI tool 
 treated as cheating. This hub may explain concepts, create private study drills,
 and assess Chris's own practice, but it must not draft, solve, rewrite, or debug
 submitted course work. When a task might be graded, stop and ask before touching
-the work. (sources: `CSE_Syllabus.pdf`, pp. 11-12; `CSEL_Syllabus.pdf`, pp. 6-7)
+the work. (sources: both active Markdown syllabi, academic-integrity/AI-policy sections)
 
 ## Course Controls That Matter Here
 
@@ -44,7 +45,7 @@ the work. (sources: `CSE_Syllabus.pdf`, pp. 11-12; `CSEL_Syllabus.pdf`, pp. 6-7)
 - Up to 5% can be added to the lecture and lab final-exam scores through ten C-CSE
   Tutoring Center visits (0.5% each).
 
-(sources: `CSE_Syllabus.pdf`, pp. 2-3)
+(source: active CSE 1321 Markdown syllabus, course and assessment sections)
 
 ### CSE 1321L lab
 
@@ -56,7 +57,7 @@ the work. (sources: `CSE_Syllabus.pdf`, pp. 11-12; `CSEL_Syllabus.pdf`, pp. 6-7)
 - Midterm and final are in class, closed book, closed notes, with no outside
   resources.
 
-(sources: `CSEL_Syllabus.pdf`, pp. 2-4)
+(source: active CSE 1321L Markdown syllabus, course and assessment sections)
 
 ## Topic-to-Path Map
 
@@ -91,7 +92,7 @@ the work. (sources: `CSE_Syllabus.pdf`, pp. 11-12; `CSEL_Syllabus.pdf`, pp. 6-7)
 
 ## Schedule Reliability Warning
 
-The lab PDF title says Fall 2026, but its calendar uses January-May dates and a
+The lab syllabus title says Fall 2026, but its calendar uses January-May dates and a
 spring-break week. Treat its topic order, outcomes, policies, and assessment
 structure as useful; do **not** treat those lab dates as Fall 2026 truth. D2L or a
 corrected instructor schedule must control live due dates.

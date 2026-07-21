@@ -26,11 +26,14 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
   independently corrected (removed the stray `D` band, `else` now prints `F`
   for anything below 70) and verified. See `wiki/log.md` 2026-07-16.
 - **Current study stage: Stage 3 — Loops.** `wiki/stages/stage-03-*.md`.
-- **Exact learner frontier:** the first Stage 3 rep is mid-drill at
-  `break`/`continue`. Resume with the `range(1, 21)` loop that stops at the
-  first multiple of 7. The accumulator pattern previously needed four attempts,
-  so retrieve it once without rebuilding the whole lesson. Then continue to loop
-  tracing, the guessing-game mini-project, and the Stage 3 mastery checklist.
+- **Exact learner frontier:** Stage 3 loop tracing Part A is complete. Part B
+  demonstrated negative-step range transfer and an assisted user-input `while`
+  recovery. Resume with the fresh password-controlled `while` transfer already
+  prompted on 2026-07-21; do not show the prior scaffold before the attempt. Then
+  finish the divisible-by-7 counter, guessing-game mini-project, and mastery
+  checklist. The accumulator transferred independently to summing
+  `2, 4, 6, 8, 10` in about five minutes. Retest `break` construction cold before
+  mastery; do not repeat the entire lesson.
 - **Stages 3-10 are generated but not yet mastered.** Their packets exist and are ready, but Chris has not worked through or demonstrated mastery of any of them yet. Do not treat their existence as progress.
 
 **This page must never be read as "Chris should start at Stage 10."** Stages 0-2 are complete. Resume at the exact Stage 3 frontier above.
@@ -95,7 +98,7 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
   solve, rewrite, or debug submitted course work. Stop and ask whenever graded status
   is unclear. See [[syllabus-alignment]].
 
-## School Alignment (official PDFs verified 2026-07-15)
+## School Alignment (official syllabi verified 2026-07-15; active Markdown captures 2026-07-21)
 
 - Course schedule covers ~13-15 weeks: decomposition/abstraction → data types/operators/Boolean → selection → iteration/loops → functions/parameters/arguments → Python libraries → tuples/lists → dictionaries/searching/sorting → OOP → (lab only) intro to Java.
 - Topics Chris must master before class begins: vault Stages 1-4 (atoms, decisions, loops, functions) — matches Weeks 1-4 of the existing 8-Week Python Foundation Plan.
@@ -136,6 +139,8 @@ closed unless a specific learning gap justifies reopening it.
 
 ## Current Next Action
 
-Stage 2 is closed. Chris's next action is to **open Stage 3 (Loops)**:
-`wiki/stages/stage-03-*.md`. All later packets remain content readiness, not
-study progress until worked and verified the same way Stage 2 was.
+Stage 2 is closed and Stage 3 is active. Chris's next action is the fresh
+password-controlled `while` transfer at the current Part B frontier, followed by
+the divisible-by-7 counter and Stage 3 guessing-game mini-project. All later
+packets remain content readiness, not study progress until worked and verified
+the same way Stage 2 was.

@@ -29,39 +29,42 @@ on two Chris decisions; W3 (BUSINESS metadata batch) is deferred, low urgency.
    Project home: `02-LIBRARY\.PROJECTS\MCP_Bootcamp\`. **Binding rule: every
    session is live-paired** — no AI produces a finished artifact Chris didn't
    type/decide/explain-back live.
-   **Real state, verified July 21:** Days 1–2 (Systems Audit, Strategic
-   Logic) genuinely closed with live evidence. **Day 3 (Data Engineering) did
-   not run on its scheduled date (Mon 7/20)** — that day was displaced by
-   CASTLE/markdown-audit system work instead; no fixture, code, or session
-   evidence exists for it. Day 3 is running live-paired today (Tue 7/21)
-   instead: structure `jobs`/`friction_log` into SQLite from
-   `observation_one.md`. Its evidence, combined with Days 1–2, feeds a
-   same-day decision on whether the remaining lenses (originally Automation/
-   Ops → AI Infra/MCP → Cyber → Product/Value → Integration) continue
-   unchanged, get modified, or are replaced by the evidence-based
-   learning-system redesign Codex proposed July 21 (adaptive
-   Accelerate/Deepen/Rebuild diagnostic teaching, tested against real Python/
-   Physics/SQL reps). **Permanent adoption of any resulting method as a
-   standing `.ROOT` capability stays gated to July 25 per the original July 17
-   stipulation, unless Chris explicitly records a timing override.** MCP
-   itself, if the original lens sequence continues, remains capped at ≤3
-   hours total. **Hard boundary: July 26 is D2L intake, no exceptions** — the
-   sprint cuts scope before it cuts that date.
+   **Real state, end of day July 21:** Days 1–3 now genuinely closed with
+   live evidence. Day 3 (Data Engineering) ran live today, one day late
+   (slipped from Mon 7/20, displaced by system work): `build_fixture.py` +
+   `bootcamp_fixture.db` (two FK-linked tables, two real bugs fixed live,
+   explain-back completed) — detail in `Docs\MASTER_BLUEPRINT.md`'s Day 3
+   layer and the new reusable page
+   `03-WIKIS\TECHNOLOGY\wiki\database-sql\sql-python-sqlite3-integration.md`.
+   **Day 4 (Automation & Operations) did not run today — still pending, and
+   the continue/modify/replace decision on the remaining lenses is still
+   open**, not yet made. Running in parallel: Codex's own evidence lane at
+   `Docs\codex-adaptive-learning-evidence.md` (Rep 1 complete — Python Stage
+   3 adaptive baseline, Chris pace 2.5/5, depth 3.9/5, strongly preferred)
+   plus `00-BRAIN\Session_Logs\SESSION_REPORT_2026-07-21_CODEX_ADAPTIVE_TEACHING_METHOD.md`,
+   both feeding the same July 25 evidence-gated adoption decision via a
+   **blind verdict**: Codex and Claude each write an independent
+   continue/modify/replace-and-adopt verdict before reading the other's,
+   then cross-review. **Hard boundary: July 26 is the weekly evidence
+   review, with no sprint carryover unless Chris explicitly authorizes a
+   bounded exception.** D2L is accessible but unpopulated; exact PHYS 2211
+   Section 54 and ENGR 1000 BWD materials are not expected before August 24
+   — see `SYSTEM_FLAGS.md` #57.
    **Open backfill item:** `Docs\learning-format-notes.md` has a Day 1 entry
-   only; Day 2 (real, closed) was never logged — needs a same-day catch-up
+   only; Days 2–3 (both real, closed) were never logged — needs a catch-up
    entry from direct DAILY evidence, Chris's own reaction marked unknown
    where not recorded.
-2. **Python Stage 3 (Loops) first rep is MID-DRILL — resume here.** Paused at
-   14:25 on the `break`/`continue` drill: range(1,21) loop that stops on the
-   first multiple of 7. Then loop tracing → guessing-game mini-project → full
-   mastery checklist. Accumulator pattern needed four attempts — re-check it
-   lightly before calling it durable. **This is the current school-proof
-   priority when Chris opens that block; the sprint does not displace it.**
-3. **Physics Stage 4 (Motion in Two Dimensions) is paused for the sprint
-   week.** Entry point ready when it resumes: projectile motion, via
-   `03-WIKIS\PHYSICS\wiki\physics-math-crash-course.md` (Stage 4 module).
+2. **Python Stage 3 (Loops) adaptive rep paused cleanly for paperwork.** Loop
+   tracing Part A is complete; accumulator and negative-step range near transfers
+   succeeded after targeted recovery. Resume with the already-prompted fresh
+   password-controlled `while` transfer, then the divisible-by-7 counter and
+   guessing-game mini-project. Retest `break` construction cold before mastery.
+3. **Physics Stage 4 formal progression remains paused for the sprint week, but
+   one syllabus-neutral quantitative rep is scheduled for the adaptive-learning
+   evidence lane.** Neighboring Sections 51/55 are reference only; neither controls
+   Chris's Section 54 operations.
 
-Root health at last check (July 20): **PASS WITH DEBT** — boot/
+Root health at last check (July 21): **PASS WITH DEBT** — boot/
 governance pass; wiki nav 0 blockers/0 review; frontmatter 519 reviewed
 baseline findings, 0 new. No HIGH flag open.
 
@@ -69,21 +72,21 @@ baseline findings, 0 new. No HIGH flag open.
 
 | Area | Live truth | Next proof |
 |---|---|---|
-| School | Aug 24 readiness is fixed; Physics Stage 4 paused for sprint week; Python Stage 3 active, first rep mid-drill | Finish the paused `break`/`continue` drill, then the Stage 3 mastery path |
-| Tracker / SQL | V1 shipped; real course data is not available yet | Enter verified D2L/syllabus data around July 25 and test the real workflow |
+| School | Aug 24 readiness is fixed; D2L is unpopulated; exact PHYS 2211 Section 54 and ENGR 1000 BWD syllabi are unavailable; Python Stage 3 tracing Part A complete | Resume the fresh password-controlled `while` transfer; use Physics only for syllabus-neutral private practice until exact materials arrive |
+| Tracker / SQL | V1 shipped; exact D2L course data is not available yet | Enter verified D2L data when courses populate, likely near August 24, and test the real workflow |
 | Technology | MCP Bootcamp Days 1–2 closed over the real `observation_one.md` case; Day 3 slipped a day (displaced by system work) and runs live today instead | Tue Jul 21 live session: Data Engineering — SQLite structuring; evidence feeds today's continue/modify/replace decision |
 | Business | Advisor-Builder is the current hypothesis; July 16 profit gate chose the first service proof: Flip Margin Leak replay (OPP-20260716-01, worth testing); closing-exception autopsy is HOLD (OPP-20260716-02) | With Chris's approval, one 60-min completed-flip replay with a warm-network flipper; one Sheet max |
 | Continuity income | Additional income is needed before Spring 2027 enrollment | B2 conversation still requires Chris's approval; Lane A: Chris hand-fills the top-100 classification worksheet, and one private scanner walkthrough has conditional GO (≤90 added min, then park-or-proceed review) |
-| `.ROOT` | Slices A0–B1 are committed and pushed at `490e8ab`; the North Star, CASTLE consumers, and review contract now express the capability-first, evidence-selected, Chris-governed system | Return to real-use proof. Slice C + R1 wait for the July 26 D2L-first sweep, due `check_at` outcomes, and any required Chris approval |
+| `.ROOT` | Slices A0–B1 are committed and pushed at `490e8ab`; the North Star, CASTLE consumers, and review contract now express the capability-first, evidence-selected, Chris-governed system | Return to real-use proof. Slice C + R1 wait for the July 26 weekly review, due `check_at` outcomes, and any required Chris approval |
 
 ## This Week
 
-- [ ] Physics Stage 4 first live rep (projectile motion) — resumes after sprint week
-- [ ] Python Stage 3: finish break/continue → tracing → guessing game → mastery checklist
+- [ ] Syllabus-neutral Physics quantitative rep for adaptive-learning evidence; formal Section 54 alignment waits for exact materials
+- [ ] Python Stage 3: fresh password-controlled `while` transfer → divisible-by-7 counter → guessing game → mastery checklist
 - [ ] Record one private Revenue Lab proof during work already happening (conditional GO, ≤90 added min); review it before any public action
 - [ ] Fill the Lane A top-100 human-classification worksheet (Y/N/? in Chris's own words)
 - [ ] One live workflow observation/VSM only with the needed approval and access — first candidate is the flip-margin replay (OPP-20260716-01)
-- [ ] Daily SQL reps against the scanner SQLite DB (real data now); switch vehicle to the tracker when D2L data lands ~July 25
+- [ ] Daily SQL reps against the scanner SQLite DB (real data now); switch vehicle to the tracker when D2L data actually populates
 - [ ] **MCP Bootcamp — Tue Jul 21 (was Mon 7/20), Data Engineering:** structure `jobs`/`friction_log` SQLite tables from `observation_one.md`; running live today, one day late — see Start Here for why
 - [ ] **MCP Bootcamp — decision point, close of today's Day 3 rep:** continue the original remaining lenses (Automation/Ops → AI Infra/MCP → Cyber → Product/Value → Integration), modify them, or replace them with the evidence-based learning-system redesign — decided from Day 1–3 evidence, Codex-reviewed
 - [ ] *(remaining lens schedule below is the original plan; superseded by the decision point above if the pivot is chosen)*
@@ -104,8 +107,8 @@ baseline findings, 0 new. No HIGH flag open.
 | July 22 (Wed) | MCP Bootcamp Day 5 — AI Infrastructure (live): MCP SDK build, tests, Inspector — ≤3 hr budget |
 | July 23 | MCP Bootcamp Day 6 — Cybersecurity & Governance (live): host connection + handoff doc. Also: OPP-20260716-01 (flip-margin replay) review date — **if this fires, it outranks the sprint for that session** |
 | July 24 | MCP Bootcamp Day 7 — Product & Value (live): MVT + ROI + roadmap, cold explain-back rehearsal. Also: Wiki shared-layer real-use `check_at` verdict |
-| July 25 | MCP Bootcamp Day 8 — Integration (live): master blueprint + owner presentation + acceptance test + harvest. Also: Session-close capture `check_at`; D2L/tracker real-data window begins |
-| July 26 | **Hard transition — D2L intake begins, no sprint carryover.** Governance-drift weekly-sweep `check_at` verdict |
+| July 25 | MCP Bootcamp Day 8 — Integration (live): master blueprint + owner presentation + acceptance test + harvest. Also: Session-close capture `check_at`; write independent learning-method verdicts before cross-review |
+| July 26 | **Weekly evidence review; no assumed D2L intake because courses remain unpopulated.** Governance-drift weekly-sweep `check_at` verdict |
 | August 1 | Monthly weak-link review; re-rank `SKILL_GAP_ANALYSIS.md` |
 | ~August 14 | Revenue Lane A prediction check and top-100 review |
 | August 24 | Fall semester begins |

@@ -28,14 +28,14 @@ control total. **For the quick per-stage table, see `wiki/learning-path.md` →
 
 | Source | Location | Type | Status | Role | Difficulty | Current Use | Notes |
 |---|---|---|---|---|---|---|---|
-| CSE 1321L official syllabus | `02-LIBRARY/00-SCHOOL/01-CSE-Python/CSEL_Syllabus.pdf` | syllabus | visually verified 2026-07-15 | school-policy | n/a | policy, outcomes, grading, tools, topic order | AI prohibited; 13 labs + 7 assignments; Gradescope; lab calendar dates conflict with Fall title |
-| CSE 1321 official syllabus | `02-LIBRARY/00-SCHOOL/01-CSE-Python/CSE_Syllabus.pdf` | syllabus | visually verified 2026-07-15 | school-policy | n/a | policy, outcomes, grading, tools, topic order | AI prohibited; Think Python recommended; 10 quizzes + 3 exams |
+| CSE 1321L official syllabus | `02-LIBRARY/00-SCHOOL/01-CSE-Python/CSE 1321L 04 (86703) Fall 2026 Syllabus.md` | syllabus | direct web capture 2026-07-21; predecessor PDF visually verified 2026-07-15 | school-policy | n/a | policy, outcomes, grading, tools, topic order | Chris's section; AI prohibited; 13 labs + 7 assignments; Gradescope; lab calendar dates conflict with Fall title |
+| CSE 1321 official syllabus | `02-LIBRARY/00-SCHOOL/01-CSE-Python/CSE 1321 BF (81262) Fall 2026 Syllabus.md` | syllabus | direct web capture 2026-07-21; predecessor PDF visually verified 2026-07-15 | school-policy | n/a | policy, outcomes, grading, tools, topic order | Chris's section; AI prohibited; Think Python recommended; 10 quizzes + 3 exams |
 | Syllabus topic-table extracts | `raw/SYLLABI/CSE_{lecture,lab}_syllabus.md` | derivative extract | retained | quick-reference | n/a | topic order only | not a full syllabus ingest; omits policy, outcomes, grading, tools, and materials |
 | Think Python, 2nd Ed. (Allen Downey) | `raw/books/thinkpython.pdf` | book | ingested (TOC-level) | spine | beginner-friendly | active spine for Stages 1-8 | course textbook Chris added 2026-06-24; subtitle "How to Think Like a Computer Scientist" is the literal source of the vault's CS-thinking framing |
 
-### Syllabus Extraction Notes (official PDFs verified 2026-07-15)
+### Syllabus Extraction Notes (active Markdown captures verified 2026-07-21)
 
-- **AI policy:** Both official PDFs explicitly prohibit generative-AI-assisted
+- **AI policy:** Both official syllabi explicitly prohibit generative-AI-assisted
   submitted work. CSE 1321 and 1321L are `ai-restricted`; private concept study is
   allowed, submitted work is Chris's alone.
 - **Book/tools:** *Think Python* is the recommended no-cost text. Lecture exams use
@@ -51,7 +51,7 @@ control total. **For the quick per-stage table, see `wiki/learning-path.md` →
   closes Stage 4, matching both calendars. Third-party packages and `pip` remain in
   Stage 9 because dependency management is a later skill.
 - **OOP** appears in both syllabi (weeks 11–13ish) — matches vault's parked placement at Stage 8 ("objects... as required by syllabus"). No prerequisite gap.
-- **Schedule warning:** the lab PDF title says Fall 2026, but its calendar uses
+- **Schedule warning:** the lab syllabus title says Fall 2026, but its calendar uses
   January-May dates and spring break. Topic order is usable; live dates require D2L
   or a corrected instructor schedule.
 - Full control page: [[syllabus-alignment]].

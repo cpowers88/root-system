@@ -85,5 +85,5 @@ labeled drawer; `random.randint()` selects one tool from it.
 
 ## Source Notes
 
-- (source: `CSE_Syllabus.pdf`, p.10; `CSEL_Syllabus.pdf`, pp.5-6 — Python Libraries follows functions and precedes tuples/lists)
+- (sources: active CSE 1321 and CSE 1321L Fall 2026 Markdown syllabi, course schedule sections — Python Libraries follows functions and precedes tuples/lists)
 - (source: `raw/DOCS/tutorial/modules.txt`, section 6, "Modules")

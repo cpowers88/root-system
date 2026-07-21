@@ -142,7 +142,7 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 - [[data-science-ml/space-filling-screening-and-sequential-designs|Space-Filling, Screening, and Sequential Designs — the DOE Decision Map]] — objective → design family; minimax/maximin/LHD/MaxPro, Sobol/Morris/MOFAT screening, Bayesian optimization/EI, fractional-factorial essentials
 - [[data-science-ml/data-splitting-twinning-and-subsampling|Data Splitting, Twinning, and Subsampling]] — DOE applied to data already in hand: SPlit, twinning, supercompress, FIRST factor selection, TwinGP
 
-## Database & SQL (`database-sql/`, 11 pages, new 2026-07-13)
+## Database & SQL (`database-sql/`, 12 pages, new 2026-07-13; +1 2026-07-21)
 
 - [[database-sql/practical-sql|Practical SQL — Source Summary and Navigation Hub]]
 - [[database-sql/sql-select-where-and-filtering|SQL: SELECT, WHERE, and Filtering]]
@@ -155,6 +155,7 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 - [[database-sql/sql-window-functions-and-ranking|SQL: Window Functions and Ranking]]
 - [[database-sql/sql-advanced-query-techniques|SQL: Advanced Query Techniques]]
 - [[database-sql/sql-views-functions-and-triggers|SQL: Views, Functions, and Triggers]]
+- [[database-sql/sql-python-sqlite3-integration|SQL: Python's `sqlite3` Module — Connecting Code to a Database]] — applied practice, MCP Bootcamp Day 3 (2026-07-21): connect/cursor, `CREATE TABLE IF NOT EXISTS`, parameterized inserts, `executemany()`, commit/close
 
 ## Software Craft (`software-craft/`, 4 pages, new 2026-07-13)
 

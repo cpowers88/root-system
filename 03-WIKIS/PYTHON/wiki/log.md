@@ -1085,3 +1085,60 @@ Resume the exact Stage 3 mid-drill frontier in `current-position.md`.
 - Both staged and unstaged whitespace checks pass; live Markdown text integrity
   passes. Separate PHYSICS and prior hub changes were preserved and excluded from
   this review's edit claims.
+
+## 2026-07-21 — Stage 3 adaptive baseline rep (Codex)
+
+### Work completed
+
+- Chris reconstructed a `range(1, 21)` divisibility loop and correctly explained
+  why `break` prevents later values from being tested. Correct integration required
+  worked-step support, so this is assisted recovery rather than cold mastery.
+- The accumulator pattern initially failed at initialization and state update.
+  After a reduced state-tracing rebuild, Chris produced the correct 1-through-5
+  accumulator and explained why initialization belongs before the loop.
+- On a fresh near-transfer, Chris independently summed `2, 4, 6, 8, 10` with
+  `range(2, 12, 2)` and `total += number` in approximately five minutes.
+
+### Learner feedback
+
+- Pace: 2.5/5 — slightly slow but approximately right under divided-attention
+  conditions.
+- Depth: 3.9/5 — enough explanation and guidance to complete the work without the
+  system taking ownership away from the learner.
+
+### Evidence boundary
+
+Assistance decreased from a worked scaffold to no new coding cue on the accumulator
+transfer. This supports the adaptive method but does not close Stage 3. Prediction
+before execution was not captured, and `break` still needs a later cold transfer.
+
+### Next action
+
+Continue with `drills/stage-03-loop-tracing.md`, then the Stage 3 guessing-game
+mini-project. Do not repeat the entire loop lesson.
+
+## 2026-07-21 — Stage 3 tracing continuation and pause (Codex)
+
+### Progress evidence
+
+- After one correction to the meaning of one-argument `range()`, Chris correctly
+  predicted explicit-start range output, accumulator state, and `while`/`break`
+  state without execution.
+- Descending-range construction needed a negative-step cue; the new
+  `range(8, 1, -2)` prediction transferred independently as `8, 6, 4, 2`.
+- A user-controlled `while` loop required an initialize → test → update rebuild.
+  Chris then produced working code and identified the repeated `input()` as the
+  controlling-state update. Without it, the unchanged answer would cause an
+  infinite loop when initially not `"no"`.
+
+### Learner feedback and evidence boundary
+
+Chris spontaneously described the method as fast and very helpful. This is a
+strong fit signal, supported by immediate near transfers, but delayed retention,
+cross-domain transfer, and independent `while` construction remain unproven.
+
+### Exact pause point
+
+Program writing paused before the fresh password-controlled `while` transfer for
+daily paperwork. Resume with that prompt without revealing the previous scaffold,
+then complete the divisible-by-7 counter.
