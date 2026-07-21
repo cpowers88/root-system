@@ -1618,3 +1618,28 @@ other named scopes pass. Slice A0 is clear.
   unstaged whitespace, and live Markdown integrity pass.
 - Scope remains W0/W1 only. W2 waits for its time/decision gates; W3 remains a
   separate deterministic BUSINESS metadata cohort.
+
+## 2026-07-21 — CASTLE daily system review and return-path reconciliation (Codex)
+
+- **Outcome:** judged the day through CASTLE's why-now/owner/action/proof/return
+  standard. Real proof moved Python and SQL; the principal defect was stale or
+  incomplete return routing, not failed production.
+- Reconciled `NOW.md`, Phase 0, the tracker proof page, CASTLE current-position,
+  skill map, and SQL skill to the actual Day 3 fixture evidence and the corrected
+  August 24-or-later D2L assumption. Preserved SQL as `building`: the rep was a
+  guided build with explain-back, not independent mastery.
+- Corrected the project blueprint's “Chris typing throughout” overstatement to match
+  the learning log's explicit AI-completion deviation. Added a live-truth amendment
+  to the active Bootcamp packet rather than rewriting its dated proposal history.
+- Advanced W2 narrowly: the completed immediate-sequence and business/technology
+  reports, plus the mostly implemented AI-surface audit, no longer compete as active
+  owners. The AI-surface audit's two unresolved Chris-owned safeguards moved to
+  `SYSTEM_FLAGS.md` #79. No configuration changed and no archive move occurred.
+- **Watchtower verdict:** no new external change crossed the four-part threshold;
+  `...projectSuccess\radar.md` remains correct and was not padded.
+- **Flag verdict:** no existing flag earned closure. #57, #78, #16, #68, #69, and
+  #77 retain real evidence/Chris-action gates; #79 was added for buried decision
+  debt.
+- **Next exact action:** Chris makes the Bootcamp continue/modify/replace decision
+  before Day 4; the smallest SQL proof is one independent query or bounded fixture
+  extension. July 26 reviews the evidence and open decisions, not assumed D2L intake.

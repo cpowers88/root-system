@@ -61,15 +61,28 @@ foreign keys, real queries (`--week`, `--today`, `--tests`, `--course`, `--overd
 The next proof is correct use against verified course data when the real workflow
 requires it, with observed friction recorded and corrected.
 
+## Current Applied Evidence
+
+On July 21, the MCP Bootcamp Day 3 rep converted six real observation rows into a
+two-table SQLite fixture (`friction_categories` + `businesses`) with a foreign-key
+relationship. Chris chose the separated-table shape, repaired a misplaced SQL
+fragment and a repeat-run table collision with support, and correctly explained the
+foreign-key link. AI completed the remaining insert code at Chris's explicit request
+after several correction cycles, so this is guided-build and debugging evidence—not
+an independent-build or mastery claim. Reusable implementation reference:
+`03-WIKIS\TECHNOLOGY\wiki\database-sql\sql-python-sqlite3-integration.md`.
+
 ## Prerequisites
 Relational concepts, tables/rows/keys, and careful question definition are the active
 prerequisites. Python Stage 3 is the live curriculum frontier; later data-shape and
 file-handling stages support ingestion but are not prerequisites for every SQL rep.
 
 ## What Comes Next
-Use verified tracker data and produce correct schema/query answers in the real school
-workflow. After that, design a schema from a justified CSV/Excel or workflow dataset
-rather than inventing a client export in advance.
+First independently query or make one bounded extension to the Bootcamp fixture so
+the assistance level can be measured. When D2L populates, use verified tracker data
+and produce correct schema/query answers in the real school workflow. After that,
+design a schema from a justified CSV/Excel or workflow dataset rather than inventing
+a client export in advance.
 
 ## What to Park
 Query optimization, indexing strategy, and multi-database administration — not needed

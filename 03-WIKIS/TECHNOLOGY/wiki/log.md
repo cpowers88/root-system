@@ -704,3 +704,12 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
   the live build hits its named boundary.
 - Next: Claude uses the source packet in the independent boot-camp review; execution
   still waits for the final approved stack and proof vehicle.
+
+## 2026-07-21 — Goal-aligned gap audit reclassified after owner routing (Codex)
+
+- Reclassified `goal-aligned-technology-gap-audit-2026-07-16.md` from `now` to
+  `reference`. Its integrated-proof diagnosis remains the August 1 comparison
+  baseline; its scanner-first sequence and July 25 tracker assumption are
+  superseded by the MCP Bootcamp, `NOW.md`, and `SYSTEM_FLAGS.md` #57.
+- No capability claim or research conclusion changed. Current action remains with
+  the live project and CASTLE owners.

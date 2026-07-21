@@ -9,6 +9,22 @@ reviewer: Claude
 
 # Advisor-Builder Integration Boot Camp — Claude Edit and Review Packet
 
+## July 21 Live-Truth Amendment
+
+This amendment supersedes the packet's repeated assumption that D2L intake and
+tracker population would begin July 26. D2L is accessible but the Fall 2026 course
+shells are unpopulated; exact PHYS 2211 Section 54 and ENGR 1000 BWD materials are
+not expected before August 24. July 26 remains the no-sprint-carryover and weekly
+evidence-review boundary, but it is not an assumed intake event. The tracker waits
+for verified data rather than using neighboring-section or invented data. See
+`SYSTEM_FLAGS.md` #57 and `.ROOT\NOW.md` for current owner truth.
+
+Day 3 ran July 21, one day late, and is closed with a two-table SQLite fixture.
+Before Day 4, make the explicit continue/modify/replace decision from Days 1–3 and
+the parallel adaptive-learning evidence. Earlier dated tables below remain the
+proposal/revision history; this amendment controls where they conflict with live
+state.
+
 ## Review Request
 
 Chris asked Codex to determine whether the final pre-D2L window should become a

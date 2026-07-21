@@ -10,7 +10,8 @@ tags: [proof-project, school, technology]
 
 **One-line description**: Python + SQLite CLI that answers "what needs attention today/this week" across six registered Fall 2026 course components in five subject areas, linking structured data to Obsidian notes.
 **Phase served**: [[phase-0-current-position-and-baseline]]
-**Deadline / window**: July 5–24, 2026 — before D2L access opens (~July 25)
+**Deadline / window**: V1 shipped July 8; real-data activation waits for verified
+Fall 2026 course content, expected August 24 or later
 **Location of work**: `02-LIBRARY\.PROJECTS\KSU_Academic_Tracker\` — brief + tracker.py + academic.db, one folder (Chris consolidated July 8, 2026; flag 53 closed)
 
 ## What It Proves
@@ -24,7 +25,8 @@ tags: [proof-project, school, technology]
 - [x] Four tables created; courses entered
 - [x] `--week`, `--today`, `--tests`, `--course X`, `--overdue` all working (V1 also shipped `--courses`, `--add-test`, `--add-assignment`, `--add-reading`)
 - [ ] notes_file paths displayed, linking DB rows to Obsidian markdown — verify during real-data entry
-- [ ] Real syllabus data entered once D2L opens (~July 25); works with partial data
+- [ ] Verified Fall 2026 course data entered when the course shells populate
+      (expected August 24 or later); works with partial data
 - [ ] Used reliably when the real course workflow requires it; answers verified
       against source data, with observed friction recorded and corrected
 
@@ -40,4 +42,4 @@ compliance with a morning clock is not.
 | 2026-06-15 | Brief completed | — |
 | 2026-07-05 | Build slot confirmed over POL; Session 1 target | Sessions 2–3 per brief |
 | 2026-07-06 | Registered as Phase 0 proof project in the castle | Finish remaining queries; log sessions here |
-| 2026-07-08 | **V1 SHIPPED and tested** — all briefed queries plus `--courses` and three `--add-*` commands work. Brief reconciled by Chris (stale future-tense language removed); duplicate brief copy archived. V2 (edit/delete/update, dashboard, web UI) explicitly PARKED — no expansion unless real use exposes the need. | Enter real D2L/syllabus data ~July 25; verify answers and usefulness in the real workflow; record and correct observed friction |
+| 2026-07-08 | **V1 SHIPPED and tested** — all briefed queries plus `--courses` and three `--add-*` commands work. Brief reconciled by Chris (stale future-tense language removed); duplicate brief copy archived. V2 (edit/delete/update, dashboard, web UI) explicitly PARKED — no expansion unless real use exposes the need. | Enter verified course data when D2L populates, expected August 24 or later; verify answers and usefulness in the real workflow; record and correct observed friction |

@@ -112,3 +112,106 @@ tags: [log]
   Removed stale certainty around recycled course dates, incomplete weights, and
   an older ENGR policy while keeping the D2L update trigger explicit.
 - Cross-reference validation found no active dead link in the guide.
+
+## 2026-07-21 (evening) — Course briefs refreshed against real exact-section captures
+
+- Chris pulled real, exact-section Simple Syllabus Markdown captures for ECON
+  1000 and TCOM 2010 (plus CSE 1321/1321L, owned by PYTHON) on 2026-07-21,
+  replacing the July 9 PDF ingest this page was built from. `fall-2026-course-briefs.md`
+  rewritten against the live files in `02-LIBRARY\00-SCHOOL\` — ECON confirmed
+  with no outstanding data-quality issue; TCOM's recycled January/Spring dates
+  persist in the fresh capture too (confirmed as KSU's own Simple Syllabus
+  template defect, not a stale-source artifact); ENGR's only available source
+  turned out to be **Summer 2026** (Instructor Matt Marshall), not the "Fall
+  2025" the old brief claimed — still reference-only, still not the real Fall
+  BWD section, corrected in place. See `SYSTEM_FLAGS.md` #57 for the standing
+  ENGR/PHYS unconfirmed-section tracking.
+- Added a short reading/dataset-prep pointer per course: FRED + World Bank
+  Open Data for ECON (doubles as real-data reps against the July SQL/
+  data-viz weak links); the syllabus's own linked sample documents for TCOM;
+  explicitly nothing yet for ENGR pending the real BWD syllabus.
+- Files: `fall-2026-course-briefs.md`, `index.md` (page description + raw
+  sources table), this log.
+- Next: no action pending here; re-check when ENGR's real Fall BWD syllabus
+  posts, and when D2L populates (~Aug 24) for the transition to per-course
+  activation.
+
+## 2026-07-21 (later) — raw/ reality sync + two unprocessed sources found
+
+- Chris placed `.md` copies of the ECON/TCOM/ENGR exact-section syllabi
+  directly into this hub's `raw/` (for ease of use, no transcription errors)
+  and archived the three superseded PDFs himself. Index updated to match:
+  the raw table now lists the real current files, marks them as convenience
+  copies with `02-LIBRARY\00-SCHOOL\` staying canonical if the two ever
+  diverge.
+- Found two pre-existing files in `raw/` neither this hub's index nor any
+  session had processed: `Learn To Learn in 109 minutes.md` (Justin Sung
+  meta-learning transcript — encoding/retrieval, spaced retrieval, orders of
+  learning; substantive, overlaps [[learning-how-to-learn-principles]]) and
+  `Sharpen your thinking.md` (Obsidian.md's marketing homepage — no
+  learning-methodology content, flagged as a likely mis-clip rather than
+  processed). Both recorded in the index; neither absorbed into a wiki page
+  yet — awaiting Chris's call on the Sung transcript, and confirmation on
+  whether the Obsidian page was an intentional capture.
+- **Correction, same session:** the claim above that the Sung transcript and
+  Obsidian file were unprocessed was wrong — `learning-how-to-learn-principles.md`
+  already fully incorporated the Sung transcript on 2026-07-12 (five-chunk
+  review, dedicated Source Assessment section) and already correctly
+  identifies the Obsidian file as a tool-affordance page, not a learning
+  source. Caught by actually reading that page before acting further; index
+  corrected in place.
+
+## 2026-07-21 (later still) — ECON/TCOM literature fetch; raw/ write permission confirmed hard-blocked
+
+- Fetched three open-license reading sources per Chris's request to build
+  structured ECON/TCOM pathways: OpenStax *Principles of Economics 2e* (free,
+  CC-BY, Ch. 1 confirmed live, full ~20-chapter structure not independently
+  re-verified this pass — book landing/TOC page is SPA-rendered and returned
+  no text to automated fetch); CORE Econ's *The Economy 2.0* (free, CC
+  BY-NC-ND, full unit list confirmed live for both micro and macro volumes);
+  Purdue OWL's Professional, Technical Writing section (free, full 18-topic
+  list confirmed live).
+- **Could not fetch:** a BCcampus/Pressbooks-style open technical-writing
+  textbook, and St. Louis Fed / FRED educational pages — both returned
+  HTTP 403 across every URL variant tried (`opentextbc.ca`,
+  `ecampusontario.pressbooks.pub`, `stlouisfed.org/education`,
+  `fred.stlouisfed.org`), consistent with bot/Cloudflare protection rather
+  than a bad URL. Left unfetched rather than force it; Chris can grab these
+  manually in a browser if wanted.
+- **Structural finding:** writing into any wiki's `raw/` is denied at the
+  permission-settings level, not just by convention — confirmed by an actual
+  denied `Write` call to `EDUCATION\raw\`. Conversational authorization from
+  Chris does not override this; it is a deliberate hard guard on raw
+  immutability. The three fetched files were written to the session
+  scratchpad instead, for Chris to copy into `raw/` himself, matching how he
+  placed the syllabus copies and the two meta-learning clippings earlier
+  this session.
+- Also confirmed, and did not act on: Chris authorized removing the
+  Obsidian stray clip and asked whether the ECON/TCOM/ENGR syllabi now
+  duplicated between this hub's `raw/` and `02-LIBRARY\00-SCHOOL\` should
+  be resolved by removing one copy. Both are file-removal actions inside
+  `raw/`, which AI cannot perform directly per the finding above — left for
+  Chris, with the duplicate-resolution direction itself still ambiguous in
+  his own wording pending a chat clarification.
+- Next: Chris copies the three scratchpad files into `raw/` if he wants
+  them there; Chris removes/archives the Obsidian clip himself; Chris
+  confirms which copy (library vs. this hub's `raw/`) should be the sole
+  surviving one for the three syllabi.
+
+## 2026-07-21 (final pass) — Real FRED datasets pulled for ECON 1000
+
+- Chris set up a FRED API key at `C:\Users\chris\.root-secrets\FRED.env`
+  (external to `.ROOT`, same convention as the YT Outlier Scanner project).
+  Built `00-BRAIN\scripts\fetch_fred.py` to read the key at runtime (never
+  printed/logged) and pull four series via the live FRED API: `GDP`,
+  `GDPC1` (real GDP), `CPIAUCSL` (CPI/inflation), `UNRATE` (unemployment).
+  All four confirmed live and current — data through 2026-01 (quarterly) /
+  2026-06 (monthly).
+- Output: `02-LIBRARY\00-SCHOOL\04-ECON\datasets\` (4 CSVs + README
+  documenting source, license, and refresh instructions).
+  `fall-2026-course-briefs.md`'s ECON reading/dataset-prep bullet updated to
+  point at the real local files instead of the earlier abstract FRED
+  recommendation.
+- Next: no action pending; World Bank Open Data (economic-systems
+  cross-country comparisons) remains an unfetched recommendation if Chris
+  wants it later.

@@ -13,8 +13,9 @@ tags: [phase]
 
 ## Purpose
 Establish a written, honest baseline of skills, assets, and gaps — and move the
-shipped KSU Academic Tracker from synthetic tests to real D2L/syllabus data when it
-opens (~July 25). A roadmap from an unknown starting point is fiction.
+shipped KSU Academic Tracker from synthetic tests to verified D2L/syllabus data when
+the Fall 2026 course shells populate (expected August 24 or later). A roadmap from
+an unknown starting point is fiction.
 
 ## Why It Matters to the North Star
 Every later phase measures progress against this baseline. The tracker is also the
@@ -55,7 +56,7 @@ outcome. Honesty requires preserving both sides of that boundary.
 - [x] [[current-position]] written and reviewed by Chris (July 6)
 - [x] Castle live with maps, phases 0–2, source map (July 6)
 - [x] Tracker: all four tables + `--week`, `--today`, `--tests`, `--course`, `--overdue` working (V1 shipped July 8)
-- [ ] Real syllabus data entered when D2L opens (~July 25)
+- [ ] Verified Fall 2026 course data entered when D2L populates (expected August 24 or later)
 - [ ] August 1 monthly review updates the weak links
 
 ## Risks and Distractions
@@ -63,5 +64,6 @@ outcome. Honesty requires preserving both sides of that boundary.
 - Expanding tracker scope beyond the brief (two functions only; no dashboard)
 
 ## Next Action
-Around July 25, enter real D2L/syllabus data and run the shipped command set against
-it. Until then, SQL work is maintenance and focused practice—not tracker expansion.
+When D2L populates with verified Fall 2026 data, enter it and run the shipped command
+set against the real workflow. Until then, use the Bootcamp fixture and other bounded
+real-data reps for SQL practice—not tracker expansion or invented course data.

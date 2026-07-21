@@ -1,12 +1,16 @@
 ---
 type: report
-timeline: now
+timeline: log
 tags: [governance, claude, codex, configuration, audit]
 created: 2026-07-17
-status: mostly-implemented
+status: complete
 ---
 
 # AI Surface Configuration Audit — Claude Code & Codex — July 17, 2026
+
+**Closed as an active report July 21:** completed work remains recorded here; the two
+unresolved Chris-owned safeguard decisions are now discoverable in
+`00-BRAIN\SYSTEM_FLAGS.md` #79. No machine configuration changed during routing.
 
 **Scope:** Every `.claude` and `.codex` configuration location on this machine, matched
 against (a) each other, (b) the `.ROOT` boot-chain governance files, and (c) the vendor

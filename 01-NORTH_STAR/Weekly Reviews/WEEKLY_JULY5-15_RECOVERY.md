@@ -8,6 +8,12 @@ created: 2026-07-15
 
 # WEEKLY RECOVERY REVIEW — July 5 to July 15, 2026
 
+**July 21 truth note:** references below to D2L/course data around July 25 are
+superseded by `SYSTEM_FLAGS.md` #57: D2L is accessible but unpopulated, and verified
+Fall 2026 course-shell data is expected August 24 or later. This review still awaits
+Chris's explicit disposition; the note corrects the action assumption without
+rewriting the historical period.
+
 ### One recovery review; not a fabricated stack of missed weeklies
 
 The June monthly review already covers the June 19–July 4 gap. This review resumes

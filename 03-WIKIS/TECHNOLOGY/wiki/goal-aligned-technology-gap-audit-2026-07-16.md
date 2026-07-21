@@ -1,12 +1,18 @@
 ---
 type: research
-timeline: now
+timeline: reference
 status: wiki-only
 tags: [domain/technology, landscape, capability-gap, production-operations]
 source: local capability and artifact audit plus current primary documentation, 2026-07-16
 ---
 
 # Goal-Aligned Technology Gap Audit — July 16, 2026
+
+**July 21 status note:** the integrated-operating-proof diagnosis remains useful,
+but the scanner-first sequence and July 25 tracker assumption were superseded by the
+live MCP Bootcamp, `NOW.md`, and `SYSTEM_FLAGS.md` #57. Current action belongs to
+those owners. Retain this audit as the August 1 comparison baseline, not a second
+technology frontier.
 
 ## Executive Verdict
 

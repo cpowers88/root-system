@@ -25,7 +25,7 @@ tags: [baseline]
 |---|---|---|---|
 | Physics | Stage 4 is the next active unit | Begin owner-defined Motion in Two Dimensions work when resumed | PHYSICS wiki current-position |
 | Python | building — Stage 3 | Independent build, explain-back, and debug gate for loops | PYTHON wiki current-position |
-| SQL/SQLite | building — July weak link | Use verified real tracker data and produce correct schema/query results in the workflow | [[ksu-academic-tracker]] + PYTHON/technology owners |
+| SQL/SQLite | building — July weak link; guided two-table fixture verified July 21 | Independently query or extend the Bootcamp fixture; use verified tracker data when D2L populates | [[sql]] + [[ksu-academic-tracker]] + TECHNOLOGY owner |
 | Data visualization | building — first rep verified | A justified visual another person can trace and use for a decision | Technology Strategy + live proof vehicle |
 | Field observation | building | First approved live observation; two tested live sessions move it to working | BUSINESS method + 05-BUSINESS\02-Field Notes |
 | Systems and flow thinking | building | Apply a flow or constraint model so it improves a real decision or finding | SYSTEMS wiki + coursework |

@@ -1,12 +1,17 @@
 ---
 type: report
-timeline: now
-status: active
+timeline: log
+status: complete
 tags: [castle, operations, mcp-bootcamp, school]
 created: 2026-07-20
 ---
 
 # CASTLE Immediate Next Step and Process Sequence Report
+
+**Closed July 21:** the Python proof and Bootcamp Day 3 both ran, their evidence
+returned to the live owners, and the July 26 boundary was corrected to a weekly
+evidence review rather than assumed D2L intake. Current action now lives in
+`.ROOT\NOW.md`; this report is retained as the decision record.
 
 ## Decision
 
