@@ -2,7 +2,7 @@
 type: drill
 stage: 03
 status: draft
-concepts: ["for-loop", "while-loop", "range", "counter", "accumulator", "break-continue"]
+concepts: ["for-loop", "while-loop", "range", "counter", "accumulator", "break-continue", "modulo-and-divisibility"]
 difficulty: beginner
 solution_included: false
 ---
@@ -19,6 +19,7 @@ Practice both directions: predicting what a loop will print by tracing it by han
 - `while` loops
 - counters and accumulators
 - `break` / `continue`
+- modulo (`%`) and divisibility
 
 ## Starter Prompt
 
@@ -51,6 +52,10 @@ print(count)
 1. Write a `for` loop that prints every number from 10 down to 1 (use `range()`'s step argument).
 2. Write a `while` loop that keeps asking the user "Continue? (yes/no)" until they type "no".
 3. Write a loop (your choice of `for` or `while`) that counts how many numbers from 1 to 50 are divisible by 7, using a counter.
+
+Before Part B.3, read [[concepts/modulo-and-divisibility]] only if you cannot
+explain why `number % 7 == 0` means “divisible by 7.” Trace the remainders for
+`6`, `7`, and `8` before building the loop; this is a concept check, not a solution.
 
 ## Requirements
 

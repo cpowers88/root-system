@@ -1,8 +1,8 @@
 ---
 type: stage
 stage_number: 02
-status: ready
-priority: current
+status: satisfied
+priority: complete
 source_spine: "Think Python Ch.5 (non-recursive sections)"
 support_sources: ["Automate the Boring Stuff Ch.2", "Python Crash Course Ch.5", "Invent Your Own Computer Games Ch.3, 5"]
 ---
@@ -37,6 +37,12 @@ Stage 1 — values, variables, expressions, strings, numbers, type conversion, `
 - [[glossary/truthy-falsy]]
 
 Full flashcard batch: [[flashcards/stage-02-decisions]]
+
+## Code-Reading Gate
+
+Read conditions in source order. For each test, record `True` or `False`, identify
+the one branch that runs, and predict the output for at least two inputs. Write the
+condition-and-branch skeleton before filling in branch bodies.
 
 ## Required Code Patterns
 

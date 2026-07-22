@@ -2,7 +2,7 @@
 type: stage
 stage_number: 10
 status: ready
-priority: current
+priority: later
 source_spine: "Automate the Boring Stuff Ch.12-13, 16; Python Crash Course Ch.11 + Part II"
 support_sources: ["Invent Your Own Computer Games Ch.17-21", "raw/docs/howto/argparse.txt"]
 ---

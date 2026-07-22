@@ -111,6 +111,12 @@ The 1D kinematic equations from Stage 2 (derived by integrating constant acceler
 
 For circular motion: centripetal acceleration is a derivative result — even though speed is constant, the direction of velocity changes, so dv⃗/dt ≠ 0. When speed also changes, a_t = dv/dt reuses the exact 1D-derivative idea from Stage 2, just applied along the curved path instead of a straight line.
 
+Full worked derivations, multi-problem practice, and a real-world use case for
+each: [[../calculus-links/2d-kinematics-components]] (vector differentiation
+for projectile motion) and
+[[../calculus-links/tangential-radial-acceleration-derivative]] (a_t as a
+derivative of speed along a curved path).
+
 ## Problem Types
 
 - [[../problem-types/projectile-horizontal-launch]]

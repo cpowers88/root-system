@@ -1,6 +1,9 @@
 ---
 type: stage
+timeline: later
+stage: 5
 status: draft
+tags: [physics, math]
 ---
 
 # Stage 5 — The Laws of Motion (Ch 5)

@@ -32,7 +32,14 @@ Schedule: TTh 9:35–10:55am
 Textbook: Open Technical Communication (Reardon, Powell, Arnett, Race
 & Logan) — free online; paste relevant sections into session as needed.
 
-**Submission rule: D2L Assignments folder ONLY. Never email assignments.**
+**Submission rule (confirmed against the real 2026-07-21 exact-section
+capture): D2L Assignments folder ONLY, except the Business Email unit itself
+— Chris submits that one by actually emailing Prof. Diamond himself, since
+the deliverable is a real email.** AI never sends the email or submits any
+assignment on Chris's behalf, in any course — Chris writes and submits his
+own work, per `AGENT.md`'s academic integrity rule. Never email a document
+*attachment* for any other assignment ("I do NOT accept email attachments
+for any assignment").
 File naming (memorize before Aug 24): `LastName_04_AssignmentName.docx`
 — e.g. `Powers_04_TechnicalDescription.docx`
 

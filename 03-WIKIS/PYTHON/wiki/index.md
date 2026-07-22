@@ -11,7 +11,9 @@ tags: [programming]
 - [[current-position]] — current learner baseline, restrictions, and progress evidence.
 - [[learning-path]] — active staged path and next reading/drill.
 - [[source-map]] — inventory and ranking of all sources.
-- [[syllabus-alignment]] — official CSE 1321/1321L outcomes, restrictions, assessments, and topic-to-stage coverage.
+- [[syllabus-alignment]] — official CSE 1321/1321L controls plus the full-semester
+  code-reader pathway, module playbooks, assessment plan, and trigger-based reading
+  reminders through the final.
 - [[prerequisite-map]] — concept dependency map.
 - [[parking-lot]] — advanced or off-scope material parked for later.
 - [[log]] — append-only session history.

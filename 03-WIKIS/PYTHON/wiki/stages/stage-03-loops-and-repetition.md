@@ -1,7 +1,7 @@
 ---
 type: stage
 stage_number: 03
-status: ready
+status: active
 priority: current
 source_spine: "Think Python Ch.7 (+ for-loop section pulled forward from Ch.8)"
 support_sources: ["Automate the Boring Stuff Ch.3", "Python Crash Course Ch.4 & 7", "Invent Your Own Computer Games Ch.3"]
@@ -26,6 +26,7 @@ Stage 2 — comparisons, Boolean logic, `if`/`elif`/`else`.
 - [[concepts/for-loops]]
 - [[concepts/while-loops]]
 - [[concepts/counters-and-accumulators]]
+- [[concepts/modulo-and-divisibility]]
 
 ## Vocabulary To Add
 
@@ -38,8 +39,15 @@ Stage 2 — comparisons, Boolean logic, `if`/`elif`/`else`.
 - [[glossary/accumulator]]
 - [[glossary/break-continue]]
 - [[glossary/infinite-loop]]
+- [[glossary/modulo-operator]]
 
 Full flashcard batch: [[flashcards/stage-03-repetition]]
+
+## Code-Reading Gate
+
+Trace `initial state -> condition or next item -> body -> update -> exit`. Use a
+table with one row per iteration, predict the final values and output before
+running, then reduce the solution to a loop skeleton before implementing it.
 
 ## Required Code Patterns
 

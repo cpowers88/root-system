@@ -79,6 +79,33 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
 5. Reading/debugging tracebacks.
 6. Avoiding advanced-material overload.
 
+## Semester Competency Target
+
+For Fall 2026, optimize this hub for independent **code reading and code reasoning**:
+locate inputs/state/control flow, trace execution, predict output, explain construct
+choice, write pseudocode and skeletons, then implement and debug course-level Python
+without AI assistance. Vibe coding and AI-generated implementation are out of scope
+for this hub and cannot count as learner proof.
+
+## Current Reading Queue
+
+- **Read now:** no broad reread before the fresh password-controlled `while`
+  transfer. Attempt it cold first.
+- **If that cold attempt fails:** read [[concepts/while-loops]] only, then retry
+  with a fresh prompt. For counter/accumulator trouble, read
+  [[concepts/counters-and-accumulators]] only.
+- **Immediately before the divisible-by-7 counter:** explain `number % 7 == 0`
+  from memory. If that explanation is not clear, read
+  [[concepts/modulo-and-divisibility]] once, trace `6 % 7`, `7 % 7`, and `8 % 7`,
+  then attempt the counter without copying an implementation.
+- **Read after Stage 3 closes:** [[stages/stage-04-functions-parameters-return]],
+  then [[concepts/defining-and-calling-functions]],
+  [[concepts/parameters-and-arguments]], and [[concepts/return-values]]. The matching
+  spine reading is *Think Python* Chapters 3 and 6, limited to the Stage 4 sections
+  listed in [[syllabus-alignment]].
+- **Do not read yet:** collections, searching/sorting, OOP, or Java. Their exact
+  unlock triggers and semester reminders live in [[syllabus-alignment]].
+
 ## Learning Design Requirements
 
 - Glossary-first.
@@ -89,6 +116,8 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
 - Physical-world anchors when useful.
 - Park advanced topics.
 - Teach computer-science thinking and Python mechanics together.
+- Start every meaningful session with `Read now`, `Read next after proof`, and
+  `Do not read yet`; move the queue only from actual proof or the live course module.
 
 ## Academic Integrity Notes
 

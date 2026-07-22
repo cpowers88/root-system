@@ -18,7 +18,11 @@ created: 2026-07-15
 - Older history: flags #1–#83-era (June 8 – July 11, 83 rows) remain in
   `99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`.
 
-## Closed — July 2026 (week of July 17)
+## Closed — July 2026 (week of July 21)
+
+| # | Flag | Raised | Closed | Fix |
+|---|---|---|---|---|
+| 77 | Weekly intake was not fully cleared: four classified files sat under `77-INBOX\READY_FOR_CHRIS_RAW_PLACEMENT\` (BUSINESS — `TheLeanStartup,RIES.pdf`; TECHNOLOGY — three files) awaiting Chris's raw-placement decision. | July 17 | July 21 | Chris restructured the staging folder into one subfolder per active hub (AI_AUTOMATION_SYSTEMS, BUSINESS, EDUCATION, PHYSICS, PYTHON, REVENUE_LAB, SYSTEMS, TECHNOLOGY — CASTLE deliberately excluded, not a raw-intake hub) and the four original files are confirmed gone from the old flat location — resolved by Chris's own placement/decision, not further tracked here. Same session, two new items were sorted into the EDUCATION subfolder (a St. Louis Fed "Great Depression" lesson essay and a FRED CPI web clipping, both ECON 1000-relevant) — these are freshly staged, not a reopening of this flag; routine ongoing inbox routing per `OPERATIONS.md`'s Weekly Inbox Routing Checklist, not a standing flag condition. |
 
 | # | Flag | Raised | Closed | Fix |
 |---|---|---|---|---|

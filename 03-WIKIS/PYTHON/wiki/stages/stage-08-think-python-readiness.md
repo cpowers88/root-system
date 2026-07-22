@@ -2,7 +2,7 @@
 type: stage
 stage_number: 08
 status: ready
-priority: current
+priority: upcoming
 source_spine: "Think Python Ch.5 (recursion), Ch.15-18 (Classes/Objects), Ch.21 (Algorithms)"
 support_sources: ["Python Crash Course Ch.9", "Grokking Algorithms Ch.1-5", "Data Structures & Algorithms Ch.1-9", "Python Workout Ch.10", "Invent Your Own Computer Games Ch.15-16", "Automate the Boring Stuff Ch.9"]
 ---
@@ -48,6 +48,18 @@ Stage 7 — decomposition, incremental development, testing.
 
 Full flashcard batch: [[flashcards/stage-08-algorithms-and-classes]]
 
+## Course Core vs. Full Stage
+
+Course core is classes/objects plus linear search, simple sorting, and dictionary
+or hash lookup intuition. Recursion, formal Big O analysis, and regex are useful
+enrichment; none should block readiness for the syllabus-named material.
+
+## Code-Reading Gate
+
+For classes, trace `class -> instance -> attributes -> method call -> state/output`.
+For algorithms, record the target, current position, comparison, and data change
+on each step. Predict linear-search and selection-sort behavior before running.
+
 ## Required Code Patterns
 
 - [[code-patterns/recursive-function-with-base-case]]
@@ -78,18 +90,28 @@ Full flashcard batch: [[flashcards/stage-08-algorithms-and-classes]]
 
 ## Mastery Checklist
 
-- [ ] Define recursion, base case, class, object/instance, attribute, method, Big O, sorting, searching, and hash table in plain English.
+### Course-Core Gate
+
+- [ ] Define class, object/instance, attribute, method, sorting, searching, and hash table in plain English.
 - [ ] Recognize each of these in a short piece of code.
 - [ ] Write a simple class with `__init__` and one method from memory, without notes.
-- [ ] Trace a recursive function by hand and correctly identify its base case.
-- [ ] Look at a short code snippet and estimate whether it's O(1), O(n), or O(n²), with a one-sentence reason.
+- [ ] Trace linear search and one pass of a simple sorting algorithm by hand.
 - [ ] Debug at least one of the four error types in [[errors/stage-08-common-errors]] without help.
-- [ ] Complete [[drills/stage-08-algorithms-and-classes-practice]].
+- [ ] Complete the course-core gate in [[drills/stage-08-algorithms-and-classes-practice]].
 - [ ] Complete [[mini-projects/stage-08-card-collection]] and explain the solution out loud.
+
+### Full-Stage Enrichment Gate
+
+- [ ] Define recursion, base case, and Big O in plain English.
+- [ ] Trace a recursive function by hand and correctly identify its base case.
+- [ ] Estimate whether a short snippet is O(1), O(n), or O(n²), with a one-sentence reason.
+- [ ] Complete the optional enrichment parts of [[drills/stage-08-algorithms-and-classes-practice]].
 
 ## Stage Mastery Target
 
-Can write a simple class with `__init__` and one method from memory, and trace a recursive function by hand to find its base case.
+Course core: can read and write a simple class, trace linear search and simple
+sorting, and explain dictionary/hash lookup intuition. Full-stage enrichment adds
+recursion tracing and Big O reasoning.
 
 ## Parked Until Later
 

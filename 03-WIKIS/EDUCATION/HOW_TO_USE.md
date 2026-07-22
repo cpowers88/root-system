@@ -51,4 +51,5 @@ pre-semester sequencing lives in
 state into this guide.
 
 ## Last Updated
-July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.
+July 21, 2026 — activated TCOM/ECON materials use just-in-time unlocks; volatile
+state remains in the owner pages. Canonical workspace: `C:\Users\chris\.ROOT`.

@@ -35,12 +35,15 @@ Stage 1  (Ch 1)  -> none — calculus-free on-ramp
 Stage 2  (Ch 2)  -> derivatives: v = dx/dt, a = dv/dt = d²x/dt²
                     integrals: x = ∫v dt, v = ∫a dt (area under v-t and a-t graphs)
 Stage 3  (Ch 3)  -> none new (trig, not calculus)
-Stage 4  (Ch 4)  -> derivatives/integrals applied independently to x(t) and y(t)
+Stage 4  (Ch 4)  -> derivatives/integrals applied independently to x(t) and y(t);
+                    a_t = dv/dt for nonuniform circular motion first appears here (Sec 4.5)
 Stage 5  (Ch 5)  -> none new (algebra on F = ma)
-Stage 6  (Ch 6)  -> none new
+Stage 6  (Ch 6)  -> a_t = dv/dt reused from Stage 4/2, applied to circular paths
+                    with changing speed
 Stage 7  (Ch 7)  -> integral for work by varying force: W = ∫F dx
                     dot product W = F·d cos θ (vector calculus, conceptual)
-Stage 8  (Ch 8)  -> none new (energy conservation is algebra on Stage 7 result)
+Stage 8  (Ch 8)  -> power as a rate of energy transfer: P = dE/dt = dW/dt
+                    (energy conservation itself is algebra on the Stage 7 result)
 Stage 9  (Ch 9)  -> impulse as time integral of force: J = ∫F dt
 Stage 10 (Ch 10) -> rotational derivatives: α = dω/dt, ω = dθ/dt
                     integration to find moment of inertia: I = ∫r² dm
@@ -62,3 +65,20 @@ Stage 18 (Ch 38) -> none new (Lorentz algebra, but gives up Galilean intuition)
 ## Later Stages
 
 Full calculus-link pages for each stage are generated when that stage packet is built, per the one-stage-at-a-time rule in [[../CLAUDE.md]]. The roadmap above is the preview — each row becomes a detailed page in `wiki/calculus-links/` as Chris reaches it.
+
+## Calculus-Link Pages Built So Far
+
+Each page below includes a full derivation, a small worked example, a
+multi-problem practice set, and a real-world/engineering use case.
+
+| Page | Stage(s) | Covers |
+|---|---|---|
+| [[calculus-links/kinematics-derivatives]] | 2 | v = dx/dt, a = dv/dt, integration of constant a |
+| [[calculus-links/2d-kinematics-components]] | 4 | vector differentiation applied to projectile motion |
+| [[calculus-links/tangential-radial-acceleration-derivative]] | 4, 6 | a_t = dv/dt on a curved path, combined with a_r = v²/r |
+| [[calculus-links/stage-7-work-integral]] | 7 | W = ∫F dx, F = −dU/dx |
+| [[calculus-links/power-derivative]] | 8 | P = dE/dt, ΔE = ∫P dt |
+| [[calculus-links/impulse-integral]] | 9 | J = ∫F dt = Δp |
+| [[calculus-links/rotational-kinematics-derivatives]] | 10 | ω = dθ/dt, α = dω/dt, I = ∫r² dm, W = ∫τ dθ |
+| [[calculus-links/angular-momentum-derivative]] | 11 | τ = dL/dt |
+| [[calculus-links/shm-differential-equation]] | 15 | d²x/dt² = −ω²x |

@@ -53,7 +53,13 @@ control total. **For the quick per-stage table, see `wiki/learning-path.md` →
 - **OOP** appears in both syllabi (weeks 11–13ish) — matches vault's parked placement at Stage 8 ("objects... as required by syllabus"). No prerequisite gap.
 - **Schedule warning:** the lab syllabus title says Fall 2026, but its calendar uses
   January-May dates and spring break. Topic order is usable; live dates require D2L
-  or a corrected instructor schedule.
+  or a corrected instructor schedule. The lecture calendar is mostly Fall-aligned
+  but contains copied anomalies in Week 1 and the final-review row; its capture also
+  contains a second unlabeled grading table. Verify all three controls in D2L.
+- **Reading and code-reader pathway:** the syllabus sequence is compiled into a
+  trigger-based local-page/*Think Python* reading queue, code-reader ladder, module
+  playbooks, and whole-semester proof map in [[syllabus-alignment]]. Vibe coding and
+  AI-generated implementation are excluded from this CSE hub.
 - Full control page: [[syllabus-alignment]].
 
 ---

@@ -2,7 +2,7 @@
 type: stage
 stage_number: 05
 status: ready
-priority: current
+priority: upcoming
 source_spine: "Think Python Ch.8, 10, 11, 12"
 support_sources: ["Automate the Boring Stuff Ch.6-8", "Python Crash Course Ch.3-4 & 6", "Python Workout Ch.4-5", "Invent Your Own Computer Games Ch.8-14"]
 ---
@@ -45,6 +45,18 @@ Stage 4 — functions, parameters, return values, scope.
 
 Full flashcard batch: [[flashcards/stage-05-data-shapes]]
 
+## Course Core vs. Full Stage
+
+Course core is strings, lists, tuples, dictionaries, indexing/slicing, mutation,
+aliasing, and choosing a fitting structure. Sets and deeper nested structures are
+enrichment; they do not block Fall 2026 course readiness.
+
+## Code-Reading Gate
+
+Name the data shape first. Then mark every index or key access, mutation, alias,
+and traversal; predict the resulting structure before running. Sketch the needed
+data shape and operations before writing complete code.
+
 ## Required Code Patterns
 
 - [[code-patterns/list-loop-and-index]]
@@ -75,7 +87,7 @@ Full flashcard batch: [[flashcards/stage-05-data-shapes]]
 
 ## Mastery Checklist
 
-- [ ] Define index, slice, mutable/immutable, list, aliasing, dictionary, key/value, tuple, set, and nested structure in plain English.
+- [ ] Define index, slice, mutable/immutable, list, aliasing, dictionary, key/value, and tuple in plain English.
 - [ ] Recognize each of these in a short piece of code.
 - [ ] Given a new plain-English data scenario, correctly choose list vs. dictionary vs. tuple, and explain why.
 - [ ] Write a list-indexing/slicing example and a dictionary-lookup example from memory, without notes.
@@ -85,6 +97,9 @@ Full flashcard batch: [[flashcards/stage-05-data-shapes]]
 - [ ] Debug at least one of the four error types in [[errors/stage-05-common-errors]] without help.
 - [ ] Complete [[drills/stage-05-data-structure-practice]].
 - [ ] Complete [[mini-projects/stage-05-caesar-cipher]] and explain the solution out loud.
+
+Full-stage enrichment: recognize sets and one-level nested structures. These do
+not block the Fall 2026 course-core gate.
 
 ## Stage Mastery Target
 

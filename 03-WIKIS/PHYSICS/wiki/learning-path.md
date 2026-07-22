@@ -45,6 +45,15 @@ Stage 18 -> Ch 38 Relativity (capstone)
 
 Ch 10–12 and Ch 14 confirmed in scope by Chris (2026-06-25). All stages now active in sequence.
 
+**2026-07-21 cross-section check:** two real Fall 2026 neighbor syllabi (Section
+51 and Section 55, neither is Chris's Section 54) confirm the Stage 1-12 and
+Stage 15 order exactly. Neither neighbor's actual calendar schedules Ch 14
+(Fluids) or Ch 38 (Relativity), and Section 55 never reaches Ch 13 or Ch 16-17
+either — full detail and handling rule in
+[[syllabus-coverage-ledger#Cross-Section Verification, 2026-07-21]]. Stages
+13-18 stay in the path; re-verify against Section 54's real D2L calendar after
+Aug 24.
+
 ## Semester Pathway Control Table
 
 This table is the structural path. [[current-position]] remains the authority for
@@ -59,19 +68,19 @@ the material has been mastered.
 | 3 | [[stages/stage-3-vectors]] | source-verified; **active** | trig, inverse trig, quadrants | navigation and cable forces |
 | 4 | [[stages/stage-4-motion-in-two-dimensions]] | source-verified; **next** | components, quadratics | thrown objects and water trajectories |
 | 5 | [[stages/stage-5-laws-of-motion]] | source-verified; ready | simultaneous equations, incline trig | loads, ramps, connected equipment |
-| 6 | [[stages/stage-6-circular-motion]] | TOC screened; section 6.3 accelerated frames needs packet expansion before activation | radians and circular geometry | vehicle turns and rotating rides |
+| 6 | [[stages/stage-6-circular-motion]] | Ready — section 6.3 accelerated frames built out 2026-07-21 (concept, glossary, common-errors, flashcards, mastery items) | radians and circular geometry | vehicle turns and rotating rides |
 | 7 | [[stages/stage-7-energy-of-a-system]] | TOC screened; section 7.9 restored to alignment | dot product and force-distance integral | pushing, lifting, springs |
 | 8 | [[stages/stage-8-conservation-of-energy]] | TOC screened; packet covers 8.1-8.5 at overview level | algebra and rates | braking loss and roller-coaster energy |
-| 9 | [[stages/stage-9-linear-momentum]] | TOC screened; sections 9.7-9.9 need an include/park decision | vectors, simultaneous equations, force-time area | collisions and recoil |
+| 9 | [[stages/stage-9-linear-momentum]] | Ready — sections 9.7-9.9 parked 2026-07-21 (see [[parking-lot]]); Do Not Move On Until and Parked for Later sections added | vectors, simultaneous equations, force-time area | collisions and recoil |
 | 10 | [[stages/stage-10-rotation]] | TOC screened; core coverage present, supporting links unfinished | radians, torque trig, integration | wheels, flywheels, breaker bars |
 | 11 | [[stages/stage-11-angular-momentum]] | TOC screened; gyroscope/precession scope needs D2L confirmation | cross product, right-hand rule, derivatives | spinning tools and rotating bodies |
 | 12 | [[stages/stage-12-static-equilibrium]] | TOC screened; chapter sections represented | force/torque systems | beams, ladders, structures |
 | 13 | [[stages/stage-13-universal-gravitation]] | TOC screened; chapter topics represented, supporting links unfinished | inverse-square scaling | satellites and orbital systems |
-| 14 | [[stages/stage-14-fluid-mechanics]] | TOC screened; 14.3 and 14.7-14.8 need an include/park decision | density, area, volume, algebra | hydraulics, buoyancy, pipe flow |
+| 14 | [[stages/stage-14-fluid-mechanics]] | TOC screened; 14.3 and 14.7-14.8 need an include/park decision. Neither 2026-07-21 neighbor syllabus schedules this chapter — kept in path per Chris's 2026-06-25 confirmation; re-verify Section 54 after Aug 24. | density, area, volume, algebra | hydraulics, buoyancy, pipe flow |
 | 15 | [[stages/stage-15-oscillatory-motion]] | TOC screened; 15.6-15.7 intentionally parked pending course scope | sinusoids, second derivatives, small angles | suspension and pendulums |
-| 16 | [[stages/stage-16-wave-motion]] | TOC screened; overview covers 16.1-16.9, supporting links unfinished | sinusoids, logs, partial-derivative recognition | strings, sound, moving sources |
-| 17 | [[stages/stage-17-superposition]] | TOC screened; alignment corrected through beats in 17.7; 17.8 parked | phase and trig identities | instruments, pipes, resonance |
-| 18 | [[stages/stage-18-relativity]] | TOC screened; special relativity 38.1-38.8 represented; 38.9 parked | ratios, roots, limiting behavior | GPS timing and particle lifetime |
+| 16 | [[stages/stage-16-wave-motion]] | TOC screened; overview covers 16.1-16.9, supporting links unfinished. Section 55's 2026-07-21 calendar stops before this chapter; Section 51's reaches it. Kept in path — see [[syllabus-coverage-ledger#Cross-Section Verification, 2026-07-21]]. | sinusoids, logs, partial-derivative recognition | strings, sound, moving sources |
+| 17 | [[stages/stage-17-superposition]] | TOC screened; alignment corrected through beats in 17.7; 17.8 parked. Same 2026-07-21 neighbor-calendar note as Stage 16. | phase and trig identities | instruments, pipes, resonance |
+| 18 | [[stages/stage-18-relativity]] | TOC screened; special relativity 38.1-38.8 represented; 38.9 parked. Neither 2026-07-21 neighbor syllabus calendar reaches this chapter, though all three syllabi's course-outcome text names it. Kept in path; re-verify Section 54 after Aug 24. | ratios, roots, limiting behavior | GPS timing and particle lifetime |
 
 The just-in-time math route and current three-rep bridge live in
 [[math-readiness-path]]. Packet expansion follows the unresolved decisions above;
@@ -178,6 +187,10 @@ complete a no-notes pass and the Stage 3 mastery checklist before Stage 4.
 
 **Packet status:** Generated and source-verified; not yet studied.
 
+**Pacing anchor (soft, non-binding):** Section 55's 2026-07-21 calendar puts
+Exam 1 around Sep 25, covering roughly Ch 5-6. Not Chris's real exam date —
+useful only for gauging how much time a controlled Stage 4-6 pace should take.
+
 ---
 
 ## Stage 6 — Circular Motion and Other Applications of Newton's Laws (Ch 6)
@@ -187,8 +200,8 @@ complete a no-notes pass and the Stage 3 mastery checklist before Stage 4.
 **Prerequisite physics:** Stage 5.
 **Core concepts:** Uniform circular motion forces, nonuniform circular motion, accelerated reference frames, resistive forces.
 
-**Packet status:** Generated; TOC screened. Section 6.3 (motion in accelerated
-frames) is not represented strongly enough and must be expanded before activation.
+**Packet status:** Generated and ready. Section 6.3 (motion in accelerated frames)
+was expanded 2026-07-21 — see [[concepts/accelerated-reference-frames]].
 
 ---
 
@@ -225,9 +238,8 @@ overview level.
 **Prerequisite physics:** Stages 5, 7–8.
 **Core concepts:** Linear momentum, impulse, isolated-system momentum conservation, 1D and 2D collisions, center of mass.
 
-**Packet status:** Generated; TOC screened. Sections 9.7-9.9 (many-particle systems,
-deformable systems, rocket propulsion) need an explicit include/park decision from
-verified course scope.
+**Packet status:** Generated and ready. Sections 9.7-9.9 (many-particle systems,
+deformable systems, rocket propulsion) parked 2026-07-21 — see [[parking-lot]].
 
 ---
 
@@ -245,6 +257,10 @@ verified course scope.
 **Problem types introduced:** Angular kinematics problems; torque and Newton's 2nd law for rotation; rotational energy problems; rolling-without-slipping problems.
 
 **Packet status:** Generated; not yet studied or re-verified in the current pass.
+
+**Pacing anchor (soft, non-binding):** Section 55's 2026-07-21 calendar puts
+Exam 2 around Oct 30, covering roughly momentum through the start of rotation
+(Ch 9-10). Not a real Chris exam date — pacing reference only.
 
 ---
 
@@ -273,6 +289,11 @@ verified course scope.
 **Problem types introduced:** Equilibrium problems (ladders, beams, trusses); stress-strain material problems.
 
 **Packet status:** Generated; not yet studied or re-verified in the current pass.
+
+**Pacing anchor (soft, non-binding):** Section 55's 2026-07-21 calendar puts
+Exam 3 around Nov 20, covering roughly rotation through static equilibrium and
+the start of SHM (Ch 10-12/15). Not a real Chris exam date — pacing reference
+only.
 
 ---
 

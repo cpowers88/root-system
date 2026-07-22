@@ -113,3 +113,54 @@ stage is implied.
 No missing syllabus physics topic remains unrouted. The unresolved items are course
 operations or textbook section-depth decisions, not gaps in the semester concept
 sequence.
+
+## Cross-Section Verification, 2026-07-21
+
+Two real Fall 2026 PHYS 2211 syllabi were obtained: Section 51 (Krishna Rana Magar)
+and Section 55 (Swayamprabha Behera) — see `raw/syllabus/`. Neither is Chris's
+registered Section 54 (flag #57, still open pending Aug 24 D2L confirmation), but
+both are same-course, same-term, and give the first real look at pacing beyond
+Chapter 5.
+
+**What this confirms — no path change needed:**
+
+- Topic order for Ch 1 through Ch 12 matches [[learning-path]]'s Stage 1-12
+  sequence exactly in both sections. Ch 15 (SHM) also lands in the same relative
+  position in both. This corroborates the existing stage order.
+- `raw/syllabus/syllabus.pdf` (the original spine source) is very likely an early,
+  truncated capture of this same Section 55 syllabus — identical instructor,
+  identical grading weights, identical early-week dates. Treat it as superseded by
+  the new Section 55 file for anything past Chapter 5.
+
+**What this surfaces as a real open question — tracked, not acted on:**
+
+- Chris confirmed Ch 10-12 and Ch 14 in scope on 2026-06-25, based on the syllabus
+  course-description text ("law of universal gravitation... falling objects and
+  orbital motion," "fluid mechanics confirmed in the semester route"). Neither
+  neighbor section's actual week-by-week calendar schedules Ch 14 (Fluid
+  Mechanics) or Ch 38 (Relativity):
+  - Section 55's calendar stops entirely after Ch 15 (SHM) with review weeks —
+    never reaches Ch 13 (gravitation), Ch 14, Ch 16-17 (waves), or Ch 38.
+  - Section 51's calendar does reach Ch 13 (week 5, paired with circular motion)
+    and Ch 16-17 (weeks 12-14), but also never schedules Ch 14, and ends in
+    review weeks without reaching Ch 38.
+  - **Handling rule:** keep Stages 13-18 built and in the path — the course
+    description in all three syllabi (original + both neighbors) names
+    gravitation, waves, and relativity as course learning outcomes, and two
+    sections omitting a chapter from a tentative calendar is not the same as it
+    being out of scope. Re-verify against Section 54's real calendar the moment
+    it exists in D2L (target: after Aug 24). Do not shrink the path on neighbor
+    evidence alone.
+- Grading structure differs materially between the two neighbors (Section 51:
+  four unit exams, best 3 of 4, final 25%, attendance 7.5% + recitation 7.5%
+  separately graded; Section 55: three unit exams, lowest dropped, final 30%,
+  participation 10% covers both attendance and recitation). This mirrors the
+  exam-count conflict already flagged in `syllabus.pdf` itself. Course
+  operations only — no stage-path impact — but confirms the exam-count question
+  cannot be resolved without Section 54's actual syllabus.
+- **Soft pacing anchors from Section 55** (real 2026 dates, same instructor as
+  the original spine, not binding for Section 54): Exam 1 ~Sep 25 (through Ch
+  5/6), Exam 2 ~Oct 30 (through ~Ch 10), Exam 3 ~Nov 20 (through ~Ch 12/15),
+  Thanksgiving break Nov 23-27, final review the last week. Useful for pacing
+  Stage 5 → Stage 15 at a controlled rate; do not calendar these as Chris's
+  actual exam dates.

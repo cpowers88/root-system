@@ -54,3 +54,15 @@ tags: [later, physics]
 ### Card 12
 **Q:** Why does a heavier skydiver (same body shape) have a higher terminal velocity than a lighter one?
 **A:** From v_t = √(2mg/DρA): larger m → larger numerator → larger v_t. The drag area and shape are the same, so more weight requires faster fall to generate enough drag to balance it.
+
+### Card 13
+**Q:** What makes a reference frame "noninertial," and what must you add to use ΣF = ma inside one?
+**A:** A noninertial frame is itself accelerating (braking car, spinning carousel, accelerating elevator). To use ΣF = ma from inside it, add a fictitious force F_fict = −ma_frame, opposite the frame's acceleration.
+
+### Card 14
+**Q:** A person stands on a scale in an elevator accelerating upward at a. What does the scale read?
+**A:** n = m(g + a) — the scale reads MORE than true weight mg, because the normal force must both support gravity and accelerate the person upward.
+
+### Card 15
+**Q:** Why is "centrifugal force" not a real force?
+**A:** It only appears to an observer riding inside a rotating (noninertial) frame — it is the fictitious force F_fict = −ma_frame for that frame. A ground (inertial) observer sees only the real, inward centripetal force; nothing pushes outward.

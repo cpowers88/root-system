@@ -56,6 +56,10 @@ beyond what each course's own policy allows.
   financial literacy.
 - Danger-weeks note: Chapters 7–9 and 10–12 land inside Oct 5 – Nov 11 —
   the school-only window covers the entire back half of this course.
+- **Provisional semester map:** [[econ-1000-semester-map]] — maps the
+  confirmed real schedule to CORE Econ's confirmed units, OpenStax's
+  expected chapters, and the FRED datasets. Lower confidence than TCOM's
+  map (real textbook is D2L-locked); re-check once D2L opens.
 - **Reading/dataset prep (independent study only, not submitted work):**
   Four real FRED series (`GDP`, `GDPC1`, `CPIAUCSL` inflation, `UNRATE`
   unemployment) are already pulled and live at
@@ -63,6 +67,12 @@ beyond what each course's own policy allows.
   `00-BRAIN\scripts\fetch_fred.py`; re-runnable any time for current data).
   Two open textbooks are placed alongside the syllabus in the same folder:
   OpenStax *Principles of Economics 2e* and CORE Econ's *The Economy 2.0*.
+  Two Federal Reserve sources now sit in this hub's immutable `raw/`: the
+  FRED/BLS CPIAUCSL clipping and David Wheelock's four-page Great Depression
+  overview. They are fully processed into five just-in-time reading chunks,
+  a flashcard batch, and a solution-free reasoning drill at
+  [[econ-1000-great-depression-cpi-reading-guide]]. They unlock during Weeks
+  7-14 and are not assigned course readings unless the instructor says so.
   World Bank Open Data (not yet pulled) covers the economic-systems
   cross-country comparisons. Practicing real SQL/visualization reps against
   the FRED series doubles as progress on the July weak-link list
@@ -82,7 +92,9 @@ beyond what each course's own policy allows.
   (Tiffani Tijerina, Tamara Powell, Jonathan Arnett, Monique Logan, Cassandra
   Race — KSU-affiliated authors), published by Affordable Learning Georgia,
   CC-BY 4.0, genuinely free — https://alg.manifoldapp.org/projects/open-technical-communication.
-  Confirmed live 2026-07-21; not yet copied into `raw/`, awaiting Chris.
+  Now in `raw/Open-TC-PDF.pdf`, along with its instructor ancillary package
+  and per-example worked files. Full week-by-week resource map:
+  [[tcom-2010-semester-map]].
 - **Content:** technical descriptions, instructions, proposals,
   recommendation reports; rhetorical theory, audience analysis, document
   design, visual aids, editing; at least one complete technical report,

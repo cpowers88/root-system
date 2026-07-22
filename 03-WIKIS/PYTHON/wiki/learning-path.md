@@ -33,8 +33,30 @@ the sole owner of live learner truth.
 **Parked Advanced Material:** see `wiki/parking-lot.md` (consolidated 2026-06-24)
 
 **Intake note (2026-07-13):** Four late raw-source files were classified. They
-add future support/reference options only; the active Stage 2 reading, drill, and
-mini-project remain unchanged.
+added future support/reference options only and did not change the stage sequence;
+the live learner has since advanced to the Stage 3 frontier recorded above.
+
+## Fall 2026 Course Overlay
+
+[[syllabus-alignment]] now carries the detailed CSE 1321/1321L semester pathway:
+the week/module-to-stage map, code-reader competency ladder, module playbooks,
+assessment preparation, and the trigger-based reading queue through the final.
+
+The routing rule is simple:
+
+```text
+current-position = what Chris reads and proves now
+syllabus-alignment = when later course reading unlocks
+this page = durable Stage 0–10 sequence
+```
+
+Every meaningful session begins with `Read now`, `Read next after proof`, and
+`Do not read yet`. Required local pages and *Think Python* sections come first;
+support books open only when the first explanation or fresh attempt does not land.
+Reading must end in a trace, skeleton, drill, or explain-back.
+
+This hub is the independent CSE learning lane. Vibe coding and AI-generated
+implementation are out of scope here and do not count as mastery evidence.
 
 ---
 

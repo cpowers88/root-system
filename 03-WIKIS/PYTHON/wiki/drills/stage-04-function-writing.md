@@ -20,6 +20,24 @@ Practice writing functions with parameters and return values from a plain-Englis
 - `return` vs. `print()`
 - scope (local variables)
 
+## Cold-Read Gate
+
+Trace the snippet without running it. Mark the caller, argument, parameter, local
+variable, returned value, and final output. Explain why the caller can use
+`converted` but cannot directly use `result`.
+
+```python
+def add_tax(price):
+    result = price * 1.08
+    return result
+
+converted = add_tax(10)
+print(converted)
+```
+
+Before completing the Starter Prompt, write all three function signatures and a
+one-line return/print contract for each. Only then fill in the bodies.
+
 ## Starter Prompt
 
 Write three separate functions:

@@ -34,7 +34,7 @@ Nothing is "learned" until a drill or mini-project proves it and Chris can expla
 the choices from memory. The live stage, exact learner frontier, and open proof gate
 exist only in `wiki\current-position.md`; do not copy them into this guide. The
 shipped KSU Academic Tracker remains a real-use application vehicle when verified
-course data arrives around July 25; it is not the curriculum frontier.
+course data arrives, expected August 24 or later; it is not the curriculum frontier.
 
 ## What Counts as Proof
 A completed drill, a working mini-project, or real use in the tracker build — not a generated concept page. Generated content is not studied content.
@@ -44,7 +44,9 @@ Study outputs stay in-vault (drills, flashcards, error notes in `wiki/errors/`).
 Course-submitted work never comes from here. CSE 1321/1321L explicitly prohibit
 AI-assisted submitted work; see `wiki\syllabus-alignment.md` and the Academic
 Integrity Boundary in `CLAUDE.md`. Skills proven here get logged against the
-matching castle skill page, not duplicated there.
+matching castle skill page, not duplicated there. Vibe coding and AI-generated
+implementation are outside this hub; this lane builds independent CSE reading,
+tracing, planning, coding, and debugging ability.
 
 ## Boundaries
 No stage-skipping; no "just curious" advanced extraction (park it in
@@ -77,6 +79,7 @@ copy learner state into this guide.
 - *Pre-semester*: "Which stages map to CSE 1321 module 3?" → targeted review list.
 
 ## Last Updated
-July 21, 2026 — copied learner state and fixed-time example removed; exact progress
-remains in the live owner. Canonical workspace is `C:\Users\chris\.ROOT`; G: is
-backup only.
+July 21, 2026 — routed the full-semester CSE code-reader and trigger-based reading
+path to `wiki\syllabus-alignment.md`; exact progress and the current reading queue
+remain in `wiki\current-position.md`. Canonical workspace is
+`C:\Users\chris\.ROOT`; G: is backup only.

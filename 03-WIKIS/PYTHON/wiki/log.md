@@ -1142,3 +1142,104 @@ cross-domain transfer, and independent `while` construction remain unproven.
 Program writing paused before the fresh password-controlled `while` transfer for
 daily paperwork. Resume with that prompt without revealing the previous scaffold,
 then complete the divisible-by-7 counter.
+
+## 2026-07-21 — Exact-section syllabus-to-semester pathway expansion (Codex)
+
+### Work completed
+
+- Re-read the active CSE 1321 BF and CSE 1321L 04 Simple Syllabus captures against
+  the complete Python hub structure and preserved the existing Stage 0–10 order.
+- Expanded `syllabus-alignment.md` from a compact topic crosswalk into the semester
+  control page: exact course controls, source anomalies, academic-integrity boundary,
+  code-reader ladder, repeated study unit, pre-semester gate, whole-semester map,
+  module playbooks, assessment preparation, and update triggers.
+- Added a trigger-based reading queue for every course phase. It names the local
+  page first, the exact *Think Python* chapters/sections second, optional support
+  only when needed, and the trace/skeleton/explain-back that must follow reading.
+- Added the four-line session reminder: course module/stage, read now, read next
+  after proof, and do not read yet. The volatile queue lives in `current-position`;
+  the durable semester schedule lives in `syllabus-alignment`.
+- Corrected the user's boundary clarification: vibe coding and AI-generated
+  implementation do not belong in this hub and cannot count as CSE learner proof.
+  AI use remains limited to private concept teaching and fresh ungraded drills;
+  submitted lecture/lab work is independently read, planned, coded, tested, and
+  debugged by Chris.
+- Recorded two source-quality controls that must be verified after D2L populates:
+  the lecture capture contains a second unlabeled 40/20/40 grading table alongside
+  the working Fall/Spring 25/25/25/25 table, plus copied Week 1/Week 15 date text;
+  the lab's entire January–May calendar remains unusable for Fall dates.
+- Removed the stale July 25 tracker-data assumption from the hub guide; verified
+  course data is expected August 24 or later.
+
+### Pages created/updated
+
+- Updated: `wiki/syllabus-alignment.md`, `wiki/current-position.md`,
+  `wiki/learning-path.md`, `wiki/source-map.md`, `wiki/index.md`, `HOW_TO_USE.md`,
+  and this log.
+- Created: none. The existing syllabus-alignment owner was expanded instead of
+  creating a competing semester plan.
+
+### Vocabulary added
+
+None. The code-reader levels are learning controls, not new Python vocabulary.
+
+### Drills or projects added
+
+No new solution-bearing drill or project was created. Existing Stage 0–8 pages,
+drills, patterns, and mini-projects were routed into the semester map.
+
+### Progress evidence
+
+No new learner mastery was inferred. Stage 3 remains open at the fresh
+password-controlled `while` transfer.
+
+### Parked material
+
+- Vibe coding/AI-generated implementation is excluded from this hub.
+- Java remains a small, live-course-confirmed bridge after Python OOP, not a new
+  parallel curriculum.
+- Recursion, Big O depth, regex, automation, APIs, SQL, pandas, and web work retain
+  their existing prerequisites and are not presented as CSE requirements.
+
+### Next action
+
+Start the next Python session with the four-line reading reminder, attempt the
+password-controlled `while` transfer cold, and open `concepts/while-loops.md` only
+if that first attempt fails.
+
+## 2026-07-21 — Whole-path reinforcement audit (Codex)
+
+### What changed
+
+- Audited the active semester route across Stages 0–8, their drills, representative
+  code patterns, concept-page structure, the Stage 8 project, and the live reading
+  queue. Concept pages and code-pattern explanations were already structurally
+  strong; reinforcement was concentrated where routing or proof was weak.
+- Corrected stage state labels: Stages 0–2 are complete, Stage 3 is active, Stages
+  4–8 are upcoming, and post-course Stages 9–10 are later. Removed Stage 0/1
+  instructions that incorrectly sent Chris back to completed work.
+- Added a repeatable code-reading gate to Stages 1–8 and cold-read/skeleton work to
+  the Stage 1, 2, 4, 5, and 8 drills. The syllabus owner now supplies one markup key
+  and one five-column trace format for the full semester.
+- Closed a current-stage prerequisite gap by adding
+  `concepts/modulo-and-divisibility.md`, `glossary/modulo-operator.md`, a flashcard,
+  and just-in-time routing before the divisible-by-7 counter. No solution was added.
+- Separated Fall 2026 course core from enrichment in Stages 5, 6, and 8. Sets/deep
+  nesting, file persistence, recursion, formal Big O, and regex remain available
+  without blocking syllabus-named collections, debugging, search/sort, or OOP.
+
+### Progress evidence
+
+No new learner mastery was inferred. Stage 3 remains open at the fresh
+password-controlled `while` transfer.
+
+### Validation
+
+- Strict wiki lint: PASS — 0 blockers and 0 review debt.
+- Whitespace validation: PASS.
+
+### Next action
+
+Attempt the password-controlled `while` transfer cold. Before the later
+divisible-by-7 counter, explain `%` from memory and open the new modulo concept only
+if that explanation fails.

@@ -215,3 +215,131 @@ tags: [log]
 - Next: no action pending; World Bank Open Data (economic-systems
   cross-country comparisons) remains an unfetched recommendation if Chris
   wants it later.
+
+## 2026-07-21 (final) — TCOM 2010 activated: Educator hat, first per-course structure
+
+- Chris loaded the real assigned textbook (*Open Technical Communication*,
+  `raw/Open-TC-PDF.pdf`), its instructor ancillary package
+  (`raw/Open-TC_Course-Resources/` — templates, rubrics, slides), and ~90
+  per-example worked files (`raw/Linked-Resources/`, numbered by the book's
+  own chapter.section scheme) into this hub's `raw/`, then asked to wear the
+  Educator/TCOM hat and map the real semester against this material.
+- Loaded `HAT_EDUCATOR.md` and `HAT_TCOM.md` before building. Found and
+  fixed a real error in `HAT_TCOM.md`: it said "Never email assignments,"
+  but the actual syllabus text explicitly requires the Business Email unit
+  to be submitted by real email — only document *attachments* are barred
+  for other assignments. Left the hat's claimed class time (TTh 9:35–10:55am)
+  alone — the captured syllabus text has no clock time to confirm or deny it
+  against.
+- Built `tcom-2010-semester-map.md`: a week-by-week table mapping every real
+  syllabus deliverable to its textbook chapter, ancillary template/rubric/
+  slide, and worked example(s). Two genuine gaps found and left open rather
+  than papered over: no ancillary template for the Week 6 Report Group
+  Charter or the Week 12 Reflective Memo — both need building from adjacent
+  generic templates or the syllabus's own D2L-linked samples (behind auth,
+  not capturable). `Sample-Syllabi/` in the ancillary package was excluded
+  from the map on purpose — publisher-generic, not Chris's real section.
+- Files: `tcom-2010-semester-map.md` (new), `index.md`, `current-position.md`,
+  `fall-2026-course-briefs.md`, `00-BRAIN\HATS\HAT_TCOM.md`, this log.
+- Result: TCOM 2010 is the first of the six Fall courses to get real
+  per-course structure, ahead of the Aug 24 semester start — justified per
+  this hub's own activation rule ("build out per-course structure only when
+  a course's material actually lands here") since the material genuinely
+  landed today, not pre-built speculatively.
+- Next: no blocking action. If Chris wants, the two gap templates (charter,
+  reflective memo) could be drafted from the generic Schedule/Memo templates
+  already on hand — Chris's call, not done unprompted.
+
+## 2026-07-21 (also final) — ECON 1000 provisional map + HAT_ECON.md correction
+
+- Chris asked for the same treatment on "the other course" (ECON) after
+  TCOM's activation. Checked `HAT_ECON.md` against the real exact-section
+  syllabus first, same discipline as TCOM, and found real errors: it said
+  four exams at 25% each with the course ending ~mid-November; the real
+  structure is two exams (25%+25%) plus four quizzes (50% total, two
+  lowest dropped), running the full 14 weeks through Thu Dec 3. Also fixed
+  the professor's name (already confirmed as Zeynep Kelani, not "TBD"), the
+  exact class time (8:00–8:50am, not 8:55am), and both real exam dates
+  (9/29 and 12/3, not "TBD from D2L") — none of this needed to wait for
+  D2L; it was already confirmed in the real syllabus captured earlier
+  today.
+- Built `econ-1000-semester-map.md`, explicitly one confidence tier below
+  `tcom-2010-semester-map.md`: the real schedule/exams/quizzes are
+  confirmed, CORE Econ's unit list is confirmed (fetched live), but
+  OpenStax's chapter mapping past Ch. 1 is inferred from the book's known
+  standard structure, not independently re-verified — flagged as such
+  rather than presented with false confidence. The real assigned textbook
+  (Mathews & Patrono) stays completely unmapped since it's D2L-locked; the
+  page says plainly to re-check once D2L opens, not to trust this mapping
+  as final.
+- Files: `econ-1000-semester-map.md` (new), `index.md`, `current-position.md`,
+  `fall-2026-course-briefs.md`, `00-BRAIN\HATS\HAT_ECON.md`, this log.
+- Next: re-verify the OpenStax/CORE Econ chapter alignment and replace the
+  provisional map with a real one once D2L populates (~Aug 24) and the
+  actual Mathews & Patrono chapter structure is visible. ENGR 1000 remains
+  fully blocked — no real Fall BWD syllabus exists yet to map against.
+
+## 2026-07-21 (inbox sweep) — Two ECON-relevant sources staged; closed flag #77
+
+- Chris restructured `77-INBOX\READY_FOR_CHRIS_RAW_PLACEMENT\` into one
+  subfolder per active hub (CASTLE deliberately excluded — not a raw-intake
+  hub) and asked for the loose files in `77-INBOX\` and `Clippings\` to be
+  sorted. Classified and moved three files:
+  - `lesson--great-depression-introduction-essay-wheelock.pdf` (St. Louis
+    Fed education essay — GDP, inflation/deflation, unemployment, banking,
+    government's economic role) → staged in `READY_FOR_CHRIS_RAW_PLACEMENT\EDUCATION\`.
+    Strong direct match to ECON 1000's real topic list.
+  - `Consumer Price Index for All Urban Consumers All Items in U.S. City
+    Average.md` (FRED CPI web clipping, same series as `CPIAUCSL.csv`) →
+    same staging folder — a reading companion to the dataset already pulled.
+  - `View Registration Information.md` (Chris's real OwlExpress
+    registration record, all six Fall 2026 CRNs/times/locations/instructors)
+    → moved to `02-LIBRARY\00-SCHOOL\` directly, not staged for any wiki
+    `raw/` — it's an official academic record like `Ellucian Degree Works
+    Dashboard.md`, not domain source material.
+  - The registration record materially narrowed `SYSTEM_FLAGS.md` #57:
+    confirmed real meeting times/locations for PHYS 2211 §54 and ENGR 1000
+    BWD (both still show no assigned instructor, per the registrar itself);
+    confirmed TCOM's class time was already stated correctly in
+    `HAT_TCOM.md`; surfaced a harmless 5-minute schedule discrepancy for
+    ECON 1000 between the syllabus and the registration record, noted in
+    `HAT_ECON.md`.
+  - Flag #77 closed — its four original files are confirmed gone from the
+    old flat staging location (Chris's own disposition); moved to
+    `Closed Flags\CLOSED_FLAGS_2026-07.md`.
+- Files: `SYSTEM_FLAGS.md`, `Closed Flags\CLOSED_FLAGS_2026-07.md`,
+  `HAT_ECON.md`, this log. Two files remain staged in `raw/`'s inbox
+  waiting room, not yet in `raw/` itself (AI cannot write there directly).
+- Next: Chris moves the two staged EDUCATION files into this hub's `raw/`
+  when ready; the other seven hub subfolders in the staging area remain
+  empty — nothing further to route this pass.
+
+## 2026-07-21 (processed intake) — CPI and Great Depression ECON support
+
+- Chris moved the two staged ECON sources into EDUCATION `raw/`: David C.
+  Wheelock's four-page Federal Reserve Bank of St. Louis Great Depression essay
+  and the FRED/BLS CPIAUCSL clipping. Raw files were read only and not modified.
+- Used the PDF inspection workflow: extracted all four pages, rendered all four to
+  PNG in the system temporary directory, and visually confirmed clean, complete,
+  readable pages with intact headings, footnotes, and transitions.
+- Built [[econ-1000-great-depression-cpi-reading-guide]] as five just-in-time
+  chunks for Weeks 7-14: CPI measurement; GDP/output contraction; money, banking,
+  and deflation; recovery/government action; and final integration. Each chunk has
+  an unlock point, reading boundary, misconception control, and explain-back proof.
+- Added [[glossary/econ-1000-macro-terms]],
+  [[flashcards/econ-1000-gdp-inflation-unemployment]], and
+  [[drills/econ-1000-cpi-and-depression-reasoning]]. The drill is private,
+  solution-free practice and is explicitly not a substitute for graded work.
+- Recorded two critical boundaries: CPI index level is not the inflation rate, and
+  the local CPI series starts in 1947 so it cannot directly graph or verify the
+  essay's 1929-1933 claims. The Wheelock essay's monetary interpretation is framed
+  as an argument to analyze, not the only accepted causal account.
+- Inserted the sources into [[econ-1000-semester-map]], the course brief, current
+  position, HOW_TO_USE, and the exhaustive index. Removed legacy `reference` tags
+  from the ECON and TCOM semester maps, clearing both maps' new schema regressions.
+- Validation: strict wiki lint passes with 0 blockers and 0 review debt; whitespace
+  check passes; EDUCATION contributes no new frontmatter debt. The canonical vault
+  remains separately blocked by five concurrent PHYSICS timeline findings.
+- Next: do not broad-read the new packet now. The first unlock is Week 7 after the
+  initial GDP lesson; before then, use only light pre-semester GDP/inflation/
+  unemployment vocabulary retrieval if it fits the priority plan.

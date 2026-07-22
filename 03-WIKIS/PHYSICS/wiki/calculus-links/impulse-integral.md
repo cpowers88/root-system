@@ -55,6 +55,53 @@ Stage 9 (Ch 9 — Linear Momentum and Collisions). The impulse-momentum theorem 
 
 Treating the force in a collision as constant and using F × Δt without thinking about what that approximation assumes. In reality, collision forces vary enormously over the contact interval — the impulse integral handles this correctly; the average-force approximation is a useful simplification.
 
+## Practice Problems
+
+**Problem 1 — integrate a given force-time function.**
+During an impact, the force on a part is modeled as F(t) = 5000t − 2500t²
+(N) for 0 ≤ t ≤ 2.0 ms (t in seconds). Find the impulse by integrating over
+the full contact time.
+
+**Problem 2 — same Δp, different Δt (the crumple-zone idea).**
+A 70 kg crash-test dummy decelerates from 15 m/s to 0 m/s. Case A: contact
+time 0.080 s (rigid structure). Case B: contact time 0.400 s (crumple zone
+absorbs the impact). Find the impulse in each case, then find the average
+force in each case. What does comparing the two forces tell you about why
+crumple zones reduce injury?
+
+**Problem 3 — read impulse off a graph.**
+A force-time graph for a bat-ball contact is roughly triangular: it rises
+linearly from 0 to a peak of 8000 N at t = 1.0 ms, then falls linearly back
+to 0 N at t = 3.0 ms. Find the impulse using the area of the triangle, then
+find the resulting change in velocity of a 0.145 kg ball.
+
+### Check Yourself
+
+1. J = ∫₀^0.002 (5000t − 2500t²) dt = [2500t² − (2500/3)t³]₀^0.002
+   = 2500(0.002)² − 833.3(0.002)³ ≈ 0.0100 − 0.0000067 ≈ 0.0100 N·s.
+2. Δp = mΔv = 70(15 − 0) = 1050 kg·m/s in both cases — impulse (and momentum
+   change) does not depend on contact time. Case A: F_avg = 1050/0.080 =
+   13,125 N. Case B: F_avg = 1050/0.400 = 2,625 N. Same impulse, but Case B's
+   average force is 5× smaller — this is exactly why crumple zones and
+   airbags work: extending Δt for the same Δp reduces the peak/average force
+   the body experiences.
+3. J = ½(base)(height) = ½(0.003 − 0)(8000) = 12.0 N·s. Δv = J/m =
+   12.0/0.145 ≈ 82.8 m/s.
+
+## Engineering Use Case
+
+The impulse-momentum theorem is the working principle behind essentially all
+crash and impact safety engineering: crumple zones, airbags, packaging
+cushioning, and sports protective equipment all exist to increase the
+contact time Δt for a fixed, unavoidable Δp — which directly and
+proportionally lowers the average force a person or product experiences
+(F_avg = Δp/Δt). This is not an approximation of the physics; it is the
+physics. A packaging engineer designing drop-test protection or a safety
+engineer specifying a machine guard's energy-absorbing material is solving
+"what Δt do I need to keep peak force under the injury/damage threshold for
+this known Δp?" — the same calculation as Problem 2 above, run in reverse to
+solve for a design requirement instead of a result.
+
 ## Related Pages
 
-[[../stages/stage-9-linear-momentum]] — [[../calculus-links/kinematics-derivatives]] — [[../appendix/math-calculus]]
+[[../stages/stage-9-linear-momentum]] — [[../calculus-links/kinematics-derivatives]] — [[../calculus-links/stage-7-work-integral]] — [[../appendix/math-calculus]]

@@ -20,6 +20,25 @@ Practice translating a plain-English decision rule directly into an `if`/`elif`/
 - `if` / `elif` / `else`
 - choosing `elif` vs. separate `if` statements
 
+## Cold-Read Gate
+
+Before writing, trace this code for scores `95`, `84`, and `62`. For each input,
+record each condition reached, its Boolean result, the branch selected, and the
+output. Explain why later branches are skipped after a match.
+
+```python
+if score >= 90:
+    result = "A"
+elif score >= 80:
+    result = "B"
+else:
+    result = "below B"
+print(result)
+```
+
+For every Starter Prompt rule, write only the ordered conditions and empty branch
+skeleton first. Add the branch actions after the order is correct.
+
 ## Starter Prompt
 
 For each rule below, write a short Python snippet (using `input()` where a value is needed) that implements it exactly:

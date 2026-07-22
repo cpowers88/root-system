@@ -1,6 +1,9 @@
 ---
 type: stage
+timeline: later
+stage: 9
 status: draft
+tags: [physics, math]
 ---
 
 # Stage 9 — Linear Momentum and Collisions (Ch 9)
@@ -15,7 +18,12 @@ Ch 09. Prerequisite for Stage 10 (rotation) and Stage 11 (angular momentum).
 
 ## Textbook Alignment
 
-Serway & Jewett, 10th ed., Chapter 9.
+Serway & Jewett, 10th ed., Chapter 9, sections 9.1–9.6. **2026-07-21 decision:**
+sections 9.7–9.9 (systems of many particles, deformable systems, rocket
+propulsion) are parked, not built — see Parked for Later below. Both 2026-07-21
+neighbor syllabi jump straight from collisions/center-of-mass to Chapter 10
+(rotation) without stopping at these sections, which corroborates the park
+decision; final confirmation still depends on Section 54.
 
 ## Prerequisite Physics
 
@@ -75,6 +83,9 @@ Newton's 2nd law in its general form:
 
 F = ma is the special case when mass is constant.
 
+Full worked derivations, multi-problem practice, and a real-world use case:
+[[../calculus-links/impulse-integral]].
+
 ## Diagrams to Draw
 
 **Before-and-after diagram:** always draw the system at the moment before the collision and immediately after. Label every mass, velocity (with arrow showing direction), and sign convention.
@@ -120,7 +131,21 @@ See [[../common-errors/stage-9-linear-momentum]].
 - [ ] Solve a 2D collision by applying momentum conservation separately in x and y
 - [ ] Verify kinetic energy is or is not conserved after a collision
 - [ ] Find the center of mass position of a two-body system
+- [ ] State the relationship p_total = M_total·v_cm and explain why an isolated system's total momentum staying constant is the same fact as its center-of-mass velocity staying constant
 
 ## Do Not Move On Until
 
-Chris can classify any collision (given problem statement), write the correct equations, and solve for unknowns — without being told which type of collision it is. Must also be able to draw the before-and-after diagram with correct signs before writing a single equation.
+Chris can classify any collision (given problem statement), write the correct equations, and solve for unknowns — without being told which type of collision it is. Must also be able to draw the before-and-after diagram with correct signs before writing a single equation, and connect center-of-mass velocity to total system momentum.
+
+## Parked for Later
+
+- **Sections 9.7–9.9 (systems of many particles, deformable systems, rocket
+  propulsion).** Parked 2026-07-21 — see [[../parking-lot]]. Rocket propulsion in
+  particular (v_f = v_i + v_e ln(m_i/m_f)) is a genuinely useful real-world
+  momentum application, but neither newly obtained neighbor syllabus schedules
+  it and the core Stage 9 skills (impulse, collision types, center of mass) do
+  not depend on it. Unlock condition: Section 54's real D2L scope confirms it is
+  assessed, or Chris asks for it directly as an engineering-interest topic.
+- **Angular momentum** (L = Iω, conservation of L) is the rotational analogue of
+  everything in this stage — it belongs to Stage 11, after torque and moment of
+  inertia exist in Stage 10.

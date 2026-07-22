@@ -2,7 +2,7 @@
 type: stage
 stage_number: 04
 status: ready
-priority: current
+priority: upcoming
 source_spine: "Think Python Ch.3 + Ch.6"
 support_sources: ["Automate the Boring Stuff Ch.4", "Python Crash Course Ch.8", "Python Workout Ch.7"]
 ---
@@ -43,6 +43,12 @@ Stage 3 — `for`/`while` loops, counters, accumulators.
 - [[glossary/standard-library]]
 
 Full flashcard batch: [[flashcards/stage-04-functions]]
+
+## Code-Reading Gate
+
+Read function signatures and call sites before bodies. Trace `caller -> arguments
+-> parameters -> local state -> return value -> caller`, then write signatures and
+return placeholders before implementing any body.
 
 ## Required Code Patterns
 

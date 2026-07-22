@@ -668,3 +668,220 @@ Append-only session record.
 ### Next action for Chris
 - Work the crash course's Stage 4 cold projectile transfer rep on paper; review
   only the first module exposed as non-automatic, then retry with changed numbers.
+
+## 2026-07-21 — Cross-Section Syllabus Reconciliation
+
+### Objective
+- Reconcile the two newly obtained Fall 2026 PHYS 2211 neighbor syllabi (Section
+  51 and Section 55, neither is Chris's registered Section 54) against the
+  existing 18-stage path; strengthen and tighten the vault.
+
+### Sources touched
+- `raw/syllabus/PHYS 2211 51 (83719) Fall 2026 Syllabus - Reference Only.md`
+- `raw/syllabus/PHYS 2211 55 (83723) Fall 2026 Syllabus - Reference Only.md`
+- Existing `source-map.md`, `syllabus-coverage-ledger.md`, `learning-path.md`,
+  `current-position.md`.
+
+### Files created/updated
+- `wiki/source-map.md` — registered both new syllabi in the Sources table;
+  identified `syllabus.pdf` as very likely an early truncated capture of the
+  same Section 55 syllabus; updated the "later calendar is absent" data-quality
+  row to partially resolved.
+- `wiki/syllabus-coverage-ledger.md` — added a "Cross-Section Verification,
+  2026-07-21" section: confirms Stage 1-12/15 order, flags that neither
+  neighbor's calendar schedules Ch 14 or Ch 38 (kept in path per Chris's
+  2026-06-25 confirmation), records the grading-structure mismatch, and adds
+  soft pacing anchors (Exam 1 ~Sep 25, Exam 2 ~Oct 30, Exam 3 ~Nov 20 per
+  Section 55).
+- `wiki/learning-path.md` — added the cross-check summary under Path Status;
+  flagged Stages 13/14/16/17/18 with the neighbor-calendar gap note; added soft
+  pacing-anchor lines to the Stage 5, 10, and 12 detail sections.
+- `wiki/current-position.md` — updated First 7-Day Priority item 3 with the new
+  pacing evidence.
+- `00-BRAIN\SYSTEM_FLAGS.md` flag #57 — logged that the PHYS neighbor syllabi
+  are now cross-referenced into the wiki; flag stays OPEN pending real Section
+  54 confirmation Aug 24.
+
+### Concepts/equations/problem types added
+- None — this was a source-reconciliation and path-integrity pass, not content
+  generation.
+
+### Parked material
+- None newly parked. Existing Stage 13/14/16/17/18 scope stands unchanged;
+  the neighbor-calendar gap is tracked as an open verification item, not a
+  parking decision.
+
+### Next action for Chris
+- No change to the active Stage 4 study rep. When Section 54 populates in D2L
+  (Aug 24+), re-check it against the pacing anchors and the Ch 13/14/16/17/38
+  scheduling question logged in `syllabus-coverage-ledger.md`.
+
+## 2026-07-21 — Stage 4-9 Tightening Pass
+
+### Objective
+- Chris directed a "chunk format intake" tightening pass on Stages 4-9 tonight,
+  following the Source Intake Protocol in `authoring-standards.md`: resolve the
+  two known expansion gaps `learning-path.md` had already flagged for this
+  range, then check for structural completeness.
+
+### Sources touched
+- `raw/textbook/Physics book-0101-0200.pdf` (Ch 6, accelerated frames Sec 6.3;
+  Ch 9 section list) — used from prior source-map registration, not re-parsed.
+- Existing Stage 4-9 packets, their linked concept/equation/problem-type/
+  common-errors/flashcards pages, and `parking-lot.md`.
+
+### Files created/updated
+- **New:** `wiki/concepts/accelerated-reference-frames.md` — full concept page
+  for noninertial frames and fictitious force (Serway Sec 6.3), the exact gap
+  `learning-path.md` had flagged since 2026-07-15.
+- **New:** `wiki/glossary/noninertial-reference-frame.md`,
+  `wiki/glossary/fictitious-force.md`.
+- `wiki/stages/stage-6-circular-motion.md` — added the new concept to Core
+  Concepts/Vocabulary/Diagrams, added 3 mastery-checklist items, strengthened
+  Do Not Move On Until, fixed frontmatter (added timeline/stage/tags).
+- `wiki/common-errors/stage-6-circular-motion.md` — added 2 new error entries
+  (fictitious force in the wrong frame; true vs. apparent weight).
+- `wiki/flashcards/stage-6-circular-motion.md` — added 3 new cards (13-15).
+- `wiki/stages/stage-9-linear-momentum.md` — added the missing "Do Not Move On
+  Until" and "Parked for Later" sections (previously absent), added a mastery
+  item on p_total = M·v_cm, fixed frontmatter, resolved the Sec 9.7-9.9
+  include/park decision using today's neighbor-syllabus evidence.
+- `wiki/concepts/center-of-mass.md` — added the explicit p_total = M_total·v_cm
+  link between center-of-mass velocity and total system momentum.
+- `wiki/stages/stage-5-laws-of-motion.md`, `wiki/stages/stage-8-conservation-of-energy.md`
+  — frontmatter-only fix (added timeline/stage/tags) for consistency with
+  Stages 4, 6, 7, 9.
+- `wiki/parking-lot.md` — marked the Stage 6 §6.3 row resolved; updated the
+  Stage 9 §9.7-9.9 row with the park decision and evidence; updated the Stage
+  15 §15.6-15.7 row with a lean-toward-include signal from Section 55's real
+  calendar (not built tonight — out of the 4-9 scope).
+- `wiki/learning-path.md` — flipped Stage 6 and Stage 9 control-table rows and
+  detail-section packet-status lines from "needs expansion / needs decision"
+  to "ready."
+- `wiki/index.md` — updated concepts (58→59) and glossary (46→48) counts and
+  the live-counts date.
+
+### Concepts/equations/problem types added
+- Concept: motion in accelerated reference frames (fictitious force, apparent
+  weight in elevators, centrifugal force as a fictitious force).
+- Verified (no gap found, no duplicate created): Stage 5 friction glossary
+  already merges static/kinetic; Stage 8 isolated/nonisolated already merged;
+  Stage 9 inelastic/perfectly-inelastic already merged; Stage 7/8 power/watt
+  already merged. Checked before assuming these needed new stub pages.
+
+### Parked material
+- Serway Ch 9 §9.7-9.9 (many-particle systems, deformable systems, rocket
+  propulsion) — see `parking-lot.md` for the full decision and unlock
+  condition.
+
+### Next action for Chris
+- Stages 4-9 are now internally consistent and structurally complete for
+  activation. Continue the Stage 4 study rep as planned; when Stage 6 and 9
+  come up, both packets are ready with no outstanding expansion debt. Stage 15
+  now carries a lean-toward-include signal for damped/forced oscillations —
+  revisit when that stage's packet is next expanded.
+
+## 2026-07-21 — Calculus-Link Build-Out for Stages 4-9
+
+### Objective
+- Chris asked to pull real content into the calculus material specifically:
+  find the actual math connection for each Stage 4-9 topic, and post it with
+  practice problems plus a real-world/engineering use-case explanation — not
+  just the physics-textbook abstraction.
+
+### Sources touched
+- Existing `calculus-links/` pages, `calculus-map.md`, and the Stage 4/6/8/9
+  packets' inline "Calculus Connections" sections (previously text-only, not
+  linked to a dedicated page for three of the four).
+
+### Files created/updated
+- **New:** `wiki/calculus-links/tangential-radial-acceleration-derivative.md`
+  — a_t = dv/dt on a curved path (Stage 4 §4.5 / Stage 6), previously only a
+  brief inline mention with no dedicated page. 3 practice problems (including
+  differentiating a nonlinear v(t)) + engineering use case (highway/conveyor
+  curve design, ride/vehicle acceleration limits).
+- **New:** `wiki/calculus-links/power-derivative.md` — P = dE/dt and
+  ΔE = ∫P dt (Stage 8), previously inline-only. 3 practice problems + use
+  case (motor/conveyor sizing, utility demand-charge billing).
+- `wiki/calculus-links/kinematics-derivatives.md` (Stage 2, feeds Stage 4) —
+  added 3 practice problems + use case (motion-control velocity profiles:
+  robotic arms, CNC, elevators).
+- `wiki/calculus-links/2d-kinematics-components.md` (Stage 4) — added 3
+  practice problems + use case (material-handling conveyor transfer points,
+  packaging drop-test trajectories).
+- `wiki/calculus-links/stage-7-work-integral.md` (Stage 7) — added 3 practice
+  problems + use case (springs/shock absorbers/packaging cushioning sizing).
+- `wiki/calculus-links/impulse-integral.md` (Stage 9) — added 3 practice
+  problems + use case (crash safety engineering, crumple zones/airbags —
+  Δt vs. Δp tradeoff explained numerically).
+- `wiki/stages/stage-4-motion-in-two-dimensions.md`, `stage-6-circular-motion.md`,
+  `stage-8-conservation-of-energy.md`, `stage-9-linear-momentum.md` — their
+  Calculus Connections sections now link out to the full derivation/practice/
+  use-case page instead of only describing it inline.
+- `wiki/concepts/tangential-and-radial-acceleration.md` — Calculus Connection
+  section now links to the new full page.
+- `wiki/calculus-map.md` — corrected Stage 6 ("none new" was wrong — a_t
+  reused from Stage 4) and Stage 8 ("none new" was wrong — power is a real
+  new derivative) roadmap rows; added a table indexing all 9 calculus-link
+  pages now built, each tagged with what it covers.
+- `wiki/index.md` — calculus-links count 7→9, noted the practice+use-case
+  standard now applied to all of them.
+
+### Concepts/equations/problem types added
+- No new physics concepts — this was a calculus-depth and cross-linking pass
+  on existing Stage 4-9 material, adding worked practice and applied context
+  rather than new physical ideas.
+
+### Parked material
+- None.
+
+### Next action for Chris
+- All Stage 4-9 calculus connections now have a full page with practice
+  problems and an engineering use case, not just a one-line mention. Work
+  the practice problems cold (cover the Check Yourself section) as part of
+  each stage's rep, not just the physics-only drills — the goal is fluency
+  differentiating/integrating inside a physical setup, not just algebra with
+  given numbers. Stages 10+ calculus-link pages (rotation, angular momentum,
+  SHM) already exist from the July build but have not yet had this same
+  practice+use-case pass; revisit when those stages activate.
+
+## 2026-07-21 — Pacing Trigger Map Built
+
+### Objective
+- Chris asked for a trigger map: a concrete reference for when to read what
+  to keep pace for the semester, not just the stage-order path.
+
+### Sources touched
+- `02-LIBRARY\00-SCHOOL\View Registration Information.md` — the real,
+  confirmed PHYS 2211 Section 54 meeting pattern (MWF 9:10-10:05 AM lecture,
+  Friday 11:30 AM-12:25 PM breakout, Aug 24-Dec 14 2026, Marietta Campus) —
+  had not previously been pulled into the PHYSICS wiki.
+- The two neighbor syllabi and the 2026-07-21 cross-section verification
+  already logged in `syllabus-coverage-ledger.md`.
+
+### Files created/updated
+- **New:** `wiki/pacing-trigger-map.md` — two trigger types: date triggers
+  (a real-Monday-anchored week-by-week table, Aug 24-Dec 14, combining the
+  confirmed MWF meeting pattern with the estimated topic/chapter/exam pacing
+  from the neighbor syllabi) and state triggers (weekend read-ahead rule,
+  exam-approach pre-sweep rule, mastery-moves-the-stage rule overriding the
+  calendar, a 7-day stall check, and a hard trigger to re-run the syllabus
+  cross-check the day Section 54's real D2L content appears).
+- `wiki/index.md` — linked the new page under Core Maps.
+- `wiki/current-position.md` — pointed to the new page from the top of the
+  file.
+
+### Concepts/equations/problem types added
+- None — scheduling/pacing infrastructure, not physics content.
+
+### Parked material
+- Fall Break's exact date — neither neighbor syllabus states it clearly;
+  left unplaced in the table with an explicit note to confirm via D2L/the
+  official academic calendar.
+
+### Next action for Chris
+- Use `pacing-trigger-map.md`'s Sunday read-ahead rule starting immediately
+  (it doesn't depend on Section 54's dates being final). The moment D2L
+  populates real Section 54 content — expected around Aug 24 — re-run the
+  cross-check (Trigger Rule 5) and replace the estimated column with real
+  dates in the same pass.

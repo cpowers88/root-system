@@ -2,7 +2,7 @@
 type: stage
 stage_number: 07
 status: ready
-priority: current
+priority: upcoming
 source_spine: "Think Python Ch.4, Ch.9, Ch.13 (Case Studies)"
 support_sources: ["Invent Your Own Computer Games Ch.7", "Think Like a Programmer Ch.1 (strategy/discussion only)"]
 ---
@@ -41,6 +41,12 @@ Stage 6 — files, exceptions, debugging process.
 - [[glossary/incremental-development]]
 
 Full flashcard batch: [[flashcards/stage-07-program-design]]
+
+## Code-Reading Gate
+
+Extract the program's inputs, outputs, assumptions, major steps, and tests before
+reading implementation detail. Explain the control and data flow in plain English,
+then produce pseudocode and function signatures before writing bodies.
 
 ## Required Code Patterns
 

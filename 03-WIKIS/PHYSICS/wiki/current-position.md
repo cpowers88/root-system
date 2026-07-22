@@ -37,11 +37,16 @@ must be verified in D2L; see [[source-map#Syllabus Data-Quality Gate]].
 
 **Stage 3 — Vectors (Ch 3): CLOSED 2026-07-16.** Full mastery checklist passed cold, no notes, in one session — coordinate conversion, scalar/vector ID (two examples each), decomposition, reconstruction, non-axis-angle addition, and unit-vector explanation. See [[stages/stage-3-vectors]] for the closed checklist with each cold-check result, and `wiki/log.md` 2026-07-16 for the full record. Stages 1 and 2 remain assumed-cleared from the July cruise pre-build; confirm their mastery checklists before treating them as done if it's been a while since they were last drilled.
 
+See [[pacing-trigger-map]] for the real Section 54 meeting schedule (confirmed
+MWF 9:10-10:05 AM + Friday breakout), the week-by-week reading-ahead triggers,
+and the mastery/exam/stall triggers that move the active stage independent of
+the calendar.
+
 ## First 7-Day Priority
 
 1. Begin Stage 4: coordinate conversion → decomposition → reconstruction → addition are all prerequisite-solid, so start directly with projectile motion (independence of x/y motion) rather than re-drilling Stage 3.
 2. Work the real Chapter 3 textbook problem set ([[drills/stage-3-textbook-problems]]) as a durability check on Stage 3 while Stage 4 begins — flag reflection-worthy ones live.
-3. Full D2L lecture-date calendar for Ch 6 onward is still pending — get exact exam and lecture dates when available.
+3. Full D2L lecture-date calendar for Ch 6 onward is still pending — get exact exam and lecture dates when available. **2026-07-21 update:** two real neighbor-section syllabi (Section 51 and Section 55, neither is Chris's Section 54) now give a same-instructor full-semester calendar as pacing evidence — see [[learning-path]] pacing-anchor notes and [[syllabus-coverage-ledger#Cross-Section Verification, 2026-07-21]]. Do not treat these as Chris's real dates; they narrow the pacing target while D2L stays unpopulated.
 
 Math support is now stage-gated in [[math-readiness-path]]. It starts with the
 active non-axis vector rep, then reactivates derivative/integral meaning before

@@ -2,7 +2,7 @@
 type: stage
 stage_number: 06
 status: ready
-priority: current
+priority: upcoming
 source_spine: "Think Python Ch.14, Ch.20"
 support_sources: ["Automate the Boring Stuff Ch.5 & 10", "Python Crash Course Ch.10", "Python Workout Ch.6", "Invent Your Own Computer Games Ch.6"]
 ---
@@ -37,6 +37,19 @@ Stage 5 — lists, dictionaries, tuples, sets.
 - [[glossary/syntax-runtime-semantic-error]]
 
 Full flashcard batch: [[flashcards/stage-06-files-errors-debugging]]
+
+## Course Core vs. Full Stage
+
+Course core is reading tracebacks, distinguishing syntax/runtime/semantic errors,
+exception handling, and systematic debugging. File persistence is part of the
+full vault stage, but it should not delay the next official course topic when
+semester capacity is tight.
+
+## Code-Reading Gate
+
+Read a traceback from the bottom up: exception type and message, failing line,
+then the call path. State the last known-good step, the failure boundary, and one
+repair hypothesis before editing code.
 
 ## Required Code Patterns
 
@@ -74,7 +87,10 @@ Full flashcard batch: [[flashcards/stage-06-files-errors-debugging]]
 - [ ] Write a file read/write program using a context manager, from memory.
 - [ ] Distinguish a syntax error from a runtime error from a semantic error when shown an example of each.
 - [ ] Complete [[drills/stage-06-debugging-practice]].
-- [ ] Complete [[mini-projects/stage-06-note-saver]] and explain the solution out loud.
+
+Full-stage enrichment: complete [[mini-projects/stage-06-note-saver]] and explain
+the solution out loud. File persistence does not block the next official course
+topic.
 
 ## Stage Mastery Target
 

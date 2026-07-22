@@ -26,6 +26,7 @@ PHYS 2211 — Principles of Physics I, Kennesaw State University, Fall 2026.
 ## Core Maps
 
 - [[learning-path]] — staged study route
+- [[pacing-trigger-map]] — when to read what: real semester dates + mastery/exam triggers
 - [[source-map]] — source roles and alignment
 - [[syllabus-coverage-ledger]] — all 19 syllabus pages routed to stages or governance
 - [[current-position]] — Chris baseline and active stage
@@ -60,18 +61,18 @@ the subdeck for the active stage; see the Flash Cards folder's
 
 ## Folders
 
-Live counts as of 2026-07-09 (all 18 stage packets generated in the July
+Live counts as of 2026-07-21 (all 18 stage packets generated in the July
 cruise-prep build; **generated ≠ studied** — actual progress lives in
 [[current-position]]):
 
 - `stages/` — 18 chapter/unit packets (all drafted)
-- `concepts/` — 58 physics concept pages
+- `concepts/` — 59 physics concept pages
 - `equations/` — 42 equation pages
-- `calculus-links/` — 7 calculus-in-physics bridge pages
+- `calculus-links/` — 9 calculus-in-physics bridge pages, each with a multi-problem practice set and a real-world engineering use case
 - `problem-types/` — 36 problem recognizers and solution patterns
 - `worked-examples/` — 19 approved worked examples
 - `drills/` — 35 independent study drills
-- `glossary/` — 46 vocabulary pages
+- `glossary/` — 48 vocabulary pages
 - `flashcards/` — 18 flashcard decks
 - `diagrams/` — none yet
 - `common-errors/` — 18 beginner-trap pages (one per stage)
