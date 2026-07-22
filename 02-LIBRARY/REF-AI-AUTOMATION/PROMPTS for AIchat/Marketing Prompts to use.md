@@ -1,10 +1,10 @@
 ---
 type: template
-tags: [later, ai-automation, client]
+tags: [ai-automation, client]
+timeline: later
 ---
 
 # MARKETING PROMPTS TO USE
- #AIearlyPrompt #AI 
 ## Setup
 - Create a shared Project named "marketing".
 - Paste the Master Prompt.

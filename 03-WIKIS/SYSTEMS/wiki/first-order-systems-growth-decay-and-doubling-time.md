@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/audit, use-case/data-workflow, subject/system-dynamics, subject/exponential-growth, subject/phase-plots, subject/overconfidence]
+tags: [subject/system-dynamics, subject/exponential-growth, subject/phase-plots, subject/overconfidence]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, audit, data-workflow]
 ---
 
 # First-Order Systems: Exponential Growth, the Rule of 70, and Why Experts Are Overconfident About Both

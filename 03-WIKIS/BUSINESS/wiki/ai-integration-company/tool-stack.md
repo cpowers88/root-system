@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-1
   - capability
   - tools
+stage: phase-1
+timeline: reference
 ---
 
 # Tool Stack

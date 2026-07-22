@@ -3,7 +3,8 @@ type: code-pattern
 stage: 09
 status: draft
 concepts: ["module", "file-path"]
-tags: [stage-09, files, automation, os-module]
+tags: [files, automation, os-module]
+timeline: reference
 ---
 
 # Code Pattern: Organize Files by Extension

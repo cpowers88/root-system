@@ -1,6 +1,7 @@
 ---
 type: note
-tags: [now, school, physics]
+tags: [school, physics]
+timeline: now
 ---
 
 # Physics and Measurement Chapter 1

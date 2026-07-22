@@ -1,6 +1,7 @@
 ---
 type: tracker
-tags: [now, school, education]
+tags: [school, education]
+timeline: now
 ---
 
 # current-position - EDUCATION

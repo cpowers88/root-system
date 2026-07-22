@@ -1,7 +1,11 @@
 ---
 domain: technology
 type: reference
-tags: [priority/next, status/wiki-only, domain/technology, source-role/primary, use-case/audit, subject/api-security, subject/client-engagement]
+tags: [subject/api-security, subject/client-engagement]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [audit]
 ---
 
 # API Security Testing: Engagement Scoping and a Consolidated Checklist

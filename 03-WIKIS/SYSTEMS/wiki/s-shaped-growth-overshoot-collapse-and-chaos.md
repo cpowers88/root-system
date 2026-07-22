@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/audit, use-case/business-model, subject/system-dynamics, subject/carrying-capacity, subject/overshoot-and-collapse, subject/chaos]
+tags: [subject/system-dynamics, subject/carrying-capacity, subject/overshoot-and-collapse, subject/chaos]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, audit, business-model]
 ---
 
 # S-Shaped Growth, Overshoot and Collapse, and Chaos: When Growth Meets Limits

@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-1
   - execution
   - legal-finance
+stage: phase-1
+timeline: reference
 ---
 
 # Business Setup

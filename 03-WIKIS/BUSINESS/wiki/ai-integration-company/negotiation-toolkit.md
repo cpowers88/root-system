@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-2
   - commercial
   - sales
   - client-interview
+stage: phase-2
+timeline: reference
 ---
 
 # Negotiation Toolkit

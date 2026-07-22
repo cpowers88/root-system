@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: reference
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/data-workflow, use-case/audit, use-case/systems-analysis, subject/process-mining, subject/event-logs, subject/python]
+tags: [subject/process-mining, subject/event-logs, subject/python]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow, audit, systems-analysis]
 ---
 
 # PM4Py: Process Mining in Python

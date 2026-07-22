@@ -4,7 +4,8 @@ stage: 04
 status: ready
 source_refs: ["CSE 1321/1321L official syllabi: Python Libraries module", "Python docs tutorial/modules.txt: 6. Modules"]
 prerequisites: ["defining-and-calling-functions"]
-tags: [stage-04, modules, standard-library]
+tags: [modules, standard-library]
+timeline: reference
 ---
 
 # Concept: Standard Library Basics

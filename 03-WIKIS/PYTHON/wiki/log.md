@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log, programming]
+tags: [programming]
+timeline: log
 ---
 
 # Education Wiki Log

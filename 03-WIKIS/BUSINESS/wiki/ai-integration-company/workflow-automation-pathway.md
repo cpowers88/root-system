@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-3
   - pathway
   - automation
+stage: phase-3
+timeline: reference
 ---
 
 # Workflow Automation Pathway

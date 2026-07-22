@@ -5,7 +5,6 @@ tags: [north-star]
 ---
 
 # SKILL_GAP_ANALYSIS.md — Chris Powers
-#AI #system 
 ### Location: .ROOT/01-NORTH_STAR/
 ### Last updated: July 16, 2026 (factual reconciliation; July ranking unchanged) | Review: Monthly (first session after 1st of month)
 

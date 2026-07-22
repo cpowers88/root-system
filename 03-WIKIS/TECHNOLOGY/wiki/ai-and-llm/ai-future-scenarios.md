@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: framework
-tags: [priority/later, status/wiki-only, subject/ai, start]
+tags: [subject/ai, start]
+timeline: later
+status: wiki-only
 ---
 
 # AI Future Scenarios

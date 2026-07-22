@@ -1,9 +1,9 @@
 ---
 type: reference
-tags: [reference, business]
+tags: [business]
+timeline: reference
 ---
 
-#business 
 
 NOTE: This document is part of my Elite Coaching Program.
 This SOP can help you integrate AI across your business without needing to hire additional staff, learn technical skills, or build complex systems.

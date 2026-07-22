@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: tool
-tags: [priority/now, status/wiki-only, domain/technology, source-role/primary, use-case/data-workflow, use-case/automation, subject/flask, subject/python, subject/sql, stack/flask, stack/sql-sqlite]
+tags: [subject/flask, subject/python, subject/sql]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow, automation]
+stack: [flask, sql-sqlite]
 ---
 
 # Flask: Databases with Flask-SQLAlchemy

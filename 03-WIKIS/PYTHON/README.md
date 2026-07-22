@@ -1,6 +1,7 @@
 ---
 type: guide
-tags: [reference, programming]
+tags: [programming]
+timeline: reference
 ---
 
 # PYTHON Wiki — User Router

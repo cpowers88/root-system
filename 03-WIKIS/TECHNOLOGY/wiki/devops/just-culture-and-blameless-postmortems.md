@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: framework
-tags: [priority/later, status/wiki-only, subject/devops, subject/organizational-learning]
+tags: [subject/devops, subject/organizational-learning]
+timeline: later
+status: wiki-only
 ---
 
 # Just Culture and Blameless Post-Mortems

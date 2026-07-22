@@ -1,6 +1,7 @@
 ---
 type: flashcards
-tags: [later, physics]
+tags: [physics]
+timeline: later
 ---
 
 # Flashcards — Stage 6: Circular Motion and Other Applications of Newton's Laws (Ch 6)

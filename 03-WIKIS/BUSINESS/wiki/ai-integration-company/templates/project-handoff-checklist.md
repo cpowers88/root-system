@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-3
   - template
   - delivery
   - retainer
+stage: phase-3
+timeline: reference
 ---
 
 # Project Handoff Checklist

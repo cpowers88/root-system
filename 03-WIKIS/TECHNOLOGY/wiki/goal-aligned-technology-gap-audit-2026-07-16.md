@@ -2,7 +2,7 @@
 type: research
 timeline: reference
 status: wiki-only
-tags: [domain/technology, landscape, capability-gap, production-operations]
+tags: [landscape, capability-gap, production-operations]
 source: local capability and artifact audit plus current primary documentation, 2026-07-16
 ---
 

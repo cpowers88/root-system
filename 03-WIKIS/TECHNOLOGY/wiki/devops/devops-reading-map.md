@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: reference
-tags: [priority/later, status/wiki-only, subject/devops, subject/theory-of-constraints]
+tags: [subject/devops, subject/theory-of-constraints]
+timeline: later
+status: wiki-only
 ---
 
 # DevOps Reading Map

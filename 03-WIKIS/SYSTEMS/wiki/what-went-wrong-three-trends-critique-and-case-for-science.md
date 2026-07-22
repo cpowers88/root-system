@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: concept
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/business-model, use-case/ksu-support, subject/manufacturing-history, subject/scientific-management, subject/factory-physics]
+tags: [subject/manufacturing-history, subject/scientific-management, subject/factory-physics]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [audit, business-model, ksu-support]
 ---
 
 # What Went Wrong? The Three-Trends Critique and the Case for a Science of Manufacturing

@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-2
   - template
   - sales
   - pricing
+stage: phase-2
+timeline: reference
 ---
 
 # Proposal Template

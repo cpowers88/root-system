@@ -1,10 +1,10 @@
 ---
 type: strategy
-tags: [now, ai-automation]
+tags: [ai-automation]
+timeline: now
 ---
 
 # TECHNOLOGY_LIBRARY_STRATEGY.md — The AI & Software Possibility Map
-#AI #system #business
 ### Location: 02-LIBRARY\REF-AI-AUTOMATION\ | Referenced by: TechStackPriority.md and the TECHNOLOGY wiki
 ### Created: July 5, 2026 | Review: monthly (with SKILL_GAP_ANALYSIS.md)
 

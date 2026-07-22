@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: framework
-tags: [priority/later, status/wiki-only, subject/devops, subject/kanban, subject/theory-of-constraints, start]
+tags: [subject/devops, subject/kanban, subject/theory-of-constraints, start]
+timeline: later
+status: wiki-only
 ---
 
 # IT Work Centers and Kanban

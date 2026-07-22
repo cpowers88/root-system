@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: case-study
-tags: [priority/now, status/wiki-only, domain/technology, source-role/example, use-case/data-workflow, use-case/audit, subject/data-science, subject/decision-trees, subject/neural-networks, subject/model-comprehensibility, stack/ai-frameworks-apis]
+tags: [subject/data-science, subject/decision-trees, subject/neural-networks, subject/model-comprehensibility]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [data-workflow, audit]
+stack: [ai-frameworks-apis]
 ---
 
 # Trees vs. Linear Models: When 98.9% and 99.1% Accuracy Don't Actually Tell You Which Model Is Better

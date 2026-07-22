@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-3
   - audit
   - delivery
   - framework
+stage: phase-3
+timeline: reference
 ---
 
 # Lean Methodology (VSM, Seven Wastes, Five Principles)

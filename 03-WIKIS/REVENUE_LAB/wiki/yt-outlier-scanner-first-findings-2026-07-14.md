@@ -1,8 +1,9 @@
 ---
 type: evidence-report
 status: approved-internal-proof
-tags: [now, revenue, content, youtube, research]
+tags: [revenue, content, youtube, research]
 created: 2026-07-14
+timeline: now
 ---
 
 # YouTube Outlier Scanner — First Findings

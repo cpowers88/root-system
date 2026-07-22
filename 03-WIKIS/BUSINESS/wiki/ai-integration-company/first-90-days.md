@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-2
   - roadmap
   - execution
+stage: phase-2
+timeline: reference
 ---
 
 # First 90 Days

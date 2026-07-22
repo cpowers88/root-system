@@ -1,7 +1,11 @@
 ---
 domain: technology
 type: reference
-tags: [priority/later, status/wiki-only, domain/technology, source-role/reference, use-case/tech-stack, subject/software-craft]
+tags: [subject/software-craft]
+timeline: later
+status: wiki-only
+source_role: reference
+use_cases: [tech-stack]
 ---
 
 # The Pragmatic Programmer: DRY, Orthogonality, Broken Windows, and Tracer Bullets

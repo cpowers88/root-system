@@ -1,6 +1,7 @@
 ---
 type: map
-tags: [reference, programming]
+tags: [programming]
+timeline: reference
 ---
 
 # Glossary Index

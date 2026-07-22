@@ -1,9 +1,9 @@
 ---
 tags:
-  - phase-1
   - execution
   - legal-finance
-  - reference
+stage: phase-1
+timeline: reference
 ---
 
 # Venture Fundamentals (Barringer & Ireland)

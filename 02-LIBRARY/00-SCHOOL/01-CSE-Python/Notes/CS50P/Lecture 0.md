@@ -7,10 +7,10 @@ published:
 created: 2026-06-05
 description: "Creating Code with Python VS Code is a text editor. In addition to editing text, you can visually browse files and run text-based commands at a terminal. In..."
 tags:
-  - "Python"
-  - now
+  - "python"
   - programming
   - cs50p
+timeline: now
 ---
 ## Lecture 0
 

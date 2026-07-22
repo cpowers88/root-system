@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/distributed-systems]
+tags: [subject/distributed-systems]
+timeline: later
+status: wiki-only
 ---
 
 # Distributed Systems Architecture Patterns

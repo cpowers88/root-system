@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/audit, use-case/data-workflow, subject/factory-physics, subject/variability, subject/coefficient-of-variation]
+tags: [subject/factory-physics, subject/variability, subject/coefficient-of-variation]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, audit, data-workflow]
 ---
 
 # Variability, Randomness, and the CV Classification System

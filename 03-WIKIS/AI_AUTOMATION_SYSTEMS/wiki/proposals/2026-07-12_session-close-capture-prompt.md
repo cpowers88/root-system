@@ -1,6 +1,7 @@
 ---
 type: proposal
-tags: [ai-automation, proposal, workflow, reference]
+tags: [ai-automation, proposal, workflow]
+timeline: reference
 ---
 
 # Proposal: Explicit "What Should Be Captured" Step in Session-Close

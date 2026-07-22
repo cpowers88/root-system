@@ -1,6 +1,7 @@
 ---
 type: plan
-tags: [now, business, revenue]
+tags: [business, revenue]
+timeline: now
 ---
 
 # Revenue Lane Scan — The First Evidence Brief

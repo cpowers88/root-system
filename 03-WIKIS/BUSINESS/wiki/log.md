@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log, business]
+tags: [business]
+timeline: log
 ---
 
 # Wiki Log

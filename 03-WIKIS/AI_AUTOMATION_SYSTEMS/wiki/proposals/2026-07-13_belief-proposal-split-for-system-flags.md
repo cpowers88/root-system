@@ -1,6 +1,7 @@
 ---
 type: proposal
-tags: [ai-automation, proposal, governance, reference]
+tags: [ai-automation, proposal, governance]
+timeline: reference
 ---
 
 # Proposal: Separate "Belief" from "Behavior Change" in the Flag/Review Mechanism

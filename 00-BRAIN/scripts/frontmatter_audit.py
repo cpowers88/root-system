@@ -25,8 +25,9 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parents[2]
-EXCLUDED = {"99-ARCHIVE", "raw", ".git", ".obsidian", "Report Archive",
-            "77-INBOX", "88-JOURNAL", ".claude", ".agents", "SKILLS"}
+EXCLUDED = {"99-ARCHIVE", "raw", ".raw ARCHIVE", ".git", ".obsidian",
+            "Report Archive", "77-INBOX", "88-JOURNAL", ".claude", ".agents",
+            "SKILLS"}
 TIMELINE = {"now", "next", "later", "parked", "reference", "log"}
 REFERENCE_PRIORITY = {"core", "supporting", "lookup"}
 NATIVE = re.compile(r"^(priority/\w+|stage-\d+|phase-(\d+|all)|stage-all)$")

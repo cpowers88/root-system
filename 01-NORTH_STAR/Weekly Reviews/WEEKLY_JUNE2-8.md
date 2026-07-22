@@ -5,7 +5,6 @@ tags: []
 ---
 
 # WEEKLY REPORT — JUNE 2–8, 2026
-#reports #system 
 ### Chris Powers | Powers Second Brain
 ### Generated: June 8, 2026
 

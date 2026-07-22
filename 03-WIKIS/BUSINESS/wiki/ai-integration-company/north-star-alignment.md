@@ -1,7 +1,8 @@
 ---
 tags:
-  - phase-1
   - strategy
+stage: phase-1
+timeline: reference
 ---
 
 # North Star Alignment

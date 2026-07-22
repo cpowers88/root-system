@@ -3,7 +3,8 @@ type: code-pattern
 stage: 10
 status: draft
 concepts: ["cli", "argument-parsing"]
-tags: [stage-10, cli, argparse]
+tags: [cli, argparse]
+timeline: reference
 ---
 
 # Code Pattern: CLI Program With `argparse`

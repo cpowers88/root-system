@@ -5,6 +5,7 @@ status: draft
 concepts: ["function", "def", "call", "parameter", "argument", "return-value", "scope"]
 difficulty: beginner
 solution_included: false
+timeline: reference
 ---
 
 # Drill: Write Three Functions from a Spec

@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/devops]
+tags: [subject/devops]
+timeline: later
+status: wiki-only
 ---
 
 # Final Tips for Success: Automation, Observability, Deployment, Data Lakes

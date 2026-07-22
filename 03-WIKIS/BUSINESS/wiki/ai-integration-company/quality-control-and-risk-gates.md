@@ -1,10 +1,11 @@
 ---
 tags:
-  - phase-3
   - strategy
   - human-agent
   - risk
   - delivery
+stage: phase-3
+timeline: reference
 ---
 
 # Quality Control & Risk Gates

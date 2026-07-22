@@ -1,6 +1,7 @@
 ---
 type: common-errors
-tags: [later, physics]
+tags: [physics]
+timeline: later
 ---
 
 # Common Errors — Stage 17: Superposition and Standing Waves (Ch 17)

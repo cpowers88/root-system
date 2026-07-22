@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/devops, subject/security, subject/compliance, start]
+tags: [subject/devops, subject/security, subject/compliance, start]
+timeline: later
+status: wiki-only
 ---
 
 # Security Work and Business Outcomes

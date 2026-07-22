@@ -4,6 +4,7 @@ stage:
 status: draft
 concepts: []
 solution_included: false
+timeline: reference
 ---
 
 # Mini-Project: [Name]

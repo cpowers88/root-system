@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/systems-analysis, use-case/data-workflow, subject/process-mining, subject/event-logs, subject/data-quality]
+tags: [subject/process-mining, subject/event-logs, subject/data-quality]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [audit, systems-analysis, data-workflow]
 ---
 
 # Process Mining Manifesto: Discovery, Conformance, Enhancement — Principles and Challenges

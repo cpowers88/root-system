@@ -1,7 +1,8 @@
 ---
 type: reference
-tags: [reference, school, fall-2026]
-source: "02-LIBRARY\\00-SCHOOL\\04-ECON\\ECON 1000 BAC (80643) Fall 2026 Syllabus.md; 02-LIBRARY\\00-SCHOOL\\03-TCOM\\TCOM 2010 04 (85633) Fall 2026 Syllabus.md; 02-LIBRARY\\00-SCHOOL\\05-ENGR\\ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md — all captured 2026-07-21 via Simple Syllabus, replacing the July 9 PDF ingest"
+tags: [school, fall-2026]
+source: "02-LIBRARY\00-SCHOOL\04-ECON\ECON 1000 BAC (80643) Fall 2026 Syllabus.md; 02-LIBRARY\00-SCHOOL\03-TCOM\TCOM 2010 04 (85633) Fall 2026 Syllabus.md; 02-LIBRARY\00-SCHOOL\05-ENGR\ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md — all captured 2026-07-21 via Simple Syllabus, replacing the July 9 PDF ingest"
+timeline: reference
 ---
 
 # Fall 2026 Course Briefs — ECON 1000 · TCOM 2010 · ENGR 1000

@@ -1,6 +1,7 @@
 ---
 type: os
-tags: [reference, school]
+tags: [school]
+timeline: reference
 ---
 
 # CLAUDE.md — Education Wiki OS (General KSU Support)

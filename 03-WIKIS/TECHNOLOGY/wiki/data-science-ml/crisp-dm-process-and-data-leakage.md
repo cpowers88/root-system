@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: method
-tags: [priority/now, status/wiki-only, domain/technology, source-role/primary, use-case/data-workflow, use-case/audit, use-case/reporting, subject/data-science, subject/crisp-dm, subject/data-leakage, stack/ai-frameworks-apis]
+tags: [subject/data-science, subject/crisp-dm, subject/data-leakage]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow, audit, reporting]
+stack: [ai-frameworks-apis]
 ---
 
 # The CRISP-DM Process: Why Data Mining Is R&D, Not Software Engineering — and the Leakage Trap That Silently Wrecks Models

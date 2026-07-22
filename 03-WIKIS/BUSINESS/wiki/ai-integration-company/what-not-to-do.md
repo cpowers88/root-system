@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-all
   - risk
   - strategy
+stage: phase-all
+timeline: reference
 ---
 
 # What NOT To Do

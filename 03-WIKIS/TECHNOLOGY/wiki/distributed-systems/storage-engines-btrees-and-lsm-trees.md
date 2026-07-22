@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/storage-engines]
+tags: [subject/storage-engines]
+timeline: later
+status: wiki-only
 ---
 
 # Storage Engines: B-Trees and LSM-Trees

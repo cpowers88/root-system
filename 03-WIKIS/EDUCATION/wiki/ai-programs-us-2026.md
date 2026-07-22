@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [reference, school]
+tags: [school]
+timeline: reference
 ---
 
 # AI Programs in U.S. Universities — CIC Map & 2026 Status Report

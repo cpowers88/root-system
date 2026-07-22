@@ -1,6 +1,7 @@
 ---
 type: plan
-tags: [now, programming]
+tags: [programming]
+timeline: now
 ---
 
 # Learning Path

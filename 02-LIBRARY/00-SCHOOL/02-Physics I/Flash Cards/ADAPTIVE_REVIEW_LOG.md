@@ -1,6 +1,7 @@
 ---
 type: tracker
-tags: [now, physics, school]
+tags: [physics, school]
+timeline: now
 ---
 
 # Physics Flashcard Calibration — July 14–20, 2026

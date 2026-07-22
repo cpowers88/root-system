@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-1
   - capability
   - skills
+stage: phase-1
+timeline: reference
 ---
 
 # Skill Roadmap

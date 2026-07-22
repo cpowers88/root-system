@@ -1,10 +1,10 @@
 ---
 type: note
-tags: [now, programming, cs50p]
+tags: [programming, cs50p]
+timeline: now
 ---
 
 # Python CS50 Week 0 Notes
-#school #python 
 
 ## Functions
 

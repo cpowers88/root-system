@@ -1,6 +1,7 @@
 ---
 type: proposal
-tags: [ai-automation, proposal, governance, workflow, parked]
+tags: [ai-automation, proposal, governance, workflow]
+timeline: parked
 ---
 
 # Proposal: Make the HIGH-Flag-Before-Close Rule a Hook, Not Just Prose

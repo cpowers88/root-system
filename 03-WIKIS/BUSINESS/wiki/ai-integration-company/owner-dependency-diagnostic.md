@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-2
   - pathway
   - audit
   - delivery
+stage: phase-2
+timeline: reference
 ---
 
 # Owner-Dependency Diagnostic (E-Myth)

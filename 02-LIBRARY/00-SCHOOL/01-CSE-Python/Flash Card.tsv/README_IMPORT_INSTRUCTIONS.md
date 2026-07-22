@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [reference, programming]
+tags: [programming]
+timeline: reference
 ---
 
 # Python Anki Phase 1–2 Decks

@@ -10,7 +10,8 @@ author:
 published:
 created: 2026-07-21
 description: "Free open-access intro economics textbook (micro + macro volumes), more contemporary and data-driven than a standard principles text; strongest fit for market-failure, inequality, and macro-policy chapters."
-tags: [reference, economics, open-textbook, econ-1000]
+tags: [economics, open-textbook, econ-1000]
+timeline: reference
 ---
 
 ## What this is

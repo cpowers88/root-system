@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-4
   - roadmap
   - scaling
+stage: phase-4
+timeline: reference
 ---
 
 # Three-Year Plan

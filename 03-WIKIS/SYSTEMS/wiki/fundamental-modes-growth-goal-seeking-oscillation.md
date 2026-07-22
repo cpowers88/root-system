@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/audit, subject/system-dynamics, subject/feedback-loops, subject/exponential-growth, subject/oscillation]
+tags: [subject/system-dynamics, subject/feedback-loops, subject/exponential-growth, subject/oscillation]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, audit]
 ---
 
 # The Three Fundamental Modes: Exponential Growth, Goal Seeking, Oscillation — and the Structure-to-Behavior Heuristic

@@ -1,10 +1,10 @@
 ---
 type: template
-tags: [later, ai-automation, client]
+tags: [ai-automation, client]
+timeline: later
 ---
 
 # ENGINEERING PROMPTS TO USE
-#AIearlyPrompt 
 ## Setup
 - Create a shared Project named “Engineering”.
 - Paste the Master Prompt.

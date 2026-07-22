@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-3
   - template
   - retainer
+stage: phase-3
+timeline: reference
 ---
 
 # Retainer Monthly Report Template

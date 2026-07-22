@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-2
   - strategy
   - sales
+stage: phase-2
+timeline: reference
 ---
 
 # Market Map

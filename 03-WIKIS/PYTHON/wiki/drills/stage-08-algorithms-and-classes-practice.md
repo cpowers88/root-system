@@ -5,6 +5,7 @@ status: draft
 concepts: ["recursion", "base-case", "class", "object-instance", "attribute", "method", "big-o", "sorting", "searching"]
 difficulty: beginner
 solution_included: false
+timeline: reference
 ---
 
 # Drill: Recursion, Classes, and Algorithm Reasoning

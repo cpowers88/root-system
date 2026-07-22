@@ -4,6 +4,7 @@ stage: 08
 status: draft
 concepts: ["class", "object-instance", "attribute", "method", "sorting", "searching", "big-o"]
 solution_included: false
+timeline: reference
 ---
 
 # Mini-Project: Card Collection — Class Plus Sort/Search

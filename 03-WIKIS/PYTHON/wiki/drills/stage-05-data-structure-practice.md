@@ -5,6 +5,7 @@ status: draft
 concepts: ["list", "dictionary", "tuple", "set", "index", "slice", "aliasing"]
 difficulty: beginner
 solution_included: false
+timeline: reference
 ---
 
 # Drill: Data Structure Practice

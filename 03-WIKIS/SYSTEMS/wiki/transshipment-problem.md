@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/transshipment-problem, subject/transportation-problem, subject/operations-research]
+tags: [subject/transshipment-problem, subject/transportation-problem, subject/operations-research]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # The Transshipment Problem

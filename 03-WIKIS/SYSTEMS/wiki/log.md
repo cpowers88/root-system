@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log, systems]
+tags: [systems]
+timeline: log
 ---
 
 # Wiki Log

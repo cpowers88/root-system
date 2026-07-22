@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: reference
-tags: [priority/later, status/wiki-only, domain/technology, source-role/reference, use-case/tech-stack, subject/python, stack/web-frameworks]
+tags: [subject/python]
+timeline: later
+status: wiki-only
+source_role: reference
+use_cases: [tech-stack]
+stack: [web-frameworks]
 ---
 
 # Lightweight Python Web Frameworks Beyond Flask/Django

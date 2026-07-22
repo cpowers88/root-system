@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: reference
-tags: [priority/later, status/wiki-only, domain/technology, source-role/reference, use-case/tech-stack, subject/python, stack/flask]
+tags: [subject/python]
+timeline: later
+status: wiki-only
+source_role: reference
+use_cases: [tech-stack]
+stack: [flask]
 ---
 
 # Web App Hosting and Deployment Options: VPS, PaaS, Web/WSGI Servers, Containers

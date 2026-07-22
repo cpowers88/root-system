@@ -1,10 +1,10 @@
 ---
 type: template
-tags: [later, ai-automation, client]
+tags: [ai-automation, client]
+timeline: later
 ---
 
 # OPERATIONS PROMPTS TO USE
-#AIearlyPrompt #AI 
 ## Setup
 - Create a shared Project named “Ops & Finance Implementation”.
 - Paste the Master Prompt.

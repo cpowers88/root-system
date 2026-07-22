@@ -30,13 +30,19 @@ The controlling question:
   ISYE coursework readiness and audit methodology — several pages already carry
   direct audit use-case tags (`use-case/audit`, `use-case/systems-analysis`) from
   their FORGE origin and those tags remain accurate here.
-- Existing pages carry FORGE's original frontmatter (`domain: systems`, `type`,
-  and the full `priority/status/domain/source-role/use-case/subject` tag tracks) —
-  this is a clean lift, not a re-tag, and that legacy metadata remains readable.
-  **New pages use the canonical property schema in `WHERE_IT_GOES.md`** (`type`,
-  one `timeline`, optional `status`/`reference_priority`, and topic tags). Do not
-  copy legacy `priority/*` or `status/*` control tags onto a page that has
-  `timeline:`; dual encoding is a metadata error.
+- Existing pages carry FORGE's original frontmatter (`domain: systems`, `type`),
+  a clean lift from FORGE. **Converted 2026-07-21** (see
+  `00-BRAIN\TAG_REGISTRY.md`): the inherited `priority/*`, `status/*`,
+  `domain/*`, `source-role/*`, and `use-case/*` tag tracks were migrated to
+  real properties (`timeline:`, `status:`, `source_role:`, `use_cases:`) —
+  `domain/*` was dropped (inferable from the `03-WIKIS/SYSTEMS` path). The
+  audit use-case values (`audit`, `systems-analysis`, etc.) remain accurate,
+  now as `use_cases:` list entries rather than tags.
+  **All pages, new and existing, now use the canonical property schema in
+  `WHERE_IT_GOES.md`** (`type`, one `timeline`, optional `status`/
+  `reference_priority`, and topic tags for genuine cross-cutting subjects
+  only). Do not reintroduce legacy `priority/*`, `status/*`, `domain/*`,
+  `source-role/*`, or `use-case/*` as tags; dual encoding is a metadata error.
 
 ## Folder Structure
 

@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-2
   - template
   - delivery
+stage: phase-2
+timeline: reference
 ---
 
 # Scope of Work Template

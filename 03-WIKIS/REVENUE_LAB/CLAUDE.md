@@ -1,6 +1,7 @@
 ---
 type: os
-tags: [now, business, revenue]
+tags: [business, revenue]
+timeline: now
 ---
 
 # CLAUDE.md — Revenue Lab Wiki OS

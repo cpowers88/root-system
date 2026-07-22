@@ -1,7 +1,8 @@
 ---
 type: reference
-tags: [reference, ai-automation]
+tags: [ai-automation]
 source: raw/LLM_WIKI_PATTERN_karpathy.md + raw/LLM WIKI.md + raw/Obsidian AI Second Brain Open-Source.md + raw/Second brain obsidian.md (each read in full, 2026-07-09); raw/GBrain - Garry Tan's Opinionated Agent Brain.md + raw/loopany CLAUDE.md.md + raw/loopany INSTALL_FOR_AGENTS.md.md + raw/loopany part 1-4.md + raw/How to build proactive agents and self-improving companies.md (each read in full, 2026-07-13; full architectural depth moved to [[self-improving-agent-architectures-gbrain-loopany-closed-loop]]); raw/Agentic Operating System File Structure A Practical Folder Layout.md + raw/Build Karpathy’s Self-Updating AI Knowledge Base in Just 90 Minutes.md (read in full and source-classified, 2026-07-14)
+timeline: reference
 ---
 
 # The LLM-Wiki Pattern and Its Second-Brain Implementations

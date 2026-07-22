@@ -5,7 +5,6 @@ tags: []
 ---
 
 # WEEKLY REVIEW — June 9 to June 18, 2026
-#reports #system
 ## Location: 01-NORTH_STAR/Weekly Reviews/
 ## Note: Run early (Thursday, not Sunday) — vacation departure moved up. Covers 10 days since the last review (June 2–8) because no weekly review happened June 14 or June 15 (system rebuild weeks).
 

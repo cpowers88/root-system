@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/data-workflow, use-case/business-model, use-case/ksu-support, subject/cost-accounting, subject/linear-programming, subject/factory-physics]
+tags: [subject/cost-accounting, subject/linear-programming, subject/factory-physics]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [audit, data-workflow, business-model, ksu-support]
 ---
 
 # Cost Accounting Pitfalls: Why Activity-Based Costing Isn't Enough, and How Fully Absorbed Costs Can Bankrupt a Production Plan

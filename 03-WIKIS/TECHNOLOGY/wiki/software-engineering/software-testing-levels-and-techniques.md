@@ -1,7 +1,11 @@
 ---
 domain: technology
 type: concept
-tags: [priority/later, status/wiki-only, domain/technology, source-role/primary, use-case/tech-stack, subject/testing, subject/software-engineering]
+tags: [subject/testing, subject/software-engineering]
+timeline: later
+status: wiki-only
+source_role: primary
+use_cases: [tech-stack]
 ---
 
 # Software Testing: Unit, Feature, System/Release, and Risk-Based Testing

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: method
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/process-design, use-case/client-interview, use-case/ksu-support, subject/factory-physics, subject/value-stream-mapping, subject/change-management]
+tags: [subject/factory-physics, subject/value-stream-mapping, subject/change-management]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [audit, process-design, client-interview, ksu-support]
 ---
 
 # The Factory Physics Four-Step Improvement Methodology, and Chapter 6's Closing Synthesis

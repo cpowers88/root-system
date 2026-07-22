@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/now, status/wiki-only, domain/systems, source-role/example, use-case/systems-analysis, use-case/process-design, use-case/client-interview, use-case/audit, subject/system-dynamics, subject/maintenance, subject/feedback-loops, subject/implementation]
+tags: [subject/system-dynamics, subject/maintenance, subject/feedback-loops, subject/implementation]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [systems-analysis, process-design, client-interview, audit]
 ---
 
 # The Maintenance Game: From Du Pont's Reactive-Maintenance Trap to a Reusable Implementation Method, Plus Sterman's Twelve Principles

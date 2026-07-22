@@ -1,6 +1,7 @@
 ---
 type: map
-tags: [reference, school]
+tags: [school]
+timeline: reference
 ---
 
 # EDUCATION Wiki — Index

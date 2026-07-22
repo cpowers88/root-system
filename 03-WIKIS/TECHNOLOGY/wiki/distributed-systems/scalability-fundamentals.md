@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/scalability]
+tags: [subject/scalability]
+timeline: later
+status: wiki-only
 ---
 
 # Scalability Fundamentals

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/queuing-theory, use-case/audit, subject/factory-physics, subject/queuing-theory, subject/vut-equation, subject/variability-pooling]
+tags: [subject/factory-physics, subject/queuing-theory, subject/vut-equation, subject/variability-pooling]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, queuing-theory, audit]
 ---
 
 # The VUT (Kingman's) Equation, Parallel Machines, and Variability Pooling

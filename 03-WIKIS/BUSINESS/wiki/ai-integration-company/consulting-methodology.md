@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-2
   - delivery
   - client-interview
   - framework
+stage: phase-2
+timeline: reference
 ---
 
 # Consulting Methodology (Flawless Consulting)

@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-all
   - moc
   - strategy
+stage: phase-all
+timeline: reference
 ---
 
 # AI Integration Company — Operating Wiki

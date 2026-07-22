@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-2
   - template
   - sales
+stage: phase-2
+timeline: reference
 ---
 
 # Audit Sales Call Script

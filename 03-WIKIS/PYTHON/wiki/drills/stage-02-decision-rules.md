@@ -5,6 +5,7 @@ status: draft
 concepts: ["condition", "if-elif-else", "boolean-operators", "comparison-operator"]
 difficulty: beginner
 solution_included: false
+timeline: reference
 ---
 
 # Drill: Plain-English Rules to `if` Chains

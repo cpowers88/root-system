@@ -1,8 +1,9 @@
 ---
 type: reference
-tags: [reference, school, meta-learning]
+tags: [school, meta-learning]
 created: 2026-07-12
 source-role: practical-secondary
+timeline: reference
 ---
 
 # Learning How to Learn — Practical Principles and Cautions

@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-2
   - execution
   - finance
   - pricing
+stage: phase-2
+timeline: reference
 ---
 
 # Financial Model

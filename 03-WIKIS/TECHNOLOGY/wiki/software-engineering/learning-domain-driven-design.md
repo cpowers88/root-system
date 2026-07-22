@@ -3,7 +3,9 @@ domain: technology
 type: source-summary
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/ddd, subject/software-engineering]
+tags: [subject/ddd, subject/software-engineering]
+source_role: primary
+use_cases: [tech-stack]
 ---
 
 # Learning Domain-Driven Design - Source Summary and Navigation Hub

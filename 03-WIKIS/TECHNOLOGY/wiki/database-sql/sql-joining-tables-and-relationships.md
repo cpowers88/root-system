@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: concept
-tags: [priority/now, status/wiki-only, domain/technology, source-role/primary, use-case/data-workflow, subject/sql, stack/sql]
+tags: [subject/sql]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow]
+stack: [sql]
 ---
 
 # SQL: Joining Tables and Relationships

@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: concept
-tags: [priority/now, status/wiki-only, domain/technology, source-role/primary, use-case/data-workflow, use-case/audit, subject/data-science, subject/linear-models, subject/support-vector-machines, subject/objective-functions, stack/ai-frameworks-apis]
+tags: [subject/data-science, subject/linear-models, subject/support-vector-machines, subject/objective-functions]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow, audit]
+stack: [ai-frameworks-apis]
 ---
 
 # Parametric Modeling: Why "Best Fit" Is a Choice You Make, Not a Fact You Discover

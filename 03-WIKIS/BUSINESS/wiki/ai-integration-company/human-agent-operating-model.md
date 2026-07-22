@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-1
   - strategy
   - human-agent
   - delivery
+stage: phase-1
+timeline: reference
 ---
 
 # Human-Agent Operating Model

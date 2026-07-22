@@ -1,6 +1,7 @@
 ---
 type: pointer
-tags: [reference]
+tags: []
+timeline: reference
 ---
 
 # TechStackPriority.md — pointer only

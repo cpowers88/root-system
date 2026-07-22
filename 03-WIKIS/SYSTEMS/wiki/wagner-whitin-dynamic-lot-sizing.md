@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/later, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/wagner-whitin, subject/inventory-control, subject/factory-physics]
+tags: [subject/wagner-whitin, subject/inventory-control, subject/factory-physics]
+timeline: later
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # Wagner-Whitin: Optimal Lot Sizing When Demand Varies

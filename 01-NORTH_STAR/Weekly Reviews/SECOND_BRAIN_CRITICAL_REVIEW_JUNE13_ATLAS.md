@@ -5,7 +5,6 @@ tags: []
 ---
 
 # Critical Review — Second Brain System Audit
-#reports #system 
 
 **Date:** 2026-06-13  
 **Reviewer:** Atlas  

@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-2
   - commercial
   - sales
+stage: phase-2
+timeline: reference
 ---
 
 # Sales System

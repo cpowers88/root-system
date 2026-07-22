@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/supply-chain, use-case/audit, subject/system-dynamics, subject/commodity-cycles, subject/price-setting, subject/capacity-vs-utilization]
+tags: [subject/system-dynamics, subject/commodity-cycles, subject/price-setting, subject/capacity-vs-utilization]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, supply-chain, audit]
 ---
 
 # Commodity Cycles: Why Markets Don't Self-Correct, and How Price Discovery Actually Works

@@ -1,9 +1,10 @@
 ---
 type: decision-report
 status: conditional-go-private-proof
-tags: [now, revenue, youtube, content, strategy]
+tags: [revenue, youtube, content, strategy]
 created: 2026-07-16
 review: after-private-proof
+timeline: now
 ---
 
 # Proof-Led Content Strategy - Business Decision Report

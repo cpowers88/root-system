@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/event-streaming]
+tags: [subject/event-streaming]
+timeline: later
+status: wiki-only
 ---
 
 # Scalable Event-Driven Processing (Apache Kafka)

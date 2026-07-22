@@ -1,10 +1,10 @@
 ---
 type: template
-tags: [later, ai-automation, client]
+tags: [ai-automation, client]
+timeline: later
 ---
 
 # CUSTOMER SUCCESS PROMPTS TO USE
-#AIearlyPrompt 
 ## Setup
 - Create a shared Project named “Customer Success”.
 - Paste the Master Prompt.

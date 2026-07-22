@@ -4,7 +4,8 @@ stage: 01
 status: draft
 source_refs: ["Think Python Ch.2 (String Operations)", "Python Crash Course Ch.2 (Strings)", "Automate the Boring Stuff Ch.1"]
 prerequisites: ["values-and-expressions"]
-tags: [stage-01, strings]
+tags: [strings]
+timeline: reference
 ---
 
 # Concept: Strings

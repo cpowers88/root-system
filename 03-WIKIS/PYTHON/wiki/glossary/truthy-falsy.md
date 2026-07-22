@@ -4,6 +4,7 @@ stage: 02
 status: draft
 aliases: ["truthiness"]
 related_terms: ["boolean", "condition"]
+timeline: reference
 ---
 
 # Truthy / Falsy

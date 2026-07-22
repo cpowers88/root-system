@@ -1,10 +1,10 @@
 ---
 type: template
-tags: [later, ai-automation, client]
+tags: [ai-automation, client]
+timeline: later
 ---
 
 ## RCCF Prompt Format:
-#AIearlyPrompt
 - Role: [ROLE].
 - - Context: [GOAL].
 - - Audience: [AUDIENCE].

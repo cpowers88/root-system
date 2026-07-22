@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-3
   - commercial
   - proof
+stage: phase-3
+timeline: reference
 ---
 
 # Case Study Template

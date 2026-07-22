@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/client-interview, use-case/audit, subject/system-dynamics, subject/causal-loop-diagrams, subject/feedback-loops]
+tags: [subject/system-dynamics, subject/causal-loop-diagrams, subject/feedback-loops]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, client-interview, audit]
 ---
 
 # Causal Loop Diagram Guidelines: Eleven Rules for Building Diagrams People Can Actually Read

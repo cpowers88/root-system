@@ -1,7 +1,8 @@
 ---
 tags:
-  - phase-all
   - risk
+stage: phase-all
+timeline: reference
 ---
 
 # Risks & Failure Modes

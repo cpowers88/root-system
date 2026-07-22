@@ -5,6 +5,7 @@ status: draft
 concepts: ["for-loop", "while-loop", "range", "counter", "accumulator", "break-continue", "modulo-and-divisibility"]
 difficulty: beginner
 solution_included: false
+timeline: reference
 ---
 
 # Drill: Loop Tracing and Loop Writing

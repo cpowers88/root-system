@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-2
   - template
   - moc
+stage: phase-2
+timeline: reference
 ---
 
 # Templates

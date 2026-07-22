@@ -1,6 +1,7 @@
 ---
 type: common-errors
-tags: [later, physics]
+tags: [physics]
+timeline: later
 ---
 
 # Common Errors — Stage 6: Circular Motion and Other Applications of Newton's Laws (Ch 6)

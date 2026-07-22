@@ -4,7 +4,8 @@ stage: 07
 status: draft
 source_refs: ["Think Python Ch.4 (A Development Plan)", "Think Like a Programmer Ch.1 (Strategies for Problem Solving) — strategy discussion only"]
 prerequisites: ["defining-and-calling-functions", "lists", "dictionaries"]
-tags: [stage-07, decomposition, pseudocode, program-design]
+tags: [decomposition, pseudocode, program-design]
+timeline: reference
 ---
 
 # Concept: Decomposition and Pseudocode

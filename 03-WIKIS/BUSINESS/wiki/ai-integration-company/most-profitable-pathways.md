@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-1
   - strategy
   - pathway
+stage: phase-1
+timeline: reference
 ---
 
 # Most Profitable Pathways

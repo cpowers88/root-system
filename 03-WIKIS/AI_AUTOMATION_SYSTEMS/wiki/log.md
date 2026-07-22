@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log]
+tags: []
+timeline: log
 ---
 
 # AI_AUTOMATION_SYSTEMS Wiki — Log

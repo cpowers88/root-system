@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/messaging]
+tags: [subject/messaging]
+timeline: later
+status: wiki-only
 ---
 
 # Asynchronous Messaging

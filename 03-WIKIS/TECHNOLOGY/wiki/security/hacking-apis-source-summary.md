@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: reference
-tags: [priority/next, status/wiki-only, domain/technology, source-role/reference, use-case/tech-stack, use-case/audit, subject/api-security, subject/web-security, stack/flask]
+tags: [subject/api-security, subject/web-security]
+timeline: next
+status: wiki-only
+source_role: reference
+use_cases: [tech-stack, audit]
+stack: [flask]
 ---
 
 # Hacking APIs — Source Summary and Navigation Hub

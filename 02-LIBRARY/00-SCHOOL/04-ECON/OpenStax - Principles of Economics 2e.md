@@ -8,7 +8,8 @@ author:
 published: 2017-10-11
 created: 2026-07-21
 description: "Free, peer-reviewed OpenStax intro economics textbook. Chapter structure maps closely onto ECON 1000's own topic list (economic systems, GDP/growth, inflation, unemployment, market failure, government failure, inequality)."
-tags: [reference, economics, open-textbook, econ-1000]
+tags: [economics, open-textbook, econ-1000]
+timeline: reference
 ---
 
 ## What this is

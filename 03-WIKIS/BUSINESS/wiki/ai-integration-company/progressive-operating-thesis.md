@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-1
   - strategy
   - human-agent
+stage: phase-1
+timeline: reference
 ---
 
 # Progressive Operating Thesis

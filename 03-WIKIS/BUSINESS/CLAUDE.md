@@ -1,6 +1,7 @@
 ---
 type: os
-tags: [now, business]
+tags: [business]
+timeline: now
 ---
 
 # CLAUDE.md — Business Wiki OS (AI Integration Company)

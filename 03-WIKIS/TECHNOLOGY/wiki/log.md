@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log]
+tags: []
+timeline: log
 ---
 
 # TECHNOLOGY Wiki — Log

@@ -1,10 +1,11 @@
 ---
 tags:
-  - phase-2
   - pathway
   - audit
   - delivery
   - finance
+stage: phase-2
+timeline: reference
 ---
 
 # Cash Flow Audit Method (Profit First)

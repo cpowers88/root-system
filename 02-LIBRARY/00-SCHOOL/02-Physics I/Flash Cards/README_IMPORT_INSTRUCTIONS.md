@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [reference, physics, school]
+tags: [physics, school]
+timeline: reference
 ---
 
 # Physics Anki Import and Rotation

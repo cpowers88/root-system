@@ -7,7 +7,8 @@ author:
 published:
 created: 2026-07-21
 description: "Free, well-regarded technical/professional writing reference covering audience analysis, memos, reports, proposals, and document design — direct topic overlap with TCOM 2010's units."
-tags: [reference, technical-writing, open-reference, tcom-2010]
+tags: [technical-writing, open-reference, tcom-2010]
+timeline: reference
 ---
 
 ## What this is

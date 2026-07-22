@@ -5,7 +5,6 @@ tags: []
 ---
 
 # WEEKLY SECOND BRAIN REVIEW - JUNE 18, 2026
-#reports #system #weekly
 ## Location: 01-NORTH_STAR/Weekly Reviews/
 ## Scope: Second Brain architecture, AI OS, review cadence, wiki-readiness
 ## Constraint: Review only. No existing files edited.

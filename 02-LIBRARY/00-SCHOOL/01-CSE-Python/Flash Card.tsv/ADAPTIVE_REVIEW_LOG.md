@@ -1,6 +1,7 @@
 ---
 type: tracker
-tags: [now, programming, flashcards]
+tags: [programming, flashcards]
+timeline: now
 ---
 
 # Python Flashcard Calibration — July 14–20, 2026

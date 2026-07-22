@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: concept
-tags: [priority/now, status/wiki-only, domain/technology, source-role/primary, use-case/data-workflow, use-case/business-model, use-case/audit, subject/data-science, subject/statistics, stack/python]
+tags: [subject/data-science, subject/statistics]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow, business-model, audit]
+stack: [python]
 ---
 
 # A/B Testing, Hypothesis Tests, and p-Values

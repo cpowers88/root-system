@@ -98,9 +98,15 @@ carries only this wiki's own rules.
 
 New or edited pages use metadata v2 properties rather than legacy control
 tags. Applied-reference pages normally use `timeline: reference` and
-`status: wiki-only`; keep `tags` categorical (for example,
-`domain/technology`, `source-role/primary`, and subject tags). Never put
-`priority/*` or `status/*` control values in `tags` once `timeline:` exists.
+`status: wiki-only`. **Converted 2026-07-21** (see `00-BRAIN\TAG_REGISTRY.md`):
+`domain/*` tags were dropped (domain is inferable from the `03-WIKIS/TECHNOLOGY`
+path); `source-role/*` became a `source_role:` property; `use-case/*` became a
+`use_cases:` list property; `stack/*` became a `stack:` list property. Keep
+`tags` for genuine cross-cutting topics only (subject tags, `programming`,
+etc.) — do not reintroduce `domain/*`, `source-role/*`, `use-case/*`, or
+`stack/*` as tags on new or edited pages; use the properties instead. Never
+put `priority/*` or `status/*` control values in `tags` once `timeline:`
+exists.
 
 Session note: when the session concerns a specific category, also read
 `TECHNOLOGY_LIBRARY_STRATEGY.md` at start.

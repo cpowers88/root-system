@@ -5,6 +5,7 @@ status: draft
 concepts: ["variable", "input", "type-conversion", "string", "print"]
 difficulty: beginner
 solution_included: false
+timeline: reference
 ---
 
 # Drill: Input and Conversion Practice

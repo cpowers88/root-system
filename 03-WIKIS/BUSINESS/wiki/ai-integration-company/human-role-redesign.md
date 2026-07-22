@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-3
   - strategy
   - human-agent
   - delivery
+stage: phase-3
+timeline: reference
 ---
 
 # Human Role Redesign

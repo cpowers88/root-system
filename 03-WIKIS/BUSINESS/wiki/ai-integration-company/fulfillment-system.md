@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-3
   - commercial
   - delivery
+stage: phase-3
+timeline: reference
 ---
 
 # Fulfillment System

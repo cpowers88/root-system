@@ -1,6 +1,8 @@
 ---
 type: map
-tags: [phase-all, business, moc]
+tags: [business, moc]
+stage: phase-all
+timeline: reference
 ---
 
 # Business Wiki Index

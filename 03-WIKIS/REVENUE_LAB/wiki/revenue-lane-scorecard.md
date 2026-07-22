@@ -1,6 +1,7 @@
 ---
 type: dashboard
-tags: [now, business, revenue]
+tags: [business, revenue]
+timeline: now
 ---
 
 # Revenue Lane Scorecard — Ranked Output of the July 14 Scan

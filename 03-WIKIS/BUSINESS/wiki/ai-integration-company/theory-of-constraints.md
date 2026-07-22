@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-2
   - audit
   - framework
+stage: phase-2
+timeline: reference
 ---
 
 # Theory of Constraints (TOC)

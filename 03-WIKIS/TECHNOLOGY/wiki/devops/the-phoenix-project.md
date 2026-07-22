@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: reference
-tags: [priority/later, status/wiki-only, subject/devops]
+tags: [subject/devops]
+timeline: later
+status: wiki-only
 ---
 
 # The Phoenix Project (Gene Kim, Kevin Behr & George Spafford)

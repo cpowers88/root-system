@@ -3,7 +3,8 @@ type: reference
 title: "FRED datasets — ECON 1000 dataset prep"
 created: 2026-07-21
 description: "Four real FRED (Federal Reserve Economic Data) series pulled via the FRED API, matched to ECON 1000's core macro topics."
-tags: [reference, economics, dataset, econ-1000]
+tags: [economics, dataset, econ-1000]
+timeline: reference
 ---
 
 # FRED Datasets — ECON 1000

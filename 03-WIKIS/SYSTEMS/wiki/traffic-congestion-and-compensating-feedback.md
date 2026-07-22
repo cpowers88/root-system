@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/now, status/wiki-only, domain/systems, source-role/example, use-case/systems-analysis, use-case/audit, use-case/process-design, subject/system-dynamics, subject/causal-loop-diagrams, subject/policy-resistance, subject/compensating-feedback]
+tags: [subject/system-dynamics, subject/causal-loop-diagrams, subject/policy-resistance, subject/compensating-feedback]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [systems-analysis, audit, process-design]
 ---
 
 # Traffic Congestion: Sterman's Master Class in Policy Resistance and Compensating Feedback

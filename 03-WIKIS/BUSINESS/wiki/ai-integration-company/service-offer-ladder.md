@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-2
   - strategy
   - offers
   - pricing
+stage: phase-2
+timeline: reference
 ---
 
 # Service Offer Ladder

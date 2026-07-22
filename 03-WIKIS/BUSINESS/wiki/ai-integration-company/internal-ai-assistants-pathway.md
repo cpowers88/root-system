@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-4
   - pathway
   - ai-assistants
+stage: phase-4
+timeline: reference
 ---
 
 # Internal AI Assistants Pathway

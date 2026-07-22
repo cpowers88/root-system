@@ -1,7 +1,8 @@
 ---
 type: proposal
-tags: [ai-automation, proposal, approved, reference]
+tags: [ai-automation, proposal, approved]
 status: APPROVED & APPLIED 2026-07-08
+timeline: reference
 ---
 
 # Proposal: Agentic-Tool Vetting Checklist for the Possibility Map

@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-3
   - pathway
   - documents
+stage: phase-3
+timeline: reference
 ---
 
 # Document Automation Pathway

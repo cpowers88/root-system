@@ -1,10 +1,10 @@
 ---
 type: note
-tags: [now, school, physics]
+tags: [school, physics]
+timeline: now
 ---
 
 # Physics The MOST FUNDAMENTAL PHYSICAL SCIENCE
-#school #physics
 ## Light Definition
 - Physics is concerned with the fundamental principles of the Universe. It is the foundation upon which the other sciences- astronomy, biology, chemistry, and geology are based. It is also the basis of a large number of engineering applications. The beauty of physics lies in the simplicity of its fundamental principles and  tint the manner in which just  a small umber of concepts and models can alter and expand our view of the world around us. 
 

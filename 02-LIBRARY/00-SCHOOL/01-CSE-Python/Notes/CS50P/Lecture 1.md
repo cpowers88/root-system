@@ -7,9 +7,9 @@ published:
 created: 2026-06-05
 description: "Conditionals Conditionals allow you, the programmer, to allow your program to make decisions: As if your program has the choice between taking the left-hand..."
 tags:
-  - now
   - programming
   - cs50p
+timeline: now
 ---
 ## Lecture 1
 

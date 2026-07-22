@@ -3,7 +3,8 @@ type: code-pattern
 stage: 04
 status: draft
 concepts: ["function", "return-value", "fruitful-void-function"]
-tags: [stage-04, functions, return-values]
+tags: [functions, return-values]
+timeline: reference
 ---
 
 # Code Pattern: Function With a Return Value

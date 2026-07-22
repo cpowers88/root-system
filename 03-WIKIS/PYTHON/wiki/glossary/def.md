@@ -4,6 +4,7 @@ stage: 04
 status: draft
 aliases: ["def keyword"]
 related_terms: ["function", "call"]
+timeline: reference
 ---
 
 # `def`

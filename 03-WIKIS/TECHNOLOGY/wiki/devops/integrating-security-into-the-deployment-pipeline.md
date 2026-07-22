@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/devops, subject/security, subject/devsecops]
+tags: [subject/devops, subject/security, subject/devsecops]
+timeline: later
+status: wiki-only
 ---
 
 # Integrating Security into the Deployment Pipeline (DevSecOps)

@@ -1,6 +1,7 @@
 ---
 type: flashcards
-tags: [now, physics]
+tags: [physics]
+timeline: now
 ---
 
 # Flashcards — Stage 2: Motion in One Dimension (Ch 2)

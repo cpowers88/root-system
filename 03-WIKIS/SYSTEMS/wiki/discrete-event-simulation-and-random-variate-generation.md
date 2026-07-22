@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/simulation, subject/discrete-event-simulation, subject/random-variate-generation, subject/operations-research]
+tags: [subject/simulation, subject/discrete-event-simulation, subject/random-variate-generation, subject/operations-research]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # Discrete-Event Simulation and Random Variate Generation

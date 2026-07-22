@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-4
   - pathway
   - data
+stage: phase-4
+timeline: reference
 ---
 
 # Data & Dashboard Pathway

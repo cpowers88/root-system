@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: method
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/client-interview, use-case/audit, use-case/process-design, subject/system-dynamics, subject/consulting-ethics, subject/modeling-process]
+tags: [subject/system-dynamics, subject/consulting-ethics, subject/modeling-process]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [client-interview, audit, process-design]
 ---
 
 # The Modeling Process: Managers as Designers, Identifying the Real Client, and the Modeler's Ethical Line

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/now, status/wiki-only, domain/systems, source-role/example, use-case/systems-analysis, use-case/supply-chain, use-case/audit, subject/system-dynamics, subject/supply-chains, subject/beer-game, subject/bounded-rationality]
+tags: [subject/system-dynamics, subject/supply-chains, subject/beer-game, subject/bounded-rationality]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [systems-analysis, supply-chain, audit]
 ---
 
 # The Beer Distribution Game: Why Ignoring the Supply Line Causes Supply Chain Oscillation

@@ -1,10 +1,10 @@
 ---
 type: template
-tags: [later, ai-automation, client]
+tags: [ai-automation, client]
+timeline: later
 ---
 
 # PRODUCT PROMPTS TO USE
-#AIearlyPrompt 
 ## Setup
 - Create a shared Project named “Product”.
 - Paste the Master Prompt.

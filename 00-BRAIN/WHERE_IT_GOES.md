@@ -225,11 +225,9 @@ roadmap position; `status` records the artifact's condition or workflow state;
 Values for `stage` and `status` may follow a realm's documented vocabulary, but
 must be explicit non-empty scalars. Do not infer them from a filename.
 
-**Topic tags — zero or more** (the categorical axis): `governance`,
-`north-star`, `watchtower`, `school`, `business`, `programming`,
-`ai-automation`, `physics`, `math`, `project`, `audit`, `pricing`,
-`client`, `meta-learning`, `raw`, `cs50p`, `econ` — extend sparingly;
-a topic tag must group 3+ files or it's noise.
+**Topic tags — zero or more** (the categorical axis): the approved list and
+its rationale live in `00-BRAIN\TAG_REGISTRY.md`, not duplicated here —
+extend sparingly; a topic tag must group 3+ files or it's noise.
 
 **Transition rule:** legacy control tags (`now`, `priority/now`, `stage-NN`,
 `phase-N`, and similar) remain audit-compatible until Phase 5 migrates their

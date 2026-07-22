@@ -4,7 +4,8 @@ stage: 03
 status: draft
 source_refs: ["Think Python Ch.5 (Floor Division and Modulus)"]
 prerequisites: ["values-and-expressions", "for-loops"]
-tags: [stage-03, modulo, divisibility]
+tags: [modulo, divisibility]
+timeline: reference
 ---
 
 # Concept: Modulo and Divisibility

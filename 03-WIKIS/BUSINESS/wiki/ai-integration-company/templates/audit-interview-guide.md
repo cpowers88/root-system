@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-2
   - template
   - audit
+stage: phase-2
+timeline: reference
 ---
 
 # Audit Interview Guide

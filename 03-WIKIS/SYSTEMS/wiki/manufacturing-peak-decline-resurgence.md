@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: concept
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/business-model, use-case/ksu-support, subject/manufacturing-history, subject/factory-physics, subject/professional-manager-critique]
+tags: [subject/manufacturing-history, subject/factory-physics, subject/professional-manager-critique]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [audit, business-model, ksu-support]
 ---
 
 # American Manufacturing's Golden Era, Decline, and Resurgence: The Professional-Manager Critique

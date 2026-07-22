@@ -1,10 +1,11 @@
 ---
 tags:
-  - phase-2
   - pathway
   - audit
   - delivery
   - human-agent
+stage: phase-2
+timeline: reference
 ---
 
 # SMB AI Audit Method

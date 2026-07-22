@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log]
+tags: []
+timeline: log
 ---
 
 # EDUCATION Wiki — Session Log

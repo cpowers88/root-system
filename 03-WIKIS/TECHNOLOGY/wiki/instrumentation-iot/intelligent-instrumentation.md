@@ -3,7 +3,9 @@ domain: technology
 type: source-summary
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/instrumentation, subject/sensors]
+tags: [subject/instrumentation, subject/sensors]
+source_role: primary
+use_cases: [tech-stack]
 ---
 
 # Intelligent Instrumentation - Source Summary and Navigation Hub

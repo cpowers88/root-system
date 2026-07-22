@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-2
   - commercial
   - pricing
+stage: phase-2
+timeline: reference
 ---
 
 # Pricing Models

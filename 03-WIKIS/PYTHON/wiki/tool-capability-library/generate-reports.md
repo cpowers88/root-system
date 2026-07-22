@@ -4,7 +4,8 @@ status: active
 stage: 9
 python_tools: [f-strings, csv, file writing]
 prerequisites: [files, loops, accumulators, string formatting]
-tags: [reference, programming, capability]
+tags: [programming, capability]
+timeline: reference
 ---
 
 # Capability: Generate Reports from Data

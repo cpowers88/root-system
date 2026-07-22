@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-2
   - template
   - ops
   - execution
+stage: phase-2
+timeline: reference
 ---
 
 # Weekly Scorecard

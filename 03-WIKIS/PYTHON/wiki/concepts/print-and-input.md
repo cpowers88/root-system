@@ -4,7 +4,8 @@ stage: 01
 status: draft
 source_refs: ["Think Python Ch.1, Ch.5 (Keyboard Input)", "Python Crash Course Ch.2", "Automate the Boring Stuff Ch.1"]
 prerequisites: ["values-and-expressions", "variables-and-assignment", "strings"]
-tags: [stage-01, print, input, comments]
+tags: [print, input, comments]
+timeline: reference
 ---
 
 # Concept: `print()`, `input()`, and Comments

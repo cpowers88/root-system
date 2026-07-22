@@ -84,6 +84,8 @@ excluded_from_graph:
   - "88-JOURNAL"
   - "00-BRAIN/Session_Logs"
   - "Clippings"
+  - ".folder-icons"
+  - "tmp"
 
 # ---------------------------------------------------------------------------
 # EXTENSION PROCEDURE — when a new top-level section or wiki hub is created:

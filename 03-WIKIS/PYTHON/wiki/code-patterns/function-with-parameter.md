@@ -3,7 +3,8 @@ type: code-pattern
 stage: 04
 status: draft
 concepts: ["function", "def", "parameter", "argument", "scope"]
-tags: [stage-04, functions, parameters]
+tags: [functions, parameters]
+timeline: reference
 ---
 
 # Code Pattern: Function With a Parameter

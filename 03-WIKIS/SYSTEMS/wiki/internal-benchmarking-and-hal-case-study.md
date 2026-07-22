@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, source-role/example, use-case/audit, use-case/data-workflow, use-case/systems-analysis, subject/factory-physics, subject/internal-benchmarking, subject/throughput-wip-cycle-time]
+tags: [subject/factory-physics, subject/internal-benchmarking, subject/throughput-wip-cycle-time]
+timeline: now
+status: wiki-only
+source_role: [primary, example]
+use_cases: [audit, data-workflow, systems-analysis]
 ---
 
 # Internal Benchmarking, and the HAL Printed-Circuit-Board Case

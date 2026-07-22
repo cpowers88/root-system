@@ -18,6 +18,8 @@ import frontmatter_audit as audit
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore
 
+REPORT_DIR = audit.ROOT / "00-BRAIN" / "Session_Logs"
+
 
 def finding_reason(kind: str) -> str:
     return {

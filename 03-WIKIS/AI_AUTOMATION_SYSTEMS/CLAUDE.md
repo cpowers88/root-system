@@ -1,8 +1,9 @@
 ---
 type: os
-tags: [reference, ai-automation]
+tags: [ai-automation]
 created: 2026-07-08
 status: live
+timeline: reference
 ---
 
 # CLAUDE.md — AI & Automation Systems Wiki OS

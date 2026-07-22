@@ -3,7 +3,8 @@ type: code-pattern
 stage: 04
 status: ready
 concepts: [module, import-statement, standard-library, function-call]
-tags: [stage-04, standard-library, import]
+tags: [standard-library, import]
+timeline: reference
 ---
 
 # Code Pattern: Import and Call a Standard-Library Function

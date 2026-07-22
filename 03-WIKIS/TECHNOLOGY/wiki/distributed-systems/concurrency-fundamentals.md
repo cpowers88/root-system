@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/concurrency]
+tags: [subject/concurrency]
+timeline: later
+status: wiki-only
 ---
 
 # Concurrency Fundamentals

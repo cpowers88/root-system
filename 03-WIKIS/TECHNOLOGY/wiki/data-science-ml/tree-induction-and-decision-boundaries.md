@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: concept
-tags: [priority/now, status/wiki-only, domain/technology, source-role/primary, use-case/data-workflow, use-case/audit, subject/data-science, subject/decision-trees, subject/tree-induction, stack/ai-frameworks-apis]
+tags: [subject/data-science, subject/decision-trees, subject/tree-induction]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow, audit]
+stack: [ai-frameworks-apis]
 ---
 
 # Tree Induction: Why "Find the Best Split, Then Recurse" Is the Whole Algorithm

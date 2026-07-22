@@ -1,10 +1,10 @@
 ---
 type: template
-tags: [later, ai-automation, client]
+tags: [ai-automation, client]
+timeline: later
 ---
 
 # Company Master Prompt Template
-#AIearlyPrompt 
 
 "Hey, here is how to show up for me every time:
 My name is [NAME]. I run [COMPANY], a [BUSINESS TYPE] that sells [OFFER] to [AUDIENCE]. I am an entrepreneur and operator. I like fast, clear answers that help me act today.

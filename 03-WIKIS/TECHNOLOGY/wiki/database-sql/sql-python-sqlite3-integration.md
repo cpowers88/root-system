@@ -3,7 +3,9 @@ domain: technology
 type: concept
 timeline: reference
 status: wiki-only
-tags: [domain/technology, subject/sql, subject/python, stack/sqlite, use-case/data-workflow]
+tags: [subject/sql, subject/python]
+use_cases: [data-workflow]
+stack: [sqlite]
 ---
 
 # SQL: Python's `sqlite3` Module — Connecting Code to a Database

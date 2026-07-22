@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-3
   - pathway
   - crm
   - sales
+stage: phase-3
+timeline: reference
 ---
 
 # CRM & Sales Ops Pathway

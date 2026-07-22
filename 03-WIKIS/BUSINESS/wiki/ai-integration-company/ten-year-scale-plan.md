@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-5
   - roadmap
   - scaling
   - exit
+stage: phase-5
+timeline: reference
 ---
 
 # Ten-Year Scale Plan

@@ -1,9 +1,10 @@
 ---
 tags:
-  - phase-3
   - pathway
   - retainer
   - pricing
+stage: phase-3
+timeline: reference
 ---
 
 # Retainer Model

@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: reference
-tags: [priority/next, status/wiki-only, subject/ai-tooling, start]
+tags: [subject/ai-tooling, start]
+timeline: next
+status: wiki-only
 ---
 
 # AI Developer Tools Landscape (2026)

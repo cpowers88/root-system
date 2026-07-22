@@ -1,10 +1,10 @@
 ---
 type: template
-tags: [later, ai-automation, client]
+tags: [ai-automation, client]
+timeline: later
 ---
 
 # SALES PROMPTS TO USE
-#AIearlyPrompt 
 ## Setup
 - Create a shared Project named “Sales”.
 - Paste the Master Prompt.

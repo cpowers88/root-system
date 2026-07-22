@@ -1,9 +1,9 @@
 ---
 type: reference
-tags: [next, programming]
+tags: [programming]
+timeline: next
 ---
 
-#school #python
 
 Python Independence and AI-Assisted Builder Manual for Chris Powers
 

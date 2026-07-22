@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/network-optimization, subject/shortest-path, subject/maximum-flow, subject/operations-research]
+tags: [subject/network-optimization, subject/shortest-path, subject/maximum-flow, subject/operations-research]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # Network Optimization Models: Shortest Path, Minimum Spanning Tree, and Maximum Flow

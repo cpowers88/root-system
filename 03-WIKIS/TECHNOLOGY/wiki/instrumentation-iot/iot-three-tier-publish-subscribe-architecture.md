@@ -3,7 +3,8 @@ domain: technology
 type: reference
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, subject/iot, subject/publish-subscribe, subject/distributed-systems]
+tags: [subject/iot, subject/publish-subscribe, subject/distributed-systems]
+source_role: primary
 ---
 
 # IoT Three-Tier Publish/Subscribe Architecture

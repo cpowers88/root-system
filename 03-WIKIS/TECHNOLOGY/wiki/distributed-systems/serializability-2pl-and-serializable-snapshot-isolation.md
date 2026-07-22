@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/transactions]
+tags: [subject/transactions]
+timeline: later
+status: wiki-only
 ---
 
 # Serializability: Actual Serial Execution, Two-Phase Locking, and SSI

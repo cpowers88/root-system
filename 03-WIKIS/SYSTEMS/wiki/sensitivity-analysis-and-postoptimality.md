@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/linear-programming, subject/sensitivity-analysis, subject/operations-research]
+tags: [subject/linear-programming, subject/sensitivity-analysis, subject/operations-research]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # Sensitivity Analysis: Allowable Ranges, the 100% Rule, and Why "Optimal" Is Only a Starting Point

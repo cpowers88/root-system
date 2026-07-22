@@ -1,8 +1,9 @@
 ---
 tags:
-  - phase-1
   - roadmap
   - execution
+stage: phase-1
+timeline: reference
 ---
 
 # First 30 Days

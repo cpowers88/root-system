@@ -1,10 +1,11 @@
 ---
 tags:
-  - phase-3
   - capability
   - tools
   - ai-leverage
   - research
+stage: phase-3
+timeline: reference
 ---
 
 # Claude Code Leverage

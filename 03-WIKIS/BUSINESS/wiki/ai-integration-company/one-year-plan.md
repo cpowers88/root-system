@@ -1,7 +1,8 @@
 ---
 tags:
-  - phase-3
   - roadmap
+stage: phase-3
+timeline: reference
 ---
 
 # One-Year Plan

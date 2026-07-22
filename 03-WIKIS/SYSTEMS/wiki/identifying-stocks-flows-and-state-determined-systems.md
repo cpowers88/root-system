@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/client-interview, use-case/audit, subject/system-dynamics, subject/stocks-and-flows]
+tags: [subject/system-dynamics, subject/stocks-and-flows]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, client-interview, audit]
 ---
 
 # Identifying Stocks and Flows: The Snapshot Test, the "Stocks Change Only Through Rates" Rule, and Presenting Models to Clients

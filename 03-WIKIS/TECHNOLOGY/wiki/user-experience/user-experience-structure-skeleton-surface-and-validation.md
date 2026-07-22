@@ -3,7 +3,9 @@ domain: technology
 type: concept
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/ux, subject/interface-design]
+tags: [subject/ux, subject/interface-design]
+source_role: primary
+use_cases: [tech-stack]
 ---
 
 # User Experience Structure, Skeleton, Surface, and Validation
