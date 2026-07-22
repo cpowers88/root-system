@@ -6,6 +6,29 @@ tags: []
 
 # Castle Log — Append Only
 
+## 2026-07-22 (morning) — Session-open health check: PHYSICS timeline gap closed
+
+- **Trigger:** Chris asked for a system load and CASTLE review before starting
+  the day. Ran `root_health.py` live rather than trusting last night's cached
+  PASS WITH DEBT — it returned BLOCKER.
+- **Cause:** 5 PHYSICS pages created during last night's concurrent
+  calculus/reference-frames work had only `type:` and `status:` in
+  frontmatter, no `timeline:` property — the same gap the tag-taxonomy
+  migration closed for ~171 PYTHON library pages a few hours earlier, just
+  never swept into that pass since it ran in a separate session.
+- **Fix:** added `timeline: reference` (draft-status glossary/concept/
+  calculus-link pages are durable reference content, matching the PYTHON
+  precedent) to `glossary/fictitious-force.md`,
+  `glossary/noninertial-reference-frame.md`,
+  `concepts/accelerated-reference-frames.md`,
+  `calculus-links/power-derivative.md`,
+  `calculus-links/tangential-radial-acceleration-derivative.md`.
+- **Result:** `root_health.py` now returns PASS WITH DEBT, 0 new, 0
+  blockers, 408 unchanged baseline debt. No PHYSICS content or claim
+  changed — metadata only.
+- **Next:** proceed to today's actual work — the Bootcamp
+  continue/modify/replace decision before Day 4.
+
 ## 2026-07-17 (evening) — MCP Bootcamp: profit gate, Claude review, Chris confirmation, plan locked
 
 - **Gate sequence:** Codex ran the pre-D2L technology boot-camp profit gate
@@ -1643,3 +1666,15 @@ other named scopes pass. Slice A0 is clear.
 - **Next exact action:** Chris makes the Bootcamp continue/modify/replace decision
   before Day 4; the smallest SQL proof is one independent query or bounded fixture
   extension. July 26 reviews the evidence and open decisions, not assumed D2L intake.
+
+## 2026-07-22 — Concise daily launch and reading interfaces installed (Codex)
+
+- Added `MORNING_BRIEF.md` as a three-line lens over `NOW.md`: one attention item,
+  one start action with owner file, and one Chris-owned gate. `NOW.md` remains the
+  detailed daily cockpit and source of sequencing truth.
+- Added `EVENING_READING.md` and a constrained read-only Claude runner that selects
+  one 15–25 minute prerequisite slice at 17:00, then replaces only that interface.
+  Windows task `ROOT Evening Reading Brief` is enabled daily at 5:00 p.m.
+- Wired the interfaces into `AGENT.md`, `START_HERE.md`, CASTLE navigation, and the
+  Information Flow Contract. Canonical health remains PASS WITH DEBT: 0 blockers,
+  0 new metadata findings, 408 reviewed baseline findings.

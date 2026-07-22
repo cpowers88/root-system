@@ -76,11 +76,11 @@ table in the same change.
 
 | State | System Loop stage(s) | Task-protocol move | K-to-V pipeline step | Cadence event | Return Packet field it feeds |
 |---|---|---|---|---|---|
-| Intent | human governance entering the loop; CASTLE sets the question | ORIENT | (precedes the pipeline) | morning `NOW.md` | frames the eventual **Outcome** |
+| Intent | human governance entering the loop; CASTLE sets the question | ORIENT | (precedes the pipeline) | morning `MORNING_BRIEF.md` over `NOW.md` | frames the eventual **Outcome** |
 | Capture | SENSE | ORIENT → ROUTE | raw source → evidence home | sources feed hubs (daily) | — |
 | Trust | RESEARCH (source tiers, verification) | ROUTE | relevance filter | weekly inbox/clippings sweep | **Evidence link** integrity |
 | Structure | STRUCTURE | WORK | domain wiki update; index/log | monthly property review | **Capability/status movement** |
-| Understand | RESEARCH → TEACH | WORK | wiki refinement → learner proof | daily rep | **Capability/status movement** |
+| Understand | RESEARCH → TEACH | WORK | wiki refinement → learner proof | daily rep; 17:00 `EVENING_READING.md` prerequisite | **Capability/status movement** |
 | Decide | DECIDE (CASTLE, profit gate, opportunity queue) | ROUTE (owner and gate) | CASTLE opportunity decision | Sunday weekly + Engine Question | **Reusable-asset candidate** (go/no-go) |
 | Act | BUILD → PROVE → DEPLOY/USE | WORK → PROVE/PACKAGE | bounded real work → draft asset → client use | daily rep; sprint sessions | **Evidence link**; **Reusable-asset candidate** |
 | Learn | MEASURED OUTCOME → LEARN → REVIEW → EVOLVE | PROVE/PACKAGE → CLOSE | field evidence updates asset and wiki | night close → weekly → monthly → quarterly Ratchet | **Outcome**; **System-learning candidate** |

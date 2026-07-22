@@ -5,7 +5,7 @@ status: active
 tags: []
 ---
 
-# NOW — Tuesday, July 21, 2026
+# NOW — Wednesday, July 22, 2026
 ### Open this every morning. Start here, do the proof, then close clean.
 
 ## Start Here
@@ -24,7 +24,7 @@ on the decisions now exposed in `SYSTEM_FLAGS.md` #79 plus review of the older
 Codex audit/recovery weekly; two clearly completed reports were reclassified
 today. W3 (BUSINESS metadata batch) is deferred, low urgency.
 
-1. **MCP Bootcamp evidence-gate in progress, July 18–26.** One continuous
+1. **Claude-led MCP Integration Bootcamp in progress, July 18–26.** One continuous
    construction case (`05-BUSINESS\02-Field Notes\observation_one.md`) runs
    through eight engineering lenses, one per day. Full plan:
    `00-BRAIN\Session_Logs\ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`.
@@ -38,35 +38,33 @@ today. W3 (BUSINESS metadata batch) is deferred, low urgency.
    explain-back completed) — detail in `Docs\MASTER_BLUEPRINT.md`'s Day 3
    layer and the new reusable page
    `03-WIKIS\TECHNOLOGY\wiki\database-sql\sql-python-sqlite3-integration.md`.
-   **Day 4 (Automation & Operations) did not run today — still pending, and
-   the continue/modify/replace decision on the remaining lenses is still
-   open**, not yet made. Running in parallel: Codex's own evidence lane at
+   **Decision made July 22: continue into Day 4 (Automation & Operations),
+   with Claude leading the MCP lane.** Running simultaneously is the Codex-led
+   Learning and `.ROOT` System Bootcamp at
    `Docs\codex-adaptive-learning-evidence.md` (Rep 1 complete — Python Stage
-   3 adaptive baseline, Chris pace 2.5/5, depth 3.9/5, strongly preferred)
-   plus `00-BRAIN\Session_Logs\SESSION_REPORT_2026-07-21_CODEX_ADAPTIVE_TEACHING_METHOD.md`,
-   both feeding the same July 25 evidence-gated adoption decision via a
-   **blind verdict**: Codex and Claude each write an independent
-   continue/modify/replace-and-adopt verdict before reading the other's,
-   then cross-review. **Hard boundary: July 26 is the weekly evidence
-   review, with no sprint carryover unless Chris explicitly authorizes a
-   bounded exception.** D2L is accessible but unpopulated; exact PHYS 2211
+   3 adaptive baseline, Chris pace 2.5/5, depth 3.9/5, strongly preferred).
+   Both lanes gather evidence on learning, AI information production and
+   presentation, reading usefulness, system coordination, ownership/stress,
+   and next-rep improvement. Saturday closes evidence with independent
+   provisional verdicts; **Sunday July 26 is the joint weekly review and owns
+   keep/modify/revert decisions.** D2L is accessible but unpopulated; exact PHYS 2211
    Section 54 and ENGR 1000 BWD materials are not expected before August 24
    — see `SYSTEM_FLAGS.md` #57.
    `Docs\learning-format-notes.md` now carries evidence-bounded entries for
    Days 1–3; missing first-person reactions remain explicitly unknown rather
    than reconstructed.
-2. **Python Stage 3 (Loops) adaptive rep paused cleanly for paperwork.** Loop
+2. **Codex-led Learning and `.ROOT` System Bootcamp resumes with Python Stage 3.** Loop
    tracing Part A is complete; accumulator and negative-step range near transfers
    succeeded after targeted recovery. Resume with the already-prompted fresh
    password-controlled `while` transfer, then the divisible-by-7 counter and
    guessing-game mini-project. Retest `break` construction cold before mastery.
-3. **Physics Stage 4 formal progression remains paused for the sprint week, but
-   one syllabus-neutral quantitative rep is scheduled for the adaptive-learning
-   evidence lane.** Neighboring Sections 51/55 are reference only; neither controls
-   Chris's Section 54 operations.
+3. **Physics Stage 4 formal progression remains paused for the sprint week.** A
+   syllabus-neutral quantitative rep remains available later in the evidence
+   window for cross-domain transfer; neighboring Sections 51/55 are reference
+   only and neither controls Chris's Section 54 operations.
 
-Root health at last check (July 21): **PASS WITH DEBT** — boot/
-governance pass; wiki nav 0 blockers/0 review; frontmatter 519 reviewed
+Root health at last check (July 22): **PASS WITH DEBT** — boot/
+governance pass; wiki nav 0 blockers/0 review; frontmatter 408 reviewed
 baseline findings, 0 new. No HIGH flag open.
 
 ## Current Picture
@@ -75,21 +73,21 @@ baseline findings, 0 new. No HIGH flag open.
 |---|---|---|
 | School | Aug 24 readiness is fixed; D2L is unpopulated; exact PHYS 2211 Section 54 and ENGR 1000 BWD syllabi are unavailable; Python Stage 3 tracing Part A complete | Resume the fresh password-controlled `while` transfer; use Physics only for syllabus-neutral private practice until exact materials arrive |
 | Tracker / SQL | V1 shipped; exact D2L course data is not available yet | Enter verified D2L data when courses populate, likely near August 24, and test the real workflow |
-| Technology | MCP Bootcamp Days 1–3 closed over the real `observation_one.md` case; Day 3 slipped one day and produced a two-table SQLite fixture plus documented debugging evidence | Make the explicit continue/modify/replace call before Day 4; if continuing, define the read-only resource/tool contracts against the fixture |
+| Technology | Claude leads the MCP Bootcamp; Days 1–3 closed over the real `observation_one.md` case and Day 4 is continuing | Define the read-only resource/tool contracts against the fixture, with concept and cold attempt before SDK work |
 | Business | Advisor-Builder is the current hypothesis; July 16 profit gate chose the first service proof: Flip Margin Leak replay (OPP-20260716-01, worth testing); closing-exception autopsy is HOLD (OPP-20260716-02) | With Chris's approval, one 60-min completed-flip replay with a warm-network flipper; one Sheet max |
 | Continuity income | Additional income is needed before Spring 2027 enrollment | B2 conversation still requires Chris's approval; Lane A: Chris hand-fills the top-100 classification worksheet, and one private scanner walkthrough has conditional GO (≤90 added min, then park-or-proceed review) |
-| `.ROOT` | Slices A0–B1 are committed and pushed at `490e8ab`; the North Star, CASTLE consumers, and review contract now express the capability-first, evidence-selected, Chris-governed system | Return to real-use proof. Slice C + R1 wait for the July 26 weekly review, due `check_at` outcomes, and any required Chris approval |
+| `.ROOT` | Codex leads the Learning/System Bootcamp while Claude leads MCP; both lanes share evidence capture and Sunday review | Run the Python Stage 3 rep, record system/presentation/reading evidence, then integrate both lanes at the July 26 review |
 
 ## This Week
 
-- [ ] Syllabus-neutral Physics quantitative rep for adaptive-learning evidence; formal Section 54 alignment waits for exact materials
+- [ ] Syllabus-neutral Physics quantitative rep later in the evidence window; formal Section 54 alignment waits for exact materials
 - [ ] Python Stage 3: fresh password-controlled `while` transfer → divisible-by-7 counter → guessing game → mastery checklist
 - [ ] Record one private Revenue Lab proof during work already happening (conditional GO, ≤90 added min); review it before any public action
 - [ ] Fill the Lane A top-100 human-classification worksheet (Y/N/? in Chris's own words)
 - [ ] One live workflow observation/VSM only with the needed approval and access — first candidate is the flip-margin replay (OPP-20260716-01)
 - [ ] Daily SQL reps against the scanner SQLite DB (real data now); switch vehicle to the tracker when D2L data actually populates
 - [x] **MCP Bootcamp — Tue Jul 21 (was Mon 7/20), Data Engineering:** structured the six observation rows into `friction_categories`/`businesses`; fixture and explain-back complete, with the live-pairing deviation preserved in the learning notes
-- [ ] **MCP Bootcamp — decision point before Day 4:** continue the original remaining lenses (Automation/Ops → AI Infra/MCP → Cyber → Product/Value → Integration), modify them, or replace them with an evidence-selected alternative — decide from Days 1–3 plus the parallel adaptive-learning evidence
+- [x] **Two-lane decision:** Claude leads the continuing MCP Bootcamp; Codex leads the simultaneous Learning/`.ROOT` System Bootcamp; Sunday integrates both evidence lanes
 - [ ] *(remaining lens schedule below is the original plan; superseded by the decision point above if the pivot is chosen)*
 - [ ] **MCP Bootcamp — Automation & Operations:** design the 1 resource + 2 read-only tool contracts (no SDK yet)
 - [ ] **MCP Bootcamp — AI Infrastructure:** MCP SDK wiring, stdio, stderr logging, full pytest coverage, Inspector — ≤3 hr MCP budget starts here
@@ -103,11 +101,15 @@ baseline findings, 0 new. No HIGH flag open.
 
 | Date | Trigger |
 |---|---|
-| July 22 (Wed) | First make the Bootcamp continue/modify/replace decision; if continuing, run Day 4 Automation & Operations (resource/tool contracts, no SDK yet) |
+| July 22 (Wed) | Claude: Day 4 Automation & Operations. Codex: Python Stage 3 Learning/System Bootcamp rep. Both capture shared evidence fields. |
 | July 23 | Next evidence-selected Bootcamp lens if continued. Also: OPP-20260716-01 (flip-margin replay) review date — **if this fires, it outranks the sprint for that session** |
 | July 24 | Evidence-selected Bootcamp scope if continued; Wiki shared-layer real-use `check_at` verdict |
-| July 25 | Bootcamp honest-floor integration/harvest and acceptance verdict on whatever scope was explicitly retained; Session-close capture `check_at`; independent learning-method verdicts before cross-review |
-| July 26 | **Weekly evidence review; no assumed D2L intake because courses remain unpopulated.** Governance-drift weekly-sweep `check_at` verdict |
+| July 25 | Close both evidence windows; MCP honest-floor integration/harvest; independent provisional verdicts written before cross-reading |
+| July 26 | **Joint Review 1:** integrate both bootcamps; keep/modify/revert; select the next Learning/System week and debate the second bootcamp subject |
+| August 2 | Joint weekly review 2 |
+| August 9 | Joint weekly review 3 |
+| August 16 | Monthly synthesis and system-direction review |
+| August 23 | Final pre-class weekly review; push approved updates, rollbacks, or bounded changes before classes |
 | August 1 | Monthly weak-link review; re-rank `SKILL_GAP_ANALYSIS.md` |
 | ~August 14 | Revenue Lane A prediction check and top-100 review |
 | August 24 | Fall semester begins |
@@ -140,6 +142,8 @@ that's settled. Detail: `00-BRAIN\Session_Logs\System Update Log\2026-07-19_ROOT
 - Revenue evidence: `03-WIKIS\REVENUE_LAB\wiki\revenue-lane-scorecard.md`
 - Sequence/proof status: `00-BRAIN\CASTLE\wiki\current-position.md`
 - MCP Bootcamp live plan: `00-BRAIN\Session_Logs\ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`
+- Learning/`.ROOT` System Bootcamp evidence: `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\codex-adaptive-learning-evidence.md`
+- MCP learning-format evidence: `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\learning-format-notes.md`
 - Finished/paused context removed today: `00-BRAIN\Session_Logs\System Update Log\2026-07-19_ROOT_INFORMATION_CASTLE_RECONCILIATION\NOW_ARCHIVE_2026-07-19.md`
 
 ---

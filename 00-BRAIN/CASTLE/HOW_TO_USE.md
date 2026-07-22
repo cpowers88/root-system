@@ -20,7 +20,8 @@ Durable direction belongs to `01-NORTH_STAR\NORTH_STAR.md`. Rules and authority 
 
 ## Start Here
 
-- **Current action:** open `.ROOT\NOW.md`
+- **Morning decision:** open `.ROOT\MORNING_BRIEF.md`
+- **Detailed current action:** open `.ROOT\NOW.md`
 - **Position on the path:** open `wiki\current-position.md`
 - **Long-range sequence:** open `wiki\north-star-roadmap.md`
 - **Operating rules:** open `OPERATIONS.md`

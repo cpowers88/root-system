@@ -82,7 +82,9 @@ Profiles and local files cannot override file safety, North Star direction, raw 
 3. Check `SYSTEM_FLAGS.md` for the active task.
 4. Read `01-NORTH_STAR\NORTH_STAR.md`, then load only the companion and local
    context required by the active question.
-5. Name the critical path and work.
+5. If `MORNING_BRIEF.md` is stale or Chris requests a system load, follow
+   `00-BRAIN\MORNING_LAUNCH_INSTRUCTIONS.md` before presenting the critical path.
+6. Name the critical path and work.
 
 Steps 1–4 are the universal orientation chain, not a requirement to load every
 optional companion or domain file. Load the smallest authoritative companion and

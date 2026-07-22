@@ -12,9 +12,10 @@ tags: []
 
 ## Your Morning
 
-Open **`NOW.md`** — it's right next to this file. One page: today's
-priority, this week's reps, countdowns. That's the whole ritual.
-The castle maintains it; if the date is stale, tell the AI.
+Open **`MORNING_BRIEF.md`** first for the three-line attention/start/approval
+call, then open **`NOW.md`** only when you need the detailed roadmap. CASTLE
+maintains `NOW.md`; the first AI session of the day refreshes the brief from it
+and the live owner files.
 
 ---
 
@@ -115,9 +116,10 @@ Loop, the five moves, and the business pipeline are one system):
 `01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md`.
 
 ```
-Morning     → castle refreshes NOW.md from yesterday's DAILY + handoffs — one priority, do it
+Morning     → first AI refreshes MORNING_BRIEF.md from NOW.md + live owners — one start, do it
 Daily rep   → tracker / SQL / course work
 Every task  → AI appends a 4-line block to the day's report (00-BRAIN\Session_Logs\DAILY_…)
+17:00       → EVENING_READING.md assigns one 15–25 minute prerequisite reading slice
 Night       → Day Summary consolidates the blocks, then each AI used today writes its handoff (1–2/day)
 Sources     → feed books/docs directly to the relevant 03-WIKIS hub — each refines its own domain
 Business    → refined knowledge → BUSINESS templates → reusable/sanitized 05-BUSINESS assets

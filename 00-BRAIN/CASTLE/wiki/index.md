@@ -7,7 +7,7 @@ tags: []
 
 # Index — Every Live Page in CASTLE
 
-### Updated: July 19, 2026 — Slice A1 contract-consumer synchronization
+### Updated: July 22, 2026 — concise morning and evening action interfaces
 
 This is a discovery index, not a second current-state dashboard. Live action belongs to `.ROOT\NOW.md`; baseline and proof state belong to [[current-position]] and the owning domain systems.
 
@@ -20,7 +20,9 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 
 ## External Direction and Action Interfaces
 
+- `.ROOT\MORNING_BRIEF.md` — generated three-line morning decision interface over live owner truth
 - `.ROOT\NOW.md` — current-action interface
+- `.ROOT\EVENING_READING.md` — generated three-line prerequisite reading assignment
 - `01-NORTH_STAR\NORTH_STAR.md` — durable direction
 - `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` — current business strategy under test
 

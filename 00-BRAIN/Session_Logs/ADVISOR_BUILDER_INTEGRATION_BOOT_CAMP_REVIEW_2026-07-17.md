@@ -25,6 +25,52 @@ the parallel adaptive-learning evidence. Earlier dated tables below remain the
 proposal/revision history; this amendment controls where they conflict with live
 state.
 
+## July 22 Joint Ownership and Evidence Amendment
+
+Two bootcamps now run simultaneously through the July 26 joint review:
+
+- **Claude leads the MCP Integration Bootcamp**: the construction case, engineering
+  lenses, technical artifacts, MCP acceptance evidence, and
+  `Docs\learning-format-notes.md`.
+- **Codex leads the Learning and `.ROOT` System Bootcamp**: learner-frontier reps,
+  adaptive routing, AI information-production and presentation quality, daily
+  interface/reading usefulness, system friction, and
+  `Docs\codex-adaptive-learning-evidence.md`.
+- **Chris is the active learner, operator, partner, and final decision authority.**
+  Evidence capture is shared: Chris, Claude, and Codex each record what they directly
+  observe, check one another's notes, and jointly plan improvements from the weekly
+  evidence. No person or surface owns live proof alone.
+
+Use the two existing evidence files; create no third tracker this week. Each lane
+records enough evidence to answer the same shared questions:
+
+1. What outcome was attempted, and what did the AI produce or present?
+2. Was the information sufficient, accurate, timely, and shown in the form Chris
+   needed at that moment?
+3. What did Chris independently retrieve, explain, decide, build, or transfer—and
+   what support level was required?
+4. What were the pace, depth, interruptions, ownership, and stress signals?
+5. What nightly reading was assigned; was it completed; did it help the next proof?
+6. Did the system recommend the right next action, avoid duplication, and return
+   evidence to the right owner?
+7. What improvement will be applied in the next rep, and did it work?
+8. What did the other lane's notes confirm, contradict, or reveal at cross-review?
+9. Did `.ROOT` increase Chris's mastery, judgment, and ability to choose what should
+   remain human, be assisted, or be automated—without pretending to be the domain
+   application or replacing the learner/operator?
+
+Saturday closes evidence collection with independent provisional verdicts written
+before cross-reading. Sunday, July 26 is the first joint weekly review and owns the
+keep/modify/revert decisions. Planned cadence: weekly reviews July 26, August 2, and
+August 9; monthly synthesis August 16; final pre-class weekly review August 23,
+before Fall classes begin August 24. Later bootcamp content remains evidence-selected;
+the second lane's next weekly subject is not decided here.
+
+The near-term system benchmark is concrete: optimize `.ROOT` to help Chris earn all
+`A` grades in Fall 2026 without creating unreasonable stress. The reviews therefore
+measure learning and academic readiness together with workload, clarity, timing,
+ownership, and sustainable use—not output volume alone.
+
 ## Review Request
 
 Chris asked Codex to determine whether the final pre-D2L window should become a
