@@ -53,11 +53,22 @@ today. W3 (BUSINESS metadata batch) is deferred, low urgency.
    `Docs\learning-format-notes.md` now carries evidence-bounded entries for
    Days 1–3; missing first-person reactions remain explicitly unknown rather
    than reconstructed.
-2. **Codex-led Learning and `.ROOT` System Bootcamp resumes with Python Stage 3.** Loop
-   tracing Part A is complete; accumulator and negative-step range near transfers
-   succeeded after targeted recovery. Resume with the already-prompted fresh
-   password-controlled `while` transfer, then the divisible-by-7 counter and
-   guessing-game mini-project. Retest `break` construction cold before mastery.
+   **Day 4 progress (paused mid-session, ~midday July 22):** the resource
+   (`get_all_friction_records`) and both read-only tools
+   (`search_by_problem_keyword`, `count_by_friction_category`) are typed and
+   written in `Code\mcp_contracts.py`, with state/failure/recovery explained
+   live for each. **Not yet closed:** the mandatory explain-back gate and the
+   Day 4 blueprint layer. Paused for a real-world interruption (Ben home);
+   Chris plans to resume tonight — resume at the explain-back, do not restart
+   the design. See `DAILY_2026-07-22.md` for the full handoff.
+2. **Codex-led Learning and `.ROOT` System Bootcamp completed its July 22 Python
+   rep.** The password-controlled `while` transfer was independently correct; the
+   divisible-by-7 counter and limited-attempt guessing game succeeded after
+   targeted support, including both five-attempt boundary tests. The delayed cold
+   `break` transfer reportedly printed `30` instead of `12`. The saved attempt
+   was found after the pause at `MCP_Bootcamp/Code/for.py`; its condition and
+   `break` placement do not explain that reported output. Resume by running and
+   tracing the saved file; Stage 3 remains active, not mastered.
 3. **Physics Stage 4 formal progression remains paused for the sprint week.** A
    syllabus-neutral quantitative rep remains available later in the evidence
    window for cross-domain transfer; neighboring Sections 51/55 are reference
@@ -71,17 +82,17 @@ baseline findings, 0 new. No HIGH flag open.
 
 | Area | Live truth | Next proof |
 |---|---|---|
-| School | Aug 24 readiness is fixed; D2L is unpopulated; exact PHYS 2211 Section 54 and ENGR 1000 BWD syllabi are unavailable; Python Stage 3 tracing Part A complete | Resume the fresh password-controlled `while` transfer; use Physics only for syllabus-neutral private practice until exact materials arrive |
+| School | Aug 24 readiness is fixed; D2L is unpopulated; exact PHYS 2211 Section 54 and ENGR 1000 BWD syllabi are unavailable; Python Stage 3 password/counter/guessing-game rep completed with mixed independent and assisted evidence | Run and trace saved `MCP_Bootcamp/Code/for.py`, reconcile the reported `30`, and repair its condition/`break` placement; use Physics only for syllabus-neutral private practice until exact materials arrive |
 | Tracker / SQL | V1 shipped; exact D2L course data is not available yet | Enter verified D2L data when courses populate, likely near August 24, and test the real workflow |
 | Technology | Claude leads the MCP Bootcamp; Days 1–3 closed over the real `observation_one.md` case and Day 4 is continuing | Define the read-only resource/tool contracts against the fixture, with concept and cold attempt before SDK work |
 | Business | Advisor-Builder is the current hypothesis; July 16 profit gate chose the first service proof: Flip Margin Leak replay (OPP-20260716-01, worth testing); closing-exception autopsy is HOLD (OPP-20260716-02) | With Chris's approval, one 60-min completed-flip replay with a warm-network flipper; one Sheet max |
 | Continuity income | Additional income is needed before Spring 2027 enrollment | B2 conversation still requires Chris's approval; Lane A: Chris hand-fills the top-100 classification worksheet, and one private scanner walkthrough has conditional GO (≤90 added min, then park-or-proceed review) |
-| `.ROOT` | Codex leads the Learning/System Bootcamp while Claude leads MCP; both lanes share evidence capture and Sunday review | Run the Python Stage 3 rep, record system/presentation/reading evidence, then integrate both lanes at the July 26 review |
+| `.ROOT` | Codex leads the Learning/System Bootcamp while Claude leads MCP; Python Rep 2 is recorded with no false mastery claim | Resume at the failed `break` trace, continue the scheduled evidence reps, then integrate both lanes at the July 26 review |
 
 ## This Week
 
 - [ ] Syllabus-neutral Physics quantitative rep later in the evidence window; formal Section 54 alignment waits for exact materials
-- [ ] Python Stage 3: fresh password-controlled `while` transfer → divisible-by-7 counter → guessing game → mastery checklist
+- [ ] Python Stage 3: password-controlled `while`, divisible-by-7 counter, and guessing game completed July 22; failed cold `break` trace + remaining mastery checklist still open
 - [ ] Record one private Revenue Lab proof during work already happening (conditional GO, ≤90 added min); review it before any public action
 - [ ] Fill the Lane A top-100 human-classification worksheet (Y/N/? in Chris's own words)
 - [ ] One live workflow observation/VSM only with the needed approval and access — first candidate is the flip-margin replay (OPP-20260716-01)

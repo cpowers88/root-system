@@ -26,14 +26,18 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
   independently corrected (removed the stray `D` band, `else` now prints `F`
   for anything below 70) and verified. See `wiki/log.md` 2026-07-16.
 - **Current study stage: Stage 3 — Loops.** `wiki/stages/stage-03-*.md`.
-- **Exact learner frontier:** Stage 3 loop tracing Part A is complete. Part B
-  demonstrated negative-step range transfer and an assisted user-input `while`
-  recovery. Resume with the fresh password-controlled `while` transfer already
-  prompted on 2026-07-21; do not show the prior scaffold before the attempt. Then
-  finish the divisible-by-7 counter, guessing-game mini-project, and mastery
-  checklist. The accumulator transferred independently to summing
-  `2, 4, 6, 8, 10` in about five minutes. Retest `break` construction cold before
-  mastery; do not repeat the entire lesson.
+- **Exact learner frontier:** Stage 3 loop tracing Part A is complete. On July 22,
+  Chris independently constructed and explained the fresh password-controlled
+  `while` transfer. He then corrected a divisible-by-7 counter after one focused
+  counter cue and built the limited-attempt guessing-game through staged live
+  guidance; its fifth-guess win and five-miss loss boundaries both passed. The
+  final cold `break` transfer did not pass: Chris reported output `30` where the
+  first match should be `12`. Post-pause file inventory found the saved attempt at
+  `02-LIBRARY/.PROJECTS/MCP_Bootcamp/Code/for.py`; its condition does not test
+  divisibility by both numbers, and `break` is outside the `if`, so the saved file
+  does not explain the reported `30`. Resume by running and tracing that exact file,
+  reconcile the output, and correct it cold before the remaining mastery checklist.
+  Do not mark Stage 3 mastered.
 - **Stages 3-10 are generated but not yet mastered.** Their packets exist and are ready, but Chris has not worked through or demonstrated mastery of any of them yet. Do not treat their existence as progress.
 
 **This page must never be read as "Chris should start at Stage 10."** Stages 0-2 are complete. Resume at the exact Stage 3 frontier above.
@@ -89,15 +93,11 @@ for this hub and cannot count as learner proof.
 
 ## Current Reading Queue
 
-- **Read now:** no broad reread before the fresh password-controlled `while`
-  transfer. Attempt it cold first.
-- **If that cold attempt fails:** read [[concepts/while-loops]] only, then retry
-  with a fresh prompt. For counter/accumulator trouble, read
-  [[concepts/counters-and-accumulators]] only.
-- **Immediately before the divisible-by-7 counter:** explain `number % 7 == 0`
-  from memory. If that explanation is not clear, read
-  [[concepts/modulo-and-divisibility]] once, trace `6 % 7`, `7 % 7`, and `8 % 7`,
-  then attempt the counter without copying an implementation.
+- **Read now:** no broad reread. Open the saved failed `break` attempt first and trace
+  its loop values, condition, print placement, and exit behavior.
+- **If the cold correction fails:** read the local `break` section in the Stage 3
+  material only, then retry with a fresh prompt. Reopen the counter or `while`
+  concepts only if a new observed gap requires them.
 - **Read after Stage 3 closes:** [[stages/stage-04-functions-parameters-return]],
   then [[concepts/defining-and-calling-functions]],
   [[concepts/parameters-and-arguments]], and [[concepts/return-values]]. The matching
@@ -168,8 +168,9 @@ closed unless a specific learning gap justifies reopening it.
 
 ## Current Next Action
 
-Stage 2 is closed and Stage 3 is active. Chris's next action is the fresh
-password-controlled `while` transfer at the current Part B frontier, followed by
-the divisible-by-7 counter and Stage 3 guessing-game mini-project. All later
-packets remain content readiness, not study progress until worked and verified
-the same way Stage 2 was.
+Stage 2 is closed and Stage 3 is active. Chris's next action is to open and run
+`02-LIBRARY/.PROJECTS/MCP_Bootcamp/Code/for.py`, reconcile its actual output with
+the reported `30`, trace the condition and `break` placement, and correct it
+before completing the remaining Stage 3 mastery checks. All later packets remain
+content readiness, not study progress until worked and verified the same way
+Stage 2 was.

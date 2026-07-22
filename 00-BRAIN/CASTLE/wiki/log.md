@@ -1678,3 +1678,15 @@ other named scopes pass. Slice A0 is clear.
 - Wired the interfaces into `AGENT.md`, `START_HERE.md`, CASTLE navigation, and the
   Information Flow Contract. Canonical health remains PASS WITH DEBT: 0 blockers,
   0 new metadata findings, 408 reviewed baseline findings.
+
+## 2026-07-22 — Python Stage 3 proof frontier advanced (Codex)
+
+- The Codex-led Learning/System Bootcamp completed its planned Python continuation:
+  independent password-controlled `while` transfer, assisted counter recovery, and
+  an assisted limited-attempt guessing game with both boundary tests passing.
+- Stage 3 remains `building`: the delayed cold `break` transfer reportedly
+  printed `30` instead of `12`. Post-pause inventory found saved `Code/for.py`;
+  its condition and `break` placement do not explain the reported output.
+- Owner truth returned to the PYTHON current-position and Bootcamp evidence log;
+  `NOW.md` now points to the saved-code run and trace rather than repeating the
+  completed exercises.

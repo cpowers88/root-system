@@ -1244,3 +1244,32 @@ password-controlled `while` transfer.
 Attempt the password-controlled `while` transfer cold. Before the later
 divisible-by-7 counter, explain `%` from memory and open the new modulo concept only
 if that explanation fails.
+
+## 2026-07-22 — Stage 3 Bootcamp continuation (Codex)
+
+### Progress evidence
+
+- Chris independently constructed and explained the password-controlled `while`
+  transfer without reopening the prior scaffold.
+- After one modulo correction and one focused counter cue, he completed the
+  divisible-by-7 counter, predicted 7 matches, and explained initialization and
+  final-print placement.
+- He built the limited-attempt guessing game through staged live guidance. The
+  fifth-guess win and five-miss loss boundaries passed, and his explain-back
+  correctly identified both exit paths and the counter-reset failure mode.
+- The delayed cold `break` transfer failed: reported output was `30` instead of the
+  first valid match, `12`. Post-pause inventory found saved `Code/for.py`; its
+  compound condition is malformed and `break` sits outside the `if`, so the saved
+  file does not explain the reported output and must be run and traced next.
+
+### Mastery decision
+
+Stage 3 remains active. The password `while` transfer is independent evidence; the
+counter and mini-project are successful assisted recoveries. `break` construction
+and the remaining mastery checklist are still open.
+
+### Next action
+
+Run saved `MCP_Bootcamp/Code/for.py`, reconcile its output with the reported
+`30`, trace its condition and `break` placement, and correct it before continuing
+the Stage 3 mastery gate.
