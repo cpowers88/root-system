@@ -59,8 +59,9 @@ today. W3 (BUSINESS metadata batch) is deferred, low urgency.
    written in `Code\mcp_contracts.py`, with state/failure/recovery explained
    live for each. **Not yet closed:** the mandatory explain-back gate and the
    Day 4 blueprint layer. Paused for a real-world interruption (Ben home);
-   Chris plans to resume tonight — resume at the explain-back, do not restart
-   the design. See `DAILY_2026-07-22.md` for the full handoff.
+   the resume plan shifted to early morning July 23 before bootcamp, not
+   tonight — resume at the explain-back, do not restart the design. See
+   `DAILY_2026-07-22.md` for the full nightly handoff.
 2. **Codex-led Learning and `.ROOT` System Bootcamp completed its July 22 Python
    rep.** The password-controlled `while` transfer was independently correct; the
    divisible-by-7 counter and limited-attempt guessing game succeeded after
