@@ -1,10 +1,33 @@
-# .ROOT project-level Codex sandbox/approval config. See 00-BRAIN\CODEX.md
-# for governance. The canonical workspace is this local C: vault; G: is backup
-# only. Keep approval_policy as the human-in-the-loop backstop for consequential
-# actions even though local unelevated sandbox operation is now working.
+# .ROOT project-level Codex permission profile. See 00-BRAIN\CODEX.md for
+# governance. The vault is writable except for protected system metadata and
+# immutable evidence; the private journal is unavailable to sandboxed commands.
 
-sandbox_mode = "workspace-write"
 approval_policy = "on-request"
+default_permissions = "root_guarded"
 
-[sandbox_workspace_write]
-network_access = false
+[permissions.root_guarded.filesystem]
+":minimal" = "read"
+":tmpdir" = "write"
+":slash_tmp" = "write"
+
+[permissions.root_guarded.filesystem.":workspace_roots"]
+"." = "write"
+".git" = "read"
+".agents" = "read"
+".codex" = "read"
+"88-JOURNAL" = "deny"
+"00-BRAIN/CASTLE/raw" = "read"
+"03-WIKIS/AI_AUTOMATION_SYSTEMS/raw" = "read"
+"03-WIKIS/BUSINESS/raw" = "read"
+"03-WIKIS/EDUCATION/raw" = "read"
+"03-WIKIS/PHYSICS/raw" = "read"
+"03-WIKIS/PYTHON/raw" = "read"
+"03-WIKIS/REVENUE_LAB/raw" = "read"
+"03-WIKIS/SYSTEMS/raw" = "read"
+"03-WIKIS/TECHNOLOGY/raw" = "read"
+
+[permissions.root_guarded.network]
+enabled = false
+
+[windows]
+sandbox = "elevated"

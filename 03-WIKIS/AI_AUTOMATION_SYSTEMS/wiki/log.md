@@ -6,6 +6,41 @@ timeline: log
 
 # AI_AUTOMATION_SYSTEMS Wiki — Log
 
+## 2026-07-22 — Toolsbase.dev Claude Code + Codex CLI catalogs chunk-ingested
+
+Three Obsidian clippings landed in root `Clippings\` on 2026-07-22 (same
+publisher, toolsbase.dev): a Claude Code 67-feature catalog with full
+v1.0.x-v2.1.217 changelog, an OpenAI Codex CLI 64-command cheat sheet with
+full v0.107.0-v0.145.0 changelog, and the site's own homepage/directory page.
+Chris routed all three raw files into this hub's `raw/` (per the raw-intake
+rule) and asked for a full chunk-intake pass under this wiki's hat.
+
+Both changelog-bearing files were read in full (1726 and 1856 lines
+respectively, each in ~500-600 line chunks) and compiled into new retrieval
+pages: [[claude-code-features-catalog-and-version-history-toolsbase]] and
+[[codex-cli-command-reference-and-version-history-toolsbase]]. The homepage/
+directory clipping carries no independent content (a tool-and-links index for
+the same site) and was recorded as lookup/reference, not compiled.
+
+**Cross-source finding worth flagging:** reading both changelogs back-to-back
+surfaced the same release pattern independently on both vendors — agentic
+capability expands (subagent self-nesting, auto mode reach, multi-agent
+orchestration), then a deterministic guard follows a few releases later
+(concurrency caps, destructive-git-command blocks, spawn-time classifier
+checks, tightening `rm` detection). Documented on both new pages as an
+**expand-then-harden** pattern, offered as a reusable heuristic for this
+hub's own future agent-vetting and tool-adoption research — not yet promoted
+to a proposal; needs a second unrelated confirmation outside the CLI-agent
+category before it's a generalizable claim per the belief/behavior-change
+split in `proposals/2026-07-13_belief-proposal-split-for-system-flags.md`.
+
+Also confirmed: `EndConversation` and `/ultrareview`, both present in this
+session's own tool surface, are documented vendor Claude Code features
+(v2.1.214 and v2.1.120 respectively) — not `.ROOT`-side customizations.
+
+`raw-source-coverage.md` and `index.md` updated; raw file count now 197
+(was 194).
+
 ## 2026-07-17 — AI in Business and Economics (EPEAI proceedings) chunk-ingested
 
 Session load per this wiki's own `CLAUDE.md` hat (boot chain, `CHRIS_CORE.md`,

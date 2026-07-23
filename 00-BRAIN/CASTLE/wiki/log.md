@@ -6,6 +6,47 @@ tags: []
 
 # Castle Log — Append Only
 
+## 2026-07-22 (evening) — Daily CASTLE review (Operator hat)
+
+- **Trigger:** Chris asked for the system's daily review plus the evening
+  reading recommendation, with anything else surfaced for joint review rather
+  than decided unilaterally.
+- **Root health:** reran `root_health.py` — returned **BLOCKER** (2 new
+  frontmatter findings). Traced both to one source, not a governance
+  regression: `Clippings\Public IT KB - How to connect remotely to your office
+  PC (Windows 11).md`, an Obsidian web-clip that landed today at 10:38 AM with
+  no frontmatter at all (missing `type` and `timeline`). Everything else
+  passed clean: boot/governance, wiki nav (0 blockers/0 review, 749 expected),
+  shared-skill mirrors, whitespace, and Markdown text integrity (1,356 files,
+  0 findings). Left untouched per the standing Clippings/`77-INBOX` rule
+  ("leave ambiguous items in place and flag instead of guessing") — its real
+  subject (personal Windows remote-desktop access) doesn't obviously belong to
+  any hub, so routing it is Chris's call, not a mechanical fix.
+- **Opportunity Queue:** `OPP-20260714-01` (B2 — direct-network estimating/
+  change-order support) carried a **2026-07-21 review date that has now
+  passed** with no recorded movement — still `worth testing`, still waiting
+  on Chris's approval for the external conversation. Not urgent, but the
+  check-in date itself is stale and needs Chris's call (extend, act, or
+  park). `OPP-20260716-01` (flip-margin replay) reviews **tomorrow,
+  2026-07-23** — flagging as a heads-up since `NOW.md` already records that it
+  outranks sprint work if it fires.
+- **Radar:** both rows current — MCP row's next review is the July 25
+  Bootcamp acceptance test (unchanged); the AGC contractor-AI-adoption row
+  isn't due until the first construction observation or Oct 1. No action.
+- **SYSTEM_FLAGS.md:** no HIGH flags open. #79 is with Codex (sandbox
+  retest). #57 updated this session per Chris's direct confirmation (dates are
+  instructor error, not capture defects; PHYS §54 and ENGR BWD remain the only
+  real gaps). #16/#68/#69/#80 unchanged, all LOW, none blocking.
+- **Evening reading:** already generated and delivered to Chris this session —
+  MCP client-primitives build notes, prepping tomorrow's AI Infrastructure
+  lens (SDK wiring, stderr logging, Inspector).
+- **Result:** no HIGH-priority action required tonight. Two items need
+  Chris's direct decision (Clippings file placement, OPP-20260714-01's stale
+  review date) rather than an AI judgment call — held for joint review as
+  requested, not resolved unilaterally.
+- **Next:** Chris decides the two flagged items above; MCP Bootcamp Day 4
+  resumes at its own held gate (see `DAILY_2026-07-22.md`).
+
 ## 2026-07-22 (morning) — Session-open health check: PHYSICS timeline gap closed
 
 - **Trigger:** Chris asked for a system load and CASTLE review before starting

@@ -373,6 +373,19 @@ lookup/reference.
   baseline), and an AI-maturity ladder for data storytelling that catches
   Tableau/Power BI's story features as rule-based NLG, not LLM-based, as of
   the source data.
+- [Claude Code — Feature Catalog and Version-History Reference (Toolsbase, 2026)](claude-code-features-catalog-and-version-history-toolsbase.md)
+  — third-party 67-feature catalog plus a full v1.0.x-v2.1.217 changelog;
+  the **expand-then-harden** release pattern (concurrency caps after
+  self-nesting subagents, destructive-git-command guards after auto mode
+  expansion); confirms `EndConversation` and `/ultrareview` as documented
+  vendor features matching this hub's own tool surface.
+- [Codex CLI — Command Surface and Version-History Reference (Toolsbase, 2026)](codex-cli-command-reference-and-version-history-toolsbase.md)
+  — third-party 64-command reference plus a v0.107.0-v0.145.0 changelog;
+  fills the command-invocation gap left by
+  [[codex-app-configuration-and-security]]; same expand-then-harden pattern
+  independently confirmed on the Codex side (multi-agent stabilization,
+  tightening `rm` detection); bidirectional Claude Code ↔ Codex `/import`
+  migration now covers MCP servers, plugins, sessions, and memories.
 
 ## Proposals
 
@@ -431,4 +444,4 @@ lookup/reference.
   `check_at` follow-up.
 
 ---
-*Last updated: July 18, 2026 (AI in Business and Economics — EPEAI proceedings — full-main-text intake; raw now 194 files)*
+*Last updated: July 22, 2026 (Claude Code + Codex CLI toolsbase.dev feature/changelog catalogs — chunk-intake from Clippings\; raw now 197 files)*

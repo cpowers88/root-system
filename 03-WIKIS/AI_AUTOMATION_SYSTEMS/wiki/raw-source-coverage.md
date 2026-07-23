@@ -11,11 +11,14 @@ is retrievable in wiki/report form), **lookup/reference** (accounted for but not
 compiled), **duplicate**, and **misrouted**. A raw file existing on disk or
 having been opened once is not, by itself, evidence of ingestion.
 
-Coverage audit: **2026-07-18** — 194 raw files, approximately 381.6 MiB
-(live recount after `AI in Business and Economics.pdf`, 38.4 MiB, dropped
-2026-07-17 evening and compiled 2026-07-18. Prior recount 2026-07-17: 193
-files / 343.1 MiB, after the Codex-config capture: five Codex app-config docs
-+ one Claude Code video transcript sorted in from `Clippings\`. Earlier
+Coverage audit: **2026-07-22** — 197 raw files (live recount after three
+toolsbase.dev clippings routed in from `Clippings\`: two compiled — Claude
+Code features/changelog, Codex CLI commands/changelog — and one lookup/
+reference site-index page. Prior recount 2026-07-18: 194 raw files,
+approximately 381.6 MiB, after `AI in Business and Economics.pdf`, 38.4 MiB,
+dropped 2026-07-17 evening and compiled 2026-07-18. Prior recount 2026-07-17:
+193 files / 343.1 MiB, after the Codex-config capture: five Codex app-config
+docs + one Claude Code video transcript sorted in from `Clippings\`. Earlier
 recount 2026-07-16 night: 187 files / 342.9 MiB).
 
 ## Large PDF and book sources
@@ -62,6 +65,9 @@ recount 2026-07-16 night: 187 files / 342.9 MiB).
 | `Conversation.md` | Accounted reference, not research: a user/Gemini planning transcript whose durable decisions are superseded by `01-NORTH_STAR/NORTH_STAR.md` and `01-NORTH_STAR/System Contracts/ROOT_CAPABILITY_CONTRACT.md`. |
 | `llm-wiki-karpathy-2026-07.md` | Duplicate capture of the Karpathy LLM-wiki pattern; read once, not double-summarized. |
 | `README.md` | Intake instructions, not a research source. |
+| `Claude Code Features Guide 2026 — 67 Capabilities Explained.md` (toolsbase.dev, captured 2026-07-22) | **Compiled** | [[claude-code-features-catalog-and-version-history-toolsbase]] — third-party 67-feature catalog + full v1.0.x-v2.1.217 changelog. |
+| `OpenAI Codex CLI Cheat Sheet 2026.md` (toolsbase.dev, captured 2026-07-22) | **Compiled** | [[codex-cli-command-reference-and-version-history-toolsbase]] — third-party 64-command reference + full v0.107.0-v0.145.0 changelog. |
+| `AI CLI Command References & Free Online Tools.md` (toolsbase.dev homepage, captured 2026-07-22) | Lookup/reference; not compiled | Site landing/directory page for toolsbase.dev (the same publisher as the two rows above) — a tool-and-links index, not itself a knowledge source. Bookmark only. |
 
 ## Coverage rule going forward
 
