@@ -87,7 +87,7 @@ baseline findings, 0 new. No HIGH flag open.
 | Tracker / SQL | V1 shipped; exact D2L course data is not available yet | Enter verified D2L data when courses populate, likely near August 24, and test the real workflow |
 | Technology | Claude leads the MCP Bootcamp; Days 1–3 closed over the real `observation_one.md` case and Day 4 is continuing | Define the read-only resource/tool contracts against the fixture, with concept and cold attempt before SDK work |
 | Business | Advisor-Builder is the current hypothesis; July 16 profit gate chose the first service proof: Flip Margin Leak replay (OPP-20260716-01, worth testing); closing-exception autopsy is HOLD (OPP-20260716-02) | With Chris's approval, one 60-min completed-flip replay with a warm-network flipper; one Sheet max |
-| Continuity income | Additional income is needed before Spring 2027 enrollment | B2 conversation still requires Chris's approval; Lane A: Chris hand-fills the top-100 classification worksheet, and one private scanner walkthrough has conditional GO (≤90 added min, then park-or-proceed review) |
+| Continuity income | Additional income is needed before Spring 2027 enrollment | **2026-07-22: Chris approved the B2 conversation** — hold one change-order replay with the contractor friend, ask whether he'd pay for remote estimating/change-order support, record the answer only (no offer/pricing/outreach); Lane A: Chris hand-fills the top-100 classification worksheet, and one private scanner walkthrough has conditional GO (≤90 added min, then park-or-proceed review) |
 | `.ROOT` | Codex leads the Learning/System Bootcamp while Claude leads MCP; Python Rep 2 is recorded with no false mastery claim | Resume at the failed `break` trace, continue the scheduled evidence reps, then integrate both lanes at the July 26 review |
 
 ## This Week
@@ -96,6 +96,7 @@ baseline findings, 0 new. No HIGH flag open.
 - [ ] Python Stage 3: password-controlled `while`, divisible-by-7 counter, and guessing game completed July 22; failed cold `break` trace + remaining mastery checklist still open
 - [ ] Record one private Revenue Lab proof during work already happening (conditional GO, ≤90 added min); review it before any public action
 - [ ] Fill the Lane A top-100 human-classification worksheet (Y/N/? in Chris's own words)
+- [ ] Hold the B2 change-order replay conversation with the contractor friend (OPP-20260714-01, approved 2026-07-22) — record whether he'd pay for remote estimating/change-order support; one conversation only
 - [ ] One live workflow observation/VSM only with the needed approval and access — first candidate is the flip-margin replay (OPP-20260716-01)
 - [ ] Daily SQL reps against the scanner SQLite DB (real data now); switch vehicle to the tracker when D2L data actually populates
 - [x] **MCP Bootcamp — Tue Jul 21 (was Mon 7/20), Data Engineering:** structured the six observation rows into `friction_categories`/`businesses`; fixture and explain-back complete, with the live-pairing deviation preserved in the learning notes

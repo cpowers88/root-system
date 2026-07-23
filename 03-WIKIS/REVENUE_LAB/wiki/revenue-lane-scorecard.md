@@ -85,6 +85,12 @@ channel launch, account creation, or content production.
 authorize an offer, pricing, invoice, engagement, or outreach sequence. Chris
 must explicitly approve the external conversation/message before it occurs.
 
+**2026-07-22 — Chris approved the conversation.** The one-conversation proof
+(replay one completed change order with the contractor friend, ask whether he'd
+pay for remote estimating/change-order support, record the answer) is cleared to
+happen. Still not authorized by this approval: any offer, pricing, invoice,
+engagement, or outreach beyond that single conversation.
+
 ### A — YouTube data-scan research phase
 
 | Gate | Result | Reason |
