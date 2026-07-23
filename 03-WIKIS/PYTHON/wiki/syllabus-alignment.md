@@ -13,16 +13,24 @@ syllabi and the staged Python path. It owns course alignment and the semester
 operating pathway. [[current-position]] remains the only owner of actual mastery and
 the exact next drill; [[learning-path]] remains the durable Stage 0–10 curriculum.
 
-Active sources:
+Active sources (canonical, immutable — this hub's `raw/` folder per `CLAUDE.md` §
+Folder Structure):
 
-- `02-LIBRARY\00-SCHOOL\01-CSE-Python\CSE 1321 BF (81262) Fall 2026 Syllabus.md`
+- `03-WIKIS\PYTHON\raw\syllabi\CSE 1321 BF (81262) Fall 2026 Syllabus.md`
   — lecture, Section BF, CRN 81262, instructor Eun Sik Kim.
-- `02-LIBRARY\00-SCHOOL\01-CSE-Python\CSE 1321L 04 (86703) Fall 2026 Syllabus.md`
+- `03-WIKIS\PYTHON\raw\syllabi\CSE 1321L 04 (86703) Fall 2026 Syllabus.md`
   — lab, Section 04, CRN 86703, instructor Muhammad Usman.
 
-Both are direct Simple Syllabus captures from July 21, 2026. The derivative files
-under `raw\SYLLABI\` remain immutable quick extracts; they do not replace these
-full sources. (sources: both active syllabus files, frontmatter and course sections)
+Both are direct Simple Syllabus captures from July 21, 2026, and both are
+byte-identical to a working duplicate Chris also keeps at
+`02-LIBRARY\00-SCHOOL\01-CSE-Python\` for his own coursework use — that copy is
+Chris's personal workspace, not wiki-governed, and is not the citation target.
+`raw\syllabi\CSE_lecture_syllabus.md` and `raw\syllabi\CSE_lab_syllabus.md` are a
+separate, older pair of schedule-only quick extracts (topic order only, no policy/
+grading/AI-restriction content) predating the July 21 full captures; they still
+exist for that narrower purpose but are superseded as the policy/grading source by
+the two full syllabus files above. (sources: both active syllabus files, frontmatter
+and course sections)
 
 ## The Outcome Chris Actually Wants
 

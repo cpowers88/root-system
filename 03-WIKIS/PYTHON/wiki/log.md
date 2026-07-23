@@ -1273,3 +1273,48 @@ and the remaining mastery checklist are still open.
 Run saved `MCP_Bootcamp/Code/for.py`, reconcile its output with the reported
 `30`, trace its condition and `break` placement, and correct it before continuing
 the Stage 3 mastery gate.
+
+## 2026-07-23 — Syllabus-citation governance drift found and fixed (Claude Code)
+
+### Work completed
+- Chris asked for a second set of eyes on `CLAUDE.md` and the two official Fall
+  2026 syllabus captures, flagging possible dead/stale pointers.
+- Found: `syllabus-alignment.md` and `source-map.md` cited the two syllabi from
+  Chris's personal, ungoverned `02-LIBRARY\00-SCHOOL\01-CSE-Python\` folder as
+  the "active source," while describing this hub's own `raw\syllabi\` — the
+  folder `CLAUDE.md` itself names as the immutable source location for exactly
+  this material — as holding only the old topic-only quick extracts
+  (`CSE_lecture_syllabus.md`/`CSE_lab_syllabus.md`). That description went
+  stale on July 21: identical full copies of both official syllabi were also
+  placed into `raw\syllabi\` the same day. Verified both copies are
+  byte-identical (`diff`, zero output) before editing.
+- Not a broken link (the cited file exists either way) but a real architecture
+  risk: citing an ungoverned personal folder as canonical ties this hub's
+  governance to a location Chris could reorganize without the wiki knowing,
+  instead of the `raw/` folder this wiki's own rules protect as immutable.
+
+### Pages created/updated
+- `CLAUDE.md` — stale "verified PDF evidence" wording corrected to "verified
+  syllabus evidence" (the live citation format is Markdown, not PDF; the PDF
+  was only the July 15 verification step).
+- `syllabus-alignment.md` — "Active sources" re-pointed to `raw\syllabi\` as
+  canonical; the `02-LIBRARY` copy relabeled as Chris's personal working
+  duplicate, not the citation target; corrected the stale "quick extracts
+  only" claim about `raw\syllabi\`.
+- `source-map.md` — same path correction in the two syllabus rows.
+
+### Vocabulary added
+None (system session).
+
+### Progress evidence
+n/a — governance session. Content itself (CRN/section/instructor/course
+dates) was already correct in both places; only the citation path was wrong.
+Study stage remains Stage 3, unchanged by this pass.
+
+### Parked material
+None new.
+
+### Next action
+None urgent. Content correctness confirmed; no further syllabus re-verification
+needed until D2L populates real course data (expected August 24 or later, per
+the July 21 entry above).

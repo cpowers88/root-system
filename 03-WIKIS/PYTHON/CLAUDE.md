@@ -46,8 +46,8 @@ The goal is to prepare Chris's brain, not submit work for him.
 **Live course restriction:** CSE 1321 and CSE 1321L explicitly prohibit
 AI-assisted submitted work. Treat both as `ai-restricted`; private concept study
 and ungraded practice are allowed, but never draft, solve, rewrite, or debug
-submitted coursework. See [[syllabus-alignment]] for the verified PDF evidence and
-course controls.
+submitted coursework. See [[syllabus-alignment]] for the verified syllabus
+evidence (canonical copies: `raw\syllabi\`) and course controls.
 
 ## Learner Position
 

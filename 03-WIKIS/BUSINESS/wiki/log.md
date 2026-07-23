@@ -6,6 +6,62 @@ timeline: log
 
 # Wiki Log
 
+## 2026-07-23 — Raw source map built (Codex plan, Claude Chat-scoped, Claude Code-executed)
+
+Executed `ExecutionBrief_Buisness-WIKI.md` (Claude Chat-authored, reduced from Codex's
+original "Business Learning and Evidence Engine" proposal): a single source-accounting
+page for the 69-file `raw/` corpus, explicitly not a curriculum and not a second ranking
+model (those guardrails held — `most-profitable-pathways.md` and `market-map.md` remain
+the only ranking authorities).
+
+### What Changed
+- Created `raw-source-map.md`: a classification table (Type / Category / Authority /
+  Pub date / Industries / Company size / Concepts / Evidence value / Implementation
+  value / Wiki destination / Processing / Reopen trigger) for all 69 sources, a blank
+  CSV-compatible evidence-row schema for future research capture, and a curated reading
+  sequence (question-per-source, explicitly framed as a starting point, not a
+  curriculum).
+- Added one link row to `index.md` §5 (Capability Building) pointing to the new page —
+  the only edit to an existing file, additive only.
+
+### What Was Added
+- `raw-source-map.md` (new page, `wiki/ai-integration-company/`).
+
+### What Was Updated
+- `wiki/ai-integration-company/index.md` (1 row added under Capability Building).
+
+### Correction made mid-build
+- The table was first drafted from a fresh read of each source's title/opening pages,
+  without cross-referencing this log. Cross-checked against the July 8/9/12/16 intake
+  entries below before finalizing and corrected several rows that fresh reading got
+  wrong relative to what's already been decided: `state-of-ai-2026.pdf` is a confirmed
+  duplicate of the Deloitte "State of AI in the Enterprise" survey already cited in
+  `market-map.md` (not an unconfirmed-publisher source needing verification);
+  `NewCodeofEstimating.pdf` is UK commercial/PFI tendering content for large
+  contractors, wrong market segment for the current US residential/light-commercial
+  hypothesis (not a usable estimating reference); `HowAIcanbenefitabusinessatbanksandinsurace.pdf`
+  is ~2020-vintage pre-GenAI vendor material for enterprise carriers, wrong vintage and
+  audience. Also corrected several `Processing` values from forward-looking
+  recommendations ("read-selectively") to reflect sources already read-fully and
+  absorbed into named pages in the July 16 batch (Mom Test, Good Strategy/Bad Strategy,
+  Prediction Machines, The AI Dossier, All-In on AI, Inspired, Transformed, Psychology
+  of Human Misjudgement), so the map doesn't send anyone back to re-read what's done.
+
+### What Was Parked
+None newly parked — the map documents prior park/exclude decisions (Seneca, book list,
+Mastery, Undercover Economist, AI and ML Red/pptx, howtobuildyourcareerinAI,
+HowAIcanbenefit..., NewCodeofEstimating, 2606.12428v1) rather than making new ones.
+
+### Missing Data Needed From Chris
+None for this build. Two sources remain flagged from prior sessions as JS-blocked
+scrapes with only frontmatter descriptions usable (`Census Bureau's 2023 Annual
+Business Survey...md`, `Large Firms With at Least 20 Employees Biggest AI Users.md`) —
+carried into the new map's Reopen triggers, not resolved here.
+
+### Recommended Next Action
+None urgent. The map is a lookup tool, not a task — next raw-file drop gets a row here
+per the Raw Intake Protocol before any extraction happens.
+
 ## 2026-07-13 — Template-library navigation repair
 
 ### What Changed

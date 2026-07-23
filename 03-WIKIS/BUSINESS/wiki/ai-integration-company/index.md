@@ -99,6 +99,7 @@ Every page separates **Beginner** actions (you, solo, learning), **Intermediate*
 | [[tool-stack|Tool Stack]] | Software and platforms to standardize on |
 | [[claude-code-leverage|Claude Code Leverage]] | Agentic delivery + the new offers it unlocks (2026 market research) |
 | [[product-discovery-and-operating-model|Product Discovery and Operating Model]] | How services-proven patterns become products without speculative building |
+| [[raw-source-map|Raw Source Map]] | Classification/source-accounting for the `raw/` corpus — what each source proves and where it feeds |
 
 ## 6. Roadmaps
 

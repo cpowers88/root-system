@@ -6,20 +6,23 @@ tags: [learning]
 generated: 2026-07-23
 ---
 
-# Evening Reading — July 23, 2026
+# Evening Reading ΓÇö July 23, 2026
 
 ## School
 
-**READ —** *Think Python* (`03-WIKIS/PYTHON/raw/books/thinkpython.pdf`), Ch. 7 "Iteration," from Reassignment through the Algorithms section.
+**READ ΓÇö** *Think Python* (`03-WIKIS/PYTHON/raw/books/thinkpython.pdf`), Ch. 7 "Iteration," from "Reassignment" through "Algorithms."
 
-**FOCUS —** This is the exact Stage 3 spine chapter behind tonight's active gap — **watch how each algorithm example updates one piece of loop state at a time before it checks the condition**, since that ordering habit is what breaks down under time pressure.
+**FOCUS ΓÇö** This is the Stage 3 spine chapter behind tonight's active gap ΓÇö **the "Algorithms" section's multi-step examples model exactly the broader loop sequencing Chris still needs under pressure**, past basic `break` retrieval.
 
-**STOP —** Stop at Chapter 8 (Strings); do not read past "Algorithms" tonight.
+**STOP ΓÇö** Stop at the start of Chapter 8 ("Strings"); do not read past "Algorithms" tonight.
 
 ## Technology
 
-**READ —** `03-WIKIS/AI_AUTOMATION_SYSTEMS/wiki/mcp-client-primitives-and-build-notes.md`, the "Why this matters for this wiki / `.ROOT`" section (its three closing bullets).
+**READ ΓÇö** `03-WIKIS/AI_AUTOMATION_SYSTEMS/wiki/mcp-landscape-architecture-and-patterns.md`, the "The six primitives (plus one experimental)" section.
 
-**FOCUS —** Direct prep for Day 5's SDK wiring and Day 6's security handoff — **roots are advisory, not enforced, so a server's scoping claim is a courtesy, never a control**.
+**FOCUS ΓÇö** Directly closes Day 5's held gate ΓÇö **resources are passive, application-controlled data; tools are model-invoked actions, which is why the count is a tool, not a resource**.
 
-**STOP —** Stop at the closing "Processed July 8" line; the page ends there.
+**STOP ΓÇö** Stop at "Cross-cutting and experimental: Tasks"; do not continue into client scaling patterns tonight.
+```
+
+This is ready to save over `EVENING_READING.md`; I made no edits since read-only inspection was required ΓÇö let me know if you'd like me to write it.
