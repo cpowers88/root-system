@@ -6,6 +6,32 @@ tags: []
 
 # Castle Log — Append Only
 
+## 2026-07-23 (afternoon, later) — Brief CASTLE audit in passing
+
+- **Trigger:** Chris asked for a quick look-back after the session load, ahead
+  of moving to `Session_Logs\` folder cleanup.
+- **Root health:** reran `root_health.py --verbose` — still **BLOCKER**, but
+  the jump (2 → 10 new findings) traced entirely to today's Day 5 `.venv`
+  creation: 8 pip-installed third-party LICENSE/NOTICE files with no
+  frontmatter, none of them Chris-authored content. Logged as new flag #82
+  (LOW) — same false-positive class as closed flag #81, fix is adding `.venv`
+  to `frontmatter_audit.py`'s `EXCLUDED` set. The one other new/unresolved
+  finding is the same pre-existing `Clippings\Microsoft Privacy Statement.md`
+  gap already tracked, not new.
+- **Opportunity queue:** no rows due for review today; `OPP-20260716-01`
+  already parked this morning, `OPP-20260714-01` next reviews 2026-07-26.
+- **SYSTEM_FLAGS.md:** no HIGH open; #82 added LOW this pass.
+- **Result:** nothing else changed since this morning's full pass. No fix
+  applied — logged only, per the AI-initiated evolution path (evidence →
+  proposal → Chris approval before implementing).
+- **Next:** Chris decides whether to fix flag #82 now or defer.
+- **Follow-up, same afternoon — `Session_Logs\` root cleanup done:** moved 7
+  completed reports into `Report Archive\` (2 had stale/missing status fields,
+  corrected first — see `DAILY_2026-07-23.md` for the full list). Root now
+  holds only DAILYs, templates, and the 2 genuinely active reports
+  (`ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`,
+  `SESSION_REPORT_2026-07-21_CODEX_ADAPTIVE_TEACHING_METHOD.md`).
+
 ## 2026-07-23 (afternoon) — OPP-20260716-01 parked
 
 - **Trigger:** the flip-margin-leak replay's review date landed today; Chris

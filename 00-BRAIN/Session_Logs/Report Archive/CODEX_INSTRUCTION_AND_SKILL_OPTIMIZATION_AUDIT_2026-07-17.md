@@ -3,8 +3,13 @@ type: report
 timeline: now
 tags: [governance, codex, configuration, audit, skills]
 created: 2026-07-17
-status: draft-for-review
+status: complete
 ---
+
+**Status note (2026-07-23):** the two items this report left open — the
+mechanical raw/journal guard and the Windows sandbox `unelevated`→`elevated`
+move — were both closed 2026-07-22 via `SYSTEM_FLAGS.md` closed flag #79.
+Flipped from `draft-for-review` to `complete`; no further review pending.
 
 # Codex Instruction and Skill Optimization Audit — July 17, 2026
 

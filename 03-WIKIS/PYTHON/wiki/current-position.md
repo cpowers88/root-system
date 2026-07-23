@@ -28,16 +28,22 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
 - **Current study stage: Stage 3 — Loops.** `wiki/stages/stage-03-*.md`.
 - **Exact learner frontier:** Stage 3 loop tracing Part A is complete. On July 22,
   Chris independently constructed and explained the fresh password-controlled
-  `while` transfer. He then corrected a divisible-by-7 counter after one focused
-  counter cue and built the limited-attempt guessing-game through staged live
-  guidance; its fifth-guess win and five-miss loss boundaries both passed. The
-  final cold `break` transfer did not pass: Chris reported output `30` where the
-  first match should be `12`. Post-pause file inventory found the saved attempt at
-  `02-LIBRARY/.PROJECTS/MCP_Bootcamp/Code/for.py`; its condition does not test
-  divisibility by both numbers, and `break` is outside the `if`, so the saved file
-  does not explain the reported `30`. Resume by running and tracing that exact file,
-  reconcile the output, and correct it cold before the remaining mastery checklist.
-  Do not mark Stage 3 mastered.
+  `while` transfer, corrected a divisible-by-7 counter after one focused counter
+  cue, and built the limited-attempt guessing-game through staged live guidance;
+  its fifth-guess win and five-miss loss boundaries both passed. On July 23, he
+  successfully ran and traced the saved `for.py` attempt, explained the correct
+  first match and `break` termination, completed a clean nearby `for` transfer,
+  and independently built a multi-part loop that counted values matching an
+  `or` condition. The remaining frontier is broader cold construction and
+  sequencing under pressure. Do not mark Stage 3 mastered until another fresh
+  independent build confirms the transfer.
+- **Code evidence in the MCP Bootcamp workbench:** `Code/for.py` records the
+  recovered first-match trace; `Code/for2.py` records the nearby divisible-by-7
+  transfer; and `Code/PT.py` records today's independent multi-part `or`
+  condition plus count (`10`). Supporting reps are `count.py`, `practice2.py`,
+  `practice3.py`, `practice4.py`, `password.py`, and `secret#.py`. The MCP
+  infrastructure files (`mcp_contracts.py` and `server.py`) belong to Claude's
+  separate integration lane and do not count as Python mastery proof.
 - **Stages 3-10 are generated but not yet mastered.** Their packets exist and are ready, but Chris has not worked through or demonstrated mastery of any of them yet. Do not treat their existence as progress.
 
 **This page must never be read as "Chris should start at Stage 10."** Stages 0-2 are complete. Resume at the exact Stage 3 frontier above.
@@ -93,11 +99,12 @@ for this hub and cannot count as learner proof.
 
 ## Current Reading Queue
 
-- **Read now:** no broad reread. Open the saved failed `break` attempt first and trace
-  its loop values, condition, print placement, and exit behavior.
-- **If the cold correction fails:** read the local `break` section in the Stage 3
-  material only, then retry with a fresh prompt. Reopen the counter or `while`
-  concepts only if a new observed gap requires them.
+- **Read now:** no broad reread. Run one fresh Stage 3 loop/accumulator build with
+  no hints, then explain the variable roles, condition, output placement, and
+  exit sequence.
+- **If the fresh build fails:** isolate the specific construction gap and read
+  only the matching Stage 3 section before retrying. Do not reopen basic `break`
+  teaching unless a new result shows a break-specific error.
 - **Read after Stage 3 closes:** [[stages/stage-04-functions-parameters-return]],
   then [[concepts/defining-and-calling-functions]],
   [[concepts/parameters-and-arguments]], and [[concepts/return-values]]. The matching

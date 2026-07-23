@@ -158,6 +158,7 @@ that's settled. Detail: `00-BRAIN\Session_Logs\System Update Log\2026-07-19_ROOT
 - Learner truth: `03-WIKIS\PHYSICS\wiki\current-position.md` and
   `03-WIKIS\PYTHON\wiki\current-position.md`
 - Current business hypothesis: `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`
+- This week's day-by-day execution checklist (Chris's own, marked up by hand): `01-NORTH_STAR\Goals & Milestones\WEEKLY_PLAN_JULY23-26.md`
 - Revenue evidence: `03-WIKIS\REVENUE_LAB\wiki\revenue-lane-scorecard.md`
 - Sequence/proof status: `00-BRAIN\CASTLE\wiki\current-position.md`
 - MCP Bootcamp live plan: `00-BRAIN\Session_Logs\ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`

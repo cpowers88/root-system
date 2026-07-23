@@ -1,0 +1,130 @@
+---
+type: plan
+timeline: now
+tags: [planning, mcp-bootcamp, school]
+created: 2026-07-23
+---
+
+# WEEKLY PLAN — July 23 (Thu) to July 26 (Sun), 2026
+### First live example of this new document — built mid-week from `NOW.md`'s live state since no plan existed yet. Adjust it freely; that's the point.
+
+This is not the Weekly Review (`01-NORTH_STAR\Weekly Reviews\WEEKLY_JULY16-19.md`
+etc.) — that stays retrospective and AI-written. This is the plain execution
+checklist: what happens each day to close this week's evidence, so it's
+planned once instead of run reactively.
+
+## Main Weekly Goal
+
+Close both Bootcamp evidence windows (Claude's MCP lane through Day 8, Codex's
+Learning/System lane through the capstone) by Friday night, then run the
+July 26 Joint Review to decide keep/modify/revert on both — without losing
+the approved B2 change-order conversation or letting Lane A's worksheet stall.
+
+## Fixed / Non-Negotiable This Week
+
+- **Sunday, July 26** — Joint Review 1. Hard date, not movable.
+- No school deadline this week (D2L stays unpopulated until August 24).
+
+## Python Boot Camp / Learning Lane
+
+**Working arrangement:** Codex maintains the Python tracking and proof design;
+Chris supplies the work and explain-back; Claude may challenge or connect the
+result to the MCP lane. Chris remains the final judge of progress.
+
+**Current position:** Stage 3 — loops. Stages 0–2 are satisfied. Today's work
+closed the saved `for.py` trace, `break` recovery, a clean nearby transfer, and
+a multi-part loop construction. The remaining proof is broader independent
+construction under cold conditions; do not mark Stage 3 mastered from today's
+single cluster of successful reps alone.
+
+**Evidence to capture each week:** exact file or drill, independent attempt,
+observed result, explain-back result, mistake or recovery, and the next unlocked
+action. This is the data used at Sunday's review; it is not a second curriculum
+or a replacement for `03-WIKIS\PYTHON\wiki\current-position.md`.
+
+### Python code evidence currently in the Bootcamp workbench
+
+| File | Evidence recorded | Status |
+|---|---|---|
+| `Code/for.py` | First-match loop: divisibility by both 4 and 6, print, then `break`; traced and explained successfully today | Complete recovery |
+| `Code/for2.py` | Nearby cold transfer: first multiple of 7 with `for`, condition, print, and `break` | Complete transfer |
+| `Code/PT.py` | Independent multi-part loop: count and print values divisible by 4 **or** 6; final count `10` | Complete fresh build |
+| `Code/count.py`, `practice2.py`, `practice3.py`, `practice4.py` | Counter, accumulator, and `while` practice reps | Supporting evidence |
+| `Code/password.py`, `secret#.py` | Password-controlled loop and limited-attempt guessing loop | Earlier Stage 3 evidence |
+| `Code/mcp_contracts.py`, `Code/server.py` | MCP data contracts and SDK/server wiring | Claude's MCP lane; not Python mastery proof |
+
+The authoritative learner summary remains `03-WIKIS\PYTHON\wiki\current-position.md`;
+this table is the weekly evidence index into the actual workbench.
+
+## Day-by-Day
+
+### Thursday, July 23 (today — rest of day)
+
+- [x] MCP Bootcamp Day 4 (Automation & Operations) — explain-back gate closed, layer written. *(done, morning)*
+- [x] CASTLE health pass — found/fixed a real script bug, flag #81 closed. *(done, morning)*
+- [x] Python Stage 3 — saved `for.py` trace, `break` recovery, clean loop transfer, and multi-part construction landed. *(done, Codex lane; ahead of plan)*
+- [x] KSU software-offer intake routed to one Library page. *(done)*
+- [x] Evening Reading contract rewritten to two blocks. *(done)*
+- [ ] MCP Bootcamp Day 5 (AI Infrastructure) — resume at Inspector verification; finish the resource registration, second tool, and the two deferred pytest edge cases (empty keyword, literal `%`/`_`). *(~1–1.5 hrs remaining)*
+- [ ] Daily workbench rep: push/PR practice. *(~20–30 min)*
+
+### Friday, July 24
+
+- [x] **Fresh Python mini-build** — `PT.py` independently counted and printed values matching a multi-part `or` condition, with the correct final count of `10`; output and explain-back were verified today. *(done ahead of Friday)*
+- [ ] **Stage 3 benchmark A — trace** — receive a fresh short loop, predict the output and final state before running it, then explain the sequence using `state → condition → body → update → exit`. No hints. *(~20 min)*
+- [ ] **Stage 3 benchmark B — construct** — build a new counter/accumulator loop from a plain-English problem, using pseudocode first and no copied pattern. Record the first attempt, runtime result, and explain-back. *(~30–40 min)*
+- [ ] **Stage 3 benchmark C — debug** — diagnose one deliberately flawed loop from the error/output evidence, identify the exact failure, and make the smallest correction. Record whether the failure was logic, state/update, output placement, or exit control. *(~25–35 min)*
+- [ ] MCP Bootcamp Day 6 (Cybersecurity & Governance) — one host connection, threat model, access-control matrix, operator/security handoff. *(~2–3 hrs — inside the ≤3 hr/day MCP budget)*
+- [ ] Daily SQL rep against the scanner SQLite DB. *(~20–30 min)*
+- [ ] Daily workbench rep: GitHub Actions CI. *(~20–30 min)*
+- [ ] Wiki shared-layer real-use `check_at` verdict. *(~15 min)*
+- [ ] Lane A: fill more of the top-100 human-classification worksheet, if time allows. *(~45–60 min)*
+
+### Saturday, July 25
+
+- [ ] **Python transfer build** — solve one practical workflow problem with a loop, using the full path `goal → inputs → output → pseudocode → code → test → explain-back`. Use a context different from Friday's benchmark and no hints. *(~45–60 min)*
+- [ ] **Python evidence synthesis** — complete the table below before cross-reading Claude's lane; mark each benchmark `pass`, `partial`, or `fail`, and name the next bottleneck from observed evidence only. *(~20–30 min)*
+- [ ] MCP Bootcamp Day 7 (Product & Value) — MVT framing, ROI vs. S-01/S-02, pilot stop-criteria, 30/60/90 roadmap, cold explain-back rehearsal; complete the workflow-stack evidence template. *(~2–3 hrs)*
+- [ ] MCP Bootcamp Day 8 (Integration) — assemble the master blueprint, simulated owner presentation, acceptance test + harvest write-up. *(~2–3 hrs — exact bar in the review file)*
+- [ ] Daily workbench rep: tags/README. *(~20–30 min)*
+- [ ] Hold the B2 change-order replay conversation with the contractor friend, if his schedule allows — record his answer only, no offer/pricing/outreach. *(~30–60 min, depends on him)*
+
+### Sunday, July 26 — Joint Review day
+
+- [ ] Close both evidence windows; write independent provisional verdicts before cross-reading each other's. *(~30 min)*
+- [ ] Joint Review 1: integrate both Bootcamp lanes, decide keep/modify/revert, select the next Learning/System week. *(~60–90 min)*
+- [ ] Write this week's Weekly Review; close this plan (`status: complete`) and note what actually happened vs. what was planned. *(~30–45 min)*
+
+## Notes / Adjustments
+
+*(Chris, Claude, and Codex fill this in as the week runs. Keep observations,
+not just completion marks: what was attempted, what happened, what was learned,
+and what should change next.)*
+
+### Sunday setup for the next week
+
+- Python current position / exact frontier: ______________________________
+- One proof target for the week: _________________________________________
+- Evidence location(s): __________________________________________________
+- What would count as “clear,” “partial,” or “blocked”: ____________________
+- Next action selected by the three-person review: _________________________
+
+### Stage 3 evidence dataset
+
+| Date / task | Mode | Independent? | Time | Predicted before run | Actual result | Explain-back | Error / cue / recovery | Verdict |
+|---|---|---:|---:|---|---|---|---|---|
+| Jul 23 — `for.py` | Trace / recovery | Yes, after prior miss |  | First match `12` | Correct | Correct | Prior condition/exit integration issue recovered | Pass with recovery |
+| Jul 23 — `for2.py` | Construct / transfer | Yes |  | First multiple `7` | Correct | Correct | One wording refinement only | Pass |
+| Jul 23 — `PT.py` | Construct / multi-part | Yes |  | Count `10` | Correct | Correct | None recorded | Pass |
+| Jul 24 — Benchmark A | Trace |  |  |  |  |  |  |  |
+| Jul 24 — Benchmark B | Construct |  |  |  |  |  |  |  |
+| Jul 24 — Benchmark C | Debug |  |  |  |  |  |  |  |
+| Jul 25 — transfer build | Applied construction |  |  |  |  |  |  |  |
+
+**Dataset rule:** record the first independent attempt before assistance, then
+record any correction separately. A successful recovery is evidence of learning
+but is not identical to a first-pass success. Do not convert this table into a
+grade; use it to choose the next teaching move.
+
+---
+*Created: 2026-07-23 · Source: built directly from `NOW.md`'s live This Week/Upcoming state (first plan of its kind, no prior Weekly Review to pull from) · Next review: Sunday, July 26, 2026.*

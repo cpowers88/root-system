@@ -71,6 +71,7 @@ home; neither is a storage destination.
 | Session reports | `SESSION_REPORT_DATES_WHO.md` | `SESSION_REPORT_JUNE8-9_CLAUDE.md` |
 | System-update packets | `Session_Logs\System Update Log\YYYY-MM-DD_TOPIC\` with required `SESSION_INDEX.md` | `2026-07-15_ROOT_REMEDIATION\` |
 | Weekly reviews | `WEEKLY_STARTDAY-ENDDAY.md` | `WEEKLY_JUNE2-8.md` |
+| Weekly plans (forward, day-by-day, Chris-marked-up; lives in `Goals & Milestones\`, distinct from the retrospective Weekly Review) | `WEEKLY_PLAN_STARTDAY-ENDDAY.md` | `WEEKLY_PLAN_JULY23-26.md` |
 | Monthly reviews | `MONTHLY_MONTH_YEAR.md` | `MONTHLY_JUNE_2026.md` |
 | Quarterly audits | `QUARTERLY_Q#_YEAR.md` | `QUARTERLY_Q3_2026.md` |
 | Field notes | `FIELDNOTES_DATE_TOPIC.md` | `FIELDNOTES_JUNE5_CONSTRUCTION.md` |
@@ -110,9 +111,10 @@ One copy, zero drift.
   approved scripts. NOT here: course
   notes, project files, personal writing.
 - **01-NORTH_STAR\** — durable direction in NORTH_STAR.md; progressive-loading
-  router in README.md; SKILL_GAP_ANALYSIS.md; `Weekly Reviews\`; and
-  `Goals & Milestones\` for CURRENT_STRATEGY.md, time-bounded prep plans, and
-  milestone evidence; `System Contracts\` for North-Star-derived OS capability and
+  router in README.md; SKILL_GAP_ANALYSIS.md; `Weekly Reviews\` (retrospective,
+  AI-written); and `Goals & Milestones\` for CURRENT_STRATEGY.md, time-bounded
+  prep plans, milestone evidence, and `WEEKLY_PLAN_*.md` (forward, day-by-day,
+  Chris-marked-up); `System Contracts\` for North-Star-derived OS capability and
   return contracts. NOT here: generic AI governance, domain research, live projects,
   or session logs.
 - **...projectSuccess\** — exactly two Watchtower files: operating contract in
