@@ -8,8 +8,8 @@ $claudePath = (Get-Command claude.exe -ErrorAction Stop).Source
 
 $prompt = @"
 Follow the live instruction file at $instructionPath using read-only inspection of $rootPath.
-Return only the complete Markdown for $outputPath, including valid frontmatter and the three required brief lines.
-Each READ, WHY, and STOP line must be one sentence of no more than 35 words. Do not edit files, run commands, use network tools, or add commentary.
+Return only the complete Markdown for $outputPath, including valid frontmatter and the School and Technology blocks it requires.
+Each READ, FOCUS, and STOP line (one set per block, six lines total) must be one sentence of no more than 35 words. Do not edit files, run commands, use network tools, or add commentary.
 "@
 
 Push-Location $rootPath
@@ -25,7 +25,7 @@ try {
         $content = $content.Substring($frontmatterStart.Index).Trim()
     }
     $content = [regex]::Replace($content, '(?s)\r?\n```\s*$', '').Trim() + "`n"
-    if (-not $content.StartsWith("---") -or $content -notmatch "\*\*READ" -or $content -notmatch "\*\*WHY" -or $content -notmatch "\*\*STOP") {
+    if (-not $content.StartsWith("---") -or $content -notmatch "\*\*READ" -or $content -notmatch "\*\*FOCUS" -or $content -notmatch "\*\*STOP") {
         $preview = $content.Substring(0, [Math]::Min(500, $content.Length))
         throw "Generated output did not match the required EVENING_READING.md contract. Preview: $preview"
     }

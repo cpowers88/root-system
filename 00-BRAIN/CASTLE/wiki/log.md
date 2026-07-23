@@ -6,6 +6,72 @@ tags: []
 
 # Castle Log — Append Only
 
+## 2026-07-23 (afternoon) — OPP-20260716-01 parked
+
+- **Trigger:** the flip-margin-leak replay's review date landed today; Chris
+  said he doesn't actually have a flipper contact to speak with off the top
+  of his head and leaned toward parking it "unless it's useful elsewhere."
+- **Decision:** parked, not rejected — the profit-gate PASS verdict (Phase 2
+  service proof) is unchanged; this is a lack-of-access parking, not a
+  lack-of-merit one.
+- **Useful-elsewhere check:** yes. The underlying method — reconstruct one
+  completed job's original-vs-actual costs into a one-page variance finding —
+  isn't specific to real-estate flippers. It's already alive in construction
+  via `OPP-20260714-01` (the approved B2 change-order/estimating
+  conversation), which tests the same evidence-gathering pattern in a
+  vertical Chris actually has access to. No new opportunity needed to
+  capture this; cross-referenced directly on the parked row.
+- **Files:** `CASTLE\wiki\opportunity-queue.md` (status → parked, review
+  date → 2026-08-01, cross-reference added), `NOW.md` (Business/Continuity
+  income rows and This Week checklist updated to match).
+- **Next:** per the Review Rules, parked items only resurface at monthly
+  review or on new evidence (e.g., an actual flipper contact appearing).
+
+## 2026-07-23 — Daily CASTLE review (Operator hat)
+
+- **Trigger:** Chris asked for a full system go-over — flags, updates, edits,
+  outside-resource needs, anything else — after closing MCP Bootcamp Day 4.
+- **Root health:** ran `root_health.py --verbose`, found **BLOCKER** (4 new
+  frontmatter findings). Traced and closed two as a false-positive bug in
+  `frontmatter_audit.py` itself (BOM-prefixed files misread as missing
+  frontmatter entirely) — fixed same session, see closed flag #81. Two
+  remain genuine: `Clippings\Microsoft Privacy Statement.md` (a same-day web
+  clip, missing `type`/`timeline`) — left in place and flagged per the
+  standing Clippings rule rather than guessed at, since its wiki home isn't
+  obvious. Everything else passed clean: boot/governance, wiki nav (0
+  blockers/0 review, 749 expected), shared-skill mirrors, whitespace, and
+  Markdown text integrity (1,364 files, 0 findings).
+- **Opportunity Queue — time-sensitive:** `OPP-20260716-01` (flip-margin
+  replay with a warm-network flipper) **reviews today, 2026-07-23** —
+  `NOW.md` already records this outranks Bootcamp Day 5 if it fires. Chris's
+  call whether to hold it today. `OPP-20260714-01` (B2 change-order
+  conversation, approved July 22) now carries a healthy 2026-07-26 review
+  date, no longer stale. `OPP-20260714-02` (scanner top-100 classification)
+  reviews 2026-07-28, `OPP-20260716-02` (closing-exception autopsy, HOLD)
+  reviews 2026-07-30 — neither due yet.
+- **Radar:** both rows current — MCP row's next review is the July 25
+  Bootcamp acceptance test; the AGC contractor-AI-adoption row isn't due
+  until the first construction observation or Oct 1. No action.
+- **SYSTEM_FLAGS.md:** no HIGH flags open. #81 raised and closed this
+  session. #80 gained a related finding (BOM write-side root cause still
+  open, now explicitly separated from the read-side fix). #57/#16/#68/#69
+  unchanged, all their existing priority, none blocking.
+- **MCP Bootcamp:** Day 4 (Automation & Operations) explain-back gate closed
+  today after three cold-attempt cycles on parameterized queries vs. SQL
+  injection; `MASTER_BLUEPRINT.md` now carries Day 4's full layer. Day 5 (AI
+  Infrastructure — MCP SDK wiring) is next, not yet started.
+- **Codex lane:** posted a same-day self-correction — an earlier
+  miscalibration treated a correct `break` explain-back as a weakness; Chris
+  independently explained the corrected `for.py` logic end-to-end and it's
+  now directly demonstrated. Active frontier moved to multi-part loop
+  tracing under time pressure, not basic `break`. Full detail:
+  `DAILY_2026-07-23.md`.
+- **Result:** system health real and current (one bug found and fixed, one
+  genuine item flagged, not fixed blind). The only decision that needs
+  Chris directly today is whether the flip-margin replay review fires now.
+- **Next:** Chris decides on `OPP-20260716-01`; otherwise MCP Bootcamp Day 5
+  is the queued next action.
+
 ## 2026-07-22 (evening) — Daily CASTLE review (Operator hat)
 
 - **Trigger:** Chris asked for the system's daily review plus the evening

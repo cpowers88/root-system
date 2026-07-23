@@ -55,6 +55,14 @@ Standardize the tools used for delivery and internal operations, so skills compo
 - Build your automation-platform mastery project: an internal pipeline connecting your forms → CRM → invoicing → monitoring. Practice and demo in one.
 - Start the "evaluation list" for tools that tempt you; review quarterly instead of impulsively.
 
+## Evaluation List
+*Tools that tempt — reviewed quarterly, not adopted on impulse (per the Practical Actions rule above).*
+
+| Tool | Tempted by | Category it would compete with | Status |
+|---|---|---|---|
+| Power Automate | Free access via school M365 tenant (July 2026); parallels the automation skill already being built in the MCP Bootcamp; relevant if an Advisor-Builder prospect already lives in Microsoft rather than Make/n8n | Integration/automation platform | Watching — not adopted, no client need yet |
+| Power BI | Free access via school M365 tenant (July 2026); already named as the Looker Studio alternate above | BI / dashboards | Watching — not adopted, Looker Studio remains primary |
+
 ## Beginner Version
 Minimum viable stack: Make + HubSpot free + Airtable + Looker Studio + Claude API + a password manager + QuickBooks. Under ~$150/mo total. Master these seven before touching anything else.
 

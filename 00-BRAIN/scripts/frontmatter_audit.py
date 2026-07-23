@@ -120,7 +120,7 @@ def audit():
             continue
         checked += 1
         rel = p.relative_to(ROOT)
-        fm = parse_frontmatter(p.read_text(encoding="utf-8", errors="replace"))
+        fm = parse_frontmatter(p.read_text(encoding="utf-8-sig", errors="replace"))
         if fm is None:
             missing_fm.append(str(rel))
             continue
