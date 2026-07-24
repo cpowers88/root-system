@@ -138,7 +138,10 @@ The source batch supports a separate, read-only sensing boundary: Watchtower obs
 **For:** anything superseded, inactive, or deprecated but worth keeping, named `ARCHIVED_YYYY-MM-DD_filename.md`. **Good looks like:** nothing is ever deleted, and every archived item was verified by `path_reference_audit.py` to have zero live stale references pointing at its old location before the archive was closed.
 
 ### Not part of the canonical skeleton — transient
-`2.md`, `Untitled.md`, `newvaultstructure.md`, `newvaultstructureclaude.md` are scratch files from this design effort itself, loose at vault root. No new structure is designed for them — they get archived once this design work concludes, same as any other superseded draft.
+`2.md`, `Untitled.md`, and `newvaultstructure.md` were scratch files from this
+design effort and are now preserved in `99-ARCHIVE\` with dated names.
+`newvaultstructureclaude.md` remains the live folder/file synopsis. No new
+structure is designed for the archived drafts.
 
 ---
 
@@ -325,7 +328,7 @@ does not approve a move, validator, metadata change, or Watchtower decision.*
 Watchtower separately observable and non-acting, with a narrow typed handoff
 into CASTLE. CASTLE owns prioritization, gating, and proof status; the owning
 wiki retains evidence; Chris owns the decision. This corroborates Section 5's
-Option B and `Untitled.md`'s independent lock, but it is not the approval
+Option B and the archived `Untitled.md` independent lock, but it is not the approval
 verdict.
 
 ### 8.5 Implementation consequences before any move

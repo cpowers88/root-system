@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://root.local/schemas/path_reference_audit-0.1.json",
+  "title": ".ROOT Path Reference Audit Report",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "tool",
+    "mode",
+    "root",
+    "include_archive",
+    "files_scanned",
+    "issue_counts",
+    "issues"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "tool": {"const": "path_reference_audit.py"},
+    "mode": {"const": "read-only-baseline-link-integrity"},
+    "root": {"type": "string", "minLength": 1},
+    "include_archive": {"type": "boolean"},
+    "files_scanned": {"type": "integer", "minimum": 0},
+    "issue_counts": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 1}
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "source", "line", "target"],
+        "properties": {
+          "kind": {"type": "string"},
+          "source": {"type": "string", "minLength": 1},
+          "line": {"type": "integer", "minimum": 0},
+          "target": {"type": "string"},
+          "resolved": {"type": "string"},
+          "anchor": {"type": "string"},
+          "detail": {"type": "string"},
+          "candidates": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

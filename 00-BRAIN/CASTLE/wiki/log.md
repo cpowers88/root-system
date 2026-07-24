@@ -2101,3 +2101,17 @@ other named scopes pass. Slice A0 is clear.
   design), and two findings on the pre-existing BUSINESS `raw-source-map.md`.
   Wiki navigation has 0 blockers and 8 review items. No baseline was refreshed
   and no unrelated metadata was changed.
+## 2026-07-24 — Architecture cleanup and path-audit baseline (Codex)
+
+- Archived six superseded root/CASTLE update drafts to `99-ARCHIVE\` with
+  dated names; live skeleton, synopsis, CASTLE wiki/contracts, and the audit
+  prototype/schema remain active.
+- Confirmed bounded CASTLE write authority for its own maps, decisions, logs,
+  proof status, indexes, `NOW.md`, and approved return packets. Watchtower
+  remains read-only and non-acting.
+- Ran the read-only path audit across 1,669 Markdown files: 1,285 findings
+  (254 ambiguous wikilinks, 316 unresolved wikilinks, 623 unresolved Markdown
+  links, 92 anchor findings). This is an inventory, not a clean-pass verdict.
+- Return report: `00-BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE_UNIFIED.md`.
+- **Next:** classify findings, establish the baseline allowlist, and only then
+  produce the CASTLE relocation impact report.

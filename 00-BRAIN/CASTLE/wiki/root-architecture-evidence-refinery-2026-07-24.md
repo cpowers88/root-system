@@ -96,7 +96,7 @@ The Capability and Information Flow contracts distinguish capability, use, value
 | CASTLE `OPERATIONS.md`, guides, index, current position, recent log | Direct | Live operating chain and current state read | CASTLE ownership and close/return behavior | Current path is itself under review |
 | `WHERE_IT_GOES.md` | Direct authority | Placement/metadata authority inspected through boot/reference chain | Prevents competing routing authority | No approved functional-role/register additions yet |
 | `SYSTEM_FLAGS.md` + closed flag #83 | Direct/challenge | Open table and #83 row read | Real anchor/register regression and current validator debt | One observed anchor incident |
-| `Untitled.md` | Supporting independent pass | Fully read | Migration sequence, rollback, acceptance; independently keeps Watchtower separate | Undated competing proposal, not authority |
+| `99-ARCHIVE\ARCHIVED_2026-07-24_Untitled.md` | Supporting independent pass | Fully read | Migration sequence, rollback, acceptance; independently keeps Watchtower separate | Undated competing proposal, not authority |
 | Same-day ingest protocol | Supporting | Fully read | Four targeted source lenses and explicit non-overreach rule | Superseded by this investigation |
 | AIAS contract and HOW_TO_USE | Direct local | Fully read | Research/propose versus CASTLE review; Watchtower handoff | Hub-specific |
 | AIAS index, recent log, raw-source ledger | Direct inventory | Index and mandated recent-log/ledger sweep | Existing compiled evidence and new-book backlog | Large index; source claims used through durable pages |
@@ -372,9 +372,9 @@ Run a read-only CASTLE migration impact audit that classifies every `00-BRAIN\CA
 ### Sources fully examined
 
 - `vault-skeleton-design.md`.
-- `update_data_review_wiki_instructions.md`.
-- `Untitled.md`.
-- `INGEST_PROTOCOL_2026-07-24_VAULT_REDESIGN_SOURCES.md`.
+- `99-ARCHIVE\ARCHIVED_2026-07-24_update_data_review_wiki_instructions.md`.
+- `99-ARCHIVE\ARCHIVED_2026-07-24_Untitled.md`.
+- `99-ARCHIVE\ARCHIVED_2026-07-24_INGEST_PROTOCOL_2026-07-24_VAULT_REDESIGN_SOURCES.md`.
 - Universal boot chain and the relevant North Star contracts.
 - CASTLE local operating chain and current state.
 - AIAS local operating contract.

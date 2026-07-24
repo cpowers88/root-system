@@ -2,7 +2,7 @@
 
 **Status:** Evidence-aligned proposal for Chris review. Nothing has been moved, and no move, validator, metadata, or governance rollout is authorized.
 **Primary design authority:** `vault-skeleton-design.md`; this file is only the folder/file synopsis.
-**Supersedes for discussion:** `newvaultstructure.md`
+**Supersedes for discussion:** `99-ARCHIVE/ARCHIVED_2026-07-24_newvaultstructure.md`
 **Date:** July 24, 2026
 
 ---
@@ -145,6 +145,14 @@ CASTLE may sort first operationally, but North Star and BRAIN remain above it as
 1. **CASTLE serves, it does not rule.** It reads `01-NORTH_STAR` and `00-BRAIN` and steers toward them. It cannot rewrite either. On conflict with the North Star or a safety/behavior boundary, CASTLE **stops and flags** — it never resolves silently.
 
 2. **CASTLE decides sequence; it does not own truth.** It points to the authoritative source (North Star, a wiki, a contract) and records only the decision or proof state needed to steer. No copying owner truth into CASTLE.
+
+2a. **CASTLE is not read-only.** It may write CASTLE-owned maps, decisions,
+logs, proof-status updates, indexes, `NOW.md` updates, and approved return
+packets. It may also apply ordinary reconciliations that `OPERATIONS.md`
+already authorizes. It may not silently rewrite North Star, governance,
+owner-truth pages, immutable `raw/`, private journal material, or another
+realm's content. Watchtower remains the read-only sensing surface; its typed
+handoff is what CASTLE evaluates and records.
 
 3. **Watchtower → radar → gate.** Watchtower surfaces candidate upgrades; radar ranks them against the North Star; only gated items become work. Unranked ideas don't jump straight to implementation.
 

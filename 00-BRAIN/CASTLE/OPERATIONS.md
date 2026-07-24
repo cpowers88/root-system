@@ -90,7 +90,12 @@ Chris's explicit approval is required for governance changes, new phases or stru
 
 Weekly CASTLE maintenance checks due `check_at` items, changed or active owner realms, opportunity review dates, open risks, and one rotating staleness target. Monthly review performs the broader cross-system lint. Quarterly review runs the strategy Ratchet.
 
-Manual intake in `77-INBOX` and Obsidian intake in `Clippings` are temporary. Route clear items through `WHERE_IT_GOES.md`; leave ambiguous items in place and flag them. Internal system friction belongs in `SYSTEM_FLAGS.md`. Only evidence-backed commercial or learning-to-application signals enter `wiki\opportunity-queue.md`.
+`77-INBOX` is the single universal intake door, including Obsidian web clips.
+Route clear items through `WHERE_IT_GOES.md`; leave ambiguous items in place
+and flag them. CASTLE's `raw\` remains a separate triage-only staging point,
+not a competing universal door. Internal system friction belongs in
+`SYSTEM_FLAGS.md`. Only evidence-backed commercial or learning-to-application
+signals enter `wiki\opportunity-queue.md`.
 
 Every applied system change must retain its approval, validation, `check_at`, and observed keep/modify/revert outcome. Required system-update and closed-flag ledgers must match the live evidence.
 
