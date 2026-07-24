@@ -1661,3 +1661,23 @@ reference back matter rather than an ingestion backlog.
   #63 and open flag #69.
 - Next: retrieval only on named explainability, governance, adoption, or
   epistemology questions; Python/SQL/application proof stays first.
+
+## 2026-07-24 — Vault-redesign special-lens source intake completed
+
+- Completed the CASTLE-owned architecture intake for four AIAS raw sources:
+  *AI Engineering* pp. 551–1,108 (Ch. 6–10), *Prompt Engineering for
+  Generative AI* pp. 94–791 (Ch. 2–10 + back matter), and *Agentic AI for
+  Engineers* pp. 171–460 (Ch. 6–14 + index), closing their previously read
+  ranges as full-source coverage. *AI Builder's Handbook*, *Prompt Engineering
+  for LLMs*, and McKinsey's report were already complete.
+- Findings live in
+  `00-BRAIN/CASTLE/wiki/source-summaries/architecture-update-2026-07-24/`;
+  this was a special architecture lens, not full generic domain compilation.
+- Durable returns: prompts/instructions as versioned interfaces; retrieval
+  evidence separated from instruction authority; component plus end-to-end
+  evaluation; independent monitoring; risk-tiered human oversight; feedback
+  entering a reviewed change path; shadow/canary/rollback deployment.
+- Raw PDFs remained read-only. No model/framework forecast was promoted as
+  current without separate verification.
+- Next: CASTLE performs the now-unblocked cross-source synthesis; AIAS receives
+  only the durable domain returns selected by that review.

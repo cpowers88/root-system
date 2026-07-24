@@ -727,3 +727,22 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
   superseded by the MCP Bootcamp, `NOW.md`, and `SYSTEM_FLAGS.md` #57.
 - No capability claim or research conclusion changed. Current action remains with
   the live project and CASTLE owners.
+
+## 2026-07-24 — Vault-redesign special-lens source intake completed
+
+- Completed the CASTLE-owned architecture intake for both Technology raw
+  sources: *Machine Learning Design Patterns* physical pp. 108–300 closed the
+  former middle-section gap (all 408 pages now covered), and *R for Data
+  Science* pp. 197–520 closed Chapters 10–24 and back matter (all 520 pages).
+- The former PDF render fault was resolved in a fresh tool context. Physical
+  pages 108, 155, 217, 265, and 300 rendered as distinct, legible content before
+  the recovered span was closed.
+- Durable returns: stable keys, explicit unknown states, checkpoints, staged
+  escalation, continuous evaluation, schema bridges, dependency-aware cache
+  invalidation, relational reference integrity, and Markdown/YAML as one
+  reproducible source with derived views.
+- Findings live in
+  `00-BRAIN/CASTLE/wiki/source-summaries/architecture-update-2026-07-24/`;
+  this pass did not change Technology's active capability frontier.
+- Raw PDFs remained read-only. Next: CASTLE performs the now-unblocked
+  cross-source synthesis.

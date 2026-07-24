@@ -2072,3 +2072,32 @@ other named scopes pass. Slice A0 is clear.
   wanted, expecting low relevance density; (5) continue *Prompt Engineering
   for Generative AI* from p. 94 — it is the largest remaining source and the
   least started.
+
+## 2026-07-24 — Eight-source architecture intake closed (Codex continuation)
+
+- Resumed from Claude's exact page boundaries and completed all five open
+  reports: *AI Engineering* pp. 551–1,108; *Agentic AI for Engineers*
+  pp. 171–460; *Machine Learning Design Patterns* pp. 108–300; *R for Data
+  Science* pp. 197–520; and *Prompt Engineering for Generative AI* pp. 94–791.
+- Total batch coverage is now 3,789/3,789 physical pages across all eight
+  sources. Every report frontmatter and coverage ledger is `complete`.
+- Resolved the Machine Learning Design Patterns render fault in a fresh tool
+  context and visually verified representative pages across the former gap.
+- Preserved evidence boundaries: no raw file changed; vendor/version claims
+  remain volatile; architecture findings are evidence, not an approved
+  structural verdict.
+- Completed the cross-source synthesis in `vault-skeleton-design.md` §8,
+  grouped by functional-role validation, move-integrity tooling,
+  instruction-register design, and Watchtower-vs-CASTLE evidence. No move or
+  governance change was authorized.
+- **Next exact action:** Chris reviews §8's five implementation consequences and
+  decides whether to authorize the read-only classifier/impact-audit prototype
+  before any structural move.
+- Validation: all eight report frontmatters are `complete`; no pending/resume
+  markers remain; staged and unstaged whitespace and live Markdown integrity
+  pass. Canonical health is **BLOCKER** on 16 new-to-baseline metadata findings:
+  eight third-party `.venv` license files already tracked by `SYSTEM_FLAGS.md`
+  #82, six loose root design drafts (including this still-unapproved skeleton
+  design), and two findings on the pre-existing BUSINESS `raw-source-map.md`.
+  Wiki navigation has 0 blockers and 8 review items. No baseline was refreshed
+  and no unrelated metadata was changed.

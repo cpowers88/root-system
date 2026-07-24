@@ -1,14 +1,15 @@
-# NEW VAULT STRUCTURE — v2 (Claude recommendation, for Chris review)
+# `.ROOT` Structure Synopsis — v3 evidence-aligned proposal
 
-**Status:** Draft for review. Nothing has been moved. This is the spec — approve it, then execution follows.
+**Status:** Evidence-aligned proposal for Chris review. Nothing has been moved, and no move, validator, metadata, or governance rollout is authorized.
+**Primary design authority:** `vault-skeleton-design.md`; this file is only the folder/file synopsis.
 **Supersedes for discussion:** `newvaultstructure.md`
-**Date:** July 23, 2026
+**Date:** July 24, 2026
 
 ---
 
 ## The one thing this restructure gets right
 
-CASTLE comes out of `00-BRAIN/CASTLE/` and up to the top level, where it can see the files it needs to operate. Every `.ROOT` load already starts with a CASTLE run — so CASTLE is made the standing overseer that drives the system toward the North Star, instead of being nested where it can't reach.
+CASTLE may come out of `00-BRAIN/CASTLE/` and up to the top level, but that is now a hypothesis requiring a deterministic read-only impact report and no-write dry run. The morning architecture review did not prove that nesting currently causes enough navigation, loading, ownership, or maintenance failure to justify the move.
 
 But "on top" means **operational** apex, not **constitutional** apex. Two things must not be collapsed:
 
@@ -21,21 +22,22 @@ Three layers. CASTLE runs the system; it does not rewrite the law above it.
 
 | Layer | Folder(s) | Changes | Role |
 |---|---|---|---|
-| **Constitution — Direction** | `02-NORTH_STAR` | Rarely | The truth file. The durable *why* and *where*. Overrides everything. |
-| **Constitution — Behavior** | `01-BRAIN` | Rarely | Who the AI is, how it behaves, safety and approval boundaries, all AI instruction docs for the rest of the structure. |
-| **Engine / Overseer** | `00-CASTLE` | Daily | Reads the constitution, scans the wikis, scouts upgrades, picks the next best action, drives execution toward the North Star. |
-| **Material** | `03`–`05`, `88`, `99`, `Clippings` | Constantly | The knowledge and work CASTLE steers. |
+| **Constitution — Direction** | Current `01-NORTH_STAR` | Rarely | Durable direction and contracts; overrides all operating proposals. |
+| **Constitution — Behavior** | Current `00-BRAIN` | Rarely | AI behavior, safety, approval boundaries, and coordination. |
+| **Engine / Overseer** | Current `00-BRAIN/CASTLE` (candidate future top-level `CASTLE`) | Daily | Sequencing and proof cockpit; relocation is gated, not assumed. |
+| **External sensing** | Current `...projectSuccess` (candidate future `Watchtower`) | As signals arrive | Read-only external sensing with a narrow typed handoff to CASTLE. |
+| **Material** | `02-LIBRARY`, `03-WIKIS`, `05-BUSINESS`, `77-INBOX`, `88-JOURNAL`, `99-ARCHIVE` | Constantly | Knowledge, work, intake, privacy, and history that CASTLE steers. |
 
 **Authority order when things conflict:**
 
 1. Chris's current explicit request
-2. `02-NORTH_STAR` (the truth file)
-3. `01-BRAIN` governance (`AGENT.md`, behavior/safety)
-4. `00-CASTLE/OPERATIONS.md` (how sessions run the overseer)
+2. `01-NORTH_STAR` (the truth file)
+3. `00-BRAIN` governance (`AGENT.md`, behavior/safety)
+4. `00-BRAIN/CASTLE/OPERATIONS.md` (how sessions run the cockpit)
 5. Nearest domain `claude.md` / `readme.md` / `how_to_use.md`
 6. General assumptions
 
-CASTLE sorts first and drives the day. North Star and BRAIN sit above it as law. CASTLE flags a conflict with either — it never silently overrides them.
+CASTLE may sort first operationally, but North Star and BRAIN remain above it as law. CASTLE flags a conflict with either—it never silently overrides them.
 
 ---
 
@@ -43,11 +45,7 @@ CASTLE sorts first and drives the day. North Star and BRAIN sit above it as law.
 
 ```
 .ROOT/
-├── 00-CASTLE/              → .ROOT overseer + engine. Runs the system toward the North Star.
-│   ├── watchtower.md       → Forward scout. Continuously looks for upgrades, new tools, and
-│   │                          capability gains and puts candidates on the radar.
-│   ├── radar.md            → Triage + staging. Pulls candidates from watchtower and the wikis,
-│   │                          ranks them against the North Star, promotes the best to implement.
+├── CASTLE/                 → candidate top-level overseer; current live home is `00-BRAIN/CASTLE/`; impact gate required.
 │   ├── raw/                → CASTLE intake. Recommendations Chris drops in from the wikis,
 │   │                          awaiting extraction into the CASTLE wiki.
 │   ├── templates/          → Design + test bench for .ROOT structures/templates not yet rolled
@@ -56,11 +54,11 @@ CASTLE sorts first and drives the day. North Star and BRAIN sit above it as law.
 │   │                          skill map, decision rules, proof projects, logs.
 │   ├── claude.md           → Claude's instruction set for turning raw/ into wiki knowledge that
 │   │                          improves the system.
-│   ├── agent.md            → Behavior pointer into 01-BRAIN (CASTLE inherits, never overrides).
+│   ├── agent.md            → Behavior pointer into 00-BRAIN (CASTLE inherits, never overrides).
 │   ├── how_to_use.md       → Human quick-start for a CASTLE run.
 │   └── operations.md       → Authoritative operating contract for how sessions run CASTLE.
 │
-├── 01-BRAIN/              → Behavior layer. Who the AI is, how it behaves, safety + approval
+├── 00-BRAIN/              → Behavior layer. Who the AI is, how it behaves, safety + approval
 │   │                          boundaries, and every AI instruction doc for the rest of .ROOT.
 │   ├── agent.md            → Universal AI behavior + boot chain.
 │   ├── ai_os_core.md
@@ -83,7 +81,7 @@ CASTLE sorts first and drives the day. North Star and BRAIN sit above it as law.
 │   └── Skills/             → Packaged repeatable procedures (briefs, gates, health checks,
 │                              session close).
 │
-├── 02-NORTH_STAR/         → THE TRUTH FILE. Durable direction — the why and where. Overrides all.
+├── 01-NORTH_STAR/         → THE TRUTH FILE. Durable direction — the why and where. Overrides all.
 │   ├── Goals_and_Milestones/
 │   │   ├── current_strategy.md
 │   │   ├── current_school_plan.md
@@ -105,7 +103,7 @@ CASTLE sorts first and drives the day. North Star and BRAIN sit above it as law.
 │   ├── Systems/                 (raw/ · wiki/ · claude.md · how_to_use.md · readme.md)
 │   └── Technology/              (raw/ · wiki/ · claude.md · how_to_use.md · readme.md)
 │
-├── 04-LIBRARY/          → Reference shelf + project holding. Static, look-it-up material.
+├── 02-LIBRARY/          → Reference shelf + project holding. Static, look-it-up material.
 │   │                        Read-mostly; NOT an active learning engine like a wiki.
 │   ├── .projects/
 │   ├── 00-SCHOOL/
@@ -127,9 +125,8 @@ CASTLE sorts first and drives the day. North Star and BRAIN sit above it as law.
 │   ├── proposals_and_SOWs/
 │   └── capability_library/
 │
-├── 77-INBOX/            → Fast, unsorted capture from anywhere. Routed OUT to a wiki raw/, the
-│                           Library, or CASTLE raw/. (Decide: keep, or fold into Clippings +
-│                           CASTLE/raw — see open question below.)
+├── 77-INBOX/            → Single universal intake door; web clips now land here and are routed
+│                           to a wiki raw/, the Library, or CASTLE raw/. Resolved 2026-07-24.
 │
 ├── 88-JOURNAL/          → Personal record. Journal, notes, stray thoughts, therapy notes,
 │                           reflection. The human layer, kept out of operating governance.
@@ -137,15 +134,15 @@ CASTLE sorts first and drives the day. North Star and BRAIN sit above it as law.
 ├── 99-ARCHIVE/          → Cold storage. Dated, obsolete-but-preserved material. Nothing deleted;
 │                           retained for provenance and reversal.
 │
-└── Clippings/           → Raw inbound web/reading capture awaiting routing into a wiki raw/ or
-                            the Library.
+└── `...projectSuccess/` → current Watchtower home; keep sensing separate from CASTLE and test
+                            any future rename/move independently.
 ```
 
 ---
 
 ## Rules for CASTLE (the new part — this is what makes elevation safe)
 
-1. **CASTLE serves, it does not rule.** It reads `02-NORTH_STAR` and `01-BRAIN` and steers toward them. It cannot rewrite either. On conflict with the North Star or a safety/behavior boundary, CASTLE **stops and flags** — it never resolves silently.
+1. **CASTLE serves, it does not rule.** It reads `01-NORTH_STAR` and `00-BRAIN` and steers toward them. It cannot rewrite either. On conflict with the North Star or a safety/behavior boundary, CASTLE **stops and flags** — it never resolves silently.
 
 2. **CASTLE decides sequence; it does not own truth.** It points to the authoritative source (North Star, a wiki, a contract) and records only the decision or proof state needed to steer. No copying owner truth into CASTLE.
 
@@ -159,13 +156,16 @@ CASTLE sorts first and drives the day. North Star and BRAIN sit above it as law.
 
 ---
 
-## Open questions before execution
+## Evidence gate before execution
 
-1. **77-INBOX** — Keep it as the single fast-capture inbox (recommended: keep — one capture door is simpler), or fold it into `Clippings` + `CASTLE/raw/`? Your `newvaultstructure.md` dropped it; decide on purpose so intake isn't orphaned.
-2. **Naming cleanups while we're in here:** `coleor_map.yaml → color_map.yaml`, `REF-Buisness → REF-Business`, and Education's `wikis/ → wiki/` to match every other wiki. Approve or skip.
+1. Produce a read-only move-impact inventory and no-write dry run for the candidate CASTLE elevation.
+2. Validate four explicit scanner checks: path moves, resolvable references/anchors, canonical-copy violations, and instruction-register conformance.
+3. Define dependency discovery, performance budget, abort/rollback triggers, fresh-session acceptance, and a post-change `check_at` before any move.
+4. Keep Watchtower separate and test its typed handoff; do not merge it into CASTLE by default.
+5. Treat `77-INBOX` as resolved. Naming cleanups are separate, bounded decisions—not automatic side effects of this proposal.
 
 ## Execution risk (read before approving)
 
-This is a top-level-folder restructure plus a role expansion for CASTLE. Per change-control it needs your explicit approval before any file moves. Moving CASTLE from `00-BRAIN/CASTLE` and shifting `01-NORTH_STAR → 02-NORTH_STAR` will break every hardcoded path in `AGENT.md`, `START_HERE.md`, `NOW.md`, `ROOT_OPERATING_MANUAL.md`, and the CASTLE docs. Those pointer updates must ship in the same change as the move, or the boot chain breaks.
+This is a possible top-level-folder restructure, not an approved renumbering. Per change-control it needs Chris's explicit approval before any file moves. Moving CASTLE from `00-BRAIN/CASTLE` will affect hardcoded paths in `AGENT.md`, `START_HERE.md`, `NOW.md`, `ROOT_OPERATING_MANUAL.md`, and the CASTLE docs. Any approved move must inventory and update those pointers in the same change, or the boot chain breaks.
 
-**Next action:** answer the two open questions. Then I'll produce the exact move-and-update plan (every path, every pointer edit) for your approval before anything is touched.
+**Next action:** Chris reviews the evidence-aligned skeleton and authorizes—or declines—the read-only CASTLE impact-audit prototype. No structural edit follows from this synopsis alone.

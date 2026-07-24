@@ -24,18 +24,18 @@ migration, maintenance, and evidence that challenges the current model.
 
 | Source | Physical pages | Intake status | Report |
 |---|---:|---|---|
-| Chip Huyen, *AI Engineering* (2025) | 1,108 | In progress — pp. 1–550 complete (Ch. 1–5 of 10) | [[ai-engineering-chunk-intake]] |
+| Chip Huyen, *AI Engineering* (2025) | 1,108 | Complete — all 1,108 physical pages | [[ai-engineering-chunk-intake]] |
 | LevelUp Labs, *The AI Builder's Handbook* (2026) | 152 | Complete — 11 chunks | [[ai-builders-handbook-chunk-intake]] |
 | Berryman and Ziegler, *Prompt Engineering for LLMs* (2025) | 282 | Complete — 11 chapters, all 282 pages | [[prompt-engineering-for-llms-chunk-intake]] |
-| Phoenix and Taylor, *Prompt Engineering for Generative AI* (2024) | 791 | In progress — pp. 1–93 complete (front matter + Ch. 1 of 9) | [[prompt-engineering-for-generative-ai-chunk-intake]] |
+| Phoenix and Taylor, *Prompt Engineering for Generative AI* (2024) | 791 | Complete — all 791 physical pages | [[prompt-engineering-for-generative-ai-chunk-intake]] |
 | McKinsey, *The Economic Potential of Generative AI* (2023) | 68 | Complete — 6 chunks | [[generative-ai-economic-potential-chunk-intake]] |
-| Nagasubramanian, *Agentic AI for Engineers* | 460 | In progress — pp. 1–170 complete (front matter + Ch. 1–5 of 14) | [[agentic-ai-for-engineers-chunk-intake]] |
-| Lakshmanan, Robinson, and Munn, *Machine Learning Design Patterns* (2020) | 408 | In progress — pp. 1–107 and ~301–408 complete; pp. 108–~300 pending (tool-side render fault, not a reading gap) | [[machine-learning-design-patterns-chunk-intake]] |
-| Wickham and Grolemund, *R for Data Science* (2017) | 520 | In progress — pp. 1–196 complete (through Ch. 9, *Tidy Data*) | [[r-for-data-science-chunk-intake]] |
+| Nagasubramanian, *Agentic AI for Engineers* | 460 | Complete — all 460 physical pages | [[agentic-ai-for-engineers-chunk-intake]] |
+| Lakshmanan, Robinson, and Munn, *Machine Learning Design Patterns* (2020) | 408 | Complete — all 408 physical pages; former pp. 108–300 render fault resolved and visually verified | [[machine-learning-design-patterns-chunk-intake]] |
+| Wickham and Grolemund, *R for Data Science* (2017) | 520 | Complete — all 520 physical pages | [[r-for-data-science-chunk-intake]] |
 
-Total physical coverage target: **3,789 pages**. Closed as of 2026-07-24
-(evening pass): **~1,726 pages (~46%)**. See `log.md` for the full session
-trail and exact per-source resume points.
+Total physical coverage target: **3,789 pages**. Closed as of 2026-07-24:
+**3,789 pages (100%)**. All eight source reports are complete; the
+cross-source architecture synthesis is now unblocked.
 
 ## Intake Rule
 
@@ -54,8 +54,8 @@ mean read, ingested, understood, or accepted.
 
 ## Decision Gate
 
-No final architecture verdict is valid until all eight reports are closed and
-the cross-source synthesis distinguishes:
+All eight reports are closed. The evidence-only cross-source synthesis is now
+recorded in `vault-skeleton-design.md` §8 and distinguishes:
 
 - repeated independent evidence;
 - source-specific advice;
@@ -63,3 +63,7 @@ the cross-source synthesis distinguishes:
 - unresolved contradictions;
 - current `.ROOT` behavior already supported;
 - genuine deltas that justify change.
+
+This closes source intake, not architecture approval. CASTLE/Chris review is the
+next gate; no move, validator implementation, or metadata/governance change is
+authorized by these reports.

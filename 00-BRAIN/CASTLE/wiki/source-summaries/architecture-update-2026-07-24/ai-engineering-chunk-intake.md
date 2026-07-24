@@ -1,7 +1,7 @@
 ---
 type: source-summary
 timeline: reference
-status: in-progress
+status: complete
 tags: [castle, architecture, ai-engineering, source-intake]
 source: 03-WIKIS/AI_AUTOMATION_SYSTEMS/raw/AI_engineering.pdf
 created: 2026-07-24
@@ -33,11 +33,11 @@ created: 2026-07-24
 | Chapter 3 — Evaluation methodology | 257–349 | Complete — 4 chunks |
 | Chapter 4 — Evaluating AI systems | 350–462 | Complete — 5 chunks |
 | Chapter 5 — Prompt engineering | 463–550 | Complete — 4 chunks |
-| Chapter 6 — RAG and agents | 551–664 | Pending |
-| Chapter 7 — Finetuning | 665–777 | Pending |
-| Chapter 8 — Dataset engineering | 778–861 | Pending |
-| Chapter 9 — Inference optimization | 862–950 | Pending |
-| Chapter 10 — Architecture and user feedback | 951–1,108 | Pending |
+| Chapter 6 — RAG and agents | 551–664 | Complete — 5 chunks |
+| Chapter 7 — Finetuning | 665–777 | Complete — 5 chunks |
+| Chapter 8 — Dataset engineering | 778–861 | Complete — 4 chunks |
+| Chapter 9 — Inference optimization | 862–950 | Complete — 4 chunks |
+| Chapter 10 — Architecture and user feedback | 951–1,108 | Complete — 6 chunks |
 
 ## Front Matter — Physical Pages 1–35
 
@@ -644,3 +644,97 @@ without inspecting its generated prompts and call volume; assuming defense
 against prompt attacks can ever reach zero residual risk for a system with
 real tool/code/data access; measuring a filter's success by violation rate
 alone without also tracking false refusals.
+
+## Chapter 6 — Physical Pages 551–664
+
+- RAG separates retrieval from generation. Source preparation, retrieval,
+  ranking, context construction, and final generation are distinct evaluation
+  points; one answer score cannot locate the failing layer.
+- Term search is a strong inexpensive baseline. Embedding retrieval should earn
+  its extra complexity through measured improvement.
+- Chunking, metadata, query rewriting, reranking, and context assembly are
+  versioned configuration, not invisible preprocessing.
+- Retrieved text can be stale, irrelevant, malicious, or contradictory. It is
+  evidence supplied to the model, not a higher-priority instruction.
+- Agents add planning, tools, environment feedback, memory, and termination.
+  More tools increase both capability and possible failure severity.
+
+**Decision contribution:** keep domain-owned evidence and narrow tools; add
+retrieval/component evaluations, context-construction records, tool schemas,
+memory policy, and termination conditions.
+
+**Watchtower evidence:** sensing/retrieval can be evaluated independently from
+planning/action. This supports separately observable sensing but does not
+determine `.ROOT` placement.
+
+## Chapter 7 — Physical Pages 665–777
+
+- Finetuning is an escalation when prompt/context methods cannot reliably
+  produce required behavior, or when scale makes repeated prompt cost and
+  latency material. It is not a default.
+- RAG primarily supplies changing/private knowledge; finetuning primarily
+  changes behavior. Mixing the purposes obscures provenance and maintenance.
+- The lifecycle includes data, evaluation, training configuration, checkpoint,
+  serving, monitoring, updating, and rollback—not only the training command.
+- Model merging, adapter techniques, formats, frameworks, and prices are
+  volatile implementation details.
+
+**Decision contribution:** add a prompt/context-before-finetuning rule and a
+base-model/data/configuration/checkpoint/rollback record for any adaptation.
+
+## Chapter 8 — Physical Pages 778–861
+
+- Dataset design begins with behaviors to teach. Quality, coverage, and quantity
+  are separate dimensions.
+- Sources need provenance, privacy/licensing constraints, acquisition method,
+  deduplication, versioning, and removal traceability.
+- Synthetic data is generated evidence, not ground truth, and needs independent
+  validation.
+- Annotation guidelines are consequential instructions whose ambiguity,
+  disagreement, and versions must be measured.
+- Training/evaluation contamination invalidates an otherwise correct score.
+- Use-time prompt format must match the learned interface; punctuation or
+  whitespace drift can change behavior.
+
+**Decision contribution:** add quality/coverage/quantity fields, generated-data
+labels, versioned annotation instructions, and contamination checks.
+
+## Chapter 9 — Physical Pages 862–950
+
+- Cost, time to first token, time per output token, throughput, and utilization
+  describe different constraints; optimizing one can worsen another.
+- Caches improve cost and latency but create freshness obligations. A cached
+  result needs dependency/version keys and an explicit invalidation rule.
+- Optimization is valid only while property-specific quality and safety
+  thresholds remain satisfied.
+- Hardware, compression, batching, and parallelism details are implementation
+  choices, not `.ROOT` architecture commitments.
+
+## Chapter 10 — Physical Pages 951–1,108
+
+- Context enhancement, guardrails, gateways, caches, complex actions, and
+  orchestration are logical components. Each added component creates an
+  interface and failure mode.
+- Component placement is fluid; the durable requirement is named ownership and
+  testable behavior, not one mandatory topology.
+- A gateway centralizes provider access, usage limits, fallback, credentials,
+  and routing. Central interface control does not imply copied domain truth.
+- Monitoring covers failures, attacks, drift, latency, cost, and quality.
+  Component-local metrics and end-to-end task/outcome measures are both needed.
+- Ratings, corrections, implicit behavior, and conversations are biased
+  evidence. Feedback needs provenance, privacy, sampling, and a reviewed path
+  to change; it does not authorize self-modification.
+
+**Watchtower evidence:** monitoring/sensing and orchestration/acting have
+different metrics and authority. The source supports a separate Watchtower
+interface feeding CASTLE decisions, not an autonomous change engine.
+
+## Coverage Declaration
+
+- **Fully examined:** all 1,108 physical PDF pages, front matter and Chapters
+  1–10, in consecutive chapter-aware chunks.
+- **Not adopted as durable truth:** named models/providers, prices, benchmark
+  standings, hardware specifications, regulations, and framework APIs.
+- **Remaining uncertainty:** the source supports separation of sensing,
+  monitoring, orchestration, and action as interfaces, but does not decide
+  `.ROOT` component names or physical placement.

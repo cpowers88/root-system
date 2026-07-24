@@ -1,7 +1,7 @@
 ---
 type: source-summary
 timeline: reference
-status: in-progress
+status: complete
 tags: [castle, architecture, prompt-engineering, source-intake]
 source: 03-WIKIS/AI_AUTOMATION_SYSTEMS/raw/promp_engineering_generative_AI_guide.pdf
 created: 2026-07-24
@@ -37,14 +37,16 @@ created: 2026-07-24
 |---|---:|---|
 | Front matter, praise, preface | 1–20 | Complete |
 | Chapter 1 — The Five Principles of Prompting | 21–93 | Complete — 4 chunks |
-| Chapter 2 — Introduction to LLMs for Text Generation | 94–~180 (est.) | Opened, not closed |
-| Chapter 3 — Standard Practices for Text Generation | est. | Pending |
-| Chapter 4 — Advanced Text Generation (LangChain) | est. | Pending |
-| Chapter 5 — Advanced Text Generation with Vector Databases | est. | Pending |
-| Chapter 6 — Introduction to Agents | est. | Pending |
-| Chapter 7 — Standard Practices for Image Generation | est. | Pending |
-| Chapter 8 — Advanced Text-to-Image Techniques | est. | Pending |
-| Chapter 9 — Advanced Image Generation (AUTOMATIC1111 / Stable Diffusion Web UI) | est.–791 | Pending |
+| Chapter 2 — Introduction to LLMs for Text Generation | 94–117 | Complete |
+| Chapter 3 — Standard Practices for Text Generation | 118–249 | Complete |
+| Chapter 4 — Advanced Text Generation (LangChain) | 250–367 | Complete |
+| Chapter 5 — Vector Databases with FAISS and Pinecone | 368–439 | Complete |
+| Chapter 6 — Autonomous Agents with Memory and Tools | 440–525 | Complete |
+| Chapter 7 — Introduction to Diffusion Models | 526–548 | Complete |
+| Chapter 8 — Standard Practices for Image Generation | 549–611 | Complete |
+| Chapter 9 — Advanced Image Generation | 612–692 | Complete |
+| Chapter 10 — Building AI-Powered Applications | 693–735 | Complete |
+| Back matter, references, and index | 736–791 | Complete |
 
 Chapter page boundaries beyond Chapter 2 are estimated from cross-references
 seen in Chapter 1 (Chapter 4 = LangChain, Chapter 5 = vector databases,
@@ -174,19 +176,66 @@ framing marks them as immature at time of writing, and 2024-era immaturity
 claims should not be imported into a 2026 architecture decision without
 re-verification against a current source.
 
-## Chapter 2 — Physical Pages 94+ (opened, not closed)
+## Chapter 2 — Physical Pages 94–117
 
-Chapter 2, "Introduction to Large Language Models for Text Generation,"
-opens with tokens/tokenization (BPE mechanics worked through the "apple"
-example), word embeddings/vector representations, and begins contrasting
-BERT's encoder architecture with GPT's decoder architecture (Figure 2-2).
-This is foundational NLP background, not yet judged for `.ROOT`-relevant
-content — no decision contribution is recorded until the chapter closes.
-**Do not treat this section as evidence for or against any design question.**
+- Base, instruction-tuned, and conversational models behave differently. The
+  target model/interface/version belongs in an instruction record.
+- Model names, limits, prices, and APIs are dated snapshots.
 
-## Next Exact Action
+## Chapter 3 — Physical Pages 118–249
 
-Resume at physical page 94 (Chapter 2 opening) and continue consecutive
-chapter-aware chunks through Chapter 2's close, then proceed chapter by
-chapter through Chapter 9. Confirm the estimated chapter/page boundaries in
-the Coverage Ledger against actual running heads as they're reached.
+- Zero/one/few-shot prompting trade simplicity against consistency and context
+  cost; examples are also evaluation fixtures.
+- Make role, format, context, examples, and quality criteria explicit.
+- Decompose long tasks and validate intermediate structured outputs.
+- Acceptance should rely on observable results/actions, not hidden reasoning.
+
+## Chapter 4 — Physical Pages 250–367
+
+- Loaders, splitters, templates, chains, memory, and parsers are separate
+  testable interfaces.
+- Static instruction and dynamic context differ in provenance and authority.
+- Long-document synthesis requires explicit chunks and complete coverage.
+- LangChain APIs are volatile; modular composition and visible state endure.
+
+## Chapter 5 — Physical Pages 368–439
+
+- Embeddings/vector stores retrieve similar context but do not establish truth,
+  ownership, or instruction priority.
+- Record chunking, metadata, index version, query, retrieval threshold, and
+  source identifiers with evaluation.
+
+## Chapter 6 — Physical Pages 440–525
+
+- Agents combine planning, tools, and memory; failure surface grows with access.
+- Short-term, summary, and persistent memory have different purposes.
+  Summarization can omit facts, so durable evidence remains retrievable.
+- Tool descriptions are contracts; ambiguous tools and overlapping ownership
+  cause routing failures.
+- Surveyed agent frameworks were immature even at publication and are dated.
+
+## Chapters 7–9 — Physical Pages 526–692
+
+- These image-generation chapters reuse the five prompt principles but add no
+  distinct `.ROOT` architecture mechanism.
+- Model syntax, interfaces, and product workflows are volatile and out of scope.
+
+## Chapter 10 — Physical Pages 693–735
+
+- The example composes research, extraction, summarization, interview, outline,
+  writing, and imagery through explicit stages.
+- Intermediate artifacts make the workflow inspectable and restartable.
+- Deployment convenience does not replace evaluation, secrets handling,
+  dependency control, or publication approval.
+
+## Coverage Declaration
+
+- **Fully examined:** all 791 physical pages, ten chapters and back matter.
+- **Durable returns:** model/version binding, static/dynamic separation,
+  chunked long-document handling, retrieval provenance, modular tool
+  interfaces, and intermediate artifacts.
+- **Low-weight material:** vendor APIs, prices, framework code, image syntax,
+  and 2024 forecasts.
+- **Watchtower evidence:** retrieval and tool use support separately observable
+  sensing and action, but this source offers no stronger organizational verdict
+  than the two agent-architecture books.

@@ -1,6 +1,6 @@
 # .ROOT Vault Skeleton — Functional Roles, Classification Rule, and Move-Integrity Design
 
-*A design spec, not an execution plan. No folder is renamed or moved by this document — it defines the roles, the rule, and the mechanism the skeleton falls out of, and marks the remaining forks as open questions for a later execution pass.*
+*A design spec, not an execution plan. No folder is renamed or moved by this document — it defines the roles, the rule, and the evidence-gated mechanism the skeleton falls out of. The 2026-07-24 source batch sharpened the proposal but did not authorize implementation.*
 
 ---
 
@@ -18,7 +18,7 @@ Renaming folders again would not fix that. What actually needs designing is: (a)
 
 ## 2. The Functional Roles
 
-Pressure-tested at ten. Nine map cleanly to one existing top-level folder each; the tenth (Intake) is currently split across *two* folders serving the same role — that's evidence for the open consolidation question in Section 5, not a flaw in the taxonomy.
+Pressure-tested at ten. The roles map to the current vault, with Intake now resolved to one front door (`77-INBOX`). CASTLE elevation and Watchtower naming remain proposed placement questions, not proof that the taxonomy needs more roles.
 
 | # | Role | Definition | Folder serving it today |
 |---|------|------------|--------------------------|
@@ -62,25 +62,18 @@ Text to insert into `00-BRAIN\WHERE_IT_GOES.md`, as a new section titled `## Fun
 
 ---
 
-## 4. The Move-Integrity Mechanism — `path_reference_audit.py`
+## 4. The Move-Integrity Mechanism — shared scanner with explicit checks
 
 **Confirmed gap:** no existing script does a general, vault-wide check for stale path-string references after a move or archive. `validate_boot_chain.py` only checks a fixed, hardcoded list of already-known-dead strings. `wiki_lint.py` only checks `[[wikilink]]` resolution inside the 8 wiki hubs' own index/link pages — not plain path strings, not vault-wide. `frontmatter_audit.py` is the right *convention family* to copy (baseline file, `--strict`, `--json`) but audits metadata schema, not path references.
 
 ### Spec
 
-- **Inputs:**
-  - `--old <path>` (repeatable, or a file listing several) — the path string(s) being retired.
-  - `--new <path>` — the replacement location, or the literal value `ARCHIVED` when there is no live replacement.
-  - `--since <git-ref>` (optional) — auto-derive the old/new pair list from the file renames/deletions in the given commit range, instead of a manual pair.
-  - `--baseline path_reference_baseline.json` — an allowlist of accepted historical mentions (e.g., a session log's own narrative describing what *used to be* true), following the same baseline pattern as `frontmatter_audit.py`.
-  - `--strict` — fail (non-zero exit) on any unbaselined hit; without it, the script reports but does not fail the run.
-  - `--json` — machine-readable output.
-- **Scope:** every tracked `.md`, `.py`, `.ps1`, `.yaml`, `.json` file in `.ROOT`, excluding `99-ARCHIVE\` narrative content by default (history is expected to describe old paths) unless `--strict --include-archive` is passed.
-- **What it checks:** greps for the literal old-path string in all its normalized forms — backslash and forward-slash variants, with and without the `.ROOT` prefix, and the bare filename inside a `[[wikilink]]` — and reports every file/line where the *old* string still appears without a corresponding update to the *new* one.
-- **Output:** console summary (count of hits, count baselined, count requiring fix) plus, with `--json`, a list of `{file, line, matched_string, old_path, new_path}` objects — one row per required fix, directly usable as a checklist.
-- **How it plugs in:**
-  - **`AGENT.md` File Safety rule #3** ("Archive approved replacements to `99-ARCHIVE`... do not delete system history") gets one added clause: running `path_reference_audit.py --old <path> --new <path>` with zero unresolved hits is part of what makes an archive/move "approved" and complete — not a separate optional step.
-  - **CASTLE's Session Close checklist** (`OPERATIONS.md` § Session Close) gets one added line: if a move or archive happened this session, run `path_reference_audit.py` and clear all hits before the session is considered closed.
+- **Shared substrate:** one scanner/parser, following the existing baseline/`--strict`/`--json` convention.
+- **Separate checks and reports:** (1) explicit old→new path moves and archive references; (2) resolvable file references and anchors; (3) canonical-copy violations; and (4) declared instruction-register conformance. A shared executable is acceptable; one undifferentiated failure metric is not.
+- **Inputs:** explicit old/new pairs or a `--since <git-ref>` rename inventory, a baseline for accepted historical mentions, `--strict`, `--json`, and an optional archive-inclusion switch.
+- **Scope:** tracked Markdown and implementation/config files across `.ROOT`, with archive narrative excluded by default because it is expected to describe old paths.
+- **Acceptance:** report boot-chain, navigation, generated-output, and runtime-consumer references—not only source-file text. A move is not complete until its impact report is clear, or every remaining historical hit is baselined.
+- **Session integration:** add the move/archive check to CASTLE Session Close only after the read-only prototype is validated. Do not edit governance files or build the validator as part of this proposal.
 - **How it would have caught each of the 3 real incidents this session:**
   1. **Python wiki citations** — running the audit in canonical-path-verify mode (given the syllabus's designated canonical home, flag any *other* full path in the vault referencing the same filename) would have flagged the personal-folder duplicate as a second, non-canonical location the moment either reference was written — instead of it sitting silently until this session's review.
   2. **Physics wiki citations** — this is the exact case the tool is built for: `raw/syllabus/syllabus.pdf` was archived days earlier and four files still cited it as live. Running `path_reference_audit.py --old raw/syllabus/syllabus.pdf --new <archived path>` at the moment of archiving would have listed all four files as required fixes before the archive was considered done.
@@ -100,8 +93,8 @@ Text to insert into `00-BRAIN\WHERE_IT_GOES.md`, as a new section titled `## Fun
 │
 ├── 00-BRAIN/                            — Role 1: AI Governance & Coordination
 ├── 01-NORTH_STAR/                       — Role 2: Durable Direction
-├── CASTLE/                              — Role 3: Decision & Sequencing Cockpit  [RELOCATED — see below]
-├── Watchtower/  (...projectSuccess today) — Role 4: External Signal Steering     [OPEN QUESTION — see below]
+├── CASTLE/                              — Role 3: Decision & Sequencing Cockpit  [CANDIDATE RELOCATION — IMPACT GATE REQUIRED]
+├── Watchtower/  (...projectSuccess today) — Role 4: External Signal Steering     [KEEP SEPARATE — PLACEMENT/NAME TO BE TESTED]
 ├── 02-LIBRARY/                          — Role 6: Reusable Reference & Project Deliverables
 ├── 03-WIKIS/                            — Role 5: Staged Research & Learning
 ├── 05-BUSINESS/                         — Role 7: Sanitized Business Asset System
@@ -120,16 +113,11 @@ Stay exactly where they are. Entry surfaces, not content realms — nothing abou
 ### `01-NORTH_STAR\` — Role 2: Durable Direction
 **For:** `NORTH_STAR.md`, System Contracts, skill-gap analysis, weekly/goal artifacts that hold regardless of any one project. **Good looks like:** direction changes rarely, only with explicit approval; nothing here is session-log or task-tracking detail.
 
-### `CASTLE\` — Role 3: Decision & Sequencing Cockpit [RELOCATED]
-Currently nested at `00-BRAIN\CASTLE\`, inside a folder whose role (governance/coordination) it doesn't actually share — CASTLE decides sequencing across *all* realms, not just BRAIN's own. This design elevates it to a top-level folder (exact name/number is a later execution decision, out of scope here — `CASTLE/` is a neutral placeholder). **For:** `OPERATIONS.md`'s existing authority chain and 8 standing rules, unchanged. **Good looks like:** every material decision names Why-now/Owner/Next-action/Proof/Return, and `wiki\log.md` is current with the last session's outcome.
+### `CASTLE\` — Role 3: Decision & Sequencing Cockpit [CANDIDATE RELOCATION]
+Currently nested at `00-BRAIN\CASTLE\`. The role is cross-realm, so elevation remains a plausible usability improvement, but the evidence does not yet prove that the current nesting causes enough failure to justify a high-reference move. **Gate:** a deterministic, read-only impact report and no-write dry run must establish the benefit before any target name or move is approved. `OPERATIONS.md`'s authority chain and standing rules remain the baseline. **Good looks like:** every material decision names Why-now/Owner/Next-action/Proof/Return, and `wiki\log.md` is current with the last session's outcome.
 
-### `Watchtower\` — Role 4: External Signal Steering [OPEN QUESTION]
-Currently a stray, oddly-named `...projectSuccess\` folder holding only `WATCHTOWER.md` and `radar.md`, disconnected from CASTLE despite doing the same steering function on a different input (external signals vs. internal sequencing).
-
-> **OPEN QUESTION — Chris's call:**
-> - **Option A — merge into CASTLE.** Fold `WATCHTOWER.md`/`radar.md` into CASTLE's own `wiki\`. Collapses to 9 roles.
-> - **Option B — keep it a separate, clearly-named top-level folder.** Codex's "eyes, not hands" argument: watching external signals is a distinct concern from deciding internal sequencing. Also zero renames — it already exists, it just needs a saner name than `...projectSuccess`.
-> - **Recommendation:** Option B — sound on its own merits, and matches the preference to save existing folders rather than merge them away. Not decided here.
+### `Watchtower\` — Role 4: External Signal Steering [KEEP SEPARATE]
+The source batch supports a separate, read-only sensing boundary: Watchtower observes and records a narrow typed handoff; CASTLE prioritizes, gates, and tracks proof; the owning wiki retains evidence; Chris approves consequential change. The current `...projectSuccess\` name and any relocation remain implementation questions. Test the handoff and interface cost; do not merge the roles by default.
 
 ### `02-LIBRARY\` — Role 6: Reusable Reference & Project Deliverables
 **For:** `00-SCHOOL\` (course files), `.PROJECTS\` (builds with a deliverable), domain reference piles. **Good looks like:** a course or project has exactly one folder, reference material is `.pdf`/`.md` only, nothing here is a live wiki-in-progress.
@@ -141,7 +129,7 @@ Currently a stray, oddly-named `...projectSuccess\` folder holding only `WATCHTO
 **For:** audit templates, field notes, case studies, pricing models, proposal/SOW patterns, the capability library — all sanitized, none client-specific. **Good looks like:** every asset is reusable across clients; anything client-specific lives outside `.ROOT` entirely.
 
 ### `77-INBOX\` — Role 8: Universal Intake Door [RESOLVED 2026-07-24]
-Previously split across `77-INBOX\` (manual drops) and `Clippings\` (automatic Obsidian web-clipping) — two folders serving the identical role, which was itself the evidence one door was redundant. Resolved: `Clippings\` is retired, the Obsidian web-clipper setting now points directly at `77-INBOX\`, and no path anywhere else in the vault needed to change since `77-INBOX\` was already the more heavily-referenced of the two. CASTLE's own `raw\` intake remains a separate triage-only staging point per `WHERE_IT_GOES.md`'s Raw-Intake rule, not a competing front door.
+`77-INBOX\` is the single universal front door. `Clippings\` is retired and the Obsidian web-clipper points here. CASTLE's `raw\` remains a separate triage-only staging point under the existing Raw-Intake rule, not a competing universal door.
 
 ### `88-JOURNAL\` — Role 9: Private Reflection
 **For:** personal reflection and private processing. **Good looks like:** no AI reads this folder, ever — that boundary is absolute in `AGENT.md`.
@@ -196,7 +184,164 @@ The same book's Ch. 5 distinguishes static content (boilerplate/rules, identical
 
 - It does not touch `NORTH_STAR.md`. Chris raised revising it "if/as needed" for clarity — that's a separate, higher-stakes edit requiring its own review, not a byproduct of the instruction-register question.
 - It does not propose new folders. Section 5's skeleton tree is unchanged by this addition.
-- `AI_engineering.pdf` and `promp_engineering_generative_AI_guide.pdf` were sampled (TOC + preface) but not deep-read this session — lowest yield of the four on this specific question; a full chunked ingest of all five new AI books into `AI_AUTOMATION_SYSTEMS\wiki\` remains queued separately (see wiki `log.md`, 2026-07-24 entry), independent of whether Chris acts on 7.1-7.6.
+- The initial Section 7 pass sampled `AI_engineering.pdf` and
+  `promp_engineering_generative_AI_guide.pdf`. That limitation is now closed:
+  all eight July 24 sources were subsequently read in complete physical-page
+  chunks. Section 8 records the whole-batch architecture synthesis; generic
+  domain compilation remains a separate owner-return decision.
+
+---
+
+## 8. Redesign-Relevant Findings from the 2026-07-24 Book Batch
+
+*Evidence-only synthesis after complete chunk intake of all eight PDFs
+(3,789/3,789 physical pages). Full coverage, limitations, and chapter-level
+findings live in
+`00-BRAIN\CASTLE\wiki\source-summaries\architecture-update-2026-07-24\`.
+This section records what the sources say about implementing this design. It
+does not approve a move, validator, metadata change, or Watchtower decision.*
+
+### 8.1 Functional-role validation
+
+- **Logical responsibility is not physical topology.** *Agentic AI for
+  Engineers* Ch. 5 and 12 distinguishes reusable patterns from centralized,
+  hierarchical, sequential, debate, and decentralized topologies. *AI
+  Engineering* Ch. 10 likewise treats component placement as fluid. This
+  supports keeping the ten roles as logical responsibilities without requiring
+  ten agents, ten processes, or one exact folder per responsibility.
+- **Start with the smallest topology that passes.** *AI Builder's Handbook*
+  Ch. 7–9, *Prompt Engineering for LLMs* Ch. 10, and *Agentic AI for Engineers*
+  Ch. 5 independently require escalation from deterministic/single-agent work
+  only after a demonstrated limitation. The taxonomy should classify work; it
+  should not manufacture orchestration.
+- **One fact, one owner; other views are derived.** *R for Data Science* Ch. 9
+  formalizes this through tidy data, while Ch. 10 adds key/cardinality
+  discipline. This supports domain-wiki ownership and CASTLE pointers rather
+  than copied research or proof.
+- **An explicit unknown state is necessary.** *Machine Learning Design
+  Patterns* Ch. 3's Neutral Class shows why a classifier must be allowed to
+  abstain. The Section 3 decision tree needs an unresolved/escalate outcome for
+  genuinely ambiguous files rather than forcing a false home.
+- **Value remains an outcome layer, not a role.** McKinsey's *Economic
+  Potential of Generative AI* separates technical feasibility, solution
+  development, adoption, capacity redeployment, and realized value. This
+  supports keeping value proof in the Return Packet and owning business system
+  instead of adding a generic "value" folder.
+- **No source falsified the ten responsibilities.** The books add interfaces,
+  lifecycle checks, and failure states, not an eleventh durable content role.
+  Collective exhaustiveness still needs real routing fixtures before
+  implementation.
+
+### 8.2 Move-integrity tooling
+
+- **Stable identifiers must survive reordered work.** *Machine Learning Design
+  Patterns* Ch. 5 (Keyed Predictions) requires keys through asynchronous
+  processing. A move audit should report a stable reference/action ID, old
+  target, new target, referring file, and status—not only a hit count.
+- **Migration needs schema bridges and checkpoints.** The same book's Ch. 4
+  (Checkpoints) and Ch. 6 (Bridged Schema) support a compatibility interval,
+  restorable checkpoints, and rollback rather than a flag-day move.
+- **Reference integrity is relational, not substring-only.** *R for Data
+  Science* Ch. 10–11 shows duplicate-key, unmatched-key, and anchor-boundary
+  failure. The tool should parse Markdown targets/headings and distinguish
+  unresolved, duplicate, and changed-anchor cases in addition to literal path
+  strings.
+- **Derived outputs need dependency-aware invalidation.** *R for Data Science*
+  Ch. 21 and *AI Engineering* Ch. 9 show that caches go stale when only the
+  immediate source is tracked. Generated maps, graph configuration, mirrors,
+  and rendered interfaces need declared dependencies or regeneration checks
+  after a move.
+- **Authoring and consumption must use the same transformation.** *Machine
+  Learning Design Patterns* Ch. 6 (Transform/Workflow Pipeline and Feature
+  Store) provides the direct analogue: a canonical file can be correct while a
+  consumer sees a stale transformation. The validator must check boot,
+  navigation, generated, and runtime consumption paths, not only source files.
+- **Fresh-session reproducibility is an acceptance test.** *R for Data Science*
+  Ch. 6 and 24 requires a cold restart/full render from durable source.
+  Migration close should include a fresh boot-chain/navigation run rather than
+  relying on the session that performed the move.
+- **Smallest coherent implementation:** one shared scanner/parser with
+  separately reportable checks for path moves, unresolved/duplicate
+  references, heading anchors, canonical-copy violations, generated dependency
+  drift, and instruction-register regressions. One executable does not mean one
+  undifferentiated pass/fail metric.
+
+### 8.3 AI/human instruction register
+
+- **The register proposal is independently corroborated.** *AI Engineering*
+  Ch. 5, *AI Builder's Handbook* Ch. 5, *Prompt Engineering for LLMs* Ch. 5–6,
+  and *Agentic AI for Engineers* Ch. 6 all treat prompts as versioned interfaces
+  with owner, model, schema/format, tests, review, and rollback.
+- **Separate instruction, evidence, and runtime state.** *Prompt Engineering
+  for Generative AI* Ch. 4–6 and *AI Engineering* Ch. 6 distinguish static
+  instruction, retrieved context, memory, and tool output. Retrieved text may
+  be stale or adversarial and must never silently inherit instruction
+  authority.
+- **Add target and acceptance metadata, not a second truth.** The smallest
+  useful record is the proposed `register:` property plus target
+  model/audience, owner, version/check date, required output contract, and named
+  validation. The human-readable body remains the canonical instruction.
+- **Validate syntax and semantics separately.** *AI Engineering* Ch. 2 and 5
+  and *AI Builder's Handbook* Ch. 5 show that valid Markdown/YAML/JSON does not
+  prove the required content or safe behavior. A register validator needs
+  structural checks plus behavioral fixtures.
+- **Examples and evaluations are versioned dependencies.** *Prompt Engineering
+  for LLMs* and *Prompt Engineering for Generative AI* Ch. 1 and 3 show that
+  examples change behavior and consume context. They belong with the
+  instruction's test record, not as untracked prose.
+- **R Markdown supplies a non-AI precedent.** *R for Data Science* Ch. 21–24
+  uses a human-readable source plus YAML control metadata and derived outputs.
+  This supports metadata over a duplicate machine-only instruction file.
+- **Flag #83 becomes the minimum regression fixture.** A validator must catch
+  both the missing `§ Wiki Shared Layer` heading and the numbered-list-to-prose
+  register collapse while leaving the instruction's substantive meaning for a
+  separate behavioral test.
+
+### 8.4 Watchtower-vs-CASTLE architecture evidence
+
+- **Sensing, monitoring, deciding, and acting have different contracts.** *AI
+  Engineering* Ch. 6 and 10 separates retrieval/monitoring from planning,
+  orchestration, and action. Each has different metrics and failure modes.
+- **Independent monitors reduce correlated failure.** *Agentic AI for
+  Engineers* Ch. 8 recommends different models, prompts, or isolated context
+  for oversight and makes monitoring responsible for drift/anomaly detection,
+  not primary action.
+- **Feedback does not authorize change.** *Agentic AI for Engineers* Ch. 11 and
+  *AI Engineering* Ch. 10 require feedback provenance, diversity, latency,
+  evaluation, and a reviewed path to modification. This matches Watchtower
+  signal → CASTLE gate → bounded owner test → measured result.
+- **Safety should match stakes.** *Agentic AI for Engineers* Ch. 8 and 13
+  distinguishes synchronous approval, human-on-the-loop supervision, sampled
+  review, and retrospective audit. Watchtower can remain read-only while CASTLE
+  applies the consequence/approval gate.
+- **Separation has a real cost.** Monitoring adds latency, storage, compute,
+  dashboards, and operational overhead. The boundary is justified only if it
+  stays small: evidence pointer, affected assumption, consequence/test, review
+  trigger—no copied research or parallel project management.
+- **No activated source argues that sensing must own sequencing.** The strongest
+  contrary pressure is interface overhead, not a need to merge authority.
+
+**Evidence-only close on Watchtower vs. CASTLE:** the batch supports keeping
+Watchtower separately observable and non-acting, with a narrow typed handoff
+into CASTLE. CASTLE owns prioritization, gating, and proof status; the owning
+wiki retains evidence; Chris owns the decision. This corroborates Section 5's
+Option B and `Untitled.md`'s independent lock, but it is not the approval
+verdict.
+
+### 8.5 Implementation consequences before any move
+
+1. Test the ten-role classifier on real ambiguous fixtures and require an
+   explicit abstain/escalate result.
+2. Build the scanner against the three July 24 failure fixtures: dead Physics
+   path, noncanonical Python syllabus copy, and missing/restored Wiki Shared
+   Layer anchor/register.
+3. Require pre-move impact inventory, checkpoint, compatibility map, rollback,
+   and fresh-session acceptance.
+4. Add `register:` only after structural and behavioral validation rules are
+   defined; do not create parallel machine-only instruction copies.
+5. Keep Watchtower separate during the migration trial. Test its handoff
+   contract; reconsider placement only if measured interface overhead exceeds
+   the independence benefit.
 
 ---
 

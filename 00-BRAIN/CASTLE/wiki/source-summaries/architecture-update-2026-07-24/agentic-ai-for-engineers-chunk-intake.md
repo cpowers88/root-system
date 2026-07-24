@@ -1,7 +1,7 @@
 ---
 type: source-summary
 timeline: reference
-status: in-progress
+status: complete
 tags: [castle, architecture, agentic-ai, agent-design, source-intake]
 source: 03-WIKIS/AI_AUTOMATION_SYSTEMS/raw/agentic_AI_for_engineers.pdf
 created: 2026-07-24
@@ -37,15 +37,15 @@ created: 2026-07-24
 | Chapter 3 — Transformer Models and LLM Architecture | 77–103 | 47–79 | Complete |
 | Chapter 4 — The Agentic AI Fundamentals: Goals, Environments, Actions | 104–140 | 81–112 | Complete |
 | Chapter 5 — Architectural Design Patterns for Agentic Systems | 141–170 | 115–145 | Complete |
-| Chapter 6 — The Art of Prompting | 171–210 | 147–185 | Pending |
-| Chapter 7 — Tools and Frameworks for Building Agents | 211–240 | 187–216 | Pending |
-| Chapter 8 — Safety, Alignment, and Robustness in Agents | 241–274 | 219–250 | Pending |
-| Chapter 9 — Real-World Domain-Specific Use Cases of Agentic AI | 275–303 | 253–279 | Pending |
-| Chapter 10 — Build Your First AI Agent (hands-on coding) | 304–328 | 281–303 | Pending |
-| Chapter 11 — Engineering Agent Feedback Loops | 329–357 | 305–333 | Pending |
-| Chapter 12 — Collaborative Agents (Multi-agent, Human-AI Teaming) | 358–394 | 335–370 | Pending |
-| Chapter 13 — Testing, Debugging, Evaluation, and Deployment | 395–421 | 373–403 | Pending |
-| Chapter 14 — Conclusion and the Road Ahead | 422–453 | 405–425 | Pending |
+| Chapter 6 — The Art of Prompting | 171–210 | 147–185 | Complete |
+| Chapter 7 — Tools and Frameworks for Building Agents | 211–240 | 187–216 | Complete |
+| Chapter 8 — Safety, Alignment, and Robustness in Agents | 241–274 | 219–250 | Complete |
+| Chapter 9 — Real-World Domain-Specific Use Cases of Agentic AI | 275–303 | 253–279 | Complete |
+| Chapter 10 — Build Your First AI Agent (hands-on coding) | 304–328 | 281–303 | Complete |
+| Chapter 11 — Engineering Agent Feedback Loops | 329–357 | 305–333 | Complete |
+| Chapter 12 — Collaborative Agents (Multi-agent, Human-AI Teaming) | 358–394 | 335–370 | Complete |
+| Chapter 13 — Testing, Debugging, Evaluation, and Deployment | 395–421 | 373–403 | Complete |
+| Chapter 14 — Conclusion and the Road Ahead | 422–453 | 405–425 | Complete |
 | Index | 454–460 | 427– | Not planned (index only) |
 
 **Next exact action:** resume at physical page 171 (printed p. 147),
@@ -607,18 +607,96 @@ lean, grow deliberately" principle applies with equal force to `.ROOT`'s
 own system-evolution decisions as to the book's target audience of
 product engineers.
 
-## Remaining Chapters — Not Yet Reviewed
+## Chapter 6 — The Art of Prompting (Physical Pages 171–210)
 
-Chapters 6-14 (physical pp. 171-453) remain unread this run. Chapter 6
-(The Art of Prompting) was opened through printed p. 148 (physical p. 172)
-but no synthesis has been written — treat as not yet covered. Chapters 7-8
-(tool/framework layer, safety/alignment) and 9-14 (domain use cases,
-hands-on build, feedback loops, multi-agent patterns, testing/evaluation/
-deployment, conclusion) remain to be reviewed. Chapters 8, 12, and 13
-remain the highest-priority remaining targets for the CASTLE architecture
-questions (safety/alignment, multi-agent human-AI teaming, and testing/
-evaluation/deployment gates respectively) if intake resumes.
+- Ground prompts in supplied documents, require citations, and surface
+  uncertainty; retrieved context remains evidence rather than instruction.
+- Structured sections plus output validation distinguish role, instructions,
+  context, tools, and output.
+- Context management must retain goal-relevant state and prune irrelevant
+  history to prevent long-running drift.
+- Evaluate the full action journey, not only the final response.
+- Store prompts as versioned artifacts with metadata, tests, review, rollback,
+  and traceability to runtime behavior.
 
-No cross-book synthesis, contradiction check, or final architecture verdict
-is authorized from this file alone — per the source-summaries index's
-Decision Gate, this report closes only when all eight sources are closed.
+## Chapter 7 — Tools and Frameworks (Physical Pages 211–240)
+
+- The durable stack separates models, memory/state, tools, orchestration,
+  observability/guardrails, and prototyping.
+- Tool inputs and outputs need schemas; retries need budgets, circuit breakers,
+  and classified failures.
+- Keep core functions framework-agnostic behind explicit interfaces.
+- Named frameworks and managed services are volatile examples.
+
+## Chapter 8 — Safety, Alignment, and Robustness (Physical Pages 241–274)
+
+- Oversight is risk-tiered: high-stakes action keeps a human in the loop;
+  bounded lower-risk action may keep a human on the loop, with takeover.
+- Least privilege applies to tools and data.
+- Monitoring agents check policy, quality, consistency, drift, and
+  hallucination. Different models, prompts, or isolated context reduce
+  correlated oversight failure.
+- Synchronous checks, sampling, and retrospective audit have different
+  latency/cost/risk profiles.
+- Structured logs need privacy, access, and retention boundaries.
+
+**Watchtower evidence:** independent monitoring should be separate enough to
+challenge the acting system and should not share identical context and
+incentives by default. The monitor does not own decisions.
+
+## Chapters 9–10 — Use Cases and Hands-On Build (Physical Pages 275–328)
+
+- Examples separate sensing/retrieval, analysis, recommendation, approval, and
+  execution according to risk.
+- The research-agent example uses researcher, summarizer, and critic
+  responsibilities in sequence. The critic evaluates but does not
+  automatically authorize correction or action.
+- Tool-specific code adds no new `.ROOT` role.
+
+## Chapter 11 — Engineering Feedback Loops (Physical Pages 329–357)
+
+- Implicit outcomes, human ratings, external events, and evaluator agents have
+  different latency, coverage, diversity, and reliability.
+- Correction-to-improvement and error-recurrence measures distinguish collected
+  feedback from actual learning.
+- Drift, volatility, overload, privacy risk, and source concentration can
+  corrupt adaptation.
+- Autonomy expands only after measured confidence; ambiguous/high-impact cases
+  continue to escalate.
+
+## Chapter 12 — Collaborative Agents (Physical Pages 358–394)
+
+- Centralized, hierarchical, sequential, debate, and decentralized patterns are
+  coordination topologies, not new domain owners.
+- Clear tool ownership prevents collisions; shared context needs provenance and
+  bounded synchronization.
+- Multi-agent design is justified by specialized capability, independent error,
+  parallelism, or oversight—not by mapping every role to an agent.
+
+## Chapter 13 — Testing, Evaluation, and Deployment (Physical Pages 395–421)
+
+- Test units, integrations, trajectories, adversarial behavior, long-horizon
+  memory, and deployment behavior separately.
+- Telemetry records tools, evidence, decisions, escalations, errors, and user
+  outcomes.
+- Prompts, tools, and memory configuration are versioned release artifacts.
+- Use shadow mode, canaries, circuit breakers, exit criteria, and tested
+  rollback.
+- Detailed traces create privacy risk; use redaction, sampling, retention, and
+  access controls.
+
+## Chapter 14 — Conclusion (Physical Pages 422–453)
+
+- Start narrow, instrument, plan recovery, retain human accountability, and
+  expand autonomy only through evidence.
+- Regulation, labor, and capability forecasts are volatile.
+
+## Coverage Declaration
+
+- **Fully examined:** physical pages 1–453, front matter and all 14 chapters.
+  Physical pages 454–460 (index/back matter) were checked for topic-location
+  confirmation.
+- **Evidence-only Watchtower close:** independent monitoring, anomaly sensing,
+  and external feedback should remain separately observable from orchestration
+  and action. This supports Watchtower feeding CASTLE without inheriting
+  CASTLE's decision authority; Chris owns the verdict.

@@ -1,7 +1,7 @@
 ---
 type: source-summary
 timeline: reference
-status: in-progress
+status: complete
 tags: [castle, architecture, data-science, reproducibility, source-intake]
 source: 03-WIKIS/TECHNOLOGY/raw/r_for_data_science.pdf
 created: 2026-07-24
@@ -42,10 +42,14 @@ created: 2026-07-24
 | Chapter 4 — Workflow: Scripts | 104–107 | Complete |
 | Chapter 5 — Exploratory Data Analysis | 108–136 | Complete |
 | Chapter 6 — Workflow: Projects | 138–143 | Complete (architecture-relevant) |
-| Chapter 7 — Tibbles with tibble | 145–… | Opened |
-| Chapters 8–17 (rest of Wrangle + Program parts) | — | Pending |
-| Chapter 9 — Tidy Data with tidyr | — | Pending (architecture-relevant target) |
-| Chapters 18–24 (Model + Communicate parts) | — | Pending |
+| Chapter 7 — Tibbles with tibble | 145–166 | Complete |
+| Chapter 8 — Data Import with readr | 166–187 | Complete |
+| Chapter 9 — Tidy Data with tidyr | 187–196 | Complete |
+| Chapters 10–13 — relational data, strings, factors, dates/times | 197–286 | Complete |
+| Chapters 14–17 — pipes, functions, vectors, iteration | 287–370 | Complete |
+| Chapters 18–20 — model basics, building, many models | 371–448 | Complete |
+| Chapters 21–24 — R Markdown and communication | 449–507 | Complete |
+| Back matter and index | 508–520 | Complete |
 
 ## Front Matter — PDF Pages 1–28
 
@@ -411,32 +415,52 @@ standalone finding.
 coverage ledger already cross-checks against an independent expected-source
 list (in which case this is already handled and not a gap).
 
-## Coverage Note
+## Chapters 10–13 — PDF Pages 197–286
 
-This report was closed mid-book by a background intake pass, having
-covered PDF pages 1–196 of 520 (Front matter through the end of Chapter 9,
-*Tidy Data*). Both chapters flagged in advance as most likely
-architecture-relevant were reached and yielded real material: Chapter 5
-(EDA) for corroborating evidence-handling discipline, Chapter 6 (Workflow:
-Projects) for the strongest direct corroboration of `.ROOT`'s
-raw-immutability/no-absolute-path/single-location rules (citable against
-Flag #83), and Chapter 9 (Tidy Data) for a formal justification of
-one-fact-one-owner and a named open test for coverage-ledger design
-(explicit vs. implicit gaps).
+- Relational joins require explicit keys/cardinality. Duplicate keys multiply
+  rows; unmatched keys silently discard facts. A reference audit must identify
+  duplicate targets and unresolved references.
+- Filtering joins distinguish testing a relationship from mutating a record;
+  validators should report before changing.
+- Regex anchors match text boundaries, not meaning. Heading integrity needs
+  parsed Markdown identity/link resolution, not substring search alone.
+- Factors/dates mainly add the reminder to record order, locale, and time zone.
 
-Chapters 10–24 (relational joins, regular expressions, factors, dates,
-functional programming with purrr, vectors, statistical modeling, R
-Markdown/communication) were **not examined** and are unread — the pattern
-in Chapters 1–9 (heavy R/tidyverse syntax, occasional generalizable
-asides) suggests continued low relevance density, but per this source's
-own rule extraction is not reading and that expectation is not confirmed.
-R Markdown (Chapters 21–24, roughly PDF pages 495–530 by the table of
-contents) is the one remaining section worth flagging as plausibly
-relevant on inspection, since it concerns treating Markdown as a
-version-controlled, parameterized document format — a possible additional
-data point for the AI-instruction-vs-human-instruction register question,
-though `AI_engineering` and `AI_builders_handbook` already cover that
-ground more directly for this synthesis.
+## Chapters 14–17 — PDF Pages 287–370
 
-**Resume at PDF page 197** (Chapter 10, "Relational Data with dplyr") and
-continue consecutively if further coverage of this source is wanted.
+- Functions give repeated logic one named implementation and contract.
+- Iteration should preserve keys and per-item failures.
+- Pipes clarify linear sequence but become harder with branches/side effects;
+  use named state at consequential branches.
+- Most content is R syntax and adds no architecture mechanism.
+
+## Chapters 18–20 — PDF Pages 371–448
+
+- A model is a simplified representation; residuals/held-out cases show what it
+  misses. Architecture categories need concrete routing tests and exceptions.
+- Many-model workflows keep data, model, metrics, and identifiers together.
+- Statistical mechanics are out of scope; no new `.ROOT` role is proposed.
+
+## Chapters 21–24 — PDF Pages 449–507
+
+- R Markdown is one plain-text source combining prose, executable code, and
+  generated results. Reader views are derived rather than parallel truth.
+- YAML is a machine-readable control surface separate from prose. This supports
+  frontmatter/register metadata for consequential instructions.
+- Cached chunks are unsafe when only their own code is tracked. Dependencies
+  and external-file versions must invalidate the cache.
+- Parameterized reports reuse one source against declared inputs.
+- The lab-notebook workflow records successes, failures, and reasoning, then a
+  clean full render verifies reproducibility outside the interactive session.
+- Long-term reproducibility also requires environment/package versions.
+
+## Coverage Declaration
+
+- **Fully examined:** all 520 physical pages, front matter through Chapters
+  1–24 and back matter.
+- **Material contributions:** Chapters 5, 6, 9, 10, 11, and 21–24.
+- **Confirmed low-relevance spans:** Chapters 1–4, 7–8, and 12–20 are mostly
+  R/tidyverse mechanics; only transferable findings were activated.
+- **Remaining uncertainty:** this 2017 source carries strongest weight for
+  reproducibility, canonical source, dependencies, keys, joins, and literate
+  computing—not agent architecture.

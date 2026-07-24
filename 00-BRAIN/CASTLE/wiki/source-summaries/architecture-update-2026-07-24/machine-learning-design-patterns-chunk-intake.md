@@ -1,7 +1,7 @@
 ---
 type: source-summary
 timeline: reference
-status: in-progress
+status: complete
 tags: [castle, architecture, machine-learning, design-patterns, source-intake]
 source: 03-WIKIS/TECHNOLOGY/raw/Machine_learning_design.pdf
 created: 2026-07-24
@@ -33,10 +33,10 @@ created: 2026-07-24
 | Chapter 1 — The Need for ML Design Patterns | 1–17 (book pages) | Complete |
 | Chapter 2 — Data Representation Design Patterns (Patterns 1–4: Hashed Feature, Embeddings, Feature Cross, Multimodal Input) | 19–77 | Complete |
 | Chapter 3 — Problem Representation Design Patterns (Patterns 5–7: Reframing, Multilabel, Ensembles) through Ensembles' Bagging/Boosting/Stacking | 79–107 | Complete |
-| Chapter 3 remainder (Ensembles trade-offs tail, Pattern 8 Cascade, Pattern 9 Neutral Class, Pattern 10 Rebalancing) | 108–137 | **Pending** — extracted only |
-| Chapter 4 — Model Training Patterns (Patterns 11–15: Useful Overfitting, Checkpoints, Transfer Learning, Distribution Strategy, Hyperparameter Tuning) | 139–198 | **Pending** — extracted only |
-| Chapter 5 — Design Patterns for Resilient Serving (Patterns 16–20: Stateless Serving Function, Batch Serving, Continuous Model Evaluation, Two-Phase Predictions, Keyed Predictions) | 201–248 | **Pending** — extracted only |
-| Chapter 6 front half (Patterns 21–25: Repeatable Splitting, Bridged Schema, Windowed Inference, Transform, Repeatable Sampling) | 249–~300 | **Pending** — extracted only |
+| Chapter 3 remainder (Ensembles trade-offs tail, Pattern 8 Cascade, Pattern 9 Neutral Class, Pattern 10 Rebalancing) | 108–137 | Complete |
+| Chapter 4 — Model Training Patterns (Patterns 11–15: Useful Overfitting, Checkpoints, Transfer Learning, Distribution Strategy, Hyperparameter Tuning) | 139–198 | Complete |
+| Chapter 5 — Design Patterns for Resilient Serving (Patterns 16–20: Stateless Serving Function, Batch Serving, Continuous Model Evaluation, Two-Phase Predictions, Keyed Predictions) | 201–248 | Complete |
+| Chapter 6 front half (Patterns 21–25: Repeatable Splitting, Bridged Schema, Windowed Inference, Transform, Repeatable Sampling) | 249–~300 | Complete |
 | Chapter 6 back half (Pattern 26 Feature Store, Pattern 27 Model Versioning, chapter summary) | ~301–318 | Complete |
 | Chapter 7 — Responsible AI (Patterns 28–30: Heuristic Benchmark, Explainable Predictions, Fairness Lens) | 319–358 | Complete |
 | Chapter 8 — Connected Patterns (pattern reference tables, pattern interactions, ML life cycle, AI readiness, common patterns by use case) | 359–381 | Complete |
@@ -367,7 +367,50 @@ adopt a similar interaction table.
 `.ROOT` itself, run before any hub is granted new automation authority,
 modeled on this chapter's own readiness gate rather than invented fresh.
 
-## Cross-Chapter Synthesis Notes (bounded to pages actually read)
+## Chapter 3 Remainder — Problem Representation (pp. 108–137)
+
+- **Cascade:** apply a cheap/general first stage and invoke an expensive or
+  specialized stage only for uncertain cases.
+- **Neutral Class:** explicitly represent unknown/none instead of forcing every
+  input into a named class.
+- **Rebalancing:** aggregate accuracy can hide minority-class failure; report
+  performance by failure/routing class.
+
+## Chapter 4 — Model Training Patterns (pp. 139–198)
+
+- **Useful Overfitting:** complexity must beat a deliberately simple benchmark
+  on held-out evidence.
+- **Checkpoints:** long work needs restorable, versioned intermediate states.
+- **Transfer Learning:** reuse a proven general component and adapt the smallest
+  necessary layer.
+- **Hyperparameter Tuning:** declare the objective/search space and protect the
+  final acceptance evidence from tuning.
+
+## Chapter 5 — Resilient Serving (pp. 201–248)
+
+- **Stateless Serving Function:** isolate deterministic request/response logic
+  from persistent state so it can be retried and tested.
+- **Batch Serving:** offline intake and interactive action have different
+  latency contracts.
+- **Continuous Model Evaluation:** production behavior on current data matters;
+  build-time quality does not prove current usefulness.
+- **Two-Phase Predictions:** use a cheap first-stage gate and escalate difficult
+  or consequential cases.
+- **Keyed Predictions:** stable identifiers must survive asynchronous or
+  reordered processing.
+
+## Chapter 6 Front Half — Reproducibility (pp. 249–300)
+
+- **Repeatable Splitting/Sampling:** deterministic keys make evaluation and
+  regression investigation reproducible as data grows.
+- **Bridged Schema:** old and new schemas can coexist during migration;
+  adapters and explicit uncertainty beat a flag-day rewrite.
+- **Windowed Inference:** define the applicable time/event window; do not treat
+  volatile records as timeless.
+- **Transform/Workflow Pipeline:** authoring and consumption must execute the
+  same versioned dependencies to prevent drift.
+
+## Cross-Chapter Synthesis Notes
 
 - **Repeated finding, two sources:** the requirement for an explicit human or
   heuristic baseline before calling a model or workflow "successful" appears
@@ -389,25 +432,12 @@ modeled on this chapter's own readiness gate rather than invented fresh.
   Reframing→Rebalancing) were extracted verbatim above rather than
   reconstructed, since the source states them explicitly.
 
-## Coverage Declaration (this pass)
+## Coverage Declaration
 
-- **Fully read this run:** pp. 1–107 (front matter, Chapters 1–2, Chapter 3
-  through Ensembles/Stacking) and pp. ~301–408 (Chapter 6 back half,
-  Chapter 7, Chapter 8, index/back matter) — 8 of 8 chapters touched, 5 of 8
-  substantially or fully closed.
-- **Extracted but not read this run (genuine gap):** pp. 108–~300 — Chapter
-  3's remaining three patterns (Cascade, Neutral Class, Rebalancing), all of
-  Chapter 4 (Useful Overfitting, Checkpoints, Transfer Learning, Distribution
-  Strategy, Hyperparameter Tuning), all of Chapter 5 (Stateless Serving
-  Function, Batch Serving, Continuous Model Evaluation, Two-Phase
-  Predictions, Keyed Predictions), and Chapter 6's front half (Repeatable
-  Splitting, Bridged Schema, Windowed Inference, Transform, Repeatable
-  Sampling). A page-rendering fault in this session (verified by three
-  separate retries at decreasing chunk sizes, each re-displaying stale
-  already-seen pages instead of the newly requested range) is the specific,
-  disclosed reason, not a scope or time shortcut.
-- **No architecture verdict should be drawn from this file alone** on any
-  question specific to Chapters 3(tail)–6(front half) — e.g., nothing here
-  should be read as covering Continuous Model Evaluation, Two-Phase
-  Predictions, or Distribution Strategy, since those pages were never
-  visually confirmed.
+- **Fully examined:** all 408 physical PDF pages, front matter through Chapters
+  1–8 and back matter.
+- **Render-fault resolution:** physical pages 108, 155, 217, 265, and 300
+  rendered as distinct legible pages in a fresh tool context. The recovered
+  span was then reviewed consecutively.
+- **Remaining uncertainty:** cloud products, APIs, and examples reflect 2020;
+  the pattern statements and trade-offs are the durable evidence used here.
