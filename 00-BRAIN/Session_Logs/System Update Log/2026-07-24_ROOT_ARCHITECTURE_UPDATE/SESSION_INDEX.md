@@ -39,6 +39,11 @@ CASTLE impact report proves relocation is worth its migration cost.
   cleanup, and audit findings.
 - `2026-07-24_PATH_REFERENCE_CLASSIFICATION_REPORT.md` — baseline rules,
   live subset results, and deferred PHYSICS disposition.
+- `DEFERRED_HOUSEKEEPING_AND_HUMAN_INTERFACE_REPORT.md` — preserved notes on
+  later housekeeping, human-facing reports, and the possible `04-Chris`
+  boundary.
+- `NORTH_STAR_REVIEW_HANDOFF_AND_FRESH_CHAT_PROMPT.md` — authority decisions,
+  review order, and the ready-to-paste fresh-session prompt.
 
 Supporting live artifacts remain in their owning homes:
 

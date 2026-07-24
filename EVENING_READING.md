@@ -3,26 +3,23 @@ type: dashboard
 timeline: now
 status: active
 tags: [learning]
-generated: 2026-07-23
+generated: 2026-07-24
 ---
 
-# Evening Reading ΓÇö July 23, 2026
+# Evening Reading ΓÇö July 24, 2026
 
 ## School
 
-**READ ΓÇö** *Think Python* (`03-WIKIS/PYTHON/raw/books/thinkpython.pdf`), Ch. 7 "Iteration," from "Reassignment" through "Algorithms."
+**READ ΓÇö** `03-WIKIS/PYTHON/wiki/drills/stage-03-loop-tracing.md`, Part A (Snippets 1-3) and Part B item 3.
 
-**FOCUS ΓÇö** This is the Stage 3 spine chapter behind tonight's active gap ΓÇö **the "Algorithms" section's multi-step examples model exactly the broader loop sequencing Chris still needs under pressure**, past basic `break` retrieval.
+**FOCUS ΓÇö** Targets tonight's live frontier ΓÇö broader multi-part loop sequencing under pressure, not basic `break` ΓÇö **trace Snippet 3's counter/`break` interaction by hand before running it**.
 
-**STOP ΓÇö** Stop at the start of Chapter 8 ("Strings"); do not read past "Algorithms" tonight.
+**STOP ΓÇö** Stop after Part A's three snippets and Part B item 3; do not start Part B items 1-2 tonight.
 
 ## Technology
 
-**READ ΓÇö** `03-WIKIS/AI_AUTOMATION_SYSTEMS/wiki/mcp-landscape-architecture-and-patterns.md`, the "The six primitives (plus one experimental)" section.
+**READ ΓÇö** `00-BRAIN/Session_Logs/ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`, the Day 5 (AI Infrastructure) row and its stdio/Inspector logging guidance (lines ~203-217).
 
-**FOCUS ΓÇö** Directly closes Day 5's held gate ΓÇö **resources are passive, application-controlled data; tools are model-invoked actions, which is why the count is a tool, not a resource**.
+**FOCUS ΓÇö** Prepares Day 5's SDK-wiring session against the Day 4 contracts in `mcp_contracts.py` ΓÇö **stdout is reserved for JSON-RPC traffic, so all logging must go to stderr or a file**.
 
-**STOP ΓÇö** Stop at "Cross-cutting and experimental: Tasks"; do not continue into client scaling patterns tonight.
-```
-
-This is ready to save over `EVENING_READING.md`; I made no edits since read-only inspection was required ΓÇö let me know if you'd like me to write it.
+**STOP ΓÇö** Stop before the Cybersecurity & Governance (Day 6) material; do not read ahead into host-connection/threat-model content tonight.
