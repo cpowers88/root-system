@@ -18,7 +18,12 @@ and `Generative_AI_economic_potential.pdf` (McKinsey, June 2023 — economic
 impact of gen AI; routed here per the AI/LLM lane rule despite the business
 framing). No overlap with existing raw/ inventory.
 
-Files placed only — no chunk-ingest yet (6 dense O'Reilly/report-length
+A 6th book landed slightly later the same morning:
+`agentic_AI_for_engineers.pdf` (Dhivya Nagasubramanian, *Agentic AI for
+Engineers: Architecting Goal-Driven Systems*, Apress) — agent-architecture
+research, squarely this hub's charter. No overlap with existing raw/.
+
+Files placed only — no chunk-ingest yet (7 dense O'Reilly/Apress/report-length
 sources; full ingest is a queued multi-session job, not today's work).
 Today's actual use: Chris directed a targeted mining pass across a subset
 of these for principles relevant to the active vault-skeleton-design.md
