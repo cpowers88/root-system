@@ -14,8 +14,10 @@ This page tracks Chris current physics learning position.
 ## Current Baseline
 
 Course: PHYS 2211 — Principles of Physics I (Kennesaw State, Fall 2026, Dr. Behera).
-Source intake complete for `raw/syllabus/syllabus.pdf` and the split Serway &
-Jewett 10th-edition textbook files registered in [[source-map]].
+Source intake complete for the original `syllabus.pdf` (superseded and archived
+2026-07-21 — see [[source-map]] for its current location and the two real Fall
+2026 section syllabi that replaced it as the live reference) and the split Serway
+& Jewett 10th-edition textbook files registered in [[source-map]].
 
 Known learning requirements:
 

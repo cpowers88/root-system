@@ -885,3 +885,62 @@ Append-only session record.
   populates real Section 54 content — expected around Aug 24 — re-run the
   cross-check (Trigger Rule 5) and replace the estimated column with real
   dates in the same pass.
+
+## 2026-07-23 — Dead syllabus.pdf path found and fixed (Claude Code)
+
+### Objective
+- Chris asked for a second set of eyes on `CLAUDE.md` after the same class of
+  issue was found and fixed in the Python wiki: incorrect/stale paths to the
+  course syllabi governing this hub.
+
+### Work completed
+- Found that `source-map.md`, `syllabus-coverage-ledger.md`,
+  `current-position.md`, and `learning-path.md` all cited `raw/syllabus/
+  syllabus.pdf` as a live, currently-readable file — course outcomes, grading,
+  AI policy, and the full 19-page data-quality gate were all written as if the
+  file still lived there. It does not: `raw/syllabus/` currently holds only
+  the two real Fall 2026 section syllabi (`PHYS 2211 51` and `PHYS 2211 55`)
+  plus `README.md`. The original `syllabus.pdf` was moved on 2026-07-21 to
+  `99-ARCHIVE\02-LIBRARY\00-SCHOOL\SYLLABI_REPLACED_2026-07-21\02-Physics I\
+  syllabus.pdf` — confirmed by direct filesystem search, not inferred.
+- This is a harder break than the Python case (which cited an existing but
+  non-canonical duplicate): here the exact cited file is genuinely gone from
+  the path four separate pages pointed to.
+- `syllabus-coverage-ledger.md`'s own July 21 Cross-Section Verification
+  section had already reasoned that `syllabus.pdf` was "very likely an early,
+  truncated capture" of the Section 55 syllabus and should be "treated as
+  superseded" — but nothing had gone back to update the citing pages once
+  that was known, and none of them had discovered the file was actually
+  archived, not just superseded-in-place.
+
+### Pages created/updated
+- `source-map.md` — the `syllabus.pdf` Sources-table row now states it is
+  superseded/archived with its current path; the Syllabus Data-Quality Gate
+  section is relabeled historical, sourced from the archived PDF, not a live
+  file.
+- `syllabus-coverage-ledger.md` — added a Source note dating the archive move
+  and pointing to the current file location; the "original spine source" line
+  in Cross-Section Verification updated to past tense with the same pointer.
+- `current-position.md`, `learning-path.md` — both "Built from `raw/syllabus/
+  syllabus.pdf`" lines corrected to note the file is superseded/archived and
+  point to the two real section syllabi as the live reference.
+- `parking-lot.md` — the two rows sourced to `syllabus.pdf` (remaining
+  calendar, operational corrections) updated with the archive pointer; the
+  calendar row also notes the 2026-07-21 partial resolution already recorded
+  in `source-map.md` (Section 55's real Ch 6-15 calendar) that these two rows
+  hadn't been updated to reflect.
+
+### Concepts/equations/problem types added
+None — citation/path correction only.
+
+### Progress evidence
+n/a — governance session. No physics content changed; all data-quality
+findings and course facts extracted from `syllabus.pdf` while it was live
+remain accurate and are preserved, just correctly labeled as historical.
+
+### Parked material
+None new.
+
+### Next action for Chris
+None urgent — this was a citation-path repair, not a content change. The
+existing next actions (Section 54 D2L confirmation, Aug 24+) are unchanged.

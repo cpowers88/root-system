@@ -10,10 +10,19 @@ tags: [physics, school, governance]
 
 ## Purpose
 
-Account for every page of `raw/syllabus/syllabus.pdf` without mixing course
-operations into physics lesson packets. Academic content routes to the Stage 1-18
-path; policies and resources route to the course-governance layer. This ledger was
-completed by visual inspection of all 19 pages on 2026-07-15.
+Account for every page of `syllabus.pdf` (the original provisional spine source)
+without mixing course operations into physics lesson packets. Academic content
+routes to the Stage 1-18 path; policies and resources route to the
+course-governance layer. This ledger was completed by visual inspection of all 19
+pages on 2026-07-15.
+
+**Source note (2026-07-23):** `syllabus.pdf` was superseded and archived on
+2026-07-21 — it no longer lives at `raw/syllabus/`; the current copy is
+`99-ARCHIVE\02-LIBRARY\00-SCHOOL\SYLLABI_REPLACED_2026-07-21\02-Physics I\syllabus.pdf`.
+The page-by-page disposition and data-quality findings below are preserved as
+historical record. The two real Fall 2026 section syllabi in `raw/syllabus/`
+(Section 51 and Section 55 — see [[source-map]] and Cross-Section Verification
+below) are now the current best-available sources for anything past Chapter 5.
 
 ## Authority Rule
 
@@ -127,10 +136,11 @@ Chapter 5.
 - Topic order for Ch 1 through Ch 12 matches [[learning-path]]'s Stage 1-12
   sequence exactly in both sections. Ch 15 (SHM) also lands in the same relative
   position in both. This corroborates the existing stage order.
-- `raw/syllabus/syllabus.pdf` (the original spine source) is very likely an early,
-  truncated capture of this same Section 55 syllabus — identical instructor,
-  identical grading weights, identical early-week dates. Treat it as superseded by
-  the new Section 55 file for anything past Chapter 5.
+- `syllabus.pdf` (the original spine source, now archived — see the Source note
+  above) was very likely an early, truncated capture of this same Section 55
+  syllabus — identical instructor, identical grading weights, identical
+  early-week dates. It is superseded by the new Section 55 file for anything
+  past Chapter 5.
 
 **What this surfaces as a real open question — tracked, not acted on:**
 
