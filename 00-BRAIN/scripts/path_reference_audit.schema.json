@@ -9,8 +9,12 @@
     "mode",
     "root",
     "include_archive",
+    "baseline",
     "files_scanned",
     "issue_counts",
+    "baseline_counts",
+    "baselined_count",
+    "unbaselined_count",
     "issues"
   ],
   "properties": {
@@ -19,11 +23,18 @@
     "mode": {"const": "read-only-baseline-link-integrity"},
     "root": {"type": "string", "minLength": 1},
     "include_archive": {"type": "boolean"},
+    "baseline": {"type": ["string", "null"]},
     "files_scanned": {"type": "integer", "minimum": 0},
     "issue_counts": {
       "type": "object",
       "additionalProperties": {"type": "integer", "minimum": 1}
     },
+    "baseline_counts": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 1}
+    },
+    "baselined_count": {"type": "integer", "minimum": 0},
+    "unbaselined_count": {"type": "integer", "minimum": 0},
     "issues": {
       "type": "array",
       "items": {
@@ -34,6 +45,8 @@
           "source": {"type": "string", "minLength": 1},
           "line": {"type": "integer", "minimum": 0},
           "target": {"type": "string"},
+          "classification": {"type": "string"},
+          "baseline_rule": {"type": "string"},
           "resolved": {"type": "string"},
           "anchor": {"type": "string"},
           "detail": {"type": "string"},

@@ -2115,3 +2115,33 @@ other named scopes pass. Slice A0 is clear.
 - Return report: `00-BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE_UNIFIED.md`.
 - **Next:** classify findings, establish the baseline allowlist, and only then
   produce the CASTLE relocation impact report.
+
+## 2026-07-24 — Path-reference classification (Codex continuation)
+
+- Classified the 1,285 audit findings conservatively: 15 intentional template,
+  97 historical narrative/archive, 109 intentional external references, and
+  1,064 unclassified candidates left open.
+- Added `00-BRAIN\scripts\path_reference_baseline.json` and the detailed
+  session report `2026-07-24_PATH_REFERENCE_CLASSIFICATION_REPORT.md`.
+- **Next:** rerun with the integrated baseline and inspect the unbaselined
+  live CASTLE/wiki subset.
+
+## 2026-07-24 — Baseline integration test (Codex continuation)
+
+- Integrated `path_reference_baseline.json` into `path_reference_audit.py`.
+- Final run scanned 1,670 Markdown files: 221 baselined and 1,064
+  unbaselined. Exit `1` remains the expected safety gate.
+- **Next:** inspect the unbaselined CASTLE/wiki subset and classify confirmed
+  defects before producing the relocation impact report.
+
+## 2026-07-24 — Live CASTLE/wiki subset audit (Codex continuation)
+
+- Corrected hub-scoped wikilink resolution, removing 120 false positives from
+  the prior full inventory without changing Markdown.
+- Corrected subset: 266 unbaselined findings — PHYSICS 149, TECHNOLOGY 69,
+  SYSTEMS 29, PYTHON 13, REVENUE_LAB 4, BUSINESS 1, CASTLE 1.
+- **Next:** owner-review PHYSICS first, then TECHNOLOGY; repair or baseline
+  only after canonical targets are confirmed.
+- **Disposition:** carry the PHYSICS cluster as deferred structural work;
+  do not bulk-repair or baseline until the later-stage packet/page architecture
+  is reviewed.

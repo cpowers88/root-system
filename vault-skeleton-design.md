@@ -1,6 +1,6 @@
 # .ROOT Vault Skeleton — Functional Roles, Classification Rule, and Move-Integrity Design
 
-*A design spec, not an execution plan. No folder is renamed or moved by this document — it defines the roles, the rule, and the evidence-gated mechanism the skeleton falls out of. The 2026-07-24 source batch sharpened the proposal but did not authorize implementation.*
+*A design spec and governing target for the 2026-07-24 meta-layer implementation. The current physical tree remains unchanged; this document defines the logical roles, routing rule, evidence-gated mechanism, and migration conditions.*
 
 ---
 
@@ -24,7 +24,7 @@ Pressure-tested at ten. The roles map to the current vault, with Intake now reso
 |---|------|------------|--------------------------|
 | 1 | **AI Governance & Coordination** | AI operating instructions, capability profiles, system self-knowledge, cross-cutting governance maps. | `00-BRAIN\` |
 | 2 | **Durable Direction** | Strategy/priority that outlives any single project or session. | `01-NORTH_STAR\` |
-| 3 | **Decision & Sequencing Cockpit** | What's the next highest-value action, who owns it, what proves it, where does it return — points at owner truth, never copies it. | `00-BRAIN\CASTLE\` (relocating) |
+| 3 | **Decision & Sequencing Cockpit** | What's the next highest-value action, who owns it, what proves it, where does it return — points at owner truth, never copies it. | `00-BRAIN\CASTLE\` (current; elevation deferred pending impact gate) |
 | 4 | **External Signal Steering** | A verified external change with material consequence, routed after its evidence already lives in the owning wiki. | `...projectSuccess\` (Watchtower files) |
 | 5 | **Staged Research & Learning** | Multi-session research or coursework toward mastery or a decision, in one bounded subject domain. | `03-WIKIS\` |
 | 6 | **Reusable Reference & Project Deliverables** | Stable reference material, course files, in-progress build artifacts. | `02-LIBRARY\` |
@@ -73,7 +73,7 @@ Text to insert into `00-BRAIN\WHERE_IT_GOES.md`, as a new section titled `## Fun
 - **Inputs:** explicit old/new pairs or a `--since <git-ref>` rename inventory, a baseline for accepted historical mentions, `--strict`, `--json`, and an optional archive-inclusion switch.
 - **Scope:** tracked Markdown and implementation/config files across `.ROOT`, with archive narrative excluded by default because it is expected to describe old paths.
 - **Acceptance:** report boot-chain, navigation, generated-output, and runtime-consumer references—not only source-file text. A move is not complete until its impact report is clear, or every remaining historical hit is baselined.
-- **Session integration:** add the move/archive check to CASTLE Session Close only after the read-only prototype is validated. Do not edit governance files or build the validator as part of this proposal.
+- **Session integration:** the read-only prototype now exists at `00-BRAIN\scripts\path_reference_audit.py`; CASTLE Session Close integration remains gated on fixture tests, acceptance evidence, and explicit governance review. The validator remains read-only against live vault content.
 - **How it would have caught each of the 3 real incidents this session:**
   1. **Python wiki citations** — running the audit in canonical-path-verify mode (given the syllabus's designated canonical home, flag any *other* full path in the vault referencing the same filename) would have flagged the personal-folder duplicate as a second, non-canonical location the moment either reference was written — instead of it sitting silently until this session's review.
   2. **Physics wiki citations** — this is the exact case the tool is built for: `raw/syllabus/syllabus.pdf` was archived days earlier and four files still cited it as live. Running `path_reference_audit.py --old raw/syllabus/syllabus.pdf --new <archived path>` at the moment of archiving would have listed all four files as required fixes before the archive was considered done.
@@ -348,6 +348,31 @@ verdict.
 
 ---
 
+## 9. Migration, Validation, Value, and Reversal Gate
+
+The meta-layer is implemented before any physical relocation. Every structural
+change must pass the same sequence:
+
+1. **Inventory:** produce a deterministic read-only impact report for paths,
+   anchors, boot references, navigation, and runtime consumers.
+2. **Checkpoint:** preserve the pre-change state and record the exact proposed
+   old-to-new mapping.
+3. **Human approval:** Chris approves the target, scope, and rollback trigger.
+4. **Bounded migration:** make the smallest reversible change, never modify
+   immutable `raw\` evidence, and archive rather than delete.
+5. **Acceptance:** run the audit from a fresh session, verify the owning wiki
+   and CASTLE/Watchtower handoff, and record benefit evidence.
+
+The machine-learning evidence adds operational requirements: stable IDs,
+versioned interfaces, explicit neutral/abstain states, dependency-aware
+outputs, human and heuristic baselines, measurable checkpoints, and
+reproducible fresh-session tests. A move that cannot show those properties is
+not ready for execution. If the measured interface cost exceeds the benefit,
+reverse the bounded change using the checkpoint and retain the evidence in
+`99-ARCHIVE\`.
+
+---
+
 ## Critical Files for Implementation (later, separately approved)
 
 - `C:\Users\chris\.ROOT\00-BRAIN\WHERE_IT_GOES.md` — where Section 3's rule gets inserted above the existing Decision Tree (line 41).
@@ -358,4 +383,6 @@ verdict.
 - `C:\Users\chris\.ROOT\00-BRAIN\WHERE_IT_GOES.md` Metadata Standard — where Section 7.1's `register: ai-directive` / `register: human-context` property would be added, if Chris approves it.
 - `path_reference_audit.py`'s spec (Section 4) — where Section 7.4's anchor/register-regression check would extend the tool's scope, if approved.
 
-**None of the above are edited by this document.** This is the design spec only — implementation is a separate, later approval.
+The 2026-07-24 implementation packet records the approved meta-layer work and
+the deferred physical-migration gate:
+`00-BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\SESSION_INDEX.md`.

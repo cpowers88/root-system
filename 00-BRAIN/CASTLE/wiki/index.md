@@ -7,7 +7,7 @@ tags: []
 
 # Index — Every Live Page in CASTLE
 
-### Updated: July 24, 2026 — architecture evidence refinery added; source-summaries intake ~46% closed (5 of 8 sources still in progress)
+### Updated: July 24, 2026 — architecture evidence refinery and implementation packet finalized; all eight source summaries closed for this update
 
 This is a discovery index, not a second current-state dashboard. Live action belongs to `.ROOT\NOW.md`; baseline and proof state belong to [[current-position]] and the owning domain systems.
 
@@ -36,6 +36,7 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 - [[source-map]] — roadmap-shaping evidence
 - [[opportunity-queue]] — opportunities moving from evidence to test or harvest
 - [[root-architecture-evidence-refinery-2026-07-24]] — integrated decision report on the vault skeleton, integrity validators, migration gates, and owner returns
+- `00-BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\SESSION_INDEX.md` — canonical implementation packet and review handoff
 - [[log]] — append-only CASTLE history
 
 ## Phase Pages
@@ -59,7 +60,7 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 
 - [[claude-code-docs-pack-2026-07]]
 - [[openai-platform-docs-pack-2026-07]]
-- [[source-summaries/architecture-update-2026-07-24/index]] — active eight-PDF, 3,789-page chunk-intake series that must close before the architecture update is decided
+- [[source-summaries/architecture-update-2026-07-24/index]] — completed eight-PDF, 3,789-page evidence series supporting the architecture update
 
 ## Decision Rules
 

@@ -92,3 +92,35 @@ CASTLE relocation impact report be produced.
 
 **Check-at:** after finding classification and baseline review, before any
 directory move or governance edit.
+
+## Classification update
+
+The first conservative pass classified 221 findings as intentional template,
+historical narrative, or intentional external reference and left 1,064
+unclassified candidates open. Rules are recorded in
+`00-BRAIN\scripts\path_reference_baseline.json`; the detailed report is
+`2026-07-24_PATH_REFERENCE_CLASSIFICATION_REPORT.md` in this session-log
+folder. The rules are now integrated into the auditor through `--baseline`.
+The final post-integration run scanned 1,673 Markdown files, baselined 221
+findings, and left 944 unbaselined after hub-scoped resolution. The next step is inspecting the
+unbaselined CASTLE/wiki subset.
+
+The subset run corrected a validator false-positive by scoping wikilink
+resolution to each owning hub's `wiki/` root. The corrected scan reports 1,165
+total findings, 221 baselined, and 944 unbaselined; the live CASTLE/domain-wiki
+subset contains 266 unbaselined findings. PHYSICS is the first repair queue
+(149), followed by TECHNOLOGY (69), SYSTEMS/PYTHON (42), and six isolated
+CASTLE/BUSINESS/REVENUE_LAB findings. No link was changed.
+
+Decision: carry the PHYSICS cluster as deferred structural work. Do not
+bulk-repair or baseline it until the later-stage packet/page architecture is
+reviewed; the eventual fix may be a new PHYSICS structure rather than link
+patches.
+
+## Implementation closeout
+
+The dated implementation packet now contains the reconciled roadmap, runbook,
+session index, and isolated validator fixture test. The current audit result is
+1,673 Markdown files scanned, 1,165 findings, 221 baselined, and 944
+unbaselined. The next action is a separately scoped CASTLE impact report and
+Watchtower handoff test; no physical relocation is authorized by this packet.

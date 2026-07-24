@@ -1,7 +1,8 @@
 # `.ROOT` Structure Synopsis — v3 evidence-aligned proposal
 
-**Status:** Evidence-aligned proposal for Chris review. Nothing has been moved, and no move, validator, metadata, or governance rollout is authorized.
+**Status:** Evidence-aligned synopsis reconciled to the implemented 2026-07-24 meta-layer. No physical relocation has been performed; CASTLE elevation remains impact-gated.
 **Primary design authority:** `vault-skeleton-design.md`; this file is only the folder/file synopsis.
+**Implementation packet:** `00-BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\SESSION_INDEX.md`
 **Supersedes for discussion:** `99-ARCHIVE/ARCHIVED_2026-07-24_newvaultstructure.md`
 **Date:** July 24, 2026
 
@@ -175,5 +176,11 @@ handoff is what CASTLE evaluates and records.
 ## Execution risk (read before approving)
 
 This is a possible top-level-folder restructure, not an approved renumbering. Per change-control it needs Chris's explicit approval before any file moves. Moving CASTLE from `00-BRAIN/CASTLE` will affect hardcoded paths in `AGENT.md`, `START_HERE.md`, `NOW.md`, `ROOT_OPERATING_MANUAL.md`, and the CASTLE docs. Any approved move must inventory and update those pointers in the same change, or the boot chain breaks.
+
+**Implementation handoff:** Review the implementation packet and its read-only audit result. If accepted, run the CASTLE impact report and Watchtower handoff fixture as separate evidence gates; no physical move follows automatically.
+
+The implementation packet supersedes the earlier review prompt below: the
+read-only validator prototype has been implemented and its fixture boundary
+passes. Physical relocation remains separately gated.
 
 **Next action:** Chris reviews the evidence-aligned skeleton and authorizes—or declines—the read-only CASTLE impact-audit prototype. No structural edit follows from this synopsis alone.

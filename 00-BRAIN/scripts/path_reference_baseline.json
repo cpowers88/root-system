@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "reviewed_date": "2026-07-24",
+  "purpose": "Conservative allowlist for the first read-only path-reference classification pass.",
+  "rules": [
+    {
+      "id": "castle-template-placeholders",
+      "classification": "intentional-template",
+      "source_prefix": "00-BRAIN/CASTLE/templates/",
+      "reason": "Templates intentionally contain placeholder wikilinks that become valid when instantiated."
+    },
+    {
+      "id": "python-template-placeholders",
+      "classification": "intentional-template",
+      "source_prefix": "03-WIKIS/PYTHON/templates/",
+      "reason": "Python learning templates intentionally contain placeholder wikilinks."
+    },
+    {
+      "id": "known-template-targets",
+      "classification": "intentional-template",
+      "target_exact": ["skill-page", "phase-page", "proof-project-page", "service-map"],
+      "reason": "Known CASTLE template placeholders."
+    },
+    {
+      "id": "historical-session-narrative",
+      "classification": "historical-narrative",
+      "source_prefix": "00-BRAIN/Session_Logs/",
+      "reason": "Append-only session and report history may describe links that were valid or proposed at the time."
+    },
+    {
+      "id": "historical-library-capture",
+      "classification": "historical-narrative",
+      "source_prefix": "02-LIBRARY/.raw ARCHIVE/",
+      "reason": "Archived captured material is not an active navigation surface."
+    },
+    {
+      "id": "make-external-document-identifiers",
+      "classification": "intentional-external-reference",
+      "source_prefix": "02-LIBRARY/REF-AI-AUTOMATION/make.com_notes/",
+      "target_prefix": "docId",
+      "reason": "Captured vendor-document identifiers are external references, not local vault paths."
+    }
+  ]
+}

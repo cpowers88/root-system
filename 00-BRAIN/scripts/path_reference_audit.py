@@ -91,6 +91,16 @@ def resolve_wikilink(root: Path, source: Path, target: str,
     return None, matches
 
 
+def link_scope(root: Path, source: Path) -> Path:
+    """Use a hub's wiki root for Obsidian-style vault-relative links."""
+    parts = source.relative_to(root).parts
+    if "wiki" in parts:
+        index = parts.index("wiki")
+        if index >= 1 and (parts[0] == "03-WIKIS" or parts[:2] == ("00-BRAIN", "CASTLE")):
+            return root.joinpath(*parts[: index + 1])
+    return root
+
+
 def issue(kind: str, source: Path, line: int, target: str, root: Path, **extra: object) -> dict[str, object]:
     value: dict[str, object] = {
         "kind": kind,
@@ -102,12 +112,39 @@ def issue(kind: str, source: Path, line: int, target: str, root: Path, **extra: 
     return value
 
 
-def audit(root: Path, include_archive: bool) -> dict[str, object]:
+def load_baseline(path: Path | None) -> tuple[Path | None, list[dict[str, object]]]:
+    if path is None:
+        return None, []
+    with path.open(encoding="utf-8") as handle:
+        data = json.load(handle)
+    return path.resolve(), list(data.get("rules", []))
+
+
+def baseline_match(item: dict[str, object], rules: list[dict[str, object]]) -> dict[str, str] | None:
+    source = str(item["source"]).replace("\\", "/")
+    target = str(item["target"])
+    for rule in rules:
+        source_prefix = rule.get("source_prefix")
+        target_prefix = rule.get("target_prefix")
+        target_exact = rule.get("target_exact", [])
+        if source_prefix and not source.startswith(str(source_prefix)):
+            continue
+        if target_prefix and not target.startswith(str(target_prefix)):
+            continue
+        if target_exact and target not in target_exact:
+            continue
+        return {
+            "rule": str(rule.get("id", "unnamed")),
+            "classification": str(rule.get("classification", "baselined")),
+        }
+    return None
+
+
+def audit(root: Path, include_archive: bool,
+          baseline_path: Path | None = None) -> dict[str, object]:
     files = markdown_files(root, include_archive)
     file_set = set(files)
-    name_index: dict[str, list[Path]] = {}
-    for path in files:
-        name_index.setdefault(path.name, []).append(path)
+    index_cache: dict[Path, dict[str, list[Path]]] = {}
     issues: list[dict[str, object]] = []
     cache: dict[Path, set[str]] = {}
 
@@ -117,13 +154,21 @@ def audit(root: Path, include_archive: bool) -> dict[str, object]:
         except (OSError, UnicodeError) as exc:
             issues.append(issue("unreadable_source", source, 0, "", root, detail=str(exc)))
             continue
+        scope = link_scope(root, source)
+        if scope not in index_cache:
+            scope_files = files if scope == root else [path for path in files if path.is_relative_to(scope)]
+            scoped_index: dict[str, list[Path]] = {}
+            for path in scope_files:
+                scoped_index.setdefault(path.name, []).append(path)
+            index_cache[scope] = scoped_index
+        name_index = index_cache[scope]
         for line_no, line in enumerate(text.splitlines(), start=1):
             for match in WIKILINK_RE.finditer(line):
                 target = match.group("target").strip()
                 anchor = None
                 if "#" in target:
                     target, anchor = target.split("#", 1)
-                resolved, matches = resolve_wikilink(root, source, target, name_index)
+                resolved, matches = resolve_wikilink(scope, source, target, name_index)
                 if resolved is None and len(matches) > 1:
                     issues.append(issue("ambiguous_wikilink", source, line_no, target, root,
                                         candidates=[rel(root, item) for item in matches]))
@@ -156,6 +201,16 @@ def audit(root: Path, include_archive: bool) -> dict[str, object]:
                         issues.append(issue("broken_anchor", source, line_no, target, root,
                                             resolved=rel(root, resolved), anchor=slugify(anchor)))
 
+    baseline_path, baseline_rules = load_baseline(baseline_path)
+    baseline_counts: dict[str, int] = {}
+    for item in issues:
+        match = baseline_match(item, baseline_rules)
+        if match:
+            item["baseline_rule"] = match["rule"]
+            item["classification"] = match["classification"]
+            baseline_counts[match["classification"]] = baseline_counts.get(match["classification"], 0) + 1
+        else:
+            item["classification"] = "unbaselined"
     counts: dict[str, int] = {}
     for item in issues:
         kind = str(item["kind"])
@@ -166,8 +221,12 @@ def audit(root: Path, include_archive: bool) -> dict[str, object]:
         "mode": "read-only-baseline-link-integrity",
         "root": str(root),
         "include_archive": include_archive,
+        "baseline": str(baseline_path) if baseline_path else None,
         "files_scanned": len(files),
         "issue_counts": counts,
+        "baseline_counts": baseline_counts,
+        "baselined_count": sum(baseline_counts.values()),
+        "unbaselined_count": len(issues) - sum(baseline_counts.values()),
         "issues": issues,
     }
 
@@ -176,21 +235,24 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[2])
     parser.add_argument("--include-archive", action="store_true")
+    parser.add_argument("--baseline", type=Path)
     parser.add_argument("--json", action="store_true", dest="as_json")
     args = parser.parse_args()
     root = args.root.resolve()
     if not root.is_dir():
         parser.error(f"root is not a directory: {root}")
-    report = audit(root, args.include_archive)
+    report = audit(root, args.include_archive, args.baseline)
     if args.as_json:
         json.dump(report, sys.stdout, indent=2)
         sys.stdout.write("\n")
     else:
         print(f"Scanned {report['files_scanned']} Markdown files under {root}")
         print(f"Issues: {sum(report['issue_counts'].values())}")
+        print(f"Baselined: {report['baselined_count']}")
+        print(f"Unbaselined: {report['unbaselined_count']}")
         for kind, count in sorted(report["issue_counts"].items()):
             print(f"  {kind}: {count}")
-    return 1 if report["issues"] else 0
+    return 1 if report["unbaselined_count"] else 0
 
 
 if __name__ == "__main__":
