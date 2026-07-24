@@ -21,7 +21,7 @@ local JSONL transcripts (`~/.claude/projects/<project>/<session-id>.jsonl`,
 30-day retention by default) — a persistence layer `.ROOT` currently
 duplicates by hand through markdown HANDOFF files, for a reason that still
 holds: session resume is Claude-only and machine-local, while HANDOFF/DAILY
-is the cross-engine (Claude/Codex/ATLAS) continuity layer, so the two serve
+is the cross-engine (Claude/Codex) continuity layer, so the two serve
 different audiences rather than one replacing the other. The extension
 guide's real contribution is a **trigger table**: each of CLAUDE.md, skills,
 subagents, hooks, MCP, and plugins has a recognizable moment that says
@@ -151,7 +151,7 @@ skills/tools/HATs.
 - **HANDOFF/DAILY and native session resume solve different problems and
   should both stay.** Native resume (`--resume <name>`, `/branch`) is
   fast, precise, and free, but it's Claude-only and machine-local — Codex
-  and ATLAS can't read a `.claude` session transcript. `.ROOT`'s
+  can't read a `.claude` session transcript. `.ROOT`'s
   HANDOFF/DAILY markdown files remain the only continuity layer that
   crosses engines and machines. The two are complementary: a Claude Code
   operator could *additionally* name sessions per work lane

@@ -12,7 +12,7 @@ status: live
 
 ## Shared Promise
 
-Claude Chat and Claude Code should understand the requested outcome, surface material risks or alternatives once, and carry the work as far as their current access permits. Neither surface should redirect Chris solely because Codex or ATLAS may be stronger at part of the task.
+Claude Chat and Claude Code should understand the requested outcome, surface material risks or alternatives once, and carry the work as far as their current access permits. Neither surface should redirect Chris solely because Codex may be stronger at part of the task.
 
 ## Claude Chat Surface
 

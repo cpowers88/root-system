@@ -47,7 +47,7 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │
 ├── 00-BRAIN\  ← governance + command — load AGENT.md first, then the relevant capability profile
 │   ├── AGENT.md           ← universal OS — load FIRST, every session, any engine
-│   ├── CLAUDE.md / CODEX.md / ATLAS.md  ← surface capability profiles
+│   ├── CLAUDE.md / CODEX.md  ← surface capability profiles
 │   ├── CHRIS_CORE.md      ← the person file (default load, second)
 │   ├── CHRIS.md           ← full profile (monthly review / calibration only)
 │   ├── vault_map.md       ← this file
@@ -100,8 +100,9 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── 04-Pricing Models\ · 05-Proposals & SOWs\
 │   └── 06-Capability Library\ ← APQC-indexed reusable client-facing assets
 │
-├── 77-INBOX\    ← manual external-file intake — clear every weekly review
-├── Clippings\   ← automatic Obsidian web-clipping intake — clear every weekly review
+├── 77-INBOX\    ← universal intake — manual drops and automatic Obsidian
+│                    web-clipping both land here now (Clippings\ retired
+│                    2026-07-24) — clear every weekly review
 └── 99-ARCHIVE\  ← nothing gets deleted, it gets archived
 ```
 

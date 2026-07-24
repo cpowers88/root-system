@@ -48,7 +48,6 @@ Any AI may complete any in-scope task it can safely access. Model names describe
 | Claude Chat | strategy, synthesis, teaching, ongoing dialogue, meaning | may lack direct local tool access |
 | Claude Code | local edits, scripts, tool use, implementation, tests | local execution surface |
 | Codex | audits, structural diagnosis, exact plans, implementation, validation | local execution surface |
-| ATLAS / ChatGPT | independent challenge, alternatives, conceptual anchors | needs a live context brief when it cannot read `.ROOT` |
 
 For consequential work, identify the evidence required before calling it complete, recommend a lead, and require an independent challenger/validator by default. When no second surface is available, use deterministic checks, disclose that limitation, and let Chris decide whether the bounded fallback is sufficient. Never refuse a valid task merely because another model is a better default fit.
 
@@ -71,7 +70,7 @@ Infer the mode from the request and state it only when useful. During convergenc
 
 ## Profile and Local-File Precedence
 
-After this file, load the surface profile (`00-BRAIN\CLAUDE.md`, `CODEX.md`, or `ATLAS.md`), then `CHRIS_CORE.md`, an optional `HATS\` mode, and the local operating file for the active realm. A wiki file named `CLAUDE.md` is the domain operating contract for every AI working there; its historical filename does not make it Claude-exclusive.
+After this file, load the surface profile (`00-BRAIN\CLAUDE.md` or `CODEX.md`), then `CHRIS_CORE.md`, an optional `HATS\` mode, and the local operating file for the active realm. A wiki file named `CLAUDE.md` is the domain operating contract for every AI working there; its historical filename does not make it Claude-exclusive.
 
 Profiles and local files cannot override file safety, North Star direction, raw immutability, academic integrity, the report chain, or Chris's final authority.
 
@@ -115,7 +114,44 @@ name its evidence home, affected assumption/choice, consequence or test, and rev
 trigger. It may reach strategy only through CASTLE review, a bounded test, measured
 outcome, and the North Star Ratchet. The Watchtower has eyes, not hands.
 
-Shared wiki rules: raw is immutable; chunk large sources; read the index and recent log before work; update rather than duplicate; preserve claim history; before replacing a claim, classify the change as a temporal update, context-dependent variant, or true contradiction; mark volatile claims; update log/index when reality changes; use lint at reviews; after creating or editing wiki frontmatter, run `python 00-BRAIN\scripts\frontmatter_audit.py --baseline 00-BRAIN\scripts\frontmatter_baseline.json` and resolve every new finding before close; support independent learning without producing prohibited graded work.
+## Wiki Shared Layer
+
+One copy here; every `03-WIKIS` hub's `CLAUDE.md` points here instead of
+re-copying. Restored 2026-07-24 as a numbered section — the July 9 version
+of this rule set was condensed into a single run-on paragraph during the
+July 10 `AI_Agent.md`→`AGENT.md` split, which dropped the `§ Wiki Shared
+Layer` anchor that 21 files across the vault still reference by name. Same
+failure class `vault-skeleton-design.md` names for file moves; this was the
+section-heading version. Content below is unchanged from what a hub
+`CLAUDE.md` already expects — restoring the heading, not rewriting the rule.
+
+1. **Raw is immutable.** Read from a wiki's `raw\`; never modify, delete,
+   rename, or reorganize it without Chris's explicit instruction. Extracted
+   material goes into that wiki's `wiki\`.
+2. **Large-source chunking.** Never extract a long PDF, book, or multi-part
+   source in one pass. Work in chunks small enough to hold fully (10–15
+   pages or one chapter/section); synthesize only after every chunk is
+   read; record the page ranges covered in `log.md`.
+3. **Session start (minimum).** Read the wiki's `wiki\index.md` and the
+   last 3 `log.md` entries; state the session goal in one sentence.
+4. **Session close (minimum).** Update `log.md`; update `index.md` if pages
+   changed; state the next action in one sentence.
+5. **Update over create.** Check whether a source strengthens, corrects, or
+   extends an existing page before creating a new one.
+6. **Never silently overwrite a claim.** When a new source contradicts an
+   existing page, flag it on the page (supersedes/contradicts X — source,
+   date) instead of quietly replacing it.
+7. **Recency markers on volatile claims.** Prices, versions, and adoption
+   stats that age carry "(as of YYYY-MM, source)".
+8. **Lint pass.** At the monthly review, or on request, scan for orphan
+   pages, dead wikilinks, contradictions, stale superseded claims, and
+   index-vs-live-tree mismatch; log findings and fix per normal flag
+   priority. After creating or editing wiki frontmatter, also run
+   `python 00-BRAIN\scripts\frontmatter_audit.py --baseline 00-BRAIN\scripts\frontmatter_baseline.json`
+   and resolve every new finding before close.
+
+Academic integrity for course-support wikis (PYTHON, PHYSICS, EDUCATION) is
+governed once, above, under `## Academic Integrity` — not restated here.
 
 ## Extension and Shared-Skill Rules
 

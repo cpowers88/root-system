@@ -18,6 +18,12 @@ created: 2026-07-15
 - Older history: flags #1–#83-era (June 8 – July 11, 83 rows) remain in
   `99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`.
 
+## Closed — July 2026 (week of July 24)
+
+| # | Flag | Raised | Closed | Fix |
+|---|---|---|---|---|
+| 83 | The `AGENT.md § Wiki Shared Layer` anchor, referenced by name in 21 files (all 8 wiki `CLAUDE.md`s, several `log.md`s, `WHERE_IT_GOES.md`), no longer existed as a heading in current `AGENT.md`. Content survived but was silently condensed into one run-on paragraph and its `##` heading dropped during the July 10 `AI_Agent.md`→`AGENT.md` split — found while reviewing the July 9 proposal's check_at, which fell due today. Same failure class as the file-move stale-reference problem `vault-skeleton-design.md` was written to solve, just at the section-anchor level instead of the file-path level; no existing or proposed tool covers anchors. | July 24 | July 24 | Restored `## Wiki Shared Layer` as its own heading in `AGENT.md`, with the original 9 numbered rules recovered verbatim from `99-ARCHIVE\ARCHIVED_2026-07-10_AI_Agent.md` (lines 220-266), replacing the condensed paragraph. Recorded Outcome/Verdict (modify — add anchor-integrity coverage, not just paths) on the governing proposal file. |
+
 ## Closed — July 2026 (week of July 21)
 
 | # | Flag | Raised | Closed | Fix |

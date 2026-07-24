@@ -6,6 +6,26 @@ timeline: log
 
 # AI_AUTOMATION_SYSTEMS Wiki — Log
 
+## 2026-07-24 — 5 new books landed in raw/, intake pending
+
+Chris dropped 8 PDFs in `77-INBOX` this morning; routed by subject per
+`WHERE_IT_GOES.md`. Five AI/LLM books relocated here: `AI_engineering.pdf`
+(Chip Huyen, *AI Engineering: Building Applications with Foundation
+Models*), `AI_builders_handbook.pdf` (LevelUp Labs, April 2026),
+`Prompt_engineering_LLMs.pdf` (Berryman & Ziegler), `promp_engineering_generative_AI_guide.pdf`
+(Phoenix & Taylor — confirmed distinct book, not a duplicate of the prior),
+and `Generative_AI_economic_potential.pdf` (McKinsey, June 2023 — economic
+impact of gen AI; routed here per the AI/LLM lane rule despite the business
+framing). No overlap with existing raw/ inventory.
+
+Files placed only — no chunk-ingest yet (6 dense O'Reilly/report-length
+sources; full ingest is a queued multi-session job, not today's work).
+Today's actual use: Chris directed a targeted mining pass across a subset
+of these for principles relevant to the active vault-skeleton-design.md
+redesign (specifically: splitting AI-facing instruction files from
+human-facing ones). See `vault-skeleton-design.md` and today's DAILY for
+that thread; full wiki-page ingest of these 5 sources remains open.
+
 ## 2026-07-22 — Toolsbase.dev Claude Code + Codex CLI catalogs chunk-ingested
 
 Three Obsidian clippings landed in root `Clippings\` on 2026-07-22 (same

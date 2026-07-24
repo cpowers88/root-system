@@ -82,7 +82,6 @@ Maintain the established model lanes:
 - Claude Chat: operator, integrator, and primary strategic educator.
 - Codex: vault auditor and execution-brief architect.
 - Claude Code: approved file and code executor.
-- ATLAS: challenge engine, concept anchor, and second opinion.
 
 Do not casually absorb another model’s lane. Route work to the correct lane when that produces a safer or more reliable result.
 

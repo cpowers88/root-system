@@ -48,7 +48,6 @@ discovery mirrors and are never edited by hand.
 | close, wrap up, switch AI, or leave | `session-close` | DAILY/log updates, cockpit check, handoff decision, and next action |
 | check `.ROOT` health or validate a system checkpoint | `root-health` | one honest health result with blockers and reviewed debt separated |
 | decide whether to learn, build, buy, test, or pursue an idea | `profit-gate` | PASS, HOLD, or REJECT through CASTLE's live decision rule |
-| prepare an independent ATLAS/ChatGPT challenge | `atlas-brief` | one paste-ready context brief from live `.ROOT` state |
 | change an Obsidian graph color or add a color group | `graph-colors` | updated generated graph configuration from `COLOR_MAP.yaml` |
 
 ### Safe Diagnostic Commands
@@ -184,7 +183,7 @@ References: [Claude Code settings](https://code.claude.com/docs/en/settings),
 ## 6. How to Work With AI-Operated Folders
 
 `.ROOT` uses one AI team. Any AI may complete any in-scope task it can safely
-access. Claude, Codex, and ATLAS profiles describe strengths and tool limits,
+access. Claude and Codex profiles describe strengths and tool limits,
 not exclusive jobs. A material alternative or conflict is stated once with a
 recommendation; unless a true safety/authority boundary applies, AI then follows
 Chris's direction.
@@ -329,7 +328,7 @@ ownership. Ordinary learning sessions do not need this system-wide check.
 - `00-BRAIN\WHERE_IT_GOES.md` — placement and naming.
 - `01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md` — how the four system views translate into one information flow; the seven-line trace.
 - `00-BRAIN\AGENT.md` — the AI operating system.
-- `00-BRAIN\CLAUDE.md` / `CODEX.md` / `ATLAS.md` — AI capability profiles.
+- `00-BRAIN\CLAUDE.md` / `CODEX.md` — AI capability profiles.
 - `00-BRAIN\CASTLE\HOW_TO_USE.md` — command-center use.
 - `...projectSuccess\WATCHTOWER.md` — material external-signal routing.
 - `01-NORTH_STAR\README.md` — star companion loading and review contract.

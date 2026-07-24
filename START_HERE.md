@@ -26,13 +26,12 @@ and the live owner files.
 | 📄 `NOW.md` | **Start your day.** One screen, one priority. |
 | 📘 [ROOT_OPERATING_MANUAL.md](ROOT_OPERATING_MANUAL.md) | **Learn how to operate.** Use the proof loops, ownership rules, and closeout pattern after this map. |
 | 🗼 [WATCHTOWER.md](...projectSuccess/WATCHTOWER.md) | **Watch material external change.** Evidence stays in its wiki; qualifying signals enter the two-file radar, then CASTLE gates any test. |
-| 🧠 `00-BRAIN` | See/change how the AI operates. `AGENT.md` is the universal OS every engine boots from; surface profiles (`CLAUDE.md` / `CODEX.md` / `ATLAS.md`) describe strengths and access; `HATS\` holds optional modes; 🏰 `CASTLE` (the command center — phases, skills, proof projects) lives here too, plus maps, flags, session logs. |
+| 🧠 `00-BRAIN` | See/change how the AI operates. `AGENT.md` is the universal OS every engine boots from; surface profiles (`CLAUDE.md` / `CODEX.md`) describe strengths and access; `HATS\` holds optional modes; 🏰 `CASTLE` (the command center — phases, skills, proof projects) lives here too, plus maps, flags, session logs. |
 | ⭐ `01-NORTH_STAR` | **Read the durable star.** Load `CURRENT_STRATEGY.md` only for the active business vehicle, and the prep plan only for pre-semester sequencing. |
 | 📚 `02-LIBRARY` | Grab reference by domain (`REF-…` folders). Also `.PROJECTS` (build docs), `00-SCHOOL` (course files), and `.raw ARCHIVE` (closed legacy sources—no new intake). `README.md` inside disambiguates the business/physics look-alikes. |
 | ⚒️ `03-WIKIS` | Work the eight knowledge hubs: `SYSTEMS` (system dynamics + ISYE spine) · `PYTHON` (Python/CS stages) · `EDUCATION` (general KSU support — TCOM/ECON/ENGR) · `PHYSICS` (physics stages) · `BUSINESS` (offers, pricing, audit method, market research) · `TECHNOLOGY` (tech-adoption roadmap + applied technical reference) · `AI_AUTOMATION_SYSTEMS` (AI/agent research + `.ROOT` self-evolution proposals) · `REVENUE_LAB` (digital revenue evidence and tests). Each has a `HOW_TO_USE.md` inside. |
 | 💼 `05-BUSINESS` | The money system: reusable templates, pricing, sanitized field lessons, and capability assets (case-study and proposal folders are ready and fill with real engagements — see its `README.md`). Active client-specific work stays in a separate client workspace outside `.ROOT`. |
-| 📥 `77-INBOX` | Manual files dropped from outside `.ROOT`. Cleared every weekly review. |
-| ✂️ `Clippings` | Automatic Obsidian web-clipping intake at the vault root. Cleared every weekly review. |
+| 📥 `77-INBOX` | Universal intake: manual files dropped from outside `.ROOT` and automatic Obsidian web-clipping output (`Clippings` retired 2026-07-24, clipper now points here). Cleared every weekly review. |
 | 🗄️ `99-ARCHIVE` | Find anything retired. Nothing is ever deleted. |
 
 Private inside the live vault: `88-JOURNAL` — no AI ever reads it.
@@ -46,7 +45,7 @@ Every agent, every model, same path — this is wired, not hoped for:
 ```
 C:\Users\chris\.ROOT\CLAUDE.md or AGENTS.md (surface boot pointer)
   → C:\Users\chris\.ROOT\00-BRAIN\AGENT.md    (universal OS: star, school status, file safety, when to stop)
-  → surface profile: CLAUDE.md / CODEX.md / ATLAS.md   (strengths + access notes)
+  → surface profile: CLAUDE.md / CODEX.md   (strengths + access notes)
   → CHRIS_CORE.md                 (who you are, how you work)
   → 01-NORTH_STAR\NORTH_STAR.md  (durable direction — every session)
   → current strategy / prep plan / Watchtower only when that question is active
@@ -140,7 +139,7 @@ floor, not finish line.**
 
 ## Rules of the Realm (human version)
 
-1. One file, one home. Manual unknowns → `77-INBOX`; automatic web clips → root `Clippings`; the weekly review files both.
+1. One file, one home. Manual unknowns and automatic web clips → `77-INBOX`; the weekly review files them.
 2. Nothing gets deleted — it gets archived.
 3. `88-JOURNAL` is yours alone.
 4. Oct 5 – Nov 11, 2026 is a high-load school window. AI warns once if optional work threatens fixed commitments, recommends the smallest safe scope, then follows Chris's decision.
@@ -148,4 +147,4 @@ floor, not finish line.**
 6. Targets normally move at quarterlies. Chris may authorize a mid-cycle change after an impact review; AI does not move targets autonomously.
 
 ---
-*AI entry: `C:\Users\chris\.ROOT\CLAUDE.md` or `AGENTS.md` -> `00-BRAIN\AGENT.md` -> surface profile (`CLAUDE.md` / `CODEX.md` / `ATLAS.md`) -> CHRIS_CORE.md. The star: `01-NORTH_STAR\NORTH_STAR.md`. G: is cloud backup only.*
+*AI entry: `C:\Users\chris\.ROOT\CLAUDE.md` or `AGENTS.md` -> `00-BRAIN\AGENT.md` -> surface profile (`CLAUDE.md` / `CODEX.md`) -> CHRIS_CORE.md. The star: `01-NORTH_STAR\NORTH_STAR.md`. G: is cloud backup only.*

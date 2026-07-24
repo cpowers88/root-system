@@ -50,15 +50,16 @@ Reusable reference (book, concept, cheat sheet)? → 02-LIBRARY\[domain]\
 Reusable client-facing capability asset or blank master? → 05-BUSINESS\06-Capability Library\ (or matching 05-BUSINESS folder)
 Sanitized field lesson, approved case study, pricing model, or reusable proposal/SOW pattern? → 05-BUSINESS\
 Active client-specific/private artifact or engagement workspace? → separate client workspace/repository outside `.ROOT`
-Manual file dropped from outside `.ROOT`? → 77-INBOX\ (clear weekly)
-Automatic Obsidian web clipping? → Clippings\ at the `.ROOT` root (clear weekly)
+Manual file dropped from outside `.ROOT`, or an automatic Obsidian web clipping? → 77-INBOX\ (clear weekly)
 Personal reflection or private processing? → 88-JOURNAL\ (AIs do not read)
 Old, inactive, deprecated but worth keeping? → 99-ARCHIVE\ (nothing gets deleted)
 ```
 
-Root `Clippings\` receives Obsidian clipper output automatically. `77-INBOX\`
-receives manual file drops. Review both weekly and move keepers to one permanent
-home; neither is a storage destination.
+`77-INBOX\` is the single universal intake door — manual file drops and
+automatic Obsidian clipper output both land here (`Clippings\` retired
+2026-07-24; the Obsidian clipper setting now points here instead). Review
+weekly and move keepers to one permanent home; it is not a storage
+destination.
 
 ---
 
@@ -94,7 +95,7 @@ One copy, zero drift.
 ## The Folders — one line each (structure detail: vault_map.md)
 
 - **00-BRAIN\** — AI instructions and coordination: AGENT.md (OS), capability
-  profiles (CLAUDE/CODEX/ATLAS), CHRIS_CORE/CHRIS, vault_map, this file, SYSTEM_FLAGS,
+  profiles (CLAUDE/CODEX), CHRIS_CORE/CHRIS, vault_map, this file, SYSTEM_FLAGS,
   COLOR_MAP.yaml (edit it, then run `scripts\build_graph_colors.py` — never
   hand-edit graph.json). Subfolders: `HATS\` (optional modes — short, active
   prompts), `CASTLE\` (command-center wiki; owns `.ROOT\NOW.md`),
@@ -141,8 +142,9 @@ One copy, zero drift.
   process). NOT here: active client-specific/private work (→ separate client
   workspace/repository outside `.ROOT`) or business reference books
   (→ 02-LIBRARY\REF-BUSINESS).
-- **77-INBOX\** — manual external-file landing zone; nothing lives here past one weekly review.
-- **Clippings\** — automatic Obsidian clipping intake at the `.ROOT` root; nothing lives here past one weekly review.
+- **77-INBOX\** — universal intake: manual external-file drops and automatic
+  Obsidian clipping both land here (`Clippings\` retired 2026-07-24); nothing
+  lives here past one weekly review.
 - **88-JOURNAL\** — private; no AI reads this folder.
 - **99-ARCHIVE\** — the safety net; nothing gets deleted, it gets archived
   as `ARCHIVED_DATE_filename.md`. Verify parent chains by NAME against the

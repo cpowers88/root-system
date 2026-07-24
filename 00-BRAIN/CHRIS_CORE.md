@@ -113,4 +113,4 @@ Load full `CHRIS.md` for profile updates, system-behavior redesign, monthly or q
 
 ---
 
-Person file only. Universal behavior belongs in `AGENT.md`; surface capabilities in `CODEX.md`, `CLAUDE.md`, and `ATLAS.md`; optional modes in `HATS\`.
+Person file only. Universal behavior belongs in `AGENT.md`; surface capabilities in `CODEX.md` and `CLAUDE.md`; optional modes in `HATS\`.

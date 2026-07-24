@@ -6,6 +6,19 @@ timeline: log
 
 # TECHNOLOGY Wiki — Log
 
+## 2026-07-24 — 2 new books landed in raw/, intake pending
+
+Chris dropped 8 PDFs in `77-INBOX` this morning; routed by subject per
+`WHERE_IT_GOES.md`. Two landed here in `data-science-ml`'s applied-reference
+lane: `Machine_learning_design.pdf` (Lakshmanan, Robinson & Munn, *Machine
+Learning Design Patterns* — data prep/model building/MLOps practice, not
+agent research, so TECHNOLOGY rather than AI_AUTOMATION_SYSTEMS) and
+`r_for_data_science.pdf` (Wickham & Grolemund). No overlap with existing
+`data-science-ml/` pages (`PracticalStatisticsforDataScientists.pdf`,
+`DataScienceforBusiness.pdf`, etc. already covered different ground).
+Files placed only — chunk-ingest into `wiki/data-science-ml/` pages is
+queued, not done today.
+
 ## 2026-07-21 — New page: Python's `sqlite3` module, from MCP Bootcamp Day 3 practice
 
 Chris built a real SQLite fixture live (`friction_categories` + `businesses`
