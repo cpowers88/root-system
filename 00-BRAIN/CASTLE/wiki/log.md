@@ -1827,3 +1827,248 @@ other named scopes pass. Slice A0 is clear.
 - Owner truth returned to the PYTHON current-position and Bootcamp evidence log;
   `NOW.md` now points to the saved-code run and trace rather than repeating the
   completed exercises.
+## 2026-07-24 — `.ROOT` architecture evidence refinery completed (Codex)
+
+- Executed `update_data_review_wiki_instructions.md` as a report-only architecture
+  investigation. Loaded the governed boot chain, North Star contracts, CASTLE
+  operating state, AIAS self-evolution contract, all eight wiki indexes, each
+  hub's last three detectable log sections, and every discovered coverage/source
+  ledger required by the brief.
+- Added [[root-architecture-evidence-refinery-2026-07-24]]. Core verdict: keep
+  the canonical System Loop, Return Packet, eight information states, ten logical
+  roles, domain ownership, and a separate Watchtower; test CASTLE elevation with
+  a read-only impact report before any move.
+- Recommended one shared scanner with separate path-move, reference/anchor,
+  canonical-copy, and instruction-register checks. Added exact migration,
+  rollback, fresh-session, value, owner-return, reversal, and acceptance gates.
+- No governance file, target design, structure, raw evidence, private material,
+  capability state, demand claim, or revenue state changed. Four new books remain
+  partially sampled only as already bounded in the target design; four were not
+  activated because compiled evidence answered the current questions.
+- Validation: boot/governance PASS; wiki navigation PASS with 0 blockers and
+  0 review items; shared-skill mirrors, staged/unstaged whitespace, and live
+  Markdown integrity PASS. Canonical health remains BLOCKER on 14 pre-existing
+  missing-frontmatter findings (8 third-party `.venv` license/notice files and
+  6 loose root design/draft files); the new CASTLE report is not a regression.
+- **Next exact action:** with Chris's approval, run the read-only CASTLE reference
+  impact audit and classify every hit as active, historical, generated, or obsolete.
+
+## 2026-07-24 — Architecture source-ingest correction and first complete PDF (Codex)
+
+- Chris clarified that the refinery instruction was intended to drive full,
+  chunked intake of all eight named PDFs into CASTLE before any final
+  architecture decision. The earlier report had followed the file's conflicting
+  “report-only / update no live wiki” clauses too narrowly.
+- Marked [[root-architecture-evidence-refinery-2026-07-24]] as
+  `incomplete-source-review`, explicitly non-authoritative pending source intake.
+  Created [[source-summaries/architecture-update-2026-07-24/index]] and one
+  source-report page for each PDF. All eight PDFs were verified and extracted to
+  temporary searchable text; extraction is not counted as reading.
+- Fully traversed McKinsey's 68-page *The Economic Potential of Generative AI*
+  in six physical-page chunks and closed
+  [[source-summaries/architecture-update-2026-07-24/generative-ai-economic-potential-chunk-intake]].
+  The durable delta is an activity-level value model that separates technical
+  feasibility, solution development, economic feasibility, adoption, redeployed
+  capacity, and measured value.
+- Raw sources remained read-only. No final skeleton verdict was made.
+- **Next exact action:** complete the 152-page *AI Builder's Handbook* intake
+  chapter by chapter, then continue the remaining six books before synthesis.
+
+## 2026-07-24 — *AI Builder's Handbook* intake completed (Codex)
+
+- Read all 152 physical pages in eleven consecutive chunks and closed
+  [[source-summaries/architecture-update-2026-07-24/ai-builders-handbook-chunk-intake]].
+- Preserved the source's operational guidance on problem-first design, model
+  selection, prompt and context engineering, deterministic and subjective
+  evaluation, guardrails, workflow and agent complexity, tool contracts,
+  retrieval, memory, observability, production readiness, and maintenance.
+- Recorded the architecture delta: treat consequential Markdown and prompts as
+  versioned interfaces; validate structure deterministically; distinguish
+  evidence, runtime context, memory, and evaluation fixtures; convert observed
+  failures into regression cases.
+- Classified vendor, protocol, regulation, adoption, and model forecasts as
+  volatile claims requiring current primary-source verification.
+- Raw evidence remained read-only. The final architecture decision remains
+  gated on the remaining six PDF intakes and cross-source synthesis.
+- **Next exact action:** complete Chip Huyen's *AI Engineering* as the next
+  full chunk intake, using chapter-aware physical-page batches.
+
+## 2026-07-24 — *AI Engineering* intake opened through Chapter 3 (Codex)
+
+- Fully traversed physical pages 1–349 of 1,108 in consecutive,
+  chapter-aware chunks and expanded
+  [[source-summaries/architecture-update-2026-07-24/ai-engineering-chunk-intake]].
+- Closed the front matter, application planning and AI stack (Chapter 1),
+  foundation-model behavior and structured outputs (Chapter 2), and evaluation
+  methodology (Chapter 3). The source remains explicitly `in-progress`;
+  searchable extraction of later pages is not counted as review.
+- Early architecture returns include human-baseline usefulness gates,
+  build/buy/defensibility tests, versioned generation configuration, separate
+  syntax/content validation, property-specific evaluations, visible
+  intermediate workflow state, and calibrated/versioned judge records.
+- Raw evidence remained read-only. No final architecture verdict was made.
+- **Next exact action:** resume at physical page 350 with Chapter 4,
+  *Evaluate AI Systems*, and continue consecutive coverage.
+
+## 2026-07-24 — *AI Engineering* intake extended through Chapter 5 (Claude)
+
+- Continued the chunk intake at physical page 350 and closed Chapter 4
+  (Evaluating AI Systems, pp. 350–462) and Chapter 5 (Prompt Engineering,
+  pp. 463–550) in [[source-summaries/architecture-update-2026-07-24/ai-engineering-chunk-intake]].
+  Coverage now stands at pp. 1–550 of 1,108; the source remains `in-progress`.
+- Chapter 4 durable returns: a hard/soft-attribute split for model selection,
+  a benchmark/rubric register recording selection rationale and cross-metric
+  correlation, evaluation-set sizing via bootstrap variance rather than
+  intuition, and per-slice (not just aggregate) evaluation to catch
+  Simpson's-paradox-style subgroup failures.
+- Chapter 5 durable returns: prompts as versioned interfaces with an
+  explicit schema/owner/model field (direct evidence for the Phase 5
+  instruction-register question); an explicit system > user > model-output >
+  tool-output priority hierarchy for any tool-using agent; mandatory sandbox
+  isolation and human approval before generated-code execution or mutating
+  database calls; a violation-rate/false-refusal-rate pair as the required
+  way to report any guardrail's effectiveness.
+- Raw PDF remained read-only; only the one chunk-intake file was edited.
+- **Next exact action:** resume at physical page 551 with Chapter 6, RAG and
+  Agents, continuing consecutive chapter-aware coverage through page 1,108.
+
+## 2026-07-24 — *Agentic AI for Engineers* intake opened through Chapter 5 (Claude)
+
+- Read physical pp. 1–170 of 460 (front matter, Chapters 1–5) in chapter-aware
+  chunks and expanded
+  [[source-summaries/architecture-update-2026-07-24/agentic-ai-for-engineers-chunk-intake]].
+  Closed the evolution-of-agentic-AI framing (Ch.1–2), transformer/LLM
+  mechanics (Ch.3), goals/environments/actions/memory (Ch.4), and
+  architectural design patterns (Ch.5) — the chapter most directly relevant
+  to CASTLE's Phase 4/5 architecture questions.
+- Durable returns: an automation-vs-autonomy delegation rubric (complexity ×
+  autonomy-delegated); a task/objective/mission vocabulary and a five-category
+  tool-failure taxonomy; a pattern-vs-topology distinction with a five-step
+  escalation ladder (single-agent → +memory → Planner-Executor → +Reflector →
+  multi-agent → +HITL → +parallel) directly applicable to testing whether the
+  ten functional roles are collectively exhaustive; and a production
+  guardrail playbook (contract-first tools enforced both directions,
+  dry-run-then-approval for consequential actions, classified retries with
+  idempotency keys, no-progress-cutoff distinct from repetition detection).
+- One source-internal contradiction preserved rather than resolved: Chapter 3
+  cites "emergent abilities" as scale-driven, then in its own Key Takeaways
+  flags that framing as contested by more recent research.
+- Raw evidence remained read-only. 9 chapters (6–14, physical pp. 171–453)
+  remain unread; no final architecture verdict is authorized from this
+  source alone.
+- **Next exact action:** resume at physical page 171, Chapter 6, "The Art of
+  Prompting."
+
+## 2026-07-24 — *Machine Learning Design Patterns* intake opened, front and back thirds closed (Claude)
+
+- Read and closed front matter, Chapter 1, Chapter 2 (Data Representation,
+  Patterns 1–4), and Chapter 3 through Ensembles/bagging/boosting/stacking
+  (pp. 1–107), plus Chapter 6's back half, Chapter 7 (Responsible AI), and
+  Chapter 8 (Connected Patterns) (pp. ~301–408). Expanded
+  [[source-summaries/architecture-update-2026-07-24/machine-learning-design-patterns-chunk-intake]];
+  frontmatter remains `in-progress`.
+- Durable returns: cross-source corroboration (with [[ai-engineering-chunk-intake]])
+  that "successful" requires a human/heuristic baseline; Feature Store's
+  train/serve-skew fix as a direct analogue for CASTLE wiki-vs-consumption
+  divergence; ensemble diversity-of-error logic as a candidate frame for
+  combining independent `.ROOT` evidence sources.
+- Genuine gap disclosed: pp. 108–~300 (Chapter 3 tail, Chapter 4, Chapter 5,
+  Chapter 6 front half) were extracted but not reliably rendered this run — a
+  page-render fault repeated stale already-seen content across three retries
+  at shrinking chunk sizes. Left explicitly pending rather than filled in from
+  pattern-name familiarity.
+- **Next exact action:** resume at physical page 108 in a fresh session/tool
+  context to close the rest of Chapter 3, then Chapters 4–5 and the Chapter 6
+  front half.
+
+## 2026-07-24 — *Prompt Engineering for LLMs* intake completed (Claude)
+
+- Read all 282 physical pages of Berryman and Ziegler's *Prompt Engineering
+  for LLMs* across 11 chapters and closed
+  [[source-summaries/architecture-update-2026-07-24/prompt-engineering-for-llms-chunk-intake]].
+  Frontmatter status set to `complete`.
+- Durable returns: Little Red Riding Hood principle, truth bias, and
+  Chekhov's-gun-fallacy as naming for over-weighted irrelevant context/tool
+  output; static/dynamic content separation; position/importance/dependency
+  prompt-assembly vocabulary; the offline/online evaluation maturity ladder;
+  SOMA as a complete template for AI self-assessment; a strength-vs-generality
+  frame for classifying proposed AI features; DAG-by-default workflow
+  topology with cycles reserved for demonstrated retry need.
+- Independently corroborated (not newly established) `.ROOT`'s existing
+  human-approval boundary on consequential/dangerous tool actions, and its
+  smallest-useful-solution principle (the source states "avoid LLMs whenever
+  possible" per task).
+- Flagged volatile/dated material (model names, prices, 2022–2025 benchmark
+  figures, framework names) inline rather than folding it into durable
+  findings.
+- Raw evidence remained read-only throughout.
+
+## 2026-07-24 — *Prompt Engineering for Generative AI* intake opened through Chapter 1 (Claude)
+
+- Fully traversed physical pages 1–93 of 791 (front matter plus Chapter 1,
+  "The Five Principles of Prompting") and opened
+  [[source-summaries/architecture-update-2026-07-24/prompt-engineering-for-generative-ai-chunk-intake]].
+  Chapter 2 was started but not closed; no findings were drawn from it.
+- Closed Chapter 1: Give Direction, Specify Format, Provide Examples,
+  Evaluate Quality, Divide Labor, each with a worked text/image example and a
+  named trade-off (e.g., examples improve reliability but reduce creativity;
+  direction often outperforms examples per cited research).
+- Flagged the whole source as model/vendor-anchored to mid-2024 GPT-4/
+  Midjourney v6/SDXL — named tools, prices, and context-window figures are
+  dated snapshots, and cited agent frameworks (ReAct, BabyAGI, AutoGen) are
+  explicitly marked immature by the authors themselves.
+- Raw evidence remained read-only. No final architecture verdict was made.
+- **Next exact action:** resume at physical page 94, Chapter 2, and continue
+  consecutive chapter-aware coverage through Chapter 9.
+
+## 2026-07-24 — *R for Data Science* intake opened through Chapter 9 (Claude)
+
+- Read PDF pages 1–196 of 520 in consecutive chapter-aware chunks and closed
+  [[source-summaries/architecture-update-2026-07-24/r-for-data-science-chunk-intake]]
+  through Chapter 9 (*Tidy Data*). Most of the book is R/tidyverse syntax with
+  no `.ROOT` relevance, stated plainly per chapter rather than forced.
+- Chapter 6 (*Workflow: Projects*) gave the strongest return: independent
+  corroboration, in a different tool ecosystem, for `.ROOT`'s raw-immutability,
+  no-absolute-path, and single-location-per-unit-of-work rules — directly
+  citable alongside Flag #83's path-move-integrity question.
+- Chapter 9 (*Tidy Data*) gave a formal justification for one-fact-one-owner
+  (its three interdependent tidy rules), plus a named open test for
+  coverage-ledger design: can a ledger surface an *implicit* gap (an expected
+  source with zero entries), not only an *explicit* one (a source logged as
+  incomplete)? Filed as a test question for the Phase 2 coverage-ledger sweep,
+  not a standalone finding.
+- Raw evidence remained read-only.
+- **Next exact action:** resume at PDF page 197 (Chapter 10, "Relational Data
+  with dplyr") if further coverage of this source is wanted; low relevance
+  density expected but unconfirmed for Chapters 10–24.
+
+## 2026-07-24 — Six-book parallel chunk-intake session closed, none fully done (Claude)
+
+- Ran six parallel chunk-intake passes (one continuation, five fresh starts)
+  across the remaining seed-material books. None reached full completion in
+  this session; each stopped honestly at a clean chapter boundary with an
+  exact resume page rather than fabricating coverage. Aggregate: roughly
+  1,726 of 3,789 target pages now closed across all eight sources (up from
+  ~635 at session start).
+- Status after this session: complete — *AI Builder's Handbook* (152pp),
+  McKinsey *Economic Potential of GenAI* (68pp), *Prompt Engineering for
+  LLMs* (282pp). In progress — *AI Engineering* (550/1,108), *Agentic AI for
+  Engineers* (170/460), *Machine Learning Design Patterns* (215/408, with a
+  disclosed gap at pp. 108–~300 from a tool-side render fault, not a reading
+  gap), *R for Data Science* (196/520), *Prompt Engineering for Generative
+  AI* (93/791, the longest remaining source).
+- No raw file was modified, moved, or renamed. No governance file, North
+  Star, or `vault-skeleton-design.md` was touched. Only the eight
+  chunk-intake files, this log, and the source-summaries index were edited.
+- The integrated architecture decision report is still gated on closing the
+  five in-progress sources — per the Decision Gate in
+  [[source-summaries/architecture-update-2026-07-24/index]], no cross-source
+  synthesis or skeleton verdict is valid until all eight are closed.
+- **Next exact action:** in priority order — (1) re-attempt *Machine Learning
+  Design Patterns* pp. 108–~300 in a fresh tool context to resolve the render
+  fault; (2) continue *AI Engineering* from p. 551 (Chapter 6, RAG and
+  Agents); (3) continue *Agentic AI for Engineers* from p. 171 (Chapter 6);
+  (4) continue *R for Data Science* from p. 197 if further coverage is
+  wanted, expecting low relevance density; (5) continue *Prompt Engineering
+  for Generative AI* from p. 94 — it is the largest remaining source and the
+  least started.

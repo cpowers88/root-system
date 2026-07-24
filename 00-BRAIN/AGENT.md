@@ -138,9 +138,10 @@ section-heading version. Content below is unchanged from what a hub
    changed; state the next action in one sentence.
 5. **Update over create.** Check whether a source strengthens, corrects, or
    extends an existing page before creating a new one.
-6. **Never silently overwrite a claim.** When a new source contradicts an
-   existing page, flag it on the page (supersedes/contradicts X — source,
-   date) instead of quietly replacing it.
+6. **Never silently overwrite a claim.** Before replacing a claim, classify
+   the change as a temporal update, context-dependent variant, or true contradiction.
+   When a new source contradicts an existing page, flag it on the page
+   (supersedes/contradicts X — source, date) instead of quietly replacing it.
 7. **Recency markers on volatile claims.** Prices, versions, and adoption
    stats that age carry "(as of YYYY-MM, source)".
 8. **Lint pass.** At the monthly review, or on request, scan for orphan

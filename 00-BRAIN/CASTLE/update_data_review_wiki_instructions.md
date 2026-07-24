@@ -46,6 +46,19 @@ Do not rediscover what this same day's work already surfaced — verify it, exte
 - **`C:\Users\chris\.ROOT\Untitled.md`** — Codex's own separate, undated migration plan (auto-named, not this file). Independently locks "Watchtower remains separate from CASTLE." Treat as a second data point on the Phase 5 Watchtower question, not a second design authority — corroboration from an independent pass carries more weight than either plan alone, but does not settle it.
 - **`INGEST_PROTOCOL_2026-07-24_VAULT_REDESIGN_SOURCES.md`** (vault root) — an earlier, narrower same-day Claude Code draft covering only the 8-book intake lens. This file supersedes it in scope; the narrower file's four lenses (functional-role validation, move-integrity tooling, instruction register, Watchtower architecture evidence) are subsumed by Phase 4-5 below.
 
+## Wiki Hub Reference — resolve every hub name against the live folder before acting
+
+All eight hubs live at `03-WIKIS\<NAME>`, exact match, no abbreviation on disk:
+`AI_AUTOMATION_SYSTEMS`, `BUSINESS`, `EDUCATION`, `PHYSICS`, `PYTHON`,
+`REVENUE_LAB`, `SYSTEMS`, `TECHNOLOGY`. **"AIAS," used throughout this file
+and in prior session shorthand, means `03-WIKIS\AI_AUTOMATION_SYSTEMS` — it
+is not a folder name and does not appear on disk.** Phase 2's candidate
+sweep names six hubs explicitly (SYSTEMS, TECHNOLOGY, BUSINESS, EDUCATION,
+REVENUE_LAB, CASTLE) alongside AIAS; PYTHON and PHYSICS are the two not
+separately named — include both in the sweep rather than treating the
+omission as exclusion, since they are course-learning-engine hubs the
+original list simply didn't enumerate.
+
 ## Authority and Safety
 
 Before research, load and obey the live `.ROOT` boot chain and local operating files.
@@ -53,7 +66,14 @@ Before research, load and obey the live `.ROOT` boot chain and local operating f
 Non-negotiable boundaries:
 
 - Never read or write `88-JOURNAL`.
-- Never modify, rename, move, or delete anything in any `raw\` folder.
+- **Raw folders are read-only for the entire duration of this run.** Do not
+  modify, rename, move, add to, reorganize, or delete anything in any
+  `raw\` folder — this includes relocating newly-arrived intake files into
+  or within one, even a file that looks correctly routed. Reading and
+  extracting from `raw\` is the only permitted operation this file
+  authorizes. (This governs the research run this file triggers, not the
+  file placements Chris already directed and Claude Code already completed
+  earlier the same day, before this instruction existed.)
 - Never delete; archive only after Chris explicitly approves the affected operation.
 - Do not edit governance, structure, or the target design during this research run.
 - Do not create a competing System Loop, Return Packet, metadata system, placement authority, or source of truth.

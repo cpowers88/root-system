@@ -35,7 +35,7 @@ BOOT_FILES = [
     ROOT / "AGENTS.md", ROOT / "CLAUDE.md", ROOT / "START_HERE.md",
     ROOT / "NOW.md", ROOT / "CODEX.md",
     ROOT / "00-BRAIN" / "AGENT.md", ROOT / "00-BRAIN" / "CLAUDE.md",
-    ROOT / "00-BRAIN" / "CODEX.md", ROOT / "00-BRAIN" / "ATLAS.md",
+    ROOT / "00-BRAIN" / "CODEX.md",
     ROOT / "00-BRAIN" / "CHRIS_CORE.md", ROOT / "00-BRAIN" / "WHERE_IT_GOES.md",
     ROOT / "00-BRAIN" / "vault_map.md", ROOT / "00-BRAIN" / "SYSTEM_FLAGS.md",
     ROOT / "00-BRAIN" / "CASTLE" / "CLAUDE.md",
