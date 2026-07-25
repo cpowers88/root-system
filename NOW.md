@@ -5,10 +5,18 @@ status: active
 tags: []
 ---
 
-# NOW — Friday, July 24, 2026
+# NOW — Saturday, July 25, 2026
 ### Open this every morning. Start here, do the proof, then close clean.
 
 ## Start Here
+
+**Architecture conformance Pass 1 is active July 25.** The physical topology
+remains unchanged: CASTLE stays under `00-BRAIN`, and the root interfaces remain
+`MORNING_BRIEF.md` plus this file. Today’s bounded work corrects the final
+architecture authority pointer, the universal wiki machine-interface
+description, freshness labels, and the known dependency-folder false positive
+in the frontmatter health gate. `register:` remains a separate instruction-file
+governance decision; no metadata rollout or broad rename is part of this pass.
 
 **Gate 0 remodel installed and health-confirmed (July 19).** The one
 translation contract for the System Loop, five moves, pipeline, and cadence
@@ -78,13 +86,12 @@ today. W3 (BUSINESS metadata batch) is deferred, low urgency.
    window for cross-domain transfer; neighboring Sections 51/55 are reference
    only and neither controls Chris's Section 54 operations.
 
-Root health at last check (July 23): **BLOCKER (2 new, both real)** — boot/
-governance pass; wiki nav 0 blockers/0 review; frontmatter 410 reviewed
-baseline findings, 2 new (`Clippings\Microsoft Privacy Statement.md` missing
-`type`/`timeline` — flagged, not fixed, routing unclear). A same-session bug
-in `frontmatter_audit.py` (BOM-prefixed files misread as missing frontmatter
-entirely) was found and fixed — closed flag #81 — which resolved 2 of the
-original 4 new findings. No HIGH flag open.
+Root health at last check (July 25): **PASS WITH DEBT** — boot/governance,
+wiki navigation, shared-skill mirrors, whitespace, and live-text integrity
+pass; frontmatter holds 320 reviewed baseline findings, 0 new, and 300
+resolved. Dependency-environment false positives are excluded and flag #82 is
+closed. The gate does not evaluate semantic freshness, project truth, review
+cadence, source ownership, or ordinary direct-path prose. No HIGH flag open.
 
 ## Current Picture
 

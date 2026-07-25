@@ -212,7 +212,7 @@ The calendar belongs to Chris and should reflect his whole life. It may live out
 | Current position and next action | `NOW.md` |
 | Current school preparation sequence | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` plus the owning course wiki current-position |
 | Open risks and unresolved contradictions | `00-BRAIN\SYSTEM_FLAGS.md` |
-| Detailed aptitude evidence | `02-LIBRARY\REF-META-HOW-TO-WORK\` |
+| Detailed aptitude evidence | `02-LIBRARY\ref-meta-how-to-work\` |
 
 ---
 
@@ -224,8 +224,8 @@ Chris is not trying to invent a systems identity from nothing. He has already co
 
 ## Source Record
 
-- `02-LIBRARY\REF-META-HOW-TO-WORK\Christopher_Aptitude_Results.pdf` — 35-page primary aptitude report.
-- `02-LIBRARY\REF-META-HOW-TO-WORK\Christopher_Aptitude_Discussion.pdf` — 6-page discussion guide and descriptive language.
-- `02-LIBRARY\REF-META-HOW-TO-WORK\Christopher_One_Page_Summary.pdf` — 1-page visual summary.
+- `02-LIBRARY\ref-meta-how-to-work\Christopher_Aptitude_Results.pdf` — 35-page primary aptitude report.
+- `02-LIBRARY\ref-meta-how-to-work\Christopher_Aptitude_Discussion.pdf` — 6-page discussion guide and descriptive language.
+- `02-LIBRARY\ref-meta-how-to-work\Christopher_One_Page_Summary.pdf` — 1-page visual summary.
 
 All three reports were text-extracted and visually checked for this July 19, 2026 rewrite. Detailed report wording remains authoritative when exact source language matters.

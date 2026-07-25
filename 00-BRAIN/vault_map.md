@@ -6,7 +6,7 @@ tags: [governance]
 
 # vault_map.md — Powers System Map (.ROOT)
 ### Navigation file. Two levels deep ON PURPOSE — see Map Rule below.
-### Last updated: July 15, 2026 (post-remediation interface review)
+### Last updated: July 25, 2026 (post-architecture interface reconciliation)
 ### System: local C: workspace (truth) + Obsidian (capture/graph) + GitHub (code). G: is cloud backup only. Everything lives in .ROOT.
 
 ---
@@ -135,4 +135,4 @@ Standing mechanism: before any write, confirm the parent chain traces to `.ROOT`
 by NAME against the live tree. Folder IDs are retired — do not use them.
 
 ---
-*Last updated: July 15, 2026 (post-remediation interface review) | Next review: weekly*
+*Last updated: July 25, 2026 (post-architecture interface reconciliation) | Next review: weekly*

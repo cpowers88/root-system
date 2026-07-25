@@ -6,7 +6,7 @@ tags: [governance]
 
 # WHERE_IT_GOES.md — File Placement + Naming Authority
 ### THE single source for where files go and what they are called. No other file carries these rules.
-### Last updated: July 14, 2026 (intake/client-boundary reconciliation; prior version: 99-ARCHIVE\ARCHIVED_2026-07-11_WHERE_IT_GOES.md)
+### Last updated: July 25, 2026 (wiki machine-interface reconciliation; prior version: 99-ARCHIVE\ARCHIVED_2026-07-11_WHERE_IT_GOES.md)
 ### Rule: One file, one home. If it fits two places, pick the more permanent one.
 
 ---
@@ -164,8 +164,10 @@ material by subject using the Realm Check table above. Shared wiki rules
 once in `00-BRAIN\AGENT.md § Wiki Shared Layer`.
 
 **Hub archetype standard (what files a session may assume exist):** every hub
-carries `CLAUDE.md`, `HOW_TO_USE.md` (with its Hub Contract block),
-`wiki\index.md`, and `wiki\log.md` — nothing else is universal. **Learning
+carries `CLAUDE.md` (machine loader), `OPERATIONS.md` (canonical local machine
+contract), `README.md` (short human entrance), `HOW_TO_USE.md` (human
+workflow), `wiki\index.md` (catalog), and `wiki\log.md` (operational history).
+No other file is universal. **Learning
 engines** (PYTHON, PHYSICS, EDUCATION) additionally own `wiki\current-position.md`
 as learner truth, and at full build-out a `learning-path`, `parking-lot`,
 `templates\`, and stage machinery (EDUCATION grows these on demand).
@@ -271,4 +273,4 @@ evidence. Never invent a second metadata scheme — extend this one.
 - `.txt` — quick captures in 88-JOURNAL only; convert to `.md` when permanent
 
 ---
-*Last updated: July 15, 2026 (metadata model pilot) | Location: 00-BRAIN\WHERE_IT_GOES.md*
+*Last updated: July 25, 2026 (wiki machine-interface reconciliation) | Location: 00-BRAIN\WHERE_IT_GOES.md*

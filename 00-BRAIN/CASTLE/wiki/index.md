@@ -7,7 +7,7 @@ tags: []
 
 # Index — Every Live Page in CASTLE
 
-### Updated: July 24, 2026 — architecture evidence refinery and implementation packet finalized; all eight source summaries closed for this update
+### Updated: July 25, 2026 — architecture authority pointer corrected after Pass 0 review
 
 This is a discovery index, not a second current-state dashboard. Live action belongs to `.ROOT\NOW.md`; baseline and proof state belong to [[current-position]] and the owning domain systems.
 
@@ -36,8 +36,8 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 - [[skill-map]] — capability and proof structure
 - [[source-map]] — roadmap-shaping evidence
 - [[opportunity-queue]] — opportunities moving from evidence to test or harvest
-- [[root-architecture-evidence-refinery-2026-07-24]] — integrated decision report on the vault skeleton, integrity validators, migration gates, and owner returns
-- `00-BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\SESSION_INDEX.md` — canonical implementation packet and review handoff
+- [[root-architecture-evidence-refinery-2026-07-24]] — superseded interim hypothesis register produced before the full eight-source intake; retained for traceability, not implementation authority
+- `00-BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\SESSION_INDEX.md` — canonical final architecture packet, implementation authority, and review handoff
 - [[log]] — append-only CASTLE history
 
 ## Phase Pages
@@ -91,5 +91,8 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 - [[weekly-plans/weekly-plan-2026-07-23-to-2026-07-26]] — active execution
   plan; CASTLE owns weekly sequencing, while Session Logs own retrospective
   reviews
+- [[weekly-plans/weekly-plan-2026-07-27-to-2026-08-02]] — planned full-course-load
+  simulation using Chris's 40/30/15/10/5 Python, Physics, TCOM, ENGR, and
+  Economics allocation; closes at the August 2 review
 - [[pre-semester-python-push-2026]] — four-week module sequence, July 27 to
   August 23; feeds each Sunday's weekly plan, holds no learner truth

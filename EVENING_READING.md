@@ -3,23 +3,23 @@ type: dashboard
 timeline: now
 status: active
 tags: [learning]
-generated: 2026-07-24
+generated: 2026-07-25
 ---
 
-# Evening Reading ΓÇö July 24, 2026
+# Evening Reading ΓÇö July 25, 2026
 
 ## School
 
-**READ ΓÇö** `03-WIKIS/PYTHON/wiki/drills/stage-03-loop-tracing.md`, Part A (Snippets 1-3) and Part B item 3.
+**READ ΓÇö** `03-WIKIS/PYTHON/raw/books/thinkpython.pdf`, Ch.7, the "Updating Variables" section only.
 
-**FOCUS ΓÇö** Targets tonight's live frontier ΓÇö broader multi-part loop sequencing under pressure, not basic `break` ΓÇö **trace Snippet 3's counter/`break` interaction by hand before running it**.
+**FOCUS ΓÇö** Backs tonight's cold loop-and-accumulator build, not new material ΓÇö **an accumulator variable must be initialized before the loop starts, not inside it**.
 
-**STOP ΓÇö** Stop after Part A's three snippets and Part B item 3; do not start Part B items 1-2 tonight.
+**STOP ΓÇö** Stop at the end of "Updating Variables," before "The while Statement" section begins.
 
 ## Technology
 
-**READ ΓÇö** `00-BRAIN/Session_Logs/ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`, the Day 5 (AI Infrastructure) row and its stdio/Inspector logging guidance (lines ~203-217).
+**READ ΓÇö** `02-LIBRARY/.PROJECTS/MCP_Bootcamp/Code/server.py`, the full stdio wiring ΓÇö `handle_list_resources`, `handle_list_tools`, `handle_call_tool`, and `main()`.
 
-**FOCUS ΓÇö** Prepares Day 5's SDK-wiring session against the Day 4 contracts in `mcp_contracts.py` ΓÇö **stdout is reserved for JSON-RPC traffic, so all logging must go to stderr or a file**.
+**FOCUS ΓÇö** This is Day 5's exact next step, wiring Day 4's contracts to a real server ΓÇö **`stdio_server()` turns stdin/stdout into the JSON-RPC streams `server.run()` consumes**.
 
-**STOP ΓÇö** Stop before the Cybersecurity & Governance (Day 6) material; do not read ahead into host-connection/threat-model content tonight.
+**STOP ΓÇö** Stop at line 101, end of file; do not start pytest edge-case coverage or Inspector verification tonight.

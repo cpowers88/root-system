@@ -33,7 +33,7 @@ the output realm packages them.
 | `REF-BUSINESS\` | Raw business reference clippings |
 | `REF-FIELD-OPERATIONS\` | Construction/field artifacts (pro-forma workbook) |
 | `REF-AI-AUTOMATION\` | The TECHNOLOGY wiki's spine (`TECHNOLOGY_LIBRARY_STRATEGY.md` — load-bearing, do not move), prompt libraries, make.com notes. Artifact home, **not** an intake lane — new AI research routes to `03-WIKIS\AI_AUTOMATION_SYSTEMS` |
-| `REF-META-HOW-TO-WORK\` | Three YouScience source reports about Chris; the AI-ready profile lives in `00-BRAIN\CHRIS_CORE.md` + `CHRIS.md`, so PDFs are provenance rather than routine load targets |
+| `ref-meta-how-to-work\` | Three YouScience source reports about Chris; the AI-ready profile lives in `00-BRAIN\CHRIS_CORE.md` + `CHRIS.md`, so PDFs are provenance rather than routine load targets |
 | `REF-HEALTH\` | Health/fitness reference |
 | `REF-MISC\` | Everything else (stock-market books — parked, outside the North Star) |
 

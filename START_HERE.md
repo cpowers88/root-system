@@ -8,7 +8,7 @@ tags: [governance]
 ---
 
 # START HERE — The Whole System on One Screen
-### For Chris Powers, aka theinternet. Updated July 15, 2026 (root-entry + metadata reconciliation). If anything here confuses you, that's a bug — tell the AI.
+### For Chris Powers, aka theinternet. Updated July 25, 2026 (post-architecture interface reconciliation). If anything here confuses you, that's a bug — tell the AI.
 
 ---
 

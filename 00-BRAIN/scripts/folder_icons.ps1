@@ -412,7 +412,7 @@ function Get-FolderIconType {
         '02-LIBRARY\.PROJECTS' = 'projects'; '02-LIBRARY\00-SCHOOL' = 'school'
         '02-LIBRARY\REF-AI-AUTOMATION' = 'ai'; '02-LIBRARY\REF-BUSINESS' = 'business'
         '02-LIBRARY\REF-FIELD-OPERATIONS' = 'field'; '02-LIBRARY\REF-HEALTH' = 'health'
-        '02-LIBRARY\REF-MATH' = 'math'; '02-LIBRARY\REF-META-HOW-TO-WORK' = 'settings'
+        '02-LIBRARY\REF-MATH' = 'math'; '02-LIBRARY\ref-meta-how-to-work' = 'settings'
         '02-LIBRARY\REF-MISC' = 'library'; '02-LIBRARY\REF-PROGRAMMING' = 'code'
         '02-LIBRARY\00-SCHOOL\01-CSE-Python' = 'python'; '02-LIBRARY\00-SCHOOL\02-Physics I' = 'physics'
         '02-LIBRARY\00-SCHOOL\03-TCOM' = 'notes'; '02-LIBRARY\00-SCHOOL\04-ECON' = 'economics'
