@@ -2,24 +2,23 @@
 type: law
 timeline: reference
 tags: [north-star, law, governance]
-status: live
+status: draft
 register: ai-directive
 created: 2026-07-24
-approved_by: Chris
-approved: 2026-07-24
+revision: 1.1
 ---
 
 # NORTH_STAR — `.ROOT` LAW
-### Machine contract between Chris, Claude, Codex, and `.ROOT`. Read every session. Governs everything else in `.ROOT`; nothing below may override it without Chris's explicit approval.
+### Draft. Machine contract between Chris, Claude, Codex, and `.ROOT`. Read every session. Governs everything else in `.ROOT`; nothing below may override it without Chris's explicit approval.
 
 ## 1. Function
 
 `.ROOT` exists to convert Chris's learning, work, and judgment into verified
-capability, useful output, and durable economic value, under Chris's
-direction. The permanent function: enter an unfamiliar problem, find what
-actually costs money or time, and combine the right people, process, data,
-technology, and AI to fix it — proven first on real use, then repeated. The
-current business vehicle is replaceable and does not belong in this law.
+capability, useful output, and durable economic value, under Chris's direction.
+The permanent function: enter an unfamiliar problem, find what actually costs
+money or time, and combine the right people, process, data, technology, and AI
+to fix it — proven first on real use, then repeated. The current business
+vehicle is replaceable and does not belong in this law.
 
 ## 2. Destination — fixed, does not move except upward on proof
 
@@ -35,13 +34,14 @@ current business vehicle is replaceable and does not belong in this law.
 
 - Chris owns: direction, timing, relationships, accountability, consequential
   decisions, final quality.
-- AI supplies leverage — research, execution, challenge, validation,
-  proposal — never final consequential authority.
+- AI supplies leverage — research, execution, challenge, validation, proposal
+  — never final consequential authority.
 - Consequential = external messages/publication, money, credentials,
-  private/client data, calendar commitments, governance change,
-  academic-integrity boundary. Stop and ask.
-- Everything else in scope: act, then report what changed, subject to
-  `AGENT.md`'s file-safety and hard-stop rules.
+  private/client data, calendar commitments, governance change, and the
+  academic-integrity boundary. Stop and ask before acting.
+- Everything else in scope: act, then report what changed, subject to the
+  safety, privacy, raw-file, private-journal, academic-integrity, and
+  non-destructive-operation rules in `00-BRAIN\AGENT.md`.
 
 ## 4. Priority order when tracks conflict
 
@@ -55,19 +55,19 @@ lanes.
 
 ## 5. Change rule — the Ratchet
 
-- §2's date and income floor do not move except by raising the floor on proven evidence.
+- §2's date and income floor do not move except by raising the floor on proven
+  evidence.
 - Everything else — vehicle, goals, milestones, offers — changes on evidence:
   demand, revenue, outcome, constraint, capacity, or material technology change.
 - Change path: signal → evidence home → CASTLE review → Chris's explicit
   authorization → live direction updates.
-- AI may propose a change to this file but may write it only after Chris's
-  explicit approval.
+- No AI surface edits this file. A proposed change to it requires Chris's
+  approval before it is written.
 
 ## 6. Ownership map
 
 This file states function, destination, authority, priority order, and the
-change rule only. Everything else lives with its owner and is not restated
-here:
+change rule only. Everything else lives with its owner and is not restated here:
 
 | Owns | Lives at |
 |---|---|
@@ -77,7 +77,7 @@ here:
 | Information-state translation | `System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md` |
 | Domain research and learner truth | each `03-WIKIS` hub, self-owned |
 | Cross-system sequencing, next action, proof status | `00-BRAIN\CASTLE\` |
-| External signal sensing | Watchtower (`...projectSuccess\`) |
+| External signal sensing | designated Watchtower contract; its live path must be established before this row becomes operational authority |
 | File placement and naming | `00-BRAIN\WHERE_IT_GOES.md` |
 | AI behavior, safety, session protocol | `00-BRAIN\AGENT.md` |
 
@@ -89,4 +89,5 @@ October 8, 2031 date?
 
 ---
 *Human context, mission narrative, and folder navigation: `README.md` and
-`HOW_TO_USE.md` in this folder.*
+future human-layer guidance in this folder.*
+*Draft — pending Chris's edit pass. Not yet the live `NORTH_STAR.md`.*

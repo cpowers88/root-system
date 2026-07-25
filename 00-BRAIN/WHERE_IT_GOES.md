@@ -112,12 +112,14 @@ One copy, zero drift.
   approved scripts. NOT here: course
   notes, project files, personal writing.
 - **01-NORTH_STAR\** — durable direction in NORTH_STAR.md; progressive-loading
-  router in README.md; SKILL_GAP_ANALYSIS.md; `Weekly Reviews\` (retrospective,
-  AI-written); and `Goals & Milestones\` for CURRENT_STRATEGY.md, time-bounded
+  router in README.md; and `Goals & Milestones\` for SKILL_GAP_ANALYSIS.md,
+  CURRENT_STRATEGY.md, time-bounded
   prep plans, milestone evidence, and `WEEKLY_PLAN_*.md` (forward, day-by-day,
   Chris-marked-up); `System Contracts\` for North-Star-derived OS capability and
   return contracts. NOT here: generic AI governance, domain research, live projects,
   or session logs.
+- **00-BRAIN\Session_Logs\** — daily logs, handoffs, retrospective weekly/monthly
+  reviews, and their templates. NOT here: durable direction or live strategy.
 - **...projectSuccess\** — exactly two Watchtower files: operating contract in
   WATCHTOWER.md and material external-signal routing in radar.md. Evidence remains
   in the owning wiki; projects and strategy decisions never live here.

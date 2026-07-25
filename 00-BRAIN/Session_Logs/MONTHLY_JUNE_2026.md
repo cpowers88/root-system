@@ -5,7 +5,7 @@ tags: []
 ---
 
 # MONTHLY REVIEW — JUNE 2026
-## Location: 01-NORTH_STAR/Weekly Reviews/
+## Location: 00-BRAIN/Session_Logs/
 ## Run: July 5, 2026 (due July 1 — 4 days late; cruise June 24–July 4)
 ## Covers: June 1 – July 4, including the June 19–July 4 weekly-review gap
 ## Written by: Claude (evidence-based from handoffs/weeklies; items needing

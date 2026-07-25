@@ -408,7 +408,7 @@ function Get-FolderIconType {
         '00-BRAIN\CASTLE' = 'castle'; '00-BRAIN\HATS' = 'hats'; '00-BRAIN\scripts' = 'code'
         '00-BRAIN\Session_Logs' = 'logs'; '00-BRAIN\SKILLS' = 'skills'
         '01-NORTH_STAR\Goals & Milestones' = 'goals'; '01-NORTH_STAR\System Contracts' = 'contracts'
-        '01-NORTH_STAR\Weekly Reviews' = 'review'
+        '00-BRAIN\Session_Logs' = 'review'
         '02-LIBRARY\.PROJECTS' = 'projects'; '02-LIBRARY\00-SCHOOL' = 'school'
         '02-LIBRARY\REF-AI-AUTOMATION' = 'ai'; '02-LIBRARY\REF-BUSINESS' = 'business'
         '02-LIBRARY\REF-FIELD-OPERATIONS' = 'field'; '02-LIBRARY\REF-HEALTH' = 'health'

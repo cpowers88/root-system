@@ -8,7 +8,7 @@ created: 2026-07-23
 # WEEKLY PLAN — July 23 (Thu) to July 26 (Sun), 2026
 ### First live example of this new document — built mid-week from `NOW.md`'s live state since no plan existed yet. Adjust it freely; that's the point.
 
-This is not the Weekly Review (`01-NORTH_STAR\Weekly Reviews\WEEKLY_JULY16-19.md`
+This is not the Weekly Review (`00-BRAIN\Session_Logs\WEEKLY_JULY16-19.md`
 etc.) — that stays retrospective and AI-written. This is the plain execution
 checklist: what happens each day to close this week's evidence, so it's
 planned once instead of run reactively.

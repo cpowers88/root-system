@@ -123,7 +123,7 @@ Night       → Day Summary consolidates the blocks, then each AI used today wri
 Sources     → feed books/docs directly to the relevant 03-WIKIS hub — each refines its own domain
 Business    → refined knowledge → BUSINESS templates → reusable/sanitized 05-BUSINESS assets
 Horizon     → evidence home → qualifying Watchtower signal → castle gate → bounded test
-Sunday      → weekly review + Engine Question (01-NORTH_STAR\Weekly Reviews)
+Sunday      → weekly review + Engine Question (00-BRAIN\Session_Logs)
 Monthly     → weak-link check + each wiki's timeline/stage properties are reviewed
 Quarterly   → THE RATCHET — outcomes review the vehicle; earned floors get raised
 ```

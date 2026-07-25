@@ -21,8 +21,8 @@ not a project tracker, research library, or second command center.
 | What business vehicle are we seriously testing now? | `Goals & Milestones\CURRENT_STRATEGY.md` |
 | What must be proven before Fall 2026 begins? | `Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md` |
 | What must the AI OS be capable of? | `System Contracts\ROOT_CAPABILITY_CONTRACT.md` |
-| What is the current weak link? | `SKILL_GAP_ANALYSIS.md` |
-| What happened this week/month/quarter? | `Weekly Reviews\` and its template |
+| What is the current weak link? | `Goals & Milestones\SKILL_GAP_ANALYSIS.md` |
+| What happened this week/month/quarter? | `00-BRAIN\Session_Logs\` review files and templates |
 
 `NORTH_STAR.md` controls every companion. A companion may add current detail; it may
 not silently change the destination, fixed commitments, priority policy, human

@@ -42,7 +42,7 @@ If states diverge mid-month, [[skill-map]]'s register is live truth; this table 
 
 ## July Weak Links
 
-The July ranking remains owned by 01-NORTH_STAR\SKILL_GAP_ANALYSIS.md:
+The July ranking remains owned by 01-NORTH_STAR\Goals & Milestones\SKILL_GAP_ANALYSIS.md:
 
 1. SQL reliability with real data.
 2. Technology landscape and integration depth.
@@ -67,7 +67,7 @@ The August 1 review may reorder these. CASTLE does not copy the practice schedul
 - Current action and temporary pauses: .ROOT\NOW.md
 - School learner truth: 03-WIKIS\PYTHON\wiki\current-position.md and 03-WIKIS\PHYSICS\wiki\current-position.md
 - Degree and registration evidence: 02-LIBRARY\00-SCHOOL\Ellucian Degree Works Dashboard.md
-- Monthly weak-link decision: 01-NORTH_STAR\SKILL_GAP_ANALYSIS.md
+- Monthly weak-link decision: 01-NORTH_STAR\Goals & Milestones\SKILL_GAP_ANALYSIS.md
 - Technology frontier: 02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md
 - Business strategy: 01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md
 - Revenue evidence: 03-WIKIS\REVENUE_LAB\wiki\

@@ -10,7 +10,7 @@ tags: [governance, technology]
 
 Research and maintain Chris's tech-skill and tech-adoption roadmap: what to
 learn next, what tools exist, where the landscape is moving. This wiki feeds
-`01-NORTH_STAR\SKILL_GAP_ANALYSIS.md` and the Watchtower
+`01-NORTH_STAR\Goals & Milestones\SKILL_GAP_ANALYSIS.md` and the Watchtower
 (`...projectSuccess\WATCHTOWER.md`).
 
 The controlling question:
@@ -41,7 +41,7 @@ fork its content.
   non-Python applied-technique content rather than that knowledge having
   nowhere to live. (The Python/data-analysis half of FORGE's technology
   content went to `03-WIKIS\PYTHON` instead — see that wiki's `source-map.md`.)
-- Landscape research still feeds `01-NORTH_STAR\SKILL_GAP_ANALYSIS.md` and the
+- Landscape research still feeds `01-NORTH_STAR\Goals & Milestones\SKILL_GAP_ANALYSIS.md` and the
   Watchtower per the Purpose section above; applied-reference pages exist to
   be pulled from directly during audits and builds, the role FORGE used to
   serve. Don't conflate the two — a landscape page answers "should Chris learn

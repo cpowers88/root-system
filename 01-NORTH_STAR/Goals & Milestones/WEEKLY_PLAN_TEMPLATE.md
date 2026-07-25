@@ -7,7 +7,7 @@ tags: [planning]
 # WEEKLY PLAN — [START DATE] to [END DATE]
 ### Chris's own execution checklist · created same day as the Sunday Weekly Review · his to mark up, adjust, and check off
 
-This is not the Weekly Review (`01-NORTH_STAR\Weekly Reviews\`, retrospective,
+This is not the Weekly Review (`00-BRAIN\Session_Logs\`, retrospective,
 AI-written, strategic). This is the plain forward plan: what happens each day
 to reach this week's goal, in checklist form, with a time estimate next to
 each item so the week is planned once instead of run reactively.

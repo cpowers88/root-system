@@ -71,7 +71,7 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── NORTH_STAR.md      ← THE controlling document — nothing overrides it
 │   ├── README.md / SKILL_GAP_ANALYSIS.md
 │   ├── System Contracts\  ← ROOT_CAPABILITY_CONTRACT.md; loaded for OS design/evolution audits
-│   ├── Weekly Reviews\    ← weeklies + monthlies + template
+│   ├── Session_Logs\      ← daily logs + weeklies + monthlies + templates
 │   └── Goals & Milestones\ ← CURRENT_STRATEGY.md + time-bounded prep/milestone evidence
 │
 ├── 02-LIBRARY\  ← reusable knowledge, projects, and school file home
