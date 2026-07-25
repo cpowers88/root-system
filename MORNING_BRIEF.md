@@ -3,13 +3,13 @@ type: dashboard
 timeline: now
 status: active
 tags: [castle]
-generated: 2026-07-24
+generated: 2026-07-25
 ---
 
-# Morning Brief — July 24, 2026
+# Morning Brief — July 25, 2026
 
-**ATTENTION —** Physical CASTLE elevation remains unproved and requires the read-only impact gate in [root-architecture-evidence-refinery-2026-07-24.md](00-BRAIN/CASTLE/wiki/root-architecture-evidence-refinery-2026-07-24.md).
+**ATTENTION —** The undefined `register:` scheme remains today’s governance truth conflict in [SYSTEM_FLAGS.md](00-BRAIN/SYSTEM_FLAGS.md), flag #84.
 
-**START —** Review the integrated architecture verdict and authorize its impact audit; this advances safe system evolution through [root-architecture-evidence-refinery-2026-07-24.md](00-BRAIN/CASTLE/wiki/root-architecture-evidence-refinery-2026-07-24.md).
+**START —** Review CASTLE’s completed architecture update and decide the evidence needed for `register:` scope; this advances system integrity through [root-architecture-evidence-refinery-2026-07-24.md](00-BRAIN/CASTLE/wiki/root-architecture-evidence-refinery-2026-07-24.md).
 
-**CHRIS —** Approve or revise the report's direction before any CASTLE move, validator build, instruction-register rollout, or governance edit.
+**CHRIS —** Decide whether `register:` is CASTLE-scoped or vault-wide before any metadata-authority edit.

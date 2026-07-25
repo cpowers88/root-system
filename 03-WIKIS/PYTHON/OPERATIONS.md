@@ -66,8 +66,12 @@ matching CASTLE skill page, not duplicated into it.
 
 ## System boundary
 
-- This wiki teaches programming, computer science, software, and the
-  engineering thinking around them — starting with Python.
+- This wiki is the general programming-language education hub — starting
+  with Python because it is the only language currently in active use, not
+  because the hub is Python-exclusive. No duplicate-language infrastructure
+  exists on the system; when a second language enters scope, extend this hub
+  first rather than fork a new one. A rename (e.g. "programming languages")
+  is an open question for that point, not a decision made now.
 - `03-WIKIS\EDUCATION` holds general KSU course support. PYTHON is the case
   EDUCATION describes as graduating to its own wiki: enough durable staged
   material to need its own engine.

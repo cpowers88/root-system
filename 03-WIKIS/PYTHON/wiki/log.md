@@ -1406,3 +1406,30 @@ repair.
 ### Next action
 Complete and record the fresh Stage 3 loop-and-accumulator proof described in
 `wiki/current-position.md`.
+
+## 2026-07-25 — Scope framing fix (Claude)
+
+### Work completed
+Chris flagged that `README.md` and `OPERATIONS.md` did not make the wiki's
+scope rationale explicit: this hub is the general programming-language
+education engine, currently scoped to Python only because Python is the sole
+language in active use — not because the hub is Python-exclusive. No
+duplicate-language infrastructure exists on the system, so a second language
+would extend this hub rather than fork a new one. A rename (e.g. "programming
+languages") was raised as a live open question, explicitly deferred — not
+decided today.
+
+Edited both files to state this rationale directly:
+- `README.md` intro.
+- `OPERATIONS.md § System boundary`, first bullet.
+
+No structural change: folder layout, stage system, authority table, and
+CSE 1321/1321L integrity rules are unchanged. No rename applied.
+
+### Not changed
+Hub name, `CLAUDE.md`, tags, folder structure. MATH-wiki creation was raised
+by Chris as a live possibility (he has source material ready) but explicitly
+separated from this flag — not actioned.
+
+### Next action
+Chris's next flag from his review file.
