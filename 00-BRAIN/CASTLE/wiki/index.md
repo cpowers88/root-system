@@ -75,3 +75,10 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 - `..\templates\service-capability-template.md`
 - `..\templates\skill-template.md`
 - `..\templates\source-summary-template.md`
+- `..\templates\weekly-plan-template.md`
+
+## Weekly Plans
+
+- [[weekly-plans/weekly-plan-2026-07-23-to-2026-07-26]] — active execution
+  plan; CASTLE owns weekly sequencing, while Session Logs own retrospective
+  reviews

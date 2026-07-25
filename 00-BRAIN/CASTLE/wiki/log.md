@@ -6,6 +6,18 @@ tags: []
 
 # Castle Log — Append Only
 
+## 2026-07-24 — Weekly execution plans moved under CASTLE
+
+- **Authority:** Chris approved the inside-out Goals & Milestones overhaul.
+- **Change:** moved the active July 23–26 weekly plan to
+  `wiki/weekly-plans/weekly-plan-2026-07-23-to-2026-07-26.md` and its template
+  to `templates/weekly-plan-template.md`.
+- **Reason:** Goals & Milestones owns adaptive outcomes and proof bars; CASTLE
+  owns weekly sequencing and execution plans. Retrospective reviews remain in
+  `00-BRAIN\Session_Logs\`.
+- **Pointers:** updated the CASTLE index and `NOW.md`.
+- **Next:** validate active references during the Goals & Milestones closeout.
+
 ## 2026-07-24 — New CASTLE file: `update_data_review_wiki_instructions.md` (pending Chris review, not yet run)
 
 Merged Codex's `mybadcodexplan.md` (an "Evidence Refinery" research instruction for pressure-testing `vault-skeleton-design.md` against all non-private `.ROOT` realms) with same-day Claude Code findings — the 8-book intake, `vault-skeleton-design.md` §7, flag #83, and Codex's separate `Untitled.md` migration plan — into one file at Chris's direction, placed directly in `00-BRAIN\CASTLE\` for his review before execution. CASTLE's own role in the merged file stays research-free per Standing Rule 3: it dispatches and will later receive the decision report's roadmap-shaping verdicts, not raw per-book findings, which stay owned by their wikis. Not yet run. `mybadcodexplan.md` and `Untitled.md` (both vault root) are left in place for Chris's comparison, not archived.

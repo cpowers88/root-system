@@ -40,6 +40,9 @@ current business vehicle is replaceable and does not belong in this law.
 - Consequential = external messages/publication, money, credentials,
   private/client data, calendar commitments, governance change,
   academic-integrity boundary. Stop and ask.
+- AI may not write to this `NORTH_STAR.md` without Chris's explicit approval.
+- AI may not create, edit, move, rename, archive, or delete any file under a
+  `raw\` folder unless Chris explicitly authorizes the named exception.
 - Everything else in scope: act, then report what changed, subject to
   `AGENT.md`'s file-safety and hard-stop rules.
 

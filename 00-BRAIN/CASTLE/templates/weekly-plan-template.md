@@ -4,7 +4,7 @@ timeline: reference
 tags: [planning]
 ---
 
-# WEEKLY PLAN — [START DATE] to [END DATE]
+# Weekly Plan — [Start Date] to [End Date]
 ### Chris's own execution checklist · created same day as the Sunday Weekly Review · his to mark up, adjust, and check off
 
 This is not the Weekly Review (`00-BRAIN\Session_Logs\`, retrospective,

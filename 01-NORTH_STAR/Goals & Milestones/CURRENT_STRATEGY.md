@@ -3,89 +3,69 @@ type: strategy
 timeline: now
 tags: [north-star, business]
 status: active-hypothesis
+register: ai-directive
+approved_by: Chris
+approved: 2026-07-24
 ---
 
-# Current Strategy — Advisor-Builder
-### The serious business bet being tested; not Chris's permanent identity
-### Last updated: July 19, 2026 — mission-stack and capability-first reconciliation
+# CURRENT_STRATEGY — Business Vehicle Law
+### The vehicle under test. Not permanent identity — see `NORTH_STAR.md` §1.
 
-## Authority and Loading Rule
+## Authority
 
-`NORTH_STAR.md` controls the destination, permanent capabilities, priorities, and
-adaptation rule. This file holds the current business vehicle. Load it for business,
-market, offer, revenue-path, strategic-skill, or Ratchet decisions. Do not load it
-for an ordinary school or coding session unless the work needs a business connection.
-
-CASTLE owns sequencing and proof status. The BUSINESS and REVENUE_LAB wikis own
-domain research. `...projectSuccess` owns external signals. This file summarizes
-the current strategy and the evidence required to keep or change it; it does not
+`NORTH_STAR.md` owns destination, permanent capability, priority order, and
+the change rule. This file owns the current business vehicle only: thesis,
+method, assumptions, milestones, and the evidence that keeps or replaces it.
+CASTLE owns sequencing and proof status; `03-WIKIS\BUSINESS` and
+`03-WIKIS\REVENUE_LAB` own domain research; `...projectSuccess` owns external
+signals. This file summarizes the vehicle and its evidence bar; it does not
 duplicate their live boards.
 
-## Strategic Thesis
+## 1. Thesis Under Test
 
-Operate as an **Advisor-Builder** where business reality meets technical execution.
-Enter an organization, observe the work as it actually happens, identify the
-operational friction and money it costs, redesign the workflow around the right
-combination of people, process, data, software, automation, and AI, recommend or
-build only what the mapped problem justifies, train the people involved,
-maintain what works, and harvest reusable assets from the engagement.
+Claim: understanding how real work moves across people, process, data,
+software, automation, AI, and integration — and proving combinations that
+measurably improve it — converts into paid engagements and compounding
+assets. Offers, industries, prices, and revenue vehicles are
+evidence-replaceable, not the claim itself.
 
-The methodology is industry-agnostic. The current entry markets are access wedges,
-not identity constraints.
+Current vehicle name: **Advisor-Builder**.
 
-The current strategy tests one claim: that understanding how real work moves
-across people, process, data, software, automation, AI, and integration — and
-proving combinations that measurably improve the workflow — can convert into
-paid engagements and compounding assets. Offers, industries, prices, and revenue
-vehicles remain evidence-replaceable hypotheses.
+Access wedges (not identity boundaries):
+- Real estate through Heather's network — agents, brokers, attorneys,
+  investors, developers.
+- Construction credibility — direct field-operations knowledge; trusted
+  access to waste outsiders miss.
+- Open market — any organization where access and economics beat the wedges
+  above.
 
-## Advisor-Builder Delivery Pattern
-
-This is the delivery method inside one engagement. The canonical System Loop is
-defined once in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` and
-is not redefined here.
+## 2. Delivery Method
 
 1. **Observe** the real workflow, not the official story.
-2. **Diagnose** friction, waste, missing feedback, bad data flow, and economic cost.
+2. **Diagnose** friction, waste, missing feedback, bad data flow, economic cost.
 3. **Engineer** the smallest sound process or technical response.
-4. **Deploy** software, automation, dashboards, databases, or better practices only
-   when the mapped problem justifies them.
-5. **Train and retain** so the solution remains useful and improves over time.
-6. **Harvest** a reusable method, template, tool, playbook, or approved case study.
+4. **Deploy** software, automation, dashboards, or databases only when the
+   mapped problem justifies them.
+5. **Train and retain** so the solution stays useful and improves.
+6. **Harvest** a reusable method, template, tool, playbook, or case study.
 
-## Current Access Wedges
+## 3. First Offer
 
-- **Real estate through Heather's network:** warm access to agents, brokers,
-  attorneys, investors, and developers. This is the fastest path to conversations,
-  not a permanent market boundary.
-- **Construction credibility:** direct cultural and workflow knowledge of field
-  operations and contractors. This provides trusted access to normalized waste that
-  outsiders often miss.
-- **Open market:** any organization with measurable operational friction qualifies
-  when access, evidence, and economics are better than the current wedges.
+> I'll watch how the operation actually runs, map the real workflow, and
+> deliver a clear report showing where time or money is being lost and what
+> to do next.
 
-## First Offer
+No software or retainer required to earn the first engagement. The report
+must earn the implementation/retainer conversation.
 
-An observation session followed by a concise written audit report:
+## 4. Compounding Asset Paths
 
-> I'll watch how the operation actually runs, map the real workflow, and deliver a
-> clear report showing where time or money is being lost and what to do next.
+1. Client systems on retainer.
+2. Reusable methods and playbooks.
+3. Standalone applications, proven internally/client-side before productizing.
+4. Proof-led content and audience — never a posting machine without proof.
 
-No software or retainer is required to earn the first engagement. The report must
-earn the implementation or retainer conversation.
-
-## Compounding Asset Paths
-
-1. **Client systems on retainer** — maintained workflows, automations, dashboards,
-   and tools that create recurring value.
-2. **Reusable methods and playbooks** — audit kits, process maps, SOP patterns,
-   findings formats, and training assets organized for retrieval and reuse.
-3. **Standalone applications** — tools proven first through real internal or client
-   demand, then considered for productization.
-4. **Proof-led content and audience** — real learning, builds, audits, and outcomes
-   documented to create trust and demand; never a posting machine without proof.
-
-## Current Assumptions Being Tested
+## 5. Assumptions Under Test
 
 | ID | Assumption | Evidence needed | Evidence home | Review trigger |
 |---|---|---|---|---|
@@ -95,77 +75,71 @@ earn the implementation or retainer conversation.
 | S-04 | Retained improvement work is the strongest core revenue engine | audit-to-implementation/retainer conversion and delivery economics | BUSINESS + client-approved sanitized evidence | after first paid audit and first retainer decision |
 | S-05 | Every engagement can produce a reusable compounding asset | harvested asset, reuse, time saved, or repeated sale | Capability Library + approved case studies | after each real engagement |
 
-Watchtower signals do not change these assumptions directly. They may add evidence,
-raise a question, or trigger a bounded CASTLE test.
+Watchtower signals do not change these directly — evidence, a question, or a
+bounded CASTLE test only.
 
-## Proof Milestones — Current Strategy
+## 6. Goal Interfaces
 
-| Milestone | Target | What it proves |
-|---|---|---|
-| Continuity income | Before Spring 2027 enrollment | `.ROOT` can turn capability into timely economic value; Revenue Lab may test adjacent paths |
-| Observation method practiced live | Before first offer | the audit begins from real workflow evidence, not theory |
-| First paid consulting conversation | March 2027 | market access and problem framing create commercial interest |
-| First paid audit report | H1 2027 | the first offer creates enough value to buy |
-| First retainer client | By December 2027 | a report can earn recurring improvement work |
-| 3 retainer clients | End of 2028 | delivery and acquisition are repeatable |
-| 5 retainers at $1,500/month | Mid-2029 | a stable service engine exists |
-| First recurring non-service asset income | 2029 | harvested assets can earn beyond direct labor |
-| $100K annual run rate | 2029 | the model supports a real company trajectory |
-| $250K+ | 2030 | leverage and asset compounding are working |
-| $500K–$1M annual floor | October 8, 2031 | North Star economic floor reached or ratcheted higher |
+| Outcome | Owner |
+|---|---|
+| Fall 2026 academic performance and permitted course-connected proof | `fall_2026_semester.md` |
+| Cross-domain capability development and current weak link | `capability_development_goal.md` |
+| Real-world value, demand, revenue, and continuity-income proof | `value_production_goal.md` |
 
-Milestones are tests, not self-interpreting verdicts. A miss requires diagnosis:
-market, access, offer, execution, timing, capacity, or measurement. Record the cause
-before changing the strategy.
+This strategy owns the vehicle and assumptions, not the outcome ledgers. A
+missed target requires diagnosis — market, access, offer, execution, timing,
+capacity, or measurement — before the vehicle changes.
 
-## Strategy Evidence Rules
+## 7. Vehicle Evidence Rules
 
-Evidence that strengthens the strategy:
+Strengthens the vehicle:
+- repeated qualified conversations reveal the same expensive problems
+- prospects grant workflow access or express willingness to pay
+- audits produce owner-recognized findings and measurable value
+- implementation or maintenance follows the report
+- harvested assets are reused, save time, or earn money
+- delivery remains compatible with school and family capacity
 
-- qualified conversations reveal the same expensive problems;
-- prospects grant workflow access or express willingness to pay;
-- audits produce owner-recognized findings and measurable value;
-- implementation or maintenance follows the report;
-- harvested assets are reused, save time, or earn money;
-- delivery remains compatible with school and family capacity.
+Weakens or replaces it:
+- repeated qualified conversations show low willingness to pay
+- access wedges fail despite competent, completed outreach/tests
+- delivery economics cannot meet the income floor within real capacity
+- an adjacent path repeatedly produces stronger demand, profit, leverage, fit
+- a material technology or market shift changes what buyers value
 
-Evidence that may weaken or replace the vehicle:
+One anecdote or an unfinished test is not evidence.
 
-- repeated qualified conversations show low willingness to pay;
-- access wedges fail despite competent, completed outreach/tests;
-- delivery economics cannot meet the income floor within real capacity;
-- an adjacent path repeatedly produces stronger demand, profit, leverage, and fit;
-- a material technology or market shift changes what buyers value.
-
-Novelty, hype, one anecdote, or an unfinished test is not enough.
-
-## Strategy Change Process
+## 8. Change Rule
 
 ```text
 signal -> evidence home -> Watchtower radar when material
        -> CASTLE gate and bounded test -> measured outcome
-       -> strategy-assumption update -> quarterly Ratchet decision
+       -> assumption update -> quarterly Ratchet decision
 ```
 
-Chris may authorize a mid-cycle change after an explicit impact review. AI may
-propose, challenge, research, execute approved tests, and validate; it may not
-silently rewrite the strategy or North Star.
+Chris authorizes a mid-cycle change after explicit impact review. AI
+proposes, challenges, researches, executes approved tests, and validates —
+never rewrites this file or `NORTH_STAR.md` unilaterally.
 
-## Current Owners and Pointers
+## 9. Owners
 
-- Live phase/skill/proof status: `00-BRAIN\CASTLE\wiki\`
-- Business research, offer, pricing, and fulfillment: `03-WIKIS\BUSINESS\`
-- Near-term adjacent income evidence: `03-WIKIS\REVENUE_LAB\`
-- External trend and market signals: `...projectSuccess\`
-- Reusable/sanitized business assets: `05-BUSINESS\`
-- Active client-specific/private work: separate authorized client workspace
-- Current action: `.ROOT\NOW.md`
+| Owns | Lives at |
+|---|---|
+| Live phase/skill/proof status | `00-BRAIN\CASTLE\wiki\` |
+| Business research, offer, pricing, fulfillment | `03-WIKIS\BUSINESS\` |
+| Near-term adjacent income evidence | `03-WIKIS\REVENUE_LAB\` |
+| External trend/market signals | `...projectSuccess\` |
+| Reusable/sanitized business assets | `05-BUSINESS\` |
+| Active client-specific/private work | separate authorized client workspace |
+| Current action | `.ROOT\NOW.md` |
 
-## Next Strategy Proof
+## 10. Next Proof
 
-Continue school and workflow-stack capability first: complete the next real
-workflow-observation proof and the authorized technology/integration reps.
-Explicitly approved Revenue Lab tests run as bounded evidence experiments;
-unrelated revenue work does not outrank capability building without Chris's
-bounded exception (North Star, Near-Term Priority). Do not open a new business
-lane without evidence, displacement, a bounded test, and CASTLE review.
+Continue school and workflow-stack capability first; complete the next real
+workflow-observation proof and authorized technology/integration reps.
+Approved Revenue Lab tests run as bounded evidence experiments. No new
+business lane opens without evidence, displacement, a bounded test, and
+CASTLE review.
+
+---
+*Human context and change workflow: `HOW_TO_USE.md`.*
