@@ -13,7 +13,9 @@ This page tracks Chris current physics learning position.
 
 ## Current Baseline
 
-Course: PHYS 2211 — Principles of Physics I (Kennesaw State, Fall 2026, Dr. Behera).
+Course: PHYS 2211 — Principles of Physics I (Kennesaw State, Fall 2026,
+Section 54). Instructor remains unconfirmed in the official registration record;
+the available Section 51 and 55 syllabi are pacing references only.
 Source intake complete for the original `syllabus.pdf` (superseded and archived
 2026-07-21 — see [[source-map]] for its current location and the two real Fall
 2026 section syllabi that replaced it as the live reference) and the split Serway
@@ -35,7 +37,11 @@ must be verified in D2L; see [[source-map#Syllabus Data-Quality Gate]].
 
 ## Active Unit
 
-**Stage 4 — Motion in Two Dimensions (Ch 4).** Active as of 2026-07-16. Syllabus lecture dates: F Sep 4 and W Sep 9, 2026. Packet already source-verified 2026-07-07 (Section 4.5 tangential/radial acceleration gap fixed) — ready to work from a clean start, no prerequisite gaps.
+**Stage 4 — Motion in Two Dimensions (Ch 4).** Active as of 2026-07-16.
+Neighbor-section pacing estimate: F Sep 4 and W Sep 9, 2026; these are not
+confirmed Section 54 dates. Packet already source-verified 2026-07-07 (Section
+4.5 tangential/radial acceleration gap fixed) — ready to work from a clean
+start, no prerequisite gaps.
 
 **Stage 3 — Vectors (Ch 3): CLOSED 2026-07-16.** Full mastery checklist passed cold, no notes, in one session — coordinate conversion, scalar/vector ID (two examples each), decomposition, reconstruction, non-axis-angle addition, and unit-vector explanation. See [[stages/stage-3-vectors]] for the closed checklist with each cold-check result, and `wiki/log.md` 2026-07-16 for the full record. Stages 1 and 2 remain assumed-cleared from the July cruise pre-build; confirm their mastery checklists before treating them as done if it's been a while since they were last drilled.
 
@@ -44,11 +50,28 @@ MWF 9:10-10:05 AM + Friday breakout), the week-by-week reading-ahead triggers,
 and the mastery/exam/stall triggers that move the active stage independent of
 the calendar.
 
-## First 7-Day Priority
+## Seven-Day Plan — July 26 through August 1, 2026
 
-1. Begin Stage 4: coordinate conversion → decomposition → reconstruction → addition are all prerequisite-solid, so start directly with projectile motion (independence of x/y motion) rather than re-drilling Stage 3.
-2. Work the real Chapter 3 textbook problem set ([[drills/stage-3-textbook-problems]]) as a durability check on Stage 3 while Stage 4 begins — flag reflection-worthy ones live.
-3. Full D2L lecture-date calendar for Ch 6 onward is still pending — get exact exam and lecture dates when available. **2026-07-21 update:** two real neighbor-section syllabi (Section 51 and Section 55, neither is Chris's Section 54) now give a same-instructor full-semester calendar as pacing evidence — see [[learning-path]] pacing-anchor notes and [[syllabus-coverage-ledger#Cross-Section Verification, 2026-07-21]]. Do not treat these as Chris's real dates; they narrow the pacing target while D2L stays unpopulated.
+The target is a real Stage 4 mastery attempt by the end of the week, with Stage
+5 prepared but not activated early. Use the solutions only after a cold attempt.
+
+| Date | Focus | Reading | Independent work | Proof to record |
+|---|---|---|---|---|
+| Sun Jul 26 | Stage 4 orientation + x/y independence | Ch 4 overview and §4.1-4.2, book pp. 68-74; [[concepts/projectile-motion]] | Draw one launch diagram and write x(t), y(t), v_x(t), v_y(t) from memory; do [[drills/projectile-motion-drill]] Problems 1-2 | Correct axes, components, signs, units, and one-sentence independence explain-back |
+| Mon Jul 27 | Angled projectile motion | Ch 4 §4.3, pp. 74-80; [[problem-types/projectile-angled-launch]] | Projectile drill Problems 3-4 | Solve both without equation prompting; interpret both time roots physically |
+| Tue Jul 28 | Projectile transfer and durability | Re-read only missed §4.3 examples; [[common-errors/stage-4-motion-in-two-dimensions]] items 1-6 | Projectile drill Problems 5-6 plus two selected [[drills/stage-3-textbook-problems]] | Correctly reject the range shortcut when heights differ; classify every miss |
+| Wed Jul 29 | Uniform circular motion | Ch 4 §4.4, pp. 81-83; [[concepts/uniform-circular-motion]] | [[drills/circular-motion-drill]] Problems 1-4 | Identify the real inward force and explain why constant speed still has acceleration |
+| Thu Jul 30 | Nonuniform curved motion | Ch 4 §4.5, pp. 84-85; [[calculus-links/tangential-radial-acceleration-derivative]] | [[drills/tangential-radial-acceleration-drill]] Problems 1-3 | Separate a_r and a_t, show their directions, and combine them as perpendicular components |
+| Fri Jul 31 | Relative velocity + Stage 4 integration | Ch 4 §4.6, pp. 85-88; [[concepts/relative-velocity]] | [[drills/relative-velocity-drill]] Problems 1-5 | Set up subscripts before numbers and explain the chosen reference frame |
+| Sat Aug 1 | Cold Stage 4 gate + Stage 5 preview | Ch 4 summary pp. 89-90; only if Stage 4 passes, preview Ch 5 §5.1-5.2, pp. 95-98 | Run every item in [[stages/stage-4-motion-in-two-dimensions#Mastery Checklist]] cold; if passed, do [[drills/fbd-drawing-drill]] Problems 1 and 4 only | Record pass/fail evidence, errors by class, frontier status, and one next rep |
+
+**Advancement rule:** Stage 5 becomes active only after every Stage 4 checklist
+item passes independently. If the gate misses, repeat only the failed category
+on August 2; do not restart the whole stage.
+
+**D2L watch:** the full Section 54 lecture/exam calendar remains pending. The two
+neighbor-section syllabi narrow the pacing estimate but do not establish Chris's
+real dates; see [[syllabus-coverage-ledger#Cross-Section Verification, 2026-07-21]].
 
 Math support is now stage-gated in [[math-readiness-path]]. It starts with the
 active non-axis vector rep, then reactivates derivative/integral meaning before
@@ -57,7 +80,11 @@ Stage 4 instead of running a detached calculus review.
 ## Ahead-Check: Stage 5 (verified 2026-07-07, so Chris isn't held up after Stage 4)
 
 - **Stage 4 (Motion in Two Dimensions, Ch 4)** is now the active unit (see above) — no longer an ahead-check. Its one real gap (Section 4.5, tangential + radial acceleration, previously miscited as Stage 10 material) was already fixed 2026-07-07 — see [[stages/stage-4-motion-in-two-dimensions]].
-- **Stage 5 (The Laws of Motion, Ch 5)** — checked against the textbook's actual section list (5.1–5.8); all eight sections are represented in the existing concept pages. No changes needed. Ready as-is.
+- **Stage 5 (The Laws of Motion, Ch 5)** — checked against the textbook's
+  actual section list (5.1–5.8) and corrected to book pp. 95–126 on
+  2026-07-25. Its concepts, examples, drills, reading order, and cold entry
+  check are prepared. Ready to activate after the Stage 4 gate; readiness is
+  not mastery.
 - **Stages 6–18** — textbook tables of contents were screened 2026-07-15 and the
   readiness/gap classification is now in [[learning-path#Semester Pathway Control Table]].
   Packet-level expansion remains just in time: Stage 6 needs accelerated frames;

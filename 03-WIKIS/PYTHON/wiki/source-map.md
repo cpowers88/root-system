@@ -12,6 +12,12 @@ This page inventories all raw sources and decides how each source should be used
 
 Do not deep-ingest many books until this map exists.
 
+**Physical page numbers live in [[source-page-map]]** (added 2026-07-25). This page
+decides *which* source serves a stage; that one says *what physical PDF page to
+open*, with the printed→physical offset for each book. Think Python, Python Crash
+Course, and Python Workout are mapped and spot-verified; Invent Your Own Games and
+Grokking Algorithms are still unmapped and flagged there.
+
 ---
 
 ## Status: Active Roster Mapped; Later Intake Classified

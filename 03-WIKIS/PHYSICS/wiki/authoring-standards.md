@@ -110,28 +110,44 @@ When Chris adds syllabus, textbook, or other material to `raw/`:
 
 **Start of session:** read `OPERATIONS.md`, `wiki/index.md`, most recent `wiki/log.md` entries, `wiki/learning-path.md`, `wiki/current-position.md`; state the one-session objective in one sentence; do not duplicate pages already present.
 
-**End of session:** update `wiki/index.md` and `wiki/log.md`; confirm what changed; list files created/updated; state the next exact action for Chris; identify blocked items; identify what should be parked.
+**End of session:** use the local instance of the canonical Return Packet from
+`01-NORTH_STAR/System Contracts/ROOT_CAPABILITY_CONTRACT.md`. Update
+`wiki/index.md` only when navigation changed, update `wiki/current-position.md`
+only when independent learner evidence changed, and append `wiki/log.md`.
+Lead with the outcome and evidence; a file inventory is supporting detail, not
+the report.
 
 Append to `wiki/log.md` in this format:
 
 ```markdown
 ## YYYY-MM-DD — Session Title
 
-### Objective
+### Outcome
 -
 
-### Sources touched
+### Evidence
 -
 
-### Files created/updated
+### Capability/status movement
 -
 
-### Concepts/equations/problem types added
+### Errors, uncertainty, or residual risk
 -
 
-### Parked material
+### Exact next independent rep
 -
 
-### Next action for Chris
+### Reusable-asset candidate
+- Yes/no. If yes, name the proposed owner; do not create it without scope.
+
+### System-learning candidate
+- Yes/no. If yes, name the flag or learning nomination.
+
+### Sources and files touched
 -
 ```
+
+For a **learning session**, Evidence must include cold performance, prompting
+level, units/model/diagram result, and miss classification. For a **system
+session**, Evidence must include files changed and checks run. Write "none" when
+a field did not move; never omit the field and leave the reader guessing.

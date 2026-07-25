@@ -48,10 +48,11 @@ PHYS 2211 — Principles of Physics I, Kennesaw State University, Fall 2026.
 packets exist, but [[learning-path]] now distinguishes source-verified packets,
 TOC-screened packets, known expansion gaps, and mastery evidence.
 
-**Next exact rep:** begin Stage 4 with projectile motion (independence of x/y
-motion); the real Ch 3 textbook problem set ([[drills/stage-3-textbook-problems]])
-runs alongside as a Stage 3 durability check. The supporting trig/calculus
-sequence is in [[math-readiness-path]].
+**Next exact rep:** on July 26, read Ch 4 §4.1–4.2 (book pp. 68–74), write
+the four component-motion equations from memory, then complete
+[[drills/projectile-motion-drill]] Problems 1–2. The complete July 26–August
+1 sequence is in [[current-position#Seven-Day Plan — July 26 through August
+1, 2026]].
 
 **Recall decks:** `02-LIBRARY\00-SCHOOL\02-Physics I\Flash Cards\Physics_All_Stages.apkg`
 — one Anki package, `Physics` parent deck with a subdeck per stage (all 18,
@@ -71,7 +72,7 @@ cruise-prep build; **generated ≠ studied** — actual progress lives in
 - `calculus-links/` — 9 calculus-in-physics bridge pages, each with a multi-problem practice set and a real-world engineering use case
 - `problem-types/` — 36 problem recognizers and solution patterns
 - `worked-examples/` — 19 approved worked examples
-- `drills/` — 35 independent study drills
+- `drills/` — 36 independent study drills
 - `glossary/` — 48 vocabulary pages
 - `flashcards/` — 18 flashcard decks
 - `diagrams/` — none yet

@@ -200,8 +200,29 @@ there. Derived work belongs in `wiki/`.
 1. Append `wiki/log.md`.
 2. Update `wiki/current-position.md` only if independent evidence changed.
 3. Update index/maps/path only if their owned state changed.
-4. Record sources, files changed, parked material, blockers, and one exact next action.
-5. Run wiki lint and the canonical root-health gate after governance or metadata changes.
+4. Return the local instance of the canonical five-field Return Packet:
+   outcome; evidence link; capability/status movement; reusable-asset
+   candidate; system-learning candidate.
+5. For a learning session, also record the cold performance evidence, error
+   class, frontier verdict, and one exact next rep. For a system session,
+   record files changed, checks run, and residual risk.
+6. Separate **verified**, **inferred**, and **still unknown** claims. Never use
+   file creation, packet readiness, or AI-assisted work as learner evidence.
+7. Run wiki lint and the canonical root-health gate after governance or
+   metadata changes.
+
+### Report quality gate
+
+A session report is not complete unless a fresh reader can answer:
+
+1. What actually changed or was demonstrated?
+2. What exact evidence supports that claim?
+3. Did learner status move, or explicitly not move?
+4. What error or uncertainty remains?
+5. What is the one next independent action?
+
+Use exact wiki links or `.ROOT`-relative file paths. Do not report planned work
+as completed work, and do not bury the next action under a file inventory.
 
 completion_condition: A fresh session can recover authority, active stage, evidence, and next action without oral history.
 

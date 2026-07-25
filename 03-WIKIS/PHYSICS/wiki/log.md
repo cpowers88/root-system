@@ -979,3 +979,55 @@ existing next actions (Section 54 D2L confirmation, Aug 24+) are unchanged.
 ### Next action for Chris
 - Begin the Stage 4 projectile-motion rep in `wiki/current-position.md`, while
   using the Stage 3 textbook problems as the recorded durability check.
+
+## 2026-07-25 — Stage 4 Week Plan, Stage 5 Readiness, and Report Repair
+
+### Outcome
+- Confirmed Stage 4 is the active learner frontier, installed a dated July
+  26–August 1 deep-dive, prepared Stage 5's launch sequence, and repaired the
+  PHYSICS session-report standard to match the canonical Return Packet.
+
+### Evidence
+- Direct PDF inspection verified Chapter 4 at book pp. 68–94 and Chapter 5 at
+  pp. 95–126. The prior Stage 5 citation of pp. 109–143 was incorrect.
+- `current-position.md`, `learning-path.md`, and `index.md` now agree that Stage
+  3 closed July 16, Stage 4 is active, and Stage 5 is ready but not active.
+- Root health: PASS WITH DEBT; 0 wiki blockers, 0 review links, 0 new
+  frontmatter debt, 0 whitespace findings, and 0 live-text-integrity findings.
+  The 320 reviewed metadata findings remain baseline debt.
+
+### Capability/status movement
+- Learner status did not move: no independent physics performance occurred.
+- System readiness moved: Stage 4 now has a complete dated rep sequence and
+  relative-velocity drill; Stage 5 has a verified reading/exercise order and
+  cold entry check.
+
+### Errors, uncertainty, or residual risk
+- Corrected stale Stage 3 status in `learning-path.md`, the incorrect Stage 5
+  page range, and unverified instructor/date claims in the active Stage 4–5
+  interface.
+- Section 54 instructor, lecture dates, and exam dates remain unknown until
+  official D2L material appears. Later-stage historical instructor labels were
+  not expanded into this Stage 4–5 task.
+- The health gate does not evaluate semantic freshness outside its named scopes.
+
+### Exact next independent rep
+- July 26: read Ch 4 §4.1–4.2 (book pp. 68–74), write x(t), y(t), v_x(t), and
+  v_y(t) from memory, then solve projectile drill Problems 1–2 cold.
+
+### Reusable-asset candidate
+- No. This is a domain learning plan and local report repair, not a commercial
+  asset.
+
+### System-learning candidate
+- No open nomination. The local report-template mismatch was identified and
+  repaired in the same session; monitor the next PHYSICS session report for
+  outcome/evidence/frontier/next-rep quality before generalizing further.
+
+### Sources and files touched
+- Source PDFs: the immutable Chapter 4–5 textbook chunks in `raw/textbook/`
+  (read only).
+- Updated: `OPERATIONS.md`, `wiki/authoring-standards.md`,
+  `wiki/current-position.md`, `wiki/index.md`, `wiki/learning-path.md`, and
+  Stage 4–5 packets.
+- Added: `wiki/drills/relative-velocity-drill.md`.

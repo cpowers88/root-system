@@ -81,10 +81,11 @@ today. W3 (BUSINESS metadata batch) is deferred, low urgency.
    loop tracing/construction under time pressure — not basic `break`, which is
    resolved. Stage 3 continues; next reps run July 24 (fresh mini-build) and
    July 25 (cross-domain capstone + independent verdict).
-3. **Physics Stage 4 formal progression remains paused for the sprint week.** A
-   syllabus-neutral quantitative rep remains available later in the evidence
-   window for cross-domain transfer; neighboring Sections 51/55 are reference
-   only and neither controls Chris's Section 54 operations.
+3. **Physics Stage 4 restarts July 26 with a seven-day deep dive.** The dated
+   July 26–August 1 sequence is live in the PHYSICS `current-position.md`;
+   Stage 5 is source-checked and ready but cannot activate until the Stage 4
+   cold gate passes. Neighboring Sections 51/55 remain pacing references only
+   and neither controls Chris's Section 54 operations.
 
 Root health at last check (July 25): **PASS WITH DEBT** — boot/governance,
 wiki navigation, shared-skill mirrors, whitespace, and live-text integrity
@@ -97,7 +98,7 @@ cadence, source ownership, or ordinary direct-path prose. No HIGH flag open.
 
 | Area | Live truth | Next proof |
 |---|---|---|
-| School | Aug 24 readiness is fixed; D2L is unpopulated; exact PHYS 2211 Section 54 and ENGR 1000 BWD syllabi are unavailable; Python Stage 3 `break`/loop-tracing now directly demonstrated after the `for.py` reconciliation; active frontier is multi-part loop tracing under time pressure | Fresh Python mini-build July 24; cross-domain capstone + independent verdict July 25; use Physics only for syllabus-neutral private practice until exact materials arrive |
+| School | Aug 24 readiness is fixed; D2L is unpopulated; exact PHYS 2211 Section 54 and ENGR 1000 BWD syllabi are unavailable; Physics Stage 4 is active with a July 26–August 1 private-practice plan and Stage 5 ready behind its cold gate; Python Stage 3 `break`/loop-tracing is directly demonstrated | July 26 Physics: read Ch 4 §4.1–4.2, write the four component equations from memory, and solve projectile drill Problems 1–2 cold |
 | Tracker / SQL | V1 shipped; exact D2L course data is not available yet | Enter verified D2L data when courses populate, likely near August 24, and test the real workflow |
 | Technology | Claude leads the MCP Bootcamp; Days 1–4 closed over the real `observation_one.md` case | Day 5 (AI Infrastructure): wire the MCP SDK to the Day 4 contracts — stdio, stderr logging, full pytest coverage, Inspector |
 | Business | Advisor-Builder is the current hypothesis; the flip-margin-leak replay (OPP-20260716-01) is parked 2026-07-23 — no warm-network flipper contact exists, verdict unchanged if one surfaces; closing-exception autopsy is HOLD (OPP-20260716-02) | The B2 change-order conversation below now carries the "one live workflow replay" slot instead |
@@ -106,7 +107,9 @@ cadence, source ownership, or ordinary direct-path prose. No HIGH flag open.
 
 ## This Week
 
-- [ ] Syllabus-neutral Physics quantitative rep later in the evidence window; formal Section 54 alignment waits for exact materials
+- [ ] Physics Stage 4 deep dive, July 26–August 1; Stage 5 activates only after
+  the Stage 4 cold gate; formal Section 54 calendar alignment still waits for
+  exact D2L materials
 - [x] Python Stage 3: password-controlled `while`, divisible-by-7 counter, guessing game, and the `for.py`/`break` reconciliation all now directly demonstrated (July 22–23); remaining mastery checklist and multi-part loop tracing continue July 24–25
 - [ ] Lane A remains parked while `YT_Outlier_Scanner(Pause, chris)` is paused; no worksheet, proof, public, or monetization action unless Chris explicitly reactivates it
 - [ ] Hold the B2 change-order replay conversation with the contractor friend (OPP-20260714-01, approved 2026-07-22) — record whether he'd pay for remote estimating/change-order support; one conversation only

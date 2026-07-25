@@ -15,8 +15,9 @@ This is the master study route for PHYS 2211 — Principles of Physics I. It tel
 ## Path Status
 
 All 18 stage packets are generated, but generated content is not studied content.
-Chris's active unit is **Stage 3 — Vectors**; the live learner truth, current
-evidence, and next exact action remain in [[current-position]]. Stages 1–2 are
+Chris's active unit is **Stage 4 — Motion in Two Dimensions**; Stage 3 closed
+with a cold mastery pass on 2026-07-16. The live learner truth, current evidence,
+and next exact action remain in [[current-position]]. Stages 1–2 are
 provisionally cleared from the July build-ahead and must be confirmed against their
 mastery checklists if they have gone undrilled for a while.
 
@@ -25,9 +26,9 @@ mastery checklists if they have gone undrilled for a while.
 ```text
 Stage 1  -> Ch 1  Physics and Measurement              [PROVISIONALLY CLEARED]
 Stage 2  -> Ch 2  Motion in One Dimension
-Stage 3  -> Ch 3  Vectors                              [ACTIVE]
-Stage 4  -> Ch 4  Motion in Two Dimensions (Projectile Motion)
-Stage 5  -> Ch 5  The Laws of Motion (Newton's Laws, Free Body Diagrams)
+Stage 3  -> Ch 3  Vectors                              [CLOSED 2026-07-16]
+Stage 4  -> Ch 4  Motion in Two Dimensions             [ACTIVE]
+Stage 5  -> Ch 5  The Laws of Motion                   [READY; NOT ACTIVE]
 Stage 6  -> Ch 6  Circular Motion and Other Applications of Newton's Laws
 Stage 7  -> Ch 7  Energy of a System
 Stage 8  -> Ch 8  Conservation of Energy
@@ -65,9 +66,9 @@ the material has been mastered.
 |---|---|---|---|---|
 | 1 | [[stages/stage-1-physics-and-measurement]] | built; mastery refresh if stale | units, algebra, estimation | measurements and material quantities |
 | 2 | [[stages/stage-2-motion-in-one-dimension]] | built; section citation corrected to 2.1-2.9; mastery refresh if stale | slope, derivative, graph area | driving, braking, elevators |
-| 3 | [[stages/stage-3-vectors]] | source-verified; **active** | trig, inverse trig, quadrants | navigation and cable forces |
-| 4 | [[stages/stage-4-motion-in-two-dimensions]] | source-verified; **next** | components, quadratics | thrown objects and water trajectories |
-| 5 | [[stages/stage-5-laws-of-motion]] | source-verified; ready | simultaneous equations, incline trig | loads, ramps, connected equipment |
+| 3 | [[stages/stage-3-vectors]] | source-verified; **closed 2026-07-16** | trig, inverse trig, quadrants | navigation and cable forces |
+| 4 | [[stages/stage-4-motion-in-two-dimensions]] | source-verified; **active** | components, quadratics | thrown objects and water trajectories |
+| 5 | [[stages/stage-5-laws-of-motion]] | source-verified; **ready, not active** | simultaneous equations, incline trig | loads, ramps, connected equipment |
 | 6 | [[stages/stage-6-circular-motion]] | Ready — section 6.3 accelerated frames built out 2026-07-21 (concept, glossary, common-errors, flashcards, mastery items) | radians and circular geometry | vehicle turns and rotating rides |
 | 7 | [[stages/stage-7-energy-of-a-system]] | TOC screened; section 7.9 restored to alignment | dot product and force-distance integral | pushing, lifting, springs |
 | 8 | [[stages/stage-8-conservation-of-energy]] | TOC screened; packet covers 8.1-8.5 at overview level | algebra and rates | braking loss and roller-coaster energy |
@@ -156,8 +157,7 @@ which is a day/date conflict; D2L must confirm the second meeting (likely F Aug 
 
 **Core concepts:** Vector vs. scalar, coordinate systems, vector addition/subtraction, components, unit vectors, dot product (preview).
 
-**Packet status:** Generated and active. Resume vector addition by components, then
-complete a no-notes pass and the Stage 3 mastery checklist before Stage 4.
+**Packet status:** Closed 2026-07-16 after a complete no-notes mastery pass.
 
 ---
 
@@ -171,7 +171,8 @@ complete a no-notes pass and the Stage 3 mastery checklist before Stage 4.
 
 **Core concepts:** Position/velocity/acceleration vectors, projectile motion, uniform circular motion, tangential/radial acceleration, relative velocity.
 
-**Packet status:** Generated and source-verified; not yet studied.
+**Packet status:** Generated, source-verified, and active. The dated seven-day
+deep-dive and next exact rep live in [[current-position]].
 
 ---
 
