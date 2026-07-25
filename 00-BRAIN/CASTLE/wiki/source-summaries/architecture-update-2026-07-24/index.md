@@ -1,7 +1,7 @@
 ---
 type: map
-timeline: now
-status: active
+timeline: reference
+status: complete
 tags: [castle, architecture, source-intake, ai-automation, machine-learning]
 created: 2026-07-24
 ---

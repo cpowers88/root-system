@@ -36,7 +36,7 @@ tags: [service]
 Templates, scripts, checklists that make it repeatable (link real files).
 
 ## Pricing Basis
-Reference: `03-WIKIS\BUSINESS\wiki\ai-integration-company\pricing-models.md`
+Reference: `03-WIKIS\BUSINESS\wiki\offers\pricing-models.md`
 
 ## Proof Required Before Selling
 

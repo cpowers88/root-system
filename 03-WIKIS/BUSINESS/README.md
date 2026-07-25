@@ -1,39 +1,47 @@
 ---
-tags:
-  - moc
-stage: phase-all
+type: guide
 timeline: reference
+status: live
+register: human-context
+tags: [business]
+updated: 2026-07-24
 ---
 
-# BUSINESS Wiki — User Router
+# Business Wiki
 
-This hub holds business research, methods, pricing/offer options, and blank delivery
-templates. It supports the current strategy; it does not define Chris's permanent
-identity or decide when a sales action begins.
+This wiki turns business evidence into usable methods, tested offer components,
+and better economic decisions.
 
-## Start Here
+It does not decide what business Chris must build. The current vehicle lives in
+`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`.
 
-1. For the active business vehicle, read
-   `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`.
-2. For how to operate this hub, read `03-WIKIS\BUSINESS\HOW_TO_USE.md`.
-3. For the research/method inventory, open
-   [[wiki/ai-integration-company/index|AI Integration Company Index]].
-4. Use [[wiki/ai-integration-company/north-star-alignment|North Star Alignment]] as
-   an authority bridge—not as a copied constitution.
+## Start here
 
-## Use Rule
+- `HOW_TO_USE.md` — practical human workflow.
+- `OPERATIONS.md` — canonical machine contract.
+- `wiki\index.md` — complete knowledge catalog.
+- `wiki\log.md` — history of ingests, queries, tests, and maintenance.
 
-Roadmap and `start-here` pages are reference scenarios until CURRENT_STRATEGY,
-CASTLE, and NOW activate a bounded action. Opening a page never authorizes outreach,
-purchases, filing, publication, or client commitments.
+## What belongs here
 
-Blank masters remain here. Active client-specific/private work belongs in a separate
-authorized client workspace. Only sanitized reusable learning returns to `.ROOT`.
+- market and customer evidence;
+- workflow and systems-diagnosis methods;
+- offer, pricing, sales, and delivery research;
+- business operating models;
+- economic models with explicit assumptions;
+- risks, contradictions, and falsification conditions; and
+- lessons returned from permitted real use.
 
-## Visual Navigation
+## What belongs elsewhere
 
-Filter the single `.ROOT` graph with `path:"03-WIKIS/BUSINESS"` plus a phase tag.
-Graph colors come from `00-BRAIN\COLOR_MAP.yaml`; do not hand-edit
-`.obsidian\graph.json`.
+- Current strategy and goals → `01-NORTH_STAR\Goals & Milestones\`
+- Weekly sequencing and test activation → CASTLE and `NOW.md`
+- Reusable sanitized templates and assets → `05-BUSINESS\`
+- Active client-specific/private work → separate authorized workspace
+- External signals before business integration → Watchtower and evidence owner
 
-Source/operating instructions: `03-WIKIS\BUSINESS\CLAUDE.md`.
+## Simple test
+
+If the file explains what evidence says or how a business method works, it may
+belong here. If it commits Chris to a goal, starts work, communicates
+externally, or stores a client deliverable, it belongs somewhere else.

@@ -944,3 +944,38 @@ None new.
 ### Next action for Chris
 None urgent — this was a citation-path repair, not a content change. The
 existing next actions (Section 54 D2L confirmation, Aug 24+) are unchanged.
+
+## 2026-07-24 — Machine-interface architecture conversion (Codex)
+
+### Objective
+- Convert the PHYSICS hub to the governed loader/contract/human-router pattern
+  without changing learner progress, physics content, or raw evidence.
+
+### Sources touched
+- Existing PHYSICS operating files, current position, learning path, index,
+  source map, and Fall 2026 semester goal.
+
+### Files created/updated
+- New `OPERATIONS.md`: canonical machine contract with authority, durable-spine
+  and course-overlay lifespans, INGEST/QUERY/LINT operations, teaching contract,
+  mastery proof, academic-integrity boundary, raw boundary, and close rule.
+- `CLAUDE.md`: reduced to a thin deterministic AI loader.
+- New `README.md`: human entry router.
+- `HOW_TO_USE.md`: rewritten as the human study workflow; retired
+  `PRE-SEMESTER_PREP_PLAN.md` pointer replaced by `fall_2026_semester.md`.
+- `authoring-standards.md`, `source-map.md`, `calculus-map.md`, and
+  `syllabus-coverage-ledger.md`: live authority pointers moved from
+  `CLAUDE.md` to `OPERATIONS.md`.
+- Added a Git-object archive manifest for the exact pre-conversion
+  `CLAUDE.md` and `HOW_TO_USE.md` blobs. Historical log references remain
+  historical.
+
+### Concepts/equations/problem types added
+- None. Stage 4 remains active; no learner proof or stage advancement claimed.
+
+### Parked material
+- Existing frontmatter normalization debt remains a separate mechanical pass.
+
+### Next action for Chris
+- Begin the Stage 4 projectile-motion rep in `wiki/current-position.md`, while
+  using the Stage 3 textbook problems as the recorded durability check.

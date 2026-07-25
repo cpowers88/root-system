@@ -64,7 +64,7 @@ Stage 18 (Ch 38) -> none new (Lorentz algebra, but gives up Galilean intuition)
 
 ## Later Stages
 
-Full calculus-link pages for each stage are generated when that stage packet is built, per the one-stage-at-a-time rule in [[../CLAUDE.md]]. The roadmap above is the preview — each row becomes a detailed page in `wiki/calculus-links/` as Chris reaches it.
+Full calculus-link pages for each stage are generated when that stage packet is built, per the one-stage-at-a-time rule in [[../OPERATIONS.md]]. The roadmap above is the preview — each row becomes a detailed page in `wiki/calculus-links/` as Chris reaches it.
 
 ## Calculus-Link Pages Built So Far
 

@@ -254,7 +254,8 @@ These are not rejected forever. They are parked behind evidence triggers.
   complete the minimum operating checklist.
 - **Before any AI feature:** define the task, eval set, human gate, privacy boundary,
   and rollback path first.
-- **Monthly:** revisit this audit with `SKILL_GAP_ANALYSIS.md`; change the sequence
+- **Monthly:** revisit this audit with `capability_development_goal.md` (which
+  superseded `SKILL_GAP_ANALYSIS.md` on 2026-07-24); change the sequence
   only when live evidence changes the bottleneck.
 
 ---

@@ -50,12 +50,12 @@ Observation surfaces the gap between the documented process and the real one.
 ## Source Support
 | Source | Tier | Location |
 |---|---|---|
-| lean-methodology.md — VSM field method (walk twice, pencil/paper) | 2, digested (migrated from FORGE July 7, 2026) | `03-WIKIS\BUSINESS\wiki\ai-integration-company\lean-methodology.md` |
-| smb-ai-audit-method.md — Business Flow Map, Task Inventory steps | internal, spine | `03-WIKIS\BUSINESS\wiki\ai-integration-company\` |
+| lean-methodology.md — VSM field method (walk twice, pencil/paper) | 2, digested (migrated from FORGE July 7, 2026) | `03-WIKIS\BUSINESS\wiki\methods\lean-methodology.md` |
+| smb-ai-audit-method.md — Business Flow Map, Task Inventory steps | internal, spine | `03-WIKIS\BUSINESS\wiki\methods\smb-ai-audit-method.md` |
 | OBSERVATION_METHODOLOGY.md | internal, spine (skeleton v1, unproven) | `05-BUSINESS\01-Audit Templates\` |
 | Field Notes Capture (domain hypothesis note + desk simulation; no live rep yet) | internal | `05-BUSINESS\02-Field Notes\` |
 | APQC_13_1_WORKFLOW_OBSERVATION_MAP.md — packaged client-facing version of the method (maturity: draft, untested) | internal, capability library | `05-BUSINESS\06-Capability Library\` |
-| consulting-methodology.md — three-layer discovery interview | 2, digested (migrated from FORGE July 7, 2026) | `03-WIKIS\BUSINESS\wiki\ai-integration-company\consulting-methodology.md` |
+| consulting-methodology.md — three-layer discovery interview | 2, digested (migrated from FORGE July 7, 2026) | `03-WIKIS\BUSINESS\wiki\methods\consulting-methodology.md` |
 
 ## Proof Project
 No dedicated proof-project page yet — evidence lives directly in

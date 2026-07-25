@@ -1,14 +1,18 @@
 ---
 type: guide
 timeline: reference
-tags: []
+status: live
+register: human-context
+tags: [governance, castle]
 ---
 
 # HOW TO USE — CASTLE
 
 ### User router for decisions, sequencing, ownership, and proof
 
-**Last updated:** July 19, 2026 — synchronized to `OPERATIONS.md`
+**Last updated:** July 24, 2026 — routing table extended to the four
+`Goals & Milestones` owners and the Watchtower four-field handoff; synchronized
+to `OPERATIONS.md`
 
 ## What CASTLE Answers
 
@@ -37,8 +41,11 @@ Durable direction belongs to `01-NORTH_STAR\NORTH_STAR.md`. Rules and authority 
 | What capabilities need proof? | `wiki\skill-map.md` |
 | What technology fits this workflow problem? | `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` — 12 categories + Recommendation Ladder |
 | What is the current business strategy? | `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` |
+| What does this semester require? | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` |
+| Which capability is the current weak link? | `01-NORTH_STAR\Goals & Milestones\capability_development_goal.md` |
+| Has capability turned into real value yet? | `01-NORTH_STAR\Goals & Milestones\value_production_goal.md` |
 | Should a new opportunity enter the system? | `wiki\decision-rules\adding-a-profit-skill.md` |
-| What external signal needs evaluation? | Evidence owner → radar → CASTLE gate |
+| What external signal needs evaluation? | Evidence owner → Watchtower (four-field handoff) → CASTLE gate |
 | Where does an artifact go? | `00-BRAIN\WHERE_IT_GOES.md` |
 
 ## From Decision to Proof

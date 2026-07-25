@@ -1,5 +1,7 @@
 ---
-tags: [log]
+type: log
+timeline: log
+tags: [revenue]
 ---
 
 # Revenue Lab Log — Append Only
@@ -309,3 +311,76 @@ tags: [log]
   explanation. Generic news, broad roundups, full courses, and daily posting are out.
 - Continue only through measured gates for time, privacy, pathway displacement,
   audience response, reuse, and qualified business signals.
+
+## 2026-07-24 — Hub audit + instruction-set conversion (Claude Code)
+
+### Audit findings
+- **4 broken external links across 3 pages.** `02-LIBRARY\.PROJECTS\YT_Outlier_Scanner\`
+  was manually renamed to `YT_Outlier_Scanner(Pause, chris)`. Affected:
+  `index.md` (worksheet), `proof-led-content-strategy-decision-2026-07-16.md`
+  (worksheet + `PRIVATE_PROOF_OUTLINE.md`), and
+  `yt-outlier-scanner-first-findings-2026-07-14.md` (worksheet). Targets exist
+  under the new name; references not yet updated pending Chris's decision on
+  whether the pause marker is permanent. Real dated instance of the
+  move-integrity failure class `vault-skeleton-design.md` §4 is designing for.
+- **State contradiction.** The scanner folder is marked paused by Chris, while
+  `NOW.md` still lists the top-100 worksheet and the ≤90-minute private proof as
+  active this week, and CASTLE's queue carries OPP-20260714-02 as
+  "active build/offer" with a 2026-07-28 review. Not resolved here — flagged for
+  Chris.
+- **Hub log was 8 days behind CASTLE.** Last entry before this one was July 16;
+  the July 22 B2 approval (OPP-20260714-01) and the July 23 parking of
+  OPP-20260716-01 were recorded in CASTLE's opportunity queue but never here.
+- **The Tier 1–3 evidence scale was undefined.** Used as section headers across
+  all five lane pages and cited as the hub's evidence bar in both instruction
+  files, but never specified anywhere. Now defined in `OPERATIONS.md`.
+- Clean: 11 pages, 0 orphans, 0 index-versus-tree drift, all internal wikilinks
+  resolve.
+
+### Pages created/updated
+- NEW `OPERATIONS.md` — canonical contract (`register: ai-directive`). Carries
+  the former CLAUDE.md content (purpose, funding-cut origin, controlling
+  question, ranking rubric, division of labor, system boundary, Watchtower
+  return, final operating principle) plus the HOW_TO_USE facts worth keeping
+  (PROVE/MEASURED OUTCOME loop stages, proof definition, output routing,
+  predicted-vs-actual retention).
+- NEW in `OPERATIONS.md`: the Tier 1/2/3 definition table; an explicit
+  "Action and safety" section; and the rule that CASTLE's opportunity queue is
+  current when it and this wiki disagree.
+- `CLAUDE.md` — reduced to a six-step loader (`type: pointer`,
+  `register: ai-loader`).
+- `HOW_TO_USE.md` — rewritten as the human workflow.
+- NEW `README.md` — hub router.
+- `wiki\index.md` — Hub Files section updated for the new four-file set; added a
+  pointer to CASTLE's queue as the live status owner; added `type`/`timeline`.
+- `wiki\log.md` — added `type`/`timeline`.
+- Pre-conversion originals archived to
+  `99-ARCHIVE\2026-07-24_REVENUE_LAB_PRE_MACHINE_ARCHITECTURE\`.
+
+### Progress evidence
+n/a — governance session. No lane research, scoring, or test. Scorecard and all
+five lane pages untouched; no score or verdict changed.
+
+### Validation
+`validate_boot_chain.py` PASS (30 boot files, 1,307 pages). `wiki_lint.py`
+0 blockers. `frontmatter_audit.py` zero new findings in REVENUE_LAB, two
+resolved.
+
+### Next action
+Chris decides two things: whether to re-point the four broken scanner links at
+`YT_Outlier_Scanner(Pause, chris)` or leave them until the pause lifts, and
+whether the paused folder or `NOW.md`/the opportunity queue is the correct
+current state for Lane A.
+
+## 2026-07-24 — Post-conversion verification (Codex)
+
+- Verified the four-file machine interface and current metadata.
+- Added the missing Git-object archive manifest for the exact prior
+  `CLAUDE.md` and `HOW_TO_USE.md` blobs.
+- Repointed four document links to the existing
+  `YT_Outlier_Scanner(Pause, chris)` folder. This restores navigation and does
+  not reactivate the paused project.
+- The state conflict remains unresolved: the folder name says paused while
+  `NOW.md` and CASTLE's opportunity queue may still describe Lane A as active.
+  CASTLE owns that reconciliation.
+- No lane score, gate result, authorization, or proof status changed.

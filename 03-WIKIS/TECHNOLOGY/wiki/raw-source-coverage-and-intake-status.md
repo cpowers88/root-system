@@ -19,11 +19,11 @@ tags: [technology, governance, source-coverage]
 - **Reference-only:** retained for a future triggered lookup; no current page gap justified ingestion.
 - **Excluded:** reviewed and intentionally not ingested because stronger coverage exists or the source is too shallow.
 
-## Physical File Ledger (39/39)
+## Physical File Ledger (44/44)
 
 | # | Raw file | Status | Durable coverage or reason |
 |---:|---|---|---|
-| 1 | `ai_index_report_2026.pdf` | Cross-hub | `AI_AUTOMATION_SYSTEMS/wiki/ai-index-2026.md`; business and education deltas routed to their owning hubs |
+| 1 | `ai_index_report_2026.pdf` | Cross-hub | `AI_AUTOMATION_SYSTEMS/wiki/adoption-delivery/ai-index-2026.md`; business and education deltas routed to their owning hubs |
 | 2 | `ai_index_report_2026_1-100.pdf` | Cross-hub | Pre-split working copy of the same AI Index source; no duplicate ingest |
 | 3 | `ai_index_report_2026_101-200.pdf` | Cross-hub | Pre-split working copy of the same AI Index source; no duplicate ingest |
 | 4 | `ai_index_report_2026_201-300.pdf` | Cross-hub | Pre-split working copy of the same AI Index source; no duplicate ingest |
@@ -42,7 +42,7 @@ tags: [technology, governance, source-coverage]
 | 17 | `FlaskWebDevelopment.pdf` | Compiled | Flask source hub plus application structure, templates, forms, database, auth, email, large-app, REST, and security pages |
 | 18 | `Foundations of Scalable Systems.pdf` | Compiled | Distributed-systems source hub and concept set covering services, concurrency, messaging, databases, consistency, processing, and serverless |
 | 19 | `Foundations_of_Information_Systems.pdf` | Excluded | Introductory MIS survey overlaps stronger applied pages; July 13 review found no dedicated gap |
-| 20 | `From IDE to deployment 9 Best AI tools for Python.md` | Cross-hub | `AI_AUTOMATION_SYSTEMS/wiki/ai-coding-tools-for-python-2025-landscape.md` under the closed AI intake lane rule |
+| 20 | `From IDE to deployment 9 Best AI tools for Python.md` | Cross-hub | `AI_AUTOMATION_SYSTEMS/wiki/adoption-delivery/ai-coding-tools-for-python-2025-landscape.md` under the closed AI intake lane rule |
 | 21 | `fullStackPython.pdf` | Selective | Lightweight frameworks, task queues, hosting/deployment, and web-security deltas |
 | 22 | `Hacking APIs.pdf` | Compiled | Security source hub, OWASP vulnerability classes, and defensive engagement checklist |
 | 23 | `LearningDomainDrivenDesign.pdf` | Compiled | `software-engineering/learning-domain-driven-design.md` plus four applied retrieval pages; all 446 pages dispositioned in six chunks |
@@ -62,6 +62,11 @@ tags: [technology, governance, source-coverage]
 | 37 | `Proceedings of Tenth International Congress on Information and Communication Technology.pdf` | Reference-only | ICICT 2025 London proceedings (LNNS 1440, 257 pp.); mixed ICT congress volume for triggered case lookup only |
 | 38 | `Quantum Computing from Hopfield Nets.pdf` | Reference-only, parked | 306-page textbook with Python examples (Bauckhage/Sifa); quantum study is explicitly parked behind a measured problem and prerequisites per the 2026-07-16 goal-aligned gap audit — do not begin without that trigger |
 | 39 | `Install Hyper-V in Windows and Windows Server.md` | Reference-only | Official Microsoft installation/requirements clipping routed 2026-07-17. Retrieve only for an explicit Windows VM or isolation need; it does not establish that Hyper-V is required for the MCP boot camp or prove an AI-tool sandbox. Enabling Hyper-V is a machine-level change requiring separate review because it needs administrator access/restart and may conflict with other hypervisors. |
+| 40 | `Machine_learning_design.pdf` | Cross-hub | Lakshmanan, Robinson, and Munn, *Machine Learning Design Patterns* (2020, 408 pp.). Routed here 2026-07-24; **all 408 physical pages read** that day for the `.ROOT` architecture update, not for a Technology page gap. Canonical synthesis: `00-BRAIN\CASTLE\wiki\source-summaries\architecture-update-2026-07-24\machine-learning-design-patterns-chunk-intake.md`. Reopen for a Technology-side compile only if a real ML build question needs it. |
+| 41 | `r_for_data_science.pdf` | Cross-hub | Wickham and Grolemund, *R for Data Science* (2017, 520 pp.). Routed here 2026-07-24; **all 520 physical pages read** that day for the architecture update. Canonical synthesis: `00-BRAIN\CASTLE\wiki\source-summaries\architecture-update-2026-07-24\r-for-data-science-chunk-intake.md`. R is not on the current skill path — do not open an R study queue on the strength of this file existing. |
+| 42 | `readthis.md` | Reference-only, unverified | Self-titled "Tech stack roadmap for workflow/AI systems integration (**unsourced chat export**)", captured 2026-07-17. Model output with no source attribution or date-verifiable claims. **Not evidence.** May suggest categories to investigate; nothing in it may be cited as a landscape finding without independent Tier 1–2 confirmation. |
+| 43 | `Mixture of SMB wedges and enterprise stacks.md` | Reference-only, unverified | Grok conversation export, titled `TEMP*conversation grok*TEMP`, captured 2026-07-17. Same class as #42 — unsourced model output, explicitly marked temporary by its own title. Not evidence; do not cite for market or vendor claims. |
+| 44 | `metadata – OAPEN A world of scholarly books Open to all, built to last.md` | Reference-only | Clipping from `oapen.hypotheses.org/tag/metadata`, captured 2026-07-17. Open-access book-metadata practice; no current Technology page gap justifies ingestion. Retrieve only if a cataloguing or metadata-standards question arises. |
 
 ## Source-Family Summary
 
@@ -70,13 +75,17 @@ tags: [technology, governance, source-coverage]
 | Compiled | 8 | Full useful source coverage with explicit navigation/ledger |
 | Selective | 10 | Useful deltas ingested; overlap, derivations, or low-value material explicitly omitted |
 | Derived | 5 | Web clipping converted into a landscape/reference page |
-| Cross-hub | 6 | Canonical synthesis exists in the owning sibling wiki |
-| Reference-only | 9 | Triggered lookup sources for OAuth, virtualization, business systems, IoT/ICT cases, industrial/optimization methods, and quantum computing |
+| Cross-hub | 8 | Canonical synthesis exists in the owning sibling wiki or in CASTLE's architecture source summaries |
+| Reference-only | 12 | Triggered lookup sources for OAuth, virtualization, business systems, IoT/ICT cases, industrial/optimization methods, quantum computing, open-access metadata practice, and two unsourced AI chat exports |
 | Excluded | 1 | Introductory source adds no durable gap |
 
-The disposition counts total 39 and match the numbered ledger: **39/39 physical
+The disposition counts total 44 and match the numbered ledger: **44/44 physical
 content files accounted**. `desktop.ini` is folder metadata and is intentionally
 excluded from the source ledger.
+
+Two of the reference-only entries (#42, #43) are unsourced model output. They are
+accounted for, which is not the same as being usable — neither may be cited as a
+landscape or market finding without independent Tier 1–2 confirmation.
 
 ## Reopen Triggers
 
@@ -95,3 +104,12 @@ excluded from the source ledger.
 - July 16, 2026: the two newest sources were reopened at Chris's direction and chunk-compiled into `instrumentation-iot/`; all 733 combined physical pages now have explicit dispositions.
 - July 16, 2026: three unique open-access industrial/optimization collections routed from `77-INBOX` as reference-only; ledger expanded to 33/33 without opening a new study queue.
 - July 17, 2026: reconciled the full physical folder after the later five-book intake and DOE selective ingest; registered the new official Hyper-V clipping as reference-only. Ledger and disposition totals now correctly report 39/39.
+- July 24, 2026: **audit found the ledger 5 files behind.** `raw/` held 44 files
+  while the header still declared 39/39. Two were the July 24 architecture-update
+  books (`Machine_learning_design.pdf`, `r_for_data_science.pdf`) — both fully
+  read that morning, but their disposition lived only in CASTLE's source
+  summaries, never in this owning hub's ledger. Three were July 17 captures never
+  dispositioned at all, two of which are unsourced AI chat exports now explicitly
+  marked as not-evidence. All five registered; ledger now reports 44/44. The gap
+  is the exact failure this ledger exists to prevent — a source can be read and
+  still be unaccounted where it lives.

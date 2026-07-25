@@ -1,8 +1,8 @@
 ---
 type: decision-note
-timeline: deferred
+timeline: later
 status: preserved-for-housekeeping
-tags: [architecture, housekeeping, human-interface, deferred]
+tags: [architecture, housekeeping, human-interface]
 created: 2026-07-24
 ---
 

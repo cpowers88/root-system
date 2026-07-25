@@ -43,7 +43,7 @@ This exception never redefines the audit's paid-floor default.
 | pricing-models.md + sales-system.md | internal | same | Pricing logic and pipeline method (parse fully during this phase) |
 | templates/ (11 files) | internal | `03-WIKIS\BUSINESS\...\templates\` | Intake questionnaire, interview guide, report skeleton, sales script, outreach scripts, SOW |
 | 05-BUSINESS audit templates | internal | `.ROOT\05-BUSINESS\01-Audit Templates\` | Chris's own observation method + findings format (merge with the above) |
-| negotiation-toolkit.md + consulting-methodology.md | 2 digested | `03-WIKIS\BUSINESS\wiki\ai-integration-company\` (migrated from FORGE July 7, 2026) | Discovery and contracting conversations |
+| negotiation-toolkit.md + consulting-methodology.md | 2 digested | `03-WIKIS\BUSINESS\wiki\offers\` and `wiki\methods\` | Discovery and contracting conversations |
 
 ## Tools, Methods, or Platforms Under Test
 None new. This phase is assembly and rehearsal, not tooling.

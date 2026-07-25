@@ -192,7 +192,7 @@ family-systems angle only; it does **not** support a child-directed channel.
 ## Human Classification Packet
 
 The canonical
-[top-100 classification worksheet](../../../02-LIBRARY/.PROJECTS/YT_Outlier_Scanner/TOP_100_CLASSIFICATION_WORKSHEET.md)
+[top-100 classification worksheet](<../../../02-LIBRARY/.PROJECTS/YT_Outlier_Scanner(Pause, chris)/TOP_100_CLASSIFICATION_WORKSHEET.md>)
 is generated from `market-report`'s same views-ranked, all-format, strict-relevance
 market universe. It contains 100 deduplicated mechanical-evidence rows and a second
 table with 100 blank human-only classification rows. Scanner categories and matched

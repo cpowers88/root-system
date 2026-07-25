@@ -38,8 +38,8 @@ friction, explain its effect, and recommend the smallest justified response.
 ## Best Sources
 | Source | Tier | Location | What it proves |
 |---|---|---|---|
-| Lean/VSM/TOC pages | 1–2 digested | `03-WIKIS\BUSINESS\wiki\ai-integration-company\lean-methodology.md`, `theory-of-constraints.md` (migrated from FORGE July 7, 2026) | Waste-finding method |
-| Consulting methodology pages | 2 digested | `03-WIKIS\BUSINESS\wiki\ai-integration-company\consulting-methodology.md` (migrated from FORGE July 7, 2026 — contracting, resistance, feedback) | Client engagement method |
+| Lean/VSM/TOC pages | 1–2 digested | `03-WIKIS\BUSINESS\wiki\methods\lean-methodology.md`, `theory-of-constraints.md` | Waste-finding method |
+| Consulting methodology pages | 2 digested | `03-WIKIS\BUSINESS\wiki\methods\consulting-methodology.md` | Client engagement method |
 | OBSERVATION_METHODOLOGY.md + ONE_PAGE_FINDINGS_FORMAT.md + TECHNOLOGY_AUDIT_REPORT_TEMPLATE.md | internal | `05-BUSINESS\01-Audit Templates\` | The working artifacts to battle-test |
 | smb-ai-audit-method.md + templates/ | internal | `03-WIKIS\BUSINESS\` | The end-to-end audit + sales frame |
 | iSixSigma, ASQ.org | 2 | web (bookmark) | Vocabulary clients' ops managers know |

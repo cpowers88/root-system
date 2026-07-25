@@ -8,7 +8,7 @@ tags: [baseline]
 # Current Position — July 2026 Monthly Baseline
 
 ### Reconciled: July 19, 2026
-### Sources: NORTH_STAR.md, CURRENT_STRATEGY.md, owner current-position files, SKILL_GAP_ANALYSIS.md, and active proof owners
+### Sources: NORTH_STAR.md, CURRENT_STRATEGY.md, owner current-position files, capability_development_goal.md, and active proof owners
 ### Cadence: monthly; current actions and temporary pauses live in .ROOT\NOW.md
 
 ## Fixed Baseline and Material Constraints
@@ -42,7 +42,9 @@ If states diverge mid-month, [[skill-map]]'s register is live truth; this table 
 
 ## July Weak Links
 
-The July ranking remains owned by 01-NORTH_STAR\Goals & Milestones\SKILL_GAP_ANALYSIS.md:
+The July ranking remains owned by 01-NORTH_STAR\Goals & Milestones\capability_development_goal.md
+(which superseded SKILL_GAP_ANALYSIS.md on 2026-07-24; the original is archived at
+99-ARCHIVE\ARCHIVED_2026-07-24_SKILL_GAP_ANALYSIS.md):
 
 1. SQL reliability with real data.
 2. Technology landscape and integration depth.
@@ -67,7 +69,7 @@ The August 1 review may reorder these. CASTLE does not copy the practice schedul
 - Current action and temporary pauses: .ROOT\NOW.md
 - School learner truth: 03-WIKIS\PYTHON\wiki\current-position.md and 03-WIKIS\PHYSICS\wiki\current-position.md
 - Degree and registration evidence: 02-LIBRARY\00-SCHOOL\Ellucian Degree Works Dashboard.md
-- Monthly weak-link decision: 01-NORTH_STAR\Goals & Milestones\SKILL_GAP_ANALYSIS.md
+- Monthly weak-link decision: 01-NORTH_STAR\Goals & Milestones\capability_development_goal.md
 - Technology frontier: 02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md
 - Business strategy: 01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md
 - Revenue evidence: 03-WIKIS\REVENUE_LAB\wiki\

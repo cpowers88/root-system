@@ -104,8 +104,8 @@ def main() -> int:
                 "ROOT_OPERATING_MANUAL.md"):
         require(rel, r"77-INBOX.{0,100}manual|manual.{0,100}77-INBOX",
                 "77-INBOX is the manual external-file intake")
-        require(rel, r"Clippings.{0,120}automatic|automatic.{0,120}Clippings",
-                "root Clippings is automatic Obsidian intake")
+        require(rel, r"77-INBOX.{0,120}automatic|automatic.{0,120}77-INBOX",
+                "77-INBOX is automatic Obsidian intake")
     forbid("00-BRAIN/vault_map.md", r"77-INBOX[^\n]*Clippings\\ inside",
            "Clippings nested inside 77-INBOX")
     forbid("START_HERE.md", r"Real client artifacts land here",

@@ -24,7 +24,7 @@ reading messy real-world data into that shape before querying it.
 
 ## Why It Matters
 Confirmed the #1 skill gap at the July monthly review ([[current-position]],
-SKILL_GAP_ANALYSIS.md). The current tracker provides school and real-data proof;
+capability_development_goal.md). The current tracker provides school and real-data proof;
 decision-facing visuals require traceable calculations; later data pipelines,
 integrations, and database-backed applications require reliable schema/query work.
 Commercial waste quantification is one current-strategy application, not the only

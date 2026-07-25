@@ -1,55 +1,48 @@
 ---
 type: guide
 timeline: reference
-tags: [school]
+tags: [school, education]
+created: 2026-07-24
 ---
 
-# HOW TO USE — 03-WIKIS\EDUCATION
-### This wiki answers: *what does this course require, and what should I study for it?*
+# HOW TO USE — EDUCATION
 
-## Hub Contract
+This wiki answers: what does this course require, what is verified, and what
+should Chris study next?
 
-- **Hub type:** learning engine — per-course study support, activated on demand.
-- **Current truth:** `wiki\current-position.md`
-- **Loop & return:** runs the TEACH stage (and its own `raw\`→`wiki\` STRUCTURE intake) of the System Loop; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+## Start
 
-## Question Owned
-General KSU coursework support for subjects without their own wiki — TCOM, ECON, ENGR today. Python/CS lives in `03-WIKIS\PYTHON`; Physics lives in `03-WIKIS\PHYSICS`.
+1. Open `wiki\current-position.md`.
+2. Open the relevant course folder through `wiki\index.md`.
+3. Verify consequential course facts against `02-LIBRARY\00-SCHOOL`.
+4. Check the course AI policy before working on an assignment.
 
-## Start Here
-`wiki/current-position.md` for the live per-course status, then `wiki/index.md` for the page inventory.
+## Work loop
 
-Before August 24, also load
-`01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md`. Official D2L/current
-syllabi override the plan and this wiki; update both when verified facts change.
-
-## Standard Work Loop
 ```text
-course brief/current position -> weekly need -> study support -> evidence
+official requirement -> learning need -> study support -> retrieval/use proof
 ```
 
-## What Counts as Proof
-A concept explained back correctly, a drill completed, or a study aid actually used before an exam or assignment — not the existence of a page.
-
-## Outputs and Where They Go
-Study aids only (concept explanations, drills, vocabulary support), built per course once that course activates here. Official course files (syllabi, notes, assignments) live in `02-LIBRARY\00-SCHOOL\`, not in this wiki.
+Use course briefs for policy and schedule orientation. Use a course folder for
+subject-specific maps and aids. Use `methods\` only for reusable learning
+technique, and `references\` only for education-system research.
 
 ## Boundaries
-Same academic-integrity boundary as every school-facing wiki: study support only, never graded submissions, unless the syllabus and Chris explicitly say otherwise for that specific task. Do not pre-build structure for a course that isn't using this wiki yet — build only when Chris feeds it real material.
 
-## How the Hub Learns From Use
-A course activates this wiki the first time Chris brings it real material; from that point the course gets its own `current-position.md` and the standard work loop above starts running for it.
+- Official syllabi, assignments, notes, and records stay in the school library.
+- This wiki stores derivative study support.
+- Python/CSE belongs in the PYTHON wiki.
+- Physics belongs in the PHYSICS wiki.
+- AI does not produce work prohibited by the course policy.
+- AI never writes into `raw\` without a named exception from Chris.
+
+## Proof
+
+A page is preparation, not proof. Proof is correct explain-back, successful
+retrieval, completed private practice, or improved course performance.
 
 ## Close
-Once a course is active: update that course's `current-position.md`, append `wiki/log.md`, state the next study action.
 
-## Current State
-Live per-course status and verification gaps exist only in
-`wiki\current-position.md`; `wiki\index.md` owns the page inventory. Time-bounded
-pre-semester sequencing lives in
-`01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md`. Do not copy course
-state into this guide.
-
-## Last Updated
-July 21, 2026 — activated TCOM/ECON materials use just-in-time unlocks; volatile
-state remains in the owner pages. Canonical workspace: `C:\Users\chris\.ROOT`.
+Update `wiki\current-position.md` only when course state changed. Append
+`wiki\log.md` for a durable ingest or structural change, then state the exact
+next study or verification action.

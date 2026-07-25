@@ -4,6 +4,7 @@ timeline: reference
 tags: [governance, codex, castle]
 created: 2026-07-10
 status: live
+register: ai-loader
 ---
 
 # CODEX.md — CASTLE Codex Pointer

@@ -19,7 +19,7 @@ it is **non-compliance**. Build templates early. Match the rubric
 exactly. Never improvise format.
 
 Study support home: `03-WIKIS\EDUCATION` (activates per course — course
-brief lives at `wiki/fall-2026-course-briefs.md`). **Flag 57 caveats on
+brief lives at `wiki/course-briefs/fall-2026-course-briefs.md`). **Flag 57 caveats on
 that brief:** the schedule table carries recycled January/Spring dates
 inside a Fall 2026 header (weekly rhythm probably right, printed dates
 wrong) and the assignment-weights table is cut off in the source scan —

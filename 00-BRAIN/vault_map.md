@@ -23,14 +23,16 @@ file list older than the current session.
 
 ---
 
-## G:\My Drive — Backup Only
+## Backup — Local Mirror
 
 ```
-G:\My Drive\.ROOT\  ← retained legacy recovery snapshot only; never an AI boot target or working tree.
-
-**Live cloud backup:** Google Drive → **Computers → this PC → .ROOT**, synchronized
-from `C:\Users\chris\.ROOT` by Drive for desktop.
+D:\BACKUPS\.ROOT\   ← live daily local mirror; never an AI boot target or working tree.
+G:\My Drive\.ROOT\  ← retained legacy recovery snapshot only.
 ```
+
+Google Drive live synchronization is retired. `LOCAL_MACHINE_MAP.md` owns the
+current backup implementation details and must be checked against the live
+machine before recovery work.
 
 ## .ROOT — Verified Map
 
@@ -68,11 +70,12 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │                             Closed Flags\ = monthly closed-flag ledgers
 │
 ├── 01-NORTH_STAR\  ← the star
-│   ├── NORTH_STAR.md      ← THE controlling document — nothing overrides it
-│   ├── README.md / SKILL_GAP_ANALYSIS.md
-│   ├── System Contracts\  ← ROOT_CAPABILITY_CONTRACT.md; loaded for OS design/evolution audits
-│   ├── Session_Logs\      ← daily logs + weeklies + monthlies + templates
-│   └── Goals & Milestones\ ← CURRENT_STRATEGY.md + time-bounded prep/milestone evidence
+│   ├── NORTH_STAR.md      ← THE LAW — nothing overrides it
+│   ├── README.md / HOW_TO_USE.md  ← human router + workflow
+│   ├── System Contracts\  ← capability + information-flow contracts
+│   └── Goals & Milestones\ ← adaptive goals and the current business vehicle;
+│                             its own OPERATIONS.md is the rule set.
+│                             Weekly plans live in CASTLE, not here.
 │
 ├── 02-LIBRARY\  ← reusable knowledge, projects, and school file home
 │   ├── 00-SCHOOL\         ← course files: 01-CSE-Python, 02-Physics I, 03-TCOM,

@@ -69,5 +69,6 @@ method without bluffing.
 - Tech pace exceeding the semester pace model (medium semester = one topic at a time)
 
 ## Next Action
-Until the phase opens, `PRE-SEMESTER_PREP_PLAN.md` owns readiness gates and
-`.ROOT\NOW.md` owns the current action.
+Until the phase opens, `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md`
+owns readiness gates, the course wikis own learner truth, and `.ROOT\NOW.md`
+owns the current action.

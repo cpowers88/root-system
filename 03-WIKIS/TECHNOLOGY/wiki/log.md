@@ -746,3 +746,68 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
   this pass did not change Technology's active capability frontier.
 - Raw PDFs remained read-only. Next: CASTLE performs the now-unblocked
   cross-source synthesis.
+
+## 2026-07-24 — Hub audit + instruction-set conversion (Claude Code)
+
+### Audit
+- 135 pages: **0 orphans, 0 frontmatter gaps, index matches tree.**
+- One malformed wikilink fixed: `vs-code-data-tooling-data-wrangler-and-edit-csv.md`
+  line 63 linked `[[data-science-ml/]]` — a folder target Obsidian cannot resolve.
+  Rewritten as plain text.
+- **Coverage ledger was 5 files behind.** The header declared `39/39` while
+  `raw/` held 44. Registered all five and reconciled the totals to 44/44:
+  - `Machine_learning_design.pdf` and `r_for_data_science.pdf` — routed here
+    2026-07-24 and **fully read that morning** (408 and 520 physical pages), but
+    their disposition existed only in
+    `00-BRAIN\CASTLE\wiki\source-summaries\architecture-update-2026-07-24\`,
+    never in this owning hub's ledger. Both now recorded as Cross-hub.
+  - `readthis.md` and `Mixture of SMB wedges and enterprise stacks.md` — July 17
+    captures, both **unsourced AI chat exports** (one self-titled "unsourced chat
+    export," the other `TEMP*conversation grok*TEMP`). Registered Reference-only
+    with an explicit not-evidence caveat; neither may be cited as a landscape or
+    market finding without independent Tier 1–2 confirmation.
+  - `metadata – OAPEN ….md` — July 17 clipping on open-access book metadata;
+    Reference-only, no current page gap.
+  The Source-Family Summary and the Validation Record were updated to match. The
+  gap is precisely what this ledger exists to catch: a source can be read in full
+  and still be unaccounted where it physically lives.
+- `wiki\user-experience\` (4 pages) existed on disk but was absent from the
+  documented folder structure — now listed.
+
+### Conversion
+Converted to the four-file machine architecture — the last of the eight hubs.
+
+- NEW `OPERATIONS.md` — canonical contract (`register: ai-directive`). Carries
+  the former CLAUDE.md content (two-layer purpose, spine reference and why it
+  stays at `02-LIBRARY`, system boundary, FORGE inheritance, closed `ai-and-llm/`
+  lane, folder structure, metadata conversion, maintenance cadence, Watchtower
+  handoff, final principle) plus the HOW_TO_USE facts worth keeping.
+- Preserved out of the old `HOW_TO_USE.md` rather than dropped: **this hub has no
+  `current-position.md` by design** — the spine's Current State is the landscape
+  frontier of record; and **the applied collection is a retrieval library, not a
+  study queue** — most of `distributed-systems/` and `data-science-ml/` sits ahead
+  of Chris's live frontier, so target the spine's gap list, not page count. Both
+  are now contract rules rather than guide prose.
+- NEW in `OPERATIONS.md`: a Coverage discipline section requiring a source to be
+  registered **in the session it arrives**, not when it is compiled — the rule
+  whose absence produced today's 5-file gap; and an explicit note that
+  *accounted is not the same as usable*.
+- `CLAUDE.md` reduced to a six-step loader; `HOW_TO_USE.md` rewritten;
+  NEW `README.md`. Originals archived to
+  `99-ARCHIVE\2026-07-24_TECHNOLOGY_PRE_MACHINE_ARCHITECTURE\`.
+- Two `SKILL_GAP_ANALYSIS.md` references repointed to
+  `capability_development_goal.md` (contract Purpose/System Boundary, and
+  `goal-aligned-technology-gap-audit-2026-07-16.md`).
+
+### Not changed
+No concept page, category, disposition decision, or `raw/` file was altered
+beyond the ledger registrations above.
+
+### Validation
+`validate_boot_chain.py` PASS. `wiki_lint.py` 0 blockers. `frontmatter_audit.py`
+zero new findings in TECHNOLOGY.
+
+### Next action
+All eight hubs are now on the four-file set. Open system flags #84
+(`register:` scope) and #85 (canonical-copy rule across school hubs) still need
+Chris's decisions.

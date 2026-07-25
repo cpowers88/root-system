@@ -20,8 +20,8 @@ that were filed under FORGE's business/ folder but are subject/factory-physics o
 subject/system-dynamics content, confirmed via frontmatter before the move (`domain:`
 retagged from `business` to `systems` on arrival; content otherwise unchanged). Migrated
 pages keep their original frontmatter tag tracks (`type`, and the full
-priority/status/domain/source-role/use-case/subject tracks) — see `CLAUDE.md` and
-`HOW_TO_USE.md` for the legacy/new metadata boundary. 4 more added July 8, 2026 from new
+priority/status/domain/source-role/use-case/subject tracks) — see `OPERATIONS.md`
+§ Inherited metadata for the legacy/new boundary. 4 more added July 8, 2026 from new
 sources dropped in `raw/` (process mining + VSM cluster) — the first pages ingested
 directly into this wiki rather than inherited from FORGE. Five pages added July 18
 map and selectively ingest the 503-page *Process Mining Handbook*: eight complete

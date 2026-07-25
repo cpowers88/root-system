@@ -2157,3 +2157,93 @@ other named scopes pass. Slice A0 is clear.
 - **Disposition:** carry the PHYSICS cluster as deferred structural work;
   do not bulk-repair or baseline until the later-stage packet/page architecture
   is reviewed.
+
+## 2026-07-24 — CASTLE machine-interface and state reconciliation (Codex)
+
+- Preserved the existing CASTLE operating model and normalized its four
+  instruction interfaces: `OPERATIONS.md` is the registered machine contract;
+  `CLAUDE.md` and `CODEX.md` are registered loaders; `HOW_TO_USE.md` is the
+  human workflow.
+- Added root `README.md` as the human router.
+- Added all eight completed architecture-update source reports explicitly to
+  `wiki/index.md`, closing the exhaustive-index review omissions.
+- Marked the architecture-update intake index `complete/reference`; all 3,789
+  physical pages were already closed and the active intake state was stale.
+- Reconciled OPP-20260714-02 to `parked` because Chris's project folder is
+  explicitly named `YT_Outlier_Scanner(Pause, chris)`. No research result was
+  invalidated and no external action was authorized.
+- Updated only the affected `NOW.md` facts: Lane A is parked, the old `break`
+  trace is complete, and Python's next proof is the fresh Stage 3
+  loop-and-accumulator build.
+- No `raw/` file changed.
+- **Next exact action:** finish validation, then return to the fresh Python
+  Stage 3 proof or Chris's next directed architecture folder.
+
+## 2026-07-24 — CASTLE instruction-file review against the architecture plan (Claude Code)
+
+Reviewed all five CASTLE root files plus the affected wiki pages after Codex's
+first pass, checking direction against `FINAL_ARCHITECTURE_ROADMAP.md`'s locked
+decisions rather than against style.
+
+### What Codex's pass actually covered
+Frontmatter only — `type: ops` to `type: contract`, plus `status`, `register`,
+and `created` on `OPERATIONS.md`, `CLAUDE.md`, `CODEX.md`, `HOW_TO_USE.md` — and
+a new `README.md`. No body content had been checked against the plan.
+
+### Verified already correct
+- `77-INBOX` named as the single universal intake door, with CASTLE's `raw\`
+  explicitly described as triage-only staging and "not a competing universal
+  door" — matches the locked decision exactly.
+- Every path reference in all five root files resolves; no broken pointers.
+- `check_at` and keep/modify/revert retention already required for applied
+  system changes.
+
+### Stale pointers found and repaired
+`SKILL_GAP_ANALYSIS.md` was archived earlier today
+(`99-ARCHIVE\ARCHIVED_2026-07-24_SKILL_GAP_ANALYSIS.md`) and superseded by
+`Goals & Milestones\capability_development_goal.md`, but six live CASTLE
+references still pointed at it: `wiki\current-position.md` (3),
+`wiki\phases\phase-0-current-position-and-baseline.md`, `wiki\skills\sql.md`,
+and `wiki\source-map.md`. All repointed; the `current-position.md` weak-link
+section carries an explicit supersession note rather than a silent swap, per the
+shared-layer rule on superseded claims. `source-map.md` also gained rows for
+`fall_2026_semester.md` and `value_production_goal.md`, which had no entry at
+all. The parallel Codex session cleared the `PRE-SEMESTER_PREP_PLAN.md`
+references during this review.
+
+### Plan-alignment gaps closed in OPERATIONS.md
+1. **Goals & Milestones absent from the authority chain.** The list named the
+   North Star and both system contracts but not the four adaptive goal files
+   created today; Local Boot named only `CURRENT_STRATEGY.md`. Both now name all
+   four owners with the condition under which each loads.
+2. **Watchtower unmentioned.** CASTLE is the receiving side of the locked
+   handoff and its contract never said so. Added: a signal is accepted only when
+   it names evidence home, affected assumption or choice, consequence or bounded
+   test, and review trigger — missing any of the four, it is returned, not
+   gated.
+3. **Approved Return Packets missing from write authority.** The roadmap grants
+   CASTLE this explicitly; the Operating Authority list omitted it. Added, along
+   with the matching prohibition — CASTLE must not rewrite the North Star,
+   governance, another realm's owner truth, immutable `raw\`, or private
+   material.
+4. **"Integration pointers" missing from the role statement.** Role 3 is
+   decision, sequencing, proof status, *and integration pointers*; the Purpose
+   section named only the first three.
+
+`HOW_TO_USE.md`'s routing table gained rows for the semester, capability, and
+value goals, and its external-signal row now names the four-field handoff
+instead of a vague "radar" arrow.
+
+### Validation
+`validate_boot_chain.py` PASS (30 boot files, 1,310 live pages).
+`wiki_lint.py` PASS — 0 blockers, 0 review debt. `frontmatter_audit.py` zero new
+CASTLE findings.
+
+### Not changed
+No phase, opportunity, proof status, or sequencing decision was altered. No
+physical move was made or implied; Gates 2-3 remain open. The transient
+architecture-update state was deliberately kept out of `OPERATIONS.md`, which is
+a durable contract — it lives in the implementation packet and `NOW.md`.
+
+**Next exact action:** convert SYSTEMS, TECHNOLOGY, and PHYSICS to the four-file
+set, the last three hubs still on the old single-file pattern.

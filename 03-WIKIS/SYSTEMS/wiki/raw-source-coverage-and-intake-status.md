@@ -46,9 +46,9 @@ remain discoverable here through adjacent Factory Physics and VSM pages.
 
 | Raw source | Disposition |
 |---|---|
-| `leanmanufacturing.pdf` | MSE507 *Learning to See* workshop condensation; covered by `03-WIKIS/BUSINESS/wiki/ai-integration-company/lean-methodology.md`. |
-| `leanthinking.pdf` | Womack and Jones *Lean Thinking* outline; covered by `03-WIKIS/BUSINESS/wiki/ai-integration-company/lean-methodology.md`. |
-| `Theory of Constraints of Eliyahu M. Goldratt.md` | Introductory TOC Institute clipping; covered more rigorously by `03-WIKIS/BUSINESS/wiki/ai-integration-company/theory-of-constraints.md`. Its unsupported tool-name mentions do not justify a separate page. |
+| `leanmanufacturing.pdf` | MSE507 *Learning to See* workshop condensation; covered by `03-WIKIS/BUSINESS/wiki/methods/lean-methodology.md`. |
+| `leanthinking.pdf` | Womack and Jones *Lean Thinking* outline; covered by `03-WIKIS/BUSINESS/wiki/methods/lean-methodology.md`. |
+| `Theory of Constraints of Eliyahu M. Goldratt.md` | Introductory TOC Institute clipping; covered more rigorously by `03-WIKIS/BUSINESS/wiki/methods/theory-of-constraints.md`. Its unsupported tool-name mentions do not justify a separate page. |
 
 ## Intentionally Excluded from Synthesis
 

@@ -1,85 +1,83 @@
 ---
 type: guide
 timeline: reference
-tags: [programming]
+register: human-context
+tags: [programming, school]
+created: 2026-07-24
 ---
 
-# HOW TO USE — 03-WIKIS\PYTHON
-### This vault answers: *what should I read, memorize, practice, and build next in Python/CS?*
+# HOW TO USE — PYTHON
 
-## Hub Contract
+This wiki answers: **what should I read, memorize, practice, and build next in
+Python and computer science?**
 
-- **Hub type:** learning engine — staged path, mastery gates, proof before advance.
-- **Current truth:** `wiki\current-position.md`
-- **Loop & return:** runs the TEACH stage (and its own `raw\`→`wiki\` STRUCTURE intake) of the System Loop; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+It is a learning engine with a staged path, mastery gates, and proof before
+advance. It serves CSE 1321/1321L right now, but the path is built to keep
+going long after that course ends.
 
-## Question Owned
-What to study, drill, and build next on the Python/CS staged path (Stage 0–10), with zero curriculum-shopping.
+## Start
 
-## Start Here
-`wiki/current-position.md` — current stage and what's left in it. Then
-`wiki/learning-path.md`, the durable spine. This realm still contains reviewed
-legacy control metadata, so do not infer the learning frontier from graph tags;
-`wiki/current-position.md` is the authority until the realm is migrated.
+1. Open `wiki\current-position.md` — your live stage and exact frontier.
+2. Open `wiki\learning-path.md` — the durable Stage 0–10 sequence.
+3. During the semester, open `wiki\syllabus-alignment.md` for what the course
+   has actually reached and what to read for it.
 
-Before August 24, coordinate the next proof with
-`01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md`; learner truth remains
-here when the two disagree.
+Nothing else is required to begin a session.
 
-## Standard Work Loop
+## Work loop
+
 ```text
 current position -> stage -> concept -> drill -> mini-project -> proof
 ```
-Nothing is "learned" until a drill or mini-project proves it and Chris can explain
-the choices from memory. The live stage, exact learner frontier, and open proof gate
-exist only in `wiki\current-position.md`; do not copy them into this guide. The
-shipped KSU Academic Tracker remains a real-use application vehicle when verified
-course data arrives, expected August 24 or later; it is not the curriculum frontier.
 
-## What Counts as Proof
-A completed drill, a working mini-project, or real use in the tracker build — not a generated concept page. Generated content is not studied content.
+Nothing is "learned" until a drill or mini-project proves it and you can explain
+the choices from memory. The live stage and open proof gate exist only in
+`wiki\current-position.md` — this guide deliberately does not copy them.
 
-## Outputs and Where They Go
-Study outputs stay in-vault (drills, flashcards, error notes in `wiki/errors/`).
-Course-submitted work never comes from here. CSE 1321/1321L explicitly prohibit
-AI-assisted submitted work; see `wiki\syllabus-alignment.md` and the Academic
-Integrity Boundary in `CLAUDE.md`. Skills proven here get logged against the
-matching castle skill page, not duplicated there. Vibe coding and AI-generated
-implementation are outside this hub; this lane builds independent CSE reading,
-tracing, planning, coding, and debugging ability.
+## What counts as proof
+
+A completed drill, a working mini-project, a correct cold explain-back, or real
+use in a build. **Not** a generated page. Generated content is content
+readiness; it is not study progress.
+
+## The two layers
+
+- **Durable spine** — the stages, concepts, code patterns, glossary, drills,
+  flashcards, mini-projects, error notes, and capability library. This is
+  permanent programming capability.
+- **Course overlay** — `syllabus-alignment.md` and the course-bound parts of
+  `current-position.md`. Bound to CSE 1321/1321L; superseded when that course
+  closes. The spine continues.
 
 ## Boundaries
-No stage-skipping; no "just curious" advanced extraction (park it in
-`wiki\parking-lot.md` or `wiki\parked-advanced\` when a page already exists).
-Business ideas that surface mid-study go to the CASTLE gate. Any AI may teach here
-under `CLAUDE.md`; no model owns learning-scope control.
 
-## How the Hub Learns From Use
-After a session: mark drills done, log errors in `wiki/errors/`, and when a stage
-clears, update `wiki/current-position.md` from the proof. Do not bulk-edit legacy
-stage metadata during an ordinary learning session.
+- No stage-skipping. No "just curious" advanced extraction — park it in
+  `wiki\parking-lot.md`.
+- Official syllabi, assignments, and records live in `02-LIBRARY\00-SCHOOL\`.
+  This wiki holds derivative study support.
+- **CSE 1321/1321L prohibit AI-assisted submitted work.** AI can teach a
+  concept and build fresh practice; it cannot touch what you submit. When
+  graded status is unclear, stop and ask.
+- Vibe coding and AI-generated implementation are outside this hub. The point is
+  independent reading, tracing, planning, coding, and debugging ability.
+- `raw\` is immutable. Business ideas that surface mid-study go to the CASTLE gate.
 
-## Close
-Update `current-position.md` if the frontier moved, append `wiki/log.md`, state the next exact action. New concept pages only for the current or next stage.
+## Common prompts
 
-## Current State
-The live stage, proof history, and next exact action exist only in
-`wiki\current-position.md`; `wiki\learning-path.md` is the durable stage map. Do not
-copy learner state into this guide.
-
-## Common Commands / Prompts
 - "Start a stage-[N] session — where did I leave off?"
 - "Drill me: 20 minutes, stage [N], weak spots first"
 - "Log this error and tell me the concept gap behind it"
 - "Stage cleared — advance current-position from the recorded proof"
+- "Which stages map to CSE 1321 module [N]?"
 
-## Examples
-- *Capacity-sized rep*: owner frontier → one explain/drill/build unit → error
-  evidence if needed → stop at Chris's declared boundary.
-- *Pre-semester*: "Which stages map to CSE 1321 module 3?" → targeted review list.
+## Close
 
-## Last Updated
-July 21, 2026 — routed the full-semester CSE code-reader and trigger-based reading
-path to `wiki\syllabus-alignment.md`; exact progress and the current reading queue
-remain in `wiki\current-position.md`. Canonical workspace is
-`C:\Users\chris\.ROOT`; G: is backup only.
+Update `wiki\current-position.md` only if the frontier actually moved. Append
+`wiki\log.md`. State the next exact action. New concept pages only for the
+current or next stage.
+
+## Where the rules live
+
+`OPERATIONS.md` is the machine contract every AI follows here.
+`wiki\authoring-standards.md` holds page formats; `wiki\protocols.md` holds the
+expanded session protocols. You don't need to read any of them to use the wiki.

@@ -29,9 +29,9 @@ previously and wrongly stated. Chapters 7–12 (the entire back half) land
 inside the Oct 5 – Nov 11 school-protection window.
 
 Study support home: `03-WIKIS\EDUCATION` (activates per course; course
-brief at `wiki/fall-2026-course-briefs.md`; provisional semester map —
+brief at `wiki/course-briefs/fall-2026-course-briefs.md`; provisional semester map —
 built on free substitute textbooks, not the real assigned book, since that
-one is D2L-locked — at `wiki/econ-1000-semester-map.md`). Flashcards and
+one is D2L-locked — at `wiki/courses/econ-1000/semester-map.md`). Flashcards and
 drills land there when the course activates — not in this hat.
 
 ## Course Facts — ECON 1000 (Fall 2026)

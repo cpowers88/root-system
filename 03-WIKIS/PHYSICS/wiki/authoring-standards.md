@@ -108,7 +108,7 @@ When Chris adds syllabus, textbook, or other material to `raw/`:
 
 ## Session Protocols (expanded)
 
-**Start of session:** read `CLAUDE.md`, `wiki/index.md`, most recent `wiki/log.md` entries, `wiki/learning-path.md`, `wiki/current-position.md`; state the one-session objective in one sentence; do not duplicate pages already present.
+**Start of session:** read `OPERATIONS.md`, `wiki/index.md`, most recent `wiki/log.md` entries, `wiki/learning-path.md`, `wiki/current-position.md`; state the one-session objective in one sentence; do not duplicate pages already present.
 
 **End of session:** update `wiki/index.md` and `wiki/log.md`; confirm what changed; list files created/updated; state the next exact action for Chris; identify blocked items; identify what should be parked.
 

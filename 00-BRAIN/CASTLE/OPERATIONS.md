@@ -1,7 +1,10 @@
 ---
-type: ops
+type: contract
 timeline: reference
+status: live
+register: ai-directive
 tags: [governance]
+created: 2026-07-19
 ---
 
 # OPERATIONS.md — How AI Sessions Run CASTLE
@@ -14,9 +17,15 @@ CASTLE is the decision, sequencing, and proof-status cockpit beneath these autho
 
 1. `00-BRAIN\AGENT.md` — AI behavior, safety, and approval boundaries.
 2. `01-NORTH_STAR\NORTH_STAR.md` — durable direction and priority hierarchy.
-3. `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` — canonical System Loop and Return Packet.
-4. `01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md` — information-state translation and seven-line trace.
-5. `00-BRAIN\WHERE_IT_GOES.md` — placement and metadata.
+3. `01-NORTH_STAR\Goals & Milestones\` — the adaptive outcomes CASTLE sequences
+   toward: `CURRENT_STRATEGY.md` (business vehicle under test),
+   `fall_2026_semester.md` (semester outcome, readiness gates, workload gate),
+   `capability_development_goal.md` (capability stack and weak-link order), and
+   `value_production_goal.md` (evidence ladder). `OPERATIONS.md` in that folder
+   is the machine rule set for every goal.
+4. `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` — canonical System Loop and Return Packet.
+5. `01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md` — information-state translation and seven-line trace.
+6. `00-BRAIN\WHERE_IT_GOES.md` — placement and metadata.
 
 CASTLE owns sequencing and proof status. Chris owns direction, timing, consequential decisions, and final quality. A conflict is flagged, not silently resolved.
 
@@ -27,7 +36,11 @@ Complete the universal orientation chain in `AGENT.md`, including the active sur
 1. `wiki\index.md`.
 2. The last three entries of `wiki\log.md`.
 3. `wiki\north-star-roadmap.md` and `wiki\current-position.md` when sequence or proof status matters.
-4. `CURRENT_STRATEGY.md` only for business, market, offer, revenue, strategic-skill, or Ratchet work.
+4. The owning goal file in `Goals & Milestones\` only when the question is
+   about that outcome — `CURRENT_STRATEGY.md` for business, market, offer,
+   revenue, strategic-skill, or Ratchet work; `fall_2026_semester.md` for
+   school sequencing and readiness; `capability_development_goal.md` for
+   weak-link ranking; `value_production_goal.md` for value-evidence claims.
 5. The Information Flow Contract only when tracing an item or auditing an interface.
 
 State the session outcome in one sentence, then work.
@@ -38,7 +51,7 @@ CASTLE turns durable direction, live owner truth, fixed commitments, and Chris's
 
 > What is the highest-value next action; who owns it; what proof closes it; and where does the result return?
 
-CASTLE maintains maps, gates opportunities, sequences capability, and records proof movement. Domain wikis own research and learner truth; projects and business workspaces own execution; `NOW.md` is the current-action interface. CASTLE points to owner truth instead of copying it.
+CASTLE maintains maps, gates opportunities, sequences capability, records proof movement, and holds the integration pointers between realms. Domain wikis own research and learner truth; projects and business workspaces own execution; `NOW.md` is the current-action interface. CASTLE points to owner truth instead of copying it.
 
 Technology capability is organized around complete outcomes, not permanent tool sequences: understand the workflow, define requirements, design the people/process/data/technology stack, implement the smallest sound solution, secure and operate it, prove adoption and economic value, then harvest reusable learning or assets. Markets, offers, vendors, and tools remain replaceable.
 
@@ -70,8 +83,12 @@ AI may perform routine CASTLE maintenance without a new approval when it reconci
 
 - update existing maps, statuses, proof links, indexes, and the local log;
 - refresh CASTLE-owned `NOW.md` when its live picture materially changes;
+- record an approved Return Packet result against the owning sequence or gate;
 - append required DAILY or handoff evidence;
 - correct ordinary drift without changing direction or structure.
+
+CASTLE MUST NOT rewrite the North Star, governance files, another realm's owner
+truth, any immutable `raw\`, or private material — silently or otherwise.
 
 Chris's explicit approval is required for governance changes, new phases or structural pages, strategy changes, calendar commitments, external messages or publication, money, credentials, private data, deletion/archive batches, and other consequential actions named in `AGENT.md`.
 
@@ -96,6 +113,13 @@ and flag them. CASTLE's `raw\` remains a separate triage-only staging point,
 not a competing universal door. Internal system friction belongs in
 `SYSTEM_FLAGS.md`. Only evidence-backed commercial or learning-to-application
 signals enter `wiki\opportunity-queue.md`.
+
+The Watchtower senses; it does not act. CASTLE is the receiving side of that
+handoff and accepts a signal only when it names its **evidence home**, the
+**affected assumption or choice**, the **consequence or bounded test**, and the
+**review trigger**. A signal missing any of the four is returned, not gated.
+CASTLE applies the consequence and approval gate; the owning wiki keeps the
+evidence; Chris owns the decision.
 
 Every applied system change must retain its approval, validation, `check_at`, and observed keep/modify/revert outcome. Required system-update and closed-flag ledgers must match the live evidence.
 

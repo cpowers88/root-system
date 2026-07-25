@@ -1,6 +1,8 @@
 ---
 type: guide
 timeline: reference
+status: live
+register: human-context
 reference_priority: core
 tags: [governance]
 created: 2026-07-12
@@ -84,7 +86,7 @@ command.
 | What phase or skill comes next? | `00-BRAIN\CASTLE` |
 | What controls the mission? | `01-NORTH_STAR` |
 | What business vehicle are we testing? | `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` |
-| What must happen before August 24? | `01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md` plus live PYTHON/PHYSICS/EDUCATION current-position pages |
+| What must happen before and during Fall 2026? | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` plus live PYTHON/PHYSICS/EDUCATION current-position pages |
 | What materially changed outside `.ROOT`? | `...projectSuccess\WATCHTOWER.md` and `radar.md` |
 | What must the AI OS be capable of? | `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` |
 | Where does this file go? | `00-BRAIN\WHERE_IT_GOES.md` |
@@ -97,7 +99,7 @@ command.
 | Where does a reusable or sanitized business artifact live? | `05-BUSINESS` |
 | Where does a reusable capability asset live? | `05-BUSINESS\06-Capability Library` |
 | Where does a manually dropped unsorted file go? | `77-INBOX` — capture filter and routing steps: `CASTLE\OPERATIONS.md` § Weekly Inbox Routing Checklist |
-| Where does an automatic Obsidian web clipping go? | Root `Clippings` — reviewed by the same weekly routing checklist |
+| Where does an automatic Obsidian web clipping go? | `77-INBOX` — the clipper routes there; use the weekly routing checklist |
 | Where does private reflection go? | `88-JOURNAL`; AI never reads it |
 
 ---
@@ -108,19 +110,19 @@ command.
 |---|---|---|---|---|---|---|
 | `NOW.md` | What matters today? | `.ROOT\NOW.md` | Read the start action, school commitment, technology rep, business/system item, and soft time boundary | Work began from a clear start and status reflects reality | Updates to `NOW.md` itself | Castle owns and refreshes it every session |
 | CASTLE | What phase or skill comes next? | `00-BRAIN\CASTLE\wiki\current-position.md` | Orient (index + log + roadmap) → identify the phase/skill gap → point to the realm that does the work → log the sequencing decision | A phase/skill page names exit criteria, and the actual work happened in its home realm, not here | Updated maps, phase/skill pages, `wiki/log.md`, `NOW.md` refresh | `00-BRAIN\CASTLE\HOW_TO_USE.md` |
-| `01-NORTH_STAR` | What controls the mission and current strategic vehicle? | `01-NORTH_STAR\NORTH_STAR.md` | Load the star; add `CURRENT_STRATEGY.md`, the pre-semester plan, or reviews only when their question is active | The fixed direction is preserved and the vehicle changes only through evidence | Reviews and approved star/strategy updates; Chris may authorize a mid-cycle impact-reviewed change | `01-NORTH_STAR\README.md` |
+| `01-NORTH_STAR` | What controls the mission and current strategic vehicle? | `01-NORTH_STAR\NORTH_STAR.md` | Load the star; add `CURRENT_STRATEGY.md`, `fall_2026_semester.md`, or reviews only when their question is active | The fixed direction is preserved and the vehicle changes only through evidence | Reviews and approved star/strategy updates; Chris may authorize a mid-cycle impact-reviewed change | `01-NORTH_STAR\README.md` |
 | North Star system contract | What must `.ROOT` be able to do and return? | `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` | Load for architecture/evolution audits; apply the named capability, proof, and return contract without copying AGENT governance | A fresh session can find owners, evidence, authority, and next action | Approved system changes return to their owning files/logs | `00-BRAIN\AGENT.md` remains behavioral authority |
 | `...projectSuccess` | What external change could materially affect us? | `...projectSuccess\WATCHTOWER.md` | Verify in the owning evidence home → add a qualifying radar row → sweep → CASTLE gate/test | A row names evidence, affected assumption/choice, consequence/test, and review trigger; action follows measured proof | Exactly `WATCHTOWER.md` and `radar.md`; decisions return to CASTLE/current strategy | `...projectSuccess\WATCHTOWER.md` |
 | `WHERE_IT_GOES.md` | Where does this file go? | `00-BRAIN\WHERE_IT_GOES.md` | Check its Decision Tree before creating any file | The file lands at the named path on the first try | N/A — this file is the placement authority itself | None deeper; this file is the authority |
 | Matching `03-WIKIS` hub | What should I learn or retrieve? | that hub's `wiki/current-position.md` (or `index.md` where no staged path exists) | current position → concept/stage → practice/drill → proof, per that hub's own loop | A drill, mini-project, or applied use proves the concept — a generated page alone does not | Study aids stay in-vault; skills proven get logged against the matching CASTLE skill page | that hub's own `HOW_TO_USE.md` |
 | `02-LIBRARY\00-SCHOOL` | Where are official course files? | the course's own folder | Pull syllabus/D2L material as-is; AI help stays within that course's stated AI policy | Submitted coursework is Chris's own work | Stays in the course folder | course briefs (EDUCATION wiki links out for study support) |
 | `02-LIBRARY\.PROJECTS` | Where does an active build live? | the project's own `Docs\` folder | Build locally/GitHub; only small single-file scripts may live here | The build runs and does what its `Docs\` say | Code stays local + GitHub; status shows in `NOW.md` and CASTLE | the project's own `Docs\` folder |
-| `03-WIKIS\BUSINESS` | Where do business methods, research, and blank masters live? | `03-WIKIS\BUSINESS\wiki\ai-integration-company\index.md` after `CURRENT_STRATEGY.md` when the question concerns the active vehicle | strategy assumption → method/evidence → bounded action → field result | A real conversation, observation, delivery, or use corrects the method; re-reading a plan is not proof | Blank masters stay here; active client-specific copies go to the separate client workspace; sanitized reusable learning may return to `05-BUSINESS` | `03-WIKIS\BUSINESS\HOW_TO_USE.md` |
+| `03-WIKIS\BUSINESS` | Where do business methods and research live? | `03-WIKIS\BUSINESS\wiki\index.md` after `CURRENT_STRATEGY.md` when the question concerns the active vehicle | strategy assumption → method/evidence → bounded action → field result | A real conversation, observation, delivery, or use corrects the method; re-reading a plan is not proof | Blank masters live in `05-BUSINESS`; active client-specific copies go to the separate client workspace; sanitized reusable learning may return there | `03-WIKIS\BUSINESS\HOW_TO_USE.md` |
 | Separate client workspace/repository | Where does active client-specific/private work live? | the client-authorized workspace outside `.ROOT` | instantiate approved masters → execute the engagement → retain client data only in that boundary | Real engagement evidence exists and client confidentiality is preserved | Remains outside `.ROOT`; only sanitized lessons, reusable methods/assets, approved case studies, and non-sensitive metadata return | client-specific instructions and agreement |
 | `05-BUSINESS` | Where does a reusable or sanitized business artifact live? | the matching subfolder (Audit Templates, Field Notes, Case Studies, Pricing Models, Proposals & SOWs) | create reusable masters or sanitize approved field learning before capture | The artifact contains no active client-private content and its maturity/evidence is honest | Stays in its subfolder; generalized results may update the BUSINESS wiki | none deeper — this folder is reusable/sanitized business operations |
 | `05-BUSINESS\06-Capability Library` | Where does a reusable capability asset live? | `CAPABILITY_LIBRARY_INDEX.md` | idea → draft asset (`APQC_[process]_[name].md`) → index row → named test → tested internally → client-ready | Maturity is stated honestly: idea / draft / tested internally / client-ready / deployed; proof gates advancement past `draft`, not entry | The index row plus the asset file itself | `README.md` and `FIRST_RUN_CHECKLIST.md` |
 | `77-INBOX` | Where does a manually dropped unsorted file go? | the file inside `77-INBOX\` | drop it → weekly sweep routes it via `WHERE_IT_GOES.md`, or flags it ambiguous | Nothing sits past one weekly review | Routes out to its real home | CASTLE's Weekly Inbox Routing Checklist (`OPERATIONS.md`) |
-| Root `Clippings` | Where does an automatic Obsidian web clipping go? | the clipped file inside `.ROOT\Clippings\` | clip it → weekly sweep routes it via `WHERE_IT_GOES.md`, or flags it ambiguous | Nothing sits past one weekly review | Routes out to its real home | CASTLE's Weekly Inbox Routing Checklist (`OPERATIONS.md`) |
+| Automatic Obsidian clipping | Where does a web clipping go? | the clipped file inside `77-INBOX\` | clip it → weekly sweep routes it via `WHERE_IT_GOES.md`, or flags it ambiguous | Nothing sits past one weekly review | Routes out to its real home | CASTLE's Weekly Inbox Routing Checklist (`OPERATIONS.md`) |
 | `88-JOURNAL` | Where does private reflection go? | N/A | Chris writes; AI never reads or writes here | N/A | Stays private | none — hard boundary, no exceptions |
 
 ---

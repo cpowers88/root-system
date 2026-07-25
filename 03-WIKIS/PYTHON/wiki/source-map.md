@@ -87,7 +87,7 @@ When books are added, fill this table.
 
 ### Think Python -> Vault Stage Mapping (TOC-level, 2026-06-24)
 
-Book chapter order does not match vault Stage order (book teaches basic function calls before conditionals and loops, and bundles recursion with conditionals). Vault Stage order is kept as-is per `CLAUDE.md`; sections are pulled from the book non-sequentially.
+Book chapter order does not match vault Stage order (book teaches basic function calls before conditionals and loops, and bundles recursion with conditionals). Vault Stage order is kept as-is per `OPERATIONS.md`; sections are pulled from the book non-sequentially.
 
 | Vault Stage | Book chapters / sections used |
 |---|---|

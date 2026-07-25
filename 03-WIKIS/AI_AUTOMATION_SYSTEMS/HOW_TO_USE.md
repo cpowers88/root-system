@@ -2,58 +2,38 @@
 type: guide
 timeline: reference
 tags: [ai-automation]
+created: 2026-07-24
 ---
 
-# HOW TO USE — 03-WIKIS\AI_AUTOMATION_SYSTEMS
-### This wiki answers: *what AI/automation pattern is worth knowing, and does `.ROOT` itself need to change to use it well?*
+# HOW TO USE — AI & AUTOMATION SYSTEMS
 
-## Hub Contract
+## Start
 
-- **Hub type:** research-retrieval engine — AI/agent landscape research plus `.ROOT` self-evolution proposals; also a SENSE evidence home for the Watchtower and the proposal source for the loop's EVOLVE stage.
-- **Current truth:** `wiki\index.md`
-- **Loop & return:** runs the RESEARCH and STRUCTURE stages (and feeds EVOLVE) of the System Loop; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+1. State the AI, automation, risk, adoption, or system-evolution question.
+2. Open `wiki\index.md`.
+3. Load one relevant cohort.
+4. Use `raw-source-coverage.md` when provenance or coverage matters.
 
-## Question Owned
-AI tooling and agent-pattern research, plus self-evolution research on `.ROOT` itself. Researches and proposes only — never unilaterally rewrites governance files.
+## Cohorts
 
-## Start Here
-`wiki/index.md` — the live inventory of every research page and proposal; `wiki/log.md` for recent session activity; `wiki/proposals/` for drafted improvement proposals. See `CLAUDE.md`'s Division of Labor section before drafting a proposal.
+- `agents` — architectures, orchestration, and agent evaluation.
+- `alignment-safety` — model behavior, risk, evaluation, and oversight.
+- `governance-society` — institutions, infrastructure, policy, and power.
+- `adoption-delivery` — organizational adoption, economics, and production.
+- `platforms` — provider-specific mechanics requiring recency checks.
+- `protocols` — cross-provider integration standards.
+- `system-evolution` — `.ROOT` research and gated proposals.
 
-For `.ROOT` architecture or self-evolution, also load
-`01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`, then the affected
-live operating files. The capability contract defines the desired behavior;
-`00-BRAIN\AGENT.md` remains governance authority.
+## Work loop
 
-## Standard Work Loop
 ```text
-research -> evidence -> proposal -> review -> promotion
+question -> evidence -> maintained knowledge -> routed decision or proposal
 ```
 
-## What Counts as Proof
-A proposal that survives the castle/review cadence and gets promoted into a live governance file — not the existence of a research page. Research alone is not a system change.
-
-## Outputs and Where They Go
-Research → a page here. Friction or drift observed in `.ROOT` → a proposal in `wiki/proposals/` (format in `CLAUDE.md`). Proposals go to Chris or the castle's review cadence for actual promotion — this wiki never edits `00-BRAIN` governance files directly.
-
-## Boundaries
-Don't duplicate `03-WIKIS\TECHNOLOGY` — the broader tech landscape and applied technical reference it holds. Stay in the AI/agent/automation and self-evolution lane. New AI/LLM/agent research routes here, not to TECHNOLOGY's closed `ai-and-llm/` subfolder.
-
-A material external AI/agent change may be summarized on
-`...projectSuccess\radar.md` only after its evidence lives here and the row names the
-affected strategy assumption/system choice, consequence/test, and review trigger.
-A `.ROOT` internal-friction proposal remains here/SYSTEM_FLAGS; it is not a
-Watchtower signal.
-
-## How the Hub Learns From Use
-Stable, repeated findings hand off to the existing review cadence (handoff → weekly → monthly → quarterly) for promotion into core files — this wiki notices; Chris and the review cadence decide what becomes permanent.
+Research is not proof of value, and a proposal is not permission to act.
+Provider and regulatory claims must be reverified when used.
 
 ## Close
-Log new research or proposals in `wiki/log.md`; state whether a proposal is ready to hand to the castle's review cadence.
 
-## Current State
-Live inventory and proposal status exist only in `wiki/index.md`; recent activity and
-intake history live in `wiki/log.md`. Do not copy batch counts or proposal status
-into this guide.
-
-## Last Updated
-July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.
+Update source coverage, the catalog, and the log when their state changed.
+State the owner, next decision, evidence gap, and review trigger.

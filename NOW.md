@@ -5,7 +5,7 @@ status: active
 tags: []
 ---
 
-# NOW — Thursday, July 23, 2026
+# NOW — Friday, July 24, 2026
 ### Open this every morning. Start here, do the proof, then close clean.
 
 ## Start Here
@@ -94,15 +94,14 @@ original 4 new findings. No HIGH flag open.
 | Tracker / SQL | V1 shipped; exact D2L course data is not available yet | Enter verified D2L data when courses populate, likely near August 24, and test the real workflow |
 | Technology | Claude leads the MCP Bootcamp; Days 1–4 closed over the real `observation_one.md` case | Day 5 (AI Infrastructure): wire the MCP SDK to the Day 4 contracts — stdio, stderr logging, full pytest coverage, Inspector |
 | Business | Advisor-Builder is the current hypothesis; the flip-margin-leak replay (OPP-20260716-01) is parked 2026-07-23 — no warm-network flipper contact exists, verdict unchanged if one surfaces; closing-exception autopsy is HOLD (OPP-20260716-02) | The B2 change-order conversation below now carries the "one live workflow replay" slot instead |
-| Continuity income | Additional income is needed before Spring 2027 enrollment | **2026-07-22: Chris approved the B2 conversation** — hold one change-order replay with the contractor friend, ask whether he'd pay for remote estimating/change-order support, record the answer only (no offer/pricing/outreach); Lane A: Chris hand-fills the top-100 classification worksheet, and one private scanner walkthrough has conditional GO (≤90 added min, then park-or-proceed review) |
-| `.ROOT` | Codex leads the Learning/System Bootcamp while Claude leads MCP; Python Rep 2 is recorded with no false mastery claim | Resume at the failed `break` trace, continue the scheduled evidence reps, then integrate both lanes at the July 26 review |
+| Continuity income | Additional income is needed before Spring 2027 enrollment | **2026-07-22: Chris approved the B2 conversation** — hold one change-order replay with the contractor friend, ask whether he'd pay for remote estimating/change-order support, record the answer only (no offer/pricing/outreach). Lane A is parked while its project folder remains explicitly paused. |
+| `.ROOT` | Codex leads the Learning/System Bootcamp while Claude leads MCP; the `break` trace and nearby loop work are complete | Complete one fresh no-hint Stage 3 loop-and-accumulator build with explain-back, then integrate both evidence lanes at the July 26 review |
 
 ## This Week
 
 - [ ] Syllabus-neutral Physics quantitative rep later in the evidence window; formal Section 54 alignment waits for exact materials
 - [x] Python Stage 3: password-controlled `while`, divisible-by-7 counter, guessing game, and the `for.py`/`break` reconciliation all now directly demonstrated (July 22–23); remaining mastery checklist and multi-part loop tracing continue July 24–25
-- [ ] Record one private Revenue Lab proof during work already happening (conditional GO, ≤90 added min); review it before any public action
-- [ ] Fill the Lane A top-100 human-classification worksheet (Y/N/? in Chris's own words)
+- [ ] Lane A remains parked while `YT_Outlier_Scanner(Pause, chris)` is paused; no worksheet, proof, public, or monetization action unless Chris explicitly reactivates it
 - [ ] Hold the B2 change-order replay conversation with the contractor friend (OPP-20260714-01, approved 2026-07-22) — record whether he'd pay for remote estimating/change-order support; one conversation only
 - [ ] One live workflow observation/VSM only with the needed approval and access — the flip-margin replay (OPP-20260716-01) was parked 2026-07-23 for lack of a warm-network flipper contact, not lack of merit; the B2 change-order conversation below now carries this slot
 - [ ] Daily SQL reps against the scanner SQLite DB (real data now); switch vehicle to the tracker when D2L data actually populates
@@ -130,7 +129,7 @@ original 4 new findings. No HIGH flag open.
 | August 16 | Monthly synthesis and system-direction review |
 | August 23 | Final pre-class weekly review; push approved updates, rollbacks, or bounded changes before classes |
 | August 1 | Monthly weak-link review; re-rank `capability_development_goal.md` |
-| ~August 14 | Revenue Lane A prediction check and top-100 review |
+| ~August 14 | Revenue Lane A parked-state review; run the prediction/top-100 review only if Chris reactivates it |
 | August 24 | Fall semester begins |
 | October 5–November 11 | High-load school window; protect fixed commitments |
 

@@ -1,3 +1,11 @@
+---
+type: proposal
+timeline: reference
+status: implemented-partial
+tags: [governance, system-evolution]
+created: 2026-07-24
+---
+
 # `.ROOT` Structure Synopsis — v3 evidence-aligned proposal
 
 **Status:** Evidence-aligned synopsis reconciled to the implemented 2026-07-24 meta-layer. No physical relocation has been performed; CASTLE elevation remains impact-gated.

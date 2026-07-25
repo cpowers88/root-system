@@ -1,3 +1,11 @@
+---
+type: note
+timeline: now
+status: active
+tags: [architecture, north-star, governance]
+created: 2026-07-24
+---
+
 Step 1 # The North Star folder structure plan review page
 
 So I don't have to continually repeat this, we are going to start in the North_Star.md file, write the LAW for machines of the entire .ROOT structure, to do this with precision we should read the material from this am in the "C:\Users\chris\.ROOT\00-BRAIN\CASTLE\wiki\source-summaries\architecture-update-2026-07-24" folder on machine learning, file structure, .md files, prompts and other useful information we can obtain, you are also welcome to check the rest of the wiki folders as well "C:\Users\chris\.ROOT\03-WIKIS" if you think you may get some good information in here. The plan after fixing "C:\Users\chris\.ROOT\01-NORTH_STAR\NORTH_STAR.md" is to finish out the main area, "C:\Users\chris\.ROOT\01-NORTH_STAR\Weekly Reviews" will be moving into "C:\Users\chris\.ROOT\00-BRAIN\Session_Logs" (chris thinks review location), "C:\Users\chris\.ROOT\01-NORTH_STAR\System Contracts" becomes the folder governance machine instruction contracts, "C:\Users\chris\.ROOT\01-NORTH_STAR\Goals & Milestones" will hold the wiki and other changeable goals and milestones (pre-semester plan needs to be updated and reviewed, the 'current strategy.md' is closer but still could use work, the weekly plans can be moved to castle.

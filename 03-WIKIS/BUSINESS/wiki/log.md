@@ -6,6 +6,35 @@ timeline: log
 
 # Wiki Log
 
+## 2026-07-24 — Machine-first BUSINESS interface and catalog installed
+
+### Outcome
+
+- Added `OPERATIONS.md` as the canonical cross-model contract.
+- Reduced `CLAUDE.md` to a loader pointer.
+- Rewrote `README.md` and `HOW_TO_USE.md` as human interfaces.
+- Promoted `wiki/index.md` to the sole content catalog.
+- Converted `wiki/ai-integration-company/index.md` into a compatibility pointer.
+- Classified the live page set into evidence, methods, offers, operating
+  models, pathways, scenarios, general reference, and templates.
+- Migrated the classified pages into matching physical directories.
+- Relocated blank reusable templates to their functional owners under
+  `05-BUSINESS` and repaired active navigation.
+- Retained only the compatibility pointer in the legacy container.
+
+### Boundaries
+
+- No file under `raw\` changed.
+- No client action, outreach, publication, purchase, account, or commitment
+  was activated.
+- Broad legacy frontmatter cleanup remains separate from this architecture
+  migration.
+
+### Next
+
+Reconcile volatile offer claims and scenario wording with current strategy,
+then complete legacy frontmatter cleanup.
+
 ## 2026-07-23 — Raw source map built (Codex plan, Claude Chat-scoped, Claude Code-executed)
 
 Executed `ExecutionBrief_Buisness-WIKI.md` (Claude Chat-authored, reduced from Codex's

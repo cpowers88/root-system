@@ -264,7 +264,7 @@ printed dates are unusable. D2L/instructor truth supersedes this table.
 | Lecture week | Official lecture focus / assessment signal | Lab-order companion | Vault route | Private code-reading and skeleton proof |
 |---|---|---|---|---|
 | 1 — Aug 24–30 | Module 0: syllabus, decomposition, algorithms, abstraction, computers/programs | Intro, IDE, Gradescope | Stage 0 + Stage 7 planning habit | Annotate one input→process→output program; turn a plain-English task into 5–8 steps without coding. |
-| 2 — Aug 31–Sep 6 | Module 1: I/O, types, operators, arithmetic, Boolean expressions, assignment; Quiz 1 listed Sep 6 | I/O and variables, then types/operators/expressions | Stage 1 retrieval | Trace types and values line by line; explain every conversion; write an I/O skeleton from a fresh prompt. |
+| 2 — Aug 31–Sep 6 | Module 1: I/O, types, operators, arithmetic, Boolean expressions, assignment; Quiz 1 listed Sep 6 | I/O and variables, then types/operators/expressions | Stage 1 retrieval plus the Boolean-expression subset of [[stages/stage-02-decisions-and-boolean-logic]] | Trace types and values line by line; explain every conversion; write an I/O skeleton from a fresh prompt. |
 | 3 — Sep 7–13 | Selection / branching | Selection | Stage 2 retrieval | Build a truth/branch table; predict exactly one executed path; mark independent vs. mutually exclusive tests. |
 | 4 — Sep 14–20 | Selection continues; Quiz 2 listed Sep 20 | Selection practice | Stage 2 consolidation | Cold-read nested and chained decisions; rewrite only the pseudocode structure; debug one unreachable/wrong branch. |
 | 5 — Sep 21–27 | Repetition / loops | Repetition I | Stage 3 | Mark initialization, condition/sequence, update, and exit; trace counters and accumulators. |

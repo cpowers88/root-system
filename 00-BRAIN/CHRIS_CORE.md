@@ -1,7 +1,8 @@
 ---
 type: person
 timeline: reference
-tags: []
+register: human-context
+tags: [governance]
 ---
 
 # CHRIS_CORE.md — Chris Powers Runtime Profile

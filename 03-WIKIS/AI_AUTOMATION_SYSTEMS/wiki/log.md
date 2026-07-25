@@ -6,6 +6,22 @@ timeline: log
 
 # AI_AUTOMATION_SYSTEMS Wiki — Log
 
+## 2026-07-24 — Machine-first knowledge architecture installed
+
+- Added `OPERATIONS.md` as the canonical machine contract.
+- Replaced the prior interface with thin `CLAUDE.md`, `README.md`, and
+  `HOW_TO_USE.md`.
+- Rebuilt `wiki/index.md` as a compact cohort catalog.
+- Migrated 67 research pages into agents, alignment-safety,
+  governance-society, adoption-delivery, platform, protocol, and
+  system-evolution owners.
+- Moved all 11 proposals under `system-evolution/proposals/`.
+- Preserved `raw-source-coverage.md` and this log at the wiki root.
+- Normalized required timeline metadata on relocated legacy pages.
+- Archived the pre-migration interfaces and catalog under
+  `99-ARCHIVE/2026-07-24_AIAS_PRE_MACHINE_ARCHITECTURE/`.
+- No file under `raw/` changed.
+
 ## 2026-07-24 — 5 new books landed in raw/, intake pending
 
 Chris dropped 8 PDFs in `77-INBOX` this morning; routed by subject per

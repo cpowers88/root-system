@@ -1,3 +1,11 @@
+---
+type: specification
+timeline: reference
+status: active
+tags: [governance, system-evolution]
+created: 2026-07-24
+---
+
 # .ROOT Vault Skeleton — Functional Roles, Classification Rule, and Move-Integrity Design
 
 *A design spec and governing target for the 2026-07-24 meta-layer implementation. The current physical tree remains unchanged; this document defines the logical roles, routing rule, evidence-gated mechanism, and migration conditions.*

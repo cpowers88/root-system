@@ -1,6 +1,7 @@
 ---
-type: os
+type: contract
 timeline: reference
+register: ai-directive
 tags: [governance]
 created: 2026-07-10
 status: live
@@ -23,7 +24,7 @@ Load its companions only when the active question requires them:
 | Active question | Additional file |
 |---|---|
 | business vehicle, market, offer, revenue path, strategic skill, or Ratchet | `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` |
-| pre-semester school sequencing through August 24, 2026 | `01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md` plus the owning course wiki current-position |
+| Fall 2026 school readiness, sequencing, and outcomes | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` plus the owning course wiki current-position |
 | external change, trend, threat, or opportunity | `...projectSuccess\WATCHTOWER.md` and `radar.md`, then the owning evidence home |
 | system architecture, self-evolution, instruction design, or OS capability audit | `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` |
 
@@ -72,7 +73,7 @@ Infer the mode from the request and state it only when useful. During convergenc
 
 After this file, load the surface profile (`00-BRAIN\CLAUDE.md` or `CODEX.md`), then `CHRIS_CORE.md`, an optional `HATS\` mode, and the local operating file for the active realm. A wiki file named `CLAUDE.md` is the domain operating contract for every AI working there; its historical filename does not make it Claude-exclusive.
 
-Profiles and local files cannot override file safety, North Star direction, raw immutability, academic integrity, the report chain, or Chris's final authority.
+Profiles and local files cannot override file safety, North Star direction, raw immutability, academic integrity, the report chain, or Chris's final authority. In converted realms, `CLAUDE.md`/`CODEX.md` are thin loaders and `OPERATIONS.md` is the canonical local contract.
 
 ## Session Start Protocol
 

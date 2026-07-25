@@ -78,7 +78,7 @@ stage is implied.
 | 5 | exams, missed/make-up rules, grading scale | course operations retained; conflicting exam count/drop language is gated |
 | 6 | assessment weights; dropped low HW/quiz/participation; Early Alerts; midterm grade; calendar heading | weights retained below; alerts/midterm are support/governance |
 | 7 | calendar through Ch 5; attendance; missed in-class work; late work; missed exams | Ch 1-5 routed to Stages 1-5; dates and contradictions are gated |
-| 8 | missed-exam exceptions; AI learning-aid and prohibited-submission policy | binding academic-integrity boundary in [[source-map]] and `CLAUDE.md` |
+| 8 | missed-exam exceptions; AI learning-aid and prohibited-submission policy | binding academic-integrity boundary in [[source-map]] and `OPERATIONS.md` |
 | 9 | modified operations and face-to-face continuity plan | check D2L/email during disruptions; governance only |
 | 10 | virtual transition, adjusted deadlines, virtual office hours; integrity, conduct, accessibility | governance and academic-integrity boundary |
 | 11 | accessibility contacts and reasonable accommodations | student-support governance; contact Student Disability Services early if needed |

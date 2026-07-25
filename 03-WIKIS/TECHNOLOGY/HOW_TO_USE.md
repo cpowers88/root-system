@@ -1,70 +1,92 @@
 ---
 type: guide
 timeline: reference
+register: human-context
 tags: [technology]
+created: 2026-07-24
 ---
 
-# HOW TO USE — 03-WIKIS\TECHNOLOGY
-### This wiki answers: *what tools exist, what category do they solve, and is now the time to learn or recommend one?*
+# HOW TO USE — TECHNOLOGY
 
-## Hub Contract
+This wiki answers two different questions, and it helps to know which one you're
+asking:
 
-- **Hub type:** research-retrieval engine — landscape research plus applied technical reference; also a SENSE evidence home for the Watchtower.
-- **Current truth:** `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md § Current State` (landscape frontier of record); applied lookups start at `wiki\index.md`.
-- **Loop & return:** runs the RESEARCH and STRUCTURE stages of the System Loop; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+- **"Should I learn or recommend this?"** → landscape research. Resolves through
+  the spine's Recommendation Ladder.
+- **"How does this actually work?"** → applied reference, in the category
+  subfolders.
 
-## Question Owned
-Two layers as of July 7, 2026: landscape research/tech-adoption roadmap (the original purpose — not AI/agent-specific, that's the sibling `AI_AUTOMATION_SYSTEMS` wiki), plus applied technical reference (web frameworks, distributed systems, DevOps, AI/LLM concepts, applied data science) inherited from FORGE's retirement the same day.
+## Start
 
-## Start Here
-**Canonical current-frontier entry: `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`'s Current State section.** This wiki has no in-vault `current-position.md` — the 12-category possibility map's Current State section is the frontier of record. For applied-reference lookups, start at `wiki\index.md` instead.
+1. **Landscape frontier:** `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md § Current State`.
+   That is the frontier of record — this wiki deliberately has no
+   `current-position.md`.
+2. **Applied lookups:** `wiki\index.md`.
+3. **What's been read from `raw/`:** `wiki\raw-source-coverage-and-intake-status.md`.
 
-## Standard Work Loop
-```text
-declare "landscape decision" or "applied retrieval" -> answer -> application/decision evidence
-```
-A **landscape decision** asks "should Chris learn or recommend this" and resolves via
-`02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`'s Recommendation
-Ladder. An **applied retrieval** asks "how does this actually work" and resolves via
-the subfolders under `03-WIKIS\TECHNOLOGY\wiki\`.
+## The categories
 
-## What Counts as Proof
-A landscape rep that becomes a recommendation pattern actually used in a real (or practice) audit, or an applied-reference lookup that unblocked a real build step — not the page's existence.
+`ai-and-llm` · `data-science-ml` · `database-sql` · `devops` ·
+`distributed-systems` · `instrumentation-iot` · `security` · `software-craft` ·
+`software-engineering` · `user-experience` · `web-frameworks`
 
-## Outputs and Where They Go
-Landscape rep → page here. If it becomes a recommendation pattern used in real
-work, update the Current State in
-`02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`; do not duplicate it.
+Landscape pages sit at `wiki/` root, not in these folders.
+
+## The trap worth naming
+
+**The applied collection is a retrieval library, not a study queue.** Most of
+`distributed-systems/` and `data-science-ml/` sits well ahead of your live
+frontier. Page count is not a signal of what to study next — target the spine's
+real gap list, not whatever category happens to be biggest.
+
+## What to trust
+
+This is the fastest-aging hub in the vault. Prices, versions, vendor
+capabilities, and adoption stats carry an "(as of YYYY-MM, source)" marker —
+**re-verify anything dated before acting on it.**
+
+Two raw files (#42 and #43 in the ledger) are unsourced AI chat exports. They're
+accounted for, but they are not evidence, and nothing in them should be cited
+without independent confirmation.
+
+## Closed lane
+
+`wiki\ai-and-llm\` is inherited reference and **closed to new intake.** New AI,
+LLM, or agent research goes to `03-WIKIS\AI_AUTOMATION_SYSTEMS`.
+
+## What counts as proof
+
+A landscape rep that became a recommendation pattern you actually used in a real
+or practice audit, or an applied lookup that unblocked a real build step. Not
+the page existing.
+
+## Cadence
+
+A weekly 30-minute landscape rep — one category, one tool, or one real use case
+— plus a monthly review alongside `capability_development_goal.md`.
+
+Landscape study is preparation, not production. If it displaces audit or build
+work two weeks running, rebalance.
 
 ## Boundaries
-No orphan knowledge — every category studied connects to school, a client service,
-or an audit scenario. Landscape study is preparation, not production. The large
-applied-reference collection is a retrieval library, not a study queue; most of
-`distributed-systems/` and `data-science-ml/` sits ahead of Chris's live frontier.
-Target the spine's real gap list first, not whatever already has the most pages.
 
-A verified external change promotes to `...projectSuccess\radar.md` only when it
-has a material consequence, an evidence page here, an affected active strategy
-assumption/system choice, and a review trigger. Routine tool research stays here.
-
-## How the Hub Learns From Use
-Each 30-minute weekly landscape rep produces one page or one spine Current State
-update. A pattern that gets reused in real decisions may promote into live guidance.
+- The spine lives at `02-LIBRARY` and is linked, never duplicated here.
+- `AI_AUTOMATION_SYSTEMS` owns AI/agent research; `SYSTEMS` owns system dynamics
+  and ISYE; `BUSINESS` owns offer and audit method.
+- A verified external change may promote to `...projectSuccess\radar.md` only
+  with a material consequence, an evidence page here, the affected assumption,
+  and a review trigger. Routine tool research stays here.
+- No orphan knowledge: every category studied ties back to school, a client
+  service, or an audit scenario.
+- `raw\` is immutable.
 
 ## Close
-Log the rep in `wiki/log.md`; update the Technology Library Strategy only if a
+
+Log the rep in `wiki\log.md`. Update `wiki\index.md` if a page was added, the
+ledger if a source's disposition moved, and the spine's Current State only if a
 recommendation pattern actually got used.
 
-## Current State
-The landscape frontier exists only in
-`02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md § Current State`;
-`wiki\index.md` owns the applied reference inventory. Do not copy counts or frontier
-state into this guide.
+## Where the rules live
 
-## How To Ask This Wiki Questions
-- "What does the 12-category map say about [category]?" → `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md`
-- "How does [Flask/distributed systems/DevOps concept] actually work?" → `wiki\index.md`, applied-reference subfolders
-- "What's new in [category] since I last checked?" → this wiki's landscape pages once reps accumulate them
-
-## Last Updated
-July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.
+`OPERATIONS.md` is the machine contract every AI follows here. You don't need to
+read it to use the wiki.

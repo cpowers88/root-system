@@ -1,6 +1,6 @@
 ---
 type: handoff
-timeline: next-session
+timeline: next
 status: ready-for-review
 tags: [north-star, authority, goals, milestones, handoff]
 created: 2026-07-24

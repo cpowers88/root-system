@@ -1,76 +1,90 @@
 ---
 type: guide
 timeline: reference
+register: human-context
 tags: [business, revenue]
+created: 2026-07-24
 ---
 
-# HOW TO USE — 03-WIKIS\REVENUE_LAB
-### This wiki answers: *what digital revenue lane, backed by evidence, fits Chris's daily life and produces income soonest?*
+# HOW TO USE — REVENUE_LAB
 
-## Hub Contract
+This wiki answers: **what revenue lane, backed by real evidence, fits your
+daily life and produces income soonest?**
 
-- **Hub type:** application-decision engine — evidence-first revenue-lane scoring and operation.
-- **Current truth:** `wiki\index.md`
-- **Loop & return:** runs the PROVE and MEASURED OUTCOME stages of the System Loop through scored lane tests; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+It exists because of the July 14, 2026 funding cut. Income that keeps you
+enrolled serves the school spine directly — which is why this hub is allowed to
+research lanes that are *not* part of the current Advisor-Builder vehicle. That
+permission stops at this hub's edge.
 
-## Question Owned
-Evidence-first research, scoring, and operation of digital revenue streams that
-fund Chris's studies. Off-the-named-path research is allowed here by charter —
-this is the one hub where "not in the current Advisor-Builder vehicle" is not a
-disqualifier. Builds still pass the CASTLE profit gate, and evidence returns to the
-continuity-income milestone in
-`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`.
+## Start
 
-## Start Here
-`03-WIKIS\REVENUE_LAB\wiki\index.md` — live inventory of lanes and evidence pages; `wiki/log.md`
-for recent session activity; `CLAUDE.md` for the ranking rubric and boundaries.
+1. `wiki\revenue-lane-scorecard.md` — the ranked lanes and the gate result.
+2. `wiki\index.md` — the full catalog of lane and evidence pages.
+3. `00-BRAIN\CASTLE\wiki\opportunity-queue.md` — **live** status, priority, and
+   review dates. This is more current than the wiki; check it before acting.
 
-## Standard Work Loop
+## Work loop
+
 ```text
-scan -> evidence (Tier 1-2) -> score on rubric -> gate re-run -> bounded proof -> operate + measure
+scan -> evidence (Tier 1-2) -> score on the rubric -> CASTLE gate -> bounded proof -> operate + measure
 ```
 
-## What Counts as Proof
-Real dollars received, or a measured leading indicator explicitly named in the
-lane's proof sentence (e.g., watch-hours against a monetization threshold).
-A research page is not proof. A ranked scorecard is not proof.
+## The rubric, in one line each
 
-## Outputs and Where They Go
-Lane research and scorecards → pages here. A lane ready to build → CASTLE
-profit gate, then a proof project tracked here with real numbers. Money
-system artifacts (reusable pricing patterns and sanitized client-facing
-assets) → `05-BUSINESS`; active client-specific pricing, invoices, and files →
-the authorized client workspace outside `.ROOT`.
-Skills the lane demands → the owning skill wiki, cross-referenced.
+Every lane is scored 1–5 on: **time-to-first-dollar**, **daily-footprint fit**,
+**skill overlap**, **compounding value**, and **variance**. Twenty-five total.
+A portfolio answer is allowed; each lane is still scored on its own.
+
+## Evidence tiers
+
+- **Tier 1** — platform or government primary source. Supports a recommendation.
+- **Tier 2** — market data with a named method. Supports a recommendation.
+- **Tier 3** — hypothesis, vendor claim, anecdote. Points at where to look. Never
+  supports a recommendation.
+
+Platform mechanics being documented does not mean anyone will pay *you*. In
+every lane, the unverified step is the acquisition step — first client, first
+student, first buyer, first monetized view.
+
+## What counts as proof
+
+Real dollars received, or a measured leading indicator you named in the lane's
+proof sentence *before* the test ran.
+
+A research page is not proof. A ranked scorecard is not proof. A working tool
+is not proof. An approved test is not a result.
 
 ## Boundaries
-Never publishes, posts, or reaches out without Chris's explicit approval.
-Doesn't duplicate BUSINESS (audit company), TECHNOLOGY (tech landscape), or
-AI_AUTOMATION_SYSTEMS (AI research). Fixed school commitments and
-academic-integrity boundaries remain absolute; each opportunity must tolerate
-reduced capacity during the October 5 – November 11 high-load window.
 
-A real external platform/market change may enter Watchtower only after its evidence
-lives here and it meets the materiality threshold. Lane research, rubric movement,
-and our own test outcomes remain in Revenue Lab/CASTLE; do not duplicate them on the
-radar merely because they are commercially interesting.
+- **Nothing gets published, posted, priced, purchased, or sent without your
+  explicit approval.** Research never publishes.
+- An approved test is approved for its stated scope, cost, and time cap. The cap
+  is recorded and honored.
+- Doesn't duplicate BUSINESS (audit company), TECHNOLOGY (tool landscape), or
+  AI_AUTOMATION_SYSTEMS (AI research).
+- School commitments and academic integrity are absolute. Any lane must survive
+  reduced capacity in the October 5 – November 11 high-load window.
+- Your family and private life in content is your call alone, per piece.
 
-## How the Hub Learns From Use
-Every operated lane feeds its real numbers back into its evidence page —
-predicted vs. actual time-to-first-dollar, hours spent, revenue. Wrong
-predictions get kept and marked, not overwritten; the rubric improves from
-its own misses.
+## Where things go
+
+Lane research and scorecards stay here. A lane ready to build goes to the CASTLE
+profit gate, then returns as a proof project tracked here with real numbers.
+Reusable sanitized assets go to `05-BUSINESS\`; anything client-specific lives
+in the authorized client workspace outside `.ROOT`.
+
+## How this hub learns
+
+Every operated lane records predicted versus actual — time-to-first-dollar,
+hours, revenue. **Wrong predictions are kept and marked, not overwritten.** The
+rubric only improves if its misses stay visible.
 
 ## Close
-Log the session in `wiki/log.md`; update `index.md` if pages changed; state
-the single next action and, for any lane in motion, its current evidence
-status.
 
-## Current State
-Live lane status, approvals, and next tests exist only in `wiki\index.md`; recent
-operation history lives in `wiki\log.md`; the continuity-income milestone lives in
-`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`. Do not copy lane state into
-this guide.
+Append `wiki\log.md`. Update `wiki\index.md` if lane status changed. Reconcile
+against CASTLE's opportunity queue. State the next single action.
 
-## Last Updated
-July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.
+## Where the rules live
+
+`OPERATIONS.md` is the machine contract every AI follows here. You don't need to
+read it to use the wiki.

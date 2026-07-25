@@ -64,6 +64,6 @@ print(root)
 
 - [[drills/stage-04-library-basics]]
 
-## Flashcards To Create
+## Flashcards
 
 - [[flashcards/stage-04-library-basics]]

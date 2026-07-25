@@ -8,14 +8,18 @@ timeline: now
 
 ## Current State
 
-Fall 2026 course-support scaffold is live for TCOM 2010, ECON 1000, and ENGR 1000. Use `fall-2026-course-briefs.md` as the policy/source brief until D2L opens.
+Fall 2026 course support is live for TCOM 2010 and ECON 1000. ENGR 1000 remains
+reference-only pending real Fall material. Use
+`course-briefs/fall-2026-course-briefs.md` as the policy/source brief until D2L
+opens.
 
 ## Active Course Focus
 
 - **TCOM 2010: activated ahead of schedule (2026-07-21).** Real exact-section
   syllabus, the actual assigned textbook (*Open Technical Communication*),
   its instructor ancillary package, and per-example worked files are all in
-  `raw/`. Full week-by-week resource map built: `tcom-2010-semester-map.md`.
+  `raw/`. Full week-by-week resource map:
+  `courses/tcom-2010/semester-map.md`.
   Still trust D2L over the syllabus's recycled schedule dates; pull the real
   assignment-weights table in Week 1. Two real gaps found and left open
   (Report Group Charter template, Reflective Memo template) — see the map's
@@ -28,7 +32,7 @@ Fall 2026 course-support scaffold is live for TCOM 2010, ECON 1000, and ENGR 100
   not D2L-dependent); AI allowed if credited. Two open textbooks (OpenStax,
   CORE Econ) and four real FRED datasets (GDP, GDPC1, CPIAUCSL, UNRATE)
   placed in `02-LIBRARY\00-SCHOOL\04-ECON\` as free stand-ins for the
-  paywalled D2L Day One text. `econ-1000-semester-map.md` maps the real
+  paywalled D2L Day One text. `courses/econ-1000/semester-map.md` maps the real
   schedule to these substitutes — **lower confidence than TCOM's map**,
   since the real assigned book's actual chapter content stays invisible
   until D2L opens; re-check the map then. `HAT_ECON.md` also corrected
@@ -38,7 +42,7 @@ Fall 2026 course-support scaffold is live for TCOM 2010, ECON 1000, and ENGR 100
   Two additional real sources are now fully processed: the FRED/BLS CPIAUCSL
   clipping and Wheelock's four-page Federal Reserve Great Depression essay.
   Their five reading chunks, flashcards, and reasoning drill are parked at
-  [[econ-1000-great-depression-cpi-reading-guide]] and unlock only during
+  [[courses/econ-1000/reading-guides/great-depression-cpi]] and unlock only during
   Weeks 7-14; they are not a current broad-reading assignment.
 
 ## Next Review

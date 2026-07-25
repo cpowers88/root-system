@@ -42,7 +42,7 @@ approved case studies, and non-sensitive metadata return to `.ROOT`.
 
 ```
 AI instruction, session log, system flag, or map? → 00-BRAIN\
-Durable direction, current strategy, skill gaps, prep plan, or strategic review? → 01-NORTH_STAR\
+Durable direction, current strategy, skill gaps, semester goal, or strategic review? → 01-NORTH_STAR\
 Material external signal already supported in its evidence home? → ...projectSuccess\radar.md
 Tied to a specific KSU course? → 02-LIBRARY\00-SCHOOL\[course]\
 Has a deliverable, build, or launch goal? → 02-LIBRARY\.PROJECTS\[NAME]\
@@ -72,7 +72,7 @@ destination.
 | Session reports | `SESSION_REPORT_DATES_WHO.md` | `SESSION_REPORT_JUNE8-9_CLAUDE.md` |
 | System-update packets | `Session_Logs\System Update Log\YYYY-MM-DD_TOPIC\` with required `SESSION_INDEX.md` | `2026-07-15_ROOT_REMEDIATION\` |
 | Weekly reviews | `WEEKLY_STARTDAY-ENDDAY.md` | `WEEKLY_JUNE2-8.md` |
-| Weekly plans (forward, day-by-day, Chris-marked-up; lives in `Goals & Milestones\`, distinct from the retrospective Weekly Review) | `WEEKLY_PLAN_STARTDAY-ENDDAY.md` | `WEEKLY_PLAN_JULY23-26.md` |
+| Weekly plans (forward, day-by-day, Chris-marked-up; lives in `00-BRAIN\CASTLE\wiki\weekly-plans\`, distinct from the retrospective Weekly Review) | `weekly-plan-YYYY-MM-DD-to-YYYY-MM-DD.md` | `weekly-plan-2026-07-23-to-2026-07-26.md` |
 | Monthly reviews | `MONTHLY_MONTH_YEAR.md` | `MONTHLY_JUNE_2026.md` |
 | Quarterly audits | `QUARTERLY_Q#_YEAR.md` | `QUARTERLY_Q3_2026.md` |
 | Field notes | `FIELDNOTES_DATE_TOPIC.md` | `FIELDNOTES_JUNE5_CONSTRUCTION.md` |
@@ -112,10 +112,11 @@ One copy, zero drift.
   approved scripts. NOT here: course
   notes, project files, personal writing.
 - **01-NORTH_STAR\** — durable direction in NORTH_STAR.md; progressive-loading
-  router in README.md; and `Goals & Milestones\` for SKILL_GAP_ANALYSIS.md,
-  CURRENT_STRATEGY.md, time-bounded
-  prep plans, milestone evidence, and `WEEKLY_PLAN_*.md` (forward, day-by-day,
-  Chris-marked-up); `System Contracts\` for North-Star-derived OS capability and
+  router in README.md; and `Goals & Milestones\` for CURRENT_STRATEGY.md,
+  `fall_2026_semester.md`, `capability_development_goal.md`,
+  `value_production_goal.md`, and milestone evidence — that folder's own
+  `OPERATIONS.md` is its machine rule set, and weekly plans live in CASTLE, not
+  here; `System Contracts\` for North-Star-derived OS capability and
   return contracts. NOT here: generic AI governance, domain research, live projects,
   or session logs.
 - **00-BRAIN\Session_Logs\** — daily logs, handoffs, retrospective weekly/monthly

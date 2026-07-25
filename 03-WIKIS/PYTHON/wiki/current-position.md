@@ -175,9 +175,9 @@ closed unless a specific learning gap justifies reopening it.
 
 ## Current Next Action
 
-Stage 2 is closed and Stage 3 is active. Chris's next action is to open and run
-`02-LIBRARY/.PROJECTS/MCP_Bootcamp/Code/for.py`, reconcile its actual output with
-the reported `30`, trace the condition and `break` placement, and correct it
-before completing the remaining Stage 3 mastery checks. All later packets remain
-content readiness, not study progress until worked and verified the same way
-Stage 2 was.
+Stage 2 is closed and Stage 3 is active. The traced `for.py`/`for2.py` work and
+the loop/`or` condition exercise are complete. Chris's next action is one fresh
+Stage 3 loop-and-accumulator build from a plain-English prompt, without hints,
+followed by an explain-back of the accumulator state on each iteration. Record
+the result here before advancing. All later packets remain content readiness,
+not study progress until worked and verified the same way Stage 2 was.

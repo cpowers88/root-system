@@ -24,7 +24,7 @@ This file tracks every source and what role it plays.
 
 - AI may be used only as a **learning aid**: reviewing explanations, practicing problem-solving technique, exploring examples, clarifying difficult topics.
 - AI may **not** be used to generate any content submitted for homework, quizzes, labs, projects, or exams.
-- This vault treats every page as **study support only**. Worked examples here are for learning the pattern, not for submission. See [[../CLAUDE.md]] Academic Integrity Boundary.
+- This vault treats every page as **study support only**. Worked examples here are for learning the pattern, not for submission. See [[../OPERATIONS.md]] Academic Integrity.
 
 ## Sources
 

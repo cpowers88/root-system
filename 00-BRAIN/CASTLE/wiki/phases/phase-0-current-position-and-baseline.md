@@ -34,7 +34,7 @@ live fix for the #1 skill gap (SQL) and the walking-into-CSE-1321-loaded advanta
 ## Best Sources
 | Source | Tier | Location | What it proves |
 |---|---|---|---|
-| SKILL_GAP_ANALYSIS.md | internal-spine | `01-NORTH_STAR\` | The gap priority order |
+| capability_development_goal.md | internal-spine | `01-NORTH_STAR\Goals & Milestones\` | The capability stack and weak-link priority order |
 | KSU_Academic_Tracker_Brief.md | internal-spine | `02-LIBRARY\.PROJECTS\KSU_Academic_Tracker\` | Scope + data model of the proof project |
 | CS50P (Harvard) | 1 | online | Python path |
 

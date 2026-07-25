@@ -2,9 +2,22 @@
 type: log
 tags: []
 timeline: log
+updated: 2026-07-24
 ---
 
 # EDUCATION Wiki — Session Log
+
+## 2026-07-24 — Machine-first course architecture installed
+
+- Installed `OPERATIONS.md` as the machine contract and reduced `CLAUDE.md`
+  to a loader.
+- Added the human `README.md` and replaced `HOW_TO_USE.md`.
+- Rebuilt `wiki/index.md` as the sole live catalog.
+- Organized knowledge into `course-briefs/`, `courses/<course>/`, `methods/`,
+  and `references/`.
+- Archived the pre-migration interfaces and catalog under
+  `99-ARCHIVE/2026-07-24_EDUCATION_PRE_MACHINE_ARCHITECTURE/`.
+- No file under `raw/` changed.
 
 ## 2026-07-07 — Wiki created (narrow scope)
 
@@ -344,3 +357,39 @@ timeline: log
 - Next: do not broad-read the new packet now. The first unlock is Week 7 after the
   initial GDP lesson; before then, use only light pre-semester GDP/inflation/
   unemployment vocabulary retrieval if it fits the priority plan.
+
+## 2026-07-24 (evening) — Hub audit after the machine-architecture migration (Claude Code)
+
+- Mechanically clean: 12 pages, 0 dead links, 0 orphans, 0 frontmatter gaps,
+  index matches tree, live structure matches what `OPERATIONS.md` claims.
+  `current-position.md` and `course-briefs/fall-2026-course-briefs.md` are both
+  accurate and current, including flag #57's ENGR/PHYS source-quality state.
+  The missing ENGR 1000 course folder is correctly justified, not a gap.
+- **Regression found and repaired.** The July 24 migration archived the
+  source-to-page table that lived inside `wiki\index.md` and pointed future
+  sessions at the archived copy instead of replacing it. That table was this
+  hub's coverage ledger — the artifact the architecture evidence refinery names
+  as the standard (explicit per-source disposition: ingested / covered by a
+  named page / deferred with reason / intentionally excluded with reason).
+  Restored live as NEW `wiki\source-map.md`, reconciled against the current
+  `raw/` tree rather than copied forward, and linked from `index.md`.
+- **Provenance break found.** `wiki\references\ai-programs-us-2026.md` claimed
+  "Sources (in `raw/`)" for two files that are no longer there:
+  `AI Programs in U.S. Universities.md` is **missing from `.ROOT` entirely**,
+  and `2606.12428v1.pdf` now lives in `03-WIKIS\BUSINESS\raw\`. The page's
+  source block now states both accurately; its cicmap-derived figures are
+  marked as dated to the 2026-07-08 capture and not re-verifiable locally.
+- **Not resolved, by design.** The three exact-section syllabi are byte-identical
+  in this hub's `raw/` and in `02-LIBRARY\00-SCHOOL\`. This hub recorded
+  2026-07-21 that `02-LIBRARY` stays canonical; PYTHON recorded the opposite for
+  its own syllabi on 2026-07-23. Chris's own question about which copy should be
+  the sole source is still open in this log. Raised as system flag **#85** rather
+  than settled inside one hub.
+- **Reported, not fixed:** `raw\README.md` still says "Nothing here yet —
+  populate per course as it activates," while `raw/` now holds roughly 200 files
+  including the whole Open-TC textbook package. `raw/` is immutable, so this is
+  Chris's call.
+- Validation: `wiki_lint.py` 0 blockers; `frontmatter_audit.py` no new findings
+  in EDUCATION; `validate_boot_chain.py` PASS.
+- **Next action:** Chris decides flag #85 (one canonical-copy rule for all school
+  hubs) and whether to correct `raw\README.md`.

@@ -22,7 +22,9 @@ Prefer primary and authoritative evidence for consequential claims. Lower-confid
 | NORTH_STAR.md | 01-NORTH_STAR\ | Durable direction, fixed commitments, capability base, and Ratchet |
 | CURRENT_STRATEGY.md | 01-NORTH_STAR\Goals & Milestones\ | Current business hypothesis, assumptions, milestones, and replacement rules |
 | WATCHTOWER.md + radar.md | ...projectSuccess\ | Material external-signal routing; not strategy authority |
-| SKILL_GAP_ANALYSIS.md | 01-NORTH_STAR\ | Monthly weak-link decision |
+| capability_development_goal.md | 01-NORTH_STAR\Goals & Milestones\ | Capability stack and monthly weak-link decision |
+| fall_2026_semester.md | 01-NORTH_STAR\Goals & Milestones\ | Semester outcome, readiness gates, and workload gate |
+| value_production_goal.md | 01-NORTH_STAR\Goals & Milestones\ | Evidence ladder from capability to revenue |
 | AGENT.md + surface profiles | 00-BRAIN\ | AI behavior, safety, capability notes, and access boundaries |
 | TECHNOLOGY_LIBRARY_STRATEGY.md | 02-LIBRARY\REF-AI-AUTOMATION\ | Technology possibility map and Recommendation Ladder |
 | KSU_Academic_Tracker_Brief.md | 02-LIBRARY\.PROJECTS\KSU_Academic_Tracker\ | Tracker proof-project scope |
@@ -40,7 +42,7 @@ Prefer primary and authoritative evidence for consequential claims. Lower-confid
 | REVENUE_LAB scorecard and evidence pages | Continuity-income tests, proof status, and authorization limits | 0–1, continuity |
 | PYTHON and PHYSICS learning paths | Staged school-readiness paths with mastery gates; positions live in each owner's current-position file | 0–1 |
 | Ellucian Degree Works Dashboard — July 19, 2026 snapshot | 41 completed degree-applicable credits, 13 Fall 2026 registered credits, 54 completed-or-in-progress credits applied, and a minimum 67 additional credits needed | school spine |
-| PRE-SEMESTER_PREP_PLAN.md | Summer-to-semester coordination | 0–1 |
+| fall_2026_semester.md | Fall readiness gates, course priorities, and semester outcomes | 0–1 |
 | Weekly and monthly North Star reviews | Evidence trail used during monthly and Ratchet reconciliation | all |
 
 ## Registered External Evidence

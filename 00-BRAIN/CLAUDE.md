@@ -1,6 +1,7 @@
 ---
 type: instruction
 timeline: reference
+register: ai-profile
 tags: [governance, claude]
 created: 2026-07-10
 status: live

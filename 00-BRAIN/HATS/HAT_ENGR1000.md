@@ -18,7 +18,7 @@ Online async. No textbook. No late work. No extra credit. The risk is
 is calendar protection and the weekly check habit — not instruction
 depth. No full teaching sessions for this course.
 
-Course brief: `03-WIKIS\EDUCATION\wiki\fall-2026-course-briefs.md`.
+Course brief: `03-WIKIS\EDUCATION\wiki\course-briefs\fall-2026-course-briefs.md`.
 
 ## Course Facts — ENGR 1000 (Fall 2026)
 

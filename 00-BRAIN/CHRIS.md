@@ -1,7 +1,8 @@
 ---
 type: person
 timeline: reference
-tags: []
+register: human-context
+tags: [governance]
 ---
 
 # CHRIS.md — Chris Powers
@@ -209,7 +210,7 @@ The calendar belongs to Chris and should reflect his whole life. It may live out
 | Durable mission and decision hierarchy | `01-NORTH_STAR\NORTH_STAR.md` |
 | Current evidence-replaceable strategy | `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` |
 | Current position and next action | `NOW.md` |
-| Current school preparation sequence | `01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md` |
+| Current school preparation sequence | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` plus the owning course wiki current-position |
 | Open risks and unresolved contradictions | `00-BRAIN\SYSTEM_FLAGS.md` |
 | Detailed aptitude evidence | `02-LIBRARY\REF-META-HOW-TO-WORK\` |
 

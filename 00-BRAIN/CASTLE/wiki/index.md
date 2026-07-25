@@ -14,6 +14,7 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 ## CASTLE Root Files
 
 - `OPERATIONS.md` — local operating contract; complete the universal `AGENT.md` orientation chain first
+- `README.md` — human root router
 - `HOW_TO_USE.md` — user question and navigation router
 - `CLAUDE.md` — Claude auto-load pointer
 - `CODEX.md` — Codex cross-surface pointer
@@ -61,6 +62,14 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 - [[claude-code-docs-pack-2026-07]]
 - [[openai-platform-docs-pack-2026-07]]
 - [[source-summaries/architecture-update-2026-07-24/index]] — completed eight-PDF, 3,789-page evidence series supporting the architecture update
+- [[source-summaries/architecture-update-2026-07-24/ai-engineering-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/ai-builders-handbook-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/prompt-engineering-for-llms-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/prompt-engineering-for-generative-ai-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/generative-ai-economic-potential-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/agentic-ai-for-engineers-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/machine-learning-design-patterns-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/r-for-data-science-chunk-intake]]
 
 ## Decision Rules
 
@@ -82,3 +91,5 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 - [[weekly-plans/weekly-plan-2026-07-23-to-2026-07-26]] — active execution
   plan; CASTLE owns weekly sequencing, while Session Logs own retrospective
   reviews
+- [[pre-semester-python-push-2026]] — four-week module sequence, July 27 to
+  August 23; feeds each Sunday's weekly plan, holds no learner truth

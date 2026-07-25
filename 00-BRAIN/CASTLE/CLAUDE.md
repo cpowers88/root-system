@@ -1,7 +1,9 @@
 ---
 type: pointer
 timeline: reference
-tags: []
+status: live
+register: ai-loader
+tags: [governance, castle]
 ---
 
 # CLAUDE.md — CASTLE Claude Auto-Load Pointer

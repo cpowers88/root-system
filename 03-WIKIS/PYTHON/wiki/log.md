@@ -1318,3 +1318,91 @@ None new.
 None urgent. Content correctness confirmed; no further syllabus re-verification
 needed until D2L populates real course data (expected August 24 or later, per
 the July 21 entry above).
+
+## 2026-07-24 — Instruction-file conversion to the machine-architecture set (Claude Code)
+
+### Work completed
+- Converted this hub's instruction files to the four-file pattern Codex applied
+  the same day to EDUCATION, BUSINESS, and AI_AUTOMATION_SYSTEMS: a thin
+  `CLAUDE.md` loader, a canonical `OPERATIONS.md` contract, plus human-facing
+  `HOW_TO_USE.md` and `README.md`.
+- Pre-conversion originals archived to
+  `99-ARCHIVE\2026-07-24_PYTHON_PRE_MACHINE_ARCHITECTURE\` (CLAUDE.md,
+  HOW_TO_USE.md, README.md), matching the EDUCATION archive precedent.
+- Chris's framing constraint, recorded because it shaped the contract: this is a
+  school hub closer in kind to EDUCATION than to BUSINESS or SYSTEMS, but
+  heavier — which is why it has its own wiki — and it will outlive CSE 1321.
+
+### Pages created/updated
+- NEW `OPERATIONS.md` — canonical local contract (`register: ai-directive`).
+  Carries the former CLAUDE.md content: prime directive, controlling question,
+  system boundary, stage system 0-10, the "think like a computer scientist"
+  definition, page-creation rule, learning profile, academic-integrity boundary,
+  raw boundary, and final operating principle. Adds a Function/Authority/
+  Structure/Operations(INGEST/QUERY/LINT)/Proof/Close spine matching the sibling
+  hubs.
+- NEW `OPERATIONS.md § Lifespan` — the durable-spine vs. course-overlay split.
+  Stages, concepts, code-patterns, glossary, drills, flashcards, mini-projects,
+  errors, and the capability library are permanent; `syllabus-alignment.md` and
+  the course-bound parts of `current-position.md` are a replaceable overlay.
+  CSE 1321 is named as the current consumer of the path, not its purpose, so a
+  future session does not gut the hub when the semester closes.
+- `CLAUDE.md` — reduced to a six-step loader (`type: pointer`,
+  `register: ai-loader`), matching the AIAS loader written the same day.
+- `HOW_TO_USE.md` — rewritten as the human workflow guide. Dropped the dead
+  reference to `PRE-SEMESTER_PREP_PLAN.md`, deleted in the same-day North Star
+  restructure.
+- `README.md` — rewritten as the hub router.
+- `source-map.md`, `stages/stage-05-data-shapes.md` — two live authority
+  pointers re-aimed from `CLAUDE.md` to `OPERATIONS.md`. Historical mentions of
+  CLAUDE.md in this log and in `authoring-standards.md`/`protocols.md` were left
+  intact as narrative.
+- Two facts preserved out of the old `HOW_TO_USE.md` into `OPERATIONS.md`
+  rather than dropped: this hub runs the System Loop's TEACH stage with returns
+  through the Return Packet, and a skill proven here is logged against the
+  matching CASTLE skill page rather than duplicated into it.
+
+### Vocabulary added
+None (governance session).
+
+### Progress evidence
+n/a — no learner work. Study stage remains Stage 3, unchanged.
+
+### Validation
+`validate_boot_chain.py` PASS (30 boot files, 1,303 pages, no stale governance
+references). `wiki_lint.py` 0 blockers. `frontmatter_audit.py` zero new findings
+in PYTHON.
+
+### Parked material
+None new.
+
+### Next action
+Apply the outstanding mechanical fixes from the same-day wiki audit: two
+ambiguous glossary links in `glossary/index.md`, the Module 1 Boolean-expressions
+row in `syllabus-alignment.md`, and the unrouted
+`flashcards/stage-04-library-basics` link.
+
+## 2026-07-24 — Post-conversion recovery audit (Codex)
+
+### Work completed
+- Verified the machine-interface conversion and authority-pointer edits.
+- Added the missing pre-conversion archive as a Git-object manifest at
+  `99-ARCHIVE/2026-07-24_PYTHON_PRE_MACHINE_ARCHITECTURE/ARCHIVE_MANIFEST.md`;
+  it records the source commit and exact blob IDs for the prior `CLAUDE.md`,
+  `HOW_TO_USE.md`, and `README.md`.
+- Disambiguated the glossary links for `if-elif-else` and `recursion`.
+- Routed the syllabus Module 1 Boolean-expression requirement to the relevant
+  Stage 2 subset while retaining Stage 1 retrieval.
+- Corrected the standard-library flashcard heading: the linked packet already
+  exists.
+- Replaced the stale Stage 3 next action, which repeated completed `for.py`
+  work, with one fresh no-hint loop-and-accumulator build and explain-back.
+
+### Validation target
+Run the strict wiki lint, boot-chain validator, frontmatter audit, and canonical
+root health gate. No learner stage advancement is claimed by this architecture
+repair.
+
+### Next action
+Complete and record the fresh Stage 3 loop-and-accumulator proof described in
+`wiki/current-position.md`.

@@ -1,447 +1,124 @@
 ---
 type: map
 timeline: reference
+status: live
+reference_priority: core
 tags: [ai-automation]
+updated: 2026-07-24
 ---
 
-# AI_AUTOMATION_SYSTEMS Wiki — Index
+# AI_AUTOMATION_SYSTEMS Index
 
-### Scope: AI tooling, agent patterns, and automation research generally — plus self-evolution research on `.ROOT` itself. Researches and proposes; `00-BRAIN\CASTLE` reviews and maintains.
+Canonical machine catalog. Enter by question and load one cohort. Source
+accounting lives in [[raw-source-coverage]].
 
-## Status
+## Agents and orchestration
 
-Operational as of July 8, 2026. Core batches cover agentic-AI evidence, the AI
-Agent Index, MCP and NIST, the Work Trend Index and incident evidence,
-LLM-wiki/self-improving architectures, two software/knowledge-system books, and
-the Claude/OpenAI official-document packs. **The July 15 source audit replaced
-the inaccurate blanket “raw/ fully processed” claim with a source-level coverage
-ledger.** A July 16 live recount accounts for all 179 raw files. Five overlooked
-research papers and the formerly blocked 35-page Anthropic enterprise guide have
-durable wiki coverage. The July 16 book intake added five explicitly classified
-reference/backlog sources; `TLS.pdf` remains identified as a misplaced
-systems-improvement source. See
-[[raw-source-coverage]] and `log.md`; “accounted” does not mean “compiled.”
-*The Alignment Problem* main text is now fully compiled in eight retrieval pages:
-Prologue, Introduction, Parts I-III, and Conclusion are covered through physical
-p. 403. Acknowledgments, notes, bibliography, and index remain reference back
-matter rather than unprocessed argument.
-*Empire of AI* is now fully compiled through its argument-bearing text (Author's
-Note, Prologue, Chapters 1-18, and Epilogue; physical pp. 8-398) in fourteen
-retrieval pages covering governance,
-research concentration, scaling inputs, commercial power, research control,
-productization labor, risk ideologies, interface-driven adoption, physical compute
-infrastructure, policy agenda-setting, board-coalition power, protected dissent,
-mission elasticity, community-controlled alternatives, data sovereignty, and
-power redistribution. Acknowledgments and notes are classified as reference back
-matter rather than unprocessed argument.
-*Mastering Claude AI* (Dickey) was fully compiled July 17, closing the
-verification backlog: main text in one retrieval page carrying a
-volatile-claims table; its glossary/appendices/index are reference back
-matter. *The Business Case for AI* (Ganesan) was Chris-reclassified from
-lookup/reference and fully compiled the same day as the Advisor-Builder
-client-engagement playbook. *AI in Business and Economics* (Lausberg &
-Vogelsang, De Gruyter, open access) was dropped July 17 and fully compiled
-July 17-18, all 17 chapters read in full — a 17-paper EPEAI conference
-proceedings volume, not a monograph; five chapters carry direct
-Advisor-Builder tie-back, and three chapters (Ch.2, Ch.5, Ch.14) independently
-converge on the same TOE adoption-barrier framework, the clearest
-within-source convergence this hub has logged. Remaining compilation
-queue: *If Anyone Builds It, Everyone Dies* (chunk backlog, gated on a
-concrete review job); the other five July 16 volumes remain deliberately
-lookup/reference.
+- [[agents/2025-ai-agent-index]]
+- [[agents/agentic-ai-industry-adoption-barriers]]
+- [[agents/agentic-automation-architecture-reliability-and-economic-evidence]]
+- [[agents/agent-vetting-worked-examples]]
+- [[agents/self-improving-agent-architectures-gbrain-loopany-closed-loop]]
+- [[agents/shift-to-agentic-ai-codex]]
 
-## Pages
+## Alignment, safety, evaluation, and oversight
 
-- [Raw-Source Coverage](raw-source-coverage.md)
-  — authoritative ingestion ledger for all 179 raw files; distinguishes
-  compiled, lookup/reference, duplicate, misrouted, and chunk-backlog status.
-  Replaces the old all-or-nothing “fully processed” claim.
+- [[alignment-safety/training-data-representation-and-feedback-risk]]
+- [[alignment-safety/algorithmic-fairness-metrics-ground-truth-and-intervention]]
+- [[alignment-safety/interpretable-models-and-human-oversight]]
+- [[alignment-safety/reinforcement-learning-reward-prediction-and-credit]]
+- [[alignment-safety/reward-shaping-curiosity-and-safe-exploration]]
+- [[alignment-safety/imitation-learning-recovery-and-amplification]]
+- [[alignment-safety/preference-inference-feedback-and-human-ai-cooperation]]
+- [[alignment-safety/uncertainty-corrigibility-and-impact-limits]]
+- [[alignment-safety/nist-ai-rmf]]
+- [[alignment-safety/oecd-ai-incidents-monitor]]
 
-- [Agentic AI in Industry: Adoption Level and Deployment Barriers](agentic-ai-industry-adoption-barriers.md)
-  — interview study; the capability-deployment **verification gap**; six-level
-  maturity ladder; four recurring barriers (context, proprietary content,
-  non-determinism, confidentiality).
-- [The Shift to Agentic AI: Evidence from Codex](shift-to-agentic-ai-codex.md)
-  — OpenAI usage data; delegation vs. consultation; skills/**systematization**
-  as the frontier lever; concurrency and long-running agents; empirical
-  validation of the `.ROOT`-style persistent-procedural-context pattern.
-- [The 2025 AI Agent Index](2025-ai-agent-index.md)
-  — census of 30 deployed agents; three form factors (chat / browser /
-  enterprise); MCP dominance; safety-transparency gaps; tool-vetting
-  heuristics.
-- [`.ROOT` Maturity Self-Assessment](root-maturity-self-assessment.md)
-  — first self-evolution rep: `.ROOT` sits at L1 solid / L2 emerging on the
-  agentic maturity ladder; verification capacity (not capability) is the
-  gate to watch; baseline for future drift checks.
-- [Agent-Tool Vetting — Worked Examples](agent-vetting-worked-examples.md)
-  — 8 agents scored against the promoted vetting screen using per-agent
-  Index data: CLI agents (Claude Code, Codex) are the only clean passes;
-  builders fail evals/sandboxing; n8n and HubSpot Breeze can't stop a
-  running agent; Comet is the failing-grade contrast row.
-- [MCP Landscape — Architecture, Primitives, and Scaling Patterns](mcp-landscape-architecture-and-patterns.md)
-  — the long-open MCP rep: host/client/server model, six primitives,
-  transports, deployment paths; **progressive tool discovery** and **code
-  mode** as the context-economy patterns — the `.ROOT` router pattern,
-  formalized by the official docs.
-- [MCP Security and Authorization — Threat Catalog](mcp-security-and-authorization.md)
-  — eight named attack classes (confused deputy, token passthrough, SSRF,
-  session hijacking, local server compromise, OAuth URL injection, stdio
-  proxy escalation, scope inflation); OAuth 2.1 essentials; the depth
-  layer under the Category 10 vetting screen.
-- [NIST AI Risk Management Framework (AI RMF 1.0)](nist-ai-rmf.md)
-  — GOVERN/MAP/MEASURE/MANAGE, seven trustworthiness characteristics;
-  formalizes the verification-gap finding and supplies citable audit
-  vocabulary for client work; `.ROOT` mapped onto the four functions.
-- [Training-Data Representation and Feedback Risk](training-data-representation-and-feedback-risk.md)
-  — the full representation chain from population through deployment; sampling
-  bias versus world bias, disaggregated performance, partial-debiasing limits,
-  and the feedback risk when a descriptive model becomes an intervention.
-- [Algorithmic Fairness: Metrics, Ground Truth, and Intervention](algorithmic-fairness-metrics-ground-truth-and-intervention.md)
-  — why fairness through blindness fails; calibration/error-rate incompatibility,
-  label lineage, prediction-versus-intervention, and a complete applied review
-  sequence for consequential models.
-- [Interpretable Models and Human Oversight](interpretable-models-and-human-oversight.md)
-  — accuracy-versus-safety, treatment confounding, interpretable baselines,
-  complementary explanation methods, user-tested explanations, and a high-impact
-  deployment gate.
-- [Reinforcement Learning: Reward, Prediction, and Credit](reinforcement-learning-reward-prediction-and-credit.md)
-  — actor/critic and temporal-difference mechanics, reward-prediction error,
-  credit assignment, and the distinction between optimizing a signal and choosing
-  the right objective.
-- [Reward Shaping, Curiosity, and Safe Exploration](reward-shaping-curiosity-and-safe-exploration.md)
-  — curricula, potential-based shaping, reward loopholes, novelty/surprise/
-  information-gain signals, noisy-TV failure, and a bounded-exploration gate.
-- [Imitation Learning, Recovery, and Amplification](imitation-learning-recovery-and-amplification.md)
-  — demonstration benefits, cascading distribution shift, DAgger recovery data,
-  capability-aware imitation, self-imitation, and iterated amplification limits.
-- [Preference Inference, Feedback, and Human-AI Cooperation](preference-inference-feedback-and-human-ai-cooperation.md)
-  — inverse reinforcement learning, comparison-based reward models, cooperative
-  inference, legible action, continuing feedback, and behavior-versus-endorsement.
-- [Uncertainty, Corrigibility, and Impact Limits](uncertainty-corrigibility-and-impact-limits.md)
-  — open-category and out-of-distribution failure, uncertainty-triggered
-  abstention, option-preserving impact measures, off-switch incentives, inverse
-  reward design, and the book's formal-model warning.
-- [OpenAI Governance: Mission, Capital, and Control](openai-governance-mission-capital-and-control.md)
-  — the founding governance contradiction, compute-driven capital dependency,
-  practical versus formal authority, and the November 2023 board crisis as an
-  institutional stress test.
-- [AI Research Paradigms, Concentration, and Commercial Selection](ai-research-paradigm-concentration-and-commercial-selection.md)
-  — why deep learning's dominance reflects real technical performance plus its
-  fit with platform data, compute, commercialization, and talent economics; a
-  portfolio gate for preserving alternatives.
-- [Scaling Doctrine: Compute, Data, and Hidden Labor](scaling-doctrine-compute-data-and-hidden-labor.md)
-  — scaling laws as capital strategy; the coupled GPU/cloud/data/labor supply
-  chain; provenance erosion, output filtering, and a full scaling review gate.
-- [Frontier-Lab Commercialization, Safety, and Organizational Power](frontier-lab-commercialization-safety-and-organizational-power.md)
-  — the deployment-resource flywheel, unequal authority among research/safety/
-  startup functions, competition as a release shortcut, and the Anthropic split.
-- [Corporate AI Research Control, Transparency, and Accountability](corporate-ai-research-control-transparency-and-accountability.md)
-  — resource concentration, the “Stochastic Parrots” dispute, corporate research
-  censorship, train-test integrity, and a gate for independent accountability.
-- [Generative-AI Productization, Content Safety, and Hidden Labor](generative-ai-productization-content-safety-and-hidden-labor.md)
-  — APIs and products as research flywheels; ad hoc trust and safety; Codex/
-  Copilot data governance; moderation, RLHF, and the crisis-labor supply chain.
-- [AI-Safety Ideologies, Risk Language, and Release Gates](ai-safety-ideologies-risk-language-and-release-gates.md)
-  — shared premises beneath Doomer/Boomer polarization; distinct meanings of
-  safety; DALL-E/GPT-4 data and evaluation risks; an enforceable release gate.
-- [ChatGPT Launch, Interface Risk, and Organizational Scaling](chatgpt-launch-interface-risk-and-organizational-scaling.md)
-  — how interface and distribution changed effective capability; viral-load
-  failure, safety-capacity loss, organizational shock, and Microsoft dependence.
-- [AI Compute Infrastructure, Energy, Water, and Community Governance](ai-compute-infrastructure-energy-water-and-community-governance.md)
-  — the physical AI stack, rebound effects, megacampus planning, uneven resource
-  burdens, community audit, and infrastructure approval gates.
-- [AI Policy Agenda-Setting, Frontier Thresholds, and Oversight Information](ai-policy-agenda-setting-frontier-thresholds-and-oversight-information.md)
-  — frontier-risk agenda-setting, compute-threshold limits, open/closed tradeoffs,
-  expertise concentration, and the information requirements of mission oversight.
-- [Board Oversight Crisis, Information, and Coalition Power](board-oversight-crisis-information-and-coalition-power.md)
-  — fragmented management information, informal escalation, disclosure failure,
-  coalition power, succession readiness, and investigation scope.
-- [AI-Safety Capacity, Whistleblowing, and Organizational Trust](ai-safety-capacity-whistleblowing-and-organizational-trust.md)
-  — evaluation time and authority, iterative-deployment pressure, likeness risk,
-  safety-team erosion, equity-linked silence, and documentary candor.
-- [Mission Elasticity, Centralization, and the AI-Empire Pattern](mission-elasticity-centralization-and-ai-empire-pattern.md)
-  — how a vague grand mission centralizes talent, resources, and interpretation;
-  corporate-structure leverage, scaling path dependence, and mission versioning.
-- [Community-Governed AI, Data Sovereignty, and Power Redistribution](community-governed-ai-data-sovereignty-and-power-redistribution.md)
-  — consent and continuing data stewardship, task-specific community-controlled
-  AI, distributed research and worker knowledge, and a three-axis gate for
-  redistributing knowledge, resources, and influence.
-- [MCP Client Primitives in Depth + Build Notes](mcp-client-primitives-and-build-notes.md)
-  — second-pass extraction: trust semantics of elicitation/roots/sampling
-  (**roots are advisory, not security**), the stdio never-log-to-stdout
-  rule, and an operational debug quick-reference for MCP servers on this
-  machine.
-- [Microsoft Work Trend Index 2024 → 2026 — The Adoption Arc](work-trend-index-2024-2026.md)
-  — three-report series: BYOAI baseline (78%) → infinite-workday waste
-  telemetry (interruptions every 2 min) → the **Transformation Paradox**
-  (org factors drive 2× the AI impact of individual skill; only 19% of AI
-  users sit in orgs ready for them). Independent confirmation of the
-  verification-capacity finding + Tier 1–2 audit ammunition.
-- [OECD AI Incidents Monitor (AIM)](oecd-ai-incidents-monitor.md)
-  — live catalog of ~16,300 AI incidents/hazards, filterable by harm type,
-  business function, and autonomy level; the incident-history lookup for
-  the vetting screen and the failure-evidence counterweight to capability
-  sources. Two 2026 papers add SORT questions, exposure-adjusted trajectories,
-  principled abstention, and escalation blind-spot tests.
-- [The LLM-Wiki Pattern and Its Second-Brain Implementations](llm-wiki-pattern-and-second-brain-tools.md)
-  — Karpathy's pattern + implementations compared against `.ROOT` practice;
-  July 14 clipping audit adds source-priority criteria, temporal/variant/true-
-  contradiction classification, a primary-source research queue, and current
-  evidence against “compiled wiki always replaces RAG.” Hot cache and
-  self-rewriting scheduled agents remain rejected.
-- [Workflow Automation Tools — 2026 Landscape Snapshot](workflow-automation-tools-landscape.md)
-  — Zapier-blog category map (10 tools, pricing as of 2026-06) with a
-  provenance warning (Make.com omitted by its rival); the
-  automation-first vs. built-in-automation split as an audit lever
-  ("turn on what the client already pays for"); cross-checked against
-  the vetting page's harder findings on Zapier/n8n/HubSpot.
-- [AI Coding Tools for Python — 9-Tool Landscape Comparison (mid-2025)](ai-coding-tools-for-python-2025-landscape.md)
-  — vendor-biased but useful category map covering nine coding assistants;
-  routed here from Technology because all post-closure AI/LLM/agent research
-  belongs in this hub. The immutable source remains in Technology raw, where
-  it was captured before the lane closed; verify current offerings before use.
-- [Generative AI for Software Development (Pereira, O'Reilly 2025)](generative-ai-for-software-development-pereira.md)
-  — 171-pp. book distilled: SDLC-wide tool map with a reusable two-stage
-  evaluation method; the Levels-vs-Shopify adoption contrast (the three
-  blockers solo builders don't have); Shopify's prompting + doubled code
-  review = **third independent confirmation of the verification-capacity
-  verdict**; the ATM/elevator/Excel jobs thesis ending in "AI integration
-  specialist." Ratings are a 2025-04 snapshot — trust the method, verify
-  the tools.
-- [Stanford AI Index 2026 — The Measurement-Gap Edition](ai-index-2026.md)
-  — the neutral annual dataset: frontier convergence (4 labs within 25
-  Elo), benchmarks saturating while labs disclose less, incidents 362
-  (+55%), org adoption 88% with single-digit agents, GenAI at 53%
-  population adoption in 3 years (US 24th), entry-level dev employment
-  −20%. **Fourth independent confirmation of the verification-capacity
-  verdict**, at ecosystem scale. Raw PDF lives in TECHNOLOGY raw/;
-  economy data routed to BUSINESS market-map, education data to
-  EDUCATION.
-- [Claude Code — Context, Memory, and Instruction-File Economics](claude-code-context-and-instruction-economics.md)
-  — the two memory channels (CLAUDE.md vs. auto memory); CLAUDE.md load
-  mechanics (HTML-comment stripping, root-to-leaf concatenation, `@path`
-  imports, path-scoped rules); full prompt-caching mechanics including the
-  confirmed **mid-session CLAUDE.md edit doesn't take effect until
-  `/clear`/`/compact`/restart** gotcha, directly relevant to `.ROOT`'s
-  self-editing governance pattern.
-- [Claude Code — Workflow Recipes, Session Mechanics, and the Extension Ladder](claude-code-workflows-and-sessions.md)
-  — session naming/resume/branch mechanics; the four scheduling options
-  (confirms `.ROOT`'s `schedule`/`loop` skills already cover both relevant
-  ones); the **extension trigger table** (symptom → CLAUDE.md/skill/MCP/
-  subagent/hook/plugin) as a reusable self-evolution screening heuristic.
-- [Claude Code — Permission Modes, Security Guidance, and Code Review](claude-code-permissions-security-and-review.md)
-  — validates `.ROOT`'s Manual-mode + deny-rule hardening against the
-  vendor's own "hard guarantee" guidance; the protected-path backstop
-  (never auto-approved except in `bypassPermissions`, independent of allow
-  rules); the `security-guidance` plugin (automatic 3-layer review, not
-  yet evaluated) and `REVIEW.md` PR-tuning mechanic, both newly read.
-- [Claude Code Prompt Library — Reusable Prompt Patterns](claude-code-prompt-library-patterns.md)
-  — 52 slotted prompt cards across 5 SDLC stages; six named patterns for
-  what makes a prompt reusable (outcome not steps, self-check, reference
-  pointer, measurable target, artifact not description, output format);
-  three candidate `.ROOT` task mappings (session-close capture, review
-  routing, MCP-as-standing-connection).
-- [Claude Code Integration Surface — CI/CD, IDE, Slack, and Platform Landscape](claude-code-integration-surface-and-platform.md)
-  — inventory of surfaces (CLI/Desktop/VS Code/JetBrains/web/mobile) and
-  integrations (GitHub Actions, GHES, GitLab CI/CD, Slack→Claude Tag,
-  computer use) with **no current `.ROOT` use case**, honestly recorded as
-  such; plus the Thomson Reuters case study (fifth independent
-  confirmation of the verification-capacity finding). The former enterprise-
-  ebook parser block is closed and routed to the dedicated roadmap page.
-- [Enterprise AI Adoption and Production Roadmap](enterprise-ai-adoption-and-production-roadmap.md)
-  — full 35-page Anthropic guide processed in five chunks; durable sequence
-  from bounded use-case selection and graduation criteria through evals,
-  progressive rollout, production feedback, and LLMOps. Vendor claims and
-  dated model recommendations are explicitly tiered.
-- [OpenAI Responses API — State, Streaming, and Context Mechanics](openai-responses-api-state-and-streaming.md)
-  — three state-management approaches, two extra transports (SSE, WebSocket
-  for tool-heavy loops), background mode, structured-outputs constraints,
-  and a direct OpenAI-vs-Claude prompt-caching comparison. Also Codex's own
-  underlying API surface — not pure landscape research.
-- [OpenAI Developer Tooling — SDKs, the `openai` CLI, and Agent Builder](openai-sdks-cli-and-agent-builder.md)
-  — the CLI-for-repeatable-work vs. subagents-for-judgment split (stated
-  explicitly for Codex's own operating model); the reusable
-  `--transform`/`--format` batch pattern; Agent Builder inventoried as
-  deprecated (shutdown Nov 30, 2026). Flags `Node reference  OpenAI API.md`
-  as mislabeled (actual content: Agent Builder node catalog).
-- [OpenAI Model Lineup, Selection, and Optimization Workflow](openai-model-lineup-and-selection.md)
-  — GPT-5.6 tiers/pricing, the five-step optimization flywheel, and a
-  second independent vendor confirmation (10–15% quality gain, 33–67% cost
-  cut from leaner prompts) of `.ROOT`'s own instruction-file discipline.
-- [OpenAI Multimodal Generation — Vision, Image, Audio, and Voice Agents](openai-multimodal-generation.md)
-  — vision/image/audio/voice-agent mechanics, honestly recorded as no
-  current `.ROOT` use case (text-only, Windows-based system).
-- [OpenAI Tools and Function Calling — Mechanics and Claude Code Contrasts](openai-tools-and-function-calling.md)
-  — hosted/custom/orchestration tool mechanics; `tool_search` and
-  Programmatic Tool Calling confirmed as independent re-inventions of MCP's
-  progressive discovery and "code mode" — cross-vendor validation of a
-  pattern this wiki already documented. Also covers Agent Skills, the Shell
-  tool, and Retrieval/vector stores.
-- [OpenAI Agents SDK — Orchestration, Guardrails, and the Claude Code Contrast](openai-agents-sdk-and-orchestration.md)
-  — handoffs and agents-as-tools, both genuinely absent from Claude Code's
-  subagent model (not just differently named); a resumable-approval state
-  machine more developed than Claude Code's per-action permission prompts.
-- [OpenAI MCP Integration, ChatGPT Apps, and Agent Builder](openai-mcp-and-chatgpt-apps.md)
-  — OpenAI's MCP product surface (connectors, remote servers, Secure MCP
-  Tunnel — no documented Anthropic equivalent), ChatGPT Apps philosophy,
-  ChatKit; Agent Builder and Prompt objects both shutting down Nov 30, 2026.
-- [OpenAI GPT Actions — Custom GPT API Integration Surface](openai-gpt-actions.md)
-  — the older, schema-driven Custom-GPT integration path; three retrieval
-  patterns (REST/relational/vector, each needing middleware); a third
-  independent confirmation of "gate writes, free reads"
-  (`x-openai-isConsequential`).
-- [OpenAI Prompting Craft and Reasoning-Model Mechanics](openai-prompting-and-reasoning-models.md)
-  — the GPT-vs-reasoning-model prompting split; `reasoning.effort` scale
-  (none→xhigh); the counterintuitive finding that reasoning models perform
-  *worse* with "think step by step" prompting.
-- [OpenAI Evals and Red Teaming — The Mechanics Behind "Verify Before Scaling"](openai-evals-and-red-teaming.md)
-  — the actual mechanism behind CASTLE's applied "traces/evals before
-  multi-agent scale" claim: each architecture-complexity step adds its own
-  nondeterminism category needing new evals. **Major recency flag**:
-  OpenAI's Evals platform shuts down Nov 30, 2026 (read-only Oct 31).
-- [OpenAI Fine-Tuning Methods and Legacy Assistants API](openai-fine-tuning-and-legacy-assistants.md)
-  — confirms and sharpens CASTLE's "park fine-tuning" verdict with hard
-  dates: fine-tuning platform closed to new users; Assistants API shuts
-  down **August 26, 2026**.
-- [OpenAI Responses API Multi-agent — A Third Orchestration Primitive](openai-responses-multi-agent.md)
-  — a model-initiated, built-in multi-agent primitive (`spawn_agent`,
-  `send_message`, etc.), distinct from the Agents SDK. Directly relevant
-  landscape research given `.ROOT`'s own heavy use of parallel research
-  forks.
-- [OpenAI Webhooks and Context Compaction](openai-webhooks-and-compaction.md)
-  — webhooks (no current `.ROOT` use case) plus compaction, contrasted
-  directly against Claude Code's `/compact`: OpenAI's compaction is an
-  opaque encrypted item, Claude's is a human-readable re-injected summary.
-- [Building a Second Brain — Applied to `.ROOT`](building-a-second-brain-root-application.md)
-  — full-book self-evolution audit (Tiago Forte, CODE/PARA); verdict:
-  validates the architecture, no PARA rebuild; five narrow operating
-  upgrades adopted (capture filter, Hemingway Bridge merged into the
-  Handoff Ritual, kickoff/completion checklist, 3-page At a Glance pilot,
-  and July 14 DIVERGE/CONVERGE modes governing AI behavior rather than Chris).
-- [Self-Improving Agent Architectures: GBrain, loopany, and the Closed-Loop Pattern](self-improving-agent-architectures-gbrain-loopany-closed-loop.md)
-  — full architectural ingest (CASTLE-routed from `Clippings\`): GBrain's
-  entity-brain (hybrid search, self-wiring graph, agent-authored schema
-  packs, Minions job queue, eval framework, the already-rejected "dream
-  cycle"); loopany's action-and-outcome ledger (artifact/kind/domain model,
-  the belief/skill-proposal self-evolution loop with confirmed pattern
-  thresholds and evidence-chain verification — one detail fetched live from
-  GitHub beyond the clippings); the AI Jason video's closed-loop-operations
-  framing. Third independent convergence on `.ROOT`'s own raw/wiki/schema
-  shape.
-- [Agentic Automation: Architecture, Reliability, and Economic Evidence](agentic-automation-architecture-reliability-and-economic-evidence.md)
-  — three-paper synthesis: ProAgent's explicit workflow/data-contract design;
-  empirical developer evidence that orchestration, memory, contracts, and
-  runtime reliability are the hard problems; and occupation-grounded evidence
-  that high-level workflow completion can hide granular tool/grounding errors.
-- [Mastering Claude AI (Dickey, Apress 2025) — Consumer-Surface Practice and Client-Training Frameworks](mastering-claude-ai-dickey-consumer-guide.md)
-  — 401-pp. consumer claude.ai guide fully compiled with a volatile-claims
-  verification table (facts self-anchored Aug 2025); primary value is the
-  Advisor-Builder client-training arc (layperson concept scaffolding,
-  per-domain 4-step frameworks, week-by-week adoption checklists,
-  professional risk/compliance layer); sixth consumer-scale restatement of
-  the verification-capacity verdict; persona outcomes are explicit
-  composites, not evidence.
-- [Codex App — Configuration Layers, Sandboxing, Approvals, and Command Surface](codex-app-configuration-and-security.md)
-  — first vendor-grounded coverage of the local Codex agent's config surface
-  (5 official docs captured + compiled July 17): six-level config precedence
-  with the **trust gate** on project `.codex/` layers; sandbox/approval
-  two-layer model incl. protected read-only `.git`/`.codex`/`.agents`;
-  three newly documented deterministic guards (permission profiles,
-  execpolicy rules, hooks); the `approvals_reviewer = "auto_review"`
-  human-in-the-loop tension flag; resolved audit Finding C2 same-day.
-- [The Business Case for AI (Ganesan, 2022) — The Leader's AI-Adoption Playbook](business-case-for-ai-ganesan-leader-playbook.md)
-  — 294-pp. pre-genAI leader's guide fully compiled: the anti-hype
-  AI-vs-simple-software-automation screen, IDA analytics wedge, B-CIDS
-  readiness pillars + Jumpstart approach, the **HI-AI Discovery Framework**
-  (PAI starting points → framing with ROAI baselines → expert verification →
-  I2R2 scoring), build-or-buy with a 2026 foundation-model recalibration
-  note, and the three-pillar success model (model/business/user) — the
-  seventh verification-capacity restatement and the closest thing in the hub
-  to an Advisor-Builder client-engagement operating manual. Era warning:
-  frameworks durable, 2022 feasibility/cost answers are not.
-- [AI in Business and Economics (Lausberg & Vogelsang, De Gruyter 2024) — EPEAI Conference Proceedings](ai-in-business-and-economics-epeai-proceedings.md)
-  — 17-paper open-access proceedings volume across 7 Parts, fully compiled.
-  Five chapters carry direct Advisor-Builder tie-back: the **KI-AGIL** agile
-  SME-AI process model (a second field-tested low-threshold framework beside
-  the Business Case for AI playbook), a TOE-categorized barrier list for
-  management reporting (eighth verification-capacity restatement), RPA's
-  role-shift-not-displacement evidence for accountants, a participatory
-  HTO requirements-gathering methodology, and an LDA persona-derivation
-  technique with an honestly-reported robustness caveat. Also: a
-  transformer-vs-CNN document-classification data point, three deep-learning
-  forecasting case studies (DeepAR, MLP, DNN each beating a named simpler
-  baseline), and an AI-maturity ladder for data storytelling that catches
-  Tableau/Power BI's story features as rule-based NLG, not LLM-based, as of
-  the source data.
-- [Claude Code — Feature Catalog and Version-History Reference (Toolsbase, 2026)](claude-code-features-catalog-and-version-history-toolsbase.md)
-  — third-party 67-feature catalog plus a full v1.0.x-v2.1.217 changelog;
-  the **expand-then-harden** release pattern (concurrency caps after
-  self-nesting subagents, destructive-git-command guards after auto mode
-  expansion); confirms `EndConversation` and `/ultrareview` as documented
-  vendor features matching this hub's own tool surface.
-- [Codex CLI — Command Surface and Version-History Reference (Toolsbase, 2026)](codex-cli-command-reference-and-version-history-toolsbase.md)
-  — third-party 64-command reference plus a v0.107.0-v0.145.0 changelog;
-  fills the command-invocation gap left by
-  [[codex-app-configuration-and-security]]; same expand-then-harden pattern
-  independently confirmed on the Codex side (multi-agent stabilization,
-  tightening `rm` detection); bidirectional Claude Code ↔ Codex `/import`
-  migration now covers MCP servers, plugins, sessions, and memories.
+## Governance, institutions, infrastructure, and society
 
-## Proposals
+- [[governance-society/openai-governance-mission-capital-and-control]]
+- [[governance-society/ai-research-paradigm-concentration-and-commercial-selection]]
+- [[governance-society/scaling-doctrine-compute-data-and-hidden-labor]]
+- [[governance-society/frontier-lab-commercialization-safety-and-organizational-power]]
+- [[governance-society/corporate-ai-research-control-transparency-and-accountability]]
+- [[governance-society/generative-ai-productization-content-safety-and-hidden-labor]]
+- [[governance-society/ai-safety-ideologies-risk-language-and-release-gates]]
+- [[governance-society/chatgpt-launch-interface-risk-and-organizational-scaling]]
+- [[governance-society/ai-compute-infrastructure-energy-water-and-community-governance]]
+- [[governance-society/ai-policy-agenda-setting-frontier-thresholds-and-oversight-information]]
+- [[governance-society/board-oversight-crisis-information-and-coalition-power]]
+- [[governance-society/ai-safety-capacity-whistleblowing-and-organizational-trust]]
+- [[governance-society/mission-elasticity-centralization-and-ai-empire-pattern]]
+- [[governance-society/community-governed-ai-data-sovereignty-and-power-redistribution]]
 
-- [Agentic-Tool Vetting Checklist](proposals/2026-07-08_agentic-tool-vetting-checklist.md)
-  — **APPROVED & APPLIED July 8, 2026.** Chris approved with one revision
-  (compressed to a single bullet); promoted into Category 10 of
-  `TECHNOLOGY_LIBRARY_STRATEGY.md`. First proposal to complete the full
-  research → proposal → review → promotion loop.
-- [Wiki Shared Layer + AI-Lane Cleanup](proposals/2026-07-09_wiki-shared-layer-and-lane-cleanup.md)
-  — **APPROVED & APPLIED July 9, 2026.** Deduplicated the seven wiki
-  CLAUDE.mds into AI_Agent.md's new Wiki Shared Layer (that OS is now AGENT.md — July 10, 2026) (with lint and
-  ingest-discipline rules from the LLM-wiki batch), closed the TECHNOLOGY
-  `ai-and-llm/` intake lane, slim-rewrote BUSINESS CLAUDE.md. Second
-  completed research → proposal → promotion loop.
-- [Governance Drift Detection — A Standing Staleness Check](proposals/2026-07-12_governance-drift-detection.md)
-  — **APPROVED & APPLIED July 13 (Option B only).** CASTLE's weekly sweep
-  now rotates one current-state-versus-source spot-check; no lint expansion
-  or red-team exercise was approved.
-- [Mid-Session Governance-Edit Discipline](proposals/2026-07-12_mid-session-governance-edit-discipline.md)
-  — **APPROVED & APPLIED July 12, 2026.** Added to `AGENT.md` § File
-  Safety: editing a system file mid-session doesn't take effect until
-  `/clear`/`/compact`/restart.
-- [Session-Close Capture Prompt](proposals/2026-07-12_session-close-capture-prompt.md)
-  — **APPROVED & APPLIED July 12, 2026.** Added to both skill-file copies:
-  an explicit "what would otherwise be silently lost" question, distinct
-  from the existing "what was done" activity log.
-- [MCP Vetting Screen — Secure Tunnel Gap](proposals/2026-07-12_mcp-vetting-screen-secure-tunnel-gap.md)
-  — **APPROVED & APPLIED July 12, 2026.** Category 10's vetting screen now
-  checks for a no-inbound-port private-network bridge, genericized (not
-  pinned to a single vendor product name) and folded into the existing
-  "Check for:" list. Third promoted proposal from this wiki.
-- [Extension Trigger Table for AGENT.md / CLAUDE.md](proposals/2026-07-12_extension-trigger-table.md)
-  — **APPROVED & APPLIED July 12, 2026.** Added to `AGENT.md` as a new
-  section (single source of truth); `CLAUDE.md` points to it rather than
-  duplicating. Also prompted demoting `AGENT.md`'s own Graph Color
-  Maintenance section into a new `graph-colors` skill.
-- [Scale the Agent Evaluation Gate with Architecture Complexity](proposals/2026-07-12_eval-gate-complexity-scaling.md)
-  — **APPROVED & APPLIED July 12, 2026.** `AGENT.md`'s Agent Evaluation
-  Gate rule 2 now scales test cases to what a workflow actually introduces
-  (tools, multiple agents, sensitive actions) instead of demanding a fixed
-  five uniformly. Kept to one sentence, rule count unchanged.
-- [Enforce CASTLE's Research Boundary + Add a `raw/` Placement Rule](proposals/2026-07-12_castle-research-boundary-and-raw-placement.md)
-  — **APPROVED & APPLIED July 12, 2026.** Resolved by the `WHERE_IT_GOES.md`
-  raw-intake rule alone, kept at its original stricter wording (a proposed
-  loosening was considered and declined). No `OPERATIONS.md` change needed.
-  Raw-file retirement established as a flag-when-noticed judgment call, not
-  a rule — except the Claude Code/OpenAI docs, which never retire.
-- [Make the HIGH-Flag-Before-Close Rule a Hook, Not Just Prose](proposals/2026-07-12_session-close-high-flag-hook.md)
-  — **PENDING REVIEW.** The session-close skill's HIGH-flag rule is
-  advisory prose, not an enforced hook — proposes converting it per the
-  now-confirmed "guardrails belong in hooks" principle.
-- [Separate "Belief" from "Behavior Change" in the Flag/Review Mechanism](proposals/2026-07-13_belief-proposal-split-for-system-flags.md)
-  — **APPROVED & APPLIED July 13 (pilot).** A generalizable lesson enters
-  `00-BRAIN\SYSTEM_LEARNINGS.md` only after two unrelated flags/incidents
-  establish it; behavior changes remain proposal-gated and require a
-  `check_at` follow-up.
+## Adoption, economics, and delivery
 
----
-*Last updated: July 22, 2026 (Claude Code + Codex CLI toolsbase.dev feature/changelog catalogs — chunk-intake from Clippings\; raw now 197 files)*
+- [[adoption-delivery/ai-index-2026]]
+- [[adoption-delivery/work-trend-index-2024-2026]]
+- [[adoption-delivery/workflow-automation-tools-landscape]]
+- [[adoption-delivery/enterprise-ai-adoption-and-production-roadmap]]
+- [[adoption-delivery/generative-ai-for-software-development-pereira]]
+- [[adoption-delivery/business-case-for-ai-ganesan-leader-playbook]]
+- [[adoption-delivery/ai-in-business-and-economics-epeai-proceedings]]
+- [[adoption-delivery/mastering-claude-ai-dickey-consumer-guide]]
+- [[adoption-delivery/ai-coding-tools-for-python-2025-landscape]]
+
+## Platforms — Anthropic
+
+- [[platforms/anthropic/claude-code-context-and-instruction-economics]]
+- [[platforms/anthropic/claude-code-workflows-and-sessions]]
+- [[platforms/anthropic/claude-code-permissions-security-and-review]]
+- [[platforms/anthropic/claude-code-prompt-library-patterns]]
+- [[platforms/anthropic/claude-code-integration-surface-and-platform]]
+- [[platforms/anthropic/claude-code-features-catalog-and-version-history-toolsbase]]
+
+## Platforms — OpenAI
+
+- [[platforms/openai/openai-responses-api-state-and-streaming]]
+- [[platforms/openai/openai-sdks-cli-and-agent-builder]]
+- [[platforms/openai/openai-model-lineup-and-selection]]
+- [[platforms/openai/openai-multimodal-generation]]
+- [[platforms/openai/openai-tools-and-function-calling]]
+- [[platforms/openai/openai-agents-sdk-and-orchestration]]
+- [[platforms/openai/openai-mcp-and-chatgpt-apps]]
+- [[platforms/openai/openai-gpt-actions]]
+- [[platforms/openai/openai-prompting-and-reasoning-models]]
+- [[platforms/openai/openai-evals-and-red-teaming]]
+- [[platforms/openai/openai-fine-tuning-and-legacy-assistants]]
+- [[platforms/openai/openai-responses-multi-agent]]
+- [[platforms/openai/openai-webhooks-and-compaction]]
+
+## Platforms — Codex
+
+- [[platforms/codex/codex-app-configuration-and-security]]
+- [[platforms/codex/codex-cli-command-reference-and-version-history-toolsbase]]
+
+## Protocols — MCP
+
+- [[protocols/mcp/mcp-landscape-architecture-and-patterns]]
+- [[protocols/mcp/mcp-security-and-authorization]]
+- [[protocols/mcp/mcp-client-primitives-and-build-notes]]
+
+## System evolution
+
+- [[system-evolution/llm-wiki-pattern-and-second-brain-tools]]
+- [[system-evolution/building-a-second-brain-root-application]]
+- [[system-evolution/root-maturity-self-assessment]]
+- [[system-evolution/proposals/2026-07-08_agentic-tool-vetting-checklist]]
+- [[system-evolution/proposals/2026-07-09_wiki-shared-layer-and-lane-cleanup]]
+- [[system-evolution/proposals/2026-07-12_governance-drift-detection]]
+- [[system-evolution/proposals/2026-07-12_mid-session-governance-edit-discipline]]
+- [[system-evolution/proposals/2026-07-12_session-close-capture-prompt]]
+- [[system-evolution/proposals/2026-07-12_mcp-vetting-screen-secure-tunnel-gap]]
+- [[system-evolution/proposals/2026-07-12_extension-trigger-table]]
+- [[system-evolution/proposals/2026-07-12_eval-gate-complexity-scaling]]
+- [[system-evolution/proposals/2026-07-12_castle-research-boundary-and-raw-placement]]
+- [[system-evolution/proposals/2026-07-12_session-close-high-flag-hook]]
+- [[system-evolution/proposals/2026-07-13_belief-proposal-split-for-system-flags]]
+
+## Operations
+
+- [[raw-source-coverage|Raw-Source Coverage]]
+- [[log|Wiki Log]]
+- `..\OPERATIONS.md` — machine contract
+- `..\HOW_TO_USE.md` — human workflow

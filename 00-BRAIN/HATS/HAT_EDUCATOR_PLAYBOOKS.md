@@ -73,8 +73,8 @@ cannot maintain. No refactoring working code unless asked.
 
 ## SKILL: Pre-Semester Prep
 Time-boxed (through Aug 24, 2026). Canonical priority order:
-`01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md`; live
-status: NOW.md.
+`01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md`; learner truth:
+the owning course wiki current-position; live sequence: NOW.md.
 Rule: arrive at Week 1 feeling like it's the second time through —
 not mastered ahead.
 

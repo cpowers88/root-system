@@ -18,12 +18,14 @@ metadata return here. Strategy and business *research* live in
 
 | Folder | Holds | State / first-fill trigger |
 |---|---|---|
-| `01-Audit Templates\` | Observation methodology, findings format, audit report template | Live (3 masters) |
+| `01-Audit Templates\` | Observation methodology, intake/interview aids, findings formats, and audit report masters | Live |
 | `02-Field Notes\` | Field-notes template + sanitized real observations | Live |
-| `03-Case Studies\` | Approved, sanitized client case studies | **Empty by design** — fills after the first completed engagement with client approval |
+| `03-Case Studies\` | Blank case-study master plus approved, sanitized client case studies | Template live; proof entries require completed work and approval |
 | `04-Pricing Models\` | Pricing worksheets and models | Sparse (1 worksheet; numbers are Chris's to set) |
-| `05-Proposals & SOWs\` | Blank proposal and SOW masters | **Empty by design** — fills when the first real prospect requires one |
+| `05-Proposals & SOWs\` | Blank sales, proposal, SOW, handoff, reporting, and scorecard masters | Live |
 | `06-Capability Library\` | APQC-indexed reusable client-facing assets with an honest maturity ladder | Live — see its own `README.md` and `CAPABILITY_LIBRARY_INDEX.md` |
+
+Start with [`TEMPLATE_INDEX.md`](TEMPLATE_INDEX.md) to locate a blank master.
 
 ## Rules of This Realm
 

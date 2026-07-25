@@ -15,7 +15,7 @@ Learn to group and label data: strings as sequences, lists, dictionaries, tuples
 
 ## Why This Stage Comes Now
 
-Stages 1-4 worked with one value at a time. Real problems almost always involve *groups* of related data — a roster of names, a set of scores, a record with multiple fields. This stage is also the vault's biggest direct test of "tool selection," the skill CLAUDE.md identifies as Chris's main bottleneck.
+Stages 1-4 worked with one value at a time. Real problems almost always involve *groups* of related data — a roster of names, a set of scores, a record with multiple fields. This stage is also the vault's biggest direct test of "tool selection," the skill `OPERATIONS.md` identifies as Chris's main bottleneck.
 
 ## Prerequisites
 
