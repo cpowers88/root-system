@@ -1,7 +1,7 @@
 ---
 type: index
-timeline: now
-status: active
+timeline: log
+status: complete
 tags: [governance, architecture, castle, system-update]
 created: 2026-07-24
 ---
@@ -20,14 +20,34 @@ packet does not authorize a physical CASTLE move by itself.
 - **Date:** July 24, 2026
 - **Current implementation slice:** design finalization, validator tooling,
   routing fixtures, packet consolidation, and impact-audit preparation.
-- **Deferred:** physical CASTLE elevation, Watchtower rename, broad metadata
-  rollout, universal source-ledger creation, and PHYSICS page redesign.
+- **Retired 2026-07-25:** physical CASTLE elevation — see the closed gate below.
+- **Still deferred:** Watchtower rename, universal source-ledger creation, and
+  PHYSICS page redesign. Broad metadata rollout is resolved — `register:` was
+  scoped to instruction-interface files on 2026-07-25 (flag #84).
 
 ## Final verdict
 
 Keep the ten logical roles, separate Watchtower from CASTLE, preserve one
-external intake door, and keep the current physical tree until a measured
-CASTLE impact report proves relocation is worth its migration cost.
+external intake door, and keep the current physical tree.
+
+## Relocation gate — CLOSED 2026-07-25
+
+**CASTLE stays at `00-BRAIN\CASTLE\`. The relocation hypothesis is retired, not
+pending.** No impact report is owed and none should be produced.
+
+Reason: the gate required evidence that the current nesting causes enough
+navigation, loading, ownership, or maintenance failure to justify moving a
+high-reference directory. Across the full eight-source intake (3,789 pages),
+Codex's and Claude's independent mid-update passes, and both July monthly
+reviews, no such evidence appeared. A gate that produces no supporting evidence
+is answered, not merely unfinished.
+
+Every migration instruction in this packet — `FINAL_ARCHITECTURE_ROADMAP.md`
+Gates 2/4/5, `UPDATE_IMPLEMENTATION_RUNBOOK.md` Phases 4–5, and
+`newvaultstructureclaude.md`'s impact-audit next action — is **retired as of
+2026-07-25** and retained for traceability only. Do not execute them. Reopening
+requires new evidence of a live failure caused by the nesting, not a fresh
+proposal.
 
 ## Packet inventory
 
@@ -58,6 +78,13 @@ Supporting live artifacts remain in their owning homes:
 - 944 unbaselined findings remain after hub-scoped resolution.
 - The 266 live CASTLE/domain-wiki findings remain owner-review work.
 - The 149 PHYSICS findings are deferred structural work, not bulk repair.
-- **Next gate:** complete the read-only CASTLE impact report and routing
-  fixtures before any physical relocation decision.
-- **check_at:** after validator fixtures and impact report, before migration.
+- **Path-audit rescope (2026-07-25):** `path_reference_audit.py` was built to
+  de-risk the CASTLE move. With the move retired, its remaining value is
+  ordinary stale-reference protection — real, but not urgent. The read-only
+  prototype stays as-is; the four-check split and fixture suite are **parked**
+  until after the school-simulation week.
+- **Next action:** none in this packet. Remaining architecture work is
+  interface conformance tracked in `00-BRAIN\SYSTEM_FLAGS.md`, not structural
+  change. This packet is now a historical evidence record.
+- **check_at:** at the August decision gate — confirm no structural work
+  restarted under a new name and no migration instruction here was executed.

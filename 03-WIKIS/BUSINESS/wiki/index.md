@@ -3,7 +3,6 @@ type: map
 timeline: reference
 status: live
 reference_priority: core
-register: knowledge-index
 tags: [business]
 updated: 2026-07-24
 ---

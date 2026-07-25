@@ -1,12 +1,23 @@
 ---
 type: runbook
-timeline: now
-status: active
+timeline: log
+status: complete-phases-4-5-retired
 tags: [architecture, implementation, validation, rollback]
 created: 2026-07-24
 ---
 
 # `.ROOT` Architecture Update — Implementation Runbook
+
+> **Status banner — 2026-07-25.** Phases 0–3 are **complete**. Phases 4–5 (the
+> read-only CASTLE impact report and the migration slice) are **retired** —
+> the relocation hypothesis was declined and CASTLE stays at
+> `00-BRAIN\CASTLE\`. Do not execute Phases 4–5 or the rollback triggers below;
+> they describe a migration that will not happen. Retained for traceability.
+> See `SESSION_INDEX.md § Relocation gate — CLOSED 2026-07-25`.
+>
+> Phase 2's fixture suite and the four-check validator split are **parked**
+> until after the school-simulation week — they were scoped to de-risk the
+> move, and their remaining value is ordinary stale-reference protection.
 
 ## Phase 0 — Before-state
 
@@ -44,7 +55,7 @@ ambiguous cases. Target at least 95% unambiguous first-pass routing.
 Pilot `register:` only on a bounded governance/instruction cohort. Do not
 create companion files automatically.
 
-## Phase 4 — Read-only CASTLE impact report
+## Phase 4 — Read-only CASTLE impact report — RETIRED 2026-07-25 (do not execute)
 
 Inventory every active reference to `00-BRAIN\CASTLE`, Watchtower, intake
 locations, anchors, generated interfaces, scripts, graph/icon mappings, local
@@ -52,7 +63,7 @@ guides, and boot-chain pointers. Classify each as active, historical,
 generated, or obsolete. Produce the exact affected-file list and a
 fresh-session navigation comparison. Do not move files.
 
-## Phase 5 — Approval and migration slice
+## Phase 5 — Approval and migration slice — RETIRED 2026-07-25 (do not execute)
 
 Only after Gate 3 approval:
 

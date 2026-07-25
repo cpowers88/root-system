@@ -8,7 +8,7 @@ created: 2026-07-24
 
 # `.ROOT` Structure Synopsis — v3 evidence-aligned proposal
 
-**Status:** Evidence-aligned synopsis reconciled to the implemented 2026-07-24 meta-layer. No physical relocation has been performed; CASTLE elevation remains impact-gated.
+**Status:** Evidence-aligned synopsis reconciled to the implemented 2026-07-24 meta-layer. **Updated 2026-07-25 — CASTLE elevation is retired, not gated.** CASTLE stays at `00-BRAIN\CASTLE\`; no impact audit is owed. Sections below that describe elevation as a live candidate are historical.
 **Primary design authority:** `vault-skeleton-design.md`; this file is only the folder/file synopsis.
 **Implementation packet:** `00-BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\SESSION_INDEX.md`
 **Supersedes for discussion:** `99-ARCHIVE/ARCHIVED_2026-07-24_newvaultstructure.md`
@@ -17,6 +17,11 @@ created: 2026-07-24
 ---
 
 ## The one thing this restructure gets right
+
+*Historical — 2026-07-25: the hypothesis below was tested and declined. The
+evidence never appeared, so CASTLE stays at `00-BRAIN\CASTLE\`. What survives
+and still governs is the authority model in the next section, which was never
+contingent on the move.*
 
 CASTLE may come out of `00-BRAIN/CASTLE/` and up to the top level, but that is now a hypothesis requiring a deterministic read-only impact report and no-write dry run. The morning architecture review did not prove that nesting currently causes enough navigation, loading, ownership, or maintenance failure to justify the move.
 
@@ -173,22 +178,31 @@ handoff is what CASTLE evaluates and records.
 
 ---
 
-## Evidence gate before execution
+## Evidence gate before execution — CLOSED 2026-07-25
 
-1. Produce a read-only move-impact inventory and no-write dry run for the candidate CASTLE elevation.
+*Item 1 is retired: no move-impact inventory is owed, because there is no
+candidate move. Items 2–5 remain the standing requirements for any **future**
+structural change, and item 5 is already settled.*
+
+1. ~~Produce a read-only move-impact inventory and no-write dry run for the candidate CASTLE elevation.~~ **Retired — relocation declined.**
 2. Validate four explicit scanner checks: path moves, resolvable references/anchors, canonical-copy violations, and instruction-register conformance.
 3. Define dependency discovery, performance budget, abort/rollback triggers, fresh-session acceptance, and a post-change `check_at` before any move.
 4. Keep Watchtower separate and test its typed handoff; do not merge it into CASTLE by default.
 5. Treat `77-INBOX` as resolved. Naming cleanups are separate, bounded decisions—not automatic side effects of this proposal.
 
-## Execution risk (read before approving)
+## Execution risk — resolved by declining the move (2026-07-25)
 
-This is a possible top-level-folder restructure, not an approved renumbering. Per change-control it needs Chris's explicit approval before any file moves. Moving CASTLE from `00-BRAIN/CASTLE` will affect hardcoded paths in `AGENT.md`, `START_HERE.md`, `NOW.md`, `ROOT_OPERATING_MANUAL.md`, and the CASTLE docs. Any approved move must inventory and update those pointers in the same change, or the boot chain breaks.
+The risk below is why the move needed proof, and no proof arrived. Preserved
+because it is the standing cost estimate for anyone who proposes relocating
+CASTLE again:
 
-**Implementation handoff:** Review the implementation packet and its read-only audit result. If accepted, run the CASTLE impact report and Watchtower handoff fixture as separate evidence gates; no physical move follows automatically.
+> Moving CASTLE from `00-BRAIN/CASTLE` will affect hardcoded paths in
+> `AGENT.md`, `START_HERE.md`, `NOW.md`, `ROOT_OPERATING_MANUAL.md`, and the
+> CASTLE docs. Any approved move must inventory and update those pointers in
+> the same change, or the boot chain breaks.
 
-The implementation packet supersedes the earlier review prompt below: the
-read-only validator prototype has been implemented and its fixture boundary
-passes. Physical relocation remains separately gated.
-
-**Next action:** Chris reviews the evidence-aligned skeleton and authorizes—or declines—the read-only CASTLE impact-audit prototype. No structural edit follows from this synopsis alone.
+**Next action:** none. CASTLE stays where it is. This file is a folder/file
+synopsis only — `vault-skeleton-design.md` is the design authority and
+`00-BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\SESSION_INDEX.md`
+is the closed evidence packet. Reopening relocation requires new evidence of a
+live failure caused by the nesting, not another proposal.

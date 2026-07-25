@@ -87,6 +87,37 @@ destination.
 Use `HANDOFF_0615_CLAUDE.md` not `HANDOFF_JUNE15_CLAUDE.md`.
 Numeric format sorts correctly in Drive and Session_Logs.
 
+### Case convention (decided 2026-07-25)
+
+**The case of a filename tells you whether it is a machine instruction
+interface.** This is the same boundary `register:` draws in the Metadata
+Standard below — one rule, two expressions.
+
+- **ALL-CAPS `.md` → machine instruction interface.** Boot-chain and
+  hub-archetype files keep caps: `AGENT.md`, `CLAUDE.md`, `CODEX.md`,
+  `OPERATIONS.md`, `README.md`, `HOW_TO_USE.md`, `CHRIS_CORE.md`,
+  `WHERE_IT_GOES.md`, `SYSTEM_FLAGS.md`, `NORTH_STAR.md`, `START_HERE.md`,
+  `NOW.md`. These are the files that carry `register:`. Caps makes an
+  instruction surface identifiable at a glance in any listing, and these
+  filenames are referenced by name across dozens of files and by
+  `validate_boot_chain.py`, `root_health.py`, and the skill-sync script —
+  renaming them is precisely the stale-reference failure this system exists to
+  prevent.
+- **`snake_case.md` → everything else, going forward.** Notes, reports, wiki
+  pages, plans, evidence, summaries. New files use snake_case from creation.
+- **True acronyms stay capitalized inside a snake_case name:** `AI`, `MCP`,
+  `SOW`. Write `AI_automation_notes.md`, not `ai_automation_notes.md`.
+- **Dated/templated names in the table above win** where they conflict — an
+  existing convention like `DAILY_2026-07-09.md` is not a case violation.
+- **No unilateral renames.** Existing ALL-CAPS content files are grandfathered.
+  Rename one only when it is already being edited and the rename is cheap
+  (no inbound `[[wikilink]]` or path reference). Anything with live inbound
+  references stays put unless Chris asks — a rename that breaks a pointer costs
+  more than the inconsistency it fixes.
+- **Folders:** the current top-level realm names (`00-BRAIN`, `01-NORTH_STAR`,
+  `03-WIKIS`, hub names, `CASTLE`) are settled and stay as they are. New
+  subfolders use lowercase snake_case.
+
 **Do not copy these tables into other files.** vault_map and AGENT.md point here.
 One copy, zero drift.
 
@@ -237,6 +268,35 @@ must be explicit non-empty scalars. Do not infer them from a filename.
 **Topic tags — zero or more** (the categorical axis): the approved list and
 its rationale live in `00-BRAIN\TAG_REGISTRY.md`, not duplicated here —
 extend sparingly; a topic tag must group 3+ files or it's noise.
+
+**`register:` — instruction-interface files only** (defined here 2026-07-25,
+closing flag #84). It declares *who a file is written for and how it is meant to
+be consumed*, so a loading AI knows whether it is reading an instruction to
+execute or context to understand. **Exactly five approved values:**
+
+| Value | Applies to | Register |
+|---|---|---|
+| `ai-directive` | canonical machine contracts — `AGENT.md`, `OPERATIONS.md`, hub `CLAUDE.md` | terse, absolute, executable |
+| `ai-loader` | thin pointer files whose only job is routing a session into a chain | pointer only, no rules |
+| `ai-profile` | surface capability profiles — `00-BRAIN\CLAUDE.md`, `CODEX.md` | strengths and access notes |
+| `human-context` | human entrances — `README.md`, `HOW_TO_USE.md`, `START_HERE.md`, `CHRIS_CORE.md` | chunked, explanatory, written for Chris |
+| `compatibility-pointer` | a retained file that exists only to redirect an older reference | supersession notice |
+
+**A file that is not an instruction interface does not carry `register:` at
+all.** Wiki content pages, reports, reviews, weekly plans, logs, and evidence
+are described by `type:` — adding a register value to them invents a second
+classification scheme for something `type:` already answers. Do not mint a new
+value to describe a document's genre; if a file seems to need a sixth value,
+that is the signal it should not carry the property.
+
+Origin and scope decision: `vault-skeleton-design.md` §7.1 proposed the
+property as a binary and §8.5 required validation rules before adoption;
+neither gate was met and it spread by sibling precedent to 61 files and 8
+values, two of them minted by the July 24–25 update's own output. The live
+audit found the five values above applied correctly and consistently across 56
+instruction-interface files, and three genre-describing values leaked onto five
+non-instruction files. Chris scoped it to instruction interfaces on 2026-07-25;
+the five leaks were stripped in the same pass.
 
 **Transition rule:** legacy control tags (`now`, `priority/now`, `stage-NN`,
 `phase-N`, and similar) remain audit-compatible until Phase 5 migrates their

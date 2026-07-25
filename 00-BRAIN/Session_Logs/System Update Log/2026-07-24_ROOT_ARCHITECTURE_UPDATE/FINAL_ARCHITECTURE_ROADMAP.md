@@ -1,12 +1,20 @@
 ---
 type: roadmap
-timeline: now
-status: active
+timeline: log
+status: complete-gates-2-5-retired
 tags: [architecture, castle, watchtower, migration, machine-learning]
 created: 2026-07-24
 ---
 
 # Final `.ROOT` Architecture Update Roadmap
+
+> **Status banner — 2026-07-25.** Gate 1 (meta layer) is **complete**. Gates
+> 2–5 existed only to evaluate and execute a physical CASTLE relocation. That
+> hypothesis is **retired** — CASTLE stays at `00-BRAIN\CASTLE\`. Gates 2–5 are
+> **not pending work**; they are retained for traceability and must not be
+> executed. See `SESSION_INDEX.md § Relocation gate — CLOSED 2026-07-25`.
+> The locked architecture decisions and ML-derived operating requirements below
+> remain live and apply to any future structural change.
 
 ## Destination
 
@@ -52,28 +60,31 @@ burden, owner, `check_at`, and a keep/modify/revert outcome.
 
 ## Implementation gates
 
-### Gate 1 — Meta layer
+### Gate 1 — Meta layer — COMPLETE 2026-07-25
 
 Finalize the skeleton, synopsis, packet, validator interfaces, baseline rules,
 and routing fixtures. No physical move.
 
-### Gate 2 — Evidence
+### Gate 2 — Evidence — RETIRED 2026-07-25 (do not execute)
 
 Produce a read-only CASTLE impact report with active/historical/generated/
 obsolete references, ownership ambiguity, dependency blast radius, navigation
 comparison, and measurable benefit beyond pointers.
 
-### Gate 3 — Human approval
+### Gate 3 — Human approval — ANSWERED 2026-07-25
 
 Chris approves or rejects the logical model, Watchtower handoff, validator
 suite, and any proposed physical move.
 
-### Gate 4 — Migration
+**Result:** logical model accepted; Watchtower stays separate; validator kept
+read-only and parked; **physical move declined.**
+
+### Gate 4 — Migration — RETIRED 2026-07-25 (do not execute)
 
 If approved, move CASTLE only. Watchtower rename, metadata rollout, source
 ledgers, and unrelated cleanup remain separate changes.
 
-### Gate 5 — Acceptance
+### Gate 5 — Acceptance — RETIRED 2026-07-25 (do not execute)
 
 Run validators, boot-chain checks, wiki lint, frontmatter audit, root health,
 fresh-session navigation, and the weekly observation review.

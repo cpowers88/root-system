@@ -2,7 +2,6 @@
 type: pointer
 timeline: reference
 status: superseded
-register: compatibility-pointer
 tags: [business]
 updated: 2026-07-24
 ---

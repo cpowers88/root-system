@@ -32,7 +32,7 @@ Pressure-tested at ten. The roles map to the current vault, with Intake now reso
 |---|------|------------|--------------------------|
 | 1 | **AI Governance & Coordination** | AI operating instructions, capability profiles, system self-knowledge, cross-cutting governance maps. | `00-BRAIN\` |
 | 2 | **Durable Direction** | Strategy/priority that outlives any single project or session. | `01-NORTH_STAR\` |
-| 3 | **Decision & Sequencing Cockpit** | What's the next highest-value action, who owns it, what proves it, where does it return — points at owner truth, never copies it. | `00-BRAIN\CASTLE\` (current; elevation deferred pending impact gate) |
+| 3 | **Decision & Sequencing Cockpit** | What's the next highest-value action, who owns it, what proves it, where does it return — points at owner truth, never copies it. | `00-BRAIN\CASTLE\` — **settled 2026-07-25; elevation declined, not deferred** |
 | 4 | **External Signal Steering** | A verified external change with material consequence, routed after its evidence already lives in the owning wiki. | `...projectSuccess\` (Watchtower files) |
 | 5 | **Staged Research & Learning** | Multi-session research or coursework toward mastery or a decision, in one bounded subject domain. | `03-WIKIS\` |
 | 6 | **Reusable Reference & Project Deliverables** | Stable reference material, course files, in-progress build artifacts. | `02-LIBRARY\` |
@@ -101,7 +101,7 @@ Text to insert into `00-BRAIN\WHERE_IT_GOES.md`, as a new section titled `## Fun
 │
 ├── 00-BRAIN/                            — Role 1: AI Governance & Coordination
 ├── 01-NORTH_STAR/                       — Role 2: Durable Direction
-├── CASTLE/                              — Role 3: Decision & Sequencing Cockpit  [CANDIDATE RELOCATION — IMPACT GATE REQUIRED]
+├── 00-BRAIN/CASTLE/                     — Role 3: Decision & Sequencing Cockpit  [SETTLED 2026-07-25 — STAYS NESTED]
 ├── Watchtower/  (...projectSuccess today) — Role 4: External Signal Steering     [KEEP SEPARATE — PLACEMENT/NAME TO BE TESTED]
 ├── 02-LIBRARY/                          — Role 6: Reusable Reference & Project Deliverables
 ├── 03-WIKIS/                            — Role 5: Staged Research & Learning
@@ -121,8 +121,19 @@ Stay exactly where they are. Entry surfaces, not content realms — nothing abou
 ### `01-NORTH_STAR\` — Role 2: Durable Direction
 **For:** `NORTH_STAR.md`, System Contracts, skill-gap analysis, weekly/goal artifacts that hold regardless of any one project. **Good looks like:** direction changes rarely, only with explicit approval; nothing here is session-log or task-tracking detail.
 
-### `CASTLE\` — Role 3: Decision & Sequencing Cockpit [CANDIDATE RELOCATION]
-Currently nested at `00-BRAIN\CASTLE\`. The role is cross-realm, so elevation remains a plausible usability improvement, but the evidence does not yet prove that the current nesting causes enough failure to justify a high-reference move. **Gate:** a deterministic, read-only impact report and no-write dry run must establish the benefit before any target name or move is approved. `OPERATIONS.md`'s authority chain and standing rules remain the baseline. **Good looks like:** every material decision names Why-now/Owner/Next-action/Proof/Return, and `wiki\log.md` is current with the last session's outcome.
+### `00-BRAIN\CASTLE\` — Role 3: Decision & Sequencing Cockpit [SETTLED — STAYS]
+**Resolved 2026-07-25: CASTLE stays at `00-BRAIN\CASTLE\`.** The role is
+cross-realm, so elevation was a plausible usability improvement — but the gate
+required evidence that the current nesting causes enough navigation, loading,
+ownership, or maintenance failure to justify moving a high-reference directory,
+and across the full eight-source intake, two independent mid-update passes, and
+both July monthly reviews, that evidence never appeared. A gate that produces
+no supporting evidence is answered, not left open. Reopening requires a
+documented live failure caused by the nesting, not a fresh proposal.
+`OPERATIONS.md`'s authority chain and standing rules remain the baseline.
+**Good looks like:** every material decision names
+Why-now/Owner/Next-action/Proof/Return, and `wiki\log.md` is current with the
+last session's outcome.
 
 ### `Watchtower\` — Role 4: External Signal Steering [KEEP SEPARATE]
 The source batch supports a separate, read-only sensing boundary: Watchtower observes and records a narrow typed handoff; CASTLE prioritizes, gates, and tracks proof; the owning wiki retains evidence; Chris approves consequential change. The current `...projectSuccess\` name and any relocation remain implementation questions. Test the handoff and interface cost; do not merge the roles by default.
@@ -170,6 +181,18 @@ structure is designed for the archived drafts.
 `CHRIS_CORE.md` (who Chris is, why it matters, chunked into eight numbered contract points with prose explanation) and `AGENT.md` (the OS — rules, tables, a boot sequence) are already two different registers living in two different files. That's the pattern to formalize, not replace. Building a parallel `AI-only/` vs `Human-only/` directory tree would be new structure for something the vault already does correctly at the file level — the actual gap is that no file states which register it's in, or checks itself against one when edited.
 
 **Proposed rule for `WHERE_IT_GOES.md`'s Metadata Standard or a new short section:** every governance/instruction file declares its register in one line at the top — `register: ai-directive` (terse, absolute, scannable, written for a model to execute) or `register: human-context` (chunked, explanatory, written for Chris to read and steer by). A file that must serve both splits into a terse AI half plus a companion human-scoping doc, not one file trying to be both.
+
+> **Resolved 2026-07-25 (flag #84 closed).** This proposal was adopted, scoped,
+> and written into `WHERE_IT_GOES.md § Metadata Standard` with **five** approved
+> values (`ai-directive`, `ai-loader`, `ai-profile`, `human-context`,
+> `compatibility-pointer`) restricted to **instruction-interface files only**.
+> The property is not a genre label — content, reports, plans, and evidence are
+> described by `type:` and carry no register. Note the process failure worth
+> keeping: between §8.5's "add it only after validation rules are defined" and
+> the actual decision, the property propagated by sibling precedent to 61 files
+> and 8 values — two values minted by this update's own output. The audit found
+> the core five applied correctly; five leaks onto non-instruction files were
+> stripped in the same pass. Live state: 56 files, 5 values, zero outliers.
 
 ### 7.2 What an AI-directive file should contain, in fixed order — *AI Builder's Handbook* §5.1
 

@@ -1197,3 +1197,55 @@ this entry.
 
 **Next exact action:** finish the July 26 review and begin Monday with the
 Python Stage 3 gate check or, if already closed, the Stage 4 functions baseline.
+
+## 2026-07-25 — Architecture update closed: migration scaffolding retired, flag #84 decided (Claude)
+
+- Verified Pass 1 landed against live files rather than reports: `root_health.py`
+  now PASS_WITH_DEBT with 0 new findings (was BLOCKER), `WHERE_IT_GOES.md` names
+  the real six-part hub interface, `CASTLE\wiki\index.md` points at
+  `SESSION_INDEX.md` as implementation authority, and all three freshness labels
+  read July 25.
+- **Found the remaining crossed wire.** Four files still instructed the next
+  session to produce a CASTLE relocation impact report — `SESSION_INDEX.md`
+  ("Next gate"), `FINAL_ARCHITECTURE_ROADMAP.md` Gates 2/4/5,
+  `UPDATE_IMPLEMENTATION_RUNBOOK.md` Phases 4-5, and
+  `newvaultstructureclaude.md` ("Next action") — all `status: active`, all
+  describing work the decision had already retired. Same defect class Pass 1
+  fixed on CASTLE's index: an authority file naming a next action reality had
+  cancelled.
+- Retired that scaffolding with dated reasons and "do not execute" markers;
+  evidence retained for traceability, nothing deleted. `vault-skeleton-design.md`
+  §2/§5 and its skeleton tree now read **settled — stays nested**, not
+  *candidate relocation*. Reopening requires a documented live failure caused by
+  the nesting, not another proposal.
+- **Flag #84 decided and closed.** The live audit corrected the flag's own
+  numbers first: `register:` had grown from 50 files/6 values to 61/8, with
+  `system-review` and `weekly-plan` minted the same week by this update's own
+  output — falsifying the flag's "bounded / inert metadata" assessment. But the
+  five core values were applied correctly across 56 instruction-interface files;
+  the defect was five leaks onto content pages and reports that already carried
+  a `type:` saying the same thing. Chris scoped it to instruction interfaces;
+  five values defined in `WHERE_IT_GOES.md § Metadata Standard`, five leaks
+  stripped. Live: 56 files, 5 values, zero outliers.
+- Recorded Chris's file-case decision as a convention keyed to the same
+  boundary: ALL-CAPS `.md` = machine instruction interface (the files carrying
+  `register:`), snake_case for everything else going forward, acronyms stay
+  capitalized, no unilateral renames of files with live inbound references.
+- Path-audit work rescoped: `path_reference_audit.py` existed to de-risk the
+  move. With the move retired its value is ordinary stale-reference protection
+  — real but not urgent. Prototype kept read-only; four-check split and fixture
+  suite parked until after the school-simulation week.
+- Restore point committed before any edit (`0eefab1`). Post-change health:
+  PASS_WITH_DEBT, 0 new frontmatter findings, 0 wiki blockers, text integrity
+  PASS across 1,429 files, zero control characters in the eight edited files.
+
+**Self-caught defect, logged deliberately:** the closed-flag row was first
+written with an unescaped `\a` in a Markdown path, which became a BEL control
+character in the ledger. Caught on read-back and repaired. This is the fourth
+instance this month of this update's own output nearly becoming truth without a
+check — the pattern, not the character, is the finding.
+
+**Next exact action:** none in the architecture packet; it is now a historical
+evidence record. Remaining work is interface conformance tracked in
+`SYSTEM_FLAGS.md`. Monday begins the full-course-load simulation week per
+`wiki\weekly-plans\weekly-plan-2026-07-27-to-2026-08-02.md`.

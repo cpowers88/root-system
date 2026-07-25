@@ -2,7 +2,6 @@
 type: review
 timeline: log
 status: complete
-register: system-review
 tags: [monthly, north-star, system-review]
 created: 2026-07-25
 coverage: 2026-07-01/2026-07-25
