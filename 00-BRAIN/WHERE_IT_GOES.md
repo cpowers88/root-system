@@ -87,7 +87,7 @@ destination.
 Use `HANDOFF_0615_CLAUDE.md` not `HANDOFF_JUNE15_CLAUDE.md`.
 Numeric format sorts correctly in Drive and Session_Logs.
 
-### Case convention (decided 2026-07-25)
+### Case convention (decided 2026-07-25; kebab-case allowed same day)
 
 **The case of a filename tells you whether it is a machine instruction
 interface.** This is the same boundary `register:` draws in the Metadata
@@ -103,10 +103,17 @@ Standard below — one rule, two expressions.
   `validate_boot_chain.py`, `root_health.py`, and the skill-sync script —
   renaming them is precisely the stale-reference failure this system exists to
   prevent.
-- **`snake_case.md` → everything else, going forward.** Notes, reports, wiki
-  pages, plans, evidence, summaries. New files use snake_case from creation.
-- **True acronyms stay capitalized inside a snake_case name:** `AI`, `MCP`,
-  `SOW`. Write `AI_automation_notes.md`, not `ai_automation_notes.md`.
+- **lowercase → everything else, going forward.** Notes, reports, wiki pages,
+  plans, evidence, summaries. **`snake_case` and `kebab-case` are both
+  acceptable** — the rule is lowercase, not one separator. **Match whatever the
+  containing folder already uses**; a folder that is consistently one style
+  keeps that style, because mixing separators inside one folder is the
+  inconsistency this rule exists to prevent. `03-WIKIS` hubs are kebab-case
+  (`source-map.md`, `current-position.md`) and stay kebab-case. When a folder
+  has no established convention, either is fine — pick one and be consistent.
+- **True acronyms stay capitalized inside a lowercase name:** `AI`, `MCP`,
+  `SOW`. Write `AI_automation_notes.md` or `AI-automation-notes.md`, not
+  `ai_automation_notes.md`.
 - **Dated/templated names in the table above win** where they conflict — an
   existing convention like `DAILY_2026-07-09.md` is not a case violation.
 - **No unilateral renames.** Existing ALL-CAPS content files are grandfathered.
@@ -116,7 +123,7 @@ Standard below — one rule, two expressions.
   more than the inconsistency it fixes.
 - **Folders:** the current top-level realm names (`00-BRAIN`, `01-NORTH_STAR`,
   `03-WIKIS`, hub names, `CASTLE`) are settled and stay as they are. New
-  subfolders use lowercase snake_case.
+  subfolders are lowercase — snake_case or kebab-case, matching their parent.
 
 **Do not copy these tables into other files.** vault_map and AGENT.md point here.
 One copy, zero drift.
