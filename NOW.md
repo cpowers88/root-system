@@ -10,13 +10,21 @@ tags: []
 
 ## Start Here
 
-**Architecture conformance Pass 1 is active July 25.** The physical topology
-remains unchanged: CASTLE stays under `00-BRAIN`, and the root interfaces remain
-`MORNING_BRIEF.md` plus this file. Today’s bounded work corrects the final
-architecture authority pointer, the universal wiki machine-interface
-description, freshness labels, and the known dependency-folder false positive
-in the frontmatter health gate. `register:` remains a separate instruction-file
-governance decision; no metadata rollout or broad rename is part of this pass.
+**Architecture work is CLOSED as of July 25 (Pass 1 + Pass 2 both complete).**
+The physical topology is unchanged and now *settled*, not pending: CASTLE stays
+under `00-BRAIN` and the relocation hypothesis is **retired, not deferred** — no
+impact report is owed, and the migration gates in the July 24 packet are marked
+do-not-execute. Root interfaces remain `MORNING_BRIEF.md` plus this file.
+
+**Flag #84 (`register:`) is DECIDED and CLOSED** — scoped to instruction-interface
+files, five approved values defined in `00-BRAIN\WHERE_IT_GOES.md § Metadata
+Standard`, five leaked values stripped. Nothing further is owed on it. The file-case
+convention was recorded in the same edit (ALL-CAPS = machine instruction interface;
+lowercase, snake_case *or* kebab-case, for everything else).
+
+**Next structural work: none.** Remaining items are interface conformance tracked in
+`SYSTEM_FLAGS.md`. Elective structural changes stay frozen through the
+school-simulation week.
 
 **Gate 0 remodel installed and health-confirmed (July 19).** The one
 translation contract for the System Loop, five moves, pipeline, and cadence

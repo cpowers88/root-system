@@ -1,4 +1,4 @@
-﻿---
+---
 type: dashboard
 timeline: now
 status: active
@@ -8,8 +8,8 @@ generated: 2026-07-25
 
 # Morning Brief — July 25, 2026
 
-**ATTENTION —** Pass 1 restored pointer and health-gate truth; the undefined `register:` scheme remains open in [SYSTEM_FLAGS.md](00-BRAIN/SYSTEM_FLAGS.md), flag #84.
+**ATTENTION —** Architecture work is closed: CASTLE relocation retired, flag #84 `register:` decided and closed, file-case convention recorded. No structural work is owed.
 
-**START —** Review the canonical architecture packet at [SESSION_INDEX.md](00-BRAIN/Session_Logs/System%20Update%20Log/2026-07-24_ROOT_ARCHITECTURE_UPDATE/SESSION_INDEX.md) and decide the evidence needed for `register:` scope.
+**START —** Tomorrow is the July 26 pre-semester boundary; the full-course-load simulation begins Monday from [weekly-plan-2026-07-27-to-2026-08-02.md](00-BRAIN/CASTLE/wiki/weekly-plans/weekly-plan-2026-07-27-to-2026-08-02.md).
 
-**CHRIS —** Decide whether `register:` is instruction-file-only, CASTLE-scoped, or vault-wide before any metadata-authority edit. Not yet decided — nothing has been approved.
+**CHRIS —** One open conflict needs your call: PHYSICS `current-position.md` and the CASTLE weekly plan carry two different schedules for the same week — gate Friday vs Saturday, and different Ch.4 scope.
