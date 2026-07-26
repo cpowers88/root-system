@@ -45,6 +45,17 @@ opens.
   [[courses/econ-1000/reading-guides/great-depression-cpi]] and unlock only during
   Weeks 7-14; they are not a current broad-reading assignment.
 
+## Pre-Semester Block Coverage (2026-07-26)
+
+[[pre-semester-coverage-plan]] is the live answer to what these three lanes can
+actually run before August 24. Verdict: of 36 planned blocks across four weeks,
+**22–26 are fillable and 10–14 must go elsewhere.** TCOM absorbs everything
+available (real course Weeks 1–3, all sources verified on disk); ECON is safe
+through real Week 2 and then stops, because every chapter mapping past OpenStax
+Ch 1 is inferred against a D2L-locked textbook; ENGR is held to August 24 on
+Chris's decision, since no course content exists and the reference syllabus
+defers its assignment list to a D2L PDF we do not have.
+
 ## Next Review
 
 Review at the August 1 monthly checkpoint, when D2L/course modules populate, and

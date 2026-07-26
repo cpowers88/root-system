@@ -198,7 +198,7 @@ but use the smallest live project that exercises the rung.
 
 | Rung | Program to complete | Proof that closes the rung | Current state |
 |---:|---|---|---|
-| 1 | **Python foundation:** PYTHON Stages 3-8 (loops through algorithms/problem solving) | Independently build, debug, and explain each stage project | Stage 3 active; later packets exist but are not mastered |
+| 1 | **Python foundation:** PYTHON Stages 3-8 (loops through algorithms/problem solving) | Independently build, debug, and explain each stage project | **Stage 3 closed 2026-07-26** on a corrected cold gate; **Stage 4 Functions active**; later packets exist but are not mastered |
 | 2 | **Data and automation:** PYTHON Stages 9-10 plus practical SQL | A useful CLI/automation tool backed by a designed SQLite schema, joins, aggregation, transactions, and tests | Tracker/scanner provide live vehicles; SQL reliability remains the July weak link |
 | 3 | **Decision interface:** Data Studio/Sheets, then Python visualization when justified | A refreshed dashboard that answers a named decision and shows calculation provenance | First private Data Studio rep completed July 16; decision/ROI communication still needs a real use case |
 | 4 | **Integration:** one low-code flow, then one Python API/webhook integration | Move data safely between two systems with authentication, idempotency, error handling, retries, and a human-visible failure path | Make.com landscape rep and one public-API scanner rep complete; end-to-end integration proof open |
@@ -254,7 +254,15 @@ boundary emerge. See
 
 ## Current State — July 21, 2026
 
-**Demonstrated movement:** Python Stages 0-2 are satisfied; Stage 3 is active and
+**Stale-claim correction, 2026-07-26:** the paragraph below described Stage 3 as
+active and mid-drill. **Stage 3 closed July 26** on a cold gate (`stage3_gate.py`,
+pass with correction) and **Stage 4 Functions is now active** — matching CSE 1321
+Module 3, which the course itself does not reach until roughly week 7. The full
+spine reconciliation, including the capability-trace rows, is scheduled for the
+**August 1 monthly review**; only this factual staleness is corrected here, so a
+known-false stage claim does not stay live for six days.
+
+**Demonstrated movement (as written July 21):** Python Stages 0-2 are satisfied; Stage 3 is active and
 mid-drill at `break`/`continue`. The Academic Tracker V1 shipped on Python/SQLite
 and now waits for verified course data around July 25. Revenue Lab's bounded scanner
 exercised Python, SQLite, and a public API. The first Make.com landscape rep was

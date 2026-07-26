@@ -11,22 +11,22 @@ tags: []
 
 ## Today
 
-**Sunday is the planning and system day.** Three things, in order:
+**Sunday is the planning and system day.** Status:
 
 1. **Execution Discipline update — DONE.** `AGENT.md § Execution Discipline`
    (8 rules), eight hub `AGENTS.md` loaders, this cockpit, and the Sunday
-   due-checks return in `CASTLE\OPERATIONS.md`.
-2. **Build this week's school map** — the July 27–August 2 simulation week,
-   together, from
+   due-checks return in `CASTLE\OPERATIONS.md`. Committed at `1ee15d3`.
+2. **Boot-chain proof — DONE for learner hubs.** Claude passed from inside
+   PYTHON, Codex passed from inside PHYSICS. One non-learner hub boot remains.
+3. **Week map — DONE.** 32 blocks, six days:
    [weekly-plan-2026-07-27-to-2026-08-02.md](00-BRAIN/CASTLE/wiki/weekly-plans/weekly-plan-2026-07-27-to-2026-08-02.md).
-3. **Tonight's evening reading** — names tomorrow's exact pages and Monday's
-   first proof, delivered before bed.
+4. **Tonight's evening reading — the last item.** Names Monday's exact pages and
+   first proof.
 
 ## Today's Gate
 
-The week is ready when: the weekly map names each day's proof, tonight's reading
-is written, and a rebooted Codex session started inside a hub loads that hub's
-local contract. Anything less and Monday starts with planning instead of work.
+The week is ready when tonight's reading is written. Everything else on today's
+list is closed.
 
 ## If Today Breaks
 
@@ -52,7 +52,6 @@ you want it taught in order rather than compressed to force a Friday gate.
 
 ## Not Today
 
-- [MCP Bootcamp](02-LIBRARY/.PROJECTS/MCP_Bootcamp/Docs/MASTER_BLUEPRINT.md) — partial proof, 4 open acceptance conditions
 - [Revenue lanes and business evidence](03-WIKIS/REVENUE_LAB/wiki/revenue-lane-scorecard.md)
 - [Opportunity queue](00-BRAIN/CASTLE/wiki/opportunity-queue.md)
 - [Open system flags](00-BRAIN/SYSTEM_FLAGS.md)

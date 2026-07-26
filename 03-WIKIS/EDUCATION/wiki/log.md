@@ -393,3 +393,44 @@ updated: 2026-07-24
   in EDUCATION; `validate_boot_chain.py` PASS.
 - **Next action:** Chris decides flag #85 (one canonical-copy rule for all school
   hubs) and whether to correct `raw\README.md`.
+
+## 2026-07-26 — Pre-semester block coverage plan (Claude Code)
+
+- Chris asked what this hub's school blocks run on going forward. Booted the
+  full chain, then answered against the July 27 CASTLE weekly plan, which
+  assigns this hub 9 of 32 blocks (TCOM 4, ECON 3, ENGR 2).
+- **Chris's decisions this session:** the ENGR plan-of-study substitution is the
+  right shape, **but ENGR is held entirely until Aug 24** — KSU shows no course
+  content before then. Line the pre-semester weeks up against the real course
+  weeks and front-load Week 1 work where possible; report what cannot be filled
+  so it can be placed elsewhere.
+- Built [[pre-semester-coverage-plan]] covering four weeks (Jul 27 – Aug 23).
+  It states what is *workable*; CASTLE keeps ownership of placing blocks into
+  days. **Verdict: 36 planned blocks, 22–26 fillable, 10–14 released.**
+- **TCOM — 16 blocks, fully fillable, real course Weeks 1–3.** Every source is
+  local. Verified against the PDF rather than trusting the semester map: Ch 2.13
+  Memos and Emails pp. 149–163, Ch 3 Ethics pp. 174–190, Ch 5.2 Audience Analysis
+  pp. 304–310, Ch 2.12 Oral Presentations pp. 139–148, Ch 5.10 Peer Review from
+  p. 448, Ch 8 Technical Editing from p. 590 — **printed page numbers equal PDF
+  page numbers, no offset** (spot-checked pp. 149, 174, 304). All ancillary and
+  Linked-Resources paths confirmed present. Stop line set before the Week 4–5
+  Individual Project Proposal — real graded project work.
+- **ECON — 6 of 12 fillable.** Weeks A–B only (Ch 1 foundations, scarcity,
+  gains from specialization, PPF graph reading). Weeks C–D released on purpose:
+  Week 3 Economic Systems is exactly where the substitute maps are least
+  trustworthy, and the macro packet's first unlock is Week 7. Week A's third
+  block retargeted from "second foundations block" to cold vocabulary retrieval,
+  matching this hub's own stated pre-semester ceiling.
+- **ENGR — 8 blocks released.** Also recorded that the original Friday block was
+  unrunnable regardless: the Summer W01 reference syllabus defers its assignment
+  list to a D2L schedule PDF that is not in the vault.
+- Two small corrections: the TCOM semester map named the resume peer-review
+  ancillary `PeerReview.docx`; the real filename is
+  `Resume+CoverLetter_PeerReview.docx`. Fixed. Block-evidence table added to the
+  new plan so TCOM/ECON proof has somewhere to land — this hub had no learner
+  proof ledger, unlike PYTHON and PHYSICS.
+- Files: new `wiki\pre-semester-coverage-plan.md`; `index.md`,
+  `current-position.md`, `courses\tcom-2010\semester-map.md`, this log.
+- **Still open for Chris:** flag #85 (one canonical-copy rule for school hubs,
+  MEDIUM, due at a weekly review) and where the 10–14 released blocks go —
+  recommended to Python and Physics, but that is CASTLE's call, not this hub's.

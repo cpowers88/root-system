@@ -811,3 +811,19 @@ zero new findings in TECHNOLOGY.
 All eight hubs are now on the four-file set. Open system flags #84
 (`register:` scope) and #85 (canonical-copy rule across school hubs) still need
 Chris's decisions.
+
+## 2026-07-26 — Codex non-learner boot-chain review
+
+- Started cold inside `03-WIKIS\TECHNOLOGY` and followed the live local chain:
+  `AGENTS.md` → `CLAUDE.md` → canonical `OPERATIONS.md`.
+- Loaded the universal governance chain, North Star, capability contract,
+  Technology index/recent log, and the operational spine.
+- Wrote `technology_boot_one_review.md`. Verdict: **PASS**; this supplies the
+  non-learner-hub proof required by the July 26 execution-discipline update.
+- Ran `validate_boot_chain.py`: **PASS**, 30 boot files checked and 1,335 live
+  pages scanned, with no stale governance references reported.
+- Identified one bounded next goal: at the August 1 review, reconcile the
+  operational spine's stale “Python Stage 3 active” state with live Stage 4
+  learner truth, then select one existing tracker/scanner vehicle for the next
+  SQL-reliability proof. No new research queue was opened.
+- Raw files and unrelated worktree changes were untouched.

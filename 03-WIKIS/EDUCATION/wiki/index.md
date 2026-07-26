@@ -16,6 +16,8 @@ Canonical catalog for general KSU course support. Current status lives in
 
 - [[course-briefs/fall-2026-course-briefs|Fall 2026 Course Briefs]] — ECON,
   TCOM, and ENGR requirements, schedules, source confidence, and AI policies.
+- [[pre-semester-coverage-plan|Pre-Semester Coverage Plan]] — which real course
+  weeks are workable before Aug 24, which are blocked, and per-block sources.
 
 ## ECON 1000
 
