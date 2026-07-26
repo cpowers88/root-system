@@ -31,7 +31,7 @@ An active capability lives in this register only. The eight category tables hold
 |---|---|---|---|---|---|
 | Field observation | building | BUSINESS method + 05-BUSINESS\02-Field Notes | one approved live observation | recognized actual-state record; two tested live sessions → working | workflow diagnosis; academic, operational, commercial |
 | Systems and flow thinking | building | SYSTEMS wiki + coursework | apply one flow or constraint model to a real workflow | model improves a decision or finding | engineering, operations, employability |
-| Python | building — Stage 3 | PYTHON current-position | close the next owner-defined Stage 3 rep | independent build, explain-back, and debug gate | school, automation, software |
+| Python | building — Stage 4 | PYTHON current-position | complete the cold functions baseline, then the owner-defined Stage 4 proof | independent function construction, parameter/argument/return explain-back, and debug gate | school, automation, software |
 | SQL/SQLite | building — July weak link; guided two-table fixture verified July 21 | tracker + PYTHON/technology owners | independently query or extend the Bootcamp fixture; use verified tracker data when D2L populates | correct schema and query result used in a real workflow with decreasing assistance | school, data systems, employability |
 | Git/GitHub discipline | building | active repositories | complete the next approved repository workflow | understandable history and successful recovery or review | reliable delivery and collaboration |
 | Data visualization | building — first rep verified | Technology Strategy + live proof vehicle | next justified decision-facing visual | another person can trace the calculation and act | decision support; operational, commercial |

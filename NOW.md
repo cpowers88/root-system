@@ -5,184 +5,78 @@ status: active
 tags: []
 ---
 
-# NOW — Saturday, July 25, 2026
-### Open this every morning. Start here, do the proof, then close clean.
+# NOW — Sunday, July 26, 2026
 
-## Start Here
+*Single-lane cockpit. Pilot installed 2026-07-26; acceptance check August 2.*
 
-**Architecture work is CLOSED as of July 25 (Pass 1 + Pass 2 both complete).**
-The physical topology is unchanged and now *settled*, not pending: CASTLE stays
-under `00-BRAIN` and the relocation hypothesis is **retired, not deferred** — no
-impact report is owed, and the migration gates in the July 24 packet are marked
-do-not-execute. Root interfaces remain `MORNING_BRIEF.md` plus this file.
+## Today
 
-**Flag #84 (`register:`) is DECIDED and CLOSED** — scoped to instruction-interface
-files, five approved values defined in `00-BRAIN\WHERE_IT_GOES.md § Metadata
-Standard`, five leaked values stripped. Nothing further is owed on it. The file-case
-convention was recorded in the same edit (ALL-CAPS = machine instruction interface;
-lowercase, snake_case *or* kebab-case, for everything else).
+**Sunday is the planning and system day.** Three things, in order:
 
-**Next structural work: none.** Remaining items are interface conformance tracked in
-`SYSTEM_FLAGS.md`. Elective structural changes stay frozen through the
-school-simulation week.
+1. **Execution Discipline update — DONE.** `AGENT.md § Execution Discipline`
+   (8 rules), eight hub `AGENTS.md` loaders, this cockpit, and the Sunday
+   due-checks return in `CASTLE\OPERATIONS.md`.
+2. **Build this week's school map** — the July 27–August 2 simulation week,
+   together, from
+   [weekly-plan-2026-07-27-to-2026-08-02.md](00-BRAIN/CASTLE/wiki/weekly-plans/weekly-plan-2026-07-27-to-2026-08-02.md).
+3. **Tonight's evening reading** — names tomorrow's exact pages and Monday's
+   first proof, delivered before bed.
 
-**Gate 0 remodel installed and health-confirmed (July 19).** The one
-translation contract for the System Loop, five moves, pipeline, and cadence
-is live at `01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md`.
-Physical structure and the System Loop are unchanged. Full detail archived:
-`00-BRAIN\Session_Logs\System Update Log\2026-07-19_ROOT_INFORMATION_CASTLE_RECONCILIATION\NOW_ARCHIVE_2026-07-19.md`.
+## Today's Gate
 
-**W0+W1 wording/state correction pass closed today (July 21)** — Python,
-tracker, Technology Strategy, Phase 0, the two CASTLE skill pages, the
-Operator playbook, and three BUSINESS templates now match the capability-first
-North Star. Health PASS WITH DEBT, 0 new findings. W2 (report cleanup) waits
-on the decisions now exposed in `SYSTEM_FLAGS.md` #79 plus review of the older
-Codex audit/recovery weekly; two clearly completed reports were reclassified
-today. W3 (BUSINESS metadata batch) is deferred, low urgency.
+The week is ready when: the weekly map names each day's proof, tonight's reading
+is written, and a rebooted Codex session started inside a hub loads that hub's
+local contract. Anything less and Monday starts with planning instead of work.
 
-1. **Claude-led MCP Integration Bootcamp in progress, July 18–26.** One continuous
-   construction case (`05-BUSINESS\02-Field Notes\observation_one.md`) runs
-   through eight engineering lenses, one per day. Full plan:
-   `00-BRAIN\Session_Logs\ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`.
-   Project home: `02-LIBRARY\.PROJECTS\MCP_Bootcamp\`. **Binding rule: every
-   session is live-paired** — no AI produces a finished artifact Chris didn't
-   type/decide/explain-back live.
-   **Real state, end of day July 21:** Days 1–3 now genuinely closed with
-   live evidence. Day 3 (Data Engineering) ran live today, one day late
-   (slipped from Mon 7/20, displaced by system work): `build_fixture.py` +
-   `bootcamp_fixture.db` (two FK-linked tables, two real bugs fixed live,
-   explain-back completed) — detail in `Docs\MASTER_BLUEPRINT.md`'s Day 3
-   layer and the new reusable page
-   `03-WIKIS\TECHNOLOGY\wiki\database-sql\sql-python-sqlite3-integration.md`.
-   **Decision made July 22: continue into Day 4 (Automation & Operations),
-   with Claude leading the MCP lane.** Running simultaneously is the Codex-led
-   Learning and `.ROOT` System Bootcamp at
-   `Docs\codex-adaptive-learning-evidence.md` (Rep 1 complete — Python Stage
-   3 adaptive baseline, Chris pace 2.5/5, depth 3.9/5, strongly preferred).
-   Both lanes gather evidence on learning, AI information production and
-   presentation, reading usefulness, system coordination, ownership/stress,
-   and next-rep improvement. Saturday closes evidence with independent
-   provisional verdicts; **Sunday July 26 is the joint weekly review and owns
-   keep/modify/revert decisions.** D2L is accessible but unpopulated; exact PHYS 2211
-   Section 54 and ENGR 1000 BWD materials are not expected before August 24
-   — see `SYSTEM_FLAGS.md` #57.
-   `Docs\learning-format-notes.md` now carries evidence-bounded entries for
-   Days 1–3; missing first-person reactions remain explicitly unknown rather
-   than reconstructed.
-   **Day 4 closed July 23:** the resource (`get_all_friction_records`) and
-   both read-only tools (`search_by_problem_keyword`,
-   `count_by_friction_category`) are typed and written in
-   `Code\mcp_contracts.py`. The held explain-back gate (parameterized `?`
-   binding vs. SQL injection) closed after three cold-attempt cycles, and
-   Day 4's full layer is now in `Docs\MASTER_BLUEPRINT.md`. **Next: Day 5
-   (AI Infrastructure)** — MCP SDK wiring, stdio, stderr logging, full
-   pytest coverage (including the two edge cases named as open threads:
-   empty keyword, literal `%`/`_` in a keyword), Inspector verification.
-   See `DAILY_2026-07-22.md` for the prior nightly handoff and
-   `DAILY_2026-07-23.md` for today's close.
-2. **Codex-led Learning and `.ROOT` System Bootcamp traced and closed the `for.py`
-   discrepancy July 23.** Chris independently explained the corrected program
-   end-to-end: the `range(1, 31, 1)` loop, the compound divisible-by-4-and-6
-   condition, the first-match print, and `break` placement are all now directly
-   demonstrated. Codex self-corrected a same-day calibration error (over-reading
-   a correct explain-back as a weakness). Active frontier moved to multi-part
-   loop tracing/construction under time pressure — not basic `break`, which is
-   resolved. Stage 3 continues; next reps run July 24 (fresh mini-build) and
-   July 25 (cross-domain capstone + independent verdict).
-3. **Physics Stage 4 restarts July 26 with a seven-day deep dive.** The dated
-   July 26–August 1 sequence is live in the PHYSICS `current-position.md`;
-   Stage 5 is source-checked and ready but cannot activate until the Stage 4
-   cold gate passes. Neighboring Sections 51/55 remain pacing references only
-   and neither controls Chris's Section 54 operations.
+## If Today Breaks
 
-Root health at last check (July 25): **PASS WITH DEBT** — boot/governance,
-wiki navigation, shared-skill mirrors, whitespace, and live-text integrity
-pass; frontmatter holds 320 reviewed baseline findings, 0 new, and 300
-resolved. Dependency-environment false positives are excluded and flag #82 is
-closed. The gate does not evaluate semantic freshness, project truth, review
-cadence, source ownership, or ordinary direct-path prose. No HIGH flag open.
+Do item 3 only. Tonight's reading is what Monday actually runs on; the map can be
+rebuilt Monday morning in fifteen minutes. Tell Codex the map slipped.
 
-## Current Picture
+## Fixed Today
 
-| Area | Live truth | Next proof |
-|---|---|---|
-| School | Aug 24 readiness is fixed; D2L is unpopulated; exact PHYS 2211 Section 54 and ENGR 1000 BWD syllabi are unavailable; Physics Stage 4 is active with a July 26–August 1 private-practice plan and Stage 5 ready behind its cold gate; Python Stage 3 `break`/loop-tracing is directly demonstrated | July 26 Physics: read Ch 4 §4.1–4.2, write the four component equations from memory, and solve projectile drill Problems 1–2 cold |
-| Tracker / SQL | V1 shipped; exact D2L course data is not available yet | Enter verified D2L data when courses populate, likely near August 24, and test the real workflow |
-| Technology | Claude leads the MCP Bootcamp; Days 1–4 closed over the real `observation_one.md` case | Day 5 (AI Infrastructure): wire the MCP SDK to the Day 4 contracts — stdio, stderr logging, full pytest coverage, Inspector |
-| Business | Advisor-Builder is the current hypothesis; the flip-margin-leak replay (OPP-20260716-01) is parked 2026-07-23 — no warm-network flipper contact exists, verdict unchanged if one surfaces; closing-exception autopsy is HOLD (OPP-20260716-02) | The B2 change-order conversation below now carries the "one live workflow replay" slot instead |
-| Continuity income | Additional income is needed before Spring 2027 enrollment | **2026-07-22: Chris approved the B2 conversation** — hold one change-order replay with the contractor friend, ask whether he'd pay for remote estimating/change-order support, record the answer only (no offer/pricing/outreach). Lane A is parked while its project folder remains explicitly paused. |
-| `.ROOT` | Codex leads the Learning/System Bootcamp while Claude leads MCP; the `break` trace and nearby loop work are complete | Complete one fresh no-hint Stage 3 loop-and-accumulator build with explain-back, then integrate both evidence lanes at the July 26 review |
+- Ben Care hours.
 
-## This Week
+## Tomorrow — Launch
 
-- [ ] Physics Stage 4 deep dive, July 26–August 1; Stage 5 activates only after
-  the Stage 4 cold gate; formal Section 54 calendar alignment still waits for
-  exact D2L materials
-- [x] Python Stage 3: password-controlled `while`, divisible-by-7 counter, guessing game, and the `for.py`/`break` reconciliation all now directly demonstrated (July 22–23); remaining mastery checklist and multi-part loop tracing continue July 24–25
-- [ ] Lane A remains parked while `YT_Outlier_Scanner(Pause, chris)` is paused; no worksheet, proof, public, or monetization action unless Chris explicitly reactivates it
-- [ ] Hold the B2 change-order replay conversation with the contractor friend (OPP-20260714-01, approved 2026-07-22) — record whether he'd pay for remote estimating/change-order support; one conversation only
-- [ ] One live workflow observation/VSM only with the needed approval and access — the flip-margin replay (OPP-20260716-01) was parked 2026-07-23 for lack of a warm-network flipper contact, not lack of merit; the B2 change-order conversation below now carries this slot
-- [ ] Daily SQL reps against the scanner SQLite DB (real data now); switch vehicle to the tracker when D2L data actually populates
-- [x] **MCP Bootcamp — Tue Jul 21 (was Mon 7/20), Data Engineering:** structured the six observation rows into `friction_categories`/`businesses`; fixture and explain-back complete, with the live-pairing deviation preserved in the learning notes
-- [x] **Two-lane decision:** Claude leads the continuing MCP Bootcamp; Codex leads the simultaneous Learning/`.ROOT` System Bootcamp; Sunday integrates both evidence lanes
-- [x] **MCP Bootcamp — Automation & Operations (Day 4):** 1 resource + 2 read-only tool contracts written and explained; held explain-back gate on parameterized queries vs. SQL injection closed July 23 after three cold-attempt cycles
-- [ ] **MCP Bootcamp — AI Infrastructure:** MCP SDK wiring, stdio, stderr logging, full pytest coverage, Inspector — ≤3 hr MCP budget starts here
-- [ ] **MCP Bootcamp — Cybersecurity & Governance:** one host connection, threat model, access-control matrix, operator/security handoff
-- [ ] **MCP Bootcamp — Product & Value:** MVT framing, conservative ROI vs S-01/S-02, pilot stop-criteria, 30/60/90 roadmap, cold explain-back rehearsal; plus complete the workflow-stack evidence template on the change-order-to-cash pattern
-- [ ] **MCP Bootcamp — Integration, by Jul 25:** assemble master blueprint, simulated owner presentation, acceptance test + harvest write-up (exact bar in the review file)
-- [ ] Daily workbench rep (~20–30 min): 7/20 Python in VS Code + venvs → 7/21 branching → 7/22 debugger → 7/23 push/PR (needs GitHub-remote OK) → 7/24 GitHub Actions CI → 7/25 tags/README
-- [ ] Close each sprint day with 10–15 min adding that lens's layer to the master blueprint — Day 8 integrates, doesn't assemble
+Monday, July 27 opens the full-course-load simulation: 20 academic blocks across
+Python (8), Physics (6), TCOM (3), ENGR (2), Economics (1). Work begins within
+15 minutes of sitting down.
 
-## Upcoming
+**Open question for Chris before Monday:** Physics has 6 blocks this week, which
+covers projectile motion (§4.1–4.3). Stage 4's gate requires all 13 checklist
+items including circular motion, radial/tangential, and relative velocity
+(§4.4–4.6). Under Execution Discipline rule 5 the gate fires whenever you're
+ready — so **Stage 4 likely does not close this week, and that is fine.** Confirm
+you want it taught in order rather than compressed to force a Friday gate.
 
-| Date | Trigger |
-|---|---|
-| July 22 (Wed) | Claude: Day 4 Automation & Operations. Codex: Python Stage 3 Learning/System Bootcamp rep. Both capture shared evidence fields. |
-| July 23 | MCP Bootcamp Day 4 closed; Day 5 (AI Infrastructure) queued next. OPP-20260716-01 (flip-margin replay) reviewed and parked — no flipper contact exists. |
-| July 24 | Evidence-selected Bootcamp scope if continued; Wiki shared-layer real-use `check_at` verdict |
-| July 25 | Close both evidence windows; MCP honest-floor integration/harvest; independent provisional verdicts written before cross-reading |
-| July 26 | **Joint Review 1:** integrate both bootcamps; keep/modify/revert; select the next Learning/System week and debate the second bootcamp subject |
-| August 2 | Joint weekly review 2 |
-| August 9 | Joint weekly review 3 |
-| August 16 | Monthly synthesis and system-direction review |
-| August 23 | Final pre-class weekly review; push approved updates, rollbacks, or bounded changes before classes |
-| August 1 | Monthly weak-link review; re-rank `capability_development_goal.md` |
-| ~August 14 | Revenue Lane A parked-state review; run the prediction/top-100 review only if Chris reactivates it |
-| August 24 | Fall semester begins |
-| October 5–November 11 | High-load school window; protect fixed commitments |
+## Not Today
 
-**Still unresolved (Fall CASTLE calendar):** three Ben-Care/class overlaps
-(Tue/Thu ECON 8-8:55am; Mon/Wed CSE Lecture tail; Tue CSE Lab) pending
-Chris's childcare conversation with Heather — rebuild, don't patch, once
-that's settled. Detail: `00-BRAIN\Session_Logs\System Update Log\2026-07-19_ROOT_INFORMATION_CASTLE_RECONCILIATION\NOW_ARCHIVE_2026-07-19.md`.
+- [MCP Bootcamp](02-LIBRARY/.PROJECTS/MCP_Bootcamp/Docs/MASTER_BLUEPRINT.md) — partial proof, 4 open acceptance conditions
+- [Revenue lanes and business evidence](03-WIKIS/REVENUE_LAB/wiki/revenue-lane-scorecard.md)
+- [Opportunity queue](00-BRAIN/CASTLE/wiki/opportunity-queue.md)
+- [Open system flags](00-BRAIN/SYSTEM_FLAGS.md)
+- [LIFE workspace decision](00-BRAIN/Session_Logs/System%20Update%20Log/2026-07-24_ROOT_ARCHITECTURE_UPDATE/execution-discipline-and-boot-chain-discussion-2026-07-26.md) — gated to August 9
+- [Architecture packet](00-BRAIN/Session_Logs/System%20Update%20Log/2026-07-24_ROOT_ARCHITECTURE_UPDATE/SESSION_INDEX.md) — closed, historical
+
+## Owners — open these, not another dashboard
+
+- Direction: `01-NORTH_STAR\NORTH_STAR.md`
+- Sequence and proof status: `00-BRAIN\CASTLE\wiki\current-position.md`
+- Learner truth: `03-WIKIS\PHYSICS\wiki\current-position.md`,
+  `03-WIKIS\PYTHON\wiki\current-position.md`
+- Semester goal: `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md`
+- Business hypothesis: `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`
+- This week's checklist: `00-BRAIN\CASTLE\wiki\weekly-plans\`
 
 ## Boundaries
 
 - School deadlines and academic integrity stay fixed.
-- No outreach, account creation, publishing, pricing, or offer without Chris's
-  explicit approval where required.
-- The current business vehicle earns continuation through evidence; it is not identity.
+- No outreach, publishing, pricing, or offers without Chris's explicit approval.
+- Optional `.ROOT` work waits for the day's primary proof (Execution Discipline 1).
 - Generated material is preparation, not mastery or market proof.
-- If system work displaces learning, delivery, or income evidence, stop maintaining
-  the map and return to the real output.
-- **MCP Bootcamp (Jul 18–25): no AI produces a finished artifact Chris didn't
-  type/decide/explain-back live.** This is a hard rule for the sprint, not a
-  style preference — see the review file's Working Method section.
-
-## Open the Owner, Not Another Dashboard
-
-- Semester goal: `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md`
-- Learner truth: `03-WIKIS\PHYSICS\wiki\current-position.md` and
-  `03-WIKIS\PYTHON\wiki\current-position.md`
-- Current business hypothesis: `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`
-- This week's day-by-day execution checklist (Chris's own, marked up by hand): `00-BRAIN\CASTLE\wiki\weekly-plans\weekly-plan-2026-07-23-to-2026-07-26.md`
-- Revenue evidence: `03-WIKIS\REVENUE_LAB\wiki\revenue-lane-scorecard.md`
-- Sequence/proof status: `00-BRAIN\CASTLE\wiki\current-position.md`
-- MCP Bootcamp live plan: `00-BRAIN\Session_Logs\ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md`
-- Learning/`.ROOT` System Bootcamp evidence: `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\codex-adaptive-learning-evidence.md`
-- MCP learning-format evidence: `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\learning-format-notes.md`
-- Finished/paused context removed today: `00-BRAIN\Session_Logs\System Update Log\2026-07-19_ROOT_INFORMATION_CASTLE_RECONCILIATION\NOW_ARCHIVE_2026-07-19.md`
 
 ---
-*If the date or any live truth is stale, update this page from the owning file; do
-not copy a second version of the underlying plan here.*
+*Recent movement: Python Stage 3 CLOSED July 26 on a real gate — corrected
+sequencing, strict boundary, decimal average, all three datasets passed. Physics
+Stage 4 active. Detail lives in the owner files above, not here.*

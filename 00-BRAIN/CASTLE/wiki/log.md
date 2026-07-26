@@ -1249,3 +1249,24 @@ check — the pattern, not the character, is the finding.
 evidence record. Remaining work is interface conformance tracked in
 `SYSTEM_FLAGS.md`. Monday begins the full-course-load simulation week per
 `wiki\weekly-plans\weekly-plan-2026-07-27-to-2026-08-02.md`.
+
+## 2026-07-26 — Execution pilot live; Python Stage 3 proof returned (Claude + Codex)
+
+- The Chris interview and independent Claude/Codex review produced one reconciled
+  execution-discipline pilot. Live files now contain `AGENT.md § Execution
+  Discipline`, eight minimal hub `AGENTS.md` pointers, the one-lane `NOW.md`
+  pilot, and the existing CASTLE weekly cadence's Sunday due-check return.
+- No CASTLE relocation reopened. The two root design files remain in their
+  packet-approved live homes. The possible LIFE workspace remains gated to
+  August 9 evidence.
+- Python Stage 3 closed on `stage3_gate.py`: normal, exact-boundary, and decimal
+  tests passed after correction. PYTHON owner truth now activates Stage 4
+  functions; `skill-map.md` points to the cold functions baseline.
+- Root health initially returned BLOCKER on one new missing-frontmatter finding
+  in `claude_and_chris_direction.md`. Metadata only was added; rerun returned
+  **PASS WITH DEBT**, 320 reviewed baseline findings, 0 new, 300 resolved; boot,
+  navigation, skill mirrors, whitespace, and text integrity pass.
+
+**Next exact action:** reboot clean for Chris's next directed task. If it starts
+inside a hub, use it to prove the new local loader; otherwise preserve that test
+for the next hub-local session.

@@ -40,6 +40,50 @@ Priority is calendar-bound and value-aware:
 
 School is capability infrastructure, technology is the compounding engine, business/client value is the economic destination, and system evolution supports all three. These are coordinated functions, not competing lanes. New profit ideas still pass through `00-BRAIN\CASTLE\wiki\decision-rules\adding-a-profit-skill.md`.
 
+## Execution Discipline
+
+Approved by Chris 2026-07-26 after a full-system interview and independent
+Claude/Codex review. These rules govern how work is selected and sequenced. They
+do not change the priority order above, and they do not override Chris's
+authority over his own time.
+
+1. **Work first.** No optional `.ROOT` update begins before the day's primary
+   learner or value proof is complete and recorded. A HIGH blocker may interrupt;
+   stale prose, an attractive redesign, or ordinary discomfort may not.
+2. **Weekly plan, daily proof.** Sunday sets the weekly outcomes, reading
+   sequence, and expected proof. Monday through Saturday begin with the day's
+   primary proof. Optional system or LIFE work may start only after that proof,
+   or when Chris explicitly activates it. Chris may redirect at any time; record
+   the displacement once and continue without repeated resistance.
+3. **One visible lane.** The active cockpit shows the current lane, its gate, and
+   its fallback. Fixed commitments due today stay visible even when they belong
+   to another lane. Every other lane is a link only. `MORNING_BRIEF.md` remains
+   the three-line launch interface and must not become a second cockpit.
+4. **Prepare the operational; recommend the directional.** Reading, order,
+   drills, formatting, and sequencing arrive as one ready-to-run default with the
+   reason and proof gate visible. Do not hand Chris a blank menu; he may redirect
+   the default. Major direction, family and time commitments, governance, and
+   consequential choices remain Chris's. Direction Chris has no map for yet is
+   proposed with a recommendation and reasoning — never returned as a blank page,
+   never decided silently.
+5. **Proof moves the stage immediately.** A gate is available whenever Chris is
+   ready. Do not wait for a scheduled day if the gate passes early; do not
+   advance because a calendar says to. A stage may not open until its gate is
+   written.
+6. **Chris receives one reconciled answer.** Routine work has one lead AI.
+   Consequential work is reviewed independently — by a second model, or by a
+   fresh session shown the work as a third party's when no second model is
+   available. The lead then integrates and names any real disagreement inside a
+   single document. Integrating competing reports is AI work, not Chris's.
+7. **Every stop rule names an owner and a check moment.** A dated trigger nobody
+   is assigned to evaluate does not exist. Do not create a parallel cadence:
+   `CASTLE\OPERATIONS.md`'s weekly review owns evaluation, and the Sunday
+   planning step opens with the `check_at` items due that week.
+8. **Mastery gates need independent evidence.** A drill may be graded by the
+   teaching AI when the grading is deterministic — recorded first attempt, exact
+   expected output, explicit boundary cases. Where judgment is subjective or the
+   promotion is consequential, an independent evaluator is required.
+
 ## One AI Team
 
 Any AI may complete any in-scope task it can safely access. Model names describe useful strengths, not ownership or permission boundaries.

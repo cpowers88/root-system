@@ -17,18 +17,20 @@ Chris should always be able to open this page and know what to read, practice, a
 ## Current Position
 
 **Generated through**: Stage 10 — Application Thinking
-**Current study stage**: Stage 3 — Repetition
+**Current study stage**: Stage 4 — Functions
 **Stage 0 status**: Satisfied
 **Stage 1 status**: Satisfied (2026-07-13) — worked independently with Codex 2026-07-12, verified in session (explained type-conversion reasoning, correctly predicted/confirmed a `TypeError`, explained `+`-concatenation vs. f-strings). Evidence: `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\`.
 **Stage 2 status**: Satisfied (2026-07-16) — correction and cold explain-back
 verified; evidence and exact proof history live in `wiki/current-position.md`.
-**Next action**: Resume the exact Stage 3 mid-drill frontier recorded in
+**Stage 3 status**: Satisfied (2026-07-26) — fresh loop-and-accumulator gate
+passed with correction across normal, exact-boundary, and decimal tests.
+**Next action**: Resume the exact Stage 4 cold functions baseline recorded in
 `wiki/current-position.md`; do not maintain a second drill-position copy here.
 
-The curriculum is fully generated through Stage 10, but that describes what exists in the vault, not where Chris is. Chris has satisfied Stages 0-2. **Do not read "generated through Stage 10" as an instruction to start at Stage 10.**
+The curriculum is fully generated through Stage 10, but that describes what exists in the vault, not where Chris is. Chris has satisfied Stages 0-3. **Do not read "generated through Stage 10" as an instruction to start at Stage 10.**
 
-**Current Concept:** `for`, `while`, `range()`, counters, accumulators,
-`break`, `continue`, and loop tracing (Stage 3)
+**Current Concept:** function definition/call, parameter, argument, return value,
+and local scope (Stage 4)
 **Next Reading / Drill / Vocabulary / Blocker:** follow `wiki/current-position.md`,
 the sole owner of live learner truth.
 **Parked Advanced Material:** see `wiki/parking-lot.md` (consolidated 2026-06-24)
@@ -127,7 +129,8 @@ Full per-book detail lives in `wiki/source-map.md`. This is the quick per-stage 
 
 ## Stage 3 — Repetition
 
-**Status: packet generated 2026-06-24.** See `wiki/stages/stage-03-loops-and-repetition.md` for the full packet.
+**Status: satisfied 2026-07-26.** See `wiki/current-position.md` for the final
+fresh loop-and-accumulator gate evidence.
 
 - **Purpose:** `for`, `while`, `range()`, counters, accumulators, loop tracing.
 - **Prerequisites:** Stage 2.
@@ -144,7 +147,8 @@ Full per-book detail lives in `wiki/source-map.md`. This is the quick per-stage 
 
 ## Stage 4 — Functions
 
-**Status: packet generated 2026-06-24.** See `wiki/stages/stage-04-functions-parameters-return.md` for the full packet.
+**Status: active 2026-07-26.** See
+`wiki/stages/stage-04-functions-parameters-return.md` for the full packet.
 
 - **Purpose:** `def`, calls, parameters, arguments, return values, scope basics,
   then a short standard-library import/use bridge in the same order as both syllabi.

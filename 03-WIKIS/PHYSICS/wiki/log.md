@@ -1031,3 +1031,95 @@ existing next actions (Section 54 D2L confirmation, Aug 24+) are unchanged.
   `wiki/current-position.md`, `wiki/index.md`, `wiki/learning-path.md`, and
   Stage 4–5 packets.
 - Added: `wiki/drills/relative-velocity-drill.md`.
+
+---
+
+## 2026-07-26 — Forward-Path Operational Readiness Audit (Claude Code)
+
+### Outcome
+- Resolved every wikilink in all 18 stage packets against the live filesystem
+  instead of against this wiki's own status claims. **Stages 4–9 are fully
+  operational; all 78 unresolved links sit in Stages 10 and 12–18.** Corrected
+  the Semester Pathway Control Table, which under-reported five stages and
+  over-reported one.
+
+### Evidence
+- Stages 4–9 depend on 96 linked pages. All 96 resolve. 94 carry substantial
+  content (≥25 lines); the two short ones are `glossary/elastic-collision.md`
+  and `parking-lot.md`, both correctly brief for their type.
+- Verified per-stage unresolved counts: Stage 10 = 10, Stage 11 = **0**,
+  Stage 12 = 2, Stage 13 = 9, Stage 14 = 9, Stage 15 = 6, Stage 16 = 11,
+  Stage 17 = 9, Stage 18 = 22.
+- The prior table said Stage 11 had unfinished supporting links (it does not —
+  its remaining item is a gyroscope/precession *scope* question) and said
+  nothing about gaps in Stages 12, 14, 15, 17, or 18, which together hold 48
+  unresolved links.
+- `source-map.md`'s link to `../OPERATIONS.md` initially registered as broken;
+  verified as a false positive — the file exists at 9,044 bytes outside `wiki/`,
+  which is a legitimate target.
+
+### Capability/status movement
+- Learner status did not move: no physics performance occurred in this session.
+- Map accuracy moved: the control table's readiness column is now filesystem-
+  verified rather than asserted, per `AGENT.md`'s rule that maps are claims and
+  not filesystem truth.
+
+### Errors, uncertainty, or residual risk
+- Link resolution proves a target page exists, not that it teaches well. Stages
+  7–8 remain "TOC screened" in substance even though their links all resolve.
+- No build-out of Stages 10–18 was performed, deliberately. The just-in-time
+  rule expands a stage when Chris is one stage away; Stage 10 is five out, and
+  Section 54's real D2L calendar (expected Aug 24) may still park or reorder
+  Ch 13–18. Building 78 pages now would repeat the July cruise-prep pattern of
+  generating content ahead of evidence that it is needed.
+- Recorded in `learning-path.md` that advancement is mastery-gated, not
+  calendar-gated — a weekly plan allocates hours and cannot hold a finished unit
+  open or license leaving an unfinished one. This restates
+  [[pacing-trigger-map]]; it is not a new rule.
+
+### Exact next independent rep
+- Unchanged from July 25: read Ch 4 §4.1–4.2 (book pp. 68–74), write x(t), y(t),
+  v_x(t), and v_y(t) from memory, then solve projectile drill Problems 1–2 cold.
+
+### Reusable-asset candidate
+- Possibly. The link-resolution audit is subject-neutral and would answer the
+  same "will this stall me?" question for PYTHON or any other staged hub. Not
+  nominated yet — one use is not a pattern.
+
+### System-learning candidate
+- Nominated for evidence, not adoption: this wiki's status column drifted from
+  its own filesystem in both directions while every individual edit was correct.
+  Same class as the July finding that update output became truth without a
+  check. Second instance; a third would justify a standing rule.
+
+### Sources and files touched
+- Read only: all 18 stage packets, 8 control files, and the linked page tree.
+- Updated: `wiki/learning-path.md` (Path Status readiness block + 15 control-
+  table rows), `wiki/log.md`.
+
+## 2026-07-26 — Clean PHYSICS Hub System Load (Codex)
+
+### Outcome
+- Verified from a fresh session started inside `03-WIKIS/PHYSICS` that the new
+  hub pointer resolves through `CLAUDE.md` to `OPERATIONS.md`,
+  `wiki/current-position.md`, and `wiki/learning-path.md`.
+- Confirmed Stage 4 remains the active learner frontier and the next independent
+  physics work is the owner-defined projectile-motion rep; no mastery movement
+  was claimed.
+
+### Evidence
+- Read the governed root boot chain, North Star, morning-launch state, CASTLE
+  current position and weekly plan, then the PHYSICS local loader and learner
+  truth chain.
+- The clean learner-hub boot proof is complete. A non-learner hub boot remains
+  the second acceptance check named in the July 26 handoff.
+
+### Exact next independent rep
+- Read Ch 4 overview and sections 4.1–4.2 (book pp. 68–74), draw one launch
+  diagram, write x(t), y(t), v_x(t), and v_y(t) from memory, then complete
+  projectile-motion drill Problems 1–2 cold.
+
+### Files touched
+- Updated: `wiki/log.md`.
+- Root continuity updates: `MORNING_BRIEF.md` and
+  `00-BRAIN/Session_Logs/DAILY_2026-07-26.md`.

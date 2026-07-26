@@ -25,8 +25,7 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
   equivalent bridge choices (spikes/snakes). `S2P3.py`'s grading rule was
   independently corrected (removed the stray `D` band, `else` now prints `F`
   for anything below 70) and verified. See `wiki/log.md` 2026-07-16.
-- **Current study stage: Stage 3 — Loops.** `wiki/stages/stage-03-*.md`.
-- **Exact learner frontier:** Stage 3 loop tracing Part A is complete. On July 22,
+- **Stage 3 — satisfied (2026-07-26).** Stage 3 loop tracing Part A is complete. On July 22,
   Chris independently constructed and explained the fresh password-controlled
   `while` transfer, corrected a divisible-by-7 counter after one focused counter
   cue, and built the limited-attempt guessing-game through staged live guidance;
@@ -34,19 +33,31 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
   successfully ran and traced the saved `for.py` attempt, explained the correct
   first match and `break` termination, completed a clean nearby `for` transfer,
   and independently built a multi-part loop that counted values matching an
-  `or` condition. The remaining frontier is broader cold construction and
-  sequencing under pressure. Do not mark Stage 3 mastered until another fresh
-  independent build confirms the transfer.
+  `or` condition. On July 26, `Code/stage3_gate.py` supplied the final fresh
+  construction gate: one five-day input loop, running-total accumulator,
+  above-30 counter, average, and process pseudocode. The first run exposed a
+  denominator-order error and inclusive boundary; Chris corrected both and
+  passed normal (`125 / 2 / 25.0`), exact-30 (`30 / 0 / 6.0`), and decimal
+  (`31 / 1 / 6.2`) tests. Verdict: PASS WITH CORRECTION.
+- **Current study stage: Stage 4 — Functions.**
+  `wiki/stages/stage-04-functions-parameters-return.md`.
+- **Exact learner frontier:** cold functions baseline before reading — define
+  and call one small function, then explain parameter, argument, and returned
+  value. Stage 4 is functions only; Python libraries remain Stage 4b.
 - **Code evidence in the MCP Bootcamp workbench:** `Code/for.py` records the
   recovered first-match trace; `Code/for2.py` records the nearby divisible-by-7
-  transfer; and `Code/PT.py` records today's independent multi-part `or`
-  condition plus count (`10`). Supporting reps are `count.py`, `practice2.py`,
-  `practice3.py`, `practice4.py`, `password.py`, and `secret#.py`. The MCP
+  transfer; `Code/PT.py` records the independent multi-part `or` condition plus
+  count (`10`); and `Code/stage3_gate.py` records the final loop/accumulator
+  gate. Supporting reps are `count.py`, `practice2.py`, `practice3.py`,
+  `practice4.py`, `password.py`, and `secret#.py`. The MCP
   infrastructure files (`mcp_contracts.py` and `server.py`) belong to Claude's
   separate integration lane and do not count as Python mastery proof.
-- **Stages 3-10 are generated but not yet mastered.** Their packets exist and are ready, but Chris has not worked through or demonstrated mastery of any of them yet. Do not treat their existence as progress.
+- **Stages 4-10 are generated but not yet mastered.** Their packets exist and
+  are ready, but Chris has not worked through or demonstrated mastery of any of
+  them yet. Do not treat their existence as progress.
 
-**This page must never be read as "Chris should start at Stage 10."** Stages 0-2 are complete. Resume at the exact Stage 3 frontier above.
+**This page must never be read as "Chris should start at Stage 10."** Stages 0-3
+are complete. Resume at the exact Stage 4 frontier above.
 
 ## Current Learner Baseline
 
@@ -99,17 +110,14 @@ for this hub and cannot count as learner proof.
 
 ## Current Reading Queue
 
-- **Read now:** no broad reread. Run one fresh Stage 3 loop/accumulator build with
-  no hints, then explain the variable roles, condition, output placement, and
-  exit sequence.
-- **If the fresh build fails:** isolate the specific construction gap and read
-  only the matching Stage 3 section before retrying. Do not reopen basic `break`
-  teaching unless a new result shows a break-specific error.
-- **Read after Stage 3 closes:** [[stages/stage-04-functions-parameters-return]],
-  then [[concepts/defining-and-calling-functions]],
+- **Read now:** begin with the cold Stage 4 functions baseline. After the
+  baseline, read [[stages/stage-04-functions-parameters-return]], then
+  [[concepts/defining-and-calling-functions]],
   [[concepts/parameters-and-arguments]], and [[concepts/return-values]]. Spine
   reading is *Think Python* **physical pp. 43–52 and 83–87** — about 15 pages, exact
   section pages in [[source-page-map]].
+- **Read next after proof:** use the Stage 4 function-writing drill and Function
+  Toolbox mini-project only after the baseline identifies the real support need.
 - **Do not read yet:** standard library ([[stages/stage-04b-python-libraries]] —
   unlocks only after the Stage 4 functions gate closes), collections,
   searching/sorting, OOP, or Java. Their exact unlock triggers and semester
@@ -203,9 +211,7 @@ closed unless a specific learning gap justifies reopening it.
 
 ## Current Next Action
 
-Stage 2 is closed and Stage 3 is active. The traced `for.py`/`for2.py` work and
-the loop/`or` condition exercise are complete. Chris's next action is one fresh
-Stage 3 loop-and-accumulator build from a plain-English prompt, without hints,
-followed by an explain-back of the accumulator state on each iteration. Record
-the result here before advancing. All later packets remain content readiness,
-not study progress until worked and verified the same way Stage 2 was.
+Stages 0–3 are closed and Stage 4 functions is active. Chris's next action is a
+cold baseline: define and call one small function, then explain parameter,
+argument, and returned value before opening the Stage 4 reading. All later
+packets remain content readiness, not study progress until worked and verified.

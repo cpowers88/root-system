@@ -21,6 +21,33 @@ and next exact action remain in [[current-position]]. Stages 1–2 are
 provisionally cleared from the July build-ahead and must be confirmed against their
 mastery checklists if they have gone undrilled for a while.
 
+## Operational Readiness — verified 2026-07-26
+
+Every wikilink in all 18 stage packets was resolved against the live filesystem
+rather than read from this table's own claims. Result:
+
+**Stages 4–9 are fully operational.** Zero unresolved links. The 96 pages those
+packets depend on all exist, and 94 of the 96 carry substantial content (the two
+short ones are a glossary term and an index, both correctly brief). Nothing in the
+next five stages will stall a session for missing material.
+
+**Stages 10 and 12–18 hold 78 unresolved links.** Stage 11 is clean. The
+per-stage counts are now recorded in the table below, replacing the vaguer
+"supporting links unfinished" phrasing that under-reported five stages and
+over-reported one.
+
+**Build-ahead is not scheduled.** Per the just-in-time rule below, a stage is
+expanded when Chris is one stage away from it — not now. Stage 10 is five stages
+out, and Section 54's real D2L calendar (expected Aug 24) may still park or
+reorder Ch 13–18. Building those pages today would repeat the July cruise-prep
+pattern of generating content ahead of any evidence it is needed.
+
+**Advancement is mastery-gated, not calendar-gated.** A stage closes when its
+mastery checklist passes cold, whatever the week's plan says; see
+[[pacing-trigger-map]] for the triggers that move the active stage independent of
+the calendar. A weekly plan allocates hours — it does not hold a finished unit
+open, and it does not license moving on from an unfinished one.
+
 ## Stage Sequence
 
 ```text
@@ -67,21 +94,21 @@ the material has been mastered.
 | 1 | [[stages/stage-1-physics-and-measurement]] | built; mastery refresh if stale | units, algebra, estimation | measurements and material quantities |
 | 2 | [[stages/stage-2-motion-in-one-dimension]] | built; section citation corrected to 2.1-2.9; mastery refresh if stale | slope, derivative, graph area | driving, braking, elevators |
 | 3 | [[stages/stage-3-vectors]] | source-verified; **closed 2026-07-16** | trig, inverse trig, quadrants | navigation and cable forces |
-| 4 | [[stages/stage-4-motion-in-two-dimensions]] | source-verified; **active** | components, quadratics | thrown objects and water trajectories |
-| 5 | [[stages/stage-5-laws-of-motion]] | source-verified; **ready, not active** | simultaneous equations, incline trig | loads, ramps, connected equipment |
-| 6 | [[stages/stage-6-circular-motion]] | Ready — section 6.3 accelerated frames built out 2026-07-21 (concept, glossary, common-errors, flashcards, mastery items) | radians and circular geometry | vehicle turns and rotating rides |
-| 7 | [[stages/stage-7-energy-of-a-system]] | TOC screened; section 7.9 restored to alignment | dot product and force-distance integral | pushing, lifting, springs |
-| 8 | [[stages/stage-8-conservation-of-energy]] | TOC screened; packet covers 8.1-8.5 at overview level | algebra and rates | braking loss and roller-coaster energy |
-| 9 | [[stages/stage-9-linear-momentum]] | Ready — sections 9.7-9.9 parked 2026-07-21 (see [[parking-lot]]); Do Not Move On Until and Parked for Later sections added | vectors, simultaneous equations, force-time area | collisions and recoil |
-| 10 | [[stages/stage-10-rotation]] | TOC screened; core coverage present, supporting links unfinished | radians, torque trig, integration | wheels, flywheels, breaker bars |
-| 11 | [[stages/stage-11-angular-momentum]] | TOC screened; gyroscope/precession scope needs D2L confirmation | cross product, right-hand rule, derivatives | spinning tools and rotating bodies |
-| 12 | [[stages/stage-12-static-equilibrium]] | TOC screened; chapter sections represented | force/torque systems | beams, ladders, structures |
-| 13 | [[stages/stage-13-universal-gravitation]] | TOC screened; chapter topics represented, supporting links unfinished | inverse-square scaling | satellites and orbital systems |
-| 14 | [[stages/stage-14-fluid-mechanics]] | TOC screened; 14.3 and 14.7-14.8 need an include/park decision. Neither 2026-07-21 neighbor syllabus schedules this chapter — kept in path per Chris's 2026-06-25 confirmation; re-verify Section 54 after Aug 24. | density, area, volume, algebra | hydraulics, buoyancy, pipe flow |
-| 15 | [[stages/stage-15-oscillatory-motion]] | TOC screened; 15.6-15.7 intentionally parked pending course scope | sinusoids, second derivatives, small angles | suspension and pendulums |
-| 16 | [[stages/stage-16-wave-motion]] | TOC screened; overview covers 16.1-16.9, supporting links unfinished. Section 55's 2026-07-21 calendar stops before this chapter; Section 51's reaches it. Kept in path — see [[syllabus-coverage-ledger#Cross-Section Verification, 2026-07-21]]. | sinusoids, logs, partial-derivative recognition | strings, sound, moving sources |
-| 17 | [[stages/stage-17-superposition]] | TOC screened; alignment corrected through beats in 17.7; 17.8 parked. Same 2026-07-21 neighbor-calendar note as Stage 16. | phase and trig identities | instruments, pipes, resonance |
-| 18 | [[stages/stage-18-relativity]] | TOC screened; special relativity 38.1-38.8 represented; 38.9 parked. Neither 2026-07-21 neighbor syllabus calendar reaches this chapter, though all three syllabi's course-outcome text names it. Kept in path; re-verify Section 54 after Aug 24. | ratios, roots, limiting behavior | GPS timing and particle lifetime |
+| 4 | [[stages/stage-4-motion-in-two-dimensions]] | source-verified; **active**; all links resolve (2026-07-26) | components, quadratics | thrown objects and water trajectories |
+| 5 | [[stages/stage-5-laws-of-motion]] | source-verified; **ready, not active**; all links resolve (2026-07-26) | simultaneous equations, incline trig | loads, ramps, connected equipment |
+| 6 | [[stages/stage-6-circular-motion]] | Ready — section 6.3 accelerated frames built out 2026-07-21 (concept, glossary, common-errors, flashcards, mastery items); all links resolve (2026-07-26) | radians and circular geometry | vehicle turns and rotating rides |
+| 7 | [[stages/stage-7-energy-of-a-system]] | TOC screened; section 7.9 restored to alignment; all links resolve (2026-07-26) | dot product and force-distance integral | pushing, lifting, springs |
+| 8 | [[stages/stage-8-conservation-of-energy]] | TOC screened; packet covers 8.1-8.5 at overview level; all links resolve (2026-07-26) | algebra and rates | braking loss and roller-coaster energy |
+| 9 | [[stages/stage-9-linear-momentum]] | Ready — sections 9.7-9.9 parked 2026-07-21 (see [[parking-lot]]); Do Not Move On Until and Parked for Later sections added; all links resolve (2026-07-26) | vectors, simultaneous equations, force-time area | collisions and recoil |
+| 10 | [[stages/stage-10-rotation]] | TOC screened; core coverage present. **10 unresolved links (verified 2026-07-26):** 3 drills, 4 problem-types, 2 worked-examples, 1 calculus-link | radians, torque trig, integration | wheels, flywheels, breaker bars |
+| 11 | [[stages/stage-11-angular-momentum]] | TOC screened; **all links resolve (verified 2026-07-26)**. Gyroscope/precession scope still needs D2L confirmation — a scope question, not a missing-page one | cross product, right-hand rule, derivatives | spinning tools and rotating bodies |
+| 12 | [[stages/stage-12-static-equilibrium]] | TOC screened; chapter sections represented. **2 unresolved links (verified 2026-07-26):** both worked-examples (ladder-against-wall, beam-with-hanging-mass) | force/torque systems | beams, ladders, structures |
+| 13 | [[stages/stage-13-universal-gravitation]] | TOC screened; chapter topics represented. **9 unresolved links (verified 2026-07-26):** 3 concepts, 2 equations, 2 problem-types, 2 worked-examples | inverse-square scaling | satellites and orbital systems |
+| 14 | [[stages/stage-14-fluid-mechanics]] | TOC screened; 14.3 and 14.7-14.8 need an include/park decision. **9 unresolved links (verified 2026-07-26):** 2 drills, 2 equations, 3 problem-types, 2 worked-examples. Neither 2026-07-21 neighbor syllabus schedules this chapter — kept in path per Chris's 2026-06-25 confirmation; re-verify Section 54 after Aug 24. | density, area, volume, algebra | hydraulics, buoyancy, pipe flow |
+| 15 | [[stages/stage-15-oscillatory-motion]] | TOC screened; 15.6-15.7 intentionally parked pending course scope. **6 unresolved links (verified 2026-07-26):** 5 equations, 1 concept (pendulum) | sinusoids, second derivatives, small angles | suspension and pendulums |
+| 16 | [[stages/stage-16-wave-motion]] | TOC screened; overview covers 16.1-16.9. **11 unresolved links (verified 2026-07-26):** 3 concepts, 3 equations, 2 drills, 2 problem-types, 1 worked-example. Section 55's 2026-07-21 calendar stops before this chapter; Section 51's reaches it. Kept in path — see [[syllabus-coverage-ledger#Cross-Section Verification, 2026-07-21]]. | sinusoids, logs, partial-derivative recognition | strings, sound, moving sources |
+| 17 | [[stages/stage-17-superposition]] | TOC screened; alignment corrected through beats in 17.7; 17.8 parked. **9 unresolved links (verified 2026-07-26):** 4 concepts, 1 drill, 2 problem-types, 2 worked-examples. Same 2026-07-21 neighbor-calendar note as Stage 16. | phase and trig identities | instruments, pipes, resonance |
+| 18 | [[stages/stage-18-relativity]] | TOC screened; special relativity 38.1-38.8 represented; 38.9 parked. **22 unresolved links (verified 2026-07-26) — the largest gap in the path:** 5 concepts, 5 equations, 5 glossary, 3 problem-types, 2 drills, 2 worked-examples. Neither 2026-07-21 neighbor syllabus calendar reaches this chapter, though all three syllabi's course-outcome text names it. Kept in path; re-verify Section 54 after Aug 24. | ratios, roots, limiting behavior | GPS timing and particle lifetime |
 
 The just-in-time math route and current three-rep bridge live in
 [[math-readiness-path]]. Packet expansion follows the unresolved decisions above;

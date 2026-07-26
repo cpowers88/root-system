@@ -1504,3 +1504,30 @@ Module 0 (decomposition/algorithms/abstraction) is taught in lecture **Week 1** 
 lives at Stage 7; Module 7 (intro to Java, graded Lab 13 + Assignment 7) has no
 vault home; Stages 6, 9, and 10 appear in neither syllabus and should be relabelled
 a beyond-course track. Recorded in `current-position.md`.
+
+## 2026-07-26 — Stage 3 closed on fresh loop-and-accumulator gate (Codex)
+
+### Proof
+
+- Chris independently built `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Code\stage3_gate.py`:
+  one five-day input loop, running-total accumulator, above-30 counter, average,
+  and process pseudocode.
+- First run: total and threshold count passed the normal dataset; average produced
+  `20` because the denominator counter had advanced to 6. The threshold also used
+  inclusive `>= 30`, and line comments were present before process pseudocode.
+- Chris corrected the sequencing, strict boundary, decimal preservation, and
+  pseudocode without rebuilding the program.
+- Live tests passed: normal `125 / 2 / 25.0`; exact-30 boundary `30 / 0 / 6.0`;
+  decimal case `31 / 1 / 6.2`.
+
+### Status movement
+
+Stage 3 is **satisfied — PASS WITH CORRECTION**. Updated `current-position.md`,
+`learning-path.md`, and `index.md`; Stage 4 functions is now active. The initial
+miss remains evidence of requirement/sequencing precision under split attention,
+not a missing loop or accumulator model.
+
+### Next action
+
+Cold Stage 4 baseline: define and call one small function, then explain parameter,
+argument, and returned value before opening the Stage 4 reading.

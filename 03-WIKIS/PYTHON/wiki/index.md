@@ -23,13 +23,13 @@ tags: [programming]
 ## Stage Pages
 
 Generated curriculum exists through Stage 10, but Chris's current study stage is
-Stage 3. The exact mid-drill frontier lives only in [[current-position]].
+Stage 4. The exact learner frontier lives only in [[current-position]].
 
 - [[stages/stage-00-setup-and-orientation]] — satisfied
 - [[stages/stage-01-python-atoms]] — satisfied 2026-07-13
 - [[stages/stage-02-decisions-and-boolean-logic]] — satisfied 2026-07-16
-- [[stages/stage-03-loops-and-repetition]] ← current stage
-- [[stages/stage-04-functions-parameters-return]]
+- [[stages/stage-03-loops-and-repetition]] — satisfied 2026-07-26
+- [[stages/stage-04-functions-parameters-return]] ← current stage
 - [[stages/stage-05-data-shapes]]
 - [[stages/stage-06-files-errors-debugging]]
 - [[stages/stage-07-program-design]]

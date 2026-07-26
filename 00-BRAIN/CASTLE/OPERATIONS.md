@@ -107,6 +107,24 @@ Chris's explicit approval is required for governance changes, new phases or stru
 
 Weekly CASTLE maintenance checks due `check_at` items, changed or active owner realms, opportunity review dates, open risks, and one rotating staleness target. Monthly review performs the broader cross-system lint. Quarterly review runs the strategy Ratchet.
 
+**Sunday planning opens with the due-checks return (added 2026-07-26, Chris-approved).**
+The weekly cadence above already owns evaluation; this makes its output visible at
+the moment planning happens, because a `check_at` nobody reads at the deciding
+moment does not fire — the July 23 honest-floor trigger is the worked example. The
+Sunday step produces one short list before any planning is written:
+
+1. Every `check_at` item due this week, with its owner.
+2. **Learner-hub alignment, for Chris's explicit approval:** the current stage
+   position and stage plan for PHYSICS, EDUCATION, and PYTHON, stated from each
+   hub's own `wiki\` owner files, so Chris, Claude, and Codex confirm they are
+   working the same plan. Chris's approval is required; silence is not approval.
+3. **Instruction-protocol confirmation:** that the live boot chain and
+   `AGENT.md § Execution Discipline` are what all three parties are operating
+   under, re-verified after any Codex reboot following an instruction change.
+
+Items 2 and 3 are approval gates, not status lines. If Chris has not approved
+them, the week's plan is provisional and says so.
+
 `77-INBOX` is the single universal intake door, including Obsidian web clips.
 Route clear items through `WHERE_IT_GOES.md`; leave ambiguous items in place
 and flag them. CASTLE's `raw\` remains a separate triage-only staging point,
