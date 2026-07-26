@@ -10,9 +10,41 @@ status: live
 
 At 5:00 p.m. local time, read `MORNING_BRIEF.md`, `NOW.md`, today's DAILY, both active bootcamp evidence files, and the relevant owner's Current Reading Queue, then replace root `EVENING_READING.md` with **two short blocks**: **School** (primary) and **Technology** (brief, business-relevant).
 
+## Course Rotation — which course fills the School block (added 2026-07-25)
+
+The School block stays **one course per night**. Which course is set by weekday, so
+every registered course gets evening exposure across a week without the brief
+growing. The rotation is weighted to the live 40/30/15/10/5 allocation and each
+night **primes the next day's first block** in the current weekly plan.
+
+| Night | School lane | Primes |
+|---|---|---|
+| **Sunday** | Python | Monday's functions blocks |
+| **Monday** | Physics | Tuesday's equations block |
+| **Tuesday** | Python | Wednesday's build blocks |
+| **Wednesday** | TCOM | Thursday's ethics/audience reading |
+| **Thursday** | Physics | Friday's cold checkpoint |
+| **Friday** | ECON and ENGR, **alternating weeks** | the weekend and Tuesday's ENGR block |
+| **Saturday** | Python | the week's proof target / Sunday's review |
+
+Weekly totals: Python 3, Physics 2, TCOM 1, ECON-or-ENGR 1.
+
+**Two overrides, in this order:**
+
+1. **The owner's live queue still governs.** If the rotation names a course whose
+   queue has nothing unlocked, or whose next material is explicitly gated behind a
+   proof Chris hasn't produced, move to the next course in the rotation and say so
+   in one clause. Never assign locked material to satisfy the schedule.
+2. **A real deadline outranks the rotation.** A graded item due the next day takes
+   the block regardless of weekday.
+
+ENGR stays orientation/source-verification only until the real Fall BWD syllabus
+exists; never assign invented Fall content from the Summer reference section.
+
 ## Source Priority
 
 - **School block:** the owner's live reading queue governs (e.g. `PYTHON/wiki/current-position.md`, `PHYSICS/wiki/current-position.md`) — never assign a stage/chapter that queue hasn't unlocked yet. A raw PDF is **not a last resort** — for KSU spine material (Think Python, the Physics textbook, official syllabi) the raw source is the *preferred, recommended* citation over a wiki-processed page; point straight at it (`.../raw/books/....pdf` or `02-LIBRARY/00-SCHOOL/...`) with the exact chapter/section, and page numbers when the PDF is already page-mapped.
+- **Page numbers are now available and expected for Python.** `03-WIKIS/PYTHON/wiki/source-page-map.md` carries verified **physical** PDF pages for Think Python, Python Crash Course, and Python Workout. Cite the physical page, not just the chapter. PHYSICS page ranges live in its `source-map.md`.
 - **Technology block:** the single most immediately useful slice tied to active Bootcamp/business work; prefer continuing the same source across nights over restarting elsewhere.
 
 ## Format

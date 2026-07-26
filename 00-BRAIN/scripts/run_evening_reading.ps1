@@ -13,7 +13,14 @@ Each READ, FOCUS, and STOP line (one set per block, six lines total) must be one
 "@
 
 Push-Location $rootPath
+$priorOutputEncoding = [Console]::OutputEncoding
 try {
+    # Flag #80: PowerShell decodes a native process's stdout using the console output
+    # codepage. Under the default OEM codepage every UTF-8 em dash arrived as the
+    # mojibake "ΓÇö" BEFORE WriteAllText ever saw it, so the no-BOM UTF8Encoding on
+    # the write side could not fix it. Decode the child process as UTF-8 instead.
+    [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+
     $result = $prompt | & $claudePath -p --safe-mode --no-session-persistence --model sonnet --effort low --permission-mode dontAsk --tools "Read,Glob,Grep"
     if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace(($result -join "`n"))) {
         throw "Claude did not return a usable evening reading brief."
@@ -33,5 +40,6 @@ try {
     [System.IO.File]::WriteAllText($outputPath, $content, [System.Text.UTF8Encoding]::new($false))
 }
 finally {
+    [Console]::OutputEncoding = $priorOutputEncoding
     Pop-Location
 }

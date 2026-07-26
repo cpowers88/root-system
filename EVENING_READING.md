@@ -4,22 +4,23 @@ timeline: now
 status: active
 tags: [learning]
 generated: 2026-07-25
+school_lane: Python (Saturday rotation)
 ---
 
-# Evening Reading ΓÇö July 25, 2026
+# Evening Reading — July 25, 2026
 
 ## School
 
-**READ ΓÇö** `03-WIKIS/PYTHON/raw/books/thinkpython.pdf`, Ch.7, the "Updating Variables" section only.
+**READ —** `03-WIKIS/PYTHON/raw/books/thinkpython.pdf`, **physical page 103**, the "Algorithms" section of Ch.7 only.
 
-**FOCUS ΓÇö** Backs tonight's cold loop-and-accumulator build, not new material ΓÇö **an accumulator variable must be initialized before the loop starts, not inside it**.
+**FOCUS —** Monday's gate check is cold construction, the exact Stage 3 frontier still open — **an algorithm is the plan you can state before writing any code**.
 
-**STOP ΓÇö** Stop at the end of "Updating Variables," before "The while Statement" section begins.
+**STOP —** Stop where Ch.7's exercises begin; do not start Ch.3 functions material, which stays gated until Stage 3 closes.
 
 ## Technology
 
-**READ ΓÇö** `02-LIBRARY/.PROJECTS/MCP_Bootcamp/Code/server.py`, the full stdio wiring ΓÇö `handle_list_resources`, `handle_list_tools`, `handle_call_tool`, and `main()`.
+**READ —** `02-LIBRARY/.PROJECTS/MCP_Bootcamp/Code/mcp_contracts.py`, both tool functions, read against the `handle_call_tool` block at `server.py` lines 71–80.
 
-**FOCUS ΓÇö** This is Day 5's exact next step, wiring Day 4's contracts to a real server ΓÇö **`stdio_server()` turns stdin/stdout into the JSON-RPC streams `server.run()` consumes**.
+**FOCUS —** Day 5's next move is verification, not new code — **`arguments["keyword"]` on line 74 assumes that key exists, the first thing Inspector will break**.
 
-**STOP ΓÇö** Stop at line 101, end of file; do not start pytest edge-case coverage or Inspector verification tonight.
+**STOP —** Stop after comparing both contracts; do not write pytest cases or launch Inspector tonight.
