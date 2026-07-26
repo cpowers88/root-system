@@ -107,11 +107,39 @@ for this hub and cannot count as learner proof.
   teaching unless a new result shows a break-specific error.
 - **Read after Stage 3 closes:** [[stages/stage-04-functions-parameters-return]],
   then [[concepts/defining-and-calling-functions]],
-  [[concepts/parameters-and-arguments]], and [[concepts/return-values]]. The matching
-  spine reading is *Think Python* Chapters 3 and 6, limited to the Stage 4 sections
-  listed in [[syllabus-alignment]].
-- **Do not read yet:** collections, searching/sorting, OOP, or Java. Their exact
-  unlock triggers and semester reminders live in [[syllabus-alignment]].
+  [[concepts/parameters-and-arguments]], and [[concepts/return-values]]. Spine
+  reading is *Think Python* **physical pp. 43–52 and 83–87** — about 15 pages, exact
+  section pages in [[source-page-map]].
+- **Do not read yet:** standard library ([[stages/stage-04b-python-libraries]] —
+  unlocks only after the Stage 4 functions gate closes), collections,
+  searching/sorting, OOP, or Java. Their exact unlock triggers and semester
+  reminders live in [[syllabus-alignment]].
+
+## Stage Structure — realigned to the syllabi 2026-07-25
+
+Stage 4 and Stage 5 each carried two course modules, so their gates could not close
+against a single week of course work. Split, with **no stage renumbered and no file
+renamed**, so every existing link still resolves:
+
+| Course module | Assessed | Stage |
+|---|---|---|
+| M3 — Functions | Lecture Wk 7–8, Quiz 4; Lab 7 + A4 | [[stages/stage-04-functions-parameters-return]] |
+| M4 — Python Libraries | Lecture Wk 9, Quiz 5; Lab 8 | [[stages/stage-04b-python-libraries]] |
+| M5.1 + dictionaries | Lecture Wk 10–11; Labs 9–10 | [[stages/stage-05-data-shapes]] |
+| M5.2 — searching & sorting | Lecture Wk 11, Quiz 6; Lab 10 | [[stages/stage-05b-searching-and-sorting]] |
+
+Still open from that review, not yet actioned: Module 0 (decomposition, algorithms,
+abstraction) is taught in **lecture Week 1** but lives at Stage 7; Module 7 (intro
+to Java, graded as Lab 13 + Assignment 7) has no vault home; and Stages 6, 9, 10
+are not in either syllabus and should be labelled a beyond-course track rather than
+read as prerequisites Chris is behind on.
+
+## Teaching Method
+
+Sessions run the loop in [[teaching-loop]] — cold attempt before instruction,
+support escalated only as far as the observed error requires, explain-back, fresh
+transfer. Adopted 2026-07-25 on the Stage 3 evidence; **Chris rates the support
+level he needed at the end of each rep**, alongside pace and depth.
 
 ## Learning Design Requirements
 

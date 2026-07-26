@@ -51,6 +51,12 @@ Course core is strings, lists, tuples, dictionaries, indexing/slicing, mutation,
 aliasing, and choosing a fitting structure. Sets and deeper nested structures are
 enrichment; they do not block Fall 2026 course readiness.
 
+> **Split note, 2026-07-25.** This stage covers the course's Module 5.1 (tuples,
+> lists) and the dictionary half of Module 5.2. The **searching and sorting** half
+> of Module 5.2 is now [[stages/stage-05b-searching-and-sorting]] — pulled forward
+> from Stage 8, because lecture Week 11 quizzes it (Quiz 6) long before Stage 8
+> would have reached it.
+
 ## Code-Reading Gate
 
 Name the data shape first. Then mark every index or key access, mutation, alias,
@@ -111,5 +117,5 @@ Can choose the correct data structure (list, dictionary, or tuple) for a new pro
 - Nested structures deeper than one level (lists of dictionaries with lists inside) — introduced lightly here, drilled further in Stage 7-8 case studies.
 - List comprehensions — Stage 10.
 - `Counter`, `defaultdict`, and other specialized collection types — Stage 10, parked per `wiki/parking-lot.md`.
-- Searching/sorting algorithms on these structures — Stage 8.
+- Searching/sorting algorithms on these structures — **[[stages/stage-05b-searching-and-sorting]]** (course Module 5.2), with the formal analysis remaining at Stage 8.
 - NumPy arrays — parked until lists, loops, functions, and numeric work are solid.

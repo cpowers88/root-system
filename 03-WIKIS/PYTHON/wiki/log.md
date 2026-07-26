@@ -1433,3 +1433,74 @@ separated from this flag — not actioned.
 
 ### Next action
 Chris's next flag from his review file.
+
+## 2026-07-25 — Stage 4/5 split to match the syllabi; teaching loop adopted (Claude Code)
+
+### Work completed
+
+- Checked the Stage 3→4→5 pathway for breaks: **none found.** All 84 wikilinks in
+  the next three stages plus `current-position.md` and `learning-path.md` resolve;
+  `raw/docs/tutorial/modules.txt` exists; the spine mapping matches both syllabi.
+- Mapped the 11 vault stages against the two real syllabus calendars
+  (`raw/syllabi/CSE 1321 BF...md` and `CSE 1321L 04...md`). Found the structural
+  mismatch: Stage 4 and Stage 5 each carried **two course modules**, so neither
+  gate could close against a single week's course work.
+- **Split both, with no stage renumbered and no file renamed** — every existing
+  link still resolves, avoiding the stale-reference cost of a full renumber:
+  - `stages/stage-04b-python-libraries.md` (new) — course M4, lecture Wk 9,
+    Quiz 5, Lab 8. Stage 4 is now functions only and its gate can close.
+  - `stages/stage-05b-searching-and-sorting.md` (new) — course M5.2, lecture
+    Wk 11, Quiz 6, Lab 10. Pulled forward from Stage 8, which sat far later than
+    the week the course quizzes it. Formal Big-O/quicksort analysis stays at
+    Stage 8.
+- `wiki/teaching-loop.md` (new) — the adaptive method adopted at the July 25 gate:
+  cold attempt before instruction, support escalated only as far as the observed
+  error requires (none → concept cue → worked step), Accelerate/Deepen/Rebuild
+  routing from evidence, explain-back, fresh transfer. Scoped to this hub only;
+  no cross-domain rep has been run.
+- Stage 4's reading list now carries **physical PDF page numbers** (Think Python
+  pp. 43–52 and 83–87 — about 15 pages, not "two chapters") from the new
+  `wiki/source-page-map.md`.
+- Corrected the July 27 weekly plan: its Tuesday blocks described a drill split
+  that does not exist (`drills/stage-04-function-writing` is one undivided drill
+  with three functions, all taking a parameter — no no-parameter function, no
+  halves), and its Friday gate could not pass because it budgeted zero blocks for
+  the library bridge Stage 4 then required.
+
+### Pages created/updated
+
+Created: `stages/stage-04b-python-libraries.md`,
+`stages/stage-05b-searching-and-sorting.md`, `teaching-loop.md`,
+`source-page-map.md`. Updated: `stages/stage-04-functions-parameters-return.md`,
+`stages/stage-05-data-shapes.md`, `current-position.md`, `source-map.md`, and
+CASTLE's `weekly-plans/weekly-plan-2026-07-27-to-2026-08-02.md`.
+
+### Progress evidence
+
+No learner mastery moved this session — structure and pathway work only. Chris's
+existing Stage 3 artifacts were independently verified as part of the July 25
+teaching-method gate: all ten `.py` files read, the seven non-interactive ones
+executed, **all correct, zero defects**. `for.py` prints `First match: 12`, which
+closes the July 22 handoff blocker that described it as malformed — Chris had
+already corrected it the next morning.
+
+### Self-caught defect
+
+`stage-05b` first shipped with three invented glossary links
+(`linear-search`, `binary-search`, `sort`) that do not exist. Caught by running the
+link check before commit, repointed to the real entries (`searching`, `sorting`,
+`algorithm`, `big-o`). Both new stage files also initially omitted `timeline:` and
+took root health to BLOCKER with 2 new findings; fixed and re-verified.
+
+### Next action
+
+Monday: Python 1 is the Stage 3 gate check or, if Stage 3 is closed, a cold Stage 4
+functions baseline. Stage 4's gate is **functions only** — libraries are Stage 4b
+and are not part of this week.
+
+### Still open, not actioned
+
+Module 0 (decomposition/algorithms/abstraction) is taught in lecture **Week 1** but
+lives at Stage 7; Module 7 (intro to Java, graded Lab 13 + Assignment 7) has no
+vault home; Stages 6, 9, and 10 appear in neither syllabus and should be relabelled
+a beyond-course track. Recorded in `current-position.md`.
