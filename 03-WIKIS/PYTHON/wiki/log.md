@@ -1577,3 +1577,19 @@ not a missing loop or accumulator model.
 
 Cold Stage 4 baseline: define and call one small function, then explain parameter,
 argument, and returned value before opening the Stage 4 reading.
+
+## 2026-07-27 — CSE syllabus recapture routed from 77-INBOX (Codex)
+
+- Replaced the school-library working copies for CSE 1321 BF and CSE 1321L 04
+  with fresh Simple Syllabus captures. Course requirements did not change; the
+  new captures add exact meeting information and continuity-plan text.
+- Preserved the July 21 school-library copies under
+  `99-ARCHIVE/02-LIBRARY/00-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
+- The immutable PYTHON `raw/syllabi/` captures remain dated July 21. Corrected
+  `source-map.md` to stop claiming byte identity and escalated system flag #85
+  to HIGH because the canonical-copy disagreement is now material.
+
+**Learner status:** unchanged. This was official-source routing, not mastery.
+
+**Next action:** continue Stage 4 functions work; Chris's canonical-copy decision
+is separate and must not displace the learning plan.

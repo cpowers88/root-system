@@ -4,6 +4,7 @@ timeline: now
 status: active
 tags: [school, fall-2026, pre-semester]
 created: 2026-07-26
+revised: 2026-07-27
 review_trigger: 2026-08-24
 ---
 
@@ -25,13 +26,30 @@ ENGR 1000 is held on that basis.
 | Lane | Planned blocks (4 wks) | Fillable | Released | Course weeks reachable now |
 |---|---:|---:|---:|---|
 | TCOM 2010 | 16 | 16 (+4 absorbable) | 0 | Real Weeks 1–3, plus optional resume unit |
-| ECON 1000 | 12 | 6 | 6 | Real Weeks 1–2 only |
+| ECON 1000 | 12 | 8 | 4 | Real Weeks 1–2 content plus bounded Week 3 readiness |
 | ENGR 1000 | 8 | 0 | 8 | None — held to Aug 24 |
-| **Total** | **36** | **22–26** | **10–14** | |
+| **Total** | **36** | **24–28** | **8–12** | |
 
-**The headline: TCOM absorbs everything we can give it; ECON runs out of safe
-material after Week B; ENGR has nothing to run on.** Roughly 10 blocks over four
-weeks need a home outside this hub — see [Released blocks](#released-blocks).
+**The headline: TCOM absorbs everything we can give it; ECON has eight safe
+preparation blocks when later work is limited to durable concepts and cold
+retrieval; ENGR has nothing to run on.** Roughly 8–12 blocks over four weeks
+need a home outside this hub — see [Released blocks](#released-blocks).
+
+## Preparation gates
+
+Reading is an entry condition, not proof. These are the three outcomes this plan
+must produce before August 24:
+
+1. **TCOM Week 1 ready:** given an unseen workplace message, Chris can identify
+   audience, purpose, structure, requested action, ethical risk, and the needed
+   revision without drafting a real course submission.
+2. **ECON Chapters 1–3 ready:** Chris can explain scarcity, incentives,
+   opportunity cost, specialization, comparative advantage, production
+   possibilities, and the basic economic-system comparison using a fresh case.
+3. **D2L launch ready:** one verification list names the actual ECON textbook
+   chapter alignment, TCOM deadlines/templates, ENGR Fall requirements, and each
+   course's confirmed AI policy. This list is checked during Week 1; nothing is
+   inferred from an unavailable source.
 
 ## TCOM 2010 — 4 blocks/week, all four weeks
 
@@ -86,7 +104,7 @@ a career asset with 20+ worked examples on disk, and no D2L dependency.
 **Stop line:** do not enter the Week 4–5 Individual Project Proposal. That is
 real graded project work; preparing it early edges into producing a submission.
 
-## ECON 1000 — 3 blocks/week, Weeks A and B only
+## ECON 1000 — 2 blocks/week, all four weeks
 
 AI is permitted here if credited. The constraint is not policy, it is source
 quality: the real assigned text (*Contemporary Economic Issues*, Mathews &
@@ -94,39 +112,46 @@ Patrono) is D2L-locked, and **every OpenStax mapping past Chapter 1 is inferred,
 not verified.** Working deep against a guessed chapter map risks learning the
 wrong emphasis.
 
-### Week A — real course Week 1
+The raw exact-section syllabus verifies the course order and assessment groups:
+Chapters 1–3 feed the September 8 quiz; Chapters 4–5 feed the September 22
+quiz and September 29 Exam 1. The assigned Mathews/Patrono book remains
+D2L-only, so the plan prepares durable reasoning rather than claiming substitute
+chapter equivalence.
 
-1. OpenStax Ch 1 foundations (the one chapter confirmed by direct fetch).
-   Closed-book explain-back: scarcity, incentives, opportunity cost, one real
-   tradeoff.
-2. Explain-back using a household, construction, or business example.
-3. **Retargeted from "second foundations block":** cold retrieval against
-   [[courses/econ-1000/glossary/macro-terms]] and
-   [[courses/econ-1000/flashcards/gdp-inflation-unemployment]]. Reason: a second
-   foundations block pushes into substitute content the real book may not match;
-   retrieval does not.
+### Week A — foundations
 
-### Week B — real course Week 2
+1. OpenStax Chapter 1 orientation, then close the source and define scarcity,
+   incentives, opportunity cost, and tradeoff.
+2. Apply all four concepts to one household, construction, or small-business
+   allocation decision; draw the choice and rejected alternative.
 
-1. Scarcity and choice — the concepts are standard at intro level and survive a
-   change of textbook.
-2. Gains from specialization and trade; comparative advantage.
-3. Graph-reading rep: production possibilities frontier, axes, slope as
-   opportunity cost. Graph interpretation is named in `fall_2026_semester.md`
-   and is book-independent.
+### Week B — specialization and production choices
 
-### Weeks C and D — released, deliberately
+1. Explain absolute versus comparative advantage and gains from specialization
+   using a two-person/two-output example.
+2. Draw and interpret a production-possibilities frontier: axes, attainable and
+   unattainable points, slope as opportunity cost, and what moves the frontier.
 
-Course Week 3 is Economic Systems (capitalism vs. socialism). That is an unusual
-chapter for an intro text and exactly where Mathews & Patrono's particular
-framing matters most — the substitute maps are least trustworthy there. Weeks
-7–14 macro material is worse: the Great Depression / CPI packet at
-[[courses/econ-1000/reading-guides/great-depression-cpi]] has its **first unlock at Week 7**,
-and [[current-position]] sets the pre-semester ceiling at light vocabulary
-retrieval, not deep macro study.
+### Week C — bounded economic-systems readiness
 
-Six blocks released. Filling them would mean overriding this hub's own stated
-ceiling to burn time against a guessed chapter map.
+1. Build a neutral comparison of capitalism, socialism, and mixed systems using
+   ownership, allocation mechanism, incentives, coordination, and tradeoffs.
+   Do not attribute a claim to Mathews/Patrono before that book opens.
+2. Cold case classification: given a fresh policy or market example, identify
+   the incentive, tradeoff, likely winner/loser, and what evidence would be
+   needed before judging the policy.
+
+### Week D — cold gate and D2L handoff
+
+1. Fifteen-minute closed-source Chapters 1–3 readiness gate: seven definitions,
+   one comparative-advantage calculation, and one PPF interpretation.
+2. Open the real syllabus and build the D2L verification list: assigned-book
+   chapter headings, quiz availability/deadlines, practice materials, and
+   whether the face-to-face/online wording conflict has been corrected.
+
+**Stop line:** do not pre-study Chapters 4–12 from inferred substitute mappings.
+The Great Depression/CPI packet still unlocks at real course Week 7. Four ECON
+blocks remain released from the original 12-block allocation.
 
 ## ENGR 1000 — held, 8 blocks released
 
@@ -157,7 +182,7 @@ close flag #57's ENGR half.
 
 ## Released blocks
 
-**10 blocks minimum** (6 ECON + 8 ENGR = 14, less up to 4 TCOM can absorb in
+**8 blocks minimum** (4 ECON + 8 ENGR = 12, less up to 4 TCOM can absorb in
 Weeks C–D). Roughly 2–3 per week.
 
 Recommendation, but this is Chris's and CASTLE's call, not this hub's: send them
@@ -172,11 +197,13 @@ a real 13-credit load is sustainable.
 | Week | Lane | Planned | Completed | Artifact | Notes |
 |---|---|---:|---:|---|---|
 | A | TCOM | 4 | | | |
-| A | ECON | 3 | | | |
+| A | ECON | 2 | | | |
 | B | TCOM | 4 | | | |
-| B | ECON | 3 | | | |
+| B | ECON | 2 | | | |
 | C | TCOM | 4 | | | |
+| C | ECON | 2 | | | |
 | D | TCOM | 4 | | | |
+| D | ECON | 2 | | | |
 
 Proof is explain-back, retrieval, and craft analysis under closed-source
 conditions — not pages read. A miss gets named as a retest item, not recorded as
@@ -184,7 +211,11 @@ prose.
 
 ## Sources
 
-- Real syllabi: `02-LIBRARY\00-SCHOOL\03-TCOM\`, `04-ECON\`, `05-ENGR\`
+- Exact-section evidence used for this revision:
+  `raw\TCOM 2010 04 (85633) Fall 2026 Syllabus.md` and
+  `raw\ECON 1000 BAC (80643) Fall 2026 Syllabus.md`
+- ENGR boundary source:
+  `raw\ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md`
 - Course policies and AI rules: [[course-briefs/fall-2026-course-briefs]]
 - Week-by-week resource maps: [[courses/tcom-2010/semester-map]],
   [[courses/econ-1000/semester-map]]

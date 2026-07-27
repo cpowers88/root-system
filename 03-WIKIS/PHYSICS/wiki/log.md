@@ -1222,3 +1222,25 @@ existing next actions (Section 54 D2L confirmation, Aug 24+) are unchanged.
 ### Files touched
 - Added: `wiki/ipad-handwritten-physics-method.md`, `wiki/handwritten/`.
 - Earlier same day: `wiki/learning-path.md` (operational-readiness audit).
+
+## 2026-07-27 — Neighbor Section 51 syllabus recapture routed (Codex)
+
+- A fresh Simple Syllabus capture for PHYS 2211 Section 51 arrived during the
+  CASTLE inbox sort. It now names Farhan Islam (`fislam7@kennesaw.edu`), where
+  the July 21 capture omitted the top instructor block.
+- Replaced the school-library Section 51 reference and preserved the July 21
+  version under
+  `99-ARCHIVE/02-LIBRARY/00-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
+- Corrected `source-map.md`, `syllabus-coverage-ledger.md`,
+  `SYLLABUS_STATUS.md`, and flags #57/#85. The immutable PHYSICS `raw/` copy
+  was not modified.
+
+**Learner status:** unchanged. Section 51 is still a neighboring reference and
+does not establish Chris's Section 54 instructor, grading, dates, or AI policy.
+
+**Next exact rep:** unchanged — continue the active Stage 4 plan.
+
+**Chris clarification:** Farhan Islam is also listed online for Chris's actual
+Section 54. Updated `current-position.md`, `source-map.md`,
+`SYLLABUS_STATUS.md`, and flag #57 to classify Farhan as the provisional likely
+instructor. Exact-section grading, dates, and policies remain unconfirmed.

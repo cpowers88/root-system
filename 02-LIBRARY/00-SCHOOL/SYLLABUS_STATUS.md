@@ -19,16 +19,32 @@ tags: [school, syllabus, fall-2026]
 
 | Course | Registered section | Available Markdown source | Use boundary |
 |---|---|---|---|
-| PHYS 2211 | 54 (83722) | `02-Physics I/PHYS 2211 51 (83719) Fall 2026 Syllabus - Reference Only.md`; `02-Physics I/PHYS 2211 55 (83723) Fall 2026 Syllabus - Reference Only.md` | Neighboring sections only; Section 51 omits the top instructor block but its faculty profile identifies Krishna Rana Magar; Section 55 identifies Swayamprabha Behera |
+| PHYS 2211 | 54 (83722) | `02-Physics I/PHYS 2211 51 (83719) Fall 2026 Syllabus - Reference Only.md`; `02-Physics I/PHYS 2211 55 (83723) Fall 2026 Syllabus - Reference Only.md` | Neighboring sections only; the July 27 Section 51 recapture identifies Farhan Islam; Section 55 identifies Swayamprabha Behera |
 | ENGR 1000 | BWD (80858) | `05-ENGR/ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md` | Summer reference only; not Fall section BWD |
 
 ## Missing Current Sources
 
-- PHYS 2211 Section 54 has no section-specific syllabus or listed instructor as of 2026-07-21.
+- PHYS 2211 Section 54 has no section-specific syllabus. Its July 21 registration
+  capture lists no instructor, but Chris reports that the current online listing
+  names Farhan Islam; treat Farhan as provisional until D2L or an exact-section
+  source confirms him.
 - ENGR 1000 Section BWD has no current Fall 2026 syllabus as of 2026-07-21.
 - D2L access exists but Chris reports that course content is not populated.
 
 Recheck Simple Syllabus and D2L when the courses populate. Exact-section materials supersede reference-only sources when they become available.
+
+## July 27 Recapture
+
+Fresh Simple Syllabus captures replaced the July 21 working copies for CSE
+1321, CSE 1321L, ECON 1000, and TCOM 2010. The course requirements did not
+change; the new captures add exact meeting information. ECON also explicitly
+states that attendance is strongly encouraged but not graded. The July 21
+working copies are preserved under
+`99-ARCHIVE/02-LIBRARY/00-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
+
+The ENGR 1000 W01 file delivered with this batch was body-identical to the
+existing Summer reference. It was archived as a duplicate and does not close
+the missing Fall BWD source gap.
 
 ## Physics Neighbor-Section Comparison
 
@@ -45,7 +61,7 @@ Material section differences:
 
 | Control | Section 51 | Section 55 |
 |---|---|---|
-| Instructor evidence | No top instructor block; faculty profile names Krishna Rana Magar | Instructor block and faculty profile name Swayamprabha Behera |
+| Instructor evidence | July 27 recapture names Farhan Islam and `fislam7@kennesaw.edu`; supersedes the July 21 capture's missing instructor block | Instructor block and faculty profile name Swayamprabha Behera |
 | Unit exams | Four tests; best three count | Three exams stated in grading and calendar, although one prose line inconsistently mentions four |
 | Final weight | 25% | 30% |
 | Participation structure | Attendance 7.5% plus recitation 7.5% | Participation 10% |

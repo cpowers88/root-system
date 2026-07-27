@@ -434,3 +434,41 @@ updated: 2026-07-24
 - **Still open for Chris:** flag #85 (one canonical-copy rule for school hubs,
   MEDIUM, due at a weekly review) and where the 10–14 released blocks go —
   recommended to Python and Physics, but that is CASTLE's call, not this hub's.
+
+## 2026-07-27 — Exact-section syllabus recapture routed from 77-INBOX (Codex)
+
+- Replaced the school-library working copies for ECON 1000 and TCOM 2010 with
+  fresh Simple Syllabus captures. Requirements did not change; both add exact
+  meeting information, and ECON explicitly says attendance is encouraged but
+  not graded.
+- Preserved the July 21 working copies under
+  `99-ARCHIVE/02-LIBRARY/00-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
+- The delivered ENGR W01 Summer file was body-identical to the existing
+  reference and was archived as a duplicate. Fall BWD remains missing.
+- The immutable EDUCATION `raw/` captures remain dated July 21 and now diverge
+  from the school-library files. Corrected `source-map.md` and escalated flag
+  #85 to HIGH rather than silently selecting a canonical-copy rule.
+
+**Next action:** Chris chooses one canonical home for official course files;
+until then, use the July 27 school-library captures as the newest official
+evidence and keep the divergence explicit.
+
+## 2026-07-27 — Raw-syllabus preparation plan activated (Codex)
+
+- Re-read the exact-section ECON 1000 and TCOM 2010 syllabi directly from
+  EDUCATION `raw/`, plus the ENGR Summer reference and both live semester maps.
+- Updated [[pre-semester-coverage-plan]] rather than creating a competing plan.
+  TCOM remains 16 fully sourced blocks. ECON moved from six blocks limited to
+  Weeks A–B to eight bounded blocks across all four weeks.
+- ECON now prepares Chapters 1–3 durable reasoning only: scarcity, incentives,
+  opportunity cost, specialization, comparative advantage, PPF interpretation,
+  neutral economic-system comparison, fresh-case classification, and a cold
+  readiness gate. It does not claim the substitute books match Mathews/Patrono.
+- Added three pre-semester gates: TCOM Week 1 message-analysis readiness, ECON
+  Chapters 1–3 readiness, and a D2L verification handoff.
+- ENGR remains held because the only syllabus is Summer W01 and its assignment
+  schedule is absent.
+
+**Next exact action:** run ECON Week A Block 1 in the next CASTLE ECON slot:
+OpenStax Chapter 1 orientation followed by a closed-source definition of
+scarcity, incentives, opportunity cost, and tradeoff.

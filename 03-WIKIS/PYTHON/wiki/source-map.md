@@ -34,13 +34,18 @@ control total. **For the quick per-stage table, see `wiki/learning-path.md` →
 
 | Source | Location | Type | Status | Role | Difficulty | Current Use | Notes |
 |---|---|---|---|---|---|---|---|
-| CSE 1321L official syllabus | `raw/syllabi/CSE 1321L 04 (86703) Fall 2026 Syllabus.md` | syllabus | direct web capture 2026-07-21; predecessor PDF visually verified 2026-07-15 | school-policy | n/a | policy, outcomes, grading, tools, topic order | Chris's section; AI prohibited; 13 labs + 7 assignments; Gradescope; lab calendar dates conflict with Fall title. Byte-identical working duplicate also kept at `02-LIBRARY/00-SCHOOL/01-CSE-Python/` for Chris's own coursework use — not the citation target. |
-| CSE 1321 official syllabus | `raw/syllabi/CSE 1321 BF (81262) Fall 2026 Syllabus.md` | syllabus | direct web capture 2026-07-21; predecessor PDF visually verified 2026-07-15 | school-policy | n/a | policy, outcomes, grading, tools, topic order | Chris's section; AI prohibited; Think Python recommended; 10 quizzes + 3 exams. Byte-identical working duplicate also kept at `02-LIBRARY/00-SCHOOL/01-CSE-Python/` for Chris's own coursework use — not the citation target. |
+| CSE 1321L official syllabus | `raw/syllabi/CSE 1321L 04 (86703) Fall 2026 Syllabus.md` | syllabus | **raw/ replaced 2026-07-27** with the fresh capture (Chris-authorized raw exception) — the July 21 version is gone, not archived separately | school-policy | n/a | policy, outcomes, grading, tools, topic order, instructor, meeting time | Chris's section; AI prohibited; 13 labs + 7 assignments; Gradescope. **New in this capture:** instructor **Muhammad Usman** (musman2@kennesaw.edu, Atrium 3114), meets **Tuesdays 5:45–7:35 PM, Atrium Building Room 2120, in-person**. The `02-LIBRARY/00-SCHOOL/01-CSE-Python/` copy was moved into `raw/`, not left duplicated — flag #85's divergence is resolved for this file specifically (PYTHON's own rule was always "raw canonical," and raw now holds the current version). |
+| CSE 1321 official syllabus | `raw/syllabi/CSE 1321 BF (81262) Fall 2026 Syllabus.md` | syllabus | **raw/ replaced 2026-07-27** with the fresh capture (Chris-authorized raw exception) — the July 21 version is gone, not archived separately | school-policy | n/a | policy, outcomes, grading, tools, topic order, instructor, meeting time | Chris's section; AI prohibited; Think Python recommended; 10 quizzes + 3 exams. **New in this capture:** instructor **Eun Sik Kim** (ekim54@kennesaw.edu, Atrium 3114), meets **Mondays & Wednesdays 4:10–5:30 PM, Academic Building Room 203, in-person**. The `02-LIBRARY/00-SCHOOL/01-CSE-Python/` copy was moved into `raw/`, not left duplicated — flag #85's divergence is resolved for this file specifically (PYTHON's own rule was always "raw canonical," and raw now holds the current version). |
 | Syllabus topic-table extracts | `raw/syllabi/CSE_{lecture,lab}_syllabus.md` | derivative extract | retained | quick-reference | n/a | topic order only | older, narrower pair predating the July 21 full captures above; not a full syllabus ingest; omits policy, outcomes, grading, tools, and materials |
 | Think Python, 2nd Ed. (Allen Downey) | `raw/books/thinkpython.pdf` | book | ingested (TOC-level) | spine | beginner-friendly | active spine for Stages 1-8 | course textbook Chris added 2026-06-24; subtitle "How to Think Like a Computer Scientist" is the literal source of the vault's CS-thinking framing |
 
-### Syllabus Extraction Notes (active Markdown captures verified 2026-07-21)
+### Syllabus Extraction Notes (raw/ replaced 2026-07-27 with fresh captures; original extraction verified 2026-07-21)
 
+- **Instructors and meeting times (new 2026-07-27):** CSE 1321 lecture — Eun Sik
+  Kim, Mon/Wed 4:10–5:30 PM, Academic Building Rm 203, in-person. CSE 1321L lab —
+  Muhammad Usman, Tue 5:45–7:35 PM, Atrium Building Rm 2120, in-person. Neither
+  conflicts with Physics (MWF 9:10–10:05 AM) or Chris's Tuesday 4–5 PM therapy —
+  the lab starts 45 minutes after therapy ends.
 - **AI policy:** Both official syllabi explicitly prohibit generative-AI-assisted
   submitted work. CSE 1321 and 1321L are `ai-restricted`; private concept study is
   allowed, submitted work is Chris's alone.

@@ -1292,3 +1292,26 @@ evidence record. Remaining work is interface conformance tracked in
 **Next exact action:** reboot clean for Chris's next directed task. If it starts
 inside a hub, use it to prove the new local loader; otherwise preserve that test
 for the next hub-local session.
+
+## 2026-07-27 — 77-INBOX school-source and reference sort (Codex)
+
+- Routed fresh CSE 1321, CSE 1321L, ECON 1000, and TCOM 2010 syllabus captures
+  into their existing school-library homes; preserved the replaced July 21
+  copies in the school archive.
+- Confirmed the delivered ENGR W01 file is the same Summer reference already
+  held; archived the duplicate and left Fall BWD source status open.
+- Routed *Think Data Structures* to `02-LIBRARY/ref-programming/`.
+- Kept the 17 unique chapters from *Business Information Systems: Design an
+  App for That* together under
+  `02-LIBRARY/ref-business/business-information-systems-design-an-app-for-that/`;
+  archived one byte-identical duplicate chapter.
+- The recaptures made flag #85's canonical-copy conflict real. Source maps now
+  state the divergence and the flag is HIGH pending Chris's decision.
+
+**Next exact action:** validate the routed files and leave no ambiguous intake
+in `77-INBOX`.
+
+**Late-arriving intake:** a fresh neighboring PHYS 2211 Section 51 capture
+arrived during validation. It now names Farhan Islam, replacing the July 21
+school-library reference that omitted the instructor block. Routed and
+reconciled; Chris's Section 54 remains unresolved.

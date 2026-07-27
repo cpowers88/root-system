@@ -49,15 +49,16 @@ opens.
 
 [[pre-semester-coverage-plan]] is the live answer to what these three lanes can
 actually run before August 24. Verdict: of 36 planned blocks across four weeks,
-**22–26 are fillable and 10–14 must go elsewhere.** TCOM absorbs everything
-available (real course Weeks 1–3, all sources verified on disk); ECON is safe
-through real Week 2 and then stops, because every chapter mapping past OpenStax
-Ch 1 is inferred against a D2L-locked textbook; ENGR is held to August 24 on
-Chris's decision, since no course content exists and the reference syllabus
-defers its assignment list to a D2L PDF we do not have.
+**24–28 are fillable and 8–12 must go elsewhere.** TCOM absorbs everything
+available (real course Weeks 1–3, all sources verified on disk). ECON now has
+eight bounded preparation blocks across all four weeks: durable Chapters 1–3
+concepts, case reasoning, cold retrieval, and a D2L verification handoff without
+claiming substitute-text alignment. ENGR is held to August 24 on Chris's
+decision, since no course content exists and the reference syllabus defers its
+assignment list to a D2L PDF we do not have.
 
 ## Next Review
 
 Review at the August 1 monthly checkpoint, when D2L/course modules populate, and
-before the August 24 semester start. The current ECON pre-semester ceiling remains
-light vocabulary retrieval, not deep macro study.
+before the August 24 semester start. The ECON ceiling remains Chapters 1–3
+readiness and light retrieval, not inferred Chapters 4–12 or early macro study.

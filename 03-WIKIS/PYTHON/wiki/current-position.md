@@ -181,8 +181,13 @@ level he needed at the end of each rep**, alongside pace and depth.
   solve, rewrite, or debug submitted course work. Stop and ask whenever graded status
   is unclear. See [[syllabus-alignment]].
 
-## School Alignment (official syllabi verified 2026-07-15; active Markdown captures 2026-07-21)
+## School Alignment (official syllabi verified 2026-07-15; raw/ replaced 2026-07-27 with fresh captures)
 
+- **Instructors confirmed 2026-07-27:** CSE 1321 lecture — Eun Sik Kim, meets
+  Mon/Wed 4:10–5:30 PM (Academic Building Rm 203, in-person). CSE 1321L lab —
+  Muhammad Usman, meets Tue 5:45–7:35 PM (Atrium Building Rm 2120, in-person).
+  No conflict with Physics lecture (MWF 9:10–10:05 AM) or Chris's Tuesday
+  4–5 PM therapy.
 - Course schedule covers ~13-15 weeks: decomposition/abstraction → data types/operators/Boolean → selection → iteration/loops → functions/parameters/arguments → Python libraries → tuples/lists → dictionaries/searching/sorting → OOP → (lab only) intro to Java.
 - Topics Chris must master before class begins: vault Stages 1-4 (atoms, decisions, loops, functions) — matches Weeks 1-4 of the existing 8-Week Python Foundation Plan.
 - *Think Python* is the recommended, no-cost course text and is already the Stage

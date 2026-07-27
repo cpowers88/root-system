@@ -14,8 +14,12 @@ This page tracks Chris current physics learning position.
 ## Current Baseline
 
 Course: PHYS 2211 — Principles of Physics I (Kennesaw State, Fall 2026,
-Section 54). Instructor remains unconfirmed in the official registration record;
-the available Section 51 and 55 syllabi are pacing references only.
+Section 54). The official registration record still lists no instructor, but
+Chris reports that the current online listing names **Farhan Islam**; treat him
+as the provisional likely instructor pending D2L or an exact-section syllabus.
+The available Section 51 syllabus also names Farhan Islam, strengthening the
+match without making Section 51's grading, dates, or policies binding on
+Section 54. Sections 51 and 55 remain pacing references only.
 Source intake complete for the original `syllabus.pdf` (superseded and archived
 2026-07-21 — see [[source-map]] for its current location and the two real Fall
 2026 section syllabi that replaced it as the live reference) and the split Serway

@@ -125,7 +125,8 @@ sequence.
 
 ## Cross-Section Verification, 2026-07-21
 
-Two real Fall 2026 PHYS 2211 syllabi were obtained: Section 51 (Krishna Rana Magar)
+Two real Fall 2026 PHYS 2211 syllabi were obtained: Section 51 (the July 27
+recapture names Farhan Islam; the July 21 raw capture omitted the instructor block)
 and Section 55 (Swayamprabha Behera) — see `raw/syllabus/`. Neither is Chris's
 registered Section 54 (flag #57, still open pending Aug 24 D2L confirmation), but
 both are same-course, same-term, and give the first real look at pacing beyond

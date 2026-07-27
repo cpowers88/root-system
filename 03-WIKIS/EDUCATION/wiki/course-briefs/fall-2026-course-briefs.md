@@ -1,7 +1,7 @@
 ---
 type: reference
 tags: [school, fall-2026]
-source: "02-LIBRARY\00-SCHOOL\04-ECON\ECON 1000 BAC (80643) Fall 2026 Syllabus.md; 02-LIBRARY\00-SCHOOL\03-TCOM\TCOM 2010 04 (85633) Fall 2026 Syllabus.md; 02-LIBRARY\00-SCHOOL\05-ENGR\ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md — all captured 2026-07-21 via Simple Syllabus, replacing the July 9 PDF ingest"
+source: "02-LIBRARY\00-SCHOOL\04-ECON\ECON 1000 BAC (80643) Fall 2026 Syllabus.md; 02-LIBRARY\00-SCHOOL\03-TCOM\TCOM 2010 04 (85633) Fall 2026 Syllabus.md; 02-LIBRARY\00-SCHOOL\05-ENGR\ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md — exact-section ECON/TCOM recaptured 2026-07-27; ENGR remains the 2026-07-21 Summer reference"
 timeline: reference
 ---
 
@@ -29,7 +29,8 @@ beyond what each course's own policy allows.
 
 ## ECON 1000 — Contemporary Economic Issues (BAC / 80643)
 
-**Status: exact section**, captured directly from Simple Syllabus 2026-07-21.
+**Status: exact section**, captured directly from Simple Syllabus 2026-07-21
+and recaptured 2026-07-27 with exact meeting information.
 
 - **Format:** 2 credit hours, 14 weeks, face-to-face Tue/Thu 8:00–8:50 am,
   Marietta Q-202. Instructor: Zeynep Kelani (zkelani@kennesaw.edu; office
@@ -84,7 +85,8 @@ beyond what each course's own policy allows.
 
 ## TCOM 2010 — Technical Writing (Section 04 / 85633)
 
-**Status: exact section**, captured directly from Simple Syllabus 2026-07-21.
+**Status: exact section**, captured directly from Simple Syllabus 2026-07-21
+and recaptured 2026-07-27 with exact meeting information.
 
 - **Format:** 3 credit hours (prereq ENGL 1101), Radow College. Instructor:
   Lisa Diamond (ldiamon@kennesaw.edu or lisa.diamond@kennesaw.edu — email
