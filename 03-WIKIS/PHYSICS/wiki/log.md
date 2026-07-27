@@ -1126,6 +1126,64 @@ existing next actions (Section 54 D2L confirmation, Aug 24+) are unchanged.
 
 ---
 
+## 2026-07-27 — Stage 4 first handwritten rep: launch diagram + full angled-launch solve (Claude Code)
+
+### Outcome
+- First real artifact under the handwritten-iPad method. Chris cold-picked
+  and solved an angled-launch problem (soccer ball, v₀ = 18 m/s @ 40°, ground
+  level) live in chat: launch diagram with axes, sign convention, θ marked,
+  v₀ labeled — then, after one added correction, decomposed v₀ into v₀ₓ/v₀ᵧ,
+  found flight time, range, and max height.
+
+### Evidence
+- Diagram received via a Google Drive share link, read directly from the
+  source PDF — not yet exported into `wiki/handwritten/`.
+- v₀ₓ = 18cos40° = 13.79 m/s, v₀ᵧ = 18sin40° = 11.57 m/s — both correct on
+  the first attempt.
+- First explain-back gap: the diagram initially skipped the v₀ₓ/v₀ᵧ
+  decomposition entirely (stray î/ĵ notation placed in the wrong spots
+  instead of drawn components). Corrected with one physical anchor (the v₀
+  arrow's tip drops a dashed line to each axis, forming a right triangle)
+  before Chris re-sent.
+- Two arithmetic slips, both self-corrected fast once flagged: flight time
+  first computed with g = 0.8 instead of 9.8 (misread the "9"); then range
+  and max height both computed using total v₀ = 18 instead of the
+  direction-specific component (v₀ₓ for range, the full y(t) equation for
+  height).
+- Final correct numbers: T = 2.36 s, range ≈ 32.5 m, max height ≈ 6.8 m —
+  confirms Chris's own live hypothesis (stated mid-problem, before the
+  numbers existed) that horizontal distance exceeds vertical rise.
+- This problem is structurally the drill's **Problem 3** (angled launch, max
+  height + range), not the assigned **Problems 1-2** (horizontal launch,
+  v₀ᵧ = 0 at launch) — those remain open for this afternoon.
+
+### Capability/status movement
+- Stage 4 moves from "packet ready, zero attempts" to "first rep complete,
+  with corrections." Not a mastery gate — Friday's conditional Stage 4 gate
+  remains the real checkpoint. This rep functionally covers most of the
+  Seven-Day Plan's original diagram/equations task, minus the specific
+  Problems 1-2.
+
+### Errors, uncertainty, or residual risk
+- The three error classes hit today (missing component decomposition, a
+  misread constant, substituting total magnitude for a directional
+  component) are worth a quick cross-check against
+  `common-errors/stage-4-motion-in-two-dimensions.md` to confirm they're
+  already-named categories rather than new ones.
+- Artifact still lives only on Chris's Google Drive as of this entry.
+  Target filename: `2026-07-27_stage-04_launch-diagram.pdf`.
+- Section 54's real syllabus/problem set is still unconfirmed (flag #57);
+  today's problem was self-generated, not assigned.
+
+### Exact next independent rep
+- This afternoon (running ~30 min late after a family interruption):
+  `[[drills/projectile-motion-drill]]` Problems 1 and 2 — horizontal launch,
+  a genuinely different case since v₀ᵧ starts at zero.
+
+### Files touched
+- This log; `wiki/current-position.md` (Active Unit section — today's rep
+  recorded, Seven-Day Plan date conflict flagged).
+
 ## 2026-07-26 — Handwritten-physics method adopted (Claude Code)
 
 ### Outcome

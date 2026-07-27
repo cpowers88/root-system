@@ -37,6 +37,21 @@ must be verified in D2L; see [[source-map#Syllabus Data-Quality Gate]].
 
 ## Active Unit
 
+**2026-07-27 — first handwritten Stage 4 rep complete.** Chris hand-drew a
+launch diagram and solved a full angled-launch problem on the iPad (self-
+picked: soccer ball, v₀=18 m/s @ 40°, ground level) — axes, sign convention,
+θ marked, v₀ decomposed into v₀ₓ=13.79/v₀ᵧ=11.57 m/s after one correction,
+then flight time T=2.36s, range≈32.5m, max height≈6.8m after two corrected
+arithmetic slips (g=0.8 vs 9.8; total v₀ substituted for the direction-
+specific component in both formulas). Structurally this matches the drill's
+Problem 3 (angled launch), not the assigned Problems 1-2 (horizontal
+launch) — those remain open. Full record: `wiki/log.md` 2026-07-27. Artifact
+not yet exported to `wiki/handwritten/` — still only on Chris's Drive.
+**Note:** the Seven-Day Plan table below still lists this exact rep under
+*Sunday* Jul 26; it actually ran Monday Jul 27, matching the CASTLE weekly
+plan and this hub's own method page. Table row needs a date correction —
+flagged, not yet fixed.
+
 **Stage 4 — Motion in Two Dimensions (Ch 4).** Active as of 2026-07-16.
 Neighbor-section pacing estimate: F Sep 4 and W Sep 9, 2026; these are not
 confirmed Section 54 dates. Packet already source-verified 2026-07-07 (Section

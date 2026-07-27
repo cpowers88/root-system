@@ -8,8 +8,8 @@ generated: 2026-07-27
 
 # Morning Brief — July 27, 2026
 
-**ATTENTION —** `NOW.md` still headers "Sunday, July 26" as today; its Monday content is accurate but the date needs refreshing after today's proof — `NOW.md`.
+**ATTENTION —** Your live lane is PHYSICS, but `NOW.md` still points to Monday's Python baseline; do not infer that baseline passed without owner evidence — `NOW.md`.
 
-**START —** Run the 9:00 Python cold baseline — define and call one function, explain parameter/argument/return — before any reading; `03-WIKIS/PYTHON/wiki/current-position.md`.
+**START —** Keep Claude as live teacher and complete the current Stage 4 handwritten cold rep; this builds Fall readiness — `03-WIKIS/PHYSICS/wiki/current-position.md`.
 
 **CHRIS —** None before start.
