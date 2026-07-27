@@ -1198,6 +1198,28 @@ this entry.
 **Next exact action:** finish the July 26 review and begin Monday with the
 Python Stage 3 gate check or, if already closed, the Stage 4 functions baseline.
 
+## 2026-07-26 — Simulation-plan reconciliation after owner updates
+
+- Reloaded the governed boot chain and reconciled the weekly plan against today's
+  Stage 3 Python close, the EDUCATION pre-semester coverage plan, the handwritten
+  Physics method, the evening-reading override, and the new Execution Discipline
+  rules.
+- Found a live arithmetic conflict: the intermediate plan claimed 11 Python,
+  11 Physics, 4 TCOM, 3 ECON, and 0 ENGR, but its day rows and evidence table did
+  not agree and still forced a full Friday Physics gate.
+- Corrected the live 32-block allocation to Python 11 + CSE Lab 3, Physics 11,
+  TCOM 5, ECON 2, ENGR 0. This puts CSE/Python at 43.75% including lab, Physics
+  at 34.4%, TCOM at 15.6%, and ECON at 6.25%; integer blocks and the temporary
+  ENGR source hold explain the small variance from Chris's original targets.
+- Preserved textbook order: Friday runs the complete Physics Stage 4 gate only
+  if all prerequisite categories are ready; otherwise it records the exact cold
+  frontier without manufacturing a pass.
+- Marked the approved workload spec accurately, indexed it, and refreshed
+  `NOW.md` and `MORNING_BRIEF.md` after the evening reading was completed.
+
+**Next exact action:** Monday at 9:00, run the cold Stage 4 Python functions
+baseline before opening the assigned reading.
+
 ## 2026-07-25 — Architecture update closed: migration scaffolding retired, flag #84 decided (Claude)
 
 - Verified Pass 1 landed against live files rather than reports: `root_health.py`

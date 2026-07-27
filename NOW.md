@@ -20,18 +20,18 @@ tags: []
    PYTHON, Codex passed from inside PHYSICS. One non-learner hub boot remains.
 3. **Week map — DONE.** 32 blocks, six days:
    [weekly-plan-2026-07-27-to-2026-08-02.md](00-BRAIN/CASTLE/wiki/weekly-plans/weekly-plan-2026-07-27-to-2026-08-02.md).
-4. **Tonight's evening reading — the last item.** Names Monday's exact pages and
-   first proof.
+4. **Tonight's evening reading — DONE.** Physics §4.1–4.2 is assigned; Python
+   reading is deliberately withheld until after Monday's cold baseline.
 
 ## Today's Gate
 
-The week is ready when tonight's reading is written. Everything else on today's
-list is closed.
+**The week is ready.** The 32-block plan has been rechecked against live learner
+truth, EDUCATION's new source-coverage plan, and the approved execution rules.
 
 ## If Today Breaks
 
-Do item 3 only. Tonight's reading is what Monday actually runs on; the map can be
-rebuilt Monday morning in fifteen minutes. Tell Codex the map slipped.
+Open the weekly plan and run Monday's 9:00 Python cold baseline. Do not use
+optional system work to rebuild the map.
 
 ## Fixed Today
 
@@ -39,16 +39,13 @@ rebuilt Monday morning in fifteen minutes. Tell Codex the map slipped.
 
 ## Tomorrow — Launch
 
-Monday, July 27 opens the full-course-load simulation: 20 academic blocks across
-Python (8), Physics (6), TCOM (3), ENGR (2), Economics (1). Work begins within
+Monday, July 27 opens the 32-block simulation: Python 11, CSE Lab 3, Physics 11,
+TCOM 5, ECON 2, and ENGR 0 until its Fall source exists. Work begins within
 15 minutes of sitting down.
 
-**Open question for Chris before Monday:** Physics has 6 blocks this week, which
-covers projectile motion (§4.1–4.3). Stage 4's gate requires all 13 checklist
-items including circular motion, radial/tangential, and relative velocity
-(§4.4–4.6). Under Execution Discipline rule 5 the gate fires whenever you're
-ready — so **Stage 4 likely does not close this week, and that is fine.** Confirm
-you want it taught in order rather than compressed to force a Friday gate.
+Physics stays in textbook order. Friday's full Stage 4 gate runs only if the
+owner-defined prerequisites are ready; otherwise the checkpoint records the
+exact frontier without forcing a pass.
 
 ## Not Today
 

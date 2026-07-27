@@ -3,13 +3,13 @@ type: dashboard
 timeline: now
 status: active
 tags: [castle]
-generated: 2026-07-26
+generated: 2026-07-27
 ---
 
-# Morning Brief — July 26, 2026
+# Morning Brief — July 27, 2026
 
-**ATTENTION —** `EVENING_READING.md` is stale and still names Python Stage 3, now closed; tonight's Monday reading and first proof remain unwritten.
+**ATTENTION —** `NOW.md` still headers "Sunday, July 26" as today; its Monday content is accurate but the date needs refreshing after today's proof — `NOW.md`.
 
-**START —** Write tonight's exact Monday reading so the simulation week begins with work; the weekly sequence lives in `00-BRAIN/CASTLE/wiki/weekly-plans/weekly-plan-2026-07-27-to-2026-08-02.md`.
+**START —** Run the 9:00 Python cold baseline — define and call one function, explain parameter/argument/return — before any reading; `03-WIKIS/PYTHON/wiki/current-position.md`.
 
-**CHRIS —** Confirm Physics Stage 4 stays in textbook order rather than being compressed to force a Friday gate; learner truth remains `03-WIKIS/PHYSICS/wiki/current-position.md`.
+**CHRIS —** None before start.

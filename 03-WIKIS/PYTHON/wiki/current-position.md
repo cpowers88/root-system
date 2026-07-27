@@ -41,9 +41,20 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
   (`31 / 1 / 6.2`) tests. Verdict: PASS WITH CORRECTION.
 - **Current study stage: Stage 4 — Functions.**
   `wiki/stages/stage-04-functions-parameters-return.md`.
-- **Exact learner frontier:** cold functions baseline before reading — define
-  and call one small function, then explain parameter, argument, and returned
-  value. Stage 4 is functions only; Python libraries remain Stage 4b.
+- **Stage 4 cold baseline — PASS WITH CORRECTION (2026-07-27).** Chris wrote
+  and ran `add_this(a, b)` and `greet(name)` cold
+  (`02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\{function,greet}.py`).
+  First explain-back pass conflated parameter/argument and described `def` as
+  a "label generator." After one physical anchor (mail slot: `def` labels an
+  empty slot = parameter; the call drops a real value in = argument), a fresh
+  transfer on `greet(name)` / `greet("Chris")` correctly identified `name` as
+  the parameter and `"Chris"` as the argument in both directions. One residual
+  correction given, not yet re-tested: `return` sends the computed value back
+  out to the caller, it does not "hold" the argument.
+- **Exact learner frontier:** cold baseline closed; next is the Stage 4
+  reading — *Think Python* pp. 43-52 and 83-87 — then
+  [[stages/stage-04-functions-parameters-return]] and the function-writing
+  drill. Python libraries remain Stage 4b.
 - **Code evidence in the MCP Bootcamp workbench:** `Code/for.py` records the
   recovered first-match trace; `Code/for2.py` records the nearby divisible-by-7
   transfer; `Code/PT.py` records the independent multi-part `or` condition plus
@@ -211,7 +222,8 @@ closed unless a specific learning gap justifies reopening it.
 
 ## Current Next Action
 
-Stages 0–3 are closed and Stage 4 functions is active. Chris's next action is a
-cold baseline: define and call one small function, then explain parameter,
-argument, and returned value before opening the Stage 4 reading. All later
-packets remain content readiness, not study progress until worked and verified.
+Stages 0–3 are closed; Stage 4 functions is active and its cold baseline is
+closed (2026-07-27, PASS WITH CORRECTION — see above). Chris's next action is
+the Stage 4 reading, *Think Python* pp. 43-52, then the function-writing drill.
+All later packets remain content readiness, not study progress until worked
+and verified.

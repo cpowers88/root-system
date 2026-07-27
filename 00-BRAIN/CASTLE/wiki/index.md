@@ -91,8 +91,10 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 - [[weekly-plans/weekly-plan-2026-07-23-to-2026-07-26]] — active execution
   plan; CASTLE owns weekly sequencing, while Session Logs own retrospective
   reviews
-- [[weekly-plans/weekly-plan-2026-07-27-to-2026-08-02]] — planned full-course-load
-  simulation using Chris's 40/30/15/10/5 Python, Physics, TCOM, ENGR, and
-  Economics allocation; closes at the August 2 review
+- [[weekly-plans/weekly-plan-2026-07-27-to-2026-08-02]] — active 32-block
+  simulation; ENGR is source-gated to August 24 and its share is temporarily
+  absorbed by the sourced course lanes; closes at the August 2 review
+- [[weekly-plans/school-week-simulation-spec-2026-07-27]] — approved workload
+  basis for the 32-block simulation; the weekly plan owns live scheduling
 - [[pre-semester-python-push-2026]] — four-week module sequence, July 27 to
   August 23; feeds each Sunday's weekly plan, holds no learner truth

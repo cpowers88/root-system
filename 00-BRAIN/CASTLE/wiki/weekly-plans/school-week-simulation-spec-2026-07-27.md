@@ -1,18 +1,21 @@
 ---
 type: spec
 timeline: now
-status: awaiting-approval
+status: approved
 tags: [planning, school, fall-2026, simulation-week]
 created: 2026-07-26
+approved_by: Chris
+approved: 2026-07-26
 ---
 
 # School Week Simulation — Honest Workload Spec
 
 **Purpose.** Chris asked for a simulation of one real week of the Fall 2026 load,
 with an honest assessment of how much work that actually is, built from the
-syllabi rather than from our own stage plans. This spec proposes what the July
-27–August 2 week should contain. It amends
-`weekly-plan-2026-07-27-to-2026-08-02.md` on approval; nothing is changed yet.
+syllabi rather than from our own stage plans. This spec proposed what the July
+27–August 2 week should contain. Chris approved the 32-block simulation on
+July 26; the live implementation is
+`weekly-plan-2026-07-27-to-2026-08-02.md`.
 
 **Sources.** Exact-section syllabi for CSE 1321 BF, CSE 1321L 04, ECON 1000 BAC,
 TCOM 2010 04. PHYS 2211 §55 as pacing reference only — Chris's §54 has no
@@ -303,15 +306,10 @@ Stated so no one over-reads the result:
 
 ---
 
-## Approval needed
+## Approval record
 
-1. **Option A (20 blocks, relabeled) or Option B (32 blocks)?** Recommendation: B.
-2. **Confirm physics is taught in order** — Ch 4 complete this week, Stage 4 gate
-   attempted Saturday, and an open Stage 4 is an acceptable outcome.
-3. **Confirm the timed closed-book quizzes** in both hard subjects. This is the
-   part most likely to be uncomfortable and it is the part that carries the most
-   information.
-
-On approval this spec amends `weekly-plan-2026-07-27-to-2026-08-02.md`; the
-PHYSICS owner page is reconciled to the same allocation; and tonight's evening
-reading is written against Monday's first two blocks.
+1. Chris approved **Option B: 32 blocks** on July 26.
+2. Physics remains in textbook order; a calendar does not force mastery.
+3. Timed closed-book checks remain in both hard subjects.
+4. The later EDUCATION owner review released ENGR entirely until August 24.
+   CASTLE reconciled the live allocation without rewriting this decision record.

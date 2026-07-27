@@ -1123,3 +1123,44 @@ existing next actions (Section 54 D2L confirmation, Aug 24+) are unchanged.
 - Updated: `wiki/log.md`.
 - Root continuity updates: `MORNING_BRIEF.md` and
   `00-BRAIN/Session_Logs/DAILY_2026-07-26.md`.
+
+---
+
+## 2026-07-26 — Handwritten-physics method adopted (Claude Code)
+
+### Outcome
+- Chris's decision recorded as hub method: **all physics work is handwritten on
+  the iPad**, because the work is spatial — diagrams, axes, sign conventions, and
+  vector decomposition cannot be typed without converting the problem into
+  transcription. New page: `wiki/ipad-handwritten-physics-method.md`. New evidence
+  folder: `wiki/handwritten/`.
+
+### Evidence
+- The method's page skeleton (sketch + knowns/unknowns → model → symbolic →
+  numbers → check) maps one-to-one onto the syllabus-wide mastery standard and
+  onto the eight evidence components the Stage 4 gate requires. Its purpose is
+  that a miss can be located to a box rather than scored as one aggregate wrong
+  answer.
+- Colour convention fixed: black given, blue work, red answer, **green
+  correction**. Wrong first attempts are never erased — the first attempt plus a
+  green correction on one page is the artifact the teaching loop needs.
+- Artifact naming: `handwritten/YYYY-MM-DD_stage-NN_drill-name.pdf`.
+
+### Capability/status movement
+- None. No physics was worked this session; Stage 4 remains active and the
+  frontier is unchanged.
+
+### Errors, uncertainty, or residual risk
+- The method is unproven — zero artifacts exist yet. Deliberately *not*
+  standardised further: per the July 24 source batch, run the week, keep whatever
+  Chris actually does twice, and write that down after it exists.
+- First rep is deliberately small: Monday 11:00, one launch diagram only.
+
+### Exact next independent rep
+- Monday July 27, 11:00 — Ch 4 §4.1–4.2 (pp. 68–74), hand-draw one launch
+  diagram with axes and sign convention marked. Tonight's reading assigns the
+  pages.
+
+### Files touched
+- Added: `wiki/ipad-handwritten-physics-method.md`, `wiki/handwritten/`.
+- Earlier same day: `wiki/learning-path.md` (operational-readiness audit).

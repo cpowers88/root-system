@@ -8,6 +8,52 @@ timeline: log
 
 Append every meaningful ingest, path update, teaching session, or structure change here.
 
+## 2026-07-27 — Stage 4 cold functions baseline: PASS WITH CORRECTION
+
+### Work completed
+- Monday's week-opening proof gate. Chris wrote and ran two functions cold,
+  before any Stage 4 reading:
+  `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\function.py`
+  (`add_this(a, b)`) and `code\greet.py` (`greet(name)`). Both ran correctly.
+- First explain-back (in-code comments) conflated parameter and argument and
+  described `def` as a "label generator." Escalated one physical anchor (mail
+  slot: the `def` line labels an empty slot — parameter; the call drops a real
+  value into it — argument) rather than a full lecture.
+- Fresh transfer: asked Chris to write a new function (`greet`) and identify
+  the parameter/argument pair without copying the prior example. He correctly
+  named `name` (in `def greet(name):`) as the parameter and `"Chris"` (in
+  `greet("Chris")`) as the argument, in both directions, unprompted.
+- One residual miscue not yet re-tested: his comment described `return` as
+  "letting the function know where to hold the argument" — corrected that
+  `return` sends the computed value back out to the caller. Also corrected
+  "script" → string literal, and confirmed his near-miss "cannotation" was
+  reaching for concatenation.
+- **Verdict: PASS WITH CORRECTION.** Parameter/argument — the actual target of
+  this baseline — is solid on a fresh example. Stage 4 baseline closed; Chris
+  moves to the Stage 4 reading next.
+
+### Pages created/updated
+`current-position.md` (baseline result recorded, next action updated). This log.
+
+### Vocabulary added
+None new — parameter/argument/return were taught via correction and transfer,
+not first introduction.
+
+### Drills or projects added
+None — Chris's own cold `function.py`/`greet.py` serve as this rep's evidence.
+
+### Progress evidence
+Cold baseline passed with one correction, matching the Stage 3 gate pattern.
+Return-value framing is the one item worth a light re-check next session.
+
+### Parked material
+None new.
+
+### Next action
+Stage 4 reading — *Think Python* pp. 43-52 — then the function-writing drill
+and Function Toolbox mini-project per `weekly-plan-2026-07-27-to-2026-08-02.md`'s
+10:00 Monday slot.
+
 ## 2026-07-16 — Stage 2 verification gate CLOSED
 
 Both open Stage 2 gates closed in this session:
