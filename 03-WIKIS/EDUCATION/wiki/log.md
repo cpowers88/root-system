@@ -7,6 +7,25 @@ updated: 2026-07-24
 
 # EDUCATION Wiki — Session Log
 
+## 2026-07-27 (evening) — Weeks 1-6 ingestion check, TCOM + ECON, against fresh recaptures
+
+- Codex's earlier inbox sort left two raw syllabus captures coexisting per
+  course (stale July 21 at `raw/[file].md`, fresh July 27 at
+  `raw/Syllabi/[file].md`) — root-level duplicates removed by Chris before
+  this session, `raw/Syllabi/` is now the sole copy for TCOM, ECON, ENGR.
+- Read the new TCOM and ECON syllabi's full Weeks 1-6 in this session and
+  checked every deliverable/date/chapter against `courses/tcom-2010/
+  semester-map.md` and `courses/econ-1000/semester-map.md`. **Both already
+  accurate** — the July 21 ingestion held up; the 1,109-line raw diff on
+  TCOM was mostly re-scrape formatting (a duplicated calendar table, an
+  added HTML grading-rubric block), not a real schedule change.
+- Added two small confirmed details each map didn't have: TCOM's real
+  attendance-penalty structure (3 free unexcused absences, then ~3.5 pts/
+  absence, 6=one letter grade, 9=two); ECON's Week 6 Thursday (10/1)
+  post-exam review session and the online/no-extension quiz-exam policy.
+- Weeks 7-14 for both courses not yet re-checked against the fresh
+  captures — next pass when there's a specific need, not tonight.
+
 ## 2026-07-24 — Machine-first course architecture installed
 
 - Installed `OPERATIONS.md` as the machine contract and reduced `CLAUDE.md`

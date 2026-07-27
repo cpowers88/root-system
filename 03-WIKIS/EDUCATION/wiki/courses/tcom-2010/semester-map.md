@@ -42,6 +42,18 @@ syllabus's own weekly structure.
 | 14 | Instructions Group Project (final) | Ch 2.6 | same Instructions-Usability folder as Week 13 | `10_Instructions_1`–`8` |
 | recurring (e.g. Wk 7 Font Style Quiz) | Grammar/style/proofreading checks | Ch 8 Technical Editing | `Presentations-Notes\Comma-Rules_Fake-It-Til-You-Make-It.pptx` | `8_Proofreading.pdf`, `8_Style-Sheet.pdf` |
 
+## Verified against the 2026-07-27 recapture
+
+Full Weeks 1–6 cross-checked line-by-line against the fresh `raw/Syllabi/`
+capture — every deliverable, due order, and chapter homework assignment
+below already matched; no map changes needed. One new operational detail
+confirmed: **attendance** — TCOM 2010 meets in person (TTh, not online); the
+first 3 unexcused absences are free, then ~3.5 points off the final grade
+per absence starting the 4th, 6 absences costs a full letter grade, 9 costs
+two. Missing a class for a non-emergency reason (work, travel, studying for
+another test) means a zero on that day's in-class work — worth remembering
+before scheduling anything against a TCOM class day once the semester starts.
+
 ## Gaps found while mapping (nothing invented to fill them)
 
 - **Report Group Charter & Task Schedule** (Week 6) has no matching

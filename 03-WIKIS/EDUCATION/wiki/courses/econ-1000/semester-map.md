@@ -51,6 +51,16 @@ They supplement rather than replace the assigned textbook and lecture.
 | Weeks 10-11 | Wheelock guide Chunk 4 + drill Part C | Makes government action analyzable as tool, mechanism, result, and tradeoff | Evaluate one policy claim without reducing it to “government acted” |
 | Week 14 review | Wheelock guide Chunk 5 + drill Part D | Integrates Chapters 7-11 without pretending the historical essay is the assigned text | Two-minute causal explanation with source boundaries |
 
+## Verified against the 2026-07-27 recapture
+
+Weeks 1–6 cross-checked against the fresh `raw/Syllabi/` capture's actual
+dated calendar (8/25/26 through 9/29/26) — every date, chapter, and quiz
+grouping already matched; no map changes needed. Two small additions: **Week
+6 Thursday (10/1)** is a "Review Commonly Missed Questions" session the day
+after Exam 1, not previously in this map. **All quizzes and Exam 1 are
+online via D2L, strictly no-extension/no-makeup** — Exam 1 day (9/29) itself
+has no face-to-face class meeting.
+
 ## What's confirmed vs. inferred
 
 - **Confirmed this session:** the full real schedule, both exam dates and
