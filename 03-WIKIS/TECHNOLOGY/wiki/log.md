@@ -827,3 +827,239 @@ Chris's decisions.
   learner truth, then select one existing tracker/scanner vehicle for the next
   SQL-reliability proof. No new research queue was opened.
 - Raw files and unrelated worktree changes were untouched.
+
+## 2026-07-27 - Goal-lens raw re-evaluation started
+
+- Re-evaluated the Technology raw shelf against the live North Star,
+  Advisor-Builder strategy, capability weak-link order, and Technology
+  Recommendation Ladder.
+- Selected *Business Information Systems* (Beynon-Davies, 2nd ed., 2013) as
+  the first bounded source because its decision and workflow material can serve
+  live diagnosis and technology-selection capability without opening an
+  advanced-method curriculum.
+- Read physical PDF pp. 39-53 as chunk 1 and visually checked rendered source
+  pages. The durable content covers open systems, activity systems,
+  input/process/output, material and information flows, control/feedback, and
+  value networks.
+- Routing verdict: the chunk belongs primarily to SYSTEMS and substantially
+  overlaps existing value-stream and feedback pages. No duplicate Technology
+  page was created; the raw PDF remained unchanged.
+- Added a four-step re-evaluation plan to
+  [[raw-source-coverage-and-intake-status]]: next inspect Chapters 9-12 for
+  impact assessment, planning, operations, and development; then selectively
+  inspect the 2026 industrial-engineering source. Advanced proceedings,
+  optimization, quantum, virtualization, R, and unsourced chat exports remain
+  parked behind their existing triggers.
+- Next action: read the first 10-15 physical pages of Chapter 9, compare any
+  decision method against existing TECHNOLOGY/SYSTEMS/BUSINESS pages, and
+  update only the owning page when a genuine delta is found.
+
+## 2026-07-27 - Business Information Systems Chapter 9 selective ingest
+
+- Completed Chapter 9 in two bounded chunks: physical PDF pp. 313-327 and
+  328-342 (book pp. 274-303). Rendered sample pages from both chunks before
+  relying on extracted text.
+- Chunk 1 added a three-layer worth test to
+  [[user-experience/user-experience-structure-skeleton-surface-and-validation]]:
+  functionality, usability, and utility, followed by the evidence chain from
+  system/information quality through use and satisfaction to organizational net
+  benefit. Linked it to SYSTEMS' user-centered design page and BUSINESS'
+  [[workflow-observation-method]].
+- Chunk 2 created the distinct applied reference
+  [[software-engineering/information-system-evaluation-lifecycle-and-failure-levels]]:
+  strategic, formative, summative, and post-mortem evaluation, plus the
+  development/use failure axis across technical, project, organizational, and
+  environmental levels.
+- Updated BUSINESS' workflow-observation report gate to distinguish a working
+  tool from one that is usable and operationally valuable, and to name the
+  correct evaluation moment.
+- Reclassified raw ledger row 34 from Reference-only to Selective; disposition
+  totals remain 44/44. Updated the Technology index from 132 to 133 content
+  pages and Software Engineering from 9 to 10.
+- No raw file was modified or copied. Period-specific technology, procurement,
+  and adoption claims were not retained as current evidence.
+- Next action: begin Chapter 10 with physical PDF pp. 346-360 and extract only
+  durable planning/strategy decision methods that add to existing owner pages.
+
+## 2026-07-27 - Business Information Systems Chapter 10 chunk 1
+
+- Read and rendered physical PDF pp. 346-360 (book pp. 307-321).
+- Routed the durable delta to BUSINESS rather than duplicating Technology's
+  possibility map: [[strategic-diagnosis-and-coherent-action]] now triangulates
+  organizational, environmental, and technology evidence before a technology
+  response and distinguishes target-driven, resource-driven, and
+  implementation-driven planning.
+- Linked the planning modes to
+  [[software-engineering/information-system-evaluation-lifecycle-and-failure-levels]]
+  so targets and means are checked before commitment, during implementation,
+  and after real use.
+- Did not retain dated competitive, e-business, Internet-channel, organizational
+  chart, or vendor examples as current claims.
+- No raw file was modified or copied.
+- Next action: continue Chapter 10 with physical PDF pp. 361-375, focusing only
+  on durable alignment, portfolio, sourcing, and management decision methods.
+
+## 2026-07-27 - Business Information Systems Chapter 10 chunk 2
+
+- Read and rendered physical PDF pp. 361-375 (book pp. 322-336).
+- Created
+  [[software-engineering/information-process-system-and-technology-alignment-map]]
+  for the durable dependency chain from organizational process to information
+  classes, systems, technology, standards, skills, and operations.
+- Added the process/information matrix to BUSINESS'
+  [[workflow-observation-method]] so observations can expose duplicated entry,
+  missing ownership, conflicting definitions, unsupported processes, unofficial
+  systems, and integration boundaries.
+- Linked the alignment map to the evaluation lifecycle, strategic diagnosis,
+  SYSTEMS value-stream mapping, and existing Technology architecture references.
+- Updated the Technology index from 133 to 134 content pages and Software
+  Engineering from 10 to 11.
+- COBIT versions, regulation references, channel examples, and period-specific
+  technology claims remain historical and require current primary-source
+  verification before use.
+- No raw file was modified or copied.
+- Next action: begin Chapter 11 with physical PDF pp. 374-388 only after
+  reconciling the Chapter 10/11 page boundary; extract durable service,
+  operations, sourcing, and support methods.
+
+## 2026-07-27 - Business Information Systems Chapter 11 chunk 1
+
+- Reconciled the boundary: Chapter 10 ends on physical PDF p. 373 and Chapter 11
+  begins on p. 374. Read and rendered Chapter 11 physical pp. 374-388 (book
+  pp. 335-349).
+- The chunk mostly reinforced the existing alignment framework. Added the
+  durable ownership split across planning, management, project management,
+  development, maintenance, and operations to
+  [[software-engineering/information-process-system-and-technology-alignment-map]].
+- Explicitly made build/buy recommendations incomplete until operation, support,
+  maintenance, evaluation, modification, and retirement owners are named.
+- Did not retain dated industry history, career classifications, centralized/
+  decentralized organization examples, or vendor cases as current evidence.
+- No new page and no raw copy were created.
+- Next action: read Chapter 11 physical PDF pp. 389-403 for sourcing,
+  project-management, and service-operation decision methods.
+
+## 2026-07-27 - Business Information Systems Chapter 11 chunk 2
+
+- Read and rendered physical PDF pp. 389-403 (book pp. 350-364), completing
+  Chapter 11.
+- Extended
+  [[software-engineering/information-process-system-and-technology-alignment-map]]
+  with a delivery-to-operations control loop rather than creating separate,
+  version-bound PRINCE2 and ITIL pages.
+- Added product-first planning, bounded stages and work packages, tolerance
+  escalation, boundary reauthorization, a living business case, formal close,
+  and post-delivery evaluation.
+- Added a service-portfolio record covering service definition, request,
+  support, incident restoration, recurring-problem control, change/release,
+  service levels, continuity, total cost of ownership, and improvement.
+- Kept PRINCE2/ITIL/ISO versions, 2013 technology examples, environmental
+  statistics, and vendor/industry claims as historical context requiring
+  current primary-source verification.
+- No new page and no raw file was modified or copied.
+- Next action: begin Chapter 12 with physical PDF pp. 406-420 after reconciling
+  the chapter boundary; retain only development methods that materially improve
+  existing software-engineering pages.
+
+## 2026-07-27 - Business Information Systems Chapter 12 chunk 1
+
+- Reconciled the boundary: Chapter 12 begins on physical PDF p. 404. Read
+  physical pp. 404-420 (book pp. 365-381).
+- The lifecycle and stakeholder material largely reinforced the existing
+  evaluation, UX-requirements, agile, and alignment pages.
+- Extended
+  [[software-engineering/information-process-system-and-technology-alignment-map]]
+  with two explicit development decisions: bespoke versus package/configuration,
+  and staged/linear versus iterative sequencing.
+- Recorded the durable trade: a package accelerates access but shifts design
+  pressure onto organizational processes; iteration reduces requirement and
+  usability risk but needs bounded time, scope, and learning controls.
+- Recommended the practical hybrid: authorize through controlled stages while
+  using small prototypes inside stages where uncertainty remains.
+- Did not retain method histories, dated package/vendor examples, or categorical
+  claims that one sequencing model always fits a system type.
+- No new page and no raw file was modified or copied.
+- Next action: review physical PDF pp. 421-435 for requirements, modelling, and
+  construction methods; update only where there is a distinct operational
+  delta.
+
+## 2026-07-27 - Business Information Systems Chapter 12 chunk 2
+
+- Read physical PDF pp. 421-435 (book pp. 382-396), completing Chapter 12 and
+  the bounded Chapters 9-12 re-evaluation.
+- Added parallel technical/work-system requirements, stakeholder disagreement,
+  acceptance scenarios, and early participation to
+  [[user-experience/user-experience-strategy-scope-and-requirements]].
+- Added integration, volume/capacity, and acceptance-test distinctions to
+  [[software-engineering/software-testing-levels-and-techniques]].
+- Extended
+  [[software-engineering/information-process-system-and-technology-alignment-map]]
+  with technical and work-system readiness, direct/parallel/phased conversion,
+  corrective/adaptive/perfective/preventive maintenance, and configuration
+  control.
+- Did not retain dated development methods, enterprise-package assumptions,
+  cost percentages, or vendor examples as current claims.
+- No new page and no raw file was modified or copied.
+- Next action: move to the second bounded source in the re-evaluation order,
+  *Next-Generation Industrial Engineering*; inspect only content that can
+  strengthen workflow observation, smart-manufacturing measurement, or
+  human/technology integration.
+
+## 2026-07-27 - Next-Generation Industrial Engineering quality gate
+
+- Read the front matter and contents in physical PDF pp. 1-35, then reviewed
+  physical pp. 73-107 across Chapters 6-7 for human/robot integration,
+  industrial measurement, and predictive-process methods.
+- Found no durable delta over existing workflow, instrumentation, data-science,
+  human/technology, and reliability coverage.
+- Parked the source as quality-limited: Chapter 7's strong optimization results
+  are based primarily on synthetic data, the manuscript contains an unresolved
+  editorial placeholder, and its human-integration discussion remains
+  conceptual rather than an executable method.
+- Retained no numerical performance claims and created no Industry 4.0 study
+  queue. The bibliography may be used only to discover original primary
+  sources, which must be verified directly.
+- No wiki synthesis page was changed, and no raw file was modified or copied.
+- Next action: evaluate the third bounded source, *Intelligent Automation in
+  Oil, Gas, and Chemical Industries (2026)*, only for a named workflow or
+  reliability method; route architecture to AI_AUTOMATION_SYSTEMS and
+  operational-system patterns to SYSTEMS.
+
+## 2026-07-27 - Intelligent Automation volume quality gate
+
+- Read the contents and framing in physical PDF pp. 1-35, then inspected
+  physical pp. 119-133 for the strongest safety/reliability candidate and
+  pp. 159-174 for anomaly detection.
+- Parked the volume as quality-limited rather than routing material into
+  AI_AUTOMATION_SYSTEMS or SYSTEMS.
+- The safety chapter connects motorcycle rider devices to oil/gas control
+  through a simulated cross-industry comparison rather than a validated
+  industrial workflow. The anomaly chapter evaluates network-intrusion
+  benchmark traffic and extrapolates the result to oil operations.
+- The useful abstractions—sensor qualification, environmental robustness,
+  local safety control, latency, interoperability, false-alarm handling, and
+  human response—already have stronger coverage in Technology instrumentation,
+  software testing, and SYSTEMS human-error methods.
+- Retained no performance numbers or architecture claims. The bibliography is
+  discovery-only until an original primary source is opened and verified.
+- No synthesis page was changed, and no raw file was modified or copied.
+- Next action: keep the remaining broad sources parked and resume ingestion
+  only from a source with a named gap, or verify the primary references behind
+  one specific industrial reliability question.
+
+## 2026-07-27 - Goal-lens Technology intake queue closed
+
+- Re-read the live goal-aligned gap audit and all 44 raw-source dispositions
+  after completing the three-source review.
+- Closed the bounded July 27 intake queue. The remaining raw shelf is already
+  compiled, selectively covered, routed, excluded, or parked behind explicit
+  OAuth, virtualization, IoT-case, optimization, quantum, R, metadata, or
+  primary-evidence triggers.
+- Added `Parked, quality-limited` to the ledger vocabulary and reconciled the
+  source-family summary to 9 Reference-only, 2 Parked quality-limited, and 1
+  Excluded; the full total remains 44/44.
+- Recorded the completion outcome for all three reviewed sources so a future
+  session does not restart broad ingestion.
+- Next action: return to the live operating constraint named by `NOW.md` or the
+  capability-development owner. Open raw material again only if that work
+  exposes a specific unanswered question.

@@ -1315,3 +1315,40 @@ in `77-INBOX`.
 arrived during validation. It now names Farhan Islam, replacing the July 21
 school-library reference that omitted the instructor block. Routed and
 reconciled; Chris's Section 54 remains unresolved.
+
+## 2026-07-27 — Monday simulation day one: proof gates, flag #85 PYTHON resolution, EDUCATION ingestion, cleanup (Claude Code)
+
+- **Learning proof:** Python Stage 4 cold functions baseline — PASS WITH
+  CORRECTION. Physics Stage 4 first handwritten rep (launch diagram + full
+  angled-launch solve) plus drill Problems 1-2 (horizontal launch), three
+  corrected mistakes along the way. CSE Lab combined-concepts exercise —
+  real first-attempt failure (no function/list structure under time
+  pressure), corrected same session after one taught gap (list iteration).
+  5 of 32 weekly blocks completed; ECON/TCOM not run today. Full detail:
+  `00-BRAIN\Session_Logs\DAILY_2026-07-27.md`.
+- **Flag #85 (HIGH) narrowed:** PYTHON's canonical-copy divergence closed —
+  Chris authorized a `raw/` exception, CSE 1321/1321L recaptures replaced
+  the July 21 files outright. New instructors confirmed (Eun Sik Kim,
+  lecture; Muhammad Usman, lab) with meeting times, no schedule conflicts.
+  PHYSICS and EDUCATION's divergence remains open — their `raw/` copies
+  are still July 21 against July 27 library captures.
+- **EDUCATION ingestion (Weeks 1-6, TCOM + ECON):** both `semester-map.md`
+  files checked in full against the fresh recaptures — both already
+  accurate; the earlier "materially diverged" read on flag #85 was mostly
+  re-scrape formatting, not real schedule change. Small real additions
+  logged (TCOM attendance-penalty structure; ECON's post-exam review
+  session and strict online/no-extension quiz policy). Weeks 7-14
+  deliberately left for a later just-in-time pass.
+- **System cleanup:** six loose report/proposal `.md` files sitting directly
+  in `Session_Logs\` root (not archived after the July 24-26 architecture
+  and execution-discipline update work) filed to their correct homes — one
+  implemented proposal into `System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\`,
+  four completed reports into `Report Archive\`. Two had stale frontmatter
+  status (`awaiting-approval`, `active`) corrected to match reality
+  (`implemented`, `closed`). One file (`claude_verdict_2026-07-26_mcp_bootcamp_lane.md`)
+  left in place — still live-referenced by tonight's `EVENING_READING.md`.
+
+**Next exact action:** Tuesday's blocks per the weekly plan — Python reading
+(pp. 83-87) then Function Lab A; Physics §4.3 reading then drill Problems
+3-4. ECON/TCOM Weeks 7-14 ingestion and PHYSICS/EDUCATION's half of flag #85
+remain open, not urgent tonight.

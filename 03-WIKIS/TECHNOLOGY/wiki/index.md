@@ -15,9 +15,8 @@ from FORGE's original 135-page technology folder (the other 67 — Python/data-a
 fundamentals — went to `03-WIKIS\PYTHON` instead; see that wiki's `source-map.md`).
 **2026-07-13: full raw/ audit and ingest (107 pages at completion).** After the
 July 15 routing correction and July 16 chunk ingestion, the live inventory is
-**132 content/reference pages** (excluding this index and `log.md`; +3 on
-2026-07-17 from the *Experimental Design for Data Science and Engineering*
-selective ingest).
+**134 content/reference pages** (excluding this index and `log.md`; +2 on
+2026-07-27 from the selective *Business Information Systems* Chapters 9-10 ingest).
 The audit produced 39 new pages across 9 books + 4 landscape clippings. The
 July 15 structure review moved the post-closure AI-coding landscape into
 `03-WIKIS\AI_AUTOMATION_SYSTEMS`, its canonical intake lane. The audit found 3 confirmed
@@ -170,7 +169,7 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 - [[security/api-vulnerability-classes-owasp-top-10|API Vulnerability Classes: The OWASP API Security Top 10]] — reframed as audit checks, not attack techniques
 - [[security/api-security-testing-engagement-scoping-and-checklist|API Security Testing: Engagement Scoping and Checklist]]
 
-## Software Engineering (`software-engineering/`, 9 pages)
+## Software Engineering (`software-engineering/`, 11 pages)
 
 - [[software-engineering/agile-software-engineering-and-scrum|Agile Software Engineering and Scrum]] — source: Ian Sommerville, *Engineering Software Products*
 - [[software-engineering/personas-scenarios-and-user-stories|Personas, Scenarios, and User Stories]] — source: Sommerville
@@ -181,6 +180,8 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 - [[software-engineering/domain-driven-business-logic-and-architecture-patterns|DDD Business Logic and Architecture Patterns]]
 - [[software-engineering/domain-driven-integration-and-reliable-messaging|DDD Integration and Reliable Messaging]]
 - [[software-engineering/domain-driven-evolution-eventstorming-and-distributed-boundaries|DDD Evolution, EventStorming, and Distributed Boundaries]]
+- [[software-engineering/information-system-evaluation-lifecycle-and-failure-levels|Information-System Evaluation Lifecycle and Failure Levels]] — strategic, formative, summative, and post-mortem gates; development/use failure across technical, project, organizational, and environmental levels
+- [[software-engineering/information-process-system-and-technology-alignment-map|Information, Process, System, and Technology Alignment Map]] — process/information matrix, current/future system portfolio, and technology/standards layer for audit and architecture decisions
 
 ## User Experience (`user-experience/`, 4 pages, new 2026-07-16)
 

@@ -1,7 +1,7 @@
 ---
 type: proposal
-timeline: now
-status: awaiting-approval
+timeline: reference
+status: implemented
 tags: [governance, architecture, boot-chain, execution-discipline]
 created: 2026-07-26
 ---

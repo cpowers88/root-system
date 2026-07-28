@@ -9,7 +9,7 @@ created: 2026-07-26
 # Claude Independent Verdict — MCP Bootcamp Lane (Days 1–8)
 
 **Gate:** 2026-07-26 Joint Review 1
-**Bar:** the July 25 acceptance test in `ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md` (lines 525–550), including its honest floor
+**Bar:** the July 25 acceptance test in `Report Archive\ADVISOR_BUILDER_INTEGRATION_BOOT_CAMP_REVIEW_2026-07-17.md` (lines 525–550, path corrected 2026-07-27 — file archived out of `Session_Logs\` root), including its honest floor
 **Protocol:** written from artifacts and live execution, not from the daily reports. I ran the server myself before scoring it.
 
 ## Verdict

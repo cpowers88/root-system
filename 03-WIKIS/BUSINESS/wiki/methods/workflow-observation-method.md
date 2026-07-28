@@ -207,6 +207,21 @@ Use evidence labels consistently:
 
 Never present `S`, `I`, or `U` as an observed fact.
 
+After the step evidence is captured, build the compact
+[[information-process-system-and-technology-alignment-map|process/information
+matrix]]:
+
+1. list the workflow's durable information classes across the top;
+2. list its processes down the side;
+3. mark where each process creates, reads, updates, transfers, or approves each
+   information class; and
+4. map the current tool - including paper, email, spreadsheet, and memory - used
+   at every marked intersection.
+
+This exposes duplicated entry, missing ownership, conflicting definitions,
+unsupported processes, unofficial systems, and the actual integration
+boundaries before any technology recommendation is made.
+
 ## Session Agenda: 45-60 Minutes
 
 ### Minute 0-5: contract the session
@@ -430,6 +445,25 @@ Do not send until every answer is yes:
 - [ ] The participant has a correction window before any lesson is reused.
 - [ ] The report ends with one specific next proof.
 
+### Technology-worth cross-check
+
+When a finding recommends retaining, configuring, integrating, or building a
+system, apply Technology's
+[[user-experience-structure-skeleton-surface-and-validation|Three-Layer Worth
+Test]]:
+
+- **Functionality:** does it perform the required action correctly?
+- **Usability:** can each affected stakeholder use it in the real workflow?
+- **Utility:** does its use improve the activity system or decision?
+
+Record adoption/use separately from workflow impact. A mandatory or frequently
+used tool is not automatically useful, and a locally efficient tool can merely
+transfer work, monitoring, risk, or switching cost to another stakeholder.
+For a system already being built or used, classify the check with
+[[information-system-evaluation-lifecycle-and-failure-levels|the
+information-system evaluation lifecycle]] so pre-commitment, in-build,
+post-use, and post-failure evidence are not mixed.
+
 ## Post-Session Evidence Review
 
 Within 10 minutes of the session, complete this ledger:
@@ -513,4 +547,5 @@ Stop or rescope if:
 - [[smb-ai-audit-method|SMB AI Audit Method]]
 - [[05-BUSINESS/01-Audit Templates/audit-report-template|Audit Report Template]]
 - [[market-map|Market Map]]
+- [[information-process-system-and-technology-alignment-map|Information, Process, System, and Technology Alignment Map]]
 - [[sales-system|Sales System]]

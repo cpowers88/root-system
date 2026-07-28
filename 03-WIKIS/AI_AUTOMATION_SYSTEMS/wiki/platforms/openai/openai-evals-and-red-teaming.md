@@ -123,6 +123,33 @@ judge's F1 score against human ground truth jump from 0.12 to 0.74 by
 switching the judge model from gpt-4o to o1 — a large, specific illustration
 that judge-model choice is not a minor detail.
 
+## A provider-neutral operating stack
+
+The Evaluation Core in *The AI Builder's Handbook* (LevelUp Labs, April 2026,
+Chapters 6–9, printed pp. 44–65) adds a provider-neutral implementation order
+to the OpenAI-specific mechanics above:
+
+1. Route every crisp property to deterministic code: schema, allowed values,
+   exact match, required content, bounds, URLs, patterns, counts, and tool
+   arguments.
+2. Use a model judge only for a clearly rubricable subjective property.
+3. Calibrate that judge against independently labeled human cases, resolve
+   human disagreement by repairing the rubric, and version the judge prompt,
+   model, rubric, cases, and agreement result.
+4. Preserve recurring human spot checks to detect novel failures and feed
+   them back into the deterministic or judge suites.
+5. Put guardrails in the live request path for risks requiring intervention,
+   and log every block, redaction, modification, route, reason, and fallback.
+
+This produces a closed operating loop:
+
+`production incident or guardrail firing → labeled case → cheapest valid
+grader → regression suite → release decision → monitored production`
+
+The handbook's case counts, evaluator percentages, and judge-agreement bands
+are starting heuristics, not universal acceptance standards. Set the actual
+bar from false-positive, false-negative, review, latency, and harm costs.
+
 ## The four-architecture nondeterminism ladder (the key structural finding)
 
 | Architecture | New nondeterminism source | New eval category |

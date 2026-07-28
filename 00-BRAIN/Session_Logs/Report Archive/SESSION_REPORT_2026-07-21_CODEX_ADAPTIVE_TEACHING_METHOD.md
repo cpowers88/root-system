@@ -1,7 +1,7 @@
 ---
 type: report
-timeline: now
-status: active
+timeline: reference
+status: closed
 tags: [learning, python, system-evolution, bootcamp]
 ---
 

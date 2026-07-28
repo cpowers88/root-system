@@ -6,6 +6,46 @@ timeline: log
 
 # AI_AUTOMATION_SYSTEMS Wiki — Log
 
+## 2026-07-27 — Migration structural check + first real progress on the six queued books
+
+- **Part 1 — July 24 migration verified sound.** Cross-checked all 77
+  `index.md` wikilinks against actual files on disk: 0 broken links, 0
+  orphaned pages, counts match exactly (77=77). One cosmetic finding: an
+  empty leftover `wiki/proposals/` folder (containing only a stray
+  `desktop.ini`) from before the 11 proposal pages were consolidated into
+  `system-evolution/proposals/` — flagged for removal, blocked by the
+  session's permission layer on `rm`, not fixed this session.
+- **Part 2 — the six books flagged "intake pending" since 2026-07-24 got a
+  real pass, not another deferral.** All six opened far enough for honest
+  TOC-level classification (see `raw-source-coverage.md` for the full
+  per-book reasoning): `AI_builders_handbook.pdf`, `AI_engineering.pdf`,
+  `Prompt_engineering_LLMs.pdf`, `promp_engineering_generative_AI_guide.pdf`,
+  `Generative_AI_economic_potential.pdf`, `agentic_AI_for_engineers.pdf`.
+  Three of six turned out to significantly overlap already-compiled or
+  now-queued material (two dedicated prompt-engineering books overlapping
+  each other and the two handbook/engineering texts; the 2023 McKinsey
+  report superseded by already-compiled 2026 adoption sources); one
+  (`agentic_AI_for_engineers.pdf`) overlaps `AI_builders_handbook.pdf`'s
+  Part 4 at a more introductory level. All four classified lookup/reference,
+  not compiled.
+- **Picked `AI_builders_handbook.pdf` for real ingestion** (over
+  `AI_engineering.pdf`, the other strong candidate) — most current of the
+  six (April 2026), shortest at 143 pp. so genuinely finishable, and its
+  two largest parts (Evaluation Core, Building Agentic Systems) fill real
+  gaps in this hub's existing `agents/` coverage. Chapter 1 (the vocabulary
+  chapter) read as one complete chunk and compiled into
+  [[agents/ai-builders-handbook-2026]]. Chapters 2–20 honestly TOC-mapped,
+  not compiled — Chapters 6–9 and 10–15 named next-priority for whoever
+  continues this.
+- **`AI_engineering.pdf`** TOC-mapped only, correctly left as a deferred
+  multi-session job rather than rushed — matches the hub's own established
+  standard for large texts (`ifAnyoneBuildsitEveryoneDies.pdf`,
+  `DeepLearningTextbook.pdf`).
+
+Files touched: `wiki/agents/ai-builders-handbook-2026.md` (new),
+`wiki/raw-source-coverage.md` (six new rows), `wiki/index.md` (one new
+entry), this log.
+
 ## 2026-07-24 — Machine-first knowledge architecture installed
 
 - Added `OPERATIONS.md` as the canonical machine contract.
@@ -1697,3 +1737,108 @@ reference back matter rather than an ingestion backlog.
   current without separate verification.
 - Next: CASTLE performs the now-unblocked cross-source synthesis; AIAS receives
   only the durable domain returns selected by that review.
+
+## 2026-07-27 - xAI workflow-explanation selective intake
+
+- Research question: what explanation evidence should accompany an AI-assisted
+  workflow decision so a human reviewer can detect error, override safely, and
+  improve the process?
+- Read two complete papers from *Explainable Artificial Intelligence: xAI 2025
+  Proceedings, Part II* (CCIS 2577):
+  - Knab et al., “Which LIME Should I Trust?”, physical pp. 47-71 (printed
+    pp. 28-52).
+  - Amling et al., “Bridging the Interpretability Gap in Process Mining,”
+    physical pp. 97-122 (printed pp. 78-103).
+- Continued with a third complete paper under the same question:
+  - Teixeira et al., “Detecting Concept Drift with SHAP,” physical pp. 173-185
+    (printed pp. 156-168).
+- Strengthened [[interpretable-models-and-human-oversight]] with:
+  - a source -> model -> rule -> bounded verbalization -> human-review evidence
+    chain;
+  - task-bounded description, comparison, overview, and metric explanation;
+  - soundness, completeness, context, fidelity/coverage, and decision-utility
+    checks;
+  - a local-explanation reproducibility packet covering sampling, locality,
+    seed, surrogate fit, perturbation stability, and explainer disagreement.
+  - separate input, output, performance, and explanation-drift signals, with a
+    governed investigation/retraining gate and explicit false-alert/review-cost
+    tradeoff.
+- Routed the process-specific cluster explanation guard to SYSTEMS'
+  `conformance-checking-and-kpi-driven-process-improvement.md`.
+- Did not preserve a current-model ranking from the seven-participant,
+  single-event-log study and did not select a preferred LIME variant from the
+  review taxonomy.
+- Updated raw-source coverage from lookup-only to Selective with three complete
+  paper ranges. Remaining Part II papers retain triggered-lookup status.
+- No raw file was modified or copied.
+- Next action: inspect one additional Part II paper only if it tests explanation
+  drift, user actionability, or a safety decision not already covered.
+## 2026-07-27 - AI Builder's Handbook Evaluation Core
+
+- Read Chapters 6-9 in full (printed pp. 44-65; physical PDF pp. 53-74) and
+  visually checked the calibration and guardrail-production pages.
+- Expanded [[agents/ai-builders-handbook-2026]] with the operational eval
+  stack and corrected the file identity to 152 physical pages with numbered
+  main text ending at p. 143.
+- Strengthened [[platforms/openai/openai-evals-and-red-teaming]] with a
+  provider-neutral loop: deterministic checks first, calibrated judge only
+  where needed, continuing human sampling, guardrail incident capture, and
+  regression feedback.
+- Preserved the source's case-count, evaluator-mix, and agreement bands as
+  starting heuristics rather than universal release standards.
+- No raw file was modified.
+- **Next exact action:** Read Chapters 10-15 only against the question, "What
+  is the least autonomous architecture that can reliably complete a workflow,
+  and what new evidence is required at each step up?"
+
+## 2026-07-27 (later same day) — AI Builder's Handbook: Chapters 2-5, 10-15 compiled; Codex/fork Ch6-9 collision resolved
+
+- Chris asked for continued handbook ingestion. Read Chapters 10-15 (Building
+  Agentic Systems, printed pp. 66-101 — the workflow-vs-agent spectrum,
+  router/tool/retrieval/memory/multi-agent design patterns and named failure
+  modes) and Chapters 2-5 (printed pp. 21-42 — enterprise adoption patterns,
+  model-selection framework, Problem-First Design, prompting/context
+  engineering), all fully chunk-read, not skimmed.
+- **Found and resolved a real collision:** this session and the Codex session
+  above had independently read and compiled Chapters 6-9 into
+  [[agents/ai-builders-handbook-2026]] concurrently, each unaware of the
+  other, producing duplicate content in one page. Consolidated into a single
+  section (this session's version — more named tools, exact thresholds, and
+  direct quotes preserved; Codex's framing was a strict subset). No
+  information from either pass was lost; both original sessions are on the
+  record here for provenance.
+- Page now covers Chapters 1-15 in full (all of Parts 1-4); Chapters 16-20
+  (Production and the Long Arc; Where to Go Next) plus the Master Resource
+  Index remain TOC-mapped, not compiled. Ch 17's MCP section named
+  next-priority given this hub's `protocols/mcp/` cohort.
+- Files touched: `wiki/agents/ai-builders-handbook-2026.md` (Ch 2-5 and
+  10-15 added, Ch 6-9 duplicate resolved, coverage-status and remaining-
+  chapters sections corrected), `wiki/raw-source-coverage.md` (row merged
+  to reflect full current state, not stomped), this log. No raw file
+  touched or modified.
+- **Next exact action:** Chapters 16-20 plus the Master Resource Index, when
+  next picked up — Ch 17 (MCP/A2A/Agents SDK) first given the direct
+  `protocols/mcp/` relevance.
+## 2026-07-27 - AI Engineering production-feedback intake
+
+- Read Chip Huyen's *AI Engineering* Chapter 10 `User Feedback` section in
+  full, physical PDF pp. 998-1031, plus the chapter summary pp. 1032-1033.
+  Corrected the initially planned pp. 998-1058 range after verifying that
+  pp. 1034 onward were index material.
+- Created
+  [[adoption-delivery/production-user-feedback-and-learning-loops]] as the
+  missing end-to-end retrieval surface.
+- Core rule: production feedback is contextual evidence, not ground truth.
+  Preserve signal provenance, consent/purpose, interface context,
+  interpretation confidence, bias audit, validation, and destination before
+  it changes an eval, product, personalization state, prompt, workflow, or
+  model.
+- Strengthened [[alignment-safety/training-data-representation-and-feedback-risk]]
+  with exposure-driven representation risk and
+  [[adoption-delivery/enterprise-ai-adoption-and-production-roadmap]] with
+  destination-specific feedback routing.
+- Visually verified the feedback-collection and degenerate-loop pages. No raw
+  file was modified.
+- **Next exact action:** Use this method to define a feedback evidence packet
+  only when an active AI workflow or client pilot supplies a real interaction
+  surface; do not invent a generic collection system in advance.

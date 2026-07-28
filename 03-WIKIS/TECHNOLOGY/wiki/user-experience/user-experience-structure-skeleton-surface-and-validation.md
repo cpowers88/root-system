@@ -78,14 +78,65 @@ UX work is a continuing discipline, not a cosmetic sprint at the end. Persistent
 emergency delivery usually means upstream decisions were deferred until they
 became expensive.
 
+## Three-Layer Worth Test
+
+Do not collapse "it works" into "it is valuable." Assess three different
+properties:
+
+| Property | Question | Example evidence |
+|---|---|---|
+| **Functionality** | Does the system perform the required actions correctly? | acceptance tests, output accuracy, error handling |
+| **Usability** | Can the intended stakeholder use it effectively in the real task? | observed completion, errors, hesitation, recovery, satisfaction |
+| **Utility** | Does its use improve the activity system or decision it exists to serve? | less delay/rework, better service, safer work, improved outcome |
+
+The evidence chain is therefore:
+
+```text
+system and information quality
+  -> stakeholder use and satisfaction
+  -> individual/group impact
+  -> organizational net benefit
+```
+
+Use is a precondition for impact, not proof of impact. A frequently used system
+may be mandatory, burdensome, or merely shift work between stakeholders. Measure
+both first-order effects (adoption and use) and second-order effects (changes to
+work, coordination, control, service, cost, risk, or organizational performance).
+
+Before recommending or validating a system:
+
+1. identify internal and external stakeholder groups rather than one generic
+   "user";
+2. record each group's assumptions, expectations, knowledge, and definition of
+   success;
+3. test representatives in the real context of use;
+4. separate interface satisfaction from system functionality and workflow
+   utility; and
+5. check whether the design changes autonomy, skill, task variety, monitoring,
+   power, access, or switching cost for any stakeholder.
+
+This extends the field-facing
+[[user-centered-system-design-principles-and-tradeoffs|user-centered system
+design review]] and supplies the post-observation technology gate used by
+[[workflow-observation-method|the Workflow Observation Method]].
+
 ## Source Coverage
 
 Primary source: `raw/UserExperience.pdf`, PDF pages 97-191 (Chapters 5-8 and
 index). Index material was used only for retrieval confirmation. See
 [[elements-of-user-experience|source hub]].
 
+Supplemental source: Beynon-Davies, *Business Information Systems*, 2nd ed.
+(2013), physical PDF pp. 313-327 (book pp. 274-288), selectively reviewed
+2026-07-27 from `03-WIKIS/TECHNOLOGY/raw/Business Information Systems 2nd Ed.
+Textbook.pdf`. Durable evaluation logic retained; period-specific ICT examples
+remain historical.
+
 ## Related Pages
 
 - [[user-experience-five-plane-decision-model|Five-Plane Decision Model]]
 - [[user-experience-strategy-scope-and-requirements|Strategy, Scope, and Requirements]]
 - [[../software-engineering/software-testing-levels-and-techniques|Software Testing Levels and Techniques]]
+- [[../software-engineering/information-system-evaluation-lifecycle-and-failure-levels|Information-System Evaluation Lifecycle and Failure Levels]]
+- [[user-centered-system-design-principles-and-tradeoffs|User-Centered System Design]]
+- [[workflow-observation-method|Workflow Observation Method]]

@@ -9,8 +9,9 @@ created: 2026-07-25
 # Teaching Loop — How a Python Session Runs
 
 Adopted 2026-07-25 after the July 21–25 evidence gate. Origin:
-`00-BRAIN\Session_Logs\SESSION_REPORT_2026-07-21_CODEX_ADAPTIVE_TEACHING_METHOD.md`.
-Verdict and evidence: `00-BRAIN\Session_Logs\claude_verdict_2026-07-25_adaptive_teaching_method.md`.
+`00-BRAIN\Session_Logs\Report Archive\SESSION_REPORT_2026-07-21_CODEX_ADAPTIVE_TEACHING_METHOD.md`.
+Verdict and evidence: `00-BRAIN\Session_Logs\Report Archive\claude_verdict_2026-07-25_adaptive_teaching_method.md`.
+(Paths corrected 2026-07-27 — both files archived out of `Session_Logs\` root during system cleanup, content unchanged.)
 
 **Scope: this hub only.** The method was tested on Python Stage 3 loops and is
 validated there. It is not yet a general `.ROOT` learning system — no cross-domain

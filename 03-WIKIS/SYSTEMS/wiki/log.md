@@ -703,3 +703,19 @@ zero new findings in SYSTEMS.
 TECHNOLOGY is the last hub on the old single-file pattern; it also holds the
 second `raw-source-coverage-and-intake-status.md`, so check its ledger against
 its own `raw/` the same way.
+
+## 2026-07-27 - Explainable process-cluster interpretation
+
+- Received a cross-hub method from AI_AUTOMATION_SYSTEMS' selective review of
+  Amling et al., “Bridging the Interpretability Gap in Process Mining,”
+  physical source pp. 97-122 (printed pp. 78-103).
+- Extended [[conformance-checking-and-kpi-driven-process-improvement]] with a
+  cluster-explanation evidence packet: included cases, differentiating paths
+  and attributes, peer/population comparison, rule fidelity/coverage, missing
+  temporal semantics, domain interpretation, and unresolved alternatives.
+- Bounded LLM use to description, comparison, overview, and supplied-metric
+  explanation. Natural-language output remains presentation; the rules and
+  source cases remain the evidence.
+- Preserved the paper's limits: one event log, two tasks, seven participants,
+  and evaluation focused on verbalization rather than base-rule quality.
+- No raw SYSTEMS source and no index entry changed.

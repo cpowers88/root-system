@@ -65,6 +65,8 @@ proposal.
 - `NORTH_STAR_REVIEW_HANDOFF_AND_FRESH_CHAT_PROMPT.md` — authority decisions,
   review order, and the ready-to-paste fresh-session prompt.
 
+**Added 2026-07-27 (filed, not new work):** `claude_proposal_2026-07-26_execution_discipline_and_boot_chain.md` and its sibling `execution-discipline-and-boot-chain-discussion-2026-07-26.md` — the July 26 Execution Discipline pilot this packet's thread led to. Both were implemented and approved that day; moved here from a loose `Session_Logs\` root location during the July 27 cleanup pass, status corrected from stale "awaiting-approval" to "implemented."
+
 Supporting live artifacts remain in their owning homes:
 
 - `vault-skeleton-design.md`

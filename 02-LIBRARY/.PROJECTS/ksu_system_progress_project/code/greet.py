@@ -3,7 +3,7 @@ def greet(
 ):  # name is parameter, greet is the function, def lets python know we are defining a custom function for later use.
     return (
         "Hello, " + name
-    )  # return is the is letting the function know where to hold the argument "Hello. " is string, + is cannotation I believe is the word, name is our placeholder or custom function parameter.
+    )  # return is the is letting the function know where to hold the argument "Hello. " is string  , + is cannotation I believe is the word, name is our placeholder or custom function parameter.
 
 
 print(

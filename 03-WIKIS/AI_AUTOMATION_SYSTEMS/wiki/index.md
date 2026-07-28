@@ -14,6 +14,7 @@ accounting lives in [[raw-source-coverage]].
 
 ## Agents and orchestration
 
+- [[agents/ai-builders-handbook-2026]]
 - [[agents/2025-ai-agent-index]]
 - [[agents/agentic-ai-industry-adoption-barriers]]
 - [[agents/agentic-automation-architecture-reliability-and-economic-evidence]]
@@ -57,6 +58,7 @@ accounting lives in [[raw-source-coverage]].
 - [[adoption-delivery/work-trend-index-2024-2026]]
 - [[adoption-delivery/workflow-automation-tools-landscape]]
 - [[adoption-delivery/enterprise-ai-adoption-and-production-roadmap]]
+- [[adoption-delivery/production-user-feedback-and-learning-loops]]
 - [[adoption-delivery/generative-ai-for-software-development-pereira]]
 - [[adoption-delivery/business-case-for-ai-ganesan-leader-playbook]]
 - [[adoption-delivery/ai-in-business-and-economics-epeai-proceedings]]

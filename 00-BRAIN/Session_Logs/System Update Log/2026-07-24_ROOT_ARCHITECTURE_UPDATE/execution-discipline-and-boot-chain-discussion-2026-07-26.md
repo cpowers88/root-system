@@ -19,7 +19,8 @@ authority by itself.
 - Chris interview and the first Claude/Codex exchange:
   `C:\Users\chris\.ROOT\claude_and_chris_direction.md`
 - Claude's full opening proposal:
-  `C:\Users\chris\.ROOT\00-BRAIN\Session_Logs\claude_proposal_2026-07-26_execution_discipline_and_boot_chain.md`
+  `C:\Users\chris\.ROOT\00-BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\claude_proposal_2026-07-26_execution_discipline_and_boot_chain.md`
+  (path corrected 2026-07-27 — filed here from `Session_Logs\` root during system cleanup)
 - July 20–25 code/learning review:
   `C:\Users\chris\.ROOT\02-LIBRARY\.PROJECTS\MCP_Bootcamp\Docs\weekly-code-learning-review-2026-07-20-to-2026-07-25.md`
 - Architecture packet authority:

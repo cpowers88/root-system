@@ -93,6 +93,14 @@ The five LLMOps practices are mutually supporting:
 - cost-aware, scalable infrastructure; and
 - continuous quality assurance with user feedback.
 
+Production feedback should enter that loop as a candidate signal, not an
+automatic label. Route it by purpose - monitoring, evaluation, product change,
+personalization, or training - and preserve consent, context, interpretation
+confidence, and bias checks. Promote validated failures into regression cases
+while keeping held-out evaluation independent of the behavior the system itself
+induced. Full method:
+[[production-user-feedback-and-learning-loops]].
+
 ## What this changes for `.ROOT` and revenue work
 
 This guide strengthens an existing direction rather than changing governance:

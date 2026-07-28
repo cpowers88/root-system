@@ -21,7 +21,7 @@ Problem: Machine Learning and Human Values*, 2020), Introduction (physical PDF
 pp. 13-25) and Chapter 1, “Representation” (pp. 26-66), reviewed as one complete
 chunk. Chapter 2 begins on physical p. 67; boundary visually verified.
 
-**Last updated**: 2026-07-16
+**Last updated**: 2026-07-27
 
 ## The Representation Chain
 
@@ -111,6 +111,24 @@ Before deployment, ask:
 3. Which correlations are descriptive but should not drive a decision?
 4. Can the decision change the data that later retrains the model?
 5. What independent outcome measure could reveal amplification?
+
+## Production Feedback Is a New Representation Layer
+
+User feedback after deployment passes through the same representation problem
+as training data. A click, regeneration, edit, long conversation, or complaint
+is not a self-explanatory label. The interface determined what the user saw,
+where options appeared, what response cost the user faced, and which users
+answered at all.
+
+Before feedback changes a model or workflow, preserve the interaction context,
+explicit-versus-inferred status, consent and purpose, interpretation rule,
+confidence, alternative explanations, affected segment, and validation result.
+Measure exposure as well as response: feedback exists only for options the
+system chose to show. Keep independent correctness and safety measures so a
+preference loop cannot reward popularity or sycophancy while degrading truth.
+
+Source and full operating method:
+[[../adoption-delivery/production-user-feedback-and-learning-loops]].
 
 ## Connects To
 

@@ -37,6 +37,26 @@ Software Products*, Pearson, 2020), Chapter 9
   interaction problems surface that unit and feature tests, by design,
   can't catch.
 
+## Boundary, Load, and Acceptance Tests
+
+- **Integration testing** verifies that separately working components,
+  services, data stores, and external systems behave correctly together.
+- **Volume/capacity testing** exercises realistic and peak quantities of data,
+  requests, users, or work to expose failures that small functional tests
+  cannot.
+- **Acceptance testing** lets the customer or accountable user verify the
+  agreed scenarios and evidence before operational sign-off.
+
+These answer different questions: system testing asks whether the assembled
+product works; integration testing asks whether its boundaries work; volume
+testing asks whether it works at the required load; acceptance testing asks
+whether it is the agreed product in its intended context.
+
+Source addition: Paul Beynon-Davies, *Business Information Systems*, 2nd ed.
+(2013), Chapter 12 physical PDF pp. 421-435 (book pp. 382-396), reviewed
+2026-07-27. Testing categories were retained; period-specific construction
+examples were not.
+
 ## Risk-Based Testing
 
 When there isn't time or budget to exhaustively test everything (the

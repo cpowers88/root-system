@@ -69,6 +69,36 @@ For the current Advisor-Builder strategy, the first-offer kernel is:
 - Test the kernel against evidence: what observation would change the diagnosis,
   policy, or action sequence?
 
+## Planning a Technology Response
+
+Before choosing a tool or project, triangulate three evidence streams:
+
+1. **Organizational analysis:** the current workflow, capabilities, constraints,
+   infrastructure, and planned operational change.
+2. **Environmental analysis:** customers, suppliers, competitors, regulation,
+   economics, and the organization's changing position in its value network.
+3. **Technology analysis:** relevant capability changes, dependencies, operating
+   requirements, and risks.
+
+Technology analysis is only one input. A new capability without an organizational
+need or environmental consequence is awareness, not strategy.
+
+Name the planning mode explicitly:
+
+| Mode | Starts from | Best use | Main failure risk |
+|---|---|---|---|
+| **Target-driven** | a defined outcome | fixed commitments or clear business result | forcing reality to match an untested target |
+| **Resource-driven** | available people, data, tools, and access | exploiting a real strength or constrained starting point | letting the current stack define the problem |
+| **Implementation-driven** | repeated adjustment of means and ends | uncertainty that requires bounded learning | drifting without a decision or stop rule |
+
+The modes can be combined. A sound Advisor-Builder engagement normally starts
+target-driven at the outcome level, resource-driven when selecting the smallest
+feasible response, and implementation-driven during bounded testing. Each
+material step returns through
+[[information-system-evaluation-lifecycle-and-failure-levels|strategic,
+formative, and summative evaluation]] rather than assuming the original plan
+remains correct.
+
 ## Beginner Version
 
 Write one diagnosis, one policy, and no more than three coherent actions. If the
@@ -116,6 +146,14 @@ part-level chunks.
 | 151-190 | Part III: Thinking like a strategist | Ingested into evidence tests and judgment boundary |
 | 191-246 | Notes, acknowledgments, and back matter | Retained as provenance; no duplicate content |
 
+Supplemental cross-hub source: Beynon-Davies, *Business Information Systems*,
+2nd ed. (2013), physical PDF pp. 346-360 (book pp. 307-321), selectively
+reviewed 2026-07-27 from
+`03-WIKIS/TECHNOLOGY/raw/Business Information Systems 2nd Ed. Textbook.pdf`.
+Retained the three planning inputs and target/resource/implementation-driven
+distinction; dated competitive and e-business examples were not treated as
+current evidence.
+
 ## Related Pages
 
 - [[north-star-alignment|North Star Alignment]]
@@ -124,3 +162,5 @@ part-level chunks.
 - [[creative-problem-solving-and-facilitation-toolkit|Creative Problem Solving and Facilitation Toolkit]]
 - [[most-profitable-pathways|Most Profitable Pathways]]
 - [[what-not-to-do|What NOT To Do]]
+- [[information-system-evaluation-lifecycle-and-failure-levels|Information-System Evaluation Lifecycle and Failure Levels]]
+- [[information-process-system-and-technology-alignment-map|Information, Process, System, and Technology Alignment Map]]
