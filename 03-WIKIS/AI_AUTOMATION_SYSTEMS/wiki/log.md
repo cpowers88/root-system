@@ -1842,3 +1842,46 @@ reference back matter rather than an ingestion backlog.
 - **Next exact action:** Use this method to define a feedback evidence packet
   only when an active AI workflow or client pilot supplies a real interaction
   surface; do not invent a generic collection system in advance.
+
+## 2026-07-27 - AI Builder's Handbook: full 20-chapter compile completed
+
+- Finished what the prior two passes (this session, plus the concurrent
+  Codex Ch 6-9 pass) left open: read Chapters 16-20 and the Master Resource
+  Index in full, physical PDF pp. 102-143 (four bounded chunks: pp. 93-111,
+  112-131, 132-143, cross-checked against the book's own printed page
+  numbers to correctly resolve a +9 PDF/print offset).
+- Re-verified live state first per the coordinator's collision warning:
+  confirmed no further Codex edits had landed on this page or its
+  `raw-source-coverage.md` row since the last consolidation; proceeded
+  clean, no second collision this pass.
+- Ch 16 (Observability/Tracing): named tools (Arize Phoenix, LangSmith),
+  the full trace-content list, the three-tier logging policy (always/
+  sometimes/never), and the CC/CD trace-to-eval loop.
+- Ch 17 (Protocols/Extensibility): MCP called "the most important protocol
+  to know in 2026," described as effectively the 2026 standard for
+  connecting models to tools/data — a direct, independent confirmation of
+  this hub's own now-COMPLETE MCP Watchtower row and Chris's finished MCP
+  Bootcamp capstone. Also covers A2A (explicitly less mature, "worth
+  knowing, not worth betting an architecture on yet"), OpenAI Agents SDK,
+  and six internal-extensibility principles.
+- Ch 18 (Production Readiness Checklist): full pre-launch (6 categories)
+  and post-launch (weekly/quarterly/annual) checklists, plus seven named
+  drift signals.
+- Ch 19-20: role-based reading tracks (PM/UX/Engineer/Leader) and the
+  book's 2027 forward-look, explicitly caveated by its own author as
+  directional, not predictive.
+- Master Resource Index (~80 external resources) reproduced by category in
+  the wiki page rather than link-by-link, with an explicit caution to
+  verify each URL's current target before citing — these are volatile web
+  resources, not something this wiki independently verifies.
+- `wiki/agents/ai-builders-handbook-2026.md` coverage status corrected:
+  all 20 chapters + index now compiled, nothing left TOC-only.
+  `raw-source-coverage.md`'s row updated to match. No `raw/` file touched.
+- **Next exact action:** none queued for this book — fully closed. The
+  other four lower-priority queued books (`Prompt_engineering_LLMs.pdf`,
+  `promp_engineering_generative_AI_guide.pdf`,
+  `Generative_AI_economic_potential.pdf`, `agentic_AI_for_engineers.pdf`)
+  remain correctly classified lookup/reference, not a compile priority.
+  `AI_engineering.pdf` (Huyen) remains the one large deferred book —
+  Chapter 10 compiled by Codex separately; the rest is still a genuine
+  multi-session job, not started this pass.

@@ -37,13 +37,10 @@ industry-adoption barriers
 
 ## Coverage status — honest, not full
 
-**Compiled (2026-07-27):** Chapters 1-15 — **15 of 20 chapters**, i.e. all
-of Parts 1-4 (The Landscape; Designing AI Products; The Evaluation Core;
-Building Agentic Systems). This includes the two parts originally flagged
-highest-priority for this hub's `agents/` cohort gap (Evaluation Core,
-Building Agentic Systems) plus the remaining Part 1-2 material. **Chapters
-16-20 (Part 5: Production and the Long Arc; Part 6: Where to Go Next) and
-the Master Resource Index remain TOC-mapped below, not yet chunk-read.**
+**Compiled (2026-07-27):** All 20 chapters — the full main text (pp. 5-132)
+plus the Master Resource Index (pp. 134-143). Nothing in this book remains
+TOC-only. Parts 5-6 (Chapters 16-20) and the index were read and compiled
+in this pass, completing what the July 24 flag first opened.
 
 **Provenance note:** Chapters 6-9 were independently compiled twice —
 once by this fork, once by a concurrent Codex session the same day — before
@@ -980,15 +977,501 @@ sections (mixed structured+narrative output — e.g. `<reasoning>...
 model). **Rule: match the format to the next consumer, not to what feels
 natural to write.**
 
-## Remaining chapters — TOC map only (not yet read)
+## Part 5: Production and the Long Arc (compiled — Chapters 16-18, pp. 102-119)
 
-**Parts 1-4 (Chapters 1-15) are now fully compiled above.** Only Parts 5-6
-remain:
+### Chapter 16 — Observability and Tracing
 
-| Part | Chapters | Subject | Priority for next pass |
-|---|---|---|---|
-| 5: Production and the Long Arc | 16. Observability and Tracing; 17. Protocols and Extensibility; 18. Production Readiness Checklist | Logging/tracing setup, MCP + A2A + Agents SDK, launch checklist | **High — Ch. 17's MCP section is directly relevant to `protocols/mcp/`, and Ch. 18 is the book's own capstone checklist** |
-| 6: Where to Go Next | 19. Role-Based Learning Tracks; 20. The Horizon; Master Resource Index | Reading paths by role, 2026 forward-look, curated resource bibliography (by source/topic/type, pp. 134–143) | Medium — the Master Resource Index is worth mining as a reference list now that Parts 1-4 are done; 19-20 lower priority narrative |
+Framing line: **"A system you cannot see is a system you cannot fix."**
+This chapter is named as the foundation for everything else in Part 5 —
+observability is what turns a shipped system into one that keeps improving.
+
+**What a complete trace includes:** user input + system metadata, retrieved
+context (from any retrieval call), the full prompt sent to the model, the
+model's raw response, any tool calls and their results, guardrail decisions
+(input and output), eval scores (if running in real time), latency for each
+step, token counts and cost, and the final user-facing response. **Named
+tools:** Arize Phoenix and LangSmith — "the two widely adopted options,
+both free to start."
+
+**Why traces matter, stated directly:** AI debugging is fundamentally
+different from traditional debugging. A traditional failure points at the
+line of code that broke; an AI system underperforming has no such pointer —
+the model gave a bad answer, but was it the retrieval, the prompt, or the
+tool that failed? Without the trace you cannot answer that. **Traces become
+the eval dataset** — a captured failure becomes a regression test.
+
+**Trace structure:** a tree — root span for the overall request, child spans
+per step (retrieval, prompt, tool call, guardrail, model response),
+grandchild spans for nested work. **Go deeper:** OpenTelemetry's GenAI
+semantic conventions, named as "the emerging open standard for how AI
+traces should be structured — useful to know even if using a commercial
+platform."
+
+**What to log, three tiers:**
+- **Always log:** system prompt (or a hash of it, full version stored
+  separately), retrieved-context identifiers (not necessarily full text —
+  those can be looked up), model name/version, tool calls and structured
+  results, latency and cost per step, final output, any guardrail decision
+  that fired.
+- **Sometimes log** (privacy-posture dependent): full user input, full
+  retrieved context text, full model response.
+- **Never log:** credentials/API keys/authentication tokens; sensitive user
+  data unless explicitly required and protected; raw payloads that might
+  contain unredacted PII.
+
+**Metrics worth watching continuously:** latency distribution (P50/P90/P99
+— **"P99 catches tail cases that P50 hides"**); cost per request, broken
+down by model; error rate (tool failures, model errors, guardrail blocks —
+a changed rate is an early-warning signal); eval scores tracked over time
+on a production sample (how quality drift is caught); tool call
+distribution (a tool suddenly called twice as often, or not at all, signals
+something changed); token usage per request (prompts growing over time
+signals context bloat).
+
+**The trace→eval→improvement loop, given as seven steps** (this is the
+CC/CD framework from Chapter 6, in practice): observe production traffic in
+traces → spot failures or weak spots → capture the problem cases as new eval
+dataset entries → fix the system (prompt, retrieval, or guardrail) → run the
+evals to confirm the fix works and nothing else broke → deploy the change →
+repeat.
+
+**Minimum observability setup before shipping anything**, given as four
+items settable "in a day with free tools": a tracing tool capturing every
+production request (Phoenix, LangSmith, or equivalent); a dashboard showing
+latency, cost, and error rate; a mechanism for pulling traces into the eval
+dataset; a weekly review cadence for looking at production failures.
+**"The cost of not setting it up is months of flying blind."**
+
+**The culture point, stated as non-technical but decisive:** observability
+tools only work when the team actually looks at them — "the dashboard that
+nobody opens is a dashboard that does not exist." The teams the book says
+get the most value run a 30-minute Monday review of the week's worst
+traces, no presentations, no deliverables, just looking at real user
+traffic together — **"the single operational habit that most separates
+good production AI teams from average ones."**
+
+### Chapter 17 — Protocols and Extensibility
+
+Opens with a direct historical framing: **"The AI world of 2023 was a
+tower of Babel"** — every provider had its own API shape, every framework
+its own tool definitions, every orchestration library its own function-
+calling dialect; building a system that could swap any component was a full
+engineering project. **By 2026, standards have emerged and protocols have
+stabilized** — the field is moving from bespoke integrations to shared
+plumbing.
+
+**17.1 — Why protocols matter for enterprise:** a five-engineer startup can
+afford to couple tightly to one model provider — annoying to switch later,
+but tractable. An enterprise with fifty AI systems across departments
+cannot: each system's integration differs, switching costs are massive, and
+every new vendor has to build a custom integration per system it touches. A
+shared protocol makes integrations swappable — switching models becomes a
+config change, adding a data source becomes plug-and-play. **"This is
+exactly why enterprises care about protocols more than startups do."**
+
+**17.2 — Model Context Protocol (MCP), called "the most important protocol
+you should know about in 2026."** Anthropic released it late 2024, it
+gained rapid industry adoption in 2025, and by 2026 it is "effectively the
+standard for connecting language models to external tools, data sources,
+and systems." Core idea: a standard way for a model (or its surrounding
+application) to discover tools, call tools, and receive results — before
+MCP, every provider and framework had its own tool-call format, and
+integrating a new data source meant a custom connector per pairing. With
+MCP, one MCP server per data source or tool works with any MCP-compatible
+model or framework. **Named enterprise implications:** cleaner data
+governance (one MCP server, consistent auth and logging regardless of which
+AI system calls it); cheap vendor switching (swap Claude for GPT without
+rewriting tool integrations); new AI systems plug into existing data
+sources without new engineering work. **Also named as widely adopted in
+developer tools** — Claude Code, Cursor, GitHub Copilot, and most serious
+IDEs/agent frameworks support MCP as a first-class extension mechanism.
+For document/compliance platforms specifically: exposing data via MCP
+servers means any AI system, internal or third-party, can access it through
+one consistent interface — **"this is the shape enterprise AI integration
+is heading toward."** *This is a direct, current confirmation of the same
+claim already tracked on this hub's own Watchtower radar row (now resolved
+✅ COMPLETE) and matches Chris's own finished MCP Bootcamp capstone
+exactly — MCP is not a speculative bet, it is the book's stated 2026
+baseline.*
+
+**17.3 — Agent Protocols (A2A and similar):** a newer class handling
+agent-to-agent coordination — when multiple agents need to coordinate
+across systems or organizations, they need a shared way to exchange goals,
+updates, and results. Google announced **A2A (Agent-to-Agent)** in 2025
+with broad industry participation; it defines how agents discover each
+other, negotiate tasks, and exchange structured updates. **Explicitly
+named less mature than MCP, with an earlier adoption curve — "worth
+knowing about, probably not worth building your near-term plans around."**
+Most relevant when agents live in genuinely different systems (yours and a
+partner's, or two internal systems from different vendors); if every agent
+lives inside one organization's walls, standardize on any internal protocol
+instead.
+
+**17.4 — OpenAI Agents SDK:** named the most widely adopted framework for
+building agent applications in 2026 — handles orchestration plumbing
+(agent loop, tool calls, handoffs, tracing) with first-class support for
+both OpenAI and third-party models. Its handoff pattern is called out as
+"becoming a quasi-protocol" for how agents transfer control to each other —
+useful as a mental model even without using the SDK directly, since it
+generalizes to any multi-agent system.
+
+**17.5 — Practical framework by role, given directly:** if building a new
+system today — support MCP as the primary way of integrating tools and
+data sources ("stable, widely adopted, the ecosystem is only growing");
+write MCP clients to consume external tools, MCP servers to be consumed by
+other AI tools. If extending an existing system — assess where protocol
+adoption reduces integration work, starting with tool integrations
+("MCP-ifying your internal tools is a bounded project with clear ROI"). If
+scoping a roadmap (PM/designer) — protocols let you unbundle the roadmap
+decision from the vendor decision; commit to a capability (integrate with
+the compliance database, extend with document lookup) independent of which
+model or framework you end up using. If thinking about multi-agent work —
+watch A2A and related protocols, but don't bet an architecture on them yet:
+**"they will mature; your production systems cannot wait for them to."**
+
+**17.6 — Making your own system extensible** (the internal complement to
+external protocols): tool contracts are frozen once defined — add new
+tools rather than changing an existing tool's input/output shape; agent
+roles are named and isolated — adding a new agent should be a clean
+operation, changing an existing agent's role should be rare; prompts are
+versioned like code — git history, changelogs, rollback capability; evals
+cover the seams — when new capability is added, the eval suite should test
+agent handoffs, tool boundaries, and retrieval edges specifically, since
+that's where component-boundary failures happen; configuration is
+external — model choice, prompt versions, retrieval parameters, guardrail
+thresholds all live in config, not hard-coded, so they can change
+independently. **Stated directly: these are not protocol standards, they
+are internal discipline — "done poorly, no amount of protocol adoption
+will save you."**
+
+**17.7 — The horizon for protocols, given as a 2026 snapshot, not a final
+state:** MCP is "settled for tool connection." A2A and similar are
+"converging for agent communication." New protocols are being proposed for
+persistent memory sharing, cross-system evaluation, and safety attestation
+— "some will stabilize and get adopted, most will not." **Recommended
+posture: follow the space lightly, adopt standards once they're proven, and
+don't over-commit to any protocol less than a year old** — "enterprise is
+the patient customer; that is a strategic advantage here."
+
+### Chapter 18 — Production Readiness Checklist
+
+Framed as the literal checklist LevelUp Labs uses when advising client
+launch decisions and when triaging underperforming production systems —
+**"more often than you would expect, the answer traces to a checklist
+item that was quietly skipped."** Core principle: a production AI system
+is not ready when the happy path works — **it is ready when the unhappy
+paths are handled gracefully.**
+
+**Pre-launch checklist, six categories, exact items:**
+- *Problem and scope:* problem statement has a named user and measurable
+  outcome; scope is narrow enough that a single eval suite can cover it; a
+  human baseline exists (how long the task takes a human, how often they
+  get it wrong); launch success criteria are explicit and written down.
+- *Evals:* a code-based eval suite covers the main patterns with at least
+  30 cases; an LLM-as-judge eval is in place for any subjective quality
+  dimension (tone, helpfulness, groundedness); the judge is calibrated
+  against human labels with agreement above 80%; eval scores clear the
+  launch bar; the eval suite runs on every code change (in CI or
+  equivalent).
+- *Guardrails:* input sanitization is in place; PII redaction runs on
+  input if the system sees sensitive data; prompt-injection detection is
+  active if external users can send input; output groundedness check runs
+  for any retrieval-based system; action-boundary enforcement runs for any
+  system with action-taking tools; a graceful fallback path exists for
+  when a guardrail fires.
+- *Observability:* every production request is traced end to end; latency,
+  cost, and error rate are visible on a dashboard the team checks weekly; a
+  mechanism exists for promoting production failures into the eval
+  dataset; alerts fire on cost spikes, error-rate increases, or latency
+  tail cases.
+- *Safety:* a rollback path is tested and ready (feature flag, version pin,
+  or equivalent); incident-response ownership is assigned to a specific
+  person/pager rotation; rate limits are in place to prevent runaway cost
+  from a bug or abuse; human review is available as a fallback for cases
+  the system refuses or is uncertain about.
+- *User experience:* the system gracefully handles its own failures (model
+  error, tool timeout, empty retrieval); loading/error/empty states are
+  designed, not defaulted; users have a clear escalation path when the AI
+  is wrong; confidence or uncertainty is communicated where relevant.
+- *Documentation:* the system's scope is documented (what it does and does
+  not do); prompt/model/retrieval strategy are versioned and documented;
+  the eval suite is documented with the rubric for each eval; an
+  operational runbook exists for common incidents.
+
+**Post-launch checklist, by cadence:**
+- *Weekly:* review the week's production traces, the 10 worst cases,
+  understand what went wrong; check the dashboard, any metric changed by
+  more than 20% warrants investigation; promote real production failures
+  into the eval dataset as regression tests; review guardrail logs for
+  expected-vs-unexpected firing patterns; survey or interview 3-5 real
+  users on where the system is working or falling short.
+- *Quarterly:* recalibrate LLM judges against human labels (model drift and
+  prompt edits both erode calibration over time); review the eval dataset
+  itself for whether cases still represent real traffic; consider whether
+  a model upgrade would lift quality on the current eval set; review cost
+  per request and whether cheaper models could handle some components.
+- *Annually:* revisit the problem statement — is the system still solving
+  the right problem, has the user's workflow evolved; audit the full
+  guardrail and observability stack for gaps that didn't exist at launch;
+  run a full incident retrospective and identify systemic changes that
+  would prevent recurrence.
+
+**Seven drift signals, named directly — three or more true means the
+system is drifting** (recoverable, but worth deliberate reinvestment):
+eval scores not looked at weekly; the eval dataset not updated in two
+months or more; the team disagrees on whether a recent output was good;
+cost per request creeping up without explanation; user complaints handled
+individually rather than traced to systemic issues; new features shipping
+faster than new evals; guardrail logs not being reviewed.
+
+**On shipping imperfect systems, stated directly:** the checklist is a bar
+to clear when possible and a deliberate tradeoff when not — real systems
+sometimes ship with items unchecked because the business reason outweighs
+the risk. The right move when that happens: acknowledge the risk
+explicitly, put a deadline on closing the gap, make the gap visible. **"A
+system that ships with known risks and a plan is safer than a system that
+ships pretending everything is handled."** The teams worth worrying about
+are not the ones shipping with known gaps — they're the ones who ship
+believing they're ready because they never ran the checklist at all.
+
+## Part 6: Where to Go Next (compiled — Chapters 19-20 + Master Resource Index, pp. 121-143)
+
+### Chapter 19 — Role-Based Learning Tracks
+
+Explicit framing: **"You do not need to read this guide cover to cover to
+get value from it."** Three curated reading paths, one per role, each
+roughly 30-45 days at a pace of 2-3 chapters/week.
+
+**19.1 Product Manager track** — Week 1: Ch 1 (vocabulary), Ch 2 (what
+enterprises are building, "shapes your intuition for what's realistic").
+Week 2: Ch 4 (Problem-First Design, "most directly relevant to your daily
+work"), Ch 3 (Models: How to Choose, "decide the rough cost/capability
+envelope before committing to a roadmap"). Week 3: Ch 6 (Why Evals Are the
+Real Work, "sets the right expectations with your engineering team"), Ch 8
+(LLM-as-Judge, "important for scoping timeline"). Week 4: Ch 10 (From
+Single Calls to Agents, "know when to push back on 'let's build an
+agent'"), Ch 11 (Workflow and Router Patterns, "the shape most of your
+roadmap should default to"). Week 5: Ch 18 (Production Readiness
+Checklist, "use as launch criteria"), reread Ch 2 with production
+experience. **Skip on first pass:** Ch 7, 12, 13, 14, 15, 16, 17 ("where
+your engineers live — read them when a specific decision comes up").
+**Revisit when:** scoping a new project, pushing back on a complex
+architecture proposal, deciding between two vendors.
+
+**19.2 UX Designer track** — Week 1: Ch 1, Ch 5 (Prompting and Context
+Engineering, "the designable surface you might not have realized you could
+influence"). Week 2: Ch 4 ("start with the user, always"), Ch 9
+(Guardrails, "the safety layer that shapes how the system refuses,
+redirects, and communicates uncertainty"). Week 3: Ch 8 ("how subjective
+quality gets measured; think about how this maps to user perception"),
+Ch 11 ("the chapter that most shapes how users experience the 'doors' in
+an AI product"). Week 4: Ch 12 (Tool Use, "the experience of
+confirmation, drafting, and undoing"), Ch 13 (Retrieval, "relevant to
+compliance, research, document-heavy UX"). Week 5: Ch 18 ("the UX items on
+this list are your direct responsibility"), Ch 6 ("gives you language for
+why the system's behavior changes over time"). **Skip on first pass:** Ch
+3, 7, 10, 14, 15, 16, 17. **Revisit when:** designing a confirmation flow,
+an empty/error state, communicating system confidence, or designing for a
+high-stakes regulated domain.
+
+**19.3 Engineer track** — "You need everything, in roughly the order
+presented; faster pass through what you already know, deeper engagement
+on what you don't." Week 1: Ch 1 (quick pass), Ch 3 (model-choice decision
+framework), Ch 5 ("probably your most-used chapter"). Week 2: Ch 6 ("the
+argument for why this is the most important chapter for you"), Ch 7
+("build these first, always"), Ch 8 ("add these when you need them").
+Week 3: Ch 9 ("input sanitization day one, rest as you discover need"),
+Ch 12 ("always start read-only, always scope permissions"), Ch 13 ("for
+any system with documents"). Week 4: Ch 10 ("stay at the simplest level
+that works"), Ch 11 ("default architecture for most enterprise systems"),
+Ch 14 ("only if your use case needs it"). Week 5: Ch 16 ("set this up
+before launch, not after"), Ch 17 ("MCP is the standard worth learning"),
+Ch 18 ("run through this before every launch"). **Only when the need
+arises:** Ch 15 — "most engineers will not build a multi-agent system;
+those who do need the full chapter." **Revisit when:** choosing a new
+architecture, debugging a weird production failure, deciding whether to
+build or rely on a protocol — quarterly, reread Ch 6 and Ch 18.
+
+**19.4 Shared homework across all tracks:** the companion course *AI Evals
+for Everyone* (deeper mechanics, video lessons, live sessions — work
+through alongside Part 3); subscribe to LevelUp Labs' monthly paper
+roundup (hosted in the `awesome-generative-ai-guide` repo); **teach what
+you read** — pick a topic, explain it to a colleague in 15 minutes, "if
+you cannot explain it, you do not know it yet."
+
+**19.5 For leaders (bonus track):** Ch 2 (roadmap intuition), Ch 6
+(understand what you're staffing for), Ch 10 (push back on over-ambitious
+architecture proposals), Ch 18 (launch review rubric). "Fewer chapters,
+more revisits — the practice for leaders is making sure these are the
+lens through which AI decisions get filtered across the team."
+
+### Chapter 20 — The Horizon
+
+Opens with a self-aware caveat: **"A book about AI in 2026 that tries to
+predict 2027 is probably going to look embarrassing in 2027. We will try
+anyway, but carefully."** Eight named forward-looking themes plus two
+closing sections.
+
+**20.1 Reasoning keeps getting better and cheaper** — the most
+consequential trend of 2025-2026, per the book: OpenAI's o-series,
+Anthropic's extended thinking, Google's Gemini thinking, DeepSeek's open
+reasoning models have all pushed multi-step-problem capability. Direction
+stated: reasoning gets cheaper per token, faster per response, more
+reliable on harder problems over the next two years; tasks that needed a
+multi-step workflow increasingly solvable with a single reasoning call;
+agent loops get more reliable as the planner core improves; **"by late
+2026, reasoning is the default for non-trivial tasks."** Design
+implication: build interfaces that can absorb a reasoning-model upgrade
+without requiring rewrites.
+
+**20.2 Long context, really** — 1M-token context windows are widely
+available in 2026; 2027 expected to bring larger windows with meaningfully
+better attention quality across the full range (the "lost in the middle"
+problem named as softening, not solved, as models improve at long
+context). Practical shift: retrieval becomes less necessary for
+single-user, single-document, cost-insensitive interactions — "just put
+the document in context" becomes viable. For multi-user, multi-document,
+or high-volume systems, retrieval remains the right answer — "but the
+line between 'this needs retrieval' and 'this can just fit in context' is
+moving."
+
+**20.3 Multimodal by default** — vision is table stakes in 2026, audio/
+video inputs becoming standard; the next year brings native multimodal
+models blurring input-modality lines. For document-heavy use cases: the
+OCR-then-extract pipeline architecture of 2023 is being replaced by
+vision-language models handling mixed-media documents (PDFs with tables,
+charts, forms, images, text) end-to-end without specialized pipelines —
+named as a real UX shift (a system that can look at a screenshot and
+answer a question about it is a different design problem than a text-only
+system).
+
+**20.4 Open models close more of the gap** — Llama, Qwen, DeepSeek, and
+Mistral all named as shipping models meeting or exceeding closed-model
+performance on many benchmarks in 2026, driven by cheaper open-model
+hosting (Together, Fireworks, Groq, Cerebras named) and better post-
+training extraction of performance from smaller parameter counts. Likely
+2027 state per the book: frontier capability (reasoning, multimodal, edge
+cases) stays closed, but a large share of enterprise workloads can be
+served by open models at meaningfully lower cost — "teams that structure
+their systems to be model-agnostic will have the most flexibility."
+
+**20.5 Autonomy, carefully** — autonomous agents (acting without real-time
+human approval) have been promised for years; the 2026 state is still
+narrow domains with careful guardrails, unpredictable failure outside
+those domains. Named trajectory: not a sudden breakthrough to full
+autonomy, but a steady expansion of where autonomous action is safe,
+driven by better models/evals/guardrails — explicitly maps onto this
+book's own Chapter 12 progression (read-only → draft-then-confirm →
+guardrailed action → autonomous).
+
+**20.6 Regulation and governance** — the EU AI Act is in effect; several
+US states have passed AI-specific legislation; industry-specific rules
+(financial, healthcare, legal) are adding AI-specific compliance
+requirements. Stated consequence: audit trails, documented decision
+processes, and bias testing are moving from nice-to-have to required — "the
+checklist in Chapter 18 is conservative by today's standards; it will be
+table stakes by 2027." Silver lining named directly: eval suites,
+observability, guardrails, and human-in-the-loop patterns are not just
+good engineering, they're also regulatory scaffolding — teams that
+invested early in the Part 3/Part 5 practice have an easier regulatory
+path.
+
+**20.7 The enterprise AI platform** — meta-trend: individual AI systems
+built by individual teams are giving way to shared organizational AI
+platforms — centralized eval teams, shared guardrail libraries, company-
+wide observability, internal MCP servers for all corporate data sources,
+central model governance, uniform incident response. Implication for a
+product team: your AI system will increasingly be built on shared
+organizational infrastructure rather than as a standalone project — "the
+skills this guide tries to transfer will eventually be the baseline for
+working inside that platform."
+
+**20.8 What does not change** — the durable parts of the practice, stated
+to hold through 2027 and 2030 even as models change: problem-first design
+still matters more than any specific technology choice; evaluation is
+still the core muscle for shipping AI that actually works; workflows still
+beat agents for most enterprise problems; tool design still matters more
+than tool count; retrieval quality still depends on chunking more than on
+the vector database; observability is still the foundation of continuous
+improvement; the teams that get good at AI are the ones that invest in a
+durable practice around evaluation, observability, and iteration.
+
+**20.9 What to do with this chapter** — explicit instruction not to plan
+against specific predictions (the book states it could be wrong about
+reasoning-adoption curves, open-model parity, regulatory pace) but to plan
+against the *direction*: reasoning getting more central, multimodal
+becoming default, open models closing the gap, governance rising,
+enterprise AI turning into a platform. **"Design your systems so that the
+inevitable changes are absorbable"** — protocols, model-agnostic
+architecture, strong evals, clean tool contracts, external configuration —
+"and the next two years of field change are a tailwind rather than a
+threat."
+
+**20.10 Final word, closing the book directly:** "You finished the guide.
+The reward for finishing a guide like this is not the finish. It is the
+next system you build. The work is in the building, in the evals, in the
+traces at 11pm, in the quarterly recalibration, in the weekly habit of
+looking at real user traffic together... The builds are yours."
+
+### Master Resource Index (compiled — pp. 134-143)
+
+Every external resource cited across the 20 chapters, organized by
+LevelUp Labs three ways (by source, by topic, by type). Reproduced here
+by category, not link-by-link, since the underlying URLs are volatile web
+resources this wiki does not own or verify independently — **treat this
+as a curated pointer list, verify each link's current target before
+citing it as authoritative.**
+
+**By source, named providers with the most citations:** LevelUp Labs
+itself (`awesome-generative-ai-guide` repo — the main paper-roundup/course
+hub; *AI Evals for Everyone* course, threaded through Part 3; *Generative
+AI Genius*; *Applied LLMs Mastery 2024*; an Agents 101 guide; a 3-day RAG
+roadmap; 5-day LLM foundations and agents roadmaps; a Fine-Tuning 101
+guide; an intro-to-multimodal-LLMs guide; a "Securing Agentic AI Systems"
+piece). **Anthropic**, called "the clearest applied writing in the field
+from a model provider" — Building Effective Agents (marked **"referenced
+repeatedly, read end to end"** — this is the same essay Chapter 11's five
+workflow patterns are explicitly sourced from), Effective Context
+Engineering for AI Agents, the multi-agent research-system writeup
+(source for Chapter 15's real example), Mapping the Mind of a Large
+Language Model, Introducing the Model Context Protocol, Contextual
+Retrieval, Prompt Engineering Overview, Tool Use / Extended Thinking /
+Structured Outputs / Citations / Memory Tool documentation, and the
+Anthropic Economic Index. **OpenAI** — Learning to Reason with LLMs, Why
+Language Models Hallucinate, a Prompt Engineering guide, Function Calling
+and Structured Outputs guides, a Reasoning guide, an Embeddings guide, an
+Evals guide, a tokenizer tool, Agents SDK documentation, customer stories.
+**Google/DeepMind** — the AI Co-Scientist writeup, Gemini model docs,
+Vertex AI Grounding docs. **Meta** — Llama research, Llama Guard research.
+**DeepLearning.AI** (Andrew Ng's platform, called "the cleanest, most
+accessible technical education in AI") — *Generative AI for Everyone*
+(non-technical intro) and 60+ short courses, several co-taught with
+Anthropic/OpenAI.
+
+**By topic (tool/reference names only, verify current URLs before use):**
+*Observability* — Arize Phoenix (+ Quickstart), LangSmith (+ quickstart),
+Promptfoo (open-source eval framework), OpenTelemetry GenAI semantic
+conventions. *Retrieval/vector databases* — Pinecone (Hybrid Search,
+Rerankers), Weaviate Hybrid Search, pgvector, Cohere Rerank, Microsoft
+GraphRAG, LlamaIndex advanced retrieval. *Frameworks/agent tooling* —
+LangGraph (docs, human-in-the-loop, memory, multi-agent, persistence),
+LangChain context engineering, Letta (formerly MemGPT, "the most mature
+open-source memory system"). *Guardrails* — NVIDIA NeMo Guardrails,
+Microsoft Presidio (PII detection), Lakera Guard, Llama Guard, Prompt
+Armor. *Protocols* — the MCP spec itself, A2A. *Enterprise AI reports* —
+McKinsey State of AI, Menlo Ventures State of AI in the Enterprise, a16z
+Enterprise AI report (the three industry-adoption sources cited
+throughout Ch 2 and elsewhere). *Regulation* — EU AI Act, NIST AI Risk
+Management Framework. *Product/design references* — Marty Cagan's
+Product Discovery work (the explicit source for the Four Layers
+Framework's shape in Chapter 4), Shreyas Doshi's writing. *Benchmarks* —
+HELM (Stanford), LMArena (crowdsourced head-to-head comparisons), Hugging
+Face Open LLM Leaderboard.
+
+**Newsletters/ongoing sources named for continued monitoring:** LevelUp
+Labs' monthly paper roundup; Anthropic's engineering blog
+(anthropic.com/engineering); OpenAI Research (openai.com/research,
+openai.com/index); LangChain's blog (blog.langchain.com).
 
 ## Volatile claims requiring re-verification at point of use
 
