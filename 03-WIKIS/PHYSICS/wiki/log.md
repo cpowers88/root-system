@@ -1244,3 +1244,115 @@ does not establish Chris's Section 54 instructor, grading, dates, or AI policy.
 Section 54. Updated `current-position.md`, `source-map.md`,
 `SYLLABUS_STATUS.md`, and flag #57 to classify Farhan as the provisional likely
 instructor. Exact-section grading, dates, and policies remain unconfirmed.
+## 2026-07-28 — Math-first learning calibration and syllabus reconciliation (Codex)
+
+### Outcome
+- Calibrated the PHYSICS teaching system to use mathematical structure as
+  Chris's entry ramp, followed by explicit physical translation, diagrams,
+  parameter changes, units, limiting cases, and independent transfer.
+- Kept the durable textbook stage numbers intact while adding a separate course
+  execution overlay: Section 51/Farhan is the best provisional Fall pacing
+  source; the Summer Section 54 file corroborates scope only.
+- Marked Stages 14 (fluids) and 18 (relativity) as Fall-scope pending and added
+  an early-readiness trigger for Stage 13 because Farhan's reference calendar
+  places gravitation near Chapters 5-6.
+
+### Evidence
+- Direct comparison of the Fall Section 51/Farhan syllabus and Summer Section
+  54/Akshay Agarwal syllabus: same Serway/Jewett 10th-edition spine and the same
+  core through Chapters 1-13 and 15-16; Fall adds explicit Chapter 17 pacing.
+- Active Stage 4 now explains projectile motion as one linear and one quadratic
+  component function sharing the same time variable, with physical meaning for
+  each term and parameter.
+
+### Capability/status movement
+- Learner stage did not move from this system work. Stage 4 remains active;
+  Chris was reading Chapter 4 section 4.3 before the independent physics rep.
+
+### Errors, uncertainty, or residual risk
+- Exact Fall Section 54 syllabus remains unavailable. Section 51 dates,
+  grading, and policies are nonbinding.
+- The Summer Section 54 file is classified in `77-INBOX`; the protected
+  filesystem refused the authorized move into `raw/syllabus`.
+
+### Exact next independent rep
+- Finish Chapter 4 section 4.3 reading, then solve the scheduled angled-launch
+  work using `predict -> calculate -> interpret`.
+
+### Reusable-asset candidate
+- No. This is a domain-specific calibration of the existing PHYSICS method.
+
+### System-learning candidate
+- No new cross-system rule; the preference is recorded in the owning learning
+  hub.
+
+### Sources and files touched
+- Updated PHYSICS operations, authoring standards, current position,
+  math-readiness path, Stage 4 packet, learning path, source map, syllabus
+  coverage ledger, local loader, this log, and the cross-course syllabus status.
+- Classified `77-INBOX/PHYS 2211 54 (52148) Principles of Physics I.md` as a
+  reference-only Summer source.
+
+**Filename clarification:** Chris renamed the canonical Fall/Farhan reference to
+`raw/syllabus/PHYS 2211 51 (83719) Fall 2026 Syllabus - Best copy.md`.
+Live source pointers now use that name. Its frontmatter remains
+`status: reference-only` because it is Section 51, not Chris's Section 54.
+
+**Path-authority clarification:** Chris then explicitly selected that Fall/Farhan
+syllabus—not ascending textbook order—as the preparation path until he says
+otherwise. The textbook now supplies content in syllabus order. The execution
+path is Stage 1→2→3→4→5→Stage 13 gravity foundation→6→7→8→9→10→11→12→15→16→17.
+Printed chapter cells that contradict their topic labels do not control.
+
+## 2026-07-28 — Angled Launch Drill (Problems 3–4) + Session Review Page
+
+### Outcome
+- Read Ch 4 §4.3 (pp. 74–80), then solved
+  [[drills/projectile-motion-drill]] Problems 3 and 4 live with Claude.
+  Both self-corrected to the right answer after a wrong first pass.
+
+### Evidence
+- Problem 3: max height and range correct on first try (5.10 m, 35.35 m);
+  time of flight wrong first try (1.77 s — used v₀ᵧ/g, the time-to-peak
+  formula, instead of 2v₀ᵧ/g), self-corrected to 2.04 s after being asked to
+  compare the two formulas.
+- Problem 4: max height and range correct (8.61 m, 19.89 m); first time-root
+  attempt (3.06 s) repeated the same t_peak-vs-t_flight confusion plus
+  plugged raw v₀ instead of v₀ᵧ. Redirected to the general quadratic
+  (y = v₀ᵧt − ½gt² = 5.00); first quadratic attempt gave 1.59 s / 3.31 s,
+  caught as physically impossible by comparing against the symmetric-case
+  total flight time (~2.65 s) as an upper bound; corrected to 0.47 s / 2.18 s,
+  matching the source answer key (0.466 s / 2.19 s).
+
+### Capability/status movement
+- Angled-launch time-of-flight formula: real, corrected miss — the
+  t_peak-vs-t_flight confusion is now identified and named, not just
+  "got it wrong once." Sanity-checking a quadratic root against a known
+  physical bound is a technique Chris used unprompted-ish (with one nudge)
+  and should keep using on every two-root projectile problem going forward.
+
+### Errors, uncertainty, or residual risk
+- Same error type surfaced twice in one session (Problems 3 and 4) before
+  it stuck — worth a quick re-check on Problem 6 (cliff, asymmetric) later
+  in the drill to confirm it's actually retained, not just corrected in
+  the moment.
+
+### Exact next independent rep
+- Continue the drill or move to Ch 4 §4.4 (uniform circular motion) per
+  the weekly plan; re-test the time-of-flight distinction cold before
+  trusting it as mastered.
+
+### Reusable-asset candidate
+- Yes — created `wiki/worked-examples/2026-07-28-angled-launch-session-review.md`,
+  a synthesis page tying trig decomposition, the calculus derivation, and
+  the formula table together, anchored to this session's two real mistakes
+  for review/retention. Cross-links the existing canonical pages rather than
+  duplicating them.
+
+### System-learning candidate
+- No new cross-system rule.
+
+### Sources and files touched
+- `wiki/drills/projectile-motion-drill.md` (read only, no edit)
+- `wiki/worked-examples/2026-07-28-angled-launch-session-review.md` (new)
+- This log.

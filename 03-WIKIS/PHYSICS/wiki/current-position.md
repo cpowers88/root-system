@@ -110,6 +110,10 @@ Stage 4 instead of running a detached calculus review.
   2026-07-25. Its concepts, examples, drills, reading order, and cold entry
   check are prepared. Ready to activate after the Stage 4 gate; readiness is
   not mastery.
+- **Syllabus-controlled next turn:** after Stage 5, use the Farhan path rather
+  than ascending textbook order. Open Stage 13's gravitational-force and
+  inverse-square foundation before Stage 6; defer orbital applications that
+  require circular motion or energy until Stages 6-8 provide those tools.
 - **Stages 6–18** — textbook tables of contents were screened 2026-07-15 and the
   readiness/gap classification is now in [[learning-path#Semester Pathway Control Table]].
   Packet-level expansion remains just in time: Stage 6 needs accelerated frames;
@@ -118,4 +122,10 @@ Stage 4 instead of running a detached calculus review.
 
 ## First Course Target
 
-Build class readiness by mapping required chapters, concepts, equations, calculus skills, problem types, and mastery checks. **Full confirmed scope (as of 2026-06-25):** Ch 1–12, 13, 14, 15–17, and Ch 38 (Relativity). This is 18 stages total. Ch 10–12 (rotation/angular momentum/statics) and Ch 14 (fluids) confirmed by Chris on 2026-06-25.
+Build class readiness in the order of
+`raw/syllabus/PHYS 2211 51 (83719) Fall 2026 Syllabus - Best copy.md`.
+The controlling preparation scope is Chapters 1-13 and 15-17, interpreted from
+the syllabus's topic names where its printed chapter numbers are visibly wrong.
+Stage 14 fluids and Stage 18 relativity remain durable reference packets but are
+not on the active Fall path unless Chris or the exact Section 54 source activates
+them.

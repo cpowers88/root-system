@@ -11,6 +11,13 @@ timeline: reference
 
 > How to price audits, projects, and retainers: value-anchored, fixed-fee, and never by the hour.
 
+> [!IMPORTANT]
+> This is pricing research, not an adopted rate card. The dollar ranges and
+> conversion assumptions are market hypotheses dated 2026. A live quote requires
+> observed scope, delivery risk, internal cost, documented client value, and
+> Chris's approval. Until field evidence exists, the active first offer is being
+> validated for usefulness and delivery effort—not optimized for price.
+
 ## Purpose
 Set the pricing rules for every offer so quotes are fast, consistent, defensible, and profitable — and so pricing decisions never happen improvisationally on a sales call.
 

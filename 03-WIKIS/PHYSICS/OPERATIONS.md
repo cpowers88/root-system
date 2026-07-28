@@ -40,10 +40,10 @@ exists.
 |---|---|
 | Permanent direction and AI limits | `01-NORTH_STAR/NORTH_STAR.md` |
 | Fall 2026 readiness and outcomes | `01-NORTH_STAR/Goals & Milestones/fall_2026_semester.md` |
-| Official syllabi, assignments, notes, and records | `02-LIBRARY/00-SCHOOL/` |
-| Cross-course source status | `02-LIBRARY/00-SCHOOL/SYLLABUS_STATUS.md` |
+| PHYSICS canonical syllabus evidence | `raw/syllabus/` |
+| Cross-course source status and noncanonical school references | `02-LIBRARY/00-SCHOOL/SYLLABUS_STATUS.md` |
 | Learner truth and mastery evidence | `wiki/current-position.md` |
-| Durable 18-stage sequence | `wiki/learning-path.md` |
+| Syllabus-controlled execution path and durable stage packets | `wiki/learning-path.md` |
 | Semester reading and pacing triggers | `wiki/pacing-trigger-map.md` |
 | Source roles and verification | `wiki/source-map.md` |
 | Page specifications and expanded protocols | `wiki/authoring-standards.md` |
@@ -51,7 +51,15 @@ exists.
 
 authority_rules:
   - Official exact-section material overrides every derivative page.
-  - Neighbor-section evidence is provisional and cannot control deadlines, grading, instructor policy, or AI use.
+  - Until Chris says otherwise, `raw/syllabus/PHYS 2211 51 (83719) Fall 2026
+    Syllabus - Best copy.md` controls the preparation topic path because it
+    matches the Fall term and instructor on Chris's registration paperwork.
+  - Its section number, CRN, deadlines, grading, and instructor-specific policy
+    remain nonbinding for Section 54.
+  - When its topic label and printed chapter number disagree, the topic label
+    controls and Serway's table of contents identifies the correct chapter.
+  - The textbook supplies explanations, derivations, examples, and practice in
+    the syllabus order; textbook order does not independently control sequencing.
   - No page may claim mastery Chris did not demonstrate independently.
   - Do not duplicate learner truth outside `wiki/current-position.md`.
 
@@ -211,8 +219,9 @@ policy as provisional and use the more restrictive safe boundary.
 ## Raw boundary
 
 `raw/` is immutable evidence. AI MUST NOT create, edit, move, rename,
-reorganize, archive, or delete anything under it. Only Chris places files
-there. Derived work belongs in `wiki/`.
+reorganize, archive, or delete anything under it unless Chris explicitly
+authorizes the named exception. PHYSICS syllabus evidence is canonical there;
+derived work belongs in `wiki/`.
 
 ## Close
 

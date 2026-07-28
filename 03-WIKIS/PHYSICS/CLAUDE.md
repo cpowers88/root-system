@@ -21,7 +21,8 @@ rules:
   - `wiki/current-position.md` is the sole learner-truth authority.
   - Generated packets are readiness, not mastery.
   - Official exact-section course material overrides derivative wiki pages.
-  - Never write, move, rename, archive, or delete anything under `raw/`.
+  - Never write, move, rename, archive, or delete anything under `raw/` unless
+    Chris explicitly authorizes the named exception.
   - Do not assist prohibited graded work; when status or policy is unclear, stop and ask Chris.
 
 route:

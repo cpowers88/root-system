@@ -4,7 +4,7 @@ timeline: reference
 status: live
 reference_priority: core
 tags: [business]
-updated: 2026-07-24
+updated: 2026-07-28
 ---
 
 # Business Wiki Index
@@ -14,6 +14,39 @@ material. The current vehicle and goals live outside this wiki.
 
 The catalog below reflects the live physical structure. The legacy
 `ai-integration-company\index.md` remains only as a compatibility pointer.
+
+## Start Here — Company-Building Route
+
+The current vehicle is the **Advisor-Builder** defined in
+`01-NORTH_STAR/Goals & Milestones/CURRENT_STRATEGY.md`. This wiki supplies the
+knowledge and methods; it does not activate a market, offer, price, purchase, or
+outreach campaign on its own.
+
+Use this order:
+
+1. **Observe reality:** [[methods/workflow-observation-method|Workflow Observation Method]]
+2. **Quantify the problem:** [[methods/smb-ai-audit-method|SMB AI Audit Method]]
+3. **Recommend coherent action:** [[methods/strategic-diagnosis-and-coherent-action|Strategic Diagnosis and Coherent Action]]
+4. **Earn a bounded implementation:** [[offers/service-offer-ladder|Service-Offer Ladder]]
+5. **Deliver and measure:** [[offers/fulfillment-system|Fulfillment System]]
+6. **Maintain only proven systems:** [[offers/retainer-model|Retainer Model]]
+7. **Harvest proof and reusable assets:** [[05-BUSINESS/03-Case Studies/CASE_STUDY_TEMPLATE|Case-Study Template]]
+
+The first proof path is deliberately small:
+
+```text
+messy workflow or dataset
+-> observed current state
+-> validated data and quantified loss
+-> decision-ready report
+-> one justified improvement
+-> measured result
+-> reusable method or component
+```
+
+For the capability sequence behind that path, use
+[[references/skill-roadmap|Business Capability Reference]] and
+[[pathways/tool-stack|Technology Capability Stack]].
 
 ## Evidence
 
@@ -110,7 +143,7 @@ Blank masters are owned by `05-BUSINESS`, not this knowledge wiki.
 
 ## Current review queue
 
-1. Reconcile offer and pricing claims with `CURRENT_STRATEGY.md`.
-2. Mark every volatile claim with date, source strength, and hypothesis status.
-3. Convert or archive unsupported scenarios.
-4. Complete required `type:` metadata.
+1. Validate the first offer against a real observed workflow.
+2. Replace market-price hypotheses with actual scope, hours, value, and close data.
+3. Keep scenarios as reference until CASTLE and Goals & Milestones activate one.
+4. Complete remaining metadata and claim-dating during normal page use.

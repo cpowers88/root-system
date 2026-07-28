@@ -13,10 +13,10 @@ timeline: reference
 
 ## Timeline Gate — Read This First
 This page activates only when `CURRENT_STRATEGY.md`, CASTLE, and NOW call for active
-client acquisition. It is not a start-on-read checklist. As of July 14, 2026, live
-Physics/Python preparation, the July 25 tracker data turn, and approved bounded
-continuity/business evidence come first. Outreach, filing, purchases, or pipeline
-work still require their normal gate and Chris's approval.
+client acquisition. It is not a start-on-read checklist. School remains the fixed
+spine; the current Physics and Python frontiers, CASTLE, and NOW determine what may
+run. Outreach, filing, purchases, or pipeline work still require their normal gate
+and Chris's approval.
 
 ## Purpose
 Every plan dies in the gap between "I understand it" and "I started it." This page closes that gap: it tells you what to do **once the timeline gate above is open**, forces the two decisions that block everything else, and points you at the ready-made [[05-BUSINESS/TEMPLATE_INDEX|templates]] so nothing has to be built from scratch.

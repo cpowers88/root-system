@@ -17,6 +17,23 @@ Define the standard way every engagement is delivered — audit, project, or ret
 ## Key Idea
 Fulfillment is where this business is won or lost. Sales gets you one project; **reliable delivery gets you the retainer, the case study, and the referral** — the three assets that compound. The system rests on four disciplines: fixed scope in writing, engineering-grade reliability (error handling, testing, monitoring — [[quality-control-and-risk-gates|Quality Control & Risk Gates]]), documentation as a deliverable, and a measured before/after on every project.
 
+## Advisor-Builder Delivery Spine
+
+The 14-step reference sequence below implements the current strategic loop:
+
+| Strategy stage | Fulfillment evidence |
+|---|---|
+| Observe | notes, workflow trace, artifacts, and stakeholder confirmation |
+| Diagnose | current-state map, baseline, quantified loss, and confidence level |
+| Engineer | bounded design, alternatives considered, owner, and acceptance test |
+| Deploy | tested change, human review gates, training, monitoring, and rollback |
+| Train / retain | named operating owner, exception process, and maintenance scope |
+| Harvest | before/after result, case study, reusable template, and lessons logged |
+
+An engagement may stop after diagnosis. That is a successful outcome when the
+evidence shows that no build is justified, an off-the-shelf change is sufficient,
+or the client is not ready.
+
 ## Why It Matters
 - SMB owners have been burned by tech vendors before; **boring reliability is your differentiation**.
 - Scope creep and rework are the two biggest margin killers in services; both are fulfillment-process failures, not client failures.

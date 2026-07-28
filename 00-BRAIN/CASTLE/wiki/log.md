@@ -1352,3 +1352,46 @@ reconciled; Chris's Section 54 remains unresolved.
 (pp. 83-87) then Function Lab A; Physics §4.3 reading then drill Problems
 3-4. ECON/TCOM Weeks 7-14 ingestion and PHYSICS/EDUCATION's half of flag #85
 remain open, not urgent tonight.
+## 2026-07-28 — Learning-to-value stack profit gate (Codex)
+
+- Audited BUSINESS, TECHNOLOGY, PYTHON, AI_AUTOMATION_SYSTEMS, SYSTEMS, and
+  REVENUE_LAB intake state. No broad ingestion campaign is justified; the live
+  constraint is application proof.
+- Gate idea: Python -> validated data/SQLite -> decision-ready report ->
+  measured workflow improvement.
+- Criteria: no-orphan PASS; source PASS; phase PASS; displacement PASS; proof
+  PASS.
+- **Verdict: PASS — Phases 1-3, serving the Advisor-Builder audit and
+  implementation path.**
+- Displaces broad source ingestion, generic stack study, and speculative app
+  building. It does not displace today's school proof.
+- Proof sentence: convert one real workflow into a validated data structure and
+  produce one report another person can use to make a decision.
+- Next action: remain at the current PYTHON Stage 4 frontier; add SQL, reporting,
+  APIs, or UI layers only when the proof vehicle requires them.
+
+## 2026-07-28 (afternoon) — Watchtower sweep + root health check (Claude Code)
+
+- **Watchtower:** MCP radar row's 2026-07-28 review trigger fired. Verified
+  live via WebSearch: the final 2026-07-28 spec published on schedule
+  (stateless core, MCP Apps + Tasks extensions, OAuth/OIDC auth, formal
+  deprecation policy, all four Tier-1 SDKs day-one compliant) — matches the
+  May 21 RC prediction exactly, no surprise. The learning capstone was
+  already CLOSED (2026-07-27); this was the last open thread on the signal.
+  Row moved 🧪 OUTCOME -> 🗑 PRUNED in `radar.md`. Radar is now at zero live
+  rows again.
+- **Root health:** ran `root_health.py`. One pre-existing BLOCKER unchanged
+  (`03-WIKIS\EDUCATION\.claude\settings.local.json` nested Claude settings
+  shadow, still awaiting Chris's sign-off — not touched, requires his
+  explicit approval per `CLAUDE.md`). One self-caused frontmatter regression
+  found and fixed same session: the new
+  `03-WIKIS\PHYSICS\wiki\worked-examples\2026-07-28-angled-launch-session-review.md`
+  page (created this afternoon) was missing its `timeline:` field per
+  `authoring-standards.md`; added `timeline: reference`. Re-ran clean —
+  0 new frontmatter debt, 320 baseline debt untouched.
+- **Opportunity queue:** checked review dates — OPP-20260716-02 not due
+  until 2026-07-30; OPP-20260727-01 has no review date, waiting on Chris's
+  interview session, not urgent. Nothing else actionable without Chris.
+- **Next exact action:** none required before Chris's 4:00 appointment;
+  CSE Lab (2:00 slot) remains the one open school item for later tonight if
+  he gets to it.

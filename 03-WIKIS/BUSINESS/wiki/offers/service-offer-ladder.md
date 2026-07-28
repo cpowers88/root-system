@@ -12,6 +12,12 @@ timeline: reference
 
 > The offer stack: how a client climbs from a $1.5K audit to a $60K/year systems partnership — and why every rung exists.
 
+> [!IMPORTANT]
+> This page is an **offer-option model**, not a live rate card or sales plan.
+> `CURRENT_STRATEGY.md` controls the active first offer: observe a workflow and
+> produce a concise, decision-ready report. Prices, conversion targets, and later
+> rungs below are hypotheses until field evidence and CASTLE activate them.
+
 ## Purpose
 Define the exact offers sold at each stage of the client relationship, so pricing, sales, and fulfillment all operate on the same named products instead of improvised scopes.
 
@@ -19,6 +25,15 @@ Define the exact offers sold at each stage of the client relationship, so pricin
 Never sell one big thing to a stranger. Sell a **small diagnostic** to a stranger, a **scoped project** to a believer, and a **retainer** to a client with working systems. Each rung de-risks the next for both sides, and each rung's deliverable *is the sales material* for the rung above.
 
 ## The Ladder
+
+### Current entry — Workflow Observation and Decision Report
+Observe one bounded workflow, map what actually happens, quantify one or more
+credible losses, and return a concise finding with the next justified action. No
+automation, AI, or software sale is required. Success means the client recognizes
+the problem, trusts the evidence, and can make a better decision.
+
+Only after this work produces credible evidence should it advance into the
+historical rung model below.
 
 ### Rung 0 — Starter Diagnostic ($500–$1,500, optional entry)
 A half-day workflow review producing a short opportunity list — no full task inventory, no quantified report. Use it only when a prospect is warm but audit-hesitant, or for your very first clients; its single job is converting into Rung 1. Don't let it cannibalize the audit: it identifies leaks, the audit prices them.

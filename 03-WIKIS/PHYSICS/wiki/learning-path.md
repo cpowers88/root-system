@@ -37,10 +37,11 @@ per-stage counts are now recorded in the table below, replacing the vaguer
 over-reported one.
 
 **Build-ahead is not scheduled.** Per the just-in-time rule below, a stage is
-expanded when Chris is one stage away from it — not now. Stage 10 is five stages
-out, and Section 54's real D2L calendar (expected Aug 24) may still park or
-reorder Ch 13–18. Building those pages today would repeat the July cruise-prep
-pattern of generating content ahead of any evidence it is needed.
+expanded when Chris is one stage away from it. The Farhan Fall Section 51
+reference places Chapter 13 unusually early, near Chapters 5–6, so Stage 13 now
+has an early-readiness trigger: inspect and repair it when Stage 5 closes or when
+Section 54 D2L confirms that order, whichever comes first. This is a readiness
+trigger, not permission to interrupt active Stage 4 work.
 
 **Advancement is mastery-gated, not calendar-gated.** A stage closes when its
 mastery checklist passes cold, whatever the week's plan says; see
@@ -48,7 +49,10 @@ mastery checklist passes cold, whatever the week's plan says; see
 the calendar. A weekly plan allocates hours — it does not hold a finished unit
 open, and it does not license moving on from an unfinished one.
 
-## Stage Sequence
+## Durable Stage Library
+
+The numbers below are stable packet identifiers and textbook locations. They are
+not the active study order while the Farhan syllabus controls preparation.
 
 ```text
 Stage 1  -> Ch 1  Physics and Measurement              [PROVISIONALLY CLEARED]
@@ -71,16 +75,40 @@ Stage 17 -> Ch 17 Superposition and Standing Waves
 Stage 18 -> Ch 38 Relativity (capstone)
 ```
 
-Ch 10–12 and Ch 14 confirmed in scope by Chris (2026-06-25). All stages now active in sequence.
+The packets remain available as a durable reference library. Activation follows
+the syllabus path below, not ascending stage number.
 
-**2026-07-21 cross-section check:** two real Fall 2026 neighbor syllabi (Section
-51 and Section 55, neither is Chris's Section 54) confirm the Stage 1-12 and
-Stage 15 order exactly. Neither neighbor's actual calendar schedules Ch 14
-(Fluids) or Ch 38 (Relativity), and Section 55 never reaches Ch 13 or Ch 16-17
-either — full detail and handling rule in
-[[syllabus-coverage-ledger#Cross-Section Verification, 2026-07-21]]. Stages
-13-18 stay in the path; re-verify against Section 54's real D2L calendar after
-Aug 24.
+## Durable Sequence vs. Course Execution Order
+
+The numbered stages follow textbook and prerequisite order. They are the durable
+physics map and are not renumbered every time an instructor changes pacing.
+
+The controlling preparation order is the Section 51/Farhan syllabus because it
+matches Chris's instructor and Fall term. Chris explicitly selected it on
+2026-07-28 and it remains controlling until he says otherwise:
+
+```text
+Stage 1 -> 2 -> 3 -> 4 -> 5
+-> Stage 13 gravity foundation -> Stage 6
+-> Stage 7 -> 8 -> 9
+-> Stage 10 -> 11 -> 12
+-> Stage 15 -> 16 -> 17
+```
+
+The Summer 2026 Section 54 reference independently corroborates the core through
+Chapters 1-13 and 15-16, but its eight-week pace, instructor, CRN, grading, and
+dates do not control Fall. Its order is closer to textbook order.
+
+Course execution therefore moves from Stage 5 to the force/inverse-square
+foundation of Stage 13, then into Stage 6. Orbital-motion applications that
+require circular motion or energy return after Stages 6-8. This split follows
+the instructor's topic order without pretending later prerequisites were already
+mastered.
+
+Stages 14 and 18 remain durable capability pages but are **Fall scope pending**
+because neither available calendar schedules fluids or relativity. Stage 17 is
+supported by the Farhan Fall calendar. Re-verify all course-order claims when the
+exact Fall Section 54 syllabus or D2L sequence appears.
 
 ## Semester Pathway Control Table
 

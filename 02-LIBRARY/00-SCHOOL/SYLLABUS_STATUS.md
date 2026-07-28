@@ -19,7 +19,7 @@ tags: [school, syllabus, fall-2026]
 
 | Course | Registered section | Available Markdown source | Use boundary |
 |---|---|---|---|
-| PHYS 2211 | 54 (83722) | `02-Physics I/PHYS 2211 51 (83719) Fall 2026 Syllabus - Reference Only.md`; `02-Physics I/PHYS 2211 55 (83723) Fall 2026 Syllabus - Reference Only.md` | Neighboring sections only; the July 27 Section 51 recapture identifies Farhan Islam; Section 55 identifies Swayamprabha Behera |
+| PHYS 2211 | 54 (83722) | PHYSICS hub `raw/syllabus/PHYS 2211 51 (83719) Fall 2026 Syllabus - Best copy.md`; `02-Physics I/PHYS 2211 55 (83723) Fall 2026 Syllabus - Reference Only.md`; `77-INBOX/PHYS 2211 54 (52148) Principles of Physics I.md` | No exact Fall Section 54 syllabus. Section 51 matches likely instructor Farhan Islam and is the primary provisional pacing source; “Best copy” does not make its Section 51 policies binding |
 | ENGR 1000 | BWD (80858) | `05-ENGR/ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md` | Summer reference only; not Fall section BWD |
 
 ## Missing Current Sources

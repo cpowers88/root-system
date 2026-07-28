@@ -752,3 +752,34 @@ four lines above it). No content pages added or removed.
 - Keep the toolkit dormant until an audit or workflow observation reaches a
   specific stuck decision. Then use the smallest applicable technique and ship
   a decision record plus a bounded test, not a brainstorming transcript.
+
+## 2026-07-28 — Advisor-Builder operating alignment
+
+### What changed
+
+- Added a company-building route to the wiki index: observe, quantify, recommend,
+  implement only when justified, measure, maintain, and harvest reusable proof.
+- Reframed the service ladder and pricing pages as hypothesis/reference material,
+  not an active rate card or permission to sell unvalidated scope.
+- Mapped the fulfillment system directly to the current Advisor-Builder delivery
+  loop and made “diagnosis with no build” an explicit successful outcome.
+- Reordered the technology and skill references around a math-first value path:
+  Python, validated files/data, SQLite/SQL, analysis/reporting, tests and
+  documentation, APIs/integration, interfaces, then governed AI components.
+- Removed stale dated activation wording from the scenario start page. School,
+  CASTLE, CURRENT_STRATEGY, and NOW continue to control timing.
+
+### Evidence and limits
+
+- The BUSINESS raw-source map remains complete; this pass required no new
+  ingestion and did not modify immutable raw evidence.
+- Market price ranges, conversion rates, long-horizon scenarios, and tool choices
+  remain unvalidated hypotheses until supported by field observation and delivery
+  records.
+
+### Recommended next action
+
+- When the active school schedule permits, use one accessible, non-sensitive
+  workflow or dataset to produce the first complete proof packet: baseline,
+  validated inputs, quantified loss, concise recommendation, confidence level,
+  and one bounded next test.

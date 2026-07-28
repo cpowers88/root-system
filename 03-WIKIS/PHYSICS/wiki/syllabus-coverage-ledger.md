@@ -26,11 +26,17 @@ below) are now the current best-available sources for anything past Chapter 5.
 
 ## Authority Rule
 
-1. Use the syllabus for course identity, learning outcomes, grading categories,
-   academic-integrity boundaries, and the named physics scope.
+1. Until Chris says otherwise, use
+   `raw/syllabus/PHYS 2211 51 (83719) Fall 2026 Syllabus - Best copy.md`
+   for the preparation topic path because it matches his Fall term and
+   instructor.
 2. Use the live D2L/WebAssign/Owl Express course for dates, deadlines, assignment
    availability, exam/drop mechanics, and any item flagged below as conflicting.
-3. Use Serway & Jewett as the content spine and [[learning-path]] as the staged route.
+3. Use Serway & Jewett as the content and derivation source in syllabus order.
+   When a printed chapter cell conflicts with its topic label, follow the topic
+   and use the textbook contents to identify the correct chapter.
+4. Section 51 grading, policies, CRN, and deadlines remain nonbinding for
+   Chris's Section 54.
 
 ## Academic Content Routed to Stages
 
@@ -132,11 +138,16 @@ registered Section 54 (flag #57, still open pending Aug 24 D2L confirmation), bu
 both are same-course, same-term, and give the first real look at pacing beyond
 Chapter 5.
 
-**What this confirms — no path change needed:**
+**What this confirms:**
 
-- Topic order for Ch 1 through Ch 12 matches [[learning-path]]'s Stage 1-12
-  sequence exactly in both sections. Ch 15 (SHM) also lands in the same relative
-  position in both. This corroborates the existing stage order.
+- The durable textbook sequence remains a sound prerequisite map, but the course
+  execution order is instructor-dependent. Section 55 largely follows Chapters
+  1-12 in order; Section 51/Farhan moves Chapter 13 gravitation near Chapters
+  5-6 and later reaches Chapters 16-17. The course overlay in [[learning-path]]
+  now records that distinction without renumbering the durable stages.
+- The Summer 2026 Section 54 reference independently confirms the same core
+  through Chapters 1-13 and 15-16 in an eight-week sequence. It corroborates
+  scope, not Fall pacing or policy.
 - `syllabus.pdf` (the original spine source, now archived — see the Source note
   above) was very likely an early, truncated capture of this same Section 55
   syllabus — identical instructor, identical grading weights, identical

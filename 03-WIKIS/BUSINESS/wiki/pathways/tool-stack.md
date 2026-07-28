@@ -7,7 +7,7 @@ stage: phase-1
 timeline: reference
 ---
 
-# Tool Stack
+# Technology Capability Stack
 
 > The standard software toolkit: what to master, what to run the business on, and the rules for adding anything new.
 
@@ -16,6 +16,25 @@ Standardize the tools used for delivery and internal operations, so skills compo
 
 ## Key Idea
 **Depth in a boring stack beats breadth in a shiny one.** Clients don't pay for tool knowledge; they pay for outcomes delivered reliably — and reliability comes from using instruments you know cold. Pick one tool per job, master it, and add new tools only through a deliberate evaluation gate. Tool names below will age; the *categories and selection rules* are the durable content.
+
+## Learning-to-Value Sequence
+
+Learn each layer through a small artifact that proves the skill:
+
+| Order | Capability | Physical-world meaning | Proof artifact | Value unlocked |
+|---|---|---|---|---|
+| 1 | Python fundamentals | Build a dependable tool from explicit steps | tested script with clear inputs/outputs | repeatable analysis and transformation |
+| 2 | Files, CSV, JSON, validation | Inspect and clean material moving through a workflow | validation report with rejected-record reasons | trustworthy operational data |
+| 3 | SQL and SQLite | Give facts a durable, queryable home | small database plus useful queries | history, reconciliation, and decision support |
+| 4 | Analysis and reporting | Turn measurements into a decision | concise report with assumptions and confidence | diagnostic offer |
+| 5 | Git, tests, documentation | Make a tool safe to change and hand off | versioned project with tests and runbook | maintainable delivery asset |
+| 6 | APIs and integrations | Connect machines without manual copying | logged, retry-safe data flow | bounded workflow improvement |
+| 7 | Interfaces and dashboards | Put the right decision in front of a human | usable review screen or dashboard | adoption and operating visibility |
+| 8 | AI components and agents | Add probabilistic labor behind controls | evaluated component with human gates | scalable drafting, extraction, or classification |
+
+This order follows the math: establish valid inputs, preserve state, calculate the
+result, expose the decision, then automate. AI enters after the deterministic path
+and acceptance criteria are understood.
 
 ## Delivery Stack (What You Build Client Systems With)
 
@@ -65,7 +84,10 @@ Standardize the tools used for delivery and internal operations, so skills compo
 | Power BI | Free access via school M365 tenant (July 2026); already named as the Looker Studio alternate above | BI / dashboards | Watching — not adopted, Looker Studio remains primary |
 
 ## Beginner Version
-Minimum viable stack: Make + HubSpot free + Airtable + Looker Studio + Claude API + a password manager + QuickBooks. Under ~$150/mo total. Master these seven before touching anything else.
+The current beginner sequence is **Python + files/CSV/JSON + SQLite + tests + a
+decision-ready report**. Add Git and documentation as part of every build. Do not
+buy or master additional platforms merely to complete a list; add the next tool
+only when a real workflow or internal proof requires it.
 
 ## Intermediate Version
 The beginner seven mastered and producing, plus: n8n for logic the visual platform can't hold, a real monitoring/alerting channel across all client builds, per-client Claude Code configurations ([[claude-code-leverage]]), and the evaluation gate actually enforced — new tools tested internally before any client sees them.

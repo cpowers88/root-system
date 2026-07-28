@@ -42,9 +42,19 @@ Name the real-world audit/build analog when doing the assignment — that's what
 ## Application Development Is Part of the Skill Stack, Not a Side Quest
 Application development remains part of the permanent capability base, but the live
 sequence comes from the PYTHON wiki, pre-semester plan, CASTLE, and actual projects.
-As of July 14, the Academic Tracker is shipped and awaits real course data around
-July 25; POL is not the governing next build. Every active build should practice the
-full arc: design, build, test, document, deliver, and maintain.
+Do not copy a dated Python stage into this reference page. Every active build should
+practice the full arc: define the problem, model the inputs and outputs, build,
+validate, test, document, deliver, and maintain.
+
+For Chris's math-first learning style, treat each program as a small mathematical
+model:
+
+```text
+validated inputs -> transformation or rule -> state change -> observable output
+```
+
+Then explain the physical implementation: where the inputs originate, what can go
+wrong at each handoff, who uses the output, and what decision or action it changes.
 
 ### Third-Party Validation of This Layer Order (added 2026-07-12, WEF Future of Jobs Report 2025)
 The WEF's Core Skills 2025 ranking (1,000+ employers, 22 industries, 55 economies) independently ranks systems thinking (42%), resource management/operations (41%), and quality control (35%) as named, employer-cited core skills — corroborating that Layers 1 and 2 below aren't invented categories. Notably, **AI & big data ranks only 11th in current core-skill importance (45%)** despite being separately named the #1 fastest-*growing* skill — third-party confirmation of this roadmap's "diagnosis over AI-tool-fetish" ordering: the tool skill is rising fast but isn't yet what employers rank most essential, process/systems literacy still leads. Separately, the same report finds skill instability easing (39% of workers' skills expected to change by 2030, down from 44% in 2023 and 57% in 2020) while reskilling participation rises (50% of workers vs. 41% in 2023) — continuous learning is trending from novelty toward baseline expectation, which is worth a line in a proposal when pitching training as a standard delivery component, not an add-on.
@@ -58,13 +68,26 @@ The WEF's Core Skills 2025 ranking (1,000+ employers, 22 industries, 55 economie
 
 ## Layer 2 — Build Skills (Months 0–9, deepening for years)
 Priority order:
-1. **One integration platform to expert level** (Make or n8n — see [[tool-stack|Tool Stack]]): triggers, iterators, error handlers, webhooks, rate limits
-2. **APIs and data plumbing:** REST, auth (OAuth/API keys), JSON, webhooks; enough scripting (Python or JS) to fill gaps no-code can't reach
-3. **LLM engineering:** prompt design for extraction/classification/drafting, structured outputs, retrieval (RAG) fundamentals, evaluation and testing of AI outputs, cost/latency management — treat model output as an unreliable component to engineer around
-4. **CRM platforms:** one mainstream CRM deeply ([[crm-and-sales-ops-pathway|CRM pathway]])
-5. **Data & BI:** SQL basics, data modeling, one BI tool ([[data-and-dashboard-pathway|dashboard pathway]])
-6. **Reliability engineering & AI quality control:** logging, monitoring, alerting, graceful failure — plus the gate craft: validation layers, confidence routing, sampling audits, acceptance tests ([[quality-control-and-risk-gates|Quality Control & Risk Gates]]). The discipline that separates you from hobbyist automators, and a directly sellable skill: gate architecture is why your $12K build beats a $2K freelancer zap
-7. **Agentic delivery:** driving Claude Code (or equivalent) as your build multiplier — per-client configurations, reviewing and testing generated code, knowing what to delegate to the agent vs. keep by hand. This skill compresses every other layer-2 skill's delivery hours; see [[claude-code-leverage]]
+1. **Python fundamentals and program design:** functions, data structures,
+   decomposition, exceptions, and readable interfaces.
+2. **Data reliability:** files, CSV/JSON, validation, reconciliation, SQL, and
+   SQLite. Bad inputs invalidate every downstream calculation.
+3. **Testing and maintainability:** Git, unit tests, logging, documentation, and
+   reproducible environments.
+4. **Analysis and decision communication:** calculations, summaries,
+   visualizations, assumptions, and confidence written for an operator.
+5. **APIs and integration:** REST, authentication, JSON, webhooks, retries,
+   idempotency, and rate limits.
+6. **One workflow platform when demanded by a real use case** (Make, n8n, or the
+   client's existing platform; see [[tool-stack|Technology Capability Stack]]).
+7. **Interfaces, CRM, and BI:** learn the specific system needed to place a trusted
+   decision inside the user's workflow.
+8. **LLM and agent engineering:** structured outputs, retrieval, evaluation,
+   cost/latency controls, privacy, and human review. Treat model output as an
+   unreliable component to engineer around.
+9. **Reliability and quality gates:** monitoring, alerting, graceful failure,
+   confidence routing, sampling audits, and acceptance tests
+   ([[quality-control-and-risk-gates|Quality Control & Risk Gates]]).
 
 ## Layer 3 — Commercial Skills (Months 1–12)
 - **Consultative selling:** discovery questioning, mirroring, closing the audit ([[sales-system|Sales System]]) — rehearsed out loud, not just read about
