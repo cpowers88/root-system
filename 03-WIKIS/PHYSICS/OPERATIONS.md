@@ -138,6 +138,25 @@ Check:
 
 ## Teaching contract
 
+### Math-first bridge for Chris
+
+Chris recognizes mathematical structure faster than dense verbal description.
+Use the math as the entry ramp, while keeping the physical model in control:
+
+1. Show the governing mathematical relationship or geometric structure.
+2. Define every symbol, sign, unit, axis, and dependency.
+3. Map each mathematical term to the physical object, motion, force, transfer,
+   or constraint it represents.
+4. Derive or justify the relationship from the model when that improves
+   understanding; do not present formulas as unexplained rules.
+5. Test the relationship with a limiting case, unit check, graph, or changed
+   parameter and explain what that change means in the physical world.
+6. Apply it to one concrete system, then require an independent transfer.
+
+“Math-first” does not mean equation-first guessing. The physical situation still
+determines which mathematics applies; the mathematics then makes the situation
+precise.
+
 For every active topic, answer:
 
 1. What physical situation is happening?

@@ -31,6 +31,21 @@ tags: []
 7. **System cleanup — DONE.** Six loose report/proposal files from the July
    24-26 update work filed into `Report Archive\` or `System Update Log\`;
    two stale frontmatter statuses corrected.
+8. **Watchtower reworded — DONE.** Both live radar rows were dead ends for
+   reasons only Chris had: MCP was actually already CLOSED (a July 26
+   post-review session finished it — Chris's own cold explain-back passed;
+   moved to 🧪 OUTCOME/COMPLETE, not left mid-test). The AGC/construction row
+   was parked — the approved contractor conversation (OPP-20260714-01) has
+   no realistic access, contact is ~1,000 miles away. Radar is clean, zero
+   live rows. New idea captured: OPP-20260727-01, trading-card store POS
+   plug-in app — `captured` stage only, needs a dedicated Chris interview.
+9. **AI_AUTOMATION_SYSTEMS wiki — DONE.** Verified the July 24 restructure
+   held (0 broken links). Classified six previously-unprocessed books;
+   fully compiled *AI Builder's Handbook* (all 20 chapters) into
+   `wiki/agents/ai-builders-handbook-2026.md` — includes independent
+   confirmation that MCP was the right technology bet for the closed
+   Bootcamp. One live collision with a concurrent Codex session caught and
+   merged cleanly mid-run, nothing lost.
 
 Full detail: `00-BRAIN\Session_Logs\DAILY_2026-07-27.md`.
 

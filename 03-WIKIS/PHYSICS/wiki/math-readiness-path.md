@@ -41,25 +41,39 @@ opening several competing math topics at once.
 
 ## Learning Method
 
-The aptitude report supports a physical, spatial, conversational loop:
+The aptitude evidence and Chris's 2026-07-28 calibration support a
+math-forward, physical, spatial, conversational loop. Mathematical structure is
+the fastest entry point; physical translation prevents symbol manipulation from
+becoming detached from the actual system:
 
 ```text
-physical situation -> sketch -> exact math move -> guided rep
--> no-notes transfer rep -> explain aloud -> cold check next session
+physical situation -> mathematical skeleton -> symbol/unit map -> sketch
+-> physical translation -> guided rep -> changed-parameter transfer
+-> explain aloud -> cold check next session
 ```
 
 Rules:
 
-1. Draw the objects, axes, triangle, graph, or rotation before choosing a formula.
-2. Give each term one exact meaning and use it immediately.
-3. Learn formulas through a physical relationship, not as isolated text.
-4. Use one worked example, then change the numbers or physical setting for the
+1. Name the physical system, then show the governing relationship early so Chris
+   can orient through its structure.
+2. Give every symbol, sign, unit, derivative, integral, and vector operation one
+   exact physical meaning and use it immediately.
+3. Draw the objects, axes, triangle, graph, or rotation before substituting
+   numbers; the diagram verifies that the chosen mathematics matches reality.
+4. Learn formulas through derivation, dependency, and physical relationship, not
+   as isolated text.
+5. Use one worked example, then change the numbers or physical setting for the
    independent rep.
-5. Start the next session with one cold retrieval check before adding new material.
-6. After solving, compare the result with a nearby case and state the numerical
+6. Start the next session with one cold retrieval check before adding new material.
+7. After solving, compare the result with a nearby case and state the numerical
    pattern you notice.
-7. Explain one alternate approach aloud, then record the most dependable process
+8. Explain one alternate approach aloud, then record the most dependable process
    as the reusable method.
+
+The control question is always:
+
+> What does the mathematics predict, and what would that prediction look like in
+> the physical world?
 
 ## Stage-Gated Math Route
 

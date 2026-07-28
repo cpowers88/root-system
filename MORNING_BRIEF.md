@@ -3,13 +3,13 @@ type: dashboard
 timeline: now
 status: active
 tags: [castle]
-generated: 2026-07-27
+generated: 2026-07-28
 ---
 
-# Morning Brief — July 27, 2026
+# Morning Brief — July 28, 2026
 
-**ATTENTION —** Your live lane is PHYSICS, but `NOW.md` still points to Monday's Python baseline; do not infer that baseline passed without owner evidence — `NOW.md`.
+**ATTENTION —** Flag #85 (HIGH) is open: PHYSICS/EDUCATION still disagree on which syllabus copy is canonical — `00-BRAIN/SYSTEM_FLAGS.md`.
 
-**START —** Keep Claude as live teacher and complete the current Stage 4 handwritten cold rep; this builds Fall readiness — `03-WIKIS/PHYSICS/wiki/current-position.md`.
+**START —** 9:00 Python: *Think Python* pp. 83–87, then 10:00 Function Lab A cold (`fahrenheit_to_celsius`, `is_even`) — `NOW.md`.
 
 **CHRIS —** None before start.

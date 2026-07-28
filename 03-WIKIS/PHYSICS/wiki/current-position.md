@@ -30,6 +30,12 @@ Known learning requirements:
 - Needs visible sequence.
 - Needs vocabulary support.
 - Needs equations tied to meaning, variables, units, and assumptions.
+- Mathematical structure is the preferred entry ramp: show the relationship
+  early, then translate every term into the physical mechanism and observable
+  result it represents.
+- Parameter changes, unit checks, limiting cases, graphs, and derivations are
+  especially useful because math is easier to process than dense verbal
+  explanation.
 - Needs calculus explained in context.
 - Needs diagrams and physical-world anchors.
 - Needs problem types classified.

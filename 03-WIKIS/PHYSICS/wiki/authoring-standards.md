@@ -73,6 +73,14 @@ Do not overbuild. Generate only what supports the current stage unless Chris ask
 - Use short paragraphs.
 - Use direct headings.
 - Avoid textbook haze.
+- For Chris, expose the mathematical skeleton early: relationship, variables,
+  units, sign convention, and dependencies.
+- Follow the skeleton with a term-by-term physical translation and one concrete
+  real-system implementation.
+- Explain what a derivative, integral, vector component, or proportionality is
+  doing physically; do not merely name the operation.
+- Include a parameter-change or limiting-case question: “If this quantity
+  increases, what changes mathematically, and what would we observe physically?”
 - Use one idea per section.
 - Define terms before using them heavily.
 - Use diagrams or diagram descriptions when helpful.

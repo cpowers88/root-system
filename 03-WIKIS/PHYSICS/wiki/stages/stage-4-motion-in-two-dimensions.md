@@ -36,6 +36,41 @@ Stages 2 and 3 — must be fluent with 1D kinematic equations (Stage 2) and vect
 
 Vector components (sin/cos decomposition), quadratic equations, trig identities — especially sin 2θ = 2 sin θ cos θ.
 
+## Math-to-Physical-World Bridge
+
+The mathematical skeleton for projectile motion is two functions using the same
+input, time:
+
+```text
+x(t) = x0 + (v0 cos theta)t
+y(t) = y0 + (v0 sin theta)t - (1/2)gt^2
+```
+
+- `x(t)` is linear because the model contains no horizontal acceleration. Its
+  graph has constant slope `v0 cos theta`; physically, equal time intervals add
+  equal horizontal distances.
+- `y(t)` is quadratic because gravity changes vertical velocity at a constant
+  rate. Its graph curves downward; physically, each successive time interval
+  removes another `g` worth of upward velocity.
+- The same `t` appears in both equations because there is one projectile and one
+  clock, even though the two component motions follow different rules.
+- `cos theta` projects the launch vector onto the horizontal axis; `sin theta`
+  projects it onto the vertical axis. These are not decorative trig operations:
+  they measure the two shadows cast by one velocity vector.
+
+Before calculating, predict the effect of changing one parameter:
+
+- Increasing `v0` increases both component magnitudes and generally increases
+  height and range.
+- Increasing `theta` transfers more of the fixed launch speed into vertical
+  motion and less into horizontal motion.
+- Increasing `g` bends the vertical graph downward faster, shortening flight and
+  reducing height and range.
+
+Then check the prediction against the equations, units, graph, and final physical
+result. This `predict -> calculate -> interpret` loop applies to every Stage 4
+problem type.
+
 ## Core Concepts
 
 - [[../concepts/projectile-motion]]
