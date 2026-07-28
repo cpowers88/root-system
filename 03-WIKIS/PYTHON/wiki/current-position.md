@@ -51,10 +51,30 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
   the parameter and `"Chris"` as the argument in both directions. One residual
   correction given, not yet re-tested: `return` sends the computed value back
   out to the caller, it does not "hold" the argument.
-- **Exact learner frontier:** cold baseline closed; next is the Stage 4
-  reading — *Think Python* pp. 43-52 and 83-87 — then
-  [[stages/stage-04-functions-parameters-return]] and the function-writing
-  drill. Python libraries remain Stage 4b.
+- **Stage 4 reading complete (2026-07-27/28).** *Think Python* pp. 43-52
+  (Monday, after the cold baseline) and pp. 83-87 (Tuesday morning) both
+  read.
+- **Function Lab A — PASS WITH CORRECTION (2026-07-28).** Chris built
+  `is_even(x)` and `fahrenheit_to_celsius(f)` cold from a blank file
+  (`02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\{is_even,
+  degreesF_toC}.py`), both returning rather than printing. Real first-
+  attempt failure caught and corrected: the first `fahrenheit_to_celsius`
+  truncated with `int((f - 32) * 5) / 9` — applying `int()` before dividing
+  by 9. Chris predicted the function's output by hand for both the buggy
+  order (36.888888...) and the corrected order (36.944444444), then fixed
+  it to `c = float(float(f - 32) * 5) / 9`, matching the predicted correct
+  value. Also worked through: functions must `return` (not print a
+  formatted string) so callers can still do math with the result; display
+  formatting belongs at the call site. Full record:
+  `wiki/log.md` 2026-07-28.
+- **Exact learner frontier:** the drill's third function, `shout(message)`
+  (void — prints, does not return) is the one required piece not yet
+  built; neither today's rep exercised the fruitful-vs-void distinction.
+  Also outstanding: debug one of the four [[errors/stage-04-common-errors]]
+  types without help, explain scope/fruitful-void aloud unprompted, and the
+  [[mini-projects/stage-04-function-toolbox]]. See the full remaining-
+  operations list in `00-BRAIN\Session_Logs\DAILY_2026-07-28.md`'s
+  Claude-to-Codex handoff. Python libraries remain Stage 4b.
 - **Code evidence in the MCP Bootcamp workbench:** `Code/for.py` records the
   recovered first-match trace; `Code/for2.py` records the nearby divisible-by-7
   transfer; `Code/PT.py` records the independent multi-part `or` condition plus
@@ -121,14 +141,13 @@ for this hub and cannot count as learner proof.
 
 ## Current Reading Queue
 
-- **Read now:** begin with the cold Stage 4 functions baseline. After the
-  baseline, read [[stages/stage-04-functions-parameters-return]], then
-  [[concepts/defining-and-calling-functions]],
-  [[concepts/parameters-and-arguments]], and [[concepts/return-values]]. Spine
-  reading is *Think Python* **physical pp. 43–52 and 83–87** — about 15 pages, exact
-  section pages in [[source-page-map]].
-- **Read next after proof:** use the Stage 4 function-writing drill and Function
-  Toolbox mini-project only after the baseline identifies the real support need.
+- **Read now:** Stage 4 spine reading (*Think Python* pp. 43-52, 83-87) is
+  complete; cold baseline and Function Lab A's first two functions are also
+  done. Nothing new to read before finishing the drill's third function
+  (`shout(message)`) — go straight to
+  [[drills/stage-04-function-writing]].
+- **Read next after proof:** [[mini-projects/stage-04-function-toolbox]],
+  only after the drill (all three functions) is complete.
 - **Do not read yet:** standard library ([[stages/stage-04b-python-libraries]] —
   unlocks only after the Stage 4 functions gate closes), collections,
   searching/sorting, OOP, or Java. Their exact unlock triggers and semester
@@ -227,8 +246,10 @@ closed unless a specific learning gap justifies reopening it.
 
 ## Current Next Action
 
-Stages 0–3 are closed; Stage 4 functions is active and its cold baseline is
-closed (2026-07-27, PASS WITH CORRECTION — see above). Chris's next action is
-the Stage 4 reading, *Think Python* pp. 43-52, then the function-writing drill.
-All later packets remain content readiness, not study progress until worked
-and verified.
+Stages 0-3 are closed; Stage 4 functions is active. Cold baseline (2026-07-27)
+and Function Lab A's first two functions (2026-07-28) are both closed PASS
+WITH CORRECTION. Next action is the drill's third function, `shout(message)`
+— see [[drills/stage-04-function-writing]] and the Claude-to-Codex handoff in
+`00-BRAIN\Session_Logs\DAILY_2026-07-28.md` for the exact remaining
+operations to close the gate. All later packets remain content readiness,
+not study progress until worked and verified.

@@ -90,6 +90,29 @@ No new downloadable math source is currently required: the Serway appendices alr
 contain the core algebra, trigonometry, derivative, and integral reference. External
 material should answer a diagnosed difficulty, not create a second parallel course.
 
+## Local Calculus Library — Screened 2026-07-28
+
+`02-LIBRARY\ref-math\` holds four full calculus texts plus a precalculus text
+(read-only screened via table of contents; not copied or moved). Same rule as
+the External Personal Math Archive below: retrieve only the matching
+chapter/section named by [[calculus-map]] for the live stage, never read
+end to end. Two other files in that folder (`introductory-statistics.pdf`,
+`Principles-of-Data-Science-WEB.pdf`) are out of scope for PHYS 2211 — no
+role here.
+
+| Source | Role | Best use (exact section + textbook page) | Intake rule |
+|---|---|---|---|
+| `02-LIBRARY\ref-math\MITCALCULUS-Strang.pdf` (Strang, *Calculus*, 3rd ed.) | calculus-support | **Standout match.** §1.3 Velocity at an Instant p.67; §1.4 Circular Motion p.73; Ch.2 Derivatives p.87; §3.3 Second Derivatives: Bending and Acceleration p.153; Ch.5 Integrals p.229; §8.5 Masses and Moments p.399 (Stage 10 `I=∫r²dm`); §8.6 Force, Work, and Energy p.406 (Stage 7-8); **§12.1 Position Vector p.517, §12.2 Plane Motion: Projectiles and Cycloids p.525, §12.3 Curvature and Normal Vector p.531** (Stage 4/6, exact match for [[calculus-links/2d-kinematics-components]] and [[calculus-links/tangential-radial-acceleration-derivative]]). Page numbers above are the textbook's own printed page; this file's PDF-offset from page 1 is not yet verified — check the printed page number visible on the page after opening. | pull the exact named section only when a specific calculus-link rep needs deeper backup than the appendix gives |
+| `02-LIBRARY\ref-math\calculus-volume-1.pdf` (OpenStax Calc Vol.1) | calculus-support | Ch.3 Derivatives p.187 (PDF p.195); §3.4 Derivatives as Rates of Change p.230 (PDF p.238); §4.1 Related Rates p.296 (PDF p.304); Ch.5 Integration p.437 (PDF p.445); §6.5 Physical Applications p.594 (PDF p.602); §6.6 Moments and Centers of Mass p.610 (PDF p.618, Stage 10). **Verified offset: PDF page = printed page + 8** (confirmed against this file's own contents page and chapter opener). | same just-in-time rule |
+| `02-LIBRARY\ref-math\calculus-volume-2.pdf` (OpenStax Calc Vol.2) | calculus-support | Ch.4 Introduction to Differential Equations — direct match for [[calculus-links/shm-differential-equation]] (Stage 15, `d²x/dt² = −ω²x`). PDF-offset not yet verified for this file — check the printed page number on arrival. | use only when Stage 15 is reached |
+| `02-LIBRARY\ref-math\calculus-volume-3.pdf` (OpenStax Calc Vol.3) | calculus-support | Ch.2-3 Vectors in Space / Vector-Valued Functions — deeper backup for vector differentiation used throughout Stage 4. PDF-offset not yet verified. | use only if the condensed [[calculus-links/2d-kinematics-components]] treatment isn't enough |
+| `02-LIBRARY\ref-math\precalculus.pdf` (OpenStax Precalculus) | calculus-support / trig-support | Redundant with the already-registered OpenStax Precalculus 2e link above; local copy, same use | use just in time through [[math-readiness-path]] |
+
+**Reading order if a rep needs backup, cheapest first:** Serway appendix ->
+matching [[calculus-links]] page -> Strang's named section (physical
+intuition, shortest path back to the problem) -> OpenStax Calculus volume
+(more rigorous/complete treatment, use if Strang's brevity leaves a gap).
+
 ## External Personal Math Archive — Screened Support
 
 Chris's existing archive at `D:\SCHOOL\Chatt Tech Files\math` was read-only

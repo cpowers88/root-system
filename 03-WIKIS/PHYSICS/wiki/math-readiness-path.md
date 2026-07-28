@@ -102,6 +102,41 @@ The control question is always:
 3. **Close the bridge:** explain aloud why x and y share time but not acceleration,
    and use units plus the landing-velocity direction to check the answer.
 
+## Pre-Semester Calculus Transfer Sprint (added 2026-07-28)
+
+Chris's own framing: spend the runway before Fall classes start (Aug 24)
+building fluency at transforming a real physics problem into the calculus
+already learned once, using the built [[calculus-map#Calculus-Link Pages
+Built So Far|calculus-link pages]] as the spine and the newly screened local
+calculus library (`source-map.md` § Local Calculus Library) as backup depth
+only when a specific rep doesn't click — not a cover-to-cover math course.
+This is the same ahead-check pattern already used for Stage 5; it previews
+transfer skill, it does not advance the active Stage 4 gate early.
+
+**Sequence — work these in order, one rep each, using the Learning Method
+loop above (physical situation -> skeleton -> sketch -> guided rep ->
+transfer -> explain aloud):**
+
+1. [[calculus-links/kinematics-derivatives]] (Stage 2) — durability check, already passed once.
+2. [[calculus-links/2d-kinematics-components]] (Stage 4) — active now; today's session review (`worked-examples/2026-07-28-angled-launch-session-review.md`) already primes this.
+3. [[calculus-links/tangential-radial-acceleration-derivative]] (Stage 4/6) — next scheduled per the weekly plan (Thu Jul 30).
+4. [[calculus-links/stage-7-work-integral]] (Stage 7)
+5. [[calculus-links/power-derivative]] (Stage 8)
+6. [[calculus-links/impulse-integral]] (Stage 9)
+7. [[calculus-links/rotational-kinematics-derivatives]] (Stage 10)
+8. [[calculus-links/angular-momentum-derivative]] (Stage 11)
+9. [[calculus-links/shm-differential-equation]] (Stage 15)
+
+Stage 14 (fluids) and Stage 16 (waves) have no calculus-link page yet —
+build those only when Chris actually reaches them, per the one-stage-at-a-
+time rule; they are not part of this sprint.
+
+A rep is done when the explain-back and practice problems in that page pass
+without notes. If one doesn't click, pull the matching named section from
+Strang or the OpenStax volumes (`source-map.md` table), work it there, then
+return to the same calculus-link page — never substitute textbook reading
+for the physics rep itself.
+
 ## Support Sources
 
 - [OpenStax Precalculus 2e](https://openstax.org/books/precalculus-2e/pages/preface) -

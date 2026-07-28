@@ -1593,3 +1593,56 @@ argument, and returned value before opening the Stage 4 reading.
 
 **Next action:** continue Stage 4 functions work; Chris's canonical-copy decision
 is separate and must not displace the learning plan.
+
+## 2026-07-28 — Function Lab A: is_even and fahrenheit_to_celsius (Claude Code)
+
+### Outcome
+- Stage 4 spine reading closed (*Think Python* pp. 43-52 Monday, pp. 83-87
+  today). Built `is_even(x)` and `fahrenheit_to_celsius(f)` cold from a
+  blank file — two of the drill's three required functions.
+
+### Evidence
+- Both functions return (not print), contract-compliant. Real first-attempt
+  failure: `fahrenheit_to_celsius` first truncated with
+  `int((f - 32) * 5) / 9` — `int()` applied before the division by 9. Chris
+  predicted the output by hand for both the buggy order (36.888888...) and
+  the corrected order (36.944444444) before running either, then fixed the
+  function to `c = float(float(f - 32) * 5) / 9`, matching the predicted
+  correct value. Also correctly reasoned that a function must `return` a
+  value (not a formatted string) so callers can still do math with it, and
+  that display formatting (`f"{value:.2f}"`) belongs at the call site, not
+  inside the function. Separately debugged a PowerShell-vs-Python confusion
+  (`is_even` typed directly at the shell prompt instead of running the
+  file) — same fix pattern as Monday's `greet.py`.
+- Code: `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\is_even.py`
+  and `degreesF_toC.py`.
+
+### Capability/status movement
+- Stage 4 drill 2/3 functions complete, both PASS WITH CORRECTION. Fruitful
+  function pattern (return vs. print) is solid; void function pattern
+  (`shout`) not yet tested this stage.
+
+### Errors, uncertainty, or residual risk
+- The truncation bug and the raw-value-vs-component confusion from today's
+  later Physics session are structurally the same error class (applying an
+  operation before a required conversion/decomposition step) — worth
+  watching whether this is a recurring pattern across both subjects, not
+  logging as coincidence yet.
+
+### Exact next independent rep
+- `shout(message)` (void, prints uppercased + `!!!`) — the fruitful/void
+  distinction is the one untested concept from this drill. Full remaining
+  Stage 4 gate operations recorded in the Claude-to-Codex handoff,
+  `00-BRAIN\Session_Logs\DAILY_2026-07-28.md`.
+
+### Reusable-asset candidate
+- No — this is learner code, not a reusable system asset.
+
+### System-learning candidate
+- No new cross-system rule.
+
+### Sources and files touched
+- `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\is_even.py` (new)
+- `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\degreesF_toC.py` (new)
+- `wiki/current-position.md` (updated — reading queue, frontier, next action)
+- This log.

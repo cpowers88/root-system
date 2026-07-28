@@ -1356,3 +1356,54 @@ Printed chapter cells that contradict their topic labels do not control.
 - `wiki/drills/projectile-motion-drill.md` (read only, no edit)
 - `wiki/worked-examples/2026-07-28-angled-launch-session-review.md` (new)
 - This log.
+
+## 2026-07-28 (evening prep) — Local Calculus Library Screened + Pre-Semester Transfer Sprint Planned
+
+### Outcome
+- Chris asked for a month-long calculus review using his own books at
+  `02-LIBRARY\ref-math\` (four calculus texts + a precalculus text), cross-
+  referenced against the physics work ahead this semester. Screened each
+  book's table of contents (read-only, nothing copied or moved) rather than
+  reading them, per the existing "no second parallel course" rule already
+  stated in `source-map.md`.
+
+### Evidence
+- Registered all four calculus texts (Strang, OpenStax Calc Vol.1-3) plus
+  the local Precalculus copy in `source-map.md` § Local Calculus Library,
+  each with a calculus-support role and a just-in-time intake rule matching
+  the existing MIT OCW rows. Strang's table of contents is an unusually
+  strong match — it has sections literally titled "Circular Motion,"
+  "Second Derivatives: Bending and Acceleration," "Masses and Moments,"
+  "Force, Work, and Energy," and a whole chapter, "Motion Along a Curve,"
+  covering position vectors, projectiles, and curvature — i.e., today's
+  exact topic. Two other books in that folder (statistics, data science)
+  are out of scope and got no role.
+
+### Capability/status movement
+- No stage or gate moved. This is source registration and a planned
+  sequence, not a completed rep.
+
+### Errors, uncertainty, or residual risk
+- None. Screening was TOC-only; no content claims made beyond chapter
+  titles and page numbers.
+
+### Exact next independent rep
+- `math-readiness-path.md` § Pre-Semester Calculus Transfer Sprint now lists
+  the 9 already-built calculus-link pages in order as the sprint sequence,
+  starting from tonight's Stage 4 rep. Pull a Strang/OpenStax section only
+  when a specific rep doesn't click — reading order is Serway appendix,
+  then the calculus-link page, then Strang, then OpenStax volumes if still
+  needed.
+
+### Reusable-asset candidate
+- Yes — the source-map registration and the sprint sequence are both now
+  reusable for the rest of the semester, not just tonight.
+
+### System-learning candidate
+- No new cross-system rule; this follows the existing July 18 screening
+  precedent exactly.
+
+### Sources and files touched
+- `wiki/source-map.md` (new § Local Calculus Library)
+- `wiki/math-readiness-path.md` (new § Pre-Semester Calculus Transfer Sprint)
+- This log.

@@ -3,33 +3,23 @@ type: dashboard
 timeline: now
 status: active
 tags: [reading]
-generated: 2026-07-27
+generated: 2026-07-28
 ---
 
-# Evening Reading — July 27, 2026
+# Evening Reading — July 28, 2026
 
-## Python
+## School
 
-**READ —** *Think Python* pp. 83–87.
+**READ —** *Think Python*, Ch.3, "Fruitful Functions and Void Functions," physical p.51 (`03-WIKIS/PYTHON/raw/books/thinkpython.pdf`).
 
-**FOCUS —** Primes tomorrow's 9:00 block exactly as planned (`weekly-plan-2026-07-27-to-2026-08-02.md`, Tuesday). Not a cold-gate morning — Tuesday opens with this reading, then 10:00 is Function Lab A (`fahrenheit_to_celsius`, `is_even`), so reading first is correct here, unlike Monday's cold baseline.
+**FOCUS —** Reinforces the one Stage 4 concept not yet tested today, priming tomorrow's `shout(message)` build and the **fruitful-vs-void explain-back** Codex still needs (`DAILY_2026-07-28` Handoff item 1).
 
-**STOP —** After p. 87; Function Lab A is tomorrow's independent work, not tonight's.
-
-## Physics
-
-**READ —** Serway & Jewett Ch 4 §4.3, pp. 74–80 (angled projectile launch).
-
-**FOCUS —** **Correction to an earlier draft of this file:** it had assumed today's session already covered §4.3 and drill Problems 3-4, and pointed at Problems 5-6 prep instead — but today's actual work was the §4.1-4.2 launch diagram plus Problems 1-2 (horizontal launch), one day earlier in the Seven-Day Plan than that draft assumed. Tonight's real next reading is §4.3 itself, priming tomorrow's Problems 3-4 (angled launch) — you've already informally covered the core mechanics via today's self-made soccer-ball problem, so this read should go faster than a cold first exposure normally would.
-
-**STOP —** After p. 80; do not start drill Problems 3-4 tonight, that is tomorrow's independent work.
+**STOP —** Stop at page 51's section boundary, before "Why Functions?" on p.52; do not start the drill tonight.
 
 ## Technology
 
-## Technology
+**READ —** `03-WIKIS/BUSINESS/wiki/methods/workflow-observation-method.md`, the "Quantification Rules" section (Labor capacity through Revenue and cash).
 
-**READ —** `00-BRAIN/Session_Logs/claude_verdict_2026-07-26_mcp_bootcamp_lane.md`, "Two findings that change the Day 5 picture," through "Also Codex-only and worth keeping."
+**FOCUS —** Directly supports today's PASSed profit-gate path (Python -> validated data -> decision-ready report) by fixing how magnitude gets calculated and **labeled honestly** (observed vs. estimated vs. unknown).
 
-**FOCUS —** Ties to the open MCP Bootcamp gap: parameterized `?` binding stopped SQL injection but **`%` and `_` still return all six rows**, an unescaped `LIKE` wildcard defect, the cheapest real fix waiting on the lane.
-
-**STOP —** End at "Also Codex-only and worth keeping"; do not read the later Cross-Read revision sections tonight.
+**STOP —** End after "Revenue and cash"; skip the Workflow Report template and Post-Session ledger tonight.
