@@ -67,10 +67,16 @@ proposal.
 
 **Added 2026-07-27 (filed, not new work):** `claude_proposal_2026-07-26_execution_discipline_and_boot_chain.md` and its sibling `execution-discipline-and-boot-chain-discussion-2026-07-26.md` — the July 26 Execution Discipline pilot this packet's thread led to. Both were implemented and approved that day; moved here from a loose `Session_Logs\` root location during the July 27 cleanup pass, status corrected from stale "awaiting-approval" to "implemented."
 
-Supporting live artifacts remain in their owning homes:
+Supporting artifacts, consolidated into this packet 2026-07-29 (were loose at
+`.ROOT` root — root-cleanliness pass, no content change):
 
 - `vault-skeleton-design.md`
 - `newvaultstructureclaude.md`
+- `claude_and_chris_direction.md`
+- `tree.text` — July 23 pre-update directory-tree export
+
+Remaining supporting artifacts stay in their owning homes:
+
 - `00-BRAIN\scripts\path_reference_audit.py`
 - `00-BRAIN\scripts\path_reference_baseline.json`
 - `00-BRAIN\CASTLE\wiki\root-architecture-evidence-refinery-2026-07-24.md`

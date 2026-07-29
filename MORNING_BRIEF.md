@@ -3,13 +3,13 @@ type: dashboard
 timeline: now
 status: active
 tags: [castle]
-generated: 2026-07-28
+generated: 2026-07-29
 ---
 
-# Morning Brief — July 28, 2026
+# Morning Brief — July 29, 2026
 
-**ATTENTION —** Flag #85 (HIGH) is now limited to EDUCATION’s canonical syllabus pointers and does not block learner work — `00-BRAIN/SYSTEM_FLAGS.md`.
+**ATTENTION —** Earlier revenue leaders are access-blocked or paused, so the next value engine must begin with reachable evidence rather than inherited rankings — `00-BRAIN/CASTLE/wiki/opportunity-queue.md`.
 
-**START —** Resume Python Stage 4 cold with `shout(message)`, then explain why this void function prints instead of returning — `03-WIKIS/PYTHON/wiki/stages/stage-04-functions-parameters-return.md`.
+**START —** Identify the strongest reachable workflow-to-decision engine that compounds SQL, diagnosis, and reusable assets toward the value-production goal — `01-NORTH_STAR/Goals & Milestones/value_production_goal.md`.
 
 **CHRIS —** None before start.
