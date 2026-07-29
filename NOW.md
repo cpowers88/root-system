@@ -13,11 +13,13 @@ tags: []
 
 **Day two of the 32-block simulation. Status:**
 
-1. **Python — Function Lab A, 2 of 3 functions. PASS WITH CORRECTION.**
+1. **Python — Stage 4 drill COMPLETE, all 3 functions. PASS WITH CORRECTION.**
    *Think Python* pp. 83-87 read; `is_even(x)` and `fahrenheit_to_celsius(f)`
-   built cold. A real truncation bug (`int()` applied before dividing) was
-   caught via hand-prediction and fixed. `shout(message)` — the void-
-   function piece — is next, not yet built.
+   built this morning (real truncation bug caught via hand-prediction and
+   fixed). `shout(a)` — the void function — built tonight, unplanned, ahead
+   of its scheduled Wednesday 9:00 slot; explain-back had one correction
+   (a `return`/`break` conflation). Remaining for the Stage 4 gate: one
+   common-error debug rep, and the Function Toolbox mini-project.
 2. **Physics — angled-launch drill Problems 3-4. PASS WITH CORRECTION.**
    Ch 4 §4.3 read; same error class (time-to-peak vs. total-flight-time
    formula) hit twice, self-corrected the second time via an independent
@@ -62,12 +64,14 @@ week's 32 blocks added today (Python 2, Physics 2) on top of Monday's 5 —
 Wednesday, July 29 resumes the simulation:
 [weekly-plan-2026-07-27-to-2026-08-02.md](00-BRAIN/CASTLE/wiki/weekly-plans/weekly-plan-2026-07-27-to-2026-08-02.md).
 
-- **9:00 Python** — Function Lab B: `shout(message)` cold — explain why a
-  void function needs no `return`, then calling code using all three
-  functions together. Evening reading already primes this (*Think Python*
-  p.51, fruitful-vs-void).
+- **9:00 Python — open slot.** `shout(a)` closed tonight, ahead of schedule
+  (see Today §1) — evening reading's fruitful-vs-void prep is now
+  reinforcement, not new ground. Decide at session start whether to pull
+  the Function Toolbox mini-project forward into this slot or run the
+  outstanding common-error debug rep first.
 - **10:00 Python** — Three scope self-checks, then Function Toolbox design
-  pass (requirements + pseudocode first, no implementation yet).
+  pass (requirements + pseudocode first, no implementation yet) — or all of
+  Toolbox if pulled forward per above.
 - **11:00 Physics** — Ch 4 §4.4 uniform circular motion (pp. 81-83), then
   **1:00 circular-motion drill Problems 1-4** — name the real inward force,
   explain why constant speed still means acceleration.
@@ -111,7 +115,8 @@ Wednesday, July 29 resumes the simulation:
 - Generated material is preparation, not mastery or market proof.
 
 ---
-*Recent movement: Python Function Lab A (2/3) and Physics angled-launch
-drill both closed July 28 PASS WITH CORRECTION on real gates; flag #85
-narrowed to EDUCATION only; CSE Lab's miss is honest and unresolved for
-tomorrow. Detail lives in the owner files above, not here.*
+*Recent movement: Python's Stage 4 drill (all 3 functions) and Physics
+angled-launch drill both closed July 28 PASS WITH CORRECTION on real
+gates, the Python drill finishing an unplanned evening rep ahead of
+schedule; flag #85 narrowed to EDUCATION only; CSE Lab's miss is honest and
+unresolved for tomorrow. Detail lives in the owner files above, not here.*

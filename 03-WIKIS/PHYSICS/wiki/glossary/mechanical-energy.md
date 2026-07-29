@@ -1,5 +1,6 @@
 ---
 type: glossary
+timeline: reference
 status: draft
 ---
 

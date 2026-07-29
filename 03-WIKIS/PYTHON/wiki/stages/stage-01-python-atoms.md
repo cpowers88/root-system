@@ -1,8 +1,8 @@
 ---
 type: stage
+timeline: reference
 stage_number: 01
 status: satisfied
-priority: complete
 source_spine: "Think Python Ch.1-2 (+ input() pulled forward from Ch.5)"
 support_sources: ["Automate the Boring Stuff Ch.1", "Python Crash Course Ch.2", "Python Workout Ch.2-3", "Invent Your Own Computer Games Ch.1-2, 4"]
 ---

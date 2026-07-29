@@ -1,8 +1,8 @@
 ---
 type: stage
+timeline: reference
 stage_number: 00
 status: satisfied
-priority: complete
 source_spine: "none — orientation only"
 support_sources: []
 ---

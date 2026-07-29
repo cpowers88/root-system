@@ -3,7 +3,6 @@ type: stage
 timeline: later
 stage_number: 05b
 status: ready
-priority: upcoming
 course_module: "M5.2 — Dictionaries, searching & sorting algorithms (lecture Week 11, Quiz 6; lab Lab 10)"
 source_spine: "Think Python Ch.21 (Analysis of Algorithms) — selective"
 support_sources: ["Grokking Algorithms Ch.1-5", "Common-Sense DS&A"]

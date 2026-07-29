@@ -1,8 +1,8 @@
 ---
 type: stage
+timeline: reference
 stage_number: 08
 status: ready
-priority: upcoming
 source_spine: "Think Python Ch.5 (recursion), Ch.15-18 (Classes/Objects), Ch.21 (Algorithms)"
 support_sources: ["Python Crash Course Ch.9", "Grokking Algorithms Ch.1-5", "Data Structures & Algorithms Ch.1-9", "Python Workout Ch.10", "Invent Your Own Computer Games Ch.15-16", "Automate the Boring Stuff Ch.9"]
 ---

@@ -1395,3 +1395,40 @@ remain open, not urgent tonight.
 - **Next exact action:** none required before Chris's 4:00 appointment;
   CSE Lab (2:00 slot) remains the one open school item for later tonight if
   he gets to it.
+
+## 2026-07-28 (late evening) — System review implemented (Claude Code)
+
+- **Outcome:** Chris requested an extensive system review targeting a
+  "5-10% improvement." Ran as a background fork (kept the deep-read noise
+  out of the live session); report written to
+  `00-BRAIN\Session_Logs\Report Archive\system_review_2026-07-28_improvement_proposal.md`.
+  Chris then said "let's do the proposed changes now" — implemented same
+  session.
+- **Done:** (1) added `timeline:` to all 320 files missing it — resolves
+  the entire long-standing frontmatter debt baseline to zero. (2) Deleted
+  the undefined `priority:` property from 15 PYTHON stage files —
+  **deviated from the report's literal recommendation** (rename to
+  `reference_priority:`) after verification showed the existing values
+  (`complete`/`current`/`upcoming`/`later`) don't match that property's
+  valid vocabulary and a rename would have created 14 new regressions;
+  deletion achieves the same goal safely, and also removes two values that
+  were independently stale. (3) Closed flag #80 with tonight's real
+  scheduled-run evidence, moved to the closed-flags ledger.
+- **Bug introduced and fixed same session:** the first implementation pass
+  used a flawed CRLF-preservation approach that corrupted line endings in
+  47 files (doubled `\r`, content unaffected). Caught immediately by
+  `root_health.py` (text-integrity and whitespace BLOCKERs) before
+  anything was called done. Root cause: this repo runs
+  `core.autocrlf=true`, so manual line-ending handling was unnecessary;
+  fixed by normalizing all touched files to plain LF and letting git's own
+  checkout attribute manage CRLF. Full honest account, including the
+  deviation and the bug, is in the report's Implementation Addendum — not
+  just this summary.
+- **Verification:** `root_health.py` re-run clean after every step; final
+  state is frontmatter 0/0/0 (baseline refreshed to match reality),
+  whitespace clean (staged and unstaged), text integrity 0 findings. One
+  BLOCKER remains, pre-existing and unrelated
+  (`EDUCATION\.claude\settings.local.json`, still awaiting Chris's
+  sign-off).
+- **Files:** ~322 wiki files (timeline/priority fixes); `SYSTEM_FLAGS.md`;
+  `Closed Flags\CLOSED_FLAGS_2026-07.md`; the report file itself; this log.

@@ -18,6 +18,12 @@ created: 2026-07-15
 - Older history: flags #1–#83-era (June 8 – July 11, 83 rows) remain in
   `99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`.
 
+## Closed — July 2026 (week of July 28)
+
+| # | Flag | Raised | Closed | Fix |
+|---|---|---|---|---|
+| 80 | `run_evening_reading.ps1` wrote `EVENING_READING.md` with every em dash mis-encoded as `ΓÇö` — PowerShell was decoding the `claude.exe` subprocess's stdout using the console's OEM codepage instead of UTF-8, corrupting em dashes before the file was ever written. Narrowed July 25: fixed by setting `[Console]::OutputEncoding` to UTF-8 around the `claude.exe` call and restoring it in `finally`. Left open pending one real scheduled run to prove the fix outside a hand-written test. | July 22; root cause fixed July 25 | July 28 | Tonight's real 5:00 p.m. scheduled run produced `EVENING_READING.md` (generated 2026-07-28) with correct em dashes throughout and no mojibake — verified directly in today's session before referencing the file. The fix is proven under real production conditions, not just a hand-written test. The separate `MORNING_BRIEF.md` BOM issue noted alongside this flag was never part of this root cause (no script in `00-BRAIN\scripts\` generates that file) and was already tracked as a distinct remaining thread, not reopened here. |
+
 ## Closed — July 2026 (week of July 24)
 
 | # | Flag | Raised | Closed | Fix |

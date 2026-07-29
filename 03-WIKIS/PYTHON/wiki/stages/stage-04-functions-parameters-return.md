@@ -1,8 +1,8 @@
 ---
 type: stage
+timeline: now
 stage_number: 04
 status: ready
-priority: upcoming
 course_module: "M3 — Functions (lecture Weeks 7-8, Quiz 4; lab Lab 7 + Assignment 4)"
 source_spine: "Think Python Ch.3 + Ch.6"
 support_sources: ["Automate the Boring Stuff Ch.4", "Python Crash Course Ch.8", "Python Workout Ch.7"]

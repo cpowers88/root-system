@@ -1,8 +1,8 @@
 ---
 type: stage
+timeline: reference
 stage_number: 07
 status: ready
-priority: upcoming
 source_spine: "Think Python Ch.4, Ch.9, Ch.13 (Case Studies)"
 support_sources: ["Invent Your Own Computer Games Ch.7", "Think Like a Programmer Ch.1 (strategy/discussion only)"]
 ---

@@ -1,10 +1,11 @@
 ---
 type: source-summary
+timeline: reference
 status: parked
 source_role: spine (candidate — parked data-analysis strand)
 difficulty: post-stage-09
 source_file: raw/books/PythonforDataAnalysis.pdf
-tags: [reference, programming, parked, data-analysis-strand, hub]
+tags: [programming, data-analysis-strand, hub]
 ---
 
 # Python for Data Analysis (Wes McKinney, 3rd ed.) — Source Summary

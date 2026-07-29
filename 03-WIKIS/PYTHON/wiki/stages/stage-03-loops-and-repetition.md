@@ -1,8 +1,8 @@
 ---
 type: stage
+timeline: reference
 stage_number: 03
 status: active
-priority: current
 source_spine: "Think Python Ch.7 (+ for-loop section pulled forward from Ch.8)"
 support_sources: ["Automate the Boring Stuff Ch.3", "Python Crash Course Ch.4 & 7", "Invent Your Own Computer Games Ch.3"]
 ---

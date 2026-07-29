@@ -67,14 +67,21 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
   formatted string) so callers can still do math with the result; display
   formatting belongs at the call site. Full record:
   `wiki/log.md` 2026-07-28.
-- **Exact learner frontier:** the drill's third function, `shout(message)`
-  (void — prints, does not return) is the one required piece not yet
-  built; neither today's rep exercised the fruitful-vs-void distinction.
-  Also outstanding: debug one of the four [[errors/stage-04-common-errors]]
-  types without help, explain scope/fruitful-void aloud unprompted, and the
+- **Drill complete (2026-07-28 evening).** `shout(a)` built — void, prints
+  `a.upper() + "!!!"`, called twice with different arguments. Explain-back
+  on why it doesn't need `return`: Chris's first answer correctly identified
+  that nothing outside the function needs to use a result (printing finishes
+  the job), but described this as "no loop to exit" — a `return`/`break`
+  conflation, corrected (`return` hands a value back to the caller; it has
+  no relationship to loops). PASS WITH CORRECTION. All three drill
+  functions now done: `fahrenheit_to_celsius`, `is_even`, `shout`.
+- **Exact learner frontier:** the drill itself is complete. Outstanding for
+  the Stage 4 gate: debug one of the four
+  [[errors/stage-04-common-errors]] types without help, and the
   [[mini-projects/stage-04-function-toolbox]]. See the full remaining-
   operations list in `00-BRAIN\Session_Logs\DAILY_2026-07-28.md`'s
-  Claude-to-Codex handoff. Python libraries remain Stage 4b.
+  Claude-to-Codex handoff (item 1, `shout`, is now resolved — update that
+  handoff's status when Codex reads it). Python libraries remain Stage 4b.
 - **Code evidence in the MCP Bootcamp workbench:** `Code/for.py` records the
   recovered first-match trace; `Code/for2.py` records the nearby divisible-by-7
   transfer; `Code/PT.py` records the independent multi-part `or` condition plus

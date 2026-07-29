@@ -1,5 +1,6 @@
 ---
 type: equation
+timeline: reference
 status: draft
 ---
 

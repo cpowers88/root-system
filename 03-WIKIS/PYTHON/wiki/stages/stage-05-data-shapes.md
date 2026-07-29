@@ -1,8 +1,8 @@
 ---
 type: stage
+timeline: reference
 stage_number: 05
 status: ready
-priority: upcoming
 source_spine: "Think Python Ch.8, 10, 11, 12"
 support_sources: ["Automate the Boring Stuff Ch.6-8", "Python Crash Course Ch.3-4 & 6", "Python Workout Ch.4-5", "Invent Your Own Computer Games Ch.8-14"]
 ---

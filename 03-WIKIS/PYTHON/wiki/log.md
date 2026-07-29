@@ -1646,3 +1646,56 @@ is separate and must not displace the learning plan.
 - `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\degreesF_toC.py` (new)
 - `wiki/current-position.md` (updated — reading queue, frontier, next action)
 - This log.
+
+## 2026-07-28 (evening) — Drill completed: shout(a)
+
+### Outcome
+- Unplanned evening rep (Chris had said no dedicated Python hour tonight,
+  then wrote this in a few minutes anyway): built `shout(a)` — void,
+  prints `a.upper() + "!!!"`, called twice with different arguments. This
+  was the drill's third and last required function, originally scheduled
+  as tomorrow's 9:00 opener.
+
+### Evidence
+- Code: `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\shout.py`.
+- Chris raised the right question before writing anything — whether
+  `.upper()` works on any string regardless of the parameter name, correctly
+  reasoning that it does (a string method works on any value that is
+  currently a string). Given one concept-level confirmation (not a worked
+  step), he wrote the function correctly unprompted.
+- Explain-back on "why no `return`": correctly identified that nothing
+  outside the function needs to use a result (printing finishes the job),
+  but phrased it as "no loop to exit," conflating `return` with `break`.
+  Corrected: `return` hands a value to the caller; it has no relationship
+  to loops. PASS WITH CORRECTION.
+
+### Capability/status movement
+- Stage 4 drill (`drills/stage-04-function-writing.md`) is now fully
+  complete — all three functions built and correct. Fruitful-vs-void
+  pattern tested for the first time this stage and holds, with one
+  vocabulary correction (return vs. break) now on record to watch for
+  recurrence.
+
+### Errors, uncertainty, or residual risk
+- The return/break conflation is new information, not yet re-tested. Worth
+  a quick unprompted check next session (e.g., "does a loop need `return`
+  to stop?") before treating it as fully resolved.
+
+### Exact next independent rep
+- Stage 4 gate remaining: debug one of the four
+  [[errors/stage-04-common-errors]] types without help, and complete
+  [[mini-projects/stage-04-function-toolbox]]. Since the drill closed
+  tonight instead of tomorrow morning, Wednesday's 9:00 slot is now open —
+  Chris/next session should decide whether to pull the Toolbox forward or
+  keep Wednesday's plan as scoped.
+
+### Reusable-asset candidate
+- No — learner code.
+
+### System-learning candidate
+- No new cross-system rule.
+
+### Sources and files touched
+- `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\shout.py` (new)
+- `wiki/current-position.md` (updated — drill marked complete)
+- This log.

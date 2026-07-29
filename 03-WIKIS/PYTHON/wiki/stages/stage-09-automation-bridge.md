@@ -1,8 +1,8 @@
 ---
 type: stage
+timeline: reference
 stage_number: 09
 status: ready
-priority: later
 source_spine: "Automate the Boring Stuff Ch.11, 14-15, 17-20, Appendix A"
 support_sources: ["Python Workout Ch.9", "raw/docs/library/csv.txt and datetime.txt"]
 ---

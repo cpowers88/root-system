@@ -3,7 +3,6 @@ type: stage
 timeline: next
 stage_number: 04b
 status: ready
-priority: upcoming
 course_module: "M4 — Python Libraries (lecture Week 9, Quiz 5; lab Lab 8)"
 source_spine: "Official Python documentation — raw/docs/tutorial/modules.txt"
 support_sources: ["Python Workout Ch.9 (modules/packages) — reference only"]
