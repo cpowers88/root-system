@@ -8,6 +8,84 @@ timeline: log
 
 Append every meaningful ingest, path update, teaching session, or structure change here.
 
+## 2026-07-29 (evening) — Stage 4 gate closed: common-error debug rep, PASS
+
+### Work completed
+- After an earlier invalid attempt (editing the reference page's examples
+  instead of writing real code — reverted, recorded as not verified), Chris
+  wrote a real script cold: `code/error4.py`, reproducing the NameError
+  out-of-scope pattern (`def square(n): return n*n` then a bare `print(n)`
+  at module level) and fixing it by calling `print(square(5))` instead.
+  Ran clean: `25`.
+- **Explain-back, unprompted, correct and more precise than asked:** Chris
+  identified that `n` unquoted is a name Python tries to look up in the
+  current (module) scope, fails because `n` was never bound there (only
+  inside `square`'s local scope during its call), producing `NameError`.
+  He then added, unprompted, the identifier-vs-string-literal distinction:
+  `print("n")` would just print the literal character with no name lookup
+  at all, completely unrelated to `square`'s parameter.
+- **Verdict: PASS — independently verified.** Real code, real error, real
+  fix, real explanation. This closes Stage 4's last open item.
+
+### Stage 4 — CLOSED (2026-07-29)
+All gate items now independently verified: cold baseline, three-function
+drill, Function Toolbox mini-project, and the common-error debug rep.
+Stage 4b (Python libraries) is next.
+
+### Pages created/updated
+`current-position.md` (Stage 4 closed, frontier moved to Stage 4b). This log.
+
+### Vocabulary added
+None new — scope and name resolution were reinforced via transfer, not
+first introduction.
+
+## 2026-07-29 — Function Toolbox mini-project: PASS WITH CORRECTION
+
+### Work completed
+- Chris built the Stage 4 Function Toolbox mini-project cold, in phases, with no
+  code written or debugged by AI: `percent_of(t, p)` and `add_tax(a, b)`
+  (Phase 1, independent fruitful functions); then unprompted refactored
+  `add_tax` to call `percent_of(a, b)` internally instead of repeating the
+  multiplication (Phase 2 — one function using another's return value); then
+  `bill_calculator(x, y, z)` in `third.py` (Phase 2 continued — calls
+  `add_tax`, computes tip on the subtotal, returns a formatted receipt string
+  using `:.2f` currency formatting), driven by `bill_calculator.py`'s
+  interactive input/print (Phase 3). Files:
+  `code\{percent_of,add_tax,third,bill_calculator}.py`.
+- Real first-attempt bug caught via predict-before-run: an early driver
+  (`together.py`) took the tax rate as user input without specifying units;
+  Chris predicted the trace correctly (100, 10 → 1100) but the real-world
+  answer was wrong (10 was meant as 10%, not 1000%). Chris diagnosed the root
+  cause himself (function expects a decimal, user naturally types a
+  percentage) and fixed it by rewording the prompt to demand a decimal value,
+  rather than silently converting — a deliberate, explained design choice.
+- Self-corrected a naming issue mid-build: an intermediate variable computing
+  `v - x` was first named `tax_rate` though it holds a dollar amount; renamed
+  to `tax_amount` after one correction.
+- **Explain-back (execution order, the mini-project's actual gate item):**
+  Chris correctly traced the full call/return chain unprompted — driver calls
+  `bill_calculator`, which calls `add_tax`, which calls `percent_of`
+  (deepest/last call), and each return unwinds back up in reverse order to the
+  driver's `print()`. This is the real target concept and it landed cleanly.
+- **One recurring correction, given twice now:** Chris's verbal explain-back
+  called `percent_of`'s return value "the tax percentage" — it's a tax
+  *amount* (a dollar value); the percentage/rate is the input, never the
+  output. Same confusion as the `tax_rate` naming slip earlier in the same
+  session — flagged clearly both times; worth a cold re-check next time
+  "percent of" or a rate-vs-amount calculation appears.
+- **Verdict: PASS WITH CORRECTION.** All acceptance-checklist items met: 3
+  functions (each with parameters), 3 of 3 use `return`, `add_tax`→`percent_of`
+  and `bill_calculator`→`add_tax` both satisfy "one function uses another's
+  return value," a driver section calls the chain and prints an f-string
+  receipt, and the execution-order explain-back passed. Stage 4 gate's
+  remaining item: one common-error debug rep (untouched today).
+
+### Pages created/updated
+`current-position.md` (mini-project result recorded, next action updated). This log.
+
+### Vocabulary added
+None new — amount-vs-rate was corrected via transfer, not first introduction.
+
 ## 2026-07-27 — Stage 4 cold functions baseline: PASS WITH CORRECTION
 
 ### Work completed

@@ -75,13 +75,40 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
   conflation, corrected (`return` hands a value back to the caller; it has
   no relationship to loops). PASS WITH CORRECTION. All three drill
   functions now done: `fahrenheit_to_celsius`, `is_even`, `shout`.
-- **Exact learner frontier:** the drill itself is complete. Outstanding for
-  the Stage 4 gate: debug one of the four
-  [[errors/stage-04-common-errors]] types without help, and the
-  [[mini-projects/stage-04-function-toolbox]]. See the full remaining-
-  operations list in `00-BRAIN\Session_Logs\DAILY_2026-07-28.md`'s
-  Claude-to-Codex handoff (item 1, `shout`, is now resolved — update that
-  handoff's status when Codex reads it). Python libraries remain Stage 4b.
+- **Function Toolbox mini-project — PASS WITH CORRECTION (2026-07-29).**
+  Chris built `percent_of(t, p)`, `add_tax(a, b)` (refactored unprompted to
+  call `percent_of` internally), and `bill_calculator(x, y, z)` (calls
+  `add_tax`, returns a formatted receipt string) — all cold, all correct,
+  chained across two levels of "one function uses another's return value."
+  Caught and self-fixed a real percentage-vs-decimal input bug via
+  predict-before-run. Execution-order explain-back (the mini-project's actual
+  gate item) passed unprompted. One recurring correction given twice: calling
+  a `percent_of`-style return value "a percentage" when it's an amount — the
+  rate is always the input, never the output; worth a cold re-check next
+  occurrence. Full record: `wiki/log.md` 2026-07-29.
+- **Common-error debug item — PASS, independently verified (2026-07-29
+  evening).** After an earlier invalid attempt (editing the reference page's
+  examples instead of writing real code — reverted, not counted), Chris
+  wrote `code/error4.py` cold: reproduced the NameError out-of-scope pattern
+  and fixed it by calling `square(5)` and printing its return instead of the
+  undefined bare `n`. Explain-back was correct and went further than asked —
+  he identified that `n` unquoted triggers a name lookup that fails because
+  `n` was never bound at module scope, and separately that `"n"` in quotes
+  would just print a literal character with no lookup at all. Follow-up
+  question confirmed the concept cleanly: correctly reasoned that
+  `square(n)` would *also* fail, since argument evaluation happens before
+  the call and `n` still isn't defined in the caller's scope — a parameter
+  name is a local label, not a variable exposed anywhere outside the
+  function. Full record: `wiki/log.md` 2026-07-29 (evening).
+
+## Stage 4 — CLOSED (2026-07-29)
+
+Cold baseline, three-function drill, Function Toolbox mini-project, and the
+common-error debug rep are all independently verified. Stage 4b (Python
+libraries) is next.
+
+- **Exact learner frontier:** Stage 4b — [[stages/stage-04b-python-libraries]].
+  Nothing read yet; unlocks now that Stage 4 is closed.
 - **Code evidence in the MCP Bootcamp workbench:** `Code/for.py` records the
   recovered first-match trace; `Code/for2.py` records the nearby divisible-by-7
   transfer; `Code/PT.py` records the independent multi-part `or` condition plus
@@ -148,13 +175,9 @@ for this hub and cannot count as learner proof.
 
 ## Current Reading Queue
 
-- **Read now:** Stage 4 spine reading (*Think Python* pp. 43-52, 83-87) is
-  complete; cold baseline and Function Lab A's first two functions are also
-  done. Nothing new to read before finishing the drill's third function
-  (`shout(message)`) — go straight to
-  [[drills/stage-04-function-writing]].
-- **Read next after proof:** [[mini-projects/stage-04-function-toolbox]],
-  only after the drill (all three functions) is complete.
+- **Read now:** nothing new. Drill and Toolbox mini-project are both complete;
+  go straight to [[errors/stage-04-common-errors]] for the last Stage 4 gate
+  item (one debug rep, no help).
 - **Do not read yet:** standard library ([[stages/stage-04b-python-libraries]] —
   unlocks only after the Stage 4 functions gate closes), collections,
   searching/sorting, OOP, or Java. Their exact unlock triggers and semester
@@ -253,10 +276,10 @@ closed unless a specific learning gap justifies reopening it.
 
 ## Current Next Action
 
-Stages 0-3 are closed; Stage 4 functions is active. Cold baseline (2026-07-27)
-and Function Lab A's first two functions (2026-07-28) are both closed PASS
-WITH CORRECTION. Next action is the drill's third function, `shout(message)`
-— see [[drills/stage-04-function-writing]] and the Claude-to-Codex handoff in
-`00-BRAIN\Session_Logs\DAILY_2026-07-28.md` for the exact remaining
-operations to close the gate. All later packets remain content readiness,
-not study progress until worked and verified.
+Stages 0-3 are closed; Stage 4 functions is active. Cold baseline (2026-07-27),
+the three-function drill (2026-07-28), and the Function Toolbox mini-project
+(2026-07-29) are all closed PASS WITH CORRECTION. Next action is the Stage 4
+gate's last item: debug one of the four [[errors/stage-04-common-errors]]
+types without help. Closing that closes Stage 4 entirely — Stage 4b (Python
+libraries) is next. All later packets remain content readiness, not study
+progress until worked and verified.

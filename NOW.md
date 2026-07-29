@@ -5,96 +5,73 @@ status: active
 tags: []
 ---
 
-# NOW — Tuesday, July 28, 2026 (evening close)
+# NOW — Wednesday, July 29, 2026
 
 *Single-lane cockpit. Pilot installed 2026-07-26; acceptance check August 2.*
 
 ## Today
 
-**Day two of the 32-block simulation. Status:**
+**Day three of the 32-block simulation. Status: 3 of 7 blocks — real, not smoothed.**
 
-1. **Python — Stage 4 drill COMPLETE, all 3 functions. PASS WITH CORRECTION.**
-   *Think Python* pp. 83-87 read; `is_even(x)` and `fahrenheit_to_celsius(f)`
-   built this morning (real truncation bug caught via hand-prediction and
-   fixed). `shout(a)` — the void function — built tonight, unplanned, ahead
-   of its scheduled Wednesday 9:00 slot; explain-back had one correction
-   (a `return`/`break` conflation). Remaining for the Stage 4 gate: one
-   common-error debug rep, and the Function Toolbox mini-project.
-2. **Physics — angled-launch drill Problems 3-4. PASS WITH CORRECTION.**
-   Ch 4 §4.3 read; same error class (time-to-peak vs. total-flight-time
-   formula) hit twice, self-corrected the second time via an independent
-   sanity check against the symmetric-flight-time bound. New review page
-   ties the trig + calculus + both mistakes together for retention.
-3. **CSE Lab — second exercise NOT run today.** Physics reading ran long;
-   Chris chose a real break before his 4:00 appointment over pushing it in.
-   Honest miss, not resequenced — see Not Today for the open question this
-   creates against tomorrow's scheduled third exercise.
-4. **Flag #85 (HIGH) — narrowed further today.** PYTHON (resolved 7/27) and
-   PHYSICS (resolved 7/28, canonical syllabus home chosen) are both closed.
-   **EDUCATION is now the only unresolved hub.**
-5. **System — Watchtower's one live row (MCP) closed out clean and expected**
-   (final spec published on schedule, matching the May 21 prediction); radar
-   is at zero rows. Root health held at zero new debt across a day that
-   created two new files.
-6. **Calculus — local library screened and registered.** Chris's own
-   `02-LIBRARY\ref-math` calculus texts (OpenStax Vol.1-3, Strang) added to
-   PHYSICS's `source-map.md` as calculus-support, just-in-time only. A
-   month-long pre-semester calculus-transfer sequence is now named in
-   `math-readiness-path.md`, using the 9 already-built calculus-link pages
-   as the spine.
-7. **Handoff prepared** for Codex — exact remaining Python Stage 4 gate
-   operations plus the adopted teaching method, so either AI surface
-   continues the same gate the same way.
+**Update, afternoon:** the common-error debug rep (see item 1 below) landed
+mid-afternoon, still inside the 9-5 window — unlike Tuesday's genuinely
+after-hours `shout()`, this counts as a real block. Stage 4 is now fully
+closed. Chris is reading Physics §4.4 next.
 
-Full detail: `00-BRAIN\Session_Logs\DAILY_2026-07-28.md`.
+1. **Python — Function Toolbox mini-project COMPLETE. PASS WITH CORRECTION.**
+   Chris built `percent_of`, `add_tax` (self-refactored to call `percent_of`
+   internally), and `bill_calculator` (calls `add_tax`, returns a formatted
+   receipt string) — all cold, phased, chained two levels deep. Caught and
+   self-diagnosed a real percentage-vs-decimal input bug via predict-before-run.
+   Execution-order explain-back passed unprompted. Stage 4's last item — one
+   common-error debug rep — was attempted by editing the reference page's
+   examples instead of writing/running real code; recorded as **self-reported,
+   not independently verified**, not closed.
+2. **Physics, CSE Lab, TCOM, low-load Python — did not run today.** Real
+   reasons, not hidden: real system/admin time Chris explicitly activated
+   before the day's proof (root file cleanup, Value Decision Engine routing),
+   a real personal interruption (misplaced wedding band + lunch), and Chris
+   intentionally closed the day early for head time after a long run of
+   continuous build/learn/research days.
+3. **System — root cleanup.** 4 stray files from the July 24-25 architecture
+   update (`tree.text`, `vault-skeleton-design.md`, `newvaultstructureclaude.md`,
+   `claude_and_chris_direction.md`) moved into their evidence packet; empty
+   `output.json` archived; a missing System Update Log row for last night's
+   work added. Nested-folder shadows (EDUCATION `.claude`, PHYSICS
+   `.codex`/`.agents`, TECHNOLOGY `00-BRAIN`) confirmed removed — but
+   `root_health.py` was **not run this session** (permission declined); run
+   it next session to formally verify clean.
+4. **Value Decision Engine proposal — routed, not building.** Verdict: parallel
+   `02-LIBRARY\.PROJECTS` build, not the Python pathway (AI-generated
+   implementation can't count as learner proof; the project needs 4+ stages
+   past Chris's current Stage 4). Codex producing research-only Gate A/B
+   specs under implementation-lock; nothing built. Full record: DAILY
+   2026-07-29.
+
+Full detail: `00-BRAIN\Session_Logs\DAILY_2026-07-29.md`.
 
 ## Today's Gate
 
-**Closed for learning; evening was system/prep maintenance.** 4 of this
-week's 32 blocks added today (Python 2, Physics 2) on top of Monday's 5 —
-**9 of 32 total.** CSE Lab's miss is real and recorded, not smoothed over.
-
-## Fixed Tomorrow
-
-- No additional fixed Wednesday item beyond the weekly plan itself.
-- Chris retains control of capacity and may redirect the default.
-
-## Tomorrow — Launch
-
-Wednesday, July 29 resumes the simulation:
-[weekly-plan-2026-07-27-to-2026-08-02.md](00-BRAIN/CASTLE/wiki/weekly-plans/weekly-plan-2026-07-27-to-2026-08-02.md).
-
-- **9:00 Python — open slot.** `shout(a)` closed tonight, ahead of schedule
-  (see Today §1) — evening reading's fruitful-vs-void prep is now
-  reinforcement, not new ground. Decide at session start whether to pull
-  the Function Toolbox mini-project forward into this slot or run the
-  outstanding common-error debug rep first.
-- **10:00 Python** — Three scope self-checks, then Function Toolbox design
-  pass (requirements + pseudocode first, no implementation yet) — or all of
-  Toolbox if pulled forward per above.
-- **11:00 Physics** — Ch 4 §4.4 uniform circular motion (pp. 81-83), then
-  **1:00 circular-motion drill Problems 1-4** — name the real inward force,
-  explain why constant speed still means acceleration.
-- **2:00 CSE Lab** — scheduled third exercise, but Tuesday's second exercise
-  didn't run — decide at session start whether to run the second exercise
-  first or proceed to the third.
-- **3:00 TCOM** — Ch 3 pp. 174-190 (ethics: legal vs. ethical vs.
-  audience-effective).
-- **4:00 Python (low load)** — closed-book function vocabulary and contract
-  retrieval from memory.
+**Real 2 of 7 for Wednesday.** Recorded honestly rather than smoothed to
+match Monday (5/7) and Tuesday (4/5)'s more continuous pace — today included
+real interruptions and an intentional early stop for rest.
 
 ## Not Today
 
-- [CSE Lab second exercise](00-BRAIN/Session_Logs/DAILY_2026-07-28.md) — real
-  miss, open question for tomorrow's session start (see above)
-- [Revenue lanes and business evidence](03-WIKIS/REVENUE_LAB/wiki/revenue-lane-scorecard.md)
-- [Opportunity queue](00-BRAIN/CASTLE/wiki/opportunity-queue.md) — nothing due;
-  next review 2026-07-30 (realtor/closing-handoff row)
-- [Open system flags](00-BRAIN/SYSTEM_FLAGS.md) — flag #85's EDUCATION half is
-  the only remaining piece; pre-existing EDUCATION `.claude` settings BLOCKER
-  unchanged, still awaiting Chris's sign-off
-- [LIFE workspace decision](00-BRAIN/Session_Logs/System%20Update%20Log/2026-07-24_ROOT_ARCHITECTURE_UPDATE/execution-discipline-and-boot-chain-discussion-2026-07-26.md) — gated to August 9
-- [Architecture packet](00-BRAIN/Session_Logs/System%20Update%20Log/2026-07-24_ROOT_ARCHITECTURE_UPDATE/SESSION_INDEX.md) — closed, historical
+- Physics §4.4 uniform circular motion + drill 1-4 — oldest unclosed item,
+  first candidate whenever the next session opens.
+- CSE Lab — exercise 2 vs. exercise 3 decision, still open.
+- TCOM Ch 3 ethics reading; low-load Python vocabulary retrieval.
+- Stage 4's real common-error debug rep — write and run one of the four
+  patterns cold; self-reported understanding does not close this gate.
+- Flag #85 (EDUCATION syllabus canonical pointer) — Chris intended to check
+  real syllabi today; no findings reported back this session, still open.
+- `root_health.py` — not run this session (permission declined); run next
+  session to confirm the nested-folder cleanup is fully clean.
+- Weekly plan's Block-evidence table — stale since Monday, never updated for
+  Tuesday or today; needs a real fix pass.
+- Chris may push one optional extra session tonight if rested enough — not a
+  commitment, no plan currently attached to it.
 
 ## Owners — open these, not another dashboard
 
@@ -105,18 +82,24 @@ Wednesday, July 29 resumes the simulation:
 - Semester goal: `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md`
 - Business hypothesis: `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`
 - This week's checklist: `00-BRAIN\CASTLE\wiki\weekly-plans\`
-- Calculus transfer sequence: `03-WIKIS\PHYSICS\wiki\math-readiness-path.md`
+- Value Decision Engine research (locked): `00-BRAIN\Session_Logs\proposal_log\`
 
 ## Boundaries
 
 - School deadlines and academic integrity stay fixed.
 - No outreach, publishing, pricing, or offers without Chris's explicit approval.
 - Optional `.ROOT` work waits for the day's primary proof (Execution Discipline 1).
+- **Saturday stays protected family time by design** — this week's gates were
+  moved to Friday specifically so the weekend doesn't become a catch-up day.
+  Today's miss does not get rescheduled onto Saturday; any Saturday evening
+  time is optional bonus, not a requirement.
 - Generated material is preparation, not mastery or market proof.
 
 ---
-*Recent movement: Python's Stage 4 drill (all 3 functions) and Physics
-angled-launch drill both closed July 28 PASS WITH CORRECTION on real
-gates, the Python drill finishing an unplanned evening rep ahead of
-schedule; flag #85 narrowed to EDUCATION only; CSE Lab's miss is honest and
-unresolved for tomorrow. Detail lives in the owner files above, not here.*
+*Recent movement: Python Function Toolbox closed July 29, PASS WITH
+CORRECTION, two levels of function-chaining proven cold; Stage 4's one
+remaining item is a real debug rep, not yet independently verified. Today
+closed at 2 of 7 blocks, honestly recorded, after real interruptions and an
+intentional rest stop. Value Decision Engine routed to a parallel project
+track under research-only lock. Detail lives in the owner files above, not
+here.*

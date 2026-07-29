@@ -1432,3 +1432,29 @@ remain open, not urgent tonight.
   sign-off).
 - **Files:** ~322 wiki files (timeline/priority fixes); `SYSTEM_FLAGS.md`;
   `Closed Flags\CLOSED_FLAGS_2026-07.md`; the report file itself; this log.
+
+## 2026-07-29 — Profit gate: Value Decision Engine as near-term sector selector (Codex)
+
+- **Idea tested:** build the Value Decision Engine now to determine which virtual
+  skill or sector should receive Chris's scarce investment time and generate
+  near-term income.
+- **No-orphan:** PASS — directly serves the active Advisor-Builder vehicle,
+  S-01/S-05, the value-production goal, and existing data/diagnostic capability.
+- **Source:** UNKNOWN — the research packet supports a transparent analysis
+  method, but no Tier 1–2 or Chris-specific evidence yet shows that this engine
+  itself produces income.
+- **Phase:** PASS for bounded research; FAIL for an open-ended platform build
+  during the school/family-constrained window.
+- **Displacement:** UNKNOWN — Chris has not yet named which scheduled
+  technology/business block or activity the first build slice replaces.
+- **Proof:** FAIL as a broad sector-discovery engine; a valid smaller proof is:
+  use the method manually on one permitted real workflow and produce one
+  traceable finding that a workflow owner recognizes as useful enough to test
+  or pay for.
+- **Verdict:** **HOLD — do not use an engine build as the near-term income
+  vehicle.** Unlock implementation only after Gate A/B acceptance and a named,
+  time-bounded first slice. Unlock continued investment after one real
+  workflow-owner validation; income remains the gold-standard proof.
+- **Recommended sequence:** seek revenue with the existing observation-based
+  diagnostic service first; let its real evidence determine the sector and
+  what, if anything, should be automated.
