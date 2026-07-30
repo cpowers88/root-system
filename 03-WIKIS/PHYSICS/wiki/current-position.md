@@ -75,7 +75,30 @@ MWF 9:10-10:05 AM + Friday breakout), the week-by-week reading-ahead triggers,
 and the mastery/exam/stall triggers that move the active stage independent of
 the calendar.
 
-## Seven-Day Plan — July 26 through August 1, 2026
+## Syllabus-Paced Work Paused — 2026-07-30 through 2026-08-23
+
+Chris paused the syllabus-paced Seven-Day Plan below (and the CASTLE weekly
+plan's remaining Thu/Fri physics blocks) in favor of the dated
+[[math-readiness-path#Dated Evening Schedule, 2026-07-30 through
+2026-08-23|Calculus-Physics Bridge sprint]]. Root cause, surfaced live: the
+real gap is calculus-mechanics recall (derivative/integral rules, boundary
+conditions) and formula-connection, not physics concepts — Chris has already
+taken Physics 1/2 and Calc 1/2. Stage 4 stays open at its current frontier
+(Problems 1-2 horizontal launch done 2026-07-30, matching 1.24 m; circular-
+motion drill 1-4 still outstanding) rather than being forced through the
+Friday conditional gate on the original schedule. Daytime live problem work
+continues in parallel with the evening sprint. Resume the syllabus pace
+**2026-08-24** when classes start, or sooner if the sprint closes early.
+
+**Durable objective, confirmed 2026-07-30 (not just a pre-semester
+measure):** Chris has already completed introductory Physics and Calculus
+1/2. The goal is calculus-connected formula reconstruction and fluency
+across the full semester, not another pass through concepts or problem
+mechanics he already has. `OPERATIONS.md` § Calculus-Reconstruction Lens is
+now the standing teaching method — it does not revert to syllabus-order-only
+pedagogy on Aug 24, only the syllabus-pace pause reverts.
+
+## Seven-Day Plan — July 26 through August 1, 2026 (superseded by the pause above)
 
 The target is a real Stage 4 mastery attempt by the end of the week, with Stage
 5 prepared but not activated early. Use the solutions only after a cold attempt.

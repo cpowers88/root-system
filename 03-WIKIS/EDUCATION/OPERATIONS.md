@@ -21,7 +21,7 @@ briefs, resource maps, explanations, retrieval aids, and private practice.
 |---|---|
 | Permanent direction and AI limits | `01-NORTH_STAR\NORTH_STAR.md` |
 | Semester outcomes and priorities | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` |
-| Official syllabi, assignments, notes, and records | `02-LIBRARY\00-SCHOOL\` |
+| Official syllabus captures (ECON, TCOM, ENGR) | `03-WIKIS\EDUCATION\raw\Syllabi\` — corrected 2026-07-29 to match where captures actually land; general course materials (assignments, notes, records, D2L pulls) stay in `02-LIBRARY\00-SCHOOL\` |
 | Cross-course syllabus status | `02-LIBRARY\00-SCHOOL\SYLLABUS_STATUS.md` |
 | General course-support knowledge | this wiki |
 | Python and CSE learning systems | `03-WIKIS\PYTHON\` |

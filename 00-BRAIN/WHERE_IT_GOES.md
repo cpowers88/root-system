@@ -162,7 +162,7 @@ One copy, zero drift.
 - **...projectSuccess\** — exactly two Watchtower files: operating contract in
   WATCHTOWER.md and material external-signal routing in radar.md. Evidence remains
   in the owning wiki; projects and strategy decisions never live here.
-- **02-LIBRARY\00-SCHOOL\** — course-file home, one folder per course
+- **02-LIBRARY\00-school\** — course-file home, one folder per course
   (01-CSE-Python, 02-Physics I, 03-TCOM, 04-ECON, 05-ENGR, 99-EDG deferred);
   no extra KSU shell. `FallKSU.xlsx` + `OneNote\` live directly here.
   **AI restriction: CSE 1321 and ENGR 1000 prohibit AI on submitted
@@ -173,16 +173,17 @@ One copy, zero drift.
   scripts allowed per Format Rules). Live project list and status:
   `.ROOT\NOW.md` + `00-BRAIN\CASTLE\wiki\`. NOT here: reference material,
   business templates.
-- **02-LIBRARY\** — reusable knowledge by reference domain (00-SCHOOL plus the
-  `REF-<NAME>` piles — renamed July 15, 2026; see `02-LIBRARY\README.md`).
-  PDFs for books, `.md` for notes. NOT
+- **02-LIBRARY\** — reusable knowledge by reference domain (00-school plus the
+  `ref-<name>` piles — renamed July 15, 2026 to `REF-<NAME>`, then to lowercase
+  `ref-<name>` between July 13-27 under the lowercase-everything-else naming
+  rule; see `02-LIBRARY\README.md`). PDFs for books, `.md` for notes. NOT
   here: project files.
 - **05-BUSINESS\** — the reusable and sanitized money system: 01-Audit
   Templates, 02-Field Notes, 03-Case Studies, 04-Pricing Models, 05-Proposals
   & SOWs, 06-Capability Library (reusable client-facing assets indexed by APQC
   process). NOT here: active client-specific/private work (→ separate client
   workspace/repository outside `.ROOT`) or business reference books
-  (→ 02-LIBRARY\REF-BUSINESS).
+  (→ 02-LIBRARY\ref-business).
 - **77-INBOX\** — universal intake: manual external-file drops and automatic
   Obsidian clipping both land here (`Clippings\` retired 2026-07-24); nothing
   lives here past one weekly review.

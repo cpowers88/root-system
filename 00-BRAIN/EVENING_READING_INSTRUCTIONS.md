@@ -29,7 +29,7 @@ night **primes the next day's first block** in the current weekly plan.
 
 Weekly totals: Python 3, Physics 2, TCOM 1, ECON-or-ENGR 1.
 
-**Two overrides, in this order:**
+**Three overrides, in this order:**
 
 1. **The owner's live queue still governs.** If the rotation names a course whose
    queue has nothing unlocked, or whose next material is explicitly gated behind a
@@ -37,6 +37,16 @@ Weekly totals: Python 3, Physics 2, TCOM 1, ECON-or-ENGR 1.
    in one clause. Never assign locked material to satisfy the schedule.
 2. **A real deadline outranks the rotation.** A graded item due the next day takes
    the block regardless of weekday.
+3. **Dated program override, 2026-07-30 through 2026-08-23:** Chris paused the
+   normal course rotation for the School block in favor of a dedicated
+   calculus-physics bridge sprint — every evening in this window reads the
+   dated entry in `03-WIKIS\PHYSICS\wiki\math-readiness-path.md` § Dated
+   Evening Schedule instead of whatever course the table above would assign.
+   Reason: a live session revealed the real gap was calculus mechanics recall
+   (derivative/integral rules, boundary conditions), not physics concepts or
+   the normal syllabus pace, with no fixed deadline forcing that pace right
+   now. Reactivate the normal rotation **2026-08-24** when classes start; this
+   override expires on that date without needing to be re-decided.
 
 ENGR stays orientation/source-verification only until the real Fall BWD syllabus
 exists; never assign invented Fall content from the Summer reference section.

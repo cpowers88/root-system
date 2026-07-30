@@ -165,6 +165,44 @@ Use the math as the entry ramp, while keeping the physical model in control:
 determines which mathematics applies; the mathematics then makes the situation
 precise.
 
+### Calculus-Reconstruction Lens (added 2026-07-30, Chris-directed)
+
+PHYS 2211 is a calculus-based course. The syllabus still controls required
+coverage, dates, and policy; mastery evidence still controls when the learner
+frontier advances. What changes is the instructional lens:
+
+> Every topic gets its governing calculus made explicit and its formula
+> derived from that calculus, not handed over as a rule to memorize — because
+> that is what a calculus-based course actually requires, not a remediation-
+> only measure. Scope: the full Stage 1-18 sequence across the semester, not
+> one chapter.
+
+**Standard rep — streamlined, matches the loop that worked live on
+2026-07-30:**
+
+1. State the exact calculus rule(s) in play — the derivative or integral
+   operation, named plainly, before anything else. This step is never
+   skipped; it is the actual content of a calculus-based course, not
+   optional ceremony.
+2. Derive the familiar physics formula from that rule, tying each term to
+   what it means physically (what's changing, what's accumulating, with
+   respect to what).
+3. Work two to three problems applying the derived formula.
+4. Quiz cold — no notes, no worked example open.
+
+**Escalation, not a separate default track:** if the quiz misses, go deeper
+— a full boundary-condition/assumption walkthrough, an additional worked
+example, a same-week cold redo. If the quiz passes, move on. Depth is earned
+by a demonstrated miss, not spent by default on every topic — this keeps 16
+weeks of material moving without turning every formula into a lecture.
+`wiki/math-readiness-path.md`'s cold-redo nights are this escalation rule
+already built into the pre-semester schedule.
+
+The iPad stays the diagram/first-attempt surface
+(`wiki/ipad-handwritten-physics-method.md`); Markdown is the shared
+derivation and reasoning surface once the sketch exists — Markdown never
+replaces the spatial work.
+
 For every active topic, answer:
 
 1. What physical situation is happening?

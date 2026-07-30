@@ -8,7 +8,7 @@ tags: [phases, roadmap]
 # Phase Map — Now to October 8, 2031
 ### NORTH_STAR.md owns the destination; CURRENT_STRATEGY.md owns replaceable commercial milestones. NORTH_STAR wins conflicts.
 
-Phases overlap on purpose — school runs continuously underneath everything.
+Phases overlap on purpose — school runs continuously underneath everything. 
 Windows and commercial exits are a working sequence under the current strategy,
 not permanent commitments. A phase is DONE when its exit criteria check, not when
 its window closes.

@@ -1,25 +1,19 @@
 ---
-type: dashboard
+type: reading
 timeline: now
 status: active
-tags: [reading]
-generated: 2026-07-28
+tags: [evening-reading, school, technology]
+generated: 2026-07-29
 ---
 
-# Evening Reading — July 28, 2026
+# Evening Reading — July 29, 2026
 
 ## School
-
-**READ —** *Think Python*, Ch.3, "Fruitful Functions and Void Functions," physical p.51 (`03-WIKIS/PYTHON/raw/books/thinkpython.pdf`).
-
-**FOCUS —** Reinforces the one Stage 4 concept not yet tested today, priming tomorrow's `shout(message)` build and the **fruitful-vs-void explain-back** Codex still needs (`DAILY_2026-07-28` Handoff item 1).
-
-**STOP —** Stop at page 51's section boundary, before "Why Functions?" on p.52; do not start the drill tonight.
+**READ —** *Open Technical Communication*, Ch 2.13 Memos and Emails, pp. 149–163, from `03-WIKIS/EDUCATION/raw/Open-TC-PDF.pdf` (TCOM 2010's real Week 1 chapter).
+**FOCUS —** TCOM hasn't run any block this week yet, so this opens Week A block 1 and **primes Thursday's ethics/audience reading** per the course rotation.
+**STOP —** Stop at page 163, before Ch 3 Ethics; name audience, purpose, subject line, opening, organization, and requested action for one sample message.
 
 ## Technology
-
-**READ —** `03-WIKIS/BUSINESS/wiki/methods/workflow-observation-method.md`, the "Quantification Rules" section (Labor capacity through Revenue and cash).
-
-**FOCUS —** Directly supports today's PASSed profit-gate path (Python -> validated data -> decision-ready report) by fixing how magnitude gets calculated and **labeled honestly** (observed vs. estimated vs. unknown).
-
-**STOP —** End after "Revenue and cash"; skip the Workflow Report template and Post-Session ledger tonight.
+**READ —** "Recommended First Slice After Gate B Acceptance" and "Decision and Next Action," `00-BRAIN/Session_Logs/proposal_log/gate_a_acceptance_and_gate_b_revision_report.md`.
+**FOCUS —** Today's decision-ready Value Decision Engine output; the key point is **the first slice is a manual packet, not code**.
+**STOP —** Stop after the seven-step slice list and the Decision/Next Action lines; do not open the Gate B spec itself.

@@ -11,63 +11,78 @@ tags: []
 
 ## Today
 
-**Day three of the 32-block simulation. Status: 3 of 7 blocks — real, not smoothed.**
+**Day three of the 32-block simulation. Final status: 4 of 7 blocks — real, not smoothed.**
 
-**Update, afternoon:** the common-error debug rep (see item 1 below) landed
-mid-afternoon, still inside the 9-5 window — unlike Tuesday's genuinely
-after-hours `shout()`, this counts as a real block. Stage 4 is now fully
-closed. Chris is reading Physics §4.4 next.
-
-1. **Python — Function Toolbox mini-project COMPLETE. PASS WITH CORRECTION.**
-   Chris built `percent_of`, `add_tax` (self-refactored to call `percent_of`
-   internally), and `bill_calculator` (calls `add_tax`, returns a formatted
-   receipt string) — all cold, phased, chained two levels deep. Caught and
-   self-diagnosed a real percentage-vs-decimal input bug via predict-before-run.
-   Execution-order explain-back passed unprompted. Stage 4's last item — one
-   common-error debug rep — was attempted by editing the reference page's
-   examples instead of writing/running real code; recorded as **self-reported,
-   not independently verified**, not closed.
-2. **Physics, CSE Lab, TCOM, low-load Python — did not run today.** Real
-   reasons, not hidden: real system/admin time Chris explicitly activated
-   before the day's proof (root file cleanup, Value Decision Engine routing),
-   a real personal interruption (misplaced wedding band + lunch), and Chris
-   intentionally closed the day early for head time after a long run of
-   continuous build/learn/research days.
-3. **System — root cleanup.** 4 stray files from the July 24-25 architecture
-   update (`tree.text`, `vault-skeleton-design.md`, `newvaultstructureclaude.md`,
-   `claude_and_chris_direction.md`) moved into their evidence packet; empty
-   `output.json` archived; a missing System Update Log row for last night's
-   work added. Nested-folder shadows (EDUCATION `.claude`, PHYSICS
-   `.codex`/`.agents`, TECHNOLOGY `00-BRAIN`) confirmed removed — but
-   `root_health.py` was **not run this session** (permission declined); run
-   it next session to formally verify clean.
-4. **Value Decision Engine proposal — routed, not building.** Verdict: parallel
-   `02-LIBRARY\.PROJECTS` build, not the Python pathway (AI-generated
-   implementation can't count as learner proof; the project needs 4+ stages
-   past Chris's current Stage 4). Codex producing research-only Gate A/B
-   specs under implementation-lock; nothing built. Full record: DAILY
-   2026-07-29.
+1. **Python — Stage 4 (functions) fully CLOSED.** Cold baseline, three-function
+   drill, Function Toolbox mini-project (PASS WITH CORRECTION), and the
+   common-error debug rep (PASS, independently verified — real code, real
+   bug, real fix, explain-back that went past what was asked) are all done.
+   Stage 4b (Python libraries) is next, nothing read yet.
+2. **Physics — §4.4 read, drill deferred.** Uniform circular motion reading
+   done. The 4-problem circular-motion drill was assigned; Chris deferred it
+   by explicit choice ("not feeling that right now") — not a miss.
+3. **CSE Lab, TCOM, low-load Python — did not run today.** Real reasons:
+   system/admin time Chris explicitly activated before the day's proof (root
+   cleanup, Value Decision Engine routing), a real personal interruption
+   (misplaced wedding band + lunch), and an intentional early stop for head
+   time after a long run of continuous build/learn/research days — followed
+   by a real afternoon return that closed Stage 4.
+4. **System — root cleanup done, now verified.** 4 stray architecture-update
+   files + empty `output.json` archived; a missing System Update Log row
+   added; nested-folder shadows (EDUCATION `.claude`, PHYSICS
+   `.codex`/`.agents`, TECHNOLOGY `00-BRAIN`) confirmed removed.
+   `root_health.py` run mid-afternoon during a mid-week structure review:
+   **PASS, clean, no debt.**
+5. **Mid-week structure review (afternoon, off the learning lane) — closed
+   out.** Full `.ROOT` pass plus a Watchtower/radar check — radar is
+   currently empty and healthy (last signal pruned 2026-07-28, nothing
+   open). Fixed doc-vs-live-tree drift in `WHERE_IT_GOES.md`/`vault_map.md`/
+   `02-LIBRARY README.md` (documented `REF-<NAME>`/`00-SCHOOL`, live tree
+   has been lowercase for weeks). Chris confirmed he moved the flag #85
+   Summer/Akshay PHYS 2211 file into `99-ARCHIVE` himself; renamed it to
+   `ARCHIVED_2026-07-29_...` and closed flag #87. `77-INBOX` fully cleared:
+   `fall_KSU_schedule.md` → `02-LIBRARY\00-school\` (real Fall schedule,
+   strengthens flag #57's instructor evidence), `Percipio Role Advisor.md`
+   → `02-LIBRARY\ref-meta-how-to-work\`, `marietta-parking-map.pdf` →
+   `02-LIBRARY\00-school\`. Flag #88 (low) still open: `coding_toolkit\`
+   purpose unconfirmed. Full detail: today's DAILY, System Flags.
+6. **Full Fall syllabus review, ahead of Aug 24 — done.** Verified every
+   course's real file location; found and closed flag #85 (EDUCATION's own
+   docs claimed `00-school` was canonical, but ECON/TCOM/ENGR-reference
+   captures actually live in `EDUCATION\raw\Syllabi\` — Chris declined
+   moving the `raw\` files, so the docs were corrected to match reality
+   instead). `SYLLABUS_STATUS.md` rewritten with verified paths for all six
+   courses and a new Pre-Semester Punch List: two real gaps remain (PHYS
+   2211 §54 content, ENGR 1000 BWD), both with an **Aug 17** recheck/escalate
+   trigger under flag #57. Six stale legacy syllabus files in `99-ARCHIVE`
+   renamed to the proper convention.
+7. **Value Decision Engine — routed, not building.** Parallel
+   `02-LIBRARY\.PROJECTS` project, not the Python pathway. Gate A accepted by
+   Chris; Gate B under a six-point rewrite by Codex (implementation-neutral,
+   manual reference decision first) — nothing implemented, still
+   research-only/locked.
 
 Full detail: `00-BRAIN\Session_Logs\DAILY_2026-07-29.md`.
 
 ## Today's Gate
 
-**Real 2 of 7 for Wednesday.** Recorded honestly rather than smoothed to
-match Monday (5/7) and Tuesday (4/5)'s more continuous pace — today included
-real interruptions and an intentional early stop for rest.
+**Real 4 of 7 for Wednesday.** The debug rep and the Physics reading both
+counted because they landed inside the 9-5 window (unlike Tuesday's
+genuinely after-hours `shout()`) and each matched a real, completed unit of
+assigned work — a full reading block, same precedent as Monday's and
+Tuesday's reading-only blocks, not a partial credit. The drill is a
+separate item and got zero, since it wasn't attempted. Recorded honestly,
+not smoothed to match Monday (5/7) or Tuesday (4/5), and not discounted
+just because Chris flagged it himself.
 
 ## Not Today
 
-- Physics §4.4 uniform circular motion + drill 1-4 — oldest unclosed item,
-  first candidate whenever the next session opens.
+- Physics circular-motion drill (4 problems) — reading (§4.4) is done;
+  Chris deferred the drill itself by choice, not a miss.
 - CSE Lab — exercise 2 vs. exercise 3 decision, still open.
 - TCOM Ch 3 ethics reading; low-load Python vocabulary retrieval.
-- Stage 4's real common-error debug rep — write and run one of the four
-  patterns cold; self-reported understanding does not close this gate.
-- Flag #85 (EDUCATION syllabus canonical pointer) — Chris intended to check
-  real syllabi today; no findings reported back this session, still open.
-- `root_health.py` — not run this session (permission declined); run next
-  session to confirm the nested-folder cleanup is fully clean.
+- `root_health.py` — run this afternoon: **PASS**, nested-folder cleanup
+  confirmed clean.
 - Weekly plan's Block-evidence table — stale since Monday, never updated for
   Tuesday or today; needs a real fix pass.
 - Chris may push one optional extra session tonight if rested enough — not a
@@ -96,10 +111,11 @@ real interruptions and an intentional early stop for rest.
 - Generated material is preparation, not mastery or market proof.
 
 ---
-*Recent movement: Python Function Toolbox closed July 29, PASS WITH
-CORRECTION, two levels of function-chaining proven cold; Stage 4's one
-remaining item is a real debug rep, not yet independently verified. Today
-closed at 2 of 7 blocks, honestly recorded, after real interruptions and an
+*Recent movement: Python Stage 4 (functions) fully closed July 29 — Toolbox
+PASS WITH CORRECTION plus an independently verified debug rep. Today closed
+at 4 of 7 blocks, honestly recorded, after real interruptions and an
 intentional rest stop. Value Decision Engine routed to a parallel project
-track under research-only lock. Detail lives in the owner files above, not
-here.*
+track under research-only lock. Evening: full structure review (flags #87,
+#88 opened/closed) and a full Fall syllabus filing pass (flag #85 closed,
+flag #57 narrowed to two dated gaps). Detail lives in the owner files above,
+not here.*

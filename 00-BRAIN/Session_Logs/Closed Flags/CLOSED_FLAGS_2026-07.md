@@ -18,6 +18,13 @@ created: 2026-07-15
 - Older history: flags #1–#83-era (June 8 – July 11, 83 rows) remain in
   `99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`.
 
+## Closed — July 2026 (week of July 29)
+
+| # | Flag | Raised | Closed | Fix |
+|---|---|---|---|---|
+| 85 | School hubs held opposite canonical-copy rules for the same class of file. PYTHON resolved July 27, PHYSICS resolved July 28 (both: hub's own `raw/` is canonical). EDUCATION was the last open hub — its own `OPERATIONS.md` and `course-briefs.md` said `02-LIBRARY\00-SCHOOL\` was canonical, but the actual ECON/TCOM/ENGR-reference captures had landed in `03-WIKIS\EDUCATION\raw\Syllabi\` and were never moved or the docs corrected. | July 24 | July 29 | Full syllabus review confirmed every course's real file location. Chris declined moving the misplaced files (`raw\` writes across two wikis); resolved by documentation instead: `EDUCATION\OPERATIONS.md` and `course-briefs\fall-2026-course-briefs.md` corrected to name `03-WIKIS\EDUCATION\raw\Syllabi\` as the real canonical syllabus home (matching where captures already live and PYTHON/PHYSICS's pattern), with `02-LIBRARY\00-school\` staying the general-materials home. `SYLLABUS_STATUS.md` rewritten with verified live paths for all six Fall courses, a canonical-homes summary, and a dated Pre-Semester Punch List (Aug 17 escalation trigger) for the two remaining real gaps (PHYS 2211 §54, ENGR 1000 BWD), tracked onward at flag #57. Six loose, non-conforming legacy syllabus files at the `99-ARCHIVE` root (pre-July-21, confirmed superseded) renamed with the `ARCHIVED_2026-07-29_` prefix. |
+| 87 | `99-ARCHIVE\PHYS 2211 54 (52148) Principles of Physics I.md` violated the `ARCHIVED_YYYY-MM-DD_` naming rule (`AGENT.md` File Safety #3) — found during the mid-week structure review sitting in 99-ARCHIVE's root with a bare title, same-minute timestamp as that day's other `77-INBOX` drops. Raised as open because it read as an accidental sweep and archiving it at all looked premature — it's live corroborating evidence for flags #57/#85, not closed history. | July 29 | July 29 | Chris confirmed same-session he moved the file into `99-ARCHIVE` himself during the morning's root cleanup — the location was intentional, only the naming was wrong. Renamed to `ARCHIVED_2026-07-29_PHYS 2211 54 (52148) Principles of Physics I.md`. Flag #85 updated to point at the corrected name. |
+
 ## Closed — July 2026 (week of July 28)
 
 | # | Flag | Raised | Closed | Fix |

@@ -1,19 +1,21 @@
 ---
 type: reference
 tags: [school, fall-2026]
-source: "02-LIBRARY\00-SCHOOL\04-ECON\ECON 1000 BAC (80643) Fall 2026 Syllabus.md; 02-LIBRARY\00-SCHOOL\03-TCOM\TCOM 2010 04 (85633) Fall 2026 Syllabus.md; 02-LIBRARY\00-SCHOOL\05-ENGR\ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md — exact-section ECON/TCOM recaptured 2026-07-27; ENGR remains the 2026-07-21 Summer reference"
+source: "03-WIKIS\EDUCATION\raw\Syllabi\ECON 1000 BAC (80643) Fall 2026 Syllabus.md; 03-WIKIS\EDUCATION\raw\Syllabi\TCOM 2010 04 (85633) Fall 2026 Syllabus.md; 03-WIKIS\EDUCATION\raw\Syllabi\ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md — exact-section ECON/TCOM recaptured 2026-07-27; ENGR remains the 2026-07-21 Summer reference; path corrected 2026-07-29 to match live capture location"
 timeline: reference
 ---
 
 # Fall 2026 Course Briefs — ECON 1000 · TCOM 2010 · ENGR 1000
 
-Study-support distillation of ECON, TCOM, and ENGR. The authoritative course
-files live in `02-LIBRARY\00-SCHOOL\` — this page exists so any session
-supporting Chris's Fall coursework knows the structure, the deadlines rhythm,
-and above all **each course's AI policy** before touching anything.
-`02-LIBRARY\00-SCHOOL\SYLLABUS_STATUS.md` is the authoritative index of which
-source file is exact-section vs. reference-only across all six Fall courses,
-including CSE and PHYS (owned by PYTHON and PHYSICS, not this page).
+Study-support distillation of ECON, TCOM, and ENGR. The authoritative syllabus
+captures live in `03-WIKIS\EDUCATION\raw\Syllabi\`; general course materials
+(notes, datasets, textbooks) live in `02-LIBRARY\00-SCHOOL\` — this page
+exists so any session supporting Chris's Fall coursework knows the structure,
+the deadlines rhythm, and above all **each course's AI policy** before
+touching anything. `02-LIBRARY\00-SCHOOL\SYLLABUS_STATUS.md` is the
+authoritative index of which source file is exact-section vs. reference-only
+across all six Fall courses, including CSE and PHYS (owned by PYTHON and
+PHYSICS, not this page).
 
 ## ⚠️ AI Policies — Three Courses, Three Different Rules
 
@@ -165,7 +167,8 @@ than Chris's actual Fall course; see `SYSTEM_FLAGS.md` #57 and
 ## Links
 
 Related: [[references/ai-programs-us-2026]] (KSU degree-landscape context).
-Course files: `02-LIBRARY\00-SCHOOL\`. Full six-course current-section
+Syllabus captures: `03-WIKIS\EDUCATION\raw\Syllabi\`. General course
+materials: `02-LIBRARY\00-SCHOOL\`. Full six-course current-section
 index: `02-LIBRARY\00-SCHOOL\SYLLABUS_STATUS.md`. Calendar tagging for
 these dates: `SYSTEM_FLAGS.md` #51 (Fall CASTLE calendar blocks, due before
 Aug 24).

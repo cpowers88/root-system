@@ -102,7 +102,8 @@ The control question is always:
 3. **Close the bridge:** explain aloud why x and y share time but not acceleration,
    and use units plus the landing-velocity direction to check the answer.
 
-## Pre-Semester Calculus Transfer Sprint (added 2026-07-28)
+## Pre-Semester Calculus Transfer Sprint (added 2026-07-28; promoted to the
+primary evening focus 2026-07-30)
 
 Chris's own framing: spend the runway before Fall classes start (Aug 24)
 building fluency at transforming a real physics problem into the calculus
@@ -110,16 +111,27 @@ already learned once, using the built [[calculus-map#Calculus-Link Pages
 Built So Far|calculus-link pages]] as the spine and the newly screened local
 calculus library (`source-map.md` § Local Calculus Library) as backup depth
 only when a specific rep doesn't click — not a cover-to-cover math course.
-This is the same ahead-check pattern already used for Stage 5; it previews
-transfer skill, it does not advance the active Stage 4 gate early.
 
-**Sequence — work these in order, one rep each, using the Learning Method
-loop above (physical situation -> skeleton -> sketch -> guided rep ->
-transfer -> explain aloud):**
+**Scope change, 2026-07-30:** originally scoped as an ahead-check preview
+that ran alongside the normal syllabus-paced weekly plan without advancing
+the Stage 4 gate early. Chris explicitly paused the syllabus-paced physics
+block today: a live session (Problems 1-2, plus a cold derivative/integral
+drill) surfaced the real gap as calculus *mechanics* recall — the power
+rule and, especially, the constant of integration / boundary-condition step
+— not physics concepts, which he already has from prior Physics 1/2 and
+Calc 1/2 coursework. This sprint is now the primary evening-reading focus
+through Aug 23; see `EVENING_READING_INSTRUCTIONS.md`'s dated override.
+Daytime live problem-solving (like today's projectile-motion pair) continues
+alongside it — this schedule is the evening layer only.
+
+**Sequence — work these in order, using the Learning Method loop above
+(physical situation -> skeleton -> sketch -> guided rep -> transfer ->
+explain aloud). Each calculus-link rep gets a same-week cold redo two nights
+later to build durability, not just first-pass recognition:**
 
 1. [[calculus-links/kinematics-derivatives]] (Stage 2) — durability check, already passed once.
-2. [[calculus-links/2d-kinematics-components]] (Stage 4) — active now; today's session review (`worked-examples/2026-07-28-angled-launch-session-review.md`) already primes this.
-3. [[calculus-links/tangential-radial-acceleration-derivative]] (Stage 4/6) — next scheduled per the weekly plan (Thu Jul 30).
+2. [[calculus-links/2d-kinematics-components]] (Stage 4) — active now; the July 28 session review (`worked-examples/2026-07-28-angled-launch-session-review.md`) already primes this.
+3. [[calculus-links/tangential-radial-acceleration-derivative]] (Stage 4/6) — feeds directly into this week's still-open circular-motion drill.
 4. [[calculus-links/stage-7-work-integral]] (Stage 7)
 5. [[calculus-links/power-derivative]] (Stage 8)
 6. [[calculus-links/impulse-integral]] (Stage 9)
@@ -136,6 +148,53 @@ without notes. If one doesn't click, pull the matching named section from
 Strang or the OpenStax volumes (`source-map.md` table), work it there, then
 return to the same calculus-link page — never substitute textbook reading
 for the physics rep itself.
+
+### Dated Evening Schedule, 2026-07-30 through 2026-08-23
+
+Opens with a raw calculus-mechanics refresher (not in the original 9-page
+sprint) because today's live drill showed that's the actual missing piece —
+the power rule itself came back fast, but "why is C = 3 here" did not.
+Every calculus-link rep gets a cold-redo night two days later. Last four
+nights are formula-recall consolidation, not new material; the final night
+is light review only, matching the never-prime-a-cold-gate rule.
+
+| # | Date | Focus |
+|---|---|---|
+| 1 | Thu Jul 30 | Derivative mechanics refresher — power rule, position→velocity→acceleration chain, x/y independence (today's live session) |
+| 2 | Fri Jul 31 | Integral mechanics refresher — power rule reversed, the constant of integration, boundary/initial conditions (today's session, part 2) |
+| 3 | Sat Aug 1 | Cold rebuild: derive all three 1D kinematics equations from a = const, no formula sheet. Flag v² = v₀² + 2aΔx explicitly — it's algebraic elimination of t between the other two, not a third integration |
+| 4 | Sun Aug 2 | [[calculus-links/kinematics-derivatives]] (Stage 2) |
+| 5 | Mon Aug 3 | [[calculus-links/2d-kinematics-components]] (Stage 4) |
+| 6 | Tue Aug 4 | Cold redo — 2D kinematics components, from scratch |
+| 7 | Wed Aug 5 | [[calculus-links/tangential-radial-acceleration-derivative]] (Stage 4/6) |
+| 8 | Thu Aug 6 | Cold redo — tangential/radial acceleration |
+| 9 | Fri Aug 7 | [[calculus-links/stage-7-work-integral]] (Stage 7) |
+| 10 | Sat Aug 8 | Cold redo — work integral |
+| 11 | Sun Aug 9 | [[calculus-links/power-derivative]] (Stage 8) |
+| 12 | Mon Aug 10 | Cold redo — power derivative |
+| 13 | Tue Aug 11 | [[calculus-links/impulse-integral]] (Stage 9) |
+| 14 | Wed Aug 12 | Cold redo — impulse integral |
+| 15 | Thu Aug 13 | [[calculus-links/rotational-kinematics-derivatives]] (Stage 10) |
+| 16 | Fri Aug 14 | Cold redo — rotational kinematics |
+| 17 | Sat Aug 15 | [[calculus-links/angular-momentum-derivative]] (Stage 11) |
+| 18 | Sun Aug 16 | Cold redo — angular momentum |
+| 19 | Mon Aug 17 | [[calculus-links/shm-differential-equation]] (Stage 15) — also flag #57's D2L/syllabus recheck trigger date |
+| 20 | Tue Aug 18 | Cold redo — SHM differential equation |
+| 21 | Wed Aug 19 | Retest whichever of reps 1-20 landed roughest — pick from the actual session record, not in advance |
+| 22 | Thu Aug 20 | Full formula sweep #1 — every kinematics/dynamics/energy/momentum formula from memory, mark every miss |
+| 23 | Fri Aug 21 | Targeted repair of only the Aug 20 misses — not a full redo |
+| 24 | Sat Aug 22 | Full formula sweep #2 — cold, timed, no notes — dress rehearsal |
+| 25 | Sun Aug 23 | Light review only: reread the running miss-log from the past 3 weeks. No new material the night before class starts |
+
+Each night's actual result (pass/miss, what broke) gets logged in `wiki/log.md`
+same as any other rep — this schedule is a plan, not a substitute for the
+proof trail.
+
+**Method note, 2026-07-30:** each new-rep night follows `OPERATIONS.md` §
+Calculus-Reconstruction Lens's streamlined loop (state the rule -> derive
+the formula -> 2-3 problems -> quiz cold). The cold-redo nights already
+built into this schedule *are* that method's escalation rule in practice —
+depth only adds when a quiz actually misses, not by default.
 
 ## Support Sources
 

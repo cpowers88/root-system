@@ -1458,3 +1458,41 @@ remain open, not urgent tonight.
 - **Recommended sequence:** seek revenue with the existing observation-based
   diagnostic service first; let its real evidence determine the sector and
   what, if anything, should be automated.
+
+## 2026-07-30 — Profit gate: parent-governed AI education partner (Codex)
+
+- **Idea tested:** optimize `.ROOT`’s adaptive education structure into a
+  parent-governed AI learning partner for a child’s device, with cloud-set
+  rules, reusable teaching skills, blockers, creativity development, and
+  evidence-based adaptation.
+- **No-orphan:** PASS — it directly uses the live Teach/Prove/Learn/Evolve
+  capability contract, the PYTHON and PHYSICS learning engines, and the current
+  strategy’s standalone-application path after internal proof.
+- **Source:** UNKNOWN for Chris-specific income — Pew verifies widespread parent
+  difficulty managing children’s technology and demand for stronger company
+  rules; Khanmigo verifies a paid family AI-tutor category. Neither proves
+  Chris’s differentiation, acquisition path, willingness to pay, or delivery
+  economics.
+- **Phase:** FAIL for a product build now; PASS only for bounded adult discovery.
+  Web applications, provider APIs, evaluations, child-safety operations, and
+  privacy/compliance are not yet activated capabilities, while school and the
+  Calculus-Physics Bridge are live.
+- **Displacement:** FAIL for building now — no current block was named for a
+  child-facing software venture, and this week already shows system/admin work
+  displacing planned learning blocks.
+- **Proof:** PASS at a smaller level — five adult-only parent interviews reveal
+  one repeated job-to-be-done, and at least three parents commit to test a
+  parent-controlled, no-child-data paper/manual prototype.
+- **Verdict:** **HOLD — preserve and research the opportunity; do not build the
+  application.** Unlock product design only after the adult discovery proof.
+  Unlock any child-facing pilot only after an explicit age band, pedagogical
+  standard, parental-consent/data map, child-safety evaluation, human
+  escalation path, and legal/COPPA review.
+- **Differentiation to test:** not “another AI tutor,” but a parent-governed
+  learning operating system that diagnoses the learner’s actual bottleneck,
+  requires creation and off-screen proof, preserves wrong first attempts,
+  adapts on evidence, and reports learning movement without optimizing
+  engagement time.
+- **Displaces if activated later:** speculative app work, not school or the
+  current Advisor-Builder proof lane. Next review: 2026-08-30 or earlier only
+  if Chris authorizes and completes the adult interview gate.

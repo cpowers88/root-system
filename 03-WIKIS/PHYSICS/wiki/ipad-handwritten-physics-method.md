@@ -117,6 +117,13 @@ Name it so it sorts by date and points at what it proves:
 That is the whole pipeline. No tagging system, no index to maintain — the folder
 sorts chronologically and the filename carries the stage and the drill.
 
+**Added 2026-07-30:** a Markdown problem page may sit alongside a handwritten
+artifact as the shared derivation/reasoning surface (`OPERATIONS.md` §
+Calculus-Reconstruction Lens) — it links to the exported PNG/PDF, it never
+replaces it. The sketch, axes, and first attempt stay handwritten; the
+calculus derivation and explanation can happen in Markdown where symbolic
+back-and-forth is faster than re-drawing.
+
 ---
 
 ## 5. What not to do

@@ -6,7 +6,7 @@ tags: [governance]
 
 # vault_map.md — Powers System Map (.ROOT)
 ### Navigation file. Two levels deep ON PURPOSE — see Map Rule below.
-### Last updated: July 25, 2026 (post-architecture interface reconciliation)
+### Last updated: July 29, 2026 (02-LIBRARY casing reconciled to live tree — see below)
 ### System: local C: workspace (truth) + Obsidian (capture/graph) + GitHub (code). G: is cloud backup only. Everything lives in .ROOT.
 
 ---
@@ -78,14 +78,14 @@ machine before recovery work.
 │                             Weekly plans live in CASTLE, not here.
 │
 ├── 02-LIBRARY\  ← reusable knowledge, projects, and school file home
-│   ├── 00-SCHOOL\         ← course files: 01-CSE-Python, 02-Physics I, 03-TCOM,
+│   ├── 00-school\         ← course files: 01-CSE-Python, 02-Physics I, 03-TCOM,
 │   │                         04-ECON, 05-ENGR, 99-EDG, OneNote, FallKSU.xlsx
 │   ├── .PROJECTS\         ← build/project docs (plain NAME; code lives on GitHub)
 │   ├── .raw ARCHIVE\      ← closed legacy source holding; add nothing new
-│   └── REF-MATH … REF-MISC  ← reference domains (renamed July 15, 2026:
-│                              REF- marks "reference pile, not a wiki or the
-│                              money system"; empty domains archived; see
-│                              02-LIBRARY\README.md)
+│   └── ref-math … ref-misc  ← reference domains (renamed July 15, 2026 to
+│                              REF-<NAME>, then lowercase ref-<name> by July 27:
+│                              "reference pile, not a wiki or the money system";
+│                              empty domains archived; see 02-LIBRARY\README.md)
 │
 ├── 03-WIKIS\  ← eight knowledge hubs — folders inside the single .ROOT vault
 │   ├── SYSTEMS\           ← system dynamics + ISYE spine (Sterman, Factory Physics, queuing)
@@ -135,4 +135,7 @@ Standing mechanism: before any write, confirm the parent chain traces to `.ROOT`
 by NAME against the live tree. Folder IDs are retired — do not use them.
 
 ---
-*Last updated: July 25, 2026 (post-architecture interface reconciliation) | Next review: weekly*
+*Last updated: July 29, 2026 — mid-week structure review corrected `00-SCHOOL`/`REF-<NAME>`
+to the live lowercase `00-school`/`ref-<name>` casing (documentation-only fix; no folders
+renamed) in this file, `WHERE_IT_GOES.md`, and `02-LIBRARY\README.md`. Prior:
+July 25, 2026 (post-architecture interface reconciliation) | Next review: weekly*

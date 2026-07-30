@@ -37,6 +37,21 @@ For each study rep:
    algebra/calculus, units, or execution.
 6. Record proof only when completed independently.
 
+## Calculus-bearing topics (added 2026-07-30)
+
+For any topic where calculus represents the physical change, accumulation,
+or constraint — most of the semester, this is a calculus-based course — use
+the tighter loop instead of the general one above:
+
+```text
+state the calculus rule -> derive the formula from it -> 2-3 problems -> quiz cold
+```
+
+Only go deeper (full boundary-condition walkthrough, another worked example,
+a cold redo) if the quiz misses. A passed quiz means move on — depth is
+earned by a demonstrated miss, not spent everywhere by default. Machine rule:
+`OPERATIONS.md` § Calculus-Reconstruction Lens.
+
 ## Proof
 
 A topic is learned when Chris can identify the problem type, justify the
