@@ -191,7 +191,7 @@ same as any other rep — this schedule is a plan, not a substitute for the
 proof trail.
 
 **Method note, 2026-07-30:** each new-rep night follows `OPERATIONS.md` §
-Calculus-Reconstruction Lens's streamlined loop (state the rule -> derive
+Calculus construction leads; physics is assumed, not taught § streamlined loop (state the rule -> derive
 the formula -> 2-3 problems -> quiz cold). The cold-redo nights already
 built into this schedule *are* that method's escalation rule in practice —
 depth only adds when a quiz actually misses, not by default.

@@ -17,9 +17,9 @@ approved resources into a sequential calculus-based physics learning engine.
 control_question: What physical situation is present, what model applies, and what should Chris independently practice next?
 
 pipeline:
-  source: physical situation
-  sequence: model -> quantities -> diagram -> equation -> units -> calculus connection -> problem type -> example -> drill
-  gate: independent mastery check
+  source: physical situation (named fast, assumed known — see Teaching contract)
+  sequence: calculus relationship -> formula derivation -> physical mapping -> problem type -> example -> drill
+  gate: independent mastery check, immediate + 48-72h durability
 
 This hub is not a chapter-summary collection. Packet generation never advances
 the learner frontier.
@@ -124,12 +124,12 @@ approval. Do not prebuild empty structure.
 ### QUERY
 
 1. Read `wiki/current-position.md` and the active stage.
-2. Identify situation, system boundary, knowns, unknowns, and diagram.
-3. Select the governing physical principle before selecting an equation.
-4. Define every variable and unit; state assumptions.
-5. Explain calculus only where it represents physical change or accumulation.
-6. Teach as explanation -> worked pattern -> fresh drill -> explain-back.
-7. End with one exact independent action.
+2. Name the physical situation in one line — assumed known, not built up
+   (Chris has prior Physics 1/2; see Teaching contract).
+3. State the calculus relationship first, then derive the equation from it.
+4. Define every variable and unit; state assumptions, fast.
+5. Teach as calculus construction -> worked pattern -> fresh drill -> explain-back.
+6. End with one exact independent action.
 
 ### LINT
 
@@ -146,80 +146,94 @@ Check:
 
 ## Teaching contract
 
-### Math-first bridge for Chris
+### Calculus construction leads; physics is assumed, not taught (revised 2026-07-30, Chris-directed)
 
-Chris recognizes mathematical structure faster than dense verbal description.
-Use the math as the entry ramp, while keeping the physical model in control:
+Chris has already completed introductory Physics 1/2 and Calculus 1/2. He
+knows the physics — free-body diagrams, energy, momentum, the conceptual
+model behind every topic in this course. That is not what's missing, and
+this hub does not re-teach it by default. What's missing, and what this
+contract now leads with, is **calculus mechanics and formula construction**.
 
-1. Show the governing mathematical relationship or geometric structure.
-2. Define every symbol, sign, unit, axis, and dependency.
-3. Map each mathematical term to the physical object, motion, force, transfer,
-   or constraint it represents.
-4. Derive or justify the relationship from the model when that improves
-   understanding; do not present formulas as unexplained rules.
-5. Test the relationship with a limiting case, unit check, graph, or changed
-   parameter and explain what that change means in the physical world.
-6. Apply it to one concrete system, then require an independent transfer.
+> Go straight to the calculus: identify the relationship, derive the
+> formula, connect it to the physics Chris already has, then apply it.
+> Do not rebuild the physical concept from zero on the way there.
 
-“Math-first” does not mean equation-first guessing. The physical situation still
-determines which mathematics applies; the mathematics then makes the situation
-precise.
+This replaces the older "explain the physical situation, then arrive at the
+calculus eventually" sequencing (previously step 9 of 12 in this file). PHYS
+2211 is a calculus-based course; calculus is not a late-arriving support
+layer, it is the point, for every topic across the full Stage 1-18 sequence.
 
-### Calculus-Reconstruction Lens (added 2026-07-30, Chris-directed)
+**Standard rep, every calculus-bearing topic (most of the semester):**
 
-PHYS 2211 is a calculus-based course. The syllabus still controls required
-coverage, dates, and policy; mastery evidence still controls when the learner
-frontier advances. What changes is the instructional lens:
+1. Name the physical system in one line — what's changing or accumulating,
+   with respect to what. A fast anchor, not a build-up: do not walk through
+   system boundary, objects involved, and a diagram as separate preliminary
+   steps. If Chris can't place it in one line, that's the signal to use the
+   Fallback below — expect this rarely, not by default.
+2. State the calculus relationship explicitly — the derivative, integral, or
+   differential equation, named plainly. Never skipped; this is the actual
+   content of a calculus-based course, not optional ceremony.
+3. Derive the formula symbolically from that relationship, term by term.
+4. **Explain the connection** — what each calculus term and operation
+   physically means and why, in real depth, every time. This step is not
+   fast-tracked like steps 1 and 2: the physics is solid and the calculus
+   mechanics are solid, but the *bridge between them* — why this derivative
+   is this physical quantity — is the actual identified gap (Chris's own
+   words: "connecting to the physics is still hazy, and needs explaining as
+   we go"). Give it real explanation every rep; do not assume it's obvious
+   just because the two halves it connects are.
+5. Work two to three problems applying the derived formula.
+6. **Immediate check** — quiz cold, same session, no notes, no worked
+   example open. Proves present understanding, not durable recall.
+7. **Durability check, 48-72 hours later** — reconstruct the relationship or
+   solve a transfer problem cold. This is the check that actually counts for
+   advancement; an immediate pass alone does not.
 
-> Every topic gets its governing calculus made explicit and its formula
-> derived from that calculus, not handed over as a rule to memorize — because
-> that is what a calculus-based course actually requires, not a remediation-
-> only measure. Scope: the full Stage 1-18 sequence across the semester, not
-> one chapter.
+**Escalation, not a separate default track:** if either check misses, go
+deeper — a full boundary-condition/assumption walkthrough, an additional
+worked example, another durability check after the repair. If both pass,
+move on. Depth is earned by a demonstrated miss, not spent by default on
+every topic — this keeps 16 weeks of material moving without turning every
+formula into a lecture. `wiki/math-readiness-path.md`'s cold-redo nights
+(spaced ~2 days after first exposure) are this durability check already
+built into the pre-semester schedule.
 
-**Standard rep — streamlined, matches the loop that worked live on
-2026-07-30:**
+**Rust, not a gap (clarified 2026-07-30):** the calculus mechanics
+themselves (power rule, boundary conditions, and so on) get the same
+treatment as the physics — Chris has completed Calc 1/2, so this is recall
+of disused material, not new learning. State each rule in one line; do not
+derive it from first principles (no proving the power rule from limits)
+unless a cold check shows it's genuinely gone, not just rusty. Once stated,
+recognition comes back fast — today's live session proved this directly:
+one line each on the derivative and integral power rules, and correct
+application followed within the same exchange. Pace the whole sequence for
+someone reactivating known material, not encountering it for the first
+time.
 
-1. State the exact calculus rule(s) in play — the derivative or integral
-   operation, named plainly, before anything else. This step is never
-   skipped; it is the actual content of a calculus-based course, not
-   optional ceremony.
-2. Derive the familiar physics formula from that rule, tying each term to
-   what it means physically (what's changing, what's accumulating, with
-   respect to what).
-3. Work two to three problems applying the derived formula.
-4. Quiz cold — no notes, no worked example open.
+**Three separate things, three separate paces (named explicitly 2026-07-30
+so this doesn't get re-blurred later):**
 
-**Escalation, not a separate default track:** if the quiz misses, go deeper
-— a full boundary-condition/assumption walkthrough, an additional worked
-example, a same-week cold redo. If the quiz passes, move on. Depth is earned
-by a demonstrated miss, not spent by default on every topic — this keeps 16
-weeks of material moving without turning every formula into a lecture.
-`wiki/math-readiness-path.md`'s cold-redo nights are this escalation rule
-already built into the pre-semester schedule.
+| Piece | State | Pace |
+|---|---|---|
+| Physics concepts (forces, energy, motion) | Chris already has these | Assumed; fallback only on a demonstrated miss |
+| Calculus mechanics (the rules themselves) | Rusty, not missing | Stated in one line; fast recall, not derived from first principles |
+| **The connection between them** | **The actual identified gap** | **Real explanation, every rep — never fast-tracked** |
+
+Conflating any two of these rows is what produced today's earlier drafts of
+this contract — pace each one correctly, not uniformly.
+
+**Fallback — physics-concept teaching:** use only if a cold check shows the
+physical concept itself, not just the calculus, is actually missing. Then
+build the physical situation properly (system, diagram, knowns/unknowns,
+governing principle) before returning to the calculus-led sequence above.
+This is the exception path. Most of this course is physics Chris already
+has; the job is building the math on top of it, not teaching it from
+underneath again.
 
 The iPad stays the diagram/first-attempt surface
 (`wiki/ipad-handwritten-physics-method.md`); Markdown is the shared
 derivation and reasoning surface once the sketch exists — Markdown never
-replaces the spatial work.
-
-For every active topic, answer:
-
-1. What physical situation is happening?
-2. What system and objects are involved?
-3. What quantities change?
-4. What governing model applies, and why?
-5. What diagram represents it?
-6. What equation follows from the model?
-7. What do the variables and units mean?
-8. What assumptions limit the equation?
-9. What calculus meaning appears?
-10. What problem type is this?
-11. What beginner error is likely?
-12. What independent practice comes next?
-
-Use physical anchors, short explanations, visible sequence, and
-beginner-readable vocabulary. Units and dimensional reasoning are mandatory
+replaces the spatial work. Units and dimensional reasoning stay mandatory
 whenever an equation appears.
 
 ## Mastery

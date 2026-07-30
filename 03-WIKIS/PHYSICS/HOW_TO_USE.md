@@ -19,7 +19,26 @@ Semester readiness is controlled by
 come from `02-LIBRARY/00-SCHOOL/`; provisional neighbor-section dates never
 replace Section 54 requirements.
 
-## Work loop
+## Work loop — calculus-bearing topics (the default; revised 2026-07-30)
+
+Chris already has the physics from Physics 1/2. Most of this course is
+calculus-bearing, so this is the default loop, not a special case:
+
+```text
+name what's changing (one line) -> state the calculus rule -> derive the formula
+-> map terms to physics Chris already knows -> 2-3 problems
+-> quiz cold now -> reconstruct cold in 48-72 hours
+```
+
+Only go deeper (full boundary-condition walkthrough, another worked example)
+if either check misses. Both passing means move on — depth is earned by a
+demonstrated miss, not spent everywhere by default. Machine rule:
+`OPERATIONS.md` § Calculus construction leads; physics is assumed, not taught.
+
+## Fallback loop — physics-concept gap (exception, not default)
+
+Use only when a cold check shows the physical concept itself is actually
+missing, not just the calculus:
 
 ```text
 situation -> diagram -> knowns/unknowns -> governing principle
@@ -27,30 +46,37 @@ situation -> diagram -> knowns/unknowns -> governing principle
 -> explain-back
 ```
 
-For each study rep:
+Then return to the calculus-led loop above for that topic. Don't run this
+loop by default — it's the exception path for a demonstrated gap, not the
+starting point.
 
-1. Classify the physical situation before looking at formulas.
-2. Draw or describe the system.
-3. Attempt the worked pattern with the solution covered.
-4. Complete one fresh independent drill.
-5. Classify every miss: concept, representation, equation choice,
+For each study rep, regardless of which loop:
+
+1. Attempt the worked pattern with the solution covered.
+2. Complete one fresh independent drill.
+3. Classify every miss: concept, representation, equation choice,
    algebra/calculus, units, or execution.
-6. Record proof only when completed independently.
+4. Record proof only when completed independently.
 
-## Calculus-bearing topics (added 2026-07-30)
+### Structured reading block
 
-For any topic where calculus represents the physical change, accumulation,
-or constraint — most of the semester, this is a calculus-based course — use
-the tighter loop instead of the general one above:
+Before a new calculus-bearing topic, use this shape instead of open-ended
+chapter reading — it defines a stop condition so reading doesn't sprawl:
 
-```text
-state the calculus rule -> derive the formula from it -> 2-3 problems -> quiz cold
+```markdown
+## Read
+- Source: exact section and pages
+- Read for: the physical system and governing principle
+- Calculus question: what is changing or accumulating, with respect to what?
+- Formula question: which familiar equation should emerge, and under what assumptions?
+- Stop: stop once those questions can be answered — not the whole chapter
 ```
 
-Only go deeper (full boundary-condition walkthrough, another worked example,
-a cold redo) if the quiz misses. A passed quiz means move on — depth is
-earned by a demonstrated miss, not spent everywhere by default. Machine rule:
-`OPERATIONS.md` § Calculus-Reconstruction Lens.
+After reading, return four short statements, not a summary: (1) the
+physical principle in plain language, (2) the relevant derivative/integral/
+constraint, (3) the initial or boundary conditions, (4) the resulting
+formula and what it means physically. This is what makes the reading feed
+directly into the derivation rep instead of just being informational.
 
 ## Proof
 

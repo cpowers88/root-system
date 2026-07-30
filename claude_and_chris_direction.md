@@ -1,3 +1,11 @@
+---
+type: report
+timeline: now
+status: in-progress
+tags: [governance, interview, system-design]
+created: 2026-07-26
+---
+
 # Claude Interview and Chris Answers
 **UPDATE THE SYSTEM .MD to MATCH NORTH STAR AND investigate what Chris really NEEDS**
 

@@ -66,6 +66,15 @@ Stage 18 (Ch 38) -> none new (Lorentz algebra, but gives up Galilean intuition)
 
 Full calculus-link pages for each stage are generated when that stage packet is built, per the one-stage-at-a-time rule in [[../OPERATIONS.md]]. The roadmap above is the preview — each row becomes a detailed page in `wiki/calculus-links/` as Chris reaches it.
 
+**Just-in-time readiness gate (added 2026-07-30):** one stage before
+activation, every calculus-bearing relationship in that stage's row above
+must be marked one of **explicit** (page exists in `wiki/calculus-links/`),
+**not applicable** (stage has no new calculus, per the roadmap), or
+**missing** (needs a page before the stage activates). Stages 14 (fluids)
+and 16 (waves) are currently **missing** — build their pages only when
+Chris is one stage out, not now. This prevents reaching a stage that claims
+the calculus-reconstruction lens while the bridge for it doesn't exist yet.
+
 ## Calculus-Link Pages Built So Far
 
 Each page below includes a full derivation, a small worked example, a

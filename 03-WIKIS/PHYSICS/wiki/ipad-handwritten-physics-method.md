@@ -119,7 +119,7 @@ sorts chronologically and the filename carries the stage and the drill.
 
 **Added 2026-07-30:** a Markdown problem page may sit alongside a handwritten
 artifact as the shared derivation/reasoning surface (`OPERATIONS.md` §
-Calculus-Reconstruction Lens) — it links to the exported PNG/PDF, it never
+Calculus construction leads; physics is assumed, not taught) — it links to the exported PNG/PDF, it never
 replaces it. The sketch, axes, and first attempt stay handwritten; the
 calculus derivation and explanation can happen in Markdown where symbolic
 back-and-forth is faster than re-drawing.

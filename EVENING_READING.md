@@ -3,17 +3,17 @@ type: reading
 timeline: now
 status: active
 tags: [evening-reading, school, technology]
-generated: 2026-07-29
+generated: 2026-07-30
 ---
 
-# Evening Reading — July 29, 2026
+# Evening Reading — July 30, 2026
 
 ## School
-**READ —** *Open Technical Communication*, Ch 2.13 Memos and Emails, pp. 149–163, from `03-WIKIS/EDUCATION/raw/Open-TC-PDF.pdf` (TCOM 2010's real Week 1 chapter).
-**FOCUS —** TCOM hasn't run any block this week yet, so this opens Week A block 1 and **primes Thursday's ethics/audience reading** per the course rotation.
-**STOP —** Stop at page 163, before Ch 3 Ethics; name audience, purpose, subject line, opening, organization, and requested action for one sample message.
+**READ —** `03-WIKIS/PHYSICS/wiki/physics-math-crash-course.md` Module 7 "Derivatives: Rates, Slopes, and Change" (lines 549-596), paired with `math-readiness-path.md`'s Dated Evening Schedule row 1.
+**FOCUS —** Tonight opens the Calculus-Physics Bridge sprint (Jul 30-Aug 23 override) with the power rule and the position→velocity→acceleration chain; **x and y differentiate independently**, per today's live drill gap.
+**STOP —** Stop after the Motion Example and Vector Derivatives sections, before "Later Physical Derivatives"; explain the `t=1 s` turning-point result aloud without notes.
 
 ## Technology
-**READ —** "Recommended First Slice After Gate B Acceptance" and "Decision and Next Action," `00-BRAIN/Session_Logs/proposal_log/gate_a_acceptance_and_gate_b_revision_report.md`.
-**FOCUS —** Today's decision-ready Value Decision Engine output; the key point is **the first slice is a manual packet, not code**.
-**STOP —** Stop after the seven-step slice list and the Decision/Next Action lines; do not open the Gate B spec itself.
+**READ —** `02-LIBRARY/ref-programming/powertoys_best_uses.md`, "Recommended first setup" table (priorities 1-4: Command Palette, FancyZones, PowerRename, Peek).
+**FOCUS —** Today's fresh guide for the installed v0.100.2 build; the key point is **enable only these four now, not the full utility list**, tying directly into daily `.ROOT`/school window management.
+**STOP —** Stop after priority 4 (PowerRename); do not open the "High-value supporting tools" section tonight.

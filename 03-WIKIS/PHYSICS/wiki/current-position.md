@@ -90,13 +90,37 @@ Friday conditional gate on the original schedule. Daytime live problem work
 continues in parallel with the evening sprint. Resume the syllabus pace
 **2026-08-24** when classes start, or sooner if the sprint closes early.
 
-**Durable objective, confirmed 2026-07-30 (not just a pre-semester
-measure):** Chris has already completed introductory Physics and Calculus
-1/2. The goal is calculus-connected formula reconstruction and fluency
-across the full semester, not another pass through concepts or problem
-mechanics he already has. `OPERATIONS.md` § Calculus-Reconstruction Lens is
-now the standing teaching method — it does not revert to syllabus-order-only
-pedagogy on Aug 24, only the syllabus-pace pause reverts.
+**Durable objective, sharpened 2026-07-30 (not just a pre-semester
+measure):** Chris has already completed introductory Physics 1/2 and
+Calculus 1/2 — he has the physics. The teaching method now goes straight to
+calculus construction (identify the relationship, derive the formula, map
+it to physics he already knows, apply it) instead of rebuilding physical
+concepts from zero first. Physics-concept teaching is now the fallback,
+used only when a cold check shows a real concept gap, not the default path.
+`OPERATIONS.md` § Calculus construction leads; physics is assumed, not
+taught is the standing teaching method — it does not revert to
+syllabus-order-only pedagogy on Aug 24, only the syllabus-pace pause
+reverts.
+
+## Tomorrow, Jul 31 — Live Validation Runs
+
+First real test of the three-row pacing table (physics assumed, calculus
+fast-recalled, connection always explained) against real problems, not just
+the design. Two candidates, both already-outstanding backlog rather than
+new material:
+
+1. **Drill Problem 2** (package dropped from a plane, 80.0 m/s horizontal,
+   490 m altitude) — picks up exactly where this morning's live session
+   left off.
+2. **Circular-motion drill 1-4** — still outstanding from Wednesday, and
+   directly matches [[calculus-links/tangential-radial-acceleration-derivative]],
+   next in the evening sprint sequence anyway.
+
+Watch specifically: does step 4 (the connection explanation) actually need
+full depth every time, or does it get faster on the second problem once the
+pattern's been explained once this session? Record what actually happens in
+`wiki/log.md`, not just whether the answer was right — this is a pacing
+check, not just a proof check.
 
 ## Seven-Day Plan — July 26 through August 1, 2026 (superseded by the pause above)
 
