@@ -1496,3 +1496,48 @@ remain open, not urgent tonight.
 - **Displaces if activated later:** speculative app work, not school or the
   current Advisor-Builder proof lane. Next review: 2026-08-30 or earlier only
   if Chris authorizes and completes the adult interview gate.
+
+## 2026-07-30 — OPP-20260730-01 bounded test 1: parent interview (Codex)
+
+- **Test run:** one adult-only parent problem interview with Chris, six
+  questions, no external contact, app build, child identity, or stored child
+  data. Chris is both parent and idea originator, so the result carries founder
+  bias and cannot establish cross-parent demand.
+- **Observed job:** redirect children's default passive device consumption into
+  useful learning and creation without requiring continuous parental curation.
+  The proposed parent control is a bounded, parent-approved subject/source set,
+  not open-web surveillance or universal device blocking.
+- **Commitment:** Chris offered a Saturday trial in the 18–24-month age band.
+  The first success framing—educational entertainment while the parent works—is
+  not accepted as the test because current pediatric guidance conditions media
+  introduction at that age on caregiver co-viewing.
+- **Safe next test:** one 10-minute, caregiver-co-viewed, approved-content
+  interaction followed immediately by an off-screen transfer prompt. Measure
+  observable engagement and transfer only; do not claim time savings, learning
+  durability, or product demand from one rep.
+- **Verdict:** **HOLD retained.** Interview 1 of 5 is real evidence, not an
+  unlock. Repetition across unrelated parents remains the next demand gate.
+
+## 2026-07-30 — OPP-20260730-01 manual suggestion protocol activated (Codex)
+
+- **Authorized scope:** Chris asked to start a suggestion engine for content he
+  can co-view with the 18-month-old child on his lap.
+- **Implementation:** created one manual test protocol in the proposal log. It
+  accepts only an age band, interest/concept, parent-approved source, duration,
+  and available household objects; it returns one screened item, three co-view
+  prompts, an off-screen transfer, observations, and a keep/modify/reject
+  verdict.
+- **Boundary:** no software, autonomous feed, open-ended child profile,
+  unattended viewing recommendation, child identity/data, or product promotion.
+- **Verdict:** opportunity remains **HOLD**. The manual protocol tests whether
+  the proposed input/gate/output contract is useful before automation.
+
+## 2026-07-30 — OPP-20260730-01 suggestion protocol paused (Codex)
+
+- Chris put the manual suggestion test on pause and asked where its candidate
+  queue came from.
+- Clarification: no candidate queue existed. The parent interview established
+  the problem, constraints, and possible outcome; it did not supply or validate
+  content sources.
+- Resume condition: Chris approves a bounded trusted-source set. Until then, no
+  content candidates are collected, scored, or recommended through the protocol.

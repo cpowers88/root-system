@@ -7,7 +7,7 @@ tags: [governance]
 
 # SYSTEM_FLAGS.md — Open Improvement Flags
 ### Location: 00-BRAIN\ | Check at every session start.
-### Last updated: July 29, 2026 (flag #85 closed — full syllabus review filed all six Fall courses and reconciled EDUCATION's canonical rule with reality; flag #57 updated with a dated pre-semester punch list)
+### Last updated: July 30, 2026 (flag #89 raised and closed same session — git's tracked index carried stale uppercase casing for 9 folders/200 files against live lowercase disk state, already visible on GitHub; fixed with a two-step `git mv` after Chris's approval, closed row in `Closed Flags\CLOSED_FLAGS_2026-07.md`)
 
 ---
 
