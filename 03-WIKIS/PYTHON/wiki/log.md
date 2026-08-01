@@ -8,6 +8,126 @@ timeline: log
 
 Append every meaningful ingest, path update, teaching session, or structure change here.
 
+## 2026-08-01 (later) — Friday's un-run Test Day quiz taken: 2 PASS / 1 partial / 3 MISS, two regressions surfaced
+
+### Work completed
+- Friday, July 31's weekly-plan "Test Day" timed quiz never ran (session
+  that day was consumed by a git-casing reconciliation). Chris asked what
+  was most important to get done before Sunday's review; this quiz was
+  identified as the single highest-leverage missing item and run today,
+  off-plan, after the retest-item cold check above.
+- No pre-built quiz file exists for Stage 4 in the vault — built fresh
+  against the stage's own Mastery Checklist: parameter/argument
+  definitions, a predict-the-output trace (including a deliberate
+  out-of-scope variable), a cold function write, a print-vs-return
+  judgment call, a find-and-fix debug item, and a fruitful/void
+  classification with reasoning. Closed-book, one attempt, 15-minute
+  timer, scored honestly before any correction, per the weekly plan's own
+  rule ("record the score honestly before reviewing anything").
+- **Score: 2 clean PASS (cold function write; find-and-fix debug item), 1
+  PARTIAL (fruitful/void — correct fruitful example, but the void example
+  was an unfinished idea, not real code, so the actual "how do you tell
+  from the def line" question went unanswered), 3 MISS.**
+- **Real finding — two of the three misses are regressions**, not fresh
+  gaps: (1) parameter/argument reversed (parameter described as "fed into"
+  the argument) — this exact distinction passed independently 2026-07-27;
+  (2) predicted `print(total)` would output `7` instead of raising
+  `NameError` on a variable local to the called function — this is the
+  identical scope concept from the `error4.py` debug rep that passed
+  independently 2026-07-29. The third miss (Q4, print-vs-return) was a
+  genuine fresh misjudgment: framed the choice as being about data type
+  (strings) rather than about whether the caller needs to reuse the
+  result.
+- **Chris self-reported after scoring:** his original written answers for
+  #1 and #2 were correct, and he changed them before submitting. This
+  reclassifies those two misses as **answer-flipping under timed
+  pressure, not a conceptual gap** — but the submitted score stands
+  unchanged, same as a real quiz; you don't get to un-submit because you
+  had the right answer first.
+- **Immediate retest, one question each, first instinct:** parameter/
+  argument corrected fast and clean — held at concept-cue support level
+  (just restating the question sharply was enough). Scope/local-variable-
+  lifetime did not land on the first restated question (still described a
+  conditional "yes, if it specifically returns total" — conflating the
+  returned *value* with the *name* surviving outside the function);
+  required a full worked-step explanation (the "torn-down local
+  workspace, only the value survives via return" framing) before a clean,
+  unprompted "no" landed on a fresh check. **Treat scope/local-variable-
+  lifetime as not yet secure** — worth a genuine unprompted cold recheck
+  next time it comes up, not assumed fixed by one correct answer given
+  immediately after its own explanation.
+
+### Pages created/updated
+`current-position.md` (quiz result and both retest diagnoses recorded).
+This log.
+
+### Vocabulary added
+None new — all six items were retrieval/application of already-taught
+Stage 4 vocabulary, not new introduction.
+
+### Progress evidence
+Stage 4 remains procedurally CLOSED (all four original gate items were
+independently verified cold, without timed pressure). This quiz is not a
+reopening of that closure — it's new evidence that two of its concepts
+need a genuine spaced recheck before they're trusted as durable, which
+the original untimed cold-attempt format didn't surface.
+
+### Next action
+Add parameter/argument and scope/local-variable-lifetime as explicit
+spaced-retrieval items for a future cold check — genuinely unprompted,
+not immediately after a fresh explanation. Stage 4b (Python libraries)
+remains the frontier for new content.
+
+## 2026-08-01 — Off-plan Saturday cold check: both Stage 4 retest items closed
+
+### Work completed
+- Weekly plan marked today (Saturday, Aug 2 week) as no-school family time;
+  Chris redirected into a cold Python check anyway — displacement recorded,
+  no resistance given per standing rule.
+- Targeted the two items flagged "recheck cold next time it comes up" from
+  the 2026-07-29 Function Toolbox session: (1) `return` sends a value back
+  to the caller (vs. an earlier "holds the argument" miscue), and (2) a
+  `percent_of`-style return value is an amount, never the rate — the rate
+  is always the input.
+- Fresh cold task, not seen before: write `discount_amount(price, rate)`
+  returning the dollar amount taken off (e.g. `discount_amount(80, 0.25)`
+  → `20.0`), reusing his existing `percent_of.py`.
+- **Real first-attempt miss, self-corrected:** first version
+  (`code/discount_amount.py`) computed `price - percent_of(price, rate)` —
+  the discounted *total* (60), not the discount *amount* (20) the spec's
+  own worked example named. Chris's predict-and-trace was accurate (he
+  correctly walked through and got 60, and correctly explained the
+  difference between "amount" and "total") but he'd built the wrong one.
+  Explanation: he assumed the exercise wanted something different from
+  `percent_of` rather than checking the given example first. One pointer
+  back at the example ("the example is the source of truth") — fixed on
+  the next attempt, first try: `da = percent_of(price, rate); return da`.
+- **Unprompted improvement:** flagged (not required as a fix) that his
+  first correct version's local variable was named `discount_amount`,
+  shadowing the function itself. Chris renamed it to `da` anyway because
+  he preferred it cleaner — not asked for, done on his own judgment.
+- **Return-value framing — PASS.** Closed-book explanation, unprompted and
+  more complete than the question asked: `return` sends the value back to
+  the caller *and* exits the function (nothing below it runs); the call
+  expression itself takes on that value, which is what `print()` receives.
+- **Rate-vs-amount — PASS, clean transfer.** No recurrence of the earlier
+  "return value is the percentage" mislabel anywhere in this rep, across
+  both files.
+- **Verdict: both flagged retest items CLOSED.** Stage 4 remains closed;
+  frontier is still Stage 4b (Python libraries), untouched.
+
+### Pages created/updated
+`current-position.md` (retest items marked closed under the Stage 4 CLOSED
+note). This log.
+
+### Vocabulary added
+None new — return-value mechanics and rate/amount were reinforced via
+transfer, not first introduction.
+
+### Next action
+Stage 4b (Python libraries) — nothing read yet. Resume there on the next
+scheduled Python block.
+
 ## 2026-07-29 (evening) — Stage 4 gate closed: common-error debug rep, PASS
 
 ### Work completed

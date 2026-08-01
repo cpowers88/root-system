@@ -107,6 +107,40 @@ Cold baseline, three-function drill, Function Toolbox mini-project, and the
 common-error debug rep are all independently verified. Stage 4b (Python
 libraries) is next.
 
+**Both open retest items closed (2026-08-01, off-plan Saturday check —
+weekly plan marked the day no-school; Chris redirected).** Fresh cold
+function (`discount_amount.py`, calling the existing `percent_of.py`):
+(1) return-value framing — correct unprompted explanation, including that
+`return` also exits the function; (2) rate-vs-amount — tracked cleanly
+through the whole rep, no recurrence of the "percentage" mislabel. A new,
+different miss surfaced and self-corrected on one pointer: first draft
+returned the discounted *total* (60) instead of the discount *amount* (20)
+the spec's own worked example named — fixed immediately once pointed back
+at the example, then unprompted renamed a variable that shadowed the
+function's own name. Full record: `wiki/log.md` 2026-08-01.
+
+**Friday's un-run Test Day timed quiz taken late, off-plan (2026-08-01).**
+Closed-book, one attempt, six questions covering the Mastery Checklist.
+**Score: 2 clean PASS, 1 partial, 3 MISS — recorded honestly before any
+correction**, per the plan's own rule. Two of the three misses were
+regressions on items already independently verified PASS earlier in the
+week (parameter/argument, 07-27; the `error4.py` scope/NameError concept,
+07-29) — a real signal that those explain-back verdicts were not fully
+durable under timed closed-book pressure. Chris self-reported after
+scoring that his original written answers for both were correct and he
+changed them before submitting — re-diagnoses the failure as **answer-
+flipping under pressure, not a conceptual gap**, though the submitted
+score stands unchanged (same rule as a real quiz). Immediate retest:
+parameter/argument corrected fast and clean on one restated question
+(concept-cue level, holds). Scope/local-variable-lifetime needed a full
+worked-step correction (not just a concept cue) before a clean "no" landed
+on a fresh check — treat this as **not yet secure**, worth a real cold
+recheck next time it comes up naturally, not assumed fixed by one correct
+answer immediately after the explanation. The fourth item (Q4, print vs.
+return) was a genuine misjudgment, not a flip — the real rule is about
+whether the caller needs to reuse the result, not about data type. Full
+record: `wiki/log.md` 2026-08-01.
+
 - **Exact learner frontier:** Stage 4b — [[stages/stage-04b-python-libraries]].
   Nothing read yet; unlocks now that Stage 4 is closed.
 - **Code evidence in the MCP Bootcamp workbench:** `Code/for.py` records the
