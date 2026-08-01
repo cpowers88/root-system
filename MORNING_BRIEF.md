@@ -6,10 +6,10 @@ tags: [castle]
 generated: 2026-07-31
 ---
 
-# Morning Brief — July 31, 2026 (evening system load, 5pm)
+# Morning Brief — July 31, 2026 (session load)
 
-**ATTENTION —** The Chris-approved 207-file git-casing fix (`SYSTEM_FLAGS.md` flag #89, marked closed) never got committed — still staged, unpushed, since before today's PC clean.
+**ATTENTION —** Resolved: Chris committed and pushed the casing fix directly (`ad8c957`, "all day") — flag #89 is genuinely closed now, not just documented as closed.
 
-**START —** Commit and push the staged rename to actually close flag #89, then run today's still-live Python timed quiz per `weekly-plan-2026-07-27-to-2026-08-02.md` (Physics's Friday quiz/gate are paused through Aug 23).
+**START —** Complete today’s TCOM audience-analysis and message-structure retrieval block while Claude owns Python, recording proof against `00-BRAIN\CASTLE\wiki\weekly-plans\weekly-plan-2026-07-27-to-2026-08-02.md`.
 
-**CHRIS —** Approve committing and pushing the pending 207-file rename now.
+**CHRIS —** Confirm Saturday's actual capacity once you know it (wife says the day may be free with Annie back) before the plan assumes anything.

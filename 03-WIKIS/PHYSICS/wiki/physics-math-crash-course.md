@@ -78,7 +78,9 @@ only far enough to repair the missing support, then return to the physics.
 
 Write a number as:
 
+$$
 $$a \times 10^n \qquad 1 \le |a| < 10$$
+$$
 
 The coefficient carries the measured digits; the exponent carries scale.
 
