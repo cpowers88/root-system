@@ -6,6 +6,50 @@ tags: []
 
 # Castle Log — Append Only
 
+## 2026-08-02 — Weekly review and 10–20% improvement recommendation (Codex)
+
+- **Outcome:** Reconciled July 27–August 2 from the active weekly plan, six DAILY logs, learner-owner state, system reports, flags, inbox, Git state, and the canonical health gate.
+- **Verdict:** approximately 13 of 32 planned weekday proof blocks closed (41%), against the 85% target. Python Stage 4 and meaningful Physics evidence moved; control-plane work and PC/sandbox incidents displaced too much scheduled proof.
+- **Decision:** no architecture expansion. Recommend a seven-day Proof-to-Control pilot using first-proof lock, one-load/one-close, same-close frontier propagation, evidence-sized core commitments, and maintenance quarantine.
+- **Flag #90:** retired by Chris as an accepted operating limitation and moved to the August ledger; not represented as technically fixed.
+- **Health:** BLOCKER remains from Claude local `skillOverrides` placement and escaped/malformed Physics crash-course Markdown. Preserved for explicit repair rather than overwritten during review.
+- **Reports:** `00-BRAIN\Session_Logs\weekly_and_monthly_reports\weekly_reports\WEEKLY_JULY27-AUGUST2.md` and `weekly_system_improvement_recommendations_2026-08-02.md`.
+- **Next exact action:** create the August 3–9 plan from demonstrated throughput and begin with one carried-over learner proof.
+
+## 2026-08-02 — Sunday due-checks return (Claude Code, Operator hat)
+
+- **Item 1 — check_at backlog cleared.** 5 past-due proposals reviewed:
+  `wiki-shared-layer-and-lane-cleanup` (07-24) was already resolved (verdict
+  modify, recorded 07-24). The remaining 4 — `session-close-capture-prompt`
+  (07-25), `governance-drift-detection` (07-26), `mid-session-governance-
+  edit-discipline` (07-29), `castle-research-boundary-and-raw-placement`
+  (08-01) — had real evidence for one (`session-close-capture-prompt`: KEEP,
+  confirmed via `HANDOFF_0801_CODEX.md`'s capture section) and insufficient
+  same-session evidence for the other three. Chris's call: accept all as
+  provisionally KEEP, re-raise if the described friction recurs. Notably,
+  `governance-drift-detection`'s own outcome flagged that today's one stale-
+  claim catch (PYTHON `current-position.md`) was incidental, not the rotating
+  spot-check firing — worth confirming that check actually runs next review.
+- **Item 2 — learner-hub alignment: Chris-approved.** PYTHON (Stage 4b next),
+  PHYSICS (Stage 4 open, syllabus pace paused 07-30→08-23 for the calculus-
+  bridge sprint), EDUCATION (TCOM/ECON live, ENGR still blocked on real Fall
+  syllabus, flag #57) all confirmed against their own current-position files
+  and approved as the week's working plan.
+- **Item 3 — instruction-protocol confirmation: still pending.** Tied to
+  Chris's live fix for SYSTEM_FLAGS #90 (Codex elevated sandbox); re-verify
+  once Codex confirms a clean launch against the restored `.codex/config.toml`.
+- Also this session: SYSTEM_FLAGS #91 raised (Python stage progression not
+  reliably reaching Chris — his direct report); `03-WIKIS\PYTHON\wiki\
+  current-position.md`'s self-contradicting "Current Next Action" section
+  fixed (Stage 4 was closed but the section still named the pre-closure
+  item). Flag #69 (duplicate raw file) decided — archive — but blocked on
+  execution by a sandbox-level write guard on `03-WIKIS\AI_AUTOMATION_
+  SYSTEMS\raw\`; needs Chris to run the move himself. `OPP-20260716-02`
+  advanced on Chris's approval — next step is Chris supplying a redacted
+  transaction to reconstruct.
+- Next exact action: root-cause interview with Chris on flag #91 (stale
+  cockpit surfacing vs. stale file content vs. both), then design a fix.
+
 **History:** entries before 2026-07-19 live in
 `99-ARCHIVE\ARCHIVED_2026-07-25_CASTLE_LOG_2026-07-06_to_2026-07-18.md` — re-sorted into correct
 chronological order during the 2026-07-25 architecture-conformance review, content unchanged.

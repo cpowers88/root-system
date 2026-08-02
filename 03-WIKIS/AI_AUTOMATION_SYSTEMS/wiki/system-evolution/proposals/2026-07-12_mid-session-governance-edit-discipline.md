@@ -65,5 +65,5 @@ mechanics the prior pass missed" section, sourced exactly to
 - **Expected behavior:** system/governance files are edited only with explicit approval, never silently mid-task; mid-session improvement ideas get recorded separately instead of applied on the spot.
 - **Evidence for improvement or regression:** the July 15 remediation-and-design sprint is the richest test window — every governance edit (Codex phases, Claude chunks) should carry an explicit Chris approval in the DAILY. Regression = any governance diff with no matching approval record.
 - **check_at:** 2026-07-29 (immediately after the sprint's governance-heavy window closes)
-- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
-- **Verdict:** (keep / modify / revert — blank until the check date)
+- **Outcome (2026-08-02):** Not independently re-verified against every governance diff in the window — accepted provisionally per Chris's 2026-08-02 Sunday-review decision rather than a full audit today. Re-raise if a governance edit is ever found "verified" in the same sitting it was made, without a fresh session or `/clear`.
+- **Verdict: keep (provisional).**

@@ -7,5 +7,5 @@ def greet(
 
 
 print(
-    greet("Chris")
+    greet("Jacob")
 )  # Chris is the argument, or the information getting handed to the program to do something with, greet is our custom def function and print is a preset python function

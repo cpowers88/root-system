@@ -310,10 +310,10 @@ closed unless a specific learning gap justifies reopening it.
 
 ## Current Next Action
 
-Stages 0-3 are closed; Stage 4 functions is active. Cold baseline (2026-07-27),
-the three-function drill (2026-07-28), and the Function Toolbox mini-project
-(2026-07-29) are all closed PASS WITH CORRECTION. Next action is the Stage 4
-gate's last item: debug one of the four [[errors/stage-04-common-errors]]
-types without help. Closing that closes Stage 4 entirely — Stage 4b (Python
-libraries) is next. All later packets remain content readiness, not study
+Stages 0-4 are closed (Stage 4 closed 2026-07-29: cold baseline, three-function
+drill, Function Toolbox mini-project, and the common-error debug rep all
+independently verified; both retest items and Friday's Test Day quiz closed
+off-plan 2026-08-01). **Next action: Stage 4b — Python libraries**
+([[stages/stage-04b-python-libraries]]) — nothing read yet, unlocked now that
+Stage 4 is closed. All later packets remain content readiness, not study
 progress until worked and verified.

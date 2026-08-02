@@ -101,9 +101,8 @@ justify added infrastructure.
   the live source checked; regression means the sweep is skipped or a sampled
   stale claim survives it.
 - **check_at:** 2026-07-26 (after a full weekly-sweep opportunity)
-- **Outcome:** (blank until the check date — record what actually happened,
-  with an evidence link)
-- **Verdict:** (keep / modify / revert — blank until the check date)
+- **Outcome (2026-08-02):** One relevant data point, but not from the mechanism itself: this same session found `03-WIKIS\PYTHON\wiki\current-position.md` self-contradicting (a stale "Current Next Action" section naming an already-closed item) while pulling unrelated learner-hub alignment — caught incidentally, not by a rotating CASTLE weekly spot-check firing on schedule. Whether Option B's rotating check is actually running each week was not independently confirmed today. Accepted provisionally per Chris's 2026-08-02 decision.
+- **Verdict: keep (provisional)** — worth confirming at the next weekly review that the rotating spot-check is actually firing, since today's catch was incidental rather than the mechanism working as designed.
 
 ## Source Basis
 

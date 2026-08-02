@@ -92,5 +92,5 @@ mis-placement incident as the live evidence.
 - **Expected behavior:** every new source lands in its owning wiki's `raw/` before processing; no repeat of the two-pack mis-placement incident.
 - **Evidence for improvement or regression:** intake entries in wiki logs showing first-try correct raw placement since 2026-07-12. Regression = any new mis-placement flag or in-place ingest outside the owning wiki.
 - **check_at:** 2026-08-01 (monthly weak-link review; several real intakes will have occurred)
-- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
-- **Verdict:** (keep / modify / revert — blank until the check date)
+- **Outcome (2026-08-02):** No new raw mis-placement incident surfaced this session, but intake history since 07-12 was not actively audited today — accepted provisionally per Chris's 2026-08-02 decision rather than a full check.
+- **Verdict: keep (provisional).**
