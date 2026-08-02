@@ -3,13 +3,13 @@ type: dashboard
 timeline: now
 status: active
 tags: [castle]
-generated: 2026-07-31
+generated: 2026-08-02
 ---
 
-# Morning Brief — July 31, 2026 (session load)
+# Morning Brief — August 2, 2026 (Sunday review)
 
-**ATTENTION —** Resolved: Chris committed and pushed the casing fix directly (`ad8c957`, "all day") — flag #89 is genuinely closed now, not just documented as closed.
+**ATTENTION —** SYSTEM_FLAGS #90 (Codex elevated sandbox, HIGH) is due-checks item one; tonight's look-back found the likely cause (`.codex\config.toml` emptied, restored) but it's unverified.
 
-**START —** Complete today’s TCOM audience-analysis and message-structure retrieval block while Claude owns Python, recording proof against `00-BRAIN\CASTLE\wiki\weekly-plans\weekly-plan-2026-07-27-to-2026-08-02.md`.
+**START —** Open `CASTLE\OPERATIONS.md`'s Sunday due-checks return: confirm #90's restored config fixed the sandbox, then run learner-hub alignment and instruction-protocol confirmation.
 
-**CHRIS —** Confirm Saturday's actual capacity once you know it (wife says the day may be free with Annie back) before the plan assumes anything.
+**CHRIS —** Confirm Codex's elevated sandbox now launches clean, and approve the PYTHON/PHYSICS/EDUCATION learner-hub alignment before the week's plan is written.

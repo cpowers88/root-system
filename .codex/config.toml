@@ -5,16 +5,11 @@
 approval_policy = "on-request"
 default_permissions = "root_guarded"
 
-[permissions.root_guarded.filesystem]
-":minimal" = "read"
-":tmpdir" = "write"
-":slash_tmp" = "write"
+[permissions.root_guarded]
+description = "Writable .ROOT workspace with private and immutable evidence protected."
+extends = ":workspace"
 
 [permissions.root_guarded.filesystem.":workspace_roots"]
-"." = "write"
-".git" = "read"
-".agents" = "read"
-".codex" = "read"
 "88-JOURNAL" = "deny"
 "00-BRAIN/CASTLE/raw" = "read"
 "03-WIKIS/AI_AUTOMATION_SYSTEMS/raw" = "read"

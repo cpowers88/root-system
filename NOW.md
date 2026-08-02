@@ -5,84 +5,57 @@ status: active
 tags: []
 ---
 
-# NOW — Thursday, July 30, 2026
+# NOW — Saturday, August 1, 2026 (evening close)
 
 *Single-lane cockpit. Pilot installed 2026-07-26; acceptance check August 2.*
 
 ## Today
 
-**Day four. Heavy on system coordination, light on direct school proof — named honestly below, not smoothed.**
+**Off-plan Saturday — weekly plan marked today no-school family time; Chris redirected into work anyway, twice, both recorded per standing rule. Real proof moved, then the evening went to a live system failure instead of the two open school reps.**
 
-1. **Python — still ahead of the weekly plan, Stage 4b not yet started.**
-   Wednesday's Toolbox + debug rep already closed Stage 4 a block ahead of
-   plan. Today's real next action (Stage 4b, standard-library bridge) has
-   not run yet — system/coordination work took the day instead.
-2. **Physics — real gap diagnosed and a durable method change adopted.** A
-   live session found the actual blocker was calculus-mechanics recall
-   (boundary conditions), not physics concepts. Chris paused syllabus-paced
-   physics through Aug 23 for a dated 25-evening Calculus-Physics Bridge
-   sprint, then Codex proposed and Chris refined a permanent teaching-method
-   change (streamlined loop: name what's changing → state the calculus rule
-   → derive the formula → 2-3 problems → quiz now → durability check 48-72h
-   later; deeper reconstruction only after a demonstrated miss). Implemented
-   across `PHYSICS/OPERATIONS.md`, `HOW_TO_USE.md`, `current-position.md`,
-   `math-readiness-path.md`, `ipad-handwritten-physics-method.md`, the
-   worked-example template, and `calculus-map.md`. Drill Problem 1 (horizontal
-   launch) solved live: 1.24 m, confirmed.
-3. **CSE Lab, TCOM, ECON — did not run today.** No family/rest reason named
-   this time — the day went to physics-method design and cross-AI review
-   instead of direct coursework.
-4. **PowerToys/DevToys reviewed twice, independently, by two AI surfaces.**
-   Codex wrote guides at 7am (`02-LIBRARY\ref-programming\`); Claude
-   researched the same topic fresh mid-afternoon, unaware. Real duplicated
-   effort — named in the system report below, not yet fixed with a standing
-   rule.
-5. **Two system reports produced, one cross-reviewed the other.** Claude
-   published a `.ROOT` operating-discipline report (git-commit hygiene, the
-   PowerToys duplication, a stale weekly-plan table, and the real headline —
-   several profit-gate HOLDs this week with no bounded real test launched
-   yet). Codex independently reviewed both that report and the Physics
-   implementation, found real gaps (missing structured-reading block, a
-   physical-situation-vs-calculus-rule ordering issue, no immediate-vs-
-   durability distinction, an unwired worked-example template, `NOW.md`
-   itself dated Jul 29, a new root-level file with no frontmatter causing a
-   health BLOCKER) — all fixed same-session. Health gate: **PASS**.
-6. **A substantial Chris interview surfaced, not yet synthesized.**
-   `claude_and_chris_direction.md` (found via today's health-blocker fix;
-   git-confirmed active since 2026-07-26, not new today as first stated) has
-   two full rounds of direct Chris
-   answers about what's not working — self-direction, evening reading not
-   landing, the three-AI misalignment, wanting a real Sunday-built weekly
-   map with daily step-by-step breakdowns, confirming **no system split**
-   (stays one `.ROOT`, not a separate LIFE system) and confirming the
-   "one reconciled answer" pattern (used today for the Physics review) as
-   the standing rule for cross-AI work. Ready for a synthesis pass — not
-   done yet, flagged for Chris's call on timing.
-7. **Value Decision Engine — unchanged.** Still routed, research-only,
-   Gate A accepted, Gate B revision still pending Codex's rewrite.
+1. **Python — both Stage 4 retest items closed; Test Day quiz finally run.**
+   Fresh cold `discount_amount.py` rep closed the two flagged retest items
+   (return-value framing, rate-vs-amount). Friday's un-run Test Day timed
+   quiz ran late: 2 PASS / 1 partial / 3 MISS — two misses self-diagnosed by
+   Chris as answer-flipping under timed pressure, not a conceptual gap; the
+   third (print-vs-return) was a genuine fresh miss. Scope/local-variable-
+   lifetime is flagged **not yet secure** — needs a real unprompted spaced
+   recheck, not assumed fixed.
+2. **Python cold-read exercise — started, left open.** Scope concept
+   transferred clean and unprompted on a fresh item; one trace error
+   self-corrected to the right total (53). Two closing steps never ran:
+   confirming the predicted `53`/`NameError`, and building `average(numbers)`
+   cold.
+3. **Physics — did not run today.** Neither validation rep (Drill Problem 2,
+   circular-motion drill 1-4) started.
+4. **Codex's elevated Windows sandbox failed outright this evening.**
+   `CreateProcessAsUserW failed: 5 — Access is denied` when Codex tried to
+   open `00-BRAIN\AGENT.md` — a total process-launch failure, not a file
+   permission block (Codex correctly named `88-JOURNAL` as an intentional
+   exclusion it wouldn't touch, unprompted — the boundary logic itself is
+   fine). Same reliability class as flag #79 (closed 2026-07-22) but a more
+   basic failure than that closure's checks ever covered. Logged fresh as
+   **SYSTEM_FLAGS #90, HIGH, open** — needs Chris's interactive
+   `/setup-default-sandbox` rerun (admin elevation; can't be triggered from
+   inside the failing sandbox). Chris is fixing this tonight instead of the
+   evening reading rotation.
 
-Full detail: `00-BRAIN\Session_Logs\DAILY_2026-07-30.md`.
+Full detail: `00-BRAIN\Session_Logs\DAILY_2026-08-01.md`.
 
 ## Today's Gate
 
-**Real school-proof movement today: one live physics problem (Problem 1,
-confirmed) and a real diagnosis that reshaped the teaching method.** Stage
-4b, CSE Lab, TCOM, and ECON did not run. This was a system-and-coordination
-day, not a learning day — worth naming plainly rather than folding it into
-"still ahead of plan" language, since Python's lead came entirely from
-Wednesday, not today.
+**Real school-proof movement: two closed retest items and a completed (if
+rocky) Test Day quiz.** The cold-read's last two steps and both physics reps
+carried over undone — not because of a low-value day, but because the
+evening went to a live Codex sandbox failure that needed Chris directly.
 
 ## Not Today
 
-- Python Stage 4b — the real next action, still unread.
-- CSE Lab, TCOM, ECON — did not run; no displacement reason beyond the
-  day's system/coordination load.
-- Physics circular-motion drill (4 problems) — still outstanding from
-  Wednesday, now folded into the new evening-sprint schedule.
-- The `claude_and_chris_direction.md` interview — two rounds answered,
-  synthesis into real system changes not yet done.
-- Weekly plan's Block-evidence table — still stale (named again today,
-  still not fixed); one row is now confirmed actively wrong, not just old.
+- Cold-read's confirming run and `average(numbers)` close.
+- Both physics validation reps.
+- Evening reading — explicitly skipped, reason stated above.
+- Codex sandbox flag #90 — open, needs Chris's `/setup-default-sandbox`
+  rerun before Codex is reliable again.
 
 ## Owners — open these, not another dashboard
 
@@ -90,13 +63,11 @@ Wednesday, not today.
 - Sequence and proof status: `00-BRAIN\CASTLE\wiki\current-position.md`
 - Learner truth: `03-WIKIS\PYTHON\wiki\current-position.md`,
   `03-WIKIS\PHYSICS\wiki\current-position.md`
-- Physics teaching method: `03-WIKIS\PHYSICS\OPERATIONS.md` § Calculus-Reconstruction Lens
-- Evening sprint schedule: `03-WIKIS\PHYSICS\wiki\math-readiness-path.md`
-- Semester goal: `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md`
-- Business hypothesis: `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`
+- Open system flags: `00-BRAIN\SYSTEM_FLAGS.md` (flag #90 — Codex elevated
+  sandbox, HIGH)
 - This week's checklist: `00-BRAIN\CASTLE\wiki\weekly-plans\`
-- Value Decision Engine research (locked): `00-BRAIN\Session_Logs\proposal_log\`
-- Unresolved: `claude_and_chris_direction.md` (root) — real design input, awaiting synthesis
+- Unresolved: `claude_and_chris_direction.md` (root) — real design input,
+  still awaiting synthesis
 
 ## Boundaries
 
@@ -107,9 +78,8 @@ Wednesday, not today.
 - Generated material is preparation, not mastery or market proof.
 
 ---
-*Recent movement: Physics's teaching method changed for real today —
-calculus-reconstruction as the standing lens, not just a pre-semester
-sprint — through a clean two-AI review cycle Chris then refined himself.
-Python's lead is a day old and hasn't grown; today didn't add school proof.
-A real, substantial Chris interview about system redesign is sitting ready
-for synthesis. Detail lives in the owner files above, not here.*
+*Recent movement: Python closed real ground today (two retest items, a
+timed quiz) despite the day nominally being off. The evening's real story is
+Codex's elevated sandbox failing at a more basic level than the July 22 fix
+verified — flag #90 is the thing Sunday's due-checks review needs to see
+first. Cold-read and physics carry over as undone, not abandoned.*
