@@ -1063,3 +1063,11 @@ Chris's decisions.
 - Next action: return to the live operating constraint named by `NOW.md` or the
   capability-development owner. Open raw material again only if that work
   exposes a specific unanswered question.
+
+## 2026-08-02 - Windows productivity and maintenance intake
+
+- Routed four sources into `raw/`: a PowerToys overview, official FancyZones documentation, KB5121767, and a Defender security-intelligence capture.
+- Created [[devops/windows-workspace-and-maintenance-reference]] for the durable workspace pattern and update-applicability gate.
+- Kept vendor versions, release timestamps, shortcuts, product counts, and third-party ranking claims explicitly volatile.
+- Updated the ledger from 44/44 to 48/48 and the index for the one new retrieval page.
+- **Next exact action:** configure or test a PowerToys utility only when a repeated Windows workflow names the time or friction it should remove.

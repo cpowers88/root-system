@@ -35,6 +35,7 @@ EXCLUDED_DIRS = {
     ".obsidian",
     "Report Archive",
     "88-JOURNAL",
+    "oracleJdk-26",  # vendored JDK; its legal/ tree ships real .md license files
 }
 WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]")  # type: ignore
 FENCED = re.compile(r"(^|\n)(```|~~~).*?(\n\2)(?=\n|$)", re.S)
@@ -203,7 +204,8 @@ def main() -> int:
     all_md = [
         p
         for p in ROOT.rglob("*.md")
-        if not EXCLUDED_DIRS.intersection(p.relative_to(ROOT).parts)
+        if p.is_file()  # rglob also matches dirs named *.md (JDK legal tree)
+        and not EXCLUDED_DIRS.intersection(p.relative_to(ROOT).parts)
     ]
     known_stems = {p.stem.lower() for p in all_md}
 

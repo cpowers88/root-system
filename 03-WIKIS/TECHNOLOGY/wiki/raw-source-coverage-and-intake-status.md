@@ -21,7 +21,7 @@ tags: [technology, governance, source-coverage]
   operational evidence; may be used only to discover stronger primary sources.
 - **Excluded:** reviewed and intentionally not ingested because stronger coverage exists or the source is too shallow.
 
-## Physical File Ledger (44/44)
+## Physical File Ledger (48/48)
 
 | # | Raw file | Status | Durable coverage or reason |
 |---:|---|---|---|
@@ -69,20 +69,24 @@ tags: [technology, governance, source-coverage]
 | 42 | `readthis.md` | Reference-only, unverified | Self-titled "Tech stack roadmap for workflow/AI systems integration (**unsourced chat export**)", captured 2026-07-17. Model output with no source attribution or date-verifiable claims. **Not evidence.** May suggest categories to investigate; nothing in it may be cited as a landscape finding without independent Tier 1–2 confirmation. |
 | 43 | `Mixture of SMB wedges and enterprise stacks.md` | Reference-only, unverified | Grok conversation export, titled `TEMP*conversation grok*TEMP`, captured 2026-07-17. Same class as #42 — unsourced model output, explicitly marked temporary by its own title. Not evidence; do not cite for market or vendor claims. |
 | 44 | `metadata – OAPEN A world of scholarly books Open to all, built to last.md` | Reference-only | Clipping from `oapen.hypotheses.org/tag/metadata`, captured 2026-07-17. Open-access book-metadata practice; no current Technology page gap justifies ingestion. Retrieve only if a cataloguing or metadata-standards question arises. |
+| 45 | `The Complete Guide to Microsoft PowerToys Boost Your Windows Productivity in 2026.md` | Selective | Third-party discovery overview; durable workflow candidates routed to [[devops/windows-workspace-and-maintenance-reference]], while product counts, shortcuts, AI features, and succession claims require current Microsoft verification. |
+| 46 | `FancyZones Window Manager for Windows.md` | Compiled | Official Microsoft operational reference represented in [[devops/windows-workspace-and-maintenance-reference]]. |
+| 47 | `July 18, 2026—KB5121767 (OS Builds 26200.8894 and 26100.8894) Out-of-band.md` | Reference-only, volatile | Historical applicability record. The source limited the optional update to affected Intel IPF/Dell devices; verify current build and applicability before use. |
+| 48 | `Latest security intelligence updates for Microsoft Defender Antivirus and other Microsoft antimalware - Windows Defender Security Intelligence.md` | Reference-only, volatile | Troubleshooting and update-channel reference captured 2026-07-22; definition versions age immediately and must be reverified on Microsoft's live page. |
 
 ## Source-Family Summary
 
 | Disposition | Physical files | Meaning |
 |---|---:|---|
-| Compiled | 8 | Full useful source coverage with explicit navigation/ledger |
-| Selective | 11 | Useful deltas ingested; overlap, derivations, or low-value material explicitly omitted |
+| Compiled | 9 | Full useful source coverage with explicit navigation/ledger |
+| Selective | 12 | Useful deltas ingested; overlap, derivations, or low-value material explicitly omitted |
 | Derived | 5 | Web clipping converted into a landscape/reference page |
 | Cross-hub | 8 | Canonical synthesis exists in the owning sibling wiki or in CASTLE's architecture source summaries |
-| Reference-only | 9 | Triggered lookup sources for OAuth, virtualization, IoT/ICT cases, optimization methods, quantum computing, open-access metadata practice, and two unsourced AI chat exports |
+| Reference-only | 11 | Triggered or volatile lookup sources, including Windows update and Defender maintenance captures |
 | Parked, quality-limited | 2 | Sampled industrial/automation collections that failed the operational-evidence gate; bibliographies remain discovery-only |
 | Excluded | 1 | Introductory source adds no durable gap |
 
-The disposition counts total 44 and match the numbered ledger: **44/44 physical
+The disposition counts total 48 and match the numbered ledger: **48/48 physical
 content files accounted**. `desktop.ini` is folder metadata and is intentionally
 excluded from the source ledger.
 

@@ -5,22 +5,18 @@ status: active
 tags: []
 ---
 
-# NOW — Sunday, August 2, 2026 (weekly review day)
+# NOW — Monday, August 3, 2026
 
-*Single-lane cockpit. Frontier-propagation rule installed 2026-08-02 (closes
-flag #91) — see Frontier Changes below. This file was itself stale for most
-of today (still showing Saturday) — flag #91 reproducing live inside its own
-fix cycle; both a parallel Claude session and this one caught it independently.*
+*Single-lane cockpit. The August 2 review and intake are closed. Monday launches
+the approved Move-On Gate queue; optional system work waits for the learner proof.*
 
 ## Frontier Changes
 
 *(clears after being shown once — mandatory on any hub stage/gate close, not just today's active lane)*
 
-- **PYTHON: Stage 4 → Stage 4b (Python libraries).** Closed 2026-07-29; this
-  is the first cockpit surfacing of it. Next: import one standard-library
-  module, call a function through it — nothing read yet.
+- None pending; the Stage 4 → Stage 4b change was surfaced on August 2.
 
-## Today
+## Sunday Closeout
 
 **Three-way system-review day, no learner proof — Codex, a parallel Claude
 Code session, and this session all worked the same review cycle.**
@@ -89,15 +85,22 @@ Code session, and this session all worked the same review cycle.**
    Chris ruled the Aug 3–23 path stands as-is — the earlier "for Fable's
    review" plan-refinement handoff is closed by direction; revisit only
    from the Aug 9 miss record. Health gate PASS.
+10. **Late reopen (Fable): Move-On Gate installed, Chris-directed.** The
+   week's blocks now run as an ordered queue — pass = cold transfer +
+   explain-back, move on immediately; two-block cap; misses logged and
+   routed to Weeks C–D. Chris approved the three drafted refinements
+   (evidence list, block caps/wording, ECON line); yellow rule rewritten
+   in queue terms. Aim: all 18 items vs. last week's 13; pass bar still
+   15/16.
 
-## Today's Gate
+## Monday Launch Gate
 
-**No school proof today by design — Sunday is the weekly-review cycle, not
-a proof day (`AGENT.md` Execution Discipline rule 2).** The August 3–9 plan
-is now approved and ready. Monday starts by closing the unfinished Python
-cold-read carryover, then opens the daytime Physics/calculus sweep.
+**C1 first under the Move-On Gate:** confirm `53` and `NameError`, independently
+build `average(numbers)`, and explain the result. If the cold transfer passes,
+move immediately to Physics P1 and its integration-constant repair. Do not open
+optional system work before the learner proof.
 
-## Not Today
+## Carried From Sunday
 
 - No Python/Physics/TCOM/ECON blocks ran — Sunday is review day. Carried
   into the week: cold-read's confirming run + `average(numbers)` close, both
@@ -130,8 +133,6 @@ cold-read carryover, then opens the daytime Physics/calculus sweep.
 - Generated material is preparation, not mastery or market proof.
 
 ---
-*Recent movement: the recovered Claude and Codex plans were reconciled into
-one approved 18-block week, with Physics/calculus and Python/CSE receiving 16
-of 18 blocks. Flag #91 is fully integrated: frontier propagation and temporary
-survey mode are both live. Monday's exact first action is the unfinished Python
-cold-read close, followed by the first daytime calculus-to-physics block.*
+*Recent movement: Sunday closed with one approved 18-item queue, completed
+source intake, and passing health checks. Monday's exact first action is C1's
+unfinished Python cold-read close, followed by Physics P1.*

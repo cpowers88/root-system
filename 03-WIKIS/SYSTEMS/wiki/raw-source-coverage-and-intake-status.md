@@ -14,8 +14,8 @@ coverage, intentionally excluded, covered in the owning BUSINESS wiki, or parked
 behind a concrete activation trigger. Presence in `raw/` alone never means that a
 source was reviewed.
 
-**Last audited**: 2026-07-18 - 27 substantive raw files; the July 17 Process
-Mining Handbook intake is now dispositioned.
+**Last audited**: 2026-08-02 - 36 substantive raw files; eight research/data/project
+sources and one MIT course archive added from intake are dispositioned below.
 
 ## Closed in SYSTEMS
 
@@ -38,6 +38,14 @@ Mining Handbook intake is now dispositioned.
 | `suppyChainScience.pdf` | All Chapters 0-9 have named-page or covered-by dispositions. The corrected Chapter 5-9 closure is recorded in [[log]]. |
 | `The-Design-of-Everyday-Things-Norman-2002.pdf` | Complete conceptual ingest routed by [[design-of-everyday-things-source-map]]. |
 | `Value Stream Mapping Overview.md` | Represented in [[value-stream-mapping-method-and-lean-guidelines]]. |
+| `Why Trust Science.md` | Selectively represented in [[evidence-quality-and-research-data-governance]]; institutional and social trust framing retained without treating authority as a substitute for claim-level review. |
+| `What's Wrong with Social Science and How to Fix It Reflections After Reading 2578 Papers.md` | Selectively represented in [[evidence-quality-and-research-data-governance]]; polemical judgments excluded, while replication, causal, effect-size, citation, and external-validity cautions were retained as challenge questions. |
+| `NOT-OD-21-013 Final NIH Policy for Data Management and Sharing.md` | Selectively represented in [[evidence-quality-and-research-data-governance]]; NIH-specific legal scope preserved. |
+| `Eight Principles of Good Data Management.md` | Selectively represented in [[evidence-quality-and-research-data-governance]]. |
+| `Data Management for Researchers Three Tales.md` | Selectively represented in [[evidence-quality-and-research-data-governance]]. |
+| `aimos2021 - Rose O'Dea The next 10 years.md` | Selectively represented in [[evidence-quality-and-research-data-governance]] as research-reform context; forecasts remain dated perspective rather than current fact. |
+| `13  Project management.md` | Selective supporting source for [[project-management-with-pert-cpm]] and [[operations-research-study-lifecycle]]; no duplicate project-management page created. |
+| `Ehlers_Lonsdorf_2022_R2_clean_version.pdf` (28 pp.) | Compiled in two complete chunks (physical pp. 1-15 and 16-28) into [[evidence-quality-and-research-data-governance]]. Field-specific empirical rates and the ten-step reuse sequence retained; fear-conditioning details remain source-level lookup. |
 
 ## Covered in the Owning BUSINESS Wiki
 
@@ -66,6 +74,7 @@ should not be reopened merely because they remain in the immutable raw folder.
 | `AlgorithmstoLiveBy.pdf` | Broad decision-science source added 2026-07-16; no ingest attempted. Existing OR pages already cover several adjacent mechanics. | Open only for a concrete stopping, scheduling, sorting, caching, or explore/exploit decision that exposes a retrieval gap. |
 | `Mike Rother - Learning to See Version 1.2 (kanban)_value stream lean.pdf` | Image-heavy canonical VSM workbook; topic-level coverage exists in [[value-stream-mapping-method-and-lean-guidelines]], but the book itself has not received visual chunk review. | Activate when building a real current-state/future-state client map, a VSM template, or a visual worked example where workbook-specific symbols and examples matter. |
 | `TLS.pdf` | Three-page Pirasteh/Farah article comparing TOC, lean, and Six Sigma; reviewed only for identity and scope, not ingested. Its high-level comparison overlaps existing TOC, lean, quality, and Factory Physics coverage. | Activate when a real improvement program requires an explicit TOC-versus-lean-versus-Six-Sigma method-selection framework. |
+| `9.401-fall-2022.zip` | MIT 9.401 *Tools for Robust Science* offline course package; archive identity and contents inspected, but the course has not been compiled. Several standalone intake sources from its research/data-governance cohort were selectively ingested above. | Open one week or tool at a time when an evidence-quality, reproducibility, open-science, citation-audit, or data-governance decision exposes a specific gap. |
 
 `desktop.ini` is an operating-system metadata file, not a knowledge source, and is
 excluded from intake accounting.

@@ -719,3 +719,18 @@ its own `raw/` the same way.
 - Preserved the paper's limits: one event log, two tasks, seven participants,
   and evaluation focused on verbalization rather than base-rule quality.
 - No raw SYSTEMS source and no index entry changed.
+
+## 2026-08-02 - Robust-science and data-governance intake
+
+- Routed seven small research/data/project-management sources and one MIT 9.401 offline course archive into `raw/` under Chris's named exception.
+- Created [[evidence-quality-and-research-data-governance]] and linked it to the existing model-validation, OR-lifecycle, process-mining, and spreadsheet-modeling surfaces.
+- Registered all eight sources. The MIT course is parked for week-by-week triggered review; it was not bulk-extracted or represented as compiled.
+- The second course ZIP was byte-identical and was archived rather than ingested twice.
+- **Next exact action:** use the evidence packet on the next consequential research or audit claim; open a course week only if that application exposes a gap.
+
+### Same-session late intake
+
+- A 28-page Ehlers/Lonsdorf preprint arrived after the initial inventory and was reviewed completely in two chunks: pp. 1-15 and 16-28.
+- Extended [[evidence-quality-and-research-data-governance]] with the paper's field-specific 103-dataset reuse audit and ten-step FAIR-to-operational sequence.
+- Routed the source into SYSTEMS `raw/`; the ledger now accounts for 36 substantive files.
+- Routed a seven-page KSU DegreeWorks audit to `02-LIBRARY\00-school\KSU_degree_works_2026-08-02.pdf`; it contains private student data and was not copied into a wiki.

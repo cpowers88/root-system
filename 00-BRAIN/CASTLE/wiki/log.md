@@ -1619,3 +1619,23 @@ remain open, not urgent tonight.
   content sources.
 - Resume condition: Chris approves a bounded trusted-source set. Until then, no
   content candidates are collected, scored, or recommended through the protocol.
+
+## 2026-08-02 — Weekly plan converted to proof-gated queue (Fable, Chris-directed)
+
+- Chris redefined how the Aug 3–23 pre-semester plan advances: the block
+  lists are now an **ordered queue with a Move-On Gate**, not a calendar.
+  Gate: cold changed-parameter transfer + explain-back = pass, move on
+  immediately; two-block cap per item with misses logged and routed to
+  Weeks C–D. Day labels remain pacing defaults; aim is the full 18-item
+  queue against last week's 13-block showing, pass bar unchanged (15/16).
+- Folded in the three drafted refinements Chris approved from the earlier
+  "for Fable's review" handoff: predesignated evidence blocks (P1–P8, C1,
+  C2, C8), the P4/P6/P7 five-part cap, P3 `F_net = dp/dt` framing, C3
+  "possible Java bridge" softening, P7 SHM-first wording, P8 16-point
+  rubric, and the ECON Week B line in EDUCATION. The Wednesday yellow rule
+  was rewritten in queue terms (defer E1/T1, protect P5–P8 + C6–C8) —
+  the old "remove all stretch" wording was a no-op with no stretch tier
+  defined.
+- Files: `weekly-plans\weekly-plan-2026-08-03-to-2026-08-09.md`,
+  `PHYSICS\wiki\math-readiness-path.md` (queue rule note),
+  `EDUCATION\wiki\pre-semester-coverage-plan.md`, this log.

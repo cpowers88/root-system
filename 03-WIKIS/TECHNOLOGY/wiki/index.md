@@ -83,6 +83,7 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 
 ## DevOps & IT Operations (`devops/`, 19 pages)
 
+- [[devops/windows-workspace-and-maintenance-reference|Windows Workspace and Maintenance Reference]] — PowerToys/FancyZones workflow uses plus a volatility and applicability gate for Windows and Defender updates
 - [[devops/the-phoenix-project|The Phoenix Project (Gene Kim, Kevin Behr & George Spafford)]]
 - [[devops/the-three-ways-devops|The Three Ways (DevOps)]]
 - [[devops/devops-origins-and-myths|DevOps Origins and Myths]]

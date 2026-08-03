@@ -138,6 +138,10 @@ chapter equivalence.
 
 ### Week B — specialization and production choices
 
+**Only E1 (one block) is scheduled for Aug 3–9** per the Week B allocation
+decision above — the items below stay sourced and roll to Weeks C–D,
+deferred rather than missed.
+
 1. Explain absolute versus comparative advantage and gains from specialization
    using a two-person/two-output example.
 2. Draw and interpret a production-possibilities frontier: axes, attainable and

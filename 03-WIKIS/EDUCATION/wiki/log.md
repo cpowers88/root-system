@@ -491,3 +491,14 @@ evidence and keep the divergence explicit.
 **Next exact action:** run ECON Week A Block 1 in the next CASTLE ECON slot:
 OpenStax Chapter 1 orientation followed by a closed-source definition of
 scarcity, incentives, opportunity cost, and tradeoff.
+
+## 2026-08-02 — ECON Week B disambiguation line (Fable, evening close)
+
+- Applied the one remaining verified fix from today's plan reconciliation:
+  `pre-semester-coverage-plan.md` § Week B — specialization and production
+  choices now states only E1 (one block) is scheduled Aug 3–9; the listed
+  items roll to Weeks C–D, deferred rather than missed. Matches the TCOM
+  disambiguation already in place; no scope or gate change.
+
+**Next exact action:** unchanged — E1 runs Friday Aug 7 per the CASTLE
+weekly plan, or earlier via its Move-On Gate queue.

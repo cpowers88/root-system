@@ -199,6 +199,15 @@ Each block's actual result (pass/miss, what broke) gets logged in `wiki/log.md`
 same as any other rep — this schedule is a plan, not a substitute for the
 proof trail.
 
+**Queue rule (2026-08-02, Chris-directed):** from Aug 3 the rows above
+function as an **ordered queue with default pacing dates**, governed by the
+weekly plan's Move-On Gate (`CASTLE\wiki\weekly-plans\weekly-plan-2026-08-03-
+to-2026-08-09.md`): pass = one cold changed-parameter transfer plus
+explain-back → move on immediately; two-block cap per item on the first
+pass, with misses logged and routed to Weeks C–D instead of stalling the
+queue. Advancement is proof-gated, not date-gated; the dates only answer
+"am I on pace for Aug 23?"
+
 **Method note, 2026-07-30:** each new-rep block follows `OPERATIONS.md` §
 Calculus construction leads; physics is assumed, not taught § streamlined loop (state the rule -> derive
 the formula -> 2-3 problems -> quiz cold). The cold-redo nights already

@@ -1885,3 +1885,11 @@ reference back matter rather than an ingestion backlog.
   `AI_engineering.pdf` (Huyen) remains the one large deferred book —
   Chapter 10 compiled by Codex separately; the rest is still a genuine
   multi-session job, not started this pass.
+
+## 2026-08-02 - Claude/Cowork short-form intake
+
+- Routed two creator-video transcripts into `raw/` and registered both in source coverage.
+- Classified the skill list as discovery-only because its rankings and popularity claims are not verified evidence.
+- Classified the one-person-company workflow as selective overlap: `.ROOT` already implements the useful profile/context/output/session loop, while scheduled email, calendar, and external-action claims remain consequential and unactivated.
+- No duplicate synthesis page or governance proposal was created.
+- **Next exact action:** vet a named skill only when a real task gap appears; do not install the video list as a bundle.

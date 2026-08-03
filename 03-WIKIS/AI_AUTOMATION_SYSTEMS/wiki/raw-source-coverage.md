@@ -74,6 +74,8 @@ recount 2026-07-16 night: 187 files / 342.9 MiB).
 | `Claude Code Features Guide 2026 — 67 Capabilities Explained.md` (toolsbase.dev, captured 2026-07-22) | **Compiled** | [[claude-code-features-catalog-and-version-history-toolsbase]] — third-party 67-feature catalog + full v1.0.x-v2.1.217 changelog. |
 | `OpenAI Codex CLI Cheat Sheet 2026.md` (toolsbase.dev, captured 2026-07-22) | **Compiled** | [[codex-cli-command-reference-and-version-history-toolsbase]] — third-party 64-command reference + full v0.107.0-v0.145.0 changelog. |
 | `AI CLI Command References & Free Online Tools.md` (toolsbase.dev homepage, captured 2026-07-22) | Lookup/reference; not compiled | Site landing/directory page for toolsbase.dev (the same publisher as the two rows above) — a tool-and-links index, not itself a knowledge source. Bookmark only. |
+| `8 Claude Skills that actually matter.md` | Lookup/reference; not compiled | Short creator-video transcript and discovery list. Installation counts, star counts, quality rankings, and package identities are unverified promotional claims; vet a named skill through the live agent-evaluation gate before adoption. |
+| `How to build a one person company with Claude Cowork.md` | Selective/overlap | Short creator-video transcript. Its durable context/profile/output-loop pattern already exists in `.ROOT` governance and session continuity. Scheduled email/calendar actions, external messages, and autonomous company-operation claims require separate authority and evaluation; no duplicate framework created. |
 
 ## Coverage rule going forward
 

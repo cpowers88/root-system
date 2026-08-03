@@ -135,6 +135,7 @@ chapters consolidated into four retrieval jobs plus a 17-chapter source router.
 
 ## Model Testing, Decision Practice & Implementation
 
+- [[evidence-quality-and-research-data-governance]] — claim-quality gate, reproducible data lineage, sharing constraints, and audit application
 - [[model-validation-and-testing-practice]] — fitness for purpose, documentation, replication, the complete model-test battery, and BUILD/PROVE/DEPLOY gate
 - [[operations-research-study-lifecycle]] — problem definition through maintained implementation, including user testing and continuing feedback
 

@@ -1455,3 +1455,12 @@ material arrives as a surprise — "more of a calculus lesson than physics."
 - `wiki/calculus-map.md` (new § Calc I/II Crosswalk)
 - `00-BRAIN/hats/HAT_PHYSICS.md` (instructor + flag-16 note corrections)
 - This log.
+
+## 2026-08-02 — Queue rule added to dated schedule (Fable, delta entry)
+
+- Delta since this evening's crosswalk entry: `math-readiness-path.md`'s
+  Dated Daytime Schedule now carries a Chris-directed queue rule — rows are
+  an ordered queue with default pacing dates, advancement governed by the
+  weekly plan's new Move-On Gate (cold transfer + explain-back = pass;
+  two-block cap; misses routed to Weeks C–D). No stage, gate, or learner
+  truth moved.

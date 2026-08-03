@@ -48,7 +48,8 @@ BOOT_FILES = [
       "PYTHON", "REVENUE_LAB", "SYSTEMS", "TECHNOLOGY")]
 
 EXCLUDED = {"99-ARCHIVE", "raw", ".git", ".obsidian", "Report Archive",
-            "Session_Logs", "88-JOURNAL", ".claude", ".agents"}
+            "Session_Logs", "88-JOURNAL", ".claude", ".agents",
+            "oracleJdk-26"}
 # Lines that legitimately mention retired names (marked pointers/records)
 EXEMPT_MARKERS = re.compile(
     r"retired|superseded|archived|ARCHIVED|scan pattern|AI_Agent\|", re.I)
@@ -295,7 +296,8 @@ def main() -> int:
     # experience (AGENT.md); they keep pre-split wording by design.
     historical = re.compile(r"^(log\.md|\d{4}-\d{2}-\d{2}_.*|.*_\d{4}-\d{2}-\d{2}\.md)$")
     live_md = [p for p in ROOT.rglob("*.md")
-               if not EXCLUDED.intersection(p.relative_to(ROOT).parts)
+               if p.is_file()  # rglob also matches dirs named *.md (JDK legal tree)
+               and not EXCLUDED.intersection(p.relative_to(ROOT).parts)
                and not historical.match(p.name)]
     for p in live_md:
         rel = p.relative_to(ROOT)
