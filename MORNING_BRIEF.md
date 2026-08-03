@@ -6,10 +6,10 @@ tags: [castle]
 generated: 2026-08-02
 ---
 
-# Morning Brief — August 2, 2026 (Sunday review)
+# Morning Brief — August 3, 2026 (Monday launch)
 
-**ATTENTION —** SYSTEM_FLAGS #90 reproduced after `.codex\config.toml` restoration; `03-WIKIS\PYTHON\wiki\current-position.md` also conflicts with the August 1 DAILY on whether Stage 4 is closed.
+**ATTENTION —** The approved week is risk-first: 8 Physics/calculus + 8 Python/CSE + 1 TCOM + 1 ECON; later Python topics are survey exposure, not mastery movement.
 
-**START —** Run `/setup-default-sandbox` interactively to restore reliable Codex execution, then reconcile PYTHON owner truth before writing the provisional weekly plan in `CASTLE\wiki\weekly-plans\`.
+**START —** Close the unfinished Python cold-read: confirm the predicted `53`/`NameError`, then build `average(numbers)` independently.
 
-**CHRIS —** Complete the sandbox reset, then approve the reconciled PYTHON, PHYSICS, and EDUCATION learner-hub positions before the week's plan becomes final.
+**CHRIS —** After that proof closes, run Physics P1: derive the motion chain and 2D component relationships by hand from a sketch.

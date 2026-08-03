@@ -5,57 +5,98 @@ status: active
 tags: []
 ---
 
-# NOW — Saturday, August 1, 2026 (evening close)
+# NOW — Sunday, August 2, 2026 (weekly review day)
 
-*Single-lane cockpit. Pilot installed 2026-07-26; acceptance check August 2.*
+*Single-lane cockpit. Frontier-propagation rule installed 2026-08-02 (closes
+flag #91) — see Frontier Changes below. This file was itself stale for most
+of today (still showing Saturday) — flag #91 reproducing live inside its own
+fix cycle; both a parallel Claude session and this one caught it independently.*
+
+## Frontier Changes
+
+*(clears after being shown once — mandatory on any hub stage/gate close, not just today's active lane)*
+
+- **PYTHON: Stage 4 → Stage 4b (Python libraries).** Closed 2026-07-29; this
+  is the first cockpit surfacing of it. Next: import one standard-library
+  module, call a function through it — nothing read yet.
 
 ## Today
 
-**Off-plan Saturday — weekly plan marked today no-school family time; Chris redirected into work anyway, twice, both recorded per standing rule. Real proof moved, then the evening went to a live system failure instead of the two open school reps.**
+**Three-way system-review day, no learner proof — Codex, a parallel Claude
+Code session, and this session all worked the same review cycle.**
 
-1. **Python — both Stage 4 retest items closed; Test Day quiz finally run.**
-   Fresh cold `discount_amount.py` rep closed the two flagged retest items
-   (return-value framing, rate-vs-amount). Friday's un-run Test Day timed
-   quiz ran late: 2 PASS / 1 partial / 3 MISS — two misses self-diagnosed by
-   Chris as answer-flipping under timed pressure, not a conceptual gap; the
-   third (print-vs-return) was a genuine fresh miss. Scope/local-variable-
-   lifetime is flagged **not yet secure** — needs a real unprompted spaced
-   recheck, not assumed fixed.
-2. **Python cold-read exercise — started, left open.** Scope concept
-   transferred clean and unprompted on a fresh item; one trace error
-   self-corrected to the right total (53). Two closing steps never ran:
-   confirming the predicted `53`/`NameError`, and building `average(numbers)`
-   cold.
-3. **Physics — did not run today.** Neither validation rep (Drill Problem 2,
-   circular-motion drill 1-4) started.
-4. **Codex's elevated Windows sandbox failed outright this evening.**
-   `CreateProcessAsUserW failed: 5 — Access is denied` when Codex tried to
-   open `00-BRAIN\AGENT.md` — a total process-launch failure, not a file
-   permission block (Codex correctly named `88-JOURNAL` as an intentional
-   exclusion it wouldn't touch, unprompted — the boundary logic itself is
-   fine). Same reliability class as flag #79 (closed 2026-07-22) but a more
-   basic failure than that closure's checks ever covered. Logged fresh as
-   **SYSTEM_FLAGS #90, HIGH, open** — needs Chris's interactive
-   `/setup-default-sandbox` rerun (admin elevation; can't be triggered from
-   inside the failing sandbox). Chris is fixing this tonight instead of the
-   evening reading rotation.
-
-Full detail: `00-BRAIN\Session_Logs\DAILY_2026-08-01.md`.
+1. **Weekly review closed and independently checked.** Codex wrote
+   `WEEKLY_JULY27-AUGUST2.md`: 13 of 32 planned weekday blocks (41%, target
+   85%) — real Python Stage 4 closure and Physics evidence, but heavy
+   control-plane displacement. A separate Claude session re-derived the
+   13/32 figure directly from git and the six DAILY files (matches) and
+   added one new data point neither Codex report had: commit rate roughly
+   halved this week (2.4/day vs. July's 5.2/day average) — consistent with,
+   but not proof of, the control-plane diagnosis. Full detail:
+   `weekly_reports\WEEKLY_JULY27-AUGUST2.md`,
+   `weekly_reports\claude_weekly_review_2026-08-02.md`.
+2. **Improvement pilot approved, reconciled, and built.** Chris approved the
+   18-core-block pilot and Wednesday 10/8/7 reforecast after recovering both
+   interrupted planning conversations. The final material allocation is
+   risk-first: **8 Physics/calculus, 8 Python/CSE, 1 TCOM, 1 ECON**. Physics
+   becomes structured daytime work; later Python topics use survey mode and
+   do not advance mastery beyond Stage 4b. Live checklist:
+   `00-BRAIN\CASTLE\wiki\weekly-plans\weekly-plan-2026-08-03-to-2026-08-09.md`.
+3. **Flag #91 (Python progression not surfacing) root-caused and fixed at
+   the mechanism level.** Confirmed as a real gap, not user error —
+   `PYTHON\OPERATIONS.md` already promises Chris never has to ask what's
+   next. Fix now live: frontier propagation is a mandatory session-close
+   acceptance check (`AGENT.md`, `CASTLE\OPERATIONS.md`,
+   `MORNING_LAUNCH_INSTRUCTIONS.md` all updated). Codex's pilot
+   recommendation #3 named the identical design independently, and the
+   parallel Claude session caught this very file (and `MORNING_BRIEF.md`)
+   reproducing the exact bug live — both untouched since Saturday, still
+   showing #90 as open hours after it was retired. That staleness is what
+   this refresh fixes.
+4. **Health gate: was BLOCKER through two prior review sessions, now
+   PASS.** Both Codex and the independent Claude session found and
+   deliberately preserved (not blind-overwrote) the same BLOCKER: an
+   out-of-role `skillOverrides` key in `.claude\settings.local.json`
+   (introduced during an earlier `/doctor` cleanup this session) and
+   `PHYSICS\wiki\physics-math-crash-course.md` with corrupted frontmatter,
+   doubled/quadrupled LaTeX backslashes, and spurious code fences around
+   every math block. This session did the careful read-and-repair pass
+   both prior reports called for: `skillOverrides` removed, the Physics
+   file's escaping fully repaired and verified against sibling files'
+   conventions (LaTeX, wikilinks, subscripts, a Windows path all confirmed
+   correct). `root_health.py` now returns **PASS**.
+5. **Due-checks return complete.** check_at backlog (5 past-due proposals)
+   reconciled — 1 verified KEEP, 4 accepted provisionally per Chris's call.
+   Learner-hub alignment (PYTHON/PHYSICS/EDUCATION) approved as the week's
+   plan. `OPP-20260716-02` advanced on Chris's approval, next step is his
+   (supply a redacted transaction).
+6. **Flag #86 (evening-reading vs. cold-gate) closed — premise corrected.**
+   Chris clarified: priming the *topic* (raw textbook) the night before a
+   cold gate is intended; only the wiki's own stage/drill file would
+   contaminate it. Clarifying lines added to `EVENING_READING_INSTRUCTIONS.md`
+   and `PYTHON\wiki\teaching-loop.md`.
+7. **Flag #69 (duplicate raw file) decided, not executed.** Chris reviewed
+   the content and chose archive; blocked by a sandbox-level write guard on
+   `AI_AUTOMATION_SYSTEMS\raw\` that no tool can pass — needs Chris to run
+   the move himself.
+8. **SYSTEM_FLAGS #90 (Codex sandbox) retired by Chris** as an accepted
+   operating limitation during his own parallel work — not verified fixed,
+   approved escalation remains usable.
 
 ## Today's Gate
 
-**Real school-proof movement: two closed retest items and a completed (if
-rocky) Test Day quiz.** The cold-read's last two steps and both physics reps
-carried over undone — not because of a low-value day, but because the
-evening went to a live Codex sandbox failure that needed Chris directly.
+**No school proof today by design — Sunday is the weekly-review cycle, not
+a proof day (`AGENT.md` Execution Discipline rule 2).** The August 3–9 plan
+is now approved and ready. Monday starts by closing the unfinished Python
+cold-read carryover, then opens the daytime Physics/calculus sweep.
 
 ## Not Today
 
-- Cold-read's confirming run and `average(numbers)` close.
-- Both physics validation reps.
-- Evening reading — explicitly skipped, reason stated above.
-- Codex sandbox flag #90 — open, needs Chris's `/setup-default-sandbox`
-  rerun before Codex is reliable again.
+- No Python/Physics/TCOM/ECON blocks ran — Sunday is review day. Carried
+  into the week: cold-read's confirming run + `average(numbers)` close, both
+  physics validation reps (Drill Problem 2, circular-motion drill 1-4).
+- Flag #69's actual file move — needs Chris, outside the sandbox guard.
+- `OPP-20260716-02`'s redacted-transaction source — needs Chris to supply it.
 
 ## Owners — open these, not another dashboard
 
@@ -63,9 +104,13 @@ evening went to a live Codex sandbox failure that needed Chris directly.
 - Sequence and proof status: `00-BRAIN\CASTLE\wiki\current-position.md`
 - Learner truth: `03-WIKIS\PYTHON\wiki\current-position.md`,
   `03-WIKIS\PHYSICS\wiki\current-position.md`
-- Open system flags: `00-BRAIN\SYSTEM_FLAGS.md` (flag #90 — Codex elevated
-  sandbox, HIGH)
-- This week's checklist: `00-BRAIN\CASTLE\wiki\weekly-plans\`
+- Open system flags: `00-BRAIN\SYSTEM_FLAGS.md` (#57 EDUCATION syllabus gaps
+  MEDIUM, #16 physics anchor LOW, #69 duplicate file LOW — blocked on Chris)
+- This week's checklist:
+  `00-BRAIN\CASTLE\wiki\weekly-plans\weekly-plan-2026-08-03-to-2026-08-09.md`
+- This week's reviews: `00-BRAIN\Session_Logs\weekly_and_monthly_reports\weekly_reports\`
+  (`WEEKLY_JULY27-AUGUST2.md`, `weekly_system_improvement_recommendations_2026-08-02.md`,
+  `claude_weekly_review_2026-08-02.md`)
 - Unresolved: `claude_and_chris_direction.md` (root) — real design input,
   still awaiting synthesis
 
@@ -73,13 +118,13 @@ evening went to a live Codex sandbox failure that needed Chris directly.
 
 - School deadlines and academic integrity stay fixed.
 - No outreach, publishing, pricing, or offers without Chris's explicit approval.
-- Optional `.ROOT` work waits for the day's primary proof (Execution Discipline 1).
-- **Saturday stays protected family time by design.**
+- Optional `.ROOT` work waits for the day's primary proof (Execution
+  Discipline 1) — except Sunday, which is itself the weekly-review exception.
 - Generated material is preparation, not mastery or market proof.
 
 ---
-*Recent movement: Python closed real ground today (two retest items, a
-timed quiz) despite the day nominally being off. The evening's real story is
-Codex's elevated sandbox failing at a more basic level than the July 22 fix
-verified — flag #90 is the thing Sunday's due-checks review needs to see
-first. Cold-read and physics carry over as undone, not abandoned.*
+*Recent movement: the recovered Claude and Codex plans were reconciled into
+one approved 18-block week, with Physics/calculus and Python/CSE receiving 16
+of 18 blocks. Flag #91 is fully integrated: frontier propagation and temporary
+survey mode are both live. Monday's exact first action is the unfinished Python
+cold-read close, followed by the first daytime calculus-to-physics block.*

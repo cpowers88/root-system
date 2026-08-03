@@ -23,6 +23,13 @@ ENGR 1000 is held on that basis.
 
 ## Verdict
 
+**Week B allocation decision, 2026-08-02:** this page still states what is
+workable, not what must be scheduled. CASTLE deliberately allocates only one
+TCOM and one ECON orientation block for August 3–9 so the two genuine A-grade
+risks—Physics/calculus transfer and independent Python/CSE execution—receive
+16 of 18 core blocks. The remaining sourced TCOM/ECON material stays available
+for Weeks C–D; it is deferred, not treated as missed proof.
+
 | Lane | Planned blocks (4 wks) | Fillable | Released | Course weeks reachable now |
 |---|---:|---:|---:|---|
 | TCOM 2010 | 16 | 16 (+4 absorbable) | 0 | Real Weeks 1–3, plus optional resume unit |

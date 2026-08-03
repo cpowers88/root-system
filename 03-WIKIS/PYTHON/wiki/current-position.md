@@ -209,13 +209,17 @@ for this hub and cannot count as learner proof.
 
 ## Current Reading Queue
 
-- **Read now:** nothing new. Drill and Toolbox mini-project are both complete;
-  go straight to [[errors/stage-04-common-errors]] for the last Stage 4 gate
-  item (one debug rep, no help).
-- **Do not read yet:** standard library ([[stages/stage-04b-python-libraries]] —
-  unlocks only after the Stage 4 functions gate closes), collections,
-  searching/sorting, OOP, or Java. Their exact unlock triggers and semester
-  reminders live in [[syllabus-alignment]].
+- **Read now:** [[stages/stage-04b-python-libraries]] — standard-library basics,
+  unlocked because Stage 4 is closed. Import one standard-library module, call
+  one function through it, and wrap one library call in Chris's own function.
+- **Survey alongside it through August 23:** use [[syllabus-alignment]] to see
+  the complete course territory once—decomposition, data shapes,
+  searching/sorting, OOP, exceptions/debugging, and the possible Java bridge.
+  One orientation, one walked or traced example, and one light check are
+  exposure only; they do not advance the mastery frontier.
+- **Do not deep-study yet:** later stage packets remain gated behind Stage 4b
+  and their normal prerequisites. Survey mode does not unlock their drills,
+  mini-projects, or mastery checklists.
 
 ## Stage Structure — realigned to the syllabi 2026-07-25
 
@@ -242,6 +246,19 @@ Sessions run the loop in [[teaching-loop]] — cold attempt before instruction,
 support escalated only as far as the observed error requires, explain-back, fresh
 transfer. Adopted 2026-07-25 on the Stage 3 evidence; **Chris rates the support
 level he needed at the end of each rep**, alongside pace and depth.
+
+### Pre-semester survey mode — August 3 through August 23, 2026
+
+Chris approved a lighter breadth pass so he can see the complete CSE territory
+before classes without pretending to master later stages early. For a topic
+beyond the active Stage 4b frontier, use exactly: **one orientation, one walked
+or traced example, and one light independent explain-back or classification
+check**. Record it as exposure, not a pass. Do not run the later stage's drill,
+mini-project, or closure gate and do not move learner truth from survey work.
+
+Active-frontier work still uses the full teaching loop. Survey mode expires when
+classes begin August 24; the live course module and normal proof gates then
+control progression.
 
 ## Learning Design Requirements
 

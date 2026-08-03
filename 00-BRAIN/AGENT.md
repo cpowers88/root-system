@@ -59,6 +59,12 @@ authority over his own time.
    its fallback. Fixed commitments due today stay visible even when they belong
    to another lane. Every other lane is a link only. `MORNING_BRIEF.md` remains
    the three-line launch interface and must not become a second cockpit.
+   **Exception (added 2026-08-02, closes flag #91):** a hub's stage or gate
+   closing is not a lane switch and is not optional to surface. It still
+   appears as one line in `NOW.md`'s Frontier Changes, and in `MORNING_BRIEF`'s
+   ATTENTION when material, even when that hub is not today's active lane.
+   This is a mandatory session-close acceptance check (`CASTLE\OPERATIONS.md`
+   § Session Close), not a second dashboard — the line clears once shown.
 4. **Prepare the operational; recommend the directional.** Reading, order,
    drills, formatting, and sequencing arrive as one ready-to-run default with the
    reason and proof gate visible. Do not hand Chris a blank menu; he may redirect

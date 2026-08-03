@@ -148,7 +148,15 @@ When meaningful work ends:
 1. Append the concise DAILY record required by `AGENT.md`.
 2. Update `wiki\index.md` and append `wiki\log.md` when CASTLE state changed.
 3. Refresh `NOW.md` only when its date, start action, fixed constraint, approval gate, or active status materially changed.
-4. Record the next exact action.
-5. Write a full handoff only when another session genuinely needs continuity.
+4. **Frontier propagation is a mandatory acceptance check, not a judgment call
+   (added 2026-08-02, closes flag #91).** If any hub's active stage or gate
+   closed this session, the close is incomplete until: the owner
+   `current-position.md` states the new frontier; `NOW.md`'s Frontier Changes
+   line exposes it; and the prior next action is no longer presented as live
+   anywhere Chris would read it. This applies whether or not that hub was
+   today's active lane — rule 3's judgment-based refresh trigger does not
+   override this one specific case.
+5. Record the next exact action.
+6. Write a full handoff only when another session genuinely needs continuity.
 
 Generated plans and polished artifacts are not proof. Close on verified movement, an explicit decision, or an honestly stated blocker.

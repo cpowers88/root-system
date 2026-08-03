@@ -10,7 +10,7 @@ tags: [review, north-star, castle]
 
 ## Direct conclusion
 
-The week produced real learner and system evidence, but the school-load simulation failed its throughput test. About **13 of 32 planned weekday proof blocks (41%)** were completed, against the **27-block / 85%** target. Python Stage 4 closed on independent work and Physics produced useful projectile-motion evidence, but Thursday and Friday were largely consumed by system design, PC cleanup, and reconciliation. The system is structurally sophisticated enough; its next improvement is reducing control work per completed proof.
+The week produced real learner and system evidence, but the school-load simulation failed its throughput test. About **13 of 32 planned weekday school blocks (41%)** were completed, against the **27-block / 85%** target. Those 13 mixed independent proof with assigned reading; they must not all be called mastery evidence. Python Stage 4 closed on independent work and Physics produced useful projectile-motion evidence, but Thursday and Friday were largely consumed by system design, PC cleanup, and reconciliation. The system is structurally sophisticated enough; its next improvement is reducing control work per completed proof.
 
 ## Evidence Boundary
 
@@ -18,7 +18,8 @@ The week produced real learner and system evidence, but the school-load simulati
 - Sessions logged: DAILY files for July 27–31 and August 1; August 2 review recorded in `DAILY_2026-08-02.md`.
 - Fixed commitments: Tuesday therapy preserved; Saturday was planned family time but Chris redirected into bounded Python work.
 - Planned school load: 32 weekday blocks; 27+ was the success threshold.
-- Count basis: Monday 5, Tuesday approximately 4, Wednesday 4, Thursday 0 direct scheduled proof blocks, Friday 0. Saturday work is reported as off-plan proof, not retroactively counted into the weekday simulation.
+- Count basis: Monday 5, Tuesday approximately 4, Wednesday 4, Thursday 0 direct scheduled school blocks, Friday 0. Saturday work is reported as off-plan proof, not retroactively counted into the weekday simulation.
+- Evidence quality: completed reading/orientation blocks count toward schedule throughput but not independent mastery. Cold builds, problems, quizzes, debugging, and explain-backs supply proof.
 - Unknowns: exact minutes spent in every system session and an authoritative completed-block table after Monday. The weekly plan's evidence table was stale, so the count is reconstructed conservatively from final DAILY summaries.
 
 ## Outcome at a Glance
@@ -74,7 +75,7 @@ Starting action: finish one carried-over learner proof before any optional syste
 2. **Technology / business proof:** complete one bounded real-workflow evidence rep—manual before software—and record whether another person could use the result.
 3. **System improvement:** run the seven-day Proof-to-Control pilot in the accompanying recommendations report. Fix only health blockers and HIGH failures during the week.
 
-Capacity boundary: next week's plan must be based on demonstrated throughput, not the theoretical 34-slot container. Start with a smaller committed core plus explicit stretch blocks; do not label stretch as failure when it does not run.
+Capacity boundary: this week's 13 completed weekday blocks are an observed throughput baseline under disruption, **not** a permanent capacity ceiling. Test 18 lane-balanced core blocks plus explicit stretch, with a Wednesday reforecast; do not label unrun stretch as failure or silently shrink the core denominator after work begins.
 
 ## Engine Question and North Star Check
 

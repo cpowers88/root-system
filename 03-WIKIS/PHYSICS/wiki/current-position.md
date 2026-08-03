@@ -79,7 +79,7 @@ the calendar.
 
 Chris paused the syllabus-paced Seven-Day Plan below (and the CASTLE weekly
 plan's remaining Thu/Fri physics blocks) in favor of the dated
-[[math-readiness-path#Dated Evening Schedule, 2026-07-30 through
+[[math-readiness-path#Dated Daytime Schedule, 2026-07-30 through
 2026-08-23|Calculus-Physics Bridge sprint]]. Root cause, surfaced live: the
 real gap is calculus-mechanics recall (derivative/integral rules, boundary
 conditions) and formula-connection, not physics concepts — Chris has already
@@ -101,6 +101,21 @@ used only when a cold check shows a real concept gap, not the default path.
 taught is the standing teaching method — it does not revert to
 syllabus-order-only pedagogy on Aug 24, only the syllabus-pace pause
 reverts.
+
+## Week B Breadth Survey — August 3–8, 2026
+
+Chris approved a daytime, semester-wide calculus-to-physics first pass for the
+August 3–9 CASTLE plan. Eight handwritten blocks cover: kinematics and 2D
+components; circular/tangential/radial acceleration; Newton's second law as a
+differential relationship; work and power; impulse and momentum; rotation and
+angular momentum; oscillations and waves; then a full-map cold classification.
+
+This changes placement and breadth, not learner truth. It replaces the Week B
+evening cold-redo cadence with daytime structured work so Chris sees the whole
+semester map once. Stage 4 remains active; later-stage exposure does not close
+or activate those stages. Weeks C–D use the recorded misses for durability and
+repair. Exact block order and evidence are in
+`00-BRAIN\CASTLE\wiki\weekly-plans\weekly-plan-2026-08-03-to-2026-08-09.md`.
 
 ## Tomorrow, Jul 31 — Live Validation Runs
 

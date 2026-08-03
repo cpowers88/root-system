@@ -9,7 +9,7 @@ generated: 2026-08-02
 
 ## School
 
-**READ —** `03-WIKIS\PHYSICS\wiki\math-readiness-path.md` § Dated Evening Schedule, row 4 (Sun Aug 2), which points to `03-WIKIS\PHYSICS\wiki\calculus-links\kinematics-derivatives.md` (Stage 2).
+**READ —** `03-WIKIS\PHYSICS\wiki\math-readiness-path.md` § Dated Daytime Schedule, row 4 (Sun Aug 2), which points to `03-WIKIS\PHYSICS\wiki\calculus-links\kinematics-derivatives.md` (Stage 2).
 
 **FOCUS —** Night four of the paused-rotation calculus-physics bridge: derivative/integral kinematics durability check, **already passed once, so treat any miss on the x(t)/v(t)/a(t) chain as a real gap, not first exposure**.
 

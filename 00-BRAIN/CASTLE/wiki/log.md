@@ -15,6 +15,32 @@ tags: []
 - **Health:** BLOCKER remains from Claude local `skillOverrides` placement and escaped/malformed Physics crash-course Markdown. Preserved for explicit repair rather than overwritten during review.
 - **Reports:** `00-BRAIN\Session_Logs\weekly_and_monthly_reports\weekly_reports\WEEKLY_JULY27-AUGUST2.md` and `weekly_system_improvement_recommendations_2026-08-02.md`.
 - **Next exact action:** create the August 3–9 plan from demonstrated throughput and begin with one carried-over learner proof.
+- **Higher-model correction:** Separated scheduled-block throughput from independent proof quality; replaced ambiguous control-touch counting with 50-minute block-equivalents; preserved the required boot chain for every fresh session; changed the capacity design from an inferred ceiling to a lane-balanced 18-core-block test plus stretch and a Wednesday 10/8/7 reforecast. The review report and recommendation now carry the corrected design.
+
+## 2026-08-02 — Recovered plans reconciled; August 3–9 pilot activated (Codex)
+
+- **Decision:** Chris approved continuing from the recovered Claude and Codex
+  planning sessions. Reconciled the common 18-block pilot into one risk-first
+  allocation: 8 Physics/calculus, 8 Python/CSE, 1 TCOM, 1 ECON; ENGR remains
+  source-gated and optional business/system work does not displace the core.
+- **Material contract:** Physics runs as structured daytime calculus-to-reality
+  work across the semester map. Python's active mastery frontier stays Stage 4b;
+  later course topics use a temporary one-orientation/one-example/one-light-check
+  survey mode and cannot move learner truth.
+- **Files:** active weekly plan, CASTLE index, prior weekly-plan close,
+  PYTHON/PHYSICS owner state, Physics math-readiness schedule, evening-reading
+  override, Education coverage note, cockpit, report decision addendum, and
+  flag #91 ledger closure.
+- **Next exact action:** Monday C1 — confirm the unfinished cold-read prediction
+  and build `average(numbers)` independently; then Physics P1.
+
+## 2026-08-02 — Independent second-model weekly review (Claude, Operator + Software Engineer + Educator)
+
+- **Outcome:** Re-derived Codex's weekly numbers directly (six DAILY files, `git log`, `root_health.py --verbose`) rather than trusting the reports on their word. The 13/32 (41%) figure and the health-gate BLOCKER (Claude `skillOverrides`, Physics crash-course missing frontmatter) both confirmed exactly as reported and still unrepaired. Filed `claude_weekly_review_2026-08-02.md` in `weekly_reports\` — agrees with the revised 18-core-block pilot, adds tracking sessions/day (commit rate roughly halved this week vs. July's average) and weights the Wednesday reforecast over the raw 18 number as the pilot's real safeguard.
+- **New finding:** `NOW.md` and `MORNING_BRIEF.md` were stale — still describing flag #90 as open and Saturday's state, after #90 was already retired and the WEEKLY review already closed. Same failure class as flag #91, reproducing live inside this review cycle. Both refreshed same session rather than carried into Monday.
+- **Decision:** no disagreement material enough to change the pilot's structure; two amendments recommended, not a competing design.
+- **Reports:** `claude_weekly_review_2026-08-02.md`.
+- **Next exact action:** unchanged — build the August 3–9 plan from the reviewed pilot; health-gate BLOCKER repair remains the top open non-learner item.
 
 ## 2026-08-02 — Sunday due-checks return (Claude Code, Operator hat)
 

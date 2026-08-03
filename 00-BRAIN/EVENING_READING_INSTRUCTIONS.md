@@ -37,16 +37,15 @@ Weekly totals: Python 3, Physics 2, TCOM 1, ECON-or-ENGR 1.
    in one clause. Never assign locked material to satisfy the schedule.
 2. **A real deadline outranks the rotation.** A graded item due the next day takes
    the block regardless of weekday.
-3. **Dated program override, 2026-07-30 through 2026-08-23:** Chris paused the
-   normal course rotation for the School block in favor of a dedicated
-   calculus-physics bridge sprint — every evening in this window reads the
-   dated entry in `03-WIKIS\PHYSICS\wiki\math-readiness-path.md` § Dated
-   Evening Schedule instead of whatever course the table above would assign.
-   Reason: a live session revealed the real gap was calculus mechanics recall
-   (derivative/integral rules, boundary conditions), not physics concepts or
-   the normal syllabus pace, with no fixed deadline forcing that pace right
-   now. Reactivate the normal rotation **2026-08-24** when classes start; this
-   override expires on that date without needing to be re-decided.
+3. **Dated program override, 2026-08-03 through 2026-08-23:** the structured
+   calculus-physics bridge now runs in daytime CASTLE blocks, because Chris
+   wants protected worked reps rather than relying on the evening container.
+   The School line may assign only a **15-minute raw-source primer** for the
+   next day's named bridge topic, or explicitly say no School reading when the
+   next topic is already primed. Never assign the calculus-link rep itself at
+   night and never repeat a bridge block completed that day. Reactivate the
+   normal course rotation **2026-08-24** when classes start; this override
+   expires on that date without needing to be re-decided.
 
 ENGR stays orientation/source-verification only until the real Fall BWD syllabus
 exists; never assign invented Fall content from the Summer reference section.
