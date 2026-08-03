@@ -248,6 +248,8 @@ Every meaningful session appends to `00-BRAIN\Session_Logs\DAILY_YYYY-MM-DD.md`.
 
 Every full handoff states: **current state**, **open question/blocker**, **next exact action**, and **details likely to be forgotten**. DAILY blocks remain concise. Logs record experience; they do not silently create permanent rules.
 
+**Entry discipline (added 2026-08-02, closes the report-bloat gap).** A DAILY entry earns its place by recording a proof closed, a flag opened/root-caused/closed, a governance change, a decision, or a blocker — not by narrating steps already implied by the Files line. When a second or third session touches the same day, its entry states only the delta since the prior entry on that day, not a full restatement of shared context. Once a week's WEEKLY report is filed, that week's DAILY files move to `Session_Logs\Report Archive\` that same day (`ARCHIVED_YYYY-MM-DD_DAILY_YYYY-MM-DD.md`) as a required step in `CASTLE\OPERATIONS.md`'s weekly close — the live Session_Logs folder holds only the current open week plus any day with a genuine post-archive continuation.
+
 ## Review Cadence
 
 Dailies feed weeklies; weeklies feed monthlies; monthlies feed quarterlies. Reviews examine output, evidence, opportunity tests, asset harvest, time saved, revenue/market evidence, and learning-to-application movement. Technical drift means stale indexes, contradictory state, broken references, or AI deviation—not Chris exercising judgment.

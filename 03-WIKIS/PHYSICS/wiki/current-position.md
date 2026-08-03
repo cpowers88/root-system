@@ -117,25 +117,19 @@ or activate those stages. Weeks C–D use the recorded misses for durability and
 repair. Exact block order and evidence are in
 `00-BRAIN\CASTLE\wiki\weekly-plans\weekly-plan-2026-08-03-to-2026-08-09.md`.
 
-## Tomorrow, Jul 31 — Live Validation Runs
+## Historical — Jul 31 Live Validation Runs (never ran, superseded by Week B)
 
-First real test of the three-row pacing table (physics assumed, calculus
-fast-recalled, connection always explained) against real problems, not just
-the design. Two candidates, both already-outstanding backlog rather than
-new material:
+This was planned as the first real test of the three-row pacing table
+against real problems. It never ran — July 31 went to a full PC clean day
+instead (verified against archived DAILY evidence, 2026-08-02). Both
+candidate items are still open and now route into the Week B breadth survey
+below rather than being re-planned separately:
 
 1. **Drill Problem 2** (package dropped from a plane, 80.0 m/s horizontal,
-   490 m altitude) — picks up exactly where this morning's live session
-   left off.
-2. **Circular-motion drill 1-4** — still outstanding from Wednesday, and
-   directly matches [[calculus-links/tangential-radial-acceleration-derivative]],
-   next in the evening sprint sequence anyway.
-
-Watch specifically: does step 4 (the connection explanation) actually need
-full depth every time, or does it get faster on the second problem once the
-pattern's been explained once this session? Record what actually happens in
-`wiki/log.md`, not just whether the answer was right — this is a pacing
-check, not just a proof check.
+   490 m altitude) — folds into **P1** (motion chain and 2D components) as
+   the worked physical system.
+2. **Circular-motion drill 1-4** — folds into **P2** (circular motion),
+   which already names this exact drill as its evidence item.
 
 ## Seven-Day Plan — July 26 through August 1, 2026 (superseded by the pause above)
 

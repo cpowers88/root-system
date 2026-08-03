@@ -153,19 +153,25 @@ for the physics rep itself.
 ### Dated Daytime Schedule, 2026-07-30 through 2026-08-23
 
 Opens with a raw calculus-mechanics refresher (not in the original 9-page
-sprint) because today's live drill showed that's the actual missing piece —
+sprint) because the July 30 live drill showed that's the actual missing piece —
 the power rule itself came back fast, but "why is C = 3 here" did not.
-The July 30–August 2 entries record the opening mechanics work. Week B is the
-eight-block breadth sweep approved August 2. Weeks C–D cold-redo only the rough
-relationships exposed by that sweep; the final day is light review.
+**Only July 30 actually ran** (verified against archived DAILY evidence
+2026-08-02): July 31 went to a full PC clean, August 1 went to Python Test
+Day recovery with neither physics rep started, and August 2 had no learner
+physics proof. Rows 2–4 below are planned-but-missed, not completed — Monday
+P1 opens with a 10–15 minute repair of integration constants and boundary
+conditions (the specific gap July 30 surfaced) before deriving the 1D motion
+chain and extending it into x/y components. Week B is the eight-block breadth
+sweep approved August 2. Weeks C–D cold-redo only the rough relationships
+exposed by that sweep; the final day is light review.
 
 | # | Date | Focus |
 |---|---|---|
-| 1 | Thu Jul 30 | Derivative mechanics refresher — power rule, position→velocity→acceleration chain, x/y independence (today's live session) |
-| 2 | Fri Jul 31 | Integral mechanics refresher — power rule reversed, the constant of integration, boundary/initial conditions (today's session, part 2) |
-| 3 | Sat Aug 1 | Cold rebuild: derive all three 1D kinematics equations from a = const, no formula sheet. Flag v² = v₀² + 2aΔx explicitly — it's algebraic elimination of t between the other two, not a third integration |
-| 4 | Sun Aug 2 | [[calculus-links/kinematics-derivatives]] (Stage 2) |
-| 5 | Mon Aug 3 | P1 — motion chain plus [[calculus-links/2d-kinematics-components]] |
+| 1 | Thu Jul 30 | Derivative mechanics refresher — power rule, position→velocity→acceleration chain, x/y independence (ran) |
+| 2 | Fri Jul 31 | Integral mechanics refresher — power rule reversed, the constant of integration, boundary/initial conditions (**planned, did not run** — full PC clean day) |
+| 3 | Sat Aug 1 | Cold rebuild: derive all three 1D kinematics equations from a = const, no formula sheet. Flag v² = v₀² + 2aΔx explicitly — it's algebraic elimination of t between the other two, not a third integration (**planned, did not run**) |
+| 4 | Sun Aug 2 | [[calculus-links/kinematics-derivatives]] (Stage 2) (**planned, did not run**) |
+| 5 | Mon Aug 3 | 10–15 min integration-constant/boundary-condition repair, then P1 — motion chain plus [[calculus-links/2d-kinematics-components]] |
 | 6 | Tue Aug 4 | P2 — [[calculus-links/tangential-radial-acceleration-derivative]] plus the open circular-motion rep |
 | 7 | Tue Aug 4 | P3 — Newton's second law as the relationship connecting net force to changing motion/momentum |
 | 8 | Wed Aug 5 | P4 — [[calculus-links/stage-7-work-integral]] plus [[calculus-links/power-derivative]] |

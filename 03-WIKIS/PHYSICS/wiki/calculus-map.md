@@ -62,6 +62,47 @@ Stage 17 (Ch 17) -> none new (superposition is algebraic combination of wave fun
 Stage 18 (Ch 38) -> none new (Lorentz algebra, but gives up Galilean intuition)
 ```
 
+## Calc I/II Crosswalk — What You Already Own vs. What Is Genuinely New
+
+Added 2026-08-02, Chris-directed. Purpose: Chris has passed Calc I and II;
+the July 30 live drill showed the semester risk is *recall of mechanics*,
+not new mathematics. This table maps every calculus tool the active Fall
+path (Ch 1–13, 15–17) actually uses back to where it was already learned,
+so nothing in the semester arrives as a surprise. Use it alongside the
+roadmap above during the Week B breadth sweep (P1–P8) and whenever a rep
+stalls — first question: *which already-learned tool is this?*
+
+### Tools you already passed in Calc I/II
+
+| Calculus tool | Where you learned it | Where PHYS 2211 uses it | Recall risk |
+|---|---|---|---|
+| Derivative as slope / rate of change | Calc I | Every stage from 2 on — `v = dx/dt`, `a = dv/dt`, `P = dE/dt`, `τ = dL/dt` | Low — came back fast July 30 |
+| Power rule (derivative) | Calc I | Stages 2, 4, 8, 10, 15 — differentiating polynomial `x(t)`, `θ(t)` | Low — verified July 30 |
+| Second derivative | Calc I | Stage 2 (`a = d²x/dt²`), Stage 15 (`d²x/dt² = −ω²x`) | Low |
+| Chain rule | Calc I | Stage 15/16 — `d/dt sin(ωt + φ)` pulls out ω; verifying the SHM solution | Medium — drill before Stage 15 |
+| Trig derivatives (sin ↔ cos) | Calc I | Stages 15–17 — oscillation and wave functions | Medium |
+| Antiderivative + constant of integration + initial conditions | Calc I | Stages 2, 4, 9, 10 — recovering `v(t)`, `x(t)` from `a`; the source of `v₀`, `x₀` | **High — the confirmed July 30 gap; repaired first, Monday P1** |
+| Definite integral as area | Calc I | Stage 7 (`W = ∫F dx`), Stage 9 (`J = ∫F dt`), Stage 10 (`W = ∫τ dθ`) | Medium — meaning, not technique |
+| Fundamental theorem (derivative undoes integral) | Calc I | Stage 2 both directions of the motion chain | Low once the chain is rebuilt |
+| Small-parameter / binomial approximation | Calc II (series) | Stage 18 only — parked off the active Fall path | None this semester unless 18 activates |
+
+### Genuinely new — not in Calc I/II, learned inside the course
+
+| New item | Where it appears | What it actually demands |
+|---|---|---|
+| Dot product | Stage 7 (`W = F·d cos θ`) | Multiplication plus one cosine — algebra, not calculus |
+| Cross product + right-hand rule | Stages 10–11 (torque, angular momentum) | A physical hand anchor (open flag #16), then component bookkeeping |
+| Mass-distribution integral setup (`I = ∫r² dm`) | Stage 10 | The *setup* (what is `dm`?) is new; the integration itself is the power rule |
+| Reading a differential equation | Stage 15 (`d²x/dt² = −ω²x`) | Recognize the form and verify the sinusoidal solution by substitution — chain rule does all the work; no solving techniques required |
+| Partial-derivative notation (∂) | Stage 16 wave equation | Read-only structure recognition; never solved |
+
+### Calc II machinery the course never asks for
+
+Integration by parts, trig substitution, partial fractions, improper
+integrals, sequence/series convergence tests, and polar coordinates do
+**not** appear anywhere on the active Fall path. If a problem seems to
+need one of these, the setup is wrong — go back to the physical situation.
+
 ## Later Stages
 
 Full calculus-link pages for each stage are generated when that stage packet is built, per the one-stage-at-a-time rule in [[../OPERATIONS.md]]. The roadmap above is the preview — each row becomes a detailed page in `wiki/calculus-links/` as Chris reaches it.

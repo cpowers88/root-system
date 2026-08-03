@@ -121,6 +121,14 @@ Sunday step produces one short list before any planning is written:
 3. **Instruction-protocol confirmation:** that the live boot chain and
    `AGENT.md § Execution Discipline` are what all three parties are operating
    under, re-verified after any Codex reboot following an instruction change.
+4. **DAILY rotation (added 2026-08-02, closes the report-bloat gap):** once
+   this week's WEEKLY report is filed, `git mv` that week's `DAILY_YYYY-MM-DD.md`
+   files into `Session_Logs\Report Archive\` as `ARCHIVED_YYYY-MM-DD_DAILY_YYYY-MM-DD.md`,
+   fix any wikilinks that pointed at the old path, and confirm no day is left
+   uncovered by a filed WEEKLY report. A day with real post-archive work keeps
+   a short live continuation file rather than being reopened (see
+   `DAILY_2026-07-16.md`'s pattern). Skip a week only by naming the gap in the
+   plan, not by silence.
 
 Items 2 and 3 are approval gates, not status lines. If Chris has not approved
 them, the week's plan is provisional and says so.

@@ -29,9 +29,12 @@ every learning session.
 
 Schedule: MWF 9:10–10:05am | Breakout: Friday 11:30am–12:25pm
 Platform: WebAssign | Text: Serway & Jewett, 10th Edition
-Instructor: **Dr. Behera** per the ingested Fall 2026 syllabus
-(PHYSICS wiki current-position, July 9 intake) — confirm on D2L
-August 24. (Older notes said "Dr. Magar"/TBD; the syllabus supersedes.)
+Instructor: **Farhan Islam** (provisional) — confirmed for Section 54
+by two independent sources 2026-07-29: the online listing and Chris's
+Outlook registration confirmation (`02-LIBRARY\00-school\fall_KSU_schedule.md`,
+CRN 83722). Section 54 syllabus content (grading, exams, policy) is still
+unposted — flag #57; neighbor Sections 51/55 are pacing references only.
+(Older notes said "Dr. Behera"/"Dr. Magar"; the two-source match supersedes.)
 First exam expected ~Week 4 — conceptual fluency beats formula hunting.
 
 Scope: calculus-based mechanics — measurement/units, vectors, 1D/2D
@@ -48,10 +51,12 @@ torque, equilibrium, gravitation, oscillations if included.
    integral = accumulation — physical meaning → graph → calculus →
    equation, in that order.
 4. **Open flag 16 (SYSTEM_FLAGS.md):** anchor the right-hand rule
-   physically the first time cross products appear — Chris is in
-   Serway Ch 3 (Vectors), so it's next door. Curl fingers in rotation
+   physically the first session that touches vector products —
+   cross products first appear with rotation/torque (Stages 10–11;
+   Week B block P6 previews them). Curl fingers in rotation
    direction; thumb is the vector. Covers cross product, torque,
-   angular velocity, future magnetic fields.
+   angular velocity, future magnetic fields. (Live position always
+   comes from `wiki/current-position.md`, not this hat.)
 
 ## WebAssign Strategy
 

@@ -82,6 +82,13 @@ Code session, and this session all worked the same review cycle.**
 8. **SYSTEM_FLAGS #90 (Codex sandbox) retired by Chris** as an accepted
    operating limitation during his own parallel work — not verified fixed,
    approved escalation remains usable.
+9. **Evening close (Fable): semester preview confirmed final.** New
+   § Calc I/II Crosswalk in `PHYSICS\wiki\calculus-map.md` (whole-semester
+   calculus mapped to what Chris already passed; use during P1–P8);
+   HAT_PHYSICS instructor corrected to Farhan Islam (provisional, flag #57).
+   Chris ruled the Aug 3–23 path stands as-is — the earlier "for Fable's
+   review" plan-refinement handoff is closed by direction; revisit only
+   from the Aug 9 miss record. Health gate PASS.
 
 ## Today's Gate
 

@@ -81,6 +81,10 @@ private practice on fresh scenarios. Nothing here drafts coursework.
 
 ### Week B (Aug 3–9) — finish Week 1, open Week 2
 
+**Only block 1 is actually scheduled this week** (CASTLE's T1, one block
+per the Verdict above) — blocks 2–4 stay sourced and ready but roll to
+Weeks C–D, not treated as missed.
+
 | Block | Focus | Source |
 |---|---|---|
 | 1 | Business-email craft, before/after | `Linked-Resources\2-1_Bad-Business-Letter.pdf` → `2-1_Better-Business-Letter.pdf`; name every change and why |

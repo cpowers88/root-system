@@ -6,6 +6,14 @@ tags: []
 
 # Castle Log — Append Only
 
+## 2026-08-02 — Report-bloat cleanup and vault organization (Claude, Operator)
+
+- **Outcome:** Formalized the report-fill rule (`AGENT.md` § Report Chain, `CASTLE\OPERATIONS.md` § Reviews and Routing item 4) so DAILY entries stay delta-only per session and each week's DAILY files roll into `Session_Logs\Report Archive\` once that week's WEEKLY report is filed — the July 16 one-off precedent is now standing.
+- **Executed now:** archived 16 already-reviewed DAILY files (07-09–15, 17–19, 27–31, 08-01) via `git mv`; fixed the two `opportunity-queue.md` wikilinks that pointed at their old path; live Session_Logs dropped from 24 files to 8. Normalized 5 undated `99-ARCHIVE` stragglers to `ARCHIVED_YYYY-MM-DD_` naming.
+- **Confirmed not gaps:** the "no `04-*`" numbering and `...projectSuccess` triple-dot folder flagged in an earlier review are both intentional per `WHERE_IT_GOES.md` — no fix needed. `88-JOURNAL` is out of tool reach by design (AIs do not read it); left untouched.
+- **Open, flagged not fixed:** DAILY_2026-07-20 through 07-26 have no filed WEEKLY report covering them — real gap, left live rather than archived. Two loose root files (`needs_for_physics.md`, `claude_and_chris_direction.md`) look misplaced but are both marked active/in-progress — asked Chris before moving.
+- **Verification:** `root_health.py --verbose` returned PASS after all moves/edits.
+
 ## 2026-08-02 — Weekly review and 10–20% improvement recommendation (Codex)
 
 - **Outcome:** Reconciled July 27–August 2 from the active weekly plan, six DAILY logs, learner-owner state, system reports, flags, inbox, Git state, and the canonical health gate.

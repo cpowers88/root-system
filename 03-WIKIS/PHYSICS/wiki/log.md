@@ -1407,3 +1407,51 @@ Printed chapter cells that contradict their topic labels do not control.
 - `wiki/source-map.md` (new § Local Calculus Library)
 - `wiki/math-readiness-path.md` (new § Pre-Semester Calculus Transfer Sprint)
 - This log.
+
+## 2026-08-02 — Calc I/II Crosswalk added to calculus-map (Chris-directed)
+
+### Session goal
+Chris asked for a semester-preview view: every piece of calculus the Fall
+path will use, tied back to what he already learned in Calc I/II, so no
+material arrives as a surprise — "more of a calculus lesson than physics."
+
+### Evidence
+- `calculus-map.md` gains a new § Calc I/II Crosswalk between the roadmap
+  and § Later Stages: (a) nine already-owned Calc I/II tools with their
+  stage locations and a recall-risk rating grounded in the July 30 live
+  drill (integration constants/boundary conditions marked High, the
+  confirmed gap); (b) five genuinely-new items (dot product, cross
+  product/right-hand rule, `dm` setup, reading a differential equation,
+  ∂ notation) with what each actually demands; (c) an explicit list of
+  Calc II machinery the course never uses (parts, trig sub, partial
+  fractions, series tests, polar).
+- `00-BRAIN\hats\HAT_PHYSICS.md` corrected: instructor line now names
+  Farhan Islam (provisional, two-source match 2026-07-29, flag #57 still
+  open on syllabus content) instead of the stale "Dr. Behera"; the flag
+  #16 note no longer carries embedded learner position.
+
+### Capability/status movement
+- None. Reference/map content and a hat correction; no stage or gate moved.
+
+### Errors, uncertainty, or residual risk
+- Crosswalk stage locations were derived from this map's own roadmap
+  (screened 2026-07-15), not re-verified against the textbook this
+  session. Recall-risk ratings are calibrated from one live drill
+  (July 30); Week B's P8 miss record will confirm or correct them.
+
+### Exact next independent rep
+- Unchanged — Monday P1 per the approved Aug 3–9 weekly plan:
+  integration-constant repair, then the motion chain and 2D components.
+  Use the crosswalk as the "which tool is this?" reference during P1–P8.
+
+### Reusable-asset candidate
+- Yes — the crosswalk serves every remaining stage and both C–D
+  durability weeks.
+
+### System-learning candidate
+- No.
+
+### Sources and files touched
+- `wiki/calculus-map.md` (new § Calc I/II Crosswalk)
+- `00-BRAIN/hats/HAT_PHYSICS.md` (instructor + flag-16 note corrections)
+- This log.
