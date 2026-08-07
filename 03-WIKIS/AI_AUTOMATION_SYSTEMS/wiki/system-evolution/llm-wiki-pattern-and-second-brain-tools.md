@@ -164,6 +164,39 @@ current primary research shows a tradeoff, not a universal replacement:
 Archived search-result pages and promotional duplicates remain provenance for
 these leads. They do not count as independent confirmation.
 
+## 2026-08-07 Addendum: Four Details a Closer Re-Read Surfaced
+
+Re-read `Obsidian AI Second Brain Open-Source.md` and `Second brain obsidian.md`
+in full again this session (prompted by the parallel `bojieli/ai-agent-book`
+deep dive) to check for anything the July 9/14 pass compressed past. The
+hot-cache and scheduled/self-rewriting-agent verdicts above stand unchanged —
+not re-litigated. Four details genuinely weren't captured in the summary
+above:
+
+- **`/obsidian-challenge`** — before a decision, the tool searches the vault's
+  own history for past failures or reversed decisions on the same topic and
+  pushes back using the user's own prior words as evidence ("Your own notes
+  say this failed. Still want to proceed?"). `.ROOT` has this as a stated
+  behavioral instruction (`CHRIS_CORE.md` "Challenge Without Taking the
+  Wheel"), not a mechanism that automatically searches session/DAILY history
+  before a similar decision repeats. Worth naming as a real capability gap,
+  not urgent.
+- **Sentinel-marker pattern** (`<!-- @generated -->` / `<!-- @user -->`
+  blocks) — lets an automated regeneration pass touch only its own marked
+  region of a file, never a human-edited region, in the same document. A
+  concrete technique for the general "don't clobber what a human added"
+  problem `AGENT.md`'s file-safety rules already care about, if that need
+  ever gets specific enough to want it.
+- **`CRITICAL_FACTS.md`** — a tier even smaller than `CHRIS_CORE.md`, ~120
+  tokens, always loaded first. Not adopted or rejected here — just noted as
+  a granularity `.ROOT`'s current two-tier `CHRIS_CORE.md`/`CHRIS.md` split
+  doesn't have a rung below.
+- **Dual-track research** — deliberately running the same question through
+  an open-web-only pass and a vault-grounded-only pass, then treating
+  *disagreement between the two* as the actual signal worth investigating,
+  not a nuisance to resolve. A genuinely different technique from anything
+  `...projectSuccess\` (the Watchtower) currently does.
+
 Related: [[root-maturity-self-assessment]], [[2025-ai-agent-index]],
 [[work-trend-index-2024-2026]],
 [[self-improving-agent-architectures-gbrain-loopany-closed-loop]].

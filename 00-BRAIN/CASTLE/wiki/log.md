@@ -6,6 +6,41 @@ tags: []
 
 # Castle Log — Append Only
 
+## 2026-08-06 — Capacity decision closed from live-calendar audit; Week C/D runway built (Claude Code)
+
+- **Outcome:** Post power-loss recovery session. Closed the remaining five
+  interview inputs on `fall_2026_capacity_decision.md` (no recurring
+  therapy/recovery commitment; no undisclosed household duties; Annie+Ben
+  confirmed free, no "Heather+Ben" block exists; HP Victus campus laptop
+  needs a full wipe, admin password may be unrecoverable). Chris then supplied
+  the live Fall `.ics` export directly; audited every event for the week of
+  Aug 23–29 instead of estimating: ~52 hr/week already scheduled (13.0 class +
+  29.25 study + 9.7 travel), landing inside the B-floor range and near the
+  all-A floor. Wrote the Reconciled Recommendation and Chris's Decision
+  sections; Chris approved adopting the live calendar as the standing Fall
+  schedule, noted a 5–15 hr/week comfort gap, and named a possible 4–6 hr
+  Thu/Fri-afternoon capacity add still needing confirmation.
+- **Corrections made:** the Mon/Wed/Fri/Sat 8–10 p.m. block is Ben's bedtime
+  (active childcare), not protected "Family Time" as the doc previously
+  assumed; Sunday is internally double-booked across four overlapping events.
+- **Built:** `weekly-plan-2026-08-10-to-2026-08-16.md` (Week C) and
+  `weekly-plan-2026-08-17-to-2026-08-23.md` (Week D) — resume the interrupted
+  Week B queue from C1/P1, push Physics P2–P8 and real Python Stage 4b
+  mastery, Aug 15/19 cold-retrieval sweeps, Aug 22 dress rehearsal before
+  Aug 24 classes. `NOW.md` Critical Path updated to reflect both closures.
+- **Conflict discovered at close, not reconciled:** a same-day (Aug 7) Codex
+  audit in `DAILY_2026-08-07.md` reached the opposite conclusion — **HOLD**
+  on the full 13-credit load, recommending a reduced load instead, citing the
+  41%-block-completion history against the required outside-class hours and
+  named brittle syllabus failure points. This session's "adopt the full
+  calendar" recommendation and Codex's "reduce the load" recommendation are
+  both live in `fall_2026_capacity_decision.md` and have **not** been
+  reconciled into one answer per `AGENT.md`'s "Chris receives one reconciled
+  answer" rule. Flagged, not resolved, in this close.
+- **Health:** `root_health.py` returns the same pre-existing BLOCKER (missing
+  explicit per-wiki raw-path denies in `.claude\settings.json`) — unchanged by
+  this session, still needs Chris's governance sign-off.
+
 ## 2026-08-02 — Report-bloat cleanup and vault organization (Claude, Operator)
 
 - **Outcome:** Formalized the report-fill rule (`AGENT.md` § Report Chain, `CASTLE\OPERATIONS.md` § Reviews and Routing item 4) so DAILY entries stay delta-only per session and each week's DAILY files roll into `Session_Logs\Report Archive\` once that week's WEEKLY report is filed — the July 16 one-off precedent is now standing.
@@ -1639,3 +1674,24 @@ remain open, not urgent tonight.
 - Files: `weekly-plans\weekly-plan-2026-08-03-to-2026-08-09.md`,
   `PHYSICS\wiki\math-readiness-path.md` (queue rule note),
   `EDUCATION\wiki\pre-semester-coverage-plan.md`, this log.
+
+## 2026-08-07 — Fall load vs. self-directed AI/value path profit gate (Codex)
+
+- **Idea tested:** replace or defer the full Fall school path in favor of
+  building `.ROOT` through `AI_engineering.pdf` and selected open online
+  courses, aimed at producing scalable technology value.
+- **Gate:** no-orphan **PASS** (active Python, AI integration, workflow, and
+  strategy gaps); source **UNKNOWN/PARTIAL** (strong learning sources, no
+  Chris-specific income proof); phase **PASS** (current capability phase);
+  displacement **FAIL at full replacement scale** (it displaces the accredited
+  degree and its labor-market option value); proof **PASS if narrowed** (one
+  real workflow owner, deployed intervention, and measured result).
+- **Verdict:** **HOLD** as a school replacement. Do not create a parallel book
+  wiki: AI_AUTOMATION_SYSTEMS already owns and partially compiles the source.
+  Unlock only when one reachable workflow owner supplies a real problem, the
+  bounded build produces a measured useful outcome, and demand/payment evidence
+  supports repeating it.
+- **Current recommendation:** reduce the 13-credit semester rather than abandon
+  the degree; confirm scholarship, aid, and prerequisite consequences before
+  changing registration. The self-directed path remains a small proof lane, not
+  a second full-time curriculum.

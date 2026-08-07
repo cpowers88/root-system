@@ -2,23 +2,23 @@
 type: dashboard
 timeline: now
 tags: [learning, school, technology]
-generated: 2026-08-03
+generated: 2026-08-06
 ---
 
-# Evening Reading — August 3, 2026
+# Evening Reading — August 6, 2026
 
 ## School
 
-**READ —** Serway & Jewett Ch. 4 §4.4, "Analysis Model: Particle in Uniform Circular Motion," `raw/textbook/Physics book-0001-0100.pdf` pp. 81-83.
+**READ —** Serway & Jewett Ch. 4 “Motion in Two Dimensions,” §§4.1–4.2, `03-WIKIS\PHYSICS\raw\textbook\Physics book-0001-0100.pdf`, textbook pp. 68–74.
 
-**FOCUS —** 15-minute raw-source primer for tomorrow's P2 circular-motion block under the dated bridge override; **read only the textbook exposition, never the wiki's own circular-motion drill, to protect tomorrow's cold entry.**
+**FOCUS —** primes the still-open P1 motion-chain and 2D-components block; **notice that horizontal and vertical motion share time but use separate position, velocity, and acceleration components.**
 
-**STOP —** after §4.4's worked example, before §4.5 tangential/radial acceleration; hard cap 15 minutes.
+**STOP —** after the §4.2 setup and component explanation, before working assigned examples or opening any wiki drill; hard cap 15 minutes.
 
 ## Technology
 
-**READ —** `03-WIKIS\TECHNOLOGY\wiki\devops\web-application-security-basics.md`, § Cross-Site Request Forgery (CSRF) (fullStackPython.pdf, pp. 334-339).
+**READ —** `fullStackPython.pdf` (Matthew Makai), "Web Application Security" section, continuing past the four flaw categories into the mitigation-verification guidance, pp. ~336–339.
 
-**FOCUS —** continues last night's SQL Injection read of the same MCP Bootcamp security page; **CSRF tokens are the audit-usable rule for any state-changing Flask form**, the checklist item to apply once a client Flask tool starts.
+**FOCUS —** covers checklist steps 2–5 (framework built-in mitigations, verifying your own code wires them up, thinking like an attacker, treating security as ongoing); **relevant as pre-build hygiene for any future Flask client tool.**
 
-**STOP —** after the CSRF audit-usable rule, before "Connects to"; cap at 15 minutes.
+**STOP —** after the "treat security as ongoing" step, before the next unrelated chapter; cap at 15 minutes.

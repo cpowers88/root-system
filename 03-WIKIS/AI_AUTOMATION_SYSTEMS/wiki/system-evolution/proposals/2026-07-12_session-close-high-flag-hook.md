@@ -1,12 +1,15 @@
 ---
 type: proposal
 tags: [ai-automation, proposal, governance, workflow]
-timeline: parked
+timeline: now
 ---
 
 # Proposal: Make the HIGH-Flag-Before-Close Rule a Hook, Not Just Prose
 
-**Status: PENDING CHRIS / CASTLE REVIEW**
+**Status: APPROVED FOR DESIGN — 2026-08-07.** Chris approved moving forward;
+routed to Codex via `SYSTEM_FLAGS.md` #93 to design the actual hook
+mechanics (trigger event, block vs. warn) per this proposal's own Risk/Blast
+Radius note. Not yet implemented.
 
 ## Friction / Drift Observed
 

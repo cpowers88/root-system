@@ -20,6 +20,10 @@ accounting lives in [[raw-source-coverage]].
 - [[agents/agentic-automation-architecture-reliability-and-economic-evidence]]
 - [[agents/agent-vetting-worked-examples]]
 - [[agents/self-improving-agent-architectures-gbrain-loopany-closed-loop]]
+- [[agents/ai-agent-book-ch2-context-engineering]]
+- [[agents/ai-agent-book-ch10-multi-agent-collaboration]]
+- [[agents/ai-agent-book-ch3-ch8-memory-and-evolution]]
+- [[agents/ai-engineering-huyen-ch6-rag-and-agents]]
 - [[agents/shift-to-agentic-ai-codex]]
 
 ## Alignment, safety, evaluation, and oversight
