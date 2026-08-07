@@ -136,11 +136,16 @@ example, halving time or doubling verified outputs—not as a general property.
 ## Five interview decisions required before prototyping
 
 1. What are the three recurring activities where `.ROOT` currently costs Chris
-   the most time or creates the most uncertainty? **Getting the day started, progressing the education bot, being prepared for the material we review when learning.**
-2. What observable behavior proves that Chris has *understood* a concept?  **This is subjective and will need to be evaluated often, what is being used?**
-3. Which first SMB workflow should be the end-to-end value-loop pilot?  I almost think we should not focus so much on which workflow just let the research take us there, so I guess WORKFLOW of business in general is a great place to start along with supply chain could be another good place, we need to build the foundation up from the roots and learn what is the most valuable thing for us to learn, then we do that. School semester is going to be our focus, but while we are focused on this we can gather technology and business material we are going to need to make top decisions when they come up.
-4. Which outputs may be public, internal, private, or client-confidential?   For now the system is going to be private github repository, and live on my desktop mainly but laptop and IPAD(minimal) access will be needed, we can use google drive for this or set up a home network, I leave this choice up to you.
-5. Which one baseline metric should be doubled or halved first?  I am not sure I do know I did not treat the vault correctly to start and the usability from a human perspective has suffered, I tried to fix the machine end previously hoping that would help slightly but I honestly didn't tell yall about the problems clearly I guess
+   the most time or creates the most uncertainty?
+   **Getting the day started, progressing the education bot, being prepared for the material we review when learning.**
+2. What observable behavior proves that Chris has *understood* a concept?
+3.   **This is subjective and will need to be evaluated often, what is being used?**
+4. Which first SMB workflow should be the end-to-end value-loop pilot?
+    I almost think we should not focus so much on which workflow just let the research take us there, so I guess WORKFLOW of business in general is a great place to start along with supply chain could be another good place, we need to build the foundation up from the roots and learn what is the most valuable thing for us to learn, then we do that. School semester is going to be our focus, but while we are focused on this we can gather technology and business material we are going to need to make top decisions when they come up.
+5. Which outputs may be public, internal, private, or client-confidential?
+    For now the system is going to be private github repository, and live on my desktop mainly but laptop and IPAD(minimal) access will be needed, we can use google drive for this or set up a home network, I leave this choice up to you.
+6. Which one baseline metric should be doubled or halved first?
+    I am not sure I do know I did not treat the vault correctly to start and the usability from a human perspective has suffered, I tried to fix the machine end previously hoping that would help slightly but I honestly didn't tell yall about the problems clearly I guess
 
 ## Next exact action
 
