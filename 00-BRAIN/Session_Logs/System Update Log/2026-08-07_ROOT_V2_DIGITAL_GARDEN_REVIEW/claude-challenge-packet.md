@@ -28,16 +28,22 @@ restructure or implement anything in this pass.
 ## Challenge questions
 
 1. Which proposed delta is unsupported, redundant with current `.ROOT`, or
-   likely to add more maintenance than value? I think our current structure is off base completely, I think I hastily added wiki folders that, well honestly I never set, we didn't start with a format for everything, I do believe some type of evolving format not only for the folder system itself, but for the files, and functions.
+   likely to add more maintenance than value?
+    I think our current structure is off base completely, I think I hastily added wiki folders that, well honestly I never set, we didn't start with a format for everything, I do believe some type of evolving format not only for the folder system itself, but for the files, and functions.
 2. What important architecture pattern or failure mode did the six-case sample
-   miss?  We often miss steps I think are easy steps, telling me what material needs to be read and up to date to be able to fully participate in stages before arriving, I usually arrive to a stage with zero knowledge on the topic unless I have worked it in a previous class or in general.
+   miss?
+    We often miss steps I think are easy steps, telling me what material needs to be read and up to date to be able to fully participate in stages before arriving, I usually arrive to a stage with zero knowledge on the topic unless I have worked it in a previous class or in general.
 3. Does “canonical Markdown plus compiled runtime” create a hidden second
-   system? State the controls needed to prevent that. Markdown mixed with Python and other coding languages seems to be the most simple way to keep track of things so far in my experience, I am open to reviewing other options.
+   system?
+   State the controls needed to prevent that. Markdown mixed with Python and other coding languages seems to be the most simple way to keep track of things so far in my experience, I am open to reviewing other options.
 4. Can the proposed maturity lifecycle be applied consistently to school,
-   technical learning, and SMB workflow optimization? Identify counterexamples.  I do need to work on what maturity looks like but the ability to see where the material we are learning fits into the known and unknown material we have or may obtain later in our journey. We always want to be turning information into value if that is updates or optimizations to the system we do that, if it is research a new topic or business workflow or how to operate we do that, EDUCATION, OPTIMIZATION, making CONNECTIONS across material, WRITING AND RESEARCHING **FACTS** for our likely 'wiki' type system, etc. things along this nature is what we will be responsible for.
-5. Are the candidate success gates measurable with the current vault? I would think it is possible this is where AI comes in to interpret the small data sets we have collected, one more thing of note the 9-5 limit on some of those tests was a little crazy as I did do work after 5 but it was marked as not done, that messed with a lot of the system that week and was frustrating.
+   technical learning, and SMB workflow optimization? Identify counterexamples.
+    I do need to work on what maturity looks like but the ability to see where the material we are learning fits into the known and unknown material we have or may obtain later in our journey. We always want to be turning information into value if that is updates or optimizations to the system we do that, if it is research a new topic or business workflow or how to operate we do that, EDUCATION, OPTIMIZATION, making CONNECTIONS across material, WRITING AND RESEARCHING **FACTS** for our likely 'wiki' type system, etc. things along this nature is what we will be responsible for.
+5. Are the candidate success gates measurable with the current vault?
+    I would think it is possible this is where AI comes in to interpret the small data sets we have collected, one more thing of note the 9-5 limit on some of those tests was a little crazy as I did do work after 5 but it was marked as not done, that messed with a lot of the system that week and was frustrating.
    any vanity or gameable metric. not sure you should review with information we have in .ROOT
-6. What is the smallest read-only pilot capable of falsifying the V2 thesis? not sure what you mean here
+6. What is the smallest read-only pilot capable of falsifying the V2 thesis?
+   not sure what you mean here
 7. What existing governance or health blocker must be cleared before that pilot?
    We need to come up with an actual stable NORTH STAR that keeps us on track but also pointed towards my dream. I think that is the first step, then we need to define facts, which I can saw that if I put it in a raw folder we treat it as fact in the vault until further notice
 

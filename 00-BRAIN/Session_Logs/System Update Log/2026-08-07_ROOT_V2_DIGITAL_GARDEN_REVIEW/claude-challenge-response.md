@@ -139,16 +139,20 @@ the falsifiable pilot above is run, not after.
 
 1. Do you want "raw folder placement = fact" adopted as literal policy
    (Objection 2), or was that shorthand for wanting a faster path to trusted
-   status? These are different fixes. option 2. raw folder = read only, write/edit not available, but we also moved them here after inbox review.
+   status? These are different fixes.
+   option 2. raw folder = read only, write/edit not available, but we also moved them here after inbox review.
 2. Which hub is the bounded pilot domain — PYTHON or PHYSICS
-   (smallest-pilot section above)? I never set a bounced pilot, these just morphed so also worth a complete rework for what I need over the next two weeks vs. the semester path, as these are two completely different things and likely why we are not working right now, the guidelines for semester 'understanding' are probably close to correct, but right now we need speed run
+   (smallest-pilot section above)?
+    I never set a bounced pilot, these just morphed so also worth a complete rework for what I need over the next two weeks vs. the semester path, as these are two completely different things and likely why we are not working right now, the guidelines for semester 'understanding' are probably close to correct, but right now we need speed run
 3. The five interview decisions in `comparison-and-root-v2-deltas.md`
    ("Five interview decisions required before prototyping") are still open —
    this response does not answer them for you; they still need your direct
    interview pass before any prototype ADR.
+   I think I saved them right now, sorry
 4. Is the prerequisite-readiness gap (Objection 3) partly blocked on
    `SYSTEM_FLAGS.md` #57 (syllabus data-quality gaps), or is it a separate
-   problem you want solved independent of that flag closing? The syllabi I have now are the best I am getting until Aug 24th, with the Phys one being for the specific teacher and said on the site we can use that one, the ENGR 1000 that is not the case but is the specific material on the KSU website for that specific class just not teacher.
+   problem you want solved independent of that flag closing?
+    The syllabi I have now are the best I am getting until Aug 24th, with the Phys one being for the specific teacher and said on the site we can use that one, the ENGR 1000 that is not the case but is the specific material on the KSU website for that specific class just not teacher.
 
 ## Sources
 

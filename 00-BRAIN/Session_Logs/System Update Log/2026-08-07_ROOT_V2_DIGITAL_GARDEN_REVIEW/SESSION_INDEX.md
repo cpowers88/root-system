@@ -22,7 +22,7 @@ authorize restructuring, migration, deletion, or a second live vault.
 ## Research boundary
 
 - **Catalog used for discovery:** [best-of-digital-gardens](https://github.com/lyz-code/best-of-digital-gardens)
-- **Gardens reviewed:** six
+- **Gardens reviewed:** six, plus one supplemental agent-runtime comparison
 - **Selection:** three close matches, two architectural contrasts, and one
   deliberately minimal negative control
 - **Evidence standard:** repository-owned README, configuration, source, or
@@ -49,17 +49,24 @@ itself.
 - `04-karlicoss-exobrain.md` — search-first retrieval and source/compiler split.
 - `05-jethrokuan-braindump.md` — incremental source-to-view compilation.
 - `06-simonw-til.md` — implementation-born atomic knowledge and generated index.
+- `07-primeintellect-prime-agent.md` — agent-operated runtime, controlled
+  self-refinement, durable execution, and security-boundary review.
+- `ROOT_V2_MASTER_DESIGN_REPORT.md` — complete capability ceiling, architecture,
+  data model, folder evolution, staged implementation, migration gates, risks,
+  and exact decisions required from Chris.
 - `comparison-and-root-v2-deltas.md` — cross-case findings, decision, and proposed
   V2 deltas.
 - `claude-challenge-packet.md` — bounded independent-review brief for Claude.
+- `claude-challenge-response.md` — Claude's independent verdict, objections,
+  corrections, and smallest falsifiable pilot.
 
 ## Safe next action
 
-Give `claude-challenge-packet.md` and this packet to Claude for one independent
-challenge pass. Claude should identify missing evidence and attack the proposed
-architecture; it should not repeat the six repository summaries. After that,
-interview Chris about the five unresolved product decisions listed in the
-comparison report before any prototype or structural change.
+Reconcile Claude's four corrections and the Prime Agent runtime-boundary
+findings into a final proposed ADR. Interview Chris about the unresolved
+product decisions before any prototype or structural change. If a Prime Agent
+trial is later approved, run it only in a disposable non-sensitive environment,
+never against the live vault.
 
 ## Validation result
 
