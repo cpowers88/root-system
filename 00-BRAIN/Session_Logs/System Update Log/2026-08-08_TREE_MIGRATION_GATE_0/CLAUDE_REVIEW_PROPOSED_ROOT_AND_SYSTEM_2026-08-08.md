@@ -28,7 +28,7 @@ These are the two best-written governance documents in the project's history. Th
 The changes required are not stylistic. Three of them are load-bearing:
 
 1. `SYSTEM.md` defines a **System Loop and a Return Packet that compete with `.ROOT`'s canonical ones**, violating its own Law 1 and an explicit `AGENT.md` prohibition, on day one.
-2. `ROOT.md` **omits the near-term constraint that currently governs everything** — the funding cut that made income a condition of continuing past Fall 2026.
+2. `ROOT.md` **omits the near-term constraint that currently governs everything** — the funding cut that made income a condition of continuing past Fall 2026.  (from chris, Yes the funding cut cannot be carried around at all anymore, that is a good reason for recent activity.)
 3. Between them the two files **drop six of the eight Execution Discipline rules** Chris approved July 26 after a full-system interview and independent Claude/Codex review, and drop the person profile entirely.
 
 A system that shipped as written would be more elegant than `.ROOT` and less capable of running Chris's actual semester.

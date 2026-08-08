@@ -247,6 +247,7 @@ execution quality, not the fork itself.**
 - What would "seeing the AI-automation market's toy phase" actually require
   Chris to go look at — specific companies, specific offers, specific
   pricing — to turn a feeling into evidence one way or the other?
+- School need to be priority it would seem with my calendar I will be hard pressed for  time, 
 
 ---
 
