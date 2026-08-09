@@ -10,7 +10,14 @@ tags: [physics, school]
 
 ## Purpose
 
-This is the master study route for PHYS 2211 — Principles of Physics I. It tells Chris what to study next, in order. Built from the original `syllabus.pdf` (superseded and archived 2026-07-21 — see [[source-map]] for its current location and the two real Fall 2026 section syllabi that now serve as the live reference) and the split Serway & Jewett 10th-edition files registered in [[source-map]].
+**Superseded as the study route, 2026-08-08.** [[semester-pathway]] now tells
+Chris what to study next and when, paced one week ahead of the syllabus. **This
+page is review and reference only.** It remains the durable Stage 1–18 curriculum
+— the content each stage covers, its prerequisites, and its mastery checklist —
+and [[semester-pathway]] pulls from it. What it no longer owns is *order*.
+
+This was the master study route for PHYS 2211 — Principles of Physics I, in
+ascending stage order. Built from the original `syllabus.pdf` (superseded and archived 2026-07-21 — see [[source-map]] for its current location and the two real Fall 2026 section syllabi that now serve as the live reference) and the split Serway & Jewett 10th-edition files registered in [[source-map]].
 
 ## Path Status
 

@@ -27,7 +27,7 @@ below) are now the current best-available sources for anything past Chapter 5.
 ## Authority Rule
 
 1. Until Chris says otherwise, use
-   `raw/syllabus/PHYS 2211 51 (83719) Fall 2026 Syllabus - Best copy.md`
+   `raw/syllabus/PHYS 2211 51 (83719) Principles of Physics I.md`
    for the preparation topic path because it matches his Fall term and
    instructor.
 2. Use the live D2L/WebAssign/Owl Express course for dates, deadlines, assignment

@@ -37,7 +37,8 @@ Stage 2  (Ch 2)  -> derivatives: v = dx/dt, a = dv/dt = d²x/dt²
 Stage 3  (Ch 3)  -> none new (trig, not calculus)
 Stage 4  (Ch 4)  -> derivatives/integrals applied independently to x(t) and y(t);
                     a_t = dv/dt for nonuniform circular motion first appears here (Sec 4.5)
-Stage 5  (Ch 5)  -> none new (algebra on F = ma)
+Stage 5  (Ch 5)  -> ΣF = dp/dt, the rate form of the second law; F = ma is the
+                    constant-mass special case (product rule on p = mv)
 Stage 6  (Ch 6)  -> a_t = dv/dt reused from Stage 4/2, applied to circular paths
                     with changing speed
 Stage 7  (Ch 7)  -> integral for work by varying force: W = ∫F dx
@@ -51,7 +52,8 @@ Stage 10 (Ch 10) -> rotational derivatives: α = dω/dt, ω = dθ/dt
 Stage 11 (Ch 11) -> torque as derivative of angular momentum: τ = dL/dt
                     (rotational analogue of F = dp/dt from Stage 9)
 Stage 12 (Ch 12) -> none new (equilibrium is algebra on forces and torques)
-Stage 13 (Ch 13) -> none new (algebra on inverse-square law; energy from Stage 7–8)
+Stage 13 (Ch 13) -> U(r) = −∫F dr on an inverse-square force -> U = −GMm/r;
+                    F = −dU/dr recovers it; mgh is its near-surface approximation
 Stage 14 (Ch 14) -> continuity equation from conservation of mass (dV/dt = Av)
                     Bernoulli's equation from work-energy theorem applied to fluid element
 Stage 15 (Ch 15) -> differential equation: d²x/dt² = −ω²x (solution is sinusoidal)
@@ -84,7 +86,7 @@ stalls — first question: *which already-learned tool is this?*
 | Antiderivative + constant of integration + initial conditions | Calc I | Stages 2, 4, 9, 10 — recovering `v(t)`, `x(t)` from `a`; the source of `v₀`, `x₀` | **High — the confirmed July 30 gap; repaired first, Monday P1** |
 | Definite integral as area | Calc I | Stage 7 (`W = ∫F dx`), Stage 9 (`J = ∫F dt`), Stage 10 (`W = ∫τ dθ`) | Medium — meaning, not technique |
 | Fundamental theorem (derivative undoes integral) | Calc I | Stage 2 both directions of the motion chain | Low once the chain is rebuilt |
-| Small-parameter / binomial approximation | Calc II (series) | Stage 18 only — parked off the active Fall path | None this semester unless 18 activates |
+| Small-parameter / binomial approximation | Calc II (series) | **Stage 13** — deriving mgh from −GMm/r via (1+x)⁻¹ ≈ 1−x; also Stage 18 if activated | Low — first order only, no series convergence work |
 
 ### Genuinely new — not in Calc I/II, learned inside the course
 
@@ -107,14 +109,16 @@ need one of these, the setup is wrong — go back to the physical situation.
 
 Full calculus-link pages for each stage are generated when that stage packet is built, per the one-stage-at-a-time rule in [[../OPERATIONS.md]]. The roadmap above is the preview — each row becomes a detailed page in `wiki/calculus-links/` as Chris reaches it.
 
-**Just-in-time readiness gate (added 2026-07-30):** one stage before
-activation, every calculus-bearing relationship in that stage's row above
-must be marked one of **explicit** (page exists in `wiki/calculus-links/`),
-**not applicable** (stage has no new calculus, per the roadmap), or
-**missing** (needs a page before the stage activates). Stages 14 (fluids)
-and 16 (waves) are currently **missing** — build their pages only when
-Chris is one stage out, not now. This prevents reaching a stage that claims
-the calculus-reconstruction lens while the bridge for it doesn't exist yet.
+**Just-in-time readiness gate (added 2026-07-30, superseded 2026-08-08):** the
+gate required every calculus-bearing relationship to be marked **explicit**
+(page exists in `wiki/calculus-links/`), **not applicable** (no new calculus),
+or **missing** (needs a page before the stage activates), one stage before
+activation.
+
+**Chris directed on 2026-08-08 that the whole active Fall path be built now
+rather than just in time**, so the semester is ready to work from immediately.
+The just-in-time rule is retired for Stages 1–13 and 15–17 and survives only for
+the two off-path stages. Coverage status for all 18 stages is the table below.
 
 ## Calculus-Link Pages Built So Far
 
@@ -132,3 +136,51 @@ multi-problem practice set, and a real-world/engineering use case.
 | [[calculus-links/rotational-kinematics-derivatives]] | 10 | ω = dθ/dt, α = dω/dt, I = ∫r² dm, W = ∫τ dθ |
 | [[calculus-links/angular-momentum-derivative]] | 11 | τ = dL/dt |
 | [[calculus-links/shm-differential-equation]] | 15 | d²x/dt² = −ω²x |
+| [[calculus-links/newtons-second-law-differential]] | 5 | ΣF = dp/dt; F = ma as the constant-mass case |
+| [[calculus-links/gravitational-potential-integral]] | 13 | U = −∫F dr → −GMm/r; F = −dU/dr; mgh as approximation |
+| [[calculus-links/wave-equation-partial-derivatives]] | 16 | ∂²y/∂x² = (1/v²)∂²y/∂t²; verifying the sinusoid; v = fλ |
+
+## Semester Coverage Status — all 18 stages
+
+Built 2026-08-08 at Chris's direction. **The active Fall path is Chapters 1–13
+and 15–17** ([[current-position#First Course Target]]); Stages 14 and 18 are
+durable reference only unless Section 54 activates them.
+
+| Stage | Chapter | Calculus status | Page |
+|---:|---|---|---|
+| 1 | 1 | not applicable — calculus-free on-ramp | — |
+| 2 | 2 | explicit | [[calculus-links/kinematics-derivatives]] |
+| 3 | 3 | not applicable — trigonometry, not calculus | — |
+| 4 | 4 | explicit | [[calculus-links/2d-kinematics-components]], [[calculus-links/tangential-radial-acceleration-derivative]] |
+| 5 | 5 | explicit **(was miscalled "none new")** | [[calculus-links/newtons-second-law-differential]] |
+| 6 | 6 | explicit — reuses Stage 4's a_t = dv/dt | [[calculus-links/tangential-radial-acceleration-derivative]] |
+| 7 | 7 | explicit | [[calculus-links/stage-7-work-integral]] |
+| 8 | 8 | explicit | [[calculus-links/power-derivative]] |
+| 9 | 9 | explicit | [[calculus-links/impulse-integral]] |
+| 10 | 10 | explicit | [[calculus-links/rotational-kinematics-derivatives]] |
+| 11 | 11 | explicit | [[calculus-links/angular-momentum-derivative]] |
+| 12 | 12 | not applicable — equilibrium is algebra on Stage 5 and 11 results | — |
+| 13 | 13 | explicit **(was miscalled "none new")** | [[calculus-links/gravitational-potential-integral]] |
+| 14 | 14 | missing — **off the active Fall path**, build only if activated | — |
+| 15 | 15 | explicit | [[calculus-links/shm-differential-equation]] |
+| 16 | 16 | explicit **(was flagged missing)** | [[calculus-links/wave-equation-partial-derivatives]] |
+| 17 | 17 | not applicable — superposition adds wave functions algebraically | — |
+| 18 | 38 | not applicable for the path — Lorentz algebra; parked | — |
+
+**Active Fall path: 13 of 13 calculus-bearing stages have an explicit page. Zero
+missing.** The four `not applicable` stages are marked deliberately, not by
+omission — each states why in the roadmap above.
+
+### Two corrections made while building this
+
+1. **Stage 5 was marked "none new."** True only if `F = ma` is accepted as a
+   definition rather than a consequence of `ΣF = dp/dt`. Reading the rate form
+   first makes Stage 9 impulse a restatement instead of a new topic, and it is
+   what the Week B block "Newton's second law as a differential relationship"
+   was pointing at.
+2. **Stage 13 was marked "none new."** `U = −GMm/r` exists only because someone
+   integrated an inverse-square force. No new technique — it is the Stage 7 work
+   integral aimed at a force that actually varies — but skipping the derivation
+   is what makes orbital energy problems feel arbitrary later. It also pulls the
+   binomial approximation onto the active path, correcting the crosswalk row
+   that had assigned it to Stage 18 only.

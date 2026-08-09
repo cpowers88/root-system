@@ -51,9 +51,11 @@ exists.
 
 authority_rules:
   - Official exact-section material overrides every derivative page.
-  - Until Chris says otherwise, `raw/syllabus/PHYS 2211 51 (83719) Fall 2026
-    Syllabus - Best copy.md` controls the preparation topic path because it
-    matches the Fall term and instructor on Chris's registration paperwork.
+  - Until Chris says otherwise, `raw/syllabus/PHYS 2211 51 (83719) Principles of
+    Physics I.md` controls the preparation topic path because it matches the Fall
+    term and instructor on Chris's registration paperwork. (Renamed 2026-08-08
+    when Chris removed the duplicate "Best copy" capture; schedule verified
+    identical.)
   - Its section number, CRN, deadlines, grading, and instructor-specific policy
     remain nonbinding for Section 54.
   - When its topic label and printed chapter number disagree, the topic label

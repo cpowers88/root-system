@@ -1,159 +1,138 @@
 ---
 type: handoff
 timeline: log
-tags: [tree, governance, architecture, gate-0]
+tags: [tree, gate-0, physics, cse1321, retrieval, architecture]
 ---
 
 # HANDOFF — 2026-08-08 — CLAUDE CODE
 
-Full factual record: `DAILY_2026-08-08.md`. Primary artifacts, both in
+*Rewritten at day end. An earlier version of this file, written mid-session,
+described a state that no longer exists — the three design questions it named as
+blockers were all answered and the folder structure it warned against creating
+has been built deliberately.*
+
+Factual record: `DAILY_2026-08-08.md`. Session artifacts, all in
 `00-BRAIN\Session_Logs\System Update Log\2026-08-08_TREE_MIGRATION_GATE_0\`:
-`CLAUDE_RESPONSE_TREE_MIGRATION_GATE_0_2026-08-08.md` (response to Codex's
-migration packet) and `CLAUDE_REVIEW_PROPOSED_ROOT_AND_SYSTEM_2026-08-08.md`
-(architecture review of Codex's two proposed governance files).
-
-## What we are actually doing
-
-Building **`tree`** — a new system in a new folder, beside `.ROOT`, not on top of
-it. `.ROOT` stays live and canonical for everything while `tree` gets off the
-ground. Nothing has been migrated. Nothing is scheduled to be.
-
-Chris's design intent, stated directly this session and **not written anywhere in
-`.ROOT` before today**:
-
-- `tree`'s first job is to **ingest how to build an AI frontman operating system**
-  — that is the seed content, not general storage.
-- **`.md` files are the main instruction set.** Python where applicable.
-- **A wiki folder structure guides everything.** First layer is a *wiki of wikis*;
-  wikis nest inside with progressively more specific instructions.
-- There must be a **callable structure invocable from the terminal**, taking a
-  question about any material in the main folder.
-- It lives **inside an Obsidian vault**.
-- **Design the complete structure first** — "made right the first time, which is
-  why all the planning."
-
-The deadline shaping this: **KSU semester begins Aug 24**. Sixteen days from
-today, roughly three usable build windows. `tree` must be able to carry a real
-semester load or it does not ship.
+`CLAUDE_REVIEW_TREE_V1_KERNEL_2026-08-08.md`,
+`WORK_ORDER_CODEX_TREE_KERNEL_FIXES_2026-08-08.md` (Codex's completion return is
+appended to it), `IMPROVEMENT_BRIEF_TREE_V2_2026-08-08.md`, and
+`SPEC_TREEQ_TONIGHT_2026-08-08.md`.
 
 ## Current state
 
-Two documents delivered this session, both `support-with-changes`.
+**`.tree` is a working system, not a scaffold.** Codex completed kernel fixes
+B1–B6; Claude built the first two registered wikis. Verified by execution, not
+report:
 
-**Gate 0 response.** Codex's migration packet has two verified factual errors:
-`C:\Users\chris\root_seed` does not exist (the scaffold is `.tree`; its own commit
-message says "root_seed," which is likely the source of the confusion), and
-`D:\BACKUPS\.ROOT` — called "stale" — does not exist at all. The configured backup
-has never completed a run. Recommended Gate 0 end at 0D; 0E and 0F are Stage 1 and
-Stage 2 of the master design report relabeled.
+```
+treeq check          24 files, 20 stable IDs, 4 templates. Exit 0.
+treeq wiki PHYS2211  full controlling packet. Exit 0.
+treeq wiki CSE1321   full controlling packet. Exit 0.
+treeq ask "…torque"  -> PHYS2211.  ask "…python function" -> CSE1321.
+treeq ask "…business proposal" -> NO_WIKI_OWNER, exit 3.
+```
 
-**Architecture review.** The two proposed governance files are the best-written in
-the project's history and the ownership split between them is correct. But they
-**do not specify the system Chris described.** Terminal callability appears
-nowhere. The wiki-of-wikis is one table row. `.md`-as-instruction-set is never
-stated as a design choice. Obsidian is absent. The Python boundary is one
-undefined "Runtime" row. They govern a filing system, competently, and are silent
-on the product.
+The design changed materially today: **`treeq` is a controlling-context
+resolver, not a search tool.** Ripgrep beats it at text search and is already
+installed. What it does that nothing else can is return the integrity boundary,
+learner frontier, and proof gate *without the question naming them*.
 
-The sequencing point matters more than any individual edit: **Codex started at
-step 6.** A constitution encodes decisions already made, and these were written
-before the decisions exist, which is why they read as generic. Recommended order:
-(1) retrieval contract → (2) page contract → (3) wiki contract → (4) generated
-routing layer → (5) folder tree → (6) governance.
+**`.ROOT` remains canonical for every fact and carries Fall 2026.** Physics now
+has a real dated pathway — `03-WIKIS\PHYSICS\wiki\semester-pathway.md` — running
+Aug 9 through the final, paced one week ahead of lecture. The Stage 1–18
+ascending order was demoted to **review and reference only**; `learning-path.md`
+and `current-position.md` both carry that notice.
+
+The calculus bridge is complete for the active Fall path: **13 of 13
+calculus-bearing stages have an explicit page.** Three were written today
+(Stage 5 `ΣF = dp/dt`, Stage 13 `U = −∫F dr`, Stage 16 wave equation) after
+finding the roadmap had miscalled Stages 5 and 13 as "none new."
+
+`wiki\textbook-page-map.md` is new and verified from the book's own running
+headers.
 
 ## Open question / blocker
 
-**Three decisions block step 1, and step 1 blocks the folder structure:**
+**1. Two writable copies of learner truth now exist.** `.ROOT`'s
+`current-position.md` and `.tree`'s `<ID>-state.md` both describe the frontier.
+Claude created the mirror knowingly and flagged it in the same session that named
+competing state owners as `.ROOT`'s most expensive failure class — three
+occurrences this month, no open numbered flag. Intent is written into the files
+(`.ROOT` wins); intent is exactly what failed the previous three times.
 
-1. **Scope of "any question."** Content only ("what does my physics wiki say about
-   torque"), or also state ("what should I work on today")? The second makes the
-   cockpit a query result rather than a maintained file — better design, much
-   bigger build.
-2. **What `water` and `leaves` mean.** Still unanswered from this morning. Asked
-   twice. Step 3 cannot define what a wiki is without knowing whether those are
-   wikis, layers, or something else.
-3. **Assemble vs. answer.** Recommended: `tree ask "…"` assembles — Python
-   resolves the route from a generated index and emits the exact file set plus a
-   grounded prompt for the agent that already has the vault open. Rejected
-   RAG/embeddings for v1 (vector store, silently-staling re-index, breaks
-   local-first if the embedding model is hosted, unfalsifiable when wrong).
-   Embeddings remain an additive v2.
+Two clean exits, and one must be taken **before Aug 24**: a dated capability
+transfer making `.ROOT`'s section read-only, or delete the mirror and have the
+packet point at `.ROOT`. Improvement item I4 is the enforcement fix — one `state`
+page per `wiki_id`, mirrors forced to `timeline: reference`.
 
-**Also open, from the Gate 0 response:** `tree` vs `.tree` final call; whether
-`branches/craft/` is the LIFE system inside one tree (would resolve the July 26
-split question); course folders by subject name or course code; delete or keep the
-existing `.tree` scaffold; approve the `.claude\settings.json` eight-explicit-deny
-fix that clears the standing `root_health.py` BLOCKER.
+**2. Four of five PHYS 2211 exam anchors are low-confidence.** The Section 51
+schedule is internally scrambled past Week 8 and the final exam is printed twice
+with different dates *and* times (Dec 9, 8–10 am vs. Dec 10, 9–11 am; Dec 9 is
+the Wednesday). Chris goes to KSU in person Monday Aug 10; D2L opens ~Aug 23.
 
-**Carried, unresolved from Aug 7:** the full-load-vs-reduced-load capacity
-disagreement between Claude and Codex is still unreconciled. It was the named next
-exact action yesterday and did not get done today.
+**3. `treeq tonight` is specified but not built.** It is the daily driver and the
+adoption answer — every data field it needs now exists. Codex owns it. Must ship
+before Aug 22 or it misses the window it was designed for.
 
 ## Next exact action
 
-**Before anything structural:** `git -C C:\Users\chris\.ROOT push origin main`.
-Six unpushed commits (`origin/main` at `b0071cd`, Aug 2; local `8e1a823`, Aug 8)
-carry the entire ROOT V2 design basis, the capacity decision, and the Week C/D
-plans, on one disk. Codex is right that a recovery checkpoint precedes structural
-work; it chose the slower and more failure-prone checkpoint while believing a
-backup existed that does not.
+**Run the August 9 preparation block: `calculus-links/kinematics-derivatives` —
+antiderivatives, constants of integration, initial conditions.** That is the
+confirmed July 30 gap and it is day one of the fourteen-day bridge phase.
 
-**Then, procedurally:** Gate 0 is at step 3 of 6. Chris hands Claude's response
-back to Codex → Codex produces the reconciliation table → Chris approves the final
-plan. No structural, backup, governance, Git, or device-sync change before that.
-
-**Then, on the design:** answer the three questions above and steps 1–3 of the
-design order (retrieval contract, page contract, wiki contract) can be drafted.
-That is the part that must be right before a single folder is created.
+Not system work. The entire day went to architecture during a Week B that
+allocated 16 of 18 core blocks to physics and Python, and `ROOT.md`'s own
+anti-goal list names that pattern. The pathway is built; it needs to be run.
 
 ## Details likely to be forgotten
 
-- **Do not repoint `robocopy /MIR` at `D:\ARCHIVE`.** `backup_to_d_drive.ps1` uses
-  `/MIR` against a destination that does not exist, which is harmless. The obvious
-  "fix" — aiming it at `D:\ARCHIVE\.ROOT`, the only real backup — would **delete
-  the nested July-24 generation on first run**, because that path is absent from
-  source. The script also excludes `.git`, so any checkpoint it produces discards
-  158 commits of rollback history.
-- **`D:\ARCHIVE\.ROOT\.ROOT` is divergent, not a rollback target.** 13,413 files
-  vs. 16,461 live, and it contains files no longer present in source (`2.md`,
-  `mybadcodexplan.md`, `Untitled.md`, `newvaultstructure.md`, `tree.text`).
-- **Obsidian resolves `[[wikilinks]]` by filename vault-wide.** Duplicate basenames
-  across wikis break linking silently. `.ROOT` already has this (`CLAUDE.md`,
-  `index.md`, `log.md` per hub) and tolerates it because nothing depends on link
-  resolution; in `tree`, where a router walks relationships, it is a correctness
-  bug. Forces the naming decision before any folder exists. Dot-prefixed
-  *subfolders* are invisible to Obsidian's indexer, so no content folder may be
-  dotted; the vault root is fine either way, so this is not an argument for `tree`
-  over `.tree`.
-- **`water` / `leaves` / `journal` must be siblings, never nested** inside a
-  compilable subtree. Privacy rules guard intent; they do not guard a glob. An
-  instruction to "rebuild everything under X" crosses the boundary with no AI ever
-  forming the intent. The existing `.tree` scaffold already shows the risk shape:
-  its `.gitignore` ignores `88-JOURNAL/`, the old name, while the folder present is
-  `journal/`.
-- **The existing `.tree` scaffold is empty and duplicated.** Created Aug 7
-  18:00–18:11, one commit (`5d89a15`) containing only `.gitignore`, all folders
-  empty, and it holds *two* parallel scaffolds (`00-TRUNK/` and `TRUNK/`).
-- **HP Victus campus laptop** needs a full wipe/reinstall and the admin password
-  may be unrecoverable. First attempt Mon Aug 10, hard checkpoint Wed Aug 19.
-  Device-two testing is blocked until then, so `tree` must be fully useful
-  single-machine. Credential recovery is a *precondition* for connecting a device,
-  not a test performed after.
-- **Today's live contradiction:** `NOW.md` says C1/P1, Codex's Fall 2026 prep draft
-  says P1 starting Aug 8, `EVENING_READING.md` says P8/C8. Two independent sources
-  against one generated view — third occurrence of this failure class, and there
-  is **no open numbered flag for it**. Left to Chris.
-- **`fall_2026_preparation_draft.md`** (`Documents\Codex\2026-08-06\realtime-voice-chat\outputs\`)
-  is `status: proposed` and explicitly non-authoritative, yet it is the most
-  detailed statement in existence of the next sixteen days, and it quietly settles
-  the capacity question (29.5 hr firm floor, 21–25 committed, remainder
-  deliberately uncommitted, "do not budget sleep, Benjamin time, or recovery as
-  study capacity"). Neither `.ROOT` nor the proposed `tree` governance has anywhere
-  to keep a document like that. That gap is finding M5 in the review.
+- **The textbook PDF is offset +30 pages from the printed book.** Verified across
+  479 of ~481 sampled pages. Every page citation in `.ROOT` is a *printed* page
+  number and is correct — but a PDF reader jumped to "page 95" for Ch 5 lands on
+  printed 65, Chapter 3. Both numberings are in `wiki\textbook-page-map.md`.
+  Ch 4, 7, 10, and 17 each span two chunk files.
+- **The Ch 15–17 sourcing risk is closed.** All active-path chapters are on disk;
+  coverage is actually Ch 1–21. Do not re-open it.
+- **`pypdf` was installed** (`--user`) to read the page map rather than
+  extrapolate it from two anchors. Small, reversible, disclosed.
+- **Chris is ~7 weeks ahead of CSE 1321.** The course reaches functions in Week 7,
+  Oct 5; he demonstrated Stage 4 on Jul 27. Weeks 1–6 are review — but **Quiz 1
+  is Sep 6 and quizzes stay graded.** Easy work is easy to forget. The surplus
+  belongs to Physics. After Test 2 (Nov 9) the course stops stretching him.
+- **Collision rule, still active:** Codex owns the kernel, root governance files,
+  and everything under `00-trunk\ai_os\`. Claude owns `00-trunk\branches\`.
+- **`log.md`'s stale "Best copy" citation was left deliberately.** Six other files
+  were corrected after Chris removed the duplicate syllabus; `log.md` is an
+  append-only historical record and rewriting history in a log is the wrong fix.
+- **TCOM 2010's wiki was not built** and is the obvious next one — it is half the
+  nightly-prep load and meets TTh. **ECON and ENGR were deliberately skipped**:
+  ECON's chapter mappings are inferred and D2L-locked, ENGR has no Fall syllabus
+  and no assigned instructor. Building either is pre-building an empty domain.
+- **CSE 1321's syllabus has two template artifacts** — a Week 1 quiz dated
+  "Dec. 07" and a Week 15 note reading "May 4th, 2026, Last Day of Classes." The
+  rest of that schedule is sound, unlike Physics.
+- **Improvement item I1 is superseded.** COG-second-brain's tiered progressive
+  enrichment — gating page depth on demand — prevents the over-building that I1
+  only measured. Also adopted: the verification harness, *"the worker never
+  grades its own homework; verifiers observe the artifact, not the summary."*
+  Today produced two cases where a report and the artifact disagreed.
+- **Intake rule, decided but not implemented:** one intake declaration per
+  *(source class, privacy class, retention rule)* triple — **not one per
+  subject.** Business needs three; Physics needs one. Six of eight `.ROOT` wikis
+  have no intake declaration, and SYSTEMS and TECHNOLOGY independently invented
+  the same artifact, which is the signal it is missing from the design.
+- **Three additive `.ROOT` improvements were agreed and not done:** decision
+  ledger, intake declarations, `confidence:` on date-bearing pages. All are new
+  files or new fields — **zero moves.** The rename campaign that would fix
+  `.ROOT`'s ~73 duplicate basenames was ruled out: `.ROOT` has no link validator,
+  and one file deletion today silently broke citations in eight files. That work
+  belongs in `.tree`, where `check` catches it.
+- **`.tree` has zero commits and no remote.** It is now the only thing in this
+  project with real work and no recovery path. `.ROOT` was pushed today but has
+  ~10 modified and ~6 untracked files from this session, uncommitted.
 
 *Written by: Claude Code*
 
-*Next session priority: get the three design questions answered (question scope,
-`water`/`leaves`, assemble-vs-answer), then draft the retrieval / page / wiki
-contracts. Do not create folders in `tree` before those exist — that is the exact
-mistake `.ROOT` made and the reason for all this planning.*
+*Next session priority: run the Aug 9 calculus block — the system is built and
+the semester is sixteen days out; the only thing that changes the outcome now is
+studying.*

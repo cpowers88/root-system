@@ -11,6 +11,17 @@ tags: [physics, school]
 
 This page tracks Chris current physics learning position.
 
+**Pacing authority moved 2026-08-08.** [[semester-pathway]] now owns *what to
+study and when*, from August 9 through the final exam, paced one week ahead of
+lecture. The Stage 1–18 ascending sequence is **review and reference only** — the
+stage pages remain canonical content and this pathway pulls from them, but stage
+number no longer sets the order. The two orders differ materially in one early
+place: **Universal Gravitation (Stage 13) arrives at syllabus Week 5**, between
+Newton's Laws and Circular Motion.
+
+This page still owns learner truth. Nothing in [[semester-pathway]] closes a
+stage or advances the frontier; only demonstrated proof recorded here does.
+
 ## Current Baseline
 
 Course: PHYS 2211 — Principles of Physics I (Kennesaw State, Fall 2026,
@@ -179,7 +190,7 @@ Stage 4 instead of running a detached calculus review.
 ## First Course Target
 
 Build class readiness in the order of
-`raw/syllabus/PHYS 2211 51 (83719) Fall 2026 Syllabus - Best copy.md`.
+`raw/syllabus/PHYS 2211 51 (83719) Principles of Physics I.md`.
 The controlling preparation scope is Chapters 1-13 and 15-17, interpreted from
 the syllabus's topic names where its printed chapter numbers are visibly wrong.
 Stage 14 fluids and Stage 18 relativity remain durable reference packets but are

@@ -2,23 +2,23 @@
 type: dashboard
 timeline: now
 tags: [learning, school, technology]
-generated: 2026-08-07
+generated: 2026-08-08
 ---
 
-# Evening Reading — August 7, 2026
+# Evening Reading — August 8, 2026
 
 ## School
 
-**READ —** No School reading tonight: Saturday's queued items (P8 full-map retrieval, C8 timed independent lab) are cold review of already-covered material, not a new topic.
+**READ —** `raw/docs/tutorial/modules.txt` (official Python docs), section 6's opening and the basic `import module` example only.
 
-**FOCUS —** The Aug 3–23 bridge override reserves this block for priming a genuinely new next-day topic; **retrieval/application days don't get a primer, since that would blunt the cold check**.
+**FOCUS —** this is Stage 4b's own named raw source, priming Sunday's review; **it is the only unread, unlocked item in Chris's live Python queue**, not the wiki's stage or drill page.
 
-**STOP —** No reading assigned, so no time cap applies; resume normal School priming once the queue names a topic Chris hasn't seen yet.
+**STOP —** stop right after the basic import example, before reading docs for any specific module function; cap at 15 minutes.
 
 ## Technology
 
-**READ —** `fullStackPython.pdf` (Matthew Makai), continuing the Web Application Security chapter into "SQL Injection" and "Cross-Site Request Forgery (CSRF)," pp. 338–339.
+**READ —** `raw/AI_engineering.pdf` (Chip Huyen), Chapter 6 "RAG and Agents," physical pp. 572–613, the RAG-mechanics section skipped in last week's pass.
 
-**FOCUS —** finishes the security checklist's first step (know the major flaw categories) by covering the two not yet read; **CSRF is the last of the four checklist flaws still unread**.
+**FOCUS —** closes the one acknowledged gap in the Aug 7 Ch. 6 read, and **directly feeds today's `.tree` agentic-retrieval design work**.
 
-**STOP —** after the CSRF resources list, before Chapter 5 "Deployments" begins; cap at 15 minutes.
+**STOP —** stop at p. 613, where the already-compiled Agents section (already covered) begins; cap at 15 minutes.

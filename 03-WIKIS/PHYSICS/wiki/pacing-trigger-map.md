@@ -34,7 +34,7 @@ or ahead of pace you are.
 | The Fall Section 51/Farhan syllabus controls the preparation topic path until Chris says otherwise | Its Section 51 CRN and administrative details do not become Section 54 truth |
 
 The path source is
-`raw/syllabus/PHYS 2211 51 (83719) Fall 2026 Syllabus - Best copy.md`.
+`raw/syllabus/PHYS 2211 51 (83719) Principles of Physics I.md`.
 Its topic labels control preparation. Several printed chapter-number and date
 cells are internally wrong; use the textbook table of contents to locate the
 named topic and D2L to confirm dates.
