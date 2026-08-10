@@ -5,7 +5,8 @@ Run after any edit to governance files (00-BRAIN, router, START_HERE,
 hats, hub operating files). Encodes the unified-team governance checks:
 
   1. Boot files exist: router, AGENT.md, capability profiles, CHRIS_CORE, hats,
-     CASTLE pointers/OPERATIONS, all seven hub CLAUDE.mds
+     CASTLE pointers/OPERATIONS, all eight hub OPERATIONS.mds (hubs lost their
+     CLAUDE.md/AGENTS.md loaders 2026-08-10; OPERATIONS.md is the entry point)
   2. No active file loads the retired OS (AI_Agent.md / AI_OS_CORE.md
      as an instruction — the marked pointer + retired-name lines are exempt)
   3. No dead governance references (AGENT.md "Shared Skills";
@@ -43,9 +44,17 @@ BOOT_FILES = [
     ROOT / "00-BRAIN" / "CASTLE" / "OPERATIONS.md",
 ] + [ROOT / "00-BRAIN" / "HATS" / f"HAT_{h}.md" for h in
      ("OPERATOR", "EDUCATOR", "PYTHON", "PHYSICS", "TCOM", "ECON", "ENGR1000")
-] + [ROOT / "03-WIKIS" / h / "CLAUDE.md" for h in
+] + [ROOT / "03-WIKIS" / h / "OPERATIONS.md" for h in
      ("AI_AUTOMATION_SYSTEMS", "BUSINESS", "EDUCATION", "PHYSICS",
       "PYTHON", "REVENUE_LAB", "SYSTEMS", "TECHNOLOGY")]
+
+# Hub loader files were removed 2026-08-10; their reappearance would restore the
+# two-hop indirection that AGENT.md's local-contract rule exists to prevent.
+FORBIDDEN_HUB_FILES = [
+    ROOT / "03-WIKIS" / h / n
+    for h in ("AI_AUTOMATION_SYSTEMS", "BUSINESS", "EDUCATION", "PHYSICS",
+              "PYTHON", "REVENUE_LAB", "SYSTEMS", "TECHNOLOGY")
+    for n in ("CLAUDE.md", "AGENTS.md")]
 
 EXCLUDED = {"99-ARCHIVE", "raw", ".git", ".obsidian", "Report Archive",
             "Session_Logs", "88-JOURNAL", ".claude", ".agents",
@@ -90,6 +99,12 @@ def main() -> int:
         if not f.exists():
             failures.append(f"MISSING boot file: {f}")
 
+    for f in FORBIDDEN_HUB_FILES:
+        if f.exists():
+            failures.append(
+                f"hub loader file reintroduced (use OPERATIONS.md): "
+                f"{f.relative_to(ROOT)}")
+
     # Cross-file semantic contracts that simple stale-word scans cannot catch.
     require("AGENTS.md", r"00-BRAIN\\AGENT\.md",
             "Codex root pointer routes to the universal OS")
@@ -114,7 +129,7 @@ def main() -> int:
     forbid("ROOT_OPERATING_MANUAL.md", r"filled business/client artifact",
            "active client artifacts stored in 05-BUSINESS")
     for rel in ("00-BRAIN/AGENT.md", "00-BRAIN/WHERE_IT_GOES.md",
-                "ROOT_OPERATING_MANUAL.md", "03-WIKIS/BUSINESS/CLAUDE.md",
+                "ROOT_OPERATING_MANUAL.md", "03-WIKIS/BUSINESS/OPERATIONS.md",
                 "03-WIKIS/BUSINESS/HOW_TO_USE.md",
                 "05-BUSINESS/06-Capability Library/README.md"):
         require(rel, r"client-specific.{0,140}(separate client workspace|outside `?\.ROOT`?)",
@@ -125,7 +140,7 @@ def main() -> int:
                 "consequential work has an independent challenge default")
     forbid("START_HERE.md", r"lane files?.{0,100}HATS.{0,30}roles",
            "retired surface-lane and HATS-role terminology")
-    forbid("03-WIKIS/BUSINESS/CLAUDE.md",
+    forbid("03-WIKIS/BUSINESS/OPERATIONS.md",
            r"filled/used client artifacts.{0,80}05-BUSINESS",
            "active client instances routed into .ROOT/05-BUSINESS")
     forbid("03-WIKIS/BUSINESS/HOW_TO_USE.md",

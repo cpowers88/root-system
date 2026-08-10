@@ -39,6 +39,13 @@ Access wedges (not identity boundaries):
 - Open market — any organization where access and economics beat the wedges
   above.
 
+Operating pattern inside an engagement: Chris sets intent, AI performs the
+repeatable draft work, Chris validates exceptions and quality, and the system
+records the improvement. This is an AI operations and systems-integration
+business — not a chatbot service or a prompt-pack agency. Recovered 2026-08-10
+from the root `AGENTS.md` import block, which was archived; the rest of that
+block duplicated `00-BRAIN\AGENT.md`.
+
 ## 2. Delivery Method
 
 1. **Observe** the real workflow, not the official story.

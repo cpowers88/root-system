@@ -121,9 +121,9 @@ Infer the mode from the request and state it only when useful. During convergenc
 
 ## Profile and Local-File Precedence
 
-After this file, load the surface profile (`00-BRAIN\CLAUDE.md` or `CODEX.md`), then `CHRIS_CORE.md`, an optional `HATS\` mode, and the local operating file for the active realm. A wiki file named `CLAUDE.md` is the domain operating contract for every AI working there; its historical filename does not make it Claude-exclusive.
+After this file, load the surface profile (`00-BRAIN\CLAUDE.md` or `CODEX.md`), then `CHRIS_CORE.md`, an optional `HATS\` mode, and the local operating file for the active section. Inside any `03-WIKIS` hub, that local operating file is `OPERATIONS.md`. Read it directly; hubs no longer carry `CLAUDE.md` or `AGENTS.md` loader files (removed 2026-08-10, archived in `99-ARCHIVE\ARCHIVED_2026-08-10_hub-pointers\`).
 
-Profiles and local files cannot override file safety, North Star direction, raw immutability, academic integrity, the report chain, or Chris's final authority. In converted realms, `CLAUDE.md`/`CODEX.md` are thin loaders and `OPERATIONS.md` is the canonical local contract.
+Profiles and local files cannot override file safety, North Star direction, raw immutability, academic integrity, the report chain, or Chris's final authority.
 
 ## Session Start Protocol
 
@@ -167,8 +167,8 @@ outcome, and the North Star Ratchet. The Watchtower has eyes, not hands.
 
 ## Wiki Shared Layer
 
-One copy here; every `03-WIKIS` hub's `CLAUDE.md` points here instead of
-re-copying. Restored 2026-07-24 as a numbered section — the July 9 version
+One copy here; every `03-WIKIS` hub's `OPERATIONS.md` relies on this section
+instead of re-copying it. Restored 2026-07-24 as a numbered section — the July 9 version
 of this rule set was condensed into a single run-on paragraph during the
 July 10 `AI_Agent.md`→`AGENT.md` split, which dropped the `§ Wiki Shared
 Layer` anchor that 21 files across the vault still reference by name. Same

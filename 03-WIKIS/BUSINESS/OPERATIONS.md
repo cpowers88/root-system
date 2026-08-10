@@ -17,6 +17,16 @@ returning verified results to the current strategy.
 
 This wiki supports a vehicle. It does not choose or govern the vehicle.
 
+## Session start
+
+After the global boot chain in `00-BRAIN\AGENT.md`, read this file, then
+`wiki\index.md`, then the three newest entries in `wiki\log.md`. That is enough
+to establish current state; do not load the whole wiki.
+
+Active client-specific work stays outside `.ROOT` in the separate authorized
+client workspace. This wiki holds method and evidence, never a live client's
+private material.
+
 ## Authority
 
 | Owns | Authority |
