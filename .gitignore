@@ -61,3 +61,10 @@ node_modules/
 *.gif
 .DS_Store
 **/.idea/
+
+# Vendored language runtimes. Install these system-wide; never commit them.
+# A 372MB Oracle JDK landed here by accident on 2026-08-10 and blocked the
+# push (GitHub rejects any file over 100MB; its lib/modules is 140MB).
+**/oracleJdk-*/
+**/jdk-*/
+**/jre-*/
