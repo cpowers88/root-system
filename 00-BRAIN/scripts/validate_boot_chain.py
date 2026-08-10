@@ -244,12 +244,14 @@ def main() -> int:
         filesystem = project_settings.get("sandbox", {}).get("filesystem", {})
         if "./88-JOURNAL" not in filesystem.get("denyRead", []):
             failures.append("Claude project sandbox does not deny 88-JOURNAL reads")
+        # Derived from the live tree, not a hardcoded hub list: a new hub with a
+        # raw/ folder must be denied explicitly. A "*" glob may also be present,
+        # but is not accepted in place of a literal path — sandbox glob
+        # expansion is not guaranteed, and raw immutability is non-negotiable.
         required_raw = {
             "./00-BRAIN/CASTLE/raw",
-            *{f"./03-WIKIS/{hub}/raw" for hub in (
-                "PYTHON", "PHYSICS", "BUSINESS", "EDUCATION",
-                "TECHNOLOGY", "AI_AUTOMATION_SYSTEMS", "SYSTEMS",
-                "REVENUE_LAB")},
+            *{f"./{p.relative_to(ROOT).as_posix()}"
+              for p in ROOT.glob("03-WIKIS/*/raw") if p.is_dir()},
         }
         missing_raw = sorted(required_raw - set(filesystem.get("denyWrite", [])))
         if missing_raw:

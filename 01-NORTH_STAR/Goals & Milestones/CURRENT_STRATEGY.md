@@ -81,6 +81,14 @@ must earn the implementation/retainer conversation.
 | S-03 | Construction credibility produces stronger problem access or paid demand | live workflow access, paid-support interest, repeatable waste patterns | field notes + Revenue Lab/CASTLE where relevant | two live observations or B2 result |
 | S-04 | Retained improvement work is the strongest core revenue engine | audit-to-implementation/retainer conversion and delivery economics | BUSINESS + client-approved sanitized evidence | after first paid audit and first retainer decision |
 | S-05 | Every engagement can produce a reusable compounding asset | harvested asset, reuse, time saved, or repeated sale | Capability Library + approved case studies | after each real engagement |
+| S-06 | Narrowing the vehicle before school completes costs more option value than it buys focus | which Percipio/Skillsoft tracks convert into capability a buyer pays for; whether a broad technology frame surfaces more qualified demand than the audit wedge alone | TECHNOLOGY wiki + CASTLE opportunity queue | next quarterly Ratchet |
+
+S-06 recorded 2026-08-10 from Chris directly: school completes regardless, but
+the post-school vehicle is open. The school platform (Skillsoft/Percipio) widens
+the certification and skill surface available at no extra cost, and committing
+to "study business workflow" as the frame may close options too early. This is a
+capability-widening input, not a vehicle change — the thesis in §1 stands until
+evidence moves it under §8.
 
 Watchtower signals do not change these directly — evidence, a question, or a
 bounded CASTLE test only.
