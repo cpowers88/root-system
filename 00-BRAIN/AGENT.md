@@ -40,6 +40,8 @@ Priority is calendar-bound and value-aware:
 
 School is capability infrastructure, technology is the compounding engine, business/client value is the economic destination, and system evolution supports all three. These are coordinated functions, not competing lanes. New profit ideas still pass through `00-BRAIN\CASTLE\wiki\decision-rules\adding-a-profit-skill.md`.
 
+An advisory school-protection window runs October 5 – November 11, 2026; CASTLE owns firing it (`CASTLE\OPERATIONS.md` § Chris-Owned Capacity).
+
 ## Execution Discipline
 
 Approved by Chris 2026-07-26 after a full-system interview and independent
@@ -153,7 +155,11 @@ local chain that can answer the active question safely.
 9. Every `raw\` folder is immutable unless Chris explicitly authorizes an exception.
 10. Editing an instruction file does not alter the already-loaded session; use a fresh session to test new behavior.
 11. Active client-specific/private work stays in a separate client workspace or repository outside `.ROOT`; only sanitized lessons, reusable methods/assets, approved case studies, and non-sensitive metadata return here.
-12. **Bulk edits are proven on a copy first.** Any operation touching many files in one pass — mass rewrite, rename, migration, scripted cleanup — runs against a disposable copy and has its output inspected before it is pointed at the working tree. This is not a courtesy check. Measured 2026-08-11: no environment currently enforces an OS-level write deny on a spawned process, and the permission layer matches command *strings*, not the paths a command resolves at runtime — so a stray glob has nothing standing in its way. Until that changes, this rule is the live control rather than a backup for one.
+12. **Bulk edits run on a proven copy, inside the enforced sandbox — both, not either.** Any operation touching many files in one pass — mass rewrite, rename, migration, scripted cleanup — satisfies two controls:
+    - **Copy-first (discipline).** Run it against a disposable copy and inspect the output before pointing it at the working tree.
+    - **Wrapper (mechanism).** Launch it from WSL through `00-BRAIN\scripts\safe_shell.sh`, which derives its read-only bind list from the live tree and is the only OS-level write deny in this stack with measured enforcement. Run `safe_shell.sh --selftest` before a consequential pass; it refuses to run at all if its derivation looks wrong.
+
+    Why both: neither existing layer constrains a spawned process. Claude Code's own `sandbox` block is inert here — measured negative on six independent dimensions by two sessions on 2026-08-11 — and the permission layer matches command *strings*, not the paths a command resolves at runtime, so a glob walks past it (2026-08-10, 2,713 files) and so does a relative path. Copy-first depends on whoever is at the keyboard remembering it; the wrapper does not, but only protects work actually launched through it. Each covers the other's gap.
 
 System files include this file, surface profiles, `CHRIS_CORE.md`, `CHRIS.md`, hats, maps, placement rules, flags, North Star, templates, section operating files, and project instructions.
 
@@ -168,40 +174,11 @@ outcome, and the North Star Ratchet. The Watchtower has eyes, not hands.
 
 ## Wiki Shared Layer
 
-One copy here; every `03-WIKIS` hub's `OPERATIONS.md` relies on this section
-instead of re-copying it. Restored 2026-07-24 as a numbered section — the July 9 version
-of this rule set was condensed into a single run-on paragraph during the
-July 10 `AI_Agent.md`→`AGENT.md` split, which dropped the `§ Wiki Shared
-Layer` anchor that 21 files across the vault still reference by name. Same
-failure class `vault-skeleton-design.md` names for file moves; this was the
-section-heading version. Content below is unchanged from what a hub
-`CLAUDE.md` already expects — restoring the heading, not rewriting the rule.
-
-1. **Raw is immutable.** Read from a wiki's `raw\`; never modify, delete,
-   rename, or reorganize it without Chris's explicit instruction. Extracted
-   material goes into that wiki's `wiki\`.
-2. **Large-source chunking.** Never extract a long PDF, book, or multi-part
-   source in one pass. Work in chunks small enough to hold fully (10–15
-   pages or one chapter/section); synthesize only after every chunk is
-   read; record the page ranges covered in `log.md`.
-3. **Session start (minimum).** Read the wiki's `wiki\index.md` and the
-   last 3 `log.md` entries; state the session goal in one sentence.
-4. **Session close (minimum).** Update `log.md`; update `index.md` if pages
-   changed; state the next action in one sentence.
-5. **Update over create.** Check whether a source strengthens, corrects, or
-   extends an existing page before creating a new one.
-6. **Never silently overwrite a claim.** Before replacing a claim, classify
-   the change as a temporal update, context-dependent variant, or true contradiction.
-   When a new source contradicts an existing page, flag it on the page
-   (supersedes/contradicts X — source, date) instead of quietly replacing it.
-7. **Recency markers on volatile claims.** Prices, versions, and adoption
-   stats that age carry "(as of YYYY-MM, source)".
-8. **Lint pass.** At the monthly review, or on request, scan for orphan
-   pages, dead wikilinks, contradictions, stale superseded claims, and
-   index-vs-live-tree mismatch; log findings and fix per normal flag
-   priority. After creating or editing wiki frontmatter, also run
-   `python 00-BRAIN\scripts\frontmatter_audit.py --baseline 00-BRAIN\scripts\frontmatter_baseline.json`
-   and resolve every new finding before close.
+The eight rules every `03-WIKIS` hub and CASTLE's wiki rely on — raw
+immutability, large-source chunking, session start/close minimums, update over
+create, no silent claim overwrite, recency markers, and the lint pass — live in
+**`00-BRAIN\WIKI_SHARED_LAYER.md`**. Load it when working inside a hub. This
+heading stays because 26 files reference it by name.
 
 Academic integrity for course-support wikis (PYTHON, PHYSICS, EDUCATION) is
 governed once, above, under `## Academic Integrity` — not restated here.
@@ -258,10 +235,6 @@ Dailies feed weeklies; weeklies feed monthlies; monthlies feed quarterlies. Revi
 ## Communication Development
 
 When requested, convert rough language into a raw version, professional-direct version, and one-line tone note. Any AI may do this. Keep it direct, clear, and natural.
-
-## Advisory High-Load Window
-
-October 5 through November 11, 2026 is a strong school-protection window. AI should warn once when optional work threatens fixed school commitments, explain the cost, and recommend the smallest safe scope. If Chris directs the work after that warning, proceed without repeated resistance.
 
 ## Final Rule
 

@@ -200,11 +200,12 @@ Each of the eight `03-WIKIS` hubs handles its own source intake per its own
 `OPERATIONS.md` (raw/ folder, ingest protocol, page format) — route new source
 material by subject using the Realm Check table above. Shared wiki rules
 (raw immutability, chunking, session minimums, lint, ingest discipline) live
-once in `00-BRAIN\AGENT.md § Wiki Shared Layer`.
+once in `00-BRAIN\WIKI_SHARED_LAYER.md`.
 
 **Hub archetype standard (what files a session may assume exist):** every hub
-carries `CLAUDE.md` (machine loader), `OPERATIONS.md` (canonical local machine
-contract), `README.md` (short human entrance), `HOW_TO_USE.md` (human
+carries `OPERATIONS.md` (canonical local machine contract — the hub's entry
+point; the `CLAUDE.md`/`AGENTS.md` loaders were removed 2026-08-10 and must not
+return), `README.md` (short human entrance), `HOW_TO_USE.md` (human
 workflow), `wiki\index.md` (catalog), and `wiki\log.md` (operational history).
 No other file is universal. **Learning
 engines** (PYTHON, PHYSICS, EDUCATION) additionally own `wiki\current-position.md`

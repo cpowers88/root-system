@@ -77,6 +77,18 @@ Fixed deadlines, appointments, caregiving, and other real commitments constrain 
 - Expose collisions, overload, and displacement once; recommend a path, then follow Chris's direction unless `AGENT.md` supplies a true hard stop.
 - Reduce scope before inventing pressure, ceremony, or another tracking layer.
 
+### Advisory High-Load Window — October 5 to November 11, 2026
+
+A strong school-protection window. When optional work threatens a fixed school
+commitment inside it, warn **once**: name the collision, explain the cost, and
+recommend the smallest safe scope. If Chris directs the work after that warning,
+proceed without repeated resistance — it is advisory, not refusal authority.
+
+CASTLE owns firing this, per `AGENT.md` Execution Discipline 7 (a dated trigger
+with no named evaluator does not exist). The weekly review checks whether the
+window is open or approaching; moved here from `AGENT.md` on 2026-08-11 so the
+rule sits with the cadence that actually evaluates it.
+
 ## Operating Authority
 
 AI may perform routine CASTLE maintenance without a new approval when it reconciles verified owner truth:

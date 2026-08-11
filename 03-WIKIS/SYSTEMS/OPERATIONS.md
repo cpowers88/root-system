@@ -163,7 +163,7 @@ named exception.
 
 Raw immutability, large-source chunking, session start/close minimums,
 update-over-create, contradiction flagging, recency markers, and the lint pass
-are defined once in `00-BRAIN\AGENT.md § Wiki Shared Layer`.
+are defined once in `00-BRAIN\WIKI_SHARED_LAYER.md`.
 
 ## Loop and return
 

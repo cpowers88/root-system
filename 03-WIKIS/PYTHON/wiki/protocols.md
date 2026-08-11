@@ -6,7 +6,7 @@ timeline: reference
 
 # Session & Intake Protocols — Python Wiki
 ### Moved out of CLAUDE.md July 11, 2026 (slim pass). The always-on OS keeps the session minimums; the expanded protocols live here.
-### Load this page when running a SOURCE INTAKE, a SYLLABUS INGEST, or a full teaching session. These expand (and supersede) the AGENT.md § Wiki Shared Layer minimums for this wiki.
+### Load this page when running a SOURCE INTAKE, a SYLLABUS INGEST, or a full teaching session. These expand (and supersede) the `00-BRAIN\WIKI_SHARED_LAYER.md` minimums for this wiki.
 
 ---
 

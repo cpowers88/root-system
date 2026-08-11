@@ -229,7 +229,7 @@ named exception. Extracted material goes to `wiki\`.
 
 Raw immutability, large-source chunking, session start/close minimums,
 update-over-create, contradiction flagging, recency markers, and the lint pass
-are defined once in `00-BRAIN\AGENT.md § Wiki Shared Layer`. This wiki's
+are defined once in `00-BRAIN\WIKI_SHARED_LAYER.md`. This wiki's
 expanded protocols live in `wiki\protocols.md` and supersede the shared
 minimums when running full sessions.
 
