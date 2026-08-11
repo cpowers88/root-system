@@ -12,6 +12,12 @@
 
 *.py text eol=lf
 
+# Shell scripts: LF for the same reason as Python. A CRLF `#!/usr/bin/env bash`
+# line makes Linux report "bad interpreter: No such file or directory".
+*.sh    text eol=lf
+*.bash  text eol=lf
+*.zsh   text eol=lf
+
 # Binary — never touched by line-ending conversion.
 *.pdf   binary
 *.docx  binary

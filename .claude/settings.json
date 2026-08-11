@@ -6,7 +6,16 @@
       "Bash(python 00-BRAIN/scripts/root_health.py *)",
       "Bash(python 00-BRAIN\\scripts\\root_health.py)",
       "Bash(python 00-BRAIN\\scripts\\root_health.py *)",
-      "Bash(python 00-BRAIN/scripts/frontmatter_audit.py *)"
+      "Bash(python 00-BRAIN/scripts/frontmatter_audit.py *)",
+      "Bash(python3 00-BRAIN/scripts/root_health.py)",
+      "Bash(python3 00-BRAIN/scripts/root_health.py *)",
+      "Bash(python3 00-BRAIN/scripts/frontmatter_audit.py *)",
+      "Bash(python 00-BRAIN/scripts/validate_boot_chain.py)",
+      "Bash(python3 00-BRAIN/scripts/validate_boot_chain.py)",
+      "Bash(python 00-BRAIN/scripts/verify_controls.py)",
+      "Bash(python3 00-BRAIN/scripts/verify_controls.py)",
+      "Bash(bash 00-BRAIN/scripts/safe_shell.sh --list)",
+      "Bash(bash 00-BRAIN/scripts/safe_shell.sh --selftest)"
     ],
     "deny": [
       "Read(/88-JOURNAL/**)",

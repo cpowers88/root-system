@@ -38,6 +38,9 @@ BOOT_FILES = [
     ROOT / "00-BRAIN" / "AGENT.md", ROOT / "00-BRAIN" / "CLAUDE.md",
     ROOT / "00-BRAIN" / "CODEX.md",
     ROOT / "00-BRAIN" / "CHRIS_CORE.md", ROOT / "00-BRAIN" / "WHERE_IT_GOES.md",
+    # Conditionally loaded, not always-boot — but AGENT.md § Wiki Shared Layer
+    # points here, and 26 files reference that anchor, so its absence is a break.
+    ROOT / "00-BRAIN" / "WIKI_SHARED_LAYER.md",
     ROOT / "00-BRAIN" / "vault_map.md", ROOT / "00-BRAIN" / "SYSTEM_FLAGS.md",
     ROOT / "00-BRAIN" / "CASTLE" / "CLAUDE.md",
     ROOT / "00-BRAIN" / "CASTLE" / "CODEX.md",
@@ -152,9 +155,14 @@ def main() -> int:
     forbid("05-BUSINESS/06-Capability Library/README.md",
            r"client instance.{0,180}matching `?05-BUSINESS",
            "active client instances routed into .ROOT/05-BUSINESS")
-    require("00-BRAIN/AGENT.md",
+    # The eight wiki rules moved out of AGENT.md on 2026-08-11 (they apply only
+    # inside a hub, and AGENT.md is read in full by every session). The contract
+    # follows the content; AGENT.md must still route to it.
+    require("00-BRAIN/WIKI_SHARED_LAYER.md",
             r"temporal update.{0,100}context-dependent variant.{0,100}true contradiction",
             "wiki claim changes are classified before replacement")
+    require("00-BRAIN/AGENT.md", r"WIKI_SHARED_LAYER\.md",
+            "AGENT.md routes to the wiki shared layer it no longer inlines")
     require("00-BRAIN/CASTLE/wiki/opportunity-queue.md", r"\| OPP-\d{8}-\d{2} \|",
             "the live opportunity queue contains at least one evidence-backed item")
 
@@ -192,24 +200,48 @@ def main() -> int:
     # /home/<user> and the vault is /mnt/c/Users/chris/.ROOT. Requiring the
     # literal ~/.ROOT form there would pass a rule guarding an empty path.
     # Found 2026-08-11 during the flag #92 acceptance test.
-    def vault_deny(template: str) -> frozenset:
-        return frozenset({
-            template.format(vault="~/.ROOT"),
-            template.format(vault=ROOT.as_posix()),
-        })
+    def home_holds_vault() -> bool:
+        """True where `~/.ROOT` actually resolves to this vault."""
+        try:
+            return (Path.home() / ".ROOT").resolve() == ROOT.resolve()
+        except OSError:
+            return False
+
+    def vault_deny(template: str, *, must_resolve_here: bool) -> frozenset:
+        """Acceptable spellings of one required vault deny rule.
+
+        `must_resolve_here=False` is for the *template*, a source artifact that
+        is adapted at deploy time; both spellings are legitimate there.
+
+        `must_resolve_here=True` is for a *deployed* policy, where the `~/.ROOT`
+        spelling counts only if `~` really contains the vault. In WSL it does
+        not — `~` is /home/<user> — so accepting it there would pass a rule
+        guarding an empty directory while the real vault stayed open. That is
+        flag #95's exact failure mode, and the 2026-08-11 both-spellings fix for
+        flag #95 instance (1) reintroduced it here; caught and corrected the
+        same day.
+        """
+        spellings = {template.format(vault=ROOT.as_posix())}
+        if not must_resolve_here or home_holds_vault():
+            spellings.add(template.format(vault="~/.ROOT"))
+        return frozenset(spellings)
 
     project_required_deny = {frozenset({rule}) for rule in destructive_deny | {
         "Read(/88-JOURNAL/**)", "Edit(/88-JOURNAL/**)",
         "Write(/88-JOURNAL/**)", "Edit(/**/raw/**)",
         "Write(/**/raw/**)",
     }}
-    user_required_deny = {frozenset({rule}) for rule in destructive_deny} | {
-        vault_deny("Read({vault}/88-JOURNAL/**)"),
-        vault_deny("Edit({vault}/88-JOURNAL/**)"),
-        vault_deny("Write({vault}/88-JOURNAL/**)"),
-        vault_deny("Edit({vault}/**/raw/**)"),
-        vault_deny("Write({vault}/**/raw/**)"),
-    }
+    def user_deny_set(*, must_resolve_here: bool) -> set:
+        return {frozenset({rule}) for rule in destructive_deny} | {
+            vault_deny("Read({vault}/88-JOURNAL/**)", must_resolve_here=must_resolve_here),
+            vault_deny("Edit({vault}/88-JOURNAL/**)", must_resolve_here=must_resolve_here),
+            vault_deny("Write({vault}/88-JOURNAL/**)", must_resolve_here=must_resolve_here),
+            vault_deny("Edit({vault}/**/raw/**)", must_resolve_here=must_resolve_here),
+            vault_deny("Write({vault}/**/raw/**)", must_resolve_here=must_resolve_here),
+        }
+
+    template_required_deny = user_deny_set(must_resolve_here=False)
+    deployed_required_deny = user_deny_set(must_resolve_here=True)
     required_modes = {
         "defaultMode": "default",
         "disableBypassPermissionsMode": "disable",
@@ -240,9 +272,9 @@ def main() -> int:
     validate_permissions(project_settings, "Claude project settings",
                          project_required_deny)
     validate_permissions(user_template, "Claude user-policy template",
-                         user_required_deny)
+                         template_required_deny)
     validate_permissions(user_settings, "deployed Claude user settings",
-                         user_required_deny)
+                         deployed_required_deny)
 
     if project_settings is not None:
         permissions = project_settings.get("permissions", {})
