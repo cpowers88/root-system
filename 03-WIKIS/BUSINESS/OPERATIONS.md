@@ -129,17 +129,21 @@ contracts, client work, or use of private/client data.
 Chris explicitly approves consequential action. CASTLE activates bounded tests.
 Filled client artifacts never live in this wiki.
 
-## Return packet
+## Return packet — business close additions
 
-Every real test returns:
+The packet itself is not defined here. `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`
+§ Return Packet owns the canonical five fields, and that contract forbids
+competing definitions. Return those five.
 
-1. outcome;
-2. evidence link;
-3. affected strategy assumption or goal;
-4. capability/status movement;
-5. reusable-asset candidate;
-6. system-learning candidate; and
-7. next decision and review trigger.
+A real business test adds two fields on top of the canonical five:
+
+- **Affected strategy assumption or goal** — which `CURRENT_STRATEGY.md` §5
+  assumption the result moves, or explicitly none.
+- **Next decision and review trigger** — the date or condition that reopens it.
+
+Both are the capability contract's own `Business test` per-operation row
+("assumption, test, displacement, measured outcome, next verdict date") stated
+in this wiki's terms. They extend the packet; they never replace it.
 
 ## Close
 

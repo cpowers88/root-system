@@ -1,0 +1,32 @@
+# Line endings are pinned here so Windows git and WSL2 git agree.
+#
+# Without this, moving Claude execution into WSL2 (flag #92) makes Linux git
+# see a different working tree than Windows git wrote, and all 1,684 tracked
+# files show as modified. gitattributes overrides core.autocrlf on both sides.
+#
+# CRLF is the default because the working tree is already CRLF and Obsidian
+# runs on Windows. Python is the exception: LF keeps the `#!/usr/bin/env
+# python3` shebangs executable when a script is run directly under Linux.
+
+* text=auto eol=crlf
+
+*.py text eol=lf
+
+# Binary — never touched by line-ending conversion.
+*.pdf   binary
+*.docx  binary
+*.xlsx  binary
+*.pptx  binary
+*.zip   binary
+*.7z    binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.mp3   binary
+*.mp4   binary
+*.mov   binary
+*.db    binary
+*.sqlite binary
+*.h5p   binary
+*.ico   binary
