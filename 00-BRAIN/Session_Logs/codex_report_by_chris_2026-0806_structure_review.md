@@ -1,5 +1,14 @@
+---
+type: report
+timeline: log
+status: active
+register: system-review
+tags: [governance, codex, audit]
+created: 2026-08-10
+---
+
 # Codex reply on structure change
-## Logged by Chris  
+## Logged by Chris
 
   The target architecture is directionally sound, but it is not ready to consolidate yet. The independent challenger
   reached the same conclusion with no material disagreement.
