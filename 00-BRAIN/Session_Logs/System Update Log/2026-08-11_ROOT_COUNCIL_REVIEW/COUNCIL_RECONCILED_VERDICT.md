@@ -255,12 +255,35 @@ parsing so it cannot fire a live API call when probed.
 ## Decisions required from Chris
 
 1. **Approve the sequence**, or reorder it. Steps 1–2 are loss-prevention and are recommended
-   regardless.
+   regardless. — *open*
 2. **T1 — confirm the framing:** AI/ML Developer as named destination with prerequisites,
-   data analysis as the near-term income-facing capability.
+   data analysis as the near-term income-facing capability. — *open, but see decision 3*
 3. **The priority swap** in `NORTH_STAR.md` §4 — does income evidence outrank the study floor
-   between now and December?
-4. **Step 8 scope** — full instruction-layer cut, or the provenance trim only.
+   between now and December? — **DECIDED 2026-08-11: NO.** Chris: *"income is not as important
+   as getting the system optimized to best lead us to our 2031 goal."* Seat 2's proposed swap
+   is **declined**. The existing `NORTH_STAR.md` §4 order stands unchanged and needs no edit —
+   Chris's call reaffirms it rather than altering it.
+4. **Step 8 scope** — full instruction-layer cut, or the provenance trim only. — *open*
+
+### What decision 3 changes about this document
+
+Seat 2 argued the priority order was wrong for a fourteen-week clock. Chris has ruled that the
+clock is the 2031 destination, not December. Consequences, so no future session re-derives this:
+
+- The recommended sequence is **unchanged**. Steps 1–2 are loss prevention, and steps 3–4 (the
+  proof instrument and the first ML rep) serve compounding capability more directly than they
+  ever served income. Nothing in the order depended on the income framing.
+- **Seat 3's position is strengthened, not weakened.** Its finding that AI/ML Developer lands
+  *with* the degree (~36 months) and is not a December answer is no longer a caution — it is
+  the plan. Its Fall/Spring/Summer path adds ~3 blocks of load to a semester already running.
+- Seat 2's proposed `NORTH_STAR.md` §2 additions still stand on their own merit: the
+  aspirational role and its prerequisites appear in **zero** governing files, which remains a
+  real gap under any priority order. That is decision 2, and it is untouched by decision 3.
+- **One record needs reconciling, not relitigating:** `REVENUE_LAB\README.md` records the July
+  2026 funding cut as making additional income "a condition of continuing past Fall 2026."
+  If that condition still holds factually, it is a constraint independent of how the priorities
+  rank; if it has changed, the files carrying it should say so. Flagged for Chris — an
+  unreconciled survival claim sitting in a hub is how a future session re-raises a settled question.
 
 Nothing in this document has been implemented. Repairs already made today are recorded in
 `DAILY_2026-08-11.md` and are limited to factual corrections in authority files.
