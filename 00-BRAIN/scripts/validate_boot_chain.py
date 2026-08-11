@@ -186,17 +186,29 @@ def main() -> int:
         "Bash(git clean *)", "PowerShell(Remove-Item *)",
         "PowerShell(Clear-Content *)",
     }
-    project_required_deny = destructive_deny | {
+    # A required deny is a group of acceptable spellings; any one satisfies it.
+    # User-scope vault rules need this because the hybrid runs one policy from
+    # two environments: on Windows the vault is under ~, but in WSL ~ is
+    # /home/<user> and the vault is /mnt/c/Users/chris/.ROOT. Requiring the
+    # literal ~/.ROOT form there would pass a rule guarding an empty path.
+    # Found 2026-08-11 during the flag #92 acceptance test.
+    def vault_deny(template: str) -> frozenset:
+        return frozenset({
+            template.format(vault="~/.ROOT"),
+            template.format(vault=ROOT.as_posix()),
+        })
+
+    project_required_deny = {frozenset({rule}) for rule in destructive_deny | {
         "Read(/88-JOURNAL/**)", "Edit(/88-JOURNAL/**)",
         "Write(/88-JOURNAL/**)", "Edit(/**/raw/**)",
         "Write(/**/raw/**)",
-    }
-    user_required_deny = destructive_deny | {
-        "Read(~/.ROOT/88-JOURNAL/**)",
-        "Edit(~/.ROOT/88-JOURNAL/**)",
-        "Write(~/.ROOT/88-JOURNAL/**)",
-        "Edit(~/.ROOT/**/raw/**)",
-        "Write(~/.ROOT/**/raw/**)",
+    }}
+    user_required_deny = {frozenset({rule}) for rule in destructive_deny} | {
+        vault_deny("Read({vault}/88-JOURNAL/**)"),
+        vault_deny("Edit({vault}/88-JOURNAL/**)"),
+        vault_deny("Write({vault}/88-JOURNAL/**)"),
+        vault_deny("Edit({vault}/**/raw/**)"),
+        vault_deny("Write({vault}/**/raw/**)"),
     }
     required_modes = {
         "defaultMode": "default",
@@ -209,10 +221,13 @@ def main() -> int:
             return
         permissions = settings.get("permissions", {})
         actual_deny = set(permissions.get("deny", []))
-        missing = sorted(required_deny - actual_deny)
+        missing = sorted(
+            " or ".join(sorted(group))
+            for group in required_deny if not group & actual_deny)
         if missing:
             failures.append(f"{label} missing deny rules: {missing}")
-        unexpected = sorted(actual_deny - required_deny)
+        accepted = set().union(*required_deny) if required_deny else set()
+        unexpected = sorted(actual_deny - accepted)
         if unexpected:
             failures.append(
                 f"{label} has unreviewed capability-restricting deny rules: "

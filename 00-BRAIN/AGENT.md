@@ -153,6 +153,7 @@ local chain that can answer the active question safely.
 9. Every `raw\` folder is immutable unless Chris explicitly authorizes an exception.
 10. Editing an instruction file does not alter the already-loaded session; use a fresh session to test new behavior.
 11. Active client-specific/private work stays in a separate client workspace or repository outside `.ROOT`; only sanitized lessons, reusable methods/assets, approved case studies, and non-sensitive metadata return here.
+12. **Bulk edits are proven on a copy first.** Any operation touching many files in one pass — mass rewrite, rename, migration, scripted cleanup — runs against a disposable copy and has its output inspected before it is pointed at the working tree. This is not a courtesy check. Measured 2026-08-11: no environment currently enforces an OS-level write deny on a spawned process, and the permission layer matches command *strings*, not the paths a command resolves at runtime — so a stray glob has nothing standing in its way. Until that changes, this rule is the live control rather than a backup for one.
 
 System files include this file, surface profiles, `CHRIS_CORE.md`, `CHRIS.md`, hats, maps, placement rules, flags, North Star, templates, section operating files, and project instructions.
 
