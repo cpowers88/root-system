@@ -17,8 +17,7 @@ competence.
 - Active navigation: `wiki/index.md`
 - Durable stage sequence: `wiki/learning-path.md`
 - Semester pacing: `wiki/pacing-trigger-map.md`
-- Machine contract: `OPERATIONS.md`
-- AI loader: `CLAUDE.md`
+- Machine contract: `OPERATIONS.md` — also the AI entry point for this hub
 
 Current frontier: Stage 4, Motion in Two Dimensions. Confirm the exact next rep
 in `wiki/current-position.md`; do not infer progress from generated packets.

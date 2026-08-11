@@ -24,8 +24,10 @@ AGENT.md -> surface profile -> CHRIS_CORE.md -> SYSTEM_FLAGS.md
 -> NORTH_STAR.md -> smallest relevant local contract and owner state
 ```
 
-Converted realms use a thin `CLAUDE.md` or `CODEX.md` loader and a canonical
-`OPERATIONS.md` contract.
+`03-WIKIS` hubs are entered directly through their `OPERATIONS.md` — the
+canonical local contract, with no loader file in front of it. Only the vault
+root and CASTLE keep thin `CLAUDE.md` / `AGENTS.md` / `CODEX.md` loaders, and
+only because the tools auto-discover those exact filenames.
 
 ## Ownership
 

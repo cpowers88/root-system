@@ -16,6 +16,4 @@ You are Claude (Chat or Code) in .ROOT. This file exists at the vault root so Cl
 
 Inside a `03-WIKIS` hub, the section operating file is that hub's `OPERATIONS.md`. Read it directly.
 
-Do not add rules to this file.
-
-*On July 10, 2026 this slot held the post-split review prompt; it was executed and archived (`99-ARCHIVE\`). On August 10, 2026 the per-hub `CLAUDE.md` and `AGENTS.md` loaders were removed; hubs are now entered through `OPERATIONS.md`.*
+Do not add rules to this file. Migration history lives in `00-BRAIN\Session_Logs\`.

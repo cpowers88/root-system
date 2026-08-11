@@ -197,7 +197,7 @@ One copy, zero drift.
 ## Wiki Intake Boundary
 
 Each of the eight `03-WIKIS` hubs handles its own source intake per its own
-`CLAUDE.md` (raw/ folder, ingest protocol, page format) — route new source
+`OPERATIONS.md` (raw/ folder, ingest protocol, page format) — route new source
 material by subject using the Realm Check table above. Shared wiki rules
 (raw immutability, chunking, session minimums, lint, ingest discipline) live
 once in `00-BRAIN\AGENT.md § Wiki Shared Layer`.
