@@ -3,13 +3,13 @@ type: dashboard
 timeline: now
 status: active
 tags: [castle]
-generated: 2026-08-06
+generated: 2026-08-11
 ---
 
-# Morning Brief — August 6, 2026 (Thursday system load)
+# Morning Brief — August 11, 2026 (Tuesday)
 
-**ATTENTION —** The read-only health gate is BLOCKER because Claude's project sandbox lacks explicit denies for eight immutable `raw` folders; no governance repair proceeds before Chris approves scope.
+**ATTENTION —** No learner frontier movement since August 5; the day's work has been system repair. Two loss-bearing risks are open and unactioned: `raw\` capture loss (do not dedupe on hash) and no working backup outside GitHub.
 
-**START —** Complete the calendar-and-operations intake interview, then design the smallest school-first `.ROOT` overhaul that can launch the August 10 boot camp and survive Fall 2026.
+**START —** Resume **C1** (`53`/`NameError` plus independent `average(numbers)`), then **P1** (motion chain, 2D components, initial conditions). Do not date-advance past unchecked items.
 
-**CHRIS —** Answer the focused intake questions; approve exact structural or governance edits only after Codex presents the evidence, affected files, and one recommended implementation.
+**CHRIS —** Four decisions await you in `Session_Logs\System Update Log\2026-08-11_ROOT_COUNCIL_REVIEW\COUNCIL_RECONCILED_VERDICT.md`, plus approval of today's checkpoint scope before anything is committed.
