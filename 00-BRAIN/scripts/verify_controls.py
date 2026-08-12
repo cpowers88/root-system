@@ -258,6 +258,100 @@ def check_wrapper() -> None:
            ENFORCED if done.returncode == 0 else INERT)
 
 
+def check_bulk_gate(project: dict | None) -> None:
+    """Does the PreToolUse bulk-work gate actually block, in THIS environment?
+
+    Measured the way Claude Code invokes it: the configured command string is
+    read from settings.json, run through the shell, and fed real hook payloads.
+    Asking whether the files exist would answer the wrong question — the failure
+    mode this guards against is a hook whose command is dead in one environment
+    (WSL has `python3` and no `python`; Windows the reverse), because a hook that
+    cannot launch is a NON-BLOCKING error and the tool call proceeds unprotected.
+
+    Two probes, because a gate that blocks everything is as broken as one that
+    blocks nothing:
+      1. a bulk command MUST be denied (rc=2)
+      2. an ordinary command MUST pass (rc=0)
+    """
+    hooks = (project or {}).get("hooks", {}).get("PreToolUse", [])
+    entry = None
+    for group in hooks:
+        if group.get("matcher") != "Bash":
+            continue
+        for hook in group.get("hooks", []):
+            if "require_safe_shell" in str(hook.get("command", "")):
+                entry = hook
+                break
+    if entry is None:
+        record("PreToolUse bulk-work gate",
+               "required by AGENT.md File Safety 12",
+               "no hook configured — item 12 is prose again", INERT)
+        return
+
+    command = str(entry.get("command", "")).replace(
+        "${CLAUDE_PROJECT_DIR}", str(ROOT)
+    ).replace("$CLAUDE_PROJECT_DIR", str(ROOT))
+
+    # Reproduce the harness's invocation, not cmd.exe's.
+    #
+    # Measured 2026-08-11: on Windows `bash` on PATH is the WSL launcher at
+    # ...\WindowsApps\bash.exe, which cannot resolve a Windows-style path and
+    # exits 127. Claude Code runs shell-form hooks through Git Bash instead, so
+    # the gate fires correctly while this probe — going through cmd.exe with
+    # shell=True — saw 127 and reported the live gate as INERT.
+    #
+    # That false negative is the mirror of flag #95: there, config read as
+    # protection and enforced nothing; here, a working control read as dead.
+    # Both come from measuring something other than what actually runs.
+    if os.name == "nt" and command.lstrip().startswith("bash "):
+        git_bash = Path(r"C:\Program Files\Git\bin\bash.exe")
+        resolved = shutil.which("bash") or ""
+        if git_bash.is_file() and "WindowsApps" in resolved:
+            command = f'"{git_bash}" ' + command.lstrip()[len("bash "):]
+
+    def probe(bash_command: str) -> int | None:
+        payload = json.dumps({
+            "hook_event_name": "PreToolUse",
+            "tool_name": "Bash",
+            "cwd": str(ROOT),
+            "tool_input": {"command": bash_command},
+        })
+        try:
+            done = subprocess.run(
+                command, shell=True, input=payload,
+                capture_output=True, text=True, timeout=30, check=False,
+                cwd=str(ROOT),
+            )
+        except (OSError, subprocess.SubprocessError):
+            return None
+        return done.returncode
+
+    bulk_rc = probe("find . -name '*.md' -exec sed -i 's/a/b/' {} \\;")
+    safe_rc = probe("git status")
+
+    declared = "hook configured for Bash"
+    # rc=127 is "command not found" — the PROBE failed to launch, which says
+    # nothing about whether the hook launches under Claude Code's own runner.
+    # A measurement that could not run must never report its subject as dead;
+    # that is how a working control gets "fixed" or a protected environment gets
+    # declared open. Report the gap honestly instead.
+    launch_failed = bulk_rc is None or safe_rc is None or 127 in (bulk_rc, safe_rc)
+    if launch_failed:
+        record("PreToolUse bulk-work gate", declared,
+               "probe could not launch the hook command here — NOT evidence the "
+               "gate is dead; verify with a real bulk Bash call", UNMEASURABLE)
+    elif bulk_rc != 2:
+        record("PreToolUse bulk-work gate", declared,
+               f"bulk command NOT blocked (rc={bulk_rc}, expected 2)", INERT)
+    elif safe_rc != 0:
+        record("PreToolUse bulk-work gate", declared,
+               f"ordinary command wrongly blocked (rc={safe_rc}, expected 0)",
+               INERT)
+    else:
+        record("PreToolUse bulk-work gate", declared,
+               "bulk denied (rc=2), ordinary allowed (rc=0)", ENFORCED)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--network", action="store_true",
@@ -280,6 +374,7 @@ def main() -> int:
     check_network((project or {}).get("sandbox", {}), args.network)
     check_deployed_policy()
     check_wrapper()
+    check_bulk_gate(project)
 
     width = max(len(r[0]) for r in rows)
     for control, declared, measured, verdict in rows:

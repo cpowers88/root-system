@@ -159,6 +159,17 @@ local chain that can answer the active question safely.
     - **Copy-first (discipline).** Run it against a disposable copy and inspect the output before pointing it at the working tree.
     - **Wrapper (mechanism).** Launch it from WSL through `00-BRAIN\scripts\safe_shell.sh`, which derives its read-only bind list from the live tree and is the only OS-level write deny in this stack with measured enforcement. Run `safe_shell.sh --selftest` before a consequential pass; it refuses to run at all if its derivation looks wrong.
 
+    **Enforced since 2026-08-11.** A `PreToolUse` gate
+    (`.claude\hooks\require_safe_shell.sh`) denies bulk or scripted `Bash` work
+    that is not launched through the wrapper, and hands back the exact wrapped
+    command to run instead. It is a redirect, not a refusal. There is no
+    command-string override, because one an AI could type is not a control;
+    `ALLOWED_SCRIPTS` in the gate and the hook entry in `settings.json` are
+    Chris's to change. Measured by `verify_controls.py`; evidence in
+    `.claude\hooks\test_require_safe_shell.py`. This does **not** retire
+    copy-first — the gate routes work behind the wall, it does not inspect what
+    the work does once inside.
+
     Why both: neither existing layer constrains a spawned process. Claude Code's own `sandbox` block is inert here — measured negative on six independent dimensions by two sessions on 2026-08-11 — and the permission layer matches command *strings*, not the paths a command resolves at runtime, so a glob walks past it (2026-08-10, 2,713 files) and so does a relative path. Copy-first depends on whoever is at the keyboard remembering it; the wrapper does not, but only protects work actually launched through it. Each covers the other's gap.
 
 System files include this file, surface profiles, `CHRIS_CORE.md`, `CHRIS.md`, hats, maps, placement rules, flags, North Star, templates, section operating files, and project instructions.

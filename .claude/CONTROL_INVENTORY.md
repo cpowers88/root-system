@@ -39,6 +39,7 @@ dead in the other; that asymmetry is the whole point.
 | Deployed user policy vault denies | live | live | Windows uses `~/.ROOT/...`; WSL must use the resolved `/mnt/c/...` form. |
 | **`sandbox` block (whole)** | **INERT** | **INERT** | See below. |
 | `00-BRAIN\scripts\safe_shell.sh` | n/a | **enforcing** | The only measured OS-level write deny in this stack. |
+| `PreToolUse` bulk-work gate | **enforcing** | **enforcing** | Added 2026-08-11, measured in both environments the same day. Forces bulk/scripted `Bash` through the wrapper. See below. |
 
 ---
 
@@ -76,6 +77,93 @@ requirement can relax.
 
 ---
 
+## The `PreToolUse` bulk-work gate — item 12 stops being prose
+
+`AGENT.md` File Safety 12 requires bulk or scripted work to run through
+`safe_shell.sh`. Until 2026-08-11 nothing checked that. The requirement was a
+sentence in a file a session might not have read, and the two known incidents —
+the 2026-08-10 glob that rewrote 2,713 files, and the 2026-08-11 `fetch_fred.py`
+execution that wrote three ECON rows during a probe — were both cases where the
+sentence existed and did not fire.
+
+`.claude\hooks\require_safe_shell.sh` (launcher) plus `require_safe_shell.py`
+(gate) now deny any `Bash` command that could touch many files in one pass unless
+it is launched through the wrapper. **It is a redirect, not a refusal:** the deny
+message contains the exact wrapped command to run instead.
+
+**No string override exists, deliberately.** An escape hatch spelled in the
+command — an env prefix, a magic comment — is one an AI can type for itself, and
+a wall with an AI-accessible door is not a wall. The only ways past are the
+wrapper, or Chris editing `ALLOWED_SCRIPTS` / removing the hook. Both are human
+acts.
+
+**`ALLOWED_SCRIPTS` is a trust assertion, not a measurement.** Adding a name to
+it asserts someone read that script and confirmed it does not write `88-JOURNAL`
+or any `raw\`. Anything not named is gated — new-and-unreviewed is precisely the
+`fetch_fred.py` shape.
+
+**Fail-closed everywhere.** Missing gate file, no Python interpreter, empty or
+unparseable stdin, non-string command, internal crash — all exit 2 (deny). This
+is deliberate and is the opposite of the usual hook convention: Claude Code
+treats any exit code other than 0 or 2 as a *non-blocking error*, so a hook that
+merely breaks lets the tool call through. A gate that fails open is flag #95's
+failure mode with extra steps.
+
+**Why a launcher script and not a direct `python` command.** Measured
+2026-08-11: WSL has `python3` and no `python`; Windows has `python`
+(`C:\Python314`) and no `python3`. Either spelling hardcoded into the hook
+`command` is dead in one environment, and a dead hook fails open. The launcher
+resolves `python3`/`python`/`py` at run time and denies if none is found.
+
+**Quoted text is data; quoted text fed to `-c` is code.** `git commit -m "while
+testing, do not skip"` must pass and `bash -c 'for f in *; do rm $f; done'` must
+not, though both contain the same loop-shaped words. The gate blanks quoted spans
+before reading a command, except where an interpreter's `-c`/`-e` flag or `eval`
+makes the quoted span the program. This is not a refinement — a gate that blocks
+ordinary commit messages is one its user turns off within a day, and a turned-off
+gate protects nothing.
+
+**Command substitution is evaluated too.** `echo $(bash migrate.sh)` runs the
+script while looking like an `echo`, and the substitution survives quoting. Their
+bodies are classified recursively (depth-limited).
+
+**Evidence:** `.claude\hooks\test_require_safe_shell.py` — 59 classification
+cases and 11 end-to-end cases covering typical, edge, and failure/recovery
+shapes, per `AGENT.md`'s Agent Evaluation Gate. Re-run it after any change to
+the gate; a regression returns the hook to supervised use.
+
+**What this gate does NOT do.** It reads `Bash` tool calls. It does not constrain
+a process once started, does not inspect what an allowlisted script does, and is
+pattern-based — a sufficiently novel shape can be built that it does not
+recognise. It raises the cost of reaching the exposure in flag #96; it does not
+remove it, and `safe_shell.sh` remains the thing that actually enforces.
+
+**Windows measured 2026-08-11: ENFORCED.** Settled from a Windows session two
+ways — an actual bulk `Bash` tool call was denied with the correct redirect
+message, and `verify_controls.py` now reports `bulk denied (rc=2), ordinary
+allowed (rc=0)`. Both environments are live.
+
+**A false negative was found and fixed in the same check — read this before
+trusting any measurement here.** The first Windows run reported the gate
+**INERT (rc=127)**. The gate was fine; the *probe* was wrong. `check_bulk_gate()`
+ran the hook command through `subprocess(shell=True)`, which on Windows goes via
+`cmd.exe`, where `bash` resolves to the **WSL launcher**
+(`...\WindowsApps\bash.exe`) and cannot open a Windows-style path. Claude Code
+runs shell-form hooks through **Git Bash** (`C:\Program Files\Git\bin\bash.exe`),
+so the real hook fired the whole time. The probe now rewrites `bash` to Git Bash
+on Windows, and — more importantly — **rc=127 is no longer reported as INERT at
+all.** A probe that could not launch says nothing about its subject, so it now
+records NOT MEASURABLE with an instruction to confirm via a real bulk call.
+
+**This is flag #95's failure mode inverted, and it is just as dangerous.** There,
+config read as protection and enforced nothing. Here, a working control read as
+dead. A false "dead" reading gets a functioning guard ripped out, or gets an
+environment declared unprotected and worked in accordingly. **The rule that
+generalises: never let a measurement's own failure to run count as evidence about
+the thing it measures.**
+
+---
+
 ## Environment-dependent values — the portability rules
 
 Everything below is a place where one config is read from two environments.
@@ -107,5 +195,8 @@ there. Harmless, but they are not the WSL-side control they appear to be.
 
 1. Run `validate_boot_chain.py` — rules present and well-formed.
 2. Run `verify_controls.py` from **Windows and WSL** — rules actually bite.
-3. If a control measures INERT, either record it here or remove it. Leaving it
+3. If you touched `.claude\hooks\`, run
+   `python3 .claude/hooks/test_require_safe_shell.py` — the gate still classifies
+   correctly and still fails closed.
+4. If a control measures INERT, either record it here or remove it. Leaving it
    silent is the one outcome this file exists to prevent.

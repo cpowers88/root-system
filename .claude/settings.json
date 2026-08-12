@@ -15,7 +15,9 @@
       "Bash(python 00-BRAIN/scripts/verify_controls.py)",
       "Bash(python3 00-BRAIN/scripts/verify_controls.py)",
       "Bash(bash 00-BRAIN/scripts/safe_shell.sh --list)",
-      "Bash(bash 00-BRAIN/scripts/safe_shell.sh --selftest)"
+      "Bash(bash 00-BRAIN/scripts/safe_shell.sh --selftest)",
+      "Bash(python .claude/hooks/test_require_safe_shell.py)",
+      "Bash(python3 .claude/hooks/test_require_safe_shell.py)"
     ],
     "deny": [
       "Read(/88-JOURNAL/**)",
@@ -40,6 +42,21 @@
     "defaultMode": "default",
     "disableBypassPermissionsMode": "disable",
     "disableAutoMode": "disable"
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PROJECT_DIR}/.claude/hooks/require_safe_shell.sh\"",
+            "timeout": 15,
+            "statusMessage": "File Safety 12 — bulk work must run behind safe_shell.sh"
+          }
+        ]
+      }
+    ]
   },
   "sandbox": {
     "enabled": true,
