@@ -120,6 +120,15 @@ This is a bookmark. Do not present it as today's action and do not date-advance 
 3. Calculus review.
 4. TCOM structure.
 
+> ### 📋 Items 1 and 2 have a live plan. Read it before proposing update work.
+>
+> **`00-BRAIN\Session_Logs\System Update Log\2026-08-12_ROOT_UPDATE\UPDATE_PLAN.md`**
+>
+> It carries the constraints, what is already done with commit SHAs, what remains by
+> phase, the decisions waiting on Chris, and the lessons that must not be relearned.
+> **Extend that file — do not re-derive a plan from conversation.** Mark items done
+> there in the session they are done. It is written to survive a new chat window.
+
 ## Fixed and Dated
 
 - **August 17** — flag #57 escalation trigger: if PHYS 2211 §54 and ENGR 1000 BWD
@@ -140,6 +149,7 @@ This is a bookmark. Do not present it as today's action and do not date-advance 
 
 ## Owners — open these, not another dashboard
 
+- **The current update (live plan): `00-BRAIN\Session_Logs\System Update Log\2026-08-12_ROOT_UPDATE\UPDATE_PLAN.md`**
 - Direction: `01-NORTH_STAR\NORTH_STAR.md`
 - Sequence and proof status: `00-BRAIN\CASTLE\wiki\current-position.md`
 - Learner truth: `03-WIKIS\PYTHON\wiki\current-position.md`,
