@@ -132,23 +132,43 @@ instruction layer is ~17K words. **The problem is load, not mass.**
 
 ### Phase D — The load pattern / instruction-layer cut (NEEDS CHRIS'S AUTHORIZATION)
 
-**The finding:** ~15,327 of roughly 23,000 instruction words load on **every** session.
-Two-thirds of everything ever written to govern this vault is read before Chris types
-anything. `hats\` (7.7K) is the only conditional layer that exists.
+**⚠ CORRECTED 2026-08-12. An earlier figure in this file said ~15,327 words always-load.
+That was wrong** — it measured an assumed file list rather than the chain the system
+actually specifies. `BOOT_FILES` in `validate_boot_chain.py` is a **stale-reference
+checklist, not a load manifest** (it even annotates one entry "Conditionally loaded, not
+always-boot"). The Aug 10 figure of 6,773 was correct. Do not re-derive the larger number.
 
-Always-loaded, measured:
+**The real always-load is 6,803 words**, per root `CLAUDE.md` and `AGENT.md` § Session
+Start Protocol:
 
-| File | Words |
-|---|---|
-| `ROOT_OPERATING_MANUAL.md` | 3,107 |
-| `00-BRAIN\AGENT.md` | 2,675 |
-| `00-BRAIN\WHERE_IT_GOES.md` | 2,637 |
-| `00-BRAIN\SYSTEM_FLAGS.md` | 1,933 |
-| `START_HERE.md` | 1,338 |
-| `NOW.md` | 1,068 |
-| remaining 7 | 2,569 |
+| File | Words | Share |
+|---|---|---|
+| `00-BRAIN\AGENT.md` | 2,675 | 39% |
+| **`00-BRAIN\SYSTEM_FLAGS.md`** | **2,091** | **31%** |
+| `00-BRAIN\CHRIS_CORE.md` | 893 | 13% |
+| `01-NORTH_STAR\NORTH_STAR.md` | 582 | 9% |
+| `00-BRAIN\CLAUDE.md` (profile) | 459 | 7% |
+| root `CLAUDE.md` (pointer) | 103 | 1% |
 
-The first four are 11.7K of the 15.3K.
+**NOT always-loaded, and correctly so:** `START_HERE.md` (1,338) and
+`ROOT_OPERATING_MANUAL.md` (3,107) both carry `register: human-context` and are Chris's
+documents; the manual's own subtitle says it "does not repeat the map or copy AI
+governance — it points to both." `WHERE_IT_GOES.md` (2,637), `NOW.md` (1,269) and
+`MORNING_BRIEF.md` (189) load situationally. **That separation already exists. There is no
+easy win there — it was already taken.**
+
+**So the instruction layer is near minimal, and the target changes.** `SYSTEM_FLAGS.md` is
+31% of every session's load **and is the only component that grows without bound.** It was
+1,933 words on the morning of Aug 12 and 2,091 by that afternoon — ~158 words added by
+that day's own flag #97 and #98 work. Every flag opened, updated or root-caused adds
+permanently to what every future session must read, and the growth is forensic narrative:
+flag #96's entry alone runs several hundred words of measurement history.
+
+**The Phase D question is therefore:** does the full flag register need to load every
+session, or does a session need the open-flag summary — what is open, how severe, what it
+forbids — plus a pointer to the forensics? Better ratio than cutting `AGENT.md`, and it
+does not touch the flag #94 hazard, because flag archaeology is not a method: nothing an
+agent needs in order to *act* would stop loading.
 
 **⚠ HAZARD — this was attempted once and caused an open flag.** The **July 11 slim
 pass** moved substance behind a conditional load and produced **flag #94** (teaching-hat
