@@ -390,7 +390,7 @@ Append-only session record.
 - `wiki/flashcards/stage-4-motion-in-two-dimensions.md` (preview boundary only)
 
 ### Files created/updated
-- New: `02-LIBRARY\00-SCHOOL\02-Physics I\Flash Cards\Physics_Stages_01-03_Active.tsv`
+- New: `04-SCHOOL\02-Physics I\Flash Cards\Physics_Stages_01-03_Active.tsv`
   (35-card Anki import deck), `README_IMPORT_INSTRUCTIONS.md`, and
   `ADAPTIVE_REVIEW_LOG.md`.
 - Updated: `wiki/index.md` and this log.
@@ -412,7 +412,7 @@ Append-only session record.
   only the subdeck he actually needs instead of facing everything at once.
 
 ### What changed
-- Wrote `02-LIBRARY\00-SCHOOL\02-Physics I\Flash Cards\Physics_All_Stages.apkg`
+- Wrote `04-SCHOOL\02-Physics I\Flash Cards\Physics_All_Stages.apkg`
   via a one-off `genanki` script (`build_physics_anki.py`, run from the
   scratchpad, not added to the vault). It parses all 18
   `wiki/flashcards/stage-N-*.md` files directly — no content re-authored — and
@@ -852,7 +852,7 @@ Append-only session record.
   to keep pace for the semester, not just the stage-order path.
 
 ### Sources touched
-- `02-LIBRARY\00-SCHOOL\View Registration Information.md` — the real,
+- `04-SCHOOL\View Registration Information.md` — the real,
   confirmed PHYS 2211 Section 54 meeting pattern (MWF 9:10-10:05 AM lecture,
   Friday 11:30 AM-12:25 PM breakout, Aug 24-Dec 14 2026, Marietta Campus) —
   had not previously been pulled into the PHYSICS wiki.
@@ -901,7 +901,7 @@ Append-only session record.
   file still lived there. It does not: `raw/syllabus/` currently holds only
   the two real Fall 2026 section syllabi (`PHYS 2211 51` and `PHYS 2211 55`)
   plus `README.md`. The original `syllabus.pdf` was moved on 2026-07-21 to
-  `99-ARCHIVE\02-LIBRARY\00-SCHOOL\SYLLABI_REPLACED_2026-07-21\02-Physics I\
+  `99-ARCHIVE\04-SCHOOL\SYLLABI_REPLACED_2026-07-21\02-Physics I\
   syllabus.pdf` — confirmed by direct filesystem search, not inferred.
 - This is a harder break than the Python case (which cited an existing but
   non-canonical duplicate): here the exact cited file is genuinely gone from
@@ -1230,7 +1230,7 @@ existing next actions (Section 54 D2L confirmation, Aug 24+) are unchanged.
   the July 21 capture omitted the top instructor block.
 - Replaced the school-library Section 51 reference and preserved the July 21
   version under
-  `99-ARCHIVE/02-LIBRARY/00-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
+  `99-ARCHIVE/04-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
 - Corrected `source-map.md`, `syllabus-coverage-ledger.md`,
   `SYLLABUS_STATUS.md`, and flags #57/#85. The immutable PHYSICS `raw/` copy
   was not modified.

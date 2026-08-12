@@ -19,7 +19,7 @@ Chris should always be able to open this page and know what to read, practice, a
 **Generated through**: Stage 10 — Application Thinking
 **Current study stage**: Stage 4 — Functions
 **Stage 0 status**: Satisfied
-**Stage 1 status**: Satisfied (2026-07-13) — worked independently with Codex 2026-07-12, verified in session (explained type-conversion reasoning, correctly predicted/confirmed a `TypeError`, explained `+`-concatenation vs. f-strings). Evidence: `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\`.
+**Stage 1 status**: Satisfied (2026-07-13) — worked independently with Codex 2026-07-12, verified in session (explained type-conversion reasoning, correctly predicted/confirmed a `TypeError`, explained `+`-concatenation vs. f-strings). Evidence: `04-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\`.
 **Stage 2 status**: Satisfied (2026-07-16) — correction and cold explain-back
 verified; evidence and exact proof history live in `wiki/current-position.md`.
 **Stage 3 status**: Satisfied (2026-07-26) — fresh loop-and-accumulator gate

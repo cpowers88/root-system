@@ -78,10 +78,10 @@ has no face-to-face class meeting.
 
 ## Sources
 
-- Real syllabus: `02-LIBRARY\00-SCHOOL\04-ECON\ECON 1000 BAC (80643) Fall 2026 Syllabus.md`
-- OpenStax capture: `02-LIBRARY\00-SCHOOL\04-ECON\OpenStax - Principles of Economics 2e.md`
-- CORE Econ capture: `02-LIBRARY\00-SCHOOL\04-ECON\CORE Econ - The Economy 2.0.md`
-- FRED datasets: `02-LIBRARY\00-SCHOOL\04-ECON\datasets\`
+- Real syllabus: `04-SCHOOL\04-ECON\ECON 1000 BAC (80643) Fall 2026 Syllabus.md`
+- OpenStax capture: `04-SCHOOL\04-ECON\OpenStax - Principles of Economics 2e.md`
+- CORE Econ capture: `04-SCHOOL\04-ECON\CORE Econ - The Economy 2.0.md`
+- FRED datasets: `04-SCHOOL\04-ECON\datasets\`
 - FRED CPI clipping: `raw\Consumer Price Index for All Urban Consumers All Items in U.S. City Average.md`
 - Federal Reserve essay: `raw\lesson--great-depression-introduction-essay-wheelock.pdf`
 - Processed study guide: [[reading-guides/great-depression-cpi]]

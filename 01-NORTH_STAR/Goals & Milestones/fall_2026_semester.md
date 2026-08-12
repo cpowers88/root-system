@@ -16,7 +16,7 @@ review_trigger: 2026-08-01
 |---|---|
 | outcome | Complete Fall 2026 with independently usable programming and physics reasoning, successful performance across all registered courses, and at least one course-connected proof that contributes to durable technical or systems capability. |
 | why_now | CSE 1321/1321L require independent work without generative-AI assistance; PHYS 2211 requires cumulative calculus-based problem solving. Both reward preparation before workload compounds. |
-| owner | Course requirements: `02-LIBRARY\00-SCHOOL\`; learner truth: PYTHON, PHYSICS, and EDUCATION wikis; current sequencing: CASTLE and `NOW.md`. |
+| owner | Course requirements: `04-SCHOOL\`; learner truth: PYTHON, PHYSICS, and EDUCATION wikis; current sequencing: CASTLE and `NOW.md`. |
 | proof | Official course requirements verified; graded work completed within each course policy; owner-recorded mastery evidence; semester results reviewed; one reusable, non-submission artifact or capability proof harvested where permitted. |
 | review_trigger | August 1 readiness review; August 24 course activation; weekly during semester; after each major exam; semester close. |
 | status | active |
@@ -90,7 +90,7 @@ During the semester:
   may guide preparation but cannot control deadlines, grading, instructor
   policy, or AI use.
 - D2L and exact-section instructor communication supersede provisional records.
-- `02-LIBRARY\00-SCHOOL\SYLLABUS_STATUS.md` owns source status.
+- `04-SCHOOL\SYLLABUS_STATUS.md` owns source status.
 
 ### Workload gate
 

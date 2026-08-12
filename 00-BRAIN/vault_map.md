@@ -13,7 +13,7 @@ tags: [governance]
 
 ## The System in One Sentence
 
-Everything lives in `.ROOT`. `00-BRAIN` governs. `01-NORTH_STAR` commands. `02-LIBRARY\00-SCHOOL` holds course files. `03-WIKIS` grow knowledge. `05-BUSINESS` makes it money. Chris decides.
+Everything lives in `.ROOT`. `00-BRAIN` governs. `01-NORTH_STAR` commands. `04-SCHOOL` holds course files. `03-WIKIS` grow knowledge. `05-BUSINESS` makes it money. Chris decides.
 
 ## The Map Rule
 
@@ -82,7 +82,7 @@ recovery work.
 │                             Weekly plans live in CASTLE, not here.
 │
 ├── 02-LIBRARY\  ← reusable knowledge, projects, and school file home
-│   ├── 00-school\         ← course files: 01-CSE-Python, 02-Physics I, 03-TCOM,
+│   ├── 04-SCHOOL\         ← course files: 01-CSE-Python, 02-Physics I, 03-TCOM,
 │   │                         04-ECON, 05-ENGR, 99-EDG, OneNote, FallKSU.xlsx
 │   ├── .PROJECTS\         ← build/project docs (plain NAME; code lives on GitHub)
 │   ├── .raw ARCHIVE\      ← closed legacy source holding; add nothing new
@@ -139,7 +139,7 @@ Standing mechanism: before any write, confirm the parent chain traces to `.ROOT`
 by NAME against the live tree. Folder IDs are retired — do not use them.
 
 ---
-*Last updated: July 29, 2026 — mid-week structure review corrected `00-SCHOOL`/`REF-<NAME>`
-to the live lowercase `00-school`/`ref-<name>` casing (documentation-only fix; no folders
+*Last updated: July 29, 2026 — mid-week structure review corrected `04-SCHOOL`/`REF-<NAME>`
+to the live lowercase `04-SCHOOL`/`ref-<name>` casing (documentation-only fix; no folders
 renamed) in this file, `WHERE_IT_GOES.md`, and `02-LIBRARY\README.md`. Prior:
 July 25, 2026 (post-architecture interface reconciliation) | Next review: weekly*

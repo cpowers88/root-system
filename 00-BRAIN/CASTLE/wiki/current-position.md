@@ -68,7 +68,7 @@ The August 1 review may reorder these. CASTLE does not copy the practice schedul
 
 - Current action and temporary pauses: .ROOT\NOW.md
 - School learner truth: 03-WIKIS\PYTHON\wiki\current-position.md and 03-WIKIS\PHYSICS\wiki\current-position.md
-- Degree and registration evidence: 02-LIBRARY\00-school\Ellucian Degree Works Dashboard.md
+- Degree and registration evidence: 04-SCHOOL\Ellucian Degree Works Dashboard.md
 - Monthly weak-link decision: 01-NORTH_STAR\Goals & Milestones\capability_development_goal.md
 - Technology frontier: 02-LIBRARY\ref-AI-automation\TECHNOLOGY_LIBRARY_STRATEGY.md
 - Business strategy: 01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md

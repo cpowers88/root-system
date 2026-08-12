@@ -54,7 +54,7 @@ the four component-motion equations from memory, then complete
 1 sequence is in [[current-position#Seven-Day Plan — July 26 through August
 1, 2026]].
 
-**Recall decks:** `02-LIBRARY\00-SCHOOL\02-Physics I\Flash Cards\Physics_All_Stages.apkg`
+**Recall decks:** `04-SCHOOL\02-Physics I\Flash Cards\Physics_All_Stages.apkg`
 — one Anki package, `Physics` parent deck with a subdeck per stage (all 18,
 223 cards total, generated from this wiki's own `flashcards/` pages). Study only
 the subdeck for the active stage; see the Flash Cards folder's

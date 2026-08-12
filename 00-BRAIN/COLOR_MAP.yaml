@@ -7,7 +7,7 @@
 # Hex choices approved by Chris July 8, 2026 (doctrine updated same day —
 # supersedes the July 7 table wording in START_HERE.md, which was updated to match):
 # CASTLE keeps its live light brown, the Watchtower keeps its live blue-violet,
-# 00-SCHOOL keeps the former school magenta, and PYTHON takes light purple #9B59B6 —
+# 04-SCHOOL keeps the former school magenta, and PYTHON takes light purple #9B59B6 —
 # Chris judged this the most visually separating set for human eyes (it also
 # empties the crowded yellow/amber warm band: Amber, Gold, Orange now have room).
 # Two drifted values were corrected against doctrine: PHYSICS blue→cyan,
@@ -33,7 +33,7 @@ groups:
     color_hex: "#3C25E9"   # Blue-violet (live value kept — Chris, July 8)
   - name: "02-LIBRARY"
     path: "02-LIBRARY"
-    exclude_subpaths: ["02-LIBRARY/00-SCHOOL"]   # school file home has its own color
+    exclude_subpaths: ["04-SCHOOL"]   # school file home has its own color
     color_hex: "#E67E22"   # Orange (live value kept)
   - name: "WIKI-BUSINESS"
     path: "03-WIKIS/BUSINESS"
@@ -59,8 +59,8 @@ groups:
   - name: "WIKI-REVENUE_LAB"
     path: "03-WIKIS/REVENUE_LAB"
     color_hex: "#16A085"   # Teal — distinct from BUSINESS green and 05-BUSINESS dark green
-  - name: "00-SCHOOL"
-    path: "02-LIBRARY/00-SCHOOL"
+  - name: "04-SCHOOL"
+    path: "04-SCHOOL"
     color_hex: "#A314AD"   # Magenta-purple (former school-section color, kept after July 11 relocation)
   - name: "05-BUSINESS"
     path: "05-BUSINESS"

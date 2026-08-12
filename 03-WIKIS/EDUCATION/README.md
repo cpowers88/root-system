@@ -17,5 +17,5 @@ Start with:
 2. `wiki\current-position.md` for current course status.
 3. `wiki\index.md` for the complete catalog.
 
-Official school files remain in `02-LIBRARY\00-SCHOOL`. Python/CSE and Physics
+Official school files remain in `04-SCHOOL`. Python/CSE and Physics
 belong to their dedicated wikis.

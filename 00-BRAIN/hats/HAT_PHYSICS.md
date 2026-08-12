@@ -31,7 +31,7 @@ Schedule: MWF 9:10–10:05am | Breakout: Friday 11:30am–12:25pm
 Platform: WebAssign | Text: Serway & Jewett, 10th Edition
 Instructor: **Farhan Islam** (provisional) — confirmed for Section 54
 by two independent sources 2026-07-29: the online listing and Chris's
-Outlook registration confirmation (`02-LIBRARY\00-school\fall_KSU_schedule.md`,
+Outlook registration confirmation (`04-SCHOOL\fall_KSU_schedule.md`,
 CRN 83722). Section 54 syllabus content (grading, exams, policy) is still
 unposted — flag #57; neighbor Sections 51/55 are pacing references only.
 (Older notes said "Dr. Behera"/"Dr. Magar"; the two-source match supersedes.)

@@ -9,10 +9,10 @@ timeline: reference
 
 Study-support distillation of ECON, TCOM, and ENGR. The authoritative syllabus
 captures live in `03-WIKIS\EDUCATION\raw\Syllabi\`; general course materials
-(notes, datasets, textbooks) live in `02-LIBRARY\00-SCHOOL\` — this page
+(notes, datasets, textbooks) live in `04-SCHOOL\` — this page
 exists so any session supporting Chris's Fall coursework knows the structure,
 the deadlines rhythm, and above all **each course's AI policy** before
-touching anything. `02-LIBRARY\00-SCHOOL\SYLLABUS_STATUS.md` is the
+touching anything. `04-SCHOOL\SYLLABUS_STATUS.md` is the
 authoritative index of which source file is exact-section vs. reference-only
 across all six Fall courses, including CSE and PHYS (owned by PYTHON and
 PHYSICS, not this page).
@@ -67,7 +67,7 @@ and recaptured 2026-07-27 with exact meeting information.
 - **Reading/dataset prep (independent study only, not submitted work):**
   Four real FRED series (`GDP`, `GDPC1`, `CPIAUCSL` inflation, `UNRATE`
   unemployment) are already pulled and live at
-  `02-LIBRARY\00-SCHOOL\04-ECON\datasets\` (fetched 2026-07-21 via
+  `04-SCHOOL\04-ECON\datasets\` (fetched 2026-07-21 via
   `00-BRAIN\scripts\fetch_fred.py`; re-runnable any time for current data).
   Two open textbooks are placed alongside the syllabus in the same folder:
   OpenStax *Principles of Economics 2e* and CORE Econ's *The Economy 2.0*.
@@ -136,7 +136,7 @@ and recaptured 2026-07-27 with exact meeting information.
 **Status: reference only — Summer 2026 section W01, not Fall 2026 section
 BWD.** The available capture is a different term and a different instructor
 than Chris's actual Fall course; see `SYSTEM_FLAGS.md` #57 and
-`02-LIBRARY\00-SCHOOL\SYLLABUS_STATUS.md` for the live disposition.
+`04-SCHOOL\SYLLABUS_STATUS.md` for the live disposition.
 
 - **Reference source:** Summer 2026, Section W01 (51735), Instructor Matt
   Marshall (mmarsh32@kennesaw.edu). 1 credit hour, fully asynchronous online,
@@ -168,7 +168,7 @@ than Chris's actual Fall course; see `SYSTEM_FLAGS.md` #57 and
 
 Related: [[references/ai-programs-us-2026]] (KSU degree-landscape context).
 Syllabus captures: `03-WIKIS\EDUCATION\raw\Syllabi\`. General course
-materials: `02-LIBRARY\00-SCHOOL\`. Full six-course current-section
-index: `02-LIBRARY\00-SCHOOL\SYLLABUS_STATUS.md`. Calendar tagging for
+materials: `04-SCHOOL\`. Full six-course current-section
+index: `04-SCHOOL\SYLLABUS_STATUS.md`. Calendar tagging for
 these dates: `SYSTEM_FLAGS.md` #51 (Fall CASTLE calendar blocks, due before
 Aug 24).

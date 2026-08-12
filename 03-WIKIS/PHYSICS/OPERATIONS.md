@@ -41,7 +41,7 @@ exists.
 | Permanent direction and AI limits | `01-NORTH_STAR/NORTH_STAR.md` |
 | Fall 2026 readiness and outcomes | `01-NORTH_STAR/Goals & Milestones/fall_2026_semester.md` |
 | PHYSICS canonical syllabus evidence | `raw/syllabus/` |
-| Cross-course source status and noncanonical school references | `02-LIBRARY/00-SCHOOL/SYLLABUS_STATUS.md` |
+| Cross-course source status and noncanonical school references | `04-SCHOOL/SYLLABUS_STATUS.md` |
 | Learner truth and mastery evidence | `wiki/current-position.md` |
 | Syllabus-controlled execution path and durable stage packets | `wiki/learning-path.md` |
 | Semester reading and pacing triggers | `wiki/pacing-trigger-map.md` |

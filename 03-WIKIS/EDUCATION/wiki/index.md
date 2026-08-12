@@ -10,7 +10,7 @@ updated: 2026-07-24
 # EDUCATION Wiki Index
 
 Canonical catalog for general KSU course support. Current status lives in
-[[current-position]]. Official course files live in `02-LIBRARY\00-SCHOOL`.
+[[current-position]]. Official course files live in `04-SCHOOL`.
 
 ## Semester-wide course brief
 

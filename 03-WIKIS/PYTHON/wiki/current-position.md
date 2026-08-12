@@ -17,9 +17,9 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
 ## Chris's Actual Study Progress (where Chris is)
 
 - **Stage 0 — satisfied.** Chris meets every Stage 0 setup/orientation item already (see Learner Baseline below).
-- **Stage 1 — satisfied (2026-07-13).** Chris worked Stage 1 independently with Codex on 2026-07-12 (files: `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\{starter_prompt,variables,expressions,types}.py`) — real code, not generated-and-untouched. Verified in this session, not assumed from the code alone: explained why `int()`/`float()` conversions were needed before use, correctly predicted then confirmed a `TypeError` from `age + 5` on an unconverted string, and correctly reasoned through `+`-concatenation vs. f-string mechanics after one correction. `starter_prompt.py` satisfies the About Me mini-project spec (input, conversion, calculation, formatted output). `variables.py` also demonstrated early reassignment/accumulator patterns (Stage 3 territory) with no issues.
+- **Stage 1 — satisfied (2026-07-13).** Chris worked Stage 1 independently with Codex on 2026-07-12 (files: `04-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\{starter_prompt,variables,expressions,types}.py`) — real code, not generated-and-untouched. Verified in this session, not assumed from the code alone: explained why `int()`/`float()` conversions were needed before use, correctly predicted then confirmed a `TypeError` from `age + 5` on an unconverted string, and correctly reasoned through `+`-concatenation vs. f-string mechanics after one correction. `starter_prompt.py` satisfies the About Me mini-project spec (input, conversion, calculation, formatted output). `variables.py` also demonstrated early reassignment/accumulator patterns (Stage 3 territory) with no issues.
 - **Stage 2 — satisfied (2026-07-16).** `S2P1.py`, `S2P2.py`, `S2P3.py`, and
-  `Story.py` exist under `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-02-python_wiki\`.
+  `Story.py` exist under `04-SCHOOL\01-CSE-Python\Stages\Stage-02-python_wiki\`.
   Cold explain-back completed: Chris correctly explained why `Story.py` uses
   `elif` for mutually exclusive tunnel/bridge paths and `or` for the two
   equivalent bridge choices (spikes/snakes). `S2P3.py`'s grading rule was

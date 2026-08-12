@@ -267,7 +267,7 @@ Both open Stage 2 gates closed in this session:
 Stage 2 mastery checklist is satisfied. Chris is clear to advance to
 Stage 3 (Loops) next session.
 
-Files changed: `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-02-python_wiki\S2P3.py` (Chris's own edit, not AI-written); this log; `current-position.md`.
+Files changed: `04-SCHOOL\01-CSE-Python\Stages\Stage-02-python_wiki\S2P3.py` (Chris's own edit, not AI-written); this log; `current-position.md`.
 
 Next: open Stage 3 (`wiki/stages/stage-03-*.md`) and begin loops.
 
@@ -1119,7 +1119,7 @@ Unchanged: Stage 1 (Python atoms) output rep per current-position.md.
 ## 2026-07-13 — Stage 1 verified complete; advanced to Stage 2
 
 ### Work completed
-- Chris worked Stage 1 independently with Codex on 2026-07-12, outside this vault's own generated packet — real code in `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\` (`starter_prompt.py`, `variables.py`, `expressions.py`, `types.py`). This session verified it rather than assuming code-that-runs equals mastery: Chris explained why `int()`/`float()` conversions were needed before use, correctly predicted then confirmed a live `TypeError` from `age + 5` on an unconverted string (read and explained the traceback), and correctly reasoned through `+`-string-concatenation vs. f-string mechanics after one correction.
+- Chris worked Stage 1 independently with Codex on 2026-07-12, outside this vault's own generated packet — real code in `04-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\` (`starter_prompt.py`, `variables.py`, `expressions.py`, `types.py`). This session verified it rather than assuming code-that-runs equals mastery: Chris explained why `int()`/`float()` conversions were needed before use, correctly predicted then confirmed a live `TypeError` from `age + 5` on an unconverted string (read and explained the traceback), and correctly reasoned through `+`-string-concatenation vs. f-string mechanics after one correction.
 - `starter_prompt.py` satisfies the Stage 1 About Me mini-project spec (input, conversion, calculation, formatted output). `variables.py` also showed early reassignment/accumulator-pattern exposure (Stage 3 territory) with no confusion.
 - Stage 1 marked satisfied. Advanced current study stage to Stage 2 (Decisions and Boolean Logic).
 
@@ -1181,7 +1181,7 @@ Resume the Stage 2 mini-project: `wiki/mini-projects/stage-02-choose-your-path-a
 
 ### Work completed
 - Located the existing importable Anki TSV decks in
-  `02-LIBRARY\00-SCHOOL\01-CSE-Python\Flash Card.tsv\`: `Python_03_Conditionals.tsv`
+  `04-SCHOOL\01-CSE-Python\Flash Card.tsv\`: `Python_03_Conditionals.tsv`
   (Stage 2) and `Python_04_Loops.tsv` (Stage 3 preparation).
 - Preserved those existing decks rather than creating a duplicate. Added the two
   Stage 2 vocabulary cards absent from the conditional deck: **branch** and
@@ -1524,7 +1524,7 @@ the Stage 3 mastery gate.
 - Chris asked for a second set of eyes on `CLAUDE.md` and the two official Fall
   2026 syllabus captures, flagging possible dead/stale pointers.
 - Found: `syllabus-alignment.md` and `source-map.md` cited the two syllabi from
-  Chris's personal, ungoverned `02-LIBRARY\00-SCHOOL\01-CSE-Python\` folder as
+  Chris's personal, ungoverned `04-SCHOOL\01-CSE-Python\` folder as
   the "active source," while describing this hub's own `raw\syllabi\` — the
   folder `CLAUDE.md` itself names as the immutable source location for exactly
   this material — as holding only the old topic-only quick extracts
@@ -1782,7 +1782,7 @@ argument, and returned value before opening the Stage 4 reading.
   with fresh Simple Syllabus captures. Course requirements did not change; the
   new captures add exact meeting information and continuity-plan text.
 - Preserved the July 21 school-library copies under
-  `99-ARCHIVE/02-LIBRARY/00-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
+  `99-ARCHIVE/04-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
 - The immutable PYTHON `raw/syllabi/` captures remain dated July 21. Corrected
   `source-map.md` to stop claiming byte identity and escalated system flag #85
   to HIGH because the canonical-copy disagreement is now material.

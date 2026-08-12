@@ -53,7 +53,7 @@ answers while preserving relationships and calculation provenance.
 | KSU_Academic_Tracker_Brief.md | internal, spine | `02-LIBRARY\.PROJECTS\KSU_Academic_Tracker\` |
 | Practical SQL (Anthony DeBarros) | 1, inventoried not yet curriculum-built | `03-WIKIS\PYTHON\wiki\source-summaries\` (migrated from FORGE July 7, 2026; raw PDF in `03-WIKIS\PYTHON\raw\books\`) |
 | Luke Barousse SQL course | 3, support | web — 20-min off-day reps |
-| CSE 1321 + Lab | 1, spine | `02-LIBRARY\00-SCHOOL\01-CSE-Python\` — Fall 2026 course itself |
+| CSE 1321 + Lab | 1, spine | `04-SCHOOL\01-CSE-Python\` — Fall 2026 course itself |
 
 ## Proof Project
 [[ksu-academic-tracker]] — 4-table schema (courses, assignments, tests, readings),

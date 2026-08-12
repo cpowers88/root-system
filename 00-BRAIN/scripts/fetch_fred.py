@@ -7,7 +7,7 @@ import urllib.request
 import urllib.error
 
 ENV_PATH = r"C:\Users\chris\.root-secrets\FRED.env"
-OUT_DIR = r"C:\Users\chris\.ROOT\02-LIBRARY\00-SCHOOL\04-ECON\datasets"
+OUT_DIR = r"C:\Users\chris\.ROOT\04-SCHOOL\04-ECON\datasets"
 
 SERIES = {
     "GDP": "Gross Domestic Product (nominal, quarterly, billions $)",

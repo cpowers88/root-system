@@ -18,7 +18,7 @@ pages on 2026-07-15.
 
 **Source note (2026-07-23):** `syllabus.pdf` was superseded and archived on
 2026-07-21 — it no longer lives at `raw/syllabus/`; the current copy is
-`99-ARCHIVE\02-LIBRARY\00-SCHOOL\SYLLABI_REPLACED_2026-07-21\02-Physics I\syllabus.pdf`.
+`99-ARCHIVE\04-SCHOOL\SYLLABI_REPLACED_2026-07-21\02-Physics I\syllabus.pdf`.
 The page-by-page disposition and data-quality findings below are preserved as
 historical record. The two real Fall 2026 section syllabi in `raw/syllabus/`
 (Section 51 and Section 55 — see [[source-map]] and Cross-Section Verification

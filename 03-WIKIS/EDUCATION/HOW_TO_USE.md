@@ -14,7 +14,7 @@ should Chris study next?
 
 1. Open `wiki\current-position.md`.
 2. Open the relevant course folder through `wiki\index.md`.
-3. Verify consequential course facts against `02-LIBRARY\00-SCHOOL`.
+3. Verify consequential course facts against `04-SCHOOL`.
 4. Check the course AI policy before working on an assignment.
 
 ## Work loop

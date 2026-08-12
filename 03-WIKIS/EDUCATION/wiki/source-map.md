@@ -23,8 +23,8 @@ a reason. **Presence in `raw/` is not coverage.**
 
 | Source | What it is | Disposition |
 |---|---|---|
-| `raw/ECON 1000 BAC (80643) Fall 2026 Syllabus.md` | Exact-section capture, 2026-07-21 | Covered — [[course-briefs/fall-2026-course-briefs]], [[courses/econ-1000/semester-map]]. **No longer byte-identical** to the `02-LIBRARY\00-SCHOOL\04-ECON\` copy: the school-library file was recaptured 2026-07-27 and adds official meeting information plus the explicit statement that attendance is not graded. See flag #85 and the canonical-copy note below. |
-| `raw/TCOM 2010 04 (85633) Fall 2026 Syllabus.md` | Exact-section capture, 2026-07-21 | Covered — [[course-briefs/fall-2026-course-briefs]], [[courses/tcom-2010/semester-map]]. **No longer byte-identical** to the `02-LIBRARY\00-SCHOOL\03-TCOM\` copy: the school-library file was recaptured 2026-07-27 and adds exact meeting information. See flag #85 and the canonical-copy note below. |
+| `raw/ECON 1000 BAC (80643) Fall 2026 Syllabus.md` | Exact-section capture, 2026-07-21 | Covered — [[course-briefs/fall-2026-course-briefs]], [[courses/econ-1000/semester-map]]. **No longer byte-identical** to the `04-SCHOOL\04-ECON\` copy: the school-library file was recaptured 2026-07-27 and adds official meeting information plus the explicit statement that attendance is not graded. See flag #85 and the canonical-copy note below. |
+| `raw/TCOM 2010 04 (85633) Fall 2026 Syllabus.md` | Exact-section capture, 2026-07-21 | Covered — [[course-briefs/fall-2026-course-briefs]], [[courses/tcom-2010/semester-map]]. **No longer byte-identical** to the `04-SCHOOL\03-TCOM\` copy: the school-library file was recaptured 2026-07-27 and adds exact meeting information. See flag #85 and the canonical-copy note below. |
 | `raw/ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md` | **Wrong term and section** — Summer 2026 W01, not Fall 2026 BWD | Covered as reference only — [[course-briefs/fall-2026-course-briefs]]. Cannot control deadlines, grading, instructor policy, or AI use. Open flag #57. |
 | `raw/Open-TC-PDF.pdf` | The real assigned TCOM 2010 textbook, *Open Technical Communication* 4th ed. (CC-BY 4.0) | Covered — [[courses/tcom-2010/semester-map]] |
 | `raw/Open-TC_Course-Resources/` | Instructor ancillary package: slides, assignment templates, rubrics | Covered — [[courses/tcom-2010/semester-map]]. `Sample-Syllabi/` **intentionally excluded** — publisher-generic, not Chris's section. |
@@ -53,9 +53,9 @@ corrected to say so.
 ## Canonical-copy question — open, do not resolve unilaterally
 
 The exact-section syllabi existed byte-identically in this hub's `raw/` and
-in `02-LIBRARY\00-SCHOOL\` until the school-library copies were recaptured on
+in `04-SCHOOL\` until the school-library copies were recaptured on
 2026-07-27. This hub recorded on 2026-07-21 that the `raw/` copies are
-*convenience copies* and `02-LIBRARY\00-SCHOOL\` stays canonical.
+*convenience copies* and `04-SCHOOL\` stays canonical.
 
 `03-WIKIS\PYTHON` decided the **opposite** on 2026-07-23 for its own syllabi:
 `raw\syllabi\` is canonical and the `02-LIBRARY` copy is "Chris's personal

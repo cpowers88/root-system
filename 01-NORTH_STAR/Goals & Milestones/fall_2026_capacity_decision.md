@@ -122,9 +122,9 @@ it's arithmetic waiting on two numbers only Chris has.
 
 - `00-BRAIN\CHRIS.md` — full YouScience aptitude profile (Nov 2025), lived
   professional evidence, learning contract.
-- `02-LIBRARY\00-school\fall_KSU_schedule.md` — registrar-confirmed Fall 2026
+- `04-SCHOOL\fall_KSU_schedule.md` — registrar-confirmed Fall 2026
   schedule (6 courses, 13 credit hours, meeting times, CRNs).
-- `02-LIBRARY\00-school\SYLLABUS_STATUS.md` — canonical syllabus sourcing;
+- `04-SCHOOL\SYLLABUS_STATUS.md` — canonical syllabus sourcing;
   confirms 4 exact-section syllabi in hand, 2 gaps (PHYS §54, ENGR BWD) still
   open with an Aug 17 escalation trigger.
 - Four exact-section syllabi (`03-WIKIS\PYTHON\raw\syllabi\`,

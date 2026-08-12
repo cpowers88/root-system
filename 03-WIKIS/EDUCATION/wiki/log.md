@@ -151,7 +151,7 @@ updated: 2026-07-24
 - Chris pulled real, exact-section Simple Syllabus Markdown captures for ECON
   1000 and TCOM 2010 (plus CSE 1321/1321L, owned by PYTHON) on 2026-07-21,
   replacing the July 9 PDF ingest this page was built from. `fall-2026-course-briefs.md`
-  rewritten against the live files in `02-LIBRARY\00-SCHOOL\` — ECON confirmed
+  rewritten against the live files in `04-SCHOOL\` — ECON confirmed
   with no outstanding data-quality issue; TCOM's recycled January/Spring dates
   persist in the fresh capture too (confirmed as KSU's own Simple Syllabus
   template defect, not a stale-source artifact); ENGR's only available source
@@ -175,7 +175,7 @@ updated: 2026-07-24
   directly into this hub's `raw/` (for ease of use, no transcription errors)
   and archived the three superseded PDFs himself. Index updated to match:
   the raw table now lists the real current files, marks them as convenience
-  copies with `02-LIBRARY\00-SCHOOL\` staying canonical if the two ever
+  copies with `04-SCHOOL\` staying canonical if the two ever
   diverge.
 - Found two pre-existing files in `raw/` neither this hub's index nor any
   session had processed: `Learn To Learn in 109 minutes.md` (Justin Sung
@@ -221,7 +221,7 @@ updated: 2026-07-24
   this session.
 - Also confirmed, and did not act on: Chris authorized removing the
   Obsidian stray clip and asked whether the ECON/TCOM/ENGR syllabi now
-  duplicated between this hub's `raw/` and `02-LIBRARY\00-SCHOOL\` should
+  duplicated between this hub's `raw/` and `04-SCHOOL\` should
   be resolved by removing one copy. Both are file-removal actions inside
   `raw/`, which AI cannot perform directly per the finding above — left for
   Chris, with the duplicate-resolution direction itself still ambiguous in
@@ -240,7 +240,7 @@ updated: 2026-07-24
   `GDPC1` (real GDP), `CPIAUCSL` (CPI/inflation), `UNRATE` (unemployment).
   All four confirmed live and current — data through 2026-01 (quarterly) /
   2026-06 (monthly).
-- Output: `02-LIBRARY\00-SCHOOL\04-ECON\datasets\` (4 CSVs + README
+- Output: `04-SCHOOL\04-ECON\datasets\` (4 CSVs + README
   documenting source, license, and refresh instructions).
   `fall-2026-course-briefs.md`'s ECON reading/dataset-prep bullet updated to
   point at the real local files instead of the earlier abstract FRED
@@ -327,7 +327,7 @@ updated: 2026-07-24
     same staging folder — a reading companion to the dataset already pulled.
   - `View Registration Information.md` (Chris's real OwlExpress
     registration record, all six Fall 2026 CRNs/times/locations/instructors)
-    → moved to `02-LIBRARY\00-SCHOOL\` directly, not staged for any wiki
+    → moved to `04-SCHOOL\` directly, not staged for any wiki
     `raw/` — it's an official academic record like `Ellucian Degree Works
     Dashboard.md`, not domain source material.
   - The registration record materially narrowed `SYSTEM_FLAGS.md` #57:
@@ -399,7 +399,7 @@ updated: 2026-07-24
   source block now states both accurately; its cicmap-derived figures are
   marked as dated to the 2026-07-08 capture and not re-verifiable locally.
 - **Not resolved, by design.** The three exact-section syllabi are byte-identical
-  in this hub's `raw/` and in `02-LIBRARY\00-SCHOOL\`. This hub recorded
+  in this hub's `raw/` and in `04-SCHOOL\`. This hub recorded
   2026-07-21 that `02-LIBRARY` stays canonical; PYTHON recorded the opposite for
   its own syllabi on 2026-07-23. Chris's own question about which copy should be
   the sole source is still open in this log. Raised as system flag **#85** rather
@@ -461,7 +461,7 @@ updated: 2026-07-24
   meeting information, and ECON explicitly says attendance is encouraged but
   not graded.
 - Preserved the July 21 working copies under
-  `99-ARCHIVE/02-LIBRARY/00-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
+  `99-ARCHIVE/04-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
 - The delivered ENGR W01 Summer file was body-identical to the existing
   reference and was archived as a duplicate. Fall BWD remains missing.
 - The immutable EDUCATION `raw/` captures remain dated July 21 and now diverge

@@ -162,7 +162,7 @@ links come from the essay and which came from the course text or lecture.
 
 ## Data-Reading Path
 
-Use the local files in `02-LIBRARY\00-SCHOOL\04-ECON\datasets\` only for private
+Use the local files in `04-SCHOOL\04-ECON\datasets\` only for private
 practice unless the instructor assigns them.
 
 1. Open `CPIAUCSL.csv` and identify `date` and `value`.
@@ -197,5 +197,5 @@ For any case-study question, use this skeleton before selecting an answer:
 
 - `raw\lesson--great-depression-introduction-essay-wheelock.pdf`
 - `raw\Consumer Price Index for All Urban Consumers All Items in U.S. City Average.md`
-- `02-LIBRARY\00-SCHOOL\04-ECON\datasets\README.md`
-- `02-LIBRARY\00-SCHOOL\04-ECON\datasets\CPIAUCSL.csv`
+- `04-SCHOOL\04-ECON\datasets\README.md`
+- `04-SCHOOL\04-ECON\datasets\CPIAUCSL.csv`

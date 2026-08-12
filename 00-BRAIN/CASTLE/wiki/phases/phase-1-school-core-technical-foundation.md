@@ -37,7 +37,7 @@ a standalone service.
 ## Best Sources
 | Source | Tier | Location | What it proves |
 |---|---|---|---|
-| Course syllabi + D2L | 1 | `02-LIBRARY\00-SCHOOL\` | The actual workload |
+| Course syllabi + D2L | 1 | `04-SCHOOL\` | The actual workload |
 | `03-WIKIS\PYTHON` wiki | internal | `03-WIKIS\PYTHON\` | Staged Python learning path serving school readiness |
 | `03-WIKIS\PHYSICS` wiki | internal | `03-WIKIS\PHYSICS\` | Physics stages |
 | thinkpython / Python Crash Course | 1 | `03-WIKIS\PYTHON\raw\books\` | Course-aligned depth |

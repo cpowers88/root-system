@@ -23,7 +23,7 @@ Folder Structure):
 
 Both are direct Simple Syllabus captures from July 21, 2026, and both are
 byte-identical to a working duplicate Chris also keeps at
-`02-LIBRARY\00-SCHOOL\01-CSE-Python\` for his own coursework use — that copy is
+`04-SCHOOL\01-CSE-Python\` for his own coursework use — that copy is
 Chris's personal workspace, not wiki-governed, and is not the citation target.
 `raw\syllabi\CSE_lecture_syllabus.md` and `raw\syllabi\CSE_lab_syllabus.md` are a
 separate, older pair of schedule-only quick extracts (topic order only, no policy/

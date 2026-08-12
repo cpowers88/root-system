@@ -300,7 +300,7 @@ other named scopes pass. Slice A0 is clear.
 
 - Routed the sanitized July 19 Degree Works snapshot from Clippings to the
   program-wide school-file home at
-  `02-LIBRARY\00-SCHOOL\Ellucian Degree Works Dashboard.md`.
+  `04-SCHOOL\Ellucian Degree Works Dashboard.md`.
 - Resolved the apparent credit conflict: 41 completed degree-applicable plus 13
   registered Fall credits equals 54 completed-or-in-progress credits applied;
   the 121-credit degree therefore shows a minimum 67 additional credits needed.

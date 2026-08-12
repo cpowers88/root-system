@@ -16,7 +16,7 @@ tags: [physics, school]
 
 Semester readiness is controlled by
 `01-NORTH_STAR/Goals & Milestones/fall_2026_semester.md`. Exact course facts
-come from `02-LIBRARY/00-SCHOOL/`; provisional neighbor-section dates never
+come from `04-SCHOOL/`; provisional neighbor-section dates never
 replace Section 54 requirements.
 
 ## Work loop — calculus-bearing topics (the default; revised 2026-07-30)

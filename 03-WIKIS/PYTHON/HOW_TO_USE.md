@@ -53,7 +53,7 @@ readiness; it is not study progress.
 
 - No stage-skipping. No "just curious" advanced extraction — park it in
   `wiki\parking-lot.md`.
-- Official syllabi, assignments, and records live in `02-LIBRARY\00-SCHOOL\`.
+- Official syllabi, assignments, and records live in `04-SCHOOL\`.
   This wiki holds derivative study support.
 - **CSE 1321/1321L prohibit AI-assisted submitted work.** AI can teach a
   concept and build fresh practice; it cannot touch what you submit. When

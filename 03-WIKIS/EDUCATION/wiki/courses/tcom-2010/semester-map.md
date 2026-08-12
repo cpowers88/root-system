@@ -8,7 +8,7 @@ created: 2026-07-21
 # TCOM 2010 — Semester Resource Map
 
 Maps the real, exact-section syllabus schedule (see
-`../../course-briefs/fall-2026-course-briefs.md` and `02-LIBRARY\00-SCHOOL\03-TCOM\`) to the
+`../../course-briefs/fall-2026-course-briefs.md` and `04-SCHOOL\03-TCOM\`) to the
 actual assigned textbook (*Open Technical Communication*, `raw\Open-TC-PDF.pdf`),
 its instructor ancillary package (`raw\Open-TC_Course-Resources\`), and its
 per-example worked files (`raw\Linked-Resources\`, numbered by the book's own
@@ -71,7 +71,7 @@ before scheduling anything against a TCOM class day once the semester starts.
 
 ## Sources
 
-- Real syllabus: `02-LIBRARY\00-SCHOOL\03-TCOM\TCOM 2010 04 (85633) Fall 2026 Syllabus.md`
+- Real syllabus: `04-SCHOOL\03-TCOM\TCOM 2010 04 (85633) Fall 2026 Syllabus.md`
   (also mirrored in this hub's `raw\`)
 - Textbook: `raw\Open-TC-PDF.pdf` (*Open Technical Communication*, 4th ed.,
   Tijerina/Powell/Arnett/Logan/Race, CC-BY 4.0)

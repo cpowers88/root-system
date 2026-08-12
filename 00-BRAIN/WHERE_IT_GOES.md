@@ -44,7 +44,7 @@ approved case studies, and non-sensitive metadata return to `.ROOT`.
 AI instruction, session log, system flag, or map? → 00-BRAIN\
 Durable direction, current strategy, skill gaps, semester goal, or strategic review? → 01-NORTH_STAR\
 Material external signal already supported in its evidence home? → ...projectSuccess\radar.md
-Tied to a specific KSU course? → 02-LIBRARY\00-SCHOOL\[course]\
+Tied to a specific KSU course? → 04-SCHOOL\[course]\
 Has a deliverable, build, or launch goal? → 02-LIBRARY\.PROJECTS\[NAME]\
 Reusable reference (book, concept, cheat sheet)? → 02-LIBRARY\[domain]\
 Reusable client-facing capability asset or blank master? → 05-BUSINESS\06-Capability Library\ (or matching 05-BUSINESS folder)
@@ -162,7 +162,7 @@ One copy, zero drift.
 - **...projectSuccess\** — exactly two Watchtower files: operating contract in
   WATCHTOWER.md and material external-signal routing in radar.md. Evidence remains
   in the owning wiki; projects and strategy decisions never live here.
-- **02-LIBRARY\00-school\** — course-file home, one folder per course
+- **04-SCHOOL\** — course-file home, one folder per course
   (01-CSE-Python, 02-Physics I, 03-TCOM, 04-ECON, 05-ENGR, 99-EDG deferred);
   no extra KSU shell. `FallKSU.xlsx` + `OneNote\` live directly here.
   **AI restriction: CSE 1321 and ENGR 1000 prohibit AI on submitted
@@ -173,7 +173,7 @@ One copy, zero drift.
   scripts allowed per Format Rules). Live project list and status:
   `.ROOT\NOW.md` + `00-BRAIN\CASTLE\wiki\`. NOT here: reference material,
   business templates.
-- **02-LIBRARY\** — reusable knowledge by reference domain (00-school plus the
+- **02-LIBRARY\** — reusable knowledge by reference domain (04-SCHOOL plus the
   `ref-<name>` piles — renamed July 15, 2026 to `REF-<NAME>`, then to lowercase
   `ref-<name>` between July 13-27 under the lowercase-everything-else naming
   rule; see `02-LIBRARY\README.md`). PDFs for books, `.md` for notes. NOT

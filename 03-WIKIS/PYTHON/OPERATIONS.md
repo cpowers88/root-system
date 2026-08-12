@@ -42,8 +42,8 @@ spine — do not shrink, retire, or gut the hub because a semester finished.
 |---|---|
 | Permanent direction and AI limits | `01-NORTH_STAR\NORTH_STAR.md` |
 | Semester outcomes and readiness gates | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` |
-| Official syllabi, assignments, notes, records | `02-LIBRARY\00-SCHOOL\` |
-| Cross-course syllabus status | `02-LIBRARY\00-SCHOOL\SYLLABUS_STATUS.md` |
+| Official syllabi, assignments, notes, records | `04-SCHOOL\` |
+| Cross-course syllabus status | `04-SCHOOL\SYLLABUS_STATUS.md` |
 | Chris's learner truth and mastery evidence | `wiki\current-position.md` — sole owner |
 | Durable curriculum sequence | `wiki\learning-path.md` |
 | Course alignment and reading triggers | `wiki\syllabus-alignment.md` |

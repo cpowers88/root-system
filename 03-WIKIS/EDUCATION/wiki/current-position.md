@@ -31,7 +31,7 @@ opens.
   syllabus confirmed (schedule, both exam dates, quiz groupings all real,
   not D2L-dependent); AI allowed if credited. Two open textbooks (OpenStax,
   CORE Econ) and four real FRED datasets (GDP, GDPC1, CPIAUCSL, UNRATE)
-  placed in `02-LIBRARY\00-SCHOOL\04-ECON\` as free stand-ins for the
+  placed in `04-SCHOOL\04-ECON\` as free stand-ins for the
   paywalled D2L Day One text. `courses/econ-1000/semester-map.md` maps the real
   schedule to these substitutes — **lower confidence than TCOM's map**,
   since the real assigned book's actual chapter content stays invisible

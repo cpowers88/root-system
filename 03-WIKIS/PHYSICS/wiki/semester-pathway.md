@@ -57,7 +57,7 @@ binding. D2L is authoritative for everything in Week 1.
 eight-week schedule with a July 27 final. Its own frontmatter marks it
 `reference-only … scope corroboration only`. It is correctly archived; do not
 pace against it. `PHYS 2211 55 (83723) … Reference Only.md` in
-`02-LIBRARY\00-school\02-Physics I\` is a second neighbor section, same standing
+`04-SCHOOL\02-Physics I\` is a second neighbor section, same standing
 as 51.
 
 ### Verified defects in the printed schedule — 2026-08-08

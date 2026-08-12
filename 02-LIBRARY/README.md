@@ -25,7 +25,7 @@ the output realm packages them.
 
 | Folder | Holds |
 |---|---|
-| `00-school\` | Official course files per course (syllabi, notes, OneNote, D2L pulls) — the only LIBRARY folder with its own placement rules in `WHERE_IT_GOES.md` |
+| `04-SCHOOL\` | Official course files per course (syllabi, notes, OneNote, D2L pulls) — the only LIBRARY folder with its own placement rules in `WHERE_IT_GOES.md` |
 | `.PROJECTS\` | Active build docs and small scripts; real code lives on GitHub/local repos |
 | `.raw ARCHIVE\` | Closed legacy source holding; no new intake and no content changes without Chris's explicit raw exception |
 | `ref-math\` | Math textbooks (Strang, OpenStax calculus/precalc/stats) |

@@ -28,7 +28,7 @@ Start with:
 
 `OPERATIONS.md` is the local contract for any AI working here.
 
-Official course files stay in `02-LIBRARY\00-SCHOOL\`. General non-Python
+Official course files stay in `04-SCHOOL\`. General non-Python
 coursework belongs to `03-WIKIS\EDUCATION\`; physics to `03-WIKIS\PHYSICS\`.
 
 `raw\` is immutable. CSE 1321/1321L explicitly prohibit AI-assisted submitted

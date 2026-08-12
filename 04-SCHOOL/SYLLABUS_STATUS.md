@@ -8,7 +8,7 @@ tags: [school, syllabus, fall-2026]
 
 **Canonical homes, verified 2026-07-29:** PYTHON syllabi live in `03-WIKIS\PYTHON\raw\syllabi\`;
 PHYSICS syllabi live in `03-WIKIS\PHYSICS\raw\syllabus\` (one reference file, noted
-below, stays in `00-school\02-Physics I\` by Chris's explicit choice); EDUCATION
+below, stays in `04-SCHOOL\02-Physics I\` by Chris's explicit choice); EDUCATION
 syllabi (ECON, TCOM, ENGR) live in `03-WIKIS\EDUCATION\raw\Syllabi\`. This file
 stays here as the cross-course index; it does not hold the syllabi themselves.
 Classes start **August 24, 2026** — see the Pre-Semester Punch List at the
@@ -27,12 +27,12 @@ bottom for what has to close before then.
 
 | Course | Registered section | Available Markdown source | Use boundary |
 |---|---|---|---|
-| PHYS 2211 | 54 (83722) | `03-WIKIS\PHYSICS\raw\syllabus\PHYS 2211 51 (83719) Principles of Physics I.md` (Chris's selected path-truth source; the duplicate "Best copy" capture was removed 2026-08-08 and the surviving file's schedule verified identical); `02-LIBRARY\00-school\02-Physics I\PHYS 2211 55 (83723) Fall 2026 Syllabus - Reference Only.md`; `99-ARCHIVE\ARCHIVED_2026-07-29_PHYS 2211 54 (52148) Principles of Physics I.md` (Summer term, same section number/different CRN+instructor — retired to archive by Chris 2026-07-29, kept as scope corroboration only) | No exact Fall Section 54 syllabus. Section 51 matches likely instructor Farhan Islam and is the primary provisional pacing source; none of these three make Section 54 dates, grading, or policy binding |
+| PHYS 2211 | 54 (83722) | `03-WIKIS\PHYSICS\raw\syllabus\PHYS 2211 51 (83719) Principles of Physics I.md` (Chris's selected path-truth source; the duplicate "Best copy" capture was removed 2026-08-08 and the surviving file's schedule verified identical); `04-SCHOOL\02-Physics I\PHYS 2211 55 (83723) Fall 2026 Syllabus - Reference Only.md`; `99-ARCHIVE\ARCHIVED_2026-07-29_PHYS 2211 54 (52148) Principles of Physics I.md` (Summer term, same section number/different CRN+instructor — retired to archive by Chris 2026-07-29, kept as scope corroboration only) | No exact Fall Section 54 syllabus. Section 51 matches likely instructor Farhan Islam and is the primary provisional pacing source; none of these three make Section 54 dates, grading, or policy binding |
 | ENGR 1000 | BWD (80858) | `03-WIKIS\EDUCATION\raw\Syllabi\ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md` | Summer reference only; not Fall section BWD |
 
 ## Missing Current Sources — the two real gaps
 
-- **PHYS 2211 Section 54** has no section-specific syllabus. `02-LIBRARY\00-school\fall_KSU_schedule.md`
+- **PHYS 2211 Section 54** has no section-specific syllabus. `04-SCHOOL\fall_KSU_schedule.md`
   (Chris's actual Outlook registration confirmation, captured 2026-07-29) independently confirms the
   instructor as **Farhan Islam** and the meeting times (Fri 11:30–12:25, MWF 9:10–10:05, CRN 83722) —
   stronger than the earlier provisional online-listing match, but still not the syllabus content itself
@@ -49,7 +49,7 @@ Fresh Simple Syllabus captures replaced the July 21 working copies for CSE
 change; the new captures add exact meeting information. ECON also explicitly
 states that attendance is strongly encouraged but not graded. The July 21
 working copies are preserved under
-`99-ARCHIVE/02-LIBRARY/00-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
+`99-ARCHIVE/04-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
 
 The ENGR 1000 W01 file delivered with this batch was body-identical to the
 existing Summer reference. It was archived as a duplicate and does not close
@@ -82,7 +82,7 @@ Safe use: triangulate prerequisite concepts and broad topic coverage. Unsafe use
 
 On 2026-07-21, active school-library syllabus PDFs were replaced by Markdown captures for easier search and use. The retired PDFs and the stale ECON Markdown copy were preserved under:
 
-`99-ARCHIVE/02-LIBRARY/00-SCHOOL/SYLLABI_REPLACED_2026-07-21/`
+`99-ARCHIVE/04-SCHOOL/SYLLABI_REPLACED_2026-07-21/`
 
 Unrelated PDFs, including textbooks, lecture slides, and document examples, were not moved. Immutable wiki `raw/` evidence was not changed.
 
