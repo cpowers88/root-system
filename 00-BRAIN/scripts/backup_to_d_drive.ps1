@@ -6,6 +6,9 @@ param(
     [string]$LogPath         = 'D:\BACKUPS\ROOT_backup.log',
     [string]$StatePath       = 'D:\BACKUPS\ROOT_backup_state.json',
     [int]   $KeepSnapshots   = 8,
+    # Written into a snapshot only after its robocopy succeeds. A snapshot
+    # directory without this file is a partial copy, not a restore point.
+    [string]$SnapshotDoneMarker = '.snapshot_complete',
     [int]   $ShrinkTolerancePercent = 10,
     [switch]$DryRun,
     [switch]$Force
@@ -206,14 +209,47 @@ if ($mirrorHasContent) {
         Write-Step "Snapshotting the current mirror to $snapPath"
         [System.IO.Directory]::CreateDirectory($snapPath) | Out-Null
         & robocopy $Destination $snapPath '/E' '/R:1' '/W:2' '/NP' '/NFL' '/NDL' '/XJ' "/LOG+:$LogPath" | Out-Null
+
+        # FAIL CLOSED. Previously this only warned and let /MIR proceed, which
+        # removed the protection against source-side corruption in exactly the
+        # run where it had already proven unreliable. Reported by Codex review,
+        # 2026-08-12.
         if ($LASTEXITCODE -ge 8) {
-            Write-Warning "Snapshot reported robocopy exit $LASTEXITCODE. Mirror will still run; check $LogPath"
+            Write-Error @"
+Snapshot FAILED (robocopy exit $LASTEXITCODE) - refusing to mirror.
+Mirroring now would overwrite the only good copy with no retained fallback.
+Log: $LogPath
+"@
+            exit 2
         }
-        # Prune oldest snapshots beyond the retention count.
-        $snaps = Get-ChildItem -LiteralPath $SnapshotRoot -Directory |
-                 Sort-Object Name -Descending
-        if ($snaps.Count -gt $KeepSnapshots) {
-            foreach ($old in $snaps | Select-Object -Skip $KeepSnapshots) {
+
+        # Mark the snapshot complete. Measured 2026-08-12: the 12:30 scheduled
+        # run was terminated 11 seconds in (0xC000013A) and left a 1,527-file
+        # directory beside 4,267-file complete ones, indistinguishable by name,
+        # date, or presence. An unmarked directory is not a restore point, and
+        # the rotation below must never retain one as though it were.
+        Set-Content -LiteralPath (Join-Path $snapPath $SnapshotDoneMarker) `
+            -Encoding utf8 -Value @"
+complete: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')
+source mirror: $Destination
+robocopy exit: $LASTEXITCODE
+"@
+
+        # Prune: incomplete snapshots are deleted on sight regardless of age -
+        # they are not restore points and must not occupy a retention slot.
+        # Only complete ones count toward $KeepSnapshots.
+        $all = Get-ChildItem -LiteralPath $SnapshotRoot -Directory | Sort-Object Name -Descending
+        $complete = @()
+        foreach ($s in $all) {
+            if (Test-Path -LiteralPath (Join-Path $s.FullName $SnapshotDoneMarker)) {
+                $complete += $s
+            } else {
+                Write-Host "    discarding INCOMPLETE snapshot $($s.Name)"
+                Remove-Item -LiteralPath $s.FullName -Recurse -Force
+            }
+        }
+        if ($complete.Count -gt $KeepSnapshots) {
+            foreach ($old in $complete | Select-Object -Skip $KeepSnapshots) {
                 Write-Host "    pruning old snapshot $($old.Name)"
                 Remove-Item -LiteralPath $old.FullName -Recurse -Force
             }

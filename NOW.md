@@ -80,7 +80,7 @@ Prior content is recoverable from git.*
   August 10 incident was a PowerShell script. On Windows, bulk work is governed
   by discipline alone until that coverage exists.
 
-## Open Risks Surfaced August 11 — not yet actioned
+## Open Risks Surfaced August 11 — one actioned, two open
 
 These came from a four-seat council review (`Session_Logs\System Update Log\
 2026-08-11_ROOT_COUNCIL_REVIEW\COUNCIL_RECONCILED_VERDICT.md`, status **proposed**).
@@ -89,10 +89,19 @@ Listed here because two are loss-bearing, not because the roadmap is approved.
 1. **Source loss in `raw\` queues.** Seven files hold two articles between them;
    five sources exist as filenames with no content. **Do not dedupe on hash** — the
    filenames are the only record of what is missing.
-2. **No working backup.** `D:\BACKUPS\.ROOT` does not exist and never ran.
-   `G:\My Drive\.ROOT` is the wrong path. GitHub covers tracked files only, so
-   `88-JOURNAL`, every `raw\`, and `77-INBOX` rest on one manual Aug 9 copy.
-3. Four decisions await Chris in the council verdict; nothing in it is implemented.
+2. ~~**No working backup.**~~ **ACTIONED August 12** — flag #98. `D:\BACKUPS\.ROOT`
+   now exists, is guarded, scheduled daily 12:30, and was re-verified end to end at
+   14:27 (`LastTaskResult 0`, state file advanced, 8/8 snapshots marked complete).
+   An independent Codex review the same day caught that the *first* scheduled run
+   had failed while the record already claimed "live and verified" — snapshot
+   failure is now a hard stop, and partial snapshots are detectable rather than
+   posing as restore points. **Residual: the task's `LogonType` is `Interactive`,
+   so it still dies with Chris's session; `S4U` needs an elevated run.**
+   `G:\My Drive\.ROOT` remains the wrong path — the real copy is
+   `G:\My Drive\New folder\.ROOT` (stale Aug 9). Drive matters again: Chris ruled
+   Aug 12 that My Drive is the intended school↔home link.
+3. Four decisions await Chris in the council verdict; step 2 of its sequence is
+   now done, step 1 (`raw\` recovery list) is not. Nothing else is implemented.
 
 ## Active Lane — PAUSED
 

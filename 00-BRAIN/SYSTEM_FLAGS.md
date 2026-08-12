@@ -13,7 +13,7 @@ tags: [governance]
 > at every session start. The queue does not run; dated commitments are exempt.
 > Authority and full scope: the PAUSED block at the top of `.ROOT\NOW.md`.
 
-### Last updated: August 12, 2026 — flag #97 opened (`raw\` capture loss; do not dedupe on hash). Flag #98 opened and closed the same session (backup asserted but never run — now live and verified). August 11: flags #92 and #95 closed, #96 opened. No HIGH flags open.
+### Last updated: August 12, 2026 — flag #97 opened (`raw\` capture loss; do not dedupe on hash). Flag #98 opened and closed the same session (backup asserted but never run), then **re-opened and re-closed after independent Codex review found the first scheduled run had failed while the record said "live and verified"** — snapshot failure now fail-closed, partial snapshots now detectable, scheduled run re-verified `LastTaskResult 0` at 14:27. **Residual: the task's `LogonType` is `Interactive` and still dies with Chris's session; `S4U` needs an elevated run.** August 11: flags #92 and #95 closed, #96 opened. No HIGH flags open.
 
 ---
 
