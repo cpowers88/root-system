@@ -149,4 +149,4 @@ floor, not finish line.**
 6. Targets normally move at quarterlies. Chris may authorize a mid-cycle change after an impact review; AI does not move targets autonomously.
 
 ---
-*AI entry: `C:\Users\chris\.ROOT\CLAUDE.md` or `AGENTS.md` -> `00-BRAIN\AGENT.md` -> surface profile (`CLAUDE.md` / `CODEX.md`) -> CHRIS_CORE.md. The star: `01-NORTH_STAR\NORTH_STAR.md`. Live backup: `D:\BACKUPS\.ROOT`; G: is a legacy recovery snapshot.*
+*AI entry: `C:\Users\chris\.ROOT\CLAUDE.md` or `AGENTS.md` -> `00-BRAIN\AGENT.md` -> surface profile (`CLAUDE.md` / `CODEX.md`) -> CHRIS_CORE.md. The star: `01-NORTH_STAR\NORTH_STAR.md`. Live backup: `D:\BACKUPS\.ROOT`, first run and verified 2026-08-12 (before that date this line was aspirational — the mirror had never run); `G:\My Drive\New folder\.ROOT` is a stale one-time snapshot, not a live copy. Details: `00-BRAIN\LOCAL_MACHINE_MAP.md`.*

@@ -24,6 +24,24 @@ disappears is its own failure class.
 1. **Raw is immutable.** Read from a wiki's `raw\`; never modify, delete,
    rename, or reorganize it without Chris's explicit instruction. Extracted
    material goes into that wiki's `wiki\`.
+
+   > **DO NOT DEDUPE `raw\` ON HASH.** Measured 2026-08-11 across all 2,277
+   > non-journal `.md` files: seven files in `03-WIKIS\SYSTEMS\raw\` hold only
+   > two articles between them (one set of 4 identical, one set of 3). This is
+   > **not** a duplication bug to clean up — it is *capture loss*. The clipper
+   > pre-filled each note's name from whichever browser tab was active, then
+   > re-extracted the body at save time, so the **filename** is from the intended
+   > source and the **body** is from a different one. Five sources were never
+   > captured at all and exist as a filename and nothing else: "Eight Principles
+   > of Good Data Management", "Data Management for Researchers", "13 Project
+   > management", "Why Trust Science", and the O'Dea talk.
+   >
+   > **The filenames are the only surviving record of what is missing.** A
+   > hash-based cleanup would delete that evidence and make the loss permanent
+   > and invisible. The correct repair is to reconcile filename against
+   > frontmatter `title`/`source` and build a recovery list — deleting nothing.
+   > Open as flag #97; full analysis in `Session_Logs\System Update Log\
+   > 2026-08-11_ROOT_COUNCIL_REVIEW\COUNCIL_RECONCILED_VERDICT.md` § Data loss.
 2. **Large-source chunking.** Never extract a long PDF, book, or multi-part
    source in one pass. Work in chunks small enough to hold fully (10–15
    pages or one chapter/section); synthesize only after every chunk is

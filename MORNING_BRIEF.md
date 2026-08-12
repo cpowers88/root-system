@@ -3,13 +3,13 @@ type: dashboard
 timeline: now
 status: active
 tags: [castle]
-generated: 2026-08-11
+generated: 2026-08-12
 ---
 
-# Morning Brief — August 11, 2026 (Tuesday)
+# Morning Brief — August 12, 2026 (Wednesday)
 
-**ATTENTION —** No learner frontier movement since August 5; the day's work has been system repair. Two loss-bearing risks are open and unactioned: `raw\` capture loss (do not dedupe on hash) and no working backup outside GitHub.
+**ATTENTION —** `.ROOT` is **PAUSED** by Chris until he types `OK TO START`. The queue does not run and does not advance; read the PAUSED block in `NOW.md` before proposing any work. Dates are exempt: **Aug 17** flag #57 syllabus escalation, **Aug 22** rehearsal, **Aug 24** classes, and the unscheduled HP Victus wipe are all still live.
 
-**START —** Resume **C1** (`53`/`NameError` plus independent `average(numbers)`), then **P1** (motion chain, 2D components, initial conditions). Do not date-advance past unchecked items.
+**START —** Runway work, Chris-directed: `.ROOT` into good operating order, then folder-structure comfort, calculus review, TCOM structure. Do **not** open with C1/P1 — they are a held bookmark, not today's action.
 
-**CHRIS —** Four decisions await you in `Session_Logs\System Update Log\2026-08-11_ROOT_COUNCIL_REVIEW\COUNCIL_RECONCILED_VERDICT.md`, plus approval of today's checkpoint scope before anything is committed.
+**CHRIS —** Four decisions still open in `Session_Logs\System Update Log\2026-08-11_ROOT_COUNCIL_REVIEW\COUNCIL_RECONCILED_VERDICT.md` (decision 3 is answered). Backup and `raw\` source loss are being worked today.

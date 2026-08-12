@@ -26,13 +26,17 @@ file list older than the current session.
 ## Backup — Local Mirror
 
 ```
-D:\BACKUPS\.ROOT\   ← live daily local mirror; never an AI boot target or working tree.
-G:\My Drive\.ROOT\  ← retained legacy recovery snapshot only.
+D:\BACKUPS\.ROOT\      ← daily local mirror; never an AI boot target or working tree.
+D:\BACKUPS\snapshots\  ← dated copies of the previous mirror, last 8 kept.
+G:\My Drive\New folder\.ROOT\  ← stale one-time manual copy (2026-08-09). Not live.
+D:\ARCHIVE\.ROOT\      ← unowned July 19 copy, contains a nested .ROOT\.ROOT. Not a backup.
 ```
 
-Google Drive live synchronization is retired. `LOCAL_MACHINE_MAP.md` owns the
-current backup implementation details and must be checked against the live
-machine before recovery work.
+**Verified 2026-08-12.** The mirror first ran that day; every prior version of
+this section described it as live when it had never run once. Google Drive live
+synchronization is retired. `LOCAL_MACHINE_MAP.md` owns the current backup
+implementation details and must be checked against the live machine before
+recovery work.
 
 ## .ROOT — Verified Map
 

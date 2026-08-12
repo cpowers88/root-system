@@ -5,24 +5,62 @@ status: active
 tags: []
 ---
 
-# NOW — Tuesday, August 11, 2026 *(closed 21:xx)*
+# NOW — Wednesday, August 12, 2026
 
-> **Tomorrow starts with C1, not with the system.** Six consecutive days have
-> produced no learner proof. That is the one finding all four council seats
-> reached independently, and the system work is finished and in good shape.
+> # ⏸ `.ROOT` IS PAUSED
+>
+> **Declared by Chris, 2026-08-12. Resumes only when Chris types `OK TO START`.**
+>
+> The queue does not run and does not advance. No session opens by telling Chris
+> what he is behind on. The runway between now and the semester is Chris's, and
+> he has named how he is spending it: `.ROOT` in good operating order, comfort
+> with the folder structure and how work moves through it, calculus review, and
+> TCOM structure.
 
-*Refreshed 2026-08-11 from verified state. The previous edition was dated August 6
-and still announced a health BLOCKER cleared five days ago — the staleness flag #91
-was closed to prevent, reproducing live. Prior content is recoverable from git.*
+## What PAUSED means — read this before proposing work
+
+**Paused until `OK TO START`:**
+
+- The pre-semester learner queue — **C1**, **P1**, PYTHON Stage 4b, PHYSICS Stage 4.
+  Frontier positions are held where they are. Do not date-advance them, and do not
+  reopen them as "today's primary proof."
+- Weekly-plan lane driving. Week C's plan stays on file as a record, not as a
+  daily instruction.
+- The days-since-last-proof pressure. Six days without learner proof was a true
+  measurement on August 11; under PAUSE it is no longer a finding, because the
+  queue that generated the expectation is not running.
+- AI-initiated system proposals, new architecture, and new intake. Chris-directed
+  system work continues — that is the point of the pause, not an exception to it.
+
+**Not paused — a flag does not move a date:**
+
+| Item | Date | Owner |
+|---|---|---|
+| Flag #57 escalation — email PHYS 2211 §54 and ENGR 1000 instructors if syllabi have not posted | **Aug 17** | Chris, `SYLLABUS_STATUS.md` |
+| Dress rehearsal (Week D) | **Aug 22** | CASTLE |
+| Classes begin | **Aug 24** | fixed |
+| HP Victus campus laptop wipe/reinstall — needs lead time, budget a full session | before Aug 24 | Chris, unscheduled |
+| Calculus review and TCOM structure | runway | Chris — this *is* the runway work |
+| Loss-bearing risk (backup, `raw\` source loss) | now | see below |
+
+`AGENT.md` Execution Discipline 1 ("no optional system work before the day's
+primary proof") is **suspended for the runway** by Chris's direction, because
+during the pause the system work *is* the primary work. It resumes on
+`OK TO START`. This is a scoped, dated suspension recorded here — not a change
+to `AGENT.md`, which still governs.
+
+*Refreshed 2026-08-12. The August 11 edition opened with "Tomorrow starts with C1,
+not with the system"; Chris has redirected. That redirection is consistent with his
+August 11 council decision 3 — the clock is the 2031 destination, not December.
+Prior content is recoverable from git.*
 
 ## Frontier Changes
 
 *(clears after being shown once — mandatory on any hub stage/gate close)*
 
-- **No learner frontier movement since August 5.** PYTHON remains Stage 4b
-  (standard-library basics, nothing read). PHYSICS remains Stage 4 with the
-  circular-motion drill (1–4) still outstanding. Six days, 20+ sessions, one
-  touched learning — recorded and measured, not estimated.
+- **Shown August 11, now cleared:** no learner frontier movement since August 5.
+  PYTHON remains Stage 4b, PHYSICS Stage 4 with the circular-motion drill (1–4)
+  outstanding. Those positions are now **held under PAUSE**, not overdue.
 
 ## Verified System State
 
@@ -56,15 +94,22 @@ Listed here because two are loss-bearing, not because the roadmap is approved.
    `88-JOURNAL`, every `raw\`, and `77-INBOX` rest on one manual Aug 9 copy.
 3. Four decisions await Chris in the council verdict; nothing in it is implemented.
 
-## Active Lane
+## Active Lane — PAUSED
 
-**Week C (`CASTLE\wiki\weekly-plans\weekly-plan-2026-08-10-to-2026-08-16.md`)** —
-resume the interrupted queue from its true frontier and push Python past Stage 4b.
-Runway period: no classes until August 24.
+**No lane is running.** Week C
+(`CASTLE\wiki\weekly-plans\weekly-plan-2026-08-10-to-2026-08-16.md`) is suspended,
+not cancelled, and is not today's instruction.
 
-**Resume point unchanged:** **C1** (`53`/`NameError` plus independent
+**Held resume point, for `OK TO START`:** **C1** (`53`/`NameError` plus independent
 `average(numbers)`), then **P1** (motion chain, 2D components, initial conditions).
-Do not date-advance past unchecked items.
+This is a bookmark. Do not present it as today's action and do not date-advance it.
+
+**Runway work, Chris-directed (2026-08-12):**
+
+1. `.ROOT` into good operating and upgrading order — **in progress today.**
+2. Chris's comfort with the folder structure and how work moves through it.
+3. Calculus review.
+4. TCOM structure.
 
 ## Fixed and Dated
 
@@ -79,7 +124,8 @@ Do not date-advance past unchecked items.
 
 - School deadlines and academic integrity stay fixed.
 - No outreach, publishing, pricing, or offers without Chris's explicit approval.
-- Optional `.ROOT` work waits for the day's primary proof (Execution Discipline 1).
+- Execution Discipline 1 is **suspended for the runway** (see the PAUSED block above);
+  it resumes on `OK TO START`.
 - Bulk edits require **both** copy-first and `safe_shell.sh` (`AGENT.md` File Safety 12).
 - Generated material is preparation, not mastery or market proof.
 
