@@ -126,6 +126,26 @@ Measured 2026-08-12:
 `Session_Logs` breakdown: `System Update Log` 87 · `Report Archive` 44 · loose reports
 32 · handoffs 19 · DAILY 17 · closed flags 3.
 
+**C-open ran 2026-08-12. Three findings:**
+
+- **C-1 → flag #99 (real, and worse than the council said).** `sync_shared_skills.py`
+  mirrors `SKILL.md` only, not skill directories. `writing-for-agents\SKILL.md` links
+  twice to `SKILL-MECHANICS.md`, which is **absent from both mirrors**. `--check` returns
+  PASS exit 0 over it, **and `--sync` — the documented remedy — does not fix it.**
+  `root_health.py:178` calls `--check`, so the health gate inherited the false PASS all
+  day. Fix: mirror whole directories, and fail when a `SKILL.md` references an absent file.
+- **C-2 (downgraded — do not inflate this).** Instruction files spell `00-BRAIN\SKILLS\`
+  and `HATS\` (7 refs each); the real folders are `skills` and `hats`. **Tested from WSL:
+  `/mnt/c` is case-INsensitive, both paths resolve.** So this is a documentation-vs-actual
+  inconsistency, **not** a live breakage. Worth tidying, not worth a flag.
+- **C-3 (residue).** `00-BRAIN\skills\_staged\handoff\` is **tracked** (2 files, dated
+  2026-08-10) and its `SKILL.md` **differs** from the live `handoff` skill. The sync
+  validator counts 6 canonical skills and never sees it — present in git, invisible to
+  validation. Needs disposition: promote, delete, or move out of the canonical tree.
+
+`hats\` inventory (12 files, 7.7K): the `HAT_*_PLAYBOOKS.md` trio is 2,540 words of the
+total, and `HAT_EDUCATOR_PLAYBOOKS.md` (618w) is the file at the centre of open flag #94.
+
 **Correction on record:** an earlier claim that "`00-BRAIN` is 467K words of governance
 outweighing coursework 10:1" was misleading. 77% is history and 17% is CASTLE. The
 instruction layer is ~17K words. **The problem is load, not mass.**
