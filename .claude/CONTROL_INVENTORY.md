@@ -39,7 +39,8 @@ dead in the other; that asymmetry is the whole point.
 | Deployed user policy vault denies | live | live | Windows uses `~/.ROOT/...`; WSL must use the resolved `/mnt/c/...` form. |
 | **`sandbox` block (whole)** | **INERT** | **INERT** | See below. |
 | `00-BRAIN\scripts\safe_shell.sh` | n/a | **enforcing** | The only measured OS-level write deny in this stack. |
-| `PreToolUse` bulk-work gate | **enforcing** | **enforcing** | Added 2026-08-11, measured in both environments the same day. Forces bulk/scripted `Bash` through the wrapper. See below. |
+| `PreToolUse` bulk-work gate — `Bash` | **enforcing** | **enforcing** | Added 2026-08-11, measured in both environments the same day. |
+| `PreToolUse` bulk-work gate — **`PowerShell`** | **ABSENT** | n/a | **The hook matcher is `"Bash"` only. PowerShell tool calls are completely ungated** — and the 2026-08-10 incident that this whole chain exists to prevent *was a PowerShell script*. See below. |
 
 ---
 
@@ -161,6 +162,30 @@ dead. A false "dead" reading gets a functioning guard ripped out, or gets an
 environment declared unprotected and worked in accordingly. **The rule that
 generalises: never let a measurement's own failure to run count as evidence about
 the thing it measures.**
+
+### The gate covers `Bash` and NOT `PowerShell` — measured 2026-08-11
+
+`settings.json` declares the hook with `"matcher": "Bash"`. Nothing else. A
+bulk-shaped `PowerShell` call — a pipeline into `ForEach-Object` over every
+markdown file in the vault — **ran with no gate**, verified from a Windows
+session immediately after the `Bash` side was certified ENFORCED.
+
+**This matters more than any other line in this file.** The 2026-08-10 incident
+that produced flag #92, flag #96, `safe_shell.sh`, item 12, and this gate was a
+**PowerShell script** that rewrote 2,713 files. The gate built in response does
+not cover the shape of the incident that caused it, on Windows, where PowerShell
+is the native shell and the tool this vault reaches for first.
+
+Do not describe the bulk-work gate as covering "bulk work." It covers **bulk
+`Bash`**. Until a `PowerShell` matcher exists with a PowerShell-aware classifier
+(`ForEach-Object`, pipelines, `-Recurse`, `Remove-Item`, `Set-Content` over a
+glob — none of which the current bash-shaped patterns recognise), Windows bulk
+work is governed by discipline alone.
+
+`verify_controls.py` measures the `Bash` path only, so it reports ENFORCED while
+this hole is open — which is exactly the "reads as protection in an audit"
+failure this file exists to prevent, occurring inside the file's own subject.
+Extending the gate is queued as the next control-plane task.
 
 ---
 
