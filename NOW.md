@@ -5,7 +5,11 @@ status: active
 tags: []
 ---
 
-# NOW — Tuesday, August 11, 2026
+# NOW — Tuesday, August 11, 2026 *(closed 21:xx)*
+
+> **Tomorrow starts with C1, not with the system.** Six consecutive days have
+> produced no learner proof. That is the one finding all four council seats
+> reached independently, and the system work is finished and in good shape.
 
 *Refreshed 2026-08-11 from verified state. The previous edition was dated August 6
 and still announced a health BLOCKER cleared five days ago — the staleness flag #91
@@ -25,13 +29,18 @@ was closed to prevent, reproducing live. Prior content is recoverable from git.*
 - **Health gate: PASS WITH DEBT, exit 0.** Blockers 0; wiki review debt 4
   (pre-existing CASTLE navigation items); Markdown integrity 1,512 files, 0 findings.
 - **Boot chain: PASS**, 31 boot files, 1,348 live pages.
-- **No HIGH flags open.** Flags #92 and #95 closed August 11. Open: #57 (MEDIUM,
-  PHYS §54 syllabus, Aug 17 escalation), #93 (MEDIUM, session-close hook — approved,
-  unbuilt 30 days), #94 (MEDIUM, teaching-hat methods), #16 and #69 (LOW).
+- **No HIGH flags open.** Flags #92 and #95 closed August 11; **#96 opened** (a
+  spawned child can still write `88-JOURNAL` and every `raw\`). Open: #57 (MEDIUM,
+  PHYS §54 syllabus, Aug 17 escalation), #93 (MEDIUM, session-close hook — its
+  30-day blocker dissolved Aug 11, hooks are now proven), #94 (MEDIUM,
+  teaching-hat methods), #16 and #69 (LOW).
 - **An OS-level write deny now exists and is measured**, not asserted:
-  `00-BRAIN\scripts\safe_shell.sh`. Claude Code's own `sandbox` block remains inert —
-  see `.claude\CONTROL_INVENTORY.md` before citing any control as live.
-- **Working tree is uncommitted** pending checkpoint approval. Branch 0 ahead/0 behind.
+  `00-BRAIN\scripts\safe_shell.sh`. A `PreToolUse` gate makes File Safety 12 a
+  mechanism. Claude Code's own `sandbox` block remains inert — read
+  `.claude\CONTROL_INVENTORY.md` before citing any control as live.
+- **The gate covers `Bash` and NOT `PowerShell`** (measured Aug 11), and the
+  August 10 incident was a PowerShell script. On Windows, bulk work is governed
+  by discipline alone until that coverage exists.
 
 ## Open Risks Surfaced August 11 — not yet actioned
 
