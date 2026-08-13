@@ -27,18 +27,38 @@ proposal-first by his own condition.
 **Sequence, in this order** — `UPDATE_PLAN.md` and
 `claude_report_2026-08-12_friday_readiness.md` §4 hold the detail:
 
-| | Item | Est. | State |
-|---|---|---|---|
-| **T1** | Propagate the corrections into `UPDATE_PLAN.md` and this file | 30 m | **in progress — this file** |
-| **T3** | Flag #94 — inline the seven teaching methods into `HAT_EDUCATOR.md`, carry the encoding/retrieval model in with them (J-4), resolve the K-1 pace tension | 45 m | ready |
-| **T4** | Flag #99 — fix `sync_shared_skills.py` to mirror directories and fail on absent references | 1 h | ready |
-| **T5** | Archive rotation — `DAILY_2026-08-02`, the July 20–26 seven, dispose `DAILY_2026-07-16` | 45 m | ready, ruled |
-| **T6** | Restore test — mirror + one snapshot into a temp dir, compare hashes | 30 m | ready |
-| **T2** | Phase D — split `SYSTEM_FLAGS.md`; fix the `AGENT.md` L134/L153 load contradiction in the same pass | 2 h | **table to Chris first** |
-| **T7** | Phase A — `tmp\` delete, `outputs\` → `02-LIBRARY`, Watchtower files → `01-NORTH_STAR`, then `COLOR_MAP.yaml` | 45 m | ready, ruled |
-| **T8** | Build `EDUCATION\wiki\courses\tcom-2010\` on the PHYSICS/PYTHON pattern | 1 h | required by the gate |
+| | Item | State |
+|---|---|---|
+| **T1** | Propagate the corrections into `UPDATE_PLAN.md` and this file | ✅ **done** |
+| **T3** | Flag #94 — seven teaching methods inlined into `HAT_EDUCATOR.md` with the encoding/retrieval model; five subject hats pointed at them | ✅ **done — flag closed** |
+| **T4** | Flag #99 — `sync_shared_skills.py` mirrors directories and fails on absent references | ✅ **done — flag closed** |
+| **T5** | Archive rotation — nine DAILY files rotated; `AGENT.md` monthly-close clause added | ✅ **done** |
+| **T6** | Restore test — mirror + snapshot, hashes compared | ✅ **done — backup proven** |
+| **T8** | `EDUCATION\wiki\courses\tcom-2010\` built on the ECON pattern, six pages | ✅ **done** |
+| **T7** | Phase A — `tmp\` quarantined, `outputs\` and Watchtower moved, 22 refs repointed, `COLOR_MAP.yaml` | ⚠️ **content done; 3 empty folder shells need Chris** |
+| **T2** | Phase D — split `SYSTEM_FLAGS.md`; fix the `AGENT.md` L134/L153 load contradiction in the same pass | ⏳ **NOT STARTED — the one item left** |
 
-**T9 is done** — the safe word is live (see below). Roughly 7.5 hours total.
+**T9 was already done** — the safe word is live (see below).
+
+> ### The only remaining work is T2, and it is the one that matters most
+>
+> Phase D is what makes every future session cheaper: `SYSTEM_FLAGS.md` is 32% of the
+> always-load and the only part that grows without bound. **Two flags closing today
+> already cut it** — the register is smaller this afternoon than this morning for the
+> first time in a week. The split takes it from ~7,000 to a ~4,700 target.
+>
+> Chris authorized it proposal-first; the approved table is
+> `claude_review_packet_2026-08-12_load_and_hats.md`. **Codex's independent challenge
+> (its Priority 1) has not been filed** — the plan says to execute Thursday either way,
+> with any objections applied after.
+
+## Needs Chris — small, and blocking nothing else
+
+1. **Delete three empty folder shells:** `tmp\`, `outputs\`, `...projectSuccess\`. All
+   content is moved and verified; only scaffolding remains. Removal was declined three
+   times by the permission gate — correctly, since every phrasing was a recursive
+   force-delete in the vault. Explorer, or a command you run yourself.
+2. **The `S4U` backup residual** still needs one elevated run (below).
 
 ## ❄ FINDING FREEZE — operative today
 
@@ -67,16 +87,24 @@ Those are the hull, not the steering.
 - **Health gate: PASS WITH DEBT, exit 0.** Blockers 0; wiki review debt 4 (two CASTLE
   weekly-plan pages, each counted twice — Codex W1); Markdown integrity 1,528 files,
   0 findings.
-- **Always-load: 7,138 words**, up from 7,031 at last night's close and 6,859 the
-  evening before. **`SYSTEM_FLAGS.md` is 2,275 of it (32%) and is the only component
-  that grows without bound.** That is what T2 exists to fix; target ~4,700.
-- **`root_health.py` still reports "PASS: shared skill mirrors" — that line is false**
-  and stays false until T4 lands. It is flag #99: `--check` passes over a broken
-  reference and `--sync`, the documented remedy, does not repair it.
-- **No HIGH flags open.** Open: #99 (MEDIUM, the false-PASS validator), #97 (MEDIUM,
+- **Always-load: 6,923 words** — measured again after the day's work. It was **7,138**
+  this morning and 7,031 last night. **`SYSTEM_FLAGS.md` fell 2,275 → 1,976**, its first
+  decrease in a week, because closing flags #94 and #99 removed 299 words of forensics
+  from a file every session reads. Honest offset: **`AGENT.md` grew 2,826 → 2,908**
+  (+82) from the archive clause and the Watchtower repoint. Net **−215**.
+  **This is the first day the register shrank rather than grew** — and it happened by
+  closing flags, not by trimming prose. T2 is still the structural fix; target ~4,700.
+- **"PASS: shared skill mirrors" is now earned** (it was false this morning). T4 fixed it;
+  the validator was negative-tested on a deliberate break and fails at the canonical stage,
+  so a dead link cannot reach a mirror at all.
+- **Backup proven by restore, not assertion** — 8/8 hashes matched from both the mirror and
+  a marked-complete snapshot, including two irreplaceable `raw\` PDFs.
+- **No HIGH flags open.** **#99 and #94 both closed today.** Open: #97 (MEDIUM,
   `raw\` capture loss — **do not dedupe on hash**; reconciliation done, 5 sources still
   need re-clipping), #96 (MEDIUM, accepted-with-controls), #57 (MEDIUM, PHYS §54
-  syllabus, **Aug 17 escalation**), #93 and #94 (MEDIUM), #16 and #69 (LOW).
+  syllabus, **Aug 17 escalation**), #93 (MEDIUM), #16 and #69 (LOW).
+- **Git is in sync with GitHub again.** It was 13 commits behind this morning — the whole
+  Aug 12 evening governance session existed on one disk. Pushed on Chris's approval.
 - **The bulk-work gate covers `Bash` and NOT `PowerShell`** (measured Aug 11), and the
   August 10 incident was a PowerShell script. On Windows, bulk work is governed by
   discipline alone. Read `.claude\CONTROL_INVENTORY.md` before citing any control as live.
