@@ -84,6 +84,31 @@ run naming its three dispositions. Deliberately non-fatal — it needs Chris's r
 gate should not fail over an unanswered question. **This is the flag #99 lesson applied to
 itself:** the original defect was a check that stayed silent about something real.
 
+**T5 ✅ DONE (morning) — Phase B closed.** Nine DAILY files rotated to `Report Archive\` with
+`git mv`, explicitly named, no glob and no loop — nothing derived at runtime, so this was
+never the Aug 10 shape. `Session_Logs\` now holds only the current open week (Aug 10–12) plus
+the template, which is exactly what the rule allows.
+
+- `DAILY_2026-08-02` — its weekly was on file; archivable all along.
+- `DAILY_2026-07-20` … `DAILY_2026-07-26` — rotated on **Chris's ruling** that
+  `MONTHLY_JULY_2026.md` is the authorizing close. No weekly was backfilled.
+- **`DAILY_2026-07-16` disposition, resolved by reading both files rather than moving blind:**
+  it is **not a duplicate.** The loose file is a *post-archive continuation* — it says so in
+  its own header — recording four Codex/Claude blocks performed after the archive boundary
+  (GitHub repo salvage, folder icons, inbox routing). The archived file is the earlier
+  full-day record. Different work, both real. Archived as
+  `ARCHIVED_2026-08-13_DAILY_2026-07-16_continuation.md` so the name states what it is and
+  cannot collide with the existing archive entry. **Nothing deleted, nothing overwritten.**
+- **`AGENT.md` clause added** (Chris's decision 2): a week closed at monthly level rotates on
+  the monthly's authority. This is the gap that kept seven files loose for three weeks —
+  lesson 5, *a rule's trigger is part of the rule*, in its second confirmed instance.
+- **Naming inconsistency noticed and left alone:** the July batch stamped `ARCHIVED_` with the
+  DAILY's own date, the Aug 12 batch with the rotation date. I followed the recent convention.
+  Renaming historical archive entries would be rewriting the record (constraint 7). **Filed.**
+
+Gates after: boot chain PASS (31 files, 1,352 pages); `root_health.py` exit 0. Live Markdown
+went 1,530 → 1,521 files, which is the nine rotations reconciling exactly.
+
 **Filed under the freeze, not worked — three items:**
 
 1. **The bulk-work gate produced a fourth read-only false positive.** A `for` loop reading
