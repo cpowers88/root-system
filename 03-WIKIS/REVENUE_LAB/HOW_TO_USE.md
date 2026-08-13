@@ -11,10 +11,15 @@ created: 2026-07-24
 This wiki answers: **what revenue lane, backed by real evidence, fits your
 daily life and produces income soonest?**
 
-It exists because of the July 14, 2026 funding cut. Income that keeps you
-enrolled serves the school spine directly — which is why this hub is allowed to
-research lanes that are *not* part of the current Advisor-Builder vehicle. That
-permission stops at this hub's edge.
+It exists because of the July 14, 2026 funding cut. This hub is allowed to research lanes
+that are *not* part of the current Advisor-Builder vehicle. That permission stops at this
+hub's edge.
+
+> **⚠ Corrected 2026-08-13 by Chris's ruling.** This section previously framed income as what
+> *"keeps you enrolled."* **Enrollment is not gated on income.** Chris ruled 2026-08-11 that
+> optimizing the system toward the 2031 destination outranks near-term income, and reaffirmed
+> it 2026-08-13. Research here stays valuable — it is simply **not a survival lane**, and it
+> does not outrank school deadlines or the compounding-capability floor.
 
 ## Start
 

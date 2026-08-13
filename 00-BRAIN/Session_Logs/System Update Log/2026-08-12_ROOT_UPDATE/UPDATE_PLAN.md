@@ -311,6 +311,86 @@ reference inside it would never be caught. Boot chain now scans **32** files, PA
    layer survived a PASS. Whether the boot chain's 31-file scope should include `hats\` is a
    real question and it is **filed, not answered.**
 
+## Thursday 2026-08-13 **afternoon** — council + Window A execution
+
+**Chris commissioned a council review** (update-in-process, whole folder system, business/tech
+protection through the semester) and **supplied the live `.ROOT` Google Calendar**, which had
+never been read by any session. Report:
+**`COUNCIL_SEMESTER_READINESS_2026-08-13.md`** (this folder).
+
+### ⏰ The calendar moved the deadline — this is the session's most important output
+
+`NOW.md` said the `OK TO START` statement "comes next week." **The calendar shows next week is
+already booked for something requiring the release to have happened**:
+
+| Date | Chris's own event label | Hours |
+|---|---|---|
+| Sun **Aug 16** | **"This needs to be LAUNCH THE UPDATE into prep week"** | 10h00 |
+| Mon–Fri **Aug 17–21** | **"Do first week of class work with `.ROOT`"** | **37h30** |
+
+**The build window is ~32 hours and closes Sunday Aug 16 at 20:00.** Aug 17–21 is a rehearsal
+week that *uses* the system. **`NOW.md` § Fixed and Dated is wrong on two counts:** "Aug 22
+dress rehearsal" is actually *syllabi hunt + last-min prep*, and the real rehearsal is the
+preceding week. **Not yet propagated to `NOW.md` — needs Chris's confirmation of the Aug 16
+date first.**
+
+### Chris's four rulings — new governance, recorded
+
+| # | Ruling |
+|---|---|
+| **R1** | **Release gate bounded by file class.** Deep review for always-load / current-state / semester-critical only. **Supersedes "1,544 files × five fields"** in § Goal correction above |
+| **R2** | **Income is NOT a survival condition.** The Aug 11 ruling stands; floor goes to compounding capability |
+| **R3** | **Output bay = `work\` inside each course folder.** Phase E closed, Decision 5 closed, four days early |
+| **R4** | Campus laptop: Windows wipe already done, setup in flight. Not blocked |
+
+### Executed this afternoon
+
+- **✅ Phase E CLOSED (R3).** `work\README.md` created in all five Fall course folders —
+  `01-CSE-Python`, `02-Physics I`, `03-TCOM`, `04-ECON`, `05-ENGR`. Each names what lands there
+  and carries its course's academic-integrity boundary. `99-EDG` deliberately skipped (not a
+  Fall 2026 course).
+- **✅ R2 reconciled — 3 of 4 files corrected, 1 deliberately left alone.**
+  `REVENUE_LAB\README.md`, `HOW_TO_USE.md`, and `wiki\revenue-lane-scan-brief.md`
+  (`timeline: now`, ACTIVE) carry dated correction banners. **`wiki\log.md` was NOT touched** —
+  `type: log`, append-only, dated 2026-07-14. **Constraint 7: a log was true when written.**
+  Correcting live documents and preserving the historical record is the distinction.
+- **✅ NEW: `04-SCHOOL\SEMESTER_MAP.md`** — all five courses, one page, real Fall dates with a
+  🟢/🟡/🔴 confidence mark per item, plus an eight-item D2L ingestion list. This is the
+  instrument the Aug 17–21 rehearsal week actually runs on.
+- **✅ NEW: `00-BRAIN\CAMPUS_LAPTOP_BUILD.md`** — laptop build spec with four questions for Codex.
+
+### Findings from building the semester map — all FILED under the freeze
+
+1. **🔴 CSE 1321 exams require Respondus LockDown Browser, webcam, microphone and internet**
+   (`CSE 1321 BF syllabus:84`). 10 quizzes + 3 exams through D2L; **he does not attend class on
+   exam dates.** This appeared in **no** `.ROOT` file before today and is a hard machine
+   requirement. **Highest-consequence untested item on the laptop** — a LockDown failure at exam
+   time is a zero. *Not raised as HIGH because it is not yet a defect; it becomes one if
+   untested by Aug 24.*
+2. **TCOM's entire printed schedule uses recycled Spring dates** — "due Friday, January 16th",
+   "Tuesday, January 20th", "Tuesday, January 27th" in a Fall syllabus. The **relative** week
+   structure is sound and has been converted to real dates in `SEMESTER_MAP.md`. Flag #57's
+   recycled-date warning is now confirmed with specifics, in a second course.
+3. **CSE 1321's own calendar carries two anomalies**: a week-1 item dated *"Dec. 07"*, and
+   week 15 reading *"May 4th, 2026, Last Day of Classes."*
+4. **ECON 1000 has no dates anywhere in its syllabus** — all quiz/exam windows live on D2L only.
+   Grading is unusual and worth knowing: **only the two highest quiz scores count** (25% each).
+5. **`SYLLABUS_STATUS.md` is stale on ENGR sources.** It names only the Summer W01 reference,
+   but `ENGR 1000 Section 05 (81217) Introduction to Engineering.md` is also on disk. Section 05
+   is not BWD so flag #57 stays open, but the index should say the file exists.
+6. **Bulk-work gate: fifth read-only false positive.** A `for` loop running `grep` over three
+   named syllabi was blocked. Same class as the four already filed. Used the `Grep` tool
+   instead — which was the better tool anyway. **Still filed, not fixed.**
+
+### Council findings filed, not worked
+
+`UPDATE_PLAN.md` itself is **985 lines / ~11,000 words and growing daily** — the same unbounded
+append pattern Phase D was created to fix in `SYSTEM_FLAGS.md`. *Proposal: at update close,
+split it into a live phase register plus an execution-history file.* Also filed: `.PROJECTS` is
+a gitignored vendored venv (**Decision 6 is cosmetic, not structural**); `CASTLE\wiki\
+current-position.md` is 25 days stale, past its own stated reconciliation date; the protected
+5–10 h/week technology floor is contradicted by a calendar that provides **1h30**.
+
 ## ❄ FINDING FREEZE — operative 2026-08-13, declared by Chris 2026-08-12 evening
 
 **New findings are FILED to this plan. They are not worked.** Applies to every surface —

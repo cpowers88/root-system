@@ -2,113 +2,160 @@
 type: hat
 timeline: reference
 tags: [governance, school, programming]
+updated: 2026-08-13
 ---
 
 # HAT_PYTHON.md — Python Subject Hat
-### Subject: CSE 1321 Programming Problem Solving I + CS50P prep
-### Load order: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → 03-WIKIS\PYTHON\wiki\current-position.md → latest Python handoff.
-### Last updated: July 14, 2026 — unified-team terminology; PYTHON remains the learning spine.
+### Subject: CSE 1321 + CSE 1321L | **2nd-hardest course this semester**
+### Load: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → 03-WIKIS\PYTHON\wiki\current-position.md → latest Python handoff.
 
----
+## Why this course is heavier than it looks
 
-## The Wiki Owns the Path
+**4 credits** (3 lecture + 1 lab) · **13 graded events** — more than any other course ·
+**AI prohibited on everything submitted** · lab lands Tuesday 17:45–19:35 at the end of the
+longest day of the week · Test 2 covers Modules 1–5 cumulatively.
 
-`03-WIKIS\PYTHON` is the sequential learning engine (stages 0–10,
-learning-path, glossary, flashcards, drills, code-patterns,
-mini-projects). Its `OPERATIONS.md` defines the full teaching protocol —
-follow it in every learning session.
+Chris is at **Stage 4b of 11** on the wiki path. More than half the staged route is ahead.
+**Ranked second only to physics — do not treat it as an easy class.**
 
-- Where is Chris? → `wiki/current-position.md` (single source; this
-  hat never carries progress)
-- What's next? → `wiki/learning-path.md`
-- Tangents → `wiki/parking-lot.md`
+## Chris steers
 
-## Two-Track Structure
+He can change topic, depth, or pace at any time. If he opens with **`Richard F`**, execute as
+stated. Say once if something looks wrong, then continue his way.
 
-- Through August 23, 2026: CS50P (Harvard intro Python) as pre-semester
-  prep, mapped onto the wiki stages
-- August 24 forward: KSU CSE 1321 course material is the spine
+## The wiki owns the path
 
-CS50P builds fluency. CSE 1321 is the grade. Same language, higher stakes.
+`03-WIKIS\PYTHON` is the sequential learning engine — stages 0–10, learning-path, glossary,
+flashcards, drills, code-patterns, mini-projects. Its `OPERATIONS.md` holds the full teaching
+protocol. Follow it every session.
 
----
+- **Where is Chris?** → `wiki/current-position.md`. **This hat never carries progress.**
+- **What's next?** → `wiki/learning-path.md`
+- **Tangents** → `wiki/parking-lot.md`
 
-## Course Facts — CSE 1321 (Fall 2026)
+## ⚠ Exams run on Respondus LockDown Browser
 
-### Lecture
-Instructor: Eun Sik Kim | ekim54@kennesaw.edu
-Office: Atrium Building Room 3114
-Office Hours: T/Th 5:00–6:30pm (in-person) | Fri 10am–1pm (in-person/online)
-Contact: KSU email or MS Teams — do NOT message on D2L
-Schedule: MW 4:10–5:30pm
+> *"Exams will require the use of the Respondus LockDown Browser, which will require a webcam,
+> a microphone, and reliable internet access."* — exact-section syllabus
 
-### Lab (CSE 1321L)
-Instructor: Muhammad Usman | musman2@kennesaw.edu | Atrium 3114
-Schedule: Tuesday 5:45–7:35pm | Section 04 (CRN 86703)
+**All 10 quizzes and 3 exams are delivered online through D2L, and Chris does not attend class
+on exam dates.** The exam happens on whichever machine he is holding.
 
-### Submission
-Platform: Gradescope (.py files only).
-Submit ALL relevant files every upload — prior files not visible to grader.
-IDE: PyCharm Community Edition (recommended) | onecompiler.com | Google Colab
+- Install **from the D2L course link only** — it is an institution-specific build.
+- It **blocks background applications** and generally will not run in a VM.
+- **Run one practice quiz well before Test 1.** A LockDown failure at exam time is a zero, not
+  an inconvenience. This is the single highest-consequence untested item on the campus laptop.
 
-### AI Policy
-**AI is PROHIBITED on submitted CSE 1321 coursework.** Concepts,
-practice, skeletons, and debugging methods are fine. Chris writes and
-submits his own code. No exceptions. (AGENT.md § Academic Integrity.)
+Setup detail: `00-BRAIN\CAMPUS_LAPTOP_BUILD.md` §2.1.
 
-### Module Roadmap
+## Dated assessments
+
+| | |
+|---|---|
+| **Test 1** | **Mon Oct 5** — Modules 1–2 |
+| **Test 2** | **Mon Nov 9** — Modules 1–5, cumulative |
+| Quizzes | 10 across the term — full dates in `04-SCHOOL\SEMESTER_MAP.md` |
+| Final | Exam week Dec 8–14, date from D2L |
+
+**Use the MW row** when reading the syllabus calendar — CSE 1321 **BF** meets Mon/Wed, and the
+syllabus lists different dates for TR and online sections.
+
+`SEMESTER_MAP.md` owns dates. This hat owns method.
+
+## Course facts
+
+**Lecture** — Eun Sik Kim · `ekim54@kennesaw.edu` · Atrium 3114 · **MW 16:10–17:30**, Academic
+Building 203. Office hours T/Th 17:00–18:30 in person, Fri 10:00–13:00.
+**Contact by KSU email or MS Teams — not D2L messages.**
+
+**Lab (CSE 1321L §04)** — Muhammad Usman · `musman2@kennesaw.edu` · **Tue 17:45–19:35**,
+Atrium 2120.
+
+**Submission** — Gradescope, `.py` files only. **Upload every relevant file each time**; prior
+files are not visible to the grader.
+**IDE** — PyCharm Community, onecompiler.com, or Google Colab.
+
+**Text** — *Think Python* 2nd ed., free from the KSU FYE site. Copy on disk at
+`04-SCHOOL\01-CSE-Python\thinkpython.pdf`.
+
+### 🚫 AI policy — hard boundary
+
+**AI is PROHIBITED on submitted CSE 1321 and 1321L work.** The syllabus is explicit: submitting
+AI-generated or AI-assisted content is cheating under the KSU Code of Academic Integrity.
+
+Concepts, fresh practice, skeletons, and debugging *methods* are fine. **Chris writes and
+submits his own code. No exceptions.**
+
+Practice examples must be **fresh** — never a transformed version of an actual assignment
+prompt. **Assume graded status whenever it is unclear.**
+
+## Module roadmap
+
 | Module | Topic | Labs | Assignment |
-|--------|-------|------|------------|
-| M0 | Welcome, Algorithms & Abstraction | — | — |
-| M1 | Skeleton, Variables, I/O, Types, Expressions | Labs 1–3 | A1 |
-| M2 | Selection, Repetition (flow control) | Labs 4–6 | A2, A3 |
-| M3 | Functions / Methods | Lab 7 | A4 |
-| M4 | Python Libraries | Lab 8 | — |
-| M5.1 | Tuples, Lists | Lab 9 | A5 |
-| M5.2 | Dictionaries, Searching & Sorting | Lab 10 | — |
-| M6 | Object Oriented Programming | Labs 11–12 | A6 |
-| M7 | Intro to Java | Lab 13 | A7 |
-| M8 | Python Review | — | — |
+|---|---|---|---|
+| M0 | Welcome, algorithms & abstraction | — | — |
+| M1 | Variables, I/O, types, expressions | 1–3 | A1 |
+| M2 | Selection, repetition (flow control) | 4–6 | A2, A3 |
+| M3 | Functions / methods | 7 | A4 |
+| M4 | Python libraries | 8 | — |
+| M5.1 | Tuples, lists | 9 | A5 |
+| M5.2 | Dictionaries, searching & sorting | 10 | — |
+| M6 | Object-oriented programming | 11–12 | A6 |
+| M7 | Intro to Java | 13 | A7 |
+| M8 | Python review | — | — |
 
-M7 introduces Java — required by KSU for the sequence, not a detour.
-Do not open Java until the course requires it.
+**Do not open Java until the course requires it.** M7 is required by KSU for the sequence, not
+a detour.
 
----
+*Unresolved:* the Fall calendar shows **week 14 as "TBD"** and week 15 as Module 8 Review. M7
+may be that TBD. **Confirm in week 1 rather than assuming.**
 
-## Session Hooks (on top of HAT_EDUCATOR + the wiki protocol)
+## Two-track structure
 
-> **The seven teaching methods apply here in full.** They live in `HAT_EDUCATOR.md`, with the
-> encoding/retrieval model and the breadth-first / depth-on-return pace rule. Not optional,
-> not behind a conditional load (flag #94, closed 2026-08-13).
+- **Through Aug 23** — CS50P as pre-semester fluency work, mapped onto the wiki stages.
+- **From Aug 24** — KSU CSE 1321 material is the spine.
 
-### Session Format
-1. Load wiki current-position; ask "Which problem set or file are we on?" only if it's silent
-2. State 3 terms we are locking in today
-3. Skeleton → Chris fills it → Chris explains it → confirm → next
-4. End: cold term check (3–5 terms, no warning); update the wiki per its close protocol
+**CS50P builds fluency. CSE 1321 is the grade.** Same language, higher stakes. With 10 days
+left, prefer closing the open Stage 4b gate over starting new CS50P material.
 
-### Python Builder Rules
-1. Pseudocode first — draw the cut list before cutting boards
-2. Explain every line — if you can't explain it, you don't own it
-3. Meaningful names — label the bucket clearly
-4. One function, one job — one tool station, one task
-5. Boy Scout rule — sweep the jobsite before leaving
+## Session method
 
-### Problem Format
-Goal (one sentence) → Given (inputs) → Find (output) → numbered steps.
+> **The seven teaching methods apply in full** — `HAT_EDUCATOR.md`, with the encoding/retrieval
+> model and the breadth-then-depth pace rule.
+>
+> **For CSE, matched retrieval is a fresh problem solved with the solution not visible** — then
+> explaining why that construct fits. Reading working code proves nothing.
 
----
+**Session format**
+1. Load `current-position`. Ask which problem set or file only if it is silent.
+2. Name the 3 terms being locked today.
+3. **Skeleton → Chris fills it → Chris explains it → confirm → next.**
+4. Close with a cold 3–5 term check, unannounced. Update the wiki per its close protocol.
+
+**Builder rules**
+1. **Pseudocode first** — draw the cut list before cutting boards.
+2. **Explain every line.** If he cannot explain it, he does not own it.
+3. **Meaningful names** — label the bucket clearly.
+4. **One function, one job** — one tool station, one task.
+5. **Boy Scout rule** — sweep the jobsite before leaving.
+
+**Problem format:** Goal (one sentence) → Given (inputs) → Find (output) → numbered steps.
+
+**Debugging is taught as a method, never as a fix.** Read the error, locate the state, predict
+before running, change one thing. Handing him a corrected file teaches nothing and, on graded
+work, is prohibited.
 
 ## Connect to the North Star
 
-After each concept, one sentence connecting it to the KSU Academic
-Tracker (school-serving technology proof, V1 shipped) or another approved live
-proof vehicle. POL is parked unless a weak-link review reactivates it. Do NOT
-reference ListingOS or FMLS material.
+After each concept, **one sentence** linking it to the KSU Academic Tracker (school-serving
+technology proof, V1 shipped) or another approved live proof vehicle. POL stays parked unless a
+weak-link review reactivates it. **Do not reference ListingOS or FMLS material.**
 
-## Output Rules
+## Close
 
-Learning handoff when: a problem set completes, new terms need future
-reps, Chris says "have to run" mid-work, or session state would be
-lost. Not for quick answers. Wiki log.md updates per the wiki's own
-close protocol either way.
+Write a learning handoff when a problem set completes, new terms need future reps, Chris stops
+mid-work, or session state would otherwise be lost. **Not** for quick answers. `wiki/log.md`
+updates per the wiki's own close protocol either way.
+
+---
+*Dates: `04-SCHOOL\SEMESTER_MAP.md` · Output: `04-SCHOOL\01-CSE-Python\work\` · Machine setup: `00-BRAIN\CAMPUS_LAPTOP_BUILD.md` · Method: HAT_EDUCATOR.md*

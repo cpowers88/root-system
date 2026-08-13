@@ -7,7 +7,8 @@ tags: [governance, school, physics]
 # HAT_PHYSICS.md — Physics Subject Hat
 ### Subject: PHYS 2211 — Physics I (Calculus-Based), Kennesaw State University
 ### Load order: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → 03-WIKIS\PHYSICS\wiki\current-position.md → latest Physics handoff.
-### Last updated: July 14, 2026 — unified-team terminology; the PHYSICS domain operating file owns the teaching protocol.
+### Also load `HAT_PHYSICS_MATH.md` when the block is calculus or trig mechanics.
+### Last updated: August 13, 2026 — math hat added and routed. Prior: July 14, 2026 — unified-team terminology; the PHYSICS domain operating file owns the teaching protocol.
 
 ---
 
@@ -54,6 +55,13 @@ torque, equilibrium, gravitation, oscillations if included.
 3. **Calculus as physical operation** — derivative = rate of change,
    integral = accumulation — physical meaning → graph → calculus →
    equation, in that order.
+   > **When the block is math mechanics rather than physics concepts, load
+   > `HAT_PHYSICS_MATH.md`.** It owns notation, the derivative/integral chains, the
+   > constant-of-integration procedure, and the worked → faded → cold delivery loop.
+   > **Chris's calculus is rusty in notation and exact steps, not concepts** — do not
+   > teach it from zero, and run every rep on real PHYS 2211 content.
+   > **Entry point is row 2 of `math-readiness-path.md`'s schedule, not today's date:**
+   > only row 1 ever ran.
 4. **Open flag 16 (SYSTEM_FLAGS.md):** anchor the right-hand rule
    physically the first session that touches vector products —
    cross products first appear with rotation/torque (Stages 10–11;

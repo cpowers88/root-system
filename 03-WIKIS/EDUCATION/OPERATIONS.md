@@ -5,90 +5,158 @@ status: live
 register: ai-directive
 tags: [school, education, governance]
 created: 2026-07-24
+updated: 2026-08-13
 ---
 
 # EDUCATION_WIKI — OPERATIONS
 
-## Function
+> **Split declared 2026-08-13 (Chris-directed; drafted by Codex as W4/J-2, amended and applied
+> by Claude).** This hub was doing two unrelated jobs under one contract, which is why its shape
+> felt arbitrary. **The split is a contract split, not a folder move.** Nothing was relocated.
+> Course folders stay exactly where they are.
 
-Maintain reusable study support for KSU subjects that do not have a dedicated
-wiki. Convert verified course requirements and source material into course
-briefs, resource maps, explanations, retrieval aids, and private practice.
+## Function — two declared halves, one hub
 
-## Authority
+| Half | Owns | Has a frontier? |
+|---|---|---|
+| **A — Meta-learning** | Reusable learning and retrieval methods, education research, how Chris learns | **No.** Reference material. No staged progression, no daily position |
+| **B — Course support** | Study support for KSU courses that have **no dedicated wiki**: ECON 1000, TCOM 2010, ENGR 1000 | **No.** Tracks *course* reality — syllabus, dates, coverage — never learner mastery |
 
-| Owns | Authority |
+**Neither half owns a learner frontier.** That is the distinction that was missing and that made
+this hub confusing. PYTHON and PHYSICS own staged learner truth because their knowledge outlives
+the course. ECON, TCOM, and ENGR end in December.
+
+**Why they stay one hub:** each top-level hub permanently adds an `OPERATIONS.md`, a state
+tracker, index/log/source-map, session minimums, lint scope, and health-gate scope. **Three new
+hubs for courses that end in December is permanent overhead bought for temporary work.**
+
+**Shared layer:** load `00-BRAIN\WIKI_SHARED_LAYER.md` for every EDUCATION session. This file
+adds education and academic-integrity rules on top of it.
+
+## Promotion rule — when a course earns its own hub
+
+> **A subject earns a top-level hub when its knowledge outlives the course.**
+
+Derived from `NORTH_STAR.md` §2's permanent capability base, not invented here.
+
+| Subject | Outlives the course? | Ruling |
+|---|---|---|
+| PHYSICS, PYTHON (CSE) | Yes — both named in §2 | Own hubs, correct as-is |
+| ECON 1000, ENGR 1000 | No — one-semester requirements | **Stay here** |
+| TCOM 2010 | The *course* doesn't; the *content* does — "communication" is in §2 | **Stays here, built out.** Promote only when the 35% technical report is delivered **and** it has produced reusable writing assets a client project would reuse |
+
+**Structure follows evidence. Do not build a hub speculatively.**
+
+## Ownership
+
+| Truth | Owner |
 |---|---|
-| Permanent direction and AI limits | `01-NORTH_STAR\NORTH_STAR.md` |
+| Mission, AI limits, academic-integrity boundary | `NORTH_STAR.md` and `AGENT.md` |
 | Semester outcomes and priorities | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` |
-| Official syllabus captures (ECON, TCOM, ENGR) | `03-WIKIS\EDUCATION\raw\Syllabi\` — corrected 2026-07-29 to match where captures actually land; general course materials (assignments, notes, records, D2L pulls) stay in `04-SCHOOL\` |
-| Cross-course syllabus status | `04-SCHOOL\SYLLABUS_STATUS.md` |
-| General course-support knowledge | this wiki |
-| Python and CSE learning systems | `03-WIKIS\PYTHON\` |
-| Physics learning system | `03-WIKIS\PHYSICS\` |
-| Current sequencing and next actions | CASTLE and `NOW.md` |
+| **Cross-course dates, deadlines, and grading** | **`04-SCHOOL\SEMESTER_MAP.md`** |
+| Exact-section source status | `04-SCHOOL\SYLLABUS_STATUS.md` |
+| Official syllabus captures (ECON, TCOM, ENGR) | `03-WIKIS\EDUCATION\raw\Syllabi\` |
+| Course materials, notes, D2L pulls, **graded output** | `04-SCHOOL\<course>\` and `<course>\work\` |
+| Reusable learning methods and education research | **this hub, half A** |
+| Course study aids for hub-less courses | **this hub, half B** |
+| Python learner truth | `03-WIKIS\PYTHON\wiki\current-position.md` |
+| Physics learner truth | `03-WIKIS\PHYSICS\wiki\current-position.md` |
+| Cross-system sequencing | CASTLE and `NOW.md` |
 
-An official course source overrides every derivative page here.
+**An official course source overrides every derivative page here.** Course readiness is not
+meta-learning truth, and meta-learning research is not a course schedule.
+
+## State
+
+`wiki\current-position.md` is a **course-support status board — not a learner frontier.** It
+records what is verified, what is provisional, and what is still waiting on an official source.
+It must never claim mastery, and it must never become a second dashboard for sequencing, which
+CASTLE owns.
+
+**If a future EDUCATION project develops a real staged frontier, create a narrowly named state
+owner for that project after Chris's approval. Do not recreate a mixed dashboard.**
 
 ## Structure
 
 ```text
-raw/                 immutable supporting sources
+raw/                      immutable supporting sources
 wiki/
-  index.md            canonical catalog
-  current-position.md cross-course status and verification gaps
-  course-briefs/      semester-wide policy and requirement comparisons
-  courses/<course>/   course-specific maps and study aids
-  methods/            reusable learning methods
-  references/         education-system research
-  log.md              append-only operational history
+  index.md                canonical catalog
+  current-position.md     course-support status (half B) — NOT a learner frontier
+  log.md                  append-only operational history
+  ── half A ──────────────────────────────────────────
+  methods/                reusable learning and retrieval methods
+  references/             education-system research
+  ── half B ──────────────────────────────────────────
+  course-briefs/          semester-wide policy and requirement comparisons
+  courses/<course>/       per-course study aids
+  pre-semester-coverage-plan.md
 ```
 
-Create a course folder only after real course material or a real study need
-exists. A subject with enough durable staged material SHOULD graduate to its
-own wiki.
+**Course folder rule:** create one only after real course material or a real study need exists.
+**As of 2026-08-13 there is deliberately no `courses/engr-1000/`** — ENGR 1000 BWD has no
+exact-section syllabus, no published meeting time, and no confirmed delivery format. Creating a
+folder for it now would be scaffolding around nothing. Create it when the syllabus lands.
+
+**Per-course page pattern** (established by TCOM, T8): `concepts/`, `common-errors/`, `drills/`,
+`flashcards/`, `glossary/`, `semester-map.md`. ECON additionally has `reading-guides/`. **Do not
+invent a third pattern.**
 
 ## Operations
 
 ### INGEST
 
-1. Identify the course and exact learning question.
-2. Verify the authoritative course file and its date/section.
-3. Check the course AI policy before assisting.
-4. Read supporting sources completely in bounded chunks.
-5. Update the existing course page before creating another.
-6. Separate confirmed requirements, provisional mappings, guidance, and
-   unknowns.
-7. Update the catalog, current position, and log when their state changes.
+1. Identify the course and the exact learning question.
+2. Verify the authoritative course file, its date, and its section.
+3. **Check the course AI policy before assisting.**
+4. Read supporting sources completely, in bounded chunks per the shared layer.
+5. Update the existing page before creating another.
+6. Separate confirmed requirements, provisional mappings, guidance, and unknowns — and **say
+   which is which on the page itself.**
+7. Update the catalog, status board, and log **in the same session** their state changes.
 
 ### QUERY
 
-1. Read `wiki\current-position.md`.
-2. Load the relevant course folder only.
-3. Consult shared methods or references only when required.
-4. Answer at the level allowed by the course policy.
-5. End with a concrete study action or verification need.
+1. Read `wiki\current-position.md` for course-support work; skip it for half-A method questions.
+2. Load only the relevant course folder or method page.
+3. Answer at the level the course policy allows.
+4. End with a concrete study action or a named verification need — **page creation is not proof.**
 
 ### LINT
 
-Check official-source precedence, course-policy visibility, ownership,
-duplicated PYTHON or PHYSICS content, stale course facts, premature study
-aids, unresolved links, index drift, and missing evidence of learning.
+Check official-source precedence, course-policy visibility, ownership, duplicated PYTHON or
+PHYSICS content, stale course facts, premature study aids, unresolved links, index drift, and
+missing evidence of learning.
 
 ## Academic integrity
 
-AI MAY explain concepts, generate private practice, review Chris's reasoning,
-and help plan independent work. AI MUST NOT produce prohibited graded
-submissions or bypass a course-specific restriction. When policy is unclear,
-use the most restrictive verified interpretation until Chris resolves it.
+**Per-course, verified — not assumed:**
+
+| Course | Policy |
+|---|---|
+| **ECON 1000** | **AI allowed if credited** — the only one of the five where this is true |
+| **TCOM 2010** | Verify per assignment |
+| **ENGR 1000** | **Prohibited** |
+
+AI MAY explain concepts, generate fresh private practice, review Chris's reasoning, and help
+plan independent work. AI MUST NOT produce prohibited graded submissions or bypass a
+course-specific restriction. **When policy is unclear, use the most restrictive verified
+interpretation until Chris resolves it.**
 
 ## Raw boundary
 
-`raw\` is immutable. AI MUST NOT create, edit, move, rename, archive, or delete
-anything under it without Chris explicitly authorizing a named exception.
+`raw\` is immutable. AI MUST NOT create, edit, move, rename, archive, or delete anything under
+it without Chris explicitly authorizing a named exception.
 
 ## Proof and close
 
-Proof is successful explain-back, retrieval, problem solving, or later course
-performance—not page creation. Close by recording changed status, evidence,
-the next study action, and any fact still requiring official verification.
+Proof is successful explain-back, retrieval, problem solving, or later course performance —
+**not page creation.** Close by recording changed status, evidence, the next study action, and
+any fact still requiring official verification.
+
+**The hub is healthy when** a fresh session can find the relevant method or course aid without
+mistaking EDUCATION for the owner of course schedules, learner frontiers, or graded artifacts.
+
+---
+*Split applied 2026-08-13. Prior contract archived in git history. Codex's draft:
+`Session_Logs\System Update Log\2026-08-12_ROOT_UPDATE\PROPOSED_EDUCATION_OPERATIONS_REPLACEMENT.md`.*

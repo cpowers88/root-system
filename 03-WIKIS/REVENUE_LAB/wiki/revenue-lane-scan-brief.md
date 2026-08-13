@@ -6,13 +6,25 @@ timeline: now
 
 # Revenue Lane Scan — The First Evidence Brief
 ### Created: July 14, 2026 | Status: ACTIVE — this is the hub's first deliverable
-### Driver: school-funding cut; income needed to continue studies past Fall 2026
+### Driver: school-funding cut
+
+> **⚠ The driver was downgraded 2026-08-13 by Chris's ruling.** This brief was written on
+> July 14 against *"income needed to continue studies past Fall 2026."* **Enrollment is no
+> longer treated as gated on income.** Chris ruled 2026-08-11 — *"income is not as important as
+> getting the system optimized to best lead us to our 2031 goal"* — and reaffirmed it
+> 2026-08-13.
+>
+> **What this changes:** the December 2026 deadline below is a **planning target, not a
+> survival threshold**, and the word *survival* no longer applies to any lane. The lane
+> analysis itself is unaffected and remains useful — evidence-first ranking is right under
+> either framing. **What must not happen is a future session reading the original urgency and
+> re-prioritising revenue above school or compounding capability.**
 
 ## The Real Requirement (design against this, not against excitement)
 
 - **Money by:** meaningful income arriving or clearly inbound by ~December 2026
-  (end of first semester). Anything whose realistic first dollar is later than
-  that can only be the *compounding* lane of a portfolio, never the survival lane.
+  (end of first semester) — **as a target, not a condition of continuing.** Anything whose
+  realistic first dollar is later than that can only be the *compounding* lane of a portfolio.
 - **Hours available:** fits inside the existing CASTLE-tagged capacity
   (~26h/wk now, shrinking hard at semester start Aug 24; near zero new capacity
   during danger weeks Oct 5 – Nov 11).
