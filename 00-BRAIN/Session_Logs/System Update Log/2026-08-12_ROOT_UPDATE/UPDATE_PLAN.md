@@ -68,6 +68,22 @@ flagged in-file as pending Chris's confirmation of the wording. Cost to always-l
 the whole change is in the conditional hat layer, and removing #94's row from
 `SYSTEM_FLAGS.md` actually reduced it.
 
+**T4 ✅ DONE (morning) — flag #99 closed.** `sync_shared_skills.py` now mirrors whole skill
+directories and, more importantly, **checks references**. Directory mirroring on its own
+would have moved the defect rather than closed it: it fixes today's missing file and leaves
+the validator still unable to see the next one. Measured in order, on the real defect:
+`--check` **FAIL exit 1** naming both mirrors' absent `SKILL-MECHANICS.md` → `--sync` copied
+it **plus `agents\openai.yaml`, a second missing file the flag never recorded** → `--check`
+**PASS exit 0** → `root_health.py` exit 0 with "PASS: shared skill mirrors" now earned.
+**Friday gate check 6's inverted clause is satisfied:** a deliberate broken link produced
+FAIL exit 1, and it failed at the canonical stage, so a dead link cannot reach a mirror at
+all. Break reverted, tree clean.
+
+**C-3 is now visible instead of invisible.** `_staged\handoff\` prints a WARNING on every
+run naming its three dispositions. Deliberately non-fatal — it needs Chris's ruling, and a
+gate should not fail over an unanswered question. **This is the flag #99 lesson applied to
+itself:** the original defect was a check that stayed silent about something real.
+
 **Filed under the freeze, not worked — three items:**
 
 1. **The bulk-work gate produced a fourth read-only false positive.** A `for` loop reading
