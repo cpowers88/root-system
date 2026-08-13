@@ -25,7 +25,7 @@ Load its companions only when the active question requires them:
 |---|---|
 | business vehicle, market, offer, revenue path, strategic skill, or Ratchet | `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` |
 | Fall 2026 school readiness, sequencing, and outcomes | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` plus the owning course wiki current-position |
-| external change, trend, threat, or opportunity | `...projectSuccess\WATCHTOWER.md` and `radar.md`, then the owning evidence home |
+| external change, trend, threat, or opportunity | `01-NORTH_STAR\WATCHTOWER.md` and `radar.md`, then the owning evidence home |
 | system architecture, self-evolution, instruction design, or OS capability audit | `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` |
 
 Companions add current detail but cannot override the North Star. CASTLE owns
@@ -194,7 +194,8 @@ System files include this file, surface profiles, `CHRIS_CORE.md`, `CHRIS.md`, h
 
 `03-WIKIS\` contains the domain knowledge hubs. CASTLE at `00-BRAIN\CASTLE\` sequences work and owns `.ROOT\NOW.md`. Each wiki governs its content; this file governs shared behavior. Hats are cross-model modes, not roles. Core optional modes are Operator, Educator, Technology Engineer, and Software Engineer; subject hats add local teaching constraints.
 
-`...projectSuccess\` is the two-file Watchtower. A material external signal must
+`01-NORTH_STAR\WATCHTOWER.md` and `radar.md` are the two-file Watchtower (moved
+there 2026-08-13; the `...projectSuccess\` folder is retired). A material external signal must
 name its evidence home, affected assumption/choice, consequence or test, and review
 trigger. It may reach strategy only through CASTLE review, a bounded test, measured
 outcome, and the North Star Ratchet. The Watchtower has eyes, not hands.

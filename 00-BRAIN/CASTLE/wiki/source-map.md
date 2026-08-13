@@ -21,7 +21,7 @@ Prefer primary and authoritative evidence for consequential claims. Lower-confid
 |---|---|---|
 | NORTH_STAR.md | 01-NORTH_STAR\ | Durable direction, fixed commitments, capability base, and Ratchet |
 | CURRENT_STRATEGY.md | 01-NORTH_STAR\Goals & Milestones\ | Current business hypothesis, assumptions, milestones, and replacement rules |
-| WATCHTOWER.md + radar.md | ...projectSuccess\ | Material external-signal routing; not strategy authority |
+| WATCHTOWER.md + radar.md | 01-NORTH_STAR\ | Material external-signal routing; not strategy authority |
 | capability_development_goal.md | 01-NORTH_STAR\Goals & Milestones\ | Capability stack and monthly weak-link decision |
 | fall_2026_semester.md | 01-NORTH_STAR\Goals & Milestones\ | Semester outcome, readiness gates, and workload gate |
 | value_production_goal.md | 01-NORTH_STAR\Goals & Milestones\ | Evidence ladder from capability to revenue |

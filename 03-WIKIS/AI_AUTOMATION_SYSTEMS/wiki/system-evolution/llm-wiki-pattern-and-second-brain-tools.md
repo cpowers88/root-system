@@ -195,7 +195,7 @@ above:
   an open-web-only pass and a vault-grounded-only pass, then treating
   *disagreement between the two* as the actual signal worth investigating,
   not a nuisance to resolve. A genuinely different technique from anything
-  `...projectSuccess\` (the Watchtower) currently does.
+  the Watchtower (`01-NORTH_STAR\WATCHTOWER.md` + `radar.md`) currently does.
 
 Related: [[root-maturity-self-assessment]], [[2025-ai-agent-index]],
 [[work-trend-index-2024-2026]],

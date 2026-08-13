@@ -162,6 +162,44 @@ performance, which for TCOM means producing a document for a named reader.
 vault detects and then fails to propagate — so the propagation happened before the commit,
 not after. **Friday's test can now run all three structures as Chris described.**
 
+**T7 ⚠ MOSTLY DONE (morning) — content complete, three empty folder shells await Chris.**
+
+- **`tmp\` — quarantined, not deleted.** Chris changed the Aug 12 DELETE ruling when the
+  test surfaced that `tmp\` is excluded from **both** GitHub and the D: backup, so a delete
+  was genuinely one-way with no copy anywhere. Now at
+  `D:\BACKUPS\quarantine\2026-08-13\tmp\` — **260 files, 29 MB**, same treatment
+  `.tmp.driveupload` got on Aug 12. Reversible; delete the quarantine whenever.
+- **Build input preserved as ruled:** `tmp\spreadsheets\real_world_dataset_map\build.mjs`
+  travelled with the artifact to
+  `02-LIBRARY\real_world_dataset_opportunity_map_2026-07-16\build_input_spreadsheets\`.
+  **Reconciliation is exact: 260 quarantined + 1 preserved = 261 original files.**
+- **`outputs\` → `02-LIBRARY\`** and **`WATCHTOWER.md` + `radar.md` → `01-NORTH_STAR\`**, both
+  by `git mv` so history follows.
+- **22 live references repaired across 14 files** — `AGENT.md`, `START_HERE.md`,
+  `ROOT_OPERATING_MANUAL.md`, `vault_map.md`, `WHERE_IT_GOES.md`, `NORTH_STAR.md`,
+  `CURRENT_STRATEGY.md`, `ROOT_CAPABILITY_CONTRACT.md`, `HAT_OPERATOR_PLAYBOOKS.md`, CASTLE
+  `source-map`/`north-star-roadmap`, TECHNOLOGY `OPERATIONS`/`HOW_TO_USE`, the AIAS
+  system-evolution page, and `WATCHTOWER.md`'s own subtitle. **Session_Logs, Report Archive
+  and Closed Flags were deliberately left alone** — constraint 7, a log saying
+  `...projectSuccess` was true when written.
+- **`COLOR_MAP.yaml`:** the Watchtower keeps its blue-violet **as two file entries** rather
+  than dissolving into North Star amber — it is a different job (eyes, not hands) and the
+  colour was Chris's own July 8 choice. `.vs` added to `excluded_from_graph`; the now-stale
+  `tmp` exclusion removed. `outputs` needed no entry — it lives inside `02-LIBRARY`, which
+  already has a colour. Graph rebuilt: 17 groups written.
+- **Caught before it shipped:** the first `vault_map.md` edit replaced a tree parent and left
+  its two children orphaned under nothing. Verified by reading the result rather than trusting
+  the edit. Fixed — the two files now sit under `01-NORTH_STAR` where they actually are.
+
+**⏳ NEEDS CHRIS — three empty folder shells remain on disk:** `tmp\` (0 files),
+`outputs\` and `...projectSuccess\` (one `desktop.ini` each, folder-icon config). Removal was
+**declined three times** by the permission layer, correctly — every phrasing was a recursive
+force-delete inside the vault, which is the exact shape of the Aug 10 incident. **I stopped
+attempting it rather than hunting for a phrasing that would pass**, which would have been
+working around a control rather than respecting it. All content is already moved and verified;
+what is left is empty scaffolding. `build_graph_colors.py`'s drift check now names all three,
+so it will keep flagging them until they are gone — a useful independent detector.
+
 **Filed under the freeze, not worked — three items:**
 
 1. **The bulk-work gate produced a fourth read-only false positive.** A `for` loop reading

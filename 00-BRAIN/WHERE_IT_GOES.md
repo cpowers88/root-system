@@ -27,7 +27,7 @@ Tech-adoption landscape / skill-roadmap research /       → 03-WIKIS\TECHNOLOGY
 System dynamics / ISYE-prep content?                      → 03-WIKIS\SYSTEMS\
 AI/agent research, .ROOT self-evolution proposals?       → 03-WIKIS\AI_AUTOMATION_SYSTEMS\
 Digital revenue-stream research, lane evidence/scoring?  → 03-WIKIS\REVENUE_LAB\
-Verified external change with a material consequence?    → owning wiki evidence first, then ...projectSuccess\radar.md
+Verified external change with a material consequence?    → owning wiki evidence first, then 01-NORTH_STAR\radar.md
 Everything else (life, school files, projects, artifacts, reviews) → .ROOT, tree below
 ```
 
@@ -43,7 +43,7 @@ approved case studies, and non-sensitive metadata return to `.ROOT`.
 ```
 AI instruction, session log, system flag, or map? → 00-BRAIN\
 Durable direction, current strategy, skill gaps, semester goal, or strategic review? → 01-NORTH_STAR\
-Material external signal already supported in its evidence home? → ...projectSuccess\radar.md
+Material external signal already supported in its evidence home? → 01-NORTH_STAR\radar.md
 Tied to a specific KSU course? → 04-SCHOOL\[course]\
 Has a deliverable, build, or launch goal? → 02-LIBRARY\.PROJECTS\[NAME]\
 Reusable reference (book, concept, cheat sheet)? → 02-LIBRARY\[domain]\
@@ -159,7 +159,7 @@ One copy, zero drift.
   or session logs.
 - **00-BRAIN\Session_Logs\** — daily logs, handoffs, retrospective weekly/monthly
   reviews, and their templates. NOT here: durable direction or live strategy.
-- **...projectSuccess\** — exactly two Watchtower files: operating contract in
+- **01-NORTH_STAR\ (Watchtower)** — exactly two Watchtower files: operating contract in
   WATCHTOWER.md and material external-signal routing in radar.md. Evidence remains
   in the owning wiki; projects and strategy decisions never live here.
 - **04-SCHOOL\** — course-file home, one folder per course

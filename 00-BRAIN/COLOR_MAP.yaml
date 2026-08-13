@@ -28,9 +28,18 @@ groups:
   - name: "01-NORTH_STAR"
     path: "01-NORTH_STAR"
     color_hex: "#F39C12"   # Amber (live #F39512 normalized)
+  # The Watchtower folder was retired 2026-08-13 (update plan Phase A): its two
+  # files moved to 01-NORTH_STAR. The blue-violet is Chris's own July 8 choice and
+  # is kept — the Watchtower stays visually distinct from North Star amber, because
+  # it is a different job (eyes, not hands). Two file entries, one per file.
   - name: "Watchtower"
-    path: "...projectSuccess"
+    path: "01-NORTH_STAR/WATCHTOWER.md"
+    is_file: true
     color_hex: "#3C25E9"   # Blue-violet (live value kept — Chris, July 8)
+  - name: "Watchtower-radar"
+    path: "01-NORTH_STAR/radar.md"
+    is_file: true
+    color_hex: "#3C25E9"   # Same group, second file
   - name: "02-LIBRARY"
     path: "02-LIBRARY"
     exclude_subpaths: ["04-SCHOOL"]   # school file home has its own color
@@ -85,7 +94,10 @@ excluded_from_graph:
   - "00-BRAIN/Session_Logs"
   - "Clippings"
   - ".folder-icons"
-  - "tmp"
+  - ".vs"
+  # `tmp` and `outputs` were listed here until 2026-08-13. Both are now gone from
+  # the vault (Phase A): tmp\ quarantined to D:, outputs\ moved into 02-LIBRARY,
+  # which carries its own color. Nothing to exclude.
 
 # ---------------------------------------------------------------------------
 # EXTENSION PROCEDURE — when a new top-level section or wiki hub is created:

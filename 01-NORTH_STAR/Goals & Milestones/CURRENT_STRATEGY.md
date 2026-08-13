@@ -17,7 +17,7 @@ approved: 2026-07-24
 the change rule. This file owns the current business vehicle only: thesis,
 method, assumptions, milestones, and the evidence that keeps or replaces it.
 CASTLE owns sequencing and proof status; `03-WIKIS\BUSINESS` and
-`03-WIKIS\REVENUE_LAB` own domain research; `...projectSuccess` owns external
+`03-WIKIS\REVENUE_LAB` own domain research; the Watchtower owns external
 signals. This file summarizes the vehicle and its evidence bar; it does not
 duplicate their live boards.
 
@@ -143,7 +143,7 @@ never rewrites this file or `NORTH_STAR.md` unilaterally.
 | Live phase/skill/proof status | `00-BRAIN\CASTLE\wiki\` |
 | Business research, offer, pricing, fulfillment | `03-WIKIS\BUSINESS\` |
 | Near-term adjacent income evidence | `03-WIKIS\REVENUE_LAB\` |
-| External trend/market signals | `...projectSuccess\` |
+| External trend/market signals | `01-NORTH_STAR\WATCHTOWER.md` + `radar.md` |
 | Reusable/sanitized business assets | `05-BUSINESS\` |
 | Active client-specific/private work | separate authorized client workspace |
 | Current action | `.ROOT\NOW.md` |

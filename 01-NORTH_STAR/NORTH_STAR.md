@@ -80,7 +80,7 @@ here:
 | Information-state translation | `System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md` |
 | Domain research and learner truth | each `03-WIKIS` hub, self-owned |
 | Cross-system sequencing, next action, proof status | `00-BRAIN\CASTLE\` |
-| External signal sensing | Watchtower (`...projectSuccess\`) |
+| External signal sensing | Watchtower (`01-NORTH_STAR\WATCHTOWER.md` + `radar.md`) |
 | File placement and naming | `00-BRAIN\WHERE_IT_GOES.md` |
 | AI behavior, safety, session protocol | `00-BRAIN\AGENT.md` |
 

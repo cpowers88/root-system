@@ -57,7 +57,7 @@ read the spine at session start.
 | System dynamics and ISYE | `03-WIKIS\SYSTEMS` |
 | Offer, audit method, client pathways | `03-WIKIS\BUSINESS` |
 | Sequencing and proof status | CASTLE and `NOW.md` |
-| External signal promotion | Watchtower (`...projectSuccess\radar.md`) |
+| External signal promotion | Watchtower (`01-NORTH_STAR\radar.md`) |
 
 ## Closed lanes — do not reopen without Chris
 
@@ -172,7 +172,7 @@ work two weeks running, rebalance.
 
 ## Watchtower handoff
 
-Full technology evidence stays here. Promote to `...projectSuccess\radar.md`
+Full technology evidence stays here. Promote to `01-NORTH_STAR\radar.md`
 only a **verified new external change with a material consequence**, naming its
 evidence page, the affected strategy assumption or system choice, the
 consequence or bounded test, and the review trigger. The radar never replaces

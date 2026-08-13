@@ -57,7 +57,7 @@ One owner per stage:
 
 | Stage | Owner |
 |---|---|
-| SENSE | `...projectSuccess` Watchtower; evidence homes in TECHNOLOGY / AI_AUTOMATION_SYSTEMS |
+| SENSE | Watchtower (`01-NORTH_STAR\WATCHTOWER.md` + `radar.md`); evidence homes in TECHNOLOGY / AI_AUTOMATION_SYSTEMS |
 | RESEARCH | the owning `03-WIKIS` hub |
 | TEACH | PYTHON / PHYSICS / EDUCATION staged paths; other hubs when applied |
 | STRUCTURE | each hub's `raw\` → `wiki\` intake |

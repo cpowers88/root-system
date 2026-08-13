@@ -73,7 +73,7 @@ Rule: file safety can block work. Scope commentary cannot.
 
 ## SKILL: Watchtower Sweep
 Trigger: weekly review, or Chris says "sweep the tower."
-1. Open `...projectSuccess\radar.md`
+1. Open `01-NORTH_STAR\radar.md`
 2. Reject rows missing a new external change, material consequence, evidence home,
    or review trigger; prune dead signals and verify tiers
 3. Promote at most ONE hot signal → run it through the castle gate

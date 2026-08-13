@@ -73,7 +73,7 @@ work two weeks running, rebalance.
 - The spine lives at `02-LIBRARY` and is linked, never duplicated here.
 - `AI_AUTOMATION_SYSTEMS` owns AI/agent research; `SYSTEMS` owns system dynamics
   and ISYE; `BUSINESS` owns offer and audit method.
-- A verified external change may promote to `...projectSuccess\radar.md` only
+- A verified external change may promote to `01-NORTH_STAR\radar.md` only
   with a material consequence, an evidence page here, the affected assumption,
   and a review trigger. Routine tool research stays here.
 - No orphan knowledge: every category studied ties back to school, a client

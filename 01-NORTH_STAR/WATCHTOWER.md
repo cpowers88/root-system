@@ -5,8 +5,8 @@ tags: [watchtower]
 ---
 
 # WATCHTOWER — Operating File
-### `...projectSuccess` — the eyes of the system; exactly two files by design
-### Last updated: July 14, 2026 — connected to the North Star evidence ratchet
+### The eyes of the system; exactly two files by design — this one and `radar.md`
+### Last updated: August 13, 2026 — moved from `...projectSuccess\` into `01-NORTH_STAR\`; the folder is retired. Contract unchanged.
 
 ## Purpose
 

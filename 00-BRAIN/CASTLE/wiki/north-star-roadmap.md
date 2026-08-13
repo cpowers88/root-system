@@ -83,7 +83,7 @@ This frame inherits the North Star priority hierarchy; it adds no authority and 
 
 - 00-BRAIN\ — AI governance, human-working profile, and system coordination
 - 01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md — active business vehicle, assumptions, milestones, and evidence rules
-- ...projectSuccess\ — material external signals; eyes, not hands
+- 01-NORTH_STAR\WATCHTOWER.md + radar.md — material external signals; eyes, not hands
 - 03-WIKIS\BUSINESS\ — business research, offer options, pricing, and delivery knowledge
 - 03-WIKIS\SYSTEMS\ — systems, flow, queueing, and industrial reasoning
 - 03-WIKIS\TECHNOLOGY\ — technology landscape and applied technical reference

@@ -87,7 +87,7 @@ command.
 | What controls the mission? | `01-NORTH_STAR` |
 | What business vehicle are we testing? | `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` |
 | What must happen before and during Fall 2026? | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` plus live PYTHON/PHYSICS/EDUCATION current-position pages |
-| What materially changed outside `.ROOT`? | `...projectSuccess\WATCHTOWER.md` and `radar.md` |
+| What materially changed outside `.ROOT`? | `01-NORTH_STAR\WATCHTOWER.md` and `radar.md` |
 | What must the AI OS be capable of? | `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` |
 | Where does this file go? | `00-BRAIN\WHERE_IT_GOES.md` |
 | What should I learn or retrieve? | Matching `03-WIKIS` hub |
@@ -112,7 +112,7 @@ command.
 | CASTLE | What phase or skill comes next? | `00-BRAIN\CASTLE\wiki\current-position.md` | Orient (index + log + roadmap) → identify the phase/skill gap → point to the realm that does the work → log the sequencing decision | A phase/skill page names exit criteria, and the actual work happened in its home realm, not here | Updated maps, phase/skill pages, `wiki/log.md`, `NOW.md` refresh | `00-BRAIN\CASTLE\HOW_TO_USE.md` |
 | `01-NORTH_STAR` | What controls the mission and current strategic vehicle? | `01-NORTH_STAR\NORTH_STAR.md` | Load the star; add `CURRENT_STRATEGY.md`, `fall_2026_semester.md`, or reviews only when their question is active | The fixed direction is preserved and the vehicle changes only through evidence | Reviews and approved star/strategy updates; Chris may authorize a mid-cycle impact-reviewed change | `01-NORTH_STAR\README.md` |
 | North Star system contract | What must `.ROOT` be able to do and return? | `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` | Load for architecture/evolution audits; apply the named capability, proof, and return contract without copying AGENT governance | A fresh session can find owners, evidence, authority, and next action | Approved system changes return to their owning files/logs | `00-BRAIN\AGENT.md` remains behavioral authority |
-| `...projectSuccess` | What external change could materially affect us? | `...projectSuccess\WATCHTOWER.md` | Verify in the owning evidence home → add a qualifying radar row → sweep → CASTLE gate/test | A row names evidence, affected assumption/choice, consequence/test, and review trigger; action follows measured proof | Exactly `WATCHTOWER.md` and `radar.md`; decisions return to CASTLE/current strategy | `...projectSuccess\WATCHTOWER.md` |
+| Watchtower (in `01-NORTH_STAR`) | What external change could materially affect us? | `01-NORTH_STAR\WATCHTOWER.md` | Verify in the owning evidence home → add a qualifying radar row → sweep → CASTLE gate/test | A row names evidence, affected assumption/choice, consequence/test, and review trigger; action follows measured proof | Exactly `WATCHTOWER.md` and `radar.md`; decisions return to CASTLE/current strategy | `01-NORTH_STAR\WATCHTOWER.md` |
 | `WHERE_IT_GOES.md` | Where does this file go? | `00-BRAIN\WHERE_IT_GOES.md` | Check its Decision Tree before creating any file | The file lands at the named path on the first try | N/A — this file is the placement authority itself | None deeper; this file is the authority |
 | Matching `03-WIKIS` hub | What should I learn or retrieve? | that hub's `wiki/current-position.md` (or `index.md` where no staged path exists) | current position → concept/stage → practice/drill → proof, per that hub's own loop | A drill, mini-project, or applied use proves the concept — a generated page alone does not | Study aids stay in-vault; skills proven get logged against the matching CASTLE skill page | that hub's own `HOW_TO_USE.md` |
 | `04-SCHOOL` | Where are official course files? | the course's own folder | Pull syllabus/D2L material as-is; AI help stays within that course's stated AI policy | Submitted coursework is Chris's own work | Stays in the course folder | course briefs (EDUCATION wiki links out for study support) |
@@ -332,7 +332,7 @@ ownership. Ordinary learning sessions do not need this system-wide check.
 - `00-BRAIN\AGENT.md` — the AI operating system.
 - `00-BRAIN\CLAUDE.md` / `CODEX.md` — AI capability profiles.
 - `00-BRAIN\CASTLE\HOW_TO_USE.md` — command-center use.
-- `...projectSuccess\WATCHTOWER.md` — material external-signal routing.
+- `01-NORTH_STAR\WATCHTOWER.md` — material external-signal routing.
 - `01-NORTH_STAR\README.md` — star companion loading and review contract.
 - `03-WIKIS\SYSTEMS\HOW_TO_USE.md`, `03-WIKIS\PYTHON\HOW_TO_USE.md`, `03-WIKIS\EDUCATION\HOW_TO_USE.md`, `03-WIKIS\PHYSICS\HOW_TO_USE.md`, `03-WIKIS\BUSINESS\HOW_TO_USE.md`, `03-WIKIS\TECHNOLOGY\HOW_TO_USE.md`, `03-WIKIS\AI_AUTOMATION_SYSTEMS\HOW_TO_USE.md`, `03-WIKIS\REVENUE_LAB\HOW_TO_USE.md` — one per hub, same skeleton.
 - `05-BUSINESS\06-Capability Library\README.md` and `FIRST_RUN_CHECKLIST.md` — reusable asset operation.

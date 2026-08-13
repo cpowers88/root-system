@@ -47,10 +47,6 @@ recovery work.
 ├── ROOT_OPERATING_MANUAL.md ← human operating and proof guide
 ├── NOW.md                 ← Chris's morning page — maintained by the CASTLE
 │
-├── ...projectSuccess\     ← WATCHTOWER — material external-change router; eyes, not hands
-│   ├── WATCHTOWER.md      ← promotion threshold + evidence-to-test contract
-│   └── radar.md           ← lean signal board; never a research library or project queue
-│
 ├── 00-BRAIN\  ← governance + command — load AGENT.md first, then the relevant capability profile
 │   ├── AGENT.md           ← universal OS — load FIRST, every session, any engine
 │   ├── CLAUDE.md / CODEX.md  ← surface capability profiles
@@ -75,6 +71,8 @@ recovery work.
 │
 ├── 01-NORTH_STAR\  ← the star
 │   ├── NORTH_STAR.md      ← THE LAW — nothing overrides it
+│   ├── WATCHTOWER.md      ← promotion threshold + evidence-to-test contract
+│   ├── radar.md           ← lean signal board; never a research library or project queue
 │   ├── README.md / HOW_TO_USE.md  ← human router + workflow
 │   ├── System Contracts\  ← capability + information-flow contracts
 │   └── Goals & Milestones\ ← adaptive goals and the current business vehicle;

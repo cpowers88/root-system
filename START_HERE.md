@@ -27,7 +27,7 @@ and the live owner files.
 |---|---|
 | 📄 `NOW.md` | **Start your day.** One screen, one priority. |
 | 📘 [ROOT_OPERATING_MANUAL.md](ROOT_OPERATING_MANUAL.md) | **Learn how to operate.** Use the proof loops, ownership rules, and closeout pattern after this map. |
-| 🗼 [WATCHTOWER.md](...projectSuccess/WATCHTOWER.md) | **Watch material external change.** Evidence stays in its wiki; qualifying signals enter the two-file radar, then CASTLE gates any test. |
+| 🗼 [WATCHTOWER.md](01-NORTH_STAR/WATCHTOWER.md) | **Watch material external change.** Evidence stays in its wiki; qualifying signals enter the two-file radar, then CASTLE gates any test. |
 | 🧠 `00-BRAIN` | See/change how the AI operates. `AGENT.md` is the universal OS every engine boots from; surface profiles (`CLAUDE.md` / `CODEX.md`) describe strengths and access; `HATS\` holds optional modes; 🏰 `CASTLE` (the command center — phases, skills, proof projects) lives here too, plus maps, flags, session logs. |
 | ⭐ `01-NORTH_STAR` | **Read the durable star.** Load `CURRENT_STRATEGY.md` only for the active business vehicle, and `fall_2026_semester.md` for semester readiness and outcomes. |
 | 📚 `02-LIBRARY` | Grab reference by domain (`REF-…` folders). Also `.PROJECTS` (build docs), `04-SCHOOL` (course files), and `.raw ARCHIVE` (closed legacy sources—no new intake). `README.md` inside disambiguates the business/physics look-alikes. |
@@ -72,7 +72,7 @@ inbox are filtered out of this graph.
 | 🔴 Red | `00-BRAIN` — governance + AI operations |
 | 🟤 Light brown | `00-BRAIN\CASTLE` — the command center |
 | 🟡 Amber | `01-NORTH_STAR` — the star + reviews |
-| 💜 Blue-violet | `...projectSuccess` — the watchtower |
+| 💜 Blue-violet | `01-NORTH_STAR\WATCHTOWER.md` + `radar.md` — the watchtower |
 | 🟠 Orange | `02-LIBRARY` — reference + projects + school file home |
 | 🟢 Green | `BUSINESS` · 🟣 Purple `PYTHON` · 🟨 Gold `EDUCATION` · 💠 Cyan `PHYSICS` · 🟦 Indigo `TECHNOLOGY` · 🩷 Rose `AI_AUTOMATION_SYSTEMS` · 🟫 Tan `SYSTEMS` · 🟩 Teal `REVENUE_LAB` |
 | 🩷 Magenta | `04-SCHOOL` · 🌲 Dark green `05-BUSINESS` · ⚪ White `NOW.md` |
