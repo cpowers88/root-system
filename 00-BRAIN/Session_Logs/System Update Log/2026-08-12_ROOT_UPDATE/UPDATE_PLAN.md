@@ -34,6 +34,32 @@ The update's optimization target was named on 2026-08-10 and has not changed:
 **pathways, not names.** How much an agent must read and how work moves — not what
 folders are called.
 
+## ❄ FINDING FREEZE — operative 2026-08-13, declared by Chris 2026-08-12 evening
+
+**New findings are FILED to this plan. They are not worked.** Applies to every surface —
+Claude, Codex, any session — for the duration of the Thursday push and until Friday's gate
+passes.
+
+**Why:** the report's §8 risk register rates *"Thursday finds new defects and expands"* as
+**HIGH, and names it the actual failure mode** that ended the three previous attempts at this
+update. This vault's assurance loop is self-feeding: verification produces findings, findings
+produce flags, flags produce load, load slows every session. **Thursday is a scoped delivery,
+not a discovery pass.**
+
+| | |
+|---|---|
+| **Still interrupts** | A **🔴 HIGH** flag. `SYSTEM_FLAGS.md` § The Rule is unchanged and is not weakened by this freeze |
+| **Filed, not worked** | Everything else — 🟠 MEDIUM, 🟢 LOW, structural observations, tempting cleanups, "while I'm in here" fixes |
+| **Ends** | When Friday's gate passes. The **broader** freeze on system work then runs until the learner frontier moves — that one is Chris's call, at the gate |
+
+**First test of whether this is real:** the bulk-work gate produced **three read-only false
+positives** in the 2026-08-12 session (a `for` loop counting words, two `find -exec`
+inventories). The report recommends opening a flag for it (§5, item 7). **Under this freeze
+that is filed, not fixed — including because it is Claude's own finding.** A freeze whose
+first act is to exempt the author's own finding is not a freeze.
+
+**It binds Codex too.** See § Codex tasking below.
+
 ## Constraints that govern every item below
 
 1. **`.ROOT` is PAUSED** until Chris types `OK TO START`. Scope: the PAUSED block in
@@ -596,6 +622,44 @@ Existing template infrastructure to reuse rather than reinvent: `03-WIKIS\PHYSIC
 | 1 | **"I would like to review the load `.md` files and wiki `.md` file hats"** | Review packet for Chris — the 6 always-load files and the 12 `hats\` files, summarized so he can rule rather than wade. **Feeds Phase D's proposal-first table** |
 | 2 | **A "safe word"** — a control phrase meaning *stop proposing, stop challenging, just execute the task as asked* | Governance addition; proposed wording in Phase I |
 | 3 | **Structured studying, research and teaching support** — while keeping his ability to "steer the ship" | The `hats\` review (ask 1) and flag #94 are the live edge of this. Phase E and CASTLE own the rest |
+
+## Codex tasking — 2026-08-13, runs parallel to Claude's Thursday push
+
+**Hard boundary — file collision is the main risk.** Claude is editing these Thursday.
+**Codex does not touch them:** `AGENT.md`, `SYSTEM_FLAGS.md`, `HAT_EDUCATOR.md`,
+`sync_shared_skills.py`, `COLOR_MAP.yaml`, `NOW.md`, `EDUCATION\wiki\courses\tcom-2010\`,
+`Session_Logs\` archive rotation, and the Phase A folders.
+
+**Also absolute:** no writes under any `raw\` (flag #97, `NORTH_STAR.md` §3) — **read-only
+inspection only, and do not dedupe on hash.** No `88-JOURNAL`. **The finding freeze above
+applies: file to this plan, do not fix.**
+
+### Priority 1 — Independently challenge the Phase D table *before* Claude executes it
+
+**`AGENT.md` Execution Discipline 6 arguably requires this.** *"Consequential work is reviewed
+independently — by a second model."* Phase D changes what **every future session** reads,
+which is the most consequential change in this update. The proposal is written and committed:
+`claude_review_packet_2026-08-12_load_and_hats.md`.
+
+**The question for Codex is not "is this tidy" — it is:** *for each row marked 🔵 MOVE, name
+the session in which an agent would need that text and not have it.* One real counter-example
+kills the row. **This is the July 11 failure mode (flag #94) and it is worth one model's full
+attention.** Time-box it; Claude executes Thursday either way, with Codex's objections applied.
+
+### Priority 2 — Wiki structural work (the material Chris asked about)
+
+| # | Task | Why Codex |
+|---|---|---|
+| **W1** | **The health gate's 4 review-debt items** (`root_health.py`: *blockers 0; review 4; expected 710*), described as pre-existing CASTLE navigation items. Identify each, propose the fix, do not apply | Bounded, structural, and it is the **only standing debt** in the gate. Closing it makes Friday's result clean rather than "PASS WITH DEBT" |
+| **W2** | **`WIKI_SHARED_LAYER.md` conformance across all 8 hubs.** Eight rules every hub is said to rely on — which hubs actually implement each? Produce a hub × rule matrix | **"Presence is not function"** is lesson 1. Nothing has ever verified that the shared layer is actually shared, and a claimed-but-absent rule is this vault's most repeated defect class |
+| **W3** | **`current-position.md` semantic freshness across every hub.** Does each still describe reality? | **`root_health.py` explicitly lists "semantic freshness and current project truth" as NOT evaluated by the gate.** This is a *known, declared* blind spot — the highest-value place for a second model to look, because no script covers it |
+| **W4** | **`EDUCATION`'s dual identity** (finding J-2): it is simultaneously a meta-learning hub and a catch-all course container. Propose the clean separation — **excluding `tcom-2010\`, which Claude is building Thursday** | Structural diagnosis is Codex's named strength, and this is the one hub whose shape was never deliberately decided |
+
+**W2 and W3 are the two highest-value items** — both target the gap between what the system
+claims and what is true, which is where every serious defect this month has lived.
+
+**Deliverable:** one reconciled report to `Session_Logs\`, findings filed into this plan by
+phase. **Not a conversation, and not applied fixes.**
 
 ## Lessons that must not be relearned
 
