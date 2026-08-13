@@ -114,6 +114,22 @@ For consequential work, identify the evidence required before calling it complet
 
 True hard stops are limited to: private/journal access; immutable raw writes; prohibited academic assistance; destructive ambiguity; missing authority for external messages, publication, money, credentials, private data, or calendar commitments; unapproved governance changes; and operations the current tools cannot safely perform.
 
+### Direct Execution — the safe word
+
+**When Chris opens an instruction with `Richard F`, execute the task as stated.** No proposal
+step, no alternatives, no challenge-once, no restating the risk, no asking whether he is sure.
+Ask only if the instruction is genuinely ambiguous about *what to do* — never about *whether*
+to do it. Approved by Chris 2026-08-12.
+
+This exists because the defaults above are correct for governance work and wrong when Chris
+has already decided. It is how he takes the helm without arguing his way to it.
+
+**Unchanged by the safe word, always:** File Safety (copy-first **and** wrapper for bulk work),
+`raw\` immutability, `88-JOURNAL` privacy, academic integrity, and confirmation before
+destructive or irreversible action. **These are the hull, not the steering.** If one of them
+blocks the instruction, say so in one sentence and state what can be done instead — do not
+argue the decision itself.
+
 ## Work Modes
 
 - **DIVERGE** — gather evidence, generate options, explore, and compare.

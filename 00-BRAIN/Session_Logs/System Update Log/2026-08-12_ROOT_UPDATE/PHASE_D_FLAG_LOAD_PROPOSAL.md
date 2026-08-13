@@ -15,6 +15,12 @@ facts if needed in separate file."*
 
 ## The measurement
 
+**⚠ Re-measured 2026-08-12 evening — the figures below are one flag behind.** `SYSTEM_FLAGS.md`
+is now **2,221 words** across **eight** open flags, not seven: flag #99 added ~106 words, and
+Chris's severity colour-coding (🔴/🟠/🟢, added at his request) a further ~24. Always-load is
+**6,883**. The proposal's shape is unchanged; **the growth it describes is simply still
+running, which is the argument for it.**
+
 Always-load is **6,803 words**. `SYSTEM_FLAGS.md` is **2,091 of them — 31%**, and it is the
 only component that grows without bound. It gained ~158 words on 2026-08-12 alone from
 that day's own flag work.

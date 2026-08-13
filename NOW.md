@@ -97,9 +97,16 @@ Listed here because two are loss-bearing, not because the roadmap is approved.
    failure is now a hard stop, and partial snapshots are detectable rather than
    posing as restore points. **Residual: the task's `LogonType` is `Interactive`,
    so it still dies with Chris's session; `S4U` needs an elevated run.**
-   `G:\My Drive\.ROOT` remains the wrong path — the real copy is
-   `G:\My Drive\New folder\.ROOT` (stale Aug 9). Drive matters again: Chris ruled
-   Aug 12 that My Drive is the intended school↔home link.
+   **Drive path corrected Aug 12 evening — both previously recorded paths were wrong.**
+   Neither `G:\My Drive\.ROOT` nor `G:\My Drive\New folder\.ROOT` exists. The real copy
+   is **`G:\My Drive\desktop_folder_maybe\.ROOT`**: 16,091 files, 3.86 GB, last written
+   **Aug 9 08:33**. It predates the `04-SCHOOL` restructure, still contains the
+   `.tmp.driveupload` and `.trash` junk quarantined locally on Aug 12, and includes
+   `88-JOURNAL\` and `.git\`. Drive File Stream is running but nothing has synced since
+   Aug 9 — it is a dead copy, not a live link. Chris ruled Aug 12 that My Drive is the
+   intended school↔home link; **that link does not currently work.** Recommendation
+   (rule by Aug 17, execute before Aug 24): don't re-sync this copy — replace it with a
+   scoped link, in `claude_report_2026-08-12_friday_readiness.md` §5.
 3. Four decisions await Chris in the council verdict; step 2 of its sequence is
    now done, step 1 (`raw\` recovery list) is not. Nothing else is implemented.
 
