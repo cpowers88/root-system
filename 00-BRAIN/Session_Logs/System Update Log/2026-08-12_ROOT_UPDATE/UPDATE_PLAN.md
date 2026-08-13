@@ -143,6 +143,25 @@ direction: the backup is healthy, the *coverage window* is the hole. Daily-at-12
 evening session is unprotected until the next run, and pushing is the only thing that closes it.
 **Needs Chris — pushing is an outward action and is his call, not an AI's.** Recommended today.
 
+**T8 ✅ DONE (morning) — Friday's third structure exists.** Six pages built at
+`EDUCATION\wiki\courses\tcom-2010\` on the proven ECON shape — `concepts\` ×2,
+`common-errors\`, `glossary\`, `flashcards\`, `drills\` — beside the existing
+`semester-map.md`. **Inside `EDUCATION`, not a new top-level hub**, per ruling J-2; no
+third structural pattern invented, which was the explicit instruction.
+
+Content is grounded in the real exact-section syllabus and `HAT_TCOM.md`, not generated
+around the subject: the naming pattern, the single email-channel exception, the real
+attendance penalty, and the flag #57 warning that the printed schedule dates are recycled
+Spring dates. The two gaps the semester map found — Report Group Charter and Reflective
+Memo, neither of which ships a template — now surface in the concept and flashcard pages
+**before** the week they are due. The drill is generative retrieval matched to the required
+performance, which for TCOM means producing a document for a named reader.
+
+`index.md` and the hub `log.md` were updated **in the same pass**: navigation debt went
+4 → 16 on the raw additions and back to **4** once indexed. Council finding C1 says this
+vault detects and then fails to propagate — so the propagation happened before the commit,
+not after. **Friday's test can now run all three structures as Chris described.**
+
 **Filed under the freeze, not worked — three items:**
 
 1. **The bulk-work gate produced a fourth read-only false positive.** A `for` loop reading

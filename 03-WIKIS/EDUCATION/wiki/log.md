@@ -7,6 +7,33 @@ updated: 2026-07-24
 
 # EDUCATION Wiki — Session Log
 
+## 2026-08-13 (morning) — TCOM 2010 built out on the ECON pattern
+
+- **Ruling applied, not invented:** TCOM gets depth **inside `EDUCATION`, not a new
+  top-level hub** (update plan J-2). The decision rule is `NORTH_STAR.md` §2 — a
+  subject earns its own hub when its knowledge outlives the course. TCOM's *content*
+  does (communication is in the permanent capability base; proposals and reports are
+  direct client work) but the *course* does not, and three new hubs for courses that
+  end in December is permanent overhead bought for temporary work. ECON and ENGR
+  correctly stay as they are.
+- Six pages added on the proven ECON shape — `concepts/` ×2, `common-errors/`,
+  `glossary/`, `flashcards/`, `drills/` — beside the existing `semester-map.md`.
+  **No third structural pattern was invented.**
+- Content is grounded in the real exact-section syllabus, `HAT_TCOM.md` course facts,
+  and the textbook ancillaries the semester map already located. The two gaps the map
+  found (Report Group Charter, Reflective Memo — no ancillary template ships for
+  either) are carried forward into the concept and flashcard pages so they surface
+  before the week they are due, not during it.
+- The drill is built as **generative retrieval matched to the required performance**
+  (`HAT_EDUCATOR.md`): produce a document for a named reader, rather than recall a
+  definition. For TCOM that is the retrieval type that matches how the course grades.
+- `index.md` updated in the same pass — health gate navigation debt returned to its
+  pre-existing baseline of 4, so this added none.
+- **Named promotion trigger, so this is a decision and not a deferral:** promote TCOM
+  to its own top-level hub when the technical report is delivered **and** it has
+  produced reusable writing assets a client project would reuse. Structure follows
+  evidence.
+
 ## 2026-07-27 (evening) — Weeks 1-6 ingestion check, TCOM + ECON, against fresh recaptures
 
 - Codex's earlier inbox sort left two raw syllabus captures coexisting per

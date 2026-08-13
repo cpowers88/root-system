@@ -29,7 +29,22 @@ Canonical catalog for general KSU course support. Current status lives in
 
 ## TCOM 2010
 
-- [[courses/tcom-2010/semester-map|Semester Resource Map]]
+Built out 2026-08-13 on the pattern ECON already uses. TCOM earns this depth
+because its content — audience, purpose, genre, and the proposal/report documents —
+is in `NORTH_STAR.md` §2's permanent capability base and is directly reusable as
+client work, while the course itself carries the heaviest single deliverable.
+
+- [[courses/tcom-2010/semester-map|Semester Resource Map]] — week-by-week
+  deliverables mapped to textbook chapters, ancillaries, and worked examples
+- [[courses/tcom-2010/concepts/audience-purpose-genre|The Four-Part Decision Model]]
+  — audience, purpose, genre, constraints; the part of TCOM that outlives the course
+- [[courses/tcom-2010/concepts/technical-report-anatomy|Technical Report Anatomy]] —
+  the Weeks 6–12 build, section by section
+- [[courses/tcom-2010/common-errors/compliance-and-format|Common Errors: Compliance and Format]]
+  — where the grade is actually lost; use as a pre-submission checklist
+- [[courses/tcom-2010/glossary/technical-communication-terms|Technical Communication Glossary]]
+- [[courses/tcom-2010/flashcards/compliance-and-document-types|Compliance and Document Type Flashcards]]
+- [[courses/tcom-2010/drills/audience-retarget-and-redesign|Audience Retargeting and Redesign Drill]]
 
 ## ENGR 1000
 
