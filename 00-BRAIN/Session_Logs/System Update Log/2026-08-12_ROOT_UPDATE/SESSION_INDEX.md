@@ -31,12 +31,15 @@ re-deriving a plan from conversation.**
 | 2 | `claude_report_2026-08-12_friday_readiness.md` | **Why this update kept stalling** (decision-starved, not work-blocked), four corrections to the plan measured live, the Thursday execution sequence, and the Friday gate |
 | 3 | `claude_review_packet_2026-08-12_load_and_hats.md` | **The Phase D proposal-first table Chris approved.** All six always-load files measured section by section with a keep / move / split verdict, plus all 12 hats |
 | 4 | `PHASE_D_FLAG_LOAD_PROPOSAL.md` | The `SYSTEM_FLAGS.md` split in detail, including the three prohibitions that must survive the trim verbatim |
+| 5 | `CODEX_T2_READINESS_AND_ROOT_STATE_REVIEW_2026-08-13.md` | Independent T2 challenge plus the 2026-08-13 correction: T2 is one component of the Markdown-justification and operational-testing gate, not the release by itself |
 
 ## Authority and boundary
 
-Authority came from Chris's direct instruction on 2026-08-12: `.ROOT` is PAUSED until he
-types `OK TO START`, and the runway between now and the semester is his to spend, with
-sequencing control staying with him while AI proposes optimal pathways.
+Authority came from Chris's direct instructions on 2026-08-12 and 2026-08-13: `.ROOT` is
+PAUSED until he gives the completed `OK TO START` statement. T2 alone does not release the
+pause. Before that statement, the live Markdown estate must be justified and an operational,
+optimized `.ROOT` must be ready for testing, with semester-critical paths prioritized and
+business research preserved for mostly AI-driven maintenance during the semester.
 
 Nothing in this packet authorizes deletion under `raw\`, publication, or outreach.
 

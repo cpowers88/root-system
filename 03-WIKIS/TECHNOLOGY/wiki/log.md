@@ -6,6 +6,20 @@ timeline: log
 
 # TECHNOLOGY Wiki — Log
 
+## 2026-08-13 — inbox routing: networking-literacy notes filed
+
+- `notes_swithes_and_routers.md` moved out of `77-INBOX` to
+  `wiki\switches-and-routers-networking-literacy.md`, renamed to the kebab-case convention
+  its siblings use (the original filename also carried a typo, "swithes").
+- **Filed to `wiki\`, not `raw\`, on purpose.** It carries no frontmatter, no source URL and
+  no clipper signature — it is Chris's own synthesis written from a networking-literacy
+  source, not a captured document. `raw\` is for immutable captured sources; a personal note
+  filed there would be both wrong and unreachable, since AI may not write under `raw\`.
+- Frontmatter added (`type: reference`, `timeline: reference`, `tags: [technology, networking]`)
+  and a one-line provenance note at the top. **Body left exactly as Chris wrote it** —
+  including the informal voice, which is the record of how he understood it.
+- Index updated in the same pass.
+
 ## 2026-07-24 — 2 new books landed in raw/, intake pending
 
 Chris dropped 8 PDFs in `77-INBOX` this morning; routed by subject per

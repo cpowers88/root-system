@@ -9,7 +9,9 @@ tags: []
 
 > # ⏸ `.ROOT` IS PAUSED
 >
-> **Declared by Chris, 2026-08-12. Resumes only when Chris types `OK TO START`.**
+> **Declared by Chris, 2026-08-12. Resumes only when Chris gives the completed
+> `OK TO START` statement after the readiness work below.** T2 alone does not release
+> the pause.
 >
 > The queue does not run and does not advance. No session opens by telling Chris
 > what he is behind on. The runway between now and the semester is Chris's, and
@@ -17,12 +19,17 @@ tags: []
 > with the folder structure and how work moves through it, calculus review, and
 > TCOM structure.
 
-## Today is the scoped delivery day
+## The next two days are the operational-readiness build
 
-**Thursday Aug 13 is the one-day execution push. Friday Aug 14 morning is the gate.**
-Every decision that was blocking this update was ruled by Chris on Wednesday evening.
-Nothing in today's sequence is waiting on him except T2's proposal table, which is
-proposal-first by his own condition.
+**Goal:** get an operational, optimized `.ROOT` running for testing before next week.
+Before the completed `OK TO START` statement, every live Markdown file must be justified
+through a named owner, function, lifecycle, retrieval path, and semester/business
+disposition. Semester-critical operating material must be ready and testable. Business
+research must be preserved without forcing a full manual review now; most business
+research maintenance can remain AI-driven during the semester.
+
+The Thursday work below is the completed first tranche. Friday's technical and learner
+tests are evidence inside the larger readiness gate, not the release by themselves.
 
 **Sequence, in this order** — `UPDATE_PLAN.md` and
 `claude_report_2026-08-12_friday_readiness.md` §4 hold the detail:
@@ -36,11 +43,11 @@ proposal-first by his own condition.
 | **T6** | Restore test — mirror + snapshot, hashes compared | ✅ **done — backup proven** |
 | **T8** | `EDUCATION\wiki\courses\tcom-2010\` built on the ECON pattern, six pages | ✅ **done** |
 | **T7** | Phase A — `tmp\` quarantined, `outputs\` and Watchtower moved, 22 refs repointed, `COLOR_MAP.yaml` | ⚠️ **content done; 3 empty folder shells need Chris** |
-| **T2** | Phase D — split `SYSTEM_FLAGS.md`; fix the `AGENT.md` L134/L153 load contradiction in the same pass | ⏳ **NOT STARTED — the one item left** |
+| **T2** | Phase D — split `SYSTEM_FLAGS.md`; fix the `AGENT.md` L134/L153 load contradiction in the same pass | ⏳ **NOT STARTED — next component, not the release gate** |
 
 **T9 was already done** — the safe word is live (see below).
 
-> ### The only remaining work is T2, and it is the one that matters most
+> ### T2 is the next update component; Markdown justification and testing complete readiness
 >
 > Phase D is what makes every future session cheaper: `SYSTEM_FLAGS.md` is 32% of the
 > always-load and the only part that grows without bound. **Two flags closing today
@@ -49,8 +56,15 @@ proposal-first by his own condition.
 >
 > Chris authorized it proposal-first; the approved table is
 > `claude_review_packet_2026-08-12_load_and_hats.md`. **Codex's independent challenge
-> (its Priority 1) has not been filed** — the plan says to execute Thursday either way,
-> with any objections applied after.
+> is now filed** at
+> `CODEX_T2_READINESS_AND_ROOT_STATE_REVIEW_2026-08-13.md`. Its corrected scope must be
+> reconciled with the live state before execution.
+
+**Readiness inventory measured 2026-08-13:** 1,544 `.md` files outside `88-JOURNAL\` and
+all `raw\` folders: 1,087 `03-WIKIS`, 293 `00-BRAIN`, 83 `02-LIBRARY`, 32 `05-BUSINESS`,
+23 `04-SCHOOL`, 17 `01-NORTH_STAR`, and 9 root files. Justification is by explicit
+file-class contract plus exception review—not by pretending all 1,544 files deserve an
+equal manual reread.
 
 ## Needs Chris — small, and blocking nothing else
 
@@ -150,8 +164,12 @@ a bookmark. Do not present it as today's action and do not date-advance it. Week
 (`CASTLE\wiki\weekly-plans\weekly-plan-2026-08-10-to-2026-08-16.md`) is suspended, not
 cancelled.
 
-**Runway work, Chris-directed:** (1) `.ROOT` into good operating order — *today*;
-(2) Chris's comfort with the folder structure; (3) calculus review; (4) TCOM structure.
+**Runway work, Chris-directed:** (1) justify the live Markdown estate; (2) get an
+operational, optimized `.ROOT` ready for testing over the next two days; (3) make the
+semester-critical learning paths and folder flow usable; (4) preserve business research
+while allowing AI to maintain most of it during the semester; (5) calculus review and
+TCOM structure. The completed `OK TO START` statement comes next week only after the
+readiness evidence is assembled.
 
 > ### 📋 Items 1 and 2 have a live plan. Read it before proposing update work.
 >
@@ -164,9 +182,9 @@ cancelled.
 
 ## Fixed and Dated
 
-- **August 14 (tomorrow)** — the gate: pass the technical checks, then take the TCOM, CSE
-  and PHYS structures for a test run. Chris's definition; instrument in the readiness
-  report §6.
+- **August 14 (tomorrow)** — run the technical checks and take the TCOM, CSE and PHYS
+  structures for a test run. These are readiness proofs, not the completed `OK TO START`
+  release by themselves.
 - **August 17** — flag #57 escalation: if PHYS 2211 §54 and ENGR 1000 BWD syllabi have not
   posted, email the instructors directly. Also the Drive ruling date.
 - **August 22** — dress rehearsal (Week D).

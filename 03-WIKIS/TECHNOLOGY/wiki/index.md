@@ -214,4 +214,5 @@ categories) carried as an open "next action" since July 7, 2026.
 - [[vs-code-data-tooling-data-wrangler-and-edit-csv|VS Code Data Tooling: Data Wrangler, Edit CSV, and the Titanic Tutorial]] — Category 5
 - [[spreadjs-embeddable-excel-import-export|SpreadJS — Embeddable Excel Import/Export for Custom Web Tools]] — Category 9/12, landscape-only
 - [[api-integration-layer-2026-landscape|API & Integration Layer — 2026 Landscape]] — Category 9 (new 2026-07-16): Zapier/Make/n8n tiering, AI agents as integration consumers, MCP standardization and security, rung-4 custom-glue proof standard
+- [[switches-and-routers-networking-literacy|Switches and Routers — Networking Literacy]] — Chris's own study notes: LAN vs. inter-network roles, OSI layer 2 vs. 3, MAC vs. IP forwarding, managed/unmanaged and layer-3 switches, VLAN segmentation, QoS, SNMP/Syslog monitoring
 - [[goal-aligned-technology-gap-audit-2026-07-16|Goal-Aligned Technology Gap Audit — July 16, 2026]] — knowledge-vs-proof audit across the eight-rung application trace; Now/Near/Future gaps, minimum production standard, and selected scanner reliability proof path

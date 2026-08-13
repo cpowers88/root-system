@@ -24,6 +24,44 @@ session_date: 2026-08-12
 
 ## Where this stands
 
+### Goal correction — Chris, 2026-08-13
+
+The release gate is broader than T2 and broader than Friday's technical pass. **Do not move
+forward on `OK TO START` until the live Markdown estate is justified and `.ROOT` has an
+operational, optimized version ready for testing.** The next couple of days serve that goal;
+the completed `OK TO START` statement is assembled next week with the remaining readiness
+evidence.
+
+The justification population is **1,544 Markdown files outside `88-JOURNAL\` and every
+`raw\` folder**: root 9 · `00-BRAIN` 293 · `01-NORTH_STAR` 17 · `02-LIBRARY` 83 ·
+`03-WIKIS` 1,087 · `04-SCHOOL` 23 · `05-BUSINESS` 32. Raw evidence remains immutable and
+private journal content remains outside the review.
+
+Every file earns its place through five fields:
+
+1. **Owner** — which realm/file class is authoritative for it.
+2. **Function** — instruction, current state, evidence synthesis, learning asset, build
+   artifact, business research, template, or history.
+3. **Lifecycle** — always-load, conditional-load, active, maintained reference, generated,
+   or historical/archive-bound.
+4. **Retrieval path** — the live index, map, operating file, skill, hat, or direct trigger
+   that makes it discoverable when needed.
+5. **Semester/business disposition** — semester-critical now; preserve and AI-maintain
+   during semester; defer; consolidate/propose archive; or exception requiring Chris.
+
+This is a full-coverage ownership audit, not an equal-depth reread of 1,544 files. Deep
+semantic review is required for always-load/current-state/semester-critical files and for
+exceptions. Business research receives preservation, ownership, retrieval, recency, and
+duplication checks now; broad content expansion or manual re-review is deferred unless it
+changes a current strategy or semester decision. This protects accumulated business value
+without letting it consume the pre-semester runway.
+
+**Readiness order:** define the file-class register and exception test → justify the
+always-load/root/`00-BRAIN` control layer → justify semester-critical school and learner
+paths → verify wiki/library/business ownership and retrieval by class → execute bounded T2
+when its dependencies are satisfied → run technical gates and fresh-session/TCOM/CSE/PHYS
+tests → assemble the completed `OK TO START` statement next week.
+
 Chris paused `.ROOT` on 2026-08-12 and directed the runway (now → Aug 24) at four
 things in his own order: `.ROOT` into good operating and upgrading order, his own
 comfort with the folder structure and how work moves through it, calculus review,
@@ -31,8 +69,8 @@ and TCOM structure. **This plan covers the first two.** Sequencing authority is
 Chris's; AI proposes optimal pathways and does not re-order silently.
 
 The update's optimization target was named on 2026-08-10 and has not changed:
-**pathways, not names.** How much an agent must read and how work moves — not what
-folders are called.
+**pathways, not names.** How much an agent must read and how work moves—not what folders
+are called. The Markdown-justification gate extends that principle to every file class.
 
 ## Thursday 2026-08-13 — execution log
 
