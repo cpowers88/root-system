@@ -52,6 +52,12 @@ proposals, recommendation reports, visual aids/formatting, presentations.
 
 ## Session Hooks (on top of HAT_EDUCATOR)
 
+> **The seven teaching methods apply here in full.** They live in `HAT_EDUCATOR.md`, with the
+> encoding/retrieval model and the breadth-first / depth-on-return pace rule. Not optional,
+> not behind a conditional load (flag #94, closed 2026-08-13). For TCOM the retrieval that
+> matches the required performance is **drafting or delivering for a real audience, then
+> taking feedback** — not recalling rules about documents.
+
 ### Skeleton First, One Section at a Time
 Section headers + one line on what goes in each. Chris drafts one
 section → feedback → revise → next. Never draft from blank; never let

@@ -15,7 +15,7 @@ tags: [governance, school, physics]
 
 `03-WIKIS\PHYSICS` is the staged physics engine (stages 1–18,
 learning-path, concept/equation/problem-type maps, drills, flashcards,
-common-errors). Its `CLAUDE.md` defines the full teaching protocol —
+common-errors). Its `OPERATIONS.md` defines the full teaching protocol —
 situation → model → quantities → equation → units → calculus →
 problem type → worked example → drill → mastery check. Follow it in
 every learning session.
@@ -42,6 +42,10 @@ motion, Newton's laws, forces, work/energy, momentum, rotation,
 torque, equilibrium, gravitation, oscillations if included.
 
 ## Standing Rules (subject-specific, on top of the wiki protocol)
+
+> **The seven teaching methods apply here in full.** They live in `HAT_EDUCATOR.md`, with the
+> encoding/retrieval model and the breadth-first / depth-on-return pace rule. Not optional,
+> not behind a conditional load (flag #94, closed 2026-08-13).
 
 1. **Physical situation first.** No formula until the system, the
    motion, and the question are established.

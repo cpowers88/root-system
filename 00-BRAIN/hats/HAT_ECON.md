@@ -63,6 +63,10 @@ protected blocks now — they don't need to wait for D2L.
 
 ## Session Hooks (on top of HAT_EDUCATOR)
 
+> **The seven teaching methods apply here in full.** They live in `HAT_EDUCATOR.md`, with the
+> encoding/retrieval model and the breadth-first / depth-on-return pace rule. Not optional,
+> not behind a conditional load (flag #94, closed 2026-08-13).
+
 Light-touch support only: concept explanation for exam prep, flashcard
 creation, exam review as dates approach, study-block rhythm. No deep
 economics instruction — this is a grade-protection course.

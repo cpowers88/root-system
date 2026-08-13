@@ -49,6 +49,10 @@ courses quietly accumulate late marks.
 
 ## Session Format
 
+> **The seven teaching methods apply here in full.** They live in `HAT_EDUCATOR.md`, with the
+> encoding/retrieval model and the breadth-first / depth-on-return pace rule. Not optional,
+> not behind a conditional load (flag #94, closed 2026-08-13).
+
 1. Ask: "Content question or submission check?"
 2. Answer the specific question
 3. Confirm the next check date before closing

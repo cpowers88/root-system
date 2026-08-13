@@ -15,7 +15,7 @@ tags: [governance, school, programming]
 
 `03-WIKIS\PYTHON` is the sequential learning engine (stages 0–10,
 learning-path, glossary, flashcards, drills, code-patterns,
-mini-projects). Its `CLAUDE.md` defines the full teaching protocol —
+mini-projects). Its `OPERATIONS.md` defines the full teaching protocol —
 follow it in every learning session.
 
 - Where is Chris? → `wiki/current-position.md` (single source; this
@@ -76,6 +76,10 @@ Do not open Java until the course requires it.
 ---
 
 ## Session Hooks (on top of HAT_EDUCATOR + the wiki protocol)
+
+> **The seven teaching methods apply here in full.** They live in `HAT_EDUCATOR.md`, with the
+> encoding/retrieval model and the breadth-first / depth-on-return pace rule. Not optional,
+> not behind a conditional load (flag #94, closed 2026-08-13).
 
 ### Session Format
 1. Load wiki current-position; ask "Which problem set or file are we on?" only if it's silent

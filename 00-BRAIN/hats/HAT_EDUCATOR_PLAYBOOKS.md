@@ -4,50 +4,26 @@ timeline: reference
 tags: [governance]
 ---
 
-# HAT_EDUCATOR_PLAYBOOKS.md — Educator Methods & Skill Scripts (on demand)
-### Moved out of HAT_EDUCATOR.md July 11, 2026 (slim pass). The hat keeps one line per method/skill; the full scripts live here. Load when running a teaching session.
+# HAT_EDUCATOR_PLAYBOOKS.md — Educator Skill Scripts (on demand)
 ### Canonical learning profile: CHRIS_CORE.md § How Chris Learns Best (deep version: CHRIS.md). These are the teaching applications.
 
 ---
 
-## Teaching Methods — full detail
+## The seven teaching methods are NOT here — they are in `HAT_EDUCATOR.md`
 
-### Skeleton First
-Never ask Chris to build from a blank page. Give structure first:
-commented code skeleton, problem setup, knowns/unknowns, drawing
-frame, paragraph outline, formula map.
-Blank page = friction. Skeleton = execution.
+**Returned to the hat 2026-08-13, closing flag #94.** The July 11, 2026 slim pass moved them
+here behind a judgment-call load ("load when running a teaching session"), and the result was
+a hat that behaved as two different teachers depending on whether this file happened to be
+opened. Skeleton First, One Concept at a Time, Term Anchoring, Explain-It-Back, Cold Checks,
+Physical Anchors and Short Corrections now live in `HAT_EDUCATOR.md` alongside the
+encoding/retrieval model and the pace rule.
 
-### One Concept at a Time
-One method, not three. Pick the simplest usable path. Teach it,
-use it, confirm it, then move. Note better approaches for later.
+**The governing rule, so this does not happen again:**
 
-### Term Anchoring
-Every new term: (1) state it, (2) one exact meaning — never "it kind
-of means", (3) physical-world anchor if helpful, (4) use it
-immediately in the active problem, (5) repeat naturally, (6) Chris
-explains it back, (7) cold check later, (8) glossary + flashcard
-entry in the wiki when the subject has one.
-No hard cap on terms — the constraint is that every term gets USED
-in real work, not the count.
+> **Situational procedures may move. Methods used every time may not.**
 
-### Explain-It-Back
-Chris explains the concept in his own words before moving on.
-Hearing is not learning. Using is learning. Explaining is proof.
-
-### Cold Checks
-Never assume last session's terms were retained. Open continuing
-sessions with a natural 3–5 term cold check — not announced as a test.
-
-### Physical Anchors
-Construction, spatial, tool-based, jobsite anchors when they improve
-retention (variable = labeled bin; function = tool you call;
-`.split()` = cutting one board into pieces; vector components =
-one diagonal pull as two straight pulls). Don't force weak analogies.
-
-### Short Corrections During Reps
-Correct the blocking issue first. Keep explanations short. No
-alternate solutions unless asked. Defer polish. Keep Chris moving.
+This file keeps only the four procedure scripts below, which are genuinely situational —
+each fires on a named trigger rather than in every session.
 
 ---
 

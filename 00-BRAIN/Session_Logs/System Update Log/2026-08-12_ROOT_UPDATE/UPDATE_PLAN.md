@@ -34,6 +34,60 @@ The update's optimization target was named on 2026-08-10 and has not changed:
 **pathways, not names.** How much an agent must read and how work moves — not what
 folders are called.
 
+## Thursday 2026-08-13 — execution log
+
+**T1 ✅ DONE (morning).** `NOW.md` refreshed to Thursday and `MORNING_BRIEF.md` regenerated.
+The corrections that mattered, propagated:
+
+- The August 12 cockpit closed with *"no weekly review exists for August 3–9, so five DAILY
+  files sit past their archive step."* **False when written** — `WEEKLY_AUGUST3-9.md` was
+  filed Aug 12 at 15:31 (`7b95c12`) and the Aug 6–9 DAILYs rotated the same day. This is
+  council finding C1 appearing in the cockpit that warns about C1, one day after it appeared
+  in this plan. Corrected; what actually remains is T5.
+- Flag #99, the safe word, and the finding freeze were all absent from `NOW.md` and are now in it.
+- **Always-load re-measured this morning: 7,138 words** — `AGENT.md` 2,826 · `SYSTEM_FLAGS.md`
+  **2,275 (32%)** · `CHRIS_CORE.md` 893 · `NORTH_STAR.md` 582 · profile `CLAUDE.md` 459 ·
+  root pointer 103. Up from 7,031 at last night's close and 6,859 the evening before.
+  **The growth term remains `SYSTEM_FLAGS.md` and it grew again overnight.** Correction 4
+  from the readiness report is now closed at the Thursday-morning reading; re-measure again
+  at Phase D close.
+- **Gates re-run live this morning:** `validate_boot_chain.py` PASS (31 files, 1,352 pages);
+  `root_health.py` PASS WITH DEBT exit 0 (blockers 0, review debt 4, 1,528 files, 0 findings).
+  `root_health.py` still prints **"PASS: shared skill mirrors"**, which is the flag #99 false
+  PASS — recorded here so Thursday's T4 has a before-state to compare against.
+
+**T3 ✅ DONE (morning) — flag #94 closed.** The seven methods are inlined into
+`HAT_EDUCATOR.md`; `HAT_EDUCATOR_PLAYBOOKS.md` now states where they went rather than
+holding a second copy, so the two cannot drift apart. The J-4 recommendation landed with it:
+the encoding/retrieval model and the retrieval-matched-to-required-use table are in the hat,
+which is what tells a session *when* each of the seven fires. **That model had never once
+loaded during teaching** — it existed since 2026-07-12 and no hat referenced it. All five
+subject hats now carry the pointer. K-1's pace tension is resolved in-file by naming the two
+passes (breadth sweep vs. depth pass), with One Concept at a Time scoped to the second;
+flagged in-file as pending Chris's confirmation of the wording. Cost to always-load: **0** —
+the whole change is in the conditional hat layer, and removing #94's row from
+`SYSTEM_FLAGS.md` actually reduced it.
+
+**Filed under the freeze, not worked — three items:**
+
+1. **The bulk-work gate produced a fourth read-only false positive.** A `for` loop reading
+   five hat files with `head` was blocked as bulk work. Same class as the three from Aug 12
+   (word count, two `find -exec` inventories). It reads nothing but files it was going to
+   read anyway, and the redirect it offers cannot run on Windows. **This is the freeze's own
+   first test and it is Claude's own finding, so it stays filed.** Proposed fix, for after
+   Friday: classify on write intent, allowing read-only verbs (`wc`, `ls`, `grep`, `head`,
+   `find` without `-exec`/`-delete`) through regardless of command shape. `.claude\` is tool
+   configuration and needs Chris's approval either way.
+2. **Two dangling hub pointers, FIXED in passing rather than filed** — `HAT_PYTHON.md` and
+   `HAT_PHYSICS.md` both sent every learning session to their hub's `CLAUDE.md` for the
+   teaching protocol; those loader files were removed 2026-08-10. Repointed to
+   `OPERATIONS.md`. Recorded as an exception to the freeze because it is a two-word stale
+   reference inside the file already being edited, in the same defect class as the flag being
+   closed — a teaching instruction that does not load. Noted rather than buried.
+3. **`validate_boot_chain.py` did not catch (2).** A stale governance reference in the hat
+   layer survived a PASS. Whether the boot chain's 31-file scope should include `hats\` is a
+   real question and it is **filed, not answered.**
+
 ## ❄ FINDING FREEZE — operative 2026-08-13, declared by Chris 2026-08-12 evening
 
 **New findings are FILED to this plan. They are not worked.** Applies to every surface —
