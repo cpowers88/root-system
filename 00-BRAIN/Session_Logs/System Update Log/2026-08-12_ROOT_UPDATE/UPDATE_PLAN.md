@@ -109,6 +109,40 @@ the template, which is exactly what the rule allows.
 Gates after: boot chain PASS (31 files, 1,352 pages); `root_health.py` exit 0. Live Markdown
 went 1,530 → 1,521 files, which is the nine rotations reconciling exactly.
 
+**T6 ✅ DONE (morning) — the backup is now proven by recovery, not by assertion.** Phase G's
+first item closes. Restored from **both** the mirror (`D:\BACKUPS\.ROOT`) and one snapshot
+(`snapshots\2026-08-12_1426`, `.snapshot_complete` marker present) into a scratchpad temp dir
+— never into the vault.
+
+| Class | Files | Result |
+|---|---|---|
+| Governance / scripts / current-position | 6 | **6/6 SHA-256 MATCH** from mirror and snapshot |
+| Irreplaceable `raw\` PDFs (8.99 MB, 3.77 MB) | 2 | **MATCH** from mirror and snapshot, byte-exact |
+| `AGENT.md` — deliberate negative control | 1 | **DIFFERS**, correctly |
+
+**The negative control is the part that makes this a test rather than a ritual.** `AGENT.md`
+*should* differ: the backup ran Aug 12 14:27, before the safe word was added that evening and
+before today's archive clause. A diff confirms the only differences are exactly those two
+edits — 18 lines, all accounted for. Had everything matched, the comparison would have been
+proving nothing. **Verdict: the backup restores, and it is a faithful point-in-time copy.**
+
+**⚠ NEW, loss-bearing, and not previously recorded — surfaced by this test.** Reconciling what
+each copy holds exposes a gap none of the backup work covered:
+
+| Copy | Holds through | Missing |
+|---|---|---|
+| `D:\BACKUPS\.ROOT` | Aug 12 **14:27** | the whole Aug 12 evening governance session + today |
+| GitHub `origin/main` | **`3f78fa4`**, Aug 12 midday | **12 commits** |
+| `G:\My Drive\...` | Aug 9 | everything since |
+
+**The local branch is 12 commits ahead of `origin/main`.** The council rulings, the safe word,
+the finding freeze, the Phase D proposal, and today's two flag closures exist on **one physical
+disk** — partially on D: as files, but the git history itself only on C:. This is the same
+defect class as flag #98 (a backup believed to cover work it did not), arriving from the other
+direction: the backup is healthy, the *coverage window* is the hole. Daily-at-12:30 means every
+evening session is unprotected until the next run, and pushing is the only thing that closes it.
+**Needs Chris — pushing is an outward action and is his call, not an AI's.** Recommended today.
+
 **Filed under the freeze, not worked — three items:**
 
 1. **The bulk-work gate produced a fourth read-only false positive.** A `for` loop reading
