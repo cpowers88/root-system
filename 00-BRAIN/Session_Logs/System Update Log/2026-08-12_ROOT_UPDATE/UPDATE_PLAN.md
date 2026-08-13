@@ -661,6 +661,28 @@ claims and what is true, which is where every serious defect this month has live
 **Deliverable:** one reconciled report to `Session_Logs\`, findings filed into this plan by
 phase. **Not a conversation, and not applied fixes.**
 
+#### Codex Priority 2 filing — started 2026-08-12
+
+Report: `CODEX_PRIORITY_2_WIKI_MATERIAL_REVIEW.md` in this folder. Status:
+**in progress; findings only, no fixes applied.**
+
+- **W2:** only 3 of 8 hub `OPERATIONS.md` files explicitly declare their
+  dependency on `WIKI_SHARED_LAYER.md`. Session-start conformance is the largest
+  gap; BUSINESS alone names index + three newest log entries, and even it omits
+  the required one-sentence goal. Contract matrix filed in the report; recent
+  trace sampling remains.
+- **W3:** only EDUCATION, PHYSICS, and PYTHON have `current-position.md`.
+  Missing files are not automatically defects: SYSTEMS and TECHNOLOGY explicitly
+  name alternate owners. EDUCATION and PHYSICS are semantically stale; PYTHON's
+  Stage 4b frontier agrees with NOW. Alternate-owner freshness remains to verify.
+- **W1:** the 4 review-debt counts are two CASTLE weekly-plan pages, each counted
+  once as an exhaustive-index omission and once as an orphan. One later index
+  fix covering both pages should clear all four; no fix applied because CASTLE is
+  on the collision boundary.
+- **W4:** dual identity confirmed in EDUCATION's own contract: meta-learning and
+  education research share one hub/state tracker with ECON, TCOM, and ENGR course
+  support. Separation recommendation filed without touching Thursday's TCOM work.
+
 ## Lessons that must not be relearned
 
 1. **Presence is not function.** Hit five times this week: the inert sandbox, the dead
