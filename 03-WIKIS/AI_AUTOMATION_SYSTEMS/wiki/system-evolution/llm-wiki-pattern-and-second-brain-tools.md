@@ -1,7 +1,7 @@
 ---
 type: reference
 tags: [ai-automation]
-source: raw/LLM_WIKI_PATTERN_karpathy.md + raw/LLM WIKI.md + raw/Obsidian AI Second Brain Open-Source.md + raw/Second brain obsidian.md (each read in full, 2026-07-09); raw/GBrain - Garry Tan's Opinionated Agent Brain.md + raw/loopany CLAUDE.md.md + raw/loopany INSTALL_FOR_AGENTS.md.md + raw/loopany part 1-4.md + raw/How to build proactive agents and self-improving companies.md (each read in full, 2026-07-13; full architectural depth moved to [[self-improving-agent-architectures-gbrain-loopany-closed-loop]]); raw/Agentic Operating System File Structure A Practical Folder Layout.md + raw/Build Karpathy’s Self-Updating AI Knowledge Base in Just 90 Minutes.md (read in full and source-classified, 2026-07-14)
+source: raw/LLM_WIKI_PATTERN_karpathy.md + raw/LLM WIKI.md + raw/Obsidian AI Second Brain Open-Source.md + raw/Second brain obsidian.md (each read in full, 2026-07-09); raw/GBrain - Garry Tan's Opinionated Agent Brain.md + raw/loopany CLAUDE.md.md + raw/loopany INSTALL_FOR_AGENTS.md.md + raw/loopany part 1-4.md + raw/How to build proactive agents and self-improving companies.md (each read in full, 2026-07-13; full architectural depth moved to [[self-improving-agent-architectures-gbrain-loopany-closed-loop]]); raw/Agentic Operating System File Structure A Practical Folder Layout.md + raw/Build Karpathy’s Self-Updating AI Knowledge Base in Just 90 Minutes.md (read in full and source-classified, 2026-07-14); raw/How to Build Karpathy's LLM Wiki The Complete Guide to AI-Maintained Knowledge Bases.md + raw/balukosurillm-wiki-karpathy.md + raw/lucasastorianllmwiki Open Source Implementation of Karpathy's LLM Wiki. Upload documents, connect your Claude account via MCP, and have it write your wiki !.md + raw/Astro-Hankarpathy-llm-wiki Agent Skills-compatible LLM wiki for Claude Code, Cursor, and Codex. Build a Karpathy-style knowledge base from raw sources, citations, and linting.md (read in full/operative depth, 2026-08-13)
 timeline: reference
 ---
 
@@ -200,3 +200,54 @@ above:
 Related: [[root-maturity-self-assessment]], [[2025-ai-agent-index]],
 [[work-trend-index-2024-2026]],
 [[self-improving-agent-architectures-gbrain-loopany-closed-loop]].
+
+## 2026-08-13 Addendum — New LLM-Wiki Implementation Cluster
+
+Four newly captured sources independently reconfirm the same core pattern: immutable raw
+evidence, maintained Markdown knowledge, index-first retrieval, an append-only operation
+log, and ingest/query/lint as the three basic operations. Two are implementation repos
+(Balukosuri and Astro-Han), one is a fuller local/hosted product (Lucas Astorian), and one
+is a secondary implementation guide (Starmorph). They strengthen the architecture claim;
+they do not establish that `.ROOT` should adopt any product or make any system change.
+
+### Convergent implementation patterns
+
+1. **Filesystem truth; indexes are derived.** The Lucas Astorian implementation makes the
+   boundary explicit: source files and maintained Markdown are durable truth; SQLite/search
+   caches are disposable and rebuildable.
+2. **Deterministic lint before semantic repair.** Citation resolution, dangling links,
+   orphan detection, frontmatter consistency, and index coverage are appropriate machine
+   checks. Contradiction resolution still requires contextual judgment.
+3. **Discuss and route before fan-out.** Balukosuri recommends ingesting one source at a
+   time when judgment matters so the human can steer emphasis. A source can update several
+   pages, but page count is not evidence of useful synthesis.
+4. **Search complexity should follow measured need.** Astro-Han reports grep and index-first
+   reading as sufficient around 50K–100K curated tokens. The Lucas implementation adds
+   full-text and citation-graph search through a rebuildable local index. These describe a
+   progression, not a universal requirement for vector search, MCP, or a UI.
+5. **Human curation remains upstream.** Across the implementations, the human selects and
+   interprets sources while the model performs synthesis, cross-linking, bookkeeping, and
+   health checks. The more autonomous variants add scheduled maintenance, but supply no
+   evidence here that unattended semantic rewriting is reliably reviewable.
+
+### Important boundaries and disagreements
+
+- The Starmorph guide frames an LLM wiki as replacing RAG at personal/team scale; this
+  page's July 14 primary-research review already corrects that to a question-dependent
+  tradeoff. The new cluster does not supersede the primary evidence.
+- Astro-Han intentionally omits numeric confidence scores, per-page review dates, automatic
+  hooks, vector search, MCP, and UIs. Lucas implements several of those capabilities. This
+  is a scope difference, not a contradiction: a portable skill and a full product optimize
+  for different boundaries.
+- Astro-Han argues source hashes add little when raw is immutable. In `.ROOT`, flag #97
+  proves hashes may still help detect capture loss—but **must never be used alone to dedupe
+  raw**, because filenames can be the only surviving evidence of missing sources.
+- Lucas exposes create/edit/append/delete over MCP and recommends nightly routines. Those
+  are capabilities described by the source, not approved `.ROOT` changes.
+
+### Review-ready implication
+
+The cluster supplies patterns for the later optimization review: durable truth versus
+derived indexes, deterministic versus semantic checks, human-steered versus unattended
+ingest, and simple index/grep navigation versus added retrieval infrastructure. Adoption,
+rejection, or implementation belongs to the later review—not this ingestion step.

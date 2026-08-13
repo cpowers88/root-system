@@ -2,14 +2,31 @@
 type: report
 timeline: now
 register: system-review
-status: proposed
+status: executed
 tags: [update, phase-d, flags, instruction-layer, load]
 created: 2026-08-12
 ---
 
 # Phase D proposal — take the flag register out of the boot load
 
-**Status: PROPOSED. Nothing has been moved.** Chris's decision required.
+> ## ✅ EXECUTED 2026-08-13 (T2). This document is now a record, not a plan.
+>
+> **Two corrections applied at execution, both from Codex's independent review:**
+>
+> 1. **"Three live prohibitions" was stale.** Flag #94 closed the morning of execution, so
+>    only **#97 and #96** are open prohibitions. #94's *rule* survives as the third entry —
+>    "methods used every time may not move" — because it is the guardrail on this very
+>    change, but **#94 is not open state and must not be resurrected as a flag.**
+> 2. **The wider `AGENT.md` / profile / `CHRIS_CORE.md` slimming was NOT executed.** Codex
+>    ruled it out of T2's scope: those rows need their own counter-example review and are not
+>    needed to close T2's core defect. Only the two load-rule lines were touched.
+>
+> **Measured result:** `SYSTEM_FLAGS.md` **1,976 → 802 words**; always-load **6,923 → 5,803**
+> (−1,120, −16%), measured from the real boot chain rather than `BOOT_FILES`. The ~4,700
+> target in the review packet assumed the `AGENT.md` cut that was deliberately deferred, so
+> 5,803 is the correct outcome for the narrowed scope — not a shortfall.
+
+**Original status when written: PROPOSED. Nothing has been moved.** Chris's decision required.
 Originated by Chris, 2026-08-12: *"what if we just lost the flags there, and the larger
 facts if needed in separate file."*
 

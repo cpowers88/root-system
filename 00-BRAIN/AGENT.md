@@ -147,7 +147,8 @@ Profiles and local files cannot override file safety, North Star direction, raw 
 
 1. Read this file and the relevant surface profile.
 2. Read `CHRIS_CORE.md` unless already loaded for a narrow continuation.
-3. Check `SYSTEM_FLAGS.md` for the active task.
+3. Check `SYSTEM_FLAGS.md` for the active task — **always**. It is the slim operational
+   register: live prohibitions plus one row per open flag.
 4. Read `01-NORTH_STAR\NORTH_STAR.md`, then load only the companion and local
    context required by the active question.
 5. If `MORNING_BRIEF.md` is stale or Chris requests a system load, follow
@@ -166,7 +167,7 @@ local chain that can answer the active question safely.
 4. Verify that every target's parent chain traces to the live `C:\Users\chris\.ROOT` workspace.
 5. Maps are claims, not filesystem truth; verify exact paths when they matter.
 6. `WHERE_IT_GOES.md` is placement and naming authority.
-7. `SYSTEM_FLAGS.md` is required context for system, file-write, and review sessions.
+7. `SYSTEM_FLAGS.md` loads every session (step 3 above). **`SYSTEM_FLAGS_DETAIL.md` — the forensic history — is required additionally for system, file-write, and review sessions, and whenever a flag is being worked.** Prohibitions live in the slim register in full; never act on a constraint recalled from the detail file alone.
 8. `88-JOURNAL\` is private and never read or written by AI.
 9. Every `raw\` folder is immutable unless Chris explicitly authorizes an exception.
 10. Editing an instruction file does not alter the already-loaded session; use a fresh session to test new behavior.

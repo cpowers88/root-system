@@ -43,22 +43,24 @@ tests are evidence inside the larger readiness gate, not the release by themselv
 | **T6** | Restore test — mirror + snapshot, hashes compared | ✅ **done — backup proven** |
 | **T8** | `EDUCATION\wiki\courses\tcom-2010\` built on the ECON pattern, six pages | ✅ **done** |
 | **T7** | Phase A — `tmp\` quarantined, `outputs\` and Watchtower moved, 22 refs repointed, `COLOR_MAP.yaml` | ⚠️ **content done; 3 empty folder shells need Chris** |
-| **T2** | Phase D — split `SYSTEM_FLAGS.md`; fix the `AGENT.md` L134/L153 load contradiction in the same pass | ⏳ **NOT STARTED — next component, not the release gate** |
+| **T2** | Phase D — split `SYSTEM_FLAGS.md`; fix the `AGENT.md` L134/L153 load contradiction in the same pass | ✅ **done — always-load 6,923 → 5,803** |
 
 **T9 was already done** — the safe word is live (see below).
 
-> ### T2 is the next update component; Markdown justification and testing complete readiness
+> ### All eight Thursday items are complete. Readiness now rests on justification + testing.
 >
-> Phase D is what makes every future session cheaper: `SYSTEM_FLAGS.md` is 32% of the
-> always-load and the only part that grows without bound. **Two flags closing today
-> already cut it** — the register is smaller this afternoon than this morning for the
-> first time in a week. The split takes it from ~7,000 to a ~4,700 target.
+> **T2 landed to Codex's narrowed contract**, not the original proposal — an independent
+> review caught that the proposal's "three live prohibitions" had gone stale hours earlier
+> when flag #94 closed. `SYSTEM_FLAGS.md` is now **802 words** (from 1,976); the forensics
+> live in **`00-BRAIN\SYSTEM_FLAGS_DETAIL.md`**, which is *not* loaded at session start.
+> **Open a flag's detail before working it; never act on a constraint recalled from it.**
 >
-> Chris authorized it proposal-first; the approved table is
-> `claude_review_packet_2026-08-12_load_and_hats.md`. **Codex's independent challenge
-> is now filed** at
-> `CODEX_T2_READINESS_AND_ROOT_STATE_REVIEW_2026-08-13.md`. Its corrected scope must be
-> reconciled with the live state before execution.
+> The wider `AGENT.md` slimming was **deliberately not done** — deferred to its own pass with
+> counter-example review. That is why always-load is 5,803 and not the ~4,700 figure, which
+> assumed that cut.
+>
+> One reconciled verdict on both Codex reviews, with the disagreement named:
+> **`RECONCILED_VERDICT_2026-08-13.md`**.
 
 **Readiness inventory measured 2026-08-13:** 1,544 `.md` files outside `88-JOURNAL\` and
 all `raw\` folders: 1,087 `03-WIKIS`, 293 `00-BRAIN`, 83 `02-LIBRARY`, 32 `05-BUSINESS`,
@@ -101,13 +103,14 @@ Those are the hull, not the steering.
 - **Health gate: PASS WITH DEBT, exit 0.** Blockers 0; wiki review debt 4 (two CASTLE
   weekly-plan pages, each counted twice — Codex W1); Markdown integrity 1,528 files,
   0 findings.
-- **Always-load: 6,923 words** — measured again after the day's work. It was **7,138**
-  this morning and 7,031 last night. **`SYSTEM_FLAGS.md` fell 2,275 → 1,976**, its first
-  decrease in a week, because closing flags #94 and #99 removed 299 words of forensics
-  from a file every session reads. Honest offset: **`AGENT.md` grew 2,826 → 2,908**
-  (+82) from the archive clause and the Watchtower repoint. Net **−215**.
-  **This is the first day the register shrank rather than grew** — and it happened by
-  closing flags, not by trimming prose. T2 is still the structural fix; target ~4,700.
+- **Always-load: 5,803 words** — down from **7,138** this morning, **−19% in one day**.
+  `SYSTEM_FLAGS.md` went **2,275 → 802**: closing flags #94 and #99 took the first 299
+  words, and T2's split took another 1,174 into `SYSTEM_FLAGS_DETAIL.md`, which no session
+  loads by default. Honest offset: `AGENT.md` grew **2,826 → 2,962** (+136) from the archive
+  clause, the Watchtower repoint, and T2's load-rule alignment.
+  **Measurement method:** the six files the boot chain actually specifies, whitespace-split
+  word count. `BOOT_FILES` is deliberately not used — it is a stale-reference checklist, not
+  a load manifest, and it even annotates one entry as not always-loaded.
 - **"PASS: shared skill mirrors" is now earned** (it was false this morning). T4 fixed it;
   the validator was negative-tested on a deliberate break and fails at the canonical stage,
   so a dead link cannot reach a mirror at all.

@@ -1946,3 +1946,23 @@ reference back matter rather than an ingestion backlog.
 - Everything else in the read chunk confirmed existing coverage with different vocabulary (three-tier memory, control-flow taxonomy for plans, decoupled plan/verify/execute loop).
 - **Real, acknowledged gap:** physical pp. 572-613 of Ch. 6 (~40 pages) not read this pass. Chapters 1-5, 7, 8, 9 remain fully unread (TOC-only), consistent with the existing coverage ledger.
 - **Next exact action:** none queued. This was explicitly framed by Chris as chunk-format, multi-session material — remaining gaps stay open until directed.
+
+## 2026-08-13 — New raw intake ingested for later `.ROOT` optimization review
+
+- Step 1 scope only: ingest newly placed AIAS raw material into maintained AIAS knowledge;
+  do not change `.ROOT` governance, plans, cockpit, or operating structure.
+- Read four August 13 LLM-wiki sources in full/operative depth. Updated
+  [[system-evolution/llm-wiki-pattern-and-second-brain-tools]] rather than creating a
+  duplicate synthesis page.
+- Preserved the meaningful contrasts for review: durable files vs derived indexes;
+  deterministic lint vs semantic judgment; human-steered vs scheduled ingest; simple
+  index/grep navigation vs full-text/citation-graph infrastructure; portable-skill vs
+  full-product boundaries.
+- Classified the August 11 LLM Council capture as a proposal/request pointer. It was not
+  installed and was not treated as evidence about council quality or safety.
+- Updated `raw-source-coverage.md` with every new filename explicitly. No raw file was
+  modified, moved, renamed, hashed, or deduplicated. `index.md` already points to the
+  maintained synthesis page, so no index edit was required.
+- Next action: review the now-ingested wiki material for optimization patterns relevant to
+  semester operations and future business capability; keep that review separate from any
+  implementation decision.

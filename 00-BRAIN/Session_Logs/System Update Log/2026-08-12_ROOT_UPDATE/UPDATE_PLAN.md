@@ -238,6 +238,59 @@ working around a control rather than respecting it. All content is already moved
 what is left is empty scaffolding. `build_graph_colors.py`'s drift check now names all three,
 so it will keep flagging them until they are gone — a useful independent detector.
 
+**T2 ✅ DONE (afternoon) — Phase D executed. All eight Thursday items are now complete.**
+
+Executed to **Codex's narrowed contract**, not the original proposal, after an independent
+review caught that the proposal had gone stale in the hours before execution.
+
+| | Before | After |
+|---|---|---|
+| `SYSTEM_FLAGS.md` | 1,976 w | **802 w** |
+| Always-load (real boot chain) | 6,923 w | **5,803 w** (−1,120, **−16%**) |
+| `SYSTEM_FLAGS_DETAIL.md` (not loaded) | — | 1,629 w |
+
+**Shape:** the slim register carries the PAUSE + freeze state, § The Rule, **the live
+prohibitions in full imperative form**, and a six-row index (number, subject, severity,
+owner, next action/check moment). `SYSTEM_FLAGS_DETAIL.md` takes the measurement histories,
+the wrong-probe corrections, and the provenance disputes.
+
+**Two corrections applied from Codex's review, both real:**
+
+1. **"Three live prohibitions" was stale** — #94 closed that morning. Only **#97 and #96**
+   are open prohibitions. #94's *rule* survives as the third entry because it is the
+   guardrail on this exact change, but **it is not open state.** Verified: `#94` does not
+   appear in the open index.
+2. **The wider `AGENT.md` / profile / `CHRIS_CORE.md` slimming was NOT executed** — out of
+   scope, needs its own counter-example review. Only the two load-rule lines were touched.
+   **This is why the result is 5,803 and not the ~4,700 target:** that target assumed the
+   `AGENT.md` cut Chris deferred. 5,803 is the correct outcome for the narrowed scope.
+
+**The J-1 load-rule contradiction is closed in the same pass**, as the dependency required:
+`AGENT.md` step 3 now says the slim register loads **always**; File Safety 7 now points
+system/file-write/review work at `SYSTEM_FLAGS_DETAIL.md` **in addition**, with the explicit
+line *"never act on a constraint recalled from the detail file alone."* All three statements
+now agree.
+
+**Done beyond the contract, and it matters:** `SYSTEM_FLAGS_DETAIL.md` was added to
+`BOOT_FILES`. It is not loaded — that is the point of the split — but it is governance
+carrying many live paths, and File Safety 7 now points at it. Without this, a dangling
+reference inside it would never be caught. Boot chain now scans **32** files, PASS.
+
+**Acceptance gate — 9 of 10 verified, 1 deferred by rule:**
+
+| # | Check | Result |
+|---|---|---|
+| 1 | Every open flag in slim resolves to detail | **PASS** — 6/6 both ways |
+| 2 | #97 and #96 imperatives in the slim file itself, not behind a link | **PASS** — matched verbatim |
+| 3 | Closed #94 does not reappear as open state | **PASS** |
+| 4 | `validate_boot_chain.py`, no dangling reference | **PASS**, 32 files |
+| 5 | `root_health.py` exit 0, reported honestly | **PASS WITH DEBT, exit 0** — debt still the pre-existing 4 |
+| 6 | Skill mirrors + both whitespace checks green | **PASS** |
+| 7 | Always-load re-measured from the real chain, method recorded | **PASS** — 5,803; six files, whitespace-split word count, `BOOT_FILES` deliberately not used |
+| 8 | Fresh session states pause/freeze/#97/#96 without opening detail | **DEFERRED — Friday's gate.** `AGENT.md` File Safety 10: editing an instruction file does not change the running session, so this session **cannot** honestly perform it. Structural precondition verified (check 2); the behavioural half is Friday's |
+| 9 | Plan, `NOW.md`, DAILY agree T2 is complete | **PASS** — all updated this session |
+| 10 | Named check moment | **PASS** — Friday gate + next monthly review, recorded in the slim file's footer |
+
 **Filed under the freeze, not worked — three items:**
 
 1. **The bulk-work gate produced a fourth read-only false positive.** A `for` loop reading

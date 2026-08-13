@@ -42,6 +42,10 @@ BOOT_FILES = [
     # points here, and 26 files reference that anchor, so its absence is a break.
     ROOT / "00-BRAIN" / "WIKI_SHARED_LAYER.md",
     ROOT / "00-BRAIN" / "vault_map.md", ROOT / "00-BRAIN" / "SYSTEM_FLAGS.md",
+    # Not always-loaded (that is the point of the 2026-08-13 T2 split), but it is
+    # governance carrying many live paths, and AGENT.md File Safety 7 points at it.
+    # A dangling reference in here is a break even though no session loads it by default.
+    ROOT / "00-BRAIN" / "SYSTEM_FLAGS_DETAIL.md",
     ROOT / "00-BRAIN" / "CASTLE" / "CLAUDE.md",
     ROOT / "00-BRAIN" / "CASTLE" / "CODEX.md",
     ROOT / "00-BRAIN" / "CASTLE" / "OPERATIONS.md",
