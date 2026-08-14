@@ -5,7 +5,7 @@ status: active
 tags: []
 ---
 
-# NOW — Thursday, August 13, 2026
+# NOW — Friday, August 14, 2026
 
 > # ⏸ `.ROOT` IS PAUSED
 >
@@ -19,7 +19,7 @@ tags: []
 > with the folder structure and how work moves through it, calculus review, and
 > TCOM structure.
 
-## The next two days are the operational-readiness build
+## Today is the rehearsal gate — the second of the two readiness days
 
 **Goal:** get an operational, optimized `.ROOT` running for testing before next week.
 Before the completed `OK TO START` statement, every live Markdown file must be justified
@@ -61,6 +61,47 @@ tests are evidence inside the larger readiness gate, not the release by themselv
 >
 > One reconciled verdict on both Codex reviews, with the disagreement named:
 > **`RECONCILED_VERDICT_2026-08-13.md`**.
+
+## The teaching layer was rebuilt Thursday afternoon — today it gets tested
+
+Added after the eight items above, in the same day's late-afternoon session. All seven
+teaching hats rewritten to one integration standard: **every rule carries its trigger inline,
+and no content appears twice.** `HAT_EDUCATOR` **1,254 → 1,519 words** (peaked at 2,205, then
+−31% on the integration pass with zero content loss); layer total **8,320 → 11,283**, all
+conditional-load — **always-load unchanged at 5,803**.
+
+| What landed | Where |
+|---|---|
+| Seven hats rewritten; the technique menu **dissolved** into the methods so there is no checklist left to perform from | `00-BRAIN\HATS\` |
+| **`HAT_PHYSICS_MATH.md`** — new. Calculus review delivered through the physics you'll actually see; enters at **row 2** of `math-readiness-path.md`, not today's date | `00-BRAIN\HATS\HAT_PHYSICS_MATH.md` |
+| **Memory toolbox** — distilled from the four articles you routed through `77-INBOX`, filtered against the YouScience profile; drops named with reasons | `03-WIKIS\EDUCATION\wiki\methods\memory-techniques.md` |
+| **Delivery contract** — eight wording rules from the measured aptitude model, not from a styles framework | `HAT_EDUCATOR` § How to word it |
+| **Fact-conflict deference**, stated once: D2L/instructor → `SEMESTER_MAP.md` → exact-section capture → any hat, **never averaged** | `HAT_EDUCATOR` § When facts conflict |
+| Two factual defects corrected: `HAT_ENGR1000` claimed two calendar blocks that **do not exist** (you still need to create them); `HAT_ECON` carried **no AI policy** despite ECON being the only course that permits credited AI | both hats |
+
+**Codex's verdict stands and is not changed by any of this: structurally ready for rehearsal,
+not yet ready for unsupervised trust.** All five of its wording findings are dispositioned —
+three as specified, two deliberately implemented ahead of Codex's sequencing, with the
+reasoning on record. Full account:
+**`claude_report_2026-08-13_teaching_layer_rebuild.md`**.
+
+### Today's rehearsal script — Codex's, adopted unchanged
+
+Three clean **fresh-session** openings: **PHYS**, **CSE/Python**, **TCOM**. Grade each on six
+checks: correct hat + live owner loaded · fast orientation · Chris retains control of pace ·
+real retrieval produced, not recognition · boundaries respected · correct close and resume
+point. Three additions from Thursday's work:
+
+1. Grade the **two-pass pace rule** live — breadth first, depth on return. It is marked
+   unconfirmed in the file **on purpose**; only Chris can grade whether it reads him right.
+2. Present a **fact conflict deliberately** — the TCOM room has three values on file — and
+   verify the AI defers down the authority order instead of averaging.
+3. One **`HAT_PHYSICS_MATH`** block entering at row 2, graded on whether the
+   constant-of-integration step is said **in words before symbols** (the exact gap the
+   July 30 drill found).
+
+**A fresh session is required** — File Safety 10: editing an instruction file does not change
+the session already running. This is also acceptance check 8 from Thursday, deferred by rule.
 
 **Readiness inventory measured 2026-08-13:** 1,544 `.md` files outside `88-JOURNAL\` and
 all `raw\` folders: 1,087 `03-WIKIS`, 293 `00-BRAIN`, 83 `02-LIBRARY`, 32 `05-BUSINESS`,
@@ -132,10 +173,18 @@ Those are the hull, not the steering.
 
 - **No hub stage or gate closed since the last brief.** Learner frontier positions are
   held under PAUSE — PYTHON Stage 4b, PHYSICS Stage 4 — not overdue.
-- **Two governance changes landed Wednesday evening:** the safe word went live, and the
-  finding freeze became operative today. Both are stated above; this line clears once shown.
+- **EDUCATION hub moved Thursday afternoon:** `methods/memory-techniques.md` created and
+  indexed; `OPERATIONS.md` replaced on the approved W4/J-2 two-halves split;
+  `current-position.md` re-scoped as a course-support status board (ECON 🟢, TCOM 🟢/⚠ on
+  recycled Spring dates, ENGR 🔴). Logged in `EDUCATION\wiki\log.md`. Clears once shown.
 
 ## Open Risks — one loss-bearing item still open
+
+0. **Thursday's teaching-layer work is uncommitted and on one disk.** Last commit is
+   `63b80b4` at 16:03; everything after it — the integration pass, the memory toolbox, the
+   report, the plan updates — is working-tree only. **This is the same exposure that left git
+   13 commits behind on Wednesday morning.** Needs Chris's approval to commit and push.
+   The Aug 13 DAILY also stops at 12:40 and carries no entry for that session.
 
 1. **Source loss in `raw\` queues** (flag #97). Reconciliation is complete and nothing was
    deleted: `Session_Logs\raw_recovery_list_2026-08-12.md`. Five sources exist only as
@@ -185,9 +234,14 @@ readiness evidence is assembled.
 
 ## Fixed and Dated
 
-- **August 14 (tomorrow)** — run the technical checks and take the TCOM, CSE and PHYS
-  structures for a test run. These are readiness proofs, not the completed `OK TO START`
-  release by themselves.
+- **August 14 — today.** Run the technical checks and take the TCOM, CSE and PHYS structures
+  for a test run, per the rehearsal script above. These are readiness proofs, not the
+  completed `OK TO START` release by themselves.
+- **August 15–16 (Sat–Sun)** — Saturday: long realistic sessions with interruptions, pace
+  changes, `Richard F`, ambiguous graded work, mid-task stops. Sunday: regression in fresh
+  contexts, evidence-backed edits only, final gates. Launch bar: all three core subjects pass
+  typical, edge and recovery **twice** in fresh sessions; no HIGH defect; no repeated MEDIUM
+  behavior defect. Cosmetic wording does not delay launch.
 - **August 17** — flag #57 escalation: if PHYS 2211 §54 and ENGR 1000 BWD syllabi have not
   posted, email the instructors directly. Also the Drive ruling date.
 - **August 22** — dress rehearsal (Week D).
@@ -219,7 +273,13 @@ readiness evidence is assembled.
 - Bigger-picture direction: `01-NORTH_STAR\Goals & Milestones\direction_and_system_review.md`
 
 ---
-*Refreshed 2026-08-13 morning. The August 12 edition closed with "no weekly review exists
+*Refreshed 2026-08-14 morning on Chris's session-load request: rolled to Friday, added the
+Thursday-afternoon teaching-layer rebuild the previous edition predates, moved today's
+rehearsal from "tomorrow" to the active gate, and opened risk 0 for the uncommitted working
+tree. The Thursday item table and verified-state block are Thursday's measurements and are
+kept as filed — they are not re-measured here.*
+
+*Previous footer, retained: the August 12 edition closed with "no weekly review exists
 for August 3–9, so five DAILY files sit past their archive step." **That was already false
 when written** — `WEEKLY_AUGUST3-9.md` was filed Aug 12 at 15:31 (`7b95c12`) and the Aug 6–9
 DAILYs were rotated the same day. It was council finding C1 — detection works, propagation

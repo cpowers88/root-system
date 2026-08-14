@@ -2,23 +2,23 @@
 type: dashboard
 timeline: now
 tags: [learning, school, technology]
-generated: 2026-08-12
+generated: 2026-08-13
 ---
 
-# Evening Reading — August 12, 2026
+# Evening Reading — August 13, 2026
 
 ## School
 
-**READ —** `raw/textbook/Physics book-0201-0300.pdf` (Serway & Jewett, Ch. 10, opening §10.1–10.2, printed pp. 248–256), the rigid-body angular-position/velocity/acceleration setup.
+**READ —** `raw/textbook/Physics book-0401-0500.pdf` (Serway & Jewett, Ch. 15 "Oscillatory Motion," opening §15.1, physical pp. 416–419), the spring-mass restoring-force setup.
 
-**FOCUS —** Primes tomorrow's cold redo of the rotation/angular-momentum relationship from P6 (`math-readiness-path.md` row 17); **the dated bridge override limits School to a raw primer only, and the redo also covers flag #16's right-hand-rule anchor**.
+**FOCUS —** Primes Friday's math-readiness-path row 18, the oscillation/wave cold redo from P7; **the dated calculus-bridge override limits School to this raw primer only, never the `shm-differential-equation.md` calculus-link the redo itself will use**.
 
-**STOP —** Stop after the angular-kinematics variable setup, before rolling-without-slipping; cap 15 minutes.
+**STOP —** Stop after the restoring-force (F = −kx) setup, before the period/frequency derivation; cap 15 minutes.
 
 ## Technology
 
-**READ —** `bojieli/ai-agent-book`, `book-en/chapter6.md` ("Agent Evaluation"), the agent-deployment-evaluation subsection.
+**READ —** `raw/AI_engineering.pdf` (Chip Huyen, *AI Engineering*, O'Reilly), Chapter 6 "RAG and Agents," the unread physical pp. 572–613 gap (RAG production/evaluation content and the agent-definition/ReAct intro).
 
-**FOCUS —** Continues the same active source from August 9–11; **picks up exactly where the last STOP line left off**, before the chapter's deployment-evaluation content.
+**FOCUS —** Closes the acknowledged gap left by the Aug 7 second pass, continuing the same active AIAS source; **the Agents section past p. 613 is already compiled, so this closes the last unread stretch of Ch. 6**.
 
-**STOP —** Stop before the next major chapter section; cap 15 minutes.
+**STOP —** Stop at p. 613, where the already-compiled Agents section begins; cap 15 minutes.

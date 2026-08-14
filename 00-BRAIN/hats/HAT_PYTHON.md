@@ -158,4 +158,4 @@ mid-work, or session state would otherwise be lost. **Not** for quick answers. `
 updates per the wiki's own close protocol either way.
 
 ---
-*Dates: `04-SCHOOL\SEMESTER_MAP.md` · Output: `04-SCHOOL\01-CSE-Python\work\` · Machine setup: `00-BRAIN\CAMPUS_LAPTOP_BUILD.md` · Method: HAT_EDUCATOR.md*
+*Dates: `04-SCHOOL\SEMESTER_MAP.md` · Output: `04-SCHOOL\01-CSE-Python\work\` · Machine setup: `00-BRAIN\CAMPUS_LAPTOP_BUILD.md` · Method: HAT_EDUCATOR.md · Facts conflict? Defer per HAT_EDUCATOR § When facts conflict — never reconcile from memory*

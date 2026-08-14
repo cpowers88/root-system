@@ -53,7 +53,11 @@ the real Fall 2026 BWD material lands.
 
 ## Shared learning methods
 
-- [[methods/learning-how-to-learn-principles|Learning How to Learn]]
+- [[methods/learning-how-to-learn-principles|Learning How to Learn]] — the encoding/retrieval
+  model; the theory layer
+- [[methods/memory-techniques|Memory Techniques]] — cue-construction toolbox distilled
+  2026-08-13 from four vetted sources, matched to the measured aptitude profile; consumed by
+  `HAT_EDUCATOR.md` Term Anchoring step 2
 
 ## Education-system reference
 

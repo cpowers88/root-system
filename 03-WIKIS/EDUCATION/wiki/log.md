@@ -529,3 +529,20 @@ scarcity, incentives, opportunity cost, and tradeoff.
 
 **Next exact action:** unchanged — E1 runs Friday Aug 7 per the CASTLE
 weekly plan, or earlier via its Move-On Gate queue.
+
+## 2026-08-13 — Memory-techniques toolbox built; hub split applied; Educator hat rewording (Claude + Chris live session)
+
+- **`methods/memory-techniques.md` created** from four sources Chris routed through `77-INBOX`
+  (Art of Memory 36-techniques, Harvard cueing, Stanford CTL working memory, ADDA top-10).
+  Distilled against the YouScience profile: kept cueing, memory palace/loci, mnemonic imagery,
+  sound-alike keywords, chunking, overlearned self-testing, sleep-adjacent study, movement
+  pairing, location rotation. Dropped peg/PAO systems and audio-primary methods, with reasons
+  in-file. Inbox articles left in place for the weekly-review clear.
+- `OPERATIONS.md` replaced per the approved W4/J-2 split: two declared halves (meta-learning /
+  course support), promotion rule inlined, no folders moved, deliberately no engr-1000 folder.
+- `current-position.md` re-scoped as a course-support status board; D2L-opens-Aug-24 fact
+  recorded; ECON confirmed 🟢 (dates verified twice), TCOM 🟢/⚠ (recycled Spring dates), ENGR 🔴.
+- `HAT_EDUCATOR.md` (00-BRAIN, noted here because it consumes this hub's methods): Codex review
+  fixes applied — "every session" → standing-methods-with-triggers; technique quota → grade the
+  learning; fact-conflict deference order added; "How to word it for Chris" delivery contract
+  added from the aptitude model. Index updated same session.

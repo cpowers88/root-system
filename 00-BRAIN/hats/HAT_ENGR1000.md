@@ -7,7 +7,7 @@ updated: 2026-08-13
 
 # HAT_ENGR1000.md — Engineering Intro Subject Hat
 ### Subject: ENGR 1000 §BWD (CRN 80858) — Introduction to Engineering | 1 credit
-### Load: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → latest ENGR handoff.
+### Load: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → `03-WIKIS\EDUCATION\wiki\current-position.md` → latest ENGR handoff.
 
 ## Strategy: this is a calendar problem, not a learning problem
 
@@ -22,12 +22,40 @@ check habit.
 | | Status |
 |---|---|
 | Exact-section BWD syllabus | ❌ **Does not exist on file** |
+| Instructor | ✅ **Lori Lowder** — from the Fall 2025 §BD syllabus, same course, same college (SPCEET). Not confirmed for §BWD |
 | Meeting time | ❌ **None published** — not on the registrar record, not on Chris's calendar |
-| Delivery format | ⚠️ **Assumed online/async — inferred from a different term's syllabus, not confirmed** |
-| AI policy | ✅ **Prohibited** — the one thing that *is* known |
+| Delivery format | ❌ **Unknown, and now genuinely uncertain — see below** |
+| Grading shape | 🟡 **Attendance quizzes 50% / assignments 50%** (Fall 2025 §BD). Likely stable; unverified for §BWD |
+| AI policy | ✅ **Prohibited** — now confirmed in the same instructor's own words |
 
-**Working assumption for format:** online, roughly twelve ~40-minute sessions or one longer
-weekly block. **Nothing on file confirms this.** Do not plan against it as if it were settled.
+### What the Fall 2025 §BD syllabus settles — and what it does not
+
+**Added 2026-08-14.** Chris supplied `ENGR 1000 Section BD (81208)`, **Fall 2025**, taught by
+**Lori Lowder**. It is the nearest source yet: same course, same college, one year prior.
+Handle it exactly like the PHYS §51/§55 captures — **pacing and shape only, never Chris's
+policy.**
+
+**Genuinely useful:**
+
+- **Grading is 50% attendance quizzes + 50% assignments.** Lowest attendance quiz dropped.
+- **Deadlines are firm and late work is not accepted** — the syllabus says *"there is no need
+  to ask."*
+- **Week 15 offers one extra assignment that replaces a poor grade.** The only recovery
+  mechanism in the course.
+- **Course materials: none.** No textbook to buy or read ahead.
+- **AI prohibited**, stated by this instructor directly — the strongest version of that
+  finding so far.
+
+**⚠ It makes the format question worse, not better.** The §BD syllabus says attendance is
+taken **"during each class"** and quizzes run per class — which describes a **section that
+meets**. Chris is in **§BWD**, and the extra **W** almost certainly denotes web/online. So the
+one section detail that differs between BD and BWD is the exact detail the syllabus cannot
+transfer. **Do not conclude ENGR meets, and do not conclude it is async.** It is unknown.
+
+**The consequence for planning is sharp:** if the grading shape holds, **half the grade is
+attendance-based** — whatever "attendance" means in a web section. That converts the weekly
+check protocol below from admin hygiene into **50% of the course**, and makes the delivery
+format the single most consequential unknown in the semester.
 
 **Flag #57 owns the gap.** Escalation is a direct email to the instructor — and since **D2L does
 not open until Aug 24**, that email is the only way to learn anything before classes start.
@@ -78,4 +106,4 @@ Handoff only when a submission completes, a course-shell issue is found (flag it
 is confirmed at semester start. **No paperwork for routine weekly checks.**
 
 ---
-*Status: `03-WIKIS\EDUCATION\wiki\current-position.md` · Sources: `04-SCHOOL\SYLLABUS_STATUS.md` · Output: `04-SCHOOL\05-ENGR\work\` · Method: HAT_EDUCATOR.md*
+*Status: `03-WIKIS\EDUCATION\wiki\current-position.md` · Sources: `04-SCHOOL\SYLLABUS_STATUS.md` · Output: `04-SCHOOL\05-ENGR\work\` · Method: HAT_EDUCATOR.md · Facts conflict? Defer per HAT_EDUCATOR § When facts conflict — never reconcile from memory*

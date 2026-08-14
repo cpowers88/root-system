@@ -382,6 +382,17 @@ date first.**
    named syllabi was blocked. Same class as the four already filed. Used the `Grep` tool
    instead — which was the better tool anyway. **Still filed, not fixed.**
 
+### Late afternoon — teaching layer rebuilt; Codex review dispositioned
+
+All seven teaching hats rewritten to an integration standard (triggers inline, no content
+twice); `HAT_PHYSICS_MATH.md` created and routed; memory toolbox built from Chris's four inbox
+articles at `EDUCATION\wiki\methods\memory-techniques.md`; delivery contract added to
+`HAT_EDUCATOR` from the measured aptitude model. **All five Codex wording findings
+dispositioned** — full record, measurements, and the two places this went past Codex's
+sequencing: **`claude_report_2026-08-13_teaching_layer_rebuild.md`** (this folder). Rehearsal
+plan and six-point rubric adopted from Codex unchanged. Gates green after every write;
+always-load unchanged at 5,803.
+
 ### Council findings filed, not worked
 
 `UPDATE_PLAN.md` itself is **985 lines / ~11,000 words and growing daily** — the same unbounded
@@ -1039,6 +1050,12 @@ Report: `CODEX_PRIORITY_2_WIKI_MATERIAL_REVIEW.md` in this folder. Status:
 - **W4:** dual identity confirmed in EDUCATION's own contract: meta-learning and
   education research share one hub/state tracker with ECON, TCOM, and ENGR course
   support. Separation recommendation filed without touching Thursday's TCOM work.
+- **Hat launch-readiness review (2026-08-13):** filed in the same Codex report.
+  Verdict: structurally ready for controlled practice, not yet for unsupervised
+  trust. Friday-through-Sunday rehearsal gate covers fresh-session routing,
+  steering and pace changes, `Richard F`, ambiguous graded work, interruption
+  recovery, and correct state return. Five wording/pathway candidates are filed
+  as evidence targets only; no live hat edits were applied under the freeze.
 
 ## Lessons that must not be relearned
 

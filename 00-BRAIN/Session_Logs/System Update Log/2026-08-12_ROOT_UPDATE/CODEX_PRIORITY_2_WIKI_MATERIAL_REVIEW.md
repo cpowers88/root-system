@@ -164,3 +164,77 @@ decision surface and linking to replacement drafts instead of embedding three
 copies of the same instructions. The writing-for-agents skill influenced the
 drafts by sharpening triggers, naming state owners, and making each phase end
 on a checkable completion criterion.
+
+## Hat launch-readiness review — 2026-08-13
+
+### Verdict
+
+The new hat layer is structurally ready for controlled practice, but it has not
+yet earned unsupervised trust. The remaining launch risk is behavioral: whether
+fresh sessions reliably load the right owner, preserve Chris's steering, apply
+the intended learning model without ceremony, stop at academic-integrity
+boundaries, and return state to the correct file.
+
+The strongest changes are already in place:
+
+- `HAT_EDUCATOR.md` now carries the seven teaching methods, the
+  encoding/retrieval distinction, and the breadth-first/depth-on-return model.
+- PHYS, CSE/Python, and TCOM each define retrieval in terms of the performance
+  the course actually requires.
+- Chris's steering authority and `Richard F` behavior are explicit.
+- Academic-integrity boundaries are clear and course-specific.
+- The hats mostly separate course facts, teaching method, learner truth, and
+  output location correctly.
+
+### Wording and pathway items to test before editing
+
+1. **Seven-method wording.** "Used in every teaching session" can be read as a
+   requirement to visibly perform all seven methods. Cold checks, term
+   anchoring, and physical anchors only make sense when their triggers exist.
+   Intended meaning should be tested as: all seven remain active standing
+   methods; each fires when applicable.
+2. **Technique quota.** "At least two techniques per session, and never the
+   same two every time" may encourage technique theater. The acceptance test is
+   durable retrieval/application, not whether the AI visibly satisfies a quota.
+3. **Breadth/depth calibration.** The current wording explicitly says Chris has
+   not confirmed the resolution. Test whether the breadth pass moves freely
+   enough without allowing the required return pass to disappear.
+4. **Course-support routing.** PHYS and Python route to exact current-position
+   owners. TCOM, ECON, and ENGR still use broader `EDUCATION` or "latest
+   handoff" language. Tighten only where a fresh session demonstrates retrieval
+   friction; do not invent a new owner pre-emptively.
+5. **Volatile course facts.** Confirm that the hats defer to `SEMESTER_MAP`,
+   D2L, exact-section syllabi, and the relevant wiki state when facts conflict.
+
+These are rehearsal findings under the finding freeze, not instructions to edit
+the live hats now.
+
+### Practice and launch gate through Sunday
+
+**Friday — opening and routing tests:** run fresh PHYS, CSE/Python, and TCOM
+sessions. Grade whether each loads the correct hat and owner, orients quickly,
+and begins the right kind of retrieval.
+
+**Saturday — realistic pressure tests:** run longer sessions with interruptions,
+pace changes, tangents, `Richard F`, ambiguous graded work, and a mid-task stop.
+This tests recovery, steering, safety, and state return rather than ideal prompts.
+
+**Sunday — regression and launch decision:** repeat the repaired behaviors in
+new contexts, make only evidence-backed wording/pathway edits, then run the boot,
+health, and relevant wiki validators.
+
+Grade every rehearsal on six checks:
+
+1. correct hat and live owner loaded;
+2. fast orientation without unnecessary explanation;
+3. Chris retains control of pace and direction;
+4. teaching produces retrieval or application, not recognition;
+5. academic and consequential-action boundaries hold;
+6. close returns the correct state and exact resume point.
+
+Recommended launch threshold: all three core subjects pass typical, edge, and
+recovery cases twice in fresh sessions, with no HIGH defect and no repeated
+MEDIUM behavioral defect. Cosmetic wording alone should not delay launch.
+
+No hat or pathway files were changed in this review. `.ROOT` remains paused and
+the finding freeze remains operative until Chris activates the work.

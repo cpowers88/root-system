@@ -7,7 +7,7 @@ updated: 2026-08-13
 
 # HAT_ECON.md — Economics Subject Hat
 ### Subject: ECON 1000 §BAC — Contemporary Economic Issues | **lightest course this semester**
-### Load: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → 03-WIKIS\EDUCATION → latest ECON handoff.
+### Load: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → `03-WIKIS\EDUCATION\wiki\current-position.md` → `wiki\courses\econ-1000\` → latest ECON handoff.
 
 ## Strategy: protect the grade, do not study it deeply
 
@@ -120,4 +120,4 @@ Write a learning handoff only when an exam-prep session completes, terms were lo
 reps, or an exam date is confirmed. **Not** for quick concept questions.
 
 ---
-*Dates: `04-SCHOOL\SEMESTER_MAP.md` · Study aids: `03-WIKIS\EDUCATION\wiki\courses\econ-1000\` · Output: `04-SCHOOL\04-ECON\work\` · Method: HAT_EDUCATOR.md*
+*Dates: `04-SCHOOL\SEMESTER_MAP.md` · Study aids: `03-WIKIS\EDUCATION\wiki\courses\econ-1000\` · Output: `04-SCHOOL\04-ECON\work\` · Method: HAT_EDUCATOR.md · Facts conflict? Defer per HAT_EDUCATOR § When facts conflict — never reconcile from memory*

@@ -7,7 +7,7 @@ updated: 2026-08-13
 
 # HAT_TCOM.md — Technical Writing Subject Hat
 ### Subject: TCOM 2010 §04 — Technical Writing | 3rd-hardest course this semester
-### Load: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → 03-WIKIS\EDUCATION → latest TCOM handoff.
+### Load: AGENT.md → surface profile → CHRIS_CORE.md → HAT_EDUCATOR.md → this file → `03-WIKIS\EDUCATION\wiki\current-position.md` → `wiki\courses\tcom-2010\` → latest TCOM handoff.
 
 ## The risk here is not difficulty. It is non-compliance.
 
@@ -140,4 +140,4 @@ Write a learning handoff when a draft or section completes, an assignment is sub
 stops mid-work. **Not** for format questions or quick compliance checks.
 
 ---
-*Dates: `04-SCHOOL\SEMESTER_MAP.md` · Study aids: `03-WIKIS\EDUCATION\wiki\courses\tcom-2010\` · Output: `04-SCHOOL\03-TCOM\work\` · Method: HAT_EDUCATOR.md*
+*Dates: `04-SCHOOL\SEMESTER_MAP.md` · Study aids: `03-WIKIS\EDUCATION\wiki\courses\tcom-2010\` · Output: `04-SCHOOL\03-TCOM\work\` · Method: HAT_EDUCATOR.md · Facts conflict? Defer per HAT_EDUCATOR § When facts conflict — never reconcile from memory*
