@@ -111,10 +111,25 @@ equal manual reread.
 
 ## Needs Chris — small, and blocking nothing else
 
-1. **Delete three empty folder shells:** `tmp\`, `outputs\`, `...projectSuccess\`. All
-   content is moved and verified; only scaffolding remains. Removal was declined three
-   times by the permission gate — correctly, since every phrasing was a recursive
-   force-delete in the vault. Explorer, or a command you run yourself.
+1. **Delete three empty folder shells:** `tmp\`, `outputs\`, `...projectSuccess\`.
+   **Emptiness verified 2026-08-14:** zero real files under all three, zero tracked files in
+   git. `tmp\` holds 5 empty nested dirs (`pdfs\book_list`,
+   `pdfs\inbox_2026-07-16\rethinking-iot`, `spreadsheets`); the other two hold nothing but a
+   hidden Windows `desktop.ini` stub each.
+
+   **Corrected diagnosis (supersedes the Aug 13 wording).** The earlier entry blamed the
+   phrasing — "every phrasing was a recursive force-delete." **That was wrong**, and it
+   invited future sessions to keep hunting for a phrasing that works. `.claude\settings.json`
+   lists `Bash(rm *)`, `Bash(rmdir *)`, `Bash(git clean *)`, `PowerShell(Remove-Item *)` and
+   `PowerShell(Clear-Content *)` under **`deny`, not `ask`**. `deny` outranks everything,
+   including Chris's explicit in-chat approval. **No AI can delete anything in `.ROOT` at all**
+   — the gate was never judging the command. A fifth decline on 2026-08-14 confirmed it, this
+   time on a plain non-recursive single-file `Remove-Item`.
+
+   A session *could* evade this through `[IO.Directory]::Delete`, a Python `os` call, or a
+   script — **it must not.** That is the "command-string override an AI could type," which
+   `AGENT.md` File Safety 12 says is not a control. Chris deletes these himself, or changes
+   the deny rule; both are his call, and `.claude\` is tool config requiring explicit approval.
 2. **The `S4U` backup residual** still needs one elevated run (below).
 
 ## ❄ FINDING FREEZE — operative today
@@ -182,9 +197,9 @@ Those are the hull, not the steering.
 
 0. **Thursday's teaching-layer work is uncommitted and on one disk.** Last commit is
    `63b80b4` at 16:03; everything after it — the integration pass, the memory toolbox, the
-   report, the plan updates — is working-tree only. **This is the same exposure that left git
-   13 commits behind on Wednesday morning.** Needs Chris's approval to commit and push.
-   The Aug 13 DAILY also stops at 12:40 and carries no entry for that session.
+   report, the plan updates — is working-tree only. `main` is level with `origin/main`, so
+   this is not the Wednesday problem (unpushed commits); it is worse in kind — **the work is
+   not in git at all.** Needs Chris's approval to commit and push.
 
 1. **Source loss in `raw\` queues** (flag #97). Reconciliation is complete and nothing was
    deleted: `Session_Logs\raw_recovery_list_2026-08-12.md`. Five sources exist only as
@@ -244,6 +259,13 @@ readiness evidence is assembled.
   behavior defect. Cosmetic wording does not delay launch.
 - **August 17** — flag #57 escalation: if PHYS 2211 §54 and ENGR 1000 BWD syllabi have not
   posted, email the instructors directly. Also the Drive ruling date.
+  **Now sharper (Chris's own Aug 14 edit to `HAT_ENGR1000`):** the Fall 2025 §BD syllabus he
+  supplied gives instructor (Lori Lowder), grading shape (**50% attendance quizzes / 50%
+  assignments**), firm no-late-work, and a confirmed AI prohibition — but it describes a
+  section that **meets**, while Chris is in **§BWD** (the `W` almost certainly meaning web).
+  So the one detail that cannot transfer is the one that matters, and **half the grade may
+  hinge on "attendance" in a section whose format is unknown.** Do not conclude either way.
+  This raises the value of the Aug 17 email; it does not substitute for it.
 - **August 22** — dress rehearsal (Week D).
 - **August 24** — classes begin.
 - **HP Victus campus laptop wipe/reinstall** — outstanding, needs lead time before Aug 24,
