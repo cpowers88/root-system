@@ -1,7 +1,8 @@
 ---
-type: decision-report
+type: decision
 timeline: now
 status: open
+register: ai-directive
 tags: [north-star, school, fall-2026, capacity, three-way-review]
 created: 2026-08-05
 ---
@@ -40,21 +41,14 @@ says must come first?
   standing rule, not an aside. **Not yet on record: the actual weekly hours
   those commitments require.** This is the single open field that determines
   the answer below.  Aptitude results inside: ".ROOT\02-LIBRARY\ref-meta-how-to-work"
-- **Realistically protectable weekly hours: ~52 hr/week, verified against the
-  live Fall calendar itself (2026-08-06), not estimated.** See § Live Calendar
-  Hour Audit below — this supersedes the earlier campus-gap estimate
-  (21.5–22.5 hr) because it is pulled directly from Chris's actual built
-  schedule rather than inferred free time.
-- **What cannot be displaced:** Sleep (11:00 p.m.–6:00 a.m. daily, 49 hr/week),
-  Ben bedtime duty every night 8:00–10:00 p.m. (not free/family time — active
-  childcare, corrected below), the 10–11 p.m. daily relax block, and any
-  window where Ben is with Chris directly (`Ben + Dad`, `Ben Care`) rather than
-  Annie or Heather. Confirmed 2026-08-06: no recurring therapy or other fixed
-  recovery commitment exists during the semester; no undisclosed household
-  duties; Annie + Ben is confirmed free time (Chris does not need to watch
-  Ben); there is no "Heather + Ben" block on the calendar, so any time not
-  explicitly marked Annie or Dad should be treated as *possible* Ben duty, not
-  guaranteed free time.
+- **Realistically protectable weekly hours:** *Unfilled — Chris to state.*
+  This was asked directly in today's conversation and the thread moved to
+  pre-semester prep before it was answered. The whole decision turns on this
+  number against the range in the evidence section below.
+- **What cannot be displaced:** *Unfilled — Chris to state.* `CHRIS_CORE.md`'s
+  existing rule: "Preserve any minimum time Chris has already protected; treat
+  additional time as optional upside" — name what that protected minimum
+  actually is here.
 
 ---
 
@@ -122,9 +116,9 @@ it's arithmetic waiting on two numbers only Chris has.
 
 - `00-BRAIN\CHRIS.md` — full YouScience aptitude profile (Nov 2025), lived
   professional evidence, learning contract.
-- `04-SCHOOL\fall_KSU_schedule.md` — registrar-confirmed Fall 2026
+- `02-LIBRARY\00-school\fall_KSU_schedule.md` — registrar-confirmed Fall 2026
   schedule (6 courses, 13 credit hours, meeting times, CRNs).
-- `04-SCHOOL\SYLLABUS_STATUS.md` — canonical syllabus sourcing;
+- `02-LIBRARY\00-school\SYLLABUS_STATUS.md` — canonical syllabus sourcing;
   confirms 4 exact-section syllabi in hand, 2 gaps (PHYS §54, ENGR BWD) still
   open with an Aug 17 escalation trigger.
 - Four exact-section syllabi (`03-WIKIS\PYTHON\raw\syllabi\`,
@@ -301,7 +295,7 @@ capacity picture:
 - Chris explicitly defined **Heather + Ben** and **Annie + Ben** as free time
   for him. That produces a nominal **10-hour Saturday window (10:00 a.m.–8:00
   p.m.)** and **8-hour Sunday window (10:00 a.m.–6:00 p.m.)**. The question mark
-  on Sunday's `Annie + Ben ?` makes that block provisional until confirmed.
+  on Sunday's `Annie + Ben ?` makes that block provisional until confirmed. **one hour may get lost that is the question mark, CHRIS**
 - The campus schedule contains three major potential work windows:
   Monday/Wednesday about 10:05 a.m.–4:10 p.m. and Tuesday about 11:00 a.m.–5:45
   p.m. After meals, walking, setup, and fatigue, the earlier **15–17 productive
@@ -323,42 +317,6 @@ Tuesday/Thursday/Sunday `time` blocks from 8:00–10:00 p.m., most household
 responsibilities, or Heather-dependent exceptions. Blank/black areas are
 unknown, not free. The new evidence moves the schedule from **unproven** to
 **potentially workable**, not yet to verified sustainable.
-
-#### Known capacity versus the remaining gap
-
-Using only campus gaps and the weekend windows Chris explicitly defined as free,
-a conservative normal week presently supports about **22–23 focused 50-minute
-blocks**:
-
-- Monday campus gap: 4 blocks;
-- Tuesday campus gap: 3–4 blocks, reserving the final portion for the unconfirmed
-  4:00 p.m. therapy commitment and transition to lab;
-- Wednesday campus gap: 4 blocks;
-- Saturday Heather/Annie coverage: approximately 6 sustainable blocks inside the
-  nominal 10-hour window; and
-- Sunday Annie coverage: approximately 5 sustainable blocks inside the nominal
-  8-hour provisional window.
-
-Those blocks supply roughly **18.3–19.2 focused hours**. Adding seven 15-minute
-evening primers and a 90-minute Sunday review brings the currently evidenced
-outside-class capacity to approximately **21.5–22.5 hours/week**. Thursday,
-Friday, selected home evenings, and all blank/black areas remain deliberately
-uncounted.
-
-Compared with the course-load model:
-
-| Target | Outside academic work needed | Still must come from unknown/flexible areas |
-|---|---:|---:|
-| B-floor completion | ~25–31 hr/week | **~3–9 hr/week** |
-| All-A operating target | ~29–36 hr/week | **~7–14 hr/week** |
-
-At the middle of each range, this means the unknown/flexible parts of the week
-must reliably yield approximately **7–8 additional 50-minute blocks for a
-B-floor plan** or **12–14 additional blocks for the all-A plan**. This is the
-clearest remaining decision test. The calendar already supports much of the
-load; the interview must establish whether Thursday, Friday, selected evenings,
-and variable family coverage can supply the remainder without consuming sleep,
-recovery, or protected family time.
 
 External policy checks used for this position:
 
@@ -469,172 +427,18 @@ it isn't this session's task.
 ## Unknowns Requiring Evidence
 
 *Starting list — extend as needed:*
-- ~~Chris's realistically protectable weekly hours.~~ **Answered 2026-08-06:
-  ~52 hr/week, audited directly from the live Fall calendar.** See § Live
-  Calendar Hour Audit.
-- ~~What specifically cannot be displaced (the protected minimum).~~
-  **Answered 2026-08-06** — see Chris — Facts and Constraints above.
-- Chris's current calculus background/confidence for PHYS 2211 — Calc I and II
-  completed; needs review connecting the concepts to physics mechanisms
-  before the semester (Chris's own words, recorded above). This is the exact
-  purpose of the Aug 10–22 runway plan.
+- Chris's realistically protectable weekly hours.
+- What specifically cannot be displaced (the protected minimum).
+- Chris's current calculus background/confidence for PHYS 2211.
 - PHYS 2211 §54's actual syllabus (grading weights, exam count, policy) —
-  still not posted as of this writing; tracked separately at flag #57 with an
-  Aug 17 escalation trigger.
-- ~~Tuesday 4:00 p.m. therapy, other recovery commitments, the Tue/Thu/Sun
-  8–10 p.m. blocks, household duties, Heather-coverage variability.~~
-  **All answered 2026-08-06** — see § Live Calendar Hour Audit.
+  still not posted as of this writing.
 
 ## Reconciled Recommendation
 
-*Written by Claude, 2026-08-06, after the remaining interview inputs closed
-same day. Per `AGENT.md`: "Integrating competing reports is AI work, not
-Chris's."*
-
-The decision is answerable now, and the answer is **workable, not
-comfortable**. Pulled directly from the events on Chris's live Fall calendar
-(not estimated — see § Live Calendar Hour Audit for the full audit), the
-schedule Chris has already built provides:
-
-- **~13.0 hr/week class contact**
-- **~29.25 hr/week explicit study blocks**
-- **~9.7 hr/week travel/transit**
-- **~52.0 hr/week total strict-school footprint**
-
-Against Codex's and Claude's earlier reconciled range (B-floor 49–55 hr/week,
-all-A 52–60 hr/week centered on 56), this lands **inside the B-floor range
-and at the bottom edge of the all-A range**. Chris does not need to find
-significant new hours from nowhere — the calendar he already built already
-does most of the work. The honest remaining gap is **roughly 5–15 hours/week**
-to move from "meets B-floor" to "comfortable all-A margin with slack for a
-bad week," not the larger unresolved gap the pre-calendar estimate implied.
-
-Two real risks remain and are not solved by the hour count alone:
-1. **Sunday is internally double-booked** (four overlapping blocks between
-   1:30 and 8:00 p.m.) — its real usable capacity is lower than the nominal
-   hours suggest until Chris resolves the overlap.
-2. **Calendar time is not proof of completed work.** The most recent measured
-   week ran 13 of 32 planned blocks (41%). A block existing on the calendar is
-   a necessary condition, not a sufficient one — the Move-On Gate discipline
-   already adopted in the weekly-plan format is what converts scheduled hours
-   into real hours, and it needs to keep running through the semester, not
-   just the pre-semester pilot.
-
-**Recommendation:** adopt the live calendar as the standing Fall operating
-schedule (Chris directed this 2026-08-06 — see § Chris's Decision). Do not
-build a parallel hour model. Treat the identified open pockets (Tue
-11:00 a.m.–12:30 p.m., Thu 2:00–3:00 p.m., Sat 5:00–8:00 p.m., plus scattered
-sub-40-minute transition gaps) as genuine rest, not guilt-inducing unused
-capacity — Chris does not need to fill every visible gap to hit the all-A
-range. If more margin is wanted, the highest-leverage move is confirming and
-scheduling the possible 4–6 hr Thursday/Friday afternoon capacity Chris named
-2026-08-06, which alone would close most or all of the 5–15 hour gap without
-touching sleep, Ben duty, or the daily relax block.
+*Written by the lead AI after both positions and any disagreement are
+resolved — not before. Per `AGENT.md`: "Integrating competing reports is AI
+work, not Chris's."*
 
 ## Chris's Decision
 
-**2026-08-06 — Chris approved adopting the live Fall calendar (Aug 24 onward)
-as the standing operating schedule**, with the explicit note that the
-schedule needs **5–15 more hours/week to be comfortable** (not required to be
-workable), that the calendar's currently-open pockets should be used for
-rest rather than backfilled by default, and that he may be able to add
-**4–6 hours on Thursday and Friday afternoons** — to be confirmed and, once
-confirmed, scheduled as the primary source of the extra margin rather than
-cutting into sleep, Ben duty, or relax time.
-
-## August 6 Intake Checkpoint — Codex Handoff
-
-This decision is not closed. The live-calendar evidence currently supports
-about 21.5–22.5 dependable outside-class hours from explicit campus/weekend
-windows plus the nightly primer and Sunday review. The current honest gap is
-approximately 3–9 additional hours for the B-floor model or 7–14 for the all-A
-target, to be found only if the still-unknown blocks prove usable.
-
-No grade target, weekly denominator, or go/no-go judgment should be finalized
-until the remaining interview inputs are answered. Claude continues with one
-question at a time, beginning with whether Tuesday 4:00 p.m. therapy recurs,
-when it ends, and whether travel is required. The operational proposal remains
-unapproved; see `claude_and_chris_direction.md` and
-`00-BRAIN\Session_Logs\HANDOFF_0806_CODEX.md`.
-
-## Claude — Live Calendar Hour Audit (2026-08-06, evening)
-
-The remaining interview questions closed same-session: Tuesday 4:00 p.m.
-therapy does not recur during the semester; no other recurring recovery
-commitment exists; the campus laptop (HP Victus) needs a full wipe and the
-admin password may not be recoverable — tracked as a new action item, not a
-capacity question; no undisclosed household duties exist and Heather's
-schedule does not override the weekend Ben coverage. Chris then supplied a
-local `.ics` export (`chrispowers88@gmail.com.ics`) of the actual live Fall
-calendar and asked for the real numbers instead of further estimation.
-
-### Source and method
-
-The `.ics` contains the Fall recurring event template for the week of
-**August 23–29, 2026** (the same week Codex inspected manually on 2026-08-05)
-— nothing recurs yet for the Aug 7–22 pre-semester runway; that period is
-confirmed blank except two standalone `Ben Care` blocks (Aug 19, Aug 21,
-7:00–9:00 a.m.). Every VEVENT block for the Aug 23–29 week was read directly
-(not sampled) and classified into class contact, study block, travel/transit,
-Ben duty, or personal (sleep/relax/meals), then summed by weekday.
-
-### Result: what's actually scheduled
-
-| Category | Hr/week | What's counted |
-|---|---:|---|
-| Class contact | ~13.0 | PHYS 2211, CSE lecture, CSE lab, TCOM 2010, ECON 1000, PHYS-breakout |
-| Explicit study blocks | ~29.25 | Sit + Study / Sit down + Study / PYTHON ONLY STUDY / weekly review (recurring baseline only, excludes one-off single-date extras like `Read SCHOOL`) |
-| Travel/transit | ~9.7 | Travel + Prep, Walk → building, Travel home → Dinner |
-| **Total strict-school footprint** | **~52.0** | — |
-
-This independently reproduces Claude's earlier ~12.67 hr/week contact-time
-estimate (13.0 here, direct count) — a real cross-check, not just a second
-guess.
-
-### Genuinely open (unscheduled) time
-
-| Day | Window | Length |
-|---|---|---:|
-| Tuesday | 11:00 a.m.–12:30 p.m. (after TCOM, before lunch) | 90 min |
-| Thursday | 2:00–3:00 p.m. (between two Sit+Study blocks) | 60 min |
-| Saturday | 5:00–8:00 p.m. (after Annie+Ben coverage, before Ben Bed Time) | 180 min |
-
-Everything else is either a named block or a sub-40-minute transition gap
-(drop-off buffer, walk-to-class, lunch edges) too fragmented to count as
-usable capacity. Total genuinely open time: **~5.5 hr/week.**
-
-### Corrections to the earlier model
-
-1. **The Mon/Wed/Fri/Sat 8:00–10:00 p.m. block is not protected "Family
-   Time."** The calendar itself labels it `Ben Bed Time` (Tue/Thu/Sun:
-   `Ben → Sleep`) — active childcare every night of the week, not leisure.
-   Doesn't change the hour total; changes what kind of hour it is.
-2. **Annie + Ben is confirmed free time** (Chris does not need to watch Ben).
-   **There is no "Heather + Ben" block anywhere on the calendar** — per
-   Chris 2026-08-06, any time not explicitly `Ben + Dad` or `Annie + Ben`
-   should be treated as *possible* Ben duty, not guaranteed free time. The
-   Sunday `Annie + Ben ?` block (question mark in the event title itself) is
-   provisional for this reason.
-3. **Sunday is internally double-booked.** `heather possibly` (1:30–4:00 p.m.),
-   `Sit + Study` (3:30–5:30 p.m.), `Annie + Ben ?` (4:00–8:00 p.m.), and
-   `Weekly Review + Next Week Plan` (6:00–8:00 p.m.) all overlap. Real Sunday
-   capacity is lower than the nominal hours until this is resolved — not
-   fixed here, flagged for Chris.
-
-### Block-count comparison (2026-08-06)
-
-Converting to the 50-minute block unit the weekly plans already use
-(1 block ≈ 0.833 hr): **~29.25 hr/week of study blocks ≈ 35 blocks/week**
-during the semester — roughly double the 18-core-block pilot run for the
-pre-semester Aug 3–9 week, because during the semester those blocks also
-have to cover per-course homework, quizzes, and exam prep, not just the
-calculus-physics bridge and Python survey work the pilot targeted.
-
-Checked against Codex's course-by-course outside-work allowance table
-(PHYS 8–10 hr, CSE lecture 5–6, CSE lab 5–7, TCOM 5–7, ECON 2–3, ENGR 2–3 =
-**27–36 hr/week total**, i.e. **~32–43 blocks/week**): the scheduled 29.25 hr
-(~35 blocks) sits inside that range, near the low-middle — the same
-conclusion as the hour-based comparison above, from an independent unit.
-**Verdict: the current schedule's block count is already close to what the
-semester will actually require — not a rough guess needing a large
-correction, a real number within a few blocks of the working range.**
+*Chris's call, recorded here once made.*

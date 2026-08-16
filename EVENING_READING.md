@@ -2,23 +2,26 @@
 type: dashboard
 timeline: now
 tags: [learning, school, technology]
-generated: 2026-08-13
+generated: 2026-08-15
 ---
 
-# Evening Reading — August 13, 2026
+# Evening Reading — August 15, 2026
 
 ## School
 
-**READ —** `raw/textbook/Physics book-0401-0500.pdf` (Serway & Jewett, Ch. 15 "Oscillatory Motion," opening §15.1, physical pp. 416–419), the spring-mass restoring-force setup.
+**READ —** No School reading assigned tonight.
 
-**FOCUS —** Primes Friday's math-readiness-path row 18, the oscillation/wave cold redo from P7; **the dated calculus-bridge override limits School to this raw primer only, never the `shm-differential-equation.md` calculus-link the redo itself will use**.
+**FOCUS —** Under the dated calculus-bridge override, tomorrow's row 20 in `math-readiness-path.md` is targeted repair of today's own Full Sweep #1 misses, so **no primer topic exists to name until today's sweep finishes**.
 
-**STOP —** Stop after the restoring-force (F = −kx) setup, before the period/frequency derivation; cap 15 minutes.
+**STOP —** Not applicable — no reading assigned, so no cap or boundary is needed.
 
 ## Technology
 
-**READ —** `raw/AI_engineering.pdf` (Chip Huyen, *AI Engineering*, O'Reilly), Chapter 6 "RAG and Agents," the unread physical pp. 572–613 gap (RAG production/evaluation content and the agent-definition/ReAct intro).
+**READ —** `raw/AI_engineering.pdf` (Chip Huyen, *AI Engineering*, O'Reilly), Chapter 7 "Finetuning," continuing from last night's opening section at physical PDF p. 665.
 
-**FOCUS —** Closes the acknowledged gap left by the Aug 7 second pass, continuing the same active AIAS source; **the Agents section past p. 613 is already compiled, so this closes the last unread stretch of Ch. 6**.
+**FOCUS —** Same active AIAS source as last night; the raw-source-coverage ledger still lists Chapters 7-9 as **TOC-classified only**, with **no evidence Ch. 7 progress was logged**, so tonight continues the same unread ground rather than assuming completion.
 
-**STOP —** Stop at p. 613, where the already-compiled Agents section begins; cap 15 minutes.
+**STOP —** Cap 15 minutes; stop at the first clean subsection break rather than a fixed page, since the chapter's internal boundaries aren't yet page-mapped.
+```
+
+This reflects a read-only inspection — I have not written this to disk. Two notes: `.ROOT` remains under the Chris-declared pause (since 2026-08-12) with a finding freeze in effect, and today (Aug 15) is also the weekly plan's "Full Sweep #1" day plus a cold-retrieval sweep, so both blocks above deliberately avoid pre-empting or duplicating that daytime work.
