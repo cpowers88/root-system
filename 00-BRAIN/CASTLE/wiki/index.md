@@ -88,15 +88,26 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 
 ## Weekly Plans
 
-- [[weekly-plans/weekly-plan-2026-07-23-to-2026-07-26]] — active execution
-  plan; CASTLE owns weekly sequencing, while Session Logs own retrospective
-  reviews
-- [[weekly-plans/weekly-plan-2026-07-27-to-2026-08-02]] — closed 32-block
+Listed newest first. CASTLE owns weekly sequencing; Session Logs own the
+retrospective reviews.
+
+- **[[weekly-plans/weekly-plan-2026-08-17-to-2026-08-23]] — Week D, opens
+  Monday Aug 17: the last full pre-semester week.** Miss-log repair, P8 full-map
+  retrieval, C8 timed independent lab, and the **Aug 22 dress rehearsal** before
+  classes start Aug 24. Reframed by Chris's Aug 14 ruling into *week 1 done
+  early* — reading, drafting and drills, not submissions
+- **[[weekly-plans/weekly-plan-2026-08-10-to-2026-08-16]] — Week C, closes
+  today (Sunday Aug 16).** Suspended, not cancelled, under the `.ROOT` pause;
+  the held resume point is C1 then P1
+- [[weekly-plans/weekly-plan-2026-08-03-to-2026-08-09]] — **closed.**
+  18-core-block risk-and-transfer pilot: 8 Physics/calculus, 8 Python/CSE,
+  1 TCOM, 1 ECON, with a Wednesday 10/8/7 reforecast; retrospective evidence in
+  `WEEKLY_AUGUST3-9.md`
+- [[weekly-plans/weekly-plan-2026-07-27-to-2026-08-02]] — **closed** 32-block
   simulation; approximately 13 of 32 weekday blocks completed; retrospective
   evidence lives in the July 27–August 2 Weekly Review
-- [[weekly-plans/weekly-plan-2026-08-03-to-2026-08-09]] — active 18-core-block
-  risk-and-transfer pilot: 8 Physics/calculus, 8 Python/CSE, 1 TCOM, 1 ECON,
-  with a Wednesday 10/8/7 reforecast
+- [[weekly-plans/weekly-plan-2026-07-23-to-2026-07-26]] — **closed** four-day
+  execution plan
 - [[weekly-plans/school-week-simulation-spec-2026-07-27]] — approved workload
   basis for the 32-block simulation; the weekly plan owns live scheduling
 - [[pre-semester-python-push-2026]] — four-week module sequence, July 27 to

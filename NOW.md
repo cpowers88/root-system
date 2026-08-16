@@ -5,7 +5,7 @@ status: active
 tags: []
 ---
 
-# NOW — Friday, August 14, 2026
+# NOW — Sunday, August 16, 2026
 
 > # ⏸ `.ROOT` IS PAUSED
 >
@@ -19,7 +19,30 @@ tags: []
 > with the folder structure and how work moves through it, calculus review, and
 > TCOM structure.
 
-## Today is the rehearsal gate — the second of the two readiness days
+## Today: recover the clobbered files, then run the rehearsal that never ran
+
+> **🔴 Two authoritative files were overwritten and have been restored.** Commit
+> `1c7bebc` ("morning", Aug 16 11:35) saved stale editor buffers over
+> `UPDATE_PLAN.md` (**1,081 → 252 lines**) and `fall_2026_capacity_decision.md`
+> (reverted to a state predating its own first commit). Restored from `1c7bebc~1`
+> today; Chris's annotations from that save are preserved in both. **Root cause:
+> an editor buffer held open across days.** Full account: `UPDATE_PLAN.md`
+> § Status reconciliation — 2026-08-16.
+>
+> **Standing lesson, added today:** close the editor tab, or `git diff` before you
+> save. This is council finding C1 in its most expensive form — it destroyed the
+> record rather than merely lagging it.
+
+**Friday's rehearsal gate did not run.** `DAILY_2026-08-14.md` carried it forward:
+the Friday session held the *pre-rebuild* hats, so File Safety 10 required a fresh
+session and it never opened. No `DAILY_2026-08-15.md` or `-08-16.md` exists.
+**The rehearsal is still the open gate, and it is now the last one before Aug 24.**
+
+**Chris's Friday ruling, which reframes the week ahead:** *"To stay a week ahead,
+don't we need to start next week?"* — yes. **Aug 17–21 converts from a rehearsal
+week into week 1 done early**, a buffer re-earned each week thereafter. Honest
+limit stated and accepted: the buffer is **reading, drafting and drills, not
+submissions**, because D2L gates most graded work.
 
 **Goal:** get an operational, optimized `.ROOT` running for testing before next week.
 Before the completed `OK TO START` statement, every live Markdown file must be justified
@@ -188,18 +211,26 @@ Those are the hull, not the steering.
 
 - **No hub stage or gate closed since the last brief.** Learner frontier positions are
   held under PAUSE — PYTHON Stage 4b, PHYSICS Stage 4 — not overdue.
-- **EDUCATION hub moved Thursday afternoon:** `methods/memory-techniques.md` created and
-  indexed; `OPERATIONS.md` replaced on the approved W4/J-2 two-halves split;
-  `current-position.md` re-scoped as a course-support status board (ECON 🟢, TCOM 🟢/⚠ on
-  recycled Spring dates, ENGR 🔴). Logged in `EDUCATION\wiki\log.md`. Clears once shown.
+- **CASTLE navigation debt cleared (Aug 16):** `wiki/index.md` was missing both current
+  weekly plans (Aug 10–16, Aug 17–23) and mislabelled two closed plans as "active." All
+  four health-gate review items traced to this. Fixed; gate re-run. Clears once shown.
+- *(EDUCATION's Thursday move — `memory-techniques.md`, the W4/J-2 `OPERATIONS.md` split,
+  `current-position.md` re-scoped to a course-support board — was shown in the Aug 14
+  brief and is cleared.)*
 
 ## Open Risks — one loss-bearing item still open
 
-0. **Thursday's teaching-layer work is uncommitted and on one disk.** Last commit is
-   `63b80b4` at 16:03; everything after it — the integration pass, the memory toolbox, the
-   report, the plan updates — is working-tree only. `main` is level with `origin/main`, so
-   this is not the Wednesday problem (unpushed commits); it is worse in kind — **the work is
-   not in git at all.** Needs Chris's approval to commit and push.
+0. **The stale-editor-buffer clobber has no control against it.** Thursday's
+   uncommitted-work risk is **closed** — Chris committed and pushed it himself
+   (`5c40cc2`). It was replaced on Aug 16 by a worse version of the same family:
+   a buffer open across days silently overwrote two authoritative files, and
+   because the save looked like ordinary work it was committed without review.
+   **Nothing in the stack detects this** — the health gate reads what is on disk
+   and cannot know it is older than the file's own history. Git caught it only
+   because someone read the diff. **Mitigation is procedural for now:** review
+   `git diff` before committing a file you did not edit this session. A real
+   control (a pre-commit check for a file shrinking sharply, or reverting past
+   its own last commit) is worth designing after the semester starts, not before.
 
 1. **Source loss in `raw\` queues** (flag #97). Reconciliation is complete and nothing was
    deleted: `Session_Logs\raw_recovery_list_2026-08-12.md`. Five sources exist only as
@@ -249,15 +280,18 @@ readiness evidence is assembled.
 
 ## Fixed and Dated
 
-- **August 14 — today.** Run the technical checks and take the TCOM, CSE and PHYS structures
-  for a test run, per the rehearsal script above. These are readiness proofs, not the
-  completed `OK TO START` release by themselves.
-- **August 15–16 (Sat–Sun)** — Saturday: long realistic sessions with interruptions, pace
-  changes, `Richard F`, ambiguous graded work, mid-task stops. Sunday: regression in fresh
-  contexts, evidence-backed edits only, final gates. Launch bar: all three core subjects pass
-  typical, edge and recovery **twice** in fresh sessions; no HIGH defect; no repeated MEDIUM
-  behavior defect. Cosmetic wording does not delay launch.
-- **August 17** — flag #57 escalation: if PHYS 2211 §54 and ENGR 1000 BWD syllabi have not
+- **August 14–15 — did not run.** The rehearsal gate and the Saturday realistic-session
+  pass both carried. `DAILY_2026-08-14.md` records why Friday's could not run (pre-rebuild
+  hats loaded, File Safety 10); Saturday has no log at all. **Not marked done, not
+  silently dropped — carried to today with one fewer day of runway.**
+- **August 16 — today (Sunday).** Recovery pass complete (files restored, dashboards
+  refreshed, CASTLE index linked, `WHERE_IT_GOES` corrected). **Remaining today: the
+  rehearsal itself**, in fresh sessions. Launch bar unchanged: all three core subjects
+  pass typical, edge and recovery **twice** in fresh sessions; no HIGH defect; no repeated
+  MEDIUM behavior defect. Cosmetic wording does not delay launch. With Aug 14–15 lost,
+  **the compressed bar is: run all three today, and re-run the weakest on Aug 22 inside
+  the dress rehearsal** rather than pretending two full passes happened.
+- **August 17 — tomorrow. Two dated triggers, both Chris's.** Flag #57 escalation: if PHYS 2211 §54 and ENGR 1000 BWD syllabi have not
   posted, email the instructors directly. Also the Drive ruling date.
   **Now sharper (Chris's own Aug 14 edit to `HAT_ENGR1000`):** the Fall 2025 §BD syllabus he
   supplied gives instructor (Lori Lowder), grading shape (**50% attendance quizzes / 50%
@@ -291,15 +325,24 @@ readiness evidence is assembled.
   `03-WIKIS\PHYSICS\wiki\current-position.md`
 - Open flags: `00-BRAIN\SYSTEM_FLAGS.md`
 - Control enforcement reality: `.claude\CONTROL_INVENTORY.md`
-- This week: `00-BRAIN\CASTLE\wiki\weekly-plans\weekly-plan-2026-08-10-to-2026-08-16.md`
+- This week (closes today): `00-BRAIN\CASTLE\wiki\weekly-plans\weekly-plan-2026-08-10-to-2026-08-16.md`
+- **Next week (opens tomorrow, the last pre-semester week):**
+  `00-BRAIN\CASTLE\wiki\weekly-plans\weekly-plan-2026-08-17-to-2026-08-23.md`
 - Bigger-picture direction: `01-NORTH_STAR\Goals & Milestones\direction_and_system_review.md`
 
 ---
+*Refreshed 2026-08-16 (Sunday) during the recovery pass: rolled from Friday to Sunday,
+recorded the `1c7bebc` editor-buffer clobber and its restore, replaced risk 0 (the
+uncommitted-tree risk closed in `5c40cc2`) with the clobber class that has no control
+against it, marked Aug 14–15 as carried rather than done, and added Chris's Friday
+week-ahead ruling. **The Thursday item table and the verified-state block below are
+Thursday's measurements, kept as filed — they are not re-measured here**, except the
+health-gate line, which was re-run today.*
+
 *Refreshed 2026-08-14 morning on Chris's session-load request: rolled to Friday, added the
-Thursday-afternoon teaching-layer rebuild the previous edition predates, moved today's
+Thursday-afternoon teaching-layer rebuild the previous edition predates, moved that day's
 rehearsal from "tomorrow" to the active gate, and opened risk 0 for the uncommitted working
-tree. The Thursday item table and verified-state block are Thursday's measurements and are
-kept as filed — they are not re-measured here.*
+tree.*
 
 *Previous footer, retained: the August 12 edition closed with "no weekly review exists
 for August 3–9, so five DAILY files sit past their archive step." **That was already false

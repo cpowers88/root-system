@@ -6,7 +6,7 @@ tags: [governance]
 
 # WHERE_IT_GOES.md — File Placement + Naming Authority
 ### THE single source for where files go and what they are called. No other file carries these rules.
-### Last updated: July 25, 2026 (wiki machine-interface reconciliation; prior version: 99-ARCHIVE\ARCHIVED_2026-07-11_WHERE_IT_GOES.md)
+### Last updated: August 16, 2026 (corrected the stale `02-LIBRARY` line left by the `04-SCHOOL` promotion; added the `04-SCHOOL`/`03-WIKIS` provenance tiebreaker. Prior substantive version: July 25, 2026, wiki machine-interface reconciliation; earlier: 99-ARCHIVE\ARCHIVED_2026-07-11_WHERE_IT_GOES.md)
 ### Rule: One file, one home. If it fits two places, pick the more permanent one.
 
 ---
@@ -54,6 +54,27 @@ Manual file dropped from outside `.ROOT`, or an automatic Obsidian web clipping?
 Personal reflection or private processing? → 88-JOURNAL\ (AIs do not read)
 Old, inactive, deprecated but worth keeping? → 99-ARCHIVE\ (nothing gets deleted)
 ```
+
+### `04-SCHOOL` vs `03-WIKIS` — the one tiebreaker (added 2026-08-16)
+
+**Two rules above fire on the same physics note.** The Realm Check routes staged
+learning content to `03-WIKIS\PHYSICS\`; the Decision Tree routes anything tied to
+a KSU course to `04-SCHOOL\`. Both are correct, and the collision fires several
+times a day once classes start. **The tiebreaker is provenance, not subject:**
+
+| Ask this one question | Home |
+|---|---|
+| **KSU gave it to me** — lecture, textbook, D2L, syllabus, assignment prompt, transcript | `04-SCHOOL\[course]\` |
+| **We made it** — stages, drills, retrieval checks, calculus-links, miss logs, current-position | `03-WIKIS\[hub]\` |
+| **It will be graded** — drafts, problem sets, lab reports, the TCOM report | `04-SCHOOL\[course]\work\` |
+
+*Did KSU give it to me, or did we make it?* — one question, no re-litigating.
+
+This is an operationalization of the structural ruling Chris made 2026-08-12
+(`02-LIBRARY` = consult and build with · `03-WIKIS` = what the system learned,
+Chris never files into it · `04-SCHOOL` = what he is graded on), not a new rule.
+It describes the tree as already built; nothing moves. **Confirm at the Aug 22
+dress rehearsal by routing one real file through a `work\` bay.**
 
 `77-INBOX\` is the single universal intake door — manual file drops and
 automatic Obsidian clipper output both land here (`Clippings\` retired
@@ -173,11 +194,14 @@ One copy, zero drift.
   scripts allowed per Format Rules). Live project list and status:
   `.ROOT\NOW.md` + `00-BRAIN\CASTLE\wiki\`. NOT here: reference material,
   business templates.
-- **02-LIBRARY\** — reusable knowledge by reference domain (04-SCHOOL plus the
-  `ref-<name>` piles — renamed July 15, 2026 to `REF-<NAME>`, then to lowercase
-  `ref-<name>` between July 13-27 under the lowercase-everything-else naming
-  rule; see `02-LIBRARY\README.md`). PDFs for books, `.md` for notes. NOT
-  here: project files.
+- **02-LIBRARY\** — reusable knowledge by reference domain: the `ref-<name>`
+  piles plus `.PROJECTS\` (renamed July 15, 2026 to `REF-<NAME>`, then to
+  lowercase `ref-<name>` between July 13-27 under the lowercase-everything-else
+  naming rule; see `02-LIBRARY\README.md`). PDFs for books, `.md` for notes.
+  NOT here: project files outside `.PROJECTS\`, and **not course files** —
+  `00-school\` was promoted out to top-level `04-SCHOOL\` on 2026-08-12
+  (`3f78fa4`, 105 references rewritten). Corrected here 2026-08-16; this line
+  still described the pre-promotion tree.
 - **05-BUSINESS\** — the reusable and sanitized money system: 01-Audit
   Templates, 02-Field Notes, 03-Case Studies, 04-Pricing Models, 05-Proposals
   & SOWs, 06-Capability Library (reusable client-facing assets indexed by APQC
@@ -342,4 +366,4 @@ evidence. Never invent a second metadata scheme — extend this one.
 - `.txt` — quick captures in 88-JOURNAL only; convert to `.md` when permanent
 
 ---
-*Last updated: July 25, 2026 (wiki machine-interface reconciliation) | Location: 00-BRAIN\WHERE_IT_GOES.md*
+*Last updated: August 16, 2026 (`02-LIBRARY` line corrected; `04-SCHOOL`/`03-WIKIS` provenance tiebreaker added) | Location: 00-BRAIN\WHERE_IT_GOES.md*

@@ -3,13 +3,13 @@ type: dashboard
 timeline: now
 status: active
 tags: [castle]
-generated: 2026-08-14
+generated: 2026-08-16
 ---
 
-# Morning Brief — August 14, 2026 (Friday)
+# Morning Brief — August 16, 2026 (Sunday)
 
-**ATTENTION —** CASTLE's `00-BRAIN\CASTLE\wiki\current-position.md` is still the July baseline; its August 1 reconciliation never ran and line 19 still frames income as a constraint (open R2).
+**ATTENTION —** Commit `1c7bebc` overwrote `UPDATE_PLAN.md` (1,081→252 lines) and `fall_2026_capacity_decision.md` with stale editor buffers; both restored today from `1c7bebc~1`.
 
-**START —** Run today's rehearsal gate here: PHYS first, then CSE/Python and TCOM, on the six-point rubric in `claude_report_2026-08-13_teaching_layer_rebuild.md` §4.
+**START —** Run the fresh-session regression — PHYS, CSE/Python, TCOM — on the six-point rubric in `claude_report_2026-08-13_teaching_layer_rebuild.md` §4; the launch bar is two clean passes each.
 
-**CHRIS —** Delete the three empty shells yourself, send the two drafted instructor emails, and file the §BD syllabus into `03-WIKIS\EDUCATION\raw\Syllabi\` — AI cannot write there.
+**CHRIS —** Rule Phase E: do the `work\` bays inside each course folder stand as built? Hard deadline Aug 24 (`UPDATE_PLAN.md` § Open going into Aug 24, item 2).
