@@ -127,9 +127,14 @@ git fsck --no-progress                        # expect: no bad refs
 ```
 
 All five must pass. If any fails, the safety copy restores the previous state:
-`.git` can be rebuilt by copying
-`C:\Users\chris\.ROOT-quarantine\2026-08-16_git_backup_before_move` back to
+`.git` can be rebuilt by copying the safety copy back to
 `C:\Users\chris\.ROOT\.git` and deleting the `.git` pointer file.
+
+> ⚠️ **The safety copy moved on 2026-08-16 after the relocation was verified.**
+> It now lives at **`D:\BACKUPS\quarantine\2026-08-16_git_backup_before_move`** —
+> complete, 744 files, verified as a working repo at `52296bf`. The old path
+> `C:\Users\chris\.ROOT-quarantine\...` is a **broken 726-file remnant** with no
+> `HEAD`, `config` or `index`; it is not a rollback. See § The safety copy moved.
 
 ### Step 3 — prove the backup still protects the history
 
@@ -205,6 +210,34 @@ ways. All negative-tested 2026-08-16 in a scratch harness:
   That is defect 3, already made once.
 - **Do not widen `ALLOWED_SCRIPTS`** to work around any permission block met
   here. `AGENT.md` File Safety 12 names that as not-a-control.
+
+## The safety copy moved — and a partial failure is why the counts look odd
+
+**Done 2026-08-16 18:34, after the relocation was verified and the work was
+pushed** (`08749aa`, local and `origin/main` in sync). The pre-move `.git` copy
+was taken off the working drive so it cannot be mistaken for a live repo.
+
+| | Path | State |
+|---|---|---|
+| ✅ **Good copy** | `D:\BACKUPS\quarantine\2026-08-16_git_backup_before_move` | **Complete — 744 files, 167.85 MB.** Verified as a working repo, not assumed: `rev-parse HEAD` → `52296bf`, `log` reads, `fsck` clean but the known benign dangling blob. Carries `WHAT_THIS_IS.txt` |
+| ❌ **Broken remnant** | `C:\Users\chris\.ROOT-quarantine\2026-08-16_git_backup_before_move` | **726 files, missing `HEAD`, `config`, `index`, `packed-refs`, `ORIG_HEAD` and `filter-repo\`.** Git cannot open it. **Chris deletes it** — `Remove-Item` is under `deny`. Marked with `BROKEN_REMNANT_DELETE_ME.txt` |
+
+**The failure worth recording.** `Move-Item` across volumes refused with
+*"insufficient access rights or the item is hidden, system, or read only"* —
+git metadata carries those attributes. But it **had already moved 18 top-level
+files before it threw**, so the source was silently mutated by a command that
+reported only failure. The subsequent copy moved the remaining 726; 18 + 726 =
+744, matching the original count and byte size exactly.
+
+**Lesson:** a failed `Move-Item` on a directory is not necessarily a no-op.
+Treat a partial failure as *state changed, extent unknown* and measure both
+sides before concluding anything. The exit code said "failed"; the filesystem
+said "half done." This was caught only because the copy's file lists were
+compared instead of trusting `robocopy`'s exit 3 — which was itself reporting
+the anomaly as 18 "Extras," a signal that would have been easy to wave through.
+
+Neither `.ROOT-quarantine` path is inside `C:\Users\chris\.ROOT`, so none of
+this was ever in the Drive-mirrored tree.
 
 ## Still open, and separate
 

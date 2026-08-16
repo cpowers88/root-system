@@ -191,6 +191,21 @@ equal manual reread.
    `77-INBOX\` hold real `(1)` files from June–August that are **not** Drive debris
    (prohibition 1). The only live one outside those fenced areas is
    `.obsidian\workspace (1).json` — harmless UI layout state, Aug 14.
+5. **Delete one broken folder — the pre-move `.git` safety copy's leftover shell.**
+
+   ```
+   Remove-Item -Recurse -Force "C:\Users\chris\.ROOT-quarantine\2026-08-16_git_backup_before_move"
+   ```
+
+   **The good copy is safe at `D:\BACKUPS\quarantine\2026-08-16_git_backup_before_move`**
+   — complete at 744 files / 167.85 MB and verified as a working repo at `52296bf`, not
+   merely file-counted. What remains on C: is a **726-file remnant with no `HEAD`, `config`
+   or `index`** — git cannot open it, and it must not be mistaken for a rollback. A
+   cross-volume `Move-Item` failed on git's hidden/system attributes *after* it had already
+   moved 18 top-level files, so the source was mutated by a command that reported only
+   failure. Both folders carry marker files explaining which is which. Neither is inside
+   `.ROOT`, so neither was ever in the Drive-mirrored tree. **Keep the D: copy until flag
+   #102's step 4 passes**, then it can go too.
 
 ## ❄ FINDING FREEZE — operative today
 
