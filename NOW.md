@@ -154,6 +154,16 @@ equal manual reread.
    `AGENT.md` File Safety 12 says is not a control. Chris deletes these himself, or changes
    the deny rule; both are his call, and `.claude\` is tool config requiring explicit approval.
 2. **The `S4U` backup residual** still needs one elevated run (below).
+3. **🔴 Delete one bad git ref — `git fetch` is broken until you do (flag #102).**
+
+   ```
+   rm ".git/refs/heads/main (1)"
+   ```
+
+   Then `git fetch` to confirm. You already cleared `refs/remotes/origin/main (1)`; this is
+   the last one. **Nothing is lost** — local and `origin/main` are both at `52296bf`, and
+   `git fsck` reports bad ref *names* only with zero object corruption. AI cannot do this:
+   it is inside `.git\` and under the same `deny` rule as item 1.
 
 ## ❄ FINDING FREEZE — operative today
 
@@ -195,7 +205,10 @@ Those are the hull, not the steering.
   so a dead link cannot reach a mirror at all.
 - **Backup proven by restore, not assertion** — 8/8 hashes matched from both the mirror and
   a marked-complete snapshot, including two irreplaceable `raw\` PDFs.
-- **No HIGH flags open.** **#99 and #94 both closed today.** Open: #97 (MEDIUM,
+- **🔴 ONE HIGH FLAG OPEN — #102 (Drive vs `.git`, opened Aug 16).** *(This line read "No
+  HIGH flags open" as measured Aug 13; that became false the same day #102 was opened and
+  is corrected here rather than left standing in the cockpit.)* **#99 and #94 both closed
+  Aug 13.** Open: #97 (MEDIUM,
   `raw\` capture loss — **do not dedupe on hash**; reconciliation done, 5 sources still
   need re-clipping), #96 (MEDIUM, accepted-with-controls), #57 (MEDIUM, PHYS §54
   syllabus, **Aug 17 escalation**), #93 (MEDIUM), #16 and #69 (LOW).
@@ -247,8 +260,18 @@ Those are the hull, not the steering.
    `Interactive` LogonType skipping a day Chris was not signed in.
    **Ruled 2026-08-16: leave it alone, review Aug 23** — Chris made manual deletions and
    wants a week of runtime first. `S4U` deliberately not applied until that review.
-3. **Drive: ruled, execution is Chris's.** ✅ **Link Drive directly to
-   `C:\Users\chris\.ROOT`** (ruling 5, supersedes the same morning's "scoped link"). Chose
+3. **Drive: linked — and the third stated consequence has already fired (flag #102, 🔴).**
+   The link to `C:\Users\chris\.ROOT` was made Aug 16. **Drive is now proven to write
+   conflict copies into the live vault**, not merely into snapshots: eight into `.git\`
+   (11:35:37, 12:16:53, 12:29:59) and at least one into `00-BRAIN\` at 12:31:15, each
+   stamped at the moment of a git write. **This is the "live `.git` gets synced" risk
+   arriving as predicted, ~6 hours after the ruling.** Diagnosed Aug 16 evening: the four
+   `(1).md` files in the live tree were all strict *older* subsets — **nothing was lost**,
+   and Chris has deleted them. `git fsck` shows **bad ref names only, zero object
+   corruption**. It recurs on every git write while Drive syncs `.git\`. **The ruling is
+   not reopened here** — the decision was made with this consequence stated. What is new is
+   that it is now measured, and it is a standing tax until Chris scopes or unlinks.
+   ✅ Original ruling 5 (supersedes the same morning's "scoped link"). Chose
    it with three consequences stated and reaffirmed: `88-JOURNAL` goes to Google, a live
    `.git` gets synced, and a mirror propagates a mistake rather than protecting from one.
    **Blocking cleanup first:** the stale `G:\My Drive\desktop_folder_maybe\.ROOT`
