@@ -141,11 +141,11 @@ equal manual reread.
 
 ## Needs Chris — small, and blocking nothing else
 
-1. **Delete three empty folder shells:** `tmp\`, `outputs\`, `...projectSuccess\`.
-   **Emptiness verified 2026-08-14:** zero real files under all three, zero tracked files in
-   git. `tmp\` holds 5 empty nested dirs (`pdfs\book_list`,
-   `pdfs\inbox_2026-07-16\rethinking-iot`, `spreadsheets`); the other two hold nothing but a
-   hidden Windows `desktop.ini` stub each.
+1. **Delete ~~three~~ ONE remaining empty folder shell: `outputs\`.**
+   **Measured 2026-08-16 evening: `tmp\` and `...projectSuccess\` are already gone** — Chris
+   removed them. Only `outputs\` is left at the vault root, holding nothing but a hidden
+   Windows `desktop.ini` stub. **Emptiness originally verified 2026-08-14:** zero real files,
+   zero tracked files in git.
 
    **Corrected diagnosis (supersedes the Aug 13 wording).** The earlier entry blamed the
    phrasing — "every phrasing was a recursive force-delete." **That was wrong**, and it
@@ -173,12 +173,12 @@ equal manual reread.
    layout. **One step left, and it needs Drive running:** resume Drive, do one `git fetch`,
    and confirm `Get-ChildItem C:\Users\chris\.root-git -Recurse -Force -Filter '*(1)*'`
    returns nothing. That measurement is what closes flag #102.
-4. **🔵 The Drive resume sequence — the order matters, and it is not obvious.**
+4. **✅ The Drive resume sequence — DONE 2026-08-16 evening. Kept as the record.**
 
-   **Measured 2026-08-16 evening: Drive is not merely paused — it is not mounted.**
-   No `G:` volume exists and `GoogleDriveFS` is not running. So nothing on the Drive
-   side can be inspected, deleted, or verified until you start it. Run these **in this
-   order**, because two of them are only safe before sync resumes:
+   **All four steps completed, in the right order.** Chris deleted the stale tree by hand
+   *before* the mirror went live, which is the order that mattered. Drive is running, the
+   mirror is active, and **step 4 passed** — see the ✅ note under risk 3. The sequence
+   below is retained because it is the procedure to re-run if Drive is ever relinked:
 
    | | Step | Why this order |
    |---|---|---|
@@ -247,10 +247,10 @@ Those are the hull, not the steering.
   so a dead link cannot reach a mirror at all.
 - **Backup proven by restore, not assertion** — 8/8 hashes matched from both the mirror and
   a marked-complete snapshot, including two irreplaceable `raw\` PDFs.
-- **🔴 ONE HIGH FLAG OPEN — #102 (Drive vs `.git`, opened Aug 16).** *(This line read "No
-  HIGH flags open" as measured Aug 13; that became false the same day #102 was opened and
-  is corrected here rather than left standing in the cockpit.)* **#99 and #94 both closed
-  Aug 13.** Open: #97 (MEDIUM,
+- **✅ NO HIGH FLAGS OPEN (as of Aug 16 evening).** #102 was opened Aug 16 as 🔴 and
+  **downgraded to 🟢 the same day** once the gitdir relocation was measured working with
+  Drive live. It closes at the Aug 23 backup review if a week of runtime stays clean.
+  **#99 and #94 both closed Aug 13.** Open: #97 (MEDIUM,
   `raw\` capture loss — **do not dedupe on hash**; reconciliation done, 5 sources still
   need re-clipping), #96 (MEDIUM, accepted-with-controls), #57 (MEDIUM, PHYS §54
   syllabus, **Aug 17 escalation**), #93 (MEDIUM), #16 and #69 (LOW).
@@ -343,10 +343,22 @@ Those are the hull, not the steering.
    gitdir back into the totals was for. **Step 4 remains** and needs Drive live to prove no
    conflict copy returns; until that measurement exists, #102 stays 🔴.
 
-   ⚠️ **The blocking cleanup above was skipped — it is not merely pending.** The stale
-   `desktop_folder_maybe\.ROOT` is still on Drive, unchanged since Aug 9, so **Drive is
-   holding two `.ROOT` trees with different structures right now** — the outcome Ruling 5
-   ordered the cleanup to prevent. Independent of the gitdir move; does not block it.
+   ~~⚠️ **The blocking cleanup above was skipped**~~ — ✅ **CLOSED 2026-08-16 evening.**
+   Chris deleted the stale `desktop_folder_maybe\.ROOT` (16,091 files, 3.77 GB, Aug 9) by
+   hand, **before** bringing the mirror live. Verified gone; `desktop_folder_maybe` retains
+   only its unrelated content. Drive now holds exactly one `.ROOT` tree.
+
+   ✅ **STEP 4 PASSED — flag #102 downgraded 🔴 → 🟢.** Measured with Drive running and
+   synced: git writes produced **zero conflict copies** in `C:\Users\chris\.root-git`,
+   none new in the vault, `fetch` exit 0, `fsck` clean. The relocation works as designed.
+   Verified from Drive's own config that the mirror is live and pointed at the vault —
+   `roots` table row 10: `title .ROOT`, `last_seen_absolute_path C:\Users\chris\.ROOT`,
+   sync active.
+
+   > **Where the mirror appears, because this caused a scare:** mirrored computer folders
+   > **never show under My Drive**. `.ROOT` lives on drive.google.com under
+   > **Computers → [device name]**, not in `G:\My Drive\`. Not seeing it there is correct
+   > behaviour, not a missing backup.
 
 ## Active Lane
 
