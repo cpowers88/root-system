@@ -30,6 +30,117 @@ Closed flags are not here. They live in
 
 ---
 
+## Flag #102 — Google Drive writes conflict copies into the gitdir
+
+**Raised:** August 16, 2026 · **Priority:** 🔴 HIGH · **Owner:** Chris (the move), Claude Code
+(the prep) · **Check:** on completion of the relocation procedure
+
+### The mechanism
+
+Google Drive mirrors `C:\Users\chris\.ROOT`. Git rewrites `.git\refs\heads\main` on every
+commit, fetch and pull. When Drive is mid-upload of that file at the moment git rewrites it,
+Drive resolves the collision the only way it knows — it writes a **conflict copy** beside the
+original, named `main (1)`. That copy carries a **null SHA** and a refname git considers
+invalid. Git walks the refs directory, finds it, and refuses to proceed:
+
+```
+fatal: bad object refs/heads/main (1)
+```
+
+Eight such files appeared on 2026-08-16, stamped at the exact second of three separate git
+writes — 11:35:37, 12:16:53, 12:29:59.
+
+### What was never true
+
+**No object corruption ever occurred.** `git fsck` reported bad ref *names* only. Local and
+GitHub stayed in sync throughout (`08adc9a`, later `52296bf`). Nothing was lost at any point.
+The flag was a availability failure, not an integrity failure — worth stating because a
+"corrupted git" framing invites a re-clone, which would have been destructive overkill.
+
+### Resolution measured 2026-08-16
+
+| Check | Result |
+|---|---|
+| `(1)` files under the gitdir | none |
+| `git fetch origin` | exit 0 |
+| `git fsck` | clean (one harmless dangling blob) |
+| Local vs GitHub | both `52296bf` |
+| Working tree | clean |
+
+### Why it stayed HIGH after the breakage cleared
+
+**The cause was untouched.** Drive was *paused*, not unlinked, and
+**Drive for desktop has no mechanism to exclude a subfolder from a mirrored folder** — there
+is no setting to keep the mirror and skip the gitdir. The failure returns on the first git
+write after Drive resumes. A cleared symptom over a live cause is not a closed flag.
+
+### The three options, and why the third was chosen
+
+| | Option | Cost |
+|---|---|---|
+| A | Unlink `.ROOT` from Drive | Loses the off-machine copy of `88-JOURNAL`, every `raw\`, and 351 PDFs — precisely the material GitHub excludes and the reason the link exists |
+| B | Accept recurring cleanup | Breaks git after most sessions, and **only Chris can clear it** — `Remove-Item` is denied to every AI surface here |
+| C ✅ | Move the gitdir outside the mirrored tree | Keeps the mirror, removes the only part of the tree that breaks under sync. Nothing is lost: GitHub already holds the full history |
+
+**Chris chose C on 2026-08-16.**
+
+### Why it could not be finished in the session that raised it
+
+`git init --separate-git-dir` renames the `.git` directory, and Windows refuses to rename a
+directory any process holds a handle on. GitHub Desktop, Obsidian and Google Drive were all
+closed and the rename was **still** denied. The remaining holder was VS Code — and the
+Claude Code session doing the work was running inside VS Code's own integrated terminal:
+
+```
+pwsh.exe <- claude.exe <- pwsh.exe <- Code.exe <- Code.exe <- explorer.exe
+```
+
+Closing the blocker would have ended the session doing the closing. **This is the reusable
+lesson: a session cannot remove a lock held by its own parent process.** Any future work that
+must move, rename or delete something under `.ROOT` should check the process ancestry first
+(`Get-CimInstance Win32_Process`) rather than discovering it after a failed attempt.
+
+### The second-order defect this nearly caused
+
+`backup_to_d_drive.ps1` mirrors with `/MIR` and **deliberately includes** `.git` — its header
+records that excluding it once produced *"a restore from D: that produced an unversioned
+vault"* (defect 3). Relocating the gitdir would have re-created that defect by a new route,
+and would additionally have broken the backup outright: the gitdir is **747 files, 14.4% of
+the measured 5,200**, so removing it trips guard C's 10% shrink tripwire on *every* run —
+training the operator to reach for `-Force`, which is how a tripwire becomes noise.
+
+Both were fixed before the move, not after: a sentinel-guarded third pass mirrors the external
+gitdir to `D:\BACKUPS\.ROOT-git`, and the gitdir is measured back **into** the totals guard C
+compares. The path is read from the `.git` pointer file at run time, so no stale second copy
+of it exists. Five tests passed, three of them negative. Full account and the step-by-step
+procedure: **`Session_Logs\System Update Log\2026-08-12_ROOT_UPDATE\FLAG_102_GITDIR_RELOCATION.md`**.
+
+### The prohibition this generated
+
+`(1)`-suffixed files exist in `raw\`, `99-ARCHIVE` and `77-INBOX` dating to June–August and
+are **not** Drive debris. Only ones inside the gitdir, stamped at a git-write moment, are.
+A bulk `*(1)*` sweep would destroy `raw\` evidence — **flag #97's exact failure in a new
+costume.** Stated operatively in `SYSTEM_FLAGS.md` prohibition 1; never act on it from here.
+
+---
+
+## Flags #100 and #101 — forensics not yet written
+
+**Both opened 2026-08-16.** The register promises detail for every row and these two do not
+have it yet. They are **MEDIUM and LOW under the finding freeze — filed, not worked** — so the
+sources below stand as their record until the freeze lifts. Recorded here so the gap is
+visible rather than silent.
+
+- **#100** (🟠, stale copy overwrote two authoritative files, committed as `1c7bebc`):
+  `NOW.md` § Open Risks item 0, and `UPDATE_PLAN.md` § Status reconciliation — 2026-08-16.
+  **Note added 2026-08-16:** #102 confirmed Drive writes into the live vault, which keeps the
+  second candidate vector open — the editor-buffer diagnosis in `NOW.md` is stated more
+  confidently than the evidence supports.
+- **#101** (🟢, the bulk-work gate denies read-only work): five blocked calls listed in the
+  `SYSTEM_FLAGS.md` row; `.claude\CONTROL_INVENTORY.md` for what the gate actually covers.
+
+---
+
 ## Flag #97 — `raw\` capture loss
 
 **Raised:** August 12, 2026 (from the Aug 11 council review) · **Priority:** 🟠 MEDIUM ·

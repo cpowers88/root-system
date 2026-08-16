@@ -10,6 +10,15 @@ param(
     # directory without this file is a partial copy, not a restore point.
     [string]$SnapshotDoneMarker = '.snapshot_complete',
     [int]   $ShrinkTolerancePercent = 10,
+    # The gitdir moved out of the vault on 2026-08-16 (flag #102). Google Drive
+    # mirrors .ROOT and conflict-copied .git\refs on every git write, producing
+    # null-SHA refs with invalid names that made `git fetch` fail outright.
+    # Drive offers no way to exclude a subfolder from a mirrored folder, so the
+    # repo metadata moved out instead of the mirror being abandoned.
+    # The live gitdir path is READ FROM the .git pointer file at run time and is
+    # deliberately NOT a parameter here — a hardcoded second copy of that path
+    # would be a claim that could go stale, and this script would not notice.
+    [string]$GitDestination  = 'D:\BACKUPS\.ROOT-git',
     [switch]$DryRun,
     [switch]$Force
 )
@@ -36,6 +45,23 @@ param(
 #      it did not itself mark as a backup root.
 #   3. .git was excluded, so a restore from D: produced an unversioned vault.
 #      Now included.
+#
+# Amended 2026-08-16 (flag #102). The gitdir may now live OUTSIDE the vault,
+# because Google Drive mirrors .ROOT and conflict-copied .git\refs on every git
+# write - producing null-SHA refs with invalid names that made `git fetch` fail
+# outright. Drive has no mechanism to exclude a subfolder from a mirrored
+# folder, so the repo metadata moved rather than the mirror being abandoned.
+# Two consequences are handled below, and both had to be, or the relocation
+# would have quietly re-created defect 3:
+#
+#   a. /MIR would have purged .git from the destination and left a working tree
+#      with no history. A third pass mirrors the external gitdir separately.
+#   b. The gitdir is 747 files, 14.4% of the measured source. Removing it from
+#      the vault would trip guard C's 10% shrink tripwire on every run, so the
+#      gitdir is measured back INTO the totals guard C compares.
+#
+# The script reads the live gitdir path from the .git pointer file at run time
+# and works unchanged in either layout - self-contained or relocated.
 #
 # 88-JOURNAL: robocopy mirrors it, and it is measured only through robocopy's
 # own /L /NFL /NDL summary, which reports totals and never emits a path. No
@@ -102,6 +128,53 @@ Expected to find $VaultMarker inside it. Refusing to mirror an unknown tree.
 "@
 }
 
+# --- Guard A2: resolve the gitdir, wherever it lives ------------------------
+# .git is a DIRECTORY when the repo is self-contained, and a FILE containing
+# "gitdir: <path>" once it has been relocated out of the vault (flag #102).
+# Both layouts must yield a restorable repo, so this resolves whichever is
+# actually live instead of assuming either one. Defect #3 in the header above
+# (a restore that produced an unversioned vault) is what happens when the repo
+# metadata is silently absent from the backup, and moving the gitdir out of the
+# mirrored tree is a new way to reach that same outcome.
+$dotGit         = Join-Path $Source '.git'
+$externalGitDir = $null
+
+if (Test-Path -LiteralPath $dotGit -PathType Leaf) {
+    $pointer = (Get-Content -LiteralPath $dotGit -Raw).Trim()
+    if ($pointer -notmatch '(?m)^gitdir:\s*(.+?)\s*$') {
+        Fail-Guard @"
+$dotGit is a file but has no 'gitdir:' line.
+
+That is neither a working repo nor a recognisable pointer, and mirroring past it
+would back up a vault whose history cannot be restored. Refusing.
+"@
+    }
+    $candidate = $Matches[1]
+    if (-not [System.IO.Path]::IsPathRooted($candidate)) {
+        $candidate = Join-Path $Source $candidate
+    }
+    $candidate = [System.IO.Path]::GetFullPath($candidate)
+
+    if (-not (Test-Path -LiteralPath $candidate -PathType Container)) {
+        Fail-Guard @"
+.git points to a gitdir that does not exist: $candidate
+
+The vault is using an external gitdir but the target is missing, so a restore
+from this backup would produce an unversioned vault - defect #3 in this
+script's header, reached by a different route. Refusing.
+"@
+    }
+    $externalGitDir = $candidate
+    Write-Step "External gitdir in use: $externalGitDir"
+}
+elseif (Test-Path -LiteralPath $dotGit -PathType Container) {
+    # Self-contained repo: the main mirror below already carries .git.
+    Write-Step 'Gitdir is inside the vault; the main mirror carries it'
+}
+else {
+    Write-Warning "No .git at $dotGit - backing up an unversioned tree."
+}
+
 # --- Load prior state (needed by guards B and C) ----------------------------
 $prior = $null
 if (Test-Path -LiteralPath $StatePath) {
@@ -113,7 +186,8 @@ if (Test-Path -LiteralPath $StatePath) {
 $sentinelPath = Join-Path $Destination $SentinelName
 
 function New-Sentinel {
-    Set-Content -LiteralPath $sentinelPath -Encoding utf8 -Value @"
+    param([string]$Path = $sentinelPath)
+    Set-Content -LiteralPath $Path -Encoding utf8 -Value @"
 This folder is the .ROOT local backup root.
 Marked $(Get-Date -Format 'yyyy-MM-dd HH:mm') by 00-BRAIN\scripts\backup_to_d_drive.ps1.
 Do not delete this file: the script refuses to mirror into a folder without it.
@@ -169,6 +243,37 @@ so this run stops rather than mirroring blind.
 "@
 }
 Write-Host ("    source: {0:N0} files, {1:N2} GB" -f $srcFiles, ($srcBytes / 1GB))
+
+# The gitdir counts toward the protected estate even when it sits outside the
+# vault, so it is measured into the same totals guard C compares and the state
+# file records. Without this, relocating it drops the measured source by 747
+# files - 14.4% of 5,200, measured 2026-08-16 - and guard C reads a deliberate
+# relocation as catastrophic loss. It would then refuse every run until somebody
+# reached for -Force, which is how a tripwire gets trained into noise.
+if ($externalGitDir) {
+    $gitMeasureArgs = @($externalGitDir,
+                        (Join-Path $env:TEMP 'root_gitdir_measure_noop'),
+                        '/L', '/S', '/E', '/NJH', '/NFL', '/NDL', '/BYTES',
+                        '/R:0', '/W:0', '/XJ')
+    $gitMeasureOut = & robocopy @gitMeasureArgs 2>&1
+
+    $gitFiles = $null; $gitBytes = $null
+    foreach ($line in $gitMeasureOut) {
+        if ($line -match '^\s*Files\s*:\s*(\d+)') { $gitFiles = [int64]$Matches[1] }
+        if ($line -match '^\s*Bytes\s*:\s*(\d+)') { $gitBytes = [int64]$Matches[1] }
+    }
+    if ($null -eq $gitFiles -or $null -eq $gitBytes) {
+        Fail-Guard @"
+Could not read a file/byte total for the external gitdir: $externalGitDir
+A measurement that cannot run is not evidence the repo is intact.
+"@
+    }
+    Write-Host ("    gitdir: {0:N0} files, {1:N2} GB" -f $gitFiles, ($gitBytes / 1GB))
+
+    $srcFiles += $gitFiles
+    $srcBytes += $gitBytes
+    Write-Host ("    estate: {0:N0} files, {1:N2} GB (vault + gitdir)" -f $srcFiles, ($srcBytes / 1GB))
+}
 
 # --- Guard C: shrink tripwire against the last successful run ---------------
 # ($prior was loaded above, before guard B.)
@@ -302,15 +407,78 @@ if (-not $DryRun -and (Test-Path -LiteralPath $iconSrc)) {
     }
 }
 
+# --- Third pass: the external gitdir ----------------------------------------
+# /MIR, not /E: git deletes refs and packs as well as adding them, and a stale
+# ref resurrected from a backup is worse than no backup at all.
+#
+# No $excludeArgs here, deliberately. A repo must be copied whole - and the
+# vault's exclude list carries '/XD tmp', which would silently skip any git
+# directory that happened to be named tmp. The one exclusion kept is the
+# sentinel, for the reason recorded at the vault mirror above: it has no
+# counterpart in the source, so /MIR's purge deletes it and trips the guard on
+# every subsequent run.
+if ($externalGitDir) {
+    $gitSentinel = Join-Path $GitDestination $SentinelName
+
+    if (Test-Path -LiteralPath $GitDestination) {
+        if (-not (Test-Path -LiteralPath $gitSentinel)) {
+            if ($prior -and $prior.gitDestination -eq $GitDestination) {
+                Write-Step "Gitdir sentinel missing but prior run owns $GitDestination - re-marking"
+                if (-not $DryRun) { New-Sentinel $gitSentinel }
+            } else {
+                Fail-Guard @"
+Gitdir backup destination exists but is not marked as a .ROOT backup root:
+$GitDestination
+
+/MIR would DELETE everything in it that is not in the gitdir. Refusing.
+
+If this really is the intended destination and you accept that its current
+contents will be purged, mark it yourself and re-run:
+
+    New-Item -ItemType File '$gitSentinel'
+"@
+            }
+        }
+    } elseif (-not $DryRun) {
+        Write-Step "Creating gitdir backup root $GitDestination"
+        [System.IO.Directory]::CreateDirectory($GitDestination) | Out-Null
+        New-Sentinel $gitSentinel
+    }
+
+    $gitArgs = @($externalGitDir, $GitDestination, '/MIR', '/R:2', '/W:5',
+                 '/NP', '/NFL', '/NDL', '/XJ', '/XF', $SentinelName)
+    if ($DryRun) { $gitArgs += '/L' } else { $gitArgs += "/LOG+:$LogPath" }
+
+    if ($DryRun) {
+        Write-Step "[dry run] Mirroring gitdir $externalGitDir -> $GitDestination"
+    } else {
+        Write-Step "Third pass: gitdir $externalGitDir -> $GitDestination"
+    }
+    & robocopy @gitArgs | Out-Null
+
+    if ($LASTEXITCODE -ge 8) {
+        Write-Error @"
+The gitdir pass failed (robocopy exit $LASTEXITCODE). See $LogPath
+
+The vault mirror succeeded, so this backup holds the working tree but NOT the
+history. That is defect #3 in this script's header - do not treat it as a
+complete restore point until this pass succeeds.
+"@
+        exit 2
+    }
+}
+
 # --- Record state for the next run's tripwire -------------------------------
 if (-not $DryRun) {
     [pscustomobject]@{
-        timestamp   = (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')
-        source      = $Source
-        destination = $Destination
-        files       = $srcFiles
-        bytes       = $srcBytes
-        exitCode    = $exitCode
+        timestamp      = (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')
+        source         = $Source
+        destination    = $Destination
+        gitDir         = $externalGitDir
+        gitDestination = $(if ($externalGitDir) { $GitDestination } else { $null })
+        files          = $srcFiles
+        bytes          = $srcBytes
+        exitCode       = $exitCode
     } | ConvertTo-Json | Set-Content -LiteralPath $StatePath -Encoding utf8
 }
 
@@ -320,6 +488,11 @@ if ($DryRun) {
 } else {
     Write-Host "Backup complete. robocopy exit $exitCode (0-7 = success)."
     Write-Host "  mirror:    $Destination"
+    if ($externalGitDir) {
+        Write-Host "  gitdir:    $externalGitDir -> $GitDestination"
+    } else {
+        Write-Host "  gitdir:    inside the vault mirror"
+    }
     Write-Host "  snapshots: $SnapshotRoot (keeping $KeepSnapshots)"
     Write-Host "  log:       $LogPath"
 }

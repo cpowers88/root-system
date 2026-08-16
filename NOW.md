@@ -19,24 +19,31 @@ tags: []
 > with the folder structure and how work moves through it, calculus review, and
 > TCOM structure.
 
-## Today: recover the clobbered files, then run the rehearsal that never ran
+## Today (Sunday, evening): three repairs landed. The rehearsal still has not run.
 
-> **🔴 Two authoritative files were overwritten and have been restored.** Commit
-> `1c7bebc` ("morning", Aug 16 11:35) saved stale editor buffers over
-> `UPDATE_PLAN.md` (**1,081 → 252 lines**) and `fall_2026_capacity_decision.md`
-> (reverted to a state predating its own first commit). Restored from `1c7bebc~1`
-> today; Chris's annotations from that save are preserved in both. **Root cause:
-> an editor buffer held open across days.** Full account: `UPDATE_PLAN.md`
-> § Status reconciliation — 2026-08-16.
->
-> **Standing lesson, added today:** close the editor tab, or `git diff` before you
-> save. This is council finding C1 in its most expensive form — it destroyed the
-> record rather than merely lagging it.
+> ### ▶ Next action, when you are ready: **open a fresh session and run the rehearsal.**
+> Everything blocking it is cleared. It has carried Aug 14 → 15 → 16, and **Aug 22 is
+> the last opportunity before classes begin Aug 24.**
 
-**Friday's rehearsal gate did not run.** `DAILY_2026-08-14.md` carried it forward:
-the Friday session held the *pre-rebuild* hats, so File Safety 10 required a fresh
-session and it never opened. No `DAILY_2026-08-15.md` or `-08-16.md` exists.
-**The rehearsal is still the open gate, and it is now the last one before Aug 24.**
+**What closed today, in order:**
+
+| | Landed |
+|---|---|
+| **Morning** | The `1c7bebc` clobber recovered — `UPDATE_PLAN.md` and `fall_2026_capacity_decision.md` restored from `1c7bebc~1`, your annotations preserved in both. Root cause: a stale editor buffer. See risk 0 |
+| **Midday** | Flag #102's four `(1)` files diagnosed as strict older subsets — **nothing was lost**; the bad git refs then cleared themselves and `fetch` returned to exit 0 |
+| **Afternoon** | The course→hat routing table added to `AGENT.md`, and `vault_map.md` + `START_HERE.md` corrected for the Aug 12 school move (`3498205`) |
+| **Evening 18:14** | **Flag #102's durable fix installed** — the gitdir relocated to `C:\Users\chris\.root-git`, outside every Drive-mirrored folder. Steps 1–3 of the procedure, verified. Step 4 needs Drive live |
+
+> **The rehearsal's own precondition is now satisfied, which it was not before.**
+> The structure review found that nothing in the always-load chain named *which hat to
+> load* — so a rehearsal would have graded your steering, not the system's routing.
+> That table now exists, and File Safety 10 means the session that wrote it cannot test
+> it. **Any fresh session can.** Grade whether the session found the right chain on its
+> own, not whether you led it there.
+
+**Standing lesson from the morning:** close the editor tab, or `git diff` before you
+save. Council finding C1 in its most expensive form — it destroyed the record rather
+than merely lagging it.
 
 **Chris's Friday ruling, which reframes the week ahead:** *"To stay a week ahead,
 don't we need to start next week?"* — yes. **Aug 17–21 converts from a rehearsal
@@ -154,16 +161,36 @@ equal manual reread.
    `AGENT.md` File Safety 12 says is not a control. Chris deletes these himself, or changes
    the deny rule; both are his call, and `.claude\` is tool config requiring explicit approval.
 2. **The `S4U` backup residual** still needs one elevated run (below).
-3. **🔴 Delete one bad git ref — `git fetch` is broken until you do (flag #102).**
+3. **~~Delete one bad git ref~~ — ✅ resolved, twice over. Do not run the old command.**
 
-   ```
-   rm ".git/refs/heads/main (1)"
-   ```
+   *(This item read "🔴 `git fetch` is broken until you do — `rm ".git/refs/heads/main (1)"`."
+   That instruction is dead: the bad refs cleared themselves by 14:40, and the gitdir has
+   since moved. There is no such file to delete.)*
 
-   Then `git fetch` to confirm. You already cleared `refs/remotes/origin/main (1)`; this is
-   the last one. **Nothing is lost** — local and `origin/main` are both at `52296bf`, and
-   `git fsck` reports bad ref *names* only with zero object corruption. AI cannot do this:
-   it is inside `.git\` and under the same `deny` rule as item 1.
+   **The durable fix ran at 18:14** — the gitdir now lives at `C:\Users\chris\.root-git`,
+   outside every Drive-mirrored folder, so Drive can never touch `.git` again. `.git` is a
+   33-byte pointer file; `fetch` exit 0; `fsck` clean; backup re-run and verified in the new
+   layout. **One step left, and it needs Drive running:** resume Drive, do one `git fetch`,
+   and confirm `Get-ChildItem C:\Users\chris\.root-git -Recurse -Force -Filter '*(1)*'`
+   returns nothing. That measurement is what closes flag #102.
+4. **🔵 The Drive resume sequence — the order matters, and it is not obvious.**
+
+   **Measured 2026-08-16 evening: Drive is not merely paused — it is not mounted.**
+   No `G:` volume exists and `GoogleDriveFS` is not running. So nothing on the Drive
+   side can be inspected, deleted, or verified until you start it. Run these **in this
+   order**, because two of them are only safe before sync resumes:
+
+   | | Step | Why this order |
+   |---|---|---|
+   | **a** | **Before starting Drive:** delete the stale `G:\My Drive\desktop_folder_maybe\.ROOT` (16,091 files, 3.77 GB, **Aug 9 pre-restructure**) | This is Ruling 5's blocking prerequisite, **skipped not deferred**. It cannot be done while unmounted, and doing it *after* sync resumes means Drive reconciles two different `.ROOT` trees first. AI cannot delete it |
+   | **b** | Start Drive. Expect it to **remove `.git\` from the cloud copy** | Correct and intended — the gitdir left the mirrored tree. `.root-git` is a sibling of `.ROOT`, so Drive never sees it. Nothing is lost; `D:\BACKUPS\.ROOT-git` and GitHub both hold the history |
+   | **c** | Let the sync settle, then run **step 4**: `git fetch origin`, then `Get-ChildItem C:\Users\chris\.root-git -Recurse -Force -Filter '*(1)*'` | **No output = flag #102 closes.** This is the measurement the whole relocation exists to produce |
+   | **d** | Re-run `00-BRAIN\scripts\backup_to_d_drive.ps1` once after the dust settles | Confirms the three-pass layout holds against a Drive-active tree, not just a quiet one |
+
+   **Do not** sweep `*(1)*` across the vault at any point — `raw\`, `99-ARCHIVE\` and
+   `77-INBOX\` hold real `(1)` files from June–August that are **not** Drive debris
+   (prohibition 1). The only live one outside those fenced areas is
+   `.obsidian\workspace (1).json` — harmless UI layout state, Aug 14.
 
 ## ❄ FINDING FREEZE — operative today
 
@@ -279,6 +306,33 @@ Those are the hull, not the steering.
    link is added, or Drive holds two `.ROOT` trees with different structures. **AI cannot
    delete it.** Detail and steps: `UPDATE_PLAN.md` § Ruling 5.
 
+   **Resolved further, Aug 16 afternoon — the standing tax has an end date.** Verified:
+   fetch exit 0, `fsck` clean, local + GitHub both `52296bf`. **Chris ruled: move the gitdir
+   out of the mirrored tree** — Drive offers no way to exclude a subfolder, so this is the
+   only fix that keeps the mirror rather than trading it away. Prep is done and tested
+   (`backup_to_d_drive.ps1` patched: sentinel-guarded third pass for the external gitdir,
+   and the gitdir measured back into guard C so a 14.4% relocation is not read as loss;
+   5 tests, 3 of them negative). **Only the move itself is left. It cannot run from a VS Code
+   terminal** — VS Code holds the `.git` handle, and a session cannot remove a lock held by
+   its own parent process. Step-by-step:
+   `System Update Log\2026-08-12_ROOT_UPDATE\FLAG_102_GITDIR_RELOCATION.md`.
+
+   ✅ **Executed 2026-08-16 18:14 — the standing tax is over, pending one measurement.**
+   The lock was environmental, not permanent: a session running from **Windows Terminal**
+   (no `Code.exe` in its process ancestry, with Drive/Obsidian/GitHub Desktop also closed)
+   renamed the gitdir first try. `.git` is now a 33-byte pointer to
+   `C:\Users\chris\.root-git`, which sits outside every Drive-mirrored folder. Verified:
+   `fetch` exit 0, `fsck` clean, `HEAD 551670a`, working tree unchanged. Backup re-run in
+   the new layout — `D:\BACKUPS\.ROOT-git` holds 752 files with its sentinel, the vault
+   mirror is 4,947 files, and **guard C did not trip**, which is exactly what measuring the
+   gitdir back into the totals was for. **Step 4 remains** and needs Drive live to prove no
+   conflict copy returns; until that measurement exists, #102 stays 🔴.
+
+   ⚠️ **The blocking cleanup above was skipped — it is not merely pending.** The stale
+   `desktop_folder_maybe\.ROOT` is still on Drive, unchanged since Aug 9, so **Drive is
+   holding two `.ROOT` trees with different structures right now** — the outcome Ruling 5
+   ordered the cleanup to prevent. Independent of the gitdir move; does not block it.
+
 ## Active Lane
 
 **The `.ROOT` update, above.** `AGENT.md` Execution Discipline 1 ("no optional system work
@@ -315,8 +369,9 @@ readiness evidence is assembled.
   hats loaded, File Safety 10); Saturday has no log at all. **Not marked done, not
   silently dropped — carried to today with one fewer day of runway.**
 - **August 16 — today (Sunday).** Recovery pass complete (files restored, dashboards
-  refreshed, CASTLE index linked, `WHERE_IT_GOES` corrected). **Remaining today: the
-  rehearsal itself**, in fresh sessions. Launch bar unchanged: all three core subjects
+  refreshed, CASTLE index linked, `WHERE_IT_GOES` corrected); hat routing table added;
+  **flag #102's gitdir relocation executed and verified at 18:14**, step 4 pending Drive.
+  **Remaining today: the rehearsal itself**, in fresh sessions. Launch bar unchanged: all three core subjects
   pass typical, edge and recovery **twice** in fresh sessions; no HIGH defect; no repeated
   MEDIUM behavior defect. Cosmetic wording does not delay launch. With Aug 14–15 lost,
   **the compressed bar is: run all three today, and re-run the weakest on Aug 22 inside
@@ -361,6 +416,19 @@ readiness evidence is assembled.
 - Bigger-picture direction: `01-NORTH_STAR\Goals & Milestones\direction_and_system_review.md`
 
 ---
+*Refreshed 2026-08-16 (Sunday, evening) after the gitdir relocation: rewrote § Today from
+"recover the clobbered files" to the four repairs that actually landed, with the rehearsal
+named as the single next action and its precondition (the hat routing table) noted as now
+satisfied. Struck § Needs Chris item 3 — it was instructing a `rm` on a file that has not
+existed since 14:40 — and added item 4, the ordered Drive resume sequence, after measuring
+that Drive is **unmounted**, not paused. Risk 3 appended, never rewritten. **Cost stated
+honestly: this file grew 3,377 → 4,646 words today**, which moves N6 in the wrong direction.
+The additions are operational (the Drive sequence, the #102 record) rather than narrative, but
+that is a reason, not an excuse. **The N6 trim stays filed under the freeze until `OK TO
+START`** — and it should now cut harder than originally scoped: the whole Thursday T1–T9
+table, the teaching-layer rebuild section, and the verified-state block are history, not a
+cockpit, and belong behind one link.*
+
 *Refreshed 2026-08-16 (Sunday) during the recovery pass: rolled from Friday to Sunday,
 recorded the `1c7bebc` editor-buffer clobber and its restore, replaced risk 0 (the
 uncommitted-tree risk closed in `5c40cc2`) with the clobber class that has no control
