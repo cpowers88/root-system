@@ -159,6 +159,30 @@ Steps 1–4 are the universal orientation chain, not a requirement to load every
 optional companion or domain file. Load the smallest authoritative companion and
 local chain that can answer the active question safely.
 
+### Course → hat routing (added 2026-08-16)
+
+**Trigger: the session's active work is a registered course.** Each subject hat
+already states its own load chain — but only to a session that has already opened
+it. Nothing above named which hat to open, so the trigger was missing. A rule's
+trigger is part of the rule (flag #94's lesson).
+
+| Active subject | Load, in order |
+|---|---|
+| PHYS 2211 | `HAT_PHYSICS` → `03-WIKIS\PHYSICS\OPERATIONS.md` → its `wiki\current-position.md` |
+| PHYS, calculus/trig mechanics | also `HAT_PHYSICS_MATH` |
+| CSE 1321 / 1321L | `HAT_PYTHON` → `03-WIKIS\PYTHON\OPERATIONS.md` → its `wiki\current-position.md` |
+| TCOM 2010 | `HAT_TCOM` → `03-WIKIS\EDUCATION\OPERATIONS.md` |
+| ECON 1000 | `HAT_ECON` → `03-WIKIS\EDUCATION\OPERATIONS.md` |
+| ENGR 1000 | `HAT_ENGR1000` → `03-WIKIS\EDUCATION\OPERATIONS.md` |
+
+Hats live in `00-BRAIN\HATS\`. **Every subject hat loads `HAT_EDUCATOR.md` first**
+— it carries the teaching methods the subject hats point at. **`04-SCHOOL\SEMESTER_MAP.md`
+outranks every hat on dates**; a hat's dated claim never wins against it.
+
+**Proof this is working:** the session names its hat before the first teaching
+move, without Chris naming it. **Stop:** if no hat matches, say so and ask —
+do not teach a registered course from `HAT_EDUCATOR` alone.
+
 ## File Safety — Non-Negotiable
 
 1. Read before write; never rebuild a live file from memory.

@@ -1126,6 +1126,65 @@ Report: `CODEX_PRIORITY_2_WIKI_MATERIAL_REVIEW.md` in this folder. Status:
   recovery, and correct state return. Five wording/pathway candidates are filed
   as evidence targets only; no live hat edits were applied under the freeze.
 
+## Findings filed 2026-08-16 — structure + instruction-pathway review
+
+Chris asked for a folder-structure and AI-pathway review with 8 days to Aug 24. Read-only
+audit; both gates run live. Full report:
+**`Session_Logs\claude_report_2026-08-16_structure_and_pathways_review.md`**.
+**Filed under the freeze, not worked**, except where Chris rules otherwise today.
+
+**Measured green, and better than Aug 13:** boot chain PASS (32 files, 1,369 pages);
+`root_health.py` **PASS exit 0 with review debt 0** — the first full PASS on record, the four
+CASTLE items cleared by the Aug 16 index fix. Always-load re-measured at **5,803 words**,
+confirming T2's figure exactly. All eight `03-WIKIS` hubs conform to the archetype with zero
+retired loaders. All five Fall `work\` bays present. Working tree clean, **1 commit ahead of
+`origin/main`**.
+
+| # | Finding | Phase | Pri |
+|---|---|---|---|
+| **N3** | **No always-load file routes a course block to its hat.** Every subject hat states its own load chain in its header; nothing states *which hat to load*. Four mentions of `HATS\` across the always-load chain, **zero triggers**; `AGENT.md` § Session Start Protocol never reaches a hat. **This is flag #94's defect class** — lesson 5, *a rule's trigger is part of the rule*. Fires ~5×/day from Aug 24. Proposed fix: one ~90-word course→hat→hub→current-position table in `AGENT.md` (+1.5% always-load). **Recommended to land before today's rehearsal, since File Safety 10 means it cannot be tested in the session that writes it** | D / H | 🟠 |
+| **N1** | **`vault_map.md` is stale on the `04-SCHOOL` promotion.** Its verified-map tree still nests `04-SCHOOL` inside `02-LIBRARY`, and `04-SCHOOL` does not appear at root at all; header still reads "Last updated: July 29, 2026." The file *was* edited on Aug 13 for T7's Watchtower repoint — the school correction was not carried in the same pass. **C1, partial propagation.** Also stale in it: `scripts\` described as "7 as of July 15" (live: 21 + 2 subfolders) | A | 🟠 |
+| **N2** | **`START_HERE.md` contradicts itself on where school files live** — L33 and L76 place `04-SCHOOL` inside `02-LIBRARY`; L133 correctly puts it at root. Chris's own human entrance gives two answers on one page. Also lists `REF-…` where the live tree is `ref-<name>`. **N1+N2 are the two documents Chris's runway goal #2 ("comfort with the folder structure") is served by** | A | 🟠 |
+| **N4** | **`CASTLE\wiki\current-position.md` is 28 days stale and 15 days past its own stated reconciliation date** ("Next monthly reconciliation: August 1, 2026"). Records Python at **Stage 3**; learner truth and `NOW.md` say **Stage 4b**. `NOW.md` names it the owner of "sequence and proof status", so the cockpit points at a file that contradicts the cockpit. Codex filed the staleness (W3); **the contradiction is new** | W3 | 🟠 |
+| **N5** | **Unrouted `ENGR 1000 Section BD (81208)` syllabus sits in `77-INBOX`** (captured Aug 14) — one day before the flag #57 escalation email. `SEMESTER_MAP.md` already found `SYLLABUS_STATUS.md` omits the §05 file, so **two** ENGR reference syllabi are on disk that the source index does not name, going into tomorrow's email. Seven more inbox items from Aug 13 are past their weekly clear | — | 🟠 |
+| **N6** | **`NOW.md` is 3,377 words** — larger than `AGENT.md`, carrying the whole update history. Correct *for the pause*, wrong for a semester: Execution Discipline 3 ("one visible lane") is not met by a four-screen cockpit. Proposal: at `OK TO START`, cut the update narrative to one link and hold ≤600 words | — | 🟠 |
+| **N8** | **Hub shared-layer conformance is 4 of 8.** `AI_AUTOMATION_SYSTEMS`, `BUSINESS`, `PHYSICS`, `REVENUE_LAB` do not name `WIKI_SHARED_LAYER.md` in `OPERATIONS.md`. **PHYSICS is the one that matters.** (Codex measured 3/8 Aug 13; EDUCATION since fixed) | W2 | 🟢 |
+| **N7** | **CASTLE still carries `CLAUDE.md`/`AGENTS.md`/`CODEX.md` loaders.** Not a rule violation — the 2026-08-10 removal names `03-WIKIS` hubs and CASTLE is in `00-BRAIN` — but it is the last place two entry conventions coexist | C | 🟢 |
+
+**Verdict:** the structure is ready; the routing into it is not. N3 is worth more than the
+rest of this table combined, and is the only item recommended for execution before the
+Aug 17–21 test week.
+
+**Gap in that review, found on verification:** it did not examine the Drive copy. A
+structure review that does not ask *which copy of this structure Chris opens on campus*
+is incomplete — see ruling 3 below for what was measured.
+
+### ✅ Chris's rulings — 2026-08-16
+
+| # | Decision | Ruling | State |
+|---|---|---|---|
+| **1** | N3 — course→hat routing table in `AGENT.md` | ✅ **APPROVED, in `AGENT.md`** | **DONE** — `## Session Start Protocol` § Course → hat routing. Carries trigger, order, proof and stop condition. Always-load 5,803 → ~5,960 (+2.7%) |
+| **2** | Phase E — output bay shape (was decision 2, hard deadline Aug 24) | ✅ **RATIFIED AS BUILT** — `work\` inside each course folder | Bays already exist in all five courses with READMEs. **Closes Phase E.** Confirm by routing one real file at the Aug 22 dress rehearsal |
+| **3** | The Drive link (dated ruling, Aug 17) | ✅ **REPLACE WITH A SCOPED LINK** — not a re-sync | **Ruled early, execution outstanding.** Needs one session before Aug 24 |
+
+**Ruling 3 — what was measured 2026-08-16, since the record was 4 days old:**
+
+`G:\My Drive\desktop_folder_maybe\.ROOT` — folder stamp **Aug 9 08:32**, newest real
+content file **Aug 8 21:08**. 16,091 files, 3.77 GB. **`04-SCHOOL` absent;
+`02-LIBRARY\00-school` present** — it is the pre-restructure tree. `88-JOURNAL\` present.
+`.git\` present.
+
+Three problems, not one: **(a)** it is 8 days behind and does not contain the Aug 16
+restore; **(b)** opening `.ROOT` from it on campus yields the *old* folder structure,
+against everything the update just built; **(c)** private journal content and full git
+history are sitting in Google Drive.
+
+**Scope for the replacement:** exclude `88-JOURNAL\`, `.git\`, every `raw\`, `tmp\`, and
+`02-LIBRARY\.PROJECTS\` build trees. **Tested for the clobber vector and cleared:** the
+Drive copy of `fall_2026_capacity_decision.md` is the Aug 7 version (640 lines, carries
+`~52 hr/week`); the Aug 16 clobber reverted to a 444-line state older than that. **Drive
+did not cause it** — the editor-buffer diagnosis stands.
+
 ## Lessons that must not be relearned
 
 1. **Presence is not function.** Hit five times this week: the inert sandbox, the dead

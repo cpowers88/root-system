@@ -30,7 +30,8 @@ and the live owner files.
 | 🗼 [WATCHTOWER.md](01-NORTH_STAR/WATCHTOWER.md) | **Watch material external change.** Evidence stays in its wiki; qualifying signals enter the two-file radar, then CASTLE gates any test. |
 | 🧠 `00-BRAIN` | See/change how the AI operates. `AGENT.md` is the universal OS every engine boots from; surface profiles (`CLAUDE.md` / `CODEX.md`) describe strengths and access; `HATS\` holds optional modes; 🏰 `CASTLE` (the command center — phases, skills, proof projects) lives here too, plus maps, flags, session logs. |
 | ⭐ `01-NORTH_STAR` | **Read the durable star.** Load `CURRENT_STRATEGY.md` only for the active business vehicle, and `fall_2026_semester.md` for semester readiness and outcomes. |
-| 📚 `02-LIBRARY` | Grab reference by domain (`REF-…` folders). Also `.PROJECTS` (build docs), `04-SCHOOL` (course files), and `.raw ARCHIVE` (closed legacy sources—no new intake). `README.md` inside disambiguates the business/physics look-alikes. |
+| 📚 `02-LIBRARY` | Grab reference by domain (`ref-<name>` folders). Also `.PROJECTS` (build docs) and `.raw ARCHIVE` (closed legacy sources—no new intake). **Course files are not here** — they moved to `04-SCHOOL` on 2026-08-12. `README.md` inside disambiguates the business/physics look-alikes. |
+| 🎓 `04-SCHOOL` | **What you are graded on.** One folder per course, each with a `work\` bay for drafts, problem sets and lab reports. `SEMESTER_MAP.md` is the date authority and outranks every hat. Boundary vs `03-WIKIS`: **KSU gave it to me → here; we made it → the hub.** |
 | ⚒️ `03-WIKIS` | Work the eight knowledge hubs: `SYSTEMS` (system dynamics + ISYE spine) · `PYTHON` (Python/CS stages) · `EDUCATION` (general KSU support — TCOM/ECON/ENGR) · `PHYSICS` (physics stages) · `BUSINESS` (offers, pricing, audit method, market research) · `TECHNOLOGY` (tech-adoption roadmap + applied technical reference) · `AI_AUTOMATION_SYSTEMS` (AI/agent research + `.ROOT` self-evolution proposals) · `REVENUE_LAB` (digital revenue evidence and tests). Each has a `HOW_TO_USE.md` inside. |
 | 💼 `05-BUSINESS` | The money system: reusable templates, pricing, sanitized field lessons, and capability assets (case-study and proposal folders are ready and fill with real engagements — see its `README.md`). Active client-specific work stays in a separate client workspace outside `.ROOT`. |
 | 📥 `77-INBOX` | Universal intake: manual files dropped from outside `.ROOT` and automatic Obsidian web-clipping output (`Clippings` retired 2026-07-24, clipper now points here). Cleared every weekly review. |
@@ -73,7 +74,7 @@ inbox are filtered out of this graph.
 | 🟤 Light brown | `00-BRAIN\CASTLE` — the command center |
 | 🟡 Amber | `01-NORTH_STAR` — the star + reviews |
 | 💜 Blue-violet | `01-NORTH_STAR\WATCHTOWER.md` + `radar.md` — the watchtower |
-| 🟠 Orange | `02-LIBRARY` — reference + projects + school file home |
+| 🟠 Orange | `02-LIBRARY` — reference + projects (school has its own color, below) |
 | 🟢 Green | `BUSINESS` · 🟣 Purple `PYTHON` · 🟨 Gold `EDUCATION` · 💠 Cyan `PHYSICS` · 🟦 Indigo `TECHNOLOGY` · 🩷 Rose `AI_AUTOMATION_SYSTEMS` · 🟫 Tan `SYSTEMS` · 🟩 Teal `REVENUE_LAB` |
 | 🩷 Magenta | `04-SCHOOL` · 🌲 Dark green `05-BUSINESS` · ⚪ White `NOW.md` |
 

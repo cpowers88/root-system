@@ -6,7 +6,7 @@ tags: [governance]
 
 # vault_map.md — Powers System Map (.ROOT)
 ### Navigation file. Two levels deep ON PURPOSE — see Map Rule below.
-### Last updated: July 29, 2026 (02-LIBRARY casing reconciled to live tree — see below)
+### Last updated: August 16, 2026 (`04-SCHOOL` moved out of `02-LIBRARY` to root, matching the Aug 12 promotion this map missed; scripts count corrected 7 → 22. Prior: July 29, 2026, 02-LIBRARY casing reconciled — see below)
 ### System: local C: workspace (truth) + Obsidian (capture/graph) + GitHub (code). G: is cloud backup only. Everything lives in .ROOT.
 
 ---
@@ -62,8 +62,9 @@ recovery work.
 │   ├── CASTLE\            ← command center: OPERATIONS.md + wiki\ (phases, skills,
 │   │                         proof-projects, decision-rules, maps); owns .ROOT\NOW.md
 │   ├── scripts\           ← maintenance scripts — canonical inventory lives in
-│   │                         WHERE_IT_GOES.md (7 as of July 15, 2026, incl.
-│   │                         root_health.py and metadata_migration_plan.py)
+│   │                         WHERE_IT_GOES.md (22 files + 2 subfolders as of
+│   │                         Aug 16, 2026; the gates are root_health.py,
+│   │                         validate_boot_chain.py, verify_controls.py)
 │   └── Session_Logs\      ← README + DAILYs/templates + active reports;
 │                             Report Archive\ = completed standalone reports;
 │                             System Update Log\ = monthly ledger + dated evidence packets;
@@ -79,9 +80,7 @@ recovery work.
 │                             its own OPERATIONS.md is the rule set.
 │                             Weekly plans live in CASTLE, not here.
 │
-├── 02-LIBRARY\  ← reusable knowledge, projects, and school file home
-│   ├── 04-SCHOOL\         ← course files: 01-CSE-Python, 02-Physics I, 03-TCOM,
-│   │                         04-ECON, 05-ENGR, 99-EDG, OneNote, FallKSU.xlsx
+├── 02-LIBRARY\  ← reusable knowledge and projects. NOT school — see 04-SCHOOL below
 │   ├── .PROJECTS\         ← build/project docs (plain NAME; code lives on GitHub)
 │   ├── .raw ARCHIVE\      ← closed legacy source holding; add nothing new
 │   └── ref-math … ref-misc  ← reference domains (renamed July 15, 2026 to
@@ -99,6 +98,14 @@ recovery work.
 │   │                         spine: 02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md
 │   ├── AI_AUTOMATION_SYSTEMS\ ← AI/agent research + .ROOT self-evolution proposals
 │   └── REVENUE_LAB\       ← digital revenue-lane evidence, scoring, and bounded tests
+│
+├── 04-SCHOOL\  ← what Chris is graded on. Promoted out of 02-LIBRARY 2026-08-12 (`3f78fa4`)
+│   ├── 01-CSE-Python\ · 02-Physics I\ · 03-TCOM\ · 04-ECON\ · 05-ENGR\ · 99-EDG\ (deferred)
+│   ├── [course]\work\     ← drafts, problem sets, lab reports — anything graded
+│   ├── SEMESTER_MAP.md · SYLLABUS_STATUS.md · fall_KSU_schedule.md
+│   └── OneNote\ · FallKSU.xlsx
+│                           Boundary vs 03-WIKIS: KSU gave it to me → here;
+│                           we made it → the hub (WHERE_IT_GOES.md § tiebreaker)
 │
 ├── 05-BUSINESS\  ← reusable and sanitized money-system assets; no active client-private workspace
 │   ├── 01-Audit Templates\ · 02-Field Notes\ · 03-Case Studies\
