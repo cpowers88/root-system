@@ -16,7 +16,7 @@ tags: [governance]
 > `Session_Logs\System Update Log\2026-08-12_ROOT_UPDATE\UPDATE_PLAN.md`, **not worked** —
 > unless 🔴 HIGH. Binds every surface including Codex.
 
-### Last updated: August 13, 2026 — flags #99 and #94 closed; this file split into operational register + forensic detail (T2).
+### Last updated: August 16, 2026 — flags #102 (🔴 HIGH, Drive vs `.git`), #100 and #101 opened; prohibition 1 extended.
 
 ---
 
@@ -30,6 +30,11 @@ tags: [governance]
    what is missing, so a hash-based cleanup destroys the evidence rather than tidying it.
    Two checks are required for any future pass — hashing and name-comparison each missed
    part of the loss alone. *(flag #97)*
+
+   **Extended 2026-08-16 (flag #102):** `(1)`-suffixed files exist in `raw\`, `99-ARCHIVE\`
+   and `77-INBOX\` dating to June–August. **They are not Drive conflict debris and must not
+   be swept.** Only the eight inside `.git\`, stamped Aug 16, are. A bulk `*(1)*` cleanup
+   would destroy `raw\` evidence — this is flag #97's exact failure in a new costume.
 
 2. **The bulk-work gate covers `Bash`, NOT `PowerShell`.** Its matcher is `"Bash"` only, so
    PowerShell tool calls are entirely ungated — and the August 10 incident that created this
@@ -66,11 +71,15 @@ same session to `00-BRAIN\Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md`.
 
 ## OPEN FLAGS — index
 
-**No HIGH flags open.** Full forensics for every row: **`00-BRAIN\SYSTEM_FLAGS_DETAIL.md`**
-(not loaded at session start — open it when *working* a flag).
+**🔴 ONE HIGH FLAG OPEN — #102.** Full forensics for every row:
+**`00-BRAIN\SYSTEM_FLAGS_DETAIL.md`** (not loaded at session start — open it when
+*working* a flag).
 
 | # | Subject | Pri | Owner | Next action / check moment |
 |---|---|---|---|---|
+| **102** | **Google Drive writes conflict copies into `.git\`.** 8 files, stamped at the exact moment of each git write (11:35:37, 12:16:53, 12:29:59 on Aug 16). `refs\heads\main (1)` and `refs\remotes\origin\main (1)` are null-SHA refs with invalid names — **`git fetch` fails against them.** `git fsck` shows bad ref names only, **zero object corruption**; local and GitHub both at `08adc9a`, so nothing is lost. **Recurs on every git write while Drive syncs `.git\`** | 🔴 | **Chris** (AI cannot delete) | **This session.** Delete the 8 `(1)` files under `.git\`, then `git fetch origin` to confirm. Then decide: Drive off `.ROOT`, or accept recurring cleanup |
+| **100** | **A stale copy silently overwrote two authoritative files** and was committed (`1c7bebc`): `UPDATE_PLAN.md` 1,081→252 lines, `fall_2026_capacity_decision.md` reverted past its own first commit. **Two candidate vectors, neither excluded:** an editor buffer held open across days, or Drive pushing down an older version — Drive is proven to write into the live vault (#102), and `(1)` copies dated **Aug 13** appeared in the tree only after the Aug 16 link. **Nothing detects this**: `root_health.py` reads disk and cannot know a file predates its own history; the frontmatter audit passed over the `register:` violation the same save introduced. Recovered from `1c7bebc~1` | 🟠 | Chris (procedural) → Claude Code (control) | **Now:** `git diff` before committing a file you did not edit this session. **After Aug 24:** design a pre-commit check for a file shrinking sharply or reverting past its last commit. Monthly review |
+| **101** | **The bulk-work gate denies read-only work.** Five blocks in one session (2026-08-16): `git show \| grep`, `find -exec ls`, a `for` loop running `wc`, `xargs printf`, and **a `git commit` whose only offence was the word "robocopy" inside the commit message prose.** It matches shell *shape and text*, not write intent; on Windows the offered remedy is a WSL re-launch of a command that only reads. **Risk is erosion, not breakage** — it trains sessions toward the `ALLOWED_SCRIPTS` hatch, which `AGENT.md` File Safety 12 names as not-a-control. Related to #96 (same gate) | 🟢 | **Chris** (`.claude\` is tool config, needs his approval) | Exempt an explicit read-only verb set in `.claude\hooks\require_safe_shell.py`; do **not** widen `ALLOWED_SCRIPTS` instead. At any `.claude\` change |
 | **97** | `raw\` capture loss — **prohibition 1 above**. Reconciliation done, nothing deleted; recovery list on file | 🟠 | Chris | Re-clip 5 lost sources; **fix or retire the clipper before pointing it at anything else**. Monthly review |
 | **96** | Spawned child can write `88-JOURNAL` + every `raw\` — **prohibition 2 above**. Accepted-with-controls; not fixable here | 🟠 | re-measure `verify_controls.py` | At any `.claude\` change **and** monthly. Do not read Windows `NOT MEASURABLE` as safety |
 | **57** | PHYS 2211 **§54** and ENGR 1000 BWD syllabi still unpopulated. Neighbour sections 51 + 55 on file are reference-only and do **not** substitute | 🟠 | Chris, `04-SCHOOL\SYLLABUS_STATUS.md` | **Aug 17 — escalate: email the instructors directly** |
