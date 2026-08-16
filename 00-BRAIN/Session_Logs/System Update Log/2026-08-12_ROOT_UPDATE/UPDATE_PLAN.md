@@ -1251,3 +1251,38 @@ cannot delete it — `deny` in `.claude\settings.json`.
 - If Chris re-orders the phases, record that he did and do not silently re-order back.
 - When the update completes, set `status: complete` and write the closing `SESSION_INDEX.md`
   verdict in this same folder.
+
+---
+
+## Findings filed 2026-08-16 (night) — scripts layer review
+
+Chris supplied a Codex audit of `00-BRAIN\scripts\` and asked for an extensive review.
+Every Codex claim was re-measured against the live tree; three were wrong or stale and two
+were under-reported. Full reconciliation:
+**`Session_Logs\claude_report_2026-08-16_scripts_layer_review.md`**.
+
+**Executed the same session on Chris's instruction ("execute all we can now without
+expanding the scope") — corrections to things already broken, not new work:**
+
+| | Action | Evidence |
+|---|---|---|
+| S1 | `path_reference_audit.py` — added `raw` + `.raw ARCHIVE` to `SKIP_DIRS` | Runs; fixture test still PASS |
+| S2 | `folder_icons.ps1` — `-DryRun` now suppresses the audit write | Dry run leaves the Jul 17 CSV untouched |
+| S3 | `folder_icons.ps1` — removed a duplicate hash key that made the file unparseable | Parse CLEAN; **had not run since 2026-07-24** |
+| S4 | Archived both completed tag converters + README; repointed `TAG_REGISTRY.md` | `git mv`, history preserved |
+| S5 | `vault_map.md` script count 22 → 19 | Live count 19 |
+
+Both gates PASS exit 0 after all five.
+
+| # | Finding | Pri |
+|---|---|---|
+| **S6** | **`folder_icons.ps1 -Mode Audit` returns zero inventory rows.** With the parse error fixed the script runs, but `Get-FolderInventory` yields nothing, so the audit summarises an empty set. `$VaultRoot` resolves correctly, and the Jul 17 CSV on disk is 103 KB — so this worked once and regressed. **Deliberately not chased: that is the scope expansion Chris excluded.** Diagnose before anyone trusts an Audit result | 🟠 |
+| **S7** | **The path-audit cluster is an unintegrated subsystem — 4 of 19 files.** `path_reference_audit.py` + baseline + schema + test are called by nothing: not in `root_health.py` (which runs exactly `wiki_lint`, `frontmatter_audit`, `validate_boot_chain`, `sync_shared_skills --check`), and `test_path_reference_audit.py` has **zero references vault-wide**. All 11 mentions are session logs or the 2026-07-24 architecture update that produced it. It reports **621 unbaselined findings**. Decide: wire in, move to `maintenance\`, or archive. **Recommendation: `maintenance\`** | 🟠 |
+| **S8** | **A shared exclusion set already exists and is 3/4 adopted.** `frontmatter_audit.EXCLUDED` is imported by `metadata_migration_plan`, `convert_legacy_tag_families` and `convert_domain_stack_tags`. Codex's proposed shared-scanning library (priority 36) is therefore a **refactor for value, not the safety fix** — the safety gap cost one line (S1). Do not price the library as if the gap depended on it. **Note:** `EXCLUDED` cannot be adopted wholesale by the path auditor — it contains `99-ARCHIVE` (that tool has its own `--include-archive` flag), `77-INBOX`, `SKILLS`, `.claude`, `.agents`, which it is meant to scan | 🟢 |
+| **S9** | **`_validation_yaml\` is an orphan** — contains only `__pycache__\yaml.cpython-314.pyc`, a compiled cache whose source `.py` no longer exists (Jul 15). Untracked in git. Codex's inventory omitted both subfolders entirely | 🟢 |
+| **S10** | **Codex proposes 7 new scripts.** Several are good — the stale-overwrite guard addresses flag #100, the restore-verification harness addresses "job succeeded ≠ restorable". **Not started, and should not be:** the freeze binds every surface, and Codex's #1 would reverse `NOW.md` risk 0's ruling (*"worth designing after the semester starts, not before"*) without knowing it exists. **Chris's call, not the report's.** Recommendation: hold until after Aug 24 | — |
+| **S11** | **`folder_icons.ps1` still carries `REF-<CAPS>` library paths** (`02-LIBRARY\REF-AI-AUTOMATION` etc.) while the live tree is lowercase `ref-<name>` — the same casing drift `vault_map.md` recorded fixing on Jul 29. Observed while fixing S3; **not touched**, since case-insensitivity makes it cosmetic on Windows | 🟢 |
+
+**Method note worth keeping:** the reference-tracing step was **blocked by the bulk-work
+gate** — a read-only loop counting mentions per script. Flag #101 firing during a review of
+the layer it governs. Sixth recorded instance.

@@ -20,7 +20,15 @@ from urllib.parse import unquote
 WIKILINK_RE = re.compile(r"!?(\[\[(?P<target>[^\]|]+)(?:\|[^\]]+)?\]\])")
 MARKDOWN_LINK_RE = re.compile(r"(?<!!)(?P<full>\[[^\]]*\]\((?P<target>[^)]+)\))")
 HEADING_RE = re.compile(r"^#{1,6}\s+(.+?)\s*#*\s*$")
+# `raw` and `.raw ARCHIVE` added 2026-08-16. This tool writes nothing, so it was
+# never a raw-immutability hazard — but it was reading immutable evidence content
+# into its report, and it was the only script in this folder not excluding raw.
+# Its siblings use frontmatter_audit.EXCLUDED; that set is deliberately NOT
+# imported wholesale here, because it also contains 99-ARCHIVE (handled below by
+# the --include-archive flag), 77-INBOX, SKILLS and .claude/.agents, which this
+# audit is supposed to scan. Importing it would silently drop that coverage.
 SKIP_DIRS = {".git", ".obsidian", ".trash", ".tmp.driveupload", "88-JOURNAL",
+             "raw", ".raw ARCHIVE",
              ".venv", "venv", "node_modules", "__pycache__"}
 ARCHIVE_DIR = "99-ARCHIVE"
 

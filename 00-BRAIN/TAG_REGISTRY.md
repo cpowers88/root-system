@@ -53,7 +53,8 @@ debt introduced by the conversion.
 Chris decided: convert to properties, for long-run consistency with the
 rest of this migration and with how properties scale (queryable directly,
 don't inflate the tag vocabulary as new values are added). Executed via
-`00-BRAIN\scripts\convert_domain_stack_tags.py` — 174 files across
+`convert_domain_stack_tags.py` (archived 2026-08-16 to
+`99-ARCHIVE\ARCHIVED_2026-08-16_completed-tag-migrations\`) — 174 files across
 TECHNOLOGY and SYSTEMS: `domain/*` dropped (174 instances — inferable from
 the `03-WIKIS/<hub>` path; a few files separately keep a legitimate
 top-level `domain:` scalar property where one already existed, untouched),
@@ -103,11 +104,20 @@ both usages.
 - `00-BRAIN\scripts\apply_safe_metadata_conversions.py` — applies exactly
   that planner's `safe_complete_conversions`, refusing to run if the live
   tree no longer matches the plan's hash.
-- `00-BRAIN\scripts\convert_legacy_tag_families.py` — the four-family
-  conversion above (`--check` / `--apply`), skips anything ambiguous rather
-  than guessing.
-- `00-BRAIN\scripts\convert_domain_stack_tags.py` — the TECHNOLOGY/SYSTEMS
+- `convert_legacy_tag_families.py` — the four-family conversion above
+  (`--check` / `--apply`), skips anything ambiguous rather than guessing.
+  **Archived 2026-08-16** — see below.
+- `convert_domain_stack_tags.py` — the TECHNOLOGY/SYSTEMS
   `domain/source-role/use-case/stack` conversion (`--check` / `--apply`).
+  **Archived 2026-08-16** — see below.
+
+> **Both converters were retired on 2026-08-16 to
+> `99-ARCHIVE\ARCHIVED_2026-08-16_completed-tag-migrations\`.** Each was run one
+> last time first and reported **0 files would be changed**, so no live file still
+> carries the shapes they convert. They are kept as the record of how the
+> migration was performed and **will not run from the archive** — both import
+> `frontmatter_audit` from their old sibling directory. If a legacy family ever
+> reappears, write a fresh converter rather than resurrecting these.
 
 ## Not Done Tonight
 

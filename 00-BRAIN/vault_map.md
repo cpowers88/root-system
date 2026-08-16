@@ -6,7 +6,7 @@ tags: [governance]
 
 # vault_map.md — Powers System Map (.ROOT)
 ### Navigation file. Two levels deep ON PURPOSE — see Map Rule below.
-### Last updated: August 16, 2026 (`04-SCHOOL` moved out of `02-LIBRARY` to root, matching the Aug 12 promotion this map missed; scripts count corrected 7 → 22. Prior: July 29, 2026, 02-LIBRARY casing reconciled — see below)
+### Last updated: August 16, 2026 evening (`04-SCHOOL` moved out of `02-LIBRARY` to root, matching the Aug 12 promotion this map missed; scripts count corrected 7 → 22 that morning, then **22 → 19** that evening — the 22 counted a hidden Windows `desktop.ini` as a script, and two completed tag converters were archived. Prior: July 29, 2026, 02-LIBRARY casing reconciled — see below)
 ### System: local C: workspace (truth) + Obsidian (capture/graph) + GitHub (code). G: is cloud backup only. Everything lives in .ROOT.
 
 ---
@@ -62,8 +62,8 @@ recovery work.
 │   ├── CASTLE\            ← command center: OPERATIONS.md + wiki\ (phases, skills,
 │   │                         proof-projects, decision-rules, maps); owns .ROOT\NOW.md
 │   ├── scripts\           ← maintenance scripts — canonical inventory lives in
-│   │                         WHERE_IT_GOES.md (22 files + 2 subfolders as of
-│   │                         Aug 16, 2026; the gates are root_health.py,
+│   │                         WHERE_IT_GOES.md (19 scripts + 2 subfolders as of
+│   │                         Aug 16, 2026 evening; the gates are root_health.py,
 │   │                         validate_boot_chain.py, verify_controls.py)
 │   └── Session_Logs\      ← README + DAILYs/templates + active reports;
 │                             Report Archive\ = completed standalone reports;
