@@ -1165,7 +1165,9 @@ is incomplete — see ruling 3 below for what was measured.
 |---|---|---|---|
 | **1** | N3 — course→hat routing table in `AGENT.md` | ✅ **APPROVED, in `AGENT.md`** | **DONE** — `## Session Start Protocol` § Course → hat routing. Carries trigger, order, proof and stop condition. Always-load 5,803 → ~5,960 (+2.7%) |
 | **2** | Phase E — output bay shape (was decision 2, hard deadline Aug 24) | ✅ **RATIFIED AS BUILT** — `work\` inside each course folder | Bays already exist in all five courses with READMEs. **Closes Phase E.** Confirm by routing one real file at the Aug 22 dress rehearsal |
-| **3** | The Drive link (dated ruling, Aug 17) | ✅ **REPLACE WITH A SCOPED LINK** — not a re-sync | **Ruled early, execution outstanding.** Needs one session before Aug 24 |
+| **3** | The Drive link (dated ruling, Aug 17) | ⚠️ **SUPERSEDED same day — see ruling 5** | first ruling was "scoped link"; Chris changed it after the D: measurements below |
+| **4** | The D: backup — Chris proposed removing it | ✅ **LEAVE IT RUNNING.** Review in one week | *Chris, 2026-08-16: "leave it alone I made some manual deletions we will let it run for a week and review it."* **`check_at: 2026-08-23`** — owner Chris, at the Sunday review. `S4U` deliberately NOT applied; revisit at the same review |
+| **5** | Campus↔home link | ✅ **LINK GOOGLE DRIVE DIRECTLY TO `C:\Users\chris\.ROOT`** | Supersedes ruling 3. Chris chose this with the three consequences stated and reaffirmed |
 
 **Ruling 3 — what was measured 2026-08-16, since the record was 4 days old:**
 
@@ -1179,11 +1181,53 @@ restore; **(b)** opening `.ROOT` from it on campus yields the *old* folder struc
 against everything the update just built; **(c)** private journal content and full git
 history are sitting in Google Drive.
 
-**Scope for the replacement:** exclude `88-JOURNAL\`, `.git\`, every `raw\`, `tmp\`, and
-`02-LIBRARY\.PROJECTS\` build trees. **Tested for the clobber vector and cleared:** the
-Drive copy of `fall_2026_capacity_decision.md` is the Aug 7 version (640 lines, carries
-`~52 hr/week`); the Aug 16 clobber reverted to a 444-line state older than that. **Drive
-did not cause it** — the editor-buffer diagnosis stands.
+**Tested for the clobber vector and cleared:** the Drive copy of
+`fall_2026_capacity_decision.md` is the Aug 7 version (640 lines, carries `~52 hr/week`);
+the Aug 16 clobber reverted to a 444-line state older than that. **Drive did not cause
+it** — the editor-buffer diagnosis stands.
+
+### The D: backup — measured 2026-08-16, correcting the record twice
+
+**It is not broken and it is not misconfigured.** Two-part design, both halves current:
+
+| | Path | Files | Size | Newest |
+|---|---|---|---|---|
+| Mirror | `D:\BACKUPS\.ROOT` | 5,655 | 3.55 GB | Aug 16 12:31 |
+| Snapshots | `D:\BACKUPS\snapshots\` | 20,673 | 14.21 GB | `2026-08-16_1230` |
+
+Task `ROOT Daily Backup to D`: **State Ready, LastRun Aug 16 12:30, LastTaskResult 0**,
+NextRun Aug 17 12:30. Robocopy log: 478 files, **0 failed**.
+
+- **Correction 1:** the belief that it writes only to `snapshots\` is wrong — `.ROOT\` is
+  the mirror, `snapshots\` is point-in-time. Both by design.
+- **Correction 2:** `D:\BACKUPS\.ROOT` is **not** linked to Google Drive. `G:\Other computers`
+  contains only "USB and External Devices"; no `.ROOT` node exists there.
+- **Residual now measured, not predicted:** snapshots exist for 08-12, 08-13, 08-14, 08-16
+  — **no 08-15.** The `Interactive` LogonType skipped the day Chris was not signed in at
+  12:30. Left in place by ruling 4.
+- **Why it must not be deleted casually:** the mirror carries `88-JOURNAL`, `.git`,
+  `99-ARCHIVE`, all 9 `raw\` folders and **351 PDFs** — none of which are in GitHub,
+  because `.gitignore` excludes exactly those. For that material the D: snapshots are the
+  **only** recovery path.
+
+### Ruling 5 — consequences stated and accepted
+
+Chris chose the direct `C:\Users\chris\.ROOT` link after these three were put to him:
+
+1. **`88-JOURNAL\` goes to Google's servers.** Drive for desktop has no per-subfolder
+   exclusion. *(`AGENT.md` File Safety 8 governs AI access, not Chris's own storage —
+   there is no rule conflict here.)*
+2. **A live `.git\` will be synced**, which risks pack/index corruption on concurrent
+   writes. **Mitigation on record: GitHub is the authoritative git copy** — a corrupted
+   local `.git` is recoverable by re-clone, so this is an annoyance, not a loss event.
+3. **A sync is a mirror, not a backup** — it propagates a mistake in seconds. The D:
+   snapshots remain the point-in-time layer, which is a further reason ruling 4 keeps
+   them running.
+
+**Blocking cleanup, Chris only:** the stale `G:\My Drive\desktop_folder_maybe\.ROOT`
+(16,091 files, 3.77 GB, Aug 9, **pre-restructure tree**) must be removed *before* the new
+link is added, or Drive will hold two `.ROOT` trees with different folder structures. AI
+cannot delete it — `deny` in `.claude\settings.json`.
 
 ## Lessons that must not be relearned
 

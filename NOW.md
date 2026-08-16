@@ -237,17 +237,24 @@ Those are the hull, not the steering.
    filenames and need Chris to re-clip them. **Do not dedupe on hash** — the filenames are
    the only record of what is missing. The clipper defect that caused the loss is unfixed;
    fix or retire it before pointing it at anything else.
-2. **Backup: built, guarded, scheduled, verified — but never restored from.** That is T6
-   today. **Residual:** the task's `LogonType` is `Interactive`, so it dies with Chris's
-   session; `S4U` needs an elevated run.
-3. **The Drive link does not work.** The real copy is
-   `G:\My Drive\desktop_folder_maybe\.ROOT` — 16,091 files, 3.86 GB, last written
-   **Aug 9 08:33**. It predates the `04-SCHOOL` restructure, still holds the junk
-   quarantined locally on Aug 12, and includes `88-JOURNAL\` and `.git\`. Drive File Stream
-   is running but nothing has synced since Aug 9 — a dead copy, not a live link. Chris ruled
-   that My Drive is the intended school↔home link. **Recommendation: replace it with a
-   scoped link rather than re-syncing this one** — rule by Aug 17, execute before Aug 24
-   (`claude_report_2026-08-12_friday_readiness.md` §5).
+2. **Backup: working, and it is the only copy of the material GitHub excludes.**
+   *(Corrected 2026-08-16 — the prior entry and the "writes to snapshots not `.ROOT`"
+   belief were both wrong.)* Two-part design, both halves current as of **Aug 16 12:31**:
+   mirror `D:\BACKUPS\.ROOT` (5,655 files / 3.55 GB) and `D:\BACKUPS\snapshots\`
+   (4 dated, 14.21 GB). Task `LastTaskResult 0`, robocopy 478 files / 0 failed. It carries
+   `88-JOURNAL`, `.git`, `99-ARCHIVE`, 9 `raw\` folders and **351 PDFs** — none of which
+   are in GitHub. **Residual, now measured not predicted: no `2026-08-15` snapshot**, the
+   `Interactive` LogonType skipping a day Chris was not signed in.
+   **Ruled 2026-08-16: leave it alone, review Aug 23** — Chris made manual deletions and
+   wants a week of runtime first. `S4U` deliberately not applied until that review.
+3. **Drive: ruled, execution is Chris's.** ✅ **Link Drive directly to
+   `C:\Users\chris\.ROOT`** (ruling 5, supersedes the same morning's "scoped link"). Chose
+   it with three consequences stated and reaffirmed: `88-JOURNAL` goes to Google, a live
+   `.git` gets synced, and a mirror propagates a mistake rather than protecting from one.
+   **Blocking cleanup first:** the stale `G:\My Drive\desktop_folder_maybe\.ROOT`
+   (16,091 files, 3.77 GB, **Aug 9, pre-restructure tree**) must be deleted before the new
+   link is added, or Drive holds two `.ROOT` trees with different structures. **AI cannot
+   delete it.** Detail and steps: `UPDATE_PLAN.md` § Ruling 5.
 
 ## Active Lane
 
