@@ -21,9 +21,14 @@ tags: []
 
 ## Today (Sunday, evening): three repairs landed. The rehearsal still has not run.
 
-> ### ▶ Next action, when you are ready: **open a fresh session and run the rehearsal.**
-> Everything blocking it is cleared. It has carried Aug 14 → 15 → 16, and **Aug 22 is
-> the last opportunity before classes begin Aug 24.**
+> ### ▶ Next action — Monday morning, first thing: **email the instructors (flag #57).**
+> PHYS §54 (Farhan Islam, `fislam7@kennesaw.edu`) and ENGR 1000 BWD. **Check Simple
+> Syllabus first** — that is where the other four came from, and it is a different surface
+> from D2L. `SEMESTER_MAP.md` moved this from advisable to **necessary**: D2L stays closed
+> until Aug 24, so email is the only route to either syllabus before classes start.
+>
+> Then the week runs on **`weekly-plan-2026-08-17-to-2026-08-23.md`**, rewritten tonight
+> as **Week 1 done early** — the real assignment track, not a rehearsal.
 
 **What closed today, in order:**
 
@@ -32,7 +37,9 @@ tags: []
 | **Morning** | The `1c7bebc` clobber recovered — `UPDATE_PLAN.md` and `fall_2026_capacity_decision.md` restored from `1c7bebc~1`, your annotations preserved in both. Root cause: a stale editor buffer. See risk 0 |
 | **Midday** | Flag #102's four `(1)` files diagnosed as strict older subsets — **nothing was lost**; the bad git refs then cleared themselves and `fetch` returned to exit 0 |
 | **Afternoon** | The course→hat routing table added to `AGENT.md`, and `vault_map.md` + `START_HERE.md` corrected for the Aug 12 school move (`3498205`) |
-| **Evening 18:14** | **Flag #102's durable fix installed** — the gitdir relocated to `C:\Users\chris\.root-git`, outside every Drive-mirrored folder. Steps 1–3 of the procedure, verified. Step 4 needs Drive live |
+| **Evening 18:14** | **Flag #102's durable fix installed** — the gitdir relocated to `C:\Users\chris\.root-git`, outside every Drive-mirrored folder. **Step 4 later passed with Drive live; #102 downgraded 🔴 → 🟢** |
+| **Evening** | **Scripts layer** — Codex's audit reconciled and five corrections executed. `folder_icons.ps1` found **unparseable since 2026-07-24** — dead for 23 days. Report: `claude_report_2026-08-16_scripts_layer_review.md` |
+| **Night** | **🎓 PHYSICS row 2 PASSED** — first learner proof since July 30. And **Week D rewritten**: its miss-log premise did not exist, so the week was re-anchored on `SEMESTER_MAP.md`'s Week 1 track per Chris's "week 1 done early" ruling |
 
 > **The rehearsal's own precondition is now satisfied, which it was not before.**
 > The structure review found that nothing in the always-load chain named *which hat to
@@ -264,8 +271,12 @@ Those are the hull, not the steering.
 
 *(clears after being shown once — mandatory on any hub stage/gate close)*
 
-- **No hub stage or gate closed since the last brief.** Learner frontier positions are
-  held under PAUSE — PYTHON Stage 4b, PHYSICS Stage 4 — not overdue.
+- **🎓 A PHYSICS gate closed (Aug 16 night): math-readiness row 2 PASSED.** The Move-On
+  Gate met in full — faded rep, cold `a(t) = 6t` transfer (`x(t) = t³ − 4t + 2`), and
+  explain-back. **The July 30 words-before-symbols gap held.** First learner proof since
+  July 30. **No stage moved** — Stage 4 remains open at circular-motion drill 1–4; row 2
+  is a queue row, not a stage gate. Next: **row 3**. Full record: `PHYSICS\wiki\log.md`.
+- **PYTHON unchanged — Stage 4b, held.** C1 is still its resume point.
 - **CASTLE navigation debt cleared (Aug 16):** `wiki/index.md` was missing both current
   weekly plans (Aug 10–16, Aug 17–23) and mislabelled two closed plans as "active." All
   four health-gate review items traced to this. Fixed; gate re-run. Clears once shown.
@@ -367,11 +378,17 @@ before the day's primary proof") is **suspended for the runway** by Chris's dire
 because during the pause the system work *is* the primary work. It resumes on `OK TO START`.
 This is a scoped, dated suspension recorded here — not a change to `AGENT.md`, which governs.
 
-**Held resume point, for `OK TO START`:** **C1** (`53`/`NameError` plus independent
-`average(numbers)`), then **P1** (motion chain, 2D components, initial conditions). This is
-a bookmark. Do not present it as today's action and do not date-advance it. Week C
-(`CASTLE\wiki\weekly-plans\weekly-plan-2026-08-10-to-2026-08-16.md`) is suspended, not
-cancelled.
+**Held resume points — updated 2026-08-16 night.** ~~C1, then P1~~. The physics side
+**moved**: row 2 passed, so P1's "initial conditions" content is closed.
+
+- **PHYSICS → row 3** — cold rebuild of all three 1D kinematics equations from `a = const`,
+  no formula sheet. **Flag `v² = v₀² + 2aΔx`: algebraic elimination of `t`, not a third
+  integration.** Two of the three are already derived by row 2's anchor.
+- **PYTHON → C1**, unchanged — `53`/`NameError` plus an independent `average(numbers)`.
+
+**Enter a queue at its first unrun row, never at today's date** — that rule is what made
+row 2 the right entry seventeen days late, and it is now in the weekly plan's Boundaries.
+Week C (`weekly-plans\weekly-plan-2026-08-10-to-2026-08-16.md`) is suspended, not cancelled.
 
 **Runway work, Chris-directed:** (1) justify the live Markdown estate; (2) get an
 operational, optimized `.ROOT` ready for testing over the next two days; (3) make the
@@ -443,6 +460,14 @@ readiness evidence is assembled.
 - Bigger-picture direction: `01-NORTH_STAR\Goals & Milestones\direction_and_system_review.md`
 
 ---
+*Refreshed 2026-08-16 (Sunday, night) at session close: recorded the PHYSICS row 2 pass in
+Frontier Changes (a gate closed — CASTLE Session Close rule 4), **replaced the held resume
+point** because the physics half advanced (C1+P1 → row 3 + C1), moved the next action to
+Monday's instructor emails, and pointed the week at the rewritten
+`weekly-plan-2026-08-17-to-2026-08-23.md`. **The rehearsal line was deliberately not marked
+done** — one graded element passed inside a non-fresh session; CSE and TCOM are untouched
+and the gate stays open.*
+
 *Refreshed 2026-08-16 (Sunday, evening) after the gitdir relocation: rewrote § Today from
 "recover the clobbered files" to the four repairs that actually landed, with the rehearsal
 named as the single next action and its precondition (the hat routing table) noted as now
