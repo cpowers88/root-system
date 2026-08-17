@@ -185,5 +185,23 @@ whether AI help is permitted for that specific task first.
 Standard report chain. When learning moved: state what was learned or built, run a short term
 check if it fits, and record exactly where to resume.
 
+**Two records, not one — they are different evidence and must not be merged.**
+
+1. **Learner truth** → the hub's `log.md` and `current-position.md`. What Chris demonstrated.
+2. **Hat behaviour** → `03-WIKIS\EDUCATION\wiki\methods\hat-performance-log.md`. How *this
+   session* performed against the six checks: correct hat + live owner · fast orientation ·
+   Chris retains control · real retrieval not recognition · boundaries respected · correct
+   close and resume point. **Added 2026-08-17 on Chris's direction** — one session is an
+   anecdote; the accumulated rows are what show which hat rule works.
+
+   **Score check 1 `n/v` if this session read the routing chain before the subject came up** —
+   it did not discover the route, it remembered it. A contaminated pass is worse than no data.
+   **Log the AI's own defects there too**, not only Chris's misses.
+
+**A pass is not proven until its durability check clears.** Where the hub sets a spaced
+recheck (PHYSICS: 48–72 h), record the rep as `passed (immediate)` with the check **due date**,
+and only `proven (durable)` after a cold rebuild with no scaffold. The obligation lives in the
+hub's `current-position.md`, not in prose — an untracked recheck is one nobody runs.
+
 ---
 *Counterpart: HAT_OPERATOR.md | Playbooks: HAT_EDUCATOR_PLAYBOOKS.md | Universal OS: AGENT.md*

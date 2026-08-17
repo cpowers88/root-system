@@ -1530,3 +1530,91 @@ directly.
 ### Sources and files touched
 - `wiki/math-readiness-path.md` (row 2 marked run and passed)
 - This log.
+
+---
+
+## 2026-08-17 (Monday, midday) — math-readiness **row 3 PASSED**; reasonableness check is the new open habit
+
+**Session:** Claude Code, full chain loaded (`HAT_EDUCATOR` → `HAT_PHYSICS` →
+`HAT_PHYSICS_MATH` → hub `OPERATIONS.md` → `current-position.md` →
+`math-readiness-path.md`). First rep after `.ROOT` resumed on `OK TO START`.
+
+**Honest timing caveat, stated before the rep and repeated here:** row 2 ran the
+previous night, so this sits ~15 hours later — **inside** the 48–72 h window, not
+after it. Per the hub teaching contract this is a same-window rep and **is not
+banked as durability evidence.** The durability check that counts for advancement
+is still owed, Tue–Wed.
+
+### Row 3 — cold rebuild, no formula sheet: PASS
+
+Chris produced both integrations cold and unprompted:
+
+- `v(t) = at + C₁`, with **`C₁` = initial velocity, found by setting t = 0**
+- `x(t) = ½at² + v₀t + C₂`, with **`C₂` = "the starting position in measured frame"**
+
+**"In measured frame" is better than the standard answer** and was not prompted.
+`x₀` is a property of where the origin was placed, not of the object.
+
+**Derive-vs-remember probe, and it came back clean.** He wrote `v₀t` where the raw
+second integration gives `C₁t`. Asked whether that was a deliberate substitution or
+memory of the printed formula, he described the correct procedure: resolve `C₁` at
+t = 0, substitute it in, *then* integrate again. **That is derivation, and it is the
+version that survives a problem where the object does not start at t = 0.** The July
+30 words-before-symbols gap held for the third consecutive session, unprompted.
+
+### The `v²` equation — flagged and shown once, per the failure-mode table
+
+Delivered structurally before algebraically: `a = const` gives a chain with exactly
+**two levels** (`a → v → x`), so there are exactly two integrations available and
+**no third level to integrate to.** A third kinematic equation therefore cannot be
+calculus. Reinforced by notation — the equation is written in **`Δx`, not `dx`** —
+a finite change between two endpoints is the language of algebra, not accumulation.
+Then the elimination of `t` shown term by term, with `2v₀v` cancelling.
+
+**Chris supplied the same insight independently on the transfer problem** — asked why
+he chose that equation, he answered *"there is no time involved in the question, it is
+looking at the full sequence."* Endpoints, not process. Equation-choice reasoning is
+sound.
+
+### Transfer problem — cold: PASS
+
+Car at 28 m/s, `a = −6.0 m/s²`, find stopping distance. Correct equation chosen with
+correct stated reason; **found the hidden given** (`v = 0` supplied by the word
+"stopping"); arithmetic correct at 65.3 m.
+
+### Misses — logged
+
+1. **Significant figures.** Reported `65.333 m` from two-sig-fig inputs. Corrected to
+   **65 m**. Physics correct, reporting wrong — and WebAssign marks this wrong.
+   **Error class: execution/reporting.** First occurrence.
+2. **🔴 Reasonableness check skipped — third consecutive drop, now the standing gap.**
+   Asked three times across the session; the eventual answer was *"sounds about right
+   to me,"* which is assent, not verification. Root cause judged to be **missing form,
+   not carelessness** — he had not been shown what the output looks like. Taught once,
+   concretely: **a reasonableness check is arriving at the same number by a different
+   road.** Demonstrated with `t = 4.7 s` → average velocity `14 m/s` → `Δx = 65.8 m`,
+   matching the `v²` route. **Error class: execution/verification. Watch on row 4; if
+   it drops a fourth time the cause is not form.**
+3. **`v(t)` labelling — row 2's watch item did not recur in the same way** but the
+   rebuild was still written as bare expressions (`at + C₁`) rather than
+   `v(t) = at + C₁`. Named live, with the functional reason: the `v²` elimination
+   substitutes *between two different functions*, and unlabelled lines lose track of
+   which is which. **Third occurrence overall; corrected once, now watch.**
+
+### Stage / frontier movement
+
+- **None.** Stage 4 remains active and open at circular-motion drill 1–4. Row 3 is a
+  math-readiness queue row, not a stage gate. `current-position.md` unchanged and
+  correctly so.
+
+### Exact next independent rep
+
+- **Row 4** — `calculus-links/kinematics-derivatives` (Stage 2).
+- **Owed separately:** the true 48–72 h durability check on rows 2–3, Tue–Wed. Cold
+  reconstruction of the chain or a transfer problem, no scaffold. **Row 3's pass does
+  not substitute for it.**
+
+### Sources and files touched
+
+- `wiki/math-readiness-path.md` (row 3 marked run and passed)
+- This log.

@@ -34,12 +34,18 @@ everything else slides.
    *meet*, and 50% of the grade is attendance quizzes — ask how that is assessed in a
    web section. Detail: `04-SCHOOL\SYLLABUS_STATUS.md` § ENGR 1000.
 2. **CSE Week 1 — Module 0** (2 blocks), from the transcripts on disk. Practice only.
-3. **PHYS row 3** (2 blocks) — cold rebuild of all three 1D kinematics equations from
-   `a = const`. Flag `v² = v₀² + 2aΔx` as algebraic elimination of `t`, not a third
-   integration.
+3. ✅ **PHYS row 3 — PASSED 2026-08-17.** Both integrations rebuilt cold with constants
+   named physically; the `v²` elimination shown once. **No stage moved** — Stage 4 is still
+   open at circular-motion drills 1–4.
 
-**Held resume points:** PHYSICS → **row 3** · PYTHON → **C1** (`53`/`NameError` plus an
+**Held resume points:** PHYSICS → **row 4** (`calculus-links/kinematics-derivatives`),
+**plus an owed 48–72 h durability check on rows 2–3, Tue–Wed** — row 3 ran inside the
+window and does not substitute for it · PYTHON → **C1** (`53`/`NameError` plus an
 independent `average(numbers)`). Enter a queue at its first unrun row, never at today's date.
+
+**🔴 Open learner habit:** the **reasonableness check** has been dropped three sessions
+running. Taught once on Aug 17 as *"arriving at the same number by a different road."*
+Watch on row 4; a fourth drop means the cause is not missing form.
 
 ## Frontier Changes — clears once shown
 

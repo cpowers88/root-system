@@ -58,6 +58,10 @@ the real Fall 2026 BWD material lands.
 - [[methods/memory-techniques|Memory Techniques]] — cue-construction toolbox distilled
   2026-08-13 from four vetted sources, matched to the measured aptitude profile; consumed by
   `HAT_EDUCATOR.md` Term Anchoring step 2
+- [[methods/hat-performance-log|Hat Performance Log]] — append-only evidence on how the
+  teaching hats behave in live sessions, graded on the six-point rubric. **AI-behaviour
+  evidence, not learner truth** — learner progress stays in each hub's `current-position.md`.
+  Created 2026-08-17 on Chris's direction; written by `HAT_EDUCATOR.md` § Session close
 
 ## Education-system reference
 

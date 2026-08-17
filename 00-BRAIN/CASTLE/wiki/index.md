@@ -91,14 +91,18 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 Listed newest first. CASTLE owns weekly sequencing; Session Logs own the
 retrospective reviews.
 
-- **[[weekly-plans/weekly-plan-2026-08-17-to-2026-08-23]] — Week D, opens
-  Monday Aug 17: the last full pre-semester week.** Miss-log repair, P8 full-map
-  retrieval, C8 timed independent lab, and the **Aug 22 dress rehearsal** before
-  classes start Aug 24. Reframed by Chris's Aug 14 ruling into *week 1 done
-  early* — reading, drafting and drills, not submissions
-- **[[weekly-plans/weekly-plan-2026-08-10-to-2026-08-16]] — Week C, closes
-  today (Sunday Aug 16).** Suspended, not cancelled, under the `.ROOT` pause;
-  the held resume point is C1 then P1
+- **[[weekly-plans/weekly-plan-2026-08-17-to-2026-08-23]] — Week D, ACTIVE from
+  Monday Aug 17: the last full pre-semester week.** **Rewritten 2026-08-16** —
+  the miss-log premise was removed because no miss log ever existed. Now runs
+  Fall **Week 1's real assignment track five days early** (TCOM and CSE on their
+  own Week 1 days, PHYS on its own queue since its Week 1 is unknown, ENGR
+  zeroed), with the teaching-layer test folded into real coursework rather than
+  run as ceremony, and the **Aug 22 dress rehearsal** before classes start
+  Aug 24. Reading, drafting and drills — not submissions
+- **[[weekly-plans/weekly-plan-2026-08-10-to-2026-08-16]] — Week C, closed
+  Sunday Aug 16.** Suspended rather than completed, under the `.ROOT` pause
+  (lifted 2026-08-17); its held resume points carried into Week D as PHYS row 3
+  and PYTHON C1
 - [[weekly-plans/weekly-plan-2026-08-03-to-2026-08-09]] — **closed.**
   18-core-block risk-and-transfer pilot: 8 Physics/calculus, 8 Python/CSE,
   1 TCOM, 1 ECON, with a Wednesday 10/8/7 reforecast; retrospective evidence in

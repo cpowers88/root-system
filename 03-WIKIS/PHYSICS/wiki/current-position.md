@@ -56,6 +56,33 @@ are sufficient to finish the semester pathway. The syllabus AI policy is clear,
 but schedule, Day One Access, and exam-drop details contain internal errors and
 must be verified in D2L; see [[source-map#Syllabus Data-Quality Gate]].
 
+## ⏳ Open Durability Checks — a pass is not proven until this clears
+
+**Added 2026-08-17 on Chris's direction, closing a real mechanism gap.** This hub's
+`OPERATIONS.md` teaching contract has always required a **48–72 h durability check** —
+*"this is the check that actually counts for advancement; an immediate pass alone does not."*
+**Nothing tracked the outstanding obligation.** A rep was logged as passed and the pending
+cold recheck existed only in the prose of a contract nobody re-read, so row 2's check went
+unscheduled and was noticed a day late, by accident.
+
+**A rep therefore has two states, and the log must say which:**
+`passed (immediate)` → the same-session cold rep landed · `proven (durable)` → it survived a
+cold rebuild 48–72 h later, with no scaffold.
+
+| Rep | Passed (immediate) | Durability check due | State |
+|---|---|---|---|
+| Math row 2 — integral mechanics, `+C`, boundary conditions | 2026-08-16 (night) | **Tue Aug 18 – Wed Aug 19** | ⏳ owed |
+| Math row 3 — cold rebuild of the three 1D kinematics equations | 2026-08-17 (midday) | **Wed Aug 19 – Thu Aug 20** | ⏳ owed |
+
+**Rows 2 and 3 can be cleared by one combined rep** — a cold reconstruction of the whole
+chain from `a = const` plus one transfer problem covers both. Do not run it before Aug 18;
+inside the window it measures short-term memory, which is the error row 3 itself was careful
+not to make.
+
+**Clearing rule:** on a pass, move the row out of this table and mark the rep `proven
+(durable)` in `log.md`. On a miss, log the error class and the rep returns to `owed` with a
+new date — a failed durability check does not erase the immediate pass, it reopens it.
+
 ## Active Unit
 
 **2026-07-27 — first handwritten Stage 4 rep complete.** Chris hand-drew a
