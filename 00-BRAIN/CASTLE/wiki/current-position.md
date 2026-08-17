@@ -31,7 +31,7 @@ tags: [baseline]
 
 | Capability or track | CASTLE state | Proof frontier | Owner truth |
 |---|---|---|---|
-| Physics | building — Stage 4 open at circular-motion drills 1–4 | Math-readiness **row 3**: cold rebuild of all three 1D kinematics equations from `a = const`. Row 2 passed 2026-08-16 | PHYSICS wiki current-position + math-readiness-path |
+| Physics | building — Stage 4 open at circular-motion drills 1–4 | Math-readiness **row 4** (`calculus-links/kinematics-derivatives`). Rows 2 and 3 both **passed (immediate)** 2026-08-16/17; their **48–72 h durability checks are owed Aug 18–20** and neither is `proven (durable)` yet | PHYSICS wiki current-position + math-readiness-path |
 | Python | building — **Stage 4b** (Stage 4 closed 2026-07-29) | **C1** — `53`/`NameError` plus an independent `average(numbers)`; then import one standard-library module and wrap one library call in his own function | PYTHON wiki current-position |
 | SQL/SQLite | building — July weak link; guided two-table fixture verified July 21 | Independently query or extend the Bootcamp fixture; use verified tracker data when D2L populates | [[sql]] + [[ksu-academic-tracker]] + TECHNOLOGY owner |
 | Data visualization | building — first rep verified | A justified visual another person can trace and use for a decision | Technology Strategy + live proof vehicle |

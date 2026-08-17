@@ -155,7 +155,7 @@ notes.
 ```text
 CSE 1321 / Python → hats/HAT_PYTHON.md       + 03-WIKIS\PYTHON
 PHYS 2211         → hats/HAT_PHYSICS.md      + 03-WIKIS\PHYSICS
-  └ math mechanics → hats/HAT_PHYSICS_MATH.md  (calculus/trig notation, chains, worked→faded→cold)
+                     (calculus mechanics merged in 2026-08-17 — there is no separate math hat)
 TCOM 2010         → hats/HAT_TCOM.md         + 03-WIKIS\EDUCATION
 ECON 1000         → hats/HAT_ECON.md         + 03-WIKIS\EDUCATION
 ENGR 1000         → hats/HAT_ENGR1000.md     + 03-WIKIS\EDUCATION

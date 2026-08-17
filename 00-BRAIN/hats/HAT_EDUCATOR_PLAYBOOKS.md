@@ -62,6 +62,20 @@ course milestone in EDUCATION).
    action frontier (Metadata Standard — WHERE_IT_GOES.md). The
    `[timeline:now]` filter must show what Chris should touch now. These
    properties move independently; topic tags and graph colors do not.
-3. Append the wiki's `log.md`; note the advance in the learning
-   handoff — castle current-position picks it up at the next monthly
+3. Append the wiki's `log.md`; note the advance in the learning handoff
+4. **Propagate immediately — same session, not "at the next monthly."**
+   `CASTLE\OPERATIONS.md` § Session Close 4 makes this an **acceptance check**:
+   the close is incomplete until CASTLE's `current-position.md` states the new
+   frontier, `NOW.md`'s Frontier Changes exposes it, and **the prior next action
+   is no longer presented as live anywhere Chris would read it** — including the
+   active weekly plan and any hat that named the old row.
+
+   *Corrected 2026-08-17. This step previously read "castle current-position picks
+   it up at the next monthly," which contradicted CASTLE's acceptance check and
+   was the rule authorizing the deferral. Measured cost on the day it was found:
+   three stale states survived a passing health gate — CASTLE current-position,
+   the live weekly plan, and both physics hats — all created in the same session
+   that advanced the frontier. Detection worked; propagation was licensed to fail.*
+
 Rule: the timeline filter is the study plan — a stale frontier misleads Chris.
+**A rep is not closed until every place that named the old frontier stops naming it.**

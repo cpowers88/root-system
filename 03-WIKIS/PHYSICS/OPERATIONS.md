@@ -18,7 +18,7 @@ control_question: What physical situation is present, what model applies, and wh
 
 pipeline:
   source: physical situation (named fast, assumed known — see Teaching contract)
-  sequence: calculus relationship -> formula derivation -> physical mapping -> problem type -> example -> drill
+  sequence: physical situation and model (one line) -> calculus relationship -> formula derivation -> connect back to the physics -> apply -> drill
   gate: independent mastery check, immediate + 48-72h durability
 
 This hub is not a chapter-summary collection. Packet generation never advances
@@ -312,4 +312,12 @@ completion_condition: A fresh session can recover authority, active stage, evide
 
 Aggressive goal. Controlled path.
 
-`situation -> model -> diagram -> equation -> units -> math -> problem type -> independent practice`
+`physical situation and model -> calculus relationship -> derive the formula -> connect it back to the physics -> apply`
+
+**Chris's pathway, ruled 2026-08-17, and canonical.** It replaces the previous line
+(`situation -> model -> diagram -> equation -> units -> math -> problem type -> independent
+practice`), which put **calculus last** and directly contradicted this file's own Teaching
+contract above. `HAT_PHYSICS` quoted the old line faithfully, so the conflict reached live
+sessions through the hat while originating here. The diagram, units, and problem-type steps did
+not disappear — they live inside the pathway (sketch before substituting; units on every
+number) rather than as separate ordered stages that pushed the calculus to the end.

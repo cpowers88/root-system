@@ -169,7 +169,6 @@ trigger is part of the rule (flag #94's lesson).
 | Active subject | Load, in order |
 |---|---|
 | PHYS 2211 | `HAT_PHYSICS` → `03-WIKIS\PHYSICS\OPERATIONS.md` → its `wiki\current-position.md` |
-| PHYS, calculus/trig mechanics | also `HAT_PHYSICS_MATH` |
 | CSE 1321 / 1321L | `HAT_PYTHON` → `03-WIKIS\PYTHON\OPERATIONS.md` → its `wiki\current-position.md` |
 | TCOM 2010 | `HAT_TCOM` → `03-WIKIS\EDUCATION\OPERATIONS.md` |
 | ECON 1000 | `HAT_ECON` → `03-WIKIS\EDUCATION\OPERATIONS.md` |

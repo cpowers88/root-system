@@ -49,8 +49,19 @@ BOOT_FILES = [
     ROOT / "00-BRAIN" / "CASTLE" / "CLAUDE.md",
     ROOT / "00-BRAIN" / "CASTLE" / "CODEX.md",
     ROOT / "00-BRAIN" / "CASTLE" / "OPERATIONS.md",
+# Every live hat and playbook, not just the seven subject/mode hats. The narrower
+# list was measured wrong on 2026-08-17: HAT_PHYSICS_MATH carried a stale entry-point
+# claim ("only row 1 ever ran") through a green gate all day, because nothing checked
+# it. A behaviour file the gate does not read is a behaviour file that can rot.
+# Keep this in sync with `ls 00-BRAIN/HATS/*.md` — a new hat belongs here on creation.
 ] + [ROOT / "00-BRAIN" / "HATS" / f"HAT_{h}.md" for h in
-     ("OPERATOR", "EDUCATOR", "PYTHON", "PHYSICS", "TCOM", "ECON", "ENGR1000")
+     ("OPERATOR", "EDUCATOR", "PYTHON", "PHYSICS", "TCOM", "ECON", "ENGR1000",
+      "SOFTWARE_ENGINEER", "TECHNOLOGY_ENGINEER",
+      "EDUCATOR_PLAYBOOKS", "OPERATOR_PLAYBOOKS", "ENGINEERING_PLAYBOOKS")
+# HAT_PHYSICS_MATH was merged into HAT_PHYSICS and archived 2026-08-17. Its
+# conditional load ("when the block is calculus mechanics") was true for nearly
+# every block of a calculus-based course, so the split bought no load reduction
+# and cost one measured routing failure.
 ] + [ROOT / "03-WIKIS" / h / "OPERATIONS.md" for h in
      ("AI_AUTOMATION_SYSTEMS", "BUSINESS", "EDUCATION", "PHYSICS",
       "PYTHON", "REVENUE_LAB", "SYSTEMS", "TECHNOLOGY")]
