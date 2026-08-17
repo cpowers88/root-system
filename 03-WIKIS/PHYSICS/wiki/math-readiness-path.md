@@ -168,7 +168,7 @@ exposed by that sweep; the final day is light review.
 | # | Date | Focus |
 |---|---|---|
 | 1 | Thu Jul 30 | Derivative mechanics refresher — power rule, position→velocity→acceleration chain, x/y independence (ran) |
-| 2 | Fri Jul 31 | Integral mechanics refresher — power rule reversed, the constant of integration, boundary/initial conditions (**planned, did not run** — full PC clean day) |
+| 2 | Fri Jul 31 | Integral mechanics refresher — power rule reversed, the constant of integration, boundary/initial conditions (~~planned, did not run~~ — **RAN AND PASSED 2026-08-16**, 17 days late; Move-On Gate met in full: cold `a(t) = 6t` transfer → `x(t) = t³ − 4t + 2`, plus explain-back. The July 30 words-before-symbols gap held. See `log.md` 2026-08-16) |
 | 3 | Sat Aug 1 | Cold rebuild: derive all three 1D kinematics equations from a = const, no formula sheet. Flag v² = v₀² + 2aΔx explicitly — it's algebraic elimination of t between the other two, not a third integration (**planned, did not run**) |
 | 4 | Sun Aug 2 | [[calculus-links/kinematics-derivatives]] (Stage 2) (**planned, did not run**) |
 | 5 | Mon Aug 3 | 10–15 min integration-constant/boundary-condition repair, then P1 — motion chain plus [[calculus-links/2d-kinematics-components]] |

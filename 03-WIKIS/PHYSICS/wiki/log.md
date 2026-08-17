@@ -1464,3 +1464,69 @@ material arrives as a surprise — "more of a calculus lesson than physics."
   weekly plan's new Move-On Gate (cold transfer + explain-back = pass;
   two-block cap; misses routed to Weeks C–D). No stage, gate, or learner
   truth moved.
+
+## 2026-08-16 — Row 2 PASSED: integral mechanics and the constant of integration (Claude Code)
+
+**First learner rep since July 30.** Seventeen days, none of them idle — the
+gap was the `.ROOT` pause and the pre-semester system update, not avoidance.
+
+### What ran
+- Entered at **row 2** of the Dated Daytime Schedule per `HAT_PHYSICS_MATH`'s
+  entry-point rule, **not** at today's date. Rows 2–4 were still marked
+  *"planned, did not run."* Advancement is proof-gated, not date-gated.
+- Hats: `HAT_EDUCATOR` → `HAT_PHYSICS_MATH`. Delivery worked → faded → cold.
+
+### Result — Move-On Gate met in full
+
+| Phase | Problem | Outcome |
+|---|---|---|
+| Worked | Ball up at 12 m/s from ground; both constants shown, `C₂ = 0` | shown, not graded |
+| **Faded** | Ball up at 7.0 m/s from a 20 m roof — **both constants nonzero** | **PASS** — `y(t) = −4.9t² + 7.0t + 20` |
+| **Cold** | `a(t) = 6t`, `x₀ = 2.0 m`, `v₀ = −4.0 m/s` — no kinematic formula applies | **PASS** — `x(t) = t³ − 4t + 2` |
+| **Explain-back** | *"Why can't you use `x = x₀ + v₀t + ½at²` here?"* | **PASS** — *"acceleration is not constant"* |
+
+### What this proves — the July 30 gap specifically
+
+July 30's diagnosis was *"the power rule came back fast, but 'why is C = 3
+here' did not."* On the first attempt Chris gave the initial conditions as
+**values** (`v = 7.0 at t = 0`). Prompted once for words, he produced them
+unprompted and correctly thereafter: *"at time 0 the ball is at a height of
+20 meters above the ground and is still moving at a velocity of 7.0 m/s."*
+**The words-before-symbols step is the thing that broke in July, and it held
+here** — including on the cold problem, where he read the sign correctly
+(*"moving away from the motor"*, `v₀` negative against positive `a`).
+
+**Evidence he integrated rather than pattern-matched:** the `−4t` term in the
+cold answer. That is `C₁` carried through the *second* integration, and it
+cannot appear from a formula lookup — it requires having written
+`v(t) = 3t² − 4` first.
+
+### Anchor delivered (closes the loop back to row 3)
+`x = x₀ + v₀t + ½at²` **is** the double integration run once with constant `a`:
+`v₀t` is literally `C₁t`, `x₀` is `C₂`, `½at²` is `∫∫a dt dt`. The kinematic
+equations are a licensed shortcut, not a separate law. This sets up row 3
+directly.
+
+### Misses / weak points — logged, not repaired
+1. **`v(t)` never written on either problem.** Twice. He clearly computed it
+   (the `−4t` proves it), but the intermediate line is where `C₁` is fixed and
+   it is the line that costs marks when algebra goes wrong under exam
+   conditions. **Watch on row 3; correct if it recurs a third time.**
+2. First-attempt initial conditions came out as values, not physical words.
+   Self-corrected after one prompt. Not a miss; a tendency to watch.
+
+### Exact next independent rep
+- **Row 3** — cold rebuild of all three 1D kinematics equations from
+  `a = const`, no formula sheet. **Flag `v² = v₀² + 2aΔx` explicitly:** it is
+  algebraic elimination of `t` between the other two, **not** a third
+  integration. Two of the three are already effectively derived by today's
+  anchor; the third is the one that misleads.
+
+### Stage / frontier movement
+- **None.** Stage 4 remains active, still open at circular-motion drill 1–4.
+  Row 2 is a math-readiness queue row, not a stage gate. `current-position.md`
+  is unchanged and correctly so.
+
+### Sources and files touched
+- `wiki/math-readiness-path.md` (row 2 marked run and passed)
+- This log.
