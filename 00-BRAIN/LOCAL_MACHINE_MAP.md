@@ -24,13 +24,45 @@ D:\ (SATA SSD 1.8TB — storage only)
 └── ARCHIVE\         ← cold storage
 ```
 
-Backup (updated July 17, 2026): Google Drive's **Computers → this PC → .ROOT**
-sync is retired. Root cause: Drive periodically rewrote every top-level
-`desktop.ini` in one batch, clobbering the folder-icon `IconResource` pointers
-(diagnosed July 16), and Drive's mount also couldn't support the ACL setup
-Codex's native sandbox needed (July 13). Rather than work around it with a
-daily icon re-apply task, Chris is disconnecting the sync (Drive Preferences →
-My computer → `.ROOT` → Stop backup) and replacing it with a local mirror.
+## Google Drive — RELINKED 2026-08-16, and where to actually find it
+
+> ### ❓ "Why don't I see `.ROOT` on Google Drive?"
+>
+> **Because mirrored computer folders never appear under My Drive.** They live at
+> drive.google.com under **Computers → [device name] → `.ROOT`**. `G:\My Drive\` will
+> never show it, and that is correct behaviour, not a missing backup.
+>
+> **This question has now been asked twice** (2026-08-16 and 2026-08-17). It is written here,
+> in the machine/backup inventory, because that is where someone looks for it — a note about
+> where the mirror appears does not belong in a daily cockpit that gets trimmed.
+
+**Live state, measured 2026-08-17 from Drive's own config**
+(`%LOCALAPPDATA%\Google\DriveFS\root_preference_sqlite.db`, `roots` table):
+
+```
+title .ROOT | root_path Users\chris\.ROOT | last_seen_absolute_path C:\Users\chris\.ROOT
+sync_type 1 (mirror) | destination 1 (to Drive) | state 2 (active)
+```
+
+Read that table rather than trusting the UI or this paragraph — it is the authority on whether
+the link exists.
+
+**The July 17 retirement is history, not current state.** Drive was disconnected then because
+it periodically rewrote every top-level `desktop.ini` in one batch, clobbering the folder-icon
+`IconResource` pointers (diagnosed July 16), and its mount could not support the ACL setup
+Codex's native sandbox needed (July 13). **Chris relinked it on 2026-08-16** with three
+consequences stated and accepted: `88-JOURNAL` goes to Google, a live `.git` gets synced, and
+a mirror propagates a mistake rather than protecting from one.
+
+**The `.git` consequence fired within hours and is now permanently fixed** — Drive wrote
+conflict copies into `.git\` (flag #102), so the gitdir was relocated to
+`C:\Users\chris\.root-git`, a sibling directory Drive never sees. `.git` in the vault is now a
+33-byte pointer file. Verified with Drive live and synced: zero conflict copies, `fetch` exit 0,
+`fsck` clean.
+
+**`C:\Users\chris\.ROOT\.tmp.driveupload` is Drive's own staging folder** — pending uploads
+live there transiently. Items sitting in it means a sync is in flight, not that something is
+broken. Do not delete it or add it to a cleanup pass.
 
 ### Backup — live and verified 2026-08-12
 
@@ -45,7 +77,8 @@ control, mistaken for the control existing.
 | Local mirror | `D:\BACKUPS\.ROOT` | **Live.** 3,951 files / 3.38 GB, verified 2026-08-12 |
 | Retention | `D:\BACKUPS\snapshots\YYYY-MM-DD_HHmm\` | Dated copy of the *previous* mirror, last 8 kept |
 | Off-machine | GitHub | Tracked files only — excludes `88-JOURNAL`, every `raw\`, `77-INBOX`, `99-ARCHIVE`, all PDFs |
-| Stale | `G:\My Drive\New folder\.ROOT` | One-time manual copy, 2026-08-09. **Not** `G:\My Drive\.ROOT` — that path does not exist |
+| Drive mirror | **Computers → [device] → `.ROOT`** on drive.google.com | **Live since 2026-08-16.** Not under My Drive — see the section above. Carries what GitHub excludes: `88-JOURNAL`, every `raw\`, 351 PDFs |
+| ~~Stale~~ | ~~`G:\My Drive\desktop_folder_maybe\.ROOT`~~ | **Deleted by Chris 2026-08-16** (16,091 files, Aug 9 pre-restructure) before bringing the mirror live — the order that mattered. Drive now holds exactly one `.ROOT` tree |
 | Unowned | `D:\ARCHIVE\.ROOT` | July 19 copy with a nested `.ROOT\.ROOT`. Nobody maintains it; do not treat it as a backup |
 
 Driven by `00-BRAIN\scripts\backup_to_d_drive.ps1` on Windows Task Scheduler
