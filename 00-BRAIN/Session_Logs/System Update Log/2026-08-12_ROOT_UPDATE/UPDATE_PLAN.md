@@ -471,7 +471,26 @@ a gitignored vendored venv (**Decision 6 is cosmetic, not structural**); `CASTLE
 current-position.md` is 25 days stale, past its own stated reconciliation date; the protected
 5–10 h/week technology floor is contradicted by a calendar that provides **1h30**.
 
-## ❄ FINDING FREEZE — operative 2026-08-13, declared by Chris 2026-08-12 evening
+## ✅ FREEZE LIFTED — 2026-08-17, on Chris's `OK TO START`
+
+**The pause and the finding freeze are both over.** New findings are worked on their normal
+priority (🔴 in session, 🟠 weekly, 🟢 monthly), not filed here. **This file is now the
+update's historical record, not a live queue.**
+
+Closed on the way out, 2026-08-17: **N4** (CASTLE current-position contradiction — learner
+rows only; full monthly reconciliation moved to Aug 23), **N5** (`77-INBOX` cleared to zero;
+the finding's "unrouted syllabus" premise was itself wrong — see `DAILY_2026-08-17.md`), and
+**N6** (`NOW.md` 5,341 → 662 words, pause-era edition archived whole — **the proposal's
+≤600 target was missed by 62 words**, recorded rather than rounded).
+
+**Still open and now back on normal cadence:** N7, N8 (🟢) · S6, S7 (🟠) · S8, S9, S11 (🟢) ·
+**S10** — Codex's seven proposed scripts, recommendation still *hold until after Aug 24*,
+Chris's call. Plus the semester-map findings, of which the **CSE 1321 Respondus LockDown
+Browser requirement** is the one with a deadline (Aug 19 laptop work).
+
+*The original freeze declaration is retained below as the record of why it existed.*
+
+## ❄ FINDING FREEZE — operative 2026-08-13, declared by Chris 2026-08-12 evening — **LIFTED 2026-08-17**
 
 **New findings are FILED to this plan. They are not worked.** Applies to every surface —
 Claude, Codex, any session — for the duration of the Thursday push and until Friday's gate

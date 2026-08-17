@@ -22,11 +22,11 @@ check habit.
 | | Status |
 |---|---|
 | Exact-section BWD syllabus | ❌ **Does not exist on file** |
-| Instructor | ✅ **Lori Lowder** — from the Fall 2025 §BD syllabus, same course, same college (SPCEET). Not confirmed for §BWD |
+| Instructor | ✅ **Kamyar Raoufi** — `kraoufi@kennesaw.edu`. **Supplied by Chris 2026-08-17 and this is the §BWD instructor.** Supersedes the earlier inference of Lori Lowder, who taught Fall 2025 §BD and is *not* Chris's instructor. The registrar record lists no instructor for BWD, so this came from Chris, not from a file |
 | Meeting time | ❌ **None published** — not on the registrar record, not on Chris's calendar |
 | Delivery format | ❌ **Unknown, and now genuinely uncertain — see below** |
 | Grading shape | 🟡 **Attendance quizzes 50% / assignments 50%** (Fall 2025 §BD). Likely stable; unverified for §BWD |
-| AI policy | ✅ **Prohibited** — now confirmed in the same instructor's own words |
+| AI policy | 🟡 **Prohibited** in both Fall 2025 captures. **Downgraded from ✅ 2026-08-17:** it was called "the same instructor's own words," but Chris's instructor is Raoufi, not Lowder — so this is a course-level pattern across two other instructors, not his instructor's statement. **Still treat as prohibited** (most-restrictive-until-verified); the evidence is just weaker than it read |
 
 ### What the Fall 2025 §BD syllabus settles — and what it does not
 

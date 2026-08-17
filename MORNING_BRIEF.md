@@ -3,13 +3,13 @@ type: dashboard
 timeline: now
 status: active
 tags: [castle]
-generated: 2026-08-16
+generated: 2026-08-17
 ---
 
-# Morning Brief — August 16, 2026 (Sunday)
+# Morning Brief — August 17, 2026 (Monday)
 
-**ATTENTION —** Commit `1c7bebc` overwrote `UPDATE_PLAN.md` (1,081→252 lines) and `fall_2026_capacity_decision.md` with stale editor buffers; both restored today from `1c7bebc~1`.
+**ATTENTION —** PHYSICS row 2 passed Sunday night, first learner proof since July 30; the held resume point moved to row 3 (`03-WIKIS\PHYSICS\wiki\math-readiness-path.md`).
 
-**START —** Run the fresh-session regression — PHYS, CSE/Python, TCOM — on the six-point rubric in `claude_report_2026-08-13_teaching_layer_rebuild.md` §4; the launch bar is two clean passes each.
+**START —** Check Simple Syllabus, then email PHYS §54 (`fislam7@kennesaw.edu`) and ENGR 1000 BWD — D2L stays shut until Aug 24 (`CASTLE\wiki\weekly-plans\weekly-plan-2026-08-17-to-2026-08-23.md`).
 
-**CHRIS —** Rule Phase E: do the `work\` bays inside each course folder stand as built? Hard deadline Aug 24 (`UPDATE_PLAN.md` § Open going into Aug 24, item 2).
+**CHRIS —** Week D is provisional until you ratify its two Sunday gates — learner-hub alignment and instruction protocol; `CASTLE\OPERATIONS.md` says silence is not approval.

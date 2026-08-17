@@ -7,6 +7,14 @@ tags: [baseline]
 
 # Current Position — July 2026 Monthly Baseline
 
+> **⚠ Partially reconciled 2026-08-17 (finding N4), not fully re-run.** The two learner
+> rows below were corrected against owner truth because they contradicted `NOW.md`, which
+> names this file the owner of sequence and proof status — the cockpit was pointing at a
+> file that disagreed with it. **Python read "Stage 3"; it has been Stage 4b since
+> 2026-07-29.** Every other row still carries its July 19 assessment and is up to four
+> weeks old. **The full monthly reconciliation is overdue** (this file's own next date was
+> August 1) and is scheduled for the **Aug 23 pre-semester review**.
+
 ### Reconciled: July 19, 2026
 ### Sources: NORTH_STAR.md, CURRENT_STRATEGY.md, owner current-position files, capability_development_goal.md, and active proof owners
 ### Cadence: monthly; current actions and temporary pauses live in .ROOT\NOW.md
@@ -23,8 +31,8 @@ tags: [baseline]
 
 | Capability or track | CASTLE state | Proof frontier | Owner truth |
 |---|---|---|---|
-| Physics | Stage 4 is the next active unit | Begin owner-defined Motion in Two Dimensions work when resumed | PHYSICS wiki current-position |
-| Python | building — Stage 3 | Independent build, explain-back, and debug gate for loops | PYTHON wiki current-position |
+| Physics | building — Stage 4 open at circular-motion drills 1–4 | Math-readiness **row 3**: cold rebuild of all three 1D kinematics equations from `a = const`. Row 2 passed 2026-08-16 | PHYSICS wiki current-position + math-readiness-path |
+| Python | building — **Stage 4b** (Stage 4 closed 2026-07-29) | **C1** — `53`/`NameError` plus an independent `average(numbers)`; then import one standard-library module and wrap one library call in his own function | PYTHON wiki current-position |
 | SQL/SQLite | building — July weak link; guided two-table fixture verified July 21 | Independently query or extend the Bootcamp fixture; use verified tracker data when D2L populates | [[sql]] + [[ksu-academic-tracker]] + TECHNOLOGY owner |
 | Data visualization | building — first rep verified | A justified visual another person can trace and use for a decision | Technology Strategy + live proof vehicle |
 | Field observation | building | First approved live observation; two tested live sessions move it to working | BUSINESS method + 05-BUSINESS\02-Field Notes |
@@ -75,4 +83,6 @@ The August 1 review may reorder these. CASTLE does not copy the practice schedul
 - Revenue evidence: 03-WIKIS\REVENUE_LAB\wiki\
 - Capability states and next proof: [[skill-map]]
 
-Next monthly reconciliation: August 1, 2026.
+Next monthly reconciliation: **August 23, 2026**, at the final pre-semester review. (The
+stated August 1 date passed unrun; that staleness was finding N4 and is why the two learner
+rows above were corrected on 2026-08-17 ahead of the full pass.)

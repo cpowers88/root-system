@@ -74,5 +74,6 @@ problem. Two rules worth keeping explicit during study sessions:
 
 ---
 *Companion: [[learning-how-to-learn-principles]] (encoding/retrieval model — the theory this
-toolbox serves). Consumed by: `00-BRAIN\hats\HAT_EDUCATOR.md`. Source articles remain in
-`77-INBOX` until the weekly review clears them.*
+toolbox serves). Consumed by: `00-BRAIN\hats\HAT_EDUCATOR.md`. **Source articles cleared from
+`77-INBOX` 2026-08-17 and now live at `02-LIBRARY\ref-meta-how-to-work\`** under their
+original clipper titles.*

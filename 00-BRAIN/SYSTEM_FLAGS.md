@@ -8,15 +8,13 @@ tags: [governance]
 # SYSTEM_FLAGS.md — Open Improvement Flags
 ### Location: 00-BRAIN\ | Check at every session start.
 
-> **⏸ `.ROOT` is PAUSED (declared 2026-08-12, resumes on Chris's `OK TO START`).**
-> The queue does not run; dated commitments are exempt. Full scope: the PAUSED block
-> at the top of `.ROOT\NOW.md`.
->
-> **❄ FINDING FREEZE operative (2026-08-13).** New findings are **filed** to
-> `Session_Logs\System Update Log\2026-08-12_ROOT_UPDATE\UPDATE_PLAN.md`, **not worked** —
-> unless 🔴 HIGH. Binds every surface including Codex.
+> **▶ `.ROOT` IS RUNNING. Chris gave `OK TO START` on 2026-08-17.** The pause
+> (2026-08-12) and the finding freeze (2026-08-13) are both **over**. New findings are
+> worked on their normal priority again — 🔴 in session, 🟠 at the weekly, 🟢 at the
+> monthly — not filed to `UPDATE_PLAN.md`. That file is now the update's historical
+> record, not a live queue.
 
-### Last updated: August 16, 2026 (evening) — #102's gitdir relocation executed and verified; it stays 🔴 pending step 4 only. Earlier that day: #102, #100 and #101 opened; prohibition 1 extended.
+### Last updated: August 17, 2026 — pause and finding freeze lifted on `OK TO START`; findings N5 and N6 closed. Aug 16: #102 relocation verified and downgraded 🟢; #102, #100, #101 opened; prohibition 1 extended.
 
 ---
 
@@ -82,7 +80,7 @@ same session to `00-BRAIN\Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md`.
 | **101** | **The bulk-work gate denies read-only work.** Five blocks in one session (2026-08-16): `git show \| grep`, `find -exec ls`, a `for` loop running `wc`, `xargs printf`, and **a `git commit` whose only offence was the word "robocopy" inside the commit message prose.** It matches shell *shape and text*, not write intent; on Windows the offered remedy is a WSL re-launch of a command that only reads. **Risk is erosion, not breakage** — it trains sessions toward the `ALLOWED_SCRIPTS` hatch, which `AGENT.md` File Safety 12 names as not-a-control. Related to #96 (same gate) | 🟢 | **Chris** (`.claude\` is tool config, needs his approval) | Exempt an explicit read-only verb set in `.claude\hooks\require_safe_shell.py`; do **not** widen `ALLOWED_SCRIPTS` instead. At any `.claude\` change |
 | **97** | `raw\` capture loss — **prohibition 1 above**. Reconciliation done, nothing deleted; recovery list on file | 🟠 | Chris | Re-clip 5 lost sources; **fix or retire the clipper before pointing it at anything else**. Monthly review |
 | **96** | Spawned child can write `88-JOURNAL` + every `raw\` — **prohibition 2 above**. Accepted-with-controls; not fixable here | 🟠 | re-measure `verify_controls.py` | At any `.claude\` change **and** monthly. Do not read Windows `NOT MEASURABLE` as safety |
-| **57** | PHYS 2211 **§54** and ENGR 1000 BWD syllabi still unpopulated. Neighbour sections 51 + 55 on file are reference-only and do **not** substitute | 🟠 | Chris, `04-SCHOOL\SYLLABUS_STATUS.md` | **Aug 17 — escalate: email the instructors directly** |
+| **57** | PHYS 2211 **§54** and ENGR 1000 BWD syllabi still unpopulated. Neighbour sections 51 + 55 on file are reference-only and do **not** substitute. **ENGR instructor corrected 2026-08-17: Kamyar Raoufi, not Lori Lowder** (Lowder taught Fall 2025 §BD; ENGR rotates instructors across a standardized syllabus) | 🟠 | Chris, `04-SCHOOL\SYLLABUS_STATUS.md` | ✅ **Escalation executed 2026-08-17 — both emails sent.** Islam (`fislam7@`) for PHYS §54; Raoufi (`kraoufi@`) for ENGR BWD, asking specifically how the 50% attendance-quiz component works in a web section. **Flag stays open — sent is not received.** Check moment: **Fri Aug 21.** No reply by then → plan ENGR as if attendance is graded and verify in week 1; re-check D2L on Aug 24 when it opens |
 | **93** | HIGH-flag-before-close rule is prose, not enforced — a session can skip it | 🟠 | Codex → Claude Code | Codex designs hook mechanics (block vs. warn), then implement. Approved Aug 7 |
 | **16** | Right-hand rule needs a physical anchor before cross product / torque appear | 🟢 | Atlas / PHYSICS | Next physics session touching vector products — **approaching** |
 | **69** | Byte-identical duplicate in AIAS `raw\`; archive decided, AI cannot execute it | 🟢 | Chris | Chris moves the file himself, outside the `raw\` guard |

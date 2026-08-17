@@ -28,7 +28,7 @@ bottom for what has to close before then.
 | Course | Registered section | Available Markdown source | Use boundary |
 |---|---|---|---|
 | PHYS 2211 | 54 (83722) | `03-WIKIS\PHYSICS\raw\syllabus\PHYS 2211 51 (83719) Principles of Physics I.md` (Chris's selected path-truth source; the duplicate "Best copy" capture was removed 2026-08-08 and the surviving file's schedule verified identical); `04-SCHOOL\02-Physics I\PHYS 2211 55 (83723) Fall 2026 Syllabus - Reference Only.md`; `99-ARCHIVE\ARCHIVED_2026-07-29_PHYS 2211 54 (52148) Principles of Physics I.md` (Summer term, same section number/different CRN+instructor — retired to archive by Chris 2026-07-29, kept as scope corroboration only) | No exact Fall Section 54 syllabus. Section 51 matches likely instructor Farhan Islam and is the primary provisional pacing source; none of these three make Section 54 dates, grading, or policy binding |
-| ENGR 1000 | BWD (80858) | `03-WIKIS\EDUCATION\raw\Syllabi\ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md` | Summer reference only; not Fall section BWD |
+| ENGR 1000 | BWD (80858) | **Two Fall 2025 captures, both on disk:** `03-WIKIS\EDUCATION\raw\Syllabi\ENGR 1000 Section 05 (81217) Introduction to Engineering.md` (captured 2026-08-07) and `...\ENGR 1000 Section BD (81208) Introduction to Engineering.md` (captured 2026-08-14, Lori Lowder) | Neither is Fall **2026**, and neither is section BWD. See the ENGR note below — their bodies are identical, which is itself evidence |
 
 ## Missing Current Sources — the two real gaps
 
@@ -41,6 +41,46 @@ bottom for what has to close before then.
 - D2L access exists but Chris reports that course content is not populated as of the last check.
 
 Recheck Simple Syllabus and D2L when the courses populate. Exact-section materials supersede reference-only sources when they become available.
+
+## ENGR 1000 — measured 2026-08-17, and it sharpens the Aug 17 email
+
+Two ENGR captures sit in `raw\Syllabi\`. **Their syllabus bodies are identical** —
+`Compare-Object` returns exactly 8 differing lines, all of them frontmatter (title,
+source URL, capture date) plus the one header line naming the section. Same learning
+outcomes, same materials, same 50% attendance quizzes / 50% assignments, same policies.
+
+**What that buys, and what it does not:**
+
+- **Likely transferable:** ENGR 1000 appears to publish a *standardized* syllabus across
+  sections, so grading shape, outcomes, and course policy are probably the same in BWD.
+  Treat as strong provisional evidence, not as binding.
+- **Does not transfer, and it is the half that matters:** both captures describe sections
+  that **meet**, with attendance taken in class and the lowest attendance quiz dropped.
+  Chris is in **BWD**, where the `W` most likely means web. **Half the grade hinges on
+  "attendance" in a section whose format is unknown.** Do not conclude either way.
+- **Both are Fall Semester *2025*.** Neither closes flag #57.
+
+The §05 file carries Chris's own capture note in its title — *"only fall syllabi I
+see"* — which is why the search stopped there.
+
+**Three sections, three instructors — confirmed 2026-08-17.** §05 is Katherine Nawar,
+§BD is Lori Lowder, and **Chris's §BWD is Kamyar Raoufi (`kraoufi@kennesaw.edu`),
+supplied by Chris directly.** The registrar record lists **no instructor and no meeting
+time** for BWD (80858) — only the 08/24–12/14 date range, which is itself consistent with
+a web section. ENGR 1000 therefore standardizes the syllabus and rotates instructors, so
+the identical bodies say nothing about how *Raoufi* will run a web section. Earlier vault
+files inferred Lori Lowder as Chris's instructor; that inference was wrong and has been
+corrected in `00-BRAIN\HATS\HAT_ENGR1000.md`.
+
+**Consequence for the escalation email:** the question to Lori Lowder is no longer
+"please send the syllabus." It is **"how is the 50% attendance-quiz component assessed
+in a BWD/web section?"** — a narrower question the reference syllabi cannot answer.
+
+**Index correction, same date:** this table previously pointed ENGR at
+`ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md`. **That file does not
+exist anywhere in the live tree** — a broken reference the index carried since the
+July 27 recapture note recorded archiving it as a duplicate. Replaced with the two
+files that are actually on disk.
 
 ## July 27 Recapture
 
