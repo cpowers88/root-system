@@ -1916,3 +1916,58 @@ is separate and must not displace the learning plan.
 - Resume Module 0 with: **What is the different job of CSE lecture versus CSE lab?** Then
   finish the source/policy sweep and one fresh pseudocode application before closing the two
   scheduled blocks.
+
+## 2026-08-18 — raw intake: 8 exercise sources routed from `77-INBOX`, under a named raw exception
+
+### Authorization
+
+**`OPERATIONS.md` § Raw boundary requires Chris to explicitly authorize a named exception
+before an AI creates anything under `raw\`. He gave it on 2026-08-18**, choosing `raw\` root
+over a new `exercises\` subfolder so the series stays with its existing sibling. Two earlier
+attempts by the session were denied at the permission prompt and were **not** worked around;
+the move ran only after he confirmed. No `raw\` file was edited, renamed, or removed.
+
+### What moved
+
+Chris clipped eight pages into `77-INBOX\` between **15:32 and 15:44** on 2026-08-18. All eight
+moved to `03-WIKIS\PYTHON\raw\`, joining `Python Exercises, Practice, Solution.md` (Aug 11) from
+the same w3resource series. `77-INBOX\` is now empty. No name collisions existed at `raw\` root.
+
+**Verified byte-identical before and after the move — SHA-256:**
+
+| File | SHA-256 |
+|---|---|
+| `Advanced Python Exercises and Solutions.md` | `b5f85e026ee13e49…` |
+| `Mastering Python 100 Exercises with Solutions.md` | `a4e0171ba19daf21…` |
+| `Python Basic (Part-II) - Exercises, Practice, Solution.md` | `76ece9fb1a3a7c18…` |
+| `Python Basic Exercises, Practice, Solution.md` | `4df6b625537b5a9c…` |
+| `Python Data Structures and Algorithms Recursion.md` | `d8898e73dd590db6…` |
+| `Python Programming Puzzles - Exercises, Practice, Solution.md` | `7e50beaafcc1dd33…` |
+| `Python Tutorial.md` | `cb2eeab2a2452484…` |
+| `Python conditional statements and loops - Exercises...md` | `92fd9d349c4fbd54…` |
+
+### Why this also closed a health blocker — and why that was not the reason
+
+`root_health.py` was returning **BLOCKER** on
+`77-INBOX\Python Programming Puzzles - Exercises, Practice, Solution.md`: control byte `0x1F`,
+line 1054. **It was never corruption.** The file is a Caesar-cipher exercise, and at
+`Shift = -1`, space (`0x20`) − 1 = `0x1F` — the control byte *is the correct puzzle output*,
+captured faithfully. Editing it to green the gate would have destroyed capture evidence.
+
+`77-INBOX` is not in `TEXT_SCAN_EXCLUDED` (`root_health.py:22-28`) but `raw` is, so routing the
+material to its correct home cleared the gate with **no script change and no edit to the
+source**: BLOCKER → **PASS WITH DEBT**, text integrity 0 findings across 1,555 files.
+
+**Recorded deliberately: the routing decision stands on its own** — external source material,
+PYTHON hub charter, same series as the Aug 11 sibling. The blocker clearing is a consequence,
+not the justification. Had the two pointed different directions, routing wins and the gate gets
+addressed separately.
+
+### Still open
+
+- **These are unprocessed sources.** Nothing has been ingested to `wiki\`; `raw\`→`wiki\`
+  STRUCTURE intake has not run on any of the eight.
+- **Standing question for the vault, not for this hub:** unsorted `77-INBOX` capture currently
+  gates whole-vault health, because a single clipped control byte turns `root_health.py` red.
+  Adding `77-INBOX` to `TEXT_SCAN_EXCLUDED` is the candidate fix; **not done**, since it is a
+  system-script change and this route made it unnecessary today.
