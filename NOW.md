@@ -86,10 +86,7 @@ Watch on row 4; a fourth drop means the cause is not missing form.
 
 ## Open Risks
 
-1. **Flag #100 — a stale buffer or Drive copy can silently overwrite an authoritative
-   file, and nothing detects it.** Procedural mitigation only: `git diff` before committing
-   a file you did not edit this session. A real control is post-semester work.
-2. **Flag #97 — five `raw\` sources exist only as filenames.** Never dedupe `raw\` on hash;
+1. **Flag #97 — five `raw\` sources exist only as filenames.** Never dedupe `raw\` on hash;
    the filename is the only record of what is missing.
 
 All open flags: **`00-BRAIN\SYSTEM_FLAGS.md`**. Control reality: `.claude\CONTROL_INVENTORY.md`.

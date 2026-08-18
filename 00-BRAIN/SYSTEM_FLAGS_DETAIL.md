@@ -124,18 +124,11 @@ costume.** Stated operatively in `SYSTEM_FLAGS.md` prohibition 1; never act on i
 
 ---
 
-## Flags #100 and #101 — forensics not yet written
+## Flag #101 — forensics not yet written
 
-**Both opened 2026-08-16.** The register promises detail for every row and these two do not
-have it yet. They are **MEDIUM and LOW under the finding freeze — filed, not worked** — so the
-sources below stand as their record until the freeze lifts. Recorded here so the gap is
-visible rather than silent.
+**Opened 2026-08-16.** The register promises detail for every row and this one does not
+have it yet. The source below stands as its record until the forensics are written.
 
-- **#100** (🟠, stale copy overwrote two authoritative files, committed as `1c7bebc`):
-  `NOW.md` § Open Risks item 0, and `UPDATE_PLAN.md` § Status reconciliation — 2026-08-16.
-  **Note added 2026-08-16:** #102 confirmed Drive writes into the live vault, which keeps the
-  second candidate vector open — the editor-buffer diagnosis in `NOW.md` is stated more
-  confidently than the evidence supports.
 - **#101** (🟢, the bulk-work gate denies read-only work): five blocked calls listed in the
   `SYSTEM_FLAGS.md` row; `.claude\CONTROL_INVENTORY.md` for what the gate actually covers.
 
