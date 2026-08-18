@@ -91,12 +91,28 @@ the answer back and recover `a(t)`). **Watch on row 4. Do not re-explain it.**
   installed, and **every AI extension removed from VS Code** — the CSE/ENGR prohibition is
   now a property of the machine, not a decision made while tired. Record:
   `00-BRAIN\CAMPUS_LAPTOP_BUILD.md` §10.
-  **The exam gate is still open and is now the only thing that matters here: run a real
-  authenticated D2L LockDown practice quiz. It cannot run before Aug 24, so it happens in
-  week 1.** A failure at exam time is a zero, and Chris does not attend on CSE exam dates.
-  Still unconfirmed individually: webcam/mic, campus Wi-Fi, charger endurance.
+  **The exam gate is open but is NOT a school-start blocker** (corrected 2026-08-18): the D2L
+  LockDown practice quiz cannot run before Aug 24, and **the real deadline is Test 1, Mon
+  Oct 5** — six weeks after D2L opens. A failure at exam time is a zero, and Chris does not
+  attend on CSE exam dates, so run it well before Oct 5, not on the day.
+  **Scope corrected:** syllabus line 84 puts LockDown on **exams**, not on all 10 quizzes —
+  confirm against live D2L quiz settings in week 1.
+  **Do now, none of it needs D2L:** webcam/mic in Windows Camera (the hardware half of the
+  LockDown requirement — a BIOS toggle or physical shutter would surface here), then campus
+  Wi-Fi, charger endurance, KSU logins.
+  **Laptop config transfer is answered** —
+  `Session_Logs\claude_report_2026-08-18_laptop_config_and_syllabus_verification.md`, tracked
+  so `git pull` delivers it. `.claude\` is already on the laptop via git; only user scope is
+  missing, and its paths must be rewritten to `~/Documents/root-system/...` or the deny rules
+  guard a directory that does not exist.
   **Open from the build's own checklist:** the laptop is **not yet in
   `00-BRAIN\LOCAL_MACHINE_MAP.md`** — the machine inventory does not know it exists.
+- **CSE 1321 syllabus carries stale dates — verify at D2L, Aug 24.** One **confirmed** Spring
+  2026 template carryover (line 236 reads "May 4th, 2026, Last Day of Classes" in a Fall
+  syllabus). Three to check: week 1 quizzes due "Dec. 07" (ambiguous — may be a legitimate
+  open-all-semester deadline, do not assume a typo), "Final Exams Week Dec 8 – 24", and a
+  missing Module 7. **Week 1 = Aug 24 is correct.** One confirmed carryover means the document
+  is not a trustworthy date source without a second check.
 - **Aug 22 — dress rehearsal**, full day on the real Fall timetable. Do not compress.
 - **Aug 23 — final pre-semester review**, plus the backup review and flag #102's close check.
   **Now also: run `verify_backup_restore.py` against the live D: backup into a new empty
@@ -127,6 +143,15 @@ the answer back and recover `a(t)`). **Watch on row 4. Do not re-explain it.**
    or for moving untracked files (PDFs, `raw\` sources) only.**
 3. **Flag #97 — five `raw\` sources exist only as filenames.** Never dedupe `raw\` on hash;
    the filename is the only record of what is missing.
+4. **NEW 2026-08-18 — `LOCAL_MACHINE_MAP.md:110` can authorise deleting the wrong `.ROOT`.**
+   It still reads "neither it nor Drive sync is a working tree or AI boot target going
+   forward," left from the July 17 retirement, contradicting lines 39–45 of its own file where
+   the **Aug 16 relink is recorded as live**. Since the mirror surfaces under **Computers →
+   [device]**, not `My Drive`, a second `.ROOT` seen from another machine may be the live
+   backup — deleting it would destroy the only off-machine copy of `88-JOURNAL`, every `raw\`,
+   and 351 PDFs. **Identify before deleting** (sweep in the Aug 18 laptop report). Fix line 110.
+   The link itself is **verified intact** after Chris's accidental disconnect: config row
+   unchanged, and a probe uploaded in one second 23 minutes after the Drive restart.
 
 All open flags: **`00-BRAIN\SYSTEM_FLAGS.md`**. Control reality: `.claude\CONTROL_INVENTORY.md`.
 
