@@ -64,10 +64,32 @@ worked, the 26–39 hour requirement is substantially covered on campus and the 
 modest. If Chris goes home in them, essentially the whole 26–39 hours lands on evenings and
 weekends.
 
-> **🔴 OPEN — only Chris can answer this, and it changes every conclusion below.**
-> **Does he stay on campus through the Mon/Tue/Wed six-hour gaps?** His Google Calendar is the
-> authority on this and has not been read into the vault. Until it is, treat the 21.75 h as
-> *available*, not *committed*.
+> **🟢 ANSWERED 2026-08-18 by Chris: yes, he works the gaps on campus.** In his words, that is
+> *why* the laptop was prepared — it exists to make those hours usable. **The 21.75 h is
+> committed, not merely available**, and it is the backbone of the schedule rather than a
+> contingency.
+>
+> **Consequence:** ~28 h/week of outside work is **nearly covered by the campus day alone**
+> (21.75 of 28). The remaining ~6 h/week falls to evenings and weekends — roughly an hour a
+> day, not the four hours a day the uncommitted reading implied. **A 13-credit all-A semester
+> is comfortable on this plan**, provided the gaps are actually worked.
+>
+> **The load-bearing dependency this creates:** the campus laptop now carries ~78% of all
+> outside-class study time. It is no longer a convenience — **if it fails, the plan fails.**
+> See the battery finding immediately below.
+
+> ### 🔴 The battery requirement was specified at a third of the real need
+>
+> `CAMPUS_LAPTOP_BUILD.md` §7 check 10 asks the laptop to survive *"a 2h15 Monday block at
+> 09:10–12:30."* **Both halves are wrong against the registrar record.** PHYS ends at
+> **10:05**, CSE begins at **16:10**, so the real Monday requirement is **~6 hours**, and
+> Tuesday's is **~6.8 hours**. A battery test was reported passed — but against a 2h15 target
+> that does not correspond to any actual gap in the timetable.
+>
+> The machine holds **48,948 mWh** at ~93% health. Six hours unplugged on a Victus with a
+> discrete GPU present is optimistic even on integrated graphics. **Treat outlet access in the
+> Mon/Tue/Wed gap locations as a requirement to verify on day one, not an assumption**, and
+> re-run the endurance check against 6 hours rather than 2h15.
 
 **Where the buffer actually is:** PHYS and CSE both sit **+2 weeks ahead** as of 2026-08-18
 (measured, not assumed). TCOM is at **0** and has graded work in week 1. That asymmetry is

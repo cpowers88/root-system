@@ -221,7 +221,7 @@ ever running. **Presence is not function. Verify by running.**
 | 7 | D2L, Owl Express, WebAssign, KSU email | All authenticate |
 | 8 | `git clone` + `git pull` | Vault present; `88-JOURNAL` **absent** — confirm by looking |
 | 9 | Obsidian opens the clone | Graph and links resolve |
-| 10 | **Battery under real load** | Survives a 2h15 Monday block at 09:10–12:30 without a charger. If not, plan around outlets or fix power settings |
+| 10 | **Battery under real load** | ⚠️ **Corrected 2026-08-18 — this pass condition was wrong.** It read *"survives a 2h15 Monday block at 09:10–12:30."* The registrar record (`04-SCHOOL\fall_KSU_schedule.md`) shows PHYS ends **10:05** and CSE begins **16:10**, so the real Monday gap is **~6 hours**, and Tuesday's (TCOM ends 10:55, lab begins 17:45) is **~6.8 hours**. **New pass condition: survives a 6-hour gap, or outlet access is confirmed at the actual study location.** The earlier test passed against a target a third of the real need |
 | 11 | Campus Wi-Fi (`KSU Wireless`/eduroam) | Connects on campus, not just at home |
 | 12 | Printing, if TCOM needs hard copy | Deferred until a syllabus requires it |
 
@@ -304,6 +304,27 @@ FrameView was removed; no application was consuming NVIDIA memory during verific
   `88-JOURNAL`, and Obsidian opening the clone were reported verified.
 - Microsoft 365, Word save/PDF export, and the institution-specific KSU Respondus LockDown
   Browser installation were reported complete.
+
+### The machine is now load-bearing — recorded 2026-08-18
+
+Chris confirmed he works the mid-day gaps on campus, which is why this laptop was prepared.
+`04-SCHOOL\semester-workload-plan.md` measures those gaps at **21.75 hours a week** against a
+~28 h/week outside-class requirement for all-A grades.
+
+**This laptop therefore carries roughly 78% of all outside-class study time for the semester.**
+§1 of this document called it "the coursework machine" and "not a second full `.ROOT`
+development environment," and both remain true — but the *criticality* was understated. It is
+not a convenience machine. **If it is unavailable during a campus block, that block is lost**,
+and the plan has no slack built in for repeated losses.
+
+Two consequences worth acting on rather than noting:
+
+1. **Battery endurance is now the top open hardware item** — see §7 check 10, whose pass
+   condition was corrected the same day from 2h15 to ~6 hours.
+2. **Chris's own assessment is that the hardware is sufficient** — less powerful than the
+   desktop, but adequate for reading, writing, Python coursework, and D2L. That is the right
+   read, and it confirms the deferred second memory module below is a genuine optional, not a
+   quiet blocker. 8 GB single-channel handles this workload.
 
 ### Deferred — second memory module
 
