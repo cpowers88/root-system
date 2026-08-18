@@ -308,10 +308,12 @@ FrameView was removed; no application was consuming NVIDIA memory during verific
 ### The machine is now load-bearing — recorded 2026-08-18
 
 Chris confirmed he works the mid-day gaps on campus, which is why this laptop was prepared.
-`04-SCHOOL\semester-workload-plan.md` measures those gaps at **21.75 hours a week** against a
-~28 h/week outside-class requirement for all-A grades.
+`04-SCHOOL\semester-workload-plan.md` measures the raw gaps at 21.75 hours a week; Chris's own
+realistic estimate — 2 hours less on Monday and Wednesday, Friday's short gap given to the
+campus gym — brings that to **16.33 hours a week**, against a ~28 h/week outside-class
+requirement for all-A grades.
 
-**This laptop therefore carries roughly 78% of all outside-class study time for the semester.**
+**This laptop therefore carries roughly 58% of all outside-class study time for the semester.**
 §1 of this document called it "the coursework machine" and "not a second full `.ROOT`
 development environment," and both remain true — but the *criticality* was understated. It is
 not a convenience machine. **If it is unavailable during a campus block, that block is lost**,

@@ -65,18 +65,48 @@ modest. If Chris goes home in them, essentially the whole 26–39 hours lands on
 weekends.
 
 > **🟢 ANSWERED 2026-08-18 by Chris: yes, he works the gaps on campus.** In his words, that is
-> *why* the laptop was prepared — it exists to make those hours usable. **The 21.75 h is
-> committed, not merely available**, and it is the backbone of the schedule rather than a
-> contingency.
->
-> **Consequence:** ~28 h/week of outside work is **nearly covered by the campus day alone**
-> (21.75 of 28). The remaining ~6 h/week falls to evenings and weekends — roughly an hour a
-> day, not the four hours a day the uncommitted reading implied. **A 13-credit all-A semester
-> is comfortable on this plan**, provided the gaps are actually worked.
->
-> **The load-bearing dependency this creates:** the campus laptop now carries ~78% of all
-> outside-class study time. It is no longer a convenience — **if it fails, the plan fails.**
-> See the battery finding immediately below.
+> *why* the laptop was prepared — it exists to make those hours usable.
+
+**Realistic campus hours — Chris's own correction, same day.** He expects **2 fewer hours on
+Monday and Wednesday** than the raw gap, and will **use the campus gym on Friday**. Taking him
+at his word rather than using the theoretical maximum:
+
+| Block | Raw gap | Realistic |
+|---|---:|---:|
+| Mon 10:05–16:10 | 6.08 | **4.08** |
+| Tue 10:55–17:45 | 6.83 | 6.83 |
+| Wed 10:05–16:10 | 6.08 | **4.08** |
+| Tue + Thu 08:55–09:35 | 1.33 | 1.33 |
+| Fri 10:05–11:30 | 1.42 | **0.00** — gym |
+| **Total** | 21.75 | **16.33 h** |
+
+**What that leaves for evenings and weekends:**
+
+| Requirement | Evenings + weekends | Per day, spread over 7 |
+|---|---:|---:|
+| 24 h/wk (low) | 7.67 h | **1.1 h** |
+| **28 h/wk (working)** | **11.67 h** | **1.7 h** |
+| 32 h/wk (high) | 15.67 h | 2.2 h |
+
+**This still works comfortably.** Roughly **1.7 hours a day** outside campus at the working
+figure — an evening block, not an evening consumed. The earlier uncommitted reading implied
+four hours a day; the real number is well under half that.
+
+**One scheduling note worth taking.** Friday's 1.42 h gap sits *between* the PHYS lecture
+(ends 10:05) and the recitation (11:30–12:25). **After recitation ends at 12:25 the academic
+day is over** — so a gym session placed *after* 12:25 rather than in that mid-morning gap costs
+zero study time and keeps 1.42 h/week. Small, free, and worth doing deliberately.
+
+> **⚠ The remaining optimistic assumption is Tuesday.** Its 6.83 h gap is now the single largest
+> study block of the week and is still counted in full. If Tuesday behaves like Monday and
+> Wednesday and loses ~2 h, campus time drops to **14.33 h** and the evening requirement rises
+> to **~13.7 h/week (≈2 h/day)** — still workable, but it is the next number to check against
+> reality in week 1.
+
+**The load-bearing dependency this creates:** the campus laptop carries **~58% of all
+outside-class study time** at the realistic figure. It is not a convenience machine — **if it
+is unavailable during a campus block, that block is lost**, and the plan has no slack for that
+happening repeatedly. See the battery finding immediately below.
 
 > ### 🔴 The battery requirement was specified at a third of the real need
 >
