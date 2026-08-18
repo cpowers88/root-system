@@ -263,6 +263,69 @@ Four points where an independent look is worth having, phrased as questions rath
 
 ---
 
+## 10. Measured build result — August 18, 2026
+
+The laptop was configured and checked in place. A second Windows wipe is not warranted. Items
+described below as Chris-confirmed were reported complete after walking the checklist; the
+hardware and development-environment measurements were observed directly during setup.
+
+### Recorded machine state
+
+| Component | Result |
+|---|---|
+| Model / SKU | Victus by HP Gaming Laptop 15-fa1xxx · `A05XKUA#ABA` |
+| Windows | Windows 11 Home 25H2 |
+| BIOS | F.20 dated 2025-04-17, updated from F.18 |
+| Integrated GPU | Intel UHD Graphics · device status `OK` |
+| Discrete GPU | NVIDIA GeForce RTX 2050, 4 GB · device status `OK` |
+| NVIDIA driver | 610.47, verified with `nvidia-smi` |
+| Battery | 48,948 mWh full-charge vs. 52,552 mWh design capacity — approximately 93%; 64 cycles when measured |
+| Memory | One 8 GB Samsung DDR4-3200 SO-DIMM, `M471A1K43EB1-CWE`, in Bottom — Slot 2 |
+
+The internal display remains on Intel integrated graphics. The RTX 2050 is available but is
+not driving the display, which is the intended battery-first hybrid arrangement. NVIDIA
+FrameView was removed; no application was consuming NVIDIA memory during verification.
+
+### Completed
+
+- Windows and HP package review found no McAfee, Norton, WildTangent, ExpressVPN, or comparable
+  trial software. The installation is clean enough to retain.
+- HP firmware and drivers were updated through the supported path. Both display adapters report
+  `OK` after restart.
+- Battery-first power and graphics settings, Device Encryption decision, and a real battery test
+  were reported complete by Chris.
+- VS Code 1.132 is installed. Anthropic Claude Code, OpenAI ChatGPT/Codex, and Microsoft's
+  chat-customization/evaluation extension were removed, including duplicate residual folders.
+  No GitHub Copilot extension was detected. Settings Sync was reported disabled on this laptop.
+- Python 3.12.10, `pip`, user `PATH`, VS Code interpreter selection, test-script execution, and
+  disposable virtual-environment creation were verified.
+- Git 2.55.0 is installed with identity `theinternet` / `44590996+cpowers88@users.noreply.github.com`.
+- The scoped clone is at `C:\Users\thein\Documents\root-system`. Pull/push, the absence of
+  `88-JOURNAL`, and Obsidian opening the clone were reported verified.
+- Microsoft 365, Word save/PDF export, and the institution-specific KSU Respondus LockDown
+  Browser installation were reported complete.
+
+### Deferred — second memory module
+
+The §7 checklist did **not** include a RAM requirement, but the inspection found the clearest
+optional performance improvement: the laptop remains at 8 GB in single-channel mode with its
+second SO-DIMM slot empty. This is not a first-day blocker.
+
+Future upgrade: add one 8 GB DDR4-3200, 260-pin SO-DIMM, 1.2 V, non-ECC, unbuffered module.
+Exact-match preference is Samsung `M471A1K43EB1-CWE`; a compatible Samsung, Crucial, or Kingston
+DDR4-3200 CL22 module is acceptable. Target configuration is 16 GB total as 2 × 8 GB in dual
+channel mode.
+
+### Remaining acceptance gate
+
+**Complete a real D2L Respondus LockDown Browser practice quiz.** A successful authenticated
+launch and submission is the exam-readiness proof. Webcam/microphone, KSU services, campus
+Wi-Fi, offline textbooks, charger endurance, and any required printing remain checklist items
+until individually confirmed; Teams, Zoom, JMP, and printing stay need-triggered rather than
+preinstalled by default.
+
+---
+
 *Companion: `LOCAL_MACHINE_MAP.md` (desktop inventory, backup posture). Course sources:
 `04-SCHOOL\SYLLABUS_STATUS.md`. Time shape:
 `Session_Logs\System Update Log\2026-08-12_ROOT_UPDATE\COUNCIL_SEMESTER_READINESS_2026-08-13.md` §Seat 3.*
