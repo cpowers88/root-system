@@ -1719,3 +1719,110 @@ adjacency was the actual confusion risk.
   `NOW.md`, the Aug 17–23 weekly plan
 - `04-SCHOOL\SEMESTER_MAP.md`, `04-SCHOOL\SYLLABUS_STATUS.md`
 - Archived: `99-ARCHIVE\ARCHIVED_2026-08-18_PHYS_neighbour_syllabi\` (2 files + README)
+
+## 2026-08-18 — Math row 2 durability check: **PASSED → `proven (durable)`**
+
+### Elapsed time, stated honestly
+
+Row 2's immediate pass was **Aug 16 night**; this ran **Aug 18 ~14:00**, so elapsed was
+**roughly 41 hours, not a strict 48.** The owner table's window (Aug 18–19) sanctioned the
+day, and the substantive criterion — **two sleeps** — was met. Recorded rather than rounded up.
+
+### Cold evidence
+
+Given `a(t) = 12t − 4`, with `v(0) = 3 m/s` and `x(0) = 5 m`. No notes, no formula sheet.
+
+```
+v(t) = 6t² − 4t + 3          C₁ = 3
+x(t) = 2t³ − 2t² + 3t + 5    C₂ = 5
+```
+
+Both integrations correct on the first attempt. **The load-bearing step landed: C₁ was carried
+forward as the `3t` coefficient of the second integration** rather than left as a dangling
+`C₁t`. That is the same move row 3 recorded on Aug 17 as deliberate substitution rather than
+recall, and it repeated cleanly two days later without scaffold.
+
+**Explain-back:** C₁ is initial velocity, C₂ initial position, *"both inside the measured
+frame"* — a better answer than the one asked for, because it names frame-dependence unprompted.
+Constants cannot come from `a(t)` alone because acceleration only describes how velocity is
+changing, leaving a family of curves. **This is the July 30 gap ("why is C = 3 here"), and it
+is closed.**
+
+**Stretch probe — non-zero boundary condition.** Same `a(t)`, told `v(1) = 10` instead of
+`v(0)`. Answer `C₁ = 8`, correct: `6 − 4 + C₁ = 10`. Passed. Harder route, same meaning —
+C₁ is still v(0), but had to be reached from a condition elsewhere on the curve.
+
+**Units on coefficients:** `2 m/s³`, `2 m/s²`, `3 m/s`, `5 m`. Passed after one term was
+modelled. The intended trap — that the two `2`s are different physical quantities sharing a
+digit — was seen once the form was shown.
+
+### Defect logged: chained equals
+
+Chris wrote `v(t) = 6t^2 - 4t + C_1 = 3`, which asserts `v(t) = 3`. Conceptually he was
+correct; the notation is not. Corrected in session to two separate statements. **Exam risk,
+not a comprehension risk** — closed-book, fast-reading grader, §54 exams are 45% of the grade.
+
+### ⚠ Correction to this session's own diagnosis — AI-side
+
+Mid-session this session proposed that Chris "has the understanding but does not produce the
+verification move," generalising from the units question. **Chris corrected it:** *"on not
+producing the move I did not understand the question, so I didn't even think that was what you
+were on about."*
+
+**Reclassified: the units item is an AI-side question-clarity defect, not a learner miss.**
+The question was asked twice and skipped twice before `HAT_PHYSICS` Method 3 fired ("if Chris
+skips a requested output twice, the problem is the request, not the answer"). The rule worked —
+it just should have fired one ask earlier. **Do not carry the "doesn't produce verification
+moves" generalisation forward; it rested on a question he could not parse.**
+
+### 🔴 Chris's own ruling on the reasonableness check — supersedes the Aug 17 diagnosis
+
+Chris, unprompted: *"my form is 100% careless, I need improvement on this I can't count the
+amount of times I dropped a value and gotten an answer wrong."*
+
+The Aug 17 entry attributed the third drop to *missing form, not carelessness*. **The learner's
+own account overrides it.** Both are now on record; his is the operative one.
+
+**Why this raises the habit's value rather than lowering it.** Dropped and mis-substituted
+values are exactly the error class a second-road check catches — see 2026-07-27 (`g = 0.8` for
+`9.8`; total `v₀` substituted for the direction-specific component, twice in one problem). The
+reasonableness check is not generic good practice for Chris; it is **the specific antidote to
+his documented error mode.** With the §54 equation sheet provided at every exam, marks will not
+be lost to unknown formulas — they will be lost to unchecked substitutions.
+
+### Symbolic form of the check — modelled for the first time
+
+The check had only ever been modelled numerically ("the same number by a different road"),
+which is likely why it never transferred to a symbolic rep. Modelled here:
+
+```
+v(t) = 6t² − 4t + 3
+d/dt →  12t − 4  = a(t) ✓
+```
+
+Two lines. It caught nothing today because the work was right — which is what a passing check
+looks like. **Watch on row 4; still do not re-explain it.**
+
+### Teaching-method finding — record and reuse
+
+Chris: *"that explanation from above on the units was perfect for me for understanding."*
+The format that worked: **model one term completely, show that the units live in the
+coefficient rather than the variable, then ask for the remaining terms.** He produced all three
+instantly and correctly. Matches this hub's `physical situation → skeleton → guided rep →
+transfer` loop and `HAT_PHYSICS` Method 3. Routed to
+`03-WIKIS\EDUCATION\wiki\methods\hat-performance-log.md`.
+
+### Frontier verdict
+
+**Row 2 → `proven (durable)`.** Removed from the open durability table in
+`current-position.md`. **No stage moved** — Stage 4 remains open at circular-motion drills 1–4.
+
+**Row 3 not run.** Its immediate pass was Aug 17 midday, so its 48-hour floor is **~midday
+Wed Aug 19**. Running it today would measure short-term memory — the exact error row 3's own
+entry was written to avoid.
+
+### Next exact action
+
+Row 3 durability check from ~midday Aug 19, or row 4
+(`calculus-links/kinematics-derivatives`) now, which is the held frontier item and the
+designated observation point for the reasonableness check.

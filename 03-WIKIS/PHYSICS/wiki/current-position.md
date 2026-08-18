@@ -88,13 +88,21 @@ cold rebuild 48–72 h later, with no scaffold.
 
 | Rep | Passed (immediate) | Durability check due | State |
 |---|---|---|---|
-| Math row 2 — integral mechanics, `+C`, boundary conditions | 2026-08-16 (night) | **Tue Aug 18 – Wed Aug 19** | ⏳ owed |
 | Math row 3 — cold rebuild of the three 1D kinematics equations | 2026-08-17 (midday) | **Wed Aug 19 – Thu Aug 20** | ⏳ owed |
 
-**Rows 2 and 3 can be cleared by one combined rep** — a cold reconstruction of the whole
-chain from `a = const` plus one transfer problem covers both. Do not run it before Aug 18;
-inside the window it measures short-term memory, which is the error row 3 itself was careful
-not to make.
+**Row 2 cleared 2026-08-18 — `proven (durable)`.** Cold transfer `a(t) = 12t − 4` with
+`v(0) = 3`, `x(0) = 5` → `v(t) = 6t² − 4t + 3`, `x(t) = 2t³ − 2t² + 3t + 5`, both integrations
+first-attempt correct with C₁ carried forward as the `3t` coefficient; plus a non-zero
+boundary-condition stretch (`v(1) = 10` → `C₁ = 8`) and correct units on every coefficient.
+Elapsed was **~41 h, not a strict 48** — inside the table's window, two sleeps met, recorded
+rather than rounded. Full evidence: `log.md` 2026-08-18.
+
+**Row 3's floor is ~midday Wed Aug 19** — 48 h from its Aug 17 midday pass. A combined rep
+covering both rows is no longer needed now that row 2 is closed; run row 3 on its own from that
+hour. **Earlier is not better here:** inside the 48 h it measures short-term memory, which is
+the exact error row 3's own entry was written to avoid. *(The superseded note here read "do not
+run it before Aug 18," which was true for row 2 and misleading for row 3 — the two rows never
+shared a floor.)*
 
 **Clearing rule:** on a pass, move the row out of this table and mark the rep `proven
 (durable)` in `log.md`. On a miss, log the error class and the rep returns to `owed` with a

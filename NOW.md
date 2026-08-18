@@ -43,14 +43,23 @@ requested **before** it. **The moment a day collapses, file the extension reques
 before recovering the day, not after. Given the last two days, this is the most likely place
 all semester to lose points to something that is not physics.
 
-**Held resume points:** PHYSICS → **row 4** (`calculus-links/kinematics-derivatives`),
-**plus an owed 48–72 h durability check on rows 2–3, Tue–Wed** — row 3 ran inside the
-window and does not substitute for it · PYTHON → **C1** (`53`/`NameError` plus an
-independent `average(numbers)`). Enter a queue at its first unrun row, never at today's date.
+**Held resume points:** PHYSICS → **row 4** (`calculus-links/kinematics-derivatives`) ·
+PYTHON → **C1** (`53`/`NameError` plus an independent `average(numbers)`). Enter a queue at
+its first unrun row, never at today's date.
 
-**🔴 Open learner habit:** the **reasonableness check** has been dropped three sessions
-running. Taught once on Aug 17 as *"arriving at the same number by a different road."*
-Watch on row 4; a fourth drop means the cause is not missing form.
+**✅ Row 2 durability PASSED 2026-08-18 — `proven (durable)`.** Cold, no scaffold, plus a
+non-zero boundary-condition stretch. **Row 3 is the only one still owed, and its 48 h floor is
+~midday Wed Aug 19** — earlier measures short-term memory, which is the error that rep was
+written to avoid. Rows never shared a floor; do not run them as one.
+
+**🔴 Open learner habit — reframed 2026-08-18 on Chris's own account.** The **reasonableness
+check** is still not firing. Chris's ruling, which supersedes the Aug 17 "missing form, not
+carelessness" reading: *"my form is 100% careless… I can't count the amount of times I dropped
+a value and gotten an answer wrong."* **This raises the habit's value rather than lowering it**
+— dropped and mis-substituted values are exactly what a second-road check catches, and with
+the §54 equation sheet provided at every exam, marks will be lost to unchecked substitutions,
+not unknown formulas. Symbolic form was modelled for the first time on Aug 18 (differentiate
+the answer back and recover `a(t)`). **Watch on row 4. Do not re-explain it.**
 
 ## Frontier Changes — clears once shown
 

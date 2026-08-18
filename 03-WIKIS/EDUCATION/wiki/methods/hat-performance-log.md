@@ -46,6 +46,7 @@ as a pass is worse than no data.
 | 2026-08-16 night | PHYS (math row 2) | hour ~6 of a system session | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ | Shortcut to the most specific hat: loaded `HAT_EDUCATOR` + `HAT_PHYSICS_MATH`, **skipped `HAT_PHYSICS` and the hub `OPERATIONS.md`** |
 | 2026-08-17 midday | PHYS (math row 3) | hour ~4 of a system session | n/v | ✓ | ✓ | ✓ | ✓ | ✓ | Full chain loaded incl. both previously-skipped files — but check 1 is **not valid**, see entry |
 | 2026-08-17 evening | CSE Module 0 | continuing Codex thread after system audit | n/v | ✓ | ✓ | ✓ | ✓ | ✓ | Correct live chain reloaded; ungraded-practice boundary held; clean pickup handoff |
+| 2026-08-18 afternoon | PHYS (row 2 durability) | hour ~4 of a system/CASTLE session | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | Row 2 passed durable. **AI defect: one question was unparseable and asked twice before Method 3 fired** — and this session then mis-diagnosed the skip as a learner verification gap. Chris corrected both |
 
 ---
 
@@ -135,6 +136,63 @@ plan, the learner log, DAILY, and handoff.
 The session also corrected a plan/source overlap: formal abstraction stays with Wednesday's
 Module 1 Part 1 because the Module 0 transcript only lightly supports it. The breadth/depth
 rule was not fully tested because the block paused early.
+
+## 2026-08-18 (afternoon) — PHYS math row 2, durability check
+
+**Check 1 is a genuine `✓` this time.** The full chain was loaded cold on the course→hat
+routing rule — `HAT_EDUCATOR` → `HAT_PHYSICS` → hub `OPERATIONS.md` → `current-position.md` —
+including the two files the Aug 16 session skipped, and the hat was named before the first
+teaching move without Chris naming it. Unlike Aug 17, this session had **not** previously
+inspected the hat system in-context, so the check is validly testable.
+
+**Checks 2–6 passed.** The rep was handed over cold with no teaching first, which is what a
+durability check requires; retrieval was a genuine transfer (`a(t) = 12t − 4`, fresh from the
+Aug 16 `a(t) = 6t`) rather than recognition; the PHYS §54 tutor-permitted / submitted-work
+prohibited boundary held with no graded material touched; and the close named row 3's exact
+hour and the alternative row 4 entry point.
+
+### ✗ AI-side defect — a question Chris could not parse, asked twice
+
+The units question ("units on every term of your `x(t)`") was skipped twice. This session read
+the second skip as evidence of a learner pattern — *"has the understanding but doesn't produce
+the verification move"* — and said so.
+
+**Chris corrected it:** *"on not producing the move I did not understand the question, so I
+didn't even think that was what you were on about."*
+
+Two failures, one of them the more serious:
+
+1. **The question was ambiguous.** "Units on every term" was heard as the `a → v → x` chain,
+   which Chris answered correctly and which is a reasonable reading. The intended question was
+   units on the *coefficients inside* `x(t)`. The phrasing never distinguished them.
+2. **The diagnosis was built on the ambiguity.** Generalising a learner defect from a question
+   the learner could not parse is the worse error, because it would have propagated into the
+   record as durable learner truth. It is corrected in `PHYSICS\wiki\log.md` 2026-08-18.
+
+`HAT_PHYSICS` Method 3 — *"if Chris skips a requested output twice, the problem is the request,
+not the answer"* — **fired and was correct.** It should have fired one ask earlier, and when it
+fired the session should have suspected the question rather than the learner. **Method 3 needs
+a companion clause: when a skip triggers it, re-read the question before forming any inference
+about the learner.**
+
+### ✓ Format that worked — reusable
+
+Once Method 3 fired, the repair was: **model one term completely, show that the units live in
+the coefficient rather than the variable, then ask for the remaining terms.** Chris produced
+all three instantly and correctly, and reported: *"that explanation from above on the units was
+perfect for me for understanding."*
+
+This is the hub's own `skeleton → guided rep → transfer` loop applied at the smallest possible
+grain — one term, not one problem. Worth reaching for whenever an abstract requirement is being
+asked for rather than shown.
+
+### Learner-owned correction, recorded not adjudicated
+
+Chris also overrode the Aug 17 *"missing form, not carelessness"* attribution on the
+reasonableness check: *"my form is 100% careless… I can't count the amount of times I dropped a
+value and gotten an answer wrong."* Both accounts stay on record; his is operative. The
+consequence is in the PHYSICS log — it raises the habit's value rather than lowering it,
+because dropped values are precisely what a second-road check catches.
 
 ---
 
