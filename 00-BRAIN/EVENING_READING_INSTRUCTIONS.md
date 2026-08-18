@@ -17,19 +17,30 @@ every registered course gets evening exposure across a week without the brief
 growing. The rotation is weighted to the live 40/30/15/10/5 allocation and each
 night **primes the next day's first block** in the current weekly plan.
 
+**Rebalanced 2026-08-18 at Chris's direction.** The previous table ran Python 3 /
+Physics 2 / TCOM 1 / ECON-or-ENGR 1. That weighting was set in July, before the
+buffer position was measured. **It is now backwards.** Measured 2026-08-18: PHYS is
+**+2 weeks ahead**, CSE is **+2 and hard-capped** (Module 2 does not exist until D2L
+opens), while **TCOM is at 0 buffer with real graded work in week 1**, and ECON's
+first graded item is Sep 8. Evening reading now follows the deficit, not the habit.
+
 | Night | School lane | Primes |
 |---|---|---|
-| **Sunday** | Python | Monday's functions blocks |
-| **Monday** | Physics | Tuesday's equations block |
-| **Tuesday** | Python | Wednesday's build blocks |
-| **Wednesday** | TCOM | Thursday's ethics/audience reading |
-| **Thursday** | Physics | Friday's cold checkpoint |
-| **Friday** | ECON and ENGR, **alternating weeks** | the weekend and Tuesday's ENGR block |
-| **Saturday** | Python | the week's proof target / Sunday's review |
+| **Sunday** | TCOM | Monday's writing block and the week's deliverable |
+| **Monday** | ECON | Tuesday's reading and the chapter's quiz window |
+| **Tuesday** | TCOM | Wednesday's drafting or peer-response work |
+| **Wednesday** | Python / CSE | Thursday's module work |
+| **Thursday** | ECON | Friday's quiz or discussion deadline |
+| **Friday** | ENGR when its syllabus exists, otherwise Physics | the weekend |
+| **Saturday** | Physics | Monday's lecture |
 
-Weekly totals: Python 3, Physics 2, TCOM 1, ECON-or-ENGR 1.
+Weekly totals: TCOM 2, ECON 2, Python 1, Physics 1 (2 while ENGR is blocked).
 
-**Three overrides, in this order:**
+**Rebalance when the deficit moves, not on a fixed date.** If PHYS or CSE falls to 0
+buffer, or TCOM/ECON pull ahead, this table is wrong again — say so in the brief
+rather than following it off a cliff.
+
+**Four overrides, in this order:**
 
 1. **The owner's live queue still governs.** If the rotation names a course whose
    queue has nothing unlocked, or whose next material is explicitly gated behind a
@@ -37,15 +48,20 @@ Weekly totals: Python 3, Physics 2, TCOM 1, ECON-or-ENGR 1.
    in one clause. Never assign locked material to satisfy the schedule.
 2. **A real deadline outranks the rotation.** A graded item due the next day takes
    the block regardless of weekday.
-3. **Dated program override, 2026-08-03 through 2026-08-23:** the structured
-   calculus-physics bridge now runs in daytime CASTLE blocks, because Chris
-   wants protected worked reps rather than relying on the evening container.
-   The School line may assign only a **15-minute raw-source primer** for the
-   next day's named bridge topic, or explicitly say no School reading when the
-   next topic is already primed. Never assign the calculus-link rep itself at
-   night and never repeat a bridge block completed that day. Reactivate the
-   normal course rotation **2026-08-24** when classes start; this override
-   expires on that date without needing to be re-decided.
+3. **Week-1 catch-up, 2026-08-18 through 2026-08-23 — active now.** Classes begin
+   Aug 24 and **week-1 work is already knowable from the syllabi on disk.** Assign
+   week-1 reading for the 0-buffer courses ahead of the rotation, in this order:
+   **TCOM first** — its week 1 carries a Course Policies Quiz, a File Naming Quiz,
+   and an Ethics Analysis due Friday, per
+   `03-WIKIS\EDUCATION\wiki\courses\tcom-2010\semester-map.md`; then **ECON**
+   (OpenStax *Principles of Economics 2e* Ch. 1, per that course's `semester-map.md`).
+   Do **not** assign PHYS or CSE week-1 reading this week — both are ≥2 weeks ahead
+   and re-reading covered ground buys nothing. This override expires 2026-08-24.
+4. **The Aug 3–23 calculus-physics bridge override is ENDED, five days early**
+   (2026-08-18, Chris's call). It restricted the School line to a 15-minute physics
+   primer, which is why the brief was assigning circular motion instead of school
+   reading. The daytime CASTLE bridge blocks continue; they no longer suppress the
+   evening School block. **Do not reinstate this.**
 
 ENGR stays orientation/source-verification only until the real Fall BWD syllabus
 exists; never assign invented Fall content from the Summer reference section.

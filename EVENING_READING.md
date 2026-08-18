@@ -9,11 +9,11 @@ generated: 2026-08-18
 
 ## School
 
-**READ —** Serway & Jewett, `raw/textbook/Physics book-0001-0100.pdf`, Ch 4 §4.4 Uniform Circular Motion, book pp. 81-83 (~PDF pp. 112-114).
+**READ —** *Open Technical Communication* (Reardon/Powell/Arnett/Logan/Race), `03-WIKIS/EDUCATION/raw/Textbook Doc Files/Open Technical Communication.pdf`, Ch 3 Ethics.
 
-**FOCUS —** Primes tomorrow's circular-motion drill 1-4 cold-run and UCM 6.1-6.2 (Exam 1 material); **raw exposition only, never the drill file itself, to protect the cold gate.**
+**FOCUS —** Primes Thursday's scheduled Ch 3 reading and Friday's graded Ethics Analysis; **use this verified decimal-numbered copy, never `2e_Word\`, whose renumbered Ch 3 is Library/Internet Research.**
 
-**STOP —** Cap 15 minutes; stop at the end of §4.4, before §4.5 tangential/radial acceleration.
+**STOP —** Cap 20 minutes; stop at the chapter boundary before Ch 4 Document Design.
 
 ## Technology
 
