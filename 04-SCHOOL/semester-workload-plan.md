@@ -20,32 +20,100 @@ run. This page plans effort; it never produces graded work.
 
 ## 1. The arithmetic nobody has written down
 
-Chris is enrolled in **14 credit hours**: CSE 1321 (3) · CSE 1321L (1) · PHYS 2211 (4) ·
+> **⚠ Corrected 2026-08-18 against `04-SCHOOL\fall_KSU_schedule.md`, the registrar record.**
+> The first version of this page said 14 credits and PHYS 2211 at 4 credits. **Both were wrong.**
+> The registrar record — which carries CRNs, instructors, rooms, and exact meeting times — says
+> **PHYS 2211 §54 is 3.0 credits** and the load is **13 credits**, not 14. Every figure below is
+> rebuilt from that record rather than from assumption.
+
+Chris is enrolled in **13 credit hours**: CSE 1321 (3) · CSE 1321L (1) · **PHYS 2211 (3)** ·
 TCOM 2010 (3) · ECON 1000 (2) · ENGR 1000 (1).
 
-The standard university expectation is **2–3 hours of outside work per credit hour per week**.
-At the *low* end that is **28 hours a week outside class**, on top of roughly 14 hours in class.
+The standard expectation is **2–3 hours of outside work per credit hour per week** → **26–39
+hours a week outside class.**
 
-**Measured against that, the campus blocks are not enough on their own:**
+### In-class time — computed from the registrar's actual meeting times
 
-| Block | Hours |
+| Course | Meeting | Weekly |
+|---|---|---:|
+| PHYS 2211 lecture | MWF 09:10–10:05, Academic 200 | 2.75 h |
+| PHYS 2211 recitation | Fri 11:30–12:25, Atrium 1116 | 0.92 h |
+| CSE 1321 | Mon/Wed 16:10–17:30, Academic 203 | 2.67 h |
+| CSE 1321L | Tue 17:45–19:35, Atrium 2120 | 1.83 h |
+| TCOM 2010 | Tue/Thu 09:35–10:55, Academic 202 | 2.67 h |
+| ECON 1000 | Tue/Thu 08:00–08:55, ETC 202 | 1.83 h |
+| ENGR 1000 BWD | ⛔ **no meeting time on the registrar record** | ? |
+| | **In-class total** | **12.67 h** |
+
+### The campus day is far emptier than this page first claimed
+
+The earlier figure of ~11.75 campus hours came from `CAMPUS_LAPTOP_BUILD.md`, written Aug 13.
+**The registrar's real timetable produces almost double that in mid-day gaps:**
+
+| Gap | Hours |
 |---|---:|
-| Mon 10:15–12:30 | 2.25 |
-| Tue midday | ~1.5 |
-| Wed 10:15–12:15 | 2.00 |
-| Thu 12:00–14:00 + 15:00–17:00 | 4.00 |
-| Fri 15:00–17:00 | 2.00 |
-| **Campus total** | **~11.75** |
+| Mon 10:05 → 16:10 (PHYS ends, CSE begins) | **6.08** |
+| Tue 10:55 → 17:45 (TCOM ends, lab begins) | **6.83** |
+| Wed 10:05 → 16:10 | **6.08** |
+| Tue + Thu 08:55 → 09:35 | 1.33 |
+| Fri 10:05 → 11:30 | 1.42 |
+| **Total mid-day gap** | **21.75 h** |
 
-**The gap is roughly 16 hours a week that must come from evenings and weekends.** That is the
-single most important number on this page, and it is why the week-by-week table below flags
-overload *before* it arrives rather than after. A 14-credit semester is not carried by campus
-gaps alone.
+**Monday, Tuesday and Wednesday each contain a six-hour hole between classes.** If those are
+worked, the 26–39 hour requirement is substantially covered on campus and the evening load is
+modest. If Chris goes home in them, essentially the whole 26–39 hours lands on evenings and
+weekends.
+
+> **🔴 OPEN — only Chris can answer this, and it changes every conclusion below.**
+> **Does he stay on campus through the Mon/Tue/Wed six-hour gaps?** His Google Calendar is the
+> authority on this and has not been read into the vault. Until it is, treat the 21.75 h as
+> *available*, not *committed*.
 
 **Where the buffer actually is:** PHYS and CSE both sit **+2 weeks ahead** as of 2026-08-18
 (measured, not assumed). TCOM is at **0** and has graded work in week 1. That asymmetry is
 what makes the early weeks survivable, and it is why the evening-reading rotation was
 reweighted to TCOM/ECON the same day.
+
+### Total outside-class hours for all A grades
+
+Asked directly 2026-08-18. Three methods, and the distance between them is itself the answer.
+
+| Method | Semester total |
+|---|---:|
+| Sum of §3's week-by-week estimates | **~304 h** (~19.6 h/wk) |
+| 13 credits × 2–3 h/credit × ~15.5 wks | **403–605 h** (26–39 h/wk) |
+| **Per-course, A-level (table below)** | **372–495 h** |
+
+**They disagree because they measure different things.** §3's 304 hours is a
+**deliverable-completion floor** — built from actual work products, enough to finish everything
+on time and pass comfortably. The credit-hour range assumes continuous study: reading ahead,
+reworking missed problems, retrieval practice. **That gap is the difference between finishing
+the work and earning an A.** In PHYS especially, no amount of on-time homework reaches an A if
+exam classification is not automatic.
+
+| Course | Cr | h/week | Semester |
+|---|---:|---|---:|
+| **PHYS 2211** | **3** | 9–11 | **140–170** |
+| CSE 1321 + 1321L | 4 | 7–9 | 108–140 |
+| TCOM 2010 | 3 | 5–7 | 78–108 |
+| ECON 1000 | 2 | 2–3 | 31–46 |
+| ENGR 1000 | 1 | 1–2? | 15–31 |
+| **Total** | **13** | **24–32** | **372–495** |
+
+**Working figure: ~430 hours outside class, ~28 h/week.**
+
+**PHYS carries the most hours despite being 3 credits, not 4** — 75% of that grade is four
+closed-book unit exams plus a comprehensive final, so its hours are driven by assessment
+structure rather than credit count. It is roughly **37% of the total outside-class load**.
+
+**Two things that move the real number down:**
+
+1. **The +2 week buffer is already banked.** These figures describe a student starting cold on
+   Aug 24. Stages 1–4 and CSE Modules 0–1 are done — plausibly 30–50 hours already spent.
+2. **If the 21.75 h of mid-day campus gaps are worked**, ~28 h/week is nearly covered before any
+   evening work at all. If they are not, ~28 h/week means about **4 hours every evening and
+   weekend**. This is the 🔴 open question above, and it is worth more than any other estimate
+   on this page.
 
 ---
 
