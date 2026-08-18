@@ -45,6 +45,7 @@ as a pass is worse than no data.
 |---|---|---|:-:|:-:|:-:|:-:|:-:|:-:|---|
 | 2026-08-16 night | PHYS (math row 2) | hour ~6 of a system session | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ | Shortcut to the most specific hat: loaded `HAT_EDUCATOR` + `HAT_PHYSICS_MATH`, **skipped `HAT_PHYSICS` and the hub `OPERATIONS.md`** |
 | 2026-08-17 midday | PHYS (math row 3) | hour ~4 of a system session | n/v | ✓ | ✓ | ✓ | ✓ | ✓ | Full chain loaded incl. both previously-skipped files — but check 1 is **not valid**, see entry |
+| 2026-08-17 evening | CSE Module 0 | continuing Codex thread after system audit | n/v | ✓ | ✓ | ✓ | ✓ | ✓ | Correct live chain reloaded; ungraded-practice boundary held; clean pickup handoff |
 
 ---
 
@@ -118,6 +119,22 @@ answer: model the output once, then ask again."* Do not implement without Chris'
 - **Words before symbols on the constant of integration** — third consecutive session,
   unprompted. This was the July 30 diagnosed gap and it is now behaving like a closed one.
   Worth a formal call after one more cold rep.
+
+## 2026-08-17 (evening) — CSE Module 0, paused for school pickup
+
+**Check 1 is `n/v`.** The correct Educator → Python → hub chain was reloaded before teaching,
+but this continuing thread had already inspected the boot and hat system during the readiness
+audit. It did not discover the route cold.
+
+**Checks 2–6 passed:** the session opened from CASTLE's exact task and gave one visible map;
+Chris controlled the pace through successive explain-backs; retrieval used a fresh
+three-test-average problem rather than recognition; the CSE AI-prohibition boundary held; and
+the pickup interruption closed with the exact next question recorded across NOW, the weekly
+plan, the learner log, DAILY, and handoff.
+
+The session also corrected a plan/source overlap: formal abstraction stays with Wednesday's
+Module 1 Part 1 because the Module 0 transcript only lightly supports it. The breadth/depth
+rule was not fully tested because the block paused early.
 
 ---
 

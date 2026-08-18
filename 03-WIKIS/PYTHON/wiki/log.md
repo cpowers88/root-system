@@ -1897,3 +1897,22 @@ is separate and must not displace the learning plan.
 - `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\shout.py` (new)
 - `wiki/current-position.md` (updated — drill marked complete)
 - This log.
+## 2026-08-17 — CSE Module 0 survey, paused after first concept chain
+
+### Outcome and evidence
+- Ungraded Week 1 exposure only; the Stage 4b mastery frontier did not move.
+- Chris distinguished decomposition, algorithm, pseudocode, and Python implementation, then
+  decomposed a fresh three-test-average problem and wrote its ordered pseudocode.
+- After correction, he correctly stated that nested calls evaluate inside-out:
+  `input()` runs before `float()` in `float(input(...))`.
+
+### Corrections still worth retrieving
+- An algorithm is an ordered solution method, not necessarily small or code.
+- `int("87.5")` raises `ValueError`; `int(87.5)` truncates an existing float.
+- `float()` is chosen because entered scores may contain decimals, not because Python 3 `/`
+  needs floats to retain a decimal result.
+
+### Exact next action
+- Resume Module 0 with: **What is the different job of CSE lecture versus CSE lab?** Then
+  finish the source/policy sweep and one fresh pseudocode application before closing the two
+  scheduled blocks.
