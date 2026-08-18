@@ -2,18 +2,18 @@
 type: dashboard
 timeline: now
 tags: [learning, school, technology]
-generated: 2026-08-16
+generated: 2026-08-18
 ---
 
-# Evening Reading — August 16, 2026
+# Evening Reading — August 18, 2026
 
 ## School
 
-**READ —** No School reading assigned tonight.
+**READ —** Serway & Jewett, `raw/textbook/Physics book-0001-0100.pdf`, Ch 4 §4.4 Uniform Circular Motion, book pp. 81-83 (~PDF pp. 112-114).
 
-**FOCUS —** Monday's first daytime block is a D2L/syllabus recheck plus a mixed classification sweep of **already-covered** calculus-bridge material, not a new named topic, so there is nothing to prime without duplicating that rep.
+**FOCUS —** Primes tomorrow's circular-motion drill 1-4 cold-run and UCM 6.1-6.2 (Exam 1 material); **raw exposition only, never the drill file itself, to protect the cold gate.**
 
-**STOP —** Not applicable — nothing assigned, so no cap or boundary is needed.
+**STOP —** Cap 15 minutes; stop at the end of §4.4, before §4.5 tangential/radial acceleration.
 
 ## Technology
 
