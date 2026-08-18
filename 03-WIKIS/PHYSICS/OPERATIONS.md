@@ -51,14 +51,18 @@ exists.
 
 authority_rules:
   - Official exact-section material overrides every derivative page.
-  - Until Chris says otherwise, `raw/syllabus/PHYS 2211 51 (83719) Principles of
-    Physics I.md` controls the preparation topic path because it matches the Fall
-    term and instructor on Chris's registration paperwork. (Renamed 2026-08-08
-    when Chris removed the duplicate "Best copy" capture; schedule verified
-    identical.)
-  - Its section number, CRN, deadlines, grading, and instructor-specific policy
-    remain nonbinding for Section 54.
-  - When its topic label and printed chapter number disagree, the topic label
+  - **`raw/syllabus/Syllabus.pdf` — the exact Section 54 Fall 2026 syllabus, obtained
+    from Farhan Islam 2026-08-18 — is BINDING** for dates, grading, policy, and topic
+    path. Only D2L and the instructor outrank it.
+  - **Active-path scope is Chapters 1–12, 15, and 16.1–16.3.** Stages 13, 14, 17 and 18
+    are durable reference, not course path. Do not activate them for PHYS 2211.
+  - The neighbour captures are retired. `raw/syllabus/PHYS 2211 51 (83719) …md` stays in
+    `raw/` as immutable evidence but paces nothing; the two `04-SCHOOL` working copies
+    were archived 2026-08-18. Where a neighbour disagrees with the §54 PDF, the PDF wins.
+  - Four known defects in the §54 PDF are catalogued in `wiki/semester-pathway.md`
+    § Defects. The most load-bearing: the header says lecture meets M/W/**Th**, but all
+    45 scheduled dates and the registrar say **MWF**. MWF is correct.
+  - When a topic label and printed chapter number disagree, the topic label
     controls and Serway's table of contents identifies the correct chapter.
   - The textbook supplies explanations, derivations, examples, and practice in
     the syllabus order; textbook order does not independently control sequencing.
@@ -267,8 +271,24 @@ AI MUST NOT draft, solve, rewrite, or debug prohibited submitted coursework.
 Do not transform a live assignment or graded problem into nominal "practice."
 When graded status, source ownership, or policy is unclear, stop and ask Chris.
 
-Until the exact PHYS 2211 Section 54 policy is verified, treat neighbor-section
-policy as provisional and use the more restrictive safe boundary.
+### §54's policy is verified as of 2026-08-18 — the holding position is retired
+
+The exact Section 54 syllabus states the policy directly, and it is **not** blanket
+prohibition:
+
+- **Permitted** — reviewing explanations of course concepts; practising problem-solving
+  technique with AI *"as a tutoring resource to guide you through the problem-solving
+  process, rather than to generate final answers"*; exploring examples and seeking
+  clarification on difficult topics.
+- **Prohibited** — AI-generated content submitted as part of any graded assignment,
+  quiz, lab, project, or exam; copying or paraphrasing AI text into submitted work;
+  using AI to complete problems or write explanations submitted as Chris's own.
+  Unacknowledged AI-assisted submission is treated as another person's work under the
+  KSU Code of Academic Integrity.
+
+**This is the engine this hub already runs.** Nothing about the teaching contract
+changes. The one operational edge: **WebAssign homework is graded (10%), so AI must
+never produce a WebAssign answer** — teach the method, Chris solves it himself.
 
 ## Raw boundary
 

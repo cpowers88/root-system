@@ -19,9 +19,14 @@ updated: 2026-08-17
 
 ## Why this course is ranked first
 
-Four meetings a week, cumulative calculus-based problem solving, and **still no Section 54
-syllabus** — no grading weights, no exam count, no policy (flag #57). First exam expected
-around week 4: **conceptual fluency beats formula hunting.**
+Four meetings a week and cumulative calculus-based problem solving. **75% of the grade is
+four closed-book sittings** — unit exams 45% (lowest of four dropped) plus a comprehensive
+final at 30%. First exam **Mon Sep 21.**
+
+**The equation sheet is provided at every exam.** So conceptual fluency does not merely
+beat formula hunting here — formula hunting is not on the test. What *is* tested is
+reading a worded problem and naming the situation, the model, and the setup, cold and
+fast. Weight every drill that way.
 
 ## Chris steers
 
@@ -154,7 +159,9 @@ constant that an initial condition must fix.**
    feeling. Model it once before asking for it; if Chris skips a requested output twice, the
    problem is the request, not the answer.
 4. **Right-hand rule gets a physical anchor** the first session that touches vector products
-   (flag #16 — arrives with rotation/torque). Curl the fingers in the rotation direction; the
+   (flag #16). **Now dated: torque and moment of inertia are lectured Fri Oct 23, so on the
+   one-week-ahead rule the anchor is due in the Oct 12–18 study window.** Curl the fingers
+   in the rotation direction; the
    thumb is the vector. Use his hands and a real tool — a wrench, a breaker bar. Never a symbol
    rule.
 5. **Trigonometry** supports rather than leads: right-triangle ratios, inverse trig, **quadrant
@@ -189,16 +196,34 @@ maps, drills, flashcards, common-errors, appendix lookup tables.
 **Promotion trigger:** create a general `HAT_MATH.md` when ISYE coursework, statistics, or data
 work demands math this hat does not cover — not before. Structure follows evidence.
 
-## Course facts
+## Course facts — ✅ exact §54 syllabus in hand since 2026-08-18
 
-**Farhan Islam** — confirmed for §54 by two independent sources (online listing + the Outlook
-registration record, CRN 83722); `fislam7@kennesaw.edu`.
-**MWF 09:10–10:05**, Academic Building 200 · **breakout Fri 11:30–12:25**, Atrium 1116.
+**Farhan Islam**, `fislam7@kennesaw.edu` *(the syllabus's Email Policy paragraph prints
+`kpemasir@` — boilerplate debris, ignore it)*.
+**MWF 09:10–10:05**, Academic Building 200 · **recitation §54 Fri 11:30–12:25**, Atrium 1116.
 **Platform:** WebAssign · **Text:** Serway & Jewett, 10th ed. (`04-SCHOOL\02-Physics I\physic.pdf`).
 
-**⚠ Everything section-specific is unknown** — grading, exam count, policies, calendar.
-Neighbor sections 51/55 are pacing references only and bind nothing. **Treat AI as prohibited
-on graded work until §54's own syllabus says otherwise.**
+**Source:** `03-WIKIS\PHYSICS\raw\syllabus\Syllabus.pdf` — binding. Closed the PHYS half of
+flag #57.
+
+| | |
+|---|---|
+| **Scope** | **Ch 1–12, 15, 16.1–16.3.** Ch 13, 14, 17, 38 are **not on this course** |
+| **Grading** | Unit exams 45% (4, **lowest dropped**) · Final 30% · HW 10% · Recitation worksheet 10% · Quizzes 5%. All small components drop their lowest. **No attendance component** |
+| **Exams** | **Mon Sep 21 · Mon Oct 12 · Wed Nov 4 · Wed Nov 18** · **Final Wed Dec 9, 8:00–10:00 AM** (comprehensive) |
+| **Exam conditions** | Closed book, **equation sheet provided**, basic scientific calculator only — phones, laptops, tablets prohibited. **No make-ups**; a missed exam becomes the dropped one |
+| **Scale** | 90/80/70/60, rounds up at ≥ .1 (89.1 = A) |
+| **Homework** | WebAssign, weekly. **Late = zero.** Extensions granted *with penalty* only if requested **before** the deadline |
+
+**AI policy — verified, and permissive.** AI is **explicitly permitted as a tutoring
+resource** for explanations, guided problem-solving technique, examples, and clarification.
+**Prohibited: any AI-generated content in submitted work** — homework, quizzes, projects,
+exams. **WebAssign is graded, so never produce a WebAssign answer.** Teach the method;
+Chris solves it himself.
+
+**Two day-one questions the syllabus cannot answer:** where/when §54 sits the unit exams
+(they print at 10:20–11:15, the §51–53 recitation slot), and whether the pattern is MWF or
+M/W/Th (45 dates say MWF; one header line says Thursday — **MWF is correct**).
 
 **When facts conflict, defer — never average.** Authority order: D2L and the exact-section
 instructor → `04-SCHOOL\SEMESTER_MAP.md` → the exact-section syllabus capture → any hat. Say so

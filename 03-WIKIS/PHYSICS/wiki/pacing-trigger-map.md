@@ -23,21 +23,30 @@ actually are. This page is the *schedule pressure* against that truth — if
 they disagree, current-position wins and this page tells you how far behind
 or ahead of pace you are.
 
-## Controlling Source and Limits
+## Controlling Source and Limits — rewritten 2026-08-18
 
-| Confirmed or Chris-selected | Still unconfirmed for Section 54 |
+**The exact Section 54 syllabus arrived.** `raw/syllabus/Syllabus.pdf` (Fall 2026,
+Farhan Islam) now supplies every date this page used to estimate. The estimate columns
+are gone.
+
+| Now confirmed from the §54 syllabus | Still open |
 |---|---|
-| PHYS 2211 Section 54 meets **Mon/Wed/Fri 9:10–10:05 AM**, Academic Building Room 200, Marietta Campus | Which chapter is lectured on which specific day |
-| Friday **breakout/recitation 11:30 AM–12:25 PM**, Atrium Building Room 1116 | Exam dates (soft estimate: ~Sep 25, ~Oct 30, ~Nov 20) |
-| Semester runs **Aug 24 – Dec 14, 2026** | Fall Break's exact date (both source syllabi are silent/unclear on it) |
-| Farhan Islam is the instructor on Chris's registration paperwork | Section 54 grading, deadlines, exam mechanics, and instructor policies |
-| The Fall Section 51/Farhan syllabus controls the preparation topic path until Chris says otherwise | Its Section 51 CRN and administrative details do not become Section 54 truth |
+| Lecture **Mon/Wed/Fri 9:10–10:05 AM**, Academic Building 200 — *the syllabus header says "Monday, Wednesday, and Thursday", but all 45 scheduled dates are M/W/F and the registrar agrees. Treat "Thursday" as a typo* | **Where and when §54 sits the four unit exams.** They print at 10:20–11:15, which is the §51/52/53 recitation slot, not Chris's Friday 11:30 |
+| **Recitation §54 Friday 11:30 AM–12:25 PM**, Atrium 1116 | Whether the instructor shifts anything once D2L opens |
+| Semester **Aug 24 – Dec 14, 2026**; **Thanksgiving break Nov 23–29** | |
+| **Farhan Islam**, `fislam7@kennesaw.edu` *(the Email Policy paragraph's `kpemasir@` is boilerplate debris — use `fislam7@`)* | |
+| **Exact topic-by-day schedule for all 15 weeks** | |
+| **All four unit exam dates + the final**: Sep 21, Oct 12, Nov 4, Nov 18, and **Wed Dec 9, 8:00–10:00 AM** | |
+| **Grading**: exams 45% (4, lowest dropped) · final 30% · HW 10% · recitation worksheet 10% · quizzes 5%. **No attendance component** | |
+| **Scope**: Ch 1–12, 15, 16.1–16.3. **Ch 13, 14, 17, 38 are not on this course** | |
 
-The path source is
-`raw/syllabus/PHYS 2211 51 (83719) Principles of Physics I.md`.
-Its topic labels control preparation. Several printed chapter-number and date
-cells are internally wrong; use the textbook table of contents to locate the
-named topic and D2L to confirm dates.
+The path source is **`raw/syllabus/Syllabus.pdf`**. Its schedule is internally consistent
+across all 15 weeks — unlike the neighbour captures, nothing past Week 8 is scrambled.
+The two `04-SCHOOL` neighbour working copies were archived 2026-08-18; the `raw/` §51
+capture stays as immutable evidence but is no longer a pacing source.
+
+**Full detail, exam coverage, and the study-window table live in [[semester-pathway]].**
+This page keeps the *trigger* logic; that page keeps the calendar.
 
 ## Trigger Rule 1 — The Weekend Read-Ahead
 
@@ -55,13 +64,24 @@ topic estimate.
 
 ## Trigger Rule 2 — Exam Approach
 
-> **The Sunday one week before an estimated exam date, stop new-material
-> reading and run a pre-exam sweep**: `common-errors/` and `flashcards/` for
-> every stage covered since the last exam, plus a cold pass on that range's
-> mastery checklists.
+> **The Sunday one week before an exam date, stop new-material reading and run a
+> pre-exam sweep**: `common-errors/` and `flashcards/` for every stage covered since
+> the last exam, plus a cold pass on that range's mastery checklists.
 
-Applies to the three soft exam dates below whenever a real one is confirmed
-in D2L — shift the trigger date to match.
+**The four real dates, and the Sunday each sweep starts** (confirmed 2026-08-18):
+
+| Exam | Date | Sweep begins | Covers |
+|---|---|---|---|
+| Unit Exam 1 | **Mon Sep 21** | Sun **Sep 13** | Ch 1–5 + 6.1–6.2 |
+| Unit Exam 2 | **Mon Oct 12** | Sun **Oct 4** | Ch 6.3–6.4, 7, 8, 9.1–9.3 |
+| Unit Exam 3 | **Wed Nov 4** | Sun **Oct 25** | Ch 9.4–9.7, 10, 11 |
+| Unit Exam 4 | **Wed Nov 18** | Sun **Nov 8** | Ch 12.1, 12.3, 15 |
+| **Final** | **Wed Dec 9, 8–10 AM** | Sun **Nov 29** | **Comprehensive** |
+
+**Sweep content is weighted differently now that the equation sheet is supplied at every
+exam.** Flashcard formula recall drops in value; cold *classification* — reading a worded
+problem and naming the model, chapter, and setup — is what the exam actually tests. See
+[[semester-pathway]] § "The equation sheet is supplied."
 
 ## Trigger Rule 3 — Mastery, Not Calendar, Moves the Active Stage
 
@@ -83,45 +103,61 @@ in D2L — shift the trigger date to match.
 
 > **The first day Section 54 shows real content in D2L**, treat that as a
 > hard trigger to re-run the syllabus cross-check: update `source-map.md`,
-> `syllabus-coverage-ledger.md`, `learning-path.md`, and this page's Topic
-> column in one pass, the same way the two neighbor syllabi were reconciled
-> on 2026-07-21.
+> `syllabus-coverage-ledger.md`, `learning-path.md`, [[semester-pathway]], and this
+> page in one pass.
 
-## Week-by-Week Farhan Preparation Path
+**This trigger already fired once, early and from a better surface.** On 2026-08-18 the
+exact §54 syllabus arrived from the instructor rather than from D2L, and the full
+cross-check ran that day. **It fires again on Aug 24** when D2L opens — the instructor
+outranks the PDF, and the two day-one questions below need answers.
 
-This is the controlling topic sequence, not a claim that Section 51's dates,
-tests, or grading bind Section 54.
+## Week-by-Week Path — real §54 dates, confirmed 2026-08-18
 
-| Week of | Real class days | Estimated topic | Ch | Stage | Sunday read-ahead trigger |
+**This is the actual lecture schedule**, read from `raw/syllabus/Syllabus.pdf`. It is no
+longer an estimate and no longer a neighbour section's topic order.
+
+**Read this table as "what class is doing."** What *Chris* studies each week is one week
+ahead of it — that pairing lives in [[semester-pathway]] § Phase 2.
+
+| Week of | Class days | Topic | Serway | Stage | Sunday read-ahead |
 |---|---|---|---|---|---|
-| Aug 24 | M W F | Intro, Measurements → Motion in 1D | 1–2 | 1–2 | Read [[stages/stage-1-physics-and-measurement]] before Aug 24 (first class) |
-| Aug 31 | M W F | Vectors → Motion in 2D / projectile motion | 3–4 | 3–4 | [[stages/stage-3-vectors]], then [[stages/stage-4-motion-in-two-dimensions]] |
-| Sep 7 | M W F | Laws of motion begin | 5 | 5 | [[stages/stage-5-laws-of-motion]] |
-| Sep 14 | M W F | Applications of Newton's laws; syllabus test marker | 5 | 5 close-out | Stage 5 drills and pre-assessment sweep |
-| Sep 21 | M W F | Universal gravitation and friction | 13 foundation + 5 | 13 foundation | Gravitational force and inverse-square scaling; defer orbit-energy work |
-| Sep 28 | M W F | Circular motion and work | 6–7 | 6→7 | [[stages/stage-6-circular-motion]], then Stage 7 work bridge |
-| Oct 5 | M W F | Conservation of energy | 7–8 | 7–8 | [[stages/stage-7-energy-of-a-system]], [[stages/stage-8-conservation-of-energy]] |
-| Oct 12 | M W F | Momentum and collisions; syllabus test marker | 9 | 9 | [[stages/stage-9-linear-momentum]] |
-| Oct 19 | M W F | Rotation | 10 | 10 | [[stages/stage-10-rotation]] |
-| Oct 26 | M W F | Torque and rotational kinetic energy | 10–12 by topic | 10→12 | Use topic labels; ignore conflicting printed chapter cells |
-| Nov 2 | M W F | Angular momentum and static equilibrium; syllabus test marker | 11–12 | 11→12 | [[stages/stage-11-angular-momentum]], [[stages/stage-12-static-equilibrium]] |
-| Nov 9 | M W F | Hooke's law and simple harmonic motion | 15 | 15 | [[stages/stage-15-oscillatory-motion]] |
-| Nov 16 | M W F | Introductory wave motion | 16 | 16 | [[stages/stage-16-wave-motion]] |
-| Nov 23 | Thanksgiving window | Break / no new path topic | — | — | Catch-up or rest |
-| Nov 30 | M W F | Wave functions and superposition; syllabus test marker | 16–17 | 16→17 | [[stages/stage-17-superposition]] |
-| Dec 7 | Finals window | Semester review | all activated | review | Full-course flashcard, error, and mastery sweep |
+| Aug 24 | M W F | Measurements → Motion in 1D (both halves) | 1.1–1.6, 2.1–2.9 | 1–2 | Already held — read ahead to Ch 3–4 |
+| Aug 31 | M W F | Vectors → 2D motion → projectile + UCM | 3.1–3.4, 4.1–4.2, 4.4–4.5 | 3–4 | [[stages/stage-5-laws-of-motion]] |
+| Sep 7 | **W F only** — Labor Day Mon Sep 7 | Force, Newton's 1st → 2nd and 3rd | 5.1–5.4, 5.6 | 5 | Weight/FBD, friction, UCM |
+| Sep 14 | M W F | Weight and FBD → friction and connected systems → **uniform circular motion** | 5.5, 5.7, 5.8, 6.1–6.2 | 5→6 | 🔴 **EXAM 1 SWEEP** — retrieval, not new material |
+| Sep 21 | M W F | 🔴 **UNIT EXAM 1 (Mon)** → accelerated frames → resistive forces | 6.3, 6.4 | 6 | [[stages/stage-7-energy-of-a-system]] |
+| Sep 28 | M W F | Dynamics applications → work, constant and variable force → KE and work–energy theorem | 5.7, 7.1–7.5 | 7 | Ch 7.6–9.3 |
+| Oct 5 | M W F | Conservative/nonconservative forces and PE → mechanical energy and power → momentum and impulse | 7.6–7.9, 8.1–8.5, 9.1–9.3 | 7–9 | 🔴 **EXAM 2 SWEEP** |
+| Oct 12 | M W F | 🔴 **UNIT EXAM 2 (Mon)** → collisions in 1D → collisions in 2D | 9.4, 9.5 | 9 | [[stages/stage-10-rotation]] |
+| Oct 19 | M W F | Centre of mass → rotation and angular variables → **torque and moment of inertia** | 9.6–9.7, 10.1–10.5 | 9→10 | ⚠ **flag #16 — right-hand rule anchor is due before Oct 23** |
+| Oct 26 | M W F | Moment of inertia and rotational KE → energy conservation in rotation → angular momentum and torque | 10.6–10.9, 11.1–11.2 | 10–11 | 🔴 **EXAM 3 SWEEP** + [[stages/stage-12-static-equilibrium]] |
+| Nov 2 | M W F | Conservation of angular momentum → 🔴 **UNIT EXAM 3 (Wed)** → static equilibrium | 11.2–11.4, 12.1 | 11–12 | [[stages/stage-15-oscillatory-motion]] |
+| Nov 9 | M W F | Applications of static equilibrium → SHM → energy in SHM | 12.3, 15.1–15.3, 15.5 | 12→15 | 🔴 **EXAM 4 SWEEP** |
+| Nov 16 | M W F | Damped and forced oscillations → 🔴 **UNIT EXAM 4 (Wed)** → wave propagation and traveling waves | 15.6–15.7, 16.1–16.2 | 15→16 | [[stages/stage-16-wave-motion]] |
+| Nov 23 | **Thanksgiving — no classes Nov 23–29** | — | — | — | Consolidation only |
+| Nov 30 | M W F | Wavelength, frequency, wave speed → comprehensive review → comprehensive review | 16.3 | 16 | Full-course retrieval |
+| Dec 7 | M only | Final exam prep and wrap-up. **Last day of classes** | — | review | Final sweep |
+| **Dec 9** | **🎓 FINAL EXAM, Wed 8:00–10:00 AM** | **Comprehensive** | 1–12, 15, 16.1–16.3 | all | — |
 
-**Fall Break:** neither neighbor syllabus gives a confirmed date (Section 51
-lists it as an unlabeled calendar row; Section 55 doesn't show it at all).
-Not placed in the table above — check D2L/the official KSU academic calendar
-and slot it in once known.
+**Thanksgiving break is confirmed: Nov 23–29.** The old "check D2L for Fall Break" item is
+closed.
 
-Stage 14 fluids and Stage 18 relativity are not on this controlling calendar.
-Keep their packets as durable references but do not activate them without Chris
-or exact Section 54 evidence.
+**Chapters 13 (universal gravitation), 14 (fluids), 17 (superposition), and 38–39
+(relativity) are not on this course.** Their stage packets stay built as durable
+reference; do not activate them for PHYS 2211. This shrink is authorised by the exact
+§54 calendar, satisfying [[syllabus-coverage-ledger]]'s standing rule against shrinking
+the path on neighbour evidence alone.
+
+## Two day-one questions this schedule cannot answer
+
+1. **Where and when does §54 sit the unit exams?** They print at 10:20–11:15 AM, which is
+   the §51/52/53 recitation slot — not Chris's Friday 11:30. No timetable conflict either
+   way, but he needs the room.
+2. **Is the meeting pattern MWF or M/W/Th?** All 45 dates say MWF; one header line says
+   Thursday. Confirm and stop re-litigating it.
 
 ## Last Updated
 
-2026-07-28 — Section 51/Farhan syllabus selected by Chris as the controlling
-preparation path until he says otherwise. Exact Section 54 D2L evidence still
-supersedes administrative details and may revise the path.
+**2026-08-18** — rebuilt on the exact Section 54 syllabus obtained from Farhan Islam.
+Every estimated date replaced with a printed one; scope shrunk to Ch 1–12, 15, 16.1–16.3;
+neighbour-section pacing retired. D2L and the instructor still supersede this page.

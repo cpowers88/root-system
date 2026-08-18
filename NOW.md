@@ -5,7 +5,7 @@ status: active
 tags: []
 ---
 
-# NOW — Monday, August 17, 2026
+# NOW — Tuesday, August 18, 2026
 
 > ## ▶ `.ROOT` IS RUNNING. Chris gave `OK TO START` on 2026-08-17.
 >
@@ -26,17 +26,22 @@ everything else slides.
 
 ### Today
 
-1. ✅ **Instructor emails — SENT 2026-08-17** (flag #57 escalation executed). Islam for
-   PHYS §54; **Raoufi** for ENGR BWD, asking how the 50% attendance component works in a
-   web section. **Flag stays open — sent is not received. Check Fri Aug 21;** if nothing,
+1. ✅ **PHYS §54 SYLLABUS RECEIVED AND RECONCILED — 2026-08-18.** Islam answered Monday's
+   escalation overnight. **Flag #57's PHYS half is closed**; `semester-pathway.md` is rebuilt
+   on real dates. **ENGR BWD is now the only open half — check Fri Aug 21;** if nothing,
    plan ENGR as if attendance is graded and verify when D2L opens Aug 24.
-   **Ask ENGR a sharper question:** both syllabi on disk are Fall 2025 sections that
-   *meet*, and 50% of the grade is attendance quizzes — ask how that is assessed in a
-   web section. Detail: `04-SCHOOL\SYLLABUS_STATUS.md` § ENGR 1000.
-2. **CSE Week 1 — Module 0** (2 blocks), from the transcripts on disk. Practice only.
+2. **CSE Week 1 — Module 0** (2 blocks), from the transcripts on disk. **IN PROGRESS —
+   paused for school pickup after the first concept chain:** decomposition → algorithm →
+   pseudocode → implementation. Resume with the lecture-vs-lab distinction. Practice only.
 3. ✅ **PHYS row 3 — PASSED 2026-08-17.** Both integrations rebuilt cold with constants
    named physically; the `v²` elimination shown once. **No stage moved** — Stage 4 is still
    open at circular-motion drills 1–4.
+
+**Standing rule, new Aug 18 — WebAssign extensions.** Late homework is a flat zero because
+answer keys post at the deadline, **but** an extension can be granted *with penalty* if
+requested **before** it. **The moment a day collapses, file the extension request first** —
+before recovering the day, not after. Given the last two days, this is the most likely place
+all semester to lose points to something that is not physics.
 
 **Held resume points:** PHYSICS → **row 4** (`calculus-links/kinematics-derivatives`),
 **plus an owed 48–72 h durability check on rows 2–3, Tue–Wed** — row 3 ran inside the
@@ -49,9 +54,12 @@ Watch on row 4; a fourth drop means the cause is not missing form.
 
 ## Frontier Changes — clears once shown
 
-- **🎓 PHYSICS math-readiness row 2 PASSED (Aug 16 night)** — first learner proof since
-  July 30; Move-On Gate met in full. No stage moved; Stage 4 still open at circular-motion
-  drills 1–4. Record: `PHYSICS\wiki\log.md`.
+- **📄 PHYS §54 syllabus is binding as of Aug 18 — the semester scope shrank.** Course is
+  **Ch 1–12, 15, 16.1–16.3**: no universal gravitation, no fluids, no superposition, no
+  relativity. Exams **Sep 21 · Oct 12 · Nov 4 · Nov 18**, final **Wed Dec 9, 8–10 AM**.
+  **75% of the grade is four closed-book sittings, and the equation sheet is provided** —
+  so drills shift from formula recall to cold classification. **AI is permitted as a tutor,
+  prohibited in submitted work.** Rebuilt: `PHYSICS\wiki\semester-pathway.md`.
 - **PYTHON unchanged** — Stage 4b, resume at C1.
 
 ## Needs Chris
@@ -69,6 +77,12 @@ Watch on row 4; a fourth drop means the cause is not missing form.
 - **Aug 22 — dress rehearsal**, full day on the real Fall timetable. Do not compress.
 - **Aug 23 — final pre-semester review**, plus the backup review and flag #102's close check.
 - **Aug 24 — classes begin.**
+- **Aug 28, 11:45 PM — two PHYS deadlines on one day.** Last day to add/drop, **and** the
+  Day One Access opt-out. Owl Express is already charged for the WebAssign + eBook bundle;
+  opting out refunds it and removes access. **Recommend not opting out** — homework is 10%
+  and runs entirely through WebAssign. Needs your call before Aug 28.
+- **Before Sep 21 — basic scientific calculator, exam-legal.** Phones, laptops and tablets
+  are prohibited in PHYS exams. Do you have one?
 
 ## Open Risks
 
@@ -82,8 +96,9 @@ All open flags: **`00-BRAIN\SYSTEM_FLAGS.md`**. Control reality: `.claude\CONTRO
 
 ## Boundaries
 
-School deadlines and academic integrity are fixed · CSE, ENGR and PHYS are AI-prohibited
-on submitted work; ECON permits AI if credited · no outreach, publishing or pricing without
+School deadlines and academic integrity are fixed · CSE and ENGR are AI-prohibited on
+submitted work; **PHYS §54 permits AI as a tutor but not in submitted work — never a
+WebAssign answer**; ECON permits AI if credited · no outreach, publishing or pricing without
 Chris's approval · bulk edits need copy-first **and** `safe_shell.sh` · no writes under any
 `raw\`; `88-JOURNAL` is never read · the safe word `Richard F` executes as stated.
 

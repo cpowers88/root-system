@@ -22,23 +22,26 @@ bottom for what has to close before then.
 | CSE 1321L | 04 (86703) | `03-WIKIS\PYTHON\raw\syllabi\CSE 1321L 04 (86703) Fall 2026 Syllabus.md` | Exact section |
 | ECON 1000 | BAC (80643) | `03-WIKIS\EDUCATION\raw\Syllabi\ECON 1000 BAC (80643) Fall 2026 Syllabus.md` | Exact section |
 | TCOM 2010 | 04 (85633) | `03-WIKIS\EDUCATION\raw\Syllabi\TCOM 2010 04 (85633) Fall 2026 Syllabus.md` | Exact section |
+| **PHYS 2211** | **54 (83722)** | **`03-WIKIS\PHYSICS\raw\syllabus\Syllabus.pdf`** | ✅ **Exact section — received 2026-08-18** direct from Farhan Islam. Byte-identical working copy at `04-SCHOOL\02-Physics I\Syllabus.pdf` (hash verified). Lists recitations 51–54 under one lecture, **including §54 (Fri 11:30–12:25, Atrium 1116)** |
 
 ## Reference-Only Sources
 
 | Course | Registered section | Available Markdown source | Use boundary |
 |---|---|---|---|
-| PHYS 2211 | 54 (83722) | `03-WIKIS\PHYSICS\raw\syllabus\PHYS 2211 51 (83719) Principles of Physics I.md` (Chris's selected path-truth source; the duplicate "Best copy" capture was removed 2026-08-08 and the surviving file's schedule verified identical); `04-SCHOOL\02-Physics I\PHYS 2211 55 (83723) Fall 2026 Syllabus - Reference Only.md`; `99-ARCHIVE\ARCHIVED_2026-07-29_PHYS 2211 54 (52148) Principles of Physics I.md` (Summer term, same section number/different CRN+instructor — retired to archive by Chris 2026-07-29, kept as scope corroboration only) | No exact Fall Section 54 syllabus. Section 51 matches likely instructor Farhan Islam and is the primary provisional pacing source; none of these three make Section 54 dates, grading, or policy binding |
+| ~~PHYS 2211~~ | ~~54 (83722)~~ | **Superseded 2026-08-18 — see the exact-section row above.** The `raw/` §51 capture stays as immutable evidence; the two `04-SCHOOL` working copies (§51 and §55) were archived to `99-ARCHIVE\ARCHIVED_2026-08-18_PHYS_neighbour_syllabi\` because they sat beside the real `Syllabus.pdf`. `99-ARCHIVE\ARCHIVED_2026-07-29_PHYS 2211 54 (52148)…md` remains a Summer-term scope corroboration only | **No longer used for pacing.** §51 is now known to be a *sibling recitation of Chris's own lecture*, which is why it paced the course well; §55 is Behera's separate lecture |
 | ENGR 1000 | BWD (80858) | **Two Fall 2025 captures, both on disk:** `03-WIKIS\EDUCATION\raw\Syllabi\ENGR 1000 Section 05 (81217) Introduction to Engineering.md` (captured 2026-08-07) and `...\ENGR 1000 Section BD (81208) Introduction to Engineering.md` (captured 2026-08-14, Lori Lowder) | Neither is Fall **2026**, and neither is section BWD. See the ENGR note below — their bodies are identical, which is itself evidence |
 
-## Missing Current Sources — the two real gaps
+## Missing Current Sources — **one real gap left**
 
-- **PHYS 2211 Section 54** has no section-specific syllabus. `04-SCHOOL\fall_KSU_schedule.md`
-  (Chris's actual Outlook registration confirmation, captured 2026-07-29) independently confirms the
-  instructor as **Farhan Islam** and the meeting times (Fri 11:30–12:25, MWF 9:10–10:05, CRN 83722) —
-  stronger than the earlier provisional online-listing match, but still not the syllabus content itself
-  (grading weights, exam count, policies, calendar).
-- **ENGR 1000 Section BWD** has no current Fall 2026 syllabus as of 2026-07-29.
-- D2L access exists but Chris reports that course content is not populated as of the last check.
+- ✅ **PHYS 2211 Section 54 — CLOSED 2026-08-18.** Chris obtained the exact syllabus direct
+  from Farhan Islam. Grading weights, all four unit-exam dates plus the final, the AI policy,
+  and a clean internally-consistent 15-week calendar are all now known. **The registration
+  record's MWF 9:10–10:05 + Fri 11:30–12:25 is confirmed** — note the syllabus header
+  mistakenly says "Monday, Wednesday, and Thursday", contradicted by all 45 of its own dates.
+  Full reconciliation: `03-WIKIS\PHYSICS\wiki\semester-pathway.md`.
+- **ENGR 1000 Section BWD** still has no current Fall 2026 syllabus. **This is now the only
+  outstanding syllabus gap in the semester**, and flag #57 narrows to it alone.
+- D2L opens **Aug 24**; course content is not populated before then, which is expected.
 
 Recheck Simple Syllabus and D2L when the courses populate. Exact-section materials supersede reference-only sources when they become available.
 
@@ -135,16 +138,27 @@ confirmed superseded by the current captures above and renamed with the
 
 ## Pre-Semester Punch List — before August 24, 2026
 
-Two real gaps remain; everything else in this file is filed and current.
+**One gap remains.** Everything else in this file is filed and current.
 
 | Gap | Owner | Next check | Trigger |
 |---|---|---|---|
-| PHYS 2211 §54 exact syllabus (grading, exam count, policies, calendar) | Chris — D2L/Simple Syllabus, or ask Farhan Islam directly once confirmed | Recheck D2L weekly from mid-August; escalate to a direct instructor email if nothing posts by **Aug 17** (one week before class start) | `SYSTEM_FLAGS.md` #57 |
-| ENGR 1000 BWD exact syllabus | Chris — D2L/Simple Syllabus | Same cadence: weekly recheck from mid-August, direct email if nothing by **Aug 17** | `SYSTEM_FLAGS.md` #57 |
+| ~~PHYS 2211 §54 exact syllabus~~ | — | ✅ **CLOSED 2026-08-18.** The Aug 17 escalation email to Islam worked — the syllabus arrived the next morning | — |
+| **ENGR 1000 BWD exact syllabus** + how the 50% attendance component works in a web section | Chris — D2L/Simple Syllabus, or Kamyar Raoufi (`kraoufi@`) | **Fri Aug 21** — no reply → plan as if attendance is graded and verify when D2L opens **Aug 24** | `SYSTEM_FLAGS.md` #57 |
 
-Both courses' AI policies are already known from their reference sources
-(ENGR: AI prohibited; PHYS: not yet stated by either neighbor section — treat
-as prohibited until Section 54's own syllabus says otherwise, per EDUCATION's
-most-restrictive-until-verified rule). Nothing else blocks Aug 24 readiness —
-CSE 1321, CSE 1321L, ECON 1000, and TCOM 2010 all have exact-section sources
-in hand.
+**The escalation is worth recording as evidence, not just as a closed row.** Both emails
+went out Mon Aug 17 after `SEMESTER_MAP.md` established that D2L would not open until Aug
+24 and email was therefore the only path. PHYS answered within a day. That converted the
+semester's largest unknown into its best-documented course with six days to spare.
+
+**AI policies, all five courses:**
+
+| Course | Policy |
+|---|---|
+| CSE 1321 / 1321L | Prohibited on submitted work |
+| ENGR 1000 | Prohibited |
+| **PHYS 2211 §54** | **Permitted as a tutoring resource** (explanations, guided technique, examples, clarification); **prohibited in submitted work.** WebAssign is graded — no AI-produced answers |
+| ECON 1000 | Permitted if credited |
+| TCOM 2010 | Verify per assignment |
+
+Nothing else blocks Aug 24 readiness — CSE 1321, CSE 1321L, ECON 1000, TCOM 2010 and now
+PHYS 2211 all have exact-section sources in hand.

@@ -10,9 +10,13 @@ created: 2026-08-13
 
 ### Built 2026-08-13 from the exact-section syllabi on disk. Companion to `SYLLABUS_STATUS.md` (which owns source status) and `fall_KSU_schedule.md` (registrar record).
 
-> **⚠ Read this first: the three syllabi do not use the same date system, and two of them are
+> **⚠ Read this first: the syllabi do not use the same date system, and two of them are
 > wrong.** This map converts everything to real Fall 2026 dates and marks the confidence of
 > each. **Where a date is marked 🔴, D2L governs and this file does not.**
+>
+> **Updated 2026-08-18 — PHYS 2211 moved 🔴 → 🟢.** The exact §54 syllabus arrived from the
+> instructor with all five exam dates, real grading weights, and a clean 15-week schedule.
+> **ENGR 1000 BWD is now the only 🔴 course**, and flag #57 narrows to it alone.
 
 ---
 
@@ -58,7 +62,9 @@ first two class meetings, and it is the course with the least structure.
 | **Tue Aug 25** | 🟡 TCOM | **Course Policies Quiz** + **File Naming Convention Quiz** *(syllabus shows them assigned week 1 Tuesday and due week 2 Tuesday — do them early)* |
 | **Thu Aug 27** | 🟡 TCOM | Business Email draft worked in class; Ethics Analysis assigned. Read **Ch. 2.13 Emails & Memos**, then **Ch. 3 Ethics** |
 | Week 1 | 🟢 CSE | **Module 0** — welcome, policies, decomposition, algorithms & abstraction |
-| Week 1 | 🔴 PHYS | Unknown — no §54 syllabus |
+| **Mon Aug 24** | 🟢 PHYS | **Measurements, 1.1–1.6.** Read before class — reading quizzes are graded |
+| **Wed Aug 26** | 🟢 PHYS | Motion in 1D, 2.1–2.4 |
+| **Fri Aug 28** | 🟢 PHYS | Motion in 1D with constant acceleration, 2.5–2.9 · **first §54 recitation, 11:30, Atrium 1116** |
 | Week 1 | 🔴 ECON | Unknown — all dates live on D2L |
 | Week 1 | 🔴 ENGR | Unknown — no syllabus, no meeting format |
 
@@ -169,12 +175,50 @@ Patrono) is D2L Day One Access-only, so the chapter mapping in the EDUCATION sem
 OpenStax and CORE Econ as substitutes and is **unverified against the real book.** Spot-check it
 when D2L opens Aug 24.
 
-### PHYS 2211 🔴 — flag #57, the largest unknown in the semester
+### PHYS 2211 🟢 — **resolved 2026-08-18. Was the largest unknown in the semester.**
 
-**No Section 54 syllabus exists.** Section 51 (same likely instructor) suggests: four tests with
-the best three counting, final worth 25%, attendance 7.5% + recitation 7.5%, WebAssign homework,
-Serway & Jewett 10th ed. **None of this is binding on §54** — grading weights, exam count,
-policy, and calendar are all unknown for a 3-credit course meeting four times a week.
+Chris obtained the **exact Section 54 syllabus** from Farhan Islam and placed it at
+`03-WIKIS\PHYSICS\raw\syllabus\Syllabus.pdf` (working copy in `04-SCHOOL\02-Physics I\`,
+byte-identical). **The PHYS half of flag #57 is closed.** Full reconciliation:
+`03-WIKIS\PHYSICS\wiki\semester-pathway.md`.
+
+| Component | Weight |
+|---|---|
+| **Unit Exams (4)** | **45%** — closed book, **lowest of the four dropped** |
+| **Final Exam** | **30%** — comprehensive, closed book, mandatory, never rescheduled |
+| Homework (WebAssign, weekly) | 10% — lowest dropped |
+| Recitation Worksheet | 10% — lowest dropped |
+| Quizzes (unannounced + reading) | 5% — lowest dropped |
+
+**No attendance component** — unlike the neighbour section. Scale 90/80/70/60, rounds up at
+≥ .1. **Exams + final = 75% of the grade.**
+
+**Dated schedule 🟢 — all five confirmed:**
+
+| Date | Item | Covers |
+|---|---|---|
+| **Mon Sep 21**, 10:20–11:15* | **UNIT EXAM 1** | Ch 1–5 + 6.1–6.2 |
+| **Mon Oct 12**, 10:20–11:15* | **UNIT EXAM 2** | Ch 6.3–6.4, 7, 8, 9.1–9.3 |
+| **Wed Nov 4**, 10:20–11:15* | **UNIT EXAM 3** | Ch 9.4–9.7, 10, 11 |
+| **Wed Nov 18**, 10:20–11:15* | **UNIT EXAM 4** | Ch 12.1, 12.3, 15 |
+| **Wed Dec 9, 8:00–10:00 AM** | **FINAL EXAM** | **Comprehensive** |
+
+*\* ⚠ Printed time is the §51/52/53 recitation slot, **not Chris's §54 Friday 11:30**.
+Confirm his room and sitting time on day one. No timetable conflict either way.*
+
+- **Scope: Ch 1–12, 15, 16.1–16.3.** No universal gravitation (Ch 13), no fluids, no
+  superposition (Ch 17), no relativity — despite the course description naming them.
+- **Equation sheet provided at every exam.** Closed book, basic scientific calculator only;
+  phones, laptops and tablets prohibited. **No make-ups — a missed exam becomes the dropped one.**
+- **Homework: late = zero.** Extensions granted *with penalty* only if requested **before**
+  the deadline through WebAssign.
+- **Thanksgiving break confirmed Nov 23–29.** Last day of classes **Mon Dec 7**.
+- **⚠ Two dated items:** **Day One Access opt-out and add/drop both close Fri Aug 28, 11:45 PM.**
+  Withdraw-without-penalty **Fri Nov 6** — two days after Unit Exam 3.
+- **⚠ Syllabus typo:** the header says lecture meets "Monday, Wednesday, and **Thursday**."
+  All 45 scheduled dates and the registrar say **MWF**. MWF is correct — do not re-litigate.
+- **AI: permitted as a tutoring resource, prohibited in submitted work.** See the integrity
+  note at the foot of this file.
 
 ### ENGR 1000 🔴 — flag #57, the least-known course
 
@@ -211,7 +255,7 @@ delivery format unconfirmed. AI is prohibited. **Cannot be rehearsed until its s
 
 | # | Course | Pull |
 |---|---|---|
-| 1 | PHYS | **§54 syllabus** — grading, exam count, policy, calendar. *Email Islam if not posted* |
+| 1 | ~~PHYS~~ | ✅ **CLOSED 2026-08-18** — §54 syllabus received direct from Islam. Grading, all five exam dates, policy and the full 15-week calendar are known. Remaining from D2L: **the room and time for §54's unit-exam sittings** (printed time is another section's recitation slot) |
 | 2 | ENGR | **BWD syllabus + meeting format.** *Email if not posted* |
 | 3 | ECON | ~~Every quiz/exam window~~ — **already known** (see ECON 🟢 above). Instead: **spot-check the real Mathews & Patrono chapter numbering** against the substitute-textbook mapping |
 | 4 | CSE | Final exam date; confirm the week-1 quiz date anomaly |
@@ -259,8 +303,10 @@ reference than a Summer syllabus and the index should say it exists. *Filed unde
 - Update the confidence marks as real dates land; a 🔴 becoming 🟢 is the measure of ingestion
   progress.
 - **Academic integrity:** CSE 1321, CSE 1321L, and ENGR 1000 prohibit generative AI on submitted
-  work. PHYS is treated as prohibited until §54 says otherwise. TCOM and ECON — verify per
-  assignment.
+  work. **PHYS §54 — resolved 2026-08-18: AI is explicitly permitted as a tutoring resource
+  (explanations, guided technique, examples, clarification) and prohibited in any submitted
+  work; WebAssign is graded, so AI never produces a WebAssign answer.** ECON permits AI if
+  credited. TCOM — verify per assignment.
 
 *Owner: `04-SCHOOL`. Source status: `SYLLABUS_STATUS.md`. Time shape and study-block routing:
 `Session_Logs\System Update Log\2026-08-12_ROOT_UPDATE\COUNCIL_SEMESTER_READINESS_2026-08-13.md`.*

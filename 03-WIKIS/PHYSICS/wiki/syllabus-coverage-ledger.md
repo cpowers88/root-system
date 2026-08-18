@@ -8,6 +8,35 @@ tags: [physics, school, governance]
 
 # Syllabus Coverage Ledger
 
+> ## ✅ RESOLVED 2026-08-18 — the exact Section 54 syllabus arrived
+>
+> **`raw/syllabus/Syllabus.pdf`** (Fall 2026, §54, Farhan Islam) is now the binding
+> source. Everything below is **historical record** of how the path was reasoned before
+> it existed. Live pacing is [[semester-pathway]].
+>
+> **This ledger's own handling rule was honoured, and it worked.** It said: *"keep Stages
+> 13–18 built and in the path … two sections omitting a chapter from a tentative calendar
+> is not the same as it being out of scope. Re-verify against Section 54's real calendar
+> the moment it exists. Do not shrink the path on neighbour evidence alone."* That gate is
+> now satisfied by an exact-section source, so the path shrinks **on authority, not on
+> inference**:
+>
+> | Question the ledger held open | Answer from §54 |
+> |---|---|
+> | Is Ch 13 universal gravitation in scope? | **No.** The 15-week schedule never reaches it. Week 4's "Gravitational Force" is §5.5 *weight in a free-body diagram* |
+> | Ch 14 fluids? | **No** — confirmed out, as both neighbours implied |
+> | Ch 16–17 waves? | **Partially.** Ch 16.1–16.3 only, after Unit Exam 4, examined only on the final. **Ch 17 is out** |
+> | Ch 38/39 relativity? | **No.** Named in the course description, never scheduled |
+> | Exam count and which drops? | **Four unit exams, lowest dropped**, 45% total. Final 30% |
+> | Attendance graded? | **No attendance component at all.** Recitation *worksheet* 10% |
+> | Day One Access opt-out deadline | **Aug 28, 2026, 11:45 PM** |
+> | AI policy | **Permitted as a tutor; prohibited in submitted work.** See [[semester-pathway]] |
+>
+> **Active-path scope is now Chapters 1–12, 15, and 16.1–16.3.** Stages 13, 14, 17 and 18
+> remain built and durable, as reference rather than course path. Nothing was deleted —
+> the ledger's caution about not shrinking prematurely is exactly why they exist and are
+> available for Physics II and ISYE work.
+
 ## Purpose
 
 Account for every page of `syllabus.pdf` (the original provisional spine source)
@@ -24,19 +53,21 @@ historical record. The two real Fall 2026 section syllabi in `raw/syllabus/`
 (Section 51 and Section 55 — see [[source-map]] and Cross-Section Verification
 below) are now the current best-available sources for anything past Chapter 5.
 
-## Authority Rule
+## Authority Rule — rewritten 2026-08-18
 
-1. Until Chris says otherwise, use
-   `raw/syllabus/PHYS 2211 51 (83719) Principles of Physics I.md`
-   for the preparation topic path because it matches his Fall term and
-   instructor.
-2. Use the live D2L/WebAssign/Owl Express course for dates, deadlines, assignment
-   availability, exam/drop mechanics, and any item flagged below as conflicting.
+1. **`raw/syllabus/Syllabus.pdf` — the exact Section 54 syllabus — controls dates,
+   grading, policy, and topic path.** It is binding.
+2. Use the live D2L/WebAssign/Owl Express course for anything the syllabus leaves open
+   or that the instructor changes in-term. D2L and the instructor outrank the PDF.
 3. Use Serway & Jewett as the content and derivation source in syllabus order.
-   When a printed chapter cell conflicts with its topic label, follow the topic
-   and use the textbook contents to identify the correct chapter.
-4. Section 51 grading, policies, CRN, and deadlines remain nonbinding for
-   Chris's Section 54.
+4. **The neighbour captures are retired.** `raw/syllabus/PHYS 2211 51 (83719) …md` stays
+   in `raw/` as immutable capture evidence but is no longer consulted for pacing; the two
+   `04-SCHOOL` working copies were archived 2026-08-18 to
+   `99-ARCHIVE\ARCHIVED_2026-08-18_PHYS_neighbour_syllabi\`. Where a neighbour disagrees
+   with the §54 PDF, the PDF wins without discussion.
+5. **§51 is a sibling recitation of Chris's own lecture**, not a rival section — the §54
+   syllabus lists recitations 51–54 under one Islam lecture. That is why it paced this
+   course well. §55 is Behera's separate lecture.
 
 ## Academic Content Routed to Stages
 

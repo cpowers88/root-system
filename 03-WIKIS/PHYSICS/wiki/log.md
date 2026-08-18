@@ -1618,3 +1618,104 @@ correct stated reason; **found the hidden given** (`v = 0` supplied by the word
 
 - `wiki/math-readiness-path.md` (row 3 marked run and passed)
 - This log.
+
+---
+
+## 2026-08-18 — Exact Section 54 syllabus received; semester pathway rebuilt
+
+**Session type:** source intake + course-overlay reconciliation. **Not a learning session
+— no learner status moved and none should be inferred from this entry.**
+
+### What actually changed
+
+Chris obtained the **exact PHYS 2211 Section 54 Fall 2026 syllabus** direct from Farhan
+Islam, one day after the flag #57 escalation email, and placed it in two locations. Both
+verified **byte-identical by SHA-256**:
+
+- `raw/syllabus/Syllabus.pdf` — canonical evidence
+- `04-SCHOOL\02-Physics I\Syllabus.pdf` — working copy
+
+**It is Chris's section.** The syllabus lists four recitation sections under one lecture,
+including **§54, Friday 11:30–12:25, Atrium 1116**, matching CRN 83722. This resolves a
+standing ambiguity: **§51/52/53 are sibling recitations of Chris's own lecture**, not
+rival sections — which is why the §51 capture paced this course as well as it did from
+July 28 onward. §55 (Behera) is a genuinely separate lecture.
+
+### The five material findings
+
+1. **Scope shrank by roughly two chapters.** The 15-week schedule never reaches Ch 13.
+   Week 4's "Gravitational Force and Free-Body Diagram (5.5, 5.7)" is §5.5 *weight in an
+   FBD*, not universal gravitation. **Active path is now Ch 1–12, 15, 16.1–16.3.**
+   Stages 13, 14, 17, 18 → durable reference, off the course path.
+2. **The equation sheet is provided at every exam.** Closed book, but formulas are in the
+   room. **This is the largest teaching consequence in the document.** Value moves from
+   formula recall — Chris's known weak channel — to cold classification and setup.
+   Derivation reps are unaffected in *frequency* and changed in *purpose*: they now train
+   model selection, not insurance against a blank sheet.
+3. **AI policy stated and permissive.** Explicitly permitted as a tutoring resource
+   (explanations, guided technique, examples, clarification); prohibited in any submitted
+   work. The hub's "most-restrictive-until-verified" holding position is retired.
+   **WebAssign is graded — never produce a WebAssign answer.**
+4. **Grading: exams 45% (4, lowest dropped) + final 30% = 75% on four closed-book
+   sittings.** HW 10%, recitation worksheet 10%, quizzes 5%. **No attendance component**
+   — the neighbour's 7.5% + 7.5% does not exist here.
+5. **Pre-class reading is graded** (reading quizzes via WebAssign/D2L, unannounced in-class
+   quizzes), so the one-week-ahead rule is now directly scorable, not just strategic.
+
+### Date corrections — one would have cost marks
+
+| Exam | Old estimate | Real | Drift |
+|---|---|---|---|
+| 1 | Fri Sep 18 | **Mon Sep 21** | +3 days, and now includes UCM 6.1–6.2 |
+| 2 | Fri Oct 16 | **Mon Oct 12** | **−4 days** |
+| 3 | Fri Oct 23 | **Wed Nov 4** | +12 days |
+| 4 | Fri Nov 6 | **Wed Nov 18** | +12 days |
+| Final | Dec 9 *or* Dec 10 | **Wed Dec 9, 8–10 AM** | resolved |
+
+**Test 2 is the one that mattered:** the old pathway scheduled the Exam 2 sweep for
+Oct 12–18 — the week the exam actually falls, on the Monday.
+
+### Defects found in the §54 syllabus itself
+
+1. Header says lecture meets M/W/**Th**; all 45 scheduled dates are M/W/F and the registrar
+   agrees. **MWF is correct** — recorded so no later session "corrects" the vault.
+2. Unit exams print at **10:20–11:15**, the §51/52/53 recitation slot, not §54's Friday
+   11:30. Dates land Mon/Mon/Wed/Wed, so it is not any one section's slot. **Unresolved —
+   day-one question.** No timetable conflict either way.
+3. Email Policy prints `kpemasir@kennesaw.edu`; the instructor block gives `fislam7@`.
+   Boilerplate debris — **use `fislam7@`**, which is what Chris used on Aug 17.
+4. Nov 2 reading prints "11.2 – 1.4" → read as **11.2–11.4**.
+
+### Stage / frontier movement
+
+- **None.** This was source intake. Stage 4 remains active and open at circular-motion
+  drill 1–4; math rows 2–3 remain `passed (immediate)` with the durability check still
+  owed. `current-position.md`'s learner-truth sections were not touched — only its course
+  baseline and scope target, which are course overlay, not learner evidence.
+
+### One consequence for tomorrow
+
+**Aug 19's prep block changed.** It was Stage 13 Universal Gravitation — a chapter this
+course does not teach — scheduled the day before uniform circular motion, which *is*
+taught (Fri Sep 18), *is* on Unit Exam 1, and *is* the exact drill Stage 4 has been open
+at since July. Replaced with **[[drills/circular-motion-drill]] 1–4 cold**.
+
+### Governance note — what was deliberately not done
+
+`raw/syllabus/PHYS 2211 51 (83719) …md` was **left in place.** `raw/` is immutable capture
+evidence, not a working set; archiving it to tidy would destroy the record that made
+July–August pacing defensible — flag #97's exact failure mode in a new costume. Stale
+sources are demoted **in pointers**, never removed. The two `04-SCHOOL` working copies
+*were* archived, because they sat in the same folder as the real `Syllabus.pdf` and that
+adjacency was the actual confusion risk.
+
+### Sources and files touched
+
+- **Source:** `raw/syllabus/Syllabus.pdf` (read-only; nothing written under `raw/`)
+- `wiki/semester-pathway.md` — **rebuilt**
+- `wiki/pacing-trigger-map.md`, `wiki/current-position.md`, `wiki/source-map.md`,
+  `wiki/syllabus-coverage-ledger.md`, `OPERATIONS.md`
+- `00-BRAIN\hats\HAT_PHYSICS.md`, `00-BRAIN\SYSTEM_FLAGS.md` (#57 half closed, #16 dated),
+  `NOW.md`, the Aug 17–23 weekly plan
+- `04-SCHOOL\SEMESTER_MAP.md`, `04-SCHOOL\SYLLABUS_STATUS.md`
+- Archived: `99-ARCHIVE\ARCHIVED_2026-08-18_PHYS_neighbour_syllabi\` (2 files + README)

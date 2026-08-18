@@ -15,9 +15,14 @@ This page tracks Chris current physics learning position.
 study and when*, from August 9 through the final exam, paced one week ahead of
 lecture. The Stage 1–18 ascending sequence is **review and reference only** — the
 stage pages remain canonical content and this pathway pulls from them, but stage
-number no longer sets the order. The two orders differ materially in one early
-place: **Universal Gravitation (Stage 13) arrives at syllabus Week 5**, between
-Newton's Laws and Circular Motion.
+number no longer sets the order.
+
+> **Corrected 2026-08-18 on the exact §54 syllabus.** The note that previously stood
+> here — *"Universal Gravitation (Stage 13) arrives at syllabus Week 5"* — came from the
+> neighbour section and **is wrong for this course. Ch 13 is not taught at all.**
+> Week 4's "Gravitational Force" is §5.5, weight in a free-body diagram.
+> **Active scope is Ch 1–12, 15, 16.1–16.3.** Stages 13, 14, 17 and 18 are durable
+> reference, not course path.
 
 This page still owns learner truth. Nothing in [[semester-pathway]] closes a
 stage or advances the frontier; only demonstrated proof recorded here does.
@@ -25,16 +30,22 @@ stage or advances the frontier; only demonstrated proof recorded here does.
 ## Current Baseline
 
 Course: PHYS 2211 — Principles of Physics I (Kennesaw State, Fall 2026,
-Section 54). The official registration record still lists no instructor, but
-Chris reports that the current online listing names **Farhan Islam**; treat him
-as the provisional likely instructor pending D2L or an exact-section syllabus.
-The available Section 51 syllabus also names Farhan Islam, strengthening the
-match without making Section 51's grading, dates, or policies binding on
-Section 54. Sections 51 and 55 remain pacing references only.
-Source intake complete for the original `syllabus.pdf` (superseded and archived
-2026-07-21 — see [[source-map]] for its current location and the two real Fall
-2026 section syllabi that replaced it as the live reference) and the split Serway
-& Jewett 10th-edition textbook files registered in [[source-map]].
+Section 54). **Instructor confirmed: Farhan Islam** (`fislam7@kennesaw.edu`).
+
+**✅ The exact Section 54 syllabus is on disk as of 2026-08-18** —
+`raw/syllabus/Syllabus.pdf`, obtained by Chris directly from the instructor, with a
+byte-identical working copy at `04-SCHOOL\02-Physics I\Syllabus.pdf`. It is **binding**
+for dates, grading, policy, and topic path, and it closes the PHYS half of flag #57.
+
+The syllabus lists four recitation sections under one lecture, **including §54 (Fri
+11:30–12:25, Atrium 1116)** — so §51/52/53 are sibling recitations of Chris's own
+lecture, not rival sections. The two `04-SCHOOL` neighbour working copies were archived
+the same day; the `raw/` §51 capture stays as immutable evidence but no longer paces
+anything. See [[semester-pathway]] for the full reconciliation and
+[[syllabus-coverage-ledger]] for what it resolved.
+
+Source intake also complete for the split Serway & Jewett 10th-edition textbook files
+registered in [[source-map]].
 
 Known learning requirements:
 
@@ -52,9 +63,15 @@ Known learning requirements:
 - Needs problem types classified.
 
 The 2026-07-15 structural/source review confirms the textbook chunks and appendix
-are sufficient to finish the semester pathway. The syllabus AI policy is clear,
-but schedule, Day One Access, and exam-drop details contain internal errors and
-must be verified in D2L; see [[source-map#Syllabus Data-Quality Gate]].
+are sufficient to finish the semester pathway — and the scope is now *narrower* than that
+review assumed.
+
+**Resolved 2026-08-18 by the exact syllabus:** Day One Access opt-out is **Aug 28, 11:45
+PM**; the exam drop is **four unit exams, lowest dropped** (a missed exam becomes the
+dropped one, no make-ups); the full 15-week schedule is internally consistent and needs
+no D2L reconstruction. **AI policy for §54 is stated and permissive** — AI as a tutoring
+resource is explicitly allowed; AI-generated content in submitted work is prohibited.
+Details in [[semester-pathway]].
 
 ## ⏳ Open Durability Checks — a pass is not proven until this clears
 
@@ -214,12 +231,19 @@ Stage 4 instead of running a detached calculus review.
   Stage 7 and 17 alignment errors were corrected; later include/park decisions
   depend on verified D2L scope.
 
-## First Course Target
+## First Course Target — rewritten 2026-08-18 on the exact syllabus
 
-Build class readiness in the order of
-`raw/syllabus/PHYS 2211 51 (83719) Principles of Physics I.md`.
-The controlling preparation scope is Chapters 1-13 and 15-17, interpreted from
-the syllabus's topic names where its printed chapter numbers are visibly wrong.
-Stage 14 fluids and Stage 18 relativity remain durable reference packets but are
-not on the active Fall path unless Chris or the exact Section 54 source activates
-them.
+Build class readiness in the order of **`raw/syllabus/Syllabus.pdf`** (§54, Islam),
+paced one week ahead per [[semester-pathway]].
+
+**Controlling preparation scope: Chapters 1–12, 15, and 16.1–16.3.**
+
+**Stages 13 (universal gravitation), 14 (fluids), 17 (superposition), and 18
+(relativity) are NOT on the active Fall path.** They remain durable reference packets —
+real capability for Physics II and ISYE work — but no PHYS 2211 exam reaches them. The
+previous target of "Chapters 1–13 and 15–17" was inherited from a neighbour section and
+overstated the course by roughly two chapters.
+
+**What the exams actually test, now that the equation sheet is supplied at every one:**
+recognising which physical situation is in front of him and setting it up correctly —
+not formula recall. Weight the drills accordingly.
