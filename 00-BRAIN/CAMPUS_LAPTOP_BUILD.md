@@ -316,13 +316,50 @@ Exact-match preference is Samsung `M471A1K43EB1-CWE`; a compatible Samsung, Cruc
 DDR4-3200 CL22 module is acceptable. Target configuration is 16 GB total as 2 × 8 GB in dual
 channel mode.
 
-### Remaining acceptance gate
+### Remaining acceptance gate — not a school-start blocker
 
 **Complete a real D2L Respondus LockDown Browser practice quiz.** A successful authenticated
-launch and submission is the exam-readiness proof. Webcam/microphone, KSU services, campus
-Wi-Fi, offline textbooks, charger endurance, and any required printing remain checklist items
+launch and submission is the exam-readiness proof.
+
+**This could not have been done before Aug 24 and is not evidence against the build.** D2L does
+not open until the first day of classes — verified 2026-08-13 against KSU documentation,
+`SEMESTER_MAP.md` §*What must come from D2L*, which already ruled the practice run happens in
+week 1 rather than before it. An empty D2L before Aug 24 is normal, not an account problem.
+
+**The real deadline is Test 1, Monday Oct 5** — six weeks after D2L opens
+(`CSE 1321 BF (81262) Fall 2026 Syllabus.md:227`). Run the practice quiz well before it, not on
+the day.
+
+**Scope correction to §2.1 above.** That section reads the LockDown requirement as covering all
+10 quizzes and 3 exams. The syllabus is narrower: line 84 says "**Exams** will require the use
+of the Respondus LockDown Browser," while line 82 says only that quizzes and exams are
+*delivered online through D2L*. Those are different claims. Treat LockDown as exam-scoped —
+Test 1 (Oct 5), Test 2 (Nov 9), Final — and **confirm against the live D2L quiz settings in
+week 1**, because the syllabus is demonstrably carrying stale text (§below).
+
+**Do first, because none of it depends on D2L:** webcam and microphone in Windows Camera — the
+hardware half of the LockDown requirement, and the place a BIOS camera toggle or physical
+shutter would surface. Then campus Wi-Fi (`KSU Wireless`/eduroam) on campus, charger endurance,
+and KSU service logins. Offline textbooks and any required printing remain checklist items
 until individually confirmed; Teams, Zoom, JMP, and printing stay need-triggered rather than
 preinstalled by default.
+
+### Syllabus date errors found 2026-08-18 — verify these in week 1
+
+The CSE 1321 calendar runs Monday–Sunday with quizzes due Sunday 11:59 PM and tests Monday
+(MWF/MW) or Tuesday (TR). Week 1 = **Aug 24**, correct as printed. Measured against that
+pattern:
+
+| Syllabus line | Problem | Status |
+|---|---|---|
+| 236 | Week 15 topic reads "*May 4th, 2026, Last Day of Classes*" in a Fall syllabus | **Confirmed error** — Spring 2026 template carryover. Both May 4 and Dec 7 are Mondays; the date column was updated and the parenthetical was not |
+| 221 | Week 1 "Syllabus & Policy Quizzes" due **Dec. 07** | **Ambiguous.** Breaks the Sunday-due pattern (week 1's Sunday is Aug 30), but Dec 7 is the last day of classes — where an open-all-semester policy quiz would legitimately sit. Do not assume a typo |
+| 237 | Final Exams Week "Dec 8 – 24" | Questionable — 17 days, ending Dec 24. Verify against the KSU academic calendar |
+| 235–236 | **Module 7 never appears** in the calendar (0, 1, 2, 3, 4, 5.1, 5.2, 6, TBD, 8) | Week 14's "TBD" is probably Module 7 |
+
+**Why this matters beyond the dates.** One confirmed carryover means the document cannot be
+trusted as a source of exact dates without a second check. Chris's own calendar and the live
+D2L course are the authorities from Aug 24; this file's dates are a draft until then.
 
 ---
 
