@@ -115,6 +115,50 @@ course-policy, and technology-resource sections)
 
 (source: lab syllabus, course requirements, grading, calendar, and AI-policy sections)
 
+### Lab and assignment sequence — module map (added 2026-08-18)
+
+Derived **from filenames only** in `raw/lab_instructions/` and `raw/assignments_lab/`, which
+Chris captured from the course site on 2026-08-18. This records *what order the work arrives
+in*, which is the topic-order extraction § INGEST permits. **No prompt content is reproduced
+here, and none was read into the wiki** — see the boundary note below.
+
+| Course module | Labs | Assignments | Vault stage this leans on |
+|---|---|---|---|
+| M0 — setup | Lab 1 installations | — | Stage 0 |
+| M1 — type systems | Labs 2, 3 | Assignment 1 | Stage 1 |
+| M2 — flow control | Labs 4, 5, 6 | Assignments 2, 3 | Stages 2–3 |
+| M3 — methods | Lab 7 | Assignment 4 | Stage 4 |
+| M4 — libraries | Lab 8 | — | Stage 4 (stdlib bridge) |
+| M5 — sequence types | Labs 9, 10 | Assignment 5 | Stage 5 |
+| M6 — object-oriented programming | Labs 11, 12 | Assignment 6 | Stage 8 |
+| M7 — Java | Lab 13 | Review assignment 7 | out of scope for this Python hub |
+
+**Three things this map makes visible that the syllabus prose did not:**
+
+1. **Flow control is the heaviest block** — three labs and two assignments on one topic,
+   more than any other module. It maps to vault Stages 2–3, and **Stage 3 is exactly where the
+   frontier has been stuck since July** (circular-motion drills are PHYS; here it is loops).
+   The course spends its largest single block where Chris is already weakest.
+2. **M4 libraries has a lab but no assignment**, and M0 has a lab but no assignment — so the
+   seven assignments concentrate in M1, M2 (×2), M3, M5, M6, plus the M7 review.
+3. **Java appears only in the final lab and the review assignment**, confirming the existing
+   note that Lab 13 is the sole Java contact point.
+
+**Dates are unusable, sequence is sound.** Every file is versioned `sp26`/`spr26` — Spring 2026
+— consistent with the recycled-calendar warning above. Lab 1's body prints `# Term: ...` as a
+blank for the student to fill, so the material is term-agnostic by construction. **Confirm the
+live Fall dates in D2L from Aug 24.**
+
+**Boundary note, recorded deliberately.** These 20 documents are live graded work — assignments
+40%, lab exercises 10%, submitted through Gradescope with an autograder. Per § Non-Negotiable AI
+Boundary and `OPERATIONS.md` § Academic integrity, their prompts were **not** ingested, summarised,
+paraphrased, or converted into drills, and must not be later. Chris reads the prompts; the wiki
+holds the sequence. If a future session needs practice for a module, it authors a **fresh**
+exercise from the concept pages — never one derived from an active prompt.
+
+(source: `raw/lab_instructions/` and `raw/assignments_lab/` filenames, captured 2026-08-18;
+Lab 1 body read only far enough to confirm graded status and term-agnosticism)
+
 ## Code-Reader Competency Ladder
 
 Each course module should move through the same ladder. A topic is not secure merely

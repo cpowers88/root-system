@@ -1971,3 +1971,66 @@ addressed separately.
   gates whole-vault health, because a single clipped control byte turns `root_health.py` red.
   Adding `77-INBOX` to `TEXT_SCAN_EXCLUDED` is the candidate fix; **not done**, since it is a
   system-script change and this route made it unnecessary today.
+
+## 2026-08-18 (later) — semester-prep ingest: 6 new books classified, lab/assignment sequence mapped
+
+### Stated learning gap (INGEST step 1)
+
+**None of the six new books closes an open stage gap**, and the intake says so rather than
+inventing a role for each. It ran because unclassified sources in `raw/` are indistinguishable
+from vetted ones at the moment of use. **The finding is that three of the six must not be
+used.** Source intake remains closed; the active path did not change.
+
+### Sources classified — identified by reading each file's own title/TOC page, not its filename
+
+| File | Actually is | Verdict |
+|---|---|---|
+| `books/dive_into_python.pdf` | *Dive Into Python*, Mark Pilgrim | ⛔ **Python 2** — Ch. 1 covers Mac OS 9 and RedHat. Would actively mislead in a Python 3 course |
+| `books/python_quick_tour.pdf` | *A Quick Tour of Python*, STScI, **May 2, 2002** | ⛔ Python 2 era, PyRAF/astronomy niche |
+| `books/python_game_programming.pdf` | *Invent Your Own Computer Games*, **2nd Ed.** | ⛔ **Older duplicate** of the 4th Ed. already mapped as primary mini-project source |
+| `books/sweigart_making_games.pdf` | *Making Games with Python & Pygame*, 2012 | ✅ New — Stage 10, parked (Pygame is third-party) |
+| `books/programming_fundamentals.pdf` | Busbee & Braunschweig, 2nd Ed. | ✅ New — Stage 7 support; overlaps Farrell, do not work both |
+| `books/pro_git.pdf` | *Pro Git*, 2023 | ⚠️ Not Python, not a CSE 1321 requirement. **Routing question for Chris** — TECHNOLOGY or `02-LIBRARY`, not this pathway |
+
+Two Python-2-era books and a duplicate edition is a 50% reject rate on one batch — the reason
+this map is read before a source is used, not after.
+
+### Coursework: sequence taken, prompts refused
+
+`raw/lab_instructions/` (13 labs) and `raw/assignments_lab/` (7 assignments) arrived the same
+day. **Prompt content was not ingested, summarised, paraphrased, or drilled**, per
+`OPERATIONS.md` § Academic integrity ("MUST NOT ... transform a live assignment prompt into
+'practice'") and § INGEST ("policies, outcomes, and topic order only"). Graded status is not
+ambiguous: Lab 1's own text describes Gradescope submission and an autograder that assigns the
+grade. Assignments are 40% and lab exercises 10% of CSE 1321L.
+
+**Topic order — permitted, and extracted from filenames alone — is now in
+[[syllabus-alignment]]** as a module→lab/assignment map. Three things it made visible:
+
+1. **Flow control (M2) is the heaviest block** — 3 labs + 2 assignments, more than any other
+   module — and it maps to vault Stages 2–3, where the frontier has been stuck since July.
+2. M0 and M4 carry labs but no assignment; the seven assignments sit in M1, M2 (×2), M3, M5, M6
+   and the M7 review.
+3. Java appears only in Lab 13 and review assignment 7, confirming the single-contact-point note.
+
+### Data-quality flags
+
+- **Every lab and assignment file is versioned `sp26`/`spr26` — Spring 2026.** Same defect class
+  as the CSE 1321L syllabus's recycled January–May calendar and the lecture syllabus's "May 4th,
+  2026, Last Day of Classes" carryover found earlier the same day. Lab 1's body is
+  term-agnostic — it prints `# Term: ...` as a blank — so **sequence is sound, dates are not.**
+  Confirm in D2L from Aug 24.
+- **`lab_instructions/m0-lab-1-intsallations_ada_v1 (1).docx` is a Google Drive conflict copy**,
+  not a second lab. Raw is immutable so it stays; do not count it.
+
+### Exact next action
+
+Nothing here changes the current stage frontier. **The one thing this ingest argues for:** M2
+flow control is the course's heaviest block and lands on the vault's weakest stage — worth
+weighting pre-semester reps toward Stages 2–3 rather than adding new sources.
+
+### Files touched
+
+`wiki/source-map.md` (§ Late Raw Intake — classified 2026-08-18) · `wiki/syllabus-alignment.md`
+(§ Lab and assignment sequence — module map) · this log. No concept, glossary, flashcard, drill,
+or project page was generated.

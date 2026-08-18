@@ -410,6 +410,64 @@ new reason to regenerate the curriculum. The active Stage 2 path does not change
   The sources add no current-stage gap and the intake protocol requires Chris's
   approval before large-scale generation.
 
+## Late Raw Intake — classified 2026-08-18 (semester-prep ingest)
+
+**Stated learning gap (INGEST step 1):** none of the six books below closes an open
+stage gap. The intake ran because unclassified sources sitting in `raw/` are
+indistinguishable from vetted ones at the moment of use — the risk this map exists to
+remove. **Three of the six must not be used**, and that is the finding.
+
+Chris dropped six PDFs into `raw/books/` plus two coursework folders on 2026-08-18.
+Identified by reading each file's own title/TOC page, not by filename.
+
+| Source | Identified as | Verdict |
+|---|---|---|
+| `books/dive_into_python.pdf` | *Dive Into Python*, Mark Pilgrim | ⛔ **Python 2 — do not use.** Ch. 1 covers "Python on Mac OS 9" and RedHat Linux. It teaches Python-2-era syntax, which will actively mislead in a Python 3 course. No pathway role. |
+| `books/python_quick_tour.pdf` | *A Quick Tour of Python*, Greenfield & White, Space Telescope Science Institute, **dated May 2, 2002** | ⛔ **Python 2 era, and niche** — written for PyRAF/astronomy users. No pathway role. |
+| `books/python_game_programming.pdf` | *Invent Your Own Computer Games with Python*, **2nd Ed. (2008–2010)** | ⛔ **Duplicate, older edition.** The 4th Ed. is already mapped above as the primary mini-project source. Same pattern as the `python-crash-course.pdf` duplicate recorded in the 2026-07-13 intake. Raw is immutable so both stay; **use the 4th Ed.**, do not ingest the edition twice. |
+| `books/sweigart_making_games.pdf` | *Making Games with Python & Pygame*, Al Sweigart, 2012 | ✅ New, genuine. Sequel to *Invent Your Own*. Pygame is a third-party package → **Stage 10, parked**, consistent with the already-parked *Python Crash Course* Ch. 12–14 Pygame project. |
+| `books/programming_fundamentals.pdf` | *Programming Fundamentals: A Modular Structured Approach*, 2nd Ed., Busbee & Braunschweig | ✅ New, genuine. **Support for Stage 7** (program design/decomposition). Overlaps Farrell's *Programming Logic and Design*, already mapped to Stage 7 — use whichever explanation lands better; do not work both. |
+| `books/pro_git.pdf` | *Pro Git*, Chacon & Straub, v2.1.411 (2023) | ⚠️ **Not Python, and not a CSE 1321 requirement** — neither syllabus uses git. Real reference value, but it belongs to tooling rather than this hub's curriculum. **Routing question for Chris:** TECHNOLOGY hub or `02-LIBRARY`, not the PYTHON learning pathway. Parked here meanwhile. |
+
+**Net effect on the active path: none.** Think Python remains spine for Stages 1–8;
+Automate the Boring Stuff remains spine for Stages 9–10. No stage's next action changes.
+No concept, glossary, flashcard, or drill page was generated from any of these.
+
+### Coursework folders — classified, deliberately NOT ingested
+
+| Folder | Contents | Disposition |
+|---|---|---|
+| `raw/lab_instructions/` | 13 CSE 1321L lab prompts, `m0`–`m7` | **Topic order extracted; prompt content not ingested.** |
+| `raw/assignments_lab/` | 7 CSE 1321L assignment prompts | **Topic order extracted; prompt content not ingested.** |
+
+**Why, in one line:** `OPERATIONS.md` § Academic integrity states AI "MUST NOT ... transform a
+live assignment prompt into 'practice,'" and § INGEST limits course-document ingest to
+"policies, outcomes, and topic order only — never assignment answers." These are live graded
+work — assignments are 40% and lab exercises 10% of the CSE 1321L grade, submitted through
+Gradescope with an autograder. Graded status is not ambiguous here, so the boundary applies
+plainly. **The module→lab map derived from filenames is in [[syllabus-alignment]]**; it records
+sequence only and quotes no prompt.
+
+**Verified by reading Lab 1:** it is explicitly graded coursework — it instructs the student on
+Gradescope submission and the autograder that "auto-assigns a grade based on the output of your
+programs."
+
+### Two data-quality flags from this batch
+
+1. **Every lab and assignment file is versioned `sp26` / `spr26` — Spring 2026, not Fall.**
+   This is the same defect class already recorded above at § Schedule warning (the CSE 1321L
+   syllabus carries January–May dates and a spring break under a Fall 2026 title) and the same
+   class as the CSE 1321 lecture syllabus's "May 4th, 2026, Last Day of Classes" carryover found
+   2026-08-18. Lab 1's body is term-agnostic — it prints `# Term: ...` as a blank for the student
+   to fill — so **the sequence is usable and the dates are not.** Confirm the live Fall lab and
+   assignment schedule in D2L from **Aug 24**.
+2. **`lab_instructions/m0-lab-1-intsallations_ada_v1 (1).docx` is a Google Drive conflict copy**
+   — a byte-level duplicate of the file beside it, created by Drive's sync rather than by KSU.
+   Raw is immutable, so it stays; **do not mistake it for a second lab.** Same shape as the
+   `77-INBOX` Drive conflict copies archived 2026-08-17.
+
+---
+
 ## Required Next Update
 
 - Stages 9-10 now have a source (Automate the Boring Stuff, see above) — no longer blocked.
