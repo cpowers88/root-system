@@ -66,16 +66,32 @@ Watch on row 4; a fourth drop means the cause is not missing form.
 
 1. **Ratify Week D's two approval gates** — learner-hub alignment and instruction
    protocol. The plan is marked provisional until you do; silence is not approval.
-2. **Codex's seven proposed scripts (S10)** — recommendation on file is hold until after
-   Aug 24. Your call.
+2. **Codex's seven proposed scripts (S10) — resolved 2026-08-18, two of seven built.**
+   Chris authorised the stale-overwrite guard and the restore-verification harness; both
+   shipped with passing tests and **deliberately not wired into `root_health.py`** before
+   Aug 24. **Flag #100 is closed on the first one.** The remaining five stay held — the
+   manifest and the `core\/safety\/maintenance\/domain\` restructure are cosmetic until
+   **the path-audit cluster decision lands, and that one is still yours**: wire it into the
+   health gate, move it to `maintenance\`, or archive it with the July 24 update it served.
+   Recommendation on file: `maintenance\`.
 
 ## Fixed and Dated
 
-- **Aug 19 — laptop wipe resolved.** Highest-consequence untested item: **CSE 1321 exams
-  require Respondus LockDown Browser, webcam and mic**, and Chris does not attend on exam
-  dates. A failure at exam time is a zero. Test it, don't assume it.
+- ✅ **Laptop built 2026-08-18, a day early.** No second wipe needed. Victus / Win 11 Home
+  25H2, BIOS F.20, Python 3.12.10, Git, Microsoft 365, Obsidian, KSU LockDown Browser
+  installed, and **every AI extension removed from VS Code** — the CSE/ENGR prohibition is
+  now a property of the machine, not a decision made while tired. Record:
+  `00-BRAIN\CAMPUS_LAPTOP_BUILD.md` §10.
+  **The exam gate is still open and is now the only thing that matters here: run a real
+  authenticated D2L LockDown practice quiz. It cannot run before Aug 24, so it happens in
+  week 1.** A failure at exam time is a zero, and Chris does not attend on CSE exam dates.
+  Still unconfirmed individually: webcam/mic, campus Wi-Fi, charger endurance.
+  **Open from the build's own checklist:** the laptop is **not yet in
+  `00-BRAIN\LOCAL_MACHINE_MAP.md`** — the machine inventory does not know it exists.
 - **Aug 22 — dress rehearsal**, full day on the real Fall timetable. Do not compress.
 - **Aug 23 — final pre-semester review**, plus the backup review and flag #102's close check.
+  **Now also: run `verify_backup_restore.py` against the live D: backup into a new empty
+  target.** The harness exists as of Aug 18; "the job exited 0" is not "it restores."
 - **Aug 24 — classes begin.**
 - **Aug 28, 11:45 PM — two PHYS deadlines on one day.** Last day to add/drop, **and** the
   Day One Access opt-out. Owl Express is already charged for the WebAssign + eBook bundle;
@@ -86,7 +102,21 @@ Watch on row 4; a fourth drop means the cause is not missing form.
 
 ## Open Risks
 
-1. **Flag #97 — five `raw\` sources exist only as filenames.** Never dedupe `raw\` on hash;
+1. **NEW 2026-08-18 — `.ROOT` now lives on two machines, and a session's loaded context can
+   go stale mid-session.** The laptop clone (`root-system` on GitHub) is live, pull/push both
+   directions works, and the desktop is additionally reachable over the house network. **This
+   happened for real today:** a Claude Code session read `NOW.md`, `SYSTEM_FLAGS.md` and the
+   DAILY into context, a pull then fast-forwarded the tree to Codex's laptop commits, and
+   those three files changed underneath it. Writing from the in-context copies would have
+   silently reverted flag #100's closure — **flag #100's own failure mode, reproduced by the
+   new sync, an hour after the guard that detects it shipped.** Caught by re-reading, not by a
+   control. **Rule: after any pull, re-read before writing — never edit from a copy loaded
+   before the pull.** `stale_overwrite_guard.py` now catches this class at commit time if run.
+2. **The network share is the riskiest of the three paths.** Git is versioned and `.gitignore`
+   keeps `88-JOURNAL` and every `raw\` off the laptop. A direct network write to the canonical
+   vault has neither property. **Edit through the clone and push; use the share for reading
+   or for moving untracked files (PDFs, `raw\` sources) only.**
+3. **Flag #97 — five `raw\` sources exist only as filenames.** Never dedupe `raw\` on hash;
    the filename is the only record of what is missing.
 
 All open flags: **`00-BRAIN\SYSTEM_FLAGS.md`**. Control reality: `.claude\CONTROL_INVENTORY.md`.
@@ -98,6 +128,12 @@ submitted work; **PHYS §54 permits AI as a tutor but not in submitted work — 
 WebAssign answer**; ECON permits AI if credited · no outreach, publishing or pricing without
 Chris's approval · bulk edits need copy-first **and** `safe_shell.sh` · no writes under any
 `raw\`; `88-JOURNAL` is never read · the safe word `Richard F` executes as stated.
+
+**Two-machine rule, live from 2026-08-18** (`CAMPUS_LAPTOP_BUILD.md` §6): **the desktop stays
+canonical.** Pull at the start of every campus session, commit and push at the end. Coursework
+in progress is the one thing that lives on the laptop first — push it the same day.
+`88-JOURNAL` never reaches that machine; git already guarantees it, so do not defeat it by
+copying folders over the network.
 
 ## Owners
 
