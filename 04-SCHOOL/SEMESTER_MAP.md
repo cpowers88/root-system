@@ -18,6 +18,15 @@ created: 2026-08-13
 > instructor with all five exam dates, real grading weights, and a clean 15-week schedule.
 > **ENGR 1000 BWD is now the only 🔴 course**, and flag #57 narrows to it alone.
 
+> ### 📋 For "what does a successful week look like": `semester-workload-plan.md`
+>
+> Added 2026-08-18. **This map owns dates and course facts; that page owns effort and
+> sequencing** — the week-by-week load across all five courses, estimated hours, and which
+> weeks collide. It names **Week 12 (Nov 9–15) as the worst week of the semester** (CSE Test 2,
+> TCOM Technical Report due, group presentations, ECON quiz, 2 labs, 1 assignment) and shows
+> that 14 credits implies **~28 hours a week outside class against ~11.75 hours of campus
+> blocks.** Read it Sunday; read this file when you need a date.
+
 ---
 
 ## Confidence key
