@@ -96,3 +96,11 @@ page.
 ## Related Pages
 
 [[../stages/stage-2-motion-in-one-dimension]] — [[../appendix/math-calculus]]
+
+**Chris's own worked version of this idea in 2D:**
+[[../worked-examples/projectile-first-principles-example]] — a ball rolling off a table,
+solved by integrating `d²y/dt² = −g` twice with boundary conditions instead of selecting a
+kinematic formula. Same relationships as the table above, applied to a real problem, and
+written in his words during the July–August calculus bridge sprint. Useful here because it
+shows the constants of integration `C₁` and `C₂` being *found* from initial conditions
+rather than appearing pre-solved.

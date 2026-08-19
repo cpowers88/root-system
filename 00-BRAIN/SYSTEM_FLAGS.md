@@ -14,7 +14,7 @@ tags: [governance]
 > monthly — not filed to `UPDATE_PLAN.md`. That file is now the update's historical
 > record, not a live queue.
 
-### Last updated: August 18, 2026 — **#100 closed:** on-demand stale-overwrite guard shipped with deterministic tests; intentionally not wired into `root_health.py` before Aug 24. **#57 half closed:** the exact PHYS 2211 §54 syllabus arrived, PHYS moved 🔴 → 🟢 across the school files and the semester pathway was rebuilt on it; #16 now carries a real date (Oct 23 torque). Aug 17: pause and finding freeze lifted on `OK TO START`; findings N5 and N6 closed. Aug 16: #102 relocation verified and downgraded 🟢; #102, #100, #101 opened; prohibition 1 extended.
+### Last updated: August 18, 2026 (evening) — **register header corrected:** it claimed one HIGH flag was open while #102's row read 🟢; no priority changed, the summary line now matches the table. Earlier the same day — **#100 closed:** on-demand stale-overwrite guard shipped with deterministic tests; intentionally not wired into `root_health.py` before Aug 24. **#57 half closed:** the exact PHYS 2211 §54 syllabus arrived, PHYS moved 🔴 → 🟢 across the school files and the semester pathway was rebuilt on it; #16 now carries a real date (Oct 23 torque). Aug 17: pause and finding freeze lifted on `OK TO START`; findings N5 and N6 closed. Aug 16: #102 relocation verified and downgraded 🟢; #102, #100, #101 opened; prohibition 1 extended.
 
 ---
 
@@ -69,9 +69,16 @@ same session to `00-BRAIN\Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md`.
 
 ## OPEN FLAGS — index
 
-**🔴 ONE HIGH FLAG OPEN — #102.** Full forensics for every row:
-**`00-BRAIN\SYSTEM_FLAGS_DETAIL.md`** (not loaded at session start — open it when
-*working* a flag).
+**🟢 NO HIGH FLAGS OPEN.** *(Corrected 2026-08-18 — this line still read "🔴 ONE HIGH FLAG
+OPEN — #102" while #102's own row, three lines below, had been marked 🟢 on the Aug 16
+measurement. Codex's morning health review spotted the contradiction and correctly made no
+repair — it was a read-only pass. Reconciling an index line to the table beneath it is
+maintenance, not a downgrade: **no flag's priority was changed by this edit.** It matters
+because `AGENT.md` forbids closing a session with an open HIGH flag, so a stale header makes
+that rule unenforceable in both directions.)*
+
+Full forensics for every row: **`00-BRAIN\SYSTEM_FLAGS_DETAIL.md`** (not loaded at session
+start — open it when *working* a flag).
 
 | # | Subject | Pri | Owner | Next action / check moment |
 |---|---|---|---|---|

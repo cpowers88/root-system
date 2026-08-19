@@ -18,8 +18,33 @@ chapter.section scheme, e.g. `2-1_` = Chapter 2, section 1).
 own schedule table carries recycled January/Spring dates inside its Fall
 2026 header (see the Data-Quality Flags on
 `../../course-briefs/fall-2026-course-briefs.md`).
-Weeks below are relative (Week 1, Week 2, ...), Tuesday/Thursday, per the
-syllabus's own weekly structure.
+
+## Real Fall 2026 dates — added 2026-08-18, and the conversion is proven
+
+Weeks were relative-only until now. They are anchored below because the
+mapping can be *verified* rather than assumed: the syllabus calendar has
+exactly **14 numbered weeks**, and there are exactly **14 Tuesday/Thursday
+pairs** between the first class day (Tue Aug 25) and the last day of classes
+(Mon Dec 7) once Fall Break (Nov 23–29) is removed. Two counts, no remainder.
+
+| Wk | Tue | Thu | | Wk | Tue | Thu |
+|---:|---|---|---|---:|---|---|
+| 1 | Aug 25 | Aug 27 | | 8 | Oct 13 | Oct 15 |
+| 2 | Sep 1 | Sep 3 | | 9 | Oct 20 | Oct 22 |
+| 3 | Sep 8 | Sep 10 | | 10 | Oct 27 | Oct 29 |
+| 4 | Sep 15 | Sep 17 | | 11 | Nov 3 | Nov 5 |
+| 5 | Sep 22 | Sep 24 | | 12 | **Nov 10** | **Nov 12** |
+| 6 | Sep 29 | Oct 1 | | 13 | Nov 17 | Nov 19 |
+| 7 | Oct 6 | Oct 8 | | — | *Nov 24* | *Nov 26* — **break** |
+| | | | | 14 | Dec 1 | **Dec 3** |
+
+**Three consequences.** ① **There is no week 15** — Dec 7 is a Monday and TCOM
+meets TTh. ② **TCOM has no final exam**; the requirements table has seven
+weighted components and none is an exam, so **the course finishes Thu Dec 3**,
+before finals week. ③ **Dates are 🟡, not 🟢** — derived from a verified week
+structure, not printed in the syllabus. Confirm in D2L from Aug 24.
+`04-SCHOOL\SEMESTER_MAP.md` owns the cross-course view of these dates; this
+page owns which *resource* serves each week.
 
 ## Week-by-Week Map
 
@@ -31,16 +56,49 @@ syllabus's own weekly structure.
 | 2–3 | Fairy Tale Group Presentation; Elevator Speech | Ch 2.12 Oral Presentations | — | `2-12_Intro-Remarks.pdf`, `2-12_Oral-Eval.pdf`, `2-12_Verbal-Crutches.pdf` |
 | 1–2 (extra credit, optional) | Resume Extra Credit | — | `Assignments-Activities\Resume-CoverLetter\` (Resume-CoverLetter.docx, Resume-Critique.docx, Resume+CoverLetter_PeerReview.docx) | `2-1_Early-Career-Resume.pdf`, `2-1_Early-Career-App-Letter.pdf`, `2-1_Amplifications-Page-Resume.pdf`, `10_Resume_1`–`6`, `10_CV.pdf`, `10_App-Letter_1`–`6`, `10_Adjust-Letter_1`, `10_Comp-Letter_1`–`5`, `10_Inq-Letter_1`–`2`, `10_Order-Letter.docx` |
 | 4–5 | Individual Project Proposal + Presentation (2 days) | Ch 2.4 Proposals; Ch 2.11 (intros) | `Assignments-Activities\Proposal\` (Proposal.docx, Proposal-PreWrite.docx, Proposal-Pre-Writing.docx, Proposal-Peer-Review.docx, Proposal-Presentation.docx, Written-Proposal.docx); `Rubrics\Proposal-Presentation.docx` | `Examples\Proposal_Dog-Park.doc`, `Examples\Proposal_Movies.doc` (full worked proposals); `10_Proposal_1`–`7` |
-| 6 | Report Group Charter & Task Schedule | — | (no direct template found in Course-Resources — build from `Assignments-Activities\Activities\Schedule.docx` / `Schedule_Blank.docx`) | — |
-| 6 | Word Top 10 / Document Redesign exercise | Ch 4 Document Design | `Presentations-Notes\Graphics-1/2/3.pptx` | `4-7_Bad-Graphs.pdf`; `2-2_Outline-Specs.pdf`, `2-2_Two-Column-Specs.pdf` |
-| 6–12 | Technical Report (draft sections reviewed weekly: Intro, Project Description, Recommendation/Conclusion, Exec Summary/Transmittal/Slides/References) | Ch 4.1 Report Design; Ch 2.11 (intros/abstracts) | `Presentations-Notes\Reports.pptx`; `Assignments-Activities\Report\` (Technical-Report.docx, Technical-Report-Alt.docx, Rough-Draft-Peer-Review.docx); `Rubrics\Written_Proposal+Report.docx` | `4-1_Exec-Sum.docx`, `4-1_Intro.docx`; `2-11_Brief-Intro.pdf`, `2-11_Descriptive-Abstract.pdf`, `2-11_Section-Intro.pdf`; `10_Report_1`–`7`, `10_Tech-Report_1`–`4`, `10_Report-Section_1`–`2` |
-| 10 | Progress Report (email, 1 team member) | — | `Assignments-Activities\Report\Progress-Report-Memo.docx` | `10_Progress_1`–`5` |
-| 11 | Rough Draft Discussion post + Peer Reviews | Ch 5 (peer review process) | `Assignments-Activities\Report\Rough-Draft-Peer-Review.docx` | `5-10_Peer-Review.docx` |
-| 12 | Reflective Memo; Technical Report due; Group Presentations | — | (Reflective Memo has no dedicated template found — build from the Memo template + reflection framing) | — |
-| 13 | Instructions Steps assignment | Ch 2.6 Instructions | `Presentations-Notes\Instructions.docx` | `10_Instructions_1`–`8` |
-| 13 | LAB DAY — usability testing on classmates' instructions | Ch 6 Usability Testing | `Presentations-Notes\Usability-Testing.pptx/docx`; `Assignments-Activities\Instructions-Usability\` (Instructions-Usability-Test.docx, Usability-Test-Worksheet.docx, Usability-Testing.docx) | — |
-| 14 | Instructions Group Project (final) | Ch 2.6 | same Instructions-Usability folder as Week 13 | `10_Instructions_1`–`8` |
-| recurring (e.g. Wk 7 Font Style Quiz) | Grammar/style/proofreading checks | Ch 8 Technical Editing | `Presentations-Notes\Comma-Rules_Fake-It-Til-You-Make-It.pptx` | `8_Proofreading.pdf`, `8_Style-Sheet.pdf` |
+| **6** · Sep 29 | Report groups + topics assigned. **Report Group Charter & Task Schedule due Thu Oct 1, midnight** | — | ⚠ **no purpose-built charter template ships** — nearest is `Assignments-Activities\Activities\Schedule.docx` / `Schedule_Blank.docx`. The three real samples are D2L-only (see Gaps) | — |
+| **6** · Oct 1 | **Word Top 10 survey + Document Redesign exercise due Thu** — `Lastname_04_DocRedesign.docx`, and **two extra images (.JPG/.TIF/.PNG)** must be added beyond the ones in the Dolphin file | Ch 4 Document Design | `Presentations-Notes\Graphics-1/2/3.pptx` | `4-7_Bad-Graphs.pdf`; `2-2_Outline-Specs.pdf`, `2-2_Two-Column-Specs.pdf` |
+| **7** · Oct 6 | **Font Style for MS Word Docs QUIZ (Tue).** Technical Report assignment issued; report work in class | Ch 4.1 Report Design; Ch 8 Technical Editing | `Presentations-Notes\Comma-Rules_Fake-It-Til-You-Make-It.pptx`; `Presentations-Notes\Reports.pptx` | `8_Proofreading.pdf`, `8_Style-Sheet.pdf`; the `2e_Word\` Ch 9 proofreading symbol sets (**supplement only** — see the textbook trap on `current-position.md`) |
+| **7** · Oct 8 | Group oral presentations: Technical Report PPT | Ch 4.1 | `Presentations-Notes\Reports.pptx`; `Rubrics\Written_Proposal+Report.docx` | `10_Tech-Report_1`–`4` |
+| **8** · Oct 13 | 🎯 **Report checkpoint 1 — Introduction** reviewed by the professor: mission statement, statement of problem & background, scope of report, organization of report | Ch 2.11 (intros/abstracts); Ch 4.1 | `Assignments-Activities\Report\Technical-Report.docx`, `Technical-Report-Alt.docx` | `4-1_Intro.docx`; `2-11_Brief-Intro.pdf`, `2-11_Section-Intro.pdf`; `10_Report-Section_1`–`2` |
+| **9** · Oct 20 | 🎯 **Report checkpoint 2 — Project Description**: technical description, niche, location, benefits, budget, timeline | Ch 2.11 | `Assignments-Activities\Report\Technical-Report.docx` | `10_Report_1`–`7`, `10_Tech-Report_1`–`4` |
+| **9** · Oct 22 | Midterm grades posted; withdrawal options discussed *(withdraw-without-penalty deadline is **Fri Nov 6**)* | — | — | — |
+| **10** · Oct 27 | 🎯 **Report checkpoint 3 — Recommendation & Conclusion.** Presentation extra credit announced | Ch 4.1 | `Rubrics\Written_Proposal+Report.docx` | `10_Report_1`–`7` |
+| **10** · Oct 29 | **Progress Report due Thu** — email to Prof. Diamond from **one** team member per group | — | `Assignments-Activities\Report\Progress-Report-Memo.docx` | `10_Progress_1`–`5` |
+| **11** · Nov 3 | 🎯 **Report checkpoint 4 — Executive Summary, Transmittal Letter, Slide Presentation, References.** **Rough Draft discussion post due Tue** | Ch 4.1; Ch 2.11 (abstracts) | `Assignments-Activities\Report\Rough-Draft-Peer-Review.docx` | `4-1_Exec-Sum.docx`; `2-11_Descriptive-Abstract.pdf` |
+| **11** · Nov 5 | **Rough Draft peer reviews due Thu** on the discussion post. Individual Reflective Memo work begins | Ch 5.10 Peer Review | `Assignments-Activities\Report\Rough-Draft-Peer-Review.docx` | `5-10_Peer-Review.docx` |
+| **12** · Nov 10–12 | 🔴 **TECHNICAL REPORT DUE Thu Nov 12 · REFLECTIVE MEMO DUE Thu Nov 12 · Group Presentations both days.** This is the 35% | Ch 4.1 | `Rubrics\Written_Proposal+Report.docx`; ⚠ **Reflective Memo has no dedicated template** — build from `Activities\Memo.docx` + the syllabus's own framing | `10_Report_1`–`7` |
+| **13** · Nov 17 | Instructions Steps assignment written in class | Ch 2.6 Instructions | `Presentations-Notes\Instructions.docx` | `10_Instructions_1`–`8` |
+| **13** · Nov 19 | **LAB DAY** — usability testing on classmates' instructions. **Bring:** a polished version of the instructions, all equipment needed to perform them in class, and a **printed** Usability Worksheet | Ch 6 Usability Testing | `Presentations-Notes\Usability-Testing.pptx/docx`; `Assignments-Activities\Instructions-Usability\` (Instructions-Usability-Test.docx, Usability-Test-Worksheet.docx, Usability-Testing.docx) | — |
+| — · Nov 24–26 | **FALL BREAK — no class.** The syllabus does not number this week | — | — | — |
+| **14** · Dec 1 | Instructions Group Project; US/international safety signage; technical definitions & descriptions. **Extra Credit (lab report email) due Tue** | Ch 2.6 | `Presentations-Notes\Instructions.docx`; `Instructions-Usability\` | annotated instructions sample (D2L); `10_Instructions_1`–`8` |
+| **14** · Dec 3 | **Instructions Group Project due Thu** — `LastnameLastnameLastname_04_Instructions draft.docx` to the D2L Assignments folder. **Last TCOM class of the semester** | Ch 2.6 | same Instructions-Usability folder | `10_Instructions_1`–`8` |
+| recurring | Grammar/style/proofreading checks feeding the week-7 quiz and every graded document | Ch 8 Technical Editing | `Presentations-Notes\Comma-Rules_Fake-It-Til-You-Make-It.pptx` | `8_Proofreading.pdf`, `8_Style-Sheet.pdf` |
+
+## Grade weights and the shape they imply
+
+From the syllabus requirements table (extracted 2026-08-17, re-confirmed 2026-08-18):
+
+| Unit | Weight | Internal split |
+|---|---:|---|
+| Business Email | 15 | draft 15% · final 85% |
+| Audience Analysis | 5 | discussion 50% · Fairy Tale presentation 50% |
+| Presentations & Proposals | 15 | Elevator Speech 15% · Individual Project Proposal 85% |
+| **Technical Report — oral** | **15** | Group Charter & Task Schedule 10% · **oral presentation 90%** |
+| **Technical Report — written** | **20** | Progress Report email 5% · Reflective Memo 10% · **written report 85%** |
+| Instructions unit | 15 | Steps draft 20% · Lab Day participation 20% · **group project 60%** |
+| Graded Exercises | 15 | daily participation, discussion posts, quizzes |
+
+**Two structural facts worth acting on.** ① **Every major unit is draft → final, and the draft
+is worth a token 2 points while buying instructor feedback on a piece worth 12–17%.** Submitting
+a *serious* draft rather than a placeholder is the highest-return habit in this course.
+② **The four report checkpoints in weeks 8–11 are ungraded.** They are professor review, not
+submissions — which is exactly why they get skipped under pressure, and exactly why skipping
+them puts the whole 35% on one week.
+
+**Late policy:** major work −10%/day until the class set is graded, then the folder closes.
+**Quizzes, discussion posts and extra credit accept no late submission at all.** Everything is
+due midnight with a grace period to 8:00 am.
 
 ## Verified against the 2026-07-27 recapture
 

@@ -27,7 +27,7 @@ updated: 2026-08-18
 | Course | Source certainty | Study material | Blocking gap |
 |---|---|---|---|
 | **ECON 1000** | 🟢 exact-section syllabus, dates cross-verified twice | Semester map, drills, flashcards, glossary, reading-guides | Real textbook is D2L-locked |
-| **TCOM 2010** | 🟢 exact-section syllabus — **but its printed dates are recycled Spring dates** | Six pages built 2026-08-13 on the ECON/PHYSICS pattern | Weeks 6–15 not extracted |
+| **TCOM 2010** | 🟢 exact-section syllabus — **but its printed dates are recycled Spring dates** | Six pages built 2026-08-13 on the ECON/PHYSICS pattern; **all 14 weeks now dated** | ~~Weeks 6–15 not extracted~~ **closed 2026-08-18.** Remaining: confirm the derived dates in D2L Aug 24 |
 | **ENGR 1000** | 🔴 **nothing** — no BWD syllabus, no meeting time, no format | **None, deliberately** | Everything |
 
 ## ⏰ D2L opens Monday August 24 — the first day of classes
@@ -81,14 +81,25 @@ for anything dated.
 - **The file-naming convention is itself graded.** Section is **04**.
 - **Two gaps remain open, neither shipping a template:** the Report Group Charter and the
   Reflective Memo. Both are surfaced in the concept and flashcard pages before their due week.
-- ~~**Weeks 6–15 are not yet extracted**~~ — **CORRECTED 2026-08-18. This claim was wrong.**
-  `courses/tcom-2010/semester-map.md` carries rows through **week 14**, including the technical
-  report's weekly draft milestones (weeks 6–12), the Progress Report (10), rough-draft peer
-  review (11), report due (12), Instructions (13) and the Instructions group project (14). The
-  same wrong claim sat in `04-SCHOOL\SEMESTER_MAP.md` and was corrected there 2026-08-18. **This
-  is the "absence in the file consulted read as absence in the vault" error class** already
-  corrected once for ECON on 2026-08-13 — it recurred here because this page was written from
-  memory of the map rather than from the map.
+- ~~**Weeks 6–15 are not yet extracted**~~ — **RESOLVED 2026-08-18, in two stages.**
+  *Stage 1 (earlier that day):* the claim was found to be wrong — `courses/tcom-2010/semester-map.md`
+  already carried rows through week 14. **This is the "absence in the file consulted read as
+  absence in the vault" error class** already corrected once for ECON on 2026-08-13; it recurred
+  because this page was written from memory of the map rather than from the map.
+  *Stage 2 (this session):* the correction was **only half-applied** — `04-SCHOOL\SEMESTER_MAP.md`
+  was recorded as fixed but still carried the `6–15 … not yet extracted` row and the matching
+  D2L-ingestion item. **A correction logged as done in two files but applied in one is the same
+  failure wearing the fix's clothes.** Both are now genuinely updated, and the wiki map gained
+  what neither had: **real Fall dates for every week, with the conversion verified** (14 numbered
+  syllabus weeks ↔ 14 Tue/Thu pairs between Aug 25 and Dec 3, once Fall Break is removed).
+- **Two facts the extraction produced that nothing in the vault had recorded:** ① **TCOM has no
+  final exam** — the requirements table's seven components contain none, so the course ends
+  **Thu Dec 3**, before finals week; ② **there is no TCOM week 15** (Dec 7 is a Monday; TCOM
+  meets TTh).
+- **The report is built at four ungraded checkpoints — weeks 8, 9, 10, 11** (Introduction ·
+  Project Description · Recommendation & Conclusion · Exec Summary/Transmittal/Slides/References).
+  They are professor review, not submissions, which is precisely why they get skipped under
+  pressure — and skipping them puts all 35% on week 12, the semester's worst week.
 - **The report is 35% of the grade in two artifacts** — written 20% + oral presentation 15% —
   confirmed from the exact syllabus 2026-08-17.
 

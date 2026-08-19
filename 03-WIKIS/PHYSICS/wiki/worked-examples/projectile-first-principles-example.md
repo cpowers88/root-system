@@ -1,18 +1,43 @@
 ---
 type: worked-example
-timeline: now
+timeline: reference
 tags: [physics, calculus, school]
-status: active-scratch
+status: draft
 ---
 
-# Calculus-Physics Bridge — Working Notes (Gemini-assisted)
+# Projectile Motion from First Principles (Integration Method)
 
-Active scratch file for the 2026-07-30 through 2026-08-23 calculus-physics
-bridge sprint (`03-WIKIS\PHYSICS\wiki\math-readiness-path.md` § Dated
-Evening Schedule). Chris's own Gemini-assisted derivations; will be folded
-into `03-WIKIS\PHYSICS\wiki\calculus-links\` or `wiki\worked-examples\` once
-this has a few more entries, per the same file-safety discipline as
-everything else in `.ROOT` — not left as an ungoverned side channel.
+**A ball rolls horizontally off a 1.20 m table at 2.50 m/s. How far from the base
+does it land?** — solved by writing the differential equations of motion and
+integrating twice with boundary conditions, rather than by selecting a kinematic
+formula. Followed by a from-scratch explanation of what `d²y/dt² = −g` means and
+why `d` notation says "change."
+
+> **Filed here 2026-08-19 on Chris's instruction.** This began as
+> `.ROOT\needs_for_physics.md`, a loose root-level scratch file from the
+> **2026-07-30 → 08-23 calculus-physics bridge sprint**
+> (`../math-readiness-path.md` § Dated Evening Schedule). It was twice flagged as
+> misplaced (2026-08-02 file-structure review; the Aug 12 update plan) and left in
+> place both times pending Chris's call. Moved with `git mv`, so its history is
+> intact. **Its own header named `calculus-links/` or `worked-examples/` as
+> candidate homes; `worked-examples/` was chosen** because the artifact is a
+> complete worked problem — `calculus-links/` pages are single-concept bridges on a
+> fixed template, and [[../calculus-links/2d-kinematics-components]] already owns
+> that concept.
+>
+> **⚠ Provenance: Gemini-assisted, not independently verified line by line.** The
+> numerical result was checked (`t = √(2h/g) = 0.4949 s`, `R = 2.50 × 0.4949 =
+> 1.24 m` ✓) and the derivation is sound, but the prose is another model's and has
+> **not** been rewritten to this hub's authoring standards
+> (`../authoring-standards.md` § Beginner-Readable Writing Rules). **It is Chris's
+> own study material, kept in his own words** — treat it as a record of how he
+> worked the idea, not as a hub-authored reference page.
+>
+> **Why this problem is worth keeping in this form:** it is the same physics as
+> [[projectile-cliff-example]] but reached the opposite way. That page pattern-matches
+> to standard projectile equations; this one *derives* them. Chris's known failure
+> mode is unchecked substitution, not unknown formulas — so a page showing where the
+> formulas come from is the direct counterweight.
 
 ```python
 import math

@@ -35,7 +35,9 @@ is in `NORTH_STAR.md` §2's permanent capability base and is directly reusable a
 client work, while the course itself carries the heaviest single deliverable.
 
 - [[courses/tcom-2010/semester-map|Semester Resource Map]] — week-by-week
-  deliverables mapped to textbook chapters, ancillaries, and worked examples
+  deliverables mapped to textbook chapters, ancillaries, and worked examples.
+  **All 14 weeks carry real Fall 2026 dates as of 2026-08-18**, plus the grade-weight
+  table. The course ends **Thu Dec 3** and has **no final exam**
 - [[courses/tcom-2010/concepts/audience-purpose-genre|The Four-Part Decision Model]]
   — audience, purpose, genre, constraints; the part of TCOM that outlives the course
 - [[courses/tcom-2010/concepts/technical-report-anatomy|Technical Report Anatomy]] —

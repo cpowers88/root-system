@@ -335,7 +335,7 @@ full loop — read → route → retrieve → produce → file into `work\`.
 |---|---|
 | **CSE 1321** | **`Module 0 - Welcome` and `Module 1 Part 1 - Algorithms and Abstraction` lecture transcripts** — literally weeks 1–2 · `thinkpython.pdf` · `Think Python Notes\` · `Stages\` · vocabulary and keyword notes |
 | **PHYS 2211** | `physic.pdf` (Serway & Jewett) · `01-Chapter 1 Measurements.md` · `# Physics Chapter 2.md` · vocabulary/equations · Flash Cards |
-| **TCOM 2010** | `Textbook Doc Files\2e_Word\` · Purdue OWL professional/technical writing · the full week-1–5 structure in this map |
+| **TCOM 2010** | ⚠ **Corrected 2026-08-18 — this row pointed at the wrong book.** The verified text is **`Textbook Doc Files\Open Technical Communication.pdf`** (9.21 MB, 2019 KSU DigitalCommons), whose decimal chapters match the syllabus *and* the 124-file `Linked-Resources\` numbering exactly. **`2e_Word\` is a trap and must not be used for navigation** — a later flat 0–29 renumbering, missing chapters 25–28, whose **Ch 3 is *Library and Internet Research* where the syllabus's Ch 3 is *Ethics***; reading week 1's assignment from it gives the wrong chapter (ruling: `EDUCATION\wiki\current-position.md`). Also on disk and not previously named here: the **52-file instructor ancillary package** (`Open-TC_Course-Resources\` — templates, rubrics, slides) and **124 worked examples** (`Linked-Resources\`), both under `EDUCATION\raw\`. Plus Purdue OWL, and **the full week-1–14 structure in this map** |
 | **ECON 1000** | OpenStax *Principles of Economics 2e* · CORE Econ *The Economy 2.0* · FRED datasets |
 | **ENGR 1000** | ⚠ **Nothing.** Cannot be rehearsed — format unknown |
 

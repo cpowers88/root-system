@@ -2,7 +2,7 @@
 type: log
 tags: []
 timeline: log
-updated: 2026-07-24
+updated: 2026-08-18
 ---
 
 # EDUCATION Wiki — Session Log
@@ -546,6 +546,77 @@ weekly plan, or earlier via its Move-On Gate queue.
   fixes applied — "every session" → standing-methods-with-triggers; technique quota → grade the
   learning; fact-conflict deference order added; "How to word it for Chris" delivery contract
   added from the aptitude model. Index updated same session.
+
+## 2026-08-18 (later) — TCOM weeks 6–14 ingested and dated; the morning's correction was only half-applied
+
+### What Chris asked for, and what was actually missing
+
+Chris asked to ingest weeks 6–15 and get them onto the semester plan. **Weeks 6–14 existed in
+`courses/tcom-2010/semester-map.md` but had never been dated**, and `04-SCHOOL\SEMESTER_MAP.md`
+still carried the row `6–15 | Sep 29 → Dec 7 | 🔴 Not yet extracted` plus a matching D2L
+ingestion item. So the honest answer to the request was: partly a real gap, partly an
+already-known-but-unapplied correction.
+
+### 🔴 The morning entry claimed a fix in two files and delivered it in one
+
+The entry immediately below says the wrong "weeks 6–15 not extracted" claim *"also sat in
+`04-SCHOOL\SEMESTER_MAP.md` and was corrected there 2026-08-18."* **It was not.** That file
+still held the 🔴 row and the ingestion item when this session opened.
+
+**This is a worse instance than the error it was correcting.** The morning's failure was
+reading absence-in-one-file as absence-in-the-vault. This one is *recording a fix that was
+never applied* — which removes the evidence that anything is still wrong. A stale claim gets
+caught by the next session that reads the file; a falsely-closed one does not.
+**Standing fix, extending the morning's:** a log entry may name a file as corrected only if
+that file was edited in the same session. Naming it is not fixing it.
+
+### The week→date conversion — verified, not derived
+
+The syllabus prints recycled Spring dates, so weeks had stayed relative. They can now be
+anchored with a real check rather than an assumption: **the calendar has exactly 14 numbered
+weeks, and there are exactly 14 Tue/Thu pairs between the first class day (Tue Aug 25) and the
+last day of classes (Mon Dec 7) once Fall Break (Nov 23–29) is removed.** Two counts, no
+remainder — each syllabus week has exactly one home. Marked 🟡 (derived from a verified
+structure), not 🟢 (printed), and D2L still wins from Aug 24.
+
+### Two facts nothing in the vault had recorded
+
+- **TCOM has no final exam.** The requirements table has seven weighted components and none is
+  an exam. **The course finishes Thu Dec 3** — before finals week. Combined with ECON's final
+  also falling Thu Dec 3, **two of five courses are done before Dec 8–14 begins**, which makes
+  the real last push week 14, not finals week. Recorded in `semester-workload-plan.md` §4b.
+- **There is no TCOM week 15.** Dec 7 is a Monday; TCOM meets TTh.
+
+### The report's four checkpoints are dated and ungraded
+
+Weeks 8–11 each carry *"must have draft of the following sections for review by professor"*:
+**Introduction (Tue Oct 13) · Project Description (Tue Oct 20) · Recommendation & Conclusion
+(Tue Oct 27) · Exec Summary, Transmittal, Slides, References (Tue Nov 3).** They are review,
+not submissions — **no points attach**, which is exactly why they will be the first thing
+dropped under pressure, and exactly why dropping them puts the full 35% on week 12, the
+semester's worst week. This is the mechanism that makes "finish the report early" a plan rather
+than an aspiration.
+
+### Also extracted, previously unrecorded
+
+Document Redesign due Thu Oct 1 with **two images added beyond the Dolphin file's own** ·
+Group Charter due Thu Oct 1 **midnight** · Font Style quiz **Tue Oct 6** (the workload plan had
+it as "wk 7–8") · Progress Report **Thu Oct 29**, emailed by **one** team member · Lab Day
+Thu Nov 19 requires polished instructions, the equipment to perform them, **and a printed**
+worksheet · Extra Credit Tue Dec 1 · Instructions Group Project Thu Dec 3.
+
+### Files
+
+`04-SCHOOL\SEMESTER_MAP.md` (TCOM table rebuilt weeks 1–14, header note, ingestion item 6) ·
+`04-SCHOOL\semester-workload-plan.md` (§3 rows 6–15 + F dated, §4.1 rewritten, §4b added, §6
+and §8 item 3 updated) · `courses\tcom-2010\semester-map.md` (date table + weeks 6–14 split per
+meeting + grade-weight section) · `current-position.md` · this log.
+
+**Next exact action — Aug 24, when D2L opens:** confirm the 🟡 TCOM dates against the posted
+calendar, and **download the three Group Charter samples** (*Sample Group Charter*, *Roles &
+Tasks within Your Team*, *Sample Task Schedule*) — they are named in the syllabus, sit behind
+D2L auth, and are needed by **Thu Oct 1**. Neither the charter nor the Reflective Memo has a
+shipped template.
 
 ## 2026-08-18 — backfill of the Aug 17–18 TCOM/ECON work, and a stale claim corrected
 

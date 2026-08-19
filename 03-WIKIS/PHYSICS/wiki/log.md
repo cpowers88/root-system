@@ -1826,3 +1826,77 @@ entry was written to avoid.
 Row 3 durability check from ~midday Aug 19, or row 4
 (`calculus-links/kinematics-derivatives`) now, which is the held frontier item and the
 designated observation point for the reasonableness check.
+
+## 2026-08-19 — Root-level calculus-bridge scratch file relocated into the hub
+
+### Outcome
+
+- `.ROOT\needs_for_physics.md` — a loose root-level file since the July 30 – Aug 23
+  calculus-physics bridge sprint — now lives at
+  `worked-examples\projectile-first-principles-example.md`. **Chris directed the move; the
+  destination choice was this session's.**
+- **Moved with `git mv`, so its commit history survives** (originated `95668a0`). It was
+  tracked, not untracked, which is why it never appeared in a `git status` sweep and part of
+  why it sat at the root for three weeks.
+
+### Evidence
+
+*System session — files changed and checks run.*
+
+- Placement authority: `WHERE_IT_GOES.md` § `04-SCHOOL` vs `03-WIKIS` tiebreaker — *"Did KSU
+  give it to me, or did we make it?"* Chris's own Gemini-assisted derivation is **we made it**
+  → `03-WIKIS\PHYSICS\`, not `04-SCHOOL\02-Physics I\`.
+- Folder choice: the file's own header named **`calculus-links/` or `worked-examples/`**.
+  Chose `worked-examples/` — the artifact is a complete worked problem, `calculus-links/` pages
+  are single-concept bridges on a fixed template (`authoring-standards.md` § Calculus-Link
+  Page), and `calculus-links/2d-kinematics-components.md` already owns that concept.
+  **The Aug 12 update plan had recorded `calculus-links/` as the destination; this differs, and
+  the reason is on the page.**
+- Frontmatter corrected: `timeline: now` → `reference`, `status: active-scratch` → `draft`.
+  It could not keep claiming scratch status in a permanent home.
+- Numerical result independently checked: `t = √(2·1.20/9.80) = 0.4949 s`,
+  `R = 2.50 × 0.4949 = 1.24 m` ✓. Derivation is sound.
+- Files: the moved page · `index.md` (folder count line) ·
+  `calculus-links\kinematics-derivatives.md` (cross-link) · this log.
+
+### Capability/status movement
+
+**None. No learner evidence was produced and no stage moved** — this is a filing action.
+Stage 4 remains open at circular-motion drills 1–4; row 3's durability check is still owed.
+
+### Errors, uncertainty, or residual risk
+
+- **The prose is Gemini's and has not been rewritten to this hub's authoring standards.**
+  Marked in-file rather than silently normalised — it is Chris's study record in his own
+  working words, and rewriting it would destroy what makes it his. **Risk accepted and
+  labelled:** a future session could mistake it for a hub-authored reference page. The
+  in-file provenance block is the control.
+- **No content was verified beyond the arithmetic.** The physics reads correctly, but a
+  line-by-line check against Serway was not run.
+- The page overlaps `worked-examples\projectile-cliff-example.md` in subject but not in
+  method — that one pattern-matches to standard equations, this one derives them. Kept
+  separate deliberately; the contrast is the point.
+
+### Exact next independent rep
+
+Unchanged: **row 3 durability check from ~midday Aug 19**, or row 4
+(`calculus-links/kinematics-derivatives`) — which now links to this page.
+
+### Reusable-asset candidate
+
+No.
+
+### System-learning candidate
+
+**Nomination, not yet a flag.** A tracked file sat at the vault root for three weeks after
+being flagged as misplaced twice (2026-08-02 review; Aug 12 update plan). Both times the
+correct action — ask Chris — was taken, and both times the answer never came back and nothing
+re-raised it. **The gap is that "asked Chris, awaiting answer" has no holder and no check
+moment**, which is `AGENT.md` Execution Discipline 7's exact subject. Worth raising at the
+weekly if a second instance appears; `claude_and_chris_direction.md` was flagged in the same
+Aug 2 pass and **is still at the root**, so a second instance may already exist.
+
+### Sources and files touched
+
+`needs_for_physics.md` → `worked-examples\projectile-first-principles-example.md` ·
+`wiki\index.md` · `wiki\calculus-links\kinematics-derivatives.md` · `wiki\log.md`

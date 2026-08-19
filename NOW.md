@@ -5,7 +5,7 @@ status: active
 tags: []
 ---
 
-# NOW — Tuesday, August 18, 2026
+# NOW — Wednesday, August 19, 2026
 
 > ## ▶ `.ROOT` IS RUNNING. Chris gave `OK TO START` on 2026-08-17.
 >
@@ -24,7 +24,7 @@ drafting and drills — **not submissions**; D2L gates graded work until Aug 24.
 **Fallback if a day collapses:** protect the PHYS and PYTHON resume points below;
 everything else slides.
 
-> ### ⏭ This page changes mode on Mon Aug 24 — 6 days out
+> ### ⏭ This page changes mode on Mon Aug 24 — 5 days out
 >
 > Everything above the Fixed and Dated section is **pre-semester rehearsal framing** and stops
 > being true when classes begin. From Aug 24 the Active Lane is the current week of
@@ -41,20 +41,16 @@ everything else slides.
 
 ### Today
 
-1. ✅ **PHYS §54 SYLLABUS RECEIVED AND RECONCILED — 2026-08-18.** Islam answered Monday's
-   escalation overnight. **Flag #57's PHYS half is closed**; `semester-pathway.md` is rebuilt
-   on real dates. **ENGR BWD is now the only open half — check Fri Aug 21;** if nothing,
-   plan ENGR as if attendance is graded and verify when D2L opens Aug 24.
-2. **CSE Week 1 — Module 0** (2 blocks), from the transcripts on disk. **IN PROGRESS —
-   paused for school pickup after the first concept chain:** decomposition → algorithm →
-   pseudocode → implementation. Resume with the lecture-vs-lab distinction. Practice only.
-3. ⏳ **PHYS row 3 — `passed (immediate)` 2026-08-17, durability check STILL OWED.**
-   **Corrected 2026-08-18: this line previously read "✅ PASSED" and contradicted the durability
-   note below**, which correctly says row 3 is the only rep still outstanding. Both integrations
-   were rebuilt cold on Aug 17 with constants named physically and the `v²` elimination shown
-   once — that is the *immediate* pass. **The 48 h durability floor is ~midday Wed Aug 19**;
-   until it runs, row 3 is not proven. **No stage moved** — Stage 4 is still open at
-   circular-motion drills 1–4.
+1. 🎯 **PRIMARY PROOF — PHYS math row 3 durability check. Its 48 h floor lands ~midday today.**
+   Row 3 was `passed (immediate)` on Aug 17 — both integrations rebuilt cold, constants named
+   physically, the `v²` elimination shown once. **Until the durability rep runs, row 3 is not
+   proven and Stage 4 stays open** at circular-motion drills 1–4. Do not run it before midday;
+   earlier measures short-term memory, the exact error this rep exists to catch.
+2. **CSE Week 1 — Module 0**, from the transcripts on disk. **Still paused mid-chain** from
+   Aug 18 (school pickup): decomposition → algorithm → pseudocode → implementation done.
+   **Resume at the lecture-vs-lab distinction.** Practice only.
+3. **Row 4** (`calculus-links/kinematics-derivatives`) is available any time — unrun,
+   proof-gated not date-gated, and the designated watch point for the reasonableness check.
 
 **Standing rule, new Aug 18 — WebAssign extensions.** Late homework is a flat zero because
 answer keys post at the deadline, **but** an extension can be granted *with penalty* if
@@ -66,10 +62,8 @@ all semester to lose points to something that is not physics.
 PYTHON → **C1** (`53`/`NameError` plus an independent `average(numbers)`). Enter a queue at
 its first unrun row, never at today's date.
 
-**✅ Row 2 durability PASSED 2026-08-18 — `proven (durable)`.** Cold, no scaffold, plus a
-non-zero boundary-condition stretch. **Row 3 is the only one still owed, and its 48 h floor is
-~midday Wed Aug 19** — earlier measures short-term memory, which is the error that rep was
-written to avoid. Rows never shared a floor; do not run them as one.
+**Row 2 is `proven (durable)` as of Aug 18.** Rows 2 and 3 never shared a floor; do not run
+them as one.
 
 **🔴 Open learner habit — reframed 2026-08-18 on Chris's own account.** The **reasonableness
 check** is still not firing. Chris's ruling, which supersedes the Aug 17 "missing form, not
@@ -82,12 +76,15 @@ the answer back and recover `a(t)`). **Watch on row 4. Do not re-explain it.**
 
 ## Frontier Changes — clears once shown
 
-- **📄 PHYS §54 syllabus is binding as of Aug 18 — the semester scope shrank.** Course is
-  **Ch 1–12, 15, 16.1–16.3**: no universal gravitation, no fluids, no superposition, no
-  relativity. Exams **Sep 21 · Oct 12 · Nov 4 · Nov 18**, final **Wed Dec 9, 8–10 AM**.
-  **75% of the grade is four closed-book sittings, and the equation sheet is provided** —
-  so drills shift from formula recall to cold classification. **AI is permitted as a tutor,
-  prohibited in submitted work.** Rebuilt: `PHYSICS\wiki\semester-pathway.md`.
+*PHYS §54's binding-syllabus line cleared 2026-08-19 — shown in the Aug 18 brief. It is now
+ordinary standing truth in `PHYSICS\wiki\semester-pathway.md` and `04-SCHOOL\SEMESTER_MAP.md`.*
+
+- **📄 EDUCATION's last TCOM gap closed — the semester is now fully dated except ENGR.**
+  Weeks 6–14 extracted and dated; the conversion is *verified* (14 syllabus weeks ↔ 14 Tue/Thu
+  pairs, Aug 25 → Dec 3, break removed). **TCOM has no final exam and ends Thu Dec 3** — with
+  ECON's final also Dec 3, **two of five courses finish before finals week**, so the last push
+  is week 14, not Dec 8–14. **The report's four checkpoints are dated and ungraded**
+  (Oct 13 · Oct 20 · Oct 27 · Nov 3) — they are the only defence against 35% landing on week 12.
 - **PYTHON unchanged** — Stage 4b, resume at C1.
 
 ## Needs Chris
@@ -136,7 +133,10 @@ the answer back and recover `a(t)`). **Watch on row 4. Do not re-explain it.**
 - **Aug 23 — final pre-semester review**, plus the backup review and flag #102's close check.
   **Now also: run `verify_backup_restore.py` against the live D: backup into a new empty
   target.** The harness exists as of Aug 18; "the job exited 0" is not "it restores."
-- **Aug 24 — classes begin.**
+- **Aug 24 — classes begin.** On day one, **download TCOM's three Group Charter samples** from
+  D2L (*Sample Group Charter* · *Roles & Tasks within Your Team* · *Sample Task Schedule*).
+  They are named in the syllabus, exist only behind D2L auth, and the charter is **due Thu
+  Oct 1** with no template shipped. Same for the Reflective Memo (due Nov 12).
 - **Aug 28, 11:45 PM — two PHYS deadlines on one day.** Last day to add/drop, **and** the
   Day One Access opt-out. Owl Express is already charged for the WebAssign + eBook bundle;
   opting out refunds it and removes access. **Recommend not opting out** — homework is 10%

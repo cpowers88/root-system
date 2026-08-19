@@ -232,3 +232,105 @@ check the date it was written against what changed after.**
 *Written by:* CLAUDE CODE
 *Next session priority:* PHYS row 3 durability check from ~midday Wed Aug 19 — the laptop work is
 documented and waiting on Chris, not on a session.
+
+---
+
+# ADDENDUM 2 — TCOM ingestion and session close (Claude Code, late)
+
+**Third Claude Code session of Aug 18.** Extends the handoff above rather than replacing it,
+per the one-handoff-per-surface-per-day rule. **The close ran past midnight into Aug 19** —
+the work and the DAILY entry both belong to Aug 18; no Aug 19 DAILY was opened.
+
+## Current state
+
+**The "still unwritten" item at line 88–92 of this file is now written.** That list said the
+`SEMESTER_MAP.md` TCOM corrections were outstanding — *"weeks 6–15 wrongly marked unextracted;
+material path points at a near-empty folder."* **Both are fixed.** Chris asked to ingest weeks
+6–15 and put them on the semester plan.
+
+**Weeks 6–14 are extracted and dated.** There is no week 15 — the syllabus has 14 numbered
+weeks and TCOM meets TTh, so Dec 7 (a Monday) holds no TCOM meeting. **The conversion is
+verified, not derived:** 14 numbered weeks ↔ exactly 14 Tue/Thu pairs between Tue Aug 25 and
+the last day of classes, once Fall Break (Nov 23–29) is removed. Two counts, no remainder.
+ECON's independently-built map lands its week 14 on the same Dec 1/Dec 3, which corroborates it.
+
+**Two facts nothing in the vault held:** **TCOM has no final exam** (seven weighted components,
+none an exam) and finishes **Thu Dec 3**; with ECON's final also Dec 3, **two of five courses
+end before finals week**, making week 14 the real last push. And **the report's four
+checkpoints are dated and ungraded** — Oct 13, Oct 20, Oct 27, Nov 3.
+
+**Health gate: PASS WITH DEBT.** 0 blockers, 0 new frontmatter debt, 0 text-integrity findings
+across 1,559 files, 1 reviewed wiki-navigation item (the pre-existing CASTLE
+`[[drills/circular-motion-drill]]`). **Passing, not clean.** Notably the `77-INBOX` text-integrity
+BLOCKER from Addendum 1 **is gone** — the gate ran clean on that scope tonight.
+
+## ⚠ The finding that matters most here
+
+**This morning's log entry recorded a correction as applied to two files and applied it to one.**
+`EDUCATION\wiki\log.md` states the wrong "weeks 6–15 not extracted" claim *"also sat in
+`04-SCHOOL\SEMESTER_MAP.md` and was corrected there 2026-08-18."* It was not.
+
+**This file was right and the log was wrong** — line 88–92 correctly listed the SEMESTER_MAP
+correction as unwritten. Two records of the same session disagreed, and the optimistic one was
+the one a future session would have trusted.
+
+**A falsely-closed claim is strictly worse than a stale one.** A stale claim gets caught by the
+next session that opens the file; a false close removes the reason to look. Standing fix now in
+`EDUCATION\wiki\log.md`: *a log entry may name a file as corrected only if that file was edited
+in the same session.*
+
+## Open question / blocker
+
+**Nothing blocking.** Items 1–6 from the two sections above still stand. Item 1 — **the TCOM
+report topic** — is now better informed: the four dated checkpoints (Oct 13 → Nov 3) mean a
+construction-workflow topic would need its research done by mid-October, not November. That is
+a real input to the "school and business separate?" call, not a reason to decide it.
+
+## Next exact action
+
+**Unchanged: PHYS math row 3 durability check, from ~midday Wed Aug 19** — now today. It is the
+only rep still outstanding. Or row 4 any time.
+
+## Details likely to be forgotten
+
+- **Aug 24, day one: download TCOM's three Group Charter samples** — *Sample Group Charter*,
+  *Roles & Tasks within Your Team*, *Sample Task Schedule*. Named in the syllabus, **D2L-auth
+  only**, and the charter is **due Thu Oct 1** with no template shipped. Same gap for the
+  Reflective Memo (due Nov 12). Now in `NOW.md` Fixed and Dated.
+- **`SEMESTER_MAP.md`'s rehearsal-material row pointed at `2e_Word\`** — the trap edition —
+  and never named the verified `Open Technical Communication.pdf`, the 52-file ancillary
+  package, or the 124 worked examples. Corrected tonight. **The trap ruling existed since
+  Aug 17 but had not propagated to the file a session would actually read first.**
+- **`SYSTEM_FLAGS.md`'s header said "🔴 ONE HIGH FLAG OPEN — #102" while #102's own row read
+  🟢**, three lines below. Codex spotted it this morning and correctly left it (read-only pass).
+  **Reconciled tonight — no flag's priority was changed**, only the summary line. It matters
+  because `AGENT.md` forbids closing with an open HIGH flag, so a stale header disables that
+  rule in both directions.
+- **Font Style quiz is Tue Oct 6, not "wk 7–8"** — the workload plan had it hedged across two
+  weeks. It is week 7 Tuesday, printed plainly in the syllabus.
+- **Document Redesign (Thu Oct 1) requires two images added beyond the supplied Dolphin file** —
+  an easy silent mark-loss.
+- **Lab Day (Thu Nov 19) requires a *printed* usability worksheet** plus the equipment to
+  actually perform the instructions in class.
+- **No Day Summary existed for Aug 13, 14, 16 or 17.** Tonight's Aug 18 summary breaks a
+  four-day run. **Aug 17 was not backfilled** — reconstructing another surface's interrupted day
+  from its handoff is writing history. Raised for the **Aug 23 review**.
+- **Flag #101 fired again**, on a read-only `for` loop running `grep` over four DAILY files.
+  Sixth recorded block of read-only work. Worked around with the `Grep` tool;
+  **`ALLOWED_SCRIPTS` was not widened.**
+- **ECON needed nothing** — already mapped through week 14 with real dates since July. ENGR is
+  still deliberately empty. **The hub-level ask resolved to a TCOM-only job**, which is worth
+  knowing before assuming three courses need the same pass.
+
+## Message to the other AI
+
+Today produced the same defect three times in three costumes: a status board written from memory
+of a map; a correction logged in two files and applied in one; and a session holding pre-`git
+pull` copies of three files it was about to write. **All three are acting on a remembered state
+instead of the live one**, and the two-machine sync has made the third one cheap to hit.
+The vault now carries a written rule against each. **Read the file you are about to claim
+something about — including the file you already "fixed" earlier today.**
+
+*Commit made:* [ ] No — left uncommitted for Chris's review
+*Written by:* CLAUDE CODE
+*Next session priority:* PHYS row 3 durability check, ~midday Wed Aug 19.

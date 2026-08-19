@@ -1,15 +1,15 @@
 ---
-type: dashboard
+type: brief
 timeline: now
 status: active
-tags: [castle]
-generated: 2026-08-18
+generated: 2026-08-19
+tags: []
 ---
 
-# Morning Brief — August 18, 2026 (Tuesday)
+# Morning Brief — Wednesday, August 19, 2026
 
-**ATTENTION —** PHYS §54's exact syllabus arrived and reconciled; scope shrank to Ch 1–12, 15, 16.1–16.3 with Exam 2 now Oct 12, not Oct 16 (`03-WIKIS\PHYSICS\wiki\semester-pathway.md`).
+**ATTENTION** TCOM is now dated through Dec 3 and has no final exam; its four ungraded report checkpoints begin Oct 13 (`04-SCHOOL/SEMESTER_MAP.md`).
 
-**START —** Resume CSE Week 1 Module 0, paused mid-chain for pickup, at the lecture-vs-lab distinction, practice only, no submission (`NOW.md`).
+**START** Run the PHYS math row 3 durability check cold — its 48 h floor lands ~midday and it is the last rep before Stage 4 closes (`NOW.md`).
 
-**CHRIS —** Ratify Week D's two provisional approval gates — learner-hub alignment and instruction protocol — since silence is not approval (`00-BRAIN\CASTLE\wiki\weekly-plans\weekly-plan-2026-08-17-to-2026-08-23.md`).
+**CHRIS** None before start — four low-urgency items wait (TCOM report topic, path-audit cluster home, Week D ratification, Aug 28 opt-out) per `NOW.md` § Needs Chris.

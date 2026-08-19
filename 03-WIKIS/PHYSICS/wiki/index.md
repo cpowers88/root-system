@@ -71,7 +71,12 @@ cruise-prep build; **generated ≠ studied** — actual progress lives in
 - `equations/` — 42 equation pages
 - `calculus-links/` — 9 calculus-in-physics bridge pages, each with a multi-problem practice set and a real-world engineering use case
 - `problem-types/` — 36 problem recognizers and solution patterns
-- `worked-examples/` — 19 approved worked examples
+- `worked-examples/` — 19 approved worked examples, plus two pages that are **not**
+  hub-authored and are marked as such in-file: `2026-07-28-angled-launch-session-review.md`
+  and [[worked-examples/projectile-first-principles-example|projectile-first-principles-example]]
+  (Chris's Gemini-assisted derivation of projectile motion straight from `d²y/dt² = −g`,
+  relocated here from the vault root 2026-08-19 — result verified, prose not rewritten
+  to this hub's standards)
 - `drills/` — 36 independent study drills
 - `glossary/` — 48 vocabulary pages
 - `flashcards/` — 18 flashcard decks
