@@ -88,7 +88,20 @@ cold rebuild 48–72 h later, with no scaffold.
 
 | Rep | Passed (immediate) | Durability check due | State |
 |---|---|---|---|
-| Math row 3 — cold rebuild of the three 1D kinematics equations | 2026-08-17 (midday) | **Wed Aug 19 – Thu Aug 20** | ⏳ owed |
+| Math row 3 — cold rebuild of the three 1D kinematics equations | 2026-08-17 (midday) | ~~Wed Aug 19 – Thu Aug 20~~ → **Fri Aug 21 – Sat Aug 22** | ❌ **MISSED 2026-08-19, reopened** |
+
+**Row 3 missed its durability check 2026-08-19 (12:00, run on its floor).** Both integrations
+and both constants were correct and cold; **the third equation was absent** and the set was
+described as complete (*"these are all obtained by integration"*). Recovered correct on one
+structural cue — but the bar is a cold rebuild **with no scaffold**, so it is recorded as a
+miss before the correction, not after. **Error class: concept — set structure** (not algebra;
+the elimination itself was produced correctly once pointed at). Per the clearing rule the
+immediate pass is not erased, it is reopened.
+
+**The reopened rep is re-aimed, deliberately.** Not a re-list of three equations — §54 supplies
+the equation sheet at every exam, so recitation earns nothing and *selection* earns everything.
+New form: **a problem with no `t` given and no `t` wanted; Chris names the equation and states
+that the absence of `t` is what selects it.** Cold, no sheet. Full evidence: `log.md` 2026-08-19.
 
 **Row 2 cleared 2026-08-18 — `proven (durable)`.** Cold transfer `a(t) = 12t − 4` with
 `v(0) = 3`, `x(0) = 5` → `v(t) = 6t² − 4t + 3`, `x(t) = 2t³ − 2t² + 3t + 5`, both integrations

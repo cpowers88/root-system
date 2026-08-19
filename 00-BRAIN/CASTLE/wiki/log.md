@@ -1775,3 +1775,49 @@ remain open, not urgent tonight.
   *Why this needed a note:* this review's conclusions were reached before the ruling but
   appended after it, so the file's last entry read as pending when it was not. Ordering
   artifact, not a live open item.
+
+## 2026-08-19 (afternoon) — Fresh-session acceptance test run; reconciliation advanced to Friday; TCOM boundary corrected (Claude, Chris-directed)
+
+- **Acceptance test result — CASTLE loaded cold and is trustworthy, with one measured blind
+  spot.** A fresh session ran the full boot chain and reported live state. It **caught** a
+  stale Physics row in `current-position.md` (row 2 still `passed (immediate)` a day after the
+  PHYSICS owner marked it `proven (durable)`). It **missed** the `:95` Owner Pointers line,
+  which still routed capability state to `[[skill-map]]` — the last surviving half of #103's
+  loop. Codex caught that on independent review. **Both repaired.** Lesson recorded: the
+  repair and `castle_freshness.py` both hunt state-carrying *claims*; neither inspects
+  outbound *pointers*, so a file can declare itself owner and route elsewhere for the same
+  fact with nothing objecting. Candidate deterministic check proposed for Aug 23 — *does a
+  file declaring ownership of X also contain an outbound pointer for X?*
+- **Decision (Chris): semester format is built Friday Aug 21, not Sunday Aug 23.** Aug 23 was
+  carrying the Week 1 build *plus* #102's close, #103's close, the backup review, the monthly
+  reconciliation and the calendar resolution — while the physics schedule designates it "light
+  review only, no new material the day before class." Friday's output is a **draft confirmed
+  Monday** against D2L's seven reconciliation checks, not a finished artifact.
+- **Decision (Chris): the full CASTLE reconciliation is routed to Codex** (Sol, high
+  reasoning), from his own written plan, rather than run by this session. Reasons: it is an
+  audit/validate task; this session has a *measured* miss on the same file today, so
+  independent eyes beat context continuity; and running it elsewhere is what leaves today's
+  remaining blocks for TCOM. This session validates the resulting diff. Claude's counter to
+  the plan's own timing — that running it today breaks the semester maintenance budget adopted
+  this morning, with TCOM at 0 of 6 blocks — was accepted; Phases 3, 6 and 7 of that plan were
+  endorsed unchanged.
+- **Confirmed for that pass, verified not asserted:** `current-position.md` § July Weak Links
+  still prints **SQL first, Python fifth**, while its named owner
+  (`capability_development_goal.md:44`) ranks **independent programming first, physics second**
+  — and physics is absent from CASTLE's copy entirely. The section says the ranking is owned
+  elsewhere and then reproduces a stale version underneath. **Third instance of pointer-then-
+  copied-state in this one file today** (`:49`, `:95`, now the weak-link list). Also confirmed:
+  that goal file's `review_trigger: 2026-08-01` is expired, and this morning's blanket re-dating
+  of five opportunity rows to Aug 23 ignores status — a parked row and a researching row should
+  not share a trigger.
+- **Boundary correction, ruled from source:** TCOM §04 prohibits AI *drafting* as plagiarism by
+  name and permits editing/proofreading only with cited usage. `HAT_TCOM`, `HAT_EDUCATOR` and
+  the active weekly plan all previously read "verify per assignment," which is how two blocks
+  of AI-assisted "Business Email draft" got scheduled for Thursday. All three corrected.
+- **Scope correction:** the full CSE semester is on disk (`PYTHON\raw\`: 17 lecture decks, 13
+  labs, 7 assignments, both syllabi). The "hard-capped at Module 1 Pt 1" claim was a
+  generalisation of an Aug 18 note about MediaSpace transcripts. The CSE lecture lane runs the
+  whole semester and is the AI-permitted half; labs and assignments are Chris alone.
+- **Learner movement is owned elsewhere and not restated here:** row 3's durability miss and
+  reopening, and the work-energy bridge, are in `PHYSICS\wiki\log.md` 2026-08-19.
+- **Next:** Codex runs the reconciliation from the handoff; Chris and Claude open TCOM.

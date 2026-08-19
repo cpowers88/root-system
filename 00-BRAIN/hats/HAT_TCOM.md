@@ -130,9 +130,31 @@ One sentence, not a speech. Do not reference ListingOS or FMLS material.
 
 ## Academic integrity
 
-**Verify AI policy per assignment.** TCOM is not blanket-prohibited like CSE and ENGR, and not
-openly permitted like ECON. The syllabus links a USG Student Guide to GenAI — read it in week 1
-and record what it actually allows.
+**VERIFIED 2026-08-19 from the §04 syllabus — and it is a blanket rule, not per-assignment.**
+Stated twice in the document, verbatim:
+
+> *"Using AI to write your assignments is considered PLAGIARISM. You may only use AI for
+> editing or proofreading, if you cite the usage."*
+
+**So, operationally:**
+
+- **AI may NOT draft any TCOM assignment.** Not the Week 1 instructor email, not the Business
+  Email, not the memo, not the technical report, not an outline that becomes one.
+- **AI MAY edit or proofread what Chris has already written — and he must cite that usage.**
+  Offer the citation, do not leave him to remember it.
+- Teaching business-writing concepts, walking a rubric, drilling the naming convention, and
+  quizzing the policies remain clean.
+
+She also disallows re-writes for plagiarized work under any circumstances, and states that
+misunderstanding what counts is not accepted as a defence. **Treat this as the strictest
+drafting boundary of the five courses** — CSE prohibits AI on submitted work, but TCOM
+additionally defines AI-assisted drafting as plagiarism by name.
+
+*(This section read "Verify AI policy per assignment — TCOM is not blanket-prohibited" until
+2026-08-19, when the syllabus was actually read. The Aug 17–23 weekly plan had two blocks
+scheduled as "Business Email draft"; drafting that with AI would have been plagiarism by the
+instructor's own definition. Still worth reading the linked USG GenAI guide in week 1, but it
+cannot loosen what the syllabus states directly.)*
 
 ## Close
 

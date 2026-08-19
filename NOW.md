@@ -41,16 +41,23 @@ everything else slides.
 
 ### Today
 
-1. 🎯 **PRIMARY PROOF — PHYS math row 3 durability check. Its 48 h floor lands ~midday today.**
-   Row 3 was `passed (immediate)` on Aug 17 — both integrations rebuilt cold, constants named
-   physically, the `v²` elimination shown once. **Until the durability rep runs, row 3 is not
-   proven and Stage 4 stays open** at circular-motion drills 1–4. Do not run it before midday;
-   earlier measures short-term memory, the exact error this rep exists to catch.
-2. **CSE Week 1 — Module 0**, from the transcripts on disk. **Still paused mid-chain** from
-   Aug 18 (school pickup): decomposition → algorithm → pseudocode → implementation done.
-   **Resume at the lecture-vs-lab distinction.** Practice only.
-3. **Row 4** (`calculus-links/kinematics-derivatives`) is available any time — unrun,
-   proof-gated not date-gated, and the designated watch point for the reasonableness check.
+1. ✅ **PHYS row 3 durability check — RAN 12:00, MISSED, reopened Fri Aug 21 – Sat Aug 22.**
+   Both integrations and constants correct cold; **the third equation was absent** and the set
+   was asserted complete. Recovered on one structural cue — still a miss, because the bar is
+   *no scaffold*. Error class: **concept — set structure.** The reopened rep is **re-aimed and
+   is not a re-list**: a problem with no `t` given and no `t` wanted, Chris names the equation
+   and says why the absence of `t` selects it. §54 supplies the equation sheet, so recitation
+   earns nothing and selection earns everything.
+2. ✅ **CSE Module 0 concept chain closed** — lecture-vs-lab distinction landed, 3/3 on the
+   transfer. Policy remainder is a skim. Not stage-advancing.
+3. 🎯 **NEXT — TCOM, and it is the week's real gap.** Course Policies Quiz + File Naming
+   Convention Quiz prep: both **graded Aug 25**, both pure syllabus study, zero AI exposure.
+   Then Ch. 2.13 Emails & Memos. **TCOM is 0 of 6 planned blocks** — the largest allocation
+   this week, untouched, with three graded items and attendance starting on day one.
+4. **PHYS: circular-motion drills 1–4 outranks row 4.** It closes Stage 4, has blocked the
+   frontier since July, and 6.1–6.2 sits on Unit Exam 1 (Mon Sep 21). **Row 4 is a half block,
+   not a full one** — two of its three problems duplicate row 2's proven ground; its unique
+   content is the v–t graph area and average-vs-instantaneous.
 
 **Standing rule, new Aug 18 — WebAssign extensions.** Late homework is a flat zero because
 answer keys post at the deadline, **but** an extension can be granted *with penalty* if
@@ -188,6 +195,14 @@ submitted work; **PHYS §54 permits AI as a tutor but not in submitted work — 
 WebAssign answer**; ECON permits AI if credited · no outreach, publishing or pricing without
 Chris's approval · bulk edits need copy-first **and** `safe_shell.sh` · no writes under any
 `raw\`; `88-JOURNAL` is never read · the safe word `Richard F` executes as stated.
+
+**🔴 TCOM corrected 2026-08-19 — the strictest drafting boundary of the five.** The §04
+syllabus says twice: *"Using AI to write your assignments is considered PLAGIARISM. You may
+only use AI for editing or proofreading, if you cite the usage."* **Blanket, not
+per-assignment. AI may not draft the instructor email, the Business Email, the memo or the
+report** — Chris writes, AI proofreads afterward, and the usage is cited. Three files read
+"verify per assignment" until today, which is how two blocks of AI-assisted "Business Email
+draft" reached Thursday's plan.
 
 **Two-machine rule, live from 2026-08-18** (`CAMPUS_LAPTOP_BUILD.md` §6): **the desktop stays
 canonical.** Pull at the start of every campus session, commit and push at the end. Coursework

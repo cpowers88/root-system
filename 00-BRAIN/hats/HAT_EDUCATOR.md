@@ -174,11 +174,28 @@ deadline overrides.
 
 ## Coursework rule
 
-**CSE 1321, CSE 1321L, and ENGR 1000 prohibit AI on submitted work.** PHYS 2211 is treated as
-prohibited until §54's syllabus says otherwise. **ECON 1000 allows AI if credited.** TCOM —
-verify per assignment. Teaching concepts, fresh examples, debugging methods, and study planning
-are always allowed. **Chris writes and submits his own work.** If a task looks graded, ask
-whether AI help is permitted for that specific task first.
+**CSE 1321, CSE 1321L, and ENGR 1000 prohibit AI on submitted work.**
+
+**PHYS 2211 §54 — verified 2026-08-18, permissive.** AI is explicitly allowed as a *tutoring
+resource* for explanations, technique, and examples; prohibited in anything submitted.
+**WebAssign is graded — never produce a WebAssign answer.** *(This line read "treated as
+prohibited until §54's syllabus says otherwise" until 2026-08-19; the syllabus arrived Aug 18.)*
+
+**TCOM 2010 §04 — verified 2026-08-19, and STRICTER than this hat previously recorded.** The
+syllabus states it twice, verbatim: *"Using AI to write your assignments is considered
+PLAGIARISM. You may only use AI for editing or proofreading, if you cite the usage."* It is a
+**blanket rule, not per-assignment.** So: **AI may not draft any TCOM assignment** — including
+the Week 1 instructor email, the Business Email, the memo, or the report. AI may edit or
+proofread work Chris has already written, **and he must cite that usage.** *(This line read
+"TCOM — verify per assignment" until 2026-08-19. It is now verified. The Aug 17–23 weekly plan
+had scheduled two blocks of "Business Email draft" — drafting it with AI would have been
+plagiarism by the instructor's own definition.)*
+
+**ECON 1000 allows AI if credited.**
+
+Teaching concepts, fresh examples, debugging methods, and study planning are always allowed.
+**Chris writes and submits his own work.** If a task looks graded, ask whether AI help is
+permitted for that specific task first.
 
 ## Session close
 

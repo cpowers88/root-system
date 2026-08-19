@@ -1900,3 +1900,99 @@ Aug 2 pass and **is still at the root**, so a second instance may already exist.
 
 `needs_for_physics.md` → `worked-examples\projectile-first-principles-example.md` ·
 `wiki\index.md` · `wiki\calculus-links\kinematics-derivatives.md` · `wiki\log.md`
+
+## 2026-08-19 (12:00–13:xx) — Math row 3 durability check: **MISS**, repaired same session; work-energy bridge built
+
+### Row 3 durability check — `passed (immediate)` 2026-08-17 → **MISS 2026-08-19**
+
+Run at 12:00, on its floor (48 h from the Aug 17 midday pass), cold, no formula sheet.
+
+**Produced unprompted, correct:** `a = a₀` · `v = a₀t + v₀` · `x = ½a₀t² + v₀t + x₀`, with
+`C₁` recovered as `v₀` and `C₂` as `x₀`, plus a correct statement of the mechanism
+("obtained by integration back up the chain with respect to time").
+
+**The miss:** the gate asks for **three** kinematics equations; Chris produced the premise
+plus two. `v² = v₀² + 2aΔx` was absent, and his summary sentence — *"these are **all**
+obtained by integration"* — asserted completeness over an incomplete set.
+
+**Error class: concept — set structure.** Not algebra, not calculus mechanics. This is the
+catalogued `v²` failure mode (`HAT_PHYSICS` § Failure modes) **arriving from the other
+side**: he did not misclassify `v²` as a third integration, he omitted it while describing
+the set as complete. Same root — what is not encoded is that the set has three members and
+one has a non-integral origin.
+
+**Repair, one structural cue, no content given.** Asked how many times `a = const` can be
+integrated before the chain runs out. Answer: *"twice, and the third is algebra and
+substitution, so `v² = v₀² + 2a(x − x₀)` or `Δx`."* Correct mechanism, correct equation,
+correct `(x − x₀)`/`Δx` equivalence. **Recorded as a miss regardless** — the written bar is
+a cold rebuild *with no scaffold*, and the standard does not grade scaffolds by size (same
+rule applied to the 2026-08-01 Python quiz).
+
+**Verdict: `owed`, new durability window Fri Aug 21 – Sat Aug 22.** Per the clearing rule, a
+failed durability check does not erase the immediate pass; it reopens it.
+
+**The reopened rep is re-aimed and is not a re-list.** §54 provides the equation sheet at
+every exam, so reciting the set earns nothing on Sep 21 — *selecting* from it earns
+everything. New form: a problem with no `t` given and no `t` wanted; Chris names the equation
+and states that the absence of `t` is what selects it. Cold, no sheet.
+
+### Same session, Chris-requested — `v² = v₀² + 2aΔx` derived and bridged
+
+Chris asked to re-run the derivation "to make it stick." Worked phase (per the
+worked → faded → cold ladder); faded and cold are still owed.
+
+- **Road 1** — solve `v = v₀ + at` for `t`, substitute into `Δx = v₀t + ½at²`, clear by `2a`,
+  cancel `2v₀v` against `−2vv₀`.
+- **Road 2** — `v_avg = (v + v₀)/2` for constant `a`, times `t = (v − v₀)/a`, difference of
+  squares. Two lines.
+- **Reasonableness check MODELLED, twice** — the two roads, and an `F = ma` cross-check on the
+  wheelbarrow case. This closes the "modelled once before asking" precondition in
+  `HAT_PHYSICS` § Method 3. `NOW.md` records the habit as still not firing on written work;
+  it has now been demonstrated, not merely requested. **Watch on row 4.**
+- **Bridge built:** `×½m` → `½mv² = ½mv₀² + FΔx`, i.e. the work-energy theorem, with the
+  physical reason `t` drops out (energy is indifferent to duration, only to distance).
+
+### Three bridge misses — all one gap, and it is the hub's named gap
+
+Chris nominated the energy step himself as the unfamiliar one. Each miss below is
+**kinematics → dynamics, the point where mass enters** — `OPERATIONS.md` § Teaching contract's
+identified gap, in his own words *"connecting to the physics is still hazy."*
+
+1. **"multiplying by mass gives us the density of the object"** — density is mass/volume.
+   Corrected with same-mass/different-density disambiguation; mass re-anchored as **inertia,
+   the handle force grabs**.
+2. **"work is more for the loaded wheelbarrow"** — no `m` in `W = FΔx`. Same force, same
+   distance, **same work**. Corrected: mass is not in the work, mass is in the kinetic
+   energy; `v = √(2FΔx/m)` is what differs.
+3. **"time... only affects the work going into lifting"** — time is in no work term. Level
+   travel means zero vertical displacement and gravity does zero work regardless of duration.
+   The quantity he was actually describing is **power** (`W/t`) — correct instinct, wrong
+   label. First half of that answer was right and unprompted: *"the time changes but that
+   doesn't affect the work done."*
+
+**Session judgment:** calculus and algebra were clean throughout; every miss was on the
+bridge. Stopped adding after the third rather than pushing — escalation is earned by a
+demonstrated miss, and three in one sitting on one bridge is the signal to let it set.
+
+### Frontier verdict
+
+**Stage 4 unchanged — still open at circular-motion drills 1–4.** Nothing this session
+advanced it. Row 3 reopened. Row 4 unrun.
+
+**Row 4 narrowing (recorded so the block is not spent twice):** two of its three practice
+problems duplicate proven ground — Problem 1 is polynomial differentiation, Problem 2 is
+`a(t) = 6t` integrated, an easier version of row 2's Aug 18 durable pass (`a(t) = 12t − 4`
+with non-zero boundary conditions). **Row 4's unique content is Problem 3 (displacement as
+area under a v–t graph) and the average-vs-instantaneous distinction** — neither
+demonstrated, and the page itself calls graphical interpretation the most important Stage 2
+intuition. Run row 4 aimed at the graph; half a block, not a full one.
+
+### One exact next rep
+
+**PHYS: circular-motion drills 1–4, cold** — closes Stage 4, blocked since July, and
+6.1–6.2 sits on Unit Exam 1 (Mon Sep 21). **This outranks row 4.**
+
+### Sources and files touched
+
+`wiki\current-position.md` (durability table) · `wiki\log.md` ·
+`wiki\calculus-links\kinematics-derivatives.md` (read only)
