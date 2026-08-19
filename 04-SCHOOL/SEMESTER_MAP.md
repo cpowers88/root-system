@@ -17,15 +17,24 @@ created: 2026-08-13
 > **Updated 2026-08-18 — PHYS 2211 moved 🔴 → 🟢.** The exact §54 syllabus arrived from the
 > instructor with all five exam dates, real grading weights, and a clean 15-week schedule.
 > **ENGR 1000 BWD is now the only 🔴 course**, and flag #57 narrows to it alone.
+>
+> **Also 2026-08-18 (second session) — TCOM weeks 6–14 extracted.** The `6–15 … not yet
+> extracted` row is gone; the whole semester is now dated 🟡. **The technical report is due
+> Thu Nov 12 with four draft checkpoints in weeks 8–11, and TCOM has no final exam.**
 
 > ### 📋 For "what does a successful week look like": `semester-workload-plan.md`
 >
 > Added 2026-08-18. **This map owns dates and course facts; that page owns effort and
 > sequencing** — the week-by-week load across all five courses, estimated hours, and which
 > weeks collide. It names **Week 12 (Nov 9–15) as the worst week of the semester** (CSE Test 2,
-> TCOM Technical Report due, group presentations, ECON quiz, 2 labs, 1 assignment) and shows
-> that 14 credits implies **~28 hours a week outside class against ~11.75 hours of campus
-> blocks.** Read it Sunday; read this file when you need a date.
+> the TCOM Technical Report due Thu Nov 12, group presentations, ECON quiz, 2 labs, 1
+> assignment). Read it Sunday; read this file when you need a date.
+>
+> **Corrected later the same day** — this pointer first said "14 credits … ~11.75 hours of
+> campus blocks," which was wrong and was not updated when the plan itself was. Per the
+> registrar record (`fall_KSU_schedule.md`): **13 credit hours** — PHYS 2211 is **3.0**, not
+> 4.0 — implying **~26–39 h/week outside class**, against **16.33 h** of realistic campus
+> mid-day gaps. All-A working figure: **~430 h over the semester, ~28 h/week.**
 
 ---
 
@@ -128,17 +137,59 @@ recycled from a Spring term** — it says assignments are due "Friday, January 1
 January 20th", "Tuesday, January 27th". **Ignore every printed date.** The week structure
 converts cleanly:
 
+> **✅ Weeks 6–14 extracted 2026-08-18.** The row that used to read *"6–15 — not yet
+> extracted"* is replaced below with the full calendar. **There is no TCOM week 15**, and
+> **TCOM has no final exam** — see the note under the table.
+
+**The week→date conversion is now proven, not derived.** The syllabus calendar has exactly
+**14 numbered weeks**, and there are exactly **14 Tuesday/Thursday pairs** between the first
+class day (Tue Aug 25) and the last day of classes (Mon Dec 7) once Fall Break (Nov 23–29) is
+removed. The two counts match with nothing left over, so each syllabus week lands on exactly
+one real week. That is a verification, not an assumption.
+
 | Syllabus week | Real Tuesday | Real Thursday | Known graded items |
 |---|---|---|---|
-| 1 | Aug 25 | Aug 27 | Email instructor · Course Policies Quiz · File Naming Quiz · Business Email draft started |
+| 1 | Aug 25 | Aug 27 | Email instructor · Course Policies Quiz · File Naming Quiz · Business Email draft started · Ethics Analysis assigned |
 | 2 | Sep 1 | Sep 3 | Policies + File Naming quizzes due · Business Email draft due · Audience Analysis discussion post · Resume extra credit · Audience Analysis peer response |
 | 3 | Sep 8 | Sep 10 | **Business Email FINAL due** · Fairy Tale group presentations · Elevator Speech |
 | 4 | Sep 15 | Sep 17 | Individual Project Proposal worked in class · Elevator Speech presented |
-| 5 | Sep 22 | Sep 24 | Individual Project Proposal presentations begin |
-| 6–15 | Sep 29 → Dec 7 | | 🔴 **Not yet extracted — the technical report (35%) lands in this range** |
+| 5 | Sep 22 | Sep 24 | Individual Project Proposal presentations, Day 1 and Day 2 |
+| **6** | **Sep 29** | **Oct 1** | **Report groups + topics assigned (Tue).** **Report Group Charter & Task Schedule due Thu midnight.** **Document Redesign due Thu** — `Lastname_04_DocRedesign.docx` to D2L Assignments |
+| **7** | **Oct 6** | **Oct 8** | **Font Style for MS Word Docs QUIZ (Tue).** Group oral presentations: Technical Report PPT (Thu). Report work in class both days |
+| **8** | **Oct 13** | **Oct 15** | **Report draft checkpoint 1 — Introduction** (mission statement, problem & background, scope, organization) reviewed by the professor **Tue** |
+| **9** | **Oct 20** | **Oct 22** | **Report draft checkpoint 2 — Project Description** (technical description, niche, location, benefits, budget, timeline) **Tue**. Midterm grades + withdrawal discussion **Thu** |
+| **10** | **Oct 27** | **Oct 29** | **Report draft checkpoint 3 — Recommendation & Conclusion (Tue).** **Progress Report due Thu** — email to Diamond from **one** team member per group. Presentation extra credit announced Tue |
+| **11** | **Nov 3** | **Nov 5** | **Report draft checkpoint 4 — Executive Summary, Transmittal Letter, Slide Deck, References (Tue).** **Rough Draft discussion post due Tue.** **Rough Draft peer reviews due Thu.** Reflective Memo work begins |
+| **12** | **Nov 10** | **Nov 12** | 🔴 **TECHNICAL REPORT DUE (Thu) · REFLECTIVE MEMO DUE (Thu) · Group Presentations both days.** The 35% lands here |
+| **13** | **Nov 17** | **Nov 19** | Instructions Steps assignment written in class (Tue). **LAB DAY Thu** — usability testing on classmates' instructions; bring polished instructions, all equipment, and a printed Usability Worksheet |
+| — | Nov 24 | Nov 26 | **FALL BREAK — no class.** The syllabus does not number this week |
+| **14** | **Dec 1** | **Dec 3** | Instructions Group Project + safety signage + technical definitions (Tue). **Extra Credit due Tue.** **Instructions Group Project due Thu** — `LastnameLastnameLastname_04_Instructions draft.docx`. **Last TCOM class of the semester** |
 
-**Two deliverables have no template supplied** — the **Report Group Charter** and the
-**Reflective Memo**. Both are surfaced early in `03-WIKIS\EDUCATION\wiki\courses\tcom-2010\`.
+**⚠ Three things this extraction settles:**
+
+1. **TCOM has no final exam.** The requirements table has seven weighted components and none of
+   them is an exam. **The last graded TCOM item is the Instructions Group Project on Thu Dec 3**,
+   which means TCOM is *finished* before finals week — worth knowing when planning Dec 8–14.
+2. **There is no week 15.** The last day of classes is **Mon Dec 7** and TCOM meets Tue/Thu, so
+   week 15 contains no TCOM meeting at all.
+3. **The report is built in four dated checkpoints, not one deadline** — weeks 8, 9, 10 and 11.
+   Each is "must have draft of the following sections for review by professor." These are the
+   mechanism by which the week-12 collision is survivable, and they are why finishing early is
+   feasible rather than aspirational.
+
+**Grade weights, from the syllabus requirements table:** Business Email 15 · Audience Analysis
+unit 5 · Presentations & Proposals 15 · **Technical Report oral 15** · **Technical Report
+written 20** · Instructions unit 15 · Graded Exercises (participation, discussion posts,
+quizzes) 15. **The report is 35% across two artifacts.** Late policy: −10%/day on major work
+until the class set is graded, then the folder closes; **quizzes, discussion posts and extra
+credit take no late submissions at all.** Everything is due midnight with a grace period to
+8:00 am.
+
+**Two deliverables have no template supplied** — the **Report Group Charter** (due Thu Oct 1)
+and the **Reflective Memo** (due Thu Nov 12). Both are surfaced early in
+`03-WIKIS\EDUCATION\wiki\courses\tcom-2010\`. The charter's three samples (*Sample Group
+Charter*, *Roles & Tasks within Your Team*, *Sample Task Schedule*) are named in the syllabus
+but sit behind D2L auth — **pull them Aug 24**, five weeks before they are needed.
 
 ### ECON 1000 🟢 — fully dated, and the best-mapped course in the semester
 
@@ -269,7 +320,7 @@ delivery format unconfirmed. AI is prohibited. **Cannot be rehearsed until its s
 | 3 | ECON | ~~Every quiz/exam window~~ — **already known** (see ECON 🟢 above). Instead: **spot-check the real Mathews & Patrono chapter numbering** against the substitute-textbook mapping |
 | 4 | CSE | Final exam date; confirm the week-1 quiz date anomaly |
 | 5 | CSE Lab | The lab assignment schedule |
-| 6 | TCOM | Weeks 6–15, especially **the technical report's due date and milestones (35%)** |
+| 6 | TCOM | ~~Weeks 6–15~~ — **extracted from the syllabus 2026-08-18** (see the TCOM table above; report due **Thu Nov 12**, four dated draft checkpoints, no final exam). Instead: **confirm the real Fall due dates in D2L** — the syllabus prints January dates — and **download the three Group Charter samples**, which are D2L-only |
 | 7 | All | Confirm the TCOM room |
 | 8 | CSE | **Respondus LockDown Browser installer** — from the D2L course link, then a practice quiz. ⚠ **Gated on Aug 24**, so the practice run happens in week 1, not before |
 
