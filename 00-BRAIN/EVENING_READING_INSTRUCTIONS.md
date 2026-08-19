@@ -69,6 +69,33 @@ exists; never assign invented Fall content from the Summer reference section.
 ## Source Priority
 
 - **School block:** the owner's live reading queue governs (e.g. `PYTHON/wiki/current-position.md`, `PHYSICS/wiki/current-position.md`) — never assign a stage/chapter that queue hasn't unlocked yet. A raw PDF is **not a last resort** — for KSU spine material (Think Python, the Physics textbook, official syllabi) the raw source is the *preferred, recommended* citation over a wiki-processed page; point straight at it (`.../raw/books/....pdf` or `04-SCHOOL/...`) with the exact chapter/section, and page numbers when the PDF is already page-mapped.
+
+### Per-course source of truth — all five courses (added 2026-08-18)
+
+The rotation covers five courses; until now this section named only two hubs, so TCOM, ECON and
+ENGR nights had no stated source. **Each course's reading comes from its own owner page:**
+
+| Course | Owner page for what to read | Syllabus on disk |
+|---|---|---|
+| **PHYS 2211** | `03-WIKIS\PHYSICS\wiki\current-position.md` + `semester-pathway.md` | `PHYSICS\raw\syllabus\` (§54, exact) |
+| **CSE 1321 / 1321L** | `03-WIKIS\PYTHON\wiki\current-position.md` + `syllabus-alignment.md` | `PYTHON\raw\syllabi\` (both, exact) |
+| **TCOM 2010** | `03-WIKIS\EDUCATION\wiki\courses\tcom-2010\semester-map.md` | `EDUCATION\raw\Syllabi\` (exact) |
+| **ECON 1000** | `03-WIKIS\EDUCATION\wiki\courses\econ-1000\semester-map.md` | `EDUCATION\raw\Syllabi\` (exact) |
+| **ENGR 1000** | ⛔ **none — no Fall BWD syllabus.** Orientation and source verification only; never assign invented Fall content from the Summer reference section | reference-only |
+
+**TCOM's textbook is `03-WIKIS\EDUCATION\raw\Textbook Doc Files\Open Technical Communication.pdf`
+— the decimal-numbered copy.** Never cite `2e_Word\`: it is a later flat 0–29 renumbering whose
+Ch 3 is *Library and Internet Research* where the syllabus's Ch 3 is *Ethics*, and it is missing
+chapters 25–28. Assigning a chapter number from it sends Chris to the wrong reading.
+
+**From 2026-08-24, the week governs.** `04-SCHOOL\semester-workload-plan.md` §3 gives the
+current semester week's graded items and reading for all five courses. **Read that row first**,
+then pick the assignment from the rotation's course within it. A 🔴 week in that table means a
+deadline outranks the rotation (override 2) — say so in one clause.
+
+**Dates in the TCOM and CSE-lab syllabi are recycled from Spring and are not usable.** Sequence
+and week number are reliable; printed dates are not. Cite the week, not the printed date, until
+D2L confirms. (`semester-workload-plan.md` §6 carries the evidence.)
 - **No-contamination rule (clarified 2026-08-02, closes flag #86):** priming the next day's first block means assigning the **raw textbook chapter or general topic exposition** on that subject — never the wiki's own stage/drill file, which carries the exact problems, code patterns, or mastery-checklist items the next day's cold gate will use. Reading the textbook chapter on loops the night before a loops cold gate is intended and correct; reading `wiki/stages/stage-03-...md` itself would not be. This is why raw sources are preferred over wiki-processed pages above — it is not only a citation preference, it is what keeps priming from contaminating the next day's measurement.
 - **Page numbers are now available and expected for Python.** `03-WIKIS/PYTHON/wiki/source-page-map.md` carries verified **physical** PDF pages for Think Python, Python Crash Course, and Python Workout. Cite the physical page, not just the chapter. PHYSICS page ranges live in its `source-map.md`.
 - **Technology block:** the single most immediately useful slice tied to active Bootcamp/business work; prefer continuing the same source across nights over restarting elsewhere.

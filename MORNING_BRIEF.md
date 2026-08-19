@@ -3,13 +3,13 @@ type: dashboard
 timeline: now
 status: active
 tags: [castle]
-generated: 2026-08-17
+generated: 2026-08-18
 ---
 
-# Morning Brief — August 17, 2026 (Monday)
+# Morning Brief — August 18, 2026 (Tuesday)
 
-**ATTENTION —** PHYSICS row 2 passed Sunday night, first learner proof since July 30; the held resume point moved to row 3 (`03-WIKIS\PHYSICS\wiki\math-readiness-path.md`).
+**ATTENTION —** PHYS §54's exact syllabus arrived and reconciled; scope shrank to Ch 1–12, 15, 16.1–16.3 with Exam 2 now Oct 12, not Oct 16 (`03-WIKIS\PHYSICS\wiki\semester-pathway.md`).
 
-**START —** Check Simple Syllabus, then email PHYS §54 (`fislam7@kennesaw.edu`) and ENGR 1000 BWD — D2L stays shut until Aug 24 (`CASTLE\wiki\weekly-plans\weekly-plan-2026-08-17-to-2026-08-23.md`).
+**START —** Resume CSE Week 1 Module 0, paused mid-chain for pickup, at the lecture-vs-lab distinction, practice only, no submission (`NOW.md`).
 
-**CHRIS —** Week D is provisional until you ratify its two Sunday gates — learner-hub alignment and instruction protocol; `CASTLE\OPERATIONS.md` says silence is not approval.
+**CHRIS —** Ratify Week D's two provisional approval gates — learner-hub alignment and instruction protocol — since silence is not approval (`00-BRAIN\CASTLE\wiki\weekly-plans\weekly-plan-2026-08-17-to-2026-08-23.md`).

@@ -24,6 +24,21 @@ drafting and drills — **not submissions**; D2L gates graded work until Aug 24.
 **Fallback if a day collapses:** protect the PHYS and PYTHON resume points below;
 everything else slides.
 
+> ### ⏭ This page changes mode on Mon Aug 24 — 6 days out
+>
+> Everything above the Fixed and Dated section is **pre-semester rehearsal framing** and stops
+> being true when classes begin. From Aug 24 the Active Lane is the current week of
+> **`04-SCHOOL\semester-workload-plan.md` §3**, which owns weekly load, deadlines and collision
+> risk for all five courses, and the ✅ items below get cleared rather than accumulated.
+>
+> **Do this rewrite on Aug 23 at the pre-semester review**, together with the seven D2L
+> reconciliation checks in that plan's §8. Recorded here because a cockpit that describes a
+> phase which has ended is the failure mode this file exists to prevent.
+>
+> **Freshness rule, added 2026-08-18:** the `### Today` list is a *today* list. Completed items
+> belong in the DAILY, not stacked here — three of its entries were already ✅ when this note
+> was written, which is how the page starts reading as stale even on the day it was edited.
+
 ### Today
 
 1. ✅ **PHYS §54 SYLLABUS RECEIVED AND RECONCILED — 2026-08-18.** Islam answered Monday's
@@ -33,9 +48,13 @@ everything else slides.
 2. **CSE Week 1 — Module 0** (2 blocks), from the transcripts on disk. **IN PROGRESS —
    paused for school pickup after the first concept chain:** decomposition → algorithm →
    pseudocode → implementation. Resume with the lecture-vs-lab distinction. Practice only.
-3. ✅ **PHYS row 3 — PASSED 2026-08-17.** Both integrations rebuilt cold with constants
-   named physically; the `v²` elimination shown once. **No stage moved** — Stage 4 is still
-   open at circular-motion drills 1–4.
+3. ⏳ **PHYS row 3 — `passed (immediate)` 2026-08-17, durability check STILL OWED.**
+   **Corrected 2026-08-18: this line previously read "✅ PASSED" and contradicted the durability
+   note below**, which correctly says row 3 is the only rep still outstanding. Both integrations
+   were rebuilt cold on Aug 17 with constants named physically and the `v²` elimination shown
+   once — that is the *immediate* pass. **The 48 h durability floor is ~midday Wed Aug 19**;
+   until it runs, row 3 is not proven. **No stage moved** — Stage 4 is still open at
+   circular-motion drills 1–4.
 
 **Standing rule, new Aug 18 — WebAssign extensions.** Late homework is a flat zero because
 answer keys post at the deadline, **but** an extension can be granted *with penalty* if

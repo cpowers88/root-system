@@ -546,3 +546,66 @@ weekly plan, or earlier via its Move-On Gate queue.
   fixes applied — "every session" → standing-methods-with-triggers; technique quota → grade the
   learning; fact-conflict deference order added; "How to word it for Chris" delivery contract
   added from the aptitude model. Index updated same session.
+
+## 2026-08-18 — backfill of the Aug 17–18 TCOM/ECON work, and a stale claim corrected
+
+### Why this entry exists: the hub stopped logging while work continued
+
+**This log's previous entry was 2026-08-13, but TCOM and ECON work ran on Aug 17 and Aug 18 and
+none of it reached this hub.** `PHYSICS\wiki\log.md` and `PYTHON\wiki\log.md` both logged their
+sessions on the same days. The work was recorded in `DAILY_2026-08-18.md` and in
+`04-SCHOOL\`, so nothing was lost — but a hub whose log skips its own sessions cannot answer
+"how did the last TCOM session go," which is exactly what it is for. **Backfilled here rather
+than left as a gap; flagged as a cadence failure, not a content one.**
+
+### TCOM source review (Aug 17–18) — outcome
+
+- **The assigned textbook is verified.** `raw\Textbook Doc Files\Open Technical Communication.pdf`
+  (9.21 MB, 2019 KSU DigitalCommons) — its decimal chapter scheme matches the syllabus **and**
+  the 124-file `Linked-Resources\` numbering exactly. Ch 2.13 Emails/Memos, Ch 3 Ethics,
+  Ch 4.1 Report Design, Ch 5.2 Audience Analysis, Ch 2.6 Instructions, Ch 6 Usability,
+  Ch 8 Technical Editing all line up. **One book now keys the syllabus, the readings, and the
+  worked examples.**
+- **🔴 A destructive trap was found and ruled on.** `2e_Word\` is a later flat 0–29
+  renumbering of the same book, **missing chapters 25–28**, whose Ch 3 is *Library and Internet
+  Research* where the syllabus's Ch 3 is *Ethics*. **Reading week 1's assignment from it
+  produces the wrong chapter.** Ruling: **supplement only, never a navigation source.** Now
+  recorded in `current-position.md` so it cannot be re-learned the hard way.
+- **Grade structure extracted from the exact syllabus:** Business Email 15 · Audience Analysis 5
+  · Presentations & Proposals 15 · Technical Report oral 15 · Technical Report written 20 ·
+  Instructions 15 · Graded Exercises 15. **The report is 30.5–35% in two artifacts**, and every
+  major unit is draft → final where the draft is worth ~2 points but buys instructor feedback on
+  the piece worth 12–17%. **Early serious drafts are the highest-return habit in the course.**
+
+### Correction to this hub's own status board
+
+`current-position.md` claimed **"Weeks 6–15 are not yet extracted."** That was wrong —
+`courses/tcom-2010/semester-map.md` carries rows through **week 14**, including every technical
+report milestone. The identical wrong claim also sat in `04-SCHOOL\SEMESTER_MAP.md`.
+
+**This is the same error class corrected for ECON on 2026-08-13** — *absence in the file
+consulted read as absence in the vault* — recurring five days later in the page that recorded
+the first correction. It happened because the status board was written from memory of the map
+rather than from the map. **Standing fix: a status claim about a sibling page must be checked
+against that page in the same edit.**
+
+### ECON — unchanged, and correctly so
+
+No ECON session ran. Status remains 🟢 with the one real gap: the assigned *Contemporary
+Economic Issues* (Mathews & Patrono) is D2L Day One Access-only, so the OpenStax/CORE chapter
+mapping stays **inferred, not verified**. Spot-check when D2L opens **Aug 24** — not before.
+
+### New cross-course dependency
+
+`04-SCHOOL\semester-workload-plan.md` (built 2026-08-18) now owns weekly effort and sequencing
+for all five courses, including TCOM at 5–7 h/week and ECON at 2–3 h/week rising to 4–5 before
+exams. It also names **week 12 (Nov 9–15) as the semester's worst week**, driven substantially
+by this hub's TCOM report deadline landing on CSE Test 2. **Finishing the report a week early
+is the single strongest risk reduction available**, and the draft checkpoints from week 6 make
+it feasible.
+
+### Exact next action
+
+**Aug 24, when D2L opens:** confirm TCOM's real Fall due dates (the syllabus prints January
+dates) and spot-check the ECON textbook mapping against the real Mathews & Patrono chapters.
+Both are items 3 and 7 on `semester-workload-plan.md` §8.

@@ -3,7 +3,7 @@ type: tracker
 tags: [school, education]
 timeline: now
 status: active
-updated: 2026-08-13
+updated: 2026-08-18
 ---
 
 # current-position — EDUCATION
@@ -16,8 +16,13 @@ updated: 2026-08-13
 >
 > **Cross-course dates and grading live in `04-SCHOOL\SEMESTER_MAP.md`.** This page says how
 > much to *trust* each course's material; that page says what is *due*.
+>
+> **Weekly effort and sequencing live in `04-SCHOOL\semester-workload-plan.md`** (added
+> 2026-08-18) — how many hours a week each course needs, which weeks collide, and the standing
+> tutoring extra-credit action. Three pages, three questions: *trust* here, *due* there,
+> *effort* in the workload plan.
 
-## Status at a glance — 2026-08-13
+## Status at a glance — updated 2026-08-18
 
 | Course | Source certainty | Study material | Blocking gap |
 |---|---|---|---|
@@ -76,8 +81,31 @@ for anything dated.
 - **The file-naming convention is itself graded.** Section is **04**.
 - **Two gaps remain open, neither shipping a template:** the Report Group Charter and the
   Reflective Memo. Both are surfaced in the concept and flashcard pages before their due week.
-- **Weeks 6–15 are not yet extracted** — including the technical report's milestones. It is
-  **35% of the grade**, the largest single assignment in the semester.
+- ~~**Weeks 6–15 are not yet extracted**~~ — **CORRECTED 2026-08-18. This claim was wrong.**
+  `courses/tcom-2010/semester-map.md` carries rows through **week 14**, including the technical
+  report's weekly draft milestones (weeks 6–12), the Progress Report (10), rough-draft peer
+  review (11), report due (12), Instructions (13) and the Instructions group project (14). The
+  same wrong claim sat in `04-SCHOOL\SEMESTER_MAP.md` and was corrected there 2026-08-18. **This
+  is the "absence in the file consulted read as absence in the vault" error class** already
+  corrected once for ECON on 2026-08-13 — it recurred here because this page was written from
+  memory of the map rather than from the map.
+- **The report is 35% of the grade in two artifacts** — written 20% + oral presentation 15% —
+  confirmed from the exact syllabus 2026-08-17.
+
+### ⚠ Textbook trap — found 2026-08-17, must not be forgotten
+
+`raw\Textbook Doc Files\2e_Word\` is **not an ancillary of the assigned textbook.** It is a
+later reorganisation of the same book renumbered flat 0–29, and the numbers collide
+destructively: **its Ch 3 is *Library and Internet Research* where the syllabus's Ch 3 is
+*Ethics***; Ethics is its Ch 23, Audience Analysis its Ch 24, Emails/Memos its Ch 12. It is also
+**missing chapters 25–28.**
+
+**Ruling: supplement only, never a navigation source.** The verified copy is
+`raw\Textbook Doc Files\Open Technical Communication.pdf` (9.21 MB, 2019 KSU DigitalCommons),
+whose decimal chapters match the syllabus *and* the 124-file `Linked-Resources\` numbering
+exactly. Worth keeping `2e_Word\` for two things only: its Ch 5 covers *Quoting, Paraphrasing,
+Plagiarism **and AI***, which postdates the 2019 edition, and its Ch 9 carries the full
+proofreading symbol sets that feed the Week 7 Font Style quiz.
 
 ## ENGR 1000 — held, and deliberately empty
 
