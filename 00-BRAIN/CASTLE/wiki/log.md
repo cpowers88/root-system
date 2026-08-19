@@ -1821,3 +1821,19 @@ remain open, not urgent tonight.
 - **Learner movement is owned elsewhere and not restated here:** row 3's durability miss and
   reopening, and the work-energy bridge, are in `PHYSICS\wiki\log.md` 2026-08-19.
 - **Next:** Codex runs the reconciliation from the handoff; Chris and Claude open TCOM.
+
+## 2026-08-19 (late afternoon) — Reconciliation plan adopted; semester priority made explicit (Codex, Chris-directed)
+
+- **Decision:** Chris confirmed the revised CASTLE plan as the plan moving
+  forward: full reconciliation Friday Aug 21, fresh-session CASTLE-first test
+  after validation, and Aug 23 as the acceptance checkpoint.
+- **Priority ruling:** during Fall 2026, fixed course deadlines, attendance, and
+  current course proof select the agenda before optional business, project, or
+  system work. The capability weak-link ranking operates beneath that school
+  overlay; CASTLE maintenance shrinks before learning does.
+- **State correction:** removed the stale copied July weak-link list from
+  `current-position.md`; the ranking remains owned only by
+  `capability_development_goal.md`. No capability state was promoted, Phase 1
+  was not activated early, and Friday's full reconciliation remains required.
+- **Next:** return control to the school cockpit — TCOM quiz/file-naming
+  preparation remains the immediate action in `NOW.md`.

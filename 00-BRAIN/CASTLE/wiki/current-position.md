@@ -9,7 +9,7 @@ tags: [baseline]
 
 > **📍 Single state home as of 2026-08-19 (flag #103).** This file is now the only home
 > of cross-domain capability state. The full monthly reconciliation of every row below
-> remains due at the **Aug 23 pre-semester review**; until then, rows other than the two
+> is now scheduled for **Friday Aug 21**, folded into the semester-format build; until then, rows other than the two
 > learner rows carry July 19 assessments. `castle_freshness.py` now measures this file's
 > staleness mechanically.
 
@@ -19,7 +19,8 @@ tags: [baseline]
 > file that disagreed with it. **Python read "Stage 3"; it has been Stage 4b since
 > 2026-07-29.** Every other row still carries its July 19 assessment and is up to four
 > weeks old. **The full monthly reconciliation is overdue** (this file's own next date was
-> August 1) and is scheduled for the **Aug 23 pre-semester review**.
+> August 1) and is scheduled for **Friday Aug 21**. The Aug 23 review is the
+> acceptance checkpoint, not the first reconciliation.
 
 ### Reconciled: July 19, 2026
 ### Sources: NORTH_STAR.md, CURRENT_STRATEGY.md, owner current-position files, capability_development_goal.md, and active proof owners
@@ -59,19 +60,15 @@ change these monthly states. Any hub fact quoted here carries its as-of date and
 link — cite stage numbers, never restate them bare (the 2026-07-19 rule: gates +
 pointers, no copied state).
 
-## July Weak Links
+## Current Priority Routing
 
-The July ranking remains owned by 01-NORTH_STAR\Goals & Milestones\capability_development_goal.md
-(which superseded SKILL_GAP_ANALYSIS.md on 2026-07-24; the original is archived at
-99-ARCHIVE\ARCHIVED_2026-07-24_SKILL_GAP_ANALYSIS.md):
-
-1. SQL reliability with real data.
-2. Technology landscape and integration depth.
-3. Structured business analysis through live workflow evidence.
-4. Decision-facing data visualization.
-5. Python depth through the owner-defined staged path.
-
-The August 1 review may reorder these. CASTLE does not copy the practice schedule.
+The cross-domain weak-link ranking is owned only by
+`01-NORTH_STAR\Goals & Milestones\capability_development_goal.md`; CASTLE does
+not reproduce it here. Chris ruled on 2026-08-19 that the Fall semester overlay
+selects fixed school deadlines and current course proof before optional
+capability, business, project, or system work. `04-SCHOOL\semester-workload-plan.md`
+owns course load and collision truth, and `.ROOT\NOW.md` owns the immediate
+action. The full capability-state reconciliation runs Friday Aug 21.
 
 ## Durable Advantages
 
@@ -97,6 +94,7 @@ The August 1 review may reorder these. CASTLE does not copy the practice schedul
   criteria only and must never be cited as the state home — this line pointed outward until
   2026-08-19 and was the last surviving half of the repaired ownership loop.
 
-Next monthly reconciliation: **August 23, 2026**, at the final pre-semester review. (The
-stated August 1 date passed unrun; that staleness was finding N4 and is why the two learner
-rows above were corrected on 2026-08-17 ahead of the full pass.)
+Full reconciliation: **August 21, 2026**, folded into the semester-format build.
+Acceptance checkpoint: **August 23, 2026**. (The stated August 1 date passed
+unrun; that staleness was finding N4 and is why the two learner rows above were
+corrected on 2026-08-17 ahead of the full pass.)

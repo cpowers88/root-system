@@ -5,7 +5,7 @@ status: active
 register: ai-directive
 tags: [north-star, capability, technology, systems]
 created: 2026-07-24
-review_trigger: 2026-08-01
+review_trigger: 2026-08-21
 ---
 
 # CAPABILITY_DEVELOPMENT_GOAL
@@ -34,23 +34,37 @@ review_trigger: 2026-08-01
 | Business judgment | Translate friction into economic consequence, a bounded offer or decision, and measurable outcome | BUSINESS and REVENUE_LAB wikis |
 | Communication | Explain the problem, evidence, recommendation, uncertainty, and next decision clearly | EDUCATION/TCOM evidence and real delivery |
 
+## Fall 2026 selection overlay — Chris-ruled 2026-08-19
+
+During the Fall semester, CASTLE selects work in this order:
+
+1. fixed course deadlines, attendance, and required preparation;
+2. the current course proof most likely to prevent lost points or unblock the next assignment;
+3. course-aligned capability practice inside the protected technology/business floor, when deadlines allow; and
+4. optional business, project, or system work only after the school proof is safe, unless urgent client/revenue evidence or Chris's direct instruction changes the decision.
+
+This applies the North Star priority order to the semester; it does not replace
+it. `04-SCHOOL\semester-workload-plan.md` owns course load and collision truth,
+`.ROOT\NOW.md` owns the immediate action, and this file ranks capability gaps
+only after the school selection above has been applied.
+
 ## Current weak-link order
 
 The owning current-position pages control detailed state. This table controls
-only cross-domain priority.
+only cross-domain capability priority within the semester overlay above.
 
 | Rank | Weak link | Proof that moves it | Owner |
 |---:|---|---|---|
 | 1 | Independent programming construction and debugging | Close the live PYTHON gate with fresh trace, construct, and debug evidence; then perform the same skills under course restrictions | PYTHON |
 | 2 | Calculus-based physical reasoning under cumulative load | Solve and explain representative PHYSICS problems from diagram through reasonableness check without pattern copying | PHYSICS |
-| 3 | Reliable data querying and modeling | Use SQL against verified real data, explain the schema/query/result, and diagnose one failure | PYTHON/SYSTEMS + owning project |
-| 4 | Live workflow diagnosis | Produce an actual-state map from permitted real evidence and identify a measurable constraint or leak | SYSTEMS/BUSINESS |
-| 5 | Integration and operational reliability | Build one bounded end-to-end workflow with explicit inputs, outputs, failure handling, and acceptance evidence | TECHNOLOGY/AI_AUTOMATION_SYSTEMS + project |
-| 6 | Decision communication | Present evidence and recommendation so another person can make or validate a decision | EDUCATION/BUSINESS |
+| 3 | Course communication and decision writing | Complete TCOM/EDUCATION work independently within the course AI boundary, then present evidence and recommendations clearly enough to support a decision | EDUCATION/TCOM |
+| 4 | Reliable data querying and modeling | Use SQL against verified course or project data, explain the schema/query/result, and diagnose one failure | PYTHON/SYSTEMS + owning project |
+| 5 | Live workflow diagnosis | Produce an actual-state map from permitted real evidence and identify a measurable constraint or leak, without displacing school proof | SYSTEMS/BUSINESS |
+| 6 | Integration and operational reliability | Build one bounded end-to-end workflow with explicit inputs, outputs, failure handling, and acceptance evidence, when semester capacity permits | TECHNOLOGY/AI_AUTOMATION_SYSTEMS + project |
 
 ## Selection rule
 
-At each monthly review:
+At each monthly review, after applying the semester selection overlay:
 
 1. identify the next 90-day outcome;
 2. locate the one capability most likely to block it;
@@ -77,6 +91,8 @@ real use, buyer behavior, measurable outcome, or repeated reuse.
 
 ## Current next proof
 
-Protect the CSE and Physics readiness gates in `fall_2026_semester.md`. After
-the active PYTHON proof closes, use verified course or project data for the
-smallest SQL/data-modeling proof that does not displace semester readiness.
+Run the school action selected by `04-SCHOOL\semester-workload-plan.md` and
+`.ROOT\NOW.md` before optional capability work. As of 2026-08-19, the live
+cockpit identifies TCOM startup work as the immediate gap; after that school
+proof is safe, resume the owner-defined PHYSICS and PYTHON gates. Reconcile the
+full capability table and next review date on 2026-08-21.

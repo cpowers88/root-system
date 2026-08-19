@@ -24,6 +24,12 @@ drafting and drills — **not submissions**; D2L gates graded work until Aug 24.
 **Fallback if a day collapses:** protect the PHYS and PYTHON resume points below;
 everything else slides.
 
+**Semester priority — Chris-ruled 2026-08-19:** school is the active agenda.
+Fixed course deadlines, attendance, and the current course proof outrank optional
+business, project, and system work. The protected technology/business floor remains
+available only when school commitments allow; CASTLE maintenance shrinks before
+learning does. The immediate priority stays the live `### Today` order below.
+
 > ### ⏭ This page changes mode on Mon Aug 24 — 5 days out
 >
 > Everything above the Fixed and Dated section is **pre-semester rehearsal framing** and stops
@@ -89,7 +95,7 @@ ordinary standing truth in `PHYSICS\wiki\semester-pathway.md` and `04-SCHOOL\SEM
 - **🏰 CASTLE repaired 2026-08-19 (flag #103, Chris-ratified, Codex-seconded).**
   `CASTLE\wiki\current-position.md` is now the **single home of capability state**;
   `castle_freshness.py` gates cockpit staleness in every morning brief; Phase 0 closed,
-  Phase 1 flips active at the Aug 23 review — where #103's close check runs alongside
+  Phase 1 is confirmed at the Aug 23 review and activates Aug 24 — where #103's close check runs alongside
   #102's. **Test week is now:** the cockpit is trusted again from this line forward;
   report any CASTLE fact that reads stale rather than working around it.
 

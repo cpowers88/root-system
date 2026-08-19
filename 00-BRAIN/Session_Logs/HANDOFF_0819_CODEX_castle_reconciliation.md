@@ -103,3 +103,14 @@ only if Chris approves, it is not in your approved scope.
 This morning's cold Claude load *was* a partial Phase 5 — but only partial, because Chris named
 the target rather than asking CASTLE to choose. It caught one stale row and missed one pointer.
 Treat that as one measured data point, not as the test having run.
+
+## Chris confirmation — 2026-08-19
+
+Chris approved the revised plan as the plan moving forward: full reconciliation
+Friday Aug 21, fresh-session CASTLE-first test after validation, and Aug 23 as the
+acceptance checkpoint. He also ruled that CASTLE's semester selection must make
+school the active agenda because available time is constrained. Fixed course
+deadlines, attendance, and current course proof therefore outrank optional
+business, project, and system work; the capability ranking operates beneath that
+overlay. This confirmation authorizes the bounded priority correction now and
+does not authorize early Phase 1 activation, a North Star change, or a push.

@@ -93,9 +93,11 @@ State repairs: Phase 0 closed on work that happened (criterion moved to Phase 1;
 never-run "Aug 1 review" superseded by the Jul 25 early close + Aug 11 Council); queue
 re-dated to Aug 23/30 with no status change; 2 log backfills + the ruling entry.
 
-**Close condition:** the Aug 23 full monthly reconciliation of `current-position.md` runs
-**and** `castle_freshness.py` passes against the reconciled cockpit. If the review is
-skipped, the gate fails loudly from Aug 24 — by design.
+**Close condition (timing revised by Chris 2026-08-19):** the full reconciliation
+of `current-position.md` runs Friday Aug 21, the fresh-session CASTLE-first test
+completes after validation, and `castle_freshness.py` passes against the reconciled
+cockpit at the Aug 23 acceptance checkpoint. If the checkpoint is skipped, the
+gate fails loudly from Aug 24 — by design.
 
 Full evidence chain: `Session_Logs\claude_challenge_packet_2026-08-19_castle_ownership.md`
 (six claims, falsifiers stated) and
