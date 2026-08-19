@@ -194,6 +194,58 @@ value and gotten an answer wrong."* Both accounts stay on record; his is operati
 consequence is in the PHYSICS log — it raises the habit's value rather than lowering it,
 because dropped values are precisely what a second-road check catches.
 
+## 2026-08-19 — HAT_TCOM, session 1 (Claude Code)
+
+**Six-point rubric.**
+
+| # | Check | Score | Note |
+|---:|---|:--:|---|
+| 1 | Correct hat + live owner | **n/v** | Chris named TCOM in his opening message, so the hat was not discovered — it was handed over. Not a valid test of the Aug 16 course→hat routing rule |
+| 2 | Fast orientation | ✅ | Full boot chain + hat chain + the §04 syllabus read end to end before the first teaching move |
+| 3 | Chris retains control | ✅ | Opinion given when asked, recommendation made, no argument when he redirected to the artifact build |
+| 4 | Real retrieval, not recognition | ✅ | Opened with 8 cold questions before any teaching. The diagnostic produced the session's most valuable finding |
+| 5 | Boundaries respected | ✅ | Declined to draft or outline the Week 1 instructor email under §04's blanket AI-drafting prohibition; stated the permitted lane once and stayed in it |
+| 6 | Correct close and resume point | ✅ | Recorded below and in the hub log |
+
+### ✅ What worked — reusable
+
+**Cold diagnostic before teaching, on recall material.** Eight questions cost about two minutes
+and produced more than a syllabus re-read would have: not just *which* facts were missing but
+**that the confident wrong answers were correct rules borrowed from another course.** A reading
+block would have shown neither. **On multi-course recall material, diagnose before teaching —
+the error pattern is the finding, not the score.**
+
+**Naming the misfire as a strength rather than a deficit.** Chris generated filenames from a
+category taxonomy. That is the Numerical-Detective/systems instinct doing its normal job on
+material with no generating rule. Saying so — *"there is no rule, and reaching for one is how
+the points go"* — landed better than a correction would have, and it generalises: the same pull
+will appear on her rubrics.
+
+### 🔴 AI defect found — the hub's own study aids were teaching the wrong rule
+
+Logged here per the Aug 17 direction to record AI defects, not only Chris's misses.
+
+Two pages built 2026-08-13 (`common-errors`, `flashcards`) asserted
+`LastName_04_AssignmentName.docx` as the **required** TCOM naming pattern. It is a fallback,
+and every string the syllabus actually prints breaks it. **Chris's failed reps reproduced the
+vault's own error**, which is the strongest possible evidence that a study aid can teach a
+defect straight through to performance.
+
+**Root cause:** those pages were written from the syllabus's *calendar tables* and never from
+its *policy and directory sections* — half a source, read as the whole. Both corrected the
+same session; authoritative version now at
+[[../courses/tcom-2010/concepts/course-policies-and-file-naming]].
+
+**Candidate standing rule, offered not adopted:** *a study aid derived from part of a source
+names which part.* Two instances now (this, and the 2026-08-18 semester-map claim written from
+memory of a sibling page). One more and it earns a place in `WIKI_SHARED_LAYER.md`.
+
+### Resume point
+
+TCOM Part B — the ~8 uncued policy facts — then a spaced re-rep of the four filename strings
+before Tue Aug 25.
+
+
 ---
 
 *Method owner: `03-WIKIS\EDUCATION`. Consumed by `00-BRAIN\HATS\HAT_EDUCATOR.md`. Rubric source:

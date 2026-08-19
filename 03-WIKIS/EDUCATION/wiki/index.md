@@ -38,6 +38,13 @@ client work, while the course itself carries the heaviest single deliverable.
   deliverables mapped to textbook chapters, ancillaries, and worked examples.
   **All 14 weeks carry real Fall 2026 dates as of 2026-08-18**, plus the grade-weight
   table. The course ends **Thu Dec 3** and has **no final exam**
+- [[courses/tcom-2010/tcom-2010-17-week-execution-plan|TCOM 2010 17-Week Execution Plan]]
+  — exact readings, weekly production gates, submission controls, and the early-
+  finish defense for the 35% technical report
+- [[courses/tcom-2010/concepts/course-policies-and-file-naming|Course Policies and File Naming]]
+  — **the Week 1 quiz sheet**, built 2026-08-19 from the §04 syllabus read end to end.
+  All four printed filename strings, the complete assignment×channel list, every policy
+  that carries a penalty, and seven items needing Chris's eyes before Aug 25
 - [[courses/tcom-2010/concepts/audience-purpose-genre|The Four-Part Decision Model]]
   — audience, purpose, genre, constraints; the part of TCOM that outlives the course
 - [[courses/tcom-2010/concepts/technical-report-anatomy|Technical Report Anatomy]] —

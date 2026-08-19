@@ -63,8 +63,11 @@ created: 2026-08-13
 CSE Lab — Muhammad Usman · TCOM — Lisa Diamond (`lisa.diamond@kennesaw.edu`) ·
 ECON — Zeynep Kelani.
 
-**⚠ TCOM room is disputed — three values on file:** Academic Building 202 (registrar),
-Atrium 2216 (calendar event), Atrium 2236 (the 09:00 walk event). Resolve on day one.
+**⚠ TCOM room — narrowed to 2-of-3 on 2026-08-19.** The §04 syllabus's own § Course Meeting
+Information reads **"Atrium building, Rm 2216, Marietta campus"**, agreeing with the calendar
+event. Against them: Academic Building 202 (registrar) and Atrium 2236 (the 09:00 walk event).
+**Weight toward Atrium 2216; still confirm on day one.** The syllabus had carried this all
+along — nothing had read past its calendar tables.
 
 ---
 
@@ -79,6 +82,7 @@ first two class meetings, and it is the course with the least structure.
 | **Tue Aug 25, that night** | 🟡 TCOM | **Email Lisa Diamond** — an explicit assignment, not a courtesy |
 | **Tue Aug 25** | 🟡 TCOM | **Course Policies Quiz** + **File Naming Convention Quiz** *(syllabus shows them assigned week 1 Tuesday and due week 2 Tuesday — do them early)* |
 | **Thu Aug 27** | 🟡 TCOM | Business Email draft worked in class; Ethics Analysis assigned. Read **Ch. 2.13 Emails & Memos**, then **Ch. 3 Ethics** |
+| **Fri Aug 28** | 🟡 TCOM | **Ethics Analysis DUE** — a fourth week-1 graded item, surfaced 2026-08-19. ⚠ **Format and filename are not printed anywhere in the syllabus**; the instructions file is D2L-only. Open its SUBMISSION section Aug 24 — do not assume `.docx`, do not assume `.pptx` |
 | Week 1 | 🟢 CSE | **Module 0** — welcome, policies, decomposition, algorithms & abstraction |
 | **Mon Aug 24** | 🟢 PHYS | **Measurements, 1.1–1.6.** Read before class — reading quizzes are graded |
 | **Wed Aug 26** | 🟢 PHYS | Motion in 1D, 2.1–2.4 |
@@ -366,7 +370,11 @@ reference than a Summer syllabus and the index should say it exists. *Filed unde
   work. **PHYS §54 — resolved 2026-08-18: AI is explicitly permitted as a tutoring resource
   (explanations, guided technique, examples, clarification) and prohibited in any submitted
   work; WebAssign is graded, so AI never produces a WebAssign answer.** ECON permits AI if
-  credited. TCOM — verify per assignment.
+  credited. **TCOM §04 — corrected 2026-08-19, and it is the strictest of the five: the
+  syllabus states twice that *"Using AI to write your assignments is considered PLAGIARISM.
+  You may only use AI for editing or proofreading, if you cite the usage."* Blanket, not
+  per-assignment. AI may not draft any TCOM submission — including the Week 1 instructor
+  email — and no re-writes are permitted for plagiarized work under any circumstances.**
 
 *Owner: `04-SCHOOL`. Source status: `SYLLABUS_STATUS.md`. Time shape and study-block routing:
 `Session_Logs\System Update Log\2026-08-12_ROOT_UPDATE\COUNCIL_SEMESTER_READINESS_2026-08-13.md`.*

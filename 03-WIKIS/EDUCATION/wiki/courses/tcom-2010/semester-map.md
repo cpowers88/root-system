@@ -9,7 +9,9 @@ created: 2026-07-21
 
 Maps the real, exact-section syllabus schedule (see
 `../../course-briefs/fall-2026-course-briefs.md` and `04-SCHOOL\03-TCOM\`) to the
-actual assigned textbook (*Open Technical Communication*, `raw\Open-TC-PDF.pdf`),
+actual assigned textbook (*Open Technical Communication*,
+`raw\Open-TC_Course-Resources\Open-TC-PDF.pdf`; duplicate titled copy at
+`raw\Textbook Doc Files\Open Technical Communication.pdf`),
 its instructor ancillary package (`raw\Open-TC_Course-Resources\`), and its
 per-example worked files (`raw\Linked-Resources\`, numbered by the book's own
 chapter.section scheme, e.g. `2-1_` = Chapter 2, section 1).
@@ -51,7 +53,7 @@ page owns which *resource* serves each week.
 | Week | Real deliverable (from syllabus) | Open TC chapter | Course-Resources | Linked-Resources worked examples |
 |---|---|---|---|---|
 | 1 | Course Policies Quiz, File Naming Quiz, Ethics Analysis (Fri) | Ch 2.13 Emails & Memos; Ch 3 Ethics | `Presentations-Notes\Introduction.pptx`; `Presentations-Notes\Ethics.pptx`; `Presentations-Notes\Plagiarism.pptx` | `3_Ethical-Dilemmas.docx`, `3_Harcourt.pdf`, `3_Killer.pdf`, `3_Mistry.pdf`, `3_Reed.pdf`, `3_Rouche.pdf` (ethics case studies) |
-| 1–2 | Business Email Draft, then Business Email Final (submitted by real email — see `HAT_TCOM.md`) | Ch 2.13 | `Presentations-Notes\Business-Correspondence.pptx`; `Assignments-Activities\Activities\Memo.docx`; `Assignments-Activities\Rubrics\Memo.docx` | `2-1_Bad-Business-Letter.pdf` / `2-1_Better-Business-Letter.pdf` (before/after pair); `2-1_Block-Letter-Format.pdf` |
+| 1–2 | Business Email Draft, then Business Email Final. **Draft channel conflicts inside the syllabus; Final channel is not printed. Verify both in D2L/with Diamond rather than inferring from the genre.** | Ch 2.13 | `Presentations-Notes\Business-Correspondence.pptx`; `Assignments-Activities\Activities\Memo.docx`; `Assignments-Activities\Rubrics\Memo.docx` | `2-1_Bad-Business-Letter.pdf` / `2-1_Better-Business-Letter.pdf` (before/after pair); `2-1_Block-Letter-Format.pdf` |
 | 2 | Audience Analysis Discussion + Peer Response | Ch 5.2 Audience Analysis | `Assignments-Activities\Activities\Audience-Analysis.docx` | `5-3_Checklists.pdf`; `5-10_Peer-Review.docx` (peer-review process, Ch 5 Processes and Guidelines) |
 | 2–3 | Fairy Tale Group Presentation; Elevator Speech | Ch 2.12 Oral Presentations | — | `2-12_Intro-Remarks.pdf`, `2-12_Oral-Eval.pdf`, `2-12_Verbal-Crutches.pdf` |
 | 1–2 (extra credit, optional) | Resume Extra Credit | — | `Assignments-Activities\Resume-CoverLetter\` (Resume-CoverLetter.docx, Resume-Critique.docx, Resume+CoverLetter_PeerReview.docx) | `2-1_Early-Career-Resume.pdf`, `2-1_Early-Career-App-Letter.pdf`, `2-1_Amplifications-Page-Resume.pdf`, `10_Resume_1`–`6`, `10_CV.pdf`, `10_App-Letter_1`–`6`, `10_Adjust-Letter_1`, `10_Comp-Letter_1`–`5`, `10_Inq-Letter_1`–`2`, `10_Order-Letter.docx` |
@@ -136,3 +138,9 @@ before scheduling anything against a TCOM class day once the semester starts.
 - Ancillaries: `raw\Open-TC_Course-Resources\`
 - Worked examples: `raw\Linked-Resources\` (numbered by book chapter.section)
 - Subject hat: `00-BRAIN\HATS\HAT_TCOM.md`
+
+## Execution plan
+
+[[tcom-2010-17-week-execution-plan]] owns the dated weekly study, reading,
+production, compliance, and report-protection sequence from Aug 19 through the
+course close. This map remains the resource crosswalk.

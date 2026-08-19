@@ -56,10 +56,16 @@ learning does. The immediate priority stays the live `### Today` order below.
    earns nothing and selection earns everything.
 2. ✅ **CSE Module 0 concept chain closed** — lecture-vs-lab distinction landed, 3/3 on the
    transfer. Policy remainder is a skim. Not stage-advancing.
-3. 🎯 **NEXT — TCOM, and it is the week's real gap.** Course Policies Quiz + File Naming
-   Convention Quiz prep: both **graded Aug 25**, both pure syllabus study, zero AI exposure.
-   Then Ch. 2.13 Emails & Memos. **TCOM is 0 of 6 planned blocks** — the largest allocation
-   this week, untouched, with three graded items and attendance starting on day one.
+3. ✅ **TCOM block 1 RAN — lane open, quiz sheet built.** Cold diagnostic **~3 of 8** on course
+   policies; **the two confident wrong answers were PHYS rules imported into TCOM.**
+   Error class: **cross-course rule contamination** — five courses, five late policies, none
+   alike. File naming went from "no idea" to two exact strings in three reps.
+   **Study instrument:** `EDUCATION\wiki\courses\tcom-2010\concepts\course-policies-and-file-naming.md`.
+   **Corrected:** two hub pages were teaching `LastName_04_AssignmentName.docx` as *required* —
+   it is a **fallback**, and every string the syllabus prints breaks it.
+   **⏭ Resume at Part B** (~8 uncued policy facts), then a spaced re-rep of the four filename
+   strings before Tue Aug 25. *(Quizzes are assigned Tue Aug 25 and due Tue Sep 1 — **no late
+   credit, ever**. Ch. 2.13 Emails & Memos is the reading block.)*
 4. **PHYS: circular-motion drills 1–4 outranks row 4.** It closes Stage 4, has blocked the
    frontier since July, and 6.1–6.2 sits on Unit Exam 1 (Mon Sep 21). **Row 4 is a half block,
    not a full one** — two of its three problems duplicate row 2's proven ground; its unique
@@ -105,6 +111,25 @@ ordinary standing truth in `PHYSICS\wiki\semester-pathway.md` and `04-SCHOOL\SEM
   ECON's final also Dec 3, **two of five courses finish before finals week**, so the last push
   is week 14, not Dec 8–14. **The report's four checkpoints are dated and ungraded**
   (Oct 13 · Oct 20 · Oct 27 · Nov 3) — they are the only defence against 35% landing on week 12.
+- **📄 TCOM lane opened 2026-08-19 — and `.ROOT`'s own study aids were teaching a wrong rule.**
+  Two `tcom-2010` pages asserted `LastName_04_AssignmentName.docx` as the **required** naming
+  pattern; it is a fallback, and all four strings the syllabus prints break it. **Chris's
+  failed reps reproduced the vault's error**, which is the clearest evidence yet that a study
+  aid can teach a defect straight through to performance. Root cause: both pages were built
+  from the syllabus's *calendar tables* and never from its *policy sections* — half a source
+  read as the whole. Both corrected; authoritative page created. **Candidate standing rule
+  (offered, not adopted): a study aid derived from part of a source names which part.** Second
+  instance in two days — one more and it belongs in `WIKI_SHARED_LAYER.md`.
+
+- **🌙 Evening read is in semester mode from tonight — the technology block is paused.**
+  Chris-directed. Default is **one block, School**; technology returns only when it serves a
+  named course deliverable due within 7 days *and* the FOCUS line says which. **The rotation
+  is rebuilt on the registrar's timetable: PHYS 2 · TCOM 2 · CSE 2 · ECON 1**, live from
+  **Sun Aug 23** — July's table gave PHYS one night and ECON two, which inverts the real load,
+  and PHYS is the only course whose pre-class reading is graded. **Week-1 reading for all five
+  courses now lives in `04-SCHOOL\semester-workload-plan.md` §2** — §3 had only ever listed
+  what is *graded* in week 1, never what to *read*.
+
 - **PYTHON unchanged** — Stage 4b, resume at C1.
 
 ## Needs Chris
@@ -157,6 +182,17 @@ ordinary standing truth in `PHYSICS\wiki\semester-pathway.md` and `04-SCHOOL\SEM
   D2L (*Sample Group Charter* · *Roles & Tasks within Your Team* · *Sample Task Schedule*).
   They are named in the syllabus, exist only behind D2L auth, and the charter is **due Thu
   Oct 1** with no template shipped. Same for the Reflective Memo (due Nov 12).
+  **🆕 Also Aug 24 — open the Ethics Analysis SUBMISSION section.** It is a **fourth week-1
+  graded item, due Fri Aug 28**, and **its format and filename appear nowhere in the syllabus.**
+  Do not assume `.docx`; do not assume `.pptx`.
+- **🆕 Aug 25 — two questions for Diamond on day one.** ① **The Business Email Draft has two
+  conflicting submission routes in her own syllabus** — `Powers_04_Draft.docx` to the D2L
+  Assignments folder (wk 1 Thu) versus an email with subject `Powers_04_Business Email draft`
+  (wk 2 Tue). Same deliverable. Ask; do not reason it out. ② **Confirm the room** — the
+  syllabus and the calendar both say **Atrium 2216**; only the registrar says Academic 202.
+  *Check the assignment's SUBMISSION section before asking anything else — the syllabus says
+  every assignment has one, and in a course whose week-2 topic is "following directions,"
+  asking what the assignment already answers is expensive.*
 - **Aug 28, 11:45 PM — two PHYS deadlines on one day.** Last day to add/drop, **and** the
   Day One Access opt-out. Owl Express is already charged for the WebAssign + eBook bundle;
   opting out refunds it and removes access. **Recommend not opting out** — homework is 10%

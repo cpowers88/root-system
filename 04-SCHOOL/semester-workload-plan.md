@@ -211,6 +211,62 @@ Before any dated item, each week carries this floor:
 > **Dec 7**. Tutoring is also an authorised human resource under both AI policies — going there
 > when stuck on a lab is explicitly permitted where AI assistance is not.
 
+### Week 1 reading — the run-in and the first week (added 2026-08-19)
+
+§3's week-1 row lists what is **graded**. It never said what to **read**, and that is the
+question a fast start actually turns on. Assembled from the five owner pages; each cell
+cites its owner rather than restating it.
+
+**Run-in, Aug 19–23 — three readings, and none of them is a textbook chapter for a class
+you are behind in.** PHYS and CSE are +2 weeks ahead; re-reading covered ground buys
+nothing (evening-reading override 3).
+
+| # | Read | By | Why this one |
+|---:|---|---|---|
+| 1 | **TCOM §2.13 *Emails & Memos*** — `03-WIKIS\EDUCATION\raw\Open-TC_Course-Resources\Open-TC-PDF.pdf` | **Aug 23** | The required instructor email is sent **Tue Aug 25**, and the Business Email is 15% of the course |
+| 2 | **TCOM Ch 3 *Ethics*** — same PDF, plus one case from `raw\Linked-Resources\` (`3_Harcourt`, `3_Killer`, `3_Mistry`, `3_Reed`, `3_Rouche`) | **Aug 26** | The **Ethics Analysis is graded and due Fri Aug 28** — a week-1 graded item whose format and filename appear nowhere in the syllabus |
+| 3 | **ECON — OpenStax *Principles of Economics 2e* Ch. 1** (`04-SCHOOL\04-ECON\`) | Aug 23 | **Substitute, not the real book.** Mathews & Patrono is D2L-locked until Aug 24; read it as a topic primer and re-anchor on the real Ch. 1 that day |
+
+**⛔ Never cite `2e_Word\`** for any TCOM chapter — its Ch 3 is *Library and Internet
+Research*, not *Ethics*. This exact defect was live in two `.ROOT` study pages until
+2026-08-19 and reproduced in Chris's failed reps.
+
+**The reading that is not a textbook, and decides week 1 more than any chapter does.**
+Five courses print five different late policies, five naming conventions and five AI
+policies, and week 1 grades three of them:
+
+- **TCOM course policies + file naming** → `03-WIKIS\EDUCATION\wiki\courses\tcom-2010\concepts\course-policies-and-file-naming.md`. **Two graded quizzes in week 1, and TCOM accepts no late credit on quizzes, ever.** Cold diagnostic on 2026-08-19 scored ~3 of 8, and **both confident wrong answers were PHYS rules imported into TCOM.**
+- **CSE 1321 + 1321L policy sections** → `03-WIKIS\PYTHON\raw\syllabi\`. **Two graded syllabus/policy quizzes in week 1.** Note the two conflicting grade tables (§8 check 1).
+- **PHYS §54 syllabus** → `03-WIKIS\PHYSICS\raw\syllabus\Syllabus.pdf`. Two lines only: the **WebAssign extension rule** (request *before* the deadline or a miss is a flat zero) and the **Day One Access opt-out, Fri Aug 28 11:45 PM**.
+
+**Week 1 proper, Aug 24–30.**
+
+| Course | Read | By | Owner |
+|---|---|---|---|
+| **PHYS** | **Serway 3.1–3.4** (vectors), **4.1–4.2, 4.4–4.5** (2D motion, projectile, UCM) — this is **week 2's** material. `PHYSICS\raw\textbook\physic(full_book).pdf`; **the PDF runs +30 pages ahead of the printed numbers**, see `wiki\textbook-page-map.md` | across the week | `PHYSICS\wiki\semester-pathway.md` Phase 2. Lecture covers Ch 1–2, which he already holds; the one-week-ahead lead is what converts each pre-exam week into pure retrieval, and **pre-class reading is graded here** |
+| **TCOM** | Finish Ch 3 *Ethics*; then §5.2 *Audience Analysis* + §2.12 *Oral Presentations* | Ch 3 by Aug 26; the rest by Sep 2 | `tcom-2010\tcom-2010-17-week-execution-plan.md` |
+| **CSE** | *Think Python* (`PYTHON\raw\books\thinkpython.pdf`) Ch 1 and Ch 4 "A Development Plan"; then the Module 1 spine — Ch 1 values/types/operators, Ch 2 assignment/variables/expressions, Ch 5 "Keyboard Input". Cite **physical** pages from `wiki\source-page-map.md` | Ch 1/4 by Aug 24; Module 1 by Aug 30 | `PYTHON\wiki\syllabus-alignment.md` § Semester Reading Queue. **Module 1 opens week 2 and Quiz 1 is Sun Sep 6** |
+| **ECON** | **Mathews & Patrono Ch 1**, the moment D2L opens — and check its numbering against the OpenStax mapping | Aug 27 | `econ-1000\semester-map.md`. Quiz Ch 1-2-3 is **Tue Sep 8** |
+| **ENGR** | ⛔ **The syllabus itself is the week-1 reading.** It does not exist yet | **Aug 24, D2L** | Flag #57's remaining half; check moment Fri Aug 21 |
+
+**Total run-in reading: roughly 3 hours across five days.** It is small because the
+buffer is real — the work is to keep it.
+
+### Keeping pace after week 1 — three mechanisms, already built
+
+Nothing new is needed. These exist and only have to be run:
+
+1. **The evening rotation** (`00-BRAIN\EVENING_READING_INSTRUCTIONS.md`) — rebuilt
+   2026-08-19 onto the registrar's timetable: **PHYS 2 · TCOM 2 · CSE 2 · ECON 1** nights
+   a week, each priming the next day's actual first class. The **Technology block is
+   paused** for the semester unless it ties to a course deliverable due within 7 days.
+2. **The PHYS one-week-ahead rule**, broken only for the three reasons its own page
+   names. **Move the two red exam sweeps forward** — Exam 2's to Oct 1–2, Exam 4's into
+   week 11 — or they land on CSE Test 1 and on week 12.
+3. **TCOM's four ungraded report checkpoints** — Oct 13, Oct 20, Oct 27, Nov 3. They are
+   the only thing standing between 35% of that grade and the worst week of the semester.
+   Being ungraded is exactly why they get skipped.
+
 ---
 
 ## 3. Week-by-week — load, deadlines, and risk

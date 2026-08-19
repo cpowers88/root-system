@@ -12,8 +12,51 @@ answers first. Cold-check these at the start of a TCOM session, unannounced.
 
 ## Compliance — the cheap points
 
-**Q:** What is the exact file-naming pattern for a TCOM submission?
-**A:** `LastName_04_AssignmentName.docx` — e.g. `Powers_04_TechnicalDescription.docx`
+**Q:** What is the fallback file-naming pattern, and when does it apply?
+**A:** `Powers_04_AssignmentName.docx` — **only when the assignment prints no string
+of its own.** `Section#` is a placeholder; on the file it is `04`.
+
+**Q:** Why is that pattern a trap? *(corrected 2026-08-19)*
+**A:** It does not generate the real filenames. Copy the exact string the assignment
+gives you — never derive one, and never use the assignment's *title*.
+
+**Q:** Name the four printed filename strings in the whole syllabus.
+**A:** `Powers_04_Draft.docx` (Business Email draft, D2L route) ·
+`Powers_04_Business Email Final.docx` · `Powers_04_DocRedesign.docx` ·
+`PowersChenAlvarez_04_Instructions draft.docx`. Plus the email subject line
+`Powers_04_Business Email draft`.
+
+**Q:** `draft` or `Draft`? `Final` or `final`?
+**A:** **`draft` lowercase, `Final` capitalised** — same unit, opposite casing.
+
+**Q:** No filename is printed. What are the three steps, in order?
+**A:** (1) Read the assignment's **SUBMISSION** section in D2L — she says every
+assignment has one. (2) Fall back to `Powers_04_AssignmentName.docx`.
+(3) Email her only if both fail.
+
+**Q:** An assignment is due midnight Tuesday. You submit 6:00 AM Wednesday. Late?
+**A:** **No.** Grace period runs to **8:00 AM.** *Midnight due, 8 AM dead.*
+
+**Q:** Which three categories take zero late credit, ever?
+**A:** **Discussion Posts, Quizzes, Extra Credit** — *DQE*. The 20% report can be
+late; the 2-point discussion post cannot.
+
+**Q:** Four days late on a major assignment. What's the penalty, and what makes it
+irrelevant?
+**A:** −10%/day = 40% — **but the folder closes the moment she finishes grading the
+class set,** which may be two hours after the deadline. Then it is a zero.
+**TCOM has no extension mechanism** — do not import the PHYS/WebAssign rule.
+
+**Q:** Three tardies equal what?
+**A:** One unexcused absence.
+
+**Q:** Grade appeal — three required steps, and the risk?
+**A:** Re-read the assignment twice · re-read both rubrics · email with substantive
+evidence. **She reserves the right to lower the grade.** No attachment.
+
+**Q:** Technical failure makes you miss a deadline. Two hard requirements?
+**A:** A **UITS ticket number** obtained at the time, and an email to her **within
+24 hours.** Neither can be reconstructed later.
 
 **Q:** Where does every TCOM assignment go?
 **A:** The D2L Assignments folder. Email attachments are not accepted for any

@@ -6,6 +6,28 @@ tags: []
 
 # Castle Log — Append Only
 
+## 2026-08-19 — Evening read converted to semester mode; rotation rebuilt on the timetable (Claude Code)
+
+- **Decision (Chris-directed):** the evening read's **Technology block is paused for the Fall
+  2026 semester**. Default is one block, School. It returns only on a three-part tie test — a
+  named course deliverable, due within 7 days or next in the owning queue, and a FOCUS line that
+  names both. Failing the test the heading is omitted, not stubbed. This is the nightly
+  expression of the school-first ruling made earlier the same day, and of
+  `OPERATIONS.md` § Semester maintenance budget.
+- **Decision:** the course rotation is rebuilt from the **registrar's real timetable** —
+  **PHYS 2 · TCOM 2 · CSE 2 · ECON 1** from Sun Aug 23, replacing July's TCOM 2 / ECON 2 /
+  Python 1 / Physics 1. The prior weighting inverted the measured outside-class load; PHYS takes
+  two nights because its pre-class reading is the only *graded* reading in the five courses.
+  Rebalance trigger is buffer-based (+1 week), not dated.
+- **Gap closed:** `semester-workload-plan.md` §3 named week 1's *graded items* but never its
+  *reading*. §2 now carries the week-1 reading for all five courses, the run-in sequence, and
+  the three pace mechanisms — evening rotation, the PHYS one-week-ahead lead, and TCOM's four
+  ungraded report checkpoints.
+- **Control repaired:** `run_evening_reading.ps1` let a trailing fence and a commentary
+  paragraph through into the published brief. Now cuts from the first bare fence onward.
+- **Check moment:** **Sun Aug 23**, the rotation's first live night, and again at the Aug 23
+  pre-semester review.
+
 ## 2026-08-06 — Capacity decision closed from live-calendar audit; Week C/D runway built (Claude Code)
 
 - **Outcome:** Post power-loss recovery session. Closed the remaining five
@@ -1837,3 +1859,37 @@ remain open, not urgent tonight.
   was not activated early, and Friday's full reconciliation remains required.
 - **Next:** return control to the school cockpit — TCOM quiz/file-naming
   preparation remains the immediate action in `NOW.md`.
+
+## 2026-08-19 (evening) — TCOM lane opened; control returned to the school cockpit (Claude Code, Chris-directed)
+
+- **Sequencing:** the day's largest named gap is closed as a *gap* — TCOM ran its first block
+  after standing at **0 of 6** with graded work six days out. `NOW.md` § Today item 3 moves
+  from 🎯 NEXT to ✅ with an explicit resume point. This is the school lane advancing, not a
+  CASTLE change; learner and course truth stay in `03-WIKIS\EDUCATION`.
+- **Return-to-cockpit gate (Session Close 7) satisfied.** The Aug 19 sequence — flag #103's
+  repair, the reconciliation plan, the Codex handoff — ended and control returned to the
+  cockpit the same day. `NOW.md`'s Active Lane was re-verified against CASTLE owner truth and
+  is unchanged: Week D, school-first per this morning's ruling. **The semester maintenance
+  budget held for the remainder of the day** — no optional CASTLE work displaced the course
+  proof after the ruling was written.
+- **Decision (Chris): report completed work into the owning sections rather than leaving it in
+  session scrollback.** Executed across EDUCATION (`index`, `current-position`, `log`,
+  `hat-performance-log`, three course pages), `04-SCHOOL\SEMESTER_MAP.md`,
+  `00-BRAIN\HATS\HAT_TCOM.md`, `NOW.md`, and the DAILY.
+- **Cross-domain finding worth CASTLE's attention, not just EDUCATION's:** `.ROOT`'s own study
+  aids taught a wrong file-naming rule, and the learner's failed reps **reproduced the vault's
+  error rather than his own gap.** A generated study artifact can propagate a defect into
+  performance. This is the same class as flag #103's pointer-then-copied-state problem, one
+  layer out: **a derived page asserting more certainty than its source supports.** Candidate
+  standing rule offered and deliberately **not** adopted on one instance — *a study aid derived
+  from part of a source names which part.* Second sighting in two days; a third earns
+  `WIKI_SHARED_LAYER.md`. Raised here rather than as a flag because nothing is broken and the
+  two instances are already repaired.
+- **Advisory, recorded once, no action requested:** the semester maintenance budget adopted this
+  morning is **written but unproven**. Its first real test is the week of Aug 24. Recommendation
+  on file — treat it as unproven until one full week runs inside it, and **measure actual study
+  hours in weeks 1–3**, since every figure in `semester-workload-plan.md` is an estimate by its
+  own statement.
+- **Next:** unchanged — Codex runs the full `current-position.md` reconciliation **Fri Aug 21**;
+  **Aug 23** is the acceptance checkpoint for #103, #102, the backup review, and the semester
+  format. TCOM resumes at Part B.

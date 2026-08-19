@@ -103,6 +103,40 @@ for anything dated.
 - **The report is 35% of the grade in two artifacts** — written 20% + oral presentation 15% —
   confirmed from the exact syllabus 2026-08-17.
 
+### Syllabus read end to end 2026-08-19 — five findings, none previously in the vault
+
+The §04 syllabus had been mined for dates and weights but **never read past the calendar
+tables.** The policy and directory sections carried material nothing here recorded.
+All of it now lives in [[courses/tcom-2010/concepts/course-policies-and-file-naming]].
+
+1. **⚠ Two pages in this hub taught the wrong file-naming rule.** `common-errors` and
+   `flashcards` both asserted `LastName_04_AssignmentName.docx` as *the required pattern*.
+   **It is a fallback, not a rule** — the four filename strings the syllabus actually prints
+   each break it differently (`DocRedesign` abbreviated and closed up; `Business Email Final`
+   spelled out and spaced; `Instructions draft` lowercase with three surnames concatenated).
+   Both pages corrected the same session. **Cost was measured, not theoretical:** two failed
+   cold reps on 2026-08-19, where the derived name looked right and was wrong.
+2. **Technical-failure make-up rule — entirely new.** A make-up for a technical problem
+   requires **a UITS ticket number obtained at the time** *and* **an email to Diamond within
+   24 hours.** Neither is reconstructible after the fact. This lands on a known `.ROOT` risk:
+   the campus laptop carries ~58% of outside-class study time.
+3. **Room narrowed to 2-of-3.** § Course Meeting Information reads **"Atrium building,
+   Rm 2216, Marietta campus"** — agreeing with the calendar event against the registrar's
+   Academic 202. Still confirm day one, but the weight has moved.
+4. **⚠ The Business Email Draft has two conflicting submission routes in one document.**
+   Week 1 Thursday: `Lastname_Section#_Draft.docx` **to the D2L Assignments folder.**
+   Week 2 Tuesday: **email** with subject `Lastname_Section#_Business Email draft`. Same
+   deliverable. **A day-one question for Diamond**, not something to reason out.
+5. **Ethics Analysis is a week-1 graded item due Fri Aug 28, and its format is unknown.**
+   The syllabus links Diamond's teaching deck *and* a separate instructions file; only the
+   second states the deliverable, and it is D2L-only. **Resolve Aug 24. Do not assume
+   `.docx`; do not assume `.pptx`.** This is a fourth week-1 TCOM item that had not been
+   surfaced anywhere.
+
+**Also confirmed, closing an old note:** the assignment-weights table is *not* cut off in the
+capture — it is complete and already extracted. And the syllabus's own § Logistics claims the
+course "is delivered over 15 weeks," contradicting its 14-week calendar; the calendar governs.
+
 ### ⚠ Textbook trap — found 2026-08-17, must not be forgotten
 
 `raw\Textbook Doc Files\2e_Word\` is **not an ancillary of the assigned textbook.** It is a

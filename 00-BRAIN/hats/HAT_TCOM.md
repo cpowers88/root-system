@@ -32,14 +32,18 @@ stated. Say once if something looks wrong, then continue his way.
 **Text:** *Open Technical Communication* (Reardon, Powell, Arnett, Race & Logan) — free online.
 Paste relevant sections into session as needed.
 
-**⚠ Room is unconfirmed — three values on file:** Academic Building 202 (registrar), Atrium 2216
-(calendar), Atrium 2236 (walk event). **Resolve on day one.**
+**⚠ Room — narrowed 2026-08-19.** The §04 syllabus itself says **Atrium building, Rm 2216,
+Marietta**, agreeing with the calendar event. Against: Academic 202 (registrar), Atrium 2236
+(walk event). **Weight toward Atrium 2216; confirm day one.**
 
-### Submission rule — one exception, and it matters
+### Submission rule — never infer channel from genre
 
-**Everything goes to the D2L Assignments folder.** The single exception is the **Business Email
-unit**, which Chris submits by actually emailing Prof. Diamond — the deliverable *is* a real
-email.
+**Default to the live assignment's SUBMISSION section in D2L.** The syllabus says ordinary
+assignments go to D2L and email attachments are not accepted, but it also contains a real
+contradiction for the Business Email Draft: one row says D2L `.docx`; another says an email
+with a specified subject. The Business Email Final prints a filename but no channel.
+**Resolve the Draft with Diamond and verify the Final in D2L; do not infer either.** The Week 1
+instructor email and the Week 10 Progress Report are clearly email-body deliverables.
 
 > *"I do NOT accept email attachments for any assignment."* Never email a document attachment
 > for anything else.
@@ -49,12 +53,27 @@ email.
 ### File naming — this is graded
 
 ```
-Lastname_Section#_AssignmentName.docx     →  Powers_04_TechnicalDescription.docx
+Lastname_Section#_AssignmentName.docx     →  Powers_04_AssignmentName.docx
 ```
 
-Section is **04**. There is a **File Naming Convention Quiz in week 1** that exists specifically
-to test this. Email subject lines follow the same pattern:
-`Powers_04_Business Email draft`.
+Section is **04**; `Section#` is a placeholder and must be substituted.
+
+> **⚠ Corrected 2026-08-19 — that pattern is a FALLBACK, not a rule, and treating it as a rule
+> is the graded trap.** The four strings the syllabus actually prints each break it
+> differently: `Powers_04_Draft.docx` · `Powers_04_Business Email Final.docx` ·
+> `Powers_04_DocRedesign.docx` · `PowersChenAlvarez_04_Instructions draft.docx`.
+> **`draft` is lowercase, `Final` is capitalised. `DocRedesign` is abbreviated and closed up.
+> Only the group project concatenates surnames.** The filename is also not the assignment's
+> *title*. **Copy the exact string; never derive one.** Use the fallback only when no string
+> is printed — and check the assignment's **SUBMISSION** section in D2L first, which the
+> syllabus says every assignment has.
+>
+> Complete list and the full assignment×channel table:
+> `03-WIKIS\EDUCATION\wiki\courses\tcom-2010\concepts\course-policies-and-file-naming.md`.
+> Measured cost: two failed cold reps, 2026-08-19 — the derived names looked right.
+
+There is a **File Naming Convention Quiz in week 1** that exists specifically to test this, and
+week 2's class topic is *"Following directions"* — the quiz is that thesis in miniature.
 
 ## ⚠ Dates: trust D2L, never the syllabus
 
@@ -63,8 +82,8 @@ to test this. Email subject lines follow the same pattern:
 printed dates are not.
 
 **Real Fall dates are converted in `04-SCHOOL\SEMESTER_MAP.md`.** That file owns dates; this hat
-owns method. The assignment-weights table was also cut off in the source scan — **pull the real
-weights in week 1.**
+owns method. The assignment-weights table is complete and already extracted; only live D2L
+changes can supersede it.
 
 ## Week 1 carries graded work — do not treat it as a warm-up
 
@@ -107,16 +126,19 @@ technical reader.
 
 ### Compliance check — run before every submission
 
-- File named exactly `Lastname_04_AssignmentName.docx`
-- Uploaded to the **D2L Assignments folder** — not email (except the Business Email unit)
+- Exact filename/subject copied from the live SUBMISSION section; use
+  `Lastname_04_AssignmentName.docx` only as the documented fallback
+- Exact channel verified from the live assignment; never infer D2L versus email
 - Rubric reviewed, every required element present
 - Word or page count within spec
 
 ## Template build — before Aug 24
 
-Personal format anchors, **not graded work**: business email shell, memo shell, technical report
-shell, progress report shell, **Reflective Memo shell**, **Report Group Charter shell**, and a
-file-naming reference card.
+Chris-built personal format anchors, **not AI-drafted graded work**: business email shell, memo
+shell, technical report shell, progress report shell, **Reflective Memo shell**, **Report Group
+Charter shell**, and a file-naming reference card. Build any shell only after the live prompt
+and rubric arrive; AI may explain genre conventions but may not create an outline that becomes
+a submission.
 
 The last two are the real gaps — the course supplies no template for either.
 

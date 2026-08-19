@@ -17,11 +17,25 @@ Treat this page as a pre-submission checklist, not as reading.
 
 ## 1. Wrong file name
 
-Required: `LastName_04_AssignmentName.docx` — e.g. `Powers_04_TechnicalDescription.docx`
+Fallback pattern: `Powers_04_AssignmentName.docx`. `04` is the section number and
+does not change. `Section#` in the syllabus is a **placeholder** — on the real file
+it is `04`.
 
-`04` is the section number and does not change. Memorize the pattern before
-Aug 24; there is a Week 1 quiz on it, which is the course telling you plainly
-that naming is graded.
+> ### ⚠ Corrected 2026-08-19. This page previously called that pattern "required," which is wrong and is itself the trap.
+>
+> **The pattern does not generate the real filenames.** Every printed string breaks
+> it differently — `Powers_04_DocRedesign.docx` (abbreviated, closed up) versus
+> `Powers_04_Business Email Final.docx` (spelled out, spaced) versus
+> `PowersChenAlvarez_04_Instructions draft.docx` (surnames concatenated, lowercase
+> `draft`). **Copy the exact string the assignment gives you; never derive one.**
+> The filename is not the assignment's title either.
+>
+> **Full list of all printed strings, plus what to do when none is printed:**
+> `../concepts/course-policies-and-file-naming.md` Part A. Measured cost of the
+> derive-instead-of-copy habit: two failed reps, 2026-08-19.
+
+There is a Week 1 quiz on naming — the course telling you plainly that it is graded,
+and that *following directions exactly* is the skill being assessed.
 
 ## 2. Wrong submission channel
 

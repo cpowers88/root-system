@@ -680,3 +680,110 @@ it feasible.
 **Aug 24, when D2L opens:** confirm TCOM's real Fall due dates (the syllabus prints January
 dates) and spot-check the ECON textbook mapping against the real Mathews & Patrono chapters.
 Both are items 3 and 7 on `semester-workload-plan.md` §8.
+
+## 2026-08-19 — TCOM session 1: syllabus read in full, two hub pages found teaching a wrong rule
+
+**First TCOM working session of the semester.** TCOM entered the day at **0 of 6 planned
+blocks** with three graded items six days out. Target: the Week 1 **Course Policies Quiz** and
+**File Naming Convention Quiz** (both assigned Tue Aug 25, due Tue Sep 1, **no late credit**).
+
+### Method — cold diagnostic before any teaching
+
+Eight unannounced policy questions, no notes, per `HAT_EDUCATOR` § Cold Checks. **~3 of 8.**
+Recorded as session evidence, not as a mastery claim — this hub owns no learner frontier
+(`OPERATIONS.md` § State).
+
+**The pattern mattered more than the score: both confident wrong answers were correct rules
+imported from PHYS 2211.** "Email her before it's due" is the WebAssign extension rule, added
+to `NOW.md` the previous day and therefore the freshest thing available. **Cross-course rule
+contamination is now a named error class for this semester** — five courses, five late
+policies, none of them alike. Taught as an opposed pair: *PHYS rewards foresight, TCOM rewards
+speed.*
+
+### 🔴 Two pages in this hub were teaching the wrong file-naming rule
+
+`common-errors/compliance-and-format.md:20` and `flashcards/compliance-and-document-types.md:16`
+both asserted `LastName_04_AssignmentName.docx` as the **required pattern**. It is a
+**fallback**. The four strings the syllabus prints each break it differently. Chris generated
+filenames from a category taxonomy — *email is X, document is Y, draft is Z* — and missed two
+of three reps. **That is the failure the two pages would produce in any reader**, and it is his
+strongest instinct (find the generating rule) misfiring on material that has none.
+
+**Both pages corrected the same session.** New page holds the authoritative version:
+[[courses/tcom-2010/concepts/course-policies-and-file-naming]].
+
+**Lesson, and it is a repeat in new costume:** the hub's own study aids were written from the
+syllabus's *calendar tables* and never from its *policy and directory sections*. Same shape as
+the 2026-08-18 finding — *absence in the file consulted read as absence in the vault* — except
+here the file was consulted and only half of it was read. **A study aid derived from part of a
+source must name which part.**
+
+### Five findings, none previously anywhere in the vault
+
+1. **Technical-failure make-up rule** — UITS ticket number obtained at the time **and** an
+   email to Diamond within 24 hours. Neither reconstructible later. Lands on the campus-laptop
+   dependency (~58% of outside-class study time).
+2. **Room narrowed to 2-of-3** — the syllabus says **Atrium 2216**, agreeing with the calendar
+   against the registrar's Academic 202. Propagated to `SEMESTER_MAP.md` and `HAT_TCOM.md`.
+3. **The Business Email Draft has two conflicting submission routes in one document** — D2L
+   `.docx` (wk 1 Thu) versus email subject line (wk 2 Tue). **Day-one question, not a puzzle
+   to solve.**
+4. **Ethics Analysis is a fourth week-1 graded item, due Fri Aug 28, format unknown** —
+   instructions are D2L-only. Added to `SEMESTER_MAP.md` week 1.
+5. **The assignment-weights table is not truncated** — an old "cut off in the scan" note is
+   closed. Also: § Logistics claims 15 weeks against its own 14-week calendar; calendar governs.
+
+### Exact next action
+
+**TCOM:** finish the policy set — the ~8 uncued facts in
+[[courses/tcom-2010/concepts/course-policies-and-file-naming]] Part B — then a spaced re-rep of
+the four filename strings before Aug 25. Ch. 2.13 Emails & Memos is the reading block for
+Tue Aug 25.
+
+**Aug 24, when D2L opens** (unchanged, plus two): confirm TCOM's real Fall due dates and
+spot-check the ECON textbook mapping — items 3 and 7 on `semester-workload-plan.md` §8 — **and
+now: open the Ethics Analysis SUBMISSION section, and download the three Group Charter samples.**
+
+## 2026-08-19 — TCOM exact-syllabus 17-week execution plan and routing audit
+
+### Objective
+
+Apply the same semester-plan treatment used for CSE and Physics: reconcile the
+exact §04 syllabus, the current TCOM course-support pages, the assigned textbook,
+and the real Fall calendar into one executable plan without generating graded
+writing.
+
+### Built
+
+- Added [[courses/tcom-2010/tcom-2010-17-week-execution-plan]] covering Aug 19
+  through Dec 14: exact pre-class readings, weekly production gates, submission
+  controls, all known deliverables, the Aug 24 D2L verification gate, and a
+  no-final-exam close week.
+- Protected the 35% report with the actual Oct 13/20/27 and Nov 3 professor-review
+  checkpoints and a planned full-draft finish of Nov 6, six days before submission
+  and before the CSE Test 2 collision peaks.
+- Preserved the AI boundary: this is planning and private concept practice only.
+  AI does not create a TCOM outline or prose that becomes submitted work.
+
+### Reconciled and repaired
+
+- Corrected [[courses/tcom-2010/semester-map]] to the two textbook paths that
+  actually exist and marked the Business Email Draft/Final channels as verification
+  needs instead of inferring an email route from the document genre.
+- Corrected `HAT_TCOM.md` on the same channel issue, the already-complete weight
+  table, filename fallback, compliance check, and the boundary around Chris-built
+  shells.
+- Updated [[source-map]] from the stale nonexistent `raw/Open-TC-PDF.pdf` route to
+  the controlling `raw/Syllabi/` capture and real assigned-book locations; preserved
+  the `2e_Word` renumbering warning.
+- Added the plan to [[index]] and linked it from [[courses/tcom-2010/semester-map]].
+
+### Status and next action
+
+This hub owns no learner frontier, so no mastery claim was made. Exact content,
+weights, policies, and week order are verified; converted Fall dates remain
+provisional until D2L opens Aug 24.
+
+**Next exact action:** retrieve [[courses/tcom-2010/concepts/course-policies-and-file-naming]]
+Part B cold, then read assigned-book §2.13 *Emails & Memos*. Produce only a private
+genre analysis—not a draft of either graded email.

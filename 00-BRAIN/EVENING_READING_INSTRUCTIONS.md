@@ -8,7 +8,46 @@ status: live
 # Evening Reading Instructions
 ### AKA "Nightly Reading" — same file, same schedule; renamed in conversation only, not on disk (rewritten 2026-07-23 per Chris's direct request for a clearer two-block contract).
 
-At 5:00 p.m. local time, read `MORNING_BRIEF.md`, `NOW.md`, today's DAILY, both active bootcamp evidence files, and the relevant owner's Current Reading Queue, then replace root `EVENING_READING.md` with **two short blocks**: **School** (primary) and **Technology** (brief, business-relevant).
+At 5:00 p.m. local time, read `MORNING_BRIEF.md`, `NOW.md`, today's DAILY, the current
+week's row in `04-SCHOOL\semester-workload-plan.md` §3, and the rotation course's owner
+page, then replace root `EVENING_READING.md`.
+
+## 🎓 Semester mode — live from 2026-08-19 (Chris-ruled)
+
+**The Technology block is PAUSED for the Fall 2026 semester.** The default brief is
+**one block: School.** Chris's ruling, 2026-08-19: school is the active agenda, and a
+free-standing technology reading is optional work that cannot hold a nightly slot while
+five courses are running. This matches `NOW.md`'s semester-priority line and
+`CASTLE\OPERATIONS.md` § Semester maintenance budget.
+
+**The Technology block returns only when it is tied to school**, meaning **all three**
+are true:
+
+1. The reading serves a **named course deliverable, exam, or module** — not a general
+   interest, not "business-relevant," not continuity with last night's source.
+2. That deliverable is **due within 7 days**, or is the next unrun item in the owning
+   course's queue.
+3. The **FOCUS line names the course and the deliverable.** If it cannot, the tie does
+   not exist and the block does not run.
+
+**What qualifies, concretely:** a Python/CSE reading is *already* the School block, not a
+technology block — never run the same lane twice by relabelling it. A genuine tie looks
+like Word/document-design tooling before TCOM's Document Redesign, a spreadsheet or FRED
+data method before an ECON data discussion, or a calculator/plotting technique before a
+PHYS problem set. **`AI_engineering.pdf`, agent frameworks, MCP, and REVENUE_LAB sources
+do not qualify** — they are the paused lane, and their queue position is held, not lost.
+
+**When the block does not run, say nothing about it.** Omit it. Do not print an empty
+Technology heading, an apology, or a "paused" note — the brief is the assignment, not a
+status page. The `EVENING_READING.md` contract is therefore **one block of three lines,
+or two blocks of six** — never a stub.
+
+**Freed time goes to school, capped.** With one block the School cap rises from 20 to
+**30 minutes** in a 🟡 or 🔴 week (per §3's risk column), and stays at **20 minutes** in a
+🟢 week. Do not spend a quiet night reading further ahead than the one-week lead.
+
+**This mode ends when the semester ends (Dec 9, 2026) or when Chris lifts it.** Do not
+retire it because a week looks light.
 
 ## Course Rotation — which course fills the School block (added 2026-07-25)
 
@@ -24,6 +63,8 @@ buffer position was measured. **It is now backwards.** Measured 2026-08-18: PHYS
 opens), while **TCOM is at 0 buffer with real graded work in week 1**, and ECON's
 first graded item is Sep 8. Evening reading now follows the deficit, not the habit.
 
+### Pre-semester table — in force through Sat Aug 23 only
+
 | Night | School lane | Primes |
 |---|---|---|
 | **Sunday** | TCOM | Monday's writing block and the week's deliverable |
@@ -36,9 +77,37 @@ first graded item is Sep 8. Evening reading now follows the deficit, not the hab
 
 Weekly totals: TCOM 2, ECON 2, Python 1, Physics 1 (2 while ENGR is blocked).
 
-**Rebalance when the deficit moves, not on a fixed date.** If PHYS or CSE falls to 0
-buffer, or TCOM/ECON pull ahead, this table is wrong again — say so in the brief
-rather than following it off a cliff.
+### 🎓 Semester table — in force from Sun Aug 23 (the night before classes)
+
+Built 2026-08-19 from the **registrar's real timetable**, not from the July weighting.
+Each night primes the **next day's actual first class or first deadline**, which the
+pre-semester table could not do because there were no classes to prime.
+
+| Night | School lane | Primes — the real reason |
+|---|---|---|
+| **Sunday** | **PHYS** | Mon 9:10 lecture. **Three of the four unit exams and both CSE tests are Mondays** — Sunday is the last unforced block before every one of them |
+| **Monday** | **TCOM** | Tue 9:35 class. Tuesday runs ECON → TCOM → 17:45 lab, 11.5 h on campus; TCOM is the one with a deliverable in it |
+| **Tuesday** | **CSE** | Wed 16:10 lecture and the current module |
+| **Wednesday** | **ECON** | Thu 8:00 class — the earliest class of the week and the easiest to arrive at unread |
+| **Thursday** | **PHYS** | Fri lecture **and the recitation worksheet, which is 10% of the grade and produced in that room** |
+| **Friday** | **CSE** | **CSE quizzes close Sunday.** Friday is the last night that deadline is cheap |
+| **Saturday** | **TCOM** | Tuesday's deliverable and, from week 8, the report checkpoint |
+
+Weekly totals: **PHYS 2 · TCOM 2 · CSE 2 · ECON 1.** This tracks the measured
+outside-class load in `semester-workload-plan.md` §1 (PHYS ~37%, CSE ~28%, TCOM ~22%,
+ECON ~9%) — the old table gave PHYS one night and ECON two, which inverts it.
+
+**Why PHYS moved from one night to two.** Its pre-class reading is *graded* — WebAssign
+and D2L reading quizzes, plus unannounced in-class quizzes (`PHYSICS\wiki\semester-pathway.md`
+§5). Arriving unread is directly scorable there and nowhere else.
+
+**ENGR 1000 takes the Saturday slot the week its syllabus lands**, dropping TCOM to one
+night, until its real load is known. Until then it is absent, not silently folded in.
+
+**Rebalance when the deficit moves, not on a fixed date.** PHYS and CSE hold a **+2 week
+buffer** as of 2026-08-18. If either falls below **+1 week**, that course takes a third
+night from ECON. If TCOM's report checkpoints slip, Saturday becomes a second TCOM night
+in weeks 8–11. Say so in the brief rather than following the table off a cliff.
 
 **Four overrides, in this order:**
 
@@ -98,7 +167,12 @@ and week number are reliable; printed dates are not. Cite the week, not the prin
 D2L confirms. (`semester-workload-plan.md` §6 carries the evidence.)
 - **No-contamination rule (clarified 2026-08-02, closes flag #86):** priming the next day's first block means assigning the **raw textbook chapter or general topic exposition** on that subject — never the wiki's own stage/drill file, which carries the exact problems, code patterns, or mastery-checklist items the next day's cold gate will use. Reading the textbook chapter on loops the night before a loops cold gate is intended and correct; reading `wiki/stages/stage-03-...md` itself would not be. This is why raw sources are preferred over wiki-processed pages above — it is not only a citation preference, it is what keeps priming from contaminating the next day's measurement.
 - **Page numbers are now available and expected for Python.** `03-WIKIS/PYTHON/wiki/source-page-map.md` carries verified **physical** PDF pages for Think Python, Python Crash Course, and Python Workout. Cite the physical page, not just the chapter. PHYSICS page ranges live in its `source-map.md`.
-- **Technology block:** the single most immediately useful slice tied to active Bootcamp/business work; prefer continuing the same source across nights over restarting elsewhere.
+- **Technology block (semester mode):** runs only under the three-part tie test above.
+  When it runs, it is the single slice that most directly serves the named course
+  deliverable — **not** the next section of whatever source ran last. Continuity across
+  nights was the pre-semester rule and is now the wrong instinct: a tie to a deliverable
+  is what selects the reading, so the source can change every time it fires, and usually
+  will. The paused AIAS/REVENUE_LAB queues keep their positions; nothing is lost.
 
 ## Format
 
@@ -109,16 +183,24 @@ Each line is one sentence, ≤35 words. `**FOCUS**` replaces the old `**WHY**` l
 **READ —** source plus exact chapter/section/pages/file.
 **FOCUS —** where this fits into current work or school material, with the one detail worth remembering **bolded inline**.
 **STOP —** the precise endpoint (a section boundary or a time cap).
-
-## Technology
-**READ —** source plus exact section/pages/file.
-**FOCUS —** same rule as above.
-**STOP —** endpoint.
 ```
+
+**During the semester the School FOCUS line also carries the week**, inline and bolded —
+e.g. *"**Wk 5 🔴** — primes Monday's Unit Exam 1"* — read from
+`04-SCHOOL\semester-workload-plan.md` §3. It costs three words and is the only thing in
+the brief that tells Chris where he is in the term.
+
+The **Technology** block, when the three-part tie test passes, appends the identical
+three lines under a `## Technology` heading, and its FOCUS line **names the course and
+the deliverable**. When the test fails, the heading is omitted entirely — see § Semester
+mode.
 
 ## Rule
 
-The only rule beyond standing `.ROOT` governance: **keep this brief** — two blocks, six lines total, nothing more. Never assign a broad chapter, treat reading as mastery, or copy owner context into the brief.
+The only rule beyond standing `.ROOT` governance: **keep this brief** — **one block of
+three lines in semester mode, or two blocks of six when the tie test passes**, nothing
+more. Never assign a broad chapter, treat reading as mastery, or copy owner context into
+the brief.
 
 The next measured session records whether the assignment was completed, useful,
 well-timed, and correctly scoped; that result returns to the evidence lane it served
