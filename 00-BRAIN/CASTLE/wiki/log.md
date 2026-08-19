@@ -1766,3 +1766,12 @@ remain open, not urgent tonight.
   `SYSTEM_FLAGS_DETAIL.md`, but the detail file contains no #103 entry.
 - **Next:** Chris ratifies the ownership ruling; then repair #103, reconcile overdue phase and
   opportunity triggers, and test CASTLE loading and return-path behavior in a fresh session.
+
+- **Resolution appended 2026-08-19 (text above unchanged, per append-only).** Every "waits on
+  Chris's ruling" / "Next" item above is **closed**: Chris ratified the ownership ruling, the
+  repair shipped, the phase and opportunity triggers were reconciled, and the fresh-session
+  acceptance test ran the same day — all recorded in the **preceding** entry. The
+  `SYSTEM_FLAGS_DETAIL.md` gap this review found is also closed (#103 entry now present).
+  *Why this needed a note:* this review's conclusions were reached before the ruling but
+  appended after it, so the file's last entry read as pending when it was not. Ordering
+  artifact, not a live open item.

@@ -92,7 +92,10 @@ The August 1 review may reorder these. CASTLE does not copy the practice schedul
 - Technology frontier: 02-LIBRARY\ref-AI-automation\TECHNOLOGY_LIBRARY_STRATEGY.md
 - Business strategy: 01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md
 - Revenue evidence: 03-WIKIS\REVENUE_LAB\wiki\
-- Capability states and next proof: [[skill-map]]
+- Capability states and next proof: **owned here**, in the Capability and Proof Frontier
+  table above (ruled 2026-08-19, flag #103). [[skill-map]] holds horizons and activation
+  criteria only and must never be cited as the state home — this line pointed outward until
+  2026-08-19 and was the last surviving half of the repaired ownership loop.
 
 Next monthly reconciliation: **August 23, 2026**, at the final pre-semester review. (The
 stated August 1 date passed unrun; that staleness was finding N4 and is why the two learner
