@@ -17,7 +17,7 @@ Chris should always be able to open this page and know what to read, practice, a
 ## Current Position
 
 **Generated through**: Stage 10 — Application Thinking
-**Current study stage**: Stage 4 — Functions
+**Current study stage**: Stage 4b — Python Libraries
 **Stage 0 status**: Satisfied
 **Stage 1 status**: Satisfied (2026-07-13) — worked independently with Codex 2026-07-12, verified in session (explained type-conversion reasoning, correctly predicted/confirmed a `TypeError`, explained `+`-concatenation vs. f-strings). Evidence: `04-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\`.
 **Stage 2 status**: Satisfied (2026-07-16) — correction and cold explain-back
@@ -29,8 +29,8 @@ passed with correction across normal, exact-boundary, and decimal tests.
 
 The curriculum is fully generated through Stage 10, but that describes what exists in the vault, not where Chris is. Chris has satisfied Stages 0-3. **Do not read "generated through Stage 10" as an instruction to start at Stage 10.**
 
-**Current Concept:** function definition/call, parameter, argument, return value,
-and local scope (Stage 4)
+**Current Concept:** importing and calling standard-library functions, reading a
+library contract, and wrapping one library call (Stage 4b)
 **Next Reading / Drill / Vocabulary / Blocker:** follow `wiki/current-position.md`,
 the sole owner of live learner truth.
 **Parked Advanced Material:** see `wiki/parking-lot.md` (consolidated 2026-06-24)
@@ -44,6 +44,10 @@ the live learner has since advanced to the Stage 3 frontier recorded above.
 [[syllabus-alignment]] now carries the detailed CSE 1321/1321L semester pathway:
 the week/module-to-stage map, code-reader competency ladder, module playbooks,
 assessment preparation, and the trigger-based reading queue through the final.
+
+[[cse-1321-17-week-mastery-plan]] is the dated August 19–December 14 execution
+layer. It assigns weekly reading, fresh private programs, assessment sweeps, proof
+gates, and the August 24 D2L reconciliation without replacing this durable path.
 
 The routing rule is simple:
 

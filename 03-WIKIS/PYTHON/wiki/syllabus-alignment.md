@@ -12,6 +12,7 @@ This page is the authoritative bridge between Chris's exact Fall 2026 lecture/la
 syllabi and the staged Python path. It owns course alignment and the semester
 operating pathway. [[current-position]] remains the only owner of actual mastery and
 the exact next drill; [[learning-path]] remains the durable Stage 0–10 curriculum.
+The dated weekly execution layer is [[cse-1321-17-week-mastery-plan]].
 
 Active sources (canonical, immutable — this hub's `raw/` folder per `CLAUDE.md` §
 Folder Structure):

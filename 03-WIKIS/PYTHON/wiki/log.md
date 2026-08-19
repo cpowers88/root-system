@@ -2034,3 +2034,56 @@ weighting pre-semester reps toward Stages 2–3 rather than adding new sources.
 `wiki/source-map.md` (§ Late Raw Intake — classified 2026-08-18) · `wiki/syllabus-alignment.md`
 (§ Lab and assignment sequence — module map) · this log. No concept, glossary, flashcard, drill,
 or project page was generated.
+
+## 2026-08-19 — full CSE semester review and 17-week-plus A plan
+
+### Outcome
+
+Created [[cse-1321-17-week-mastery-plan]], the dated August 19–December 14 execution layer for
+CSE 1321/1321L. It contains the 7–9 hour weekly operating system, collision-week minimum,
+A-grade scorecard, 13 fresh private program specifications, every dated course week through
+finals, assessment sweeps, ten-visit tutoring schedule, and the August 24 D2L reconciliation
+checklist. It complements [[syllabus-alignment]]; it does not replace learner truth.
+
+### Review coverage and decisions
+
+- Reviewed the Python command center, current learner state, Stage 0–10 structure, all concept/
+  pattern/flashcard/source-summary inventories, source map, syllabus bridge, semester map,
+  workload plan, and the last three hub log entries.
+- Inspected the text and topic progression of all 17 official CSE lecture decks, Module 0
+  through the five-part Java bridge and Python review. The decks add course-specific coverage
+  for `match`, nested loops, `break`/`continue`, `random`/`time`/`math`/`os`, two-dimensional
+  lists, bubble sort, class-versus-instance state, mutable-field hazards, and the bounded Java
+  comparison.
+- Inspected *Think Python* PDF physical pages 5–16 as one 12-page chunk, covering the TOC and
+  opening source guidance; the existing source/page maps supplied the course-section routing.
+- Graded lab and assignment prompt contents were not opened or transformed. Only the already
+  permitted filename-derived sequence was used. No file under `raw/` changed.
+- Semester core: Stages 0–5b, Stage 6 debugging subset, Stage 7 planning habit, Stage 8 course
+  subset, official decks, and selected *Think Python*. APIs/SQL/pandas/automation/pytest/deep
+  Java remain deferred; raw w3resource solution banks remain unprocessed reserve.
+
+### State and navigation repairs
+
+- Corrected stale navigation that still called Stage 4 current after Stage 4 closed July 29.
+  [[current-position]], [[learning-path]], and [[index]] now consistently route to Stage 4b.
+- Corrected “Stages 4–10 not mastered” to “Stages 4b–10” without changing evidence.
+- Linked the dated plan from the index, learning path, current reading queue, and syllabus bridge.
+- Corrected the semester workload plan's tutoring cadence from “one every other week” to the
+  accurate “two visits every three weeks” for ten visits across fifteen weeks.
+
+### Validation and learner truth
+
+Frontmatter audit: **CLEAN**, baseline match, 0 findings. Wiki lint: **0 blockers, 1 reviewed
+debt**, the pre-existing CASTLE weekly-plan circular-motion link; no new Python navigation
+finding. Root health: **PASS WITH DEBT** — 0 blockers, the same 1 reviewed wiki item,
+frontmatter 0, shared skills PASS, staged/unstaged whitespace PASS, and 0 text-integrity
+findings across 1,566 Markdown files. The gate does not evaluate semantic freshness,
+review-cadence completion, source ownership/routing, or ordinary direct-path prose. No learner
+mastery moved. Exact frontier remains **Stage 4b, nothing read yet**.
+
+### Exact next action
+
+Run Week 0: read [[stages/stage-04b-python-libraries]], complete the standard-library drill,
+and prove one imported function behind Chris's own wrapper. On August 24, reconcile the plan
+against live D2L dates, weights, lab exams, technology, and tutoring-credit procedure.

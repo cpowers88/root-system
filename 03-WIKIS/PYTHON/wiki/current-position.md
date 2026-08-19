@@ -39,8 +39,8 @@ Generated curriculum: **Stages 0-10 complete.** Every stage from `wiki/stages/st
   denominator-order error and inclusive boundary; Chris corrected both and
   passed normal (`125 / 2 / 25.0`), exact-30 (`30 / 0 / 6.0`), and decimal
   (`31 / 1 / 6.2`) tests. Verdict: PASS WITH CORRECTION.
-- **Current study stage: Stage 4 — Functions.**
-  `wiki/stages/stage-04-functions-parameters-return.md`.
+- **Current study stage: Stage 4b — Python Libraries.**
+  `wiki/stages/stage-04b-python-libraries.md`.
 - **Stage 4 cold baseline — PASS WITH CORRECTION (2026-07-27).** Chris wrote
   and ran `add_this(a, b)` and `greet(name)` cold
   (`02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\{function,greet}.py`).
@@ -151,7 +151,7 @@ record: `wiki/log.md` 2026-08-01.
   `practice4.py`, `password.py`, and `secret#.py`. The MCP
   infrastructure files (`mcp_contracts.py` and `server.py`) belong to Claude's
   separate integration lane and do not count as Python mastery proof.
-- **Stages 4-10 are generated but not yet mastered.** Their packets exist and
+- **Stages 4b-10 are generated but not yet mastered.** Their packets exist and
   are ready, but Chris has not worked through or demonstrated mastery of any of
   them yet. Do not treat their existence as progress.
 
@@ -208,6 +208,10 @@ without AI assistance. Vibe coding and AI-generated implementation are out of sc
 for this hub and cannot count as learner proof.
 
 ## Current Reading Queue
+
+The dated Fall execution overlay is [[cse-1321-17-week-mastery-plan]]. It schedules
+course readings, fresh private practice, assessment sweeps, and D2L reconciliation
+without changing the mastery frontier recorded here.
 
 - **Read now:** [[stages/stage-04b-python-libraries]] — standard-library basics,
   unlocked because Stage 4 is closed. Import one standard-library module, call

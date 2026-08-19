@@ -206,7 +206,7 @@ Before any dated item, each week carries this floor:
 > single line items in the CSE pair — with **no performance risk**, unlike every other point in
 > this plan.
 >
-> **Ten visits across fifteen weeks is roughly one every other week.** Start in week 1 rather
+> **Ten visits across fifteen weeks is roughly two visits every three weeks.** Start in week 1 rather
 > than discovering the allowance in November; the deadline is the last day of classes,
 > **Dec 7**. Tutoring is also an authorised human resource under both AI policies — going there
 > when stuck on a lab is explicitly permitted where AI assistance is not.
