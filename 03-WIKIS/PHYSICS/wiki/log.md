@@ -1996,3 +1996,45 @@ intuition. Run row 4 aimed at the graph; half a block, not a full one.
 
 `wiki\current-position.md` (durability table) · `wiki\log.md` ·
 `wiki\calculus-links\kinematics-derivatives.md` (read only)
+
+## 2026-08-19 — Exact §54 Math-First Semester Plan and Routing Repair
+
+### Objective
+
+Turn the exact Section 54 syllabus and the existing Physics wiki into one dated,
+math-first execution plan from today through the final, and repair stale routing
+before the semester begins.
+
+### Built
+
+- Added [[phys-2211-17-week-math-first-plan]]: exact lecture-by-lecture readings,
+  printed and split-file local PDF pages, math lens, weekly output gates, exam
+  sweeps, workload, academic-integrity boundary, and a 17-week sequence.
+- Preserved two syllabus defects transparently: Sep 4 needs §§4.3–4.5 because
+  §4.3 is projectile motion; Nov 2 means §§11.2–11.4.
+- Made the current next rep explicit: §§6.1–6.2 plus circular-motion drills 1–4.
+
+### Repaired
+
+- Corrected [[textbook-page-map]] from the stale Ch 1–13/15–17 neighbor scope
+  to exact §54 scope and documented how global PDF pages convert to local pages
+  in every split file.
+- Corrected [[current-position]] so Stage 6, not off-course Stage 13, follows
+  Stage 5; refreshed [[index]] routing and its stale July next action.
+- Corrected [[source-map]] instructor/course truth and its stale chapter-scope
+  table; added the Sep 4 defect to [[semester-pathway]].
+- Repaired renamed problem-type links for circular motion, work/energy, and
+  collisions, plus the Stage 10 rotational-calculus link.
+- Re-scoped Stage 12 to assessed §§12.1/12.3, made §§15.6–15.7 required in Stage
+  15, and limited Stage 16's active gate to §§16.1–16.3.
+
+### Learner truth
+
+No stage advanced. Stage 4 remains open at circular-motion drills 1–4; Row 3's
+durability check remains due Aug 21–22. This was curriculum and routing work,
+not learner evidence.
+
+### Next exact rep
+
+Read §§6.1–6.2 at `0101-0200` local pp. 58–64, then complete
+[[drills/circular-motion-drill]] Problems 1–4 cold.

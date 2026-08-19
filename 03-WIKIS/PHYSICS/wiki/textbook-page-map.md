@@ -21,6 +21,18 @@ verified_on: 2026-08-08
 
 > **PDF page = printed page + 30.**
 
+The split files restart their viewer page count. Convert a global PDF page to a
+local viewer page as follows:
+
+| File | Local viewer page |
+|---|---|
+| `0001-0100` | global PDF page |
+| `0101-0200` | global PDF page − 100 |
+| `0201-0300` | global PDF page − 200 |
+| `0301-0400` | global PDF page − 300 |
+| `0401-0500` | global PDF page − 400 |
+| `0501-0600` | global PDF page − 500 |
+
 Verified 2026-08-08 by extracting the running header from every page of all six
 chunk files: 479 of ~481 headers agree on an offset of exactly 30.
 
@@ -33,15 +45,14 @@ error message.
 Spot-verified against chapter openers: Ch 4 opener is printed 68 / PDF 98;
 Ch 15 opener is printed 386 / PDF 416. Both exactly +30.
 
-## Coverage — the Ch 15–17 question is closed
+## Coverage — exact §54 scope
 
 The captured chunks hold **PDF pp. 1–600 = printed pp. −29 to 570**, which covers
 **Chapters 1 through 21** complete.
 
-**Every chapter on the active Fall path (1–13, 15–17) is fully on disk.**
-Chapter 17, the Test 4 material, runs printed 450–481 / PDF 480–511 — well inside
-chunk 6. The open risk carried in [[semester-pathway]] and [[current-position]]
-is resolved; no sourcing action is needed.
+**Every chapter on the active Fall path (Ch 1–12, Ch 15, and §§16.1–16.3) is
+fully on disk.** Chapters 13, 14, 17, and 38 remain durable reference material,
+but the exact Fall 2026 §54 syllabus does not assign them.
 
 The gap at PDF 601–1200 is Chapters 22–37 — thermodynamics, electricity and
 magnetism, optics. Physics II material, correctly excluded. `1201-1300-part-2`
@@ -68,41 +79,26 @@ they are exact enough to open the right page and land on the right chapter.
 | 10 | Rotation of a Rigid Object | 248–283 | 278–313 | `0201-0300` → `0301-0400` |
 | 11 | Angular Momentum | 284–311 | 314–341 | `0301-0400` |
 | 12 | Static Equilibrium and Elasticity | 312–331 | 342–361 | `0301-0400` |
-| 13 | Universal Gravitation | 332–357 | 362–387 | `0301-0400` |
+| 13 | Universal Gravitation *(off active path)* | 332–357 | 362–387 | `0301-0400` |
 | 14 | Fluid Mechanics *(off active path)* | 358–385 | 388–415 | `0301-0400` → `0401-0500` |
 | 15 | Oscillatory Motion | 386–413 | 416–443 | `0401-0500` |
-| 16 | Wave Motion | 414–449 | 444–479 | `0401-0500` |
-| 17 | Superposition and Standing Waves | 450–481 | 480–511 | `0401-0500` → `0501-0600` |
+| 16 | Wave Motion *(§§16.1–16.3 active only)* | 414–449 | 444–479 | `0401-0500` |
+| 17 | Superposition and Standing Waves *(off active path)* | 450–481 | 480–511 | `0401-0500` → `0501-0600` |
 | 18 | Temperature *(Physics II)* | 482–501 | 512–531 | `0501-0600` |
 
 File names are `Physics book-<range>.pdf` in `raw/textbook/`.
 
 ### Chapters that span two files
 
-Four active-path chapters cross a chunk boundary — 4, 7, 10, and 17. Opening the
-chapter start and reading forward will run off the end of the file. Ch 17 is the
-one that matters most: it is Test 4 material and the split falls at PDF 500, mid
-chapter.
+Three active-path chapters cross a chunk boundary — 4, 7, and 10. Opening the
+chapter start and reading forward will run off the end of the file.
 
 ## Semester mapping
 
-Pairing with [[semester-pathway]]'s one-week-ahead schedule:
-
-| Study window | Chapters | Printed | PDF |
-|---|---|---|---|
-| Aug 24–30 | 3, 4 | 52–93 | 82–123 |
-| Aug 31–Sep 6 | 5 | 94–125 | 124–155 |
-| Sep 7–13 | 5–6 | 94–149 | 124–179 |
-| Sep 14–20 | 13, 6 | 332–357, 126–149 | 362–387, 156–179 |
-| Sep 21–27 | 6, 7 | 126–179 | 156–209 |
-| Sep 28–Oct 4 | 7, 8 | 150–209 | 180–239 |
-| Oct 5–11 | 9 | 210–247 | 240–277 |
-| Oct 12–18 | 10 | 248–283 | 278–313 |
-| Oct 19–25 | 10, 11 | 248–311 | 278–341 |
-| Oct 26–Nov 1 | 11, 12 | 284–331 | 314–361 |
-| Nov 2–8 | 15 | 386–413 | 416–443 |
-| Nov 9–15 | 16 | 414–449 | 444–479 |
-| Nov 16–22 | 17 | 450–481 | 480–511 |
+The exact lecture-by-lecture sections, printed pages, and **local split-file
+viewer pages** live in [[phys-2211-17-week-math-first-plan#Exact lecture reading
+schedule]]. That table supersedes the earlier neighbor-section estimate that
+appeared here.
 
 ## How this was verified
 
@@ -112,4 +108,5 @@ and title, so the map is read off the book itself rather than inferred from
 chapter-length averages. Method and the two spot checks are reproducible; nothing
 here is estimated.
 
-Related: [[source-map]] · [[semester-pathway]] · [[current-position]]
+Related: [[source-map]] · [[semester-pathway]] ·
+[[phys-2211-17-week-math-first-plan]] · [[current-position]]

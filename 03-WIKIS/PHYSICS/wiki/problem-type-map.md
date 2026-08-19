@@ -56,10 +56,10 @@ when its granular problem-recognizer pages have not yet been built.
 | Stage | Recognition families | Route |
 |---|---|---|
 | 2 | constant velocity, constant acceleration, free fall, motion graphs | [[problem-types/constant-velocity]], [[problem-types/constant-acceleration]], [[problem-types/free-fall]], [[problem-types/motion-graphs]] |
-| 6 | horizontal/vertical/non-uniform circular motion; drag and terminal speed | [[problem-types/circular-motion-horizontal]], [[problem-types/circular-motion-vertical]], [[problem-types/nonuniform-circular-motion]], [[stages/stage-6-circular-motion]] |
-| 7 | work by constant/varying forces, work-energy, springs | [[problem-types/work-constant-force]], [[problem-types/work-energy-theorem]], [[problem-types/spring-work-energy]] |
-| 8 | energy with/without nonconservative forces; power | [[problem-types/energy-conservation-no-friction]], [[problem-types/energy-with-friction]], [[problem-types/power-problems]] |
-| 9 | impulse; perfectly inelastic, elastic, and 2-D collisions | [[problem-types/impulse-problems]], [[problem-types/perfectly-inelastic-collision]], [[problem-types/elastic-collision-1d]], [[problem-types/collision-2d]] |
+| 6 | horizontal/vertical/non-uniform circular motion; drag and terminal speed | [[problem-types/horizontal-circular-motion]], [[problem-types/vertical-circular-motion]], [[problem-types/nonuniform-circular-motion]], [[stages/stage-6-circular-motion]] |
+| 7 | work by constant/varying forces, work-energy, springs | [[problem-types/work-calculation]], [[problem-types/work-energy-theorem-problems]], [[problem-types/spring-energy-problems]] |
+| 8 | energy with/without nonconservative forces; power | [[problem-types/energy-conservation-no-friction]], [[problem-types/energy-conservation-with-friction]], [[problem-types/power-problems]] |
+| 9 | impulse; perfectly inelastic, elastic, and 2-D collisions | [[problem-types/impulse-problems]], [[problem-types/perfectly-inelastic-collision]], [[problem-types/elastic-collision]], [[problem-types/2d-collision]] |
 | 10 | angular kinematics, torque, rotational energy, rolling | [[stages/stage-10-rotation]] |
 | 11 | angular-momentum conservation | [[problem-types/angular-momentum-conservation]] |
 | 12 | static equilibrium and beam support | [[problem-types/static-equilibrium-beam]] |

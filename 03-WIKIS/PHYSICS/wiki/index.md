@@ -26,6 +26,9 @@ PHYS 2211 — Principles of Physics I, Kennesaw State University, Fall 2026.
 ## Core Maps
 
 - [[learning-path]] — staged study route
+- [[phys-2211-17-week-math-first-plan]] — exact daily readings and 17-week execution plan
+- [[semester-pathway]] — exact §54 dates, assessments, and one-week-ahead alignment
+- [[textbook-page-map]] — printed, global PDF, and split-file local page routing
 - [[pacing-trigger-map]] — when to read what: real semester dates + mastery/exam triggers
 - [[source-map]] — source roles and alignment
 - [[syllabus-coverage-ledger]] — all 19 syllabus pages routed to stages or governance
@@ -48,11 +51,10 @@ PHYS 2211 — Principles of Physics I, Kennesaw State University, Fall 2026.
 packets exist, but [[learning-path]] now distinguishes source-verified packets,
 TOC-screened packets, known expansion gaps, and mastery evidence.
 
-**Next exact rep:** on July 26, read Ch 4 §4.1–4.2 (book pp. 68–74), write
-the four component-motion equations from memory, then complete
-[[drills/projectile-motion-drill]] Problems 1–2. The complete July 26–August
-1 sequence is in [[current-position#Seven-Day Plan — July 26 through August
-1, 2026]].
+**Next exact rep:** read §§6.1–6.2 (printed pp. 128–134;
+`0101-0200` local PDF pp. 58–64), then complete
+[[drills/circular-motion-drill]] Problems 1–4 cold. See
+[[phys-2211-17-week-math-first-plan#Start now — August 19–23]].
 
 **Recall decks:** `04-SCHOOL\02-Physics I\Flash Cards\Physics_All_Stages.apkg`
 — one Anki package, `Physics` parent deck with a subdeck per stage (all 18,

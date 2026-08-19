@@ -6,17 +6,23 @@ status: draft
 
 # Unit/Stage 15 — Oscillatory Motion / Simple Harmonic Motion (Ch 15)
 
+> **Exact §54 scope:** §§15.1–15.3 and 15.5–15.7 are required and assessed on
+> Unit Exam 4 (Nov 18). Damped and forced oscillations (§§15.6–15.7) are course
+> core, not optional final-exam enrichment.
+
 ## Goal
 
-Recognize and solve simple harmonic motion problems using the spring-mass and pendulum models; understand the energy of an oscillator.
+Recognize and solve SHM using spring-mass and pendulum models; understand
+oscillator energy; and interpret damping, driving, and resonance.
 
 ## Syllabus Alignment
 
-Ch 15, lectures following Stage 14 (approximate: Nov / early Dec 2026). The syllabus mentions "simple harmonic motion, oscillations."
+Ch 15 is taught Nov 11, 13, and 16 and assessed on Unit Exam 4 on Nov 18.
 
 ## Textbook Alignment
 
-Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., Chapter 15, sections 15.1–15.5.
+Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., §§15.1–15.3
+and §§15.5–15.7.
 
 ## Prerequisite Physics
 
@@ -127,4 +133,5 @@ Chris can write x(t) for a spring-mass system from initial conditions, calculate
 
 ## Parked for Later
 
-Damped oscillations (b-drag term in the equation of motion) and forced oscillations/resonance are covered in section 15.6–15.7 and may appear on the final exam. Park until basic SHM is mastered. Coupled oscillators are beyond PHYS 2211 scope.
+Coupled oscillators are beyond the exact §54 scope. Damping, forcing, and
+resonance are **not parked**: learn them after basic SHM and before Unit Exam 4.

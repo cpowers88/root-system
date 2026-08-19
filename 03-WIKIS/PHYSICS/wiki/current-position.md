@@ -242,10 +242,9 @@ Stage 4 instead of running a detached calculus review.
   2026-07-25. Its concepts, examples, drills, reading order, and cold entry
   check are prepared. Ready to activate after the Stage 4 gate; readiness is
   not mastery.
-- **Syllabus-controlled next turn:** after Stage 5, use the Farhan path rather
-  than ascending textbook order. Open Stage 13's gravitational-force and
-  inverse-square foundation before Stage 6; defer orbital applications that
-  require circular motion or energy until Stages 6-8 provide those tools.
+- **Syllabus-controlled next turn:** after Stage 5, open Stage 6. The exact §54
+  syllabus excludes Chapter 13; its gravitational material remains reference
+  only and must not displace assessed work.
 - **Stages 6–18** — textbook tables of contents were screened 2026-07-15 and the
   readiness/gap classification is now in [[learning-path#Semester Pathway Control Table]].
   Packet-level expansion remains just in time: Stage 6 needs accelerated frames;

@@ -15,10 +15,11 @@ This file tracks every source and what role it plays.
 
 - **Course:** PHYS 2211 — Principles of Physics I (Kennesaw State University)
 - **Registered course:** Fall 2026, Section 54 (83722)
-- **Likely instructor:** Farhan Islam (`fislam7@kennesaw.edu`), based on
-  Chris's registration paperwork; exact-section syllabus still unavailable
+- **Confirmed instructor:** Farhan Islam (`fislam7@kennesaw.edu`); exact §54
+  syllabus obtained 2026-08-18 at `raw/syllabus/Syllabus.pdf`
 - **Course type:** Calculus-based introductory mechanics
-- **Course scope (from syllabus):** Newton's laws, conservation of energy and momentum, kinematics and dynamics, law of universal gravitation, falling/orbital objects, simple harmonic motion, oscillations, waves, and basic special relativity.
+- **Exact Fall 2026 scope:** Chapters 1–12, Chapter 15, and §§16.1–16.3.
+  Chapters 13, 14, 17, and 38 are library reference, not active course work.
 - **Required math:** Algebra, trigonometry, and calculus — "without exception."
 
 ## AI Usage Policy (from syllabus — binding)
@@ -145,14 +146,14 @@ begins on physical page 32 of the first file).
 | 10 | Rotation of a Rigid Object About a Fixed Axis | Yes — Stage 10 | spine | Confirmed in scope (Chris, 2026-06-25). File 0201-0300/0301-0400; at textbook p. 271 in file 0301-0400 p. 1. |
 | 11 | Angular Momentum | Yes — Stage 11 | spine | Confirmed in scope (Chris, 2026-06-25). File 0301-0400. |
 | 12 | Static Equilibrium and Elasticity | Yes — Stage 12 | spine | Confirmed in scope (Chris, 2026-06-25). File 0301-0400. |
-| 13 | Universal Gravitation | Yes — Stage 13 | spine | Matches "law of universal gravitation... falling objects and orbital motion." File 0301-0400. |
-| 14 | Fluid Mechanics | Yes — Stage 14 | spine | Confirmed in scope (Chris, 2026-06-25). File 0301-0400/0401-0500; at textbook p. 371 in file 0401-0500 p. 1. |
+| 13 | Universal Gravitation | No — reference | spine | Exact §54 schedule does not assign Ch 13. |
+| 14 | Fluid Mechanics | No — reference | spine | Exact §54 schedule does not assign Ch 14. |
 | 15 | Oscillatory Motion | Yes — Stage 15 | spine | Matches "simple harmonic motion, oscillations." File 0401-0500. |
-| 16 | Wave Motion | Yes — Stage 16 | spine | Matches "waves." File 0401-0500/0501-0600. |
-| 17 | Superposition and Standing Waves | Yes — Stage 17 | spine | Matches "waves." File 0501-0600, at textbook p. 471+. |
+| 16 | Wave Motion | Yes — §§16.1–16.3 only | spine | Wave propagation and speed; later sections are reference. |
+| 17 | Superposition and Standing Waves | No — reference | spine | Exact §54 schedule does not assign Ch 17. |
 | 18-21 | Thermodynamics (Part 3) | No | out of scope | Not mentioned in syllabus. |
 | 22-37 | Electricity, Magnetism, Optics (Part 4) | No | out of scope | Covered in PHYS 2212, not 2211. |
-| 38 | Relativity | Yes — Stage 18 (capstone) | spine | Matches "basic ideas of special relativity." File 0501-0600. |
+| 38 | Relativity | No — reference | spine | Exact §54 schedule does not assign Ch 38. |
 | 39+ | Quantum/Modern Physics | No | out of scope | Not mentioned in syllabus. |
 
 ## Source Roles

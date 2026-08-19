@@ -165,7 +165,7 @@ cross-course view. This page is a planning instrument, not an authority.
 ### Defects found in the Section 54 syllabus — checked line by line 2026-08-18
 
 The real syllabus is far cleaner than the neighbour captures, but it is not perfect.
-Four items, none of which break the schedule:
+Five items, none of which break the schedule:
 
 | # | Defect | Reading | Confidence |
 |---|---|---|---|
@@ -173,6 +173,7 @@ Four items, none of which break the schedule:
 | 2 | **The four unit exams are printed at 10:20–11:15 AM**, the recitation slot for sections 51/52/53 — **not Chris's §54 slot** (Fri 11:30–12:25). The dates land Mon, Mon, Wed, Wed, so it is not any single section's recitation either | **Unresolved. Confirm the room and time for his own sitting on day one.** No timetable conflict either way — Mon/Wed 10:20–11:15 is free in his schedule — but it falls outside his registered meeting times | **Ask** |
 | 3 | **The Email Policy paragraph directs questions to `kpemasir@kennesaw.edu`**, while the Instructor Information block gives `fislam7@kennesaw.edu` | **Use `fislam7@`.** The instructor block is the per-instructor field; the policy paragraph is boilerplate carried from another section. It is also the address Chris used on Aug 17 | High |
 | 4 | Nov 2 reading prints "11.2 – 1.4" | Read as **11.2–11.4** | Certain |
+| 5 | Sep 4 topic says projectile motion plus uniform circular motion, but the suggested reading starts at §4.4 and omits §4.3 *Projectile Motion* | Read **§§4.3–4.5** so the reading matches the named topic | High — textbook TOC and lecture topic agree |
 
 Unlike the neighbour capture, **nothing past Week 8 is scrambled. The whole 15-week
 table is internally consistent and can be trusted.**
@@ -341,7 +342,7 @@ place in the semester to lose points to something that is not physics.
 
 [[current-position]] · [[calculus-map]] · [[math-readiness-path]] ·
 [[syllabus-coverage-ledger]] · [[learning-path]] · [[pacing-trigger-map]] ·
-[[textbook-page-map]]
+[[textbook-page-map]] · [[phys-2211-17-week-math-first-plan]]
 
 ---
 
