@@ -79,6 +79,13 @@ the answer back and recover `a(t)`). **Watch on row 4. Do not re-explain it.**
 *PHYS §54's binding-syllabus line cleared 2026-08-19 — shown in the Aug 18 brief. It is now
 ordinary standing truth in `PHYSICS\wiki\semester-pathway.md` and `04-SCHOOL\SEMESTER_MAP.md`.*
 
+- **🏰 CASTLE repaired 2026-08-19 (flag #103, Chris-ratified, Codex-seconded).**
+  `CASTLE\wiki\current-position.md` is now the **single home of capability state**;
+  `castle_freshness.py` gates cockpit staleness in every morning brief; Phase 0 closed,
+  Phase 1 flips active at the Aug 23 review — where #103's close check runs alongside
+  #102's. **Test week is now:** the cockpit is trusted again from this line forward;
+  report any CASTLE fact that reads stale rather than working around it.
+
 - **📄 EDUCATION's last TCOM gap closed — the semester is now fully dated except ENGR.**
   Weeks 6–14 extracted and dated; the conversion is *verified* (14 syllabus weeks ↔ 14 Tue/Thu
   pairs, Aug 25 → Dec 3, break removed). **TCOM has no final exam and ends Thu Dec 3** — with

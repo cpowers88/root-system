@@ -16,7 +16,7 @@ review_trigger: 2026-08-01
 |---|---|
 | outcome | Develop independently usable systems, programming, data, AI, automation, and business-analysis capability that can diagnose a real workflow, build the smallest justified response, and prove whether it created value. |
 | why_now | The North Star requires rare integration capability, while Fall 2026 creates immediate CSE, Physics, communication, economics, and engineering practice. Capability must move from generated knowledge to independent use. |
-| owner | Learner truth: owning wikis; build evidence: owning projects; cross-domain priority and proof status: CASTLE. |
+| owner | Learner truth: owning wikis; build evidence: owning projects; cross-domain weak-link priority: this file's ranking; capability state and proof status: `00-BRAIN\CASTLE\wiki\current-position.md` — the single state home (ruled 2026-08-19, flag #103). |
 | proof | Independent performance in the owning domain plus at least one integrated proof used on a real or faithfully bounded workflow. Generated notes, plans, or code without independent explanation and use do not count. |
 | review_trigger | Monthly weak-link review; semester checkpoints; completion or failure of an integrated proof. |
 | status | active |

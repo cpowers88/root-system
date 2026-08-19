@@ -31,9 +31,9 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 
 - [[README]] — wiki entry router
 - [[north-star-roadmap]] — long-range sequence
-- [[current-position]] — monthly baseline and proof state
-- [[phase-map]] — phase structure and exit logic
-- [[skill-map]] — capability and proof structure
+- [[current-position]] — monthly baseline and **the single home of cross-domain capability state** (ruled 2026-08-19, flag #103)
+- [[phase-map]] — phase structure and exit logic (Phase 0 closed 2026-08-19)
+- [[skill-map]] — capability horizons and activation criteria; holds no state
 - [[source-map]] — roadmap-shaping evidence
 - [[opportunity-queue]] — opportunities moving from evidence to test or harvest
 - [[root-architecture-evidence-refinery-2026-07-24]] — superseded interim hypothesis register produced before the full eight-source intake; retained for traceability, not implementation authority

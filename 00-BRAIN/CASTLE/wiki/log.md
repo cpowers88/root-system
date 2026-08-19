@@ -1695,3 +1695,74 @@ remain open, not urgent tonight.
   the degree; confirm scholarship, aid, and prerequisite consequences before
   changing registration. The self-directed path remains a small proof lane, not
   a second full-time curriculum.
+
+## 2026-08-16 — Week D re-anchored on the Week 1 assignment track (Claude, Chris-directed) *(backfilled 2026-08-19)*
+
+- The Aug 17–23 plan was rewritten Sunday night: its premise ("Week C's miss log
+  is the input") was false — Aug 14–15 never ran and no miss log exists anywhere
+  in the vault. Re-anchored on `SEMESTER_MAP.md`'s Week 1 table per Chris's
+  Friday "week 1 done early" ruling. PHYS moved to its own proof-gated queue
+  (its Week 1 unknown); ENGR explicitly zeroed; the teaching-layer test folded
+  into real coursework instead of separate ceremony.
+- *Backfill note:* this entry was written 12 days late. The log went silent on
+  Aug 7 — the day the ROOT V2 review opened — because the Aug 7–17 review
+  sequence displaced CASTLE without any return trigger. See flag #103 and the
+  2026-08-19 entry below.
+
+## 2026-08-17 — OK TO START: pause lifted, cockpit rewritten (Claude + Codex, Chris-ruled) *(backfilled 2026-08-19)*
+
+- Chris gave `OK TO START`. The 2026-08-12 pause and 2026-08-13 finding freeze
+  ended; Execution Discipline 1 resumed in full. Findings N4/N5/N6 closed the
+  same day: `NOW.md` rewritten 5,341 → 662 words (update-era cockpit archived
+  whole), `current-position.md`'s two learner rows corrected against owner
+  truth, flag #57 escalated by direct instructor email.
+- `UPDATE_PLAN.md` became historical record, not a live queue.
+
+## 2026-08-19 — Flag #103: ownership loop broken, cockpit repaired, freshness gate shipped (Claude lead, Codex second opinion, Chris-ratified)
+
+- **Decision (Chris):** `current-position.md` is the **single home of cross-domain
+  capability state**. skill-map holds horizons/activation only (its state table
+  retired); `capability_development_goal.md` holds the weak-link ranking only.
+  The `:49` "skill-map is live truth" line — added 2026-07-19 as an "optional
+  polish," hours after the same review prescribed *gates + pointers, no copied
+  state* — is deleted. Codex and Claude converged on this independently.
+- **Root cause recorded:** three files each named another as authority, so none
+  was maintained (maps froze Jul 19–24, measured 3 weeks wrong on Python); the
+  weekly/monthly review cadence died Aug 7 when the V2→Tree→Council→Update
+  sequence displaced CASTLE with no return trigger; no instrument measured
+  slow-layer staleness. All three repaired, not just the first.
+- **Shipped:** `castle_freshness.py` + 10 passing tests, wired into
+  `run_morning_brief.ps1` (4 deterministic checks; verified firing on simulated
+  future dates); due-checks section into the weekly-plan template;
+  `session-close` step 3 now names CASTLE; **return-to-cockpit gate** added to
+  `OPERATIONS.md` § Session Close (item 7) with log discipline (decisions, not
+  sessions) and the semester maintenance budget (~15–30 min Sunday + one
+  monthly session).
+- **State repairs:** Phase 0 closed on work that happened (D2L criterion moved
+  to Phase 1; the never-run "Aug 1 review" superseded by the Jul 25 early close
+  + Aug 11 Council); Phase 1 flips active at the Aug 23 review; all six
+  opportunity-queue rows re-dated to Aug 23/Aug 30 (no status changed).
+- **Remaining to close #103:** the full monthly reconciliation of
+  `current-position.md` at the Aug 23 review, then `castle_freshness.py`
+  passing against the reconciled cockpit. Reports:
+  `claude_report_2026-08-19_castle_repair_and_root_optimization.md` and the
+  challenge packet beside it.
+
+## 2026-08-19 — CASTLE system review and reinstall decision (Codex challenger)
+
+- **Review result:** the flag #103 ownership-collapse diagnosis survives independent review.
+  Live evidence shows `skill-map.md`'s designated capability register still says Python
+  Stage 4 although the PYTHON owner closed it July 29 and moved to Stage 4b.
+- **Ownership recommendation:** `current-position.md` owns capability state;
+  `capability_development_goal.md` owns weak-link ranking; `skill-map.md` owns horizon and
+  activation criteria. Implementation is a governance change and waits on Chris's ruling.
+- **Reinstall verdict:** **REJECT.** No-orphan PASS; source/effectiveness FAIL; phase PASS;
+  displacement FAIL; proof FAIL. Reinstalling unchanged files preserves the authority loop
+  and consumes the pre-semester runway. Use bounded repair plus fresh-session acceptance tests.
+- **Health evidence:** canonical gate returned **PASS WITH DEBT**, not clean: zero blockers,
+  one reviewed navigation item. It explicitly does not evaluate semantic freshness, cadence,
+  or ownership routing.
+- **Additional finding:** `SYSTEM_FLAGS.md` points to #103 forensics in
+  `SYSTEM_FLAGS_DETAIL.md`, but the detail file contains no #103 entry.
+- **Next:** Chris ratifies the ownership ruling; then repair #103, reconcile overdue phase and
+  opportunity triggers, and test CASTLE loading and return-path behavior in a fresh session.

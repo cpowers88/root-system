@@ -1,15 +1,32 @@
 ---
 type: phase
-timeline: now
+timeline: log
 stage: phase-0
-status: active
+status: complete
 tags: [phase]
+closed: 2026-08-19
 ---
 
-# Phase 0 — Current Position & Baseline
+# Phase 0 — Current Position & Baseline — CLOSED 2026-08-19
 
 **Window**: July 2026
 **One-line purpose**: Know exactly where the start line is, and ship the first proof project.
+
+> **Closure record (Chris-approved 2026-08-19, flag #103 repair).** Closed 19 days
+> after its window on work that genuinely happened, not on a waiver:
+>
+> - Baseline, CASTLE maps, and the shipped tracker closed in July (criteria 1–3 below).
+> - The "August 1 monthly review" criterion pointed at an event that never existed:
+>   July's monthly was an explicit **early close on Jul 25** whose "next packet" was
+>   never written. The weak-link work it asked for was done anyway —
+>   `capability_development_goal.md` (Jul 24, 6-rank table) and the four-seat Council
+>   review (Aug 11). Recorded as **superseded by those two artifacts**.
+> - The "verified Fall 2026 course data" criterion is **moved to Phase 1**, which
+>   already owns the same outcome in two of its own exit criteria — it was misfiled
+>   here one phase early; D2L cannot populate before Aug 24, inside Phase 1's window.
+>
+> Why it sat open: no review read this page between Jul 25 and Aug 19 — the cadence
+> failure recorded in flag #103, not missing work.
 
 ## Purpose
 Establish a written, honest baseline of skills, assets, and gaps — and move the

@@ -14,8 +14,21 @@ $instructionPath = Join-Path $rootPath "00-BRAIN\MORNING_LAUNCH_INSTRUCTIONS.md"
 $outputPath = Join-Path $rootPath "MORNING_BRIEF.md"
 $claudePath = (Get-Command claude.exe -ErrorAction Stop).Source
 
+# Flag #103 (2026-08-19): deterministic CASTLE staleness gate. Its result is
+# placed in front of the generator as a MUST, so a rotting cockpit surfaces in
+# the ATTENTION line the same morning instead of being noticed by accident a
+# month later. A script failure is reported, never silently treated as PASS.
+$freshnessPath = Join-Path $PSScriptRoot "castle_freshness.py"
+try {
+    $freshnessLine = (& python $freshnessPath --brief --root $rootPath 2>&1 | Out-String).Trim()
+    if ([string]::IsNullOrWhiteSpace($freshnessLine)) { $freshnessLine = "CASTLE freshness: check produced no output (treat as a finding)" }
+} catch {
+    $freshnessLine = "CASTLE freshness: check failed to run (treat as a finding)"
+}
+
 $prompt = @"
 Follow the live instruction file at $instructionPath using read-only inspection of $rootPath.
+Deterministic gate result, already computed: "$freshnessLine". If it reports findings, the ATTENTION line MUST name the CASTLE staleness and its owner file before any other candidate; if it reports PASS, ignore it.
 Return only the complete Markdown for $outputPath, including valid frontmatter with a `generated:` date of today, an H1 naming today's date and weekday, and the three required lines.
 Write exactly three lines - **ATTENTION**, **START**, and **CHRIS** - each one sentence of no more than 35 words, each naming its exact owner file.
 Once the semester has begun (from 2026-08-24), the START line must reflect the current week of 04-SCHOOL\semester-workload-plan.md.

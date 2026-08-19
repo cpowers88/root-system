@@ -8,8 +8,8 @@ tags: []
 
 # Morning Brief — Wednesday, August 19, 2026
 
-**ATTENTION** TCOM is now dated through Dec 3 and has no final exam; its four ungraded report checkpoints begin Oct 13 (`04-SCHOOL/SEMESTER_MAP.md`).
+**ATTENTION** CASTLE flag #103 is HIGH: circular capability ownership has left its live register stale for 21 days (`00-BRAIN/SYSTEM_FLAGS.md`).
 
 **START** Run the PHYS math row 3 durability check cold — its 48 h floor lands ~midday and it is the last rep before Stage 4 closes (`NOW.md`).
 
-**CHRIS** None before start — four low-urgency items wait (TCOM report topic, path-audit cluster home, Week D ratification, Aug 28 opt-out) per `NOW.md` § Needs Chris.
+**CHRIS** Ratify `CASTLE/wiki/current-position.md` as sole capability-state owner; keep `capability_development_goal.md` for weak-link ranking and `skill-map.md` for horizon/activation only.

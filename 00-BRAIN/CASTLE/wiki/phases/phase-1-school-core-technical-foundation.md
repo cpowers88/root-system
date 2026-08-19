@@ -11,7 +11,10 @@ tags: [phase]
 **Window**: August 24, 2026 – May 2027 (Fall + Spring semesters)
 **One-line purpose**: Pass the first KSU year strong while Python and SQL become working daily tools.
 
-> **Metadata note:** preparation is current (`timeline: now`); the formal phase remains `status: planned` until its August 24 window opens.
+> **Metadata note:** preparation is current (`timeline: now`); the formal phase remains
+> `status: planned` until its August 24 window opens. **Flip to `status: active` at the
+> Aug 23 pre-semester review** (Phase 0 closed 2026-08-19; `castle_freshness.py` will
+> flag this page if the window opens with the flip unmade).
 
 ## Purpose
 School is the fixed spine. Fall 2026: ECON 1000, ENGR 1000, PHYS 2211, CSE 1321+L,
@@ -56,6 +59,9 @@ method without bluffing.
   selects it as the smallest useful proof vehicle
 
 ## Exit Criteria
+- [ ] Verified Fall 2026 course data entered into the tracker when D2L populates
+      (Aug 24+) — *moved here from Phase 0 on 2026-08-19; it was misfiled one phase
+      early and belongs with the two tracker criteria below*
 - [ ] Fall 2026 completed, Bs acceptable / As preferred, no course failed
 - [ ] High-load window (Oct 5 – Nov 11) managed without missed school commitments; optional work was deliberately scoped
 - [ ] Tracker used through the whole semester (not abandoned by week 4)

@@ -178,5 +178,26 @@ When meaningful work ends:
    override this one specific case.
 5. Record the next exact action.
 6. Write a full handoff only when another session genuinely needs continuity.
+7. **Return-to-cockpit gate (added 2026-08-19, flag #103 — Chris-approved).** A
+   session or multi-day sequence whose primary work was a system review, update,
+   or architecture pass is not closed until: `NOW.md`'s Active Lane is re-verified
+   against CASTLE owner truth, and one line in `wiki\log.md` records that the
+   review ended and control returned to the cockpit. A multi-day update names this
+   gate in its `SESSION_INDEX.md` as an explicit final step. **Why:** the Aug 7–17
+   review sequence displaced CASTLE without anything retiring or rejecting it —
+   nothing said "the review is finished; reload CASTLE." The cockpit log went
+   silent the day the first review opened. `castle_freshness.py` detects the
+   symptom (log silence against CASTLE-touching commits); this gate closes the
+   cause.
+
+**Log discipline (ruled by Chris 2026-08-19):** `wiki\log.md` records *decisions* —
+gates run, plans converted or re-anchored, protocol changes, opportunity movements,
+phase transitions — not session narration. Routine maintenance stays in the DAILY.
+
+**Semester maintenance budget (added 2026-08-19):** during a semester, scheduled
+CASTLE work is the Sunday due-checks return (~15–30 min, template-enforced) plus one
+monthly reconciliation session. Nothing else is scheduled. Per [[phase-map]]'s own
+guardrail, if CASTLE maintenance displaces learning, the maintenance scope is what
+shrinks.
 
 Generated plans and polished artifacts are not proof. Close on verified movement, an explicit decision, or an honestly stated blocker.

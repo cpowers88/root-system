@@ -17,6 +17,27 @@ with `timeline: log` and `status: complete` at the next Sunday review — do not
 delete it; a closed plan next to its Weekly Review is the plan-vs-actual
 evidence.
 
+## Due Checks This Week — fill this in FIRST, before any planning is written
+
+Required by `CASTLE\OPERATIONS.md` § Reviews and Routing (this section added to the
+template 2026-08-19, flag #103 — the rule existed in prose while the file Sundays
+actually copy never carried it, and the checks silently stopped running).
+
+1. **`check_at` / review dates due this week**, with owner — include every
+   `opportunity-queue.md` row at or past its review date, every open flag with a
+   check moment this week, and any phase page whose window opens or closes.
+2. **Learner-hub alignment (approval gate):** current stage and plan for PHYSICS,
+   PYTHON, and EDUCATION, stated from each hub's own `wiki\` owner files, for
+   Chris's explicit approval. Silence is not approval.
+3. **Instruction-protocol confirmation (approval gate):** the live boot chain and
+   `AGENT.md § Execution Discipline` are what all parties are operating under.
+4. **DAILY rotation:** if last week's WEEKLY report is filed, rotate its DAILY files
+   to the Report Archive.
+
+| Due item | Owner | Disposition |
+|---|---|---|
+| | | |
+
 ## Main Weekly Goal
 
 One sentence. Pulled from the prior Sunday's Weekly Review "Next Week"

@@ -7,6 +7,12 @@ tags: [baseline]
 
 # Current Position — July 2026 Monthly Baseline
 
+> **📍 Single state home as of 2026-08-19 (flag #103).** This file is now the only home
+> of cross-domain capability state. The full monthly reconciliation of every row below
+> remains due at the **Aug 23 pre-semester review**; until then, rows other than the two
+> learner rows carry July 19 assessments. `castle_freshness.py` now measures this file's
+> staleness mechanically.
+
 > **⚠ Partially reconciled 2026-08-17 (finding N4), not fully re-run.** The two learner
 > rows below were corrected against owner truth because they contradicted `NOW.md`, which
 > names this file the owner of sequence and proof status — the cockpit was pointing at a
@@ -45,8 +51,13 @@ tags: [baseline]
 | Advisor-Builder strategy | active hypothesis | Live workflow observation, qualified conversations, willingness to pay, and measured outcomes | CURRENT_STRATEGY.md + BUSINESS evidence |
 | Financial continuity | material constraint | Only approved evidence tests; no copied lane mechanics here | REVENUE_LAB + NOW.md |
 
-Temporary sprint pauses and exact drill positions do not change these monthly states.
-If states diverge mid-month, [[skill-map]]'s register is live truth; this table is the monthly snapshot.
+**This table is the single home of cross-domain capability state (ruled by Chris
+2026-08-19, closing flag #103's ownership loop).** [[skill-map]] holds horizons and
+activation criteria only; `capability_development_goal.md` holds the weak-link *ranking*
+only; neither carries state. Temporary sprint pauses and exact drill positions do not
+change these monthly states. Any hub fact quoted here carries its as-of date and owner
+link — cite stage numbers, never restate them bare (the 2026-07-19 rule: gates +
+pointers, no copied state).
 
 ## July Weak Links
 

@@ -5,9 +5,9 @@ reference_priority: core
 tags: [skills, roadmap]
 ---
 
-# Skill Map — Eight Capability Categories, One Active Register
+# Skill Map — Eight Capability Categories, Horizons and Activation
 
-### Updated: July 19, 2026 — single-home status and proof alignment
+### Updated: August 19, 2026 — state moved to its single home, closing flag #103. Previous: July 19, 2026
 
 ## How to Read This
 
@@ -17,28 +17,28 @@ Capability depth uses a separate proof ladder:
 
 explain → guided build → independent build → integration → real workflow → client outcome → reusable asset
 
-The active register is the only home of current capability state. Category tables show the horizon and mark activated capabilities with “→ register” instead of duplicating status.
+**Current capability state lives in one place: [[current-position]]'s Capability and
+Proof Frontier table (ruled 2026-08-19, flag #103).** This map holds the horizon —
+what could activate and what proof activates it. Category tables mark activated
+capabilities with "→ register", which points at [[current-position]], never at a
+table here.
+
+*(This file's register table previously carried live state and claimed to be its only
+home while `current-position.md` simultaneously claimed this file as live truth — a
+loop in which neither was maintained; it froze on July 19 and was measured three weeks
+stale on Python. The table was retired to [[current-position]] on 2026-08-19, where
+the read path and the authority path are the same file.)*
 
 ## Working Output
 
 When Chris asks what to work on, return the owning system, one capacity-sized next rep, the proof artifact, and the result's return path. Chris chooses timing and work order outside fixed commitments.
 
-## Active Capability Register
+## Active Capability Register — moved
 
-An active capability lives in this register only. The eight category tables hold horizon capabilities — statuses not-started and later — and mark an activated row with “→ register” instead of carrying a duplicate status.
-
-| Capability | State | Owner | Next real rep | Proof that moves state | Enabled outcome / likely value path |
-|---|---|---|---|---|---|
-| Field observation | building | BUSINESS method + 05-BUSINESS\02-Field Notes | one approved live observation | recognized actual-state record; two tested live sessions → working | workflow diagnosis; academic, operational, commercial |
-| Systems and flow thinking | building | SYSTEMS wiki + coursework | apply one flow or constraint model to a real workflow | model improves a decision or finding | engineering, operations, employability |
-| Python | building — Stage 4 | PYTHON current-position | complete the cold functions baseline, then the owner-defined Stage 4 proof | independent function construction, parameter/argument/return explain-back, and debug gate | school, automation, software |
-| SQL/SQLite | building — July weak link; guided two-table fixture verified July 21 | tracker + PYTHON/technology owners | independently query or extend the Bootcamp fixture; use verified tracker data when D2L populates | correct schema and query result used in a real workflow with decreasing assistance | school, data systems, employability |
-| Git/GitHub discipline | building | active repositories | complete the next approved repository workflow | understandable history and successful recovery or review | reliable delivery and collaboration |
-| Data visualization | building — first rep verified | Technology Strategy + live proof vehicle | next justified decision-facing visual | another person can trace the calculation and act | decision support; operational, commercial |
-| Agentic delivery | working | approved projects + AI system | measure one real assisted delivery end-to-end | time/quality evidence + Chris explain-back → proven | delivery leverage and reusable methods |
-| Technology landscape | building | Technology Strategy + TECHNOLOGY wiki | one problem-led category and recommendation rep | correct category, ladder rung, constraints, and rejection logic | vendor-neutral integration judgment |
-| Recommendation Ladder | building | Technology Strategy | apply it to one observed problem | keep, simplify, buy, integrate, or build decision with evidence | cost avoidance and sound architecture |
-| Technical writing and communication | building | TCOM/EDUCATION + real artifacts | one audience-specific finding or handoff | reader can decide or operate without hidden context | school, delivery, employability, commercial |
+**The register lives in [[current-position]] § Capability and Proof Frontier.** An
+active capability appears there and only there; the eight category tables below hold
+horizon capabilities — statuses not-started and later — and mark an activated row with
+"→ register" instead of carrying a duplicate status.
 
 ## 1. Diagnostic
 
@@ -116,4 +116,7 @@ Capacity management is a North Star constraint, not a capability status. Fixed c
 
 New capability idea → search this map and [[opportunity-queue]] → run [[adding-a-profit-skill]] when it is a profit or opportunity proposal → activate only when an owner, enabled outcome, next real rep, proof, and likely value path are known.
 
-When activated, move its state into the register and leave only “→ register” in the category horizon. Do not create a second status home.
+When activated, move its state into [[current-position]]'s Capability and Proof
+Frontier table and leave only "→ register" in the category horizon. Do not create a
+second status home — this file's own history (flag #103) is the standing example of
+what a second home costs.

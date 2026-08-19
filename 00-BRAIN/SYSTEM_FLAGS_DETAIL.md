@@ -30,6 +30,90 @@ Closed flags are not here. They live in
 
 ---
 
+## Flag #103 — CASTLE capability-state ownership loop (repaired same session; 🟠 pending Aug 23)
+
+**Raised:** August 19, 2026 (morning), on a CASTLE seat review Chris directed ·
+**Priority:** 🔴 HIGH at raise (repeat rule) → 🟠 after same-session repair ·
+**Owner:** Chris confirms at the Aug 23 review · **Lead:** Claude Code; **independent
+second opinion:** Codex, converged on the same ownership ruling.
+
+### The loop, quoted
+
+- `CASTLE\wiki\skill-map.md:20` — *"The active register is the only home of current
+  capability state."*
+- `CASTLE\wiki\current-position.md:49` — *"If states diverge mid-month, [[skill-map]]'s
+  register is live truth; this table is the monthly snapshot."*
+- `current-position.md:53` — the ranking *"remains owned by capability_development_goal.md."*
+- `capability_development_goal.md:19` — *"cross-domain priority and proof status: CASTLE."*
+
+Each file named another as authority; none was anyone's job. Measured cost: skill-map's
+register read `Python — building, Stage 4` while PYTHON owner truth closed Stage 4 on
+2026-07-29 (Stage 4b since) — **21 days wrong in the file designated live truth.**
+
+### Provenance — the defect and its cure share a birthday
+
+`CASTLE_B0_B1_CLAUDE_REVIEW_2026-07-19.md` diagnosed the identical failure in
+`PRE-SEMESTER_PREP_PLAN.md` (*"depended on a weekly reconciliation that didn't happen"*),
+prescribed **"gates + pointers, no copied state"** — then, under *"one optional polish,"*
+recommended adding the `:49` line, which makes a copied-state table authoritative. The
+2026-07-24 architecture update closed the loop by creating `capability_development_goal.md`.
+All four CASTLE core maps froze at their July 19 stamps.
+
+### The displacement mechanism (Codex's finding, adopted)
+
+The maps froze Jul 19–24, but the *fast* layer (weekly plans, profit gates, log) stayed
+healthy through Aug 7 — Chris's July 28 journal note of a system "running wonderfully" was
+an accurate read of it. On Aug 7 the ROOT V2 review opened; then Tree Migration (Aug 8),
+Council (Aug 11), ROOT UPDATE + pause (Aug 12–17). Nothing retired or rejected CASTLE — the
+sequence **displaced** it, sessions edited CASTLE-owned files from outside its protocol, and
+no trigger said "the review is finished; return control to the cockpit." The CASTLE log's
+last entry and the V2 review's opening share the date: **Aug 7.**
+
+Downstream at discovery: 5 dead/missing `opportunity-queue` review dates (Aug 1, Aug 14 ×2,
+Aug 16, one undated 23 days); Phase 0 `active` 19 days past its window with Phase 1 opening
+Aug 24; `wiki\log.md` silent 12 days across 8 CASTLE-state-changing commits.
+
+### The repair (2026-08-19, Chris-ratified) and what remains
+
+Three root causes, three fixes — ownership alone would have recreated July 19:
+
+1. **Ownership:** `current-position.md` = single state home; `:49` deleted; skill-map
+   horizons/activation only; goal file ranking only.
+2. **Cadence:** due-checks section first in `templates\weekly-plan-template.md`;
+   `session-close` step 3 names CASTLE; **return-to-cockpit gate** = `OPERATIONS.md`
+   § Session Close 7; log = decisions, not sessions; semester maintenance budget named.
+3. **Detection:** `scripts\castle_freshness.py` — 4 deterministic checks (reconciled ≤ 35
+   days; no past/missing queue dates; phase status vs window; log recency vs CASTLE
+   commits), 10/10 tests, wired into `run_morning_brief.ps1`; PASS live 2026-08-19;
+   detections verified on simulated dates (7 findings at Aug 25, 9 at Sep 30).
+   **Deliberately not wired into `root_health.py` before Aug 24** — stale_overwrite_guard's
+   shipping pattern; the Aug 23 review decides the wiring.
+
+State repairs: Phase 0 closed on work that happened (criterion moved to Phase 1; the
+never-run "Aug 1 review" superseded by the Jul 25 early close + Aug 11 Council); queue
+re-dated to Aug 23/30 with no status change; 2 log backfills + the ruling entry.
+
+**Close condition:** the Aug 23 full monthly reconciliation of `current-position.md` runs
+**and** `castle_freshness.py` passes against the reconciled cockpit. If the review is
+skipped, the gate fails loudly from Aug 24 — by design.
+
+Full evidence chain: `Session_Logs\claude_challenge_packet_2026-08-19_castle_ownership.md`
+(six claims, falsifiers stated) and
+`Session_Logs\claude_report_2026-08-19_castle_repair_and_root_optimization.md` (the
+ratified plan and the Codex reconciliation).
+
+### Register-header history preserved (displaced by #103's raise)
+
+The header note this flag's raise replaced, verbatim commitment kept: *Corrected
+2026-08-18 — the index line still read "🔴 ONE HIGH FLAG OPEN — #102" while #102's own row
+had been marked 🟢 on the Aug 16 measurement. Codex's morning health review spotted the
+contradiction and correctly made no repair (read-only pass). Reconciling an index line to
+the table beneath it is maintenance, not a downgrade: no flag's priority was changed. It
+matters because `AGENT.md` forbids closing a session with an open HIGH flag, so a stale
+header makes that rule unenforceable in both directions.*
+
+---
+
 ## Flag #102 — Google Drive writes conflict copies into the gitdir
 
 **Raised:** August 16, 2026 · **Priority:** 🔴 HIGH · **Owner:** Chris (the move), Claude Code

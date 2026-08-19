@@ -15,7 +15,7 @@ its window closes.
 
 | # | Phase | Window | Exit criterion (headline) | Page |
 |---|---|---|---|---|
-| 0 | Current Position & Baseline | Jul 2026 | Baseline and first proof project exist; tracker real-data gate tested | [[phase-0-current-position-and-baseline]] |
+| 0 | Current Position & Baseline | Jul 2026 — **CLOSED 2026-08-19** | Baseline and first proof project exist; tracker real-data criterion moved to Phase 1 (closure record on the phase page) | [[phase-0-current-position-and-baseline]] |
 | 1 | School + Core Technical Foundation | Aug 2026 – May 2027 | School commitments met; Python/data capability used reliably; high-load tradeoffs managed deliberately | [[phase-1-school-core-technical-foundation]] |
 | 2 | Audit Methodology Foundation | Sep 2026 – Feb 2027 | Observation and flow methods tested on real processes; decision-useful findings produced | [[phase-2-audit-methodology-foundation]] |
 | 3 | Data & Workflow Systems Foundation | Nov 2026 – Mar 2027 | Messy operational data → validated structure → defensible analysis → decision-ready communication, demonstrated end-to-end | [[phase-3-data-and-workflow-systems-foundation]] |

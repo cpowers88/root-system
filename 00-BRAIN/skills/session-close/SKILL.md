@@ -9,8 +9,12 @@ description: Run `.ROOT` session close, including the DAILY append, wiki/CASTLE 
    `00-BRAIN\CASTLE\OPERATIONS.md`.
 2. Append a concise block to today's DAILY: outcome, evidence/files, decision or
    fragile detail, and next exact action. Create from the template if absent.
-3. If a wiki changed, append its log and update index/current-position only when
-   reality moved.
+3. If CASTLE or any domain wiki changed, append that log and update
+   index/current-position only when reality moved. CASTLE counts: a session that
+   changed CASTLE-owned state (maps, queue, phases, weekly plans, `NOW.md`'s
+   frame) appends `CASTLE\wiki\log.md` when the change was a decision — the log
+   records decisions, not sessions (ruled 2026-08-19; "wiki" alone never fired
+   for the cockpit, which is how its log went silent for 12 days — flag #103).
 4. Refresh `NOW.md` only when the live picture changed: date, starting action,
    fixed school item, technology rep, business/system item, soft boundary,
    status, or countdown.
