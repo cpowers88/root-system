@@ -9,8 +9,8 @@ generated: 2026-08-19
 
 ## School
 
-**READ —** OpenStax *Principles of Economics 2e*, Chapter 1 "Welcome to Economics!," all four sections, `04-SCHOOL/04-ECON/OpenStax - Principles of Economics 2e.md`.
+**READ —** *Open Technical Communication*, `03-WIKIS/EDUCATION/raw/Open-TC_Course-Resources/Open-TC-PDF.pdf`, **§2.13 Emails & Memos**.
 
-**FOCUS —** Week-1 catch-up override 3: TCOM already ran its session today, so **ECON takes tonight's slot**, priming the syllabus's Ch. 1 Foundations of Economics and the Sep 8 Ch. 1-3 quiz.
+**FOCUS —** **Week-1 catch-up, TCOM first** — primes the instructor email due Tue Aug 25 and the Business Email unit; **use this decimal-numbered copy, never `2e_Word\`**.
 
-**STOP —** Cap 20 minutes; stop after "How Economies Can Be Organized: An Overview of Economic Systems," the end of this chapter's captured content.
+**STOP —** Cap 20 minutes; stop at the §2.13 section boundary, before Ch 3 Ethics, which is Saturday's block.

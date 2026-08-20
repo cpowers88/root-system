@@ -139,6 +139,30 @@ exists; never assign invented Fall content from the Summer reference section.
 
 - **School block:** the owner's live reading queue governs (e.g. `PYTHON/wiki/current-position.md`, `PHYSICS/wiki/current-position.md`) — never assign a stage/chapter that queue hasn't unlocked yet. A raw PDF is **not a last resort** — for KSU spine material (Think Python, the Physics textbook, official syllabi) the raw source is the *preferred, recommended* citation over a wiki-processed page; point straight at it (`.../raw/books/....pdf` or `04-SCHOOL/...`) with the exact chapter/section, and page numbers when the PDF is already page-mapped.
 
+### 🎓 From 2026-08-24, take the assignment from the weekly reading plan (added 2026-08-19)
+
+**`04-SCHOOL\semester-reading-plan.md` §3 holds the current week's reading for all five
+courses, with chapter, section and exact page.** During the semester the School block is
+**a slice of that week's block for the rotation's course** — not a fresh derivation from the
+hub pages.
+
+**Why this matters more than it looks.** Re-deriving nightly means the brief and the weekly
+plan can disagree, and Chris planned his week from the weekly plan on Sunday. The brief's job
+is to say *which part of the plan is tonight's*, and to carry the page numbers so nothing has
+to be looked up at 9 p.m.
+
+**Always cite the page**, in the same convention the plan uses — PHYS local split-file pages,
+TCOM physical pages (no offset), CSE physical pages of `thinkpython.pdf`. A chapter name is a
+search; a page is a retrieval.
+
+**If the rotation's course has nothing left in this week's block** — its reading is already
+done — move to the next course in the rotation that does, and say so in one clause. Do not
+read ahead into next week's block to fill the slot; the one-week lead is the ceiling, not a
+target.
+
+**If the plan and an owner page disagree, the owner wins** and the brief says which one it
+followed.
+
 ### Per-course source of truth — all five courses (added 2026-08-18)
 
 The rotation covers five courses; until now this section named only two hubs, so TCOM, ECON and

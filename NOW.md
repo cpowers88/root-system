@@ -121,6 +121,14 @@ ordinary standing truth in `PHYSICS\wiki\semester-pathway.md` and `04-SCHOOL\SEM
   (offered, not adopted): a study aid derived from part of a source names which part.** Second
   instance in two days — one more and it belongs in `WIKI_SHARED_LAYER.md`.
 
+- **📚 NEW — `04-SCHOOL\semester-reading-plan.md`: every week, every course, chapter, section
+  and exact page.** Read it Sunday alongside `semester-workload-plan.md` §3 — that page says
+  what is *due*, this one says what to *open*. **TCOM is now page-mapped too**
+  ([[open-tc-page-map]]): the book has **no printed page numbers and no offset**, so the number
+  in the table is the number in your reader. **The arithmetic it settles:** reading is **6–8
+  h/week** and the evening block carries 2.3–3.5 of it — **3–5 h/week has to happen in the
+  campus gaps.** `semester-workload-plan.md` §7 said reading fits the evening brief; corrected.
+
 - **🌙 Evening read is in semester mode from tonight — the technology block is paused.**
   Chris-directed. Default is **one block, School**; technology returns only when it serves a
   named course deliverable due within 7 days *and* the FOCUS line says which. **The rotation

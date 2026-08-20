@@ -421,9 +421,16 @@ from **Aug 24**; a derived date loses to a posted one.
 
 ## 7. How to use this, weekly
 
-1. **Sunday:** read the week's row. If it is 🟡 or 🔴, move one item earlier into the week before.
+1. **Sunday:** read the week's row **and the same week's block in
+   `04-SCHOOL\semester-reading-plan.md`** — this page says what is *due*, that one says what
+   to *open*, with chapter, section and exact page for all five courses. If the row is 🟡 or
+   🔴, move one item earlier into the week before.
 2. **Check the recurring floor first** (§2) — PHYS WebAssign is due weekly and scores zero if late.
-3. **The campus blocks are for the work that needs a desk**; reading fits the evening brief.
+3. **The campus blocks are for the work that needs a desk — including 3–5 hours of reading.**
+   *(Corrected 2026-08-19. This line previously read "reading fits the evening brief." It does
+   not: reading is **6–8 h/week** across five courses and the evening block carries only
+   2.3–3.5 h of it. The arithmetic is in `semester-reading-plan.md` §1. Reading is a planned
+   campus activity, not a leftover — roughly a third of the 16.33 h of campus gaps.)*
 4. **After the week runs, correct the estimate.** These hours are unmeasured. A week that took
    19 hours against an estimate of 14 is information, and this page should absorb it.
 

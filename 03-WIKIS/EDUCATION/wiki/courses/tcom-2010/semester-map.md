@@ -131,6 +131,9 @@ before scheduling anything against a TCOM class day once the semester starts.
 
 ## Sources
 
+- **Page numbers: [[open-tc-page-map]]** (built 2026-08-19, verified). Every chapter and
+  section → **physical PDF page**; the book carries no printed page numbers, so there is no
+  offset. Cite pages from there rather than chapter names alone.
 - Real syllabus: `04-SCHOOL\03-TCOM\TCOM 2010 04 (85633) Fall 2026 Syllabus.md`
   (also mirrored in this hub's `raw\`)
 - Textbook: `raw\Open-TC-PDF.pdf` (*Open Technical Communication*, 4th ed.,

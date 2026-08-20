@@ -41,6 +41,9 @@ client work, while the course itself carries the heaviest single deliverable.
 - [[courses/tcom-2010/tcom-2010-17-week-execution-plan|TCOM 2010 17-Week Execution Plan]]
   — exact readings, weekly production gates, submission controls, and the early-
   finish defense for the 35% technical report
+- [[courses/tcom-2010/open-tc-page-map|Open TC Page Map]] — every chapter and section of
+  the assigned textbook → **physical PDF page**, verified 2026-08-19. The book carries no
+  printed page numbers, so there is no offset. **Cite pages, not chapter names**
 - [[courses/tcom-2010/concepts/course-policies-and-file-naming|Course Policies and File Naming]]
   — **the Week 1 quiz sheet**, built 2026-08-19 from the §04 syllabus read end to end.
   All four printed filename strings, the complete assignment×channel list, every policy
