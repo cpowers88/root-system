@@ -787,3 +787,33 @@ provisional until D2L opens Aug 24.
 **Next exact action:** retrieve [[courses/tcom-2010/concepts/course-policies-and-file-naming]]
 Part B cold, then read assigned-book §2.13 *Emails & Memos*. Produce only a private
 genre analysis—not a draft of either graded email.
+
+## 2026-08-20 — ENGR Fall 2026 neighboring-web-section reconciliation
+
+### Evidence
+
+Chris added Fall 2026 ENGR 1000 BWB, BWC, and BWF captures to `77-INBOX`.
+Their course-specific cores were compared without moving or editing the source
+files. BWB and BWF match; BWC differs only by omitting a redundant sentence that
+there is no textbook.
+
+### Finding and ruling
+
+All three agree on seven assignments, 50% departmental quizzes / 50% homework
+and other quizzes, lowest grade in each category dropped, no textbook, no late
+work, no extra credit, D2L-owned dates, common outcomes, and AI use prohibited.
+
+This is **strong provisional common structure**, not BWD truth. Exact BWD dates,
+weekly order, quiz mechanics, synchronous/asynchronous execution, partnership
+requirements, and Raoufi-specific policy remain unknown until BWD posts.
+
+### Reconciled
+
+Updated the EDUCATION status board, course brief, index, operating integrity
+table, ENGR hat, `04-SCHOOL` launch/read/workload/map/source-status files, the
+active CASTLE week, and flag #57. No ENGR course folder was created and no
+neighboring assignment was converted into practice.
+
+**Next exact action:** on Aug 24, open BWD D2L and verify the exact syllabus,
+announcements, departmental quizzes, assignments, due dates, drop rules,
+delivery execution, and AI policy before replacing any provisional row.

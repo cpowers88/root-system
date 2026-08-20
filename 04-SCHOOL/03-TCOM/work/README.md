@@ -38,7 +38,10 @@ are due: `03-WIKIS\EDUCATION\wiki\courses\tcom-2010\`.
 - **One email-channel exception** and a real attendance penalty — see `00-BRAIN\hats\HAT_TCOM.md`.
 - **The printed schedule dates are recycled Spring dates** (flag #57 warning). Verify every
   deadline against D2L, not the syllabus PDF.
-- Verify AI policy per assignment before using AI on anything submitted.
+- **AI may not draft any submitted TCOM work.** The exact Section 04 syllabus
+  permits AI only for editing or proofreading Chris's existing writing, and the
+  usage must be cited. This applies to the instructor email, Business Email,
+  memo, report, and every other assignment.
 
 Retrieval practice for this course means **producing a document for a named reader** — not
 recalling terms.

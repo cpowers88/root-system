@@ -25,11 +25,16 @@ work/
   exam-prep/
 ```
 
-## ⚠ Academic integrity — treat AI as prohibited until Section 54 says otherwise
+## Academic integrity — exact Section 54 policy verified
 
-Neither neighbour-section syllabus states an AI policy, so EDUCATION's
-most-restrictive-until-verified rule applies. **Flag #57 is open:** the exact §54 syllabus
-(grading weights, exam count, policy, calendar) does not exist yet.
+The exact Fall 2026 Section 54 syllabus arrived from Farhan Islam on 2026-08-18.
+AI is permitted as a **tutoring resource** for explanations, guided technique,
+fresh examples, and clarification. It is prohibited in submitted work.
+**WebAssign is graded, so AI must never produce or supply a WebAssign answer.**
+
+The live syllabus reconciliation is in
+`03-WIKIS\PHYSICS\wiki\semester-pathway.md`; it supersedes the former
+neighbour-section hold.
 
 ## Method
 

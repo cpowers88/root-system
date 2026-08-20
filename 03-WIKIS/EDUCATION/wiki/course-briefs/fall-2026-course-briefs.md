@@ -23,7 +23,7 @@ PHYSICS, not this page).
 |---|---|---|
 | ECON 1000 | **Allowed for any purpose, must be credited.** Uncredited use = cheating (KSU Code of Academic Integrity) | Support freely; every AI contribution must be acknowledged in the submission |
 | TCOM 2010 | **AI-written assignments = PLAGIARISM.** AI only for editing/proofreading, and only with cited usage | Never draft; review/proofread only, and the usage must be cited |
-| ENGR 1000 | **AI use prohibited** — confirmed on the Summer 2026 reference syllabus; not yet verified against the real Fall BWD section | No AI-assisted coursework at all; concept explanation and study support outside submitted work only |
+| ENGR 1000 | **AI use prohibited** across three neighboring Fall 2026 web sections; exact BWD not yet verified | Treat submitted BWD work as AI-prohibited; concept explanation and study planning only |
 
 These sit under the Wiki Shared Layer's academic-integrity rule: syllabi
 read for topics, dates, and policies — never for producing gradeable work
@@ -131,33 +131,32 @@ and recaptured 2026-07-27 with exact meeting information.
   Given the strict AI-editing-only policy, this course is a reading-craft
   target, not a dataset-integration one.
 
-## ENGR 1000 — Introduction to Engineering (⚠️ reference only)
+## ENGR 1000 — Introduction to Engineering (⚠️ strong provisional pattern)
 
-**Status: reference only — Summer 2026 section W01, not Fall 2026 section
-BWD.** The available capture is a different term and a different instructor
-than Chris's actual Fall course; see `SYSTEM_FLAGS.md` #57 and
-`04-SCHOOL\SYLLABUS_STATUS.md` for the live disposition.
+**Status: exact Fall 2026 BWD still missing.** The registrar identifies BWD as
+online with no meeting time; Kamyar Raoufi is the instructor, supplied by Chris.
+Three neighboring Fall 2026 web sections — BWB, BWC, and BWF — now provide a
+near-identical common course core.
 
-- **Reference source:** Summer 2026, Section W01 (51735), Instructor Matt
-  Marshall (mmarsh32@kennesaw.edu). 1 credit hour, fully asynchronous online,
-  no textbook cost.
-- **Shared structural signal (may not hold for BWD):** grade split is
-  department quizzes 50% + assignments/subject quizzes 50%, lowest of each
-  category dropped; no extra credit; no late work except one week-15
-  replacement assignment; AI use prohibited.
-- **Content (may not hold for BWD):** engineering disciplines overview,
-  advising/plan-of-study process, study/test/time-management skills, basic
-  math and programming introduction, teamwork.
-- Do not prepare targeted reading or dataset material against this course
-  yet — the real Fall BWD syllabus isn't posted, and building against an
-  unconfirmed source risks prepping the wrong content entirely.
+- **Common structure across all three:** no textbook; departmental quizzes 50%
+  + homework/other quizzes 50%; lowest departmental quiz and lowest
+  non-attendance grade dropped; no late work; no extra credit; D2L owns dates;
+  AI use prohibited.
+- **Common seven assignments:** Virtual Scavenger Hunt, Time Management,
+  Professional Communication/resume, Engineering Ethics, Professional
+  Licensure, Student Engagement, and Engineering Design.
+- **Common outcomes:** engineering disciplines, advising/plan of study, campus
+  resources, study/time-management skills, basic math/programming, and teamwork.
+- **Still BWD-unknown:** dates and weekly order, quiz mechanics, synchronous vs.
+  asynchronous execution, partnership requirements, and Raoufi-specific policy.
+- Do not prepare or pre-complete neighboring-section assignments. Use the common
+  structure only to establish the weekly D2L check and recognize what may appear.
 
 ## Data-Quality Flags (for Chris)
 
-1. **ENGR 1000's only available source is a different term (Summer 2026)
-   and a different instructor than the real Fall 2026 BWD section** —
-   content, grading, and the AI policy above are all unverified for BWD.
-   Recheck D2L/Simple Syllabus once BWD posts.
+1. **ENGR 1000 BWD remains missing despite three neighboring Fall 2026 web
+   sections agreeing on the course core.** Treat their shared structure as
+   strong provisional evidence only; recheck BWD D2L/Simple Syllabus once it posts.
 2. **TCOM's schedule table still shows January/Spring dates** in the fresh
    July 21 capture — confirmed as KSU's own recycled Simple Syllabus
    template, not a one-off transcription error. Trust D2L for real dates.

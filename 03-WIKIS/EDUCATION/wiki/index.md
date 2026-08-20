@@ -60,8 +60,11 @@ client work, while the course itself carries the heaviest single deliverable.
 
 ## ENGR 1000
 
-No course folder yet. The available syllabus is reference-only; activate after
-the real Fall 2026 BWD material lands.
+No course folder yet. Three neighboring Fall 2026 web sections (BWB/BWC/BWF)
+establish a strong provisional common structure, recorded in
+[[course-briefs/fall-2026-course-briefs]] and `04-SCHOOL\SYLLABUS_STATUS.md`.
+None is BWD; activate a course folder only when the exact BWD material lands or
+a real BWD study need appears.
 
 ## Shared learning methods
 

@@ -88,7 +88,7 @@ first two class meetings, and it is the course with the least structure.
 | **Wed Aug 26** | 🟢 PHYS | Motion in 1D, 2.1–2.4 |
 | **Fri Aug 28** | 🟢 PHYS | Motion in 1D with constant acceleration, 2.5–2.9 · **first §54 recitation, 11:30, Atrium 1116** |
 | Week 1 | 🔴 ECON | Unknown — all dates live on D2L |
-| Week 1 | 🔴 ENGR | Unknown — no syllabus, no meeting format |
+| Week 1 | 🔴 ENGR | Open the exact BWD syllabus, announcements, quizzes, and assignments in D2L. Neighboring Fall 2026 sections suggest seven assignments and frequent departmental quizzes, but supply no BWD dates |
 
 **TCOM's file-naming convention is graded.** The pattern in the syllabus is
 `Lastname_Section#_Draft.docx`, submitted to the D2L Assignments folder, and the *email*
@@ -284,10 +284,24 @@ Confirm his room and sitting time on day one. No timetable conflict either way.*
 - **AI: permitted as a tutoring resource, prohibited in submitted work.** See the integrity
   note at the foot of this file.
 
-### ENGR 1000 🔴 — flag #57, the least-known course
+### ENGR 1000 🟡 structure / 🔴 BWD dates — flag #57
 
-No BWD syllabus, **no published meeting time on either the registrar record or the calendar**,
-delivery format unconfirmed. AI is prohibited. **Cannot be rehearsed until its shape is known.**
+The registrar confirms BWD is online with no meeting time; the exact syllabus and
+D2L calendar remain missing. Three neighboring Fall 2026 web sections (BWB, BWC,
+BWF) have the same course-specific core except one redundant no-textbook sentence:
+
+- no textbook;
+- seven assignments: Virtual Scavenger Hunt, Time Management, Professional
+  Communication/resume, Engineering Ethics, Professional Licensure, Student
+  Engagement, and Engineering Design;
+- departmental quizzes 50% and homework/other quizzes 50%; lowest grade in each
+  category dropped;
+- no late work, no extra credit, D2L-owned dates; and
+- AI use prohibited.
+
+This is **strong provisional structure, not BWD authority**. BWD's dates, weekly
+order, quiz mechanics, synchronous/asynchronous execution, and Raoufi-specific
+rules remain 🔴 until D2L or the exact syllabus supplies them.
 
 ---
 
@@ -341,7 +355,7 @@ full loop — read → route → retrieve → produce → file into `work\`.
 | **PHYS 2211** | `physic.pdf` (Serway & Jewett) · `01-Chapter 1 Measurements.md` · `# Physics Chapter 2.md` · vocabulary/equations · Flash Cards |
 | **TCOM 2010** | ⚠ **Corrected 2026-08-18 — this row pointed at the wrong book.** The verified text is **`Textbook Doc Files\Open Technical Communication.pdf`** (9.21 MB, 2019 KSU DigitalCommons), whose decimal chapters match the syllabus *and* the 124-file `Linked-Resources\` numbering exactly. **`2e_Word\` is a trap and must not be used for navigation** — a later flat 0–29 renumbering, missing chapters 25–28, whose **Ch 3 is *Library and Internet Research* where the syllabus's Ch 3 is *Ethics***; reading week 1's assignment from it gives the wrong chapter (ruling: `EDUCATION\wiki\current-position.md`). Also on disk and not previously named here: the **52-file instructor ancillary package** (`Open-TC_Course-Resources\` — templates, rubrics, slides) and **124 worked examples** (`Linked-Resources\`), both under `EDUCATION\raw\`. Plus Purdue OWL, and **the full week-1–14 structure in this map** |
 | **ECON 1000** | OpenStax *Principles of Economics 2e* · CORE Econ *The Economy 2.0* · FRED datasets |
-| **ENGR 1000** | ⚠ **Nothing.** Cannot be rehearsed — format unknown |
+| **ENGR 1000** | Three neighboring Fall 2026 web syllabi establish a provisional seven-assignment course shape, no textbook, 50/50 grading, hard deadlines, and AI prohibition. Safe rehearsal is D2L-check/navigation only; do not pre-do their assignments |
 
 **This is the stronger test anyway.** The rehearsal is meant to prove that `.ROOT` can route
 real coursework, produce a proof, and file the output — none of which depends on where the
@@ -352,11 +366,9 @@ deadlines.
 
 ## Source-record correction found while building this
 
-`SYLLABUS_STATUS.md` lists the only ENGR source as *"ENGR 1000 W01 (51735) Summer 2026 Syllabus
-— Reference Only."* A second file is on disk that it does not mention:
-**`03-WIKIS\EDUCATION\raw\Syllabi\ENGR 1000 Section 05 (81217) Introduction to Engineering.md`**.
-Section 05 is not Chris's section (BWD), so it does not close flag #57 — but it is a nearer
-reference than a Summer syllabus and the index should say it exists. *Filed under the freeze.*
+`SYLLABUS_STATUS.md` now registers the full ENGR evidence ladder: three
+neighboring Fall 2026 web sections in `77-INBOX`, plus the Fall 2025 BD/05
+historical pair. None is BWD, so flag #57 stays open.
 
 ---
 

@@ -349,6 +349,22 @@ regardless of shape — needs Chris's approval, since `.claude\` is tool configu
 **Raised:** July 9, 2026; updated July 29 · **Priority:** 🟠 MEDIUM · **Owner:** Chris,
 `04-SCHOOL\SYLLABUS_STATUS.md` · **Check:** weekly from mid-August; **escalate Aug 17**
 
+### 2026-08-20 — three neighboring Fall 2026 web sections narrow the ENGR gap
+
+Chris placed BWB (80862), BWC (80857), and BWF (80860) in `77-INBOX`.
+Their course-specific cores were compared from Course Description through Course
+Calendar. BWB and BWF are identical; BWC differs only by omitting one redundant
+sentence stating there is no textbook. All three agree on seven assignments,
+50% departmental quizzes / 50% homework and other quizzes, lowest grade in each
+category dropped, no textbook, no late work, no extra credit, D2L-owned dates,
+shared outcomes, and AI use prohibited.
+
+**Disposition:** strong provisional common structure, never BWD authority. It
+does not close the flag and cannot establish BWD dates, weekly order, quiz
+mechanics, synchronous/asynchronous execution, partnership requirements, or
+Raoufi-specific policy. The files remain in `77-INBOX`; AI did not move or write
+them into immutable `raw\`. Exact BWD D2L remains the Aug 24 verification gate.
+
 D2L is accessible, but **PHYS 2211 Section 54** and **ENGR 1000 Fall BWD** remain
 unpopulated. Exact-section CSE 1321, CSE 1321L, ECON 1000 and TCOM 2010 captures are all
 filed and current.

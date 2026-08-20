@@ -43,6 +43,27 @@ actually copy never carried it, and the checks silently stopped running).
 One sentence. Pulled from the prior Sunday's Weekly Review "Next Week"
 priorities, or set directly by Chris.
 
+## Course Focus, Reading, and Proof
+
+Required during the semester. Build this from
+`04-SCHOOL\semester-workload-plan.md`, the matching week in
+`04-SCHOOL\semester-reading-plan.md`, and live D2L. The workload plan says what
+is due; the reading plan says what to open; this table says what success looks
+like for Chris this week. D2L and the exact-section instructor override local
+plans.
+
+| Course | Weekly focus | Reading / open | Graded work | Proof by week end |
+|---|---|---|---|---|
+| PHYS 2211 | | | | |
+| CSE 1321 / 1321L | | | | |
+| TCOM 2010 | | | | |
+| ECON 1000 | | | | |
+| ENGR 1000 | | | | |
+
+Every row gets one visible focus and one observable proof. If a course has no
+assigned reading, write the exact D2L module, directions, syllabus, or policy
+page to open rather than inventing a chapter.
+
 ## Fixed / Non-Negotiable This Week
 
 School deadlines, appointments, caregiving — the things that don't move.

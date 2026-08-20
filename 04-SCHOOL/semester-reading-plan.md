@@ -20,7 +20,7 @@ owning page and cites it. Where an owner and this page disagree, **the owner win
 | TCOM 2010 | `03-WIKIS\EDUCATION\wiki\courses\tcom-2010\semester-map.md` | `…\tcom-2010\open-tc-page-map.md` |
 | CSE 1321/L | `03-WIKIS\PYTHON\wiki\syllabus-alignment.md` § Semester Reading Queue | `PYTHON\wiki\source-page-map.md` |
 | ECON 1000 | `03-WIKIS\EDUCATION\wiki\courses\econ-1000\semester-map.md` | ⛔ none — book is D2L-locked |
-| ENGR 1000 | ⛔ none — no Fall syllabus exists | ⛔ none |
+| ENGR 1000 | Exact BWD D2L/syllabus when available; until then only the shared Fall 2026 web-section structure in `05-ENGR\work\README.md` | none — three neighboring sections require no textbook |
 
 Load and deadlines live in `semester-workload-plan.md`. Dates live in `SEMESTER_MAP.md`.
 **This page answers one question only: what do I open, and to what page.**
@@ -38,7 +38,7 @@ had not been written down:
 | **TCOM 2010** | one section or short chapter, **15–25 pages** of accessible prose | 1–1.5 h |
 | **CSE 1321** | **10–15 pages** of *Think Python* per module, modules run ~2 weeks | 0.75–1 h |
 | **ECON 1000** | one chapter | 1–1.5 h |
-| **ENGR 1000** | unknown | ~0.5 h? |
+| **ENGR 1000** | no textbook across BWB/BWC/BWF; read/open the current D2L module, directions, and quiz instructions | ~0.25–0.5 h provisional |
 | | **Total** | **6–8 h/week** |
 
 **The evening block carries 2.3–3.5 h of that** (20–30 min × 7 nights). So **3–5 hours of
@@ -106,7 +106,7 @@ top of the week, whether the reading has room.
 | **TCOM** | **§2.13 Memos and Emails** (by Aug 23) · **Ch 3 Ethics** (by Aug 26) + one case from `raw\Linked-Resources\` | **149–163** · **174–190** |
 | **CSE** | Module 0 — *Think Python* **Ch 1** "Running Python"/"The First Program" · **Ch 4** "A Development Plan" **only** | **23–32** · **57–68** |
 | **ECON** | **Ch 1 Foundations of Economics** — real book once D2L opens Aug 24; OpenStax Ch 1 until then | ⛔ |
-| **ENGR** | ⛔ **The syllabus is the reading.** Get it from D2L Aug 24 | — |
+| **ENGR** | **The exact BWD syllabus, announcements, quiz list, and assignment list.** Neighboring Fall 2026 web sections suggest no textbook and seven recurring assignment types, but BWD controls | D2L Aug 24 |
 
 > **§4.3 is deliberately included.** The syllabus's reading column starts at §4.4 but its
 > Sep 4 topic is projectile motion, which is §4.3. Reading the printed range leaves the
@@ -292,6 +292,18 @@ Scientific calculator required and exam-legal — phones, laptops, tablets prohi
 
 ---
 
+### ENGR standing row for Weeks 2–15
+
+ENGR has no textbook chapter to assign provisionally. Each week, the workbook and
+Sunday plan should carry this row until BWD supplies a dated sequence:
+
+| Course | Read / open | Proof |
+|---|---|---|
+| **ENGR** | Monday: D2L announcements, departmental quiz, current module/video, and assignment directions. Thursday: re-check anything still open before the weekend | Every posted item has a due date and status in the workbook; no neighboring-section prompt was treated as BWD work |
+
+Replace this standing row only with exact BWD information. Do not invent chapters
+or transfer BWB/BWC/BWF dates.
+
 ## 4. What this page cannot tell you yet
 
 Recorded as gaps rather than filled with plausible content.
@@ -299,7 +311,7 @@ Recorded as gaps rather than filled with plausible content.
 | # | Gap | Fills in |
 |---:|---|---|
 | 1 | **ECON has no page numbers anywhere.** Mathews & Patrono *Contemporary Economic Issues* is D2L Day One Access-only. Chapter *numbers* above are from the real dated syllabus and are reliable; the OpenStax mapping is an inferred substitute and is **not** a citation | **Aug 24**, D2L. Re-check the whole chapter alignment then |
-| 2 | **ENGR 1000 is absent from every week.** No Fall BWD syllabus exists — only a Summer reference section that is not Chris's | Flag #57, check **Fri Aug 21**; D2L **Aug 24** |
+| 2 | **ENGR 1000 has no dated weekly sequence.** Three neighboring Fall 2026 web sections agree on no textbook, seven assignment types, 50/50 grading, drop rules, no late work, no extra credit, and AI prohibition; none is BWD | Flag #57, reply check **Fri Aug 21**; exact BWD D2L **Aug 24** |
 | 3 | **TCOM dates are 🟡 derived, not printed.** The week→date conversion is verified (14 syllabus weeks ↔ 14 Tue/Thu pairs, break removed) but the syllabus itself prints January dates | D2L from **Aug 24** — a posted date beats a derived one |
 | 4 | **CSE weeks 3–15 follow the recycled Spring calendar's *sequence*.** Topic order is reliable; printed dates are not | D2L **Aug 24** |
 | 5 | **Reading-time estimates in §1 are unmeasured.** They are the first thing to correct once real weeks run | After weeks 1–3 |

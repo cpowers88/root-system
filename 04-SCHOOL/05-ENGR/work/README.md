@@ -12,20 +12,34 @@ created: 2026-08-13
 
 Ruled by Chris 2026-08-13 (Phase E / R3): output goes inside the course folder.
 
-## ⚠ This is the least-known course in the semester
+## ⚠ Exact BWD remains missing; Fall 2026 common structure is provisional
 
-As of 2026-08-13, ENGR 1000 **BWD** (CRN 80858, 1 credit) has:
+ENGR 1000 **BWD** (CRN 80858, 1 credit) is registered as online with no meeting
+time. Kamyar Raoufi is the instructor, supplied by Chris. The exact BWD syllabus
+and D2L calendar are not on file.
 
-- **no exact-section syllabus** — only a Summer W01 reference that does not govern;
-- **no published meeting time** on the registrar record *or* the `.ROOT` calendar;
-- **no confirmed delivery format.** Working assumption: online, roughly twelve ~40-minute
-  sessions or one longer weekly block. **Nothing on file confirms this.**
+Three neighboring Fall 2026 web sections — BWB, BWC, and BWF — have the same
+course-specific core (BWC only omits a redundant no-textbook sentence):
 
-**AI is prohibited in this course.** Treat that as binding until the BWD syllabus says
-otherwise — the prohibition is the one thing that *is* known.
+- no textbook;
+- seven assignments: Virtual Scavenger Hunt, Time Management, Professional
+  Communication/resume, Engineering Ethics, Professional Licensure, Student
+  Engagement, and Engineering Design;
+- departmental quizzes 50% and homework/other quizzes 50%;
+- lowest departmental quiz and lowest non-attendance grade dropped;
+- no late work and no extra credit;
+- D2L owns all due dates; and
+- AI use prohibited.
 
-**Flag #57 owns the gap.** Escalation is a direct email to the instructor. Because the format
-is unknown, this course is the weakest link in the Aug 17–21 rehearsal week: it cannot be
-rehearsed until its shape is known.
+This is **strong provisional common-structure evidence, not BWD authority**.
+BWD's D2L shell and Raoufi override it. Do not infer dates, weekly order,
+partner requirements, or instructor execution from neighboring sections.
+
+Until BWD states otherwise, treat AI as prohibited on submitted work.
+
+**Flag #57 owns the remaining gap:** the exact BWD syllabus, D2L due dates, and
+how departmental quizzes operate in this web section. The safe preparation is
+administrative: check D2L, read the BWD directions, and establish the weekly
+submission-check habit. Do not pre-do the neighboring sections' assignments.
 
 Update `04-SCHOOL\SYLLABUS_STATUS.md` the moment the real syllabus lands.

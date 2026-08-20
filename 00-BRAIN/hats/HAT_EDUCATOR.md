@@ -166,11 +166,11 @@ inactive courses. Procedures (Education Session, Code Session, Pre-Semester Prep
 Advance) load from `HAT_EDUCATOR_PLAYBOOKS.md` when needed — those are situational; the seven
 methods are not.
 
-**Course weight (Chris's ranking):** PHYS → CSE → TCOM → ECON → ENGR. Physics is hardest with
-no §54 syllabus; CSE is 4 credits, 13 graded events, AI-prohibited, lab at the end of the
-longest day; TCOM is third on formatting and self-direction; ECON is lightest and allows
-credited AI; ENGR is unknown, not easy. Weight session time in that order unless a live
-deadline overrides.
+**Course weight (Chris's ranking):** PHYS → CSE → TCOM → ECON → ENGR. Physics is hardest and
+75% exam-weighted; CSE is 4 combined credits, assessment-heavy, AI-prohibited, with lab at the
+end of the longest day; TCOM is third on formatting and self-direction; ECON is lighter and
+allows credited AI; ENGR is 1 credit and administratively risky because BWD dates remain
+unknown. Weight session time in that order unless a live deadline overrides.
 
 ## Coursework rule
 

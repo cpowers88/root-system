@@ -135,8 +135,8 @@ missing evidence of learning.
 | Course | Policy |
 |---|---|
 | **ECON 1000** | **AI allowed if credited** — the only one of the five where this is true |
-| **TCOM 2010** | Verify per assignment |
-| **ENGR 1000** | **Prohibited** |
+| **TCOM 2010** | **AI may edit/proofread Chris's existing writing only, with cited usage; it may not draft assignments** |
+| **ENGR 1000** | **Treat as prohibited on submitted work.** Exact BWD is missing; three neighboring Fall 2026 web sections carry the same prohibition |
 
 AI MAY explain concepts, generate fresh private practice, review Chris's reasoning, and help
 plan independent work. AI MUST NOT produce prohibited graded submissions or bypass a

@@ -2,7 +2,7 @@
 type: hat
 timeline: reference
 tags: [governance, school]
-updated: 2026-08-13
+updated: 2026-08-20
 ---
 
 # HAT_ENGR1000.md — Engineering Intro Subject Hat
@@ -15,64 +15,68 @@ updated: 2026-08-13
 no extra credit. **Do not run full teaching sessions for this course.** The job is the weekly
 check habit.
 
-## ⚠ This is the least-known course in the semester
+## ⚠ BWD is still missing; common Fall 2026 web structure is now visible
 
-**Almost nothing about §BWD is confirmed.** Ranked fifth of five — but *unknown*, not easy.
+Ranked fifth of five — but administratively risky, not automatically easy. The
+exact BWD syllabus and calendar remain unknown. Three neighboring Fall 2026 web
+sections now provide strong provisional course-structure evidence.
 
 | | Status |
 |---|---|
 | Exact-section BWD syllabus | ❌ **Does not exist on file** |
 | Instructor | ✅ **Kamyar Raoufi** — `kraoufi@kennesaw.edu`. **Supplied by Chris 2026-08-17 and this is the §BWD instructor.** Supersedes the earlier inference of Lori Lowder, who taught Fall 2025 §BD and is *not* Chris's instructor. The registrar record lists no instructor for BWD, so this came from Chris, not from a file |
-| Meeting time | ❌ **None published** — not on the registrar record, not on Chris's calendar |
-| Delivery format | ❌ **Unknown, and now genuinely uncertain — see below** |
-| Grading shape | 🟡 **Attendance quizzes 50% / assignments 50%** (Fall 2025 §BD). Likely stable; unverified for §BWD |
-| AI policy | 🟡 **Prohibited** in both Fall 2025 captures. **Downgraded from ✅ 2026-08-17:** it was called "the same instructor's own words," but Chris's instructor is Raoufi, not Lowder — so this is a course-level pattern across two other instructors, not his instructor's statement. **Still treat as prohibited** (most-restrictive-until-verified); the evidence is just weaker than it read |
+| Meeting time | ✅ **Online / no meeting time** on the Fall 2026 registrar record |
+| Delivery format | 🟡 **Web section confirmed; synchronous vs. asynchronous execution is still unknown** |
+| Grading shape | 🟡 **Departmental quizzes 50% / homework and other quizzes 50%** across Fall 2026 BWB, BWC, and BWF; unverified for BWD |
+| AI policy | 🟡 **Prohibited** in all three neighboring Fall 2026 web sections. Treat as prohibited until BWD says otherwise |
 
-### What the Fall 2025 §BD syllabus settles — and what it does not
+### What three neighboring Fall 2026 web sections settle — and what they do not
 
-**Added 2026-08-14.** Chris supplied `ENGR 1000 Section BD (81208)`, **Fall 2025**, taught by
-**Lori Lowder**. It is the nearest source yet: same course, same college, one year prior.
-Handle it exactly like the PHYS §51/§55 captures — **pacing and shape only, never Chris's
-policy.**
+**Added 2026-08-20.** Chris supplied BWB, BWC, and BWF for Fall 2026. Their
+course-specific cores are identical except that BWC omits one redundant sentence
+stating there is no textbook. They span two instructors (Matt Marshall and Laura
+Ruhala). This is stronger evidence than the Fall 2025 BD/05 pair, but it remains
+**common structure, never BWD-specific authority.**
 
 **Genuinely useful:**
 
-- **Grading is 50% attendance quizzes + 50% assignments.** Lowest attendance quiz dropped.
-- **Deadlines are firm and late work is not accepted** — the syllabus says *"there is no need
-  to ask."*
-- **Week 15 offers one extra assignment that replaces a poor grade.** The only recovery
-  mechanism in the course.
-- **Course materials: none.** No textbook to buy or read ahead.
-- **AI prohibited**, stated by this instructor directly — the strongest version of that
-  finding so far.
+- **Grading is 50% departmental quizzes + 50% homework and other quizzes.**
+- The lowest departmental quiz and lowest non-attendance grade are dropped.
+- **Deadlines are firm and late work is not accepted.**
+- **No extra credit.** This supersedes the 2025 week-15 replacement signal as a
+  planning assumption for Fall 2026.
+- **No textbook.** D2L modules, assignment directions, and videos are the reading/opening load.
+- Seven assignments repeat across all three sections: Virtual Scavenger Hunt,
+  Time Management, Professional Communication/resume, Engineering Ethics,
+  Professional Licensure, Student Engagement, and Engineering Design.
+- **AI prohibited** in all three.
 
-**⚠ It makes the format question worse, not better.** The §BD syllabus says attendance is
-taken **"during each class"** and quizzes run per class — which describes a **section that
-meets**. Chris is in **§BWD**, and the extra **W** almost certainly denotes web/online. So the
-one section detail that differs between BD and BWD is the exact detail the syllabus cannot
-transfer. **Do not conclude ENGR meets, and do not conclude it is async.** It is unknown.
+**Still unknown for BWD:** exact due dates and weekly order; whether work is
+synchronous or asynchronous; how departmental quizzes open and close; whether any
+assignment wording, partnership requirement, drop rule, or instructor execution
+differs; and whether Raoufi adds BWD-specific policy.
 
-**The consequence for planning is sharp:** if the grading shape holds, **half the grade is
-attendance-based** — whatever "attendance" means in a web section. That converts the weekly
-check protocol below from admin hygiene into **50% of the course**, and makes the delivery
-format the single most consequential unknown in the semester.
+**The consequence for planning is sharp:** the neighboring 2026 syllabi call the
+50% category **departmental quizzes**, while their boilerplate still calls them
+attendance quizzes. For BWD, the safest operational interpretation is that frequent
+D2L departmental quizzes are potentially half the grade. The weekly check protocol
+below therefore protects marks; it is not optional admin hygiene.
 
 **Flag #57 owns the gap.** Escalation is a direct email to the instructor — and since **D2L does
 not open until Aug 24**, that email is the only way to learn anything before classes start.
 
-**Consequence for the Aug 17–21 rehearsal week: ENGR cannot be rehearsed at all.** It is the one
-course with nothing to run. Do not spend rehearsal time trying.
+**Consequence for the Aug 17–21 rehearsal week:** run only a short course-map
+orientation and D2L-check rehearsal from the shared 2026 structure. Do not
+pre-complete, simulate, or transform the neighboring sections' assignments.
 
 ### Source notes
 
-- The syllabus on file is a **different term and section** — treat AI as prohibited until the
-  real Fall 2026 BWD syllabus posts, then reverify.
-- `raw\Syllabi\` also holds **`ENGR 1000 Section 05 (81217)`**. Section 05 is **not** Chris's
-  section, so it does not close the gap — but it is nearer than the Summer W01 file, and
-  `04-SCHOOL\SYLLABUS_STATUS.md` does not currently list it.
-- **Open check:** a syllabus header read "Summer Semester 2026" while CRN 80858 is registered
-  for Fall. **Confirm the D2L shell is active and labeled Fall 2026 before Aug 24.** If it shows
-  Summer, contact the advisor immediately.
+- Fall 2026 BWB/BWC/BWF currently live in `77-INBOX`; they are evidence inputs,
+  not BWD course files and must not be moved into `raw\` by AI.
+- Fall 2025 BD and Section 05 remain immutable historical corroboration in
+  `EDUCATION\raw\Syllabi\`.
+- Confirm the BWD D2L shell is labeled Fall 2026 when it opens Aug 24. If it
+  shows the wrong term, contact the advisor.
 
 ## Weekly check protocol
 

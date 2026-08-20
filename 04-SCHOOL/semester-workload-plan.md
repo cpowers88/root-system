@@ -8,7 +8,7 @@ created: 2026-08-18
 
 # Semester Workload Plan — Fall 2026
 
-### The one page that answers "what is a successful week." Built 2026-08-18 at Chris's request, from the five exact-section syllabi on disk. Per-course detail stays in each hub; this assembles it into weeks and measures it against real available time.
+### The one page that answers "what is a successful week." Built 2026-08-18 at Chris's request from the exact-section sources available, with ENGR explicitly provisional. Per-course detail stays in each hub; this assembles it into weeks and measures it against real available time.
 
 **Authority and boundaries.** Dates come from the exact-section syllabi and the
 already-reconciled hub pages — `PHYSICS\wiki\semester-pathway.md`,
@@ -42,7 +42,7 @@ hours a week outside class.**
 | CSE 1321L | Tue 17:45–19:35, Atrium 2120 | 1.83 h |
 | TCOM 2010 | Tue/Thu 09:35–10:55, Academic 202 | 2.67 h |
 | ECON 1000 | Tue/Thu 08:00–08:55, ETC 202 | 1.83 h |
-| ENGR 1000 BWD | ⛔ **no meeting time on the registrar record** | ? |
+| ENGR 1000 BWD | **Online; no meeting time** on the registrar record | 0 scheduled |
 | | **In-class total** | **12.67 h** |
 
 ### The campus day is far emptier than this page first claimed
@@ -149,7 +149,7 @@ exam classification is not automatic.
 | CSE 1321 + 1321L | 4 | 7–9 | 108–140 |
 | TCOM 2010 | 3 | 5–7 | 78–108 |
 | ECON 1000 | 2 | 2–3 | 31–46 |
-| ENGR 1000 | 1 | 1–2? | 15–31 |
+| ENGR 1000 | 1 | 1–2 provisional | 15–31 |
 | **Total** | **13** | **24–32** | **372–495** |
 
 **Working figure: ~430 hours outside class, ~28 h/week.**
@@ -180,7 +180,7 @@ Before any dated item, each week carries this floor:
 | **CSE 1321L** | One lab most weeks → Gradescope; assignment in 6 of 15 weeks | 2–3 h |
 | **TCOM 2010** | TTh in person; reading + the week's deliverable; **6 weeks of report work happen in class** | 3–5 h |
 | **ECON 1000** | Chapter reading; graded items are sparse but heavy | 1–2 h |
-| **ENGR 1000** | ⛔ **Unknown — see §5** | 1–2 h? |
+| **ENGR 1000** | Monday + Thursday D2L check; departmental quizzes and the current assignment/module. No textbook. Exact BWD cadence remains unknown — see §5 | 1–2 h provisional |
 | | **Ordinary-week floor** | **15–23 h** |
 
 **Two rules that come straight from the syllabi and are worth internalising now:**
@@ -217,7 +217,7 @@ Before any dated item, each week carries this floor:
 question a fast start actually turns on. Assembled from the five owner pages; each cell
 cites its owner rather than restating it.
 
-**Run-in, Aug 19–23 — three readings, and none of them is a textbook chapter for a class
+**Run-in, Aug 19–23 — four bounded readings/opens, and none of them is a textbook chapter for a class
 you are behind in.** PHYS and CSE are +2 weeks ahead; re-reading covered ground buys
 nothing (evening-reading override 3).
 
@@ -226,6 +226,7 @@ nothing (evening-reading override 3).
 | 1 | **TCOM §2.13 *Emails & Memos*** — `03-WIKIS\EDUCATION\raw\Open-TC_Course-Resources\Open-TC-PDF.pdf` | **Aug 23** | The required instructor email is sent **Tue Aug 25**, and the Business Email is 15% of the course |
 | 2 | **TCOM Ch 3 *Ethics*** — same PDF, plus one case from `raw\Linked-Resources\` (`3_Harcourt`, `3_Killer`, `3_Mistry`, `3_Reed`, `3_Rouche`) | **Aug 26** | The **Ethics Analysis is graded and due Fri Aug 28** — a week-1 graded item whose format and filename appear nowhere in the syllabus |
 | 3 | **ECON — OpenStax *Principles of Economics 2e* Ch. 1** (`04-SCHOOL\04-ECON\`) | Aug 23 | **Substitute, not the real book.** Mathews & Patrono is D2L-locked until Aug 24; read it as a topic primer and re-anchor on the real Ch. 1 that day |
+| 4 | **ENGR provisional course map** — the seven shared Fall 2026 web-section assignments, 50/50 grading, drop rules, hard-deadline rule, and AI boundary in `05-ENGR\work\README.md` | Aug 23 | Orientation only. Do not open or work the neighboring sections' assignment prompts; BWD D2L owns the real sequence |
 
 **⛔ Never cite `2e_Word\`** for any TCOM chapter — its Ch 3 is *Library and Internet
 Research*, not *Ethics*. This exact defect was live in two `.ROOT` study pages until
@@ -247,9 +248,9 @@ policies, and week 1 grades three of them:
 | **TCOM** | Finish Ch 3 *Ethics*; then §5.2 *Audience Analysis* + §2.12 *Oral Presentations* | Ch 3 by Aug 26; the rest by Sep 2 | `tcom-2010\tcom-2010-17-week-execution-plan.md` |
 | **CSE** | *Think Python* (`PYTHON\raw\books\thinkpython.pdf`) Ch 1 and Ch 4 "A Development Plan"; then the Module 1 spine — Ch 1 values/types/operators, Ch 2 assignment/variables/expressions, Ch 5 "Keyboard Input". Cite **physical** pages from `wiki\source-page-map.md` | Ch 1/4 by Aug 24; Module 1 by Aug 30 | `PYTHON\wiki\syllabus-alignment.md` § Semester Reading Queue. **Module 1 opens week 2 and Quiz 1 is Sun Sep 6** |
 | **ECON** | **Mathews & Patrono Ch 1**, the moment D2L opens — and check its numbering against the OpenStax mapping | Aug 27 | `econ-1000\semester-map.md`. Quiz Ch 1-2-3 is **Tue Sep 8** |
-| **ENGR** | ⛔ **The syllabus itself is the week-1 reading.** It does not exist yet | **Aug 24, D2L** | Flag #57's remaining half; check moment Fri Aug 21 |
+| **ENGR** | **The exact BWD syllabus, announcements, quiz list, and assignment list in D2L.** No textbook is expected from the three-section Fall 2026 pattern, but BWD must confirm | **Aug 24, D2L** | Flag #57's remaining half; neighboring BWB/BWC/BWF are structure-only evidence |
 
-**Total run-in reading: roughly 3 hours across five days.** It is small because the
+**Total run-in reading/orientation: roughly 3–3.5 hours across five days.** It is small because the
 buffer is real — the work is to keep it.
 
 ### Keeping pace after week 1 — three mechanisms, already built
@@ -380,15 +381,16 @@ amount.
 
 ## 5. What is NOT planned here, and why
 
-**ENGR 1000 BWD is absent from every row above.** There is no Fall BWD syllabus — only the
-Summer 2026 W01 reference section and a Section 05 capture, neither of which is Chris's section.
-Its meeting format is unpublished. `EDUCATION\wiki\course-briefs\fall-2026-course-briefs.md`
-records its AI policy as **prohibited** on the Summer reference, unverified for Fall.
+**ENGR 1000 BWD has no dated rows because the exact syllabus and D2L calendar are
+still missing.** Three neighboring Fall 2026 web sections now agree on the
+course core: seven assignments, 50% departmental quizzes / 50% homework and
+other quizzes, lowest grade in each category dropped, no textbook, no late
+work, no extra credit, and AI prohibited.
 
-**Deliberately not invented.** A 1-credit course plausibly adds 1–2 hours a week, and the ⛔ rows
-say so rather than filling in plausible content. Flag #57's remaining half has a check moment of
-**Fri Aug 21**; if nothing arrives, plan as if attendance is graded and verify when D2L opens
-Aug 24. **Add ENGR to §2's baseline the day its syllabus lands** — every estimate here rises.
+That evidence supports the **1–2 h/week provisional floor and the Monday/Thursday
+D2L checks**, but not a dated assignment sequence. Do not place a neighboring
+section's due date into §3. Flag #57 remains open until BWD posts; reconcile the
+week table immediately when D2L opens Aug 24.
 
 ---
 
@@ -448,7 +450,7 @@ Everything below is a known unknown, not a discovered problem. Each has a specif
 | 1 | **CSE 1321 lecture grade weights** — the syllabus carries **two conflicting tables**: 25/25/25/25 (line 108) and 40/20/40 (line 115) | Changes how much a quiz is worth relative to a test. The 25×4 reading is used throughout this plan |
 | 2 | **CSE 1321L midterm and final dates** | 50% of the lab grade. Sequence says week 8 (~Tue Oct 13) and finals week; the printed calendar is Spring |
 | 3 | **TCOM real Fall due dates** — the syllabus prints January dates. **Now derived to real dates (2026-08-18) and the week→date conversion is verified** (14 numbered weeks ↔ 14 Tue/Thu pairs, Aug 25 → Dec 3, Fall Break removed), so this is a confirmation, not an extraction. **Also grab the three Group Charter samples** — D2L-only, needed by Thu Oct 1 | Every TCOM row above is now dated 🟡. If D2L disagrees, D2L wins |
-| 4 | **ENGR 1000 BWD structure and meeting format** | Absent from every row in §3. Flag #57's remaining half |
+| 4 | **ENGR 1000 BWD exact syllabus, due dates, quiz mechanics, and synchronous/asynchronous execution** | The common Fall 2026 web structure is known; these BWD-specific controls remain absent from §3. Flag #57's remaining half |
 | 5 | **PHYS §54 unit-exam room and sitting time** | Printed at the §51/52/53 recitation slot, not Chris's |
 | 6 | **CSE final exam date** | Not printed in the lecture syllabus |
 | 7 | **ECON textbook mapping** — Mathews & Patrono vs. the OpenStax substitute | The EDUCATION semester-map's chapter mapping is unverified against the real book |

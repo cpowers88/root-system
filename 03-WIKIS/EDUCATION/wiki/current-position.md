@@ -3,7 +3,7 @@ type: tracker
 tags: [school, education]
 timeline: now
 status: active
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 # current-position — EDUCATION
@@ -28,7 +28,7 @@ updated: 2026-08-18
 |---|---|---|---|
 | **ECON 1000** | 🟢 exact-section syllabus, dates cross-verified twice | Semester map, drills, flashcards, glossary, reading-guides | Real textbook is D2L-locked |
 | **TCOM 2010** | 🟢 exact-section syllabus — **but its printed dates are recycled Spring dates** | Six pages built 2026-08-13 on the ECON/PHYSICS pattern; **all 14 weeks now dated** | ~~Weeks 6–15 not extracted~~ **closed 2026-08-18.** Remaining: confirm the derived dates in D2L Aug 24 |
-| **ENGR 1000** | 🔴 **nothing** — no BWD syllabus, no meeting time, no format | **None, deliberately** | Everything |
+| **ENGR 1000** | 🟡 strong provisional Fall 2026 web-section pattern; exact BWD still missing | BWB/BWC/BWF common-structure comparison; weekly D2L-check method | BWD dates, weekly order, quiz mechanics, and instructor-specific execution |
 
 ## ⏰ D2L opens Monday August 24 — the first day of classes
 
@@ -152,26 +152,37 @@ exactly. Worth keeping `2e_Word\` for two things only: its Ch 5 covers *Quoting,
 Plagiarism **and AI***, which postdates the 2019 edition, and its Ch 9 carries the full
 proofreading symbol sets that feed the Week 7 Font Style quiz.
 
-## ENGR 1000 — held, and deliberately empty
+## ENGR 1000 — exact BWD missing; common Fall 2026 web structure measured
 
-**🔴 Nothing is known.** No exact-section BWD syllabus. **No published meeting time on the
-registrar record or on Chris's calendar.** Delivery format unconfirmed — working assumption is
-online, roughly twelve ~40-minute sessions or one longer weekly block, but **nothing on file
-confirms this.**
+The registrar confirms BWD is online with no meeting time. The exact BWD syllabus
+and D2L calendar are still missing. Kamyar Raoufi is the instructor, supplied by Chris.
 
-**AI is prohibited.** That is the one fact that *is* known, and it holds until the BWD syllabus
-says otherwise.
+Three neighboring Fall 2026 web sections (BWB, BWC, BWF) share the same
+course-specific core; BWC differs only by omitting a redundant no-textbook
+sentence. Across all three:
 
-**There is deliberately no `courses/engr-1000/` folder.** `OPERATIONS.md` says to create a course
-folder only after real material or a real study need exists; ENGR has neither. Building
-scaffolding around nothing is the failure this hub's contract is written to prevent.
+- no textbook;
+- seven named assignments (Virtual Scavenger Hunt, Time Management,
+  Professional Communication/resume, Engineering Ethics, Professional
+  Licensure, Student Engagement, Engineering Design);
+- departmental quizzes 50% and homework/other quizzes 50%;
+- lowest departmental quiz and lowest non-attendance grade dropped;
+- no late work, no extra credit, and D2L-owned dates; and
+- AI use prohibited.
 
-**A near-miss source note:** `raw\Syllabi\` also holds
-`ENGR 1000 Section 05 (81217) Introduction to Engineering.md`. **Section 05 is not Chris's
-section (BWD)**, so it does not close the gap — but it is a nearer reference than the Summer W01
-file, and `04-SCHOOL\SYLLABUS_STATUS.md` does not currently list it.
+This is **strong provisional common structure, not BWD truth**. Do not transfer
+dates, weekly order, partnership requirements, quiz mechanics, or instructor
+execution. BWD D2L and Raoufi supersede all of it.
 
-**This is the weakest link in the Aug 17–21 rehearsal week: it cannot be rehearsed at all.**
+**There is still no `courses/engr-1000/` folder.** The shared structure is enough
+to improve planning, but not enough to justify targeted course content or a
+semester map. Create the folder only when BWD posts or a real study need appears.
+
+The three Fall 2026 sources remain in `77-INBOX`; AI must not move them into
+immutable `raw\`. Fall 2025 BD and Section 05 remain historical corroboration.
+
+**Safe rehearsal:** orient to the seven-item shape and practise the Monday/Thursday
+D2L check. Do not work the neighboring sections' assignment prompts.
 
 ## Pre-semester coverage
 
