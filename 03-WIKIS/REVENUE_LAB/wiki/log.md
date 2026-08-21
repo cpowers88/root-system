@@ -384,3 +384,18 @@ current state for Lane A.
   `NOW.md` and CASTLE's opportunity queue may still describe Lane A as active.
   CASTLE owns that reconciliation.
 - No lane score, gate result, authorization, or proof status changed.
+
+## 2026-08-21 — CASTLE returns the Lane A state answer (Claude Code, CASTLE reconciliation)
+
+- **The 2026-07-24 open question is closed: Lane A is `parked`.** That entry asked whether
+  the folder name (`YT_Outlier_Scanner(Pause, chris)`) conflicted with `NOW.md` and CASTLE's
+  opportunity queue, and named CASTLE as the owner of the reconciliation.
+- **There was no conflict.** [[../../../00-BRAIN/CASTLE/wiki/opportunity-queue]]
+  OPP-20260714-02 already carried `parked`, and `NOW.md` does not mention Lane A at all.
+- **The failure was the return path, not the state.** The reconciliation had effectively
+  been done; nothing ever carried the answer back to the hub that asked, so the question sat
+  open for four weeks. Recorded because it is the same shape as flag #103 — work completed
+  in one place and never propagated to the place that needed it.
+- **No lane score, gate result, authorization, or proof status changed.** Reactivation
+  still requires Chris's direct instruction, and resumes at human classification.
+- **`check_at` for OPP-20260714-02 is 2026-08-23**, in the pre-semester Sunday return.

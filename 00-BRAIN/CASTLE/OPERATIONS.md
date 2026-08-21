@@ -133,7 +133,31 @@ Sunday step produces one short list before any planning is written:
 3. **Instruction-protocol confirmation:** that the live boot chain and
    `AGENT.md § Execution Discipline` are what all three parties are operating
    under, re-verified after any Codex reboot following an instruction change.
-4. **DAILY rotation (added 2026-08-02, closes the report-bloat gap):** once
+4. **Course standing and open misses (added 2026-08-21, Chris-approved).** During
+   the semester this runs **before** items 2 and 3, because it is the only step
+   that can change the week's plan on evidence rather than on schedule:
+
+   a. **`04-SCHOOL\FallKSU.xlsx` § GRADE TRACKER, the standing block (rows 40–45).**
+      Read the Status column for all five courses. **Anything reading `WATCH` or
+      `ACTION` is named in the week's plan with a specific corrective block** — not
+      noted, not carried. `ACTION` (< 87%) additionally goes to `MORNING_BRIEF`'s
+      ATTENTION line. **Standing is computed on graded work only** and is not
+      meaningful until *Graded so far* passes ~20%; before that, read the raw
+      scores and not the percentage.
+   b. **`04-SCHOOL\miss-log.md`, the open rows.** The oldest open row is the first
+      block of the coming week. **A miss that has sat open across two Sunday
+      returns is escalated in the plan**, because an un-re-aimed miss is the exact
+      failure the log was built to prevent.
+   c. **Check the aid before the learner.** Where a miss repeats, confirm the study
+      material is correct before treating it as a gap — `.ROOT`'s own aids taught a
+      wrong rule twice in five days (2026-08-19, 2026-08-21) and the failed reps
+      reproduced the vault's defect, not Chris's.
+
+   **Why this is a cadence step and not a dashboard:** the grade target is 90% in
+   five courses, and a returned score only changes behaviour if something reads it
+   on a fixed day. Nothing in `.ROOT` read grades before this step existed.
+
+5. **DAILY rotation (added 2026-08-02, closes the report-bloat gap):** once
    this week's WEEKLY report is filed, `git mv` that week's `DAILY_YYYY-MM-DD.md`
    files into `Session_Logs\Report Archive\` as `ARCHIVED_YYYY-MM-DD_DAILY_YYYY-MM-DD.md`,
    fix any wikilinks that pointed at the old path, and confirm no day is left
@@ -144,6 +168,13 @@ Sunday step produces one short list before any planning is written:
 
 Items 2 and 3 are approval gates, not status lines. If Chris has not approved
 them, the week's plan is provisional and says so.
+
+**Semester scope note.** Item 4 is the only addition the semester makes to this
+cadence, and it is deliberately inside the existing ~15–30 minute Sunday budget
+rather than beside it — per the maintenance budget below, CASTLE work does not
+grow during a semester. If item 4 cannot fit in the budget, items 2 and 3 shrink
+first; the grade and miss reads do not, because they are the two that carry
+consequences Chris cannot recover later.
 
 `77-INBOX` is the single universal intake door, including Obsidian web clips.
 Route clear items through `WHERE_IT_GOES.md`; leave ambiguous items in place

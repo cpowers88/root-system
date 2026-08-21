@@ -1893,3 +1893,38 @@ remain open, not urgent tonight.
 - **Next:** unchanged — Codex runs the full `current-position.md` reconciliation **Fri Aug 21**;
   **Aug 23** is the acceptance checkpoint for #103, #102, the backup review, and the semester
   format. TCOM resumes at Part B.
+
+## 2026-08-21 — Full reconciliation run; CASTLE gains a grade instrument (Claude Code, Chris-approved)
+
+- **Flag #103's overdue full reconciliation of [[current-position]] RAN.** Method recorded in
+  the file: `git log --since` over every named owner, then a read of each owner that moved.
+  **Eleven of thirteen rows verified unchanged with their owner's last-touch date recorded;
+  two learner rows reconciled** against owners rewritten the same morning. Eleven honest
+  "unchanged" entries are the output of a reconciliation, not the absence of one — since
+  Aug 1 the system's whole capacity went into semester readiness.
+- **Decision (Chris): CASTLE gets a course-performance row and the instruments to fill it.**
+  CASTLE tracked *capability* monthly and *grades* not at all, while the stated target is
+  **90% in five courses**, which moves weekly. Built this session: the GRADE TRACKER standing
+  block in `FallKSU.xlsx` (live formulas, per-course standing against 90, `WATCH`/`ACTION`
+  thresholds) and `04-SCHOOL\miss-log.md` (one log across all five courses, seeded with the
+  five error classes the pre-semester week produced). **Cadence: `OPERATIONS.md` § Reviews
+  item 4**, inside the existing Sunday budget, ahead of items 2 and 3.
+- **Decision (Chris): no wiki restructure.** Recommendation accepted that CASTLE's structure
+  was not what failed — Aug 7–17 was a *cadence* failure, already repaired by the
+  return-to-cockpit gate. A restructure would have landed untested the night before the
+  dress rehearsal and repeated flag #103's own pattern. Deferred to the monthly review.
+- **Return-path failure found and closed.** REVENUE_LAB's log asked on 2026-07-24 whether
+  Lane A was paused or active and named CASTLE as owner. The queue already said `parked`;
+  **the answer was never returned.** Four weeks open. Same shape as #103: completed work that
+  never propagated to the place needing it. Returned to REVENUE_LAB's log this session.
+- **Two rows held against accrued evidence:** Git/GitHub discipline and Agentic delivery both
+  saw real activity and neither was promoted — their gates (*successful recovery*; *measured*
+  end-to-end delivery) were not met. Recording that is the point of a gate.
+- **Control defect fixed:** `castle_freshness.py`, `stale_overwrite_guard.py` and
+  `verify_backup_restore.py` shipped Aug 18–19 but were never added to the bulk gate's
+  `ALLOWED_SCRIPTS`, so no session could invoke them. Each was read before being named;
+  `verify_backup_restore.py` is annotated as **not** read-only. Gate's own 70-case suite
+  passes; `castle_freshness.py` **PASS (2026-08-21)**.
+- **Next:** Aug 22 dress rehearsal is the first live test of the grade and miss instruments.
+  **Aug 23** acceptance checkpoint — #103, #102, backup review, and the Sunday return running
+  item 4 for the first time.

@@ -76,6 +76,20 @@ ALLOWED_SCRIPTS = {
     "sync_shared_skills.py",    # writes only the .agents/.claude skill mirrors
     "safe_shell.sh",            # the wrapper itself
     "test_require_safe_shell.py",  # this gate's own evaluation suite
+    # Added 2026-08-21, Chris-approved. All three shipped in the Aug 18-19
+    # repairs, were wired into run_morning_brief.ps1 / the backup review, and
+    # were never listed here - so a session could not invoke the very gates the
+    # repairs added. Each was read before being named, per the assertion above.
+    "castle_freshness.py",      # read-only: git log/status only, no writes
+    "stale_overwrite_guard.py", # read-only: git status/show only, no writes
+    # NOT read-only, and deliberately annotated as such rather than filed beside
+    # the gates above. It restores a backup by robocopy into a target that
+    # ensure_empty_target() PROVES is empty first, writes a .git pointer inside
+    # that target, and never deletes. It touches no live vault path and no live
+    # raw/. It does copy 88-JOURNAL into the restore target - that is the point
+    # of verifying a backup - using /NFL /NDL so no filename is listed and no
+    # content is read.
+    "verify_backup_restore.py",
 }
 
 # Command shapes that touch many files in one pass. Each entry is (regex, why).

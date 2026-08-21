@@ -5,24 +5,27 @@ status: active
 tags: [baseline]
 ---
 
-# Current Position — July 2026 Monthly Baseline
+# Current Position — August 2026 Monthly Baseline
 
-> **📍 Single state home as of 2026-08-19 (flag #103).** This file is now the only home
-> of cross-domain capability state. The full monthly reconciliation of every row below
-> is now scheduled for **Friday Aug 21**, folded into the semester-format build; until then, rows other than the two
-> learner rows carry July 19 assessments. `castle_freshness.py` now measures this file's
-> staleness mechanically.
+> **✅ FULL RECONCILIATION RUN 2026-08-21, closing flag #103's overdue pass.** Every row
+> below was checked against its owner this session — not re-asserted. **Method, because it
+> is the part worth repeating:** `git log --since=2026-07-19` over the owner files, then a
+> read of every owner that actually moved. A row whose owner has not been touched since the
+> July baseline keeps its July assessment **and now says so explicitly**, which is a
+> different claim from "current" and was the ambiguity that made this file drift.
+>
+> **The headline finding is that eleven of thirteen rows genuinely did not move, and that
+> is correct rather than neglectful.** Since Aug 1 the entire capacity of the system went
+> into semester readiness — five syllabi, the workload/reading/schedule plans, the laptop
+> build, and two `.ROOT` repairs. **The rows that should have moved did: both learner rows.**
+> Recording eleven honest "unchanged, owner untouched since <date>" entries is the outcome
+> of a reconciliation, not the absence of one.
+>
+> `castle_freshness.py` **PASS (2026-08-21)** — and it now actually runs from a session; it
+> had been absent from the bulk gate's `ALLOWED_SCRIPTS` since it shipped Aug 19, so every
+> direct invocation was denied. Fixed and measured the same session.
 
-> **⚠ Partially reconciled 2026-08-17 (finding N4), not fully re-run.** The two learner
-> rows below were corrected against owner truth because they contradicted `NOW.md`, which
-> names this file the owner of sequence and proof status — the cockpit was pointing at a
-> file that disagreed with it. **Python read "Stage 3"; it has been Stage 4b since
-> 2026-07-29.** Every other row still carries its July 19 assessment and is up to four
-> weeks old. **The full monthly reconciliation is overdue** (this file's own next date was
-> August 1) and is scheduled for **Friday Aug 21**. The Aug 23 review is the
-> acceptance checkpoint, not the first reconciliation.
-
-### Reconciled: July 19, 2026
+### Reconciled: August 21, 2026 (full pass) · previous full pass July 19, 2026
 ### Sources: NORTH_STAR.md, CURRENT_STRATEGY.md, owner current-position files, capability_development_goal.md, and active proof owners
 ### Cadence: monthly; current actions and temporary pauses live in .ROOT\NOW.md
 
@@ -36,21 +39,25 @@ tags: [baseline]
 
 ## Capability and Proof Frontier
 
-| Capability or track | CASTLE state | Proof frontier | Owner truth |
-|---|---|---|---|
-| Physics | building — Stage 4 open at circular-motion drills 1–4 | **Next rep: read §4.4 and §§6.1–6.2, then circular motion worked → faded → fresh cold transfer.** The 2026-08-21 cold attempt got the 5.0 m/s² magnitude but missed precise inward direction and the real force; Problems 1–2 are now lesson material and Problems 3–4 remain untouched cold. **Row 2 `proven (durable)` 2026-08-18. Row 3 ❌ MISSED AGAIN 2026-08-21**, reopened Sun Aug 23 – Mon Aug 24; error class *equation choice/units* | PHYSICS wiki current-position + math-readiness-path |
-| Python | building — **Stage 4b** (Stage 4 closed 2026-07-29) | **C1** — `53`/`NameError` plus an independent `average(numbers)`; then import one standard-library module and wrap one library call in his own function | PYTHON wiki current-position |
-| SQL/SQLite | building — July weak link; guided two-table fixture verified July 21 | Independently query or extend the Bootcamp fixture; use verified tracker data when D2L populates | [[sql]] + [[ksu-academic-tracker]] + TECHNOLOGY owner |
-| Data visualization | building — first rep verified | A justified visual another person can trace and use for a decision | Technology Strategy + live proof vehicle |
-| Field observation | building | First approved live observation; two tested live sessions move it to working | BUSINESS method + 05-BUSINESS\02-Field Notes |
-| Systems and flow thinking | building | Apply a flow or constraint model so it improves a real decision or finding | SYSTEMS wiki + coursework |
-| Technology landscape | building | Problem-led category and Recommendation Ladder rep with constraints and rejection logic | Technology Strategy + TECHNOLOGY wiki |
-| Recommendation Ladder | building | Evidence-based keep, simplify, buy, integrate, or build decision | Technology Strategy |
-| Git/GitHub discipline | building | Understandable repository history and successful recovery or review | active repositories |
-| Agentic delivery | working | Measure one assisted delivery end-to-end; time/quality evidence plus Chris explain-back moves it toward proven | approved projects + AI system |
-| Technical writing and communication | building | Audience-specific finding or handoff that supports a decision or operation | TCOM/EDUCATION + real artifacts |
-| Advisor-Builder strategy | active hypothesis | Live workflow observation, qualified conversations, willingness to pay, and measured outcomes | CURRENT_STRATEGY.md + BUSINESS evidence |
-| Financial continuity | material constraint | Only approved evidence tests; no copied lane mechanics here | REVENUE_LAB + NOW.md |
+**Reconciliation basis column** added 2026-08-21: every row states the date its owner was
+last actually touched, so "unchanged" is a measured claim rather than an assumption.
+
+| Capability or track | CASTLE state | Proof frontier | Owner truth | Basis (2026-08-21) |
+|---|---|---|---|---|
+| **Course performance — all five, Fall 2026** | **NEW ROW 2026-08-21.** No graded work exists yet; classes begin Aug 24 | **The target is 90% in every course.** Standing is computed in `04-SCHOOL\FallKSU.xlsx` § GRADE TRACKER rows 40–45 and read at the Sunday return (`OPERATIONS.md` § Reviews, item 4). `WATCH` (< 90) earns a named corrective block; `ACTION` (< 87) reaches `MORNING_BRIEF` | `04-SCHOOL\FallKSU.xlsx` + `04-SCHOOL\miss-log.md` | **Created this session.** CASTLE tracked capability monthly and grades not at all; grades move weekly and are the actual target |
+| Physics | building — Stage 4 open at circular-motion drills 1–4 | **Next rep: read §4.4 and §§6.1–6.2, then circular motion worked → faded → fresh cold transfer.** The 2026-08-21 cold attempt got the 5.0 m/s² magnitude but missed precise inward direction and the real force; Problems 1–2 are now lesson material and Problems 3–4 remain untouched cold. **Row 2 `proven (durable)` 2026-08-18. Row 3 ❌ MISSED AGAIN 2026-08-21**, reopened Sun Aug 23 – Mon Aug 24; error class *equation choice/units* | PHYSICS wiki current-position + math-readiness-path | ✅ **MOVED.** Owner rewritten 2026-08-21 (this morning, parallel session). Reconciled against it |
+| Python | building — **Stage 4b** (Stage 4 closed 2026-07-29) | **C1** — `53`/`NameError` plus an independent `average(numbers)`; then import one standard-library module and wrap one library call in his own function | PYTHON wiki current-position | ✅ **VERIFIED.** Owner last moved 2026-07-29 (Stage 4 → 4b). Resume point C1 unchanged and unrun — PYTHON has had no rep since Aug 18 |
+| SQL/SQLite | building — July weak link; guided two-table fixture verified July 21 | Independently query or extend the Bootcamp fixture; use verified tracker data when D2L populates | [[sql]] + [[ksu-academic-tracker]] + TECHNOLOGY owner | **Unchanged.** [[sql]] still `status: building`; its only touch since July was the Aug 12 path repoint. ⏰ **Its proof unblocks Aug 24** — the tracker's own next action is "enter verified course data when D2L populates" |
+| Data visualization | building — first rep verified | A justified visual another person can trace and use for a decision | Technology Strategy + live proof vehicle | **Unchanged**, owner untouched since the July baseline |
+| Field observation | building | First approved live observation; two tested live sessions move it to working | BUSINESS method + 05-BUSINESS\02-Field Notes | **Unchanged.** [[field-observation]] touched Aug 12 by the path repoint only; no live observation has occurred |
+| Systems and flow thinking | building | Apply a flow or constraint model so it improves a real decision or finding | SYSTEMS wiki + coursework | **Unchanged**, owner untouched since the July baseline |
+| Technology landscape | building | Problem-led category and Recommendation Ladder rep with constraints and rejection logic | Technology Strategy + TECHNOLOGY wiki | **Unchanged**, owner untouched since the July baseline |
+| Recommendation Ladder | building | Evidence-based keep, simplify, buy, integrate, or build decision | Technology Strategy | **Unchanged**, owner untouched since the July baseline |
+| Git/GitHub discipline | building | Understandable repository history and successful recovery or review | active repositories | ⬆ **Evidence accrued, state held.** Two-machine sync, the gitdir relocation (flag #102) and daily commit/push have run since Aug 16 without incident. Not promoted — the stated proof is *successful recovery or review*, and no recovery has been exercised. `verify_backup_restore.py` against the live D: backup is the Aug 23 test |
+| Agentic delivery | working | Measure one assisted delivery end-to-end; time/quality evidence plus Chris explain-back moves it toward proven | approved projects + AI system | **Unchanged at `working`.** Substantial assisted delivery ran Aug 17–21, but none of it was *measured* end-to-end with time/quality evidence, which is the stated gate. Promotion still requires measurement plus Chris's explain-back |
+| Technical writing and communication | building | Audience-specific finding or handoff that supports a decision or operation | TCOM/EDUCATION + real artifacts | **Unchanged, but its owner moved.** EDUCATION's `current-position` was rewritten Aug 19–21; TCOM course *setup* advanced, no writing artifact was produced. ⏰ First real evidence is the graded instructor email, **Tue Aug 25** |
+| Advisor-Builder strategy | active hypothesis | Live workflow observation, qualified conversations, willingness to pay, and measured outcomes | CURRENT_STRATEGY.md + BUSINESS evidence | **Unchanged at hypothesis.** Clients still zero; no qualified conversation has occurred. Correctly dormant under the Aug 19 school-first ruling |
+| Financial continuity | material constraint | Only approved evidence tests; no copied lane mechanics here | REVENUE_LAB + NOW.md | ✅ **Open conflict CLOSED this pass.** REVENUE_LAB's log has asked since 2026-07-24 whether Lane A is paused or active and named CASTLE as owner. **It is `parked`** — [[opportunity-queue]] OPP-20260714-02 already says so and `NOW.md` does not contradict it. The reconciliation had been done; **the answer was never returned to the hub that asked.** Returned this session. ⏰ Its `check_at` is **2026-08-23** |
 
 **This table is the single home of cross-domain capability state (ruled by Chris
 2026-08-19, closing flag #103's ownership loop).** [[skill-map]] holds horizons and
@@ -94,7 +101,34 @@ action. The full capability-state reconciliation runs Friday Aug 21.
   criteria only and must never be cited as the state home — this line pointed outward until
   2026-08-19 and was the last surviving half of the repaired ownership loop.
 
-Full reconciliation: **August 21, 2026**, folded into the semester-format build.
-Acceptance checkpoint: **August 23, 2026**. (The stated August 1 date passed
-unrun; that staleness was finding N4 and is why the two learner rows above were
-corrected on 2026-08-17 ahead of the full pass.)
+## Reconciliation record — August 21, 2026
+
+**Ran:** the full pass this file has owed since August 1. **Method:** `git log --since`
+over every owner named in the table, then a read of each owner that moved. Eleven rows
+verified unchanged with their owner's last-touch date recorded; two learner rows moved and
+were reconciled against owners rewritten the same morning; one row added.
+
+**What the pass changed beyond dates:**
+
+1. **A new Course-performance row.** CASTLE tracked capability monthly and grades not at
+   all — while the actual target is 90% in five courses, which moves weekly. The
+   instruments (`FallKSU.xlsx` § GRADE TRACKER standing block, `04-SCHOOL\miss-log.md`)
+   and the cadence that reads them (`OPERATIONS.md` § Reviews item 4) were built this
+   session.
+2. **REVENUE_LAB's month-old question answered.** Its log has asked since 2026-07-24
+   whether Lane A is paused or active and named CASTLE as the owner of that
+   reconciliation. The queue already said `parked`; **the answer simply never went back to
+   the hub that asked.** That is a return-path failure, not a state conflict — and it is
+   the same shape as flag #103: work completed in one place and never propagated to the
+   place that needed it.
+3. **Two rows held deliberately against accrued evidence** — Git/GitHub discipline and
+   Agentic delivery both saw real activity this month and neither was promoted, because
+   their stated gates (*successful recovery or review*; *measured* end-to-end delivery) were
+   not met. Recording that explicitly is the point of a gate.
+
+**Next full reconciliation: September 21, 2026.** Acceptance checkpoint for this one:
+**August 23, 2026**, alongside flag #102's close check and the backup review.
+
+**⏰ Three dated items this pass surfaced for the Aug 23 Sunday return:**
+OPP-20260714-02 `check_at` **Aug 23** · the tracker's real-data proof unblocks when D2L
+populates **Aug 24** · `verify_backup_restore.py` against the live D: backup, **Aug 23**.
