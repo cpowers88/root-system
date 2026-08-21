@@ -205,7 +205,7 @@ top of the week, whether the reading has room.
 
 ---
 
-### Week 10 · Oct 26–Nov 1 · 🟢 — *🎯 TCOM checkpoint 3 Tue Oct 27 · Progress Report Thu Oct 29*
+### Week 10 · Oct 26–Nov 1 · 🟢 — *🎯 TCOM checkpoint 3 Tue Oct 27 · Progress Report Thu Oct 29 · CSE Quiz 6 Sun Nov 1*
 
 | Course | Read | Pages |
 |---|---|---|
@@ -216,7 +216,7 @@ top of the week, whether the reading has room.
 
 ---
 
-### Week 11 · Nov 2–8 · 🔴 — *PHYS UNIT EXAM 3 Wed Nov 4 · CSE Quiz 6 Sun Nov 8 · 🎯 TCOM checkpoint 4 Tue Nov 3 · peer reviews Thu Nov 5*
+### Week 11 · Nov 2–8 · 🔴 — *PHYS UNIT EXAM 3 Wed Nov 4 · CSE Quiz 7 Sun Nov 8 · 🎯 TCOM checkpoint 4 Tue Nov 3 · peer reviews Thu Nov 5*
 
 | Course | Read | Pages |
 |---|---|---|
@@ -245,7 +245,7 @@ top of the week, whether the reading has room.
 
 ---
 
-### Week 13 · Nov 16–22 · 🔴 — *PHYS UNIT EXAM 4 Wed Nov 18 · CSE Quizzes 7+8 Thu Nov 19 · TCOM LAB DAY Thu Nov 19*
+### Week 13 · Nov 16–22 · 🟡 — *PHYS UNIT EXAM 4 Wed Nov 18 · CSE Quiz 8 Sun Nov 22 · TCOM LAB DAY Thu Nov 19*
 
 | Course | Read | Pages |
 |---|---|---|

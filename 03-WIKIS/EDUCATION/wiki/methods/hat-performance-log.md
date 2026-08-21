@@ -47,6 +47,7 @@ as a pass is worse than no data.
 | 2026-08-17 midday | PHYS (math row 3) | hour ~4 of a system session | n/v | ✓ | ✓ | ✓ | ✓ | ✓ | Full chain loaded incl. both previously-skipped files — but check 1 is **not valid**, see entry |
 | 2026-08-17 evening | CSE Module 0 | continuing Codex thread after system audit | n/v | ✓ | ✓ | ✓ | ✓ | ✓ | Correct live chain reloaded; ungraded-practice boundary held; clean pickup handoff |
 | 2026-08-18 afternoon | PHYS (row 2 durability) | hour ~4 of a system/CASTLE session | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | Row 2 passed durable. **AI defect: one question was unparseable and asked twice before Method 3 fired** — and this session then mis-diagnosed the skip as a learner verification gap. Chris corrected both |
+| 2026-08-21 morning | PHYS (row 3 + circular motion) | user-requested teaching session | n/v | ✓ | ✓ | ✓ | ✓ | ✓ | Full chain loaded; two misses classified honestly; switched from cold gate to lesson when six-month recall gap surfaced; terminal-math rendering defect fixed |
 
 ---
 
@@ -244,6 +245,28 @@ memory of a sibling page). One more and it earns a place in `WIKI_SHARED_LAYER.m
 
 TCOM Part B — the ~8 uncued policy facts — then a spaced re-rep of the four filename strings
 before Tue Aug 25.
+
+## 2026-08-21 — HAT_PHYSICS, row 3 and circular motion (Codex)
+
+**Six-point rubric.**
+
+| # | Score | Evidence |
+|---|:---:|---|
+| 1 | n/v | Chris explicitly requested PHYS work, so discovery was not validly testable; the full `HAT_EDUCATOR` → `HAT_PHYSICS` → hub owner chain was still loaded. |
+| 2 | ✓ | The session resumed at the exact Row 3 and Stage 4 frontiers and used source-verified textbook pages. |
+| 3 | ✓ | Chris controlled the pace, corrected his own algebra/equation choice, and requested the switch from cold drilling to reading and lesson. |
+| 4 | ✓ | Row 3 and circular-motion Problem 1 began cold; first responses were preserved as evidence rather than replaced by corrected answers. |
+| 5 | ✓ | No graded WebAssign answer was produced; the work stayed in tutoring, fresh examples, and study-material preparation. |
+| 6 | ✓ | Both misses, error classes, fresh-transfer rules, reading route, durability window, and printable study asset were recorded. |
+
+### AI defect and repair
+
+LaTeX-style equations were unreadable in Chris's terminal. The session had used a
+document-quality math format on a surface that did not render it. `00-BRAIN\CODEX.md`
+now requires plain-text equations in terminal or CLI conversation and reserves rendered
+mathematical notation for files, artifacts, and interfaces that support it. The printable
+formula sheet deliberately uses conventional typeset notation because that is the requested
+document surface.
 
 
 ---

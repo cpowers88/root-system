@@ -2038,3 +2038,52 @@ not learner evidence.
 
 Read §§6.1–6.2 at `0101-0200` local pp. 58–64, then complete
 [[drills/circular-motion-drill]] Problems 1–4 cold.
+
+## 2026-08-21 — Row 3 missed again; circular cold gate exposed prerequisite rust; printable formula sheet built
+
+### Cold evidence
+
+- **Math row 3 — miss.** Given 14.0 m/s → 26.0 m/s over 60.0 m, Chris first
+  selected `a = (v_f - v_0) / delta_x` and answered 5 m/s². The expression has
+  units s⁻¹, not acceleration, and the arithmetic reversed the division. After a
+  units cue he answered 4.0 m/s² and supplied the correct no-time relationship,
+  `a = (v_f² - v_0²) / (2 delta_x)`. The repair was correct; the cold selection
+  was not. **Error class: equation choice/units; execution after recognition.**
+- **Circular-motion Problem 1 — miss.** Chris correctly computed 5.0 m/s². The
+  direction was described as "towards the curve" instead of toward the center,
+  and static friction was not named as the real inward force until correction;
+  the follow-up still tied the force to tire angle. **Error class: concept recall —
+  real force versus centripetal role.**
+
+Chris reported that he had not reviewed these equations in more than six months
+and asked for reading plus a lesson. The cold gate therefore stopped. Problem 2
+became worked lesson material and is no longer valid as a cold item. Problems 1–2
+need fresh changed-parameter replacements after instruction; Problems 3–4 remain
+untouched cold.
+
+### Outcome and route
+
+- No stage advanced. Stage 4 remains open.
+- Row 3 reopened for **Sun Aug 23 – Mon Aug 24** with a fresh no-time transfer.
+- Read §4.4 (printed pp. 81–83) and §§6.1–6.2 (printed pp. 128–134), then run
+  worked → faded → fresh cold transfer.
+
+### Reusable study asset
+
+Built and visually verified the six-page
+`04-SCHOOL\02-Physics I\work\exam-prep\output\pdf\PHYS_2211_Section_54_Master_Formula_and_Selection_Sheet.pdf`.
+It follows the exact §54 scope (Chapters 1–12, 15, and §§16.1–16.3), uses
+conventional mathematical notation, and pairs equations with model-selection cues,
+conditions, and units. Chapters 13, 14, and 17 are explicitly excluded. This is a
+study aid; the instructor-provided exam equation sheet remains authoritative.
+
+### Return packet
+
+- **Outcome:** two cold misses classified; repair route and study instrument built.
+- **Evidence:** this entry, [[current-position]], and the printable PDF above.
+- **Capability movement:** none; Stage 4 remains open.
+- **Reusable asset:** compare the PDF against the official instructor sheet when it
+  appears in D2L.
+- **System-learning candidate:** terminal LaTeX was unreadable; the Codex profile now
+  requires plain-text equations in terminal chat and reserves rendered notation for
+  documents and compatible interfaces.

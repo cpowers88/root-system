@@ -25,6 +25,17 @@ work/
   exam-prep/
 ```
 
+## Exam prep
+
+The course-specific printable study sheet is:
+
+`exam-prep\output\pdf\PHYS_2211_Section_54_Master_Formula_and_Selection_Sheet.pdf`
+
+It follows the exact Section 54 scope (Chapters 1–12, 15, and §§16.1–16.3), uses
+conventional rendered mathematical notation, and includes model-selection cues,
+conditions, and units. It is a study aid; the instructor-provided exam equation sheet
+remains the authority for what may be used during an exam.
+
 ## Academic integrity — exact Section 54 policy verified
 
 The exact Fall 2026 Section 54 syllabus arrived from Farhan Islam on 2026-08-18.

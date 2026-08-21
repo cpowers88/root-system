@@ -81,9 +81,12 @@ credit accept no late work at all.
 
 Read before the class where the syllabus introduces the material. Chapter numbers
 refer to the **2019 assigned edition** of *Open Technical Communication*—the PDF
-at `raw/Open-TC_Course-Resources/Open-TC-PDF.pdf` or
-`raw/Textbook Doc Files/Open Technical Communication.pdf`. Do not navigate by the
-renumbered `2e_Word` copy; its numbers conflict with the syllabus.
+at `raw/Open-TC_Course-Resources/Open-TC-PDF.pdf`, **634 pages, and the only file
+page numbers here are valid for.** 🔴 **Corrected 2026-08-21:** this sentence used to
+offer `raw/Textbook Doc Files/Open Technical Communication.pdf` as an equivalent
+alternative. It is not one — it is a 353-page web print-out of the same edition with
+incompatible pagination. Do not navigate by the
+renumbered `2e_Word` copy either; its numbers conflict with the syllabus.
 
 | Complete by | Reading | Why now / output |
 |---|---|---|

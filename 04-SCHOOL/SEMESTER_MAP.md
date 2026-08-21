@@ -112,24 +112,52 @@ submissions use subject line `Lastname_Section#_Business Email draft`. Chris's s
 | 7 | Oct 5–11 | **TEST 1** + Module 3 — functions, parameters, arguments | **TEST 1 — Mon Oct 5** (Modules 1–2) |
 | 8 | Oct 12–18 | Module 3 — functions | **Quiz 4, Oct 18** |
 | 9 | Oct 19–25 | Module 4 — Python libraries | **Quiz 5, Oct 25** |
-| 10 | Oct 26–Nov 1 | Module 5.1 — tuples, lists | |
-| 11 | Nov 2–8 | Module 5.2 — dictionaries, searching & sorting | **Quiz 6, Nov 8** |
+| 10 | Oct 26–Nov 1 | Module 5.1 — tuples, lists | **Quiz 6, Nov 1** |
+| 11 | Nov 2–8 | Module 5.2 — dictionaries, searching & sorting | **Quiz 7, Nov 8** |
 | 12 | Nov 9–15 | **TEST 2** + Module 6 — OOP | **TEST 2 — Mon Nov 9** (Modules 1–5) |
-| 13 | Nov 16–22 | Module 6 — OOP | **Quiz 7 & Quiz 8, Nov 19** |
+| 13 | Nov 16–22 | Module 6 — OOP | **Quiz 8, Nov 22** |
 | — | Nov 23–29 | **FALL BREAK — no classes** | |
-| 14 | Nov 30–Dec 6 | TBD | **Quiz 9, Dec 6** |
-| 15 | Dec 7 | Module 8 — Review. Last day of classes | **Quiz 10, Dec 7** |
-| 16 | Dec 8–14 | **Final exams week** | Final Exam 🔴 *date from D2L* |
+| 14 | Nov 30–Dec 6 | **Module 7 — Review** | **Quiz 9, Dec 6** |
+| 15 | Dec 7 | **Wrap Up.** Last day of classes | **Quiz 10, Dec 7** |
+| 16 | Dec 8–14 | **Final exams week** | 🟢 **FINAL EXAM — Mon Dec 14, 3:30–5:30 PM** |
+
+> **✅ Corrected 2026-08-21 from the official source, and re-verified in this session.**
+> The CSE 1321 syllabus names the CCSE First-Year-Experience site as the authority for exam
+> dates. That page publishes `cse1321_tentative_schedule_fall26_v4.docx`, which was downloaded
+> and parsed directly. **Four things changed and one suspicion was retired:**
+>
+> | | Was | Official Fall 2026 schedule |
+> |---|---|---|
+> | Quiz 6 | Sun Nov 8 (wk 11) | **Sun Nov 1 — week 10** |
+> | Quiz 7 | Thu Nov 19 (wk 13) | **Sun Nov 8 — week 11** |
+> | Quiz 8 | Thu Nov 19 (wk 13) | **Sun Nov 22 — week 13** |
+> | Final exam | "not printed — pull from D2L" | **Mon Dec 14, 3:30–5:30 PM**, section BF's own row |
+> | Module 7 | recorded as missing | **Module 7 = Review, week 14.** Week 15 is *Wrap Up*; there is no Module 8 |
+>
+> **The vault was missing a quiz week and stacking two quizzes on one wrong date.** The
+> correction is materially good news: **week 13 no longer carries two quizzes the day after
+> PHYS Unit Exam 4** — it carries one, on Sunday Nov 22. Anomaly 1 below is **retired**:
+> *"Syllabus & Policy Quizzes, Dec 07"* is printed in the official **Fall** document, so it is a
+> genuine open-all-semester deadline, not a Spring carryover. Anomaly 2 stands — the official
+> document says **"Dec 7th, 2026, Last Day of Classes"** where the syllabus says May 4th.
+>
+> **Test 1 now has a time:** Mon Oct 5, **4:10–5:49 PM**. Test 2: Mon Nov 9. Both are section
+> BF's MW rows. Confirm all of this against D2L in week 1 — an instructor may deviate from the
+> departmental schedule — but this is an official Fall source, not a derivation.
 
 **Test dates use the MWF/MW column** because CSE 1321 **BF** meets Mon/Wed. The syllabus lists
 different dates for TR and online sections — do not read across the wrong row.
 
-**⚠ Two anomalies in this syllabus, both confirming flag #57's recycled-date warning:**
+**⚠ Anomalies in this syllabus — one retired 2026-08-21, one confirmed:**
 
-1. Week 1 lists *"Syllabus & Policy Quizzes, **Dec. 07**"* — a week-1 item dated week 15.
-   Almost certainly a template error. **Confirm the real due date in D2L during week 1.**
-2. Week 15 reads *"Module 8: Review (**May 4th, 2026**, Last Day of Classes)"* — a Spring date
-   in a Fall syllabus.
+1. ~~Week 1 lists *"Syllabus & Policy Quizzes, **Dec. 07**"* — almost certainly a template error.~~
+   **RETIRED 2026-08-21.** The official Fall 2026 departmental schedule prints the same
+   `Syllabus & Policy Quizzes, Dec 07` in its own week-1 row. It is a **genuine
+   open-all-semester deadline**, not a carryover. Do them in week 1 anyway; do not rely on
+   December.
+2. **CONFIRMED.** Week 15 reads *"Module 8: Review (**May 4th, 2026**, Last Day of Classes)"* —
+   a Spring date in a Fall syllabus. The official schedule says **"Dec 7th, 2026"** and names
+   week 15 *Wrap Up*, not Module 8. The syllabus is wrong on both the date and the module.
 
 ### CSE 1321L 🔴
 Lab meets Tue 17:45–19:35. Lab assignment schedule not extracted — **pull from D2L week 1.**
@@ -353,7 +381,7 @@ full loop — read → route → retrieve → produce → file into `work\`.
 |---|---|
 | **CSE 1321** | **`Module 0 - Welcome` and `Module 1 Part 1 - Algorithms and Abstraction` lecture transcripts** — literally weeks 1–2 · `thinkpython.pdf` · `Think Python Notes\` · `Stages\` · vocabulary and keyword notes |
 | **PHYS 2211** | `physic.pdf` (Serway & Jewett) · `01-Chapter 1 Measurements.md` · `# Physics Chapter 2.md` · vocabulary/equations · Flash Cards |
-| **TCOM 2010** | ⚠ **Corrected 2026-08-18 — this row pointed at the wrong book.** The verified text is **`Textbook Doc Files\Open Technical Communication.pdf`** (9.21 MB, 2019 KSU DigitalCommons), whose decimal chapters match the syllabus *and* the 124-file `Linked-Resources\` numbering exactly. **`2e_Word\` is a trap and must not be used for navigation** — a later flat 0–29 renumbering, missing chapters 25–28, whose **Ch 3 is *Library and Internet Research* where the syllabus's Ch 3 is *Ethics***; reading week 1's assignment from it gives the wrong chapter (ruling: `EDUCATION\wiki\current-position.md`). Also on disk and not previously named here: the **52-file instructor ancillary package** (`Open-TC_Course-Resources\` — templates, rubrics, slides) and **124 worked examples** (`Linked-Resources\`), both under `EDUCATION\raw\`. Plus Purdue OWL, and **the full week-1–14 structure in this map** |
+| **TCOM 2010** | 🔴 **Corrected AGAIN 2026-08-21 — the Aug 18 correction named the wrong file of two, and this row sent you to it.** The reading text is **`Open-TC_Course-Resources\Open-TC-PDF.pdf`** — **7.67 MB, 634 pages**, and **every page number in `semester-reading-plan.md`, `open-tc-page-map.md`, `week-zero-plan.md` and `FallKSU.xlsx` is a page in *this* file.** Verified this session by extraction: its p149 is *2.13 Memos and Emails* and its p174 is *Ch 3 Ethics*, exactly as the plans claim. The 9.21 MB `Textbook Doc Files\Open Technical Communication.pdf` is a **different artifact — a 353-page SoftChalk web print-out** of the same edition; its p149 is *Writing Process* and its p174 is *Audience Analysis*. Same chapters, **incompatible pagination, and no usable page numbers of its own.** Six vault files called these two "duplicate copies"; they are not. **`2e_Word\` remains a separate and worse trap and must not be used for navigation** — a later flat 0–29 renumbering, missing chapters 25–28, whose **Ch 3 is *Library and Internet Research* where the syllabus's Ch 3 is *Ethics***; reading week 1's assignment from it gives the wrong chapter (ruling: `EDUCATION\wiki\current-position.md`). Also on disk and not previously named here: the **52-file instructor ancillary package** (`Open-TC_Course-Resources\` — templates, rubrics, slides) and **124 worked examples** (`Linked-Resources\`), both under `EDUCATION\raw\`. Plus Purdue OWL, and **the full week-1–14 structure in this map** |
 | **ECON 1000** | OpenStax *Principles of Economics 2e* · CORE Econ *The Economy 2.0* · FRED datasets |
 | **ENGR 1000** | Three neighboring Fall 2026 web syllabi establish a provisional seven-assignment course shape, no textbook, 50/50 grading, hard deadlines, and AI prohibition. Safe rehearsal is D2L-check/navigation only; do not pre-do their assignments |
 

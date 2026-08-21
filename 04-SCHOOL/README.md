@@ -19,6 +19,7 @@ of truth.
 |---|---|
 | What do I need to do and check off? | `FallKSU.xlsx` |
 | What is due, how heavy is the week, and where are the collisions? | `semester-workload-plan.md` |
+| **When in the day do I actually study, and what?** | **`weekly-study-schedule.md`** |
 | What should I read, and to what page? | `semester-reading-plan.md` |
 | What are the verified dates, rooms, weights, and course policies? | `SEMESTER_MAP.md` |
 | Which syllabus/source is binding, provisional, or still missing? | `SYLLABUS_STATUS.md` |

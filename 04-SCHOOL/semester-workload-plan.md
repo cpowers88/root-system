@@ -286,14 +286,24 @@ Risk is rated against the ~11.75 campus hours plus a normal evening load. 🟢 o
 | 7 | Oct 5–11 | **CSE TEST 1 (Mon Oct 5, Modules 1–2)** · Assignment 4 · **TCOM Font Style for MS Word QUIZ (Tue Oct 6)** · TCOM report PPT group orals (Thu Oct 8) · **report build runs weeks 6–12** | ~19 h | 🟡 |
 | 8 | Oct 12–18 | 🔴 **PHYS UNIT EXAM 2 (Mon Oct 12)** · 🆕 **CSE 1321L MIDTERM, 20% (~Tue Oct 13 — confirm in D2L)** · **CSE Quiz 4 (Sun Oct 18)** · 🎯 **TCOM report checkpoint 1 — Introduction, Tue Oct 13** | ~24 h | 🔴 |
 | 9 | Oct 19–25 | **CSE Quiz 5 (Sun Oct 25)** · **ECON Quiz Ch 7-8-9 (week of Oct 20)** · 🎯 **TCOM report checkpoint 2 — Project Description, Tue Oct 20** · Lab 9 | ~19 h | 🟡 |
-| 10 | Oct 26–Nov 1 | 🎯 **TCOM report checkpoint 3 — Recommendation & Conclusion, Tue Oct 27** · **TCOM Progress Report email due Thu Oct 29** · Lab 10 · Assignment 5 | ~16 h | 🟢 |
-| 11 | Nov 2–8 | 🔴 **PHYS UNIT EXAM 3 (Wed Nov 4)** · **CSE Quiz 6 (Sun Nov 8)** · 🎯 **TCOM report checkpoint 4 — Exec Summary/Transmittal/Slides/References + Rough Draft post, Tue Nov 3** · **TCOM peer reviews due Thu Nov 5** | ~21 h | 🔴 |
+| 10 | Oct 26–Nov 1 | **CSE Quiz 6 (Sun Nov 1)** · 🎯 **TCOM report checkpoint 3 — Recommendation & Conclusion, Tue Oct 27** · **TCOM Progress Report email due Thu Oct 29** · Lab 10 · Assignment 5 | ~17 h | 🟢 |
+| 11 | Nov 2–8 | 🔴 **PHYS UNIT EXAM 3 (Wed Nov 4)** · **CSE Quiz 7 (Sun Nov 8)** · 🎯 **TCOM report checkpoint 4 — Exec Summary/Transmittal/Slides/References + Rough Draft post, Tue Nov 3** · **TCOM peer reviews due Thu Nov 5** | ~21 h | 🔴 |
 | 12 | Nov 9–15 | 🔴🔴 **CSE TEST 2 (Mon Nov 9)** · **TCOM TECHNICAL REPORT + REFLECTIVE MEMO DUE Thu Nov 12** + Group Presentations Tue & Thu · **ECON Quiz Ch 10-11-12 (week of Nov 10)** · Labs 11–12 · Assignment 6 | **~26 h** | 🔴 |
-| 13 | Nov 16–22 | 🔴 **PHYS UNIT EXAM 4 (Wed Nov 18)** · **CSE Quiz 7 + Quiz 8 (Thu Nov 19)** · TCOM Instructions Steps written in class (Tue Nov 17) · **TCOM LAB DAY Thu Nov 19 — bring polished instructions, all equipment, printed worksheet** · ECON Financial Literacy + extra-credit quiz | ~23 h | 🔴 |
+| 13 | Nov 16–22 | 🔴 **PHYS UNIT EXAM 4 (Wed Nov 18)** · **CSE Quiz 8 (Sun Nov 22)** · TCOM Instructions Steps written in class (Tue Nov 17) · **TCOM LAB DAY Thu Nov 19 — bring polished instructions, all equipment, printed worksheet** · ECON Financial Literacy + extra-credit quiz | ~21 h | 🟡 |
 | — | Nov 23–29 | **FALL BREAK — no classes.** The only real catch-up window in the back half | — | 🟢 |
 | 14 | Nov 30–Dec 6 | 🔴 **ECON FINAL EXAM (Thu Dec 3, Ch 7–12)** · **CSE Quiz 9 (Sun Dec 6)** · **TCOM Instructions Group Project due Thu Dec 3 — last TCOM class** · TCOM Extra Credit due Tue Dec 1 · Lab 13 · Assignment 7 | ~21 h | 🔴 |
 | 15 | Dec 7 | **CSE Quiz 10 (Mon Dec 7)** — last day of classes. **No TCOM meeting** (TTh course) | ~8 h | 🟢 |
-| F | Dec 8–14 | **PHYS FINAL (Wed Dec 9, 8:00–10:00 AM, comprehensive)** · CSE Final Exam · CSE 1321L final · **ECON and TCOM are already finished** | ~20 h | 🔴 |
+| F | Dec 8–14 | **PHYS FINAL (Wed Dec 9, 8:00–10:00 AM, comprehensive)** · 🆕 **CSE 1321 FINAL (Mon Dec 14, 3:30–5:30 PM)** · CSE 1321L final (date from D2L) · **ECON and TCOM are already finished** | ~20 h | 🔴 |
+
+> **🆕 CSE quiz dates corrected 2026-08-21 from the official departmental schedule**
+> (`cse1321_tentative_schedule_fall26_v4.docx`, linked from the CCSE FYE page that the
+> syllabus itself names as the exam-date authority; downloaded and parsed this session).
+> **Quiz 6 Nov 1 (not Nov 8) · Quiz 7 Nov 8 (not Nov 19) · Quiz 8 Nov 22 (not Nov 19).**
+> The vault had been missing a quiz week and stacking two on one wrong date.
+> **Net effect is favourable:** week 13 loses a quiz it never had and drops 🔴 → 🟡, week 10
+> gains one. **The CSE 1321 final is Mon Dec 14, 3:30–5:30 PM** — section BF's own row, no
+> longer an unknown, and it is the **last assessment of the semester.** Confirm against D2L
+> in week 1; an instructor may deviate from the departmental schedule.
 
 ---
 

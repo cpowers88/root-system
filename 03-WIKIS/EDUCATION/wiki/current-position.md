@@ -145,10 +145,26 @@ destructively: **its Ch 3 is *Library and Internet Research* where the syllabus'
 *Ethics***; Ethics is its Ch 23, Audience Analysis its Ch 24, Emails/Memos its Ch 12. It is also
 **missing chapters 25–28.**
 
-**Ruling: supplement only, never a navigation source.** The verified copy is
-`raw\Textbook Doc Files\Open Technical Communication.pdf` (9.21 MB, 2019 KSU DigitalCommons),
-whose decimal chapters match the syllabus *and* the 124-file `Linked-Resources\` numbering
-exactly. Worth keeping `2e_Word\` for two things only: its Ch 5 covers *Quoting, Paraphrasing,
+**Ruling: supplement only, never a navigation source.**
+
+### 🔴 Second textbook trap, found 2026-08-21 — there are THREE files, not two
+
+The Aug 17 ruling named `raw\Textbook Doc Files\Open Technical Communication.pdf` (9.21 MB)
+as "the verified copy," and six vault files copied that. **It is the wrong one of two
+non-`2e_Word` files.**
+
+| File | Pages | p149 | p174 | Use |
+|---|---|---|---|---|
+| `raw\Open-TC_Course-Resources\Open-TC-PDF.pdf` (7.67 MB) | **634** | *2.13 Memos and Emails* | *Ch 3 Ethics* | ✅ **THE reading copy.** Every page number in the plans is a page here |
+| `raw\Textbook Doc Files\Open Technical Communication.pdf` (9.21 MB) | 353 | *Writing Process* | *Audience Analysis* | ⚠ SoftChalk **web print-out**. Same chapters, incompatible pagination, **no page numbers of its own** |
+| `raw\Textbook Doc Files\2e_Word\` | — | — | — | ⛔ Trap (flat 0–29, missing 25–28) |
+
+Both non-trap files carry the correct decimal *chapter* scheme, which is why the Aug 17
+check passed — **it verified chapter numbering and the vault then used the file for page
+numbering.** The lesson is the same one as the `LastName_04_` defect two days earlier: a
+source verified on one property was trusted on a different one.
+
+Worth keeping `2e_Word\` for two things only: its Ch 5 covers *Quoting, Paraphrasing,
 Plagiarism **and AI***, which postdates the 2019 edition, and its Ch 9 carries the full
 proofreading symbol sets that feed the Week 7 Font Style quiz.
 

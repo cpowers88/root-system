@@ -38,7 +38,7 @@ tags: [baseline]
 
 | Capability or track | CASTLE state | Proof frontier | Owner truth |
 |---|---|---|---|
-| Physics | building — Stage 4 open at circular-motion drills 1–4 | **Next rep: circular-motion drills 1–4** (closes Stage 4; 6.1–6.2 is on Unit Exam 1, Sep 21) — this outranks row 4, which is unrun and worth a half block. **Row 2 `proven (durable)` 2026-08-18. Row 3 ❌ MISSED its durability check 2026-08-19, reopened Fri Aug 21 – Sat Aug 22**, error class *concept — set structure* | PHYSICS wiki current-position + math-readiness-path |
+| Physics | building — Stage 4 open at circular-motion drills 1–4 | **Next rep: read §4.4 and §§6.1–6.2, then circular motion worked → faded → fresh cold transfer.** The 2026-08-21 cold attempt got the 5.0 m/s² magnitude but missed precise inward direction and the real force; Problems 1–2 are now lesson material and Problems 3–4 remain untouched cold. **Row 2 `proven (durable)` 2026-08-18. Row 3 ❌ MISSED AGAIN 2026-08-21**, reopened Sun Aug 23 – Mon Aug 24; error class *equation choice/units* | PHYSICS wiki current-position + math-readiness-path |
 | Python | building — **Stage 4b** (Stage 4 closed 2026-07-29) | **C1** — `53`/`NameError` plus an independent `average(numbers)`; then import one standard-library module and wrap one library call in his own function | PYTHON wiki current-position |
 | SQL/SQLite | building — July weak link; guided two-table fixture verified July 21 | Independently query or extend the Bootcamp fixture; use verified tracker data when D2L populates | [[sql]] + [[ksu-academic-tracker]] + TECHNOLOGY owner |
 | Data visualization | building — first rep verified | A justified visual another person can trace and use for a decision | Technology Strategy + live proof vehicle |

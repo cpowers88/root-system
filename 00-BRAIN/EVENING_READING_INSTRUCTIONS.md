@@ -176,8 +176,14 @@ ENGR nights had no stated source. **Each course's reading comes from its own own
 | **ECON 1000** | `03-WIKIS\EDUCATION\wiki\courses\econ-1000\semester-map.md` | `EDUCATION\raw\Syllabi\` (exact) |
 | **ENGR 1000** | ⛔ **none — no Fall BWD syllabus.** Orientation and source verification only; never assign invented Fall content from the Summer reference section | reference-only |
 
-**TCOM's textbook is `03-WIKIS\EDUCATION\raw\Textbook Doc Files\Open Technical Communication.pdf`
-— the decimal-numbered copy.** Never cite `2e_Word\`: it is a later flat 0–29 renumbering whose
+**TCOM's textbook is `03-WIKIS\EDUCATION\raw\Open-TC_Course-Resources\Open-TC-PDF.pdf`
+— 634 pages, no page offset, the file every page number in the plans refers to.**
+🔴 **Corrected 2026-08-21:** this line previously named
+`raw\Textbook Doc Files\Open Technical Communication.pdf`. That is a **different artifact** —
+a 353-page SoftChalk web print-out of the same edition, with the same chapters but
+**incompatible pagination and no page numbers of its own.** Cite a page from it and Chris
+reads the wrong section: its p149 is *Writing Process*, not *2.13 Memos and Emails*.
+Never cite `2e_Word\` either: it is a later flat 0–29 renumbering whose
 Ch 3 is *Library and Internet Research* where the syllabus's Ch 3 is *Ethics*, and it is missing
 chapters 25–28. Assigning a chapter number from it sends Chris to the wrong reading.
 

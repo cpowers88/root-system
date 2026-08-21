@@ -10,8 +10,10 @@ created: 2026-07-21
 Maps the real, exact-section syllabus schedule (see
 `../../course-briefs/fall-2026-course-briefs.md` and `04-SCHOOL\03-TCOM\`) to the
 actual assigned textbook (*Open Technical Communication*,
-`raw\Open-TC_Course-Resources\Open-TC-PDF.pdf`; duplicate titled copy at
-`raw\Textbook Doc Files\Open Technical Communication.pdf`),
+`raw\Open-TC_Course-Resources\Open-TC-PDF.pdf` — 634 pages, the page source for
+everything here; the titled copy at `raw\Textbook Doc Files\Open Technical
+Communication.pdf` is **not a duplicate but a 353-page web print-out** with
+incompatible pagination, corrected 2026-08-21),
 its instructor ancillary package (`raw\Open-TC_Course-Resources\`), and its
 per-example worked files (`raw\Linked-Resources\`, numbered by the book's own
 chapter.section scheme, e.g. `2-1_` = Chapter 2, section 1).

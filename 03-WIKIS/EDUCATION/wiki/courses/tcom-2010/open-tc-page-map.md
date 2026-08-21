@@ -36,7 +36,15 @@ That makes it the *simplest* of the three course texts to cite, and the opposite
 where PDF page = printed page + 30.
 
 **File:** `03-WIKIS\EDUCATION\raw\Open-TC_Course-Resources\Open-TC-PDF.pdf` · **634 physical
-pages** · duplicate titled copy at `raw\Textbook Doc Files\Open Technical Communication.pdf`.
+pages**. **This map is valid for that file and no other.**
+
+🔴 **Corrected 2026-08-21.** This line previously called
+`raw\Textbook Doc Files\Open Technical Communication.pdf` a "duplicate titled copy." **It is
+not a duplicate.** It is a **353-page SoftChalk web print-out** of the same edition —
+same chapters, completely different pagination, and no page numbers of its own. Verified by
+extraction: in the 634-page file p149 is *2.13 Memos and Emails* and p174 is *Ch 3 Ethics*;
+in the 353-page file p149 is *Writing Process* and p174 is *Audience Analysis*. **Every page
+number below is wrong by roughly 25 pages and rising if applied to that file.**
 
 ### ⛔ The wrong copy, restated because it has already cost reps
 

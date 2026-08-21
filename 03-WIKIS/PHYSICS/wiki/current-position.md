@@ -88,7 +88,17 @@ cold rebuild 48–72 h later, with no scaffold.
 
 | Rep | Passed (immediate) | Durability check due | State |
 |---|---|---|---|
-| Math row 3 — cold rebuild of the three 1D kinematics equations | 2026-08-17 (midday) | ~~Wed Aug 19 – Thu Aug 20~~ → **Fri Aug 21 – Sat Aug 22** | ❌ **MISSED 2026-08-19, reopened** |
+| Math row 3 — cold rebuild of the three 1D kinematics equations | 2026-08-17 (midday) | ~~Wed Aug 19 – Thu Aug 20~~ → ~~Fri Aug 21 – Sat Aug 22~~ → **Sun Aug 23 – Mon Aug 24** | ❌ **MISSED AGAIN 2026-08-21, reopened** |
+
+**Row 3 missed again 2026-08-21 on the re-aimed no-time transfer.** Given a cart changing
+from 14.0 m/s to 26.0 m/s over 60.0 m, Chris first selected
+`a = (v_f - v_0) / delta_x` and answered 5 m/s². The expression has units of s⁻¹, not
+acceleration, and the arithmetic also reversed the division. After a units cue he answered
+4.0 m/s² and then identified the correct relationship,
+`a = (v_f² - v_0²) / (2 delta_x)`. The same-session repair was correct, but the cold
+selection was not. **Error class: equation choice/units; execution after recognition.**
+The next durability window is **Sun Aug 23 – Mon Aug 24**, using a fresh changed-parameter
+no-time transfer.
 
 **Row 3 missed its durability check 2026-08-19 (12:00, run on its floor).** Both integrations
 and both constants were correct and cold; **the third equation was absent** and the set was
@@ -143,6 +153,16 @@ Neighbor-section pacing estimate: F Sep 4 and W Sep 9, 2026; these are not
 confirmed Section 54 dates. Packet already source-verified 2026-07-07 (Section
 4.5 tangential/radial acceleration gap fixed) — ready to work from a clean
 start, no prerequisite gaps.
+
+**Circular-motion cold attempt 2026-08-21 did not pass.** On Problem 1 Chris correctly
+computed 5.0 m/s², but described the direction as "towards the curve" instead of toward
+the center and did not name static friction as the real inward force until correction;
+the later explanation still tied the force to tire angle. **Error class: concept recall —
+real force versus the centripetal role.** Chris then reported that the equations had not
+been reviewed in more than six months and requested reading plus a lesson. Read §4.4
+(printed pp. 81–83) and §§6.1–6.2 (printed pp. 128–134), then use
+worked → faded → fresh cold transfer. Problems 1–2 are now lesson material and require
+changed-parameter replacements; Problems 3–4 remain untouched cold items. Stage 4 stays open.
 
 **Stage 3 — Vectors (Ch 3): CLOSED 2026-07-16.** Full mastery checklist passed cold, no notes, in one session — coordinate conversion, scalar/vector ID (two examples each), decomposition, reconstruction, non-axis-angle addition, and unit-vector explanation. See [[stages/stage-3-vectors]] for the closed checklist with each cold-check result, and `wiki/log.md` 2026-07-16 for the full record. Stages 1 and 2 remain assumed-cleared from the July cruise pre-build; confirm their mastery checklists before treating them as done if it's been a while since they were last drilled.
 

@@ -47,13 +47,12 @@ learning does. The immediate priority stays the live `### Today` order below.
 
 ### Today
 
-1. ✅ **PHYS row 3 durability check — RAN 12:00, MISSED, reopened Fri Aug 21 – Sat Aug 22.**
-   Both integrations and constants correct cold; **the third equation was absent** and the set
-   was asserted complete. Recovered on one structural cue — still a miss, because the bar is
-   *no scaffold*. Error class: **concept — set structure.** The reopened rep is **re-aimed and
-   is not a re-list**: a problem with no `t` given and no `t` wanted, Chris names the equation
-   and says why the absence of `t` selects it. §54 supplies the equation sheet, so recitation
-   earns nothing and selection earns everything.
+1. ❌ **PHYS row 3 durability check — MISSED AGAIN Aug 21; reopened Sun Aug 23 – Mon Aug 24.**
+   On a 14.0→26.0 m/s over 60.0 m transfer, the first selection was
+   `a = (v_f - v_0) / delta_x`, with units s⁻¹ rather than m/s². The correct no-time
+   relationship and 4.0 m/s² answer landed after a units cue. Error class:
+   **equation choice/units; execution after recognition.** Next check is a fresh
+   changed-parameter no-time transfer, cold and without a sheet.
 2. ✅ **CSE Module 0 concept chain closed** — lecture-vs-lab distinction landed, 3/3 on the
    transfer. Policy remainder is a skim. Not stage-advancing.
 3. ✅ **TCOM block 1 RAN — lane open, quiz sheet built.** Cold diagnostic **~3 of 8** on course
@@ -66,10 +65,12 @@ learning does. The immediate priority stays the live `### Today` order below.
    **⏭ Resume at Part B** (~8 uncued policy facts), then a spaced re-rep of the four filename
    strings before Tue Aug 25. *(Quizzes are assigned Tue Aug 25 and due Tue Sep 1 — **no late
    credit, ever**. Ch. 2.13 Emails & Memos is the reading block.)*
-4. **PHYS: circular-motion drills 1–4 outranks row 4.** It closes Stage 4, has blocked the
-   frontier since July, and 6.1–6.2 sits on Unit Exam 1 (Mon Sep 21). **Row 4 is a half block,
-   not a full one** — two of its three problems duplicate row 2's proven ground; its unique
-   content is the v–t graph area and average-vs-instantaneous.
+4. **PHYS circular motion — read, lesson, then fresh cold transfer.** Aug 21 Problem 1 had
+   the correct 5.0 m/s² magnitude but missed precise inward direction and the real force
+   cold. Read §4.4 pp. 81–83 and §§6.1–6.2 pp. 128–134; then run worked → faded → fresh
+   changed-parameter problems. Problems 1–2 are lesson material; Problems 3–4 remain
+   untouched cold. The printable master formula/selection sheet is in
+   `04-SCHOOL\02-Physics I\work\exam-prep\output\pdf\`.
 
 **Standing rule, new Aug 18 — WebAssign extensions.** Late homework is a flat zero because
 answer keys post at the deadline, **but** an extension can be granted *with penalty* if
@@ -94,6 +95,34 @@ not unknown formulas. Symbolic form was modelled for the first time on Aug 18 (d
 the answer back and recover `a(t)`). **Watch on row 4. Do not re-explain it.**
 
 ## Frontier Changes — clears once shown
+
+- **🕐 NEW — `04-SCHOOL\weekly-study-schedule.md`: the first schedule built from Chris's actual
+  calendar.** Three of the vault's time assumptions were wrong. **Tuesday is ~2.75 h of study,
+  not the "6.8 h biggest block of the week"** the workbook claims — gym sits 13:00–15:00 inside
+  it. **Evening study is 3.0 h/week, Mon and Wed only** — every other evening is Ben from 20:00,
+  so the evening-reading model of 2.3–3.5 h/night does not exist in his week. **Total scheduled
+  study is 26.2 h against a ~28 h all-A figure and a 26 h worst week** — zero slack across seven
+  collision weeks. **Fix: three unclaimed on-campus blocks — Fri 10:05–11:30 (between the PHYS
+  lecture and its recitation, the best unused block in the week), Tue 11:00–12:30, Thu
+  14:00–15:00. +3.9 h → 30.1 h, none of it taken from family time.**
+
+- **📕 CSE 1321 dates corrected 2026-08-21 from the official departmental Fall schedule.**
+  **Quiz 6 → Sun Nov 1 · Quiz 7 → Sun Nov 8 · Quiz 8 → Sun Nov 22 · FINAL EXAM → Mon Dec 14,
+  3:30–5:30 PM.** The vault was missing a quiz week and stacking two on Nov 19. **Week 13 drops
+  🔴 → 🟡** — it no longer carries two quizzes the day after PHYS Unit Exam 4. Module 7 exists
+  (Review, wk 14); there is no Module 8. The "Dec 07" week-1 quiz anomaly is **retired** — it is
+  printed in the official Fall document and is a genuine open-all-semester deadline.
+
+- **🔴 A second TCOM textbook trap — and this one was labelled as the correct file.** There are
+  **three** artifacts, not two. `Open-TC-PDF.pdf` is **634 pages** and is what every page number
+  in every plan refers to; `Open Technical Communication.pdf` (9.21 MB) is a **353-page web
+  print-out** — same chapters, incompatible pagination. **Six vault files called them duplicates,
+  including the page-map authority itself and `EVENING_READING_INSTRUCTIONS.md`, which named only
+  the wrong one.** Today's week-zero task was to read pp 149–163, so it was live. All six
+  corrected. **Root cause: the Aug 17 check verified the chapter scheme, and the vault then
+  trusted the file for page numbers** — the same failure shape as the `LastName_04_` defect two
+  days earlier. **That is the third instance in five days of a source verified on one property
+  and trusted on another; the candidate standing rule now has its evidence.**
 
 *PHYS §54's binding-syllabus line cleared 2026-08-19 — shown in the Aug 18 brief. It is now
 ordinary standing truth in `PHYSICS\wiki\semester-pathway.md` and `04-SCHOOL\SEMESTER_MAP.md`.*

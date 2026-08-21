@@ -4,6 +4,7 @@ timeline: reference
 register: ai-profile
 tags: [governance, codex]
 created: 2026-07-10
+updated: 2026-08-21
 status: live
 ---
 
@@ -18,6 +19,10 @@ Codex is especially strong at repository exploration, structural diagnosis, refe
 ## Outcome Rule
 
 Follow a clear request through the accessible work needed to finish it. Do not stop at a brief when Chris has authorized implementation. Do not edit when the request is explicitly report-only or when governance approval is still missing.
+
+## Terminal Math
+
+When speaking to Chris through a terminal or CLI, render equations as readable plain text with ordinary operators and explicit parentheses, for example `a = (v_f^2 - v_0^2) / (2 * delta_x)` and `m/s^2`. Reserve LaTeX delimiters and document-quality mathematical typesetting for files, artifacts, or interfaces confirmed to render them.
 
 ## Read Before Touch
 

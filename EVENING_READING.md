@@ -2,15 +2,15 @@
 type: dashboard
 timeline: now
 tags: [learning, school]
-generated: 2026-08-19
+generated: 2026-08-20
 ---
 
-# Evening Reading — August 19, 2026
+# Evening Reading — August 20, 2026
 
 ## School
 
-**READ —** *Open Technical Communication*, `03-WIKIS/EDUCATION/raw/Open-TC_Course-Resources/Open-TC-PDF.pdf`, **§2.13 Emails & Memos**.
+**READ —** *Open Technical Communication*, `04-SCHOOL/03-TCOM/Textbook Doc Files/Open-TC-PDF.pdf`, **§2.13 Memos and Emails, pp. 149–163** — **634 pages, no offset.** Never `2e_Word\`, and never the 353-page `Open Technical Communication.pdf` (archived today; its p149 is the wrong section).
 
-**FOCUS —** **Week-1 catch-up, TCOM first** — primes the instructor email due Tue Aug 25 and the Business Email unit; **use this decimal-numbered copy, never `2e_Word\`**.
+**FOCUS —** **Week-1 catch-up, TCOM first** — primes the instructor email and Business Email unit, and pairs with `[[concepts/audience-purpose-genre]]` per today's execution plan; **explain how reader, purpose, subject, opening, action, and tone change a professional email.**
 
-**STOP —** Cap 20 minutes; stop at the §2.13 section boundary, before Ch 3 Ethics, which is Saturday's block.
+**STOP —** Cap 20 minutes; stop at the §2.13 section boundary (p. 163), before §2.12 or Ch 3, which belong to other nights.
