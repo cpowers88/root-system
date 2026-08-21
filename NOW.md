@@ -96,6 +96,21 @@ the answer back and recover `a(t)`). **Watch on row 4. Do not re-explain it.**
 
 ## Frontier Changes — clears once shown
 
+- **🏰 CASTLE reconciled and given a grade instrument 2026-08-21 (flag #103's overdue pass).**
+  All 13 capability rows checked against their owners; **11 verified unchanged with last-touch
+  dates recorded, 2 learner rows reconciled, 1 row added.** The row that was missing is the one
+  that matters: **CASTLE tracked capability monthly and grades not at all**, against a target of
+  90% in five courses that moves weekly. **Two new instruments, both wired to the Sunday return
+  (`OPERATIONS.md` § Reviews item 4), not left as dashboards:** the GRADE TRACKER standing block
+  in `FallKSU.xlsx` (rows 40–45 — live formulas, `WATCH` under 90, `ACTION` under 87) and
+  **`04-SCHOOL\miss-log.md`**, one log across all five courses. **No wiki restructure** — Chris's
+  call after the evidence showed Aug 7–17 was a cadence failure, not a structural one; deferred
+  to the monthly review. Also closed: REVENUE_LAB's Lane A question, **open four weeks because
+  the answer was never returned to the hub that asked.**
+
+  **Active Lane re-verified against CASTLE owner truth and UNCHANGED** — Week D, school-first.
+  Control is back at the cockpit; the review is finished.
+
 - **🕐 NEW — `04-SCHOOL\weekly-study-schedule.md`: the first schedule built from Chris's actual
   calendar.** Three of the vault's time assumptions were wrong. **Tuesday is ~2.75 h of study,
   not the "6.8 h biggest block of the week"** the workbook claims — gym sits 13:00–15:00 inside

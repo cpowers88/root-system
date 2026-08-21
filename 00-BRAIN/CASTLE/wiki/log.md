@@ -1925,6 +1925,12 @@ remain open, not urgent tonight.
   `ALLOWED_SCRIPTS`, so no session could invoke them. Each was read before being named;
   `verify_backup_restore.py` is annotated as **not** read-only. Gate's own 70-case suite
   passes; `castle_freshness.py` **PASS (2026-08-21)**.
+- **Return-to-cockpit gate (Session Close 7) satisfied.** This session's primary work was a
+  system review, so the gate applies: **`NOW.md`'s Active Lane was re-verified against CASTLE
+  owner truth and is unchanged** — Week D, school-first per the Aug 19 ruling. The review is
+  finished and control is back at the cockpit. Recorded here because the rule exists precisely
+  so that nothing has to *notice* a review has ended.
 - **Next:** Aug 22 dress rehearsal is the first live test of the grade and miss instruments.
   **Aug 23** acceptance checkpoint — #103, #102, backup review, and the Sunday return running
-  item 4 for the first time.
+  item 4 for the first time. **#103's last open condition is the fresh-session CASTLE-first
+  test, which by definition cannot run in the session that did the work.**
