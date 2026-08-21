@@ -107,8 +107,32 @@ ACL-locked and raise access-denied on enumeration; they are excluded as
 regenerable pytest artifacts. Before that exclusion the job returned exit 9 —
 a failure — on every run.
 
-`G:\My Drive\New folder\.ROOT` is a stale snapshot only; neither it nor Drive
-sync is a working tree or AI boot target going forward.
+**⚠ Identify before deleting any second `.ROOT` you find. Corrected 2026-08-21** — this
+paragraph previously read *"neither it nor Drive sync is a working tree or AI boot target
+going forward,"* which was true in the July 17 retirement era and contradicts lines 39–54 of
+this same file, where the **Aug 16 relink is recorded as live and measured**. Read as written,
+it could authorise deleting the live off-machine backup — the only copy of `88-JOURNAL`, every
+`raw\`, and 351 PDFs.
+
+**Two standing rules, stated by Chris 2026-08-21. They are not in tension — read both.**
+
+1. **Google Drive is the live backup. Do not delete it.** The mirror under **Computers →
+   [device name] → `.ROOT`** at drive.google.com is `sync_type 1 (mirror)`, `state 2 (active)`
+   per lines 39–45. It never appears under `My Drive`, which is precisely why it can read as a
+   stray copy from another machine. It is the only off-machine copy of `88-JOURNAL`, every
+   `raw\`, and 351 PDFs.
+2. **WE DO NOT WORK IN THE GOOGLE DRIVE `.ROOT` FOLDER, EVER.** Not an edit, not a script
+   target, not a boot target, not a "quick fix from the other machine." The sole working tree
+   is `C:\Users\chris\.ROOT`; the campus laptop works through its git clone
+   (`CAMPUS_LAPTOP_BUILD.md` §6). Backup and workspace are different jobs and Drive only has
+   the first one.
+
+**On the older snapshots** — `G:\My Drive\New folder\.ROOT`, and the `desktop_folder_maybe\.ROOT`
+(16,091 files, Aug 9) that flag #102 records as still present: these are retirement-era
+snapshots, not sync targets, and rule 2 covers them too. **Identify before deleting, and the
+deletion is Chris's call, not an AI's** — an AI cannot distinguish a stale snapshot from the
+live mirror by looking at a folder name, which is the entire reason this paragraph was wrong
+before.
 
 Standing rules that involve the local machine:
 - Real code (anything with a repo, venv, or node_modules) lives at `D:\DEV` + GitHub, never in the vault or its cloud backup (WHERE_IT_GOES.md § Format Rules).

@@ -7,302 +7,91 @@ tags: []
 
 # NOW — Friday, August 21, 2026
 
-> ## ▶ `.ROOT` IS RUNNING. Chris gave `OK TO START` on 2026-08-17.
->
-> The pause declared 2026-08-12 is lifted and the finding freeze is over. `AGENT.md`
-> Execution Discipline 1 resumes in full: **the day's primary proof comes before any
-> optional system work.** The runway's scoped suspension of that rule ends here.
+## Active Lane — Week D, the last pre-semester week
 
-## Active Lane — Week 1, run early
+`CASTLE\wiki\weekly-plans\weekly-plan-2026-08-17-to-2026-08-23.md` owns the week: Fall
+Week 1's real assignment track, run five days early on material already on disk. Reading,
+drafting and drills — **not submissions**.
 
-**`CASTLE\wiki\weekly-plans\weekly-plan-2026-08-17-to-2026-08-23.md`** owns the week.
-Run Fall Week 1's real assignment track five days early, on material already on disk,
-filing each output into its real `04-SCHOOL\<course>\work\` bay. Buffer is reading,
-drafting and drills — **not submissions**; D2L gates graded work until Aug 24.
+**School is the active agenda** (Chris-ruled 2026-08-19). Fixed course deadlines and current
+course proof outrank optional business, project and system work. CASTLE maintenance shrinks
+before learning does.
 
-**Gate:** every lane run once before Aug 22, weakest re-run at the dress rehearsal.
-**Fallback if a day collapses:** protect the PHYS and PYTHON resume points below;
-everything else slides.
+> ⏭ **Mode change Mon Aug 24.** Active Lane becomes
+> `CASTLE\wiki\weekly-plans\weekly-plan-2026-08-24-to-2026-08-30.md`. **Four flips happen
+> together or today's state hygiene regresses:** Week 1 → `now`/`active` · Week D →
+> `log`/`complete` · Phase 1 → `status: active` **and its § Next Action prose** · this page →
+> semester mode.
 
-**Semester priority — Chris-ruled 2026-08-19:** school is the active agenda.
-Fixed course deadlines, attendance, and the current course proof outrank optional
-business, project, and system work. The protected technology/business floor remains
-available only when school commitments allow; CASTLE maintenance shrinks before
-learning does. The immediate priority stays the live `### Today` order below.
+### Open now
 
-> ### ⏭ This page changes mode on Mon Aug 24 — 5 days out
->
-> Everything above the Fixed and Dated section is **pre-semester rehearsal framing** and stops
-> being true when classes begin. From Aug 24 the Active Lane is the current week of
-> **`04-SCHOOL\semester-workload-plan.md` §3**, which owns weekly load, deadlines and collision
-> risk for all five courses, and the ✅ items below get cleared rather than accumulated.
->
-> **Do this rewrite on Aug 23 at the pre-semester review**, together with the seven D2L
-> reconciliation checks in that plan's §8. Recorded here because a cockpit that describes a
-> phase which has ended is the failure mode this file exists to prevent.
->
-> **Freshness rule, added 2026-08-18:** the `### Today` list is a *today* list. Completed items
-> belong in the DAILY, not stacked here — three of its entries were already ✅ when this note
-> was written, which is how the page starts reading as stale even on the day it was edited.
-
-### Today
-
-1. ❌ **PHYS row 3 durability check — MISSED AGAIN Aug 21; reopened Sun Aug 23 – Mon Aug 24.**
-   On a 14.0→26.0 m/s over 60.0 m transfer, the first selection was
-   `a = (v_f - v_0) / delta_x`, with units s⁻¹ rather than m/s². The correct no-time
-   relationship and 4.0 m/s² answer landed after a units cue. Error class:
-   **equation choice/units; execution after recognition.** Next check is a fresh
-   changed-parameter no-time transfer, cold and without a sheet.
-2. ✅ **CSE Module 0 concept chain closed** — lecture-vs-lab distinction landed, 3/3 on the
-   transfer. Policy remainder is a skim. Not stage-advancing.
-3. ✅ **TCOM block 1 RAN — lane open, quiz sheet built.** Cold diagnostic **~3 of 8** on course
-   policies; **the two confident wrong answers were PHYS rules imported into TCOM.**
-   Error class: **cross-course rule contamination** — five courses, five late policies, none
-   alike. File naming went from "no idea" to two exact strings in three reps.
-   **Study instrument:** `EDUCATION\wiki\courses\tcom-2010\concepts\course-policies-and-file-naming.md`.
-   **Corrected:** two hub pages were teaching `LastName_04_AssignmentName.docx` as *required* —
-   it is a **fallback**, and every string the syllabus prints breaks it.
-   **⏭ Resume at Part B** (~8 uncued policy facts), then a spaced re-rep of the four filename
-   strings before Tue Aug 25. *(Quizzes are assigned Tue Aug 25 and due Tue Sep 1 — **no late
-   credit, ever**. Ch. 2.13 Emails & Memos is the reading block.)*
-4. **PHYS circular motion — read, lesson, then fresh cold transfer.** Aug 21 Problem 1 had
-   the correct 5.0 m/s² magnitude but missed precise inward direction and the real force
-   cold. Read §4.4 pp. 81–83 and §§6.1–6.2 pp. 128–134; then run worked → faded → fresh
-   changed-parameter problems. Problems 1–2 are lesson material; Problems 3–4 remain
-   untouched cold. The printable master formula/selection sheet is in
-   `04-SCHOOL\02-Physics I\work\exam-prep\output\pdf\`.
-
-**Standing rule, new Aug 18 — WebAssign extensions.** Late homework is a flat zero because
-answer keys post at the deadline, **but** an extension can be granted *with penalty* if
-requested **before** it. **The moment a day collapses, file the extension request first** —
-before recovering the day, not after. Given the last two days, this is the most likely place
-all semester to lose points to something that is not physics.
+1. **PHYS circular motion — the day's primary proof, still open.** Read §4.4 pp 81–83 and
+   §§6.1–6.2 pp 128–134, then worked → faded → **Problems 3–4 cold**. Problems 1–2 are lesson
+   material now. Closes miss-log rows 4–5.
+2. **TCOM — resume at Part B** (~8 uncued policy facts), then a spaced re-rep of the four
+   printed filename strings. **That re-rep needs a weekend block; after Monday is not spacing.**
+3. **Sat Aug 22 — dress rehearsal**, full day on the real Fall timetable. Do not compress.
+   Plus `verify_backup_restore.py` against the live D: backup, into a new empty target.
+4. **Sun Aug 23 — five closes:** flag #102 · flag #103 acceptance · backup review · Phase 1
+   activation and the `root_health.py` wiring decision · the first live Sunday return
+   (grade-tracker dry run + miss-log open rows).
 
 **Held resume points:** PHYSICS → **row 4** (`calculus-links/kinematics-derivatives`) ·
-PYTHON → **C1** (`53`/`NameError` plus an independent `average(numbers)`). Enter a queue at
-its first unrun row, never at today's date.
-
-**Row 2 is `proven (durable)` as of Aug 18.** Rows 2 and 3 never shared a floor; do not run
-them as one.
-
-**🔴 Open learner habit — reframed 2026-08-18 on Chris's own account.** The **reasonableness
-check** is still not firing. Chris's ruling, which supersedes the Aug 17 "missing form, not
-carelessness" reading: *"my form is 100% careless… I can't count the amount of times I dropped
-a value and gotten an answer wrong."* **This raises the habit's value rather than lowering it**
-— dropped and mis-substituted values are exactly what a second-road check catches, and with
-the §54 equation sheet provided at every exam, marks will be lost to unchecked substitutions,
-not unknown formulas. Symbolic form was modelled for the first time on Aug 18 (differentiate
-the answer back and recover `a(t)`). **Watch on row 4. Do not re-explain it.**
+PYTHON → **C1**, unrun since Aug 18. Enter a queue at its first unrun row, never at today's date.
 
 ## Frontier Changes — clears once shown
 
-- **🏰 CASTLE reconciled and given a grade instrument 2026-08-21 (flag #103's overdue pass).**
-  All 13 capability rows checked against their owners; **11 verified unchanged with last-touch
-  dates recorded, 2 learner rows reconciled, 1 row added.** The row that was missing is the one
-  that matters: **CASTLE tracked capability monthly and grades not at all**, against a target of
-  90% in five courses that moves weekly. **Two new instruments, both wired to the Sunday return
-  (`OPERATIONS.md` § Reviews item 4), not left as dashboards:** the GRADE TRACKER standing block
-  in `FallKSU.xlsx` (rows 40–45 — live formulas, `WATCH` under 90, `ACTION` under 87) and
-  **`04-SCHOOL\miss-log.md`**, one log across all five courses. **No wiki restructure** — Chris's
-  call after the evidence showed Aug 7–17 was a cadence failure, not a structural one; deferred
-  to the monthly review. Also closed: REVENUE_LAB's Lane A question, **open four weeks because
-  the answer was never returned to the hub that asked.**
-
-  **Active Lane re-verified against CASTLE owner truth and UNCHANGED** — Week D, school-first.
-  Control is back at the cockpit; the review is finished.
-
-- **🕐 NEW — `04-SCHOOL\weekly-study-schedule.md`: the first schedule built from Chris's actual
-  calendar.** Three of the vault's time assumptions were wrong. **Tuesday is ~2.75 h of study,
-  not the "6.8 h biggest block of the week"** the workbook claims — gym sits 13:00–15:00 inside
-  it. **Evening study is 3.0 h/week, Mon and Wed only** — every other evening is Ben from 20:00,
-  so the evening-reading model of 2.3–3.5 h/night does not exist in his week. **Total scheduled
-  study is 26.2 h against a ~28 h all-A figure and a 26 h worst week** — zero slack across seven
-  collision weeks. **Fix: three unclaimed on-campus blocks — Fri 10:05–11:30 (between the PHYS
-  lecture and its recitation, the best unused block in the week), Tue 11:00–12:30, Thu
-  14:00–15:00. +3.9 h → 30.1 h, none of it taken from family time.**
-
-- **📕 CSE 1321 dates corrected 2026-08-21 from the official departmental Fall schedule.**
-  **Quiz 6 → Sun Nov 1 · Quiz 7 → Sun Nov 8 · Quiz 8 → Sun Nov 22 · FINAL EXAM → Mon Dec 14,
-  3:30–5:30 PM.** The vault was missing a quiz week and stacking two on Nov 19. **Week 13 drops
-  🔴 → 🟡** — it no longer carries two quizzes the day after PHYS Unit Exam 4. Module 7 exists
-  (Review, wk 14); there is no Module 8. The "Dec 07" week-1 quiz anomaly is **retired** — it is
-  printed in the official Fall document and is a genuine open-all-semester deadline.
-
-- **🔴 A second TCOM textbook trap — and this one was labelled as the correct file.** There are
-  **three** artifacts, not two. `Open-TC-PDF.pdf` is **634 pages** and is what every page number
-  in every plan refers to; `Open Technical Communication.pdf` (9.21 MB) is a **353-page web
-  print-out** — same chapters, incompatible pagination. **Six vault files called them duplicates,
-  including the page-map authority itself and `EVENING_READING_INSTRUCTIONS.md`, which named only
-  the wrong one.** Today's week-zero task was to read pp 149–163, so it was live. All six
-  corrected. **Root cause: the Aug 17 check verified the chapter scheme, and the vault then
-  trusted the file for page numbers** — the same failure shape as the `LastName_04_` defect two
-  days earlier. **That is the third instance in five days of a source verified on one property
-  and trusted on another; the candidate standing rule now has its evidence.**
-
-*PHYS §54's binding-syllabus line cleared 2026-08-19 — shown in the Aug 18 brief. It is now
-ordinary standing truth in `PHYSICS\wiki\semester-pathway.md` and `04-SCHOOL\SEMESTER_MAP.md`.*
-
-- **🏰 CASTLE repaired 2026-08-19 (flag #103, Chris-ratified, Codex-seconded).**
-  `CASTLE\wiki\current-position.md` is now the **single home of capability state**;
-  `castle_freshness.py` gates cockpit staleness in every morning brief; Phase 0 closed,
-  Phase 1 is confirmed at the Aug 23 review and activates Aug 24 — where #103's close check runs alongside
-  #102's. **Test week is now:** the cockpit is trusted again from this line forward;
-  report any CASTLE fact that reads stale rather than working around it.
-
-- **📄 EDUCATION's last TCOM gap closed — the semester is now fully dated except ENGR.**
-  Weeks 6–14 extracted and dated; the conversion is *verified* (14 syllabus weeks ↔ 14 Tue/Thu
-  pairs, Aug 25 → Dec 3, break removed). **TCOM has no final exam and ends Thu Dec 3** — with
-  ECON's final also Dec 3, **two of five courses finish before finals week**, so the last push
-  is week 14, not Dec 8–14. **The report's four checkpoints are dated and ungraded**
-  (Oct 13 · Oct 20 · Oct 27 · Nov 3) — they are the only defence against 35% landing on week 12.
-- **📄 TCOM lane opened 2026-08-19 — and `.ROOT`'s own study aids were teaching a wrong rule.**
-  Two `tcom-2010` pages asserted `LastName_04_AssignmentName.docx` as the **required** naming
-  pattern; it is a fallback, and all four strings the syllabus prints break it. **Chris's
-  failed reps reproduced the vault's error**, which is the clearest evidence yet that a study
-  aid can teach a defect straight through to performance. Root cause: both pages were built
-  from the syllabus's *calendar tables* and never from its *policy sections* — half a source
-  read as the whole. Both corrected; authoritative page created. **Candidate standing rule
-  (offered, not adopted): a study aid derived from part of a source names which part.** Second
-  instance in two days — one more and it belongs in `WIKI_SHARED_LAYER.md`.
-
-- **📚 NEW — `04-SCHOOL\semester-reading-plan.md`: every week, every course, chapter, section
-  and exact page.** Read it Sunday alongside `semester-workload-plan.md` §3 — that page says
-  what is *due*, this one says what to *open*. **TCOM is now page-mapped too**
-  ([[open-tc-page-map]]): the book has **no printed page numbers and no offset**, so the number
-  in the table is the number in your reader. **The arithmetic it settles:** reading is **6–8
-  h/week** and the evening block carries 2.3–3.5 of it — **3–5 h/week has to happen in the
-  campus gaps.** `semester-workload-plan.md` §7 said reading fits the evening brief; corrected.
-
-- **🌙 Evening read is in semester mode from tonight — the technology block is paused.**
-  Chris-directed. Default is **one block, School**; technology returns only when it serves a
-  named course deliverable due within 7 days *and* the FOCUS line says which. **The rotation
-  is rebuilt on the registrar's timetable: PHYS 2 · TCOM 2 · CSE 2 · ECON 1**, live from
-  **Sun Aug 23** — July's table gave PHYS one night and ECON two, which inverts the real load,
-  and PHYS is the only course whose pre-class reading is graded. **Week-1 reading for all five
-  courses now lives in `04-SCHOOL\semester-workload-plan.md` §2** — §3 had only ever listed
-  what is *graded* in week 1, never what to *read*.
-
-- **PYTHON unchanged** — Stage 4b, resume at C1.
+*Empty. Ten bullets cleared 2026-08-21, four of which had survived multiple morning briefs.
+This section is a one-session relay, not a ledger. More than three entries means it stopped
+working.*
 
 ## Needs Chris
 
-1. **Ratify Week D's two approval gates** — learner-hub alignment and instruction
-   protocol. The plan is marked provisional until you do; silence is not approval.
-2. **Codex's seven proposed scripts (S10) — resolved 2026-08-18, two of seven built.**
-   Chris authorised the stale-overwrite guard and the restore-verification harness; both
-   shipped with passing tests and **deliberately not wired into `root_health.py`** before
-   Aug 24. **Flag #100 is closed on the first one.** The remaining five stay held — the
-   manifest and the `core\/safety\/maintenance\/domain\` restructure are cosmetic until
-   **the path-audit cluster decision lands, and that one is still yours**: wire it into the
-   health gate, move it to `maintenance\`, or archive it with the July 24 update it served.
-   Recommendation on file: `maintenance\`.
+1. **Two approval gates, now open across two weekly plans** — learner-hub alignment and
+   instruction protocol. Week 1 stays provisional until you rule. Silence is not approval.
+2. **The path-audit cluster decision** — wire it into the health gate, move it to
+   `maintenance\`, or archive it with the July 24 update it served. Recommendation on file:
+   `maintenance\`. Codex's other five scripts stay held behind this one.
+3. **Fri Aug 28, 11:45 PM — Day One Access opt-out *and* last day to add/drop**, one moment.
+   Recommendation: **do not opt out** — PHYS homework is 10% and runs entirely through
+   WebAssign. This is the item here that costs money and has no recovery path.
 
 ## Fixed and Dated
 
-- ✅ **Laptop built 2026-08-18, a day early.** No second wipe needed. Victus / Win 11 Home
-  25H2, BIOS F.20, Python 3.12.10, Git, Microsoft 365, Obsidian, KSU LockDown Browser
-  installed, and **every AI extension removed from VS Code** — the CSE/ENGR prohibition is
-  now a property of the machine, not a decision made while tired. Record:
-  `00-BRAIN\CAMPUS_LAPTOP_BUILD.md` §10.
-  **The exam gate is open but is NOT a school-start blocker** (corrected 2026-08-18): the D2L
-  LockDown practice quiz cannot run before Aug 24, and **the real deadline is Test 1, Mon
-  Oct 5** — six weeks after D2L opens. A failure at exam time is a zero, and Chris does not
-  attend on CSE exam dates, so run it well before Oct 5, not on the day.
-  **Scope corrected:** syllabus line 84 puts LockDown on **exams**, not on all 10 quizzes —
-  confirm against live D2L quiz settings in week 1.
-  **Do now, none of it needs D2L:** webcam/mic in Windows Camera (the hardware half of the
-  LockDown requirement — a BIOS toggle or physical shutter would surface here), then campus
-  Wi-Fi, charger endurance, KSU logins.
-  **Laptop config transfer is answered** —
-  `Session_Logs\claude_report_2026-08-18_laptop_config_and_syllabus_verification.md`, tracked
-  so `git pull` delivers it. `.claude\` is already on the laptop via git; only user scope is
-  missing, and its paths must be rewritten to `~/Documents/root-system/...` or the deny rules
-  guard a directory that does not exist.
-  **Open from the build's own checklist:** the laptop is **not yet in
-  `00-BRAIN\LOCAL_MACHINE_MAP.md`** — the machine inventory does not know it exists.
-- **CSE 1321 syllabus carries stale dates — verify at D2L, Aug 24.** One **confirmed** Spring
-  2026 template carryover (line 236 reads "May 4th, 2026, Last Day of Classes" in a Fall
-  syllabus). Three to check: week 1 quizzes due "Dec. 07" (ambiguous — may be a legitimate
-  open-all-semester deadline, do not assume a typo), "Final Exams Week Dec 8 – 24", and a
-  missing Module 7. **Week 1 = Aug 24 is correct.** One confirmed carryover means the document
-  is not a trustworthy date source without a second check.
-- **Aug 22 — dress rehearsal**, full day on the real Fall timetable. Do not compress.
-- **Aug 23 — final pre-semester review**, plus the backup review and flag #102's close check.
-  **Now also: run `verify_backup_restore.py` against the live D: backup into a new empty
-  target.** The harness exists as of Aug 18; "the job exited 0" is not "it restores."
-- **Aug 24 — classes begin.** On day one, **download TCOM's three Group Charter samples** from
-  D2L (*Sample Group Charter* · *Roles & Tasks within Your Team* · *Sample Task Schedule*).
-  They are named in the syllabus, exist only behind D2L auth, and the charter is **due Thu
-  Oct 1** with no template shipped. Same for the Reflective Memo (due Nov 12).
-  **🆕 Also Aug 24 — open the Ethics Analysis SUBMISSION section.** It is a **fourth week-1
-  graded item, due Fri Aug 28**, and **its format and filename appear nowhere in the syllabus.**
-  Do not assume `.docx`; do not assume `.pptx`.
-- **🆕 Aug 25 — two questions for Diamond on day one.** ① **The Business Email Draft has two
-  conflicting submission routes in her own syllabus** — `Powers_04_Draft.docx` to the D2L
-  Assignments folder (wk 1 Thu) versus an email with subject `Powers_04_Business Email draft`
-  (wk 2 Tue). Same deliverable. Ask; do not reason it out. ② **Confirm the room** — the
-  syllabus and the calendar both say **Atrium 2216**; only the registrar says Academic 202.
-  *Check the assignment's SUBMISSION section before asking anything else — the syllabus says
-  every assignment has one, and in a course whose week-2 topic is "following directions,"
-  asking what the assignment already answers is expensive.*
-- **Aug 28, 11:45 PM — two PHYS deadlines on one day.** Last day to add/drop, **and** the
-  Day One Access opt-out. Owl Express is already charged for the WebAssign + eBook bundle;
-  opting out refunds it and removes access. **Recommend not opting out** — homework is 10%
-  and runs entirely through WebAssign. Needs your call before Aug 28.
-- **Before Sep 21 — basic scientific calculator, exam-legal.** Phones, laptops and tablets
-  are prohibited in PHYS exams. Do you have one?
+Week-1 detail lives in the Week 1 plan. This is the short list that outranks it.
 
-## Open Risks
-
-1. **NEW 2026-08-18 — `.ROOT` now lives on two machines, and a session's loaded context can
-   go stale mid-session.** The laptop clone (`root-system` on GitHub) is live, pull/push both
-   directions works, and the desktop is additionally reachable over the house network. **This
-   happened for real today:** a Claude Code session read `NOW.md`, `SYSTEM_FLAGS.md` and the
-   DAILY into context, a pull then fast-forwarded the tree to Codex's laptop commits, and
-   those three files changed underneath it. Writing from the in-context copies would have
-   silently reverted flag #100's closure — **flag #100's own failure mode, reproduced by the
-   new sync, an hour after the guard that detects it shipped.** Caught by re-reading, not by a
-   control. **Rule: after any pull, re-read before writing — never edit from a copy loaded
-   before the pull.** `stale_overwrite_guard.py` now catches this class at commit time if run.
-2. **The network share is the riskiest of the three paths.** Git is versioned and `.gitignore`
-   keeps `88-JOURNAL` and every `raw\` off the laptop. A direct network write to the canonical
-   vault has neither property. **Edit through the clone and push; use the share for reading
-   or for moving untracked files (PDFs, `raw\` sources) only.**
-3. **Flag #97 — five `raw\` sources exist only as filenames.** Never dedupe `raw\` on hash;
-   the filename is the only record of what is missing.
-4. **NEW 2026-08-18 — `LOCAL_MACHINE_MAP.md:110` can authorise deleting the wrong `.ROOT`.**
-   It still reads "neither it nor Drive sync is a working tree or AI boot target going
-   forward," left from the July 17 retirement, contradicting lines 39–45 of its own file where
-   the **Aug 16 relink is recorded as live**. Since the mirror surfaces under **Computers →
-   [device]**, not `My Drive`, a second `.ROOT` seen from another machine may be the live
-   backup — deleting it would destroy the only off-machine copy of `88-JOURNAL`, every `raw\`,
-   and 351 PDFs. **Identify before deleting** (sweep in the Aug 18 laptop report). Fix line 110.
-   The link itself is **verified intact** after Chris's accidental disconnect: config row
-   unchanged, and a probe uploaded in one second 23 minutes after the Drive restart.
-
-All open flags: **`00-BRAIN\SYSTEM_FLAGS.md`**. Control reality: `.claude\CONTROL_INVENTORY.md`.
+- **Mon Aug 24 — classes begin.** D2L day-one tab, 12 checks. **#1 is the TCOM Ethics Analysis
+  SUBMISSION section** — due Fri Aug 28, its format and filename printed nowhere in the
+  syllabus. Also flag #57's close: **ENGR BWD returned no reply and has no syllabus online as
+  of Aug 21 — D2L is the only path left.** If it posts nothing, that is the finding; send a
+  dated question rather than waiting a second week.
+- **Tue Aug 25** — TCOM attendance starts; the instructor email is graded and **AI may not
+  draft it**.
+- **Before Sep 21** — an exam-legal scientific calculator. Do you have one?
+- **Still open from the laptop build:** the laptop is absent from
+  `00-BRAIN\LOCAL_MACHINE_MAP.md`. Record: `CAMPUS_LAPTOP_BUILD.md` §10.
 
 ## Boundaries
 
-School deadlines and academic integrity are fixed · CSE and ENGR are AI-prohibited on
-submitted work; **PHYS §54 permits AI as a tutor but not in submitted work — never a
-WebAssign answer**; ECON permits AI if credited · no outreach, publishing or pricing without
+School deadlines and academic integrity are fixed · **CSE and ENGR are AI-prohibited on
+submitted work** · **TCOM is the strictest of the five: AI may not draft anything — Chris
+writes, AI proofreads afterward and the usage is cited** · PHYS permits AI as a tutor, never a
+WebAssign answer · ECON permits AI if credited · no outreach, publishing or pricing without
 Chris's approval · bulk edits need copy-first **and** `safe_shell.sh` · no writes under any
 `raw\`; `88-JOURNAL` is never read · the safe word `Richard F` executes as stated.
 
-**🔴 TCOM corrected 2026-08-19 — the strictest drafting boundary of the five.** The §04
-syllabus says twice: *"Using AI to write your assignments is considered PLAGIARISM. You may
-only use AI for editing or proofreading, if you cite the usage."* **Blanket, not
-per-assignment. AI may not draft the instructor email, the Business Email, the memo or the
-report** — Chris writes, AI proofreads afterward, and the usage is cited. Three files read
-"verify per assignment" until today, which is how two blocks of AI-assisted "Business Email
-draft" reached Thursday's plan.
+**Two machines** (`CAMPUS_LAPTOP_BUILD.md` §6): the desktop stays canonical — pull at the start
+of a campus session, push at the end. **After any pull, re-read before writing**; a loaded copy
+can go stale mid-session, and that happened for real on Aug 18. Edit through the clone. The
+network share is for reading and untracked files only.
 
-**Two-machine rule, live from 2026-08-18** (`CAMPUS_LAPTOP_BUILD.md` §6): **the desktop stays
-canonical.** Pull at the start of every campus session, commit and push at the end. Coursework
-in progress is the one thing that lives on the laptop first — push it the same day.
-`88-JOURNAL` never reaches that machine; git already guarantees it, so do not defeat it by
-copying folders over the network.
+**Google Drive is the live backup — never delete it, and NEVER work in the Drive `.ROOT`
+folder.** The sole working tree is `C:\Users\chris\.ROOT`. Drive holds the only off-machine
+copy of `88-JOURNAL` and every `raw\`; deleting any `.ROOT` copy is Chris's call, never an
+AI's (`LOCAL_MACHINE_MAP.md`).
+
+All open flags: **`00-BRAIN\SYSTEM_FLAGS.md`** — including **#97: never dedupe `raw\` on
+hash.** Control reality: `.claude\CONTROL_INVENTORY.md`.
 
 ## Owners
 
@@ -311,8 +100,14 @@ Learner truth `03-WIKIS\{PHYSICS,PYTHON}\wiki\current-position.md` · Semester d
 `04-SCHOOL\SEMESTER_MAP.md` · Placement `00-BRAIN\WHERE_IT_GOES.md`
 
 ---
-*Rewritten 2026-08-17 on `OK TO START`, closing N6: 5,341 → 662 words (target was ≤600;
-missed by 62, recorded rather than rounded). Nothing was
-summarized away. The update-era cockpit is archived whole at
-`99-ARCHIVE\ARCHIVED_2026-08-17_NOW_pause-edition.md`; the update's record stays in
-`System Update Log\2026-08-12_ROOT_UPDATE\UPDATE_PLAN.md`.*
+*Cockpit rules, restated here because the file broke its own on Aug 21: **≤600 words** ·
+Frontier Changes clears in every session that reads it · `Open now` holds open items only —
+completed work goes to the DAILY, never back onto this page.*
+
+*Trimmed 2026-08-21 by Chris's direction: **3,523 → 918 words**, both measured the same way.
+**That is 318 over the ≤600 target and it is recorded, not rounded** — the Aug 17 rewrite's
+own precedent. The overage sits almost entirely in the Mode-change block and the four flips,
+which delete themselves on Aug 24; the semester-mode rewrite is where ≤600 gets tested
+honestly. Prior version in git at `9099f29`. Nothing was summarized away — every removed item
+was checked for a live owner first, and the two that had none were fixed at source rather than
+carried (`LOCAL_MACHINE_MAP.md`'s Drive paragraph, flag #57's Aug 21 result).*
