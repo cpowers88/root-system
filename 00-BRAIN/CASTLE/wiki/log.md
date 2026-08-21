@@ -1934,3 +1934,51 @@ remain open, not urgent tonight.
   **Aug 23** acceptance checkpoint — #103, #102, backup review, and the Sunday return running
   item 4 for the first time. **#103's last open condition is the fresh-session CASTLE-first
   test, which by definition cannot run in the session that did the work.**
+
+## 2026-08-21 (afternoon) — Week 1 plan built; state hygiene swept (Claude Code, on an independent review)
+
+An independent review of CASTLE was returned to Chris and its findings were **verified at
+source before being acted on** — all of them held.
+
+- **🔴 THE BLOCKER, and it was Chris's own ruling:** there was **no
+  `weekly-plan-2026-08-24-to-2026-08-30.md`** with classes starting Monday. This log at
+  `:1813` records *"Decision (Chris): semester format is built Friday Aug 21, not Sunday
+  Aug 23"* — because Aug 23 already carried five closes and the physics schedule designates
+  it light-review-only. **Today is that Friday.** Built: Due Checks, five course focus rows
+  with proof, fixed commitments, day-by-day against `weekly-study-schedule.md`'s blocks.
+  A **draft confirmed Monday** against D2L's 12 checks, exactly as the ruling specifies.
+  **Without it, Aug 24 handed the Active Lane to `semester-workload-plan.md` §3 — which says
+  what is *due*, not what *happens*. That is a mode gap, not a plan.**
+- **State hygiene swept (R1).** Five pages claimed `timeline: now` and were not — including
+  **Week C's plan reading `now`/`active` while [[index]] called it closed**, and two weekly
+  plans reading `status: active` simultaneously. Not cosmetic: `README.md` and `HOW_TO_USE.md`
+  both publish `[timeline:now]` as *the* query for current CASTLE pages, so that query was
+  returning a dead plan. **Two files disagreeing about the same fact is flag #103's shape.**
+  The new Week 1 plan was deliberately created `next`/`draft` rather than `now`/`active` so it
+  does not add a sixth instance on its first day; both flip Aug 24.
+- **#103's residue closed (R3).** Two outbound pointers still routed capability *state* to
+  [[skill-map]], which holds none: `HOW_TO_USE.md`'s "What capabilities need proof?" and
+  **`templates\evidence-template.md`, which would have reproduced the ownership loop in every
+  future evidence page.** Both repointed to [[current-position]]. This is the class the Aug 19
+  log itself named — *a file can declare ownership and route elsewhere for the same fact with
+  nothing objecting* — and the proposed check was never built.
+- **Sunday de-stacked (R5).** Five of six queue rows shared `check_at: 2026-08-23` regardless
+  of status, against the queue's own rule that parked items should not repeatedly resurface.
+  **The three parked rows moved to 2026-09-21**, matching the next reconciliation and
+  restoring the monthly rule; the two `researching` rows stay. `verify_backup_restore.py`
+  moved off Sunday — it never needed it. **Aug 23 goes from 5 queue rows to 2.**
+- **Header dates corrected (C1).** `OPERATIONS.md` read "Last revised: July 19" while carrying
+  Aug 19 and Aug 21 rules; `index.md` read July 25; `NOW.md` was titled Wednesday Aug 19. **A
+  header date is what a session reads to judge freshness.**
+- **Tracker trigger hooked (R6).** `ksu-academic-tracker` still read `stage: phase-0` though
+  Phase 0 closed Aug 19 and moved its real-data criterion to Phase 1. Corrected, and its
+  Aug 24 trigger now has a cadence hook plus a **named week-3 watch** for the
+  "abandoned by week 4" risk that nothing was watching.
+- **Held for Aug 23, deliberately:** the `castle_freshness.py` fifth check (expired
+  `review_trigger` on a `timeline: now` page). **The detector passed clean over all five
+  stale pages today** — it checks `current-position`, the queue, phase windows and log
+  silence, and has no view of the semester's highest-churn artifact. It is the right fix and
+  it is a control change with tests, so it pairs with the `root_health.py` wiring decision
+  already parked for Sunday. **One gate, one decision.**
+- **Checks:** `root_health.py` PASS (1,585 files) · `castle_freshness.py` PASS ·
+  `frontmatter_audit.py` **0 findings, CLEAN**.

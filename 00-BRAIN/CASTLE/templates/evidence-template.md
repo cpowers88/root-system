@@ -37,6 +37,13 @@ decision or adoption for delivery value; willingness to pay or paid use for a
 commercial claim. Do not use one universal hierarchy for different claims.
 
 ## Gap Revealed
-What the work showed still isn't strong enough, and where that goes: [[skill-map]]
-when it becomes an active capability, [[opportunity-queue]] with status `parked`
-when it is evidence-backed and worth retaining, or no new page otherwise.
+What the work showed still isn't strong enough, and where that goes: **[[current-position]]**
+when it changes a capability's state or proof frontier, [[opportunity-queue]] with status
+`parked` when it is evidence-backed and worth retaining, or no new page otherwise.
+
+*Corrected 2026-08-21.* This line sent gaps to [[skill-map]] "when it becomes an active
+capability" — the activation path retired by Chris's 2026-08-19 ruling, which moved
+capability **state** to [[current-position]] and left skill-map holding horizons and
+activation criteria only. Left as it was, **every future evidence page would have
+reproduced flag #103's ownership loop.** Route to skill-map only to *add or change a
+horizon*, never to record that something is now true.

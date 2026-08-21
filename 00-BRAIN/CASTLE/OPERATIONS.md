@@ -9,7 +9,14 @@ created: 2026-07-19
 
 # OPERATIONS.md — How AI Sessions Run CASTLE
 
-Last revised: July 19, 2026 — concise authority, capacity, and value-alignment pass approved by Chris.
+Last revised: **August 21, 2026** — Reviews item 4 added (course standing and open misses read
+at the Sunday return). Prior substantive revisions: Aug 19, 2026 (Session Close 7
+return-to-cockpit gate; semester maintenance budget; log discipline) · July 19, 2026 (concise
+authority, capacity, and value-alignment pass approved by Chris).
+
+*The July 19 date stood on this line while the file carried Aug 19 and Aug 21 rules. A header
+date is what a session reads to judge whether the file is current, so a stale one is not
+cosmetic — it is the same defect the flag register caught in itself on 2026-08-18.*
 
 ## Authority
 

@@ -7,7 +7,7 @@ tags: []
 
 # Index — Every Live Page in CASTLE
 
-### Updated: July 25, 2026 — architecture authority pointer corrected after Pass 0 review
+### Updated: **August 21, 2026** — Week 1 plan registered; stale `timeline: now` markers cleared across five pages. Prior: July 25, 2026 (architecture authority pointer corrected after Pass 0 review)
 
 This is a discovery index, not a second current-state dashboard. Live action belongs to `.ROOT\NOW.md`; baseline and proof state belong to [[current-position]] and the owning domain systems.
 
@@ -91,8 +91,14 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 Listed newest first. CASTLE owns weekly sequencing; Session Logs own the
 retrospective reviews.
 
-- **[[weekly-plans/weekly-plan-2026-08-17-to-2026-08-23]] — Week D, ACTIVE from
-  Monday Aug 17: the last full pre-semester week.** **Rewritten 2026-08-16** —
+- **🎓 [[weekly-plans/weekly-plan-2026-08-24-to-2026-08-30]] — FALL SEMESTER WEEK 1.**
+  Built Fri Aug 21 per Chris's Aug 19 ruling that the semester format is built Friday, not
+  Sunday. **`timeline: next` / `status: draft` until Mon Aug 24**, when Week D closes and
+  this becomes the Active Lane — flip both then. A **draft confirmed Monday** against D2L's
+  12 reconciliation checks. Carries the Due Checks section, five course focus rows, and the
+  first live run of the grade/miss read on Sun Aug 30
+- **[[weekly-plans/weekly-plan-2026-08-17-to-2026-08-23]] — Week D, ACTIVE through
+  Sunday Aug 23: the last full pre-semester week.** **Rewritten 2026-08-16** —
   the miss-log premise was removed because no miss log ever existed. Now runs
   Fall **Week 1's real assignment track five days early** (TCOM and CSE on their
   own Week 1 days, PHYS on its own queue since its Week 1 is unknown, ENGR

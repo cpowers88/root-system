@@ -1,6 +1,6 @@
 ---
 type: spec
-timeline: now
+timeline: reference
 status: approved
 tags: [planning, school, fall-2026, simulation-week]
 created: 2026-07-26

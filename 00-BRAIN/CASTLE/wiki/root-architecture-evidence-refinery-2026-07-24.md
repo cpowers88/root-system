@@ -1,6 +1,6 @@
 ---
 type: decision-report
-timeline: now
+timeline: reference
 status: incomplete-source-review
 tags: [castle, governance, architecture, evidence, ai-automation]
 created: 2026-07-24

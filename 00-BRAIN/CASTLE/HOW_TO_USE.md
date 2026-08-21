@@ -38,7 +38,8 @@ Durable direction belongs to `01-NORTH_STAR\NORTH_STAR.md`. Rules and authority 
 | What should I do now? | `.ROOT\NOW.md` |
 | Where am I on the path? | `wiki\current-position.md` |
 | What phase am I in? | `wiki\phase-map.md` |
-| What capabilities need proof? | `wiki\skill-map.md` |
+| What capabilities need proof? | `wiki\current-position.md` — the Capability and Proof Frontier table (**corrected 2026-08-21**: this routed to `skill-map.md`, which holds no state) |
+| What are a capability's horizons and activation criteria? | `wiki\skill-map.md` |
 | What technology fits this workflow problem? | `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` — 12 categories + Recommendation Ladder |
 | What is the current business strategy? | `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` |
 | What does this semester require? | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` |

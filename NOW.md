@@ -5,7 +5,7 @@ status: active
 tags: []
 ---
 
-# NOW — Wednesday, August 19, 2026
+# NOW — Friday, August 21, 2026
 
 > ## ▶ `.ROOT` IS RUNNING. Chris gave `OK TO START` on 2026-08-17.
 >

@@ -1,7 +1,7 @@
 ---
 type: proof-project
 timeline: now
-stage: phase-0
+stage: phase-1
 status: active
 tags: [proof-project, school, technology]
 ---
@@ -42,4 +42,5 @@ compliance with a morning clock is not.
 | 2026-06-15 | Brief completed | — |
 | 2026-07-05 | Build slot confirmed over POL; Session 1 target | Sessions 2–3 per brief |
 | 2026-07-06 | Registered as Phase 0 proof project in the castle | Finish remaining queries; log sessions here |
+| **2026-08-21** | **Stage corrected `phase-0` → `phase-1`.** Phase 0 closed 2026-08-19 and explicitly *moved this project's real-data criterion into Phase 1*, but the frontmatter still read `phase-0`. **Its Aug 24 trigger had no cadence hook** — "enter verified Fall data when D2L populates" is both a Phase 1 exit criterion and the unblock for the SQL capability row, and nothing was watching it. **Now hooked** to Phase 1 activation in the Aug 24–30 weekly plan's Due Checks. | **Watch: if no real course data is entered by the end of week 3 (Sep 13), the "abandoned by week 4" risk has materialised — say so at that Sunday return rather than letting it lapse silently.** |
 | 2026-07-08 | **V1 SHIPPED and tested** — all briefed queries plus `--courses` and three `--add-*` commands work. Brief reconciled by Chris (stale future-tense language removed); duplicate brief copy archived. V2 (edit/delete/update, dashboard, web UI) explicitly PARKED — no expansion unless real use exposes the need. | Enter verified course data when D2L populates, expected August 24 or later; verify answers and usefulness in the real workflow; record and correct observed friction |
