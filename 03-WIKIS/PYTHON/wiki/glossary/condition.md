@@ -4,6 +4,7 @@ stage: 02
 status: draft
 aliases: []
 related_terms: ["boolean", "comparison-operator", "if-elif-else"]
+timeline: reference
 ---
 
 # Condition

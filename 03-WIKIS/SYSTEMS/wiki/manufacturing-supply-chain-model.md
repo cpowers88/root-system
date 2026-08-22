@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/supply-chain, use-case/audit, subject/system-dynamics, subject/supply-chains, subject/manufacturing, subject/model-initialization]
+tags: [subject/system-dynamics, subject/supply-chains, subject/manufacturing, subject/model-initialization]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, supply-chain, audit]
 ---
 
 # Building a Manufacturing Supply Chain Model: Order Fulfillment, Production, and Why Amplification and Lag Are Inevitable

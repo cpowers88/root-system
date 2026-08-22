@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/now, status/wiki-only, domain/systems, source-role/example, use-case/systems-analysis, use-case/client-interview, use-case/audit, subject/system-dynamics, subject/supply-chains, subject/real-estate-cycles, subject/groupthink]
+tags: [subject/system-dynamics, subject/supply-chains, subject/real-estate-cycles, subject/groupthink]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [systems-analysis, client-interview, audit]
 ---
 
 # Real Estate Boom and Bust: Why Sophisticated, Well-Capitalized Professionals Make the Same Mistake as Beer Game Novices

@@ -5,7 +5,8 @@ Run after any edit to governance files (00-BRAIN, router, START_HERE,
 hats, hub operating files). Encodes the unified-team governance checks:
 
   1. Boot files exist: router, AGENT.md, capability profiles, CHRIS_CORE, hats,
-     CASTLE pointers/OPERATIONS, all seven hub CLAUDE.mds
+     CASTLE pointers/OPERATIONS, all eight hub OPERATIONS.mds (hubs lost their
+     CLAUDE.md/AGENTS.md loaders 2026-08-10; OPERATIONS.md is the entry point)
   2. No active file loads the retired OS (AI_Agent.md / AI_OS_CORE.md
      as an instruction — the marked pointer + retired-name lines are exempt)
   3. No dead governance references (AGENT.md "Shared Skills";
@@ -35,20 +36,47 @@ BOOT_FILES = [
     ROOT / "AGENTS.md", ROOT / "CLAUDE.md", ROOT / "START_HERE.md",
     ROOT / "NOW.md", ROOT / "CODEX.md",
     ROOT / "00-BRAIN" / "AGENT.md", ROOT / "00-BRAIN" / "CLAUDE.md",
-    ROOT / "00-BRAIN" / "CODEX.md", ROOT / "00-BRAIN" / "ATLAS.md",
+    ROOT / "00-BRAIN" / "CODEX.md",
     ROOT / "00-BRAIN" / "CHRIS_CORE.md", ROOT / "00-BRAIN" / "WHERE_IT_GOES.md",
+    # Conditionally loaded, not always-boot — but AGENT.md § Wiki Shared Layer
+    # points here, and 26 files reference that anchor, so its absence is a break.
+    ROOT / "00-BRAIN" / "WIKI_SHARED_LAYER.md",
     ROOT / "00-BRAIN" / "vault_map.md", ROOT / "00-BRAIN" / "SYSTEM_FLAGS.md",
+    # Not always-loaded (that is the point of the 2026-08-13 T2 split), but it is
+    # governance carrying many live paths, and AGENT.md File Safety 7 points at it.
+    # A dangling reference in here is a break even though no session loads it by default.
+    ROOT / "00-BRAIN" / "SYSTEM_FLAGS_DETAIL.md",
     ROOT / "00-BRAIN" / "CASTLE" / "CLAUDE.md",
     ROOT / "00-BRAIN" / "CASTLE" / "CODEX.md",
     ROOT / "00-BRAIN" / "CASTLE" / "OPERATIONS.md",
+# Every live hat and playbook, not just the seven subject/mode hats. The narrower
+# list was measured wrong on 2026-08-17: HAT_PHYSICS_MATH carried a stale entry-point
+# claim ("only row 1 ever ran") through a green gate all day, because nothing checked
+# it. A behaviour file the gate does not read is a behaviour file that can rot.
+# Keep this in sync with `ls 00-BRAIN/HATS/*.md` — a new hat belongs here on creation.
 ] + [ROOT / "00-BRAIN" / "HATS" / f"HAT_{h}.md" for h in
-     ("OPERATOR", "EDUCATOR", "PYTHON", "PHYSICS", "TCOM", "ECON", "ENGR1000")
-] + [ROOT / "03-WIKIS" / h / "CLAUDE.md" for h in
+     ("OPERATOR", "EDUCATOR", "PYTHON", "PHYSICS", "TCOM", "ECON", "ENGR1000",
+      "SOFTWARE_ENGINEER", "TECHNOLOGY_ENGINEER",
+      "EDUCATOR_PLAYBOOKS", "OPERATOR_PLAYBOOKS", "ENGINEERING_PLAYBOOKS")
+# HAT_PHYSICS_MATH was merged into HAT_PHYSICS and archived 2026-08-17. Its
+# conditional load ("when the block is calculus mechanics") was true for nearly
+# every block of a calculus-based course, so the split bought no load reduction
+# and cost one measured routing failure.
+] + [ROOT / "03-WIKIS" / h / "OPERATIONS.md" for h in
      ("AI_AUTOMATION_SYSTEMS", "BUSINESS", "EDUCATION", "PHYSICS",
       "PYTHON", "REVENUE_LAB", "SYSTEMS", "TECHNOLOGY")]
 
+# Hub loader files were removed 2026-08-10; their reappearance would restore the
+# two-hop indirection that AGENT.md's local-contract rule exists to prevent.
+FORBIDDEN_HUB_FILES = [
+    ROOT / "03-WIKIS" / h / n
+    for h in ("AI_AUTOMATION_SYSTEMS", "BUSINESS", "EDUCATION", "PHYSICS",
+              "PYTHON", "REVENUE_LAB", "SYSTEMS", "TECHNOLOGY")
+    for n in ("CLAUDE.md", "AGENTS.md")]
+
 EXCLUDED = {"99-ARCHIVE", "raw", ".git", ".obsidian", "Report Archive",
-            "Session_Logs", "88-JOURNAL", ".claude", ".agents"}
+            "Session_Logs", "88-JOURNAL", ".claude", ".agents",
+            "oracleJdk-26"}
 # Lines that legitimately mention retired names (marked pointers/records)
 EXEMPT_MARKERS = re.compile(
     r"retired|superseded|archived|ARCHIVED|scan pattern|AI_Agent\|", re.I)
@@ -89,6 +117,12 @@ def main() -> int:
         if not f.exists():
             failures.append(f"MISSING boot file: {f}")
 
+    for f in FORBIDDEN_HUB_FILES:
+        if f.exists():
+            failures.append(
+                f"hub loader file reintroduced (use OPERATIONS.md): "
+                f"{f.relative_to(ROOT)}")
+
     # Cross-file semantic contracts that simple stale-word scans cannot catch.
     require("AGENTS.md", r"00-BRAIN\\AGENT\.md",
             "Codex root pointer routes to the universal OS")
@@ -104,8 +138,8 @@ def main() -> int:
                 "ROOT_OPERATING_MANUAL.md"):
         require(rel, r"77-INBOX.{0,100}manual|manual.{0,100}77-INBOX",
                 "77-INBOX is the manual external-file intake")
-        require(rel, r"Clippings.{0,120}automatic|automatic.{0,120}Clippings",
-                "root Clippings is automatic Obsidian intake")
+        require(rel, r"77-INBOX.{0,120}automatic|automatic.{0,120}77-INBOX",
+                "77-INBOX is automatic Obsidian intake")
     forbid("00-BRAIN/vault_map.md", r"77-INBOX[^\n]*Clippings\\ inside",
            "Clippings nested inside 77-INBOX")
     forbid("START_HERE.md", r"Real client artifacts land here",
@@ -113,7 +147,7 @@ def main() -> int:
     forbid("ROOT_OPERATING_MANUAL.md", r"filled business/client artifact",
            "active client artifacts stored in 05-BUSINESS")
     for rel in ("00-BRAIN/AGENT.md", "00-BRAIN/WHERE_IT_GOES.md",
-                "ROOT_OPERATING_MANUAL.md", "03-WIKIS/BUSINESS/CLAUDE.md",
+                "ROOT_OPERATING_MANUAL.md", "03-WIKIS/BUSINESS/OPERATIONS.md",
                 "03-WIKIS/BUSINESS/HOW_TO_USE.md",
                 "05-BUSINESS/06-Capability Library/README.md"):
         require(rel, r"client-specific.{0,140}(separate client workspace|outside `?\.ROOT`?)",
@@ -124,7 +158,7 @@ def main() -> int:
                 "consequential work has an independent challenge default")
     forbid("START_HERE.md", r"lane files?.{0,100}HATS.{0,30}roles",
            "retired surface-lane and HATS-role terminology")
-    forbid("03-WIKIS/BUSINESS/CLAUDE.md",
+    forbid("03-WIKIS/BUSINESS/OPERATIONS.md",
            r"filled/used client artifacts.{0,80}05-BUSINESS",
            "active client instances routed into .ROOT/05-BUSINESS")
     forbid("03-WIKIS/BUSINESS/HOW_TO_USE.md",
@@ -136,9 +170,14 @@ def main() -> int:
     forbid("05-BUSINESS/06-Capability Library/README.md",
            r"client instance.{0,180}matching `?05-BUSINESS",
            "active client instances routed into .ROOT/05-BUSINESS")
-    require("00-BRAIN/AGENT.md",
+    # The eight wiki rules moved out of AGENT.md on 2026-08-11 (they apply only
+    # inside a hub, and AGENT.md is read in full by every session). The contract
+    # follows the content; AGENT.md must still route to it.
+    require("00-BRAIN/WIKI_SHARED_LAYER.md",
             r"temporal update.{0,100}context-dependent variant.{0,100}true contradiction",
             "wiki claim changes are classified before replacement")
+    require("00-BRAIN/AGENT.md", r"WIKI_SHARED_LAYER\.md",
+            "AGENT.md routes to the wiki shared layer it no longer inlines")
     require("00-BRAIN/CASTLE/wiki/opportunity-queue.md", r"\| OPP-\d{8}-\d{2} \|",
             "the live opportunity queue contains at least one evidence-backed item")
 
@@ -170,18 +209,54 @@ def main() -> int:
         "Bash(git clean *)", "PowerShell(Remove-Item *)",
         "PowerShell(Clear-Content *)",
     }
-    project_required_deny = destructive_deny | {
+    # A required deny is a group of acceptable spellings; any one satisfies it.
+    # User-scope vault rules need this because the hybrid runs one policy from
+    # two environments: on Windows the vault is under ~, but in WSL ~ is
+    # /home/<user> and the vault is /mnt/c/Users/chris/.ROOT. Requiring the
+    # literal ~/.ROOT form there would pass a rule guarding an empty path.
+    # Found 2026-08-11 during the flag #92 acceptance test.
+    def home_holds_vault() -> bool:
+        """True where `~/.ROOT` actually resolves to this vault."""
+        try:
+            return (Path.home() / ".ROOT").resolve() == ROOT.resolve()
+        except OSError:
+            return False
+
+    def vault_deny(template: str, *, must_resolve_here: bool) -> frozenset:
+        """Acceptable spellings of one required vault deny rule.
+
+        `must_resolve_here=False` is for the *template*, a source artifact that
+        is adapted at deploy time; both spellings are legitimate there.
+
+        `must_resolve_here=True` is for a *deployed* policy, where the `~/.ROOT`
+        spelling counts only if `~` really contains the vault. In WSL it does
+        not — `~` is /home/<user> — so accepting it there would pass a rule
+        guarding an empty directory while the real vault stayed open. That is
+        flag #95's exact failure mode, and the 2026-08-11 both-spellings fix for
+        flag #95 instance (1) reintroduced it here; caught and corrected the
+        same day.
+        """
+        spellings = {template.format(vault=ROOT.as_posix())}
+        if not must_resolve_here or home_holds_vault():
+            spellings.add(template.format(vault="~/.ROOT"))
+        return frozenset(spellings)
+
+    project_required_deny = {frozenset({rule}) for rule in destructive_deny | {
         "Read(/88-JOURNAL/**)", "Edit(/88-JOURNAL/**)",
         "Write(/88-JOURNAL/**)", "Edit(/**/raw/**)",
         "Write(/**/raw/**)",
-    }
-    user_required_deny = destructive_deny | {
-        "Read(~/.ROOT/88-JOURNAL/**)",
-        "Edit(~/.ROOT/88-JOURNAL/**)",
-        "Write(~/.ROOT/88-JOURNAL/**)",
-        "Edit(~/.ROOT/**/raw/**)",
-        "Write(~/.ROOT/**/raw/**)",
-    }
+    }}
+    def user_deny_set(*, must_resolve_here: bool) -> set:
+        return {frozenset({rule}) for rule in destructive_deny} | {
+            vault_deny("Read({vault}/88-JOURNAL/**)", must_resolve_here=must_resolve_here),
+            vault_deny("Edit({vault}/88-JOURNAL/**)", must_resolve_here=must_resolve_here),
+            vault_deny("Write({vault}/88-JOURNAL/**)", must_resolve_here=must_resolve_here),
+            vault_deny("Edit({vault}/**/raw/**)", must_resolve_here=must_resolve_here),
+            vault_deny("Write({vault}/**/raw/**)", must_resolve_here=must_resolve_here),
+        }
+
+    template_required_deny = user_deny_set(must_resolve_here=False)
+    deployed_required_deny = user_deny_set(must_resolve_here=True)
     required_modes = {
         "defaultMode": "default",
         "disableBypassPermissionsMode": "disable",
@@ -193,10 +268,13 @@ def main() -> int:
             return
         permissions = settings.get("permissions", {})
         actual_deny = set(permissions.get("deny", []))
-        missing = sorted(required_deny - actual_deny)
+        missing = sorted(
+            " or ".join(sorted(group))
+            for group in required_deny if not group & actual_deny)
         if missing:
             failures.append(f"{label} missing deny rules: {missing}")
-        unexpected = sorted(actual_deny - required_deny)
+        accepted = set().union(*required_deny) if required_deny else set()
+        unexpected = sorted(actual_deny - accepted)
         if unexpected:
             failures.append(
                 f"{label} has unreviewed capability-restricting deny rules: "
@@ -209,9 +287,9 @@ def main() -> int:
     validate_permissions(project_settings, "Claude project settings",
                          project_required_deny)
     validate_permissions(user_template, "Claude user-policy template",
-                         user_required_deny)
+                         template_required_deny)
     validate_permissions(user_settings, "deployed Claude user settings",
-                         user_required_deny)
+                         deployed_required_deny)
 
     if project_settings is not None:
         permissions = project_settings.get("permissions", {})
@@ -228,12 +306,14 @@ def main() -> int:
         filesystem = project_settings.get("sandbox", {}).get("filesystem", {})
         if "./88-JOURNAL" not in filesystem.get("denyRead", []):
             failures.append("Claude project sandbox does not deny 88-JOURNAL reads")
+        # Derived from the live tree, not a hardcoded hub list: a new hub with a
+        # raw/ folder must be denied explicitly. A "*" glob may also be present,
+        # but is not accepted in place of a literal path — sandbox glob
+        # expansion is not guaranteed, and raw immutability is non-negotiable.
         required_raw = {
             "./00-BRAIN/CASTLE/raw",
-            *{f"./03-WIKIS/{hub}/raw" for hub in (
-                "PYTHON", "PHYSICS", "BUSINESS", "EDUCATION",
-                "TECHNOLOGY", "AI_AUTOMATION_SYSTEMS", "SYSTEMS",
-                "REVENUE_LAB")},
+            *{f"./{p.relative_to(ROOT).as_posix()}"
+              for p in ROOT.glob("03-WIKIS/*/raw") if p.is_dir()},
         }
         missing_raw = sorted(required_raw - set(filesystem.get("denyWrite", [])))
         if missing_raw:
@@ -295,7 +375,8 @@ def main() -> int:
     # experience (AGENT.md); they keep pre-split wording by design.
     historical = re.compile(r"^(log\.md|\d{4}-\d{2}-\d{2}_.*|.*_\d{4}-\d{2}-\d{2}\.md)$")
     live_md = [p for p in ROOT.rglob("*.md")
-               if not EXCLUDED.intersection(p.relative_to(ROOT).parts)
+               if p.is_file()  # rglob also matches dirs named *.md (JDK legal tree)
+               and not EXCLUDED.intersection(p.relative_to(ROOT).parts)
                and not historical.match(p.name)]
     for p in live_md:
         rel = p.relative_to(ROOT)

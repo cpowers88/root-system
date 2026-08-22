@@ -1,4 +1,4 @@
----
+  ---
 type: log
 timeline: log
 tags: [business]
@@ -60,10 +60,21 @@ I speak to friends in this section of the business all the time, but I can reach
 
 | # | Date | Business Type | Core Problem | Follow Up? |
 | --- | --- | --- | --- | --- |
-| 1 | - | - | - | - |
-| 2 | - | - | - | - |
-| 3 | - | - | - | - |
-| 4 | - | - | - | - |
-| 5 | - | - | - | - |
+| 1 | - | General contractor | Change-order info flow — too slow going from a change order to actual go-ahead when an architect or engineer has to sign off; general information-flow lag at small/medium shops | ? — needs Chris's call |
+| 2 | - | General contractor | Crew/sub-contractor oversight — trades bleed money from crew time not being managed well; projects lack real oversight | Somewhat |
+| 3 | - | Small GC | Bad estimates | Yes |
+| 4 | - | GC | Bad or no records | Yes |
+| 5 | - | Small GC | Advertising/brand production gap | Yes |
+| 6 | - | GC | Finding good sub-contractors | Yes |
+
+**Reading the six rows together:** this isn't one friction repeating — it's five
+distinct ones (change-order/info-flow delay, crew oversight, estimating
+accuracy, recordkeeping, marketing, sub-sourcing) plus row 3/4's documentation
+theme, which is the same core problem as the Day 2 problem statement above
+(extras/records → payment disputes). Per the field-observation method,
+repeatable evidence needs the *same* friction recurring across independent
+companies — right now only the records/documentation thread (rows 3, 4, and
+the main problem statement) has that repetition. Rows 1, 2, 5, 6 are each
+single data points on different frictions, not yet a pattern.
 
 ---

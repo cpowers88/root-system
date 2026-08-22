@@ -61,3 +61,23 @@ node_modules/
 *.gif
 .DS_Store
 **/.idea/
+
+# Machine-specific Claude settings. This rule also exists in the Windows global
+# ignore, but WSL git has a different HOME and cannot see that file — and a
+# .git/info/exclude entry does not survive a clone. Tracked here so the
+# safeguard is recoverable in any checkout (added 2026-08-10, flag #92).
+**/.claude/settings.local.json
+
+# Vendored language runtimes. Install these system-wide; never commit them.
+# A 372MB Oracle JDK landed here by accident on 2026-08-10 and blocked the
+# push (GitHub rejects any file over 100MB; its lib/modules is 140MB).
+**/oracleJdk-*/
+**/jdk-*/
+**/jre-*/
+
+# Editor and IDE caches. Machine-specific, regenerated on demand, and large:
+# .vs/ landed in commit 520cbdf on 2026-08-11 carrying a 6.96MB .vsidx binary.
+# Untracked in the following commit; the blobs remain in history but are inert.
+.vs/
+.vscode/
+.idea/

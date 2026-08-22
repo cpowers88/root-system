@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: reference
-tags: [priority/later, status/wiki-only, subject/distributed-systems]
+tags: [subject/distributed-systems]
+timeline: later
+status: wiki-only
 ---
 
 # Foundations of Scalable Systems (Ian Gorton)

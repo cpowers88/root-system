@@ -1,6 +1,9 @@
 ---
 type: stage
+timeline: later
+stage: 6
 status: draft
+tags: [physics, math]
 ---
 
 # Stage 6 — Circular Motion and Other Applications of Newton's Laws (Ch 6)
@@ -16,7 +19,10 @@ Ch 06 — confirmed in scope (Chris, 2026-06-25). Lecture dates pending full D2L
 ## Textbook Alignment
 
 Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., Chapter 6, sections 6.1–6.4.
-File: `raw/textbook/Physics book-0101-0200.pdf`, textbook pp. 127–149.
+File: `raw/textbook/Physics book-0101-0200.pdf`, textbook pp. 127–149. **2026-07-21:**
+Section 6.3 (Motion in Accelerated Frames) was flagged as underrepresented in the
+2026-07-15 TOC screen and is now fully built out below — packet ready for
+activation, no remaining expansion gap.
 
 ## Prerequisite Physics
 
@@ -34,10 +40,11 @@ File: `raw/textbook/Physics book-0101-0200.pdf`, textbook pp. 127–149.
 - [[../concepts/centripetal-force]]
 - [[../concepts/vertical-circular-motion]]
 - [[../concepts/terminal-velocity]]
+- [[../concepts/accelerated-reference-frames]] — Sec 6.3, noninertial frames and fictitious force
 
 ## Required Vocabulary
 
-Centripetal acceleration, centripetal force, uniform circular motion, nonuniform circular motion, drag force, terminal velocity, banked curve. See `wiki/glossary/` and [[../flashcards/stage-6-circular-motion]].
+Centripetal acceleration, centripetal force, uniform circular motion, nonuniform circular motion, drag force, terminal velocity, banked curve, noninertial reference frame, fictitious force. See `wiki/glossary/` and [[../flashcards/stage-6-circular-motion]].
 
 ## Equations
 
@@ -112,11 +119,20 @@ v_t ------- (asymptote)
 Starts at 0, approaches v_t as drag = weight
 ```
 
+**Accelerated frame — fictitious force (Sec 6.3):**
+```
+Ground observer:        Rider in accelerating frame:
+  real forces only        real forces + F_fict = −ma_frame
+  ΣF = ma                 object appears in equilibrium
+```
+See [[../concepts/accelerated-reference-frames]] for the full elevator/braking-car
+worked diagrams.
+
 ## Calculus Connections
 
 No new calculus in this stage.
 
-Nonuniform circular motion introduces tangential acceleration a_t = dv/dt, which is a derivative — but computing it is Stage 2 territory. Here you only need to recognize it exists and find total acceleration: a = √(a_c² + a_t²).
+Nonuniform circular motion introduces tangential acceleration a_t = dv/dt, which is a derivative — but computing it is Stage 2 territory. Here you only need to recognize it exists and find total acceleration: a = √(a_c² + a_t²). Full worked derivations, multi-problem practice, and a real-world use case: [[../calculus-links/tangential-radial-acceleration-derivative]].
 
 ## Problem Types
 
@@ -146,10 +162,13 @@ See [[../common-errors/stage-6-circular-motion]].
 - [ ] Explain physically why terminal velocity is reached and what "net force = 0" means for motion
 - [ ] Calculate terminal velocity given mass, drag coefficient, air density, and area
 - [ ] Identify whether a problem uses linear drag (low speed, R = bv) or quadratic drag (high speed, R = ½DρAv²)
+- [ ] Explain, in words, why a fictitious force is not a real force, and state the condition under which one must be added (analyzing from inside an accelerating frame)
+- [ ] Solve an elevator apparent-weight problem: given elevator acceleration (up, down, or free fall), find the scale reading n
+- [ ] Explain why "centrifugal force" felt on a rotating ride is fictitious, and identify the real force a ground observer would see instead
 
 ## Do Not Move On Until
 
-Chris can draw FBDs for both horizontal and vertical circular motion without help, correctly identify which forces are inward vs. outward in each geometry, and solve for unknown speed, radius, or tension using ΣF = mv²/r.
+Chris can draw FBDs for both horizontal and vertical circular motion without help, correctly identify which forces are inward vs. outward in each geometry, solve for unknown speed, radius, or tension using ΣF = mv²/r, and correctly decide whether a fictitious force belongs in a given problem's equation (it does only when solving from inside the accelerating frame itself).
 
 ## Parked for Later
 

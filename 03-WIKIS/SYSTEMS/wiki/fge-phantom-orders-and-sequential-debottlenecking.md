@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/now, status/wiki-only, domain/systems, source-role/example, use-case/systems-analysis, use-case/supply-chain, use-case/audit, subject/system-dynamics, subject/phantom-orders, subject/bottleneck-management, subject/sequential-debottlenecking]
+tags: [subject/system-dynamics, subject/phantom-orders, subject/bottleneck-management, subject/sequential-debottlenecking]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [systems-analysis, supply-chain, audit]
 ---
 
 # Fast Growth Electronics: Why Your Hottest-Selling Product Ends Up as Your Biggest Inventory Write-Down

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/audit, use-case/data-workflow, subject/system-dynamics, subject/stocks-and-flows, subject/calculus-without-math]
+tags: [subject/system-dynamics, subject/stocks-and-flows, subject/calculus-without-math]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, audit, data-workflow]
 ---
 
 # Graphical Integration and Differentiation: Calculus Without the Math

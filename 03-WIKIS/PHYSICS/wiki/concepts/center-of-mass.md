@@ -1,5 +1,6 @@
 ---
 type: concept
+timeline: reference
 stage: 9
 chapter: 9
 ---
@@ -25,6 +26,11 @@ The center of mass moves as if all the system's mass were located there, acted o
 v_cm = (m₁v₁ + m₂v₂) / (m₁ + m₂)
 a_cm = ΣF_ext / M_total
 ```
+
+This gives a direct link to momentum: the **total momentum of a system equals its
+total mass times the center-of-mass velocity**, p_total = M_total·v_cm. That is
+why an isolated system's total momentum stays constant even as individual objects
+inside it collide — v_cm itself never changes when ΣF_ext = 0.
 
 ## Real-World Anchors
 

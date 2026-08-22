@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/audit, use-case/data-workflow, subject/factory-physics, subject/variability, subject/machine-breakdowns, subject/setup-reduction]
+tags: [subject/factory-physics, subject/variability, subject/machine-breakdowns, subject/setup-reduction]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, audit, data-workflow]
 ---
 
 # Causes of Variability: Breakdowns, Setups, and Rework — Formulas and Worked Examples

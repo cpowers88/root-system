@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/serverless]
+tags: [subject/serverless]
+timeline: later
+status: wiki-only
 ---
 
 # Serverless Processing Systems

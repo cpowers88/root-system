@@ -15,9 +15,8 @@ from FORGE's original 135-page technology folder (the other 67 — Python/data-a
 fundamentals — went to `03-WIKIS\PYTHON` instead; see that wiki's `source-map.md`).
 **2026-07-13: full raw/ audit and ingest (107 pages at completion).** After the
 July 15 routing correction and July 16 chunk ingestion, the live inventory is
-**132 content/reference pages** (excluding this index and `log.md`; +3 on
-2026-07-17 from the *Experimental Design for Data Science and Engineering*
-selective ingest).
+**134 content/reference pages** (excluding this index and `log.md`; +2 on
+2026-07-27 from the selective *Business Information Systems* Chapters 9-10 ingest).
 The audit produced 39 new pages across 9 books + 4 landscape clippings. The
 July 15 structure review moved the post-closure AI-coding landscape into
 `03-WIKIS\AI_AUTOMATION_SYSTEMS`, its canonical intake lane. The audit found 3 confirmed
@@ -84,6 +83,7 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 
 ## DevOps & IT Operations (`devops/`, 19 pages)
 
+- [[devops/windows-workspace-and-maintenance-reference|Windows Workspace and Maintenance Reference]] — PowerToys/FancyZones workflow uses plus a volatility and applicability gate for Windows and Defender updates
 - [[devops/the-phoenix-project|The Phoenix Project (Gene Kim, Kevin Behr & George Spafford)]]
 - [[devops/the-three-ways-devops|The Three Ways (DevOps)]]
 - [[devops/devops-origins-and-myths|DevOps Origins and Myths]]
@@ -142,7 +142,7 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 - [[data-science-ml/space-filling-screening-and-sequential-designs|Space-Filling, Screening, and Sequential Designs — the DOE Decision Map]] — objective → design family; minimax/maximin/LHD/MaxPro, Sobol/Morris/MOFAT screening, Bayesian optimization/EI, fractional-factorial essentials
 - [[data-science-ml/data-splitting-twinning-and-subsampling|Data Splitting, Twinning, and Subsampling]] — DOE applied to data already in hand: SPlit, twinning, supercompress, FIRST factor selection, TwinGP
 
-## Database & SQL (`database-sql/`, 11 pages, new 2026-07-13)
+## Database & SQL (`database-sql/`, 12 pages, new 2026-07-13; +1 2026-07-21)
 
 - [[database-sql/practical-sql|Practical SQL — Source Summary and Navigation Hub]]
 - [[database-sql/sql-select-where-and-filtering|SQL: SELECT, WHERE, and Filtering]]
@@ -155,6 +155,7 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 - [[database-sql/sql-window-functions-and-ranking|SQL: Window Functions and Ranking]]
 - [[database-sql/sql-advanced-query-techniques|SQL: Advanced Query Techniques]]
 - [[database-sql/sql-views-functions-and-triggers|SQL: Views, Functions, and Triggers]]
+- [[database-sql/sql-python-sqlite3-integration|SQL: Python's `sqlite3` Module — Connecting Code to a Database]] — applied practice, MCP Bootcamp Day 3 (2026-07-21): connect/cursor, `CREATE TABLE IF NOT EXISTS`, parameterized inserts, `executemany()`, commit/close
 
 ## Software Craft (`software-craft/`, 4 pages, new 2026-07-13)
 
@@ -169,7 +170,7 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 - [[security/api-vulnerability-classes-owasp-top-10|API Vulnerability Classes: The OWASP API Security Top 10]] — reframed as audit checks, not attack techniques
 - [[security/api-security-testing-engagement-scoping-and-checklist|API Security Testing: Engagement Scoping and Checklist]]
 
-## Software Engineering (`software-engineering/`, 9 pages)
+## Software Engineering (`software-engineering/`, 11 pages)
 
 - [[software-engineering/agile-software-engineering-and-scrum|Agile Software Engineering and Scrum]] — source: Ian Sommerville, *Engineering Software Products*
 - [[software-engineering/personas-scenarios-and-user-stories|Personas, Scenarios, and User Stories]] — source: Sommerville
@@ -180,6 +181,8 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 - [[software-engineering/domain-driven-business-logic-and-architecture-patterns|DDD Business Logic and Architecture Patterns]]
 - [[software-engineering/domain-driven-integration-and-reliable-messaging|DDD Integration and Reliable Messaging]]
 - [[software-engineering/domain-driven-evolution-eventstorming-and-distributed-boundaries|DDD Evolution, EventStorming, and Distributed Boundaries]]
+- [[software-engineering/information-system-evaluation-lifecycle-and-failure-levels|Information-System Evaluation Lifecycle and Failure Levels]] — strategic, formative, summative, and post-mortem gates; development/use failure across technical, project, organizational, and environmental levels
+- [[software-engineering/information-process-system-and-technology-alignment-map|Information, Process, System, and Technology Alignment Map]] — process/information matrix, current/future system portfolio, and technology/standards layer for audit and architecture decisions
 
 ## User Experience (`user-experience/`, 4 pages, new 2026-07-16)
 
@@ -211,4 +214,5 @@ categories) carried as an open "next action" since July 7, 2026.
 - [[vs-code-data-tooling-data-wrangler-and-edit-csv|VS Code Data Tooling: Data Wrangler, Edit CSV, and the Titanic Tutorial]] — Category 5
 - [[spreadjs-embeddable-excel-import-export|SpreadJS — Embeddable Excel Import/Export for Custom Web Tools]] — Category 9/12, landscape-only
 - [[api-integration-layer-2026-landscape|API & Integration Layer — 2026 Landscape]] — Category 9 (new 2026-07-16): Zapier/Make/n8n tiering, AI agents as integration consumers, MCP standardization and security, rung-4 custom-glue proof standard
+- [[switches-and-routers-networking-literacy|Switches and Routers — Networking Literacy]] — Chris's own study notes: LAN vs. inter-network roles, OSI layer 2 vs. 3, MAC vs. IP forwarding, managed/unmanaged and layer-3 switches, VLAN segmentation, QoS, SNMP/Syslog monitoring
 - [[goal-aligned-technology-gap-audit-2026-07-16|Goal-Aligned Technology Gap Audit — July 16, 2026]] — knowledge-vs-proof audit across the eight-rung application trace; Now/Near/Future gaps, minimum production standard, and selected scanner reliability proof path

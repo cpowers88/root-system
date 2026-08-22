@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/eoq, subject/inventory-control, subject/factory-physics]
+tags: [subject/eoq, subject/inventory-control, subject/factory-physics]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # The EOQ Model: Lot Sizing, Cost Tradeoffs, and Why Errors Don't Matter Much

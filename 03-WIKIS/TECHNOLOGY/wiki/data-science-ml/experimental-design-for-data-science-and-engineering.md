@@ -3,7 +3,9 @@ domain: technology
 type: reference
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, subject/experimental-design, subject/data-science, subject/statistics, stack/r]
+tags: [subject/experimental-design, subject/data-science, subject/statistics]
+source_role: primary
+stack: [r]
 ---
 
 # Experimental Design for Data Science and Engineering — Source Summary and Navigation Hub

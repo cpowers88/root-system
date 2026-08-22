@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: reference
-tags: [priority/next, status/wiki-only, domain/technology, source-role/support, use-case/tech-stack, use-case/automation, subject/web-security, subject/flask, stack/flask]
+tags: [subject/web-security, subject/flask]
+timeline: next
+status: wiki-only
+source_role: support
+use_cases: [tech-stack, automation]
+stack: [flask]
 ---
 
 # Web Application Security Basics: SQL Injection and CSRF

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/data-workflow, use-case/ksu-support, subject/qr-model, subject/inventory-control, subject/factory-physics]
+tags: [subject/qr-model, subject/inventory-control, subject/factory-physics]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, data-workflow, ksu-support]
 ---
 
 # The (Q,r) Model: Synthesizing Lot Size and Reorder Point

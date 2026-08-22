@@ -1,6 +1,7 @@
 ---
 type: flashcards
-tags: [later, physics]
+tags: [physics]
+timeline: later
 ---
 
 # Flashcards — Stage 18: Special Relativity (Ch 38)

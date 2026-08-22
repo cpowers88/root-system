@@ -1,8 +1,8 @@
 ---
 type: stage
+timeline: reference
 stage_number: 00
 status: satisfied
-priority: complete
 source_spine: "none — orientation only"
 support_sources: []
 ---
@@ -42,7 +42,8 @@ Chris has already met every item above, based on his confirmed baseline in `wiki
 
 ## Next Instruction
 
-Open [[stages/stage-01-python-atoms]] and begin there. That is Chris's current study stage.
+Use [[current-position]] for the live instruction. Do not restart Stage 1 unless a
+cold attempt reveals a specific foundation gap.
 
 ## Parked Until Later
 

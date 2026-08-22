@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: concept
-tags: [priority/later, status/wiki-only, domain/technology, source-role/primary, use-case/data-workflow, subject/data-science, subject/statistics, stack/python]
+tags: [subject/data-science, subject/statistics]
+timeline: later
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow]
+stack: [python]
 ---
 
 # Estimates of Location and Variability

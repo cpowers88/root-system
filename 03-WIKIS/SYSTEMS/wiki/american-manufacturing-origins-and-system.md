@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: concept
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/systems-analysis, use-case/ksu-support, subject/manufacturing-history, subject/factory-physics, subject/american-system-of-manufacturing]
+tags: [subject/manufacturing-history, subject/factory-physics, subject/american-system-of-manufacturing]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [audit, systems-analysis, ksu-support]
 ---
 
 # American Manufacturing Origins: The American System and the Rise of Big Business

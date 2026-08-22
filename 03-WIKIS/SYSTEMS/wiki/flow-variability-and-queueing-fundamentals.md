@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/queuing-theory, use-case/audit, subject/factory-physics, subject/queuing-theory, subject/flow-variability, subject/variability]
+tags: [subject/factory-physics, subject/queuing-theory, subject/flow-variability, subject/variability]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, queuing-theory, audit]
 ---
 
 # Flow Variability and Queueing Fundamentals: From Arrival CVs to the M/M/1 Queue

@@ -4,6 +4,7 @@ stage: 05
 status: draft
 aliases: ["key", "dictionary value"]
 related_terms: ["dictionary"]
+timeline: reference
 ---
 
 # Key / Value (Dictionary)

@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: case-study
-tags: [priority/now, status/wiki-only, domain/technology, source-role/example, use-case/data-workflow, use-case/audit, subject/data-science, subject/probability-estimation, subject/decision-trees, subject/overfitting, stack/ai-frameworks-apis]
+tags: [subject/data-science, subject/probability-estimation, subject/decision-trees, subject/overfitting]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [data-workflow, audit]
+stack: [ai-frameworks-apis]
 ---
 
 # Why a Model That Predicts "Nobody Defaults" Can Still Be Useful, and How the Cellular Churn Tree Quietly Raises the Overfitting Question

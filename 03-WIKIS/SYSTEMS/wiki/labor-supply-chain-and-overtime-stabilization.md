@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/supply-chain, use-case/audit, subject/system-dynamics, subject/labor-supply-chain, subject/oscillation, subject/overtime]
+tags: [subject/system-dynamics, subject/labor-supply-chain, subject/oscillation, subject/overtime]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, supply-chain, audit]
 ---
 
 # The Labor Supply Chain: Why Hiring Delays Cause Real Oscillation, and Why Overtime Fixes It

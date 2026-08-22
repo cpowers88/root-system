@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/data-workflow, use-case/ksu-support, subject/mrp, subject/inventory-control, subject/factory-physics]
+tags: [subject/mrp, subject/inventory-control, subject/factory-physics]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, data-workflow, ksu-support]
 ---
 
 # MRP Mechanics: Netting, Lot Sizing, Time Phasing, and BOM Explosion

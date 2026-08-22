@@ -13,6 +13,7 @@ tags: [business, apqc, client]
 |---|---|---|---|---|---|---|
 | `APQC_ASSET_TEMPLATE.md` | N/A | template | ready | Standardize reusable client-facing assets | July 11 North Star / Gemini merge | Copy only for the next approved reusable asset |
 | `APQC_13_1_WORKFLOW_OBSERVATION_MAP.md` | 13.1 Manage Business Processes | SOP | draft | First on-site diagnostic to find where a business loses time/money, before any tool recommendation | `05-BUSINESS\01-Audit Templates\OBSERVATION_METHODOLOGY.md` (v1, July 5) | Desk simulation accepted July 14; run first live validation rep before Aug 24, then reassess maturity |
+| `APQC_13_1_WORKFLOW_TECHNOLOGY_STACK_EVIDENCE_TEMPLATE.md` | 13.1 Manage Business Processes | template / decision aid | draft | Document one workflow's current stack, what each component does, how well it works, and the smallest justified improvement | `00-BRAIN\Session_Logs\BUSINESS_WORKFLOW_AND_TECHNOLOGY_STACK_RESEARCH_REPORT_2026-07-18.md` | Complete one internal construction change-order-to-cash copy; verify that market evidence stays separate from observed workflow proof |
 
 ## Maturity Definitions
 

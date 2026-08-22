@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/devops, subject/theory-of-constraints]
+tags: [subject/devops, subject/theory-of-constraints]
+timeline: later
+status: wiki-only
 ---
 
 # IT Operations as a Bottleneck-Management Problem

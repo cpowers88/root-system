@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/queuing-theory, subject/birth-death-process, subject/operations-research]
+tags: [subject/queuing-theory, subject/birth-death-process, subject/operations-research]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # Queueing Theory: The Birth-and-Death Process and the M/M/s Model

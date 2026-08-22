@@ -4,6 +4,7 @@ stage: 10
 status: draft
 concepts: ["cli", "argument-parsing", "unit-test", "decomposition", "incremental-development"]
 solution_included: false
+timeline: reference
 ---
 
 # Mini-Project: Stage 10 Capstone (Chris's Choice)

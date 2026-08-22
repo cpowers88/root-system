@@ -6,9 +6,9 @@ tags: [business, audit]
 ---
 
 # OBSERVATION_METHODOLOGY.md — How to Watch a Business Work
-### The repeatable observation method — NORTH_STAR.md "built before March 2027" deliverable #1
-### Status: SKELETON v1 (July 5, 2026) — refine after every practice run
-### Companion files: TECHNOLOGY_AUDIT_REPORT_TEMPLATE.md (the output), ONE_PAGE_FINDINGS_FORMAT.md (the owner version)
+### Repeatable observation-method hypothesis for real workflow evidence
+### Status: SKELETON v2 (July 21, 2026) — refine from tested use
+### Companion files: TECHNOLOGY_AUDIT_REPORT_TEMPLATE.md (when a full report is justified), ONE_PAGE_FINDINGS_FORMAT.md (concise decision version)
 
 ---
 
@@ -16,18 +16,18 @@ tags: [business, audit]
 
 Follow the work, not the org chart — watch what actually happens,
 write down where time and money leak, and leave with enough specifics
-to write a report the owner can act on Monday morning.
+to support the next sound decision.
 
 ---
 
-## BEFORE THE VISIT (30 min prep, night before)
+## BEFORE THE OBSERVATION — Brief preparation while evidence is available
 
 - [ ] What does this business sell, and who pays them?
 - [ ] Guess the 3 core workflows before arriving (intake → work → get paid
       is the universal spine). You'll correct the guess on-site.
 - [ ] Know the tool categories cold — review the 12 categories in
       TECHNOLOGY_LIBRARY_STRATEGY.md so you can name what you see.
-- [ ] Decide the ONE question this visit must answer:
+- [ ] Decide the ONE question this observation must answer:
       "Where does this operation lose the most time or money?"
 - [ ] Pack: notebook + phone (photos of whiteboards, forms, paper piles —
       ask first). Nothing else. No laptop on the first walk.
@@ -69,12 +69,17 @@ What breaks if I delete this? (person, tool, or step — what's load-bearing?)
   unperformed version before you make people self-conscious.
 - Ask "can you show me?" not "can you tell me?" — the walkthrough
   always reveals what the description hides.
-- Never propose fixes on-site. You're there to see, not to sell.
-  The report is the deliverable; premature advice is free consulting.
+- Do not propose fixes before the evidence is understood. Observation produces an
+  actual-state record; the justified output may be a finding, recommendation,
+  no-change decision, one-pager, or full report depending on the engagement.
 
 ---
 
-## AFTER THE VISIT (same day, within 4 hours — memory decays fast)
+## AFTER THE OBSERVATION — Preserve evidence before memory degrades
+
+Record the observation time and capture time. Complete the first evidence pass as
+soon as practical within declared capacity; if delayed, mark what is recalled rather
+than directly recorded.
 
 1. Brain-dump everything into FIELDNOTES_DATE_TOPIC.md
    (→ 05-BUSINESS\02-Field Notes\, template exists)
@@ -87,18 +92,18 @@ What breaks if I delete this? (person, tool, or step — what's load-bearing?)
 
 ---
 
-## PRACTICE CADENCE (before first client, March 2027)
+## Practice and Proof Sequence
 
-- **Rep 1 (July–August 2026):** one practice observation on a business
-  you can access free — a jobsite you know, Heather's brokerage front
-  office (observation only — not client or JV work), a retail counter you
-  can sit near. Full method, real notes, real one-pager nobody sees.
-- **Reps 2+ (semester breaks):** one per break minimum. Each rep ends
-  by improving THIS file — what did you wish you'd watched for?
-- A Value Stream Map replaces the simple process map by rep 3 (source:
+- **First live rep:** when Chris has approval and access, observe one safe real
+  workflow and produce an actual-state record. Do not manufacture a client or use
+  private details in `.ROOT`.
+- **Second contrasting rep:** test whether the method generalizes and record what
+  changed; repetition is triggered by a proof gap, not a compulsory calendar.
+- Introduce a Value Stream Map when the observed workflow and evidence justify the
+  added method (source:
   *Learning to See*, Rother & Shook — `03-WIKIS\SYSTEMS\raw\`; method page:
   `03-WIKIS\SYSTEMS\wiki\value-stream-mapping-method-and-lean-guidelines.md`).
 
 ---
-*This file is the product. Every practice rep makes it sharper. v1 = untested skeleton.*
-*Last updated: July 5, 2026*
+*This file is a draft reusable method asset. Tested reps—not document polish—advance its maturity.*
+*Last updated: July 21, 2026 — W1 evidence, capacity, and output reconciliation*

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/audit, use-case/client-interview, subject/system-dynamics, subject/bounded-rationality, subject/mental-models, subject/simulation]
+tags: [subject/system-dynamics, subject/bounded-rationality, subject/mental-models, subject/simulation]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, audit, client-interview]
 ---
 
 # Barriers to Learning in Complex Systems, and Why Simulation Is Necessary

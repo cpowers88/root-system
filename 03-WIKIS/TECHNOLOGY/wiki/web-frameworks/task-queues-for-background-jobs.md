@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: reference
-tags: [priority/next, status/wiki-only, domain/technology, source-role/reference, use-case/tech-stack, subject/python, stack/flask]
+tags: [subject/python]
+timeline: next
+status: wiki-only
+source_role: reference
+use_cases: [tech-stack]
+stack: [flask]
 ---
 
 # Task Queues for Background Jobs (Celery, RQ, Dramatiq)

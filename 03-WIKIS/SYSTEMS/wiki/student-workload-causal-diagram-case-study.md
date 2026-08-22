@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/now, status/wiki-only, domain/systems, source-role/example, use-case/systems-analysis, use-case/client-interview, use-case/audit, subject/system-dynamics, subject/causal-loop-diagrams, subject/burnout]
+tags: [subject/system-dynamics, subject/causal-loop-diagrams, subject/burnout]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [systems-analysis, client-interview, audit]
 ---
 
 # The Ant and the Grasshopper: A Full Worked Causal-Diagramming Case, Plus How to Build a Model from Interviews

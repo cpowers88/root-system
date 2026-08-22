@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/audit, subject/system-dynamics, subject/business-cycles, subject/monetary-policy, subject/lean-manufacturing]
+tags: [subject/system-dynamics, subject/business-cycles, subject/monetary-policy, subject/lean-manufacturing]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, audit]
 ---
 
 # The Business Cycle Isn't External — It's a Damped Oscillation, and Government Policy Often Makes It Worse

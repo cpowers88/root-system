@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [reference, physics, math]
+tags: [physics, math]
+timeline: reference
 ---
 
 # Geometry and Trigonometry Reference

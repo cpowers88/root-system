@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: framework
-tags: [priority/now, status/wiki-only, subject/ai, start]
+tags: [subject/ai, start]
+timeline: now
+status: wiki-only
 ---
 
 # Four Rules for Co-Intelligence

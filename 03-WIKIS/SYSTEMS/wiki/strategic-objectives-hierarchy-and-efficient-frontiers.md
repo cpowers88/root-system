@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/business-model, use-case/client-interview, use-case/ksu-support, subject/factory-physics, subject/strategy, subject/systems-thinking]
+tags: [subject/factory-physics, subject/strategy, subject/systems-thinking]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [audit, business-model, client-interview, ksu-support]
 ---
 
 # The Objectives Hierarchy, Order Winners, and Efficient Frontiers: Connecting Strategy to Operations

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/linear-programming, subject/operations-research, subject/optimization]
+tags: [subject/linear-programming, subject/operations-research, subject/optimization]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # Linear Programming: Formulation, Standard Form, and the Graphical Method

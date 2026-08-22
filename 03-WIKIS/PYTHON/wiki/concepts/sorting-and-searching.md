@@ -4,7 +4,8 @@ stage: 08
 status: draft
 source_refs: ["Grokking Algorithms Ch.2, Ch.4, Ch.5 (Selection Sort, Quicksort, Hash Tables)", "Think Python Ch.21"]
 prerequisites: ["big-o-and-algorithm-efficiency", "lists", "dictionaries", "recursion"]
-tags: [stage-08, sorting, searching, hash-tables]
+tags: [sorting, searching, hash-tables]
+timeline: reference
 ---
 
 # Concept: Sorting, Searching, and Hash Tables

@@ -1,9 +1,10 @@
 ---
 type: decision-report
 status: conditional-go-private-proof
-tags: [now, revenue, youtube, content, strategy]
+tags: [revenue, youtube, content, strategy]
 created: 2026-07-16
 review: after-private-proof
+timeline: now
 ---
 
 # Proof-Led Content Strategy - Business Decision Report
@@ -304,6 +305,6 @@ the caps and producing real audience, reuse, or business evidence.
 - [[yt-outlier-scanner-first-findings-2026-07-14]]
 - [[revenue-lane-scorecard]]
 - [[lane-a-content-channel]]
-- [Top-100 classification worksheet](../../../02-LIBRARY/.PROJECTS/YT_Outlier_Scanner/TOP_100_CLASSIFICATION_WORKSHEET.md)
-- [Private proof outline](../../../02-LIBRARY/.PROJECTS/YT_Outlier_Scanner/PRIVATE_PROOF_OUTLINE.md)
+- [Top-100 classification worksheet](<../../../02-LIBRARY/.PROJECTS/YT_Outlier_Scanner(Pause, chris)/TOP_100_CLASSIFICATION_WORKSHEET.md>)
+- [Private proof outline](<../../../02-LIBRARY/.PROJECTS/YT_Outlier_Scanner(Pause, chris)/PRIVATE_PROOF_OUTLINE.md>)
 - [Current Advisor-Builder strategy](../../../01-NORTH_STAR/Goals%20&%20Milestones/CURRENT_STRATEGY.md)

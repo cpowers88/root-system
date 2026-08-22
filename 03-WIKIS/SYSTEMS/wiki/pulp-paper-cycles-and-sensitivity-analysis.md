@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/now, status/wiki-only, domain/systems, source-role/example, use-case/systems-analysis, use-case/supply-chain, use-case/audit, subject/system-dynamics, subject/commodity-cycles, subject/sensitivity-analysis, subject/pulp-and-paper]
+tags: [subject/system-dynamics, subject/commodity-cycles, subject/sensitivity-analysis, subject/pulp-and-paper]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [systems-analysis, supply-chain, audit]
 ---
 
 # Two Cycles, One Model: The Pulp and Paper Industry, and How to Stress-Test Any Model Before Trusting It

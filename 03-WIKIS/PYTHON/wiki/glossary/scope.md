@@ -4,6 +4,7 @@ stage: 04
 status: draft
 aliases: ["local variable", "local scope"]
 related_terms: ["parameter", "function"]
+timeline: reference
 ---
 
 # Scope

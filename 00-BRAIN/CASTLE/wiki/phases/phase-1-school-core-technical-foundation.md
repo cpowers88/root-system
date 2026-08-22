@@ -11,7 +11,10 @@ tags: [phase]
 **Window**: August 24, 2026 – May 2027 (Fall + Spring semesters)
 **One-line purpose**: Pass the first KSU year strong while Python and SQL become working daily tools.
 
-> **Metadata note:** preparation is current (`timeline: now`); the formal phase remains `status: planned` until its August 24 window opens.
+> **Metadata note:** preparation is current (`timeline: now`); the formal phase remains
+> `status: planned` until its August 24 window opens. **Flip to `status: active` at the
+> Aug 23 pre-semester review** (Phase 0 closed 2026-08-19; `castle_freshness.py` will
+> flag this page if the window opens with the flip unmade).
 
 ## Purpose
 School is the fixed spine. Fall 2026: ECON 1000, ENGR 1000, PHYS 2211, CSE 1321+L,
@@ -20,33 +23,35 @@ Statistics (prep starts winter break). Tech skills advance only at the pace the
 semester allows.
 
 ## Why It Matters to the North Star
-The ISYE degree is the credential that opens client doors, and every course maps to
-a service: Prob/Stats → data-driven findings, System Dynamics → workflow redesign,
-Optimization → waste elimination. Name the real-world analog in every assignment.
+The ISYE degree builds engineering credibility and durable reasoning. Coursework
+builds transferable capability. Connect it to a real workflow, engineering,
+technology, or business application when useful; no course is required to become
+a standalone service.
 
 ## Skills Needed
 - Python (CSE 1321 + CS50P continuation) — Technical
 - SQL practice through real tracker use and bounded supporting reps — Technical
-- Technical writing (TCOM — this IS client-report training) — Delivery/Professional
-- Time management under load: pace model + high-load tradeoff management — Professional
+- Technical writing (TCOM — decision-facing communication practice) — Delivery/Professional
 
 ## Skills NOT Needed Yet
-- Flask, n8n, Retool — Phase 3/7
+- Web applications and automation platforms — wait for a verified workflow need
 - Client acquisition — Phase 4; conversations before Feb 2027 are practice only
 
 ## Best Sources
 | Source | Tier | Location | What it proves |
 |---|---|---|---|
-| Course syllabi + D2L | 1 | `02-LIBRARY\00-SCHOOL\` | The actual workload |
+| Course syllabi + D2L | 1 | `04-SCHOOL\` | The actual workload |
 | `03-WIKIS\PYTHON` wiki | internal | `03-WIKIS\PYTHON\` | Staged Python learning path serving school readiness |
 | `03-WIKIS\PHYSICS` wiki | internal | `03-WIKIS\PHYSICS\` | Physics stages |
 | thinkpython / Python Crash Course | 1 | `03-WIKIS\PYTHON\raw\books\` | Course-aligned depth |
 
-## Tools to Learn
-Tracker in daily use (eat your own dog food) · Git/GitHub discipline on every build
+## Tools, Methods, or Platforms Under Test
+Tracker in real use · repository discipline when the build benefits from history,
+review, or recovery
 
-## Business Capability Unlocked
-Technical credibility floor: can talk data, code, and engineering method without bluffing.
+## Capability and Value Enabled
+Technical credibility floor: can use and explain data, code, and engineering
+method without bluffing.
 
 ## Proof Projects
 - [[ksu-academic-tracker]] — in daily use = ongoing proof
@@ -54,6 +59,9 @@ Technical credibility floor: can talk data, code, and engineering method without
   selects it as the smallest useful proof vehicle
 
 ## Exit Criteria
+- [ ] Verified Fall 2026 course data entered into the tracker when D2L populates
+      (Aug 24+) — *moved here from Phase 0 on 2026-08-19; it was misfiled one phase
+      early and belongs with the two tracker criteria below*
 - [ ] Fall 2026 completed, Bs acceptable / As preferred, no course failed
 - [ ] High-load window (Oct 5 – Nov 11) managed without missed school commitments; optional work was deliberately scoped
 - [ ] Tracker used through the whole semester (not abandoned by week 4)
@@ -67,4 +75,8 @@ Technical credibility floor: can talk data, code, and engineering method without
 - Tech pace exceeding the semester pace model (medium semester = one topic at a time)
 
 ## Next Action
-Before Aug 24: TCOM syllabus read, first email to Diamond drafted for night of Day 1.
+
+At the August 23 final review, activate this phase effective August 24 only after the
+dress-rehearsal result and live learner frontiers are recorded. Then enter verified D2L
+course data into the tracker; exact-section instructors and D2L override every provisional
+plan, course wikis retain learner truth, and `.ROOT\NOW.md` retains the immediate action.

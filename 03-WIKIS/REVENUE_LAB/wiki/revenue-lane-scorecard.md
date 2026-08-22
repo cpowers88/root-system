@@ -1,6 +1,7 @@
 ---
 type: dashboard
-tags: [now, business, revenue]
+tags: [business, revenue]
+timeline: now
 ---
 
 # Revenue Lane Scorecard — Ranked Output of the July 14 Scan
@@ -83,6 +84,12 @@ channel launch, account creation, or content production.
 **Verdict: CONDITIONAL PASS — one proof conversation only.** It does not
 authorize an offer, pricing, invoice, engagement, or outreach sequence. Chris
 must explicitly approve the external conversation/message before it occurs.
+
+**2026-07-22 — Chris approved the conversation.** The one-conversation proof
+(replay one completed change order with the contractor friend, ask whether he'd
+pay for remote estimating/change-order support, record the answer) is cleared to
+happen. Still not authorized by this approval: any offer, pricing, invoice,
+engagement, or outreach beyond that single conversation.
 
 ### A — YouTube data-scan research phase
 

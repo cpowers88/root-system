@@ -5,6 +5,7 @@ status: draft
 concepts: ["decomposition", "pseudocode", "flowchart", "incremental-development", "test-case"]
 difficulty: beginner
 solution_included: false
+timeline: reference
 ---
 
 # Drill: Decompose Before You Code

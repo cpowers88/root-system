@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/now, status/wiki-only, domain/systems, source-role/example, use-case/systems-analysis, use-case/audit, subject/system-dynamics, subject/stocks-and-flows, subject/climate-systems, subject/inertia]
+tags: [subject/system-dynamics, subject/stocks-and-flows, subject/climate-systems, subject/inertia]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [systems-analysis, audit]
 ---
 
 # Global Warming as a Stock-Flow Problem: Why Temperature Keeps Rising After Emissions Stop

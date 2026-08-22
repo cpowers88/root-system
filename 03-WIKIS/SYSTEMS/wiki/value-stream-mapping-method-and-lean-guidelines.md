@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: method
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/process-design, use-case/systems-analysis, use-case/client-interview, subject/value-stream-mapping, subject/lean-manufacturing, subject/pull-systems]
+tags: [subject/value-stream-mapping, subject/lean-manufacturing, subject/pull-systems]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [audit, process-design, systems-analysis, client-interview]
 ---
 
 # Value Stream Mapping: Method, Map Anatomy, and the Seven Lean Guidelines

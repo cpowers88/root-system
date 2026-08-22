@@ -1,7 +1,11 @@
 ---
 domain: technology
 type: concept
-tags: [priority/later, status/wiki-only, domain/technology, source-role/primary, use-case/tech-stack, subject/agile, subject/scrum, subject/software-engineering]
+tags: [subject/agile, subject/scrum, subject/software-engineering]
+timeline: later
+status: wiki-only
+source_role: primary
+use_cases: [tech-stack]
 ---
 
 # Product vs. Project Software Engineering, and the Agile/Scrum Method

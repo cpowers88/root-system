@@ -1,39 +1,97 @@
 ---
 type: map
-tags: [reference, school]
+timeline: reference
+status: live
+reference_priority: core
+tags: [school, education]
+updated: 2026-07-24
 ---
 
-# EDUCATION Wiki — Index
+# EDUCATION Wiki Index
 
-General KSU coursework support (TCOM, ECON, ENGR, and anything without its own wiki).
-Operating rules: this folder's `CLAUDE.md`. Raw sources live in `raw/` (immutable).
+Canonical catalog for general KSU course support. Current status lives in
+[[current-position]]. Official course files live in `04-SCHOOL`.
 
-## Pages
+## Semester-wide course brief
 
-- [ai-programs-us-2026.md](ai-programs-us-2026.md) — Distilled reference: CIC's cicmap.ai
-  interactive map + arXiv 2606.12428 status report on undergraduate AI majors/minors
-  in U.S. CS departments (data as of April–June 2026). Sources: `raw/AI Programs in
-  U.S. Universities.md`, `raw/2606.12428v1.pdf`.
-- [fall-2026-course-briefs.md](fall-2026-course-briefs.md) — ECON 1000 / TCOM 2010 /
-  ENGR 1000 syllabus distillation: **the three courses' three different AI policies**,
-  grading structures, schedule spines, and data-quality flags (ENGR syllabus is the
-  Fall 2025 edition; TCOM's schedule table carries recycled Spring dates).
-- [current-position.md](current-position.md) — Progress anchor for EDUCATION (required
-  by NORTH_STAR monthly review + HAT_EDUCATOR). Pre-semester state until Aug 24;
-  update when D2L opens (~July 25), at the Aug 1 monthly, and at semester start.
-- [[learning-how-to-learn-principles]] — Practical
-  secondary-source guidance on encoding, retrieval, application, prioritization,
-  and attention; numerical/neuroscience claims remain explicitly unverified.
+- [[course-briefs/fall-2026-course-briefs|Fall 2026 Course Briefs]] — ECON,
+  TCOM, and ENGR requirements, schedules, source confidence, and AI policies.
+- [[pre-semester-coverage-plan|Pre-Semester Coverage Plan]] — which real course
+  weeks are workable before Aug 24, which are blocked, and per-block sources.
 
-## Raw sources
+## ECON 1000
 
-| File | What it is | Processed into |
-|---|---|---|
-| `raw/AI Programs in U.S. Universities.md` | Web clipping of cicmap.ai (June 2026 data) | `ai-programs-us-2026.md` |
-| `raw/2606.12428v1.pdf` | Muzny et al. arXiv paper, "Mapping AI Programs in the U.S." | `ai-programs-us-2026.md` |
-| `raw/ECON_syllabus.pdf` | ECON 1000 Fall 2026 syllabus (Kelani, 25 pp.) | `fall-2026-course-briefs.md` |
-| `raw/TcomSyllabus.PDF` | TCOM 2010 Fall 2026 syllabus (Diamond, 19 pp., scanned) | `fall-2026-course-briefs.md` |
-| `raw/ENGR_syllabus.pdf` | ENGR 1000 syllabus — **Fall 2025 edition** (Ruhala, 12 pp.) | `fall-2026-course-briefs.md` |
+- [[courses/econ-1000/semester-map|Semester Resource Map]]
+- [[courses/econ-1000/reading-guides/great-depression-cpi|Great Depression and CPI Reading Guide]]
+- [[courses/econ-1000/glossary/macro-terms|Macroeconomics Glossary]]
+- [[courses/econ-1000/flashcards/gdp-inflation-unemployment|GDP, Inflation, and Unemployment Flashcards]]
+- [[courses/econ-1000/drills/cpi-and-depression-reasoning|CPI and Depression Reasoning Drill]]
 
-No course has activated per-course structure yet (courses start Aug 24, 2026);
-the course-briefs page is pre-semester reference, not activation.
+## TCOM 2010
+
+Built out 2026-08-13 on the pattern ECON already uses. TCOM earns this depth
+because its content — audience, purpose, genre, and the proposal/report documents —
+is in `NORTH_STAR.md` §2's permanent capability base and is directly reusable as
+client work, while the course itself carries the heaviest single deliverable.
+
+- [[courses/tcom-2010/semester-map|Semester Resource Map]] — week-by-week
+  deliverables mapped to textbook chapters, ancillaries, and worked examples.
+  **All 14 weeks carry real Fall 2026 dates as of 2026-08-18**, plus the grade-weight
+  table. The course ends **Thu Dec 3** and has **no final exam**
+- [[courses/tcom-2010/tcom-2010-17-week-execution-plan|TCOM 2010 17-Week Execution Plan]]
+  — exact readings, weekly production gates, submission controls, and the early-
+  finish defense for the 35% technical report
+- [[courses/tcom-2010/open-tc-page-map|Open TC Page Map]] — every chapter and section of
+  the assigned textbook → **physical PDF page**, verified 2026-08-19. The book carries no
+  printed page numbers, so there is no offset. **Cite pages, not chapter names**
+- [[courses/tcom-2010/concepts/course-policies-and-file-naming|Course Policies and File Naming]]
+  — **the Week 1 quiz sheet**, built 2026-08-19 from the §04 syllabus read end to end.
+  All four printed filename strings, the complete assignment×channel list, every policy
+  that carries a penalty, and seven items needing Chris's eyes before Aug 25
+- [[courses/tcom-2010/concepts/audience-purpose-genre|The Four-Part Decision Model]]
+  — audience, purpose, genre, constraints; the part of TCOM that outlives the course
+- [[courses/tcom-2010/concepts/technical-report-anatomy|Technical Report Anatomy]] —
+  the Weeks 6–12 build, section by section
+- [[courses/tcom-2010/common-errors/compliance-and-format|Common Errors: Compliance and Format]]
+  — where the grade is actually lost; use as a pre-submission checklist
+- [[courses/tcom-2010/glossary/technical-communication-terms|Technical Communication Glossary]]
+- [[courses/tcom-2010/flashcards/compliance-and-document-types|Compliance and Document Type Flashcards]]
+- [[courses/tcom-2010/drills/audience-retarget-and-redesign|Audience Retargeting and Redesign Drill]]
+
+## ENGR 1000
+
+No course folder yet. Three neighboring Fall 2026 web sections (BWB/BWC/BWF)
+establish a strong provisional common structure, recorded in
+[[course-briefs/fall-2026-course-briefs]] and `04-SCHOOL\SYLLABUS_STATUS.md`.
+None is BWD; activate a course folder only when the exact BWD material lands or
+a real BWD study need appears.
+
+## Shared learning methods
+
+- [[methods/learning-how-to-learn-principles|Learning How to Learn]] — the encoding/retrieval
+  model; the theory layer
+- [[methods/memory-techniques|Memory Techniques]] — cue-construction toolbox distilled
+  2026-08-13 from four vetted sources, matched to the measured aptitude profile; consumed by
+  `HAT_EDUCATOR.md` Term Anchoring step 2
+- [[methods/hat-performance-log|Hat Performance Log]] — append-only evidence on how the
+  teaching hats behave in live sessions, graded on the six-point rubric. **AI-behaviour
+  evidence, not learner truth** — learner progress stays in each hub's `current-position.md`.
+  Created 2026-08-17 on Chris's direction; written by `HAT_EDUCATOR.md` § Session close
+
+## Education-system reference
+
+- [[references/ai-programs-us-2026|AI Programs in U.S. Universities]]
+
+## Operations
+
+- [[source-map|Source Map]] — per-source disposition for everything in `raw/`,
+  plus the open canonical-copy question and two known provenance gaps
+- [[log|Wiki Log]]
+- `..\OPERATIONS.md` — machine contract
+- `..\HOW_TO_USE.md` — human workflow
+
+## Source routing
+
+[[source-map]] is the live coverage ledger — every `raw/` source carries an
+explicit disposition there. Session-by-session intake history stays in
+`wiki\log.md`; `raw\` remains immutable.

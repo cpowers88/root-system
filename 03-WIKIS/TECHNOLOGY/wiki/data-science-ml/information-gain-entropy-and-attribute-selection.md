@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: concept
-tags: [priority/now, status/wiki-only, domain/technology, source-role/primary, use-case/data-workflow, use-case/audit, subject/data-science, subject/information-gain, subject/entropy, subject/attribute-selection, stack/ai-frameworks-apis]
+tags: [subject/data-science, subject/information-gain, subject/entropy, subject/attribute-selection]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow, audit]
+stack: [ai-frameworks-apis]
 ---
 
 # Information Gain and Entropy: How to Mathematically Ask "Which Variable Actually Tells Me Something?"

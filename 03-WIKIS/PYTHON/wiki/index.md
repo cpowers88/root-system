@@ -10,8 +10,13 @@ tags: [programming]
 
 - [[current-position]] — current learner baseline, restrictions, and progress evidence.
 - [[learning-path]] — active staged path and next reading/drill.
+- [[cse-1321-17-week-mastery-plan]] — dated August 19–December 14 execution plan:
+  weekly readings, fresh private programs, assessment sweeps, proof gates, and the
+  August 24 D2L reconciliation checklist.
 - [[source-map]] — inventory and ranking of all sources.
-- [[syllabus-alignment]] — official CSE 1321/1321L outcomes, restrictions, assessments, and topic-to-stage coverage.
+- [[syllabus-alignment]] — official CSE 1321/1321L controls plus the full-semester
+  code-reader pathway, module playbooks, assessment plan, and trigger-based reading
+  reminders through the final.
 - [[prerequisite-map]] — concept dependency map.
 - [[parking-lot]] — advanced or off-scope material parked for later.
 - [[log]] — append-only session history.
@@ -20,13 +25,15 @@ tags: [programming]
 
 ## Stage Pages
 
-Generated curriculum exists through Stage 10, but Chris's current study stage is Stage 2.
+Generated curriculum exists through Stage 10, but Chris's current study stage is
+Stage 4b. The exact learner frontier lives only in [[current-position]].
 
 - [[stages/stage-00-setup-and-orientation]] — satisfied
 - [[stages/stage-01-python-atoms]] — satisfied 2026-07-13
-- [[stages/stage-02-decisions-and-boolean-logic]] ← current verification gate
-- [[stages/stage-03-loops-and-repetition]]
-- [[stages/stage-04-functions-parameters-return]]
+- [[stages/stage-02-decisions-and-boolean-logic]] — satisfied 2026-07-16
+- [[stages/stage-03-loops-and-repetition]] — satisfied 2026-07-26
+- [[stages/stage-04-functions-parameters-return]] — satisfied 2026-07-29
+- [[stages/stage-04b-python-libraries]] ← current stage
 - [[stages/stage-05-data-shapes]]
 - [[stages/stage-06-files-errors-debugging]]
 - [[stages/stage-07-program-design]]

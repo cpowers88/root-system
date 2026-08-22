@@ -1,7 +1,11 @@
 ---
 domain: technology
 type: reference
-tags: [priority/later, status/wiki-only, domain/technology, source-role/reference, use-case/tech-stack, subject/software-craft, subject/clean-code]
+tags: [subject/software-craft, subject/clean-code]
+timeline: later
+status: wiki-only
+source_role: reference
+use_cases: [tech-stack]
 ---
 
 # Clean Code: Error Handling, Testing Discipline, and the Smells Checklist

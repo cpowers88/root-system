@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: reference
-tags: [priority/now, status/wiki-only, domain/technology, source-role/reference, use-case/tech-stack, subject/flask, subject/python, stack/flask]
+tags: [subject/flask, subject/python]
+timeline: now
+status: wiki-only
+source_role: reference
+use_cases: [tech-stack]
+stack: [flask]
 ---
 
 # Flask Web Development — Source Summary and Navigation Hub

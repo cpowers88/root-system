@@ -1,9 +1,69 @@
 ---
 type: log
-tags: [log]
+tags: []
+timeline: log
+updated: 2026-08-18
 ---
 
 # EDUCATION Wiki — Session Log
+
+## 2026-08-13 (morning) — TCOM 2010 built out on the ECON pattern
+
+- **Ruling applied, not invented:** TCOM gets depth **inside `EDUCATION`, not a new
+  top-level hub** (update plan J-2). The decision rule is `NORTH_STAR.md` §2 — a
+  subject earns its own hub when its knowledge outlives the course. TCOM's *content*
+  does (communication is in the permanent capability base; proposals and reports are
+  direct client work) but the *course* does not, and three new hubs for courses that
+  end in December is permanent overhead bought for temporary work. ECON and ENGR
+  correctly stay as they are.
+- Six pages added on the proven ECON shape — `concepts/` ×2, `common-errors/`,
+  `glossary/`, `flashcards/`, `drills/` — beside the existing `semester-map.md`.
+  **No third structural pattern was invented.**
+- Content is grounded in the real exact-section syllabus, `HAT_TCOM.md` course facts,
+  and the textbook ancillaries the semester map already located. The two gaps the map
+  found (Report Group Charter, Reflective Memo — no ancillary template ships for
+  either) are carried forward into the concept and flashcard pages so they surface
+  before the week they are due, not during it.
+- The drill is built as **generative retrieval matched to the required performance**
+  (`HAT_EDUCATOR.md`): produce a document for a named reader, rather than recall a
+  definition. For TCOM that is the retrieval type that matches how the course grades.
+- `index.md` updated in the same pass — health gate navigation debt returned to its
+  pre-existing baseline of 4, so this added none.
+- **Named promotion trigger, so this is a decision and not a deferral:** promote TCOM
+  to its own top-level hub when the technical report is delivered **and** it has
+  produced reusable writing assets a client project would reuse. Structure follows
+  evidence.
+
+## 2026-07-27 (evening) — Weeks 1-6 ingestion check, TCOM + ECON, against fresh recaptures
+
+- Codex's earlier inbox sort left two raw syllabus captures coexisting per
+  course (stale July 21 at `raw/[file].md`, fresh July 27 at
+  `raw/Syllabi/[file].md`) — root-level duplicates removed by Chris before
+  this session, `raw/Syllabi/` is now the sole copy for TCOM, ECON, ENGR.
+- Read the new TCOM and ECON syllabi's full Weeks 1-6 in this session and
+  checked every deliverable/date/chapter against `courses/tcom-2010/
+  semester-map.md` and `courses/econ-1000/semester-map.md`. **Both already
+  accurate** — the July 21 ingestion held up; the 1,109-line raw diff on
+  TCOM was mostly re-scrape formatting (a duplicated calendar table, an
+  added HTML grading-rubric block), not a real schedule change.
+- Added two small confirmed details each map didn't have: TCOM's real
+  attendance-penalty structure (3 free unexcused absences, then ~3.5 pts/
+  absence, 6=one letter grade, 9=two); ECON's Week 6 Thursday (10/1)
+  post-exam review session and the online/no-extension quiz-exam policy.
+- Weeks 7-14 for both courses not yet re-checked against the fresh
+  captures — next pass when there's a specific need, not tonight.
+
+## 2026-07-24 — Machine-first course architecture installed
+
+- Installed `OPERATIONS.md` as the machine contract and reduced `CLAUDE.md`
+  to a loader.
+- Added the human `README.md` and replaced `HOW_TO_USE.md`.
+- Rebuilt `wiki/index.md` as the sole live catalog.
+- Organized knowledge into `course-briefs/`, `courses/<course>/`, `methods/`,
+  and `references/`.
+- Archived the pre-migration interfaces and catalog under
+  `99-ARCHIVE/2026-07-24_EDUCATION_PRE_MACHINE_ARCHITECTURE/`.
+- No file under `raw/` changed.
 
 ## 2026-07-07 — Wiki created (narrow scope)
 
@@ -112,3 +172,648 @@ tags: [log]
   Removed stale certainty around recycled course dates, incomplete weights, and
   an older ENGR policy while keeping the D2L update trigger explicit.
 - Cross-reference validation found no active dead link in the guide.
+
+## 2026-07-21 (evening) — Course briefs refreshed against real exact-section captures
+
+- Chris pulled real, exact-section Simple Syllabus Markdown captures for ECON
+  1000 and TCOM 2010 (plus CSE 1321/1321L, owned by PYTHON) on 2026-07-21,
+  replacing the July 9 PDF ingest this page was built from. `fall-2026-course-briefs.md`
+  rewritten against the live files in `04-SCHOOL\` — ECON confirmed
+  with no outstanding data-quality issue; TCOM's recycled January/Spring dates
+  persist in the fresh capture too (confirmed as KSU's own Simple Syllabus
+  template defect, not a stale-source artifact); ENGR's only available source
+  turned out to be **Summer 2026** (Instructor Matt Marshall), not the "Fall
+  2025" the old brief claimed — still reference-only, still not the real Fall
+  BWD section, corrected in place. See `SYSTEM_FLAGS.md` #57 for the standing
+  ENGR/PHYS unconfirmed-section tracking.
+- Added a short reading/dataset-prep pointer per course: FRED + World Bank
+  Open Data for ECON (doubles as real-data reps against the July SQL/
+  data-viz weak links); the syllabus's own linked sample documents for TCOM;
+  explicitly nothing yet for ENGR pending the real BWD syllabus.
+- Files: `fall-2026-course-briefs.md`, `index.md` (page description + raw
+  sources table), this log.
+- Next: no action pending here; re-check when ENGR's real Fall BWD syllabus
+  posts, and when D2L populates (~Aug 24) for the transition to per-course
+  activation.
+
+## 2026-07-21 (later) — raw/ reality sync + two unprocessed sources found
+
+- Chris placed `.md` copies of the ECON/TCOM/ENGR exact-section syllabi
+  directly into this hub's `raw/` (for ease of use, no transcription errors)
+  and archived the three superseded PDFs himself. Index updated to match:
+  the raw table now lists the real current files, marks them as convenience
+  copies with `04-SCHOOL\` staying canonical if the two ever
+  diverge.
+- Found two pre-existing files in `raw/` neither this hub's index nor any
+  session had processed: `Learn To Learn in 109 minutes.md` (Justin Sung
+  meta-learning transcript — encoding/retrieval, spaced retrieval, orders of
+  learning; substantive, overlaps [[learning-how-to-learn-principles]]) and
+  `Sharpen your thinking.md` (Obsidian.md's marketing homepage — no
+  learning-methodology content, flagged as a likely mis-clip rather than
+  processed). Both recorded in the index; neither absorbed into a wiki page
+  yet — awaiting Chris's call on the Sung transcript, and confirmation on
+  whether the Obsidian page was an intentional capture.
+- **Correction, same session:** the claim above that the Sung transcript and
+  Obsidian file were unprocessed was wrong — `learning-how-to-learn-principles.md`
+  already fully incorporated the Sung transcript on 2026-07-12 (five-chunk
+  review, dedicated Source Assessment section) and already correctly
+  identifies the Obsidian file as a tool-affordance page, not a learning
+  source. Caught by actually reading that page before acting further; index
+  corrected in place.
+
+## 2026-07-21 (later still) — ECON/TCOM literature fetch; raw/ write permission confirmed hard-blocked
+
+- Fetched three open-license reading sources per Chris's request to build
+  structured ECON/TCOM pathways: OpenStax *Principles of Economics 2e* (free,
+  CC-BY, Ch. 1 confirmed live, full ~20-chapter structure not independently
+  re-verified this pass — book landing/TOC page is SPA-rendered and returned
+  no text to automated fetch); CORE Econ's *The Economy 2.0* (free, CC
+  BY-NC-ND, full unit list confirmed live for both micro and macro volumes);
+  Purdue OWL's Professional, Technical Writing section (free, full 18-topic
+  list confirmed live).
+- **Could not fetch:** a BCcampus/Pressbooks-style open technical-writing
+  textbook, and St. Louis Fed / FRED educational pages — both returned
+  HTTP 403 across every URL variant tried (`opentextbc.ca`,
+  `ecampusontario.pressbooks.pub`, `stlouisfed.org/education`,
+  `fred.stlouisfed.org`), consistent with bot/Cloudflare protection rather
+  than a bad URL. Left unfetched rather than force it; Chris can grab these
+  manually in a browser if wanted.
+- **Structural finding:** writing into any wiki's `raw/` is denied at the
+  permission-settings level, not just by convention — confirmed by an actual
+  denied `Write` call to `EDUCATION\raw\`. Conversational authorization from
+  Chris does not override this; it is a deliberate hard guard on raw
+  immutability. The three fetched files were written to the session
+  scratchpad instead, for Chris to copy into `raw/` himself, matching how he
+  placed the syllabus copies and the two meta-learning clippings earlier
+  this session.
+- Also confirmed, and did not act on: Chris authorized removing the
+  Obsidian stray clip and asked whether the ECON/TCOM/ENGR syllabi now
+  duplicated between this hub's `raw/` and `04-SCHOOL\` should
+  be resolved by removing one copy. Both are file-removal actions inside
+  `raw/`, which AI cannot perform directly per the finding above — left for
+  Chris, with the duplicate-resolution direction itself still ambiguous in
+  his own wording pending a chat clarification.
+- Next: Chris copies the three scratchpad files into `raw/` if he wants
+  them there; Chris removes/archives the Obsidian clip himself; Chris
+  confirms which copy (library vs. this hub's `raw/`) should be the sole
+  surviving one for the three syllabi.
+
+## 2026-07-21 (final pass) — Real FRED datasets pulled for ECON 1000
+
+- Chris set up a FRED API key at `C:\Users\chris\.root-secrets\FRED.env`
+  (external to `.ROOT`, same convention as the YT Outlier Scanner project).
+  Built `00-BRAIN\scripts\fetch_fred.py` to read the key at runtime (never
+  printed/logged) and pull four series via the live FRED API: `GDP`,
+  `GDPC1` (real GDP), `CPIAUCSL` (CPI/inflation), `UNRATE` (unemployment).
+  All four confirmed live and current — data through 2026-01 (quarterly) /
+  2026-06 (monthly).
+- Output: `04-SCHOOL\04-ECON\datasets\` (4 CSVs + README
+  documenting source, license, and refresh instructions).
+  `fall-2026-course-briefs.md`'s ECON reading/dataset-prep bullet updated to
+  point at the real local files instead of the earlier abstract FRED
+  recommendation.
+- Next: no action pending; World Bank Open Data (economic-systems
+  cross-country comparisons) remains an unfetched recommendation if Chris
+  wants it later.
+
+## 2026-07-21 (final) — TCOM 2010 activated: Educator hat, first per-course structure
+
+- Chris loaded the real assigned textbook (*Open Technical Communication*,
+  `raw/Open-TC-PDF.pdf`), its instructor ancillary package
+  (`raw/Open-TC_Course-Resources/` — templates, rubrics, slides), and ~90
+  per-example worked files (`raw/Linked-Resources/`, numbered by the book's
+  own chapter.section scheme) into this hub's `raw/`, then asked to wear the
+  Educator/TCOM hat and map the real semester against this material.
+- Loaded `HAT_EDUCATOR.md` and `HAT_TCOM.md` before building. Found and
+  fixed a real error in `HAT_TCOM.md`: it said "Never email assignments,"
+  but the actual syllabus text explicitly requires the Business Email unit
+  to be submitted by real email — only document *attachments* are barred
+  for other assignments. Left the hat's claimed class time (TTh 9:35–10:55am)
+  alone — the captured syllabus text has no clock time to confirm or deny it
+  against.
+- Built `tcom-2010-semester-map.md`: a week-by-week table mapping every real
+  syllabus deliverable to its textbook chapter, ancillary template/rubric/
+  slide, and worked example(s). Two genuine gaps found and left open rather
+  than papered over: no ancillary template for the Week 6 Report Group
+  Charter or the Week 12 Reflective Memo — both need building from adjacent
+  generic templates or the syllabus's own D2L-linked samples (behind auth,
+  not capturable). `Sample-Syllabi/` in the ancillary package was excluded
+  from the map on purpose — publisher-generic, not Chris's real section.
+- Files: `tcom-2010-semester-map.md` (new), `index.md`, `current-position.md`,
+  `fall-2026-course-briefs.md`, `00-BRAIN\HATS\HAT_TCOM.md`, this log.
+- Result: TCOM 2010 is the first of the six Fall courses to get real
+  per-course structure, ahead of the Aug 24 semester start — justified per
+  this hub's own activation rule ("build out per-course structure only when
+  a course's material actually lands here") since the material genuinely
+  landed today, not pre-built speculatively.
+- Next: no blocking action. If Chris wants, the two gap templates (charter,
+  reflective memo) could be drafted from the generic Schedule/Memo templates
+  already on hand — Chris's call, not done unprompted.
+
+## 2026-07-21 (also final) — ECON 1000 provisional map + HAT_ECON.md correction
+
+- Chris asked for the same treatment on "the other course" (ECON) after
+  TCOM's activation. Checked `HAT_ECON.md` against the real exact-section
+  syllabus first, same discipline as TCOM, and found real errors: it said
+  four exams at 25% each with the course ending ~mid-November; the real
+  structure is two exams (25%+25%) plus four quizzes (50% total, two
+  lowest dropped), running the full 14 weeks through Thu Dec 3. Also fixed
+  the professor's name (already confirmed as Zeynep Kelani, not "TBD"), the
+  exact class time (8:00–8:50am, not 8:55am), and both real exam dates
+  (9/29 and 12/3, not "TBD from D2L") — none of this needed to wait for
+  D2L; it was already confirmed in the real syllabus captured earlier
+  today.
+- Built `econ-1000-semester-map.md`, explicitly one confidence tier below
+  `tcom-2010-semester-map.md`: the real schedule/exams/quizzes are
+  confirmed, CORE Econ's unit list is confirmed (fetched live), but
+  OpenStax's chapter mapping past Ch. 1 is inferred from the book's known
+  standard structure, not independently re-verified — flagged as such
+  rather than presented with false confidence. The real assigned textbook
+  (Mathews & Patrono) stays completely unmapped since it's D2L-locked; the
+  page says plainly to re-check once D2L opens, not to trust this mapping
+  as final.
+- Files: `econ-1000-semester-map.md` (new), `index.md`, `current-position.md`,
+  `fall-2026-course-briefs.md`, `00-BRAIN\HATS\HAT_ECON.md`, this log.
+- Next: re-verify the OpenStax/CORE Econ chapter alignment and replace the
+  provisional map with a real one once D2L populates (~Aug 24) and the
+  actual Mathews & Patrono chapter structure is visible. ENGR 1000 remains
+  fully blocked — no real Fall BWD syllabus exists yet to map against.
+
+## 2026-07-21 (inbox sweep) — Two ECON-relevant sources staged; closed flag #77
+
+- Chris restructured `77-INBOX\READY_FOR_CHRIS_RAW_PLACEMENT\` into one
+  subfolder per active hub (CASTLE deliberately excluded — not a raw-intake
+  hub) and asked for the loose files in `77-INBOX\` and `Clippings\` to be
+  sorted. Classified and moved three files:
+  - `lesson--great-depression-introduction-essay-wheelock.pdf` (St. Louis
+    Fed education essay — GDP, inflation/deflation, unemployment, banking,
+    government's economic role) → staged in `READY_FOR_CHRIS_RAW_PLACEMENT\EDUCATION\`.
+    Strong direct match to ECON 1000's real topic list.
+  - `Consumer Price Index for All Urban Consumers All Items in U.S. City
+    Average.md` (FRED CPI web clipping, same series as `CPIAUCSL.csv`) →
+    same staging folder — a reading companion to the dataset already pulled.
+  - `View Registration Information.md` (Chris's real OwlExpress
+    registration record, all six Fall 2026 CRNs/times/locations/instructors)
+    → moved to `04-SCHOOL\` directly, not staged for any wiki
+    `raw/` — it's an official academic record like `Ellucian Degree Works
+    Dashboard.md`, not domain source material.
+  - The registration record materially narrowed `SYSTEM_FLAGS.md` #57:
+    confirmed real meeting times/locations for PHYS 2211 §54 and ENGR 1000
+    BWD (both still show no assigned instructor, per the registrar itself);
+    confirmed TCOM's class time was already stated correctly in
+    `HAT_TCOM.md`; surfaced a harmless 5-minute schedule discrepancy for
+    ECON 1000 between the syllabus and the registration record, noted in
+    `HAT_ECON.md`.
+  - Flag #77 closed — its four original files are confirmed gone from the
+    old flat staging location (Chris's own disposition); moved to
+    `Closed Flags\CLOSED_FLAGS_2026-07.md`.
+- Files: `SYSTEM_FLAGS.md`, `Closed Flags\CLOSED_FLAGS_2026-07.md`,
+  `HAT_ECON.md`, this log. Two files remain staged in `raw/`'s inbox
+  waiting room, not yet in `raw/` itself (AI cannot write there directly).
+- Next: Chris moves the two staged EDUCATION files into this hub's `raw/`
+  when ready; the other seven hub subfolders in the staging area remain
+  empty — nothing further to route this pass.
+
+## 2026-07-21 (processed intake) — CPI and Great Depression ECON support
+
+- Chris moved the two staged ECON sources into EDUCATION `raw/`: David C.
+  Wheelock's four-page Federal Reserve Bank of St. Louis Great Depression essay
+  and the FRED/BLS CPIAUCSL clipping. Raw files were read only and not modified.
+- Used the PDF inspection workflow: extracted all four pages, rendered all four to
+  PNG in the system temporary directory, and visually confirmed clean, complete,
+  readable pages with intact headings, footnotes, and transitions.
+- Built [[econ-1000-great-depression-cpi-reading-guide]] as five just-in-time
+  chunks for Weeks 7-14: CPI measurement; GDP/output contraction; money, banking,
+  and deflation; recovery/government action; and final integration. Each chunk has
+  an unlock point, reading boundary, misconception control, and explain-back proof.
+- Added [[glossary/econ-1000-macro-terms]],
+  [[flashcards/econ-1000-gdp-inflation-unemployment]], and
+  [[drills/econ-1000-cpi-and-depression-reasoning]]. The drill is private,
+  solution-free practice and is explicitly not a substitute for graded work.
+- Recorded two critical boundaries: CPI index level is not the inflation rate, and
+  the local CPI series starts in 1947 so it cannot directly graph or verify the
+  essay's 1929-1933 claims. The Wheelock essay's monetary interpretation is framed
+  as an argument to analyze, not the only accepted causal account.
+- Inserted the sources into [[econ-1000-semester-map]], the course brief, current
+  position, HOW_TO_USE, and the exhaustive index. Removed legacy `reference` tags
+  from the ECON and TCOM semester maps, clearing both maps' new schema regressions.
+- Validation: strict wiki lint passes with 0 blockers and 0 review debt; whitespace
+  check passes; EDUCATION contributes no new frontmatter debt. The canonical vault
+  remains separately blocked by five concurrent PHYSICS timeline findings.
+- Next: do not broad-read the new packet now. The first unlock is Week 7 after the
+  initial GDP lesson; before then, use only light pre-semester GDP/inflation/
+  unemployment vocabulary retrieval if it fits the priority plan.
+
+## 2026-07-24 (evening) — Hub audit after the machine-architecture migration (Claude Code)
+
+- Mechanically clean: 12 pages, 0 dead links, 0 orphans, 0 frontmatter gaps,
+  index matches tree, live structure matches what `OPERATIONS.md` claims.
+  `current-position.md` and `course-briefs/fall-2026-course-briefs.md` are both
+  accurate and current, including flag #57's ENGR/PHYS source-quality state.
+  The missing ENGR 1000 course folder is correctly justified, not a gap.
+- **Regression found and repaired.** The July 24 migration archived the
+  source-to-page table that lived inside `wiki\index.md` and pointed future
+  sessions at the archived copy instead of replacing it. That table was this
+  hub's coverage ledger — the artifact the architecture evidence refinery names
+  as the standard (explicit per-source disposition: ingested / covered by a
+  named page / deferred with reason / intentionally excluded with reason).
+  Restored live as NEW `wiki\source-map.md`, reconciled against the current
+  `raw/` tree rather than copied forward, and linked from `index.md`.
+- **Provenance break found.** `wiki\references\ai-programs-us-2026.md` claimed
+  "Sources (in `raw/`)" for two files that are no longer there:
+  `AI Programs in U.S. Universities.md` is **missing from `.ROOT` entirely**,
+  and `2606.12428v1.pdf` now lives in `03-WIKIS\BUSINESS\raw\`. The page's
+  source block now states both accurately; its cicmap-derived figures are
+  marked as dated to the 2026-07-08 capture and not re-verifiable locally.
+- **Not resolved, by design.** The three exact-section syllabi are byte-identical
+  in this hub's `raw/` and in `04-SCHOOL\`. This hub recorded
+  2026-07-21 that `02-LIBRARY` stays canonical; PYTHON recorded the opposite for
+  its own syllabi on 2026-07-23. Chris's own question about which copy should be
+  the sole source is still open in this log. Raised as system flag **#85** rather
+  than settled inside one hub.
+- **Reported, not fixed:** `raw\README.md` still says "Nothing here yet —
+  populate per course as it activates," while `raw/` now holds roughly 200 files
+  including the whole Open-TC textbook package. `raw/` is immutable, so this is
+  Chris's call.
+- Validation: `wiki_lint.py` 0 blockers; `frontmatter_audit.py` no new findings
+  in EDUCATION; `validate_boot_chain.py` PASS.
+- **Next action:** Chris decides flag #85 (one canonical-copy rule for all school
+  hubs) and whether to correct `raw\README.md`.
+
+## 2026-07-26 — Pre-semester block coverage plan (Claude Code)
+
+- Chris asked what this hub's school blocks run on going forward. Booted the
+  full chain, then answered against the July 27 CASTLE weekly plan, which
+  assigns this hub 9 of 32 blocks (TCOM 4, ECON 3, ENGR 2).
+- **Chris's decisions this session:** the ENGR plan-of-study substitution is the
+  right shape, **but ENGR is held entirely until Aug 24** — KSU shows no course
+  content before then. Line the pre-semester weeks up against the real course
+  weeks and front-load Week 1 work where possible; report what cannot be filled
+  so it can be placed elsewhere.
+- Built [[pre-semester-coverage-plan]] covering four weeks (Jul 27 – Aug 23).
+  It states what is *workable*; CASTLE keeps ownership of placing blocks into
+  days. **Verdict: 36 planned blocks, 22–26 fillable, 10–14 released.**
+- **TCOM — 16 blocks, fully fillable, real course Weeks 1–3.** Every source is
+  local. Verified against the PDF rather than trusting the semester map: Ch 2.13
+  Memos and Emails pp. 149–163, Ch 3 Ethics pp. 174–190, Ch 5.2 Audience Analysis
+  pp. 304–310, Ch 2.12 Oral Presentations pp. 139–148, Ch 5.10 Peer Review from
+  p. 448, Ch 8 Technical Editing from p. 590 — **printed page numbers equal PDF
+  page numbers, no offset** (spot-checked pp. 149, 174, 304). All ancillary and
+  Linked-Resources paths confirmed present. Stop line set before the Week 4–5
+  Individual Project Proposal — real graded project work.
+- **ECON — 6 of 12 fillable.** Weeks A–B only (Ch 1 foundations, scarcity,
+  gains from specialization, PPF graph reading). Weeks C–D released on purpose:
+  Week 3 Economic Systems is exactly where the substitute maps are least
+  trustworthy, and the macro packet's first unlock is Week 7. Week A's third
+  block retargeted from "second foundations block" to cold vocabulary retrieval,
+  matching this hub's own stated pre-semester ceiling.
+- **ENGR — 8 blocks released.** Also recorded that the original Friday block was
+  unrunnable regardless: the Summer W01 reference syllabus defers its assignment
+  list to a D2L schedule PDF that is not in the vault.
+- Two small corrections: the TCOM semester map named the resume peer-review
+  ancillary `PeerReview.docx`; the real filename is
+  `Resume+CoverLetter_PeerReview.docx`. Fixed. Block-evidence table added to the
+  new plan so TCOM/ECON proof has somewhere to land — this hub had no learner
+  proof ledger, unlike PYTHON and PHYSICS.
+- Files: new `wiki\pre-semester-coverage-plan.md`; `index.md`,
+  `current-position.md`, `courses\tcom-2010\semester-map.md`, this log.
+- **Still open for Chris:** flag #85 (one canonical-copy rule for school hubs,
+  MEDIUM, due at a weekly review) and where the 10–14 released blocks go —
+  recommended to Python and Physics, but that is CASTLE's call, not this hub's.
+
+## 2026-07-27 — Exact-section syllabus recapture routed from 77-INBOX (Codex)
+
+- Replaced the school-library working copies for ECON 1000 and TCOM 2010 with
+  fresh Simple Syllabus captures. Requirements did not change; both add exact
+  meeting information, and ECON explicitly says attendance is encouraged but
+  not graded.
+- Preserved the July 21 working copies under
+  `99-ARCHIVE/04-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
+- The delivered ENGR W01 Summer file was body-identical to the existing
+  reference and was archived as a duplicate. Fall BWD remains missing.
+- The immutable EDUCATION `raw/` captures remain dated July 21 and now diverge
+  from the school-library files. Corrected `source-map.md` and escalated flag
+  #85 to HIGH rather than silently selecting a canonical-copy rule.
+
+**Next action:** Chris chooses one canonical home for official course files;
+until then, use the July 27 school-library captures as the newest official
+evidence and keep the divergence explicit.
+
+## 2026-07-27 — Raw-syllabus preparation plan activated (Codex)
+
+- Re-read the exact-section ECON 1000 and TCOM 2010 syllabi directly from
+  EDUCATION `raw/`, plus the ENGR Summer reference and both live semester maps.
+- Updated [[pre-semester-coverage-plan]] rather than creating a competing plan.
+  TCOM remains 16 fully sourced blocks. ECON moved from six blocks limited to
+  Weeks A–B to eight bounded blocks across all four weeks.
+- ECON now prepares Chapters 1–3 durable reasoning only: scarcity, incentives,
+  opportunity cost, specialization, comparative advantage, PPF interpretation,
+  neutral economic-system comparison, fresh-case classification, and a cold
+  readiness gate. It does not claim the substitute books match Mathews/Patrono.
+- Added three pre-semester gates: TCOM Week 1 message-analysis readiness, ECON
+  Chapters 1–3 readiness, and a D2L verification handoff.
+- ENGR remains held because the only syllabus is Summer W01 and its assignment
+  schedule is absent.
+
+**Next exact action:** run ECON Week A Block 1 in the next CASTLE ECON slot:
+OpenStax Chapter 1 orientation followed by a closed-source definition of
+scarcity, incentives, opportunity cost, and tradeoff.
+
+## 2026-08-02 — ECON Week B disambiguation line (Fable, evening close)
+
+- Applied the one remaining verified fix from today's plan reconciliation:
+  `pre-semester-coverage-plan.md` § Week B — specialization and production
+  choices now states only E1 (one block) is scheduled Aug 3–9; the listed
+  items roll to Weeks C–D, deferred rather than missed. Matches the TCOM
+  disambiguation already in place; no scope or gate change.
+
+**Next exact action:** unchanged — E1 runs Friday Aug 7 per the CASTLE
+weekly plan, or earlier via its Move-On Gate queue.
+
+## 2026-08-13 — Memory-techniques toolbox built; hub split applied; Educator hat rewording (Claude + Chris live session)
+
+- **`methods/memory-techniques.md` created** from four sources Chris routed through `77-INBOX`
+  (Art of Memory 36-techniques, Harvard cueing, Stanford CTL working memory, ADDA top-10).
+  Distilled against the YouScience profile: kept cueing, memory palace/loci, mnemonic imagery,
+  sound-alike keywords, chunking, overlearned self-testing, sleep-adjacent study, movement
+  pairing, location rotation. Dropped peg/PAO systems and audio-primary methods, with reasons
+  in-file. Inbox articles left in place for the weekly-review clear.
+- `OPERATIONS.md` replaced per the approved W4/J-2 split: two declared halves (meta-learning /
+  course support), promotion rule inlined, no folders moved, deliberately no engr-1000 folder.
+- `current-position.md` re-scoped as a course-support status board; D2L-opens-Aug-24 fact
+  recorded; ECON confirmed 🟢 (dates verified twice), TCOM 🟢/⚠ (recycled Spring dates), ENGR 🔴.
+- `HAT_EDUCATOR.md` (00-BRAIN, noted here because it consumes this hub's methods): Codex review
+  fixes applied — "every session" → standing-methods-with-triggers; technique quota → grade the
+  learning; fact-conflict deference order added; "How to word it for Chris" delivery contract
+  added from the aptitude model. Index updated same session.
+
+## 2026-08-18 (later) — TCOM weeks 6–14 ingested and dated; the morning's correction was only half-applied
+
+### What Chris asked for, and what was actually missing
+
+Chris asked to ingest weeks 6–15 and get them onto the semester plan. **Weeks 6–14 existed in
+`courses/tcom-2010/semester-map.md` but had never been dated**, and `04-SCHOOL\SEMESTER_MAP.md`
+still carried the row `6–15 | Sep 29 → Dec 7 | 🔴 Not yet extracted` plus a matching D2L
+ingestion item. So the honest answer to the request was: partly a real gap, partly an
+already-known-but-unapplied correction.
+
+### 🔴 The morning entry claimed a fix in two files and delivered it in one
+
+The entry immediately below says the wrong "weeks 6–15 not extracted" claim *"also sat in
+`04-SCHOOL\SEMESTER_MAP.md` and was corrected there 2026-08-18."* **It was not.** That file
+still held the 🔴 row and the ingestion item when this session opened.
+
+**This is a worse instance than the error it was correcting.** The morning's failure was
+reading absence-in-one-file as absence-in-the-vault. This one is *recording a fix that was
+never applied* — which removes the evidence that anything is still wrong. A stale claim gets
+caught by the next session that reads the file; a falsely-closed one does not.
+**Standing fix, extending the morning's:** a log entry may name a file as corrected only if
+that file was edited in the same session. Naming it is not fixing it.
+
+### The week→date conversion — verified, not derived
+
+The syllabus prints recycled Spring dates, so weeks had stayed relative. They can now be
+anchored with a real check rather than an assumption: **the calendar has exactly 14 numbered
+weeks, and there are exactly 14 Tue/Thu pairs between the first class day (Tue Aug 25) and the
+last day of classes (Mon Dec 7) once Fall Break (Nov 23–29) is removed.** Two counts, no
+remainder — each syllabus week has exactly one home. Marked 🟡 (derived from a verified
+structure), not 🟢 (printed), and D2L still wins from Aug 24.
+
+### Two facts nothing in the vault had recorded
+
+- **TCOM has no final exam.** The requirements table has seven weighted components and none is
+  an exam. **The course finishes Thu Dec 3** — before finals week. Combined with ECON's final
+  also falling Thu Dec 3, **two of five courses are done before Dec 8–14 begins**, which makes
+  the real last push week 14, not finals week. Recorded in `semester-workload-plan.md` §4b.
+- **There is no TCOM week 15.** Dec 7 is a Monday; TCOM meets TTh.
+
+### The report's four checkpoints are dated and ungraded
+
+Weeks 8–11 each carry *"must have draft of the following sections for review by professor"*:
+**Introduction (Tue Oct 13) · Project Description (Tue Oct 20) · Recommendation & Conclusion
+(Tue Oct 27) · Exec Summary, Transmittal, Slides, References (Tue Nov 3).** They are review,
+not submissions — **no points attach**, which is exactly why they will be the first thing
+dropped under pressure, and exactly why dropping them puts the full 35% on week 12, the
+semester's worst week. This is the mechanism that makes "finish the report early" a plan rather
+than an aspiration.
+
+### Also extracted, previously unrecorded
+
+Document Redesign due Thu Oct 1 with **two images added beyond the Dolphin file's own** ·
+Group Charter due Thu Oct 1 **midnight** · Font Style quiz **Tue Oct 6** (the workload plan had
+it as "wk 7–8") · Progress Report **Thu Oct 29**, emailed by **one** team member · Lab Day
+Thu Nov 19 requires polished instructions, the equipment to perform them, **and a printed**
+worksheet · Extra Credit Tue Dec 1 · Instructions Group Project Thu Dec 3.
+
+### Files
+
+`04-SCHOOL\SEMESTER_MAP.md` (TCOM table rebuilt weeks 1–14, header note, ingestion item 6) ·
+`04-SCHOOL\semester-workload-plan.md` (§3 rows 6–15 + F dated, §4.1 rewritten, §4b added, §6
+and §8 item 3 updated) · `courses\tcom-2010\semester-map.md` (date table + weeks 6–14 split per
+meeting + grade-weight section) · `current-position.md` · this log.
+
+**Next exact action — Aug 24, when D2L opens:** confirm the 🟡 TCOM dates against the posted
+calendar, and **download the three Group Charter samples** (*Sample Group Charter*, *Roles &
+Tasks within Your Team*, *Sample Task Schedule*) — they are named in the syllabus, sit behind
+D2L auth, and are needed by **Thu Oct 1**. Neither the charter nor the Reflective Memo has a
+shipped template.
+
+## 2026-08-18 — backfill of the Aug 17–18 TCOM/ECON work, and a stale claim corrected
+
+### Why this entry exists: the hub stopped logging while work continued
+
+**This log's previous entry was 2026-08-13, but TCOM and ECON work ran on Aug 17 and Aug 18 and
+none of it reached this hub.** `PHYSICS\wiki\log.md` and `PYTHON\wiki\log.md` both logged their
+sessions on the same days. The work was recorded in `DAILY_2026-08-18.md` and in
+`04-SCHOOL\`, so nothing was lost — but a hub whose log skips its own sessions cannot answer
+"how did the last TCOM session go," which is exactly what it is for. **Backfilled here rather
+than left as a gap; flagged as a cadence failure, not a content one.**
+
+### TCOM source review (Aug 17–18) — outcome
+
+- **The assigned textbook is verified.** `raw\Textbook Doc Files\Open Technical Communication.pdf`
+  (9.21 MB, 2019 KSU DigitalCommons) — its decimal chapter scheme matches the syllabus **and**
+  the 124-file `Linked-Resources\` numbering exactly. Ch 2.13 Emails/Memos, Ch 3 Ethics,
+  Ch 4.1 Report Design, Ch 5.2 Audience Analysis, Ch 2.6 Instructions, Ch 6 Usability,
+  Ch 8 Technical Editing all line up. **One book now keys the syllabus, the readings, and the
+  worked examples.**
+- **🔴 A destructive trap was found and ruled on.** `2e_Word\` is a later flat 0–29
+  renumbering of the same book, **missing chapters 25–28**, whose Ch 3 is *Library and Internet
+  Research* where the syllabus's Ch 3 is *Ethics*. **Reading week 1's assignment from it
+  produces the wrong chapter.** Ruling: **supplement only, never a navigation source.** Now
+  recorded in `current-position.md` so it cannot be re-learned the hard way.
+- **Grade structure extracted from the exact syllabus:** Business Email 15 · Audience Analysis 5
+  · Presentations & Proposals 15 · Technical Report oral 15 · Technical Report written 20 ·
+  Instructions 15 · Graded Exercises 15. **The report is 30.5–35% in two artifacts**, and every
+  major unit is draft → final where the draft is worth ~2 points but buys instructor feedback on
+  the piece worth 12–17%. **Early serious drafts are the highest-return habit in the course.**
+
+### Correction to this hub's own status board
+
+`current-position.md` claimed **"Weeks 6–15 are not yet extracted."** That was wrong —
+`courses/tcom-2010/semester-map.md` carries rows through **week 14**, including every technical
+report milestone. The identical wrong claim also sat in `04-SCHOOL\SEMESTER_MAP.md`.
+
+**This is the same error class corrected for ECON on 2026-08-13** — *absence in the file
+consulted read as absence in the vault* — recurring five days later in the page that recorded
+the first correction. It happened because the status board was written from memory of the map
+rather than from the map. **Standing fix: a status claim about a sibling page must be checked
+against that page in the same edit.**
+
+### ECON — unchanged, and correctly so
+
+No ECON session ran. Status remains 🟢 with the one real gap: the assigned *Contemporary
+Economic Issues* (Mathews & Patrono) is D2L Day One Access-only, so the OpenStax/CORE chapter
+mapping stays **inferred, not verified**. Spot-check when D2L opens **Aug 24** — not before.
+
+### New cross-course dependency
+
+`04-SCHOOL\semester-workload-plan.md` (built 2026-08-18) now owns weekly effort and sequencing
+for all five courses, including TCOM at 5–7 h/week and ECON at 2–3 h/week rising to 4–5 before
+exams. It also names **week 12 (Nov 9–15) as the semester's worst week**, driven substantially
+by this hub's TCOM report deadline landing on CSE Test 2. **Finishing the report a week early
+is the single strongest risk reduction available**, and the draft checkpoints from week 6 make
+it feasible.
+
+### Exact next action
+
+**Aug 24, when D2L opens:** confirm TCOM's real Fall due dates (the syllabus prints January
+dates) and spot-check the ECON textbook mapping against the real Mathews & Patrono chapters.
+Both are items 3 and 7 on `semester-workload-plan.md` §8.
+
+## 2026-08-19 — TCOM session 1: syllabus read in full, two hub pages found teaching a wrong rule
+
+**First TCOM working session of the semester.** TCOM entered the day at **0 of 6 planned
+blocks** with three graded items six days out. Target: the Week 1 **Course Policies Quiz** and
+**File Naming Convention Quiz** (both assigned Tue Aug 25, due Tue Sep 1, **no late credit**).
+
+### Method — cold diagnostic before any teaching
+
+Eight unannounced policy questions, no notes, per `HAT_EDUCATOR` § Cold Checks. **~3 of 8.**
+Recorded as session evidence, not as a mastery claim — this hub owns no learner frontier
+(`OPERATIONS.md` § State).
+
+**The pattern mattered more than the score: both confident wrong answers were correct rules
+imported from PHYS 2211.** "Email her before it's due" is the WebAssign extension rule, added
+to `NOW.md` the previous day and therefore the freshest thing available. **Cross-course rule
+contamination is now a named error class for this semester** — five courses, five late
+policies, none of them alike. Taught as an opposed pair: *PHYS rewards foresight, TCOM rewards
+speed.*
+
+### 🔴 Two pages in this hub were teaching the wrong file-naming rule
+
+`common-errors/compliance-and-format.md:20` and `flashcards/compliance-and-document-types.md:16`
+both asserted `LastName_04_AssignmentName.docx` as the **required pattern**. It is a
+**fallback**. The four strings the syllabus prints each break it differently. Chris generated
+filenames from a category taxonomy — *email is X, document is Y, draft is Z* — and missed two
+of three reps. **That is the failure the two pages would produce in any reader**, and it is his
+strongest instinct (find the generating rule) misfiring on material that has none.
+
+**Both pages corrected the same session.** New page holds the authoritative version:
+[[courses/tcom-2010/concepts/course-policies-and-file-naming]].
+
+**Lesson, and it is a repeat in new costume:** the hub's own study aids were written from the
+syllabus's *calendar tables* and never from its *policy and directory sections*. Same shape as
+the 2026-08-18 finding — *absence in the file consulted read as absence in the vault* — except
+here the file was consulted and only half of it was read. **A study aid derived from part of a
+source must name which part.**
+
+### Five findings, none previously anywhere in the vault
+
+1. **Technical-failure make-up rule** — UITS ticket number obtained at the time **and** an
+   email to Diamond within 24 hours. Neither reconstructible later. Lands on the campus-laptop
+   dependency (~58% of outside-class study time).
+2. **Room narrowed to 2-of-3** — the syllabus says **Atrium 2216**, agreeing with the calendar
+   against the registrar's Academic 202. Propagated to `SEMESTER_MAP.md` and `HAT_TCOM.md`.
+3. **The Business Email Draft has two conflicting submission routes in one document** — D2L
+   `.docx` (wk 1 Thu) versus email subject line (wk 2 Tue). **Day-one question, not a puzzle
+   to solve.**
+4. **Ethics Analysis is a fourth week-1 graded item, due Fri Aug 28, format unknown** —
+   instructions are D2L-only. Added to `SEMESTER_MAP.md` week 1.
+5. **The assignment-weights table is not truncated** — an old "cut off in the scan" note is
+   closed. Also: § Logistics claims 15 weeks against its own 14-week calendar; calendar governs.
+
+### Exact next action
+
+**TCOM:** finish the policy set — the ~8 uncued facts in
+[[courses/tcom-2010/concepts/course-policies-and-file-naming]] Part B — then a spaced re-rep of
+the four filename strings before Aug 25. Ch. 2.13 Emails & Memos is the reading block for
+Tue Aug 25.
+
+**Aug 24, when D2L opens** (unchanged, plus two): confirm TCOM's real Fall due dates and
+spot-check the ECON textbook mapping — items 3 and 7 on `semester-workload-plan.md` §8 — **and
+now: open the Ethics Analysis SUBMISSION section, and download the three Group Charter samples.**
+
+## 2026-08-19 — TCOM exact-syllabus 17-week execution plan and routing audit
+
+### Objective
+
+Apply the same semester-plan treatment used for CSE and Physics: reconcile the
+exact §04 syllabus, the current TCOM course-support pages, the assigned textbook,
+and the real Fall calendar into one executable plan without generating graded
+writing.
+
+### Built
+
+- Added [[courses/tcom-2010/tcom-2010-17-week-execution-plan]] covering Aug 19
+  through Dec 14: exact pre-class readings, weekly production gates, submission
+  controls, all known deliverables, the Aug 24 D2L verification gate, and a
+  no-final-exam close week.
+- Protected the 35% report with the actual Oct 13/20/27 and Nov 3 professor-review
+  checkpoints and a planned full-draft finish of Nov 6, six days before submission
+  and before the CSE Test 2 collision peaks.
+- Preserved the AI boundary: this is planning and private concept practice only.
+  AI does not create a TCOM outline or prose that becomes submitted work.
+
+### Reconciled and repaired
+
+- Corrected [[courses/tcom-2010/semester-map]] to the two textbook paths that
+  actually exist and marked the Business Email Draft/Final channels as verification
+  needs instead of inferring an email route from the document genre.
+- Corrected `HAT_TCOM.md` on the same channel issue, the already-complete weight
+  table, filename fallback, compliance check, and the boundary around Chris-built
+  shells.
+- Updated [[source-map]] from the stale nonexistent `raw/Open-TC-PDF.pdf` route to
+  the controlling `raw/Syllabi/` capture and real assigned-book locations; preserved
+  the `2e_Word` renumbering warning.
+- Added the plan to [[index]] and linked it from [[courses/tcom-2010/semester-map]].
+
+### Status and next action
+
+This hub owns no learner frontier, so no mastery claim was made. Exact content,
+weights, policies, and week order are verified; converted Fall dates remain
+provisional until D2L opens Aug 24.
+
+**Next exact action:** retrieve [[courses/tcom-2010/concepts/course-policies-and-file-naming]]
+Part B cold, then read assigned-book §2.13 *Emails & Memos*. Produce only a private
+genre analysis—not a draft of either graded email.
+
+## 2026-08-20 — ENGR Fall 2026 neighboring-web-section reconciliation
+
+### Evidence
+
+Chris added Fall 2026 ENGR 1000 BWB, BWC, and BWF captures to `77-INBOX`.
+Their course-specific cores were compared without moving or editing the source
+files. BWB and BWF match; BWC differs only by omitting a redundant sentence that
+there is no textbook.
+
+### Finding and ruling
+
+All three agree on seven assignments, 50% departmental quizzes / 50% homework
+and other quizzes, lowest grade in each category dropped, no textbook, no late
+work, no extra credit, D2L-owned dates, common outcomes, and AI use prohibited.
+
+This is **strong provisional common structure**, not BWD truth. Exact BWD dates,
+weekly order, quiz mechanics, synchronous/asynchronous execution, partnership
+requirements, and Raoufi-specific policy remain unknown until BWD posts.
+
+### Reconciled
+
+Updated the EDUCATION status board, course brief, index, operating integrity
+table, ENGR hat, `04-SCHOOL` launch/read/workload/map/source-status files, the
+active CASTLE week, and flag #57. No ENGR course folder was created and no
+neighboring assignment was converted into practice.
+
+**Next exact action:** on Aug 24, open BWD D2L and verify the exact syllabus,
+announcements, departmental quizzes, assignments, due dates, drop rules,
+delivery execution, and AI policy before replacing any provisional row.

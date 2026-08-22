@@ -1,9 +1,59 @@
 ---
 type: log
-tags: [log]
+tags: []
+timeline: log
 ---
 
 # TECHNOLOGY Wiki — Log
+
+## 2026-08-13 — inbox routing: networking-literacy notes filed
+
+- `notes_swithes_and_routers.md` moved out of `77-INBOX` to
+  `wiki\switches-and-routers-networking-literacy.md`, renamed to the kebab-case convention
+  its siblings use (the original filename also carried a typo, "swithes").
+- **Filed to `wiki\`, not `raw\`, on purpose.** It carries no frontmatter, no source URL and
+  no clipper signature — it is Chris's own synthesis written from a networking-literacy
+  source, not a captured document. `raw\` is for immutable captured sources; a personal note
+  filed there would be both wrong and unreachable, since AI may not write under `raw\`.
+- Frontmatter added (`type: reference`, `timeline: reference`, `tags: [technology, networking]`)
+  and a one-line provenance note at the top. **Body left exactly as Chris wrote it** —
+  including the informal voice, which is the record of how he understood it.
+- Index updated in the same pass.
+
+## 2026-07-24 — 2 new books landed in raw/, intake pending
+
+Chris dropped 8 PDFs in `77-INBOX` this morning; routed by subject per
+`WHERE_IT_GOES.md`. Two landed here in `data-science-ml`'s applied-reference
+lane: `Machine_learning_design.pdf` (Lakshmanan, Robinson & Munn, *Machine
+Learning Design Patterns* — data prep/model building/MLOps practice, not
+agent research, so TECHNOLOGY rather than AI_AUTOMATION_SYSTEMS) and
+`r_for_data_science.pdf` (Wickham & Grolemund). No overlap with existing
+`data-science-ml/` pages (`PracticalStatisticsforDataScientists.pdf`,
+`DataScienceforBusiness.pdf`, etc. already covered different ground).
+Files placed only — chunk-ingest into `wiki/data-science-ml/` pages is
+queued, not done today.
+
+## 2026-07-21 — New page: Python's `sqlite3` module, from MCP Bootcamp Day 3 practice
+
+Chris built a real SQLite fixture live (`friction_categories` + `businesses`
+tables, six real rows from `observation_one.md`'s OBSERVATION LOG) during
+MCP Bootcamp Day 3 (Data Engineering). The existing `database-sql/` folder
+(11 pages, Practical SQL ingest) covers SQL syntax against PostgreSQL but had
+no page on the Python-to-database layer itself — checked via grep for
+`executemany`/`cursor.execute`/`sqlite3.connect`, zero hits. Added
+[[database-sql/sql-python-sqlite3-integration]] to fill that gap: connect/
+cursor, `CREATE TABLE IF NOT EXISTS` (idempotent re-runs), parameterized `?`
+inserts and why they matter (injection safety, not just convenience),
+`executemany()` and its non-idempotency caveat, commit/close, and reading
+data back with `fetchall()`. Cross-links to the existing
+[[database-sql/sql-table-design-constraints-and-indexes]] page rather than
+re-explaining `PRIMARY KEY`/`FOREIGN KEY` from scratch. The project-specific
+build (the actual categorize-vs-merge decision, the six real rows) stays
+with the MCP_Bootcamp project's own `MASTER_BLUEPRINT.md`, not duplicated
+here — this page is reusable Python+SQLite reference only.
+
+Files: new `wiki\database-sql\sql-python-sqlite3-integration.md`;
+`wiki\index.md` (page count 11→12); this log.
 
 ## 2026-07-13 — Full raw/ audit: duplicates documented, misplaced files rerouted, book/clipping ingest begun
 
@@ -682,3 +732,356 @@ unchanged: second zero-rep category per TECHNOLOGY_LIBRARY_STRATEGY.md.
   the live build hits its named boundary.
 - Next: Claude uses the source packet in the independent boot-camp review; execution
   still waits for the final approved stack and proof vehicle.
+
+## 2026-07-21 — Goal-aligned gap audit reclassified after owner routing (Codex)
+
+- Reclassified `goal-aligned-technology-gap-audit-2026-07-16.md` from `now` to
+  `reference`. Its integrated-proof diagnosis remains the August 1 comparison
+  baseline; its scanner-first sequence and July 25 tracker assumption are
+  superseded by the MCP Bootcamp, `NOW.md`, and `SYSTEM_FLAGS.md` #57.
+- No capability claim or research conclusion changed. Current action remains with
+  the live project and CASTLE owners.
+
+## 2026-07-24 — Vault-redesign special-lens source intake completed
+
+- Completed the CASTLE-owned architecture intake for both Technology raw
+  sources: *Machine Learning Design Patterns* physical pp. 108–300 closed the
+  former middle-section gap (all 408 pages now covered), and *R for Data
+  Science* pp. 197–520 closed Chapters 10–24 and back matter (all 520 pages).
+- The former PDF render fault was resolved in a fresh tool context. Physical
+  pages 108, 155, 217, 265, and 300 rendered as distinct, legible content before
+  the recovered span was closed.
+- Durable returns: stable keys, explicit unknown states, checkpoints, staged
+  escalation, continuous evaluation, schema bridges, dependency-aware cache
+  invalidation, relational reference integrity, and Markdown/YAML as one
+  reproducible source with derived views.
+- Findings live in
+  `00-BRAIN/CASTLE/wiki/source-summaries/architecture-update-2026-07-24/`;
+  this pass did not change Technology's active capability frontier.
+- Raw PDFs remained read-only. Next: CASTLE performs the now-unblocked
+  cross-source synthesis.
+
+## 2026-07-24 — Hub audit + instruction-set conversion (Claude Code)
+
+### Audit
+- 135 pages: **0 orphans, 0 frontmatter gaps, index matches tree.**
+- One malformed wikilink fixed: `vs-code-data-tooling-data-wrangler-and-edit-csv.md`
+  line 63 linked `[[data-science-ml/]]` — a folder target Obsidian cannot resolve.
+  Rewritten as plain text.
+- **Coverage ledger was 5 files behind.** The header declared `39/39` while
+  `raw/` held 44. Registered all five and reconciled the totals to 44/44:
+  - `Machine_learning_design.pdf` and `r_for_data_science.pdf` — routed here
+    2026-07-24 and **fully read that morning** (408 and 520 physical pages), but
+    their disposition existed only in
+    `00-BRAIN\CASTLE\wiki\source-summaries\architecture-update-2026-07-24\`,
+    never in this owning hub's ledger. Both now recorded as Cross-hub.
+  - `readthis.md` and `Mixture of SMB wedges and enterprise stacks.md` — July 17
+    captures, both **unsourced AI chat exports** (one self-titled "unsourced chat
+    export," the other `TEMP*conversation grok*TEMP`). Registered Reference-only
+    with an explicit not-evidence caveat; neither may be cited as a landscape or
+    market finding without independent Tier 1–2 confirmation.
+  - `metadata – OAPEN ….md` — July 17 clipping on open-access book metadata;
+    Reference-only, no current page gap.
+  The Source-Family Summary and the Validation Record were updated to match. The
+  gap is precisely what this ledger exists to catch: a source can be read in full
+  and still be unaccounted where it physically lives.
+- `wiki\user-experience\` (4 pages) existed on disk but was absent from the
+  documented folder structure — now listed.
+
+### Conversion
+Converted to the four-file machine architecture — the last of the eight hubs.
+
+- NEW `OPERATIONS.md` — canonical contract (`register: ai-directive`). Carries
+  the former CLAUDE.md content (two-layer purpose, spine reference and why it
+  stays at `02-LIBRARY`, system boundary, FORGE inheritance, closed `ai-and-llm/`
+  lane, folder structure, metadata conversion, maintenance cadence, Watchtower
+  handoff, final principle) plus the HOW_TO_USE facts worth keeping.
+- Preserved out of the old `HOW_TO_USE.md` rather than dropped: **this hub has no
+  `current-position.md` by design** — the spine's Current State is the landscape
+  frontier of record; and **the applied collection is a retrieval library, not a
+  study queue** — most of `distributed-systems/` and `data-science-ml/` sits ahead
+  of Chris's live frontier, so target the spine's gap list, not page count. Both
+  are now contract rules rather than guide prose.
+- NEW in `OPERATIONS.md`: a Coverage discipline section requiring a source to be
+  registered **in the session it arrives**, not when it is compiled — the rule
+  whose absence produced today's 5-file gap; and an explicit note that
+  *accounted is not the same as usable*.
+- `CLAUDE.md` reduced to a six-step loader; `HOW_TO_USE.md` rewritten;
+  NEW `README.md`. Originals archived to
+  `99-ARCHIVE\2026-07-24_TECHNOLOGY_PRE_MACHINE_ARCHITECTURE\`.
+- Two `SKILL_GAP_ANALYSIS.md` references repointed to
+  `capability_development_goal.md` (contract Purpose/System Boundary, and
+  `goal-aligned-technology-gap-audit-2026-07-16.md`).
+
+### Not changed
+No concept page, category, disposition decision, or `raw/` file was altered
+beyond the ledger registrations above.
+
+### Validation
+`validate_boot_chain.py` PASS. `wiki_lint.py` 0 blockers. `frontmatter_audit.py`
+zero new findings in TECHNOLOGY.
+
+### Next action
+All eight hubs are now on the four-file set. Open system flags #84
+(`register:` scope) and #85 (canonical-copy rule across school hubs) still need
+Chris's decisions.
+
+## 2026-07-26 — Codex non-learner boot-chain review
+
+- Started cold inside `03-WIKIS\TECHNOLOGY` and followed the live local chain:
+  `AGENTS.md` → `CLAUDE.md` → canonical `OPERATIONS.md`.
+- Loaded the universal governance chain, North Star, capability contract,
+  Technology index/recent log, and the operational spine.
+- Wrote `technology_boot_one_review.md`. Verdict: **PASS**; this supplies the
+  non-learner-hub proof required by the July 26 execution-discipline update.
+- Ran `validate_boot_chain.py`: **PASS**, 30 boot files checked and 1,335 live
+  pages scanned, with no stale governance references reported.
+- Identified one bounded next goal: at the August 1 review, reconcile the
+  operational spine's stale “Python Stage 3 active” state with live Stage 4
+  learner truth, then select one existing tracker/scanner vehicle for the next
+  SQL-reliability proof. No new research queue was opened.
+- Raw files and unrelated worktree changes were untouched.
+
+## 2026-07-27 - Goal-lens raw re-evaluation started
+
+- Re-evaluated the Technology raw shelf against the live North Star,
+  Advisor-Builder strategy, capability weak-link order, and Technology
+  Recommendation Ladder.
+- Selected *Business Information Systems* (Beynon-Davies, 2nd ed., 2013) as
+  the first bounded source because its decision and workflow material can serve
+  live diagnosis and technology-selection capability without opening an
+  advanced-method curriculum.
+- Read physical PDF pp. 39-53 as chunk 1 and visually checked rendered source
+  pages. The durable content covers open systems, activity systems,
+  input/process/output, material and information flows, control/feedback, and
+  value networks.
+- Routing verdict: the chunk belongs primarily to SYSTEMS and substantially
+  overlaps existing value-stream and feedback pages. No duplicate Technology
+  page was created; the raw PDF remained unchanged.
+- Added a four-step re-evaluation plan to
+  [[raw-source-coverage-and-intake-status]]: next inspect Chapters 9-12 for
+  impact assessment, planning, operations, and development; then selectively
+  inspect the 2026 industrial-engineering source. Advanced proceedings,
+  optimization, quantum, virtualization, R, and unsourced chat exports remain
+  parked behind their existing triggers.
+- Next action: read the first 10-15 physical pages of Chapter 9, compare any
+  decision method against existing TECHNOLOGY/SYSTEMS/BUSINESS pages, and
+  update only the owning page when a genuine delta is found.
+
+## 2026-07-27 - Business Information Systems Chapter 9 selective ingest
+
+- Completed Chapter 9 in two bounded chunks: physical PDF pp. 313-327 and
+  328-342 (book pp. 274-303). Rendered sample pages from both chunks before
+  relying on extracted text.
+- Chunk 1 added a three-layer worth test to
+  [[user-experience/user-experience-structure-skeleton-surface-and-validation]]:
+  functionality, usability, and utility, followed by the evidence chain from
+  system/information quality through use and satisfaction to organizational net
+  benefit. Linked it to SYSTEMS' user-centered design page and BUSINESS'
+  [[workflow-observation-method]].
+- Chunk 2 created the distinct applied reference
+  [[software-engineering/information-system-evaluation-lifecycle-and-failure-levels]]:
+  strategic, formative, summative, and post-mortem evaluation, plus the
+  development/use failure axis across technical, project, organizational, and
+  environmental levels.
+- Updated BUSINESS' workflow-observation report gate to distinguish a working
+  tool from one that is usable and operationally valuable, and to name the
+  correct evaluation moment.
+- Reclassified raw ledger row 34 from Reference-only to Selective; disposition
+  totals remain 44/44. Updated the Technology index from 132 to 133 content
+  pages and Software Engineering from 9 to 10.
+- No raw file was modified or copied. Period-specific technology, procurement,
+  and adoption claims were not retained as current evidence.
+- Next action: begin Chapter 10 with physical PDF pp. 346-360 and extract only
+  durable planning/strategy decision methods that add to existing owner pages.
+
+## 2026-07-27 - Business Information Systems Chapter 10 chunk 1
+
+- Read and rendered physical PDF pp. 346-360 (book pp. 307-321).
+- Routed the durable delta to BUSINESS rather than duplicating Technology's
+  possibility map: [[strategic-diagnosis-and-coherent-action]] now triangulates
+  organizational, environmental, and technology evidence before a technology
+  response and distinguishes target-driven, resource-driven, and
+  implementation-driven planning.
+- Linked the planning modes to
+  [[software-engineering/information-system-evaluation-lifecycle-and-failure-levels]]
+  so targets and means are checked before commitment, during implementation,
+  and after real use.
+- Did not retain dated competitive, e-business, Internet-channel, organizational
+  chart, or vendor examples as current claims.
+- No raw file was modified or copied.
+- Next action: continue Chapter 10 with physical PDF pp. 361-375, focusing only
+  on durable alignment, portfolio, sourcing, and management decision methods.
+
+## 2026-07-27 - Business Information Systems Chapter 10 chunk 2
+
+- Read and rendered physical PDF pp. 361-375 (book pp. 322-336).
+- Created
+  [[software-engineering/information-process-system-and-technology-alignment-map]]
+  for the durable dependency chain from organizational process to information
+  classes, systems, technology, standards, skills, and operations.
+- Added the process/information matrix to BUSINESS'
+  [[workflow-observation-method]] so observations can expose duplicated entry,
+  missing ownership, conflicting definitions, unsupported processes, unofficial
+  systems, and integration boundaries.
+- Linked the alignment map to the evaluation lifecycle, strategic diagnosis,
+  SYSTEMS value-stream mapping, and existing Technology architecture references.
+- Updated the Technology index from 133 to 134 content pages and Software
+  Engineering from 10 to 11.
+- COBIT versions, regulation references, channel examples, and period-specific
+  technology claims remain historical and require current primary-source
+  verification before use.
+- No raw file was modified or copied.
+- Next action: begin Chapter 11 with physical PDF pp. 374-388 only after
+  reconciling the Chapter 10/11 page boundary; extract durable service,
+  operations, sourcing, and support methods.
+
+## 2026-07-27 - Business Information Systems Chapter 11 chunk 1
+
+- Reconciled the boundary: Chapter 10 ends on physical PDF p. 373 and Chapter 11
+  begins on p. 374. Read and rendered Chapter 11 physical pp. 374-388 (book
+  pp. 335-349).
+- The chunk mostly reinforced the existing alignment framework. Added the
+  durable ownership split across planning, management, project management,
+  development, maintenance, and operations to
+  [[software-engineering/information-process-system-and-technology-alignment-map]].
+- Explicitly made build/buy recommendations incomplete until operation, support,
+  maintenance, evaluation, modification, and retirement owners are named.
+- Did not retain dated industry history, career classifications, centralized/
+  decentralized organization examples, or vendor cases as current evidence.
+- No new page and no raw copy were created.
+- Next action: read Chapter 11 physical PDF pp. 389-403 for sourcing,
+  project-management, and service-operation decision methods.
+
+## 2026-07-27 - Business Information Systems Chapter 11 chunk 2
+
+- Read and rendered physical PDF pp. 389-403 (book pp. 350-364), completing
+  Chapter 11.
+- Extended
+  [[software-engineering/information-process-system-and-technology-alignment-map]]
+  with a delivery-to-operations control loop rather than creating separate,
+  version-bound PRINCE2 and ITIL pages.
+- Added product-first planning, bounded stages and work packages, tolerance
+  escalation, boundary reauthorization, a living business case, formal close,
+  and post-delivery evaluation.
+- Added a service-portfolio record covering service definition, request,
+  support, incident restoration, recurring-problem control, change/release,
+  service levels, continuity, total cost of ownership, and improvement.
+- Kept PRINCE2/ITIL/ISO versions, 2013 technology examples, environmental
+  statistics, and vendor/industry claims as historical context requiring
+  current primary-source verification.
+- No new page and no raw file was modified or copied.
+- Next action: begin Chapter 12 with physical PDF pp. 406-420 after reconciling
+  the chapter boundary; retain only development methods that materially improve
+  existing software-engineering pages.
+
+## 2026-07-27 - Business Information Systems Chapter 12 chunk 1
+
+- Reconciled the boundary: Chapter 12 begins on physical PDF p. 404. Read
+  physical pp. 404-420 (book pp. 365-381).
+- The lifecycle and stakeholder material largely reinforced the existing
+  evaluation, UX-requirements, agile, and alignment pages.
+- Extended
+  [[software-engineering/information-process-system-and-technology-alignment-map]]
+  with two explicit development decisions: bespoke versus package/configuration,
+  and staged/linear versus iterative sequencing.
+- Recorded the durable trade: a package accelerates access but shifts design
+  pressure onto organizational processes; iteration reduces requirement and
+  usability risk but needs bounded time, scope, and learning controls.
+- Recommended the practical hybrid: authorize through controlled stages while
+  using small prototypes inside stages where uncertainty remains.
+- Did not retain method histories, dated package/vendor examples, or categorical
+  claims that one sequencing model always fits a system type.
+- No new page and no raw file was modified or copied.
+- Next action: review physical PDF pp. 421-435 for requirements, modelling, and
+  construction methods; update only where there is a distinct operational
+  delta.
+
+## 2026-07-27 - Business Information Systems Chapter 12 chunk 2
+
+- Read physical PDF pp. 421-435 (book pp. 382-396), completing Chapter 12 and
+  the bounded Chapters 9-12 re-evaluation.
+- Added parallel technical/work-system requirements, stakeholder disagreement,
+  acceptance scenarios, and early participation to
+  [[user-experience/user-experience-strategy-scope-and-requirements]].
+- Added integration, volume/capacity, and acceptance-test distinctions to
+  [[software-engineering/software-testing-levels-and-techniques]].
+- Extended
+  [[software-engineering/information-process-system-and-technology-alignment-map]]
+  with technical and work-system readiness, direct/parallel/phased conversion,
+  corrective/adaptive/perfective/preventive maintenance, and configuration
+  control.
+- Did not retain dated development methods, enterprise-package assumptions,
+  cost percentages, or vendor examples as current claims.
+- No new page and no raw file was modified or copied.
+- Next action: move to the second bounded source in the re-evaluation order,
+  *Next-Generation Industrial Engineering*; inspect only content that can
+  strengthen workflow observation, smart-manufacturing measurement, or
+  human/technology integration.
+
+## 2026-07-27 - Next-Generation Industrial Engineering quality gate
+
+- Read the front matter and contents in physical PDF pp. 1-35, then reviewed
+  physical pp. 73-107 across Chapters 6-7 for human/robot integration,
+  industrial measurement, and predictive-process methods.
+- Found no durable delta over existing workflow, instrumentation, data-science,
+  human/technology, and reliability coverage.
+- Parked the source as quality-limited: Chapter 7's strong optimization results
+  are based primarily on synthetic data, the manuscript contains an unresolved
+  editorial placeholder, and its human-integration discussion remains
+  conceptual rather than an executable method.
+- Retained no numerical performance claims and created no Industry 4.0 study
+  queue. The bibliography may be used only to discover original primary
+  sources, which must be verified directly.
+- No wiki synthesis page was changed, and no raw file was modified or copied.
+- Next action: evaluate the third bounded source, *Intelligent Automation in
+  Oil, Gas, and Chemical Industries (2026)*, only for a named workflow or
+  reliability method; route architecture to AI_AUTOMATION_SYSTEMS and
+  operational-system patterns to SYSTEMS.
+
+## 2026-07-27 - Intelligent Automation volume quality gate
+
+- Read the contents and framing in physical PDF pp. 1-35, then inspected
+  physical pp. 119-133 for the strongest safety/reliability candidate and
+  pp. 159-174 for anomaly detection.
+- Parked the volume as quality-limited rather than routing material into
+  AI_AUTOMATION_SYSTEMS or SYSTEMS.
+- The safety chapter connects motorcycle rider devices to oil/gas control
+  through a simulated cross-industry comparison rather than a validated
+  industrial workflow. The anomaly chapter evaluates network-intrusion
+  benchmark traffic and extrapolates the result to oil operations.
+- The useful abstractions—sensor qualification, environmental robustness,
+  local safety control, latency, interoperability, false-alarm handling, and
+  human response—already have stronger coverage in Technology instrumentation,
+  software testing, and SYSTEMS human-error methods.
+- Retained no performance numbers or architecture claims. The bibliography is
+  discovery-only until an original primary source is opened and verified.
+- No synthesis page was changed, and no raw file was modified or copied.
+- Next action: keep the remaining broad sources parked and resume ingestion
+  only from a source with a named gap, or verify the primary references behind
+  one specific industrial reliability question.
+
+## 2026-07-27 - Goal-lens Technology intake queue closed
+
+- Re-read the live goal-aligned gap audit and all 44 raw-source dispositions
+  after completing the three-source review.
+- Closed the bounded July 27 intake queue. The remaining raw shelf is already
+  compiled, selectively covered, routed, excluded, or parked behind explicit
+  OAuth, virtualization, IoT-case, optimization, quantum, R, metadata, or
+  primary-evidence triggers.
+- Added `Parked, quality-limited` to the ledger vocabulary and reconciled the
+  source-family summary to 9 Reference-only, 2 Parked quality-limited, and 1
+  Excluded; the full total remains 44/44.
+- Recorded the completion outcome for all three reviewed sources so a future
+  session does not restart broad ingestion.
+- Next action: return to the live operating constraint named by `NOW.md` or the
+  capability-development owner. Open raw material again only if that work
+  exposes a specific unanswered question.
+
+## 2026-08-02 - Windows productivity and maintenance intake
+
+- Routed four sources into `raw/`: a PowerToys overview, official FancyZones documentation, KB5121767, and a Defender security-intelligence capture.
+- Created [[devops/windows-workspace-and-maintenance-reference]] for the durable workspace pattern and update-applicability gate.
+- Kept vendor versions, release timestamps, shortcuts, product counts, and third-party ranking claims explicitly volatile.
+- Updated the ledger from 44/44 to 48/48 and the index for the one new retrieval page.
+- **Next exact action:** configure or test a PowerToys utility only when a repeated Windows workflow names the time or friction it should remove.

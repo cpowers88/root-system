@@ -7,38 +7,43 @@ tags: []
 
 # CASTLE Wiki — User Router
 
-Every morning, open `.ROOT\NOW.md`.
+Use this page to find the correct CASTLE view without loading the entire cockpit.
 
-If you enter CASTLE cold, read:
+## Start
 
-1. [[north-star-roadmap]] — the durable pathway and sequencing context.
-2. [[current-position]] — live baseline and proof state.
-3. `00-BRAIN\CASTLE\HOW_TO_USE.md` — how to operate the command center.
+When beginning active work, open `.ROOT\NOW.md` for the current-action interface.
 
-CASTLE answers what comes next, why, and what proves it. Durable direction lives in
-`01-NORTH_STAR\NORTH_STAR.md`; the current business vehicle lives in
-`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`. CASTLE references both and
-does not restate or override them.
+For a cold entry:
 
-| Page | Answers |
+1. Open [[north-star-roadmap]] for the long-range sequence.
+2. Open [[current-position]] for the latest baseline and proof state.
+3. Open `..\HOW_TO_USE.md` for question routing.
+4. Open `..\OPERATIONS.md` when operating rules or authority matter.
+
+CASTLE helps answer:
+
+> What is the highest-value next action; who owns it; what proof closes it; and where does the result return?
+
+Durable direction lives in `01-NORTH_STAR\NORTH_STAR.md`. The current business strategy lives in `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`.
+
+## Core Views
+
+| Need | Page |
 |---|---|
-| [[phase-map]] | phase windows and exit criteria |
-| [[skill-map]] | sequenced capabilities tied to proof |
-| [[source-map]] | roadmap-relevant evidence sources |
-| `phases\` / `skills\` / `proof-projects\` | detailed execution maps |
-| `decision-rules\` | gates that protect focus |
-| [[log]] | append-only history |
+| Current action | `.ROOT\NOW.md` |
+| Long-range sequence | [[north-star-roadmap]] |
+| Current baseline and proof | [[current-position]] |
+| Phase structure | [[phase-map]] |
+| Capability structure | [[skill-map]] |
+| Evidence supporting roadmap decisions | [[source-map]] |
+| Complete CASTLE inventory | [[index]] |
 
-## Find the Right Layer
+## Find a Layer
 
-- Normal CASTLE navigation: `path:"00-BRAIN/CASTLE/wiki" [timeline:reference] [reference_priority:core]`
-- Focused rules and evidence: `path:"00-BRAIN/CASTLE/wiki" [timeline:reference] [reference_priority:supporting]`
-- Current CASTLE pages: `path:"00-BRAIN/CASTLE/wiki" [timeline:now]`
-- Complete system-wide daily priority: open `.ROOT\NOW.md`.
+- **Reference maps:** `path:"00-BRAIN/CASTLE/wiki" [timeline:reference] [reference_priority:core]`
+- **Supporting rules and evidence:** `path:"00-BRAIN/CASTLE/wiki" [timeline:reference] [reference_priority:supporting]`
+- **Current CASTLE pages:** `path:"00-BRAIN/CASTLE/wiki" [timeline:now]`
 
-`reference_priority` selects the reference layer and retrieval utility; it never
-means “work on this now.” `timeline` controls action horizon; `NOW.md` remains the
-complete system-wide daily authority.
+`reference_priority` identifies durable orientation documents. `timeline` identifies action horizon.
 
-Full AI operating contract: `00-BRAIN\CASTLE\OPERATIONS.md`. Any AI may maintain
-CASTLE within that contract; Chris owns consequential decisions.
+`.ROOT\NOW.md` is the current-action interface, not the source of durable authority.

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/metaheuristics, subject/tabu-search, subject/simulated-annealing, subject/genetic-algorithms, subject/operations-research]
+tags: [subject/metaheuristics, subject/tabu-search, subject/simulated-annealing, subject/genetic-algorithms, subject/operations-research]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # Metaheuristics: Escaping Local Optima with Tabu Search, Simulated Annealing, and Genetic Algorithms

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/nonlinear-programming, subject/kkt-conditions, subject/operations-research]
+tags: [subject/nonlinear-programming, subject/kkt-conditions, subject/operations-research]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # Nonlinear Programming: When LP's Assumptions Break, and the KKT Conditions

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: concept
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/process-design, use-case/ksu-support, subject/jit, subject/lean-manufacturing, subject/manufacturing-history, subject/factory-physics]
+tags: [subject/jit, subject/lean-manufacturing, subject/manufacturing-history, subject/factory-physics]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [audit, process-design, ksu-support]
 ---
 
 # JIT's Origins, the Seven Zeros, and "The Environment as a Control"

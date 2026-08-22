@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/now, status/wiki-only, domain/systems, source-role/example, use-case/systems-analysis, use-case/process-design, use-case/audit, subject/system-dynamics, subject/stocks-and-flows, subject/model-boundary, subject/recycling]
+tags: [subject/system-dynamics, subject/stocks-and-flows, subject/model-boundary, subject/recycling]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [systems-analysis, process-design, audit]
 ---
 
 # Aggregation, Challenging the Clouds, and Two Real Stock-Flow Case Studies

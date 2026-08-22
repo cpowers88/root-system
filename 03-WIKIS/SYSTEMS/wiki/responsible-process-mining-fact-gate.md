@@ -128,7 +128,7 @@ Every consequential analysis should preserve:
 [[process-mining-engagement-and-value-realization]],
 [[conformance-checking-and-kpi-driven-process-improvement]],
 [[designing-for-human-error-and-recovery]], and
-`03-WIKIS/AI_AUTOMATION_SYSTEMS/wiki/algorithmic-fairness-metrics-ground-truth-and-intervention.md`.
+`03-WIKIS/AI_AUTOMATION_SYSTEMS/wiki/alignment-safety/algorithmic-fairness-metrics-ground-truth-and-intervention.md`.
 
 ## Use / Retrieval Notes
 

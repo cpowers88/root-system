@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/data-workflow, use-case/process-design, use-case/ksu-support, subject/factory-physics, subject/littles-law, subject/queuing-theory, subject/throughput-wip-cycle-time]
+tags: [subject/factory-physics, subject/littles-law, subject/queuing-theory, subject/throughput-wip-cycle-time]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, data-workflow, process-design, ksu-support]
 ---
 
 # Little's Law and Best-Case Line Performance

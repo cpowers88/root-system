@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: concept
-tags: [priority/now, status/wiki-only, domain/technology, source-role/primary, use-case/data-workflow, use-case/business-model, use-case/audit, subject/data-science, subject/data-driven-decision-making, stack/ai-frameworks-apis]
+tags: [subject/data-science, subject/data-driven-decision-making]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow, business-model, audit]
+stack: [ai-frameworks-apis]
 ---
 
 # Data-Driven Decision-Making: What It Actually Buys You, and Why "Big Data" Isn't "Data Science"

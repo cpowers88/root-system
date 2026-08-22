@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/supply-chain, use-case/audit, subject/system-dynamics, subject/supply-chains, subject/trust, subject/bullwhip-effect]
+tags: [subject/system-dynamics, subject/supply-chains, subject/trust, subject/bullwhip-effect]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, supply-chain, audit]
 ---
 
 # How Supply Chain Instability Destroys Trust — and Why Lead-Time Gaming Makes Everything Worse

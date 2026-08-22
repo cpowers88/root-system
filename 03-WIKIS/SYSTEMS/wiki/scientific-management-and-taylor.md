@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: concept
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/process-design, use-case/ksu-support, subject/scientific-management, subject/manufacturing-history, subject/factory-physics]
+tags: [subject/scientific-management, subject/manufacturing-history, subject/factory-physics]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [audit, process-design, ksu-support]
 ---
 
 # Scientific Management: Taylor's System, Its Insight, and Its Flaw

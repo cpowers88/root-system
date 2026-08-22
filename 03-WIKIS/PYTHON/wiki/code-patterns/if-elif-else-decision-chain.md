@@ -3,7 +3,8 @@ type: code-pattern
 stage: 02
 status: draft
 concepts: ["condition", "if-elif-else", "branch", "boolean-operators"]
-tags: [stage-02, conditionals, decision-chain]
+tags: [conditionals, decision-chain]
+timeline: reference
 ---
 
 # Code Pattern: `if` / `elif` / `else` Decision Chain

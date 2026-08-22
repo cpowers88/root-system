@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: framework
-tags: [priority/later, status/wiki-only, subject/devops, subject/organizational-design]
+tags: [subject/devops, subject/organizational-design]
+timeline: later
+status: wiki-only
 ---
 
 # Conway's Law and Organizational Design for DevOps

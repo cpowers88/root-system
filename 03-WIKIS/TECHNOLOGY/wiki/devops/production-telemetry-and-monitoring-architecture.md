@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/devops, subject/observability, subject/telemetry]
+tags: [subject/devops, subject/observability, subject/telemetry]
+timeline: later
+status: wiki-only
 ---
 
 # Production Telemetry and Monitoring Architecture

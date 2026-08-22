@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/devops, subject/resilience, subject/security]
+tags: [subject/devops, subject/resilience, subject/security]
+timeline: later
+status: wiki-only
 ---
 
 # Resilience Engineering and Chaos Testing

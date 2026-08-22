@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/now, status/wiki-only, domain/systems, source-role/example, use-case/systems-analysis, use-case/business-model, use-case/client-interview, subject/system-dynamics, subject/feedback-loops, subject/automotive-industry]
+tags: [subject/system-dynamics, subject/feedback-loops, subject/automotive-industry]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [systems-analysis, business-model, client-interview]
 ---
 
 # GM Auto Leasing Case Study: How a Carmaker's Own Policy Created Its Competitor

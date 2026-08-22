@@ -25,8 +25,10 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parents[2]
-EXCLUDED = {"99-ARCHIVE", "raw", ".git", ".obsidian", "Report Archive",
-            "77-INBOX", "88-JOURNAL", ".claude", ".agents", "SKILLS"}
+EXCLUDED = {"99-ARCHIVE", "raw", ".raw ARCHIVE", ".git", ".obsidian",
+            "Report Archive", "77-INBOX", "88-JOURNAL", ".claude", ".agents",
+            "SKILLS", "skills", ".venv", "venv", "node_modules", ".pytest_cache",
+            "oracleJdk-26"}
 TIMELINE = {"now", "next", "later", "parked", "reference", "log"}
 REFERENCE_PRIORITY = {"core", "supporting", "lookup"}
 NATIVE = re.compile(r"^(priority/\w+|stage-\d+|phase-(\d+|all)|stage-all)$")
@@ -117,9 +119,13 @@ def audit():
     for p in sorted(ROOT.rglob("*.md")):
         if EXCLUDED.intersection(p.relative_to(ROOT).parts):
             continue
+        # rglob("*.md") also matches directories named *.md (e.g. the JDK
+        # module dir legal/jdk.internal.md)
+        if not p.is_file():
+            continue
         checked += 1
         rel = p.relative_to(ROOT)
-        fm = parse_frontmatter(p.read_text(encoding="utf-8", errors="replace"))
+        fm = parse_frontmatter(p.read_text(encoding="utf-8-sig", errors="replace"))
         if fm is None:
             missing_fm.append(str(rel))
             continue

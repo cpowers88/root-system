@@ -1,6 +1,7 @@
 ---
 type: flashcards
-tags: [later, programming]
+tags: [programming]
+timeline: later
 ---
 
 # Flashcard Batch: Stage 9 — Automation Bridge

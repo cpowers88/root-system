@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/process-design, use-case/audit, subject/factory-physics, subject/labor-constrained-systems, subject/cross-training]
+tags: [subject/factory-physics, subject/labor-constrained-systems, subject/cross-training]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, process-design, audit]
 ---
 
 # Labor-Constrained Systems and Flexible Labor

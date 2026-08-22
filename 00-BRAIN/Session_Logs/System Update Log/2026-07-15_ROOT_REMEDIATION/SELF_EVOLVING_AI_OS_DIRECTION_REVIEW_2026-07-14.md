@@ -1,6 +1,7 @@
 ---
 type: report
-tags: [reference, governance, ai-automation, system-review]
+tags: [governance, ai-automation, system-review]
+timeline: reference
 ---
 
 # Self-Evolving AI OS Direction Review — July 14, 2026

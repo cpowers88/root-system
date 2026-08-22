@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/process-design, use-case/ksu-support, subject/mrp, subject/capacity-planning, subject/factory-physics]
+tags: [subject/mrp, subject/capacity-planning, subject/factory-physics]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, process-design, ksu-support]
 ---
 
 # Capacity Planning and Shop Floor Control: RCCP, CRP, Dispatching, and I/O Control

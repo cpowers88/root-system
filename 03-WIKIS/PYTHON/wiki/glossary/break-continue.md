@@ -4,6 +4,7 @@ stage: 03
 status: draft
 aliases: ["break", "continue"]
 related_terms: ["loop", "while-loop", "for-loop"]
+timeline: reference
 ---
 
 # `break` / `continue`

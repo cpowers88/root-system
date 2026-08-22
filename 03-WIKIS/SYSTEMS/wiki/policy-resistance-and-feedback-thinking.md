@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/audit, use-case/client-interview, subject/system-dynamics, subject/feedback-loops, subject/policy-resistance, subject/mental-models]
+tags: [subject/system-dynamics, subject/feedback-loops, subject/policy-resistance, subject/mental-models]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, audit, client-interview]
 ---
 
 # Policy Resistance and Feedback Thinking

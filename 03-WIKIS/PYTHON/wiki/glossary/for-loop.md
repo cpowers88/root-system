@@ -4,6 +4,7 @@ stage: 03
 status: draft
 aliases: ["for statement"]
 related_terms: ["loop", "range", "iteration"]
+timeline: reference
 ---
 
 # `for` Loop

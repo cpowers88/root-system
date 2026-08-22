@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: framework
-tags: [priority/later, status/wiki-only, subject/devops, subject/continuous-delivery, subject/deployment]
+tags: [subject/devops, subject/continuous-delivery, subject/deployment]
+timeline: later
+status: wiki-only
 ---
 
 # Deployment Pipeline and Continuous Delivery
