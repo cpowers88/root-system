@@ -10,9 +10,8 @@ tags: [governance, castle]
 
 ### User router for decisions, sequencing, ownership, and proof
 
-**Last updated:** July 24, 2026 — routing table extended to the four
-`Goals & Milestones` owners and the Watchtower four-field handoff; synchronized
-to `OPERATIONS.md`
+**Last updated:** August 22, 2026 — synchronized to the live semester/course controls,
+miss evidence, current capability owner, and exact path casing
 
 ## What CASTLE Answers
 
@@ -40,9 +39,12 @@ Durable direction belongs to `01-NORTH_STAR\NORTH_STAR.md`. Rules and authority 
 | What phase am I in? | `wiki\phase-map.md` |
 | What capabilities need proof? | `wiki\current-position.md` — the Capability and Proof Frontier table (**corrected 2026-08-21**: this routed to `skill-map.md`, which holds no state) |
 | What are a capability's horizons and activation criteria? | `wiki\skill-map.md` |
-| What technology fits this workflow problem? | `02-LIBRARY\REF-AI-AUTOMATION\TECHNOLOGY_LIBRARY_STRATEGY.md` — 12 categories + Recommendation Ladder |
+| What technology fits this workflow problem? | `02-LIBRARY\ref-AI-automation\TECHNOLOGY_LIBRARY_STRATEGY.md` — 12 categories + Recommendation Ladder |
 | What is the current business strategy? | `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` |
 | What does this semester require? | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` |
+| What are the live cross-course dates and deadlines? | `04-SCHOOL\SEMESTER_MAP.md` |
+| Which exact-section sources are confirmed or missing? | `04-SCHOOL\SYLLABUS_STATUS.md` |
+| What did Chris miss and what must be retested? | `04-SCHOOL\miss-log.md` |
 | Which capability is the current weak link? | `01-NORTH_STAR\Goals & Milestones\capability_development_goal.md` |
 | Has capability turned into real value yet? | `01-NORTH_STAR\Goals & Milestones\value_production_goal.md` |
 | Should a new opportunity enter the system? | `wiki\decision-rules\adding-a-profit-skill.md` |

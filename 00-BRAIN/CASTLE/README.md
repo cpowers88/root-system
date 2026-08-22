@@ -20,8 +20,9 @@ Decision, sequencing, ownership, and proof-status cockpit for `.ROOT`.
 - Current proof position: `wiki/current-position.md`
 - Long-range sequence: `wiki/north-star-roadmap.md`
 - Opportunities: `wiki/opportunity-queue.md`
-- Claude loader: `CLAUDE.md`
-- Codex loader: `CODEX.md`
+- Claude auto-load pointer: `CLAUDE.md`
+- Codex auto-load pointer: `AGENTS.md`
+- CASTLE-specific Codex scope notes: `CODEX.md`
 
 CASTLE points to owner truth; it does not replace domain evidence, learner
 records, project execution, or North Star authority. `raw/` is immutable.

@@ -2,7 +2,6 @@
 type: report
 timeline: log
 status: active
-register: system-review
 tags: [governance, codex, audit]
 created: 2026-08-10
 ---

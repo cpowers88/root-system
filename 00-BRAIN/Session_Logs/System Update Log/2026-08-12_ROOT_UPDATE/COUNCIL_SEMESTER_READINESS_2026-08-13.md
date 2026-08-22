@@ -1,7 +1,6 @@
 ---
 type: report
 timeline: now
-register: system-review
 status: complete
 tags: [council, update, semester-readiness, structure, capacity, fall-2026]
 created: 2026-08-13

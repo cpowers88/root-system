@@ -6,11 +6,10 @@ tags: [school, syllabus, fall-2026]
 
 # Syllabus Status — Fall 2026
 
-**Canonical homes, verified 2026-07-29:** PYTHON syllabi live in `03-WIKIS\PYTHON\raw\syllabi\`;
-PHYSICS syllabi live in `03-WIKIS\PHYSICS\raw\syllabus\` (one reference file, noted
-below, stays in `04-SCHOOL\02-Physics I\` by Chris's explicit choice); EDUCATION
-syllabi (ECON, TCOM, ENGR) live in `03-WIKIS\EDUCATION\raw\Syllabi\`. This file
-stays here as the cross-course index; it does not hold the syllabi themselves.
+**Active-copy ownership, reconciled 2026-08-22:** `WHERE_IT_GOES.md` governs new official
+course material: the working copy Chris receives from KSU lives in the matching `04-SCHOOL`
+course folder. Existing wiki `raw\` captures remain immutable evidence; this reconciliation
+does not move or rewrite them. This file is the cross-course source-status index.
 Classes start **August 24, 2026** — see the Pre-Semester Punch List at the
 bottom for what has to close before then.
 
@@ -21,7 +20,7 @@ bottom for what has to close before then.
 | CSE 1321 | BF (81262) | `03-WIKIS\PYTHON\raw\syllabi\CSE 1321 BF (81262) Fall 2026 Syllabus.md` | Exact section |
 | CSE 1321L | 04 (86703) | `03-WIKIS\PYTHON\raw\syllabi\CSE 1321L 04 (86703) Fall 2026 Syllabus.md` | Exact section |
 | ECON 1000 | BAC (80643) | `03-WIKIS\EDUCATION\raw\Syllabi\ECON 1000 BAC (80643) Fall 2026 Syllabus.md` | Exact section |
-| TCOM 2010 | 04 (85633) | `03-WIKIS\EDUCATION\raw\Syllabi\TCOM 2010 04 (85633) Fall 2026 Syllabus.md` | Exact section |
+| TCOM 2010 | 04 (85633) | `04-SCHOOL\03-TCOM\TCOM 2010 04 (85633) Fall 2026 Syllabus.md` | Exact section, active course copy |
 | **PHYS 2211** | **54 (83722)** | **`03-WIKIS\PHYSICS\raw\syllabus\Syllabus.pdf`** | ✅ **Exact section — received 2026-08-18** direct from Farhan Islam. Byte-identical working copy at `04-SCHOOL\02-Physics I\Syllabus.pdf` (hash verified). Lists recitations 51–54 under one lecture, **including §54 (Fri 11:30–12:25, Atrium 1116)** |
 
 ## Reference-Only Sources
@@ -29,7 +28,7 @@ bottom for what has to close before then.
 | Course | Registered section | Available Markdown source | Use boundary |
 |---|---|---|---|
 | ~~PHYS 2211~~ | ~~54 (83722)~~ | **Superseded 2026-08-18 — see the exact-section row above.** The `raw/` §51 capture stays as immutable evidence; the two `04-SCHOOL` working copies (§51 and §55) were archived to `99-ARCHIVE\ARCHIVED_2026-08-18_PHYS_neighbour_syllabi\` because they sat beside the real `Syllabus.pdf`. `99-ARCHIVE\ARCHIVED_2026-07-29_PHYS 2211 54 (52148)…md` remains a Summer-term scope corroboration only | **No longer used for pacing.** §51 is now known to be a *sibling recitation of Chris's own lecture*, which is why it paced the course well; §55 is Behera's separate lecture |
-| ENGR 1000 | BWD (80858) | **Three neighboring Fall 2026 web captures in `77-INBOX`:** BWB (80862), BWC (80857), BWF (80860); plus Fall 2025 BD/05 history in immutable `raw\Syllabi\` | None is BWD. The three 2026 course cores match except one redundant no-textbook sentence omitted by BWC; use shared structure provisionally, never dates or BWD execution |
+| ENGR 1000 | BWD (80858) | Three neighboring Fall 2026 web captures in `04-SCHOOL\05-ENGR\`: BWB (80862), BWC (80857), BWF (80860) | None is BWD. BWB/BWF share a template apart from identifiers; BWC omits seven blocks. Use the shared departmental policy provisionally, never BWD dates or execution |
 
 ## Missing Current Sources — **one real gap left**
 
@@ -39,18 +38,18 @@ bottom for what has to close before then.
   record's MWF 9:10–10:05 + Fri 11:30–12:25 is confirmed** — note the syllabus header
   mistakenly says "Monday, Wednesday, and Thursday", contradicted by all 45 of its own dates.
   Full reconciliation: `03-WIKIS\PHYSICS\wiki\semester-pathway.md`.
-- **ENGR 1000 Section BWD** still has no current Fall 2026 syllabus. **This is now the only
-  outstanding syllabus gap in the semester**, and flag #57 narrows to it alone.
+- **ENGR 1000 Section BWD** still has no exact-section source. The remaining actionable gap is
+  its D2L-owned dates and execution evidence; every neighboring syllabus defers dates to D2L.
 - D2L opens **Aug 24**; course content is not populated before then, which is expected.
 
 Recheck Simple Syllabus and D2L when the courses populate. Exact-section materials supersede reference-only sources when they become available.
 
-## ENGR 1000 — measured again 2026-08-20 against three Fall 2026 web sections
+## ENGR 1000 — byte-compared 2026-08-22 against three Fall 2026 web sections
 
-Chris found BWB (80862), BWC (80857), and BWF (80860), all Fall 2026 web
-sections. Comparing from `Course Description` through `Course Calendar` shows
-BWB and BWF identical; BWC differs only by omitting one redundant sentence that
-there is no textbook. Across two instructors, all three agree on:
+The live BWB (80862), BWC (80857), and BWF (80860) files are canonical course copies in
+`04-SCHOOL\05-ENGR`. Byte comparison shows BWB and BWF share the same template apart from
+section/CRN/instructor identifiers. BWC is a shorter variant that omits seven blocks present
+in the other two. Across two instructors, all three still agree on:
 
 - the same seven assignments;
 - departmental quizzes 50% and homework/other quizzes 50%;
@@ -61,49 +60,29 @@ there is no textbook. Across two instructors, all three agree on:
 
 **Ruling:** this is strong provisional common structure. It does not establish
 BWD dates, weekly order, quiz mechanics, synchronous/asynchronous execution,
-partnership requirements, or Raoufi-specific policy. The files remain in
-`77-INBOX`; AI does not move them into immutable `raw\`.
+attendance-quiz behavior, partnership requirements, or Raoufi-specific policy.
 
-### Earlier evidence — Fall 2025 pair
+### Earlier references no longer live
 
-Two ENGR captures sit in `raw\Syllabi\`. **Their syllabus bodies are identical** —
-`Compare-Object` returns exactly 8 differing lines, all of them frontmatter (title,
-source URL, capture date) plus the one header line naming the section. Same learning
-outcomes, same materials, same 50% attendance quizzes / 50% assignments, same policies.
+The previously cited Fall 2025 BD and §05 paths are absent from the live tree and were never
+Git-tracked, so they are not valid active evidence. The Summer W01 reference was deleted in
+the July 27 archive commit and is recoverable from Git history, but restoring it is outside
+this reconciliation. No conclusion here depends on those three files.
 
-**What that buys, and what it does not:**
-
-- **Likely transferable:** ENGR 1000 appears to publish a *standardized* syllabus across
-  sections, so grading shape, outcomes, and course policy are probably the same in BWD.
-  Treat as strong provisional evidence, not as binding.
-- **Does not transfer, and it is the half that matters:** both captures describe sections
-  that **meet**, with attendance taken in class and the lowest attendance quiz dropped.
-  Chris is in **BWD**, where the `W` most likely means web. **Half the grade hinges on
-  "attendance" in a section whose format is unknown.** Do not conclude either way.
-- **Both are Fall Semester *2025*.** Neither closes flag #57.
-
-The §05 file carries Chris's own capture note in its title — *"only fall syllabi I
-see"* — which is why the search stopped there.
-
-**Three sections, three instructors — confirmed 2026-08-17.** §05 is Katherine Nawar,
-§BD is Lori Lowder, and **Chris's §BWD is Kamyar Raoufi (`kraoufi@kennesaw.edu`),
-supplied by Chris directly.** The registrar record lists **no instructor and no meeting
-time** for BWD (80858) — only the 08/24–12/14 date range, which is itself consistent with
-a web section. ENGR 1000 therefore standardizes the syllabus and rotates instructors, so
-the identical bodies say nothing about how *Raoufi* will run a web section. Earlier vault
-files inferred Lori Lowder as Chris's instructor; that inference was wrong and has been
-corrected in `00-BRAIN\HATS\HAT_ENGR1000.md`.
+Kamyar Raoufi is Chris's BWD instructor, supplied by Chris on August 17. The registrar record
+lists no meeting time; the course code and neighboring web sections support online delivery,
+but D2L must establish how Raoufi actually runs it.
 
 **Consequence for the escalation email:** the question to Raoufi is no longer
 "what is the general course structure?" It is **when BWD work opens/closes and
 how the 50% departmental-quiz component operates in his section** — details the
 neighboring sections cannot answer.
 
-**Index correction, same date:** this table previously pointed ENGR at
+**Index correction, updated 2026-08-22:** this table previously pointed ENGR at
 `ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md`. **That file does not
 exist anywhere in the live tree** — a broken reference the index carried since the
-July 27 recapture note recorded archiving it as a duplicate. Replaced with the two
-files that are actually on disk.
+July 27 recapture note recorded archiving it as a duplicate. The reference row now names
+the three Fall 2026 neighboring-section files that actually live in `04-SCHOOL\05-ENGR`.
 
 ## July 27 Recapture
 
@@ -163,7 +142,7 @@ confirmed superseded by the current captures above and renamed with the
 | Gap | Owner | Next check | Trigger |
 |---|---|---|---|
 | ~~PHYS 2211 §54 exact syllabus~~ | — | ✅ **CLOSED 2026-08-18.** The Aug 17 escalation email to Islam worked — the syllabus arrived the next morning | — |
-| **ENGR 1000 BWD exact syllabus** + its due dates and departmental-quiz mechanics | Chris — D2L/Simple Syllabus, or Kamyar Raoufi (`kraoufi@`) | **Fri Aug 21** reply check; regardless, verify BWD in D2L **Aug 24**. Until then use the three-section Fall 2026 pattern provisionally and treat AI as prohibited | `SYSTEM_FLAGS.md` #57 |
+| **ENGR 1000 BWD D2L dates and execution evidence** | Chris — D2L, then Kamyar Raoufi (`kraoufi@`) if details are absent | Verify BWD in D2L **Aug 24**: dates, weekly order, quiz windows, attendance-quiz behavior, synchronous/asynchronous execution, drop rules, and any instructor variation. Until then use the departmental pattern provisionally and treat AI as prohibited | `SYSTEM_FLAGS.md` #57 |
 
 **The escalation is worth recording as evidence, not just as a closed row.** Both emails
 went out Mon Aug 17 after `SEMESTER_MAP.md` established that D2L would not open until Aug

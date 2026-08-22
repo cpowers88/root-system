@@ -1,7 +1,6 @@
 ---
 type: report
 timeline: now
-register: system-review
 status: active
 tags: [update, readiness, load-path, flags, drive, plan]
 created: 2026-08-12

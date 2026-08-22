@@ -2,7 +2,7 @@
 type: hat
 timeline: reference
 tags: [governance, school]
-updated: 2026-08-20
+updated: 2026-08-22
 ---
 
 # HAT_ENGR1000.md — Engineering Intro Subject Hat
@@ -15,15 +15,15 @@ updated: 2026-08-20
 no extra credit. **Do not run full teaching sessions for this course.** The job is the weekly
 check habit.
 
-## ⚠ BWD is still missing; common Fall 2026 web structure is now visible
+## ⚠ BWD execution evidence is still missing; the departmental template is visible
 
-Ranked fifth of five — but administratively risky, not automatically easy. The
-exact BWD syllabus and calendar remain unknown. Three neighboring Fall 2026 web
-sections now provide strong provisional course-structure evidence.
+Ranked fifth of five — but administratively risky, not automatically easy. BWD's D2L dates
+and execution details remain unknown. Three neighboring Fall 2026 web sections provide
+strong provisional departmental-policy evidence, and all three defer dates to D2L.
 
 | | Status |
 |---|---|
-| Exact-section BWD syllabus | ❌ **Does not exist on file** |
+| Exact-section BWD execution source | ❌ **Not on file; D2L opens Aug 24** |
 | Instructor | ✅ **Kamyar Raoufi** — `kraoufi@kennesaw.edu`. **Supplied by Chris 2026-08-17 and this is the §BWD instructor.** Supersedes the earlier inference of Lori Lowder, who taught Fall 2025 §BD and is *not* Chris's instructor. The registrar record lists no instructor for BWD, so this came from Chris, not from a file |
 | Meeting time | ✅ **Online / no meeting time** on the Fall 2026 registrar record |
 | Delivery format | 🟡 **Web section confirmed; synchronous vs. asynchronous execution is still unknown** |
@@ -32,11 +32,11 @@ sections now provide strong provisional course-structure evidence.
 
 ### What three neighboring Fall 2026 web sections settle — and what they do not
 
-**Added 2026-08-20.** Chris supplied BWB, BWC, and BWF for Fall 2026. Their
-course-specific cores are identical except that BWC omits one redundant sentence
-stating there is no textbook. They span two instructors (Matt Marshall and Laura
-Ruhala). This is stronger evidence than the Fall 2025 BD/05 pair, but it remains
-**common structure, never BWD-specific authority.**
+**Corrected 2026-08-22.** The live BWB, BWC, and BWF files are in
+`04-SCHOOL\05-ENGR`. Byte comparison shows BWB and BWF share a template apart from
+section/CRN/instructor identifiers; BWC omits seven blocks present in the other two. They span
+two instructors (Matt Marshall and Laura Ruhala). This supports a departmental-template
+inference, never BWD-specific authority.
 
 **Genuinely useful:**
 
@@ -62,8 +62,8 @@ attendance quizzes. For BWD, the safest operational interpretation is that frequ
 D2L departmental quizzes are potentially half the grade. The weekly check protocol
 below therefore protects marks; it is not optional admin hygiene.
 
-**Flag #57 owns the gap.** Escalation is a direct email to the instructor — and since **D2L does
-not open until Aug 24**, that email is the only way to learn anything before classes start.
+**Flag #57 owns the gap.** D2L on August 24 is the next evidence surface; if it omits the
+execution details above, send Raoufi one specific dated question.
 
 **Consequence for the Aug 17–21 rehearsal week:** run only a short course-map
 orientation and D2L-check rehearsal from the shared 2026 structure. Do not
@@ -71,10 +71,10 @@ pre-complete, simulate, or transform the neighboring sections' assignments.
 
 ### Source notes
 
-- Fall 2026 BWB/BWC/BWF currently live in `77-INBOX`; they are evidence inputs,
-  not BWD course files and must not be moved into `raw\` by AI.
-- Fall 2025 BD and Section 05 remain immutable historical corroboration in
-  `EDUCATION\raw\Syllabi\`.
+- Fall 2026 BWB/BWC/BWF live in their canonical `04-SCHOOL\05-ENGR` course home. They are
+  neighboring-section evidence, not BWD authority.
+- Previously cited Fall 2025 BD and §05 live paths are absent and were never Git-tracked; do
+  not cite them as active evidence. The Summer W01 reference remains only in Git history.
 - Confirm the BWD D2L shell is labeled Fall 2026 when it opens Aug 24. If it
   shows the wrong term, contact the advisor.
 

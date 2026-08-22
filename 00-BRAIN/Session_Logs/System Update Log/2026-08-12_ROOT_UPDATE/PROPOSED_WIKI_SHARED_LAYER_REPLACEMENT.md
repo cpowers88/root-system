@@ -1,7 +1,6 @@
 ---
 type: proposal
 timeline: reference
-register: system-review
 status: proposed
 tags: [governance, wikis, replacement-draft]
 created: 2026-08-12
@@ -88,4 +87,3 @@ shared source instead of duplicating the eight rules.
 
 Academic integrity remains governed by `AGENT.md`. Course-support hubs add the
 exact course policy and stop when graded status is unclear.
-

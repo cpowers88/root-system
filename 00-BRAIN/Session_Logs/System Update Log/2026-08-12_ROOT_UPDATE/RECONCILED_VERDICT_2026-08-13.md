@@ -1,7 +1,6 @@
 ---
 type: report
 timeline: now
-register: system-review
 status: complete
 tags: [update, reconciliation, codex-review, state-compiler, semester-readiness]
 created: 2026-08-13

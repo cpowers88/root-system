@@ -90,10 +90,24 @@ first two class meetings, and it is the course with the least structure.
 | Week 1 | 🔴 ECON | Unknown — all dates live on D2L |
 | Week 1 | 🔴 ENGR | Open the exact BWD syllabus, announcements, quizzes, and assignments in D2L. Neighboring Fall 2026 sections suggest seven assignments and frequent departmental quizzes, but supply no BWD dates |
 
-**TCOM's file-naming convention is graded.** The pattern in the syllabus is
-`Lastname_Section#_Draft.docx`, submitted to the D2L Assignments folder, and the *email*
-submissions use subject line `Lastname_Section#_Business Email draft`. Chris's section is
-**04**. Getting this wrong costs marks on a quiz that exists specifically to test it.
+**TCOM's file-naming convention is graded, and there is no pattern.** The syllabus
+prints four literals that disagree with each other; any rule derived from them is
+wrong. Copy them character for character. Chris's section is **04**.
+
+| Assignment | Syllabus literal | Chris's version |
+|---|---|---|
+| Business Email Draft | `Lastname_Section#_Draft.docx` | `Powers_04_Draft.docx` |
+| Business Email Final | `StudentLastName_ Section#_Business Email Final.docx` | `Powers_04_Business Email Final.docx` |
+| Document Redesign | `Lastname_ Section#_DocRedesign.docx` | `Powers_04_DocRedesign.docx` |
+| Instructions Group Project | `LastNameLastNameLastName_ Section#_Instructions draft.docx` | `PowersChaseChavez_04_Instructions draft.docx` |
+
+Not a filename — the Business Email draft **email subject line**:
+`Lastname_ Section#_Business Email draft`.
+
+⚠ **Unresolved contradiction, ask Diamond Aug 25.** The syllabus says the draft goes
+to the D2L Assignments folder as a file *and* is emailed with a subject line, while
+her policies say *I do NOT accept email attachments for any assignment*. All three
+cannot be true.
 
 ---
 
@@ -195,7 +209,7 @@ one real week. That is a verification, not an assumption.
 | **12** | **Nov 10** | **Nov 12** | 🔴 **TECHNICAL REPORT DUE (Thu) · REFLECTIVE MEMO DUE (Thu) · Group Presentations both days.** The 35% lands here |
 | **13** | **Nov 17** | **Nov 19** | Instructions Steps assignment written in class (Tue). **LAB DAY Thu** — usability testing on classmates' instructions; bring polished instructions, all equipment, and a printed Usability Worksheet |
 | — | Nov 24 | Nov 26 | **FALL BREAK — no class.** The syllabus does not number this week |
-| **14** | **Dec 1** | **Dec 3** | Instructions Group Project + safety signage + technical definitions (Tue). **Extra Credit due Tue.** **Instructions Group Project due Thu** — `LastnameLastnameLastname_04_Instructions draft.docx`. **Last TCOM class of the semester** |
+| **14** | **Dec 1** | **Dec 3** | Instructions Group Project + safety signage + technical definitions (Tue). **Extra Credit due Tue.** **Instructions Group Project due Thu** — `LastNameLastNameLastName_04_Instructions draft.docx`. **Last TCOM class of the semester** |
 
 **⚠ Three things this extraction settles:**
 
@@ -315,8 +329,13 @@ Confirm his room and sitting time on day one. No timetable conflict either way.*
 ### ENGR 1000 🟡 structure / 🔴 BWD dates — flag #57
 
 The registrar confirms BWD is online with no meeting time; the exact syllabus and
-D2L calendar remain missing. Three neighboring Fall 2026 web sections (BWB, BWC,
-BWF) have the same course-specific core except one redundant no-textbook sentence:
+D2L calendar remain missing. Three neighboring Fall 2026 web sections (BWB, BWC, BWF) were byte-diffed
+2026-08-22, not eyeballed. BWB and BWF are identical except for title, source
+URL, section number and instructor block. BWC is a pure subset — it omits seven
+Simple Syllabus blocks (header, Course Information, Course Materials, Teaching
+Methods, the no-textbook line, Department Policies, Recent Scholarship) and
+contradicts the others nowhere. The earlier "one redundant no-textbook sentence"
+claim was wrong in detail and is corrected here:
 
 - no textbook;
 - seven assignments: Virtual Scavenger Hunt, Time Management, Professional
@@ -327,9 +346,21 @@ BWF) have the same course-specific core except one redundant no-textbook sentenc
 - no late work, no extra credit, D2L-owned dates; and
 - AI use prohibited.
 
-This is **strong provisional structure, not BWD authority**. BWD's dates, weekly
-order, quiz mechanics, synchronous/asynchronous execution, and Raoufi-specific
-rules remain 🔴 until D2L or the exact syllabus supplies them.
+**Confidence upgraded 2026-08-22, and the target changed.** BWB is Matt Marshall;
+BWF is Laura Ruhala. Two different instructors publishing byte-identical bodies
+means the body is a **departmental template**, not instructor-authored — observed
+instructor variance is zero. BWD's *policy* body can be planned against with
+reasonable confidence.
+
+**But all three print `See D2L for assignment and quiz due dates` under Course
+Calendar.** ENGR 1000 syllabi contain no calendar — none of them, including BWD's.
+Flag #57 has been hunting a document that structurally cannot hold the answer it
+was opened for. This is a mis-aimed search, not a failed one. **D2L is the only
+source of ENGR dates and always was.**
+
+Still 🔴: every date, weekly order, quiz mechanics, and synchronous/asynchronous
+execution. Confirm on day one: attendance is graded via attendance quizzes in a
+section with no meeting time.
 
 ---
 
@@ -362,7 +393,7 @@ rules remain 🔴 until D2L or the exact syllabus supplies them.
 | # | Course | Pull |
 |---|---|---|
 | 1 | ~~PHYS~~ | ✅ **CLOSED 2026-08-18** — §54 syllabus received direct from Islam. Grading, all five exam dates, policy and the full 15-week calendar are known. Remaining from D2L: **the room and time for §54's unit-exam sittings** (printed time is another section's recitation slot) |
-| 2 | ENGR | **BWD syllabus + meeting format.** *Email if not posted* |
+| 2 | ENGR | **All dates, from D2L — the syllabus was never going to have them (2026-08-22).** Also confirm meeting format and the attendance-quiz mechanic |
 | 3 | ECON | ~~Every quiz/exam window~~ — **already known** (see ECON 🟢 above). Instead: **spot-check the real Mathews & Patrono chapter numbering** against the substitute-textbook mapping |
 | 4 | CSE | Final exam date; confirm the week-1 quiz date anomaly |
 | 5 | CSE Lab | The lab assignment schedule |
@@ -394,9 +425,11 @@ deadlines.
 
 ## Source-record correction found while building this
 
-`SYLLABUS_STATUS.md` now registers the full ENGR evidence ladder: three
-neighboring Fall 2026 web sections in `77-INBOX`, plus the Fall 2025 BD/05
-historical pair. None is BWD, so flag #57 stays open.
+`SYLLABUS_STATUS.md` now registers the live ENGR evidence ladder: three
+neighboring Fall 2026 web sections in `04-SCHOOL\05-ENGR`. The former Fall 2025
+BD/05 raw captures are no longer present and were never Git-tracked; they are
+not live evidence. None of the current captures is BWD, so flag #57 stays open
+for D2L date and execution ingestion.
 
 ---
 
@@ -404,6 +437,11 @@ historical pair. None is BWD, so flag #57 stays open.
 
 - **D2L and the exact-section instructor supersede everything here.** This map is a planning
   instrument, not an authority.
+- **KSU recycles syllabi and does not fix the printed dates, but the week
+  structure is always correct.** Chris's ruling 2026-08-22, observed across four
+  syllabi. This is why the week→date conversion in this file is a documented
+  property of the source, not a derivation. Do not re-derive it each session;
+  do confirm the resulting dates in D2L.
 - Update the confidence marks as real dates land; a 🔴 becoming 🟢 is the measure of ingestion
   progress.
 - **Academic integrity:** CSE 1321, CSE 1321L, and ENGR 1000 prohibit generative AI on submitted

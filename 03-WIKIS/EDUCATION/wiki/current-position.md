@@ -22,13 +22,13 @@ updated: 2026-08-20
 > tutoring extra-credit action. Three pages, three questions: *trust* here, *due* there,
 > *effort* in the workload plan.
 
-## Status at a glance — updated 2026-08-18
+## Status at a glance — updated 2026-08-22
 
 | Course | Source certainty | Study material | Blocking gap |
 |---|---|---|---|
 | **ECON 1000** | 🟢 exact-section syllabus, dates cross-verified twice | Semester map, drills, flashcards, glossary, reading-guides | Real textbook is D2L-locked |
 | **TCOM 2010** | 🟢 exact-section syllabus — **but its printed dates are recycled Spring dates** | Six pages built 2026-08-13 on the ECON/PHYSICS pattern; **all 14 weeks now dated** | ~~Weeks 6–15 not extracted~~ **closed 2026-08-18.** Remaining: confirm the derived dates in D2L Aug 24 |
-| **ENGR 1000** | 🟡 strong provisional Fall 2026 web-section pattern; exact BWD still missing | BWB/BWC/BWF common-structure comparison; weekly D2L-check method | BWD dates, weekly order, quiz mechanics, and instructor-specific execution |
+| **ENGR 1000** | 🟡 departmental template inferred from three Fall 2026 web sections; BWD execution evidence still missing | BWB/BWC/BWF byte comparison; weekly D2L-check method | BWD dates, weekly order, quiz and attendance behavior, delivery mode, and instructor-specific execution |
 
 ## ⏰ D2L opens Monday August 24 — the first day of classes
 
@@ -168,14 +168,14 @@ Worth keeping `2e_Word\` for two things only: its Ch 5 covers *Quoting, Paraphra
 Plagiarism **and AI***, which postdates the 2019 edition, and its Ch 9 carries the full
 proofreading symbol sets that feed the Week 7 Font Style quiz.
 
-## ENGR 1000 — exact BWD missing; common Fall 2026 web structure measured
+## ENGR 1000 — BWD execution evidence missing; departmental template measured
 
-The registrar confirms BWD is online with no meeting time. The exact BWD syllabus
-and D2L calendar are still missing. Kamyar Raoufi is the instructor, supplied by Chris.
+The registrar confirms BWD is online with no meeting time. Its D2L calendar and execution
+details are still missing. Kamyar Raoufi is the instructor, supplied by Chris.
 
-Three neighboring Fall 2026 web sections (BWB, BWC, BWF) share the same
-course-specific core; BWC differs only by omitting a redundant no-textbook
-sentence. Across all three:
+Three neighboring Fall 2026 web sections (BWB, BWC, BWF) live in
+`04-SCHOOL\05-ENGR`. Byte comparison shows BWB and BWF share a template apart from
+identifiers; BWC omits seven blocks. Across all three:
 
 - no textbook;
 - seven named assignments (Virtual Scavenger Hunt, Time Management,
@@ -186,16 +186,16 @@ sentence. Across all three:
 - no late work, no extra credit, and D2L-owned dates; and
 - AI use prohibited.
 
-This is **strong provisional common structure, not BWD truth**. Do not transfer
-dates, weekly order, partnership requirements, quiz mechanics, or instructor
-execution. BWD D2L and Raoufi supersede all of it.
+This is **reasonable provisional departmental policy, not BWD truth**. Do not transfer
+dates, weekly order, partnership requirements, quiz or attendance behavior, delivery mode, or
+instructor execution. BWD D2L and Raoufi supersede all of it.
 
 **There is still no `courses/engr-1000/` folder.** The shared structure is enough
 to improve planning, but not enough to justify targeted course content or a
 semester map. Create the folder only when BWD posts or a real study need appears.
 
-The three Fall 2026 sources remain in `77-INBOX`; AI must not move them into
-immutable `raw\`. Fall 2025 BD and Section 05 remain historical corroboration.
+The previously cited Fall 2025 BD and §05 live paths are absent and were never Git-tracked;
+the Summer W01 reference exists only in Git history. None is active evidence.
 
 **Safe rehearsal:** orient to the seven-item shape and practise the Monday/Thursday
 D2L check. Do not work the neighboring sections' assignment prompts.

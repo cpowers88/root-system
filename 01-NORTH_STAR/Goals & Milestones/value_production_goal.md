@@ -5,7 +5,7 @@ status: active
 register: ai-directive
 tags: [north-star, business, value]
 created: 2026-07-24
-review_trigger: 2026-08-01
+review_trigger: 2026-09-01
 ---
 
 # VALUE_PRODUCTION_GOAL

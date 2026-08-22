@@ -2,7 +2,7 @@
 type: log
 tags: []
 timeline: log
-updated: 2026-08-18
+updated: 2026-08-22
 ---
 
 # EDUCATION Wiki — Session Log
@@ -817,3 +817,22 @@ neighboring assignment was converted into practice.
 **Next exact action:** on Aug 24, open BWD D2L and verify the exact syllabus,
 announcements, departmental quizzes, assignments, due dates, drop rules,
 delivery execution, and AI policy before replacing any provisional row.
+
+## 2026-08-22 — ENGR source ownership and evidence claims reconciled
+
+Gate B reconciled the live ENGR corpus against root placement policy. The BWB, BWC, and BWF
+Fall 2026 captures are in their canonical `04-SCHOOL\05-ENGR` home; they are no longer
+described as inbox files or as candidates for a wiki `raw\` move. Existing `raw\` material
+remains immutable and was not read, moved, or changed.
+
+The comparison claim was corrected: BWB and BWF share a template apart from
+section/CRN/instructor identifiers, while BWC omits seven blocks rather than one sentence.
+That supports provisional departmental policy, not a claim that all three bodies are
+identical. The old Fall 2025 BD/§05 live paths were also removed from active evidence because
+they are absent and were never Git-tracked; the Summer W01 reference remains only in Git
+history.
+
+**Next exact action:** on August 24, use BWD D2L—not another public-syllabus search—to capture
+dates, weekly order, quiz windows, attendance-quiz behavior, delivery mode, drop rules, and
+any Raoufi-specific variation. If D2L omits those details, record the absence and send one
+specific dated question.

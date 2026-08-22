@@ -1,12 +1,16 @@
 ---
+type: syllabus
+timeline: reference
 title: "ENGR 1000 BWB (80862) Introduction to Engineering"
+course: "ENGR 1000"
+section: BWB
+crn: 80862
 source: "https://kennesaw.simplesyllabus.com/en-US/doc/zuzyknzid/Fall-Semester-2026-ENGR-1000-BWB-%2880862%29-Introduction-to-Engineering?mode=view"
 author:
 published:
 created: 2026-08-20
 description:
-tags:
-  - "inbox"
+tags: [school]
 ---
 ![Kennesaw State University Logo](https://kennesaw.simplesyllabus.com/ui/account-image/cd9497c4-9f98-4549-b99f-47a74197cd13)
 

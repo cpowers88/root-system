@@ -2,7 +2,6 @@
 type: report
 timeline: log
 status: active
-register: system-review
 tags: [governance, codex, claude, wsl2, linux, configuration, audit]
 created: 2026-08-10
 ---
@@ -111,4 +110,3 @@ reconstruction. A tracked ignore rule would make that safeguard recoverable.
 - WSL ordinary shell lookup: `claude: command not found` in both tested shell
   modes.
 - Repository status after review: clean.
-

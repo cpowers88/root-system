@@ -1,7 +1,6 @@
 ---
 type: index
 timeline: now
-register: system-review
 status: active
 tags: [update, structure, instruction-layer, governance, system-update]
 created: 2026-08-12

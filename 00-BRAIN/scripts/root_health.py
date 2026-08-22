@@ -28,7 +28,7 @@ TEXT_SCAN_EXCLUDED = {
 }
 NOT_EVALUATED = [
     "semantic freshness and current project truth",
-    "review-cadence completion",
+    "review-cadence completion outside CASTLE's named freshness checks",
     "source ownership/routing and duplicate-source disposition",
     "all ordinary direct-path prose outside the checked boot/wiki contracts",
 ]
@@ -175,6 +175,8 @@ def main() -> int:
         run("wiki links and navigation", wiki_command, parse_json=True),
         run("frontmatter and timeline metadata", frontmatter_command,
             parse_json=True),
+        run("CASTLE freshness and review triggers", [
+            sys.executable, str(SCRIPTS / "castle_freshness.py")]),
         run("shared skill mirrors", [
             sys.executable, str(SCRIPTS / "sync_shared_skills.py"), "--check"]),
         run("unstaged whitespace", ["git", "diff", "--check"]),

@@ -1,7 +1,6 @@
 ---
 type: report
 timeline: now
-register: system-review
 status: proposed
 tags: [review, structure, migration, backup, challenger]
 created: 2026-08-12

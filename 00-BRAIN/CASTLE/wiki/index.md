@@ -7,7 +7,7 @@ tags: []
 
 # Index — Every Live Page in CASTLE
 
-### Updated: **August 21, 2026** — Week 1 plan registered; stale `timeline: now` markers cleared across five pages. Prior: July 25, 2026 (architecture authority pointer corrected after Pass 0 review)
+### Updated: **August 22, 2026** — Codex auto-load pointer added to the root-file catalog. Prior: August 21, 2026 (Week 1 plan registered; stale `timeline: now` markers cleared across five pages)
 
 This is a discovery index, not a second current-state dashboard. Live action belongs to `.ROOT\NOW.md`; baseline and proof state belong to [[current-position]] and the owning domain systems.
 
@@ -17,7 +17,8 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 - `README.md` — human root router
 - `HOW_TO_USE.md` — user question and navigation router
 - `CLAUDE.md` — Claude auto-load pointer
-- `CODEX.md` — Codex cross-surface pointer
+- `AGENTS.md` — Codex auto-load pointer
+- `CODEX.md` — CASTLE-specific Codex scope notes loaded from `AGENTS.md`
 
 ## External Direction and Action Interfaces
 

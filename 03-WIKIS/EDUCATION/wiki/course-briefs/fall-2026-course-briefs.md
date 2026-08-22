@@ -1,15 +1,16 @@
 ---
 type: reference
 tags: [school, fall-2026]
-source: "03-WIKIS\EDUCATION\raw\Syllabi\ECON 1000 BAC (80643) Fall 2026 Syllabus.md; 03-WIKIS\EDUCATION\raw\Syllabi\TCOM 2010 04 (85633) Fall 2026 Syllabus.md; 03-WIKIS\EDUCATION\raw\Syllabi\ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md — exact-section ECON/TCOM recaptured 2026-07-27; ENGR remains the 2026-07-21 Summer reference; path corrected 2026-07-29 to match live capture location"
+source: "ECON exact-section evidence in immutable EDUCATION raw; active TCOM exact-section copy in 04-SCHOOL/03-TCOM; ENGR neighboring Fall 2026 BWB/BWC/BWF copies in 04-SCHOOL/05-ENGR — ownership and ENGR corpus reconciled 2026-08-22"
 timeline: reference
 ---
 
 # Fall 2026 Course Briefs — ECON 1000 · TCOM 2010 · ENGR 1000
 
-Study-support distillation of ECON, TCOM, and ENGR. The authoritative syllabus
-captures live in `03-WIKIS\EDUCATION\raw\Syllabi\`; general course materials
-(notes, datasets, textbooks) live in `04-SCHOOL\` — this page
+Study-support distillation of ECON, TCOM, and ENGR. Active official course copies Chris
+receives from KSU belong in `04-SCHOOL\<course>\`; existing wiki `raw\` captures remain
+immutable evidence. General course materials (notes, datasets, textbooks) also live in
+`04-SCHOOL\` — this page
 exists so any session supporting Chris's Fall coursework knows the structure,
 the deadlines rhythm, and above all **each course's AI policy** before
 touching anything. `04-SCHOOL\SYLLABUS_STATUS.md` is the
@@ -135,8 +136,9 @@ and recaptured 2026-07-27 with exact meeting information.
 
 **Status: exact Fall 2026 BWD still missing.** The registrar identifies BWD as
 online with no meeting time; Kamyar Raoufi is the instructor, supplied by Chris.
-Three neighboring Fall 2026 web sections — BWB, BWC, and BWF — now provide a
-near-identical common course core.
+Three neighboring Fall 2026 web sections — BWB, BWC, and BWF — provide a measured
+departmental-policy pattern. Byte comparison shows BWB/BWF share a template apart from
+identifiers, while BWC omits seven blocks.
 
 - **Common structure across all three:** no textbook; departmental quizzes 50%
   + homework/other quizzes 50%; lowest departmental quiz and lowest
@@ -147,16 +149,17 @@ near-identical common course core.
   Licensure, Student Engagement, and Engineering Design.
 - **Common outcomes:** engineering disciplines, advising/plan of study, campus
   resources, study/time-management skills, basic math/programming, and teamwork.
-- **Still BWD-unknown:** dates and weekly order, quiz mechanics, synchronous vs.
-  asynchronous execution, partnership requirements, and Raoufi-specific policy.
+- **Still BWD-unknown:** D2L dates and weekly order, quiz and attendance behavior,
+  synchronous vs. asynchronous execution, partnership requirements, and Raoufi-specific
+  policy.
 - Do not prepare or pre-complete neighboring-section assignments. Use the common
   structure only to establish the weekly D2L check and recognize what may appear.
 
 ## Data-Quality Flags (for Chris)
 
-1. **ENGR 1000 BWD remains missing despite three neighboring Fall 2026 web
-   sections agreeing on the course core.** Treat their shared structure as
-   strong provisional evidence only; recheck BWD D2L/Simple Syllabus once it posts.
+1. **ENGR 1000 BWD execution evidence remains missing despite a reasonable departmental
+   pattern across three neighboring Fall 2026 web sections.** All three defer dates to D2L.
+   Treat shared policy as provisional; verify BWD dates and behavior in D2L on August 24.
 2. **TCOM's schedule table still shows January/Spring dates** in the fresh
    July 21 capture — confirmed as KSU's own recycled Simple Syllabus
    template, not a one-off transcription error. Trust D2L for real dates.

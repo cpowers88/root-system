@@ -1,7 +1,6 @@
 ---
 type: report
 timeline: now
-register: system-review
 status: complete
 tags: [update, phase-d, t2, root-state, governance, codex-review]
 created: 2026-08-13

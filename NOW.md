@@ -72,9 +72,10 @@ Week-1 detail lives in the Week 1 plan. This is the short list that outranks it.
 
 - **Mon Aug 24 — classes begin.** D2L day-one tab, 12 checks. **#1 is the TCOM Ethics Analysis
   SUBMISSION section** — due Fri Aug 28, its format and filename printed nowhere in the
-  syllabus. Also flag #57's close: **ENGR BWD returned no reply and has no syllabus online as
-  of Aug 21 — D2L is the only path left.** If it posts nothing, that is the finding; send a
-  dated question rather than waiting a second week.
+  syllabus. Also work flag #57: **the neighboring ENGR syllabi all defer dates to D2L, so BWD
+  D2L is the only remaining path.** Capture dates, weekly order, quiz windows,
+  attendance-quiz behavior, delivery mode, and any Raoufi-specific policy. If those details
+  are absent, that is the finding; send one dated question rather than waiting a second week.
 - **Tue Aug 25** — TCOM attendance starts; the instructor email is graded and **AI may not
   draft it**.
 - **Before Sep 21** — an exam-legal scientific calculator. Do you have one?

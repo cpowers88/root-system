@@ -1,9 +1,7 @@
 """Deterministic tests for castle_freshness.py (flag #103).
 
-Builds a throwaway CASTLE wiki in a temp dir per test — no git repo, so the
-log-recency check is exercised only for its no-repo skip behaviour (git
-freshness was verified live against the real vault on 2026-08-19; see the
-DAILY). Run: python 00-BRAIN/scripts/test_castle_freshness.py
+Builds a throwaway CASTLE wiki in a temp dir per test and mocks Git explicitly.
+Run: python 00-BRAIN/scripts/test_castle_freshness.py
 """
 
 import datetime as dt
@@ -11,6 +9,7 @@ import tempfile
 import textwrap
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 import castle_freshness as cf
 
@@ -48,6 +47,10 @@ class CastleFreshnessTests(unittest.TestCase):
         self._tmp = tempfile.TemporaryDirectory()
         self.base = Path(self._tmp.name)
         self.addCleanup(self._tmp.cleanup)
+        self._git_patch = patch("castle_freshness.subprocess.run")
+        self.git_run = self._git_patch.start()
+        self.git_run.return_value.stdout = ""
+        self.addCleanup(self._git_patch.stop)
 
     def test_all_fresh_passes(self):
         self.assertEqual(cf.run(make_vault(self.base), TODAY), [])
@@ -108,11 +111,40 @@ class CastleFreshnessTests(unittest.TestCase):
             with self.subTest(window=window):
                 self.assertEqual(cf.parse_window(window), (start, end))
 
-    def test_no_git_repo_is_not_a_finding(self):
-        # log-recency must skip, not fail, when no repo is reachable
+    def test_git_failure_is_a_gate_error(self):
         root = make_vault(self.base)
         wiki = root / "00-BRAIN" / "CASTLE" / "wiki"
-        self.assertEqual(cf.check_log_recency(root, wiki, TODAY), [])
+        self.git_run.side_effect = OSError("git unavailable")
+        with self.assertRaisesRegex(RuntimeError, "git history unavailable"):
+            cf.check_log_recency(root, wiki, TODAY)
+
+    def test_expired_now_review_trigger_fails(self):
+        root = make_vault(self.base)
+        (root / "active.md").write_text(textwrap.dedent("""\
+            ---
+            type: plan
+            timeline: now
+            review_trigger: 2026-08-18
+            tags: []
+            ---
+            # Active
+            """), encoding="utf-8")
+        findings = cf.run(root, TODAY)
+        self.assertEqual(len(findings), 1)
+        self.assertIn("review_trigger 2026-08-18 is past", findings[0])
+
+    def test_future_now_review_trigger_passes(self):
+        root = make_vault(self.base)
+        (root / "active.md").write_text(textwrap.dedent("""\
+            ---
+            type: plan
+            timeline: now
+            review_trigger: 2026-08-20
+            tags: []
+            ---
+            # Active
+            """), encoding="utf-8")
+        self.assertEqual(cf.run(root, TODAY), [])
 
 
 if __name__ == "__main__":

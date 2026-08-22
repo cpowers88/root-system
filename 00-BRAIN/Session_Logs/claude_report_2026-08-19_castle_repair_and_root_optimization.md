@@ -1,7 +1,6 @@
 ---
 type: report
 timeline: now
-register: system-review
 status: proposed
 tags: [governance, castle, flag-103, optimization]
 created: 2026-08-19

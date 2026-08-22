@@ -2,7 +2,6 @@
 type: review
 timeline: now
 status: draft
-register: ai-directive
 tags: [governance, tree, architecture-review, gate-0]
 created: 2026-08-08
 reviewer: Claude Code

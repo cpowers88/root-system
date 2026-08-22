@@ -1,7 +1,6 @@
 ---
 type: report
 timeline: now
-register: system-review
 status: in-progress
 tags: [update, wiki, conformance, semantic-freshness, codex-review]
 created: 2026-08-12

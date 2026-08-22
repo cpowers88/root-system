@@ -46,6 +46,7 @@ BOOT_FILES = [
     # governance carrying many live paths, and AGENT.md File Safety 7 points at it.
     # A dangling reference in here is a break even though no session loads it by default.
     ROOT / "00-BRAIN" / "SYSTEM_FLAGS_DETAIL.md",
+    ROOT / "00-BRAIN" / "CASTLE" / "AGENTS.md",
     ROOT / "00-BRAIN" / "CASTLE" / "CLAUDE.md",
     ROOT / "00-BRAIN" / "CASTLE" / "CODEX.md",
     ROOT / "00-BRAIN" / "CASTLE" / "OPERATIONS.md",
@@ -134,6 +135,17 @@ def main() -> int:
             "Claude root pointer routes to the Claude profile")
     require("CODEX.md", r"AGENTS\.md.{0,120}canonical",
             "legacy Codex pointer defers to canonical AGENTS.md")
+    require("00-BRAIN/CASTLE/README.md", r"Codex auto-load pointer.{0,60}AGENTS\.md",
+            "CASTLE human router names the actual Codex auto-load pointer")
+    require("00-BRAIN/CASTLE/wiki/index.md", r"AGENTS\.md.{0,80}Codex auto-load pointer",
+            "CASTLE catalog includes its Codex auto-load pointer")
+    for contract in (r"SEMESTER_MAP\.md", r"SYLLABUS_STATUS\.md", r"miss-log\.md"):
+        require("00-BRAIN/CASTLE/HOW_TO_USE.md", contract,
+                f"CASTLE human router includes school control {contract}")
+    if "REF-AI-AUTOMATION" in read("00-BRAIN/CASTLE/HOW_TO_USE.md"):
+        failures.append(
+            "00-BRAIN/CASTLE/HOW_TO_USE.md contains stale semantic claim: "
+            "incorrect case for ref-AI-automation")
     for rel in ("START_HERE.md", "00-BRAIN/vault_map.md",
                 "ROOT_OPERATING_MANUAL.md"):
         require(rel, r"77-INBOX.{0,100}manual|manual.{0,100}77-INBOX",

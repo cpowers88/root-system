@@ -349,37 +349,26 @@ regardless of shape — needs Chris's approval, since `.claude\` is tool configu
 **Raised:** July 9, 2026; updated July 29 · **Priority:** 🟠 MEDIUM · **Owner:** Chris,
 `04-SCHOOL\SYLLABUS_STATUS.md` · **Check:** weekly from mid-August; **escalate Aug 17**
 
-### 2026-08-20 — three neighboring Fall 2026 web sections narrow the ENGR gap
+### 2026-08-22 — source state and remaining gap corrected
 
-Chris placed BWB (80862), BWC (80857), and BWF (80860) in `77-INBOX`.
-Their course-specific cores were compared from Course Description through Course
-Calendar. BWB and BWF are identical; BWC differs only by omitting one redundant
-sentence stating there is no textbook. All three agree on seven assignments,
-50% departmental quizzes / 50% homework and other quizzes, lowest grade in each
-category dropped, no textbook, no late work, no extra credit, D2L-owned dates,
-shared outcomes, and AI use prohibited.
+The Fall 2026 BWB (80862), BWC (80857), and BWF (80860) captures are in their canonical
+`04-SCHOOL\05-ENGR` homes, not `77-INBOX`. Byte comparison of the live files shows BWB and
+BWF use the same template apart from section/CRN/instructor identifiers. BWC is not merely a
+one-sentence variant: it omits seven blocks present in the other two. The shared content still
+supports a reasonable departmental-policy inference: seven assignments, departmental quizzes
+50% plus homework/other quizzes 50%, the lowest grade in each category dropped, no textbook,
+no late work, no extra credit, D2L-owned dates, shared outcomes, and AI use prohibited.
 
-**Disposition:** strong provisional common structure, never BWD authority. It
-does not close the flag and cannot establish BWD dates, weekly order, quiz
-mechanics, synchronous/asynchronous execution, partnership requirements, or
-Raoufi-specific policy. The files remain in `77-INBOX`; AI did not move or write
-them into immutable `raw\`. Exact BWD D2L remains the Aug 24 verification gate.
+**Disposition:** useful departmental template evidence, never BWD authority. Every neighboring
+syllabus defers dates to D2L, so searching for another public syllabus is no longer the live
+task. The actionable gap is BWD's D2L execution layer: due dates, quiz mechanics, weekly
+order, synchronous/asynchronous behavior, attendance-quiz behavior, and any Raoufi-specific
+variation. D2L on August 24 is the verification gate. If those details are missing then, the
+absence itself becomes the finding and Chris sends one specific dated question.
 
-D2L is accessible, but **PHYS 2211 Section 54** and **ENGR 1000 Fall BWD** remain
-unpopulated. Exact-section CSE 1321, CSE 1321L, ECON 1000 and TCOM 2010 captures are all
-filed and current.
-
-**Neighbouring PHYS sections are reference-only and cannot establish §54's grading, dates or
-policy.** Sections 55 (captured 2026-07-21) and 51 (captured 2026-08-12, filed 2026-08-13)
-are both on file — two of three neighbours — and neither closes this flag.
-
-**2026-07-29:** `04-SCHOOL\fall_KSU_schedule.md` (Chris's actual Outlook registration
-confirmation) independently confirms **Farhan Islam** and §54's exact meeting times / CRN
-83722 — stronger than the prior provisional online-listing match, but still not the syllabus
-content (grading, exams, policy, calendar).
-
-Dated punch list with the Aug 17 escalation trigger: `SYLLABUS_STATUS.md` § Pre-Semester
-Punch List. **If nothing posts by Aug 17, email the instructors directly.**
+PHYS 2211 §54 is closed: the exact syllabus arrived directly from Farhan Islam on August 18.
+Its grading, exams, policy, scope, and calendar are known; only the ordinary day-one room/time
+confirmation remains.
 
 ---
 

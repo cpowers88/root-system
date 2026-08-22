@@ -5,7 +5,7 @@ status: active
 register: ai-directive
 tags: [north-star, school, fall-2026]
 created: 2026-07-24
-review_trigger: 2026-08-01
+review_trigger: 2026-08-24
 ---
 
 # FALL_2026_SEMESTER
@@ -86,9 +86,10 @@ During the semester:
 ### Official-source gate
 
 - CSE 1321, CSE 1321L, TCOM 2010, and ECON 1000 exact-section syllabi are live.
-- PHYS 2211 Section 54 and ENGR 1000 BWD remain unconfirmed; reference sections
-  may guide preparation but cannot control deadlines, grading, instructor
-  policy, or AI use.
+- PHYS 2211 Section 54 is confirmed by the exact syllabus received August 18. ENGR 1000 BWD
+  still lacks exact-section execution evidence; neighboring Fall 2026 web sections may guide
+  departmental-policy preparation but cannot control dates, quiz windows, delivery behavior,
+  instructor variation, or AI use.
 - D2L and exact-section instructor communication supersede provisional records.
 - `04-SCHOOL\SYLLABUS_STATUS.md` owns source status.
 
@@ -130,6 +131,6 @@ Each meaningful course result returns:
 
 ## Current next action
 
-CASTLE selects the next owner-supported CSE or Physics proof from the live
-PYTHON and PHYSICS current-position pages. At the August 1 review, reconcile
-readiness, official-source gaps, and the remaining pre-semester proof window.
+On August 24, run the D2L activation gate across all five courses. Capture ENGR BWD's dates
+and execution behavior, confirm TCOM's converted Fall dates, verify ECON's assigned-text
+alignment, and return any changed requirement to the owning school and wiki files.

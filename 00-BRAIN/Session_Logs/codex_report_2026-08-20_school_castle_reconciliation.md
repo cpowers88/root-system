@@ -2,7 +2,6 @@
 type: report
 timeline: log
 status: complete
-register: system-review
 tags: [school, fall-2026, castle, education, engr-1000, learning]
 created: 2026-08-20
 surface: codex
@@ -212,4 +211,3 @@ for the school owner chain described in this report.
   Raoufi remain binding.
 - Pseudocode is now part of CSE intake and proof, not an optional decoration added
   after the code works.
-

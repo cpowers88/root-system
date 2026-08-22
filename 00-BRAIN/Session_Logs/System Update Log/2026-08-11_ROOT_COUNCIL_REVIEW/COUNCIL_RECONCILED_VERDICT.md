@@ -1,7 +1,6 @@
 ---
 type: report
 timeline: now
-register: system-review
 status: proposed
 tags: [council, governance, instruction-layer, learning, infrastructure, ai-ml]
 created: 2026-08-11

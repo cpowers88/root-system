@@ -1,7 +1,6 @@
 ---
 type: report
 timeline: now
-register: system-review
 status: executed
 tags: [update, phase-d, flags, instruction-layer, load]
 created: 2026-08-12

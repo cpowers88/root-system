@@ -1,7 +1,6 @@
 ---
 type: report
 timeline: now
-register: system-review
 status: complete
 tags: [update, hats, teaching, learning, codex-review, rehearsal-readiness]
 created: 2026-08-13

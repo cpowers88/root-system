@@ -8,6 +8,11 @@ Checks every live .md in .ROOT against WHERE_IT_GOES.md § Metadata Standard:
   - v2: one valid `timeline:` property and no legacy control tags
   - transition: exactly one legacy timeline-like tag remains accepted
   - optional `stage:`, `status:`, and `reference_priority:` are validated
+  - optional `register:` uses the five approved values and is rejected on
+    report, review, log, and evidence records
+
+`type:` is required, but its value remains presence-only until Chris approves a
+vault-wide type taxonomy. This checker does not imply that taxonomy exists.
 
 Default mode reports without failing. `--strict` requires zero debt. `--baseline`
 fails only for finding identities not present in a reviewed baseline. `--json`
@@ -31,6 +36,9 @@ EXCLUDED = {"99-ARCHIVE", "raw", ".raw ARCHIVE", ".git", ".obsidian",
             "oracleJdk-26"}
 TIMELINE = {"now", "next", "later", "parked", "reference", "log"}
 REFERENCE_PRIORITY = {"core", "supporting", "lookup"}
+REGISTER = {"ai-directive", "ai-loader", "ai-profile", "human-context",
+            "compatibility-pointer"}
+NON_INSTRUCTION_TYPES = {"report", "review", "log", "evidence"}
 NATIVE = re.compile(r"^(priority/\w+|stage-\d+|phase-(\d+|all)|stage-all)$")
 CONTROL = re.compile(
     r"^(priority/[a-z0-9_-]+|status/[a-z0-9_-]+|stage-\d+|"
@@ -72,7 +80,7 @@ def property_count(fm: str, name: str):
     return len(re.findall(rf"^{re.escape(name)}:", fm, re.M))
 
 
-def metadata_findings(fm: str):
+def metadata_findings(fm: str, path: str | Path | None = None):
     """Return timeline and v2-schema details for one frontmatter block."""
     tags = tags_from(fm)
     timeline = property_from(fm, "timeline")
@@ -89,7 +97,7 @@ def metadata_findings(fm: str):
         timeline_details.append(f"property:{timeline or '<empty>'}")
 
     for name in ("type", "timeline", "stage", "status",
-                 "reference_priority", "tags"):
+                 "reference_priority", "register", "tags"):
         if property_count(fm, name) > 1:
             schema_details.append(f"duplicate {name} property")
 
@@ -109,6 +117,13 @@ def metadata_findings(fm: str):
     if reference_priority is not None and reference_priority not in REFERENCE_PRIORITY:
         schema_details.append(
             "invalid reference_priority: " + (reference_priority or "<empty>"))
+    register = property_from(fm, "register")
+    if register is not None:
+        if register not in REGISTER:
+            schema_details.append("invalid register: " + (register or "<empty>"))
+        document_type = property_from(fm, "type")
+        if document_type in NON_INSTRUCTION_TYPES:
+            schema_details.append("register not allowed on non-instruction file")
     return timeline_details, schema_details
 
 
@@ -131,7 +146,7 @@ def audit():
             continue
         if not re.search(r"^type:\s*\S+", fm, re.M):
             missing_type.append(str(rel))
-        timeline_details, schema_details = metadata_findings(fm)
+        timeline_details, schema_details = metadata_findings(fm, rel)
         for detail in timeline_details:
             timeline_bad.append((str(rel), [detail]))
         for detail in schema_details:
@@ -239,6 +254,15 @@ def main() -> int:
             "type: note\ntimeline: next\nstage: [2, 3]\ntags: [topic]")
         duplicate_timeline = metadata_findings(
             "type: note\ntimeline: now\ntimeline: next\ntags: [topic]")
+        valid_register = metadata_findings(
+            "type: pointer\ntimeline: reference\nregister: ai-loader\ntags: [governance]",
+            "AGENTS.md")
+        bad_register_value = metadata_findings(
+            "type: report\ntimeline: log\nregister: system-review\ntags: []",
+            "report.md")
+        misplaced_register = metadata_findings(
+            "type: report\ntimeline: log\nregister: ai-loader\ntags: []",
+            "report.md")
         passed = (
             len(current_ids) == len(baseline_ids)
             and new == {"missing_type|new.md|"}
@@ -248,12 +272,19 @@ def main() -> int:
             and bad_priority == ([], ["invalid reference_priority: urgent"])
             and bad_stage == ([], ["non-scalar stage property"])
             and duplicate_timeline == ([], ["duplicate timeline property"])
+            and valid_register == ([], [])
+            and bad_register_value == ([], [
+                "invalid register: system-review",
+                "register not allowed on non-instruction file"])
+            and misplaced_register == ([], [
+                "register not allowed on non-instruction file"])
         )
         print("# FRONTMATTER / METADATA SELF-TEST - " + ("PASS" if passed else "FAIL"))
         print("- equal total counts still expose one new and one resolved identity")
         print("- legacy and valid v2 metadata are accepted")
         print("- dual controls and invalid reference priority are rejected")
         print("- non-scalar and duplicate control properties are rejected")
+        print("- register vocabulary and instruction-interface scope are enforced")
         return 0 if passed else 1
     if args.strict and args.baseline:
         parser.error("choose --strict or --baseline")

@@ -4,7 +4,7 @@ timeline: now
 status: active
 tags: [school, fall-2026, pre-semester]
 created: 2026-07-26
-revised: 2026-07-27
+revised: 2026-08-22
 review_trigger: 2026-08-24
 ---
 
@@ -174,14 +174,13 @@ Chris confirmed the substitution approach (plan-of-study / discipline comparison
 from the public KSU catalog) is the right shape, **and elected to hold it until
 August 24** since no course content exists.
 
-The block cannot run as originally written in any case: the Summer W01 reference
-syllabus states *"See the schedule PDF in D2L for a list of assignments and due
-dates"* — the assignment list is not in the document we hold. There is no
-requirements file to open.
+The substitution remains held. Three neighboring Fall 2026 web syllabi now provide a
+reasonable departmental-policy pattern, but all defer dates to D2L. They do not establish
+BWD's weekly order, quiz or attendance behavior, delivery mode, or instructor variation.
 
-At Aug 24, when the real BWD syllabus posts: build the course folder, re-verify
-the AI policy (prohibited on the Summer reference, unconfirmed for BWD), and
-close flag #57's ENGR half.
+On Aug 24, open BWD in D2L and capture dates, weekly order, quiz windows,
+attendance-quiz behavior, delivery mode, drop rules, and any Raoufi-specific policy. Re-verify
+the AI rule and close flag #57's ENGR half only when that execution evidence exists.
 
 ## Hard blocks — what cannot be filled before August 24
 
@@ -192,8 +191,8 @@ close flag #57's ENGR half.
 | Real assignment-weights table | TCOM | Syllabus carries recycled Spring dates; D2L is authoritative | Week 1 |
 | Fairy Tale Group Presentation | TCOM Wk 2–3 | Requires a group | Aug 24 |
 | Real chapter alignment | ECON | Assigned text is D2L Day One Access | Aug 24 |
-| Entire course | ENGR | No Fall BWD syllabus; no instructor assigned per the registrar | Aug 24 |
-| PHYS 2211 §54 instructor | (PHYSICS hub) | Registrar itself shows none | Aug 24 |
+| BWD dates and execution | ENGR | Neighboring syllabi defer dates to D2L and cannot establish Raoufi's delivery behavior | Aug 24 |
+| ~~PHYS 2211 §54 exact source~~ | (PHYSICS hub) | ✅ Closed Aug 18: exact syllabus received from Farhan Islam | — |
 
 ## Released blocks
 
@@ -229,8 +228,9 @@ prose.
 - Exact-section evidence used for this revision:
   `raw\TCOM 2010 04 (85633) Fall 2026 Syllabus.md` and
   `raw\ECON 1000 BAC (80643) Fall 2026 Syllabus.md`
-- ENGR boundary source:
-  `raw\ENGR 1000 W01 (51735) Summer 2026 Syllabus - Reference Only.md`
+- ENGR boundary sources: the three Fall 2026 neighboring-section copies in
+  `04-SCHOOL\05-ENGR\` (BWB 80862, BWC 80857, BWF 80860); none is BWD, and all defer dates
+  to D2L
 - Course policies and AI rules: [[course-briefs/fall-2026-course-briefs]]
 - Week-by-week resource maps: [[courses/tcom-2010/semester-map]],
   [[courses/econ-1000/semester-map]]

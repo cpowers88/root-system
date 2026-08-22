@@ -86,7 +86,7 @@ described again.
 | 4 | 2026-08-21 | PHYS | 14.0 → 26.0 m/s over 60.0 m, no time given | Selected `a = (v_f − v_0)/Δx` — **units s⁻¹, not m/s².** Correct relationship and 4.0 m/s² landed only after a units cue | Equation choice / units | A **fresh** no-time transfer, changed parameters, cold and with no sheet. Chris names the equation *and says why the absence of `t` selects it* | `re-run scheduled` — Sun Aug 23 – Mon Aug 24 |
 | 3 | 2026-08-19 | PHYS | Row 3 durability check — state the constant-acceleration set | Both integrations and constants correct cold; **the third equation was absent and the set was asserted complete.** Recovered on one structural cue | Concept — set structure | Superseded by row 4 above — same frontier, re-aimed at *selection* rather than recall. §54 supplies the equation sheet, so **recitation earns nothing and selection earns everything** | `re-run scheduled` |
 | 2 | 2026-08-19 | TCOM | Course-policies cold diagnostic, 8 questions | **~3 of 8.** The two *confident* wrong answers were **PHYS rules imported into TCOM** — free absences, grace period, what takes no late credit | Cross-course rule contamination | ⚠ **Re-aimed 2026-08-20 on Chris's own ruling:** she teaches these Tue Aug 25 and the quizzes are due Sep 1, open-syllabus. **Do not cold-drill.** Skim before Sep 1 and take them with the syllabus open. Cold-drilling the cheapest points in the semester is over-investment | `open` — skim before Sep 1 |
-| 1 | 2026-08-19 | TCOM | Write the five exact assignment filenames from memory | Generated them from a taxonomy. **There is no generating rule** — the syllabus prints literals, and all four strings break any pattern | Invented a rule where the source gives literals | Spaced re-rep of the four printed strings **before Tue Aug 25**. Write from memory first, then check | `open` |
+| 1 | 2026-08-19 | TCOM | Write four exact assignment filenames plus the one email subject line from memory | Generated them from a taxonomy. **There is no generating rule** — the syllabus prints four filename literals plus one separate email-subject literal, and they break any pattern | Invented a rule where the source gives literals | Spaced re-rep of the four printed filename strings plus the email subject line. Write from memory first, then check character for character | `re-run scheduled` — Mon Aug 24 or Tue Aug 25, cold. The 2026-08-22 pass does not count as the spaced rep; answers were shown |
 
 ---
 
@@ -109,6 +109,11 @@ Two `tcom-2010` pages asserted `LastName_04_AssignmentName.docx` as *required* w
 print-out a "duplicate copy" of the 634-page textbook. Every page number in every plan is for
 the 634-page file. **That day's assigned reading was pp 149–163**, which in the wrong file is
 the wrong section entirely.
+
+**2026-08-22 · TCOM · fourth aid-defect instance.** `SEMESTER_MAP.md` called the naming
+convention a *pattern* and printed `LastnameLastnameLastname` where the syllabus prints
+`LastNameLastNameLastName`. The aid generated the same false rule the rep was meant to
+detect; it is corrected to four filename literals plus one separate email-subject literal.
 
 **Why this belongs in the miss log rather than only in the flag register:** a miss whose cause
 is a defective study aid looks identical, from inside the rep, to a miss caused by a gap in

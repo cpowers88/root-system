@@ -8,7 +8,7 @@ stopped running, and nothing mechanical noticed. root_health.py passed with
 the 2026-08-11 Council said was missing: it measures freshness and function,
 not presence.
 
-Four checks, all read-only:
+Five checks, all read-only:
 
   1. current-position.md's "### Reconciled:" date is <= MAX_RECONCILED_AGE days old.
   2. No opportunity-queue Active Queue row has a review date in the past or missing.
@@ -17,13 +17,13 @@ Four checks, all read-only:
   4. CASTLE's wiki/log.md has an entry within LOG_WINDOW days whenever git shows
      commits touching 00-BRAIN/CASTLE in that window (the return-to-cockpit
      detector: a review sequence that displaces CASTLE goes silent here first).
+  5. No live `timeline: now` page carries a `review_trigger` date in the past.
 
 Exit 0 = fresh. Exit 1 = findings (printed one per line). Exit 2 = script error.
 --brief prints a single compact line for MORNING_BRIEF.md generation.
 
-Deliberately NOT wired into root_health.py before Aug 24 (same shipping pattern
-as stale_overwrite_guard.py); run_morning_brief.ps1 calls it, and the Aug 23
-review decides the root_health wiring.
+Wired into root_health.py on Aug 22 after fail-closed Git behavior and focused
+negative tests were added. run_morning_brief.ps1 also calls it.
 """
 
 from __future__ import annotations
@@ -48,6 +48,9 @@ MONTH_YEAR = re.compile(r"([A-Za-z]+)\.?\s+(\d{4})")
 MONTH_ONLY = re.compile(r"^([A-Za-z]+)\.?$")
 YEAR_ONLY = re.compile(r"(\d{4})")
 ISO_DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
+REVIEW_EXCLUDED = {"99-ARCHIVE", "raw", ".git", ".obsidian", "Report Archive",
+                   "Session_Logs", "88-JOURNAL", ".claude", ".agents",
+                   "node_modules", ".venv", "venv", "oracleJdk-26"}
 
 
 def parse_part(part: str, borrow_year: int | None, end: bool):
@@ -161,8 +164,8 @@ def check_log_recency(root: Path, wiki: Path, today: dt.date) -> list[str]:
              "--format=%ad", "--date=short", "--", "00-BRAIN/CASTLE"],
             capture_output=True, text=True, timeout=30, check=True,
         ).stdout.split()
-    except (OSError, subprocess.SubprocessError):
-        return []  # no repo reachable (e.g. tests) — git silence is not staleness
+    except (OSError, subprocess.SubprocessError) as exc:
+        raise RuntimeError(f"CASTLE git history unavailable: {exc}") from exc
     if not out:
         return []
     if last_entry is None or (today - last_entry).days > LOG_WINDOW:
@@ -173,6 +176,37 @@ def check_log_recency(root: Path, wiki: Path, today: dt.date) -> list[str]:
     return []
 
 
+def check_review_triggers(root: Path, today: dt.date) -> list[str]:
+    """Find expired or malformed review triggers on live `timeline: now` pages."""
+    findings = []
+    for path in sorted(root.rglob("*.md")):
+        rel = path.relative_to(root)
+        if REVIEW_EXCLUDED.intersection(rel.parts) or not path.is_file():
+            continue
+        text = read(path)
+        if not text.startswith("---\n"):
+            continue
+        end = text.find("\n---", 4)
+        if end == -1:
+            continue
+        fm = text[4:end]
+        timeline = re.search(r"^timeline:\s*['\"]?([^'\"#\n]+)", fm, re.MULTILINE)
+        if not timeline or timeline.group(1).strip() != "now":
+            continue
+        trigger = re.search(r"^review_trigger:\s*['\"]?([^'\"#\n]+)",
+                            fm, re.MULTILINE)
+        if not trigger:
+            continue
+        value = trigger.group(1).strip()
+        if not ISO_DATE.fullmatch(value):
+            findings.append(f"{rel}: review_trigger {value!r} is not YYYY-MM-DD")
+            continue
+        when = dt.date.fromisoformat(value)
+        if when < today:
+            findings.append(f"{rel}: review_trigger {value} is past — review or re-date it")
+    return findings
+
+
 def run(root: Path, today: dt.date) -> list[str]:
     wiki = root / "00-BRAIN" / "CASTLE" / "wiki"
     findings = []
@@ -180,6 +214,7 @@ def run(root: Path, today: dt.date) -> list[str]:
     findings += check_opportunity_queue(wiki, today)
     findings += check_phases(wiki, today)
     findings += check_log_recency(root, wiki, today)
+    findings += check_review_triggers(root, today)
     return findings
 
 

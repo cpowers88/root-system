@@ -1,12 +1,16 @@
 ---
+type: syllabus
+timeline: reference
 title: "ENGR 1000 BWC (80857) Introduction to Engineering"
+course: "ENGR 1000"
+section: BWC
+crn: 80857
 source: "https://kennesaw.simplesyllabus.com/en-US/doc/bjit7rphm/Fall-Semester-2026-ENGR-1000-BWC-%2880857%29-Introduction-to-Engineering?mode=view"
 author:
 published:
 created: 2026-08-20
 description:
-tags:
-  - "inbox"
+tags: [school]
 ---
 ## Instructor Information
 

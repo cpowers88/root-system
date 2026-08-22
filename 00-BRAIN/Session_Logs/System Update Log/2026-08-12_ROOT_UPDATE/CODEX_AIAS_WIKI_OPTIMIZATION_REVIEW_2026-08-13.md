@@ -1,7 +1,6 @@
 ---
 type: report
 timeline: now
-register: system-review
 status: complete
 tags: [update, ai-automation, optimization, semester-readiness, business-capability, codex-review]
 created: 2026-08-13

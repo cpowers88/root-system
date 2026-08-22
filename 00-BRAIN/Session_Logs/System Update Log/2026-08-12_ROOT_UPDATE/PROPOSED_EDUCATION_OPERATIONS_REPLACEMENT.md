@@ -1,7 +1,6 @@
 ---
 type: proposal
 timeline: reference
-register: system-review
 status: proposed
 tags: [education, governance, replacement-draft]
 created: 2026-08-12
@@ -105,4 +104,3 @@ Follow the shared close. Additionally record whether the result changed:
 The hub is healthy when a fresh session can find the relevant method without
 mistaking EDUCATION for the owner of course schedules, learner frontiers, or
 graded artifacts.
-

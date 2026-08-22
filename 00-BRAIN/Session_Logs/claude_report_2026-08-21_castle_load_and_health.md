@@ -1,7 +1,6 @@
 ---
 type: report
 timeline: now
-register: system-review
 status: proposed
 tags: [governance, castle, health, flag-103]
 created: 2026-08-21

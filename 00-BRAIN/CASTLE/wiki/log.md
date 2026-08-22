@@ -2056,3 +2056,22 @@ source before being acted on** — all of them held.
   Frontier Changes line added. `MORNING_BRIEF` refreshed — its ATTENTION and CHRIS lines were
   both resolved by Chris (packet pushed, laptop verified). **Sunday's five closes and the
   five-part transition are unchanged.**
+
+## 2026-08-22 — Gate C freshness and instruction-layer controls promoted (Codex)
+
+- `castle_freshness.py` now fails closed when Git history cannot be inspected and adds a
+  fifth check for expired `review_trigger` dates on live `timeline: now` pages. Its suite now
+  has 12 passing tests, including Git failure and past/future trigger cases.
+- The detector exposed three overdue triggers. The already-reconciled capability and value
+  goals now point to the September 1 monthly review; the Fall semester goal points to the
+  August 24 D2L activation gate and names its actual return work.
+- The hardened freshness gate is now part of canonical `root_health.py`. The gate's
+  not-evaluated disclosure was narrowed accordingly; other semantic freshness and cadence
+  remain outside its claim.
+- CASTLE boot coverage now includes `AGENTS.md`. `README.md`, `HOW_TO_USE.md`, and the wiki
+  index identify the actual Codex auto-load pointer, route to the live school controls and
+  miss log, and use the correct `ref-AI-automation` path casing. The retained `CODEX.md`
+  remains in place because archive/delete work was outside this gate.
+- **Verification:** 12 freshness tests PASS; boot validation checks 38 files and 1,390 live
+  pages, PASS; canonical root health PASS. The August 24 school activation remains the live
+  next action.

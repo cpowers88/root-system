@@ -55,7 +55,8 @@ Derived from `NORTH_STAR.md` §2's permanent capability base, not invented here.
 | Semester outcomes and priorities | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` |
 | **Cross-course dates, deadlines, and grading** | **`04-SCHOOL\SEMESTER_MAP.md`** |
 | Exact-section source status | `04-SCHOOL\SYLLABUS_STATUS.md` |
-| Official syllabus captures (ECON, TCOM, ENGR) | `03-WIKIS\EDUCATION\raw\Syllabi\` |
+| Active official course copies Chris receives from KSU | `04-SCHOOL\<course>\` per root `WHERE_IT_GOES.md` |
+| Existing historical captures | `03-WIKIS\EDUCATION\raw\` — immutable evidence; never rewritten or treated as the active-copy owner |
 | Course materials, notes, D2L pulls, **graded output** | `04-SCHOOL\<course>\` and `<course>\work\` |
 | Reusable learning methods and education research | **this hub, half A** |
 | Course study aids for hub-less courses | **this hub, half B** |
@@ -63,8 +64,10 @@ Derived from `NORTH_STAR.md` §2's permanent capability base, not invented here.
 | Physics learner truth | `03-WIKIS\PHYSICS\wiki\current-position.md` |
 | Cross-system sequencing | CASTLE and `NOW.md` |
 
-**An official course source overrides every derivative page here.** Course readiness is not
-meta-learning truth, and meta-learning research is not a course schedule.
+**An official course source overrides every derivative page here.** Use the active
+`04-SCHOOL` copy when one exists; a historical `raw\` capture remains evidence, not a second
+working home. Course readiness is not meta-learning truth, and meta-learning research is not
+a course schedule.
 
 ## State
 
