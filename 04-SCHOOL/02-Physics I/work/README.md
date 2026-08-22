@@ -9,7 +9,7 @@ created: 2026-08-13
 # PHYS 2211 — work
 
 **Your graded output for this course lives here.** Course reference material stays in the
-sibling folders (`Notes\`, `Flash Cards\`, `physic.pdf`, the reference-only syllabi).
+sibling folders (`Notes\`, `Flash Cards\`, `physic(full_book).pdf`, and `Syllabus.pdf`).
 
 Ruled by Chris 2026-08-13 (Phase E / R3): output goes inside the course folder.
 

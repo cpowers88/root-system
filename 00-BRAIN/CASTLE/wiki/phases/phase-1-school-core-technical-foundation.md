@@ -75,6 +75,8 @@ method without bluffing.
 - Tech pace exceeding the semester pace model (medium semester = one topic at a time)
 
 ## Next Action
-Until the phase opens, `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md`
-owns readiness gates, the course wikis own learner truth, and `.ROOT\NOW.md`
-owns the current action.
+
+At the August 23 final review, activate this phase effective August 24 only after the
+dress-rehearsal result and live learner frontiers are recorded. Then enter verified D2L
+course data into the tracker; exact-section instructors and D2L override every provisional
+plan, course wikis retain learner truth, and `.ROOT\NOW.md` retains the immediate action.

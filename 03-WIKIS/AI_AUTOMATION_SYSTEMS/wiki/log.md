@@ -1966,3 +1966,23 @@ reference back matter rather than an ingestion backlog.
 - Next action: review the now-ingested wiki material for optimization patterns relevant to
   semester operations and future business capability; keep that review separate from any
   implementation decision.
+
+## 2026-08-22 — College AI study-system optimization review completed
+
+- Reviewed current GitHub implementations for course ingestion, cited retrieval, adaptive
+  tutoring, learner memory, LMS assignment ingestion, and production second-brain RAG, then
+  compared them against the live Fall 2026 school, EDUCATION, learner-frontier, and CASTLE
+  owners.
+- Updated [[system-evolution/llm-wiki-pattern-and-second-brain-tools]] rather than creating a
+  duplicate page. **Verdict: HOLD every full-platform adoption and keep `.ROOT`'s structure.**
+- The only gap that earned a test candidate is a local, incremental mixed-file course index
+  with exact page/slide/timestamp citations and stale-source warnings. ClassCorpus is the
+  best-fit candidate, but it remains gated on repeated Week 1–2 retrieval friction and a
+  supervised one-course acceptance test; nothing was installed.
+- Brightspace's read-only **All Calendars and Tasks** iCal feed is the immediate low-risk
+  freshness check for Aug 24. It supplements rather than replaces the existing twice-weekly
+  D2L verification because instructor calendar publication is incomplete by design.
+- No new page, product, database, folder layer, D2L credential path, or generated curriculum
+  was created. No `raw\` file was touched.
+- **Next exact action:** complete the Aug 24 D2L Day One reconciliation, check the read-only
+  calendar feed, and measure real retrieval friction before opening any tool pilot.

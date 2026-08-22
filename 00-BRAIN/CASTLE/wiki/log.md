@@ -1982,3 +1982,41 @@ source before being acted on** — all of them held.
   already parked for Sunday. **One gate, one decision.**
 - **Checks:** `root_health.py` PASS (1,585 files) · `castle_freshness.py` PASS ·
   `frontmatter_audit.py` **0 findings, CLEAN**.
+
+## 2026-08-21 (night) — School-start transition tightened on a fresh CASTLE load (Codex, Chris-directed)
+
+- **The cold CASTLE route recovered the right operating picture:** Week D remains active,
+  school is the protected lane, Saturday is the full rehearsal, Sunday is the acceptance
+  return, and Week 1 is already drafted. This is supporting evidence for flag #103's
+  fresh-session test; Chris's Aug 23 confirmation remains the close gate.
+- **The semester transition is now one five-part operation at the Aug 23 review, effective
+  Aug 24.** The missing fifth lifecycle change was the pre-semester Python push; it now closes
+  beside Week D without claiming its unmet gates. Phase 1's Next Action is prewritten for the
+  transition rather than becoming false Monday morning.
+- **Two launch gaps were closed inside existing work:** the TCOM filename re-rep now occupies
+  the first ten minutes of Saturday's first simulated study gap, and laptop verification now
+  proves the three offline reading copies open locally because Git excludes PDFs.
+- **Source drift repaired:** the live physics text is `physic(full_book).pdf`, not the
+  nonexistent `physic.pdf`; the laptop spec now reflects §54's verified AI policy and Chris's
+  current Drive ruling. The backup gate's impossible `Fri 22 / Sat 23` labels were replaced
+  with a single before-Sunday condition.
+- **Checks:** `root_health.py --verbose` **PASS** (0 wiki review debt, 0 frontmatter debt) ·
+  `frontmatter_audit.py` **CLEAN** · `castle_freshness.py` **PASS (2026-08-21)**.
+
+## 2026-08-22 — College AI second-brain gate held; control returned to the school cockpit (Codex)
+
+- **Gate verdict: HOLD full-platform adoption.** The live Fall 2026 system already owns
+  official-source precedence, course materials, semester-ahead sequencing, mastery proof,
+  grades/misses, and academic-integrity boundaries. Replacing it with Cortex, SMART RAG,
+  EduAgent, IntelliPlan, or a production second-brain RAG stack would duplicate authority and
+  displace the Aug 22 rehearsal/Aug 24 D2L gate without outcome evidence.
+- **Bounded candidate only:** ClassCorpus may earn a supervised one-course retrieval test
+  after Week 1–2 demonstrates repeated search/freshness friction. The acceptance contract is
+  recorded in `03-WIKIS\AI_AUTOMATION_SYSTEMS\wiki\system-evolution\
+  llm-wiki-pattern-and-second-brain-tools.md`; nothing was installed or activated.
+- **Immediate route:** Aug 24 D2L Day One reconciliation remains the controlling action; check
+  Brightspace's read-only **All Calendars and Tasks** iCal feed, but retain twice-weekly D2L
+  verification because the feed cannot establish every assignment or policy.
+- **Return-to-cockpit gate:** re-read `.ROOT\NOW.md` and CASTLE owner truth at close. School
+  remains the active lane; the research opened no phase, project, weekly-plan change, or new
+  learner claim. Control returns to the existing Aug 22 rehearsal and Aug 24 source gate.

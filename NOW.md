@@ -17,11 +17,11 @@ drafting and drills — **not submissions**.
 course proof outrank optional business, project and system work. CASTLE maintenance shrinks
 before learning does.
 
-> ⏭ **Mode change Mon Aug 24.** Active Lane becomes
-> `CASTLE\wiki\weekly-plans\weekly-plan-2026-08-24-to-2026-08-30.md`. **Four flips happen
-> together or today's state hygiene regresses:** Week 1 → `now`/`active` · Week D →
-> `log`/`complete` · Phase 1 → `status: active` **and its § Next Action prose** · this page →
-> semester mode.
+> ⏭ **Semester transition runs at the Sun Aug 23 review, effective Mon Aug 24.** Active Lane
+> becomes `CASTLE\wiki\weekly-plans\weekly-plan-2026-08-24-to-2026-08-30.md`. **Five flips
+> happen together or state hygiene regresses:** Week 1 → `now`/`active` · Week D →
+> `log`/`complete` · Phase 1 → `status: active` plus new § Next Action prose · the
+> pre-semester Python push → `log`/`complete` · this page → semester mode.
 
 ### Open now
 

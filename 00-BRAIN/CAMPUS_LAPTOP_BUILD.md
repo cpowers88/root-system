@@ -118,7 +118,7 @@ free Windows Education upgrade — the same store where JMP was claimed
 | **Python 3.12+ from python.org** | Not the Microsoft Store build — cleaner `PATH`, fewer surprises in a first programming course. Tick *"Add python.exe to PATH"* |
 | **A plain editor for CSE work** | See §5 — this choice is an integrity decision, not a preference |
 | **Microsoft 365** (KSU account) | Word is the practical requirement for TCOM 2010's deliverables |
-| **A PDF reader** | Textbooks: `thinkpython.pdf`, `physic.pdf` |
+| **A PDF reader** | Offline reading copies: `thinkpython.pdf`, `physic(full_book).pdf`, and TCOM `Textbook Doc Files\Open-TC-PDF.pdf`. Git excludes PDFs, so verify these on the laptop directly |
 | **Browser + KSU sign-in**, D2L, Owl Express, WebAssign (PHYS) | Verify each actually loads and authenticates |
 | **Obsidian** | Points at the `.ROOT` clone from §6 |
 | **Git** | The sync mechanism, §6 |
@@ -140,8 +140,9 @@ will object to it during an exam.**
 
 ## 5. The integrity boundary — the one decision that actually matters
 
-**CSE 1321 and ENGR 1000 prohibit generative AI on submitted work. PHYS 2211 is treated as
-prohibited until §54's syllabus says otherwise.** That is three of five courses.
+**CSE 1321 and ENGR 1000 prohibit generative AI on submitted work. PHYS 2211's exact §54
+syllabus permits AI as a tutoring resource but prohibits AI-generated submitted work and
+answers to graded WebAssign problems.** The laptop remains the clean coursework surface.
 
 The desktop has Claude Code, Codex, and a full AI toolchain. **Do not reproduce that on the
 laptop.** Not because Chris would cheat — because the boundary should be **structural rather
@@ -154,7 +155,7 @@ gate precisely because prose asking an agent to remember is not a control.
 | Surface | Machine | Why |
 |---|---|---|
 | CSE assignments, quizzes, exams | **Laptop, no AI assistant installed** | The prohibition becomes a property of the machine |
-| PHYS problem sets | Laptop | Same, until §54 says otherwise |
+| PHYS problem sets | Laptop | Chris solves graded work independently; AI tutoring stays separate and never supplies a WebAssign answer |
 | TCOM / ECON course-permitted work | Either | Verify per assignment |
 | `.ROOT` system work, AI-assisted building, the data/ML reps | **Desktop** | Where the toolchain lives |
 
@@ -169,14 +170,14 @@ that has nothing to do with cheating.
 
 ---
 
-## 6. The `.ROOT` link — and the Drive ruling this closes
+## 6. The `.ROOT` link — laptop working copy and Drive boundary
 
-`NOW.md` open risk 3 says the Drive link is dead — `G:\My Drive\...` last synced **Aug 9**,
-predates the `04-SCHOOL` restructure, still holds quarantined junk, and includes `88-JOURNAL`
-and `.git`. The standing recommendation is *"replace it with a scoped link rather than
-re-syncing this one,"* ruled by Aug 17.
+**Current ruling (Chris, 2026-08-21): Google Drive is the live off-machine backup; do not
+delete it, and never work in its `.ROOT` mirror.** The desktop tree at
+`C:\Users\chris\.ROOT` is canonical. The laptop uses its scoped Git clone; Drive and the
+laptop clone serve different jobs and neither replaces the other.
 
-**The scoped link already exists: `git clone` from GitHub.**
+**The scoped laptop link is `git clone` from GitHub.**
 
 `.gitignore` excludes exactly what should never leave the desktop — `88-JOURNAL`, every `raw\`,
 `77-INBOX`, `99-ARCHIVE`, PDFs, and `MCP_Bootcamp`'s vendored environment. What remains tracked
@@ -200,8 +201,9 @@ the cautionary example already in `LOCAL_MACHINE_MAP.md`:
 4. **Coursework in progress is the one thing that lives here first.** Push it the same day, or
    it exists on a laptop that gets carried around a campus.
 
-**This also answers the Aug 17 Drive ruling: no Drive relink is needed.** Retire the dead
-`G:\My Drive` copy rather than repairing it.
+**Do not use, repair, or delete a Drive `.ROOT` path from the laptop.** Any retirement of an
+older copy requires Chris to identify the exact target first; the live Drive mirror remains
+the backup owner for files GitHub excludes.
 
 ---
 
@@ -251,7 +253,7 @@ Four points where an independent look is worth having, phrased as questions rath
 
 1. **§6 — is `git clone` genuinely the right scoped link**, or does a campus session need
    something in the untracked set (a `raw\` source, a PDF textbook) often enough that
-   git-only becomes friction? `thinkpython.pdf` and `physic.pdf` are both untracked, and both
+   git-only becomes friction? `thinkpython.pdf` and `physic(full_book).pdf` are both untracked, and both
    are course textbooks. *This is the weakest joint in the spec.*
 2. **§5 — is a hard AI/no-AI split by machine correct**, or does it push Chris toward working
    on the wrong machine and defeating the split by convenience?
