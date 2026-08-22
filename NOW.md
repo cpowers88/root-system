@@ -5,7 +5,7 @@ status: active
 tags: []
 ---
 
-# NOW — Friday, August 21, 2026
+# NOW — Saturday, August 22, 2026
 
 ## Active Lane — Week D, the last pre-semester week
 
@@ -25,13 +25,18 @@ before learning does.
 
 ### Open now
 
-1. **PHYS circular motion — the day's primary proof, still open.** Read §4.4 pp 81–83 and
-   §§6.1–6.2 pp 128–134, then worked → faded → **Problems 3–4 cold**. Problems 1–2 are lesson
-   material now. Closes miss-log rows 4–5.
+1. ✅ **PHYS circular motion — RUN Aug 22. Stage 4 still open, but the reading block is
+   cancelled.** P3 cold and correct; P4 cued. Chris named gravity on an orbiting satellite
+   instantly, which killed the "concept recall" diagnosis. **Next rep is one fresh cold
+   problem — banked curve, conical pendulum or loop-bottom — with no reminder that direction
+   and the real force are wanted.** Miss-log row 5b.
 2. **TCOM — resume at Part B** (~8 uncued policy facts), then a spaced re-rep of the four
    printed filename strings. **That re-rep needs a weekend block; after Monday is not spacing.**
-3. **Sat Aug 22 — dress rehearsal**, full day on the real Fall timetable. Do not compress.
-   Plus `verify_backup_restore.py` against the live D: backup, into a new empty target.
+3. **Sat Aug 22 — dress rehearsal, PART DONE.** ✅ Laptop verified by Chris · ✅ readiness
+   packet pushed · ✅ D: backup pruning verified (mirror Extras **0**, 8 complete snapshots,
+   `/PURGE /MIR` confirmed live). **Still open: the TCOM filename re-rep** (first 10 min of
+   the first study gap) and **`verify_backup_restore.py`** into a new empty target — the
+   mirror check does not cover restore.
 4. **Sun Aug 23 — five closes:** flag #102 · flag #103 acceptance · backup review · Phase 1
    activation and the `root_health.py` wiring decision · the first live Sunday return
    (grade-tracker dry run + miss-log open rows).
@@ -41,9 +46,14 @@ PYTHON → **C1**, unrun since Aug 18. Enter a queue at its first unrun row, nev
 
 ## Frontier Changes — clears once shown
 
-*Empty. Ten bullets cleared 2026-08-21, four of which had survived multiple morning briefs.
-This section is a one-session relay, not a ledger. More than three entries means it stopped
-working.*
+- **PHYS error class re-classed 2026-08-22 and a scheduled study block withdrawn.** Aug 21
+  recorded "concept recall — real force" and prescribed two textbook sections plus a
+  worked→faded→cold rebuild. One cold question falsified it. Corrected class: **answer-
+  completion habit not firing.** The reading block is cancelled in `NOW`, the Week D plan and
+  PHYSICS `index.md`; §§6.1–6.2 stays as real **Sep 18** syllabus reading.
+
+*This section is a one-session relay, not a ledger — it clears once shown. Ten bullets were
+cleared 2026-08-21. More than three entries means it stopped working.*
 
 ## Needs Chris
 

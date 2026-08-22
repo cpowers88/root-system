@@ -8,8 +8,8 @@ tags: []
 
 # Morning Brief — Saturday, August 22, 2026
 
-**ATTENTION** The validated readiness packet still sits uncommitted and unpushed, needed before today's rehearsal pull (`00-BRAIN\Session_Logs\HANDOFF_0821_CODEX.md`).
+**ATTENTION** Readiness packet pushed, laptop verified, D: backup pruning confirmed — all three cleared 2026-08-22. Physics ran and Stage 4 stayed open; the prescribed reading block is withdrawn (`NOW.md` § Frontier Changes).
 
-**START** Run today's dress rehearsal on the real Fall timetable, then verify the D: backup restore, toward Sunday's transition (`CASTLE\wiki\weekly-plans\weekly-plan-2026-08-17-to-2026-08-23.md`).
+**START** Finish the dress rehearsal: the TCOM filename re-rep in the first study gap, then `verify_backup_restore.py` into a new empty target (`CASTLE\wiki\weekly-plans\weekly-plan-2026-08-17-to-2026-08-23.md`).
 
-**CHRIS** Authorize the commit and push of the readiness packet so it reaches GitHub before the laptop pulls (`00-BRAIN\Session_Logs\HANDOFF_0821_CODEX.md`).
+**CHRIS** Sunday's five closes plus the five-part semester transition are unchanged; the only new decision is whether to build a `study-close` skill before Monday or wait for Week 1 evidence (`00-BRAIN\Session_Logs\DAILY_2026-08-22.md`).

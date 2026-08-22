@@ -2020,3 +2020,39 @@ source before being acted on** — all of them held.
 - **Return-to-cockpit gate:** re-read `.ROOT\NOW.md` and CASTLE owner truth at close. School
   remains the active lane; the research opened no phase, project, weekly-plan change, or new
   learner claim. Control returns to the existing Aug 22 rehearsal and Aug 24 source gate.
+
+## 2026-08-22 — A scheduled study block withdrawn on falsified evidence; Week D's PHYS bullet re-anchored (Claude Code, Chris-directed)
+
+- **Decision: the Aug 21 PHYS prescription is cancelled, not deferred.** Week D's Wednesday
+  bullet, `NOW.md` and PHYSICS `index.md` all carried *"read §4.4 pp 81–83 and §§6.1–6.2
+  pp 128–134, then worked → faded → cold."* That prescription rested on an error class
+  recorded from a single failed rep. **One cold question on Aug 22 falsified it** — Chris
+  named gravity as the inward force on an orbiting satellite instantly, which is the harder
+  of the two cases. Corrected class: **answer-completion habit not firing**. Roughly a study
+  block returns to the week two days before the semester opens.
+- **Stage 4 did not advance** and no frontier moved, so this is not a Stage Advance. It is a
+  plan re-anchoring, which is why it is logged here rather than left in the DAILY.
+- **Propagation was run as a check, not a habit.** Every file naming the withdrawn reading
+  was grepped; three presented it as live and were corrected. The legitimate **Sep 18**
+  syllabus reading of §§6.1–6.2 in `semester-reading-plan.md` and
+  `phys-2211-17-week-math-first-plan.md` was deliberately left intact — withdrawing the
+  remedial framing must not delete the course reading, and those are different claims about
+  the same pages.
+- **System-learning candidate, recorded in PHYSICS `log.md`:** *re-test a diagnosis before
+  scheduling its treatment.* This is the learner-side twin of the hub's aid-check rule, and
+  the third instance in a week of the same shape — a source verified on one property and
+  then trusted on another.
+- **Proposal held for Chris, not built:** a narrow `study-close` skill to write the
+  post-study-block records (hub log, current-position, miss-log row + register, Stage Advance
+  propagation, durability obligation). **Not a `/learn` that teaches** — that would re-run
+  flag #94. Recommendation: wait for Week 1 evidence; the semester maintenance budget says
+  CASTLE work does not grow during a semester, and two friction points are thin.
+- **Backup review input, one day early:** D: pruning verified live — vault mirror `/PURGE /MIR`
+  with **Extras 0**, 8 complete snapshots rotating correctly, gitdir holding 1 stale 192-byte
+  ref that purges next run. Minor finding for the Aug 23 review: the gitdir pass is piped to
+  `Out-Null` and reports nothing even under `-DryRun`. **`verify_backup_restore.py` remains
+  unrun** — the mirror check does not substitute for a restore test.
+- **Cockpit state:** `NOW.md` re-dated to Aug 22, Open-now items 1 and 3 corrected, one
+  Frontier Changes line added. `MORNING_BRIEF` refreshed — its ATTENTION and CHRIS lines were
+  both resolved by Chris (packet pushed, laptop verified). **Sunday's five closes and the
+  five-part transition are unchanged.**

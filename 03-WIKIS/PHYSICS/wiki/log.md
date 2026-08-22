@@ -2087,3 +2087,95 @@ study aid; the instructor-provided exam equation sheet remains authoritative.
 - **System-learning candidate:** terminal LaTeX was unreadable; the Codex profile now
   requires plain-text equations in terminal chat and reserves rendered notation for
   documents and compatible interfaces.
+
+## 2026-08-22 — Circular-motion Problems 3–4 run; the Aug 21 diagnosis was wrong and is corrected here
+
+**Run at Chris's direction** — *"we need to get the physics thing out of the way even if
+it is a fail as it is holding things up."* Stage 4 has been the held frontier since July.
+
+### Aid check, before the learner (`CASTLE\OPERATIONS.md` § Reviews 4c)
+
+- `concepts/uniform-circular-motion.md` cites §4.4 as **pp. 96–100**; [[current-position]]
+  and the miss log say **printed pp. 81–83**. PDF-page vs printed-page mismatch — the same
+  shape as the TCOM 353-vs-634-page trap. **Recorded, not yet fixed.**
+- Drill Problem 3 is dressed as a satellite orbit. **Ch 13 is not on this course**, but the
+  problem hands over `r` and `v` and asks only for the period, so no gravitation is
+  required and it is legitimate as written. It is still the weakest of the four as a §54
+  rep — one substitution, no situation recognition.
+- `drills/circular-motion-drill.md` remains `status: draft`.
+
+### What Chris did
+
+Both problems were run against a three-part answer requirement stated up front: the
+number with units, **the direction of the acceleration**, and **the real force supplying
+it**. That requirement is row 5's re-aim.
+
+- **Problem 3 — cold, unaided.** `T = 5.59 × 10³ s`, 1.55 h per orbit. Correct, first
+  attempt, **and the significant figures were correct** — three in, three out, no
+  calculator-digit dump. That is one of this hat's listed failure modes not firing.
+- **Problem 3, the other two parts — correct, but only after being asked again.**
+  Acceleration inward; **gravity** named as the real force. Both right, immediately, with
+  no hesitation and no scaffold beyond the question itself.
+- **Problem 4 — cued, not cold.** Chris stopped: *"I am dropping the ball on the fourth
+  problem, don't recall this information."* One cue was given — *what is physically
+  touching the ball, and that one thing is the entire net inward force* — after which he
+  produced **8.16 m/s**, correct with correct sig figs.
+- **One label crossed:** 8.16 m/s was reported as the satellite's speed; it is the ball's.
+  The satellite's speed was a given. Work correct, tag slipped. Noted once, not treated as
+  an error class.
+
+### The correction — this is the entry's real content
+
+**The 2026-08-21 error class was wrong, and logging it forward unchanged would have
+produced a false gap and a wasted week.**
+
+Aug 21 recorded *"concept recall — real force versus the centripetal role,"* and prescribed
+reading §4.4 and §§6.1–6.2 plus a worked → faded → cold rebuild. **Today shows the concept
+recall is intact.** Chris named gravity as the inward force on an orbiting satellite
+instantly — the harder case of the two, because there is no contact force to point at.
+
+What actually fails is narrower: **he does not volunteer direction and the real force
+unless the answer is explicitly asked for them.** Twice now — Aug 21 and Aug 22, five days
+apart, same axis. That is an **answer-completion habit that is not firing**, structurally
+identical to the standing reasonableness-check row already open in
+`04-SCHOOL\miss-log.md`, and it closes the same way: by firing unprompted, not by being
+re-explained.
+
+**Consequence for the plan:** the two-section reading block prescribed on Aug 21 is
+**not needed** and is withdrawn. The re-aim is one problem, not a chapter.
+
+### Instruction given before the cold run
+
+A 90-second derivation, on Chris's own pathway (calculus relationship → derive → connect
+back): `r_vec(t) = r(cos wt, sin wt)`, differentiate twice to `a_vec = -w^2 r_vec`, so the
+acceleration is antiparallel to the position vector — **the minus sign is the direction**,
+rather than a remembered rule. Plus the distinction that `mv^2/r` is the left side of
+`sum F = ma`, so centripetal is a **role** something real fills, never a force drawn on a
+free-body diagram.
+
+### Outcome and route
+
+- **No stage advanced. Stage 4 remains open** — Problem 3's parts 2–3 were prompted and
+  Problem 4 was cued, so neither meets the cold-with-no-scaffold bar.
+- **Problems 3 and 4 are now consumed as cold items.** A fresh changed-parameter problem is
+  required for the next attempt.
+- **Row 3's durability check is untouched by this session** and remains due **Sun Aug 23 –
+  Mon Aug 24** on a fresh no-time transfer.
+- **Next rep (one problem, not a block):** a cold circular-motion problem in an unfamiliar
+  setup — banked curve, conical pendulum, or vertical-loop bottom — with **no reminder that
+  direction and the real force are wanted.** The number is not what is being tested. The
+  gate is whether the three-part answer arrives complete, unprompted.
+
+### Return packet
+
+- **Outcome:** Stage 4 exercised and held open; the Aug 21 error class corrected on
+  evidence; the prescribed reading block withdrawn as unnecessary.
+- **Evidence:** this entry, [[current-position]] § Active Unit, `04-SCHOOL\miss-log.md`
+  row 5.
+- **Capability movement:** none. Physics stays `building` at Stage 4.
+- **Reusable asset:** none this session.
+- **System-learning candidate:** **a miss classified once should be re-tested before its
+  prescription is scheduled.** Aug 21's class was recorded from a single failed rep and had
+  already produced a reading assignment and a lesson plan; one cold question on Aug 22
+  falsified it. This is the *learner-side* instance of the aid-check rule the hub already
+  runs — check the diagnosis before spending a week on the treatment.

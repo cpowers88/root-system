@@ -51,10 +51,19 @@ PHYS 2211 — Principles of Physics I, Kennesaw State University, Fall 2026.
 packets exist, but [[learning-path]] now distinguishes source-verified packets,
 TOC-screened packets, known expansion gaps, and mastery evidence.
 
-**Next exact rep:** read §§6.1–6.2 (printed pp. 128–134;
-`0101-0200` local PDF pp. 58–64), then complete
-[[drills/circular-motion-drill]] Problems 1–4 cold. See
-[[phys-2211-17-week-math-first-plan#Start now — August 19–23]].
+**Next exact rep (rewritten 2026-08-22).** ~~Read §§6.1–6.2, then
+[[drills/circular-motion-drill]] Problems 1–4 cold.~~ **Withdrawn — the drill is spent
+and the reading was prescribed against a diagnosis that has since been falsified.**
+Problems 1–2 became lesson material Aug 21; Problems 3–4 were run Aug 22. The
+remedial reading is not needed: Chris named gravity as the inward force on an orbiting
+satellite instantly. *(§§6.1–6.2 remains real syllabus reading for **Sep 18** — see
+[[phys-2211-17-week-math-first-plan]]. Only the read-it-now-to-repair framing is withdrawn.)*
+
+**The live rep is one fresh problem:** a cold circular-motion setup Chris has not seen —
+banked curve, conical pendulum, or vertical-loop bottom — **with no reminder that the
+direction and the real force are wanted.** The number is not the test. The gate is
+whether the three-part answer arrives complete and unprompted; it has failed that twice,
+Aug 21 and Aug 22. Full evidence: `log.md` 2026-08-22 and [[current-position]].
 
 **Recall decks:** `04-SCHOOL\02-Physics I\Flash Cards\Physics_All_Stages.apkg`
 — one Anki package, `Physics` parent deck with a subdeck per stage (all 18,

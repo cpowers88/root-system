@@ -157,12 +157,39 @@ start, no prerequisite gaps.
 **Circular-motion cold attempt 2026-08-21 did not pass.** On Problem 1 Chris correctly
 computed 5.0 m/s², but described the direction as "towards the curve" instead of toward
 the center and did not name static friction as the real inward force until correction;
-the later explanation still tied the force to tire angle. **Error class: concept recall —
-real force versus the centripetal role.** Chris then reported that the equations had not
-been reviewed in more than six months and requested reading plus a lesson. Read §4.4
-(printed pp. 81–83) and §§6.1–6.2 (printed pp. 128–134), then use
-worked → faded → fresh cold transfer. Problems 1–2 are now lesson material and require
-changed-parameter replacements; Problems 3–4 remain untouched cold items. Stage 4 stays open.
+the later explanation still tied the force to tire angle. Chris then reported that the
+equations had not been reviewed in more than six months and requested reading plus a
+lesson. Problems 1–2 became lesson material.
+
+> **⚠ That day's error class was wrong, and is corrected below on 2026-08-22 evidence.**
+> It read *"concept recall — real force versus the centripetal role"* and had already
+> produced a prescription: read §4.4 (pp. 81–83) and §§6.1–6.2 (pp. 128–134), then
+> worked → faded → cold. **The reading block is withdrawn — one cold question falsified
+> the diagnosis it was built on.**
+
+**Circular-motion Problems 3–4 run 2026-08-22, at Chris's direction to clear the held
+frontier. Stage 4 stays open, but the diagnosis narrowed sharply.**
+
+- **Problem 3 cold and unaided:** `T = 5.59 × 10³ s` (1.55 h), correct first attempt,
+  **sig figs correct** — three in, three out, no calculator-digit dump.
+- **Direction and real force: correct, but prompted.** Asked a second time, Chris answered
+  *inward* and named **gravity** on an orbiting satellite — the harder of the two cases,
+  with no contact force available to point at. **The concept recall is intact.**
+- **Problem 4 cued, not cold** (Chris stopped on it). After one cue — *what is touching the
+  ball is the entire net inward force* — he produced **8.16 m/s**, correct.
+- **Both problems are now consumed as cold items.** The next attempt needs fresh parameters.
+
+**Corrected error class: answer-completion habit not firing.** Chris does not volunteer the
+direction and the real force unless the answer is explicitly asked for them — Aug 21 and
+Aug 22, same axis, five days apart. This is **not** a knowledge gap; it is structurally the
+same as the standing reasonableness-check habit in `04-SCHOOL\miss-log.md`, and it closes
+the same way — by firing unprompted, not by being re-explained.
+
+**Next rep — one problem, not a block.** A cold circular-motion problem in an unfamiliar
+setup (banked curve, conical pendulum, or vertical-loop bottom), **with no reminder that
+direction and the real force are wanted.** The number is not what is being tested; the gate
+is whether the three-part answer arrives complete and unprompted. Full evidence:
+`log.md` 2026-08-22.
 
 **Stage 3 — Vectors (Ch 3): CLOSED 2026-07-16.** Full mastery checklist passed cold, no notes, in one session — coordinate conversion, scalar/vector ID (two examples each), decomposition, reconstruction, non-axis-angle addition, and unit-vector explanation. See [[stages/stage-3-vectors]] for the closed checklist with each cold-check result, and `wiki/log.md` 2026-07-16 for the full record. Stages 1 and 2 remain assumed-cleared from the July cruise pre-build; confirm their mastery checklists before treating them as done if it's been a while since they were last drilled.
 
