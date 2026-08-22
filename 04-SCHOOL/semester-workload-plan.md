@@ -121,10 +121,47 @@ happening repeatedly. See the battery finding immediately below.
 > Mon/Tue/Wed gap locations as a requirement to verify on day one, not an assumption**, and
 > re-run the endurance check against 6 hours rather than 2h15.
 
-**Where the buffer actually is:** PHYS and CSE both sit **+2 weeks ahead** as of 2026-08-18
-(measured, not assumed). TCOM is at **0** and has graded work in week 1. That asymmetry is
-what makes the early weeks survivable, and it is why the evening-reading rotation was
-reweighted to TCOM/ECON the same day.
+### 🔴 The lead — corrected 2026-08-22 on Chris's ruling, and re-based
+
+**The former claim — *"PHYS and CSE both sit +2 weeks ahead as of 2026-08-18"* — is
+withdrawn.** Chris's ruling: *"the two week rule may be over extended right now… we all
+start Monday at zero and it is impossible to be 2 weeks ahead."*
+
+He is right, and the defect is sharper than a stale number. **That lead was measured
+against lecture delivery, and nothing is graded on lecture delivery.** Unit Exam 1 covers
+Ch 1–5 + 6.1–6.2 whether or not those chapters have been lectured. Measured against the
+assessment instead, the real PHYS position on 2026-08-22 is Ch 1–3 proven, **Ch 4 open**
+(circular motion unclosed), Ch 5 and 6.1–6.2 untouched — roughly 60% of Exam 1's scope at
+proof level, four weeks out. That is a normal position. It is not a two-week lead in any
+unit.
+
+**From Mon Aug 24 the lead is a target, not a state**, and it is measured per course in the
+unit that course actually grades (Chris's ruling, 2026-08-22):
+
+| Course | Lead measured in | The two-week gate |
+|---|---|---|
+| **PHYS 2211** | **Proof** — worked cold, no scaffold | Every unit exam's full scope proven cold **14 days before the sitting**. For Exam 1 (Mon Sep 21) that is **Sun Sep 7** |
+| **CSE 1321 / 1321L** | **Proof** on the *Think Python* spine | The module's constructs written cold 14 days before their quiz or test. **Capped by D2L** on course-shell material — a module that has not posted cannot be led |
+| **TCOM 2010** | **Deliverable** — the artifact finished | Each graded item complete 14 days early. The four report checkpoints make this real: the report is **due Thu Nov 12 and finishable by Tue Nov 3** |
+| **ECON 1000** | **Reading** only | Chapter read before its quiz window opens. Its exams are the grade and coverage is cheap; proof-leading 2 credits earns nothing |
+| **ENGR 1000** | 🔴 **Undefined until D2L posts BWD** | Set it in week 1 from the real assignment list |
+
+**This does not conflict with the PHYS one-week-ahead reading rule, and the two are not the
+same instrument.** Reading stays one week ahead of *lecture*, because pre-class reading is
+graded and reading further ahead goes stale. Proof runs two weeks ahead of *assessments*.
+Different rulers, different targets, no contradiction.
+
+**The window to build it is weeks 1–4 and it closes Sep 21.** §3's estimates leave roughly
+16 · 12 · 14 · 13 surplus hours against a ~30 h schedule — **~55 h, and near zero from week
+5 onward.** Treat ~55 as a ceiling rather than a balance: it assumes the three new blocks
+run and Tuesday holds full value, both untested. **Working figure: 35–45 h.** If the lead is
+not built by Sep 21 it does not get built.
+
+**TCOM remains at 0 with graded work in week 1**, which is why the evening rotation was
+reweighted to TCOM/ECON on 2026-08-18. That part of the original finding stands.
+
+**check_at: Sunday 2026-09-06** — first measured read of all five leads at the Sunday
+return, one week before the Exam 1 gate, while there is still time to act on it.
 
 ### Total outside-class hours for all A grades
 
@@ -160,8 +197,11 @@ structure rather than credit count. It is roughly **37% of the total outside-cla
 
 **Two things that move the real number down:**
 
-1. **The +2 week buffer is already banked.** These figures describe a student starting cold on
-   Aug 24. Stages 1–4 and CSE Modules 0–1 are done — plausibly 30–50 hours already spent.
+1. **Pre-coverage is banked, but it is not a two-week lead.** These figures describe a student
+   starting cold on Aug 24. Stages 1–3 are closed, Stage 4 is open, and CSE Modules 0–1 are
+   done — plausibly 30–50 hours already spent, which genuinely lowers the remaining total.
+   **What it does not buy is assessment readiness**; see § The lead above for what is
+   actually measured and when.
 2. **If the 21.75 h of mid-day campus gaps are worked**, ~28 h/week is nearly covered before any
    evening work at all. If they are not, ~28 h/week means about **4 hours every evening and
    weekend**. This is the 🔴 open question above, and it is worth more than any other estimate
@@ -218,8 +258,8 @@ question a fast start actually turns on. Assembled from the five owner pages; ea
 cites its owner rather than restating it.
 
 **Run-in, Aug 19–23 — four bounded readings/opens, and none of them is a textbook chapter for a class
-you are behind in.** PHYS and CSE are +2 weeks ahead; re-reading covered ground buys
-nothing (evening-reading override 3).
+you are behind in.** PHYS and CSE hold real pre-coverage of weeks 1–2, so re-reading covered
+ground buys nothing (evening-reading override 3, which expires Aug 24).
 
 | # | Read | By | Why this one |
 |---:|---|---|---|

@@ -9,8 +9,9 @@ created: 2026-07-19
 
 # OPERATIONS.md — How AI Sessions Run CASTLE
 
-Last revised: **August 21, 2026** — Reviews item 4 added (course standing and open misses read
-at the Sunday return). Prior substantive revisions: Aug 19, 2026 (Session Close 7
+Last revised: **August 22, 2026** — Reviews item 4d added (the per-course lead read at the
+Sunday return, inside item 4's existing budget). Prior substantive revisions: Aug 21, 2026
+(Reviews item 4 — course standing and open misses) · Aug 19, 2026 (Session Close 7
 return-to-cockpit gate; semester maintenance budget; log discipline) · July 19, 2026 (concise
 authority, capacity, and value-alignment pass approved by Chris).
 
@@ -159,6 +160,16 @@ Sunday step produces one short list before any planning is written:
       material is correct before treating it as a gap — `.ROOT`'s own aids taught a
       wrong rule twice in five days (2026-08-19, 2026-08-21) and the failed reps
       reproduced the vault's defect, not Chris's.
+
+   d. **The per-course lead (added 2026-08-22, Chris-approved).** Five rows, inside
+      this same read, from `04-SCHOOL\semester-workload-plan.md` § The lead: for each
+      course, days between today and its next assessment, against whether that
+      assessment's scope is already held in that course's own unit — proof for PHYS
+      and CSE, deliverable for TCOM, reading for ECON, TBD for ENGR. **A lead under 7
+      days is named in the week's plan**, and it also moves the evening rotation
+      (`EVENING_READING_INSTRUCTIONS.md` § Rebalance). **The lead is a target being
+      built in weeks 1–4, never a state to assert** — the claim it replaces was
+      measured against lecture delivery, which nothing is graded on.
 
    **Why this is a cadence step and not a dashboard:** the grade target is 90% in
    five courses, and a returned score only changes behaviour if something reads it

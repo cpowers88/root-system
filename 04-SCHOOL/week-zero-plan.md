@@ -12,9 +12,15 @@ review_trigger: 2026-08-24
 ### The run-in. Five days to be ready for week 1 lectures and assignments. Built 2026-08-20 from `semester-reading-plan.md`, `semester-workload-plan.md` § "Week 1 reading", `SEMESTER_MAP.md`, and the TCOM policy page built 2026-08-19.
 
 **Total: about 5.75 hours across Thursday to Sunday**, plus Monday, which is execution
-rather than reading. It is small because **the buffer is real** — PHYS and CSE both sit
-**+2 weeks ahead** as of Aug 18, measured. The work of week zero is to *keep* that lead,
-not to build it.
+rather than reading. It is small because **the pre-coverage is real** — PHYS and CSE have
+already covered course weeks 1–2.
+
+🔴 **Corrected 2026-08-22 on Chris's ruling.** This read *"PHYS and CSE both sit +2 weeks
+ahead… the work of week zero is to keep that lead, not to build it."* **There is no lead to
+keep.** That figure was measured against lecture delivery, which nothing is graded on; against
+Exam 1's actual scope PHYS holds Ch 1–3 with Ch 4 open. **From Aug 24 the two-week lead is a
+target to build, per course, in the unit that course grades** —
+`semester-workload-plan.md` § The lead. The build window is weeks 1–4 and it closes Sep 21.
 
 > ⏱ **Day placement is mine, not yours.** I do not have your Aug 20–24 calendar, so the
 > days below are ordered by deadline pressure only. If something is already booked, move

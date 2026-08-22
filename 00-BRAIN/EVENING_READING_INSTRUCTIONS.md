@@ -58,10 +58,17 @@ night **primes the next day's first block** in the current weekly plan.
 
 **Rebalanced 2026-08-18 at Chris's direction.** The previous table ran Python 3 /
 Physics 2 / TCOM 1 / ECON-or-ENGR 1. That weighting was set in July, before the
-buffer position was measured. **It is now backwards.** Measured 2026-08-18: PHYS is
-**+2 weeks ahead**, CSE is **+2 and hard-capped** (Module 2 does not exist until D2L
-opens), while **TCOM is at 0 buffer with real graded work in week 1**, and ECON's
-first graded item is Sep 8. Evening reading now follows the deficit, not the habit.
+buffer position was measured. **It is now backwards.** PHYS and CSE hold real
+pre-coverage of course weeks 1–2 (CSE hard-capped — Module 2 does not exist until D2L
+opens), while **TCOM is at 0 with real graded work in week 1**, and ECON's first graded
+item is Sep 8. Evening reading follows the deficit, not the habit.
+
+🔴 **Corrected 2026-08-22 on Chris's ruling.** These lines read *"PHYS is +2 weeks ahead,
+CSE is +2"* until today. **That lead was measured against lecture delivery, and nothing is
+graded on lecture delivery** — so it never described assessment readiness, which is the only
+thing that scores. Pre-coverage of weeks 1–2 is real and is what the rotation weights
+against; a two-week lead is now a **target**, defined per course in
+`04-SCHOOL\semester-workload-plan.md` § The lead.
 
 ### Pre-semester table — in force through Sat Aug 23 only
 
@@ -104,10 +111,17 @@ and D2L reading quizzes, plus unannounced in-class quizzes (`PHYSICS\wiki\semest
 **ENGR 1000 takes the Saturday slot the week its syllabus lands**, dropping TCOM to one
 night, until its real load is known. Until then it is absent, not silently folded in.
 
-**Rebalance when the deficit moves, not on a fixed date.** PHYS and CSE hold a **+2 week
-buffer** as of 2026-08-18. If either falls below **+1 week**, that course takes a third
-night from ECON. If TCOM's report checkpoints slip, Saturday becomes a second TCOM night
-in weeks 8–11. Say so in the brief rather than following the table off a cliff.
+**Rebalance when the deficit moves, not on a fixed date.** The trigger is the **per-course
+lead** in `04-SCHOOL\semester-workload-plan.md` § The lead, read at the Sunday return: a
+course whose lead is **under 7 days against its next assessment** takes a third night from
+ECON. If TCOM's report checkpoints slip, Saturday becomes a second TCOM night in weeks 8–11.
+Say so in the brief rather than following the table off a cliff.
+
+🔴 **Re-based 2026-08-22.** This trigger read *"PHYS and CSE hold a +2 week buffer as of
+2026-08-18; if either falls below +1 week…"* — **armed against a baseline that was never
+measured on a running course, so it could not have fired correctly.** A dated trigger with no
+real baseline is the flag #94 / #103 shape: a rule whose trigger does not exist. It now keys
+to a lead that is measured weekly against a real assessment date.
 
 **Four overrides, in this order:**
 
