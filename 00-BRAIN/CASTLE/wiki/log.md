@@ -2075,3 +2075,44 @@ source before being acted on** — all of them held.
 - **Verification:** 12 freshness tests PASS; boot validation checks 38 files and 1,390 live
   pages, PASS; canonical root health PASS. The August 24 school activation remains the live
   next action.
+
+## 2026-08-22 — The semester lead re-based, and `study-close` approved and built (Claude Code)
+
+Two Chris rulings out of a teaching-readiness audit; both implemented the same session.
+Full record: `Session_Logs\claude_report_2026-08-22_teaching_readiness_audit.md`.
+
+- **Ruling 1 — the "+2 weeks ahead" claim is withdrawn, and the lead becomes a target.**
+  Chris: *"we all start Monday at zero and it is impossible to be 2 weeks ahead."* The claim
+  was not merely stale: **it was measured against lecture delivery, and nothing is graded on
+  lecture delivery.** Against Exam 1's actual scope (Ch 1–5 + 6.1–6.2, Mon Sep 21) PHYS holds
+  Ch 1–3 proven, Ch 4 open, Ch 5/6.1–6.2 untouched. From Aug 24 the lead is measured **per
+  course in the unit that course grades** — PHYS/CSE proof, TCOM deliverable, ECON reading,
+  ENGR undefined until D2L. Definition home: `04-SCHOOL\semester-workload-plan.md` § The lead.
+  First gate: **Exam 1 scope proven cold by Sun Sep 7.** Build window **weeks 1–4**, ~35–45 h
+  realistic, closing Sep 21.
+- **Protocol change — `OPERATIONS.md` Reviews item 4d.** Five per-course lead rows read at the
+  Sunday return, **inside item 4's existing budget rather than beside it**, per the semester
+  maintenance rule that CASTLE work does not grow during a semester. A lead under 7 days is
+  named in the week's plan and moves the evening rotation.
+- **Protocol change — the evening-reading rebalance trigger is re-based.** It read *"PHYS and
+  CSE hold a +2 week buffer as of 2026-08-18; if either falls below +1 week…"* — **armed
+  against a baseline never measured on a running course, so it could not have fired
+  correctly.** Flag #94 / #103 shape: a rule whose trigger does not exist. It now keys to the
+  measured per-course lead against a real assessment date.
+- **Ruling 2 — `study-close` built, overriding this file's own recommendation at line 2045.**
+  That entry recommended waiting for Week 1 evidence on the semester maintenance budget;
+  Chris ruled to build before Monday. **Recorded as an override, not a convergence.** Canonical
+  at `00-BRAIN\SKILLS\study-close\SKILL.md`, both mirrors synced, validation PASS at 7 skills.
+  It closes the risk the audit scored 4/10: every grade and miss instrument built this month
+  depends on manual entry with no ritual, and `session-close` is too heavy to run after a
+  45-minute block.
+- **Plan re-anchored:** `weekly-plan-2026-08-24-to-2026-08-30.md` gains a second weekly goal
+  with per-course week-1 lead work; the Saturday float becomes a named lead block (PYTHON C1,
+  then the PHYS Stage 4 cold close); `study-close` is wired into the day; the Aug 30 return
+  gains item 4d.
+- **`check_at` 2026-09-06** — the last Sunday where action on the Exam 1 gate is still
+  possible. First live read of 4d is the **Aug 30** return.
+- **Verification:** `sync_shared_skills.py --check` PASS; `root_health.py` PASS before and
+  after the governance edits. **Held:** `PHYSICS\wiki\semester-pathway.md` was not read in
+  full, so whether its phase structure conflicts with the Sep 7 proof gate is unverified —
+  check before Sunday.

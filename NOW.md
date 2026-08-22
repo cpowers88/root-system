@@ -37,20 +37,23 @@ before learning does.
    `/PURGE /MIR` confirmed live). **Still open: the TCOM filename re-rep** (first 10 min of
    the first study gap) and **`verify_backup_restore.py`** into a new empty target — the
    mirror check does not cover restore.
-4. **Sun Aug 23 — five closes:** flag #102 · flag #103 acceptance · backup review · Phase 1
+4. **Sun Aug 23 — six closes:** flag #102 · flag #103 acceptance · backup review · Phase 1
    activation and the `root_health.py` wiring decision · the first live Sunday return
-   (grade-tracker dry run + miss-log open rows).
+   (grade-tracker dry run + miss-log open rows) · **confirm the lead re-basing and item 4d, and
+   check `PHYSICS\wiki\semester-pathway.md` against the Sep 7 proof gate — unverified.**
 
 **Held resume points:** PHYSICS → **row 4** (`calculus-links/kinematics-derivatives`) ·
 PYTHON → **C1**, unrun since Aug 18. Enter a queue at its first unrun row, never at today's date.
 
 ## Frontier Changes — clears once shown
 
-- **PHYS error class re-classed 2026-08-22 and a scheduled study block withdrawn.** Aug 21
-  recorded "concept recall — real force" and prescribed two textbook sections plus a
-  worked→faded→cold rebuild. One cold question falsified it. Corrected class: **answer-
-  completion habit not firing.** The reading block is cancelled in `NOW`, the Week D plan and
-  PHYSICS `index.md`; §§6.1–6.2 stays as real **Sep 18** syllabus reading.
+- **The "+2 weeks ahead" claim is withdrawn, and the lead is now a target — Chris-ruled
+  2026-08-22.** It was measured against lecture delivery, which nothing is graded on. From Aug 24
+  the lead is per course in the unit that course grades (PHYS/CSE proof · TCOM deliverable · ECON
+  reading · ENGR TBD); first gate is **Exam 1 scope cold by Sun Sep 7**, built in **weeks 1–4**.
+  Definition: `semester-workload-plan.md` § The lead. Cadence: `OPERATIONS.md` item **4d**.
+  **`study-close` shipped** the same session. Report:
+  `Session_Logs\claude_report_2026-08-22_teaching_readiness_audit.md`.
 
 *This section is a one-session relay, not a ledger — it clears once shown. Ten bullets were
 cleared 2026-08-21. More than three entries means it stopped working.*
