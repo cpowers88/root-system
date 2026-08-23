@@ -13,6 +13,37 @@ tags: [phase]
 
 > **Metadata note:** the first live observation is current (`timeline: now`); the formal phase remains `status: planned` until its September window opens.
 
+> ## ⏰ DECISION DUE Tue Sep 1 — flip to `active`, or record why not. Chris's call.
+>
+> **Surfaced 2026-08-23 at the semester transition, deliberately early.** This page's window
+> opens **September 2026**, so `castle_freshness.py` will demand a flip-or-explain on Sep 1 —
+> **eight days into the semester, and three days before the first PHYS deadline week.** Found
+> by running the gate forward rather than waiting for it to fire; it is the only structural
+> ambush in the next month.
+>
+> **The recommendation is: record why not, and do not flip.** Three live facts point the same
+> way, and none of them is about this phase's merit:
+>
+> 1. **Chris's 2026-08-19 school-first ruling** — fixed course deadlines and current course
+>    proof outrank optional business, project and system work.
+> 2. **`OPERATIONS.md` § Semester maintenance budget** — during a semester, scheduled CASTLE
+>    work is the Sunday return plus one monthly reconciliation. *Nothing else is scheduled.*
+> 3. **This phase's first proof cannot run.** CASTLE's `current-position.md` holds Field
+>    observation at `building`, gated on *"first approved live observation"* — and **no live
+>    observation has occurred.** Its three nearest opportunity rows (OPP-20260714-01,
+>    -20260716-01, -20260716-02) are **all parked for the same reason: no warm-network
+>    access.** Activating a phase whose first rep has no available subject makes the phase
+>    map less honest, not more current.
+>
+> **What "record why not" should say:** hold at `planned`, re-check at the **monthly
+> reconciliation (Sep 21)**, and name the unblocking condition explicitly — *one reachable
+> operation willing to be observed.* That is a real trigger with an owner, per `AGENT.md`
+> Execution Discipline 7, rather than a window that slides quietly.
+>
+> **The counter-argument, stated once:** Phase 2's own window line says it *"runs alongside
+> Phase 1, at semester pace,"* so it was designed to coexist with school. If Chris wants it
+> live, the honest version is a single named rep — not a phase's full block allocation.
+
 ## Purpose
 Build and rehearse the observation → map → findings pipeline so Chris can enter an
 accessible operation with a method, not a vibe. The observation audit is the

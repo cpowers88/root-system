@@ -45,7 +45,7 @@ last actually touched, so "unchanged" is a measured claim rather than an assumpt
 | Capability or track | CASTLE state | Proof frontier | Owner truth | Basis (2026-08-21) |
 |---|---|---|---|---|
 | **Course performance — all five, Fall 2026** | **NEW ROW 2026-08-21.** No graded work exists yet; classes begin Aug 24 | **The target is 90% in every course.** Standing is computed in `04-SCHOOL\FallKSU.xlsx` § GRADE TRACKER rows 40–45 and read at the Sunday return (`OPERATIONS.md` § Reviews, item 4). `WATCH` (< 90) earns a named corrective block; `ACTION` (< 87) reaches `MORNING_BRIEF` | `04-SCHOOL\FallKSU.xlsx` + `04-SCHOOL\miss-log.md` | **Created this session.** CASTLE tracked capability monthly and grades not at all; grades move weekly and are the actual target |
-| Physics | building — Stage 4 open at circular-motion drills 1–4 | **Next rep: read §4.4 and §§6.1–6.2, then circular motion worked → faded → fresh cold transfer.** The 2026-08-21 cold attempt got the 5.0 m/s² magnitude but missed precise inward direction and the real force; Problems 1–2 are now lesson material and Problems 3–4 remain untouched cold. **Row 2 `proven (durable)` 2026-08-18. Row 3 ❌ MISSED AGAIN 2026-08-21**, reopened Sun Aug 23 – Mon Aug 24; error class *equation choice/units* | PHYSICS wiki current-position + math-readiness-path | ✅ **MOVED.** Owner rewritten 2026-08-21 (this morning, parallel session). Reconciled against it |
+| Physics | building — Stage 4 open; circular-motion drills 1–4 all consumed as cold items | **Next rep: one cold problem in an unfamiliar setup** (banked curve, conical pendulum, or vertical-loop bottom), **with no reminder that direction and the real force are wanted** — the number is not the test; the gate is whether the three-part answer arrives complete and unprompted. **The Aug 21 reading prescription (§4.4, §§6.1–6.2) was withdrawn 2026-08-22, and its "concept recall" error class with it** — P3 was cold and first-attempt correct and Chris named gravity as the real inward force on an orbiting satellite. **Corrected error class: answer-completion habit not firing.** **Row 2 `proven (durable)` 2026-08-18. Row 3 ❌ MISSED AGAIN 2026-08-21**, reopened Sun Aug 23 – Mon Aug 24; error class *equation choice/units*. ⏰ **Exam 1 gate: full scope (Ch 1–5 + 6.1–6.2) cold by Sun Sep 13** — moved from Sep 7 on 2026-08-23 because the pathway teaches §5.5/5.7/5.8/6.1–6.2 *during* Sep 7–13. Date owner: `04-SCHOOL\semester-workload-plan.md` § The lead | PHYSICS wiki current-position + math-readiness-path | ✅ **MOVED TWICE.** Owner rewritten 2026-08-21, then again 2026-08-22 when drills 3–4 ran. Reconciled against the Aug 22 state |
 | Python | building — **Stage 4b** (Stage 4 closed 2026-07-29) | **C1** — `53`/`NameError` plus an independent `average(numbers)`; then import one standard-library module and wrap one library call in his own function | PYTHON wiki current-position | ✅ **VERIFIED.** Owner last moved 2026-07-29 (Stage 4 → 4b). Resume point C1 unchanged and unrun — PYTHON has had no rep since Aug 18 |
 | SQL/SQLite | building — July weak link; guided two-table fixture verified July 21 | Independently query or extend the Bootcamp fixture; use verified tracker data when D2L populates | [[sql]] + [[ksu-academic-tracker]] + TECHNOLOGY owner | **Unchanged.** [[sql]] still `status: building`; its only touch since July was the Aug 12 path repoint. ⏰ **Its proof unblocks Aug 24** — the tracker's own next action is "enter verified course data when D2L populates" |
 | Data visualization | building — first rep verified | A justified visual another person can trace and use for a decision | Technology Strategy + live proof vehicle | **Unchanged**, owner untouched since the July baseline |
@@ -57,7 +57,7 @@ last actually touched, so "unchanged" is a measured claim rather than an assumpt
 | Agentic delivery | working | Measure one assisted delivery end-to-end; time/quality evidence plus Chris explain-back moves it toward proven | approved projects + AI system | **Unchanged at `working`.** Substantial assisted delivery ran Aug 17–21, but none of it was *measured* end-to-end with time/quality evidence, which is the stated gate. Promotion still requires measurement plus Chris's explain-back |
 | Technical writing and communication | building | Audience-specific finding or handoff that supports a decision or operation | TCOM/EDUCATION + real artifacts | **Unchanged, but its owner moved.** EDUCATION's `current-position` was rewritten Aug 19–21; TCOM course *setup* advanced, no writing artifact was produced. ⏰ First real evidence is the graded instructor email, **Tue Aug 25** |
 | Advisor-Builder strategy | active hypothesis | Live workflow observation, qualified conversations, willingness to pay, and measured outcomes | CURRENT_STRATEGY.md + BUSINESS evidence | **Unchanged at hypothesis.** Clients still zero; no qualified conversation has occurred. Correctly dormant under the Aug 19 school-first ruling |
-| Financial continuity | material constraint | Only approved evidence tests; no copied lane mechanics here | REVENUE_LAB + NOW.md | ✅ **Open conflict CLOSED this pass.** REVENUE_LAB's log has asked since 2026-07-24 whether Lane A is paused or active and named CASTLE as owner. **It is `parked`** — [[opportunity-queue]] OPP-20260714-02 already says so and `NOW.md` does not contradict it. The reconciliation had been done; **the answer was never returned to the hub that asked.** Returned this session. ⏰ Its `check_at` is **2026-08-23** |
+| Financial continuity | material constraint | Only approved evidence tests; no copied lane mechanics here | REVENUE_LAB + NOW.md | ✅ **Open conflict CLOSED this pass.** REVENUE_LAB's log has asked since 2026-07-24 whether Lane A is paused or active and named CASTLE as owner. **It is `parked`** — [[opportunity-queue]] OPP-20260714-02 already says so and `NOW.md` does not contradict it. The reconciliation had been done; **the answer was never returned to the hub that asked.** Returned this session. ⏰ Its owning row [[opportunity-queue]] OPP-20260714-02 carries review date **2026-09-21** — parked items get the monthly review, not the Sunday one (queue § Review Rules). *(Corrected 2026-08-22: this line read Aug 23 against the queue's Sep 21.)* |
 
 **This table is the single home of cross-domain capability state (ruled by Chris
 2026-08-19, closing flag #103's ownership loop).** [[skill-map]] holds horizons and
@@ -75,7 +75,8 @@ not reproduce it here. Chris ruled on 2026-08-19 that the Fall semester overlay
 selects fixed school deadlines and current course proof before optional
 capability, business, project, or system work. `04-SCHOOL\semester-workload-plan.md`
 owns course load and collision truth, and `.ROOT\NOW.md` owns the immediate
-action. The full capability-state reconciliation runs Friday Aug 21.
+action. The full capability-state reconciliation **ran Friday Aug 21** and is recorded at
+the foot of this page; the next one is **September 21, 2026**.
 
 ## Durable Advantages
 
@@ -129,6 +130,37 @@ were reconciled against owners rewritten the same morning; one row added.
 **Next full reconciliation: September 21, 2026.** Acceptance checkpoint for this one:
 **August 23, 2026**, alongside flag #102's close check and the backup review.
 
-**⏰ Three dated items this pass surfaced for the Aug 23 Sunday return:**
-OPP-20260714-02 `check_at` **Aug 23** · the tracker's real-data proof unblocks when D2L
-populates **Aug 24** · `verify_backup_restore.py` against the live D: backup, **Aug 23**.
+### ✅ Acceptance checkpoint RAN — August 23, 2026
+
+**Result: the Aug 21 reconciliation is accepted, and no row in the table above moved.** That
+is the correct outcome — capability state is monthly and eight of the fourteen rows are
+explicitly gated on evidence that Monday produces, not on anything a Sunday review can supply.
+
+**What the checkpoint changed, which was not the table:**
+
+1. **The three open judgment gates were ruled** (full reasoning in [[log]], 2026-08-23): the
+   PHYS Exam 1 proof gate moved **Sun Sep 7 → Sun Sep 13**; **OPP-20260716-02** went
+   `researching → parked`; **OPP-20260727-01** held at `captured`, re-dated. The queue now
+   carries no past review date.
+2. **`04-SCHOOL\semester-workload-plan.md` § The lead is the changed owner.** The Physics row
+   above cites the gate; it does not restate the date — the 2026-07-19 rule, gates and
+   pointers, no copied state.
+3. **Flag #102's close condition is met** — zero conflict copies in the relocated gitdir after
+   a full week of live Drive runtime. Chris's confirmation is the only remaining step.
+4. **⏰ A dated ambush was found and is not yet decided: [[phase-2-audit-methodology-foundation]]
+   demands flip-or-explain on Tue Sep 1.** Recommendation on file is *hold at `planned`* —
+   note that **this table is the evidence for that recommendation**: Field observation sits at
+   `building` gated on a first live observation, and the three opportunity rows nearest this
+   phase are all parked for the same missing warm-network access. **Chris's call at or before
+   Sep 1.**
+
+**Two rows to watch in week 1, both already gated correctly above:** SQL/SQLite, whose proof
+unblocks the moment D2L populates the tracker (Mon Aug 24), and Technical writing, whose first
+real evidence is the graded TCOM instructor email (Tue Aug 25). Both are Phase 1 exit criteria
+as well as capability rows.
+
+**⏰ Dated items this pass surfaced, corrected against their owners 2026-08-22:**
+`verify_backup_restore.py` against the live D: backup, **Aug 23** · the two opportunity rows
+actually due at the Aug 23 return are **OPP-20260716-02** and **OPP-20260727-01** · the
+tracker's real-data proof unblocks when D2L populates **Aug 24** · OPP-20260714-02 is
+**Sep 21**, not Aug 23 — it is parked and takes the monthly review.

@@ -1,14 +1,26 @@
 ---
 type: plan
-timeline: now
-status: active
+timeline: log
+status: complete
 tags: [school, fall-2026, pre-semester]
 created: 2026-07-26
 revised: 2026-08-22
-review_trigger: 2026-08-24
+closed: 2026-08-23
 ---
 
 # Pre-Semester Coverage Plan — TCOM · ECON · ENGR
+
+> ✅ **CLOSED 2026-08-23 at the semester transition.** This page owned the four pre-semester
+> weeks **A** Jul 27–Aug 2 · **B** Aug 3–9 · **C** Aug 10–16 · **D** Aug 17–23. All four have
+> run; the window is over and `review_trigger: 2026-08-24` is removed rather than re-dated.
+>
+> **Its one unresolved line resolves by expiry, not by evidence:** ENGR 1000 was held at
+> **zero fillable blocks** on Chris's 2026-07-26 confirmation that KSU shows no content before
+> Aug 24. That hold was correct and it simply ends Monday — ENGR's real assignment list is
+> flag #57's remaining half and is captured in the day-one D2L pass.
+>
+> `now`/`active` → `log`/`complete`. Live successors: `04-SCHOOL\semester-reading-plan.md`
+> for what to open, CASTLE's weekly plan for when.
 
 **What this owns:** which real Fall 2026 course weeks can be genuinely worked
 before classes start August 24, which cannot, and the exact source for each

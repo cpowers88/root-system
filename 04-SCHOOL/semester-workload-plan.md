@@ -140,11 +140,33 @@ unit that course actually grades (Chris's ruling, 2026-08-22):
 
 | Course | Lead measured in | The two-week gate |
 |---|---|---|
-| **PHYS 2211** | **Proof** — worked cold, no scaffold | Every unit exam's full scope proven cold **14 days before the sitting**. For Exam 1 (Mon Sep 21) that is **Sun Sep 7** |
+| **PHYS 2211** | **Proof** — worked cold, no scaffold | Every unit exam's full scope proven cold **before its sweep week opens**. For Exam 1 (Mon Sep 21) that is **Sun Sep 13** — see the correction below |
 | **CSE 1321 / 1321L** | **Proof** on the *Think Python* spine | The module's constructs written cold 14 days before their quiz or test. **Capped by D2L** on course-shell material — a module that has not posted cannot be led |
 | **TCOM 2010** | **Deliverable** — the artifact finished | Each graded item complete 14 days early. The four report checkpoints make this real: the report is **due Thu Nov 12 and finishable by Tue Nov 3** |
 | **ECON 1000** | **Reading** only | Chapter read before its quiz window opens. Its exams are the grade and coverage is cheap; proof-leading 2 credits earns nothing |
 | **ENGR 1000** | 🔴 **Undefined until D2L posts BWD** | Set it in week 1 from the real assignment list |
+
+> ### 🔧 The PHYS gate moved Sep 7 → Sep 13, ruled by Chris 2026-08-23
+>
+> **The Sep 7 date was unbuildable and it was set without reading the pathway.** The Aug 22
+> log entry that set it says so in its own Held line. `03-WIKIS\PHYSICS\wiki\semester-pathway.md`
+> § Phase 2 schedules **§5.5, §5.7, §5.8 and §6.1–6.2 into the Sep 7–13 window** — roughly half
+> of Chapter 5 plus all of uniform circular motion, all of it on Exam 1. On Sep 7 that material
+> would not yet have been studied once, let alone proven cold.
+>
+> **Sep 13 is a better-built gate, not a concession.** It is the boundary before the Sep 14–20
+> sweep week, so the gate now reads *everything cold before retrieval starts* — which is what
+> the sweep week assumes and what the pathway was already architected around. Exam 1 is still
+> Mon Sep 21; nothing about the sitting moved.
+>
+> **Corroborating evidence that Sep 7 was a slip rather than a stretch target:** the same log
+> entry sets the build window at weeks 1–4, closing **Sep 21**. Sep 7 falls inside week 3 and
+> was already inconsistent with the window stated beside it.
+>
+> **The one thing this does not change:** the last Sunday on which action against this gate is
+> still possible remains **Sep 6** (`log.md` `check_at`), because a gap found on Sep 13 leaves
+> only the sweep week to close it. The Aug 30 and Sep 6 returns are where item 4d earns its
+> place.
 
 **This does not conflict with the PHYS one-week-ahead reading rule, and the two are not the
 same instrument.** Reading stays one week ahead of *lecture*, because pre-class reading is

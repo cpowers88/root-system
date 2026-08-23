@@ -1,15 +1,47 @@
 ---
 type: plan
-timeline: now
-status: active
+timeline: log
+status: complete
 tags: [planning, school, programming, python]
 created: 2026-07-24
-review_trigger: 2026-08-23
+closed: 2026-08-23
 ---
 
 # Pre-Semester Python Push — July 27 to August 23, 2026
 
 ### Four weeks, run at school pace, to enter August 24 having already seen every lecture module Chris has not yet reached.
+
+> ## ✅ WINDOW CLOSED 2026-08-23 — outcome recorded against the success bar, not around it
+>
+> Closed at the semester transition on its own dated schedule. `review_trigger` removed
+> rather than re-dated; a closed window has no next review.
+>
+> **Owner truth at close — `03-WIKIS\PYTHON\wiki\current-position.md`: Stage 4b**, reached
+> 2026-07-29 when Stage 4 closed. **The resume point is C1** — `53`/`NameError` plus an
+> independent `average(numbers)` — and it is **unrun since Aug 18**. Nothing here promotes it.
+>
+> **Against § Success bar at August 23, honestly:**
+>
+> | Bar | Result |
+> |---|---|
+> | Stage 4 functions independently fluent, proof recorded | ✅ Stage 4 closed 2026-07-29 |
+> | Stage 5 lists and dictionaries *worked*, not merely read | ❌ **Not reached.** Stage 4b is where the owner sits |
+> | Searching/sorting, OOP, recursion **seen** | ❌ Not reached — Weeks 3–4 of the map did not run as written |
+> | One mixed cold read passed | ❌ Not recorded |
+> | Course logistics confirmed against live D2L | ⏭ D2L opens **Aug 24**; carried into Phase 1's first exit criterion |
+>
+> **Why, and it is not a failure of the plan:** from Aug 1 the entire capacity of the system
+> went into semester readiness — five syllabi, the workload/reading/schedule plans, the laptop
+> build, and two `.ROOT` repairs. This lane's own § Fixed points note says it *"does not own
+> the month."* It did not get the month, and § Guardrail 1 is the reason nothing above is
+> rounded up: **exposure is logged as exposure; `current-position.md` moves only on
+> independent performance.**
+>
+> **What carries forward:** C1 is the named PYTHON item in
+> [[weekly-plan-2026-08-24-to-2026-08-30]]'s Sat Aug 29 lead block, and the Week 1 plan flags
+> PYTHON as *the hub to look at* because week 1 otherwise gives it nothing. **Guardrail 5
+> still binds** — when the live course reaches Module 5.2 in November it is taught from the
+> live module, not from August's partial exposure.
 
 ## What this page is
 

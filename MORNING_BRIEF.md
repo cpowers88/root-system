@@ -1,15 +1,15 @@
 ---
-type: brief
+type: dashboard
 timeline: now
 status: active
-generated: 2026-08-22
+generated: 2026-08-23
 tags: []
 ---
 
-# Morning Brief — Saturday, August 22, 2026
+# Morning Brief — Monday, August 24, 2026
 
-**ATTENTION** Readiness packet pushed, laptop verified, D: backup pruning confirmed — all three cleared 2026-08-22. Physics ran and Stage 4 stayed open; the prescribed reading block is withdrawn (`NOW.md` § Frontier Changes).
+**ATTENTION:** The only unresolved course truth is ENGR BWD execution; Monday's 12-check gate must capture it or record its absence in `04-SCHOOL\SYLLABUS_STATUS.md`.
 
-**START** Finish the dress rehearsal: the TCOM filename re-rep in the first study gap, then `verify_backup_restore.py` into a new empty target (`CASTLE\wiki\weekly-plans\weekly-plan-2026-08-17-to-2026-08-23.md`).
+**START:** Attend PHYS at 09:10 with today's reading done; at 10:15 run the D2L Day One tab top-to-bottom from `04-SCHOOL\FallKSU.xlsx`.
 
-**CHRIS** Sunday's five closes plus the five-part semester transition are unchanged; the only new decision is whether to build a `study-close` skill before Monday or wait for Week 1 evidence (`00-BRAIN\Session_Logs\DAILY_2026-08-22.md`).
+**CHRIS:** None before start; later confirm flags #102/#103, the two carried approval gates, and Friday's Day One Access decision in `NOW.md`.

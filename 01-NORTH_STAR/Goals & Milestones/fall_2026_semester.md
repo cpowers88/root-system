@@ -5,10 +5,22 @@ status: active
 register: ai-directive
 tags: [north-star, school, fall-2026]
 created: 2026-07-24
-review_trigger: 2026-08-24
+review_trigger: 2026-08-30
 ---
 
 # FALL_2026_SEMESTER
+
+> **Cadence note, 2026-08-23 — frontmatter date only; no contract field, gate, or policy
+> below was touched.** `review_trigger` advanced `2026-08-24 → 2026-08-30`, which is this
+> file's own next prescribed instance: the contract row reads *"August 1 readiness review;
+> **August 24 course activation; weekly during semester**; after each major exam; semester
+> close."* Course activation runs Monday as scheduled Week 1 work (the D2L day-one block);
+> the first weekly-during-semester review is the **Sun Aug 30** return, which is where
+> `castle_freshness.py` should check that activation actually happened.
+>
+> **Flagged for Chris rather than assumed:** this is a North Star goal file, and the only
+> edit made here at the semester transition. Revert is one line if you want the trigger
+> sitting on activation day instead.
 
 ## Goal contract
 

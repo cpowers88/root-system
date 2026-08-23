@@ -5,8 +5,8 @@ status: active
 reference_priority: core
 tags: [physics, school, fall-2026, pathway]
 created: 2026-08-08
-revised: 2026-08-18
-review_trigger: 2026-08-24
+revised: 2026-08-23
+review_trigger: 2026-08-30
 ---
 
 # Semester Pathway — PHYS 2211, Fall 2026
@@ -233,6 +233,36 @@ been open at since July.
 ---
 
 ## Phase 2 — Semester, one week ahead
+
+> ### ✅ The Sep 7 proof gate was checked against this page 2026-08-23. **This page won.**
+>
+> `04-SCHOOL\semester-workload-plan.md` § The lead set *"Exam 1 scope proven cold by Sun
+> Sep 7"* on 2026-08-22 — **without reading this page**, which the CASTLE log entry that set
+> it admits in its own Held line. The **Sep 7–13** row below schedules §5.5, §5.7, §5.8 and
+> §6.1–6.2 — half of Chapter 5 plus all of uniform circular motion, all on Exam 1. A Sep 7
+> gate demanded cold proof of material this pathway had not yet taught.
+>
+> **Chris ruled 2026-08-23: the gate moves to Sun Sep 13. Nothing on this page changed.**
+> Sep 13 is the boundary before the Sep 14–20 sweep week, so the gate now reads *everything
+> cold before retrieval starts* — which is the architecture below, stated as a gate.
+>
+> **Worth keeping, because it is the transferable part:** the conflict was found by reading
+> the owner rather than by trusting the summary that cited it, and the owner was right. The
+> same arithmetic is now due for the other three exams — the real gate is **the Sunday before
+> that exam's sweep week opens**, read off the table below, not a fixed 14 days before the
+> sitting:
+>
+> | Exam | Sitting | Sweep week (from the table) | **Gate = Sunday before it** |
+> |---|---|---|---|
+> | 1 | Mon Sep 21 | Sep 14–20, pure retrieval | **Sun Sep 13** ✅ ruled |
+> | 2 | Mon Oct 12 | Oct 5–11, pure retrieval | **Sun Oct 4** |
+> | 3 | Wed Nov 4 | Oct 26–Nov 1, **shared with Wk 11 new material** | **Sun Oct 25** |
+> | 4 | Wed Nov 18 | Nov 9–15, **shared with Wk 13 new material** | **Sun Nov 8** |
+>
+> ⚠ **Exams 3 and 4 do not get a clean sweep week** — their sweeps run alongside new material,
+> so their gates are harder than Exam 1's and both sit inside the Oct 5 – Nov 11 high-load
+> window. **Exam 2's Sun Oct 4 gate is one day before that window opens.** Set these three at
+> the Aug 30 return rather than rediscovering them one exam at a time.
 
 **The rule: during semester week N, study week N+1's material.** Lecture becomes the
 second exposure, not the first.

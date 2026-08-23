@@ -2116,3 +2116,202 @@ Full record: `Session_Logs\claude_report_2026-08-22_teaching_readiness_audit.md`
   after the governance edits. **Held:** `PHYSICS\wiki\semester-pathway.md` was not read in
   full, so whether its phase structure conflicts with the Sep 7 proof gate is unverified —
   check before Sunday.
+
+## 2026-08-22 (evening) — Six stale return paths reconciled on a Codex fresh-load audit (Claude Code)
+
+A Codex fresh-session load found CASTLE routing correctly but **synchronizing badly**: five
+places where a completed decision never reached the file that still advertised it as open.
+Every finding was re-verified against its owner before editing; one was overstated and is
+recorded as such rather than actioned.
+
+- **PHYS row rewritten.** `current-position.md` still carried the Aug 21 prescription —
+  *read §4.4 and §§6.1–6.2* — and claimed circular-motion Problems 3–4 were "untouched cold."
+  The owner withdrew that reading block on Aug 22 and **consumed both problems**. The row now
+  carries the corrected error class (*answer-completion habit not firing*) and the real next
+  rep: one cold problem in an unfamiliar setup, with no reminder that direction and the real
+  force are wanted.
+- **The `root_health.py` wiring is not a Sunday decision — it shipped.** `SYSTEM_FLAGS.md`
+  #103 and `NOW.md` item 4 both still called it an Aug 23 choice and quoted the deliberate
+  *"not wired before Aug 24"* hold. **Codex wired it at 14:30 the same day** (`aac3622`), after
+  hardening the detector to fail closed on Git failure and growing its suite to 12 tests.
+  Recorded as an **override of a stated hold, not a convergence** — the same treatment
+  `study-close` got at line 2045. Sunday now **ratifies or reverts**; the revert is one line.
+- **`MORNING_BRIEF.md` asked a closed question.** It offered "build `study-close` or wait for
+  Week 1 evidence" as the day's only new decision, hours after Chris ruled build and the skill
+  shipped. It also said *five* Sunday closes against `NOW.md`'s six. Both corrected.
+- **The opportunity queue contradicted itself.** Its Aug 19 re-dating note claimed **every**
+  row points at the Aug 23 review; the rows read Aug 23 ×2, Aug 30 ×1, Sep 21 ×3. CASTLE had
+  **inherited the wrong Aug 23 date for OPP-20260714-02 from that sentence** — a parked row
+  that takes the monthly review. Fixed at both ends; only OPP-20260716-02 and OPP-20260727-01
+  are actually due Sunday.
+- **One finding not actioned, deliberately.** Codex reported the log's ordering as mixed and
+  *"read the last three entries"* as brittle. **Measured: the Aug 16 → Aug 22 tail is strictly
+  chronological.** The disorder is a July 25–26 block (lines 1319–1358), already the subject of
+  the Jul 25 chronological repair. No live read path is affected, so nothing was rewritten.
+
+**The pattern under all five is one thing:** work completed in one place and never propagated
+to the place still advertising it as open. That is flag #103's own shape, and this is its
+third instance in four days (REVENUE_LAB's Lane A answer, the queue's re-dating note, and now
+these). **`castle_freshness.py` passed throughout** — it measures dates, phases and log
+silence, and every one of these was a *semantically* stale sentence carrying a *valid* date.
+
+- **Verification:** `castle_freshness.py` PASS (2026-08-22); canonical `root_health.py` PASS —
+  8/8 checks, 0 blockers, 0 debt, 1,602 files scanned. No file was edited before its owner was
+  read.
+- **Flag #103 stays open.** Its remaining close conditions are unchanged: the fresh-session
+  CASTLE-first test, then Chris's confirmation Aug 23.
+- **Proposed to Chris, not built:** a sixth freshness check that compares every `check_at` /
+  review date CASTLE *cites* against the row that *owns* it, failing on disagreement. It would
+  have caught the OPP-20260714-02 conflict mechanically. Held because the semester rule says
+  CASTLE maintenance shrinks before learning does, and this is a scope addition the day before
+  classes start.
+
+
+## 2026-08-23 — Semester transition executed; three gates ruled; the gate landscape swept forward (Claude Code)
+
+**Session outcome:** `.ROOT` moved from pre-semester to live semester, the three judgment
+gates blocking that move were ruled by Chris, and every dated gate that could ambush the
+semester pathway was found by running the freshness check forward in time rather than waiting
+for it to fire.
+
+### Ruling 1 — the PHYS Exam 1 proof gate moves **Sun Sep 7 → Sun Sep 13**
+
+**The Sep 7 date was unbuildable.** `PHYSICS\wiki\semester-pathway.md` § Phase 2 schedules
+**§5.5, §5.7, §5.8 and §6.1–6.2 into the Sep 7–13 window** — half of Chapter 5 plus all of
+uniform circular motion, all of it on Exam 1. Sep 7 demanded cold proof of material the
+pathway had not yet taught. The Aug 22 entry that set the date **admits in its own Held line
+that the pathway was not read**, and the same entry sets the build window at weeks 1–4
+closing Sep 21 — so Sep 7 was already inconsistent with the window printed beside it. That
+inconsistency is the evidence it was a slip, not a stretch target.
+
+**Sep 13 is the better-built gate**, not a concession: it is the boundary before the Sep 14–20
+sweep week, so the gate now reads *everything cold before retrieval starts*. Exam 1 is still
+Mon Sep 21. **The last Sunday to act on the gate remains Sep 6** — a gap found on Sep 13
+leaves only sweep week to close it, so the `check_at 2026-09-06` set Aug 22 still stands and
+is now doing real work.
+
+**The transferable half:** the same arithmetic was owed for the other three exams and had
+never been done. The real gate is the Sunday before that exam's sweep week opens, not a fixed
+14 days: **Exam 2 → Sun Oct 4 · Exam 3 → Sun Oct 25 · Exam 4 → Sun Nov 8.** Recorded in the
+pathway. **Exams 3 and 4 get no clean sweep week** (theirs share the week with new material)
+and both sit inside the Oct 5 – Nov 11 high-load window; Exam 2's gate lands one day before
+that window opens. Set these at the Aug 30 return, not one exam at a time.
+
+**Method note worth keeping:** the conflict was found by reading the owner rather than
+trusting the summary that cited it — **and the owner was right.** Nothing in the pathway
+changed. This is the same family as flag #103, inverted: not a stale answer failing to
+propagate, but a *new* claim written without reading what it contradicted.
+
+### Ruling 2 — OPP-20260716-02 `researching` → `parked`, review Sep 21
+
+No access exists to a redacted delayed/failed transaction, so the designed test cannot run as
+written. **Recorded once as a pattern rather than three times as a miss:** this is the *third*
+construction/real-estate-adjacent test parked on access at the same time, with OPP-20260714-01
+and OPP-20260716-01. All three designed a sound smallest test; all three failed at the same
+gate — **no warm-network access to the vertical the method needs.** That is one finding about
+the access constraint and it is the real input to any future Advisor-Builder lane choice. It
+now lives in the row's Result cell so it travels with a row, not in a note that gets trimmed.
+
+### Ruling 3 — OPP-20260727-01 held at `captured`, re-dated Sep 21
+
+Cannot reach `triaged` without the scoping interview the row itself calls for, and that hour
+does not exist in the semester ramp. **A stop condition was added rather than an open
+re-date:** it has now been re-dated twice; if Sep 21 arrives with no scoping session, **park
+it rather than re-date a third time.** An indefinitely re-dated row is how a queue starts
+lying.
+
+### The transition — five flips, executed together
+
+`weekly-plan-2026-08-24-to-2026-08-30` → `now`/`active` · `weekly-plan-2026-08-17-to-2026-08-23`
+→ `log`/`complete` · [[phase-1-school-core-technical-foundation]] → `status: active` with a
+rewritten § Next Action · [[pre-semester-python-push-2026]] → `log`/`complete` · `NOW.md` →
+semester mode. Done in one pass, as `NOW.md` required.
+
+**The Python push closed honestly against its own success bar: one of five bars met.** Stage 4
+closed Jul 29; Stage 5, the recon track, and the mixed cold read were never reached. The reason
+is recorded rather than rounded — from Aug 1 the system's whole capacity went to semester
+readiness, and the page's own line says it *"does not own the month."* It did not get the month.
+**Guardrail 1 held: nothing was promoted.** C1 remains the resume point, unrun since Aug 18.
+
+Three further pre-semester pages closed or re-dated: `04-SCHOOL\week-zero-plan.md` →
+`log`/`complete`, `EDUCATION\wiki\pre-semester-coverage-plan.md` → `log`/`complete` (its ENGR
+hold resolves by expiry, not evidence), `04-SCHOOL\semester-reading-plan.md` re-dated and kept
+live.
+
+### The gate sweep Chris asked for — run forward, not waited for
+
+`castle_freshness.py --today` against future dates, which is the check nobody had run:
+
+| Run date | Before this session | After |
+|---|---|---|
+| Sun Aug 23 (today) | 0 — PASS | 0 — PASS |
+| **Mon Aug 24** | **6** | **0 — PASS** |
+| Sep 7 | **17** | **11** |
+
+**Eleven of the seventeen were dormant in the tree today**, firing on a date rather than an
+event — which is precisely why nothing had noticed them. The findings that remain at Sep 7 are
+all *"the Sunday return did not run"* signals, which is the semantics the gate is supposed to
+have.
+
+**A rule applied consistently to every re-date, and it is the durable part of this session:**
+**the trigger is the check moment, not the work.** Three pages (`semester-reading-plan`,
+`semester-pathway`, `fall_2026_semester`) had triggers dated Mon Aug 24 because their review is
+a D2L reconciliation — but that verification is *already scheduled* as Monday's 2-hour day-one
+block in the Week 1 plan. Leaving the triggers on Monday would have reddened `root_health.py`
+at 8am on day one for work that was on the schedule, **which teaches a session to read past a
+red gate** — flag #101's erosion pattern arriving somewhere new. Per `AGENT.md` Execution
+Discipline 7 and `OPERATIONS.md` § Reviews (*"do not create a parallel cadence"*), the work runs
+Monday and the **Sunday return verifies it happened.** All three moved to Aug 30.
+
+**From Mon Aug 24, a red `root_health` means Sunday did not finish — not that something broke.**
+That semantics is new as of Codex's Aug 22 wiring and was written down nowhere; it is now in
+`NOW.md`.
+
+### ⏰ The one structural ambush ahead — Phase 2, Tue Sep 1
+
+[[phase-2-audit-methodology-foundation]]'s window opens **September 2026**, so the gate will
+demand flip-or-explain on **Sep 1 — eight days into the semester.** Surfaced now instead of
+letting it fire. **Recommendation on file: record why not, do not flip** — the school-first
+ruling, the semester maintenance budget, and the fact that **the phase's first proof cannot run
+at all** (Field observation is gated on a live observation, and its three nearest opportunity
+rows are the three parked for lack of access). Unblocking condition named: one reachable
+operation willing to be observed. Re-check at the Sep 21 monthly. **Chris's call, not taken here.**
+
+### Flags
+
+- **#102 — close condition MET.** The gitdir conflict-copy check returned **zero** results, a
+  full week of Drive runtime after the Aug 16 relocation. Chris's confirmation is the only
+  remaining step.
+- **#103 — two of three conditions met**; the fresh-session CASTLE-first test is still open.
+  The `root_health.py` wiring **shipped Aug 22** and was not re-decided here.
+- **#101 — eleventh instance, this session.** A read-only `for` loop running
+  `castle_freshness.py` against three dates was denied for being a loop. Re-run as three
+  separate calls. Logged, not argued.
+
+### One edit outside CASTLE's authority, flagged rather than assumed
+
+`01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` — **frontmatter `review_trigger` date
+only**, `2026-08-24 → 2026-08-30`. No contract field, gate, or policy was touched. It is the
+file's own next prescribed instance (*"August 24 course activation; weekly during semester"*).
+Called out here because it is a North Star goal file and CASTLE does not rewrite those; revert
+is one line.
+
+- **Verification:** `castle_freshness.py --today 2026-08-24` **PASS**; canonical `root_health.py`
+  **PASS**. No file was edited before its owner was read. **Control returned to the cockpit**
+  (`OPERATIONS.md` Session Close 7).
+
+## 2026-08-23 — Fresh-session CASTLE-first acceptance test passed (Codex)
+
+- The requested system load followed the live universal and CASTLE boot chains and reached
+  `wiki\current-position.md` as the single cross-domain capability-state home without guessing.
+  This satisfies flag #103's last evidence condition; **Chris's confirmation remains**, so the
+  flag was not closed.
+- Comparing the active Week 1 plan to PHYSICS owner truth caught one semantic return-path miss:
+  the plan still said circular-motion drills 1–4 were live after the owner had marked the drill
+  consumed. The alignment now routes first to miss-log row 4's fresh no-time transfer, then row
+  5b's fresh unfamiliar circular-motion setup. No learner state was promoted.
+- Chris reported additional PHYS reading and two completed online quizzes today. Their exact
+  titles, scores, graded status, elapsed time, and any cold miss are awaiting his factual handoff
+  before learner truth or the grade tracker changes; nothing was inferred.
+- **Verification:** canonical `root_health.py` **PASS** — 8/8 named scopes, 1,603 live Markdown
+  files, zero findings. The gate does not evaluate semantic freshness outside its named checks.

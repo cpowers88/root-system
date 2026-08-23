@@ -2,7 +2,8 @@
 type: phase
 timeline: now
 stage: phase-1
-status: planned
+status: active
+activated: 2026-08-23
 tags: [phase]
 ---
 
@@ -11,10 +12,18 @@ tags: [phase]
 **Window**: August 24, 2026 – May 2027 (Fall + Spring semesters)
 **One-line purpose**: Pass the first KSU year strong while Python and SQL become working daily tools.
 
-> **Metadata note:** preparation is current (`timeline: now`); the formal phase remains
-> `status: planned` until its August 24 window opens. **Flip to `status: active` at the
-> Aug 23 pre-semester review** (Phase 0 closed 2026-08-19; `castle_freshness.py` will
-> flag this page if the window opens with the flip unmade).
+> ## ✅ ACTIVATED 2026-08-23, effective August 24
+>
+> `status: planned → active` at the Sunday pre-semester transition review, on the schedule
+> this note itself set. Phase 0 closed 2026-08-19. **This is now the live phase**; the
+> dress-rehearsal result and live learner frontiers were recorded before the flip, which was
+> the stated precondition.
+>
+> Flipped alongside the four other transition items in one pass —
+> [[weekly-plan-2026-08-24-to-2026-08-30]] → `now`/`active`,
+> [[weekly-plan-2026-08-17-to-2026-08-23]] → `log`/`complete`,
+> [[pre-semester-python-push-2026]] → `log`/`complete`, and `NOW.md` → semester mode.
+> Doing them separately is how the state regresses.
 
 ## Purpose
 School is the fixed spine. Fall 2026: ECON 1000, ENGR 1000, PHYS 2211, CSE 1321+L,
@@ -76,7 +85,21 @@ method without bluffing.
 
 ## Next Action
 
-At the August 23 final review, activate this phase effective August 24 only after the
-dress-rehearsal result and live learner frontiers are recorded. Then enter verified D2L
-course data into the tracker; exact-section instructors and D2L override every provisional
-plan, course wikis retain learner truth, and `.ROOT\NOW.md` retains the immediate action.
+**Mon Aug 24 — enter verified Fall 2026 course data into [[ksu-academic-tracker]] as D2L
+populates.** That is this phase's first exit criterion and the one inherited from Phase 0;
+it has been blocked on D2L since Aug 19 and unblocks on day one. It is also what unblocks
+the **SQL/data proof criterion**, which has no other live vehicle — CASTLE holds SQL at
+`building` with "use verified tracker data when D2L populates" as its stated next rep, so
+these two criteria are one action apart, not two independent tracks.
+
+**Day-one capture, in the same D2L pass:** flag #57's remaining half — ENGR 1000 BWD dates,
+quiz mechanics, weekly order, sync/async, drop rules, and any Raoufi-specific policy. If D2L
+lacks them, **that absence is the finding** — send one specific dated question rather than
+waiting a second week.
+
+**Standing for the phase:** exact-section instructors and D2L override every provisional
+plan; course wikis retain learner truth; `.ROOT\NOW.md` retains the immediate action; the
+week-by-week owner is `04-SCHOOL\semester-workload-plan.md` and the live weekly plan is
+CASTLE's. **The first dated risk inside this phase is the Oct 5 – Nov 11 high-load window**,
+which is an exit criterion here and whose firing CASTLE owns (`OPERATIONS.md` § Chris-Owned
+Capacity).

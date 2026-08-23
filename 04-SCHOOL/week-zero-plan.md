@@ -1,13 +1,20 @@
 ---
 type: plan
-timeline: now
-status: active
+timeline: log
+status: complete
 tags: [school, fall-2026, planning, week-zero]
 created: 2026-08-20
-review_trigger: 2026-08-24
+closed: 2026-08-23
 ---
 
 # Week Zero — Aug 20 to Aug 24
+
+> ✅ **CLOSED 2026-08-23 at the semester transition.** Its window ends when classes begin;
+> `review_trigger: 2026-08-24` is removed rather than re-dated, because a run-in plan has no
+> next review — Monday is not a review of week zero, it is week 1. The live successor is
+> `00-BRAIN\CASTLE\wiki\weekly-plans\weekly-plan-2026-08-24-to-2026-08-30.md`, and the
+> Monday items this page carried (D2L day-one tab, the ENGR check, the two PHYS day-one
+> questions) live there now, dated, rather than in two places.
 
 ### The run-in. Five days to be ready for week 1 lectures and assignments. Built 2026-08-20 from `semester-reading-plan.md`, `semester-workload-plan.md` § "Week 1 reading", `SEMESTER_MAP.md`, and the TCOM policy page built 2026-08-19.
 
