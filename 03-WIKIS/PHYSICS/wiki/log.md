@@ -2179,3 +2179,185 @@ free-body diagram.
   already produced a reading assignment and a lesson plan; one cold question on Aug 22
   falsified it. This is the *learner-side* instance of the aid-check rule the hub already
   runs — check the diagnosis before spending a week on the treatment.
+
+---
+
+## 2026-08-23 — First graded evidence of the semester: two D2L reading quizzes returned 9/10 and 10/10, one day before classes
+
+**Reported by Chris the evening of Aug 23, closing the gap both of that day's sessions
+ended on.** The Claude Code transition entry and the Codex acceptance entry each closed
+with the same open item — *Chris completed PHYS reading and two online quizzes; titles,
+scores, graded status and any cold miss are uncaptured.* This entry captures it.
+
+### What came back
+
+| Item | Score | Standing |
+|---|---|---|
+| Reading Quiz 01 | **9/10** | Graded, counts |
+| Reading Quiz 02 | **10/10** | Graded, counts |
+
+**Average 95%.** These are the pre-class reading quizzes described in the §54 syllabus —
+the graded surface behind *"students are required to read or watch the assigned materials
+in advance."* They fall in the **Quizzes component, 5% of the course grade, lowest
+dropped**.
+
+**Route:** `04-SCHOOL\FallKSU.xlsx` § GRADE TRACKER, **cell `D9`** (PHYS 2211 / Quizzes).
+Handed to Chris to type rather than written by script — the workbook was open in Excel and
+carries live formulas (`study-close` § 3).
+
+### The finding that outranks the score — D2L opened early for PHYS
+
+**PHYS 2211 is loaded in D2L; the other four courses are not.** Every planning file in
+`.ROOT` says D2L content appears on the first day of classes, verified 2026-08-13 against
+KSU's own documentation — which also names the exception: *instructors may grant early
+access by changing the course start date.* **Islam did.** The rule was right and the
+exception fired; this is not a vault error, it is the documented minority path.
+
+Three consequences, all of them Monday's:
+
+1. **The graded reading-quiz stream was already running before day one.** Chris found and
+   took two quizzes that no `.ROOT` file had a row for.
+2. **`D2L DAY ONE` check #10 — the §54 unit-exam room and sitting time — is answerable
+   tonight**, not Monday. It is the last open PHYS unknown from the syllabus (defect 2,
+   [[semester-pathway]]) and it protects Mon Sep 21.
+3. **The `Read Ch 1 §§1.1–1.6 before class` prep row is effectively already served.**
+
+### Instrument gap found while routing the score
+
+**`FallKSU.xlsx` § ASSIGNMENT TRACKER carries no row for any weekly PHYS graded item.**
+The sheet holds 92 rows and PHYS appears in ten of them — one prep read, the Day One Access
+deadline, four exam sweeps, four exams. **The two recurring streams are absent entirely:**
+
+| Stream | Weight | Policy | Rows in the checkoff sheet |
+|---|---|---|---|
+| WebAssign homework, weekly | 10% | **Late = zero** | **0** |
+| Reading quizzes, per lecture | part of 5% | Lowest dropped | **0** |
+
+They exist as prose in column E of the `PHYS 2211` sheet, which has no Due, Status or Score
+column. So the one course-tracking instrument with dated rows and a status field does not
+see the two PHYS items that recur most often — and one of them is the single most
+zero-prone thing in the semester. **Found because Chris took a quiz the tracker had no row
+for.** Raised for Chris; not fixed in this session, because the workbook is open in Excel
+and the fix is a structural insert, not a cell.
+
+### Learner-truth verdict
+
+**No stage advanced and none should.** A reading quiz tests whether the reading was done;
+it is not a cold transfer, and Stage 4's gate is unchanged. What this evidence does support
+is narrower and worth stating: **the pre-class reading habit is executing ahead of
+requirement, and the graded return on it is 95%.**
+
+- **Stage 4 remains open.** Miss-log row 5b — one cold circular-motion problem in an
+  unfamiliar setup, no reminder that direction and the real force are wanted — is untouched
+  and still scheduled Sat Aug 29.
+- **Miss-log row 4** (fresh no-time transfer, cold, no sheet) is still due in its
+  **Sun Aug 23 – Mon Aug 24** window and did not run today.
+- **The one missed question on Reading Quiz 01 is not yet identified.** Per
+  `miss-log.md` § *A miss class that is not Chris's*, the aid gets checked before the
+  learner. Held open rather than guessed.
+
+### Return packet
+
+- **Outcome:** first graded evidence of Fall 2026 captured; D2L early-open for PHYS
+  established as fact; an instrument gap in the assignment tracker surfaced.
+- **Evidence:** this entry · `FallKSU.xlsx` § GRADE TRACKER `D9` (Chris to enter) ·
+  `04-SCHOOL\SEMESTER_MAP.md` § ingestion-list correction.
+- **Capability movement:** none. Physics stays `building` at Stage 4. **Course performance**
+  (CASTLE [[current-position]]) receives its first real data point.
+- **Reusable asset:** none.
+- **System-learning candidate:** **a graded stream with no row in the checkoff sheet is
+  invisible until it returns a score.** The tracker was built from syllabi, which state
+  recurring items as policy prose rather than as dated rows — so every *weekly* graded item
+  in the semester is a candidate for the same omission. Worth one pass across all five
+  courses before the first WebAssign deadline lands Wed Aug 26.
+
+### 🔧 Same-day extension — the real D2L gradebook was supplied, and it corrects this entry
+
+**Chris exported the live PHYS gradebook** (`C:\Users\chris\Documents\Grades.txt`) after the
+above was written. It corrects the score routing and settles several things the syllabus left
+open. **Where this and the syllabus disagree, D2L and the instructor win** (`HAT_PHYSICS`
+§ authority order).
+
+#### 1. The 9/10 is already dropped. Reading-quiz standing is **100%, grade A**.
+
+```
+Reading Quizzes          3 / 3    A
+  Reading Quiz 01        9 / 10   Dropped!
+  Reading Quiz 02       10 / 10   3 / 3
+```
+
+**D2L applies the drop-lowest rule live**, not at semester end. Quiz 01's missed question
+therefore **costs zero points** — the category reads 3/3. The entry above said "average 95%";
+that is the raw mean and it is not what the gradebook computes. **`D9` takes `100`**, with the
+standing understood as live and certain to move once a third quiz lands and the drop reallocates.
+
+#### 2. The 5% quiz component splits — and the syllabus never said so
+
+| Category | Weight | Items in D2L |
+|---|---|---|
+| Reading Quizzes | **3%** | 01–10 and 12 — **there is no Reading Quiz 11** |
+| In-Class Quizzes | **2%** | 01–06, unannounced |
+
+The syllabus prints a single undifferentiated *Quizzes 5%*. **Reading quizzes are worth 3% —
+60% of the quiz component — and they are the only part of the grade Chris can fully control in
+advance**, since the in-class half is unannounced by design.
+
+#### 3. ⚠ D2L lists **three** unit exams. The syllabus schedules **four**.
+
+```
+Unit Exams   - / 45
+  Unit Exam 01 · Unit Exam 02 · Unit Exam 03      (no Unit Exam 04)
+```
+
+The category weight is right (45). The syllabus dates four sittings — **Sep 21, Oct 12, Nov 4,
+Nov 18** — and states *lowest of the four is dropped*. **Three graded slots is consistent with
+four sittings only if the dropped one is never created**, which is unusual, or if the fourth
+item has simply not been built yet in a shell that is still being set up.
+
+**This is a day-one question for Islam, and it is not cosmetic.** The "a missed exam becomes the
+dropped one" buffer — named in [[semester-pathway]] as a real family-collision allowance — exists
+only if there are four. **Do not spend that buffer until the count is confirmed.**
+
+#### 4. 🔴 There is a homework due **Mon Aug 31**, and the vault had no row for it
+
+```
+HW1 (Due Aug 31st)     - / 100     weight - / 10
+```
+
+**Late = zero.** The Week 1 plan schedules "PHYS WebAssign wk 1" on Wed Aug 26; the real first
+deadline is **Aug 31**. Wednesday's block is therefore early rather than urgent — which is the
+right posture, but it should be true on purpose.
+
+**Anomaly, flagged not resolved:** the gradebook carries *both* an `HW Assignments` category at
+weight 10 containing **HW 01–14** (150/150/150/150/100/150/100/100/150/100/120/140/140/150 pts)
+*and* this standalone `HW1 (Due Aug 31st)` at weight 10, outside it. One of the two is a
+duplicate or a mis-weighted item. **Ask Islam; do not average the two readings.** Also confirm
+whether HW is completed in WebAssign or in D2L — the syllabus says WebAssign, the gradebook
+carries the items.
+
+#### 5. Other structure now known
+
+- **Recitations 01–14**, 10 points each — matching the 10% worksheet component. Fourteen Fridays.
+- **`Practice Assignment`, 10 points, weight 0** — a real ungraded sandbox. Use it to learn the
+  quiz mechanics at zero cost before a graded one is open.
+- **`Extra Credits (Bonus)` — 2.5 points exist.** The syllabus does not mention extra credit.
+  On a scale that rounds up at ≥ .1, **2.5 points is the difference between an 89 and an A.**
+  Find out what earns it.
+- **Final Exam — 165 points.**
+
+#### 6. The shell is a recycled Spring course
+
+The course reads **`PHYS2211_SP26`** and carries two dead Spring items (`Grade-Feb20`,
+`Grade March 20`, both weight 0). **This is the same recycling pattern
+`04-SCHOOL\SEMESTER_MAP.md` already documents for KSU syllabi — now confirmed inside D2L
+itself.** Consequence: **a due date shown in D2L may be inherited from Spring.** `HW1 (Due
+Aug 31st)` has its Fall date written into the item title, which is the instructor working
+around exactly this. **Treat D2L dates as authoritative only where they are Fall-consistent**,
+and confirm anything that looks like a spring date.
+
+#### Corrected route
+
+- **`FallKSU.xlsx` § GRADE TRACKER `D9` = `100`** (not 95). Live standing, will move.
+- **The Quiz 01 miss still has learning value even at zero grade cost** — it is the only
+  attempted-as-graded PHYS item of the semester that did not earn full marks. Still
+  unidentified, still unclassified, and `View Quiz Attempts` in D2L will show it.

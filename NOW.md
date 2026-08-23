@@ -37,14 +37,25 @@ nothing. PHYSICS → Stage 4 close. Enter a queue at its first unrun row, never 
 
 ## Frontier Changes — clears once shown
 
-- **Semester transition executed Sun Aug 23.** Five flips done together: Week 1 → `now`/`active` ·
-  Week D → `log`/`complete` · Phase 1 → `active` · Python push → `log`/`complete` · this page.
-- **The PHYS Exam 1 proof gate moved Sun Sep 7 → Sun Sep 13.** Sep 7 demanded cold proof of
-  §5.5/5.7/5.8/6.1–6.2, which the pathway teaches *during* Sep 7–13. Sep 13 is the boundary
-  before sweep week. **The other three gates are now set too: Exam 2 → Sun Oct 4 · Exam 3 →
-  Sun Oct 25 · Exam 4 → Sun Nov 8.** Owner: `semester-workload-plan.md` § The lead.
-- **Opportunity queue disposed:** OPP-20260716-02 `parked`, OPP-20260727-01 held. No past
-  review date remains.
+- **🎓 FIRST GRADED WORK OF THE SEMESTER IS IN, a day early — and it's an A.** Reading Quiz 01
+  **9/10** (D2L already **dropped** it) · Quiz 02 **10/10** → category **3/3, standing 100%**.
+  `FallKSU.xlsx` § GRADE TRACKER **cell `D9` = 100**. That one number fires the standing block
+  for the first time this semester.
+- **🔴 A PHYS homework is due Mon Aug 31 — `HW1`, 100 pts, late = zero.** Nothing in `.ROOT`
+  had a row for it. Wednesday's WebAssign block is *early*, not urgent — make that on purpose.
+- **⚠ Two day-one questions for Islam, from his own gradebook:** **D2L lists three unit exams,
+  the syllabus schedules four** (the missed-exam buffer depends on four — don't spend it until
+  confirmed) · **HW appears twice** at the same weight, once as a 14-item category and once as
+  the standalone Aug 31 item. Also worth asking: **2.5 points of extra credit exist** and the
+  syllabus never mentions them. On a scale that rounds up at ≥ .1, that is 89 → A.
+- **PHYS 2211 is open in D2L; the other four are not** — and its shell is a recycled
+  `PHYS2211_SP26`, so **a D2L date may be a Spring date.** `D2L DAY ONE` check #10 (§54
+  unit-exam room and time) is answerable tonight.
+- **🔴 Instrument gap: `ASSIGNMENT TRACKER` has no row for weekly WebAssign or any reading
+  quiz** — 0 rows for the two most frequent PHYS graded streams, one of which cannot be
+  recovered if missed. Found because Chris took a quiz nothing was tracking.
+- **PHYSICS syllabus-pace pause ENDED** on its own terms; `semester-pathway` § Phase 2 is the
+  live pacer from today. Stage 4 stays open — miss-log rows 4 and 5b are untouched.
 
 ## Needs Chris
 

@@ -29,7 +29,7 @@ owning page and cites it. Where an owner and this page disagree, **the owner win
 
 | Course | Owner of what to read | Owner of the page numbers |
 |---|---|---|
-| PHYS 2211 | `03-WIKIS\PHYSICS\wiki\phys-2211-17-week-math-first-plan.md` § Exact lecture reading schedule | `PHYSICS\wiki\textbook-page-map.md` |
+| PHYS 2211 | 🔧 **`03-WIKIS\PHYSICS\wiki\semester-pathway.md` § Phase 2** — corrected 2026-08-23; see below | `PHYSICS\wiki\textbook-page-map.md`, via `phys-2211-17-week-math-first-plan.md` § Exact lecture reading schedule |
 | TCOM 2010 | `03-WIKIS\EDUCATION\wiki\courses\tcom-2010\semester-map.md` | `…\tcom-2010\open-tc-page-map.md` |
 | CSE 1321/L | `03-WIKIS\PYTHON\wiki\syllabus-alignment.md` § Semester Reading Queue | `PYTHON\wiki\source-page-map.md` |
 | ECON 1000 | `03-WIKIS\EDUCATION\wiki\courses\econ-1000\semester-map.md` | ⛔ none — book is D2L-locked |
@@ -37,6 +37,28 @@ owning page and cites it. Where an owner and this page disagree, **the owner win
 
 Load and deadlines live in `semester-workload-plan.md`. Dates live in `SEMESTER_MAP.md`.
 **This page answers one question only: what do I open, and to what page.**
+
+> ### 🔧 PHYS reading owner corrected, 2026-08-23 — this page was pointing at the wrong road
+>
+> **This table named `phys-2211-17-week-math-first-plan.md` as the owner of *what to read*.
+> That page is lecture-paced. `semester-pathway.md` § Phase 2 runs one week ahead and is the
+> declared owner** — PHYSICS `current-position.md` records the pacing authority moving there on
+> 2026-08-08, and the 17-week plan's own Mission section defers to it.
+>
+> **They disagree by exactly one week**, and it is consequential: on the 17-week pacing, Exam 1's
+> scope (§§5.5/5.7/5.8/6.1–6.2) is not taught until **Sep 14–20**, which makes the **Sun Sep 13
+> proof gate Chris ruled on 2026-08-23 unreachable by construction**, and puts new material
+> inside the Exam 1 sweep week.
+>
+> **The split that keeps both pages useful:** the pathway decides **which week** each section is
+> studied; the 17-week plan's § *Exact lecture reading schedule* remains the best lookup for
+> **which lecture a reading is due for and what page it is on** — printed page *and* local PDF
+> page, which is the thing this column needs. Full reasoning: the correction block in
+> `phys-2211-17-week-math-first-plan.md` § The 17-week mastery sequence.
+>
+> **Nothing about weeks 1–2 changes in practice.** Week 1 reads §§3.1–3.4 / 4.1–4.2 / 4.3–4.5,
+> exactly as `weekly-plan-2026-08-24-to-2026-08-30` already says. The divergence bites from
+> **Sep 7 onward**, which is why it was worth finding before Monday rather than in three weeks.
 
 ---
 

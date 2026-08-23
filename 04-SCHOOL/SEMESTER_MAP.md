@@ -290,11 +290,33 @@ byte-identical). **The PHYS half of flag #57 is closed.** Full reconciliation:
 
 | Component | Weight |
 |---|---|
-| **Unit Exams (4)** | **45%** — closed book, **lowest of the four dropped** |
-| **Final Exam** | **30%** — comprehensive, closed book, mandatory, never rescheduled |
-| Homework (WebAssign, weekly) | 10% — lowest dropped |
-| Recitation Worksheet | 10% — lowest dropped |
-| Quizzes (unannounced + reading) | 5% — lowest dropped |
+| **Unit Exams (4)** | **45%** — closed book, **lowest of the four dropped**. ⚠ **D2L lists only three exam items — see below** |
+| **Final Exam** | **30%** — comprehensive, closed book, mandatory, never rescheduled. **165 points** |
+| Homework (WebAssign, weekly) | 10% — lowest dropped. **14 assignments; first due Mon Aug 31** |
+| Recitation Worksheet | 10% — lowest dropped. **14 worksheets, 10 pts each** |
+| Quizzes (unannounced + reading) | 5% — lowest dropped, **and D2L splits it: Reading 3% · In-Class 2%** |
+
+> **🔧 Grading detail added 2026-08-23 from the live D2L gradebook**, which is above this map
+> in authority. Four things the syllabus does not contain:
+>
+> 1. **The 5% quiz component splits 3% reading / 2% in-class.** Reading quizzes are items 01–10
+>    and 12 (**no 11**); in-class are 01–06. **The reading half is the only part of the quiz
+>    grade that can be controlled in advance** — the in-class half is unannounced by design.
+> 2. **⚠ D2L has three unit-exam items where the syllabus schedules four sittings.** The 45%
+>    category weight is right. **The "a missed exam becomes the dropped one" buffer depends on
+>    there being four — do not spend it until Islam confirms the count.** Day-one question.
+> 3. **`HW1` is due Mon Aug 31, 100 points.** The gradebook carries *both* a 14-item
+>    `HW Assignments` category at weight 10 **and** a standalone `HW1 (Due Aug 31st)` at weight
+>    10. One is a duplicate or mis-weighted — **ask, do not average.** Also confirm whether HW is
+>    submitted in WebAssign or D2L.
+> 4. **2.5 points of extra credit exist** (`Extra Credits (Bonus)`) and the syllabus never
+>    mentions them. **On a scale that rounds up at ≥ .1, 2.5 points is an 89 turning into an A.**
+>
+> **The D2L shell is `PHYS2211_SP26`** — a recycled Spring course carrying two dead Spring items.
+> **This is the same recycling this file already documents for KSU syllabi, now confirmed inside
+> D2L itself, so a D2L due date may also be a Spring date.** Islam works around it by writing the
+> Fall date into the item title (`HW1 (Due Aug 31st)`). Treat D2L dates as authoritative only
+> where they are Fall-consistent. Source: `03-WIKIS\PHYSICS\wiki\log.md` 2026-08-23.
 
 **No attendance component** — unlike the neighbour section. Scale 90/80/70/60, rounds up at
 ≥ .1. **Exams + final = 75% of the grade.**
@@ -366,7 +388,25 @@ section with no meeting time.
 
 ## What must come from D2L — the ingestion list
 
-> ### ⏰ **D2L does not open until Monday August 24 — the first day of classes.**
+> ### 🔧 **CORRECTED 2026-08-23 — PHYS 2211 is already open in D2L. The other four are not.**
+>
+> Chris found PHYS 2211 loaded in D2L on **Sunday Aug 23** and **took two graded reading
+> quizzes** (9/10 and 10/10) before the first day of classes. **The rule below is not wrong
+> — its stated exception fired.** KSU's documentation says instructors *may* grant early
+> access by changing the course start date; Islam did.
+>
+> **What this changes, tonight rather than Monday:**
+>
+> 1. **D2L DAY ONE check #10 — the §54 unit-exam room and sitting time — is answerable now.**
+>    It is the last open PHYS unknown (semester-pathway defect 2) and it protects Mon Sep 21.
+> 2. **PHYS's graded reading-quiz stream is already live**, so week 1's WebAssign set may be
+>    posted too. **Late = zero** — check its deadline before Wednesday's block, not on it.
+> 3. **Do not generalize this to the other four courses.** One instructor's early open is not
+>    evidence about TCOM, CSE, ECON or ENGR; an empty D2L for those on Sunday is still normal.
+>
+> Full record: `03-WIKIS\PHYSICS\wiki\log.md` 2026-08-23.
+>
+> ### ⏰ **D2L does not open until Monday August 24 — the first day of classes.** *(the general rule, unchanged)*
 >
 > Verified 2026-08-13 against KSU's own documentation: course content becomes available in D2L
 > Brightspace **on the first day of classes**, and student access begins on the published start

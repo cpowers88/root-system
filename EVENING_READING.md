@@ -2,15 +2,15 @@
 type: dashboard
 timeline: now
 tags: [learning, school]
-generated: 2026-08-22
+generated: 2026-08-23
 ---
 
-# Evening Reading — August 22, 2026
+# Evening Reading — August 23, 2026
 
 ## School
 
-**READ —** `04-SCHOOL\03-TCOM\TCOM 2010 04 (85633) Fall 2026 Syllabus.md`, the four printed filename literals: Week 1 Thursday (Draft + email-subject line), Week 2/3 Tuesday (Business Email Final), Week 14 Thursday (Instructions Group Project).
+**READ —** `03-WIKIS\EDUCATION\raw\Open-TC_Course-Resources\Open-TC-PDF.pdf`, Ch 3 Ethics, physical pages 174–190, no offset.
 
-**FOCUS —** Building the verbatim reference note NOW.md flagged for this weekend block, so the four literals plus subject line are copied character-for-character ahead of the cold re-rep Mon Aug 24 or Tue Aug 25, per miss-log row 1.
+**FOCUS —** **Wk 1 🟢** — primes Tue's first TCOM class and directly feeds the **Ethics Analysis due Fri Aug 28**, TCOM's week-1 graded deliverable named in the course's semester map.
 
-**STOP —** Cap 20 minutes; stop once all four filenames and the one email-subject string are copied exactly, capitalization and spacing untouched.
+**STOP —** Cap 20 minutes; stop at page 190, the end of Ch 3, without opening a Linked-Resources case study tonight.

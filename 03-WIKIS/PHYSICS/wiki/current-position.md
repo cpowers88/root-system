@@ -73,6 +73,53 @@ no D2L reconstruction. **AI policy for §54 is stated and permissive** — AI as
 resource is explicitly allowed; AI-generated content in submitted work is prohibited.
 Details in [[semester-pathway]].
 
+## 📊 Graded Evidence — Fall 2026
+
+**First graded work of the semester returned 2026-08-23, one day before classes begin.**
+
+| Date | Item | Score | Counts? |
+|---|---|---|---|
+| 2026-08-23 | D2L Reading Quiz 01 | **9/10** | **DROPPED by D2L** — costs zero |
+| 2026-08-23 | D2L Reading Quiz 02 | **10/10** | Counts |
+| | **Reading Quizzes category** | **3 / 3 — grade A** | **Standing: 100%** |
+
+**D2L applies the drop-lowest rule live, not at semester end**, so the 9/10 currently costs
+nothing. Routed to `04-SCHOOL\FallKSU.xlsx` § GRADE TRACKER cell **`D9` = 100**. This will move
+when a third quiz lands and the drop reallocates — it is a live standing, not a settled one.
+
+**The quiz component splits, which the syllabus never stated:** **Reading Quizzes 3%** (items
+01–10 and 12; there is no 11) and **In-Class Quizzes 2%** (01–06, unannounced). The reading half
+is 60% of the quiz component **and it is the only part Chris can control in advance.**
+
+**⚠ PHYS 2211 is loaded in D2L ahead of the first day of classes; the other four courses
+are not.** KSU's documented default is day-one availability with an explicit instructor
+exception, and Islam took it. **The graded reading-quiz stream was therefore already
+running before anything in `.ROOT` expected it** — these two quizzes had no row in any
+tracker when Chris found them.
+
+**This is graded evidence, not learner-truth movement.** A reading quiz measures that the
+reading was done; it is not a cold transfer and it closes no stage. Stage 4's frontier
+below is unchanged by it. What it does establish: **the pre-class reading habit is running
+ahead of requirement and returning 95% on the graded surface.**
+
+**⚠ Two things the live gradebook raises that the syllabus cannot answer** (full detail:
+`log.md` 2026-08-23 § *Same-day extension*):
+
+1. **D2L lists three unit exams; the syllabus schedules four.** The 45% category weight matches,
+   but there is no `Unit Exam 04` item. **The "a missed exam becomes the dropped one" buffer
+   depends on there being four — do not spend it until Islam confirms the count.**
+2. **A homework is due Mon Aug 31** (`HW1 (Due Aug 31st)`, 100 pts). Late = zero. The gradebook
+   also carries a separate 14-item `HW Assignments` category at the same weight; one of the two
+   is a duplicate or mis-weighted. Ask, don't average.
+
+**One question was missed on Reading Quiz 01 and has not been identified.** It cost zero points
+(the quiz is dropped) but it is the only attempted-as-graded PHYS item this semester that did not
+earn full marks, and **`View Quiz Attempts` in D2L will show it.** Per
+`04-SCHOOL\miss-log.md` § *A miss class that is not Chris's*, the study aid is checked
+before the learner — so no error class is assigned and no miss-log row is opened until the
+question is known. Held open deliberately rather than guessed. Full record:
+`log.md` 2026-08-23.
+
 ## ⏳ Open Durability Checks — a pass is not proven until this clears
 
 **Added 2026-08-17 on Chris's direction, closing a real mechanism gap.** This hub's
@@ -198,7 +245,21 @@ MWF 9:10-10:05 AM + Friday breakout), the week-by-week reading-ahead triggers,
 and the mastery/exam/stall triggers that move the active stage independent of
 the calendar.
 
-## Syllabus-Paced Work Paused — 2026-07-30 through 2026-08-23
+## ✅ Syllabus-Paced Work — pause ENDED 2026-08-24 (ran 2026-07-30 through 2026-08-23)
+
+> **Closed on its own stated terms at the Aug 23 session**, not by a new decision: the
+> block below reads *"Resume the syllabus pace 2026-08-24 when classes start."* Classes
+> start Mon Aug 24. **[[semester-pathway]] § Phase 2 is the live pacer from today** —
+> study window **Aug 24–30 studies week 2's material**: §§3.1–3.4 vectors, §§4.1–4.2,
+> §§4.3–4.5. The Calculus-Physics Bridge sprint's dated schedule is complete and does not
+> carry into the semester.
+>
+> **What does carry:** the standing teaching method (calculus construction leads; physics
+> is assumed, not taught) is unaffected — it was never part of the pause. And **Stage 4
+> stays open at its real frontier**, miss-log rows 4 and 5b, which the pathway does not
+> close.
+
+### Historical record of the pause
 
 Chris paused the syllabus-paced Seven-Day Plan below (and the CASTLE weekly
 plan's remaining Thu/Fri physics blocks) in favor of the dated

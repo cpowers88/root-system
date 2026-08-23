@@ -2315,3 +2315,85 @@ is one line.
   before learner truth or the grade tracker changes; nothing was inferred.
 - **Verification:** canonical `root_health.py` **PASS** — 8/8 named scopes, 1,603 live Markdown
   files, zero findings. The gate does not evaluate semantic freshness outside its named checks.
+
+## 2026-08-23 (late) — First graded evidence captured; D2L early-open corrected; a tracker gap raised
+
+- **The open factual return from both of today's earlier sessions is closed.** PHYS D2L
+  **Reading Quiz 01 = 9/10, Reading Quiz 02 = 10/10 → 95%**, graded, the Quizzes component
+  (5%, lowest dropped). Routed to `FallKSU.xlsx` § GRADE TRACKER **`D9`** and handed to Chris
+  to type — the workbook was open in Excel and carries live formulas (`study-close` § 3).
+  **[[current-position]]'s Course-performance row now holds real data** and the Aug 30 return
+  no longer reads item 4 with a hole in it.
+- **Correction, not a flag: `04-SCHOOL\SEMESTER_MAP.md` said D2L opens Aug 24 for everything.**
+  **PHYS 2211 is already open; the other four are not.** KSU's documented instructor exception
+  fired. The map now carries the correction and explicitly refuses to generalize it to the other
+  four courses. **`D2L DAY ONE` check #10 (§54 unit-exam room and time) is answerable tonight**,
+  which is a Sep 21 protector pulled forward by a day.
+- **🔴 Raised for Chris — an instrument gap, not a system flag:** `FallKSU.xlsx`
+  § ASSIGNMENT TRACKER has **zero rows** for weekly PHYS WebAssign (10%, **late = zero**) and
+  **zero rows** for reading quizzes. Both exist only as prose in a sheet with no Due, Status or
+  Score column. **Every recurring weekly graded item across all five courses is a candidate for
+  the same omission**, because the tracker was built from syllabi, which state recurring work as
+  policy rather than as dated rows. Worth one sweep before the first WebAssign deadline,
+  **Wed Aug 26.** Not fixed here: the workbook is open in Excel and the fix is a structural
+  insert, not a cell.
+- **No learner state promoted, and none should have been.** A reading quiz is not a cold
+  transfer. **Stage 4 stays open**; miss-log rows 4 and 5b are untouched and still due. The one
+  missed question on Quiz 01 is **deliberately unclassified** until it is identified — the hub's
+  own rule is that the aid gets checked before the learner.
+- **PHYSICS syllabus-pace pause closed on its own stated terms** (*"resume 2026-08-24 when
+  classes start"*), not by a new decision. `semester-pathway` § Phase 2 is the live pacer.
+- **Verification:** every file read before it was written. `NOW.md` Frontier Changes carries all
+  four items; the cockpit is current for Monday.
+
+**🔧 Corrected within the same session — Chris supplied the live D2L gradebook export.** Three
+changes to the entry above, all in the direction of *better*:
+
+- **`D9` takes `100`, not `95`.** D2L applies the drop-lowest rule **live**, so Reading Quiz 01's
+  9/10 is already dropped and the category reads **3/3, grade A**. The first graded standing of
+  the semester is 100%.
+- **The instrument gap is worse than stated and now has a deadline.** `HW1` is due **Mon Aug 31**,
+  100 points, **late = zero** — and no `.ROOT` file had a row for it. The tracker sweep across all
+  five courses should happen **before Aug 31**, not merely "before the first WebAssign deadline."
+- **Two contradictions found between the gradebook and the syllabus, both raised as day-one
+  questions rather than resolved here:** D2L has **three** unit-exam items against the syllabus's
+  **four** sittings (the missed-exam buffer depends on the answer), and homework appears twice at
+  the same weight. **2.5 points of undocumented extra credit also exist.** Detail:
+  `03-WIKIS\PHYSICS\wiki\log.md` 2026-08-23 § Same-day extension. Owner files corrected:
+  `SEMESTER_MAP.md`, PHYSICS `current-position.md`, Week 1 plan, `NOW.md`.
+
+## 2026-08-23 (night) — Flag #103 CLOSED by Chris; the road audit found one real second road; #104 raised
+
+- **Flag #103 closed on Chris's explicit confirmation.** All three evidence conditions were met
+  before he ruled. Full record moved to `Session_Logs\Closed Flags\CLOSED_FLAGS_2026-08.md`; the
+  register keeps a one-line row for a week, deleting at the Aug 30 return. **#102 was not named
+  and stays open** — its measurement bar is met and it awaits the same one-word confirmation.
+- **Chris's question — "is there more than one road map?" — was correct, and the answer is one
+  road in ten layers with exactly one genuine contradiction inside it.** The layering is sound:
+  every school-sequencing page already declares what it owns, and `week-zero-plan.md` closed
+  itself properly at the transition. **The contradiction:** `semester-reading-plan.md` named the
+  **lecture-paced** `phys-2211-17-week-math-first-plan.md` as the owner of PHYS reading, while
+  `semester-workload-plan.md` and PHYSICS learner truth named the **one-week-ahead**
+  `semester-pathway.md`. **They differ by exactly one week**, which would have put new Exam 1
+  material inside the Exam 1 sweep week and made the **Sun Sep 13 proof gate Chris ruled this
+  same afternoon unreachable by construction.**
+- **Resolved without deleting anything.** The pathway owns *which week*; the 17-week plan keeps
+  its genuinely valuable lecture→page lookup (printed page *and* local PDF page, plus the math
+  lens) and loses its pacing claim. Corrected in the 17-week plan, `semester-reading-plan.md`,
+  and `04-SCHOOL\README.md`.
+- **🆕 Flag #104 raised: *a page cites an owner it did not read.*** Third instance in three days
+  — the Sep 7 gate, the Week 1 consumed drill, and this. **None was caught by a gate**;
+  `root_health.py` ran green through all three, correctly, because semantic freshness is outside
+  its named scopes. **The counter-move is deliberately undecided** — written rule, a
+  `castle_freshness.py` owner-vs-citer check, or discipline — and is due at the **Aug 30 return**.
+  Do not add a fourth instrument before deciding which one earns its place.
+- **Unintended-instruction sweep: clean.** Nine live instruction files, all nine expected by the
+  boot chain (root `CLAUDE`/`AGENTS`/`CODEX`, `00-BRAIN` `AGENT`/`CLAUDE`/`CODEX`, CASTLE's
+  three). Every other `CLAUDE.md`/`AGENTS.md` in the tree sits under `99-ARCHIVE`. Eighteen files
+  carry `register: ai-directive`, all of them governance or hub `OPERATIONS.md` files.
+- **The Powers Fall Timetable artifact is a view, not a road.** Its own header names
+  `04-SCHOOL\weekly-study-schedule.md` as owner, and that file says the `.md` is source and the
+  HTML is the view. **Correct as built; no change needed.** Recorded here because Chris asked
+  whether it was the roadmap: it is layer 6 of ten, and it is accurate.
+- **Verification:** canonical `root_health.py` **PASS**, run before and after the flag and plan
+  edits. **Flag #101 took instances 12 and 13**, both read-only, both blocking this audit.

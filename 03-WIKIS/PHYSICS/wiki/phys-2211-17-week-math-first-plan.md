@@ -114,7 +114,43 @@ content and exam scope establish §§11.2–11.4.
 
 ## The 17-week mastery sequence
 
-| Week | Dates | Course target | Math bridge and output gate |
+> ### 🔴 SUPERSEDED ON PACING — 2026-08-23. Read this before using the table below.
+>
+> **The `Course target` column below is lecture-paced. [[semester-pathway]] § Phase 2 runs one
+> week ahead of lecture, and it is the owner.** This page's own § Mission and authority says so:
+> *"[[semester-pathway]] owns course alignment; this page owns daily execution."* The table was
+> built without reconciling against it and the two are offset by exactly one week.
+>
+> | Week | This table said | [[semester-pathway]] § Phase 2 — **the owner** |
+> |---|---|---|
+> | 1 · Aug 24–30 | Ch 1–2, measurement and 1-D motion | **Study week 2's material** — §§3.1–3.4, 4.1–4.2, 4.3–4.5 |
+> | 3 · Sep 7–13 | §§5.1–5.4, 5.6 | **§§5.5, 5.7, 5.8, 6.1–6.2** |
+> | 4 · Sep 14–20 | §§5.5, 5.7–5.8, 6.1–6.2 **+ Exam 1 sweep** | **EXAM 1 SWEEP — retrieval only, no new material** |
+>
+> **Why the owner wins, on three independent grounds:**
+>
+> 1. **Pre-class reading is graded in §54.** The one-week-ahead rule exists because arriving
+>    unread is directly scorable — and it is already returning marks (Reading Quizzes 01–02,
+>    2026-08-23).
+> 2. **It breaks the sweep.** The whole point of the lead is that each pre-exam week converts to
+>    **pure retrieval**. Week 4 above teaches new Exam 1 material *during* the Exam 1 sweep,
+>    which is the one thing the architecture exists to prevent.
+> 3. **🔴 It contradicts a ruling Chris made on 2026-08-23.** The Exam 1 proof gate is
+>    **Sun Sep 13 — full scope cold.** On this table's pacing, §§5.5/5.7/5.8/6.1–6.2 are not
+>    taught until **Sep 14–20**, so the gate would be unreachable by construction. This is the
+>    *second* time a PHYS schedule has been set without reading this pathway; the first was the
+>    Sep 7 gate, corrected the same day.
+>
+> **What this page still owns, and it is genuinely valuable — use it:** the § *Exact lecture
+> reading schedule* table (class date → sections → **printed pages → local textbook PDF pages**
+> → math lens), the math-first block structure, the mastery scorecard, and the assessment-sweep
+> technique notes. **None of that conflicts.** The reading table maps *what is due for which
+> lecture*; the pathway decides *which week you study it*. Use both, in that division.
+>
+> **Do not delete this page and do not re-derive the pacing here.** If the two ever disagree
+> again, `semester-pathway.md` wins without discussion.
+
+| Week | Dates | Course target ⚠ *lecture-paced — see the correction above* | Math bridge and output gate |
 |---:|---|---|---|
 | 0 | Aug 19–23 | Launch + close the Stage 4 circular-motion gap | Components/radial direction; four cold circular reps; Row 3 durability |
 | 1 | Aug 24–30 | Ch 1–2 measurement and 1-D motion | graph slopes/areas; derive constant-`a` relations; one mixed motion gate |
