@@ -2397,3 +2397,32 @@ changes to the entry above, all in the direction of *better*:
   whether it was the roadmap: it is layer 6 of ten, and it is accurate.
 - **Verification:** canonical `root_health.py` **PASS**, run before and after the flag and plan
   edits. **Flag #101 took instances 12 and 13**, both read-only, both blocking this audit.
+
+**🔧 Flag #104 re-scoped the same session — Chris asked to see the proof, and the proof refuted
+two thirds of it.** Recorded because the correction is more useful than the flag was.
+
+- **Instance ② was chronologically impossible as stated.** Week 1 plan committed **Aug 21 12:12**;
+  PHYSICS owner marked the drill consumed **Aug 22 10:57** — the plan was correct when written.
+  A propagation failure, not a reading failure.
+- **Instance ③'s author provably read the owner.** Commit `0c69045` adds a *fifth* syllabus defect
+  the pathway had missed and cross-links the new plan into the pathway's Related list, in the same
+  commit that created the 17-week plan. **The conflict was created the next morning by a different
+  session choosing between two plans** whose subordination was declared only in body prose.
+- **Chris's "multiple windows" hypothesis: not a race** — sequential sessions 16–22 h apart, one
+  author, no overlapping writes — **but right one level down.** Different sessions, no shared
+  context, and no scannable way to rank two plans.
+- **Flag downgraded 🟠 → 🟢**, its original counter-move withdrawn, and the replacement
+  (`subordinate_to:` in frontmatter, checked by the existing audit) left as a recommendation for
+  Chris at the Aug 30 return. **Mon Aug 24's five-course audit is the evidence that decides it.**
+- **Left for Chris rather than decided:** whether instance ② counts as a re-raise of closed flag
+  #91 (which would return HIGH under the register's own rule) or merely a miss of the control #91
+  installed. The distinction is real and it is not CASTLE's to rule.
+
+**Session closed 2026-08-23, night — control returned to the cockpit** (`OPERATIONS.md` Session
+Close 7). Flags #103 and #104 both closed; **no HIGH flags open entering the semester**. `NOW.md`
+Active Lane re-verified against owner truth: Week 1 plan, `semester-pathway` § Phase 2 as PHYS
+pacer, PHYSICS `current-position` for Stage 4. `04-SCHOOL\weekly-study-schedule.html` carries the
+week-1 material layer and was republished to its existing artifact URL. **One launch risk handed
+to Monday rather than resolved:** git carries no `*.pdf` and excludes every `raw\`, so the campus
+laptop clone cannot hold the four course textbooks every reading page cites — unverifiable from
+this machine. `root_health.py` PASS ×4 across the session.

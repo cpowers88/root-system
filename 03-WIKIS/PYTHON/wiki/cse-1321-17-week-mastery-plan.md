@@ -5,6 +5,7 @@ tags: [programming, education]
 ---
 
 # CSE 1321 / 1321L — 17-Week-Plus A Plan
+### ⬆ SUBORDINATE TO [[syllabus-alignment]] (course facts + reading queue), [[learning-path]] (the durable Stage path) and [[current-position]] (mastery). This page owns dated execution only. **D2L supersedes every date here.**
 
 ## Mission and authority
 

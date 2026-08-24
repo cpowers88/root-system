@@ -56,6 +56,18 @@ nothing. PHYSICS → Stage 4 close. Enter a queue at its first unrun row, never 
   recovered if missed. Found because Chris took a quiz nothing was tracking.
 - **PHYSICS syllabus-pace pause ENDED** on its own terms; `semester-pathway` § Phase 2 is the
   live pacer from today. Stage 4 stays open — miss-log rows 4 and 5b are untouched.
+- **Flags #103 and #104 CLOSED Sun night. No HIGH flags open going into the semester.** #104 was
+  raised, challenged by Chris, re-scoped on git evidence, fixed and closed in one session.
+- **One real second road found and killed:** PHYS had a lecture-paced plan and the one-week-ahead
+  pathway both named as its reading owner. **`04-SCHOOL\README.md` now carries the ten-layer
+  authority chain** — the single answer to "which road."
+- **Week 1's material is loaded into `04-SCHOOL\weekly-study-schedule.html`** block by block, and
+  republished to the same artifact URL. **Its scheduling win: week 1 has no WebAssign due** (HW1 is
+  Aug 31), freeing ~4 h of PHYS blocks already on the calendar → **spend them on Ch 5 + §§6.1–6.2**,
+  the untouched part of Exam 1.
+- 🔴 **Launch risk, unverified: the laptop clone cannot contain the course textbooks.** `.gitignore`
+  excludes `**/raw/` and `*.pdf`, and **zero PDFs are tracked** — so `git pull` brings no Serway, no
+  *Think Python*, no `Open-TC-PDF.pdf`. **Confirm they are physically on the laptop before leaving.**
 
 ## Needs Chris
 

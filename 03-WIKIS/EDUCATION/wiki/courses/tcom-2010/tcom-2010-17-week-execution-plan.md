@@ -9,6 +9,7 @@ verified_on: 2026-08-19
 ---
 
 # TCOM 2010 §04 — 17-Week Execution Plan
+### ⬆ SUBORDINATE TO the §04 syllabus (content, weights, policies, week order), [[semester-map]] (which resource serves each week) and `04-SCHOOL\SEMESTER_MAP.md` (cross-course dates). This page owns dated weekly study. **D2L supersedes every date here.**
 
 ## Mission and authority
 

@@ -9,6 +9,7 @@ verified_on: 2026-08-19
 ---
 
 # PHYS 2211 §54 — 17-Week Math-First Mastery Plan
+### ⬆ SUBORDINATE TO [[semester-pathway]] § Phase 2 on all pacing. This page owns the lecture→page lookup and the math-first method; it does **not** decide which week a section is studied.
 
 ## Mission and authority
 
