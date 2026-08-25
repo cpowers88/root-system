@@ -82,24 +82,46 @@ first two class meetings, and it is the course with the least structure.
 | **Tue Aug 25, that night** | 🟡 TCOM | **Email Lisa Diamond** — an explicit assignment, not a courtesy |
 | **Tue Aug 25** | 🟡 TCOM | **Course Policies Quiz** + **File Naming Convention Quiz** *(syllabus shows them assigned week 1 Tuesday and due week 2 Tuesday — do them early)* |
 | **Thu Aug 27** | 🟡 TCOM | Business Email draft worked in class; Ethics Analysis assigned. Read **Ch. 2.13 Emails & Memos**, then **Ch. 3 Ethics** |
-| **Fri Aug 28** | 🟡 TCOM | **Ethics Analysis DUE** — a fourth week-1 graded item, surfaced 2026-08-19. ⚠ **Format and filename are not printed anywhere in the syllabus**; the instructions file is D2L-only. Open its SUBMISSION section Aug 24 — do not assume `.docx`, do not assume `.pptx` |
+| **Fri Aug 28** | ✅ TCOM | **Ethics Analysis DUE** — spec RESOLVED 2026-08-24 from `ex01.75_Ethics_Activity_Instructions`. **`Powers_04_Ethics Analysis.docx` · D2L Ethics Analysis folder only · MS Word only · Tahoma 12 · no indent · 10 pts.** It is `.docx`; the PowerPoint is her lecture deck, not the deliverable. ⚠ Her syllabus row dates it *"Friday, January 16th"* — recycled Spring shell, ignore |
 | Week 1 | 🟢 CSE | **Module 0** — welcome, policies, decomposition, algorithms & abstraction |
 | **Mon Aug 24** | 🟢 PHYS | **Measurements, 1.1–1.6.** Read before class — reading quizzes are graded |
 | **Wed Aug 26** | 🟢 PHYS | Motion in 1D, 2.1–2.4 |
 | **Fri Aug 28** | 🟢 PHYS | Motion in 1D with constant acceleration, 2.5–2.9 · **first §54 recitation, 11:30, Atrium 1116** |
 | Week 1 | 🔴 ECON | Unknown — all dates live on D2L |
-| Week 1 | 🔴 ENGR | Open the exact BWD syllabus, announcements, quizzes, and assignments in D2L. Neighboring Fall 2026 sections suggest seven assignments and frequent departmental quizzes, but supply no BWD dates |
+| **Tue Aug 25, 11:59pm** | ✅ ENGR | **Week 1 lecture quiz — course introduction, procedures, Teamwork.** Late work not accepted for any reason. BWD syllabus and course schedule captured 2026-08-24; full 14-week table below |
 
-**TCOM's file-naming convention is graded, and there is no pattern.** The syllabus
-prints four literals that disagree with each other; any rule derived from them is
-wrong. Copy them character for character. Chris's section is **04**.
+**TCOM's file-naming convention is graded — and 2026-08-24 changed what it is.** Two
+assignment instruction files arrived that day and **both state a general rule the syllabus
+never printed**: `Lastname_section#_Name of assignment.docx`. Chris's section is **04**.
 
-| Assignment | Syllabus literal | Chris's version |
+> **🔧 The "there is no generating rule" finding is corrected, not deleted.** A rule exists
+> and most literals obey it. What is *actually* true is narrower and more dangerous: **the
+> syllabus and the assignment instruction files disagree on the same assignment**, and the
+> instruction file is authoritative — the syllabus itself says *"Each assignment has a section
+> entitled SUBMISSION which details how the assignment needs to be submitted."*
+> **Read the assignment file for every submission; never name a file from the syllabus alone.**
+
+| Assignment | Authoritative literal | Chris's version |
 |---|---|---|
-| Business Email Draft | `Lastname_Section#_Draft.docx` | `Powers_04_Draft.docx` |
-| Business Email Final | `StudentLastName_ Section#_Business Email Final.docx` | `Powers_04_Business Email Final.docx` |
-| Document Redesign | `Lastname_ Section#_DocRedesign.docx` | `Powers_04_DocRedesign.docx` |
-| Instructions Group Project | `LastNameLastNameLastName_ Section#_Instructions draft.docx` | `PowersChaseChavez_04_Instructions draft.docx` |
+| **Business Email Draft** ⚠ | `Lastname_04_Business Email Draft.docx` *(assignment file)* — syllabus says `Lastname_Section#_Draft.docx`, **they conflict** | `Powers_04_Business Email Draft.docx` **— ask Diamond Aug 25** |
+| Business Email Final | `Lastname_04_Business Email Final.docx` *(assignment file and syllabus agree)* | `Powers_04_Business Email Final.docx` |
+| **Ethics Analysis** 🆕 | `StudentLastName_section#_Ethics Analysis.docx` *(assignment file)* | `Powers_04_Ethics Analysis.docx` |
+| Document Redesign | `Lastname_ Section#_DocRedesign.docx` *(syllabus only — no assignment file yet)* | `Powers_04_DocRedesign.docx` **— breaks the general rule; verify when the assignment file appears** |
+| Instructions Group Project | `LastNameLastNameLastName_ Section#_Instructions draft.docx` *(syllabus only)* | `PowersChaseChavez_04_Instructions draft.docx` **— verify when the assignment file appears** |
+
+**⚠ The Business Email submission route is now resolved in D2L's favour.** The assignment file
+says the draft goes to the **`Draft` assignments folder** and the final to the **`Business Email
+Final` folder** — no email at all. That matches her *"I do NOT accept email attachments"* policy
+and contradicts the syllabus's email-subject-line instruction. **Two of three sources agree on
+D2L; confirm with her Aug 25 rather than reasoning it out.**
+
+**🆕 The Business Email Draft carries a graded AI Usage Statement (1 of 10 points).** *"Did you
+use AI? Be honest. Lying invalidates your assignment."* Non-AI users must instead reflect on
+their writing process and any non-AI tools used. If AI is used at all: name the tool, the
+prompt, what was adapted, and **two reliable sources used to verify the output.**
+
+**Quick reference for all of the above, plus fonts and the policies quiz:**
+`04-SCHOOL\03-TCOM\tcom-spec-card.html` (published artifact, built 2026-08-24).
 
 Not a filename — the Business Email draft **email subject line**:
 `Lastname_ Section#_Business Email draft`.
@@ -348,10 +370,65 @@ Confirm his room and sitting time on day one. No timetable conflict either way.*
 - **AI: permitted as a tutoring resource, prohibited in submitted work.** See the integrity
   note at the foot of this file.
 
-### ENGR 1000 🟡 structure / 🔴 BWD dates — flag #57
+### ENGR 1000 ✅ BWD RECEIVED 2026-08-24 — flag #57's ENGR half is closeable
 
-The registrar confirms BWD is online with no meeting time; the exact syllabus and
-D2L calendar remain missing. Three neighboring Fall 2026 web sections (BWB, BWC, BWF) were byte-diffed
+> **Chris captured the exact BWD syllabus and — the piece that was actually missing — a
+> separate `COURSE SCHEDULE, Lecture Quizzes & Assignments` document, on Mon Aug 24.**
+> Both are in `04-SCHOOL\05-ENGR`. Every 🔴 item below is now answered from BWD's own
+> sources rather than from the neighboring-section template.
+
+**Instructor:** Kamyar Raoufi, `kraoufi@kennesaw.edu`, office hours by appointment, email
+preferred. **Section BWD (80858), 1 credit hour, asynchronous, online, no textbook.**
+
+**The mechanic the neighboring sections could not show.** The course runs a **department per
+fortnight** — two lecture modules per department, **one lecture quiz every week**, and an
+assignment in most weeks. Week 6 (Advising) is the exception: one module, one quiz. Lowest
+lecture quiz dropped; lowest assignment dropped. Each assignment is 100 points.
+
+**🔴 ALL ASSIGNMENTS AND QUIZZES ARE DUE 11:59 PM ON TUESDAYS. LATE WORK IS NOT ACCEPTED FOR
+ANY REASON.** The syllabus's softer *"due dates are always at the start of class"* is the
+departmental template's language and is superseded by the schedule document for BWD.
+
+| Wk | Due 11:59pm | Department / topic | Assignment due |
+|---|---|---|---|
+| 1 | **Tue Aug 25** | Course introduction and procedures · Teamwork · Virtual Scavenger Hunt — Raoufi | *(lecture quiz only)* |
+| 2 | Tue Sep 1 | Industrial & Systems Engineering / ISE Technology — Raoufi | **Virtual Scavenger Hunt** |
+| 3 | Tue Sep 8 | Industrial & Systems Engineering / ISE Technology — Raoufi | **Time Management** |
+| 4 | Tue Sep 15 | Robotics & Mechatronics — Marshall | **Reflection #1** |
+| 5 | Tue Sep 22 | Robotics & Mechatronics — Marshall | **Professional Communications** |
+| 6 | Tue Sep 29 | Advising — advisors + Raoufi *(1 module, 1 quiz)* | — |
+| 7 | Tue Oct 6 | Electrical & Mechanical Engineering Technology — Braswell | **Reflection #2** |
+| 8 | Tue Oct 13 | Electrical & Mechanical Engineering Technology — Braswell | **Engineering Ethics** |
+| 9 | Tue Oct 20 | Electrical & Computer Engineering — Chin | **Professional Licensure** |
+| 10 | Tue Oct 27 | Electrical & Computer Engineering — Chin | — |
+| 11 | Tue Nov 3 | Civil & Environmental Engineering — Nawar | **Student Engagement** ⚠ requires attending an event |
+| 12 | Tue Nov 10 | Civil & Environmental Engineering — Nawar | — |
+| 13 | Tue Nov 17 | Mechanical & Aerospace Engineering — Ruhala | **Reflection #3** |
+| 14 | **Tue Dec 1** | Mechanical & Aerospace Engineering — Ruhala | **Engineering Design** |
+
+**Three findings the schedule produced that the syllabus does not contain:**
+
+1. **Ten graded assignments, not seven.** The departmental template's assignment table omits
+   **Reflection #1, #2 and #3** entirely. Any plan built on the seven-assignment figure
+   understates ENGR by three graded items.
+2. **Weeks 7–11 sit inside the Oct 5 – Nov 11 school-protection window** — four assignments
+   plus five lecture quizzes. **Student Engagement (Nov 3) requires physically attending an
+   event and summarizing it**, which is the only ENGR item that cannot be compressed into the
+   week it is due. Buy that lead early; it is the one to pull into the surplus weeks.
+3. **Week 14 jumps Nov 17 → Dec 1**, skipping Thanksgiving week. No item is due Nov 24.
+
+**Grading:** departmental quizzes 50% · homework and other quizzes 50%. **No extra credit —
+stated explicitly.** Scale 90/80/70/60, **rounded up at ≥ .5** — note this differs from PHYS,
+which rounds at ≥ .1. Do not carry one course's rounding rule to another.
+
+**Attendance:** attendance quizzes, lowest dropped; both excused and unexcused absences are
+absorbed by that drop. The day-one question about how attendance works in a section with no
+meeting time is answered: it is quiz-based, not presence-based.
+
+**AI:** prohibited. *"Content ... created or assisted by an AI generative tool is cheating."*
+Unchanged from the neighboring sections and confirmed for BWD.
+
+**Superseded evidence, retained for traceability.** Three neighboring Fall 2026 web sections (BWB, BWC, BWF) were byte-diffed
 2026-08-22, not eyeballed. BWB and BWF are identical except for title, source
 URL, section number and instructor block. BWC is a pure subset — it omits seven
 Simple Syllabus blocks (header, Course Information, Course Materials, Teaching
@@ -380,9 +457,14 @@ Flag #57 has been hunting a document that structurally cannot hold the answer it
 was opened for. This is a mis-aimed search, not a failed one. **D2L is the only
 source of ENGR dates and always was.**
 
-Still 🔴: every date, weekly order, quiz mechanics, and synchronous/asynchronous
-execution. Confirm on day one: attendance is graded via attendance quizzes in a
-section with no meeting time.
+> **✅ Confirmed correct 2026-08-24, and completed.** BWD's own syllabus also prints
+> *"See D2L for assignment and quiz due dates."* The dates were never in any syllabus.
+> **What D2L held was not a calendar tool but a second document** — `COURSE SCHEDULE,
+> Lecture Quizzes & Assignments` — which no amount of syllabus searching would have
+> surfaced. The Aug 22 conclusion was right about where not to look and incomplete about
+> what to look *for*: the missing artifact had a different name, not a different location.
+> **Lesson for the next gap of this shape: ask what document would hold the answer, not
+> which copy of the known document to fetch.**
 
 ---
 

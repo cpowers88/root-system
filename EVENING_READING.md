@@ -2,15 +2,15 @@
 type: dashboard
 timeline: now
 tags: [learning, school]
-generated: 2026-08-23
+generated: 2026-08-24
 ---
 
-# Evening Reading — August 23, 2026
+# Evening Reading — August 24, 2026
 
 ## School
 
-**READ —** `03-WIKIS\EDUCATION\raw\Open-TC_Course-Resources\Open-TC-PDF.pdf`, Ch 3 Ethics, physical pages 174–190, no offset.
+**READ —** `03-WIKIS\EDUCATION\raw\Linked-Resources\3_Harcourt.pdf`, one ethics case study named in TCOM's Week 1 map.
 
-**FOCUS —** **Wk 1 🟢** — primes Tue's first TCOM class and directly feeds the **Ethics Analysis due Fri Aug 28**, TCOM's week-1 graded deliverable named in the course's semester map.
+**FOCUS —** **Wk 1 🟢** — primes Tue's TCOM ethics discussion and feeds the **Ethics Analysis due Fri Aug 28**, following Ch 3's text read last night.
 
-**STOP —** Cap 20 minutes; stop at page 190, the end of Ch 3, without opening a Linked-Resources case study tonight.
+**STOP —** Cap 20 minutes; stop once the Harcourt case is finished, without opening a second case tonight.

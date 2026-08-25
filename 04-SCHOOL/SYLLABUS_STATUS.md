@@ -28,9 +28,9 @@ bottom for what has to close before then.
 | Course | Registered section | Available Markdown source | Use boundary |
 |---|---|---|---|
 | ~~PHYS 2211~~ | ~~54 (83722)~~ | **Superseded 2026-08-18 — see the exact-section row above.** The `raw/` §51 capture stays as immutable evidence; the two `04-SCHOOL` working copies (§51 and §55) were archived to `99-ARCHIVE\ARCHIVED_2026-08-18_PHYS_neighbour_syllabi\` because they sat beside the real `Syllabus.pdf`. `99-ARCHIVE\ARCHIVED_2026-07-29_PHYS 2211 54 (52148)…md` remains a Summer-term scope corroboration only | **No longer used for pacing.** §51 is now known to be a *sibling recitation of Chris's own lecture*, which is why it paced the course well; §55 is Behera's separate lecture |
-| ENGR 1000 | BWD (80858) | Three neighboring Fall 2026 web captures in `04-SCHOOL\05-ENGR\`: BWB (80862), BWC (80857), BWF (80860) | None is BWD. BWB/BWF share a template apart from identifiers; BWC omits seven blocks. Use the shared departmental policy provisionally, never BWD dates or execution |
+| ~~ENGR 1000~~ | ~~BWD (80858)~~ | **Superseded 2026-08-24 — exact BWD sources received, see below.** The three neighboring Fall 2026 web captures (BWB 80862, BWC 80857, BWF 80860) stay in `04-SCHOOL\05-ENGR\` as the departmental-template evidence that made BWD's policy body predictable | **No longer used.** They were right about policy and silent on dates — which was the whole gap |
 
-## Missing Current Sources — **one real gap left**
+## Missing Current Sources — **all five courses now have exact-section sources**
 
 - ✅ **PHYS 2211 Section 54 — CLOSED 2026-08-18.** Chris obtained the exact syllabus direct
   from Farhan Islam. Grading weights, all four unit-exam dates plus the final, the AI policy,
@@ -38,9 +38,26 @@ bottom for what has to close before then.
   record's MWF 9:10–10:05 + Fri 11:30–12:25 is confirmed** — note the syllabus header
   mistakenly says "Monday, Wednesday, and Thursday", contradicted by all 45 of its own dates.
   Full reconciliation: `03-WIKIS\PHYSICS\wiki\semester-pathway.md`.
-- **ENGR 1000 Section BWD** still has no exact-section source. The remaining actionable gap is
-  its D2L-owned dates and execution evidence; every neighboring syllabus defers dates to D2L.
-- D2L opens **Aug 24**; course content is not populated before then, which is expected.
+- ✅ **ENGR 1000 Section BWD — CLOSED 2026-08-24.** Chris captured **two** documents from D2L
+  on day one: the exact BWD Simple Syllabus (`ENGR 1000 BWD (80858) Syllabus FA26.pdf`) and,
+  separately, `ENGR 1000 BWD (80858) Course Schedule FA26.pdf` — a `COURSE SCHEDULE, Lecture
+  Quizzes & Assignments` document carrying **all 14 weekly due dates**, the department-per-
+  fortnight structure, and the weekly lecture-quiz mechanic. Instructor **Kamyar Raoufi**,
+  `kraoufi@kennesaw.edu`. Full reconciliation: `04-SCHOOL\SEMESTER_MAP.md` § ENGR 1000.
+
+  **Why the earlier search kept failing, recorded because the lesson generalizes:** BWD's own
+  syllabus also says *"See D2L for assignment and quiz due dates."* No ENGR syllabus was ever
+  going to hold the dates. The answer lived in **a differently-named second document**, so
+  every attempt to obtain a better *copy of the syllabus* was structurally incapable of
+  closing the gap. **Ask what artifact would hold the answer before hunting a better version
+  of the one you have.**
+
+  **Three things the schedule contains that no syllabus did:** ten graded assignments rather
+  than seven (the template omits Reflections #1–#3); a hard **11:59 PM Tuesday** deadline on
+  everything with no late work accepted for any reason; and four assignments falling inside
+  the Oct 5 – Nov 11 school-protection window, one of which (**Student Engagement, Nov 3**)
+  requires physically attending an event.
+- D2L opened **Aug 24** as expected. PHYS 2211 had opened early, on Aug 23.
 
 Recheck Simple Syllabus and D2L when the courses populate. Exact-section materials supersede reference-only sources when they become available.
 
@@ -137,12 +154,12 @@ confirmed superseded by the current captures above and renamed with the
 
 ## Pre-Semester Punch List — before August 24, 2026
 
-**One gap remains.** Everything else in this file is filed and current.
+✅ **CLOSED OUT 2026-08-24 — no gaps remain.** All five courses hold exact-section sources.
 
 | Gap | Owner | Next check | Trigger |
 |---|---|---|---|
 | ~~PHYS 2211 §54 exact syllabus~~ | — | ✅ **CLOSED 2026-08-18.** The Aug 17 escalation email to Islam worked — the syllabus arrived the next morning | — |
-| **ENGR 1000 BWD D2L dates and execution evidence** | Chris — D2L, then Kamyar Raoufi (`kraoufi@`) if details are absent | Verify BWD in D2L **Aug 24**: dates, weekly order, quiz windows, attendance-quiz behavior, synchronous/asynchronous execution, drop rules, and any instructor variation. Until then use the departmental pattern provisionally and treat AI as prohibited | `SYSTEM_FLAGS.md` #57 |
+| ~~ENGR 1000 BWD D2L dates and execution evidence~~ | — | ✅ **CLOSED 2026-08-24, on day one as planned.** Chris pulled the exact BWD syllabus *and* the separate course-schedule document from D2L. Dates, weekly order, quiz mechanic, async execution, drop rules and AI policy are all answered. **Flag #57's ENGR half is evidence-complete and awaits only Chris's close** | `SYSTEM_FLAGS.md` #57 |
 
 **The escalation is worth recording as evidence, not just as a closed row.** Both emails
 went out Mon Aug 17 after `SEMESTER_MAP.md` established that D2L would not open until Aug
@@ -154,7 +171,7 @@ semester's largest unknown into its best-documented course with six days to spar
 | Course | Policy |
 |---|---|
 | CSE 1321 / 1321L | Prohibited on submitted work |
-| ENGR 1000 | Treat as prohibited on submitted work; all three neighboring Fall 2026 web sections prohibit it, exact BWD still pending |
+| **ENGR 1000 BWD** | **Prohibited — confirmed from BWD's own syllabus 2026-08-24**, no longer inferred. *"Content ... created or assisted by an AI generative tool is cheating and constitutes a violation of the KSU Code of Academic Integrity."* Applies to every submitted assignment and quiz |
 | **PHYS 2211 §54** | **Permitted as a tutoring resource** (explanations, guided technique, examples, clarification); **prohibited in submitted work.** WebAssign is graded — no AI-produced answers |
 | ECON 1000 | Permitted if credited |
 | TCOM 2010 | AI may edit/proofread Chris's existing writing only, with cited usage; it may not draft assignments |

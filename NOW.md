@@ -19,17 +19,23 @@ before learning does.
 
 ### Open now
 
-1. **🔴 Mon Aug 24 — the D2L day-one tab, 12 checks** (`FallKSU.xlsx`). **#1 is the TCOM
-   Ethics Analysis SUBMISSION section** — due Fri Aug 28, its format and filename printed
-   nowhere in the syllabus. Do not assume `.docx`. Also closes **flag #57** (ENGR BWD dates,
-   quiz mechanics, weekly order, sync/async, drop rules). **If D2L lacks them, that absence is
-   the finding** — send Raoufi one dated question, don't wait a week.
-2. **Two graded items AI may not draft.** Tue Aug 25 TCOM instructor email · all CSE and ENGR
-   submitted work. TCOM is the strictest of the five.
-3. **Miss-log rows open going into week 1:** row 1 (TCOM filename literals — the spaced re-rep
-   that slipped Week D, **run cold Mon or Tue**) · row 2 (TCOM policies, open-syllabus before
-   Sep 1) · row 5b (PHYS, one cold circular-motion problem in an unfamiliar setup, Sat Aug 29).
-4. **Still open from Saturday:** `verify_backup_restore.py` into a new empty target. The mirror
+1. **🔴 Tue Aug 25, 11:59 PM — ENGR Week 1 lecture quiz.** Course intro, procedures, Teamwork.
+   **Late work is not accepted for any reason.** Tuesday's schedule leaves almost no room after
+   1321L ends ~19:00, so this belongs to Monday night. *(The CEE Week #1 quiz Chris took ahead
+   on Aug 24 is a different item — weeks 11–12, and working ahead is explicitly permitted.)*
+2. **The D2L day-one tab is partly run** (`FallKSU.xlsx`). ✅ **Its #1 is answered** — the TCOM
+   Ethics Analysis is `Powers_04_Ethics Analysis.docx`, D2L folder only, **MS Word only, Tahoma
+   12**, 10 pts. ✅ **Flag #57's ENGR half is evidence-complete.** 🔴 **Still unrun:** the
+   remaining checks, including **#2, the three Group Charter samples** (five weeks of free lead).
+3. **Two graded items AI may not draft.** Tue Aug 25 TCOM instructor email · all CSE and ENGR
+   submitted work. **ENGR's prohibition is now confirmed from BWD's own syllabus**, not inferred.
+4. **Miss-log rows open going into week 1:** row 1 (TCOM filename literals — the spaced re-rep
+   that slipped Week D, **run cold Mon or Tue**; there are now **five**, not four) · row 2 (TCOM
+   policies, open-syllabus before Sep 1) · row 5b (PHYS, cold circular-motion, Sat Aug 29).
+5. **🔴 `ASSIGNMENT TRACKER` is now short by ~24 ENGR rows** on top of the PHYS gap — ten
+   assignments and fourteen weekly lecture quizzes, none of them tracked. Workbook edit, Chris's
+   hands. **Before Aug 31.**
+6. **Still open from Saturday:** `verify_backup_restore.py` into a new empty target. The mirror
    check does not cover restore, and Git discipline is held at `building` for exactly that reason.
 
 **Held resume points:** PYTHON → **C1**, unrun since Aug 18 — week 1 otherwise gives it
