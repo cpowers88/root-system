@@ -4,8 +4,11 @@ source: "https://kennesaw.view.usg.edu/content/enforced2/4036004-CO.430.TCOM2010
 author:
 published:
 created: 2026-08-24
-description:
-tags:
+description: "Business Email unit — scenarios, filename convention, rubrics for draft (10 pts) and final (100 pts), and the graded AI Usage Statement."
+type: reference
+timeline: reference
+tags: [school, assignment, technical-writing, fall-2026]
+course: TCOM 2010
 ---
 ## TCOM 2010 Business Email Unit
 

@@ -1,3 +1,14 @@
+---
+title: "TCOM 2010 Ethics Analysis Activity"
+source: "D2L — Assignments/ex01.75_Ethics_Activity_Instructions.html"
+created: 2026-08-24
+description: "Ethics Analysis assignment instructions — the authoritative SUBMISSION block: Powers_04_Ethics Analysis.docx, MS Word only, Tahoma 12, plus the four required paragraphs and the 10-point rubric."
+type: reference
+timeline: reference
+tags: [school, assignment, technical-writing, fall-2026]
+course: TCOM 2010
+---
+
 # TCOM 2010: Ethics Analysis Activity
 Purpose
 Ethics are an important concept to master in any workplace setting. They are particularly important in technical writing, as technical writers are often faced with legal or ethical considerations in their writing. You need to consider rights, justice, utility, and care as approaches to ethical dilemmas in your writing.

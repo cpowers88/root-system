@@ -5,7 +5,10 @@ status: active
 tags: []
 ---
 
-# NOW — Monday, August 24, 2026 · 🎓 Fall Semester Week 1
+# NOW — Tuesday, August 25, 2026 · 🎓 Fall Semester Week 1
+
+> **The heaviest day of week 1.** Four graded touchpoints, one of which AI may not draft.
+> Rolled from Aug 24 at that session's close; day one's record is `DAILY_2026-08-24.md`.
 
 ## Active Lane
 
@@ -43,45 +46,41 @@ nothing. PHYSICS → Stage 4 close. Enter a queue at its first unrun row, never 
 
 ## Frontier Changes — clears once shown
 
-- **🎓 FIRST GRADED WORK OF THE SEMESTER IS IN, a day early — and it's an A.** Reading Quiz 01
-  **9/10** (D2L already **dropped** it) · Quiz 02 **10/10** → category **3/3, standing 100%**.
-  `FallKSU.xlsx` § GRADE TRACKER **cell `D9` = 100**. That one number fires the standing block
-  for the first time this semester.
-- **🔴 A PHYS homework is due Mon Aug 31 — `HW1`, 100 pts, late = zero.** Nothing in `.ROOT`
-  had a row for it. Wednesday's WebAssign block is *early*, not urgent — make that on purpose.
-- **⚠ Two day-one questions for Islam, from his own gradebook:** **D2L lists three unit exams,
-  the syllabus schedules four** (the missed-exam buffer depends on four — don't spend it until
-  confirmed) · **HW appears twice** at the same weight, once as a 14-item category and once as
-  the standalone Aug 31 item. Also worth asking: **2.5 points of extra credit exist** and the
-  syllabus never mentions them. On a scale that rounds up at ≥ .1, that is 89 → A.
-- **PHYS 2211 is open in D2L; the other four are not** — and its shell is a recycled
-  `PHYS2211_SP26`, so **a D2L date may be a Spring date.** `D2L DAY ONE` check #10 (§54
-  unit-exam room and time) is answerable tonight.
-- **🔴 Instrument gap: `ASSIGNMENT TRACKER` has no row for weekly WebAssign or any reading
-  quiz** — 0 rows for the two most frequent PHYS graded streams, one of which cannot be
-  recovered if missed. Found because Chris took a quiz nothing was tracking.
-- **PHYSICS syllabus-pace pause ENDED** on its own terms; `semester-pathway` § Phase 2 is the
-  live pacer from today. Stage 4 stays open — miss-log rows 4 and 5b are untouched.
-- **Flags #103 and #104 CLOSED Sun night. No HIGH flags open going into the semester.** #104 was
-  raised, challenged by Chris, re-scoped on git evidence, fixed and closed in one session.
-- **One real second road found and killed:** PHYS had a lecture-paced plan and the one-week-ahead
-  pathway both named as its reading owner. **`04-SCHOOL\README.md` now carries the ten-layer
-  authority chain** — the single answer to "which road."
-- **Week 1's material is loaded into `04-SCHOOL\weekly-study-schedule.html`** block by block, and
-  republished to the same artifact URL. **Its scheduling win: week 1 has no WebAssign due** (HW1 is
-  Aug 31), freeing ~4 h of PHYS blocks already on the calendar → **spend them on Ch 5 + §§6.1–6.2**,
-  the untouched part of Exam 1.
-- 🔴 **Launch risk, unverified: the laptop clone cannot contain the course textbooks.** `.gitignore`
-  excludes `**/raw/` and `*.pdf`, and **zero PDFs are tracked** — so `git pull` brings no Serway, no
-  *Think Python*, no `Open-TC-PDF.pdf`. **Confirm they are physically on the laptop before leaving.**
+- **✅ FLAG #57 IS EVIDENCE-COMPLETE — the semester's last syllabus gap, closed on day one.**
+  Chris pulled BWD's exact syllabus **and a separate course-schedule document** carrying all 14
+  dated items. **All five courses now hold exact-section sources.** Your close is the only step.
+- **🔧 A standing `.ROOT` finding was wrong and is corrected: TCOM *does* have a filename rule** —
+  `Lastname_section#_Name of assignment.docx`, stated in her assignment files, never in the
+  syllabus. **The real hazard: the syllabus and the assignment file disagree about the same
+  assignment.** The assignment file wins — she says so. **Miss-log row 1 is aimed at the retired
+  premise and needs re-aiming Aug 30.**
+- **Friday's biggest unknown is dead.** Ethics Analysis = **`Powers_04_Ethics Analysis.docx`**,
+  D2L folder only, **MS Word only, Tahoma 12**, 10 pts. It is `.docx`; the PowerPoint is her
+  lecture deck. Full spec + the policies and filename references:
+  **`04-SCHOOL\03-TCOM\tcom-spec-card.html`** (published artifact).
+- **ENGR is three assignments bigger than `.ROOT` believed — ten, not seven.** ⏰ **Student
+  Engagement (Tue Nov 3) requires physically attending an event**, inside the protection window
+  with three other ENGR items. It is the only ENGR item that cannot be compressed. **Buy that
+  lead in the weeks 1–4 surplus.**
+- **Gradebook display twice mistaken for a defect:** a 100% ENGR item read as "dropped"
+  (live drop-lowest, one grade in category) and as `0` (not yet released by Raoufi). **No score
+  enters `FallKSU.xlsx` until the gradebook releases it.** Open check: confirm that attempt reads
+  *submitted with timestamp*, not *in progress*.
+- **Still true from Sunday:** `HW1` due **Mon Aug 31**, 100 pts, late = zero · three day-one
+  questions for Islam at Friday's recitation (three exams vs four, HW listed twice, 2.5 undocumented
+  extra-credit points) · PHYS's D2L shell is a recycled `PHYS2211_SP26`, so a D2L date may be a
+  Spring date · Sunday's **`D9 = 100` is still not typed into `FallKSU.xlsx`**.
 
 ## Needs Chris
 
 1. **🔴 Fri Aug 28, 11:45 PM — Day One Access opt-out *and* last day to add/drop**, one moment.
    Recommendation: **do not opt out** — PHYS homework is 10% and runs entirely through
    WebAssign. This is the item that costs money and has no recovery path.
-2. **Flag #102 — close it.** Check ran Aug 23: **zero** conflict copies after a full week of
-   Drive runtime. Your confirmation is the only step left.
+2. ✅ **Flags #57 and #102 CLOSED Aug 25 — no flag is waiting on you now.** 🆕 **#105 raised in
+   their place**, from #102's own residual: Drive still holds a **second, stale `.ROOT` tree**
+   (`G:\My Drive\desktop_folder_maybe\.ROOT`, 16,091 files, Aug 9). Two trees claiming one
+   identity makes "restore from Drive" ambiguous exactly when it matters. 🟢 — **and deliberately
+   not actionable until `verify_backup_restore.py` proves a real restore.**
 3. **⏰ Tue Sep 1 — Phase 2 demands flip-or-explain.** Recommendation: **hold at `planned`**;
    its first proof can't run (no reachable operation to observe). Full reasoning in the phase file.
 4. **Two approval gates carried from Week D** — learner-hub alignment and instruction protocol.
@@ -91,7 +90,14 @@ nothing. PHYSICS → Stage 4 close. Enter a queue at its first unrun row, never 
 
 ## Fixed and Dated
 
-- **Tue Aug 25** — TCOM attendance starts. First 3 unexcused free; the 4th costs ~3.5 points.
+- **TODAY 08:00** ECON 1000, ETC 202 — first meeting · **09:35 TCOM, Atrium 2216 — attendance
+  starts** (first 3 unexcused free; the 4th costs ~3.5 pts; 3 tardies = 1 absence). ⚠ **The
+  `Walk → Atriium 2236` calendar event is still wrong** · **17:45 CSE 1321L**, Atrium 2120.
+- **TODAY, tonight** — **the graded instructor email to Diamond. AI may not draft it.**
+  ⚠ Her syllabus prints two addresses; two of three sources say **`ldiamon@kennesaw.edu`**.
+- **TODAY, three questions for Diamond, in order** — ① the draft filename conflict
+  (`_Draft.docx` vs `_Business Email Draft.docx`) ② D2L folder vs email subject line
+  ③ confirm her address. **Both TCOM quizzes are open-syllabus** (Chris's Aug 20 ruling).
 - **Fri Aug 28** — TCOM Ethics Analysis DUE · first §54 recitation 11:30, Atrium 1116
   (**confirm the unit-exam room and time** — the syllabus prints another section's slot).
 - **Before Sep 21** — an exam-legal scientific calculator. Do you have one?

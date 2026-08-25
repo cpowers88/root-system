@@ -2426,3 +2426,60 @@ week-1 material layer and was republished to its existing artifact URL. **One la
 to Monday rather than resolved:** git carries no `*.pdf` and excludes every `raw\`, so the campus
 laptop clone cannot hold the four course textbooks every reading page cites — unverifiable from
 this machine. `root_health.py` PASS ×4 across the session.
+
+## 2026-08-24 — Day one; flag #57 evidence-complete; a standing TCOM finding corrected
+
+- **Flag #57's ENGR half closed on evidence, on the day the plan said it would.** Chris pulled
+  BWD's exact syllabus **and a separate `COURSE SCHEDULE, Lecture Quizzes & Assignments`
+  document** from D2L. All 14 dated items, the department-per-fortnight structure, the weekly
+  lecture-quiz mechanic, async execution, drop rules and the AI prohibition are now sourced from
+  the registered section. **All five courses hold exact-section sources; the flag awaits only
+  Chris's close.** Owners updated: `SEMESTER_MAP.md`, `SYLLABUS_STATUS.md`, Week 1 plan, `NOW.md`.
+- **The root cause is the part worth keeping.** BWD's own syllabus also says *"See D2L for
+  assignment and quiz due dates."* No ENGR syllabus was ever going to hold them — the answer
+  lived in a differently-**named** second artifact. Every attempt to fetch a better *copy of the
+  syllabus* was structurally incapable of closing the flag. **Ask what document would hold the
+  answer before hunting a better version of the one you have.** This is the Aug 22 conclusion
+  ("D2L is the only source") completed, not overturned: right about location, silent about form.
+- **🔧 A standing `.ROOT` finding was corrected mid-session by new evidence.** *"TCOM has no
+  filename generating rule"* was built on syllabus evidence alone; both assignment instruction
+  files state one — `Lastname_section#_Name of assignment.docx`. **The real defect is narrower
+  and more dangerous: the syllabus and the assignment file disagree about the same assignment.**
+  Her syllabus names the assignment file authoritative. New rule recorded in `SEMESTER_MAP.md`:
+  never name a file from the syllabus alone. **Miss-log row 1 is aimed at the retired premise
+  and needs re-aiming at the Aug 30 return.**
+- **Scope correction, not a flag: ENGR carries ten graded assignments, not seven.** The
+  departmental template omits Reflections #1–#3. ⏰ **Student Engagement (Tue Nov 3) requires
+  physically attending an event** and sits inside the Oct 5 – Nov 11 protection window with three
+  other ENGR assignments — the one ENGR item that cannot be compressed into its due week. Belongs
+  in the Sunday Aug 30 per-course lead read (`OPERATIONS.md` § Reviews 4d).
+- **Academic-integrity boundary exercised and held.** A live ENGR quiz was declined under BWD's
+  own prohibition; the session pointed at the module's source order instead and Chris completed
+  it himself. Recorded because the boundary firing correctly under time pressure is evidence.
+- **Verification:** every owner read before it was written. Two items the session had already
+  written were corrected in-session when Chris's Business Email capture arrived, rather than left
+  standing. Frontier propagation run: Week 1 plan's ENGR rows, `NOW.md` Open now, and the flag
+  register all state the new position; no consumed item is presented as live.
+
+## 2026-08-25 — Chris closed #57 and #102; #105 raised from #102's residual
+
+- **Both remaining Chris-owned flags closed on his ruling. No flag is now parked on his word** —
+  the first time that has been true since the register was split.
+- **#57's close was conditioned, and the condition was checked rather than assumed.** He closed it
+  *"as long as we have reviewed all of the syllabi and are ready to take on the courses."*
+  `SYLLABUS_STATUS.md` § Current-Section Sources was re-read at the moment of closing: all five
+  registered sections hold exact-section sources, plus ENGR BWD. **Verifying a stated condition
+  before acting on it is the direct application of flag #104's lesson** — do not cite an owner you
+  have not read, including when the citation is favourable.
+- **#102 closed on measurement plus Chris's account of the arrangement:** Drive syncs the `C:`
+  `.ROOT` copy and no longer reaches git, after a clean week. **Prohibition 1 survives the closure**
+  and is unchanged in the register.
+- **🆕 #105 raised so the closure would not delete evidence.** #102's row carried a separate,
+  explicitly-noted residual: Drive still holds a second `.ROOT` tree (`G:\My Drive\
+  desktop_folder_maybe\.ROOT`, 16,091 files, Aug 9). **A closing flag takes its whole row with it,
+  so a residual living inside another flag's row is one close away from vanishing.** Now 🟢 with
+  its own owner and check moment, and deliberately gated behind `verify_backup_restore.py`: until
+  a real restore is exercised, a second full copy is insurance rather than clutter.
+- **Three #57 residuals re-homed, not absorbed** — PHYS's gradebook-vs-syllabus contradictions,
+  TCOM's filename and route conflicts, ECON's D2L-owned dates. None is a syllabus gap; all three
+  are carried in `NOW.md` as dated questions for named people.

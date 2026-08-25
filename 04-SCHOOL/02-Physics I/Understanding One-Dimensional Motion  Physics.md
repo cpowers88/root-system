@@ -6,8 +6,13 @@ author:
 published: 2023-05-17
 created: 2026-08-23
 description: "Did you know that a car moving along a straight road is an example of one-dimensional motion? Let's learn more about one-dimensional motion by defining the displacement, velocity and acceleration of a"
+type: reference
+timeline: reference
 tags:
   - "Class VIDEO"
+  - school
+  - fall-2026
+course: PHYS 2211
 ---
 ![](https://www.youtube.com/watch?v=j2TstVMMKA8)
 
