@@ -2,13 +2,13 @@
 type: dashboard
 timeline: now
 status: active
-generated: 2026-08-28
+generated: 2026-08-29
 ---
 
-# Evening Reading — Friday, August 28, 2026
+# Evening Reading — Saturday, August 29, 2026
 
 ## School
 
-**READ —** *Think Python* Ch 1 "Running Python"/"The First Program" and Ch 4 "A Development Plan," `03-WIKIS\PYTHON\raw\books\thinkpython.pdf`, physical pp. 23–32 and 57–68.
-**FOCUS —** **Wk 1 🟢** — CSE, Friday rotation slot; CSE's quizzes close Sunday, so tonight is the last cheap night before that window shuts.
-**STOP —** end of Ch 4 "A Development Plan" (physical p. 68), or 20 minutes, whichever comes first.
+**READ —** PHYS §§3.1–3.4 Vectors, `03-WIKIS\PHYSICS\raw\textbook\physic(full_book).pdf`, local split-file `0001-0100` pp. 83–97 and 99–100.
+**FOCUS —** **Wk 1 🟢** — TCOM's Week 1 reading is already finished, so tonight's slot moves to PHYS, priming Monday Aug 31's lecture under the one-week-ahead rule.
+**STOP —** end of §3.4, before §4.1 begins, or 20 minutes, whichever comes first.

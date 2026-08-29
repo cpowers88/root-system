@@ -22,7 +22,15 @@ Institute of Industrial and Systems Engineers Code of Ethics
 Ethical Principles for Technical Writing - Chapter 3 in our textbook
 IEEE Code of Ethics
 ACM (Association for Computer Machinery) Code of Conduct
-Share a link to the code of ethics that applies to your own field and discuss in several short paragraphs. Do not use slang, contractions, or colloquialisms.
+(3) Share a link to the code of ethics that applies to your own field.
+
+(4) Discuss the following in several short paragraphs. Do not use slang, contractions, or colloquialisms.
+
+<!-- RESTORED 2026-08-29: this filed copy had merged tasks (3) and (4) into one sentence and
+     dropped their numbering, so the page read as tasks 1, 2, 5. Both inbox captures number
+     them separately. Same flattening defect as the two corrected on 2026-08-27 — restored
+     before the captures were cleared. -->
+
 
 You must provide at least one paragraph (1-3 sentences) about each of the 4 topics listed below. (Each sentence should have 1 subject & 1 verb only. Use additional line spacing between paragraphs to show where one paragraph ends and another begins. Do NOT indent!)
 
