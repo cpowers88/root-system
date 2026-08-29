@@ -26,7 +26,7 @@ updated: 2026-08-20
 
 | Course | Source certainty | Study material | Blocking gap |
 |---|---|---|---|
-| **ECON 1000** | 🟢 exact-section syllabus, dates cross-verified twice | Semester map, drills, flashcards, glossary, reading-guides | Real textbook is D2L-locked |
+| **ECON 1000** | 🟢 exact-section syllabus, dates cross-verified twice; **Ch 2–3 now confirmed against the real D2L module (2026-08-28)** | Semester map, drills, flashcards, **two glossaries**, reading-guides | ~~Real textbook is D2L-locked~~ **closed for Ch 2–3.** Ch 4–12 mapping still inferred |
 | **TCOM 2010** | 🟢 exact-section syllabus — **but its printed dates are recycled Spring dates** | Six pages built 2026-08-13 on the ECON/PHYSICS pattern; **all 14 weeks now dated** | ~~Weeks 6–15 not extracted~~ **closed 2026-08-18.** Remaining: confirm the derived dates in D2L Aug 24 |
 | **ENGR 1000** | 🟡 departmental template inferred from three Fall 2026 web sections; BWD execution evidence still missing | BWB/BWC/BWF byte comparison; weekly D2L-check method | BWD dates, weekly order, quiz and attendance behavior, delivery mode, and instructor-specific execution |
 
@@ -59,8 +59,28 @@ Patrono) is **D2L Day One Access-only.** The semester map substitutes OpenStax a
 whose chapter alignment is **inferred, not verified.** Spot-check it when D2L opens — and update
 that page then, not before.
 
-**Ceiling until Aug 24:** Chapters 1–3 readiness and light retrieval. **Not** inferred
-Chapters 4–12, and not early macro study.
+### ✅ The spot-check ran 2026-08-28 — for Chapters 2 and 3 only
+
+Chris pulled Kelani's **Week 2 D2L content module** (14 files, filed to
+`04-SCHOOL\04-ECON\modules\week-02-ch2-3\` with the original D2L filenames intact, so
+`Table of Contents.html` works as a local index). **The map needed zero corrections** — the
+module's instruction page reads *"Week 2 – Chapter 2 and Chapter 3"* and carries both chapter
+titles exactly as the syllabus prints them.
+
+- **The OpenStax/CORE substitution is retired for Ch 2–3** and remains inferred for Ch 4–12.
+  Do not generalize two confirmed chapters into a verified book.
+- **The eBook is reachable and paginated** — her Ch. 3 guide cites Tables 3.1/3.3/3.4 on
+  pages 55/58/60. First evidence in the vault that Day One Access actually opened.
+- **Her two study guides carry ~44 MCQs with full answer keys.** That is the retrieval
+  instrument; it stays in her files and was not copied into the wiki. Terms and the
+  opportunity-cost method are extracted to [[courses/econ-1000/glossary/ch2-3-terms]].
+- **⚠ Lecture content is testable and not in the files.** Ch. 3 MCQ #9 is answerable only
+  "based upon the discussion in lecture." ECON attendance is ungraded — this is the first
+  concrete cost of skipping a session.
+
+**Ceiling:** ~~until Aug 24~~ Chapters 1–3 readiness and light retrieval. **Not** inferred
+Chapters 4–12, and not early macro study. Per `HAT_ECON.md`, ECON is **calendar-protected,
+not deeply studied** — the risk is missing the Sep 8 quiz, not misunderstanding a PPF.
 
 ## TCOM 2010 — real material, unreliable dates
 
@@ -208,5 +228,7 @@ ECON has eight bounded preparation blocks; **ENGR is held to August 24 on Chris'
 
 ## Next review
 
-**Aug 24**, when D2L opens — the first moment any 🔴 above can actually close. Before then, the
-only available action is a direct instructor email (flag #57, escalation date Aug 17).
+~~**Aug 24**, when D2L opens~~ — **that review ran.** Next: **Sun Aug 30**, the first live
+grade-and-miss return (`CASTLE\OPERATIONS.md` § Reviews 4). Standing per-week action for ECON:
+when each D2L content module posts, re-run the Aug 28 spot-check against that week's row of
+[[courses/econ-1000/semester-map]] — **one week at a time, on evidence.**

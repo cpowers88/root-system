@@ -836,3 +836,51 @@ history.
 dates, weekly order, quiz windows, attendance-quiz behavior, delivery mode, drop rules, and
 any Raoufi-specific variation. If D2L omits those details, record the absence and send one
 specific dated question.
+
+## 2026-08-28 — ECON Week 2 module ingested; the D2L spot-check ran and the map held
+
+Chris dropped Kelani's Week 2 D2L content module into `77-INBOX` — **14 files, a complete
+export**: the instruction page, two lecture decks per chapter, a definitions sheet, a
+two-person/two-good worked handout, two study guides, and four embedded videos. Filed to
+**`04-SCHOOL\04-ECON\modules\week-02-ch2-3\`** (KSU gave it → `04-SCHOOL`, per
+`WHERE_IT_GOES.md`'s provenance tiebreaker), hash-verified 14/14. **Original D2L filenames
+were kept deliberately** — `Table of Contents.html` links to its siblings by name, so
+preserving them turns the export's own index into a working local navigation page. Renaming
+to house style would have broken it for no gain.
+
+### The standing spot-check discharged — for two chapters, not the book
+
+`current-position.md` and the semester map both carried the same open instruction since July:
+the OpenStax/CORE chapter mapping is **inferred**, spot-check it when D2L opens. **It ran, and
+the map needed zero corrections.** The module is titled *"Week 2 – Chapter 2 and Chapter 3"*
+and carries both chapter titles verbatim as the syllabus prints them. The substitution is
+**retired for Ch 2–3 only**; Ch 4–12 stays inferred and gets the same check, one week at a
+time, as each module posts. Two confirmed chapters are not a verified textbook.
+
+### Four findings the module produced
+
+1. **The Day One Access eBook is reachable and paginated** — her Ch. 3 guide cites Tables
+   3.1/3.3/3.4 at pages 55/58/60. First evidence in the vault that it actually opened.
+2. **Her study guides carry ~44 MCQs with full answer keys** (~20 Ch. 2, 24 Ch. 3) — almost
+   certainly the format source for the Sep 8 quiz. **Not copied into the wiki**: it is the
+   retrieval instrument, and duplicating it converts a cold test into a reread.
+3. **⚠ Lecture content is testable and absent from the files.** Ch. 3 MCQ #9 is answerable
+   only "based upon the discussion in lecture." ECON attendance is ungraded, which makes this
+   the first measured cost of skipping a session.
+4. **A small source conflict, recorded not reconciled:** her guide prints Adam Smith as
+   *(1721-1790)*; standard references say 1723. Her document is the exam standard, so it is
+   recorded as she wrote it with the discrepancy flagged — her MCQ tests *18th-century
+   Scottish*, not the birth year.
+
+### Built
+
+[[courses/econ-1000/glossary/ch2-3-terms]] — her definitions near-verbatim (her distractors
+are built by altering her own wording, so paraphrase is actively harmful here), the
+**opportunity-cost computation as a skeleton** with the "the two comparative advantages must
+land on different people" self-check, and the specific confusions her question bank targets.
+Per `HAT_ECON.md` this stays light-touch: ECON is calendar-protected, not deeply studied.
+
+**Next exact action:** run her Ch. 2 bank cold with the key covered, then Ch. 3. Misses return
+to the glossary for the *why*; a repeated miss goes to `04-SCHOOL\miss-log.md`. Target is
+**Quiz 1, Tue Sep 8, 23:00 ET** — and Quiz 1 is one of the two that get dropped, so it is the
+cheap diagnostic that teaches the format.

@@ -16,7 +16,10 @@ course: TCOM 2010
 
 **Scenario:**
 
-This assignment has three options. Your scenario is dependent on the option you choose:
+<!-- CORRECTED 2026-08-27: this line read "three options" while listing two. Two independent
+     re-captures from the same D2L page on 2026-08-27 both read "two options". Restored to
+     source truth. The error was introduced in this filed copy on 2026-08-24, not by D2L. -->
+This assignment has two options. Your scenario is dependent on the option you choose:
 
 - ***Directive***: You are a manager at a company related to your major. You have had to change or add a policy or procedure due to some problem at work. You need to write a directive to the employees at your company to inform them of the new policy or procedure. [SAMPLE DIRECTIVE](https://kennesaw.view.usg.edu/content/enforced2/4036004-CO.430.TCOM2010.85633.20272/MS_Word_Documents/SampleDirective.docx?isCourseFile=true)
 - ***Incident Report***: You are an employee at a company related to your major. An incident (accident, injury, mistake, breach, etc.) occurred at work and you need to write an incident report addressed to your supervisor to inform him or her of the occurrence. [SAMPLE INCIDENT REPORT](https://kennesaw.view.usg.edu/content/enforced2/4036004-CO.430.TCOM2010.85633.20272/MS_Word_Documents/SampleIncidentReport.docx?isCourseFile=true)

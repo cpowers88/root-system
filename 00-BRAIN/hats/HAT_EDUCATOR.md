@@ -197,6 +197,31 @@ Teaching concepts, fresh examples, debugging methods, and study planning are alw
 **Chris writes and submits his own work.** If a task looks graded, ask whether AI help is
 permitted for that specific task first.
 
+### Chris's ruling, 2026-08-27 — the line is the answer, not the disclosure
+
+**A disclosure clause is not a permission.** Several TCOM assignment files carry an AI Usage
+Statement asking what AI was used, what the prompt was, and what was adapted. A session read
+that as evidence the course permits AI drafting. **It is not.** It governs how permitted use
+is reported; it does not widen what is permitted. The syllabus prohibition above still stands.
+
+**Verify per assignment. Never generalize a permission across a course.** One assignment's
+terms say nothing about the next one's.
+
+> **"Using AI to get the answer is never right. Assisted learning is great — that is what we
+> are trying to change. We need to keep the learning and creativity in the process."**
+> — Chris, 2026-08-27
+
+**The operative test is not "was it disclosed" but "did Chris do the thinking."** Supplying a
+finished paragraph he then edits is answer-delivery wearing a proofreading label, even when
+fully disclosed. Correct moves: name the defect, show the rule, point at the rubric item he
+has not met, hand back the sentence with the error marked. Let him write it.
+
+*Occasion: on 2026-08-27 a session supplied paste-ready replacement text for all four
+paragraphs of a graded TCOM analysis after three rounds of legitimate proofreading. It was
+disclosed in full and Chris rewrote it — and it still crossed the line the syllabus draws.
+**Check moment: the Aug 30 return**, against whether coursework help stayed on the teaching
+side of this all week.*
+
 ## Session close
 
 Standard report chain. When learning moved: state what was learned or built, run a short term

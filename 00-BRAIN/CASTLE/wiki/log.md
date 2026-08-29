@@ -2483,3 +2483,42 @@ this machine. `root_health.py` PASS ×4 across the session.
 - **Three #57 residuals re-homed, not absorbed** — PHYS's gradebook-vs-syllabus contradictions,
   TCOM's filename and route conflicts, ECON's D2L-owned dates. None is a syllabus gap; all three
   are carried in `NOW.md` as dated questions for named people.
+
+## 2026-08-27 — Campus access architecture reviewed; Campus Bridge proposed
+
+- **Verdict:** `.ROOT` is structurally healthy; the semester problem is an unbuilt interface
+  between a home control plane and an independent campus execution plane, not a reason for a
+  vault-wide rebuild. Canonical `root_health.py --verbose` passed in every named scope.
+- **Five operating models compared.** Recommendation: retain the desktop as canonical and the
+  laptop as an AI-clean coursework surface; pair one generated campus brief and one metadata-only
+  return packet with a separate KSU OneDrive course-binary workspace. Full peer `.ROOT`, remote
+  desktop, whole-vault Obsidian Sync, and the unchanged clone-only model are rejected as defaults.
+- **Nothing activated.** The course-workspace placement exception and two small interfaces are
+  structural changes and await Chris's ruling. Proposed four-day pilot and keep/modify/revert gate:
+  [[campus-execution-interface-decision-2026-08-27]].
+- **Control returned to the cockpit.** `NOW.md`'s Active Lane still resolves to the live Week 1
+  plan and school remains the priority; this report does not displace the TCOM Ethics Analysis or
+  Friday's Day One Access decision. Existing uncommitted `MORNING_BRIEF.md`, `EVENING_READING.md`,
+  TCOM assignment, and CSE note changes were not touched.
+
+## 2026-08-28 — ECON Week 2 module routed; the July "spot-check when D2L opens" instruction closed
+
+- **A four-week-old open instruction was discharged on evidence rather than by expiry.** Both
+  EDUCATION owner files carried the same standing note since July 21: the ECON chapter mapping
+  is *inferred*, re-check it when D2L opens. Chris's Week 2 module drop was the first material
+  that could close it. **It ran; the map held with zero corrections** — and it is closed for
+  **Chapters 2–3 only**, with Ch 4–12 explicitly left inferred. Owner truth:
+  `03-WIKIS\EDUCATION\wiki\courses\econ-1000\semester-map.md`.
+- **Routing decision worth recording:** the 14 files kept their original D2L filenames because
+  the export's `Table of Contents.html` links to its siblings by name. House-style renaming
+  would have broken the module's own index to satisfy a convention that exists to aid
+  retrieval. `WHERE_IT_GOES.md`'s "no unilateral renames" rule covers this; naming it here
+  because the same choice recurs every week this semester.
+- **No sequencing change and no lane switch.** ECON is ranked fourth of five and is
+  calendar-protected, not deeply studied (`HAT_ECON.md`). This intake buys the **Sep 8 Quiz 1**
+  lead early; it does not displace today's TCOM Ethics Analysis or tonight's Day One Access
+  decision.
+- **⏰ Surfaced for the Aug 30 return, not acted on:** `NOW.md` is dated **Tue Aug 25** and has
+  not rolled in three days, while carrying a **Fri Aug 28 11:45 PM** item in Needs Chris. The
+  cockpit's own rule is that `Open now` holds open items only. Not rewritten mid-session — a
+  cockpit refresh is session-close work and this session's mandate was an ECON intake.

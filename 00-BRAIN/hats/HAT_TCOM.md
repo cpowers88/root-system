@@ -42,8 +42,22 @@ Marietta**, agreeing with the calendar event. Against: Academic 202 (registrar),
 assignments go to D2L and email attachments are not accepted, but it also contains a real
 contradiction for the Business Email Draft: one row says D2L `.docx`; another says an email
 with a specified subject. The Business Email Final prints a filename but no channel.
-**Resolve the Draft with Diamond and verify the Final in D2L; do not infer either.** The Week 1
-instructor email and the Week 10 Progress Report are clearly email-body deliverables.
+The Week 1 instructor email and the Week 10 Progress Report are clearly email-body deliverables.
+
+> ### ✅ RESOLVED 2026-08-27 — the Business Email assignment file settles both, and it wins
+>
+> The assignment page itself (`04-SCHOOL\03-TCOM\TCOM 2010 Technical Letter Assignment.md`,
+> captured from D2L 2026-08-27) states the channel and the filename for **both** halves.
+> Per the standing rule — *the assignment file outranks the syllabus, because her syllabus
+> says so* — this retires the question. **Do not ask Diamond about it.**
+>
+> | Item | Filename | Channel | Points |
+> |---|---|---|---|
+> | Business Email **Draft** | `Powers_04_Business Email Draft.docx` | D2L **Draft** folder | 10 |
+> | Business Email **Final** | `Powers_04_Business Email Final.docx` | D2L **Business Email Final** folder | 100 |
+>
+> **Neither is an email.** The syllabus's email-subject row is the superseded claim.
+> **Both are Word documents in Tahoma 12.**
 
 > *"I do NOT accept email attachments for any assignment."* Never email a document attachment
 > for anything else.
@@ -60,13 +74,18 @@ Section is **04**; `Section#` is a placeholder and must be substituted.
 
 > **⚠ Corrected 2026-08-19 — that pattern is a FALLBACK, not a rule, and treating it as a rule
 > is the graded trap.** The four strings the syllabus actually prints each break it
-> differently: `Powers_04_Draft.docx` · `Powers_04_Business Email Final.docx` ·
+> differently: ~~`Powers_04_Draft.docx`~~ · `Powers_04_Business Email Final.docx` ·
 > `Powers_04_DocRedesign.docx` · `PowersChenAlvarez_04_Instructions draft.docx`.
 > **`draft` is lowercase, `Final` is capitalised. `DocRedesign` is abbreviated and closed up.
 > Only the group project concatenates surnames.** The filename is also not the assignment's
 > *title*. **Copy the exact string; never derive one.** Use the fallback only when no string
 > is printed — and check the assignment's **SUBMISSION** section in D2L first, which the
 > syllabus says every assignment has.
+>
+> **🔧 Superseded 2026-08-27:** the syllabus's `Powers_04_Draft.docx` is **wrong**. The
+> assignment file prints `Powers_04_Business Email Draft.docx` — and the assignment file
+> outranks the syllabus. **This strengthens the rule rather than weakening it:** the syllabus
+> string looked plausible and was still the wrong one to copy.
 >
 > Complete list and the full assignment×channel table:
 > `03-WIKIS\EDUCATION\wiki\courses\tcom-2010\concepts\course-policies-and-file-naming.md`.

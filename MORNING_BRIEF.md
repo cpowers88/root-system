@@ -1,14 +1,17 @@
 ---
+
+The complete Markdown content for `MORNING_BRIEF.md`:
+---
 type: dashboard
 timeline: now
 status: active
-generated: 2026-08-25
+generated: 2026-08-29
 ---
 
-# Tuesday, August 25, 2026
+# Saturday, August 29, 2026
 
-**ATTENTION**: The graded TCOM instructor email to Diamond tonight is AI-prohibited to draft — Chris writes, AI proofreads after, per `NOW.md`.
+**ATTENTION**: `NOW.md` has not rolled since Tue Aug 25 and still carries the passed Fri Aug 28 opt-out/add-drop item as open.
 
-**START**: Submit the ENGR Week 1 lecture quiz before 11:59 PM tonight, per Week 1 of `04-SCHOOL\semester-workload-plan.md`, since late work is never accepted.
+**START**: Run the miss-log row 5b cold circular-motion rep due today, tracked in `04-SCHOOL\miss-log.md`, inside Week 1 of `04-SCHOOL\semester-workload-plan.md`.
 
-**CHRIS**: Decide by Fri Aug 28, 11:45 PM whether to opt out of Day One Access — recommendation is do not opt out, per `NOW.md`.
+**CHRIS**: None before start.

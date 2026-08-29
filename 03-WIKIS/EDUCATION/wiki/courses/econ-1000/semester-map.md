@@ -3,9 +3,10 @@ type: map
 timeline: now
 tags: [school, econ-1000, provisional]
 created: 2026-07-21
+updated: 2026-08-28
 ---
 
-# ECON 1000 — Provisional Semester Resource Map
+# ECON 1000 — Semester Resource Map
 
 **Confidence tier: lower than `../tcom-2010/semester-map.md`.** The real
 schedule and grading below are confirmed from the exact-section syllabus
@@ -16,12 +17,51 @@ This map substitutes two free open textbooks whose topics broadly overlap;
 it is **not** verified against the real book's actual chapter numbering or
 emphasis, and must be re-checked once D2L opens.
 
+## ✅ Spot-check run 2026-08-28 — Chapters 2 and 3 confirmed against the real course
+
+**The standing "spot-check this map once D2L opens" instruction is now discharged for
+Chapters 2 and 3, and only for those two.** Chris pulled Kelani's Week 2 D2L content module
+(14 files) on Aug 28; it is filed at **`04-SCHOOL\04-ECON\modules\week-02-ch2-3\`**, with
+`Table of Contents.html` working as a local index because the original D2L filenames were
+preserved.
+
+**Result: zero corrections needed.** The module's own instruction page is titled *"Week 2 –
+Chapter 2 and Chapter 3"* and names exactly the two chapters this map's Week 2 row predicted,
+with the same titles the syllabus prints:
+
+| This map predicted | The real module says | Verdict |
+|---|---|---|
+| Week 2 (9/1, 9/3) = Ch 2 *Fundamental Questions & Gains from Specialization* + Ch 3 *Economic Systems: Capitalism v. Socialism* | identical, both titles verbatim | ✅ confirmed |
+| Quiz Ch. 1-2-3 on Tue **Sep 8** | unchanged | ✅ confirmed |
+
+**What changes as a result:**
+
+1. **The OpenStax/CORE substitution is retired for Chapters 2–3.** Real lecture decks,
+   definition sheets, and the professor's own question banks are in hand — a stand-in
+   textbook is now strictly worse than the assigned material. **The OpenStax column below
+   remains inferred and unverified for Chapters 4–12.**
+2. **The real textbook's pagination is now partly visible.** Her Ch. 3 study guide cites
+   *Table 3.1 on Page 55*, *Table 3.3 on Page 58*, and *Table 3.4 on Page 60* — the first
+   confirmation in the vault that the Day One Access eBook is reachable and paginated.
+3. **Her study guides carry answer keys.** Ch. 2 ≈ 20 MCQ, Ch. 3 = 24 MCQ, both with keys.
+   Terms and the opportunity-cost method are extracted to
+   [[courses/econ-1000/glossary/ch2-3-terms]]; **the question banks are not copied — they are
+   the retrieval instrument and stay in her files.**
+4. **⚠ One item is lecture-only.** Her Ch. 3 MCQ #9 (U.S. position on the
+   socialism↔capitalism continuum) is answerable only "based upon the discussion in lecture."
+   Attendance is ungraded in ECON, but the lectures demonstrably carry testable content the
+   handouts do not.
+
+**Still unverified:** Chapters 4–12 chapter numbering, emphasis, and the OpenStax mapping.
+Re-run this same check when each week's module posts — **one week at a time, on evidence**,
+not by inferring the rest of the book from two confirmed chapters.
+
 ## Week-by-Week Map
 
 | Week / Date | Real deliverable (confirmed syllabus) | OpenStax *Principles of Economics 2e* — expected chapter (Ch. 1 fetched/confirmed; rest inferred from the book's standard structure, not independently fetched this session) | CORE Econ *The Economy 2.0* — confirmed unit (full TOC fetched) | FRED dataset tie-in |
 |---|---|---|---|---|
 | 1 (8/25, 8/27) | Intro; Ch 1 Foundations of Economics | Ch. 1, Welcome to Economics (confirmed) | Micro Unit 1: Prosperity, inequality, planetary limits | — |
-| 2 (9/1, 9/3) | Ch 2 Fundamental Questions & Gains from Specialization; Ch 3 Economic Systems (Capitalism v. Socialism) | expected: "Choice in a World of Scarcity" + "International Trade" chapters | Micro Unit 2: Technology and incentives; Micro Unit 5: Rules of the game | — |
+| 2 (9/1, 9/3) | Ch 2 Fundamental Questions & Gains from Specialization; Ch 3 Economic Systems (Capitalism v. Socialism) | ✅ **substitution retired — use the real module**, `04-SCHOOL\04-ECON\modules\week-02-ch2-3\` | ✅ substitution retired | — |
 | 3 (9/8) | Quiz Ch. 1-2-3 | (review only) | (review only) | — |
 | 3–4 (9/10, 9/15) | Ch 4 Organizing Principles of Capitalist System | expected: "Demand and Supply" / market-structure chapters | Micro Unit 6–8: The firm and its employees/customers | — |
 | 4 (9/17) | Ch 5 Surplus, Efficiency, Deadweight Loss | expected: "Labor and Financial Markets" / elasticity-adjacent chapter | Micro Unit 8: Supply and demand — many buyers and sellers | — |

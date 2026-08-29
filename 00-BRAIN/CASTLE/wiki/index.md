@@ -38,6 +38,7 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 - [[source-map]] — roadmap-shaping evidence
 - [[opportunity-queue]] — opportunities moving from evidence to test or harvest
 - [[root-architecture-evidence-refinery-2026-07-24]] — superseded interim hypothesis register produced before the full eight-source intake; retained for traceability, not implementation authority
+- [[campus-execution-interface-decision-2026-08-27]] — proposed Fall 2026 control-plane/campus-execution split; compares five access models and recommends a four-day Campus Bridge pilot
 - `00-BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\SESSION_INDEX.md` — canonical final architecture packet, implementation authority, and review handoff
 - [[log]] — append-only CASTLE history
 

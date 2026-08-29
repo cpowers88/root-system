@@ -21,9 +21,13 @@ Canonical catalog for general KSU course support. Current status lives in
 
 ## ECON 1000
 
-- [[courses/econ-1000/semester-map|Semester Resource Map]]
+- [[courses/econ-1000/semester-map|Semester Resource Map]] — **Ch 2–3 confirmed against the
+  real D2L module 2026-08-28, zero corrections**; Ch 4–12 mapping still inferred
+- [[courses/econ-1000/glossary/ch2-3-terms|Chapters 2–3 Glossary]] — **live now.** Kelani's
+  own definitions near-verbatim, the opportunity-cost computation skeleton, and the
+  distractors she actually builds. Feeds **Quiz 1 (Ch. 1-2-3), Tue Sep 8**
 - [[courses/econ-1000/reading-guides/great-depression-cpi|Great Depression and CPI Reading Guide]]
-- [[courses/econ-1000/glossary/macro-terms|Macroeconomics Glossary]]
+- [[courses/econ-1000/glossary/macro-terms|Macroeconomics Glossary]] — parked until Ch 7–11
 - [[courses/econ-1000/flashcards/gdp-inflation-unemployment|GDP, Inflation, and Unemployment Flashcards]]
 - [[courses/econ-1000/drills/cpi-and-depression-reasoning|CPI and Depression Reasoning Drill]]
 

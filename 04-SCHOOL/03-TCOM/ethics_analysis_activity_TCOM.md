@@ -30,6 +30,22 @@ Similarities and direct connections to ethics for technical writers in compariso
 Differences or exclusions: Why might these differences exist?
 Anything notable to add (you must state that there is or is not something notable)
 Any areas of potential confusion or misinterpretation between the code of ethics for your field & the technical writer code of ethics
+
+(5) Fill out the following at the bottom of the assignment:
+
+- **Did you use AI?** Be honest. Lying will invalidate your assignment.
+	- Non-AI users will need to reflect on your writing process and how any non-AI tools aided you.
+		- If you used AI, you will need to answer the AI Use Statement for the assignment.
+		- What AI you used?
+				- What was your prompt?
+				- What did you adapt from the output?
+				- Did you verify your output, as AI makes mistakes?
+
+<!-- ADDED 2026-08-27: task (5) and the AI clause in rubric item 6 were MISSING from this filed
+     copy. Restored from a fresh capture of the same D2L page taken 2026-08-27. The omission
+     mattered: it is the evidence that AI use IS permitted here with disclosure, against the
+     stricter "AI may not draft anything" claim standing elsewhere in .ROOT. -->
+
 Submission
 D2L only in the Ethics Analysis assignment folder
 File naming convention: StudentLastName_section#_Ethics Analysis.docx
@@ -45,4 +61,4 @@ Out of 10 points:
 (2 points) State the differences of your field's Code of Ethics to the Technical Writing Code of Ethics (see the PowerPoint linked in this assignment) and why they might exist
 (2 points) State any notable information which relates to the two different codes that you are comparing & contrasting
 (2 points) State any areas of possible misinterpretation or confusion between these two codes of ethics
-(1 point) Spacing, Grammar, Formatting, Phrasing, Punctuation
+(1 point) Spacing, Grammar, Formatting, Phrasing, Punctuation for non-AI users, as well as how any non-AI tools helped you; for AI users, discuss your prompt, how you adapted the output, and how you verified the output.

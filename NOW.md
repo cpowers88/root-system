@@ -46,6 +46,13 @@ nothing. PHYSICS → Stage 4 close. Enter a queue at its first unrun row, never 
 
 ## Frontier Changes — clears once shown
 
+- **✅ ECON's July "spot-check the map when D2L opens" instruction is CLOSED for Ch 2–3.**
+  Week 2's D2L module (14 files) is filed at `04-SCHOOL\04-ECON\modules\week-02-ch2-3\`; the
+  inferred map needed **zero corrections**. Terms + the opportunity-cost skeleton:
+  `03-WIKIS\EDUCATION\wiki\courses\econ-1000\glossary\ch2-3-terms.md`. **Her two study guides
+  carry ~44 MCQs with answer keys** — that is the Sep 8 Quiz 1 rehearsal, already in hand.
+  ⚠ One Ch. 3 question is answerable **only from lecture**; ECON attendance is ungraded, so
+  that is a real cost to skipping a session. Ch 4–12 mapping stays inferred.
 - **✅ FLAG #57 IS EVIDENCE-COMPLETE — the semester's last syllabus gap, closed on day one.**
   Chris pulled BWD's exact syllabus **and a separate course-schedule document** carrying all 14
   dated items. **All five courses now hold exact-section sources.** Your close is the only step.
