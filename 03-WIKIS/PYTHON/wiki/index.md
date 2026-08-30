@@ -45,7 +45,9 @@ Stage 4b. The exact learner frontier lives only in [[current-position]].
 
 - `concepts/` — concept pages.
 - `code-patterns/` — reusable syntax and decision patterns.
-- `drills/` — small practice tasks.
+- `drills/` — small practice tasks. **Live course overlay:**
+  [[drills/cse-module-0-algorithmic-thinking]] — un-gated Module 0 reps following the
+  CSE lecture (added 2026-08-30; targets Quiz 1 Sep 6 and Test 1 Oct 5).
 - `flashcards/` — flashcard-ready Q/A.
 - `glossary/` — term pages; alphabetical index at [[glossary/index]].
 - `mini-projects/` — stage proof projects.

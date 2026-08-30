@@ -2087,3 +2087,19 @@ mastery moved. Exact frontier remains **Stage 4b, nothing read yet**.
 Run Week 0: read [[stages/stage-04b-python-libraries]], complete the standard-library drill,
 and prove one imported function behind Chris's own wrapper. On August 24, reconcile the plan
 against live D2L dates, weights, lab exams, technology, and tutoring-credit procedure.
+
+## 2026-08-30 — Module 0 overlay drill built at the Sunday return (Chris-approved)
+
+The 2026-07-25 mismatch — Module 0 taught in lecture week 1, drilled only at Stage 7 —
+closed the week it finally cost something: the instructor assigned algorithmic thinking on
+2026-08-29 and the vault had no home for it. Built
+[[drills/cse-module-0-algorithmic-thinking]] as a **course-overlay drill following the
+lecture, not the spine** (trace/predict · pseudocode-not-narration · boundary/initialization
+selection, with the reasonableness-check close on every rep). Un-gated; targets Quiz 1
+(Sun Sep 6) and Test 1 (Mon Oct 5); Stage 7's spine drill unchanged. `current-position.md`
+updated in the same pass — its "still open" list now carries only Module 7 and the
+beyond-course labelling. Learner truth unmoved: **Stage 4b, C1 still the resume point,
+unrun since Aug 18.** The 2026-08-29 rep's open `4` is carried into the drill's first block.
+
+**Next exact action:** run the drill's first block (2×A, 1×B, 3×C — open with the
+unfinished `4`), then C1.

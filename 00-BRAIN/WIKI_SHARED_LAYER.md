@@ -64,6 +64,22 @@ disappears is its own failure class.
    priority. After creating or editing wiki frontmatter, also run
    `python 00-BRAIN\scripts\frontmatter_audit.py --baseline 00-BRAIN\scripts\frontmatter_baseline.json`
    and resolve every new finding before close.
+9. **Verify captures on content, not existence (added 2026-08-30, Chris-approved).**
+   A file routed from `77-INBOX` — a D2L export, a web capture, a converted
+   document — is not filed until the *filed copy* passes three checks:
+   **(a) open it and read it** — a body that is page chrome, a session-timeout
+   shell, or an `<iframe>` tag with no content is an empty capture, not a source;
+   **(b) count its structure against the live original** — sections, numbered
+   tasks, rubric items, options ("three options" listing two is how one defect
+   was caught); **(c) never assert a fact from the filed copy alone when the
+   claim is about graded work** — re-open the original. A capture that fails any
+   check is filed with `status: incomplete-capture` in frontmatter and named in
+   the session close, never left looking whole. *Why this is a rule and not
+   advice: seven aid defects in eleven days (2026-08-19 → 08-29), five of them
+   introduced or concealed at filing, each one teaching wrong facts about graded
+   work until caught — evidence recorded in `04-SCHOOL\miss-log.md` § aid
+   defects. The pattern's common shape: a source verified on one property
+   (it exists, it has the right name) and then trusted on another (its content).*
 
 ---
 

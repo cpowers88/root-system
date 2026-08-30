@@ -80,7 +80,10 @@ dress rehearsal by routing one real file through a `work\` bay.**
 automatic Obsidian clipper output both land here (`Clippings\` retired
 2026-07-24; the Obsidian clipper setting now points here instead). Review
 weekly and move keepers to one permanent home; it is not a storage
-destination.
+destination. **Routing out of the inbox includes the capture-verification
+check — `00-BRAIN\WIKI_SHARED_LAYER.md` rule 9 (added 2026-08-30): the filed
+copy is opened and verified on content, not existence, before the capture is
+treated as held.**
 
 ---
 

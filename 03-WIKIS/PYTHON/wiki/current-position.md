@@ -238,8 +238,17 @@ renamed**, so every existing link still resolves:
 | M5.1 + dictionaries | Lecture Wk 10–11; Labs 9–10 | [[stages/stage-05-data-shapes]] |
 | M5.2 — searching & sorting | Lecture Wk 11, Quiz 6; Lab 10 | [[stages/stage-05b-searching-and-sorting]] |
 
-Still open from that review, not yet actioned: Module 0 (decomposition, algorithms,
-abstraction) is taught in **lecture Week 1** but lives at Stage 7; Module 7 (intro
+✅ **The Module 0 mismatch is CLOSED (2026-08-30, Chris-approved at the Sunday return).**
+It stood un-actioned from 2026-07-25 until the instructor assigned exactly this work in
+week 1 and the vault had nothing for it. The fix is a **course-overlay drill that follows
+the lecture, not the spine**: [[drills/cse-module-0-algorithmic-thinking]] — trace/predict,
+pseudocode-not-narration, boundary/initialization selection — un-gated, targeted at Quiz 1
+(Sun Sep 6) and Test 1 (Mon Oct 5). The Stage 7 drill stays where it is; the overlay
+supersedes nothing. **First evidence the packaging was right:** the 2026-08-29 fresh rep —
+correct nested structure cold, the narration-vs-procedure catch unprompted, one open item
+(the unexplained `4`) carried into the drill's first block.
+
+Still open from that review, not yet actioned: Module 7 (intro
 to Java, graded as Lab 13 + Assignment 7) has no vault home; and Stages 6, 9, 10
 are not in either syllabus and should be labelled a beyond-course track rather than
 read as prerequisites Chris is behind on.

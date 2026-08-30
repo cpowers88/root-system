@@ -56,6 +56,11 @@ client work, while the course itself carries the heaviest single deliverable.
   — audience, purpose, genre, constraints; the part of TCOM that outlives the course
 - [[courses/tcom-2010/concepts/technical-report-anatomy|Technical Report Anatomy]] —
   the Weeks 6–12 build, section by section
+- [[courses/tcom-2010/concepts/extra-credit-lab-report-email|Extra Credit — Lab Report Email]]
+  — the optional **Tue Dec 1** extra credit, built 2026-08-30 from its D2L rubric.
+  What each of the nine rows wants, the Nov 19 Lab Day prerequisite, why the AI
+  Statement row is **not** permission to draft with AI, and one **unverified channel**
+  (syllabus says email; the rubric was printed from a D2L dropbox page)
 - [[courses/tcom-2010/common-errors/compliance-and-format|Common Errors: Compliance and Format]]
   — where the grade is actually lost; use as a pre-submission checklist
 - [[courses/tcom-2010/glossary/technical-communication-terms|Technical Communication Glossary]]

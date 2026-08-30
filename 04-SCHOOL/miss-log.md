@@ -86,7 +86,7 @@ described again.
 | 4 | 2026-08-21 | PHYS | 14.0 → 26.0 m/s over 60.0 m, no time given | Selected `a = (v_f − v_0)/Δx` — **units s⁻¹, not m/s².** Correct relationship and 4.0 m/s² landed only after a units cue | Equation choice / units | A **fresh** no-time transfer, changed parameters, cold and with no sheet. Chris names the equation *and says why the absence of `t` selects it* | `re-run scheduled` — Sun Aug 23 – Mon Aug 24 |
 | 3 | 2026-08-19 | PHYS | Row 3 durability check — state the constant-acceleration set | Both integrations and constants correct cold; **the third equation was absent and the set was asserted complete.** Recovered on one structural cue | Concept — set structure | Superseded by row 4 above — same frontier, re-aimed at *selection* rather than recall. §54 supplies the equation sheet, so **recitation earns nothing and selection earns everything** | `re-run scheduled` |
 | 2 | 2026-08-19 | TCOM | Course-policies cold diagnostic, 8 questions | **~3 of 8.** The two *confident* wrong answers were **PHYS rules imported into TCOM** — free absences, grace period, what takes no late credit | Cross-course rule contamination | ⚠ **Re-aimed 2026-08-20 on Chris's own ruling:** she teaches these Tue Aug 25 and the quizzes are due Sep 1, open-syllabus. **Do not cold-drill.** Skim before Sep 1 and take them with the syllabus open. Cold-drilling the cheapest points in the semester is over-investment | `open` — skim before Sep 1 |
-| 1 | 2026-08-19 | TCOM | Write four exact assignment filenames plus the one email subject line from memory | Generated them from a taxonomy. **There is no generating rule** — the syllabus prints four filename literals plus one separate email-subject literal, and they break any pattern | Invented a rule where the source gives literals | Spaced re-rep of the four printed filename strings plus the email subject line. Write from memory first, then check character for character | `re-run scheduled` — Mon Aug 24 or Tue Aug 25, cold. The 2026-08-22 pass does not count as the spaced rep; answers were shown |
+| 1 | 2026-08-19 | TCOM | Write four exact assignment filenames plus the one email subject line from memory | Generated them from a taxonomy. **There is no generating rule** — the syllabus prints four filename literals plus one separate email-subject literal, and they break any pattern | Invented a rule where the source gives literals | ⚠ **RE-AIMED 2026-08-30 — the premise this rep was built on is retired.** Aug 24's captures showed the assignment files *do* state a generating rule the syllabus never printed, and the real hazard is different: **the syllabus and the assignment file can disagree about the same assignment, and the assignment file wins** (her own rule; proven twice — `_Draft.docx` vs `_Business Email Draft.docx`). Memorizing the syllabus's strings now drills the *losing* source. **New rep: before each submission, state aloud which document the filename came from.** The pass condition is the habit — *"copied from the assignment file's SUBMISSION section"* — not recall. First live fire: Business Email draft, Tue Sep 1 | `re-aimed 2026-08-30` — runs at each submission, starting Sep 1 |
 
 ---
 
@@ -115,11 +115,34 @@ convention a *pattern* and printed `LastnameLastnameLastname` where the syllabus
 `LastNameLastNameLastName`. The aid generated the same false rule the rep was meant to
 detect; it is corrected to four filename literals plus one separate email-subject literal.
 
-**Why this belongs in the miss log rather than only in the flag register:** a miss whose cause
-is a defective study aid looks identical, from inside the rep, to a miss caused by a gap in
-understanding — and it is re-aimed completely differently. **Before treating a repeated miss
-as a learner gap, check the aid.** Third instance in five days of the same underlying shape:
-*a source verified on one property and then trusted on another.*
+**2026-08-24 → found 2026-08-27 · TCOM · fourth and fifth instances, both introduced at
+filing.** The filed Business Email copy read *"three options"* while listing two (error
+introduced when filed, not by D2L — two same-day re-captures both read "two"), and the filed
+Ethics Analysis copy was **missing task (5) and the AI clause in rubric item 6 entirely**.
+
+**2026-08-22 → found 2026-08-29 · PHYS · sixth instance, a new shape: the empty capture.**
+Four D2L pages saved in the Aug 22 pass held session-timeout chrome and an `<iframe>` tag —
+no content — while carrying filenames that made the vault look like it held them. One
+(Module 01 Learning Objectives) repaired Aug 29; **three PHYS policy/assessment pages are
+still empty shells awaiting re-capture.**
+
+**2026-08-29 · TCOM · seventh instance.** The filed ethics copy had merged tasks (3) and (4)
+into one sentence and dropped their numbering. Caught only because the inbox captures still
+existed to compare against — deleting them first would have destroyed the evidence.
+
+**One unresolved candidate, deliberately not counted:** `cse_notes_mod_1a.md` lists
+`Kebab-case-notation` as a Python variable-naming option (illegal — a hyphen is subtraction).
+Unknown whether transcription or lecture slide; Chris is sourcing it by running `my-var = 5`.
+
+**Recount 2026-08-30 (the Aug 29 session flagged the numbering as inconsistent): SEVEN
+instances in eleven days**, in three shapes — ① a rule asserted that the source doesn't
+state (instances 1, 3) · ② content corrupted or lost *at filing* (4, 5, 7) · ③ a capture
+that saved chrome instead of content (2's wrong-file confusion, 6). **Why this belongs in
+the miss log rather than only in the flag register:** a miss whose cause is a defective
+study aid looks identical, from inside the rep, to a miss caused by a gap in understanding —
+and it is re-aimed completely differently. **Before treating a repeated miss as a learner
+gap, check the aid.** The counter-move proposal (verify captures on *content*, not
+existence, at intake) is before Chris at the Aug 30 return.
 
 ---
 

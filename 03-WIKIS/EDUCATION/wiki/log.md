@@ -2,7 +2,7 @@
 type: log
 tags: []
 timeline: log
-updated: 2026-08-22
+updated: 2026-08-30
 ---
 
 # EDUCATION Wiki — Session Log
@@ -884,3 +884,51 @@ Per `HAT_ECON.md` this stays light-touch: ECON is calendar-protected, not deeply
 to the glossary for the *why*; a repeated miss goes to `04-SCHOOL\miss-log.md`. Target is
 **Quiz 1, Tue Sep 8, 23:00 ET** — and Quiz 1 is one of the two that get dropped, so it is the
 cheap diagnostic that teaches the format.
+
+## 2026-08-30 — TCOM extra-credit lab report email explained; the inbox drop was already filed
+
+Chris dropped the D2L rubric for the **Extra Credit Lab Report Email** into `77-INBOX` and
+asked for the assignment explained.
+
+### Nothing was filed — the identical rubric had been in `.ROOT` since the day before
+
+`04-SCHOOL\03-TCOM\rubrics\rubric_extra_credit_lab_email.pdf` (captured 2026-08-29, 1:47 PM)
+and the inbox drop (2026-08-30, 12:33 PM) are **the same D2L page, re-printed**. Hashes
+differ; all three pages compare identical row for row, point for point — only the print
+timestamp changed. **Search-before-create caught a duplicate that would otherwise have
+landed beside its own twin under a different name.** The inbox copy is left for Chris to
+clear; no second copy was made.
+
+### Built
+
+[[courses/tcom-2010/concepts/extra-credit-lab-report-email]] — the nine rubric rows, what
+Level 2 requires on each, and what actually goes in Materials, Methods, Results & Discussion,
+and Conclusion, grounded in the course's own usability protocol
+(`Assignments-Activities\Instructions-Usability\`) rather than a generic lab-report shape.
+
+### Four findings worth carrying
+
+1. **The email has a hard prerequisite twelve days upstream.** The "lab" is **Lab Day,
+   Thu Nov 19** — the usability test on his own instruction set. The filled-in Usability
+   Worksheet *is* the raw data for the Dec 1 email. Two rubric rows (3.25 pts, ~30%) award
+   **zero** for writing about someone else's lab. Miss the lab, lose the extra credit.
+2. **Mechanics outweigh content on this rubric.** Grammar/formatting (2.5) plus Spacing
+   (1.0) is **3.5 of 11 points (32%)**; Results & Discussion — the whole substance — is
+   2.25 (20%). The follow-directions course stating its thesis in point values.
+3. **⚠ The AI Statement row is not a second AI policy.** It asks what AI, what prompt, what
+   was adapted, and two verification sources — read alone that looks like permission. The
+   §04 syllabus is unchanged and blanket: *AI drafting is plagiarism; editing/proofreading
+   only, cited.* The row is the **citation mechanism for what is already allowed**, not a
+   licence to draft. Consistent with [[feedback_ai-assist-vs-answer]] — disclosure is not
+   permission. Recorded on the page as a table of allowed vs. not.
+4. **⚠ Open: the submission channel is unverified.** The syllabus schedule and
+   [[courses/tcom-2010/concepts/course-policies-and-file-naming]] both say **email**; the
+   rubric PDF was printed from a **D2L dropbox submit-files page** (`db=4336326`), so a
+   dropbox folder exists. This is the Business Email contradiction's exact shape. Resolve by
+   the standing rule — read the live **SUBMISSION** section in D2L, assignment file outranks
+   syllabus — **not before Nov 19**, since the live page may not be posted yet.
+
+**Next exact action:** none until Week 13. This is optional extra credit due **Tue Dec 1**
+and it accepts **no late submission under any circumstances**. The one thing that must happen
+early is treating **Nov 19 Lab Day** as data collection for a graded document, not as
+attendance — carried on the page's checklist.
