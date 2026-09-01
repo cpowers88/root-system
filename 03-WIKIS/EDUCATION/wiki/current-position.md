@@ -3,7 +3,7 @@ type: tracker
 tags: [school, education]
 timeline: now
 status: active
-updated: 2026-08-20
+updated: 2026-08-30
 ---
 
 # current-position — EDUCATION
@@ -22,13 +22,13 @@ updated: 2026-08-20
 > tutoring extra-credit action. Three pages, three questions: *trust* here, *due* there,
 > *effort* in the workload plan.
 
-## Status at a glance — updated 2026-08-22
+## Status at a glance — updated 2026-08-30
 
 | Course | Source certainty | Study material | Blocking gap |
 |---|---|---|---|
 | **ECON 1000** | 🟢 exact-section syllabus, dates cross-verified twice; **Ch 2–3 now confirmed against the real D2L module (2026-08-28)** | Semester map, drills, flashcards, **two glossaries**, reading-guides | ~~Real textbook is D2L-locked~~ **closed for Ch 2–3.** Ch 4–12 mapping still inferred |
 | **TCOM 2010** | 🟢 exact-section syllabus — **but its printed dates are recycled Spring dates** | Six pages built 2026-08-13 on the ECON/PHYSICS pattern; **all 14 weeks now dated** | ~~Weeks 6–15 not extracted~~ **closed 2026-08-18.** Remaining: confirm the derived dates in D2L Aug 24 |
-| **ENGR 1000** | 🟡 departmental template inferred from three Fall 2026 web sections; BWD execution evidence still missing | BWB/BWC/BWF byte comparison; weekly D2L-check method | BWD dates, weekly order, quiz and attendance behavior, delivery mode, and instructor-specific execution |
+| **ENGR 1000** | 🟢 exact BWD syllabus + separate 14-week course-schedule document received 2026-08-24 | Source-backed weekly table in `04-SCHOOL\SEMESTER_MAP.md`; exact files in `04-SCHOOL\05-ENGR` | No source blocker. Live D2L and Raoufi still override local copies; Student Engagement needs an event selected by mid-September |
 
 ## ⏰ D2L opens Monday August 24 — the first day of classes
 
@@ -188,37 +188,25 @@ Worth keeping `2e_Word\` for two things only: its Ch 5 covers *Quoting, Paraphra
 Plagiarism **and AI***, which postdates the 2019 edition, and its Ch 9 carries the full
 proofreading symbol sets that feed the Week 7 Font Style quiz.
 
-## ENGR 1000 — BWD execution evidence missing; departmental template measured
+## ENGR 1000 — exact BWD execution evidence live
 
-The registrar confirms BWD is online with no meeting time. Its D2L calendar and execution
-details are still missing. Kamyar Raoufi is the instructor, supplied by Chris.
+Chris captured the exact BWD syllabus and a separate `COURSE SCHEDULE, Lecture Quizzes &
+Assignments` document on 2026-08-24. BWD is one credit, asynchronous and online, with no
+textbook. The schedule supplies all 14 Tuesday due dates, one lecture quiz each week, and ten
+graded assignments; the three neighboring-section templates understated the assignment count
+by omitting Reflections 1–3.
 
-Three neighboring Fall 2026 web sections (BWB, BWC, BWF) live in
-`04-SCHOOL\05-ENGR`. Byte comparison shows BWB and BWF share a template apart from
-identifiers; BWC omits seven blocks. Across all three:
+All assignments and quizzes are due at 11:59 PM Tuesday, and late work is not accepted for any
+reason. Departmental quizzes and homework/other quizzes each contribute 50%; the lowest item in
+each category drops. AI use on submitted work is prohibited. The full week-by-week source-backed
+table lives in `04-SCHOOL\SEMESTER_MAP.md`; live D2L and Raoufi remain the final authority.
 
-- no textbook;
-- seven named assignments (Virtual Scavenger Hunt, Time Management,
-  Professional Communication/resume, Engineering Ethics, Professional
-  Licensure, Student Engagement, Engineering Design);
-- departmental quizzes 50% and homework/other quizzes 50%;
-- lowest departmental quiz and lowest non-attendance grade dropped;
-- no late work, no extra credit, and D2L-owned dates; and
-- AI use prohibited.
+**Lead target:** keep the weekly quiz current and finish the next released assignment at least
+seven days early. Student Engagement (Tue Nov 3) requires attending a real event, so the event
+must be selected and calendared by mid-September; it cannot be compressed into its due week.
 
-This is **reasonable provisional departmental policy, not BWD truth**. Do not transfer
-dates, weekly order, partnership requirements, quiz or attendance behavior, delivery mode, or
-instructor execution. BWD D2L and Raoufi supersede all of it.
-
-**There is still no `courses/engr-1000/` folder.** The shared structure is enough
-to improve planning, but not enough to justify targeted course content or a
-semester map. Create the folder only when BWD posts or a real study need appears.
-
-The previously cited Fall 2025 BD and §05 live paths are absent and were never Git-tracked;
-the Summer W01 reference exists only in Git history. None is active evidence.
-
-**Safe rehearsal:** orient to the seven-item shape and practise the Monday/Thursday
-D2L check. Do not work the neighboring sections' assignment prompts.
+No `courses/engr-1000/` folder is needed yet. Create one only when a real retrieval or study need
+appears; the exact school owners already answer source, date and execution questions.
 
 ## Pre-semester coverage
 
@@ -228,7 +216,8 @@ ECON has eight bounded preparation blocks; **ENGR is held to August 24 on Chris'
 
 ## Next review
 
-~~**Aug 24**, when D2L opens~~ — **that review ran.** Next: **Sun Aug 30**, the first live
-grade-and-miss return (`CASTLE\OPERATIONS.md` § Reviews 4). Standing per-week action for ECON:
+~~**Sun Aug 30**, the first live grade-and-miss return~~ — **that review ran.** Next:
+**Sun Sep 6** (`CASTLE\OPERATIONS.md` § Reviews 4), including the first measured five-course
+lead read. Standing per-week action for ECON:
 when each D2L content module posts, re-run the Aug 28 spot-check against that week's row of
 [[courses/econ-1000/semester-map]] — **one week at a time, on evidence.**

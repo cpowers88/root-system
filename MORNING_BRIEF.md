@@ -3,13 +3,13 @@ type: dashboard
 timeline: now
 status: active
 tags: [morning-brief]
-generated: 2026-08-30
+generated: 2026-08-31
 ---
 
-# Sunday, August 30, 2026
+# Monday, August 31, 2026 · Week 2
 
-**ATTENTION**: `NOW.md` has not rolled since Tue Aug 25 — three straight sessions flagged the staleness without fixing it, and today's Sunday return is the honest test of that pattern.
+**ATTENTION**: PHYS WebAssign **HW1 is due today and late is a flat zero** (100 pts). Confirm its exact deadline time before 09:10 — and if today looks like collapsing, file the WebAssign extension request *before* anything else.
 
-**START**: Per `04-SCHOOL\semester-workload-plan.md` §7, read Week 2's row (Aug 31–Sep 6) and its block in `semester-reading-plan.md` before anything else, since CSE Quiz 1 lands Sun Sep 6.
+**START**: The Monday campus gap (10:15–14:15) is the lead's new home. Open it with 30 minutes on **miss-log 5b** — one cold circular-motion problem, unfamiliar setup, no reminder that direction and the real force are wanted — then finish HW1, then PHYS §§5.1–5.3.
 
-**CHRIS**: Rule on the campus-access question in `00-BRAIN\CASTLE\wiki\campus-execution-interface-decision-2026-08-27.md` — two competing proposals need your pick before the week starts.
+**CHRIS**: Open `04-SCHOOL\FallKSU.xlsx` in Excel and save once; in D2L, check the TCOM **Course Policies Quiz** and confirm whether the first CSE lab assignments open Tuesday, including their exact due dates.

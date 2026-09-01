@@ -2522,3 +2522,116 @@ this machine. `root_health.py` PASS ×4 across the session.
   not rolled in three days, while carrying a **Fri Aug 28 11:45 PM** item in Needs Chris. The
   cockpit's own rule is that `Open now` holds open items only. Not rewritten mid-session — a
   cockpit refresh is session-close work and this session's mandate was an ECON intake.
+
+## 2026-08-30 — The first live Sunday return; week 1 closed at 100%; the lead defect found
+
+**The cadence built on 2026-08-21 ran for the first time against real data, and it earned its
+place on its first outing.** Item 4's grade and miss reads produced the finding that reshaped
+the week's plan — which is exactly the claim made for it (*"nothing in `.ROOT` read grades
+before this step existed"*).
+
+### Decisions taken (Chris, at the return)
+
+1. **Campus interface — the one-screen TODAY page, conditionally.** Option E's OneDrive
+   workspace **not** approved; no placement exception granted. **His condition is the design
+   problem:** *"the information on the page will need to be correct."* No single source holds
+   everything due — recycled Spring dates in two syllabi, ENGR's dates in a separate schedule
+   document, WebAssign owning PHYS homework, D2L overriding all. **Decision deferred to Sep 6,
+   deliberately, so the completed ASSIGNMENT TRACKER exists to generate from.** Building it
+   sooner would ship an authoritative-looking wrong page — the exact defect behind seven aid
+   failures in eleven days.
+2. **Flag #91 — not a re-raise.** Recorded in `CLOSED_FLAGS_2026-08.md` with its standing
+   consequence: a *second* miss of Session Close 4 returns it HIGH.
+3. **Phase 2 — held at `planned`**, answering the Sep 1 flip-or-explain before it fires.
+4. **Two builds approved and shipped** — the capture-verification rule
+   (`WIKI_SHARED_LAYER.md` rule 9) and the Module 0 course-overlay drill.
+5. **Tracker rows built on a copy**, awaiting Chris's swap.
+
+### 🔴 The finding: the hours were spent, the lead was not built
+
+**Week 1 measured ~48–50 total hours, ~35–37 outside class** against a 26–39 h standard band —
+the upper half, in week one. **And both lead items failed to run.**
+
+**This is not a discipline failure and the log should not record it as one.** The week-1 plan
+stated that procedural work wins where the two compete; it did, and produced **four graded
+results at 100%.** The plan's own priority was honoured exactly.
+
+**The defect is structural: the lead block was placed on Saturday**, the most displaceable slot
+in the week — every fixed deadline outranks it and nothing enforces it. Sat+Sun produced ~8
+hours and none reached it. **Week 1 of the four-week build window contributed approximately
+zero, and the window closes Sep 21.**
+
+**Counter-move applied in the week-2 plan:** the lead moves into the Monday and Tuesday campus
+gaps (4.08 h and 6.83 h), which already exist, are already worked, and sit before the week's
+fatigue rather than after it. **Saturday becomes overflow.** Keep/modify/revert at the Sep 6
+return on whether the relocated block actually ran.
+
+### Proof movement
+
+**No capability row moved, and that is correct** — `current-position.md` is monthly and the next
+full reconciliation is Sep 21. Two rows accrued evidence without meeting their gates:
+**Technical writing** (its stated first evidence, the graded instructor email, returned **100**,
+plus an Ethics Analysis at 100 — but the row's gate is *an audience-specific finding or handoff
+that supports a decision*, which coursework does not yet satisfy) and **Course performance**
+(four 100s, but standing is not meaningful before *Graded so far* passes ~20%; TCOM is at 15%,
+PHYS at 5%). **Recording that explicitly is the point of a gate.**
+
+### Housekeeping executed
+
+Register: four closed rows deleted one week after close, per their own instruction; header
+current. **DAILY rotation ran** — 13 files (Aug 10–23) archived on `WEEKLY_AUGUST10-23.md`'s
+authority, zero wikilinks broken. Miss-log row 1 re-aimed off its retired premise; the
+aid-defect pattern recounted to **seven instances in three shapes**. OPP-20260730-01 re-dated
+to Sep 21. `NOW.md` rolled — **the first roll since Aug 25, after three consecutive sessions
+flagged the staleness and correctly declined to write unverified state.**
+
+**Flag #101 took instances 15 and 16 in this session** — and 15 is the more interesting of the
+two. A heredoc appending *this very entry* was denied because the word **"until" inside the
+prose** matched a loop pattern. **That is the second confirmed instance of the matcher reading
+Markdown prose as a command** (the first was `**bold**` asterisks matching a wildcard,
+2026-08-23). Both were documentation writes; neither contained an executable loop. Re-run with
+`Read` + `Edit`, which is the dedicated tool and the better call regardless — the fourth time
+the denial pushed the session toward the right tool.
+
+### Return-to-cockpit gate (Session Close 7)
+
+**The review is finished and control has returned to the cockpit.** `NOW.md`'s Active Lane is
+re-verified against CASTLE owner truth and now names
+[[weekly-plans/weekly-plan-2026-08-31-to-2026-09-06]]; the week-1 plan is flipped to
+`log`/`complete` with its outcome recorded, so two plans do not read `active` simultaneously.
+
+**Next exact action:** Chris swaps the tracker; Monday opens with WebAssign HW1 (late = zero)
+and miss-log 5b in the relocated lead block.
+
+## 2026-08-30 — Codex independent weekly pass; stale owner chain reconciled
+
+- **The retrospective weekly now exists:** `WEEKLY_AUGUST24-30.md`, filed `awaiting-review`
+  until Chris approves the two standing Sunday gates. No second Week 1 story was invented; the
+  report reconciles the already-recorded return against live owners.
+- **Four propagation defects repaired:** Week 2 entered CASTLE's index; ENGR's exact Aug 24 BWD
+  evidence reached EDUCATION and the workload lead owner; `fall_2026_semester.md` moved off its
+  completed activation action; the completed tracker swap stopped appearing as Chris's next task.
+- **Canonical health:** before repair, `PASS WITH DEBT` — 0 blockers, 1 wiki review item (the
+  Week 2 index omission), 697 expected findings, zero frontmatter debt. After repair, **PASS** —
+  0 blockers, 0 review debt, 697 expected findings, zero frontmatter debt.
+- **Two unresolved integrity items retained rather than guessed:** two inbox files differ in bytes
+  from their apparent filed owners; CASTLE's prior entry says flag #101 reached 16 instances while
+  the register documents 15 and describes no sixteenth.
+- **Control remains with the cockpit.** Active Lane is still the Week 2 plan; the weekly pass did
+  not open a system lane. Next: Chris rules learner-hub alignment and instruction protocol.
+
+## 2026-08-30 — Weekly gates approved; Week 2 course lanes re-aimed
+
+- **Chris approved both standing gates:** learner-hub alignment and instruction protocol. The
+  Aug 24–30 weekly review moved from `awaiting-review` to `complete`/`log`.
+- **ECON:** official target remains **Quiz 1, Tue Sep 8, Chapters 1–3**. Chapters 1–2 are already
+  read; Week 2 now targets the two Chapter 2 misses, Chapter 3, and mixed Chapters 1–3 retrieval.
+- **PHYS:** this week's lectures (vectors, 2D/projectile motion and UCM) are already Exam 1 scope;
+  the one-week-ahead lead remains Chapter 5, with 5b cold proof still first Monday action.
+- **CSE:** lecture work now names three fresh pseudocode reps. Chris believes the first lab
+  assignments open Tuesday; the plan treats that as a D2L verification, not a due-date fact.
+  Submitted CSE work remains independent and outside AI.
+- **Owner repair:** removed the unsupported Week 2 claim that Labs 2–3 and Assignment 1 are due
+  Sunday from the workload owner and all active derived surfaces.
+- **Next exact action:** Monday protects PHYS HW1 and 5b; Tuesday records the real CSE lab opening
+  set and deadlines from D2L.

@@ -5,10 +5,17 @@ status: active
 register: ai-directive
 tags: [north-star, school, fall-2026]
 created: 2026-07-24
-review_trigger: 2026-08-30
+review_trigger: 2026-09-06
 ---
 
 # FALL_2026_SEMESTER
+
+> **Weekly review 2026-08-30:** course activation is complete. All five courses now hold
+> exact-section evidence, including ENGR BWD's separate 14-week schedule document. Week 1
+> returned three TCOM 100s plus PHYS raw quiz scores of 9/10 and 10/10 (live-drop standing
+> 100%), while ~48–50 total hours produced no movement on the two planned lead items. The Week 2
+> decision is therefore operational, not directional: move the lead into Monday/Tuesday campus
+> gaps and re-measure on 2026-09-06. Goal, proof bar and priority order are unchanged.
 
 > **Cadence note, 2026-08-23 — frontmatter date only; no contract field, gate, or policy
 > below was touched.** `review_trigger` advanced `2026-08-24 → 2026-08-30`, which is this
@@ -98,10 +105,9 @@ During the semester:
 ### Official-source gate
 
 - CSE 1321, CSE 1321L, TCOM 2010, and ECON 1000 exact-section syllabi are live.
-- PHYS 2211 Section 54 is confirmed by the exact syllabus received August 18. ENGR 1000 BWD
-  still lacks exact-section execution evidence; neighboring Fall 2026 web sections may guide
-  departmental-policy preparation but cannot control dates, quiz windows, delivery behavior,
-  instructor variation, or AI use.
+- PHYS 2211 Section 54 is confirmed by the exact syllabus received August 18. ENGR 1000 BWD is
+  confirmed by its exact syllabus and separate 14-week course-schedule document received
+  August 24; neighboring sections remain comparison evidence only.
 - D2L and exact-section instructor communication supersede provisional records.
 - `04-SCHOOL\SYLLABUS_STATUS.md` owns source status.
 
@@ -143,6 +149,7 @@ Each meaningful course result returns:
 
 ## Current next action
 
-On August 24, run the D2L activation gate across all five courses. Capture ENGR BWD's dates
-and execution behavior, confirm TCOM's converted Fall dates, verify ECON's assigned-text
-alignment, and return any changed requirement to the owning school and wiki files.
+Run Week 2's school proof: submit PHYS HW1, close miss-log 5b, and use this week's Exam 1-scope
+lectures as retrieval while leading into Chapter 5; prove Respondus and complete three fresh
+CSE pseudocode reps before Quiz 1; confirm Tuesday's lab openings/dates in D2L; finish ECON
+Chapter 3 and mixed Chapters 1–3 retrieval. Review grades, misses and all five leads Sep 6.

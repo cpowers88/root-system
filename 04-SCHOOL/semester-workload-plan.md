@@ -144,7 +144,7 @@ unit that course actually grades (Chris's ruling, 2026-08-22):
 | **CSE 1321 / 1321L** | **Proof** on the *Think Python* spine | The module's constructs written cold 14 days before their quiz or test. **Capped by D2L** on course-shell material — a module that has not posted cannot be led |
 | **TCOM 2010** | **Deliverable** — the artifact finished | Each graded item complete 14 days early. The four report checkpoints make this real: the report is **due Thu Nov 12 and finishable by Tue Nov 3** |
 | **ECON 1000** | **Reading** only | Chapter read before its quiz window opens. Its exams are the grade and coverage is cheap; proof-leading 2 credits earns nothing |
-| **ENGR 1000** | 🔴 **Undefined until D2L posts BWD** | Set it in week 1 from the real assignment list |
+| **ENGR 1000** | **Deliverable + weekly quiz** | Keep the weekly lecture quiz current and finish the next released assignment at least 7 days before its Tuesday deadline. **Student Engagement (Tue Nov 3) is the exception:** choose and calendar the required event by mid-September because attendance cannot be compressed into its due week |
 
 > ### 🔧 The PHYS gate moved Sep 7 → Sep 13, ruled by Chris 2026-08-23
 >
@@ -340,8 +340,8 @@ Risk is rated against the ~11.75 campus hours plus a normal evening load. 🟢 o
 | Wk | Dates | Graded items due | Est. | Risk |
 |---:|---|---|---:|:--:|
 | 1 | Aug 24–30 | CSE Syllabus & Policy quizzes · Lab 1 · **TCOM Ethics Analysis (Fri)** · TCOM Policies + File-Naming quizzes · Business Email draft | ~14 h | 🟢 |
-| 2 | Aug 31–Sep 6 | **CSE Quiz 1 (Sun Sep 6)** · Labs 2–3 · Assignment 1 · TCOM Audience Analysis + peer response · Business Email **final** · ECON Ch 1–3 reading | ~18 h | 🟡 |
-| 3 | Sep 7–13 | **ECON Quiz Ch 1-2-3 (Tue Sep 8)** · TCOM Fairy Tale presentation + Elevator Speech · Labor Day Mon Sep 7 | ~16 h | 🟢 |
+| 2 | Aug 31–Sep 6 | **CSE Quiz 1 (Sun Sep 6)** · **CSE lab work expected to open Tue Sep 1; exact set/dates require D2L** · TCOM Audience Analysis + peer response · Business Email **final** · ECON Quiz 1 prep Ch 1–3 (**Ch 1–2 already read; Ch 3 next**) · **ENGR lecture quiz + Virtual Scavenger Hunt (Tue Sep 1)** | ~18 h | 🟡 |
+| 3 | Sep 7–13 | **ECON Quiz Ch 1-2-3 (Tue Sep 8)** · TCOM Fairy Tale presentation + Elevator Speech · **ENGR lecture quiz + Time Management (Tue Sep 8)** · Labor Day Mon Sep 7 | ~16 h | 🟢 |
 | 4 | Sep 14–20 | **CSE Quiz 2 (Sun Sep 20)** · Lab 4 · TCOM Individual Project Proposal work | ~17 h | 🟡 |
 | 5 | Sep 21–27 | 🔴 **PHYS UNIT EXAM 1 (Mon Sep 21, Ch 1–5 + 6.1–6.2)** · **ECON Quiz Ch 4-5 (Tue Sep 22)** · TCOM Proposal Presentation | ~22 h | 🔴 |
 | 6 | Sep 28–Oct 4 | 🔴 **ECON EXAM 1 (Tue Sep 29, Ch 1–5)** · **CSE Quiz 3 (Sun Oct 4)** · **TCOM Report Group Charter + Task Schedule due Thu Oct 1 midnight** · **TCOM Document Redesign due Thu Oct 1** | ~22 h | 🔴 |
@@ -451,18 +451,18 @@ amount.
 
 ---
 
-## 5. What is NOT planned here, and why
+## 5. ENGR 1000 BWD — exact execution evidence received August 24
 
-**ENGR 1000 BWD has no dated rows because the exact syllabus and D2L calendar are
-still missing.** Three neighboring Fall 2026 web sections now agree on the
-course core: seven assignments, 50% departmental quizzes / 50% homework and
-other quizzes, lowest grade in each category dropped, no textbook, no late
-work, no extra credit, and AI prohibited.
+The exact BWD syllabus and its separate `COURSE SCHEDULE, Lecture Quizzes & Assignments`
+document are live in `04-SCHOOL\05-ENGR`. The schedule supplies all 14 Tuesday due dates,
+one lecture quiz every week, ten graded assignments, asynchronous delivery, and the no-late-
+work rule. `04-SCHOOL\SEMESTER_MAP.md` owns the full dated table; §3 above carries the items
+that shape cross-course weekly load.
 
-That evidence supports the **1–2 h/week provisional floor and the Monday/Thursday
-D2L checks**, but not a dated assignment sequence. Do not place a neighboring
-section's due date into §3. Flag #57 remains open until BWD posts; reconcile the
-week table immediately when D2L opens Aug 24.
+The working lead is now measurable: keep the weekly quiz current, finish the next released
+assignment at least seven days before its Tuesday deadline, and buy the non-compressible
+Student Engagement event lead by mid-September. Neighboring sections remain comparison
+evidence only and never override BWD.
 
 ---
 

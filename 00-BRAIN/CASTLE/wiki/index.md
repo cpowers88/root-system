@@ -7,7 +7,7 @@ tags: []
 
 # Index — Every Live Page in CASTLE
 
-### Updated: **August 22, 2026** — Codex auto-load pointer added to the root-file catalog. Prior: August 21, 2026 (Week 1 plan registered; stale `timeline: now` markers cleared across five pages)
+### Updated: **August 30, 2026** — Week 2 plan registered after the Sunday return. Prior: August 22, 2026 (Codex auto-load pointer added to the root-file catalog)
 
 This is a discovery index, not a second current-state dashboard. Live action belongs to `.ROOT\NOW.md`; baseline and proof state belong to [[current-position]] and the owning domain systems.
 
@@ -93,6 +93,9 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 Listed newest first. CASTLE owns weekly sequencing; Session Logs own the
 retrospective reviews.
 
+- **🎓 [[weekly-plans/weekly-plan-2026-08-31-to-2026-09-06]] — FALL SEMESTER WEEK 2, ACTIVE.**
+  Built from Week 1's measured ~48–50 total hours and the finding that both lead items were
+  displaced from Saturday. Moves the lead into Monday/Tuesday campus gaps; review Sep 6
 - **🎓 [[weekly-plans/weekly-plan-2026-08-24-to-2026-08-30]] — FALL SEMESTER WEEK 1.**
   Built Fri Aug 21 per Chris's Aug 19 ruling that the semester format is built Friday, not
   Sunday. **`timeline: next` / `status: draft` until Mon Aug 24**, when Week D closes and

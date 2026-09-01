@@ -1,3 +1,35 @@
+---
+type: evidence
+timeline: log
+tags: [school, tcom-2010, ai-disclosure]
+created: 2026-08-27
+---
+
+# Ethics Analysis — working session transcript (AI use record)
+
+> **Frontmatter added 2026-08-30** at the Sunday return; the file was the health gate's only
+> new finding. Content below is unaltered — it is the raw working record.
+>
+> ## ⚠ The AI statement drafted at the foot of this transcript was WRONG, and Chris caught it
+>
+> The final disclosure drafted here contains the line *"I confirmed that the Society for
+> Technical Communication exists, which corrected a claim I had written myself."* **That claim
+> is false and Chris's original sentence was right.** AI asserted mid-session that technical
+> communication has a professional body (STC) and pushed him to change a correct sentence.
+> **He verified independently and overruled it: STC ceased operations 2025-01-29 and filed
+> Chapter 7 on 2025-02-03.**
+>
+> The submitted statement was corrected accordingly, and **the episode itself went into the
+> graded disclosure as documented evidence of verification** rather than a bare "yes, I
+> verified." **Result: 100%.**
+>
+> **Read this transcript as process evidence, not as the submitted text.** Anyone reconstructing
+> what was handed in should use `Powers_04_Ethics Analysis.docx` in this folder. Full account:
+> `Session_Logs\Report Archive\ARCHIVED_2026-08-30_DAILY_2026-08-27.md`, 16:35 block, and its
+> evening appendix carrying Chris's AI-boundary ruling.
+
+---
+
  I placed all I have for both the business and the ethics emails this far, the point of the ethics is to compare the ethics of my future job, ISSE to the slideshow that we watched in class on the ethics of technical writing, which seemed to focus more on plagarism and peoples feelings as well as copywrite material, and my https://www.iise.org/details.aspx?id=42183 this is the code of ethics, but I found it interesting we have a completely different code for AI use. anyhow I am going to attempt to finish these off, let me know if you think these are good points for what I am trying to accomlish in TCOM, clear consice communication with one verb and one noun in every short sentence is what Professor Diamond said we are aiming at, and I am allowed to use you as long as we write up exactly what we did as mentioned in the document in the inbox
 
   Read 2 files, ran 2 shell commands
