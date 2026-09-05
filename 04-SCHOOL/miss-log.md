@@ -4,7 +4,6 @@ timeline: now
 status: active
 tags: [school, fall-2026, learning, proof]
 created: 2026-08-21
-review_trigger: 2026-08-30
 ---
 
 # Miss Log — Fall 2026, all five courses
@@ -147,12 +146,10 @@ existence, at intake) is before Chris at the Aug 30 return.
 ---
 
 *Owner: `04-SCHOOL`. Learner stage and proof frontier stay with each hub's `current-position.md`;
-this log owns error classes and re-aimed reps across all five courses. CASTLE's Sunday return
-reads the open rows. **`review_trigger` re-dated Aug 23 → Aug 30 at the semester transition:
-from Monday this log is read at every Sunday return (`OPERATIONS.md` § Reviews item 4b), so its
-trigger tracks the return rather than a one-off pre-semester date. Three rows are open going
-into week 1 — 5b (PHYS, the re-aimed cold transfer, Sat Aug 29), 2 and 1 (both TCOM). Row 1's
-spaced filename re-rep is the one that slipped Week D and must run cold Mon/Tue.*** **Placement note:** `WHERE_IT_GOES.md`'s provenance tiebreaker routes
+this log owns error classes and re-aimed reps across all five courses. Since
+2026-09-05, `TUTOR.md` reads it when tutoring is invoked. The oldest open row is a
+fallback when Chris does not name another entry point; it does not schedule his
+week.*** **Placement note:** `WHERE_IT_GOES.md`'s provenance tiebreaker routes
 "miss logs" to `03-WIKIS\[hub]\`, which assumes a single-hub log; this one is cross-course by
 design and no hub covers all five, so it lives here beside the other semester-wide plans. That
 line is worth a one-clause amendment at the next governance pass — flagged, not taken.*

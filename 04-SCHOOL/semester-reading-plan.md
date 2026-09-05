@@ -1,26 +1,17 @@
 ---
 type: plan
-timeline: now
-status: active
+timeline: reference
+status: reference
 tags: [school, fall-2026, planning, reading]
 created: 2026-08-19
-review_trigger: 2026-08-30
 ---
 
 # Semester Reading Plan — Fall 2026
 
-> 🔁 **`review_trigger` re-dated Aug 24 → Aug 30 at the semester transition, and the reason
-> is a rule rather than convenience.** This page's review is a **D2L reconciliation** — the
-> ECON book is D2L-locked, ENGR has no source until BWD posts, and every 🟡 cell here is
-> derived. That verification is scheduled work: it is Monday's 2-hour D2L day-one block in
-> `weekly-plans\weekly-plan-2026-08-24-to-2026-08-30.md`.
->
-> **The trigger is the check moment, not the work.** `AGENT.md` Execution Discipline 7 requires
-> every stop rule to name an owner and a check moment, and `OPERATIONS.md` § Reviews owns
-> evaluation at the Sunday return — *"do not create a parallel cadence."* So the work runs
-> Monday and the trigger verifies on Sunday that it did. Dating the trigger to Monday would
-> have reddened `root_health.py` at 8am on day one for work that was already on the schedule,
-> which teaches a session to read past a red gate.
+> **Operating status changed 2026-09-05 by Chris:** reference only. This page
+> preserves a useful reading sequence and page map. It does not reconcile D2L,
+> assign tonight's reading, or guarantee current dates. Open the relevant portion
+> only when Chris requests that course or source.
 
 ### Every week, every course, with chapter, section and exact page. Built 2026-08-19 at Chris's request: *"if we know exactly what we should be reading for a week at the start then we can plan accordingly."*
 
@@ -355,10 +346,9 @@ Recorded as gaps rather than filled with plausible content.
 
 ## 5. Update triggers
 
-- D2L opening **Aug 24** — ECON's real book, ENGR's syllabus, confirmed TCOM and CSE dates.
-- Any exam date moving.
-- PHYS losing its one-week lead (then its column shifts and says so).
-- Weeks 1–3 producing real reading hours — replace §1's estimates with measurement.
+- Chris asks to reuse or correct a specific course's reading map.
+- A supplied instructor or D2L source changes the sequence or page assignment.
+- A tutoring result shows that the current reading route is ineffective.
 
 ---
 

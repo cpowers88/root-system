@@ -9,11 +9,10 @@ created: 2026-07-19
 
 # OPERATIONS.md — How AI Sessions Run CASTLE
 
-Last revised: **August 22, 2026** — Reviews item 4d added (the per-course lead read at the
-Sunday return, inside item 4's existing budget). Prior substantive revisions: Aug 21, 2026
-(Reviews item 4 — course standing and open misses) · Aug 19, 2026 (Session Close 7
-return-to-cockpit gate; semester maintenance budget; log discipline) · July 19, 2026 (concise
-authority, capacity, and value-alignment pass approved by Chris).
+Last revised: **September 5, 2026** — Chris moved school deadlines and submission
+control to himself and live D2L; weekly school planning became user-invoked, while
+`.ROOT` retained tutoring, learner evidence, and monthly integration. Prior
+substantive revisions: Aug 22, Aug 21, Aug 19, and July 19, 2026.
 
 *The July 19 date stood on this line while the file carried Aug 19 and Aug 21 rules. A header
 date is what a session reads to judge whether the file is current, so a stale one is not
@@ -93,9 +92,9 @@ recommend the smallest safe scope. If Chris directs the work after that warning,
 proceed without repeated resistance — it is advisory, not refusal authority.
 
 CASTLE owns firing this, per `AGENT.md` Execution Discipline 7 (a dated trigger
-with no named evaluator does not exist). The weekly review checks whether the
-window is open or approaching; moved here from `AGENT.md` on 2026-08-11 so the
-rule sits with the cadence that actually evaluates it.
+with no named evaluator does not exist). The monthly review checks whether the
+window is open or approaching; a user-invoked value session checks it when
+proposing optional work inside the window.
 
 ## Operating Authority
 
@@ -125,57 +124,33 @@ Chris's explicit approval is required for governance changes, new phases or stru
 
 ## Reviews and Routing
 
-Weekly CASTLE maintenance checks due `check_at` items, changed or active owner realms, opportunity review dates, open risks, and one rotating staleness target. Monthly review performs the broader cross-system lint. Quarterly review runs the strategy Ratchet.
+Weekly CASTLE maintenance checks explicit `check_at` items, opportunity review
+dates, open risks, and one rotating staleness target. It does not reconstruct
+D2L, generate a course deadline list, or require a Sunday school plan. Monthly
+review performs the broader cross-system lint. Quarterly review runs the strategy
+Ratchet.
 
-**Sunday planning opens with the due-checks return (added 2026-07-26, Chris-approved).**
-The weekly cadence above already owns evaluation; this makes its output visible at
-the moment planning happens, because a `check_at` nobody reads at the deciding
-moment does not fire — the July 23 honest-floor trigger is the worked example. The
-Sunday step produces one short list before any planning is written:
+### User-invoked school review
 
-1. Every `check_at` item due this week, with its owner.
-2. **Learner-hub alignment, for Chris's explicit approval:** the current stage
-   position and stage plan for PHYSICS, EDUCATION, and PYTHON, stated from each
-   hub's own `wiki\` owner files, so Chris, Claude, and Codex confirm they are
-   working the same plan. Chris's approval is required; silence is not approval.
-3. **Instruction-protocol confirmation:** that the live boot chain and
-   `AGENT.md § Execution Discipline` are what all three parties are operating
-   under, re-verified after any Codex reboot following an instruction change.
-4. **Course standing and open misses (added 2026-08-21, Chris-approved).** During
-   the semester this runs **before** items 2 and 3, because it is the only step
-   that can change the week's plan on evidence rather than on schedule:
+Run this only when Chris asks for school planning, supplies a returned grade, or
+opens `TUTOR.md` without a named entry point:
 
-   a. **`04-SCHOOL\FallKSU.xlsx` § GRADE TRACKER, the standing block (rows 40–45).**
-      Read the Status column for all five courses. **Anything reading `WATCH` or
-      `ACTION` is named in the week's plan with a specific corrective block** — not
-      noted, not carried. `ACTION` (< 87%) additionally goes to `MORNING_BRIEF`'s
-      ATTENTION line. **Standing is computed on graded work only** and is not
-      meaningful until *Graded so far* passes ~20%; before that, read the raw
-      scores and not the percentage.
-   b. **`04-SCHOOL\miss-log.md`, the open rows.** The oldest open row is the first
-      block of the coming week. **A miss that has sat open across two Sunday
-      returns is escalated in the plan**, because an un-re-aimed miss is the exact
-      failure the log was built to prevent.
-   c. **Check the aid before the learner.** Where a miss repeats, confirm the study
-      material is correct before treating it as a gap — `.ROOT`'s own aids taught a
-      wrong rule twice in five days (2026-08-19, 2026-08-21) and the failed reps
-      reproduced the vault's defect, not Chris's.
+1. Treat live D2L and the exact-section instructor as deadline authority. Chris
+   owns whether every assignment was captured and submitted; local schedule files
+   are incomplete reference material.
+2. Read the requested course's owner and `04-SCHOOL\miss-log.md`. Use the first
+   unrun rep only as a fallback when Chris did not name the work.
+3. Record a returned score or genuine cold miss when supplied. Check the aid
+   before classifying a repeated miss as Chris's capability gap.
+4. Keep the response inside the task Chris requested. Do not turn tutoring into
+   a weekly replanning session.
 
-   d. **The per-course lead (added 2026-08-22, Chris-approved).** Five rows, inside
-      this same read, from `04-SCHOOL\semester-workload-plan.md` § The lead: for each
-      course, days between today and its next assessment, against whether that
-      assessment's scope is already held in that course's own unit — proof for PHYS
-      and CSE, deliverable for TCOM, reading for ECON, TBD for ENGR. **A lead under 7
-      days is named in the week's plan**, and it also moves the evening rotation
-      (`EVENING_READING_INSTRUCTIONS.md` § Rebalance). **The lead is a target being
-      built in weeks 1–4, never a state to assert** — the claim it replaces was
-      measured against lecture delivery, which nothing is graded on.
+### System cadence
 
-   **Why this is a cadence step and not a dashboard:** the grade target is 90% in
-   five courses, and a returned score only changes behaviour if something reads it
-   on a fixed day. Nothing in `.ROOT` read grades before this step existed.
-
-5. **DAILY rotation (added 2026-08-02, closes the report-bloat gap):** once
+1. Every due `check_at` item names its owner and disposition.
+2. Learner-hub alignment and instruction-protocol confirmation run after a
+   relevant instruction or owner change, not as standing weekly approval gates.
+3. **DAILY rotation:** once
    this week's WEEKLY report is filed, `git mv` that week's `DAILY_YYYY-MM-DD.md`
    files into `Session_Logs\Report Archive\` as `ARCHIVED_YYYY-MM-DD_DAILY_YYYY-MM-DD.md`,
    fix any wikilinks that pointed at the old path, and confirm no day is left
@@ -184,15 +159,9 @@ Sunday step produces one short list before any planning is written:
    `DAILY_2026-07-16.md`'s pattern). Skip a week only by naming the gap in the
    plan, not by silence.
 
-Items 2 and 3 are approval gates, not status lines. If Chris has not approved
-them, the week's plan is provisional and says so.
-
-**Semester scope note.** Item 4 is the only addition the semester makes to this
-cadence, and it is deliberately inside the existing ~15–30 minute Sunday budget
-rather than beside it — per the maintenance budget below, CASTLE work does not
-grow during a semester. If item 4 cannot fit in the budget, items 2 and 3 shrink
-first; the grade and miss reads do not, because they are the two that carry
-consequences Chris cannot recover later.
+School data enters this cadence only when Chris supplies it or explicitly requests
+the review. Silence is unknown, not evidence that an assignment is complete or
+missing.
 
 `77-INBOX` is the single universal intake door, including Obsidian web clips.
 Route clear items through `WHERE_IT_GOES.md`; leave ambiguous items in place
@@ -243,10 +212,9 @@ When meaningful work ends:
 gates run, plans converted or re-anchored, protocol changes, opportunity movements,
 phase transitions — not session narration. Routine maintenance stays in the DAILY.
 
-**Semester maintenance budget (added 2026-08-19):** during a semester, scheduled
-CASTLE work is the Sunday due-checks return (~15–30 min, template-enforced) plus one
-monthly reconciliation session. Nothing else is scheduled. Per [[phase-map]]'s own
-guardrail, if CASTLE maintenance displaces learning, the maintenance scope is what
-shrinks.
+**Semester maintenance budget (revised 2026-09-05):** scheduled CASTLE work is one
+monthly reconciliation. School reviews and tutoring are user-invoked. Per
+[[phase-map]]'s guardrail, if maintenance displaces learning or evidence-producing
+value work, maintenance scope shrinks.
 
 Generated plans and polished artifacts are not proof. Close on verified movement, an explicit decision, or an honestly stated blocker.

@@ -2,11 +2,16 @@
 type: instruction
 timeline: reference
 tags: [governance, learning]
-status: live
+status: parked
 ---
 
 # Evening Reading Instructions
 ### AKA "Nightly Reading" — same file, same schedule; renamed in conversation only, not on disk (rewritten 2026-07-23 per Chris's direct request for a clearer two-block contract).
+
+> **PARKED 2026-09-05 by Chris's lane ruling.** No automatic nightly reading is
+> assigned. Generate one bounded reading slice only when Chris explicitly asks
+> through `TUTOR.md` or `VALUE.md`. The remainder of this file is retained as the
+> historical design and has no operative force while status is `parked`.
 
 At 5:00 p.m. local time, read `MORNING_BRIEF.md`, `NOW.md`, today's DAILY, the current
 week's row in `04-SCHOOL\semester-workload-plan.md` §3, and the rotation course's owner

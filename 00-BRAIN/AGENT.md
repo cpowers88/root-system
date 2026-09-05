@@ -159,6 +159,22 @@ Steps 1–4 are the universal orientation chain, not a requirement to load every
 optional companion or domain file. Load the smallest authoritative companion and
 local chain that can answer the active question safely.
 
+### Lane entry pointers (added 2026-09-05, Chris-approved)
+
+After the universal orientation chain, choose one default lane from Chris's
+request:
+
+- **Tutoring, a course, or school learning:** load `.ROOT\TUTOR.md`, then its
+  subject branch. Chris owns live D2L deadlines and submission status; `.ROOT`
+  supplies on-demand tutoring and learner evidence.
+- **Business, profit, company building, capability assessment, or market/technology
+  research:** load `.ROOT\VALUE.md`, then its one owning wiki.
+
+A lane narrows preloaded context; it does not create authority or refuse a direct
+cross-lane request. For a mixed request, begin with the outcome Chris named and
+load the second lane only when the work actually crosses the boundary. Lane work
+does not refresh `MORNING_BRIEF.md` unless Chris asks for a system load or brief.
+
 ### Course → hat routing (added 2026-08-16)
 
 **Trigger: the session's active work is a registered course.** Each subject hat
@@ -175,8 +191,9 @@ trigger is part of the rule (flag #94's lesson).
 | ENGR 1000 | `HAT_ENGR1000` → `03-WIKIS\EDUCATION\OPERATIONS.md` |
 
 Hats live in `00-BRAIN\HATS\`. **Every subject hat loads `HAT_EDUCATOR.md` first**
-— it carries the teaching methods the subject hats point at. **`04-SCHOOL\SEMESTER_MAP.md`
-outranks every hat on dates**; a hat's dated claim never wins against it.
+— it carries the teaching methods the subject hats point at. Live D2L and the
+exact-section instructor own current dates. Local schedule files are reference,
+not a completeness guarantee; Chris confirms any deadline used for action.
 
 **Proof this is working:** the session names its hat before the first teaching
 move, without Chris naming it. **Stop:** if no hat matches, say so and ask —

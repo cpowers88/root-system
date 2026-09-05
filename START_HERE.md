@@ -8,16 +8,19 @@ tags: [governance]
 ---
 
 # START HERE — The Whole System on One Screen
-### For Chris Powers, aka theinternet. Updated July 25, 2026 (post-architecture interface reconciliation). If anything here confuses you, that's a bug — tell the AI.
+### For Chris Powers, aka theinternet. Updated September 5, 2026 (two-lane operating interface). If anything here confuses you, that's a bug — tell the AI.
 
 ---
 
-## Your Morning
+## Start by choosing the work
 
-Open **`MORNING_BRIEF.md`** first for the three-line attention/start/approval
-call, then open **`NOW.md`** only when you need the detailed roadmap. CASTLE
-maintains `NOW.md`; the first AI session of the day refreshes the brief from it
-and the live owner files.
+- Open **`TUTOR.md`** when you want school learning, explanation, or practice.
+- Open **`VALUE.md`** when you want capability assessment, research, business,
+  company building, or profitable-skill work.
+- Open **`NOW.md`** only when you want the current cross-system state.
+
+Chris manages live deadlines and submissions in D2L. `.ROOT` is not expected to
+reconstruct a complete assignment calendar.
 
 ---
 
@@ -25,13 +28,15 @@ and the live owner files.
 
 | Open… | When you want to… |
 |---|---|
-| 📄 `NOW.md` | **Start your day.** One screen, one priority. |
+| 🎓 `TUTOR.md` | **Learn on demand.** Load one subject, its learner state, and the relevant source. |
+| 💰 `VALUE.md` | **Build valuable capability.** Assess, research, validate, build, and measure against the value ladder. |
+| 📄 `NOW.md` | See the current cross-system state and next evidence gate. |
 | 📘 [ROOT_OPERATING_MANUAL.md](ROOT_OPERATING_MANUAL.md) | **Learn how to operate.** Use the proof loops, ownership rules, and closeout pattern after this map. |
 | 🗼 [WATCHTOWER.md](01-NORTH_STAR/WATCHTOWER.md) | **Watch material external change.** Evidence stays in its wiki; qualifying signals enter the two-file radar, then CASTLE gates any test. |
 | 🧠 `00-BRAIN` | See/change how the AI operates. `AGENT.md` is the universal OS every engine boots from; surface profiles (`CLAUDE.md` / `CODEX.md`) describe strengths and access; `HATS\` holds optional modes; 🏰 `CASTLE` (the command center — phases, skills, proof projects) lives here too, plus maps, flags, session logs. |
 | ⭐ `01-NORTH_STAR` | **Read the durable star.** Load `CURRENT_STRATEGY.md` only for the active business vehicle, and `fall_2026_semester.md` for semester readiness and outcomes. |
 | 📚 `02-LIBRARY` | Grab reference by domain (`ref-<name>` folders). Also `.PROJECTS` (build docs) and `.raw ARCHIVE` (closed legacy sources—no new intake). **Course files are not here** — they moved to `04-SCHOOL` on 2026-08-12. `README.md` inside disambiguates the business/physics look-alikes. |
-| 🎓 `04-SCHOOL` | **What you are graded on.** One folder per course, each with a `work\` bay for drafts, problem sets and lab reports. `SEMESTER_MAP.md` is the date authority and outranks every hat. Boundary vs `03-WIKIS`: **KSU gave it to me → here; we made it → the hub.** |
+| 🎓 `04-SCHOOL` | **What you are graded on.** One folder per course, each with a `work\` bay. Live D2L and the instructor own deadlines; local maps are reference. Boundary vs `03-WIKIS`: **KSU gave it to me → here; we made it → the hub.** |
 | ⚒️ `03-WIKIS` | Work the eight knowledge hubs: `SYSTEMS` (system dynamics + ISYE spine) · `PYTHON` (Python/CS stages) · `EDUCATION` (general KSU support — TCOM/ECON/ENGR) · `PHYSICS` (physics stages) · `BUSINESS` (offers, pricing, audit method, market research) · `TECHNOLOGY` (tech-adoption roadmap + applied technical reference) · `AI_AUTOMATION_SYSTEMS` (AI/agent research + `.ROOT` self-evolution proposals) · `REVENUE_LAB` (digital revenue evidence and tests). Each has a `HOW_TO_USE.md` inside. |
 | 💼 `05-BUSINESS` | The money system: reusable templates, pricing, sanitized field lessons, and capability assets (case-study and proposal folders are ready and fill with real engagements — see its `README.md`). Active client-specific work stays in a separate client workspace outside `.ROOT`. |
 | 📥 `77-INBOX` | Universal intake: manual files dropped from outside `.ROOT` and automatic Obsidian web-clipping output (`Clippings` retired 2026-07-24, clipper now points here). Cleared every weekly review. |
@@ -51,6 +56,7 @@ C:\Users\chris\.ROOT\CLAUDE.md or AGENTS.md (surface boot pointer)
   → surface profile: CLAUDE.md / CODEX.md   (strengths + access notes)
   → CHRIS_CORE.md                 (who you are, how you work)
   → 01-NORTH_STAR\NORTH_STAR.md  (durable direction — every session)
+  → TUTOR.md or VALUE.md          (one narrow lane chosen from the request)
   → current strategy / semester goal / Watchtower only when that question is active
   → optional HATS\ mode           (Operator / Educator / subject hat, if useful)
   → the section's own operating file

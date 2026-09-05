@@ -1,15 +1,18 @@
 ---
 type: plan
-timeline: now
-status: active
+timeline: reference
+status: reference
 reference_priority: core
 tags: [physics, school, fall-2026, pathway]
 created: 2026-08-08
-revised: 2026-08-23
-review_trigger: 2026-08-30
+revised: 2026-09-05
 ---
 
 # Semester Pathway — PHYS 2211, Fall 2026
+
+> **Operating status changed 2026-09-05 by Chris:** this remains the verified
+> topic sequence and tutoring reference, not an active calendar. Chris chooses the
+> entry point and manages deadlines in D2L; `TUTOR.md` loads only the portion needed.
 
 **One path through the semester.** This page owns *what Chris studies and when*,
 from August 9 through the final exam, paced one week ahead of lecture.
@@ -379,5 +382,5 @@ place in the semester to lose points to something that is not physics.
 *Built 2026-08-08 on neighbour-section evidence. **Rebuilt 2026-08-18 on the exact
 Section 54 syllabus** (`raw/syllabus/Syllabus.pdf`), obtained by Chris directly from
 Farhan Islam. All derived dates were replaced with printed ones; Ch 13 and Ch 17 left the
-active path; the AI policy and grading weights are known rather than assumed. Next
-review: **Aug 24**, against D2L.*
+active path; the AI policy and grading weights are known rather than assumed. Since
+2026-09-05, dates are consulted only as reference and verified live by Chris when needed.*

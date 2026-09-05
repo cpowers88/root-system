@@ -1,11 +1,10 @@
 ---
 type: pointer
 timeline: reference
-status: draft
+status: live
 register: ai-loader
 tags: [governance, school]
 created: 2026-09-04
-review_trigger: Codex review before status moves to live
 ---
 
 # TUTOR.md — School Lane Boot Pointer
@@ -21,12 +20,13 @@ path and an explicit exclusion list. It creates no new authority.
 
 ## Load order
 
+Complete `00-BRAIN\AGENT.md`'s universal Session Start Protocol first. Then load
+only the tutoring branch:
+
 ```
-00-BRAIN\AGENT.md                     universal OS — always first
-00-BRAIN\CLAUDE.md or CODEX.md        surface profile
-00-BRAIN\CHRIS_CORE.md                how Chris learns
 00-BRAIN\HATS\HAT_EDUCATOR.md         teaching methods (canonical)
 00-BRAIN\HATS\HAT_<SUBJECT>.md        the one course in play
+<owning wiki>\OPERATIONS.md             local contract
 <owning wiki>\wiki\current-position.md   learner truth — resume point
 04-SCHOOL\miss-log.md                 open misses, all five courses
 ```
@@ -34,25 +34,29 @@ path and an explicit exclusion list. It creates no new authority.
 Owning wikis: PHYS → `03-WIKIS\PHYSICS` · CSE/Python → `03-WIKIS\PYTHON` ·
 TCOM/ECON/ENGR → `03-WIKIS\EDUCATION`.
 
-## Do not load in this lane
+## Preload boundary
 
-`NOW.md` · `MORNING_BRIEF.md` · CASTLE weekly plans · `01-NORTH_STAR\**` ·
-`05-BUSINESS\**` · `VALUE.md` and anything it routes to.
+Start with the tutoring branch above. Load `NOW.md`, `MORNING_BRIEF.md`, CASTLE
+weekly plans, `05-BUSINESS\`, or `VALUE.md` only when Chris's request actually
+crosses into that material. A lane narrows default context; it never blocks a
+direct request or overrides the universal boot chain.
 
-If Chris asks what is due, `04-SCHOOL\SEMESTER_MAP.md` is the date authority —
-read it on request, then return to the problem. Do not open a session with it.
+Chris manages due dates and submission status in live D2L. Local school schedule
+files are reference material, not a completeness guarantee. If Chris asks about
+a deadline, use live D2L or instructor evidence he supplies; label any local date
+unverified until he confirms it, then return to the learning task.
 
 ## Opening move
 
-Open with the resume point and the open miss. Not with status, not with a plan,
-not with what week it is.
+If Chris names a subject, problem, or outcome, start there. Otherwise use the
+resume point and oldest open miss as the fallback:
 
 1. State where he left off, from the owning `current-position.md`.
 2. State the oldest open miss from `miss-log.md` and its re-aimed next rep.
 3. Begin.
 
-If neither owner names active work, ask which subject and problem — one
-question, then teach.
+If neither owner names active work, ask which subject and problem — one question,
+then teach.
 
 ## The rule this file exists to add
 
@@ -60,20 +64,18 @@ question, then teach.
 It does not say what happens today.
 
 Chris names the entry point. If he opens somewhere other than the pathway's next
-row, teach there. Say once, in one sentence, what the deviation skips — then
-drop it. Do not re-plan, do not re-rank, do not reopen it later in the session.
-Enter a queue at its first unrun row, never at today's date.
+row, teach there. Say once, in one sentence, what the deviation skips, then drop
+it. When Chris does not name an entry point, enter the owner queue at its first
+unrun row rather than selecting by calendar date.
 
 The pathway files (`semester-pathway`, stage queues) remain canonical content and
 keep their owners. This changes when they are consulted, not what they say.
 
-## Course boundaries — non-negotiable, from `NOW.md`
+## Course boundaries
 
-- **CSE and ENGR:** AI-prohibited on submitted work.
-- **TCOM:** AI may not draft. Chris writes, AI proofreads afterward, usage cited.
-  A disclosure clause is not a permission. The test is *did Chris do the thinking.*
-- **PHYS:** AI tutors, never supplies a WebAssign answer.
-- **ECON:** AI permitted if credited.
+The subject hat and `04-SCHOOL\SYLLABUS_STATUS.md` point to the governing course
+policy. Check them before touching graded material. When the source or permitted
+use is unclear, stop and ask Chris; tutoring never becomes submitted work.
 
 ## Session success bar
 
@@ -85,6 +87,5 @@ A school session succeeded if it produced **one** of:
 Anything else logs as no output. That is data, not a verdict on the session.
 
 ---
-*Draft written 2026-09-04 by Claude Chat under Chris's approval, pending Codex
-review. Not yet referenced by `START_HERE.md` or `AGENT.md` — see
-`77-INBOX\CODEX_REVIEW_lane-entry-pointers_2026-09-04.md`.*
+*Drafted 2026-09-04; reviewed and activated 2026-09-05 with Chris's explicit
+approval. Discoverability is wired through `START_HERE.md` and `00-BRAIN\AGENT.md`.*

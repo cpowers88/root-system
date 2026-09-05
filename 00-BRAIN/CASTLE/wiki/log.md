@@ -2666,3 +2666,29 @@ and miss-log 5b in the relocated lead block.
 - **School boundary:** the baseline may not displace fixed deadlines. School tutoring becomes an
   on-demand service when Chris invokes the course hat and source chain; Chris owns due-date
   management.
+
+## 2026-09-05 — Two-lane operating boundary activated; Step 1 health restored
+
+- **Chris approved the governance change explicitly.** Root `TUTOR.md` now routes
+  on-demand school learning; root `VALUE.md` routes capability assessment,
+  business research, and company-building work. `AGENT.md` and `START_HERE.md`
+  expose both after the universal boot chain.
+- **Review repairs before activation:** TUTOR's conflict with the mandatory North
+  Star load was removed; absolute exclusion lists became conditional preload
+  boundaries; copied course policies and live gate snapshots became owner
+  pointers. The completed review brief moved from `77-INBOX` to `99-ARCHIVE`.
+- **School execution boundary:** Chris and live D2L own deadlines and submission
+  status. CASTLE no longer mandates a Sunday school plan or automatic nightly
+  reading. The active Week 2 plan was superseded; school maps and schedules remain
+  reference; the miss log remains on-demand learner evidence.
+- **Stale decisions closed:** Phase 2 is parked until one reachable operation
+  permits observation; capability and value goal reviews move to Sep 8 after
+  Baseline 2 and the operating-history interview; the semester-level goal moves
+  to the Sep 21 monthly integration review.
+- **Acceptance:** canonical `root_health.py --verbose` returned **PASS** in every
+  named scope. Simulated freshness also passes Sep 6 and Sep 7; Sep 8 is the
+  deliberate next decision gate. Semantic current-project truth and ordinary
+  direct-path prose remain outside the deterministic gate.
+- **Control returned to the cockpit.** `NOW.md` is under 600 words and names
+  VALUE/capability assessment as the active lane. **Next exact action:** Capability
+  Baseline 2, then the operating-history interview before current-market research.

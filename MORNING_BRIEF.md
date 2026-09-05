@@ -6,10 +6,10 @@ generated: 2026-09-05
 tags: []
 ---
 
-# Friday, September 5, 2026
+# Saturday, September 5, 2026
 
-**ATTENTION:** CASTLE freshness shows 6 stale findings, led by `00-BRAIN\CASTLE\wiki\phases\phase-2-audit-methodology-foundation.md`, whose window opened Sep 1 while it still reads "planned."
+**ATTENTION:** Choose the lane before loading detail. Chris owns live school deadlines in D2L; `.ROOT` does not reconstruct the full assignment calendar.
 
-**START:** Work Week 2 (Aug 31–Sep 6) of `04-SCHOOL\semester-workload-plan.md` — CSE Quiz 1 is due Sun Sep 6, and Respondus is still untested, per `NOW.md`.
+**START:** `VALUE.md` → Capability Baseline 2, then the operating-history interview. Use `TUTOR.md` instead when Chris chooses a school-learning task.
 
-**CHRIS:** Confirm the copied D2L schedule conflicts (TCOM, ECON, ENGR dates) against live D2L before any owner file is rewritten, per `NOW.md`.
+**CHRIS:** Bring concrete examples to the interview—what you personally did, the result, the effort, and what others trusted you to handle.

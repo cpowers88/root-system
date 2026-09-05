@@ -7,6 +7,12 @@ tags: [baseline]
 
 # Current Position — August 2026 Monthly Baseline
 
+> **Operating boundary revised 2026-09-05; capability states below remain the
+> Aug 21 monthly snapshot.** Chris owns live D2L deadlines and submissions.
+> `TUTOR.md` provides on-demand learning; `VALUE.md` owns the capability-assessment
+> entry. Baseline 1 is evidence, not a state promotion. The next full state
+> reconciliation remains Sep 21.
+
 > **✅ FULL RECONCILIATION RUN 2026-08-21, closing flag #103's overdue pass.** Every row
 > below was checked against its owner this session — not re-asserted. **Method, because it
 > is the part worth repeating:** `git log --since=2026-07-19` over the owner files, then a
@@ -71,11 +77,10 @@ pointers, no copied state).
 
 The cross-domain weak-link ranking is owned only by
 `01-NORTH_STAR\Goals & Milestones\capability_development_goal.md`; CASTLE does
-not reproduce it here. Chris ruled on 2026-08-19 that the Fall semester overlay
-selects fixed school deadlines and current course proof before optional
-capability, business, project, or system work. `04-SCHOOL\semester-workload-plan.md`
-owns course load and collision truth, and `.ROOT\NOW.md` owns the immediate
-action. The full capability-state reconciliation **ran Friday Aug 21** and is recorded at
+not reproduce it here. Chris revised the operating boundary 2026-09-05: he owns
+live school execution in D2L, while `TUTOR.md` and `VALUE.md` provide two
+on-demand entry paths. `.ROOT\NOW.md` owns the immediate evidence gate. The full
+capability-state reconciliation **ran Friday Aug 21** and is recorded at
 the foot of this page; the next one is **September 21, 2026**.
 
 ## Durable Advantages
@@ -147,12 +152,9 @@ explicitly gated on evidence that Monday produces, not on anything a Sunday revi
    pointers, no copied state.
 3. **Flag #102's close condition is met** — zero conflict copies in the relocated gitdir after
    a full week of live Drive runtime. Chris's confirmation is the only remaining step.
-4. **⏰ A dated ambush was found and is not yet decided: [[phase-2-audit-methodology-foundation]]
-   demands flip-or-explain on Tue Sep 1.** Recommendation on file is *hold at `planned`* —
-   note that **this table is the evidence for that recommendation**: Field observation sits at
-   `building` gated on a first live observation, and the three opportunity rows nearest this
-   phase are all parked for the same missing warm-network access. **Chris's call at or before
-   Sep 1.**
+4. **Phase 2 was parked by Chris on 2026-09-05.** Field observation remains at
+   `building`; the phase opens only when one reachable operation permits real
+   observation. Capability assessment continues without claiming field proof.
 
 **Two rows to watch in week 1, both already gated correctly above:** SQL/SQLite, whose proof
 unblocks the moment D2L populates the tracker (Mon Aug 24), and Technical writing, whose first

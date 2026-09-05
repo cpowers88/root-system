@@ -5,17 +5,15 @@ status: active
 register: ai-directive
 tags: [north-star, school, fall-2026]
 created: 2026-07-24
-review_trigger: 2026-09-06
+review_trigger: 2026-09-21
 ---
 
 # FALL_2026_SEMESTER
 
-> **Weekly review 2026-08-30:** course activation is complete. All five courses now hold
-> exact-section evidence, including ENGR BWD's separate 14-week schedule document. Week 1
-> returned three TCOM 100s plus PHYS raw quiz scores of 9/10 and 10/10 (live-drop standing
-> 100%), while ~48–50 total hours produced no movement on the two planned lead items. The Week 2
-> decision is therefore operational, not directional: move the lead into Monday/Tuesday campus
-> gaps and re-measure on 2026-09-06. Goal, proof bar and priority order are unchanged.
+> **Operating review 2026-09-05:** the semester goal and academic-integrity
+> boundaries remain active. Chris now owns due-date and submission control in live
+> D2L; `.ROOT` supplies tutoring, source retrieval, and learner evidence on demand.
+> The next integration review is the Sep 21 monthly reconciliation.
 
 > **Cadence note, 2026-08-23 — frontmatter date only; no contract field, gate, or policy
 > below was touched.** `review_trigger` advanced `2026-08-24 → 2026-08-30`, which is this
@@ -37,7 +35,7 @@ review_trigger: 2026-09-06
 | why_now | CSE 1321/1321L require independent work without generative-AI assistance; PHYS 2211 requires cumulative calculus-based problem solving. Both reward preparation before workload compounds. |
 | owner | Course requirements: `04-SCHOOL\`; learner truth: PYTHON, PHYSICS, and EDUCATION wikis; current sequencing: CASTLE and `NOW.md`. |
 | proof | Official course requirements verified; graded work completed within each course policy; owner-recorded mastery evidence; semester results reviewed; one reusable, non-submission artifact or capability proof harvested where permitted. |
-| review_trigger | August 1 readiness review; August 24 course activation; weekly during semester; after each major exam; semester close. |
+| review_trigger | When Chris supplies a returned grade or requests a school review; monthly integration review; after each major exam; semester close. |
 | status | active |
 | next_decision | Adjust the weekly school/technology balance and select the next permitted capability proof from observed performance. |
 
@@ -149,7 +147,7 @@ Each meaningful course result returns:
 
 ## Current next action
 
-Run Week 2's school proof: submit PHYS HW1, close miss-log 5b, and use this week's Exam 1-scope
-lectures as retrieval while leading into Chapter 5; prove Respondus and complete three fresh
-CSE pseudocode reps before Quiz 1; confirm Tuesday's lab openings/dates in D2L; finish ECON
-Chapter 3 and mixed Chapters 1–3 retrieval. Review grades, misses and all five leads Sep 6.
+When Chris invokes `TUTOR.md`, start with the subject and outcome he names. If he
+does not name one, use the owning learner position and oldest relevant open miss.
+Record only demonstrated learning or returned-score evidence. Review the
+semester-level outcome at the Sep 21 monthly reconciliation.

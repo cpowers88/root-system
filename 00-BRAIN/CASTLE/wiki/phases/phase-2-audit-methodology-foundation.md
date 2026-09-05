@@ -1,29 +1,28 @@
 ---
 type: phase
-timeline: now
+timeline: parked
 stage: phase-2
-status: planned
+status: parked
 tags: [phase]
 ---
 
 # Phase 2 — Audit Methodology Foundation
 
-**Window**: September 2026 – February 2027 (runs alongside Phase 1, at semester pace)
+**Window**: Event-gated; opens when one reachable operation permits observation (outer planning horizon: February 2027)
 **One-line purpose**: Turn diagnostic instinct into a documented, repeatable method that can support the current offer hypothesis and other real decisions.
 
-> **Metadata note:** the first live observation is current (`timeline: now`); the formal phase remains `status: planned` until its September window opens.
+> **Metadata note:** the phase is parked because its first proof has no reachable
+> subject. A capability assessment may continue in `VALUE.md`; it does not activate
+> this field-observation phase.
 
-> ## ✅ RULED 2026-08-30 by Chris — **HOLD at `planned`.** Answered before it fired.
+> ## ✅ RULED 2026-08-30 and reconciled 2026-09-05 by Chris — **PARKED.**
 >
 > *"I think Phase 2 is a hold at planned."* Recorded at the first live Sunday return; the
 > reasoning below is the evidence it was ruled on, retained rather than restated.
 > **Unblocking condition: one reachable operation willing to be observed.**
-> **Re-check at the monthly reconciliation, Sun Sep 21.**
->
-> ⚠ **`castle_freshness.py` will keep reporting this page daily until Sep 21**, because it
-> fires on `status: planned` + an open **Window** line and has no explained-hold escape.
-> That is known debt, not an unanswered decision. **Fixing it means re-dating the Window
-> line, which is Chris's call — put it to him at the Sep 6 return.**
+> **Re-check at the monthly reconciliation, Sep 21, or immediately when the
+> unblocking event occurs.** The event, not an arbitrary month boundary, activates
+> the phase.
 >
 > ### The original decision block, retained as the evidence:
 >

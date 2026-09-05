@@ -1,13 +1,16 @@
 ---
 type: plan
-timeline: now
-status: active
+timeline: reference
+status: reference
 tags: [school, fall-2026, schedule, planning]
 created: 2026-08-21
-review_trigger: 2026-09-06
 ---
 
 # Weekly Study Schedule — Fall 2026
+
+> **Operating status changed 2026-09-05 by Chris:** reference only. It records a
+> calendar model that may help when Chris asks about capacity; it does not assign
+> today's work or trigger school planning.
 
 ### The recurring template. Built 2026-08-21 from Chris's live Google Calendar (the semester series running Aug 24 – Dec 21), the registrar timetable, and `semester-workload-plan.md`'s hour targets.
 

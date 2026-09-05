@@ -5,7 +5,7 @@ status: active
 register: ai-directive
 tags: [north-star, business, value]
 created: 2026-07-24
-review_trigger: 2026-09-01
+review_trigger: 2026-09-08
 ---
 
 # VALUE_PRODUCTION_GOAL
@@ -67,6 +67,9 @@ the next bar, not a label applied early.
 
 ## Current next proof
 
-CASTLE selects one bounded test from existing approved evidence after checking
-Fall 2026 capacity. The test must use the current Advisor-Builder vehicle unless
-Chris explicitly approves a different vehicle after impact review.
+Finish the capability baseline and operating-history interview, then compare no
+more than three candidate capability/value paths against current buyer evidence.
+Select one small proof project only after the comparison states the buyer,
+valuable outcome, access path, proof, stop rule, and fastest route to paid use.
+The Advisor-Builder remains the current vehicle hypothesis until evidence and a
+Chris-approved Ratchet decision replace it.

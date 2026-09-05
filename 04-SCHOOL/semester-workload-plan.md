@@ -1,12 +1,16 @@
 ---
 type: plan
-timeline: now
-status: active
+timeline: reference
+status: reference
 tags: [school, fall-2026, planning, workload]
 created: 2026-08-18
 ---
 
 # Semester Workload Plan — Fall 2026
+
+> **Operating status changed 2026-09-05 by Chris:** this is a planning model and
+> historical estimate, not a live due-date owner. Open it only when Chris asks to
+> inspect load or collisions, and confirm relevant dates in D2L before acting.
 
 ### The one page that answers "what is a successful week." Built 2026-08-18 at Chris's request from the exact-section sources available, with ENGR explicitly provisional. Per-course detail stays in each hub; this assembles it into weeks and measures it against real available time.
 

@@ -90,26 +90,17 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 
 ## Weekly Plans
 
-Listed newest first. CASTLE owns weekly sequencing; Session Logs own the
-retrospective reviews.
+Listed newest first as history. Since Chris's 2026-09-05 lane ruling, CASTLE does
+not generate a standing school week; Chris invokes school review or tutoring and
+owns live D2L execution. Session Logs own retrospective reviews.
 
-- **🎓 [[weekly-plans/weekly-plan-2026-08-31-to-2026-09-06]] — FALL SEMESTER WEEK 2, ACTIVE.**
-  Built from Week 1's measured ~48–50 total hours and the finding that both lead items were
-  displaced from Saturday. Moves the lead into Monday/Tuesday campus gaps; review Sep 6
-- **🎓 [[weekly-plans/weekly-plan-2026-08-24-to-2026-08-30]] — FALL SEMESTER WEEK 1.**
-  Built Fri Aug 21 per Chris's Aug 19 ruling that the semester format is built Friday, not
-  Sunday. **`timeline: next` / `status: draft` until Mon Aug 24**, when Week D closes and
-  this becomes the Active Lane — flip both then. A **draft confirmed Monday** against D2L's
-  12 reconciliation checks. Carries the Due Checks section, five course focus rows, and the
-  first live run of the grade/miss read on Sun Aug 30
-- **[[weekly-plans/weekly-plan-2026-08-17-to-2026-08-23]] — Week D, ACTIVE through
-  Sunday Aug 23: the last full pre-semester week.** **Rewritten 2026-08-16** —
-  the miss-log premise was removed because no miss log ever existed. Now runs
-  Fall **Week 1's real assignment track five days early** (TCOM and CSE on their
-  own Week 1 days, PHYS on its own queue since its Week 1 is unknown, ENGR
-  zeroed), with the teaching-layer test folded into real coursework rather than
-  run as ceremony, and the **Aug 22 dress rehearsal** before classes start
-  Aug 24. Reading, drafting and drills — not submissions
+- **🎓 [[weekly-plans/weekly-plan-2026-08-31-to-2026-09-06]] — FALL SEMESTER WEEK 2,
+  superseded Sep 5.** Preserved as the final standing school-week plan before the
+  on-demand `TUTOR.md` boundary replaced calendar-driven sequencing.
+- **🎓 [[weekly-plans/weekly-plan-2026-08-24-to-2026-08-30]] — FALL SEMESTER WEEK 1,
+  complete Aug 30.** Course activation completed; outcome recorded on the page.
+- **[[weekly-plans/weekly-plan-2026-08-17-to-2026-08-23]] — Week D, complete Aug 23.**
+  Preserved as the final pre-semester plan.
 - **[[weekly-plans/weekly-plan-2026-08-10-to-2026-08-16]] — Week C, closed
   Sunday Aug 16.** Suspended rather than completed, under the `.ROOT` pause
   (lifted 2026-08-17); its held resume points carried into Week D as PHYS row 3

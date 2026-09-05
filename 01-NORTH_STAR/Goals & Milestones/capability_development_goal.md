@@ -5,7 +5,7 @@ status: active
 register: ai-directive
 tags: [north-star, capability, technology, systems]
 created: 2026-07-24
-review_trigger: 2026-09-01
+review_trigger: 2026-09-08
 ---
 
 # CAPABILITY_DEVELOPMENT_GOAL
@@ -34,24 +34,26 @@ review_trigger: 2026-09-01
 | Business judgment | Translate friction into economic consequence, a bounded offer or decision, and measurable outcome | BUSINESS and REVENUE_LAB wikis |
 | Communication | Explain the problem, evidence, recommendation, uncertainty, and next decision clearly | EDUCATION/TCOM evidence and real delivery |
 
-## Fall 2026 selection overlay — Chris-ruled 2026-08-19
+## Fall 2026 selection overlay — revised by Chris 2026-09-05
 
-During the Fall semester, CASTLE selects work in this order:
+During the Fall semester, Chris selects work in this order:
 
-1. fixed course deadlines, attendance, and required preparation;
-2. the current course proof most likely to prevent lost points or unblock the next assignment;
-3. course-aligned capability practice inside the protected technology/business floor, when deadlines allow; and
-4. optional business, project, or system work only after the school proof is safe, unless urgent client/revenue evidence or Chris's direct instruction changes the decision.
+1. fixed course obligations Chris identifies from D2L or the instructor;
+2. the specific school learning task Chris brings into `TUTOR.md`;
+3. capability assessment and proof-producing practice through `VALUE.md`; and
+4. business, project, or system work selected by evidence and available capacity.
 
-This applies the North Star priority order to the semester; it does not replace
-it. `04-SCHOOL\semester-workload-plan.md` owns course load and collision truth,
-`.ROOT\NOW.md` owns the immediate action, and this file ranks capability gaps
-only after the school selection above has been applied.
+This applies the North Star priority order; it does not make `.ROOT` responsible
+for a complete assignment calendar. Chris owns due-date and submission control.
+`TUTOR.md` owns the school entry path, `VALUE.md` owns the value entry path, and
+this file ranks capability gaps only after fixed obligations are known.
 
-## Current weak-link order
+## Existing learning weak-link order — not yet the profit-skill ranking
 
-The owning current-position pages control detailed state. This table controls
-only cross-domain capability priority within the semester overlay above.
+The owning current-position pages control detailed state. This table preserves
+the last learning-oriented ranking; it does **not** decide which capability has
+the highest financial return. That decision remains open until the baseline and
+market-evidence pass are complete.
 
 | Rank | Weak link | Proof that moves it | Owner |
 |---:|---|---|---|
@@ -91,8 +93,7 @@ real use, buyer behavior, measurable outcome, or repeated reuse.
 
 ## Current next proof
 
-Run the school action selected by `04-SCHOOL\semester-workload-plan.md` and
-`.ROOT\NOW.md` before optional capability work. As of 2026-08-19, the live
-cockpit identifies TCOM startup work as the immediate gap; after that school
-proof is safe, resume the owner-defined PHYSICS and PYTHON gates. Reconcile the
-full capability table and next review date on 2026-08-21.
+Complete Capability Baseline 2 in an unfamiliar domain with a two-minute first
+move, then run the operating-history interview. Use both evidence sets to define
+three candidate high-value capability paths. Research current buyer demand and
+economics before selecting one proof project. Review on 2026-09-08.

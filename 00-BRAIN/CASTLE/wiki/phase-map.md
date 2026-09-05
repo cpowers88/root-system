@@ -17,7 +17,7 @@ its window closes.
 |---|---|---|---|---|
 | 0 | Current Position & Baseline | Jul 2026 — **CLOSED 2026-08-19** | Baseline and first proof project exist; tracker real-data criterion moved to Phase 1 (closure record on the phase page) | [[phase-0-current-position-and-baseline]] |
 | 1 | School + Core Technical Foundation | Aug 2026 – May 2027 | School commitments met; Python/data capability used reliably; high-load tradeoffs managed deliberately | [[phase-1-school-core-technical-foundation]] |
-| 2 | Audit Methodology Foundation | Sep 2026 – Feb 2027 | Observation and flow methods tested on real processes; decision-useful findings produced | [[phase-2-audit-methodology-foundation]] |
+| 2 | Audit Methodology Foundation | **PARKED — opens when one reachable operation permits observation; outer horizon Feb 2027** | Observation and flow methods tested on real processes; decision-useful findings produced | [[phase-2-audit-methodology-foundation]] |
 | 3 | Data & Workflow Systems Foundation | Nov 2026 – Mar 2027 | Messy operational data → validated structure → defensible analysis → decision-ready communication, demonstrated end-to-end | [[phase-3-data-and-workflow-systems-foundation]] |
 | 4 | First Offer Readiness | Feb – Mar 2027 | Current offer hypothesis assembled, priced, rehearsed, and taken into qualified conversations | [[phase-4-first-offer-readiness]] |
 | 5 | First Paid Delivery | Mar – Aug 2027 | One approved first offer delivered for payment and reviewed against its strategy assumption | *planned* |

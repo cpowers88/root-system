@@ -1,12 +1,17 @@
 ---
 type: index
-timeline: now
-status: active
+timeline: reference
+status: reference
 tags: [school, fall-2026, schedule, deadlines]
 created: 2026-08-13
 ---
 
 # SEMESTER_MAP — Fall 2026, all five courses on one page
+
+> **Operating status changed 2026-09-05 by Chris:** reference only. Chris owns
+> deadlines and submission status in live D2L. This map preserves captured
+> syllabus facts and may be consulted on request, but it is not complete enough
+> to drive today's work without live confirmation.
 
 ### Built 2026-08-13 from the exact-section syllabi on disk. Companion to `SYLLABUS_STATUS.md` (which owns source status) and `fall_KSU_schedule.md` (registrar record).
 
@@ -576,5 +581,6 @@ for D2L date and execution ingestion.
   per-assignment. AI may not draft any TCOM submission — including the Week 1 instructor
   email — and no re-writes are permitted for plagiarized work under any circumstances.**
 
-*Owner: `04-SCHOOL`. Source status: `SYLLABUS_STATUS.md`. Time shape and study-block routing:
+*Reference owner: `04-SCHOOL`. Live deadline owner: D2L/instructor, operated by Chris.
+Source status: `SYLLABUS_STATUS.md`. Time shape and study-block routing:
 `Session_Logs\System Update Log\2026-08-12_ROOT_UPDATE\COUNCIL_SEMESTER_READINESS_2026-08-13.md`.*
