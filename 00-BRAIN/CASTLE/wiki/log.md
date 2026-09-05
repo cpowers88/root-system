@@ -2635,3 +2635,34 @@ and miss-log 5b in the relocated lead block.
   Sunday from the workload owner and all active derived surfaces.
 - **Next exact action:** Monday protects PHYS HW1 and 5b; Tuesday records the real CSE lab opening
   set and deadlines from D2L.
+
+## 2026-09-04 — PC system review blocked on live D2L reconciliation
+
+- **Deterministic gate:** `root_health.py --verbose` returned **BLOCKER** on six stale CASTLE
+  review triggers. Boot, navigation, frontmatter, shared-skill mirrors, whitespace, and live
+  Markdown text-integrity checks passed; semantic freshness remains outside that gate.
+- **Inbox finding:** copied D2L schedules conflict with the current owner chain. TCOM appears to
+  have had two omitted Sep 3 items; ECON's first quiz appears to close Sep 13 rather than Sep 8;
+  PHYS HW2 and an ENGR CEE quiz appear due Sep 8; ENGR Student Engagement appears due Nov 17.
+- **Ruling:** these are urgent but provisional graded facts until Chris reopens the live D2L
+  originals. No canonical date owner was silently rewritten, no inbox item was deleted, and no
+  differing Word file overwrote a newer filed revision.
+- **Return-to-cockpit gate:** the review is finished and control has returned to the school
+  cockpit. **Next exact action:** verify the three Sep 3 TCOM items and their completion state in
+  live D2L, then reconcile the remaining course schedules owner-first.
+
+## 2026-09-04 — Profit gate holds financial-skill selection behind a capability baseline
+
+- **Idea gated:** choose the next non-school learning investment for maximum financial return
+  only after a measured assessment of Chris's current capabilities.
+- **Verdict: HOLD on selecting a new profit skill.** No-orphan, phase, displacement, and proof
+  tests pass: the diagnostic directly serves `capability_development_goal.md`'s next decision,
+  fits Phases 1–2, displaces speculative learning/system tinkering, and can close on recorded cold
+  performance. The source test remains **unknown** because no specific skill, buyer-valued
+  outcome, or income mechanism has yet been named.
+- **Unlock condition:** one integrated cold workflow-diagnosis baseline, followed by Tier 1–2
+  market evidence and a one-sentence proof project for each candidate focus. Test one candidate
+  at a time; aptitude, current skill, market value, and paid proof remain separate evidence.
+- **School boundary:** the baseline may not displace fixed deadlines. School tutoring becomes an
+  on-demand service when Chris invokes the course hat and source chain; Chris owns due-date
+  management.

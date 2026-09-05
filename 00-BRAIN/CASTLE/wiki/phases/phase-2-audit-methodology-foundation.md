@@ -13,7 +13,21 @@ tags: [phase]
 
 > **Metadata note:** the first live observation is current (`timeline: now`); the formal phase remains `status: planned` until its September window opens.
 
-> ## ⏰ DECISION DUE Tue Sep 1 — flip to `active`, or record why not. Chris's call.
+> ## ✅ RULED 2026-08-30 by Chris — **HOLD at `planned`.** Answered before it fired.
+>
+> *"I think Phase 2 is a hold at planned."* Recorded at the first live Sunday return; the
+> reasoning below is the evidence it was ruled on, retained rather than restated.
+> **Unblocking condition: one reachable operation willing to be observed.**
+> **Re-check at the monthly reconciliation, Sun Sep 21.**
+>
+> ⚠ **`castle_freshness.py` will keep reporting this page daily until Sep 21**, because it
+> fires on `status: planned` + an open **Window** line and has no explained-hold escape.
+> That is known debt, not an unanswered decision. **Fixing it means re-dating the Window
+> line, which is Chris's call — put it to him at the Sep 6 return.**
+>
+> ### The original decision block, retained as the evidence:
+>
+> **⏰ DECISION DUE Tue Sep 1 — flip to `active`, or record why not.**
 >
 > **Surfaced 2026-08-23 at the semester transition, deliberately early.** This page's window
 > opens **September 2026**, so `castle_freshness.py` will demand a flip-or-explain on Sep 1 —

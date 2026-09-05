@@ -2,14 +2,14 @@
 type: dashboard
 timeline: now
 status: active
-tags: [morning-brief]
-generated: 2026-08-31
+generated: 2026-09-05
+tags: []
 ---
 
-# Monday, August 31, 2026 · Week 2
+# Friday, September 5, 2026
 
-**ATTENTION**: PHYS WebAssign **HW1 is due today and late is a flat zero** (100 pts). Confirm its exact deadline time before 09:10 — and if today looks like collapsing, file the WebAssign extension request *before* anything else.
+**ATTENTION:** CASTLE freshness shows 6 stale findings, led by `00-BRAIN\CASTLE\wiki\phases\phase-2-audit-methodology-foundation.md`, whose window opened Sep 1 while it still reads "planned."
 
-**START**: The Monday campus gap (10:15–14:15) is the lead's new home. Open it with 30 minutes on **miss-log 5b** — one cold circular-motion problem, unfamiliar setup, no reminder that direction and the real force are wanted — then finish HW1, then PHYS §§5.1–5.3.
+**START:** Work Week 2 (Aug 31–Sep 6) of `04-SCHOOL\semester-workload-plan.md` — CSE Quiz 1 is due Sun Sep 6, and Respondus is still untested, per `NOW.md`.
 
-**CHRIS**: Open `04-SCHOOL\FallKSU.xlsx` in Excel and save once; in D2L, check the TCOM **Course Policies Quiz** and confirm whether the first CSE lab assignments open Tuesday, including their exact due dates.
+**CHRIS:** Confirm the copied D2L schedule conflicts (TCOM, ECON, ENGR dates) against live D2L before any owner file is rewritten, per `NOW.md`.
