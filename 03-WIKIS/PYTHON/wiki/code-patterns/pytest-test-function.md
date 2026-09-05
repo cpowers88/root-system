@@ -3,7 +3,8 @@ type: code-pattern
 stage: 10
 status: draft
 concepts: ["unit-test", "function", "return-value"]
-tags: [stage-10, testing, pytest]
+tags: [testing, pytest]
+timeline: reference
 ---
 
 # Code Pattern: `pytest` Test Function

@@ -2,7 +2,8 @@
 type: error-log
 stage: 07
 status: draft
-tags: [stage-07, errors, process-mistakes]
+tags: [errors, process-mistakes]
+timeline: reference
 ---
 
 # Stage 7 Common "Errors" (Process Mistakes, Not Tracebacks)

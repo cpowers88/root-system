@@ -1,6 +1,7 @@
 ---
 type: common-errors
-tags: [now, physics]
+tags: [physics]
+timeline: now
 ---
 
 # Common Errors — Stage 2: Motion in One Dimension (Ch 2)

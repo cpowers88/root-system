@@ -4,6 +4,7 @@ stage: 09
 status: draft
 aliases: ["JavaScript Object Notation"]
 related_terms: ["csv", "dictionary"]
+timeline: reference
 ---
 
 # JSON

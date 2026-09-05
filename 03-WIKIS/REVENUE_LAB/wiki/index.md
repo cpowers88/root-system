@@ -1,13 +1,23 @@
 ---
-tags: [reference]
+type: map
+timeline: now
+tags: [revenue]
 ---
 
 # Index — Revenue Lab Wiki
-### Updated: July 16, 2026 (proof-led content decision recorded)
+### Updated: July 24, 2026 (instruction set converted; lane content unchanged since July 16)
 
 ## Hub Files
-- `CLAUDE.md` — hub OS: purpose, ranking rubric, boundaries, division of labor
-- `HOW_TO_USE.md` — how Chris extracts value from this hub
+- `OPERATIONS.md` — canonical local contract: function, authority, rubric,
+  evidence tiers, action safety, gate and return
+- `CLAUDE.md` — AI loader pointing at the contract
+- `HOW_TO_USE.md` — the human workflow
+- `README.md` — hub router
+
+## Live Status Elsewhere
+Opportunity status, priority, and review dates live in
+`00-BRAIN\CASTLE\wiki\opportunity-queue.md` and are more current than this
+index. Check it before acting on anything below.
 
 ## Active
 - **[[revenue-lane-scorecard]] — the scan's ranked output + CASTLE gate result.
@@ -16,7 +26,7 @@ tags: [reference]
 - **[[yt-outlier-scanner-first-findings-2026-07-14]] — first live scanner
   evidence plus the completed 36-topic cross-market expansion: 2,615 raw unique
   candidates, 2,113 strict candidates, and a deduplicated combined top 100.
-  The [no-label top-100 worksheet](../../../02-LIBRARY/.PROJECTS/YT_Outlier_Scanner/TOP_100_CLASSIFICATION_WORKSHEET.md)
+  The [no-label top-100 worksheet](<../../../02-LIBRARY/.PROJECTS/YT_Outlier_Scanner(Pause, chris)/TOP_100_CLASSIFICATION_WORKSHEET.md>)
   now includes a recording-fit pre-screen; the human table remains blank.**
 - **[[proof-led-content-strategy-decision-2026-07-16]] — strategic business
   decision: conditional GO for one private proof capped at 90 added minutes;

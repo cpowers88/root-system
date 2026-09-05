@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: reference
-tags: [priority/now, status/wiki-only, domain/technology, source-role/reference, use-case/tech-stack, subject/sql, subject/postgresql, stack/sql]
+tags: [subject/sql, subject/postgresql]
+timeline: now
+status: wiki-only
+source_role: reference
+use_cases: [tech-stack]
+stack: [sql]
 ---
 
 # Practical SQL — Source Summary and Navigation Hub

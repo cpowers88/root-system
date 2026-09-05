@@ -4,6 +4,7 @@ stage: 06
 status: draft
 aliases: ["open()", "context manager"]
 related_terms: ["file-path"]
+timeline: reference
 ---
 
 # `open()` / Read / Write / Close

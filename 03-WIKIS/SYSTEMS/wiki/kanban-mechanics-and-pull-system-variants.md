@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/process-design, use-case/systems-analysis, use-case/ksu-support, subject/kanban, subject/pull-systems, subject/inventory-control, subject/factory-physics]
+tags: [subject/kanban, subject/pull-systems, subject/inventory-control, subject/factory-physics]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [process-design, systems-analysis, ksu-support]
 ---
 
 # Kanban Mechanics: Two-Card, One-Card, and the Base Stock Equivalence

@@ -4,7 +4,8 @@ status: active
 stage: 10
 python_tools: [requests, json]
 prerequisites: [dictionaries, functions, errors, json]
-tags: [reference, programming, capability]
+tags: [programming, capability]
+timeline: reference
 ---
 
 # Capability: Pull Data from the Internet (APIs)

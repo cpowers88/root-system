@@ -3,7 +3,9 @@ domain: technology
 type: concept
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/ddd, subject/integration, subject/messaging]
+tags: [subject/ddd, subject/integration, subject/messaging]
+source_role: primary
+use_cases: [tech-stack]
 ---
 
 # Domain-Driven Integration and Reliable Messaging

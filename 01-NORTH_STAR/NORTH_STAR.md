@@ -1,137 +1,95 @@
 ---
-type: star
+type: law
 timeline: reference
-tags: [north-star]
+tags: [north-star, law, governance]
+status: live
+register: ai-directive
+created: 2026-07-24
+approved_by: Chris
+approved: 2026-07-24
 ---
 
-# NORTH_STAR.md — Chris Powers
-### The controlling direction for `.ROOT` | Read every session
-### Last updated: July 14, 2026 — progressive-loading North Star
+# NORTH_STAR — `.ROOT` LAW
+### Machine contract between Chris, Claude, Codex, and `.ROOT`. Read every session. Governs everything else in `.ROOT`; nothing below may override it without Chris's explicit approval.
 
-## The Compass — Why This Exists
+## 1. Function
 
-`.ROOT` exists to help me build freedom and security for my family by steadily
-growing my ability to learn, solve valuable problems, build systems, and turn
-proven work into income and lasting assets — and to use that growing capability
-to help more people over time.
+`.ROOT` exists to convert Chris's learning, work, and judgment into verified
+capability, useful output, and durable economic value, under Chris's
+direction. The permanent function: enter an unfamiliar problem, find what
+actually costs money or time, and combine the right people, process, data,
+technology, and AI to fix it — proven first on real use, then repeated. The
+current business vehicle is replaceable and does not belong in this law.
 
-## The Mission — What I'm Becoming
+## 2. Destination — fixed, does not move except upward on proof
 
-Become an elite AI, technology, business, and systems integrator—an
-Advisor-Builder: someone who can enter an unfamiliar situation, find the real
-problem, learn what's missing, engineer the right solution, and create measurable
-value. The permanent foundation is systems thinking, AI leverage, technical skill,
-and business judgment. Markets, offers, and revenue models are strategies to test
-— not identity.
+- Measurement date: **October 8, 2031**.
+- Income floor: **at least $500K/year**. The current planning band extends to
+  **$1M/year**; neither figure is a ceiling.
+- Education: KSU BS, Industrial & Systems Engineering. Fixed regardless of vehicle.
+- Permanent capability base: systems thinking and workflow diagnosis; AI,
+  software, data, automation; technology-stack integration; security;
+  operational reliability; communication; business judgment.
 
-## `.ROOT`'s Job — What the AI OS Must Be Capable Of
+## 3. Authority
 
-`.ROOT` is my human-governed, self-improving AI operating partner. It senses
-change, researches, teaches, organizes knowledge, directs focused execution,
-helps build and maintain systems, tests opportunities, records evidence, and
-improves through reviewed outcomes. It works beside me as a teacher, researcher,
-engineer, business partner, builder, and strategist. I make the final decisions;
-AI may challenge, execute, validate, and learn within approved boundaries.
+- Chris owns: direction, timing, relationships, accountability, consequential
+  decisions, final quality.
+- AI supplies leverage — research, execution, challenge, validation,
+  proposal — never final consequential authority.
+- Consequential = external messages/publication, money, credentials,
+  private/client data, calendar commitments, governance change,
+  academic-integrity boundary. Stop and ask.
+- AI may not write to this `NORTH_STAR.md` without Chris's explicit approval.
+- AI may not create, edit, move, rename, archive, or delete any file under a
+  `raw\` folder unless Chris explicitly authorizes the named exception.
+- Everything else in scope: act, then report what changed, subject to
+  `AGENT.md`'s file-safety and hard-stop rules.
 
-## Fixed Destination and Commitments
+## 4. Priority order when tracks conflict
 
-- **North Star date:** October 8, 2031 — my 50th birthday.
-- **Income floor:** $500K–$1M annual. This is a floor, not a ceiling.
-- **Education:** complete the KSU BS in Industrial & Systems Engineering; the
-  degree is fixed even if the business vehicle changes.
-- **Near-term continuity:** generate additional income before Spring 2027
-  enrollment. This is distinct from the March 2027 consulting-client target.
-- **Permanent capability base:** systems thinking, AI leverage, software and data,
-  technology judgment, communication, and business problem-solving.
-- **Human governance:** Chris owns direction, relationships, accountability,
-  consequential decisions, and final quality. AI supplies leverage.
+1. Fixed school deadlines and commitments.
+2. Protected technology/business floor during semesters, when deadlines allow.
+3. Urgent client or revenue evidence.
+4. Highest remaining-value work.
 
-## The Three Coordinated Tracks
+School, technology, and business/value are coordinated tracks, not competing
+lanes.
 
-1. **School — the spine.** Meet fixed deadlines and turn formal engineering
-   learning into usable capability.
-2. **Technology — the fuel.** Learn and build with AI, Python, SQL, software,
-   automation, and the wider technology landscape through real use.
-3. **Business and value creation — the engine.** Test ways to solve valuable
-   problems, create income, and compound successful work into assets.
+## 5. Change rule — the Ratchet
 
-Fixed school commitments come first. During semesters, protect a 5–10 hour weekly
-technology/business floor whenever deadlines allow. Urgent client or revenue
-evidence outranks routine queue work; remaining capacity follows the highest-value
-action.
+- §2's date and income floor do not move except by raising the floor on proven evidence.
+- Everything else — vehicle, goals, milestones, offers — changes on evidence:
+  demand, revenue, outcome, constraint, capacity, or material technology change.
+- Change path: signal → evidence home → CASTLE review → Chris's explicit
+  authorization → live direction updates.
+- AI may propose a change to this file but may write it only after Chris's
+  explicit approval.
 
-## Current Best Strategy — The Bet Being Tested
+## 6. Ownership map
 
-The leading strategy is the Advisor-Builder business: observe how a business
-actually runs, find the operational waste, redesign the workflow around people and
-AI, implement the right technology, maintain what works, and turn wins into reusable
-assets. It's the primary bet and gets real effort — and it stays open to replacement
-if evidence points somewhere more valuable, practical, or scalable.
+This file states function, destination, authority, priority order, and the
+change rule only. Everything else lives with its owner and is not restated
+here:
 
-Detailed assumptions, wedges, offer, milestones, evidence, and review conditions:
-`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`.
-
-## The Engine — Capability Into Compounding Value
-
-Real work should produce more than a one-time result. It should strengthen at
-least one compounding asset: a maintained client system, reusable method or
-playbook, standalone application, or proof-led content/audience asset.
-
-**The Standing Engine Question:**
-
-> What is the most profitable valuable thing this system could be doing right
-> now, and what do we need to learn, prove, or build to become excellent at it —
-> or get ahead of it?
-
-## The Ratchet — Evidence Moves the Strategy
-
-Committed to the destination, flexible about the vehicle. A strategy changes on
-evidence — demand, revenue, outcomes, constraints, or a real shift in technology —
-not because a new idea is exciting.
-
-1. Targets are floors; early wins may raise them.
-2. The normal strategy review happens quarterly. Chris may authorize a mid-cycle
-   change after an explicit impact review when material evidence cannot wait.
-3. Missing a milestone is evidence to investigate, not automatic proof the
-   strategy failed; distinguish market, offer, execution, timing, and capacity.
-4. `...projectSuccess\` watches external change. Signals require evidence, pass
-   through CASTLE, and influence this star only through reviewed outcomes.
-
-## Operating Guardrails and Known Risks
-
-- **Fact over theory:** map the real process and test the claim before building.
-- **Validate before productizing:** yourself → one real use/client → many.
-- **Ideas are not commitments:** new profit ideas pass the CASTLE gate.
-- **Planning can imitate progress:** if system work displaces learning, proof,
-  delivery, or income evidence, return to the real output.
-- **Time is the constraint:** the system must reduce friction for a full-time
-  student and father of nine, or it gets changed.
-- **AI is leverage, not accountability:** nothing consequential ships without
-  Chris's quality and approval gate.
-
-## Progressive Loading — Where the Details Live
-
-| Question | Load next |
+| Owns | Lives at |
 |---|---|
-| What matters now? | `.ROOT\NOW.md` |
-| What phase, skill, or proof comes next? | `00-BRAIN\CASTLE\wiki\current-position.md` and `north-star-roadmap.md` |
-| What exactly is the current business bet? | `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` |
-| What must happen before August 24? | `01-NORTH_STAR\Goals & Milestones\PRE-SEMESTER_PREP_PLAN.md` |
-| What should I learn or retrieve? | the owning `03-WIKIS` hub's `HOW_TO_USE.md` and current-position/index |
-| What changed outside the system? | `...projectSuccess\WATCHTOWER.md` and `radar.md` |
-| How may AI act? | `00-BRAIN\AGENT.md` plus the active surface profile |
-| How does `.ROOT` improve itself? | `AI_AUTOMATION_SYSTEMS`, `SYSTEM_FLAGS.md`, and `SYSTEM_LEARNINGS.md` |
-| What must the AI OS be capable of, and what proof must return? | `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` |
-| Where does an artifact go? | `00-BRAIN\WHERE_IT_GOES.md` |
+| Current business vehicle, offers, assumptions, milestones | `Goals & Milestones\CURRENT_STRATEGY.md` |
+| Adaptive goals and time-bound plans | `Goals & Milestones\` |
+| AI operating capability requirements | `System Contracts\ROOT_CAPABILITY_CONTRACT.md` |
+| Information-state translation | `System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md` |
+| Domain research and learner truth | each `03-WIKIS` hub, self-owned |
+| Cross-system sequencing, next action, proof status | `00-BRAIN\CASTLE\` |
+| External signal sensing | Watchtower (`01-NORTH_STAR\WATCHTOWER.md` + `radar.md`) |
+| File placement and naming | `00-BRAIN\WHERE_IT_GOES.md` |
+| AI behavior, safety, session protocol | `00-BRAIN\AGENT.md` |
 
-Load the companion only when its question is active. Pointers keep this star short;
-companion files may not silently override it.
+## 7. Check
 
-## North Star Check
-
-Are we closer to October 8, 2031 than we were last week—and is the star still
-pointed at the most profitable, valuable true north the evidence supports?
+Closer to family freedom, rare capability, and durable value than the last
+review — and still pointed at the best available vehicle for the fixed
+October 8, 2031 date?
 
 ---
-*Next scheduled strategy review: quarterly Ratchet Review, or sooner when Chris
-authorizes an impact-reviewed response to material evidence.*
+*Human context, mission narrative, and folder navigation: `README.md` and
+`HOW_TO_USE.md` in this folder.*

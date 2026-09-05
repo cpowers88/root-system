@@ -1,6 +1,7 @@
 ---
 type: log
-tags: [log, systems]
+tags: [systems]
+timeline: log
 ---
 
 # Wiki Log
@@ -643,3 +644,93 @@ subset first). Prior carry-over unchanged: hands-on PM4Py trial.
 - Added *Algorithms to Live By* to raw as a decision/scheduling/queuing source.
 - Source placement only; keep behind the existing source-coverage queue and use
   it when a concrete scheduling, stopping, sorting, or exploration problem opens.
+
+## 2026-07-24 — Hub audit + instruction-set conversion (Claude Code)
+
+### Audit result — corpus is healthy
+- 133 wiki pages: **0 orphans, 0 frontmatter gaps, index matches tree.**
+- **0 dead links.** A first hub-scoped scan reported 26; all were false
+  positives. `[[lean-methodology]]` and `[[owner-dependency-diagnostic]]` live
+  in `03-WIKIS\BUSINESS\wiki\methods\`, `[[sql-statistical-functions]]` in
+  `03-WIKIS\PYTHON\wiki\source-summaries\`, and `.ROOT` is a single Obsidian
+  vault, so bare cross-hub links resolve. Re-verified vault-wide.
+- **Coverage ledger verified complete: 27 of 27 raw files carry an explicit
+  disposition.** This hub's signature artifact holds up, which is why the
+  architecture evidence refinery names it as the pattern other hubs should copy.
+- Latent, low priority: `[[raw-source-coverage-and-intake-status]]` is an
+  ambiguous bare link — a file of the same name exists in `03-WIKIS\TECHNOLOGY`.
+  Obsidian's same-folder preference resolves it correctly today, so this is a
+  risk if either file moves, not a current defect. Same class as `[[index]]` and
+  `[[log]]`, which are ambiguous across 13 and 9 files respectively and equally
+  fine in practice.
+
+### Conversion
+Converted to the four-file machine architecture, the last hub besides TECHNOLOGY
+still carrying its full rules inside `CLAUDE.md`.
+
+- NEW `OPERATIONS.md` — canonical contract (`register: ai-directive`). Carries
+  the former CLAUDE.md content (purpose, controlling question, system boundary,
+  FORGE-inheritance and metadata-conversion history, folder structure, final
+  operating principle) plus the HOW_TO_USE facts worth keeping (research-retrieval
+  hub type, RESEARCH/STRUCTURE loop stages, proof definition, `North Star
+  Connection` as application hypothesis, routing to the capability library).
+- NEW in `OPERATIONS.md`: a **Coverage discipline** section promoting the July 15
+  lesson from a paragraph inside a shared-rules block to a named contract
+  section — "presence in `raw/` is not coverage," chapter-level disposition
+  required for large sources, ledger updated in the same session a source moves.
+  Also new: an explicit **two audiences** section (ISYE readiness + audit
+  methodology, both or the page doesn't belong), and a standing rule that
+  `wiki\current-position.md` should not exist until staged ISYE learning
+  activates — this hub tracks corpus state, not learner state.
+- `CLAUDE.md` — reduced to a six-step loader (`type: pointer`,
+  `register: ai-loader`), pointing at the coverage ledger before any `raw/` work.
+- `HOW_TO_USE.md` — rewritten as the human workflow.
+- NEW `README.md` — hub router.
+- `wiki\index.md` — metadata-boundary pointer re-aimed from `CLAUDE.md` /
+  `HOW_TO_USE.md` to `OPERATIONS.md § Inherited metadata`.
+- Pre-conversion originals archived to
+  `99-ARCHIVE\2026-07-24_SYSTEMS_PRE_MACHINE_ARCHITECTURE\`.
+
+### Not changed
+No concept page, ranking, disposition, or `raw/` file was touched. No page was
+added, renamed, or reclassified.
+
+### Validation
+`validate_boot_chain.py` PASS. `wiki_lint.py` 0 blockers. `frontmatter_audit.py`
+zero new findings in SYSTEMS.
+
+### Next action
+TECHNOLOGY is the last hub on the old single-file pattern; it also holds the
+second `raw-source-coverage-and-intake-status.md`, so check its ledger against
+its own `raw/` the same way.
+
+## 2026-07-27 - Explainable process-cluster interpretation
+
+- Received a cross-hub method from AI_AUTOMATION_SYSTEMS' selective review of
+  Amling et al., “Bridging the Interpretability Gap in Process Mining,”
+  physical source pp. 97-122 (printed pp. 78-103).
+- Extended [[conformance-checking-and-kpi-driven-process-improvement]] with a
+  cluster-explanation evidence packet: included cases, differentiating paths
+  and attributes, peer/population comparison, rule fidelity/coverage, missing
+  temporal semantics, domain interpretation, and unresolved alternatives.
+- Bounded LLM use to description, comparison, overview, and supplied-metric
+  explanation. Natural-language output remains presentation; the rules and
+  source cases remain the evidence.
+- Preserved the paper's limits: one event log, two tasks, seven participants,
+  and evaluation focused on verbalization rather than base-rule quality.
+- No raw SYSTEMS source and no index entry changed.
+
+## 2026-08-02 - Robust-science and data-governance intake
+
+- Routed seven small research/data/project-management sources and one MIT 9.401 offline course archive into `raw/` under Chris's named exception.
+- Created [[evidence-quality-and-research-data-governance]] and linked it to the existing model-validation, OR-lifecycle, process-mining, and spreadsheet-modeling surfaces.
+- Registered all eight sources. The MIT course is parked for week-by-week triggered review; it was not bulk-extracted or represented as compiled.
+- The second course ZIP was byte-identical and was archived rather than ingested twice.
+- **Next exact action:** use the evidence packet on the next consequential research or audit claim; open a course week only if that application exposes a gap.
+
+### Same-session late intake
+
+- A 28-page Ehlers/Lonsdorf preprint arrived after the initial inventory and was reviewed completely in two chunks: pp. 1-15 and 16-28.
+- Extended [[evidence-quality-and-research-data-governance]] with the paper's field-specific 103-dataset reuse audit and ten-step FAIR-to-operational sequence.
+- Routed the source into SYSTEMS `raw/`; the ledger now accounts for 36 substantive files.
+- Routed a seven-page KSU DegreeWorks audit to `04-SCHOOL\KSU_degree_works_2026-08-02.pdf`; it contains private student data and was not copied into a wiki.

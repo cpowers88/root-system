@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: framework
-tags: [priority/later, status/wiki-only, subject/devops]
+tags: [subject/devops]
+timeline: later
+status: wiki-only
 ---
 
 # The Four Types of Work (IT Operations)

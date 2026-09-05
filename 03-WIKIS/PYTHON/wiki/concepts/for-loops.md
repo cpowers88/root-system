@@ -4,7 +4,8 @@ stage: 03
 status: draft
 source_refs: ["Think Python Ch.8 (Traversal with a for Loop, pulled forward)", "Automate the Boring Stuff Ch.3", "Python Crash Course Ch.4"]
 prerequisites: ["if-elif-else", "comparisons-and-boolean-logic"]
-tags: [stage-03, for-loop, range, iteration]
+tags: [for-loop, range, iteration]
+timeline: reference
 ---
 
 # Concept: `for` Loops and `range()`

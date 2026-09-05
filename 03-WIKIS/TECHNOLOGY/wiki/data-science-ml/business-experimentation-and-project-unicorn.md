@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/devops, subject/business-experimentation, subject/lean-startup]
+tags: [subject/devops, subject/business-experimentation, subject/lean-startup]
+timeline: later
+status: wiki-only
 ---
 
 # Business Experimentation and Project Unicorn

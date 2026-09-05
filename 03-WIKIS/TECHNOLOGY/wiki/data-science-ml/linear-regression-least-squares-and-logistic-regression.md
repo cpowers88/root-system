@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: concept
-tags: [priority/now, status/wiki-only, domain/technology, source-role/primary, use-case/data-workflow, use-case/audit, subject/data-science, subject/linear-regression, subject/logistic-regression, subject/objective-functions, stack/ai-frameworks-apis]
+tags: [subject/data-science, subject/linear-regression, subject/logistic-regression, subject/objective-functions]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow, audit]
+stack: [ai-frameworks-apis]
 ---
 
 # Why "Least Squares" Is a Convenience, Not a Law of Nature — and How Logistic Regression Sneaks a Probability Out of a Straight Line

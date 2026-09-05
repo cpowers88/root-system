@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/process-design, use-case/data-workflow, use-case/ksu-support, subject/factory-physics, subject/queuing-theory, subject/throughput-wip-cycle-time]
+tags: [subject/factory-physics, subject/queuing-theory, subject/throughput-wip-cycle-time]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, process-design, data-workflow, ksu-support]
 ---
 
 # Basic Factory Dynamics: Precise Definitions, Bottleneck Rate, Raw Process Time, and Critical WIP

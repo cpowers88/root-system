@@ -4,6 +4,7 @@ stage: 02
 status: draft
 concepts: ["condition", "if-elif-else", "boolean-operators", "branch"]
 solution_included: false
+timeline: reference
 ---
 
 # Mini-Project: Choose-Your-Path Adventure

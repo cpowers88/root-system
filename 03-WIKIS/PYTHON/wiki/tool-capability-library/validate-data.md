@@ -4,7 +4,8 @@ status: active
 stage: 6
 python_tools: [if/elif/else, try/except]
 prerequisites: [conditionals, functions, exceptions]
-tags: [reference, programming, capability]
+tags: [programming, capability]
+timeline: reference
 ---
 
 # Capability: Validate Input and Data

@@ -2,7 +2,8 @@
 type: error-log
 stage: 09
 status: draft
-tags: [stage-09, errors, automation]
+tags: [errors, automation]
+timeline: reference
 ---
 
 # Stage 9 Common Errors

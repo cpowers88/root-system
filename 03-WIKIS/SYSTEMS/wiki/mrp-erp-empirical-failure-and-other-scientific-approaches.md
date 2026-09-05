@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/business-model, use-case/ksu-support, subject/mrp, subject/erp, subject/scientific-management, subject/manufacturing-history, subject/factory-physics]
+tags: [subject/mrp, subject/erp, subject/scientific-management, subject/manufacturing-history, subject/factory-physics]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [audit, business-model, ksu-support]
 ---
 
 # MRP/ERP's Empirical Failure Record, and Why BPR, Lean's VSM, and Six Sigma's DMAIC All Fall Short of a Real Systems Paradigm

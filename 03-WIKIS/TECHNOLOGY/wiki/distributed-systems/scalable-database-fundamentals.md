@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/distributed-databases]
+tags: [subject/distributed-databases]
+timeline: later
+status: wiki-only
 ---
 
 # Scalable Database Fundamentals

@@ -1,8 +1,8 @@
 ---
 type: stage
+timeline: reference
 stage_number: 
 status: draft
-priority: 
 source_spine: 
 support_sources: []
 ---

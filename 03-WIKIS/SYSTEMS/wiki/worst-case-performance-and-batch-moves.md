@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/process-design, use-case/ksu-support, subject/factory-physics, subject/queuing-theory, subject/throughput-wip-cycle-time, subject/variability]
+tags: [subject/factory-physics, subject/queuing-theory, subject/throughput-wip-cycle-time, subject/variability]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, process-design, ksu-support]
 ---
 
 # Worst-Case Line Performance, and Why Batch Moves Can Cause It

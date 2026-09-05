@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/dynamic-programming, subject/principle-of-optimality, subject/operations-research]
+tags: [subject/dynamic-programming, subject/principle-of-optimality, subject/operations-research]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # Dynamic Programming: Stages, States, and the Principle of Optimality

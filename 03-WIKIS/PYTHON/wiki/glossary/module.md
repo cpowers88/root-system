@@ -4,6 +4,7 @@ stage: 04
 status: ready
 aliases: []
 related_terms: ["import-statement", "standard-library", "package", "pip"]
+timeline: reference
 ---
 
 # Module

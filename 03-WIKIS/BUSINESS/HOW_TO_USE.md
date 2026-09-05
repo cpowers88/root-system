@@ -1,80 +1,82 @@
 ---
 type: guide
 timeline: reference
+status: live
+register: human-context
 tags: [business]
+updated: 2026-07-24
 ---
 
-# HOW TO USE — 03-WIKIS\BUSINESS
-### This wiki answers: *what do I sell, to whom, for how much, and how do I deliver it?*
+# How to Use the Business Wiki
 
-## Hub Contract
+Active client-specific work stays outside `.ROOT` in the separate authorized
+client workspace; only sanitized reusable assets return to `05-BUSINESS`.
 
-- **Hub type:** application-decision engine — strategy, offers, and blank masters that end in bounded real-world action.
-- **Current truth:** `wiki\ai-integration-company\index.md` (active-vehicle truth lives in `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`).
-- **Loop & return:** runs the BUILD and PROVE stages of the System Loop through bounded tests; proof returns via the Return Packet — both canonical in `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md`.
+## Ask one owned question
 
-## Question Owned
-Turn the business plan into client-ready moves: offers, pricing, scripts, audit method, and delivery templates — without endlessly re-planning the business.
+Begin with a question such as:
 
-## Start Here
-**Canonical research/frontier entry: `wiki/ai-integration-company/index.md`.** Load
-`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` first when the question is
-about the active vehicle, offer, market wedge, or milestone. This wiki supplies the
-deeper method and evidence; it does not own the strategic commitment.
+- What costly workflow problem is supported by evidence?
+- What method would diagnose it?
+- What result would prove value?
+- What evidence supports this price or market claim?
+- What failed in real use, and which method must change?
 
-## Standard Work Loop
-```text
-current phase -> decision/method -> blank master -> instantiated artifact -> field feedback
-```
-Phase progression is tag-filtered: `tag:#phase-1` foundation → `tag:#phase-2` first clients → `tag:#phase-3` deliver → `tag:#phase-4` expand → `tag:#phase-5` scale → `tag:#phase-all` always-on. Work the phase-1-to-2 edge; ignore phase-4/5 until they're real.
+Open `wiki\index.md`, then read only the relevant evidence and method pages.
 
-## What Counts as Proof
-A template gets used with a real prospect/client, not just read. Every page has a **Practical Actions** and **Revenue Connection** section — proof is the artifact that came out of using them, not the plan itself.
+## Distinguish the artifact
 
-## Outputs and Where They Go
-Ask: "Instantiate [template] for [prospect]" → the filled output goes to the
-authorized client workspace outside `.ROOT`, never staying in the wiki. New
-blank templates get built here only when a phase page calls for them. This wiki
-keeps the blank master; `05-BUSINESS` may keep only sanitized reusable learning,
-approved case studies, and non-sensitive metadata.
+| Artifact | Home |
+|---|---|
+| Evidence or maintained method | this wiki |
+| Current vehicle, assumption, or goal | Goals & Milestones |
+| Activated test or next action | CASTLE |
+| Reusable sanitized template or delivery asset | `05-BUSINESS` |
+| Filled client artifact | authorized client workspace |
+| Retrospective result | owning evidence page and Session Logs |
 
-## Boundaries
-This wiki designs the business — it does not track projects (CASTLE), store
-active client files (separate authorized client workspace outside `.ROOT`), or
-teach skills (`03-WIKIS\PYTHON`). New pathway ideas pass
-`00-BRAIN\CASTLE\wiki\decision-rules\adding-a-profit-skill.md` first. Re-reading plans is not progress; the plans
-exist so you can stop planning.
+## Use the three operations
 
-Active client-specific/private work stays in a separate client workspace or
-repository outside `.ROOT`; only sanitized reusable learning returns here.
+### Ingest
 
-A verified market or competitor change promotes to `...projectSuccess\radar.md`
-only when the evidence stays here, it materially affects an active strategy
-assumption/offer/market choice, and a review trigger is named. Field feedback from
-our own test goes directly to the relevant strategy assumption and CASTLE proof; it
-is an outcome, not an external signal.
+Integrate a source into maintained pages. Preserve its scope, date, limitations,
+and contradictions. Do not summarize it merely because it exists.
 
-## How the Hub Learns From Use
-Update pages when reality disagrees with them — a real call, a real price objection, a real delivery. Keep the phase tag as the FIRST tag; if a page's timing changes, move its tag (`CLAUDE.md § Phase Tags`).
+### Query
+
+Use the index to retrieve evidence and answer a defined question. File the
+answer only if it remains useful beyond the conversation.
+
+### Lint
+
+Check whether claims are traceable, current, consistently owned, and connected
+to real use. Treat unsupported prices, forecasts, and vendor claims as review
+items—not facts.
+
+## From knowledge to action
+
+This wiki may design a bounded test but cannot activate it.
+
+`business question → evidence/method → CASTLE gate → Chris approval when consequential → real use → measured return`
+
+Opening a checklist or scenario never authorizes outreach, purchases, account
+creation, filing, pricing, publication, or client commitments.
+
+## What counts as progress
+
+- a claim becomes better supported or correctly narrowed;
+- a method is used and corrected from observed results;
+- a real problem is quantified;
+- a decision improves;
+- a strategy assumption receives evidence;
+- a reusable asset is validated through use; or
+- uncertainty becomes explicit enough to design a test.
+
+More pages, generated templates, speculative forecasts, and unread plans do not
+count by themselves.
 
 ## Close
-Log the field result (call, objection, delivery outcome) against the page it corrects. Move phase tags when timing genuinely changed. Note which phase-2 pages remain unexecuted.
 
-## Current State
-Live method and offer inventory exists only in
-`wiki\ai-integration-company\index.md`; the active vehicle and milestones live in
-`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`; immediate sequencing lives
-in `NOW.md` and CASTLE. Do not copy phase or frontier status into this guide.
-
-## Common Commands / Prompts
-- "Draft outreach for [niche] using the outreach script + market-map"
-- "Prep an audit kit for [business type] — intake questionnaire + interview guide + report shell"
-- "Reality-check pricing against [what happened]"
-- "Which phase-2 pages have I never executed?"
-
-## Examples
-- *First outreach week*: market-map → pick niche → outreach-scripts instantiated → track active prospect details in the separate client workspace.
-- *Post-audit*: audit-report-template filled in the client workspace → approved sanitized case-study version harvested to `05-BUSINESS` → retainer-model consulted for the upsell.
-
-## Last Updated
-July 15, 2026 — volatile state reduced to owner pointers. Canonical workspace: `C:\Users\chris\.ROOT`.
+Update the relevant owner page, `wiki\index.md` when discovery changed, and
+`wiki\log.md`. Return real outcomes to the applicable goal, strategy
+assumption, CASTLE proof, or reusable-asset review.

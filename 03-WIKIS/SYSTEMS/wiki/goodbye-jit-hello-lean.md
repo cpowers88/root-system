@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: source-summary
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/business-model, use-case/ksu-support, subject/lean-manufacturing, subject/six-sigma, subject/quality-management, subject/manufacturing-history, subject/factory-physics]
+tags: [subject/lean-manufacturing, subject/six-sigma, subject/quality-management, subject/manufacturing-history, subject/factory-physics]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [audit, business-model, ksu-support]
 ---
 
 # Goodbye JIT, Hello Lean: How JIT Got Rebranded, Six Sigma Replaced TQM, and Chapter 4's Closing Lessons

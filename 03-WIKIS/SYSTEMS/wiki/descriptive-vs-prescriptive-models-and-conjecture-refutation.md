@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/ksu-support, subject/factory-physics, subject/systems-thinking, subject/scientific-method]
+tags: [subject/factory-physics, subject/systems-thinking, subject/scientific-method]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, ksu-support]
 ---
 
 # Descriptive vs. Prescriptive Models, and Why Conjecture-and-Refutation Beats Proof

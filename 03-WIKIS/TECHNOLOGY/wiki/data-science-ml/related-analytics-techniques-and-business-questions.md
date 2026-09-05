@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: concept
-tags: [priority/now, status/wiki-only, domain/technology, source-role/primary, use-case/data-workflow, use-case/audit, use-case/reporting, subject/data-science, subject/database-querying, subject/statistics, stack/sql-sqlite, stack/data-visualization]
+tags: [subject/data-science, subject/database-querying, subject/statistics]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow, audit, reporting]
+stack: [sql-sqlite, data-visualization]
 ---
 
 # Statistics, Database Queries, OLAP, and Data Mining Are Different Tools — Knowing Which One a Question Actually Needs

@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: tool
-tags: [priority/now, status/wiki-only, domain/technology, source-role/primary, use-case/tech-stack, subject/flask, subject/python, stack/flask]
+tags: [subject/flask, subject/python]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [tech-stack]
+stack: [flask]
 ---
 
 # Flask: Large Application Structure

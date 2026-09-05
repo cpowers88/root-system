@@ -1,5 +1,6 @@
 ---
 type: stage
+timeline: reference
 status: draft
 ---
 
@@ -103,7 +104,7 @@ See [[../flashcards/stage-10-rotation]] for all 18 flashcards.
 
 ## Calculus Connections
 
-- [[../calculus-links/rotation-derivatives]]
+- [[../calculus-links/rotational-kinematics-derivatives]]
 - ω = dθ/dt (angular velocity is the derivative of angular position)
 - α = dω/dt (angular acceleration is the derivative of angular velocity)
 - I = ∫r² dm (moment of inertia for continuous objects — standard results tabulated)

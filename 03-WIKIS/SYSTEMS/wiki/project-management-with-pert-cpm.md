@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/project-management, subject/critical-path-method, subject/pert, subject/operations-research]
+tags: [subject/project-management, subject/critical-path-method, subject/pert, subject/operations-research]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # Project Management with PERT/CPM: Critical Path, Slack, Uncertainty, and Time-Cost Trade-offs

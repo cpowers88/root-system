@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: reference
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/systems-analysis, subject/process-mining, subject/process-frameworks]
+tags: [subject/process-mining, subject/process-frameworks]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [audit, systems-analysis]
 ---
 
 # APQC Process Classification Framework (PCF)

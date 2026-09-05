@@ -4,7 +4,8 @@ stage: 01
 status: draft
 source_refs: ["Think Python Ch.1 (Values and Types, Arithmetic Operators)", "Python Crash Course Ch.2 (Numbers)"]
 prerequisites: []
-tags: [stage-01, values, expressions]
+tags: [values, expressions]
+timeline: reference
 ---
 
 # Concept: Values and Expressions

@@ -4,6 +4,7 @@ stage: 05
 status: draft
 aliases: ["dict"]
 related_terms: ["dictionary-key-value-pair", "list"]
+timeline: reference
 ---
 
 # Dictionary

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: reference
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/systems-analysis, subject/process-mining, subject/process-frameworks, subject/bpmn]
+tags: [subject/process-mining, subject/process-frameworks, subject/bpmn]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [audit, systems-analysis]
 ---
 
 # BPMN 2.0.2 — The Process Modeling Standard (OMG Spec)

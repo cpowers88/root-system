@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/process-design, use-case/data-workflow, use-case/ksu-support, subject/factory-physics, subject/queuing-theory, subject/throughput-wip-cycle-time, subject/variability]
+tags: [subject/factory-physics, subject/queuing-theory, subject/throughput-wip-cycle-time, subject/variability]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, process-design, data-workflow, ksu-support]
 ---
 
 # Practical Worst-Case Performance, and Bottleneck vs. Nonbottleneck Investment Trade-offs

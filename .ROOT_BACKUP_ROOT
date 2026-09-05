@@ -1,0 +1,3 @@
+This folder is the .ROOT local backup root.
+Marked 2026-08-12 by hand after the first run, per the script's own guard message.
+Do not delete this file: the script refuses to mirror into a folder without it.

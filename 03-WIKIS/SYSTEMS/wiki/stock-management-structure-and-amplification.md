@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/audit, use-case/supply-chain, subject/system-dynamics, subject/supply-chains, subject/amplification, subject/steady-state-error]
+tags: [subject/system-dynamics, subject/supply-chains, subject/amplification, subject/steady-state-error]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, audit, supply-chain]
 ---
 
 # The Generic Stock Management Structure: Steady-State Error and Why Supply Chains Amplify

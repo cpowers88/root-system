@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/audit, subject/system-dynamics, subject/loop-dominance, subject/s-shaped-growth, subject/nonlinearity]
+tags: [subject/system-dynamics, subject/loop-dominance, subject/s-shaped-growth, subject/nonlinearity]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, audit]
 ---
 
 # Multiple-Loop Systems, Loop Dominance, and Why Linear Models Can't Produce S-Shaped Growth

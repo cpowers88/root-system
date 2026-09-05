@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: reference
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/data-workflow, use-case/audit, subject/process-mining, subject/event-logs, subject/data-quality]
+tags: [subject/process-mining, subject/event-logs, subject/data-quality]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow, audit]
 ---
 
 # XES: The IEEE Standard for Event Log Exchange

@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [reference, physics]
+tags: [physics]
+timeline: reference
 ---
 
 # Propagation of Uncertainty

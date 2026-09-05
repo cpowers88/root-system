@@ -1,0 +1,458 @@
+<title>Powers Fall Timetable</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+:root{
+  --paper:#F5F4F0; --panel:#FFFFFF; --sunken:#EDEBE5;
+  --ink:#1B2027; --ink-2:#4A525E; --ink-3:#7B8390;
+  --rule:#DBD8D0; --rule-2:#C6C2B8;
+  --draft:#2B5F8E;
+  --phys:#A8442A; --phys-bg:#F3E2DC; --phys-br:#D9A491;
+  --tcom:#8A6A1F; --tcom-bg:#F3EBD6; --tcom-br:#D6BE84;
+  --cse:#2B5F8E;  --cse-bg:#DEE8F1;  --cse-br:#96B4CE;
+  --lab:#31705A;  --lab-bg:#DCEAE4;  --lab-br:#8DB9A8;
+  --econ:#63467E; --econ-bg:#E7DFEF; --econ-br:#B3A0C6;
+  --engr:#646B77; --engr-bg:#E4E5E8; --engr-br:#AFB4BC;
+  --float:#4A525E;--float-bg:#E6E4DE;--float-br:#BEB9AE;
+  --fixed-bg:#EBE9E3; --fixed-ink:#8C929C;
+  --new:#B4522A;
+  --shadow:0 1px 2px rgba(27,32,39,.06),0 4px 14px rgba(27,32,39,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#14181D; --panel:#1B2027; --sunken:#101418;
+    --ink:#E8E9EB; --ink-2:#A8AEB8; --ink-3:#767D88;
+    --rule:#2A3038; --rule-2:#39414B;
+    --draft:#7FB0DA;
+    --phys:#E39377; --phys-bg:#33211B; --phys-br:#6B3D2C;
+    --tcom:#D9BC72; --tcom-bg:#2E2716; --tcom-br:#5E4F26;
+    --cse:#8CB6DC;  --cse-bg:#1A2530;  --cse-br:#33506D;
+    --lab:#84C2AA;  --lab-bg:#152722;  --lab-br:#2C5245;
+    --econ:#BFA5D6; --econ-bg:#241C2E; --econ-br:#4A3A5C;
+    --engr:#A2A9B4; --engr-bg:#1E2126; --engr-br:#3B414A;
+    --float:#A8AEB8;--float-bg:#1D2126;--float-br:#3A4049;
+    --fixed-bg:#191D22; --fixed-ink:#6A717C;
+    --new:#E08A5E;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 14px rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#14181D; --panel:#1B2027; --sunken:#101418;
+  --ink:#E8E9EB; --ink-2:#A8AEB8; --ink-3:#767D88;
+  --rule:#2A3038; --rule-2:#39414B;
+  --draft:#7FB0DA;
+  --phys:#E39377; --phys-bg:#33211B; --phys-br:#6B3D2C;
+  --tcom:#D9BC72; --tcom-bg:#2E2716; --tcom-br:#5E4F26;
+  --cse:#8CB6DC;  --cse-bg:#1A2530;  --cse-br:#33506D;
+  --lab:#84C2AA;  --lab-bg:#152722;  --lab-br:#2C5245;
+  --econ:#BFA5D6; --econ-bg:#241C2E; --econ-br:#4A3A5C;
+  --engr:#A2A9B4; --engr-bg:#1E2126; --engr-br:#3B414A;
+  --float:#A8AEB8;--float-bg:#1D2126;--float-br:#3A4049;
+  --fixed-bg:#191D22; --fixed-ink:#6A717C;
+  --new:#E08A5E;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 14px rgba(0,0,0,.3);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  font-size:15px; line-height:1.55; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1220px;margin:0 auto;padding:40px 22px 80px;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:"IBM Plex Sans Condensed",ui-sans-serif,sans-serif;text-wrap:balance;margin:0;line-height:1.12}
+h1{font-size:clamp(2rem,5vw,3.1rem);font-weight:700;letter-spacing:-.015em}
+h2{font-size:1.5rem;font-weight:600;letter-spacing:-.008em}
+h3{font-size:1.06rem;font-weight:600}
+p{margin:0}
+.lede{color:var(--ink-2);max-width:66ch;font-size:1.02rem}
+.eyebrow{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.7rem;font-weight:500;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);
+}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+
+/* ---------- header ---------- */
+header{display:flex;flex-direction:column;gap:14px;border-bottom:2px solid var(--ink);padding-bottom:22px}
+.hmeta{display:flex;flex-wrap:wrap;gap:8px 26px;align-items:baseline}
+
+/* ---------- the arithmetic ---------- */
+.figures{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.fig{background:var(--panel);padding:16px 18px;display:flex;flex-direction:column;gap:5px}
+.fig .n{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums;font-size:1.72rem;font-weight:600;letter-spacing:-.02em;line-height:1}
+.fig .n small{font-size:.86rem;font-weight:400;color:var(--ink-3);letter-spacing:0}
+.fig .k{font-size:.79rem;color:var(--ink-3);line-height:1.35}
+.fig.hi .n{color:var(--new)}
+.fig.good .n{color:var(--lab)}
+
+/* ---------- correction callout ---------- */
+.note{background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--new);border-radius:3px;padding:18px 20px;display:flex;flex-direction:column;gap:10px}
+.note h3{color:var(--new)}
+.tbl-scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:520px}
+th,td{text-align:left;padding:9px 14px 9px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+thead th{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);font-weight:500;border-bottom:1px solid var(--rule-2)}
+tbody tr:last-child td{border-bottom:none}
+td strong{font-weight:600}
+.was{color:var(--ink-3);text-decoration:line-through;text-decoration-thickness:1px}
+
+/* ---------- the grid ---------- */
+.gridwrap{overflow-x:auto;background:var(--panel);border:1px solid var(--rule);border-radius:3px;box-shadow:var(--shadow)}
+.grid{display:grid;grid-template-columns:52px repeat(7,minmax(126px,1fr));min-width:1000px}
+.dayhead{
+  position:sticky;top:0;z-index:3;background:var(--panel);
+  font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:600;font-size:.92rem;
+  padding:11px 10px 9px;border-bottom:1px solid var(--rule-2);border-left:1px solid var(--rule);
+  display:flex;justify-content:space-between;align-items:baseline;gap:6px;
+}
+.dayhead:first-child{border-left:none}
+.dayhead .hrs{font-family:"IBM Plex Mono",monospace;font-size:.7rem;font-weight:500;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.daycol{position:relative;display:grid;grid-template-rows:repeat(204,4px);border-left:1px solid var(--rule);padding:0 4px}
+.axis{display:grid;grid-template-rows:repeat(204,4px);position:relative}
+.hr{grid-column:1;font-family:"IBM Plex Mono",monospace;font-size:.66rem;color:var(--ink-3);
+    padding-right:7px;text-align:right;font-variant-numeric:tabular-nums;transform:translateY(-.42em)}
+.rule{position:absolute;left:0;right:0;border-top:1px solid var(--rule);pointer-events:none}
+
+.blk{
+  border-radius:2px;padding:5px 7px;overflow:hidden;margin:1px 0;
+  display:flex;flex-direction:column;gap:1px;min-height:0;
+}
+.blk .t{font-family:"IBM Plex Mono",monospace;font-size:.62rem;font-weight:500;letter-spacing:.01em;opacity:.82;font-variant-numeric:tabular-nums}
+.blk .n{font-family:"IBM Plex Sans Condensed",sans-serif;font-size:.83rem;font-weight:600;line-height:1.16}
+.blk .d{font-size:.68rem;line-height:1.28;opacity:.86}
+
+.fixed{background:var(--fixed-bg);color:var(--fixed-ink)}
+.fixed .n{font-weight:500;font-size:.76rem}
+.cls{color:#fff;border:none}
+.cls .n{font-weight:700}
+.cls.phys{background:var(--phys)} .cls.tcom{background:var(--tcom)}
+.cls.cse{background:var(--cse)}   .cls.lab{background:var(--lab)}
+.cls.econ{background:var(--econ)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .cls{color:#14181D}}
+:root[data-theme="dark"] .cls{color:#14181D}
+
+.std{border:1px solid;border-left-width:3px}
+.std.phys{background:var(--phys-bg);border-color:var(--phys-br);border-left-color:var(--phys);color:var(--phys)}
+.std.tcom{background:var(--tcom-bg);border-color:var(--tcom-br);border-left-color:var(--tcom);color:var(--tcom)}
+.std.cse{background:var(--cse-bg);border-color:var(--cse-br);border-left-color:var(--cse);color:var(--cse)}
+.std.lab{background:var(--lab-bg);border-color:var(--lab-br);border-left-color:var(--lab);color:var(--lab)}
+.std.econ{background:var(--econ-bg);border-color:var(--econ-br);border-left-color:var(--econ);color:var(--econ)}
+.std.float{background:var(--float-bg);border-color:var(--float-br);border-left-color:var(--float);color:var(--float)}
+.std .d{color:var(--ink-2)}
+.std.isnew{border-style:dashed;border-left-style:solid;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--new) 22%,transparent)}
+.tag{font-family:"IBM Plex Mono",monospace;font-size:.56rem;font-weight:600;letter-spacing:.1em;color:var(--new);text-transform:uppercase}
+
+/* ---------- legend ---------- */
+.legend{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;font-size:.79rem;color:var(--ink-2)}
+.sw{display:inline-flex;align-items:center;gap:7px}
+.sw i{width:11px;height:11px;border-radius:2px;display:inline-block;flex:none}
+
+/* ---------- allocation bars ---------- */
+.alloc{display:flex;flex-direction:column;gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.arow{background:var(--panel);display:grid;grid-template-columns:132px 1fr 58px;gap:14px;align-items:center;padding:10px 16px}
+.arow .c{font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:600;font-size:.9rem}
+.bar{height:9px;background:var(--sunken);border-radius:5px;overflow:hidden}
+.bar span{display:block;height:100%;border-radius:5px}
+.arow .h{font-family:"IBM Plex Mono",monospace;font-size:.83rem;text-align:right;font-variant-numeric:tabular-nums;color:var(--ink-2)}
+
+/* ---------- rules list ---------- */
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.rule-c{background:var(--panel);padding:17px 19px;display:flex;flex-direction:column;gap:7px}
+.rule-c .num{font-family:"IBM Plex Mono",monospace;font-size:.7rem;color:var(--draft);font-weight:600;letter-spacing:.1em}
+.rule-c p{font-size:.85rem;color:var(--ink-2)}
+
+footer{border-top:1px solid var(--rule);padding-top:18px;color:var(--ink-3);font-size:.8rem;max-width:74ch}
+code{font-family:"IBM Plex Mono",monospace;font-size:.86em;background:var(--sunken);padding:.1em .34em;border-radius:2px}
+
+@media (max-width:640px){
+  .wrap{padding:26px 14px 60px;gap:30px}
+  .arow{grid-template-columns:104px 1fr 50px;gap:10px;padding:9px 12px}
+}
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">Fall 2026 · KSU Marietta · 13 credit hours</span>
+  <h1>The Week, Actually Scheduled</h1>
+  <p class="lede">The recurring study template for all five courses, built from the live calendar rather than from blank time. Every block below already exists in that calendar except three, marked <span class="tag">NEW</span> — those are recommendations, and they are the difference between a schedule that survives a collision week and one that doesn't. <strong>Week 1's material is loaded into it directly below.</strong></p>
+  <div class="hmeta">
+    <span class="eyebrow">Built 21 Aug 2026</span>
+    <span class="eyebrow">Week 1 layer added 23 Aug</span>
+    <span class="eyebrow">Runs 24 Aug – 21 Dec</span>
+    <span class="eyebrow">Owner · 04-SCHOOL/weekly-study-schedule.md</span>
+  </div>
+</header>
+
+<section style="display:flex;flex-direction:column;gap:16px">
+  <span class="eyebrow">Week 1 · 24–30 August · what actually goes in each block</span>
+  <h2>Week one, loaded</h2>
+  <p class="lede">The template below is the recurring shape. This is the material that fills it <em>this week</em>, read off the released syllabi and the corrected PHYS pathway. <strong>No new physics or programming is hard this week. Every point available to lose is procedural</strong> — a filename, a deadline, a submission format.</p>
+
+  <div class="figures">
+    <div class="fig good"><span class="n">100<small>%</small></span><span class="k">PHYS standing already — reading quizzes 9/10 and 10/10, lowest dropped live by D2L</span></div>
+    <div class="fig hi"><span class="n">4</span><span class="k">TCOM graded items due this week. It is the heaviest course and the least structured</span></div>
+    <div class="fig hi"><span class="n">23:45<small> Fri</small></span><span class="k">Day One Access opt-out <em>and</em> add/drop. One moment, and it costs money</span></div>
+    <div class="fig good"><span class="n">~4<small> h</small></span><span class="k">PHYS slack this week — HW1 is not due until Mon 31 Aug. This is the optimization</span></div>
+  </div>
+</section>
+
+<section class="note">
+  <h3>The one scheduling change worth making this week</h3>
+  <p style="font-size:.92rem"><strong>Three PHYS blocks — Mon 2.25 h, Wed 2.0 h, Fri 2.0 h — exist to service weekly WebAssign. In week 1 there is no WebAssign due.</strong> The live gradebook shows the first homework as <code>HW1 (Due Aug 31st)</code>, which lands on the <em>Monday of week 2</em>. That frees roughly four hours inside blocks that are already on the calendar.</p>
+  <p style="font-size:.92rem"><strong>Spend it on Chapter 5, not on more Chapter 1–4.</strong> Stages 1–3 are closed and Ch 4 is open only at circular motion, so this week's reading-ahead is largely review for you — cheap. <strong>Ch 5 and §§6.1–6.2 are untouched, and both are on Unit Exam 1.</strong> The Exam 1 gate is <strong>full scope cold by Sun 13 Sep</strong>, and weeks 1–4 are the entire window to build that lead. From week 5 there is no surplus at all.</p>
+  <p style="font-size:.85rem;color:var(--ink-2)"><strong>Where it goes concretely:</strong> Monday's 2.25 h → the D2L day-one tab, which must happen and is the highest-value block in the week. Wednesday's 2.0 h → start <code>HW1</code> five days early. Friday's 2.0 h → finish <code>HW1</code>, then open Ch 5. <strong>That converts a deadline block into a lead block without touching family time.</strong></p>
+</section>
+
+<section style="display:flex;flex-direction:column;gap:16px">
+  <h2>What fills each block, day by day</h2>
+  <div class="tbl-scroll">
+  <table>
+    <thead><tr><th style="width:15%">Block</th><th style="width:11%">Course</th><th>Week 1 material</th></tr></thead>
+    <tbody>
+      <tr><td colspan="3" style="background:var(--sunken)"><strong>Monday 24 Aug</strong> — day one. Execution, not reading.</td></tr>
+      <tr><td class="mono">before 09:10</td><td><strong>PHYS</strong></td><td><strong>Already done Sunday</strong> — reading plus both graded quizzes. The 10 minutes still worth spending: <strong>open <em>View Quiz Attempts</em> and find the one question missed on Quiz 01.</strong> It cost nothing (dropped) but it is the only graded item this semester that did not earn full marks</td></tr>
+      <tr><td class="mono">10:15–12:30</td><td><strong>PHYS→admin</strong></td><td>🔴 <strong>The D2L day-one tab, 12 checks in priority order</strong> (<code>FallKSU.xlsx</code>). <strong>#1 is the TCOM Ethics Analysis SUBMISSION section</strong> — graded, due Friday, and its format and filename are printed nowhere in the syllabus. Do not assume <code>.docx</code>. #2 is the three Group Charter samples, five weeks of free lead time</td></tr>
+      <tr><td class="mono">15:00–16:05</td><td><strong>CSE</strong></td><td>Skim <strong>Module 0</strong> — decomposition, algorithms, abstraction — before the 16:10 lecture. Then <strong>10 min on ENGR D2L: this is flag #57's close.</strong> If BWD has no dates posted, <em>that absence is the finding</em> — send Raoufi one dated question rather than waiting a week</td></tr>
+      <tr><td class="mono">18:30–20:00</td><td><strong>PHYS</strong></td><td>Read ahead <strong>§§3.1–3.4 Vectors</strong> — this is the 31 Aug lecture. Local pages <code>0001-0100</code> 83–97. <em>Stage 3 is closed, so this is retrieval, not first-pass. Move fast and put the time saved into Ch 5</em></td></tr>
+      <tr><td colspan="3" style="background:var(--sunken)"><strong>Tuesday 25 Aug</strong> — the graded semester actually starts. Attendance begins.</td></tr>
+      <tr><td class="mono">09:35</td><td><strong>TCOM</strong></td><td>⚠ <strong>Atrium 2216</strong> — fix the <code>Walk → Atriium 2236</code> calendar event before you leave. Ask Diamond the two questions in order: check the SUBMISSION section <em>first</em>, then the Business Email's two conflicting submission routes</td></tr>
+      <tr><td class="mono">11:00–12:30 <span class="tag">NEW</span></td><td><strong>TCOM</strong></td><td><strong>Both quizzes — Course Policies and File Naming — with the syllabus open.</strong> Your own ruling, and it is right: they are open-book and due 1 Sep, and cold-drilling the cheapest points in the semester is over-investment. Then start the Business Email draft</td></tr>
+      <tr><td class="mono">15:00–16:00</td><td><strong>TCOM</strong></td><td><strong>The instructor email — you write it, no AI draft.</strong> TCOM is the strictest of the five: using AI to write assignments is plagiarism there, blanket. AI may proofread afterward if the use is cited. This is her first read of you</td></tr>
+      <tr><td class="mono">16:00–17:45</td><td><strong>CSE 1321L</strong></td><td>Lab prep, and <strong>run one Gradescope practice submission end to end before anything is graded.</strong> Install Respondus LockDown Browser from the D2L link while you are there</td></tr>
+      <tr><td class="mono">Mon <em>or</em> Tue</td><td><strong>TCOM</strong></td><td>🎯 <strong>Miss-log row 1, cold:</strong> write the four filename literals plus the email subject line from memory, then check character for character. <em>There is no generating rule</em> — that was the miss. This is the spaced rep that slipped last week</td></tr>
+      <tr><td colspan="3" style="background:var(--sunken)"><strong>Wednesday 26 Aug</strong></td></tr>
+      <tr><td class="mono">10:15–12:15</td><td><strong>PHYS</strong></td><td><strong>Start <code>HW1</code> — five days early.</strong> Confirm first whether it is submitted in WebAssign or D2L; the syllabus says WebAssign, the gradebook carries the items. <strong>Late is a flat zero</strong>, and the extension must be requested <em>before</em> the deadline</td></tr>
+      <tr><td class="mono">15:00–16:05</td><td><strong>CSE</strong></td><td>Module 0/1 pseudocode before the lecture. <strong>Pseudocode before code on Lab 1</strong> — inputs, outputs, decisions, loops, edge cases, in plain language</td></tr>
+      <tr><td class="mono">18:30–20:00</td><td><strong>PHYS</strong></td><td>Read ahead <strong>§§4.1–4.2 and §4.3 projectile</strong> — the 2 and 4 Sep lectures. <em>§4.3 is deliberately included: the syllabus reading column starts at §4.4 but the lecture topic is projectile motion.</em> Local <code>0001-0100</code> 99–100, <code>0101-0200</code> 1–14</td></tr>
+      <tr><td class="mono">evening</td><td><strong>TCOM</strong></td><td><strong>Ch 3 Ethics, pp 174–190</strong> plus one case from <code>Linked-Resources</code> — needed for Thursday, when the Ethics Analysis is assigned. ⛔ Use <code>Open-TC-PDF.pdf</code>, the 634-page file. Never <code>2e_Word</code>: its Ch 3 is a different chapter entirely</td></tr>
+      <tr><td colspan="3" style="background:var(--sunken)"><strong>Thursday 27 Aug</strong></td></tr>
+      <tr><td class="mono">12:00–14:00</td><td><strong>TCOM</strong></td><td>This is the report checkpoint block from week 6 onward. <strong>Week 1 has no report — use it for the Ethics Analysis, due tomorrow.</strong> You should already hold the reading and the case. <strong>Re-open its D2L SUBMISSION section before submitting</strong></td></tr>
+      <tr><td class="mono">14:00–15:00 <span class="tag">NEW</span></td><td><strong>ECON</strong></td><td><strong>Mathews &amp; Patrono Ch 1</strong> the moment D2L opens, and <strong>spot-check the real chapter numbering</strong> against the OpenStax substitute mapping — every ECON chapter reference in the vault depends on it. First quiz is 8 Sep. Also the second <strong>10-min ENGR D2L check</strong></td></tr>
+      <tr><td class="mono">15:00–17:00</td><td><strong>CSE</strong></td><td><em>Think Python</em> <strong>Ch 1 pp 23–32</strong> and <strong>Ch 4 "A Development Plan" pp 57–68</strong>; Lab 1; and the <strong>Syllabus &amp; Policy quizzes</strong> once their real date is confirmed</td></tr>
+      <tr><td colspan="3" style="background:var(--sunken)"><strong>Friday 28 Aug</strong> — 🔴 the deadline day</td></tr>
+      <tr><td class="mono">10:05–11:30 <span class="tag">NEW</span></td><td><strong>PHYS</strong></td><td><strong>First live use of the best unused block in your week.</strong> Recitation prep — the worksheet is <strong>10% of the grade</strong> and there are 14 of them, lowest dropped</td></tr>
+      <tr><td class="mono">11:30–12:25</td><td><strong>PHYS</strong></td><td>First §54 recitation, Atrium 1116. <strong>Three questions for Islam:</strong> ① <strong>how many unit exams</strong> — his gradebook lists three, his syllabus schedules four, and the missed-exam buffer depends on the answer · ② the unit-exam <strong>room and sitting time</strong> · ③ what earns the <strong>2.5 extra-credit points</strong> the syllabus never mentions</td></tr>
+      <tr><td class="mono">15:00–17:00</td><td><strong>PHYS</strong></td><td><strong>Finish <code>HW1</code>, then open Chapter 5.</strong> This is where the lead gets built — Ch 5 and §§6.1–6.2 are the untouched part of Exam 1</td></tr>
+      <tr><td class="mono">before 23:45</td><td>🔴 <strong>MONEY</strong></td><td><strong>Day One Access opt-out AND last day to add/drop — same moment.</strong> Recommendation on file: <strong>do not opt out.</strong> Homework is 10% of PHYS and runs entirely through the bundle. This is the item with no recovery path</td></tr>
+      <tr><td colspan="3" style="background:var(--sunken)"><strong>Saturday 29 Aug</strong> — the surge pool, and this week it has a specific job</td></tr>
+      <tr><td class="mono">10:00–12:30</td><td><strong>Split</strong></td><td><strong>PYTHON C1 first</strong> — <code>53</code>/<code>NameError</code> plus an independent <code>average(numbers)</code>. It has been held since 18 Aug and week 1 otherwise gives PYTHON nothing. <strong>Then the PHYS Stage 4 close</strong> — miss-log 5b: one cold circular-motion problem in an <em>unfamiliar</em> setup (banked curve, conical pendulum, vertical-loop bottom), <strong>with no reminder that direction and the real force are wanted.</strong> The number is not the test</td></tr>
+      <tr><td class="mono">13:30–15:30</td><td><strong>CSE</strong></td><td>CSE quizzes and Lab 1. Quizzes are due Sundays all semester — this block and Thursday's are the prep</td></tr>
+      <tr><td colspan="3" style="background:var(--sunken)"><strong>Sunday 30 Aug</strong> — the first real Sunday return</td></tr>
+      <tr><td class="mono">11:00–12:30</td><td><strong>ECON</strong></td><td>Ch 1. Everything ECON is due <strong>23:00 Eastern, one sitting, no logging back in</strong></td></tr>
+      <tr><td class="mono">15:00–17:00</td><td><strong>Return</strong></td><td><strong>Item 4 first:</strong> the GRADE TRACKER standing block, the open <code>miss-log.md</code> rows (the oldest is next week's first block), and the five per-course lead rows. <strong>Then build week 2 — it is heavier:</strong> CSE Quiz 1 Sun 6 Sep, TCOM both quizzes and the Business Email draft all due Tue 1 Sep, and <code>HW1</code> due Mon 31 Aug. <strong>And measure your actual hours</strong> — every figure on this page is an estimate, and week 1 is the first real data</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section class="note">
+  <h3>If the week compresses, cut in this order</h3>
+  <p style="font-size:.9rem"><strong>Never cut:</strong> the Friday 23:45 deadline · the Ethics Analysis · the instructor email · <code>HW1</code> once started · TCOM attendance. <strong>Cut first:</strong> the Ch 5 lead work — it is the whole point of the surplus, but it is the only thing here with no external deadline. <strong>Cut second:</strong> PYTHON C1, which has already waited eight days and can wait more. <strong>Cut third:</strong> the Saturday Stage 4 close, but log it as owed rather than dropping it silently.</p>
+  <p style="font-size:.85rem;color:var(--ink-2)"><strong>The standing rule the moment a day collapses:</strong> file the WebAssign extension request <em>before</em> you do anything else about the day. Requesting early costs a penalty; missing costs everything.</p>
+</section>
+
+<section style="display:flex;flex-direction:column;gap:18px">
+  <h2>The arithmetic that made this necessary</h2>
+  <div class="figures">
+    <div class="fig"><span class="n">26.2<small> h</small></span><span class="k">Study time the calendar currently holds, per week</span></div>
+    <div class="fig"><span class="n">28<small> h</small></span><span class="k">Working figure for all-A across 13 credits</span></div>
+    <div class="fig"><span class="n">26<small> h</small></span><span class="k">What the worst week needs — week 12, Nov 9–15</span></div>
+    <div class="fig hi"><span class="n">7</span><span class="k">Collision weeks with zero slack under the old numbers</span></div>
+    <div class="fig good"><span class="n">30.1<small> h</small></span><span class="k">After the three new blocks. Real margin, none of it taken from family time</span></div>
+  </div>
+</section>
+
+<section class="note">
+  <h3>Three assumptions the vault was planning on, and what the calendar says</h3>
+  <div class="tbl-scroll">
+  <table>
+    <thead><tr><th style="width:24%">Assumption</th><th style="width:34%">What the plan believed</th><th>What the calendar shows</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Tuesday</strong></td><td class="was">6.8 h gap — the biggest study block of the week</td><td><strong>~2.75 h.</strong> The gym sits 13:00–15:00 in the middle of it, plus lunch and travel</td></tr>
+      <tr><td><strong>Evenings</strong></td><td class="was">The evening block carries 2.3–3.5 h of reading a night</td><td><strong>3.0 h a week, Monday and Wednesday only.</strong> Every other evening is Ben from 20:00, then wind-down and sleep</td></tr>
+      <tr><td><strong>The gym</strong></td><td class="was">Put the gym in the Friday 12:25-on slot, not the 10:05 gap</td><td><strong>Already Mon–Wed and Fri, 13:00–15:00</strong> — 8 h a week, load-bearing for recovery. It is not moving</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p style="font-size:.85rem;color:var(--ink-2)">The fix was never more evening hours. It was three unclaimed on-campus blocks already sitting between existing commitments.</p>
+</section>
+
+<section style="display:flex;flex-direction:column;gap:16px">
+  <h2>The week</h2>
+  <div class="legend">
+    <span class="sw"><i style="background:var(--phys)"></i>PHYS 2211</span>
+    <span class="sw"><i style="background:var(--tcom)"></i>TCOM 2010</span>
+    <span class="sw"><i style="background:var(--cse)"></i>CSE 1321</span>
+    <span class="sw"><i style="background:var(--lab)"></i>CSE 1321L</span>
+    <span class="sw"><i style="background:var(--econ)"></i>ECON 1000</span>
+    <span class="sw"><i style="background:var(--float-br)"></i>Float / surge</span>
+    <span class="sw"><i style="background:var(--fixed-bg);border:1px solid var(--rule-2)"></i>Fixed — family, travel, gym</span>
+    <span class="sw"><i style="background:var(--phys);border-radius:2px"></i>Solid&nbsp;=&nbsp;class · Outlined&nbsp;=&nbsp;study</span>
+  </div>
+
+  <div class="gridwrap">
+    <div class="grid">
+      <div class="dayhead"><span class="eyebrow" style="letter-spacing:.1em">Time</span></div>
+      <div class="dayhead">Monday <span class="hrs">4.83 h</span></div>
+      <div class="dayhead">Tuesday <span class="hrs">4.25 h</span></div>
+      <div class="dayhead">Wednesday <span class="hrs">4.58 h</span></div>
+      <div class="dayhead">Thursday <span class="hrs">5.00 h</span></div>
+      <div class="dayhead">Friday <span class="hrs">3.42 h</span></div>
+      <div class="dayhead">Saturday <span class="hrs">4.50 h</span></div>
+      <div class="dayhead">Sunday <span class="hrs">3.50 h</span></div>
+
+      <div class="axis">
+        <div class="hr" style="grid-row:1">06:00</div>
+        <div class="hr" style="grid-row:13">07:00</div>
+        <div class="hr" style="grid-row:25">08:00</div>
+        <div class="hr" style="grid-row:37">09:00</div>
+        <div class="hr" style="grid-row:49">10:00</div>
+        <div class="hr" style="grid-row:61">11:00</div>
+        <div class="hr" style="grid-row:73">12:00</div>
+        <div class="hr" style="grid-row:85">13:00</div>
+        <div class="hr" style="grid-row:97">14:00</div>
+        <div class="hr" style="grid-row:109">15:00</div>
+        <div class="hr" style="grid-row:121">16:00</div>
+        <div class="hr" style="grid-row:133">17:00</div>
+        <div class="hr" style="grid-row:145">18:00</div>
+        <div class="hr" style="grid-row:157">19:00</div>
+        <div class="hr" style="grid-row:169">20:00</div>
+        <div class="hr" style="grid-row:181">21:00</div>
+        <div class="hr" style="grid-row:193">22:00</div>
+        <div class="hr" style="grid-row:205">23:00</div>
+      </div>
+
+      <!-- MONDAY -->
+      <div class="daycol">
+        <div class="blk fixed" style="grid-row:13/25"><span class="t">07:00</span><span class="n">Drop off Ben</span></div>
+        <div class="blk fixed" style="grid-row:25/39"><span class="t">08:00</span><span class="n">Travel + prep</span></div>
+        <div class="blk cls phys" style="grid-row:39/49"><span class="t">09:10</span><span class="n">PHYS 2211</span><span class="d">Academic 200</span></div>
+        <div class="blk std phys" style="grid-row:51/79"><span class="t">10:15 – 12:30 · 2.25 h</span><span class="n">PHYS</span><span class="d">The biggest block of the week. WebAssign and problems, straight out of the lecture</span></div>
+        <div class="blk fixed" style="grid-row:79/85"><span class="t">12:30</span><span class="n">Lunch</span></div>
+        <div class="blk fixed" style="grid-row:85/109"><span class="t">13:00</span><span class="n">Gym</span></div>
+        <div class="blk std cse" style="grid-row:109/122"><span class="t">15:00 – 16:05 · 1.08 h</span><span class="n">CSE 1321</span><span class="d">Pseudocode before the lecture · 10-min ENGR D2L check</span></div>
+        <div class="blk cls cse" style="grid-row:123/139"><span class="t">16:10</span><span class="n">CSE 1321</span><span class="d">Academic 203</span></div>
+        <div class="blk fixed" style="grid-row:139/151"><span class="t">17:30</span><span class="n">Travel · dinner</span></div>
+        <div class="blk std phys" style="grid-row:151/169"><span class="t">18:30 – 20:00 · 1.5 h</span><span class="n">PHYS — read ahead</span><span class="d">Wednesday's sections tonight. Pre-class reading is graded</span></div>
+        <div class="blk fixed" style="grid-row:169/193"><span class="t">20:00</span><span class="n">Ben — bed time</span></div>
+      </div>
+
+      <!-- TUESDAY -->
+      <div class="daycol">
+        <div class="blk fixed" style="grid-row:10/25"><span class="t">06:45</span><span class="n">Travel + prep</span></div>
+        <div class="blk cls econ" style="grid-row:25/36"><span class="t">08:00</span><span class="n">ECON 1000</span><span class="d">ETC 202</span></div>
+        <div class="blk cls tcom" style="grid-row:43/60"><span class="t">09:35</span><span class="n">TCOM 2010</span><span class="d">Atrium 2216</span></div>
+        <div class="blk std tcom isnew" style="grid-row:61/79"><span class="tag">New</span><span class="t">11:00 – 12:30 · 1.5 h</span><span class="n">TCOM</span><span class="d">Out of class into the week's deliverable, on campus, while it's fresh</span></div>
+        <div class="blk fixed" style="grid-row:79/85"><span class="t">12:30</span><span class="n">Lunch</span></div>
+        <div class="blk fixed" style="grid-row:85/109"><span class="t">13:00</span><span class="n">Gym</span></div>
+        <div class="blk std tcom" style="grid-row:109/121"><span class="t">15:00 – 16:00 · 1.0 h</span><span class="n">TCOM / ECON</span><span class="d">ECON when TCOM is quiet</span></div>
+        <div class="blk std lab" style="grid-row:121/142"><span class="t">16:00 – 17:45 · 1.75 h</span><span class="n">CSE 1321L prep</span><span class="d">Runs straight into the lab. Already correctly placed</span></div>
+        <div class="blk cls lab" style="grid-row:142/164"><span class="t">17:45</span><span class="n">CSE 1321L</span><span class="d">Atrium 2120</span></div>
+        <div class="blk fixed" style="grid-row:165/173"><span class="t">19:40</span><span class="n">Travel · dinner</span></div>
+        <div class="blk fixed" style="grid-row:173/193"><span class="t">20:20</span><span class="n">Ben — sleep</span></div>
+      </div>
+
+      <!-- WEDNESDAY -->
+      <div class="daycol">
+        <div class="blk fixed" style="grid-row:13/25"><span class="t">07:00</span><span class="n">Drop off Ben</span></div>
+        <div class="blk fixed" style="grid-row:25/39"><span class="t">08:00</span><span class="n">Travel + prep</span></div>
+        <div class="blk cls phys" style="grid-row:39/49"><span class="t">09:10</span><span class="n">PHYS 2211</span><span class="d">Academic 200</span></div>
+        <div class="blk std phys" style="grid-row:51/76"><span class="t">10:15 – 12:15 · 2.0 h</span><span class="n">PHYS</span><span class="d">WebAssign and problems out of the lecture</span></div>
+        <div class="blk fixed" style="grid-row:79/85"><span class="t">12:30</span><span class="n">Lunch</span></div>
+        <div class="blk fixed" style="grid-row:85/109"><span class="t">13:00</span><span class="n">Gym</span></div>
+        <div class="blk std cse" style="grid-row:109/122"><span class="t">15:00 – 16:05 · 1.08 h</span><span class="n">CSE 1321</span><span class="d">Pseudocode before the lecture</span></div>
+        <div class="blk cls cse" style="grid-row:123/139"><span class="t">16:10</span><span class="n">CSE 1321</span><span class="d">Academic 203</span></div>
+        <div class="blk fixed" style="grid-row:139/151"><span class="t">17:30</span><span class="n">Travel · dinner</span></div>
+        <div class="blk std phys" style="grid-row:151/169"><span class="t">18:30 – 20:00 · 1.5 h</span><span class="n">PHYS — read ahead</span><span class="d">Friday's sections tonight</span></div>
+        <div class="blk fixed" style="grid-row:169/193"><span class="t">20:00</span><span class="n">Ben — bed time</span></div>
+      </div>
+
+      <!-- THURSDAY -->
+      <div class="daycol">
+        <div class="blk fixed" style="grid-row:10/25"><span class="t">06:45</span><span class="n">Travel + prep</span></div>
+        <div class="blk cls econ" style="grid-row:25/36"><span class="t">08:00</span><span class="n">ECON 1000</span><span class="d">ETC 202</span></div>
+        <div class="blk cls tcom" style="grid-row:43/60"><span class="t">09:35</span><span class="n">TCOM 2010</span><span class="d">Atrium 2216</span></div>
+        <div class="blk fixed" style="grid-row:61/73"><span class="t">11:00</span><span class="n">Lunch · travel</span></div>
+        <div class="blk std tcom" style="grid-row:73/97"><span class="t">12:00 – 14:00 · 2.0 h</span><span class="n">TCOM — report</span><span class="d">Weeks 6–12 this is the checkpoint block. The only defence against 35% landing in one week</span></div>
+        <div class="blk std econ isnew" style="grid-row:97/109"><span class="tag">New</span><span class="t">14:00 – 15:00 · 1.0 h</span><span class="n">ECON</span><span class="d">Its only dedicated hour · 10-min ENGR D2L check</span></div>
+        <div class="blk std cse" style="grid-row:109/133"><span class="t">15:00 – 17:00 · 2.0 h</span><span class="n">CSE 1321</span><span class="d">Module practice and cold problems. Quizzes are due Sundays</span></div>
+        <div class="blk fixed" style="grid-row:133/169"><span class="t">17:00</span><span class="n">Get Ben · watch Ben</span></div>
+        <div class="blk fixed" style="grid-row:169/193"><span class="t">20:00</span><span class="n">Ben — sleep</span></div>
+      </div>
+
+      <!-- FRIDAY -->
+      <div class="daycol">
+        <div class="blk fixed" style="grid-row:13/25"><span class="t">07:00</span><span class="n">Drop off Ben</span></div>
+        <div class="blk fixed" style="grid-row:25/39"><span class="t">08:00</span><span class="n">Travel + prep</span></div>
+        <div class="blk cls phys" style="grid-row:39/49"><span class="t">09:10</span><span class="n">PHYS 2211</span><span class="d">Academic 200</span></div>
+        <div class="blk std phys isnew" style="grid-row:49/67"><span class="tag">New</span><span class="t">10:05 – 11:30 · 1.42 h</span><span class="n">PHYS — recitation prep</span><span class="d">Sits between the lecture and the recitation. The worksheet is 10% of the grade</span></div>
+        <div class="blk cls phys" style="grid-row:67/78"><span class="t">11:30</span><span class="n">PHYS recitation</span><span class="d">Atrium 1116</span></div>
+        <div class="blk fixed" style="grid-row:79/85"><span class="t">12:30</span><span class="n">Lunch</span></div>
+        <div class="blk fixed" style="grid-row:85/109"><span class="t">13:00</span><span class="n">Gym</span></div>
+        <div class="blk std phys" style="grid-row:109/133"><span class="t">15:00 – 17:00 · 2.0 h</span><span class="n">PHYS — WebAssign</span><span class="d">The hard-deadline block. Late is a flat zero — if the day collapses, file the extension first</span></div>
+        <div class="blk fixed" style="grid-row:133/169"><span class="t">17:00</span><span class="n">Get Ben · watch Ben</span></div>
+        <div class="blk fixed" style="grid-row:169/193"><span class="t">20:00</span><span class="n">Ben — bed time</span></div>
+      </div>
+
+      <!-- SATURDAY -->
+      <div class="daycol">
+        <div class="blk fixed" style="grid-row:7/49"><span class="t">06:30</span><span class="n">Ben + Dad</span></div>
+        <div class="blk std float" style="grid-row:49/79"><span class="t">10:00 – 12:30 · 2.5 h</span><span class="n">Float — weakest course</span><span class="d">Default PHYS. In a sweep week, this and the next block are the sweep</span></div>
+        <div class="blk fixed" style="grid-row:79/91"><span class="t">12:30</span><span class="n">Lunch</span></div>
+        <div class="blk std cse" style="grid-row:91/115"><span class="t">13:30 – 15:30 · 2.0 h</span><span class="n">CSE 1321 + 1321L</span><span class="d">Quiz prep for Sunday, plus the lab assignment</span></div>
+        <div class="blk fixed" style="grid-row:115/133"><span class="t">15:30</span><span class="n">Relax · .ROOT upkeep</span></div>
+        <div class="blk fixed" style="grid-row:169/193"><span class="t">20:00</span><span class="n">Ben — bed time</span></div>
+      </div>
+
+      <!-- SUNDAY -->
+      <div class="daycol">
+        <div class="blk fixed" style="grid-row:7/61"><span class="t">06:30</span><span class="n">Ben + Dad</span></div>
+        <div class="blk std econ" style="grid-row:61/79"><span class="t">11:00 – 12:30 · 1.5 h</span><span class="n">ECON</span><span class="d">Chapter reading, and the quiz if one is live. Everything is due 23:00 ET, one sitting</span></div>
+        <div class="blk fixed" style="grid-row:79/91"><span class="t">12:30</span><span class="n">Lunch</span></div>
+        <div class="blk std float" style="grid-row:109/133"><span class="t">15:00 – 17:00 · 2.0 h</span><span class="n">Weekly plan + overflow</span><span class="d">30 min planning, then whatever Sunday-due item is live</span></div>
+        <div class="blk fixed" style="grid-row:169/193"><span class="t">20:00</span><span class="n">Ben — sleep</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="display:flex;flex-direction:column;gap:16px">
+  <h2>Where the hours land</h2>
+  <div class="alloc">
+    <div class="arow"><span class="c" style="color:var(--phys)">PHYS 2211</span><span class="bar"><span style="width:100%;background:var(--phys)"></span></span><span class="h">7.7 h</span></div>
+    <div class="arow"><span class="c" style="color:var(--tcom)">TCOM 2010</span><span class="bar"><span style="width:60%;background:var(--tcom)"></span></span><span class="h">4.6 h</span></div>
+    <div class="arow"><span class="c" style="color:var(--cse)">CSE 1321</span><span class="bar"><span style="width:40%;background:var(--cse)"></span></span><span class="h">3.1 h</span></div>
+    <div class="arow"><span class="c" style="color:var(--lab)">CSE 1321L</span><span class="bar"><span style="width:39%;background:var(--lab)"></span></span><span class="h">3.0 h</span></div>
+    <div class="arow"><span class="c" style="color:var(--econ)">ECON 1000</span><span class="bar"><span style="width:32%;background:var(--econ)"></span></span><span class="h">2.5 h</span></div>
+    <div class="arow"><span class="c" style="color:var(--engr)">ENGR 1000</span><span class="bar"><span style="width:13%;background:var(--engr)"></span></span><span class="h">1.0 h</span></div>
+    <div class="arow"><span class="c" style="color:var(--ink-2)">Read ahead</span><span class="bar"><span style="width:39%;background:var(--float)"></span></span><span class="h">3.0 h</span></div>
+    <div class="arow"><span class="c" style="color:var(--ink-2)">Surge pool</span><span class="bar"><span style="width:84%;background:var(--float);opacity:.55"></span></span><span class="h">6.5 h</span></div>
+  </div>
+  <p style="font-size:.85rem;color:var(--ink-2);max-width:66ch">PHYS is deliberately at the top of its band: it is 37% of the outside-class load, and exams plus the final are 75% of that grade. ENGR stays at two ten-minute D2L checks until its exact section syllabus arrives. The surge pool is Saturday and Sunday afternoon — pre-committed to whatever the week is actually failing at, not spare time.</p>
+</section>
+
+<section style="display:flex;flex-direction:column;gap:16px">
+  <h2>The four rules this runs on</h2>
+  <div class="rules">
+    <div class="rule-c"><span class="num">01</span><h3>Read before the lecture, never after</h3><p>PHYS pre-class reading is graded. Monday evening reads Wednesday; Wednesday evening reads Friday.</p></div>
+    <div class="rule-c"><span class="num">02</span><h3>Work a course next to its class</h3><p>Every block touches its course's lecture the same day. That is why Tuesday 11:00 is TCOM and not PHYS.</p></div>
+    <div class="rule-c"><span class="num">03</span><h3>The surge pool is not free time</h3><p>Saturday and Sunday afternoon belong to whatever is failing. In an exam-sweep week, they are the sweep.</p></div>
+    <div class="rule-c"><span class="num">04</span><h3>Protect the deadline before the plan</h3><p>The only irreversible loss in the week is WebAssign — late is a flat zero. File the extension first, recover the day second.</p></div>
+  </div>
+</section>
+
+<section class="note">
+  <h3>Fix this in the calendar before Tuesday</h3>
+  <p style="font-size:.9rem"><strong>The <code>Walk → Atriium 2236</code> event is the wrong room</strong> — and it is the source of the room confusion that has been sitting in the vault for days. The §04 syllabus says <strong>Atrium 2216</strong>, and the later <code>Walk→Atrium R-2216</code> event says 2216 too. Left as it is, it walks to the wrong building on day one.</p>
+  <p style="font-size:.85rem;color:var(--ink-2)">Five smaller ones: the TCOM block reads 09:30–11:00 when the class is 09:35–10:55 · the Sunday <code>Weekly Review</code> at 22:00–00:00 collides with sleep at 23:00 · <code>Daily Prep</code> and <code>System Launch</code> both expire 24–27 Aug, right as term starts · two overlapping <code>Ben Bed Time</code> series · four overlapping <code>LUNCH</code> series with different end dates.</p>
+  <p style="font-size:.85rem;color:var(--ink-2)"><strong>One conflict checked and cleared:</strong> the PHYS unit exams print as 10:20–11:15, which is another section's recitation slot. On 21 Sep, 12 Oct, 4 Nov and 18 Nov that time falls inside the existing 10:15–12:30 study block, so there is no timetable collision either way. Confirm the room on day one regardless.</p>
+</section>
+
+<footer>
+  Time-of-day placement, plus the week-1 material layer added 23 Aug 2026 from the released syllabi, the live PHYS D2L gradebook, and the corrected <code>semester-pathway.md</code> (which owns PHYS pacing — the 17-week plan is subordinate to it and is lecture-paced). What is due and how heavy the week is lives in <code>semester-workload-plan.md</code>; what to read and to what page in <code>semester-reading-plan.md</code>; dates, rooms, weights and policies in <code>SEMESTER_MAP.md</code>; the checkoff surface is <code>FallKSU.xlsx</code>. D2L, the exact-section instructor, and the calendar itself override every line here. Re-measure after weeks 1–3 and replace these estimates with what the weeks actually cost.
+</footer>
+
+</div>

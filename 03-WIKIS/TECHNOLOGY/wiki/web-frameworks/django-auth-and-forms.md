@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: framework
-tags: [priority/later, status/wiki-only, subject/django]
+tags: [subject/django]
+timeline: later
+status: wiki-only
 ---
 
 # Django Forms, Authentication & Data Ownership

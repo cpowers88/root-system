@@ -1,7 +1,11 @@
 ---
 domain: technology
 type: reference
-tags: [priority/later, status/wiki-only, domain/technology, source-role/reference, use-case/business-model, subject/software-craft, subject/professionalism]
+tags: [subject/software-craft, subject/professionalism]
+timeline: later
+status: wiki-only
+source_role: reference
+use_cases: [business-model]
 ---
 
 # The Clean Coder: Professionalism, Saying No, and Taking Responsibility

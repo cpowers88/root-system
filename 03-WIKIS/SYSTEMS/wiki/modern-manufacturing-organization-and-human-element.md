@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: concept
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/business-model, use-case/ksu-support, subject/organizational-structure, subject/manufacturing-history, subject/factory-physics]
+tags: [subject/organizational-structure, subject/manufacturing-history, subject/factory-physics]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [audit, business-model, ksu-support]
 ---
 
 # The Rise of the Modern Manufacturing Organization: Structure and the Human Element

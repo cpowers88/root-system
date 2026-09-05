@@ -1,9 +1,95 @@
 ---
 type: log
-tags: [log, business]
+tags: [business]
+timeline: log
 ---
 
 # Wiki Log
+
+## 2026-07-24 — Machine-first BUSINESS interface and catalog installed
+
+### Outcome
+
+- Added `OPERATIONS.md` as the canonical cross-model contract.
+- Reduced `CLAUDE.md` to a loader pointer.
+- Rewrote `README.md` and `HOW_TO_USE.md` as human interfaces.
+- Promoted `wiki/index.md` to the sole content catalog.
+- Converted `wiki/ai-integration-company/index.md` into a compatibility pointer.
+- Classified the live page set into evidence, methods, offers, operating
+  models, pathways, scenarios, general reference, and templates.
+- Migrated the classified pages into matching physical directories.
+- Relocated blank reusable templates to their functional owners under
+  `05-BUSINESS` and repaired active navigation.
+- Retained only the compatibility pointer in the legacy container.
+
+### Boundaries
+
+- No file under `raw\` changed.
+- No client action, outreach, publication, purchase, account, or commitment
+  was activated.
+- Broad legacy frontmatter cleanup remains separate from this architecture
+  migration.
+
+### Next
+
+Reconcile volatile offer claims and scenario wording with current strategy,
+then complete legacy frontmatter cleanup.
+
+## 2026-07-23 — Raw source map built (Codex plan, Claude Chat-scoped, Claude Code-executed)
+
+Executed `ExecutionBrief_Buisness-WIKI.md` (Claude Chat-authored, reduced from Codex's
+original "Business Learning and Evidence Engine" proposal): a single source-accounting
+page for the 69-file `raw/` corpus, explicitly not a curriculum and not a second ranking
+model (those guardrails held — `most-profitable-pathways.md` and `market-map.md` remain
+the only ranking authorities).
+
+### What Changed
+- Created `raw-source-map.md`: a classification table (Type / Category / Authority /
+  Pub date / Industries / Company size / Concepts / Evidence value / Implementation
+  value / Wiki destination / Processing / Reopen trigger) for all 69 sources, a blank
+  CSV-compatible evidence-row schema for future research capture, and a curated reading
+  sequence (question-per-source, explicitly framed as a starting point, not a
+  curriculum).
+- Added one link row to `index.md` §5 (Capability Building) pointing to the new page —
+  the only edit to an existing file, additive only.
+
+### What Was Added
+- `raw-source-map.md` (new page, `wiki/ai-integration-company/`).
+
+### What Was Updated
+- `wiki/ai-integration-company/index.md` (1 row added under Capability Building).
+
+### Correction made mid-build
+- The table was first drafted from a fresh read of each source's title/opening pages,
+  without cross-referencing this log. Cross-checked against the July 8/9/12/16 intake
+  entries below before finalizing and corrected several rows that fresh reading got
+  wrong relative to what's already been decided: `state-of-ai-2026.pdf` is a confirmed
+  duplicate of the Deloitte "State of AI in the Enterprise" survey already cited in
+  `market-map.md` (not an unconfirmed-publisher source needing verification);
+  `NewCodeofEstimating.pdf` is UK commercial/PFI tendering content for large
+  contractors, wrong market segment for the current US residential/light-commercial
+  hypothesis (not a usable estimating reference); `HowAIcanbenefitabusinessatbanksandinsurace.pdf`
+  is ~2020-vintage pre-GenAI vendor material for enterprise carriers, wrong vintage and
+  audience. Also corrected several `Processing` values from forward-looking
+  recommendations ("read-selectively") to reflect sources already read-fully and
+  absorbed into named pages in the July 16 batch (Mom Test, Good Strategy/Bad Strategy,
+  Prediction Machines, The AI Dossier, All-In on AI, Inspired, Transformed, Psychology
+  of Human Misjudgement), so the map doesn't send anyone back to re-read what's done.
+
+### What Was Parked
+None newly parked — the map documents prior park/exclude decisions (Seneca, book list,
+Mastery, Undercover Economist, AI and ML Red/pptx, howtobuildyourcareerinAI,
+HowAIcanbenefit..., NewCodeofEstimating, 2606.12428v1) rather than making new ones.
+
+### Missing Data Needed From Chris
+None for this build. Two sources remain flagged from prior sessions as JS-blocked
+scrapes with only frontmatter descriptions usable (`Census Bureau's 2023 Annual
+Business Survey...md`, `Large Firms With at Least 20 Employees Biggest AI Users.md`) —
+carried into the new map's Reopen triggers, not resolved here.
+
+### Recommended Next Action
+None urgent. The map is a lookup tool, not a task — next raw-file drop gets a row here
+per the Raw Intake Protocol before any extraction happens.
 
 ## 2026-07-13 — Template-library navigation repair
 
@@ -666,3 +752,34 @@ four lines above it). No content pages added or removed.
 - Keep the toolkit dormant until an audit or workflow observation reaches a
   specific stuck decision. Then use the smallest applicable technique and ship
   a decision record plus a bounded test, not a brainstorming transcript.
+
+## 2026-07-28 — Advisor-Builder operating alignment
+
+### What changed
+
+- Added a company-building route to the wiki index: observe, quantify, recommend,
+  implement only when justified, measure, maintain, and harvest reusable proof.
+- Reframed the service ladder and pricing pages as hypothesis/reference material,
+  not an active rate card or permission to sell unvalidated scope.
+- Mapped the fulfillment system directly to the current Advisor-Builder delivery
+  loop and made “diagnosis with no build” an explicit successful outcome.
+- Reordered the technology and skill references around a math-first value path:
+  Python, validated files/data, SQLite/SQL, analysis/reporting, tests and
+  documentation, APIs/integration, interfaces, then governed AI components.
+- Removed stale dated activation wording from the scenario start page. School,
+  CASTLE, CURRENT_STRATEGY, and NOW continue to control timing.
+
+### Evidence and limits
+
+- The BUSINESS raw-source map remains complete; this pass required no new
+  ingestion and did not modify immutable raw evidence.
+- Market price ranges, conversion rates, long-horizon scenarios, and tool choices
+  remain unvalidated hypotheses until supported by field observation and delivery
+  records.
+
+### Recommended next action
+
+- When the active school schedule permits, use one accessible, non-sensitive
+  workflow or dataset to produce the first complete proof packet: baseline,
+  validated inputs, quantified loss, concise recommendation, confidence level,
+  and one bounded next test.

@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: concept
-tags: [priority/now, status/wiki-only, domain/technology, source-role/primary, use-case/data-workflow, use-case/audit, subject/data-science, subject/overfitting, subject/generalization, subject/fitting-graphs, stack/ai-frameworks-apis]
+tags: [subject/data-science, subject/overfitting, subject/generalization, subject/fitting-graphs]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow, audit]
+stack: [ai-frameworks-apis]
 ---
 
 # Overfitting: Why "If You Torture the Data Long Enough, It Will Confess"

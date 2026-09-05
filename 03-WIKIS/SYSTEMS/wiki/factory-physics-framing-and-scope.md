@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/systems-analysis, use-case/operations-research, subject/operations-management, subject/factory-physics]
+tags: [subject/operations-management, subject/factory-physics]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [audit, systems-analysis, operations-research]
 ---
 
 # Factory Physics: Framing and Scope

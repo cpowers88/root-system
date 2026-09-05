@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/devops]
+tags: [subject/devops]
+timeline: later
+status: wiki-only
 ---
 
 # Date-Driven Launches and the Cost of Cutting Testing/Ops Readiness

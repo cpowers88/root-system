@@ -1,11 +1,256 @@
 ---
 type: log
-tags: [log, programming]
+tags: [programming]
+timeline: log
 ---
 
 # Education Wiki Log
 
 Append every meaningful ingest, path update, teaching session, or structure change here.
+
+## 2026-08-01 (later) — Friday's un-run Test Day quiz taken: 2 PASS / 1 partial / 3 MISS, two regressions surfaced
+
+### Work completed
+- Friday, July 31's weekly-plan "Test Day" timed quiz never ran (session
+  that day was consumed by a git-casing reconciliation). Chris asked what
+  was most important to get done before Sunday's review; this quiz was
+  identified as the single highest-leverage missing item and run today,
+  off-plan, after the retest-item cold check above.
+- No pre-built quiz file exists for Stage 4 in the vault — built fresh
+  against the stage's own Mastery Checklist: parameter/argument
+  definitions, a predict-the-output trace (including a deliberate
+  out-of-scope variable), a cold function write, a print-vs-return
+  judgment call, a find-and-fix debug item, and a fruitful/void
+  classification with reasoning. Closed-book, one attempt, 15-minute
+  timer, scored honestly before any correction, per the weekly plan's own
+  rule ("record the score honestly before reviewing anything").
+- **Score: 2 clean PASS (cold function write; find-and-fix debug item), 1
+  PARTIAL (fruitful/void — correct fruitful example, but the void example
+  was an unfinished idea, not real code, so the actual "how do you tell
+  from the def line" question went unanswered), 3 MISS.**
+- **Real finding — two of the three misses are regressions**, not fresh
+  gaps: (1) parameter/argument reversed (parameter described as "fed into"
+  the argument) — this exact distinction passed independently 2026-07-27;
+  (2) predicted `print(total)` would output `7` instead of raising
+  `NameError` on a variable local to the called function — this is the
+  identical scope concept from the `error4.py` debug rep that passed
+  independently 2026-07-29. The third miss (Q4, print-vs-return) was a
+  genuine fresh misjudgment: framed the choice as being about data type
+  (strings) rather than about whether the caller needs to reuse the
+  result.
+- **Chris self-reported after scoring:** his original written answers for
+  #1 and #2 were correct, and he changed them before submitting. This
+  reclassifies those two misses as **answer-flipping under timed
+  pressure, not a conceptual gap** — but the submitted score stands
+  unchanged, same as a real quiz; you don't get to un-submit because you
+  had the right answer first.
+- **Immediate retest, one question each, first instinct:** parameter/
+  argument corrected fast and clean — held at concept-cue support level
+  (just restating the question sharply was enough). Scope/local-variable-
+  lifetime did not land on the first restated question (still described a
+  conditional "yes, if it specifically returns total" — conflating the
+  returned *value* with the *name* surviving outside the function);
+  required a full worked-step explanation (the "torn-down local
+  workspace, only the value survives via return" framing) before a clean,
+  unprompted "no" landed on a fresh check. **Treat scope/local-variable-
+  lifetime as not yet secure** — worth a genuine unprompted cold recheck
+  next time it comes up, not assumed fixed by one correct answer given
+  immediately after its own explanation.
+
+### Pages created/updated
+`current-position.md` (quiz result and both retest diagnoses recorded).
+This log.
+
+### Vocabulary added
+None new — all six items were retrieval/application of already-taught
+Stage 4 vocabulary, not new introduction.
+
+### Progress evidence
+Stage 4 remains procedurally CLOSED (all four original gate items were
+independently verified cold, without timed pressure). This quiz is not a
+reopening of that closure — it's new evidence that two of its concepts
+need a genuine spaced recheck before they're trusted as durable, which
+the original untimed cold-attempt format didn't surface.
+
+### Next action
+Add parameter/argument and scope/local-variable-lifetime as explicit
+spaced-retrieval items for a future cold check — genuinely unprompted,
+not immediately after a fresh explanation. Stage 4b (Python libraries)
+remains the frontier for new content.
+
+## 2026-08-01 — Off-plan Saturday cold check: both Stage 4 retest items closed
+
+### Work completed
+- Weekly plan marked today (Saturday, Aug 2 week) as no-school family time;
+  Chris redirected into a cold Python check anyway — displacement recorded,
+  no resistance given per standing rule.
+- Targeted the two items flagged "recheck cold next time it comes up" from
+  the 2026-07-29 Function Toolbox session: (1) `return` sends a value back
+  to the caller (vs. an earlier "holds the argument" miscue), and (2) a
+  `percent_of`-style return value is an amount, never the rate — the rate
+  is always the input.
+- Fresh cold task, not seen before: write `discount_amount(price, rate)`
+  returning the dollar amount taken off (e.g. `discount_amount(80, 0.25)`
+  → `20.0`), reusing his existing `percent_of.py`.
+- **Real first-attempt miss, self-corrected:** first version
+  (`code/discount_amount.py`) computed `price - percent_of(price, rate)` —
+  the discounted *total* (60), not the discount *amount* (20) the spec's
+  own worked example named. Chris's predict-and-trace was accurate (he
+  correctly walked through and got 60, and correctly explained the
+  difference between "amount" and "total") but he'd built the wrong one.
+  Explanation: he assumed the exercise wanted something different from
+  `percent_of` rather than checking the given example first. One pointer
+  back at the example ("the example is the source of truth") — fixed on
+  the next attempt, first try: `da = percent_of(price, rate); return da`.
+- **Unprompted improvement:** flagged (not required as a fix) that his
+  first correct version's local variable was named `discount_amount`,
+  shadowing the function itself. Chris renamed it to `da` anyway because
+  he preferred it cleaner — not asked for, done on his own judgment.
+- **Return-value framing — PASS.** Closed-book explanation, unprompted and
+  more complete than the question asked: `return` sends the value back to
+  the caller *and* exits the function (nothing below it runs); the call
+  expression itself takes on that value, which is what `print()` receives.
+- **Rate-vs-amount — PASS, clean transfer.** No recurrence of the earlier
+  "return value is the percentage" mislabel anywhere in this rep, across
+  both files.
+- **Verdict: both flagged retest items CLOSED.** Stage 4 remains closed;
+  frontier is still Stage 4b (Python libraries), untouched.
+
+### Pages created/updated
+`current-position.md` (retest items marked closed under the Stage 4 CLOSED
+note). This log.
+
+### Vocabulary added
+None new — return-value mechanics and rate/amount were reinforced via
+transfer, not first introduction.
+
+### Next action
+Stage 4b (Python libraries) — nothing read yet. Resume there on the next
+scheduled Python block.
+
+## 2026-07-29 (evening) — Stage 4 gate closed: common-error debug rep, PASS
+
+### Work completed
+- After an earlier invalid attempt (editing the reference page's examples
+  instead of writing real code — reverted, recorded as not verified), Chris
+  wrote a real script cold: `code/error4.py`, reproducing the NameError
+  out-of-scope pattern (`def square(n): return n*n` then a bare `print(n)`
+  at module level) and fixing it by calling `print(square(5))` instead.
+  Ran clean: `25`.
+- **Explain-back, unprompted, correct and more precise than asked:** Chris
+  identified that `n` unquoted is a name Python tries to look up in the
+  current (module) scope, fails because `n` was never bound there (only
+  inside `square`'s local scope during its call), producing `NameError`.
+  He then added, unprompted, the identifier-vs-string-literal distinction:
+  `print("n")` would just print the literal character with no name lookup
+  at all, completely unrelated to `square`'s parameter.
+- **Verdict: PASS — independently verified.** Real code, real error, real
+  fix, real explanation. This closes Stage 4's last open item.
+
+### Stage 4 — CLOSED (2026-07-29)
+All gate items now independently verified: cold baseline, three-function
+drill, Function Toolbox mini-project, and the common-error debug rep.
+Stage 4b (Python libraries) is next.
+
+### Pages created/updated
+`current-position.md` (Stage 4 closed, frontier moved to Stage 4b). This log.
+
+### Vocabulary added
+None new — scope and name resolution were reinforced via transfer, not
+first introduction.
+
+## 2026-07-29 — Function Toolbox mini-project: PASS WITH CORRECTION
+
+### Work completed
+- Chris built the Stage 4 Function Toolbox mini-project cold, in phases, with no
+  code written or debugged by AI: `percent_of(t, p)` and `add_tax(a, b)`
+  (Phase 1, independent fruitful functions); then unprompted refactored
+  `add_tax` to call `percent_of(a, b)` internally instead of repeating the
+  multiplication (Phase 2 — one function using another's return value); then
+  `bill_calculator(x, y, z)` in `third.py` (Phase 2 continued — calls
+  `add_tax`, computes tip on the subtotal, returns a formatted receipt string
+  using `:.2f` currency formatting), driven by `bill_calculator.py`'s
+  interactive input/print (Phase 3). Files:
+  `code\{percent_of,add_tax,third,bill_calculator}.py`.
+- Real first-attempt bug caught via predict-before-run: an early driver
+  (`together.py`) took the tax rate as user input without specifying units;
+  Chris predicted the trace correctly (100, 10 → 1100) but the real-world
+  answer was wrong (10 was meant as 10%, not 1000%). Chris diagnosed the root
+  cause himself (function expects a decimal, user naturally types a
+  percentage) and fixed it by rewording the prompt to demand a decimal value,
+  rather than silently converting — a deliberate, explained design choice.
+- Self-corrected a naming issue mid-build: an intermediate variable computing
+  `v - x` was first named `tax_rate` though it holds a dollar amount; renamed
+  to `tax_amount` after one correction.
+- **Explain-back (execution order, the mini-project's actual gate item):**
+  Chris correctly traced the full call/return chain unprompted — driver calls
+  `bill_calculator`, which calls `add_tax`, which calls `percent_of`
+  (deepest/last call), and each return unwinds back up in reverse order to the
+  driver's `print()`. This is the real target concept and it landed cleanly.
+- **One recurring correction, given twice now:** Chris's verbal explain-back
+  called `percent_of`'s return value "the tax percentage" — it's a tax
+  *amount* (a dollar value); the percentage/rate is the input, never the
+  output. Same confusion as the `tax_rate` naming slip earlier in the same
+  session — flagged clearly both times; worth a cold re-check next time
+  "percent of" or a rate-vs-amount calculation appears.
+- **Verdict: PASS WITH CORRECTION.** All acceptance-checklist items met: 3
+  functions (each with parameters), 3 of 3 use `return`, `add_tax`→`percent_of`
+  and `bill_calculator`→`add_tax` both satisfy "one function uses another's
+  return value," a driver section calls the chain and prints an f-string
+  receipt, and the execution-order explain-back passed. Stage 4 gate's
+  remaining item: one common-error debug rep (untouched today).
+
+### Pages created/updated
+`current-position.md` (mini-project result recorded, next action updated). This log.
+
+### Vocabulary added
+None new — amount-vs-rate was corrected via transfer, not first introduction.
+
+## 2026-07-27 — Stage 4 cold functions baseline: PASS WITH CORRECTION
+
+### Work completed
+- Monday's week-opening proof gate. Chris wrote and ran two functions cold,
+  before any Stage 4 reading:
+  `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\function.py`
+  (`add_this(a, b)`) and `code\greet.py` (`greet(name)`). Both ran correctly.
+- First explain-back (in-code comments) conflated parameter and argument and
+  described `def` as a "label generator." Escalated one physical anchor (mail
+  slot: the `def` line labels an empty slot — parameter; the call drops a real
+  value into it — argument) rather than a full lecture.
+- Fresh transfer: asked Chris to write a new function (`greet`) and identify
+  the parameter/argument pair without copying the prior example. He correctly
+  named `name` (in `def greet(name):`) as the parameter and `"Chris"` (in
+  `greet("Chris")`) as the argument, in both directions, unprompted.
+- One residual miscue not yet re-tested: his comment described `return` as
+  "letting the function know where to hold the argument" — corrected that
+  `return` sends the computed value back out to the caller. Also corrected
+  "script" → string literal, and confirmed his near-miss "cannotation" was
+  reaching for concatenation.
+- **Verdict: PASS WITH CORRECTION.** Parameter/argument — the actual target of
+  this baseline — is solid on a fresh example. Stage 4 baseline closed; Chris
+  moves to the Stage 4 reading next.
+
+### Pages created/updated
+`current-position.md` (baseline result recorded, next action updated). This log.
+
+### Vocabulary added
+None new — parameter/argument/return were taught via correction and transfer,
+not first introduction.
+
+### Drills or projects added
+None — Chris's own cold `function.py`/`greet.py` serve as this rep's evidence.
+
+### Progress evidence
+Cold baseline passed with one correction, matching the Stage 3 gate pattern.
+Return-value framing is the one item worth a light re-check next session.
+
+### Parked material
+None new.
+
+### Next action
+Stage 4 reading — *Think Python* pp. 43-52 — then the function-writing drill
+and Function Toolbox mini-project per `weekly-plan-2026-07-27-to-2026-08-02.md`'s
+10:00 Monday slot.
 
 ## 2026-07-16 — Stage 2 verification gate CLOSED
 
@@ -22,7 +267,7 @@ Both open Stage 2 gates closed in this session:
 Stage 2 mastery checklist is satisfied. Chris is clear to advance to
 Stage 3 (Loops) next session.
 
-Files changed: `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-02-python_wiki\S2P3.py` (Chris's own edit, not AI-written); this log; `current-position.md`.
+Files changed: `04-SCHOOL\01-CSE-Python\Stages\Stage-02-python_wiki\S2P3.py` (Chris's own edit, not AI-written); this log; `current-position.md`.
 
 Next: open Stage 3 (`wiki/stages/stage-03-*.md`) and begin loops.
 
@@ -874,7 +1119,7 @@ Unchanged: Stage 1 (Python atoms) output rep per current-position.md.
 ## 2026-07-13 — Stage 1 verified complete; advanced to Stage 2
 
 ### Work completed
-- Chris worked Stage 1 independently with Codex on 2026-07-12, outside this vault's own generated packet — real code in `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\` (`starter_prompt.py`, `variables.py`, `expressions.py`, `types.py`). This session verified it rather than assuming code-that-runs equals mastery: Chris explained why `int()`/`float()` conversions were needed before use, correctly predicted then confirmed a live `TypeError` from `age + 5` on an unconverted string (read and explained the traceback), and correctly reasoned through `+`-string-concatenation vs. f-string mechanics after one correction.
+- Chris worked Stage 1 independently with Codex on 2026-07-12, outside this vault's own generated packet — real code in `04-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\` (`starter_prompt.py`, `variables.py`, `expressions.py`, `types.py`). This session verified it rather than assuming code-that-runs equals mastery: Chris explained why `int()`/`float()` conversions were needed before use, correctly predicted then confirmed a live `TypeError` from `age + 5` on an unconverted string (read and explained the traceback), and correctly reasoned through `+`-string-concatenation vs. f-string mechanics after one correction.
 - `starter_prompt.py` satisfies the Stage 1 About Me mini-project spec (input, conversion, calculation, formatted output). `variables.py` also showed early reassignment/accumulator-pattern exposure (Stage 3 territory) with no confusion.
 - Stage 1 marked satisfied. Advanced current study stage to Stage 2 (Decisions and Boolean Logic).
 
@@ -936,7 +1181,7 @@ Resume the Stage 2 mini-project: `wiki/mini-projects/stage-02-choose-your-path-a
 
 ### Work completed
 - Located the existing importable Anki TSV decks in
-  `02-LIBRARY\00-SCHOOL\01-CSE-Python\Flash Card.tsv\`: `Python_03_Conditionals.tsv`
+  `04-SCHOOL\01-CSE-Python\Flash Card.tsv\`: `Python_03_Conditionals.tsv`
   (Stage 2) and `Python_04_Loops.tsv` (Stage 3 preparation).
 - Preserved those existing decks rather than creating a duplicate. Added the two
   Stage 2 vocabulary cards absent from the conditional deck: **branch** and
@@ -1057,6 +1302,27 @@ Stage 2 decision-rules drill.
 Chris independently corrects rule 3 in `S2P3.py`, then explains the `elif` and `or`
 choices in `Story.py` from memory before Stage 2 can close.
 
+## 2026-07-21 — W0 learner-owner truth correction (Codex)
+
+### Work completed
+- Reconciled `current-position.md` to the live Stage 3 mid-drill frontier already
+  recorded in `NOW.md`: resume `break`/`continue`, lightly retrieve the accumulator
+  pattern, then continue through tracing, the guessing-game build, and mastery gate.
+- Removed copied learner-status prose and the fixed 45-minute example from
+  `HOW_TO_USE.md`; the guide now points to the owner and uses a capacity-sized rep.
+- Corrected the volatile Current Position block in `learning-path.md` so it no
+  longer contradicts the sole learner-truth owner; the durable stage map was not
+  changed.
+- Corrected the active `index.md` router from Stage 2 to Stage 3 after the W0
+  semantic acceptance scan found the final stale current-stage pointer.
+
+### Progress evidence
+No new mastery was inferred. This pass records already-demonstrated Stage 2 closure
+and the already-recorded Stage 3 frontier; Stage 3 remains open.
+
+### Next action
+Resume the exact Stage 3 mid-drill frontier in `current-position.md`.
+
 ### Validation
 
 - Strict wiki lint: PASS (9 hubs, 1,178 pages, 0 blockers, 0 review debt).
@@ -1064,3 +1330,776 @@ choices in `Story.py` from memory before Stage 2 can close.
 - Both staged and unstaged whitespace checks pass; live Markdown text integrity
   passes. Separate PHYSICS and prior hub changes were preserved and excluded from
   this review's edit claims.
+
+## 2026-07-21 — Stage 3 adaptive baseline rep (Codex)
+
+### Work completed
+
+- Chris reconstructed a `range(1, 21)` divisibility loop and correctly explained
+  why `break` prevents later values from being tested. Correct integration required
+  worked-step support, so this is assisted recovery rather than cold mastery.
+- The accumulator pattern initially failed at initialization and state update.
+  After a reduced state-tracing rebuild, Chris produced the correct 1-through-5
+  accumulator and explained why initialization belongs before the loop.
+- On a fresh near-transfer, Chris independently summed `2, 4, 6, 8, 10` with
+  `range(2, 12, 2)` and `total += number` in approximately five minutes.
+
+### Learner feedback
+
+- Pace: 2.5/5 — slightly slow but approximately right under divided-attention
+  conditions.
+- Depth: 3.9/5 — enough explanation and guidance to complete the work without the
+  system taking ownership away from the learner.
+
+### Evidence boundary
+
+Assistance decreased from a worked scaffold to no new coding cue on the accumulator
+transfer. This supports the adaptive method but does not close Stage 3. Prediction
+before execution was not captured, and `break` still needs a later cold transfer.
+
+### Next action
+
+Continue with `drills/stage-03-loop-tracing.md`, then the Stage 3 guessing-game
+mini-project. Do not repeat the entire loop lesson.
+
+## 2026-07-21 — Stage 3 tracing continuation and pause (Codex)
+
+### Progress evidence
+
+- After one correction to the meaning of one-argument `range()`, Chris correctly
+  predicted explicit-start range output, accumulator state, and `while`/`break`
+  state without execution.
+- Descending-range construction needed a negative-step cue; the new
+  `range(8, 1, -2)` prediction transferred independently as `8, 6, 4, 2`.
+- A user-controlled `while` loop required an initialize → test → update rebuild.
+  Chris then produced working code and identified the repeated `input()` as the
+  controlling-state update. Without it, the unchanged answer would cause an
+  infinite loop when initially not `"no"`.
+
+### Learner feedback and evidence boundary
+
+Chris spontaneously described the method as fast and very helpful. This is a
+strong fit signal, supported by immediate near transfers, but delayed retention,
+cross-domain transfer, and independent `while` construction remain unproven.
+
+### Exact pause point
+
+Program writing paused before the fresh password-controlled `while` transfer for
+daily paperwork. Resume with that prompt without revealing the previous scaffold,
+then complete the divisible-by-7 counter.
+
+## 2026-07-21 — Exact-section syllabus-to-semester pathway expansion (Codex)
+
+### Work completed
+
+- Re-read the active CSE 1321 BF and CSE 1321L 04 Simple Syllabus captures against
+  the complete Python hub structure and preserved the existing Stage 0–10 order.
+- Expanded `syllabus-alignment.md` from a compact topic crosswalk into the semester
+  control page: exact course controls, source anomalies, academic-integrity boundary,
+  code-reader ladder, repeated study unit, pre-semester gate, whole-semester map,
+  module playbooks, assessment preparation, and update triggers.
+- Added a trigger-based reading queue for every course phase. It names the local
+  page first, the exact *Think Python* chapters/sections second, optional support
+  only when needed, and the trace/skeleton/explain-back that must follow reading.
+- Added the four-line session reminder: course module/stage, read now, read next
+  after proof, and do not read yet. The volatile queue lives in `current-position`;
+  the durable semester schedule lives in `syllabus-alignment`.
+- Corrected the user's boundary clarification: vibe coding and AI-generated
+  implementation do not belong in this hub and cannot count as CSE learner proof.
+  AI use remains limited to private concept teaching and fresh ungraded drills;
+  submitted lecture/lab work is independently read, planned, coded, tested, and
+  debugged by Chris.
+- Recorded two source-quality controls that must be verified after D2L populates:
+  the lecture capture contains a second unlabeled 40/20/40 grading table alongside
+  the working Fall/Spring 25/25/25/25 table, plus copied Week 1/Week 15 date text;
+  the lab's entire January–May calendar remains unusable for Fall dates.
+- Removed the stale July 25 tracker-data assumption from the hub guide; verified
+  course data is expected August 24 or later.
+
+### Pages created/updated
+
+- Updated: `wiki/syllabus-alignment.md`, `wiki/current-position.md`,
+  `wiki/learning-path.md`, `wiki/source-map.md`, `wiki/index.md`, `HOW_TO_USE.md`,
+  and this log.
+- Created: none. The existing syllabus-alignment owner was expanded instead of
+  creating a competing semester plan.
+
+### Vocabulary added
+
+None. The code-reader levels are learning controls, not new Python vocabulary.
+
+### Drills or projects added
+
+No new solution-bearing drill or project was created. Existing Stage 0–8 pages,
+drills, patterns, and mini-projects were routed into the semester map.
+
+### Progress evidence
+
+No new learner mastery was inferred. Stage 3 remains open at the fresh
+password-controlled `while` transfer.
+
+### Parked material
+
+- Vibe coding/AI-generated implementation is excluded from this hub.
+- Java remains a small, live-course-confirmed bridge after Python OOP, not a new
+  parallel curriculum.
+- Recursion, Big O depth, regex, automation, APIs, SQL, pandas, and web work retain
+  their existing prerequisites and are not presented as CSE requirements.
+
+### Next action
+
+Start the next Python session with the four-line reading reminder, attempt the
+password-controlled `while` transfer cold, and open `concepts/while-loops.md` only
+if that first attempt fails.
+
+## 2026-07-21 — Whole-path reinforcement audit (Codex)
+
+### What changed
+
+- Audited the active semester route across Stages 0–8, their drills, representative
+  code patterns, concept-page structure, the Stage 8 project, and the live reading
+  queue. Concept pages and code-pattern explanations were already structurally
+  strong; reinforcement was concentrated where routing or proof was weak.
+- Corrected stage state labels: Stages 0–2 are complete, Stage 3 is active, Stages
+  4–8 are upcoming, and post-course Stages 9–10 are later. Removed Stage 0/1
+  instructions that incorrectly sent Chris back to completed work.
+- Added a repeatable code-reading gate to Stages 1–8 and cold-read/skeleton work to
+  the Stage 1, 2, 4, 5, and 8 drills. The syllabus owner now supplies one markup key
+  and one five-column trace format for the full semester.
+- Closed a current-stage prerequisite gap by adding
+  `concepts/modulo-and-divisibility.md`, `glossary/modulo-operator.md`, a flashcard,
+  and just-in-time routing before the divisible-by-7 counter. No solution was added.
+- Separated Fall 2026 course core from enrichment in Stages 5, 6, and 8. Sets/deep
+  nesting, file persistence, recursion, formal Big O, and regex remain available
+  without blocking syllabus-named collections, debugging, search/sort, or OOP.
+
+### Progress evidence
+
+No new learner mastery was inferred. Stage 3 remains open at the fresh
+password-controlled `while` transfer.
+
+### Validation
+
+- Strict wiki lint: PASS — 0 blockers and 0 review debt.
+- Whitespace validation: PASS.
+
+### Next action
+
+Attempt the password-controlled `while` transfer cold. Before the later
+divisible-by-7 counter, explain `%` from memory and open the new modulo concept only
+if that explanation fails.
+
+## 2026-07-22 — Stage 3 Bootcamp continuation (Codex)
+
+### Progress evidence
+
+- Chris independently constructed and explained the password-controlled `while`
+  transfer without reopening the prior scaffold.
+- After one modulo correction and one focused counter cue, he completed the
+  divisible-by-7 counter, predicted 7 matches, and explained initialization and
+  final-print placement.
+- He built the limited-attempt guessing game through staged live guidance. The
+  fifth-guess win and five-miss loss boundaries passed, and his explain-back
+  correctly identified both exit paths and the counter-reset failure mode.
+- The delayed cold `break` transfer failed: reported output was `30` instead of the
+  first valid match, `12`. Post-pause inventory found saved `Code/for.py`; its
+  compound condition is malformed and `break` sits outside the `if`, so the saved
+  file does not explain the reported output and must be run and traced next.
+
+### Mastery decision
+
+Stage 3 remains active. The password `while` transfer is independent evidence; the
+counter and mini-project are successful assisted recoveries. `break` construction
+and the remaining mastery checklist are still open.
+
+### Next action
+
+Run saved `MCP_Bootcamp/Code/for.py`, reconcile its output with the reported
+`30`, trace its condition and `break` placement, and correct it before continuing
+the Stage 3 mastery gate.
+
+## 2026-07-23 — Syllabus-citation governance drift found and fixed (Claude Code)
+
+### Work completed
+- Chris asked for a second set of eyes on `CLAUDE.md` and the two official Fall
+  2026 syllabus captures, flagging possible dead/stale pointers.
+- Found: `syllabus-alignment.md` and `source-map.md` cited the two syllabi from
+  Chris's personal, ungoverned `04-SCHOOL\01-CSE-Python\` folder as
+  the "active source," while describing this hub's own `raw\syllabi\` — the
+  folder `CLAUDE.md` itself names as the immutable source location for exactly
+  this material — as holding only the old topic-only quick extracts
+  (`CSE_lecture_syllabus.md`/`CSE_lab_syllabus.md`). That description went
+  stale on July 21: identical full copies of both official syllabi were also
+  placed into `raw\syllabi\` the same day. Verified both copies are
+  byte-identical (`diff`, zero output) before editing.
+- Not a broken link (the cited file exists either way) but a real architecture
+  risk: citing an ungoverned personal folder as canonical ties this hub's
+  governance to a location Chris could reorganize without the wiki knowing,
+  instead of the `raw/` folder this wiki's own rules protect as immutable.
+
+### Pages created/updated
+- `CLAUDE.md` — stale "verified PDF evidence" wording corrected to "verified
+  syllabus evidence" (the live citation format is Markdown, not PDF; the PDF
+  was only the July 15 verification step).
+- `syllabus-alignment.md` — "Active sources" re-pointed to `raw\syllabi\` as
+  canonical; the `02-LIBRARY` copy relabeled as Chris's personal working
+  duplicate, not the citation target; corrected the stale "quick extracts
+  only" claim about `raw\syllabi\`.
+- `source-map.md` — same path correction in the two syllabus rows.
+
+### Vocabulary added
+None (system session).
+
+### Progress evidence
+n/a — governance session. Content itself (CRN/section/instructor/course
+dates) was already correct in both places; only the citation path was wrong.
+Study stage remains Stage 3, unchanged by this pass.
+
+### Parked material
+None new.
+
+### Next action
+None urgent. Content correctness confirmed; no further syllabus re-verification
+needed until D2L populates real course data (expected August 24 or later, per
+the July 21 entry above).
+
+## 2026-07-24 — Instruction-file conversion to the machine-architecture set (Claude Code)
+
+### Work completed
+- Converted this hub's instruction files to the four-file pattern Codex applied
+  the same day to EDUCATION, BUSINESS, and AI_AUTOMATION_SYSTEMS: a thin
+  `CLAUDE.md` loader, a canonical `OPERATIONS.md` contract, plus human-facing
+  `HOW_TO_USE.md` and `README.md`.
+- Pre-conversion originals archived to
+  `99-ARCHIVE\2026-07-24_PYTHON_PRE_MACHINE_ARCHITECTURE\` (CLAUDE.md,
+  HOW_TO_USE.md, README.md), matching the EDUCATION archive precedent.
+- Chris's framing constraint, recorded because it shaped the contract: this is a
+  school hub closer in kind to EDUCATION than to BUSINESS or SYSTEMS, but
+  heavier — which is why it has its own wiki — and it will outlive CSE 1321.
+
+### Pages created/updated
+- NEW `OPERATIONS.md` — canonical local contract (`register: ai-directive`).
+  Carries the former CLAUDE.md content: prime directive, controlling question,
+  system boundary, stage system 0-10, the "think like a computer scientist"
+  definition, page-creation rule, learning profile, academic-integrity boundary,
+  raw boundary, and final operating principle. Adds a Function/Authority/
+  Structure/Operations(INGEST/QUERY/LINT)/Proof/Close spine matching the sibling
+  hubs.
+- NEW `OPERATIONS.md § Lifespan` — the durable-spine vs. course-overlay split.
+  Stages, concepts, code-patterns, glossary, drills, flashcards, mini-projects,
+  errors, and the capability library are permanent; `syllabus-alignment.md` and
+  the course-bound parts of `current-position.md` are a replaceable overlay.
+  CSE 1321 is named as the current consumer of the path, not its purpose, so a
+  future session does not gut the hub when the semester closes.
+- `CLAUDE.md` — reduced to a six-step loader (`type: pointer`,
+  `register: ai-loader`), matching the AIAS loader written the same day.
+- `HOW_TO_USE.md` — rewritten as the human workflow guide. Dropped the dead
+  reference to `PRE-SEMESTER_PREP_PLAN.md`, deleted in the same-day North Star
+  restructure.
+- `README.md` — rewritten as the hub router.
+- `source-map.md`, `stages/stage-05-data-shapes.md` — two live authority
+  pointers re-aimed from `CLAUDE.md` to `OPERATIONS.md`. Historical mentions of
+  CLAUDE.md in this log and in `authoring-standards.md`/`protocols.md` were left
+  intact as narrative.
+- Two facts preserved out of the old `HOW_TO_USE.md` into `OPERATIONS.md`
+  rather than dropped: this hub runs the System Loop's TEACH stage with returns
+  through the Return Packet, and a skill proven here is logged against the
+  matching CASTLE skill page rather than duplicated into it.
+
+### Vocabulary added
+None (governance session).
+
+### Progress evidence
+n/a — no learner work. Study stage remains Stage 3, unchanged.
+
+### Validation
+`validate_boot_chain.py` PASS (30 boot files, 1,303 pages, no stale governance
+references). `wiki_lint.py` 0 blockers. `frontmatter_audit.py` zero new findings
+in PYTHON.
+
+### Parked material
+None new.
+
+### Next action
+Apply the outstanding mechanical fixes from the same-day wiki audit: two
+ambiguous glossary links in `glossary/index.md`, the Module 1 Boolean-expressions
+row in `syllabus-alignment.md`, and the unrouted
+`flashcards/stage-04-library-basics` link.
+
+## 2026-07-24 — Post-conversion recovery audit (Codex)
+
+### Work completed
+- Verified the machine-interface conversion and authority-pointer edits.
+- Added the missing pre-conversion archive as a Git-object manifest at
+  `99-ARCHIVE/2026-07-24_PYTHON_PRE_MACHINE_ARCHITECTURE/ARCHIVE_MANIFEST.md`;
+  it records the source commit and exact blob IDs for the prior `CLAUDE.md`,
+  `HOW_TO_USE.md`, and `README.md`.
+- Disambiguated the glossary links for `if-elif-else` and `recursion`.
+- Routed the syllabus Module 1 Boolean-expression requirement to the relevant
+  Stage 2 subset while retaining Stage 1 retrieval.
+- Corrected the standard-library flashcard heading: the linked packet already
+  exists.
+- Replaced the stale Stage 3 next action, which repeated completed `for.py`
+  work, with one fresh no-hint loop-and-accumulator build and explain-back.
+
+### Validation target
+Run the strict wiki lint, boot-chain validator, frontmatter audit, and canonical
+root health gate. No learner stage advancement is claimed by this architecture
+repair.
+
+### Next action
+Complete and record the fresh Stage 3 loop-and-accumulator proof described in
+`wiki/current-position.md`.
+
+## 2026-07-25 — Scope framing fix (Claude)
+
+### Work completed
+Chris flagged that `README.md` and `OPERATIONS.md` did not make the wiki's
+scope rationale explicit: this hub is the general programming-language
+education engine, currently scoped to Python only because Python is the sole
+language in active use — not because the hub is Python-exclusive. No
+duplicate-language infrastructure exists on the system, so a second language
+would extend this hub rather than fork a new one. A rename (e.g. "programming
+languages") was raised as a live open question, explicitly deferred — not
+decided today.
+
+Edited both files to state this rationale directly:
+- `README.md` intro.
+- `OPERATIONS.md § System boundary`, first bullet.
+
+No structural change: folder layout, stage system, authority table, and
+CSE 1321/1321L integrity rules are unchanged. No rename applied.
+
+### Not changed
+Hub name, `CLAUDE.md`, tags, folder structure. MATH-wiki creation was raised
+by Chris as a live possibility (he has source material ready) but explicitly
+separated from this flag — not actioned.
+
+### Next action
+Chris's next flag from his review file.
+
+## 2026-07-25 — Stage 4/5 split to match the syllabi; teaching loop adopted (Claude Code)
+
+### Work completed
+
+- Checked the Stage 3→4→5 pathway for breaks: **none found.** All 84 wikilinks in
+  the next three stages plus `current-position.md` and `learning-path.md` resolve;
+  `raw/docs/tutorial/modules.txt` exists; the spine mapping matches both syllabi.
+- Mapped the 11 vault stages against the two real syllabus calendars
+  (`raw/syllabi/CSE 1321 BF...md` and `CSE 1321L 04...md`). Found the structural
+  mismatch: Stage 4 and Stage 5 each carried **two course modules**, so neither
+  gate could close against a single week's course work.
+- **Split both, with no stage renumbered and no file renamed** — every existing
+  link still resolves, avoiding the stale-reference cost of a full renumber:
+  - `stages/stage-04b-python-libraries.md` (new) — course M4, lecture Wk 9,
+    Quiz 5, Lab 8. Stage 4 is now functions only and its gate can close.
+  - `stages/stage-05b-searching-and-sorting.md` (new) — course M5.2, lecture
+    Wk 11, Quiz 6, Lab 10. Pulled forward from Stage 8, which sat far later than
+    the week the course quizzes it. Formal Big-O/quicksort analysis stays at
+    Stage 8.
+- `wiki/teaching-loop.md` (new) — the adaptive method adopted at the July 25 gate:
+  cold attempt before instruction, support escalated only as far as the observed
+  error requires (none → concept cue → worked step), Accelerate/Deepen/Rebuild
+  routing from evidence, explain-back, fresh transfer. Scoped to this hub only;
+  no cross-domain rep has been run.
+- Stage 4's reading list now carries **physical PDF page numbers** (Think Python
+  pp. 43–52 and 83–87 — about 15 pages, not "two chapters") from the new
+  `wiki/source-page-map.md`.
+- Corrected the July 27 weekly plan: its Tuesday blocks described a drill split
+  that does not exist (`drills/stage-04-function-writing` is one undivided drill
+  with three functions, all taking a parameter — no no-parameter function, no
+  halves), and its Friday gate could not pass because it budgeted zero blocks for
+  the library bridge Stage 4 then required.
+
+### Pages created/updated
+
+Created: `stages/stage-04b-python-libraries.md`,
+`stages/stage-05b-searching-and-sorting.md`, `teaching-loop.md`,
+`source-page-map.md`. Updated: `stages/stage-04-functions-parameters-return.md`,
+`stages/stage-05-data-shapes.md`, `current-position.md`, `source-map.md`, and
+CASTLE's `weekly-plans/weekly-plan-2026-07-27-to-2026-08-02.md`.
+
+### Progress evidence
+
+No learner mastery moved this session — structure and pathway work only. Chris's
+existing Stage 3 artifacts were independently verified as part of the July 25
+teaching-method gate: all ten `.py` files read, the seven non-interactive ones
+executed, **all correct, zero defects**. `for.py` prints `First match: 12`, which
+closes the July 22 handoff blocker that described it as malformed — Chris had
+already corrected it the next morning.
+
+### Self-caught defect
+
+`stage-05b` first shipped with three invented glossary links
+(`linear-search`, `binary-search`, `sort`) that do not exist. Caught by running the
+link check before commit, repointed to the real entries (`searching`, `sorting`,
+`algorithm`, `big-o`). Both new stage files also initially omitted `timeline:` and
+took root health to BLOCKER with 2 new findings; fixed and re-verified.
+
+### Next action
+
+Monday: Python 1 is the Stage 3 gate check or, if Stage 3 is closed, a cold Stage 4
+functions baseline. Stage 4's gate is **functions only** — libraries are Stage 4b
+and are not part of this week.
+
+### Still open, not actioned
+
+Module 0 (decomposition/algorithms/abstraction) is taught in lecture **Week 1** but
+lives at Stage 7; Module 7 (intro to Java, graded Lab 13 + Assignment 7) has no
+vault home; Stages 6, 9, and 10 appear in neither syllabus and should be relabelled
+a beyond-course track. Recorded in `current-position.md`.
+
+## 2026-07-26 — Stage 3 closed on fresh loop-and-accumulator gate (Codex)
+
+### Proof
+
+- Chris independently built `02-LIBRARY\.PROJECTS\MCP_Bootcamp\Code\stage3_gate.py`:
+  one five-day input loop, running-total accumulator, above-30 counter, average,
+  and process pseudocode.
+- First run: total and threshold count passed the normal dataset; average produced
+  `20` because the denominator counter had advanced to 6. The threshold also used
+  inclusive `>= 30`, and line comments were present before process pseudocode.
+- Chris corrected the sequencing, strict boundary, decimal preservation, and
+  pseudocode without rebuilding the program.
+- Live tests passed: normal `125 / 2 / 25.0`; exact-30 boundary `30 / 0 / 6.0`;
+  decimal case `31 / 1 / 6.2`.
+
+### Status movement
+
+Stage 3 is **satisfied — PASS WITH CORRECTION**. Updated `current-position.md`,
+`learning-path.md`, and `index.md`; Stage 4 functions is now active. The initial
+miss remains evidence of requirement/sequencing precision under split attention,
+not a missing loop or accumulator model.
+
+### Next action
+
+Cold Stage 4 baseline: define and call one small function, then explain parameter,
+argument, and returned value before opening the Stage 4 reading.
+
+## 2026-07-27 — CSE syllabus recapture routed from 77-INBOX (Codex)
+
+- Replaced the school-library working copies for CSE 1321 BF and CSE 1321L 04
+  with fresh Simple Syllabus captures. Course requirements did not change; the
+  new captures add exact meeting information and continuity-plan text.
+- Preserved the July 21 school-library copies under
+  `99-ARCHIVE/04-SCHOOL/SYLLABI_REPLACED_2026-07-27/`.
+- The immutable PYTHON `raw/syllabi/` captures remain dated July 21. Corrected
+  `source-map.md` to stop claiming byte identity and escalated system flag #85
+  to HIGH because the canonical-copy disagreement is now material.
+
+**Learner status:** unchanged. This was official-source routing, not mastery.
+
+**Next action:** continue Stage 4 functions work; Chris's canonical-copy decision
+is separate and must not displace the learning plan.
+
+## 2026-07-28 — Function Lab A: is_even and fahrenheit_to_celsius (Claude Code)
+
+### Outcome
+- Stage 4 spine reading closed (*Think Python* pp. 43-52 Monday, pp. 83-87
+  today). Built `is_even(x)` and `fahrenheit_to_celsius(f)` cold from a
+  blank file — two of the drill's three required functions.
+
+### Evidence
+- Both functions return (not print), contract-compliant. Real first-attempt
+  failure: `fahrenheit_to_celsius` first truncated with
+  `int((f - 32) * 5) / 9` — `int()` applied before the division by 9. Chris
+  predicted the output by hand for both the buggy order (36.888888...) and
+  the corrected order (36.944444444) before running either, then fixed the
+  function to `c = float(float(f - 32) * 5) / 9`, matching the predicted
+  correct value. Also correctly reasoned that a function must `return` a
+  value (not a formatted string) so callers can still do math with it, and
+  that display formatting (`f"{value:.2f}"`) belongs at the call site, not
+  inside the function. Separately debugged a PowerShell-vs-Python confusion
+  (`is_even` typed directly at the shell prompt instead of running the
+  file) — same fix pattern as Monday's `greet.py`.
+- Code: `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\is_even.py`
+  and `degreesF_toC.py`.
+
+### Capability/status movement
+- Stage 4 drill 2/3 functions complete, both PASS WITH CORRECTION. Fruitful
+  function pattern (return vs. print) is solid; void function pattern
+  (`shout`) not yet tested this stage.
+
+### Errors, uncertainty, or residual risk
+- The truncation bug and the raw-value-vs-component confusion from today's
+  later Physics session are structurally the same error class (applying an
+  operation before a required conversion/decomposition step) — worth
+  watching whether this is a recurring pattern across both subjects, not
+  logging as coincidence yet.
+
+### Exact next independent rep
+- `shout(message)` (void, prints uppercased + `!!!`) — the fruitful/void
+  distinction is the one untested concept from this drill. Full remaining
+  Stage 4 gate operations recorded in the Claude-to-Codex handoff,
+  `00-BRAIN\Session_Logs\DAILY_2026-07-28.md`.
+
+### Reusable-asset candidate
+- No — this is learner code, not a reusable system asset.
+
+### System-learning candidate
+- No new cross-system rule.
+
+### Sources and files touched
+- `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\is_even.py` (new)
+- `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\degreesF_toC.py` (new)
+- `wiki/current-position.md` (updated — reading queue, frontier, next action)
+- This log.
+
+## 2026-07-28 (evening) — Drill completed: shout(a)
+
+### Outcome
+- Unplanned evening rep (Chris had said no dedicated Python hour tonight,
+  then wrote this in a few minutes anyway): built `shout(a)` — void,
+  prints `a.upper() + "!!!"`, called twice with different arguments. This
+  was the drill's third and last required function, originally scheduled
+  as tomorrow's 9:00 opener.
+
+### Evidence
+- Code: `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\shout.py`.
+- Chris raised the right question before writing anything — whether
+  `.upper()` works on any string regardless of the parameter name, correctly
+  reasoning that it does (a string method works on any value that is
+  currently a string). Given one concept-level confirmation (not a worked
+  step), he wrote the function correctly unprompted.
+- Explain-back on "why no `return`": correctly identified that nothing
+  outside the function needs to use a result (printing finishes the job),
+  but phrased it as "no loop to exit," conflating `return` with `break`.
+  Corrected: `return` hands a value to the caller; it has no relationship
+  to loops. PASS WITH CORRECTION.
+
+### Capability/status movement
+- Stage 4 drill (`drills/stage-04-function-writing.md`) is now fully
+  complete — all three functions built and correct. Fruitful-vs-void
+  pattern tested for the first time this stage and holds, with one
+  vocabulary correction (return vs. break) now on record to watch for
+  recurrence.
+
+### Errors, uncertainty, or residual risk
+- The return/break conflation is new information, not yet re-tested. Worth
+  a quick unprompted check next session (e.g., "does a loop need `return`
+  to stop?") before treating it as fully resolved.
+
+### Exact next independent rep
+- Stage 4 gate remaining: debug one of the four
+  [[errors/stage-04-common-errors]] types without help, and complete
+  [[mini-projects/stage-04-function-toolbox]]. Since the drill closed
+  tonight instead of tomorrow morning, Wednesday's 9:00 slot is now open —
+  Chris/next session should decide whether to pull the Toolbox forward or
+  keep Wednesday's plan as scoped.
+
+### Reusable-asset candidate
+- No — learner code.
+
+### System-learning candidate
+- No new cross-system rule.
+
+### Sources and files touched
+- `02-LIBRARY\.PROJECTS\ksu_system_progress_project\code\shout.py` (new)
+- `wiki/current-position.md` (updated — drill marked complete)
+- This log.
+## 2026-08-17 — CSE Module 0 survey, paused after first concept chain
+
+### Outcome and evidence
+- Ungraded Week 1 exposure only; the Stage 4b mastery frontier did not move.
+- Chris distinguished decomposition, algorithm, pseudocode, and Python implementation, then
+  decomposed a fresh three-test-average problem and wrote its ordered pseudocode.
+- After correction, he correctly stated that nested calls evaluate inside-out:
+  `input()` runs before `float()` in `float(input(...))`.
+
+### Corrections still worth retrieving
+- An algorithm is an ordered solution method, not necessarily small or code.
+- `int("87.5")` raises `ValueError`; `int(87.5)` truncates an existing float.
+- `float()` is chosen because entered scores may contain decimals, not because Python 3 `/`
+  needs floats to retain a decimal result.
+
+### Exact next action
+- Resume Module 0 with: **What is the different job of CSE lecture versus CSE lab?** Then
+  finish the source/policy sweep and one fresh pseudocode application before closing the two
+  scheduled blocks.
+
+## 2026-08-18 — raw intake: 8 exercise sources routed from `77-INBOX`, under a named raw exception
+
+### Authorization
+
+**`OPERATIONS.md` § Raw boundary requires Chris to explicitly authorize a named exception
+before an AI creates anything under `raw\`. He gave it on 2026-08-18**, choosing `raw\` root
+over a new `exercises\` subfolder so the series stays with its existing sibling. Two earlier
+attempts by the session were denied at the permission prompt and were **not** worked around;
+the move ran only after he confirmed. No `raw\` file was edited, renamed, or removed.
+
+### What moved
+
+Chris clipped eight pages into `77-INBOX\` between **15:32 and 15:44** on 2026-08-18. All eight
+moved to `03-WIKIS\PYTHON\raw\`, joining `Python Exercises, Practice, Solution.md` (Aug 11) from
+the same w3resource series. `77-INBOX\` is now empty. No name collisions existed at `raw\` root.
+
+**Verified byte-identical before and after the move — SHA-256:**
+
+| File | SHA-256 |
+|---|---|
+| `Advanced Python Exercises and Solutions.md` | `b5f85e026ee13e49…` |
+| `Mastering Python 100 Exercises with Solutions.md` | `a4e0171ba19daf21…` |
+| `Python Basic (Part-II) - Exercises, Practice, Solution.md` | `76ece9fb1a3a7c18…` |
+| `Python Basic Exercises, Practice, Solution.md` | `4df6b625537b5a9c…` |
+| `Python Data Structures and Algorithms Recursion.md` | `d8898e73dd590db6…` |
+| `Python Programming Puzzles - Exercises, Practice, Solution.md` | `7e50beaafcc1dd33…` |
+| `Python Tutorial.md` | `cb2eeab2a2452484…` |
+| `Python conditional statements and loops - Exercises...md` | `92fd9d349c4fbd54…` |
+
+### Why this also closed a health blocker — and why that was not the reason
+
+`root_health.py` was returning **BLOCKER** on
+`77-INBOX\Python Programming Puzzles - Exercises, Practice, Solution.md`: control byte `0x1F`,
+line 1054. **It was never corruption.** The file is a Caesar-cipher exercise, and at
+`Shift = -1`, space (`0x20`) − 1 = `0x1F` — the control byte *is the correct puzzle output*,
+captured faithfully. Editing it to green the gate would have destroyed capture evidence.
+
+`77-INBOX` is not in `TEXT_SCAN_EXCLUDED` (`root_health.py:22-28`) but `raw` is, so routing the
+material to its correct home cleared the gate with **no script change and no edit to the
+source**: BLOCKER → **PASS WITH DEBT**, text integrity 0 findings across 1,555 files.
+
+**Recorded deliberately: the routing decision stands on its own** — external source material,
+PYTHON hub charter, same series as the Aug 11 sibling. The blocker clearing is a consequence,
+not the justification. Had the two pointed different directions, routing wins and the gate gets
+addressed separately.
+
+### Still open
+
+- **These are unprocessed sources.** Nothing has been ingested to `wiki\`; `raw\`→`wiki\`
+  STRUCTURE intake has not run on any of the eight.
+- **Standing question for the vault, not for this hub:** unsorted `77-INBOX` capture currently
+  gates whole-vault health, because a single clipped control byte turns `root_health.py` red.
+  Adding `77-INBOX` to `TEXT_SCAN_EXCLUDED` is the candidate fix; **not done**, since it is a
+  system-script change and this route made it unnecessary today.
+
+## 2026-08-18 (later) — semester-prep ingest: 6 new books classified, lab/assignment sequence mapped
+
+### Stated learning gap (INGEST step 1)
+
+**None of the six new books closes an open stage gap**, and the intake says so rather than
+inventing a role for each. It ran because unclassified sources in `raw/` are indistinguishable
+from vetted ones at the moment of use. **The finding is that three of the six must not be
+used.** Source intake remains closed; the active path did not change.
+
+### Sources classified — identified by reading each file's own title/TOC page, not its filename
+
+| File | Actually is | Verdict |
+|---|---|---|
+| `books/dive_into_python.pdf` | *Dive Into Python*, Mark Pilgrim | ⛔ **Python 2** — Ch. 1 covers Mac OS 9 and RedHat. Would actively mislead in a Python 3 course |
+| `books/python_quick_tour.pdf` | *A Quick Tour of Python*, STScI, **May 2, 2002** | ⛔ Python 2 era, PyRAF/astronomy niche |
+| `books/python_game_programming.pdf` | *Invent Your Own Computer Games*, **2nd Ed.** | ⛔ **Older duplicate** of the 4th Ed. already mapped as primary mini-project source |
+| `books/sweigart_making_games.pdf` | *Making Games with Python & Pygame*, 2012 | ✅ New — Stage 10, parked (Pygame is third-party) |
+| `books/programming_fundamentals.pdf` | Busbee & Braunschweig, 2nd Ed. | ✅ New — Stage 7 support; overlaps Farrell, do not work both |
+| `books/pro_git.pdf` | *Pro Git*, 2023 | ⚠️ Not Python, not a CSE 1321 requirement. **Routing question for Chris** — TECHNOLOGY or `02-LIBRARY`, not this pathway |
+
+Two Python-2-era books and a duplicate edition is a 50% reject rate on one batch — the reason
+this map is read before a source is used, not after.
+
+### Coursework: sequence taken, prompts refused
+
+`raw/lab_instructions/` (13 labs) and `raw/assignments_lab/` (7 assignments) arrived the same
+day. **Prompt content was not ingested, summarised, paraphrased, or drilled**, per
+`OPERATIONS.md` § Academic integrity ("MUST NOT ... transform a live assignment prompt into
+'practice'") and § INGEST ("policies, outcomes, and topic order only"). Graded status is not
+ambiguous: Lab 1's own text describes Gradescope submission and an autograder that assigns the
+grade. Assignments are 40% and lab exercises 10% of CSE 1321L.
+
+**Topic order — permitted, and extracted from filenames alone — is now in
+[[syllabus-alignment]]** as a module→lab/assignment map. Three things it made visible:
+
+1. **Flow control (M2) is the heaviest block** — 3 labs + 2 assignments, more than any other
+   module — and it maps to vault Stages 2–3, where the frontier has been stuck since July.
+2. M0 and M4 carry labs but no assignment; the seven assignments sit in M1, M2 (×2), M3, M5, M6
+   and the M7 review.
+3. Java appears only in Lab 13 and review assignment 7, confirming the single-contact-point note.
+
+### Data-quality flags
+
+- **Every lab and assignment file is versioned `sp26`/`spr26` — Spring 2026.** Same defect class
+  as the CSE 1321L syllabus's recycled January–May calendar and the lecture syllabus's "May 4th,
+  2026, Last Day of Classes" carryover found earlier the same day. Lab 1's body is
+  term-agnostic — it prints `# Term: ...` as a blank — so **sequence is sound, dates are not.**
+  Confirm in D2L from Aug 24.
+- **`lab_instructions/m0-lab-1-intsallations_ada_v1 (1).docx` is a Google Drive conflict copy**,
+  not a second lab. Raw is immutable so it stays; do not count it.
+
+### Exact next action
+
+Nothing here changes the current stage frontier. **The one thing this ingest argues for:** M2
+flow control is the course's heaviest block and lands on the vault's weakest stage — worth
+weighting pre-semester reps toward Stages 2–3 rather than adding new sources.
+
+### Files touched
+
+`wiki/source-map.md` (§ Late Raw Intake — classified 2026-08-18) · `wiki/syllabus-alignment.md`
+(§ Lab and assignment sequence — module map) · this log. No concept, glossary, flashcard, drill,
+or project page was generated.
+
+## 2026-08-19 — full CSE semester review and 17-week-plus A plan
+
+### Outcome
+
+Created [[cse-1321-17-week-mastery-plan]], the dated August 19–December 14 execution layer for
+CSE 1321/1321L. It contains the 7–9 hour weekly operating system, collision-week minimum,
+A-grade scorecard, 13 fresh private program specifications, every dated course week through
+finals, assessment sweeps, ten-visit tutoring schedule, and the August 24 D2L reconciliation
+checklist. It complements [[syllabus-alignment]]; it does not replace learner truth.
+
+### Review coverage and decisions
+
+- Reviewed the Python command center, current learner state, Stage 0–10 structure, all concept/
+  pattern/flashcard/source-summary inventories, source map, syllabus bridge, semester map,
+  workload plan, and the last three hub log entries.
+- Inspected the text and topic progression of all 17 official CSE lecture decks, Module 0
+  through the five-part Java bridge and Python review. The decks add course-specific coverage
+  for `match`, nested loops, `break`/`continue`, `random`/`time`/`math`/`os`, two-dimensional
+  lists, bubble sort, class-versus-instance state, mutable-field hazards, and the bounded Java
+  comparison.
+- Inspected *Think Python* PDF physical pages 5–16 as one 12-page chunk, covering the TOC and
+  opening source guidance; the existing source/page maps supplied the course-section routing.
+- Graded lab and assignment prompt contents were not opened or transformed. Only the already
+  permitted filename-derived sequence was used. No file under `raw/` changed.
+- Semester core: Stages 0–5b, Stage 6 debugging subset, Stage 7 planning habit, Stage 8 course
+  subset, official decks, and selected *Think Python*. APIs/SQL/pandas/automation/pytest/deep
+  Java remain deferred; raw w3resource solution banks remain unprocessed reserve.
+
+### State and navigation repairs
+
+- Corrected stale navigation that still called Stage 4 current after Stage 4 closed July 29.
+  [[current-position]], [[learning-path]], and [[index]] now consistently route to Stage 4b.
+- Corrected “Stages 4–10 not mastered” to “Stages 4b–10” without changing evidence.
+- Linked the dated plan from the index, learning path, current reading queue, and syllabus bridge.
+- Corrected the semester workload plan's tutoring cadence from “one every other week” to the
+  accurate “two visits every three weeks” for ten visits across fifteen weeks.
+
+### Validation and learner truth
+
+Frontmatter audit: **CLEAN**, baseline match, 0 findings. Wiki lint: **0 blockers, 1 reviewed
+debt**, the pre-existing CASTLE weekly-plan circular-motion link; no new Python navigation
+finding. Root health: **PASS WITH DEBT** — 0 blockers, the same 1 reviewed wiki item,
+frontmatter 0, shared skills PASS, staged/unstaged whitespace PASS, and 0 text-integrity
+findings across 1,566 Markdown files. The gate does not evaluate semantic freshness,
+review-cadence completion, source ownership/routing, or ordinary direct-path prose. No learner
+mastery moved. Exact frontier remains **Stage 4b, nothing read yet**.
+
+### Exact next action
+
+Run Week 0: read [[stages/stage-04b-python-libraries]], complete the standard-library drill,
+and prove one imported function behind Chris's own wrapper. On August 24, reconcile the plan
+against live D2L dates, weights, lab exams, technology, and tutoring-credit procedure.
+
+## 2026-08-30 — Module 0 overlay drill built at the Sunday return (Chris-approved)
+
+The 2026-07-25 mismatch — Module 0 taught in lecture week 1, drilled only at Stage 7 —
+closed the week it finally cost something: the instructor assigned algorithmic thinking on
+2026-08-29 and the vault had no home for it. Built
+[[drills/cse-module-0-algorithmic-thinking]] as a **course-overlay drill following the
+lecture, not the spine** (trace/predict · pseudocode-not-narration · boundary/initialization
+selection, with the reasonableness-check close on every rep). Un-gated; targets Quiz 1
+(Sun Sep 6) and Test 1 (Mon Oct 5); Stage 7's spine drill unchanged. `current-position.md`
+updated in the same pass — its "still open" list now carries only Module 7 and the
+beyond-course labelling. Learner truth unmoved: **Stage 4b, C1 still the resume point,
+unrun since Aug 18.** The 2026-08-29 rep's open `4` is carried into the drill's first block.
+
+**Next exact action:** run the drill's first block (2×A, 1×B, 3×C — open with the
+unfinished `4`), then C1.

@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: framework
-tags: [priority/next, status/wiki-only, subject/ai, start]
+tags: [subject/ai, start]
+timeline: next
+status: wiki-only
 ---
 
 # AI as a Coworker: Tasks, Systems, Jobs, and the Centaur/Cyborg Distinction

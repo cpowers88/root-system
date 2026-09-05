@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/devops, subject/change-management]
+tags: [subject/devops, subject/change-management]
+timeline: later
+status: wiki-only
 ---
 
 # Why Change Management Programs Collapse (and What Bill Tries Instead)

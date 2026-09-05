@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/queuing-theory, use-case/audit, subject/factory-physics, subject/queuing-theory, subject/blocking, subject/kanban]
+tags: [subject/factory-physics, subject/queuing-theory, subject/blocking, subject/kanban]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, queuing-theory, audit]
 ---
 
 # Blocking and Finite-Buffer Queues: the M/M/1/b Model

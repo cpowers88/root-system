@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: method
-tags: [priority/now, status/wiki-only, domain/technology, source-role/primary, use-case/data-workflow, use-case/audit, subject/data-science, subject/cross-validation, subject/model-evaluation, subject/learning-curves, stack/ai-frameworks-apis]
+tags: [subject/data-science, subject/cross-validation, subject/model-evaluation, subject/learning-curves]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [data-workflow, audit]
+stack: [ai-frameworks-apis]
 ---
 
 # Cross-Validation and the Lab-vs-Field Mismatch: Why a Model That Tests Well Can Still Fail in Production

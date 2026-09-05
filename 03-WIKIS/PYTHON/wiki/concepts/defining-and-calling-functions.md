@@ -4,7 +4,8 @@ stage: 04
 status: draft
 source_refs: ["Think Python Ch.3 (Function Calls, Composition, Adding New Functions, Definitions and Uses, Flow of Execution)", "Automate the Boring Stuff Ch.4", "Python Crash Course Ch.8"]
 prerequisites: ["for-loops", "while-loops", "if-elif-else"]
-tags: [stage-04, functions, def, call]
+tags: [functions, def, call]
+timeline: reference
 ---
 
 # Concept: Defining and Calling Functions

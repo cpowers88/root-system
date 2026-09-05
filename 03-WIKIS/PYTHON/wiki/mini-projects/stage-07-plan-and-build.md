@@ -4,6 +4,7 @@ stage: 07
 status: draft
 concepts: ["decomposition", "pseudocode", "flowchart", "incremental-development", "test-case"]
 solution_included: false
+timeline: reference
 ---
 
 # Mini-Project: Plan-and-Build (Chris's Choice)

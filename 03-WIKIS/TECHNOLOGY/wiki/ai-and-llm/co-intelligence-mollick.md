@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: reference
-tags: [priority/now, status/wiki-only, subject/ai]
+tags: [subject/ai]
+timeline: now
+status: wiki-only
 ---
 
 # Co-Intelligence: Living and Working with AI (Ethan Mollick)

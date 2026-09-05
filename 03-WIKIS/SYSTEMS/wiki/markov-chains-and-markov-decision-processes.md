@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/markov-chains, subject/markov-decision-processes, subject/steady-state-probabilities, subject/operations-research]
+tags: [subject/markov-chains, subject/markov-decision-processes, subject/steady-state-probabilities, subject/operations-research]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # Markov Chains and Markov Decision Processes

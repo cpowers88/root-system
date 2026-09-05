@@ -1,85 +1,76 @@
 ---
 type: guide
 timeline: reference
-tags: []
+status: live
+register: human-context
+tags: [governance, castle]
 ---
 
 # HOW TO USE — CASTLE
-### The castle answers: *what comes next, in what order, why, and what proves it.*
 
-## Purpose
-Extract direction from the castle without turning it into a second project tracker. CASTLE orients and sequences — it does not perform domain work. You come here to orient, not to work; the work happens in the other realms.
+### User router for decisions, sequencing, ownership, and proof
 
-## Direction and Loading
+**Last updated:** August 22, 2026 — synchronized to the live semester/course controls,
+miss evidence, current capability owner, and exact path casing
 
-Start from `01-NORTH_STAR\NORTH_STAR.md`. Load
-`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` only for a business,
-revenue, market, offer, or Ratchet question; load Watchtower only for a material
-external-signal question. CASTLE owns sequence and proof status, not the direction or
-domain evidence it references.
+## What CASTLE Answers
 
-CASTLE owns DECIDE within the canonical System Loop defined only in
-`01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md § The Canonical
-Loop`; it does not define a second system cycle.
+CASTLE is the current decision, sequencing, and proof-status cockpit.
 
-## Every Operation Identifies
-Any castle session that touches a phase, skill, flag, or roadmap decision states these five things — in the session, not necessarily as five separate lines:
+> What is the highest-value next action; who owns it; what proof closes it; and where does the result return?
 
-1. **Why now** — what triggered this (a weekly, a flag, Chris's direction, a phase boundary).
-2. **Proof required** — what evidence would show the thing is actually true or done.
-3. **Realm where work occurs** — CASTLE never does the work itself; name the realm that does.
-4. **Next action** — one exact next step, in that realm.
-5. **Return path for proof/status** — how the result gets back into the castle (a
-   `00-BRAIN\CASTLE\wiki\log.md` entry, owning index/current-position update, or
-   `.ROOT\NOW.md` refresh). The field standard for what any meaningful proof
-   returns is the uniform Return Packet in
-   `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md § Return Packet`;
-   this checklist is an instance of it.
+Durable direction belongs to `01-NORTH_STAR\NORTH_STAR.md`. Rules and authority belong to `OPERATIONS.md`. Domain work and evidence remain with their owning systems.
 
-## How To Ask This Wiki Questions
-Good castle questions (ask any AI session, or just read the pages):
-- "What is today's priority?" → `.ROOT\NOW.md` (castle-owned, lives at the `.ROOT` root)
-- "Where am I on the path?" → `wiki/current-position.md`
-- "What phase am I in and what's the exit criteria?" → `wiki/phase-map.md`
-- "What business vehicle are we testing?" → `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`
-- "Did this external change matter?" → evidence home → `...projectSuccess\radar.md` → CASTLE gate if material
-- "Why am I learning X right now?" → the phase page that names X
-- "Should I chase this new profit idea?" → run it through `wiki/decision-rules/adding-a-profit-skill.md`
+## Start Here
 
-Questions routed elsewhere: "teach me SQL" (→ 03-WIKIS\PYTHON with any AI in Educator mode), "what should I charge" (→ 03-WIKIS\BUSINESS), "where does this file go" (→ WHERE_IT_GOES.md). Routing names the knowledge home, not the only capable model.
+- **Morning decision:** open `.ROOT\MORNING_BRIEF.md`
+- **Detailed current action:** open `.ROOT\NOW.md`
+- **Position on the path:** open `wiki\current-position.md`
+- **Long-range sequence:** open `wiki\north-star-roadmap.md`
+- **Operating rules:** open `OPERATIONS.md`
+- **Full page inventory:** open `wiki\index.md`
 
-## How To Retrieve Knowledge
-Graph view: the castle is the 🟤 light-brown block on the `.ROOT` MAP (colors: START_HERE.md). For "what's next," filter by property — `path:"00-BRAIN/CASTLE" [timeline:now]`, then `[timeline:next]`. Static stage and artifact status are separate properties; graph colors never carry the action ramp. Or start at `wiki/index.md` — every page is listed.
+## Ask the Right Owner
 
-## How To Turn Notes Into Action
-Every phase page ends with a **next action** and **exit criteria**. The rule: read the phase page → do the next action in the realm where it lives → log the rep. If a castle page doesn't tell you what to do next, that page is broken — flag it.
+| Question | Open |
+|---|---|
+| What should I do now? | `.ROOT\NOW.md` |
+| Where am I on the path? | `wiki\current-position.md` |
+| What phase am I in? | `wiki\phase-map.md` |
+| What capabilities need proof? | `wiki\current-position.md` — the Capability and Proof Frontier table (**corrected 2026-08-21**: this routed to `skill-map.md`, which holds no state) |
+| What are a capability's horizons and activation criteria? | `wiki\skill-map.md` |
+| What technology fits this workflow problem? | `02-LIBRARY\ref-AI-automation\TECHNOLOGY_LIBRARY_STRATEGY.md` — 12 categories + Recommendation Ladder |
+| What is the current business strategy? | `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` |
+| What does this semester require? | `01-NORTH_STAR\Goals & Milestones\fall_2026_semester.md` |
+| What are the live cross-course dates and deadlines? | `04-SCHOOL\SEMESTER_MAP.md` |
+| Which exact-section sources are confirmed or missing? | `04-SCHOOL\SYLLABUS_STATUS.md` |
+| What did Chris miss and what must be retested? | `04-SCHOOL\miss-log.md` |
+| Which capability is the current weak link? | `01-NORTH_STAR\Goals & Milestones\capability_development_goal.md` |
+| Has capability turned into real value yet? | `01-NORTH_STAR\Goals & Milestones\value_production_goal.md` |
+| Should a new opportunity enter the system? | `wiki\decision-rules\adding-a-profit-skill.md` |
+| What external signal needs evaluation? | Evidence owner → Watchtower (four-field handoff) → CASTLE gate |
+| Where does an artifact go? | `00-BRAIN\WHERE_IT_GOES.md` |
 
-## How To Create Outputs
-The castle itself outputs only: updated maps, phase pages, skill pages, decision-rule verdicts, and `NOW.md` refreshes. Real deliverables (code, audit templates, course work) are built in their home realms; the castle links to the proof.
+## From Decision to Proof
 
-## How To Update Existing Files
-AI sessions have FULL OPERATOR autonomy here (per `OPERATIONS.md`): maps, statuses, logs update without asking. Structural changes, new phases, and OPERATIONS.md edits need Chris. Every session that changes files updates `wiki/index.md` + `wiki/log.md` and refreshes `NOW.md`.
+A material CASTLE decision identifies why it matters now, who owns the work, the next action, the proof required, and where the result returns. The formal definitions and update rules live in `OPERATIONS.md` and the North Star system contracts.
 
-## How To Protect Task Integrity
-- New shiny skill/opportunity → through the [[adding-a-profit-skill]] gate, never straight to a page.
-- Watchtower signal → no action until evidence home, affected assumption/choice,
-  consequence/test, and review trigger are named.
-- Depth before sprawl: no new pages while a stub exists in the same area.
-- High-load school window (Oct 5 – Nov 11): warn once before optional expansion,
-  recommend the smallest safe scope, then follow Chris's direction.
+Work is performed in the owning realm. Verified results return to CASTLE only when they change sequence, proof status, or the live operating picture.
 
-## Common Commands / Prompts
-- "Refresh NOW.md" — after any working session
-- "Log today's tracker session in the proof-project page"
-- "Run [idea] through the adding-a-profit-skill gate"
-- "Update current-position — I finished [stage/milestone]"
-- "Monthly review: weak-link question + current-position update"
-- "Gate this Watchtower signal and define the smallest proof test"
+## Retrieve
 
-## Examples
-- *Morning*: open `NOW.md`, take the start action, and use the soft boundary to reassess rather than forcing a hard stop.
-- *Idea strikes*: "Should I learn n8n?" → gate page → verdict logged → back to work.
-- *Month end*: AI updates current-position, then reviews `timeline`, `stage`, and `status` independently in the school wikis (property-filtered, one shared graph — see WHERE_IT_GOES.md Metadata Standard).
+Use `wiki\index.md` for direct navigation.
 
-## Last Updated
-July 15, 2026 — metadata property queries reconciled. Canonical workspace: `C:\Users\chris\.ROOT`.
+Useful Obsidian property searches:
+
+- `path:"00-BRAIN/CASTLE/wiki" [timeline:reference] [reference_priority:core]` — core maps
+- `path:"00-BRAIN/CASTLE/wiki" [timeline:now]` — current CASTLE pages
+- `path:"00-BRAIN/CASTLE" [type:proof-project]` — proof projects
+
+## Boundaries
+
+CASTLE routes work; it does not replace the systems that teach, research, build, schedule, or preserve evidence.
+
+Chris owns direction, timing, capacity, and consequential decisions.
+
+CASTLE does not copy owner truth. It points to the authoritative source and records only the decision or proof state needed to steer the system.

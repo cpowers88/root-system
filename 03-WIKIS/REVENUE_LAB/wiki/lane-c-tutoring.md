@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [now, business, revenue]
+tags: [business, revenue]
+timeline: now
 ---
 
 # Lane C — Online Tutoring (Math / Physics / Intro Programming)

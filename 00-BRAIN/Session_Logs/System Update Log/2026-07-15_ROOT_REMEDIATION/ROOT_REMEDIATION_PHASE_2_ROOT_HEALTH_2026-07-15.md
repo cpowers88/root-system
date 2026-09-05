@@ -1,8 +1,9 @@
 ---
 type: plan
-tags: [now, governance, audit]
+tags: [governance, audit]
 status: active
 created: 2026-07-15
+timeline: now
 ---
 
 # Phase 2 — One Truthful Root-Health Gate

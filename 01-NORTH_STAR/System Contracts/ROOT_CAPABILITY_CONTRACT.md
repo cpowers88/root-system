@@ -57,7 +57,7 @@ One owner per stage:
 
 | Stage | Owner |
 |---|---|
-| SENSE | `...projectSuccess` Watchtower; evidence homes in TECHNOLOGY / AI_AUTOMATION_SYSTEMS |
+| SENSE | Watchtower (`01-NORTH_STAR\WATCHTOWER.md` + `radar.md`); evidence homes in TECHNOLOGY / AI_AUTOMATION_SYSTEMS |
 | RESEARCH | the owning `03-WIKIS` hub |
 | TEACH | PYTHON / PHYSICS / EDUCATION staged paths; other hubs when applied |
 | STRUCTURE | each hub's `raw\` → `wiki\` intake |
@@ -77,6 +77,13 @@ redefine it.
 
 Every stage returns its result through the Return Packet below. CASTLE, the hubs,
 and the Watchtower point here; no other file may define a competing loop.
+
+**Companion view (installed July 19, 2026):**
+`ROOT_INFORMATION_FLOW_CONTRACT.md` (same folder) is the information-state view
+and the one translation table that maps this loop, the five-move task protocol,
+the knowledge-to-value pipeline, and the operating cadence onto each other. It
+defines no lifecycle and cannot compete with this loop; load it to orient, to
+trace a single item's state, or to design an interface.
 
 ## Required Capabilities
 

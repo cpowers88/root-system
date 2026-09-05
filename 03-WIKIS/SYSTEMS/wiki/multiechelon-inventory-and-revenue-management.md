@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/inventory-theory, subject/supply-chain-management, subject/revenue-management, subject/operations-research]
+tags: [subject/inventory-theory, subject/supply-chain-management, subject/revenue-management, subject/operations-research]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # Multiechelon Inventory Systems and Revenue Management

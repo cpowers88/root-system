@@ -22,10 +22,13 @@ BASELINE = SCRIPTS / "frontmatter_baseline.json"
 TEXT_SCAN_EXCLUDED = {
     "99-ARCHIVE", "raw", ".git", ".obsidian", "88-JOURNAL",
     "Report Archive",
+    # vendored third-party distribution (Oracle JDK); its legal/ tree ships
+    # hundreds of .md license files that are not vault prose (added 2026-08-02)
+    "oracleJdk-26",
 }
 NOT_EVALUATED = [
     "semantic freshness and current project truth",
-    "review-cadence completion",
+    "review-cadence completion outside CASTLE's named freshness checks",
     "source ownership/routing and duplicate-source disposition",
     "all ordinary direct-path prose outside the checked boot/wiki contracts",
 ]
@@ -78,6 +81,10 @@ def text_integrity() -> dict:
     for path in sorted(ROOT.rglob("*.md")):
         rel = path.relative_to(ROOT)
         if TEXT_SCAN_EXCLUDED.intersection(rel.parts):
+            continue
+        # rglob("*.md") also matches directories whose name ends in .md
+        # (e.g. the JDK module dir legal/jdk.internal.md)
+        if not path.is_file():
             continue
         checked += 1
         data = path.read_bytes()
@@ -168,6 +175,8 @@ def main() -> int:
         run("wiki links and navigation", wiki_command, parse_json=True),
         run("frontmatter and timeline metadata", frontmatter_command,
             parse_json=True),
+        run("CASTLE freshness and review triggers", [
+            sys.executable, str(SCRIPTS / "castle_freshness.py")]),
         run("shared skill mirrors", [
             sys.executable, str(SCRIPTS / "sync_shared_skills.py"), "--check"]),
         run("unstaged whitespace", ["git", "diff", "--check"]),

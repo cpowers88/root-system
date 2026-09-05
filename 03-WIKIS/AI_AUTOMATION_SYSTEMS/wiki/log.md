@@ -1,9 +1,126 @@
 ---
 type: log
-tags: [log]
+tags: []
+timeline: log
 ---
 
 # AI_AUTOMATION_SYSTEMS Wiki — Log
+
+## 2026-07-27 — Migration structural check + first real progress on the six queued books
+
+- **Part 1 — July 24 migration verified sound.** Cross-checked all 77
+  `index.md` wikilinks against actual files on disk: 0 broken links, 0
+  orphaned pages, counts match exactly (77=77). One cosmetic finding: an
+  empty leftover `wiki/proposals/` folder (containing only a stray
+  `desktop.ini`) from before the 11 proposal pages were consolidated into
+  `system-evolution/proposals/` — flagged for removal, blocked by the
+  session's permission layer on `rm`, not fixed this session.
+- **Part 2 — the six books flagged "intake pending" since 2026-07-24 got a
+  real pass, not another deferral.** All six opened far enough for honest
+  TOC-level classification (see `raw-source-coverage.md` for the full
+  per-book reasoning): `AI_builders_handbook.pdf`, `AI_engineering.pdf`,
+  `Prompt_engineering_LLMs.pdf`, `promp_engineering_generative_AI_guide.pdf`,
+  `Generative_AI_economic_potential.pdf`, `agentic_AI_for_engineers.pdf`.
+  Three of six turned out to significantly overlap already-compiled or
+  now-queued material (two dedicated prompt-engineering books overlapping
+  each other and the two handbook/engineering texts; the 2023 McKinsey
+  report superseded by already-compiled 2026 adoption sources); one
+  (`agentic_AI_for_engineers.pdf`) overlaps `AI_builders_handbook.pdf`'s
+  Part 4 at a more introductory level. All four classified lookup/reference,
+  not compiled.
+- **Picked `AI_builders_handbook.pdf` for real ingestion** (over
+  `AI_engineering.pdf`, the other strong candidate) — most current of the
+  six (April 2026), shortest at 143 pp. so genuinely finishable, and its
+  two largest parts (Evaluation Core, Building Agentic Systems) fill real
+  gaps in this hub's existing `agents/` coverage. Chapter 1 (the vocabulary
+  chapter) read as one complete chunk and compiled into
+  [[agents/ai-builders-handbook-2026]]. Chapters 2–20 honestly TOC-mapped,
+  not compiled — Chapters 6–9 and 10–15 named next-priority for whoever
+  continues this.
+- **`AI_engineering.pdf`** TOC-mapped only, correctly left as a deferred
+  multi-session job rather than rushed — matches the hub's own established
+  standard for large texts (`ifAnyoneBuildsitEveryoneDies.pdf`,
+  `DeepLearningTextbook.pdf`).
+
+Files touched: `wiki/agents/ai-builders-handbook-2026.md` (new),
+`wiki/raw-source-coverage.md` (six new rows), `wiki/index.md` (one new
+entry), this log.
+
+## 2026-07-24 — Machine-first knowledge architecture installed
+
+- Added `OPERATIONS.md` as the canonical machine contract.
+- Replaced the prior interface with thin `CLAUDE.md`, `README.md`, and
+  `HOW_TO_USE.md`.
+- Rebuilt `wiki/index.md` as a compact cohort catalog.
+- Migrated 67 research pages into agents, alignment-safety,
+  governance-society, adoption-delivery, platform, protocol, and
+  system-evolution owners.
+- Moved all 11 proposals under `system-evolution/proposals/`.
+- Preserved `raw-source-coverage.md` and this log at the wiki root.
+- Normalized required timeline metadata on relocated legacy pages.
+- Archived the pre-migration interfaces and catalog under
+  `99-ARCHIVE/2026-07-24_AIAS_PRE_MACHINE_ARCHITECTURE/`.
+- No file under `raw/` changed.
+
+## 2026-07-24 — 5 new books landed in raw/, intake pending
+
+Chris dropped 8 PDFs in `77-INBOX` this morning; routed by subject per
+`WHERE_IT_GOES.md`. Five AI/LLM books relocated here: `AI_engineering.pdf`
+(Chip Huyen, *AI Engineering: Building Applications with Foundation
+Models*), `AI_builders_handbook.pdf` (LevelUp Labs, April 2026),
+`Prompt_engineering_LLMs.pdf` (Berryman & Ziegler), `promp_engineering_generative_AI_guide.pdf`
+(Phoenix & Taylor — confirmed distinct book, not a duplicate of the prior),
+and `Generative_AI_economic_potential.pdf` (McKinsey, June 2023 — economic
+impact of gen AI; routed here per the AI/LLM lane rule despite the business
+framing). No overlap with existing raw/ inventory.
+
+A 6th book landed slightly later the same morning:
+`agentic_AI_for_engineers.pdf` (Dhivya Nagasubramanian, *Agentic AI for
+Engineers: Architecting Goal-Driven Systems*, Apress) — agent-architecture
+research, squarely this hub's charter. No overlap with existing raw/.
+
+Files placed only — no chunk-ingest yet (7 dense O'Reilly/Apress/report-length
+sources; full ingest is a queued multi-session job, not today's work).
+Today's actual use: Chris directed a targeted mining pass across a subset
+of these for principles relevant to the active vault-skeleton-design.md
+redesign (specifically: splitting AI-facing instruction files from
+human-facing ones). See `vault-skeleton-design.md` and today's DAILY for
+that thread; full wiki-page ingest of these 5 sources remains open.
+
+## 2026-07-22 — Toolsbase.dev Claude Code + Codex CLI catalogs chunk-ingested
+
+Three Obsidian clippings landed in root `Clippings\` on 2026-07-22 (same
+publisher, toolsbase.dev): a Claude Code 67-feature catalog with full
+v1.0.x-v2.1.217 changelog, an OpenAI Codex CLI 64-command cheat sheet with
+full v0.107.0-v0.145.0 changelog, and the site's own homepage/directory page.
+Chris routed all three raw files into this hub's `raw/` (per the raw-intake
+rule) and asked for a full chunk-intake pass under this wiki's hat.
+
+Both changelog-bearing files were read in full (1726 and 1856 lines
+respectively, each in ~500-600 line chunks) and compiled into new retrieval
+pages: [[claude-code-features-catalog-and-version-history-toolsbase]] and
+[[codex-cli-command-reference-and-version-history-toolsbase]]. The homepage/
+directory clipping carries no independent content (a tool-and-links index for
+the same site) and was recorded as lookup/reference, not compiled.
+
+**Cross-source finding worth flagging:** reading both changelogs back-to-back
+surfaced the same release pattern independently on both vendors — agentic
+capability expands (subagent self-nesting, auto mode reach, multi-agent
+orchestration), then a deterministic guard follows a few releases later
+(concurrency caps, destructive-git-command blocks, spawn-time classifier
+checks, tightening `rm` detection). Documented on both new pages as an
+**expand-then-harden** pattern, offered as a reusable heuristic for this
+hub's own future agent-vetting and tool-adoption research — not yet promoted
+to a proposal; needs a second unrelated confirmation outside the CLI-agent
+category before it's a generalizable claim per the belief/behavior-change
+split in `proposals/2026-07-13_belief-proposal-split-for-system-flags.md`.
+
+Also confirmed: `EndConversation` and `/ultrareview`, both present in this
+session's own tool surface, are documented vendor Claude Code features
+(v2.1.214 and v2.1.120 respectively) — not `.ROOT`-side customizations.
+
+`raw-source-coverage.md` and `index.md` updated; raw file count now 197
+(was 194).
 
 ## 2026-07-17 — AI in Business and Economics (EPEAI proceedings) chunk-ingested
 
@@ -1600,3 +1717,272 @@ reference back matter rather than an ingestion backlog.
   #63 and open flag #69.
 - Next: retrieval only on named explainability, governance, adoption, or
   epistemology questions; Python/SQL/application proof stays first.
+
+## 2026-07-24 — Vault-redesign special-lens source intake completed
+
+- Completed the CASTLE-owned architecture intake for four AIAS raw sources:
+  *AI Engineering* pp. 551–1,108 (Ch. 6–10), *Prompt Engineering for
+  Generative AI* pp. 94–791 (Ch. 2–10 + back matter), and *Agentic AI for
+  Engineers* pp. 171–460 (Ch. 6–14 + index), closing their previously read
+  ranges as full-source coverage. *AI Builder's Handbook*, *Prompt Engineering
+  for LLMs*, and McKinsey's report were already complete.
+- Findings live in
+  `00-BRAIN/CASTLE/wiki/source-summaries/architecture-update-2026-07-24/`;
+  this was a special architecture lens, not full generic domain compilation.
+- Durable returns: prompts/instructions as versioned interfaces; retrieval
+  evidence separated from instruction authority; component plus end-to-end
+  evaluation; independent monitoring; risk-tiered human oversight; feedback
+  entering a reviewed change path; shadow/canary/rollback deployment.
+- Raw PDFs remained read-only. No model/framework forecast was promoted as
+  current without separate verification.
+- Next: CASTLE performs the now-unblocked cross-source synthesis; AIAS receives
+  only the durable domain returns selected by that review.
+
+## 2026-07-27 - xAI workflow-explanation selective intake
+
+- Research question: what explanation evidence should accompany an AI-assisted
+  workflow decision so a human reviewer can detect error, override safely, and
+  improve the process?
+- Read two complete papers from *Explainable Artificial Intelligence: xAI 2025
+  Proceedings, Part II* (CCIS 2577):
+  - Knab et al., “Which LIME Should I Trust?”, physical pp. 47-71 (printed
+    pp. 28-52).
+  - Amling et al., “Bridging the Interpretability Gap in Process Mining,”
+    physical pp. 97-122 (printed pp. 78-103).
+- Continued with a third complete paper under the same question:
+  - Teixeira et al., “Detecting Concept Drift with SHAP,” physical pp. 173-185
+    (printed pp. 156-168).
+- Strengthened [[interpretable-models-and-human-oversight]] with:
+  - a source -> model -> rule -> bounded verbalization -> human-review evidence
+    chain;
+  - task-bounded description, comparison, overview, and metric explanation;
+  - soundness, completeness, context, fidelity/coverage, and decision-utility
+    checks;
+  - a local-explanation reproducibility packet covering sampling, locality,
+    seed, surrogate fit, perturbation stability, and explainer disagreement.
+  - separate input, output, performance, and explanation-drift signals, with a
+    governed investigation/retraining gate and explicit false-alert/review-cost
+    tradeoff.
+- Routed the process-specific cluster explanation guard to SYSTEMS'
+  `conformance-checking-and-kpi-driven-process-improvement.md`.
+- Did not preserve a current-model ranking from the seven-participant,
+  single-event-log study and did not select a preferred LIME variant from the
+  review taxonomy.
+- Updated raw-source coverage from lookup-only to Selective with three complete
+  paper ranges. Remaining Part II papers retain triggered-lookup status.
+- No raw file was modified or copied.
+- Next action: inspect one additional Part II paper only if it tests explanation
+  drift, user actionability, or a safety decision not already covered.
+## 2026-07-27 - AI Builder's Handbook Evaluation Core
+
+- Read Chapters 6-9 in full (printed pp. 44-65; physical PDF pp. 53-74) and
+  visually checked the calibration and guardrail-production pages.
+- Expanded [[agents/ai-builders-handbook-2026]] with the operational eval
+  stack and corrected the file identity to 152 physical pages with numbered
+  main text ending at p. 143.
+- Strengthened [[platforms/openai/openai-evals-and-red-teaming]] with a
+  provider-neutral loop: deterministic checks first, calibrated judge only
+  where needed, continuing human sampling, guardrail incident capture, and
+  regression feedback.
+- Preserved the source's case-count, evaluator-mix, and agreement bands as
+  starting heuristics rather than universal release standards.
+- No raw file was modified.
+- **Next exact action:** Read Chapters 10-15 only against the question, "What
+  is the least autonomous architecture that can reliably complete a workflow,
+  and what new evidence is required at each step up?"
+
+## 2026-07-27 (later same day) — AI Builder's Handbook: Chapters 2-5, 10-15 compiled; Codex/fork Ch6-9 collision resolved
+
+- Chris asked for continued handbook ingestion. Read Chapters 10-15 (Building
+  Agentic Systems, printed pp. 66-101 — the workflow-vs-agent spectrum,
+  router/tool/retrieval/memory/multi-agent design patterns and named failure
+  modes) and Chapters 2-5 (printed pp. 21-42 — enterprise adoption patterns,
+  model-selection framework, Problem-First Design, prompting/context
+  engineering), all fully chunk-read, not skimmed.
+- **Found and resolved a real collision:** this session and the Codex session
+  above had independently read and compiled Chapters 6-9 into
+  [[agents/ai-builders-handbook-2026]] concurrently, each unaware of the
+  other, producing duplicate content in one page. Consolidated into a single
+  section (this session's version — more named tools, exact thresholds, and
+  direct quotes preserved; Codex's framing was a strict subset). No
+  information from either pass was lost; both original sessions are on the
+  record here for provenance.
+- Page now covers Chapters 1-15 in full (all of Parts 1-4); Chapters 16-20
+  (Production and the Long Arc; Where to Go Next) plus the Master Resource
+  Index remain TOC-mapped, not compiled. Ch 17's MCP section named
+  next-priority given this hub's `protocols/mcp/` cohort.
+- Files touched: `wiki/agents/ai-builders-handbook-2026.md` (Ch 2-5 and
+  10-15 added, Ch 6-9 duplicate resolved, coverage-status and remaining-
+  chapters sections corrected), `wiki/raw-source-coverage.md` (row merged
+  to reflect full current state, not stomped), this log. No raw file
+  touched or modified.
+- **Next exact action:** Chapters 16-20 plus the Master Resource Index, when
+  next picked up — Ch 17 (MCP/A2A/Agents SDK) first given the direct
+  `protocols/mcp/` relevance.
+## 2026-07-27 - AI Engineering production-feedback intake
+
+- Read Chip Huyen's *AI Engineering* Chapter 10 `User Feedback` section in
+  full, physical PDF pp. 998-1031, plus the chapter summary pp. 1032-1033.
+  Corrected the initially planned pp. 998-1058 range after verifying that
+  pp. 1034 onward were index material.
+- Created
+  [[adoption-delivery/production-user-feedback-and-learning-loops]] as the
+  missing end-to-end retrieval surface.
+- Core rule: production feedback is contextual evidence, not ground truth.
+  Preserve signal provenance, consent/purpose, interface context,
+  interpretation confidence, bias audit, validation, and destination before
+  it changes an eval, product, personalization state, prompt, workflow, or
+  model.
+- Strengthened [[alignment-safety/training-data-representation-and-feedback-risk]]
+  with exposure-driven representation risk and
+  [[adoption-delivery/enterprise-ai-adoption-and-production-roadmap]] with
+  destination-specific feedback routing.
+- Visually verified the feedback-collection and degenerate-loop pages. No raw
+  file was modified.
+- **Next exact action:** Use this method to define a feedback evidence packet
+  only when an active AI workflow or client pilot supplies a real interaction
+  surface; do not invent a generic collection system in advance.
+
+## 2026-07-27 - AI Builder's Handbook: full 20-chapter compile completed
+
+- Finished what the prior two passes (this session, plus the concurrent
+  Codex Ch 6-9 pass) left open: read Chapters 16-20 and the Master Resource
+  Index in full, physical PDF pp. 102-143 (four bounded chunks: pp. 93-111,
+  112-131, 132-143, cross-checked against the book's own printed page
+  numbers to correctly resolve a +9 PDF/print offset).
+- Re-verified live state first per the coordinator's collision warning:
+  confirmed no further Codex edits had landed on this page or its
+  `raw-source-coverage.md` row since the last consolidation; proceeded
+  clean, no second collision this pass.
+- Ch 16 (Observability/Tracing): named tools (Arize Phoenix, LangSmith),
+  the full trace-content list, the three-tier logging policy (always/
+  sometimes/never), and the CC/CD trace-to-eval loop.
+- Ch 17 (Protocols/Extensibility): MCP called "the most important protocol
+  to know in 2026," described as effectively the 2026 standard for
+  connecting models to tools/data — a direct, independent confirmation of
+  this hub's own now-COMPLETE MCP Watchtower row and Chris's finished MCP
+  Bootcamp capstone. Also covers A2A (explicitly less mature, "worth
+  knowing, not worth betting an architecture on yet"), OpenAI Agents SDK,
+  and six internal-extensibility principles.
+- Ch 18 (Production Readiness Checklist): full pre-launch (6 categories)
+  and post-launch (weekly/quarterly/annual) checklists, plus seven named
+  drift signals.
+- Ch 19-20: role-based reading tracks (PM/UX/Engineer/Leader) and the
+  book's 2027 forward-look, explicitly caveated by its own author as
+  directional, not predictive.
+- Master Resource Index (~80 external resources) reproduced by category in
+  the wiki page rather than link-by-link, with an explicit caution to
+  verify each URL's current target before citing — these are volatile web
+  resources, not something this wiki independently verifies.
+- `wiki/agents/ai-builders-handbook-2026.md` coverage status corrected:
+  all 20 chapters + index now compiled, nothing left TOC-only.
+  `raw-source-coverage.md`'s row updated to match. No `raw/` file touched.
+- **Next exact action:** none queued for this book — fully closed. The
+  other four lower-priority queued books (`Prompt_engineering_LLMs.pdf`,
+  `promp_engineering_generative_AI_guide.pdf`,
+  `Generative_AI_economic_potential.pdf`, `agentic_AI_for_engineers.pdf`)
+  remain correctly classified lookup/reference, not a compile priority.
+  `AI_engineering.pdf` (Huyen) remains the one large deferred book —
+  Chapter 10 compiled by Codex separately; the rest is still a genuine
+  multi-session job, not started this pass.
+
+## 2026-08-02 - Claude/Cowork short-form intake
+
+- Routed two creator-video transcripts into `raw/` and registered both in source coverage.
+- Classified the skill list as discovery-only because its rankings and popularity claims are not verified evidence.
+- Classified the one-person-company workflow as selective overlap: `.ROOT` already implements the useful profile/context/output/session loop, while scheduled email, calendar, and external-action claims remain consequential and unactivated.
+- No duplicate synthesis page or governance proposal was created.
+- **Next exact action:** vet a named skill only when a real task gap appears; do not install the video list as a bundle.
+
+## 2026-08-06 - GitHub-repos video routed from INBOX, fact-checked, two repos followed up
+
+- Routed `Top 10 GitHub Repos This Week...md` (a creator-video transcript, channel "Full Stack") from `77-INBOX` into `raw/`, registered in `raw-source-coverage.md`. Same session also cleared `77-INBOX` of 5 content-free Studocu clippings (archived to `99-ARCHIVE\77-INBOX\SORTED_2026-08-06\`, out of this hub's scope).
+- Fact-checked rather than accepted at face value: verified all 10 claimed repos exist via GitHub API, with current star counts all exceeding the video's figures — consistent with organic growth in the ~9 days since the video's snapshot, not fabrication. Source classified trustworthy.
+- Followed up on two repos at Chris's direction: `mattpocock/skills` (skill-library structure, MIT) and `bojieli/ai-agent-book` (10-chapter agent textbook, Chinese-original with English available).
+- `mattpocock/skills` produced two new `.ROOT` shared skills — governance change, not wiki content, so the detail lives in `00-BRAIN\SKILLS\THIRD-PARTY-NOTICES.md` and today's DAILY, not here. Summary: `writing-for-agents` vendored MIT-verbatim; `handoff` rewritten from scratch after its source shape (`disable-model-invocation`) proved incompatible with `.ROOT`'s shared-skill validator and conflicted with the existing four-field `HANDOFF_MMDD_WHO.md` convention.
+- `bojieli/ai-agent-book` catalogued (real chapter list confirmed against the repo, not just the video's vaguer claims) but **ingestion explicitly deferred by Chris** — it would compete for the same bandwidth the open `fall_2026_capacity_decision.md` review is trying to protect. Not scheduled; revisit once that decision closes.
+- No wiki synthesis page created — this stays lookup/reference until a concrete ingestion decision is made.
+- **Next exact action:** none owned by this hub; revisit `ai-agent-book` ingestion only after the fall-2026 capacity decision closes.
+
+## 2026-08-07 - Chris's "review GitHub open source against .ROOT" ask answered from existing work, two items actioned
+
+- Chris asked to review GitHub open-source material against `.ROOT` and refine the system toward what it actually needs. Investigation found this was already done in depth in July: [[agents/self-improving-agent-architectures-gbrain-loopany-closed-loop]] (GBrain, loopany) and [[system-evolution/root-maturity-self-assessment]] already compared `.ROOT` against real open-source agent architectures and an industry maturity framework. 10 of 11 resulting proposals are APPROVED & APPLIED; presented the state as-is rather than re-running the research.
+- Two items surfaced for Chris's decision, both actioned:
+  1. **`2026-07-12_session-close-high-flag-hook.md`** (the one proposal still `PENDING`) — Chris approved moving forward. Status updated to `APPROVED FOR DESIGN`; routed to Codex via new `SYSTEM_FLAGS.md` #93.
+  2. **`bojieli/ai-agent-book`** ingestion, deferred 2026-08-06 pending the capacity decision — Chris chose to reopen it now that decision has closed. Pulled the real TOC via `gh api` (not the video transcript's paraphrase): 34,232 stars, 10 chapters, 93 companion experiments, Apache-2.0. Chapter-by-chapter `.ROOT` relevance called in `raw-source-coverage.md`: high (Ch. 2, 3, 6, 8), moderate (1, 4, 5, 10), low/not-applicable (7, 9 — `.ROOT` doesn't train models or run physical/voice interfaces).
+- No chapter text read yet — intake started, not compiled, per the standard chunking rule for book-length sources.
+- **Next exact action:** read Ch. 2 (Context Engineering) first, chunked, since it bears most directly on the context-management barrier `root-maturity-self-assessment.md` already named as live. Codex owns flag #93's hook-mechanics design next.
+
+## 2026-08-07 (continued) - Ch. 2 (Context Engineering) compiled, one high-value finding surfaced
+
+- Read `book-en/chapter2.md` in full via `gh api`, 4 bounded chunks matching the chapter's own section breaks (lines 1-404, 405-707, 708-928, 929-1068). Compiled to [[agents/ai-agent-book-ch2-context-engineering]].
+- **Top finding:** Experiment 2-8's status-bar research found LLM-narrated state summaries underperform a 20-line deterministic script — and this directly explains, not just parallels, `.ROOT`'s own flag #91 and the Aug 5-6 evening-reading staleness bug (both are AI-narrated state going stale/desyncing). Flagged as a candidate system-evolution proposal (a script to compute `NOW.md`'s derivable "current state" facts rather than narrate them) — not drafted, since it changes how a core governance file is maintained and needs the normal evidence-then-approval path with Chris, not a mid-read write.
+- Confirms three more independent-convergence points: static-prefix/dynamic-suffix boot-chain ordering, Skills architecture, and sub-agent context isolation (the fork/agent tool's actual rationale) all match `.ROOT`'s existing design, arrived at independently by the book's own production examples.
+- Two unchecked audit items logged, not yet actioned: whether `.ROOT`'s own `SKILL.md` files carry explicit negative-routing examples, and whether vendored third-party skill content (`mattpocock/skills`, Aug 6) was reviewed for embedded instructions specifically, not just license terms.
+- **Next exact action:** Chris to decide whether the state-compiler idea becomes a scoped proposal. Ch. 3 (User Memory & Knowledge Bases) is next in the reading queue if continuing.
+
+## 2026-08-07 (continued 2) - Ch. 10 (Multi-Agent Collaboration) read at Chris's redirect, named two live failure modes
+
+- Chris redirected: rather than scoping the Ch. 2 finding into a narrow proposal immediately, go deeper — the coordination question between Chris, Claude, and Codex is the real target, and this book is producing directly relevant data. Reprioritized Ch. 10 (Multi-Agent Collaboration) ahead of Ch. 3/6/8 since it bears most directly on that question. Read in full via `gh api`, 3 bounded chunks. Compiled to [[agents/ai-agent-book-ch10-multi-agent-collaboration]].
+- **`.ROOT` is a non-shared-context multi-agent system coordinating through a shared file system** — the chapter's own classification, and its recommended "handoff package" (task + confirmed facts + artifact references, explicitly excluding full trajectory noise) is close to a line-for-line match for `AGENT.md`'s existing four-field handoff, designed independently.
+- **Two named failure modes map onto real `.ROOT` incidents, not hypotheticals:** (1) "semantic conflicts" (no file collision, but logically inconsistent understanding) = the Aug 6 diagnostic's three-sessions-re-deriving-the-same-plan finding and Chris's July 26 "we did the same thing the day before" complaint; (2) "Byzantine faults" (a session doesn't crash, it narrates plausible-but-stale state forward) = flag #91 and the Aug 5-6 evening-reading bug. `.ROOT`'s existing independent-review rule (`AGENT.md` "One AI Team") is already the chapter's textbook fix for Byzantine faults — correct in design, advisory in enforcement, same shape as flag #93.
+- Folded directly into the open decision file: `01-NORTH_STAR\Goals & Milestones\direction_and_system_review.md` Question B now carries this evidence.
+- **Next exact action:** Chris to decide whether to continue to Ch. 3 and Ch. 8, or pause to digest what Ch. 2 + Ch. 10 already surfaced.
+
+## 2026-08-07 (continued 3) - Ch. 3 and Ch. 8 read, four-chapter arc closed
+
+- Chris chose to continue rather than pause. Read `book-en/chapter3.md` (User Memory and Knowledge Base) and `chapter8.md` (Continual Evolution of Agents) in full via `gh api`, bounded chunks. Compiled together into [[agents/ai-agent-book-ch3-ch8-memory-and-evolution]] since both chapters mainly confirmed existing `.ROOT` design rather than surfacing large new findings.
+- **Ch. 3:** `.ROOT`'s `raw/`→`wiki/`→index/wikilink structure matches OpenViking's "filesystem paradigm" almost exactly, including one real gap: the book's explicit warning that cross-linking must be required at write time, not caught later by lint, isn't currently a stated rule in `AGENT.md` § Wiki Shared Layer. `CHRIS_CORE.md` + `CHRIS.md` independently matches the chapter's "two-tier memory architecture" (resident overview + on-demand detail), the one combination the book says reaches its top capability tier.
+- **Ch. 8:** confirmed a fifth independent convergence — "safety mechanisms must not be self-modifiable" is exactly `.ROOT`'s raw-immutability and NORTH_STAR-approval rules. Named a real near-miss already on `.ROOT`'s own record that matches the book's specific warning about unprotected validator scripts: the Aug 2 `skillOverrides` incident, caught by luck that session, not by structural guard. Confirmed (a second independent line, after Ch. 10) that local, attributable, reversible fixes should be tried before structural change — direct supporting evidence for how Question B in `direction_and_system_review.md` should be sequenced.
+- Two small, concrete, not-yet-applied candidates logged: a wiki-cross-linking rule for `AGENT.md`, and a regression-field addition to the system-evolution proposal template. Neither applied — both are governance-file edits needing Chris's call.
+- Four-chapter read now closed at Ch. 2/3/8/10. Remaining six chapters not prioritized; Ch. 7 and 9 already ruled low-relevance (model training, robotics/voice — outside `.ROOT`'s scope).
+- **Next exact action:** none queued in this hub. Chris to decide, in `direction_and_system_review.md`, whether any of the small candidates get applied.
+
+## 2026-08-07 (continued 4) - AI_engineering.pdf Ch. 6 checked for gaps against the ai-agent-book compile
+
+- Fixed a pre-existing frontmatter inconsistency Chris caught by asking whether this session's new files were placed correctly: `type: decision` (not in `WHERE_IT_GOES.md`'s approved vocabulary) and `register: ai-directive` (the rule scopes `register:` to canonical instruction interfaces only, not reports/reviews) on both `fall_2026_capacity_decision.md` and `direction_and_system_review.md`. Changed both to `type: decision-report` (an established wiki-specific type already used once elsewhere, `00-BRAIN\CASTLE\wiki\root-architecture-evidence-refinery-2026-07-24.md`), `register:` removed from both. Not a location error — both files were already correctly placed; this was a metadata fix only.
+- Chris then asked for a second pass on `raw/AI_engineering.pdf` (Chip Huyen, Dec 2024) specifically checking for data missed relative to the `bojieli/ai-agent-book` compile. Located Chapter 6 "RAG and Agents" (physical pp. 551-664) via page-probing (no machine-readable page-numbered TOC in this export). RAG-mechanics section skimmed and confirmed as overlap with already-compiled [[ai-agent-book-ch3-ch8-memory-and-evolution]]; Agents section (pp. 613-664) read in full. Compiled to [[agents/ai-engineering-huyen-ch6-rag-and-agents]].
+- One real new finding, not present in the ai-agent-book compile: a three-part agent failure-mode checklist (planning failures / tool failures / efficiency failures), more operationally concrete than the architecture-level failure modes already on record. Logged as a useful retrospective lens, not a proposal.
+- Everything else in the read chunk confirmed existing coverage with different vocabulary (three-tier memory, control-flow taxonomy for plans, decoupled plan/verify/execute loop).
+- **Real, acknowledged gap:** physical pp. 572-613 of Ch. 6 (~40 pages) not read this pass. Chapters 1-5, 7, 8, 9 remain fully unread (TOC-only), consistent with the existing coverage ledger.
+- **Next exact action:** none queued. This was explicitly framed by Chris as chunk-format, multi-session material — remaining gaps stay open until directed.
+
+## 2026-08-13 — New raw intake ingested for later `.ROOT` optimization review
+
+- Step 1 scope only: ingest newly placed AIAS raw material into maintained AIAS knowledge;
+  do not change `.ROOT` governance, plans, cockpit, or operating structure.
+- Read four August 13 LLM-wiki sources in full/operative depth. Updated
+  [[system-evolution/llm-wiki-pattern-and-second-brain-tools]] rather than creating a
+  duplicate synthesis page.
+- Preserved the meaningful contrasts for review: durable files vs derived indexes;
+  deterministic lint vs semantic judgment; human-steered vs scheduled ingest; simple
+  index/grep navigation vs full-text/citation-graph infrastructure; portable-skill vs
+  full-product boundaries.
+- Classified the August 11 LLM Council capture as a proposal/request pointer. It was not
+  installed and was not treated as evidence about council quality or safety.
+- Updated `raw-source-coverage.md` with every new filename explicitly. No raw file was
+  modified, moved, renamed, hashed, or deduplicated. `index.md` already points to the
+  maintained synthesis page, so no index edit was required.
+- Next action: review the now-ingested wiki material for optimization patterns relevant to
+  semester operations and future business capability; keep that review separate from any
+  implementation decision.
+
+## 2026-08-22 — College AI study-system optimization review completed
+
+- Reviewed current GitHub implementations for course ingestion, cited retrieval, adaptive
+  tutoring, learner memory, LMS assignment ingestion, and production second-brain RAG, then
+  compared them against the live Fall 2026 school, EDUCATION, learner-frontier, and CASTLE
+  owners.
+- Updated [[system-evolution/llm-wiki-pattern-and-second-brain-tools]] rather than creating a
+  duplicate page. **Verdict: HOLD every full-platform adoption and keep `.ROOT`'s structure.**
+- The only gap that earned a test candidate is a local, incremental mixed-file course index
+  with exact page/slide/timestamp citations and stale-source warnings. ClassCorpus is the
+  best-fit candidate, but it remains gated on repeated Week 1–2 retrieval friction and a
+  supervised one-course acceptance test; nothing was installed.
+- Brightspace's read-only **All Calendars and Tasks** iCal feed is the immediate low-risk
+  freshness check for Aug 24. It supplements rather than replaces the existing twice-weekly
+  D2L verification because instructor calendar publication is incomplete by design.
+- No new page, product, database, folder layer, D2L credential path, or generated curriculum
+  was created. No `raw\` file was touched.
+- **Next exact action:** complete the Aug 24 D2L Day One reconciliation, check the read-only
+  calendar feed, and measure real retrieval friction before opening any tool pilot.

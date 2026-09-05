@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/now, status/wiki-only, domain/systems, source-role/example, use-case/systems-analysis, use-case/data-workflow, use-case/audit, subject/system-dynamics, subject/stocks-and-flows, subject/policy-resistance, subject/data-quality]
+tags: [subject/system-dynamics, subject/stocks-and-flows, subject/policy-resistance, subject/data-quality]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [systems-analysis, data-workflow, audit]
 ---
 
 # The Cocaine Epidemic: How Stock-Flow Logic Proved the Government's Own Survey Data Was Mathematically Impossible

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: method
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/audit, use-case/client-interview, subject/system-dynamics, subject/time-horizon, subject/endogenous-explanation, subject/model-boundary]
+tags: [subject/system-dynamics, subject/time-horizon, subject/endogenous-explanation, subject/model-boundary]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, audit, client-interview]
 ---
 
 # Time Horizon, Endogenous Explanation, and Model Boundary: How to Scope a Diagnosis Correctly

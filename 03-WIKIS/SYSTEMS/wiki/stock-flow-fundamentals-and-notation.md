@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/audit, use-case/data-workflow, subject/system-dynamics, subject/stocks-and-flows]
+tags: [subject/system-dynamics, subject/stocks-and-flows]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, audit, data-workflow]
 ---
 
 # Stock and Flow Fundamentals: Notation, Math, and Why Stocks Drive Dynamics

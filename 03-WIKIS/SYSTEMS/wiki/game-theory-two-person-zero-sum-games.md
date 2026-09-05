@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/operations-research, use-case/ksu-support, subject/game-theory, subject/minimax, subject/operations-research]
+tags: [subject/game-theory, subject/minimax, subject/operations-research]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, operations-research, ksu-support]
 ---
 
 # Game Theory: Two-Person Zero-Sum Games, Dominated Strategies, Saddle Points, and Mixed Strategies

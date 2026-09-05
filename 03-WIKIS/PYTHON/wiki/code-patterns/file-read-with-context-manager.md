@@ -3,7 +3,8 @@ type: code-pattern
 stage: 06
 status: draft
 concepts: ["file-path", "open-read-write-close"]
-tags: [stage-06, files, context-manager]
+tags: [files, context-manager]
+timeline: reference
 ---
 
 # Code Pattern: Reading/Writing a File With a Context Manager

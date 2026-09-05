@@ -4,6 +4,7 @@ stage: 02
 status: draft
 aliases: ["conditional statement", "if statement"]
 related_terms: ["condition", "branch"]
+timeline: reference
 ---
 
 # `if` / `elif` / `else`

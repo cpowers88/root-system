@@ -1,194 +1,220 @@
 ---
-type: ops
+type: contract
 timeline: reference
+status: live
+register: ai-directive
 tags: [governance]
+created: 2026-07-19
 ---
 
-# OPERATIONS.md — How AI Sessions Run the Castle
-### Approved by Chris: July 6, 2026 (Pass-2 update same day: castle lives at `00-BRAIN\CASTLE`; NOW.md lives at `.ROOT\NOW.md` but the castle owns it. July 9, 2026, Chris-approved: daily report system added to Session Close)
-### One brain, one map: governance lives in `00-BRAIN`. Direction lives here.
+# OPERATIONS.md — How AI Sessions Run CASTLE
 
----
+Last revised: **September 5, 2026** — Chris moved school deadlines and submission
+control to himself and live D2L; weekly school planning became user-invoked, while
+`.ROOT` retained tutoring, learner evidence, and monthly integration. Prior
+substantive revisions: Aug 22, Aug 21, Aug 19, and July 19, 2026.
 
-## Session Boot Order
+*The July 19 date stood on this line while the file carried Aug 19 and Aug 21 rules. A header
+date is what a session reads to judge whether the file is current, so a stale one is not
+cosmetic — it is the same defect the flag register caught in itself on 2026-08-18.*
 
-Any AI session working in `CASTLE` loads, in this order:
+## Authority
 
-1. `C:\Users\chris\.ROOT\00-BRAIN\AGENT.md` — universal OS: shared rules, file safety, session close
-2. The active surface profile in `C:\Users\chris\.ROOT\00-BRAIN\` (optional HATS\ mode if useful)
-3. `C:\Users\chris\.ROOT\01-NORTH_STAR\NORTH_STAR.md` — durable direction
-4. Load `CURRENT_STRATEGY.md` only for a business/market/offer/revenue/Ratchet
-   question, and Watchtower only for an external-signal question
-5. `wiki/index.md` — what exists in the castle
-6. Last 3 entries of `wiki/log.md` — what happened recently
-7. `wiki/north-star-roadmap.md` — the current pathway state
+CASTLE is the decision, sequencing, and proof-status cockpit beneath these authorities:
 
-Then state in one sentence what the session will do.
+1. `00-BRAIN\AGENT.md` — AI behavior, safety, and approval boundaries.
+2. `01-NORTH_STAR\NORTH_STAR.md` — durable direction and priority hierarchy.
+3. `01-NORTH_STAR\Goals & Milestones\` — the adaptive outcomes CASTLE sequences
+   toward: `CURRENT_STRATEGY.md` (business vehicle under test),
+   `fall_2026_semester.md` (semester outcome, readiness gates, workload gate),
+   `capability_development_goal.md` (capability stack and weak-link order), and
+   `value_production_goal.md` (evidence ladder). `OPERATIONS.md` in that folder
+   is the machine rule set for every goal.
+4. `01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md` — canonical System Loop and Return Packet.
+5. `01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md` — information-state translation and seven-line trace.
+6. `00-BRAIN\WHERE_IT_GOES.md` — placement and metadata.
 
-## What the Castle Is
+CASTLE owns sequencing and proof status. Chris owns direction, timing, consequential decisions, and final quality. A conflict is flagged, not silently resolved.
 
-The **command center**: the master pathway from Chris's current position to the
-North Star (October 8, 2031 — canonical direction:
-`01-NORTH_STAR\NORTH_STAR.md`; current business vehicle:
-`01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md`, neither restated here). It
-answers, at all times:
+## Local Boot
 
-> What skill comes next, in what order, why does it matter,
-> what source proves it, and what project proves Chris can use it?
+Complete the universal orientation chain in `AGENT.md`, including the active surface profile and `CHRIS_CORE.md`. Then load only what this CASTLE question needs:
 
-CASTLE owns DECIDE within the canonical System Loop defined only in
-`01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md § The Canonical
-Loop`; the local flows below are instances of that loop, not competing cycles.
+1. `wiki\index.md`.
+2. The last three entries of `wiki\log.md`.
+3. `wiki\north-star-roadmap.md` and `wiki\current-position.md` when sequence or proof status matters.
+4. The owning goal file in `Goals & Milestones\` only when the question is
+   about that outcome — `CURRENT_STRATEGY.md` for business, market, offer,
+   revenue, strategic-skill, or Ratchet work; `fall_2026_semester.md` for
+   school sequencing and readiness; `capability_development_goal.md` for
+   weak-link ranking; `value_production_goal.md` for value-evidence claims.
+5. The Information Flow Contract only when tracing an item or auditing an interface.
 
-## What the Castle Is Not
+State the session outcome in one sentence, then work.
 
-- Not the behavioral OS — that is `00-BRAIN`. Do not duplicate governance here.
-- Not the knowledge refinery — each `03-WIKIS` hub runs its own deep source ingests per its own `CLAUDE.md` (FORGE, the prior single refinery, retired July 7, 2026).
-- Not the business-model wiki — that is `03-WIKIS\BUSINESS`. The castle links to it.
-- Not a course wiki — `03-WIKIS\PYTHON` and `03-WIKIS\PHYSICS` own their staged learning execution;
-  `03-WIKIS\EDUCATION` owns general KSU support (TCOM/ECON/ENGR).
-- Not the landscape-research or self-evolution layer — `03-WIKIS\TECHNOLOGY` and
-  `03-WIKIS\AI_AUTOMATION_SYSTEMS` research and propose; the castle reviews and
-  maintains (see Wiki Sweep below).
-- Not the external-signal board — `...projectSuccess` observes and routes material
-  change; CASTLE gates any resulting work.
-- Not a journal, project tracker, or file dump.
+## Purpose
 
-The castle REFERENCES the other systems. It never absorbs them.
+CASTLE turns durable direction, live owner truth, fixed commitments, and Chris's declared capacity into a focused decision:
 
-## Autonomy Level — FULL OPERATOR (set by Chris, July 6, 2026)
+> What is the highest-value next action; who owns it; what proof closes it; and where does the result return?
 
-AI sessions act without asking inside the castle: update maps, statuses, logs,
-phase progress, source registrations, and flag drift proactively. Approval is
-required only for: structural changes (new folders, renamed/deleted pages),
-opening a new phase, changes to OPERATIONS.md itself, and ANY file outside
-`CASTLE`. Report what changed at session close — always.
+CASTLE maintains maps, gates opportunities, sequences capability, records proof movement, and holds the integration pointers between realms. Domain wikis own research and learner truth; projects and business workspaces own execution; `NOW.md` is the current-action interface. CASTLE points to owner truth instead of copying it.
+
+Technology capability is organized around complete outcomes, not permanent tool sequences: understand the workflow, define requirements, design the people/process/data/technology stack, implement the smallest sound solution, secure and operate it, prove adoption and economic value, then harvest reusable learning or assets. Markets, offers, vendors, and tools remain replaceable.
+
+## Decision Standard
+
+Inherit the North Star priority hierarchy. For each material CASTLE decision, identify:
+
+- **Why now** — trigger, fixed commitment, value, and displacement.
+- **Owner** — the realm and human approval boundary.
+- **Next action** — one concrete transformation, sized to real capacity.
+- **Proof** — observable evidence that distinguishes done from generated.
+- **Return** — the owner file that receives the outcome.
+
+Use the seven-line trace only when an item is stuck, contested, handed off, or crossing system boundaries. Routine work does not need extra paperwork.
+
+## Chris-Owned Capacity
+
+Fixed deadlines, appointments, caregiving, and other real commitments constrain the field. Outside them, Chris chooses timing and work order.
+
+- Scope proposed work to the hours Chris declares available.
+- Preserve any minimum time Chris already protected; treat extra time as optional upside.
+- Calendar space and `FLOAT` labels are evidence, not authorization or guaranteed capacity.
+- Expose collisions, overload, and displacement once; recommend a path, then follow Chris's direction unless `AGENT.md` supplies a true hard stop.
+- Reduce scope before inventing pressure, ceremony, or another tracking layer.
+
+### Advisory High-Load Window — October 5 to November 11, 2026
+
+A strong school-protection window. When optional work threatens a fixed school
+commitment inside it, warn **once**: name the collision, explain the cost, and
+recommend the smallest safe scope. If Chris directs the work after that warning,
+proceed without repeated resistance — it is advisory, not refusal authority.
+
+CASTLE owns firing this, per `AGENT.md` Execution Discipline 7 (a dated trigger
+with no named evaluator does not exist). The monthly review checks whether the
+window is open or approaching; a user-invoked value session checks it when
+proposing optional work inside the window.
+
+## Operating Authority
+
+AI may perform routine CASTLE maintenance without a new approval when it reconciles verified owner truth:
+
+- update existing maps, statuses, proof links, indexes, and the local log;
+- refresh CASTLE-owned `NOW.md` when its live picture materially changes;
+- record an approved Return Packet result against the owning sequence or gate;
+- append required DAILY or handoff evidence;
+- correct ordinary drift without changing direction or structure.
+
+CASTLE MUST NOT rewrite the North Star, governance files, another realm's owner
+truth, any immutable `raw\`, or private material — silently or otherwise.
+
+Chris's explicit approval is required for governance changes, new phases or structural pages, strategy changes, calendar commitments, external messages or publication, money, credentials, private data, deletion/archive batches, and other consequential actions named in `AGENT.md`.
 
 ## Standing Rules
 
-1. **NORTH_STAR.md is the controlling document.** Castle pages reconcile to it,
-   never against it. Conflicts get flagged to Chris, not silently resolved.
-2. **No orphan skills.** Every skill page must name the phase it serves, the
-   service it unlocks, and the proof project that demonstrates it. New profit-skill
-   ideas pass through [[adding-a-profit-skill]] before getting a page.
-3. **Source tiers rule.** Tier 1–2 sources determine the roadmap. Tier 4 (Reddit,
-   YouTube opinion, hype) may only raise questions. Every source lands in
-   [[source-map]] with tier, claim supported, and role.
-4. **File safety per AGENT.md.** Never modify `raw/`. Never reorganize files
-   outside the castle without explicit approval. Archive, don't delete.
-5. **Depth before sprawl.** Do not open a new phase/skill/project page while an
-   existing one in the same area is a stub. Update `index.md` and `log.md` every
-   session that changes files.
-6. **High-load school window (Oct 5 – Nov 11, 2026): advisory protection.**
-   Warn once when optional CASTLE work threatens a fixed school commitment,
-   recommend the smallest safe scope, then follow Chris's direction.
-7. **Chris decides what's permanent.** The castle proposes; Chris approves
-   promotions to `.ROOT` and any structural change.
-8. **Calendar-encoded capacity.** Castle's schedulable pool = blocks labeled "CASTLE"
-   on the **North Star Calendar** (Google Calendar, separate from the primary account
-   calendar). Fill CASTLE blocks with whatever the active phase/project needs, no
-   separate improvised blocks. Confirmed capacity (rebuilt July 15, 2026 against the
-   Fall semester template and Chris's real Ben Care hours — Sun 7-10am/6-8pm, Mon-Fri
-   7-9am/5-8pm, Sat 7am-2pm): **~29h45m/week of CASTLE-tagged blocks, plus ~36h55m/week
-   of FLOAT** (FLOAT absorbs either project overflow or family tasks — not guaranteed
-   work time). CASTLE/FLOAT run Aug 24 through Dec 15, 2026 (semester bound); renew or
-   rebuild for Spring once that template exists. The July 7 baseline of ~24-26h
-   CASTLE / ~10h FLOAT is superseded — that figure predated the corrected Ben Care
-   schedule and undercounted real family-duty hours. Known open item: Mon-Fri Ben
-   Care hours overlap three class blocks (Tue/Thu ECON 8-8:55am; Mon/Wed CSE Lecture
-   tail 5-5:30pm; Tue CSE Lab 5:45-7:35pm) — unresolved pending Chris's childcare
-   conversation with Heather (~2 weeks out from July 15).
+1. **Evidence before commitment.** Ideas, signals, and attractive tools are not approved work. Gate them through the appropriate owner and smallest credible test.
+2. **Owner truth wins.** CASTLE stores sequence and proof status, not duplicate domain evidence, project plans, schedules, or strategy.
+3. **Roadmap evidence only.** Domain hubs own their sources. CASTLE registers only evidence that materially shapes a roadmap choice, strategy assumption, constraint, or gate.
+4. **No orphan capability.** An active capability names its owner, enabled outcome, next real rep, proof, and likely value path. Value may be academic, technical, operational, commercial, employability-related, or asset-producing; not every capability must monetize directly.
+5. **Depth before sprawl.** Search and improve the existing owner first. Create a page only for a distinct question, owner, retrieval need, or state that the existing artifact cannot represent clearly.
+6. **Validate before productizing.** Prove through real use before scaling, packaging, or treating a hypothesis as strategy truth.
+7. **Human-governed evolution.** CASTLE may propose and challenge. Chris approves promotions, structural change, and durable commitments.
+8. **File safety.** Follow `AGENT.md`; never modify `raw\`; archive instead of delete.
 
-## Wiki Sweep — Eight Hubs (added July 7, 2026 wiki unification; FORGE retired same day, replaced by SYSTEMS; Revenue Lab added July 14)
+## Reviews and Routing
 
-`03-WIKIS` holds eight hubs: SYSTEMS, PYTHON, EDUCATION, PHYSICS, BUSINESS,
-TECHNOLOGY, AI_AUTOMATION_SYSTEMS, REVENUE_LAB (added July 14, 2026). The castle's standing job
-on top of its roadmap role:
+Weekly CASTLE maintenance checks explicit `check_at` items, opportunity review
+dates, open risks, and one rotating staleness target. It does not reconstruct
+D2L, generate a course deadline list, or require a Sunday school plan. Monthly
+review performs the broader cross-system lint. Quarterly review runs the strategy
+Ratchet.
 
-- **Weekly sweep** (alongside the existing Watchtower sweep): read each wiki's
-  `log.md` and summarize what moved.
-- **check_at review** (added July 15, 2026): scan
-  `03-WIKIS\AI_AUTOMATION_SYSTEMS\wiki\proposals\` and `SYSTEM_LEARNINGS.md` for
-  entries whose `check_at` date has arrived; record the observed Outcome with an
-  evidence link and a keep/modify/revert Verdict in the entry itself. An applied
-  change with no recorded outcome is not yet proven.
-- **Ledger completeness** (added July 15, 2026): confirm every system-change
-  commit since the last sweep has its row in
-  `Session_Logs\System Update Log\SYSTEM_UPDATE_LOG_YYYY-MM.md`, and every
-  flag closed since the last sweep has its row in
-  `Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md`. For a newly completed
-  consequential multi-commit system program, also confirm its dated
-  `System Update Log\YYYY-MM-DD_TOPIC\SESSION_INDEX.md` packet exists and
-  names the final verdict, artifact inventory, accepted debt, and rechecks.
-- **Staleness spot-check:** rotate one active guide or dashboard; compare its
-  stated current state against the live source it names, and flag any mismatch.
-- Maintain `00-BRAIN\vault_map.md` and `.ROOT\.obsidian\graph.json`'s color groups
-  so the map stays an accurate, readable picture of the whole tree.
-- Flag drift into `SYSTEM_FLAGS.md`: a wiki's `index.md` going stale, a wiki
-  growing without matching log activity, orphan pages.
-- **Monthly lint** (`AGENT.md § Wiki Shared Layer` rule 8, added July 9, 2026):
-  the sweep's deeper tier — dead wikilinks, contradictions between pages, stale
-  claims, index-vs-live-tree mismatch — runs at the monthly review or on Chris's
-  call. Weekly sweep = light check; lint = deep check; both land findings in
-  `SYSTEM_FLAGS.md`.
+### User-invoked school review
 
-**Division of labor:** `AI_AUTOMATION_SYSTEMS` researches AI tooling, agent
-patterns, and proposes `.ROOT` self-improvements; the castle reviews,
-maintains, and keeps things legible. The castle does not do that wiki's
-primary research — same eyes-not-hands split already used for the Watchtower.
-AI-initiated proposals from that wiki pass through the evidence and review
-cadence in `AGENT.md`. A Chris-directed change may proceed after impact review
-and approval without waiting for repeated-friction evidence.
+Run this only when Chris asks for school planning, supplies a returned grade, or
+opens `TUTOR.md` without a named entry point:
 
-The same boundary applies to `...projectSuccess`: contributing wikis preserve the
-source and analysis; the radar holds only a material signal. A hot row must name its
-evidence home, affected strategy assumption or system choice, consequence/test, and
-review trigger before CASTLE gates it.
+1. Treat live D2L and the exact-section instructor as deadline authority. Chris
+   owns whether every assignment was captured and submitted; local schedule files
+   are incomplete reference material.
+2. Read the requested course's owner and `04-SCHOOL\miss-log.md`. Use the first
+   unrun rep only as a fallback when Chris did not name the work.
+3. Record a returned score or genuine cold miss when supplied. Check the aid
+   before classifying a repeated miss as Chris's capability gap.
+4. Keep the response inside the task Chris requested. Do not turn tutoring into
+   a weekly replanning session.
 
-## Weekly Inbox Routing Checklist
+### System cadence
 
-Run this alongside the weekly CASTLE sweep for manual intake in `.ROOT\77-INBOX`
-and automatic Obsidian intake in `.ROOT\Clippings`.
+1. Every due `check_at` item names its owner and disposition.
+2. Learner-hub alignment and instruction-protocol confirmation run after a
+   relevant instruction or owner change, not as standing weekly approval gates.
+3. **DAILY rotation:** once
+   this week's WEEKLY report is filed, `git mv` that week's `DAILY_YYYY-MM-DD.md`
+   files into `Session_Logs\Report Archive\` as `ARCHIVED_YYYY-MM-DD_DAILY_YYYY-MM-DD.md`,
+   fix any wikilinks that pointed at the old path, and confirm no day is left
+   uncovered by a filed WEEKLY report. A day with real post-archive work keeps
+   a short live continuation file rather than being reopened (see
+   `DAILY_2026-07-16.md`'s pattern). Skip a week only by naming the gap in the
+   plan, not by silence.
 
-1. Scan both intake paths. Nothing lives permanently in either one.
-2. Capture filter: keep only what is useful, surprising, or tied to an open question — otherwise let it pass. Anti-hoarding heuristic for personal clippings only; consequential/technical/legal/audit sources still get full-source capture in wiki `raw/` regardless of this filter.
-3. Route only files with clear homes under `WHERE_IT_GOES.md`.
-4. Leave ambiguous files in place and add a `SYSTEM_FLAGS.md` entry instead of guessing.
-5. Confirm raw school material stays in the school/course system and is not converted into a business asset unless Chris explicitly asks for the conversion.
-6. Confirm reusable client-facing assets include APQC process, asset type, business use case, technical tags, maturity, source/context, and next action.
-7. Confirm `05-BUSINESS\06-Capability Library` holds only reusable client-facing assets, not wiki notes or general reference.
-8. Confirm no fake client-retainer folders were created before a real client, named prospect, or approved sandbox exercise.
+School data enters this cadence only when Chris supplies it or explicitly requests
+the review. Silence is unknown, not evidence that an assignment is complete or
+missing.
 
-## Opportunity Routing
+`77-INBOX` is the single universal intake door, including Obsidian web clips.
+Route clear items through `WHERE_IT_GOES.md`; leave ambiguous items in place
+and flag them. CASTLE's `raw\` remains a separate triage-only staging point,
+not a competing universal door. Internal system friction belongs in
+`SYSTEM_FLAGS.md`. Only evidence-backed commercial or learning-to-application
+signals enter `wiki\opportunity-queue.md`.
 
-After evidence reaches its permanent home, add only actionable commercial or
-learning-to-application signals to `wiki/opportunity-queue.md`. General signals
-enter as `captured`; named client leads enter as urgent `triaged` items. Every
-row needs an evidence link, owner realm, and next test/action before work begins.
-Internal system friction stays in `SYSTEM_FLAGS.md` unless it independently
-earns a commercial opportunity entry.
+The Watchtower senses; it does not act. CASTLE is the receiving side of that
+handoff and accepts a signal only when it names its **evidence home**, the
+**affected assumption or choice**, the **consequence or bounded test**, and the
+**review trigger**. A signal missing any of the four is returned, not gated.
+CASTLE applies the consequence and approval gate; the owning wiki keeps the
+evidence; Chris owns the decision.
 
-For a Watchtower promotion, return a proof packet after the bounded test — an
-instance of the uniform Return Packet in
-`01-NORTH_STAR\System Contracts\ROOT_CAPABILITY_CONTRACT.md § Return Packet` — with:
-radar row, CASTLE verdict, test performed, measured outcome, affected
-`CURRENT_STRATEGY` assumption/milestone, and next review. Only the outcome—not the
-signal itself—may justify a strategy or quarterly Ratchet change.
+Every applied system change must retain its approval, validation, `check_at`, and observed keep/modify/revert outcome. Required system-update and closed-flag ledgers must match the live evidence.
 
 ## Session Close
 
-Before ending any session that changed files:
-- **Refresh `.ROOT\NOW.md`** — date, starting action, fixed school item,
-  technology rep, business/system item, soft time boundary, project status,
-  and countdowns.
-  NOW.md sits at the .ROOT root so it's the first thing Chris sees; the castle
-  owns and maintains it. A stale NOW.md is a broken castle.
-- **Append task blocks to today's `00-BRAIN\Session_Logs\DAILY_YYYY-MM-DD.md`**
-  (per AGENT.md report-as-you-go, added July 9, 2026). When the castle
-  refreshes NOW.md in the morning, it also writes the **previous day's Day
-  Summary** if the last session missed it — the castle backstops the daily
-  consolidation the same way it backstops NOW.md.
-- Update `wiki/index.md` if pages were added/renamed
-- Append to `wiki/log.md`: date, what changed, next action
-- State the single next action for the following session
-- For project or meaningful learning sessions, use the full handoff (`AGENT.md § Report Chain and Handoff Ritual`) instead of just the next action — DAILY blocks stay concise regardless.
+When meaningful work ends:
+
+1. Append the concise DAILY record required by `AGENT.md`.
+2. Update `wiki\index.md` and append `wiki\log.md` when CASTLE state changed.
+3. Refresh `NOW.md` only when its date, start action, fixed constraint, approval gate, or active status materially changed.
+4. **Frontier propagation is a mandatory acceptance check, not a judgment call
+   (added 2026-08-02, closes flag #91).** If any hub's active stage or gate
+   closed this session, the close is incomplete until: the owner
+   `current-position.md` states the new frontier; `NOW.md`'s Frontier Changes
+   line exposes it; and the prior next action is no longer presented as live
+   anywhere Chris would read it. This applies whether or not that hub was
+   today's active lane — rule 3's judgment-based refresh trigger does not
+   override this one specific case.
+5. Record the next exact action.
+6. Write a full handoff only when another session genuinely needs continuity.
+7. **Return-to-cockpit gate (added 2026-08-19, flag #103 — Chris-approved).** A
+   session or multi-day sequence whose primary work was a system review, update,
+   or architecture pass is not closed until: `NOW.md`'s Active Lane is re-verified
+   against CASTLE owner truth, and one line in `wiki\log.md` records that the
+   review ended and control returned to the cockpit. A multi-day update names this
+   gate in its `SESSION_INDEX.md` as an explicit final step. **Why:** the Aug 7–17
+   review sequence displaced CASTLE without anything retiring or rejecting it —
+   nothing said "the review is finished; reload CASTLE." The cockpit log went
+   silent the day the first review opened. `castle_freshness.py` detects the
+   symptom (log silence against CASTLE-touching commits); this gate closes the
+   cause.
+
+**Log discipline (ruled by Chris 2026-08-19):** `wiki\log.md` records *decisions* —
+gates run, plans converted or re-anchored, protocol changes, opportunity movements,
+phase transitions — not session narration. Routine maintenance stays in the DAILY.
+
+**Semester maintenance budget (revised 2026-09-05):** scheduled CASTLE work is one
+monthly reconciliation. School reviews and tutoring are user-invoked. Per
+[[phase-map]]'s guardrail, if maintenance displaces learning or evidence-producing
+value work, maintenance scope shrinks.
+
+Generated plans and polished artifacts are not proof. Close on verified movement, an explicit decision, or an honestly stated blocker.

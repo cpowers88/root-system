@@ -3,7 +3,8 @@ domain: technology
 type: reference
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, subject/instrumentation, subject/standards, subject/interoperability]
+tags: [subject/instrumentation, subject/standards, subject/interoperability]
+source_role: primary
 ---
 
 # Intelligent Sensor Standards and Network Boundaries

@@ -1,0 +1,393 @@
+---
+type: reference
+timeline: reference
+status: active
+register: human-context
+tags: [machine, laptop, school, fall-2026, setup]
+created: 2026-08-13
+---
+
+# CAMPUS_LAPTOP_BUILD.md — HP Victus build specification
+
+### Companion to `LOCAL_MACHINE_MAP.md`, which inventories the desktop and does not currently mention this machine at all. Written 2026-08-13 at Chris's request, after a Windows wipe was already performed and ad-hoc installs begun.
+
+---
+
+## 1. What this machine is for — and what it is not
+
+The calendar answers this precisely. From Aug 24 the laptop carries roughly **20 hours a week
+of on-campus working time**: Mon 10:15–12:30, Wed 10:15–12:15, Tue midday, Thu 12:00–14:00 and
+15:00–17:00, Fri 15:00–17:00. Its job is those blocks.
+
+| It **is** | It is **not** |
+|---|---|
+| The coursework machine — Python, writing, reading, D2L | A second full `.ROOT` development environment |
+| The **exam machine** (§2 — this is non-negotiable) | A games machine, whatever HP shipped it as |
+| A read-mostly `.ROOT` client | The canonical vault. `C:\Users\chris\.ROOT` on the desktop stays canonical |
+| Portable, battery-first | A place where irreplaceable data lives only |
+
+**Design rule:** the desktop is where the system gets built; the laptop is where the semester
+gets done. Everything below follows from that split.
+
+---
+
+## 2. Hard requirements from the syllabi — the part that was never written down
+
+These come from the exact-section syllabi already on disk, not from assumption. **Both were
+absent from every `.ROOT` file before today.**
+
+### 2.1 CSE 1321 exams require Respondus LockDown Browser
+
+> *"Exams will require the use of the Respondus LockDown Browser, which will require a webcam,
+> a microphone, and reliable internet access."*
+> — `CSE 1321 BF (81262) Fall 2026 Syllabus.md:84`
+
+10 quizzes and 3 exams (Test 1, Test 2, Final) are delivered **online through D2L**, and the
+syllabus states he does **not** attend class on exam dates. That means the exam happens
+wherever he is — and this machine has to be able to run it.
+
+**Consequences for the build, all of them real:**
+
+- **Webcam and microphone must work.** Many Victus models ship with a BIOS-level camera toggle
+  and a physical shutter. Verify both, in Windows Camera, before Aug 24.
+- **Install LockDown Browser from the D2L course link only.** It is an institution-specific
+  build; a generic download from the vendor will not authenticate against KSU's D2L.
+- **It will not run reliably inside a VM**, and it blocks screen capture, remote-access tools,
+  and most background applications. This constrains §4's install list.
+- **Run one practice quiz with it well before Test 1.** A LockDown failure discovered at exam
+  time is a zero, not an inconvenience. This is the single highest-consequence untested item on
+  the machine.
+
+### 2.2 ENGR 1000 BWD has no published meeting format
+
+No meeting time on the registrar record and none on the calendar, for a 1-credit course whose
+AI policy is known-prohibited. Chris's read is that it is likely online — roughly twelve
+~40-minute sessions, or one longer block. **Until the BWD syllabus lands, assume it is online
+and that this laptop may need to join live sessions** — which reinforces the webcam/mic
+requirement above. This is the second half of flag #57.
+
+---
+
+## 3. The wipe — what "best" actually means, and how to tell what you got
+
+A Windows wipe was already done. **Which kind matters**, because two of the three leave HP's
+factory image intact.
+
+| Method | Result |
+|---|---|
+| Settings → Reset this PC → Remove everything → **Local reinstall** | Restores the **HP factory image**. All OEM bloatware returns |
+| Same, but **Cloud download** | Fresh Microsoft build, but the OEM recovery partition and some HP packages typically survive |
+| **Clean install from a Microsoft ISO** (Media Creation Tool → USB) | Genuinely clean. Requires installing chipset/GPU/hotkey drivers manually from HP's support page afterward. **This is "best"** |
+
+### Check which one you have — run this on the laptop
+
+```powershell
+Get-AppxPackage | Where-Object { $_.Name -match 'HP|myHP|Poly|WildTangent|Booking|ExpressVPN' } |
+  Select-Object Name, PackageFullName
+Get-CimInstance Win32_Product | Where-Object { $_.Name -match 'McAfee|HP |Norton|WildTangent' } |
+  Select-Object Name
+Get-ComputerInfo | Select-Object WindowsProductName, WindowsEditionId, OsHardwareAbstractionLayer
+```
+
+**If HP/McAfee/WildTangent packages appear, it was a factory reset, not a clean install.**
+
+**Recommendation:** if the machine is not yet holding anything that would be painful to lose,
+redo it once as a clean ISO install. It costs about 90 minutes and it is the only version that
+does not leave you managing HP's software for four months. If reinstalling is not appealing,
+uninstalling the OEM packages found above gets ~85% of the benefit for 15 minutes of work.
+
+### Edition — check before you decide anything else
+
+Victus laptops usually ship **Windows 11 Home**, which has no BitLocker (only Device
+Encryption, and only if the hardware qualifies), no Group Policy, and no Hyper-V. For a machine
+carried to and from campus daily with coursework on it, **encryption is the thing worth
+caring about.** Check `WindowsEditionId` above, and check whether KSU's OnTheHub store offers a
+free Windows Education upgrade — the same store where JMP was claimed
+(`04-SCHOOL\KSU Academic Software Offers 2026.md`). Education edition includes BitLocker.
+
+---
+
+## 4. What to install — three tiers
+
+### Tier 1 — required, install before Aug 24
+
+| Item | Note |
+|---|---|
+| **Windows updates to current**, then drivers from **HP's support page** | Chipset, GPU, hotkeys. Do not rely on Windows Update alone for the dGPU |
+| **Respondus LockDown Browser** | **From the D2L course link only.** §2.1 |
+| **Python 3.12+ from python.org** | Not the Microsoft Store build — cleaner `PATH`, fewer surprises in a first programming course. Tick *"Add python.exe to PATH"* |
+| **A plain editor for CSE work** | See §5 — this choice is an integrity decision, not a preference |
+| **Microsoft 365** (KSU account) | Word is the practical requirement for TCOM 2010's deliverables |
+| **A PDF reader** | Offline reading copies: `thinkpython.pdf`, `physic(full_book).pdf`, and TCOM `Textbook Doc Files\Open-TC-PDF.pdf`. Git excludes PDFs, so verify these on the laptop directly |
+| **Browser + KSU sign-in**, D2L, Owl Express, WebAssign (PHYS) | Verify each actually loads and authenticates |
+| **Obsidian** | Points at the `.ROOT` clone from §6 |
+| **Git** | The sync mechanism, §6 |
+
+### Tier 2 — install when a real need appears
+
+7-Zip · JMP (already licensed, ISYE statistics) · Zoom or Teams if ENGR 1000 turns out to be
+synchronous.
+
+### Tier 3 — do not install on this machine
+
+Games and the HP gaming stack · McAfee/Norton trials (Defender is sufficient and does not nag
+during an exam) · overlapping statistics platforms — `KSU Academic Software Offers 2026.md`
+already ruled this: *"Do not install overlapping statistical or qualitative platforms merely
+because they are free"* · anything that runs a background overlay, because **LockDown Browser
+will object to it during an exam.**
+
+---
+
+## 5. The integrity boundary — the one decision that actually matters
+
+**CSE 1321 and ENGR 1000 prohibit generative AI on submitted work. PHYS 2211's exact §54
+syllabus permits AI as a tutoring resource but prohibits AI-generated submitted work and
+answers to graded WebAssign problems.** The laptop remains the clean coursework surface.
+
+The desktop has Claude Code, Codex, and a full AI toolchain. **Do not reproduce that on the
+laptop.** Not because Chris would cheat — because the boundary should be **structural rather
+than a decision he has to re-make every time he opens an editor while tired at 16:00 on a
+Tuesday.** `AGENT.md` makes this same move repeatedly: File Safety 12 became a `PreToolUse`
+gate precisely because prose asking an agent to remember is not a control.
+
+**Recommended shape:**
+
+| Surface | Machine | Why |
+|---|---|---|
+| CSE assignments, quizzes, exams | **Laptop, no AI assistant installed** | The prohibition becomes a property of the machine |
+| PHYS problem sets | Laptop | Chris solves graded work independently; AI tutoring stays separate and never supplies a WebAssign answer |
+| TCOM / ECON course-permitted work | Either | Verify per assignment |
+| `.ROOT` system work, AI-assisted building, the data/ML reps | **Desktop** | Where the toolchain lives |
+
+**Concretely: install a plain editor on the laptop — VS Code with no Copilot, or Thonny, which
+is the conventional first-course Python editor and has a visible variable-state debugger that
+suits how Chris learns.** If VS Code is chosen, do not sign into Copilot on this machine at all.
+An editor that cannot autocomplete his homework is a feature here.
+
+**This also solves a technical problem:** LockDown Browser blocks background applications, so a
+machine without an AI assistant running is a machine that does not fail an exam for a reason
+that has nothing to do with cheating.
+
+---
+
+## 6. The `.ROOT` link — laptop working copy and Drive boundary
+
+**Current ruling (Chris, 2026-08-21): Google Drive is the live off-machine backup; do not
+delete it, and never work in its `.ROOT` mirror.** The desktop tree at
+`C:\Users\chris\.ROOT` is canonical. The laptop uses its scoped Git clone; Drive and the
+laptop clone serve different jobs and neither replaces the other.
+
+**The scoped laptop link is `git clone` from GitHub.**
+
+`.gitignore` excludes exactly what should never leave the desktop — `88-JOURNAL`, every `raw\`,
+`77-INBOX`, `99-ARCHIVE`, PDFs, and `MCP_Bootcamp`'s vendored environment. What remains tracked
+is precisely the campus working set: `NOW.md`, `00-BRAIN`, `04-SCHOOL`, `01-NORTH_STAR`, and the
+wiki prose. **The exclusion list that was written for backup safety is already the correct
+scoping rule for a portable machine.** Nothing new needs building.
+
+```powershell
+# on the laptop
+git clone https://github.com/<user>/root-system.git C:\Users\<user>\.ROOT
+```
+
+**Rules for the clone, so it does not become the fourth unowned copy** — `D:\ARCHIVE\.ROOT` is
+the cautionary example already in `LOCAL_MACHINE_MAP.md`:
+
+1. **The desktop stays canonical.** The laptop clone is a working copy, never the source of truth.
+2. **Pull at the start of every campus session; commit and push at the end.** This is the
+   `EVENING_READING.md` / session-close rhythm, applied to a second machine.
+3. **`88-JOURNAL` never reaches this machine.** Git already guarantees it — do not defeat it by
+   copying folders across manually.
+4. **Coursework in progress is the one thing that lives here first.** Push it the same day, or
+   it exists on a laptop that gets carried around a campus.
+
+**Do not use, repair, or delete a Drive `.ROOT` path from the laptop.** Any retirement of an
+older copy requires Chris to identify the exact target first; the live Drive mirror remains
+the backup owner for files GitHub excludes.
+
+---
+
+## 7. Verification checklist — everything gets tested, nothing gets assumed
+
+`LOCAL_MACHINE_MAP.md` already records why: a backup was documented as live for 26 days without
+ever running. **Presence is not function. Verify by running.**
+
+| # | Check | Pass condition |
+|---|---|---|
+| 1 | Windows edition and encryption | Recorded; encryption on, or a decision made not to |
+| 2 | OEM bloatware | The §3 query returns nothing meaningful |
+| 3 | Webcam **and** microphone | Both produce output in Windows Camera and Sound settings |
+| 4 | **LockDown Browser on a real D2L practice quiz** | Launches, authenticates, completes. **Do this first — it has the longest failure tail** |
+| 5 | `python --version` in a new terminal | Returns 3.12+ without a full path |
+| 6 | Editor runs a script and hits a breakpoint | Works, with **no AI assistant signed in** |
+| 7 | D2L, Owl Express, WebAssign, KSU email | All authenticate |
+| 8 | `git clone` + `git pull` | Vault present; `88-JOURNAL` **absent** — confirm by looking |
+| 9 | Obsidian opens the clone | Graph and links resolve |
+| 10 | **Battery under real load** | ⚠️ **Corrected 2026-08-18 — this pass condition was wrong.** It read *"survives a 2h15 Monday block at 09:10–12:30."* The registrar record (`04-SCHOOL\fall_KSU_schedule.md`) shows PHYS ends **10:05** and CSE begins **16:10**, so the real Monday gap is **~6 hours**, and Tuesday's (TCOM ends 10:55, lab begins 17:45) is **~6.8 hours**. **New pass condition: survives a 6-hour gap, or outlet access is confirmed at the actual study location.** The earlier test passed against a target a third of the real need |
+| 11 | Campus Wi-Fi (`KSU Wireless`/eduroam) | Connects on campus, not just at home |
+| 12 | Printing, if TCOM needs hard copy | Deferred until a syllabus requires it |
+
+**Check 10 is the one people skip.** A gaming laptop with a discrete GPU can run 90 minutes on
+battery. Set the Windows power mode to *Best power efficiency* on battery and confirm the dGPU
+is not driving the internal display when it does not need to.
+
+---
+
+## 8. Sequence for this afternoon
+
+Chris has the laptop beside him and the calendar block runs **12:15–17:00**.
+
+1. Run the §3 queries. Decide clean-install vs. cull — **10 minutes, and it gates everything else.**
+2. Uninstall Tier 3. Windows Update + HP drivers.
+3. **LockDown Browser and a practice quiz** (check 4) — longest failure tail, do it early.
+4. Python + editor, no AI assistant (§5).
+5. `git clone` (§6), Obsidian onto it.
+6. Walk the §7 table. Record results.
+7. Add the machine to `LOCAL_MACHINE_MAP.md` — it is not in the inventory today.
+
+---
+
+## 9. For Codex review
+
+Four points where an independent look is worth having, phrased as questions rather than tasks:
+
+1. **§6 — is `git clone` genuinely the right scoped link**, or does a campus session need
+   something in the untracked set (a `raw\` source, a PDF textbook) often enough that
+   git-only becomes friction? `thinkpython.pdf` and `physic(full_book).pdf` are both untracked, and both
+   are course textbooks. *This is the weakest joint in the spec.*
+2. **§5 — is a hard AI/no-AI split by machine correct**, or does it push Chris toward working
+   on the wrong machine and defeating the split by convenience?
+3. **§3 — is a clean ISO reinstall worth 90 minutes** eleven days out, given `OK TO START`
+   lands Sunday Aug 16 and the rehearsal week starts Aug 17?
+4. **§2.1 — is anything else in the five syllabi a machine requirement** that neither Claude
+   nor Chris has extracted? LockDown Browser was found only by grepping the raw syllabi. *One
+   grep found one requirement; assume it did not find all of them.*
+
+---
+
+## 10. Measured build result — August 18, 2026
+
+The laptop was configured and checked in place. A second Windows wipe is not warranted. Items
+described below as Chris-confirmed were reported complete after walking the checklist; the
+hardware and development-environment measurements were observed directly during setup.
+
+### Recorded machine state
+
+| Component | Result |
+|---|---|
+| Model / SKU | Victus by HP Gaming Laptop 15-fa1xxx · `A05XKUA#ABA` |
+| Windows | Windows 11 Home 25H2 |
+| BIOS | F.20 dated 2025-04-17, updated from F.18 |
+| Integrated GPU | Intel UHD Graphics · device status `OK` |
+| Discrete GPU | NVIDIA GeForce RTX 2050, 4 GB · device status `OK` |
+| NVIDIA driver | 610.47, verified with `nvidia-smi` |
+| Battery | 48,948 mWh full-charge vs. 52,552 mWh design capacity — approximately 93%; 64 cycles when measured |
+| Memory | One 8 GB Samsung DDR4-3200 SO-DIMM, `M471A1K43EB1-CWE`, in Bottom — Slot 2 |
+
+The internal display remains on Intel integrated graphics. The RTX 2050 is available but is
+not driving the display, which is the intended battery-first hybrid arrangement. NVIDIA
+FrameView was removed; no application was consuming NVIDIA memory during verification.
+
+### Completed
+
+- Windows and HP package review found no McAfee, Norton, WildTangent, ExpressVPN, or comparable
+  trial software. The installation is clean enough to retain.
+- HP firmware and drivers were updated through the supported path. Both display adapters report
+  `OK` after restart.
+- Battery-first power and graphics settings, Device Encryption decision, and a real battery test
+  were reported complete by Chris.
+- VS Code 1.132 is installed. Anthropic Claude Code, OpenAI ChatGPT/Codex, and Microsoft's
+  chat-customization/evaluation extension were removed, including duplicate residual folders.
+  No GitHub Copilot extension was detected. Settings Sync was reported disabled on this laptop.
+- Python 3.12.10, `pip`, user `PATH`, VS Code interpreter selection, test-script execution, and
+  disposable virtual-environment creation were verified.
+- Git 2.55.0 is installed with identity `theinternet` / `44590996+cpowers88@users.noreply.github.com`.
+- The scoped clone is at `C:\Users\thein\Documents\root-system`. Pull/push, the absence of
+  `88-JOURNAL`, and Obsidian opening the clone were reported verified.
+- Microsoft 365, Word save/PDF export, and the institution-specific KSU Respondus LockDown
+  Browser installation were reported complete.
+
+### The machine is now load-bearing — recorded 2026-08-18
+
+Chris confirmed he works the mid-day gaps on campus, which is why this laptop was prepared.
+`04-SCHOOL\semester-workload-plan.md` measures the raw gaps at 21.75 hours a week; Chris's own
+realistic estimate — 2 hours less on Monday and Wednesday, Friday's short gap given to the
+campus gym — brings that to **16.33 hours a week**, against a ~28 h/week outside-class
+requirement for all-A grades.
+
+**This laptop therefore carries roughly 58% of all outside-class study time for the semester.**
+§1 of this document called it "the coursework machine" and "not a second full `.ROOT`
+development environment," and both remain true — but the *criticality* was understated. It is
+not a convenience machine. **If it is unavailable during a campus block, that block is lost**,
+and the plan has no slack built in for repeated losses.
+
+Two consequences worth acting on rather than noting:
+
+1. **Battery endurance is now the top open hardware item** — see §7 check 10, whose pass
+   condition was corrected the same day from 2h15 to ~6 hours.
+2. **Chris's own assessment is that the hardware is sufficient** — less powerful than the
+   desktop, but adequate for reading, writing, Python coursework, and D2L. That is the right
+   read, and it confirms the deferred second memory module below is a genuine optional, not a
+   quiet blocker. 8 GB single-channel handles this workload.
+
+### Deferred — second memory module
+
+The §7 checklist did **not** include a RAM requirement, but the inspection found the clearest
+optional performance improvement: the laptop remains at 8 GB in single-channel mode with its
+second SO-DIMM slot empty. This is not a first-day blocker.
+
+Future upgrade: add one 8 GB DDR4-3200, 260-pin SO-DIMM, 1.2 V, non-ECC, unbuffered module.
+Exact-match preference is Samsung `M471A1K43EB1-CWE`; a compatible Samsung, Crucial, or Kingston
+DDR4-3200 CL22 module is acceptable. Target configuration is 16 GB total as 2 × 8 GB in dual
+channel mode.
+
+### Remaining acceptance gate — not a school-start blocker
+
+**Complete a real D2L Respondus LockDown Browser practice quiz.** A successful authenticated
+launch and submission is the exam-readiness proof.
+
+**This could not have been done before Aug 24 and is not evidence against the build.** D2L does
+not open until the first day of classes — verified 2026-08-13 against KSU documentation,
+`SEMESTER_MAP.md` §*What must come from D2L*, which already ruled the practice run happens in
+week 1 rather than before it. An empty D2L before Aug 24 is normal, not an account problem.
+
+**The real deadline is Test 1, Monday Oct 5** — six weeks after D2L opens
+(`CSE 1321 BF (81262) Fall 2026 Syllabus.md:227`). Run the practice quiz well before it, not on
+the day.
+
+**Scope correction to §2.1 above.** That section reads the LockDown requirement as covering all
+10 quizzes and 3 exams. The syllabus is narrower: line 84 says "**Exams** will require the use
+of the Respondus LockDown Browser," while line 82 says only that quizzes and exams are
+*delivered online through D2L*. Those are different claims. Treat LockDown as exam-scoped —
+Test 1 (Oct 5), Test 2 (Nov 9), Final — and **confirm against the live D2L quiz settings in
+week 1**, because the syllabus is demonstrably carrying stale text (§below).
+
+**Do first, because none of it depends on D2L:** webcam and microphone in Windows Camera — the
+hardware half of the LockDown requirement, and the place a BIOS camera toggle or physical
+shutter would surface. Then campus Wi-Fi (`KSU Wireless`/eduroam) on campus, charger endurance,
+and KSU service logins. Offline textbooks and any required printing remain checklist items
+until individually confirmed; Teams, Zoom, JMP, and printing stay need-triggered rather than
+preinstalled by default.
+
+### Syllabus date errors found 2026-08-18 — verify these in week 1
+
+The CSE 1321 calendar runs Monday–Sunday with quizzes due Sunday 11:59 PM and tests Monday
+(MWF/MW) or Tuesday (TR). Week 1 = **Aug 24**, correct as printed. Measured against that
+pattern:
+
+| Syllabus line | Problem | Status |
+|---|---|---|
+| 236 | Week 15 topic reads "*May 4th, 2026, Last Day of Classes*" in a Fall syllabus | **Confirmed error** — Spring 2026 template carryover. Both May 4 and Dec 7 are Mondays; the date column was updated and the parenthetical was not |
+| 221 | Week 1 "Syllabus & Policy Quizzes" due **Dec. 07** | **Ambiguous.** Breaks the Sunday-due pattern (week 1's Sunday is Aug 30), but Dec 7 is the last day of classes — where an open-all-semester policy quiz would legitimately sit. Do not assume a typo |
+| 237 | Final Exams Week "Dec 8 – 24" | Questionable — 17 days, ending Dec 24. Verify against the KSU academic calendar |
+| 235–236 | **Module 7 never appears** in the calendar (0, 1, 2, 3, 4, 5.1, 5.2, 6, TBD, 8) | Week 14's "TBD" is probably Module 7 |
+
+**Why this matters beyond the dates.** One confirmed carryover means the document cannot be
+trusted as a source of exact dates without a second check. Chris's own calendar and the live
+D2L course are the authorities from Aug 24; this file's dates are a draft until then.
+
+---
+
+*Companion: `LOCAL_MACHINE_MAP.md` (desktop inventory, backup posture). Course sources:
+`04-SCHOOL\SYLLABUS_STATUS.md`. Time shape:
+`Session_Logs\System Update Log\2026-08-12_ROOT_UPDATE\COUNCIL_SEMESTER_READINESS_2026-08-13.md` §Seat 3.*

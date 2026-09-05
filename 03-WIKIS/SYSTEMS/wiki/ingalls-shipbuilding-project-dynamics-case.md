@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: case-study
-tags: [priority/now, status/wiki-only, domain/systems, source-role/example, use-case/systems-analysis, use-case/process-design, use-case/client-interview, subject/system-dynamics, subject/project-management, subject/rework-cycle]
+tags: [subject/system-dynamics, subject/project-management, subject/rework-cycle]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [systems-analysis, process-design, client-interview]
 ---
 
 # Ingalls Shipbuilding: Quantifying Project "Ripple Effects" with the Rework Cycle

@@ -1,7 +1,11 @@
 ---
 domain: technology
 type: case-study
-tags: [priority/now, status/wiki-only, domain/technology, source-role/example, use-case/data-workflow, use-case/business-model, use-case/audit, subject/data-science, subject/data-as-asset, subject/credit-scoring]
+tags: [subject/data-science, subject/data-as-asset, subject/credit-scoring]
+timeline: now
+status: wiki-only
+source_role: example
+use_cases: [data-workflow, business-model, audit]
 ---
 
 # Data as a Strategic Asset: How Signet Bank Bought the Data It Needed to Become Capital One

@@ -1,7 +1,12 @@
 ---
 domain: technology
 type: reference
-tags: [priority/next, status/wiki-only, domain/technology, source-role/reference, use-case/tech-stack, use-case/audit, subject/api-security, subject/web-security, stack/flask]
+tags: [subject/api-security, subject/web-security]
+timeline: next
+status: wiki-only
+source_role: reference
+use_cases: [tech-stack, audit]
+stack: [flask]
 ---
 
 # Hacking APIs — Source Summary and Navigation Hub
@@ -101,7 +106,7 @@ pages linked in the Page Map above.
 - How this applies to the audit business: turns "we checked API security"
   into a specific, citable, checklist-backed claim — the same audit-lever
   logic already established for the Category 10 agent-vetting screen
-  ([[../../AI_AUTOMATION_SYSTEMS/wiki/agent-vetting-worked-examples]]),
+  ([[03-WIKIS/AI_AUTOMATION_SYSTEMS/wiki/agents/agent-vetting-worked-examples]]),
   applied to API delivery instead of AI-tool vetting.
 - Track relevance: Tech — security hygiene gate for any client-facing API
   work, paired with the existing Flask REST API toolkit.

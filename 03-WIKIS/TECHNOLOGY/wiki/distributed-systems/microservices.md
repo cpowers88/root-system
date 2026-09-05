@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/microservices]
+tags: [subject/microservices]
+timeline: later
+status: wiki-only
 ---
 
 # Microservices

@@ -1,6 +1,7 @@
 ---
 type: common-errors
-tags: [next, physics]
+tags: [physics]
+timeline: next
 ---
 
 # Common Errors — Stage 4: Motion in Two Dimensions

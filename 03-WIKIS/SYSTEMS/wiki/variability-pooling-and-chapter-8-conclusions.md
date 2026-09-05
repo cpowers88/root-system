@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/queuing-theory, use-case/audit, use-case/supply-chain, subject/factory-physics, subject/variability-pooling, subject/inventory, subject/queuing-theory]
+tags: [subject/factory-physics, subject/variability-pooling, subject/inventory, subject/queuing-theory]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, queuing-theory, audit, supply-chain]
 ---
 
 # Variability Pooling and Chapter 8's Conclusions

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/business-model, use-case/audit, subject/system-dynamics, subject/causal-loop-diagrams, subject/market-dynamics, subject/adverse-selection]
+tags: [subject/system-dynamics, subject/causal-loop-diagrams, subject/market-dynamics, subject/adverse-selection]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, business-model, audit]
 ---
 
 # The Invisible Hand as Feedback Structure, Speculative Bubbles, and the Medigap Death Spiral

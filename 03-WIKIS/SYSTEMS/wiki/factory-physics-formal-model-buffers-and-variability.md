@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/process-design, use-case/ksu-support, subject/factory-physics, subject/systems-thinking, subject/variability]
+tags: [subject/factory-physics, subject/systems-thinking, subject/variability]
+timeline: now
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, process-design, ksu-support]
 ---
 
 # The Factory Physics Formal Model: Demand, Transformation, Stocks/Flows, and the Three Buffers

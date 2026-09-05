@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/now, status/wiki-only, subject/ai]
+tags: [subject/ai]
+timeline: now
+status: wiki-only
 ---
 
 # LLM Fundamentals: Pretraining, Fine-Tuning, and Emergence

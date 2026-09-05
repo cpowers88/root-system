@@ -4,7 +4,8 @@ stage: 10
 status: draft
 source_refs: ["Automate the Boring Stuff Ch.12 (Designing and Deploying Command Line Programs)", "raw/docs/howto/argparse.txt"]
 prerequisites: ["modules-and-packages", "defining-and-calling-functions"]
-tags: [stage-10, cli, argparse]
+tags: [cli, argparse]
+timeline: reference
 ---
 
 # Concept: Command-Line Programs and `argparse`

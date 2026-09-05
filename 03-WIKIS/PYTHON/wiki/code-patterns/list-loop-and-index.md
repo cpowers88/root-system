@@ -3,7 +3,8 @@ type: code-pattern
 stage: 05
 status: draft
 concepts: ["list", "index", "for-loop"]
-tags: [stage-05, lists, loops]
+tags: [lists, loops]
+timeline: reference
 ---
 
 # Code Pattern: Looping Over a List by Index or by Item

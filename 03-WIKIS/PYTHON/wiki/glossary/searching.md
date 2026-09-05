@@ -4,6 +4,7 @@ stage: 08
 status: draft
 aliases: ["linear search"]
 related_terms: ["sorting", "hash-table"]
+timeline: reference
 ---
 
 # Searching

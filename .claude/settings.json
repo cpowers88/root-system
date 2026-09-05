@@ -1,6 +1,24 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
   "permissions": {
+    "allow": [
+      "Bash(python 00-BRAIN/scripts/root_health.py)",
+      "Bash(python 00-BRAIN/scripts/root_health.py *)",
+      "Bash(python 00-BRAIN\\scripts\\root_health.py)",
+      "Bash(python 00-BRAIN\\scripts\\root_health.py *)",
+      "Bash(python 00-BRAIN/scripts/frontmatter_audit.py *)",
+      "Bash(python3 00-BRAIN/scripts/root_health.py)",
+      "Bash(python3 00-BRAIN/scripts/root_health.py *)",
+      "Bash(python3 00-BRAIN/scripts/frontmatter_audit.py *)",
+      "Bash(python 00-BRAIN/scripts/validate_boot_chain.py)",
+      "Bash(python3 00-BRAIN/scripts/validate_boot_chain.py)",
+      "Bash(python 00-BRAIN/scripts/verify_controls.py)",
+      "Bash(python3 00-BRAIN/scripts/verify_controls.py)",
+      "Bash(bash 00-BRAIN/scripts/safe_shell.sh --list)",
+      "Bash(bash 00-BRAIN/scripts/safe_shell.sh --selftest)",
+      "Bash(python .claude/hooks/test_require_safe_shell.py)",
+      "Bash(python3 .claude/hooks/test_require_safe_shell.py)"
+    ],
     "deny": [
       "Read(/88-JOURNAL/**)",
       "Edit(/88-JOURNAL/**)",
@@ -25,6 +43,21 @@
     "disableBypassPermissionsMode": "disable",
     "disableAutoMode": "disable"
   },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PROJECT_DIR}/.claude/hooks/require_safe_shell.sh\"",
+            "timeout": 15,
+            "statusMessage": "File Safety 12 — bulk work must run behind safe_shell.sh"
+          }
+        ]
+      }
+    ]
+  },
   "sandbox": {
     "enabled": true,
     "autoAllowBashIfSandboxed": false,
@@ -38,14 +71,15 @@
       "denyWrite": [
         "./88-JOURNAL",
         "./00-BRAIN/CASTLE/raw",
-        "./03-WIKIS/PYTHON/raw",
-        "./03-WIKIS/PHYSICS/raw",
+        "./03-WIKIS/*/raw",
+        "./03-WIKIS/AI_AUTOMATION_SYSTEMS/raw",
         "./03-WIKIS/BUSINESS/raw",
         "./03-WIKIS/EDUCATION/raw",
-        "./03-WIKIS/TECHNOLOGY/raw",
-        "./03-WIKIS/AI_AUTOMATION_SYSTEMS/raw",
+        "./03-WIKIS/PHYSICS/raw",
+        "./03-WIKIS/PYTHON/raw",
+        "./03-WIKIS/REVENUE_LAB/raw",
         "./03-WIKIS/SYSTEMS/raw",
-        "./03-WIKIS/REVENUE_LAB/raw"
+        "./03-WIKIS/TECHNOLOGY/raw"
       ],
       "denyRead": [
         "./88-JOURNAL"

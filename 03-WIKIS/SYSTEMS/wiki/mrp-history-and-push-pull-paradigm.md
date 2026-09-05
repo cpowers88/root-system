@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: concept
-tags: [priority/next, status/wiki-only, domain/systems, source-role/primary, use-case/audit, use-case/systems-analysis, use-case/ksu-support, subject/mrp, subject/manufacturing-history, subject/factory-physics]
+tags: [subject/mrp, subject/manufacturing-history, subject/factory-physics]
+timeline: next
+status: wiki-only
+source_role: primary
+use_cases: [audit, systems-analysis, ksu-support]
 ---
 
 # The MRP Crusade: History, the Independent/Dependent Demand Insight, and Push vs. Pull

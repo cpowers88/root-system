@@ -5,65 +5,116 @@ reference_priority: core
 tags: []
 ---
 
-# Index — Every Page in the Castle
-### Updated: July 16, 2026 (mid-afternoon system check; current state refreshed)
+# Index — Every Live Page in CASTLE
 
-## Castle Root Files
-- `.ROOT\NOW.md` — the morning page (castle-owned, lives at the .ROOT root)
-- `OPERATIONS.md` — how AI sessions run the castle (boot: AGENT.md → surface profile → here)
-- `HOW_TO_USE.md` — how Chris extracts direction from the castle
-- `CLAUDE.md` — thin auto-load pointer only (no rules; original build prompt archived)
+### Updated: **August 30, 2026** — Week 2 plan registered after the Sunday return. Prior: August 22, 2026 (Codex auto-load pointer added to the root-file catalog)
 
-## Core Maps
-- [[README]] — start here; how the wiki works
-- [[north-star-roadmap]] — the master pathway on one screen
-- [[current-position]] — baseline as of July 2026
-- [[phase-map]] — 11 phases with dates and exit criteria
-- [[skill-map]] — eight skill categories, sequenced, tied to phases and proof
-- [[source-map]] — registered sources with tiers and claims supported
-- [[opportunity-queue]] — commercial and learning-to-application signals from evidence to test and harvest
-- [[log]] — append-only session record
+This is a discovery index, not a second current-state dashboard. Live action belongs to `.ROOT\NOW.md`; baseline and proof state belong to [[current-position]] and the owning domain systems.
 
-## Phases (built: 0–4 · planned: 5–10)
-- [[phase-0-current-position-and-baseline]] — July 2026
-- [[phase-1-school-core-technical-foundation]] — Aug 2026 – May 2027
-- [[phase-2-audit-methodology-foundation]] — Sep 2026 – Feb 2027
-- [[phase-3-data-and-workflow-systems-foundation]] — Nov 2026 – Mar 2027
-- [[phase-4-first-offer-readiness]] — Feb – Mar 2027
-- *Planned:* phase-5 first client · phase-6 first retainer · phase-7 repeatable
-  implementation · phase-8 productized services · phase-9 team & scale ·
-  phase-10 operating company
+## CASTLE Root Files
+
+- `OPERATIONS.md` — local operating contract; complete the universal `AGENT.md` orientation chain first
+- `README.md` — human root router
+- `HOW_TO_USE.md` — user question and navigation router
+- `CLAUDE.md` — Claude auto-load pointer
+- `AGENTS.md` — Codex auto-load pointer
+- `CODEX.md` — CASTLE-specific Codex scope notes loaded from `AGENTS.md`
+
+## External Direction and Action Interfaces
+
+- `.ROOT\MORNING_BRIEF.md` — generated three-line morning decision interface over live owner truth
+- `.ROOT\NOW.md` — current-action interface
+- `.ROOT\EVENING_READING.md` — generated two-block (School + Technology) prerequisite reading assignment
+- `01-NORTH_STAR\NORTH_STAR.md` — durable direction
+- `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` — current business strategy under test
+
+## Wiki Entrance and Core Maps
+
+- [[README]] — wiki entry router
+- [[north-star-roadmap]] — long-range sequence
+- [[current-position]] — monthly baseline and **the single home of cross-domain capability state** (ruled 2026-08-19, flag #103)
+- [[phase-map]] — phase structure and exit logic (Phase 0 closed 2026-08-19)
+- [[skill-map]] — capability horizons and activation criteria; holds no state
+- [[source-map]] — roadmap-shaping evidence
+- [[opportunity-queue]] — opportunities moving from evidence to test or harvest
+- [[root-architecture-evidence-refinery-2026-07-24]] — superseded interim hypothesis register produced before the full eight-source intake; retained for traceability, not implementation authority
+- [[campus-execution-interface-decision-2026-08-27]] — proposed Fall 2026 control-plane/campus-execution split; compares five access models and recommends a four-day Campus Bridge pilot
+- `00-BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\SESSION_INDEX.md` — canonical final architecture packet, implementation authority, and review handoff
+- [[log]] — append-only CASTLE history
+
+## Phase Pages
+
+- [[phase-0-current-position-and-baseline]]
+- [[phase-1-school-core-technical-foundation]]
+- [[phase-2-audit-methodology-foundation]]
+- [[phase-3-data-and-workflow-systems-foundation]]
+- [[phase-4-first-offer-readiness]]
 
 ## Proof Projects
-- [[ksu-academic-tracker]] — V1 shipped July 8; real D2L data ~July 25, then daily use = the proof
 
-## Skills (built: 2 of 8 categories started)
-- [[sql]] — Technical; building; proof: [[ksu-academic-tracker]]
-- [[field-observation]] — Diagnostic; building; desk simulation logged, first live rep needed
+- [[ksu-academic-tracker]] — school-serving Python and SQLite proof project
+
+## Skill Pages
+
+- [[sql]]
+- [[field-observation]]
 
 ## Source Summaries
-- [[claude-code-docs-pack-2026-07]] — Anthropic's Claude Code docs (Tier 1); instruction-file
-  budgets + agentic workflow patterns; drove the July 11 system self-review
-- [[openai-platform-docs-pack-2026-07]] — OpenAI official docs (Tier 1; 95 files),
-  routed into ten retrieval chunks; semantic synthesis queued
+
+- [[claude-code-docs-pack-2026-07]]
+- [[openai-platform-docs-pack-2026-07]]
+- [[source-summaries/architecture-update-2026-07-24/index]] — completed eight-PDF, 3,789-page evidence series supporting the architecture update
+- [[source-summaries/architecture-update-2026-07-24/ai-engineering-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/ai-builders-handbook-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/prompt-engineering-for-llms-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/prompt-engineering-for-generative-ai-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/generative-ai-economic-potential-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/agentic-ai-for-engineers-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/machine-learning-design-patterns-chunk-intake]]
+- [[source-summaries/architecture-update-2026-07-24/r-for-data-science-chunk-intake]]
 
 ## Decision Rules
-- [[adding-a-profit-skill]] — the gate for new "highly profitable skill" ideas
 
-## Planned (do not create until an existing stub is finished)
-- project-map · service-map · evidence-map · technology-stack-map · market-map ·
-  glossary · remaining phase pages · remaining skill pages per [[skill-map]]
+- [[adding-a-profit-skill]] — gate for new profit-skill and opportunity ideas
 
-## Current Command-Center State
+## Templates
 
-- Fixed school commitments remain protected and moved today: Physics Stage 3 and
-  Python Stage 2 both closed July 16; Stage 4 (Physics) and Stage 3 (Python, first
-  rep mid-drill) are the active learner units.
-- March 2027 remains the first consulting-client target, while continuity income
-  is required before Spring 2027 enrollment. Lane A now has a top-100
-  human-classification worksheet awaiting Chris's labels and a conditional GO for
-  one private scanner walkthrough (≤90 added minutes). B2's external conversation
-  still requires Chris's explicit approval.
-- The July 16 profit gate selected the Flip Margin Leak replay ([[opportunity-queue]]
-  OPP-20260716-01) as the first real-estate service proof; the closing-exception
-  concept is HOLD (OPP-20260716-02).
+- `..\templates\decision-rule-template.md`
+- `..\templates\evidence-template.md`
+- `..\templates\phase-template.md`
+- `..\templates\project-template.md`
+- `..\templates\service-capability-template.md`
+- `..\templates\skill-template.md`
+- `..\templates\source-summary-template.md`
+- `..\templates\weekly-plan-template.md`
+
+## Weekly Plans
+
+Listed newest first as history. Since Chris's 2026-09-05 lane ruling, CASTLE does
+not generate a standing school week; Chris invokes school review or tutoring and
+owns live D2L execution. Session Logs own retrospective reviews.
+
+- **🎓 [[weekly-plans/weekly-plan-2026-08-31-to-2026-09-06]] — FALL SEMESTER WEEK 2,
+  superseded Sep 5.** Preserved as the final standing school-week plan before the
+  on-demand `TUTOR.md` boundary replaced calendar-driven sequencing.
+- **🎓 [[weekly-plans/weekly-plan-2026-08-24-to-2026-08-30]] — FALL SEMESTER WEEK 1,
+  complete Aug 30.** Course activation completed; outcome recorded on the page.
+- **[[weekly-plans/weekly-plan-2026-08-17-to-2026-08-23]] — Week D, complete Aug 23.**
+  Preserved as the final pre-semester plan.
+- **[[weekly-plans/weekly-plan-2026-08-10-to-2026-08-16]] — Week C, closed
+  Sunday Aug 16.** Suspended rather than completed, under the `.ROOT` pause
+  (lifted 2026-08-17); its held resume points carried into Week D as PHYS row 3
+  and PYTHON C1
+- [[weekly-plans/weekly-plan-2026-08-03-to-2026-08-09]] — **closed.**
+  18-core-block risk-and-transfer pilot: 8 Physics/calculus, 8 Python/CSE,
+  1 TCOM, 1 ECON, with a Wednesday 10/8/7 reforecast; retrospective evidence in
+  `WEEKLY_AUGUST3-9.md`
+- [[weekly-plans/weekly-plan-2026-07-27-to-2026-08-02]] — **closed** 32-block
+  simulation; approximately 13 of 32 weekday blocks completed; retrospective
+  evidence lives in the July 27–August 2 Weekly Review
+- [[weekly-plans/weekly-plan-2026-07-23-to-2026-07-26]] — **closed** four-day
+  execution plan
+- [[weekly-plans/school-week-simulation-spec-2026-07-27]] — approved workload
+  basis for the 32-block simulation; the weekly plan owns live scheduling
+- [[pre-semester-python-push-2026]] — four-week module sequence, July 27 to
+  August 23; feeds each Sunday's weekly plan, holds no learner truth

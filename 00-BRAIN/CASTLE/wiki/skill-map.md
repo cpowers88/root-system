@@ -5,120 +5,118 @@ reference_priority: core
 tags: [skills, roadmap]
 ---
 
-# Skill Map — Eight Categories, One Sequence
-### Reconciles NORTH_STAR.md's permanent capability base, CURRENT_STRATEGY.md's active
-### vehicle, SKILL_GAP_ANALYSIS.md, and domain evidence. NORTH_STAR wins conflicts.
+# Skill Map — Eight Capability Categories, Horizons and Activation
+
+### Updated: August 19, 2026 — state moved to its single home, closing flag #103. Previous: July 19, 2026
 
 ## How to Read This
 
-Every skill gets a status: **not-started → building → working → proven**.
-"Proven" requires an evidence artifact, not a feeling. No orphan skills: each row
-names its phase and its proof. Individual `skills/` pages get created when a skill
-goes active — not before.
+Capability states are: **not-started → building → working → proven**. Proven requires an evidence artifact and repeatable performance, not confidence or page existence.
 
 Capability depth uses a separate proof ladder:
 
-`explain → guided build → independent build → integration → real workflow → client outcome → reusable asset`
+explain → guided build → independent build → integration → real workflow → client outcome → reusable asset
 
-Record the highest evidenced rung needed for the skill's real use. This ladder
-tracks Chris's capability; Capability Library maturity tracks the reusable asset.
-Do not merge the two dimensions.
+**Current capability state lives in one place: [[current-position]]'s Capability and
+Proof Frontier table (ruled 2026-08-19, flag #103).** This map holds the horizon —
+what could activate and what proof activates it. Category tables mark activated
+capabilities with "→ register", which points at [[current-position]], never at a
+table here.
 
-The business-plan wiki's four layers map onto the eight categories like this:
-Layer 1 Diagnostic → *Diagnostic*; Layer 2 Build → *Technical + AI Integration +
-Business Technology*; Layer 3 Commercial → *Commercial + Delivery*; Layer 4
-Operator → *Professional + Systems Engineering (formalized by the degree)*.
-Warning from that source, worth keeping: the engineering head start makes
-over-investing in build skills the biggest trap — the market pays for diagnosis.
+*(This file's register table previously carried live state and claimed to be its only
+home while `current-position.md` simultaneously claimed this file as live truth — a
+loop in which neither was maintained; it froze on July 19 and was measured three weeks
+stale on Python. The table was retired to [[current-position]] on 2026-08-19, where
+the read path and the authority path are the same file.)*
 
-## Skill Block Format (standing rule, added July 7, 2026)
+## Working Output
 
-When Castle prints skills for a working session — not when just reviewing the map —
-convert each row into a scheduled block using this chain:
+When Chris asks what to work on, return the owning system, one capacity-sized next rep, the proof artifact, and the result's return path. Chris chooses timing and work order outside fixed commitments.
 
-Skill → owning wiki → next rep → proof artifact → suggested calendar block
+## Active Capability Register — moved
 
-Example: SQL → 03-WIKIS\PYTHON (via ksu-academic-tracker) → run tracker, inspect
-tables, one SQL query drill → command output or tracker project-log note → 45 min.
+**The register lives in [[current-position]] § Capability and Proof Frontier.** An
+active capability appears there and only there; the eight category tables below hold
+horizon capabilities — statuses not-started and later — and mark an activated row with
+"→ register" instead of carrying a duplicate status.
 
-This does not replace the status table above — it's the output format when Chris asks
-"what do I work on" rather than "where do I stand."
+## 1. Diagnostic
 
-## 1. Diagnostic (see the waste) — the product
+| Capability | Horizon state | Activation proof |
+|---|---|---|
+| Field observation and process documentation | → register | active |
+| Value Stream Mapping | not-started | first actual-state map from a live observation |
+| Waste identification | not-started — BUSINESS knowledge exists | activates with the first live observation |
+| Waste quantification | not-started | finding tied to defensible time or cost math |
+| Business fluency | not-started | real owner-facing financial reasoning |
 
-| Skill | Status Jul 2026 | Phase | Proof |
-|---|---|---|---|
-| Field observation & process documentation | building (desk simulation; 0 live reps) | 2 | 2 tested live observation sessions |
-| Value Stream Mapping | not-started | 2 | 2 drawn VSMs |
-| Waste identification (7 wastes, TOC) | building (BUSINESS wiki ingested) | 2 | Mock audit report |
-| Waste quantification (time/cost math) | not-started | 3 | Findings with numbers in mock report |
-| Business fluency (P&L, cash flow, margin) | not-started | 3–4 | Talk owner-to-owner in first conversations |
+## 2. Systems Engineering
 
-## 2. Systems Engineering (the degree formalizes this)
+| Capability | Horizon state | Activation proof |
+|---|---|---|
+| Systems and flow thinking | → register | active |
+| Probability and statistics | not-started | course or live decision need |
+| Optimization and operations research | later | measured problem that simpler methods cannot solve |
 
-| Skill | Status | Phase | Proof |
-|---|---|---|---|
-| Systems thinking / system dynamics | building (SYSTEMS wiki) | 1–2 | Coursework + causal diagrams on real processes |
-| Probability & statistics | not-started | 1 (ISYE 2600 Spring 2027) | Gate course passed |
-| Queueing/flow fundamentals (factory physics) | building (SYSTEMS wiki) | 2–3 | Applied in an audit finding |
-| Optimization & OR | later | 7–8 | Course + client application |
+## 3. Technical
 
-## 3. Technical (the current grind)
-
-| Skill | Status | Phase | Proof |
-|---|---|---|---|
-| Python | building (CS50P PS2) | 0–1 | [[ksu-academic-tracker]] shipped; CSE 1321 strong |
-| SQL/SQLite — **#1 gap** | building (tracker) | 0–1 | Tracker queries on verified real course data; later approved data proof |
-| Git/GitHub discipline | building | 1 | Every build in a repo with real history |
-| REST APIs | not-started | 3 | Pull real data from one external system |
-| Flask | not-started | 3/7 | One simple client-facing tool |
-| Data visualization / Looker Studio — gap #3 | not-started | 2–3 | One real dashboard from a Sheet |
+| Capability | Horizon state | Activation proof |
+|---|---|---|
+| Python | → register | active |
+| SQL/SQLite | → register | active |
+| Git/GitHub discipline | → register | active |
+| REST APIs | not-started | live integration need |
+| Web application development | not-started | justified multi-user or interface need |
+| Data visualization | → register | active |
 
 ## 4. AI Integration
 
-| Skill | Status | Phase | Proof |
-|---|---|---|---|
-| Agentic delivery (driving Claude Code as build multiplier) | working — this castle is a rep | 0+ | Delivery hours visibly compressed per build |
-| LLM engineering (extraction, structured outputs, evals) | not-started | 3/7 | One reliable extraction workflow on messy real data |
-| Anthropic/OpenAI APIs | not-started | 7 | Client-grade automation with error handling |
+| Capability | Horizon state | Activation proof |
+|---|---|---|
+| Agentic delivery | → register | active |
+| LLM extraction, structured outputs, and evaluations | not-started | bounded workflow need with an evaluation set |
+| Provider APIs | not-started | justified application with error, cost, and privacy boundaries |
 
-## 5. Business Technology (the vendor-neutral moat)
+## 5. Business Technology
 
-| Skill | Status | Phase | Proof |
-|---|---|---|---|
-| Technology landscape (12 categories) — gap #1.5 | building — Make.com rep logged July 9; additional landscape pages added July 13 | 1–2 | Weekly 30-min reps logged; can name category+ladder rung for any problem |
-| Recommendation Ladder fluency | building | 2–4 | Recommendations in mock + real audit reports |
-| Automation platforms (Make.com, n8n) | not-started | 3/7 | One working automation for own business ops |
-| Industry platforms (Procore, Buildertrend, Jobber...) | later | 4+ | Named correctly in client conversations |
+| Capability | Horizon state | Activation proof |
+|---|---|---|
+| Technology landscape | → register | active |
+| Recommendation Ladder | → register | active |
+| Automation platforms | not-started | observed workflow justifies a bounded automation |
+| Industry platforms | later | client or market problem requires vendor comparison |
 
 ## 6. Delivery
 
-| Skill | Status | Phase | Proof |
-|---|---|---|---|
-| Technical writing / one-page findings | building (TCOM Fall 2026) | 1–2 | Findings format iterated from feedback |
-| Report generation (Python/Markdown/PDF) | not-started | 3 | A current approved reporting vehicle; audit report pipeline |
-| Training clients / documentation | later | 6–7 | First retainer onboarding |
+| Capability | Horizon state | Activation proof |
+|---|---|---|
+| Technical writing | → register | active within combined register row |
+| Report generation | not-started | real reporting owner and audience |
+| Training and documentation | later | implemented system needs adoption and handoff |
 
 ## 7. Commercial
 
-| Skill | Status | Phase | Proof |
-|---|---|---|---|
-| Consultative discovery & interviewing | not-started | 2–4 | Rehearsed out loud; first real conversations |
-| Offer construction & pricing | assets exist, unrehearsed | 4 | Assembled first offer, price stated without flinching |
-| Proposal/SOW writing | templates exist | 4–5 | First signed engagement |
-| Case-study/proof building | not-started | 5+ | First case study written from first client |
+| Capability | Horizon state | Activation proof |
+|---|---|---|
+| Consultative discovery and interviewing | not-started | approved real conversation or rehearsal gate |
+| Offer construction and pricing | not-started — assets exist | field evidence activates practice |
+| Proposal and SOW writing | not-started — templates exist | qualified engagement need |
+| Case-study building | later | approved real outcome exists |
 
 ## 8. Professional
 
-| Skill | Status | Phase | Proof |
-|---|---|---|---|
-| Communication (habitual professional clarity) | building — every interaction is a rep | all | Habitual by graduation (NORTH_STAR core goal) |
-| Time management under load (pace model) | building | 1 | Fixed commitments met; high-load tradeoffs deliberate; no zero-commit days |
-| Delegation & playbook writing | later | 9 | First hire productive from playbooks |
+| Capability | Horizon state | Activation proof |
+|---|---|---|
+| Communication | → register | active within combined register row |
+| Delegation and playbook writing | later | real handoff or first hire |
 
-## The Rule
+Capacity management is a North Star constraint, not a capability status. Fixed commitments constrain the field; Chris chooses timing and work order outside them.
 
-New skill idea → search [[skill-map]] and [[opportunity-queue]] →
-[[adding-a-profit-skill]] → passes = gets a row here with phase + proof → fails =
-no skill-map row; if evidence-backed and worth retaining, keep or add one
-[[opportunity-queue]] row with status `parked`; otherwise create nothing.
+## Activation Rule
+
+New capability idea → search this map and [[opportunity-queue]] → run [[adding-a-profit-skill]] when it is a profit or opportunity proposal → activate only when an owner, enabled outcome, next real rep, proof, and likely value path are known.
+
+When activated, move its state into [[current-position]]'s Capability and Proof
+Frontier table and leave only "→ register" in the category horizon. Do not create a
+second status home — this file's own history (flag #103) is the standing example of
+what a second home costs.
