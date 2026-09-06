@@ -14,9 +14,9 @@ tags: [technology]
 from FORGE's original 135-page technology folder (the other 67 — Python/data-analysis
 fundamentals — went to `03-WIKIS\PYTHON` instead; see that wiki's `source-map.md`).
 **2026-07-13: full raw/ audit and ingest (107 pages at completion).** After the
-July 15 routing correction and July 16 chunk ingestion, the live inventory is
-**134 content/reference pages** (excluding this index and `log.md`; +2 on
-2026-07-27 from the selective *Business Information Systems* Chapters 9-10 ingest).
+July 15 routing correction and later bounded ingests, the live inventory is
+**136 content/reference pages** (excluding this index, `log.md`, and the
+raw-source coverage ledger; verified 2026-09-06).
 The audit produced 39 new pages across 9 books + 4 landscape clippings. The
 July 15 structure review moved the post-closure AI-coding landscape into
 `03-WIKIS\AI_AUTOMATION_SYSTEMS`, its canonical intake lane. The audit found 3 confirmed
@@ -24,8 +24,8 @@ duplicates (documented, not re-ingested), 3 misplaced Python-fundamentals books
 (rerouted to `03-WIKIS\PYTHON`), and 1 book judged too introductory to warrant a
 dedicated ingest (see `log.md`). Four new category subfolders added
 (`database-sql/`, `software-craft/`, `security/`, `software-engineering/`) plus
-the wiki's first-ever landscape-research pages (3 remain at wiki root) — the original
-stated purpose this wiki carried as an open "next action" since July 7.
+the wiki's first-ever landscape-research pages (3 remain at wiki root), satisfying
+the original landscape-research action opened on July 7.
 The 39-file raw content collection is fully accounted, not uniformly compiled:
 five Stanford AI Index files are covered cross-hub, the prior PDFs were compiled
 or explicitly classified, and earlier web clips have derived or lookup coverage.
@@ -206,9 +206,8 @@ compiled, selective, cross-hub, reference-only, and excluded are kept distinct.
 
 ## Landscape Research (wiki root, 5 pages, first batch 2026-07-13)
 
-This wiki's landscape-research pages — the original stated purpose
-(tool/category watching, tied to `TECHNOLOGY_LIBRARY_STRATEGY.md`'s 12
-categories) carried as an open "next action" since July 7, 2026.
+This wiki's landscape-research pages serve the original stated purpose:
+tool/category watching tied to `TECHNOLOGY_LIBRARY_STRATEGY.md`'s 12 categories.
 
 - [[looker-studio-free-bi-dashboards|Looker Studio (Data Studio) — Free BI Dashboards]] — Category 3
 - [[vs-code-data-tooling-data-wrangler-and-edit-csv|VS Code Data Tooling: Data Wrangler, Edit CSV, and the Titanic Tutorial]] — Category 5

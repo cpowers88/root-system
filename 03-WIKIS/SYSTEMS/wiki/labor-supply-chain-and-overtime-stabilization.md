@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/system-dynamics, subject/labor-supply-chain, subject/oscillation, subject/overtime]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, supply-chain, audit]

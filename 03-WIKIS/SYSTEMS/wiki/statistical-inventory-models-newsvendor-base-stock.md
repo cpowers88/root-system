@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/news-vendor-model, subject/base-stock-model, subject/inventory-control, subject/factory-physics]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, operations-research, data-workflow, ksu-support]

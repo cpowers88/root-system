@@ -2,7 +2,7 @@
 domain: systems
 type: concept
 tags: [subject/manufacturing-history, subject/scientific-management, subject/factory-physics]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [audit, business-model, ksu-support]
@@ -97,7 +97,7 @@ A client describes an existing lean, Six Sigma, or ERP/SCM initiative as "the" s
 The client genuinely just needs one of the three components (a kaizen event, a statistical root-cause investigation, better data visibility) rather than a full diagnostic reframe — not every engagement needs this chapter's full critique.
 
 **Fast retrieval query**:
-`subject/manufacturing-history` + `priority/now` — or search "Newton's law of consultants" / "three trends" / "Kelvin Galbraith silver bullet" / "scientific management based on science"
+`tag:#subject/manufacturing-history` — or search "Newton's law of consultants" / "three trends" / "Kelvin Galbraith silver bullet" / "scientific management based on science"
 
 ## North Star Connection
 

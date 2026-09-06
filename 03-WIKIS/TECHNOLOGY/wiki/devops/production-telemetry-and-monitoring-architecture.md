@@ -2,7 +2,7 @@
 domain: tech
 type: concept
 tags: [subject/devops, subject/observability, subject/telemetry]
-timeline: later
+timeline: reference
 status: wiki-only
 ---
 

@@ -1085,3 +1085,28 @@ Chris's decisions.
 - Kept vendor versions, release timestamps, shortcuts, product counts, and third-party ranking claims explicitly volatile.
 - Updated the ledger from 44/44 to 48/48 and the index for the one new retrieval page.
 - **Next exact action:** configure or test a PowerToys utility only when a repeated Windows workflow names the time or friction it should remove.
+
+## 2026-09-06 - Current-truth remediation
+
+- Reclassified `technology_boot_one_review.md` from `timeline: now` to
+  `reference` and added a historical notice: its July 26 loader validation was
+  superseded by the August 10 architecture.
+- Corrected two index sentences that still described the July 7 landscape
+  action as open after the landscape pages had already been created.
+- Reconciled the Technology spine to current owners: removed copied learner
+  stages, dead `SKILL_GAP_ANALYSIS.md`, retired Clippings/priority-queue
+  guidance, and the expired August 1 review. The current frontier now points to
+  the capability goal and CASTLE rather than restating learner truth.
+- Marked the July 16 gap audit as a historical comparison baseline and verified
+  the index inventory at 136 content/reference pages.
+- Archived the completed boot review to
+  `99-ARCHIVE\ARCHIVED_2026-09-06_technology_boot_one_review.md` after its live
+  spine action was dispositioned; added `99-ARCHIVE\ARCHIVE_MANIFEST.md`.
+- Corrected all 103 applied `status: wiki-only` pages whose inherited reading
+  priority occupied the `timeline` action axis: 37 `now`, 11 `next`, and 55
+  `later` became `reference`; body rankings and research content were untouched.
+- Bulk safety evidence: WSL `safe_shell.sh --selftest` PASS; disposable-copy
+  proof PASS for 103/103 Technology files as part of the 201-file combined set;
+  live transform PASS with zero selector remainder.
+- **Next exact action:** use the index and topic tags to retrieve applied
+  reference; change a page's `timeline` only if a real owner activates it.

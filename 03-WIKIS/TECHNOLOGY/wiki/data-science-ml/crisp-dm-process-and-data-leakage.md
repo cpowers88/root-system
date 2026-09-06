@@ -2,7 +2,7 @@
 domain: technology
 type: method
 tags: [subject/data-science, subject/crisp-dm, subject/data-leakage]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [data-workflow, audit, reporting]

@@ -1,7 +1,7 @@
 ---
 type: reference
 tags: [business, revenue]
-timeline: now
+timeline: reference
 ---
 
 # Lane D — Digital Products (Contractor Templates / Estimating Assets)

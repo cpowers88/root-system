@@ -2,7 +2,7 @@
 domain: technology
 type: case-study
 tags: [subject/data-science, subject/probability-estimation, subject/decision-trees, subject/overfitting]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: example
 use_cases: [data-workflow, audit]

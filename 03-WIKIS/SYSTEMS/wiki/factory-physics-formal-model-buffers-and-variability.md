@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/factory-physics, subject/systems-thinking, subject/variability]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, process-design, ksu-support]
@@ -103,7 +103,7 @@ A client has cut inventory, lead time, or WIP and is now experiencing unexplaine
 The client's problem is already well-understood and doesn't involve buffer trade-offs (e.g., a pure data-cleaning or reporting task) — this is a diagnostic lens for operational/flow problems specifically, not a universal tool.
 
 **Fast retrieval query**:
-`subject/factory-physics` + `priority/now` — or search "demand and transformation" / "three buffer types" / "value-added tautology" / "buffer mismanagement kanban"
+`tag:#subject/factory-physics` — or search "demand and transformation" / "three buffer types" / "value-added tautology" / "buffer mismanagement kanban"
 
 ## North Star Connection
 

@@ -2,7 +2,7 @@
 domain: technology
 type: reference
 tags: [subject/web-security, subject/flask]
-timeline: next
+timeline: reference
 status: wiki-only
 source_role: support
 use_cases: [tech-stack, automation]

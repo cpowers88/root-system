@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/system-dynamics, subject/loop-dominance, subject/s-shaped-growth, subject/nonlinearity]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, audit]

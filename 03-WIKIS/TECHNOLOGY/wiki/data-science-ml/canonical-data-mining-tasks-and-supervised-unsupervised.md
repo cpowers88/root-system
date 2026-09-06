@@ -2,7 +2,7 @@
 domain: technology
 type: concept
 tags: [subject/data-science, subject/classification, subject/clustering, subject/supervised-learning]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [data-workflow, audit]

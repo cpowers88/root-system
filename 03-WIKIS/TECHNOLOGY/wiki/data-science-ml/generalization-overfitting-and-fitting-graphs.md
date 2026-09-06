@@ -2,7 +2,7 @@
 domain: technology
 type: concept
 tags: [subject/data-science, subject/overfitting, subject/generalization, subject/fitting-graphs]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [data-workflow, audit]

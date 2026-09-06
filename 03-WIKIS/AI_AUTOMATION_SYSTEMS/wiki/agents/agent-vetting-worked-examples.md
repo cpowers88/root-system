@@ -2,7 +2,7 @@
 type: research
 tags: [ai-automation, agentic-ai, vetting, tools]
 source: raw/2025 Index*.md (aiagentindex.mit.edu clippings, snapshot Dec 31 2025) + raw/Further Details — 2025 AI Agent Index.md
-timeline: now
+timeline: reference
 ---
 
 # Agent-Tool Vetting — Worked Examples from the 2025 AI Agent Index

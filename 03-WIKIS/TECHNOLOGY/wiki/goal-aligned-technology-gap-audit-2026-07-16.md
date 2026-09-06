@@ -8,6 +8,11 @@ source: local capability and artifact audit plus current primary documentation, 
 
 # Goal-Aligned Technology Gap Audit — July 16, 2026
 
+**September 6 status note:** retained as a dated comparison baseline. The
+August 1 review was superseded by the current-state reconciliation in
+`TECHNOLOGY_LIBRARY_STRATEGY.md`. Current action belongs to the capability goal,
+CASTLE, and `NOW.md`; this audit does not activate the scanner sequence.
+
 **July 21 status note:** the integrated-operating-proof diagnosis remains useful,
 but the scanner-first sequence and July 25 tracker assumption were superseded by the
 live MCP Bootcamp, `NOW.md`, and `SYSTEM_FLAGS.md` #57. Current action belongs to
@@ -260,4 +265,4 @@ These are not rejected forever. They are parked behind evidence triggers.
 
 ---
 
-*Audit date: July 16, 2026 | Next scheduled review: August 1, 2026, or earlier on a listed trigger.*
+*Audit date: July 16, 2026 | Reviewed September 6, 2026; retained as a historical comparison baseline. Triggered future review belongs in the live Technology spine.*

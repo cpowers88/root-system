@@ -2,7 +2,7 @@
 domain: technology
 type: concept
 tags: [subject/data-science, subject/linear-models, subject/support-vector-machines, subject/objective-functions]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [data-workflow, audit]

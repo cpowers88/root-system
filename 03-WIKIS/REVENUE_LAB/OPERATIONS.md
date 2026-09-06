@@ -5,23 +5,26 @@ status: live
 register: ai-directive
 tags: [business, revenue, governance]
 created: 2026-07-24
+updated: 2026-09-06
 ---
 
 # REVENUE_LAB_WIKI — OPERATIONS
 
 ## Function
 
-Find, score, and prove a revenue lane that funds Chris's studies. Evidence
-first, build second.
+Find, score, and prove revenue lanes that can create continuity income and
+durable value. Evidence first, build second.
 
 This hub researches and scores. It does not earn, publish, or commit.
 
 ## Why this hub exists
 
-Recorded 2026-07-14: a major cut in school funding means Chris needs additional
-income to continue past Fall 2026. Income that keeps Chris enrolled directly
-serves the school spine, so it clears the profit gate's relevance test on its
-own.
+The hub opened on 2026-07-14 after a major school-funding cut. Chris ruled on
+2026-08-11 and reaffirmed on 2026-08-13 that enrollment is not gated on income:
+continuity income remains a meaningful target and evidence track, but it does
+not automatically outrank school, system quality, compounding capability, or
+the 2031 North Star. Current strategy and CASTLE determine priority and
+activation.
 
 This is the one hub where **off-the-named-path research is permitted by
 charter** — "not part of the current Advisor-Builder vehicle" is not a
@@ -99,7 +102,7 @@ Every lane is scored 1–5 on each, for 25 total:
    SQL, data analysis, AI tooling, construction expertise.
 4. **Compounding value** — builds an owned asset (audience, product,
    reputation) versus trading hours.
-5. **Variance** — spread between median and best case. Survival money cannot
+5. **Variance** — spread between median and best case. Near-term income cannot
    ride on a lottery ticket.
 
 A portfolio answer is allowed — one fast-money lane plus one compounding lane —
@@ -180,7 +183,7 @@ cap and stop at it.
 
 A lane graduates from research to build only through the CASTLE profit gate
 (`00-BRAIN\CASTLE\wiki\decision-rules\adding-a-profit-skill.md`), re-run with
-current inputs including the funding constraint.
+current inputs including the continuity-income target, capacity, and strategy.
 
 This hub runs the **PROVE** and **MEASURED OUTCOME** stages of the System Loop.
 Results return through the Return Packet to CASTLE and the continuity-income
@@ -225,4 +228,4 @@ authorize a direct test after an explicit impact review; record that override
 and its stop evidence.
 
 A boring path with strong evidence and fast money beats an exciting one with
-neither. The rubric exists so survival decisions do not get made on hope.
+neither. The rubric exists so revenue decisions do not get made on hope.

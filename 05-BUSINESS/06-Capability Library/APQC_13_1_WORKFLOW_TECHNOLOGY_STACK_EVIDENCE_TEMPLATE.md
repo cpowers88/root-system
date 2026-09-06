@@ -1,6 +1,6 @@
 ---
 type: template
-timeline: next
+timeline: reference
 status: draft
 reference_priority: core
 tags: [business, apqc, client, technology, audit]

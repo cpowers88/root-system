@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/process-mining, subject/event-logs, subject/data-quality]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [audit, systems-analysis, data-workflow]

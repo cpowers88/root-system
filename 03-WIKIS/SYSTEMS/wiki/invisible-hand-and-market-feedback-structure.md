@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/system-dynamics, subject/causal-loop-diagrams, subject/market-dynamics, subject/adverse-selection]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, business-model, audit]

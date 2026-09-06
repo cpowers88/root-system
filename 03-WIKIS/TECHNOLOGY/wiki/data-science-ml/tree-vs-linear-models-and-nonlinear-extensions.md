@@ -2,7 +2,7 @@
 domain: technology
 type: case-study
 tags: [subject/data-science, subject/decision-trees, subject/neural-networks, subject/model-comprehensibility]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: example
 use_cases: [data-workflow, audit]

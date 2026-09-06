@@ -2,7 +2,7 @@
 domain: technology
 type: case-study
 tags: [subject/data-science, subject/data-as-asset, subject/credit-scoring]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: example
 use_cases: [data-workflow, business-model, audit]

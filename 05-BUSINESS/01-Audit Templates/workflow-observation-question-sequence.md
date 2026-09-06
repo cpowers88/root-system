@@ -1,6 +1,6 @@
 ---
 type: template
-timeline: now
+timeline: reference
 stage: phase-2
 tags:
   - template
@@ -15,8 +15,8 @@ tags:
 > order. Stay with one recent event, observe before proposing, and leave with a
 > measurable consequence plus one concrete next commitment.
 
-Method: [[../first-workflow-observation-field-plan|First Workflow Observation
-Field Plan]]. This is a discovery and observation worksheet, not the intake form
+Method: [[OBSERVATION_METHODOLOGY|Observation Methodology]]. This is a discovery
+and observation worksheet, not the intake form
 for a signed full audit.
 
 ## Evidence Priority

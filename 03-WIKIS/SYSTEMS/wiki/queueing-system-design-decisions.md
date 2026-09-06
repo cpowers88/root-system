@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/queuing-theory, subject/service-level-design, subject/operations-research]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, operations-research, ksu-support]

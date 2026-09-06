@@ -2,7 +2,7 @@
 domain: tech
 type: reference
 tags: [subject/ai-tooling, start]
-timeline: next
+timeline: reference
 status: wiki-only
 ---
 

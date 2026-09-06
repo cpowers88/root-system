@@ -2,7 +2,7 @@
 domain: systems
 type: reference
 tags: [subject/process-mining, subject/event-logs, subject/python]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [data-workflow, audit, systems-analysis]

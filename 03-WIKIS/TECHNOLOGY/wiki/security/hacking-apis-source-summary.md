@@ -2,7 +2,7 @@
 domain: technology
 type: reference
 tags: [subject/api-security, subject/web-security]
-timeline: next
+timeline: reference
 status: wiki-only
 source_role: reference
 use_cases: [tech-stack, audit]

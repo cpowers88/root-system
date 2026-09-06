@@ -2,7 +2,7 @@
 domain: tech
 type: framework
 tags: [subject/devops, subject/kanban, subject/theory-of-constraints, start]
-timeline: later
+timeline: reference
 status: wiki-only
 ---
 

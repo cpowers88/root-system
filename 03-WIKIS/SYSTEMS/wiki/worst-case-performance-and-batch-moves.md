@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/factory-physics, subject/queuing-theory, subject/throughput-wip-cycle-time, subject/variability]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, process-design, ksu-support]

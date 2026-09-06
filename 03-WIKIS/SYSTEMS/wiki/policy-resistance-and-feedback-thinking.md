@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/system-dynamics, subject/feedback-loops, subject/policy-resistance, subject/mental-models]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, audit, client-interview]

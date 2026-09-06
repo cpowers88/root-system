@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/network-optimization, subject/shortest-path, subject/maximum-flow, subject/operations-research]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, operations-research, ksu-support]

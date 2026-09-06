@@ -48,6 +48,7 @@ as a pass is worse than no data.
 | 2026-08-17 evening | CSE Module 0 | continuing Codex thread after system audit | n/v | ✓ | ✓ | ✓ | ✓ | ✓ | Correct live chain reloaded; ungraded-practice boundary held; clean pickup handoff |
 | 2026-08-18 afternoon | PHYS (row 2 durability) | hour ~4 of a system/CASTLE session | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | Row 2 passed durable. **AI defect: one question was unparseable and asked twice before Method 3 fired** — and this session then mis-diagnosed the skip as a learner verification gap. Chris corrected both |
 | 2026-08-21 morning | PHYS (row 3 + circular motion) | user-requested teaching session | n/v | ✓ | ✓ | ✓ | ✓ | ✓ | Full chain loaded; two misses classified honestly; switched from cold gate to lesson when six-month recall gap surfaced; terminal-math rendering defect fixed |
+| 2026-09-06 | PHYS (work and energy) | 25-minute compressed reactivation with Claude | n/v | ✓ | ✓ | ✓ | ✓ | ✗ | Useful reactivation and genuine responses; close blurred mastery status, offered a menu instead of one resume point, and misstated spring work as stored energy. Repaired after Chris reviewed the evidence |
 
 ---
 
@@ -267,6 +268,31 @@ now requires plain-text equations in terminal or CLI conversation and reserves r
 mathematical notation for files, artifacts, and interfaces that support it. The printable
 formula sheet deliberately uses conventional typeset notation because that is the requested
 document surface.
+
+## 2026-09-06 — HAT_PHYSICS, work-and-energy reactivation (Claude)
+
+**Evidence classification:** successful reactivation after more than six months, not
+mastery. The block was guided and ran no cold or durability gate. The two learner errors
+were genuine diagnostic responses, but they are not `miss-log` evidence because this was
+not a graded-like cold attempt.
+
+**Checks 2–5 passed.** The 25-minute route moved in dependency order, respected Chris's hard
+time box, elicited real responses rather than recognition alone, and stayed inside tutoring
+boundaries. Check 1 is `n/v`: the surviving artifact does not prove that the correct owner
+chain was discovered cold.
+
+**Check 6 failed in the original close.** Three problems had to be repaired after Chris
+challenged the mastery implication:
+
+1. It did not explicitly separate lesson completion from mastery evidence.
+2. It ended with three optional practices instead of one exact resume point.
+3. It said the spring's negative work during stretching "is" spring potential energy.
+   Correctly, `W_spring = -delta U_spring`; the external agent's positive work stores the
+   positive potential energy.
+
+The PHYS log and session aid now name the evidence honestly and route to one faded
+spring-plus-friction transfer. A later changed-parameter cold transfer is still required
+before any mastery claim.
 
 
 ---

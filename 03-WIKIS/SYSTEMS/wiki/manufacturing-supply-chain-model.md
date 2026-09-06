@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/system-dynamics, subject/supply-chains, subject/manufacturing, subject/model-initialization]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, supply-chain, audit]

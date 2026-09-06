@@ -2,7 +2,7 @@
 domain: tech
 type: reference
 tags: [subject/ai]
-timeline: now
+timeline: reference
 status: wiki-only
 ---
 

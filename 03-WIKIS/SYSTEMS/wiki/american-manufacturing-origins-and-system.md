@@ -2,7 +2,7 @@
 domain: systems
 type: concept
 tags: [subject/manufacturing-history, subject/factory-physics, subject/american-system-of-manufacturing]
-timeline: next
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [audit, systems-analysis, ksu-support]

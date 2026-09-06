@@ -90,5 +90,9 @@ document/data flow, asset reliability, and forecasting. Complete when every
 survivor names a buyer, recurring economic failure, current workaround,
 entry constraint, smallest proof, and disconfirmation condition, and when no
 more than three workflow families return to the lead agent.
-Review the compressed result on 2026-09-13; no outreach or build follows without
+Treat CASTLE's three access-blocked construction/real-estate tests as direct
+entry-friction evidence: the tests did not run, so they neither prove nor
+disprove demand or merit. Run 2 must distinguish a valuable workflow with no
+reachable access path from a workflow that failed a competent market test.
+Review the compressed result on 2026-09-20; no outreach or build follows without
 a separate Chris-approved proof.

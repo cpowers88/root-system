@@ -2,7 +2,7 @@
 domain: systems
 type: reference
 tags: [subject/process-mining, subject/process-frameworks, subject/bpmn]
-timeline: next
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [audit, systems-analysis]

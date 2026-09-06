@@ -2,7 +2,7 @@
 domain: tech
 type: framework
 tags: [subject/django]
-timeline: later
+timeline: reference
 status: wiki-only
 ---
 

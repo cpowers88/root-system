@@ -1,16 +1,16 @@
 ---
 type: map
-timeline: now
+timeline: reference
 tags: [revenue]
+updated: 2026-09-06
 ---
 
 # Index — Revenue Lab Wiki
-### Updated: July 24, 2026 (instruction set converted; lane content unchanged since July 16)
+### Updated: September 6, 2026 (current status reconciled to CASTLE; July evidence retained)
 
 ## Hub Files
 - `OPERATIONS.md` — canonical local contract: function, authority, rubric,
   evidence tiers, action safety, gate and return
-- `CLAUDE.md` — AI loader pointing at the contract
 - `HOW_TO_USE.md` — the human workflow
 - `README.md` — hub router
 
@@ -19,19 +19,21 @@ Opportunity status, priority, and review dates live in
 `00-BRAIN\CASTLE\wiki\opportunity-queue.md` and are more current than this
 index. Check it before acting on anything below.
 
-## Active
-- **[[revenue-lane-scorecard]] — the scan's ranked output + CASTLE gate result.
-  B2 and Lane A research conditionally pass; Chris controls the two external
-  approvals. START HERE.**
+## Research Record
+
+No Revenue Lab lane is active. CASTLE parks B2 and Lane A; the pages below are
+durable evidence and historical gate records, not an execution queue.
+
+- **[[revenue-lane-scorecard]] — the scan's ranked output and July 14 gate
+  record, reconciled to the current parked status.**
 - **[[yt-outlier-scanner-first-findings-2026-07-14]] — first live scanner
   evidence plus the completed 36-topic cross-market expansion: 2,615 raw unique
   candidates, 2,113 strict candidates, and a deduplicated combined top 100.
   The [no-label top-100 worksheet](<../../../02-LIBRARY/.PROJECTS/YT_Outlier_Scanner(Pause, chris)/TOP_100_CLASSIFICATION_WORKSHEET.md>)
   now includes a recording-fit pre-screen; the human table remains blank.**
-- **[[proof-led-content-strategy-decision-2026-07-16]] — strategic business
-  decision: conditional GO for one private proof capped at 90 added minutes;
-  estimated public pilot load is 1.1-1.5 hours/week only if separately approved.
-  Lane A remains compounding R&D, not the survival-income lane.**
+- **[[proof-led-content-strategy-decision-2026-07-16]] — historical conditional
+  GO for one private proof; now parked with Lane A and not authorized for
+  execution.**
 - [[revenue-lane-scan-brief]] — the scan's design: five lanes, evidence bar,
   scoring method (completed in one day, July 14)
 
@@ -51,10 +53,13 @@ index. Check it before acting on anything below.
   policies demonetize mass-produced content; folded into Lane A as a
   production method (Session 3)
 
-## Planned
+## Activation Boundary
+
 - Per-lane operating/numbers pages — only after a lane passes the gate and
   goes live
-- Prediction check ~Aug 14 (see scorecard's failure conditions)
+- The August 14 prediction check is recorded in the scorecard: B2 was blocked
+  before the market test by access; Lane A completed the technical scan but the
+  human classification/activation step remains parked.
 
 ## Parked Brainstorm Queue
 

@@ -2,7 +2,7 @@
 domain: tech
 type: framework
 tags: [subject/devops, subject/organizational-design]
-timeline: later
+timeline: reference
 status: wiki-only
 ---
 

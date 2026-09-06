@@ -2,7 +2,7 @@
 domain: technology
 type: reference
 tags: [subject/software-craft, subject/clean-code]
-timeline: later
+timeline: reference
 status: wiki-only
 source_role: reference
 use_cases: [tech-stack]

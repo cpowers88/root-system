@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/factory-physics, subject/systems-thinking, subject/scientific-method]
-timeline: next
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, ksu-support]

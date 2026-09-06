@@ -2,7 +2,7 @@
 domain: systems
 type: case-study
 tags: [subject/cost-accounting, subject/linear-programming, subject/factory-physics]
-timeline: next
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [audit, data-workflow, business-model, ksu-support]

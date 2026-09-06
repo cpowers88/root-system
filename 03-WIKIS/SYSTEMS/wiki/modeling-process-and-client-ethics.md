@@ -2,7 +2,7 @@
 domain: systems
 type: method
 tags: [subject/system-dynamics, subject/consulting-ethics, subject/modeling-process]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [client-interview, audit, process-design]

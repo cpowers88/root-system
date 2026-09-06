@@ -101,4 +101,4 @@ workflow/constraint diagnosis, operational economics and value capture, data and
 software integration, adoption, and decision communication. Run 1 strengthened
 the cross-sector value of workflow/constraint diagnosis but did not justify a
 new curriculum. Use Run 2 to identify the smallest cross-market practice that
-would improve the surviving workflow cells. Review on 2026-09-13.
+would improve the surviving workflow cells. Review on 2026-09-20.

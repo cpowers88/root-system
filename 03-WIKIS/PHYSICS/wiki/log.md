@@ -2361,3 +2361,46 @@ and confirm anything that looks like a spring date.
 - **The Quiz 01 miss still has learning value even at zero grade cost** — it is the only
   attempted-as-graded PHYS item of the semester that did not earn full marks. Still
   unidentified, still unclassified, and `View Quiz Attempts` in D2L will show it.
+
+## 2026-09-06 — Work & Energy Compressed Review (25 min, time-boxed)
+
+### Objective
+- Understand the math and relationships in the Work & Energy section: the calculus,
+  the vector math, and how the pieces connect. Hard 25-minute constraint.
+
+### Route taken
+Four blocks, ordered by dependency: dot product -> W = integral F dot dr -> work-energy
+theorem derived from F = ma via the chain rule -> potential energy and conservation as
+bookkeeping. Taught interactively with construction analogies (sled and rope for the dot
+product, variable-depth footing for the integral).
+
+### Outcome
+- Covered end to end inside the time box. Chris derived the statement of the work-energy
+  theorem himself from a crane-at-constant-speed case before it was formally derived.
+- Successful reactivation after more than six months away from this problem family.
+- Spring PE (1/2 kx^2) was derived using the corrected relationship
+  `W_spring = -delta U_spring`; the first session aid had incorrectly identified the
+  spring's negative work during stretching as the positive stored energy.
+
+### Evidence classification
+- **Reactivation win; mastery not tested.** The block was guided and ran no cold or
+  durability gate, so there is no Stage 7 mastery movement.
+- The two errors below are useful diagnostic observations, but they are not promoted to
+  `miss-log.md`: they did not occur on a graded or attempted-as-graded cold rep.
+- **Exact resume:** the one faded spring-plus-friction transfer in
+  `wiki/work-energy-25min-review.md`. Chris must set displacement direction, work signs,
+  force functions, and integral limits before arithmetic. A later changed-parameter cold
+  transfer is required before any mastery claim.
+
+### Diagnostic misses observed (2)
+1. **Concept — sign of work read off force direction rather than force vs. displacement.**
+   Right answers, wrong reference. Breaks when the displacement reverses (lowering vs.
+   lifting). Re-aim: state the displacement direction FIRST, then compare each force to it.
+2. **Notation — substitution not written into the integrand.** Left F(x) inside the
+   integral and multiplied the whole thing by -k, double-counting the constant. Reasoning
+   was correct, written form was not. Re-aim: always write the explicit substitution line
+   before pulling constants out.
+
+### Files created/updated
+- `wiki/work-energy-25min-review.md` (created)
+- `wiki/log.md` (this entry)

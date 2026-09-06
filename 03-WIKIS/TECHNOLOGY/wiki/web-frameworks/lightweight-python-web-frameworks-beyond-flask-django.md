@@ -2,7 +2,7 @@
 domain: technology
 type: reference
 tags: [subject/python]
-timeline: later
+timeline: reference
 status: wiki-only
 source_role: reference
 use_cases: [tech-stack]

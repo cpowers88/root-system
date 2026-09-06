@@ -4,11 +4,16 @@ status: conditional-go-private-proof
 tags: [revenue, youtube, content, strategy]
 created: 2026-07-16
 review: after-private-proof
-timeline: now
+timeline: parked
 ---
 
 # Proof-Led Content Strategy - Business Decision Report
 ### July 16, 2026 | Conditional GO for one private proof; no channel launch authorized
+
+> **Current status — 2026-09-06:** parked with Lane A under CASTLE
+> OPP-20260714-02. This report preserves the July decision and its evidence; it
+> does not authorize the private proof or any public action. Reactivation
+> requires Chris's direct instruction and resumes at human classification.
 
 ## Executive Decision
 

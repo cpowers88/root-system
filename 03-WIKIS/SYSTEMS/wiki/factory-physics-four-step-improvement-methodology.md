@@ -2,7 +2,7 @@
 domain: systems
 type: method
 tags: [subject/factory-physics, subject/value-stream-mapping, subject/change-management]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [audit, process-design, client-interview, ksu-support]

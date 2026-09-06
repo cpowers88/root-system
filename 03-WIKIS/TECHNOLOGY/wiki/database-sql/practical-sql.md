@@ -2,7 +2,7 @@
 domain: technology
 type: reference
 tags: [subject/sql, subject/postgresql]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: reference
 use_cases: [tech-stack]

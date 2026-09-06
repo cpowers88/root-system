@@ -2,7 +2,7 @@
 domain: technology
 type: reference
 tags: [subject/flask, subject/python]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: reference
 use_cases: [tech-stack]

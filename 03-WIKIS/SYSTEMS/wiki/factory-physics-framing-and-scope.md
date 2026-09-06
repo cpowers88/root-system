@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/operations-management, subject/factory-physics]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [audit, systems-analysis, operations-research]

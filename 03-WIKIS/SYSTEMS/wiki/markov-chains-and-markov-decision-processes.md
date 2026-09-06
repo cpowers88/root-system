@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/markov-chains, subject/markov-decision-processes, subject/steady-state-probabilities, subject/operations-research]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, operations-research, ksu-support]

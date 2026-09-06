@@ -174,10 +174,11 @@ competing loop or packet here.
 
 ## Close
 
-Log which pages were used and how. Update a page's `Ranking` or priority line
-only when its timing genuinely changed. Update `wiki\index.md` only when a page
-was added or renamed, and the coverage ledger whenever a source's disposition
-moved. State the next action in one line.
+Log which pages were used and how. Change frontmatter `timeline` only when the
+action horizon genuinely changes. An inherited body `Ranking` or reading-urgency
+line may remain as historical source context, but it never controls `timeline`.
+Update `wiki\index.md` only when a page was added or renamed, and the coverage
+ledger whenever a source's disposition moved. State the next action in one line.
 
 ## Final operating principle
 

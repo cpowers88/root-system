@@ -1,12 +1,13 @@
 ---
 type: plan
 tags: [business, revenue]
-timeline: now
+timeline: reference
+updated: 2026-09-06
 ---
 
 # Revenue Lane Scan — The First Evidence Brief
-### Created: July 14, 2026 | Status: ACTIVE — this is the hub's first deliverable
-### Driver: school-funding cut
+### Created: July 14, 2026 | Status: HISTORICAL DESIGN BRIEF — evidence reference
+### Original driver: school-funding cut; superseded by Chris's August 11/13 ruling below
 
 > **⚠ The driver was downgraded 2026-08-13 by Chris's ruling.** This brief was written on
 > July 14 against *"income needed to continue studies past Fall 2026."* **Enrollment is no
@@ -67,20 +68,20 @@ reps (the no-orphan test passes twice). The YouTube Data API is free at research
 
 ## Scoring
 
-Each lane gets the five rubric scores from `CLAUDE.md` (time-to-first-dollar,
+Each lane gets the five rubric scores from `OPERATIONS.md` (time-to-first-dollar,
 daily-footprint fit, skill overlap, compounding, variance), 1–5, with a
 one-line justification each, on its evidence page. The scan's final output:
 
 - **`revenue-lane-scorecard.md`** — the ranked table, one screen
-- **A portfolio recommendation** — likely shape: one survival lane (fast
-  money) + one compounding lane (audience/asset), each with a one-sentence
+- **A portfolio recommendation** — original likely shape: one fast-income lane
+  plus one compounding lane (audience/asset), each with a one-sentence
   proof project — taken to the CASTLE gate for the build decision
 - **What it displaces** — named honestly against the current weekly reps
 
 ## Time-box
 
 Three research sessions, target completion within one week (by ~July 21).
-Session 1: Lanes B + C (fast-money lanes — survival first). Session 2: Lane A
+Session 1: Lanes B + C (fast-income lanes). Session 2: Lane A
 (content data-scan design + platform monetization facts). Session 3: Lanes
 D + E + scorecard + portfolio recommendation. If a session's evidence comes
 up thin, the lane scores what the evidence supports — no extensions to
@@ -89,7 +90,7 @@ protect a favorite.
 ## Standing Rules for This Scan
 
 - Research never publishes, posts, or creates accounts — Chris approves all
-  consequential actions per `CLAUDE.md`.
+  consequential actions per `OPERATIONS.md` and `AGENT.md`.
 - No build work (no channel setup, no scripts, no product drafting) until the
   scorecard exists and the gate has been re-run on the recommendation.
 - Wrong estimates get recorded and kept when reality reports back —

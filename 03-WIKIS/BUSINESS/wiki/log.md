@@ -839,3 +839,25 @@ four lines above it). No content pages added or removed.
 
 - At the September 13 gate, challenge only omissions and obvious fit errors.
   Then run the workflow-level comparison without expanding Chris's review burden.
+
+## 2026-09-06 — Run 2 retrieval and date reconciliation
+
+### What changed
+
+- Replaced the ambiguous bare APQC wikilink in `index.md` with the explicit
+  cross-hub path to SYSTEMS.
+- Reconciled the Run 2 review date in the value and capability goal owners to
+  September 20; September 13 remains the Run 1 challenge gate.
+- Added CASTLE's three access-blocked tests to Run 2's entry-friction
+  instruction without treating an unrun test as demand or merit evidence.
+
+### Evidence and limits
+
+- No sector ranking, workflow hypothesis, market claim, strategy, or research
+  page changed.
+- Run 1 remains `status: review`; its September 13 challenge is still required.
+
+### Recommended next action
+
+- On September 13, challenge Run 1 omissions and obvious fit errors; then run
+  the 15–20-cell workflow comparison for the September 20 review.

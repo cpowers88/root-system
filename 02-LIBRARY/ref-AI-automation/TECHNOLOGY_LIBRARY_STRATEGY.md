@@ -1,12 +1,13 @@
 ---
 type: strategy
 tags: [ai-automation]
-timeline: now
+timeline: reference
+updated: 2026-09-06
 ---
 
 # TECHNOLOGY_LIBRARY_STRATEGY.md — The AI & Software Possibility Map
 ### Location: 02-LIBRARY\REF-AI-AUTOMATION\ | Referenced by: TechStackPriority.md and the TECHNOLOGY wiki
-### Created: July 5, 2026 | Review: monthly (with SKILL_GAP_ANALYSIS.md)
+### Created: July 5, 2026 | Review: monthly with `capability_development_goal.md`, or on a promoted workflow requirement
 
 ---
 
@@ -198,8 +199,8 @@ but use the smallest live project that exercises the rung.
 
 | Rung | Program to complete | Proof that closes the rung | Current state |
 |---:|---|---|---|
-| 1 | **Python foundation:** PYTHON Stages 3-8 (loops through algorithms/problem solving) | Independently build, debug, and explain each stage project | **Stage 3 closed 2026-07-26** on a corrected cold gate; **Stage 4 Functions active**; later packets exist but are not mastered |
-| 2 | **Data and automation:** PYTHON Stages 9-10 plus practical SQL | A useful CLI/automation tool backed by a designed SQLite schema, joins, aggregation, transactions, and tests | Tracker/scanner provide live vehicles; SQL reliability remains the July weak link |
+| 1 | **Programming foundation:** construct and debug small programs before increasing system complexity | Independently build, debug, and explain a small workflow tool tied to a visible result | Live learner state stays with the capability and owning-wiki records; CASTLE currently describes beginner technical implementation capability, not a completed software-delivery foundation |
+| 2 | **Data and automation:** reliable querying, modeling, and automation with practical SQL | A useful tool backed by a designed schema, joins, aggregation, transactions, tests, and an explained failure diagnosis | Scanner/tracker artifacts exist, but reliable data querying and modeling remain an open proof area in `capability_development_goal.md` |
 | 3 | **Decision interface:** Data Studio/Sheets, then Python visualization when justified | A refreshed dashboard that answers a named decision and shows calculation provenance | First private Data Studio rep completed July 16; decision/ROI communication still needs a real use case |
 | 4 | **Integration:** one low-code flow, then one Python API/webhook integration | Move data safely between two systems with authentication, idempotency, error handling, retries, and a human-visible failure path | Make.com landscape rep and one public-API scanner rep complete; end-to-end integration proof open |
 | 5 | **Production application:** Flask + SQLAlchemy + REST + authentication + tests | A small multi-user application with a real schema, permissions, validation, tests, and an operator handoff | Reference material exists; no complete production-style application proof |
@@ -219,19 +220,21 @@ capability requires the production disciplines in Rungs 4-6.
 
 Do not launch eight projects. Continue the existing chain:
 
-`Python Stage 3 -> scanner/tracker SQL -> decision dashboard -> one API/webhook
-integration -> one small Flask application -> deploy and operate it -> add one
-evaluated AI feature only if the workflow needs it.`
+`independent small workflow tool -> reliable SQL/data proof -> decision
+interface -> one API/webhook integration -> one small production application ->
+deploy and operate it -> add one evaluated AI feature only if the workflow
+needs it.`
 
 The eventual client-facing build should come from a verified observation. Until
 then, the tracker and scanner are safe internal practice vehicles.
 
-**July 16 gap-audit decision:** the selected first technical build is a bounded
-Scanner Reliability and Operations Console sequence: scanner SQL evidence pack ->
-pytest extraction -> retry/error policy and durable run ledger -> CI -> a read-only
-Flask operations view only if it improves real review or recovery. It does not close
-the multi-user application rung unless a genuine second-user role and permission
-boundary emerge. See
+**Historical July 16 gap-audit decision:** the selected technical sequence was a
+bounded Scanner Reliability and Operations Console: scanner SQL evidence pack ->
+pytest extraction -> retry/error policy and durable run ledger -> CI -> a
+read-only Flask operations view only if it improved real review or recovery.
+The scanner is now parked; this sequence is evidence, not active work. It does
+not close the multi-user application rung unless a genuine second-user role and
+permission boundary emerge. See
 `03-WIKIS\TECHNOLOGY\wiki\goal-aligned-technology-gap-audit-2026-07-16.md`.
 
 ---
@@ -240,9 +243,11 @@ boundary emerge. See
 
 - **Capacity-sized rep:** study one category, tool, or real use case selected by a
   live gap or decision. Feed durable evidence to the owning wiki or this map.
-  Source: Clippings, wiki `priority/now` pages, ConstructionDive tech section.
-- **Monthly:** review this file alongside SKILL_GAP_ANALYSIS.md. Reprioritize
-  categories against the permanent capability base, current strategy, and live proof.
+  Enter through the owning wiki index, a verified current source, or a promoted
+  Watchtower signal; do not use inherited reading-priority tags as a work queue.
+- **Monthly:** review this file alongside `capability_development_goal.md`.
+  Reprioritize categories against the permanent capability base, current
+  strategy, and live proof.
 - **No orphan knowledge:** every category studied must connect to a fixed
   commitment, active capability gap, live workflow/project, degree-linked
   employability need, or current strategy assumption.
@@ -252,33 +257,28 @@ boundary emerge. See
 
 ---
 
-## Current State — July 21, 2026
+## Current State — September 6, 2026
 
-**Stale-claim correction, 2026-07-26:** the paragraph below described Stage 3 as
-active and mid-drill. **Stage 3 closed July 26** on a cold gate (`stage3_gate.py`,
-pass with correction) and **Stage 4 Functions is now active** — matching CSE 1321
-Module 3, which the course itself does not reach until roughly week 7. The full
-spine reconciliation, including the capability-trace rows, is scheduled for the
-**August 1 monthly review**; only this factual staleness is corrected here, so a
-known-false stage claim does not stay live for six days.
+Current capability order lives in `capability_development_goal.md`; proof state
+lives in CASTLE and the owning evidence records. This map interprets their
+technology implications and does not copy learner stages.
 
-**Demonstrated movement (as written July 21):** Python Stages 0-2 are satisfied; Stage 3 is active and
-mid-drill at `break`/`continue`. The Academic Tracker V1 shipped on Python/SQLite
-and now waits for verified course data around July 25. Revenue Lab's bounded scanner
-exercised Python, SQLite, and a public API. The first Make.com landscape rep was
-completed July 9. Goal/TOC material and construction-domain knowledge are available
-for workflow analysis.
+**Demonstrated movement:** the tracker and Revenue Lab scanner demonstrate
+exposure to Python, SQLite, and a public API; a private Data Studio rep and a
+Make.com landscape rep also exist. These artifacts are useful evidence, but
+generated or assisted artifacts do not establish independent capability on
+their own. The scanner is parked and is not a current vehicle.
 
-**Live gaps (in priority order):**
-1. SQL remains the July monthly weak link; the next meaningful proof is using the
-   tracker with verified real course data, not expanding V2 speculatively.
-2. Category 3's first private Data Studio dashboard rep was completed July 16.
-   The remaining gap is turning a real decision and defensible calculation into a
-   visual another person can use.
-3. API use is no longer zero, but end-to-end integration depth, failure handling,
-   authentication, and vendor-neutral selection judgment remain early.
-4. Production application operation and ROI math remain open: no complete app has
-   yet been deployed/recovered, and no real recommendation has been costed.
+**Live technology implications, in owner order:**
+1. Independently construct, debug, and explain a small workflow tool before
+   opening a larger application stack.
+2. Prove reliable data querying and modeling on permitted verified project data,
+   including schema/query/result explanation and one diagnosed failure.
+3. Turn one real workflow or decision into an interface another person can use,
+   only after the workflow and value question are clear.
+4. End-to-end integration, production operation/recovery, governed AI, and ROI
+   math remain later proof layers; the reference corpus is ready when a promoted
+   workflow requirement activates one.
 
 **Sequencing rule:** prerequisites and the monthly weak-link review guide the next
 rep, but there is no permanent tool-by-tool lock. Prefer the smallest real project
@@ -286,4 +286,4 @@ or decision that exercises the live gap without displacing school or verified wo
 
 ---
 *One file, one map. Wiki refines; this file operationalizes; real use turns it into decisions and value.*
-*Last updated: July 21, 2026 (W0 current-state and capability-first value reconciliation; July 5 weak-link ranking preserved until the August monthly review) | Next review: August 1, 2026*
+*Last updated: September 6, 2026 | Next review: monthly with the capability goal, or when Strategic Landscape work promotes a concrete workflow requirement.*

@@ -2,7 +2,7 @@
 domain: systems
 type: concept
 tags: [subject/mrp, subject/manufacturing-history, subject/factory-physics]
-timeline: next
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [audit, systems-analysis, ksu-support]

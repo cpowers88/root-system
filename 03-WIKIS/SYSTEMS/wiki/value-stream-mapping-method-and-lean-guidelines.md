@@ -2,7 +2,7 @@
 domain: systems
 type: method
 tags: [subject/value-stream-mapping, subject/lean-manufacturing, subject/pull-systems]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [audit, process-design, systems-analysis, client-interview]

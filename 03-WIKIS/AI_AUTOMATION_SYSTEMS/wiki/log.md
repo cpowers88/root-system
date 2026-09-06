@@ -1986,3 +1986,17 @@ reference back matter rather than an ingestion backlog.
   was created. No `raw\` file was touched.
 - **Next exact action:** complete the Aug 24 D2L Day One reconciliation, check the read-only
   calendar feed, and measure real retrieval friction before opening any tool pilot.
+
+## 2026-09-06 — Proposal and action-horizon truth repair
+
+- Reclassified `agents/agent-vetting-worked-examples.md` from `now` to
+  `reference`; it remains valid research and a worked evaluation aid.
+- Moved the approved-design HIGH-flag hook proposal from `now` to `next`,
+  matching live flag #93's MEDIUM priority and the absence of an active system
+  build in `NOW.md`.
+- Reviewed the four proposals whose `check_at: 2026-08-24` fired with blank
+  outcome/verdict fields. No verdict was invented: each requires Chris or its
+  owning review mechanism to choose keep, modify, or revert from current
+  evidence.
+- **Next exact action:** disposition those four proposal checks in one bounded
+  review; record outcome evidence and a keep/modify/revert verdict on each.

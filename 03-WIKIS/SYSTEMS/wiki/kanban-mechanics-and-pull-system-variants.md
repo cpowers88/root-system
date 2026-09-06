@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/kanban, subject/pull-systems, subject/inventory-control, subject/factory-physics]
-timeline: next
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [process-design, systems-analysis, ksu-support]

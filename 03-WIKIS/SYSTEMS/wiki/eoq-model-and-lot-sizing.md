@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/eoq, subject/inventory-control, subject/factory-physics]
-timeline: next
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, operations-research, ksu-support]

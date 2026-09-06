@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/factory-physics, subject/internal-benchmarking, subject/throughput-wip-cycle-time]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: [primary, example]
 use_cases: [audit, data-workflow, systems-analysis]

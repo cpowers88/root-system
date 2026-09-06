@@ -399,3 +399,24 @@ current state for Lane A.
 - **No lane score, gate result, authorization, or proof status changed.** Reactivation
   still requires Chris's direct instruction, and resumes at human classification.
 - **`check_at` for OPP-20260714-02 is 2026-08-23**, in the pre-semester Sunday return.
+
+## 2026-09-06 — Current strategy and CASTLE reconciliation
+
+- Corrected `OPERATIONS.md` to the August 11/13 ruling: continuity income is a
+  meaningful target, not an enrollment or survival gate, and does not
+  automatically outrank school, system quality, compounding capability, or the
+  2031 North Star.
+- Reclassified the index, scorecard, scan brief, scanner findings, and all five
+  lane evidence pages to `reference`. Reclassified the conditional proof-led
+  content decision to `parked` with CASTLE OPP-20260714-02.
+- Removed the nonexistent hub `CLAUDE.md` pointer and replaced two dead rule
+  sources in the scan brief with `OPERATIONS.md` / `AGENT.md`.
+- Recorded the August 14 prediction disposition without manufacturing market
+  failure: B2 never reached its conversation because access was not workable;
+  Lane A completed the approved technical scanner and market evidence, while
+  human classification and any channel decision remain parked.
+- Preserved every July score, source claim, gate result, and research page as
+  dated evidence. No lane was invalidated and no new strategy or authorization
+  was created.
+- **Next exact action:** none while CASTLE keeps both lanes parked. Reactivation
+  requires Chris's direct instruction and a fresh gate with current inputs.

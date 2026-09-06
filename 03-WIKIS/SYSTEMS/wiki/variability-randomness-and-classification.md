@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/factory-physics, subject/variability, subject/coefficient-of-variation]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, audit, data-workflow]

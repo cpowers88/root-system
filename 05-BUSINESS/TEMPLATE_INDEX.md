@@ -22,9 +22,12 @@ Ready-to-use working documents. Copy each into your own docs system, customize f
 | Template | Use when |
 |---|---|
 | [[01-Audit Templates/workflow-observation-question-sequence|Workflow Observation Question Sequence]] | First live workflow proof; exact question order, evidence gates, and post-session scoring |
+| [[01-Audit Templates/OBSERVATION_METHODOLOGY|Observation Methodology]] | Planning and running an observation-based workflow diagnosis |
+| [[01-Audit Templates/ONE_PAGE_FINDINGS_FORMAT|One-Page Findings Format]] | Compressing observed problems and recommendations for an owner |
 | [[01-Audit Templates/audit-intake-questionnaire|Audit Intake Questionnaire]] | Sent on audit signing, before day 1 |
 | [[01-Audit Templates/audit-interview-guide|Audit Interview Guide]] | Owner and staff interviews, days 2–4 |
 | [[01-Audit Templates/audit-report-template|Audit Report Template]] | The deliverable, days 10–14 |
+| [[01-Audit Templates/TECHNOLOGY_AUDIT_REPORT_TEMPLATE|Technology and Operations Audit Report]] | A full technology-and-operations report when the engagement scope requires it |
 
 ## Delivering
 | Template | Use when |

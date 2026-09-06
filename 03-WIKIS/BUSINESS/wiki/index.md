@@ -23,7 +23,7 @@ When the question is **where to aim**, use this order:
    economy from industry to workflow, buyer, value leak, and possible vehicle.
 2. [[evidence/opportunity-landscape-run-1-sector-screen|Run 1 Sector Screen]] —
    current broad-sector evidence and the preliminary two-view frontier.
-3. [[apqc-process-classification-framework|APQC Process Classification
+3. [[../../SYSTEMS/wiki/apqc-process-classification-framework|APQC Process Classification
    Framework]] plus the SYSTEMS wiki — compare business functions and reusable
    operating patterns, including supply chain, flow, variability, inventory,
    scheduling, and decision systems.

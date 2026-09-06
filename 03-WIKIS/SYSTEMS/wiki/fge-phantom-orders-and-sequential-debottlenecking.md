@@ -2,7 +2,7 @@
 domain: systems
 type: case-study
 tags: [subject/system-dynamics, subject/phantom-orders, subject/bottleneck-management, subject/sequential-debottlenecking]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: example
 use_cases: [systems-analysis, supply-chain, audit]

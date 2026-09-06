@@ -2,7 +2,7 @@
 domain: systems
 type: method
 tags: [subject/system-dynamics, subject/time-horizon, subject/endogenous-explanation, subject/model-boundary]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [systems-analysis, audit, client-interview]

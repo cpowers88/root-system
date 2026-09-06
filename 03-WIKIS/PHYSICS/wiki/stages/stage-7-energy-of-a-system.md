@@ -82,7 +82,7 @@ See [[../flashcards/stage-7-energy-of-a-system]] and `wiki/glossary/`.
 ## Diagrams / Visual Models
 
 1. **Work diagram**: Draw the force vector F and the displacement vector d with angle θ between them. Label F cos θ as the component that does work.
-2. **F-x graph (Hooke's Law)**: Horizontal axis = x (spring displacement); vertical axis = F = −kx. The work done by the spring equals the area under this graph (a triangle = ½kx²).
+2. **F-x graph (Hooke's Law)**: Horizontal axis = x (spring displacement); vertical axis = F = −kx. The spring's work is the **signed** area under this graph. The triangle's magnitude is ½kx²; the sign depends on the direction of travel.
 3. **Energy bar charts**: Before/after columns showing K and U bars — a visual bookkeeping tool for energy problems.
 
 ## Calculus Connections
@@ -95,7 +95,8 @@ Work by a varying force requires integration:
 W = ∫(x_i → x_f) F_x dx
 ```
 
-- The spring force F_s = −kx is a varying force. Integrating: W_spring = ∫₀ˣ (−kx) dx = −½kx²
+- The spring force F_s = −kx is a varying force. During stretching from 0 to x:
+  W_spring = ∫₀ˣ (−kx) dx = −½kx², so ΔU_spring = −W_spring = +½kx².
 - The area under an F vs. x graph equals the work done.
 - Force from potential energy: F_x = −dU/dx (derivative of potential energy with respect to position).
 
@@ -109,6 +110,10 @@ W = ∫(x_i → x_f) F_x dx
 
 - [[../worked-examples/work-energy-speed-example]] — use work-energy theorem to find final speed
 - [[../worked-examples/spring-compression-example]] — compress a spring, find energy stored and force
+
+## Session Aid
+
+- [[../work-energy-25min-review]] — compressed reactivation review; contains the exact next faded transfer and does not represent mastery evidence
 
 ## Drills
 

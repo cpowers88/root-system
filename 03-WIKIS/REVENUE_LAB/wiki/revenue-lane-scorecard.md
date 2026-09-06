@@ -1,12 +1,18 @@
 ---
 type: dashboard
 tags: [business, revenue]
-timeline: now
+timeline: reference
+updated: 2026-09-06
 ---
 
 # Revenue Lane Scorecard — Ranked Output of the July 14 Scan
 ### All three scan sessions complete (one day, not the week budgeted)
 ### Scores use the evidence-only standard set by Codex's July 14 independent audit
+
+> **Current status — 2026-09-06.** This is a dated research and gate record, not
+> an active dashboard. CASTLE parks B2 for lack of a workable access path and
+> Lane A on Chris's direct pause. The July scores and gate reasoning remain
+> useful; neither lane is authorized as current work.
 
 ## The Ranked Table
 
@@ -39,15 +45,15 @@ not determine the recommendation.
    for B's product spec and A's traffic; E dissolves into A's production
    method.
 
-## Portfolio Recommendation (to the CASTLE gate — Chris decides)
+## Historical Portfolio Recommendation (July 14; superseded by CASTLE status)
 
-**Survival track — B2 first test now.** Proof sentence: *"Hold the
+**July 14 B2 test recommendation.** Proof sentence: *"Hold the
 change-order replay conversation with one contractor friend, ask what they'd
 pay for remote estimate/change-order support, and target one paid engagement
 within three weeks."* Displacement: one conversation — effectively none; the
 conversation was already owed.
 
-**Compounding track — A's data scan, research phase only.** Proof sentence:
+**July 14 Lane A research recommendation.** Proof sentence:
 *"Build the YouTube outlier scanner (views ÷ channel median) on the tracker's
 Python/SQLite stack and produce a niche shortlist with real numbers within
 two weeks."* Displacement: absorbs the SQL off-day segments (it IS SQL/API
@@ -55,8 +61,8 @@ practice). Needs Chris's OK for the API key (account-adjacent). No channel,
 no filming, no posting — that decision comes back to the gate with the
 shortlist data.
 
-**Explicitly not now:** D (wait for B+A), C (fallback), E (closed), and any
-channel launch, account creation, or content production.
+The July 14 recommendation excluded D, C, E, channel launch, account creation,
+and content production. Current activation is governed only by CASTLE.
 
 ## Honest Failure Conditions (recorded so reality can score us later)
 
@@ -65,9 +71,13 @@ channel launch, account creation, or content production.
 - If the data scan shows no niche where outlier-rate, RPM, and Chris's real
   material overlap — A's channel decision dies with the data, cheaply, before
   any hours went into filming.
-- Predictions to check ~August 14: B2 first paid engagement within 3 weeks of
-  the conversation (yes/no); data-scan niche shortlist produced within 2 weeks
-  of API-key approval (yes/no).
+- **August 14 prediction disposition, recorded 2026-09-06:** B2 produced no paid
+  engagement because the enabling conversation never ran; CASTLE records the
+  cause as lack of a workable access path, so this is not evidence that the
+  market rejected the offer. Lane A met the technical side of its prediction:
+  the approved key, scanner, 36-topic scans, and combined top-100 evidence were
+  completed in July. Human classification and any content/channel decision did
+  not activate and remain parked.
 
 ## CASTLE Gate Re-run — July 14, 2026 (Codex)
 
@@ -77,7 +87,7 @@ channel launch, account creation, or content production.
 |---|---|---|
 | No-orphan | PASS | Supports school continuity and the existing construction/audit wedge. |
 | Source | PASS, bounded | Paid estimating work is documented; Chris-specific demand remains what the proof tests. |
-| Phase | PASS | The funding constraint makes a bounded survival test current-phase. |
+| Phase | PASS (July 14 context) | The then-current funding concern made a bounded test relevant; the August 11/13 ruling removed any survival or enrollment-gate framing. |
 | Displacement | PASS | One conversation was already owed to the audit observation track. |
 | Proof | PASS | Replay one change order, ask whether the contractor would pay for remote estimating/change-order support, and record the answer. |
 

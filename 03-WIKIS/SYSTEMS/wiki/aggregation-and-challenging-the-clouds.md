@@ -2,7 +2,7 @@
 domain: systems
 type: case-study
 tags: [subject/system-dynamics, subject/stocks-and-flows, subject/model-boundary, subject/recycling]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: example
 use_cases: [systems-analysis, process-design, audit]

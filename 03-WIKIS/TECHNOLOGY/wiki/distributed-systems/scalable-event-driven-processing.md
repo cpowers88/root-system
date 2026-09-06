@@ -2,7 +2,7 @@
 domain: tech
 type: concept
 tags: [subject/event-streaming]
-timeline: later
+timeline: reference
 status: wiki-only
 ---
 

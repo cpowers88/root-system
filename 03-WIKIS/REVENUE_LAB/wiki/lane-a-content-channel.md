@@ -1,7 +1,7 @@
 ---
 type: reference
 tags: [business, revenue]
-timeline: now
+timeline: reference
 ---
 
 # Lane A — Content Channel, Data-Driven (YouTube / TikTok)

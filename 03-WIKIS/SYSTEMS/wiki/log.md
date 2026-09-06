@@ -734,3 +734,21 @@ its own `raw/` the same way.
 - Extended [[evidence-quality-and-research-data-governance]] with the paper's field-specific 103-dataset reuse audit and ten-step FAIR-to-operational sequence.
 - Routed the source into SYSTEMS `raw/`; the ledger now accounts for 36 substantive files.
 - Routed a seven-page KSU DegreeWorks audit to `04-SCHOOL\KSU_degree_works_2026-08-02.pdf`; it contains private student data and was not copied into a wiki.
+
+## 2026-09-06 - Action-axis and retrieval cleanup
+
+- Clarified `OPERATIONS.md`: frontmatter `timeline` is the action horizon;
+  inherited body Ranking/reading-urgency lines are historical context and never
+  control it.
+- Repaired five fast-retrieval examples that still combined a valid subject tag
+  with the retired `priority/now` control tag. They now use the live
+  `tag:#subject/...` query plus the existing search phrases.
+- Preserved every concept, source claim, body ranking, and research page.
+- Corrected all 98 `status: wiki-only` pages whose inherited reading priority
+  occupied `timeline`: 73 `now`, 24 `next`, and 1 `later` became `reference`;
+  body rankings and research content were untouched.
+- Bulk safety evidence: WSL `safe_shell.sh --selftest` PASS; disposable-copy
+  proof PASS for 98/98 SYSTEMS files as part of the 201-file combined set; live
+  transform PASS with zero selector remainder.
+- **Next exact action:** use the index and topic tags for Run 2 retrieval; change
+  `timeline` only when a real owner activates a page.

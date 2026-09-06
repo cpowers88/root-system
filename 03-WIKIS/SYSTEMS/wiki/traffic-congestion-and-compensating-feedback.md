@@ -2,7 +2,7 @@
 domain: systems
 type: case-study
 tags: [subject/system-dynamics, subject/causal-loop-diagrams, subject/policy-resistance, subject/compensating-feedback]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: example
 use_cases: [systems-analysis, audit, process-design]

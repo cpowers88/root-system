@@ -2,7 +2,7 @@
 domain: technology
 type: reference
 tags: [subject/api-security, subject/client-engagement]
-timeline: next
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [audit]

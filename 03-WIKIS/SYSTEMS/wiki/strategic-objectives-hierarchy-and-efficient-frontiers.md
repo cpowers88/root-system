@@ -2,7 +2,7 @@
 domain: systems
 type: framework
 tags: [subject/factory-physics, subject/strategy, subject/systems-thinking]
-timeline: now
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [audit, business-model, client-interview, ksu-support]

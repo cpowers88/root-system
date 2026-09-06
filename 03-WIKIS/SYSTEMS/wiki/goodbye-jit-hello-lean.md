@@ -2,7 +2,7 @@
 domain: systems
 type: source-summary
 tags: [subject/lean-manufacturing, subject/six-sigma, subject/quality-management, subject/manufacturing-history, subject/factory-physics]
-timeline: next
+timeline: reference
 status: wiki-only
 source_role: primary
 use_cases: [audit, business-model, ksu-support]
