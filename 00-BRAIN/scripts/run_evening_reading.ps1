@@ -6,6 +6,16 @@ $instructionPath = Join-Path $rootPath "00-BRAIN\EVENING_READING_INSTRUCTIONS.md
 $outputPath = Join-Path $rootPath "EVENING_READING.md"
 $claudePath = (Get-Command claude.exe -ErrorAction Stop).Source
 
+# The standing 17:00 reading workflow was parked by Chris on 2026-09-05 and
+# removed from the live runtime on 2026-09-06. Keep this entry point harmless if
+# an old Scheduled Task still calls it; on-demand reading now runs inside TUTOR
+# or VALUE and does not replace a root dashboard.
+$instructionText = Get-Content -LiteralPath $instructionPath -Raw
+if ($instructionText -match '(?m)^status:\s*parked\s*$') {
+    Write-Output "Evening reading is parked; no file changed."
+    exit 0
+}
+
 $prompt = @"
 Follow the live instruction file at $instructionPath using read-only inspection of $rootPath.
 Return only the complete Markdown for $outputPath, including valid frontmatter and whichever blocks that file requires tonight.

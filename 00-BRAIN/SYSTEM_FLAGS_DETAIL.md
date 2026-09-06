@@ -7,10 +7,11 @@ tags: [governance]
 
 # SYSTEM_FLAGS_DETAIL.md — Open Flag Forensics
 
-### Location: 00-BRAIN\ | **NOT loaded at session start.** Open this when *working* a flag.
+### Location: 00-BRAIN\ | **NOT loaded at ordinary session start.** Open this when working a flag or running a full system/file review.
 
-**`00-BRAIN\SYSTEM_FLAGS.md` is the always-loaded operational register** — it carries what a
-session must not do, and one row per open flag. This file carries the measurement history,
+**`00-BRAIN\SYSTEM_FLAGS.md` is the conditional operational register** for file-writing,
+system, review, security, backup, migration, or known-risk work. It carries live
+prohibitions and one row per open flag. This file carries the measurement history,
 what was tried, which probe was wrong, and the provenance disputes. Split 2026-08-13 (T2 /
 Phase D), because the register was 29% of every session's boot load and the only component
 growing without bound.
@@ -27,6 +28,11 @@ do, that is a defect — report it.
 
 Closed flags are not here. They live in
 `00-BRAIN\Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md`.
+
+**September 6 update:** flag #91 re-raised HIGH on the standing second-propagation-
+miss rule and closed through the approved runtime rewrite. The permanent evidence
+record is `Closed Flags\CLOSED_FLAGS_2026-09.md`; the superseded runtime is preserved
+under `99-ARCHIVE\ARCHIVED_2026-09-06_runtime-v2`.
 
 ---
 

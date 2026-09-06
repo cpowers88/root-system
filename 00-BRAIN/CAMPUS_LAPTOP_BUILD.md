@@ -194,8 +194,9 @@ git clone https://github.com/<user>/root-system.git C:\Users\<user>\.ROOT
 the cautionary example already in `LOCAL_MACHINE_MAP.md`:
 
 1. **The desktop stays canonical.** The laptop clone is a working copy, never the source of truth.
-2. **Pull at the start of every campus session; commit and push at the end.** This is the
-   `EVENING_READING.md` / session-close rhythm, applied to a second machine.
+2. **Pull before editing; commit and push only after a coherent, reviewed change.**
+   The laptop uses the same TUTOR/VALUE boundary as the desktop; no standing
+   evening-reading or per-session close ritual is required.
 3. **`88-JOURNAL` never reaches this machine.** Git already guarantees it — do not defeat it by
    copying folders across manually.
 4. **Coursework in progress is the one thing that lives here first.** Push it the same day, or

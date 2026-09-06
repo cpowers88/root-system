@@ -2692,3 +2692,118 @@ and miss-log 5b in the relocated lead block.
 - **Control returned to the cockpit.** `NOW.md` is under 600 words and names
   VALUE/capability assessment as the active lane. **Next exact action:** Capability
   Baseline 2, then the operating-history interview before current-market research.
+
+## 2026-09-05 — Capability interview establishes the domain base; programming-hub duplication held
+
+- **Leading evidence, not final specialization:** Chris's strongest demonstrated base is
+  construction operations—plan interpretation, material and crew sequencing, schedule recovery,
+  physical problem-solving, and documented stop-work controls. The golf-course clubhouse case
+  supplies the best external proof; its estimated four-month recovery remains directional until
+  corroborated.
+- **Programming boundary:** Python began from zero and now has independently verified beginner
+  evidence through Stage 4; software production is not yet proven. Treat code as leverage on the
+  mature domain, not as a replacement identity.
+- **Learning decision:** show a visible finished capability before teaching its components. The
+  existing tool-capability layer must become part of the lived path, not remain a reference Chris
+  does not see.
+- **Architecture hold:** no second programming wiki or folder rename was created. The existing
+  PYTHON hub already owns future language extension; an official CSE 1322 source and Chris-approved
+  design must precede Java-oriented structural work. C is unconfirmed.
+- **Control returned to the cockpit. Next exact action:** resume the interview by recording Chris's
+  top three preferred company activities.
+
+## 2026-09-05 — Interview closes; broad ingestion rejected in favor of applied retrieval
+
+- **Interview result:** Chris's strongest demonstrated base is construction operations and his
+  preferred founder role is observe → diagnose → design. The major economic development need is
+  value capture—measurement, ownership, finance, pricing, negotiation, and a repeatable method—
+  while programming develops as implementation leverage.
+- **Current market check:** Census, BLS, AGC, NAR, SBA, ASQ, APQC, and Lean Enterprise Institute
+  evidence supports demand for efficiency analysis, uneven AI adoption, practical process methods,
+  and the economic value of management/operations analysis. Vendor survey claims remain directional.
+- **Profit gate on broad business/workflow ingestion: REJECT.** No-orphan, source, and phase tests
+  pass; displacement and proof fail. BUSINESS already contains the Advisor-Builder learning route
+  and SYSTEMS contains the deeper optimization corpus. More accumulation would consume Chris's
+  roughly two-hour weekly budget without producing evidence.
+- **Replacement:** retrieve one method at a time, show the finished audit artifact first, and apply
+  each concept to one permitted workflow. Construction operations diagnosis is the strategic lead;
+  a sanitized real-estate intake debrief is the accessible rehearsal; construction software remains
+  a later result of repeated findings.
+- **Control returned to the cockpit. Next exact action:** when Chris has two hours, run Value Block 1.
+
+## 2026-09-05 — Delegated opportunity-landscape research passes as a bounded proposal
+
+- Chris corrected the frame: the desired research is not an open-ended reading
+  program for him. It is delegated, top-down investigation of industries,
+  professional functions, supply chains, value leaks, and business models while
+  school occupies his attention.
+- **Profit-gate verdict: PASS as a four-week proposal, not yet activated.** It serves
+  CURRENT_STRATEGY S-06 and the value proof ladder; existing Tier 1–2 sources support
+  the research base; it displaces ad hoc intake only if Chris's review burden is
+  capped; and its proof is a sourced opportunity landscape, ranked top three, and
+  one disconfirming case.
+- Construction is retained as the incumbent comparison because of demonstrated fit,
+  not selected in advance. Applied Value Blocks remain the reality test for whichever
+  opportunity survives the broader comparison.
+- No strategy, goal, cockpit, automation, or wiki architecture changed. Next gate is
+  Chris's review of the implementation plan, including the supervised pilot, single-
+  writer boundary, and review budget.
+
+## 2026-09-06 — Strategic Landscape pilot activated
+
+- **Authority:** Chris approved the proposed direction and asked for immediate
+  implementation in `.ROOT`.
+- **Architecture:** `VALUE.md` now distinguishes broad Strategic Landscape
+  research from Applied Proof. BUSINESS owns the landscape; SYSTEMS supplies
+  process patterns; CASTLE receives only promoted candidates. One lead agent owns
+  every vault write; research workers are read-only and return packets.
+- **Gate:** four supervised runs close October 4. The pilot must produce a broad
+  sector screen, workflow heatmap, business-model/fit comparison, and adversarial
+  final recommendation. It stops after two source-accumulation runs with no
+  decision movement.
+- **Strategy movement:** CURRENT_STRATEGY S-06 is active. Construction and real
+  estate are incumbent evidence, not protected answers. Absolute ceiling and
+  Chris's probability-adjusted path remain separate.
+- **Automation boundary:** recurrence stays locked until three supervised runs
+  pass typical, regulated-edge, weak-source, and recovery cases. No automation
+  was scheduled in this change.
+- **Control returned to cockpit:** Strategic Landscape Run 1 is the active VALUE
+  action; first compressed review is September 13.
+
+## 2026-09-06 — Strategic Landscape Run 1 returned
+
+- **Packet:** 13-sector screen with current government-source anchors, stated
+  workflow hypotheses, confidence, and separate ceiling versus
+  probability-adjusted frontiers.
+- **Movement:** Run 1 is complete for review; Run 2 becomes the next proof.
+  Supply chain is treated as a cross-sector workflow field. Construction remains
+  the incumbent fit benchmark and receives no protected winner status.
+- **Gate:** no candidate enters the opportunity queue from sector scale alone.
+  Run 2 must name the buyer, economic failure, workaround, entry constraint,
+  smallest proof, and disconfirmation condition before promotion.
+- **Boundary:** no outreach, build, spending, automation, or learning curriculum
+  was activated. The page remains in review because no independent challenger
+  was available during this calibration run.
+
+## 2026-09-06 — `.ROOT` runtime rewrite implemented
+
+- **Decision:** Chris approved rewriting the live operating model while preserving
+  the vault, evidence, knowledge, North Star, TUTOR/VALUE split, and safety.
+- **Diagnosis:** technical health was green while system work displaced capability
+  and market proof; the September 5 lane ruling remained contradicted by live
+  weekly-school and evening-reading instructions. That second propagation miss
+  re-raised flag #91 HIGH.
+- **Implementation:** the Action Kernel is now the sole universal loop; TUTOR is
+  on-demand learning, VALUE holds three proof-oriented modes, CASTLE is periodic
+  diagnosis, and NOW is the only root current-state surface. Superseded controls
+  are preserved under `99-ARCHIVE\ARCHIVED_2026-09-06_runtime-v2`.
+- **Measured reduction:** twelve control files, including the flag register,
+  fell from 20,439 to 6,258 words (approximately 69.4%); ordinary orientation
+  is about 3,096 words before the selected lane, or about 2,203 for a narrow
+  task that does not need CHRIS_CORE.
+- **Validation:** boot semantics, CASTLE freshness, strict wiki lint, root health,
+  whitespace, and the parked evening-reading no-write test passed. #91 closed in
+  the same session; fresh-context behavior and 14-day usefulness remain the
+  September 20 acceptance gate.
+- **Control returned to cockpit:** the next system action is one natural fresh-task
+  route test; otherwise work returns to TUTOR or VALUE from Chris's request.

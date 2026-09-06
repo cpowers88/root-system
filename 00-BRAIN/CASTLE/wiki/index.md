@@ -5,9 +5,9 @@ reference_priority: core
 tags: []
 ---
 
-# Index — Every Live Page in CASTLE
+# CASTLE Index — Live Surfaces and Preserved Reference
 
-### Updated: **August 30, 2026** — Week 2 plan registered after the Sunday return. Prior: August 22, 2026 (Codex auto-load pointer added to the root-file catalog)
+### Updated: **September 6, 2026** — runtime rewritten; full catalog preserved without making every page part of the default load.
 
 This is a discovery index, not a second current-state dashboard. Live action belongs to `.ROOT\NOW.md`; baseline and proof state belong to [[current-position]] and the owning domain systems.
 
@@ -22,23 +22,25 @@ This is a discovery index, not a second current-state dashboard. Live action bel
 
 ## External Direction and Action Interfaces
 
-- `.ROOT\MORNING_BRIEF.md` — generated three-line morning decision interface over live owner truth
+- `.ROOT\MORNING_BRIEF.md` — optional three-line brief generated only when Chris requests it
 - `.ROOT\NOW.md` — current-action interface
-- `.ROOT\EVENING_READING.md` — generated two-block (School + Technology) prerequisite reading assignment
+- `.ROOT\TUTOR.md` — on-demand school learning entrance
+- `.ROOT\VALUE.md` — capability, business, research, and building entrance
+- `.ROOT\EVENING_READING.md` — parked historical interface; no standing assignment
 - `01-NORTH_STAR\NORTH_STAR.md` — durable direction
 - `01-NORTH_STAR\Goals & Milestones\CURRENT_STRATEGY.md` — current business strategy under test
 
 ## Wiki Entrance and Core Maps
 
 - [[README]] — wiki entry router
-- [[north-star-roadmap]] — long-range sequence
-- [[current-position]] — monthly baseline and **the single home of cross-domain capability state** (ruled 2026-08-19, flag #103)
-- [[phase-map]] — phase structure and exit logic (Phase 0 closed 2026-08-19)
-- [[skill-map]] — capability horizons and activation criteria; holds no state
+- [[north-star-roadmap]] — reference long-range sequence; North Star and CURRENT_STRATEGY own live direction
+- [[current-position]] — compact cross-system evidence snapshot
+- [[phase-map]] — reference phase model; not a current-action owner
+- [[skill-map]] — reference capability horizons; holds no live state
 - [[source-map]] — roadmap-shaping evidence
 - [[opportunity-queue]] — opportunities moving from evidence to test or harvest
 - [[root-architecture-evidence-refinery-2026-07-24]] — superseded interim hypothesis register produced before the full eight-source intake; retained for traceability, not implementation authority
-- [[campus-execution-interface-decision-2026-08-27]] — proposed Fall 2026 control-plane/campus-execution split; compares five access models and recommends a four-day Campus Bridge pilot
+- [[campus-execution-interface-decision-2026-08-27]] — preserved historical proposal; no live runtime authority
 - `00-BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\SESSION_INDEX.md` — canonical final architecture packet, implementation authority, and review handoff
 - [[log]] — append-only CASTLE history
 
@@ -116,5 +118,5 @@ owns live D2L execution. Session Logs own retrospective reviews.
   execution plan
 - [[weekly-plans/school-week-simulation-spec-2026-07-27]] — approved workload
   basis for the 32-block simulation; the weekly plan owns live scheduling
-- [[pre-semester-python-push-2026]] — four-week module sequence, July 27 to
-  August 23; feeds each Sunday's weekly plan, holds no learner truth
+- [[pre-semester-python-push-2026]] — closed four-week module sequence, July 27
+  to August 23; preserved as history and holds no learner truth

@@ -75,6 +75,25 @@ anything under it without Chris explicitly authorizing the named exception.
 4. File the result only when it is durable, reusable, and has one clear owner.
 5. Do not convert a conversation, idea, or estimate into strategy or proof.
 
+### LANDSCAPE
+
+Use when the question is where Chris should aim, rather than how to serve an
+already selected market.
+
+1. Define the comparison level and decision it must improve.
+2. Screen broadly by industry, business function, workflow, value leak, buyer,
+   and possible business vehicle before deep research.
+3. Describe surviving candidates as opportunity cells using the packet in
+   `wiki\evidence\market-map.md`.
+4. Rank absolute ceiling separately from Chris's probability-adjusted path;
+   show evidence quality and a disconfirmation condition.
+5. Return at most three material candidates to the lead agent. Only the lead
+   integrates the result, and only candidates meeting CASTLE's entry contract
+   reach the opportunity queue.
+
+An unattended research worker is read-only inside `.ROOT`. Its completion
+criterion is a traceable packet or an explicit no-change result, not a wiki edit.
+
 ### LINT
 
 Check:

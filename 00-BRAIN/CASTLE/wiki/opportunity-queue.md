@@ -21,6 +21,8 @@ notes, wiki research, project files, or `SYSTEM_FLAGS.md`.
 - **client lead** — a named prospect or real request;
 - **observed waste** — a repeatable operational problem backed by a field note;
 - **technology opportunity** — a tool/capability with a plausible value path;
+- **strategic opportunity** — a sourced industry × workflow × buyer thesis that
+  survived the BUSINESS landscape screen but has not yet earned market proof;
 - **learning-to-application** — knowledge ready for a real use or proof.
 
 Internal `.ROOT` friction stays in `SYSTEM_FLAGS.md`. Link a flag here only when
@@ -33,8 +35,21 @@ it independently becomes a commercial or strategic opportunity.
 - Client leads enter at `triaged`, priority `urgent`, with an immediate next
   action. External contact, pricing, or commitment still requires Chris approval.
 - Other signals enter at `captured` and move only when the named criterion is met.
+- A Strategic Landscape candidate enters only after the lead agent validates a
+  complete Opportunity Cell packet in BUSINESS. Keep no more than three active
+  strategic candidates; the broader ranking remains in the market map.
 - A build starts only after triage names an outcome, owner realm, and smallest test.
 - Closing an opportunity records the result and asks what asset was harvested.
+
+## Strategic Landscape Interface — active through 2026-10-04
+
+`03-WIKIS\BUSINESS\wiki\evidence\market-map.md` owns the broad economy and
+workflow comparison. This queue receives only promoted candidates with a named
+buyer, economic mechanism, source confidence, smallest proof, and
+disconfirmation. Research ranking is strategy evidence, not demand or traction.
+The September pilot may promote zero to three cells; it may not create a build,
+offer, outreach action, or skill curriculum without a separate Chris-approved
+gate.
 
 ## Active Queue
 

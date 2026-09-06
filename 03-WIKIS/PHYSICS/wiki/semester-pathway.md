@@ -14,8 +14,9 @@ revised: 2026-09-05
 > topic sequence and tutoring reference, not an active calendar. Chris chooses the
 > entry point and manages deadlines in D2L; `TUTOR.md` loads only the portion needed.
 
-**One path through the semester.** This page owns *what Chris studies and when*,
-from August 9 through the final exam, paced one week ahead of lecture.
+**One reference path through the semester.** This page preserves topic order and
+syllabus-date context. It does not assign today's work or claim a complete live
+schedule; Chris chooses the tutoring entry and confirms deadlines in D2L.
 
 > ## ✅ Rebuilt 2026-08-18 on the **exact Section 54 syllabus**
 >
@@ -31,8 +32,8 @@ from August 9 through the final exam, paced one week ahead of lecture.
 > recitations of the same lecture*, not rival lecture sections. That is why the old §51
 > capture paced this course as well as it did.
 
-**What this owns:** the dated sequence — preparation phase, semester phase, exam
-anchors, and which textbook chapter and wiki stage each window uses.
+**What this owns:** the verified topic sequence, syllabus anchors, and connections
+between textbook chapters and wiki stages.
 
 **What this does not own:**
 
@@ -40,8 +41,8 @@ anchors, and which textbook chapter and wiki stage each window uses.
   Nothing here closes a stage.
 - **Curriculum content.** `wiki/stages/` holds the material. This page schedules
   it; it does not replace it.
-- **Placement into days.** CASTLE's weekly plan owns which block runs Tuesday.
-  This page answers *what is next*; CASTLE answers *when*.
+- **Placement into days.** Chris and live D2L own timing. This page suggests what
+  follows in the learning sequence when Chris has not named another entry point.
 
 ---
 

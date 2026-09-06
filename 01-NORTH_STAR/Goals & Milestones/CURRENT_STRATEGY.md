@@ -6,6 +6,7 @@ status: active-hypothesis
 register: ai-directive
 approved_by: Chris
 approved: 2026-07-24
+updated: 2026-09-06
 ---
 
 # CURRENT_STRATEGY — Business Vehicle Law
@@ -30,6 +31,14 @@ assets. Offers, industries, prices, and revenue vehicles are
 evidence-replaceable, not the claim itself.
 
 Current vehicle name: **Advisor-Builder**.
+
+The Advisor-Builder is the incumbent operating hypothesis, not a conclusion
+that construction consulting is the highest-ceiling destination. From September
+6 through October 4, 2026, a bounded Strategic Landscape pilot compares the
+economy from industry → business function → workflow → value leak → buyer →
+vehicle. Construction and real estate enter with real fit/access evidence but
+may be beaten by supply chain, manufacturing, logistics, professional services,
+or another evidence-backed path.
 
 Access wedges (not identity boundaries):
 - Real estate through Heather's network — agents, brokers, attorneys,
@@ -81,14 +90,14 @@ must earn the implementation/retainer conversation.
 | S-03 | Construction credibility produces stronger problem access or paid demand | live workflow access, paid-support interest, repeatable waste patterns | field notes + Revenue Lab/CASTLE where relevant | two live observations or B2 result |
 | S-04 | Retained improvement work is the strongest core revenue engine | audit-to-implementation/retainer conversion and delivery economics | BUSINESS + client-approved sanitized evidence | after first paid audit and first retainer decision |
 | S-05 | Every engagement can produce a reusable compounding asset | harvested asset, reuse, time saved, or repeated sale | Capability Library + approved case studies | after each real engagement |
-| S-06 | Narrowing the vehicle before school completes costs more option value than it buys focus | which Percipio/Skillsoft tracks convert into capability a buyer pays for; whether a broad technology frame surfaces more qualified demand than the audit wedge alone | TECHNOLOGY wiki + CASTLE opportunity queue | next quarterly Ratchet |
+| S-06 | A top-down opportunity search can preserve option value and identify a stronger probability-adjusted path than selecting from familiar wedges alone | an economy/process map; separate absolute-ceiling and Chris-fit rankings; a sourced top three; one attractive rejected case; common skill requirements; and a smallest proof for the leader | BUSINESS market map; SYSTEMS patterns; CASTLE only after promotion | pilot close 2026-10-04, then next quarterly Ratchet |
 
-S-06 recorded 2026-08-10 from Chris directly: school completes regardless, but
-the post-school vehicle is open. The school platform (Skillsoft/Percipio) widens
-the certification and skill surface available at no extra cost, and committing
-to "study business workflow" as the frame may close options too early. This is a
-capability-widening input, not a vehicle change — the thesis in §1 stands until
-evidence moves it under §8.
+S-06 began 2026-08-10 when Chris stated that school completes regardless but the
+post-school vehicle remains open. Chris clarified and approved the operating
+form on 2026-09-06: AI performs broad, source-disciplined landscape research
+while he protects school capacity; he receives compressed rankings and learning
+implications rather than an expanding reading assignment. This is a strategic
+search inside the current hypothesis, not a silent vehicle change.
 
 Watchtower signals do not change these directly — evidence, a question, or a
 bounded CASTLE test only.
@@ -150,11 +159,14 @@ never rewrites this file or `NORTH_STAR.md` unilaterally.
 
 ## 10. Next Proof
 
-Continue school and workflow-stack capability first; complete the next real
-workflow-observation proof and authorized technology/integration reps.
-Approved Revenue Lab tests run as bounded evidence experiments. No new
-business lane opens without evidence, displacement, a bounded test, and
-CASTLE review.
+Run the four-part Strategic Landscape pilot through 2026-10-04. Run 1's
+13-sector screen is complete for the September 13 review and keeps the two
+rankings separate. The next proof is a 15–20-cell workflow comparison that names
+buyers, economic failures, entry friction, and disconfirmation conditions across
+the surviving sectors. Research may change a ranking but does not count as
+market proof. After the final comparison, Chris selects one bounded Value Block
+or access test; no new business lane, skill curriculum, outreach, or
+build opens directly from the research.
 
 ---
 *Human context and change workflow: `HOW_TO_USE.md`.*

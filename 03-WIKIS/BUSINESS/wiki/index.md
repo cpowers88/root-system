@@ -4,7 +4,7 @@ timeline: reference
 status: live
 reference_priority: core
 tags: [business]
-updated: 2026-07-28
+updated: 2026-09-06
 ---
 
 # Business Wiki Index
@@ -14,6 +14,29 @@ material. The current vehicle and goals live outside this wiki.
 
 The catalog below reflects the live physical structure. The legacy
 `ai-integration-company\index.md` remains only as a compatibility pointer.
+
+## Start Here — Strategic Opportunity Route
+
+When the question is **where to aim**, use this order:
+
+1. [[evidence/market-map|Opportunity Landscape and Market Map]] — screen the
+   economy from industry to workflow, buyer, value leak, and possible vehicle.
+2. [[evidence/opportunity-landscape-run-1-sector-screen|Run 1 Sector Screen]] —
+   current broad-sector evidence and the preliminary two-view frontier.
+3. [[apqc-process-classification-framework|APQC Process Classification
+   Framework]] plus the SYSTEMS wiki — compare business functions and reusable
+   operating patterns, including supply chain, flow, variability, inventory,
+   scheduling, and decision systems.
+4. [[pathways/most-profitable-pathways|Pathway Comparison]] — compare service,
+   implementation, recurring, and productized routes without treating its
+   default scores as proof.
+5. [[evidence/customer-discovery-and-evidence|Customer Discovery and Evidence]]
+   — design a real proof only after a candidate survives the landscape screen.
+
+The strategic search returns an absolute-ceiling ranking and a separate
+probability-adjusted ranking for Chris. Construction and real estate are
+incumbent evidence, not protected answers. Only promoted candidates reach
+CASTLE's opportunity queue.
 
 ## Start Here — Company-Building Route
 
@@ -51,6 +74,7 @@ For the capability sequence behind that path, use
 ## Evidence
 
 - [[evidence/market-map|Market Map]]
+- [[evidence/opportunity-landscape-run-1-sector-screen|Opportunity Landscape Run 1 — Sector Screen]]
 - [[evidence/customer-discovery-and-evidence|Customer Discovery and Evidence]]
 - [[evidence/enterprise-ai-opportunity-and-adoption|Enterprise AI Opportunity and Adoption]]
 - [[evidence/ai-economics-and-decision-workflows|AI Economics and Decision Workflows]]
@@ -143,7 +167,10 @@ Blank masters are owned by `05-BUSINESS`, not this knowledge wiki.
 
 ## Current review queue
 
-1. Validate the first offer against a real observed workflow.
-2. Replace market-price hypotheses with actual scope, hours, value, and close data.
-3. Keep scenarios as reference until CASTLE and Goals & Milestones activate one.
-4. Complete remaining metadata and claim-dating during normal page use.
+1. Use Run 1's sector screen to compare 15–20 workflow-level opportunity cells
+   in Run 2; rank the leading candidates under both views.
+2. Promote no more than three evidence-backed opportunity cells for proof design.
+3. Validate the selected first offer against a permitted real workflow only
+   after the landscape comparison.
+4. Replace market-price hypotheses with actual scope, hours, value, and close data.
+5. Keep scenarios as reference until CASTLE and Goals & Milestones activate one.

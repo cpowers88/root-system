@@ -783,3 +783,59 @@ four lines above it). No content pages added or removed.
   workflow or dataset to produce the first complete proof packet: baseline,
   validated inputs, quantified loss, concise recommendation, confidence level,
   and one bounded next test.
+
+## 2026-09-06 — Opportunity Landscape research route activated
+
+### What changed
+
+- Expanded `market-map.md` from an SMB AI-integration demand map into the owner
+  of the top-down opportunity comparison while preserving its construction and
+  real-estate evidence as incumbent candidate material.
+- Added the economy → business function → workflow → value leak → buyer → vehicle
+  frame, an eight-field Opportunity Cell packet, separate absolute-ceiling and
+  probability-adjusted rankings, a four-run September pilot, and a visible
+  unranked frontier.
+- Added a LANDSCAPE operation and a strategic-opportunity route to the BUSINESS
+  operations and index. Broad research uses SYSTEMS patterns selectively; only
+  validated top candidates reach CASTLE.
+
+### Evidence and limits
+
+- This is an approved research design, not market, demand, or revenue proof.
+- Construction remains the lived-evidence benchmark but receives no protected
+  ranking. Supply chain and professional workflows are explicitly in scope.
+- Unattended research remains read-only in `.ROOT`; a recurring skill or schedule
+  is locked until three supervised runs pass the named qualification cases.
+
+### Recommended next action
+
+- Run the first supervised economy screen and return 10–15 sectors with current
+  source support, economic rationale, confidence, and stated rejection reasons.
+
+## 2026-09-06 — Opportunity Landscape Run 1 sector screen completed for review
+
+### What changed
+
+- Screened 13 broad sectors using current BEA, BLS, Census, CMS, and BTS primary
+  sources and separated verified economic anchors from workflow hypotheses.
+- Produced independent preliminary frontiers for absolute ceiling and Chris's
+  probability-adjusted path. Construction remains the fit benchmark; healthcare,
+  manufacturing, freight/wholesale networks, finance, and infrastructure remain
+  live ceiling comparators.
+- Identified the Run 2 unit of work: 15–20 buyer-specific workflow cells across
+  procurement/inventory, scheduling, field operations, billing, claims and
+  compliance, document/data flow, asset reliability, and forecasting.
+
+### Evidence and limits
+
+- Sector scale is not a market-size estimate, willingness-to-pay result, or
+  permission to build. Current AI adoption is used only as a readiness and
+  competition clue.
+- No narrow buyer, workflow baseline, or scalable vehicle is proven yet. The
+  page remains in review, and no independent challenger was available in this
+  session; Run 4 must include the adversarial comparison.
+
+### Recommended next action
+
+- At the September 13 gate, challenge only omissions and obvious fit errors.
+  Then run the workflow-level comparison without expanding Chris's review burden.

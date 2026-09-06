@@ -1,12 +1,16 @@
 ---
 type: decision-report
-timeline: now
-status: open
+timeline: reference
+status: reference
 tags: [north-star, school, fall-2026, capacity, three-way-review]
 created: 2026-08-05
 ---
 
 # Fall 2026 Capacity Decision — Three-Way Review
+
+> **Runtime note, 2026-09-06:** retained as the evidence behind the semester
+> capacity decision. It is not a live schedule or dashboard; Chris owns current
+> D2L dates and uses this only when he asks to revisit capacity assumptions.
 
 > Format note (Claude, 2026-08-05): kept Codex's section structure. Renamed the
 > unlabeled paste-in as **## Claude — Position** so the file reads as a real

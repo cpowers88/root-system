@@ -5,7 +5,7 @@ status: active
 register: ai-directive
 tags: [north-star, capability, technology, systems]
 created: 2026-07-24
-review_trigger: 2026-09-08
+review_trigger: 2026-09-13
 ---
 
 # CAPABILITY_DEVELOPMENT_GOAL
@@ -93,7 +93,12 @@ real use, buyer behavior, measurable outcome, or repeated reuse.
 
 ## Current next proof
 
-Complete Capability Baseline 2 in an unfamiliar domain with a two-minute first
-move, then run the operating-history interview. Use both evidence sets to define
-three candidate high-value capability paths. Research current buyer demand and
-economics before selecting one proof project. Review on 2026-09-08.
+The operating-history interview and both cold baselines are complete. Use the
+Strategic Landscape pilot to identify which transferable skills recur across the
+highest-ceiling and strongest probability-adjusted candidates; do not select a
+new curriculum from one familiar industry. The provisional common stack remains
+workflow/constraint diagnosis, operational economics and value capture, data and
+software integration, adoption, and decision communication. Run 1 strengthened
+the cross-sector value of workflow/constraint diagnosis but did not justify a
+new curriculum. Use Run 2 to identify the smallest cross-market practice that
+would improve the surviving workflow cells. Review on 2026-09-13.

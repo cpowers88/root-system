@@ -26,12 +26,11 @@ else in this loop works without it.
 
 **Clarified 2026-08-02 (closes flag #86):** "cold" means no live scaffold or
 lookup *during* the attempt itself — it does not mean zero prior exposure ever.
-Evening reading of the raw textbook chapter on the same general topic, the night
-before, is intended priming (sleep-mediated retrieval practice), not a
-contamination of this measurement. What would contaminate it is reading the
-wiki's own stage/drill file — the exact problems this loop tests — ahead of
-time; that stays off-limits. See `EVENING_READING_INSTRUCTIONS.md` § Source
-Priority for the same rule from the reading side.
+Prior reading of a raw textbook chapter on the same general topic is background
+exposure, not contamination of this measurement. What would contaminate it is
+reading the wiki's own stage/drill file — the exact problems this loop tests —
+immediately before the attempt. Reading is assigned only when Chris requests it
+through `TUTOR.md`; no standing evening-reading workflow is active.
 
 **2. Escalate support only as far as the observed error requires.**
 

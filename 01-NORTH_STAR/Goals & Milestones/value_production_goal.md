@@ -5,7 +5,7 @@ status: active
 register: ai-directive
 tags: [north-star, business, value]
 created: 2026-07-24
-review_trigger: 2026-09-08
+review_trigger: 2026-09-13
 ---
 
 # VALUE_PRODUCTION_GOAL
@@ -65,11 +65,30 @@ The first success bar is a real person or real use confirming that the work
 reduced uncertainty or exposed a meaningful operational problem. Revenue is
 the next bar, not a label applied early.
 
+## Strategic Landscape pilot — September 6 to October 4, 2026
+
+| Field | Boundary |
+|---|---|
+| outcome | Compare the broad economy, business functions, expensive workflow failures, buyers, and value-capture vehicles; return a ranked opportunity frontier and the common high-value capability stack. |
+| owner | BUSINESS `market-map.md` owns the comparison evidence; SYSTEMS supplies reusable process patterns; CASTLE receives only promoted candidates. |
+| displacement | Replaces ad hoc business reading and premature vertical selection. Chris's review burden is capped at 20 minutes per weekly output unless he explicitly opens a Value Block. |
+| agent boundary | One supervised research worker per run, read-only inside `.ROOT`; the lead agent validates and performs any approved integration. |
+| proof | Four sourced outputs: broad sector screen; cross-industry workflow heatmap; top-five business-model/fit comparison; adversarial final recommendation with one rejected attractive case. |
+| stop | Pause after two consecutive runs that add sources without changing a decision, candidate score/confidence, or capability implication. |
+| checks | September 13, 20, and 27; final verdict October 4, before the October 5 school-protection window. |
+
+Research output is strategy evidence, not a proof-ladder promotion. A Value
+Block remains the route from a selected opportunity to capability, use, problem,
+outcome, demand, and revenue evidence.
+
 ## Current next proof
 
-Finish the capability baseline and operating-history interview, then compare no
-more than three candidate capability/value paths against current buyer evidence.
-Select one small proof project only after the comparison states the buyer,
-valuable outcome, access path, proof, stop rule, and fastest route to paid use.
-The Advisor-Builder remains the current vehicle hypothesis until evidence and a
-Chris-approved Ratchet decision replace it.
+Run 1's 13-sector screen is complete for review. Run Strategic Landscape pilot
+Run 2: compare 15–20 opportunity cells across procurement/inventory, capacity
+and scheduling, field operations, revenue/billing, claims/compliance,
+document/data flow, asset reliability, and forecasting. Complete when every
+survivor names a buyer, recurring economic failure, current workaround,
+entry constraint, smallest proof, and disconfirmation condition, and when no
+more than three workflow families return to the lead agent.
+Review the compressed result on 2026-09-13; no outreach or build follows without
+a separate Chris-approved proof.

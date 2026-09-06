@@ -1,13 +1,18 @@
 ---
 type: report
-timeline: now
-status: in-progress
+timeline: reference
+status: reference
 tags: [governance, interview, system-design]
 created: 2026-07-26
 ---
 
 # Claude Interview and Chris Answers
 **UPDATE THE SYSTEM .MD to MATCH NORTH STAR AND investigate what Chris really NEEDS**
+
+> **Runtime note, 2026-09-06:** retained as interview evidence. Its planning,
+> evening-reading, dashboard, and cadence proposals are superseded by the live
+> runtime kernel in `00-BRAIN\AGENT.md`; current direction lives in North Star,
+> TUTOR, VALUE, and CASTLE's current position.
 
 > **Pointer (Claude, 2026-08-07):** the split question raised in this
 > interview (Round Two, Q1) is now being carried forward, with the Aug 6

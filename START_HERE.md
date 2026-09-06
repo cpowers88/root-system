@@ -1,159 +1,52 @@
 ---
-type: map
+type: guide
 timeline: reference
 status: live
 register: human-context
-reference_priority: core
 tags: [governance]
+updated: 2026-09-06
 ---
 
-# START HERE — The Whole System on One Screen
-### For Chris Powers, aka theinternet. Updated September 5, 2026 (two-lane operating interface). If anything here confuses you, that's a bug — tell the AI.
+# START HERE — Use `.ROOT` Without Managing `.ROOT`
 
----
+`.ROOT` is your evidence-backed operating partner. Start with the result you want, not with a system ceremony.
 
-## Start by choosing the work
+## Choose one entrance
 
-- Open **`TUTOR.md`** when you want school learning, explanation, or practice.
-- Open **`VALUE.md`** when you want capability assessment, research, business,
-  company building, or profitable-skill work.
-- Open **`NOW.md`** only when you want the current cross-system state.
+- **School or learning:** open `TUTOR.md` and name the course, concept, problem, or outcome.
+- **Business, research, skills, or building:** open `VALUE.md` and name what you want to understand, test, or produce.
+- **What is active right now:** open `NOW.md`.
+- **System review or opportunity decision:** ask CASTLE a specific question.
 
-Chris manages live deadlines and submissions in D2L. `.ROOT` is not expected to
-reconstruct a complete assignment calendar.
+You own live school due dates and submission status in D2L. `.ROOT` uses dates you provide; it does not promise a complete assignment calendar.
 
----
+## The five questions
 
-## The Map
+Use these when the next move is unclear:
 
-| Open… | When you want to… |
-|---|---|
-| 🎓 `TUTOR.md` | **Learn on demand.** Load one subject, its learner state, and the relevant source. |
-| 💰 `VALUE.md` | **Build valuable capability.** Assess, research, validate, build, and measure against the value ladder. |
-| 📄 `NOW.md` | See the current cross-system state and next evidence gate. |
-| 📘 [ROOT_OPERATING_MANUAL.md](ROOT_OPERATING_MANUAL.md) | **Learn how to operate.** Use the proof loops, ownership rules, and closeout pattern after this map. |
-| 🗼 [WATCHTOWER.md](01-NORTH_STAR/WATCHTOWER.md) | **Watch material external change.** Evidence stays in its wiki; qualifying signals enter the two-file radar, then CASTLE gates any test. |
-| 🧠 `00-BRAIN` | See/change how the AI operates. `AGENT.md` is the universal OS every engine boots from; surface profiles (`CLAUDE.md` / `CODEX.md`) describe strengths and access; `HATS\` holds optional modes; 🏰 `CASTLE` (the command center — phases, skills, proof projects) lives here too, plus maps, flags, session logs. |
-| ⭐ `01-NORTH_STAR` | **Read the durable star.** Load `CURRENT_STRATEGY.md` only for the active business vehicle, and `fall_2026_semester.md` for semester readiness and outcomes. |
-| 📚 `02-LIBRARY` | Grab reference by domain (`ref-<name>` folders). Also `.PROJECTS` (build docs) and `.raw ARCHIVE` (closed legacy sources—no new intake). **Course files are not here** — they moved to `04-SCHOOL` on 2026-08-12. `README.md` inside disambiguates the business/physics look-alikes. |
-| 🎓 `04-SCHOOL` | **What you are graded on.** One folder per course, each with a `work\` bay. Live D2L and the instructor own deadlines; local maps are reference. Boundary vs `03-WIKIS`: **KSU gave it to me → here; we made it → the hub.** |
-| ⚒️ `03-WIKIS` | Work the eight knowledge hubs: `SYSTEMS` (system dynamics + ISYE spine) · `PYTHON` (Python/CS stages) · `EDUCATION` (general KSU support — TCOM/ECON/ENGR) · `PHYSICS` (physics stages) · `BUSINESS` (offers, pricing, audit method, market research) · `TECHNOLOGY` (tech-adoption roadmap + applied technical reference) · `AI_AUTOMATION_SYSTEMS` (AI/agent research + `.ROOT` self-evolution proposals) · `REVENUE_LAB` (digital revenue evidence and tests). Each has a `HOW_TO_USE.md` inside. |
-| 💼 `05-BUSINESS` | The money system: reusable templates, pricing, sanitized field lessons, and capability assets (case-study and proposal folders are ready and fill with real engagements — see its `README.md`). Active client-specific work stays in a separate client workspace outside `.ROOT`. |
-| 📥 `77-INBOX` | Universal intake: manual files dropped from outside `.ROOT` and automatic Obsidian web-clipping output (`Clippings` retired 2026-07-24, clipper now points here). Cleared every weekly review. |
-| 🗄️ `99-ARCHIVE` | Find anything retired. Nothing is ever deleted. |
+1. What outcome is required?
+2. What constraint or failure matters most?
+3. What evidence do I already have?
+4. What is the smallest test that reduces uncertainty?
+5. What result would change my next move?
 
-Private inside the live vault: `88-JOURNAL` — no AI ever reads it.
+Then act. Evidence can be a cold school rep, a working build, a field observation, a measured workflow result, a real user's response, or revenue. A plan or generated page is useful output, but it is not proof by itself.
 
----
+## What each part owns
 
-## How Any AI Enters This System
+- `01-NORTH_STAR` — destination and current strategy.
+- `TUTOR.md` — on-demand school entrance.
+- `VALUE.md` — capability and economic-value entrance.
+- `03-WIKIS` — subject and professional knowledge.
+- `02-LIBRARY\.PROJECTS` — active builds.
+- `05-BUSINESS` — approved reusable and sanitized business assets.
+- `00-BRAIN\CASTLE` — periodic diagnosis, sequencing, and gates.
+- `NOW.md` — the current operating picture.
+- `77-INBOX` — manual external-file intake and automatic Obsidian clipping intake; items remain untrusted until routed.
+- `88-JOURNAL` — private; AI never enters.
 
-Every agent, every model, same path — this is wired, not hoped for:
+## Simple success test
 
-```
-C:\Users\chris\.ROOT\CLAUDE.md or AGENTS.md (surface boot pointer)
-  → C:\Users\chris\.ROOT\00-BRAIN\AGENT.md    (universal OS: star, school status, file safety, when to stop)
-  → surface profile: CLAUDE.md / CODEX.md   (strengths + access notes)
-  → CHRIS_CORE.md                 (who you are, how you work)
-  → 01-NORTH_STAR\NORTH_STAR.md  (durable direction — every session)
-  → TUTOR.md or VALUE.md          (one narrow lane chosen from the request)
-  → current strategy / semester goal / Watchtower only when that question is active
-  → optional HATS\ mode           (Operator / Educator / subject hat, if useful)
-  → the section's own operating file
-  → work. close clean. refresh NOW.md if the picture changed.
-```
+A `.ROOT` session should leave you with at least one of these: better independent performance, a verified answer, a working artifact, real-world evidence, a decision supported by evidence, or one unmistakable next action.
 
----
-
-## The Color Language — One Vault, One Map (canonical definition)
-
-`.ROOT` is one Obsidian vault with one graph.
-
-### 🗺️ Open `.ROOT` as a vault = THE MAP (categorical)
-Every section, and every wiki inside `03-WIKIS`, has its own color. One
-glance = the shape of the whole system. Archives, old session logs, and the
-inbox are filtered out of this graph.
-
-| Color | Section |
-|---|---|
-| 🔴 Red | `00-BRAIN` — governance + AI operations |
-| 🟤 Light brown | `00-BRAIN\CASTLE` — the command center |
-| 🟡 Amber | `01-NORTH_STAR` — the star + reviews |
-| 💜 Blue-violet | `01-NORTH_STAR\WATCHTOWER.md` + `radar.md` — the watchtower |
-| 🟠 Orange | `02-LIBRARY` — reference + projects (school has its own color, below) |
-| 🟢 Green | `BUSINESS` · 🟣 Purple `PYTHON` · 🟨 Gold `EDUCATION` · 💠 Cyan `PHYSICS` · 🟦 Indigo `TECHNOLOGY` · 🩷 Rose `AI_AUTOMATION_SYSTEMS` · 🟫 Tan `SYSTEMS` · 🟩 Teal `REVENUE_LAB` |
-| 🩷 Magenta | `04-SCHOOL` · 🌲 Dark green `05-BUSINESS` · ⚪ White `NOW.md` |
-
-Exact hex values are machine-canon in `00-BRAIN\COLOR_MAP.yaml` (edit that
-file, then run `00-BRAIN\scripts\build_graph_colors.py` — never hand-edit
-`graph.json`). Palette approved by Chris July 8, 2026.
-
-### 🎯 Finding "what's next" — property filters, not a second graph
-
-Sequential ("what do I touch next") navigation now happens by filtering the
-single graph's search box by property, instead of opening a separate colored
-graph per wiki:
-
-| Filter | Property | Means |
-|---|---|---|
-| `[timeline:now]` | `timeline: now` | **Do / learn / use this now** |
-| `[timeline:next]` | `timeline: next` | **Next up** — on deck |
-| `[timeline:later]` | `timeline: later` | **Later** — waiting its turn |
-| `[timeline:parked]` | `timeline: parked` | **Parked** — deliberately inactive |
-| `[timeline:reference]` | `timeline: reference` | **Use when needed** |
-| `[timeline:log]` | `timeline: log` | **History** — not an action queue |
-
-Combine with a path filter to stay inside one wiki, e.g.
-`path:"03-WIKIS/PYTHON" [timeline:now]`. Static position is separate:
-`[stage:2]` or `[stage:phase-1]`. Artifact condition uses `[status:active]`;
-reference usefulness uses `[reference_priority:core]`. Topic discovery still
-uses tags, such as `tag:#business`.
-
-**Under the hood:** every new or updated file carries `type:` + one `timeline:`
-property + topic tags. Optional `stage:`, `status:`, and `reference_priority:`
-properties answer different questions. The full transition standard lives in
-`00-BRAIN\WHERE_IT_GOES.md → Metadata Standard`.
-
----
-
-## The Loop That Compounds
-
-This is the **operating cadence** — when the system looks at itself. How one
-item moves through the system at any moment (and how this cadence, the System
-Loop, the five moves, and the business pipeline are one system):
-`01-NORTH_STAR\System Contracts\ROOT_INFORMATION_FLOW_CONTRACT.md`.
-
-```
-Morning     → first AI refreshes MORNING_BRIEF.md from NOW.md + live owners — one start, do it
-Daily rep   → tracker / SQL / course work
-Every task  → AI appends a 4-line block to the day's report (00-BRAIN\Session_Logs\DAILY_…)
-17:00       → EVENING_READING.md assigns one 15–25 minute prerequisite reading slice
-Night       → Day Summary consolidates the blocks, then each AI used today writes its handoff (1–2/day)
-Sources     → feed books/docs directly to the relevant 03-WIKIS hub — each refines its own domain
-Business    → refined knowledge → BUSINESS templates → reusable/sanitized 05-BUSINESS assets
-Horizon     → evidence home → qualifying Watchtower signal → castle gate → bounded test
-Sunday      → weekly review + Engine Question (00-BRAIN\Session_Logs)
-Monthly     → weak-link check + each wiki's timeline/stage properties are reviewed
-Quarterly   → THE RATCHET — outcomes review the vehicle; earned floors get raised
-```
-
-School is the spine; course files live at `04-SCHOOL`, while the matching
-wikis run the study path. CASTLE keeps the order. The wikis compound knowledge;
-business work turns verified capability into value; `05-BUSINESS` preserves reusable
-assets. The Watchtower keeps the system aware without steering it. The Ratchet lets
-evidence improve the vehicle while the destination stays clear. **October 8, 2031 —
-floor, not finish line.**
-
----
-
-## Rules of the Realm (human version)
-
-1. One file, one home. Manual unknowns and automatic web clips → `77-INBOX`; the weekly review files them.
-2. Nothing gets deleted — it gets archived.
-3. `88-JOURNAL` is yours alone.
-4. Oct 5 – Nov 11, 2026 is a high-load school window. AI warns once if optional work threatens fixed commitments, recommends the smallest safe scope, then follows Chris's decision.
-5. The skeleton is frozen. Content grows inside sections — we don't re-root.
-6. Targets normally move at quarterlies. Chris may authorize a mid-cycle change after an impact review; AI does not move targets autonomously.
-
----
-*AI entry: `C:\Users\chris\.ROOT\CLAUDE.md` or `AGENTS.md` -> `00-BRAIN\AGENT.md` -> surface profile (`CLAUDE.md` / `CODEX.md`) -> CHRIS_CORE.md. The star: `01-NORTH_STAR\NORTH_STAR.md`. Live backup: `D:\BACKUPS\.ROOT`, first run and verified 2026-08-12 (before that date this line was aspirational — the mirror had never run); `G:\My Drive\New folder\.ROOT` is a stale one-time snapshot, not a live copy. Details: `00-BRAIN\LOCAL_MACHINE_MAP.md`.*
+If operating `.ROOT` takes longer than beginning the work, report that friction. The runtime—not you—needs adjustment.

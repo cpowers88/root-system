@@ -2,14 +2,14 @@
 type: dashboard
 timeline: now
 status: active
-generated: 2026-09-05
+generated: 2026-09-06
 tags: []
 ---
 
-# Saturday, September 5, 2026
+# Sunday, September 6, 2026
 
-**ATTENTION:** Choose the lane before loading detail. Chris owns live school deadlines in D2L; `.ROOT` does not reconstruct the full assignment calendar.
+**ATTENTION:** The runtime rewrite passes static validation, but fresh-session behavior remains unproven; the acceptance owner is `NOW.md`.
 
-**START:** `VALUE.md` → Capability Baseline 2, then the operating-history interview. Use `TUTOR.md` instead when Chris chooses a school-learning task.
+**START:** Open the next task naturally through TUTOR or VALUE and judge whether useful work begins without schedule reconstruction or broad defensive loading; `NOW.md` holds the test.
 
-**CHRIS:** Bring concrete examples to the interview—what you personally did, the result, the effort, and what others trusted you to handle.
+**CHRIS:** Supply the next real school or value request; keep, modify, or revert the runtime at the September 20 review.

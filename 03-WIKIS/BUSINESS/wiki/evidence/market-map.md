@@ -3,31 +3,151 @@ type: evidence
 tags:
   - strategy
   - sales
-stage: phase-2
 timeline: reference
 status: maintained
+updated: 2026-09-06
 ---
 
-# Market Map
+# Opportunity Landscape and Market Map
 
-> Who buys AI integration, what they actually pay for, and where the profitable ground is.
+> Start with the economy, narrow to expensive workflows and reachable buyers,
+> then determine which business vehicle can capture the value.
 
 ## Purpose
-Map the demand side: customer segments, the problems they will pay to fix, buying triggers, and competitive terrain — so outreach and offers target real budgets instead of hypothetical ones.
+Map the opportunity terrain from industries and business functions down to
+specific buyers and workflows, then compare the profit ceiling with Chris's
+probability-adjusted route to proof. The existing SMB and entry-wedge evidence
+below remains candidate evidence, not the boundary of the search.
 
 ## Key Idea
-The money is not in "companies that want AI." It is in **SMBs with expensive manual processes and enough revenue to feel the pain** — typically $1M–$50M revenue, 5–200 employees, in operationally heavy industries. They don't buy technology; they buy *fewer hours wasted, fewer leads dropped, faster cash collection, and visibility into their own business.*
+The unit of analysis is not an industry name or a technology. It is an
+**opportunity cell**:
+
+`industry × business function × workflow × buyer × expensive failure × vehicle`
+
+The search begins broad enough to discover a better path and narrows only when
+evidence identifies a valuable workflow, a buyer, and a plausible way to capture
+the value.
 
 ## Why It Matters
-Most AI freelancers chase startups and tech companies (crowded, price-sensitive, opinionated). The underserved buyer is the trades contractor, clinic group, distributor, law office, or manufacturer whose operations run on spreadsheets, email, and memory. They have real budgets, real waste, and almost no credible local suppliers of this service.
+Construction fits Chris and may be the best beachhead, but founder fit alone does
+not establish the highest ceiling. Supply chain, manufacturing, logistics,
+professional services, healthcare operations, finance/insurance, field service,
+energy, real estate, and other sectors must be allowed to beat it. The research
+must also compare advisory, implementation, managed service, software, data, and
+platform vehicles rather than assuming an AI-integration consultancy is the end.
 
-## Entry Wedges: Real Estate First, Construction Parallel
+## Strategic Search Frame
+
+### Level 1 — economy and industry
+
+Screen the full practical NAICS-level economy before choosing subsectors. Use
+current primary economic data to compare size, growth, fragmentation,
+operational intensity, margin pressure, technology investment, regulation, and
+buyer concentration. Broad screening does not justify a market-size claim about
+a specific opportunity.
+
+### Level 2 — business function
+
+Use the APQC process families as the functional map: strategy; products and
+services; marketing and sales; physical supply chain; service delivery; customer
+service; human capital; IT; finance; assets; risk/compliance; external
+relationships; and business capabilities. Pull the relevant flow, variability,
+inventory, scheduling, queuing, process-mining, forecasting, and decision
+patterns from the SYSTEMS wiki only when a surviving cell needs them.
+
+### Level 3 — economic failure
+
+Look for revenue leakage, waiting, rework, defects, missing information,
+forecast error, excess inventory, stockouts, underused capacity, slow cash,
+compliance exposure, poor asset reliability, knowledge trapped in people, and
+software/data handoff failure. State the actual economic mechanism; "inefficient"
+is not enough.
+
+### Level 4 — value-capture vehicle
+
+Compare diagnostic advisory, implementation, managed operations, data/reporting,
+specialized automation, vertical software, industry data products, and platform
+models. A service may be the evidence-producing beachhead even when software,
+data, or a managed system has the higher eventual ceiling.
+
+## Opportunity Cell Packet
+
+Every candidate that survives broad screening records:
+
+1. industry, function, workflow, and exact buyer;
+2. failure and the mechanism by which it costs or creates money;
+3. current workaround, buying trigger, and existing competition;
+4. market evidence, source tier/date, confidence, and material uncertainty;
+5. regulation, data access, capital, sales-cycle, and adoption constraints;
+6. Chris's present fit/access and the missing capability or partner;
+7. plausible entry vehicle and maximum scalable vehicle;
+8. smallest honest proof and the result that would disconfirm the candidate.
+
+A candidate with no named buyer, no economic mechanism, or no disconfirmation
+condition does not enter the ranked frontier.
+
+## Two Ranking Views
+
+**Absolute ceiling** compares problem value, market/spending surface, recurrence,
+scalable margin, productization, and defensibility.
+
+**Probability-adjusted path** compares Chris's demonstrated fit, access,
+credibility, time to proof, school-compatible learning cost, capital, regulation,
+sales friction, and capability compounding.
+
+Keep both visible. Do not hide speculative inputs inside a single multiplied
+score. Rank with confidence bands and state what new evidence would move a row.
+
+## September 2026 Opportunity Landscape Pilot
+
+| Run | Research question | Required output | Check |
+|---:|---|---|---|
+| 1 | Which broad sectors combine meaningful economic activity with operationally expensive workflows? | [[opportunity-landscape-run-1-sector-screen|Economy screen]] and 13 sectors worth deeper comparison — completed for review 2026-09-06 | 2026-09-13 |
+| 2 | Which cross-industry workflow families contain the strongest recurring value leaks? | 15–20 opportunity cells, including supply chain/procurement, capacity/scheduling, field operations, revenue/billing, claims/compliance, data/document flow, asset reliability, and forecasting | 2026-09-20 |
+| 3 | Which value-capture vehicles and skill stacks fit the survivors? | Top five with ceiling, probability-adjusted path, capability gaps, and entry-to-scale route | 2026-09-27 |
+| 4 | What survives adversarial comparison? | Highest ceiling, best probability-adjusted path, best learning/access vehicle, one rejected attractive case, common skill stack, and next proof | 2026-10-04 |
+
+**Pilot controls:** one supervised research worker per run; read-only inside
+`.ROOT`; strongest practical sources; at most three decision-relevant findings
+returned to the lead; no outreach, project, skill, or strategy activation from a
+research packet. Recurring unattended research remains locked until typical,
+edge, weak-source, and recovery cases pass review.
+
+**Automation qualification cases:** compare construction, manufacturing/supply
+chain, and a professional-service workflow as typical cases; include one
+regulated healthcare or finance/insurance case; reject one hype-led candidate
+whose evidence cannot establish a buyer and economic mechanism; and mark an
+unavailable, stale, or contradictory source as unknown rather than filling the
+gap. Three supervised runs must pass before a recurring skill or schedule may be
+proposed.
+
+**Pilot proof:** the four outputs exist with traceable sources and the final
+comparison either changes the incumbent ranking or strengthens it against a real
+alternative. **Stop:** if two consecutive runs return source accumulation without
+a decision-relevant change, pause the pilot and repair the questions before more
+research.
+
+## Current Ranked Frontier
+
+| View | Current state | Confidence | Next evidence |
+|---|---|---|---|
+| Absolute ceiling | Run 1 frontier: healthcare; manufacturing; freight/wholesale supply networks; finance/insurance; energy/information infrastructure | low-medium | Run 2 workflow cells, then Run 3 vehicle economics |
+| Probability-adjusted path for Chris | Run 1 frontier: construction/field operations; real-estate/property operations; wholesale/industrial supply chain; professional services; freight/logistics | medium on fit, low on commercial access | Compare buyers, repeated losses, access, learning cost, sales friction, and scale in Run 2 |
+
+This table moves only when a completed research packet is integrated by the lead
+agent. A research worker never edits it directly.
+
+## Incumbent Candidate Evidence — Real Estate and Construction
 This page is a research map, not strategy authority. `CURRENT_STRATEGY.md` currently
 names real estate through Heather's warm network and construction credibility as
 access wedges while leaving the market open to stronger evidence. Use this page to
 test those assumptions, not to turn a wedge into identity.
 
-These are access strategies, not identity limits. Real estate gets first attention because it solves the first-conversation problem locally. Construction remains live because the domain credibility is real and the technology-adoption gap is large. The other verticals below stay on this page as the **expansion map** once the method is proven. Don't let them dilute focus before then — one warm wedge plus one credibility wedge beats seven explored markets.
+These are incumbent access and fit hypotheses. They receive no scoring bonus
+beyond the evidence Chris actually has. During the September pilot they are
+compared against the wider landscape; after selection, depth and repetition again
+outrank vertical hopping.
 
 ### The Construction AI Gap, Quantified (BTOS 2026 AI Supplement)
 Pulled July 8, 2026 from the Census Bureau's BTOS AI Supplement (`census.gov/hfp/btos/downloads/AI_Supplement_Table_2026.xlsx` — sector, state, and employment-size sheets). These are the citable numbers behind the construction credibility wedge:
@@ -91,7 +211,7 @@ Free, current, citable data for sizing verticals, timing pitches, and building d
   - The live KPI dashboard (`census.gov/hfp/btos/data`) publishes current-vs-future indexes (performance, revenue, employment, hours, input prices) biweekly — same demo-dashboard-building use case as the EDGAR data below, refreshed every two weeks instead of quarterly.
 - **SEC EDGAR APIs** (data.sec.gov — free, no API key) — JSON APIs for all public-company filings and XBRL financial-statement data, plus nightly bulk downloads. SMB clients don't file with the SEC, but public players in a client's vertical (national builders, roll-ups, suppliers) give **industry benchmark economics** for audit context — and it's free real-world data for building demo dashboards without touching client data. Implementation reference now in `raw/` (intake July 2026): the official EDGAR Business Office API overview PDF (22 pp., Dec 2025), the API Development Toolkit, token-management, and versioning clips — enough to build the demo-dashboard pull without further research.
 
-## Target Customer Profile
+## Current Advisor-Builder Customer Hypothesis
 
 **Sweet spot:**
 - Revenue: $1M–$50M (below $1M they can't pay; above $50M they have internal IT and long procurement)
@@ -168,13 +288,18 @@ Watch for these — they open budgets:
 - **Vertical SaaS:** solves one slice; you integrate the slices. Position as the integrator, not another tool.
 
 ## Practical Actions
-- Entry wedges are decided: real estate first through Heather's warm network, construction parallel through domain credibility.
-- Write down 20 businesses or roles within reachable warm network/region as the First Contact phase (~Sep 2026) approaches.
-- List the 5 most common operational bottlenecks in real estate transaction/document workflows and construction field operations.
-- Build outreach messaging around *their* named processes ("transaction follow-up," "document routing," "quote turnaround," "change-order tracking"), not around AI. Feed this into the [[sales-system|Sales System]] when the timeline gate opens.
+- Complete the four-run Opportunity Landscape pilot before declaring a starting
+  vertical or specialized skill.
+- Keep construction and real estate in the comparison as evidence-backed
+  incumbents; include supply-chain and professional-workflow alternatives.
+- Promote no more than three cells to CASTLE after each names a buyer, economic
+  mechanism, evidence/confidence, smallest proof, and disconfirmation.
+- Build outreach or offer language only after Chris approves a selected proof.
 
 ## Beginner Version
-One vertical, one region, one offer (the audit). Depth beats breadth: after 3 audits in one vertical you know its workflows better than the owners do, and every next sale gets easier.
+During strategic search: compare broadly and return a short frontier. After a
+candidate is selected: one vertical, one reachable buyer, one workflow, and one
+proof. Breadth discovers the field; depth earns the business.
 
 ## Intermediate Version
 One vertical dominant plus a second opening: 3+ case studies in vertical #1, outreach messaging built on its named processes, and a written vertical playbook (common systems, common waste patterns, common task inventories per the [[human-agent-operating-model|operating model]]). Referral partners in vertical #1 now source deals you didn't chase.
