@@ -71,5 +71,12 @@ section.
 - **Expected behavior:** repeated symptoms route to the smallest matching extension per the AGENT.md trigger table, instead of ad-hoc skill/hook creation or the same friction recurring with no extension at all.
 - **Evidence for improvement or regression:** any extension created after 2026-07-12 names its trigger-table row; recurring symptoms in DAILY/flags map to a considered row. Regression = an extension with no table match, or a symptom repeating three-plus times with no extension decision.
 - **check_at:** 2026-08-24 (enough post-change extension decisions and semester-start friction will have accumulated)
-- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
-- **Verdict:** (keep / modify / revert — blank until the check date)
+- **Outcome:** Reviewed 2026-09-06. The table existed immediately before the
+  controlled runtime rewrite and is absent from commit `013f118`'s resulting
+  `00-BRAIN\AGENT.md`. Current `00-BRAIN\CODEX.md` retains only the smaller
+  authority and implementation rule for skills, tools, hats, scripts, and
+  software components. No live owner still promises the table-based routing
+  behavior.
+- **Verdict:** **revert** — treat the table as intentionally superseded by the
+  2026-09-06 runtime simplification. Preserve this proposal as history; do not
+  silently restore the old always-loaded governance.

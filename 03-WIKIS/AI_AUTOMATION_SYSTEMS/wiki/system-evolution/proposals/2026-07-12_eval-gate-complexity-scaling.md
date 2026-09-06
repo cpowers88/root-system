@@ -73,5 +73,13 @@ would revise).
 - **Expected behavior:** new agent workflows get testing proportional to their complexity per `AGENT.md § Agent Evaluation Gate` rule 2; no consequential workflow enters recurring use untested.
 - **Evidence for improvement or regression:** an eval record exists for the next new workflow (scanner/tracker automation are the likely candidates). Regression = a workflow incident that the scaled test tiers would have caught, or a consequential workflow with no eval record.
 - **check_at:** 2026-08-24 (next new agent workflow is expected with the fall setup window)
-- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
-- **Verdict:** (keep / modify / revert — blank until the check date)
+- **Outcome:** Reviewed 2026-09-06. The 2026-09-06 `00-BRAIN\AGENT.md`
+  rewrite preserves the same complexity-scaled rule in compressed form:
+  typical, edge, and failure/recovery are the floor; tool, permission, and
+  handoff cases are added only when introduced by the design; full traces,
+  recovery, ownership, and external side effects are checked before promotion.
+  `00-BRAIN\Session_Logs\System Update Log\2026-08-12_ROOT_UPDATE\CODEX_AIAS_WIKI_OPTIMIZATION_REVIEW_2026-08-13.md`
+  also applies the floor to concrete semester-readiness journeys.
+- **Verdict:** **keep** — the principle and expected behavior remain live. The
+  current `AGENT.md` sentence supersedes the proposal's earlier multi-rule
+  wording as the implementation text.

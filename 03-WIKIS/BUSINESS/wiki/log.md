@@ -861,3 +861,32 @@ four lines above it). No content pages added or removed.
 
 - On September 13, challenge Run 1 omissions and obvious fit errors; then run
   the 15–20-cell workflow comparison for the September 20 review.
+
+## 2026-09-06 — Historical method recovery and reusable-asset integrity repair
+
+### What changed
+
+- Recovered the last pre-deletion blob of
+  `ai-integration-company/first-workflow-observation-field-plan.md` from commit
+  `56d4a4d` into `99-ARCHIVE` with an archive manifest. The Git blob hashes
+  match exactly; the old access sequence was not restored as live guidance.
+- Corrected the two cross-owner method links in
+  `05-BUSINESS/01-Audit Templates/workflow-observation-question-sequence.md`
+  and added the field-notes master to `05-BUSINESS/TEMPLATE_INDEX.md`.
+- Renamed `05-BUSINESS/02-Field Notes/Symptom .md` to `symptom.md`; the content
+  hash is unchanged and no live inbound path required repair.
+- Added a dedicated `05-BUSINESS` asset lint and wired it into the canonical
+  health gate. Its temporary-fixture suite covers the clean path, cross-owner
+  bare links, leading-space frontmatter, dead relative links, and missing index
+  rows.
+
+### Evidence and limits
+
+- These are retrieval and integrity repairs. No business strategy, market
+  claim, asset maturity, or proof status changed.
+- Historical logs that name the former field-note basename remain unchanged.
+
+### Recommended next action
+
+- None. Let the new asset check run with the full health gate when that gate's
+  whole-vault scope is authorized.

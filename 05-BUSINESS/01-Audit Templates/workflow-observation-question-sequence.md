@@ -478,7 +478,7 @@ Next proof, owner, and date:
 
 ## Related Pages
 
-- [[../../evidence/customer-discovery-and-evidence|Customer Discovery and Evidence]]
-- [[../../methods/workflow-observation-method|Workflow Observation Method]]
+- [[03-WIKIS/BUSINESS/wiki/evidence/customer-discovery-and-evidence|Customer Discovery and Evidence]]
+- [[03-WIKIS/BUSINESS/wiki/methods/workflow-observation-method|Workflow Observation Method]]
 - [[audit-interview-guide|Audit Interview Guide]]
 - [[audit-report-template|Audit Report Template]]

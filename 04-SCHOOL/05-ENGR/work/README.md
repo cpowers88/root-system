@@ -12,34 +12,30 @@ created: 2026-08-13
 
 Ruled by Chris 2026-08-13 (Phase E / R3): output goes inside the course folder.
 
-## ⚠ Exact BWD remains missing; Fall 2026 common structure is provisional
+## Exact BWD evidence — captured 2026-08-24
 
-ENGR 1000 **BWD** (CRN 80858, 1 credit) is registered as online with no meeting
-time. Kamyar Raoufi is the instructor, supplied by Chris. The exact BWD syllabus
-and D2L calendar are not on file.
+ENGR 1000 **BWD** (CRN 80858, 1 credit) is asynchronous and online. Kamyar
+Raoufi is the instructor. The exact syllabus and the separate `Course Schedule,
+Lecture Quizzes & Assignments` PDF are both on file in the parent folder.
 
-Three neighboring Fall 2026 web sections — BWB, BWC, and BWF — have the same
-course-specific core (BWC only omits a redundant no-textbook sentence):
+The binding course schedule establishes:
 
-- no textbook;
-- seven assignments: Virtual Scavenger Hunt, Time Management, Professional
-  Communication/resume, Engineering Ethics, Professional Licensure, Student
-  Engagement, and Engineering Design;
-- departmental quizzes 50% and homework/other quizzes 50%;
-- lowest departmental quiz and lowest non-attendance grade dropped;
-- no late work and no extra credit;
-- D2L owns all due dates; and
-- AI use prohibited.
+- one lecture quiz every week;
+- an assignment in most weeks;
+- all quizzes and assignments due Tuesdays at 11:59 PM;
+- no late work for any reason;
+- the lowest lecture quiz and lowest assignment dropped;
+- no textbook; and
+- AI prohibited on submitted work.
 
-This is **strong provisional common-structure evidence, not BWD authority**.
-BWD's D2L shell and Raoufi override it. Do not infer dates, weekly order,
-partner requirements, or instructor execution from neighboring sections.
+D2L still owns submission status, current directions, announcements, and any
+later change. A local file proves only that material was downloaded; it does not
+prove an assignment was submitted.
 
-Until BWD states otherwise, treat AI as prohibited on submitted work.
+## Current Week 3 check — September 8
 
-**Flag #57 owns the remaining gap:** the exact BWD syllabus, D2L due dates, and
-how departmental quizzes operate in this web section. The safe preparation is
-administrative: check D2L, read the BWD directions, and establish the weekly
-submission-check habit. Do not pre-do the neighboring sections' assignments.
-
-Update `04-SCHOOL\SYLLABUS_STATUS.md` the moment the real syllabus lands.
+The exact schedule requires both the **ISYE / IET lecture quiz** and the **Time
+Management Assignment** by Tuesday, September 8 at 11:59 PM. Chris believes he
+is ahead, but completion remains unverified until he checks D2L. If either item
+is open, it is suitable low-cognitive-load work; do not mark the week complete
+from the local assignment file alone.

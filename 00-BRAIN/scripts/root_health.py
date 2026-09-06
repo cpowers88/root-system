@@ -113,13 +113,17 @@ def text_integrity() -> dict:
 def public_check(check: dict) -> dict:
     data = check["data"] or {}
     summary = None
-    if check["name"] == "wiki links and navigation":
+    if check["name"] in {
+        "wiki links and navigation",
+        "05-BUSINESS reusable assets",
+    }:
         summary = {
             key: data.get(key)
             for key in (
-                "status", "scanned_hubs", "vault_pages", "blockers",
+                "status", "scanned_hubs", "vault_pages", "asset_pages", "blockers",
                 "review_debt", "expected",
             )
+            if data.get(key) is not None
         }
     elif check["name"] == "frontmatter and timeline metadata":
         comparison = data.get("comparison") or {}
@@ -161,10 +165,15 @@ def main() -> int:
 
     wiki_command = [sys.executable, str(SCRIPTS / "wiki_lint.py"),
                     "--strict", "--json"]
+    business_command = [
+        sys.executable, str(SCRIPTS / "business_asset_lint.py"),
+        "--strict", "--json",
+    ]
     frontmatter_command = [sys.executable, str(SCRIPTS / "frontmatter_audit.py"),
                            "--json"]
     if args.strict:
         wiki_command.append("--fail-on-review")
+        business_command.append("--fail-on-review")
         frontmatter_command.append("--strict")
     else:
         frontmatter_command.extend(["--baseline", str(BASELINE)])
@@ -175,6 +184,7 @@ def main() -> int:
         run("wiki links and navigation", wiki_command, parse_json=True),
         run("frontmatter and timeline metadata", frontmatter_command,
             parse_json=True),
+        run("05-BUSINESS reusable assets", business_command, parse_json=True),
         run("CASTLE freshness and review triggers", [
             sys.executable, str(SCRIPTS / "castle_freshness.py")]),
         run("shared skill mirrors", [
@@ -187,9 +197,11 @@ def main() -> int:
     failed = [check for check in checks if check["status"] == "BLOCKER"]
     wiki = checks[1]["data"] or {}
     frontmatter = checks[2]["data"] or {}
+    business = checks[3]["data"] or {}
     wiki_review = int(wiki.get("review_debt", 0))
+    business_review = int(business.get("review_debt", 0))
     frontmatter_total = int(frontmatter.get("counts", {}).get("total", 0))
-    debt = wiki_review + frontmatter_total
+    debt = wiki_review + business_review + frontmatter_total
     strict_debt_names = set()
     if args.strict and checks[1] in failed and not wiki.get("blockers"):
         strict_debt_names.add(checks[1]["name"])
@@ -198,6 +210,8 @@ def main() -> int:
         and checks[2]["parse_error"] is None
     ):
         strict_debt_names.add(checks[2]["name"])
+    if args.strict and checks[3] in failed and not business.get("blockers"):
+        strict_debt_names.add(checks[3]["name"])
     hard_blockers = [
         check for check in failed if check["name"] not in strict_debt_names
     ]
@@ -213,6 +227,7 @@ def main() -> int:
         "exit_code": 1 if failed else 0,
         "debt": {
             "wiki_review": wiki_review,
+            "business_asset_review": business_review,
             "frontmatter_reviewed_baseline": frontmatter_total,
         },
         "checks": [public_check(check) for check in checks],
@@ -233,6 +248,14 @@ def main() -> int:
                 detail = (
                     f" - blockers {data.get('blockers', '?')}; review "
                     f"{data.get('review_debt', '?')}; expected {data.get('expected', '?')}"
+                )
+                if check["returncode"] == 0 and data.get("review_debt"):
+                    label = "REVIEW DEBT"
+            elif check["name"] == "05-BUSINESS reusable assets":
+                detail = (
+                    f" - blockers {data.get('blockers', '?')}; review "
+                    f"{data.get('review_debt', '?')}; pages "
+                    f"{data.get('asset_pages', '?')}"
                 )
                 if check["returncode"] == 0 and data.get("review_debt"):
                     label = "REVIEW DEBT"

@@ -97,5 +97,13 @@ compressed audit-usable style):
 - **Expected behavior:** every new agentic tool considered for `.ROOT` gets the vetting screen applied before adoption; no tool enters use without a recorded system-card/sandboxing/stop-control review.
 - **Evidence for improvement or regression:** DAILY/wiki-log entries for tool vettings citing the checklist. Regression = any tool adopted after 2026-07-08 with no vetting record.
 - **check_at:** 2026-08-24 (first new-tool vetting event or the fall-semester toolset review, whichever comes first)
-- **Outcome:** (blank until the check date — record what actually happened, with an evidence link)
-- **Verdict:** (keep / modify / revert — blank until the check date)
+- **Outcome:** Reviewed 2026-09-06. The screen remains live in
+  `02-LIBRARY\ref-AI-automation\TECHNOLOGY_LIBRARY_STRATEGY.md` Category 10,
+  and the 2026-08-13 AIAS optimization review explicitly preserves it for
+  future business build-out. The AIAS, TECHNOLOGY, and session logs contain no
+  post-2026-07-08 adoption record that applies every promised check. That is a
+  return-record failure, not evidence that an unsafe tool was adopted.
+- **Verdict:** **modify** — retain the vendor-neutral screen; when a new agent
+  tool is actually considered for adoption or recommendation, its decision
+  record must cite the screen and record the applicable checks. Do not infer
+  use from the screen's continued presence.

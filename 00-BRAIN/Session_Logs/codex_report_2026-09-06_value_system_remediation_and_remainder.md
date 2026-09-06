@@ -232,12 +232,12 @@ context, while the action axis now returns only owner-activated work.
 **Owner:** Chris or the owning review mechanism. The files are already
 `timeline: reference`; only their post-change fields are incomplete.
 
-| Proposal file | Current implementation evidence | Decision required |
+| Proposal file | Current implementation evidence | 2026-09-06 verdict |
 |---|---|---|
-| `2026-07-08_agentic-tool-vetting-checklist.md` | The vetting screen remains in `TECHNOLOGY_LIBRARY_STRATEGY.md` Category 10 | Audit every post-July 8 agent/tool activation for a recorded vetting; keep if complete, modify if the screen is present but the return record is unreliable |
-| `2026-07-12_eval-gate-complexity-scaling.md` | Current `AGENT.md` retains typical, edge, failure/recovery, tool, permission, handoff, trace, ownership, and side-effect checks | Compare one consequential workflow's full eval trace to the rule; likely retain the principle and update the proposal to the current compressed wording |
-| `2026-07-12_extension-trigger-table.md` | The table is not in the September 6 `AGENT.md` runtime | Decide whether the runtime rewrite intentionally superseded it; record superseded/revert if so, rather than silently restoring old governance |
-| `2026-07-13_belief-proposal-split-for-system-flags.md` | `SYSTEM_LEARNINGS.md` exists and contains L-2026-01 with a Chris-ratified behavior proposal and September 23 check | Record the overdue pilot outcome now, then make the final keep/modify/revert decision at or after the September 23 evidence check |
+| `2026-07-08_agentic-tool-vetting-checklist.md` | The screen remains live, but the promised post-July 8 adoption/vetting return record was not found | **Modify:** keep the screen and require the next actual decision record to cite and apply it |
+| `2026-07-12_eval-gate-complexity-scaling.md` | Current `AGENT.md` retains the complexity-scaled floor and the August 13 readiness review applies it to concrete journeys | **Keep:** current compressed wording is the implementation owner |
+| `2026-07-12_extension-trigger-table.md` | Commit `013f118` removed the table during the controlled runtime rewrite; `CODEX.md` retains smaller extension authority | **Revert:** preserve as history and do not silently restore it |
+| `2026-07-13_belief-proposal-split-for-system-flags.md` | `SYSTEM_LEARNINGS.md` contains `L-2026-01` with three evidence instances and a Chris-ratified behavior proposal | **Keep:** retain the pilot mechanism; evaluate `L-2026-01` effectiveness on September 23 |
 
 For each file, replace the blank `Outcome` and `Verdict` placeholders with the
 actual evidence link and one of keep/modify/revert. Do not alter the historical
@@ -252,7 +252,7 @@ baseline. The completed boot report was moved to
 `03-WIKIS\TECHNOLOGY\99-ARCHIVE\ARCHIVED_2026-09-06_technology_boot_one_review.md`
 with an archive manifest. Historical log and audit mentions were not rewritten.
 
-### R4 — Recover the deleted historical field plan to archive
+### R4 — Completed: recover the deleted historical field plan to archive
 
 `03-WIKIS\BUSINESS\wiki\ai-integration-company\first-workflow-observation-field-plan.md`
 was added in commit `ed162d8`, modified in `56d4a4d`, and deleted in `f2a7d84`
@@ -260,35 +260,32 @@ without an archive copy. The live question sequence now points to the current
 Observation Methodology, so retrieval is repaired without reviving stale access
 instructions.
 
-**Procedure:** inspect the last pre-deletion blob, confirm it is the expected
-historical method, and ask Chris to approve recovery into an approved
-`99-ARCHIVE` location. Preserve the blob exactly with a separate archive
-manifest/note; do not restore it as live guidance.
+Recovered to
+`03-WIKIS\BUSINESS\99-ARCHIVE\ARCHIVED_2026-09-06_first-workflow-observation-field-plan.md`
+with a manifest. Its Git blob hash exactly matches the last pre-deletion blob
+from `56d4a4d`; it was not restored as live guidance.
 
-### R5 — Rename the trailing-space field-note file
+### R5 — Completed: rename the trailing-space field-note file
 
 **Target:** `05-BUSINESS\02-Field Notes\Symptom .md`.
 
-This is a portability/retrieval defect, but `WHERE_IT_GOES.md` prohibits
-unilateral renames. After Chris approves, search all inbound links and paths,
-rename to `05-BUSINESS\02-Field Notes\symptom.md`, update every live inbound
-reference, and verify no old path remains. Preserve content byte-for-byte apart
-from any required frontmatter/path correction.
+Renamed to `05-BUSINESS\02-Field Notes\symptom.md`. The SHA-256 content hash is
+unchanged. No live inbound link used the old basename; historical logs and audit
+reports remain unchanged as dated evidence.
 
-### R6 — Add integrity coverage for 05-BUSINESS
+### R6 — Completed: add integrity coverage for 05-BUSINESS
 
 `wiki_lint.py` scans the eight `03-WIKIS` hubs plus CASTLE and assumes pages
 live under a `wiki` subfolder. `05-BUSINESS` uses a different asset-tree shape,
 so merely adding it to `HUBS` would silently scan nothing.
 
-**Recommended design:** add an explicit asset-root adapter or a separate
-`business_asset_lint.py`, then call it from the health gate. It must check
-frontmatter presence, path-qualified/bare wikilinks, missing template/capability
-index entries, and index links to nonexistent files while excluding raw,
-archives, vendored content, and private boundaries. Acceptance cases must
-include the exact defects fixed here: leading spaces before frontmatter, a dead
-relative method link, and missing template-index rows. Typical, edge, and
-failure/recovery tests are required before recurring use.
+Added `00-BRAIN\scripts\business_asset_lint.py` and wired it into
+`root_health.py`. It checks byte-zero frontmatter, path-qualified and bare
+wikilinks, required index existence, dead index links, and missing template or
+capability rows while excluding raw, archives, vendored content, private paths,
+and the school tree. Its temporary-fixture suite covers the requested typical,
+edge, and failure cases. The first live run found and this pass repaired two
+dead cross-owner method links and the missing field-notes template row.
 
 ### R7 — Run the full canonical health gate when its scope is authorized
 
@@ -312,6 +309,9 @@ whitespace checks.
 - BUSINESS APQC target existence/path check: PASS.
 - `observation_one.md` byte-zero frontmatter check: PASS.
 - 05-BUSINESS template-index and current-method link checks: PASS.
+- 05-BUSINESS asset lint self-test: PASS for typical, edge, and three named
+  failure classes; live strict run after repairs: PASS with 32 pages, 0 blockers,
+  and 0 review debt.
 - Revenue Lab check: zero non-log `timeline: now` pages; live ruling and owner
   pointers present; PASS.
 - SYSTEMS final action-horizon count: 136 `reference`, 1 `log`, zero

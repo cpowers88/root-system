@@ -28,6 +28,7 @@ Ready-to-use working documents. Copy each into your own docs system, customize f
 | [[01-Audit Templates/audit-interview-guide|Audit Interview Guide]] | Owner and staff interviews, days 2–4 |
 | [[01-Audit Templates/audit-report-template|Audit Report Template]] | The deliverable, days 10–14 |
 | [[01-Audit Templates/TECHNOLOGY_AUDIT_REPORT_TEMPLATE|Technology and Operations Audit Report]] | A full technology-and-operations report when the engagement scope requires it |
+| [[02-Field Notes/FIELD_NOTES_TEMPLATE|Field Notes Template]] | Capturing one sanitized observation as evidence rather than strategy or proof |
 
 ## Delivering
 | Template | Use when |

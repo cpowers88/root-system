@@ -2000,3 +2000,20 @@ reference back matter rather than an ingestion backlog.
   evidence.
 - **Next exact action:** disposition those four proposal checks in one bounded
   review; record outcome evidence and a keep/modify/revert verdict on each.
+
+## 2026-09-06 — Four overdue proposal checks dispositioned
+
+- **Agent-tool vetting screen: modify.** Keep the live vendor-neutral screen,
+  but require the next real adoption/recommendation record to cite and apply it;
+  the promised post-change return record was absent.
+- **Complexity-scaled eval gate: keep.** The September 6 compressed `AGENT.md`
+  rule preserves the floor and design-triggered cases, and the August 13
+  readiness review applied that structure to concrete journeys.
+- **Extension trigger table: revert.** The controlled September 6 runtime
+  rewrite removed the always-loaded table while retaining smaller extension
+  authority in `CODEX.md`; the historical proposal is not silently restored.
+- **Belief/proposal split: keep.** `SYSTEM_LEARNINGS.md` and `L-2026-01` prove
+  the pilot produced its intended artifact. The learning's separate
+  effectiveness review remains due September 23.
+- No tool was activated, no governance was promoted from research, and no
+  business or school strategy changed in this disposition pass.

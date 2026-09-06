@@ -84,9 +84,14 @@ waits for the next qualifying pattern.
   promotion, missing evidence, or an ownerless follow-up.
 - **check_at:** 2026-08-24 (enough real-use and review cycles for the pilot to
   receive a fair trigger)
-- **Outcome:** (blank until the check date — record what actually happened,
-  with an evidence link)
-- **Verdict:** (keep / modify / revert — blank until the check date)
+- **Outcome:** Reviewed 2026-09-06. `00-BRAIN\SYSTEM_LEARNINGS.md` is live and
+  contains `L-2026-01`, supported by three incidents and linked to a
+  Chris-ratified behavior change. The pilot therefore produced the intended
+  belief/proposal separation. That learning's effectiveness check remains due
+  2026-09-23; this overdue proposal check does not pre-judge it.
+- **Verdict:** **keep** — retain the on-demand registry and evidence threshold.
+  Use the 2026-09-23 check on `L-2026-01` to evaluate the first behavior
+  proposal's effectiveness, not to reopen whether the registry exists.
 
 ## Source Basis
 

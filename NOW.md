@@ -10,11 +10,15 @@ updated: 2026-09-06
 
 ## Active lane
 
-**REQUEST-DRIVEN — enter TUTOR or VALUE from Chris's next request.** The September 6 runtime rewrite is installed; CASTLE returns only for a specific system, sequence, or opportunity decision.
+**SCHOOL WEEK 3 — execute Chris's September 7–13 list through the TUTOR entry.**
+Use D2L for due dates and completion; use `04-SCHOOL\FallKSU.xlsx` as the local
+checklist. CASTLE remains out unless a specific system decision appears.
 
 ## Required outcome
 
-Prove that a fresh session begins useful school or value work with less loading and no return of schedule-management ceremony.
+Finish the Monday TCOM drafts, protect Tuesday's due work and quiz, arrive ready
+for Thursday's TCOM lab, and start Physics exam preparation without letting the
+possible ENGR status remain assumed.
 
 ## Current evidence
 
@@ -23,10 +27,21 @@ Prove that a fresh session begins useful school or value work with less loading 
 - Superseded instructions are preserved in `99-ARCHIVE\ARCHIVED_2026-09-06_runtime-v2`.
 - Flag #91 re-raised on the second propagation miss and closed after the coherent rewrite.
 - **First natural request ran (Claude Code, value-system audit): routing worked.** VALUE entered from the request; hub `OPERATIONS.md` files loaded as the named owners; no school files, CASTLE maps, or schedule reconstruction pulled defensively. One observation, not a verdict — a genuinely cold context is still untested.
+- **The approved non-school remediation was enacted.** SYSTEMS and TECHNOLOGY
+  action-horizon drift was cleared, the four overdue AIAS proposal checks were
+  dispositioned, the deleted historical business method was recovered to
+  archive, and `05-BUSINESS` gained a passing dedicated integrity check.
+- Chris supplied the current Week 3 school list on September 6. The workbook now
+  reflects that list instead of the stale derived TCOM sequence.
+- The exact ENGR BWD schedule confirms a Week 3 lecture quiz and Time Management
+  Assignment due Tuesday, September 8 at 11:59 PM. Completion is not yet proven.
 
 ## Next action
 
-Rule on the seven open decisions in `00-BRAIN\Session_Logs\claude_report_2026-09-06_value_system_truth_audit.md` § 11, starting with #1: correct `03-WIKIS\REVENUE_LAB\OPERATIONS.md` § Why this hub exists to the 2026-08-13 ruling. Nothing in that report's change manifest executes before Chris rules.
+Monday: finish the TCOM Business Email Final and instructions rough draft, then
+check ENGR D2L for the Week 3 lecture quiz and Time Management Assignment. On
+Tuesday, use class for the instructions final draft, take the ECON quiz, and
+finish CSE Lab 3 plus the assignment file in lab.
 
 ## Decision rule
 
@@ -34,7 +49,9 @@ Keep the rewrite if fresh sessions route correctly, preserve safety and truth, a
 
 ## Chris decision
 
-Rule on decision #1 — a governance file, so it requires explicit approval. Batch A (145 files) is a bulk edit and additionally requires disposable-copy proof plus `safe_shell.sh` per `AGENT.md` § File Safety 8. Commit and push remain separate consequential actions and have not been authorized.
+No strategy decision is open. ENGR completion requires a D2L check. Thursday's
+possible TCOM team-project and extra-credit start also remains `Need D2L`, not a
+committed due item.
 
 ## Fixed boundaries
 

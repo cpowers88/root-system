@@ -57,7 +57,8 @@ the course folder. Domain teaching and learner truth stay in the owning wiki.
 
 ## ENGR evidence boundary
 
-The exact Fall 2026 **BWD** syllabus is still missing. Three neighboring Fall
-2026 web sections (BWB, BWC, BWF) share a near-identical course core. Their common
-structure is strong provisional evidence only. BWD D2L and Kamyar Raoufi remain
-binding for dates, execution, delivery mechanics, and any difference in policy.
+The exact Fall 2026 **BWD** syllabus and separate course schedule were captured
+from D2L on 2026-08-24. They establish the weekly lecture-quiz and assignment
+sequence, Tuesday 11:59 PM deadlines, no-late-work rule, drop rules, and AI
+prohibition. D2L and Kamyar Raoufi remain binding for completion status,
+directions, announcements, and any later change.
