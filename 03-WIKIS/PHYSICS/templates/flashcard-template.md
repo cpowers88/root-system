@@ -1,6 +1,7 @@
 ---
 type: template
-tags: [reference, physics]
+tags: [physics]
+timeline: reference
 ---
 
 # Flashcards — [Topic]

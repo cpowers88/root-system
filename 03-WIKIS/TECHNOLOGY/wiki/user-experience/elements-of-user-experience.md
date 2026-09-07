@@ -3,7 +3,9 @@ domain: technology
 type: source-summary
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/ux, subject/product-design]
+tags: [subject/ux, subject/product-design]
+source_role: primary
+use_cases: [tech-stack]
 ---
 
 # The Elements of User Experience - Source Summary and Navigation Hub

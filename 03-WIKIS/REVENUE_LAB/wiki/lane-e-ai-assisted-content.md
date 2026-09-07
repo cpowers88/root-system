@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [now, business, revenue]
+tags: [business, revenue]
+timeline: reference
 ---
 
 # Lane E — AI-Assisted / Faceless Content Variants

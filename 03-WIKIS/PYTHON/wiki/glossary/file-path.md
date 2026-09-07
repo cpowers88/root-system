@@ -4,6 +4,7 @@ stage: 06
 status: draft
 aliases: ["relative path", "absolute path"]
 related_terms: ["open-read-write-close"]
+timeline: reference
 ---
 
 # File Path

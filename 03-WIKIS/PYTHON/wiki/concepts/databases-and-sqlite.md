@@ -4,7 +4,8 @@ stage: 10
 status: draft
 source_refs: ["Automate the Boring Stuff Ch.16 (SQLite Databases)"]
 prerequisites: ["dictionaries", "csv-and-json"]
-tags: [stage-10, databases, sqlite]
+tags: [databases, sqlite]
+timeline: reference
 ---
 
 # Concept: Databases and SQLite (Light Introduction)

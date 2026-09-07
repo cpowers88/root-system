@@ -9,29 +9,30 @@ tags: [phase]
 # Phase 3 — Data & Workflow Systems Foundation
 
 **Window**: November 2026 – March 2027 (overlaps Phases 1–2; semester pace rules)
-**One-line purpose**: Prove the full client-data pipeline — messy export → SQL → analysis → visual, numbers-backed report.
+**One-line purpose**: Prove the full operational-data pipeline — messy data → validated structure → defensible analysis → decision-ready communication.
 
 ## Purpose
-An audit's credibility is the waste-math: `(minutes per instance × instances per
-year × loaded hourly rate) + error/rework cost + revenue leakage` (source:
-smb-ai-audit-method.md, Step 3). This phase builds the ability to compute and SHOW
-those numbers from a client's real, messy data.
+The current audit hypothesis uses waste-math such as `(minutes per instance ×
+instances per year × loaded hourly rate) + error/rework cost + revenue leakage`
+(source: smb-ai-audit-method.md, Step 3). This phase builds the broader ability to
+turn messy operational data into a traceable conclusion another person can use.
 
 ## Why It Matters to the North Star
-Findings without visuals don't sell (gap #3, SKILL_GAP_ANALYSIS). The audit report's
-headline is a dollar number with evidence behind it. This phase turns the Phase 1
-Python/SQL foundation into the audit's analytical engine before the first client.
+Decision-facing evidence must make its assumptions, calculation, and consequence
+clear. A visual is useful when it materially improves that decision; it is not the
+only valid format. This phase turns the Phase 1 data foundation into a reusable
+analytical capability before the current first-offer test.
 
 ## Skills Needed
-- pandas/CSV handling + cleaning — Technical
-- SQL beyond basics (joins, grouping, aggregates) — Technical
-- Looker Studio dashboarding — Technical / Delivery
-- Report generation (Python → Markdown → PDF) — Delivery
+- Tabular-data handling, cleaning, and validation — Technical
+- Relational data modeling and querying — Technical
+- Decision-facing communication and appropriate visualization — Technical / Delivery
+- Repeatable report generation in a justified format — Delivery
 - Waste quantification math applied to real data — Diagnostic
 
 ## Skills NOT Needed Yet
-- REST APIs at depth — first pull can wait for a real integration need (Phase 7)
-- Make.com/n8n builds — recommendation fluency suffices until clients exist
+- Deep API integration — wait for a real interface need
+- Production automation builds — recommendation fluency suffices until a verified workflow requires one
 
 ## Best Sources
 | Source | Tier | Location | What it proves |
@@ -41,12 +42,15 @@ Python/SQL foundation into the audit's analytical engine before the first client
 | smb-ai-audit-method.md, Step 3 | internal | `03-WIKIS\BUSINESS\` | The waste-math formula this phase exists to serve |
 | Practical SQL / Python for Data Analysis | 1 | `03-WIKIS\PYTHON\raw\books\` (source PDFs; already digested into the source-summary pages above) | Depth on demand |
 
-## Tools to Learn
-sqlite3 → pandas → Looker Studio (one real dashboard) → a Markdown/PDF report script
+## Tools, Methods, or Platforms Under Test
+Current candidates include SQLite, pandas, a justified reporting or visualization
+platform, and a repeatable document pipeline. The approved proof vehicle and its
+constraints select the smallest useful combination through the Recommendation Ladder.
 
-## Business Capability Unlocked
-Data-backed audit findings: turn any client export (QuickBooks, jobs list, timesheet)
-into quantified waste and a visual an owner understands in ten seconds.
+## Capability and Value Enabled
+Turn an unfamiliar operational dataset into a validated structure, defensible
+finding, and decision-ready explanation. Under the current strategy, that capability
+supports data-backed audit findings.
 
 ## Proof Projects
 - **Approved reporting vehicle** — a small real dataset flowing through storage,
@@ -56,9 +60,9 @@ into quantified waste and a visual an owner understands in ten seconds.
   didn't create, clean it, quantify one "waste" finding, present it on one page.
 
 ## Exit Criteria
-- [ ] One approved real-data vehicle producing a repeatable Python/SQLite report
-- [ ] One Looker Studio dashboard live on real data
-- [ ] One foreign messy dataset → cleaned → quantified finding → one-page visual report, end-to-end without help
+- [ ] One approved real-data vehicle producing repeatable structured analysis and a decision-ready output
+- [ ] One decision-facing output on real data using a justified format
+- [ ] One foreign messy dataset → validated → quantified finding → decision-ready communication, end-to-end without help
 - [ ] Waste-math formula applied with conservative, defensible numbers at least twice
 
 ## Risks and Distractions

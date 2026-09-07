@@ -1,17 +1,23 @@
 ---
 type: stage
+timeline: reference
 status: draft
 ---
 
 # Stage 16 — Wave Motion (Ch 16)
 
+> **Exact §54 scope:** §§16.1–16.3 only, taught Nov 20 and Nov 30 and assessed
+> on the comprehensive final. Sound intensity, decibels, Doppler effect, and
+> later Chapter 16 calculus remain reference, not active semester requirements.
+
 ## Goal
 
-Describe traveling waves mathematically and physically: understand the wave model, read and write wave functions, calculate wave speed, and apply the Doppler effect.
+Describe traveling waves mathematically and physically: understand the wave
+model, read and write wave functions, and calculate wave speed on a string.
 
 ## Textbook Alignment
 
-Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., Chapter 16.
+Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., §§16.1–16.3.
 
 ## Prerequisite Physics
 
@@ -19,14 +25,14 @@ Stage 15 (oscillatory motion) — oscillation is the source of a wave. Stage 7�
 
 ## Prerequisite Math
 
-Sinusoidal functions (sin, cos), partial derivatives (conceptual recognition only), logarithms (for decibels).
+Sinusoidal functions (sin, cos), algebraic rearrangement, and proportional reasoning.
 
 ## Core Concepts
 
 - [[../concepts/wave-model]]
 - [[../concepts/sinusoidal-wave]]
 - [[../concepts/wave-speed]]
-- [[../concepts/doppler-effect]]
+- [[../concepts/doppler-effect]] *(reference; off active §54 scope)*
 
 ## Required Vocabulary
 
@@ -36,7 +42,7 @@ Wave, transverse, longitudinal, amplitude, wavelength, frequency, period, wave n
 
 - [[../equations/wave-function]] — y(x,t) = A sin(kx − ωt)
 - [[../equations/wave-speed-on-string]] — v = √(T/μ)
-- [[../equations/doppler-effect]] — f_obs = f_s(v ± v_o)/(v ∓ v_s)
+- [[../equations/doppler-effect]] — reference; off active §54 scope
 
 ## Variables and Units
 
@@ -57,7 +63,9 @@ Wave, transverse, longitudinal, amplitude, wavelength, frequency, period, wave n
 
 ## Calculus Connections
 
-The wave equation is a partial differential equation: ∂²y/∂x² = (1/v²) ∂²y/∂t². You are not required to derive or solve it — but recognize that y(x,t) = A sin(kx − ωt) satisfies it, which is why sinusoidal waves are the natural form.
+The active math is reading the two-variable sinusoidal function and connecting
+`v = λf = ω/k` to `v = √(T/μ)`. The later partial-differential wave equation is
+useful reference but is outside §§16.1–16.3.
 
 Particle velocity of the medium: vy = ∂y/∂t = −Aω cos(kx − ωt). This is different from the wave speed v.
 
@@ -91,7 +99,7 @@ Wavelength = distance between adjacent compressions.
 ## Problem Types
 
 - [[../problem-types/wave-properties-problems]]
-- [[../problem-types/doppler-problems]]
+- [[../problem-types/doppler-problems]] *(reference; off active §54 scope)*
 
 ## Worked Examples
 
@@ -100,7 +108,7 @@ Wavelength = distance between adjacent compressions.
 ## Drills
 
 - [[../drills/wave-properties-drill]]
-- [[../drills/doppler-drill]]
+- [[../drills/doppler-drill]] *(reference; off active §54 scope)*
 
 ## Common Errors
 
@@ -113,10 +121,10 @@ See [[../common-errors/stage-16-wave-motion]].
 - [ ] Calculate wave speed using v = λf AND v = ω/k and get the same answer
 - [ ] Calculate wave speed on a string given tension T and linear density μ
 - [ ] Explain why wave speed ≠ particle speed of the medium
-- [ ] Apply the Doppler formula correctly, choosing signs by asking "approaching or receding?"
-- [ ] Convert between intensity I (W/m²) and intensity level β (dB)
 - [ ] Explain why sound is a longitudinal wave, not a transverse wave
 
 ## Do Not Move On Until
 
-Chris can read a wave function and extract all wave properties from it in under two minutes, correctly apply the Doppler formula for all four cases (source moving, observer moving, both), and state in plain English why wave speed and particle speed are different things.
+Chris can read a wave function and extract all active-scope wave properties in
+under two minutes, calculate string-wave speed, and state in plain English why
+wave speed and particle speed are different things.

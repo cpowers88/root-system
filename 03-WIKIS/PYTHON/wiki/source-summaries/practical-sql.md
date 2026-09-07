@@ -1,10 +1,11 @@
 ---
 type: source-summary
+timeline: reference
 status: parked
 source_role: spine (candidate — parked SQL-fundamentals strand)
 difficulty: post-stage-10
 source_file: raw/books/PracticalSQL.pdf
-tags: [reference, programming, parked, sql-strand, hub]
+tags: [programming, sql-strand, hub]
 ---
 
 # Practical SQL — Source Summary and Navigation Hub

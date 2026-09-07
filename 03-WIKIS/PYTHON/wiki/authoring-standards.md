@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [reference, programming, governance]
+tags: [programming, governance]
+timeline: reference
 ---
 
 # Authoring Standards — Python Wiki

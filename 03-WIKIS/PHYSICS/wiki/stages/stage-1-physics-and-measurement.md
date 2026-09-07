@@ -1,5 +1,6 @@
 ---
 type: stage
+timeline: reference
 status: draft
 ---
 

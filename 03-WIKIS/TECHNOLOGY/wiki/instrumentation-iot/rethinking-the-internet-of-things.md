@@ -3,7 +3,8 @@ domain: technology
 type: source-summary
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, subject/iot, subject/edge-computing, subject/distributed-systems]
+tags: [subject/iot, subject/edge-computing, subject/distributed-systems]
+source_role: primary
 ---
 
 # Rethinking the Internet of Things - Source Summary and Navigation Hub

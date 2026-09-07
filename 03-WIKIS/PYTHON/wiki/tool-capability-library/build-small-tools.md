@@ -4,7 +4,8 @@ status: active
 stage: 10
 python_tools: [argparse, functions, input]
 prerequisites: [functions, loops, conditionals, files]
-tags: [reference, programming, capability]
+tags: [programming, capability]
+timeline: reference
 ---
 
 # Capability: Build Small Internal Tools

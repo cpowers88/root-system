@@ -1,6 +1,7 @@
 ---
 type: common-errors
-tags: [later, physics]
+tags: [physics]
+timeline: later
 ---
 
 # Common Errors — Stage 12: Static Equilibrium and Elasticity (Ch 12)

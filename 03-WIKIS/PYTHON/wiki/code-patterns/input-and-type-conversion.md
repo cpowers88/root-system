@@ -3,7 +3,8 @@ type: code-pattern
 stage: 01
 status: draft
 concepts: ["variable", "input", "type-conversion"]
-tags: [stage-01, input, conversion]
+tags: [input, conversion]
+timeline: reference
 ---
 
 # Code Pattern: Get Input and Convert Type

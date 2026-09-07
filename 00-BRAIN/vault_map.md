@@ -6,14 +6,14 @@ tags: [governance]
 
 # vault_map.md — Powers System Map (.ROOT)
 ### Navigation file. Two levels deep ON PURPOSE — see Map Rule below.
-### Last updated: July 15, 2026 (post-remediation interface review)
+### Last updated: August 16, 2026 (`04-SCHOOL` moved out of `02-LIBRARY` to root, matching the Aug 12 promotion this map missed; scripts count corrected 7 → 22. Prior: July 29, 2026, 02-LIBRARY casing reconciled — see below)
 ### System: local C: workspace (truth) + Obsidian (capture/graph) + GitHub (code). G: is cloud backup only. Everything lives in .ROOT.
 
 ---
 
 ## The System in One Sentence
 
-Everything lives in `.ROOT`. `00-BRAIN` governs. `01-NORTH_STAR` commands. `02-LIBRARY\00-SCHOOL` holds course files. `03-WIKIS` grow knowledge. `05-BUSINESS` makes it money. Chris decides.
+Everything lives in `.ROOT`. `00-BRAIN` governs. `01-NORTH_STAR` commands. `04-SCHOOL` holds course files. `03-WIKIS` grow knowledge. `05-BUSINESS` makes it money. Chris decides.
 
 ## The Map Rule
 
@@ -23,14 +23,20 @@ file list older than the current session.
 
 ---
 
-## G:\My Drive — Backup Only
+## Backup — Local Mirror
 
 ```
-G:\My Drive\.ROOT\  ← retained legacy recovery snapshot only; never an AI boot target or working tree.
-
-**Live cloud backup:** Google Drive → **Computers → this PC → .ROOT**, synchronized
-from `C:\Users\chris\.ROOT` by Drive for desktop.
+D:\BACKUPS\.ROOT\      ← daily local mirror; never an AI boot target or working tree.
+D:\BACKUPS\snapshots\  ← dated copies of the previous mirror, last 8 kept.
+G:\My Drive\New folder\.ROOT\  ← stale one-time manual copy (2026-08-09). Not live.
+D:\ARCHIVE\.ROOT\      ← unowned July 19 copy, contains a nested .ROOT\.ROOT. Not a backup.
 ```
+
+**Verified 2026-08-12.** The mirror first ran that day; every prior version of
+this section described it as live when it had never run once. Google Drive live
+synchronization is retired. `LOCAL_MACHINE_MAP.md` owns the current backup
+implementation details and must be checked against the live machine before
+recovery work.
 
 ## .ROOT — Verified Map
 
@@ -41,13 +47,9 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 ├── ROOT_OPERATING_MANUAL.md ← human operating and proof guide
 ├── NOW.md                 ← Chris's morning page — maintained by the CASTLE
 │
-├── ...projectSuccess\     ← WATCHTOWER — material external-change router; eyes, not hands
-│   ├── WATCHTOWER.md      ← promotion threshold + evidence-to-test contract
-│   └── radar.md           ← lean signal board; never a research library or project queue
-│
 ├── 00-BRAIN\  ← governance + command — load AGENT.md first, then the relevant capability profile
 │   ├── AGENT.md           ← universal OS — load FIRST, every session, any engine
-│   ├── CLAUDE.md / CODEX.md / ATLAS.md  ← surface capability profiles
+│   ├── CLAUDE.md / CODEX.md  ← surface capability profiles
 │   ├── CHRIS_CORE.md      ← the person file (default load, second)
 │   ├── CHRIS.md           ← full profile (monthly review / calibration only)
 │   ├── vault_map.md       ← this file
@@ -60,29 +62,31 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── CASTLE\            ← command center: OPERATIONS.md + wiki\ (phases, skills,
 │   │                         proof-projects, decision-rules, maps); owns .ROOT\NOW.md
 │   ├── scripts\           ← maintenance scripts — canonical inventory lives in
-│   │                         WHERE_IT_GOES.md (7 as of July 15, 2026, incl.
-│   │                         root_health.py and metadata_migration_plan.py)
+│   │                         WHERE_IT_GOES.md (22 files + 2 subfolders as of
+│   │                         Aug 16, 2026; the gates are root_health.py,
+│   │                         validate_boot_chain.py, verify_controls.py)
 │   └── Session_Logs\      ← README + DAILYs/templates + active reports;
 │                             Report Archive\ = completed standalone reports;
 │                             System Update Log\ = monthly ledger + dated evidence packets;
 │                             Closed Flags\ = monthly closed-flag ledgers
 │
 ├── 01-NORTH_STAR\  ← the star
-│   ├── NORTH_STAR.md      ← THE controlling document — nothing overrides it
-│   ├── README.md / SKILL_GAP_ANALYSIS.md
-│   ├── System Contracts\  ← ROOT_CAPABILITY_CONTRACT.md; loaded for OS design/evolution audits
-│   ├── Weekly Reviews\    ← weeklies + monthlies + template
-│   └── Goals & Milestones\ ← CURRENT_STRATEGY.md + time-bounded prep/milestone evidence
+│   ├── NORTH_STAR.md      ← THE LAW — nothing overrides it
+│   ├── WATCHTOWER.md      ← promotion threshold + evidence-to-test contract
+│   ├── radar.md           ← lean signal board; never a research library or project queue
+│   ├── README.md / HOW_TO_USE.md  ← human router + workflow
+│   ├── System Contracts\  ← capability + information-flow contracts
+│   └── Goals & Milestones\ ← adaptive goals and the current business vehicle;
+│                             its own OPERATIONS.md is the rule set.
+│                             Weekly plans live in CASTLE, not here.
 │
-├── 02-LIBRARY\  ← reusable knowledge, projects, and school file home
-│   ├── 00-SCHOOL\         ← course files: 01-CSE-Python, 02-Physics I, 03-TCOM,
-│   │                         04-ECON, 05-ENGR, 99-EDG, OneNote, FallKSU.xlsx
+├── 02-LIBRARY\  ← reusable knowledge and projects. NOT school — see 04-SCHOOL below
 │   ├── .PROJECTS\         ← build/project docs (plain NAME; code lives on GitHub)
 │   ├── .raw ARCHIVE\      ← closed legacy source holding; add nothing new
-│   └── REF-MATH … REF-MISC  ← reference domains (renamed July 15, 2026:
-│                              REF- marks "reference pile, not a wiki or the
-│                              money system"; empty domains archived; see
-│                              02-LIBRARY\README.md)
+│   └── ref-math … ref-misc  ← reference domains (renamed July 15, 2026 to
+│                              REF-<NAME>, then lowercase ref-<name> by July 27:
+│                              "reference pile, not a wiki or the money system";
+│                              empty domains archived; see 02-LIBRARY\README.md)
 │
 ├── 03-WIKIS\  ← eight knowledge hubs — folders inside the single .ROOT vault
 │   ├── SYSTEMS\           ← system dynamics + ISYE spine (Sterman, Factory Physics, queuing)
@@ -95,13 +99,22 @@ from `C:\Users\chris\.ROOT` by Drive for desktop.
 │   ├── AI_AUTOMATION_SYSTEMS\ ← AI/agent research + .ROOT self-evolution proposals
 │   └── REVENUE_LAB\       ← digital revenue-lane evidence, scoring, and bounded tests
 │
+├── 04-SCHOOL\  ← what Chris is graded on. Promoted out of 02-LIBRARY 2026-08-12 (`3f78fa4`)
+│   ├── 01-CSE-Python\ · 02-Physics I\ · 03-TCOM\ · 04-ECON\ · 05-ENGR\ · 99-EDG\ (deferred)
+│   ├── [course]\work\     ← drafts, problem sets, lab reports — anything graded
+│   ├── SEMESTER_MAP.md · SYLLABUS_STATUS.md · fall_KSU_schedule.md
+│   └── OneNote\ · FallKSU.xlsx
+│                           Boundary vs 03-WIKIS: KSU gave it to me → here;
+│                           we made it → the hub (WHERE_IT_GOES.md § tiebreaker)
+│
 ├── 05-BUSINESS\  ← reusable and sanitized money-system assets; no active client-private workspace
 │   ├── 01-Audit Templates\ · 02-Field Notes\ · 03-Case Studies\
 │   ├── 04-Pricing Models\ · 05-Proposals & SOWs\
 │   └── 06-Capability Library\ ← APQC-indexed reusable client-facing assets
 │
-├── 77-INBOX\    ← manual external-file intake — clear every weekly review
-├── Clippings\   ← automatic Obsidian web-clipping intake — clear every weekly review
+├── 77-INBOX\    ← universal intake — manual drops and automatic Obsidian
+│                    web-clipping both land here now (Clippings\ retired
+│                    2026-07-24) — clear every weekly review
 └── 99-ARCHIVE\  ← nothing gets deleted, it gets archived
 ```
 
@@ -131,4 +144,7 @@ Standing mechanism: before any write, confirm the parent chain traces to `.ROOT`
 by NAME against the live tree. Folder IDs are retired — do not use them.
 
 ---
-*Last updated: July 15, 2026 (post-remediation interface review) | Next review: weekly*
+*Last updated: July 29, 2026 — mid-week structure review corrected `04-SCHOOL`/`REF-<NAME>`
+to the live lowercase `04-SCHOOL`/`ref-<name>` casing (documentation-only fix; no folders
+renamed) in this file, `WHERE_IT_GOES.md`, and `02-LIBRARY\README.md`. Prior:
+July 25, 2026 (post-architecture interface reconciliation) | Next review: weekly*

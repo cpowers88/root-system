@@ -154,9 +154,9 @@ Returns anything past due date still marked pending.
 Every `notes_file` field stores a path relative to `.ROOT`, under the official
 course-file home:
 
-  02-LIBRARY\00-SCHOOL\02-Physics I\Notes\01-Chapter 1 Measurements.md
-  02-LIBRARY\00-SCHOOL\01-CSE-Python\Notes\CS50P\Lecture 1.md
-  02-LIBRARY\00-SCHOOL\04-ECON\Econ 1000syllabi.md
+  04-SCHOOL\02-Physics I\Notes\01-Chapter 1 Measurements.md
+  04-SCHOOL\01-CSE-Python\Notes\CS50P\Lecture 1.md
+  04-SCHOOL\04-ECON\Econ 1000syllabi.md
 
 The program displays the path when it shows that item.
 You open the file in Obsidian. The program does not read

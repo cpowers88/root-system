@@ -4,7 +4,8 @@ stage: 09
 status: draft
 source_refs: ["Automate the Boring Stuff Ch.11 (Organizing Files)"]
 prerequisites: ["file-paths-and-reading-writing", "for-loops", "if-elif-else"]
-tags: [stage-09, files, automation, os-module]
+tags: [files, automation, os-module]
+timeline: reference
 ---
 
 # Concept: Organizing Files at Scale (the `os` and `shutil` Modules)

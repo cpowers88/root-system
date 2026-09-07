@@ -4,7 +4,8 @@ status: active
 stage: 9
 python_tools: [os, pathlib, shutil]
 prerequisites: [loops, strings, file-paths]
-tags: [reference, programming, capability]
+tags: [programming, capability]
+timeline: reference
 ---
 
 # Capability: Organize Files and Folders

@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/process-design, use-case/data-workflow, use-case/ksu-support, subject/factory-physics, subject/queuing-theory, subject/throughput-wip-cycle-time]
+tags: [subject/factory-physics, subject/queuing-theory, subject/throughput-wip-cycle-time]
+timeline: reference
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, process-design, data-workflow, ksu-support]
 ---
 
 # Basic Factory Dynamics: Precise Definitions, Bottleneck Rate, Raw Process Time, and Critical WIP
@@ -103,7 +107,7 @@ Starting any production-line audit and needing to establish the actual bottlenec
 The system in question isn't a production line with a clear routing structure (e.g., a pure service process with no physical WIP) — though the underlying logic often still translates with adaptation.
 
 **Fast retrieval query**:
-`subject/throughput-wip-cycle-time` + `priority/now` — or search "bottleneck rate utilization" / "critical WIP W0" / "Penny Fab" / "raw process time"
+`tag:#subject/throughput-wip-cycle-time` — or search "bottleneck rate utilization" / "critical WIP W0" / "Penny Fab" / "raw process time"
 
 ## North Star Connection
 

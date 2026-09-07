@@ -2,7 +2,8 @@
 type: error-log
 stage: 10
 status: draft
-tags: [stage-10, errors, cli, testing, databases]
+tags: [errors, cli, testing, databases]
+timeline: reference
 ---
 
 # Stage 10 Common Errors

@@ -60,7 +60,7 @@ in a CSV/pandas DataFrame — no need to reach for a heavier ML platform.
 **Do not use when**: Coursework is still Python Stage 0-4 (per
 `03-WIKIS\PYTHON\wiki\current-position.md`) — this tutorial assumes
 working pandas/scikit-learn fluency; premature relative to current stage,
-same caution [[data-science-ml/]] itself already carries in this wiki's
+same caution the `data-science-ml/` pages themselves already carry in this wiki's
 July 7 alignment pass.
 
 ## Connects to

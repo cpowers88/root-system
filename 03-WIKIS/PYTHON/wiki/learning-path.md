@@ -1,6 +1,7 @@
 ---
 type: plan
-tags: [now, programming]
+tags: [programming]
+timeline: now
 ---
 
 # Learning Path
@@ -16,25 +17,53 @@ Chris should always be able to open this page and know what to read, practice, a
 ## Current Position
 
 **Generated through**: Stage 10 — Application Thinking
-**Current study stage**: Stage 2 — Decisions
+**Current study stage**: Stage 4b — Python Libraries
 **Stage 0 status**: Satisfied
-**Stage 1 status**: Satisfied (2026-07-13) — worked independently with Codex 2026-07-12, verified in session (explained type-conversion reasoning, correctly predicted/confirmed a `TypeError`, explained `+`-concatenation vs. f-strings). Evidence: `02-LIBRARY\00-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\`.
-**Next action**: Finish the Stage 2 verification gate: correct rule 3 in `S2P3.py`
-to match the drill (all scores below 70 are `F`), then complete a cold explain-back
-of `Story.py`'s `elif` and `or` choices.
+**Stage 1 status**: Satisfied (2026-07-13) — worked independently with Codex 2026-07-12, verified in session (explained type-conversion reasoning, correctly predicted/confirmed a `TypeError`, explained `+`-concatenation vs. f-strings). Evidence: `04-SCHOOL\01-CSE-Python\Stages\Stage-01-python-atoms\`.
+**Stage 2 status**: Satisfied (2026-07-16) — correction and cold explain-back
+verified; evidence and exact proof history live in `wiki/current-position.md`.
+**Stage 3 status**: Satisfied (2026-07-26) — fresh loop-and-accumulator gate
+passed with correction across normal, exact-boundary, and decimal tests.
+**Next action**: Resume the exact Stage 4 cold functions baseline recorded in
+`wiki/current-position.md`; do not maintain a second drill-position copy here.
 
-The curriculum is fully generated through Stage 10, but that describes what exists in the vault, not where Chris is. Chris has satisfied Stage 0 and Stage 1. **Do not read "generated through Stage 10" as an instruction to start at Stage 10.**
+The curriculum is fully generated through Stage 10, but that describes what exists in the vault, not where Chris is. Chris has satisfied Stages 0-3. **Do not read "generated through Stage 10" as an instruction to start at Stage 10.**
 
-**Current Concept:** comparisons, Boolean logic, `if`/`elif`/`else` (Stage 2)
-**Next Reading:** Re-read only rule 3 in `wiki/drills/stage-02-decision-rules.md`
-**Next Drill:** Correct the existing rule 3 independently, then do the Stage 2 explain-back
-**Vocabulary Due:** condition, boolean, comparison operator, and/or/not, if/elif/else, branch, truthy/falsy
-**Blocked By:** one drill/spec mismatch and the unrecorded cold explain-back; code evidence exists
+**Current Concept:** importing and calling standard-library functions, reading a
+library contract, and wrapping one library call (Stage 4b)
+**Next Reading / Drill / Vocabulary / Blocker:** follow `wiki/current-position.md`,
+the sole owner of live learner truth.
 **Parked Advanced Material:** see `wiki/parking-lot.md` (consolidated 2026-06-24)
 
 **Intake note (2026-07-13):** Four late raw-source files were classified. They
-add future support/reference options only; the active Stage 2 reading, drill, and
-mini-project remain unchanged.
+added future support/reference options only and did not change the stage sequence;
+the live learner has since advanced to the Stage 3 frontier recorded above.
+
+## Fall 2026 Course Overlay
+
+[[syllabus-alignment]] now carries the detailed CSE 1321/1321L semester pathway:
+the week/module-to-stage map, code-reader competency ladder, module playbooks,
+assessment preparation, and the trigger-based reading queue through the final.
+
+[[cse-1321-17-week-mastery-plan]] is the dated August 19–December 14 execution
+layer. It assigns weekly reading, fresh private programs, assessment sweeps, proof
+gates, and the August 24 D2L reconciliation without replacing this durable path.
+
+The routing rule is simple:
+
+```text
+current-position = what Chris reads and proves now
+syllabus-alignment = when later course reading unlocks
+this page = durable Stage 0–10 sequence
+```
+
+Every meaningful session begins with `Read now`, `Read next after proof`, and
+`Do not read yet`. Required local pages and *Think Python* sections come first;
+support books open only when the first explanation or fresh attempt does not land.
+Reading must end in a trace, skeleton, drill, or explain-back.
+
+This hub is the independent CSE learning lane. Vibe coding and AI-generated
+implementation are out of scope here and do not count as mastery evidence.
 
 ---
 
@@ -104,7 +133,8 @@ Full per-book detail lives in `wiki/source-map.md`. This is the quick per-stage 
 
 ## Stage 3 — Repetition
 
-**Status: packet generated 2026-06-24.** See `wiki/stages/stage-03-loops-and-repetition.md` for the full packet.
+**Status: satisfied 2026-07-26.** See `wiki/current-position.md` for the final
+fresh loop-and-accumulator gate evidence.
 
 - **Purpose:** `for`, `while`, `range()`, counters, accumulators, loop tracing.
 - **Prerequisites:** Stage 2.
@@ -121,7 +151,8 @@ Full per-book detail lives in `wiki/source-map.md`. This is the quick per-stage 
 
 ## Stage 4 — Functions
 
-**Status: packet generated 2026-06-24.** See `wiki/stages/stage-04-functions-parameters-return.md` for the full packet.
+**Status: active 2026-07-26.** See
+`wiki/stages/stage-04-functions-parameters-return.md` for the full packet.
 
 - **Purpose:** `def`, calls, parameters, arguments, return values, scope basics,
   then a short standard-library import/use bridge in the same order as both syllabi.

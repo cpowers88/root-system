@@ -4,7 +4,8 @@ stage: 02
 status: draft
 source_refs: ["Think Python Ch.5 (Boolean Expressions, Logical Operators)", "Automate the Boring Stuff Ch.2", "Python Crash Course Ch.5"]
 prerequisites: ["values-and-expressions", "variables-and-assignment"]
-tags: [stage-02, comparisons, boolean-logic]
+tags: [comparisons, boolean-logic]
+timeline: reference
 ---
 
 # Concept: Comparisons and Boolean Logic

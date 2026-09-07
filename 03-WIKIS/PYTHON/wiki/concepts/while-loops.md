@@ -4,7 +4,8 @@ stage: 03
 status: draft
 source_refs: ["Think Python Ch.7 (Reassignment, Updating Variables, The while Statement, break, Algorithms)", "Automate the Boring Stuff Ch.3", "Python Crash Course Ch.7"]
 prerequisites: ["if-elif-else", "comparisons-and-boolean-logic"]
-tags: [stage-03, while-loop, break, continue]
+tags: [while-loop, break, continue]
+timeline: reference
 ---
 
 # Concept: `while` Loops, `break`, and `continue`

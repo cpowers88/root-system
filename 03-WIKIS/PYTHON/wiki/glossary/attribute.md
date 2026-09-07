@@ -4,6 +4,7 @@ stage: 08
 status: draft
 aliases: []
 related_terms: ["class", "object-instance"]
+timeline: reference
 ---
 
 # Attribute

@@ -4,6 +4,7 @@ stage: 03
 status: draft
 aliases: ["range()"]
 related_terms: ["for-loop"]
+timeline: reference
 ---
 
 # `range()`

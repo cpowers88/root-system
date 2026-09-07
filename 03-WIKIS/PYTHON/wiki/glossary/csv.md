@@ -4,6 +4,7 @@ stage: 09
 status: draft
 aliases: ["comma-separated values"]
 related_terms: ["json"]
+timeline: reference
 ---
 
 # CSV

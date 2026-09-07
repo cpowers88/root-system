@@ -4,6 +4,7 @@ stage: 03
 status: draft
 aliases: ["while statement"]
 related_terms: ["loop", "infinite-loop", "break-continue"]
+timeline: reference
 ---
 
 # `while` Loop

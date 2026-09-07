@@ -4,7 +4,8 @@ stage: 04
 status: draft
 source_refs: ["Think Python Ch.3 (Fruitful Functions and Void Functions)", "Think Python Ch.6 (Return Values, Boolean Functions)", "Python Crash Course Ch.8 (Return Values)"]
 prerequisites: ["defining-and-calling-functions", "parameters-and-arguments"]
-tags: [stage-04, return-values, fruitful-void]
+tags: [return-values, fruitful-void]
+timeline: reference
 ---
 
 # Concept: Return Values

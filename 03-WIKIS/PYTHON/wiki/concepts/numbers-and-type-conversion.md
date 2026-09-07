@@ -4,7 +4,8 @@ stage: 01
 status: draft
 source_refs: ["Think Python Ch.1 (Values and Types)", "Python Crash Course Ch.2 (Numbers)", "Think Python Ch.5 (Keyboard Input, pulled forward)"]
 prerequisites: ["values-and-expressions", "strings"]
-tags: [stage-01, numbers, type-conversion]
+tags: [numbers, type-conversion]
+timeline: reference
 ---
 
 # Concept: Numbers and Type Conversion

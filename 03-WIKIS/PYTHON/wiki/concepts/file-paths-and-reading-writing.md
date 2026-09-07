@@ -4,7 +4,8 @@ stage: 06
 status: draft
 source_refs: ["Think Python Ch.14 (Persistence, Reading and Writing, Filenames and Paths)", "Automate the Boring Stuff Ch.10", "Python Crash Course Ch.10"]
 prerequisites: ["strings-as-sequences", "for-loops"]
-tags: [stage-06, files, paths]
+tags: [files, paths]
+timeline: reference
 ---
 
 # Concept: File Paths, Reading, and Writing

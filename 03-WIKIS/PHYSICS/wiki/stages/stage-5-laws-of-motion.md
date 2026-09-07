@@ -1,6 +1,9 @@
 ---
 type: stage
-status: draft
+timeline: next
+stage: 5
+status: ready
+tags: [physics, math]
 ---
 
 # Stage 5 — The Laws of Motion (Ch 5)
@@ -11,11 +14,15 @@ Move from describing motion (kinematics) to explaining its cause (dynamics) usin
 
 ## Syllabus Alignment
 
-Ch 05, lectures F Sep 11 – W Sep 16, 2026. Topics: Concept of Force, Newton's Three Laws, Free Body Diagrams, friction.
+Ch 05. Neighbor-section pacing estimate: F Sep 11 – W Sep 16, 2026. Topics:
+Concept of Force, Newton's Three Laws, Free Body Diagrams, and friction.
+Section 54's exact dates remain unconfirmed.
 
 ## Textbook Alignment
 
-Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., Chapter 5 (pp. 109–143), sections 5.1–5.8.
+Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., Chapter 5,
+book pp. 95–126, sections 5.1–5.8. Page range verified directly against
+`raw/textbook/Physics book-0101-0200.pdf` on 2026-07-25.
 
 ## Prerequisite Physics
 
@@ -119,6 +126,27 @@ No new calculus in Stage 5. Newton's Second Law (F = ma) is algebraic for consta
 - [[../drills/newtons-second-law-drill]]
 - [[../drills/friction-problems-drill]]
 - [[../drills/inclined-plane-drill]]
+
+## Prepared Launch Sequence
+
+Stage 5 is ready but does not become active until Stage 4 passes cold.
+
+1. **Force language and laws:** read §5.1–5.6, pp. 95–104. Explain each law
+   in plain English and separate mass from weight.
+2. **FBD construction:** read the opening of §5.7, pp. 105–108. Complete
+   [[../drills/fbd-drawing-drill]] Problems 1, 4, 5, and 7 before doing algebra.
+3. **Newton's second law models:** finish §5.7, pp. 109–114. Complete
+   [[../drills/newtons-second-law-drill]] Problems 1–4, then 5–7.
+4. **Friction:** read §5.8, pp. 114–118. Complete
+   [[../drills/friction-problems-drill]] Problems 1–7 and
+   [[../drills/inclined-plane-drill]].
+5. **Cold gate:** use the chapter summary on pp. 119–120, then run this
+   stage's mastery checklist. End-of-chapter problems on pp. 120–126 are
+   reserve transfer practice.
+
+**Cold entry check:** before the first full Stage 5 session, draw the FBD for
+a book at rest and a hanging mass, then state Newton's three laws without
+notes. A miss does not block entry; it identifies the first repair rep.
 
 ## Common Errors
 

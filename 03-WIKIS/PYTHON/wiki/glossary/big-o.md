@@ -4,6 +4,7 @@ stage: 08
 status: draft
 aliases: ["Big O notation", "order of growth"]
 related_terms: ["sorting", "searching"]
+timeline: reference
 ---
 
 # Big O

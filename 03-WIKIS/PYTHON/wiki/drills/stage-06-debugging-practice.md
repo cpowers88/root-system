@@ -5,6 +5,7 @@ status: draft
 concepts: ["file-path", "open-read-write-close", "exception", "traceback", "try-except", "syntax-runtime-semantic-error"]
 difficulty: beginner
 solution_included: false
+timeline: reference
 ---
 
 # Drill: Read the Traceback, Fix the Bug

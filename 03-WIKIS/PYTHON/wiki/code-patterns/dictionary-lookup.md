@@ -3,7 +3,8 @@ type: code-pattern
 stage: 05
 status: draft
 concepts: ["dictionary", "dictionary-key-value-pair"]
-tags: [stage-05, dictionaries, lookup]
+tags: [dictionaries, lookup]
+timeline: reference
 ---
 
 # Code Pattern: Dictionary Lookup (Safe and Unsafe)

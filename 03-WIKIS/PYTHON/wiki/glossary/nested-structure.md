@@ -4,6 +4,7 @@ stage: 05
 status: draft
 aliases: ["nested data", "nested list", "nested dictionary"]
 related_terms: ["list", "dictionary"]
+timeline: reference
 ---
 
 # Nested Structure

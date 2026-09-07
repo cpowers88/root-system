@@ -1,6 +1,7 @@
 ---
 type: guide
-tags: [reference, programming, parked]
+timeline: reference
+tags: [programming]
 ---
 
 # parked-advanced

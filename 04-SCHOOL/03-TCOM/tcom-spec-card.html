@@ -1,0 +1,596 @@
+<title>TCOM Spec Card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+
+<style>
+  :root {
+    --ground:      #F2F4F4;
+    --surface:     #FFFFFF;
+    --surface-alt: #E9EDED;
+    --ink:         #14191A;
+    --ink-soft:    #46524F;
+    --ink-faint:   #6E7C79;
+    --rule:        #D2D9D8;
+    --rule-soft:   #E2E7E6;
+    --accent:      #1F5B57;
+    --accent-soft: #D8E6E4;
+    --warn:        #A33A2C;
+    --warn-soft:   #F5E2DE;
+    --shadow:      0 1px 2px rgba(20,25,26,.06), 0 8px 24px rgba(20,25,26,.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:      #0E1414;
+      --surface:     #161E1E;
+      --surface-alt: #1D2726;
+      --ink:         #E8EDEC;
+      --ink-soft:    #A9B7B4;
+      --ink-faint:   #7C8A87;
+      --rule:        #2A3635;
+      --rule-soft:   #212C2B;
+      --accent:      #6FC4BB;
+      --accent-soft: #1B3735;
+      --warn:        #E58B7B;
+      --warn-soft:   #38211D;
+      --shadow:      0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.3);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:      #0E1414;
+    --surface:     #161E1E;
+    --surface-alt: #1D2726;
+    --ink:         #E8EDEC;
+    --ink-soft:    #A9B7B4;
+    --ink-faint:   #7C8A87;
+    --rule:        #2A3635;
+    --rule-soft:   #212C2B;
+    --accent:      #6FC4BB;
+    --accent-soft: #1B3735;
+    --warn:        #E58B7B;
+    --warn-soft:   #38211D;
+    --shadow:      0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.3);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    margin: 0;
+    padding: 0 20px 96px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 760px; margin: 0 auto; }
+
+  /* ---- masthead ---- */
+  header.mast {
+    padding: 48px 0 22px;
+    border-bottom: 2px solid var(--ink);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 16px 28px;
+  }
+  .mast h1 {
+    font-family: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-size: clamp(2.1rem, 6vw, 2.9rem);
+    line-height: 1.02;
+    letter-spacing: -.015em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .mast .sub {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .78rem;
+    color: var(--ink-faint);
+    letter-spacing: .04em;
+    margin: 6px 0 0;
+  }
+  .mast .stamp {
+    margin-left: auto;
+    text-align: right;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .72rem;
+    line-height: 1.7;
+    color: var(--ink-faint);
+    letter-spacing: .03em;
+  }
+  .mast .stamp b { color: var(--ink-soft); font-weight: 600; }
+
+  /* ---- jump nav ---- */
+  nav.jump {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--ground);
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 18px;
+    padding: 11px 0;
+    margin-bottom: 4px;
+  }
+  nav.jump a {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .7rem;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    text-decoration: none;
+    padding: 2px 0;
+    border-bottom: 1.5px solid transparent;
+  }
+  nav.jump a:hover, nav.jump a:focus-visible { color: var(--accent); border-bottom-color: var(--accent); }
+
+  /* ---- sections ---- */
+  section { padding-top: 40px; }
+  section > h2 {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 1.42rem;
+    letter-spacing: -.01em;
+    margin: 0 0 4px;
+    text-wrap: balance;
+  }
+  .lede { color: var(--ink-soft); margin: 0 0 20px; font-size: .95rem; max-width: 62ch; }
+  .lede:last-child { margin-bottom: 0; }
+
+  .eyebrow {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .68rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 8px;
+    font-weight: 500;
+  }
+
+  /* ---- cards ---- */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 20px 22px;
+    box-shadow: var(--shadow);
+  }
+  .stack { display: flex; flex-direction: column; gap: 14px; }
+
+  .card.flag { border-left: 3px solid var(--warn); background: var(--warn-soft); }
+  .card.note { border-left: 3px solid var(--accent); }
+
+  .card h3 {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: 1.02rem;
+    font-weight: 600;
+    margin: 0 0 6px;
+  }
+  .card p { margin: 0 0 10px; font-size: .93rem; color: var(--ink-soft); }
+  .card p:last-child { margin-bottom: 0; }
+  .card p strong, .card li strong { color: var(--ink); font-weight: 600; }
+
+  /* ---- run of show ---- */
+  ol.run { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+  ol.run li {
+    display: grid;
+    grid-template-columns: 74px 1fr;
+    gap: 16px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--rule-soft);
+    align-items: baseline;
+  }
+  ol.run li:last-child { border-bottom: 0; padding-bottom: 0; }
+  ol.run .t {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .78rem;
+    font-weight: 500;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: .01em;
+  }
+  ol.run .t.hot { color: var(--warn); }
+  ol.run .d { font-size: .93rem; }
+  ol.run .d b { font-weight: 600; }
+  ol.run .d span { display: block; color: var(--ink-faint); font-size: .84rem; margin-top: 2px; }
+
+  /* ---- tables ---- */
+  .scroll { overflow-x: auto; border: 1px solid var(--rule); border-radius: 3px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; font-size: .88rem; min-width: 520px; }
+  thead th {
+    background: var(--surface-alt);
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .66rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    font-weight: 500;
+    text-align: left;
+    padding: 9px 14px;
+    border-bottom: 1px solid var(--rule);
+    white-space: nowrap;
+  }
+  tbody td { padding: 11px 14px; border-bottom: 1px solid var(--rule-soft); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: 0; }
+  td.lbl { font-weight: 500; }
+  td.num { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+
+  code, .mono {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .85em;
+    letter-spacing: -.01em;
+  }
+  td code { display: inline-block; word-break: break-word; }
+  .yours {
+    background: var(--accent-soft);
+    color: var(--ink);
+    padding: 2px 6px;
+    border-radius: 2px;
+    font-weight: 500;
+  }
+  .printed { color: var(--ink-faint); }
+
+  mark {
+    background: var(--warn-soft);
+    color: var(--warn);
+    padding: 0 3px;
+    border-radius: 2px;
+    font-weight: 600;
+  }
+
+  ul.tight { margin: 0; padding-left: 1.15em; display: flex; flex-direction: column; gap: 7px; }
+  ul.tight li { font-size: .93rem; color: var(--ink-soft); }
+
+  .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+
+  .kv { display: flex; flex-direction: column; gap: 9px; }
+  .kv div { display: flex; justify-content: space-between; gap: 18px; font-size: .9rem; border-bottom: 1px dotted var(--rule); padding-bottom: 7px; }
+  .kv div:last-child { border-bottom: 0; padding-bottom: 0; }
+  .kv dt, .kv .k { color: var(--ink-soft); }
+  .kv .v { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: .82rem; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+
+  hr.div { border: 0; border-top: 1px solid var(--rule); margin: 40px 0 0; }
+
+  footer {
+    margin-top: 44px;
+    padding-top: 18px;
+    border-top: 1px solid var(--rule);
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .72rem;
+    color: var(--ink-faint);
+    line-height: 1.8;
+  }
+
+  a { color: var(--accent); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+  @media (max-width: 520px) {
+    ol.run li { grid-template-columns: 1fr; gap: 3px; }
+    .mast .stamp { margin-left: 0; text-align: left; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="mast">
+    <div>
+      <h1>TCOM Spec Card</h1>
+      <p class="sub">TCOM 2010 · Section 04 · CRN 85633 · Diamond</p>
+    </div>
+    <div class="stamp">
+      <b>Tue 09:35–10:55</b><br>
+      Atrium 2216 · Marietta<br>
+      Face to face
+    </div>
+  </header>
+
+  <nav class="jump">
+    <a href="#today">Tuesday</a>
+    <a href="#names">Filenames</a>
+    <a href="#format">Font &amp; format</a>
+    <a href="#policies">Policies quiz</a>
+    <a href="#ethics">Ethics Analysis</a>
+    <a href="#email">Business Email</a>
+  </nav>
+
+  <section id="today">
+    <p class="eyebrow">Tuesday August 25 — first class</p>
+    <h2>What is live tomorrow</h2>
+    <p class="lede">Two quizzes get assigned today and are due <b>Tue Sep 1</b>. Take them with the syllabus open — they are open-book policy checks, not recall drills.</p>
+
+    <div class="card stack">
+      <ol class="run">
+        <li>
+          <span class="t hot">09:35</span>
+          <span class="d"><b>Class — Atrium 2216.</b> Attendance starts today.
+          <span>Fix the <code>Walk → Atriium 2236</code> calendar event before you leave. Wrong room, doubled i.</span></span>
+        </li>
+        <li>
+          <span class="t">In class</span>
+          <span class="d"><b>Course Policies Quiz</b> + <b>File Naming Convention Quiz</b> assigned.
+          <span>Both due Tue Sep 1. Quizzes are never accepted late.</span></span>
+        </li>
+        <li>
+          <span class="t hot">Tonight</span>
+          <span class="d"><b>Email to Diamond — graded.</b>
+          <span>You write it. AI may not draft any part of it; proofreading only, and cited.</span></span>
+        </li>
+        <li>
+          <span class="t">Homework</span>
+          <span class="d"><b>Chapter 2.13 — Emails &amp; Memos.</b>
+          <span>Thursday adds Chapter 3, Ethics.</span></span>
+        </li>
+      </ol>
+    </div>
+
+    <div class="card flag" style="margin-top:14px;">
+      <h3>Her syllabus prints two different addresses for her</h3>
+      <p>The instructor block says <code>ldiamon@kennesaw.edu</code>. The Week 1 row <em>displays</em> <code>Lisa.diamond@kennesaw.edu</code> but its link points at <code>Ldiamon@kennesaw.edu</code>. Two of the three agree.</p>
+      <p><strong>Send to <code>ldiamon@kennesaw.edu</code></strong> — and since the email is itself the graded artifact, confirming the address in class first costs nothing.</p>
+    </div>
+  </section>
+
+  <hr class="div">
+
+  <section id="names">
+    <p class="eyebrow">File Naming Convention Quiz</p>
+    <h2>The rule, and where it breaks</h2>
+    <p class="lede">Her assignment files state a general rule the syllabus never printed: <code>Lastname_section#_Name of assignment.docx</code>. Most literals obey it. The danger is not inconsistency between assignments — it is that <strong>the syllabus and the assignment file disagree about the same assignment.</strong></p>
+
+    <div class="card flag">
+      <h3>The assignment file wins, always</h3>
+      <p>Her syllabus says it itself: <em>"Each assignment has a section entitled SUBMISSION which details how the assignment needs to be submitted."</em> <strong>Never name a file from the syllabus alone</strong> — open the assignment's own instructions and copy from there.</p>
+    </div>
+
+    <div class="scroll" style="margin-top:14px;">
+      <table>
+        <thead>
+          <tr><th>Assignment</th><th>Authoritative source</th><th>Yours</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="lbl">Business Email <b>Draft</b></td>
+            <td class="printed"><code>Lastname_04_Business Email Draft.docx</code><br><mark>syllabus says <code>_Draft.docx</code> — conflict</mark></td>
+            <td><code class="yours">Powers_04_Business Email Draft.docx</code><br><mark>ask Diamond Aug 25</mark></td>
+          </tr>
+          <tr>
+            <td class="lbl">Business Email <b>Final</b></td>
+            <td class="printed"><code>Lastname_04_Business Email Final.docx</code><br><span style="font-size:.85em">both sources agree</span></td>
+            <td><code class="yours">Powers_04_Business Email Final.docx</code></td>
+          </tr>
+          <tr>
+            <td class="lbl">Ethics Analysis</td>
+            <td class="printed"><code>StudentLastName_section#_Ethics Analysis.docx</code><br><span style="font-size:.85em">assignment file</span></td>
+            <td><code class="yours">Powers_04_Ethics Analysis.docx</code></td>
+          </tr>
+          <tr>
+            <td class="lbl">Document Redesign</td>
+            <td class="printed"><code>Lastname_ Section#_DocRedesign.docx</code><br><span style="font-size:.85em">syllabus only — no assignment file yet</span></td>
+            <td><code class="yours">Powers_04_DocRedesign.docx</code><br><mark>breaks the general rule — re-check later</mark></td>
+          </tr>
+          <tr>
+            <td class="lbl">Instructions Group Project</td>
+            <td class="printed"><code>LastNameLastNameLastName_ Section#_Instructions draft.docx</code><br><span style="font-size:.85em">syllabus only</span></td>
+            <td><code class="yours">PowersChaseChavez_04_Instructions draft.docx</code><br><mark>3 surnames, no separator · lowercase d</mark></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card note" style="margin-top:14px;">
+      <h3>When a filename is not printed anywhere</h3>
+      <p>Order of resort: <strong>1.</strong> the assignment's own <code>SUBMISSION</code> section → <strong>2.</strong> <code>Powers_04_AssignmentName.docx</code> → <strong>3.</strong> email her. Never derive one from another assignment.</p>
+    </div>
+  </section>
+
+  <hr class="div">
+
+  <section id="format">
+    <p class="eyebrow">Font &amp; document format</p>
+    <h2>What font, and when</h2>
+    <p class="lede">Font requirements in this course are stated <em>per assignment</em>, inside the assignment's own instructions — not once in the syllabus.</p>
+
+    <div class="grid2">
+      <div class="card note">
+        <h3>Ethics Analysis — due Friday</h3>
+        <div class="kv">
+          <div><span class="k">Font</span><span class="v">Tahoma 12</span></div>
+          <div><span class="k">File type</span><span class="v">MS Word only</span></div>
+          <div><span class="k">Indent</span><span class="v">None</span></div>
+          <div><span class="k">Paragraph breaks</span><span class="v">Extra line spacing</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>The Font Style quiz is not this week</h3>
+        <p><b>Font Style for MS Word Docs QUIZ</b> lands in <strong>Week 7</strong>, alongside the Technical Report assignment and Chapter 4.1 Report Design — roughly the first week of October.</p>
+        <p>Nothing to study for it tomorrow.</p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:14px;">
+      <h3>Sentence rules she grades on</h3>
+      <ul class="tight">
+        <li><strong>One subject and one verb per sentence.</strong> Stated as a hard constraint, not a style preference.</li>
+        <li><strong>No slang, no contractions, no colloquialisms.</strong></li>
+        <li>Paragraphs of <strong>1–3 sentences</strong>, separated by extra line spacing rather than indents.</li>
+      </ul>
+    </div>
+  </section>
+
+  <hr class="div">
+
+  <section id="policies">
+    <p class="eyebrow">Course Policies Quiz</p>
+    <h2>The policies she quizzes on</h2>
+    <p class="lede">Open-syllabus. These are the numbers that carry consequences.</p>
+
+    <div class="stack">
+      <div class="card flag">
+        <h3>Attendance — the most expensive rule in the course</h3>
+        <ul class="tight">
+          <li>First <strong>3</strong> unexcused absences are free.</li>
+          <li>From the <strong>4th</strong>: roughly <strong>−3.5 points off your final grade</strong>, each.</li>
+          <li><strong>6</strong> unexcused = minus one letter grade. <strong>9</strong> = minus two letter grades.</li>
+          <li><strong>3 tardies = 1 unexcused absence.</strong></li>
+          <li>Excused absence or lateness must be arranged <strong>ahead of time</strong>.</li>
+          <li>Not an online course — D2L does not replace being in the room.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Deadlines and late work</h3>
+        <ul class="tight">
+          <li>Due at <strong>midnight</strong>, with a grace period until <strong>8am</strong> the next morning. Grading starts after 8am.</li>
+          <li>Late assignments: <strong>−10% per day</strong>, until the class set is graded — then the folder closes for good.</li>
+          <li><strong>Never accepted late:</strong> discussion posts, quizzes, extra credit.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Grading</h3>
+        <div class="kv">
+          <div><span class="k">A</span><span class="v">90–100%</span></div>
+          <div><span class="k">B</span><span class="v">80–89%</span></div>
+          <div><span class="k">C</span><span class="v">70–79%</span></div>
+          <div><span class="k">D</span><span class="v">60–69%</span></div>
+          <div><span class="k">F</span><span class="v">0–59%</span></div>
+        </div>
+        <p style="margin-top:12px;">2-point assignments are <strong>pass/fail</strong>. Anything larger carries a rubric. Extra credit runs at least once a semester and can lift the final grade by <strong>up to 2 points</strong>.</p>
+      </div>
+
+      <div class="card">
+        <h3>Unit weights</h3>
+        <div class="scroll" style="border:0;">
+          <table style="min-width:0;">
+            <tbody>
+              <tr><td>Business Email unit</td><td class="num">15</td></tr>
+              <tr><td>Audience Analysis unit</td><td class="num">5</td></tr>
+              <tr><td>Presentations &amp; Proposals</td><td class="num">15</td></tr>
+              <tr><td>Technical Report — oral presentation</td><td class="num">15</td></tr>
+              <tr><td>Technical Report — written report</td><td class="num">20</td></tr>
+              <tr><td>Instructions unit</td><td class="num">15</td></tr>
+              <tr><td>Graded exercises — participation, discussion posts, quizzes</td><td class="num">15</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card flag">
+        <h3>AI policy — the strictest of your five courses</h3>
+        <p><strong>Using AI to write your assignments is plagiarism.</strong> AI may be used <strong>only</strong> for editing or proofreading, and the usage must be cited.</p>
+      </div>
+
+      <div class="card">
+        <h3>Contesting a grade</h3>
+        <p>She requires, in order: re-read your assignment twice → re-read both the assignment rubric and the course grading rubric → email substantive evidence referencing her feedback.</p>
+        <p><strong>She reserves the right to lower a grade on review</strong> if she finds errors she missed the first time.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="div">
+
+  <section id="ethics">
+    <p class="eyebrow">Due Friday August 28</p>
+    <h2>Ethics Analysis — the full spec</h2>
+    <p class="lede">Ten points. The submission block below is copied from the assignment instructions, which is the only place any of it appears.</p>
+
+    <div class="card note stack">
+      <div class="kv">
+        <div><span class="k">Submit to</span><span class="v">D2L — Ethics Analysis folder only</span></div>
+        <div><span class="k">Filename</span><span class="v">Powers_04_Ethics Analysis.docx</span></div>
+        <div><span class="k">File type</span><span class="v">MS Word only</span></div>
+        <div><span class="k">Font</span><span class="v">Tahoma 12</span></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:14px;">
+      <h3>Two tasks</h3>
+      <ul class="tight">
+        <li>Review her PowerPoint, <code>Ethics_TCOM2010</code>.</li>
+        <li>Find the code of ethics for <strong>your own field</strong> and share the link. Yours is Industrial &amp; Systems Engineering — the <strong>IISE Code of Ethics</strong> is the first option she lists.</li>
+      </ul>
+    </div>
+
+    <div class="card" style="margin-top:14px;">
+      <h3>Four required paragraphs — one point of the rubric each pair</h3>
+      <p>At least one paragraph of 1–3 sentences on each, comparing your field's code against the technical writing code:</p>
+      <ul class="tight">
+        <li><strong>Similarities</strong> and direct connections. <span class="mono">(2 pts)</span></li>
+        <li><strong>Differences or exclusions</strong> — and why they might exist. <span class="mono">(2 pts)</span></li>
+        <li><strong>Anything notable.</strong> You must explicitly state whether there is or is not something notable. <span class="mono">(2 pts)</span></li>
+        <li><strong>Areas of possible confusion or misinterpretation</strong> between the two codes. <span class="mono">(2 pts)</span></li>
+      </ul>
+      <p style="margin-top:10px;">The remaining points: <span class="mono">1</span> for the code-of-ethics link, <span class="mono">1</span> for spacing, grammar, formatting, phrasing and punctuation.</p>
+    </div>
+
+    <div class="card flag" style="margin-top:14px;">
+      <h3>Ignore the date printed on her syllabus row</h3>
+      <p>That row says the Ethics Analysis is <em>"due on Friday, January 16th."</em> Her syllabus is a recycled Spring shell — the same defect as the <code>PHYS2211_SP26</code> D2L shell.</p>
+      <p><strong>Your date is Friday, August 28.</strong></p>
+    </div>
+  </section>
+
+  <hr class="div">
+
+  <section id="email">
+    <p class="eyebrow">Draft due Tue Sep 1 · Final follows</p>
+    <h2>Business Email — pick a scenario, then follow the shape</h2>
+    <p class="lede">Draft is 10 points, final is 100. <strong>The final must visibly incorporate her draft feedback</strong> — she states you will be "marked down significantly more" if it does not.</p>
+
+    <div class="card note stack">
+      <div class="kv">
+        <div><span class="k">Draft → folder</span><span class="v">Draft</span></div>
+        <div><span class="k">Final → folder</span><span class="v">Business Email Final</span></div>
+        <div><span class="k">File type</span><span class="v">Word, both</span></div>
+        <div><span class="k">Font</span><span class="v">Tahoma 12</span></div>
+      </div>
+    </div>
+
+    <div class="card flag" style="margin-top:14px;">
+      <h3>The email-vs-D2L question is now two-to-one for D2L</h3>
+      <p>The assignment file says <strong>both</strong> the draft and the final go to D2L assignment folders — no email. That agrees with her policy line <em>"I do NOT accept email attachments for any assignment."</em> Only the syllabus's subject-line instruction disagrees.</p>
+      <p><strong>Still ask her Tuesday.</strong> Two of three sources agreeing is a good reading, not a confirmation.</p>
+    </div>
+
+    <div class="card" style="margin-top:14px;">
+      <h3>Choose one scenario, tied to your major</h3>
+      <ul class="tight">
+        <li><strong>Directive</strong> — you are a manager; a problem forced a new policy or procedure and you are informing employees. <em>Opens with the explanation, ends with the statement of the policy.</em></li>
+        <li><strong>Incident Report</strong> — you are an employee; an accident, injury, mistake or breach occurred and you are reporting it to your supervisor. <em>Events in chronological order.</em></li>
+      </ul>
+      <p style="margin-top:10px;">She has sample Word documents in D2L for both.</p>
+    </div>
+
+    <div class="card" style="margin-top:14px;">
+      <h3>Required structure — she grades formatting as its own line</h3>
+      <div class="kv">
+        <div><span class="k">Subject line</span><span class="v">summarize the topic</span></div>
+        <div><span class="k">Opening greeting</span><span class="v">Dear Ms./Mr. Surname,</span></div>
+        <div><span class="k">Intro paragraph</span><span class="v">state the purpose</span></div>
+        <div><span class="k">Body paragraphs</span><span class="v">1–3 sentences each</span></div>
+        <div><span class="k">Closing paragraph</span><span class="v">next actions</span></div>
+        <div><span class="k">Closing greeting</span><span class="v">Sincerely,</span></div>
+        <div><span class="k">Signature block</span><span class="v">name + email address</span></div>
+      </div>
+    </div>
+
+    <div class="card flag" style="margin-top:14px;">
+      <h3>The draft has a graded AI Usage Statement — 1 of its 10 points</h3>
+      <p><strong>"Did you use AI? Be honest. Lying invalidates your assignment."</strong></p>
+      <p>If you did not: reflect on your writing process and what non-AI tools helped. If you did: name the tool, give your prompt, say what you adapted from the output, and cite <strong>two reliable sources you used to verify it</strong> — she explicitly rules out Reddit.</p>
+      <p>Remember the course rule this sits inside: AI may not write the assignment. Proofreading only, and disclosed.</p>
+    </div>
+  </section>
+
+  <footer>
+    Sources: TCOM 2010 §04 syllabus · ex01.75_Ethics_Activity_Instructions · assign01_business_email · Diamond's Week 1 calendar rows.<br>
+    Every literal on this page is copied, not derived. Where a source contradicts itself, both readings are shown.<br>
+    Built Mon Aug 24, 2026 — Fall Week 1.
+  </footer>
+
+</div>

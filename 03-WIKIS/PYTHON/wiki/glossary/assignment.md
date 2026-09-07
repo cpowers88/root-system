@@ -4,6 +4,7 @@ stage: 01
 status: draft
 aliases: ["assignment statement"]
 related_terms: ["variable", "value"]
+timeline: reference
 ---
 
 # Assignment

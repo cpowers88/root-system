@@ -3,7 +3,9 @@ domain: technology
 type: reference
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, use-case/tech-stack, subject/data-mining, subject/adoption, subject/productization]
+tags: [subject/data-mining, subject/adoption, subject/productization]
+source_role: primary
+use_cases: [tech-stack]
 ---
 
 # Data Mining Adoption Chasm and Productization

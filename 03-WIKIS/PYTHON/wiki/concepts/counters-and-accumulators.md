@@ -4,7 +4,8 @@ stage: 03
 status: draft
 source_refs: ["Think Python Ch.7 (Updating Variables)", "Python Workout Ch.2"]
 prerequisites: ["for-loops", "while-loops", "variables-and-assignment"]
-tags: [stage-03, counters, accumulators]
+tags: [counters, accumulators]
+timeline: reference
 ---
 
 # Concept: Counters and Accumulators

@@ -1,0 +1,408 @@
+# CODEX MID-UPDATE PROGRESS REPORT PASS 0
+## Direct conclusion
+
+The current physical architecture is close to optimal. I would keep CASTLE at 00-BRAIN\CASTLE and would not add
+  another root-level CASTLE pointer yet.
+
+The system already has two root interfaces to CASTLE:
+  - MORNING_BRIEF.md for the compressed decision
+  - NOW.md for CASTLE’s detailed current-action interface
+
+  Adding CASTLE.md would create a third interface without solving a demonstrated navigation failure. The better
+  improvement is to make the existing pointers, contracts, outputs, and vocabulary agree.
+
+  My current estimate:
+
+   Layer                                   Complete
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ━━━━━━━━━━━━━━━━
+   Physical folder architecture                 92%
+  ────────────────────────────────  ────────────────
+   Ownership boundaries                         88%
+  ────────────────────────────────  ────────────────
+   Root/AI boot path                            90%
+  ────────────────────────────────  ────────────────
+   Wiki four-file machine shell      100% installed
+  ────────────────────────────────  ────────────────
+   Cross-hub output language                    72%
+  ────────────────────────────────  ────────────────
+   Metadata/register governance                 60%
+  ────────────────────────────────  ────────────────
+   Pointer and semantic freshness               75%
+  ────────────────────────────────  ────────────────
+   Integrity tooling                            70%
+  ────────────────────────────────  ────────────────
+   Overall architecture readiness               82%
+
+  That means the skeleton is largely done. The remaining 18% is important interface and control work, not another
+  redesign.
+
+  ## The machine path
+
+  The operating flow is:
+
+  ROOT ENTRY
+  AGENTS.md / CLAUDE.md / CODEX.md
+          ↓
+  UNIVERSAL CONTROL
+  00-BRAIN/AGENT.md
+  surface profile
+  CHRIS_CORE.md
+  SYSTEM_FLAGS.md
+          ↓
+  DIRECTION
+  01-NORTH_STAR/NORTH_STAR.md
+  optional goal or system contract
+          ↓
+  SEQUENCING
+  MORNING_BRIEF.md → NOW.md → CASTLE
+          ↓
+  OWNER REALM
+  appropriate wiki, project, school, business, or Watchtower owner
+          ↓
+  REAL WORK AND PROOF
+  learning / research / build / test / use
+          ↓
+  RETURN
+  owner state + evidence + CASTLE proof/sequence + DAILY/review
+
+  This is a sound design. CASTLE is the DECIDE layer—not the owner of every task and not necessarily the first file
+  loaded for every narrow wiki question.
+
+  ## What each major machine path owns and produces
+
+   Path             Responsibility                                     Produced output
+  ━━━━━━━━━━━━━━━  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Root pointers    Boot the correct AI instruction chain              Correct loaded context; no domain content
+  ───────────────  ─────────────────────────────────────────────────  ──────────────────────────────────────────────────
+   00-BRAIN         Governance, AI behavior, safety, placement,        Rules, decisions, flags, validators, session
+                    flags, validation                                  evidence
+  ───────────────  ─────────────────────────────────────────────────  ──────────────────────────────────────────────────
+   01-NORTH_STAR    Permanent direction, adaptive goals, system        Law, targets, proof bars, capability and
+                    contracts                                          information-flow requirements
+  ───────────────  ─────────────────────────────────────────────────  ──────────────────────────────────────────────────
+   CASTLE           Decide priority, sequence work, register proof     NOW.md, maps, phase/skill state, opportunity
+                    status and return paths                            decisions, weekly sequencing
+  ───────────────  ─────────────────────────────────────────────────  ──────────────────────────────────────────────────
+   Watchtower       Detect material external change without opening    Qualified radar rows sent to CASTLE for gating
+                    work
+  ───────────────  ─────────────────────────────────────────────────  ──────────────────────────────────────────────────
+   03-WIKIS         Maintain domain evidence, knowledge, and           Knowledge pages, study paths, evidence pages,
+                    learner truth                                      drills, source disposition and owner updates
+  ───────────────  ─────────────────────────────────────────────────  ──────────────────────────────────────────────────
+   02-LIBRARY       Preserve reusable references, official school      Source/reference artifacts and build
+                    files, and project documentation                   documentation
+  ───────────────  ─────────────────────────────────────────────────  ──────────────────────────────────────────────────
+   .PROJECTS        Execute deliverable-bearing internal builds        Running artifacts, tests, project evidence
+  ───────────────  ─────────────────────────────────────────────────  ──────────────────────────────────────────────────
+   05-BUSINESS      Preserve sanitized reusable business assets        Templates, methods, capability assets, case-
+                                                                       study material
+  ───────────────  ─────────────────────────────────────────────────  ──────────────────────────────────────────────────
+   77-INBOX         Temporary external arrival point                   Routed files or an ambiguity flag
+  ───────────────  ─────────────────────────────────────────────────  ──────────────────────────────────────────────────
+   Session_Logs     Historical session and system-change evidence      DAILYs, reviews, handoffs, implementation
+                                                                       packets
+  ───────────────  ─────────────────────────────────────────────────  ──────────────────────────────────────────────────
+   99-ARCHIVE       Preserve inactive history                          Recoverable former state
+
+  ## What each wiki machine produces
+
+   Wiki                     Machine responsibility                         Primary outputs
+  ━━━━━━━━━━━━━━━━━━━━━━━  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   AI Automation Systems    Research AI, automation, agents,               Maintained knowledge and approval-gated
+                            evaluation, governance and .ROOT evolution     system proposals
+  ───────────────────────  ─────────────────────────────────────────────  ──────────────────────────────────────────────
+   Business                 Maintain business evidence, methods,           Evidence pages, diagnostic methods, test
+                            economic models and offer components           designs and returned field learning
+  ───────────────────────  ─────────────────────────────────────────────  ──────────────────────────────────────────────
+   Education                Support KSU subjects without dedicated         Course briefs, verified requirement maps,
+                            learning engines                               explanations and private practice
+  ───────────────────────  ─────────────────────────────────────────────  ──────────────────────────────────────────────
+   Physics                  Run the sequential calculus-based physics      Stage packets, concept/equation pages,
+                            learning engine                                drills and independent mastery evidence
+  ───────────────────────  ─────────────────────────────────────────────  ──────────────────────────────────────────────
+   Python                   Run the staged programming learning engine     Concepts, code patterns, drills, mini-
+                                                                           projects and learner-frontier evidence
+  ───────────────────────  ─────────────────────────────────────────────  ──────────────────────────────────────────────
+   Revenue Lab              Research and score continuity-income lanes     Lane scorecards, evidence pages, gate inputs
+                                                                           and measured revenue-test results
+  ───────────────────────  ─────────────────────────────────────────────  ──────────────────────────────────────────────
+   Systems                  Maintain the system-dynamics and ISYE          Diagnostic models, system concepts, source-
+                            retrieval corpus                               disposition coverage and applied findings
+  ───────────────────────  ─────────────────────────────────────────────  ──────────────────────────────────────────────
+   Technology               Maintain technology landscape and applied      Recommendation patterns, technical reference
+                            technical reference                            pages and material Watchtower evidence
+
+  These boundaries are generally strong. The hubs no longer compete for the same core functions.
+
+  ## Is there a folder-wide output format?
+
+  There are three partial standards, but not one complete folder-wide artifact format.
+
+  ### What is standardized
+
+  1. Physical format:
+      - Markdown is the default written format.
+      - Frontmatter is expected to carry type, timeline, tags, and relevant optional properties.
+
+  2. Operational return:
+
+     Every meaningful operation is supposed to return the canonical five-field Return Packet:
+      - Outcome
+      - Evidence link
+      - Capability/status movement
+      - Reusable-asset candidate
+      - System-learning candidate
+
+  3. Wiki machine shell:
+
+     All eight hubs now have:
+      - CLAUDE.md — machine loader
+      - OPERATIONS.md — canonical machine contract
+      - README.md — short human entrance
+      - HOW_TO_USE.md — human workflow
+      - wiki/index.md — catalog
+      - wiki/log.md — operational history
+
+  ### What is not standardized
+
+  There is no common machine-readable declaration in every hub answering:
+
+  - What exact artifact types may this hub produce?
+  - Which file is canonical for each output?
+  - What minimum fields must each output contain?
+  - What proof distinguishes a finished output from generated preparation?
+  - Where does each output return?
+
+  Only BUSINESS has an explicit general “Page contract.” Python and Physics have detailed authoring standards and
+  templates. The other five hubs mostly define outputs indirectly through prose.
+
+  This is the largest legitimate tuning opportunity. I would not force every wiki page into one body template. I would
+  standardize the output envelope while keeping domain-specific bodies.
+
+  A proposed hub output declaration should contain:
+
+  Owned input
+  Transformation
+  Stored output
+  Proof output
+  Canonical owner
+  Required return
+
+  That gives every machine the same questions without pretending a Physics drill, Technology lookup, and Revenue Lab
+  scorecard should look alike.
+
+  ## Confirmed strengths
+
+  - The ten logical roles are coherent.
+  - One canonical System Loop exists.
+  - One canonical five-field Return Packet exists.
+  - One information-flow translation contract connects the different views.
+  - Owner truth is kept outside CASTLE.
+  - Watchtower is correctly separated from CASTLE.
+  - 77-INBOX is the sole external arrival door.
+  - Raw evidence remains immutable.
+  - Learning pages are not automatically treated as mastery.
+  - Generated business material is not treated as demand or revenue.
+  - Every wiki has the new four-file human/machine shell.
+  - Boot/governance validation passes.
+  - Wiki navigation lint currently reports zero blockers and zero review debt.
+  - Shared-skill mirrors, whitespace checks, and live-text integrity pass.
+
+  ## Evidence-backed defects
+
+  ### 1. The placement authority describes the old hub archetype
+
+  C:/Users/chris.ROOT/00-BRAIN/WHERE_IT_GOES.md says the universal hub pattern is CLAUDE.md, HOW_TO_USE.md, index.md,
+  and log.md, with “nothing else universal.”
+
+  The live architecture now universally includes OPERATIONS.md and README.md. All eight hubs have them.
+
+  This is a direct authority-versus-tree contradiction and should be corrected before more language tuning.
+
+  ### 2. The architecture report pointer is misleading
+
+  C:/Users/chris.ROOT/00-BRAIN/CASTLE/wiki/root-architecture-evidence-refinery-2026-07-24.md explicitly identifies
+  itself as an interim, superseded hypothesis register.
+
+  However:
+
+  - CASTLE’s index describes it as an integrated decision report.
+  - Today’s brief calls it the completed architecture update.
+
+  The actual final implementation authority is the dated packet beginning at [SESSION_INDEX.md](C:\Users\chris.ROOT\00-
+  BRAIN\Session_Logs\System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\SESSION_INDEX.md).
+
+  This should be repaired as a pointer/status correction.
+
+  ### 3. register: remains undefined
+
+  The live values I found are:
+
+   Value                    Count
+  ━━━━━━━━━━━━━━━━━━━━━━━  ━━━━━━━
+   human-context               22
+  ───────────────────────  ───────
+   ai-directive                16
+  ───────────────────────  ───────
+   ai-loader                   12
+  ───────────────────────  ───────
+   ai-profile                   2
+  ───────────────────────  ───────
+   compatibility-pointer        2
+  ───────────────────────  ───────
+   knowledge-index              1
+
+  The property is deployed but absent from the metadata authority. That makes flag #84 valid.
+
+  My evidence-backed recommendation is neither “CASTLE-only” nor “vault-wide everywhere.” It should be limited to
+  instruction-interface files where machine loading behavior genuinely depends on the distinction:
+
+  - ai-loader
+  - ai-directive
+  - ai-profile
+  - human-context
+  - possibly compatibility-pointer
+
+  knowledge-index does not describe an instruction register and should probably not remain in the same field.
+
+  This needs your decision before editing governance.
+
+  ### 4. Root health is blocked by a known scanner-scope defect
+
+  The canonical gate currently reports:
+
+  Overall: BLOCKER
+  Frontmatter findings: 328 total
+  New findings: 8
+
+  All eight new findings are third-party LICENSE.md or NOTICE.md files inside the MCP Bootcamp .venv. This is the
+  already-recorded SYSTEM_FLAGS.md flag #82.
+
+  So:
+
+  - The health gate is genuinely blocked by its defined acceptance rule.
+  - The eight findings are not authored vault-content defects.
+  - The correct repair is excluding dependency environments from the scanner.
+  - The baseline should not simply absorb them.
+
+  The gate also explicitly does not evaluate semantic freshness, project truth, review cadence, source ownership, or
+  ordinary prose paths.
+
+  ### 5. The broader path audit remains unfinished
+
+  The experimental path audit last recorded:
+
+  - 1,673 Markdown files scanned
+  - 1,165 total findings
+  - 221 baselined
+  - 944 unbaselined
+
+  The hub subset contained 266 unbaselined findings, heavily concentrated in intentionally planned Physics pages.
+
+  This does not contradict the wiki lint pass. The tools check different invariants. However, the relationship is not
+  explained clearly enough in the human operating surfaces.
+
+  ### 6. Freshness labels lag behind content
+
+  Examples:
+
+  - NOW.md is still dated July 24.
+  - START_HERE.md says it was updated July 15 while containing July 24 architecture facts.
+  - vault_map.md has the same kind of date mismatch.
+  - Today’s brief initially pointed at yesterday’s superseded gate state.
+
+  The content is often newer than its declared freshness marker. That weakens trust even when the body is correct.
+
+  ### 7. Machine language is close but not normalized
+
+  The contracts use varying labels:
+
+  - Function
+  - Purpose
+  - Controlling question
+  - Operations
+  - Pipeline
+  - Work loop
+  - Gate and return
+  - Proof and close
+  - Completion condition
+
+  This is readable but makes automated comparison harder. A machine entering one hub must reinterpret the contract
+  shape.
+
+  ## Is this the optimal setup?
+
+  For current needs, the topology is approximately 90–92% optimal.
+
+  I would retain:
+
+  - CASTLE under 00-BRAIN
+  - Watchtower as a separate two-file sensor
+  - root interfaces as interfaces
+  - eight bounded wikis
+  - projects and official source files outside the wikis
+  - business assets separate from business research
+  - one System Loop and Return Packet
+
+  I would not currently:
+
+  - move CASTLE;
+  - create 04-Chris;
+  - add a new lifecycle;
+  - add another metadata plane;
+  - force identical body templates across all wikis;
+  - create a new folder-wide standards file;
+  - create another root dashboard;
+  - bulk-fix Physics planned links;
+  - baseline dependency files as acceptable vault debt.
+
+  ## Recommended 10–15% improvement pass
+
+  The highest-value first pass is an interface-conformance pass, not structural work.
+
+  ### Pass 1 — restore authority and pointer truth
+
+  Expected improvement: approximately 5%.
+
+  1. Update WHERE_IT_GOES.md to describe the actual six-part hub machine interface.
+  2. Repoint CASTLE index and the morning interface from the interim architecture report to the final implementation
+     packet.
+
+  3. Correct stale “last updated” statements where the body contains newer architecture facts.
+  4. Refresh NOW.md from owner truth.
+  5. Fix frontmatter-audit dependency exclusions and rerun root health.
+
+  ### Pass 2 — decide and normalize register:
+
+  Expected improvement: approximately 3–4%.
+
+  1. Approve a bounded purpose for the property.
+  2. Define the approved values in WHERE_IT_GOES.md.
+  3. Remove non-instruction uses.
+  4. Add a deterministic register check.
+  5. Test a fresh root and hub session.
+
+  ### Pass 3 — standardize the hub output envelope
+
+  Expected improvement: approximately 4–6%.
+
+  Add one concise, consistent Outputs and Returns section to each hub contract:
+
+  - Owned inputs
+  - Maintained outputs
+  - Proof outputs
+  - Canonical owner files
+  - Return destinations
+  - What does not count as output/proof
+
+  Do not rewrite the domain-specific rules or force one page template.
+
+  ## Recommended decision
+
+  Approve a read-only-to-draft Pass 1 impact plan covering only:
+
+  - pointer truth;
+  - live hub-archetype wording;
+  - stale freshness labels;
+  - the known .venv scanner exclusion;
+  - an exact proposed definition for register: without applying it yet.

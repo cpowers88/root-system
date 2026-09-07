@@ -1,6 +1,7 @@
 ---
 type: flashcards
-tags: [next, programming]
+tags: [programming]
+timeline: next
 ---
 
 # Flashcard Batch: Stage 4 — Functions

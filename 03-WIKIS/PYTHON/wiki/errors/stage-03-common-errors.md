@@ -2,7 +2,8 @@
 type: error-log
 stage: 03
 status: draft
-tags: [stage-03, errors, debugging-preview]
+tags: [errors, debugging-preview]
+timeline: reference
 ---
 
 # Stage 3 Common Errors

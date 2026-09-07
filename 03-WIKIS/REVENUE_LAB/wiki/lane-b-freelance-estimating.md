@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [now, business, revenue]
+tags: [business, revenue]
+timeline: reference
 ---
 
 # Lane B — Freelance Construction Estimating / Takeoff

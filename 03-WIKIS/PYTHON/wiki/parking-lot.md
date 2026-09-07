@@ -1,6 +1,7 @@
 ---
 type: tracker
-tags: [parked, programming]
+tags: [programming]
+timeline: parked
 ---
 
 # Parking Lot

@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/consistency]
+tags: [subject/consistency]
+timeline: reference
+status: wiki-only
 ---
 
 # Strong Consistency

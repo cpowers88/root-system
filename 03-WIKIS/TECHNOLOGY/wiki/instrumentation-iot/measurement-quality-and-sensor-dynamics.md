@@ -3,7 +3,8 @@ domain: technology
 type: reference
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, subject/instrumentation, subject/measurement, subject/sensors]
+tags: [subject/instrumentation, subject/measurement, subject/sensors]
+source_role: primary
 ---
 
 # Measurement Quality and Sensor Dynamics

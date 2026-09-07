@@ -4,6 +4,7 @@ stage: 05
 status: draft
 aliases: []
 related_terms: ["list", "mutable-immutable"]
+timeline: reference
 ---
 
 # Tuple

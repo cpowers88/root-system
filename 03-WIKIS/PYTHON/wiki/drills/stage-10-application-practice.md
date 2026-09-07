@@ -5,6 +5,7 @@ status: draft
 concepts: ["cli", "argument-parsing", "unit-test", "database"]
 difficulty: beginner
 solution_included: false
+timeline: reference
 ---
 
 # Drill: CLI, Testing, and Database Basics

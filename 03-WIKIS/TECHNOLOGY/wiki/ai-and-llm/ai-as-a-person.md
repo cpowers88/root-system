@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/next, status/wiki-only, subject/ai]
+tags: [subject/ai]
+timeline: reference
+status: wiki-only
 ---
 
 # AI as a Person: Behavioral Realism and the Limits of the Turing Test

@@ -4,6 +4,7 @@ stage: 02
 status: draft
 aliases: ["branching"]
 related_terms: ["if-elif-else", "condition"]
+timeline: reference
 ---
 
 # Branch

@@ -1,5 +1,6 @@
 ---
 type: calculus-link
+timeline: reference
 status: draft
 ---
 
@@ -78,3 +79,49 @@ Check on gravity: U_g = mgy → F_y = −d(mgy)/dy = −mg ✓ (downward gravity
 ## Common mistake
 
 Computing work by a varying force as W = F × d (constant-force formula) when F changes over the interval. The constant formula only works when F doesn't change. For a spring: using F_max × d instead of ½kx².
+
+## Practice Problems
+
+**Problem 1 — integrate a varying force directly.**
+A force varies with position as F_x(x) = 4.0x + 2.0 (N, x in m). Find the
+work done as the object moves from x = 0 to x = 3.0 m by integrating —
+do not use a shortcut formula.
+
+**Problem 2 — spring, but starting from a nonzero stretch.**
+A spring with k = 250 N/m is already stretched 0.10 m. Find the work needed
+to stretch it further, from x = 0.10 m to x = 0.25 m. (This is not the same
+as ½kx² evaluated at 0.25 m alone — set up the definite integral with the
+correct limits.)
+
+**Problem 3 — go the other direction: force from potential energy.**
+A system's potential energy is given by U(x) = 3x² − 12x + 7 (J, x in m).
+Find F_x(x) = −dU/dx. At what value of x is the force zero (equilibrium),
+and is it a stable or unstable equilibrium there?
+
+### Check Yourself
+
+1. W = ∫₀³ (4.0x + 2.0) dx = [2.0x² + 2.0x]₀³ = (18.0 + 6.0) − 0 = 24.0 J.
+2. W = ∫₀.₁⁰·²⁵ (−250x) dx magnitude... using U_s = ½kx²: ΔU = ½(250)(0.25²)
+   − ½(250)(0.10²) = 7.8125 − 1.25 = 6.5625 J ≈ 6.56 J. Confirms the definite
+   integral must use both limits, not just the final position.
+3. F_x = −d(3x² − 12x + 7)/dx = −(6x − 12) = 12 − 6x. Zero when x = 2.0 m.
+   Since U(x) = 3x² − 12x + 7 is an upward-opening parabola (positive
+   coefficient on x²), x = 2.0 m is a minimum of U — a stable equilibrium
+   (nudge the system away and the force pushes it back).
+
+## Engineering Use Case
+
+Anything designed to absorb or store energy through a *changing* force —
+mechanical springs, shock absorbers, elevator buffers, packaging cushioning,
+vehicle bumpers — is sized with exactly this integral, not the constant-force
+formula. A packaging engineer choosing foam thickness for a drop-test
+certification is really solving "how much work (= area under the F-x curve)
+can this cushion absorb before the force on the product exceeds its damage
+threshold?" The F_x = −dU/dx direction matters too: reading a manufacturer's
+force-deflection curve for an isolator and finding where dF/dx changes sign
+tells you where the mount transitions from soft to stiff — critical for
+tuning vibration isolation on rotating machinery.
+
+## Sources
+
+Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., Ch. 7.3, 7.6–7.8.

@@ -4,7 +4,8 @@ stage: 05
 status: draft
 source_refs: ["Think Python Ch.8 (A String Is a Sequence, len, String Slices, Strings Are Immutable)", "Automate the Boring Stuff Ch.8"]
 prerequisites: ["strings", "for-loops"]
-tags: [stage-05, strings, sequences, slicing]
+tags: [strings, sequences, slicing]
+timeline: reference
 ---
 
 # Concept: Strings as Sequences

@@ -4,6 +4,7 @@ stage: 01
 status: draft
 aliases: ["type casting"]
 related_terms: ["integer", "float", "string"]
+timeline: reference
 ---
 
 # Type Conversion

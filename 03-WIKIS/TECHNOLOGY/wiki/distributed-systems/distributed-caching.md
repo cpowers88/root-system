@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/caching]
+tags: [subject/caching]
+timeline: reference
+status: wiki-only
 ---
 
 # Distributed Caching

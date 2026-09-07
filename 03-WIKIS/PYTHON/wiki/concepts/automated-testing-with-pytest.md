@@ -4,7 +4,8 @@ stage: 10
 status: draft
 source_refs: ["Python Crash Course Ch.11 (Testing Your Code)"]
 prerequisites: ["defining-and-calling-functions", "return-values", "test-case"]
-tags: [stage-10, testing, pytest]
+tags: [testing, pytest]
+timeline: reference
 ---
 
 # Concept: Automated Testing with `pytest`

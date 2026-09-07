@@ -118,6 +118,30 @@ Rank deviations by business consequence, not only frequency. A rare safety or co
 failure may outrank a common harmless variant. Conversely, thousands of deviations
 can reflect one stale model rule rather than thousands of operational failures.
 
+## Explain Complex Variants Without Hiding the Evidence
+
+When a full event log produces a dense “spaghetti” model, cluster similar traces
+only if the partition answers a real operational question. For each cluster,
+retain:
+
+- included case identifiers and trace count;
+- differentiating activities, paths, timing, resources, or attributes;
+- comparison against the full population and named peer clusters;
+- rule accuracy/fidelity and coverage;
+- important temporal relationships not represented by the cluster features;
+- the domain owner's interpretation and unresolved alternatives.
+
+A natural-language explanation may sit on top of those artifacts, but it is a
+presentation aid—not the evidence. Constrain it to description, comparison,
+process overview, and supplied-metric explanation. Require the output to cite or
+display the underlying rules and cases, and reject causal or prescriptive claims
+that the event log and analysis did not establish.
+
+Evaluate the explanation on soundness, completeness, context, and decision
+utility. A fluent description that drops a branch condition or invents why a
+cluster exists is a failed explanation. Keep the rule and source cases visible
+so an analyst can challenge the prose.
+
 ## Limits
 
 - Alignment results may be computationally expensive and non-deterministic when
@@ -147,3 +171,10 @@ repaired after observing real execution.
 **Proof**: A domain owner can trace the finding to cases and system evidence, explain
 the deviation classification, and show a post-change outcome without hiding data/model
 uncertainty.
+
+Additional source: Amling et al., “Bridging the Interpretability Gap in Process
+Mining,” *xAI 2025 Proceedings, Part II* (CCIS 2577), physical PDF pp. 97-122
+(printed pp. 78-103), reviewed in full 2026-07-27 from the immutable
+AI_AUTOMATION_SYSTEMS raw source. Retained the evidence/verbalization separation,
+bounded explanation tasks, and user-facing evaluation criteria. The paper's
+single-log, seven-participant results do not establish a general model ranking.

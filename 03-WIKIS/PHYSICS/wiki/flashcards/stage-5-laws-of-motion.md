@@ -1,6 +1,7 @@
 ---
 type: flashcards
-tags: [next, physics]
+tags: [physics]
+timeline: next
 ---
 
 # Flashcards — Stage 5: The Laws of Motion (Ch 5)

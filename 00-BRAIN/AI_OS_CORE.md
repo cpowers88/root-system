@@ -1,6 +1,8 @@
 ---
 type: pointer
 timeline: reference
+status: retired
+register: compatibility-pointer
 tags: [governance]
 ---
 

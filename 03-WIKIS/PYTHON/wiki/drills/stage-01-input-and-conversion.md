@@ -5,6 +5,7 @@ status: draft
 concepts: ["variable", "input", "type-conversion", "string", "print"]
 difficulty: beginner
 solution_included: false
+timeline: reference
 ---
 
 # Drill: Input and Conversion Practice
@@ -19,6 +20,23 @@ Practice collecting input, converting it to the right type, and using it in both
 - type conversion (`int()`, `float()`, `str()`)
 - variables and assignment
 - `print()` and f-strings
+
+## Cold-Read Gate
+
+Before writing your program, annotate this snippet without running it. Label each
+input, conversion, assignment, calculation, and output; predict both the value and
+type of `future_age` and the final printed line for the inputs `Chris` and `40`.
+
+```python
+name = input("Name: ")
+age_text = input("Age: ")
+age = int(age_text)
+future_age = age + 5
+print(f"{name}: {future_age}")
+```
+
+Then write an input-process-output skeleton for the Starter Prompt before filling
+in any expressions.
 
 ## Starter Prompt
 

@@ -4,6 +4,7 @@ stage: 08
 status: draft
 concepts: ["class", "object-instance", "attribute", "method", "sorting", "searching", "big-o"]
 solution_included: false
+timeline: reference
 ---
 
 # Mini-Project: Card Collection — Class Plus Sort/Search
@@ -41,6 +42,9 @@ Write your own `linear_search_cards(cards, target_rank)` function that returns t
 - [ ] `Card` class has at least two attributes (rank, suit) and one working method.
 - [ ] `selection_sort_cards()` correctly sorts the list by rank without using `sorted()` or `.sort()`.
 - [ ] `linear_search_cards()` correctly finds an existing rank and correctly returns `None` for a missing one.
+
+Full-stage enrichment, not course-core acceptance:
+
 - [ ] Chris can state, out loud, the Big O of both the sort and the search written here.
 - [ ] Chris can explain what would change (in code and in Big O) if Python's built-in `sorted()` were used instead of the hand-written version.
 

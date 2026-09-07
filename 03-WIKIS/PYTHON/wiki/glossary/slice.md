@@ -4,6 +4,7 @@ stage: 05
 status: draft
 aliases: ["slicing"]
 related_terms: ["index", "list", "string"]
+timeline: reference
 ---
 
 # Slice

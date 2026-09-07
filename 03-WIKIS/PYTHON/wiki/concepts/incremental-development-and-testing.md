@@ -4,7 +4,8 @@ stage: 07
 status: draft
 source_refs: ["Think Python Ch.4 (A Development Plan)", "Think Python Ch.9, Ch.13 (Case Studies)"]
 prerequisites: ["decomposition-and-pseudocode", "debugging-process"]
-tags: [stage-07, incremental-development, testing, algorithm]
+tags: [incremental-development, testing, algorithm]
+timeline: reference
 ---
 
 # Concept: Incremental Development and Testing

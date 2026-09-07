@@ -1,10 +1,11 @@
 ---
 type: source-summary
+timeline: reference
 status: parked
 source_role: reference
 difficulty: post-stage-09
 source_file: raw/books/PythonforDataAnalysis.pdf
-tags: [reference, programming, parked, data-analysis-strand]
+tags: [programming, data-analysis-strand]
 ---
 
 # Plotting Directly from pandas: .plot, Bar Charts, and crosstab

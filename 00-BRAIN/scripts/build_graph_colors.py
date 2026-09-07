@@ -15,10 +15,12 @@ The canonical color registry is 00-BRAIN/COLOR_MAP.yaml. This script:
 Idempotent: running twice with an unchanged COLOR_MAP.yaml produces a
 byte-identical graph.json.
 
-Usage:  python build_graph_colors.py
+Usage:  python build_graph_colors.py           # writes .obsidian/graph.json
+        python build_graph_colors.py --check   # read-only: reports the diff, writes nothing
 (Paths are resolved relative to this file: 00-BRAIN/scripts/ → vault root.)
 """
 
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -158,17 +160,50 @@ def drift_check(groups: list, excluded: list) -> list:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--check", action="store_true",
+        help="read-only: report what would change without writing graph.json",
+    )
+    args = parser.parse_args()
+
     cmap = parse_color_map(COLOR_MAP)
     groups, excluded = cmap["groups"], cmap["excluded_from_graph"]
 
     first_run = not GRAPH_JSON.exists()
-    if first_run:
-        graph = {"search": "", "colorGroups": []}
-    else:
-        graph = json.loads(GRAPH_JSON.read_text(encoding="utf-8"))
+    existing = {"search": "", "colorGroups": []} if first_run else json.loads(
+        GRAPH_JSON.read_text(encoding="utf-8")
+    )
 
-    graph["colorGroups"] = build_color_groups(groups)
-    graph["search"] = merge_excludes(graph.get("search", ""), excluded)
+    new_color_groups = build_color_groups(groups)
+    new_search = merge_excludes(existing.get("search", ""), excluded)
+
+    if args.check:
+        colors_changed = new_color_groups != existing.get("colorGroups")
+        search_changed = new_search != existing.get("search", "")
+        if first_run:
+            print("CHECK: graph.json does not exist yet — a real run would create it.")
+        elif not colors_changed and not search_changed:
+            print("CHECK: graph.json already matches COLOR_MAP.yaml — no write needed.")
+        else:
+            print("CHECK: graph.json would change on a real run:")
+            if colors_changed:
+                print(f"  - colorGroups: {len(existing.get('colorGroups', []))} -> {len(new_color_groups)}")
+            if search_changed:
+                print(f"  - search: {existing.get('search', '')!r} -> {new_search!r}")
+        gaps = drift_check(groups, excluded)
+        if gaps:
+            print("\nDRIFT CHECK — folders with no color and no exclusion:")
+            for g in gaps:
+                print(f"  - {g}")
+        else:
+            print("\nDRIFT CHECK — clean: every folder is either colored or excluded.")
+        print("\nNothing written (--check).")
+        return 0
+
+    graph = existing
+    graph["colorGroups"] = new_color_groups
+    graph["search"] = new_search
 
     GRAPH_JSON.parent.mkdir(parents=True, exist_ok=True)
     GRAPH_JSON.write_text(json.dumps(graph, indent=2, ensure_ascii=False) + "\n",

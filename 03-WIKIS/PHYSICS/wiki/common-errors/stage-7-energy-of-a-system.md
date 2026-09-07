@@ -1,6 +1,7 @@
 ---
 type: common-errors
-tags: [later, physics]
+tags: [physics]
+timeline: later
 ---
 
 # Common Errors — Stage 7: Energy of a System

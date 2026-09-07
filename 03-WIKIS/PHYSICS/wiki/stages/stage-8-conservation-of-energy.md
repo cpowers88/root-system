@@ -1,6 +1,9 @@
 ---
 type: stage
+timeline: later
+stage: 8
 status: draft
+tags: [physics, math]
 ---
 
 # Stage 8 — Conservation of Energy (Ch 8)
@@ -76,6 +79,7 @@ Ki + Ui  ---friction---> Kf + Uf
 - **Power** is the only calculus idea introduced here: P = dE/dt (power is the instantaneous rate of energy transfer). For a constant force: P = Fv.
 - No new integrals or derivatives beyond Stage 7.
 - Energy conservation itself is algebra — it doesn't require calculus to apply.
+- Full worked derivations, multi-problem practice, and a real-world use case: [[../calculus-links/power-derivative]].
 
 ## Problem Types
 

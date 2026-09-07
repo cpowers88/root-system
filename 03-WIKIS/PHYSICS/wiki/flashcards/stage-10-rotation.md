@@ -1,6 +1,7 @@
 ---
 type: flashcards
-tags: [later, physics]
+tags: [physics]
+timeline: later
 ---
 
 # Flashcards — Stage 10: Rotation of a Rigid Object (Ch 10)

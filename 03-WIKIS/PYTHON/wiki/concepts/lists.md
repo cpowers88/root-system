@@ -4,7 +4,8 @@ stage: 05
 status: draft
 source_refs: ["Think Python Ch.10 (A List Is a Sequence, Lists Are Mutable, Traversing a List, List Slices, List Methods, Aliasing)", "Python Crash Course Ch.3-4", "Automate the Boring Stuff Ch.6"]
 prerequisites: ["strings-as-sequences", "for-loops"]
-tags: [stage-05, lists, mutability, aliasing]
+tags: [lists, mutability, aliasing]
+timeline: reference
 ---
 
 # Concept: Lists

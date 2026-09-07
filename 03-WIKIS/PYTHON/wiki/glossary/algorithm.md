@@ -4,6 +4,7 @@ stage: 07
 status: draft
 aliases: []
 related_terms: ["pseudocode", "decomposition"]
+timeline: reference
 ---
 
 # Algorithm

@@ -4,6 +4,7 @@ stage: 10
 status: draft
 aliases: ["command-line interface", "command-line program"]
 related_terms: ["argument-parsing"]
+timeline: reference
 ---
 
 # CLI

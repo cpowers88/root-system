@@ -4,7 +4,8 @@ stage: 09
 status: draft
 source_refs: ["Automate the Boring Stuff Appendix A (Installing Third-Party Packages)", "Python Workout Ch.9 (Modules and Packages)"]
 prerequisites: ["defining-and-calling-functions"]
-tags: [stage-09, modules, packages, pip]
+tags: [modules, packages, pip]
+timeline: reference
 ---
 
 # Concept: Modules and Packages

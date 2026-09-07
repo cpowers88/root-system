@@ -4,7 +4,8 @@ stage: 05
 status: draft
 source_refs: ["Think Python Ch.11 (A Dictionary Is a Mapping, Looping and Dictionaries)", "Python Crash Course Ch.6", "Automate the Boring Stuff Ch.7"]
 prerequisites: ["lists", "for-loops"]
-tags: [stage-05, dictionaries, key-value]
+tags: [dictionaries, key-value]
+timeline: reference
 ---
 
 # Concept: Dictionaries

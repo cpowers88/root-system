@@ -4,6 +4,7 @@ stage: 09
 status: draft
 aliases: []
 related_terms: ["automation-script"]
+timeline: reference
 ---
 
 # Scheduling

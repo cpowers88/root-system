@@ -4,7 +4,8 @@ stage: 05
 status: draft
 source_refs: ["Think Python Ch.12 (Tuples Are Immutable, Tuple Assignment)", "Think Python Ch.19 (Sets, lighter intro)"]
 prerequisites: ["lists"]
-tags: [stage-05, tuples, sets]
+tags: [tuples, sets]
+timeline: reference
 ---
 
 # Concept: Tuples and Sets (Light Introduction)

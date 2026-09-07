@@ -4,7 +4,8 @@ stage: 08
 status: draft
 source_refs: ["Think Python Ch.21 (Order of Growth)", "Data Structures & Algorithms Ch.1-3 (Big O Notation, code language unconfirmed)", "Grokking Algorithms Ch.1"]
 prerequisites: ["for-loops", "lists"]
-tags: [stage-08, big-o, efficiency]
+tags: [big-o, efficiency]
+timeline: reference
 ---
 
 # Concept: Big O Notation (Intuition Level)

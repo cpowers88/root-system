@@ -3,7 +3,8 @@ domain: technology
 type: reference
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, subject/iot, subject/data-architecture, subject/adoption]
+tags: [subject/iot, subject/data-architecture, subject/adoption]
+source_role: primary
 ---
 
 # IoT Data Reduction, Adoption, and Current-Use Filter

@@ -8,20 +8,66 @@ tags: [physics, school, governance]
 
 # Syllabus Coverage Ledger
 
+> ## ✅ RESOLVED 2026-08-18 — the exact Section 54 syllabus arrived
+>
+> **`raw/syllabus/Syllabus.pdf`** (Fall 2026, §54, Farhan Islam) is now the binding
+> source. Everything below is **historical record** of how the path was reasoned before
+> it existed. Live pacing is [[semester-pathway]].
+>
+> **This ledger's own handling rule was honoured, and it worked.** It said: *"keep Stages
+> 13–18 built and in the path … two sections omitting a chapter from a tentative calendar
+> is not the same as it being out of scope. Re-verify against Section 54's real calendar
+> the moment it exists. Do not shrink the path on neighbour evidence alone."* That gate is
+> now satisfied by an exact-section source, so the path shrinks **on authority, not on
+> inference**:
+>
+> | Question the ledger held open | Answer from §54 |
+> |---|---|
+> | Is Ch 13 universal gravitation in scope? | **No.** The 15-week schedule never reaches it. Week 4's "Gravitational Force" is §5.5 *weight in a free-body diagram* |
+> | Ch 14 fluids? | **No** — confirmed out, as both neighbours implied |
+> | Ch 16–17 waves? | **Partially.** Ch 16.1–16.3 only, after Unit Exam 4, examined only on the final. **Ch 17 is out** |
+> | Ch 38/39 relativity? | **No.** Named in the course description, never scheduled |
+> | Exam count and which drops? | **Four unit exams, lowest dropped**, 45% total. Final 30% |
+> | Attendance graded? | **No attendance component at all.** Recitation *worksheet* 10% |
+> | Day One Access opt-out deadline | **Aug 28, 2026, 11:45 PM** |
+> | AI policy | **Permitted as a tutor; prohibited in submitted work.** See [[semester-pathway]] |
+>
+> **Active-path scope is now Chapters 1–12, 15, and 16.1–16.3.** Stages 13, 14, 17 and 18
+> remain built and durable, as reference rather than course path. Nothing was deleted —
+> the ledger's caution about not shrinking prematurely is exactly why they exist and are
+> available for Physics II and ISYE work.
+
 ## Purpose
 
-Account for every page of `raw/syllabus/syllabus.pdf` without mixing course
-operations into physics lesson packets. Academic content routes to the Stage 1-18
-path; policies and resources route to the course-governance layer. This ledger was
-completed by visual inspection of all 19 pages on 2026-07-15.
+Account for every page of `syllabus.pdf` (the original provisional spine source)
+without mixing course operations into physics lesson packets. Academic content
+routes to the Stage 1-18 path; policies and resources route to the
+course-governance layer. This ledger was completed by visual inspection of all 19
+pages on 2026-07-15.
 
-## Authority Rule
+**Source note (2026-07-23):** `syllabus.pdf` was superseded and archived on
+2026-07-21 — it no longer lives at `raw/syllabus/`; the current copy is
+`99-ARCHIVE\04-SCHOOL\SYLLABI_REPLACED_2026-07-21\02-Physics I\syllabus.pdf`.
+The page-by-page disposition and data-quality findings below are preserved as
+historical record. The two real Fall 2026 section syllabi in `raw/syllabus/`
+(Section 51 and Section 55 — see [[source-map]] and Cross-Section Verification
+below) are now the current best-available sources for anything past Chapter 5.
 
-1. Use the syllabus for course identity, learning outcomes, grading categories,
-   academic-integrity boundaries, and the named physics scope.
-2. Use the live D2L/WebAssign/Owl Express course for dates, deadlines, assignment
-   availability, exam/drop mechanics, and any item flagged below as conflicting.
-3. Use Serway & Jewett as the content spine and [[learning-path]] as the staged route.
+## Authority Rule — rewritten 2026-08-18
+
+1. **`raw/syllabus/Syllabus.pdf` — the exact Section 54 syllabus — controls dates,
+   grading, policy, and topic path.** It is binding.
+2. Use the live D2L/WebAssign/Owl Express course for anything the syllabus leaves open
+   or that the instructor changes in-term. D2L and the instructor outrank the PDF.
+3. Use Serway & Jewett as the content and derivation source in syllabus order.
+4. **The neighbour captures are retired.** `raw/syllabus/PHYS 2211 51 (83719) …md` stays
+   in `raw/` as immutable capture evidence but is no longer consulted for pacing; the two
+   `04-SCHOOL` working copies were archived 2026-08-18 to
+   `99-ARCHIVE\ARCHIVED_2026-08-18_PHYS_neighbour_syllabi\`. Where a neighbour disagrees
+   with the §54 PDF, the PDF wins without discussion.
+5. **§51 is a sibling recitation of Chris's own lecture**, not a rival section — the §54
+   syllabus lists recitations 51–54 under one Islam lecture. That is why it paced this
+   course well. §55 is Behera's separate lecture.
 
 ## Academic Content Routed to Stages
 
@@ -69,7 +115,7 @@ stage is implied.
 | 5 | exams, missed/make-up rules, grading scale | course operations retained; conflicting exam count/drop language is gated |
 | 6 | assessment weights; dropped low HW/quiz/participation; Early Alerts; midterm grade; calendar heading | weights retained below; alerts/midterm are support/governance |
 | 7 | calendar through Ch 5; attendance; missed in-class work; late work; missed exams | Ch 1-5 routed to Stages 1-5; dates and contradictions are gated |
-| 8 | missed-exam exceptions; AI learning-aid and prohibited-submission policy | binding academic-integrity boundary in [[source-map]] and `CLAUDE.md` |
+| 8 | missed-exam exceptions; AI learning-aid and prohibited-submission policy | binding academic-integrity boundary in [[source-map]] and `OPERATIONS.md` |
 | 9 | modified operations and face-to-face continuity plan | check D2L/email during disruptions; governance only |
 | 10 | virtual transition, adjusted deadlines, virtual office hours; integrity, conduct, accessibility | governance and academic-integrity boundary |
 | 11 | accessibility contacts and reasonable accommodations | student-support governance; contact Student Disability Services early if needed |
@@ -113,3 +159,61 @@ stage is implied.
 No missing syllabus physics topic remains unrouted. The unresolved items are course
 operations or textbook section-depth decisions, not gaps in the semester concept
 sequence.
+
+## Cross-Section Verification, 2026-07-21
+
+Two real Fall 2026 PHYS 2211 syllabi were obtained: Section 51 (the July 27
+recapture names Farhan Islam; the July 21 raw capture omitted the instructor block)
+and Section 55 (Swayamprabha Behera) — see `raw/syllabus/`. Neither is Chris's
+registered Section 54 (flag #57, still open pending Aug 24 D2L confirmation), but
+both are same-course, same-term, and give the first real look at pacing beyond
+Chapter 5.
+
+**What this confirms:**
+
+- The durable textbook sequence remains a sound prerequisite map, but the course
+  execution order is instructor-dependent. Section 55 largely follows Chapters
+  1-12 in order; Section 51/Farhan moves Chapter 13 gravitation near Chapters
+  5-6 and later reaches Chapters 16-17. The course overlay in [[learning-path]]
+  now records that distinction without renumbering the durable stages.
+- The Summer 2026 Section 54 reference independently confirms the same core
+  through Chapters 1-13 and 15-16 in an eight-week sequence. It corroborates
+  scope, not Fall pacing or policy.
+- `syllabus.pdf` (the original spine source, now archived — see the Source note
+  above) was very likely an early, truncated capture of this same Section 55
+  syllabus — identical instructor, identical grading weights, identical
+  early-week dates. It is superseded by the new Section 55 file for anything
+  past Chapter 5.
+
+**What this surfaces as a real open question — tracked, not acted on:**
+
+- Chris confirmed Ch 10-12 and Ch 14 in scope on 2026-06-25, based on the syllabus
+  course-description text ("law of universal gravitation... falling objects and
+  orbital motion," "fluid mechanics confirmed in the semester route"). Neither
+  neighbor section's actual week-by-week calendar schedules Ch 14 (Fluid
+  Mechanics) or Ch 38 (Relativity):
+  - Section 55's calendar stops entirely after Ch 15 (SHM) with review weeks —
+    never reaches Ch 13 (gravitation), Ch 14, Ch 16-17 (waves), or Ch 38.
+  - Section 51's calendar does reach Ch 13 (week 5, paired with circular motion)
+    and Ch 16-17 (weeks 12-14), but also never schedules Ch 14, and ends in
+    review weeks without reaching Ch 38.
+  - **Handling rule:** keep Stages 13-18 built and in the path — the course
+    description in all three syllabi (original + both neighbors) names
+    gravitation, waves, and relativity as course learning outcomes, and two
+    sections omitting a chapter from a tentative calendar is not the same as it
+    being out of scope. Re-verify against Section 54's real calendar the moment
+    it exists in D2L (target: after Aug 24). Do not shrink the path on neighbor
+    evidence alone.
+- Grading structure differs materially between the two neighbors (Section 51:
+  four unit exams, best 3 of 4, final 25%, attendance 7.5% + recitation 7.5%
+  separately graded; Section 55: three unit exams, lowest dropped, final 30%,
+  participation 10% covers both attendance and recitation). This mirrors the
+  exam-count conflict already flagged in `syllabus.pdf` itself. Course
+  operations only — no stage-path impact — but confirms the exam-count question
+  cannot be resolved without Section 54's actual syllabus.
+- **Soft pacing anchors from Section 55** (real 2026 dates, same instructor as
+  the original spine, not binding for Section 54): Exam 1 ~Sep 25 (through Ch
+  5/6), Exam 2 ~Oct 30 (through ~Ch 10), Exam 3 ~Nov 20 (through ~Ch 12/15),
+  Thanksgiving break Nov 23-27, final review the last week. Useful for pacing
+  Stage 5 → Stage 15 at a controlled rate; do not calendar these as Chris's
+  actual exam dates.

@@ -137,7 +137,7 @@ part of the process; its event trail should return to the same audit loop.
 [[responsible-process-mining-fact-gate]],
 [[designing-for-human-error-and-recovery]],
 [[operations-research-study-lifecycle]], and
-`03-WIKIS/BUSINESS/wiki/ai-integration-company/smb-ai-audit-method.md`.
+`03-WIKIS/BUSINESS/wiki/methods/smb-ai-audit-method.md`.
 
 ## Use / Retrieval Notes
 

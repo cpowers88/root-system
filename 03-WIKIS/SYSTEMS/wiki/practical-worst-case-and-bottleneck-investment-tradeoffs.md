@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/process-design, use-case/data-workflow, use-case/ksu-support, subject/factory-physics, subject/queuing-theory, subject/throughput-wip-cycle-time, subject/variability]
+tags: [subject/factory-physics, subject/queuing-theory, subject/throughput-wip-cycle-time, subject/variability]
+timeline: reference
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, process-design, data-workflow, ksu-support]
 ---
 
 # Practical Worst-Case Performance, and Bottleneck vs. Nonbottleneck Investment Trade-offs
@@ -93,7 +97,7 @@ A client wants to know whether their production line's WIP/cycle-time/throughput
 The client's process doesn't resemble a flow line of distinguishable stations (e.g., a single highly variable custom job shop with no repeatable routing) — the PWC's derivation assumptions (balanced, single-machine, identifiable bottleneck) may not transfer cleanly.
 
 **Fast retrieval query**:
-`subject/throughput-wip-cycle-time` + `priority/now` — or search "practical worst case" / "memoryless exponential distribution" / "internal benchmarking lean fat" / "bottleneck vs nonbottleneck investment"
+`tag:#subject/throughput-wip-cycle-time` — or search "practical worst case" / "memoryless exponential distribution" / "internal benchmarking lean fat" / "bottleneck vs nonbottleneck investment"
 
 ## North Star Connection
 

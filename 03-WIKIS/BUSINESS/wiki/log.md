@@ -1,9 +1,95 @@
 ---
 type: log
-tags: [log, business]
+tags: [business]
+timeline: log
 ---
 
 # Wiki Log
+
+## 2026-07-24 — Machine-first BUSINESS interface and catalog installed
+
+### Outcome
+
+- Added `OPERATIONS.md` as the canonical cross-model contract.
+- Reduced `CLAUDE.md` to a loader pointer.
+- Rewrote `README.md` and `HOW_TO_USE.md` as human interfaces.
+- Promoted `wiki/index.md` to the sole content catalog.
+- Converted `wiki/ai-integration-company/index.md` into a compatibility pointer.
+- Classified the live page set into evidence, methods, offers, operating
+  models, pathways, scenarios, general reference, and templates.
+- Migrated the classified pages into matching physical directories.
+- Relocated blank reusable templates to their functional owners under
+  `05-BUSINESS` and repaired active navigation.
+- Retained only the compatibility pointer in the legacy container.
+
+### Boundaries
+
+- No file under `raw\` changed.
+- No client action, outreach, publication, purchase, account, or commitment
+  was activated.
+- Broad legacy frontmatter cleanup remains separate from this architecture
+  migration.
+
+### Next
+
+Reconcile volatile offer claims and scenario wording with current strategy,
+then complete legacy frontmatter cleanup.
+
+## 2026-07-23 — Raw source map built (Codex plan, Claude Chat-scoped, Claude Code-executed)
+
+Executed `ExecutionBrief_Buisness-WIKI.md` (Claude Chat-authored, reduced from Codex's
+original "Business Learning and Evidence Engine" proposal): a single source-accounting
+page for the 69-file `raw/` corpus, explicitly not a curriculum and not a second ranking
+model (those guardrails held — `most-profitable-pathways.md` and `market-map.md` remain
+the only ranking authorities).
+
+### What Changed
+- Created `raw-source-map.md`: a classification table (Type / Category / Authority /
+  Pub date / Industries / Company size / Concepts / Evidence value / Implementation
+  value / Wiki destination / Processing / Reopen trigger) for all 69 sources, a blank
+  CSV-compatible evidence-row schema for future research capture, and a curated reading
+  sequence (question-per-source, explicitly framed as a starting point, not a
+  curriculum).
+- Added one link row to `index.md` §5 (Capability Building) pointing to the new page —
+  the only edit to an existing file, additive only.
+
+### What Was Added
+- `raw-source-map.md` (new page, `wiki/ai-integration-company/`).
+
+### What Was Updated
+- `wiki/ai-integration-company/index.md` (1 row added under Capability Building).
+
+### Correction made mid-build
+- The table was first drafted from a fresh read of each source's title/opening pages,
+  without cross-referencing this log. Cross-checked against the July 8/9/12/16 intake
+  entries below before finalizing and corrected several rows that fresh reading got
+  wrong relative to what's already been decided: `state-of-ai-2026.pdf` is a confirmed
+  duplicate of the Deloitte "State of AI in the Enterprise" survey already cited in
+  `market-map.md` (not an unconfirmed-publisher source needing verification);
+  `NewCodeofEstimating.pdf` is UK commercial/PFI tendering content for large
+  contractors, wrong market segment for the current US residential/light-commercial
+  hypothesis (not a usable estimating reference); `HowAIcanbenefitabusinessatbanksandinsurace.pdf`
+  is ~2020-vintage pre-GenAI vendor material for enterprise carriers, wrong vintage and
+  audience. Also corrected several `Processing` values from forward-looking
+  recommendations ("read-selectively") to reflect sources already read-fully and
+  absorbed into named pages in the July 16 batch (Mom Test, Good Strategy/Bad Strategy,
+  Prediction Machines, The AI Dossier, All-In on AI, Inspired, Transformed, Psychology
+  of Human Misjudgement), so the map doesn't send anyone back to re-read what's done.
+
+### What Was Parked
+None newly parked — the map documents prior park/exclude decisions (Seneca, book list,
+Mastery, Undercover Economist, AI and ML Red/pptx, howtobuildyourcareerinAI,
+HowAIcanbenefit..., NewCodeofEstimating, 2606.12428v1) rather than making new ones.
+
+### Missing Data Needed From Chris
+None for this build. Two sources remain flagged from prior sessions as JS-blocked
+scrapes with only frontmatter descriptions usable (`Census Bureau's 2023 Annual
+Business Survey...md`, `Large Firms With at Least 20 Employees Biggest AI Users.md`) —
+carried into the new map's Reopen triggers, not resolved here.
+
+### Recommended Next Action
+None urgent. The map is a lookup tool, not a task — next raw-file drop gets a row here
+per the Raw Intake Protocol before any extraction happens.
 
 ## 2026-07-13 — Template-library navigation repair
 
@@ -666,3 +752,141 @@ four lines above it). No content pages added or removed.
 - Keep the toolkit dormant until an audit or workflow observation reaches a
   specific stuck decision. Then use the smallest applicable technique and ship
   a decision record plus a bounded test, not a brainstorming transcript.
+
+## 2026-07-28 — Advisor-Builder operating alignment
+
+### What changed
+
+- Added a company-building route to the wiki index: observe, quantify, recommend,
+  implement only when justified, measure, maintain, and harvest reusable proof.
+- Reframed the service ladder and pricing pages as hypothesis/reference material,
+  not an active rate card or permission to sell unvalidated scope.
+- Mapped the fulfillment system directly to the current Advisor-Builder delivery
+  loop and made “diagnosis with no build” an explicit successful outcome.
+- Reordered the technology and skill references around a math-first value path:
+  Python, validated files/data, SQLite/SQL, analysis/reporting, tests and
+  documentation, APIs/integration, interfaces, then governed AI components.
+- Removed stale dated activation wording from the scenario start page. School,
+  CASTLE, CURRENT_STRATEGY, and NOW continue to control timing.
+
+### Evidence and limits
+
+- The BUSINESS raw-source map remains complete; this pass required no new
+  ingestion and did not modify immutable raw evidence.
+- Market price ranges, conversion rates, long-horizon scenarios, and tool choices
+  remain unvalidated hypotheses until supported by field observation and delivery
+  records.
+
+### Recommended next action
+
+- When the active school schedule permits, use one accessible, non-sensitive
+  workflow or dataset to produce the first complete proof packet: baseline,
+  validated inputs, quantified loss, concise recommendation, confidence level,
+  and one bounded next test.
+
+## 2026-09-06 — Opportunity Landscape research route activated
+
+### What changed
+
+- Expanded `market-map.md` from an SMB AI-integration demand map into the owner
+  of the top-down opportunity comparison while preserving its construction and
+  real-estate evidence as incumbent candidate material.
+- Added the economy → business function → workflow → value leak → buyer → vehicle
+  frame, an eight-field Opportunity Cell packet, separate absolute-ceiling and
+  probability-adjusted rankings, a four-run September pilot, and a visible
+  unranked frontier.
+- Added a LANDSCAPE operation and a strategic-opportunity route to the BUSINESS
+  operations and index. Broad research uses SYSTEMS patterns selectively; only
+  validated top candidates reach CASTLE.
+
+### Evidence and limits
+
+- This is an approved research design, not market, demand, or revenue proof.
+- Construction remains the lived-evidence benchmark but receives no protected
+  ranking. Supply chain and professional workflows are explicitly in scope.
+- Unattended research remains read-only in `.ROOT`; a recurring skill or schedule
+  is locked until three supervised runs pass the named qualification cases.
+
+### Recommended next action
+
+- Run the first supervised economy screen and return 10–15 sectors with current
+  source support, economic rationale, confidence, and stated rejection reasons.
+
+## 2026-09-06 — Opportunity Landscape Run 1 sector screen completed for review
+
+### What changed
+
+- Screened 13 broad sectors using current BEA, BLS, Census, CMS, and BTS primary
+  sources and separated verified economic anchors from workflow hypotheses.
+- Produced independent preliminary frontiers for absolute ceiling and Chris's
+  probability-adjusted path. Construction remains the fit benchmark; healthcare,
+  manufacturing, freight/wholesale networks, finance, and infrastructure remain
+  live ceiling comparators.
+- Identified the Run 2 unit of work: 15–20 buyer-specific workflow cells across
+  procurement/inventory, scheduling, field operations, billing, claims and
+  compliance, document/data flow, asset reliability, and forecasting.
+
+### Evidence and limits
+
+- Sector scale is not a market-size estimate, willingness-to-pay result, or
+  permission to build. Current AI adoption is used only as a readiness and
+  competition clue.
+- No narrow buyer, workflow baseline, or scalable vehicle is proven yet. The
+  page remains in review, and no independent challenger was available in this
+  session; Run 4 must include the adversarial comparison.
+
+### Recommended next action
+
+- At the September 13 gate, challenge only omissions and obvious fit errors.
+  Then run the workflow-level comparison without expanding Chris's review burden.
+
+## 2026-09-06 — Run 2 retrieval and date reconciliation
+
+### What changed
+
+- Replaced the ambiguous bare APQC wikilink in `index.md` with the explicit
+  cross-hub path to SYSTEMS.
+- Reconciled the Run 2 review date in the value and capability goal owners to
+  September 20; September 13 remains the Run 1 challenge gate.
+- Added CASTLE's three access-blocked tests to Run 2's entry-friction
+  instruction without treating an unrun test as demand or merit evidence.
+
+### Evidence and limits
+
+- No sector ranking, workflow hypothesis, market claim, strategy, or research
+  page changed.
+- Run 1 remains `status: review`; its September 13 challenge is still required.
+
+### Recommended next action
+
+- On September 13, challenge Run 1 omissions and obvious fit errors; then run
+  the 15–20-cell workflow comparison for the September 20 review.
+
+## 2026-09-06 — Historical method recovery and reusable-asset integrity repair
+
+### What changed
+
+- Recovered the last pre-deletion blob of
+  `ai-integration-company/first-workflow-observation-field-plan.md` from commit
+  `56d4a4d` into `99-ARCHIVE` with an archive manifest. The Git blob hashes
+  match exactly; the old access sequence was not restored as live guidance.
+- Corrected the two cross-owner method links in
+  `05-BUSINESS/01-Audit Templates/workflow-observation-question-sequence.md`
+  and added the field-notes master to `05-BUSINESS/TEMPLATE_INDEX.md`.
+- Renamed `05-BUSINESS/02-Field Notes/Symptom .md` to `symptom.md`; the content
+  hash is unchanged and no live inbound path required repair.
+- Added a dedicated `05-BUSINESS` asset lint and wired it into the canonical
+  health gate. Its temporary-fixture suite covers the clean path, cross-owner
+  bare links, leading-space frontmatter, dead relative links, and missing index
+  rows.
+
+### Evidence and limits
+
+- These are retrieval and integrity repairs. No business strategy, market
+  claim, asset maturity, or proof status changed.
+- Historical logs that name the former field-note basename remain unchanged.
+
+### Recommended next action
+
+- None. Let the new asset check run with the full health gate when that gate's
+  whole-vault scope is authorized.

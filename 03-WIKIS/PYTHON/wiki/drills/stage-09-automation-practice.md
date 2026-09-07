@@ -5,6 +5,7 @@ status: draft
 concepts: ["module", "package", "pip", "csv", "json", "automation-script"]
 difficulty: beginner
 solution_included: false
+timeline: reference
 ---
 
 # Drill: Modules, CSV, and JSON Practice

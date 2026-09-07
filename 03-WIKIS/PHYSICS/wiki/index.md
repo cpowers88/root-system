@@ -26,6 +26,10 @@ PHYS 2211 — Principles of Physics I, Kennesaw State University, Fall 2026.
 ## Core Maps
 
 - [[learning-path]] — staged study route
+- [[phys-2211-17-week-math-first-plan]] — exact daily readings and 17-week execution plan
+- [[semester-pathway]] — exact §54 dates, assessments, and one-week-ahead alignment
+- [[textbook-page-map]] — printed, global PDF, and split-file local page routing
+- [[pacing-trigger-map]] — when to read what: real semester dates + mastery/exam triggers
 - [[source-map]] — source roles and alignment
 - [[syllabus-coverage-ledger]] — all 19 syllabus pages routed to stages or governance
 - [[current-position]] — Chris baseline and active stage
@@ -33,6 +37,7 @@ PHYS 2211 — Principles of Physics I, Kennesaw State University, Fall 2026.
 - [[equation-map]] — equations, variables, units, assumptions
 - [[calculus-map]] — calculus connections inside physics
 - [[math-readiness-path]] — just-in-time algebra, trig, and calculus refresh route
+- [[physics-math-crash-course]] — full PHYS 2211 math review, worked bridges, checks, and scope filter
 - [[problem-type-map]] — problem recognition and solving patterns
 - [[units-and-dimensions]] — units, conversions, dimensional analysis
 - [[parking-lot]] — useful but parked material
@@ -46,12 +51,21 @@ PHYS 2211 — Principles of Physics I, Kennesaw State University, Fall 2026.
 packets exist, but [[learning-path]] now distinguishes source-verified packets,
 TOC-screened packets, known expansion gaps, and mastery evidence.
 
-**Next exact rep:** begin Stage 4 with projectile motion (independence of x/y
-motion); the real Ch 3 textbook problem set ([[drills/stage-3-textbook-problems]])
-runs alongside as a Stage 3 durability check. The supporting trig/calculus
-sequence is in [[math-readiness-path]].
+**Next exact rep (rewritten 2026-08-22).** ~~Read §§6.1–6.2, then
+[[drills/circular-motion-drill]] Problems 1–4 cold.~~ **Withdrawn — the drill is spent
+and the reading was prescribed against a diagnosis that has since been falsified.**
+Problems 1–2 became lesson material Aug 21; Problems 3–4 were run Aug 22. The
+remedial reading is not needed: Chris named gravity as the inward force on an orbiting
+satellite instantly. *(§§6.1–6.2 remains real syllabus reading for **Sep 18** — see
+[[phys-2211-17-week-math-first-plan]]. Only the read-it-now-to-repair framing is withdrawn.)*
 
-**Recall decks:** `02-LIBRARY\00-SCHOOL\02-Physics I\Flash Cards\Physics_All_Stages.apkg`
+**The live rep is one fresh problem:** a cold circular-motion setup Chris has not seen —
+banked curve, conical pendulum, or vertical-loop bottom — **with no reminder that the
+direction and the real force are wanted.** The number is not the test. The gate is
+whether the three-part answer arrives complete and unprompted; it has failed that twice,
+Aug 21 and Aug 22. Full evidence: `log.md` 2026-08-22 and [[current-position]].
+
+**Recall decks:** `04-SCHOOL\02-Physics I\Flash Cards\Physics_All_Stages.apkg`
 — one Anki package, `Physics` parent deck with a subdeck per stage (all 18,
 223 cards total, generated from this wiki's own `flashcards/` pages). Study only
 the subdeck for the active stage; see the Flash Cards folder's
@@ -59,18 +73,23 @@ the subdeck for the active stage; see the Flash Cards folder's
 
 ## Folders
 
-Live counts as of 2026-07-09 (all 18 stage packets generated in the July
+Live counts as of 2026-07-21 (all 18 stage packets generated in the July
 cruise-prep build; **generated ≠ studied** — actual progress lives in
 [[current-position]]):
 
 - `stages/` — 18 chapter/unit packets (all drafted)
-- `concepts/` — 58 physics concept pages
+- `concepts/` — 59 physics concept pages
 - `equations/` — 42 equation pages
-- `calculus-links/` — 7 calculus-in-physics bridge pages
+- `calculus-links/` — 9 calculus-in-physics bridge pages, each with a multi-problem practice set and a real-world engineering use case
 - `problem-types/` — 36 problem recognizers and solution patterns
-- `worked-examples/` — 19 approved worked examples
-- `drills/` — 35 independent study drills
-- `glossary/` — 46 vocabulary pages
+- `worked-examples/` — 19 approved worked examples, plus two pages that are **not**
+  hub-authored and are marked as such in-file: `2026-07-28-angled-launch-session-review.md`
+  and [[worked-examples/projectile-first-principles-example|projectile-first-principles-example]]
+  (Chris's Gemini-assisted derivation of projectile motion straight from `d²y/dt² = −g`,
+  relocated here from the vault root 2026-08-19 — result verified, prose not rewritten
+  to this hub's standards)
+- `drills/` — 36 independent study drills
+- `glossary/` — 48 vocabulary pages
 - `flashcards/` — 18 flashcard decks
 - `diagrams/` — none yet
 - `common-errors/` — 18 beginner-trap pages (one per stage)

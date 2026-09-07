@@ -1,6 +1,7 @@
 ---
 type: flashcards
-tags: [next, physics]
+tags: [physics]
+timeline: next
 ---
 
 # Flashcards — Stage 4: Motion in Two Dimensions (Ch 4)

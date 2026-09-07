@@ -3,7 +3,8 @@ domain: technology
 type: reference
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, subject/instrumentation, subject/machine-learning, subject/predictive-maintenance]
+tags: [subject/instrumentation, subject/machine-learning, subject/predictive-maintenance]
+source_role: primary
 ---
 
 # AI-Assisted Sensing and Prognostic Instrumentation

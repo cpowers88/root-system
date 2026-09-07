@@ -1,6 +1,7 @@
 ---
 type: flashcards
-tags: [now, physics]
+tags: [physics]
+timeline: now
 ---
 
 # Flashcards — Stage 1: Physics and Measurement (Ch 1)

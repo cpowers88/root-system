@@ -1,6 +1,7 @@
 ---
 type: flashcards
-tags: [now, physics]
+tags: [physics]
+timeline: now
 ---
 
 # Flashcards — Stage 3: Vectors (Ch 3)

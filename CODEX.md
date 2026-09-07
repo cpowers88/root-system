@@ -1,6 +1,8 @@
 ---
 type: pointer
 timeline: reference
+status: live
+register: ai-loader
 tags: [governance, codex]
 ---
 

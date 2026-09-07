@@ -4,6 +4,7 @@ stage: 06
 status: draft
 concepts: ["file-path", "open-read-write-close", "exception", "try-except", "function"]
 solution_included: false
+timeline: reference
 ---
 
 # Mini-Project: Simple Note-Saver

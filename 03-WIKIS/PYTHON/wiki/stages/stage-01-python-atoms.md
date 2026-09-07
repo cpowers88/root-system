@@ -1,8 +1,8 @@
 ---
 type: stage
+timeline: reference
 stage_number: 01
-status: ready
-priority: current
+status: satisfied
 source_spine: "Think Python Ch.1-2 (+ input() pulled forward from Ch.5)"
 support_sources: ["Automate the Boring Stuff Ch.1", "Python Crash Course Ch.2", "Python Workout Ch.2-3", "Invent Your Own Computer Games Ch.1-2, 4"]
 ---
@@ -11,9 +11,9 @@ support_sources: ["Automate the Boring Stuff Ch.1", "Python Crash Course Ch.2", 
 
 ## At a Glance
 - **Core claim:** every later stage (decisions, loops, functions, data structures) is built entirely out of values, variables, strings, numbers, `print()`/`input()`, and type conversion — this is the load-bearing stage.
-- **When to use it:** this is Chris's current active study stage (per `wiki/current-position.md`) — open this page to see what to read, practice, and drill next.
-- **Decision/action it supports:** whether to move to Stage 2 — gated by the Mastery Checklist below, not by content existing.
-- **Key risk:** treating a generated packet as mastery. Stages 2-10 already have full packets built but are NOT yet studied — don't skip ahead because the content exists.
+- **When to use it:** Stage 1 is satisfied; return here only when a cold attempt exposes a specific foundation gap.
+- **Decision/action it supports:** use [[current-position]] to find the live stage and next proof.
+- **Key risk:** rereading completed material instead of testing the current frontier.
 
 ## Purpose
 
@@ -45,12 +45,18 @@ Stage 0 (create/run a `.py` file in VS Code and terminal) — already met.
 - [[glossary/concatenation]]
 - [[glossary/integer]]
 - [[glossary/float]]
-- glossary/type-conversion
+- [[glossary/type-conversion]]
 - [[glossary/comment]]
--  glossary/print
+- [[glossary/print]]
 - [[glossary/input]]
 
 Full flashcard batch: [[flashcards/stage-01-python-atoms]]
+
+## Code-Reading Gate
+
+Before writing, cold-read a straight-through snippet: label each input, value type,
+assignment, calculation, and output. Predict the final values and printed result,
+then write only an input-process-output skeleton before filling in expressions.
 
 ## Required Code Patterns
 

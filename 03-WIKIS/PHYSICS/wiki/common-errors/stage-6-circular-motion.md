@@ -1,6 +1,7 @@
 ---
 type: common-errors
-tags: [later, physics]
+tags: [physics]
+timeline: later
 ---
 
 # Common Errors — Stage 6: Circular Motion and Other Applications of Newton's Laws (Ch 6)
@@ -18,3 +19,7 @@ tags: [later, physics]
 6. **Applying terminal velocity logic before it applies.** Terminal velocity (vt = √(2mg/bρA)) requires that drag equals weight — a steady-state condition reached only after extended fall time. Using it at the instant of release gives a wrong answer; drag grows from zero as speed increases.
 
 7. **Assuming the normal force equals mg in circular motion.** N = mg only in the absence of acceleration. On a banked curve or at the top/bottom of a loop, N ≠ mg because there is a centripetal (inward) net force requirement. Always write ΣF = ma toward the center.
+
+8. **Adding a fictitious force while solving from the ground frame.** F_fict = −ma_frame only belongs in the equation if you have chosen to analyze the problem from inside the accelerating frame itself. If you are the ground (inertial) observer — the default in this course — only real forces belong in ΣF = ma. See [[../concepts/accelerated-reference-frames]].
+
+9. **In an elevator apparent-weight problem, forgetting that true weight (mg) never changes.** Only the scale reading (normal force n) changes with the elevator's acceleration. n = m(g ± a), never mg ± a.

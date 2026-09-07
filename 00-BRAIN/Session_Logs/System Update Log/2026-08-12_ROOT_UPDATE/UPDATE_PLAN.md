@@ -1,0 +1,1306 @@
+---
+type: plan
+timeline: now
+status: active
+tags: [update, structure, instruction-layer, governance, plan]
+created: 2026-08-12
+session_date: 2026-08-12
+---
+
+# `.ROOT` Update — Live Plan
+
+> **This is the controlling plan for the current update. It is LIVE and evolves.**
+> If you are a fresh session picking this up: read this file before proposing any
+> update work. Do not re-derive the plan from conversation — extend this file.
+> **Every completed item gets marked here in the same session it is completed**,
+> because council finding C1 is that this vault detects correctly and then fails to
+> propagate. A plan that lags reality is the defect, not the record.
+
+> **Companion — read after this file:** `claude_report_2026-08-12_friday_readiness.md`
+> (this folder). It carries the root cause of the repeated stalls, four corrections to
+> this plan measured live on 2026-08-12 evening, the one-day execution sequence for
+> Thursday Aug 13, and the proposed pass/fail definition of the Friday Aug 14 morning test.
+
+## ⚠ Status reconciliation — 2026-08-16 (read this first)
+
+**This file was overwritten and has been restored.** Commit `1c7bebc` ("morning",
+Aug 16 11:35) wrote a stale editor buffer over it, cutting **1,081 → 252 lines**.
+Deleted: the Aug 13 execution log, `### Chris's four rulings — new governance,
+recorded`, Phases **H · I · J · K** (including J-1…J-4 and K-1…K-3), the Codex
+tasking, and the corrected Phase B/C headers. The pre-clobber content was
+**restored from `1c7bebc~1` on 2026-08-16**; nothing is lost.
+
+Same save also clobbered `01-NORTH_STAR\Goals & Milestones\fall_2026_capacity_decision.md`
+(restored in the same pass). **Root cause: an editor buffer held open across days,
+saved over newer work.** This is council finding C1 — detection works, propagation
+fails — in its most expensive form yet, because it destroyed the record rather than
+merely lagging it.
+
+### Chris's 2026-08-16 annotations — preserved, with disposition
+
+He annotated the **old** Phase A table, which the restored version already carries
+in sharper form. His words, and where each now lives:
+
+| Chris wrote | Disposition |
+|---|---|
+| `tmp\` — *"awaiting Chris, DELETE"* | ✅ matches Phase A's `RULED 2026-08-12: DELETE`. Blocked only by the `deny` rule — **Chris deletes it himself** |
+| `outputs\` — *"save these two folers if you think it is right"* | ✅ confirms `RULED 2026-08-12: KEEP, move into 02-LIBRARY`. Keep `outputs\` **and** its build input `tmp\spreadsheets\` |
+| `...projectSuccess\` — *"kill folder name and make it real"* | ✅ executed in `1d3fadd` — `WATCHTOWER.md` + `radar.md` now live at `01-NORTH_STAR\`, folder retired |
+| `claude_and_chris_direction.md` — *"to do, I moved it"* | ✅ confirms Phase A's `ALREADY DONE by Chris`. Live at `01-NORTH_STAR\claude_and_chris_direction.md` |
+| Phase B — *"CODEX filed this"* | ⚠ superseded: Phase B was **corrected on 2026-08-12 evening** and is no longer a blocker. `WEEKLY_AUGUST3-9.md` exists (`7b95c12`) |
+
+### Closed since Aug 13 — reconciled from live commits
+
+| Item | State | Evidence |
+|---|---|---|
+| T1 — propagate corrections into this file | ✅ DONE | `1b75803` |
+| T3 — flag #94, seven teaching methods inlined into `HAT_EDUCATOR` | ✅ DONE, **flag closed** | `8ed12c1` |
+| T4 — flag #99, `sync_shared_skills.py` mirrors dirs + fails on absent refs | ✅ DONE, **flag closed** | `cf2656c` |
+| T5 — archive rotation, nine DAILY files + `AGENT.md` monthly-close clause | ✅ DONE | `aad0787` |
+| T6 — restore test (Phase G) | ✅ DONE, **backup proven**, 8/8 hashes | `3987d50` |
+| T8 — `EDUCATION\wiki\courses\tcom-2010\` built, six pages | ✅ DONE | `5eb62da` |
+| T7 — Phase A execution: Watchtower repointed, `tmp\` quarantined, 22 refs | ⚠ **content done**; 3 empty folder shells await Chris | `1d3fadd` |
+| T2 — Phase D slice: `SYSTEM_FLAGS.md` split into register + detail | ✅ DONE — always-load 6,923 → 5,803 | `6c212c0` |
+| Teaching layer rebuilt; seven hats to one integration standard | ✅ DONE | `63b80b4`, `5c40cc2` |
+| `77-INBOX` routed to owners | ✅ DONE | `a322763` |
+
+**Phase header corrections that follow from the above** — the section text below is
+restored as written on Aug 12–13 and is *not* rewritten here, per constraint 7:
+
+- **Phase B** — not a blocker; corrected 2026-08-12 evening. One item still needs
+  Chris: whether `MONTHLY_JULY_2026.md` authorizes rotating the seven Jul 20–26
+  DAILYs. `AGENT.md` gained that clause on Aug 13, so this is now **closable**.
+- **Phase D** — its **T2 slice is DONE** (`6c212c0`). The header still reads
+  "NEEDS CHRIS'S AUTHORIZATION" because the **wider `AGENT.md` slim was
+  deliberately deferred** to its own pass with counter-example review. Authorization
+  is still open for *that*, not for T2.
+- **Phase G** — restore test DONE. Still carried: PowerShell classifier (flag #96),
+  the `S4U` elevated run, flag #97's five re-clips.
+
+### Open going into Aug 24
+
+| # | Item | Owner | Check moment |
+|---|---|---|---|
+| 1 | Delete `tmp\`, `outputs\`-shell, `...projectSuccess\` (empty; `deny` blocks AI) | **Chris** | before Aug 24 |
+| 2 | Phase E — ratify the `work\` bays; run one real file through one | **Chris** | Aug 22 rehearsal |
+| 3 | Flag #57 — email PHYS §54 + ENGR BWD instructors | **Chris** | **Aug 17** |
+| 4 | Drive link — replace with a scoped link, not a re-sync | **Chris** | rule Aug 17, execute by Aug 24 |
+| 5 | `S4U` backup residual — one elevated run | **Chris** | before Aug 24 |
+| 6 | Phase D wider `AGENT.md` slim | Chris authorizes | post-semester |
+
+---
+
+## Where this stands
+
+### Goal correction — Chris, 2026-08-13
+
+The release gate is broader than T2 and broader than Friday's technical pass. **Do not move
+forward on `OK TO START` until the live Markdown estate is justified and `.ROOT` has an
+operational, optimized version ready for testing.** The next couple of days serve that goal;
+the completed `OK TO START` statement is assembled next week with the remaining readiness
+evidence.
+
+The justification population is **1,544 Markdown files outside `88-JOURNAL\` and every
+`raw\` folder**: root 9 · `00-BRAIN` 293 · `01-NORTH_STAR` 17 · `02-LIBRARY` 83 ·
+`03-WIKIS` 1,087 · `04-SCHOOL` 23 · `05-BUSINESS` 32. Raw evidence remains immutable and
+private journal content remains outside the review.
+
+Every file earns its place through five fields:
+
+1. **Owner** — which realm/file class is authoritative for it.
+2. **Function** — instruction, current state, evidence synthesis, learning asset, build
+   artifact, business research, template, or history.
+3. **Lifecycle** — always-load, conditional-load, active, maintained reference, generated,
+   or historical/archive-bound.
+4. **Retrieval path** — the live index, map, operating file, skill, hat, or direct trigger
+   that makes it discoverable when needed.
+5. **Semester/business disposition** — semester-critical now; preserve and AI-maintain
+   during semester; defer; consolidate/propose archive; or exception requiring Chris.
+
+This is a full-coverage ownership audit, not an equal-depth reread of 1,544 files. Deep
+semantic review is required for always-load/current-state/semester-critical files and for
+exceptions. Business research receives preservation, ownership, retrieval, recency, and
+duplication checks now; broad content expansion or manual re-review is deferred unless it
+changes a current strategy or semester decision. This protects accumulated business value
+without letting it consume the pre-semester runway.
+
+**Readiness order:** define the file-class register and exception test → justify the
+always-load/root/`00-BRAIN` control layer → justify semester-critical school and learner
+paths → verify wiki/library/business ownership and retrieval by class → execute bounded T2
+when its dependencies are satisfied → run technical gates and fresh-session/TCOM/CSE/PHYS
+tests → assemble the completed `OK TO START` statement next week.
+
+Chris paused `.ROOT` on 2026-08-12 and directed the runway (now → Aug 24) at four
+things in his own order: `.ROOT` into good operating and upgrading order, his own
+comfort with the folder structure and how work moves through it, calculus review,
+and TCOM structure. **This plan covers the first two.** Sequencing authority is
+Chris's; AI proposes optimal pathways and does not re-order silently.
+
+The update's optimization target was named on 2026-08-10 and has not changed:
+**pathways, not names.** How much an agent must read and how work moves—not what folders
+are called. The Markdown-justification gate extends that principle to every file class.
+
+## Thursday 2026-08-13 — execution log
+
+**T1 ✅ DONE (morning).** `NOW.md` refreshed to Thursday and `MORNING_BRIEF.md` regenerated.
+The corrections that mattered, propagated:
+
+- The August 12 cockpit closed with *"no weekly review exists for August 3–9, so five DAILY
+  files sit past their archive step."* **False when written** — `WEEKLY_AUGUST3-9.md` was
+  filed Aug 12 at 15:31 (`7b95c12`) and the Aug 6–9 DAILYs rotated the same day. This is
+  council finding C1 appearing in the cockpit that warns about C1, one day after it appeared
+  in this plan. Corrected; what actually remains is T5.
+- Flag #99, the safe word, and the finding freeze were all absent from `NOW.md` and are now in it.
+- **Always-load re-measured this morning: 7,138 words** — `AGENT.md` 2,826 · `SYSTEM_FLAGS.md`
+  **2,275 (32%)** · `CHRIS_CORE.md` 893 · `NORTH_STAR.md` 582 · profile `CLAUDE.md` 459 ·
+  root pointer 103. Up from 7,031 at last night's close and 6,859 the evening before.
+  **The growth term remains `SYSTEM_FLAGS.md` and it grew again overnight.** Correction 4
+  from the readiness report is now closed at the Thursday-morning reading; re-measure again
+  at Phase D close.
+- **Gates re-run live this morning:** `validate_boot_chain.py` PASS (31 files, 1,352 pages);
+  `root_health.py` PASS WITH DEBT exit 0 (blockers 0, review debt 4, 1,528 files, 0 findings).
+  `root_health.py` still prints **"PASS: shared skill mirrors"**, which is the flag #99 false
+  PASS — recorded here so Thursday's T4 has a before-state to compare against.
+
+**T3 ✅ DONE (morning) — flag #94 closed.** The seven methods are inlined into
+`HAT_EDUCATOR.md`; `HAT_EDUCATOR_PLAYBOOKS.md` now states where they went rather than
+holding a second copy, so the two cannot drift apart. The J-4 recommendation landed with it:
+the encoding/retrieval model and the retrieval-matched-to-required-use table are in the hat,
+which is what tells a session *when* each of the seven fires. **That model had never once
+loaded during teaching** — it existed since 2026-07-12 and no hat referenced it. All five
+subject hats now carry the pointer. K-1's pace tension is resolved in-file by naming the two
+passes (breadth sweep vs. depth pass), with One Concept at a Time scoped to the second;
+flagged in-file as pending Chris's confirmation of the wording. Cost to always-load: **0** —
+the whole change is in the conditional hat layer, and removing #94's row from
+`SYSTEM_FLAGS.md` actually reduced it.
+
+**T4 ✅ DONE (morning) — flag #99 closed.** `sync_shared_skills.py` now mirrors whole skill
+directories and, more importantly, **checks references**. Directory mirroring on its own
+would have moved the defect rather than closed it: it fixes today's missing file and leaves
+the validator still unable to see the next one. Measured in order, on the real defect:
+`--check` **FAIL exit 1** naming both mirrors' absent `SKILL-MECHANICS.md` → `--sync` copied
+it **plus `agents\openai.yaml`, a second missing file the flag never recorded** → `--check`
+**PASS exit 0** → `root_health.py` exit 0 with "PASS: shared skill mirrors" now earned.
+**Friday gate check 6's inverted clause is satisfied:** a deliberate broken link produced
+FAIL exit 1, and it failed at the canonical stage, so a dead link cannot reach a mirror at
+all. Break reverted, tree clean.
+
+**C-3 is now visible instead of invisible.** `_staged\handoff\` prints a WARNING on every
+run naming its three dispositions. Deliberately non-fatal — it needs Chris's ruling, and a
+gate should not fail over an unanswered question. **This is the flag #99 lesson applied to
+itself:** the original defect was a check that stayed silent about something real.
+
+**T5 ✅ DONE (morning) — Phase B closed.** Nine DAILY files rotated to `Report Archive\` with
+`git mv`, explicitly named, no glob and no loop — nothing derived at runtime, so this was
+never the Aug 10 shape. `Session_Logs\` now holds only the current open week (Aug 10–12) plus
+the template, which is exactly what the rule allows.
+
+- `DAILY_2026-08-02` — its weekly was on file; archivable all along.
+- `DAILY_2026-07-20` … `DAILY_2026-07-26` — rotated on **Chris's ruling** that
+  `MONTHLY_JULY_2026.md` is the authorizing close. No weekly was backfilled.
+- **`DAILY_2026-07-16` disposition, resolved by reading both files rather than moving blind:**
+  it is **not a duplicate.** The loose file is a *post-archive continuation* — it says so in
+  its own header — recording four Codex/Claude blocks performed after the archive boundary
+  (GitHub repo salvage, folder icons, inbox routing). The archived file is the earlier
+  full-day record. Different work, both real. Archived as
+  `ARCHIVED_2026-08-13_DAILY_2026-07-16_continuation.md` so the name states what it is and
+  cannot collide with the existing archive entry. **Nothing deleted, nothing overwritten.**
+- **`AGENT.md` clause added** (Chris's decision 2): a week closed at monthly level rotates on
+  the monthly's authority. This is the gap that kept seven files loose for three weeks —
+  lesson 5, *a rule's trigger is part of the rule*, in its second confirmed instance.
+- **Naming inconsistency noticed and left alone:** the July batch stamped `ARCHIVED_` with the
+  DAILY's own date, the Aug 12 batch with the rotation date. I followed the recent convention.
+  Renaming historical archive entries would be rewriting the record (constraint 7). **Filed.**
+
+Gates after: boot chain PASS (31 files, 1,352 pages); `root_health.py` exit 0. Live Markdown
+went 1,530 → 1,521 files, which is the nine rotations reconciling exactly.
+
+**T6 ✅ DONE (morning) — the backup is now proven by recovery, not by assertion.** Phase G's
+first item closes. Restored from **both** the mirror (`D:\BACKUPS\.ROOT`) and one snapshot
+(`snapshots\2026-08-12_1426`, `.snapshot_complete` marker present) into a scratchpad temp dir
+— never into the vault.
+
+| Class | Files | Result |
+|---|---|---|
+| Governance / scripts / current-position | 6 | **6/6 SHA-256 MATCH** from mirror and snapshot |
+| Irreplaceable `raw\` PDFs (8.99 MB, 3.77 MB) | 2 | **MATCH** from mirror and snapshot, byte-exact |
+| `AGENT.md` — deliberate negative control | 1 | **DIFFERS**, correctly |
+
+**The negative control is the part that makes this a test rather than a ritual.** `AGENT.md`
+*should* differ: the backup ran Aug 12 14:27, before the safe word was added that evening and
+before today's archive clause. A diff confirms the only differences are exactly those two
+edits — 18 lines, all accounted for. Had everything matched, the comparison would have been
+proving nothing. **Verdict: the backup restores, and it is a faithful point-in-time copy.**
+
+**⚠ NEW, loss-bearing, and not previously recorded — surfaced by this test.** Reconciling what
+each copy holds exposes a gap none of the backup work covered:
+
+| Copy | Holds through | Missing |
+|---|---|---|
+| `D:\BACKUPS\.ROOT` | Aug 12 **14:27** | the whole Aug 12 evening governance session + today |
+| GitHub `origin/main` | **`3f78fa4`**, Aug 12 midday | **12 commits** |
+| `G:\My Drive\...` | Aug 9 | everything since |
+
+**The local branch is 12 commits ahead of `origin/main`.** The council rulings, the safe word,
+the finding freeze, the Phase D proposal, and today's two flag closures exist on **one physical
+disk** — partially on D: as files, but the git history itself only on C:. This is the same
+defect class as flag #98 (a backup believed to cover work it did not), arriving from the other
+direction: the backup is healthy, the *coverage window* is the hole. Daily-at-12:30 means every
+evening session is unprotected until the next run, and pushing is the only thing that closes it.
+**Needs Chris — pushing is an outward action and is his call, not an AI's.** Recommended today.
+
+**T8 ✅ DONE (morning) — Friday's third structure exists.** Six pages built at
+`EDUCATION\wiki\courses\tcom-2010\` on the proven ECON shape — `concepts\` ×2,
+`common-errors\`, `glossary\`, `flashcards\`, `drills\` — beside the existing
+`semester-map.md`. **Inside `EDUCATION`, not a new top-level hub**, per ruling J-2; no
+third structural pattern invented, which was the explicit instruction.
+
+Content is grounded in the real exact-section syllabus and `HAT_TCOM.md`, not generated
+around the subject: the naming pattern, the single email-channel exception, the real
+attendance penalty, and the flag #57 warning that the printed schedule dates are recycled
+Spring dates. The two gaps the semester map found — Report Group Charter and Reflective
+Memo, neither of which ships a template — now surface in the concept and flashcard pages
+**before** the week they are due. The drill is generative retrieval matched to the required
+performance, which for TCOM means producing a document for a named reader.
+
+`index.md` and the hub `log.md` were updated **in the same pass**: navigation debt went
+4 → 16 on the raw additions and back to **4** once indexed. Council finding C1 says this
+vault detects and then fails to propagate — so the propagation happened before the commit,
+not after. **Friday's test can now run all three structures as Chris described.**
+
+**T7 ⚠ MOSTLY DONE (morning) — content complete, three empty folder shells await Chris.**
+
+- **`tmp\` — quarantined, not deleted.** Chris changed the Aug 12 DELETE ruling when the
+  test surfaced that `tmp\` is excluded from **both** GitHub and the D: backup, so a delete
+  was genuinely one-way with no copy anywhere. Now at
+  `D:\BACKUPS\quarantine\2026-08-13\tmp\` — **260 files, 29 MB**, same treatment
+  `.tmp.driveupload` got on Aug 12. Reversible; delete the quarantine whenever.
+- **Build input preserved as ruled:** `tmp\spreadsheets\real_world_dataset_map\build.mjs`
+  travelled with the artifact to
+  `02-LIBRARY\real_world_dataset_opportunity_map_2026-07-16\build_input_spreadsheets\`.
+  **Reconciliation is exact: 260 quarantined + 1 preserved = 261 original files.**
+- **`outputs\` → `02-LIBRARY\`** and **`WATCHTOWER.md` + `radar.md` → `01-NORTH_STAR\`**, both
+  by `git mv` so history follows.
+- **22 live references repaired across 14 files** — `AGENT.md`, `START_HERE.md`,
+  `ROOT_OPERATING_MANUAL.md`, `vault_map.md`, `WHERE_IT_GOES.md`, `NORTH_STAR.md`,
+  `CURRENT_STRATEGY.md`, `ROOT_CAPABILITY_CONTRACT.md`, `HAT_OPERATOR_PLAYBOOKS.md`, CASTLE
+  `source-map`/`north-star-roadmap`, TECHNOLOGY `OPERATIONS`/`HOW_TO_USE`, the AIAS
+  system-evolution page, and `WATCHTOWER.md`'s own subtitle. **Session_Logs, Report Archive
+  and Closed Flags were deliberately left alone** — constraint 7, a log saying
+  `...projectSuccess` was true when written.
+- **`COLOR_MAP.yaml`:** the Watchtower keeps its blue-violet **as two file entries** rather
+  than dissolving into North Star amber — it is a different job (eyes, not hands) and the
+  colour was Chris's own July 8 choice. `.vs` added to `excluded_from_graph`; the now-stale
+  `tmp` exclusion removed. `outputs` needed no entry — it lives inside `02-LIBRARY`, which
+  already has a colour. Graph rebuilt: 17 groups written.
+- **Caught before it shipped:** the first `vault_map.md` edit replaced a tree parent and left
+  its two children orphaned under nothing. Verified by reading the result rather than trusting
+  the edit. Fixed — the two files now sit under `01-NORTH_STAR` where they actually are.
+
+**⏳ NEEDS CHRIS — three empty folder shells remain on disk:** `tmp\` (0 files),
+`outputs\` and `...projectSuccess\` (one `desktop.ini` each, folder-icon config). Removal was
+**declined three times** by the permission layer, correctly — every phrasing was a recursive
+force-delete inside the vault, which is the exact shape of the Aug 10 incident. **I stopped
+attempting it rather than hunting for a phrasing that would pass**, which would have been
+working around a control rather than respecting it. All content is already moved and verified;
+what is left is empty scaffolding. `build_graph_colors.py`'s drift check now names all three,
+so it will keep flagging them until they are gone — a useful independent detector.
+
+**T2 ✅ DONE (afternoon) — Phase D executed. All eight Thursday items are now complete.**
+
+Executed to **Codex's narrowed contract**, not the original proposal, after an independent
+review caught that the proposal had gone stale in the hours before execution.
+
+| | Before | After |
+|---|---|---|
+| `SYSTEM_FLAGS.md` | 1,976 w | **802 w** |
+| Always-load (real boot chain) | 6,923 w | **5,803 w** (−1,120, **−16%**) |
+| `SYSTEM_FLAGS_DETAIL.md` (not loaded) | — | 1,629 w |
+
+**Shape:** the slim register carries the PAUSE + freeze state, § The Rule, **the live
+prohibitions in full imperative form**, and a six-row index (number, subject, severity,
+owner, next action/check moment). `SYSTEM_FLAGS_DETAIL.md` takes the measurement histories,
+the wrong-probe corrections, and the provenance disputes.
+
+**Two corrections applied from Codex's review, both real:**
+
+1. **"Three live prohibitions" was stale** — #94 closed that morning. Only **#97 and #96**
+   are open prohibitions. #94's *rule* survives as the third entry because it is the
+   guardrail on this exact change, but **it is not open state.** Verified: `#94` does not
+   appear in the open index.
+2. **The wider `AGENT.md` / profile / `CHRIS_CORE.md` slimming was NOT executed** — out of
+   scope, needs its own counter-example review. Only the two load-rule lines were touched.
+   **This is why the result is 5,803 and not the ~4,700 target:** that target assumed the
+   `AGENT.md` cut Chris deferred. 5,803 is the correct outcome for the narrowed scope.
+
+**The J-1 load-rule contradiction is closed in the same pass**, as the dependency required:
+`AGENT.md` step 3 now says the slim register loads **always**; File Safety 7 now points
+system/file-write/review work at `SYSTEM_FLAGS_DETAIL.md` **in addition**, with the explicit
+line *"never act on a constraint recalled from the detail file alone."* All three statements
+now agree.
+
+**Done beyond the contract, and it matters:** `SYSTEM_FLAGS_DETAIL.md` was added to
+`BOOT_FILES`. It is not loaded — that is the point of the split — but it is governance
+carrying many live paths, and File Safety 7 now points at it. Without this, a dangling
+reference inside it would never be caught. Boot chain now scans **32** files, PASS.
+
+**Acceptance gate — 9 of 10 verified, 1 deferred by rule:**
+
+| # | Check | Result |
+|---|---|---|
+| 1 | Every open flag in slim resolves to detail | **PASS** — 6/6 both ways |
+| 2 | #97 and #96 imperatives in the slim file itself, not behind a link | **PASS** — matched verbatim |
+| 3 | Closed #94 does not reappear as open state | **PASS** |
+| 4 | `validate_boot_chain.py`, no dangling reference | **PASS**, 32 files |
+| 5 | `root_health.py` exit 0, reported honestly | **PASS WITH DEBT, exit 0** — debt still the pre-existing 4 |
+| 6 | Skill mirrors + both whitespace checks green | **PASS** |
+| 7 | Always-load re-measured from the real chain, method recorded | **PASS** — 5,803; six files, whitespace-split word count, `BOOT_FILES` deliberately not used |
+| 8 | Fresh session states pause/freeze/#97/#96 without opening detail | **DEFERRED — Friday's gate.** `AGENT.md` File Safety 10: editing an instruction file does not change the running session, so this session **cannot** honestly perform it. Structural precondition verified (check 2); the behavioural half is Friday's |
+| 9 | Plan, `NOW.md`, DAILY agree T2 is complete | **PASS** — all updated this session |
+| 10 | Named check moment | **PASS** — Friday gate + next monthly review, recorded in the slim file's footer |
+
+**Filed under the freeze, not worked — three items:**
+
+1. **The bulk-work gate produced a fourth read-only false positive.** A `for` loop reading
+   five hat files with `head` was blocked as bulk work. Same class as the three from Aug 12
+   (word count, two `find -exec` inventories). It reads nothing but files it was going to
+   read anyway, and the redirect it offers cannot run on Windows. **This is the freeze's own
+   first test and it is Claude's own finding, so it stays filed.** Proposed fix, for after
+   Friday: classify on write intent, allowing read-only verbs (`wc`, `ls`, `grep`, `head`,
+   `find` without `-exec`/`-delete`) through regardless of command shape. `.claude\` is tool
+   configuration and needs Chris's approval either way.
+2. **Two dangling hub pointers, FIXED in passing rather than filed** — `HAT_PYTHON.md` and
+   `HAT_PHYSICS.md` both sent every learning session to their hub's `CLAUDE.md` for the
+   teaching protocol; those loader files were removed 2026-08-10. Repointed to
+   `OPERATIONS.md`. Recorded as an exception to the freeze because it is a two-word stale
+   reference inside the file already being edited, in the same defect class as the flag being
+   closed — a teaching instruction that does not load. Noted rather than buried.
+3. **`validate_boot_chain.py` did not catch (2).** A stale governance reference in the hat
+   layer survived a PASS. Whether the boot chain's 31-file scope should include `hats\` is a
+   real question and it is **filed, not answered.**
+
+## Thursday 2026-08-13 **afternoon** — council + Window A execution
+
+**Chris commissioned a council review** (update-in-process, whole folder system, business/tech
+protection through the semester) and **supplied the live `.ROOT` Google Calendar**, which had
+never been read by any session. Report:
+**`COUNCIL_SEMESTER_READINESS_2026-08-13.md`** (this folder).
+
+### ⏰ The calendar moved the deadline — this is the session's most important output
+
+`NOW.md` said the `OK TO START` statement "comes next week." **The calendar shows next week is
+already booked for something requiring the release to have happened**:
+
+| Date | Chris's own event label | Hours |
+|---|---|---|
+| Sun **Aug 16** | **"This needs to be LAUNCH THE UPDATE into prep week"** | 10h00 |
+| Mon–Fri **Aug 17–21** | **"Do first week of class work with `.ROOT`"** | **37h30** |
+
+**The build window is ~32 hours and closes Sunday Aug 16 at 20:00.** Aug 17–21 is a rehearsal
+week that *uses* the system. **`NOW.md` § Fixed and Dated is wrong on two counts:** "Aug 22
+dress rehearsal" is actually *syllabi hunt + last-min prep*, and the real rehearsal is the
+preceding week. **Not yet propagated to `NOW.md` — needs Chris's confirmation of the Aug 16
+date first.**
+
+### Chris's four rulings — new governance, recorded
+
+| # | Ruling |
+|---|---|
+| **R1** | **Release gate bounded by file class.** Deep review for always-load / current-state / semester-critical only. **Supersedes "1,544 files × five fields"** in § Goal correction above |
+| **R2** | **Income is NOT a survival condition.** The Aug 11 ruling stands; floor goes to compounding capability |
+| **R3** | **Output bay = `work\` inside each course folder.** Phase E closed, Decision 5 closed, four days early |
+| **R4** | Campus laptop: Windows wipe already done, setup in flight. Not blocked |
+
+### Executed this afternoon
+
+- **✅ Phase E CLOSED (R3).** `work\README.md` created in all five Fall course folders —
+  `01-CSE-Python`, `02-Physics I`, `03-TCOM`, `04-ECON`, `05-ENGR`. Each names what lands there
+  and carries its course's academic-integrity boundary. `99-EDG` deliberately skipped (not a
+  Fall 2026 course).
+- **✅ R2 reconciled — 3 of 4 files corrected, 1 deliberately left alone.**
+  `REVENUE_LAB\README.md`, `HOW_TO_USE.md`, and `wiki\revenue-lane-scan-brief.md`
+  (`timeline: now`, ACTIVE) carry dated correction banners. **`wiki\log.md` was NOT touched** —
+  `type: log`, append-only, dated 2026-07-14. **Constraint 7: a log was true when written.**
+  Correcting live documents and preserving the historical record is the distinction.
+- **✅ NEW: `04-SCHOOL\SEMESTER_MAP.md`** — all five courses, one page, real Fall dates with a
+  🟢/🟡/🔴 confidence mark per item, plus an eight-item D2L ingestion list. This is the
+  instrument the Aug 17–21 rehearsal week actually runs on.
+- **✅ NEW: `00-BRAIN\CAMPUS_LAPTOP_BUILD.md`** — laptop build spec with four questions for Codex.
+
+### Findings from building the semester map — all FILED under the freeze
+
+1. **🔴 CSE 1321 exams require Respondus LockDown Browser, webcam, microphone and internet**
+   (`CSE 1321 BF syllabus:84`). 10 quizzes + 3 exams through D2L; **he does not attend class on
+   exam dates.** This appeared in **no** `.ROOT` file before today and is a hard machine
+   requirement. **Highest-consequence untested item on the laptop** — a LockDown failure at exam
+   time is a zero. *Not raised as HIGH because it is not yet a defect; it becomes one if
+   untested by Aug 24.*
+2. **TCOM's entire printed schedule uses recycled Spring dates** — "due Friday, January 16th",
+   "Tuesday, January 20th", "Tuesday, January 27th" in a Fall syllabus. The **relative** week
+   structure is sound and has been converted to real dates in `SEMESTER_MAP.md`. Flag #57's
+   recycled-date warning is now confirmed with specifics, in a second course.
+3. **CSE 1321's own calendar carries two anomalies**: a week-1 item dated *"Dec. 07"*, and
+   week 15 reading *"May 4th, 2026, Last Day of Classes."*
+4. **ECON 1000 has no dates anywhere in its syllabus** — all quiz/exam windows live on D2L only.
+   Grading is unusual and worth knowing: **only the two highest quiz scores count** (25% each).
+5. **`SYLLABUS_STATUS.md` is stale on ENGR sources.** It names only the Summer W01 reference,
+   but `ENGR 1000 Section 05 (81217) Introduction to Engineering.md` is also on disk. Section 05
+   is not BWD so flag #57 stays open, but the index should say the file exists.
+6. **Bulk-work gate: fifth read-only false positive.** A `for` loop running `grep` over three
+   named syllabi was blocked. Same class as the four already filed. Used the `Grep` tool
+   instead — which was the better tool anyway. **Still filed, not fixed.**
+
+### Late afternoon — teaching layer rebuilt; Codex review dispositioned
+
+All seven teaching hats rewritten to an integration standard (triggers inline, no content
+twice); `HAT_PHYSICS_MATH.md` created and routed; memory toolbox built from Chris's four inbox
+articles at `EDUCATION\wiki\methods\memory-techniques.md`; delivery contract added to
+`HAT_EDUCATOR` from the measured aptitude model. **All five Codex wording findings
+dispositioned** — full record, measurements, and the two places this went past Codex's
+sequencing: **`claude_report_2026-08-13_teaching_layer_rebuild.md`** (this folder). Rehearsal
+plan and six-point rubric adopted from Codex unchanged. Gates green after every write;
+always-load unchanged at 5,803.
+
+### Council findings filed, not worked
+
+`UPDATE_PLAN.md` itself is **985 lines / ~11,000 words and growing daily** — the same unbounded
+append pattern Phase D was created to fix in `SYSTEM_FLAGS.md`. *Proposal: at update close,
+split it into a live phase register plus an execution-history file.* Also filed: `.PROJECTS` is
+a gitignored vendored venv (**Decision 6 is cosmetic, not structural**); `CASTLE\wiki\
+current-position.md` is 25 days stale, past its own stated reconciliation date; the protected
+5–10 h/week technology floor is contradicted by a calendar that provides **1h30**.
+
+## ✅ FREEZE LIFTED — 2026-08-17, on Chris's `OK TO START`
+
+**The pause and the finding freeze are both over.** New findings are worked on their normal
+priority (🔴 in session, 🟠 weekly, 🟢 monthly), not filed here. **This file is now the
+update's historical record, not a live queue.**
+
+Closed on the way out, 2026-08-17: **N4** (CASTLE current-position contradiction — learner
+rows only; full monthly reconciliation moved to Aug 23), **N5** (`77-INBOX` cleared to zero;
+the finding's "unrouted syllabus" premise was itself wrong — see `DAILY_2026-08-17.md`), and
+**N6** (`NOW.md` 5,341 → 662 words, pause-era edition archived whole — **the proposal's
+≤600 target was missed by 62 words**, recorded rather than rounded).
+
+**Still open and now back on normal cadence:** N7, N8 (🟢) · S6, S7 (🟠) · S8, S9, S11 (🟢) ·
+**S10** — Codex's seven proposed scripts, recommendation still *hold until after Aug 24*,
+Chris's call. Plus the semester-map findings, of which the **CSE 1321 Respondus LockDown
+Browser requirement** is the one with a deadline (Aug 19 laptop work).
+
+*The original freeze declaration is retained below as the record of why it existed.*
+
+## ❄ FINDING FREEZE — operative 2026-08-13, declared by Chris 2026-08-12 evening — **LIFTED 2026-08-17**
+
+**New findings are FILED to this plan. They are not worked.** Applies to every surface —
+Claude, Codex, any session — for the duration of the Thursday push and until Friday's gate
+passes.
+
+**Why:** the report's §8 risk register rates *"Thursday finds new defects and expands"* as
+**HIGH, and names it the actual failure mode** that ended the three previous attempts at this
+update. This vault's assurance loop is self-feeding: verification produces findings, findings
+produce flags, flags produce load, load slows every session. **Thursday is a scoped delivery,
+not a discovery pass.**
+
+| | |
+|---|---|
+| **Still interrupts** | A **🔴 HIGH** flag. `SYSTEM_FLAGS.md` § The Rule is unchanged and is not weakened by this freeze |
+| **Filed, not worked** | Everything else — 🟠 MEDIUM, 🟢 LOW, structural observations, tempting cleanups, "while I'm in here" fixes |
+| **Ends** | When Friday's gate passes. The **broader** freeze on system work then runs until the learner frontier moves — that one is Chris's call, at the gate |
+
+**First test of whether this is real:** the bulk-work gate produced **three read-only false
+positives** in the 2026-08-12 session (a `for` loop counting words, two `find -exec`
+inventories). The report recommends opening a flag for it (§5, item 7). **Under this freeze
+that is filed, not fixed — including because it is Claude's own finding.** A freeze whose
+first act is to exempt the author's own finding is not a freeze.
+
+**It binds Codex too.** See § Codex tasking below.
+
+## Constraints that govern every item below
+
+1. **`.ROOT` is PAUSED** until Chris types `OK TO START`. Scope: the PAUSED block in
+   `NOW.md`. Chris-directed system work continues; that is the point of the pause.
+2. **Fixed dates are exempt from the pause:** Aug 17 flag #57 syllabus escalation,
+   Aug 22 rehearsal, **Aug 24 classes**, HP Victus wipe (unscheduled, needs a full session).
+3. **File Safety 12** — bulk or scripted work requires **both** copy-first and
+   `00-BRAIN\scripts\safe_shell.sh`. Run it via
+   `wsl -e bash -lc "cd /mnt/c/Users/chris/.ROOT && 00-BRAIN/scripts/safe_shell.sh ..."`.
+   Run `--selftest` first; it must PASS all three probes before bulk work.
+4. **The `PreToolUse` gate covers `Bash` and NOT `PowerShell`** (flag #96). The
+   2026-08-10 incident that caused 2,713 corrupted files was a PowerShell script.
+   **Do not run bulk rewrites through PowerShell.** Chris denied two such commands
+   on Aug 12 and was right both times.
+5. **Never run an untested bulk-rewrite construct against the working tree.** Dry-run
+   against copies, verify, then apply. This is the rule Aug 10 broke.
+6. **Do not dedupe `raw\` on hash** (flag #97). Filenames are the only record of what
+   is missing. AI may not write under `raw\` at all (`NORTH_STAR.md` §3).
+7. **Historical records are not rewritten.** A log saying `00-school` was true when
+   written. Rewriting `Session_Logs\` or `99-ARCHIVE\` to match today falsifies the record.
+8. **Do not self-approve governance doctrine.** Frame, audit, implement and validate an
+   *approved* change; do not originate a high-impact doctrine Chris has not authorized.
+
+## The structural ruling already made (2026-08-12)
+
+Three nouns, and the one sentence Chris can hold:
+
+| | |
+|---|---|
+| `02-LIBRARY` | reference shelves and projects — what he consults and builds with |
+| `03-WIKIS` | **what the system learned** — AI-grown, messy by permission, he never files into it |
+| `04-SCHOOL` | **what he is graded on** |
+
+This is what makes background AI ingestion safe to run: it lands in `03-WIKIS`, which
+Chris does not navigate.
+
+---
+
+## DONE — 2026-08-12
+
+| # | Item | Commit |
+|---|---|---|
+| 1 | `.ROOT` PAUSED; scope in `NOW.md`, mirrored to `MORNING_BRIEF.md`, banner in `SYSTEM_FLAGS.md` | `8cab756` |
+| 2 | Backup built, guarded (3 negative-tested guards), scheduled, verified | `8cab756` |
+| 3 | Three stale documents corrected in the same session (`START_HERE`, `vault_map`, `LOCAL_MACHINE_MAP`) | `8cab756` |
+| 4 | Flag #97 opened; destructive repair blocked in writing at `WIKI_SHARED_LAYER.md` rule 1 | `8cab756` |
+| 5 | `.folder-icons` un-excluded + second pass for its 165 `desktop.ini` | `8cab756` |
+| 6 | **Level 0 structure:** `02-LIBRARY\00-school` → `04-SCHOOL`, 105 refs across 46 live files | `3f78fa4` |
+| 7 | `.tmp.driveupload` (1,403) + `.trash` quarantined to `D:\BACKUPS\quarantine\2026-08-12\` | `3f78fa4` |
+| 8 | Backup defects found by Codex review fixed; records reconciled to live state | `2a9caf5` |
+| 9 | **Council step 1:** `raw\` recovery list, nothing deleted | `d5b06ff` |
+
+**Verified state after 9:** boot chain PASS (31 files, 1,351 live pages); `root_health.py`
+PASS WITH DEBT exit 0 (4 pre-existing CASTLE items, 0 findings); scheduled backup
+`LastTaskResult 0`, snapshots 8/8 marked complete.
+
+---
+
+## REMAINING
+
+### Phase A — Level 0 leftovers (small, no dependencies)
+
+| Item | Ruling | Status |
+|---|---|---|
+| `tmp\` — 259 files / 29 MB PDF-extraction scratch | No overlap with the 5 lost sources (checked). Excluded from **both** GitHub and the D: backup | ✅ **RULED 2026-08-12: DELETE** |
+| `outputs\` — `real_world_dataset_opportunity_map_2026-07-16` (xlsx + 4 charts) | Closest thing in the vault to an executed analysis with a delivered artifact — the evidence class the company objective needs. **Keep its build input `tmp\spreadsheets\` with it**, exempt from the `tmp\` delete | ✅ **RULED 2026-08-12: KEEP, move into `02-LIBRARY`** |
+| `...projectSuccess\` — holds `radar.md`, `WATCHTOWER.md` | WATCHTOWER is a real `.ROOT` concept; `radar.md` belongs with it | ✅ **RULED 2026-08-12: keep both files → `01-NORTH_STAR\`, kill the folder** |
+| `EVENING_READING.md` | **STAYS at root** — generated dashboard, peer of `MORNING_BRIEF.md` | settled |
+| `needs_for_physics.md` | **STAYS** — live calculus–physics bridge scratch, Jul 30–Aug 23 sprint, destination already documented in `PHYSICS\wiki\calculus-links\` | settled |
+| ~~`claude_and_chris_direction.md` moves to `01-NORTH_STAR\`~~ | **⚠ STALE ENTRY — corrected 2026-08-12 evening.** Chris had already moved it. It is live at **`01-NORTH_STAR\claude_and_chris_direction.md`**; a second copy is a historical record in `System Update Log\2026-07-24_ROOT_ARCHITECTURE_UPDATE\` and stays there. **Phase F's "root, 31 KB" is stale for the same reason** | ✅ **ALREADY DONE by Chris** |
+| Graph drift: `.vs` and `outputs` uncolored/unexcluded | `outputs\` is now ruled — add both to `COLOR_MAP.yaml` after the move | **unblocked, to do Thursday** |
+
+### Phase B — The archive rotation (NO LONGER A BLOCKER — corrected 2026-08-12 evening)
+
+**⚠ CORRECTED. This section previously read "The Aug 3–9 weekly review does not exist"
+and named itself the blocker gating Phase C. That was already false when written.**
+`WEEKLY_AUGUST3-9.md` was filed 2026-08-12 at 15:31 (committed in `7b95c12`,
+`status: complete`, 978 words), and the Aug 6–9 DAILY files were rotated to
+`Report Archive\` the same day. The plan was last edited at 18:54 — over three hours
+after the blocker cleared — and still carried it. **This is council finding C1 occurring
+inside the plan that warns about C1.** Evidence and method:
+`claude_report_2026-08-12_friday_readiness.md` §2.2 and §3, in this folder.
+
+**Phase C is unblocked.** The loose-file count was also wrong: **34 loose files, 31 of
+them `.md`**, not 37.
+
+`AGENT.md:240` is correct and does not change. Three items remain, only one of which is work:
+
+| Item | State | Action |
+|---|---|---|
+| `DAILY_2026-08-02.md` | Its weekly (`WEEKLY_JULY27-AUGUST2.md`) is on file | **Archivable immediately** |
+| `DAILY_2026-07-20` … `DAILY_2026-07-26` (7 files) | **No `WEEKLY_JULY20-26` exists and none will** — that period closed at monthly level in `MONTHLY_JULY_2026.md`. The archive rule keys on a weekly that will never be written | **Needs Chris's ruling:** accept the monthly as the authorizing close, then rotate. Do not backfill a weekly for a closed month — that is writing history |
+| `DAILY_2026-07-16.md` | Loose file **and** `ARCHIVED_2026-07-16_DAILY_2026-07-16.md` both exist, with **different bodies** (940 vs 6,561 words) | Disposition before rotating — do not move blind |
+
+**Gap to record:** `AGENT.md:240` has no branch for a week closed at monthly level. One
+clause, not a rewrite.
+
+### Phase C — `00-BRAIN` structure (UNBLOCKED — B was never the blocker it claimed)
+
+Measured 2026-08-12:
+
+| | Files | KWords | |
+|---|---|---|---|
+| `Session_Logs\` | 202 | 361.3 | 77% of `00-BRAIN` — history, not governance |
+| `CASTLE\` | 71 | 79.4 | sequencing layer |
+| `hats\` | 13 | 7.7 | the ONLY conditional-load layer |
+| `skills\` | 17 | 3.6 | |
+| 19 loose `.md` | 19 | ~17.0 | **the actual instruction layer** |
+
+`Session_Logs` breakdown: `System Update Log` 87 · `Report Archive` 44 · loose reports
+32 · handoffs 19 · DAILY 17 · closed flags 3.
+
+**C-open ran 2026-08-12. Three findings:**
+
+- **C-1 → flag #99 (real, and worse than the council said).** `sync_shared_skills.py`
+  mirrors `SKILL.md` only, not skill directories. `writing-for-agents\SKILL.md` links
+  twice to `SKILL-MECHANICS.md`, which is **absent from both mirrors**. `--check` returns
+  PASS exit 0 over it, **and `--sync` — the documented remedy — does not fix it.**
+  `root_health.py:178` calls `--check`, so the health gate inherited the false PASS all
+  day. Fix: mirror whole directories, and fail when a `SKILL.md` references an absent file.
+- **C-2 (downgraded — do not inflate this).** Instruction files spell `00-BRAIN\SKILLS\`
+  and `HATS\` (7 refs each); the real folders are `skills` and `hats`. **Tested from WSL:
+  `/mnt/c` is case-INsensitive, both paths resolve.** So this is a documentation-vs-actual
+  inconsistency, **not** a live breakage. Worth tidying, not worth a flag.
+- **C-3 (residue).** `00-BRAIN\skills\_staged\handoff\` is **tracked** (2 files, dated
+  2026-08-10) and its `SKILL.md` **differs** from the live `handoff` skill. The sync
+  validator counts 6 canonical skills and never sees it — present in git, invisible to
+  validation. Needs disposition: promote, delete, or move out of the canonical tree.
+
+`hats\` inventory (12 files, 7.7K): the `HAT_*_PLAYBOOKS.md` trio is 2,540 words of the
+total, and `HAT_EDUCATOR_PLAYBOOKS.md` (618w) is the file at the centre of open flag #94.
+
+**Correction on record:** an earlier claim that "`00-BRAIN` is 467K words of governance
+outweighing coursework 10:1" was misleading. 77% is history and 17% is CASTLE. The
+instruction layer is ~17K words. **The problem is load, not mass.**
+
+### Phase D — The load pattern / instruction-layer cut (NEEDS CHRIS'S AUTHORIZATION)
+
+**⚠ CORRECTED 2026-08-12. An earlier figure in this file said ~15,327 words always-load.
+That was wrong** — it measured an assumed file list rather than the chain the system
+actually specifies. `BOOT_FILES` in `validate_boot_chain.py` is a **stale-reference
+checklist, not a load manifest** (it even annotates one entry "Conditionally loaded, not
+always-boot"). The Aug 10 figure of 6,773 was correct. Do not re-derive the larger number.
+
+**The real always-load is 6,803 words** (measured Aug 12 afternoon), per root `CLAUDE.md`
+and `AGENT.md` § Session Start Protocol. **Re-measured the same evening: 6,859** —
+`SYSTEM_FLAGS.md` gained **+106 words from flag #99 alone**, while the other five files
+measure −50 in aggregate as word-count tool variance. **The growth term is real and it is
+`SYSTEM_FLAGS.md`: 1,933 → 2,091 → 2,197 words in a single day, +13.7%.**
+
+| File | Words | Share |
+|---|---|---|
+| `00-BRAIN\AGENT.md` | 2,675 | 39% |
+| **`00-BRAIN\SYSTEM_FLAGS.md`** | **2,091** | **31%** |
+| `00-BRAIN\CHRIS_CORE.md` | 893 | 13% |
+| `01-NORTH_STAR\NORTH_STAR.md` | 582 | 9% |
+| `00-BRAIN\CLAUDE.md` (profile) | 459 | 7% |
+| root `CLAUDE.md` (pointer) | 103 | 1% |
+
+**NOT always-loaded, and correctly so:** `START_HERE.md` (1,338) and
+`ROOT_OPERATING_MANUAL.md` (3,107) both carry `register: human-context` and are Chris's
+documents; the manual's own subtitle says it "does not repeat the map or copy AI
+governance — it points to both." `WHERE_IT_GOES.md` (2,637), `NOW.md` (1,269) and
+`MORNING_BRIEF.md` (189) load situationally. **That separation already exists. There is no
+easy win there — it was already taken.**
+
+**So the instruction layer is near minimal, and the target changes.** `SYSTEM_FLAGS.md` is
+31% of every session's load **and is the only component that grows without bound.** It was
+1,933 words on the morning of Aug 12 and 2,091 by that afternoon — ~158 words added by
+that day's own flag #97 and #98 work. Every flag opened, updated or root-caused adds
+permanently to what every future session must read, and the growth is forensic narrative:
+flag #96's entry alone runs several hundred words of measurement history.
+
+**The Phase D question is therefore:** does the full flag register need to load every
+session, or does a session need the open-flag summary — what is open, how severe, what it
+forbids — plus a pointer to the forensics? Better ratio than cutting `AGENT.md`, and it
+does not touch the flag #94 hazard, because flag archaeology is not a method: nothing an
+agent needs in order to *act* would stop loading.
+
+**⚠ HAZARD — this was attempted once and caused an open flag.** The **July 11 slim
+pass** moved substance behind a conditional load and produced **flag #94** (teaching-hat
+methods that stopped loading when needed), still open. The governing rule, from the
+Aug 10 handoff:
+
+> **Situational procedures may move. Methods used every time may not.**
+
+So the cut is a per-section judgment against *"does an agent need this in EVERY session,
+or only in a specific situation?"* — **not** a word-count target. Seat 2's proposed
+"2,548 → ~1,000 words" is the wrong shape; it optimizes the number, not the load.
+
+**Proposed method (awaiting Chris's yes):** go section-by-section through the four
+files, tag each section keep / move-to-conditional / cut, and **bring Chris the table
+before anything moves.** Proposal, not fait accompli.
+
+### Phase E — The output bay (deadline Aug 24)
+
+`04-SCHOOL` fixed *buried*. It does **not** answer where a TCOM draft in progress lives
+versus the course material it came from. From Aug 24 Chris produces ~27 h/week of
+coursework — drafts, problem sets, lab reports, a technical report worth 35% of TCOM.
+
+Claude's recommendation on record: **output goes inside each course folder**, not a
+separate top-level folder — at 27 h/week he should not navigate between "my TCOM
+materials" and "my TCOM drafts." **Not yet ruled on by Chris.**
+
+Related calendar fact (Aug 9, from the Cowork session): **BUILD/PROJECTS time on the
+semester calendar is zero**, and 16 study blocks are unlabeled.
+
+### Phase F — The July 26 interview
+
+`claude_and_chris_direction.md` (root, 31 KB, `status: in-progress`) is an interview
+**already run on 2026-07-26 with Chris's Round One answers in it.** It sat unmined for
+17 days — C1 in its purest form.
+
+Decided 2026-08-12: **do not run a fresh interview.** Mine this one, then ask only what
+is genuinely unanswered. Chris's own words are better data than anything he would say
+today after being primed.
+
+His Round One Q1 answer, which already governs Phase E:
+
+> *"Right now I feel like there is a lot of just jumping into things and no structure, I
+> need to know all the requirements to do the school work. Do not just assume I will do
+> things on my own... you tell me the evening before what to read to be prepared... I
+> don't study without being told what to study, I will go tangent and read something
+> else completely."*
+
+`EVENING_READING.md` is the system already answering part of that.
+
+### Phase G — Carried, not scheduled
+
+- **Restore test.** The backup is built and verified but has **never been restored from**.
+  Codex: a backup is not proven until recovery is exercised. Restore a sample from both
+  mirror and one snapshot into a temp dir, compare hashes.
+- **PowerShell control gap** (flag #96) — needs a PowerShell-aware classifier before the
+  gate can be called platform-complete.
+- **Backup task residual** — `LogonType` is `Interactive` and dies with Chris's session.
+  `S4U` returned `Access is denied`; needs an elevated run:
+  `Set-ScheduledTask -TaskName "ROOT Daily Backup to D" -Principal (New-ScheduledTaskPrincipal -UserId "$env:USERNAME" -LogonType S4U -RunLevel Limited)`
+- **Flag #97 remainder** — 5 sources still need re-clipping; the clipper defect that
+  caused the loss is unfixed. Fix or retire the clipper before pointing it at anything.
+- **Council steps 3–8** — proof instrument, one ML rep on real data, goal rewording,
+  session-close hook (flag #93), `sync_shared_skills.py` fix, instruction-layer cut
+  (= Phase D). Step 1 ✅ and step 2 ✅ are done.
+
+### Phase H — The Friday Aug 14 morning gate (Chris's definition, ruled 2026-08-12)
+
+**Chris's words:** *"I was going to pass all the gates and take the TCOM, CSE, and PHYS
+wiki structures for a test run."*
+
+So the gate has two halves. The technical half is already understood. The second half is
+the real test, and **it has a gap that must be closed Thursday or the test cannot run as
+described.**
+
+**⚠ Measured 2026-08-12 evening: there is no TCOM wiki.** Two of the three named structures
+exist; the third does not.
+
+| Course | Wiki hub | State |
+|---|---|---|
+| **PHYS** | `03-WIKIS\PHYSICS\` | ✅ Full hub — `concepts`, `drills`, `equations`, `flashcards`, `glossary`, `common-errors`, `problem-types`, `calculus-links`, `diagrams`, `appendix`, `parked-advanced`, plus `raw\` and `templates\` |
+| **CSE** | `03-WIKIS\PYTHON\` | ✅ Full hub — `concepts`, `drills`, `code-patterns`, `errors`, `flashcards`, `glossary`, `mini-projects`, `source-summaries`, `parked-advanced`. Serves CSE 1321; the name is the only mismatch |
+| **TCOM** | **none** | ❌ **No hub exists.** Only `04-SCHOOL\03-TCOM\` (`Notes\`, `Textbook Doc Files\`) and `hats\HAT_TCOM.md` |
+
+TCOM 2010 carries a technical report worth **35% of the grade**. It is the course with the
+least structure and the highest single-assignment weight.
+
+**Thursday action:** build the TCOM hub on the proven PHYSICS/PYTHON pattern — do not
+invent a third shape. Then the Friday test runs all three as Chris described.
+
+**Gate checks (technical half):** `validate_boot_chain.py` PASS · `root_health.py` exit 0 ·
+`sync_shared_skills.py --check` **must FAIL** on a deliberately broken reference after the
+flag #99 fix. *A validator that still returns PASS there was moved, not fixed.*
+
+**Gate checks (structure half):** for each of PHYS, CSE, TCOM — can a session route a new
+source into the hub, retrieve a concept, and produce a drill, without Chris directing the
+filing? Full proposed check table: `claude_report_2026-08-12_friday_readiness.md` §6.
+
+### Phase I — The safe word (Chris-directed 2026-08-12)
+
+**Chris's words:** *"I need to be able to steer the ship when I need to, almost like we need
+a special safe word so you know it is time to just do whatever the task I am asking for is."*
+
+**The problem it solves:** this system's defaults — challenge once, propose before acting,
+bring the table first, name the material risk — are correct for governance work and are
+**exactly wrong when Chris has already decided and wants execution.** He currently has no
+way to say "the deliberation is finished" that the system recognizes as an instruction
+rather than as more conversation to weigh.
+
+**Proposed mechanism** — one clause in `AGENT.md`, Chris picks the word:
+
+> **Direct Execution.** When Chris opens an instruction with `<WORD>`, the agent executes
+> the task as stated. No proposal step, no alternatives, no challenge-once, no
+> restating the risk. Ask only if the instruction is genuinely ambiguous about *what to
+> do* — never about whether to do it.
+>
+> **Unchanged by the safe word, always:** File Safety (copy-first + wrapper for bulk),
+> `raw\` immutability, `88-JOURNAL` privacy, academic integrity, and destructive-action
+> confirmation. These are the hull, not the steering.
+
+✅ **DONE 2026-08-12. Chris chose `Richard F`.** Implemented in `AGENT.md` § Task Completion
+and Constructive Challenge as *"Direct Execution — the safe word."* Boot chain PASS after.
+
+**Note for the Phase D pass:** this added ~120 words to an always-loaded file. That is a
+deliberate, Chris-directed exception to the load-reduction target — **it buys back far more
+than it costs**, because every avoided round-trip of proposals and confirmations is a session
+Chris does not have to steer twice. Do not "optimize" it away.
+
+**File Safety 10 applies:** the safe word does not work in a session that was already running
+when the clause was written. It is live from the next fresh session onward.
+
+### Phase J — Three rulings from Chris's 2026-08-12 evening review
+
+#### J-1. The `SYSTEM_FLAGS.md` load-rule contradiction — Chris delegated the call
+
+Chris: *"first real call from me and I say do what you think is right to align them."*
+
+**Ruling made:** the ambiguity exists because the file currently does two jobs. Once Phase D
+splits it, the two jobs get two answers and all three lines agree:
+
+| Line | Today | After the split |
+|---|---|---|
+| `AGENT.md` L134 (Session Start step 3) | "Check `SYSTEM_FLAGS.md`" → always | **Stays "always"** — pointing at the slim file, which is prohibitions only |
+| `AGENT.md` L153 (File Safety 7) | "required context for system, file-write, and review sessions" → situational | **Re-points to `SYSTEM_FLAGS_DETAIL.md`** — the forensics, genuinely situational |
+| The file's own header | "Check at every session start" | **Stays** — true of the slim file |
+
+**Principle: always-load the prohibitions, situationally-load the forensics.** That is the
+same shape as the Phase D split itself, so the load rule and the file structure finally agree.
+
+**Sequencing note — this is a dependency, not a delay.** The alignment must land in the *same
+pass* as the split. Editing L153 to point at `SYSTEM_FLAGS_DETAIL.md` before that file exists
+creates a dangling reference in an always-loaded governance file, and
+`validate_boot_chain.py` would correctly fail it.
+
+#### J-2. Do TCOM and the other courses get their own wiki hubs? — **No, with one build**
+
+Chris's instinct — *"maybe the wikis are not even needed as the other courses should be
+easier to manage"* — **is right for ECON and ENGR, and wrong for TCOM.** Measured state:
+
+| Location | Contents |
+|---|---|
+| `EDUCATION\wiki\courses\econ-1000\` | **Real content** — drills, flashcards, glossary, reading-guides, semester-map (5 files) |
+| `EDUCATION\wiki\courses\tcom-2010\` | **One file** — `semester-map.md` |
+| `EDUCATION\wiki\methods\`, `references\`, `course-briefs\` | Meta-learning content — learning-how-to-learn, AI programs, Fall course briefs |
+| `EDUCATION\raw\` | 240 files — syllabi, Open-TC course resources, textbook docs |
+
+**The real finding: `EDUCATION` is doing two unrelated jobs** — it is a *meta-learning hub*
+(how Chris learns) **and** a *catch-all container* for courses that never got their own hub.
+That is why the structure feels arbitrary: PHYSICS and PYTHON got hubs, ECON and TCOM got
+subfolders inside a hub nominally about learning theory.
+
+**The decision rule, derived from `NORTH_STAR.md` §2 — not invented here:**
+
+> **A subject earns its own top-level hub when its knowledge outlives the course.**
+
+| Subject | Outlives the course? | Ruling |
+|---|---|---|
+| **PHYSICS**, **PYTHON** (CSE) | Yes — both are named in NORTH_STAR §2's permanent capability base and feed everything after | ✅ Own hubs, correct as-is |
+| **ECON 1000**, **ENGR 1000** | No — one-semester requirements; the knowledge is used for a grade and rarely again | ❌ **Stay in `EDUCATION\wiki\courses\`.** Chris is right |
+| **TCOM 2010** | **The course doesn't; the content does.** "Communication" is explicitly in NORTH_STAR §2's permanent capability base, and writing technical reports and proposals is a direct revenue skill for the company | ⚠️ **Build it out — but inside `EDUCATION`, not as a new hub** |
+
+**Why not three new hubs:** each top-level hub permanently adds an `OPERATIONS.md`, a
+`current-position.md`, `index`/`log`/`source-map`, session start/close minimums, `wiki_lint`
+scope, and health-gate scope. **Three new hubs for courses that end in December is permanent
+overhead bought for temporary work** — and the health gate already carries 4 review-debt
+items against 710 expected navigation links.
+
+**T8 is therefore re-scoped:** build `EDUCATION\wiki\courses\tcom-2010\` out on the proven
+PHYSICS/PYTHON pattern (concepts, drills, glossary, flashcards, common-errors, plus the
+existing semester-map). Same work, no new hub. **Friday's structure test then runs all three
+as Chris described** — PHYS, CSE, and TCOM.
+
+**Named promotion trigger (so this is a decision, not a deferral):** promote TCOM to its own
+top-level hub when the 35% technical report is delivered **and** it has produced reusable
+writing assets — report templates, document patterns — that a client project would reuse.
+**Structure follows evidence; do not build the hub speculatively.**
+
+#### J-0. Part 3 of the review packet — **ALL APPROVED by Chris 2026-08-12 evening**
+
+| # | Item | Ruling |
+|---|---|---|
+| 1 | `AGENT.md` moves (−742; routing tables, forensic history, single-circumstance procedures) | ✅ **APPROVED — do this move** |
+| 2 | `SYSTEM_FLAGS.md` split (−1,390) | ✅ **APPROVED** |
+| 3 | `CHRIS_CORE.md` Aptitude Interaction Map (−110) | ✅ **KEEP IT** — Chris: *"May as well keep it."* `CHRIS_CORE.md` is untouched at 892 words |
+| 4 | Defer Execution Discipline (517w) to its own dedicated pass | ✅ **YES** — Chris: *"we need to do this correctly."* **Do not touch it Thursday** |
+| 5 | Inline the seven teaching methods into `HAT_EDUCATOR.md` (flag #94) | ✅ **APPROVED — do it** |
+| 6 | The safe word | ✅ **`Richard F`** — implemented, see Phase I |
+
+**Revised always-load target: 6,883 → ~4,700 words (−32%)**, reflecting Chris's decision to
+keep the Aptitude Map and the ~120 words the safe word adds. **The target moved because Chris
+ruled, not because the measurement changed.** Both changes are correct: the Aptitude Map is
+person-contract, and the safe word buys back more time than it costs.
+
+#### J-3. Should some hats become skills? — **Yes: the three playbook files**
+
+Chris: *"should some become skills instead of hats, if that is more efficient."*
+
+Applying `AGENT.md`'s own Extension table — *"the same multi-step procedure repeats → skill"*
+— and its own definition, *"hats are cross-model modes, not roles"*:
+
+> **A hat is a stance — how to behave. A skill is a procedure — what steps to run.**
+
+By that line, **three files are procedures wearing hat filenames:**
+
+| File | Words | Why it is a skill |
+|---|---|---|
+| `HAT_ENGINEERING_PLAYBOOKS.md` | 981 | Its own header: *"Load only the procedure whose trigger fires"* |
+| `HAT_OPERATOR_PLAYBOOKS.md` | 908 | Per-procedure triggers, named explicitly |
+| `HAT_EDUCATOR_PLAYBOOKS.md` | 608 | Contains four procedures **literally labelled SKILL** |
+| **Total** | **2,497** | **33% of the entire hats layer** |
+
+**The payoff is not tidiness — it is flag #94's defect class, fixed structurally.** A skill's
+`description` field is a machine-read firing trigger the harness evaluates. A playbook's
+*"Load when running a teaching session"* is prose hoping an agent notices. **That is exactly
+the difference between the engineering/operator playbooks, which name a firing condition, and
+the educator playbook, which names a vibe.** Converting them replaces a judgment call with a
+mechanism — the same move that turned File Safety 12 from prose into the `PreToolUse` gate.
+
+**Stay hats** (all stance, not procedure): `HAT_EDUCATOR`, `HAT_OPERATOR`,
+`HAT_TECHNOLOGY_ENGINEER`, `HAT_SOFTWARE_ENGINEER`, and the five subject hats.
+
+**This does not replace the flag #94 fix — both, not either.** The seven teaching *methods*
+still inline back into `HAT_EDUCATOR.md` (T3), because methods used every teaching session may
+not move. The four *procedures* become skills.
+
+**Sequencing: decide now, execute after Friday.** Thursday is already ~7.5 hours, and
+**flag #99 means the skill mirror pipeline is currently broken** — `sync_shared_skills.py`
+copies `SKILL.md` only, not directories, and certifies the result PASS. Pushing 2,497 words of
+new skills through a pipe that silently drops files is how this vault creates its next flag.
+**Order: fix #99 (T4) → Friday gate → convert the playbooks.**
+
+#### J-4. The learning-styles question — **we already have it, and it is better than that**
+
+Chris asked (2026-08-12) whether the learning research he found could be implemented, and
+offered to re-find it. **He does not need to.** It is already captured and processed:
+
+- **`03-WIKIS\EDUCATION\wiki\methods\learning-how-to-learn-principles.md`** — created
+  2026-07-12, extracted from the Justin Sung *"Learn To Learn in 109 minutes"* transcript
+  (`EDUCATION\raw\`, 21,329 words, captured 2026-06-06, reviewed in five chunks).
+- It is a careful, source-critical extraction: it separates the usable framework from the
+  transcript's uncited neuroscience and program marketing, and says so explicitly.
+
+**On "learning styles" specifically — `.ROOT` already ruled, correctly, on 2026-07-12.**
+§1 of that file states: *"Do not lock Chris into a fixed visual/auditory/read-write/
+kinaesthetic identity."* **That matches the research** — modality-matching is one of the most
+thoroughly failed ideas in education science. **If what Chris found the other day is a
+VARK-style "you are a visual learner" framework, the honest answer is that it does not work,
+and his own vault got this right a month ago.**
+
+**What is real, and is not the same thing:** Chris's aptitude profile in `CHRIS_CORE.md` —
+3D Visualizer, Numerical Detective, Cue User, Visual Scanner — comes from an actual ability
+assessment. **Aptitudes are measured strengths; learning styles are self-reported identities.
+Using the first is evidence-based; using the second is not.**
+
+**The actual finding — and it is the answer to Chris's whole objective.** Three pieces of one
+learning system exist in this vault, and **none of them reference each other:**
+
+| Piece | Where | Job | Status |
+|---|---|---|---|
+| The **personal constraint** | `CHRIS_CORE.md` §3, *Make Arbitrary Knowledge Retrievable* | Cue-dependent associative memory: one precise meaning, apply immediately, anchor, retrieve later | ✅ Always loads |
+| The **tactics** | `HAT_EDUCATOR.md` — 7 methods | Skeleton First, One Concept at a Time, Term Anchoring, Explain-It-Back, Cold Checks, Physical Anchors, Short Corrections | ⚠️ **Half-loads — flag #94** |
+| The **model** | `learning-how-to-learn-principles.md` | Encoding vs retrieval; retrieval matched to intended use; higher-order integration; opportunistic retrieval; the beginner study loop | ❌ **No hat references it. It has never loaded in a teaching session** |
+
+**The hat has tactics with no model. The model has no route into a session. The person
+contract has the constraint but not the method.** This is council finding C1 — detection
+works, propagation fails — applied directly to Chris's own learning, which is the one place
+it costs the most.
+
+**Recommendation — fold this into the flag #94 fix (T3), not as separate work:**
+
+1. When the seven methods inline back into `HAT_EDUCATOR.md`, **carry the encoding/retrieval
+   distinction in with them.** It is the model that explains *when* each of the seven fires.
+2. **Bring in the retrieval-matched-to-use table** (§2 of the methods file) — *"recall a term →
+   flashcard; explain a concept → explain-back; solve a problem → fresh problem; communicate
+   professionally → draft for a real audience."* This is the single most directly usable thing
+   in the file and it maps cleanly onto TCOM, ECON, PHYS and CSE.
+3. **Add the pointer to all five subject hats**, which is the other half of flag #94's fix.
+4. **The Beginner Study Loop (§10) is a procedure, not a stance → it becomes a skill** in the
+   J-3 conversion. It is the clearest example in the vault of a hat-file paragraph that should
+   be an invocable skill.
+
+**Cost: ~0 always-load words** — all of it lives in the conditional hat layer.
+
+**Why this matters more than the rest of the update:** Chris's stated objective is speed of
+obtain → recall → learn → convert to skill. **The system already contains a validated answer
+to that and has never once loaded it during teaching.** Everything else in this update makes
+sessions faster. This one makes the learning stick.
+
+---
+
+### Phase K — Opened 2026-08-12 evening, for tomorrow. **Not decided tonight.**
+
+Three items Chris raised at session end. Recorded so they survive the window; **each needs a
+real conversation, not a same-night ruling.**
+
+#### K-1. Learning pace — breadth-first, depth on return
+
+Chris: *"it is better sometimes to push through the material and discuss while it is unknown
+then go back and work it, not stick to the same problem until a single problem is drilled and
+move on."*
+
+This is a **teaching-design directive, not a preference to note and forget.** It says: make a
+first pass for coverage and discussion while the material is still unfamiliar, then return for
+depth — rather than drilling each item to mastery before advancing.
+
+**⚠ It is in live tension with `HAT_EDUCATOR.md`'s "One Concept at a Time," and possibly with
+"Proof moves the stage immediately" (`AGENT.md` Execution Discipline 5).** Do not silently
+resolve that tension. **Resolve it explicitly during the T3 flag #94 fix**, because both the
+seven methods and this pace rule land in the same file in the same pass.
+
+Note the fit with J-4: the methods file already distinguishes *encoding* from *retrieval*.
+Chris is describing a **first-pass encoding sweep before retrieval practice**, which the model
+supports — the two are not actually in conflict once named that way. Confirm with Chris.
+
+#### K-2. A mutual calibration record — "if we are not grading each other, how are we improving"
+
+Chris wants a kept record of **what actually works between him and the AI, graded in both
+directions.** This does not exist. The nearest things are `SYSTEM_LEARNINGS.md` (system
+lessons, not interaction) and `CHRIS.md`'s monthly/quarterly calibration (one direction only).
+
+**Open question for tomorrow:** new file, or a section in an existing owner? Constraints that
+must hold — it has to be **cheap to append during a session**, must not become a third
+dashboard (Execution Discipline 3), and must not grow unbounded into the boot load, which is
+the exact defect Phase D is fixing. **A calibration record that repeats `SYSTEM_FLAGS.md`'s
+growth pattern would be a self-inflicted wound.**
+
+#### K-3. Templates — including an Obsidian capture template into `77-INBOX`
+
+Chris: *"I need to use them more to my advantage... we can build our own template for obsidian
+capture to go to INBOX."*
+
+**Direct connection to flag #97, which makes this more valuable than it looks.** The Obsidian
+clipper is *the defect that lost five sources* — it pre-fills the note name from whichever tab
+was active, then re-extracts the body at save time, so filename and content come from
+different pages. Flag #97's remaining action is *"fix or retire the clipper before pointing it
+at anything else."*
+
+**A purpose-built capture template routing to `77-INBOX` is a candidate replacement for the
+broken clipper, not merely a convenience.** Scope it that way tomorrow.
+
+Existing template infrastructure to reuse rather than reinvent: `03-WIKIS\PHYSICS\templates\`,
+`03-WIKIS\PYTHON\templates\`, `Session_Logs\DAILY_TEMPLATE.md`,
+`HANDOFF_TEMPLATE.md`, `WEEKLY_REVIEW_TEMPLATE.md`.
+
+---
+
+## Decisions — RULED BY CHRIS 2026-08-12 evening
+
+| # | Decision | Ruling |
+|---|---|---|
+| 1 | **Phase D instruction-layer cut** | ✅ **AUTHORIZED, proposal-first.** Bring the section-by-section keep / move-to-conditional / cut table to Chris **before anything moves**. The three live prohibitions stay in full imperative form. This is the guardrail that prevents a repeat of the July 11 pass that created flag #94 |
+| 2 | **July 20–26 DAILY archive** | ✅ **RULED: accept `MONTHLY_JULY_2026.md` as the authorizing close**, rotate the 7 files, and add one clause to `AGENT.md:240` covering weeks closed at monthly level. **Do not backfill a weekly for a closed month** — that is writing history (constraint 7) |
+| 3 | `tmp\`, `outputs\`, `...projectSuccess\`, `claude_and_chris_direction.md` | ✅ **ALL RULED** — see the Phase A table above |
+| 4 | **Friday gate definition** | ✅ **RULED by Chris:** pass all gates, **then take the TCOM, CSE and PHYS wiki structures for a test run.** See Phase H |
+| 5 | **Output bay shape** — inside each course folder, or separate? | **still open** — Phase E; hard deadline Aug 24, ruled by Aug 17 |
+| 6 | `.PROJECTS` — keep the dot, or renumber to `00-PROJECTS` | **still open** — Phase C |
+| 7 | Council decisions 1, 2, 4 in `COUNCIL_RECONCILED_VERDICT.md` | **still open** — council steps 3–8 |
+
+## New asks from Chris, 2026-08-12 evening
+
+| # | Ask | Where it lands |
+|---|---|---|
+| 1 | **"I would like to review the load `.md` files and wiki `.md` file hats"** | Review packet for Chris — the 6 always-load files and the 12 `hats\` files, summarized so he can rule rather than wade. **Feeds Phase D's proposal-first table** |
+| 2 | **A "safe word"** — a control phrase meaning *stop proposing, stop challenging, just execute the task as asked* | Governance addition; proposed wording in Phase I |
+| 3 | **Structured studying, research and teaching support** — while keeping his ability to "steer the ship" | The `hats\` review (ask 1) and flag #94 are the live edge of this. Phase E and CASTLE own the rest |
+
+## Codex tasking — 2026-08-13, runs parallel to Claude's Thursday push
+
+**Hard boundary — file collision is the main risk.** Claude is editing these Thursday.
+**Codex does not touch them:** `AGENT.md`, `SYSTEM_FLAGS.md`, `HAT_EDUCATOR.md`,
+`sync_shared_skills.py`, `COLOR_MAP.yaml`, `NOW.md`, `EDUCATION\wiki\courses\tcom-2010\`,
+`Session_Logs\` archive rotation, and the Phase A folders.
+
+**Also absolute:** no writes under any `raw\` (flag #97, `NORTH_STAR.md` §3) — **read-only
+inspection only, and do not dedupe on hash.** No `88-JOURNAL`. **The finding freeze above
+applies: file to this plan, do not fix.**
+
+### Priority 1 — Independently challenge the Phase D table *before* Claude executes it
+
+**`AGENT.md` Execution Discipline 6 arguably requires this.** *"Consequential work is reviewed
+independently — by a second model."* Phase D changes what **every future session** reads,
+which is the most consequential change in this update. The proposal is written and committed:
+`claude_review_packet_2026-08-12_load_and_hats.md`.
+
+**The question for Codex is not "is this tidy" — it is:** *for each row marked 🔵 MOVE, name
+the session in which an agent would need that text and not have it.* One real counter-example
+kills the row. **This is the July 11 failure mode (flag #94) and it is worth one model's full
+attention.** Time-box it; Claude executes Thursday either way, with Codex's objections applied.
+
+### Priority 2 — Wiki structural work (the material Chris asked about)
+
+| # | Task | Why Codex |
+|---|---|---|
+| **W1** | **The health gate's 4 review-debt items** (`root_health.py`: *blockers 0; review 4; expected 710*), described as pre-existing CASTLE navigation items. Identify each, propose the fix, do not apply | Bounded, structural, and it is the **only standing debt** in the gate. Closing it makes Friday's result clean rather than "PASS WITH DEBT" |
+| **W2** | **`WIKI_SHARED_LAYER.md` conformance across all 8 hubs.** Eight rules every hub is said to rely on — which hubs actually implement each? Produce a hub × rule matrix | **"Presence is not function"** is lesson 1. Nothing has ever verified that the shared layer is actually shared, and a claimed-but-absent rule is this vault's most repeated defect class |
+| **W3** | **`current-position.md` semantic freshness across every hub.** Does each still describe reality? | **`root_health.py` explicitly lists "semantic freshness and current project truth" as NOT evaluated by the gate.** This is a *known, declared* blind spot — the highest-value place for a second model to look, because no script covers it |
+| **W4** | **`EDUCATION`'s dual identity** (finding J-2): it is simultaneously a meta-learning hub and a catch-all course container. Propose the clean separation — **excluding `tcom-2010\`, which Claude is building Thursday** | Structural diagnosis is Codex's named strength, and this is the one hub whose shape was never deliberately decided |
+
+**W2 and W3 are the two highest-value items** — both target the gap between what the system
+claims and what is true, which is where every serious defect this month has lived.
+
+**Deliverable:** one reconciled report to `Session_Logs\`, findings filed into this plan by
+phase. **Not a conversation, and not applied fixes.**
+
+#### Codex Priority 2 filing — started 2026-08-12
+
+Report: `CODEX_PRIORITY_2_WIKI_MATERIAL_REVIEW.md` in this folder. Status:
+**in progress; findings only, no fixes applied.**
+
+- **W2:** only 3 of 8 hub `OPERATIONS.md` files explicitly declare their
+  dependency on `WIKI_SHARED_LAYER.md`. Session-start conformance is the largest
+  gap; BUSINESS alone names index + three newest log entries, and even it omits
+  the required one-sentence goal. Contract matrix filed in the report; recent
+  trace sampling remains.
+- **W3:** only EDUCATION, PHYSICS, and PYTHON have `current-position.md`.
+  Missing files are not automatically defects: SYSTEMS and TECHNOLOGY explicitly
+  name alternate owners. EDUCATION and PHYSICS are semantically stale; PYTHON's
+  Stage 4b frontier agrees with NOW. Alternate-owner freshness remains to verify.
+- **W1:** the 4 review-debt counts are two CASTLE weekly-plan pages, each counted
+  once as an exhaustive-index omission and once as an orphan. One later index
+  fix covering both pages should clear all four; no fix applied because CASTLE is
+  on the collision boundary.
+- **W4:** dual identity confirmed in EDUCATION's own contract: meta-learning and
+  education research share one hub/state tracker with ECON, TCOM, and ENGR course
+  support. Separation recommendation filed without touching Thursday's TCOM work.
+- **Hat launch-readiness review (2026-08-13):** filed in the same Codex report.
+  Verdict: structurally ready for controlled practice, not yet for unsupervised
+  trust. Friday-through-Sunday rehearsal gate covers fresh-session routing,
+  steering and pace changes, `Richard F`, ambiguous graded work, interruption
+  recovery, and correct state return. Five wording/pathway candidates are filed
+  as evidence targets only; no live hat edits were applied under the freeze.
+
+## Findings filed 2026-08-16 — structure + instruction-pathway review
+
+Chris asked for a folder-structure and AI-pathway review with 8 days to Aug 24. Read-only
+audit; both gates run live. Full report:
+**`Session_Logs\claude_report_2026-08-16_structure_and_pathways_review.md`**.
+**Filed under the freeze, not worked**, except where Chris rules otherwise today.
+
+**Measured green, and better than Aug 13:** boot chain PASS (32 files, 1,369 pages);
+`root_health.py` **PASS exit 0 with review debt 0** — the first full PASS on record, the four
+CASTLE items cleared by the Aug 16 index fix. Always-load re-measured at **5,803 words**,
+confirming T2's figure exactly. All eight `03-WIKIS` hubs conform to the archetype with zero
+retired loaders. All five Fall `work\` bays present. Working tree clean, **1 commit ahead of
+`origin/main`**.
+
+| # | Finding | Phase | Pri |
+|---|---|---|---|
+| **N3** | **No always-load file routes a course block to its hat.** Every subject hat states its own load chain in its header; nothing states *which hat to load*. Four mentions of `HATS\` across the always-load chain, **zero triggers**; `AGENT.md` § Session Start Protocol never reaches a hat. **This is flag #94's defect class** — lesson 5, *a rule's trigger is part of the rule*. Fires ~5×/day from Aug 24. Proposed fix: one ~90-word course→hat→hub→current-position table in `AGENT.md` (+1.5% always-load). **Recommended to land before today's rehearsal, since File Safety 10 means it cannot be tested in the session that writes it** | D / H | 🟠 |
+| **N1** | **`vault_map.md` is stale on the `04-SCHOOL` promotion.** Its verified-map tree still nests `04-SCHOOL` inside `02-LIBRARY`, and `04-SCHOOL` does not appear at root at all; header still reads "Last updated: July 29, 2026." The file *was* edited on Aug 13 for T7's Watchtower repoint — the school correction was not carried in the same pass. **C1, partial propagation.** Also stale in it: `scripts\` described as "7 as of July 15" (live: 21 + 2 subfolders) | A | 🟠 |
+| **N2** | **`START_HERE.md` contradicts itself on where school files live** — L33 and L76 place `04-SCHOOL` inside `02-LIBRARY`; L133 correctly puts it at root. Chris's own human entrance gives two answers on one page. Also lists `REF-…` where the live tree is `ref-<name>`. **N1+N2 are the two documents Chris's runway goal #2 ("comfort with the folder structure") is served by** | A | 🟠 |
+| **N4** | **`CASTLE\wiki\current-position.md` is 28 days stale and 15 days past its own stated reconciliation date** ("Next monthly reconciliation: August 1, 2026"). Records Python at **Stage 3**; learner truth and `NOW.md` say **Stage 4b**. `NOW.md` names it the owner of "sequence and proof status", so the cockpit points at a file that contradicts the cockpit. Codex filed the staleness (W3); **the contradiction is new** | W3 | 🟠 |
+| **N5** | **Unrouted `ENGR 1000 Section BD (81208)` syllabus sits in `77-INBOX`** (captured Aug 14) — one day before the flag #57 escalation email. `SEMESTER_MAP.md` already found `SYLLABUS_STATUS.md` omits the §05 file, so **two** ENGR reference syllabi are on disk that the source index does not name, going into tomorrow's email. Seven more inbox items from Aug 13 are past their weekly clear | — | 🟠 |
+| **N6** | **`NOW.md` is 3,377 words** — larger than `AGENT.md`, carrying the whole update history. Correct *for the pause*, wrong for a semester: Execution Discipline 3 ("one visible lane") is not met by a four-screen cockpit. Proposal: at `OK TO START`, cut the update narrative to one link and hold ≤600 words | — | 🟠 |
+| **N8** | **Hub shared-layer conformance is 4 of 8.** `AI_AUTOMATION_SYSTEMS`, `BUSINESS`, `PHYSICS`, `REVENUE_LAB` do not name `WIKI_SHARED_LAYER.md` in `OPERATIONS.md`. **PHYSICS is the one that matters.** (Codex measured 3/8 Aug 13; EDUCATION since fixed) | W2 | 🟢 |
+| **N7** | **CASTLE still carries `CLAUDE.md`/`AGENTS.md`/`CODEX.md` loaders.** Not a rule violation — the 2026-08-10 removal names `03-WIKIS` hubs and CASTLE is in `00-BRAIN` — but it is the last place two entry conventions coexist | C | 🟢 |
+
+**Verdict:** the structure is ready; the routing into it is not. N3 is worth more than the
+rest of this table combined, and is the only item recommended for execution before the
+Aug 17–21 test week.
+
+**Gap in that review, found on verification:** it did not examine the Drive copy. A
+structure review that does not ask *which copy of this structure Chris opens on campus*
+is incomplete — see ruling 3 below for what was measured.
+
+### ✅ Chris's rulings — 2026-08-16
+
+| # | Decision | Ruling | State |
+|---|---|---|---|
+| **1** | N3 — course→hat routing table in `AGENT.md` | ✅ **APPROVED, in `AGENT.md`** | **DONE** — `## Session Start Protocol` § Course → hat routing. Carries trigger, order, proof and stop condition. Always-load 5,803 → ~5,960 (+2.7%) |
+| **2** | Phase E — output bay shape (was decision 2, hard deadline Aug 24) | ✅ **RATIFIED AS BUILT** — `work\` inside each course folder | Bays already exist in all five courses with READMEs. **Closes Phase E.** Confirm by routing one real file at the Aug 22 dress rehearsal |
+| **3** | The Drive link (dated ruling, Aug 17) | ⚠️ **SUPERSEDED same day — see ruling 5** | first ruling was "scoped link"; Chris changed it after the D: measurements below |
+| **4** | The D: backup — Chris proposed removing it | ✅ **LEAVE IT RUNNING.** Review in one week | *Chris, 2026-08-16: "leave it alone I made some manual deletions we will let it run for a week and review it."* **`check_at: 2026-08-23`** — owner Chris, at the Sunday review. `S4U` deliberately NOT applied; revisit at the same review |
+| **5** | Campus↔home link | ✅ **LINK GOOGLE DRIVE DIRECTLY TO `C:\Users\chris\.ROOT`** | Supersedes ruling 3. Chris chose this with the three consequences stated and reaffirmed |
+
+**Ruling 3 — what was measured 2026-08-16, since the record was 4 days old:**
+
+`G:\My Drive\desktop_folder_maybe\.ROOT` — folder stamp **Aug 9 08:32**, newest real
+content file **Aug 8 21:08**. 16,091 files, 3.77 GB. **`04-SCHOOL` absent;
+`02-LIBRARY\00-school` present** — it is the pre-restructure tree. `88-JOURNAL\` present.
+`.git\` present.
+
+Three problems, not one: **(a)** it is 8 days behind and does not contain the Aug 16
+restore; **(b)** opening `.ROOT` from it on campus yields the *old* folder structure,
+against everything the update just built; **(c)** private journal content and full git
+history are sitting in Google Drive.
+
+**Tested for the clobber vector and cleared:** the Drive copy of
+`fall_2026_capacity_decision.md` is the Aug 7 version (640 lines, carries `~52 hr/week`);
+the Aug 16 clobber reverted to a 444-line state older than that. **Drive did not cause
+it** — the editor-buffer diagnosis stands.
+
+### The D: backup — measured 2026-08-16, correcting the record twice
+
+**It is not broken and it is not misconfigured.** Two-part design, both halves current:
+
+| | Path | Files | Size | Newest |
+|---|---|---|---|---|
+| Mirror | `D:\BACKUPS\.ROOT` | 5,655 | 3.55 GB | Aug 16 12:31 |
+| Snapshots | `D:\BACKUPS\snapshots\` | 20,673 | 14.21 GB | `2026-08-16_1230` |
+
+Task `ROOT Daily Backup to D`: **State Ready, LastRun Aug 16 12:30, LastTaskResult 0**,
+NextRun Aug 17 12:30. Robocopy log: 478 files, **0 failed**.
+
+- **Correction 1:** the belief that it writes only to `snapshots\` is wrong — `.ROOT\` is
+  the mirror, `snapshots\` is point-in-time. Both by design.
+- **Correction 2:** `D:\BACKUPS\.ROOT` is **not** linked to Google Drive. `G:\Other computers`
+  contains only "USB and External Devices"; no `.ROOT` node exists there.
+- **Residual now measured, not predicted:** snapshots exist for 08-12, 08-13, 08-14, 08-16
+  — **no 08-15.** The `Interactive` LogonType skipped the day Chris was not signed in at
+  12:30. Left in place by ruling 4.
+- **Why it must not be deleted casually:** the mirror carries `88-JOURNAL`, `.git`,
+  `99-ARCHIVE`, all 9 `raw\` folders and **351 PDFs** — none of which are in GitHub,
+  because `.gitignore` excludes exactly those. For that material the D: snapshots are the
+  **only** recovery path.
+
+### Ruling 5 — consequences stated and accepted
+
+Chris chose the direct `C:\Users\chris\.ROOT` link after these three were put to him:
+
+1. **`88-JOURNAL\` goes to Google's servers.** Drive for desktop has no per-subfolder
+   exclusion. *(`AGENT.md` File Safety 8 governs AI access, not Chris's own storage —
+   there is no rule conflict here.)*
+2. **A live `.git\` will be synced**, which risks pack/index corruption on concurrent
+   writes. **Mitigation on record: GitHub is the authoritative git copy** — a corrupted
+   local `.git` is recoverable by re-clone, so this is an annoyance, not a loss event.
+3. **A sync is a mirror, not a backup** — it propagates a mistake in seconds. The D:
+   snapshots remain the point-in-time layer, which is a further reason ruling 4 keeps
+   them running.
+
+**Blocking cleanup, Chris only:** the stale `G:\My Drive\desktop_folder_maybe\.ROOT`
+(16,091 files, 3.77 GB, Aug 9, **pre-restructure tree**) must be removed *before* the new
+link is added, or Drive will hold two `.ROOT` trees with different folder structures. AI
+cannot delete it — `deny` in `.claude\settings.json`.
+
+## Lessons that must not be relearned
+
+1. **Presence is not function.** Hit five times this week: the inert sandbox, the dead
+   backup, a validator passing over a broken reference, a scheduled task registering
+   "Ready" then failing, and a task reporting `LastTaskResult 0` over work that never ran.
+   **Verify by running, never by reading.**
+2. **Detection works; propagation fails** (council C1). Correct the live documents in the
+   *same session* as the finding.
+3. **Two checks, not one.** On `raw\`, hashing and filename-comparison each missed part of
+   the loss. Running one and calling the queue clean would have been wrong.
+4. **`git grep` only searches tracked files.** The `04-SCHOOL` residual check inherited that
+   blindness and missed two untracked files. Filesystem scan as well, always.
+5. **A rule's trigger is part of the rule.** The DAILY archive step is real and correct; it
+   never fired because the weekly report that authorizes it was never filed.
+
+## How to maintain this file
+
+- Mark items done **here**, in the session they are done, with the commit SHA.
+- New findings go in the relevant Phase, not into conversation.
+- If Chris re-orders the phases, record that he did and do not silently re-order back.
+- When the update completes, set `status: complete` and write the closing `SESSION_INDEX.md`
+  verdict in this same folder.
+
+---
+
+## Findings filed 2026-08-16 (night) — scripts layer review
+
+Chris supplied a Codex audit of `00-BRAIN\scripts\` and asked for an extensive review.
+Every Codex claim was re-measured against the live tree; three were wrong or stale and two
+were under-reported. Full reconciliation:
+**`Session_Logs\claude_report_2026-08-16_scripts_layer_review.md`**.
+
+**Executed the same session on Chris's instruction ("execute all we can now without
+expanding the scope") — corrections to things already broken, not new work:**
+
+| | Action | Evidence |
+|---|---|---|
+| S1 | `path_reference_audit.py` — added `raw` + `.raw ARCHIVE` to `SKIP_DIRS` | Runs; fixture test still PASS |
+| S2 | `folder_icons.ps1` — `-DryRun` now suppresses the audit write | Dry run leaves the Jul 17 CSV untouched |
+| S3 | `folder_icons.ps1` — removed a duplicate hash key that made the file unparseable | Parse CLEAN; **had not run since 2026-07-24** |
+| S4 | Archived both completed tag converters + README; repointed `TAG_REGISTRY.md` | `git mv`, history preserved |
+| S5 | `vault_map.md` script count 22 → 19 | Live count 19 |
+
+Both gates PASS exit 0 after all five.
+
+| # | Finding | Pri |
+|---|---|---|
+| **S6** | **`folder_icons.ps1 -Mode Audit` returns zero inventory rows.** With the parse error fixed the script runs, but `Get-FolderInventory` yields nothing, so the audit summarises an empty set. `$VaultRoot` resolves correctly, and the Jul 17 CSV on disk is 103 KB — so this worked once and regressed. **Deliberately not chased: that is the scope expansion Chris excluded.** Diagnose before anyone trusts an Audit result | 🟠 |
+| **S7** | **The path-audit cluster is an unintegrated subsystem — 4 of 19 files.** `path_reference_audit.py` + baseline + schema + test are called by nothing: not in `root_health.py` (which runs exactly `wiki_lint`, `frontmatter_audit`, `validate_boot_chain`, `sync_shared_skills --check`), and `test_path_reference_audit.py` has **zero references vault-wide**. All 11 mentions are session logs or the 2026-07-24 architecture update that produced it. It reports **621 unbaselined findings**. Decide: wire in, move to `maintenance\`, or archive. **Recommendation: `maintenance\`** | 🟠 |
+| **S8** | **A shared exclusion set already exists and is 3/4 adopted.** `frontmatter_audit.EXCLUDED` is imported by `metadata_migration_plan`, `convert_legacy_tag_families` and `convert_domain_stack_tags`. Codex's proposed shared-scanning library (priority 36) is therefore a **refactor for value, not the safety fix** — the safety gap cost one line (S1). Do not price the library as if the gap depended on it. **Note:** `EXCLUDED` cannot be adopted wholesale by the path auditor — it contains `99-ARCHIVE` (that tool has its own `--include-archive` flag), `77-INBOX`, `SKILLS`, `.claude`, `.agents`, which it is meant to scan | 🟢 |
+| **S9** | **`_validation_yaml\` is an orphan** — contains only `__pycache__\yaml.cpython-314.pyc`, a compiled cache whose source `.py` no longer exists (Jul 15). Untracked in git. Codex's inventory omitted both subfolders entirely | 🟢 |
+| **S10** | **Codex proposes 7 new scripts.** Several are good — the stale-overwrite guard addresses flag #100, the restore-verification harness addresses "job succeeded ≠ restorable". **Not started, and should not be:** the freeze binds every surface, and Codex's #1 would reverse `NOW.md` risk 0's ruling (*"worth designing after the semester starts, not before"*) without knowing it exists. **Chris's call, not the report's.** Recommendation: hold until after Aug 24 | — |
+| **S11** | **`folder_icons.ps1` still carries `REF-<CAPS>` library paths** (`02-LIBRARY\REF-AI-AUTOMATION` etc.) while the live tree is lowercase `ref-<name>` — the same casing drift `vault_map.md` recorded fixing on Jul 29. Observed while fixing S3; **not touched**, since case-insensitivity makes it cosmetic on Windows | 🟢 |
+
+**Method note worth keeping:** the reference-tracing step was **blocked by the bulk-work
+gate** — a read-only loop counting mentions per script. Flag #101 firing during a review of
+the layer it governs. Sixth recorded instance.
