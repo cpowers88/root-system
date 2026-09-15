@@ -4,7 +4,7 @@ timeline: reference
 status: live
 reference_priority: core
 tags: [ai-automation]
-updated: 2026-07-24
+updated: 2026-09-10
 ---
 
 # AI_AUTOMATION_SYSTEMS Index
@@ -107,6 +107,7 @@ accounting lives in [[raw-source-coverage]].
 
 ## System evolution
 
+- [[system-evolution/root-optimization-research-2026]]
 - [[system-evolution/llm-wiki-pattern-and-second-brain-tools]]
 - [[system-evolution/building-a-second-brain-root-application]]
 - [[system-evolution/root-maturity-self-assessment]]

@@ -2017,3 +2017,25 @@ reference back matter rather than an ingestion backlog.
   effectiveness review remains due September 23.
 - No tool was activated, no governance was promoted from research, and no
   business or school strategy changed in this disposition pass.
+
+## 2026-09-10 — Internet research and live-vault audit completed for `.ROOT` optimization
+
+- Compared the live `.ROOT` architecture with current official agent-instruction
+  guidance, empirical instruction-file and filesystem-memory research, LLM-wiki
+  evaluations, memory-security studies, local-first principles, PARA and
+  Johnny.Decimal, and current Basic Memory, OpenViking, and GBrain implementations.
+- Added [[system-evolution/root-optimization-research-2026]] as the decision-grade
+  synthesis. **Verdict: keep the macro-architecture; test runtime retrieval; modify
+  only repeated, evidence-backed failure points.**
+- Read-only inventory covered 7,053 files in governed active areas while explicitly
+  excluding `88-JOURNAL` and every `raw` directory. It identified 1,695 Markdown
+  files and a roughly 4,037-word normal operator boot surface.
+- The report prioritizes three missing capabilities: retrieval observability,
+  semantic diagnostic probes for critical owners, and recovery proof. It rejects a
+  PARA rename, split roots, platform migration, graph-as-truth, ambient profile
+  learning, and unsupervised consolidation at present.
+- No `.ROOT` governance, active plan, current strategy, immutable evidence, or
+  proposal status changed. Any implementation remains gated by the live runtime
+  probation, a bounded cold-session audit, and explicit approval.
+- **Next exact action:** complete the current runtime probation with natural work,
+  then use ten cold owner-finding questions to choose keep, modify, or revert.

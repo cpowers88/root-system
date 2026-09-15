@@ -206,6 +206,52 @@ the cautionary example already in `LOCAL_MACHINE_MAP.md`:
 older copy requires Chris to identify the exact target first; the live Drive mirror remains
 the backup owner for files GitHub excludes.
 
+### 6a. Never bulk-copy the Drive mirror into the clone — added 2026-09-09
+
+The question came up directly: *can the laptop be built by copying
+`G:\Other computers\DESKTOP\.ROOT` into `C:\Users\thein\Documents\root-system`?*
+
+**No — and the reason is not convenience, it is `88-JOURNAL`.**
+
+Google Drive's job here is the opposite of Git's. `.gitignore` excludes `88-JOURNAL`, every
+`raw\`, `77-INBOX`, `99-ARCHIVE`, and all binaries **precisely so they never leave the desktop**;
+Drive backs up *the full local vault including all of it*. So the Drive mirror contains the
+private journal by design. **A folder copy from `G:` to the clone would put `88-JOURNAL` on the
+machine that gets carried around a campus** — defeating rule 3 above, which already says not to
+do this manually, and violating the kernel boundary that no agent and no other machine touches
+that folder.
+
+Three further reasons it is wrong even setting the journal aside:
+
+1. It would overwrite a live Git working tree with untracked files, and the clone would lose the
+   only merge path it has back to the desktop.
+2. It creates a fourth unowned copy. `LOCAL_MACHINE_MAP.md` already carries `D:\ARCHIVE\.ROOT`
+   as the cautionary example of exactly this.
+3. `G:\Other computers\` is a **backup**, not a sync. It is read-only from any other machine by
+   product design — the "can copy but not move or edit" behavior Chris observed is Drive working
+   correctly, not a permissions fault.
+
+**The clone already exists and was verified 2026-08-18** (§ *The machine is now load-bearing*).
+Updating the laptop is `git pull`. There is nothing to import.
+
+### 6b. What Drive IS for on the laptop — the reference-PDF gap
+
+Git excludes every PDF, so the course spines added 2026-09-09 point at reference files the clone
+does not contain. Copy these **individually** from `G:\Other computers\DESKTOP\.ROOT\` when a
+laptop study block needs them — file by file, never a folder sweep:
+
+| Need it for | File |
+|---|---|
+| PHYS — the text every spine row cites | `03-WIKIS\PHYSICS\raw\textbook\physic(full_book).pdf` (~80 MB), or the `Physics book-NNNN-NNNN.pdf` slices |
+| PHYS — schedule, exam dates, policy | `04-SCHOOL\02-Physics I\Syllabus.pdf` |
+| CSE — the course text | `04-SCHOOL\01-CSE-Python\thinkpython.pdf` |
+| CSE — grading table authority | `04-SCHOOL\01-CSE-Python\CSE 1321*.pdf` |
+| TCOM — the course text | `04-SCHOOL\03-TCOM\Textbook Doc Files\Open-TC-PDF.pdf` |
+| ENGR — dates | not needed; `ENGR_SPINE.md` carries them and the source PDF is an unreadable scan |
+
+`FallKSU.xlsx` is also Git-excluded. **Leave it on the desktop** — a grade workbook edited on two
+machines with no merge path is the two-owners failure in its purest form.
+
 ---
 
 ## 7. Verification checklist — everything gets tested, nothing gets assumed

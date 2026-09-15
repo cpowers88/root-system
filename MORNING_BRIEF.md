@@ -2,14 +2,13 @@
 type: dashboard
 timeline: now
 status: active
-generated: 2026-09-06
-tags: []
+generated: 2026-09-15
 ---
 
-# Sunday, September 6, 2026
+# September 15, 2026 — Tuesday
 
-**ATTENTION:** The runtime rewrite passes static validation, but fresh-session behavior remains unproven; the acceptance owner is `NOW.md`.
+**ATTENTION:** CASTLE freshness is stale, with review_trigger dates of 2026-09-13 past due in `01-NORTH_STAR\Goals & Milestones\capability_development_goal.md` and `01-NORTH_STAR\Goals & Milestones\value_production_goal.md`.
 
-**START:** Open the next task naturally through TUTOR or VALUE and judge whether useful work begins without schedule reconstruction or broad defensive loading; `NOW.md` holds the test.
+**START:** Work week 4 of `04-SCHOOL\semester-workload-plan.md` (Sep 14–20: CSE Quiz 2 Sun, Lab 4, TCOM proposal work) to stay ready for the Sep 21 PHYS Exam 1 gate.
 
-**CHRIS:** Supply the next real school or value request; keep, modify, or revert the runtime at the September 20 review.
+**CHRIS:** Review and reset the two overdue CASTLE review_trigger dates in their owner goal files before further CASTLE-linked work proceeds.

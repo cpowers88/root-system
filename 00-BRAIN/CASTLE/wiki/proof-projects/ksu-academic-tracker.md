@@ -10,8 +10,8 @@ tags: [proof-project, school, technology]
 
 **One-line description**: Python + SQLite CLI that answers "what needs attention today/this week" across six registered Fall 2026 course components in five subject areas, linking structured data to Obsidian notes.
 **Phase served**: [[phase-0-current-position-and-baseline]]
-**Deadline / window**: V1 shipped July 8; real-data activation waits for verified
-Fall 2026 course content, expected August 24 or later
+**Deadline / window**: V1 shipped July 8; real-data activation completed September 10
+against live Fall 2026 D2L data; CSE 1321L item dates remain source-gated to Gradescope/class
 **Location of work**: `02-LIBRARY\.PROJECTS\KSU_Academic_Tracker\` — brief + tracker.py + academic.db, one folder (Chris consolidated July 8, 2026; flag 53 closed)
 
 ## What It Proves
@@ -24,9 +24,9 @@ Fall 2026 course content, expected August 24 or later
 ## Definition of Done (from the brief)
 - [x] Four tables created; courses entered
 - [x] `--week`, `--today`, `--tests`, `--course X`, `--overdue` all working (V1 also shipped `--courses`, `--add-test`, `--add-assignment`, `--add-reading`)
-- [ ] notes_file paths displayed, linking DB rows to Obsidian markdown — verify during real-data entry
-- [ ] Verified Fall 2026 course data entered when the course shells populate
-      (expected August 24 or later); works with partial data
+- [x] notes_file paths displayed, linking DB rows to Obsidian markdown — all active paths verified September 10
+- [x] Verified Fall 2026 course data entered from live D2L; works with partial data
+      (CSE 1321L is registered separately, with item dates left blank until verified in Gradescope/class)
 - [ ] Used reliably when the real course workflow requires it; answers verified
       against source data, with observed friction recorded and corrected
 
@@ -39,6 +39,7 @@ compliance with a morning clock is not.
 ## Status Log
 | Date | What happened | Next action |
 |---|---|---|
+| **2026-09-10** | **REAL-DATA ACTIVATION COMPLETE.** Reconciled all six registered course components against live D2L and the September 9 course spines; corrected course names, instructors, and credit hours; split CSE 1321L from lecture; archived the two sample rows instead of deleting them; loaded 13 active assignments/assessments and 8 known exams; verified every active `notes_file` path; and made `--today` / `--week` hide submitted, graded, completed, and archived items. Running from the vault root now uses the one project database and returns no false overdue items. | Use the tracker against the real workflow. Bring back CSE 1321L / Gradescope dates when available; record the first observed friction before approving any further feature. |
 | 2026-06-15 | Brief completed | — |
 | 2026-07-05 | Build slot confirmed over POL; Session 1 target | Sessions 2–3 per brief |
 | 2026-07-06 | Registered as Phase 0 proof project in the castle | Finish remaining queries; log sessions here |

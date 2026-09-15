@@ -6,6 +6,18 @@ tags: []
 
 # Castle Log — Append Only
 
+## 2026-09-10 — KSU Academic Tracker activated with live course data (Codex)
+
+- **Proof-state change:** the July V1 is now active against Fall 2026 data rather than sample
+  rows. Live D2L and the September 9 course spines confirmed all six registrations, current
+  completion state, near-term deadlines, and known exam dates.
+- **Verified result:** six courses, 13 active assignments/assessments, eight known exams, no
+  false overdue items, and every active Obsidian path resolves. The untouched sample database
+  is preserved in `99-ARCHIVE`; its two placeholder rows are archived inside the live database.
+- **Remaining proof:** use it in the real workflow and record friction. CSE 1321L dates remain
+  blank because D2L exposes no events and the Fall authority is Gradescope/class; nothing was
+  guessed.
+
 ## 2026-08-19 — Evening read converted to semester mode; rotation rebuilt on the timetable (Claude Code)
 
 - **Decision (Chris-directed):** the evening read's **Technology block is paused for the Fall
@@ -2807,3 +2819,30 @@ and miss-log 5b in the relocated lead block.
   September 20 acceptance gate.
 - **Control returned to cockpit:** the next system action is one natural fresh-task
   route test; otherwise work returns to TUTOR or VALUE from Chris's request.
+
+## 2026-09-10 — AI Engineering from Scratch held to a bounded applied test
+
+- **Idea gated:** adopting `rohitg00/ai-engineering-from-scratch` as Chris's learning
+  curriculum or importing it into `.ROOT`.
+- **Fit:** the repository has useful build-first lessons and directly relevant
+  Product Judgment and Agent-Assisted Engineering paths. It could serve the permanent
+  capability mission, but the 523-lesson catalog is much larger than the currently
+  named weak link: independently building, debugging, and explaining one small tool.
+- **Evidence:** repository structure and sample lessons support its value as a practice
+  scaffold. They do not independently prove an income outcome for Chris, and sampled
+  technical explanations still require verification against KSU materials, official
+  documentation, or primary sources.
+- **Profit-gate verdict: HOLD on adoption, cloning, skill installation, and bulk
+  ingestion.** No-orphan passes only for a targeted lesson; source is unproven for the
+  income claim; phase and displacement fail during the live school week; proof passes
+  only when reduced to one applied exercise.
+- **Unlock condition:** fixed Week 3 school obligations are clear; the September 20
+  capability review selects one exact lesson as the live bottleneck; one applied KSU
+  or reachable-workflow proof and the time it displaces are named.
+- **Smallest later test:** spend at most 60 minutes on `Outcomes Before Output`, apply
+  its frame to one real workflow problem, and cold-explain the result. If that produces
+  a useful artifact, evaluate the eight-lesson Product Judgment path; consider
+  Agent-Assisted Engineering only after the independent programming foundation.
+- **Boundary:** the repository is a possible external course library for the future
+  greenfield learning system, not a new `.ROOT` subsystem. No skill-map row or new
+  curriculum was activated.
