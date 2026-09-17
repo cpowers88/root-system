@@ -4,7 +4,8 @@ stage: 06
 status: draft
 source_refs: ["Think Python Ch.20 (Debugging: Syntax/Runtime/Semantic Errors)", "Invent Your Own Computer Games Ch.6 (Using the Debugger)"]
 prerequisites: ["exceptions-and-tracebacks"]
-tags: [stage-06, debugging, error-types]
+tags: [debugging, error-types]
+timeline: reference
 ---
 
 # Concept: The Debugging Process

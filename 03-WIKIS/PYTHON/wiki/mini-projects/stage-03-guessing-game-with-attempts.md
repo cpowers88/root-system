@@ -4,6 +4,7 @@ stage: 03
 status: draft
 concepts: ["while-loop", "for-loop", "counter", "accumulator", "break-continue", "if-elif-else"]
 solution_included: false
+timeline: reference
 ---
 
 # Mini-Project: Number-Guessing Game with Limited Attempts

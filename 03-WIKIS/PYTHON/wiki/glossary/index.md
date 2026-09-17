@@ -1,6 +1,7 @@
 ---
 type: map
-tags: [reference, programming]
+tags: [programming]
+timeline: reference
 ---
 
 # Glossary Index
@@ -72,7 +73,7 @@ Review workflow: pick the current stage's terms from the stage page, read the en
 
 ## I
 
-- [[if-elif-else]] — `if` / `elif` / `else`
+- [[glossary/if-elif-else]] — `if` / `elif` / `else`
 - [[import-statement]] — Import Statement
 - [[incremental-development]] — Incremental Development
 - [[infinite-loop]] — Infinite Loop
@@ -115,7 +116,7 @@ Review workflow: pick the current stage's terms from the stage page, read the en
 ## R
 
 - [[range]] — `range()`
-- [[recursion]] — Recursion
+- [[glossary/recursion]] — Recursion
 - [[return-value]] — Return Value
 
 ## S

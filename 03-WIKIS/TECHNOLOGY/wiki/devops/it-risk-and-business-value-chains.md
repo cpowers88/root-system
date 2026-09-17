@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: framework
-tags: [priority/later, status/wiki-only, subject/devops, subject/business-systems, subject/risk-management, start]
+tags: [subject/devops, subject/business-systems, subject/risk-management, start]
+timeline: reference
+status: wiki-only
 ---
 
 # IT Risk and Business Value Chains

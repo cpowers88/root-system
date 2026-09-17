@@ -1,5 +1,6 @@
 ---
 type: drill
+timeline: reference
 status: draft
 ---
 
@@ -47,9 +48,15 @@ For each problem, identify what is given, write the relevant equation, substitut
 
 ## Check Yourself
 
-Problem 1: W = mgh = (500)(9.8)(20) = 98,000 J; P = W/t = 98,000/40 = 2450 W = 2.45 kW
-Problem 3: P = Fv = (400)(5.0) = 2000 W = 2.0 kW
-Problem 5: P = Fv → v = P/F = 250/40 = 6.25 m/s
+1. W = mgh = (500)(9.8)(20) = 98,000 J; P = W/t = 98,000/40 = 2450 W = 2.45 kW
+2. P = 12,000 J / 180 s = 66.7 W = 0.0667 kW
+3. P = Fv = (400)(5.0) = 2000 W = 2.0 kW
+4. P = 150 hp × 746 W/hp = 111,900 W. F = P/v = 111,900/30 = 3730 N
+5. P = Fv → v = P/F = 250/40 = 6.25 m/s
+6. E = Pt = (60 W)(8 h × 3600 s/h) = 1,728,000 J = 1.728 MJ. In kWh: E = (60 W)(8 h) = 480 Wh = 0.48 kWh
+7. W = Pt = (3000 W)(20.0 × 60 s) = 3,600,000 J = 3.6 MJ
+8. P = mgh/t = (1200)(9.8)(30.0)/18.0 = 352,800/18.0 = 19,600 W ≈ 19.6 kW
+9. P = (dm/dt)gh = (500 kg/s)(9.8)(60.0) = 294,000 W = 294 kW
 
 ## Mastery Signal
 

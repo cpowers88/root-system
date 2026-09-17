@@ -1,10 +1,11 @@
 ---
 type: source-summary
+timeline: reference
 status: parked
 source_role: reference
 difficulty: post-stage-10
 source_file: raw/books/PythonforDataAnalysis.pdf
-tags: [reference, programming, parked, sql-strand, data-analysis-strand]
+tags: [programming, sql-strand, data-analysis-strand]
 ---
 
 # SQLite and SQL with pandas

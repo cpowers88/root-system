@@ -3,7 +3,9 @@ domain: technology
 type: concept
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, subject/experimental-design, subject/data-science, subject/machine-learning, stack/r, stack/python]
+tags: [subject/experimental-design, subject/data-science, subject/machine-learning]
+source_role: primary
+stack: [r, python]
 ---
 
 # Data Splitting, Twinning, and Subsampling — DOE Applied to Data You Already Have

@@ -4,7 +4,8 @@ stage: 05
 status: draft
 source_refs: ["Think Python Ch.13 (Data Structures, lighter preview)", "Automate the Boring Stuff Ch.6-7"]
 prerequisites: ["lists", "dictionaries", "tuples-and-sets"]
-tags: [stage-05, decision-rule, data-structures]
+tags: [decision-rule, data-structures]
+timeline: reference
 ---
 
 # Concept: Choosing the Right Data Structure

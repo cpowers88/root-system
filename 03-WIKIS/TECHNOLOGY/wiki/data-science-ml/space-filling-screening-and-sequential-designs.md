@@ -3,7 +3,9 @@ domain: technology
 type: concept
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, subject/experimental-design, subject/data-science, subject/statistics, stack/r]
+tags: [subject/experimental-design, subject/data-science, subject/statistics]
+source_role: primary
+stack: [r]
 ---
 
 # Space-Filling, Screening, and Sequential Designs — the DOE Decision Map

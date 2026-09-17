@@ -1,8 +1,9 @@
 ---
 type: plan
-tags: [now, governance, audit]
+tags: [governance, audit]
 status: complete
 created: 2026-07-15
+timeline: now
 ---
 
 # Phase 3 — Reconcile Live Semantic Interfaces

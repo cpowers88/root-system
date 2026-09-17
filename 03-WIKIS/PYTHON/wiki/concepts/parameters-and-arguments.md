@@ -4,7 +4,8 @@ stage: 04
 status: draft
 source_refs: ["Think Python Ch.3 (Parameters and Arguments, Variables and Parameters Are Local, Stack Diagrams)", "Python Crash Course Ch.8 (Passing Information to a Function)"]
 prerequisites: ["defining-and-calling-functions"]
-tags: [stage-04, parameters, arguments, scope]
+tags: [parameters, arguments, scope]
+timeline: reference
 ---
 
 # Concept: Parameters, Arguments, and Scope

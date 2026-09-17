@@ -3,7 +3,8 @@ type: code-pattern
 stage: 08
 status: draft
 concepts: ["class", "object-instance", "attribute", "method"]
-tags: [stage-08, classes, oop]
+tags: [classes, oop]
+timeline: reference
 ---
 
 # Code Pattern: Class With `__init__` and a Method

@@ -1,10 +1,11 @@
 ---
 type: source-summary
+timeline: reference
 status: parked
 source_role: reference
 difficulty: optional
 source_file: raw/books/PythonforDataAnalysis.pdf
-tags: [reference, programming, parked, tooling]
+tags: [programming, tooling]
 ---
 
 # IPython and Jupyter Basics

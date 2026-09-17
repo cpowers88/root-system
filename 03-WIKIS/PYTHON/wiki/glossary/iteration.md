@@ -4,6 +4,7 @@ stage: 03
 status: draft
 aliases: ["iterable"]
 related_terms: ["loop", "for-loop"]
+timeline: reference
 ---
 
 # Iteration / Iterable

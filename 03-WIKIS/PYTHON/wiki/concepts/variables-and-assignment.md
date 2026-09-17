@@ -4,7 +4,8 @@ stage: 01
 status: draft
 source_refs: ["Think Python Ch.2 (Assignment Statements, Variable Names)", "Python Crash Course Ch.2 (Variables)"]
 prerequisites: ["values-and-expressions"]
-tags: [stage-01, variables, assignment]
+tags: [variables, assignment]
+timeline: reference
 ---
 
 # Concept: Variables and Assignment

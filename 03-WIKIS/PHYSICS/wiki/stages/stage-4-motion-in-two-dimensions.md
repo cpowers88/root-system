@@ -14,11 +14,19 @@ Apply 1D kinematic equations independently to the x and y directions to analyze 
 
 ## Syllabus Alignment
 
-Ch 04, lectures F Sep 4 and W Sep 9, 2026.
+Ch 04. Neighbor-section pacing estimate: F Sep 4 and W Sep 9, 2026; Section
+54's exact dates remain unconfirmed.
 
 ## Textbook Alignment
 
-Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., Chapter 4, sections 4.1–4.6 (Position/Velocity/Acceleration Vectors; 2D Motion with Constant Acceleration; Projectile Motion; Uniform Circular Motion; Tangential and Radial Acceleration; Relative Velocity). Verified against `raw/textbook/Physics book-0001-0100.pdf` and `Physics book-0101-0200.pdf` 2026-07-07 — Section 4.5 (tangential/radial acceleration for *non-uniform* circular motion) was previously missing from this stage and miscited as Stage 10 material; corrected below. It's real Ch4 content, in scope for the Sep 4/9 lecture window.
+Serway & Jewett, *Physics for Scientists and Engineers*, 10th ed., Chapter 4,
+book pp. 68–94, sections 4.1–4.6 (Position/Velocity/Acceleration Vectors;
+2D Motion with Constant Acceleration; Projectile Motion; Uniform Circular
+Motion; Tangential and Radial Acceleration; Relative Velocity). Verified
+against `raw/textbook/Physics book-0001-0100.pdf` and
+`Physics book-0101-0200.pdf` 2026-07-25. Section 4.5 (tangential/radial
+acceleration for *non-uniform* circular motion) was previously missing from
+this stage and miscited as Stage 10 material; corrected below.
 
 ## Prerequisite Physics
 
@@ -27,6 +35,41 @@ Stages 2 and 3 — must be fluent with 1D kinematic equations (Stage 2) and vect
 ## Prerequisite Math
 
 Vector components (sin/cos decomposition), quadratic equations, trig identities — especially sin 2θ = 2 sin θ cos θ.
+
+## Math-to-Physical-World Bridge
+
+The mathematical skeleton for projectile motion is two functions using the same
+input, time:
+
+```text
+x(t) = x0 + (v0 cos theta)t
+y(t) = y0 + (v0 sin theta)t - (1/2)gt^2
+```
+
+- `x(t)` is linear because the model contains no horizontal acceleration. Its
+  graph has constant slope `v0 cos theta`; physically, equal time intervals add
+  equal horizontal distances.
+- `y(t)` is quadratic because gravity changes vertical velocity at a constant
+  rate. Its graph curves downward; physically, each successive time interval
+  removes another `g` worth of upward velocity.
+- The same `t` appears in both equations because there is one projectile and one
+  clock, even though the two component motions follow different rules.
+- `cos theta` projects the launch vector onto the horizontal axis; `sin theta`
+  projects it onto the vertical axis. These are not decorative trig operations:
+  they measure the two shadows cast by one velocity vector.
+
+Before calculating, predict the effect of changing one parameter:
+
+- Increasing `v0` increases both component magnitudes and generally increases
+  height and range.
+- Increasing `theta` transfers more of the fixed launch speed into vertical
+  motion and less into horizontal motion.
+- Increasing `g` bends the vertical graph downward faster, shortening flight and
+  reducing height and range.
+
+Then check the prediction against the equations, units, graph, and final physical
+result. This `predict -> calculate -> interpret` loop applies to every Stage 4
+problem type.
 
 ## Core Concepts
 
@@ -111,6 +154,12 @@ The 1D kinematic equations from Stage 2 (derived by integrating constant acceler
 
 For circular motion: centripetal acceleration is a derivative result — even though speed is constant, the direction of velocity changes, so dv⃗/dt ≠ 0. When speed also changes, a_t = dv/dt reuses the exact 1D-derivative idea from Stage 2, just applied along the curved path instead of a straight line.
 
+Full worked derivations, multi-problem practice, and a real-world use case for
+each: [[../calculus-links/2d-kinematics-components]] (vector differentiation
+for projectile motion) and
+[[../calculus-links/tangential-radial-acceleration-derivative]] (a_t as a
+derivative of speed along a curved path).
+
 ## Problem Types
 
 - [[../problem-types/projectile-horizontal-launch]]
@@ -127,6 +176,23 @@ For circular motion: centripetal acceleration is a derivative result — even th
 - [[../drills/projectile-motion-drill]]
 - [[../drills/circular-motion-drill]]
 - [[../drills/tangential-radial-acceleration-drill]]
+- [[../drills/relative-velocity-drill]]
+
+## Recommended Reading and Rep Order
+
+1. **Build the two-clock model:** chapter overview and §4.1–4.2, pp. 68–74;
+   write the component equations before solving numbers.
+2. **Projectile core:** §4.3, pp. 74–80; complete horizontal-launch problems
+   before angled-launch problems.
+3. **Uniform turn:** §4.4, pp. 81–83; name the real force that supplies the
+   inward net force.
+4. **Changing-speed turn:** §4.5, pp. 84–85; draw radial and tangential
+   components before combining them.
+5. **Reference frames:** §4.6, pp. 85–88; write the subscript equation before
+   inserting values.
+6. **Cold gate:** use the chapter summary, pp. 89–90, then run the mastery
+   checklist without notes. End-of-chapter problems on pp. 90–94 are reserve
+   transfer practice, not the first exposure.
 
 ## Common Errors
 

@@ -1,6 +1,7 @@
 ---
 type: flashcards
-tags: [now, programming]
+tags: [programming]
+timeline: now
 ---
 
 # Flashcard Batch: Stage 1 — Python Atoms

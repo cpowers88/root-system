@@ -4,6 +4,7 @@ stage: 02
 status: draft
 aliases: ["bool"]
 related_terms: ["condition", "truthy-falsy"]
+timeline: reference
 ---
 
 # Boolean

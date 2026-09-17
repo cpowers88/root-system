@@ -4,7 +4,8 @@ stage: 08
 status: draft
 source_refs: ["Think Python Ch.15-17 (Programmer-Defined Types, Attributes, The init Method)", "Python Crash Course Ch.9", "Python Workout Ch.10"]
 prerequisites: ["dictionaries", "defining-and-calling-functions"]
-tags: [stage-08, classes, objects, oop]
+tags: [classes, objects, oop]
+timeline: reference
 ---
 
 # Concept: Classes and Objects

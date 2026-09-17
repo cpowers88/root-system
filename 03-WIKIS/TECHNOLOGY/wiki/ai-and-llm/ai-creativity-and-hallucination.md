@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/next, status/wiki-only, subject/ai]
+tags: [subject/ai]
+timeline: reference
+status: wiki-only
 ---
 
 # AI Creativity and Hallucination

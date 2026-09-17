@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: concept
-tags: [priority/later, status/wiki-only, subject/event-streaming]
+tags: [subject/event-streaming]
+timeline: reference
+status: wiki-only
 ---
 
 # Stream Processing Systems (Apache Flink)

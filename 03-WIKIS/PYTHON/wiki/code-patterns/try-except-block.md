@@ -3,7 +3,8 @@ type: code-pattern
 stage: 06
 status: draft
 concepts: ["exception", "try-except"]
-tags: [stage-06, exceptions, try-except]
+tags: [exceptions, try-except]
+timeline: reference
 ---
 
 # Code Pattern: `try` / `except` Block

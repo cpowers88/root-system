@@ -1,6 +1,7 @@
 ---
 type: template
-tags: [reference, programming]
+tags: [programming]
+timeline: reference
 ---
 
 # Flashcard Batch: [Topic]

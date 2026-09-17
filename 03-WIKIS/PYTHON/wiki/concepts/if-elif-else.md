@@ -4,7 +4,8 @@ stage: 02
 status: draft
 source_refs: ["Think Python Ch.5 (Conditional Execution, Alternative Execution, Chained/Nested Conditionals)", "Automate the Boring Stuff Ch.2", "Python Crash Course Ch.5"]
 prerequisites: ["comparisons-and-boolean-logic"]
-tags: [stage-02, conditionals, branching]
+tags: [conditionals, branching]
+timeline: reference
 ---
 
 # Concept: `if` / `elif` / `else`

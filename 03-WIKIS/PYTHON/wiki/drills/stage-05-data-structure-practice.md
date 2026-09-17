@@ -5,6 +5,7 @@ status: draft
 concepts: ["list", "dictionary", "tuple", "set", "index", "slice", "aliasing"]
 difficulty: beginner
 solution_included: false
+timeline: reference
 ---
 
 # Drill: Data Structure Practice
@@ -19,6 +20,23 @@ Practice indexing/slicing, mutating lists, looking up dictionary values, and cho
 - dictionary lookup (`[]` and `.get()`)
 - tuples (light)
 - choosing between list and dictionary
+
+## Cold-Read Gate
+
+Predict both printed lists before running this code. Draw two name arrows and
+decide whether they point to one list or two; then explain which line mutates the
+shared object.
+
+```python
+original = [10, 20]
+alias = original
+alias.append(30)
+print(original)
+print(alias)
+```
+
+Before each Starter Prompt part, name the data shape and list the exact operations
+needed—index, slice, mutation, lookup, or traversal—before writing code.
 
 ## Starter Prompt
 

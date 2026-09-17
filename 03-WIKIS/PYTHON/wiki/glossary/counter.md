@@ -4,6 +4,7 @@ stage: 03
 status: draft
 aliases: []
 related_terms: ["accumulator", "loop"]
+timeline: reference
 ---
 
 # Counter

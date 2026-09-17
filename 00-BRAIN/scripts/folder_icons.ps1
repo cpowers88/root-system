@@ -408,15 +408,20 @@ function Get-FolderIconType {
         '00-BRAIN\CASTLE' = 'castle'; '00-BRAIN\HATS' = 'hats'; '00-BRAIN\scripts' = 'code'
         '00-BRAIN\Session_Logs' = 'logs'; '00-BRAIN\SKILLS' = 'skills'
         '01-NORTH_STAR\Goals & Milestones' = 'goals'; '01-NORTH_STAR\System Contracts' = 'contracts'
-        '01-NORTH_STAR\Weekly Reviews' = 'review'
-        '02-LIBRARY\.PROJECTS' = 'projects'; '02-LIBRARY\00-SCHOOL' = 'school'
+        # Removed 2026-08-16: a second '00-BRAIN\Session_Logs' = 'review' entry sat here,
+        # duplicating line 409's = 'logs'. PowerShell rejects duplicate keys in a hash
+        # literal, so this file had not parsed - and the script had not run at all - since
+        # it was introduced on 2026-07-24 (14a49d7). Removing it cannot regress behaviour,
+        # because there was none. If a 'review' icon was intended for some folder, it lost
+        # its path here and needs Chris to name the folder it belonged to.
+        '02-LIBRARY\.PROJECTS' = 'projects'; '04-SCHOOL' = 'school'
         '02-LIBRARY\REF-AI-AUTOMATION' = 'ai'; '02-LIBRARY\REF-BUSINESS' = 'business'
         '02-LIBRARY\REF-FIELD-OPERATIONS' = 'field'; '02-LIBRARY\REF-HEALTH' = 'health'
-        '02-LIBRARY\REF-MATH' = 'math'; '02-LIBRARY\REF-META-HOW-TO-WORK' = 'settings'
+        '02-LIBRARY\REF-MATH' = 'math'; '02-LIBRARY\ref-meta-how-to-work' = 'settings'
         '02-LIBRARY\REF-MISC' = 'library'; '02-LIBRARY\REF-PROGRAMMING' = 'code'
-        '02-LIBRARY\00-SCHOOL\01-CSE-Python' = 'python'; '02-LIBRARY\00-SCHOOL\02-Physics I' = 'physics'
-        '02-LIBRARY\00-SCHOOL\03-TCOM' = 'notes'; '02-LIBRARY\00-SCHOOL\04-ECON' = 'economics'
-        '02-LIBRARY\00-SCHOOL\05-ENGR' = 'engineering'; '02-LIBRARY\00-SCHOOL\99-EDG' = 'engineering'
+        '04-SCHOOL\01-CSE-Python' = 'python'; '04-SCHOOL\02-Physics I' = 'physics'
+        '04-SCHOOL\03-TCOM' = 'notes'; '04-SCHOOL\04-ECON' = 'economics'
+        '04-SCHOOL\05-ENGR' = 'engineering'; '04-SCHOOL\99-EDG' = 'engineering'
         '03-WIKIS\AI_AUTOMATION_SYSTEMS' = 'ai'; '03-WIKIS\BUSINESS' = 'business'
         '03-WIKIS\EDUCATION' = 'education'; '03-WIKIS\PHYSICS' = 'physics'; '03-WIKIS\PYTHON' = 'python'
         '03-WIKIS\REVENUE_LAB' = 'revenue'; '03-WIKIS\SYSTEMS' = 'systems'; '03-WIKIS\TECHNOLOGY' = 'technology'
@@ -616,8 +621,18 @@ function Audit-FolderIcons {
         [pscustomobject]@{ Path = $item.RelativePath; Type = $item.Type; Status = $status; Detail = $expected }
     }
 
-    [System.IO.Directory]::CreateDirectory($AssetRoot) | Out-Null
-    $rows | Export-Csv -LiteralPath (Join-Path $AssetRoot 'folder-icon-audit.csv') -NoTypeInformation -Encoding utf8
+    # Guarded 2026-08-16. Audit is this script's DEFAULT mode, and these two lines
+    # created a directory and wrote a CSV unconditionally - including when -DryRun
+    # was passed. A dry-run switch that does not suppress writes is a false control
+    # (AGENT.md File Safety 12), because the operator reaching for it believes they
+    # are safe. Audit now reports to the console and writes only when asked to.
+    if ($DryRun) {
+        Write-Host "[dry run] Audit: no CSV written, no directory created." -ForegroundColor Yellow
+    }
+    else {
+        [System.IO.Directory]::CreateDirectory($AssetRoot) | Out-Null
+        $rows | Export-Csv -LiteralPath (Join-Path $AssetRoot 'folder-icon-audit.csv') -NoTypeInformation -Encoding utf8
+    }
     $summary = $rows | Group-Object Status | Sort-Object Name | Select-Object Name, Count
     $summary | Format-Table -AutoSize
     return $rows

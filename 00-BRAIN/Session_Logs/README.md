@@ -17,13 +17,14 @@ meaning, decision, and evidence packet easy to retrieve.
 - `DAILY_TEMPLATE.md` and `HANDOFF_TEMPLATE.md` — report templates.
 - A report may remain here only while its review or decision is still active.
 
-## The Three Evidence Homes
+## The Four Evidence Homes
 
 | Home | What belongs there |
 |---|---|
 | `System Update Log\` | Monthly commit ledger plus dated evidence packets for consequential multi-commit `.ROOT` changes |
 | `Closed Flags\` | Monthly permanent ledger of flags moved out of `SYSTEM_FLAGS.md` when verified closed |
 | `Report Archive\` | Completed standalone reports and handoffs that are not part of a system-change packet |
+| `weekly_and_monthly_reports\` | `weekly_reports\` and `monthly_reports\` subfolders hold every WEEKLY/MONTHLY review and its template once written — DAILY stays at root (below), reviews move here on creation |
 
 ## System-Change Packet Rule
 

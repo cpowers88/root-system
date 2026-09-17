@@ -1,10 +1,11 @@
 ---
 type: source-summary
+timeline: reference
 status: parked
 source_role: project-source
 difficulty: stage-10
 source_file: raw/books/PythonCrashCourse.pdf
-tags: [reference, programming, parked, stage-10-support]
+tags: [programming, stage-10-support]
 ---
 
 # Data Visualization in Python (Matplotlib & Plotly)

@@ -4,6 +4,7 @@ stage: 01
 status: draft
 aliases: []
 related_terms: ["assignment", "value"]
+timeline: reference
 ---
 
 # Variable

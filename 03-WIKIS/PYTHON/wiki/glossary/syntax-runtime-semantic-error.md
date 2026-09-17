@@ -4,6 +4,7 @@ stage: 06
 status: draft
 aliases: ["syntax error", "runtime error", "semantic error"]
 related_terms: ["exception", "traceback"]
+timeline: reference
 ---
 
 # Syntax / Runtime / Semantic Error

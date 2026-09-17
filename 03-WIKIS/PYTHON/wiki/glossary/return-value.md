@@ -4,6 +4,7 @@ stage: 04
 status: draft
 aliases: ["return"]
 related_terms: ["fruitful-void-function", "function"]
+timeline: reference
 ---
 
 # Return Value

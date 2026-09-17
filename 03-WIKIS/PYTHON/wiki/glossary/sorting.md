@@ -4,6 +4,7 @@ stage: 08
 status: draft
 aliases: []
 related_terms: ["searching", "big-o"]
+timeline: reference
 ---
 
 # Sorting

@@ -4,6 +4,7 @@ stage: 01
 status: draft
 aliases: []
 related_terms: ["integer", "type-conversion"]
+timeline: reference
 ---
 
 # Float

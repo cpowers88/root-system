@@ -4,7 +4,8 @@ status: active
 stage: 2
 python_tools: [if/elif/else, functions, dictionaries]
 prerequisites: [conditionals, comparisons]
-tags: [reference, programming, capability]
+tags: [programming, capability]
+timeline: reference
 ---
 
 # Capability: Automate Repetitive Decisions

@@ -1,6 +1,6 @@
 ---
 type: asset
-timeline: now
+timeline: parked
 status: draft
 tags: [business, apqc, client]
 ---
@@ -86,7 +86,8 @@ Before this is shown to or used with an actual prospect:
 
 ## 9. Next Action
 
-Schedule and run the first live validation rep before the Aug 24 semester start /
-danger-weeks ceiling. Block the 30-min prep + visit + same-day write-up as one
-calendar unit, then log the result and bump maturity to "tested internally" in
+Live validation remains unrun and is parked because no accessible live workflow
+is currently available. Reactivate only when Chris identifies a permitted
+workflow and explicitly opens the rep. Then block the 30-minute prep, visit, and
+same-day write-up as one unit; bump maturity to "tested internally" in
 `CAPABILITY_LIBRARY_INDEX.md` only if the full live output chain is completed.

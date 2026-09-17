@@ -4,7 +4,8 @@ stage: 07
 status: draft
 source_refs: ["Invent Your Own Computer Games Ch.7 (Designing Hangman with Flowcharts)"]
 prerequisites: ["decomposition-and-pseudocode", "if-elif-else"]
-tags: [stage-07, flowcharts, program-design]
+tags: [flowcharts, program-design]
+timeline: reference
 ---
 
 # Concept: Flowcharts

@@ -4,7 +4,8 @@ stage: 09
 status: draft
 source_refs: ["Automate the Boring Stuff Ch.19 (Keeping Time, Scheduling Tasks)", "Automate the Boring Stuff Ch.20 (Sending Emails, light mention)"]
 prerequisites: ["organizing-files-at-scale", "csv-and-json", "decomposition-and-pseudocode"]
-tags: [stage-09, automation, scheduling, decision-rule]
+tags: [automation, scheduling, decision-rule]
+timeline: reference
 ---
 
 # Concept: Designing an Automation Script

@@ -3,7 +3,8 @@ type: code-pattern
 stage: 03
 status: draft
 concepts: ["for-loop", "range", "counter", "accumulator"]
-tags: [stage-03, for-loop, range]
+tags: [for-loop, range]
+timeline: reference
 ---
 
 # Code Pattern: `for` Loop Over `range()`

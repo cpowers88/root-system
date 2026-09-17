@@ -1,8 +1,8 @@
 ---
 type: stage
+timeline: reference
 stage_number: 05
 status: ready
-priority: current
 source_spine: "Think Python Ch.8, 10, 11, 12"
 support_sources: ["Automate the Boring Stuff Ch.6-8", "Python Crash Course Ch.3-4 & 6", "Python Workout Ch.4-5", "Invent Your Own Computer Games Ch.8-14"]
 ---
@@ -15,7 +15,7 @@ Learn to group and label data: strings as sequences, lists, dictionaries, tuples
 
 ## Why This Stage Comes Now
 
-Stages 1-4 worked with one value at a time. Real problems almost always involve *groups* of related data — a roster of names, a set of scores, a record with multiple fields. This stage is also the vault's biggest direct test of "tool selection," the skill CLAUDE.md identifies as Chris's main bottleneck.
+Stages 1-4 worked with one value at a time. Real problems almost always involve *groups* of related data — a roster of names, a set of scores, a record with multiple fields. This stage is also the vault's biggest direct test of "tool selection," the skill `OPERATIONS.md` identifies as Chris's main bottleneck.
 
 ## Prerequisites
 
@@ -44,6 +44,24 @@ Stage 4 — functions, parameters, return values, scope.
 - [[glossary/array]] — course terminology bridge; Python lists are the beginner structure here
 
 Full flashcard batch: [[flashcards/stage-05-data-shapes]]
+
+## Course Core vs. Full Stage
+
+Course core is strings, lists, tuples, dictionaries, indexing/slicing, mutation,
+aliasing, and choosing a fitting structure. Sets and deeper nested structures are
+enrichment; they do not block Fall 2026 course readiness.
+
+> **Split note, 2026-07-25.** This stage covers the course's Module 5.1 (tuples,
+> lists) and the dictionary half of Module 5.2. The **searching and sorting** half
+> of Module 5.2 is now [[stages/stage-05b-searching-and-sorting]] — pulled forward
+> from Stage 8, because lecture Week 11 quizzes it (Quiz 6) long before Stage 8
+> would have reached it.
+
+## Code-Reading Gate
+
+Name the data shape first. Then mark every index or key access, mutation, alias,
+and traversal; predict the resulting structure before running. Sketch the needed
+data shape and operations before writing complete code.
 
 ## Required Code Patterns
 
@@ -75,7 +93,7 @@ Full flashcard batch: [[flashcards/stage-05-data-shapes]]
 
 ## Mastery Checklist
 
-- [ ] Define index, slice, mutable/immutable, list, aliasing, dictionary, key/value, tuple, set, and nested structure in plain English.
+- [ ] Define index, slice, mutable/immutable, list, aliasing, dictionary, key/value, and tuple in plain English.
 - [ ] Recognize each of these in a short piece of code.
 - [ ] Given a new plain-English data scenario, correctly choose list vs. dictionary vs. tuple, and explain why.
 - [ ] Write a list-indexing/slicing example and a dictionary-lookup example from memory, without notes.
@@ -85,6 +103,9 @@ Full flashcard batch: [[flashcards/stage-05-data-shapes]]
 - [ ] Debug at least one of the four error types in [[errors/stage-05-common-errors]] without help.
 - [ ] Complete [[drills/stage-05-data-structure-practice]].
 - [ ] Complete [[mini-projects/stage-05-caesar-cipher]] and explain the solution out loud.
+
+Full-stage enrichment: recognize sets and one-level nested structures. These do
+not block the Fall 2026 course-core gate.
 
 ## Stage Mastery Target
 
@@ -96,5 +117,5 @@ Can choose the correct data structure (list, dictionary, or tuple) for a new pro
 - Nested structures deeper than one level (lists of dictionaries with lists inside) — introduced lightly here, drilled further in Stage 7-8 case studies.
 - List comprehensions — Stage 10.
 - `Counter`, `defaultdict`, and other specialized collection types — Stage 10, parked per `wiki/parking-lot.md`.
-- Searching/sorting algorithms on these structures — Stage 8.
+- Searching/sorting algorithms on these structures — **[[stages/stage-05b-searching-and-sorting]]** (course Module 5.2), with the formal analysis remaining at Stage 8.
 - NumPy arrays — parked until lists, loops, functions, and numeric work are solid.

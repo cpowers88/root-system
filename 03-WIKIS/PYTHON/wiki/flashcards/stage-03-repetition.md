@@ -1,6 +1,7 @@
 ---
 type: flashcards
-tags: [next, programming]
+tags: [programming]
+timeline: next
 ---
 
 # Flashcard Batch: Stage 3 — Repetition
@@ -92,3 +93,13 @@ tags: [next, programming]
 **Back:** Forgetting to update, inside the loop body, whatever the while condition depends on.
 
 **Tags:** python, stage-03, infinite-loop
+
+---
+
+## Card: Modulo and divisibility
+
+**Front:** What does `number % 7 == 0` mean?
+
+**Back:** Dividing `number` by 7 leaves remainder 0, so the number is divisible by 7.
+
+**Tags:** python, stage-03, modulo, divisibility

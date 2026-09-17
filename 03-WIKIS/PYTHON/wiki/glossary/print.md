@@ -4,6 +4,7 @@ stage: 01
 status: draft
 aliases: ["print()"]
 related_terms: ["input"]
+timeline: reference
 ---
 
 # `print()`

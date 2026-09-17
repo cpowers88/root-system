@@ -1,11 +1,17 @@
 ---
 type: stage
+timeline: reference
 status: draft
 ---
 
 # Stage 12 — Static Equilibrium and Elasticity
 
-**Serway & Jewett Chapter 12 | KSU PHYS 2211 Fall 2026 | Dr. Behera**
+**Serway & Jewett Chapter 12 | KSU PHYS 2211 §54 Fall 2026 | Farhan Islam**
+
+> **Fall §54 course core: §§12.1 and 12.3 only.** The equilibrium material on
+> this page is assessed on Unit Exam 4. Sections 12.2 and 12.4—center-of-gravity
+> extensions and elasticity/stress/strain—remain useful reference but are not
+> required by the exact syllabus and must not displace equilibrium or SHM work.
 
 ---
 
@@ -15,10 +21,10 @@ By the end of this stage, Chris can:
 
 - Apply both conditions of static equilibrium (ΣF = 0 and Στ = 0) to any rigid body problem.
 - Choose a smart pivot point to eliminate unknowns and simplify torque equations.
-- Locate the center of gravity of a multi-object system.
-- Calculate stress, strain, and elastic moduli (Young's, shear, bulk).
 - Solve beam, ladder, strut, and hanging sign equilibrium problems from scratch.
-- Solve material stress-strain problems using the correct modulus.
+
+Enrichment only after the course-core gate: locate multi-object centers of
+gravity and calculate stress, strain, and elastic moduli.
 
 ---
 
@@ -27,9 +33,9 @@ By the end of this stage, Chris can:
 | Item | Detail |
 |---|---|
 | Course | PHYS 2211 — Calculus-Based Mechanics |
-| Instructor | Dr. Behera, KSU Fall 2026 |
-| Chapter | Serway & Jewett 10th Ed., Chapter 12 |
-| Exam relevance | High — equilibrium problems appear on nearly every mechanics exam |
+| Instructor | Farhan Islam, KSU Fall 2026, §54 |
+| Chapter | Serway & Jewett 10th Ed., §§12.1 and 12.3 active |
+| Exam relevance | Unit Exam 4: §§12.1 and 12.3 |
 | Lab relevance | Likely torque/balance lab; possible materials lab |
 
 ---
@@ -39,9 +45,9 @@ By the end of this stage, Chris can:
 | Section | Topic |
 |---|---|
 | 12.1 | Analysis Model: Rigid Object in Equilibrium |
-| 12.2 | More on the Center of Gravity |
+| 12.2 | More on the Center of Gravity *(reference, off active scope)* |
 | 12.3 | Examples of Rigid Objects in Static Equilibrium |
-| 12.4 | Elastic Properties of Solids |
+| 12.4 | Elastic Properties of Solids *(reference, off active scope)* |
 
 ---
 
@@ -413,7 +419,8 @@ See: [[../common-errors/stage-12-static-equilibrium]]
 
 ## Mastery Checklist
 
-Before moving to Stage 13, Chris must be able to:
+Before moving to the next assessed unit (Stage 15), Chris must pass the
+equilibrium items below. Elasticity items are enrichment, not a semester gate:
 
 - [ ] State both equilibrium conditions from memory with correct symbols.
 - [ ] Draw a complete labeled FBD for a beam, ladder, and strut problem.

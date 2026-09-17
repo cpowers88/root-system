@@ -1,5 +1,6 @@
 ---
 type: concept
+timeline: reference
 status: draft
 ---
 
@@ -47,6 +48,10 @@ a = √(a_r² + a_t²)              (magnitude of total acceleration)
 ## Calculus Connection
 
 a_t = dv/dt is literally the same derivative-of-speed idea from Stage 2 (1D acceleration), now applied along a curved path instead of a straight line. a_r = v²/r is the same centripetal-acceleration derivative result from [[uniform-circular-motion]], evaluated instant-by-instant even while v is changing. Nothing new mathematically — this concept is the *combination* of two derivatives you already know.
+
+Full derivations, a multi-problem practice set (including differentiating a
+given v(t) function to find a_t), and a real-world engineering use case:
+[[../calculus-links/tangential-radial-acceleration-derivative]].
 
 ## Diagram / Visual Model
 

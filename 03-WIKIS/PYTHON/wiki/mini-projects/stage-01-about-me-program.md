@@ -4,6 +4,7 @@ stage: 01
 status: draft
 concepts: ["variable", "input", "type-conversion", "string", "print"]
 solution_included: false
+timeline: reference
 ---
 
 # Mini-Project: "About Me" Program

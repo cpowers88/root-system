@@ -1,7 +1,9 @@
 ---
 domain: tech
 type: reference
-tags: [priority/later, status/wiki-only, subject/devops]
+tags: [subject/devops]
+timeline: reference
+status: wiki-only
 ---
 
 # DevOps Origins and Myths

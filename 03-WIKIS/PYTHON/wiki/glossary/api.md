@@ -4,6 +4,7 @@ stage: 10
 status: draft
 aliases: ["application programming interface"]
 related_terms: ["web-request", "json"]
+timeline: reference
 ---
 
 # API

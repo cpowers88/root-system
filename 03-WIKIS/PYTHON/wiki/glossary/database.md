@@ -4,6 +4,7 @@ stage: 10
 status: draft
 aliases: ["SQLite", "sqlite3"]
 related_terms: ["csv", "json"]
+timeline: reference
 ---
 
 # Database

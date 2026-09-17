@@ -4,7 +4,8 @@ stage: 06
 status: draft
 source_refs: ["Think Python Ch.14 (Catching Exceptions)", "Python Crash Course Ch.10 (Exceptions)", "Automate the Boring Stuff Ch.5"]
 prerequisites: ["file-paths-and-reading-writing"]
-tags: [stage-06, exceptions, try-except, tracebacks]
+tags: [exceptions, try-except, tracebacks]
+timeline: reference
 ---
 
 # Concept: Exceptions, Tracebacks, and `try`/`except`

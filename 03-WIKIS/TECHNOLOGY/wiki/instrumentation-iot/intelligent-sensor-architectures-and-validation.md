@@ -3,7 +3,8 @@ domain: technology
 type: reference
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, subject/instrumentation, subject/sensors, subject/validation]
+tags: [subject/instrumentation, subject/sensors, subject/validation]
+source_role: primary
 ---
 
 # Intelligent Sensor Architectures and Validation

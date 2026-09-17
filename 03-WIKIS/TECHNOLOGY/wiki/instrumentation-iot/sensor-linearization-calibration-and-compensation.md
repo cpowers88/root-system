@@ -3,7 +3,8 @@ domain: technology
 type: reference
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, subject/instrumentation, subject/calibration, subject/data-quality]
+tags: [subject/instrumentation, subject/calibration, subject/data-quality]
+source_role: primary
 ---
 
 # Sensor Linearization, Calibration, and Compensation

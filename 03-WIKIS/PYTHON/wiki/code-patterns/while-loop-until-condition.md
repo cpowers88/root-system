@@ -3,7 +3,8 @@ type: code-pattern
 stage: 03
 status: draft
 concepts: ["while-loop", "infinite-loop", "break-continue"]
-tags: [stage-03, while-loop]
+tags: [while-loop]
+timeline: reference
 ---
 
 # Code Pattern: `while` Loop Until a Condition Changes

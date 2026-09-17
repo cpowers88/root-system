@@ -1,5 +1,6 @@
 ---
 type: problem-type
+timeline: reference
 status: draft
 ---
 

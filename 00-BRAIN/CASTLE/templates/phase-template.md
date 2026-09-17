@@ -41,9 +41,11 @@ tags: [phase]
 | Source | Tier | Location | What it proves |
 |---|---|---|---|
 
-## Tools to Learn
+## Tools, Methods, or Platforms Under Test
 
-## Business Capability Unlocked
+## Capability and Value Enabled
+Name the academic, technical, operational, employability, commercial, or
+asset-producing value this phase can prove. Not every phase must monetize directly.
 
 ## Proof Projects
 - [[proof-project-page]] — what it demonstrates

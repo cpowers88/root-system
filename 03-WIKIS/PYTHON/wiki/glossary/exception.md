@@ -4,6 +4,7 @@ stage: 06
 status: draft
 aliases: []
 related_terms: ["traceback", "try-except"]
+timeline: reference
 ---
 
 # Exception

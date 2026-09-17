@@ -4,7 +4,8 @@ status: active
 stage: 9
 python_tools: [csv]
 prerequisites: [files, loops, lists, dictionaries]
-tags: [reference, programming, capability]
+tags: [programming, capability]
+timeline: reference
 ---
 
 # Capability: Read and Write Spreadsheet Data

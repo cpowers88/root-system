@@ -3,7 +3,8 @@ domain: technology
 type: reference
 timeline: reference
 status: wiki-only
-tags: [domain/technology, source-role/primary, subject/iot, subject/edge-computing, subject/resilience, subject/security]
+tags: [subject/iot, subject/edge-computing, subject/resilience, subject/security]
+source_role: primary
 ---
 
 # IoT Edge Autonomy, Local Control, and Trust

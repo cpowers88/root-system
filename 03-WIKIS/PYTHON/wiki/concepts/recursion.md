@@ -4,7 +4,8 @@ stage: 08
 status: draft
 source_refs: ["Think Python Ch.5 (Recursion, Stack Diagrams for Recursive Functions, Infinite Recursion)", "Grokking Algorithms Ch.3"]
 prerequisites: ["defining-and-calling-functions", "if-elif-else"]
-tags: [stage-08, recursion, base-case]
+tags: [recursion, base-case]
+timeline: reference
 ---
 
 # Concept: Recursion

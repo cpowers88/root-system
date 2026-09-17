@@ -4,7 +4,8 @@ stage: 10
 status: draft
 source_refs: ["Automate the Boring Stuff Ch.13 (Web Scraping, light intro)"]
 prerequisites: ["dictionaries", "csv-and-json"]
-tags: [stage-10, apis, web-requests]
+tags: [apis, web-requests]
+timeline: reference
 ---
 
 # Concept: APIs and Web Requests (Introductory Only)

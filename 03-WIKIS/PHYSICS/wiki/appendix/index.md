@@ -1,6 +1,7 @@
 ---
 type: reference
-tags: [reference, physics]
+tags: [physics]
+timeline: reference
 ---
 
 # Appendix Reference — PHYS 2211

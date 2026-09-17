@@ -1,7 +1,11 @@
 ---
 domain: systems
 type: framework
-tags: [priority/now, status/wiki-only, domain/systems, source-role/primary, use-case/systems-analysis, use-case/data-workflow, use-case/process-design, use-case/ksu-support, subject/factory-physics, subject/littles-law, subject/queuing-theory, subject/throughput-wip-cycle-time]
+tags: [subject/factory-physics, subject/littles-law, subject/queuing-theory, subject/throughput-wip-cycle-time]
+timeline: reference
+status: wiki-only
+source_role: primary
+use_cases: [systems-analysis, data-workflow, process-design, ksu-support]
 ---
 
 # Little's Law and Best-Case Line Performance
@@ -95,7 +99,7 @@ A client tracks throughput and WIP but not cycle time directly (very common), or
 The system has very high variability or is far from steady state (e.g., a startup ramp-up, a highly seasonal business) — Little's Law is a long-run average relationship and can be misleading applied to short, highly transient windows.
 
 **Fast retrieval query**:
-`subject/littles-law` + `priority/now` — or search "WIP equals throughput times cycle time" / "best case performance critical WIP" / "CONWIP" / "inventory turns residence time"
+`tag:#subject/littles-law` — or search "WIP equals throughput times cycle time" / "best case performance critical WIP" / "CONWIP" / "inventory turns residence time"
 
 ## North Star Connection
 

@@ -1,10 +1,11 @@
 ---
 type: source-summary
+timeline: reference
 status: parked
 source_role: reference
 difficulty: post-stage-10
 source_file: raw/books/PracticalSQL.pdf
-tags: [reference, programming, parked, sql-strand]
+tags: [programming, sql-strand]
 ---
 
 # Practical SQL: Beginning Data Exploration with SELECT

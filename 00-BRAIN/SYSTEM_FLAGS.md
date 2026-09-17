@@ -3,56 +3,43 @@ type: flags
 timeline: now
 status: active
 tags: [governance]
+updated: 2026-09-06
 ---
 
-# SYSTEM_FLAGS.md — Open Improvement Flags
-### Location: 00-BRAIN\ | Check at every session start.
-### Last updated: July 17, 2026 (flag #77 — inbox sort pending decisions logged)
+# SYSTEM_FLAGS — Live Safety and Improvement Register
 
----
+Load for file-writing, system, review, security, backup, migration, or known-risk work. `SYSTEM_FLAGS_DETAIL.md` holds forensics; closed flags live in the monthly ledgers.
 
-## The Rule
+## Live prohibitions
 
-Every system improvement flag lands here the moment it is raised — in a session, a handoff, a weekly, anywhere.
+1. **Preserve raw evidence.** Never deduplicate `raw` by hash and never write, rename, move, or delete inside any `raw\` folder. Duplicate names and empty captures may be the only evidence of source loss. Chris alone places files there.
+2. **Protect private material.** Never read or write `88-JOURNAL\`. A child process can bypass application file rules, so every command and delegated boundary must preserve this rule explicitly.
+3. **Treat bulk controls honestly.** The Claude Bash gate does not cover PowerShell and does not constrain every spawned process. Bulk work requires copy-first plus `00-BRAIN\scripts\safe_shell.sh`; never describe presence of a rule as measured enforcement.
+4. **Keep universal methods reachable.** Situational procedures may load conditionally; a method or prohibition needed every time stays in the live branch that uses it.
+5. **Protect conflict copies.** `(1)`-suffixed files under `raw`, archives, or inbox are not automatically debris. Inspect provenance before any archive proposal.
 
-**Timing by priority:**
-- **HIGH** — fix in the session that raised it. Do not close the session with an open HIGH flag.
-- **MEDIUM** — fix at the next weekly review.
-- **LOW** — fix at the next monthly review.
+## Priority
 
-A flag leaves this file only when the fix is verified in the target file. "I'll remember" is not a status.
+| Priority | Required response |
+|---|---|
+| HIGH | Repair in the session raised; do not close with it unresolved. |
+| MEDIUM | Address at the next relevant review. |
+| LOW | Address at monthly review or when its owning system is already open. |
 
-If the same flag is re-raised after being closed, it comes back as HIGH.
+## Open flags
 
-**History rule (updated July 15, 2026):** this file holds OPEN flags only. When
-a flag closes, its row moves in the same session to the monthly ledger at
-`00-BRAIN\Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md` — no weekly
-migration step to forget. Pre-ledger history (June 8 – July 11, 83 rows):
-`99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`. This file is
-read at every session start — history in it is a per-session context tax.
+| # | Priority | Subject | Owner and next check |
+|---|---|---|---|
+| 105 | LOW | Drive holds a stale second `.ROOT` tree, making restoration ambiguous. | Chris: compare only after a real restore test, then choose archive/delete deliberately. |
+| 101 | LOW | Claude's bulk matcher parses some command payload/prose as executable shape and also blocks read-only work. | Chris/Codex when `.claude` changes: fix payload blanking first; do not widen the script allowlist as a substitute. |
+| 97 | MEDIUM | Five raw sources need recovery and the clipper can lose captures. | Chris: re-clip only after the clipper is fixed or retired. Monthly review. |
+| 96 | MEDIUM | Spawned processes can bypass journal/raw tool guards. | Re-measure controls at any `.claude` change and monthly; preserve prohibition 2. |
+| 93 | MEDIUM | HIGH-before-close remains prose rather than enforced behavior. | Design and review a warning/block mechanism before implementation. |
+| 16 | LOW | Physics right-hand rule needs a physical anchor before torque instruction. | PHYSICS: Oct 12–18 learning window, using hands and a real wrench/breaker bar. |
+| 69 | LOW | Byte-identical AIAS raw capture has an approved archive disposition AI cannot execute. | Chris moves it; AI leaves raw untouched. |
 
----
+No HIGH flag is currently open. Full evidence, prior probes, and ownership history are in `SYSTEM_FLAGS_DETAIL.md`. Closed records: `Session_Logs\Closed Flags\CLOSED_FLAGS_2026-08.md` and `CLOSED_FLAGS_2026-09.md`.
 
-## OPEN FLAGS
+## September runtime ruling
 
-| # | Flag | Raised | Priority | Target | Status |
-|---|---|---|---|---|---|
-| 57 | **EDUCATION syllabus data-quality gaps** (recorded on `fall-2026-course-briefs.md`): the ENGR 1000 syllabus in raw/ is the **Fall 2025 edition** — its policies (including the total AI prohibition) must be reverified against the real Fall 2026 syllabus when KSU posts it; TCOM 2010's schedule table carries recycled January/Spring dates inside a Fall 2026 header (weekly rhythm probably right, printed dates wrong — trust D2L); TCOM's assignment-weights table is cut off in the source scan — pull the real table from D2L in week 1. | July 9 | MEDIUM | Update `03-WIKIS\EDUCATION\wiki\fall-2026-course-briefs.md` when Fall 2026 ENGR syllabus + D2L are available; hard ceiling Aug 24 | OPEN |
-| 16 | Spin rule / right-hand rule needs physical anchor from Atlas. Covers: cross product, torque, angular velocity, and future magnetic field direction. Curl fingers in direction of rotation, thumb points to vector. Must be anchored before these topics appear in PHYS 2211. | June 9 | LOW | Atlas / Physics sessions | OPEN — **approaching**: Chris is now working Vectors (Serway Ch 3) per castle current-position (July 8); cross product is next door. Atlas should anchor it in the next physics session that touches vector products. |
-| 68 | Raw-file naming defects found during the July 12 Claude Code + OpenAI docs pack ingest (`03-WIKIS\AI_AUTOMATION_SYSTEMS\raw\`): (a) 12 files in `OPEN_AI-CHATGPT_CODEX_FILES\` (`OpenAI API.md`–`OpenAI API 9.md`, `OpenAI AP15I (1)/(2).md`) share a collided literal page title from capture — SHA-256 confirmed none are duplicates, all 12 genuinely distinct, all now routed into wiki pages, but raw filenames stay generic/unsearchable; (b) `CLI_USE.md` (Claude pack) and `Node reference  OpenAI API.md` (OpenAI pack) are mislabeled — actual content is computer use and the Agent Builder node catalog, not CLI usage or a Node SDK reference. All four already correctly routed in wiki pages despite misleading raw filenames. | July 12 | LOW | Informational only — raw/ is immutable; no fix needed unless Chris wants to rename for future searchability | OPEN |
-| 69 | `Agents SDK  OpenAI API 1.md` in `03-WIKIS\AI_AUTOMATION_SYSTEMS\raw\OPEN_AI-CHATGPT_CODEX_FILES\` is byte-identical (SHA-256 `0ddb73d5...92db1`) to `Agents SDK  OpenAI API.md` — same defect class as closed flag #63 (mis-saved duplicate). Content read once, not double-summarized. | July 12 | LOW | Chris's call whether to remove the duplicate; both remain in raw pending decision | OPEN |
-| 77 | `77-INBOX` sort (July 17 evening): two named PDFs moved and confirmed as new material — `Process Mining Handbook.pdf` → `03-WIKIS\SYSTEMS\raw\` (deepens existing BPMN/XES/PM4Py lane; ties to MCP Bootcamp Day 1 Systems Audit) and `AI in Business and Economics.pdf` → `03-WIKIS\AI_AUTOMATION_SYSTEMS\raw\` (ties to Day 7 Product & Value). Neither has a ledger row or synthesis page yet — full/selective ingestion deliberately deferred (780 combined pages, late session, standing "don't reopen large source books as a reading queue" discipline). Four other inbox PDFs are confirmed duplicates of already-compiled sources (`Entrepreneurship.pdf`, `The Goal, GOLDRATT.pdf`, `Foundations of Scalable Systems.pdf`, `Hacking APIs.pdf`) sitting untouched in `77-INBOX` pending Chris's delete-or-leave call. `TheLeanStartup,RIES.pdf` is genuinely new/uncovered (no home decision made). `Programming Logic and Design Comprehensive.pdf` is parked, not ingested — matches Chris's own stated read on Python fundamentals ("good for now, will ask if it gets advanced"), no live build boundary needs it. | July 17 | LOW | `77-INBOX` (4 duplicates) / `03-WIKIS\SYSTEMS\raw\` + `03-WIKIS\AI_AUTOMATION_SYSTEMS\raw\` (2 unregistered new sources) | OPEN |
-
----
-
-## CLOSED FLAGS
-
-Closed flags live in the monthly ledger:
-`00-BRAIN\Session_Logs\Closed Flags\CLOSED_FLAGS_YYYY-MM.md` (current month:
-`CLOSED_FLAGS_2026-07.md`, 13 rows migrated July 15). Pre-ledger history
-(June 8 – July 11, 83 rows):
-`99-ARCHIVE\ARCHIVED_2026-07-11_SYSTEM_FLAGS_CLOSED_TABLE.md`.
-
----
-*Maintained by: Claude + Chris | Reviewed: every session start (HIGH), weekly (MEDIUM), monthly (LOW)*
-*Last updated: July 17, 2026*
+Flag #91 re-raised HIGH on September 6 because the September 5 TUTOR/VALUE decision failed to propagate through multiple live interfaces—the second propagation miss under its standing consequence. It closed the same session through the approved runtime rewrite, archive preservation, semantic reconciliation, boot validation, wiki lint, and CASTLE freshness checks. The 14-day runtime review measures usefulness, not whether the HIGH conflict remains open.

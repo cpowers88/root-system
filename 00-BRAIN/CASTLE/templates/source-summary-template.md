@@ -30,7 +30,7 @@ tags: [source]
 **Source type**: book | official docs | standard | report | article | video | internal file
 **URL or Drive location**:
 **Date accessed**:
-**Reliability tier**: 1–4 (Tier 4 cannot determine the roadmap — questions only)
+**Reliability tier**: 1–4 — a confidence guide, not authority; low-tier sources may raise questions or suggest tests, and no source overrides the North Star, owner truth, measured outcomes, or Chris's decision
 
 ## Core Argument (3 sentences max)
 

@@ -1,8 +1,9 @@
 ---
 type: report
-tags: [log, audit, governance]
+tags: [audit, governance]
 status: report-only
 created: 2026-07-15
+timeline: log
 ---
 
 # `.ROOT` System Integrity Audit — July 15, 2026

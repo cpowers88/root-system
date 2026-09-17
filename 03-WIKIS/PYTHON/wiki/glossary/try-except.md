@@ -4,6 +4,7 @@ stage: 06
 status: draft
 aliases: ["try-except block", "exception handling"]
 related_terms: ["exception"]
+timeline: reference
 ---
 
 # `try` / `except`

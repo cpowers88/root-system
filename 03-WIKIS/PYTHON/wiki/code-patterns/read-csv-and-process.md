@@ -3,7 +3,8 @@ type: code-pattern
 stage: 09
 status: draft
 concepts: ["csv", "list", "for-loop"]
-tags: [stage-09, csv, automation]
+tags: [csv, automation]
+timeline: reference
 ---
 
 # Code Pattern: Read a CSV File and Process Its Rows

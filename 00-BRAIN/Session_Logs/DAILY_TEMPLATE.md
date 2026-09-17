@@ -12,6 +12,25 @@ tags: [governance]
 
 ---
 
+## Today So Far
+
+A running, top-of-file recap — refreshed by whichever session just closed a
+task block below. Read this instead of the full Task Blocks history to answer
+"what did we get done today"; it is not a replacement for the end-of-day
+`Day Summary` (bottom of file), which is a denser, different artifact written
+once, by the day's last session, to feed the weekly review.
+
+```
+## Today So Far
+- [HH:MM] [one short line — what actually got done, plain language]
+- [HH:MM] [next block's one-line result]
+```
+
+Keep entries in the same plain, no-analysis register as the Task Blocks
+themselves — this section exists to be read in 15 seconds, not studied.
+
+---
+
 ## Task Blocks
 
 Append one block **when the session starts a task, switches task/section, and at session close**.

@@ -4,6 +4,7 @@ stage: 01
 status: draft
 aliases: ["str"]
 related_terms: ["concatenation", "type-conversion"]
+timeline: reference
 ---
 
 # String

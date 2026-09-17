@@ -4,6 +4,7 @@ stage: 02
 status: draft
 aliases: ["and", "or", "not", "logical operators"]
 related_terms: ["boolean", "condition"]
+timeline: reference
 ---
 
 # Boolean Operators (`and`, `or`, `not`)

@@ -3,7 +3,8 @@ type: code-pattern
 stage: 08
 status: draft
 concepts: ["recursion", "base-case"]
-tags: [stage-08, recursion]
+tags: [recursion]
+timeline: reference
 ---
 
 # Code Pattern: Recursive Function With a Base Case

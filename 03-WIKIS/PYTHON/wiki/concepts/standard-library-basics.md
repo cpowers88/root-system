@@ -4,7 +4,8 @@ stage: 04
 status: ready
 source_refs: ["CSE 1321/1321L official syllabi: Python Libraries module", "Python docs tutorial/modules.txt: 6. Modules"]
 prerequisites: ["defining-and-calling-functions"]
-tags: [stage-04, modules, standard-library]
+tags: [modules, standard-library]
+timeline: reference
 ---
 
 # Concept: Standard Library Basics
@@ -85,5 +86,5 @@ labeled drawer; `random.randint()` selects one tool from it.
 
 ## Source Notes
 
-- (source: `CSE_Syllabus.pdf`, p.10; `CSEL_Syllabus.pdf`, pp.5-6 — Python Libraries follows functions and precedes tuples/lists)
+- (sources: active CSE 1321 and CSE 1321L Fall 2026 Markdown syllabi, course schedule sections — Python Libraries follows functions and precedes tuples/lists)
 - (source: `raw/DOCS/tutorial/modules.txt`, section 6, "Modules")

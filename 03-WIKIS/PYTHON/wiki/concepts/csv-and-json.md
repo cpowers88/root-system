@@ -4,7 +4,8 @@ stage: 09
 status: draft
 source_refs: ["Automate the Boring Stuff Ch.18 (CSV, JSON, and XML Files)", "Python Workout Ch.6 (Reading and writing CSV)"]
 prerequisites: ["lists", "dictionaries", "file-paths-and-reading-writing"]
-tags: [stage-09, csv, json, structured-data]
+tags: [csv, json, structured-data]
+timeline: reference
 ---
 
 # Concept: CSV and JSON (Structured Data Formats)

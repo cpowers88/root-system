@@ -4,7 +4,8 @@ status: active
 stage: 5
 python_tools: [str methods]
 prerequisites: [strings, loops, lists]
-tags: [reference, programming, capability]
+tags: [programming, capability]
+timeline: reference
 ---
 
 # Capability: Clean Messy Text
