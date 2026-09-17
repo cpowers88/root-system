@@ -71,6 +71,11 @@ Aug 21 and Aug 22. Full evidence: `log.md` 2026-08-22 and [[current-position]].
 the subdeck for the active stage; see the Flash Cards folder's
 `README_IMPORT_INSTRUCTIONS.md` for import steps and the superseded prior decks.
 
+## Exam 1 Practice — September 21, 2026
+
+- [[drills/exam-1-prep-test-2026-09-21]] — original mixed practice, 100 points, suggested 55-minute attempt after Homework 4; scope based on the saved Exam 1 pathway, pending current instructor confirmation.
+- [[drills/exam-1-prep-test-2026-09-21-key]] — separate tutor key; keep closed until the independent attempt is complete.
+
 ## Folders
 
 Live counts as of 2026-07-21 (all 18 stage packets generated in the July

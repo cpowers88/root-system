@@ -300,3 +300,12 @@ before any mastery claim.
 *Method owner: `03-WIKIS\EDUCATION`. Consumed by `00-BRAIN\HATS\HAT_EDUCATOR.md`. Rubric source:
 `00-BRAIN\Session_Logs\System Update Log\2026-08-12_ROOT_UPDATE\claude_report_2026-08-13_teaching_layer_rebuild.md` §4.
 Companion: [[learning-how-to-learn-principles]], [[memory-techniques]].*
+
+## 2026-09-17 — HAT_PHYSICS, Exam 1 practice preparation (Codex)
+
+- Check 1: `n/v` — user supplied routing instructions before the subject load; educator/physics hats, PHYSICS operations/current position, and requested CASTLE owners were read.
+- Check 2: partial — outcome stated immediately, but context loading was longer than needed; practice delivered before teaching began.
+- Check 3: pass — followed Chris's choice to finish Homework 4 before taking/reviewing the practice test.
+- Check 4: not yet tested — original cold questions prepared with a separate key; Chris has not attempted them.
+- Check 5: pass — no live Homework 4 problems read, solved, or adapted; private practice only.
+- Check 6: pass for preparation — PHYS log and index point to the test and exact resume; explicitly no learner movement. Recorded Exam 1 versus Module 01 scope uncertainty instead of treating them as identical.

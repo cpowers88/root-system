@@ -2846,3 +2846,28 @@ and miss-log 5b in the relocated lead block.
 - **Boundary:** the repository is a possible external course library for the future
   greenfield learning system, not a new `.ROOT` subsystem. No skill-map row or new
   curriculum was activated.
+
+## 2026-09-15 — Manufacturing operations passes as a one-hour workforce-aligned case
+
+- **Idea gated:** study small and midsize manufacturing operations this week, narrowed
+  to production flow, work-in-process inventory, scheduling, and material/data flow.
+- **No-orphan: PASS.** It directly serves Industrial & Systems Engineering
+  employability and the active Strategic Landscape pilot's Run 2 comparison of
+  workflow-level opportunity cells.
+- **Source: PASS.** The BUSINESS owner already preserves current Tier 1 government
+  evidence from BLS and Census for industrial-engineering demand and manufacturing
+  orders, inventory, shipments, and backlogs. A NIST MEP case supplies a concrete
+  small-manufacturer application: https://www.nist.gov/mep/successstories/2024/lean-tools-provide-lead-time-reduction
+- **Phase: PASS.** The September 6–October 4 Strategic Landscape pilot is active now;
+  this is a manufacturing slice of Run 2, not a new market commitment.
+- **Displacement: PASS with cap.** It replaces ad hoc business reading and is limited
+  to one hour after PHYS and TCOM work. It may not displace the PHYS Exam 1 sweep or
+  completion and diagnosis of the TCOM work currently returning 69%.
+- **Proof: PASS.** One sentence: Chris maps the NIST case's current production flow,
+  identifies WIP and the bottleneck, checks the before/after measures, and writes a
+  short management recommendation that he can explain independently.
+- **Profit-gate verdict: PASS — bounded capability/research block only.** No outreach,
+  build, skill-map row, offer, market activation, or proof-ladder promotion follows.
+  Stop if the hour becomes generic Lean reading or cannot produce the named artifact.
+- **Next exact action:** after fixed school work, analyze the single NIST MEP case and
+  return the one-page result for the September 20 landscape review.

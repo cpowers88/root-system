@@ -8,12 +8,11 @@ created: 2026-09-15
 
 # Codex School Handoff — September 15
 
-**Current state** — CSE Quiz 2 is complete at 100%: 10 of 10 correct in 10
-minutes. Chris initially missed the program's data flow on one question, caught and
-changed the answer before submission, then solved a similar question correctly when it
-appeared again. This is successful self-correction and transfer, not a cold miss. ECON's
-returned quiz score is 100%. The ENGR quiz is submitted but not graded. A TCOM item
-returned at 69%, and the TCOM group project is progressing and expected to finish soon.
+**Current state** — Today's school close and bounded business-learning decision are
+recorded in `00-BRAIN\Session_Logs\DAILY_2026-09-15.md`. CSE Quiz 2 is complete at
+100% in 10 minutes and remains maintenance. PHYS and TCOM are the current attention
+leaders. Small and midsize manufacturing operations passed only as a one-hour,
+school-subordinate case study this week.
 
 **Open question/blocker** — The exact TCOM item that earned 69% is not yet named, so its
 component weight and the appropriate `GRADE TRACKER` cell cannot be determined. The
@@ -31,7 +30,10 @@ open rep remains the PHYS circular-motion transfer: one unfamiliar problem answe
 with number, direction, and real force, unprompted. `FallKSU.xlsx` has not been updated;
 Chris should mark CSE Quiz 2 and the ECON quiz Done with scores of 100, enter the current
 CSE and ECON quiz averages from D2L in the grade tracker, and leave the ENGR score blank
-until released.
+until released. The business case is production flow, WIP inventory, scheduling, and
+material/data flow in a small manufacturer. Its proof is one process map with checked
+before/after measures and a short management recommendation; stop after one hour and do
+not open outreach, a build, or a new business commitment.
 
 *Written by:* Codex, for the same-day move back to school and laptop continuation.
 

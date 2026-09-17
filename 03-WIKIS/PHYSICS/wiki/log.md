@@ -2404,3 +2404,13 @@ product, variable-depth footing for the integral).
 ### Files created/updated
 - `wiki/work-energy-25min-review.md` (created)
 - `wiki/log.md` (this entry)
+
+## 2026-09-17 — Exam 1 practice prepared for use after Homework 4
+
+- **Outcome:** loaded requested CASTLE context and educator/physics owners; created [[drills/exam-1-prep-test-2026-09-21]] and its separate [[drills/exam-1-prep-test-2026-09-21-key|tutor key]]. Eleven original questions, 100 points, suggested 55-minute simulation. No Homework 4 problems were inspected or adapted.
+- **Scope evidence:** saved [[semester-pathway]] § Exam map lists Ch 1–5 and §§6.1–6.2; Chris's saved Module 01 HTML covers Ch 1–4. Current instructor scope remains unconfirmed; question sent to Chris. Dynamics questions are separately identified so the set can be narrowed.
+- **Design:** mixed representations, calculus with initial conditions, no-time equation selection, unequal-height projectile, friction, connected masses, banked curve, and relative velocity. Point total and numerical key checked independently by calculation; wiki checks recorded below after execution.
+- **Learner movement:** none. No attempt, cold performance, score, or new error classification occurred. Existing frontier and durability obligations remain unchanged. Prepared practice is output, not mastery evidence.
+- **Next exact action:** Chris finishes Homework 4, then attempts the student test independently and returns his work before opening the key; review begins with his first uncertain setup.
+- **Reusable asset:** the original practice/key pair. **System-learning candidate:** none; no governance change.
+- **Validation:** numerical calculations, 11-question count, 100-point total, 74-point module subset, and whitespace passed. Root health passed wiki navigation (0 blockers/reviews) and frontmatter (0 total/new findings); overall result was `BLOCKER` because two existing CASTLE goal review triggers dated September 13 are overdue (`capability_development_goal.md`, `value_production_goal.md`). Those goal files were not changed. The gate does not verify current instructor scope or learner mastery.
